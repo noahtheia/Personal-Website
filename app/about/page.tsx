@@ -6,11 +6,11 @@ export default function AboutPage() {
   return (
     <article>
       <p className="eyebrow">About</p>
-      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight sm:text-5xl">
-        {site.name}
+      <h1 className="mt-3 font-display text-2xl font-semibold tracking-tight sm:text-3xl">
+        {site.author}
       </h1>
 
-      <div className="prose prose-neutral mt-10 max-w-none">
+      <div className="prose prose-neutral mt-8 max-w-none">
         <p>
           Long-form investment write-ups and macro essays for sophisticated investors.
           I write about ideas I&apos;m actively researching — usually single names or

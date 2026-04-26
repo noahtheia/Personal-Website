@@ -2,7 +2,6 @@ import Link from "next/link";
 import { getAllPosts } from "@/lib/posts";
 import { PostCard } from "@/components/PostCard";
 import { SubscribeForm } from "@/components/SubscribeForm";
-import { site } from "@/lib/site";
 
 export default function HomePage() {
   const posts = getAllPosts();
@@ -11,12 +10,14 @@ export default function HomePage() {
   return (
     <div className="space-y-20">
       <section>
-        <p className="eyebrow">{site.tagline}</p>
-        <h1 className="mt-3 font-display text-[2.5rem] font-semibold leading-[1.05] tracking-tight sm:text-[3.25rem]">
-          {site.name}
+        <p className="eyebrow">Welcome</p>
+        <h1 className="mt-4 font-display text-[2rem] font-semibold leading-[1.15] tracking-tight sm:text-[2.5rem]">
+          Long-form investment write-ups and macro essays for sophisticated
+          investors.
         </h1>
-        <p className="mt-6 max-w-[36rem] font-sans text-lg leading-relaxed text-fg-soft">
-          {site.description}
+        <p className="mt-6 max-w-[34rem] font-sans text-lg leading-relaxed text-fg-soft">
+          Single names I&apos;m researching, the macro context they live in, and
+          the spreadsheets I built while thinking through them.
         </p>
 
         <div className="mt-10 max-w-md">

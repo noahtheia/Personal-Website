@@ -2,15 +2,17 @@
 // Update these values to rebrand the site.
 
 export const site = {
-  name: "Noah Goldberg",
-  tagline: "Ideas",
-  fullName: "Noah Goldberg's Ideas",
+  // Brand wordmark — used in the header, browser tab, and page-title template.
+  brand: "Noah's Ideas",
+
+  // Your real name — used on the About page and in the copyright line.
+  author: "Noah Goldberg",
+
   description:
     "Long-form investment write-ups and macro essays for sophisticated investors.",
   shortBio:
     "Investment write-ups and macro essays. Most posts come with the spreadsheet.",
   email: "hello@example.com",
-  copyrightHolder: "Noah Goldberg",
   url:
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
     "http://localhost:3000",

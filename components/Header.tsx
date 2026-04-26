@@ -6,14 +6,9 @@ export function Header() {
     <header className="flex items-center justify-between border-b border-rule pb-5">
       <Link
         href="/"
-        className="group inline-flex items-baseline gap-2 !text-fg no-underline"
+        className="font-display text-lg font-semibold tracking-tight !text-fg no-underline transition-colors hover:!text-accent"
       >
-        <span className="font-display text-lg font-semibold tracking-tight group-hover:!text-accent">
-          {site.name}
-        </span>
-        <span className="font-sans text-[0.7rem] uppercase tracking-[0.16em] text-muted">
-          {site.tagline}
-        </span>
+        {site.brand}
       </Link>
       <nav className="flex gap-6 font-sans text-sm">
         <NavLink href="/posts">Writing</NavLink>
