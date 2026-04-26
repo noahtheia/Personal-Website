@@ -13,6 +13,10 @@ export const site = {
   shortBio:
     "Investment write-ups and macro essays. Most posts come with the spreadsheet.",
   email: "hello@example.com",
+  socials: [
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/noahgoldbergiu/" },
+    { label: "X", href: "https://x.com/TraderNoah" },
+  ],
   url:
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
     "http://localhost:3000",

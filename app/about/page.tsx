@@ -20,10 +20,37 @@ export default function AboutPage() {
           Most posts come with the spreadsheet I built while working through the idea.
           Treat it as the input to your own thinking, not the answer.
         </p>
-        <p>
-          Reach out: <a href={`mailto:${site.email}`}>{site.email}</a>
-        </p>
       </div>
+
+      <section className="mt-10 border-t border-rule pt-8">
+        <p className="eyebrow">Elsewhere</p>
+        <ul className="mt-4 space-y-2 font-sans text-[0.95rem]">
+          <li>
+            <a
+              href={`mailto:${site.email}`}
+              className="!text-fg no-underline underline-offset-4 hover:!text-accent hover:underline"
+            >
+              Email
+            </a>
+            <span className="ml-2 text-muted">{site.email}</span>
+          </li>
+          {site.socials.map((s) => (
+            <li key={s.href}>
+              <a
+                href={s.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="!text-fg no-underline underline-offset-4 hover:!text-accent hover:underline"
+              >
+                {s.label}
+              </a>
+              <span className="ml-2 text-muted">
+                {s.href.replace(/^https?:\/\//, "")}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </section>
     </article>
   );
 }
