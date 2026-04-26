@@ -3,13 +3,19 @@ import { site } from "@/lib/site";
 export function Footer() {
   return (
     <footer className="border-t border-rule pt-6 font-sans text-sm text-muted">
-      <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
+      <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
         <p>
           © {new Date().getFullYear()} {site.author}.
         </p>
-        <p className="text-xs">
-          For discussion only. Nothing here is investment advice.
-        </p>
+        <div className="flex items-center gap-4 text-xs">
+          <a
+            href="/feed.xml"
+            className="!text-muted no-underline hover:!text-accent hover:underline"
+          >
+            RSS
+          </a>
+          <span>For discussion only. Nothing here is investment advice.</span>
+        </div>
       </div>
     </footer>
   );
