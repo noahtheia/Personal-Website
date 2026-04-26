@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { site } from "@/lib/site";
 
 export function Footer() {
@@ -8,13 +9,18 @@ export function Footer() {
           © {new Date().getFullYear()} {site.author}.
         </p>
         <div className="flex items-center gap-4 text-xs">
+          <Link
+            href="/disclosures"
+            className="!text-muted no-underline hover:!text-accent hover:underline"
+          >
+            Disclosures
+          </Link>
           <a
             href="/feed.xml"
             className="!text-muted no-underline hover:!text-accent hover:underline"
           >
             RSS
           </a>
-          <span>For discussion only. Nothing here is investment advice.</span>
         </div>
       </div>
     </footer>
