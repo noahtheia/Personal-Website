@@ -28,8 +28,8 @@ export function SubscribeForm() {
       setStatus("success");
       setMessage(
         data.alreadySubscribed
-          ? "You're already on the list — thanks!"
-          : "Subscribed. Check your inbox for the next post.",
+          ? "You're already on the list — thanks."
+          : "Subscribed. The next post will land in your inbox.",
       );
       setEmail("");
     } catch {
@@ -39,27 +39,29 @@ export function SubscribeForm() {
   }
 
   return (
-    <form onSubmit={onSubmit} className="flex flex-col gap-2 sm:flex-row">
-      <input
-        type="email"
-        required
-        placeholder="you@email.com"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        disabled={status === "loading"}
-        className="flex-1 rounded border border-[var(--border)] bg-white px-3 py-2 font-sans text-sm outline-none focus:border-[var(--accent)]"
-      />
-      <button
-        type="submit"
-        disabled={status === "loading"}
-        className="rounded bg-[var(--fg)] px-4 py-2 font-sans text-sm font-semibold text-white disabled:opacity-60"
-      >
-        {status === "loading" ? "Subscribing…" : "Subscribe"}
-      </button>
+    <form onSubmit={onSubmit} className="w-full">
+      <div className="flex flex-col gap-2 sm:flex-row sm:gap-0">
+        <input
+          type="email"
+          required
+          placeholder="you@email.com"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          disabled={status === "loading"}
+          className="flex-1 rounded border border-rule-strong bg-surface px-4 py-3 font-sans text-sm text-fg outline-none transition-colors placeholder:text-muted focus:border-accent sm:rounded-r-none"
+        />
+        <button
+          type="submit"
+          disabled={status === "loading"}
+          className="rounded bg-[var(--accent-warm)] px-5 py-3 font-sans text-sm font-semibold text-white transition-colors hover:bg-[var(--accent-warm-hover)] disabled:opacity-60 sm:rounded-l-none"
+        >
+          {status === "loading" ? "Subscribing…" : "Subscribe"}
+        </button>
+      </div>
       {message ? (
         <p
-          className={`mt-1 font-sans text-sm sm:basis-full ${
-            status === "error" ? "text-red-700" : "text-[var(--muted)]"
+          className={`mt-3 font-sans text-sm ${
+            status === "error" ? "text-red-700" : "text-muted"
           }`}
         >
           {message}

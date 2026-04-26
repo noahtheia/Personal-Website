@@ -3,19 +3,26 @@ import type { Attachment } from "@/lib/posts";
 export function Attachments({ items }: { items: Attachment[] }) {
   if (!items.length) return null;
   return (
-    <section className="mt-10 rounded border border-[var(--border)] bg-white p-5">
-      <h3 className="font-sans text-sm font-semibold uppercase tracking-wide text-[var(--muted)]">
-        Attachments
-      </h3>
-      <ul className="mt-3 space-y-2">
+    <section className="mt-12 rounded border border-rule bg-surface p-6">
+      <p className="eyebrow">Attachments</p>
+      <ul className="mt-4 space-y-3">
         {items.map((a) => (
-          <li key={a.path}>
-            <a href={a.path} download className="font-sans">
-              {a.name}
-            </a>
-            {a.description ? (
-              <span className="ml-2 font-sans text-sm text-[var(--muted)]">— {a.description}</span>
-            ) : null}
+          <li key={a.path} className="flex items-baseline gap-3">
+            <span aria-hidden className="font-sans text-xs text-muted">▸</span>
+            <div>
+              <a
+                href={a.path}
+                download
+                className="font-sans text-[0.95rem] font-medium !text-fg no-underline underline-offset-4 hover:!text-accent hover:underline"
+              >
+                {a.name}
+              </a>
+              {a.description ? (
+                <p className="mt-0.5 font-sans text-sm text-muted">
+                  {a.description}
+                </p>
+              ) : null}
+            </div>
           </li>
         ))}
       </ul>

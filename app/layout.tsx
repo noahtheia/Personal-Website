@@ -1,24 +1,38 @@
 import type { Metadata } from "next";
+import { Fraunces, Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { site } from "@/lib/site";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-fraunces",
+  display: "swap",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-inter",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(site.url),
   title: {
-    default: "Noah's Notes",
-    template: "%s — Noah's Notes",
+    default: site.fullName,
+    template: `%s — ${site.name}`,
   },
-  description: "Investment ideas, models, and notes.",
+  description: site.description,
   openGraph: {
-    title: "Noah's Notes",
-    description: "Investment ideas, models, and notes.",
+    title: site.fullName,
+    description: site.description,
     type: "website",
-    url: siteUrl,
+    url: site.url,
   },
 };
 
@@ -28,11 +42,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="font-serif antialiased">
-        <div className="mx-auto flex min-h-screen max-w-2xl flex-col px-6 py-10">
+    <html lang="en" className={`${fraunces.variable} ${inter.variable}`}>
+      <body className="bg-bg font-sans text-fg antialiased">
+        <div className="mx-auto flex min-h-screen max-w-prose flex-col px-6 py-8 sm:py-10">
           <Header />
-          <main className="flex-1 py-10">{children}</main>
+          <main className="flex-1 py-12 sm:py-16">{children}</main>
           <Footer />
         </div>
         <Analytics />

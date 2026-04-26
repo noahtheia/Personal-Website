@@ -1,20 +1,29 @@
+import { site } from "@/lib/site";
+
 export const metadata = { title: "About" };
 
 export default function AboutPage() {
   return (
-    <div className="prose prose-neutral max-w-none prose-headings:font-sans">
-      <h1>About</h1>
-      <p>
-        I&apos;m Noah. I write about investment ideas I&apos;m researching — usually
-        single companies or situations, occasionally frameworks I&apos;m chewing on.
-      </p>
-      <p>
-        Most posts come with the spreadsheet I built while thinking through the
-        idea. Treat them as inputs to your own thinking, not advice.
-      </p>
-      <p>
-        Reach out: <a href="mailto:hello@example.com">hello@example.com</a>
-      </p>
-    </div>
+    <article>
+      <p className="eyebrow">About</p>
+      <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight sm:text-5xl">
+        {site.name}
+      </h1>
+
+      <div className="prose prose-neutral mt-10 max-w-none">
+        <p>
+          Long-form investment write-ups and macro essays for sophisticated investors.
+          I write about ideas I&apos;m actively researching — usually single names or
+          situations, occasionally the macro context I think they live inside.
+        </p>
+        <p>
+          Most posts come with the spreadsheet I built while working through the idea.
+          Treat it as the input to your own thinking, not the answer.
+        </p>
+        <p>
+          Reach out: <a href={`mailto:${site.email}`}>{site.email}</a>
+        </p>
+      </div>
+    </article>
   );
 }
