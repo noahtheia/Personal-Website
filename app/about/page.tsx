@@ -44,9 +44,6 @@ export default function AboutPage() {
               >
                 {s.label}
               </a>
-              <span className="ml-2 text-muted">
-                {s.href.replace(/^https?:\/\//, "")}
-              </span>
             </li>
           ))}
         </ul>
