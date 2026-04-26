@@ -1,0 +1,7 @@
+Place Excel attachments in this directory.
+Reference them from a post's frontmatter, e.g.:
+
+  attachments:
+    - name: "model-2026-04.xlsx"
+      path: "/files/model-2026-04.xlsx"
+      description: "Base case + bull/bear scenarios"
