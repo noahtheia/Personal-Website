@@ -2,9 +2,16 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import { formatDate, getPostBySlug, getPostSlugs } from "@/lib/posts";
+import {
+  formatDate,
+  getAdjacentPosts,
+  getPostBySlug,
+  getPostSlugs,
+  type Post,
+} from "@/lib/posts";
 import { Attachments } from "@/components/Attachments";
 import { SubscribeForm } from "@/components/SubscribeForm";
+import { site } from "@/lib/site";
 
 export function generateStaticParams() {
   return getPostSlugs().map((slug) => ({ slug }));
@@ -35,13 +42,37 @@ export default async function PostPage(
   const post = getPostBySlug(slug);
   if (!post) notFound();
 
+  const { older, newer } = getAdjacentPosts(slug);
+  const url = `${site.url}/posts/${post.slug}`;
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.frontmatter.title,
+    description: post.frontmatter.excerpt,
+    datePublished: post.frontmatter.date,
+    dateModified: post.frontmatter.date,
+    author: { "@type": "Person", name: site.author, url: site.url },
+    publisher: { "@type": "Person", name: site.author },
+    url,
+    mainEntityOfPage: url,
+  };
+
   return (
     <article>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+
       <header className="border-b border-rule pb-8">
         <p className="eyebrow">
           <time dateTime={post.frontmatter.date}>
             {formatDate(post.frontmatter.date)}
           </time>
+          <span className="ml-3 text-muted">
+            · {post.readingTimeMinutes} min read
+          </span>
         </p>
         <h1 className="mt-3 font-display text-[2.25rem] font-semibold leading-[1.1] tracking-tight sm:text-[2.75rem]">
           {post.frontmatter.title}
@@ -59,6 +90,16 @@ export default async function PostPage(
 
       {post.frontmatter.attachments?.length ? (
         <Attachments items={post.frontmatter.attachments} />
+      ) : null}
+
+      {older || newer ? (
+        <nav className="mt-16 border-t border-rule pt-8">
+          <p className="eyebrow">More writing</p>
+          <div className="mt-4 grid gap-4 sm:grid-cols-2">
+            <AdjacentLink direction="older" post={older} />
+            <AdjacentLink direction="newer" post={newer} />
+          </div>
+        </nav>
       ) : null}
 
       <section className="mt-16 border-t border-rule pt-10">
@@ -79,5 +120,35 @@ export default async function PostPage(
         </p>
       </section>
     </article>
+  );
+}
+
+function AdjacentLink({
+  direction,
+  post,
+}: {
+  direction: "older" | "newer";
+  post: Post | null;
+}) {
+  const label = direction === "older" ? "Older" : "Newer";
+  const arrow = direction === "older" ? "←" : "→";
+  const align = direction === "older" ? "text-left" : "sm:text-right";
+
+  if (!post) {
+    return <div aria-hidden className={`hidden sm:block ${align}`} />;
+  }
+
+  return (
+    <Link
+      href={`/posts/${post.slug}`}
+      className={`group block !text-fg no-underline ${align}`}
+    >
+      <p className="font-sans text-xs uppercase tracking-[0.16em] text-muted">
+        {direction === "older" ? `${arrow} ${label}` : `${label} ${arrow}`}
+      </p>
+      <p className="mt-1 font-display text-[1.05rem] font-semibold leading-snug transition-colors group-hover:!text-accent">
+        {post.frontmatter.title}
+      </p>
+    </Link>
   );
 }

@@ -9,6 +9,9 @@ export function PostCard({ post }: { post: Post }) {
         <time dateTime={post.frontmatter.date}>
           {formatDate(post.frontmatter.date)}
         </time>
+        <span className="ml-3 text-muted">
+          · {post.readingTimeMinutes} min read
+        </span>
         {attachmentCount > 0 ? (
           <span className="ml-3 text-muted">
             · {attachmentCount} attachment{attachmentCount === 1 ? "" : "s"}
