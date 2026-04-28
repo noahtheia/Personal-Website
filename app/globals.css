@@ -21,6 +21,10 @@
   /* Lines */
   --border: #e5e1d6;
   --border-strong: #cfc9b8;
+
+  /* Semantic accents (data direction) */
+  --positive: #2c7a4d;
+  --negative: #a03a35;
 }
 
 html,
