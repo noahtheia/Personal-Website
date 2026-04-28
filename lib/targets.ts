@@ -6,6 +6,7 @@ const TargetSchema = z.object({
   ticker: z.string(),
   name: z.string(),
   target: z.number().positive(),
+  currency: z.string().optional(),
   side: z.enum(["long", "short"]).default("long"),
   thesisDate: z.string(),
   postSlug: z.string().optional(),
@@ -37,7 +38,7 @@ export async function getPricedTargets(): Promise<PricedTarget[]> {
     targets.map(async (t): Promise<PricedTarget> => {
       const quote = await fetchQuote(t.ticker);
       const lastPrice = quote?.price ?? null;
-      const currency = quote?.currency ?? "USD";
+      const currency = t.currency ?? quote?.currency ?? "USD";
       const impliedReturn =
         lastPrice !== null ? ((t.target - lastPrice) / lastPrice) * 100 : null;
       return { ...t, lastPrice, currency, impliedReturn, fetchedAt };

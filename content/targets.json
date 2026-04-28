@@ -1,11 +1,26 @@
 [
   {
-    "ticker": "AAPL",
-    "name": "Apple Inc.",
-    "target": 250.00,
+    "ticker": "SLCE3.SA",
+    "name": "SLC Agrícola",
+    "target": 21.00,
+    "currency": "BRL",
     "side": "long",
-    "thesisDate": "2026-04-15",
-    "postSlug": "welcome",
-    "notes": "Placeholder — replace with your real targets."
+    "thesisDate": "2026-04-28"
+  },
+  {
+    "ticker": "LAND3.SA",
+    "name": "LAND3",
+    "target": 11.50,
+    "currency": "BRL",
+    "side": "long",
+    "thesisDate": "2026-04-28"
+  },
+  {
+    "ticker": "AST.WA",
+    "name": "Astarta Holding",
+    "target": 76.00,
+    "currency": "PLN",
+    "side": "long",
+    "thesisDate": "2026-04-28"
   }
 ]
