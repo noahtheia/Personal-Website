@@ -5,6 +5,10 @@
     "target": 11.50,
     "currency": "BRL",
     "side": "long",
-    "thesisDate": "2026-04-28"
+    "thesisDate": "2026-04-28",
+    "model": {
+      "path": "/files/LAND3_Model_April_2026.xlsx",
+      "name": "LAND3 Model — April 2026"
+    }
   }
 ]
