@@ -9,7 +9,7 @@ export const site = {
   author: "Noah Goldberg",
 
   description:
-    "Long-form investment write-ups and macro essays for sophisticated investors.",
+    "Long-form investment write-ups and macro essays for fun.",
   shortBio:
     "Investment write-ups and macro essays. Most posts come with the spreadsheet.",
   email: "hello@example.com",
