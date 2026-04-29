@@ -26,12 +26,25 @@ export type Post = {
 const POSTS_DIR = path.join(process.cwd(), "content", "posts");
 const WORDS_PER_MINUTE = 225;
 
+// Drafts are hidden on production deployments only.
+// On Vercel preview deployments (any non-main branch), local dev, and local
+// production builds, drafts are visible so the author can review them.
+function shouldHideDrafts(): boolean {
+  return process.env.VERCEL_ENV === "production";
+}
+
+export function isDraftVisible(): boolean {
+  return !shouldHideDrafts();
+}
+
 export function getPostSlugs(): string[] {
   if (!fs.existsSync(POSTS_DIR)) return [];
-  return fs
+  const all = fs
     .readdirSync(POSTS_DIR)
     .filter((file) => file.endsWith(".mdx"))
     .map((file) => file.replace(/\.mdx$/, ""));
+  if (!shouldHideDrafts()) return all;
+  return all.filter((slug) => getPostBySlug(slug) !== null);
 }
 
 export function getPostBySlug(slug: string): Post | null {
@@ -40,7 +53,7 @@ export function getPostBySlug(slug: string): Post | null {
   const raw = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(raw);
   const frontmatter = data as PostFrontmatter;
-  if (frontmatter.draft && process.env.NODE_ENV === "production") return null;
+  if (frontmatter.draft && shouldHideDrafts()) return null;
   return {
     slug,
     content,

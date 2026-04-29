@@ -65,6 +65,22 @@ export default async function PostPage(
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
 
+      {post.frontmatter.draft ? (
+        <div className="mb-8 rounded border border-[var(--accent-warm)] bg-[#fff8e1] px-4 py-3 font-sans text-sm">
+          <strong className="text-[var(--accent-warm-hover)]">
+            Draft preview
+          </strong>
+          <span className="ml-2 text-fg-soft">
+            This post is not published yet. It&apos;s only visible on preview
+            deployments and in local dev. Set{" "}
+            <code className="rounded bg-white px-1 py-0.5 text-xs">
+              draft: false
+            </code>{" "}
+            (or remove the line) to publish.
+          </span>
+        </div>
+      ) : null}
+
       <header className="border-b border-rule pb-8">
         <p className="eyebrow">
           <time dateTime={post.frontmatter.date}>

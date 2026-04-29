@@ -38,6 +38,14 @@ if (!fs.existsSync(file)) {
 }
 
 const { data: fm, content } = matter(fs.readFileSync(file, "utf8"));
+
+if (fm.draft === true) {
+  console.error(
+    `Post "${slug}" has draft: true in frontmatter. Refusing to email subscribers about a draft.`,
+  );
+  process.exit(1);
+}
+
 const url = `${site}/posts/${slug}`;
 const subject = fm.title;
 

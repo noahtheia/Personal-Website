@@ -1,0 +1,57 @@
+name: Notify subscribers (draft)
+
+# Triggers a Resend draft broadcast when a post transitions to published
+# (newly added without `draft: true`, or an existing draft has its draft
+# flag flipped to false / removed). Pure-draft pushes do nothing.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/posts/**.mdx"
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo (with history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect publish events
+        id: detect
+        run: |
+          set -euo pipefail
+          SLUGS=$(node scripts/detect-publish-events.mjs "${{ github.event.before }}" "${{ github.sha }}")
+          if [ -z "$SLUGS" ]; then
+            echo "No publish events in this push."
+          else
+            echo "Publish events: $SLUGS"
+          fi
+          echo "slugs=$SLUGS" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Node
+        if: steps.detect.outputs.slugs != ''
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        if: steps.detect.outputs.slugs != ''
+        run: npm ci
+
+      - name: Create draft broadcast for each newly published post
+        if: steps.detect.outputs.slugs != ''
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
+          NEWSLETTER_FROM: ${{ secrets.NEWSLETTER_FROM }}
+          NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL }}
+        run: |
+          for slug in ${{ steps.detect.outputs.slugs }}; do
+            echo "::group::Creating draft broadcast for $slug"
+            node scripts/notify-subscribers.mjs "$slug"
+            echo "::endgroup::"
+          done
