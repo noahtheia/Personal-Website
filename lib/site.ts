@@ -3,7 +3,7 @@
 
 export const site = {
   // Brand wordmark — used in the header, browser tab, and page-title template.
-  brand: "Noah's Ideas",
+  brand: "Trader Noah",
 
   // Your real name — used on the About page and in the copyright line.
   author: "Noah Goldberg",
