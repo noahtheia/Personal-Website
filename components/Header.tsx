@@ -13,7 +13,6 @@ export function Header() {
       <nav className="flex gap-6 font-sans text-sm">
         <NavLink href="/posts">Writing</NavLink>
         <NavLink href="/targets">Targets</NavLink>
-        <NavLink href="/about">About</NavLink>
       </nav>
     </header>
   );
