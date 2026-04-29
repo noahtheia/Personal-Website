@@ -11,6 +11,13 @@ const TargetSchema = z.object({
   thesisDate: z.string(),
   postSlug: z.string().optional(),
   notes: z.string().optional(),
+  model: z
+    .object({
+      path: z.string(),
+      name: z.string().optional(),
+      description: z.string().optional(),
+    })
+    .optional(),
 });
 
 export type Target = z.infer<typeof TargetSchema>;

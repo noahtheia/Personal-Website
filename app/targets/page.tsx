@@ -126,10 +126,19 @@ function DesktopTable({ rows }: { rows: PricedTarget[] }) {
                 {t.postSlug ? (
                   <Link
                     href={`/posts/${t.postSlug}`}
-                    className="!text-accent no-underline hover:underline"
+                    className="block !text-accent no-underline hover:underline"
                   >
                     Read →
                   </Link>
+                ) : null}
+                {t.model ? (
+                  <a
+                    href={t.model.path}
+                    download
+                    className="block !text-accent no-underline hover:underline"
+                  >
+                    Model →
+                  </a>
                 ) : null}
               </td>
             </tr>
@@ -188,14 +197,25 @@ function MobileList({ rows }: { rows: PricedTarget[] }) {
               {formatShortDate(t.thesisDate)}
             </dd>
           </dl>
-          {t.postSlug ? (
-            <Link
-              href={`/posts/${t.postSlug}`}
-              className="mt-3 inline-block font-sans text-sm !text-accent no-underline hover:underline"
-            >
-              Read →
-            </Link>
-          ) : null}
+          <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 font-sans text-sm">
+            {t.postSlug ? (
+              <Link
+                href={`/posts/${t.postSlug}`}
+                className="!text-accent no-underline hover:underline"
+              >
+                Read →
+              </Link>
+            ) : null}
+            {t.model ? (
+              <a
+                href={t.model.path}
+                download
+                className="!text-accent no-underline hover:underline"
+              >
+                Model →
+              </a>
+            ) : null}
+          </div>
         </li>
       ))}
     </ul>
