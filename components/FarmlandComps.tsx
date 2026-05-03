@@ -1,16 +1,18 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { FarmlandComp } from "@/lib/farmland";
+import type { PricedFarmlandComp } from "@/lib/farmland-comps";
 
 type SortKey =
   | "ticker"
   | "price"
-  | "marketCap"
-  | "acres"
+  | "marketCapMM"
+  | "evMM"
+  | "acresK"
+  | "evPerAcre"
   | "navPerShare"
-  | "premium"
-  | "capRate"
+  | "pNav"
+  | "evCapRate"
   | "divYield";
 
 type Column = {
@@ -22,36 +24,39 @@ type Column = {
 
 const COLUMNS: Column[] = [
   { key: "ticker", label: "Ticker", align: "left" },
-  { key: "price", label: "Price", align: "right", hint: "$/share" },
-  { key: "marketCap", label: "Mkt cap", align: "right", hint: "$M" },
-  { key: "acres", label: "Acres", align: "right", hint: "thousands" },
-  { key: "navPerShare", label: "NAV/sh", align: "right", hint: "$" },
-  { key: "premium", label: "P / NAV", align: "right", hint: "price ÷ NAV" },
-  { key: "capRate", label: "Cap rate", align: "right", hint: "implied" },
-  { key: "divYield", label: "Yield", align: "right", hint: "fwd div" },
+  { key: "price", label: "Price", align: "right", hint: "live $" },
+  { key: "marketCapMM", label: "Mkt cap", align: "right", hint: "$M" },
+  { key: "evMM", label: "EV", align: "right", hint: "$M" },
+  { key: "acresK", label: "Acres", align: "right", hint: "thousands" },
+  { key: "evPerAcre", label: "EV / acre", align: "right", hint: "$" },
+  { key: "navPerShare", label: "NAV/sh", align: "right", hint: "filed $" },
+  { key: "pNav", label: "P / NAV", align: "right", hint: "price ÷ NAV" },
+  { key: "evCapRate", label: "Cap rate", align: "right", hint: "NOI ÷ EV" },
+  { key: "divYield", label: "Yield", align: "right", hint: "div ÷ price" },
 ];
 
-export function FarmlandComps({ comps }: { comps: FarmlandComp[] }) {
-  const [sortKey, setSortKey] = useState<SortKey>("marketCap");
+export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
+  const [sortKey, setSortKey] = useState<SortKey>("marketCapMM");
   const [dir, setDir] = useState<"asc" | "desc">("desc");
 
-  const rows = useMemo(() => {
-    const enriched = comps.map((c) => ({
-      ...c,
-      premium: c.price / c.navPerShare,
-    }));
-    const sorted = [...enriched].sort((a, b) => {
+  const sorted = useMemo(() => {
+    const copy = [...rows];
+    copy.sort((a, b) => {
       const av = a[sortKey];
       const bv = b[sortKey];
       if (typeof av === "string" && typeof bv === "string") {
         return dir === "asc" ? av.localeCompare(bv) : bv.localeCompare(av);
       }
-      return dir === "asc"
-        ? (av as number) - (bv as number)
-        : (bv as number) - (av as number);
+      const an = av as number | null;
+      const bn = bv as number | null;
+      // Push nulls to the end regardless of direction.
+      if (an === null && bn === null) return 0;
+      if (an === null) return 1;
+      if (bn === null) return -1;
+      return dir === "asc" ? an - bn : bn - an;
     });
-    return sorted;
-  }, [comps, sortKey, dir]);
+    return copy;
+  }, [rows, sortKey, dir]);
 
   function onHeaderClick(k: SortKey) {
     if (k === sortKey) {
@@ -64,7 +69,7 @@ export function FarmlandComps({ comps }: { comps: FarmlandComp[] }) {
 
   return (
     <div className="mt-6 overflow-x-auto">
-      <table className="w-full border-collapse font-sans text-sm tabular-nums">
+      <table className="w-full min-w-[760px] border-collapse font-sans text-sm tabular-nums">
         <thead>
           <tr className="border-b border-rule-strong text-left">
             {COLUMNS.map((c) => {
@@ -106,42 +111,58 @@ export function FarmlandComps({ comps }: { comps: FarmlandComp[] }) {
           </tr>
         </thead>
         <tbody>
-          {rows.map((r) => (
+          {sorted.map((r) => (
             <tr key={r.ticker} className="border-b border-rule">
               <td className="py-4 pr-4">
                 <div className="font-semibold text-fg">{r.ticker}</div>
                 <div className="text-xs text-muted">
                   {r.name} · {r.primaryCrops}
                 </div>
+                <div className="mt-0.5 text-[10px] uppercase tracking-wider text-muted">
+                  Filing {formatFilingDate(r.filingDate)}
+                </div>
               </td>
               <td className="py-4 pr-4 text-right">{fmtMoney(r.price)}</td>
-              <td className="py-4 pr-4 text-right">{fmtInt(r.marketCap)}</td>
-              <td className="py-4 pr-4 text-right">{fmtInt(r.acres)}</td>
+              <td className="py-4 pr-4 text-right">{fmtInt(r.marketCapMM)}</td>
+              <td className="py-4 pr-4 text-right">{fmtInt(r.evMM)}</td>
+              <td className="py-4 pr-4 text-right">{fmtInt(r.acresK)}</td>
+              <td className="py-4 pr-4 text-right">
+                {r.evPerAcre !== null
+                  ? `$${fmtInt(r.evPerAcre)}`
+                  : EM}
+              </td>
               <td className="py-4 pr-4 text-right">{fmtMoney(r.navPerShare)}</td>
               <td
                 className={`py-4 pr-4 text-right ${
-                  r.premium >= 1
+                  r.pNav === null
+                    ? "text-muted"
+                    : r.pNav >= 1
                     ? "text-[var(--positive)]"
                     : "text-[var(--negative)]"
                 }`}
               >
-                {r.premium.toFixed(2)}×
+                {r.pNav !== null ? `${r.pNav.toFixed(2)}×` : EM}
               </td>
-              <td className="py-4 pr-4 text-right">{fmtPct(r.capRate)}</td>
+              <td className="py-4 pr-4 text-right">{fmtPct(r.evCapRate)}</td>
               <td className="py-4 pr-4 text-right">{fmtPct(r.divYield)}</td>
             </tr>
           ))}
         </tbody>
       </table>
       <p className="mt-3 text-xs text-muted">
-        Click any column header to sort. P/NAV under 1.0× implies the market
-        is pricing the portfolio below management&apos;s last disclosed NAV.
+        Click any column header to sort. Filing inputs (shares, debt, cash,
+        acres, NAV, NOI, dividend) come from each issuer&apos;s most recent
+        10-K; price is live and feeds market cap, EV, and every multiple in
+        the row.
       </p>
     </div>
   );
 }
 
-function fmtMoney(n: number) {
+const EM = "—";
+
+function fmtMoney(n: number | null) {
+  if (n === null) return EM;
   return n.toLocaleString("en-US", {
     style: "currency",
     currency: "USD",
@@ -149,10 +170,19 @@ function fmtMoney(n: number) {
   });
 }
 
-function fmtInt(n: number) {
-  return n.toLocaleString("en-US", { maximumFractionDigits: 0 });
+function fmtInt(n: number | null) {
+  if (n === null) return EM;
+  return Math.round(n).toLocaleString("en-US");
 }
 
-function fmtPct(n: number) {
+function fmtPct(n: number | null) {
+  if (n === null) return EM;
   return `${n.toFixed(1)}%`;
+}
+
+function formatFilingDate(iso: string) {
+  return new Date(iso).toLocaleDateString("en-US", {
+    month: "short",
+    year: "numeric",
+  });
 }

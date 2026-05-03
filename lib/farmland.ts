@@ -1,8 +1,7 @@
-// Public farmland reference data for the Analytics → Public Farmland tab.
-// Series figures are rounded values from the USDA NASS Land Values and
-// Cash Rents annual summaries; comps are representative snapshots of the
-// two US-listed pure-play farmland REITs and should not be treated as
-// live market data.
+// USDA NASS reference series for the Analytics → Public Farmland chart.
+// Figures are rounded values from the Land Values and Cash Rents annual
+// summaries. Comp filings live in content/farmland-comps.json and are
+// priced live in lib/farmland-comps.ts.
 
 export type FarmlandSeries = {
   id: string;
@@ -94,41 +93,3 @@ export const FARMLAND_SERIES: FarmlandSeries[] = [
   },
 ];
 
-export type FarmlandComp = {
-  ticker: string;
-  name: string;
-  price: number;          // recent share price ($)
-  marketCap: number;      // $M equity market cap
-  acres: number;          // owned acres (thousands)
-  navPerShare: number;    // most recent disclosed NAV ($/share)
-  capRate: number;        // implied portfolio cap rate (%)
-  divYield: number;       // forward dividend yield (%)
-  primaryCrops: string;
-};
-
-// Snapshot figures — sourced from each issuer's most recent 10-K / supplements
-// and rounded. Treat as a teaching example, not a live quote.
-export const FARMLAND_COMPS: FarmlandComp[] = [
-  {
-    ticker: "LAND",
-    name: "Gladstone Land",
-    price: 10.85,
-    marketCap: 390,
-    acres: 112,
-    navPerShare: 14.2,
-    capRate: 3.4,
-    divYield: 5.1,
-    primaryCrops: "Permanent / specialty",
-  },
-  {
-    ticker: "FPI",
-    name: "Farmland Partners",
-    price: 11.40,
-    marketCap: 555,
-    acres: 132,
-    navPerShare: 14.0,
-    capRate: 4.6,
-    divYield: 2.1,
-    primaryCrops: "Row crops",
-  },
-];

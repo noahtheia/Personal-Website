@@ -1,0 +1,30 @@
+[
+  {
+    "ticker": "LAND",
+    "name": "Gladstone Land",
+    "primaryCrops": "Permanent / specialty",
+    "filingDate": "2025-03-03",
+    "filingUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001495240&type=10-K",
+    "sharesOutMM": 36.0,
+    "debtMM": 510,
+    "cashMM": 30,
+    "acresK": 112,
+    "navPerShare": 14.2,
+    "annualDividend": 0.5612,
+    "annualNoiMM": 60
+  },
+  {
+    "ticker": "FPI",
+    "name": "Farmland Partners",
+    "primaryCrops": "Row crops",
+    "filingDate": "2025-02-26",
+    "filingUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001591956&type=10-K",
+    "sharesOutMM": 48.0,
+    "debtMM": 148,
+    "cashMM": 15,
+    "acresK": 132,
+    "navPerShare": 14.0,
+    "annualDividend": 0.24,
+    "annualNoiMM": 30
+  }
+]
