@@ -67,3 +67,33 @@ a:hover {
   height: 1px;
   background-color: var(--border);
 }
+
+/* Page width helpers — root layout no longer caps width, so each page
+   chooses its own. Editorial pages opt into prose width; analytics
+   pages opt into a wider grid. */
+.page-narrow {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 44rem; /* matches Tailwind max-w-prose */
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+@media (min-width: 640px) {
+  .page-narrow {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+.page-wide {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 80rem; /* ~max-w-7xl */
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}

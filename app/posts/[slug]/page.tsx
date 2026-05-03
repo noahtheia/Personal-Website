@@ -59,7 +59,7 @@ export default async function PostPage(
   };
 
   return (
-    <article>
+    <article className="page-narrow">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}

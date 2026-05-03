@@ -22,12 +22,22 @@ export type FarmlandFiling = z.infer<typeof FilingSchema>;
 export type PricedFarmlandComp = FarmlandFiling & {
   price: number | null;
   currency: string;
+
+  // Market data
   marketCapMM: number | null;
   evMM: number | null;
+  pctOf52wHigh: number | null;
+  pctOf52wLow: number | null;
+  ytdReturn: number | null;
+  threeMReturn: number | null;
+  twelveMReturn: number | null;
+
+  // Valuation multiples
   evPerAcre: number | null;
   pNav: number | null;
-  divYield: number | null;
   evCapRate: number | null;
+  divYield: number | null;
+
   fetchedAt: string;
 };
 
@@ -45,14 +55,14 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
 
   return Promise.all(
     filings.map(async (f): Promise<PricedFarmlandComp> => {
-      const quote = await fetchQuote(f.ticker);
-      const price = quote?.price ?? null;
-      const currency = quote?.currency ?? "USD";
+      const q = await fetchPriceData(f.ticker);
+      const price = q?.price ?? null;
+      const currency = q?.currency ?? "USD";
 
       const marketCapMM = price !== null ? price * f.sharesOutMM : null;
       const evMM =
         marketCapMM !== null ? marketCapMM + f.debtMM - f.cashMM : null;
-      // EV is in $M; acres in thousands → divide $M by k-acres → $/acre.
+      // EV $M / acres-thousands → $/acre.
       const evPerAcre = evMM !== null ? (evMM / f.acresK) * 1000 : null;
       const pNav = price !== null ? price / f.navPerShare : null;
       const divYield =
@@ -66,39 +76,99 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         currency,
         marketCapMM,
         evMM,
+        pctOf52wHigh: q?.pctOf52wHigh ?? null,
+        pctOf52wLow: q?.pctOf52wLow ?? null,
+        ytdReturn: q?.ytdReturn ?? null,
+        threeMReturn: q?.threeMReturn ?? null,
+        twelveMReturn: q?.twelveMReturn ?? null,
         evPerAcre,
         pNav,
-        divYield,
         evCapRate,
+        divYield,
         fetchedAt,
       };
     }),
   );
 }
 
-async function fetchQuote(
-  ticker: string,
-): Promise<{ price: number; currency: string } | null> {
+type PriceData = {
+  price: number;
+  currency: string;
+  pctOf52wHigh: number | null;
+  pctOf52wLow: number | null;
+  ytdReturn: number | null;
+  threeMReturn: number | null;
+  twelveMReturn: number | null;
+};
+
+async function fetchPriceData(ticker: string): Promise<PriceData | null> {
   try {
     const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(
       ticker,
-    )}?interval=1d&range=1d`;
+    )}?interval=1d&range=1y`;
     const res = await fetch(url, {
       headers: {
         "User-Agent":
           "Mozilla/5.0 (compatible; PersonalBlog/1.0; +https://noahsideas.com)",
         Accept: "application/json",
       },
-      next: { revalidate: 3600 }, // 1 hour — exceeds the daily-refresh requirement.
+      next: { revalidate: 3600 },
     });
     if (!res.ok) return null;
     const data = await res.json();
-    const meta = data?.chart?.result?.[0]?.meta;
-    const price = meta?.regularMarketPrice;
-    if (typeof price !== "number") return null;
+    const result = data?.chart?.result?.[0];
+    if (!result) return null;
+    const meta = result.meta ?? {};
+    const ts: number[] = result.timestamp ?? [];
+    const closes: (number | null)[] =
+      result.indicators?.quote?.[0]?.close ?? [];
+
+    const series = ts
+      .map((t, i) => ({ t, c: closes[i] }))
+      .filter((d): d is { t: number; c: number } => typeof d.c === "number");
+
+    const livePrice =
+      typeof meta.regularMarketPrice === "number"
+        ? meta.regularMarketPrice
+        : series[series.length - 1]?.c;
+    if (typeof livePrice !== "number") return null;
+
+    const currency = typeof meta.currency === "string" ? meta.currency : "USD";
+
+    const high =
+      typeof meta.fiftyTwoWeekHigh === "number"
+        ? meta.fiftyTwoWeekHigh
+        : series.length
+        ? Math.max(...series.map((d) => d.c))
+        : null;
+    const low =
+      typeof meta.fiftyTwoWeekLow === "number"
+        ? meta.fiftyTwoWeekLow
+        : series.length
+        ? Math.min(...series.map((d) => d.c))
+        : null;
+
+    const findClose = (cutoff: number) =>
+      series.find((d) => d.t >= cutoff)?.c ?? null;
+
+    const lastT = series[series.length - 1]?.t ?? Math.floor(Date.now() / 1000);
+    const lastDate = new Date(lastT * 1000);
+    const yearStart =
+      Date.UTC(lastDate.getUTCFullYear(), 0, 1) / 1000;
+    const threeMAgo = lastT - 90 * 86400;
+    const twelveMAgo = lastT - 365 * 86400;
+
+    const pctChange = (ref: number | null) =>
+      ref !== null && ref > 0 ? ((livePrice - ref) / ref) * 100 : null;
+
     return {
-      price,
-      currency: typeof meta?.currency === "string" ? meta.currency : "USD",
+      price: livePrice,
+      currency,
+      pctOf52wHigh: high && high > 0 ? (livePrice / high) * 100 : null,
+      pctOf52wLow: low && low > 0 ? (livePrice / low) * 100 : null,
+      ytdReturn: pctChange(findClose(yearStart)),
+      threeMReturn: pctChange(findClose(threeMAgo)),
+      twelveMReturn: pctChange(findClose(twelveMAgo)),
     };
   } catch {
     return null;

@@ -22,7 +22,7 @@ export default async function TargetsPage() {
     priced[0]?.fetchedAt ?? new Date().toISOString();
 
   return (
-    <div>
+    <div className="page-narrow">
       <p className="eyebrow">Targets</p>
       <h1 className="mt-3 font-display text-3xl font-semibold tracking-tight sm:text-4xl">
         Price targets
