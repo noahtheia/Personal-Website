@@ -1,0 +1,124 @@
+{
+  "ticker": "SLCE3.SA",
+  "asOf": "2025-12-31",
+  "currency": "BRL",
+  "propertiesNote": "4-row aggregation. Three named production units publicly disclosed (Pamplona, Pioneira, Paiagu\u00e1s) shown individually; remaining ~23 units in single Other row. Acres are owned only; SLC also leases significant additional area.",
+  "properties": [
+    {
+      "name": "Pamplona Unit",
+      "location": "Cristalina, Goi\u00e1s, Brazil",
+      "acres": 46050,
+      "cropOrUse": "Soy / corn / cotton",
+      "category": "Goi\u00e1s Cerrado",
+      "fmvPerAcre": 8000,
+      "fmvRationale": "Goi\u00e1s Class-A Cerrado near Bras\u00edlia; 2024-25 transactions R$7,500-9,500/acre. SLC's flagship farm featured in their metaverse marketing",
+      "comparablesUsed": [
+        "BR-GOIAS-CERRADO-2024",
+        "BR-GOIAS-CERRADO-2025"
+      ],
+      "bookValueMM": 320
+    },
+    {
+      "name": "Pioneira Unit (JV with Dois Vales)",
+      "location": "Maranh\u00e3o, Brazil",
+      "acres": 49640,
+      "cropOrUse": "Soy / corn",
+      "category": "Matopiba (Maranh\u00e3o)",
+      "fmvPerAcre": 6500,
+      "fmvRationale": "Matopiba Maranh\u00e3o Cerrado; JV with Dois Vales. R$6,500-8,000/acre 2024 broker comps",
+      "comparablesUsed": [
+        "BR-CERRADO-NE-MATOPIBA-2024"
+      ],
+      "bookValueMM": 230
+    },
+    {
+      "name": "Paiagu\u00e1s Unit",
+      "location": "Diamantino, Mato Grosso, Brazil",
+      "acres": 135530,
+      "cropOrUse": "Soy / corn / cotton",
+      "category": "Mato Grosso Cerrado",
+      "fmvPerAcre": 7200,
+      "fmvRationale": "Largest single SLC unit (54,847 ha); MT Class-A cotton-soy ground. IMEA 2024 surveys at R$6,500-8,500/acre",
+      "comparablesUsed": [
+        "BR-CERRADO-MT-2024",
+        "BR-CERRADO-MT-2025"
+      ],
+      "bookValueMM": 720
+    },
+    {
+      "name": "Other production units (~23 farms)",
+      "location": "Bahia / MT / Mato Grosso do Sul / Piau\u00ed / Maranh\u00e3o / Tocantins / Goi\u00e1s",
+      "acres": 1500000,
+      "cropOrUse": "Soy / corn / cotton",
+      "category": "Brazil Cerrado (mixed states)",
+      "fmvPerAcre": 6500,
+      "fmvRationale": "Weighted average across SLC's remaining 23 production units spanning Bahia, MT, MS, PI, MA, TO, GO; mid-cycle Cerrado average R$6,500/acre",
+      "comparablesUsed": [
+        "BR-CERRADO-WEST-BA-2024",
+        "BR-CERRADO-MT-2024",
+        "BR-CERRADO-NE-MATOPIBA-2024"
+      ],
+      "bookValueMM": 3230
+    }
+  ],
+  "comparables": [
+    {
+      "id": "BR-CERRADO-WEST-BA-2024",
+      "description": "Western Bahia Cerrado high-quality cropland (LEM region)",
+      "location": "Western Bahia, Brazil",
+      "pricePerAcre": 9000,
+      "date": "2024-09-15",
+      "source": "AGEFAZ + Bahia rural broker comps 2024"
+    },
+    {
+      "id": "BR-GOIAS-CERRADO-2024",
+      "description": "Goi\u00e1s Class-A Cerrado cropland",
+      "location": "Cristalina / Catal\u00e3o, Goi\u00e1s",
+      "pricePerAcre": 8000,
+      "date": "2024-09-15",
+      "source": "IBGE + GO rural broker reports 2024"
+    },
+    {
+      "id": "BR-GOIAS-CERRADO-2025",
+      "description": "Goi\u00e1s Class-A Cerrado 2025 transactions",
+      "location": "Goi\u00e1s, Brazil",
+      "pricePerAcre": 8500,
+      "date": "2025-04-01",
+      "source": "GO land transactions H1 2025"
+    },
+    {
+      "id": "BR-CERRADO-MT-2024",
+      "description": "Mato Grosso Class-A cotton-soy ground",
+      "location": "Mato Grosso, Brazil",
+      "pricePerAcre": 7200,
+      "date": "2024-09-15",
+      "source": "IMEA Mato Grosso land surveys 2024"
+    },
+    {
+      "id": "BR-CERRADO-MT-2025",
+      "description": "Mato Grosso 2025 cropland transactions",
+      "location": "Mato Grosso, Brazil",
+      "pricePerAcre": 7800,
+      "date": "2025-04-01",
+      "source": "IMEA + MT broker reports 2025"
+    },
+    {
+      "id": "BR-CERRADO-NE-MATOPIBA-2024",
+      "description": "Matopiba Cerrado expansion-frontier cropland",
+      "location": "Matopiba region (MA / PI / TO), Brazil",
+      "pricePerAcre": 6500,
+      "date": "2024-10-01",
+      "source": "Matopiba region broker comps 2024"
+    },
+    {
+      "id": "SLC-IR-LANDBANK-2024",
+      "description": "SLC Agr\u00edcola's own internally-disclosed land bank value: ~R$15B for 700K hectares = ~R$8,650/acre weighted",
+      "location": "SLC portfolio average",
+      "acres": 1730000,
+      "pricePerAcre": 8650,
+      "date": "2024-12-31",
+      "source": "SLC Agr\u00edcola IR materials + capital markets day disclosures 2024"
+    }
+  ],
+  "methodology": "SLC Agr\u00edcola operates 26 production units across 8 Brazilian states, with planted area expanding to ~830,000 hectares for the 2025/26 season. Total owned land base (per company website): ~700,000 hectares (~1.73M acres). The model is part-owned, part-leased \u2014 only the owned portion is reflected in the property table.\n\nThe 10-K equivalent disclosures (SLC files in Brazil; English filings via 6-K) are less granular than US REIT Schedule III. Three production units publicly named with hectares (Pamplona / Goi\u00e1s 18,637 ha, Pioneira / Maranh\u00e3o 20,088 ha, Paiagu\u00e1s / Mato Grosso 54,847 ha) \u2014 these are shown individually. The remaining ~23 units are aggregated by region cluster.\n\nBrazilian Cerrado farmland is the most-traded large-scale cropland market in Latin America. 2024-2025 broker comps consistently show:\n- Western Bahia (LEM region, top-quality): R$8,500-10,000/acre\n- Goi\u00e1s Class-A: R$7,500-9,000/acre\n- Mato Grosso Class-A cotton-soy: R$6,500-8,500/acre\n- Matopiba expansion frontier (MA / PI / TO): R$5,500-7,500/acre\n\nSLC's own internally-disclosed land bank value (capital markets day 2024) approximates R$15B for 700K hectares = R$8,650/acre weighted \u2014 used as a portfolio-level reality check.\n\nLike BrasilAgro, SLC carries land at cost on the GAAP balance sheet (Brazilian GAAP). The R$4.5B bookLandMM in the comp set is a rough estimate carved from total Net PP&E + biological assets. The FMV-vs-book gap is structurally large because of the cost-vs-fair-value accounting difference."
+}

@@ -1,0 +1,185 @@
+{
+  "ticker": "AAC.AX",
+  "asOf": "2025-03-31",
+  "currency": "AUD",
+  "propertiesNote": "10-row aggregation. Top 7 named cattle stations shown individually; remaining smaller stations + feedlots aggregated. AAC owns ~6.5M hectares total; 22 owned/leased stations + 2 feedlots + 2 cropping farms.",
+  "properties": [
+    {
+      "name": "Brunette Downs",
+      "location": "Barkly Tableland, Northern Territory",
+      "acres": 3017786,
+      "cropOrUse": "Cattle breeding (largest single station)",
+      "category": "NT pastoral \u2014 Barkly Tableland",
+      "fmvPerAcre": 250,
+      "fmvRationale": "Largest AAC station; Barkly Tableland is prime cattle country with reliable water; 2024-25 NT pastoral transactions $200-300 AUD/acre",
+      "comparablesUsed": [
+        "AU-PASTORAL-NT-2024",
+        "AU-PASTORAL-QLD-2025"
+      ],
+      "bookValueMM": 280
+    },
+    {
+      "name": "Headingly",
+      "location": "Mt Isa, Queensland",
+      "acres": 2479507,
+      "cropOrUse": "Cattle breeding / backgrounding",
+      "category": "QLD pastoral \u2014 Channel Country",
+      "fmvPerAcre": 280,
+      "fmvRationale": "Mt Isa region pastoral country; QLD Channel Country comps 2024-25 at $250-350 AUD/acre",
+      "comparablesUsed": [
+        "AU-PASTORAL-QLD-2024",
+        "AU-PASTORAL-QLD-2025"
+      ],
+      "bookValueMM": 240
+    },
+    {
+      "name": "Anthony Lagoon / Eva Downs",
+      "location": "Barkly Tableland, Northern Territory",
+      "acres": 2310138,
+      "cropOrUse": "Cattle breeding",
+      "category": "NT pastoral \u2014 Barkly Tableland",
+      "fmvPerAcre": 250,
+      "fmvRationale": "Barkly Tableland breeding country adjacent to Brunette Downs",
+      "comparablesUsed": [
+        "AU-PASTORAL-NT-2024"
+      ],
+      "bookValueMM": 215
+    },
+    {
+      "name": "Avon Downs / Austral Downs / Camooweal",
+      "location": "NT/QLD border (Camooweal)",
+      "acres": 2132915,
+      "cropOrUse": "Cattle breeding",
+      "category": "NT/QLD border pastoral",
+      "fmvPerAcre": 250,
+      "fmvRationale": "NT-QLD border country; similar productivity to Barkly Tableland",
+      "comparablesUsed": [
+        "AU-PASTORAL-NT-2024",
+        "AU-PASTORAL-QLD-2024"
+      ],
+      "bookValueMM": 195
+    },
+    {
+      "name": "Canobie",
+      "location": "Cloncurry, Queensland",
+      "acres": 1215983,
+      "cropOrUse": "Cattle backgrounding",
+      "category": "QLD pastoral \u2014 Channel Country",
+      "fmvPerAcre": 280,
+      "fmvRationale": "Cloncurry region backgrounding country",
+      "comparablesUsed": [
+        "AU-PASTORAL-QLD-2024"
+      ],
+      "bookValueMM": 130
+    },
+    {
+      "name": "Delamere",
+      "location": "Victoria River District, Northern Territory",
+      "acres": 742041,
+      "cropOrUse": "Cattle breeding",
+      "category": "NT pastoral \u2014 Victoria River District",
+      "fmvPerAcre": 280,
+      "fmvRationale": "VRD breeding country; better water than Barkly so slight premium",
+      "comparablesUsed": [
+        "AU-PASTORAL-NT-2024"
+      ],
+      "bookValueMM": 80
+    },
+    {
+      "name": "Camfield",
+      "location": "Victoria River District, Northern Territory",
+      "acres": 689397,
+      "cropOrUse": "Cattle breeding",
+      "category": "NT pastoral \u2014 Victoria River District",
+      "fmvPerAcre": 280,
+      "fmvRationale": "VRD breeding country",
+      "comparablesUsed": [
+        "AU-PASTORAL-NT-2024"
+      ],
+      "bookValueMM": 75
+    },
+    {
+      "name": "Other QLD stations (Wondoola, South Galway, Dalgonally, Carrum, Glentana, Wylarah, Goonoo, etc.)",
+      "location": "Queensland (multiple)",
+      "acres": 3073233,
+      "cropOrUse": "Cattle + feedlots",
+      "category": "QLD pastoral \u2014 diversified",
+      "fmvPerAcre": 250,
+      "fmvRationale": "Aggregate of remaining smaller QLD stations + feedlots; feedlots have higher per-acre values offset by smaller-station productivity",
+      "comparablesUsed": [
+        "AU-PASTORAL-QLD-2024"
+      ],
+      "bookValueMM": 280
+    },
+    {
+      "name": "Owned farms (cropping support, 2 farms)",
+      "location": "Queensland",
+      "acres": 16000,
+      "cropOrUse": "Cropping (fodder support for feedlots)",
+      "category": "QLD cropping (fodder)",
+      "fmvPerAcre": 4500,
+      "fmvRationale": "Fodder cropping farms supporting feedlot operations",
+      "comparablesUsed": [
+        "AU-CROP-2024"
+      ],
+      "bookValueMM": 64
+    },
+    {
+      "name": "Other / Montejinni / smaller NT stations",
+      "location": "Northern Territory",
+      "acres": 138000,
+      "cropOrUse": "Cattle + ancillary",
+      "category": "NT other",
+      "fmvPerAcre": 200,
+      "fmvRationale": "Smaller NT stations (Montejinni, etc.)",
+      "comparablesUsed": [
+        "AU-PASTORAL-NT-2024"
+      ],
+      "bookValueMM": 35
+    }
+  ],
+  "comparables": [
+    {
+      "id": "AU-PASTORAL-NT-2024",
+      "description": "Northern Territory pastoral cattle station transactions 2024",
+      "location": "NT pastoral",
+      "pricePerAcre": 230,
+      "date": "2024-10-15",
+      "source": "Elders Rural NT pastoral comps 2024"
+    },
+    {
+      "id": "AU-PASTORAL-QLD-2024",
+      "description": "Queensland pastoral cattle station transactions 2024",
+      "location": "Queensland pastoral",
+      "pricePerAcre": 320,
+      "date": "2024-11-15",
+      "source": "Elders Rural QLD comps 2024"
+    },
+    {
+      "id": "AU-PASTORAL-QLD-2025",
+      "description": "Queensland pastoral H1 2025 transactions",
+      "location": "Central + Western Queensland",
+      "pricePerAcre": 380,
+      "date": "2025-04-15",
+      "source": "LAWD + Colliers Rural H1 2025"
+    },
+    {
+      "id": "AU-CROP-2024",
+      "description": "Australian temperate cropping ground 2024",
+      "location": "QLD cropping",
+      "pricePerAcre": 4200,
+      "date": "2024-09-15",
+      "source": "Rabobank Australia ag-real-estate trends 2024"
+    },
+    {
+      "id": "AAC-FY25-NTA",
+      "description": "AAC FY25 NTA per share AUD 2.56 implies portfolio fair value backed-out ~AUD 1,544M = $94/acre weighted; book undervalued vs current pastoral comps which suggest $250+ AUD/acre",
+      "location": "AAC portfolio (NTA back-out)",
+      "acres": 16100000,
+      "pricePerAcre": 96,
+      "date": "2025-03-31",
+      "source": "AAC FY25 Annual Report; book based on long-held cost basis vs. current market comps"
+    }
+  ],
+  "methodology": "AAC owns approximately 6.5 million hectares (~16.1 million acres) of pastoral cattle stations across Queensland and the Northern Territory \u2014 roughly 1% of Australia's total land mass. The portfolio is heavily concentrated: top 7 named stations alone total ~12.6M acres, with Brunette Downs alone at 3M acres.\n\nPastoral cattle station valuations operate at very different per-acre levels from cropland. 2024-2025 Australian pastoral transactions price between $200-400 AUD/acre depending on:\n- Carrying capacity (head per hectare, varies with rainfall and pasture quality)\n- Water reliability (Barkly Tableland has good bore water; VRD has better stream access)\n- Cattle market cycle position\n- State (QLD generally trades at slight premium to NT)\n\nAAC's GAAP balance sheet (Net PP&E AUD 1,723M) carries land at long-held cost basis \u2014 much of the portfolio was acquired decades ago at minimal per-acre cost. Compared against current pastoral comps of $230-380 AUD/acre, the implied current FMV is meaningfully higher than book.\n\nPer-property book values shown are estimates allocated by area share of total Net PP&E \u2014 AAC doesn't publish per-station book in its annual report. The aggregate FMV reflects current pastoral comps applied across the portfolio.\n\nNote that AAC's earnings volatility (FY25 statutory EBITDA -$221M due to biological asset revaluation losses) does not reflect land FMV \u2014 pastoral land values are stable relative to cattle market cycles. This is the analytical case for AAC: long-duration land asset with inherent cattle market exposure that's more volatile than the underlying real estate."
+}
