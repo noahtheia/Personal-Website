@@ -1,0 +1,62 @@
+{
+  "ticker": "AEP.L",
+  "asOf": "2024-12-31",
+  "currency": "USD",
+  "propertiesNote": "2-row aggregation by country. Acres include unplanted concession area (planted is roughly 50-60% of total). Per-acre values are correspondingly lower than mature-only peers.",
+  "properties": [
+    {
+      "name": "Indonesia Sumatra plantations",
+      "location": "Sumatra, Indonesia",
+      "acres": 197700,
+      "cropOrUse": "Oil palm \u2014 multiple Sumatran estates",
+      "category": "Indonesian palm \u2014 Sumatra",
+      "fmvPerAcre": 1100,
+      "fmvRationale": "Total Sumatra concession area is largely unplanted + non-mature; planted hectares are roughly 50-60K ha, valued at $5K/acre, balance at concession value $500-1000/acre. Weighted average is much lower than peer pure-mature operators",
+      "comparablesUsed": [
+        "ID-PALM-SUMATRA-2024",
+        "ID-PALM-IMMATURE-2024"
+      ],
+      "bookValueMM": 180
+    },
+    {
+      "name": "Malaysia Sabah plantations",
+      "location": "Sabah, Malaysia",
+      "acres": 98800,
+      "cropOrUse": "Oil palm \u2014 Sabah estates",
+      "category": "Malaysian palm \u2014 Sabah",
+      "fmvPerAcre": 900,
+      "fmvRationale": "Sabah concession area mostly older mature plantings; per-acre value depressed by smaller-than-stated planted area within concession",
+      "comparablesUsed": [
+        "MY-PALM-SABAH-2024"
+      ],
+      "bookValueMM": 91
+    }
+  ],
+  "comparables": [
+    {
+      "id": "ID-PALM-SUMATRA-2024",
+      "description": "Indonesian Sumatra palm plantation transactions 2024",
+      "location": "Sumatra, Indonesia",
+      "pricePerAcre": 5000,
+      "date": "2024-09-30",
+      "source": "GAPKI Sumatra palm transactions 2024"
+    },
+    {
+      "id": "ID-PALM-IMMATURE-2024",
+      "description": "Indonesian unplanted concession / immature palm",
+      "location": "Indonesia (concession-stage)",
+      "pricePerAcre": 2500,
+      "date": "2024-10-15",
+      "source": "GAPKI 2024 + Indonesian land bank reports"
+    },
+    {
+      "id": "MY-PALM-SABAH-2024",
+      "description": "Malaysian Sabah palm plantation transactions",
+      "location": "Sabah, Malaysia",
+      "pricePerAcre": 4800,
+      "date": "2024-09-15",
+      "source": "Malaysian Palm Oil Board land valuation reports 2024"
+    }
+  ],
+  "methodology": "Anglo-Eastern Plantations is a UK-listed Indonesian + Malaysian palm oil operator. Reports in USD; lists on LSE in GBp. Total concession allocation is ~120,000 hectares (~296K acres) with a substantially smaller planted area \u2014 the 296K acre figure includes large unplanted/concession-stage areas.\n\nThis is a key data caveat for AEP. The per-acre FMVs shown are very low because the denominator includes concession-stage land that doesn't have mature plantations. If the property table only included planted hectares (~60-70K), per-acre values would be in the $4-5K USD/acre range consistent with mature Indonesian palm. The book/FMV gap is therefore not directly comparable to MPE/RE without adjusting for concession vs planted area.\n\nAEP is structurally different from peer LSE-listed palm names: net cash position of $182M (essentially zero debt) creates substantial equity-side optionality. The cash drag means AEP's enterprise value largely reflects equity value minus cash, with the implied per-acre EV of mature plantation land coming out below peers when computed mechanically.\n\nFor a stricter valuation, separating (1) mature planted hectares \u00d7 $4-5K/acre, (2) concession-stage land at lower marks, and (3) net cash separately would give a cleaner sum-of-the-parts. The aggregation here uses the broader concession area because that's how the comp set acres are denominated."
+}

@@ -1,0 +1,77 @@
+{
+  "ticker": "SHV.AX",
+  "asOf": "2025-09-30",
+  "currency": "AUD",
+  "propertiesNote": "3-row aggregation by Australian growing region. Total 22,403 planted acres across Sunraysia/Vic, SA Riverland, and NSW Riverina.",
+  "properties": [
+    {
+      "name": "Sunraysia / Robinvale region (Victoria)",
+      "location": "NW Victoria + Sunraysia, Australia",
+      "acres": 12000,
+      "cropOrUse": "Almond orchards (mature + young)",
+      "category": "Australian almond \u2014 Sunraysia/Vic",
+      "fmvPerAcre": 28000,
+      "fmvRationale": "Sunraysia / Robinvale is Australia's primary almond growing region; mature orchards 2024-25 trade at $25-32K AUD/acre. SHV's Carina West processing hub anchors this cluster",
+      "comparablesUsed": [
+        "AU-ALMOND-2024",
+        "AU-ALMOND-2025",
+        "SHV-PIANGIL-2024"
+      ],
+      "bookValueMM": 320
+    },
+    {
+      "name": "Riverland / Loxton / Paringa region (South Australia)",
+      "location": "SA Riverland (Loxton, Paringa), Australia",
+      "acres": 7400,
+      "cropOrUse": "Almond orchards",
+      "category": "Australian almond \u2014 SA Riverland",
+      "fmvPerAcre": 25000,
+      "fmvRationale": "SA Riverland almond orchards; slightly below Sunraysia per-acre due to water-cost differential (SA water rights more expensive)",
+      "comparablesUsed": [
+        "AU-ALMOND-2024",
+        "AU-ALMOND-2025"
+      ],
+      "bookValueMM": 180
+    },
+    {
+      "name": "Riverina region (NSW)",
+      "location": "NSW Riverina, Australia",
+      "acres": 3003,
+      "cropOrUse": "Almond orchards",
+      "category": "Australian almond \u2014 NSW Riverina",
+      "fmvPerAcre": 26000,
+      "fmvRationale": "NSW Riverina almond ground; mid-tier between Sunraysia and SA Riverland",
+      "comparablesUsed": [
+        "AU-ALMOND-2024"
+      ],
+      "bookValueMM": 75
+    }
+  ],
+  "comparables": [
+    {
+      "id": "AU-ALMOND-2024",
+      "description": "Australian mature almond orchard transactions",
+      "location": "NSW Sunraysia / Victoria Mallee",
+      "pricePerAcre": 32000,
+      "date": "2024-10-15",
+      "source": "Australian Almond Industry valuation reports 2024"
+    },
+    {
+      "id": "AU-ALMOND-2025",
+      "description": "H1 2025 Australian almond orchard sales",
+      "location": "NSW + Victoria, Australia",
+      "pricePerAcre": 33000,
+      "date": "2025-04-01",
+      "source": "Colliers Rural + LAWD H1 2025 ag-real-estate report"
+    },
+    {
+      "id": "SHV-PIANGIL-2024",
+      "description": "Select Harvests Piangil acquisition (Sunraysia almond orchards) at $129M; per-acre derived from acquired hectares",
+      "location": "Sunraysia (Piangil), Vic",
+      "pricePerAcre": 28000,
+      "date": "2024-09-15",
+      "source": "Select Harvests Piangil acquisition disclosure 2024"
+    }
+  ],
+  "methodology": "Select Harvests is Australia's largest pure-play almond grower. The 22,403-acre planted portfolio spans three growing regions: Sunraysia/Victoria (Robinvale, Piangil) \u2014 the largest cluster and home to the Carina West processing facility; SA Riverland (Loxton, Paringa); and NSW Riverina.\n\nFY25 (year ended Sep 30, 2025) was a strong year \u2014 revenue jumped 35% to A$398M and EBITDA jumped 81% to A$82M as almond prices rose ($10.18/kg vs $7.69 prior year). The land FMV reflects current Australian almond orchard transaction prices (2024-25 Colliers Rural / LAWD reports show $30-35K AUD/acre for mature Sunraysia ground).\n\nNet debt of A$168M (1H FY25) is higher leverage than peer farmland operators, reflecting Select Harvests' use of debt to fund the Piangil acquisition. Live-price-vs-FMV-NAV will reflect the leverage drag.\n\nPer-region splits use rough estimates of SHV's geographic mix. The company doesn't publicly disclose orchard acres by region \u2014 refining against their FY25 annual report (released November 2025) would tighten the per-region numbers.\n\nThe $28K/acre Sunraysia anchor matches the implied price of SHV's own 2024 Piangil acquisition (A$129M). SA Riverland is marked slightly lower at $25K/acre to reflect higher water entitlement costs in SA vs. Vic."
+}
