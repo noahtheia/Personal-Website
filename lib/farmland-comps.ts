@@ -2,7 +2,17 @@ import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
 
-const CurrencySchema = z.enum(["USD", "BRL", "AUD", "EUR", "GBP", "PLN"]);
+const CurrencySchema = z.enum([
+  "USD",
+  "BRL",
+  "AUD",
+  "EUR",
+  "GBP",
+  "PLN",
+  "MYR",
+  "SAR",
+  "KES",
+]);
 type Currency = z.infer<typeof CurrencySchema>;
 
 const FilingSchema = z.object({

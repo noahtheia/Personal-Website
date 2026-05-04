@@ -10,37 +10,37 @@ inputs are missing.
 
 ## Deferred adds (pipe these in order of conviction)
 
-### LSE-listed palm oil and tropical plantations
-- **REA Holdings (RE.L)** — Indonesian palm oil, ~75K hectares allocation
-  with about half planted. Reports in USD, lists on LSE in GBp. Same
-  dual-currency setup as MP Evans (currency: USD, priceCurrency: GBP).
-- **Anglo-Eastern Plantations (AEP.L)** — Indonesian / Malaysian palm
-  oil, ~120K hectares. Reports in USD, lists on LSE in GBp.
-- **Dekel Agri-Vision (DKL.L)** — Côte d'Ivoire palm + cashew. Reports
-  in EUR, lists on LSE in GBp. Tiny cap; FY24 EBITDA €3.9M.
-
 ### Argentine / hyperinflation-exposed
 - **Cresud (CRESY)** — Argentine row-crop / pastoral / forestry land
   plus IRSA real-estate stake. Reports in ARS under IFRS hyperinflation
   accounting (IAS 29). Trades as ADR on Nasdaq in USD. Two viable
-  approaches: (a) use the SEC 20-F's USD-translated figures (cleanest);
-  (b) add ARS to the currency enum and use the official Banco Central
-  rate at year-end. The parallel-rate gap to "blue dollar" makes (b)
-  noisy.
+  approaches: (a) use the SEC 20-F's USD-translated figures (cleanest;
+  preferred); (b) add ARS to the currency enum and use the official
+  Banco Central rate at year-end. The parallel-rate gap to "blue
+  dollar" makes (b) noisy. Repeatedly deferred — the FY2025 ARS-only
+  press releases I pulled showed implausible USD-equivalent EPS that
+  almost certainly reflects hyperinflation restatement, not real-world
+  earnings. Worth doing properly off the SEC 20-F next pass.
 
-### Asian palm oil giants — would need MYR / SGD currency support
-- **Kuala Lumpur Kepong (KLK.KL)** — ~280K hectares planted, MYR
-- **IOI Corporation (IOI.KL)** — Malaysian palm oil major, MYR
-- **Sime Darby Plantation (SDPL.KL)** — world's largest palm planter, MYR
-- **Genting Plantations (GENP.KL)** — Malaysian palm + property, MYR
-- **United Plantations (UTDP.KL)** — Malaysian, well-regarded operator, MYR
-- **First Resources (EB5.SI)** — Indonesian palm oil, SGD
-- **Bumitama Agri (BAL.SI)** — Indonesian palm oil, SGD
-- **Golden Agri-Resources (E5H.SI)** — diversified Indonesian palm, SGD
+### Smaller LSE-listed tropical plantations
+- **Dekel Agri-Vision (DKL.L)** — Côte d'Ivoire palm + cashew. Reports
+  in EUR, lists on LSE in GBp. Tiny cap; FY24 EBITDA €3.9M. Adding
+  takes priceCurrency: GBP, currency: EUR.
+
+### Singapore-listed palm oil — would need SGD currency support
+- **First Resources (EB5.SI)** — Indonesian palm oil, ~210K hectares
+- **Bumitama Agri (BAL.SI)** — Indonesian palm oil
+- **Golden Agri-Resources (E5H.SI)** — diversified Indonesian palm
+
+### Other Malaysian palm oil — already have MYR support
+- **IOI Corporation (IOI.KL)** — Malaysian palm oil major
+- **Sime Darby Plantation (SDPL.KL)** — world's largest palm planter
+- **Genting Plantations (GENP.KL)** — Malaysian palm + property hybrid
 
 ### Africa / tea
-- **Williamson Tea Kenya (WTK.NR)** — Kenyan tea, KES
-- **Kakuzi (KAKZ.NR)** — Kenyan diversified ag, KES
+- **Kakuzi (KAKZ.NR)** — Kenyan diversified ag (avocado, macadamia,
+  tea, livestock). Williamson Tea is in; Kakuzi would round out.
+  KES currency already supported.
 
 ## Per-row caveats on already-seeded data
 
@@ -146,3 +146,79 @@ inputs are missing.
 - `annualDividend` 0.05 is a rough estimate based on prior-year
   payouts; a final FY25 distribution may differ.
 - `annualNoiMM` 75 is approximated as EBITDA minus G&A.
+
+### RE.L (REA Holdings)
+- USD reporting / GBP listing; uses the dual-currency layer.
+- `acresK` 92.6 = ~37.5K hectares planted (half of REA's ~75K
+  hectare allocation per their 2024 report).
+- `annualDividend` set to 0; REA hasn't paid common dividends
+  recently. Verify when their FY24 / FY25 annual report is read.
+- `annualNoiMM` 50 is a rough proxy.
+
+### AEP.L (Anglo-Eastern Plantations)
+- USD reporting / GBP listing; uses the dual-currency layer.
+- `acresK` 296.5 = ~120K hectares total, but AEP's actual planted
+  area is closer to 60-70K hectares — the 120K figure includes
+  unplanted concessions. Refine to planted-only for cleaner
+  EV/Acre comparison.
+- `bookLandMM` 271.17 is total Net PP&E; agriculture-only
+  carve-out unknown.
+- `annualNoiMM` 90 is approximated as EBITDA minus G&A.
+
+### 2089.KL (United Plantations)
+- All financial inputs are **estimates** — stockanalysis.com 404'd
+  on UTDP and the malaymail.com fetch hit a 503. Net profit FY24
+  MYR 719.4M is confirmed from the company's own February 2026
+  results announcement; everything else (revenue, EBITDA, cash,
+  debt, shares) is order-of-magnitude estimation pending an actual
+  annual report read.
+- `acresK` 125.7 = 50,854 hectares (46,227 oil palm + 4,627
+  coconut), confirmed.
+- UP is famously net-cash and conservatively financed; the
+  cashMM:debtMM ratio of 1500:200 reflects that pattern but the
+  actual figures could be materially different.
+
+### KLK.KL (Kuala Lumpur Kepong)
+- `acresK` 729.5 = 295K hectares (97% oil palm) per their 2024
+  report.
+- FY24 ends Sep 30, 2024 — `filingDate` is approximate.
+- `annualNoiMM` 2742 uses EBITDA as an NOI proxy (KLK doesn't
+  publish a NOI line item).
+- `bookLandMM` 14713 is total Net PP&E; includes processing
+  facilities (mills, refineries, oleochemical plants), not just
+  plantation land. EV/Acre is therefore overstated relative to
+  pure-play planters.
+
+### 6010.SR (NADEC)
+- `acresK` 124 = ~50K hectares **estimated** across NADEC's four
+  Saudi projects (Wadi Al-Dawasir, Hail, Haradh, Al-Jouf). Their
+  annual report describes "thousands of acres" but doesn't give a
+  consolidated total in the public summaries — refine from the
+  full Arabic-language annual report.
+- `annualDividend` 0.50 is a rough placeholder.
+- `bookLandMM` 2258 is Net PP&E.
+
+### 2280.SR (Almarai)
+- Almarai is a **dairy/poultry/bakery group** with Fondomonte
+  (~14K hectares of farmland in Argentina + Saudi forage farms)
+  embedded inside. Treating this as "farmland" overstates pure-play
+  exposure by 5-10x. Worth flagging on the page itself or carving
+  out Fondomonte separately if anyone publishes a segment.
+- `acresK` 124 is an extreme estimate — Fondomonte's ~14K Argentine
+  hectares plus Saudi forage farms = roughly 50K hectares total.
+  124K acres is generous; refine when better disclosure available.
+- `bookLandMM` 25093 is total group Net PP&E (dairy plants etc.),
+  not farmland-only — EV/Acre is wildly overstated.
+
+### WTK.NR (Williamson Tea Kenya)
+- Yahoo's coverage of Nairobi tickers is spotty; live price may
+  not resolve, in which case the row will display dashes for
+  market cap, EV, and live-price multiples.
+- All financial inputs are **rough estimates** from press
+  coverage. Revenue KSh 4.2B and net profit KSh 527M are
+  confirmed; everything else (shares out, balance sheet, hectares)
+  is approximated pending the FY2024 annual report.
+- `acresK` 17.3 = ~7K hectares estimate of tea estates.
+- `annualDividend` 20 reflects only the disclosed interim
+  KSh 10/share dividend; the final dividend may bring annual
+  total higher.
