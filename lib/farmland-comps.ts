@@ -2,17 +2,23 @@ import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
 
-const CurrencySchema = z.enum(["USD", "BRL", "AUD", "EUR", "GBP"]);
+const CurrencySchema = z.enum(["USD", "BRL", "AUD", "EUR", "GBP", "PLN"]);
 type Currency = z.infer<typeof CurrencySchema>;
 
 const FilingSchema = z.object({
   ticker: z.string(),
   name: z.string(),
+  // Reporting / filing currency for all financial inputs below.
   currency: CurrencySchema.default("USD"),
+  // Listing currency that Yahoo returns for the live quote. Most issuers
+  // list and report in the same currency (so this is omitted), but a few
+  // do not — e.g. MP Evans reports in USD but lists on LSE in GBp/GBP,
+  // and Astarta reports in EUR but lists in Warsaw in PLN.
+  priceCurrency: CurrencySchema.optional(),
   primaryCrops: z.string(),
   filingDate: z.string(),
   filingUrl: z.string().url().optional(),
-  // All financial inputs are denominated in the issuer's listing currency.
+  // All financial inputs are denominated in `currency` (filing currency).
   sharesOutMM: z.number().positive(),
   debtMM: z.number().nonnegative(),
   cashMM: z.number().nonnegative(),
@@ -72,10 +78,12 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
   const filings = getFilings();
   const fetchedAt = new Date().toISOString();
 
-  // Resolve unique non-USD currencies once per page render.
+  // Resolve all unique non-USD currencies (filing OR price) once per render.
   const currencies = Array.from(
-    new Set(filings.map((f) => f.currency).filter((c) => c !== "USD")),
-  );
+    new Set(
+      filings.flatMap((f) => [f.currency, f.priceCurrency ?? f.currency]),
+    ),
+  ).filter((c) => c !== "USD");
   const fxEntries = await Promise.all(
     currencies.map(async (c) => [c, await fetchFxToUsd(c)] as const),
   );
@@ -87,14 +95,24 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
   return Promise.all(
     filings.map(async (f): Promise<PricedFarmlandComp> => {
       const fx = fxMap.get(f.currency) ?? 1;
+      const priceCcy = f.priceCurrency ?? f.currency;
+      const priceFx = fxMap.get(priceCcy) ?? 1;
       const q = await fetchQuote(f.ticker);
-      const localPrice = q?.price ?? null;
+      // Yahoo returns the quote in `priceCcy`. For comp math we want it in
+      // the filing currency. Cross via USD: priceFiling = priceLocal × priceFx ÷ filingFx.
+      const yahooPrice = q?.price ?? null;
+      const priceInFiling =
+        yahooPrice !== null && fx > 0
+          ? yahooPrice * (priceFx / fx)
+          : null;
+      // For display we keep the live local quote separately.
+      const localPrice = yahooPrice;
 
-      // All intermediate calcs done in local currency; USD conversion at the
+      // All intermediate calcs done in filing currency; USD conversion at the
       // end (only for absolute-$ values — multiples are dimensionless).
       const netDebtLocal = f.debtMM - f.cashMM;
       const marketCapLocal =
-        localPrice !== null ? localPrice * f.sharesOutMM : null;
+        priceInFiling !== null ? priceInFiling * f.sharesOutMM : null;
       const evLocal =
         marketCapLocal !== null ? marketCapLocal + netDebtLocal : null;
       const evPerAcreLocal =
@@ -105,11 +123,13 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
           ? (f.marketLandMM / f.acresK) * 1000
           : null;
 
-      // Dimensionless ratios — independent of FX.
-      const pNav = localPrice !== null ? localPrice / f.navPerShare : null;
+      // Dimensionless ratios — computed in filing currency for correctness
+      // (price has been translated into filing currency above).
+      const pNav =
+        priceInFiling !== null ? priceInFiling / f.navPerShare : null;
       const divYield =
-        localPrice !== null && localPrice > 0
-          ? (f.annualDividend / localPrice) * 100
+        priceInFiling !== null && priceInFiling > 0
+          ? (f.annualDividend / priceInFiling) * 100
           : null;
       const evCapRate =
         evLocal !== null && evLocal > 0
@@ -128,13 +148,17 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
           ? marketCapLocal / f.annualRevenueMM
           : null;
       const priceEarnings =
-        localPrice !== null && f.epsTTM > 0 ? localPrice / f.epsTTM : null;
+        priceInFiling !== null && f.epsTTM > 0
+          ? priceInFiling / f.epsTTM
+          : null;
 
       return {
         ...f,
         localPrice,
-        // USD-converted absolute $ values
-        price: localPrice !== null ? localPrice * fx : null,
+        // USD-converted absolute $ values. Stock Price uses priceCcy → USD;
+        // everything else has been computed in filing currency, so use
+        // filingCcy → USD.
+        price: localPrice !== null ? localPrice * priceFx : null,
         marketCapMM: marketCapLocal !== null ? marketCapLocal * fx : null,
         netDebtMM: netDebtLocal * fx,
         evMM: evLocal !== null ? evLocal * fx : null,
