@@ -1,7 +1,22 @@
 import { FARMLAND_SERIES } from "@/lib/farmland";
-import { getPricedFarmlandComps } from "@/lib/farmland-comps";
+import {
+  getPricedFarmlandComps,
+  type PricedFarmlandComp,
+} from "@/lib/farmland-comps";
 import { FarmlandComps } from "@/components/FarmlandComps";
 import { FarmlandChart } from "@/components/FarmlandChart";
+
+function fxNote(rows: PricedFarmlandComp[]): string {
+  const seen = new Map<string, number>();
+  for (const r of rows) {
+    if (r.currency !== "USD" && r.fxToUsd > 0) seen.set(r.currency, r.fxToUsd);
+  }
+  if (seen.size === 0) return "";
+  const parts = Array.from(seen.entries()).map(
+    ([c, fx]) => `1 ${c} = $${fx.toFixed(4)}`,
+  );
+  return ` (FX: ${parts.join(", ")})`;
+}
 
 export const metadata = {
   title: "Public farmland",
@@ -22,7 +37,8 @@ export default async function PublicFarmlandPage() {
           Public Farmland Comps
         </h1>
         <p className="mt-1 text-sm text-muted">
-          ($ in millions except per-share and per-acre)
+          (USD millions except per-share and per-acre · non-USD listings
+          translated to USD at live FX)
         </p>
       </header>
 
@@ -36,10 +52,13 @@ export default async function PublicFarmlandPage() {
             timeStyle: "short",
           })}
         </time>
-        . Source: SEC filings (10-K) for filing inputs; Yahoo Finance for live
-        price and 1y history. Multiples derive from price × shares
-        (market cap), market cap + debt − cash (EV), NOI ÷ EV (cap rate),
-        and price ÷ NAV.
+        . Source: issuer 10-K / 20-F / annual report filings for filing
+        inputs; Yahoo Finance for live price and FX. Filing values are
+        captured in each issuer&apos;s reporting currency
+        {fxNote(comps)}; market cap, EV, and absolute-$ multiples are
+        translated to USD at live FX, while ratios (P/NAV, EV/EBITDA,
+        cap rate, yield) are computed in local currency to avoid FX
+        distortion.
       </p>
 
       <section className="mt-12 border-t border-rule pt-8">

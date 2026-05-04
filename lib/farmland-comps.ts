@@ -2,12 +2,17 @@ import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
 
+const CurrencySchema = z.enum(["USD", "BRL", "AUD"]);
+type Currency = z.infer<typeof CurrencySchema>;
+
 const FilingSchema = z.object({
   ticker: z.string(),
   name: z.string(),
+  currency: CurrencySchema.default("USD"),
   primaryCrops: z.string(),
   filingDate: z.string(),
   filingUrl: z.string().url().optional(),
+  // All financial inputs are denominated in the issuer's listing currency.
   sharesOutMM: z.number().positive(),
   debtMM: z.number().nonnegative(),
   cashMM: z.number().nonnegative(),
@@ -16,22 +21,21 @@ const FilingSchema = z.object({
   annualDividend: z.number().nonnegative(),
   annualNoiMM: z.number().nonnegative(),
   annualRevenueMM: z.number().nonnegative(),
-  annualEbitdaMM: z.number(), // can be negative
-  epsTTM: z.number(), // can be negative
-  // Total farmland on the balance sheet ($M).
+  annualEbitdaMM: z.number(),
+  epsTTM: z.number(),
   bookLandMM: z.number().positive(),
-  // Third-party-appraised or comparable-market value of the portfolio
-  // ($M). Optional — some issuers don't disclose a portfolio appraisal.
   marketLandMM: z.number().positive().optional(),
 });
 
 export type FarmlandFiling = z.infer<typeof FilingSchema>;
 
 export type PricedFarmlandComp = FarmlandFiling & {
-  price: number | null;
-  currency: string;
+  // Live local-currency price (raw Yahoo quote).
+  localPrice: number | null;
 
-  // Market data
+  // Output overrides: every absolute-$ field below is USD-equivalent.
+  // (FarmlandFiling spreads in first; we overwrite same-named fields.)
+  price: number | null;
   marketCapMM: number | null;
   netDebtMM: number;
   evMM: number | null;
@@ -42,7 +46,7 @@ export type PricedFarmlandComp = FarmlandFiling & {
   evPerAcre: number | null;
   pNav: number | null;
 
-  // Earnings value
+  // Earnings value (these override the local-currency filing fields).
   annualRevenueMM: number;
   annualEbitdaMM: number;
   ebitdaMargin: number | null;
@@ -52,6 +56,7 @@ export type PricedFarmlandComp = FarmlandFiling & {
   evCapRate: number | null;
   divYield: number | null;
 
+  fxToUsd: number;
   fetchedAt: string;
 };
 
@@ -67,50 +72,79 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
   const filings = getFilings();
   const fetchedAt = new Date().toISOString();
 
+  // Resolve unique non-USD currencies once per page render.
+  const currencies = Array.from(
+    new Set(filings.map((f) => f.currency).filter((c) => c !== "USD")),
+  );
+  const fxEntries = await Promise.all(
+    currencies.map(async (c) => [c, await fetchFxToUsd(c)] as const),
+  );
+  const fxMap = new Map<Currency, number>([
+    ["USD", 1],
+    ...fxEntries.map(([c, v]) => [c, v ?? 0] as [Currency, number]),
+  ]);
+
   return Promise.all(
     filings.map(async (f): Promise<PricedFarmlandComp> => {
+      const fx = fxMap.get(f.currency) ?? 1;
       const q = await fetchQuote(f.ticker);
-      const price = q?.price ?? null;
-      const currency = q?.currency ?? "USD";
+      const localPrice = q?.price ?? null;
 
-      const netDebtMM = f.debtMM - f.cashMM;
-      const marketCapMM = price !== null ? price * f.sharesOutMM : null;
-      const evMM = marketCapMM !== null ? marketCapMM + netDebtMM : null;
-      // $M / k-acres → $/acre.
-      const evPerAcre = evMM !== null ? (evMM / f.acresK) * 1000 : null;
-      const bookPerAcre = (f.bookLandMM / f.acresK) * 1000;
-      const marketPerAcre =
+      // All intermediate calcs done in local currency; USD conversion at the
+      // end (only for absolute-$ values — multiples are dimensionless).
+      const netDebtLocal = f.debtMM - f.cashMM;
+      const marketCapLocal =
+        localPrice !== null ? localPrice * f.sharesOutMM : null;
+      const evLocal =
+        marketCapLocal !== null ? marketCapLocal + netDebtLocal : null;
+      const evPerAcreLocal =
+        evLocal !== null ? (evLocal / f.acresK) * 1000 : null;
+      const bookPerAcreLocal = (f.bookLandMM / f.acresK) * 1000;
+      const marketPerAcreLocal =
         f.marketLandMM !== undefined
           ? (f.marketLandMM / f.acresK) * 1000
           : null;
-      const pNav = price !== null ? price / f.navPerShare : null;
+
+      // Dimensionless ratios — independent of FX.
+      const pNav = localPrice !== null ? localPrice / f.navPerShare : null;
       const divYield =
-        price !== null && price > 0 ? (f.annualDividend / price) * 100 : null;
+        localPrice !== null && localPrice > 0
+          ? (f.annualDividend / localPrice) * 100
+          : null;
       const evCapRate =
-        evMM !== null && evMM > 0 ? (f.annualNoiMM / evMM) * 100 : null;
+        evLocal !== null && evLocal > 0
+          ? (f.annualNoiMM / evLocal) * 100
+          : null;
       const ebitdaMargin =
         f.annualRevenueMM > 0
           ? (f.annualEbitdaMM / f.annualRevenueMM) * 100
           : null;
       const evEbitda =
-        evMM !== null && f.annualEbitdaMM > 0 ? evMM / f.annualEbitdaMM : null;
+        evLocal !== null && f.annualEbitdaMM > 0
+          ? evLocal / f.annualEbitdaMM
+          : null;
       const priceSales =
-        marketCapMM !== null && f.annualRevenueMM > 0
-          ? marketCapMM / f.annualRevenueMM
+        marketCapLocal !== null && f.annualRevenueMM > 0
+          ? marketCapLocal / f.annualRevenueMM
           : null;
       const priceEarnings =
-        price !== null && f.epsTTM > 0 ? price / f.epsTTM : null;
+        localPrice !== null && f.epsTTM > 0 ? localPrice / f.epsTTM : null;
 
       return {
         ...f,
-        price,
-        currency,
-        marketCapMM,
-        netDebtMM,
-        evMM,
-        bookPerAcre,
-        marketPerAcre,
-        evPerAcre,
+        localPrice,
+        // USD-converted absolute $ values
+        price: localPrice !== null ? localPrice * fx : null,
+        marketCapMM: marketCapLocal !== null ? marketCapLocal * fx : null,
+        netDebtMM: netDebtLocal * fx,
+        evMM: evLocal !== null ? evLocal * fx : null,
+        bookPerAcre: bookPerAcreLocal * fx,
+        marketPerAcre:
+          marketPerAcreLocal !== null ? marketPerAcreLocal * fx : null,
+        evPerAcre: evPerAcreLocal !== null ? evPerAcreLocal * fx : null,
+        annualRevenueMM: f.annualRevenueMM * fx,
+        annualEbitdaMM: f.annualEbitdaMM * fx,
+        // Dimensionless multiples — passed through
         pNav,
         ebitdaMargin,
         evEbitda,
@@ -118,6 +152,7 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         priceEarnings,
         evCapRate,
         divYield,
+        fxToUsd: fx,
         fetchedAt,
       };
     }),
@@ -151,4 +186,12 @@ async function fetchQuote(
   } catch {
     return null;
   }
+}
+
+async function fetchFxToUsd(currency: Currency): Promise<number | null> {
+  if (currency === "USD") return 1;
+  // Yahoo's FX symbol convention: <BASE><QUOTE>=X. We want USD per local unit.
+  const symbol = `${currency}USD=X`;
+  const q = await fetchQuote(symbol);
+  return q?.price ?? null;
 }
