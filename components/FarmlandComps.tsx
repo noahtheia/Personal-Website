@@ -5,6 +5,7 @@ import type { PricedFarmlandComp } from "@/lib/farmland-comps";
 
 type SortKey =
   | "ticker"
+  | "name"
   | "price"
   | "marketCapMM"
   | "netDebtMM"
@@ -116,14 +117,41 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
         <thead>
           {/* Band row */}
           <tr>
-            <th
-              className="sticky left-0 z-10 bg-surface px-4 py-2 text-left"
-              rowSpan={2}
-            >
-              <span className="text-[11px] uppercase tracking-wider text-muted">
-                Company
-              </span>
-            </th>
+            {(["ticker", "name"] as const).map((k, idx) => {
+              const active = k === sortKey;
+              return (
+                <th
+                  key={k}
+                  rowSpan={2}
+                  className={`sticky z-10 w-20 bg-surface px-3 py-2 text-left align-bottom ${
+                    idx === 0 ? "left-0" : "left-20"
+                  }`}
+                >
+                  <button
+                    type="button"
+                    onClick={() => onHeaderClick(k)}
+                    className={`inline-flex items-baseline gap-1 text-[11px] uppercase tracking-wider transition-colors hover:!text-accent ${
+                      active ? "!text-accent" : "!text-muted"
+                    }`}
+                    aria-sort={
+                      active
+                        ? dir === "asc"
+                          ? "ascending"
+                          : "descending"
+                        : "none"
+                    }
+                  >
+                    <span>{k === "ticker" ? "Ticker" : "Company"}</span>
+                    <span
+                      aria-hidden="true"
+                      className={`text-[9px] ${active ? "opacity-100" : "opacity-30"}`}
+                    >
+                      {active ? (dir === "asc" ? "▲" : "▼") : "▾"}
+                    </span>
+                  </button>
+                </th>
+              );
+            })}
             {BAND_ORDER.map((b, idx) => {
               const span = COLUMNS.filter((c) => c.band === b).length;
               return (
@@ -190,10 +218,11 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
               key={r.ticker}
               className="border-b border-rule transition-colors hover:bg-bg/60"
             >
-              <td className="sticky left-0 z-[1] bg-surface px-4 py-3 text-left">
-                <div className="font-semibold text-fg">{r.ticker}</div>
-                <div className="text-[11px] text-muted">{r.name}</div>
-                <div className="text-[10px] text-muted">{r.primaryCrops}</div>
+              <td className="sticky left-0 z-[1] w-20 bg-surface px-3 py-3 text-left align-top font-semibold text-fg">
+                {r.ticker}
+              </td>
+              <td className="sticky left-20 z-[1] bg-surface px-3 py-3 text-left align-top">
+                <div className="text-[12px] text-fg">{r.name}</div>
                 <div className="mt-0.5 text-[9px] uppercase tracking-wider text-muted">
                   Filing {formatFilingDate(r.filingDate)}
                 </div>
@@ -214,7 +243,8 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
             </tr>
           ))}
           <tr className="border-t-2 border-rule-strong bg-bg/60 font-semibold">
-            <td className="sticky left-0 bg-bg/95 px-4 py-2 text-left">Mean</td>
+            <td className="sticky left-0 w-20 bg-bg/95 px-3 py-2 text-left">Mean</td>
+            <td className="sticky left-20 bg-bg/95 px-3 py-2 text-left" />
             {COLUMNS.map((c, i) => (
               <td
                 key={c.key}
@@ -227,7 +257,8 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
             ))}
           </tr>
           <tr className="bg-bg/40 font-semibold">
-            <td className="sticky left-0 bg-bg/95 px-4 py-2 text-left">Median</td>
+            <td className="sticky left-0 w-20 bg-bg/95 px-3 py-2 text-left">Median</td>
+            <td className="sticky left-20 bg-bg/95 px-3 py-2 text-left" />
             {COLUMNS.map((c, i) => (
               <td
                 key={c.key}
