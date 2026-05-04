@@ -2,251 +2,675 @@
   "ticker": "LAND",
   "asOf": "2025-12-31",
   "currency": "USD",
-  "propertiesNote": "20 of 144 farms shown — representative sample from the FY2025 10-K Schedule III. Values rounded.",
+  "propertiesNote": "All 67 Schedule III line items from the FY2025 10-K, sorted by net book value. Some line items aggregate multiple farms in the same county; the 144-farm count expands these. Per-line-item acres are pro-rata allocated within each state by net book value (state-level farm acres from 10-K Item 2).",
   "properties": [
     {
-      "name": "San Andreas Ranch",
-      "location": "Ventura County, CA",
-      "acres": 503,
-      "cropOrUse": "Strawberries / cool-season vegetables",
-      "acquired": "2014-09-30",
-      "acquisitionCostMM": 25.5,
-      "bookValueMM": 27.8,
-      "notes": "Prime coastal Oxnard Plain ground; high-rotation specialty crop"
+      "name": "Kern County, California",
+      "location": "California",
+      "acres": 3470,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2021-12-03",
+      "acquisitionCostMM": 88.1,
+      "bookValueMM": 77.3
     },
     {
-      "name": "West Beach Ranch",
-      "location": "Santa Cruz County, CA (Watsonville)",
-      "acres": 196,
-      "cropOrUse": "Strawberries / berries",
-      "acquired": "2015-12-18",
-      "acquisitionCostMM": 14.0,
-      "bookValueMM": 16.2,
-      "notes": "Pajaro Valley berry corridor"
+      "name": "Fresno County, California",
+      "location": "California",
+      "acres": 2675,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2019-08-16",
+      "acquisitionCostMM": 71.1,
+      "bookValueMM": 59.6
     },
     {
-      "name": "Cantua Creek Ranch",
-      "location": "Fresno County, CA",
-      "acres": 4445,
-      "cropOrUse": "Pistachios / almonds",
-      "acquired": "2019-08-15",
-      "acquisitionCostMM": 50.4,
-      "bookValueMM": 55.1,
-      "notes": "West-side San Joaquin Valley; dedicated water rights via SLDMWA"
+      "name": "Miscellaneous Investments",
+      "location": "Multiple states",
+      "acres": 16331,
+      "cropOrUse": "Mixed agriculture",
+      "acquired": "2025-12-31",
+      "acquisitionCostMM": 63.4,
+      "bookValueMM": 54.8
     },
     {
-      "name": "Sky View Ranch",
-      "location": "Madera County, CA",
-      "acres": 2240,
-      "cropOrUse": "Pistachios",
-      "acquired": "2018-04-30",
-      "acquisitionCostMM": 27.5,
-      "bookValueMM": 30.0,
-      "notes": "Mature pistachio orchards"
+      "name": "Martin County, Florida",
+      "location": "Florida",
+      "acres": 4486,
+      "cropOrUse": "Citrus / vegetables",
+      "acquired": "2019-07-22",
+      "acquisitionCostMM": 55.7,
+      "bookValueMM": 52.4
     },
     {
-      "name": "Quail Run",
-      "location": "Kern County, CA",
-      "acres": 1561,
-      "cropOrUse": "Almonds",
-      "acquired": "2018-12-21",
-      "acquisitionCostMM": 26.3,
-      "bookValueMM": 28.1,
-      "notes": "Southern San Joaquin almond ground"
+      "name": "Tulare County, California",
+      "location": "California",
+      "acres": 2175,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2020-12-17",
+      "acquisitionCostMM": 61.6,
+      "bookValueMM": 48.5
     },
     {
-      "name": "Trapnell Groves",
-      "location": "Hillsborough County, FL (Plant City)",
-      "acres": 488,
-      "cropOrUse": "Strawberries / blueberries",
-      "acquired": "2014-04-22",
-      "acquisitionCostMM": 6.4,
-      "bookValueMM": 7.1,
-      "notes": "Florida winter berry production"
+      "name": "Kern County, California",
+      "location": "California",
+      "acres": 1789,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2021-06-04",
+      "acquisitionCostMM": 51.9,
+      "bookValueMM": 39.9
     },
     {
-      "name": "Mid-Florida Citrus",
-      "location": "Polk County, FL",
-      "acres": 4180,
-      "cropOrUse": "Citrus (oranges, grapefruit)",
-      "acquired": "2017-03-15",
-      "acquisitionCostMM": 22.5,
-      "bookValueMM": 18.8,
-      "notes": "Citrus greening pressure has reduced the productive footprint; some acres in transition"
-    },
-    {
-      "name": "Bear Mountain",
-      "location": "San Luis Obispo County, CA",
-      "acres": 740,
-      "cropOrUse": "Wine grapes / avocados",
-      "acquired": "2016-07-29",
-      "acquisitionCostMM": 14.8,
-      "bookValueMM": 16.4,
-      "notes": "Central Coast diversified permanent crop"
-    },
-    {
-      "name": "Rio del Mar Berry",
-      "location": "Monterey County, CA",
-      "acres": 285,
-      "cropOrUse": "Strawberries / raspberries",
-      "acquired": "2015-06-12",
-      "acquisitionCostMM": 18.7,
-      "bookValueMM": 21.0,
-      "notes": "Salinas Valley berry corridor"
-    },
-    {
-      "name": "Three Sisters Vineyard",
-      "location": "Napa County, CA",
-      "acres": 152,
+      "name": "Napa County, California",
+      "location": "California",
+      "acres": 1583,
       "cropOrUse": "Wine grapes",
-      "acquired": "2017-11-05",
-      "acquisitionCostMM": 17.2,
-      "bookValueMM": 19.5,
-      "notes": "Premium Napa cabernet block"
+      "acquired": "2019-08-29",
+      "acquisitionCostMM": 37.5,
+      "bookValueMM": 35.3
     },
     {
-      "name": "Big Bend Farm",
-      "location": "Florida (Manatee County)",
-      "acres": 1735,
-      "cropOrUse": "Vegetables / citrus mixed",
-      "acquired": "2015-10-30",
-      "acquisitionCostMM": 12.4,
-      "bookValueMM": 14.0,
-      "notes": "Vegetable rotation with seasonal strawberry"
+      "name": "Tehama County, California",
+      "location": "California",
+      "acres": 1505,
+      "cropOrUse": "Almonds / walnuts / row crops",
+      "acquired": "2021-04-05",
+      "acquisitionCostMM": 37.0,
+      "bookValueMM": 33.6
     },
     {
-      "name": "Yuma West Farm",
-      "location": "Yuma County, AZ",
-      "acres": 932,
-      "cropOrUse": "Cool-season vegetables (lettuce, broccoli)",
-      "acquired": "2018-03-22",
-      "acquisitionCostMM": 11.8,
-      "bookValueMM": 13.0,
-      "notes": "Colorado River-fed winter vegetable bowl"
+      "name": "Yuma County, Arizona",
+      "location": "Arizona",
+      "acres": 3343,
+      "cropOrUse": "Cool-season vegetables",
+      "acquired": "2017-06-01",
+      "acquisitionCostMM": 41.5,
+      "bookValueMM": 30.2
     },
     {
-      "name": "Snake River Farm",
-      "location": "Cassia County, ID",
-      "acres": 2860,
-      "cropOrUse": "Potatoes / sugar beets / cereals",
-      "acquired": "2017-06-30",
-      "acquisitionCostMM": 14.3,
-      "bookValueMM": 15.8,
-      "notes": "Idaho irrigated row-crop ground"
+      "name": "Fresno County, California",
+      "location": "California",
+      "acres": 1278,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2020-09-03",
+      "acquisitionCostMM": 32.8,
+      "bookValueMM": 28.5
     },
     {
-      "name": "Pacific Northwest Orchard",
-      "location": "Washington (Yakima Valley)",
-      "acres": 412,
-      "cropOrUse": "Apples / cherries",
+      "name": "Fresno County, California",
+      "location": "California",
+      "acres": 1250,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2020-10-01",
+      "acquisitionCostMM": 33.5,
+      "bookValueMM": 27.9
+    },
+    {
+      "name": "Ventura County, California",
+      "location": "California",
+      "acres": 1141,
+      "cropOrUse": "Strawberries / vegetables / coastal specialty",
+      "acquired": "2014-10-29",
+      "acquisitionCostMM": 26.8,
+      "bookValueMM": 25.4
+    },
+    {
+      "name": "Whatcom County, Washington",
+      "location": "Washington",
+      "acres": 999,
+      "cropOrUse": "Blueberries",
+      "acquired": "2020-12-24",
+      "acquisitionCostMM": 32.0,
+      "bookValueMM": 25.1
+    },
+    {
+      "name": "Kern County, California",
+      "location": "California",
+      "acres": 1073,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2015-09-03",
+      "acquisitionCostMM": 28.1,
+      "bookValueMM": 23.9
+    },
+    {
+      "name": "Madera County, California",
+      "location": "California",
+      "acres": 1063,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2019-04-09",
+      "acquisitionCostMM": 30.3,
+      "bookValueMM": 23.7
+    },
+    {
+      "name": "San Joaquin County, California",
+      "location": "California",
+      "acres": 1043,
+      "cropOrUse": "Permanent crops / row crops",
+      "acquired": "2020-12-24",
+      "acquisitionCostMM": 33.4,
+      "bookValueMM": 23.2
+    },
+    {
+      "name": "Kern County, California",
+      "location": "California",
+      "acres": 1033,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2021-08-11",
+      "acquisitionCostMM": 30.1,
+      "bookValueMM": 23.0
+    },
+    {
+      "name": "Ventura County, California",
+      "location": "California",
+      "acres": 998,
+      "cropOrUse": "Strawberries / vegetables / coastal specialty",
+      "acquired": "2019-08-28",
+      "acquisitionCostMM": 23.0,
+      "bookValueMM": 22.3
+    },
+    {
+      "name": "Glenn, California",
+      "location": "California",
+      "acres": 963,
+      "cropOrUse": "Almonds / walnuts / row crops",
+      "acquired": "2022-06-16",
+      "acquisitionCostMM": 24.1,
+      "bookValueMM": 21.5
+    },
+    {
+      "name": "Ventura County, California",
+      "location": "California",
+      "acres": 896,
+      "cropOrUse": "Strawberries / vegetables / coastal specialty",
+      "acquired": "2020-12-15",
+      "acquisitionCostMM": 20.6,
+      "bookValueMM": 20.0
+    },
+    {
+      "name": "Franklin & Grant, Washington",
+      "location": "Washington",
+      "acres": 793,
+      "cropOrUse": "Apples / orchards",
+      "acquired": "2022-07-21",
+      "acquisitionCostMM": 27.5,
+      "bookValueMM": 19.9
+    },
+    {
+      "name": "Saguache County, Colorado",
+      "location": "Colorado",
+      "acres": 7276,
+      "cropOrUse": "Potatoes",
+      "acquired": "2016-03-03",
+      "acquisitionCostMM": 26.6,
+      "bookValueMM": 19.5
+    },
+    {
+      "name": "Madera, California",
+      "location": "California",
+      "acres": 874,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2018-11-01",
+      "acquisitionCostMM": 21.3,
+      "bookValueMM": 19.5
+    },
+    {
+      "name": "Monterey County, California",
+      "location": "California",
+      "acres": 743,
+      "cropOrUse": "Strawberries / vegetables / coastal specialty",
+      "acquired": "2015-01-05",
+      "acquisitionCostMM": 17.8,
+      "bookValueMM": 16.6
+    },
+    {
+      "name": "Fresno County, California",
+      "location": "California",
+      "acres": 684,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2017-07-17",
+      "acquisitionCostMM": 18.3,
+      "bookValueMM": 15.3
+    },
+    {
+      "name": "Stanislaus County, Colorado",
+      "location": "Colorado",
+      "acres": 5359,
+      "cropOrUse": "Row crops",
       "acquired": "2016-09-14",
-      "acquisitionCostMM": 8.7,
-      "bookValueMM": 9.6,
-      "notes": "Yakima irrigated permanent crop"
+      "acquisitionCostMM": 14.7,
+      "bookValueMM": 14.3
     },
     {
-      "name": "Blueberry Hill",
-      "location": "Van Buren County, MI",
-      "acres": 318,
-      "cropOrUse": "Highbush blueberries",
-      "acquired": "2015-08-20",
-      "acquisitionCostMM": 5.4,
-      "bookValueMM": 6.0,
-      "notes": "Southwest Michigan blueberry belt"
+      "name": "Kern County, California",
+      "location": "California",
+      "acres": 624,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2020-06-24",
+      "acquisitionCostMM": 14.5,
+      "bookValueMM": 13.9
     },
     {
-      "name": "Cottonwood Hills",
-      "location": "Mecosta County, MI",
-      "acres": 875,
-      "cropOrUse": "Cool-season vegetables / cereals",
-      "acquired": "2017-02-15",
-      "acquisitionCostMM": 4.2,
-      "bookValueMM": 4.7,
-      "notes": "Central Michigan irrigated ground"
+      "name": "Fresno County, California",
+      "location": "California",
+      "acres": 614,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2016-04-05",
+      "acquisitionCostMM": 18.9,
+      "bookValueMM": 13.7
     },
     {
-      "name": "Avocado Heights",
-      "location": "San Diego County, CA",
-      "acres": 270,
-      "cropOrUse": "Avocados",
-      "acquired": "2018-05-10",
+      "name": "Merced County, Colorado",
+      "location": "Colorado",
+      "acres": 4927,
+      "cropOrUse": "Row crops",
+      "acquired": "2016-09-14",
       "acquisitionCostMM": 13.5,
-      "bookValueMM": 15.2,
-      "notes": "North County avocado terroir"
+      "bookValueMM": 13.2
     },
     {
-      "name": "Gibson Almonds",
-      "location": "Stanislaus County, CA",
-      "acres": 1050,
-      "cropOrUse": "Almonds",
-      "acquired": "2019-04-25",
-      "acquisitionCostMM": 19.4,
-      "bookValueMM": 20.8,
-      "notes": "Northern San Joaquin almond ground"
-    },
-    {
-      "name": "Lemons of Ojai",
-      "location": "Ventura County, CA",
-      "acres": 280,
-      "cropOrUse": "Lemons / avocados",
-      "acquired": "2016-10-12",
+      "name": "Manatee County, Florida",
+      "location": "Florida",
+      "acres": 1087,
+      "cropOrUse": "Strawberries / vegetables",
+      "acquired": "2014-09-29",
       "acquisitionCostMM": 17.6,
-      "bookValueMM": 19.1,
-      "notes": "Coastal Ventura permanent crop"
+      "bookValueMM": 12.7
     },
     {
-      "name": "Eastern Plains",
-      "location": "Weld County, CO",
-      "acres": 4500,
-      "cropOrUse": "Corn / alfalfa / sugar beets",
-      "acquired": "2017-09-30",
-      "acquisitionCostMM": 16.2,
-      "bookValueMM": 17.8,
-      "notes": "Front Range irrigated row-crop"
+      "name": "Monterey County, California",
+      "location": "California",
+      "acres": 559,
+      "cropOrUse": "Strawberries / vegetables / coastal specialty",
+      "acquired": "2019-07-11",
+      "acquisitionCostMM": 13.0,
+      "bookValueMM": 12.5
+    },
+    {
+      "name": "Van Buren County, Michigan",
+      "location": "Michigan",
+      "acres": 698,
+      "cropOrUse": "Blueberries",
+      "acquired": "2021-06-09",
+      "acquisitionCostMM": 13.4,
+      "bookValueMM": 11.7
+    },
+    {
+      "name": "Baca County, Colorado",
+      "location": "Colorado",
+      "acres": 4271,
+      "cropOrUse": "Dryland row crops",
+      "acquired": "2016-12-28",
+      "acquisitionCostMM": 11.7,
+      "bookValueMM": 11.4
+    },
+    {
+      "name": "Okeechobee County, Florida",
+      "location": "Florida",
+      "acres": 948,
+      "cropOrUse": "Citrus / vegetables",
+      "acquired": "2017-08-09",
+      "acquisitionCostMM": 12.4,
+      "bookValueMM": 11.1
+    },
+    {
+      "name": "Ventura County, California",
+      "location": "California",
+      "acres": 466,
+      "cropOrUse": "Strawberries / vegetables / coastal specialty",
+      "acquired": "1998-09-15",
+      "acquisitionCostMM": 15.7,
+      "bookValueMM": 10.4
+    },
+    {
+      "name": "Cochise County, Arizona",
+      "location": "Arizona",
+      "acres": 1092,
+      "cropOrUse": "Pistachios / nuts",
+      "acquired": "2013-12-27",
+      "acquisitionCostMM": 12.6,
+      "bookValueMM": 9.9
+    },
+    {
+      "name": "Charlotte County, FL",
+      "location": "Florida",
+      "acres": 845,
+      "cropOrUse": "Citrus / vegetables",
+      "acquired": "2021-12-16",
+      "acquisitionCostMM": 10.0,
+      "bookValueMM": 9.9
+    },
+    {
+      "name": "Yamhill County, Oregon",
+      "location": "Oregon",
+      "acres": 498,
+      "cropOrUse": "Hazelnuts / blueberries",
+      "acquired": "2021-08-11",
+      "acquisitionCostMM": 12.4,
+      "bookValueMM": 9.8
+    },
+    {
+      "name": "Hartley County, Texas",
+      "location": "Texas",
+      "acres": 2219,
+      "cropOrUse": "Dryland row crops",
+      "acquired": "2018-11-20",
+      "acquisitionCostMM": 9.9,
+      "bookValueMM": 9.3
+    },
+    {
+      "name": "Hayes & Hitchcock County, Nebraska",
+      "location": "Nebraska",
+      "acres": 3274,
+      "cropOrUse": "Corn / soy irrigated",
+      "acquired": "2019-10-07",
+      "acquisitionCostMM": 9.7,
+      "bookValueMM": 9.3
+    },
+    {
+      "name": "Monterey County, California",
+      "location": "California",
+      "acres": 412,
+      "cropOrUse": "Strawberries / vegetables / coastal specialty",
+      "acquired": "2013-10-21",
+      "acquisitionCostMM": 10.6,
+      "bookValueMM": 9.2
+    },
+    {
+      "name": "Santa Cruz County, California",
+      "location": "California",
+      "acres": 404,
+      "cropOrUse": "Strawberries / vegetables / coastal specialty",
+      "acquired": "2011-01-03",
+      "acquisitionCostMM": 9.3,
+      "bookValueMM": 9.0
+    },
+    {
+      "name": "Yolo County, California",
+      "location": "California",
+      "acres": 375,
+      "cropOrUse": "Almonds / walnuts / row crops",
+      "acquired": "2019-06-13",
+      "acquisitionCostMM": 9.3,
+      "bookValueMM": 8.4
+    },
+    {
+      "name": "Merced County, California",
+      "location": "California",
+      "acres": 369,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2018-12-06",
+      "acquisitionCostMM": 8.2,
+      "bookValueMM": 8.2
+    },
+    {
+      "name": "Cochise County, Arizona",
+      "location": "Arizona",
+      "acres": 899,
+      "cropOrUse": "Pistachios / nuts",
+      "acquired": "2015-12-23",
+      "acquisitionCostMM": 10.3,
+      "bookValueMM": 8.1
+    },
+    {
+      "name": "Wicomico & Caroline County, Maryland, and Sussex County, Delaware",
+      "location": "Maryland",
+      "acres": 863,
+      "cropOrUse": "Diversified vegetables / specialty",
+      "acquired": "2020-08-31",
+      "acquisitionCostMM": 7.8,
+      "bookValueMM": 7.4
+    },
+    {
+      "name": "Ventura County, California",
+      "location": "California",
+      "acres": 287,
+      "cropOrUse": "Strawberries / vegetables / coastal specialty",
+      "acquired": "2014-07-23",
+      "acquisitionCostMM": 6.8,
+      "bookValueMM": 6.4
+    },
+    {
+      "name": "Kern County, California",
+      "location": "California",
+      "acres": 278,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2014-07-25",
+      "acquisitionCostMM": 6.9,
+      "bookValueMM": 6.2
+    },
+    {
+      "name": "Baca County, Colorado & Buildings",
+      "location": "Colorado",
+      "acres": 2335,
+      "cropOrUse": "Dryland row crops",
+      "acquired": "2016-09-01",
+      "acquisitionCostMM": 6.4,
+      "bookValueMM": 6.2
+    },
+    {
+      "name": "Ventura County, California",
+      "location": "California",
+      "acres": 263,
+      "cropOrUse": "Strawberries / vegetables / coastal specialty",
+      "acquired": "2014-11-04",
+      "acquisitionCostMM": 6.0,
+      "bookValueMM": 5.9
+    },
+    {
+      "name": "Kings County, California",
+      "location": "California",
+      "acres": 260,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2018-09-13",
+      "acquisitionCostMM": 6.9,
+      "bookValueMM": 5.8
+    },
+    {
+      "name": "Santa Cruz County, California",
+      "location": "California",
+      "acres": 251,
+      "cropOrUse": "Strawberries / vegetables / coastal specialty",
+      "acquired": "2014-06-13",
+      "acquisitionCostMM": 5.8,
+      "bookValueMM": 5.6
+    },
+    {
+      "name": "Walla Walla County, Washington",
+      "location": "Washington",
+      "acres": 212,
+      "cropOrUse": "Wine grapes / orchards",
+      "acquired": "2017-09-08",
+      "acquisitionCostMM": 5.7,
+      "bookValueMM": 5.3
+    },
+    {
+      "name": "Fresno County, California",
+      "location": "California",
+      "acres": 218,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2016-10-13",
+      "acquisitionCostMM": 6.5,
+      "bookValueMM": 4.9
+    },
+    {
+      "name": "Hayes County, Nebraska",
+      "location": "Nebraska",
+      "acres": 1675,
+      "cropOrUse": "Corn / soy irrigated",
+      "acquired": "2019-10-07",
+      "acquisitionCostMM": 5.0,
+      "bookValueMM": 4.8
+    },
+    {
+      "name": "Umatilla, Oregon",
+      "location": "Oregon",
+      "acres": 238,
+      "cropOrUse": "Apples / orchards",
+      "acquired": "2022-07-21",
+      "acquisitionCostMM": 5.2,
+      "bookValueMM": 4.7
+    },
+    {
+      "name": "Santa Cruz County, California",
+      "location": "California",
+      "acres": 202,
+      "cropOrUse": "Strawberries / vegetables / coastal specialty",
+      "acquired": "1997-06-16",
+      "acquisitionCostMM": 5.0,
+      "bookValueMM": 4.5
+    },
+    {
+      "name": "Saint Lucie County, Florida",
+      "location": "Florida",
+      "acres": 361,
+      "cropOrUse": "Citrus / vegetables",
+      "acquired": "2016-07-01",
+      "acquisitionCostMM": 5.1,
+      "bookValueMM": 4.2
+    },
+    {
+      "name": "St. Lucie County, Florida",
+      "location": "Florida",
+      "acres": 359,
+      "cropOrUse": "Citrus / vegetables",
+      "acquired": "2021-08-18",
+      "acquisitionCostMM": 5.3,
+      "bookValueMM": 4.2
+    },
+    {
+      "name": "Kern County, California",
+      "location": "California",
+      "acres": 174,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2018-01-31",
+      "acquisitionCostMM": 4.5,
+      "bookValueMM": 3.9
+    },
+    {
+      "name": "Hillsborough County, Florida",
+      "location": "Florida",
+      "acres": 302,
+      "cropOrUse": "Strawberries / vegetables",
+      "acquired": "2012-09-12",
+      "acquisitionCostMM": 5.7,
+      "bookValueMM": 3.5
+    },
+    {
+      "name": "Manatee County, Florida",
+      "location": "Florida",
+      "acres": 249,
+      "cropOrUse": "Strawberries / vegetables",
+      "acquired": "2015-03-10",
+      "acquisitionCostMM": 4.6,
+      "bookValueMM": 2.9
+    },
+    {
+      "name": "San Joaquin County, California",
+      "location": "California",
+      "acres": 127,
+      "cropOrUse": "Permanent crops / row crops",
+      "acquired": "2021-03-11",
+      "acquisitionCostMM": 4.3,
+      "bookValueMM": 2.8
+    },
+    {
+      "name": "Santa Barbara County, California",
+      "location": "California",
+      "acres": 109,
+      "cropOrUse": "Strawberries / vegetables / coastal specialty",
+      "acquired": "2017-08-09",
+      "acquisitionCostMM": 2.9,
+      "bookValueMM": 2.4
+    },
+    {
+      "name": "Fresno County, California",
+      "location": "California",
+      "acres": 96,
+      "cropOrUse": "Almonds / pistachios / citrus",
+      "acquired": "2017-12-15",
+      "acquisitionCostMM": 6.0,
+      "bookValueMM": 2.1
+    },
+    {
+      "name": "Allegran and Van Buren County, Michigan",
+      "location": "Michigan",
+      "acres": 80,
+      "cropOrUse": "Blueberries",
+      "acquired": "2019-06-04",
+      "acquisitionCostMM": 1.9,
+      "bookValueMM": 1.4
+    },
+    {
+      "name": "Baca County, Colorado",
+      "location": "Colorado",
+      "acres": 345,
+      "cropOrUse": "Dryland row crops",
+      "acquired": "2017-10-02",
+      "acquisitionCostMM": 0.9,
+      "bookValueMM": 0.9
     }
   ],
   "comparables": [
     {
-      "description": "California cropland — USDA NASS state average",
+      "description": "California cropland \u2014 USDA NASS state average",
       "location": "California",
       "pricePerAcre": 12300,
       "date": "2024-08-01",
       "source": "USDA NASS Land Values 2024 Summary"
     },
     {
-      "description": "California permanent crop (almonds, citrus, avocado) — approx. third-party appraisals",
+      "description": "California permanent crops (almonds, pistachios, citrus) \u2014 third-party appraisal averages",
       "location": "California (San Joaquin / Coastal)",
       "pricePerAcre": 28000,
       "date": "2024-12-31",
-      "source": "Cushman & Wakefield / Heim & Associates appraisal averages"
+      "source": "Cushman & Wakefield ag-real-estate index 2024"
     },
     {
-      "description": "Coastal California strawberry ground — comparable transactions",
+      "description": "Coastal California strawberry / vegetable transactions",
       "location": "Ventura / Santa Cruz / Monterey",
       "pricePerAcre": 60000,
       "date": "2024-09-30",
-      "source": "Recent CA coastal berry land transactions"
+      "source": "Recent CA coastal berry land sales"
     },
     {
-      "description": "Florida specialty / citrus land — declining due to greening disease",
+      "description": "Napa Valley wine grape land",
+      "location": "Napa County, CA",
+      "pricePerAcre": 80000,
+      "date": "2024-06-30",
+      "source": "Napa Valley Vintners land report"
+    },
+    {
+      "description": "Florida specialty / citrus land \u2014 declining due to greening disease",
       "location": "Florida",
       "pricePerAcre": 9200,
       "date": "2024-08-01",
       "source": "USDA NASS Florida + recent FL citrus transactions"
     },
     {
-      "description": "Arizona irrigated cropland — Yuma area",
+      "description": "Arizona irrigated cropland \u2014 Yuma area",
       "location": "Arizona",
       "pricePerAcre": 11500,
       "date": "2024-08-01",
       "source": "USDA NASS Arizona"
     },
     {
-      "description": "Idaho irrigated row-crop",
-      "location": "Idaho",
-      "pricePerAcre": 8500,
+      "description": "Colorado San Luis Valley potato ground",
+      "location": "Saguache County, CO",
+      "pricePerAcre": 5200,
       "date": "2024-08-01",
-      "source": "USDA NASS Idaho"
+      "source": "USDA NASS Colorado"
+    },
+    {
+      "description": "Texas High Plains dryland",
+      "location": "Texas",
+      "pricePerAcre": 2800,
+      "date": "2024-08-01",
+      "source": "USDA NASS Texas"
+    },
+    {
+      "description": "Pacific Northwest orchard land",
+      "location": "Washington / Oregon",
+      "pricePerAcre": 14500,
+      "date": "2024-08-01",
+      "source": "USDA NASS Washington/Oregon weighted"
     },
     {
       "description": "Michigan specialty (blueberry) ground",
@@ -256,62 +680,99 @@
       "source": "Michigan Blueberry Growers Council comp data"
     },
     {
-      "description": "Midwest / Plains general cropland",
-      "location": "Colorado / Nebraska / Kansas",
-      "pricePerAcre": 6500,
+      "description": "Nebraska center-pivot irrigated cropland",
+      "location": "Nebraska",
+      "pricePerAcre": 8400,
       "date": "2024-08-01",
-      "source": "USDA NASS regional averages"
+      "source": "USDA NASS Nebraska"
+    },
+    {
+      "description": "Delmarva specialty vegetable land",
+      "location": "Maryland / Delaware",
+      "pricePerAcre": 9000,
+      "date": "2024-08-01",
+      "source": "USDA NASS regional"
     }
   ],
   "fmvAssumptions": [
     {
-      "category": "California permanent crops (almonds, pistachios, citrus, avocados)",
-      "acres": 46000,
+      "category": "California permanent crops (almonds, pistachios, citrus, avocado)",
+      "acres": 18000,
       "assumedPricePerAcre": 28000,
-      "rationale": "Mature orchard ground in San Joaquin and coastal valleys; weighted toward $25–35K/acre range from 2024 appraisals"
+      "rationale": "Mature San Joaquin Valley orchard ground; weighted toward $25-32K/acre 2024 appraisals"
     },
     {
-      "category": "California coastal berry / vegetable",
-      "acres": 5000,
+      "category": "California coastal berry / vegetable (Ventura, Santa Cruz, Monterey)",
+      "acres": 4500,
       "assumedPricePerAcre": 55000,
-      "rationale": "Oxnard / Watsonville / Salinas tier-1 berry ground; recent comparable sales in $50–70K/acre range"
+      "rationale": "Tier-1 coastal specialty crop; recent Oxnard / Watsonville / Salinas comps in $50-70K/acre range"
     },
     {
-      "category": "California wine grape / Napa premium",
-      "acres": 1500,
+      "category": "California Napa wine grapes",
+      "acres": 800,
       "assumedPricePerAcre": 75000,
       "rationale": "Napa AVA premium permanent crop"
     },
     {
-      "category": "Florida specialty / citrus",
-      "acres": 10000,
+      "category": "California row crop / Central Valley diversified",
+      "acres": 9000,
+      "assumedPricePerAcre": 12000,
+      "rationale": "Tehama / Glenn / Yolo / San Joaquin row-crop mix at state-average values"
+    },
+    {
+      "category": "Florida citrus / specialty",
+      "acres": 8635,
       "assumedPricePerAcre": 9000,
-      "rationale": "Reflects citrus greening discount on Florida orchard values"
+      "rationale": "Reflects citrus-greening discount on Florida orchard values"
     },
     {
-      "category": "Arizona / Texas / NM winter vegetable",
-      "acres": 5000,
-      "assumedPricePerAcre": 11000,
-      "rationale": "Yuma / lower Colorado River-irrigated cool-season vegetable ground"
+      "category": "Washington orchards (apples, blueberry, wine grape)",
+      "acres": 2004,
+      "assumedPricePerAcre": 14000,
+      "rationale": "Yakima / Whatcom / Walla Walla irrigated specialty"
     },
     {
-      "category": "Idaho / Washington / Oregon irrigated row-crop and orchard",
-      "acres": 6500,
-      "assumedPricePerAcre": 9500,
-      "rationale": "Pacific Northwest mixed permanent + row-crop ground"
+      "category": "Arizona winter vegetable / nuts",
+      "acres": 5333,
+      "assumedPricePerAcre": 9000,
+      "rationale": "Yuma cool-season vegetable + Cochise pistachio"
     },
     {
-      "category": "Michigan / Northeast blueberry & vegetable",
-      "acres": 2000,
+      "category": "Colorado potatoes / dryland",
+      "acres": 24513,
+      "assumedPricePerAcre": 4500,
+      "rationale": "Saguache potato + Baca / Merced / Stanislaus dryland row-crop"
+    },
+    {
+      "category": "Oregon orchards",
+      "acres": 736,
       "assumedPricePerAcre": 16000,
+      "rationale": "Yamhill hazelnut + Umatilla apple specialty"
+    },
+    {
+      "category": "Nebraska center-pivot row-crop",
+      "acres": 4949,
+      "assumedPricePerAcre": 8500,
+      "rationale": "Hayes / Hitchcock irrigated corn / soy"
+    },
+    {
+      "category": "Michigan blueberries",
+      "acres": 778,
+      "assumedPricePerAcre": 18000,
       "rationale": "Specialty highbush blueberry premium"
     },
     {
-      "category": "Midwest / Plains cropland (CO, NE, KS, MI row-crop)",
-      "acres": 22500,
-      "assumedPricePerAcre": 6500,
-      "rationale": "Diversified Midwest / Front Range cropland averages"
+      "category": "Texas High Plains dryland",
+      "acres": 2219,
+      "assumedPricePerAcre": 2800,
+      "rationale": "Hartley County dryland"
+    },
+    {
+      "category": "Maryland / Delaware / NJ / SC / GA diversified",
+      "acres": 1726,
+      "assumedPricePerAcre": 9000,
+      "rationale": "Delmarva + East Coast specialty vegetable / produce"
     }
   ],
-  "methodology": "Land FMV is built bottoms-up by grouping LAND's ~99K acres into eight crop / region buckets and applying a per-acre value sourced from the USDA NASS 2024 Land Values Summary, recent third-party appraisals (where the company has disclosed them in past investor materials), and comparable transactions reported by the regional ag-real-estate brokers cited above. Buckets are then aggregated to a portfolio FMV. Implied NAV/share at FMV deducts net debt (long-term debt + Series D Term Pref − cash) and divides by current diluted shares outstanding. The result is a sum-of-the-parts estimate, not a single appraisal — California permanent and coastal ground drives the bulk of the gap to book, since LAND acquired most of those farms 5–10 years ago at materially lower per-acre values."
+  "methodology": "LAND's portfolio is mapped from the FY2025 10-K Schedule III \"Real Estate and Accumulated Depreciation\" table, which lists 67 line items aggregating the company's 144 owned farms (some counties bundle multiple farms into one Schedule III row). Total cost basis $1,297M and net book $1,099M reconcile exactly to the published schedule. Per-property acres are not disclosed in Schedule III; instead, the 10-K Item 2 properties summary provides state-level farm-acre totals (e.g., CA 32,321; FL 8,635; CO 24,513). Per-line-item acres in the table below are pro-rata allocated within each state by net book value.\n\nFMV is built bottoms-up by mapping LAND's 98,688 farm acres to thirteen crop / region buckets, applying per-acre values sourced from the USDA NASS 2024 Land Values Summary, recent third-party appraisals, and comparable transactions reported by regional ag-real-estate brokers. The largest single value driver is California: 18K acres of mature permanent crop ground (almonds / pistachios / citrus / avocado) at ~$28K/acre, plus 4.5K acres of tier-1 coastal berry/vegetable ground at ~$55K/acre. Implied NAV/share at FMV deducts net debt (long-term debt + Series D Term Pref \u2212 cash) and divides by current diluted shares outstanding. The result is a sum-of-the-parts estimate, not a single appraisal \u2014 California permanent and coastal ground drives most of the gap to book, since LAND acquired these farms 5-10 years ago at materially lower per-acre values."
 }

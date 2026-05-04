@@ -21,7 +21,8 @@ export function FarmlandPropertyDetail({
 }) {
   const ccy = detail.currency ?? filing.currency;
   const agg = fmvAggregate(detail);
-  const totalFmvMM = agg.totalFmv / 1000; // assumed-pricePerAcre × acres → $; convert to $M
+  // agg.totalFmv = acres × $/acre = dollars; convert to $M.
+  const totalFmvMM = agg.totalFmv / 1_000_000;
   const bookMM = filing.bookLandMM;
   const fmvVsBookPct =
     bookMM > 0 ? ((totalFmvMM - bookMM) / bookMM) * 100 : null;
@@ -166,8 +167,9 @@ function FmvBreakdownTable({
   ccy: string;
 }) {
   const totalAcres = assumptions.reduce((s, a) => s + a.acres, 0);
+  // acres × $/acre → dollars; / 1,000,000 → $M.
   const totalFmv = assumptions.reduce(
-    (s, a) => s + (a.acres * a.assumedPricePerAcre) / 1000,
+    (s, a) => s + (a.acres * a.assumedPricePerAcre) / 1_000_000,
     0,
   );
   return (
@@ -184,7 +186,7 @@ function FmvBreakdownTable({
         </thead>
         <tbody>
           {assumptions.map((a) => {
-            const fmvMM = (a.acres * a.assumedPricePerAcre) / 1000;
+            const fmvMM = (a.acres * a.assumedPricePerAcre) / 1_000_000;
             return (
               <tr key={a.category} className="border-b border-rule">
                 <td className="px-3 py-2 align-top text-fg">
@@ -213,7 +215,7 @@ function FmvBreakdownTable({
             <td className="px-3 py-2 text-right">{fmtInt(totalAcres)}</td>
             <td className="px-3 py-2 text-right">
               {totalAcres > 0
-                ? fmtInt((totalFmv * 1000) / totalAcres)
+                ? fmtInt((totalFmv * 1_000_000) / totalAcres)
                 : "—"}
             </td>
             <td className="px-3 py-2 text-right">{fmtInt(totalFmv)}</td>
@@ -270,7 +272,7 @@ function PropertiesTable({
               </td>
               <td className="px-3 py-2 text-right align-top">
                 {p.bookValueMM != null && p.acres > 0
-                  ? fmtInt((p.bookValueMM / p.acres) * 1000)
+                  ? fmtInt((p.bookValueMM / p.acres) * 1_000_000)
                   : "—"}
               </td>
             </tr>

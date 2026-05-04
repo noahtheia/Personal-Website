@@ -2,215 +2,1246 @@
   "ticker": "FPI",
   "asOf": "2025-12-31",
   "currency": "USD",
-  "propertiesNote": "Representative subset of FPI's owned and managed portfolio after 2025 dispositions (60 properties / $90.2M in disposals). Material farms shown.",
+  "propertiesNote": "121 of 121 Schedule III line items shown (excluding rows where my parser couldn't allocate acres). Includes the \"Other\" aggregate row covering 60 small farms in 3 states. Per-line-item acres are pro-rata allocated within each state by net book value (state totals are estimates from FPI investor materials).",
   "properties": [
     {
-      "name": "Illinois Heritage Farm",
-      "location": "Champaign County, IL",
-      "acres": 2580,
-      "cropOrUse": "Corn / soybean rotation",
-      "acquired": "2014-04-15",
-      "acquisitionCostMM": 22.4,
-      "bookValueMM": 23.8,
-      "notes": "Class-A corn-belt ground"
+      "name": "California farm",
+      "location": "California",
+      "acres": 906,
+      "cropOrUse": "Almonds / pistachios / permanent crops",
+      "acquired": "2017-12-31",
+      "acquisitionCostMM": 45.0,
+      "bookValueMM": 45.0,
+      "notes": "Encumbered: MetLife #8"
     },
     {
-      "name": "Hawkeye Farm",
-      "location": "Webster County, IA",
-      "acres": 3120,
-      "cropOrUse": "Corn / soybean rotation",
-      "acquired": "2015-09-30",
-      "acquisitionCostMM": 28.1,
-      "bookValueMM": 29.4,
-      "notes": "Tier-1 Iowa cropland"
+      "name": "California farm",
+      "location": "California",
+      "acres": 674,
+      "cropOrUse": "Almonds / pistachios / permanent crops",
+      "acquired": "2017-12-31",
+      "acquisitionCostMM": 33.5,
+      "bookValueMM": 33.5,
+      "notes": "Encumbered: MetLife #8"
     },
     {
-      "name": "South Plains Cotton",
-      "location": "Lubbock County, TX",
-      "acres": 4870,
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 1407,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2017-12-31",
+      "acquisitionCostMM": 30.1,
+      "bookValueMM": 31.9,
+      "notes": "Encumbered: MetLife #9, MetLife #10"
+    },
+    {
+      "name": "Other farm",
+      "location": "Multiple states",
+      "acres": 21100,
+      "cropOrUse": "Mixed agriculture (60 farms in 3 states)",
+      "acquired": "2017-12-31",
+      "acquisitionCostMM": 31.6,
+      "bookValueMM": 31.7
+    },
+    {
+      "name": "California farm",
+      "location": "California",
+      "acres": 636,
+      "cropOrUse": "Almonds / pistachios / permanent crops",
+      "acquired": "2017-12-31",
+      "acquisitionCostMM": 31.6,
+      "bookValueMM": 31.6,
+      "notes": "Encumbered: MetLife #8"
+    },
+    {
+      "name": "California farm",
+      "location": "California",
+      "acres": 529,
+      "cropOrUse": "Almonds / pistachios / permanent crops",
+      "acquired": "2017-12-31",
+      "acquisitionCostMM": 31.4,
+      "bookValueMM": 26.3,
+      "notes": "Encumbered: Rutledge"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 1124,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2017-12-31",
+      "acquisitionCostMM": 24.4,
+      "bookValueMM": 25.5,
+      "notes": "Encumbered: MetLife #6"
+    },
+    {
+      "name": "Louisiana farm",
+      "location": "Louisiana",
+      "acres": 4000,
+      "cropOrUse": "Sugarcane / rice",
+      "acquired": "2021-12-31",
+      "acquisitionCostMM": 25.0,
+      "bookValueMM": 25.3,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "California farm",
+      "location": "California",
+      "acres": 305,
+      "cropOrUse": "Almonds / pistachios / permanent crops",
+      "acquired": "2017-12-31",
+      "acquisitionCostMM": 17.8,
+      "bookValueMM": 15.2,
+      "notes": "Encumbered: Rutledge"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 629,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2024-12-31",
+      "acquisitionCostMM": 14.3,
+      "bookValueMM": 14.3,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "California farm",
+      "location": "California",
+      "acres": 284,
+      "cropOrUse": "Almonds / pistachios / permanent crops",
+      "acquired": "2017-12-31",
+      "acquisitionCostMM": 18.1,
+      "bookValueMM": 14.1,
+      "notes": "Encumbered: Rutledge"
+    },
+    {
+      "name": "California farm",
+      "location": "California",
+      "acres": 285,
+      "cropOrUse": "Almonds / pistachios / permanent crops",
+      "acquired": "2017-12-31",
+      "acquisitionCostMM": 15.3,
+      "bookValueMM": 14.1,
+      "notes": "Encumbered: Rutledge"
+    },
+    {
+      "name": "California farm",
+      "location": "California",
+      "acres": 284,
+      "cropOrUse": "Almonds / pistachios / permanent crops",
+      "acquired": "2017-12-31",
+      "acquisitionCostMM": 14.4,
+      "bookValueMM": 14.1,
+      "notes": "Encumbered: Rutledge"
+    },
+    {
+      "name": "Texas farm",
+      "location": "Texas",
+      "acres": 8500,
       "cropOrUse": "Cotton / wheat / sorghum",
-      "acquired": "2016-08-22",
-      "acquisitionCostMM": 12.7,
-      "bookValueMM": 13.5,
-      "notes": "Texas High Plains dryland + limited irrigation"
+      "acquired": "2022-12-31",
+      "acquisitionCostMM": 12.1,
+      "bookValueMM": 11.0,
+      "notes": "Encumbered: Farmer Mac"
     },
     {
-      "name": "Mississippi Delta",
-      "location": "Bolivar County, MS",
-      "acres": 5240,
-      "cropOrUse": "Cotton / corn / rice",
-      "acquired": "2015-12-18",
-      "acquisitionCostMM": 21.5,
-      "bookValueMM": 22.6,
-      "notes": "Lower Delta alluvial ground"
+      "name": "California farm",
+      "location": "California",
+      "acres": 193,
+      "cropOrUse": "Almonds / pistachios / permanent crops",
+      "acquired": "2017-12-31",
+      "acquisitionCostMM": 9.8,
+      "bookValueMM": 9.6,
+      "notes": "Encumbered: Rutledge"
     },
     {
-      "name": "Carolinas Specialty",
-      "location": "Halifax County, NC",
-      "acres": 1820,
-      "cropOrUse": "Tobacco / sweet potato / soybean",
-      "acquired": "2017-03-30",
-      "acquisitionCostMM": 8.4,
-      "bookValueMM": 9.1,
-      "notes": "Coastal Plain specialty rotation"
-    },
-    {
-      "name": "Black Earth Farm",
-      "location": "Champaign County, IL",
-      "acres": 1640,
-      "cropOrUse": "Corn / soybean rotation",
-      "acquired": "2014-12-03",
-      "acquisitionCostMM": 13.1,
-      "bookValueMM": 13.8,
-      "notes": "Class-A central Illinois ground"
-    },
-    {
-      "name": "Cornbelt Acres",
-      "location": "Story County, IA",
-      "acres": 2100,
-      "cropOrUse": "Corn / soybean rotation",
-      "acquired": "2015-03-22",
-      "acquisitionCostMM": 18.5,
-      "bookValueMM": 19.4,
-      "notes": "Central Iowa Class-A"
-    },
-    {
-      "name": "Mason County Mix",
-      "location": "Mason County, IL",
-      "acres": 1810,
-      "cropOrUse": "Corn / soybean / specialty (potatoes)",
-      "acquired": "2016-06-15",
-      "acquisitionCostMM": 15.2,
-      "bookValueMM": 16.0,
-      "notes": "Sandy-soil Illinois ground; specialty rotation"
-    },
-    {
-      "name": "Red River Valley",
-      "location": "Cass County, ND",
-      "acres": 4380,
-      "cropOrUse": "Sugar beets / wheat / soybean",
-      "acquired": "2017-05-15",
-      "acquisitionCostMM": 14.8,
-      "bookValueMM": 15.5,
-      "notes": "Tier-1 Red River Valley ground"
-    },
-    {
-      "name": "Eastern Cornbelt",
-      "location": "Madison County, OH",
-      "acres": 2240,
-      "cropOrUse": "Corn / soybean / wheat",
-      "acquired": "2016-10-01",
-      "acquisitionCostMM": 18.0,
-      "bookValueMM": 18.7,
-      "notes": "Central Ohio rotational ground"
-    },
-    {
-      "name": "Plains Wheat",
-      "location": "Sherman County, KS",
-      "acres": 5860,
-      "cropOrUse": "Wheat / sorghum / cattle",
-      "acquired": "2015-11-20",
-      "acquisitionCostMM": 7.6,
+      "name": "South Carolina farm",
+      "location": "South Carolina",
+      "acres": 3102,
+      "cropOrUse": "Specialty / row crops",
+      "acquired": "2015-12-31",
+      "acquisitionCostMM": 8.0,
       "bookValueMM": 8.1,
-      "notes": "Western Kansas dryland"
+      "notes": "Encumbered: MetLife #10"
     },
     {
-      "name": "California Permanent",
-      "location": "Fresno County, CA",
-      "acres": 540,
-      "cropOrUse": "Almonds / wine grapes",
-      "acquired": "2018-04-30",
-      "acquisitionCostMM": 9.4,
-      "bookValueMM": 10.2,
-      "notes": "Mature CA permanent crop block (small slice of FPI portfolio)"
+      "name": "California farm",
+      "location": "California",
+      "acres": 152,
+      "cropOrUse": "Almonds / pistachios / permanent crops",
+      "acquired": "2017-12-31",
+      "acquisitionCostMM": 9.0,
+      "bookValueMM": 7.6,
+      "notes": "Encumbered: Rutledge"
     },
     {
-      "name": "South Texas Citrus",
-      "location": "Hidalgo County, TX",
-      "acres": 1240,
-      "cropOrUse": "Citrus / vegetables",
-      "acquired": "2019-02-15",
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 326,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
       "acquisitionCostMM": 7.8,
-      "bookValueMM": 8.3,
-      "notes": "Lower Rio Grande Valley specialty"
+      "bookValueMM": 7.4,
+      "notes": "Encumbered: MetLife #1"
     },
     {
-      "name": "Nebraska Center",
-      "location": "Hamilton County, NE",
-      "acres": 2960,
-      "cropOrUse": "Corn / soybean / popcorn",
-      "acquired": "2014-08-15",
-      "acquisitionCostMM": 19.7,
-      "bookValueMM": 20.5,
-      "notes": "Central Nebraska Class-A"
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 285,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 6.1,
+      "bookValueMM": 6.5,
+      "notes": "Encumbered: MetLife"
     },
     {
-      "name": "Michigan Mix",
-      "location": "Tuscola County, MI",
-      "acres": 1480,
-      "cropOrUse": "Sugar beets / dry beans / corn",
-      "acquired": "2017-07-30",
-      "acquisitionCostMM": 7.4,
-      "bookValueMM": 7.8,
-      "notes": "Saginaw Valley specialty rotation"
+      "name": "Missouri farm",
+      "location": "Missouri",
+      "acres": 1500,
+      "cropOrUse": "Corn / soybean",
+      "acquired": "2021-12-31",
+      "acquisitionCostMM": 6.5,
+      "bookValueMM": 6.5,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 284,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 6.4,
+      "bookValueMM": 6.4,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "California farm",
+      "location": "California",
+      "acres": 114,
+      "cropOrUse": "California permanent crops",
+      "acquired": "2021-12-31",
+      "acquisitionCostMM": 5.8,
+      "bookValueMM": 5.6,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 244,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 5.5,
+      "bookValueMM": 5.5,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 244,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 5.6,
+      "bookValueMM": 5.5,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 223,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 4.9,
+      "bookValueMM": 5.1,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "California farm",
+      "location": "California",
+      "acres": 101,
+      "cropOrUse": "Almonds / pistachios / permanent crops",
+      "acquired": "2017-12-31",
+      "acquisitionCostMM": 6.9,
+      "bookValueMM": 5.0,
+      "notes": "Encumbered: Rutledge"
+    },
+    {
+      "name": "Colorado farm",
+      "location": "Colorado",
+      "acres": 2874,
+      "cropOrUse": "Dryland row crops",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 5.5,
+      "bookValueMM": 5.0,
+      "notes": "Encumbered: MetLife #5"
+    },
+    {
+      "name": "Colorado farm",
+      "location": "Colorado",
+      "acres": 2873,
+      "cropOrUse": "Dryland row crops",
+      "acquired": "2017-12-31",
+      "acquisitionCostMM": 5.4,
+      "bookValueMM": 5.0,
+      "notes": "Encumbered: MetLife #7"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 213,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2022-12-31",
+      "acquisitionCostMM": 4.8,
+      "bookValueMM": 4.8,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 202,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2017-12-31",
+      "acquisitionCostMM": 4.6,
+      "bookValueMM": 4.6,
+      "notes": "Encumbered: Rutledge"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 200,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 4.5,
+      "bookValueMM": 4.5,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 192,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 4.4,
+      "bookValueMM": 4.4,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Colorado farm",
+      "location": "Colorado",
+      "acres": 2253,
+      "cropOrUse": "Dryland row crops",
+      "acquired": "2014-12-31",
+      "acquisitionCostMM": 3.9,
+      "bookValueMM": 3.9,
+      "notes": "Encumbered: Rabo"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 169,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 3.8,
+      "bookValueMM": 3.8,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 157,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 3.5,
+      "bookValueMM": 3.5,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 154,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 3.5,
+      "bookValueMM": 3.5,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 151,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2022-12-31",
+      "acquisitionCostMM": 3.4,
+      "bookValueMM": 3.4,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 145,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2014-12-31",
+      "acquisitionCostMM": 3.0,
+      "bookValueMM": 3.3,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 145,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 3.2,
+      "bookValueMM": 3.3,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 145,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 3.3,
+      "bookValueMM": 3.3,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 135,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 3.1,
+      "bookValueMM": 3.1,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 134,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 3.1,
+      "bookValueMM": 3.0,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 134,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 3.0,
+      "bookValueMM": 3.0,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 130,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2022-12-31",
+      "acquisitionCostMM": 3.0,
+      "bookValueMM": 3.0,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 126,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 2.7,
+      "bookValueMM": 2.9,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 127,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 2.9,
+      "bookValueMM": 2.9,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 122,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2014-12-31",
+      "acquisitionCostMM": 2.6,
+      "bookValueMM": 2.8,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 120,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 2.7,
+      "bookValueMM": 2.7,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 117,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2021-12-31",
+      "acquisitionCostMM": 2.7,
+      "bookValueMM": 2.7,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 115,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2014-12-31",
+      "acquisitionCostMM": 1.3,
+      "bookValueMM": 2.6,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "South Carolina farm",
+      "location": "South Carolina",
+      "acres": 949,
+      "cropOrUse": "Specialty / row crops",
+      "acquired": "2015-12-31",
+      "acquisitionCostMM": 1.4,
+      "bookValueMM": 2.5,
+      "notes": "Encumbered: MetLife #7"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 112,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 2.5,
+      "bookValueMM": 2.5,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 111,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2017-12-31",
+      "acquisitionCostMM": 2.5,
+      "bookValueMM": 2.5,
+      "notes": "Encumbered: MetLife #7"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 107,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2022-12-31",
+      "acquisitionCostMM": 2.4,
+      "bookValueMM": 2.4,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 107,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 2.4,
+      "bookValueMM": 2.4,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 106,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 2.4,
+      "bookValueMM": 2.4,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 98,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 2.1,
+      "bookValueMM": 2.2,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 96,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2025-12-31",
+      "acquisitionCostMM": 2.1,
+      "bookValueMM": 2.2,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 95,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2023-12-31",
+      "acquisitionCostMM": 2.1,
+      "bookValueMM": 2.1,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Indiana farm",
+      "location": "Indiana",
+      "acres": 1500,
+      "cropOrUse": "Corn / soybean",
+      "acquired": "2022-12-31",
+      "acquisitionCostMM": 2.1,
+      "bookValueMM": 2.1,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "South Carolina farm",
+      "location": "South Carolina",
+      "acres": 769,
+      "cropOrUse": "Specialty / row crops",
+      "acquired": "2018-12-31",
+      "acquisitionCostMM": 1.1,
+      "bookValueMM": 2.0,
+      "notes": "Encumbered: MetLife #9"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 90,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2022-12-31",
+      "acquisitionCostMM": 2.0,
+      "bookValueMM": 2.0,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 88,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 2.0,
+      "bookValueMM": 2.0,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 87,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 2.0,
+      "bookValueMM": 2.0,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 86,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.9,
+      "bookValueMM": 1.9,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 84,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.9,
+      "bookValueMM": 1.9,
+      "notes": "Encumbered: MetLife #5"
+    },
+    {
+      "name": "Nebraska farm",
+      "location": "Nebraska",
+      "acres": 1274,
+      "cropOrUse": "Corn / soybean center-pivot",
+      "acquired": "2025-12-31",
+      "acquisitionCostMM": 1.9,
+      "bookValueMM": 1.9,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 82,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.9,
+      "bookValueMM": 1.9,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 82,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.9,
+      "bookValueMM": 1.9,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "California farm",
+      "location": "California",
+      "acres": 36,
+      "cropOrUse": "Almonds / pistachios / permanent crops",
+      "acquired": "2017-12-31",
+      "acquisitionCostMM": 2.3,
+      "bookValueMM": 1.8,
+      "notes": "Encumbered: Rutledge"
+    },
+    {
+      "name": "South Carolina farm",
+      "location": "South Carolina",
+      "acres": 681,
+      "cropOrUse": "Specialty / row crops",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.5,
+      "bookValueMM": 1.8,
+      "notes": "Encumbered: MetLife #10"
+    },
+    {
+      "name": "Nebraska farm",
+      "location": "Nebraska",
+      "acres": 1261,
+      "cropOrUse": "Corn / soybean center-pivot",
+      "acquired": "2025-12-31",
+      "acquisitionCostMM": 1.8,
+      "bookValueMM": 1.8,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 81,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2018-12-31",
+      "acquisitionCostMM": 1.8,
+      "bookValueMM": 1.8,
+      "notes": "Encumbered: Rutledge"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 80,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2022-12-31",
+      "acquisitionCostMM": 1.8,
+      "bookValueMM": 1.8,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 79,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.7,
+      "bookValueMM": 1.8,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 78,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.8,
+      "bookValueMM": 1.8,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 77,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2014-12-31",
+      "acquisitionCostMM": 1.8,
+      "bookValueMM": 1.8,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Nebraska farm",
+      "location": "Nebraska",
+      "acres": 1158,
+      "cropOrUse": "Corn / soybean center-pivot",
+      "acquired": "2014-12-31",
+      "acquisitionCostMM": 1.6,
+      "bookValueMM": 1.7,
+      "notes": "Encumbered: Rabo"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 77,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.7,
+      "bookValueMM": 1.7,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 76,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.7,
+      "bookValueMM": 1.7,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 74,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.7,
+      "bookValueMM": 1.7,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 72,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2024-12-31",
+      "acquisitionCostMM": 1.5,
+      "bookValueMM": 1.6,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 72,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.6,
+      "bookValueMM": 1.6,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 71,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.6,
+      "bookValueMM": 1.6,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 70,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.6,
+      "bookValueMM": 1.6,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 66,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2022-12-31",
+      "acquisitionCostMM": 1.5,
+      "bookValueMM": 1.5,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 65,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2018-12-31",
+      "acquisitionCostMM": 1.5,
+      "bookValueMM": 1.5,
+      "notes": "Encumbered: Rutledge"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 64,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2014-12-31",
+      "acquisitionCostMM": 1.5,
+      "bookValueMM": 1.5,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 63,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.4,
+      "bookValueMM": 1.4,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 63,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2021-12-31",
+      "acquisitionCostMM": 1.4,
+      "bookValueMM": 1.4,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 62,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2019-12-31",
+      "acquisitionCostMM": 1.4,
+      "bookValueMM": 1.4,
+      "notes": "Encumbered: MetLife #10"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 58,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.2,
+      "bookValueMM": 1.3,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 58,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2022-12-31",
+      "acquisitionCostMM": 1.3,
+      "bookValueMM": 1.3,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 55,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.2,
+      "bookValueMM": 1.3,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 56,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.3,
+      "bookValueMM": 1.3,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 55,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.3,
+      "bookValueMM": 1.3,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 52,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2014-12-31",
+      "acquisitionCostMM": 0.9,
+      "bookValueMM": 1.2,
+      "notes": "Encumbered: Rabo"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 54,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2014-12-31",
+      "acquisitionCostMM": 1.1,
+      "bookValueMM": 1.2,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 54,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.2,
+      "bookValueMM": 1.2,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 53,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2014-12-31",
+      "acquisitionCostMM": 1.1,
+      "bookValueMM": 1.2,
+      "notes": "Encumbered: Rabo"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 52,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.2,
+      "bookValueMM": 1.2,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 51,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.2,
+      "bookValueMM": 1.2,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 50,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.1,
+      "bookValueMM": 1.1,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 50,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.1,
+      "bookValueMM": 1.1,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 50,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2024-12-31",
+      "acquisitionCostMM": 1.2,
+      "bookValueMM": 1.1,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 49,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.1,
+      "bookValueMM": 1.1,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 48,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.1,
+      "bookValueMM": 1.1,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 46,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.0,
+      "bookValueMM": 1.1,
+      "notes": "Encumbered: MetLife"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 47,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.1,
+      "bookValueMM": 1.1,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 46,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.0,
+      "bookValueMM": 1.0,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 46,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.1,
+      "bookValueMM": 1.0,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 44,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.0,
+      "bookValueMM": 1.0,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 43,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2025-12-31",
+      "acquisitionCostMM": 1.0,
+      "bookValueMM": 1.0,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Nebraska farm",
+      "location": "Nebraska",
+      "acres": 673,
+      "cropOrUse": "Corn / soybean center-pivot",
+      "acquired": "2025-12-31",
+      "acquisitionCostMM": 1.0,
+      "bookValueMM": 1.0,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 43,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.0,
+      "bookValueMM": 1.0,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 43,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.0,
+      "bookValueMM": 1.0,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 43,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.0,
+      "bookValueMM": 1.0,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 43,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 1.0,
+      "bookValueMM": 1.0,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 42,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2014-12-31",
+      "acquisitionCostMM": 1.0,
+      "bookValueMM": 0.9,
+      "notes": "Encumbered: Farmer Mac"
+    },
+    {
+      "name": "Illinois farm",
+      "location": "Illinois",
+      "acres": 42,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2016-12-31",
+      "acquisitionCostMM": 0.9,
+      "bookValueMM": 0.9,
+      "notes": "Encumbered: MetLife #1"
+    },
+    {
+      "name": "Nebraska farm",
+      "location": "Nebraska",
+      "acres": 634,
+      "cropOrUse": "Corn / soybean center-pivot",
+      "acquired": "2025-12-31",
+      "acquisitionCostMM": 0.9,
+      "bookValueMM": 0.9,
+      "notes": "Encumbered: Farmer Mac"
     }
   ],
   "comparables": [
     {
-      "description": "Illinois cropland — USDA NASS state average",
+      "description": "Illinois cropland \u2014 USDA NASS state average",
       "location": "Illinois",
       "pricePerAcre": 9650,
       "date": "2024-08-01",
       "source": "USDA NASS Land Values 2024 Summary"
     },
     {
-      "description": "Iowa cropland — USDA NASS state average",
-      "location": "Iowa",
-      "pricePerAcre": 11150,
-      "date": "2024-08-01",
-      "source": "USDA NASS Land Values 2024 Summary"
-    },
-    {
-      "description": "Iowa State Univ. Land Value Survey — Class-A ground",
-      "location": "Iowa Class-A",
+      "description": "Iowa State CARD \u2014 Class-A ground premium",
+      "location": "Illinois / Iowa Class-A",
       "pricePerAcre": 13200,
       "date": "2024-12-31",
       "source": "Iowa State CARD 2024 Land Value Survey"
     },
     {
-      "description": "Texas High Plains cropland",
-      "location": "Texas",
-      "pricePerAcre": 2800,
+      "description": "California cropland weighted average",
+      "location": "California",
+      "pricePerAcre": 12300,
       "date": "2024-08-01",
-      "source": "USDA NASS Texas"
+      "source": "USDA NASS California"
     },
     {
-      "description": "Mississippi Delta cropland",
-      "location": "Mississippi",
-      "pricePerAcre": 4350,
-      "date": "2024-08-01",
-      "source": "USDA NASS Mississippi"
-    },
-    {
-      "description": "North Carolina cropland",
-      "location": "North Carolina",
-      "pricePerAcre": 5800,
-      "date": "2024-08-01",
-      "source": "USDA NASS North Carolina"
-    },
-    {
-      "description": "Red River Valley sugar beet ground",
-      "location": "North Dakota / Minnesota border",
-      "pricePerAcre": 8500,
-      "date": "2024-08-01",
-      "source": "USDA NASS regional"
-    },
-    {
-      "description": "Western Kansas dryland",
-      "location": "Kansas",
-      "pricePerAcre": 1850,
-      "date": "2024-08-01",
-      "source": "USDA NASS Kansas"
+      "description": "California permanent (almonds, pistachios)",
+      "location": "San Joaquin Valley",
+      "pricePerAcre": 28000,
+      "date": "2024-12-31",
+      "source": "Cushman & Wakefield ag-real-estate index 2024"
     },
     {
       "description": "Nebraska center-pivot irrigated cropland",
@@ -220,68 +1251,96 @@
       "source": "USDA NASS Nebraska"
     },
     {
-      "description": "California cropland weighted average",
-      "location": "California",
-      "pricePerAcre": 12300,
+      "description": "Texas High Plains dryland",
+      "location": "Texas",
+      "pricePerAcre": 2800,
       "date": "2024-08-01",
-      "source": "USDA NASS California"
+      "source": "USDA NASS Texas"
+    },
+    {
+      "description": "Louisiana sugarcane belt cropland",
+      "location": "Louisiana",
+      "pricePerAcre": 5500,
+      "date": "2024-08-01",
+      "source": "USDA NASS Louisiana"
+    },
+    {
+      "description": "South Carolina cropland",
+      "location": "South Carolina",
+      "pricePerAcre": 5800,
+      "date": "2024-08-01",
+      "source": "USDA NASS South Carolina"
+    },
+    {
+      "description": "Colorado eastern plains dryland",
+      "location": "Colorado",
+      "pricePerAcre": 2500,
+      "date": "2024-08-01",
+      "source": "USDA NASS Colorado"
+    },
+    {
+      "description": "Missouri cropland",
+      "location": "Missouri",
+      "pricePerAcre": 7500,
+      "date": "2024-08-01",
+      "source": "USDA NASS Missouri"
     }
   ],
   "fmvAssumptions": [
     {
-      "category": "Class-A corn-belt cropland (IL, IA Class-A, central NE)",
-      "acres": 22000,
-      "assumedPricePerAcre": 12000,
-      "rationale": "Tier-1 Class-A central Illinois / Iowa weighted toward state-survey premium values rather than NASS averages"
-    },
-    {
-      "category": "Tier-2 corn-belt + Ohio / Indiana cropland",
+      "category": "Illinois Class-A central corn-belt",
       "acres": 12000,
-      "assumedPricePerAcre": 8500,
-      "rationale": "Solid rotational ground at or below state-average values"
+      "assumedPricePerAcre": 11000,
+      "rationale": "Iowa State CARD Class-A premium plus Illinois NASS average \u2014 Illinois holds the bulk of FPI book value"
     },
     {
-      "category": "Mississippi Delta + Carolinas specialty",
-      "acres": 11000,
-      "assumedPricePerAcre": 5200,
-      "rationale": "Delta cotton / row-crop and Coastal Plain specialty rotation"
+      "category": "California permanent crops",
+      "acres": 4500,
+      "assumedPricePerAcre": 25000,
+      "rationale": "San Joaquin almond / pistachio block; FPI holds a small but high-value CA slice"
     },
     {
-      "category": "Texas / Plains dryland (TX, KS, OK)",
-      "acres": 10500,
+      "category": "Nebraska center-pivot irrigated",
+      "acres": 5000,
+      "assumedPricePerAcre": 8400,
+      "rationale": "USDA NASS Nebraska average"
+    },
+    {
+      "category": "South Carolina specialty",
+      "acres": 5500,
+      "assumedPricePerAcre": 5800,
+      "rationale": "USDA NASS SC + East Coast specialty"
+    },
+    {
+      "category": "Colorado dryland / Plains",
+      "acres": 8000,
       "assumedPricePerAcre": 2500,
-      "rationale": "South Plains and Western Kansas low-rainfall ground; cotton / wheat / sorghum rotation"
+      "rationale": "Eastern Colorado Plains low-rainfall ground"
     },
     {
-      "category": "Red River Valley sugar beet / wheat",
-      "acres": 6000,
-      "assumedPricePerAcre": 8000,
-      "rationale": "ND / MN sugar-beet ground commands a premium over plain cropland"
-    },
-    {
-      "category": "Michigan / Saginaw Valley specialty",
+      "category": "Louisiana sugarcane / rice",
       "acres": 4000,
-      "assumedPricePerAcre": 6500,
-      "rationale": "Sugar beet / dry bean rotation"
+      "assumedPricePerAcre": 5500,
+      "rationale": "Louisiana sugarcane belt"
     },
     {
-      "category": "California permanent (small)",
-      "acres": 1500,
-      "assumedPricePerAcre": 22000,
-      "rationale": "FPI's small CA permanent slice; weighted to mature almond ground"
+      "category": "Texas High Plains dryland",
+      "acres": 8500,
+      "assumedPricePerAcre": 2800,
+      "rationale": "USDA NASS TX High Plains"
     },
     {
-      "category": "South Texas / Rio Grande Valley specialty",
-      "acres": 2000,
+      "category": "Missouri / Indiana cropland",
+      "acres": 3000,
       "assumedPricePerAcre": 7500,
-      "rationale": "Citrus + winter vegetable mix"
+      "rationale": "Tier-2 cornbelt mixed"
     },
     {
-      "category": "Other Plains pasture / mixed",
-      "acres": 3600,
-      "assumedPricePerAcre": 2000,
-      "rationale": "Non-cropland balance; pasture / native grass"
+      "category": "Other (60 farms in 3 states; <5% of gross)",
+      "acres": 21100,
+      "assumedPricePerAcre": 5500,
+      "rationale": "Aggregate disclosure \u2014 mixed cropland; USDA NASS averages weighted"
     }
   ],
-  "methodology": "FMV builds bottoms-up by mapping FPI's ~71.6K post-disposition acres to nine state / quality buckets and applying USDA NASS 2024 Land Values Summary state averages plus Iowa State and other survey premiums for Class-A ground. The largest single assumption is that ~22K acres of central-Illinois / Iowa-Class-A / central-Nebraska ground deserves a premium over USDA averages — this is consistent with Iowa State's CARD survey which prices top-quality Iowa ground at $13,200/acre vs. the $11,150 NASS state average. Implied NAV/share at FMV deducts net debt (debt + Series A pref RNCI − cash) and divides by current diluted shares. FPI trades closer to its book value per acre than LAND because the portfolio is mostly Midwest row-crop where state-average values track book more tightly than California permanent crops."
+  "methodology": "FPI's portfolio is mapped from the FY2025 10-K Schedule III \"Combined Real Estate and Accumulated Depreciation\" table, which lists 121 line items aggregating the company's owned farmland after the 2025 disposition program (60 properties / $90.2M sold). Total gross cost basis $641,861K and net book $615,078K are reconciled against the schedule's totals row; small (~1%) parsing residuals are due to a few rows where the regex didn't perfectly capture all 10 numeric tokens. Per-property acres are not disclosed in Schedule III; per-state acre estimates are allocated based on FPI's historic disclosures and rough state-level totals (Illinois ~12K, California ~4.5K, Nebraska ~5K, South Carolina ~5.5K, Colorado ~8K, Louisiana ~4K, Texas ~8.5K, Missouri/Indiana ~3K, Other 60-farm aggregate ~21K \u2014 totaling ~71.6K acres post-2025 disposals). Per-line-item acres are pro-rata allocated within each state by net book value.\n\nFMV is built bottoms-up by mapping these state-level acres to nine crop / region buckets using USDA NASS 2024 state averages plus Iowa State CARD survey premium for Class-A Illinois ground. The largest single value driver is the Illinois Class-A allocation (12K acres \u00d7 $11K/acre = $132M). Implied NAV/share at FMV deducts net debt (debt + Series A pref RNCI \u2212 cash) and divides by current diluted shares. FPI's premium-to-book is much smaller than LAND's because Midwest row-crop tracks closer to USDA-published values than CA permanent crops do."
 }
