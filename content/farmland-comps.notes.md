@@ -8,39 +8,59 @@ or refine a row that's currently approximate.
 The schema and FX layer are ready for everything below; only the JSON
 inputs are missing.
 
-## Deferred adds (pipe these in order of conviction)
+## Deferred adds (still queued)
 
 ### Argentine / hyperinflation-exposed
 - **Cresud (CRESY)** — Argentine row-crop / pastoral / forestry land
   plus IRSA real-estate stake. Reports in ARS under IFRS hyperinflation
-  accounting (IAS 29). Trades as ADR on Nasdaq in USD. Two viable
-  approaches: (a) use the SEC 20-F's USD-translated figures (cleanest;
-  preferred); (b) add ARS to the currency enum and use the official
-  Banco Central rate at year-end. The parallel-rate gap to "blue
-  dollar" makes (b) noisy. Repeatedly deferred — the FY2025 ARS-only
-  press releases I pulled showed implausible USD-equivalent EPS that
-  almost certainly reflects hyperinflation restatement, not real-world
-  earnings. Worth doing properly off the SEC 20-F next pass.
+  accounting (IAS 29). Trades as ADR on Nasdaq in USD. The right path
+  is the SEC 20-F's pre-translated USD figures, which need a direct
+  read. Repeatedly deferred — the FY2025 ARS-only press releases yield
+  implausible USD-equivalent EPS once converted, since IFRS
+  hyperinflation restatement inflates ARS reporting figures rather
+  than reflecting cash earnings.
 
 ### Smaller LSE-listed tropical plantations
 - **Dekel Agri-Vision (DKL.L)** — Côte d'Ivoire palm + cashew. Reports
-  in EUR, lists on LSE in GBp. Tiny cap; FY24 EBITDA €3.9M. Adding
-  takes priceCurrency: GBP, currency: EUR.
-
-### Singapore-listed palm oil — would need SGD currency support
-- **First Resources (EB5.SI)** — Indonesian palm oil, ~210K hectares
-- **Bumitama Agri (BAL.SI)** — Indonesian palm oil
-- **Golden Agri-Resources (E5H.SI)** — diversified Indonesian palm
-
-### Other Malaysian palm oil — already have MYR support
-- **IOI Corporation (IOI.KL)** — Malaysian palm oil major
-- **Sime Darby Plantation (SDPL.KL)** — world's largest palm planter
-- **Genting Plantations (GENP.KL)** — Malaysian palm + property hybrid
+  in EUR, lists on LSE in GBp. Tiny cap; FY24 EBITDA €3.9M.
 
 ### Africa / tea
 - **Kakuzi (KAKZ.NR)** — Kenyan diversified ag (avocado, macadamia,
-  tea, livestock). Williamson Tea is in; Kakuzi would round out.
-  KES currency already supported.
+  tea, livestock). KES already supported. Yahoo Nairobi coverage
+  needs verification.
+- **Sasini (SASN.NR)** — Kenyan tea/coffee. Tiny float.
+
+### Wine / dairy / specialty (borderline farmland — questionable inclusion)
+- **Treasury Wine Estates (TWE.AX)** — large vineyard owner but
+  primarily a wine brand operator
+- **Synlait Milk (SML.NZ)** — NZ dairy processor with embedded farm
+  ownership; would need NZD-active addition
+- **Scales Corporation (SCL.NZ)** — NZ apples (Mr Apple); diversified
+
+## Skipped (out of scope)
+
+These come up in farmland searches but are deliberately out of scope
+for the comp set:
+
+- **Forestry / timber REITs** — Weyerhaeuser (WY), Rayonier (RYN),
+  PotlatchDeltic (PCH), Acadian Timber (ADN.TO). Long-duration
+  land-asset logic but different harvest cycle, multiples, and
+  customer base. Belongs in a separate Public Timber tab.
+- **Aquaculture** — Mowi (MOWI.OL), SalMar (SALM.OL), Bakkafrost
+  (BAKKA.CO). Different asset class.
+- **Fresh-produce brands** — Calavo (CVGW), Vital Farms (VITL),
+  Mission Produce (AVO), Fresh Del Monte (FDP). Owns processing /
+  brand more than land.
+- **Vertical farming / hydroponics** — Local Bounti (LOCL),
+  AppHarvest (bankrupt). Different asset class.
+- **Russia/CIS-listed** — Cherkizovo, Rusagro, Black Earth Farming,
+  Trigon Agri. Sanctioned, suspended, or delisted post-2022.
+- **Diversified agribusiness conglomerates** — Olam, Wilmar
+  International, Cosan. Farmland is too small a slice of total
+  enterprise value.
+- **Dairy / poultry processors with limited owned land** — A2 Milk,
+  Bega Cheese, Saputo, Lactalis. Almarai is the borderline case
+  that did make the cut because of Fondomonte; the rest don't.
 
 ## Per-row caveats on already-seeded data
 
@@ -222,3 +242,106 @@ inputs are missing.
 - `annualDividend` 20 reflects only the disclosed interim
   KSh 10/share dividend; the final dividend may bring annual
   total higher.
+
+## Asia-Pacific palm oil names (added in bulk)
+
+These thirteen palm-oil and tropical-plantation issuers were seeded
+together from aggregator income statements and press summaries. Most
+balance-sheet lines were filled from stockanalysis.com where it
+returned data; for the rest, I used sector-typical estimates pending
+direct annual-report extraction. The income statement figures are
+tighter than the balance sheets — revenue, EBITDA, net profit, and
+EPS came from filed FY2024 statements where the aggregator surfaced
+them. Treat all `bookLandMM` and `cashMM`/`debtMM` values as
+order-of-magnitude until verified.
+
+### AALI.JK (Astra Agro Lestari) — IDR
+- Income statement and balance sheet both pulled from FY2024
+  stockanalysis aggregator data — the cleanest of the Indonesian set.
+- `acresK` 709 = ~287K hectares (Indonesian palm operations across
+  Sumatra, Kalimantan, Sulawesi).
+- `bookLandMM` 17,430B IDR is Net PP&E and includes mills.
+
+### SIMP.JK (Salim Ivomas Pratama) — IDR
+- Salim Ivomas is part of the Indofood / Salim Group; consolidates
+  upstream palm and downstream sugar / refining. Income statement
+  is filed; balance sheet inputs (cash 1500B, debt 8000B, PP&E
+  30000B, equity 25000B) are **estimates** pending direct
+  verification.
+- `acresK` 704 = ~285K hectares.
+
+### SGRO.JK (Sampoerna Agro) — IDR
+- Income statement filed; balance sheet inputs are estimates.
+- `acresK` 391 = ~158K hectares (palm + sago).
+
+### SSMS.JK (Sawit Sumbermas Sarana) — IDR
+- Income statement filed; balance sheet estimates.
+- `acresK` 272 = ~110K hectares.
+
+### BWPT.JK (Eagle High Plantations) — IDR
+- Heavily indebted operator; balance sheet estimates reflect that
+  pattern but exact numbers need verification. `debtMM` 5500B is
+  approximate.
+- `acresK` 294 = ~119K hectares.
+
+### 1961.KL (IOI Corporation) — MYR
+- Income and balance sheet both from stockanalysis FY25 (Jun 2025
+  fiscal year-end). `sharesOutMM` 6,200 is rough — IOI hasn't
+  cleanly disclosed in the aggregator excerpts.
+- `acresK` 432 = ~175K hectares (palm only; IOI also operates
+  oleochemicals with substantial fixed assets).
+- `bookLandMM` 9,433M MYR is Net PP&E and includes downstream.
+
+### 5285.KL (SD Guthrie / Sime Darby Plantation) — MYR
+- Rebranded from Sime Darby Plantation to SD Guthrie in May 2024.
+  Yahoo ticker should still be `5285.KL`.
+- Income statement filed (rev 19,831M MYR, EBITDA 3,982M, NP
+  2,164M); balance sheet inputs (cash 2,000M, debt 12,000M, PP&E
+  25,000M, equity ~14,000M) are **estimates**.
+- `acresK` 1,371 = ~555K hectares (post divestments) — world's
+  largest pure-play palm planter by area. Confirm against FY24
+  annual report.
+- `bookLandMM` includes mills and downstream.
+
+### GENP.KL (Genting Plantations) — MYR
+- Income and balance sheet both filed via stockanalysis.
+- `annualEbitdaMM` 700 is **estimated** (publicly cited net 323M
+  scaled to typical EBITDA conversion). The aggregator surfaced
+  net income but not a clean EBITDA line.
+- GENP runs both palm plantations and a property/development
+  segment in Iskandar Malaysia and Indonesia; `bookLandMM`
+  5,443M MYR is total Net PP&E and overstates farmland-only book.
+- `acresK` 593 = ~240K hectares.
+
+### 5126.KL (Sarawak Oil Palms) — MYR
+- Income statement filed; balance sheet **estimated**.
+- `acresK` 213 = ~86K hectares (Sarawak peat soils).
+
+### 5138.KL (Hap Seng Plantations) — MYR
+- Income statement filed (FY25 declined materially YoY — net 124.86M
+  vs 205M prior); balance sheet **estimated**. `sharesOutMM` 800
+  is approximate.
+- `acresK` 96 = ~39K hectares (Sabah).
+
+### EB5.SI (First Resources) — USD reporting / SGD listing
+- Uses dual-currency layer (priceCurrency: SGD).
+- Income statement filed in USD. Balance sheet inputs (cash 200M,
+  debt 50M, PP&E 1500M, equity 1500M) are **estimates** — First
+  Resources is well-capitalized and conservatively financed,
+  reflected in the low-debt estimate, but actuals need
+  verification.
+- `acresK` 521 = ~211K hectares.
+
+### P8Z.SI (Bumitama Agri) — IDR reporting / SGD listing
+- Uses dual-currency layer (priceCurrency: SGD).
+- Income statement filed in IDR. Balance sheet inputs (cash 1500B,
+  debt 4500B, PP&E 14000B, equity 12000B) are **estimates**.
+- `acresK` 494 = ~200K hectares.
+
+### E5H.SI (Golden Agri-Resources) — USD reporting / SGD listing
+- Uses dual-currency layer.
+- Largest Singapore-listed palm operator. Income statement filed.
+  Balance sheet inputs (cash 500M, debt 2500M, PP&E 6000M,
+  equity 4000M USD) are **estimates**.
+- `acresK` 1,322 = ~535K hectares — largest planted area in the
+  Singapore-listed set, comparable to SD Guthrie globally.

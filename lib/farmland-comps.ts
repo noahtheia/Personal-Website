@@ -12,6 +12,9 @@ const CurrencySchema = z.enum([
   "MYR",
   "SAR",
   "KES",
+  "IDR",
+  "SGD",
+  "NZD",
 ]);
 type Currency = z.infer<typeof CurrencySchema>;
 
