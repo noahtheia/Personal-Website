@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
 
-const CurrencySchema = z.enum(["USD", "BRL", "AUD"]);
+const CurrencySchema = z.enum(["USD", "BRL", "AUD", "EUR", "GBP"]);
 type Currency = z.infer<typeof CurrencySchema>;
 
 const FilingSchema = z.object({
@@ -177,12 +177,15 @@ async function fetchQuote(
     if (!res.ok) return null;
     const data = await res.json();
     const meta = data?.chart?.result?.[0]?.meta;
-    const price = meta?.regularMarketPrice;
+    let price = meta?.regularMarketPrice;
     if (typeof price !== "number") return null;
-    return {
-      price,
-      currency: typeof meta?.currency === "string" ? meta.currency : "USD",
-    };
+    let currency = typeof meta?.currency === "string" ? meta.currency : "USD";
+    // LSE quotes come back in pence (GBp). Normalize to pounds.
+    if (currency === "GBp" || currency === "GBX") {
+      price = price / 100;
+      currency = "GBP";
+    }
+    return { price, currency };
   } catch {
     return null;
   }

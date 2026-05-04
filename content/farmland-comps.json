@@ -171,5 +171,43 @@
     "annualEbitdaMM": -221.53,
     "epsTTM": -0.002,
     "bookLandMM": 1723
+  },
+  {
+    "ticker": "DBF.AX",
+    "name": "Duxton Broadacre Farms",
+    "currency": "AUD",
+    "primaryCrops": "Broadacre cropping / livestock",
+    "filingDate": "2025-09-15",
+    "filingUrl": "https://www.duxtonfarms.com/",
+    "sharesOutMM": 41.16,
+    "debtMM": 42.48,
+    "cashMM": 23.28,
+    "acresK": 74,
+    "navPerShare": 2.39,
+    "annualDividend": 0.24,
+    "annualNoiMM": 5,
+    "annualRevenueMM": 20.05,
+    "annualEbitdaMM": -9.02,
+    "epsTTM": -0.30,
+    "bookLandMM": 109.45
+  },
+  {
+    "ticker": "ALAGR.PA",
+    "name": "AgroGeneration",
+    "currency": "EUR",
+    "primaryCrops": "Row crops (Ukraine)",
+    "filingDate": "2025-06-30",
+    "filingUrl": "https://www.agrogeneration.com/en/",
+    "sharesOutMM": 100,
+    "debtMM": 9.2,
+    "cashMM": 0.01,
+    "acresK": 70.4,
+    "navPerShare": 0.111,
+    "annualDividend": 0,
+    "annualNoiMM": 5.7,
+    "annualRevenueMM": 22.6,
+    "annualEbitdaMM": 5.7,
+    "epsTTM": -0.015,
+    "bookLandMM": 3
   }
 ]
