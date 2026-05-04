@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { PricedFarmlandComp } from "@/lib/farmland-comps";
 
@@ -218,11 +219,21 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
               key={r.ticker}
               className="border-b border-rule transition-colors hover:bg-bg/60"
             >
-              <td className="sticky left-0 z-[1] w-20 bg-surface px-3 py-3 text-left align-top font-semibold text-fg">
-                {r.ticker}
+              <td className="sticky left-0 z-[1] w-20 bg-surface px-3 py-3 text-left align-top">
+                <Link
+                  href={`/analytics/public-farmland/${encodeURIComponent(r.ticker)}`}
+                  className="font-semibold !text-fg no-underline transition-colors hover:!text-accent"
+                >
+                  {r.ticker}
+                </Link>
               </td>
               <td className="sticky left-20 z-[1] bg-surface px-3 py-3 text-left align-middle">
-                <div className="text-[12px] text-fg">{r.name}</div>
+                <Link
+                  href={`/analytics/public-farmland/${encodeURIComponent(r.ticker)}`}
+                  className="text-[12px] !text-fg no-underline transition-colors hover:!text-accent"
+                >
+                  {r.name}
+                </Link>
               </td>
               {COLUMNS.map((c, i) => {
                 const val = r[c.key] as number | null;

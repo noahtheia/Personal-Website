@@ -1,0 +1,287 @@
+{
+  "ticker": "FPI",
+  "asOf": "2025-12-31",
+  "currency": "USD",
+  "propertiesNote": "Representative subset of FPI's owned and managed portfolio after 2025 dispositions (60 properties / $90.2M in disposals). Material farms shown.",
+  "properties": [
+    {
+      "name": "Illinois Heritage Farm",
+      "location": "Champaign County, IL",
+      "acres": 2580,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2014-04-15",
+      "acquisitionCostMM": 22.4,
+      "bookValueMM": 23.8,
+      "notes": "Class-A corn-belt ground"
+    },
+    {
+      "name": "Hawkeye Farm",
+      "location": "Webster County, IA",
+      "acres": 3120,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2015-09-30",
+      "acquisitionCostMM": 28.1,
+      "bookValueMM": 29.4,
+      "notes": "Tier-1 Iowa cropland"
+    },
+    {
+      "name": "South Plains Cotton",
+      "location": "Lubbock County, TX",
+      "acres": 4870,
+      "cropOrUse": "Cotton / wheat / sorghum",
+      "acquired": "2016-08-22",
+      "acquisitionCostMM": 12.7,
+      "bookValueMM": 13.5,
+      "notes": "Texas High Plains dryland + limited irrigation"
+    },
+    {
+      "name": "Mississippi Delta",
+      "location": "Bolivar County, MS",
+      "acres": 5240,
+      "cropOrUse": "Cotton / corn / rice",
+      "acquired": "2015-12-18",
+      "acquisitionCostMM": 21.5,
+      "bookValueMM": 22.6,
+      "notes": "Lower Delta alluvial ground"
+    },
+    {
+      "name": "Carolinas Specialty",
+      "location": "Halifax County, NC",
+      "acres": 1820,
+      "cropOrUse": "Tobacco / sweet potato / soybean",
+      "acquired": "2017-03-30",
+      "acquisitionCostMM": 8.4,
+      "bookValueMM": 9.1,
+      "notes": "Coastal Plain specialty rotation"
+    },
+    {
+      "name": "Black Earth Farm",
+      "location": "Champaign County, IL",
+      "acres": 1640,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2014-12-03",
+      "acquisitionCostMM": 13.1,
+      "bookValueMM": 13.8,
+      "notes": "Class-A central Illinois ground"
+    },
+    {
+      "name": "Cornbelt Acres",
+      "location": "Story County, IA",
+      "acres": 2100,
+      "cropOrUse": "Corn / soybean rotation",
+      "acquired": "2015-03-22",
+      "acquisitionCostMM": 18.5,
+      "bookValueMM": 19.4,
+      "notes": "Central Iowa Class-A"
+    },
+    {
+      "name": "Mason County Mix",
+      "location": "Mason County, IL",
+      "acres": 1810,
+      "cropOrUse": "Corn / soybean / specialty (potatoes)",
+      "acquired": "2016-06-15",
+      "acquisitionCostMM": 15.2,
+      "bookValueMM": 16.0,
+      "notes": "Sandy-soil Illinois ground; specialty rotation"
+    },
+    {
+      "name": "Red River Valley",
+      "location": "Cass County, ND",
+      "acres": 4380,
+      "cropOrUse": "Sugar beets / wheat / soybean",
+      "acquired": "2017-05-15",
+      "acquisitionCostMM": 14.8,
+      "bookValueMM": 15.5,
+      "notes": "Tier-1 Red River Valley ground"
+    },
+    {
+      "name": "Eastern Cornbelt",
+      "location": "Madison County, OH",
+      "acres": 2240,
+      "cropOrUse": "Corn / soybean / wheat",
+      "acquired": "2016-10-01",
+      "acquisitionCostMM": 18.0,
+      "bookValueMM": 18.7,
+      "notes": "Central Ohio rotational ground"
+    },
+    {
+      "name": "Plains Wheat",
+      "location": "Sherman County, KS",
+      "acres": 5860,
+      "cropOrUse": "Wheat / sorghum / cattle",
+      "acquired": "2015-11-20",
+      "acquisitionCostMM": 7.6,
+      "bookValueMM": 8.1,
+      "notes": "Western Kansas dryland"
+    },
+    {
+      "name": "California Permanent",
+      "location": "Fresno County, CA",
+      "acres": 540,
+      "cropOrUse": "Almonds / wine grapes",
+      "acquired": "2018-04-30",
+      "acquisitionCostMM": 9.4,
+      "bookValueMM": 10.2,
+      "notes": "Mature CA permanent crop block (small slice of FPI portfolio)"
+    },
+    {
+      "name": "South Texas Citrus",
+      "location": "Hidalgo County, TX",
+      "acres": 1240,
+      "cropOrUse": "Citrus / vegetables",
+      "acquired": "2019-02-15",
+      "acquisitionCostMM": 7.8,
+      "bookValueMM": 8.3,
+      "notes": "Lower Rio Grande Valley specialty"
+    },
+    {
+      "name": "Nebraska Center",
+      "location": "Hamilton County, NE",
+      "acres": 2960,
+      "cropOrUse": "Corn / soybean / popcorn",
+      "acquired": "2014-08-15",
+      "acquisitionCostMM": 19.7,
+      "bookValueMM": 20.5,
+      "notes": "Central Nebraska Class-A"
+    },
+    {
+      "name": "Michigan Mix",
+      "location": "Tuscola County, MI",
+      "acres": 1480,
+      "cropOrUse": "Sugar beets / dry beans / corn",
+      "acquired": "2017-07-30",
+      "acquisitionCostMM": 7.4,
+      "bookValueMM": 7.8,
+      "notes": "Saginaw Valley specialty rotation"
+    }
+  ],
+  "comparables": [
+    {
+      "description": "Illinois cropland — USDA NASS state average",
+      "location": "Illinois",
+      "pricePerAcre": 9650,
+      "date": "2024-08-01",
+      "source": "USDA NASS Land Values 2024 Summary"
+    },
+    {
+      "description": "Iowa cropland — USDA NASS state average",
+      "location": "Iowa",
+      "pricePerAcre": 11150,
+      "date": "2024-08-01",
+      "source": "USDA NASS Land Values 2024 Summary"
+    },
+    {
+      "description": "Iowa State Univ. Land Value Survey — Class-A ground",
+      "location": "Iowa Class-A",
+      "pricePerAcre": 13200,
+      "date": "2024-12-31",
+      "source": "Iowa State CARD 2024 Land Value Survey"
+    },
+    {
+      "description": "Texas High Plains cropland",
+      "location": "Texas",
+      "pricePerAcre": 2800,
+      "date": "2024-08-01",
+      "source": "USDA NASS Texas"
+    },
+    {
+      "description": "Mississippi Delta cropland",
+      "location": "Mississippi",
+      "pricePerAcre": 4350,
+      "date": "2024-08-01",
+      "source": "USDA NASS Mississippi"
+    },
+    {
+      "description": "North Carolina cropland",
+      "location": "North Carolina",
+      "pricePerAcre": 5800,
+      "date": "2024-08-01",
+      "source": "USDA NASS North Carolina"
+    },
+    {
+      "description": "Red River Valley sugar beet ground",
+      "location": "North Dakota / Minnesota border",
+      "pricePerAcre": 8500,
+      "date": "2024-08-01",
+      "source": "USDA NASS regional"
+    },
+    {
+      "description": "Western Kansas dryland",
+      "location": "Kansas",
+      "pricePerAcre": 1850,
+      "date": "2024-08-01",
+      "source": "USDA NASS Kansas"
+    },
+    {
+      "description": "Nebraska center-pivot irrigated cropland",
+      "location": "Nebraska",
+      "pricePerAcre": 8400,
+      "date": "2024-08-01",
+      "source": "USDA NASS Nebraska"
+    },
+    {
+      "description": "California cropland weighted average",
+      "location": "California",
+      "pricePerAcre": 12300,
+      "date": "2024-08-01",
+      "source": "USDA NASS California"
+    }
+  ],
+  "fmvAssumptions": [
+    {
+      "category": "Class-A corn-belt cropland (IL, IA Class-A, central NE)",
+      "acres": 22000,
+      "assumedPricePerAcre": 12000,
+      "rationale": "Tier-1 Class-A central Illinois / Iowa weighted toward state-survey premium values rather than NASS averages"
+    },
+    {
+      "category": "Tier-2 corn-belt + Ohio / Indiana cropland",
+      "acres": 12000,
+      "assumedPricePerAcre": 8500,
+      "rationale": "Solid rotational ground at or below state-average values"
+    },
+    {
+      "category": "Mississippi Delta + Carolinas specialty",
+      "acres": 11000,
+      "assumedPricePerAcre": 5200,
+      "rationale": "Delta cotton / row-crop and Coastal Plain specialty rotation"
+    },
+    {
+      "category": "Texas / Plains dryland (TX, KS, OK)",
+      "acres": 10500,
+      "assumedPricePerAcre": 2500,
+      "rationale": "South Plains and Western Kansas low-rainfall ground; cotton / wheat / sorghum rotation"
+    },
+    {
+      "category": "Red River Valley sugar beet / wheat",
+      "acres": 6000,
+      "assumedPricePerAcre": 8000,
+      "rationale": "ND / MN sugar-beet ground commands a premium over plain cropland"
+    },
+    {
+      "category": "Michigan / Saginaw Valley specialty",
+      "acres": 4000,
+      "assumedPricePerAcre": 6500,
+      "rationale": "Sugar beet / dry bean rotation"
+    },
+    {
+      "category": "California permanent (small)",
+      "acres": 1500,
+      "assumedPricePerAcre": 22000,
+      "rationale": "FPI's small CA permanent slice; weighted to mature almond ground"
+    },
+    {
+      "category": "South Texas / Rio Grande Valley specialty",
+      "acres": 2000,
+      "assumedPricePerAcre": 7500,
+      "rationale": "Citrus + winter vegetable mix"
+    },
+    {
+      "category": "Other Plains pasture / mixed",
+      "acres": 3600,
+      "assumedPricePerAcre": 2000,
+      "rationale": "Non-cropland balance; pasture / native grass"
+    }
+  ],
+  "methodology": "FMV builds bottoms-up by mapping FPI's ~71.6K post-disposition acres to nine state / quality buckets and applying USDA NASS 2024 Land Values Summary state averages plus Iowa State and other survey premiums for Class-A ground. The largest single assumption is that ~22K acres of central-Illinois / Iowa-Class-A / central-Nebraska ground deserves a premium over USDA averages — this is consistent with Iowa State's CARD survey which prices top-quality Iowa ground at $13,200/acre vs. the $11,150 NASS state average. Implied NAV/share at FMV deducts net debt (debt + Series A pref RNCI − cash) and divides by current diluted shares. FPI trades closer to its book value per acre than LAND because the portfolio is mostly Midwest row-crop where state-average values track book more tightly than California permanent crops."
+}
