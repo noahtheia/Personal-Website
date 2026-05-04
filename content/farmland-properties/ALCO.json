@@ -1,0 +1,198 @@
+{
+  "ticker": "ALCO",
+  "asOf": "2025-09-30",
+  "currency": "USD",
+  "propertiesNote": "All 8 Florida counties from the FY2025 10-K Item 2 properties summary. Each row aggregates citrus / land-mgmt / mining acreage within that county.",
+  "properties": [
+    {
+      "name": "Hendry County",
+      "location": "Florida",
+      "acres": 7026,
+      "cropOrUse": "Citrus groves (greening-affected)",
+      "category": "FL citrus heartland",
+      "fmvPerAcre": 8987,
+      "fmvRationale": "Hendry County citrus heartland; ALCO's own 2026 dispositions averaged ~$9,085-10,535/acre across Hendry / Polk citrus, used as primary benchmark",
+      "comparablesUsed": [
+        "ALCO-DISP-2026-Q1",
+        "ALCO-DISP-FROSTPROOF-2026",
+        "ASFMRA-FL-CITRUS-2025",
+        "USDA-FL-CROP-2025"
+      ],
+      "acquired": "1960-01-01",
+      "bookValueMM": 17.6,
+      "notes": "Citrus 6,980 ac \u00b7 Land mgmt 46 ac \u00b7 Mining 0 ac"
+    },
+    {
+      "name": "Polk County",
+      "location": "Florida",
+      "acres": 6904,
+      "cropOrUse": "Citrus groves (greening-affected)",
+      "category": "FL citrus heartland",
+      "fmvPerAcre": 8377,
+      "fmvRationale": "Polk County citrus heartland; ALCO's own 2026 dispositions averaged ~$9,085-10,535/acre across Hendry / Polk citrus, used as primary benchmark",
+      "comparablesUsed": [
+        "ALCO-DISP-2026-Q1",
+        "ALCO-DISP-FROSTPROOF-2026",
+        "ASFMRA-FL-CITRUS-2025",
+        "USDA-FL-CROP-2025"
+      ],
+      "acquired": "1960-01-01",
+      "bookValueMM": 19.0,
+      "notes": "Citrus 5,211 ac \u00b7 Land mgmt 1,693 ac \u00b7 Mining 0 ac"
+    },
+    {
+      "name": "Collier County",
+      "location": "Florida",
+      "acres": 10332,
+      "cropOrUse": "Citrus groves",
+      "category": "FL citrus secondary regions",
+      "fmvPerAcre": 17985,
+      "fmvRationale": "Collier County citrus; secondary FL citrus region with smaller transaction volume",
+      "comparablesUsed": [
+        "ALCO-DISP-2026-Q1",
+        "ASFMRA-FL-CITRUS-2025",
+        "USDA-FL-CROP-2025"
+      ],
+      "acquired": "1960-01-01",
+      "bookValueMM": 30.6,
+      "notes": "Citrus 5,575 ac \u00b7 Land mgmt 4,757 ac \u00b7 Mining 0 ac"
+    },
+    {
+      "name": "DeSoto County",
+      "location": "Florida",
+      "acres": 20414,
+      "cropOrUse": "Citrus groves (greening-affected)",
+      "category": "FL citrus heartland",
+      "fmvPerAcre": 7876,
+      "fmvRationale": "DeSoto County citrus heartland; ALCO's own 2026 dispositions averaged ~$9,085-10,535/acre across Hendry / Polk citrus, used as primary benchmark",
+      "comparablesUsed": [
+        "ALCO-DISP-2026-Q1",
+        "ALCO-DISP-FROSTPROOF-2026",
+        "ASFMRA-FL-CITRUS-2025",
+        "USDA-FL-CROP-2025"
+      ],
+      "acquired": "1960-01-01",
+      "bookValueMM": 52.7,
+      "notes": "Citrus 18,772 ac \u00b7 Land mgmt 1,592 ac \u00b7 Mining 50 ac"
+    },
+    {
+      "name": "Glades County",
+      "location": "Florida",
+      "acres": 526,
+      "cropOrUse": "Rock / sand mining",
+      "category": "FL mining royalty land",
+      "fmvPerAcre": 4500,
+      "fmvRationale": "Mining royalty ground in Glades; benchmarked against rural FL non-citrus values",
+      "comparablesUsed": [
+        "ALCO-DISP-2026-Q1",
+        "USDA-FL-CROP-2025"
+      ],
+      "acquired": "1960-01-01",
+      "bookValueMM": 2.1,
+      "notes": "Citrus 0 ac \u00b7 Land mgmt 0 ac \u00b7 Mining 526 ac"
+    },
+    {
+      "name": "Charlotte County",
+      "location": "Florida",
+      "acres": 2530,
+      "cropOrUse": "Citrus groves",
+      "category": "FL citrus secondary regions",
+      "fmvPerAcre": 9356,
+      "fmvRationale": "Charlotte County citrus; secondary FL citrus region with smaller transaction volume",
+      "comparablesUsed": [
+        "ALCO-DISP-2026-Q1",
+        "ASFMRA-FL-CITRUS-2025",
+        "USDA-FL-CROP-2025"
+      ],
+      "acquired": "1960-01-01",
+      "bookValueMM": 6.4,
+      "notes": "Citrus 2,449 ac \u00b7 Land mgmt 0 ac \u00b7 Mining 81 ac"
+    },
+    {
+      "name": "Hardee County",
+      "location": "Florida",
+      "acres": 582,
+      "cropOrUse": "Mixed land mgmt + grazing + lease",
+      "category": "FL rural / land mgmt",
+      "fmvPerAcre": 5119,
+      "fmvRationale": "Hardee County mixed-use land mgmt; benchmarked to ALCO-DISP and FL state-average cropland",
+      "comparablesUsed": [
+        "ALCO-DISP-2026-Q1",
+        "USDA-FL-CROP-2025"
+      ],
+      "acquired": "1960-01-01",
+      "bookValueMM": 1.9,
+      "notes": "Citrus 180 ac \u00b7 Land mgmt 402 ac \u00b7 Mining 0 ac"
+    },
+    {
+      "name": "Highlands County",
+      "location": "Florida",
+      "acres": 1223,
+      "cropOrUse": "Mixed land mgmt + grazing + lease",
+      "category": "FL rural / land mgmt",
+      "fmvPerAcre": 5713,
+      "fmvRationale": "Highlands County mixed-use land mgmt; benchmarked to ALCO-DISP and FL state-average cropland",
+      "comparablesUsed": [
+        "ALCO-DISP-2026-Q1",
+        "USDA-FL-CROP-2025"
+      ],
+      "acquired": "1960-01-01",
+      "bookValueMM": 4.2,
+      "notes": "Citrus 130 ac \u00b7 Land mgmt 1,093 ac \u00b7 Mining 0 ac"
+    }
+  ],
+  "comparables": [
+    {
+      "id": "ALCO-DISP-2026-Q1",
+      "description": "ALCO's own Q1 FY2026 dispositions: 2,950-acre Hendry citrus grove for $26.8M = $9,085/acre",
+      "location": "Hendry County, FL",
+      "acres": 2950,
+      "pricePerAcre": 9085,
+      "date": "2026-01-15",
+      "source": "ALCO press release Jan 15 2026",
+      "url": "https://www.alicoinc.com/news/detail/1451/alico-inc-closes-26-8-million-land-sale-and-achieves-97"
+    },
+    {
+      "id": "ALCO-DISP-FROSTPROOF-2026",
+      "description": "ALCO Polk County citrus + Frostproof office disposition: 579 acres for $6.1M = $10,535/acre + $1.7M facility",
+      "location": "Polk County, FL",
+      "acres": 579,
+      "pricePerAcre": 10535,
+      "date": "2026-01-15",
+      "source": "ALCO Q1 FY2026 results announcement"
+    },
+    {
+      "id": "ASFMRA-FL-CITRUS-2025",
+      "description": "Florida citrus orchard land \u2014 ASFMRA mid-cycle benchmark, citrus-greening discounted",
+      "location": "Florida",
+      "pricePerAcre": 8500,
+      "date": "2025-03-01",
+      "source": "ASFMRA Florida 2025 Trends"
+    },
+    {
+      "id": "USDA-FL-CROP-2025",
+      "description": "Florida cropland \u2014 USDA NASS state average",
+      "location": "Florida",
+      "pricePerAcre": 5500,
+      "date": "2025-08-01",
+      "source": "USDA NASS Land Values 2025 Summary"
+    },
+    {
+      "id": "USDA-FL-CROP-2024",
+      "description": "Florida cropland \u2014 USDA NASS state average",
+      "location": "Florida",
+      "pricePerAcre": 5400,
+      "date": "2024-08-01",
+      "source": "USDA NASS Land Values 2024 Summary"
+    },
+    {
+      "id": "COLLIER-DEV-2024",
+      "description": "Collier County (Naples MSA) rural-to-development land conversions",
+      "location": "Collier County, FL",
+      "pricePerAcre": 25000,
+      "date": "2024-12-15",
+      "source": "Naples-area ag-real-estate broker comps"
+    }
+  ],
+  "methodology": "ALCO is mid-strategic-transformation \u2014 winding down its citrus operations and pivoting to a \"diversified land company\" model with revenue-sharing arrangements (citrus growers, cattle, mining, sugarcane, sod). The 49,537-acre portfolio spans 8 Florida counties with three use categories (citrus 39,297; land mgmt 9,583; mining 657).\n\nThe Properties table below shows one row per county aggregating all three use types within that county. The 10-K Item 2 disclosure provides this exact county \u00d7 use breakdown. Per-property FMV is computed as a weighted blend by use \u00d7 county-specific FMV/acre.\n\nPrimary comp anchors, all dated within the last 24 months:\n- ALCO's own January 2026 dispositions: 2,950 Hendry-County citrus acres at $9,085/acre and 579 Polk-County acres at $10,535/acre \u2014 directly observed transactions, the most defensible reference.\n- ASFMRA Florida 2025 citrus mid-cycle benchmark $8,500/acre (greening-discounted).\n- USDA NASS 2024 + 2025 Florida cropland.\n- Collier County (Naples MSA) carries an embedded development-optionality premium because of urban encroachment around Naples; recent rural-to-development conversions in Collier have transacted at $20-30K/acre. The 4,757 land-mgmt acres in Collier mark up to $25K/acre to reflect that.\n\nThe book value is a rough estimate from net PP&E ($142M total) allocated by acre and use type \u2014 ALCO doesn't publish farm-by-farm book; refining this against the 10-K balance sheet is a useful follow-up. The FMV calculation is most sensitive to the Collier development premium and the citrus benchmark; sensitivity analysis would be useful."
+}

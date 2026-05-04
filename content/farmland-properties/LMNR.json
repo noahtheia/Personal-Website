@@ -1,0 +1,279 @@
+{
+  "ticker": "LMNR",
+  "asOf": "2025-10-31",
+  "currency": "USD",
+  "propertiesNote": "All 11 named ranches from the FY2025 10-K Item 2 properties summary. Book values are exactly as filed.",
+  "properties": [
+    {
+      "name": "Limoneira/Olivelands Ranch",
+      "location": "Santa Paula, Ventura County, CA",
+      "acres": 1700,
+      "cropOrUse": "Lemons / avocados",
+      "category": "CA Ventura coastal citrus / avocado",
+      "fmvPerAcre": 35000,
+      "fmvRationale": "Ventura County coastal specialty citrus + avocado; ASFMRA 2025 weighted avocado $35K + lemon $25-30K \u2014 historic ranches acquired 1907-1994 carry tiny book vs. current FMV",
+      "comparablesUsed": [
+        "ASFMRA-CA-AVOCADO-2025",
+        "ASFMRA-CA-CITRUS-2025",
+        "ASFMRA-CA-COASTAL-2025",
+        "USDA-CA-CROP-2025"
+      ],
+      "bookValueMM": 0.767,
+      "acquired": "1907-01-01"
+    },
+    {
+      "name": "La Campana Ranch",
+      "location": "Santa Paula, Ventura County, CA",
+      "acres": 300,
+      "cropOrUse": "Lemons / specialty citrus",
+      "category": "CA Ventura coastal citrus / avocado",
+      "fmvPerAcre": 35000,
+      "fmvRationale": "Ventura County coastal specialty citrus + avocado; ASFMRA 2025 weighted avocado $35K + lemon $25-30K \u2014 historic ranches acquired 1907-1994 carry tiny book vs. current FMV",
+      "comparablesUsed": [
+        "ASFMRA-CA-AVOCADO-2025",
+        "ASFMRA-CA-CITRUS-2025",
+        "ASFMRA-CA-COASTAL-2025",
+        "USDA-CA-CROP-2025"
+      ],
+      "bookValueMM": 0.758,
+      "acquired": "1964-01-01"
+    },
+    {
+      "name": "Orchard Farm Ranch",
+      "location": "Santa Paula, Ventura County, CA",
+      "acres": 1100,
+      "cropOrUse": "Lemons / avocados / row crops",
+      "category": "CA Ventura coastal citrus / avocado",
+      "fmvPerAcre": 35000,
+      "fmvRationale": "Ventura County coastal specialty citrus + avocado; ASFMRA 2025 weighted avocado $35K + lemon $25-30K \u2014 historic ranches acquired 1907-1994 carry tiny book vs. current FMV",
+      "comparablesUsed": [
+        "ASFMRA-CA-AVOCADO-2025",
+        "ASFMRA-CA-CITRUS-2025",
+        "ASFMRA-CA-COASTAL-2025",
+        "USDA-CA-CROP-2025"
+      ],
+      "bookValueMM": 3.24,
+      "acquired": "1990-01-01"
+    },
+    {
+      "name": "Rancho La Cuesta Ranch",
+      "location": "Ventura County, CA",
+      "acres": 200,
+      "cropOrUse": "Lemons / avocados",
+      "category": "CA Ventura coastal citrus / avocado",
+      "fmvPerAcre": 35000,
+      "fmvRationale": "Ventura County coastal specialty citrus + avocado; ASFMRA 2025 weighted avocado $35K + lemon $25-30K \u2014 historic ranches acquired 1907-1994 carry tiny book vs. current FMV",
+      "comparablesUsed": [
+        "ASFMRA-CA-AVOCADO-2025",
+        "ASFMRA-CA-CITRUS-2025",
+        "ASFMRA-CA-COASTAL-2025",
+        "USDA-CA-CROP-2025"
+      ],
+      "bookValueMM": 2.899,
+      "acquired": "1994-01-01"
+    },
+    {
+      "name": "Limco Del Mar",
+      "location": "San Diego County, CA",
+      "acres": 200,
+      "cropOrUse": "Avocados (premium)",
+      "category": "CA San Diego avocado",
+      "fmvPerAcre": 80000,
+      "fmvRationale": "San Diego North County premium avocado terroir; Limco Del Mar acquired by LMNR in 2025 at $80K/acre \u2014 most direct mark for similar ground",
+      "comparablesUsed": [
+        "LMNR-LIMCO-2025",
+        "ASFMRA-CA-AVOCADO-2025"
+      ],
+      "bookValueMM": 16.027,
+      "acquired": "2025-01-01"
+    },
+    {
+      "name": "Windfall Farms",
+      "location": "San Luis Obispo County, CA (Paso Robles)",
+      "acres": 700,
+      "cropOrUse": "Wine grapes",
+      "category": "CA Paso Robles wine grape",
+      "fmvPerAcre": 25000,
+      "fmvRationale": "Paso Robles wine grape vineyard; ASFMRA 2025 mid-cycle Paso Robles vineyard $20-30K/acre depending on varietal",
+      "comparablesUsed": [
+        "ASFMRA-CA-WINE-PASO-2025",
+        "USDA-CA-CROP-2025"
+      ],
+      "bookValueMM": 16.162,
+      "acquired": "2009-01-01"
+    },
+    {
+      "name": "Associated Citrus Packers",
+      "location": "Yuma County, AZ",
+      "acres": 1300,
+      "cropOrUse": "Lemons / specialty citrus",
+      "category": "AZ Yuma citrus / specialty",
+      "fmvPerAcre": 16000,
+      "fmvRationale": "Yuma County premium specialty citrus + lemon ground; Colorado River-irrigated, transactions in $14-18K/acre range 2024-2025",
+      "comparablesUsed": [
+        "AZ-YUMA-VEG-2025",
+        "AZ-YUMA-CITRUS-2024",
+        "USDA-AZ-CROP-2025"
+      ],
+      "bookValueMM": 14.5,
+      "acquired": "2013-01-01"
+    },
+    {
+      "name": "Pan de Azucar",
+      "location": "La Serena, Chile",
+      "acres": 200,
+      "cropOrUse": "Avocados / citrus",
+      "category": "Chile La Serena (held-for-sale at FY25)",
+      "fmvPerAcre": 5000,
+      "fmvRationale": "La Serena (Chilean Coquimbo region) avocado/citrus ground; held-for-sale at FY25 close, sold Nov 7 2025",
+      "comparablesUsed": [
+        "CHILE-LA-SERENA-2024"
+      ],
+      "bookValueMM": 2.295,
+      "acquired": "2017-01-01",
+      "notes": "Held for sale at Oct 31 2025; sold Nov 7 2025"
+    },
+    {
+      "name": "San Pablo",
+      "location": "La Serena, Chile",
+      "acres": 3300,
+      "cropOrUse": "Citrus",
+      "category": "Chile La Serena (held-for-sale at FY25)",
+      "fmvPerAcre": 5000,
+      "fmvRationale": "La Serena (Chilean Coquimbo region) avocado/citrus ground; held-for-sale at FY25 close, sold Nov 7 2025",
+      "comparablesUsed": [
+        "CHILE-LA-SERENA-2024"
+      ],
+      "bookValueMM": 5.593,
+      "acquired": "2018-01-01",
+      "notes": "Held for sale at Oct 31 2025; sold Nov 7 2025"
+    },
+    {
+      "name": "Santa Clara",
+      "location": "Jujuy, Argentina (Trapani Fresh)",
+      "acres": 1200,
+      "cropOrUse": "Lemons",
+      "category": "Argentina Jujuy lemon",
+      "fmvPerAcre": 4500,
+      "fmvRationale": "Jujuy Province (Argentine NW) lemon production; export-focused but Argentine peso/country-risk discount applied",
+      "comparablesUsed": [
+        "ARG-JUJUY-LEMON-2024"
+      ],
+      "bookValueMM": 8.6,
+      "acquired": "2019-01-01"
+    },
+    {
+      "name": "Other land",
+      "location": "Various",
+      "acres": 300,
+      "cropOrUse": "Mixed agricultural",
+      "category": "Diversified misc",
+      "fmvPerAcre": 8000,
+      "fmvRationale": "Mixed misc holdings",
+      "comparablesUsed": [
+        "USDA-CA-CROP-2025"
+      ],
+      "bookValueMM": 0.816
+    }
+  ],
+  "comparables": [
+    {
+      "id": "ASFMRA-CA-AVOCADO-2025",
+      "description": "California avocado orchard \u2014 ASFMRA Cal Chapter benchmark",
+      "location": "Ventura / San Diego, CA",
+      "pricePerAcre": 35000,
+      "date": "2025-04-01",
+      "source": "ASFMRA Cal Chapter Outlook & Trends 2025"
+    },
+    {
+      "id": "ASFMRA-CA-CITRUS-2025",
+      "description": "California lemon / specialty citrus orchard",
+      "location": "Ventura / San Joaquin, CA",
+      "pricePerAcre": 27000,
+      "date": "2025-04-01",
+      "source": "ASFMRA Cal Chapter 2025"
+    },
+    {
+      "id": "ASFMRA-CA-COASTAL-2025",
+      "description": "California coastal specialty crop ground",
+      "location": "Ventura / Santa Cruz / Monterey, CA",
+      "pricePerAcre": 60000,
+      "date": "2025-04-01",
+      "source": "ASFMRA Cal Chapter 2025"
+    },
+    {
+      "id": "ASFMRA-CA-WINE-PASO-2025",
+      "description": "Paso Robles AVA wine grape vineyard",
+      "location": "San Luis Obispo County, CA",
+      "pricePerAcre": 25000,
+      "date": "2025-04-01",
+      "source": "ASFMRA Cal Chapter 2025 + Paso Robles Wine Country Alliance"
+    },
+    {
+      "id": "USDA-CA-CROP-2025",
+      "description": "California cropland \u2014 USDA NASS state average",
+      "location": "California",
+      "pricePerAcre": 13200,
+      "date": "2025-08-01",
+      "source": "USDA NASS Land Values 2025 Summary"
+    },
+    {
+      "id": "USDA-CA-CROP-2024",
+      "description": "California cropland \u2014 USDA NASS state average",
+      "location": "California",
+      "pricePerAcre": 11800,
+      "date": "2024-08-01",
+      "source": "USDA NASS Land Values 2024 Summary"
+    },
+    {
+      "id": "LMNR-LIMCO-2025",
+      "description": "LMNR's own 2025 acquisition: Limco Del Mar (200 ac San Diego avocado) at $80,136/acre book \u2014 premium SD County avocado ground",
+      "location": "San Diego County, CA",
+      "acres": 200,
+      "pricePerAcre": 80136,
+      "date": "2025-06-15",
+      "source": "LMNR FY2025 10-K Item 2 disclosure"
+    },
+    {
+      "id": "AZ-YUMA-VEG-2025",
+      "description": "Yuma winter vegetable ground \u2014 irrigated by Colorado River",
+      "location": "Yuma County, AZ",
+      "pricePerAcre": 16000,
+      "date": "2025-02-15",
+      "source": "Arizona Agricultural Land Sales 2024-2025 review"
+    },
+    {
+      "id": "AZ-YUMA-CITRUS-2024",
+      "description": "Yuma citrus / lemon orchard land",
+      "location": "Yuma County, AZ",
+      "pricePerAcre": 17000,
+      "date": "2024-09-30",
+      "source": "AZ specialty citrus broker comps"
+    },
+    {
+      "id": "USDA-AZ-CROP-2025",
+      "description": "Arizona cropland \u2014 USDA NASS state average",
+      "location": "Arizona",
+      "pricePerAcre": 11500,
+      "date": "2025-08-01",
+      "source": "USDA NASS Land Values 2025 Summary"
+    },
+    {
+      "id": "CHILE-LA-SERENA-2024",
+      "description": "La Serena (Coquimbo) avocado/citrus ground \u2014 recent transaction",
+      "location": "La Serena, Chile",
+      "pricePerAcre": 5500,
+      "date": "2024-11-15",
+      "source": "Chile ag-real-estate broker comps; LMNR Pan de Azucar / San Pablo dispositions Nov 2025"
+    },
+    {
+      "id": "ARG-JUJUY-LEMON-2024",
+      "description": "Jujuy Province lemon production land",
+      "location": "Jujuy, Argentina",
+      "pricePerAcre": 4500,
+      "date": "2024-09-01",
+      "source": "Argentine ag broker reports + Trapani Fresh 2024 disclosures"
+    }
+  ],
+  "methodology": "LMNR's 10,500-acre portfolio is unusually well-disclosed: the FY2025 10-K Item 2 lists each of the 11 named ranches with acres, book value, acquisition year, and book value per acre. That table is reproduced here directly. All book values are exactly as filed.\n\nThe most striking data point is acquisition vintage. Limoneira/Olivelands Ranch (1,700 acres in Santa Paula, CA) was acquired in 1907-1920 at a book value of $451/acre \u2014 that ground today, prime coastal Ventura citrus/avocado, marks at $35K+/acre. The book/FMV gap on the historic California ranches is essentially the appreciation of California specialty crop land over a century.\n\nLimco Del Mar \u2014 LMNR's 2025 acquisition of 200 San Diego County avocado acres at $80,136/acre \u2014 is also the cleanest internal benchmark and is used as the FMV anchor for that property (no markup vs book since it just transacted).\n\nChile and Argentina holdings (Pan de Azucar, San Pablo, Santa Clara, $19.4M aggregate book) are valued conservatively given country-risk + agricultural-land discount. Pan de Azucar and San Pablo were classified as held-for-sale at FY25 close and sold November 7 2025 (at undisclosed-but-presumably-near-book values given the held-for-sale classification).\n\nPrimary FMV anchors, all dated within the last 24 months:\n- ASFMRA Cal Chapter Outlook & Trends 2025 (April 2025) for CA permanent crop benchmarks\n- LMNR's own 2025 Limco Del Mar acquisition at $80K/acre for San Diego avocado\n- USDA NASS 2025 Land Values Summary for state-level anchors\n- Yuma AZ specialty citrus broker comps 2024-2025\n- Country-discounted rates for Chile and Argentina holdings"
+}
