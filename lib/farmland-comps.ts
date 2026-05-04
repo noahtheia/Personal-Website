@@ -15,6 +15,9 @@ const FilingSchema = z.object({
   navPerShare: z.number().positive(),
   annualDividend: z.number().nonnegative(),
   annualNoiMM: z.number().nonnegative(),
+  annualRevenueMM: z.number().nonnegative(),
+  annualEbitdaMM: z.number(), // can be negative
+  epsTTM: z.number(), // can be negative
   // Total farmland on the balance sheet ($M).
   bookLandMM: z.number().positive(),
   // Third-party-appraised or comparable-market value of the portfolio
@@ -40,6 +43,12 @@ export type PricedFarmlandComp = FarmlandFiling & {
   pNav: number | null;
 
   // Earnings value
+  annualRevenueMM: number;
+  annualEbitdaMM: number;
+  ebitdaMargin: number | null;
+  evEbitda: number | null;
+  priceSales: number | null;
+  priceEarnings: number | null;
   evCapRate: number | null;
   divYield: number | null;
 
@@ -79,6 +88,18 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         price !== null && price > 0 ? (f.annualDividend / price) * 100 : null;
       const evCapRate =
         evMM !== null && evMM > 0 ? (f.annualNoiMM / evMM) * 100 : null;
+      const ebitdaMargin =
+        f.annualRevenueMM > 0
+          ? (f.annualEbitdaMM / f.annualRevenueMM) * 100
+          : null;
+      const evEbitda =
+        evMM !== null && f.annualEbitdaMM > 0 ? evMM / f.annualEbitdaMM : null;
+      const priceSales =
+        marketCapMM !== null && f.annualRevenueMM > 0
+          ? marketCapMM / f.annualRevenueMM
+          : null;
+      const priceEarnings =
+        price !== null && f.epsTTM > 0 ? price / f.epsTTM : null;
 
       return {
         ...f,
@@ -91,6 +112,10 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         marketPerAcre,
         evPerAcre,
         pNav,
+        ebitdaMargin,
+        evEbitda,
+        priceSales,
+        priceEarnings,
         evCapRate,
         divYield,
         fetchedAt,

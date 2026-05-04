@@ -14,6 +14,12 @@ type SortKey =
   | "marketPerAcre"
   | "evPerAcre"
   | "pNav"
+  | "annualRevenueMM"
+  | "annualEbitdaMM"
+  | "ebitdaMargin"
+  | "evEbitda"
+  | "priceSales"
+  | "priceEarnings"
   | "evCapRate"
   | "divYield";
 
@@ -40,7 +46,13 @@ const COLUMNS: Column[] = [
   { key: "marketPerAcre", label: "Market / Acre", hint: "$ comp", band: "land", format: "intDollar" },
   { key: "evPerAcre", label: "EV / Acre", hint: "$ implied", band: "land", format: "intDollar" },
   { key: "pNav", label: "P / NAV", hint: "price ÷ NAV", band: "land", format: "mult" },
-  // Earnings value
+  // Earnings value — tighter padding like Market Data since it's a long band.
+  { key: "annualRevenueMM", label: "Revenue", hint: "$M", band: "earnings", format: "intDollar" },
+  { key: "annualEbitdaMM", label: "EBITDA", hint: "$M", band: "earnings", format: "intDollarSigned" },
+  { key: "ebitdaMargin", label: "EBITDA Margin", hint: "EBITDA ÷ rev", band: "earnings", format: "pct" },
+  { key: "evEbitda", label: "EV / EBITDA", hint: "×", band: "earnings", format: "mult" },
+  { key: "priceSales", label: "P / S", hint: "mkt cap ÷ rev", band: "earnings", format: "mult" },
+  { key: "priceEarnings", label: "P / E", hint: "price ÷ EPS", band: "earnings", format: "mult" },
   { key: "evCapRate", label: "Cap Rate", hint: "NOI ÷ EV", band: "earnings", format: "pct" },
   { key: "divYield", label: "Div Yield", hint: "div ÷ price", band: "earnings", format: "pct" },
 ];
@@ -61,8 +73,9 @@ const BAND_BREAKS = new Set(
 );
 
 function cellPadX(band: Band): string {
-  // Market Data is denser than the multiples bands.
-  return band === "market" ? "px-1.5" : "px-3";
+  // Multi-column bands (Market Data, Earnings Value) use tighter padding;
+  // Land Value uses normal spacing.
+  return band === "land" ? "px-3" : "px-1.5";
 }
 
 export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
