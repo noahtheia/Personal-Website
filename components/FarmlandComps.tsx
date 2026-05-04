@@ -9,13 +9,14 @@ type SortKey =
   | "marketCapMM"
   | "netDebtMM"
   | "evMM"
+  | "acresK"
   | "evPerAcre"
   | "pNav"
   | "evCapRate"
   | "divYield";
 
 type Band = "market" | "land" | "earnings";
-type Format = "money" | "intDollar" | "intDollarSigned" | "pct" | "mult";
+type Format = "money" | "intDollar" | "intDollarSigned" | "int" | "pct" | "mult";
 
 type Column = {
   key: SortKey;
@@ -26,12 +27,13 @@ type Column = {
 };
 
 const COLUMNS: Column[] = [
-  // Market data
+  // Market data — tighter horizontal padding (see cellPadX).
   { key: "price", label: "Stock Price", hint: "live $", band: "market", format: "money" },
   { key: "marketCapMM", label: "Market Cap", hint: "$M", band: "market", format: "intDollar" },
   { key: "netDebtMM", label: "Net Debt", hint: "$M", band: "market", format: "intDollarSigned" },
   { key: "evMM", label: "Enterprise Value", hint: "$M", band: "market", format: "intDollar" },
   // Land value
+  { key: "acresK", label: "Acres", hint: "thousands", band: "land", format: "int" },
   { key: "evPerAcre", label: "EV / Acre", hint: "$", band: "land", format: "intDollar" },
   { key: "pNav", label: "P / NAV", hint: "price ÷ NAV", band: "land", format: "mult" },
   // Earnings value
@@ -53,6 +55,11 @@ const BAND_BREAKS = new Set(
     (n) => n !== -1,
   ),
 );
+
+function cellPadX(band: Band): string {
+  // Market Data is denser than the multiples bands.
+  return band === "market" ? "px-1.5" : "px-3";
+}
 
 export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
   const [sortKey, setSortKey] = useState<SortKey>("marketCapMM");
@@ -126,7 +133,7 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
                 <th
                   key={c.key}
                   scope="col"
-                  className={`whitespace-nowrap px-3 py-2 text-right align-bottom font-medium ${bandBreak}`}
+                  className={`whitespace-nowrap ${cellPadX(c.band)} py-2 text-right align-bottom font-medium ${bandBreak}`}
                 >
                   <button
                     type="button"
@@ -161,32 +168,6 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
           </tr>
         </thead>
         <tbody>
-          <tr className="border-b border-rule bg-bg/60 font-semibold">
-            <td className="sticky left-0 bg-bg/95 px-4 py-2 text-left">Mean</td>
-            {COLUMNS.map((c, i) => (
-              <td
-                key={c.key}
-                className={`px-3 py-2 text-right ${
-                  BAND_BREAKS.has(i) ? "border-l border-rule-strong" : ""
-                }`}
-              >
-                {renderCell(stats.mean[c.key], c)}
-              </td>
-            ))}
-          </tr>
-          <tr className="border-b-2 border-rule-strong bg-bg/40 font-semibold">
-            <td className="sticky left-0 bg-bg/95 px-4 py-2 text-left">Median</td>
-            {COLUMNS.map((c, i) => (
-              <td
-                key={c.key}
-                className={`px-3 py-2 text-right ${
-                  BAND_BREAKS.has(i) ? "border-l border-rule-strong" : ""
-                }`}
-              >
-                {renderCell(stats.median[c.key], c)}
-              </td>
-            ))}
-          </tr>
           {sorted.map((r) => (
             <tr
               key={r.ticker}
@@ -205,7 +186,7 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
                 return (
                   <td
                     key={c.key}
-                    className={`px-3 py-3 text-right ${
+                    className={`${cellPadX(c.band)} py-3 text-right ${
                       BAND_BREAKS.has(i) ? "border-l border-rule-strong" : ""
                     }`}
                   >
@@ -215,6 +196,32 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
               })}
             </tr>
           ))}
+          <tr className="border-t-2 border-rule-strong bg-bg/60 font-semibold">
+            <td className="sticky left-0 bg-bg/95 px-4 py-2 text-left">Mean</td>
+            {COLUMNS.map((c, i) => (
+              <td
+                key={c.key}
+                className={`${cellPadX(c.band)} py-2 text-right ${
+                  BAND_BREAKS.has(i) ? "border-l border-rule-strong" : ""
+                }`}
+              >
+                {renderCell(stats.mean[c.key], c)}
+              </td>
+            ))}
+          </tr>
+          <tr className="bg-bg/40 font-semibold">
+            <td className="sticky left-0 bg-bg/95 px-4 py-2 text-left">Median</td>
+            {COLUMNS.map((c, i) => (
+              <td
+                key={c.key}
+                className={`${cellPadX(c.band)} py-2 text-right ${
+                  BAND_BREAKS.has(i) ? "border-l border-rule-strong" : ""
+                }`}
+              >
+                {renderCell(stats.median[c.key], c)}
+              </td>
+            ))}
+          </tr>
         </tbody>
       </table>
     </div>
@@ -263,6 +270,8 @@ function formatValue(val: number, format: Format): string {
         currency: "USD",
         maximumFractionDigits: 2,
       });
+    case "int":
+      return Math.round(val).toLocaleString("en-US");
     case "intDollar":
       return `$${Math.round(val).toLocaleString("en-US")}`;
     case "intDollarSigned": {
