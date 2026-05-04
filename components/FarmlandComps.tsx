@@ -10,6 +10,8 @@ type SortKey =
   | "netDebtMM"
   | "evMM"
   | "acresK"
+  | "bookPerAcre"
+  | "marketPerAcre"
   | "evPerAcre"
   | "pNav"
   | "evCapRate"
@@ -34,7 +36,9 @@ const COLUMNS: Column[] = [
   { key: "evMM", label: "Enterprise Value", hint: "$M", band: "market", format: "intDollar" },
   // Land value
   { key: "acresK", label: "Acres", hint: "thousands", band: "land", format: "int" },
-  { key: "evPerAcre", label: "EV / Acre", hint: "$", band: "land", format: "intDollar" },
+  { key: "bookPerAcre", label: "Book / Acre", hint: "$ filed", band: "land", format: "intDollar" },
+  { key: "marketPerAcre", label: "Market / Acre", hint: "$ comp", band: "land", format: "intDollar" },
+  { key: "evPerAcre", label: "EV / Acre", hint: "$ implied", band: "land", format: "intDollar" },
   { key: "pNav", label: "P / NAV", hint: "price ÷ NAV", band: "land", format: "mult" },
   // Earnings value
   { key: "evCapRate", label: "Cap Rate", hint: "NOI ÷ EV", band: "earnings", format: "pct" },

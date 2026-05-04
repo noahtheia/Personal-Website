@@ -15,6 +15,11 @@ const FilingSchema = z.object({
   navPerShare: z.number().positive(),
   annualDividend: z.number().nonnegative(),
   annualNoiMM: z.number().nonnegative(),
+  // Total farmland on the balance sheet ($M).
+  bookLandMM: z.number().positive(),
+  // Third-party-appraised or comparable-market value of the portfolio
+  // ($M). Optional — some issuers don't disclose a portfolio appraisal.
+  marketLandMM: z.number().positive().optional(),
 });
 
 export type FarmlandFiling = z.infer<typeof FilingSchema>;
@@ -29,6 +34,8 @@ export type PricedFarmlandComp = FarmlandFiling & {
   evMM: number | null;
 
   // Land value
+  bookPerAcre: number | null;
+  marketPerAcre: number | null;
   evPerAcre: number | null;
   pNav: number | null;
 
@@ -60,8 +67,13 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
       const netDebtMM = f.debtMM - f.cashMM;
       const marketCapMM = price !== null ? price * f.sharesOutMM : null;
       const evMM = marketCapMM !== null ? marketCapMM + netDebtMM : null;
-      // EV $M / acres-thousands → $/acre.
+      // $M / k-acres → $/acre.
       const evPerAcre = evMM !== null ? (evMM / f.acresK) * 1000 : null;
+      const bookPerAcre = (f.bookLandMM / f.acresK) * 1000;
+      const marketPerAcre =
+        f.marketLandMM !== undefined
+          ? (f.marketLandMM / f.acresK) * 1000
+          : null;
       const pNav = price !== null ? price / f.navPerShare : null;
       const divYield =
         price !== null && price > 0 ? (f.annualDividend / price) * 100 : null;
@@ -75,6 +87,8 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         marketCapMM,
         netDebtMM,
         evMM,
+        bookPerAcre,
+        marketPerAcre,
         evPerAcre,
         pNav,
         evCapRate,
