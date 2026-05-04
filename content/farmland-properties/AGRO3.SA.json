@@ -2,8 +2,24 @@
   "ticker": "AGRO3.SA",
   "asOf": "2025-06-30",
   "currency": "BRL",
-  "propertiesNote": "6 row aggregation by farm / region. Major individual farms (Jatob\u00e1, Cremaq, Alto Taquari residual) shown separately; Paraguay and Bolivia operations as country aggregates; remaining Brazilian farms in single Other row. Acres rounded.",
+  "propertiesNote": "10-row breakdown with 9 named individual farms (sourced from BrasilAgro 2014 portfolio doc + post-2014 disclosures). Remaining post-2014 acquisitions aggregated.",
   "properties": [
+    {
+      "name": "Cremaq Farm",
+      "location": "Piau\u00ed, Brazil",
+      "acres": 68711,
+      "cropOrUse": "Grains (soy / corn)",
+      "category": "Brazil Cerrado grains (Northeast / Matopiba)",
+      "fmvPerAcre": 6500,
+      "fmvRationale": "Matopiba Piau\u00ed Cerrado; original BrasilAgro acquisition Oct 2006 at R$1,290/acre; 2024-25 broker comps R$6,000-7,500/acre \u2014 significant appreciation gap",
+      "comparablesUsed": [
+        "BR-CERRADO-NE-MATOPIBA-2024",
+        "AGRO3-DELOITTE-2025"
+      ],
+      "acquired": "2006-10-01",
+      "acquisitionCostMM": 35.9,
+      "bookValueMM": 195
+    },
     {
       "name": "Jatob\u00e1 Farm",
       "location": "Bahia, Brazil",
@@ -11,86 +27,132 @@
       "cropOrUse": "Grains (soy / corn)",
       "category": "Brazil Cerrado grains (Bahia / Western)",
       "fmvPerAcre": 8500,
-      "fmvRationale": "Western Bahia (LEM region) is among the most productive Cerrado areas; 2024-2025 transactions in R$8,000-10,000/acre range; Jatob\u00e1 acquired 2007 at R$1,500/acre carries large appreciation gap",
+      "fmvRationale": "Western Bahia (LEM region) \u2014 Brazil's most productive Cerrado area; Jatob\u00e1 acquired March 2007 at R$1,047/acre",
       "comparablesUsed": [
         "BR-CERRADO-WEST-BA-2024",
         "BR-CERRADO-WEST-BA-2025",
         "AGRO3-DELOITTE-2025"
       ],
       "acquired": "2007-03-01",
-      "bookValueMM": 380
+      "acquisitionCostMM": 33.1,
+      "bookValueMM": 360
     },
     {
-      "name": "Cremaq Farm",
-      "location": "Piau\u00ed, Brazil",
-      "acres": 79000,
-      "cropOrUse": "Grains (soy / corn)",
-      "category": "Brazil Cerrado grains (Northeast / Matopiba)",
-      "fmvPerAcre": 6500,
-      "fmvRationale": "Matopiba Cerrado expansion frontier \u2014 Piau\u00ed has lower per-acre values than Western Bahia due to logistics distance from ports; 2024-2025 broker comps R$6,000-7,500/acre",
+      "name": "Arauc\u00e1ria Farm",
+      "location": "Goi\u00e1s, Brazil",
+      "acres": 20073,
+      "cropOrUse": "Sugarcane",
+      "category": "Brazil sugarcane (Goi\u00e1s)",
+      "fmvPerAcre": 11000,
+      "fmvRationale": "Goi\u00e1s sugarcane mill-supply ground \u2014 high per-acre due to mill contracts",
       "comparablesUsed": [
-        "BR-CERRADO-NE-MATOPIBA-2024",
-        "AGRO3-DELOITTE-2025"
+        "BR-CANE-MT-2024",
+        "BR-GOIAS-CERRADO-2024"
       ],
-      "acquired": "2006-10-01",
-      "bookValueMM": 220
+      "acquired": "2007-04-01",
+      "acquisitionCostMM": 56.2,
+      "bookValueMM": 110
     },
     {
       "name": "Alto Taquari Farm (residual)",
       "location": "Mato Grosso, Brazil",
       "acres": 3212,
-      "cropOrUse": "Sugarcane (mill-supply contracts)",
+      "cropOrUse": "Sugarcane (mill-supply)",
       "category": "Brazil sugarcane (Mato Grosso)",
       "fmvPerAcre": 12000,
-      "fmvRationale": "Residual ~1,300 ha of Alto Taquari retained for sugarcane mill supply; has been BrasilAgro's most valuable per-acre asset due to sugar mill supply contracts",
+      "fmvRationale": "Residual ~1,300 ha after partial sales; high-value sugarcane ground with mill-supply",
       "comparablesUsed": [
-        "BR-CANE-MT-2024",
-        "AGRO3-DELOITTE-2025"
+        "BR-CANE-MT-2024"
       ],
       "acquired": "2007-08-01",
+      "acquisitionCostMM": 33.2,
       "bookValueMM": 25
     },
     {
-      "name": "Arauc\u00e1ria Farm",
+      "name": "Nova Buriti Farm",
+      "location": "Minas Gerais, Brazil",
+      "acres": 59915,
+      "cropOrUse": "Forestry (eucalyptus)",
+      "category": "Brazil forestry (MG)",
+      "fmvPerAcre": 3500,
+      "fmvRationale": "Eucalyptus forestry land in Minas Gerais; lower per-acre than cropland; Brazilian eucalyptus pulp values 2024-25",
+      "comparablesUsed": [
+        "BR-CERRADO-MT-2024"
+      ],
+      "acquired": "2007-12-01",
+      "acquisitionCostMM": 21.6,
+      "bookValueMM": 85
+    },
+    {
+      "name": "Parceria I (Bahia)",
+      "location": "Bahia, Brazil",
+      "acres": 19028,
+      "cropOrUse": "Grains",
+      "category": "Brazil Cerrado grains (Bahia / Western)",
+      "fmvPerAcre": 8500,
+      "fmvRationale": "Western Bahia partnership farm with purchase option at fixed price",
+      "comparablesUsed": [
+        "BR-CERRADO-WEST-BA-2024"
+      ],
+      "acquired": "2011-09-01",
+      "bookValueMM": 60
+    },
+    {
+      "name": "Cresca S.A. (50% JV in Paraguay)",
       "location": "Paraguay",
-      "acres": 25000,
-      "cropOrUse": "Grains (soy)",
+      "acres": 144793,
+      "cropOrUse": "Pasture and grains",
       "category": "Paraguay cropland",
       "fmvPerAcre": 4500,
-      "fmvRationale": "Paraguayan cropland is meaningfully cheaper than Brazilian Cerrado due to political risk + smaller market; 2024 transactions in $1,800-2,200 USD/acre = R$9,500-11,500/acre at FX",
+      "fmvRationale": "Paraguay 50% JV; 2024 transactions $1,800-2,200 USD/acre = R$9,500-11,500/acre at FX",
       "comparablesUsed": [
         "PY-CROP-2024"
       ],
-      "acquired": "2013-01-01",
-      "bookValueMM": 85
+      "acquired": "2013-12-01",
+      "acquisitionCostMM": 62.0,
+      "bookValueMM": 145
+    },
+    {
+      "name": "Parceria II (Piau\u00ed)",
+      "location": "Piau\u00ed, Brazil",
+      "acres": 17745,
+      "cropOrUse": "Grains",
+      "category": "Brazil Cerrado grains (Northeast / Matopiba)",
+      "fmvPerAcre": 6000,
+      "fmvRationale": "Piau\u00ed partnership farm; signed for up to 11 crops",
+      "comparablesUsed": [
+        "BR-CERRADO-NE-MATOPIBA-2024"
+      ],
+      "acquired": "2013-11-01",
+      "bookValueMM": 50
     },
     {
       "name": "Bolivian operations",
       "location": "Santa Cruz, Bolivia",
-      "acres": 35000,
+      "acres": 86485,
       "cropOrUse": "Grains",
       "category": "Bolivia cropland",
       "fmvPerAcre": 3500,
-      "fmvRationale": "Santa Cruz region cropland \u2014 discount to Brazilian + Paraguayan ground due to higher country risk and limited resale liquidity",
+      "fmvRationale": "Santa Cruz region cropland \u2014 political-risk discount vs Brazil/Paraguay",
       "comparablesUsed": [
         "BO-SANTA-CRUZ-2024"
       ],
       "acquired": "2014-01-01",
-      "bookValueMM": 50
+      "bookValueMM": 110
     },
     {
-      "name": "Other Brazilian farms (aggregated)",
-      "location": "Multiple Brazilian states",
-      "acres": 404390,
+      "name": "Other Brazilian farms (post-2014 acquisitions)",
+      "location": "Multiple Brazilian states (MS, MT, MG)",
+      "acres": 126640,
       "cropOrUse": "Mixed grains + sugarcane",
       "category": "Brazil other (aggregated)",
-      "fmvPerAcre": 5500,
-      "fmvRationale": "Aggregated remaining BrasilAgro farms across Goi\u00e1s, Mato Grosso, Tocantins, etc. \u2014 weighted average mid-tier Cerrado quality",
+      "fmvPerAcre": 7000,
+      "fmvRationale": "Aggregated post-2014 acquisitions and remaining farms; weighted average mid-tier Cerrado quality",
       "comparablesUsed": [
         "BR-CERRADO-MT-2024",
-        "AGRO3-DELOITTE-2025"
+        "BR-CERRADO-WEST-BA-2024"
       ],
-      "bookValueMM": 1240
+      "bookValueMM": 245
     }
   ],
   "comparables": [
@@ -105,14 +167,14 @@
     {
       "id": "BR-CERRADO-WEST-BA-2025",
       "description": "Western Bahia Cerrado 2025 transactions",
-      "location": "Western Bahia (Barreiras / LEM), Brazil",
+      "location": "Western Bahia, Brazil",
       "pricePerAcre": 9500,
       "date": "2025-04-01",
       "source": "Barreiras Cerrado land transactions H1 2025"
     },
     {
       "id": "BR-CERRADO-NE-MATOPIBA-2024",
-      "description": "Matopiba (Maranh\u00e3o / Piau\u00ed / Tocantins) Cerrado cropland",
+      "description": "Matopiba Cerrado cropland",
       "location": "Matopiba region, Brazil",
       "pricePerAcre": 6500,
       "date": "2024-10-01",
@@ -135,14 +197,40 @@
       "source": "IMEA Mato Grosso land surveys 2024"
     },
     {
+      "id": "BR-GOIAS-CERRADO-2024",
+      "description": "Goi\u00e1s Class-A Cerrado cropland",
+      "location": "Goi\u00e1s, Brazil",
+      "pricePerAcre": 8000,
+      "date": "2024-09-15",
+      "source": "IBGE + GO rural broker reports 2024"
+    },
+    {
       "id": "AGRO3-DELOITTE-2025",
-      "description": "BrasilAgro's own portfolio appraisal: Deloitte third-party appraisal R$3.5B (vs internal R$3.1B), implying ~R$13,800/hectare = ~R$5,580/acre weighted across 252K hectares",
+      "description": "BrasilAgro's own portfolio appraisal: Deloitte third-party appraisal R$3.5B (vs internal R$3.1B)",
       "location": "BrasilAgro portfolio (appraised)",
       "acres": 624000,
       "pricePerAcre": 5580,
       "date": "2025-06-30",
       "source": "BrasilAgro FY2024/25 Annual Report (Deloitte appraisal)",
       "url": "https://relatorioanual.brasil-agro.com/2024-2025/en.html"
+    },
+    {
+      "id": "AGRO3-CHAPARRAL-2024",
+      "description": "BrasilAgro's Chaparral Farm sale: 37,183 ha for R$364.5M = R$9,800/ha = R$3,965/acre = ~R$9,800/ha",
+      "location": "Bahia (Chaparral)",
+      "acres": 91912,
+      "pricePerAcre": 3970,
+      "date": "2024-03-15",
+      "source": "BrasilAgro disposal disclosure"
+    },
+    {
+      "id": "AGRO3-PREFERENCIA-2025",
+      "description": "BrasilAgro's Prefer\u00eancia Farm sale: 17,799 ha for R$141.4M = R$7,940/ha = R$3,213/acre",
+      "location": "Bahia (Prefer\u00eancia)",
+      "acres": 43983,
+      "pricePerAcre": 3213,
+      "date": "2025-06-15",
+      "source": "BrasilAgro Q4 FY2024/25 disposal"
     },
     {
       "id": "PY-CROP-2024",
@@ -161,5 +249,5 @@
       "source": "CAO Bolivia + INE land surveys 2024"
     }
   ],
-  "methodology": "BrasilAgro is unusual in having a recent third-party appraisal (Deloitte) of its entire portfolio at R$3.5B \u2014 disclosed in the FY2024/25 annual report. The internal valuation is R$3.1B. Both values exceed the GAAP balance-sheet book of R$512.8M (which uses cost rather than fair-value accounting under Brazilian GAAP). The R$3.5B Deloitte mark across 252K hectares implies ~R$13,800/hectare = ~R$5,580/acre weighted.\n\nThe Property table aggregates by farm where data is available. Major farms publicly disclosed: Jatob\u00e1 (Bahia, 31,606 ha grains, acquired 2007), Cremaq (Piau\u00ed, grains, 2006), Alto Taquari residual (MT, ~1,300 ha sugarcane after partial sales). Plus international holdings in Paraguay and Bolivia. Other Brazilian farms aggregated into a single line.\n\nTwo recent BrasilAgro dispositions provide useful real-world marks:\n- Chaparral Farm (Bahia, 37,183 ha grains) sold March 2024 for R$364.5M = ~R$9,800/hectare\n- Prefer\u00eancia Farm (Bahia, 17,799 ha) sold June 2025 for R$141.4M = ~R$7,940/hectare with implied 9.3% IRR\n\nAll transaction comps are dated within 24 months. Western Bahia (Jatob\u00e1) is marked at R$8,500/acre to reflect the LEM region's premium; Cremaq at R$6,500 reflects Matopiba's logistics discount; the \"Other\" aggregate uses ~R$5,500/acre matching the Deloitte weighted average.\n\nBrasilAgro discloses currency, segments, and farm-level acreage cleaner than most farmland operators. Total FMV vs. book is materially higher because Brazilian GAAP carries land at cost; under the same fair-value model that Australian REITs use, the gap would not exist."
+  "methodology": "BrasilAgro publicly discloses its property portfolio with farm names, hectares, and acquisition dates \u2014 making it possible to build a per-farm FMV table directly from filings. The 9 named farms shown below total ~498K acres (~78% of total ~625K acre portfolio); remaining post-2014 acquisitions are aggregated.\n\nThree real-world data points anchor the FMV analysis:\n1. Deloitte third-party appraisal of the entire portfolio at R$3.5B (June 2025) \u2014 the cleanest external mark\n2. Chaparral Farm sale: 37,183 ha for R$364.5M (March 2024) = ~R$9,800/hectare = ~R$3,970/acre\n3. Prefer\u00eancia Farm sale: 17,799 ha for R$141.4M (June 2025) = ~R$7,940/hectare = ~R$3,213/acre\n4. Original company strategy is acquire \u2192 develop \u2192 sell: documented appreciation from acquisition cost to sale prices over 5-15 year hold periods\n\nPer-region FMV anchors (all 2024-2025):\n- Western Bahia (LEM): R$8,500-10,000/acre \u2014 Jatob\u00e1, Parceria I\n- Northeast Matopiba (PI/TO): R$5,500-7,500/acre \u2014 Cremaq, Parceria II\n- Mato Grosso sugarcane (mill-supply): R$11,500/acre \u2014 Alto Taquari residual\n- Goi\u00e1s sugarcane: R$11,000/acre \u2014 Arauc\u00e1ria\n- Minas Gerais forestry: R$3,500/acre \u2014 Nova Buriti\n\nThe R$3.5B Deloitte mark / 252K hectares = ~R$5,580/acre weighted is the portfolio-level reality check. My per-farm aggregation totals slightly above the Deloitte mark, reflecting more granular per-region pricing than a single-portfolio-average appraisal."
 }
