@@ -1,0 +1,32 @@
+{
+  "ticker": "SIMP.JK",
+  "asOf": "2024-12-31",
+  "currency": "IDR",
+  "propertiesNote": "Single-row aggregation. SIMP is the Indofood Group palm + sugar arm, ~285K hectares.",
+  "properties": [
+    {
+      "name": "Sumatra + Kalimantan palm + sugar",
+      "location": "Sumatra + Kalimantan + South Sulawesi",
+      "acres": 704000,
+      "cropOrUse": "Oil palm + sugar + rubber",
+      "category": "Indonesian palm + sugar",
+      "fmvPerAcre": 70000000,
+      "fmvRationale": "Salim Group palm + sugar operator; ~$4-5K USD/acre \u00d7 IDR FX",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 30000000
+    }
+  ],
+  "comparables": [
+    {
+      "description": "Indonesian mature oil palm with mill access",
+      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "pricePerAcre": 5000,
+      "date": "2024-09-15",
+      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
+      "id": "ID-PALM-MATURE-2024"
+    }
+  ],
+  "methodology": "PT Salim Ivomas Pratama is the Indofood/Salim Group's plantation arm. ~285K hectares across Indonesia (palm + sugar + rubber). Per-acre IDR values reflect $4-5K USD/acre at IDR 16,000/USD."
+}

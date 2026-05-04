@@ -1,0 +1,52 @@
+{
+  "ticker": "GENP.KL",
+  "asOf": "2024-12-31",
+  "currency": "MYR",
+  "propertiesNote": "2-row aggregation. Genting Plantations is a hybrid palm oil + property developer.",
+  "properties": [
+    {
+      "name": "Malaysia + Indonesia palm plantations",
+      "location": "Sabah + Indonesia",
+      "acres": 543000,
+      "cropOrUse": "Mature oil palm + mills",
+      "category": "Malaysia/Indonesia palm",
+      "fmvPerAcre": 22000,
+      "fmvRationale": "GENP plantation segment; Malaysia + Indonesia mid-tier estates",
+      "comparablesUsed": [
+        "MY-PALM-SABAH-2024",
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 4500
+    },
+    {
+      "name": "Property/development land (Iskandar + Indonesia)",
+      "location": "Iskandar Malaysia + Indonesia",
+      "acres": 50000,
+      "cropOrUse": "Property development + mixed-use",
+      "category": "Property development",
+      "fmvPerAcre": 35000,
+      "fmvRationale": "Iskandar Malaysia property + Indonesian mixed-use development land at premium",
+      "comparablesUsed": [],
+      "bookValueMM": 800
+    }
+  ],
+  "comparables": [
+    {
+      "description": "Malaysian Sabah palm plantation",
+      "location": "Sabah, Malaysia",
+      "pricePerAcre": 4800,
+      "date": "2024-09-15",
+      "source": "Malaysian Palm Oil Board land valuation reports 2024",
+      "id": "MY-PALM-SABAH-2024"
+    },
+    {
+      "description": "Indonesian mature oil palm with mill access",
+      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "pricePerAcre": 5000,
+      "date": "2024-09-15",
+      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
+      "id": "ID-PALM-MATURE-2024"
+    }
+  ],
+  "methodology": "Genting Plantations operates ~240K hectares of palm plantation across Malaysia and Indonesia, plus a property/development arm in Iskandar Malaysia and Indonesia. 2-row split reflects this dual business model. The property segment carries higher per-acre values than pure palm plantation."
+}

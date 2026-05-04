@@ -1,0 +1,32 @@
+{
+  "ticker": "SSMS.JK",
+  "asOf": "2024-12-31",
+  "currency": "IDR",
+  "propertiesNote": "Single-row. SSMS: ~110K hectares in Central Kalimantan.",
+  "properties": [
+    {
+      "name": "Central Kalimantan palm",
+      "location": "Central Kalimantan, Indonesia",
+      "acres": 272000,
+      "cropOrUse": "Mature oil palm",
+      "category": "Central Kalimantan palm",
+      "fmvPerAcre": 68000000,
+      "fmvRationale": "Central Kalimantan focused operator",
+      "comparablesUsed": [
+        "ID-PALM-KALIMANTAN-2024"
+      ],
+      "bookValueMM": 5000000
+    }
+  ],
+  "comparables": [
+    {
+      "description": "East Kalimantan palm oil concession",
+      "location": "East Kalimantan, Indonesia",
+      "pricePerAcre": 4400,
+      "date": "2024-09-30",
+      "source": "Kalimantan palm broker comps 2024",
+      "id": "ID-PALM-KALIMANTAN-2024"
+    }
+  ],
+  "methodology": "PT Sawit Sumbermas Sarana operates ~110K hectares of Indonesian palm in Central Kalimantan."
+}

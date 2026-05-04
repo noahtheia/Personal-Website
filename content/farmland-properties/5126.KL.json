@@ -1,0 +1,40 @@
+{
+  "ticker": "5126.KL",
+  "asOf": "2025-12-31",
+  "currency": "MYR",
+  "propertiesNote": "Single-row. Sarawak-focused palm operator on peat soils.",
+  "properties": [
+    {
+      "name": "Sarawak palm plantations",
+      "location": "Sarawak, Malaysia",
+      "acres": 213000,
+      "cropOrUse": "Mature oil palm + mills",
+      "category": "Sarawak palm (peat soils)",
+      "fmvPerAcre": 23000,
+      "fmvRationale": "Sarawak palm on peat soils; per-acre lower than Peninsular due to soil + logistics",
+      "comparablesUsed": [
+        "MY-PALM-SARAWAK-2024"
+      ],
+      "bookValueMM": 5000
+    }
+  ],
+  "comparables": [
+    {
+      "description": "Malaysian palm plantation H1 2025 transactions",
+      "location": "Malaysia palm estates",
+      "pricePerAcre": 5400,
+      "date": "2025-04-01",
+      "source": "MPOB + Bursa Malaysia plantation transaction reports H1 2025",
+      "id": "MY-PALM-2025"
+    },
+    {
+      "description": "Sarawak palm plantation (peat soils)",
+      "location": "Sarawak, Malaysia",
+      "pricePerAcre": 4200,
+      "date": "2024-09-15",
+      "source": "Malaysian Palm Oil Board Sarawak 2024",
+      "id": "MY-PALM-SARAWAK-2024"
+    }
+  ],
+  "methodology": "Sarawak Oil Palms operates ~86K hectares of palm plantations in Sarawak, Malaysia. Sarawak palm is on peat soils with different agronomic characteristics; per-acre values are typically lower than Peninsular Malaysia."
+}

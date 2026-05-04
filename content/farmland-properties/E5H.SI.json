@@ -1,0 +1,41 @@
+{
+  "ticker": "E5H.SI",
+  "asOf": "2024-12-31",
+  "currency": "USD",
+  "propertiesNote": "Single-row. Golden Agri-Resources: ~535K hectares \u2014 largest SGX-listed palm operator. USD reporting / SGD listing.",
+  "properties": [
+    {
+      "name": "Indonesian palm + downstream",
+      "location": "Indonesia (multiple regions)",
+      "acres": 1322000,
+      "cropOrUse": "Mature oil palm + integrated downstream",
+      "category": "Indonesian palm \u2014 diversified",
+      "fmvPerAcre": 4500,
+      "fmvRationale": "Largest SGX-listed palm operator; integrated upstream-downstream \u2014 per-acre lower due to massive scale",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024",
+        "ID-PALM-MATURE-2025"
+      ],
+      "bookValueMM": 6000
+    }
+  ],
+  "comparables": [
+    {
+      "description": "Indonesian mature oil palm 2025 transactions",
+      "location": "Indonesia mature estates",
+      "pricePerAcre": 5300,
+      "date": "2025-04-15",
+      "source": "GAPKI 2025 land valuation reports",
+      "id": "ID-PALM-MATURE-2025"
+    },
+    {
+      "description": "Indonesian mature oil palm with mill access",
+      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "pricePerAcre": 5000,
+      "date": "2024-09-15",
+      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
+      "id": "ID-PALM-MATURE-2024"
+    }
+  ],
+  "methodology": "Golden Agri-Resources is the largest SGX-listed palm operator with ~535K hectares in Indonesia plus integrated downstream refining and marketing. Single-row aggregation given the scale."
+}

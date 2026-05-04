@@ -1,0 +1,71 @@
+{
+  "ticker": "5285.KL",
+  "asOf": "2024-12-31",
+  "currency": "MYR",
+  "propertiesNote": "Rebranded from Sime Darby Plantation to SD Guthrie in 2024. World's largest pure-play palm oil planter by area; 555K hectares post-divestments.",
+  "properties": [
+    {
+      "name": "Peninsular Malaysia + Sabah plantation",
+      "location": "Peninsular Malaysia + Sabah",
+      "acres": 600000,
+      "cropOrUse": "Mature oil palm + mills",
+      "category": "Malaysian palm \u2014 Peninsular/Sabah",
+      "fmvPerAcre": 26000,
+      "fmvRationale": "World's largest pure-play palm planter post-divestments; Peninsular + Sabah cluster",
+      "comparablesUsed": [
+        "MY-PALM-PEN-2024",
+        "MY-PALM-SABAH-2024",
+        "MY-PALM-2025"
+      ],
+      "bookValueMM": 14000
+    },
+    {
+      "name": "Indonesian + PNG plantation",
+      "location": "Indonesia + Papua New Guinea",
+      "acres": 771000,
+      "cropOrUse": "Mature oil palm + mills",
+      "category": "Indonesian + PNG palm",
+      "fmvPerAcre": 22000,
+      "fmvRationale": "Indonesia + PNG cluster; PNG concession area at lower per-acre",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 11000
+    }
+  ],
+  "comparables": [
+    {
+      "description": "Malaysian palm plantation H1 2025 transactions",
+      "location": "Malaysia palm estates",
+      "pricePerAcre": 5400,
+      "date": "2025-04-01",
+      "source": "MPOB + Bursa Malaysia plantation transaction reports H1 2025",
+      "id": "MY-PALM-2025"
+    },
+    {
+      "description": "Peninsular Malaysia palm plantation",
+      "location": "Peninsular Malaysia",
+      "pricePerAcre": 6000,
+      "date": "2024-09-15",
+      "source": "Malaysian Palm Oil Board land valuation reports 2024",
+      "id": "MY-PALM-PEN-2024"
+    },
+    {
+      "description": "Malaysian Sabah palm plantation",
+      "location": "Sabah, Malaysia",
+      "pricePerAcre": 4800,
+      "date": "2024-09-15",
+      "source": "Malaysian Palm Oil Board land valuation reports 2024",
+      "id": "MY-PALM-SABAH-2024"
+    },
+    {
+      "description": "Indonesian mature oil palm with mill access",
+      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "pricePerAcre": 5000,
+      "date": "2024-09-15",
+      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
+      "id": "ID-PALM-MATURE-2024"
+    }
+  ],
+  "methodology": "SD Guthrie (rebranded from Sime Darby Plantation in 2024) operates the world's largest pure-play palm oil plantation by area: ~555K hectares post-divestments across Peninsular Malaysia, Sabah, Indonesia, and Papua New Guinea.\n\n2-row aggregation by Malaysian core vs. Indonesian/PNG cluster. Per-acre FMVs reflect mature plantation + mill access."
+}

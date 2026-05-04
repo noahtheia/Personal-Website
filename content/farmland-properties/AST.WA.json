@@ -1,0 +1,41 @@
+{
+  "ticker": "AST.WA",
+  "asOf": "2025-12-31",
+  "currency": "EUR",
+  "propertiesNote": "Single-row aggregation: Astarta's 220K hectares are concentrated in central Ukraine (Poltava). All values in EUR (filing currency); shares list in PLN.",
+  "properties": [
+    {
+      "name": "Central Ukraine cropland (Poltava region)",
+      "location": "Poltava / Cherkasy / Vinnytsia, Ukraine",
+      "acres": 543000,
+      "cropOrUse": "Sugar beet + soy + grains + dairy fodder",
+      "category": "Ukrainian central cropland",
+      "fmvPerAcre": 600,
+      "fmvRationale": "Ukrainian central-region cropland under wartime discount; 2024 transactions in $400-800 USD/acre = \u20ac350-750/acre. Astarta's 220K-hectare bank concentrated in Poltava, away from frontlines",
+      "comparablesUsed": [
+        "UA-CROP-CENTRAL-2024",
+        "UA-CROP-EU-2024"
+      ],
+      "bookValueMM": 200
+    }
+  ],
+  "comparables": [
+    {
+      "description": "Ukrainian central-region cropland",
+      "location": "Poltava / Cherkasy / Vinnytsia, Ukraine",
+      "pricePerAcre": 1200,
+      "date": "2024-09-30",
+      "source": "Astarta Holding 2024 disclosures + Ukrainian land market data",
+      "id": "UA-CROP-CENTRAL-2024"
+    },
+    {
+      "description": "Ukrainian agricultural cropland \u2014 EU border regions, post-2022 discount",
+      "location": "Western Ukraine",
+      "pricePerAcre": 1600,
+      "date": "2024-09-30",
+      "source": "Ukrainian agribusiness broker reports 2024 + Astarta/Kernel disclosures",
+      "id": "UA-CROP-EU-2024"
+    }
+  ],
+  "methodology": "Astarta Holding is a Cyprus-incorporated Ukrainian agricultural conglomerate listed on Warsaw Stock Exchange. Operates 220,000 hectares of agricultural land bank concentrated in central Ukraine (Poltava region), plus 6 sugar refineries, dairy farms, an oil extraction plant, 7 grain elevators, and a biogas facility. Reports in EUR; listed in PLN.\n\nUkrainian agricultural land is under significant wartime discount. Pre-war Ukrainian cropland traded at ~$2,000-3,000/acre USD; 2024 transactions for non-frontline cropland are in the $400-800/acre range, with central regions (Poltava, Vinnytsia) trading at the higher end. Astarta's land bank in the Poltava region is among the safer geographic concentrations.\n\nFY25 (Dec 2025) revenue fell 23% to \u20ac472M as sugar volumes declined post war-disruption normalization. The land FMV reflects current wartime conditions; a peace-scenario revaluation back to pre-war prices would imply 3-5x higher per-acre values."
+}

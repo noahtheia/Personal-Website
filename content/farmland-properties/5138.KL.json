@@ -1,0 +1,32 @@
+{
+  "ticker": "5138.KL",
+  "asOf": "2025-09-30",
+  "currency": "MYR",
+  "propertiesNote": "Single-row. Hap Seng operates ~39K hectares of palm in Sabah.",
+  "properties": [
+    {
+      "name": "Sabah palm plantations",
+      "location": "Sabah, Malaysia",
+      "acres": 96000,
+      "cropOrUse": "Mature oil palm",
+      "category": "Sabah palm",
+      "fmvPerAcre": 24000,
+      "fmvRationale": "Sabah palm cluster",
+      "comparablesUsed": [
+        "MY-PALM-SABAH-2024"
+      ],
+      "bookValueMM": 1500
+    }
+  ],
+  "comparables": [
+    {
+      "description": "Malaysian Sabah palm plantation",
+      "location": "Sabah, Malaysia",
+      "pricePerAcre": 4800,
+      "date": "2024-09-15",
+      "source": "Malaysian Palm Oil Board land valuation reports 2024",
+      "id": "MY-PALM-SABAH-2024"
+    }
+  ],
+  "methodology": "Hap Seng Plantations operates ~39K hectares of mature palm in Sabah, Malaysia. Smaller pure-play planter; FY25 saw revenue and net income decline as CPO pricing softened."
+}

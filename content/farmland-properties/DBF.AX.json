@@ -1,0 +1,75 @@
+{
+  "ticker": "DBF.AX",
+  "asOf": "2025-06-30",
+  "currency": "AUD",
+  "propertiesNote": "3-row aggregation. Duxton owns ~26K hectares + manages additional ~170K hectares; the table reflects owned base.",
+  "properties": [
+    {
+      "name": "NSW Western Riverina cropping farms",
+      "location": "NSW Western Riverina, Australia",
+      "acres": 50000,
+      "cropOrUse": "Wheat / barley / canola dryland",
+      "category": "Australian dryland \u2014 NSW",
+      "fmvPerAcre": 1700,
+      "fmvRationale": "NSW Western Riverina dryland; LAWD + Elders 2024-25 comps at $1,500-2,000 AUD/acre",
+      "comparablesUsed": [
+        "AU-DRYLAND-2024",
+        "AU-DRYLAND-2025"
+      ],
+      "bookValueMM": 60
+    },
+    {
+      "name": "Northern Territory + WA properties",
+      "location": "NT + WA, Australia",
+      "acres": 14000,
+      "cropOrUse": "Mixed broadacre + grazing",
+      "category": "Australian dryland \u2014 NT/WA",
+      "fmvPerAcre": 1500,
+      "fmvRationale": "NT and WA pastoral/dryland; lower per-acre due to remoteness",
+      "comparablesUsed": [
+        "AU-DRYLAND-2024"
+      ],
+      "bookValueMM": 18
+    },
+    {
+      "name": "Vineyards (Euston + Wemen, NSW)",
+      "location": "NSW dried-grape vineyards, Australia",
+      "acres": 1491,
+      "cropOrUse": "Dried grapes (sultanas) \u2014 Australia's 2nd-largest grower",
+      "category": "Australian vineyard",
+      "fmvPerAcre": 22000,
+      "fmvRationale": "Australian dried-grape vineyards; specialty premium vs general vineyard land",
+      "comparablesUsed": [
+        "AU-VINEYARD-2024"
+      ],
+      "bookValueMM": 31
+    }
+  ],
+  "comparables": [
+    {
+      "description": "Australian dryland broadacre H1 2025 transactions",
+      "location": "NSW + WA + NT dryland",
+      "pricePerAcre": 1800,
+      "date": "2025-04-01",
+      "source": "LAWD + Elders Rural dryland 2025 reports",
+      "id": "AU-DRYLAND-2025"
+    },
+    {
+      "description": "Australian dryland broadacre 2024",
+      "location": "NSW + WA dryland",
+      "pricePerAcre": 1700,
+      "date": "2024-09-30",
+      "source": "Elders Rural dryland comps 2024",
+      "id": "AU-DRYLAND-2024"
+    },
+    {
+      "description": "Australian premium vineyard transactions",
+      "location": "NSW + Victoria",
+      "pricePerAcre": 28000,
+      "date": "2024-09-30",
+      "source": "Australian Wine Industry land report 2024",
+      "id": "AU-VINEYARD-2024"
+    }
+  ],
+  "methodology": "Duxton Broadacre Farms operates ~26,000 hectares of owned land plus manages additional area on behalf of other Duxton funds. The owned portfolio is dominated by NSW Western Riverina dryland cropping (~50K acres) with smaller positions in NT and WA, plus 1,491 acres of dried-grape vineyards (Australia's 2nd-largest sultanas grower).\n\nFY25 (Jun 2025) was challenging \u2014 the company posted negative EBITDA of A$9M as drought + weak grain prices weighed on cropping. Land FMV is structurally less volatile than earnings; 2024-25 LAWD + Elders dryland transactions consistently track $1,500-2,000 AUD/acre depending on rainfall and infrastructure."
+}

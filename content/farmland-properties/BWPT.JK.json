@@ -1,0 +1,41 @@
+{
+  "ticker": "BWPT.JK",
+  "asOf": "2024-12-31",
+  "currency": "IDR",
+  "propertiesNote": "Single-row. Eagle High Plantations: ~119K hectares Indonesian palm; carries significant debt.",
+  "properties": [
+    {
+      "name": "Indonesia palm \u2014 distressed",
+      "location": "Sumatra + Kalimantan, Indonesia",
+      "acres": 294000,
+      "cropOrUse": "Mixed mature + immature oil palm",
+      "category": "Indonesian palm \u2014 leveraged",
+      "fmvPerAcre": 50000000,
+      "fmvRationale": "BWPT carries significant debt + younger plantation profile; per-acre FMV discounted accordingly",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024",
+        "ID-PALM-IMMATURE-2024"
+      ],
+      "bookValueMM": 6000000
+    }
+  ],
+  "comparables": [
+    {
+      "description": "Indonesian unplanted concession / immature palm",
+      "location": "Indonesia (concession-stage)",
+      "pricePerAcre": 2500,
+      "date": "2024-10-15",
+      "source": "GAPKI 2024 + Indonesian land bank reports",
+      "id": "ID-PALM-IMMATURE-2024"
+    },
+    {
+      "description": "Indonesian mature oil palm with mill access",
+      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "pricePerAcre": 5000,
+      "date": "2024-09-15",
+      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
+      "id": "ID-PALM-MATURE-2024"
+    }
+  ],
+  "methodology": "PT Eagle High Plantations is a leveraged Indonesian palm operator with ~119K hectares. Per-acre FMV reflects mixed mature/immature profile + debt-distressed financial position."
+}

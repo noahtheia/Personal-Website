@@ -1,0 +1,63 @@
+{
+  "ticker": "AALI.JK",
+  "asOf": "2024-12-31",
+  "currency": "IDR",
+  "propertiesNote": "2-row aggregation by region. AALI operates ~287K hectares across Sumatra, Kalimantan, Sulawesi.",
+  "properties": [
+    {
+      "name": "Sumatra plantation cluster",
+      "location": "Sumatra, Indonesia",
+      "acres": 280000,
+      "cropOrUse": "Mature oil palm + mills",
+      "category": "Indonesian palm \u2014 Sumatra",
+      "fmvPerAcre": 80000000,
+      "fmvRationale": "~$5K USD/acre \u00d7 IDR 16,000/USD = IDR 80M/acre; mature Sumatra estates with mill access",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024",
+        "ID-PALM-NSUMATRA-2024"
+      ],
+      "bookValueMM": 11000000
+    },
+    {
+      "name": "Kalimantan + Sulawesi plantation cluster",
+      "location": "Kalimantan + Sulawesi, Indonesia",
+      "acres": 429000,
+      "cropOrUse": "Mature oil palm + mills",
+      "category": "Indonesian palm \u2014 Kalimantan/Sulawesi",
+      "fmvPerAcre": 70000000,
+      "fmvRationale": "Kalimantan + Sulawesi estates; slightly below Sumatra due to logistics",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024",
+        "ID-PALM-KALIMANTAN-2024"
+      ],
+      "bookValueMM": 6430000
+    }
+  ],
+  "comparables": [
+    {
+      "description": "North Sumatra mature palm oil estate",
+      "location": "North Sumatra, Indonesia",
+      "pricePerAcre": 5800,
+      "date": "2024-10-15",
+      "source": "Indonesian palm oil broker comps 2024",
+      "id": "ID-PALM-NSUMATRA-2024"
+    },
+    {
+      "description": "East Kalimantan palm oil concession",
+      "location": "East Kalimantan, Indonesia",
+      "pricePerAcre": 4400,
+      "date": "2024-09-30",
+      "source": "Kalimantan palm broker comps 2024",
+      "id": "ID-PALM-KALIMANTAN-2024"
+    },
+    {
+      "description": "Indonesian mature oil palm with mill access",
+      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "pricePerAcre": 5000,
+      "date": "2024-09-15",
+      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
+      "id": "ID-PALM-MATURE-2024"
+    }
+  ],
+  "methodology": "PT Astra Agro Lestari is one of Indonesia's largest palm oil operators with ~287K hectares (~709K acres) across Sumatra, Kalimantan, and Sulawesi. Reports in IDR.\n\nIndonesian palm oil land FMVs translated to IDR: $5K USD/acre \u00d7 IDR 16,000/USD = ~IDR 80M/acre for mature Sumatra estates with mill access. Kalimantan/Sulawesi cluster slightly lower due to logistics distance from major ports.\n\nThe per-acre IDR figures look astronomical to non-Indonesian readers but are consistent with the underlying USD-based palm oil land economics."
+}

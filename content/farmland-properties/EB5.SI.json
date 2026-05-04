@@ -1,0 +1,50 @@
+{
+  "ticker": "EB5.SI",
+  "asOf": "2024-12-31",
+  "currency": "USD",
+  "propertiesNote": "Single-row. First Resources: ~211K hectares Indonesian palm with 7 mills. Reports in USD; lists in SGD.",
+  "properties": [
+    {
+      "name": "Sumatra + Kalimantan palm",
+      "location": "Sumatra + Kalimantan, Indonesia",
+      "acres": 521000,
+      "cropOrUse": "Mature oil palm + 7 mills",
+      "category": "Indonesian palm \u2014 First Resources",
+      "fmvPerAcre": 5500,
+      "fmvRationale": "High-quality Indonesian palm operator with 7 mills; conservative balance sheet",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024",
+        "ID-PALM-NSUMATRA-2024",
+        "ID-PALM-MATURE-2025"
+      ],
+      "bookValueMM": 1500
+    }
+  ],
+  "comparables": [
+    {
+      "description": "Indonesian mature oil palm 2025 transactions",
+      "location": "Indonesia mature estates",
+      "pricePerAcre": 5300,
+      "date": "2025-04-15",
+      "source": "GAPKI 2025 land valuation reports",
+      "id": "ID-PALM-MATURE-2025"
+    },
+    {
+      "description": "North Sumatra mature palm oil estate",
+      "location": "North Sumatra, Indonesia",
+      "pricePerAcre": 5800,
+      "date": "2024-10-15",
+      "source": "Indonesian palm oil broker comps 2024",
+      "id": "ID-PALM-NSUMATRA-2024"
+    },
+    {
+      "description": "Indonesian mature oil palm with mill access",
+      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "pricePerAcre": 5000,
+      "date": "2024-09-15",
+      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
+      "id": "ID-PALM-MATURE-2024"
+    }
+  ],
+  "methodology": "First Resources is a Singapore-listed Indonesian palm operator with ~211K hectares in Sumatra + Kalimantan. Reports in USD; Yahoo returns SGD price for EB5.SI which the dual-currency layer cross-converts.\n\nFY24 EBITDA $420M on $1,039M revenue indicates above-peer operational excellence."
+}

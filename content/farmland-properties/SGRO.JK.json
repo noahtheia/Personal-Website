@@ -1,0 +1,32 @@
+{
+  "ticker": "SGRO.JK",
+  "asOf": "2024-12-31",
+  "currency": "IDR",
+  "propertiesNote": "Single-row. Sampoerna Agro: ~158K hectares Indonesian palm + sago.",
+  "properties": [
+    {
+      "name": "Sumatra + Kalimantan palm + sago",
+      "location": "Sumatra + Kalimantan",
+      "acres": 391000,
+      "cropOrUse": "Oil palm + sago palm",
+      "category": "Indonesian palm + sago",
+      "fmvPerAcre": 65000000,
+      "fmvRationale": "Mid-tier Indonesian palm operator with smaller sago specialty",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 4500000
+    }
+  ],
+  "comparables": [
+    {
+      "description": "Indonesian mature oil palm with mill access",
+      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "pricePerAcre": 5000,
+      "date": "2024-09-15",
+      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
+      "id": "ID-PALM-MATURE-2024"
+    }
+  ],
+  "methodology": "PT Sampoerna Agro operates ~158K hectares of Indonesian palm plantations plus a smaller sago palm operation."
+}

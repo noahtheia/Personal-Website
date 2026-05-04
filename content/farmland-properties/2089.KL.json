@@ -1,0 +1,62 @@
+{
+  "ticker": "2089.KL",
+  "asOf": "2025-12-31",
+  "currency": "MYR",
+  "propertiesNote": "2-row aggregation. UP is a 120-year-old plantation operator famous for being conservatively financed and best-in-class operationally.",
+  "properties": [
+    {
+      "name": "Peninsular Malaysia palm + coconut + refineries",
+      "location": "Peninsular Malaysia",
+      "acres": 100000,
+      "cropOrUse": "Mature oil palm + coconut + 2 refineries",
+      "category": "Peninsular palm + downstream",
+      "fmvPerAcre": 32000,
+      "fmvRationale": "UP's flagship cluster \u2014 premium per-acre due to mature plantings + Unitata/Unifuji refineries",
+      "comparablesUsed": [
+        "MY-PALM-PEN-2024",
+        "MY-PALM-2025"
+      ],
+      "bookValueMM": 3500
+    },
+    {
+      "name": "Indonesia plantation",
+      "location": "Indonesia",
+      "acres": 26000,
+      "cropOrUse": "Mature oil palm + 1 mill",
+      "category": "Indonesian palm",
+      "fmvPerAcre": 26000,
+      "fmvRationale": "Indonesian estate with single mill",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 1000
+    }
+  ],
+  "comparables": [
+    {
+      "description": "Malaysian palm plantation H1 2025 transactions",
+      "location": "Malaysia palm estates",
+      "pricePerAcre": 5400,
+      "date": "2025-04-01",
+      "source": "MPOB + Bursa Malaysia plantation transaction reports H1 2025",
+      "id": "MY-PALM-2025"
+    },
+    {
+      "description": "Peninsular Malaysia palm plantation",
+      "location": "Peninsular Malaysia",
+      "pricePerAcre": 6000,
+      "date": "2024-09-15",
+      "source": "Malaysian Palm Oil Board land valuation reports 2024",
+      "id": "MY-PALM-PEN-2024"
+    },
+    {
+      "description": "Indonesian mature oil palm with mill access",
+      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "pricePerAcre": 5000,
+      "date": "2024-09-15",
+      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
+      "id": "ID-PALM-MATURE-2024"
+    }
+  ],
+  "methodology": "United Plantations is a 120-year-old Malaysian plantation operator with 50,854 hectares (46,227 oil palm + 4,627 coconut) plus 4 mills in Malaysia + 1 in Indonesia + 2 specialty refineries (Unitata, Unifuji). FY25 record net profit MYR 830M.\n\nUP famously runs net cash with conservative financial discipline. Per-acre FMV at the high end of Malaysian palm comp range due to operational excellence + downstream value."
+}

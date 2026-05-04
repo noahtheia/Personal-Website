@@ -1,0 +1,41 @@
+{
+  "ticker": "P8Z.SI",
+  "asOf": "2024-12-31",
+  "currency": "IDR",
+  "propertiesNote": "Single-row. Bumitama: ~200K hectares Kalimantan palm. IDR reporting / SGD listing \u2014 dual-currency comp.",
+  "properties": [
+    {
+      "name": "Central + West Kalimantan palm",
+      "location": "Kalimantan, Indonesia",
+      "acres": 494000,
+      "cropOrUse": "Mature oil palm + mills",
+      "category": "Indonesian palm \u2014 Bumitama",
+      "fmvPerAcre": 80000000,
+      "fmvRationale": "Bumitama Kalimantan operations; mature with mill access",
+      "comparablesUsed": [
+        "ID-PALM-KALIMANTAN-2024",
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 14000000
+    }
+  ],
+  "comparables": [
+    {
+      "description": "East Kalimantan palm oil concession",
+      "location": "East Kalimantan, Indonesia",
+      "pricePerAcre": 4400,
+      "date": "2024-09-30",
+      "source": "Kalimantan palm broker comps 2024",
+      "id": "ID-PALM-KALIMANTAN-2024"
+    },
+    {
+      "description": "Indonesian mature oil palm with mill access",
+      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "pricePerAcre": 5000,
+      "date": "2024-09-15",
+      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
+      "id": "ID-PALM-MATURE-2024"
+    }
+  ],
+  "methodology": "PT Bumitama Agri operates ~200K hectares of palm in Kalimantan. Reports in IDR (Indonesian operating currency) but lists on SGX in SGD \u2014 both currencies handled by the dual-currency conversion layer."
+}

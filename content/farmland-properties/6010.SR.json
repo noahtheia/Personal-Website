@@ -1,0 +1,32 @@
+{
+  "ticker": "6010.SR",
+  "asOf": "2025-12-31",
+  "currency": "SAR",
+  "propertiesNote": "Single-row aggregation. NADEC operates 4 main agricultural projects in Saudi Arabia. Total land area is approximate \u2014 Saudi disclosure is less granular than US/Australian comps.",
+  "properties": [
+    {
+      "name": "Saudi center-pivot agricultural projects (Wadi al-Dawasir, Hail, Haradh, Al-Jouf)",
+      "location": "Saudi Arabia (4 projects)",
+      "acres": 124000,
+      "cropOrUse": "Wheat / clover / corn / Rhodes grass + dairy operations",
+      "category": "Saudi irrigated agriculture",
+      "fmvPerAcre": 6500,
+      "fmvRationale": "Saudi center-pivot irrigated farmland with desalination/aquifer water; 2024 broker comps in $5,500-7,500/acre range",
+      "comparablesUsed": [
+        "SA-IRRIGATED-2024"
+      ],
+      "bookValueMM": 2258
+    }
+  ],
+  "comparables": [
+    {
+      "description": "Saudi Arabian irrigated agricultural land \u2014 center pivot operations",
+      "location": "Saudi Arabia (Hail / Wadi al-Dawasir)",
+      "pricePerAcre": 6500,
+      "date": "2024-11-01",
+      "source": "Saudi Ministry of Agriculture + IGI broker reports 2024",
+      "id": "SA-IRRIGATED-2024"
+    }
+  ],
+  "methodology": "NADEC (National Agricultural Development Company) is a Saudi-listed agricultural and dairy operator with 4 main agricultural projects: Wadi al-Dawasir, Hail, Haradh, and Al-Jouf. Operations include wheat, clover, corn, Rhodes grass (alfalfa-equivalent fodder), plus integrated dairy.\n\nSaudi farmland disclosure is less granular than Western markets; the 124K-acre figure is a rough estimate. NADEC's book value (Net PP&E SAR 2,258M) includes substantial dairy + processing infrastructure, not just farmland \u2014 a stricter analysis would carve out farmland-only book.\n\nThe SAR is pegged to USD ($1 = SAR 3.75) so comp benchmarks translate cleanly between currencies. Saudi agricultural water comes from desalination and aquifer drawdown, making per-acre values higher than would be expected for arid land but with hidden long-term water-cost risk."
+}

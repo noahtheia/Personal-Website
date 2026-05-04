@@ -1,0 +1,53 @@
+{
+  "ticker": "2280.SR",
+  "asOf": "2024-12-31",
+  "currency": "SAR",
+  "propertiesNote": "2-row aggregation. Almarai is primarily a dairy/poultry/bakery group; the farmland portion is small relative to total enterprise. Fondomonte Argentina is the largest pure-farmland exposure.",
+  "properties": [
+    {
+      "name": "Fondomonte Argentina farmland",
+      "location": "San Luis / La Pampa, Argentina",
+      "acres": 35000,
+      "cropOrUse": "Alfalfa / fodder export to Saudi feedlots",
+      "category": "Argentine fodder farmland",
+      "fmvPerAcre": 3500,
+      "fmvRationale": "Almarai's Fondomonte subsidiary owns ~14K hectares Argentine farmland producing fodder for export to Saudi dairy operations; 2024 Argentine comps $3,000-4,000/acre USD",
+      "comparablesUsed": [
+        "AR-FONDOMONTE-2024"
+      ],
+      "bookValueMM": 600
+    },
+    {
+      "name": "Saudi forage farms + dairy operations",
+      "location": "Saudi Arabia",
+      "acres": 89000,
+      "cropOrUse": "Forage crops + dairy facilities",
+      "category": "Saudi dairy + forage",
+      "fmvPerAcre": 5500,
+      "fmvRationale": "Saudi forage farms supporting dairy operations; valuation reflects irrigation infrastructure",
+      "comparablesUsed": [
+        "SA-IRRIGATED-2024"
+      ],
+      "bookValueMM": 24493
+    }
+  ],
+  "comparables": [
+    {
+      "description": "Saudi Arabian irrigated agricultural land \u2014 center pivot operations",
+      "location": "Saudi Arabia (Hail / Wadi al-Dawasir)",
+      "pricePerAcre": 6500,
+      "date": "2024-11-01",
+      "source": "Saudi Ministry of Agriculture + IGI broker reports 2024",
+      "id": "SA-IRRIGATED-2024"
+    },
+    {
+      "description": "Argentine Fondomonte (Almarai-owned) Argentine farmland for fodder export",
+      "location": "San Luis / La Pampa, Argentina",
+      "pricePerAcre": 3500,
+      "date": "2024-09-15",
+      "source": "Argentine ag broker reports + Almarai 2024 disclosures",
+      "id": "AR-FONDOMONTE-2024"
+    }
+  ],
+  "methodology": "Almarai is the largest Saudi dairy company. The farmland exposure is partial \u2014 most of the SAR 25,093M Net PP&E reflects dairy plants, poultry processing, bakeries, and distribution. The pure-farmland subset is Fondomonte Argentina (~14K hectares producing fodder for export to Saudi feedlots) plus Saudi forage farms.\n\nThis comp is included for completeness but the FMV-vs-book displayed is essentially meaningless \u2014 Almarai's entire enterprise is mostly NOT a farmland operator. A stricter comp framework would either exclude Almarai entirely or carve out only Fondomonte's ~$50M of identifiable farmland book.\n\nValues should be read as illustrative of partial-farmland exposure within a larger food enterprise rather than as direct farmland comparables."
+}

@@ -1,0 +1,32 @@
+{
+  "ticker": "WTK.NR",
+  "asOf": "2024-12-31",
+  "currency": "KES",
+  "propertiesNote": "Single-row aggregation. Williamson operates ~7K hectares of mature tea estates plus timber land in Kenya highlands.",
+  "properties": [
+    {
+      "name": "Kapchorua + Changoi tea estates",
+      "location": "Nandi Hills + Tinderet, Kenya",
+      "acres": 17300,
+      "cropOrUse": "Tea (mature) + timber",
+      "category": "Kenyan tea estates",
+      "fmvPerAcre": 230000,
+      "fmvRationale": "Kenyan tea estates \u2014 2024 KTDA comps $7,500/acre USD = ~KSh 1,000,000/acre; Williamson book is decades-old colonial cost basis",
+      "comparablesUsed": [
+        "KE-TEA-2024"
+      ],
+      "bookValueMM": 3000
+    }
+  ],
+  "comparables": [
+    {
+      "description": "Kenyan tea estate transactions",
+      "location": "Kericho / Nandi Hills, Kenya",
+      "pricePerAcre": 7500,
+      "date": "2024-09-15",
+      "source": "Kenya Tea Development Agency land reports 2024",
+      "id": "KE-TEA-2024"
+    }
+  ],
+  "methodology": "Williamson Tea Kenya operates mature tea estates in Kenya's prime tea-growing regions (Nandi Hills, Tinderet area) plus some timber land. 2024 revenue KSh 4.2B with profit KSh 527M.\n\nLand values translated: 2024 KTDA broker comps for mature Kenyan tea estate land at ~$7,500 USD/acre \u00d7 KES 130/USD = ~KSh 975,000/acre. Williamson's book value reflects decades-old colonial-era cost basis, materially below current market.\n\nYahoo coverage of Nairobi tickers is spotty \u2014 the live-price portion of the comp may not resolve cleanly."
+}
