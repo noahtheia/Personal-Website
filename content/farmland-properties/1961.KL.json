@@ -2,70 +2,93 @@
   "ticker": "1961.KL",
   "asOf": "2025-06-30",
   "currency": "MYR",
-  "propertiesNote": "2-row aggregation. IOI runs Peninsular Malaysia palm plantations + downstream oleochemicals plus Sabah and Indonesian cluster.",
+  "propertiesNote": "4-row breakdown including downstream placeholder. IOI is integrated palm + oleochemical + refining; Loders Croklaan was sold to Bunge in 2018.",
   "properties": [
     {
-      "name": "Peninsular Malaysia palm + oleochemical estates",
+      "name": "Peninsular Malaysia plantation (subsidiaries)",
       "location": "Peninsular Malaysia",
-      "acres": 220000,
-      "cropOrUse": "Mature oil palm + oleochemical complex",
+      "acres": 110000,
+      "cropOrUse": "Mature oil palm",
       "category": "Malaysian palm \u2014 Peninsular",
-      "fmvPerAcre": 28000,
-      "fmvRationale": "~$6K USD/acre \u00d7 MYR 4.7/USD = ~MYR 28K/acre for Peninsular palm with mill + oleochemical infrastructure",
+      "fmvPerAcre": 26000,
+      "fmvRationale": "IOI Peninsular plantation subsidiaries; mature with mill access",
       "comparablesUsed": [
         "MY-PALM-PEN-2024",
         "MY-PALM-2025"
       ],
-      "bookValueMM": 5500
+      "bookValueMM": 2700
     },
     {
-      "name": "Sabah + Indonesia plantation",
-      "location": "Sabah, Malaysia + Indonesia",
-      "acres": 212000,
+      "name": "Sabah Malaysia plantation",
+      "location": "Sabah, Malaysia",
+      "acres": 132000,
       "cropOrUse": "Mature oil palm",
-      "category": "Sabah + Indonesian palm",
+      "category": "Malaysian palm \u2014 Sabah",
       "fmvPerAcre": 22000,
-      "fmvRationale": "Sabah + Indonesian estates; mid-tier per-acre value",
+      "fmvRationale": "Sabah plantation cluster; ongoing replant programme",
       "comparablesUsed": [
-        "MY-PALM-SABAH-2024",
+        "MY-PALM-SABAH-2024"
+      ],
+      "bookValueMM": 2700
+    },
+    {
+      "name": "Indonesia plantation (subsidiary)",
+      "location": "Indonesia",
+      "acres": 192000,
+      "cropOrUse": "Mature oil palm + mills",
+      "category": "Indonesian palm \u2014 IOI",
+      "fmvPerAcre": 22000,
+      "fmvRationale": "Indonesian plantation subsidiary",
+      "comparablesUsed": [
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 3933
+      "bookValueMM": 4000
+    },
+    {
+      "name": "Resource-based manufacturing (Loders Croklaan was sold; current oleochemicals + specialty)",
+      "location": "Various downstream",
+      "acres": 1,
+      "cropOrUse": "Oleochemical / refining facilities (not farmland)",
+      "category": "Downstream / non-land",
+      "fmvPerAcre": 33,
+      "fmvRationale": "Placeholder for downstream Net PP&E not allocated to plantation acres; the per-acre column is meaningless for this row",
+      "comparablesUsed": [],
+      "bookValueMM": 33
     }
   ],
   "comparables": [
     {
-      "description": "Malaysian palm plantation H1 2025 transactions",
-      "location": "Malaysia palm estates",
-      "pricePerAcre": 5400,
-      "date": "2025-04-01",
-      "source": "MPOB + Bursa Malaysia plantation transaction reports H1 2025",
-      "id": "MY-PALM-2025"
-    },
-    {
+      "id": "MY-PALM-PEN-2024",
       "description": "Peninsular Malaysia palm plantation",
       "location": "Peninsular Malaysia",
       "pricePerAcre": 6000,
       "date": "2024-09-15",
-      "source": "Malaysian Palm Oil Board land valuation reports 2024",
-      "id": "MY-PALM-PEN-2024"
+      "source": "MPOB land valuation reports 2024"
     },
     {
+      "id": "MY-PALM-SABAH-2024",
       "description": "Malaysian Sabah palm plantation",
       "location": "Sabah, Malaysia",
       "pricePerAcre": 4800,
       "date": "2024-09-15",
-      "source": "Malaysian Palm Oil Board land valuation reports 2024",
-      "id": "MY-PALM-SABAH-2024"
+      "source": "MPOB Sabah 2024"
     },
     {
+      "id": "MY-PALM-2025",
+      "description": "Malaysian palm plantation H1 2025 transactions",
+      "location": "Malaysia palm estates",
+      "pricePerAcre": 5400,
+      "date": "2025-04-01",
+      "source": "MPOB + Bursa Malaysia 2025"
+    },
+    {
+      "id": "ID-PALM-MATURE-2024",
       "description": "Indonesian mature oil palm with mill access",
-      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "location": "Indonesia",
       "pricePerAcre": 5000,
       "date": "2024-09-15",
-      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
-      "id": "ID-PALM-MATURE-2024"
+      "source": "GAPKI 2024 reports"
     }
   ],
-  "methodology": "IOI Corporation is one of Malaysia's largest integrated palm oil + oleochemical operators. ~432K acres (~175K hectares) of plantation across Peninsular Malaysia, Sabah, and Indonesia.\n\nIOI's book value includes substantial downstream oleochemical processing infrastructure, not just plantation land. The FMV-vs-book ratio reflects this mixed asset base."
+  "methodology": "IOI Corporation operates 176,202 hectares (planted, including subsidiary companies; FY24 disclosure) plus another 127,800 hectares through associate companies. Total plantation footprint ~432K acres.\n\n3+1 breakdown:\n- Peninsular Malaysia (110K acres): IOI subsidiary plantations  \n- Sabah (132K acres): plantation cluster with ongoing replant\n- Indonesia (192K acres): IOI Indonesian subsidiary\n\nPlus a small placeholder row for downstream resource-based manufacturing (refining + oleochemical + specialty) which sits in the same MYR 9,433M Net PP&E. IOI sold Loders Croklaan to Bunge in 2018; current downstream is smaller. The MYR 33M placeholder reflects residual fixed downstream asset value not allocated to plantation acres.\n\nPer-acre pricing reflects MPOB 2024-25 + GAPKI 2024 benchmarks. Net PP&E split is rough proportional allocation \u2014 IOI's annual report has more granular segment disclosure that could refine the per-segment book."
 }

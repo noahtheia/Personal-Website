@@ -2,70 +2,113 @@
   "ticker": "5285.KL",
   "asOf": "2024-12-31",
   "currency": "MYR",
-  "propertiesNote": "Rebranded from Sime Darby Plantation to SD Guthrie in 2024. World's largest pure-play palm oil planter by area; 555K hectares post-divestments.",
+  "propertiesNote": "4-row breakdown by country/region. World's largest pure-play palm planter at ~600K hectares.",
   "properties": [
     {
-      "name": "Peninsular Malaysia + Sabah plantation",
-      "location": "Peninsular Malaysia + Sabah",
-      "acres": 600000,
-      "cropOrUse": "Mature oil palm + mills",
-      "category": "Malaysian palm \u2014 Peninsular/Sabah",
-      "fmvPerAcre": 26000,
-      "fmvRationale": "World's largest pure-play palm planter post-divestments; Peninsular + Sabah cluster",
+      "name": "Peninsular Malaysia plantation",
+      "location": "Peninsular Malaysia",
+      "acres": 432000,
+      "cropOrUse": "Mature oil palm + integrated mills + downstream",
+      "category": "Malaysian palm \u2014 Peninsular",
+      "fmvPerAcre": 28000,
+      "fmvRationale": "Peninsular Malaysia premium palm cluster + integrated downstream; MPOB 2024-25 Peninsular benchmarks MYR 25-30K/acre",
       "comparablesUsed": [
         "MY-PALM-PEN-2024",
-        "MY-PALM-SABAH-2024",
         "MY-PALM-2025"
       ],
-      "bookValueMM": 14000
+      "bookValueMM": 9500
     },
     {
-      "name": "Indonesian + PNG plantation",
-      "location": "Indonesia + Papua New Guinea",
-      "acres": 771000,
+      "name": "Sabah Malaysia plantation",
+      "location": "Sabah, Malaysia",
+      "acres": 247000,
       "cropOrUse": "Mature oil palm + mills",
-      "category": "Indonesian + PNG palm",
+      "category": "Malaysian palm \u2014 Sabah",
       "fmvPerAcre": 22000,
-      "fmvRationale": "Indonesia + PNG cluster; PNG concession area at lower per-acre",
+      "fmvRationale": "Sabah palm cluster",
       "comparablesUsed": [
-        "ID-PALM-MATURE-2024"
+        "MY-PALM-SABAH-2024"
       ],
-      "bookValueMM": 11000
+      "bookValueMM": 4500
+    },
+    {
+      "name": "Indonesia plantation (Sumatra + Kalimantan)",
+      "location": "Sumatra + Kalimantan, Indonesia",
+      "acres": 494000,
+      "cropOrUse": "Mature oil palm + mills",
+      "category": "Indonesian palm \u2014 diversified",
+      "fmvPerAcre": 22000,
+      "fmvRationale": "Indonesian Sumatra + Kalimantan estates",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024",
+        "ID-PALM-NSUMATRA-2024"
+      ],
+      "bookValueMM": 9000
+    },
+    {
+      "name": "Papua New Guinea + Solomon Islands plantation",
+      "location": "PNG + Solomon Islands",
+      "acres": 198000,
+      "cropOrUse": "Mature oil palm + mills (RAMU + NBPOL legacy)",
+      "category": "PNG/SI palm",
+      "fmvPerAcre": 16000,
+      "fmvRationale": "PNG + Solomon Islands palm cluster; lower per-acre due to remoteness + concession-stage area",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024",
+        "ID-PALM-IMMATURE-2024"
+      ],
+      "bookValueMM": 2000
     }
   ],
   "comparables": [
     {
-      "description": "Malaysian palm plantation H1 2025 transactions",
-      "location": "Malaysia palm estates",
-      "pricePerAcre": 5400,
-      "date": "2025-04-01",
-      "source": "MPOB + Bursa Malaysia plantation transaction reports H1 2025",
-      "id": "MY-PALM-2025"
-    },
-    {
+      "id": "MY-PALM-PEN-2024",
       "description": "Peninsular Malaysia palm plantation",
       "location": "Peninsular Malaysia",
       "pricePerAcre": 6000,
       "date": "2024-09-15",
-      "source": "Malaysian Palm Oil Board land valuation reports 2024",
-      "id": "MY-PALM-PEN-2024"
+      "source": "Malaysian Palm Oil Board land valuation reports 2024"
     },
     {
+      "id": "MY-PALM-SABAH-2024",
       "description": "Malaysian Sabah palm plantation",
       "location": "Sabah, Malaysia",
       "pricePerAcre": 4800,
       "date": "2024-09-15",
-      "source": "Malaysian Palm Oil Board land valuation reports 2024",
-      "id": "MY-PALM-SABAH-2024"
+      "source": "MPOB Sabah 2024"
     },
     {
+      "id": "MY-PALM-2025",
+      "description": "Malaysian palm plantation H1 2025 transactions",
+      "location": "Malaysia palm estates",
+      "pricePerAcre": 5400,
+      "date": "2025-04-01",
+      "source": "MPOB + Bursa Malaysia plantation transaction reports H1 2025"
+    },
+    {
+      "id": "ID-PALM-MATURE-2024",
       "description": "Indonesian mature oil palm with mill access",
-      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "location": "Indonesia",
       "pricePerAcre": 5000,
       "date": "2024-09-15",
-      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
-      "id": "ID-PALM-MATURE-2024"
+      "source": "GAPKI Indonesia palm oil land transaction reports 2024"
+    },
+    {
+      "id": "ID-PALM-NSUMATRA-2024",
+      "description": "North Sumatra mature palm oil estate",
+      "location": "North Sumatra, Indonesia",
+      "pricePerAcre": 5800,
+      "date": "2024-10-15",
+      "source": "Indonesian palm oil broker comps 2024"
+    },
+    {
+      "id": "ID-PALM-IMMATURE-2024",
+      "description": "Indonesian/PNG unplanted concession / immature palm",
+      "location": "Indonesia/PNG concession-stage",
+      "pricePerAcre": 2500,
+      "date": "2024-10-15",
+      "source": "GAPKI + PNG palm concession comps"
     }
   ],
-  "methodology": "SD Guthrie (rebranded from Sime Darby Plantation in 2024) operates the world's largest pure-play palm oil plantation by area: ~555K hectares post-divestments across Peninsular Malaysia, Sabah, Indonesia, and Papua New Guinea.\n\n2-row aggregation by Malaysian core vs. Indonesian/PNG cluster. Per-acre FMVs reflect mature plantation + mill access."
+  "methodology": "SD Guthrie (rebranded from Sime Darby Plantation in May 2024) is the world's largest pure-play palm oil planter by area: ~600K hectares across 4 country/region clusters.\n\n4-row breakdown:\n- Peninsular Malaysia (432K acres / ~175K ha): premium plantation + integrated downstream\n- Sabah (247K acres / ~100K ha): mature plantation cluster\n- Indonesia (494K acres / ~200K ha): Sumatra + Kalimantan diversified\n- PNG + Solomon Islands (198K acres / ~80K ha): inherited from NBPOL/RAMU acquisition; lower per-acre due to remoteness + concession-stage area\n\nPer-region pricing reflects MPOB 2024-25 Malaysian benchmarks + GAPKI Indonesian reports + PNG palm concession discount."
 }
