@@ -1,7 +1,12 @@
 import {
-  fmvAggregate,
+  aggregateByCategory,
+  propertyFmvMM,
+  propertyFmvVsBookPct,
+  totalAcres,
+  totalBookMM,
+  totalFmvMM,
+  type CategoryAggregate,
   type Comparable,
-  type FMVAssumption,
   type Property,
   type PropertyDetail,
 } from "@/lib/farmland-properties";
@@ -20,22 +25,23 @@ export function FarmlandPropertyDetail({
   detail: PropertyDetail;
 }) {
   const ccy = detail.currency ?? filing.currency;
-  const agg = fmvAggregate(detail);
-  // agg.totalFmv = acres × $/acre = dollars; convert to $M.
-  const totalFmvMM = agg.totalFmv / 1_000_000;
-  const bookMM = filing.bookLandMM;
+  const fmvMM = totalFmvMM(detail);
+  const bookMM = totalBookMM(detail);
+  const acres = totalAcres(detail);
   const fmvVsBookPct =
-    bookMM > 0 ? ((totalFmvMM - bookMM) / bookMM) * 100 : null;
+    bookMM > 0 ? ((fmvMM - bookMM) / bookMM) * 100 : null;
 
-  // Implied per-share NAV at FMV (uses filing-currency totals)
-  const navAtFmv =
-    bookMM > 0 && totalFmvMM > 0
-      ? totalFmvMM - (filing.debtMM - filing.cashMM)
-      : null;
+  // Implied NAV at FMV uses the company-level filing (filing.bookLandMM may
+  // be slightly larger than aggregated property book if some asset rows
+  // aren't in Schedule III; using the per-property aggregate is more
+  // accurate against the FMV side of the equation).
+  const netDebt = filing.debtMM - filing.cashMM;
+  const navAtFmv = fmvMM - netDebt;
   const navPerShareAtFmv =
-    navAtFmv !== null && filing.sharesOutMM > 0
-      ? navAtFmv / filing.sharesOutMM
-      : null;
+    filing.sharesOutMM > 0 ? navAtFmv / filing.sharesOutMM : null;
+
+  const aggregates = aggregateByCategory(detail);
+  const compById = new Map(detail.comparables.map((c) => [c.id, c]));
 
   return (
     <div className="space-y-12">
@@ -44,83 +50,62 @@ export function FarmlandPropertyDetail({
           title="Implied fair market analysis"
           subtitle={`As of ${detail.asOf}`}
         />
-        <div className="mt-4 grid grid-cols-1 gap-6 sm:grid-cols-2">
-          <div className="rounded-sm border border-rule bg-surface p-5">
-            <div className="text-[10px] uppercase tracking-wider text-muted">
-              Aggregate FMV
-            </div>
-            <div className="mt-1 font-display text-3xl font-semibold tabular-nums">
-              {ccy} {fmtInt(totalFmvMM)}M
-            </div>
-            <div className="mt-2 text-xs text-muted">
-              {fmtInt(agg.totalAcres)} acres ×{" "}
-              {fmtInt(agg.weightedPerAcre)} {ccy}/acre weighted
-            </div>
-          </div>
-          <div className="rounded-sm border border-rule bg-surface p-5">
-            <div className="text-[10px] uppercase tracking-wider text-muted">
-              FMV vs. book
-            </div>
-            <div
-              className={`mt-1 font-display text-3xl font-semibold tabular-nums ${
-                fmvVsBookPct === null
-                  ? ""
-                  : fmvVsBookPct >= 0
-                  ? "text-[var(--positive)]"
-                  : "text-[var(--negative)]"
-              }`}
-            >
-              {fmvVsBookPct === null
+        <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <Card label="Aggregate FMV" value={`${ccy} ${fmtInt(fmvMM)}M`} sub={`${fmtInt(acres)} acres × ${fmtInt(acres > 0 ? (fmvMM * 1_000_000) / acres : 0)} ${ccy}/acre wt avg`} />
+          <Card
+            label="FMV vs. book"
+            value={
+              fmvVsBookPct === null
                 ? "—"
-                : `${fmvVsBookPct >= 0 ? "+" : ""}${fmvVsBookPct.toFixed(1)}%`}
-            </div>
-            <div className="mt-2 text-xs text-muted">
-              Book {ccy} {fmtInt(bookMM)}M · FMV {ccy} {fmtInt(totalFmvMM)}M
-            </div>
-          </div>
-          <div className="rounded-sm border border-rule bg-surface p-5">
-            <div className="text-[10px] uppercase tracking-wider text-muted">
-              Implied NAV / share
-            </div>
-            <div className="mt-1 font-display text-3xl font-semibold tabular-nums">
-              {navPerShareAtFmv === null
+                : `${fmvVsBookPct >= 0 ? "+" : ""}${fmvVsBookPct.toFixed(1)}%`
+            }
+            sub={`Book ${ccy} ${fmtInt(bookMM)}M · FMV ${ccy} ${fmtInt(fmvMM)}M`}
+            tone={
+              fmvVsBookPct === null
+                ? undefined
+                : fmvVsBookPct >= 0
+                ? "positive"
+                : "negative"
+            }
+          />
+          <Card
+            label="Implied NAV / share"
+            value={
+              navPerShareAtFmv === null
                 ? "—"
-                : `${ccy} ${navPerShareAtFmv.toFixed(2)}`}
-            </div>
-            <div className="mt-2 text-xs text-muted">
-              FMV − net debt ÷ {fmtInt(filing.sharesOutMM)}M shares
-            </div>
-          </div>
-          <div className="rounded-sm border border-rule bg-surface p-5">
-            <div className="text-[10px] uppercase tracking-wider text-muted">
-              Live price (USD) vs. FMV NAV
-            </div>
-            <div className="mt-1 font-display text-3xl font-semibold tabular-nums">
-              {priced?.price && navPerShareAtFmv
-                ? renderFmvDiscount(
-                    priced.localPrice ?? null,
-                    navPerShareAtFmv,
-                  )
-                : "—"}
-            </div>
-            <div className="mt-2 text-xs text-muted">
-              Local price ÷ implied NAV
-            </div>
-          </div>
+                : `${ccy} ${navPerShareAtFmv.toFixed(2)}`
+            }
+            sub={`(FMV ${fmtInt(fmvMM)} − net debt ${fmtInt(netDebt)}) ÷ ${fmtInt(filing.sharesOutMM)}M sh`}
+          />
+          <Card
+            label="Live price vs. FMV NAV"
+            value={
+              priced?.localPrice && navPerShareAtFmv && navPerShareAtFmv > 0
+                ? renderPct((priced.localPrice / navPerShareAtFmv - 1) * 100)
+                : "—"
+            }
+            sub={
+              priced?.localPrice
+                ? `Local price ${priced.localPrice.toFixed(2)} ${ccy}`
+                : "Live price unavailable"
+            }
+            tone={
+              priced?.localPrice && navPerShareAtFmv && navPerShareAtFmv > 0
+                ? priced.localPrice / navPerShareAtFmv - 1 >= 0
+                  ? "positive"
+                  : "negative"
+                : undefined
+            }
+          />
         </div>
+      </section>
 
-        {detail.fmvAssumptions.length > 0 && (
-          <FmvBreakdownTable assumptions={detail.fmvAssumptions} ccy={ccy} />
-        )}
-
-        <div className="mt-6 rounded-sm border border-rule bg-bg p-5">
-          <div className="text-[10px] uppercase tracking-wider text-muted">
-            Methodology
-          </div>
-          <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-fg-soft">
-            {detail.methodology}
-          </p>
-        </div>
+      <section>
+        <SectionHeader
+          title="FMV by category"
+          subtitle="Aggregated from per-property assumptions below"
+        />
+        <CategoryTable aggregates={aggregates} ccy={ccy} />
       </section>
 
       <section>
@@ -128,16 +113,59 @@ export function FarmlandPropertyDetail({
           title="Properties"
           subtitle={detail.propertiesNote ?? `${detail.properties.length} properties`}
         />
-        <PropertiesTable properties={detail.properties} ccy={ccy} />
+        <PropertiesTable
+          properties={detail.properties}
+          comparables={compById}
+          ccy={ccy}
+        />
       </section>
 
       <section>
         <SectionHeader
-          title="Comparable land transactions"
-          subtitle={`${detail.comparables.length} reference points`}
+          title="Comparable land transactions and surveys"
+          subtitle={`${detail.comparables.length} reference points · all dated within last 24 months`}
         />
         <ComparablesTable comparables={detail.comparables} />
       </section>
+
+      <section className="rounded-sm border border-rule bg-bg p-5">
+        <div className="text-[10px] uppercase tracking-wider text-muted">
+          Methodology
+        </div>
+        <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-fg-soft">
+          {detail.methodology}
+        </p>
+      </section>
+    </div>
+  );
+}
+
+function Card({
+  label,
+  value,
+  sub,
+  tone,
+}: {
+  label: string;
+  value: string;
+  sub: string;
+  tone?: "positive" | "negative";
+}) {
+  const valueClass =
+    tone === "positive"
+      ? "text-[var(--positive)]"
+      : tone === "negative"
+      ? "text-[var(--negative)]"
+      : "";
+  return (
+    <div className="rounded-sm border border-rule bg-surface p-5">
+      <div className="text-[10px] uppercase tracking-wider text-muted">
+        {label}
+      </div>
+      <div className={`mt-1 font-display text-2xl font-semibold tabular-nums ${valueClass}`}>
+        {value}
+      </div>
+      <div className="mt-2 text-xs text-muted">{sub}</div>
     </div>
   );
 }
@@ -159,67 +187,97 @@ function SectionHeader({
   );
 }
 
-function FmvBreakdownTable({
-  assumptions,
+function CategoryTable({
+  aggregates,
   ccy,
 }: {
-  assumptions: FMVAssumption[];
+  aggregates: CategoryAggregate[];
   ccy: string;
 }) {
-  const totalAcres = assumptions.reduce((s, a) => s + a.acres, 0);
-  // acres × $/acre → dollars; / 1,000,000 → $M.
-  const totalFmv = assumptions.reduce(
-    (s, a) => s + (a.acres * a.assumedPricePerAcre) / 1_000_000,
-    0,
+  const totals = aggregates.reduce(
+    (acc, a) => {
+      acc.acres += a.acres;
+      acc.book += a.totalBookMM;
+      acc.fmv += a.totalFmvMM;
+      return acc;
+    },
+    { acres: 0, book: 0, fmv: 0 },
   );
+  const totalsFmvVsBook =
+    totals.book > 0 ? ((totals.fmv - totals.book) / totals.book) * 100 : null;
   return (
-    <div className="mt-6 overflow-x-auto rounded-sm border border-rule bg-surface">
+    <div className="mt-4 overflow-x-auto rounded-sm border border-rule bg-surface">
       <table className="w-full border-collapse font-sans text-xs tabular-nums">
         <thead>
           <tr className="border-b border-rule-strong text-left">
             <Th>Category</Th>
+            <Th align="right">Properties</Th>
             <Th align="right">Acres</Th>
-            <Th align="right">Assumed {ccy}/acre</Th>
+            <Th align="right">Avg book {ccy}/acre</Th>
+            <Th align="right">Avg FMV {ccy}/acre</Th>
+            <Th align="right">Book ({ccy} M)</Th>
             <Th align="right">FMV ({ccy} M)</Th>
-            <Th align="right">Mix %</Th>
+            <Th align="right">FMV vs book</Th>
           </tr>
         </thead>
         <tbody>
-          {assumptions.map((a) => {
-            const fmvMM = (a.acres * a.assumedPricePerAcre) / 1_000_000;
-            return (
-              <tr key={a.category} className="border-b border-rule">
-                <td className="px-3 py-2 align-top text-fg">
-                  <div className="font-medium">{a.category}</div>
-                  {a.rationale && (
-                    <div className="mt-0.5 text-[11px] text-muted">
-                      {a.rationale}
-                    </div>
-                  )}
-                </td>
-                <td className="px-3 py-2 text-right">{fmtInt(a.acres)}</td>
-                <td className="px-3 py-2 text-right">
-                  {fmtInt(a.assumedPricePerAcre)}
-                </td>
-                <td className="px-3 py-2 text-right">{fmtInt(fmvMM)}</td>
-                <td className="px-3 py-2 text-right text-muted">
-                  {totalAcres > 0
-                    ? `${((a.acres / totalAcres) * 100).toFixed(0)}%`
-                    : "—"}
-                </td>
-              </tr>
-            );
-          })}
+          {aggregates.map((a) => (
+            <tr key={a.category} className="border-b border-rule">
+              <td className="px-3 py-2 align-top text-fg">{a.category}</td>
+              <td className="px-3 py-2 text-right">{a.count}</td>
+              <td className="px-3 py-2 text-right">{fmtInt(a.acres)}</td>
+              <td className="px-3 py-2 text-right">
+                {fmtInt(a.weightedBookPerAcre)}
+              </td>
+              <td className="px-3 py-2 text-right">
+                {fmtInt(a.weightedFmvPerAcre)}
+              </td>
+              <td className="px-3 py-2 text-right">{fmtInt(a.totalBookMM)}</td>
+              <td className="px-3 py-2 text-right">{fmtInt(a.totalFmvMM)}</td>
+              <td
+                className={`px-3 py-2 text-right ${
+                  a.fmvVsBookPct === null
+                    ? "text-muted"
+                    : a.fmvVsBookPct >= 0
+                    ? "text-[var(--positive)]"
+                    : "text-[var(--negative)]"
+                }`}
+              >
+                {a.fmvVsBookPct === null
+                  ? "—"
+                  : renderPct(a.fmvVsBookPct)}
+              </td>
+            </tr>
+          ))}
           <tr className="border-t-2 border-rule-strong bg-bg/60 font-semibold">
             <td className="px-3 py-2">Total</td>
-            <td className="px-3 py-2 text-right">{fmtInt(totalAcres)}</td>
             <td className="px-3 py-2 text-right">
-              {totalAcres > 0
-                ? fmtInt((totalFmv * 1_000_000) / totalAcres)
+              {aggregates.reduce((s, a) => s + a.count, 0)}
+            </td>
+            <td className="px-3 py-2 text-right">{fmtInt(totals.acres)}</td>
+            <td className="px-3 py-2 text-right">
+              {totals.acres > 0
+                ? fmtInt((totals.book * 1_000_000) / totals.acres)
                 : "—"}
             </td>
-            <td className="px-3 py-2 text-right">{fmtInt(totalFmv)}</td>
-            <td className="px-3 py-2 text-right">100%</td>
+            <td className="px-3 py-2 text-right">
+              {totals.acres > 0
+                ? fmtInt((totals.fmv * 1_000_000) / totals.acres)
+                : "—"}
+            </td>
+            <td className="px-3 py-2 text-right">{fmtInt(totals.book)}</td>
+            <td className="px-3 py-2 text-right">{fmtInt(totals.fmv)}</td>
+            <td
+              className={`px-3 py-2 text-right ${
+                totalsFmvVsBook === null
+                  ? ""
+                  : totalsFmvVsBook >= 0
+                  ? "text-[var(--positive)]"
+                  : "text-[var(--negative)]"
+              }`}
+            >
+              {totalsFmvVsBook === null ? "—" : renderPct(totalsFmvVsBook)}
+            </td>
           </tr>
         </tbody>
       </table>
@@ -229,54 +287,122 @@ function FmvBreakdownTable({
 
 function PropertiesTable({
   properties,
+  comparables,
   ccy,
 }: {
   properties: Property[];
+  comparables: Map<string, Comparable>;
   ccy: string;
 }) {
+  const sorted = [...properties].sort((a, b) => {
+    const aFmv = propertyFmvMM(a);
+    const bFmv = propertyFmvMM(b);
+    return bFmv - aFmv;
+  });
   return (
     <div className="mt-4 overflow-x-auto rounded-sm border border-rule bg-surface">
       <table className="w-full border-collapse font-sans text-xs tabular-nums">
         <thead>
           <tr className="border-b border-rule-strong text-left">
             <Th>Property</Th>
-            <Th>Location</Th>
+            <Th>Category / crop</Th>
             <Th align="right">Acres</Th>
-            <Th>Crop / use</Th>
             <Th align="right">Acquired</Th>
             <Th align="right">Cost ({ccy} M)</Th>
             <Th align="right">Book ({ccy} M)</Th>
             <Th align="right">{ccy}/acre book</Th>
+            <Th align="right">FMV {ccy}/acre</Th>
+            <Th align="right">FMV ({ccy} M)</Th>
+            <Th align="right">vs book</Th>
+            <Th>Comps</Th>
           </tr>
         </thead>
         <tbody>
-          {properties.map((p) => (
-            <tr key={`${p.name}-${p.location}`} className="border-b border-rule">
-              <td className="px-3 py-2 align-top">
-                <div className="font-medium text-fg">{p.name}</div>
-                {p.notes && (
-                  <div className="mt-0.5 text-[11px] text-muted">{p.notes}</div>
-                )}
-              </td>
-              <td className="px-3 py-2 align-top text-fg-soft">{p.location}</td>
-              <td className="px-3 py-2 text-right align-top">{fmtInt(p.acres)}</td>
-              <td className="px-3 py-2 align-top text-fg-soft">{p.cropOrUse}</td>
-              <td className="px-3 py-2 text-right align-top text-muted">
-                {p.acquired ? formatYear(p.acquired) : "—"}
-              </td>
-              <td className="px-3 py-2 text-right align-top">
-                {p.acquisitionCostMM != null ? fmtMoney(p.acquisitionCostMM) : "—"}
-              </td>
-              <td className="px-3 py-2 text-right align-top">
-                {p.bookValueMM != null ? fmtMoney(p.bookValueMM) : "—"}
-              </td>
-              <td className="px-3 py-2 text-right align-top">
-                {p.bookValueMM != null && p.acres > 0
-                  ? fmtInt((p.bookValueMM / p.acres) * 1_000_000)
-                  : "—"}
-              </td>
-            </tr>
-          ))}
+          {sorted.map((p, i) => {
+            const fmvMM = propertyFmvMM(p);
+            const vsBook = propertyFmvVsBookPct(p);
+            return (
+              <tr
+                key={`${p.name}-${p.location}-${i}`}
+                className="border-b border-rule align-top"
+              >
+                <td className="px-3 py-2">
+                  <div className="font-medium text-fg">{p.name}</div>
+                  <div className="text-[11px] text-muted">{p.location}</div>
+                  {p.notes && (
+                    <div className="mt-0.5 text-[10px] text-muted">
+                      {p.notes}
+                    </div>
+                  )}
+                </td>
+                <td className="px-3 py-2 text-fg-soft">
+                  <div>{p.category}</div>
+                  {p.cropOrUse && p.cropOrUse !== p.category && (
+                    <div className="mt-0.5 text-[11px] text-muted">
+                      {p.cropOrUse}
+                    </div>
+                  )}
+                </td>
+                <td className="px-3 py-2 text-right">{fmtInt(p.acres)}</td>
+                <td className="px-3 py-2 text-right text-muted">
+                  {p.acquired ? formatYear(p.acquired) : "—"}
+                </td>
+                <td className="px-3 py-2 text-right">
+                  {p.acquisitionCostMM != null ? fmtMoney(p.acquisitionCostMM) : "—"}
+                </td>
+                <td className="px-3 py-2 text-right">
+                  {p.bookValueMM != null ? fmtMoney(p.bookValueMM) : "—"}
+                </td>
+                <td className="px-3 py-2 text-right">
+                  {p.bookValueMM != null && p.acres > 0
+                    ? fmtInt((p.bookValueMM / p.acres) * 1_000_000)
+                    : "—"}
+                </td>
+                <td className="px-3 py-2 text-right font-medium">
+                  {fmtInt(p.fmvPerAcre)}
+                </td>
+                <td className="px-3 py-2 text-right">
+                  {fmtMoney(fmvMM)}
+                </td>
+                <td
+                  className={`px-3 py-2 text-right ${
+                    vsBook === null
+                      ? "text-muted"
+                      : vsBook >= 0
+                      ? "text-[var(--positive)]"
+                      : "text-[var(--negative)]"
+                  }`}
+                >
+                  {vsBook === null ? "—" : renderPct(vsBook)}
+                </td>
+                <td className="px-3 py-2">
+                  {p.comparablesUsed && p.comparablesUsed.length > 0 ? (
+                    <div className="flex flex-wrap gap-1">
+                      {p.comparablesUsed.map((id) => {
+                        const c = comparables.get(id);
+                        return (
+                          <span
+                            key={id}
+                            title={c ? `${c.description} · ${c.location} · $${c.pricePerAcre.toLocaleString()}/acre · ${c.date}` : id}
+                            className="rounded-sm border border-rule px-1 py-0.5 text-[9px] uppercase tracking-wider text-muted"
+                          >
+                            {id}
+                          </span>
+                        );
+                      })}
+                    </div>
+                  ) : (
+                    <span className="text-muted">—</span>
+                  )}
+                  {p.fmvRationale && (
+                    <div className="mt-1 text-[10px] leading-snug text-muted">
+                      {p.fmvRationale}
+                    </div>
+                  )}
+                </td>
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </div>
@@ -284,11 +410,16 @@ function PropertiesTable({
 }
 
 function ComparablesTable({ comparables }: { comparables: Comparable[] }) {
+  // Sort by date descending (newest first)
+  const sorted = [...comparables].sort((a, b) =>
+    b.date.localeCompare(a.date),
+  );
   return (
     <div className="mt-4 overflow-x-auto rounded-sm border border-rule bg-surface">
       <table className="w-full border-collapse font-sans text-xs tabular-nums">
         <thead>
           <tr className="border-b border-rule-strong text-left">
+            <Th>ID</Th>
             <Th>Description</Th>
             <Th>Location</Th>
             <Th align="right">Acres</Th>
@@ -298,8 +429,11 @@ function ComparablesTable({ comparables }: { comparables: Comparable[] }) {
           </tr>
         </thead>
         <tbody>
-          {comparables.map((c, i) => (
-            <tr key={`${c.description}-${i}`} className="border-b border-rule">
+          {sorted.map((c) => (
+            <tr key={c.id} className="border-b border-rule">
+              <td className="px-3 py-2 align-top text-[10px] uppercase tracking-wider text-muted">
+                {c.id}
+              </td>
               <td className="px-3 py-2 align-top text-fg">{c.description}</td>
               <td className="px-3 py-2 align-top text-fg-soft">{c.location}</td>
               <td className="px-3 py-2 text-right align-top">
@@ -309,7 +443,7 @@ function ComparablesTable({ comparables }: { comparables: Comparable[] }) {
                 ${fmtInt(c.pricePerAcre)}
               </td>
               <td className="px-3 py-2 text-right align-top text-muted">
-                {formatYear(c.date)}
+                {formatYearMonth(c.date)}
               </td>
               <td className="px-3 py-2 align-top text-muted">
                 {c.url ? (
@@ -359,6 +493,10 @@ function fmtMoney(n: number) {
   return n.toLocaleString("en-US", { maximumFractionDigits: 1 });
 }
 
+function renderPct(n: number): string {
+  return `${n >= 0 ? "+" : ""}${n.toFixed(1)}%`;
+}
+
 function formatYear(iso: string) {
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return iso;
@@ -368,12 +506,11 @@ function formatYear(iso: string) {
   });
 }
 
-function renderFmvDiscount(
-  localPrice: number | null,
-  navPerShareAtFmv: number,
-): string {
-  if (localPrice === null) return "—";
-  const ratio = localPrice / navPerShareAtFmv;
-  const pct = (ratio - 1) * 100;
-  return `${pct >= 0 ? "+" : ""}${pct.toFixed(1)}%`;
+function formatYearMonth(iso: string) {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return iso;
+  return d.toLocaleDateString("en-US", {
+    month: "short",
+    year: "numeric",
+  });
 }

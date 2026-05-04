@@ -7,15 +7,25 @@ const PropertySchema = z.object({
   location: z.string(),
   acres: z.number().positive(),
   cropOrUse: z.string(),
+  // Cluster key for the auto-aggregated FMV-by-category table.
+  category: z.string(),
   acquired: z.string().optional(),
   acquisitionCostMM: z.number().nonnegative().optional(),
   bookValueMM: z.number().nonnegative().optional(),
   appraisedValueMM: z.number().nonnegative().optional(),
   appraisalDate: z.string().optional(),
+  // Estimated fair-market value per acre (in `currency`).
+  fmvPerAcre: z.number().positive(),
+  // One-line justification for the per-acre estimate.
+  fmvRationale: z.string().optional(),
+  // IDs of `comparables` entries cited for this property.
+  comparablesUsed: z.array(z.string()).optional(),
   notes: z.string().optional(),
 });
 
 const ComparableSchema = z.object({
+  // Stable identifier so properties can cite a comp without duplicating it.
+  id: z.string(),
   description: z.string(),
   location: z.string(),
   acres: z.number().nonnegative().optional(),
@@ -25,30 +35,30 @@ const ComparableSchema = z.object({
   url: z.string().url().optional(),
 });
 
-const FMVAssumptionSchema = z.object({
-  category: z.string(),
-  acres: z.number().positive(),
-  assumedPricePerAcre: z.number().positive(),
-  rationale: z.string().optional(),
-});
-
 const PropertyDetailSchema = z.object({
   ticker: z.string(),
   asOf: z.string(),
-  // Currency for any $-denominated fields below; defaults to filing
-  // currency on the comps row when omitted.
   currency: z.string().optional(),
   propertiesNote: z.string().optional(),
   properties: z.array(PropertySchema),
   comparables: z.array(ComparableSchema),
-  fmvAssumptions: z.array(FMVAssumptionSchema),
   methodology: z.string(),
 });
 
 export type Property = z.infer<typeof PropertySchema>;
 export type Comparable = z.infer<typeof ComparableSchema>;
-export type FMVAssumption = z.infer<typeof FMVAssumptionSchema>;
 export type PropertyDetail = z.infer<typeof PropertyDetailSchema>;
+
+export type CategoryAggregate = {
+  category: string;
+  count: number;
+  acres: number;
+  totalBookMM: number;
+  totalFmvMM: number;
+  weightedBookPerAcre: number;
+  weightedFmvPerAcre: number;
+  fmvVsBookPct: number | null;
+};
 
 const DETAILS_DIR = path.join(
   process.cwd(),
@@ -72,20 +82,58 @@ export function getDetailedTickers(): string[] {
     .map((f) => f.replace(/\.json$/, ""));
 }
 
-export function fmvAggregate(d: PropertyDetail): {
-  totalAcres: number;
-  totalFmv: number;
-  weightedPerAcre: number;
-} {
-  let totalAcres = 0;
-  let totalFmv = 0;
-  for (const a of d.fmvAssumptions) {
-    totalAcres += a.acres;
-    totalFmv += a.acres * a.assumedPricePerAcre;
+// $M for a property: fmvPerAcre × acres ÷ 1,000,000.
+export function propertyFmvMM(p: Property): number {
+  return (p.acres * p.fmvPerAcre) / 1_000_000;
+}
+
+export function propertyFmvVsBookPct(p: Property): number | null {
+  if (p.bookValueMM == null || p.bookValueMM <= 0) return null;
+  const fmv = propertyFmvMM(p);
+  return ((fmv - p.bookValueMM) / p.bookValueMM) * 100;
+}
+
+// Aggregate all properties by their `category` field.
+export function aggregateByCategory(d: PropertyDetail): CategoryAggregate[] {
+  const groups = new Map<string, Property[]>();
+  for (const p of d.properties) {
+    if (!groups.has(p.category)) groups.set(p.category, []);
+    groups.get(p.category)!.push(p);
   }
-  return {
-    totalAcres,
-    totalFmv,
-    weightedPerAcre: totalAcres > 0 ? totalFmv / totalAcres : 0,
-  };
+  const aggregates: CategoryAggregate[] = [];
+  for (const [category, props] of groups.entries()) {
+    const acres = props.reduce((s, p) => s + p.acres, 0);
+    const totalBookMM = props.reduce((s, p) => s + (p.bookValueMM ?? 0), 0);
+    const totalFmvMM = props.reduce((s, p) => s + propertyFmvMM(p), 0);
+    aggregates.push({
+      category,
+      count: props.length,
+      acres,
+      totalBookMM,
+      totalFmvMM,
+      weightedBookPerAcre:
+        acres > 0 ? (totalBookMM * 1_000_000) / acres : 0,
+      weightedFmvPerAcre:
+        acres > 0 ? (totalFmvMM * 1_000_000) / acres : 0,
+      fmvVsBookPct:
+        totalBookMM > 0
+          ? ((totalFmvMM - totalBookMM) / totalBookMM) * 100
+          : null,
+    });
+  }
+  // Sort by total FMV descending.
+  aggregates.sort((a, b) => b.totalFmvMM - a.totalFmvMM);
+  return aggregates;
+}
+
+export function totalFmvMM(d: PropertyDetail): number {
+  return d.properties.reduce((s, p) => s + propertyFmvMM(p), 0);
+}
+
+export function totalAcres(d: PropertyDetail): number {
+  return d.properties.reduce((s, p) => s + p.acres, 0);
+}
+
+export function totalBookMM(d: PropertyDetail): number {
+  return d.properties.reduce((s, p) => s + (p.bookValueMM ?? 0), 0);
 }
