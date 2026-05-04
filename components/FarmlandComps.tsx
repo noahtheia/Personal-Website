@@ -221,11 +221,8 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
               <td className="sticky left-0 z-[1] w-20 bg-surface px-3 py-3 text-left align-top font-semibold text-fg">
                 {r.ticker}
               </td>
-              <td className="sticky left-20 z-[1] bg-surface px-3 py-3 text-left align-top">
+              <td className="sticky left-20 z-[1] bg-surface px-3 py-3 text-left align-middle">
                 <div className="text-[12px] text-fg">{r.name}</div>
-                <div className="mt-0.5 text-[9px] uppercase tracking-wider text-muted">
-                  Filing {formatFilingDate(r.filingDate)}
-                </div>
               </td>
               {COLUMNS.map((c, i) => {
                 const val = r[c.key] as number | null;
@@ -334,12 +331,6 @@ function formatValue(val: number, format: Format): string {
   }
 }
 
-function formatFilingDate(iso: string) {
-  return new Date(iso).toLocaleDateString("en-US", {
-    month: "short",
-    year: "numeric",
-  });
-}
 
 type Stats = Record<SortKey, number | null>;
 
