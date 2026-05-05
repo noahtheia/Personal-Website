@@ -2,31 +2,82 @@
   "ticker": "SGRO.JK",
   "asOf": "2024-12-31",
   "currency": "IDR",
-  "propertiesNote": "Single-row. Sampoerna Agro: ~158K hectares Indonesian palm + sago.",
+  "propertiesNote": "3-row breakdown: Sumatra oil palm (235K ac), Kalimantan oil palm (110K ac), Sago specialty (46K ac).",
   "properties": [
     {
-      "name": "Sumatra + Kalimantan palm + sago",
-      "location": "Sumatra + Kalimantan",
-      "acres": 391000,
-      "cropOrUse": "Oil palm + sago palm",
-      "category": "Indonesian palm + sago",
-      "fmvPerAcre": 65000000,
-      "fmvRationale": "Mid-tier Indonesian palm operator with smaller sago specialty",
+      "name": "Sumatra oil palm estates + mills",
+      "location": "Sumatra, Indonesia",
+      "acres": 235000,
+      "cropOrUse": "Mature oil palm + mills",
+      "category": "Indonesian palm \u2014 Sumatra (SGRO)",
+      "fmvPerAcre": 70000000,
+      "fmvRationale": "Sumatra core plantation cluster; mature with mill access",
       "comparablesUsed": [
-        "ID-PALM-MATURE-2024"
+        "ID-PALM-MATURE-2024",
+        "ID-PALM-NSUMATRA-2024"
       ],
-      "bookValueMM": 4500000
+      "bookValueMM": 3500000
+    },
+    {
+      "name": "Kalimantan oil palm estates",
+      "location": "Kalimantan, Indonesia",
+      "acres": 110000,
+      "cropOrUse": "Mature oil palm",
+      "category": "Indonesian palm \u2014 Kalimantan (SGRO)",
+      "fmvPerAcre": 65000000,
+      "fmvRationale": "Kalimantan plantation cluster",
+      "comparablesUsed": [
+        "ID-PALM-KALIMANTAN-2024"
+      ],
+      "bookValueMM": 800000
+    },
+    {
+      "name": "Sago palm operations (specialty)",
+      "location": "Riau / South Sumatra (Selat Panjang area)",
+      "acres": 46000,
+      "cropOrUse": "Sago palm (Indonesia's largest sago producer)",
+      "category": "Indonesian sago specialty (SGRO)",
+      "fmvPerAcre": 35000000,
+      "fmvRationale": "Sago palm specialty crop \u2014 much lower per-acre than oil palm; SGRO is Indonesia's largest sago producer",
+      "comparablesUsed": [
+        "ID-PALM-IMMATURE-2024"
+      ],
+      "bookValueMM": 200000
     }
   ],
   "comparables": [
     {
+      "id": "ID-PALM-MATURE-2024",
       "description": "Indonesian mature oil palm with mill access",
-      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "location": "Indonesia",
       "pricePerAcre": 5000,
       "date": "2024-09-15",
-      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
-      "id": "ID-PALM-MATURE-2024"
+      "source": "GAPKI 2024 reports"
+    },
+    {
+      "id": "ID-PALM-NSUMATRA-2024",
+      "description": "North Sumatra mature palm",
+      "location": "North Sumatra",
+      "pricePerAcre": 5800,
+      "date": "2024-10-15",
+      "source": "Indonesian palm broker comps 2024"
+    },
+    {
+      "id": "ID-PALM-KALIMANTAN-2024",
+      "description": "Kalimantan palm oil concession",
+      "location": "Kalimantan, Indonesia",
+      "pricePerAcre": 4400,
+      "date": "2024-09-30",
+      "source": "Kalimantan palm broker comps 2024"
+    },
+    {
+      "id": "ID-PALM-IMMATURE-2024",
+      "description": "Indonesian sago / specialty palm",
+      "location": "Indonesia",
+      "pricePerAcre": 2500,
+      "date": "2024-10-15",
+      "source": "GAPKI 2024 reports"
     }
   ],
-  "methodology": "PT Sampoerna Agro operates ~158K hectares of Indonesian palm plantations plus a smaller sago palm operation."
+  "methodology": "PT Sampoerna Agro operates ~158K hectares across Indonesia split between oil palm (majority) and sago palm (specialty). 3-row breakdown by region + crop type:\n- Sumatra oil palm core (235K ac)\n- Kalimantan oil palm (110K ac)\n- Sago palm (46K ac) \u2014 SGRO is Indonesia's largest sago producer; Riau/South Sumatra Selat Panjang area\n\nSago marked at ~50% discount to mature palm per-acre to reflect specialty crop economics + smaller resale market. Total ~391K acres."
 }

@@ -2,31 +2,30 @@
   "ticker": "MPE.L",
   "asOf": "2024-12-31",
   "currency": "USD",
-  "propertiesNote": "4-row aggregation by Indonesian province cluster. MP Evans operates 6 mills across 5 provinces; total 70,900 planted hectares.",
+  "propertiesNote": "6-row breakdown by Indonesian province cluster + mature/expansion split. East Kalimantan separated into Bumi Mas mature core vs ABK 2025 new planting.",
   "properties": [
     {
-      "name": "North Sumatra plantations",
+      "name": "North Sumatra plantations + mills (PT Sumber Indah Perkasa)",
       "location": "North Sumatra Province, Indonesia",
       "acres": 49400,
-      "cropOrUse": "Mature oil palm + mill",
+      "cropOrUse": "Mature oil palm + multiple mills",
       "category": "Indonesian palm \u2014 North Sumatra",
       "fmvPerAcre": 5500,
-      "fmvRationale": "North Sumatra is MP Evans' most established cluster with multiple mills; mature plantation with mill access trades at $5-6K USD/acre 2024-25",
+      "fmvRationale": "MP Evans' most established cluster with multiple mills; mature plantation $5-6K USD/acre",
       "comparablesUsed": [
         "ID-PALM-NSUMATRA-2024",
-        "ID-PALM-MATURE-2024",
-        "MPE-DISP-2024"
+        "ID-PALM-MATURE-2024"
       ],
       "bookValueMM": 105
     },
     {
-      "name": "South Sumatra plantations (Musi Rawas)",
-      "location": "South Sumatra Province, Indonesia",
+      "name": "South Sumatra (Musi Rawas + 2024 sixth mill)",
+      "location": "Musi Rawas, South Sumatra Province, Indonesia",
       "acres": 27181,
-      "cropOrUse": "Oil palm + new mill (commissioned 2024)",
+      "cropOrUse": "Oil palm + sixth mill (commissioned 2024)",
       "category": "Indonesian palm \u2014 South Sumatra",
       "fmvPerAcre": 5000,
-      "fmvRationale": "South Sumatra Musi Rawas concession; 6th mill commissioned 2024 supports mill-access premium; ~11K ha planted by start of 2025",
+      "fmvRationale": "Musi Rawas concession with 2024-commissioned sixth mill; ~11K ha planted by start of 2025",
       "comparablesUsed": [
         "ID-PALM-SSUMATRA-2024",
         "ID-PALM-MATURE-2024"
@@ -34,54 +33,81 @@
       "bookValueMM": 50
     },
     {
-      "name": "East Kalimantan plantations (Bumi Mas + ABK)",
-      "location": "East Kalimantan Province, Indonesia",
-      "acres": 49400,
-      "cropOrUse": "Oil palm \u2014 Bumi Mas estate / mill + ABK new planting",
-      "category": "Indonesian palm \u2014 East Kalimantan",
+      "name": "Aceh plantations",
+      "location": "Aceh Province, Indonesia",
+      "acres": 24700,
+      "cropOrUse": "Oil palm",
+      "category": "Indonesian palm \u2014 Aceh",
       "fmvPerAcre": 4500,
-      "fmvRationale": "East Kalimantan plantation cluster with Bumi Mas mill; ABK new planting 2025 expansion. Lower per-acre than Sumatra due to logistics + younger planting mix",
+      "fmvRationale": "Aceh smaller plantation cluster",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 35
+    },
+    {
+      "name": "Bangka-Belitung plantations (offshore Sumatra)",
+      "location": "Bangka-Belitung Province, Indonesia",
+      "acres": 24700,
+      "cropOrUse": "Oil palm (mining-rehabilitation area)",
+      "category": "Indonesian palm \u2014 Bangka-Belitung",
+      "fmvPerAcre": 4500,
+      "fmvRationale": "Bangka-Belitung mining-rehabilitation oil palm \u2014 offshore Sumatra",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 35
+    },
+    {
+      "name": "East Kalimantan \u2014 Bumi Mas estate + mill (mature core)",
+      "location": "East Kalimantan Province, Indonesia",
+      "acres": 32000,
+      "cropOrUse": "Mature oil palm + Bumi Mas mill",
+      "category": "Indonesian palm \u2014 East Kalimantan (mature)",
+      "fmvPerAcre": 4800,
+      "fmvRationale": "Bumi Mas mature estate + mill cluster",
       "comparablesUsed": [
         "ID-PALM-KALIMANTAN-2024",
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 75
+      "bookValueMM": 50
     },
     {
-      "name": "Aceh + Bangka-Belitung plantations",
-      "location": "Aceh + Bangka-Belitung Provinces, Indonesia",
-      "acres": 49519,
-      "cropOrUse": "Oil palm",
-      "category": "Indonesian palm \u2014 Aceh / Bangka-Belitung",
-      "fmvPerAcre": 4500,
-      "fmvRationale": "Smaller Aceh + Bangka-Belitung concessions; aggregated. Bangka-Belitung is offshore Sumatra mining-rehabilitation area",
+      "name": "East Kalimantan \u2014 ABK expansion (2025 new planting)",
+      "location": "East Kalimantan Province (ABK area), Indonesia",
+      "acres": 17400,
+      "cropOrUse": "Oil palm \u2014 new planting 2025 (immature)",
+      "category": "Indonesian palm \u2014 East Kalimantan (ABK new planting)",
+      "fmvPerAcre": 3500,
+      "fmvRationale": "ABK project area \u2014 2025 new planting at immature/development stage discount to mature MPE estates",
       "comparablesUsed": [
-        "ID-PALM-MATURE-2024"
+        "ID-PALM-KALIMANTAN-2024",
+        "ID-PALM-IMMATURE-2024"
       ],
-      "bookValueMM": 70
+      "bookValueMM": 25
     }
   ],
   "comparables": [
     {
       "id": "ID-PALM-MATURE-2024",
-      "description": "Indonesian mature oil palm with mill access \u2014 typical 2024 transaction",
-      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "description": "Indonesian mature oil palm with mill access",
+      "location": "Indonesia",
       "pricePerAcre": 5000,
       "date": "2024-09-15",
       "source": "GAPKI Indonesia palm oil land transaction reports 2024"
     },
     {
       "id": "ID-PALM-NSUMATRA-2024",
-      "description": "North Sumatra mature palm oil estate",
-      "location": "North Sumatra, Indonesia",
+      "description": "North Sumatra mature palm",
+      "location": "North Sumatra",
       "pricePerAcre": 5800,
       "date": "2024-10-15",
-      "source": "Indonesian palm oil broker comps 2024"
+      "source": "Indonesian palm broker comps 2024"
     },
     {
       "id": "ID-PALM-SSUMATRA-2024",
-      "description": "South Sumatra palm oil with new mill access",
-      "location": "South Sumatra, Indonesia",
+      "description": "South Sumatra palm with new mill access",
+      "location": "South Sumatra",
       "pricePerAcre": 4800,
       "date": "2024-11-15",
       "source": "Sumatran plantation broker reports 2024"
@@ -89,19 +115,27 @@
     {
       "id": "ID-PALM-KALIMANTAN-2024",
       "description": "East Kalimantan palm oil concession",
-      "location": "East Kalimantan, Indonesia",
+      "location": "East Kalimantan",
       "pricePerAcre": 4400,
       "date": "2024-09-30",
       "source": "Kalimantan palm broker comps 2024"
     },
     {
+      "id": "ID-PALM-IMMATURE-2024",
+      "description": "Indonesian unplanted/immature palm",
+      "location": "Indonesia (concession-stage)",
+      "pricePerAcre": 2500,
+      "date": "2024-10-15",
+      "source": "GAPKI 2024 reports"
+    },
+    {
       "id": "MPE-DISP-2024",
-      "description": "MP Evans 2024 disposition / acquisition pricing implied from 2024 filings \u2014 USD basis",
+      "description": "MP Evans 2024 disposition / acquisition pricing \u2014 USD basis",
       "location": "MP Evans portfolio",
       "pricePerAcre": 5000,
       "date": "2024-12-31",
       "source": "MP Evans 2024 Final Results presentation"
     }
   ],
-  "methodology": "MP Evans is a UK-listed Indonesian palm oil pure-play with the unusual structure of USD reporting + GBp listing \u2014 making it a dual-currency comp row. The Properties table values are in USD (the reporting currency); the listed GBp price gets converted to USD for market-cap calculations.\n\nThe portfolio of 70,900 planted hectares (~175K acres) is split across 5 Indonesian provinces. The 4-row aggregation reflects MP Evans' geographic clusters: North Sumatra (most mature cluster, multiple mills), South Sumatra (Musi Rawas concession with 2024-commissioned mill), East Kalimantan (Bumi Mas + ABK expansion), and Aceh + Bangka-Belitung (smaller residual).\n\nIndonesian palm oil land valuation depends heavily on:\n- Plantation maturity (immature 0-3 years has minimal harvestable value; 4-25 year mature is peak; replant cycle 25-30 years)\n- Mill access (within 30-40km of a CPO mill commands premium for fresh fruit bunch transport economics)\n- Concession term remaining (HGU rights 30 years renewable, time-to-renewal matters)\n- 2024-25 CPO prices ($800-900/tonne range) supportive of higher land values\n\nThe aggregate ~$5K USD/acre weighted average reflects these factors. Concrete per-region anchors come from GAPKI (Indonesian palm oil association) land transaction reports and broker comps for Sumatra/Kalimantan, all 2024-2025 dated.\n\nLand book of $300M is a rough estimate \u2014 MP Evans' GAAP balance sheet bundles plantation asset (biological asset under IAS 41 fair value) with land. Their reported gross profit jumped 49% in 2024 driven by CPO prices, reflected in plantation asset revaluations. Refining the land-vs-plantation-asset split would tighten the book number."
+  "methodology": "MP Evans expanded from 4-row to 6-row breakdown to separate the East Kalimantan mature core (Bumi Mas estate + mill) from the new ABK expansion project (2025 immature planting). Aceh and Bangka-Belitung now also separated.\n\nCluster breakdown:\n- North Sumatra (49.4K ac): most mature with multiple mills\n- South Sumatra Musi Rawas (27.2K ac): 6th mill commissioned 2024\n- Aceh (24.7K ac): smaller mature cluster\n- Bangka-Belitung (24.7K ac): offshore Sumatra mining-rehabilitation\n- East Kalimantan Bumi Mas mature (32K ac): primary KAL cluster\n- East Kalimantan ABK expansion (17.4K ac): 2025 new planting at immature discount\n\nUSD-reporting + GBp-listing structure unchanged. Total ~175K planted acres = 70.9K hectares per MP Evans FY24 disclosure."
 }

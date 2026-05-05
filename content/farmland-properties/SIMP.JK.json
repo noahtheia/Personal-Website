@@ -2,31 +2,88 @@
   "ticker": "SIMP.JK",
   "asOf": "2024-12-31",
   "currency": "IDR",
-  "propertiesNote": "Single-row aggregation. SIMP is the Indofood Group palm + sugar arm, ~285K hectares.",
+  "propertiesNote": "4-row breakdown by region + crop. Sumatra and Kalimantan core; smaller sugarcane and tea/specialty positions. ~704K acres total (Plantations segment only \u2014 Edible Oil & Fats downstream not in table).",
   "properties": [
     {
-      "name": "Sumatra + Kalimantan palm + sugar",
-      "location": "Sumatra + Kalimantan + South Sulawesi",
-      "acres": 704000,
-      "cropOrUse": "Oil palm + sugar + rubber",
-      "category": "Indonesian palm + sugar",
-      "fmvPerAcre": 70000000,
-      "fmvRationale": "Salim Group palm + sugar operator; ~$4-5K USD/acre \u00d7 IDR FX",
+      "name": "Sumatra oil palm + rubber estates",
+      "location": "Sumatra (multiple provinces), Indonesia",
+      "acres": 425000,
+      "cropOrUse": "Oil palm + rubber + cocoa + coconut",
+      "category": "Indonesian palm \u2014 Sumatra (SIMP)",
+      "fmvPerAcre": 75000000,
+      "fmvRationale": "Sumatra core plantation cluster \u2014 palm + rubber + small cocoa/coconut; mature with mill access",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024",
+        "ID-PALM-NSUMATRA-2024"
+      ],
+      "bookValueMM": 18000000
+    },
+    {
+      "name": "Kalimantan oil palm estates",
+      "location": "Kalimantan, Indonesia",
+      "acres": 220000,
+      "cropOrUse": "Mature oil palm + mills",
+      "category": "Indonesian palm \u2014 Kalimantan (SIMP)",
+      "fmvPerAcre": 65000000,
+      "fmvRationale": "Kalimantan plantation cluster",
+      "comparablesUsed": [
+        "ID-PALM-KALIMANTAN-2024",
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 8500000
+    },
+    {
+      "name": "Sugarcane plantations + processing",
+      "location": "South Sumatra + Sulawesi, Indonesia",
+      "acres": 35000,
+      "cropOrUse": "Sugarcane (mill-supply for SIMP refineries)",
+      "category": "Indonesian sugarcane (SIMP)",
+      "fmvPerAcre": 40000000,
+      "fmvRationale": "Indonesian sugarcane mill-supply ground \u2014 discount to global sugarcane comps due to local market dynamics",
       "comparablesUsed": [
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 30000000
+      "bookValueMM": 1500000
+    },
+    {
+      "name": "Tea + smaller specialty estates",
+      "location": "Java + various, Indonesia",
+      "acres": 24000,
+      "cropOrUse": "Tea + minor specialty crops",
+      "category": "Indonesian specialty (SIMP)",
+      "fmvPerAcre": 60000000,
+      "fmvRationale": "Java tea estates + minor specialty",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 2000000
     }
   ],
   "comparables": [
     {
+      "id": "ID-PALM-MATURE-2024",
       "description": "Indonesian mature oil palm with mill access",
-      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "location": "Indonesia",
       "pricePerAcre": 5000,
       "date": "2024-09-15",
-      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
-      "id": "ID-PALM-MATURE-2024"
+      "source": "GAPKI 2024 reports"
+    },
+    {
+      "id": "ID-PALM-NSUMATRA-2024",
+      "description": "North Sumatra mature palm oil estate",
+      "location": "North Sumatra, Indonesia",
+      "pricePerAcre": 5800,
+      "date": "2024-10-15",
+      "source": "Indonesian palm oil broker comps 2024"
+    },
+    {
+      "id": "ID-PALM-KALIMANTAN-2024",
+      "description": "Kalimantan palm oil concession",
+      "location": "Kalimantan, Indonesia",
+      "pricePerAcre": 4400,
+      "date": "2024-09-30",
+      "source": "Kalimantan palm broker comps 2024"
     }
   ],
-  "methodology": "PT Salim Ivomas Pratama is the Indofood/Salim Group's plantation arm. ~285K hectares across Indonesia (palm + sugar + rubber). Per-acre IDR values reflect $4-5K USD/acre at IDR 16,000/USD."
+  "methodology": "PT Salim Ivomas Pratama is the Indofood/Salim Group's plantation arm. Two reportable segments: Plantations (oil palm + rubber + sugarcane + cocoa + coconut + tea) and Edible Oil & Fats (downstream brands Bimoli, Palmia, Simas).\n\n4-row breakdown of the Plantations segment:\n- Sumatra core (425K ac): largest cluster including palm + rubber + small cocoa/coconut\n- Kalimantan oil palm (220K ac)\n- Sugarcane operations (35K ac) \u2014 South Sumatra + Sulawesi mill-supply\n- Tea + specialty (24K ac) \u2014 Java tea estates + minor specialty\n\nPer-region pricing reflects GAPKI Indonesian palm benchmarks 2024-25; Indonesian sugarcane marked at discount to global cane comps. The downstream Edible Oil & Fats segment is not a land-asset and isn't reflected in the property table.\n\nBookvalue split is a rough proportional allocation of the IDR 30 trillion Net PP&E (which includes both plantations and downstream brand assets). A cleaner valuation would separately mark the brand portfolio (Bimoli, Palmia) at consumer-brand multiples vs the plantation FMV here."
 }

@@ -2,61 +2,85 @@
   "ticker": "2089.KL",
   "asOf": "2025-12-31",
   "currency": "MYR",
-  "propertiesNote": "2-row aggregation. UP is a 120-year-old plantation operator famous for being conservatively financed and best-in-class operationally.",
+  "propertiesNote": "4-row breakdown. Peninsular Malaysia oil palm + coconut + Indonesia + specialty refineries (Unitata, Unifuji). Total 50,854 planted hectares + downstream.",
   "properties": [
     {
-      "name": "Peninsular Malaysia palm + coconut + refineries",
-      "location": "Peninsular Malaysia",
-      "acres": 100000,
-      "cropOrUse": "Mature oil palm + coconut + 2 refineries",
-      "category": "Peninsular palm + downstream",
+      "name": "Peninsular Malaysia oil palm + 4 mills",
+      "location": "Peninsular Malaysia (Perak)",
+      "acres": 92000,
+      "cropOrUse": "Mature oil palm + 4 mills",
+      "category": "Peninsular palm (UP core)",
       "fmvPerAcre": 32000,
-      "fmvRationale": "UP's flagship cluster \u2014 premium per-acre due to mature plantings + Unitata/Unifuji refineries",
+      "fmvRationale": "UP's flagship Peninsular Malaysia palm estates with 4 mills; 120-year-old operator famous for operational excellence",
       "comparablesUsed": [
         "MY-PALM-PEN-2024",
         "MY-PALM-2025"
       ],
-      "bookValueMM": 3500
+      "bookValueMM": 3000
     },
     {
-      "name": "Indonesia plantation",
+      "name": "Peninsular Malaysia coconut estates",
+      "location": "Peninsular Malaysia",
+      "acres": 11400,
+      "cropOrUse": "Coconut (4,627 ha = 11,400 ac)",
+      "category": "Peninsular coconut",
+      "fmvPerAcre": 28000,
+      "fmvRationale": "Coconut acreage at slight discount to oil palm",
+      "comparablesUsed": [
+        "MY-PALM-PEN-2024"
+      ],
+      "bookValueMM": 320
+    },
+    {
+      "name": "Indonesia oil palm + 1 mill",
       "location": "Indonesia",
-      "acres": 26000,
-      "cropOrUse": "Mature oil palm + 1 mill",
-      "category": "Indonesian palm",
+      "acres": 22600,
+      "cropOrUse": "Oil palm + single mill",
+      "category": "Indonesian palm (UP)",
       "fmvPerAcre": 26000,
       "fmvRationale": "Indonesian estate with single mill",
       "comparablesUsed": [
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 1000
+      "bookValueMM": 800
+    },
+    {
+      "name": "Specialty refineries (Unitata + Unifuji) \u2014 downstream",
+      "location": "Peninsular Malaysia",
+      "acres": 1,
+      "cropOrUse": "Refining of value-added palm fractions for specialty fats + chocolate industry",
+      "category": "Downstream refining (not farmland)",
+      "fmvPerAcre": 380,
+      "fmvRationale": "Two specialty refineries \u2014 Unitata (specialty fats) + Unifuji (chocolate-fat blends). Per-acre column meaningless; placeholder for downstream Net PP&E",
+      "comparablesUsed": [],
+      "bookValueMM": 380
     }
   ],
   "comparables": [
     {
-      "description": "Malaysian palm plantation H1 2025 transactions",
-      "location": "Malaysia palm estates",
-      "pricePerAcre": 5400,
-      "date": "2025-04-01",
-      "source": "MPOB + Bursa Malaysia plantation transaction reports H1 2025",
-      "id": "MY-PALM-2025"
-    },
-    {
+      "id": "MY-PALM-PEN-2024",
       "description": "Peninsular Malaysia palm plantation",
       "location": "Peninsular Malaysia",
       "pricePerAcre": 6000,
       "date": "2024-09-15",
-      "source": "Malaysian Palm Oil Board land valuation reports 2024",
-      "id": "MY-PALM-PEN-2024"
+      "source": "MPOB land valuation reports 2024"
     },
     {
+      "id": "MY-PALM-2025",
+      "description": "Malaysian palm plantation H1 2025 transactions",
+      "location": "Malaysia palm estates",
+      "pricePerAcre": 5400,
+      "date": "2025-04-01",
+      "source": "MPOB + Bursa Malaysia 2025"
+    },
+    {
+      "id": "ID-PALM-MATURE-2024",
       "description": "Indonesian mature oil palm with mill access",
-      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "location": "Indonesia",
       "pricePerAcre": 5000,
       "date": "2024-09-15",
-      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
-      "id": "ID-PALM-MATURE-2024"
+      "source": "GAPKI 2024 reports"
     }
   ],
-  "methodology": "United Plantations is a 120-year-old Malaysian plantation operator with 50,854 hectares (46,227 oil palm + 4,627 coconut) plus 4 mills in Malaysia + 1 in Indonesia + 2 specialty refineries (Unitata, Unifuji). FY25 record net profit MYR 830M.\n\nUP famously runs net cash with conservative financial discipline. Per-acre FMV at the high end of Malaysian palm comp range due to operational excellence + downstream value."
+  "methodology": "United Plantations is a 120-year-old Malaysian plantation operator regarded as best-in-class by industry. Total: 50,854 hectares planted (46,227 oil palm + 4,627 coconut) with 4 Malaysian mills + 1 Indonesian mill + 2 specialty refineries (Unitata, Unifuji).\n\n4-row breakdown:\n- Peninsular Malaysia oil palm (92K ac): UP's flagship Perak-based estates\n- Peninsular coconut (11.4K ac): unique acreage (rare among palm operators)\n- Indonesia oil palm (22.6K ac): single-mill estate\n- Specialty refineries placeholder: Unitata + Unifuji downstream value (per-acre column not meaningful)\n\nUP runs net cash with conservative financial discipline. Per-acre FMVs at the high end of Malaysian palm range due to operational excellence + downstream specialty value (Unitata/Unifuji serve premium specialty fats and chocolate fat markets at higher margins than commodity CPO refining)."
 }

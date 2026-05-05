@@ -2,40 +2,95 @@
   "ticker": "P8Z.SI",
   "asOf": "2024-12-31",
   "currency": "IDR",
-  "propertiesNote": "Single-row. Bumitama: ~200K hectares Kalimantan palm. IDR reporting / SGD listing \u2014 dual-currency comp.",
+  "propertiesNote": "4-row breakdown. 187,021 ha planted: Central Kalimantan 56%, West Kalimantan 43%, Riau 1%, plus plasma partnerships. 17 mills operating. IDR reporting / SGD listing.",
   "properties": [
     {
-      "name": "Central + West Kalimantan palm",
-      "location": "Kalimantan, Indonesia",
-      "acres": 494000,
-      "cropOrUse": "Mature oil palm + mills",
-      "category": "Indonesian palm \u2014 Bumitama",
+      "name": "Central Kalimantan estates (Pundu Nabatindo, Katari Agro, Gunung Makmur, Bukit Makmur, Sungai Cempaga, Selucing, Kotawaringin, Lamandau mills)",
+      "location": "Central Kalimantan, Indonesia",
+      "acres": 258000,
+      "cropOrUse": "Mature oil palm + 9+ mills",
+      "category": "Indonesian palm \u2014 Central Kalimantan (Bumitama)",
       "fmvPerAcre": 80000000,
-      "fmvRationale": "Bumitama Kalimantan operations; mature with mill access",
+      "fmvRationale": "56% of Bumitama planted area; multiple mills at premium per-acre due to mill density",
       "comparablesUsed": [
         "ID-PALM-KALIMANTAN-2024",
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 14000000
+      "bookValueMM": 8000000
+    },
+    {
+      "name": "West Kalimantan estates (Tonam Raya + others)",
+      "location": "West Kalimantan, Indonesia",
+      "acres": 198000,
+      "cropOrUse": "Mature oil palm + mills",
+      "category": "Indonesian palm \u2014 West Kalimantan (Bumitama)",
+      "fmvPerAcre": 75000000,
+      "fmvRationale": "43% of planted area; West Kalimantan cluster",
+      "comparablesUsed": [
+        "ID-PALM-KALIMANTAN-2024"
+      ],
+      "bookValueMM": 5500000
+    },
+    {
+      "name": "Riau (small position)",
+      "location": "Riau, Sumatra, Indonesia",
+      "acres": 4900,
+      "cropOrUse": "Oil palm",
+      "category": "Indonesian palm \u2014 Riau (Bumitama)",
+      "fmvPerAcre": 80000000,
+      "fmvRationale": "1% of planted area; small Riau Sumatra position",
+      "comparablesUsed": [
+        "ID-PALM-NSUMATRA-2024"
+      ],
+      "bookValueMM": 200000
+    },
+    {
+      "name": "Plasma + smallholder partnerships",
+      "location": "Kalimantan + Sumatra, Indonesia",
+      "acres": 33100,
+      "cropOrUse": "Oil palm (plasma scheme partnerships)",
+      "category": "Plasma partnerships",
+      "fmvPerAcre": 40000000,
+      "fmvRationale": "Plasma smallholder partnership area; Bumitama owns mill processing rights but not land in fee",
+      "comparablesUsed": [
+        "ID-PALM-IMMATURE-2024"
+      ],
+      "bookValueMM": 300000
     }
   ],
   "comparables": [
     {
-      "description": "East Kalimantan palm oil concession",
-      "location": "East Kalimantan, Indonesia",
+      "id": "ID-PALM-KALIMANTAN-2024",
+      "description": "Kalimantan palm oil concession",
+      "location": "Kalimantan, Indonesia",
       "pricePerAcre": 4400,
       "date": "2024-09-30",
-      "source": "Kalimantan palm broker comps 2024",
-      "id": "ID-PALM-KALIMANTAN-2024"
+      "source": "Kalimantan palm broker comps 2024"
     },
     {
+      "id": "ID-PALM-MATURE-2024",
       "description": "Indonesian mature oil palm with mill access",
-      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "location": "Indonesia",
       "pricePerAcre": 5000,
       "date": "2024-09-15",
-      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
-      "id": "ID-PALM-MATURE-2024"
+      "source": "GAPKI 2024 reports"
+    },
+    {
+      "id": "ID-PALM-NSUMATRA-2024",
+      "description": "North Sumatra mature palm oil estate",
+      "location": "North Sumatra, Indonesia",
+      "pricePerAcre": 5800,
+      "date": "2024-10-15",
+      "source": "Indonesian palm broker comps 2024"
+    },
+    {
+      "id": "ID-PALM-IMMATURE-2024",
+      "description": "Indonesian smallholder/immature palm",
+      "location": "Indonesia",
+      "pricePerAcre": 2500,
+      "date": "2024-10-15",
+      "source": "GAPKI 2024 reports"
     }
   ],
-  "methodology": "PT Bumitama Agri operates ~200K hectares of palm in Kalimantan. Reports in IDR (Indonesian operating currency) but lists on SGX in SGD \u2014 both currencies handled by the dual-currency conversion layer."
+  "methodology": "Bumitama Agri (SGX-listed, IDR-reporting; dual-currency in this comp set) operates 187,021 hectares planted across Indonesia per FY24 disclosure. Geographic split disclosed in annual report:\n- Central Kalimantan: 56% (10+ named mills including Pundu Nabatindo, Katari Agro, Gunung Makmur, Bukit Makmur, Sungai Cempaga, Selucing, Kotawaringin, Lamandau)\n- West Kalimantan: 43% (multiple mills including Tonam Raya)\n- Riau: 1% (smallest position)\n\n4-row breakdown reflects this geography plus a separate plasma partnership row (mill processing rights without land ownership). Total 17 palm oil mills with 1,165 tonnes/hour capacity = ~7M MT FFB annual throughput.\n\nThe plasma partnership row is marked at lower per-acre to reflect that Bumitama doesn't own the underlying land \u2014 these are smallholder partnership areas where Bumitama provides technical support + mill processing.\n\nWeighted average plantation age 13.8 years (per FY24 disclosure) \u2014 mature with future replant cycle approaching."
 }
