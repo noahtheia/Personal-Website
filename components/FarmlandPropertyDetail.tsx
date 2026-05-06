@@ -124,6 +124,8 @@ export function FarmlandPropertyDetail({
             }
           />
         </div>
+
+        <NoiCrossCheck filing={filing} fmvMM={fmvMM} fmvLowMM={fmvLowMM} fmvHighMM={fmvHighMM} ccy={ccy} />
       </section>
 
       <section>
@@ -162,6 +164,115 @@ export function FarmlandPropertyDetail({
           {detail.methodology}
         </p>
       </section>
+    </div>
+  );
+}
+
+// NOI cross-check: implied cap rate at the comp-based FMV. The card flags
+// whether the implied cap rate falls within asset-class typical ranges.
+// Class-typical cap rate ranges (mid-2025 industry consensus):
+//   • US permanent specialty / California permanent: 3.0–4.5%
+//   • US tier-1 row crop:                            3.5–4.5%
+//   • US dryland / lower-tier:                       4.0–6.0%
+//   • Brazilian Cerrado:                              5.0–7.0%
+//   • Indonesian / Malaysian palm oil:                7.0–10%
+//   • Australian pastoral:                            5.0–8.0%
+//   • Saudi irrigated agriculture:                    6.0–9.0%
+function NoiCrossCheck({
+  filing,
+  fmvMM,
+  fmvLowMM,
+  fmvHighMM,
+  ccy,
+}: {
+  filing: FarmlandFiling;
+  fmvMM: number;
+  fmvLowMM: number;
+  fmvHighMM: number;
+  ccy: string;
+}) {
+  const noiMM = filing.annualNoiMM;
+  if (noiMM <= 0 || fmvMM <= 0) return null;
+
+  const capAtFmv = (noiMM / fmvMM) * 100;
+  const capAtFmvLow = (noiMM / fmvHighMM) * 100; // higher FMV → lower cap rate
+  const capAtFmvHigh = (noiMM / fmvLowMM) * 100;
+
+  // Pick a class-typical cap rate range based on filing.primaryCrops keywords.
+  const crops = filing.primaryCrops.toLowerCase();
+  let typicalLow = 4.0;
+  let typicalHigh = 6.0;
+  let typicalLabel = "Mixed agriculture";
+  if (crops.includes("permanent") || crops.includes("specialty") || crops.includes("avocado") || crops.includes("citrus") || crops.includes("almond") || crops.includes("lemon")) {
+    typicalLow = 3.0; typicalHigh = 4.5; typicalLabel = "US permanent specialty";
+  } else if (crops.includes("row")) {
+    typicalLow = 3.5; typicalHigh = 4.5; typicalLabel = "US row-crop";
+  } else if (crops.includes("palm")) {
+    typicalLow = 7.0; typicalHigh = 10.0; typicalLabel = "Tropical palm oil";
+  } else if (crops.includes("cattle") || crops.includes("pastoral")) {
+    typicalLow = 5.0; typicalHigh = 8.0; typicalLabel = "Pastoral / cattle";
+  } else if (crops.includes("sugar") || crops.includes("cane")) {
+    typicalLow = 5.0; typicalHigh = 7.0; typicalLabel = "Sugar / Cerrado";
+  } else if (crops.includes("dairy")) {
+    typicalLow = 6.0; typicalHigh = 9.0; typicalLabel = "Dairy + supporting farms";
+  } else if (crops.includes("tea") || crops.includes("nuts") || crops.includes("macadamia")) {
+    typicalLow = 4.0; typicalHigh = 6.0; typicalLabel = "Tea / specialty nuts";
+  }
+
+  const inRange = capAtFmv >= typicalLow && capAtFmv <= typicalHigh;
+  const verdict = inRange
+    ? "Within typical range — comp-based FMV reasonable on yield basis"
+    : capAtFmv < typicalLow
+    ? "Below typical — comp-based FMV may be aggressive vs yield benchmark"
+    : "Above typical — comp-based FMV may be conservative vs yield benchmark";
+
+  return (
+    <div className="mt-4 rounded-sm border border-rule bg-bg p-5">
+      <div className="flex flex-wrap items-baseline justify-between gap-3 border-b border-rule pb-3">
+        <div className="text-[10px] uppercase tracking-wider text-muted">
+          NOI cross-check (yield-based reasonableness)
+        </div>
+        <div className="text-[10px] uppercase tracking-wider text-muted">
+          {typicalLabel}: typical {typicalLow.toFixed(1)}–{typicalHigh.toFixed(1)}%
+        </div>
+      </div>
+      <div className="mt-3 grid grid-cols-1 gap-4 sm:grid-cols-3">
+        <div>
+          <div className="text-[10px] uppercase tracking-wider text-muted">
+            Reported NOI
+          </div>
+          <div className="mt-1 font-display text-xl font-semibold tabular-nums">
+            {ccy} {noiMM.toLocaleString("en-US", { maximumFractionDigits: 1 })}M
+          </div>
+        </div>
+        <div>
+          <div className="text-[10px] uppercase tracking-wider text-muted">
+            Cap rate at comp-based FMV
+          </div>
+          <div
+            className={`mt-1 font-display text-xl font-semibold tabular-nums ${
+              inRange
+                ? ""
+                : capAtFmv < typicalLow
+                ? "text-[var(--negative)]"
+                : "text-[var(--positive)]"
+            }`}
+          >
+            {capAtFmv.toFixed(2)}%
+          </div>
+          <div className="mt-1 text-[11px] text-muted">
+            Range {capAtFmvLow.toFixed(2)}–{capAtFmvHigh.toFixed(2)}%
+          </div>
+        </div>
+        <div>
+          <div className="text-[10px] uppercase tracking-wider text-muted">
+            Verdict
+          </div>
+          <div className="mt-1 text-sm leading-relaxed text-fg-soft">
+            {verdict}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
