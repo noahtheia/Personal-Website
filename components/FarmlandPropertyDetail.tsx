@@ -429,12 +429,14 @@ function CategoryTable({
             <tr key={a.category} className="border-b border-rule">
               <td className="px-3 py-2 align-top text-fg">{a.category}</td>
               <td className="px-3 py-2 text-right">{a.count}</td>
-              <td className="px-3 py-2 text-right">{fmtInt(a.acres)}</td>
               <td className="px-3 py-2 text-right">
-                {fmtInt(a.weightedBookPerAcre)}
+                {a.acres > 0 ? fmtInt(a.acres) : "—"}
               </td>
               <td className="px-3 py-2 text-right">
-                {fmtInt(a.weightedFmvPerAcre)}
+                {a.acres > 0 ? fmtInt(a.weightedBookPerAcre) : "—"}
+              </td>
+              <td className="px-3 py-2 text-right">
+                {a.acres > 0 ? fmtInt(a.weightedFmvPerAcre) : "—"}
               </td>
               <td className="px-3 py-2 text-right">{fmtInt(a.totalBookMM)}</td>
               <td className="px-3 py-2 text-right">{fmtInt(a.totalFmvMM)}</td>

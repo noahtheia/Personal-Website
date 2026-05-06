@@ -2,7 +2,7 @@
   "ticker": "AAC.AX",
   "asOf": "2025-03-31",
   "currency": "AUD",
-  "propertiesNote": "14-row breakdown. 11 named cattle stations (top 7 NT/QLD + 4 additional QLD: Wondoola, Dalgonally, South Galway, Goonoo); remaining smaller stations + Aronui feedlot aggregated.",
+  "propertiesNote": "18-row breakdown. Top 7 named cattle stations + 4 newly named QLD stations (Wylarah, Glentana, Carrum, Aronui feedlot) + named NT/QLD additions. Smaller stations remain aggregated.",
   "properties": [
     {
       "name": "Brunette Downs",
@@ -243,6 +243,92 @@
       "fmvPerAcreHigh": 250.0,
       "capRateLow": 5.0,
       "capRateHigh": 7.5
+    },
+    {
+      "name": "Wylarah",
+      "location": "Surat, Queensland",
+      "acres": 86000,
+      "cropOrUse": "Cattle backgrounding (Wagyu seedstock)",
+      "category": "QLD pastoral \u2014 diversified",
+      "fmvPerAcre": 280,
+      "fmvPerAcreLow": 210,
+      "fmvPerAcreHigh": 350,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0,
+      "fmvRationale": "Wylarah Surat-region wagyu backgrounding station",
+      "comparablesUsed": [
+        "AU-PASTORAL-QLD-2024"
+      ],
+      "bookValueMM": 9
+    },
+    {
+      "name": "Glentana",
+      "location": "Mungindi, Queensland",
+      "acres": 102000,
+      "cropOrUse": "Cattle finishing + cropping support",
+      "category": "QLD pastoral \u2014 diversified",
+      "fmvPerAcre": 280,
+      "fmvPerAcreLow": 210,
+      "fmvPerAcreHigh": 350,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0,
+      "fmvRationale": "Glentana NSW/QLD border finishing + cropping mix",
+      "comparablesUsed": [
+        "AU-PASTORAL-QLD-2024"
+      ],
+      "bookValueMM": 11
+    },
+    {
+      "name": "Carrum",
+      "location": "Cloncurry, Queensland",
+      "acres": 200000,
+      "cropOrUse": "Cattle backgrounding",
+      "category": "QLD pastoral \u2014 diversified",
+      "fmvPerAcre": 250,
+      "fmvPerAcreLow": 190,
+      "fmvPerAcreHigh": 320,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0,
+      "fmvRationale": "Carrum Cloncurry-region adjacent to Dalgonally/Canobie",
+      "comparablesUsed": [
+        "AU-PASTORAL-QLD-2024"
+      ],
+      "bookValueMM": 22
+    },
+    {
+      "name": "Aronui Feedlot",
+      "location": "Goondiwindi, Queensland",
+      "acres": 5000,
+      "cropOrUse": "Feedlot (50,000 head capacity) + supporting farms",
+      "category": "QLD finishing / feedlot",
+      "fmvPerAcre": 1500,
+      "fmvPerAcreLow": 1100,
+      "fmvPerAcreHigh": 2000,
+      "capRateLow": 6.0,
+      "capRateHigh": 8.5,
+      "fmvRationale": "Aronui feedlot infrastructure premium per-acre",
+      "comparablesUsed": [
+        "AU-PASTORAL-QLD-2024",
+        "AU-CROP-2024"
+      ],
+      "bookValueMM": 7
+    },
+    {
+      "name": "Other smaller QLD stations",
+      "location": "Queensland (multiple)",
+      "acres": 330233,
+      "cropOrUse": "Cattle pastoral",
+      "category": "QLD pastoral \u2014 diversified",
+      "fmvPerAcre": 240,
+      "fmvPerAcreLow": 180,
+      "fmvPerAcreHigh": 310,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0,
+      "fmvRationale": "Aggregated remaining smaller QLD pastoral holdings",
+      "comparablesUsed": [
+        "AU-PASTORAL-QLD-2024"
+      ],
+      "bookValueMM": 31
     }
   ],
   "comparables": [

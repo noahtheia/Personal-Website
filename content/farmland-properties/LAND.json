@@ -1284,13 +1284,15 @@
       "fmvPerAcreLow": 5000,
       "fmvPerAcreHigh": 12000,
       "excludeFromAcreTotals": true,
-      "fmvRationale": "California water rights traded at $5,000-$15,000+ per acre-foot in 2024-25 transactions depending on district seniority + source (groundwater, surface water, Friant Class-1 vs Class-2, etc.). Mid-point $7,500/AF reflects weighted average across LAND's mix of districts. The acres column reflects ACRE-FEET, not acres \u2014 flagged via excludeFromAcreTotals=true so the row contributes to FMV but not to acre denominators on per-acre columns",
+      "fmvRationale": "California water rights traded at $5,000-$15,000+ per acre-foot in 2024-25 transactions depending on district seniority + source (groundwater, surface water, Friant Class-1 vs Class-2, etc.). Mid-point $7,500/AF reflects weighted average across LAND's mix of districts. The acres column reflects ACRE-FEET, not acres \u2014 flagged via excludeFromAcreTotals=true so the row contributes to FMV but not to acre denominators on per-acre columns. Cap rate range 3.5-5.5% reflects implied yield (annual lease rate $300-500/AF / value $5-15K/AF) for premium adjudicated CA water",
       "comparablesUsed": [
         "CA-WATER-FRIANT-2024",
         "CA-WATER-RECENT-2025",
         "CA-GROUNDWATER-2024"
       ],
-      "notes": "Acre-feet of permanent water rights, not farmland acres. LAND's 55,532 AF disclosed in 10-K Item 2."
+      "notes": "Acre-feet of permanent water rights, not farmland acres. LAND's 55,532 AF disclosed in 10-K Item 2.",
+      "capRateLow": 3.5,
+      "capRateHigh": 5.5
     }
   ],
   "comparables": [

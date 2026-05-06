@@ -213,7 +213,9 @@
         "CA-WATER-FRIANT-2024",
         "CA-GROUNDWATER-2024"
       ],
-      "notes": "Acre-feet of permanent adjudicated water rights, not farmland acres. Plus additional ~2,600 AF un-adjudicated Fillmore Basin (not separately valued; less liquid)"
+      "notes": "Acre-feet of permanent adjudicated water rights, not farmland acres. Plus additional ~2,600 AF un-adjudicated Fillmore Basin (not separately valued; less liquid)",
+      "capRateLow": 3.5,
+      "capRateHigh": 5.5
     },
     {
       "name": "Arizona water assets \u2014 YMIDD Class-3 Colorado River (11,500 acre-feet)",
@@ -229,7 +231,9 @@
       "comparablesUsed": [
         "AZ-COLORADO-WATER-2024"
       ],
-      "notes": "Acre-feet of Class-3 Colorado River allocation, not farmland acres"
+      "notes": "Acre-feet of Class-3 Colorado River allocation, not farmland acres",
+      "capRateLow": 4.0,
+      "capRateHigh": 7.0
     }
   ],
   "comparables": [

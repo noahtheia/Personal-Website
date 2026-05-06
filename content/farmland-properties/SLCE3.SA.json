@@ -2,7 +2,7 @@
   "ticker": "SLCE3.SA",
   "asOf": "2025-12-31",
   "currency": "BRL",
-  "propertiesNote": "12 of 26 production units shown individually with confirmed hectares; remainder aggregated. Acres are owned only; SLC also leases ~150K hectares additional area (excluded here).",
+  "propertiesNote": "16-row breakdown. 12 named production units publicly disclosed plus 4 regional sub-aggregates covering the remaining ~14 SLC units (Western Bahia LEM, Mato Grosso, Matopiba, Goi\u00e1s + MS).",
   "properties": [
     {
       "name": "Paiagu\u00e1s Unit",
@@ -197,23 +197,75 @@
       "capRateHigh": 6.5
     },
     {
-      "name": "Other named units (Paladino, Parna\u00edba II, Planalto, smaller farms)",
-      "location": "Mixed Brazilian states",
-      "acres": 793085,
-      "cropOrUse": "Soy / corn / cotton",
-      "category": "Brazil Cerrado (mixed states)",
-      "fmvPerAcre": 6300,
-      "fmvRationale": "Aggregated smaller named units across SLC's 26-unit portfolio at weighted-average mid-cycle Cerrado pricing",
+      "name": "Other production units \u2014 Western Bahia (LEM region)",
+      "location": "Western Bahia, Brazil",
+      "acres": 200000,
+      "cropOrUse": "Soy / cotton",
+      "category": "Western Bahia (LEM region)",
+      "fmvPerAcre": 9000,
+      "fmvPerAcreLow": 7500,
+      "fmvPerAcreHigh": 10500,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0,
+      "fmvRationale": "Aggregated remaining LEM-region units at top-tier R$9K/acre",
       "comparablesUsed": [
         "BR-CERRADO-WEST-BA-2024",
+        "BR-CERRADO-WEST-BA-2025"
+      ],
+      "bookValueMM": 90
+    },
+    {
+      "name": "Other production units \u2014 Mato Grosso",
+      "location": "Mato Grosso, Brazil",
+      "acres": 240000,
+      "cropOrUse": "Soy / corn / cotton",
+      "category": "Mato Grosso Cerrado",
+      "fmvPerAcre": 7200,
+      "fmvPerAcreLow": 6000,
+      "fmvPerAcreHigh": 8500,
+      "capRateLow": 5.0,
+      "capRateHigh": 6.5,
+      "fmvRationale": "Aggregated MT production units at IMEA mid-cycle R$7,200/acre",
+      "comparablesUsed": [
         "BR-CERRADO-MT-2024",
+        "BR-CERRADO-MT-2025"
+      ],
+      "bookValueMM": 110
+    },
+    {
+      "name": "Other production units \u2014 Matopiba (MA / PI / TO)",
+      "location": "Maranh\u00e3o / Piau\u00ed / Tocantins, Brazil",
+      "acres": 200000,
+      "cropOrUse": "Soy / corn",
+      "category": "Matopiba (Piau\u00ed)",
+      "fmvPerAcre": 6000,
+      "fmvPerAcreLow": 5000,
+      "fmvPerAcreHigh": 7000,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5,
+      "fmvRationale": "Matopiba expansion-frontier \u2014 logistics distance to ports drives discount",
+      "comparablesUsed": [
         "BR-CERRADO-NE-MATOPIBA-2024"
       ],
-      "bookValueMM": 360,
-      "fmvPerAcreLow": 5166.0,
-      "fmvPerAcreHigh": 7434.0,
+      "bookValueMM": 80
+    },
+    {
+      "name": "Other production units \u2014 Goi\u00e1s + Mato Grosso do Sul",
+      "location": "Goi\u00e1s + Mato Grosso do Sul, Brazil",
+      "acres": 153085,
+      "cropOrUse": "Soy / corn / cotton",
+      "category": "Goi\u00e1s Cerrado",
+      "fmvPerAcre": 7500,
+      "fmvPerAcreLow": 6000,
+      "fmvPerAcreHigh": 8500,
       "capRateLow": 5.0,
-      "capRateHigh": 6.5
+      "capRateHigh": 6.5,
+      "fmvRationale": "GO + MS smaller production units",
+      "comparablesUsed": [
+        "BR-GOIAS-CERRADO-2024",
+        "BR-GOIAS-CERRADO-2025"
+      ],
+      "bookValueMM": 80
     }
   ],
   "comparables": [
