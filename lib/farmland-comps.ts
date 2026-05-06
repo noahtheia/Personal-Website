@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
+import { getWeightedFmvPerAcreForTicker } from "./farmland-properties";
 
 const CurrencySchema = z.enum([
   "USD",
@@ -131,8 +132,15 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
       const evPerAcreLocal =
         evLocal !== null ? (evLocal / f.acresK) * 1000 : null;
       const bookPerAcreLocal = (f.bookLandMM / f.acresK) * 1000;
+      // Market / Acre prefers the weighted FMV/acre underwritten in the
+      // detail page when available (so the comps table reflects the actual
+      // bottoms-up analysis). Falls back to a static marketLandMM where the
+      // detail page hasn't been compiled.
+      const detailFmvPerAcreLocal = getWeightedFmvPerAcreForTicker(f.ticker);
       const marketPerAcreLocal =
-        f.marketLandMM !== undefined
+        detailFmvPerAcreLocal !== null
+          ? detailFmvPerAcreLocal
+          : f.marketLandMM !== undefined
           ? (f.marketLandMM / f.acresK) * 1000
           : null;
 

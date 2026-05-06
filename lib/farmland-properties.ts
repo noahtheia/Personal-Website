@@ -137,3 +137,23 @@ export function totalAcres(d: PropertyDetail): number {
 export function totalBookMM(d: PropertyDetail): number {
   return d.properties.reduce((s, p) => s + (p.bookValueMM ?? 0), 0);
 }
+
+// Weighted-average FMV per acre across all properties in a detail file,
+// expressed in the detail's filing currency. Used by the comps table to
+// surface the underwritten FMV/acre instead of a static marketLandMM.
+export function weightedFmvPerAcre(d: PropertyDetail): number {
+  const acres = totalAcres(d);
+  if (acres <= 0) return 0;
+  return (totalFmvMM(d) * 1_000_000) / acres;
+}
+
+// Quick lookup wrapper: read a ticker's detail file and return its
+// weighted FMV/acre, or null if no detail exists.
+export function getWeightedFmvPerAcreForTicker(
+  ticker: string,
+): number | null {
+  const d = getPropertyDetail(ticker);
+  if (!d) return null;
+  const w = weightedFmvPerAcre(d);
+  return w > 0 ? w : null;
+}
