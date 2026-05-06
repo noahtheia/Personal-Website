@@ -1,0 +1,67 @@
+{
+  "ticker": "LAND3.SA",
+  "asOf": "2025-12-31",
+  "currency": "BRL",
+  "propertiesNote": "2-row breakdown by Mato Grosso sub-cluster. LAND3 is a pure-play Brazilian farmland REIT created from the 2021 spinoff of Terra Santa Agro. All 7 owned farms are in Mato Grosso and are leased on a 25-year contract to SLC Agrícola, who operates them. Sub-cluster split allocates the 39,189 ha total based on the 7-farm distribution: 2 farms in Campo Novo do Parecis (premium MT Class-A) and 5 farms across Diamantino, Nova Maringá, Nova Mutum, Santa Rita do Trivelato, and Tabaporã (mid-tier MT).",
+  "properties": [
+    {
+      "name": "Campo Novo do Parecis cluster (2 farms)",
+      "location": "Campo Novo do Parecis, Mato Grosso, Brazil",
+      "acres": 32000,
+      "cropOrUse": "Soy / cotton (operated by SLC Agrícola under 25-year lease)",
+      "category": "Mato Grosso Cerrado — premium",
+      "fmvPerAcre": 8500,
+      "fmvPerAcreLow": 7000,
+      "fmvPerAcreHigh": 10500,
+      "capRateLow": 5.0,
+      "capRateHigh": 6.5,
+      "fmvRationale": "Campo Novo do Parecis is a top-tier MT Cerrado region for cotton-soy rotation; IMEA 2024-25 surveys consistently price Class-A Sapezal/Parecis ground at R$8-10K/acre. SLC's 25-year lease provides stable income but the FMV reflects the underlying real estate value",
+      "comparablesUsed": ["BR-CERRADO-MT-2024", "BR-CERRADO-MT-2025"],
+      "acquired": "2010-01-01",
+      "bookValueMM": 250
+    },
+    {
+      "name": "Other Mato Grosso farms (5 farms — Diamantino / Nova Maringá / Nova Mutum / Santa Rita do Trivelato / Tabaporã)",
+      "location": "Mato Grosso (multiple municipalities), Brazil",
+      "acres": 64840,
+      "cropOrUse": "Soy / cotton (operated by SLC Agrícola under 25-year lease)",
+      "category": "Mato Grosso Cerrado",
+      "fmvPerAcre": 7000,
+      "fmvPerAcreLow": 5500,
+      "fmvPerAcreHigh": 8500,
+      "capRateLow": 5.0,
+      "capRateHigh": 6.5,
+      "fmvRationale": "Mid-tier MT Cerrado ground across 5 municipalities; mix of Diamantino region (premium) and northern MT (Nova Maringá / Nova Mutum / Tabaporã, mid-tier). Weighted-average per-acre R$7K reflects the geographic mix",
+      "comparablesUsed": ["BR-CERRADO-MT-2024", "BR-CERRADO-MT-2025"],
+      "acquired": "2010-01-01",
+      "bookValueMM": 450
+    }
+  ],
+  "comparables": [
+    {
+      "id": "BR-CERRADO-MT-2024",
+      "description": "Mato Grosso Class-A cotton-soy ground",
+      "location": "Mato Grosso, Brazil",
+      "pricePerAcre": 7200,
+      "date": "2024-09-15",
+      "source": "IMEA Mato Grosso land surveys 2024"
+    },
+    {
+      "id": "BR-CERRADO-MT-2025",
+      "description": "Mato Grosso 2025 cropland transactions",
+      "location": "Mato Grosso, Brazil",
+      "pricePerAcre": 7800,
+      "date": "2025-04-01",
+      "source": "IMEA + MT broker reports 2025"
+    },
+    {
+      "id": "LAND3-LEASE-SLC",
+      "description": "LAND3's 25-year lease to SLC Agrícola: ~R$96.57M annual revenue / 39,189 ha = R$2,464/ha = R$998/acre annualized lease income — implies ~12-14% gross yield on land FMV before opex, but reflects long-dated lease contract economics rather than typical farmland cap rate",
+      "location": "Mato Grosso (LAND3 portfolio)",
+      "pricePerAcre": 998,
+      "date": "2025-12-31",
+      "source": "LAND3 reported lease income TTM"
+    }
+  ],
+  "methodology": "LAND3 (Terra Santa Propriedades Agrícolas) is the only pure-play Brazilian farmland REIT in the comp set — it was spun off from Terra Santa Agro in 2021 with the explicit objective of being a B3-listed exclusively-rural-real-estate vehicle. All 7 owned farms (39,189 ha = 96,840 acres useful area) are in Mato Grosso and are leased to SLC Agrícola on a 25-year contract. SLC operates the farms and pays LAND3 lease income.\n\nThis structure means LAND3's revenue (~R$96.57M TTM) is essentially lease income rather than crop sales. EBITDA margin should be high (real estate REIT structure with low opex, modest D&A on land). Net debt is modest at R$57M (~6% of book equity), making LAND3 lightly leveraged.\n\nThe 2-row breakdown sub-tiers the MT acreage by quality:\n- Campo Novo do Parecis cluster (2 farms, ~32K acres): premium MT Class-A cotton-soy ground at R$8.5K/acre\n- Other 5 farms in northern MT (~65K acres): mid-tier R$7K/acre weighted across Diamantino, Nova Maringá, Nova Mutum, Santa Rita do Trivelato, Tabaporã\n\nFMV anchors are IMEA Mato Grosso 2024-25 land surveys consistent with the rest of the SLC / BrasilAgro Brazilian Cerrado pricing.\n\nNote: LAND3 also leases additional area to SLC beyond owned base (the SLC-managed portfolio includes ~117K ha managed in MT against LAND3's 39K ha owned). The owned base is what's reflected on LAND3's balance sheet and in this analysis.\n\nLAND3 is the landlord side of the SLC operating model — interesting comp pair within the universe. Where SLC's economics depend on commodity prices and operational efficiency, LAND3's economics depend on lease contract structure + underlying MT Cerrado land appreciation."
+}
