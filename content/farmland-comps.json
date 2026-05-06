@@ -117,7 +117,7 @@
   },
   {
     "ticker": "LAND3.SA",
-    "name": "Terra Santa Propriedades Agrícolas",
+    "name": "Terra Santa Propriedades Agr\u00edcolas",
     "currency": "BRL",
     "primaryCrops": "Brazilian farmland REIT (Mato Grosso, leased to SLC)",
     "filingDate": "2026-03-15",
@@ -132,7 +132,8 @@
     "annualRevenueMM": 96.57,
     "annualEbitdaMM": 70,
     "epsTTM": 0.05,
-    "bookLandMM": 700
+    "bookLandMM": 700,
+    "marketLandMM": 2796
   },
   {
     "ticker": "ALCO",
