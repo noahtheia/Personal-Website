@@ -201,10 +201,34 @@ function NoiCrossCheck({
   const capAtFmvHigh = (noiMM / fmvLowMM) * 100;
 
   // Per-issuer cap-rate override takes precedence over keyword detection.
+  // FMV-weighted property-level cap rates take precedence over both.
   let typicalLow: number;
   let typicalHigh: number;
   let typicalLabel: string;
-  if (
+
+  // First, check for property-level cap rate ranges (most granular).
+  const propsWithCapRate = detail.properties.filter(
+    (p) => p.capRateLow !== undefined && p.capRateHigh !== undefined,
+  );
+  const propsWithCapRateFmv = propsWithCapRate.reduce(
+    (s, p) => s + propertyFmvMM(p),
+    0,
+  );
+
+  if (propsWithCapRateFmv > 0 && propsWithCapRateFmv >= fmvMM * 0.5) {
+    // ≥50% of FMV is covered by property-level cap rates. Use weighted average.
+    typicalLow =
+      propsWithCapRate.reduce(
+        (s, p) => s + (p.capRateLow ?? 0) * propertyFmvMM(p),
+        0,
+      ) / propsWithCapRateFmv;
+    typicalHigh =
+      propsWithCapRate.reduce(
+        (s, p) => s + (p.capRateHigh ?? 0) * propertyFmvMM(p),
+        0,
+      ) / propsWithCapRateFmv;
+    typicalLabel = `FMV-weighted from property mix (${propsWithCapRate.length} of ${detail.properties.length} properties)`;
+  } else if (
     detail.noiCheckCapRateLow !== undefined &&
     detail.noiCheckCapRateHigh !== undefined
   ) {

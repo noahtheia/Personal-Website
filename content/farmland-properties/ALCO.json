@@ -20,7 +20,9 @@
       ],
       "acquired": "1960-01-01",
       "bookValueMM": 17.6,
-      "notes": "Citrus 6,980 ac \u00b7 Land mgmt 46 ac \u00b7 Mining 0 ac"
+      "notes": "Citrus 6,980 ac \u00b7 Land mgmt 46 ac \u00b7 Mining 0 ac",
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Polk County",
@@ -38,7 +40,9 @@
       ],
       "acquired": "1960-01-01",
       "bookValueMM": 19.0,
-      "notes": "Citrus 5,211 ac \u00b7 Land mgmt 1,693 ac \u00b7 Mining 0 ac"
+      "notes": "Citrus 5,211 ac \u00b7 Land mgmt 1,693 ac \u00b7 Mining 0 ac",
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Collier County",
@@ -55,7 +59,9 @@
       ],
       "acquired": "1960-01-01",
       "bookValueMM": 30.6,
-      "notes": "Citrus 5,575 ac \u00b7 Land mgmt 4,757 ac \u00b7 Mining 0 ac"
+      "notes": "Citrus 5,575 ac \u00b7 Land mgmt 4,757 ac \u00b7 Mining 0 ac",
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "DeSoto County",
@@ -73,7 +79,9 @@
       ],
       "acquired": "1960-01-01",
       "bookValueMM": 52.7,
-      "notes": "Citrus 18,772 ac \u00b7 Land mgmt 1,592 ac \u00b7 Mining 50 ac"
+      "notes": "Citrus 18,772 ac \u00b7 Land mgmt 1,592 ac \u00b7 Mining 50 ac",
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Glades County",
@@ -89,7 +97,9 @@
       ],
       "acquired": "1960-01-01",
       "bookValueMM": 2.1,
-      "notes": "Citrus 0 ac \u00b7 Land mgmt 0 ac \u00b7 Mining 526 ac"
+      "notes": "Citrus 0 ac \u00b7 Land mgmt 0 ac \u00b7 Mining 526 ac",
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
     },
     {
       "name": "Charlotte County",
@@ -106,7 +116,9 @@
       ],
       "acquired": "1960-01-01",
       "bookValueMM": 6.4,
-      "notes": "Citrus 2,449 ac \u00b7 Land mgmt 0 ac \u00b7 Mining 81 ac"
+      "notes": "Citrus 2,449 ac \u00b7 Land mgmt 0 ac \u00b7 Mining 81 ac",
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Hardee County",
@@ -122,7 +134,9 @@
       ],
       "acquired": "1960-01-01",
       "bookValueMM": 1.9,
-      "notes": "Citrus 180 ac \u00b7 Land mgmt 402 ac \u00b7 Mining 0 ac"
+      "notes": "Citrus 180 ac \u00b7 Land mgmt 402 ac \u00b7 Mining 0 ac",
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
     },
     {
       "name": "Highlands County",
@@ -138,7 +152,9 @@
       ],
       "acquired": "1960-01-01",
       "bookValueMM": 4.2,
-      "notes": "Citrus 130 ac \u00b7 Land mgmt 1,093 ac \u00b7 Mining 0 ac"
+      "notes": "Citrus 130 ac \u00b7 Land mgmt 1,093 ac \u00b7 Mining 0 ac",
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
     }
   ],
   "comparables": [

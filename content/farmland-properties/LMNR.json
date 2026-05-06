@@ -19,7 +19,9 @@
         "USDA-CA-CROP-2025"
       ],
       "bookValueMM": 0.767,
-      "acquired": "1907-01-01"
+      "acquired": "1907-01-01",
+      "capRateLow": 3.5,
+      "capRateHigh": 5.0
     },
     {
       "name": "La Campana Ranch",
@@ -36,7 +38,9 @@
         "USDA-CA-CROP-2025"
       ],
       "bookValueMM": 0.758,
-      "acquired": "1964-01-01"
+      "acquired": "1964-01-01",
+      "capRateLow": 3.5,
+      "capRateHigh": 5.0
     },
     {
       "name": "Orchard Farm Ranch",
@@ -53,7 +57,9 @@
         "USDA-CA-CROP-2025"
       ],
       "bookValueMM": 3.24,
-      "acquired": "1990-01-01"
+      "acquired": "1990-01-01",
+      "capRateLow": 3.5,
+      "capRateHigh": 5.0
     },
     {
       "name": "Rancho La Cuesta Ranch",
@@ -70,7 +76,9 @@
         "USDA-CA-CROP-2025"
       ],
       "bookValueMM": 2.899,
-      "acquired": "1994-01-01"
+      "acquired": "1994-01-01",
+      "capRateLow": 3.5,
+      "capRateHigh": 5.0
     },
     {
       "name": "Limco Del Mar",
@@ -85,7 +93,9 @@
         "ASFMRA-CA-AVOCADO-2025"
       ],
       "bookValueMM": 16.027,
-      "acquired": "2025-01-01"
+      "acquired": "2025-01-01",
+      "capRateLow": 3.0,
+      "capRateHigh": 4.0
     },
     {
       "name": "Windfall Farms",
@@ -100,7 +110,9 @@
         "USDA-CA-CROP-2025"
       ],
       "bookValueMM": 16.162,
-      "acquired": "2009-01-01"
+      "acquired": "2009-01-01",
+      "capRateLow": 3.5,
+      "capRateHigh": 5.0
     },
     {
       "name": "Associated Citrus Packers",
@@ -116,7 +128,9 @@
         "USDA-AZ-CROP-2025"
       ],
       "bookValueMM": 14.5,
-      "acquired": "2013-01-01"
+      "acquired": "2013-01-01",
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
     },
     {
       "name": "Pan de Azucar",
@@ -131,7 +145,9 @@
       ],
       "bookValueMM": 2.295,
       "acquired": "2017-01-01",
-      "notes": "Held for sale at Oct 31 2025; sold Nov 7 2025"
+      "notes": "Held for sale at Oct 31 2025; sold Nov 7 2025",
+      "capRateLow": 5.0,
+      "capRateHigh": 8.0
     },
     {
       "name": "San Pablo",
@@ -146,7 +162,9 @@
       ],
       "bookValueMM": 5.593,
       "acquired": "2018-01-01",
-      "notes": "Held for sale at Oct 31 2025; sold Nov 7 2025"
+      "notes": "Held for sale at Oct 31 2025; sold Nov 7 2025",
+      "capRateLow": 5.0,
+      "capRateHigh": 8.0
     },
     {
       "name": "Santa Clara",
@@ -160,7 +178,9 @@
         "ARG-JUJUY-LEMON-2024"
       ],
       "bookValueMM": 8.6,
-      "acquired": "2019-01-01"
+      "acquired": "2019-01-01",
+      "capRateLow": 6.0,
+      "capRateHigh": 10.0
     },
     {
       "name": "Other land",
@@ -173,7 +193,9 @@
       "comparablesUsed": [
         "USDA-CA-CROP-2025"
       ],
-      "bookValueMM": 0.816
+      "bookValueMM": 0.816,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.5
     },
     {
       "name": "California water assets \u2014 Santa Paula Basin (8,500 acre-feet adjudicated)",

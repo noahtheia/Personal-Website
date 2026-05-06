@@ -26,6 +26,13 @@ const PropertySchema = z.object({
   // etc.), set true so the row contributes to FMV but not to acre
   // totals on the detail page.
   excludeFromAcreTotals: z.boolean().optional(),
+  // Optional per-property cap rate range (typical at-FMV yield benchmark
+  // for this asset class / sub-tier). When set, the NOI cross-check
+  // FMV-weighted-averages these across the portfolio rather than using
+  // keyword detection or an issuer-level override. Use it for sub-tier
+  // refinement (e.g. CA pistachio at 3.0-4.0% vs CA citrus at 4.0-5.5%).
+  capRateLow: z.number().positive().optional(),
+  capRateHigh: z.number().positive().optional(),
   // One-line justification for the per-acre estimate.
   fmvRationale: z.string().optional(),
   // IDs of `comparables` entries cited for this property.

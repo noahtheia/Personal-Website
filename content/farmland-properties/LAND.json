@@ -8,37 +8,42 @@
       "name": "Kern County, California",
       "location": "California",
       "acres": 3470,
-      "cropOrUse": "Almonds / pistachios / citrus",
-      "category": "CA San Joaquin permanent crops (almonds / pistachios / citrus)",
-      "fmvPerAcre": 28000,
-      "fmvRationale": "Mix-weighted average of almond ($24K), pistachio ($32K), citrus ($22K) ASFMRA 2025 trends \u2014 LAND portfolio in southern San Joaquin skews toward higher-value mature pistachio",
+      "cropOrUse": "Pistachios (premium) + almonds",
+      "category": "CA Kern pistachio premium",
+      "fmvPerAcre": 32000,
+      "fmvRationale": "Kern County pistachio premium ground; ASFMRA Cal Chapter 2025 prices mature pistachio at $30-38K/acre with cap rates 3.0-4.0%",
       "comparablesUsed": [
-        "ASFMRA-CA-ALMOND-2025",
         "ASFMRA-CA-PISTACHIO-2025",
-        "ASFMRA-CA-CITRUS-2025",
+        "ASFMRA-CA-ALMOND-2025",
         "USDA-CA-CROP-2025"
       ],
       "acquired": "2021-12-03",
       "acquisitionCostMM": 88.1,
-      "bookValueMM": 77.3
+      "bookValueMM": 77.3,
+      "fmvPerAcreLow": 28000,
+      "fmvPerAcreHigh": 38000,
+      "capRateLow": 3.0,
+      "capRateHigh": 4.0
     },
     {
       "name": "Fresno County, California",
       "location": "California",
       "acres": 2675,
-      "cropOrUse": "Almonds / pistachios / citrus",
-      "category": "CA San Joaquin permanent crops (almonds / pistachios / citrus)",
-      "fmvPerAcre": 28000,
-      "fmvRationale": "Mix-weighted average of almond ($24K), pistachio ($32K), citrus ($22K) ASFMRA 2025 trends \u2014 LAND portfolio in southern San Joaquin skews toward higher-value mature pistachio",
+      "cropOrUse": "Almonds (dominant) + pistachios",
+      "category": "CA Fresno almond",
+      "fmvPerAcre": 24000,
+      "fmvRationale": "Fresno County almond-dominant ground; ASFMRA 2025 mature almond benchmark $22-28K/acre with cap rates 3.5-4.5%",
       "comparablesUsed": [
         "ASFMRA-CA-ALMOND-2025",
-        "ASFMRA-CA-PISTACHIO-2025",
-        "ASFMRA-CA-CITRUS-2025",
         "USDA-CA-CROP-2025"
       ],
       "acquired": "2019-08-16",
       "acquisitionCostMM": 71.1,
-      "bookValueMM": 59.6
+      "bookValueMM": 59.6,
+      "fmvPerAcreLow": 21000,
+      "fmvPerAcreHigh": 28000,
+      "capRateLow": 3.5,
+      "capRateHigh": 4.5
     },
     {
       "name": "Miscellaneous Investments",
@@ -55,7 +60,9 @@
       ],
       "acquired": "2025-12-31",
       "acquisitionCostMM": 63.4,
-      "bookValueMM": 54.8
+      "bookValueMM": 54.8,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
     },
     {
       "name": "Martin County, Florida",
@@ -72,43 +79,50 @@
       ],
       "acquired": "2019-07-22",
       "acquisitionCostMM": 55.7,
-      "bookValueMM": 52.4
+      "bookValueMM": 52.4,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Tulare County, California",
       "location": "California",
       "acres": 2175,
-      "cropOrUse": "Almonds / pistachios / citrus",
-      "category": "CA San Joaquin permanent crops (almonds / pistachios / citrus)",
-      "fmvPerAcre": 28000,
-      "fmvRationale": "Mix-weighted average of almond ($24K), pistachio ($32K), citrus ($22K) ASFMRA 2025 trends \u2014 LAND portfolio in southern San Joaquin skews toward higher-value mature pistachio",
+      "cropOrUse": "Citrus + specialty permanent",
+      "category": "CA Tulare citrus / specialty",
+      "fmvPerAcre": 22000,
+      "fmvRationale": "Tulare County citrus heritage; cap rates wider (4.0-5.5%) reflecting yield variability + greening-style risks on aging orchards",
       "comparablesUsed": [
-        "ASFMRA-CA-ALMOND-2025",
-        "ASFMRA-CA-PISTACHIO-2025",
         "ASFMRA-CA-CITRUS-2025",
         "USDA-CA-CROP-2025"
       ],
       "acquired": "2020-12-17",
       "acquisitionCostMM": 61.6,
-      "bookValueMM": 48.5
+      "bookValueMM": 48.5,
+      "fmvPerAcreLow": 19000,
+      "fmvPerAcreHigh": 26000,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
     },
     {
       "name": "Kern County, California",
       "location": "California",
       "acres": 1789,
-      "cropOrUse": "Almonds / pistachios / citrus",
-      "category": "CA San Joaquin permanent crops (almonds / pistachios / citrus)",
-      "fmvPerAcre": 28000,
-      "fmvRationale": "Mix-weighted average of almond ($24K), pistachio ($32K), citrus ($22K) ASFMRA 2025 trends \u2014 LAND portfolio in southern San Joaquin skews toward higher-value mature pistachio",
+      "cropOrUse": "Pistachios (premium) + almonds",
+      "category": "CA Kern pistachio premium",
+      "fmvPerAcre": 32000,
+      "fmvRationale": "Kern County pistachio premium ground; ASFMRA Cal Chapter 2025 prices mature pistachio at $30-38K/acre with cap rates 3.0-4.0%",
       "comparablesUsed": [
-        "ASFMRA-CA-ALMOND-2025",
         "ASFMRA-CA-PISTACHIO-2025",
-        "ASFMRA-CA-CITRUS-2025",
+        "ASFMRA-CA-ALMOND-2025",
         "USDA-CA-CROP-2025"
       ],
       "acquired": "2021-06-04",
       "acquisitionCostMM": 51.9,
-      "bookValueMM": 39.9
+      "bookValueMM": 39.9,
+      "fmvPerAcreLow": 28000,
+      "fmvPerAcreHigh": 38000,
+      "capRateLow": 3.0,
+      "capRateHigh": 4.0
     },
     {
       "name": "Napa County, California",
@@ -124,7 +138,9 @@
       ],
       "acquired": "2019-08-29",
       "acquisitionCostMM": 37.5,
-      "bookValueMM": 35.3
+      "bookValueMM": 35.3,
+      "capRateLow": 3.5,
+      "capRateHigh": 5.0
     },
     {
       "name": "Tehama County, California",
@@ -140,7 +156,9 @@
       ],
       "acquired": "2021-04-05",
       "acquisitionCostMM": 37.0,
-      "bookValueMM": 33.6
+      "bookValueMM": 33.6,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
     },
     {
       "name": "Yuma County, Arizona",
@@ -156,43 +174,49 @@
       ],
       "acquired": "2017-06-01",
       "acquisitionCostMM": 41.5,
-      "bookValueMM": 30.2
+      "bookValueMM": 30.2,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
     },
     {
       "name": "Fresno County, California",
       "location": "California",
       "acres": 1278,
-      "cropOrUse": "Almonds / pistachios / citrus",
-      "category": "CA San Joaquin permanent crops (almonds / pistachios / citrus)",
-      "fmvPerAcre": 28000,
-      "fmvRationale": "Mix-weighted average of almond ($24K), pistachio ($32K), citrus ($22K) ASFMRA 2025 trends \u2014 LAND portfolio in southern San Joaquin skews toward higher-value mature pistachio",
+      "cropOrUse": "Almonds (dominant) + pistachios",
+      "category": "CA Fresno almond",
+      "fmvPerAcre": 24000,
+      "fmvRationale": "Fresno County almond-dominant ground; ASFMRA 2025 mature almond benchmark $22-28K/acre with cap rates 3.5-4.5%",
       "comparablesUsed": [
         "ASFMRA-CA-ALMOND-2025",
-        "ASFMRA-CA-PISTACHIO-2025",
-        "ASFMRA-CA-CITRUS-2025",
         "USDA-CA-CROP-2025"
       ],
       "acquired": "2020-09-03",
       "acquisitionCostMM": 32.8,
-      "bookValueMM": 28.5
+      "bookValueMM": 28.5,
+      "fmvPerAcreLow": 21000,
+      "fmvPerAcreHigh": 28000,
+      "capRateLow": 3.5,
+      "capRateHigh": 4.5
     },
     {
       "name": "Fresno County, California",
       "location": "California",
       "acres": 1250,
-      "cropOrUse": "Almonds / pistachios / citrus",
-      "category": "CA San Joaquin permanent crops (almonds / pistachios / citrus)",
-      "fmvPerAcre": 28000,
-      "fmvRationale": "Mix-weighted average of almond ($24K), pistachio ($32K), citrus ($22K) ASFMRA 2025 trends \u2014 LAND portfolio in southern San Joaquin skews toward higher-value mature pistachio",
+      "cropOrUse": "Almonds (dominant) + pistachios",
+      "category": "CA Fresno almond",
+      "fmvPerAcre": 24000,
+      "fmvRationale": "Fresno County almond-dominant ground; ASFMRA 2025 mature almond benchmark $22-28K/acre with cap rates 3.5-4.5%",
       "comparablesUsed": [
         "ASFMRA-CA-ALMOND-2025",
-        "ASFMRA-CA-PISTACHIO-2025",
-        "ASFMRA-CA-CITRUS-2025",
         "USDA-CA-CROP-2025"
       ],
       "acquired": "2020-10-01",
       "acquisitionCostMM": 33.5,
-      "bookValueMM": 27.9
+      "bookValueMM": 27.9,
+      "fmvPerAcreLow": 21000,
+      "fmvPerAcreHigh": 28000,
+      "capRateLow": 3.5,
+      "capRateHigh": 4.5
     },
     {
       "name": "Ventura County, California",
@@ -209,7 +233,9 @@
       ],
       "acquired": "2014-10-29",
       "acquisitionCostMM": 26.8,
-      "bookValueMM": 25.4
+      "bookValueMM": 25.4,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Whatcom County, Washington",
@@ -225,43 +251,50 @@
       ],
       "acquired": "2020-12-24",
       "acquisitionCostMM": 32.0,
-      "bookValueMM": 25.1
+      "bookValueMM": 25.1,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
     },
     {
       "name": "Kern County, California",
       "location": "California",
       "acres": 1073,
-      "cropOrUse": "Almonds / pistachios / citrus",
-      "category": "CA San Joaquin permanent crops (almonds / pistachios / citrus)",
-      "fmvPerAcre": 28000,
-      "fmvRationale": "Mix-weighted average of almond ($24K), pistachio ($32K), citrus ($22K) ASFMRA 2025 trends \u2014 LAND portfolio in southern San Joaquin skews toward higher-value mature pistachio",
+      "cropOrUse": "Pistachios (premium) + almonds",
+      "category": "CA Kern pistachio premium",
+      "fmvPerAcre": 32000,
+      "fmvRationale": "Kern County pistachio premium ground; ASFMRA Cal Chapter 2025 prices mature pistachio at $30-38K/acre with cap rates 3.0-4.0%",
       "comparablesUsed": [
-        "ASFMRA-CA-ALMOND-2025",
         "ASFMRA-CA-PISTACHIO-2025",
-        "ASFMRA-CA-CITRUS-2025",
+        "ASFMRA-CA-ALMOND-2025",
         "USDA-CA-CROP-2025"
       ],
       "acquired": "2015-09-03",
       "acquisitionCostMM": 28.1,
-      "bookValueMM": 23.9
+      "bookValueMM": 23.9,
+      "fmvPerAcreLow": 28000,
+      "fmvPerAcreHigh": 38000,
+      "capRateLow": 3.0,
+      "capRateHigh": 4.0
     },
     {
       "name": "Madera County, California",
       "location": "California",
       "acres": 1063,
-      "cropOrUse": "Almonds / pistachios / citrus",
-      "category": "CA San Joaquin permanent crops (almonds / pistachios / citrus)",
+      "cropOrUse": "Pistachios + almonds mix",
+      "category": "CA Madera permanent (pistachio/almond)",
       "fmvPerAcre": 28000,
-      "fmvRationale": "Mix-weighted average of almond ($24K), pistachio ($32K), citrus ($22K) ASFMRA 2025 trends \u2014 LAND portfolio in southern San Joaquin skews toward higher-value mature pistachio",
+      "fmvRationale": "Madera County pistachio / almond mix ground; mid-tier within SJV permanent",
       "comparablesUsed": [
-        "ASFMRA-CA-ALMOND-2025",
         "ASFMRA-CA-PISTACHIO-2025",
-        "ASFMRA-CA-CITRUS-2025",
-        "USDA-CA-CROP-2025"
+        "ASFMRA-CA-ALMOND-2025"
       ],
       "acquired": "2019-04-09",
       "acquisitionCostMM": 30.3,
-      "bookValueMM": 23.7
+      "bookValueMM": 23.7,
+      "fmvPerAcreLow": 24000,
+      "fmvPerAcreHigh": 34000,
+      "capRateLow": 3.5,
+      "capRateHigh": 4.5
     },
     {
       "name": "San Joaquin County, California",
@@ -278,25 +311,30 @@
       ],
       "acquired": "2020-12-24",
       "acquisitionCostMM": 33.4,
-      "bookValueMM": 23.2
+      "bookValueMM": 23.2,
+      "capRateLow": 3.5,
+      "capRateHigh": 4.5
     },
     {
       "name": "Kern County, California",
       "location": "California",
       "acres": 1033,
-      "cropOrUse": "Almonds / pistachios / citrus",
-      "category": "CA San Joaquin permanent crops (almonds / pistachios / citrus)",
-      "fmvPerAcre": 28000,
-      "fmvRationale": "Mix-weighted average of almond ($24K), pistachio ($32K), citrus ($22K) ASFMRA 2025 trends \u2014 LAND portfolio in southern San Joaquin skews toward higher-value mature pistachio",
+      "cropOrUse": "Pistachios (premium) + almonds",
+      "category": "CA Kern pistachio premium",
+      "fmvPerAcre": 32000,
+      "fmvRationale": "Kern County pistachio premium ground; ASFMRA Cal Chapter 2025 prices mature pistachio at $30-38K/acre with cap rates 3.0-4.0%",
       "comparablesUsed": [
-        "ASFMRA-CA-ALMOND-2025",
         "ASFMRA-CA-PISTACHIO-2025",
-        "ASFMRA-CA-CITRUS-2025",
+        "ASFMRA-CA-ALMOND-2025",
         "USDA-CA-CROP-2025"
       ],
       "acquired": "2021-08-11",
       "acquisitionCostMM": 30.1,
-      "bookValueMM": 23.0
+      "bookValueMM": 23.0,
+      "fmvPerAcreLow": 28000,
+      "fmvPerAcreHigh": 38000,
+      "capRateLow": 3.0,
+      "capRateHigh": 4.0
     },
     {
       "name": "Ventura County, California",
@@ -313,7 +351,9 @@
       ],
       "acquired": "2019-08-28",
       "acquisitionCostMM": 23.0,
-      "bookValueMM": 22.3
+      "bookValueMM": 22.3,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Glenn, California",
@@ -329,7 +369,9 @@
       ],
       "acquired": "2022-06-16",
       "acquisitionCostMM": 24.1,
-      "bookValueMM": 21.5
+      "bookValueMM": 21.5,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
     },
     {
       "name": "Ventura County, California",
@@ -346,7 +388,9 @@
       ],
       "acquired": "2020-12-15",
       "acquisitionCostMM": 20.6,
-      "bookValueMM": 20.0
+      "bookValueMM": 20.0,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Franklin & Grant, Washington",
@@ -362,7 +406,9 @@
       ],
       "acquired": "2022-07-21",
       "acquisitionCostMM": 27.5,
-      "bookValueMM": 19.9
+      "bookValueMM": 19.9,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Saguache County, Colorado",
@@ -378,25 +424,29 @@
       ],
       "acquired": "2016-03-03",
       "acquisitionCostMM": 26.6,
-      "bookValueMM": 19.5
+      "bookValueMM": 19.5,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.5
     },
     {
       "name": "Madera, California",
       "location": "California",
       "acres": 874,
-      "cropOrUse": "Almonds / pistachios / citrus",
-      "category": "CA San Joaquin permanent crops (almonds / pistachios / citrus)",
+      "cropOrUse": "Pistachios + almonds mix",
+      "category": "CA Madera permanent (pistachio/almond)",
       "fmvPerAcre": 28000,
-      "fmvRationale": "Mix-weighted average of almond ($24K), pistachio ($32K), citrus ($22K) ASFMRA 2025 trends \u2014 LAND portfolio in southern San Joaquin skews toward higher-value mature pistachio",
+      "fmvRationale": "Madera County pistachio / almond mix ground; mid-tier within SJV permanent",
       "comparablesUsed": [
-        "ASFMRA-CA-ALMOND-2025",
         "ASFMRA-CA-PISTACHIO-2025",
-        "ASFMRA-CA-CITRUS-2025",
-        "USDA-CA-CROP-2025"
+        "ASFMRA-CA-ALMOND-2025"
       ],
       "acquired": "2018-11-01",
       "acquisitionCostMM": 21.3,
-      "bookValueMM": 19.5
+      "bookValueMM": 19.5,
+      "fmvPerAcreLow": 24000,
+      "fmvPerAcreHigh": 34000,
+      "capRateLow": 3.5,
+      "capRateHigh": 4.5
     },
     {
       "name": "Monterey County, California",
@@ -413,25 +463,29 @@
       ],
       "acquired": "2015-01-05",
       "acquisitionCostMM": 17.8,
-      "bookValueMM": 16.6
+      "bookValueMM": 16.6,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Fresno County, California",
       "location": "California",
       "acres": 684,
-      "cropOrUse": "Almonds / pistachios / citrus",
-      "category": "CA San Joaquin permanent crops (almonds / pistachios / citrus)",
-      "fmvPerAcre": 28000,
-      "fmvRationale": "Mix-weighted average of almond ($24K), pistachio ($32K), citrus ($22K) ASFMRA 2025 trends \u2014 LAND portfolio in southern San Joaquin skews toward higher-value mature pistachio",
+      "cropOrUse": "Almonds (dominant) + pistachios",
+      "category": "CA Fresno almond",
+      "fmvPerAcre": 24000,
+      "fmvRationale": "Fresno County almond-dominant ground; ASFMRA 2025 mature almond benchmark $22-28K/acre with cap rates 3.5-4.5%",
       "comparablesUsed": [
         "ASFMRA-CA-ALMOND-2025",
-        "ASFMRA-CA-PISTACHIO-2025",
-        "ASFMRA-CA-CITRUS-2025",
         "USDA-CA-CROP-2025"
       ],
       "acquired": "2017-07-17",
       "acquisitionCostMM": 18.3,
-      "bookValueMM": 15.3
+      "bookValueMM": 15.3,
+      "fmvPerAcreLow": 21000,
+      "fmvPerAcreHigh": 28000,
+      "capRateLow": 3.5,
+      "capRateHigh": 4.5
     },
     {
       "name": "Stanislaus County, Colorado",
@@ -447,43 +501,50 @@
       ],
       "acquired": "2016-09-14",
       "acquisitionCostMM": 14.7,
-      "bookValueMM": 14.3
+      "bookValueMM": 14.3,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Kern County, California",
       "location": "California",
       "acres": 624,
-      "cropOrUse": "Almonds / pistachios / citrus",
-      "category": "CA San Joaquin permanent crops (almonds / pistachios / citrus)",
-      "fmvPerAcre": 28000,
-      "fmvRationale": "Mix-weighted average of almond ($24K), pistachio ($32K), citrus ($22K) ASFMRA 2025 trends \u2014 LAND portfolio in southern San Joaquin skews toward higher-value mature pistachio",
+      "cropOrUse": "Pistachios (premium) + almonds",
+      "category": "CA Kern pistachio premium",
+      "fmvPerAcre": 32000,
+      "fmvRationale": "Kern County pistachio premium ground; ASFMRA Cal Chapter 2025 prices mature pistachio at $30-38K/acre with cap rates 3.0-4.0%",
       "comparablesUsed": [
-        "ASFMRA-CA-ALMOND-2025",
         "ASFMRA-CA-PISTACHIO-2025",
-        "ASFMRA-CA-CITRUS-2025",
+        "ASFMRA-CA-ALMOND-2025",
         "USDA-CA-CROP-2025"
       ],
       "acquired": "2020-06-24",
       "acquisitionCostMM": 14.5,
-      "bookValueMM": 13.9
+      "bookValueMM": 13.9,
+      "fmvPerAcreLow": 28000,
+      "fmvPerAcreHigh": 38000,
+      "capRateLow": 3.0,
+      "capRateHigh": 4.0
     },
     {
       "name": "Fresno County, California",
       "location": "California",
       "acres": 614,
-      "cropOrUse": "Almonds / pistachios / citrus",
-      "category": "CA San Joaquin permanent crops (almonds / pistachios / citrus)",
-      "fmvPerAcre": 28000,
-      "fmvRationale": "Mix-weighted average of almond ($24K), pistachio ($32K), citrus ($22K) ASFMRA 2025 trends \u2014 LAND portfolio in southern San Joaquin skews toward higher-value mature pistachio",
+      "cropOrUse": "Almonds (dominant) + pistachios",
+      "category": "CA Fresno almond",
+      "fmvPerAcre": 24000,
+      "fmvRationale": "Fresno County almond-dominant ground; ASFMRA 2025 mature almond benchmark $22-28K/acre with cap rates 3.5-4.5%",
       "comparablesUsed": [
         "ASFMRA-CA-ALMOND-2025",
-        "ASFMRA-CA-PISTACHIO-2025",
-        "ASFMRA-CA-CITRUS-2025",
         "USDA-CA-CROP-2025"
       ],
       "acquired": "2016-04-05",
       "acquisitionCostMM": 18.9,
-      "bookValueMM": 13.7
+      "bookValueMM": 13.7,
+      "fmvPerAcreLow": 21000,
+      "fmvPerAcreHigh": 28000,
+      "capRateLow": 3.5,
+      "capRateHigh": 4.5
     },
     {
       "name": "Merced County, Colorado",
@@ -499,7 +560,9 @@
       ],
       "acquired": "2016-09-14",
       "acquisitionCostMM": 13.5,
-      "bookValueMM": 13.2
+      "bookValueMM": 13.2,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Manatee County, Florida",
@@ -515,7 +578,9 @@
       ],
       "acquired": "2014-09-29",
       "acquisitionCostMM": 17.6,
-      "bookValueMM": 12.7
+      "bookValueMM": 12.7,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Monterey County, California",
@@ -532,7 +597,9 @@
       ],
       "acquired": "2019-07-11",
       "acquisitionCostMM": 13.0,
-      "bookValueMM": 12.5
+      "bookValueMM": 12.5,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Van Buren County, Michigan",
@@ -548,7 +615,9 @@
       ],
       "acquired": "2021-06-09",
       "acquisitionCostMM": 13.4,
-      "bookValueMM": 11.7
+      "bookValueMM": 11.7,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Baca County, Colorado",
@@ -564,7 +633,9 @@
       ],
       "acquired": "2016-12-28",
       "acquisitionCostMM": 11.7,
-      "bookValueMM": 11.4
+      "bookValueMM": 11.4,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Okeechobee County, Florida",
@@ -581,7 +652,9 @@
       ],
       "acquired": "2017-08-09",
       "acquisitionCostMM": 12.4,
-      "bookValueMM": 11.1
+      "bookValueMM": 11.1,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Ventura County, California",
@@ -598,7 +671,9 @@
       ],
       "acquired": "1998-09-15",
       "acquisitionCostMM": 15.7,
-      "bookValueMM": 10.4
+      "bookValueMM": 10.4,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Cochise County, Arizona",
@@ -614,7 +689,9 @@
       ],
       "acquired": "2013-12-27",
       "acquisitionCostMM": 12.6,
-      "bookValueMM": 9.9
+      "bookValueMM": 9.9,
+      "capRateLow": 3.5,
+      "capRateHigh": 4.5
     },
     {
       "name": "Charlotte County, FL",
@@ -631,7 +708,9 @@
       ],
       "acquired": "2021-12-16",
       "acquisitionCostMM": 10.0,
-      "bookValueMM": 9.9
+      "bookValueMM": 9.9,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Yamhill County, Oregon",
@@ -647,7 +726,9 @@
       ],
       "acquired": "2021-08-11",
       "acquisitionCostMM": 12.4,
-      "bookValueMM": 9.8
+      "bookValueMM": 9.8,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Hartley County, Texas",
@@ -663,7 +744,9 @@
       ],
       "acquired": "2018-11-20",
       "acquisitionCostMM": 9.9,
-      "bookValueMM": 9.3
+      "bookValueMM": 9.3,
+      "capRateLow": 6.5,
+      "capRateHigh": 9.0
     },
     {
       "name": "Hayes & Hitchcock County, Nebraska",
@@ -679,7 +762,9 @@
       ],
       "acquired": "2019-10-07",
       "acquisitionCostMM": 9.7,
-      "bookValueMM": 9.3
+      "bookValueMM": 9.3,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
     },
     {
       "name": "Monterey County, California",
@@ -696,7 +781,9 @@
       ],
       "acquired": "2013-10-21",
       "acquisitionCostMM": 10.6,
-      "bookValueMM": 9.2
+      "bookValueMM": 9.2,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Santa Cruz County, California",
@@ -713,7 +800,9 @@
       ],
       "acquired": "2011-01-03",
       "acquisitionCostMM": 9.3,
-      "bookValueMM": 9.0
+      "bookValueMM": 9.0,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Yolo County, California",
@@ -729,7 +818,9 @@
       ],
       "acquired": "2019-06-13",
       "acquisitionCostMM": 9.3,
-      "bookValueMM": 8.4
+      "bookValueMM": 8.4,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
     },
     {
       "name": "Merced County, California",
@@ -746,7 +837,9 @@
       ],
       "acquired": "2018-12-06",
       "acquisitionCostMM": 8.2,
-      "bookValueMM": 8.2
+      "bookValueMM": 8.2,
+      "capRateLow": 3.5,
+      "capRateHigh": 4.5
     },
     {
       "name": "Cochise County, Arizona",
@@ -762,7 +855,9 @@
       ],
       "acquired": "2015-12-23",
       "acquisitionCostMM": 10.3,
-      "bookValueMM": 8.1
+      "bookValueMM": 8.1,
+      "capRateLow": 3.5,
+      "capRateHigh": 4.5
     },
     {
       "name": "Wicomico & Caroline County, Maryland, and Sussex County, Delaware",
@@ -778,7 +873,9 @@
       ],
       "acquired": "2020-08-31",
       "acquisitionCostMM": 7.8,
-      "bookValueMM": 7.4
+      "bookValueMM": 7.4,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Ventura County, California",
@@ -795,25 +892,30 @@
       ],
       "acquired": "2014-07-23",
       "acquisitionCostMM": 6.8,
-      "bookValueMM": 6.4
+      "bookValueMM": 6.4,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Kern County, California",
       "location": "California",
       "acres": 278,
-      "cropOrUse": "Almonds / pistachios / citrus",
-      "category": "CA San Joaquin permanent crops (almonds / pistachios / citrus)",
-      "fmvPerAcre": 28000,
-      "fmvRationale": "Mix-weighted average of almond ($24K), pistachio ($32K), citrus ($22K) ASFMRA 2025 trends \u2014 LAND portfolio in southern San Joaquin skews toward higher-value mature pistachio",
+      "cropOrUse": "Pistachios (premium) + almonds",
+      "category": "CA Kern pistachio premium",
+      "fmvPerAcre": 32000,
+      "fmvRationale": "Kern County pistachio premium ground; ASFMRA Cal Chapter 2025 prices mature pistachio at $30-38K/acre with cap rates 3.0-4.0%",
       "comparablesUsed": [
-        "ASFMRA-CA-ALMOND-2025",
         "ASFMRA-CA-PISTACHIO-2025",
-        "ASFMRA-CA-CITRUS-2025",
+        "ASFMRA-CA-ALMOND-2025",
         "USDA-CA-CROP-2025"
       ],
       "acquired": "2014-07-25",
       "acquisitionCostMM": 6.9,
-      "bookValueMM": 6.2
+      "bookValueMM": 6.2,
+      "fmvPerAcreLow": 28000,
+      "fmvPerAcreHigh": 38000,
+      "capRateLow": 3.0,
+      "capRateHigh": 4.0
     },
     {
       "name": "Baca County, Colorado & Buildings",
@@ -829,7 +931,9 @@
       ],
       "acquired": "2016-09-01",
       "acquisitionCostMM": 6.4,
-      "bookValueMM": 6.2
+      "bookValueMM": 6.2,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Ventura County, California",
@@ -846,25 +950,28 @@
       ],
       "acquired": "2014-11-04",
       "acquisitionCostMM": 6.0,
-      "bookValueMM": 5.9
+      "bookValueMM": 5.9,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Kings County, California",
       "location": "California",
       "acres": 260,
-      "cropOrUse": "Almonds / pistachios / citrus",
-      "category": "CA San Joaquin permanent crops (almonds / pistachios / citrus)",
-      "fmvPerAcre": 28000,
-      "fmvRationale": "Mix-weighted average of almond ($24K), pistachio ($32K), citrus ($22K) ASFMRA 2025 trends \u2014 LAND portfolio in southern San Joaquin skews toward higher-value mature pistachio",
+      "cropOrUse": "Almonds + permanent plantings",
+      "category": "CA Kings almond",
+      "fmvPerAcre": 23000,
+      "fmvRationale": "Kings County almond / permanent ground",
       "comparablesUsed": [
-        "ASFMRA-CA-ALMOND-2025",
-        "ASFMRA-CA-PISTACHIO-2025",
-        "ASFMRA-CA-CITRUS-2025",
-        "USDA-CA-CROP-2025"
+        "ASFMRA-CA-ALMOND-2025"
       ],
       "acquired": "2018-09-13",
       "acquisitionCostMM": 6.9,
-      "bookValueMM": 5.8
+      "bookValueMM": 5.8,
+      "fmvPerAcreLow": 20000,
+      "fmvPerAcreHigh": 27000,
+      "capRateLow": 3.5,
+      "capRateHigh": 4.5
     },
     {
       "name": "Santa Cruz County, California",
@@ -881,7 +988,9 @@
       ],
       "acquired": "2014-06-13",
       "acquisitionCostMM": 5.8,
-      "bookValueMM": 5.6
+      "bookValueMM": 5.6,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Walla Walla County, Washington",
@@ -897,25 +1006,29 @@
       ],
       "acquired": "2017-09-08",
       "acquisitionCostMM": 5.7,
-      "bookValueMM": 5.3
+      "bookValueMM": 5.3,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
     },
     {
       "name": "Fresno County, California",
       "location": "California",
       "acres": 218,
-      "cropOrUse": "Almonds / pistachios / citrus",
-      "category": "CA San Joaquin permanent crops (almonds / pistachios / citrus)",
-      "fmvPerAcre": 28000,
-      "fmvRationale": "Mix-weighted average of almond ($24K), pistachio ($32K), citrus ($22K) ASFMRA 2025 trends \u2014 LAND portfolio in southern San Joaquin skews toward higher-value mature pistachio",
+      "cropOrUse": "Almonds (dominant) + pistachios",
+      "category": "CA Fresno almond",
+      "fmvPerAcre": 24000,
+      "fmvRationale": "Fresno County almond-dominant ground; ASFMRA 2025 mature almond benchmark $22-28K/acre with cap rates 3.5-4.5%",
       "comparablesUsed": [
         "ASFMRA-CA-ALMOND-2025",
-        "ASFMRA-CA-PISTACHIO-2025",
-        "ASFMRA-CA-CITRUS-2025",
         "USDA-CA-CROP-2025"
       ],
       "acquired": "2016-10-13",
       "acquisitionCostMM": 6.5,
-      "bookValueMM": 4.9
+      "bookValueMM": 4.9,
+      "fmvPerAcreLow": 21000,
+      "fmvPerAcreHigh": 28000,
+      "capRateLow": 3.5,
+      "capRateHigh": 4.5
     },
     {
       "name": "Hayes County, Nebraska",
@@ -931,7 +1044,9 @@
       ],
       "acquired": "2019-10-07",
       "acquisitionCostMM": 5.0,
-      "bookValueMM": 4.8
+      "bookValueMM": 4.8,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
     },
     {
       "name": "Umatilla, Oregon",
@@ -947,7 +1062,9 @@
       ],
       "acquired": "2022-07-21",
       "acquisitionCostMM": 5.2,
-      "bookValueMM": 4.7
+      "bookValueMM": 4.7,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Santa Cruz County, California",
@@ -964,7 +1081,9 @@
       ],
       "acquired": "1997-06-16",
       "acquisitionCostMM": 5.0,
-      "bookValueMM": 4.5
+      "bookValueMM": 4.5,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Saint Lucie County, Florida",
@@ -981,7 +1100,9 @@
       ],
       "acquired": "2016-07-01",
       "acquisitionCostMM": 5.1,
-      "bookValueMM": 4.2
+      "bookValueMM": 4.2,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "St. Lucie County, Florida",
@@ -998,25 +1119,30 @@
       ],
       "acquired": "2021-08-18",
       "acquisitionCostMM": 5.3,
-      "bookValueMM": 4.2
+      "bookValueMM": 4.2,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Kern County, California",
       "location": "California",
       "acres": 174,
-      "cropOrUse": "Almonds / pistachios / citrus",
-      "category": "CA San Joaquin permanent crops (almonds / pistachios / citrus)",
-      "fmvPerAcre": 28000,
-      "fmvRationale": "Mix-weighted average of almond ($24K), pistachio ($32K), citrus ($22K) ASFMRA 2025 trends \u2014 LAND portfolio in southern San Joaquin skews toward higher-value mature pistachio",
+      "cropOrUse": "Pistachios (premium) + almonds",
+      "category": "CA Kern pistachio premium",
+      "fmvPerAcre": 32000,
+      "fmvRationale": "Kern County pistachio premium ground; ASFMRA Cal Chapter 2025 prices mature pistachio at $30-38K/acre with cap rates 3.0-4.0%",
       "comparablesUsed": [
-        "ASFMRA-CA-ALMOND-2025",
         "ASFMRA-CA-PISTACHIO-2025",
-        "ASFMRA-CA-CITRUS-2025",
+        "ASFMRA-CA-ALMOND-2025",
         "USDA-CA-CROP-2025"
       ],
       "acquired": "2018-01-31",
       "acquisitionCostMM": 4.5,
-      "bookValueMM": 3.9
+      "bookValueMM": 3.9,
+      "fmvPerAcreLow": 28000,
+      "fmvPerAcreHigh": 38000,
+      "capRateLow": 3.0,
+      "capRateHigh": 4.0
     },
     {
       "name": "Hillsborough County, Florida",
@@ -1032,7 +1158,9 @@
       ],
       "acquired": "2012-09-12",
       "acquisitionCostMM": 5.7,
-      "bookValueMM": 3.5
+      "bookValueMM": 3.5,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Manatee County, Florida",
@@ -1048,7 +1176,9 @@
       ],
       "acquired": "2015-03-10",
       "acquisitionCostMM": 4.6,
-      "bookValueMM": 2.9
+      "bookValueMM": 2.9,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "San Joaquin County, California",
@@ -1065,7 +1195,9 @@
       ],
       "acquired": "2021-03-11",
       "acquisitionCostMM": 4.3,
-      "bookValueMM": 2.8
+      "bookValueMM": 2.8,
+      "capRateLow": 3.5,
+      "capRateHigh": 4.5
     },
     {
       "name": "Santa Barbara County, California",
@@ -1082,25 +1214,29 @@
       ],
       "acquired": "2017-08-09",
       "acquisitionCostMM": 2.9,
-      "bookValueMM": 2.4
+      "bookValueMM": 2.4,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Fresno County, California",
       "location": "California",
       "acres": 96,
-      "cropOrUse": "Almonds / pistachios / citrus",
-      "category": "CA San Joaquin permanent crops (almonds / pistachios / citrus)",
-      "fmvPerAcre": 28000,
-      "fmvRationale": "Mix-weighted average of almond ($24K), pistachio ($32K), citrus ($22K) ASFMRA 2025 trends \u2014 LAND portfolio in southern San Joaquin skews toward higher-value mature pistachio",
+      "cropOrUse": "Almonds (dominant) + pistachios",
+      "category": "CA Fresno almond",
+      "fmvPerAcre": 24000,
+      "fmvRationale": "Fresno County almond-dominant ground; ASFMRA 2025 mature almond benchmark $22-28K/acre with cap rates 3.5-4.5%",
       "comparablesUsed": [
         "ASFMRA-CA-ALMOND-2025",
-        "ASFMRA-CA-PISTACHIO-2025",
-        "ASFMRA-CA-CITRUS-2025",
         "USDA-CA-CROP-2025"
       ],
       "acquired": "2017-12-15",
       "acquisitionCostMM": 6.0,
-      "bookValueMM": 2.1
+      "bookValueMM": 2.1,
+      "fmvPerAcreLow": 21000,
+      "fmvPerAcreHigh": 28000,
+      "capRateLow": 3.5,
+      "capRateHigh": 4.5
     },
     {
       "name": "Allegran and Van Buren County, Michigan",
@@ -1116,7 +1252,9 @@
       ],
       "acquired": "2019-06-04",
       "acquisitionCostMM": 1.9,
-      "bookValueMM": 1.4
+      "bookValueMM": 1.4,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Baca County, Colorado",
@@ -1132,7 +1270,9 @@
       ],
       "acquired": "2017-10-02",
       "acquisitionCostMM": 0.9,
-      "bookValueMM": 0.9
+      "bookValueMM": 0.9,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "California water assets (55,532 acre-feet)",
@@ -1525,5 +1665,5 @@
       "source": "DWR + WestWater Research SGMA basin reports 2024"
     }
   ],
-  "methodology": "LAND's 67 Schedule III line items are mapped to 16 valuation clusters by state and crop type. Each property carries an explicit per-acre fair-market value backed by 2-4 cited comparables \u2014 all dated within the last 24 months (cutoff May 2024). The \"FMV by category\" table at top is fully derived from this per-property analysis.\n\nPrimary comp sources, all 2024-2025 dated:\n- USDA NASS 2025 Land Values Summary (published August 2025) for state-average cropland anchors\n- ASFMRA California Chapter Outlook & Trends 2025 for permanent and specialty crops\n- Cushman & Wakefield West Coast Ag 2024 for coastal California transactions\n- State-specific industry reports (Michigan Blueberry Growers Council, Oregon Hazelnut Council, Texas A&M AgriLife, Nebraska UNL, Clemson Extension, etc.)\n- LAND's own FY2025 disposition pricing ($7,631/acre weighted across 12,502 acres) as a portfolio-level reality check\n\nMature California permanent crops drive the bulk of the FMV-vs-book gap. LAND acquired most of its Kern / Fresno / Tulare / Madera ground in 2014-2021 at significantly lower per-acre values; California pistachio specifically has appreciated strongly. The Miscellaneous Investments aggregate row uses LAND's own 2025 disposition pricing as the most defensible mark.\n\nThe implied NAV/share at FMV deducts net debt (long-term debt + Series D Term Pref \u2212 cash) and divides by 41.44M diluted shares. Live-price discount/premium is computed against this NAV using the Yahoo quote in USD.\n\nWATER RIGHTS NOTE: LAND owns 55,532 acre-feet of California water assets that\nare accounted for separately as a non-land asset row (excludeFromAcreTotals).\nCalifornia water rights traded at $5,000-$15,000+/acre-foot in 2024-25 with\nsignificant variation by district seniority. Mid-point $7,500/AF implies\n$417M of standalone water-rights value vs the $1.67B farmland FMV, with a\n$278M-$666M range under low/high scenarios. The water rights row's \"acres\"\ncolumn reflects acre-feet rather than acres; the row contributes to total\nFMV but not to acre denominators on per-acre columns."
+  "methodology": "LAND's 67 Schedule III line items are mapped to 16 valuation clusters by state and crop type. Each property carries an explicit per-acre fair-market value backed by 2-4 cited comparables \u2014 all dated within the last 24 months (cutoff May 2024). The \"FMV by category\" table at top is fully derived from this per-property analysis.\n\nPrimary comp sources, all 2024-2025 dated:\n- USDA NASS 2025 Land Values Summary (published August 2025) for state-average cropland anchors\n- ASFMRA California Chapter Outlook & Trends 2025 for permanent and specialty crops\n- Cushman & Wakefield West Coast Ag 2024 for coastal California transactions\n- State-specific industry reports (Michigan Blueberry Growers Council, Oregon Hazelnut Council, Texas A&M AgriLife, Nebraska UNL, Clemson Extension, etc.)\n- LAND's own FY2025 disposition pricing ($7,631/acre weighted across 12,502 acres) as a portfolio-level reality check\n\nMature California permanent crops drive the bulk of the FMV-vs-book gap. LAND acquired most of its Kern / Fresno / Tulare / Madera ground in 2014-2021 at significantly lower per-acre values; California pistachio specifically has appreciated strongly. The Miscellaneous Investments aggregate row uses LAND's own 2025 disposition pricing as the most defensible mark.\n\nThe implied NAV/share at FMV deducts net debt (long-term debt + Series D Term Pref \u2212 cash) and divides by 41.44M diluted shares. Live-price discount/premium is computed against this NAV using the Yahoo quote in USD.\n\nWATER RIGHTS NOTE: LAND owns 55,532 acre-feet of California water assets that\nare accounted for separately as a non-land asset row (excludeFromAcreTotals).\nCalifornia water rights traded at $5,000-$15,000+/acre-foot in 2024-25 with\nsignificant variation by district seniority. Mid-point $7,500/AF implies\n$417M of standalone water-rights value vs the $1.67B farmland FMV, with a\n$278M-$666M range under low/high scenarios. The water rights row's \"acres\"\ncolumn reflects acre-feet rather than acres; the row contributes to total\nFMV but not to acre denominators on per-acre columns.\n\nPER-PROPERTY CAP RATES + SUB-TIER REFINEMENT (latest pass):\nCalifornia San Joaquin permanent crops previously rolled up into a single\n$28K/acre weighted bucket. Now sub-clustered into:\n  \u2022 CA Kern pistachio premium      \u2014 $32K base ($28-38K), cap 3.0-4.0%\n  \u2022 CA Fresno almond               \u2014 $24K base ($21-28K), cap 3.5-4.5%\n  \u2022 CA Tulare citrus / specialty   \u2014 $22K base ($19-26K), cap 4.0-5.5%\n  \u2022 CA Madera permanent            \u2014 $28K base ($24-34K), cap 3.5-4.5%\n  \u2022 CA Kings almond                \u2014 $23K base ($20-27K), cap 3.5-4.5%\n  \u2022 CA Stanislaus / Merced almond  \u2014 $22K base ($19-26K), cap 3.5-4.5%\n  \u2022 CA Central Coast permanent     \u2014 $26K base ($22-32K), cap 3.5-4.5%\nEach LAND property is mapped to the appropriate sub-tier by county.\nPer-property cap rate ranges feed the NOI cross-check, which now FMV-\nweighted-averages them across the portfolio to derive an issuer-level\nbenchmark \u2014 replacing the prior keyword-based single range.\nThe remaining 49 land properties (FL, AZ, CO, NE, MI, OR, WA, MD, TX, etc.)\nalso have cap rate ranges set per-cluster so the entire FMV base is\ncovered by property-level cap rate data."
 }
