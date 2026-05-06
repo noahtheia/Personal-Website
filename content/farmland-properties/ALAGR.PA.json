@@ -2,16 +2,16 @@
   "ticker": "ALAGR.PA",
   "asOf": "2024-12-31",
   "currency": "EUR",
-  "propertiesNote": "Single-row aggregation. AgroGeneration leases the vast majority of its 28,500 hectares; only a small fixed asset base is on the balance sheet. Per-acre FMV reflects deep wartime discount on frontline-adjacent ground.",
+  "propertiesNote": "Single-row aggregation. AgroGeneration leases the vast majority of its 28,500 ha cultivated area; only ~\u20ac3M of fixed-asset book is owned land.",
   "properties": [
     {
-      "name": "Eastern Ukrainian frontline-adjacent cropland",
-      "location": "Eastern Ukraine (Kharkiv / Sumy)",
+      "name": "Eastern Ukraine cultivated area (mostly leased)",
+      "location": "Kharkiv + Sumy regions, Eastern Ukraine",
       "acres": 70400,
-      "cropOrUse": "Grains + oilseeds (mostly leased)",
-      "category": "Ukrainian frontline cropland",
+      "cropOrUse": "Grains + oilseeds \u2014 mostly LEASED, not owned",
+      "category": "Ukrainian frontline cropland (leased)",
       "fmvPerAcre": 200,
-      "fmvRationale": "AgroGeneration cultivates 28,500 hectares in frontline regions of Eastern Ukraine; deep wartime discount; most of the land is leased rather than owned",
+      "fmvRationale": "Cultivated area predominantly leased, not owned. Frontline-adjacent in Eastern Ukraine. Deep wartime discount + lease structure means the per-acre FMV is largely conceptual; the company's real value is in leases + working capital + biological assets",
       "comparablesUsed": [
         "UA-CROP-FRONTLINE-2024"
       ],
@@ -20,13 +20,13 @@
   ],
   "comparables": [
     {
+      "id": "UA-CROP-FRONTLINE-2024",
       "description": "Ukrainian agricultural cropland \u2014 frontline regions, deep discount",
       "location": "Eastern Ukraine (frontline-adjacent)",
       "pricePerAcre": 800,
       "date": "2024-09-30",
-      "source": "Ukrainian Land Reform 2024 reports + AgroGeneration FY24 disclosures",
-      "id": "UA-CROP-FRONTLINE-2024"
+      "source": "Ukrainian Land Reform 2024 reports + AgroGeneration FY24 disclosures"
     }
   ],
-  "methodology": "AgroGeneration is a tiny French-listed Ukrainian operator with cultivated area in Eastern Ukraine (Kharkiv/Sumy regions, frontline-adjacent). The vast majority of the 28,500 cultivated hectares are LEASED, not owned \u2014 so the property table greatly overstates owned land relative to balance-sheet book.\n\n2024 revenue of \u20ac22.6M with \u20ac5.7M operating EBITDA (excluding war-related expenses); net debt \u20ac0.6M. Deep wartime discount is appropriate given frontline geography.\n\nAcres shown reflect cultivated area for cluster-level FMV purposes; only ~\u20ac3M of the \u20ac11M total equity is fixed-asset land book. The implied NAV doesn't mean much for ALAGR \u2014 equity value is dominated by working capital, biological assets, and ongoing-business value."
+  "methodology": "AgroGeneration is a French-listed micro-cap Ukrainian operator. The cultivated area of 28,500 hectares is predominantly LEASED, not owned \u2014 only ~\u20ac3M of the \u20ac11M total equity is in fixed-asset land book.\n\nSingle-row aggregation is appropriate because:\n1. The owned land base is too small to meaningfully split\n2. The cultivated area is frontline-adjacent in Eastern Ukraine (Kharkiv + Sumy regions) at deep wartime discount\n3. The company's real value is in working capital, biological assets, and ongoing-business operations \u2014 not land\n\nThe implied NAV/share at FMV doesn't mean much for ALAGR \u2014 reading equity value from the property table will mislead. The \u20ac5.7M operating EBITDA (excluding war expenses) is the more relevant signal."
 }

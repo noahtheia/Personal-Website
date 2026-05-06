@@ -2,74 +2,116 @@
   "ticker": "DBF.AX",
   "asOf": "2025-06-30",
   "currency": "AUD",
-  "propertiesNote": "3-row aggregation. Duxton owns ~26K hectares + manages additional ~170K hectares; the table reflects owned base.",
+  "propertiesNote": "4-row breakdown by named NSW cluster + vineyards + Northern Australia. Recent dispositions (Timberscombe A$70M, Cowaribin A$6M) provide internal benchmarks.",
   "properties": [
     {
-      "name": "NSW Western Riverina cropping farms",
-      "location": "NSW Western Riverina, Australia",
-      "acres": 50000,
-      "cropOrUse": "Wheat / barley / canola dryland",
-      "category": "Australian dryland \u2014 NSW",
-      "fmvPerAcre": 1700,
-      "fmvRationale": "NSW Western Riverina dryland; LAWD + Elders 2024-25 comps at $1,500-2,000 AUD/acre",
+      "name": "Forbes District NSW (Walla Wallah, Yarranlea, West Plains)",
+      "location": "Forbes District, NSW (Central West)",
+      "acres": 18500,
+      "cropOrUse": "Mixed dryland + irrigated summer crops",
+      "category": "NSW Central West cropping",
+      "fmvPerAcre": 2200,
+      "fmvRationale": "7,484 ha Forbes cluster of three properties; mixed dryland + irrigated summer crops with 10,035 ML water entitlement + 6,798 ML leased",
       "comparablesUsed": [
         "AU-DRYLAND-2024",
-        "AU-DRYLAND-2025"
+        "AU-DRYLAND-2025",
+        "AU-CROP-2024"
       ],
-      "bookValueMM": 60
+      "bookValueMM": 25
     },
     {
-      "name": "Northern Territory + WA properties",
-      "location": "NT + WA, Australia",
-      "acres": 14000,
-      "cropOrUse": "Mixed broadacre + grazing",
-      "category": "Australian dryland \u2014 NT/WA",
-      "fmvPerAcre": 1500,
-      "fmvRationale": "NT and WA pastoral/dryland; lower per-acre due to remoteness",
+      "name": "Cowaribin / Kentucky / Merriment NSW",
+      "location": "NSW Western Riverina",
+      "acres": 6000,
+      "cropOrUse": "Dryland cropping",
+      "category": "NSW Western Riverina",
+      "fmvPerAcre": 1700,
+      "fmvRationale": "Smaller NSW Riverina dryland properties; Cowaribin (940 ha) sold for $6M = $6,400/ha = ~$2,600/acre \u2014 used as proxy",
       "comparablesUsed": [
-        "AU-DRYLAND-2024"
+        "AU-DRYLAND-2024",
+        "AU-DRYLAND-2025",
+        "DBF-COWARIBIN-2024"
       ],
-      "bookValueMM": 18
+      "bookValueMM": 12
     },
     {
-      "name": "Vineyards (Euston + Wemen, NSW)",
-      "location": "NSW dried-grape vineyards, Australia",
+      "name": "Vineyards (Euston + Wemen, NSW dried-grape)",
+      "location": "NSW Sunraysia (Euston + Wemen)",
       "acres": 1491,
-      "cropOrUse": "Dried grapes (sultanas) \u2014 Australia's 2nd-largest grower",
-      "category": "Australian vineyard",
+      "cropOrUse": "Dried-grape vineyards (Australia's 2nd-largest grower)",
+      "category": "Australian dried-grape vineyard",
       "fmvPerAcre": 22000,
-      "fmvRationale": "Australian dried-grape vineyards; specialty premium vs general vineyard land",
+      "fmvRationale": "Australia's 2nd-largest dried-grape grower; specialty vineyard premium",
       "comparablesUsed": [
         "AU-VINEYARD-2024"
       ],
       "bookValueMM": 31
+    },
+    {
+      "name": "Northern Territory + Western Australia transition",
+      "location": "Northern Territory + Western Australia",
+      "acres": 38000,
+      "cropOrUse": "Mixed broadacre + grazing (post-2024 strategic shift)",
+      "category": "Northern Australia broadacre",
+      "fmvPerAcre": 1500,
+      "fmvRationale": "Bold shift toward northern Australia announced 2024; lower per-acre due to remoteness",
+      "comparablesUsed": [
+        "AU-DRYLAND-2024"
+      ],
+      "bookValueMM": 41
     }
   ],
   "comparables": [
     {
-      "description": "Australian dryland broadacre H1 2025 transactions",
-      "location": "NSW + WA + NT dryland",
-      "pricePerAcre": 1800,
-      "date": "2025-04-01",
-      "source": "LAWD + Elders Rural dryland 2025 reports",
-      "id": "AU-DRYLAND-2025"
-    },
-    {
+      "id": "AU-DRYLAND-2024",
       "description": "Australian dryland broadacre 2024",
       "location": "NSW + WA dryland",
       "pricePerAcre": 1700,
       "date": "2024-09-30",
-      "source": "Elders Rural dryland comps 2024",
-      "id": "AU-DRYLAND-2024"
+      "source": "Elders Rural dryland comps 2024"
     },
     {
+      "id": "AU-DRYLAND-2025",
+      "description": "Australian dryland broadacre H1 2025 transactions",
+      "location": "NSW + WA + NT dryland",
+      "pricePerAcre": 1800,
+      "date": "2025-04-01",
+      "source": "LAWD + Elders Rural dryland 2025 reports"
+    },
+    {
+      "id": "AU-CROP-2024",
+      "description": "Australian temperate cropping ground 2024",
+      "location": "NSW + QLD + Vic",
+      "pricePerAcre": 4200,
+      "date": "2024-09-15",
+      "source": "Rabobank Australia ag-real-estate trends 2024"
+    },
+    {
+      "id": "AU-VINEYARD-2024",
       "description": "Australian premium vineyard transactions",
       "location": "NSW + Victoria",
       "pricePerAcre": 28000,
       "date": "2024-09-30",
-      "source": "Australian Wine Industry land report 2024",
-      "id": "AU-VINEYARD-2024"
+      "source": "Australian Wine Industry land report 2024"
+    },
+    {
+      "id": "DBF-COWARIBIN-2024",
+      "description": "DBF Cowaribin (940 ha NSW Riverina) sold for A$6M = ~A$6,400/ha",
+      "location": "NSW Western Riverina",
+      "acres": 2323,
+      "pricePerAcre": 2580,
+      "date": "2024-08-15",
+      "source": "Duxton Farms Cowaribin disposition 2024"
+    },
+    {
+      "id": "DBF-TIMBERSCOMBE-2024",
+      "description": "DBF Timberscombe (8,432 ha at West Wyalong NSW) sold for A$70M = ~A$8,300/ha",
+      "location": "NSW West Wyalong",
+      "acres": 20835,
+      "pricePerAcre": 3360,
+      "date": "2024-11-15",
+      "source": "Duxton Farms Timberscombe sale to Canadian pension fund 2024"
     }
   ],
-  "methodology": "Duxton Broadacre Farms operates ~26,000 hectares of owned land plus manages additional area on behalf of other Duxton funds. The owned portfolio is dominated by NSW Western Riverina dryland cropping (~50K acres) with smaller positions in NT and WA, plus 1,491 acres of dried-grape vineyards (Australia's 2nd-largest sultanas grower).\n\nFY25 (Jun 2025) was challenging \u2014 the company posted negative EBITDA of A$9M as drought + weak grain prices weighed on cropping. Land FMV is structurally less volatile than earnings; 2024-25 LAWD + Elders dryland transactions consistently track $1,500-2,000 AUD/acre depending on rainfall and infrastructure."
+  "methodology": "Duxton Broadacre Farms is in active strategic transition (2024-2025) \u2014 divesting NSW assets and building a Northern Australia (NT + WA) presence. Recent transactions provide useful internal benchmarks:\n- Timberscombe (8,432 ha at West Wyalong NSW) sold November 2024 for A$70M = ~A$3,360/acre \u2014 the highest-quality NSW Riverina property\n- Cowaribin (940 ha) sold August 2024 for A$6M = ~A$2,580/acre\n\n4-row breakdown:\n- Forbes District NSW (18.5K ac): 3 named properties (Walla Wallah, Yarranlea, West Plains) \u2014 Central West NSW with substantial water entitlements\n- Cowaribin / Kentucky / Merriment cluster (6K ac NSW Western Riverina)\n- Sunraysia dried-grape vineyards (Euston + Wemen): 1,491 ac specialty\n- Northern Territory + WA transition (38K ac): newer/smaller portfolio at lower per-acre\n\nFY25 (Jun 2025) was loss-making with negative EBITDA from drought + weak grain prices. Land FMV is structurally less volatile than earnings."
 }
