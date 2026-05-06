@@ -2,40 +2,74 @@
   "ticker": "BWPT.JK",
   "asOf": "2024-12-31",
   "currency": "IDR",
-  "propertiesNote": "Single-row. Eagle High Plantations: ~119K hectares Indonesian palm; carries significant debt.",
+  "propertiesNote": "3-row breakdown. Eagle High is debt-distressed; per-acre values discounted to peer levels.",
   "properties": [
     {
-      "name": "Indonesia palm \u2014 distressed",
-      "location": "Sumatra + Kalimantan, Indonesia",
-      "acres": 294000,
-      "cropOrUse": "Mixed mature + immature oil palm",
-      "category": "Indonesian palm \u2014 leveraged",
-      "fmvPerAcre": 50000000,
-      "fmvRationale": "BWPT carries significant debt + younger plantation profile; per-acre FMV discounted accordingly",
+      "name": "Kalimantan oil palm estates (Central + East)",
+      "location": "Central + East Kalimantan, Indonesia",
+      "acres": 175000,
+      "cropOrUse": "Mature + immature oil palm",
+      "category": "Indonesian palm \u2014 Kalimantan (Eagle High)",
+      "fmvPerAcre": 55000000,
+      "fmvRationale": "Kalimantan estate cluster; mix of mature and immature; per-acre discount vs healthier operators due to debt distress",
       "comparablesUsed": [
-        "ID-PALM-MATURE-2024",
+        "ID-PALM-KALIMANTAN-2024",
         "ID-PALM-IMMATURE-2024"
       ],
-      "bookValueMM": 6000000
+      "bookValueMM": 4000000
+    },
+    {
+      "name": "Sumatra plantations",
+      "location": "Sumatra, Indonesia",
+      "acres": 65000,
+      "cropOrUse": "Mature oil palm",
+      "category": "Indonesian palm \u2014 Sumatra (Eagle High)",
+      "fmvPerAcre": 50000000,
+      "fmvRationale": "Sumatra plantation cluster",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 1200000
+    },
+    {
+      "name": "Sulawesi + smaller / unplanted concession",
+      "location": "Sulawesi + various, Indonesia",
+      "acres": 54000,
+      "cropOrUse": "Smaller estates + unplanted concession",
+      "category": "Indonesian palm \u2014 concession-stage",
+      "fmvPerAcre": 30000000,
+      "fmvRationale": "Smaller / unplanted areas at concession-stage discount",
+      "comparablesUsed": [
+        "ID-PALM-IMMATURE-2024"
+      ],
+      "bookValueMM": 800000
     }
   ],
   "comparables": [
     {
-      "description": "Indonesian unplanted concession / immature palm",
+      "id": "ID-PALM-MATURE-2024",
+      "description": "Indonesian mature oil palm with mill access",
+      "location": "Indonesia",
+      "pricePerAcre": 5000,
+      "date": "2024-09-15",
+      "source": "GAPKI 2024 reports"
+    },
+    {
+      "id": "ID-PALM-KALIMANTAN-2024",
+      "description": "Kalimantan palm oil concession",
+      "location": "Kalimantan, Indonesia",
+      "pricePerAcre": 4400,
+      "date": "2024-09-30",
+      "source": "Kalimantan palm broker comps 2024"
+    },
+    {
+      "id": "ID-PALM-IMMATURE-2024",
+      "description": "Indonesian unplanted/immature palm",
       "location": "Indonesia (concession-stage)",
       "pricePerAcre": 2500,
       "date": "2024-10-15",
-      "source": "GAPKI 2024 + Indonesian land bank reports",
-      "id": "ID-PALM-IMMATURE-2024"
-    },
-    {
-      "description": "Indonesian mature oil palm with mill access",
-      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
-      "pricePerAcre": 5000,
-      "date": "2024-09-15",
-      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
-      "id": "ID-PALM-MATURE-2024"
+      "source": "GAPKI 2024 reports"
     }
   ],
-  "methodology": "PT Eagle High Plantations is a leveraged Indonesian palm operator with ~119K hectares. Per-acre FMV reflects mixed mature/immature profile + debt-distressed financial position."
+  "methodology": "Eagle High Plantations operates ~119K hectares (~294K acres) across Kalimantan (largest cluster), Sumatra, and Sulawesi. 3-row breakdown:\n- Kalimantan core (175K acres): largest cluster, mix of mature and immature\n- Sumatra (65K acres): mature plantation\n- Sulawesi + concession-stage (54K acres): smaller / unplanted\n\nBWPT carries significant debt (financial distress in recent years has led to per-acre value compression). FMVs marked at ~10-15% discount to healthier-balance-sheet peers to reflect distressed-operator selling pressure."
 }

@@ -2,30 +2,43 @@
   "ticker": "RE.L",
   "asOf": "2024-12-31",
   "currency": "USD",
-  "propertiesNote": "2-row aggregation: mature plantation + mill cluster vs unplanted/smallholder land bank. REA is a single-region operator (East Kalimantan).",
+  "propertiesNote": "3-row breakdown by maturity tier within East Kalimantan single-region operator.",
   "properties": [
     {
-      "name": "East Kalimantan PT REA Kaltim plantation",
+      "name": "PT REA Kaltim mature plantations + mills (1 + 2)",
       "location": "East Kalimantan, Indonesia",
-      "acres": 65000,
-      "cropOrUse": "Oil palm + 3 CPO mills",
-      "category": "Indonesian palm \u2014 East Kalimantan core",
-      "fmvPerAcre": 4500,
-      "fmvRationale": "REA's core East Kalimantan estate with 3 mills; mature plantation with mill access at $4-5K USD/acre",
+      "acres": 50000,
+      "cropOrUse": "Mature oil palm + 3 mills",
+      "category": "Indonesian palm \u2014 Kaltim mature",
+      "fmvPerAcre": 5500,
+      "fmvRationale": "REA's core Kaltim mature estate with 3 mills",
       "comparablesUsed": [
         "ID-PALM-KALIMANTAN-2024",
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 280
+      "bookValueMM": 240
     },
     {
-      "name": "Other E Kalimantan (smallholder + land bank)",
+      "name": "East Kalimantan immature + young plantings",
+      "location": "East Kalimantan, Indonesia",
+      "acres": 15000,
+      "cropOrUse": "Immature/young oil palm (3-7 years)",
+      "category": "Indonesian palm \u2014 Kaltim immature",
+      "fmvPerAcre": 4000,
+      "fmvRationale": "Younger plantings still in development; per-acre discount until full bearing",
+      "comparablesUsed": [
+        "ID-PALM-IMMATURE-2024"
+      ],
+      "bookValueMM": 40
+    },
+    {
+      "name": "Smallholder partnerships + concession reserve",
       "location": "East Kalimantan, Indonesia",
       "acres": 27600,
-      "cropOrUse": "Smallholder partnerships + unplanted land bank",
-      "category": "Indonesian palm \u2014 undeveloped / smallholder",
+      "cropOrUse": "Plasma scheme + unplanted concession",
+      "category": "Indonesian palm \u2014 partnerships/reserve",
       "fmvPerAcre": 2500,
-      "fmvRationale": "Unplanted concession area + smallholder partnership land; lower per-acre than developed estates due to immature plantings + concession-on-paper status",
+      "fmvRationale": "Plasma partnership land + unplanted concession area",
       "comparablesUsed": [
         "ID-PALM-IMMATURE-2024"
       ],
@@ -36,26 +49,26 @@
     {
       "id": "ID-PALM-MATURE-2024",
       "description": "Indonesian mature oil palm with mill access",
-      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "location": "Indonesia",
       "pricePerAcre": 5000,
       "date": "2024-09-15",
-      "source": "GAPKI Indonesia palm oil land transaction reports 2024"
+      "source": "GAPKI 2024 reports"
     },
     {
       "id": "ID-PALM-KALIMANTAN-2024",
       "description": "East Kalimantan palm oil concession",
-      "location": "East Kalimantan, Indonesia",
+      "location": "East Kalimantan",
       "pricePerAcre": 4400,
       "date": "2024-09-30",
       "source": "Kalimantan palm broker comps 2024"
     },
     {
       "id": "ID-PALM-IMMATURE-2024",
-      "description": "Indonesian unplanted concession / immature palm",
-      "location": "Indonesia (concession-stage)",
+      "description": "Indonesian unplanted/immature palm",
+      "location": "Indonesia",
       "pricePerAcre": 2500,
       "date": "2024-10-15",
-      "source": "GAPKI 2024 + Indonesian land bank reports"
+      "source": "GAPKI 2024 reports"
     },
     {
       "id": "REA-CDM-DISP-2024",
@@ -66,5 +79,5 @@
       "source": "REA Holdings 2024 disposal announcement"
     }
   ],
-  "methodology": "REA Holdings is a UK-listed Indonesian palm oil pure-play concentrated entirely in East Kalimantan. Reports in USD; lists on LSE in GBp. Total land allocation ~75,000 hectares with about half planted (~37,500 ha = 92.6K acres). Operates 3 CPO mills.\n\nThe Properties table aggregates by use class: ~65K acres of mature plantation + mill cluster, vs ~27.6K acres of smallholder partnership land + unplanted bank. The split reflects that immature/unplanted ground trades at a 40-50% discount to mature with-mill ground.\n\nREA's 2024 financial year benefited from strong CPO prices ($819/tonne avg vs $718 prior year), swinging to pretax profit of $38.9M from a prior-year loss. The 2024 disposal of subsidiary CDM (Citi Daya Mandiri) to Teladan Prima Agro provides a useful real-world pricing reference embedded in REA's own books.\n\nNet debt of $159.3M (per REA 2024 release) is a meaningful drag on equity NAV \u2014 significantly higher leverage than peer MP Evans. The implied NAV/share at FMV will reflect this.\n\nIndonesian palm valuation drivers (mill access, plantation maturity, concession term remaining, CPO price cycle) are captured in the per-region comp anchors."
+  "methodology": "REA Holdings operates entirely in East Kalimantan with 3 CPO mills. Total ~75K hectares allocation, half planted (~37,500 ha = 92.6K acres planted base).\n\n3-row breakdown refined from previous 2-row:\n- Mature with-mill cluster (50K acres / ~20K ha): premium $5,500/acre\n- Immature/young plantings (15K acres / ~6K ha): mid-discount during development\n- Plasma + unplanted concession (27.6K acres / ~11K ha): full concession discount\n\nNet debt of $159M is meaningful. The 2024 CDM disposal to Teladan Prima Agro provides a useful in-portfolio mark."
 }

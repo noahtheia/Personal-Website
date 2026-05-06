@@ -2,51 +2,106 @@
   "ticker": "GENP.KL",
   "asOf": "2024-12-31",
   "currency": "MYR",
-  "propertiesNote": "2-row aggregation. Genting Plantations is a hybrid palm oil + property developer.",
+  "propertiesNote": "5-row breakdown. Hybrid palm + property + R&D operator. Plantation: ~64K ha MY + 178.9K ha Indonesia. Property: Iskandar + Sentul Indonesia.",
   "properties": [
     {
-      "name": "Malaysia + Indonesia palm plantations",
-      "location": "Sabah + Indonesia",
-      "acres": 543000,
-      "cropOrUse": "Mature oil palm + mills",
-      "category": "Malaysia/Indonesia palm",
-      "fmvPerAcre": 22000,
-      "fmvRationale": "GENP plantation segment; Malaysia + Indonesia mid-tier estates",
+      "name": "Sabah Malaysia plantations + 6 mills",
+      "location": "Sabah, Malaysia",
+      "acres": 110000,
+      "cropOrUse": "Mature oil palm + 6 mills",
+      "category": "Malaysian palm \u2014 Sabah (GENP)",
+      "fmvPerAcre": 24000,
+      "fmvRationale": "GENP Sabah cluster with 6 mills",
       "comparablesUsed": [
-        "MY-PALM-SABAH-2024",
-        "ID-PALM-MATURE-2024"
+        "MY-PALM-SABAH-2024"
       ],
-      "bookValueMM": 4500
+      "bookValueMM": 1400
     },
     {
-      "name": "Property/development land (Iskandar + Indonesia)",
-      "location": "Iskandar Malaysia + Indonesia",
-      "acres": 50000,
-      "cropOrUse": "Property development + mixed-use",
+      "name": "Peninsular Malaysia plantations + 1 mill",
+      "location": "Peninsular Malaysia",
+      "acres": 25000,
+      "cropOrUse": "Mature oil palm + 1 mill",
+      "category": "Malaysian palm \u2014 Peninsular (GENP)",
+      "fmvPerAcre": 28000,
+      "fmvRationale": "Peninsular Malaysia smaller cluster",
+      "comparablesUsed": [
+        "MY-PALM-PEN-2024"
+      ],
+      "bookValueMM": 350
+    },
+    {
+      "name": "Indonesia plantations (West, Central, South Kalimantan) + 7 mills",
+      "location": "West + Central + South Kalimantan, Indonesia",
+      "acres": 442000,
+      "cropOrUse": "Mature + immature oil palm + 7 mills",
+      "category": "Indonesian palm \u2014 Kalimantan (GENP)",
+      "fmvPerAcre": 22000,
+      "fmvRationale": "Indonesian Kalimantan core cluster spanning 3 provinces; mix of mature and developing area",
+      "comparablesUsed": [
+        "ID-PALM-KALIMANTAN-2024",
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 2700
+    },
+    {
+      "name": "Iskandar Malaysia property development + Indonesian property",
+      "location": "Iskandar Malaysia + Sentul (Indonesia near Jakarta)",
+      "acres": 15000,
+      "cropOrUse": "Mixed-use property development",
       "category": "Property development",
-      "fmvPerAcre": 35000,
-      "fmvRationale": "Iskandar Malaysia property + Indonesian mixed-use development land at premium",
+      "fmvPerAcre": 60000,
+      "fmvRationale": "Iskandar Malaysia + 152 ha Sentul Indonesia property (RM593M = ~RM 14.7M/acre = $3.3M USD/ha at premium urban-fringe pricing). Aggregate at lower per-acre",
+      "comparablesUsed": [
+        "MY-PALM-PEN-2024"
+      ],
+      "bookValueMM": 700
+    },
+    {
+      "name": "Genomics R&D + biotech subsidiaries",
+      "location": "Various",
+      "acres": 1,
+      "cropOrUse": "R&D facilities (not land asset)",
+      "category": "Genomics R&D (not farmland)",
+      "fmvPerAcre": 100,
+      "fmvRationale": "Per-acre meaningless; placeholder for non-land R&D subsidiary",
       "comparablesUsed": [],
-      "bookValueMM": 800
+      "bookValueMM": 100
     }
   ],
   "comparables": [
     {
+      "id": "MY-PALM-SABAH-2024",
       "description": "Malaysian Sabah palm plantation",
       "location": "Sabah, Malaysia",
       "pricePerAcre": 4800,
       "date": "2024-09-15",
-      "source": "Malaysian Palm Oil Board land valuation reports 2024",
-      "id": "MY-PALM-SABAH-2024"
+      "source": "MPOB Sabah 2024"
     },
     {
+      "id": "MY-PALM-PEN-2024",
+      "description": "Peninsular Malaysia palm plantation",
+      "location": "Peninsular Malaysia",
+      "pricePerAcre": 6000,
+      "date": "2024-09-15",
+      "source": "MPOB land valuation reports 2024"
+    },
+    {
+      "id": "ID-PALM-KALIMANTAN-2024",
+      "description": "Kalimantan palm oil concession",
+      "location": "Kalimantan, Indonesia",
+      "pricePerAcre": 4400,
+      "date": "2024-09-30",
+      "source": "Kalimantan palm broker comps 2024"
+    },
+    {
+      "id": "ID-PALM-MATURE-2024",
       "description": "Indonesian mature oil palm with mill access",
-      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "location": "Indonesia",
       "pricePerAcre": 5000,
       "date": "2024-09-15",
-      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
-      "id": "ID-PALM-MATURE-2024"
+      "source": "GAPKI 2024 reports"
     }
   ],
-  "methodology": "Genting Plantations operates ~240K hectares of palm plantation across Malaysia and Indonesia, plus a property/development arm in Iskandar Malaysia and Indonesia. 2-row split reflects this dual business model. The property segment carries higher per-acre values than pure palm plantation."
+  "methodology": "Genting Plantations is a hybrid palm + property developer with 243,200 ha total landbank including plasma schemes. Plantation footprint: ~64K ha Malaysia (Sabah + Peninsular) + ~178,900 ha Indonesia (West/Central/South Kalimantan). 14 oil mills total: 1 W. Malaysia + 6 Sabah + 7 Indonesia.\n\n5-row breakdown adds named segments to the previous 2-row aggregation:\n- Sabah Malaysia (110K acres + 6 mills): largest Malaysian cluster\n- Peninsular Malaysia (25K acres + 1 mill): smaller W. Malaysia\n- Indonesia Kalimantan (442K acres + 7 mills): largest cluster overall\n- Property development (15K acres): Iskandar Malaysia + 152 ha Sentul Indonesia (RM593M July 2024 acquisition for property development = premium urban-fringe pricing)\n- Genomics R&D placeholder (not land asset)\n\nProperty development segment is meaningful \u2014 GENP combines plantation + Iskandar Malaysia urban land + Indonesian urban property. Per-acre marks vary 100-200x across segments."
 }

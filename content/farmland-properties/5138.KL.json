@@ -2,31 +2,52 @@
   "ticker": "5138.KL",
   "asOf": "2025-09-30",
   "currency": "MYR",
-  "propertiesNote": "Single-row. Hap Seng operates ~39K hectares of palm in Sabah.",
+  "propertiesNote": "2-row breakdown by named Sabah cluster: Tomanggong flagship + Bukit Mas/other.",
   "properties": [
     {
-      "name": "Sabah palm plantations",
-      "location": "Sabah, Malaysia",
-      "acres": 96000,
-      "cropOrUse": "Mature oil palm",
-      "category": "Sabah palm",
-      "fmvPerAcre": 24000,
-      "fmvRationale": "Sabah palm cluster",
+      "name": "Sabah Tomanggong cluster (mature)",
+      "location": "Tomanggong, Sabah, Malaysia",
+      "acres": 50000,
+      "cropOrUse": "Mature oil palm + mill",
+      "category": "Sabah palm \u2014 Tomanggong cluster",
+      "fmvPerAcre": 25000,
+      "fmvRationale": "Hap Seng's flagship Tomanggong (Lahad Datu region) mature plantation",
       "comparablesUsed": [
         "MY-PALM-SABAH-2024"
       ],
-      "bookValueMM": 1500
+      "bookValueMM": 800
+    },
+    {
+      "name": "Sabah Bukit Mas + other estates",
+      "location": "Bukit Mas + Sabah (multiple), Malaysia",
+      "acres": 46000,
+      "cropOrUse": "Mature oil palm + mills",
+      "category": "Sabah palm \u2014 other estates",
+      "fmvPerAcre": 23000,
+      "fmvRationale": "Other Sabah plantation cluster",
+      "comparablesUsed": [
+        "MY-PALM-SABAH-2024"
+      ],
+      "bookValueMM": 700
     }
   ],
   "comparables": [
     {
+      "id": "MY-PALM-SABAH-2024",
       "description": "Malaysian Sabah palm plantation",
       "location": "Sabah, Malaysia",
       "pricePerAcre": 4800,
       "date": "2024-09-15",
-      "source": "Malaysian Palm Oil Board land valuation reports 2024",
-      "id": "MY-PALM-SABAH-2024"
+      "source": "MPOB Sabah 2024"
+    },
+    {
+      "id": "MY-PALM-2025",
+      "description": "Malaysian palm plantation H1 2025 transactions",
+      "location": "Malaysia palm estates",
+      "pricePerAcre": 5400,
+      "date": "2025-04-01",
+      "source": "MPOB + Bursa Malaysia 2025"
     }
   ],
-  "methodology": "Hap Seng Plantations operates ~39K hectares of mature palm in Sabah, Malaysia. Smaller pure-play planter; FY25 saw revenue and net income decline as CPO pricing softened."
+  "methodology": "Hap Seng Plantations operates ~39K hectares of mature palm in Sabah, Malaysia \u2014 one of the smaller pure-play planters in the comp set. 2-row breakdown by named cluster: Tomanggong (Lahad Datu region flagship) + Bukit Mas + smaller estates.\n\nFY25 saw revenue and net income decline materially as CPO pricing softened, but land FMV is structurally stable vs the cattle-market-equivalent CPO cycle."
 }

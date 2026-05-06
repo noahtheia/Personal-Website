@@ -2,40 +2,95 @@
   "ticker": "E5H.SI",
   "asOf": "2024-12-31",
   "currency": "USD",
-  "propertiesNote": "Single-row. Golden Agri-Resources: ~535K hectares \u2014 largest SGX-listed palm operator. USD reporting / SGD listing.",
+  "propertiesNote": "4-row breakdown. Largest SGX palm operator at 500K+ hectares across 11 Indonesian provinces + integrated downstream. USD reporting / SGD listing.",
   "properties": [
     {
-      "name": "Indonesian palm + downstream",
-      "location": "Indonesia (multiple regions)",
-      "acres": 1322000,
-      "cropOrUse": "Mature oil palm + integrated downstream",
-      "category": "Indonesian palm \u2014 diversified",
-      "fmvPerAcre": 4500,
-      "fmvRationale": "Largest SGX-listed palm operator; integrated upstream-downstream \u2014 per-acre lower due to massive scale",
+      "name": "Sumatra plantations (Riau, North Sumatra, Jambi, Lampung, South Sumatra, Bangka-Belitung)",
+      "location": "Sumatra (multiple provinces), Indonesia",
+      "acres": 645000,
+      "cropOrUse": "Mature oil palm + multiple mills",
+      "category": "Indonesian palm \u2014 Sumatra (GAR)",
+      "fmvPerAcre": 5000,
+      "fmvRationale": "Sumatra core cluster across 6 provinces; oldest plantings + largest mill density",
       "comparablesUsed": [
         "ID-PALM-MATURE-2024",
-        "ID-PALM-MATURE-2025"
+        "ID-PALM-NSUMATRA-2024"
       ],
-      "bookValueMM": 6000
+      "bookValueMM": 3200
+    },
+    {
+      "name": "Kalimantan plantations (Central, East, South, West Kalimantan)",
+      "location": "Kalimantan (4 provinces), Indonesia",
+      "acres": 470000,
+      "cropOrUse": "Mature oil palm + mills",
+      "category": "Indonesian palm \u2014 Kalimantan (GAR)",
+      "fmvPerAcre": 4500,
+      "fmvRationale": "Kalimantan plantation cluster across 4 provinces",
+      "comparablesUsed": [
+        "ID-PALM-KALIMANTAN-2024",
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 1900
+    },
+    {
+      "name": "Papua + smaller provinces",
+      "location": "Papua + minor provinces, Indonesia",
+      "acres": 207000,
+      "cropOrUse": "Oil palm \u2014 newer / smaller estates",
+      "category": "Indonesian palm \u2014 Papua/other (GAR)",
+      "fmvPerAcre": 3500,
+      "fmvRationale": "Papua is GAR's newest/smaller cluster at lower per-acre",
+      "comparablesUsed": [
+        "ID-PALM-IMMATURE-2024",
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 600
+    },
+    {
+      "name": "Downstream refining + Brand operations (placeholder)",
+      "location": "Indonesia + global",
+      "acres": 1,
+      "cropOrUse": "Refining + consumer brands (Filma, Mitra)",
+      "category": "Downstream refining (not farmland)",
+      "fmvPerAcre": 300,
+      "fmvRationale": "Per-acre meaningless; placeholder for downstream Net PP&E + brand value",
+      "comparablesUsed": [],
+      "bookValueMM": 300
     }
   ],
   "comparables": [
     {
-      "description": "Indonesian mature oil palm 2025 transactions",
-      "location": "Indonesia mature estates",
-      "pricePerAcre": 5300,
-      "date": "2025-04-15",
-      "source": "GAPKI 2025 land valuation reports",
-      "id": "ID-PALM-MATURE-2025"
-    },
-    {
+      "id": "ID-PALM-MATURE-2024",
       "description": "Indonesian mature oil palm with mill access",
-      "location": "Indonesia (Sumatra/Kalimantan mature estates)",
+      "location": "Indonesia",
       "pricePerAcre": 5000,
       "date": "2024-09-15",
-      "source": "GAPKI Indonesia palm oil land transaction reports 2024",
-      "id": "ID-PALM-MATURE-2024"
+      "source": "GAPKI 2024 reports"
+    },
+    {
+      "id": "ID-PALM-NSUMATRA-2024",
+      "description": "North Sumatra mature palm",
+      "location": "North Sumatra",
+      "pricePerAcre": 5800,
+      "date": "2024-10-15",
+      "source": "Indonesian palm broker comps 2024"
+    },
+    {
+      "id": "ID-PALM-KALIMANTAN-2024",
+      "description": "Kalimantan palm oil concession",
+      "location": "Kalimantan, Indonesia",
+      "pricePerAcre": 4400,
+      "date": "2024-09-30",
+      "source": "Kalimantan palm broker comps 2024"
+    },
+    {
+      "id": "ID-PALM-IMMATURE-2024",
+      "description": "Indonesian unplanted/immature palm",
+      "location": "Indonesia (concession-stage)",
+      "pricePerAcre": 2500,
+      "date": "2024-10-15",
+      "source": "GAPKI 2024 reports"
     }
   ],
-  "methodology": "Golden Agri-Resources is the largest SGX-listed palm operator with ~535K hectares in Indonesia plus integrated downstream refining and marketing. Single-row aggregation given the scale."
+  "methodology": "Golden Agri-Resources (GAR) is the largest SGX-listed palm operator with 500K+ hectares across 11 Indonesian provinces (Sumatra, Kalimantan, Papua) plus integrated downstream refining + consumer brand operations.\n\n4-row breakdown:\n- Sumatra core (645K acres / ~261K ha planted across Riau, North Sumatra, Jambi, Lampung, South Sumatra, Bangka-Belitung)\n- Kalimantan (470K acres / ~190K ha across all 4 Kalimantan provinces)\n- Papua + minor (207K acres / ~84K ha \u2014 smaller and newer cluster)\n- Downstream / brand placeholder\n\nThe downstream segment (Filma, Mitra brands; refining + bulk distribution) is the largest of any palm operator in the comp set. Per-acre values for Papua reflect concession-stage + younger plantings discount."
 }
