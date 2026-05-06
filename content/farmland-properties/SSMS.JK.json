@@ -16,7 +16,9 @@
         "ID-PALM-KALIMANTAN-2024",
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 4200000
+      "bookValueMM": 4200000,
+      "fmvPerAcreLow": 56000000.0,
+      "fmvPerAcreHigh": 84000000.0
     },
     {
       "name": "Plasma smallholder partnerships (Central Kalimantan)",
@@ -29,7 +31,9 @@
       "comparablesUsed": [
         "ID-PALM-IMMATURE-2024"
       ],
-      "bookValueMM": 600000
+      "bookValueMM": 600000,
+      "fmvPerAcreLow": 28000000.0,
+      "fmvPerAcreHigh": 42000000.0
     },
     {
       "name": "Unplanted concession area + reserves",
@@ -42,7 +46,9 @@
       "comparablesUsed": [
         "ID-PALM-IMMATURE-2024"
       ],
-      "bookValueMM": 200000
+      "bookValueMM": 200000,
+      "fmvPerAcreLow": 20000000.0,
+      "fmvPerAcreHigh": 30000000.0
     }
   ],
   "comparables": [

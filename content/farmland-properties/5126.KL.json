@@ -15,7 +15,9 @@
       "comparablesUsed": [
         "MY-PALM-SARAWAK-2024"
       ],
-      "bookValueMM": 3000
+      "bookValueMM": 3000,
+      "fmvPerAcreLow": 20000.0,
+      "fmvPerAcreHigh": 30000.0
     },
     {
       "name": "Sarawak peat-soil estates",
@@ -28,7 +30,9 @@
       "comparablesUsed": [
         "MY-PALM-SARAWAK-2024"
       ],
-      "bookValueMM": 1500
+      "bookValueMM": 1500,
+      "fmvPerAcreLow": 15200.0,
+      "fmvPerAcreHigh": 22800.0
     },
     {
       "name": "Smallholder + plasma partnerships",
@@ -41,7 +45,9 @@
       "comparablesUsed": [
         "MY-PALM-SARAWAK-2024"
       ],
-      "bookValueMM": 500
+      "bookValueMM": 500,
+      "fmvPerAcreLow": 11200.0,
+      "fmvPerAcreHigh": 16800.0
     }
   ],
   "comparables": [

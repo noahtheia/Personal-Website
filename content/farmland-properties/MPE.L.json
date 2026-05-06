@@ -16,7 +16,9 @@
         "ID-PALM-NSUMATRA-2024",
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 105
+      "bookValueMM": 105,
+      "fmvPerAcreLow": 4510.0,
+      "fmvPerAcreHigh": 6490.0
     },
     {
       "name": "South Sumatra (Musi Rawas + 2024 sixth mill)",
@@ -30,7 +32,9 @@
         "ID-PALM-SSUMATRA-2024",
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 50
+      "bookValueMM": 50,
+      "fmvPerAcreLow": 4100.0,
+      "fmvPerAcreHigh": 5900.0
     },
     {
       "name": "Aceh plantations",
@@ -43,7 +47,9 @@
       "comparablesUsed": [
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 35
+      "bookValueMM": 35,
+      "fmvPerAcreLow": 3690.0000000000005,
+      "fmvPerAcreHigh": 5310.0
     },
     {
       "name": "Bangka-Belitung plantations (offshore Sumatra)",
@@ -56,7 +62,9 @@
       "comparablesUsed": [
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 35
+      "bookValueMM": 35,
+      "fmvPerAcreLow": 3690.0000000000005,
+      "fmvPerAcreHigh": 5310.0
     },
     {
       "name": "East Kalimantan \u2014 Bumi Mas estate + mill (mature core)",
@@ -70,7 +78,9 @@
         "ID-PALM-KALIMANTAN-2024",
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 50
+      "bookValueMM": 50,
+      "fmvPerAcreLow": 3936.0000000000005,
+      "fmvPerAcreHigh": 5664.0
     },
     {
       "name": "East Kalimantan \u2014 ABK expansion (2025 new planting)",
@@ -84,7 +94,9 @@
         "ID-PALM-KALIMANTAN-2024",
         "ID-PALM-IMMATURE-2024"
       ],
-      "bookValueMM": 25
+      "bookValueMM": 25,
+      "fmvPerAcreLow": 2870.0,
+      "fmvPerAcreHigh": 4130.0
     }
   ],
   "comparables": [

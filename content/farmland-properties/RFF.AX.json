@@ -17,7 +17,9 @@
         "AU-ALMOND-2025",
         "RFF-FAIRVALUE-2025"
       ],
-      "bookValueMM": 664.6
+      "bookValueMM": 664.6,
+      "fmvPerAcreLow": 55250.0,
+      "fmvPerAcreHigh": 74750.0
     },
     {
       "name": "Cattle stations (21 properties \u2014 16 breeding/finishing + 5 feedlots, 150K head capacity)",
@@ -32,7 +34,9 @@
         "AU-PASTORAL-QLD-2025",
         "RFF-FAIRVALUE-2025"
       ],
-      "bookValueMM": 599.1
+      "bookValueMM": 599.1,
+      "fmvPerAcreLow": 306.0,
+      "fmvPerAcreHigh": 413.99999999999994
     },
     {
       "name": "Vineyards (7 properties)",
@@ -46,7 +50,9 @@
         "AU-VINEYARD-2024",
         "RFF-FAIRVALUE-2025"
       ],
-      "bookValueMM": 65.9
+      "bookValueMM": 65.9,
+      "fmvPerAcreLow": 34000.0,
+      "fmvPerAcreHigh": 46000.0
     },
     {
       "name": "Macadamia orchards (3 mature + 3 development)",
@@ -60,7 +66,9 @@
         "AU-MACADAMIA-2024",
         "RFF-FAIRVALUE-2025"
       ],
-      "bookValueMM": 70.3
+      "bookValueMM": 70.3,
+      "fmvPerAcreLow": 63750.0,
+      "fmvPerAcreHigh": 86250.0
     },
     {
       "name": "Cropping properties (2 properties)",
@@ -75,7 +83,9 @@
         "AU-CROP-2025",
         "RFF-FAIRVALUE-2025"
       ],
-      "bookValueMM": 137.0
+      "bookValueMM": 137.0,
+      "fmvPerAcreLow": 5950.0,
+      "fmvPerAcreHigh": 8049.999999999999
     },
     {
       "name": "Other / development land",
@@ -88,7 +98,9 @@
       "comparablesUsed": [
         "RFF-FAIRVALUE-2025"
       ],
-      "bookValueMM": 50.1
+      "bookValueMM": 50.1,
+      "fmvPerAcreLow": 42500.0,
+      "fmvPerAcreHigh": 57499.99999999999
     }
   ],
   "comparables": [

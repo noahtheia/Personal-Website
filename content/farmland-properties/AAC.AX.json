@@ -15,7 +15,9 @@
       "comparablesUsed": [
         "AU-PASTORAL-NT-2024"
       ],
-      "bookValueMM": 280
+      "bookValueMM": 280,
+      "fmvPerAcreLow": 187.5,
+      "fmvPerAcreHigh": 312.5
     },
     {
       "name": "Headingly",
@@ -28,7 +30,9 @@
       "comparablesUsed": [
         "AU-PASTORAL-QLD-2024"
       ],
-      "bookValueMM": 240
+      "bookValueMM": 240,
+      "fmvPerAcreLow": 210.0,
+      "fmvPerAcreHigh": 350.0
     },
     {
       "name": "Anthony Lagoon / Eva Downs",
@@ -41,7 +45,9 @@
       "comparablesUsed": [
         "AU-PASTORAL-NT-2024"
       ],
-      "bookValueMM": 215
+      "bookValueMM": 215,
+      "fmvPerAcreLow": 187.5,
+      "fmvPerAcreHigh": 312.5
     },
     {
       "name": "Avon Downs / Austral Downs / Camooweal",
@@ -55,7 +61,9 @@
         "AU-PASTORAL-NT-2024",
         "AU-PASTORAL-QLD-2024"
       ],
-      "bookValueMM": 195
+      "bookValueMM": 195,
+      "fmvPerAcreLow": 187.5,
+      "fmvPerAcreHigh": 312.5
     },
     {
       "name": "Canobie",
@@ -68,7 +76,9 @@
       "comparablesUsed": [
         "AU-PASTORAL-QLD-2024"
       ],
-      "bookValueMM": 130
+      "bookValueMM": 130,
+      "fmvPerAcreLow": 210.0,
+      "fmvPerAcreHigh": 350.0
     },
     {
       "name": "Delamere",
@@ -81,7 +91,9 @@
       "comparablesUsed": [
         "AU-PASTORAL-NT-2024"
       ],
-      "bookValueMM": 80
+      "bookValueMM": 80,
+      "fmvPerAcreLow": 210.0,
+      "fmvPerAcreHigh": 350.0
     },
     {
       "name": "Camfield",
@@ -94,7 +106,9 @@
       "comparablesUsed": [
         "AU-PASTORAL-NT-2024"
       ],
-      "bookValueMM": 75
+      "bookValueMM": 75,
+      "fmvPerAcreLow": 210.0,
+      "fmvPerAcreHigh": 350.0
     },
     {
       "name": "Wondoola",
@@ -107,7 +121,9 @@
       "comparablesUsed": [
         "AU-PASTORAL-QLD-2024"
       ],
-      "bookValueMM": 70
+      "bookValueMM": 70,
+      "fmvPerAcreLow": 187.5,
+      "fmvPerAcreHigh": 312.5
     },
     {
       "name": "Dalgonally",
@@ -120,7 +136,9 @@
       "comparablesUsed": [
         "AU-PASTORAL-QLD-2024"
       ],
-      "bookValueMM": 65
+      "bookValueMM": 65,
+      "fmvPerAcreLow": 202.5,
+      "fmvPerAcreHigh": 337.5
     },
     {
       "name": "South Galway",
@@ -133,7 +151,9 @@
       "comparablesUsed": [
         "AU-PASTORAL-QLD-2024"
       ],
-      "bookValueMM": 55
+      "bookValueMM": 55,
+      "fmvPerAcreLow": 180.0,
+      "fmvPerAcreHigh": 300.0
     },
     {
       "name": "Goonoo Station + Feedlot + Farm",
@@ -147,7 +167,9 @@
         "AU-PASTORAL-QLD-2024",
         "AU-CROP-2024"
       ],
-      "bookValueMM": 35
+      "bookValueMM": 35,
+      "fmvPerAcreLow": 600.0,
+      "fmvPerAcreHigh": 1000.0
     },
     {
       "name": "Carrum / Glentana / Wylarah / Aronui (other QLD stations + 2nd feedlot)",
@@ -160,7 +182,9 @@
       "comparablesUsed": [
         "AU-PASTORAL-QLD-2024"
       ],
-      "bookValueMM": 80
+      "bookValueMM": 80,
+      "fmvPerAcreLow": 187.5,
+      "fmvPerAcreHigh": 312.5
     },
     {
       "name": "Owned cropping farms (2 farms)",
@@ -173,7 +197,9 @@
       "comparablesUsed": [
         "AU-CROP-2024"
       ],
-      "bookValueMM": 64
+      "bookValueMM": 64,
+      "fmvPerAcreLow": 3375.0,
+      "fmvPerAcreHigh": 5625.0
     },
     {
       "name": "Other / Montejinni / smaller NT stations",
@@ -186,7 +212,9 @@
       "comparablesUsed": [
         "AU-PASTORAL-NT-2024"
       ],
-      "bookValueMM": 35
+      "bookValueMM": 35,
+      "fmvPerAcreLow": 150.0,
+      "fmvPerAcreHigh": 250.0
     }
   ],
   "comparables": [
@@ -223,5 +251,8 @@
       "source": "Rabobank Australia ag-real-estate trends 2024"
     }
   ],
-  "methodology": "AAC's ~6.5M hectare portfolio expanded from 10-row to 14-row breakdown. Top 7 NT/QLD stations remain individually named; 4 additional QLD stations now named individually based on AACo's investor relations property pages: Wondoola (Gulf Country breeding), Dalgonally (north of Julia Creek backgrounding), South Galway (Channel Country), and Goonoo (Central QLD feedlot + cropping cluster). Smaller stations (Carrum, Glentana, Wylarah, Aronui feedlot) remain aggregated in the \"Other QLD stations\" row.\n\nThe Goonoo cluster (200K acres including feedlot + farming + station) is marked at $800/acre \u2014 well above pure pastoral comps \u2014 to reflect feedlot infrastructure + cropping value.\n\nPer-station book values are allocated by area share of total AAC Net PP&E (AUD 1,723M). AAC doesn't publish per-station book; refining against an internal property valuation report would tighten these. Pastoral comps anchored to Elders Rural / LAWD / Colliers Rural 2024-25 transactions in $230-380 AUD/acre range."
+  "methodology": "AAC's ~6.5M hectare portfolio expanded from 10-row to 14-row breakdown. Top 7 NT/QLD stations remain individually named; 4 additional QLD stations now named individually based on AACo's investor relations property pages: Wondoola (Gulf Country breeding), Dalgonally (north of Julia Creek backgrounding), South Galway (Channel Country), and Goonoo (Central QLD feedlot + cropping cluster). Smaller stations (Carrum, Glentana, Wylarah, Aronui feedlot) remain aggregated in the \"Other QLD stations\" row.\n\nThe Goonoo cluster (200K acres including feedlot + farming + station) is marked at $800/acre \u2014 well above pure pastoral comps \u2014 to reflect feedlot infrastructure + cropping value.\n\nPer-station book values are allocated by area share of total AAC Net PP&E (AUD 1,723M). AAC doesn't publish per-station book; refining against an internal property valuation report would tighten these. Pastoral comps anchored to Elders Rural / LAWD / Colliers Rural 2024-25 transactions in $230-380 AUD/acre range.",
+  "noiCheckCapRateLow": 4.0,
+  "noiCheckCapRateHigh": 7.0,
+  "noiCheckLabel": "Australian pastoral (cattle ops)"
 }

@@ -17,7 +17,9 @@
         "BR-CERRADO-MT-2025",
         "SLC-IR-LANDBANK-2024"
       ],
-      "bookValueMM": 880
+      "bookValueMM": 880,
+      "fmvPerAcreLow": 5904.0,
+      "fmvPerAcreHigh": 8496.0
     },
     {
       "name": "Planeste Unit (LandCo subsidiary)",
@@ -30,7 +32,9 @@
       "comparablesUsed": [
         "BR-CERRADO-NE-MATOPIBA-2024"
       ],
-      "bookValueMM": 620
+      "bookValueMM": 620,
+      "fmvPerAcreLow": 5330.0,
+      "fmvPerAcreHigh": 7670.0
     },
     {
       "name": "Parna\u00edba Unit",
@@ -43,7 +47,9 @@
       "comparablesUsed": [
         "BR-CERRADO-NE-MATOPIBA-2024"
       ],
-      "bookValueMM": 525
+      "bookValueMM": 525,
+      "fmvPerAcreLow": 4756.0,
+      "fmvPerAcreHigh": 6844.0
     },
     {
       "name": "Parnagu\u00e1 Unit (post 2024 expansion)",
@@ -56,7 +62,9 @@
       "comparablesUsed": [
         "BR-CERRADO-NE-MATOPIBA-2024"
       ],
-      "bookValueMM": 290
+      "bookValueMM": 290,
+      "fmvPerAcreLow": 4264.0,
+      "fmvPerAcreHigh": 6136.0
     },
     {
       "name": "Palmares Unit",
@@ -70,7 +78,9 @@
         "BR-CERRADO-WEST-BA-2024",
         "BR-CERRADO-WEST-BA-2025"
       ],
-      "bookValueMM": 545
+      "bookValueMM": 545,
+      "fmvPerAcreLow": 7380.000000000001,
+      "fmvPerAcreHigh": 10620.0
     },
     {
       "name": "Planorte Unit",
@@ -84,7 +94,9 @@
         "BR-CERRADO-MT-2024",
         "BR-CERRADO-MT-2025"
       ],
-      "bookValueMM": 380
+      "bookValueMM": 380,
+      "fmvPerAcreLow": 5904.0,
+      "fmvPerAcreHigh": 8496.0
     },
     {
       "name": "Pioneira Unit (JV with Dois Vales Group)",
@@ -97,7 +109,9 @@
       "comparablesUsed": [
         "BR-CERRADO-NE-MATOPIBA-2024"
       ],
-      "bookValueMM": 305
+      "bookValueMM": 305,
+      "fmvPerAcreLow": 5330.0,
+      "fmvPerAcreHigh": 7670.0
     },
     {
       "name": "Pamplona Unit",
@@ -111,7 +125,9 @@
         "BR-GOIAS-CERRADO-2024",
         "BR-GOIAS-CERRADO-2025"
       ],
-      "bookValueMM": 295
+      "bookValueMM": 295,
+      "fmvPerAcreLow": 6560.000000000001,
+      "fmvPerAcreHigh": 9440.0
     },
     {
       "name": "Parceiro Unit",
@@ -124,7 +140,9 @@
       "comparablesUsed": [
         "BR-CERRADO-WEST-BA-2024"
       ],
-      "bookValueMM": 175
+      "bookValueMM": 175,
+      "fmvPerAcreLow": 6970.000000000001,
+      "fmvPerAcreHigh": 10030.0
     },
     {
       "name": "Panorama Unit (LandCo)",
@@ -137,7 +155,9 @@
       "comparablesUsed": [
         "BR-CERRADO-MT-2024"
       ],
-      "bookValueMM": 380
+      "bookValueMM": 380,
+      "fmvPerAcreLow": 5740.0,
+      "fmvPerAcreHigh": 8260.0
     },
     {
       "name": "Piratini Unit (LandCo)",
@@ -150,7 +170,9 @@
       "comparablesUsed": [
         "BR-CERRADO-MT-2024"
       ],
-      "bookValueMM": 245
+      "bookValueMM": 245,
+      "fmvPerAcreLow": 5576.0,
+      "fmvPerAcreHigh": 8024.0
     },
     {
       "name": "Other named units (Paladino, Parna\u00edba II, Planalto, smaller farms)",
@@ -165,7 +187,9 @@
         "BR-CERRADO-MT-2024",
         "BR-CERRADO-NE-MATOPIBA-2024"
       ],
-      "bookValueMM": 360
+      "bookValueMM": 360,
+      "fmvPerAcreLow": 5166.0,
+      "fmvPerAcreHigh": 7434.0
     }
   ],
   "comparables": [
@@ -235,5 +259,8 @@
       "source": "SLC IR materials 2024 capital markets day"
     }
   ],
-  "methodology": "SLC Agr\u00edcola operates 26 production units across 8 Brazilian states. The original 16-unit portfolio expanded with several recent acquisitions (Pamplona, Pioneira JV with Dois Vales, expanded Parnagu\u00e1 +14,572 ha in 2024). Properties named below are confirmed via SLC IR materials with hectares from 2018-2024 disclosures.\n\nProduction unit naming convention: each SLC unit name starts with \"P\" and has 8 letters (Pamplona, Pioneira, Paiagu\u00e1s, Palmares, Parna\u00edba, Planeste, Planorte, Parceiro, Parnagu\u00e1, Panorama, Piratini, Paladino, etc.) \u2014 a notable corporate idiosyncrasy.\n\nThe 12 named units shown total ~937K acres / ~379K hectares \u2014 about 54% of SLC's total ~700K hectare owned base. Smaller units (Paladino, Parna\u00edba II, Planalto, etc.) aggregated in the final row totaling ~793K acres.\n\nPer-acre FMVs reflect 2024-2025 IMEA, AGEFAZ, and regional broker data:\n- Western Bahia (LEM): R$8,500-10,000/acre \u2014 Palmares, Parceiro\n- Goi\u00e1s Class-A: R$7,500-9,000/acre \u2014 Pamplona\n- Mato Grosso Class-A: R$6,500-8,500/acre \u2014 Paiagu\u00e1s, Planorte, Panorama\n- MS Class-A: R$6,500-7,500/acre \u2014 Piratini  \n- Matopiba (MA/PI/TO): R$5,500-7,500/acre \u2014 Planeste, Parna\u00edba, Pioneira, Parnagu\u00e1\n\nTotal FMV ~R$11.4B vs. ~R$4.5B GAAP cost-basis book reflects Brazilian GAAP accounting + SLC's own internally-disclosed R$15B land bank value at capital markets day 2024.\n\nData caveats:\n- Hectares for Panorama / Piratini are estimates (LandCo subsidiary properties less granularly disclosed)\n- \"Other named units\" aggregate covers ~14 smaller farms; refining individual hectares would tighten the per-region distribution"
+  "methodology": "SLC Agr\u00edcola operates 26 production units across 8 Brazilian states. The original 16-unit portfolio expanded with several recent acquisitions (Pamplona, Pioneira JV with Dois Vales, expanded Parnagu\u00e1 +14,572 ha in 2024). Properties named below are confirmed via SLC IR materials with hectares from 2018-2024 disclosures.\n\nProduction unit naming convention: each SLC unit name starts with \"P\" and has 8 letters (Pamplona, Pioneira, Paiagu\u00e1s, Palmares, Parna\u00edba, Planeste, Planorte, Parceiro, Parnagu\u00e1, Panorama, Piratini, Paladino, etc.) \u2014 a notable corporate idiosyncrasy.\n\nThe 12 named units shown total ~937K acres / ~379K hectares \u2014 about 54% of SLC's total ~700K hectare owned base. Smaller units (Paladino, Parna\u00edba II, Planalto, etc.) aggregated in the final row totaling ~793K acres.\n\nPer-acre FMVs reflect 2024-2025 IMEA, AGEFAZ, and regional broker data:\n- Western Bahia (LEM): R$8,500-10,000/acre \u2014 Palmares, Parceiro\n- Goi\u00e1s Class-A: R$7,500-9,000/acre \u2014 Pamplona\n- Mato Grosso Class-A: R$6,500-8,500/acre \u2014 Paiagu\u00e1s, Planorte, Panorama\n- MS Class-A: R$6,500-7,500/acre \u2014 Piratini  \n- Matopiba (MA/PI/TO): R$5,500-7,500/acre \u2014 Planeste, Parna\u00edba, Pioneira, Parnagu\u00e1\n\nTotal FMV ~R$11.4B vs. ~R$4.5B GAAP cost-basis book reflects Brazilian GAAP accounting + SLC's own internally-disclosed R$15B land bank value at capital markets day 2024.\n\nData caveats:\n- Hectares for Panorama / Piratini are estimates (LandCo subsidiary properties less granularly disclosed)\n- \"Other named units\" aggregate covers ~14 smaller farms; refining individual hectares would tighten the per-region distribution",
+  "noiCheckCapRateLow": 5.0,
+  "noiCheckCapRateHigh": 8.0,
+  "noiCheckLabel": "Brazilian Cerrado row-crop (country-risk adjusted)"
 }

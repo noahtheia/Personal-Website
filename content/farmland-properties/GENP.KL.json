@@ -15,7 +15,9 @@
       "comparablesUsed": [
         "MY-PALM-SABAH-2024"
       ],
-      "bookValueMM": 1400
+      "bookValueMM": 1400,
+      "fmvPerAcreLow": 19200.0,
+      "fmvPerAcreHigh": 28800.0
     },
     {
       "name": "Peninsular Malaysia plantations + 1 mill",
@@ -28,7 +30,9 @@
       "comparablesUsed": [
         "MY-PALM-PEN-2024"
       ],
-      "bookValueMM": 350
+      "bookValueMM": 350,
+      "fmvPerAcreLow": 22400.0,
+      "fmvPerAcreHigh": 33600.0
     },
     {
       "name": "Indonesia plantations (West, Central, South Kalimantan) + 7 mills",
@@ -42,7 +46,9 @@
         "ID-PALM-KALIMANTAN-2024",
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 2700
+      "bookValueMM": 2700,
+      "fmvPerAcreLow": 17600.0,
+      "fmvPerAcreHigh": 26400.0
     },
     {
       "name": "Iskandar Malaysia property development + Indonesian property",
@@ -55,7 +61,9 @@
       "comparablesUsed": [
         "MY-PALM-PEN-2024"
       ],
-      "bookValueMM": 700
+      "bookValueMM": 700,
+      "fmvPerAcreLow": 48000.0,
+      "fmvPerAcreHigh": 72000.0
     },
     {
       "name": "Genomics R&D + biotech subsidiaries",
@@ -66,7 +74,9 @@
       "fmvPerAcre": 100,
       "fmvRationale": "Per-acre meaningless; placeholder for non-land R&D subsidiary",
       "comparablesUsed": [],
-      "bookValueMM": 100
+      "bookValueMM": 100,
+      "fmvPerAcreLow": 80.0,
+      "fmvPerAcreHigh": 120.0
     }
   ],
   "comparables": [
@@ -103,5 +113,8 @@
       "source": "GAPKI 2024 reports"
     }
   ],
-  "methodology": "Genting Plantations is a hybrid palm + property developer with 243,200 ha total landbank including plasma schemes. Plantation footprint: ~64K ha Malaysia (Sabah + Peninsular) + ~178,900 ha Indonesia (West/Central/South Kalimantan). 14 oil mills total: 1 W. Malaysia + 6 Sabah + 7 Indonesia.\n\n5-row breakdown adds named segments to the previous 2-row aggregation:\n- Sabah Malaysia (110K acres + 6 mills): largest Malaysian cluster\n- Peninsular Malaysia (25K acres + 1 mill): smaller W. Malaysia\n- Indonesia Kalimantan (442K acres + 7 mills): largest cluster overall\n- Property development (15K acres): Iskandar Malaysia + 152 ha Sentul Indonesia (RM593M July 2024 acquisition for property development = premium urban-fringe pricing)\n- Genomics R&D placeholder (not land asset)\n\nProperty development segment is meaningful \u2014 GENP combines plantation + Iskandar Malaysia urban land + Indonesian urban property. Per-acre marks vary 100-200x across segments."
+  "methodology": "Genting Plantations is a hybrid palm + property developer with 243,200 ha total landbank including plasma schemes. Plantation footprint: ~64K ha Malaysia (Sabah + Peninsular) + ~178,900 ha Indonesia (West/Central/South Kalimantan). 14 oil mills total: 1 W. Malaysia + 6 Sabah + 7 Indonesia.\n\n5-row breakdown adds named segments to the previous 2-row aggregation:\n- Sabah Malaysia (110K acres + 6 mills): largest Malaysian cluster\n- Peninsular Malaysia (25K acres + 1 mill): smaller W. Malaysia\n- Indonesia Kalimantan (442K acres + 7 mills): largest cluster overall\n- Property development (15K acres): Iskandar Malaysia + 152 ha Sentul Indonesia (RM593M July 2024 acquisition for property development = premium urban-fringe pricing)\n- Genomics R&D placeholder (not land asset)\n\nProperty development segment is meaningful \u2014 GENP combines plantation + Iskandar Malaysia urban land + Indonesian urban property. Per-acre marks vary 100-200x across segments.",
+  "noiCheckCapRateLow": 6.0,
+  "noiCheckCapRateHigh": 9.0,
+  "noiCheckLabel": "Palm oil + property development hybrid"
 }

@@ -16,7 +16,9 @@
         "UA-CROP-CENTRAL-2024",
         "UA-CROP-EU-2024"
       ],
-      "bookValueMM": 130
+      "bookValueMM": 130,
+      "fmvPerAcreLow": 489.99999999999994,
+      "fmvPerAcreHigh": 910.0
     },
     {
       "name": "Khmelnytsky region cropland",
@@ -30,7 +32,9 @@
         "UA-CROP-EU-2024",
         "UA-CROP-CENTRAL-2024"
       ],
-      "bookValueMM": 50
+      "bookValueMM": 50,
+      "fmvPerAcreLow": 525.0,
+      "fmvPerAcreHigh": 975.0
     },
     {
       "name": "Vinnytsia + other regions cropland",
@@ -43,7 +47,9 @@
       "comparablesUsed": [
         "UA-CROP-CENTRAL-2024"
       ],
-      "bookValueMM": 20
+      "bookValueMM": 20,
+      "fmvPerAcreLow": 420.0,
+      "fmvPerAcreHigh": 780.0
     },
     {
       "name": "Sugar plants + soybean processing + biogas + oil extraction (downstream)",
@@ -54,7 +60,9 @@
       "fmvPerAcre": 50,
       "fmvRationale": "Per-acre meaningless; placeholder for industrial assets \u2014 5 sugar refineries, soybean processing 230K MT/yr capacity, biogas, oil extraction. About \u20ac120-150M of fixed assets pre-war",
       "comparablesUsed": [],
-      "bookValueMM": 50
+      "bookValueMM": 50,
+      "fmvPerAcreLow": 35.0,
+      "fmvPerAcreHigh": 65.0
     },
     {
       "name": "Dairy operations + 22,000 head cattle",
@@ -67,7 +75,9 @@
       "comparablesUsed": [
         "UA-CROP-CENTRAL-2024"
       ],
-      "bookValueMM": 30
+      "bookValueMM": 30,
+      "fmvPerAcreLow": 489.99999999999994,
+      "fmvPerAcreHigh": 910.0
     }
   ],
   "comparables": [
@@ -88,5 +98,8 @@
       "source": "Ukrainian agribusiness broker reports 2024 + Astarta/Kernel disclosures"
     }
   ],
-  "methodology": "Astarta Holding refined from 1-row to 5-row breakdown reflecting both geographic and business-segment splits. Per Astarta's own FY24 disclosures:\n- Poltava Oblast: 129,000 ha (60%) \u2014 largest land bank; supports 3 sugar plants (Yareskivsky, Globinsky, Novoorzhytskyi) + soybean processing + biogas + oil extraction at Hlobine\n- Khmelnytsky Oblast: 42,000 ha (20%) \u2014 Western Ukraine, supports Volochysk sugar plant\n- Vinnytsia Oblast: 16,000 ha (7%) + other regions: ~33K ha (13%)\n\nPlus 22,000-head dairy operation with supporting fodder cropland.\n\n5-row breakdown:\n- Poltava cropland (318.7K ac / 129K ha): largest single cluster, central Ukraine\n- Khmelnytsky cropland (103.8K ac / 42K ha): Western Ukraine slight EU-proximity premium\n- Vinnytsia + other (39.5K ac / 16K ha)\n- Downstream processing: 5 sugar plants + soybean + biogas + oil extraction (placeholder, per-acre meaningless)\n- Dairy + fodder support (80K ac including dairy facilities + supporting cropland)\n\nPer-acre marks reflect post-2022 wartime discount. Pre-war Ukrainian cropland traded at $2,000-3,000/acre USD; current 2024 transactions in central regions at $400-800/acre with western Ukraine slightly higher. Astarta's land bank is concentrated in safer central-Ukraine regions.\n\nWartime context: FY25 revenue fell 23% to \u20ac472M as sugar volumes declined; net profit fell 4.2x. Land FMV stable but reflects deep wartime discount. Peace-scenario revaluation back to pre-war levels would imply 3-5x higher per-acre values."
+  "methodology": "Astarta Holding refined from 1-row to 5-row breakdown reflecting both geographic and business-segment splits. Per Astarta's own FY24 disclosures:\n- Poltava Oblast: 129,000 ha (60%) \u2014 largest land bank; supports 3 sugar plants (Yareskivsky, Globinsky, Novoorzhytskyi) + soybean processing + biogas + oil extraction at Hlobine\n- Khmelnytsky Oblast: 42,000 ha (20%) \u2014 Western Ukraine, supports Volochysk sugar plant\n- Vinnytsia Oblast: 16,000 ha (7%) + other regions: ~33K ha (13%)\n\nPlus 22,000-head dairy operation with supporting fodder cropland.\n\n5-row breakdown:\n- Poltava cropland (318.7K ac / 129K ha): largest single cluster, central Ukraine\n- Khmelnytsky cropland (103.8K ac / 42K ha): Western Ukraine slight EU-proximity premium\n- Vinnytsia + other (39.5K ac / 16K ha)\n- Downstream processing: 5 sugar plants + soybean + biogas + oil extraction (placeholder, per-acre meaningless)\n- Dairy + fodder support (80K ac including dairy facilities + supporting cropland)\n\nPer-acre marks reflect post-2022 wartime discount. Pre-war Ukrainian cropland traded at $2,000-3,000/acre USD; current 2024 transactions in central regions at $400-800/acre with western Ukraine slightly higher. Astarta's land bank is concentrated in safer central-Ukraine regions.\n\nWartime context: FY25 revenue fell 23% to \u20ac472M as sugar volumes declined; net profit fell 4.2x. Land FMV stable but reflects deep wartime discount. Peace-scenario revaluation back to pre-war levels would imply 3-5x higher per-acre values.",
+  "noiCheckCapRateLow": 8.0,
+  "noiCheckCapRateHigh": 14.0,
+  "noiCheckLabel": "Ukrainian agriculture (wartime risk premium)"
 }

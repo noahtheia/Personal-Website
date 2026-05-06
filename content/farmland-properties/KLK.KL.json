@@ -16,7 +16,9 @@
         "MY-PALM-PEN-2024",
         "MY-PALM-2025"
       ],
-      "bookValueMM": 5500
+      "bookValueMM": 5500,
+      "fmvPerAcreLow": 22960.0,
+      "fmvPerAcreHigh": 33040.0
     },
     {
       "name": "Sabah Malaysia plantations",
@@ -29,7 +31,9 @@
       "comparablesUsed": [
         "MY-PALM-SABAH-2024"
       ],
-      "bookValueMM": 2400
+      "bookValueMM": 2400,
+      "fmvPerAcreLow": 18040.0,
+      "fmvPerAcreHigh": 25960.0
     },
     {
       "name": "Indonesia plantations (Belitung, Sumatra, Kalimantan)",
@@ -43,7 +47,9 @@
         "ID-PALM-MATURE-2024",
         "ID-PALM-MATURE-2025"
       ],
-      "bookValueMM": 6813
+      "bookValueMM": 6813,
+      "fmvPerAcreLow": 17220.0,
+      "fmvPerAcreHigh": 24780.0
     }
   ],
   "comparables": [

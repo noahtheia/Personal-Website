@@ -16,7 +16,9 @@
         "ID-PALM-MATURE-2024",
         "ID-PALM-NSUMATRA-2024"
       ],
-      "bookValueMM": 700
+      "bookValueMM": 700,
+      "fmvPerAcreLow": 4640.0,
+      "fmvPerAcreHigh": 6960.0
     },
     {
       "name": "East Kalimantan plantation",
@@ -30,7 +32,9 @@
         "ID-PALM-KALIMANTAN-2024",
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 500
+      "bookValueMM": 500,
+      "fmvPerAcreLow": 4240.0,
+      "fmvPerAcreHigh": 6360.0
     },
     {
       "name": "West Kalimantan plantation",
@@ -43,7 +47,9 @@
       "comparablesUsed": [
         "ID-PALM-KALIMANTAN-2024"
       ],
-      "bookValueMM": 300
+      "bookValueMM": 300,
+      "fmvPerAcreLow": 3840.0,
+      "fmvPerAcreHigh": 5760.0
     }
   ],
   "comparables": [

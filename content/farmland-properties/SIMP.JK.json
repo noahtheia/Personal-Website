@@ -16,7 +16,9 @@
         "ID-PALM-MATURE-2024",
         "ID-PALM-NSUMATRA-2024"
       ],
-      "bookValueMM": 18000000
+      "bookValueMM": 18000000,
+      "fmvPerAcreLow": 60000000.0,
+      "fmvPerAcreHigh": 90000000.0
     },
     {
       "name": "Kalimantan oil palm estates",
@@ -30,7 +32,9 @@
         "ID-PALM-KALIMANTAN-2024",
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 8500000
+      "bookValueMM": 8500000,
+      "fmvPerAcreLow": 52000000.0,
+      "fmvPerAcreHigh": 78000000.0
     },
     {
       "name": "Sugarcane plantations + processing",
@@ -43,7 +47,9 @@
       "comparablesUsed": [
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 1500000
+      "bookValueMM": 1500000,
+      "fmvPerAcreLow": 32000000.0,
+      "fmvPerAcreHigh": 48000000.0
     },
     {
       "name": "Tea + smaller specialty estates",
@@ -56,7 +62,9 @@
       "comparablesUsed": [
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 2000000
+      "bookValueMM": 2000000,
+      "fmvPerAcreLow": 48000000.0,
+      "fmvPerAcreHigh": 72000000.0
     }
   ],
   "comparables": [

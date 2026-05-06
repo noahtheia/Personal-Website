@@ -125,7 +125,7 @@ export function FarmlandPropertyDetail({
           />
         </div>
 
-        <NoiCrossCheck filing={filing} fmvMM={fmvMM} fmvLowMM={fmvLowMM} fmvHighMM={fmvHighMM} ccy={ccy} />
+        <NoiCrossCheck filing={filing} detail={detail} fmvMM={fmvMM} fmvLowMM={fmvLowMM} fmvHighMM={fmvHighMM} ccy={ccy} />
       </section>
 
       <section>
@@ -180,12 +180,14 @@ export function FarmlandPropertyDetail({
 //   • Saudi irrigated agriculture:                    6.0–9.0%
 function NoiCrossCheck({
   filing,
+  detail,
   fmvMM,
   fmvLowMM,
   fmvHighMM,
   ccy,
 }: {
   filing: FarmlandFiling;
+  detail: PropertyDetail;
   fmvMM: number;
   fmvLowMM: number;
   fmvHighMM: number;
@@ -198,25 +200,63 @@ function NoiCrossCheck({
   const capAtFmvLow = (noiMM / fmvHighMM) * 100; // higher FMV → lower cap rate
   const capAtFmvHigh = (noiMM / fmvLowMM) * 100;
 
-  // Pick a class-typical cap rate range based on filing.primaryCrops keywords.
-  const crops = filing.primaryCrops.toLowerCase();
-  let typicalLow = 4.0;
-  let typicalHigh = 6.0;
-  let typicalLabel = "Mixed agriculture";
-  if (crops.includes("permanent") || crops.includes("specialty") || crops.includes("avocado") || crops.includes("citrus") || crops.includes("almond") || crops.includes("lemon")) {
-    typicalLow = 3.0; typicalHigh = 4.5; typicalLabel = "US permanent specialty";
-  } else if (crops.includes("row")) {
-    typicalLow = 3.5; typicalHigh = 4.5; typicalLabel = "US row-crop";
-  } else if (crops.includes("palm")) {
-    typicalLow = 7.0; typicalHigh = 10.0; typicalLabel = "Tropical palm oil";
-  } else if (crops.includes("cattle") || crops.includes("pastoral")) {
-    typicalLow = 5.0; typicalHigh = 8.0; typicalLabel = "Pastoral / cattle";
-  } else if (crops.includes("sugar") || crops.includes("cane")) {
-    typicalLow = 5.0; typicalHigh = 7.0; typicalLabel = "Sugar / Cerrado";
-  } else if (crops.includes("dairy")) {
-    typicalLow = 6.0; typicalHigh = 9.0; typicalLabel = "Dairy + supporting farms";
-  } else if (crops.includes("tea") || crops.includes("nuts") || crops.includes("macadamia")) {
-    typicalLow = 4.0; typicalHigh = 6.0; typicalLabel = "Tea / specialty nuts";
+  // Per-issuer cap-rate override takes precedence over keyword detection.
+  let typicalLow: number;
+  let typicalHigh: number;
+  let typicalLabel: string;
+  if (
+    detail.noiCheckCapRateLow !== undefined &&
+    detail.noiCheckCapRateHigh !== undefined
+  ) {
+    typicalLow = detail.noiCheckCapRateLow;
+    typicalHigh = detail.noiCheckCapRateHigh;
+    typicalLabel = detail.noiCheckLabel ?? "Issuer-specific override";
+  } else {
+    // Keyword-based defaults (mid-2025 industry consensus by asset class).
+    const crops = filing.primaryCrops.toLowerCase();
+    typicalLow = 4.0;
+    typicalHigh = 6.0;
+    typicalLabel = "Mixed agriculture";
+    if (
+      crops.includes("permanent") ||
+      crops.includes("specialty") ||
+      crops.includes("avocado") ||
+      crops.includes("citrus") ||
+      crops.includes("almond") ||
+      crops.includes("lemon")
+    ) {
+      typicalLow = 3.0;
+      typicalHigh = 4.5;
+      typicalLabel = "US permanent specialty";
+    } else if (crops.includes("row")) {
+      typicalLow = 3.5;
+      typicalHigh = 4.5;
+      typicalLabel = "US row-crop";
+    } else if (crops.includes("palm")) {
+      typicalLow = 7.0;
+      typicalHigh = 10.0;
+      typicalLabel = "Tropical palm oil";
+    } else if (crops.includes("cattle") || crops.includes("pastoral")) {
+      typicalLow = 5.0;
+      typicalHigh = 8.0;
+      typicalLabel = "Pastoral / cattle";
+    } else if (crops.includes("sugar") || crops.includes("cane")) {
+      typicalLow = 5.0;
+      typicalHigh = 7.0;
+      typicalLabel = "Sugar / Cerrado";
+    } else if (crops.includes("dairy")) {
+      typicalLow = 6.0;
+      typicalHigh = 9.0;
+      typicalLabel = "Dairy + supporting farms";
+    } else if (
+      crops.includes("tea") ||
+      crops.includes("nuts") ||
+      crops.includes("macadamia")
+    ) {
+      typicalLow = 4.0;
+      typicalHigh = 6.0;
+      typicalLabel = "Tea / specialty nuts";
+    }
   }
 
   const inRange = capAtFmv >= typicalLow && capAtFmv <= typicalHigh;

@@ -18,7 +18,9 @@
       ],
       "acquired": "2006-10-01",
       "acquisitionCostMM": 35.9,
-      "bookValueMM": 195
+      "bookValueMM": 195,
+      "fmvPerAcreLow": 5525.0,
+      "fmvPerAcreHigh": 7474.999999999999
     },
     {
       "name": "Jatob\u00e1 Farm",
@@ -35,7 +37,9 @@
       ],
       "acquired": "2007-03-01",
       "acquisitionCostMM": 33.1,
-      "bookValueMM": 360
+      "bookValueMM": 360,
+      "fmvPerAcreLow": 7225.0,
+      "fmvPerAcreHigh": 9775.0
     },
     {
       "name": "Arauc\u00e1ria Farm",
@@ -51,7 +55,9 @@
       ],
       "acquired": "2007-04-01",
       "acquisitionCostMM": 56.2,
-      "bookValueMM": 110
+      "bookValueMM": 110,
+      "fmvPerAcreLow": 9350.0,
+      "fmvPerAcreHigh": 12649.999999999998
     },
     {
       "name": "Alto Taquari Farm (residual)",
@@ -66,7 +72,9 @@
       ],
       "acquired": "2007-08-01",
       "acquisitionCostMM": 33.2,
-      "bookValueMM": 25
+      "bookValueMM": 25,
+      "fmvPerAcreLow": 10200.0,
+      "fmvPerAcreHigh": 13799.999999999998
     },
     {
       "name": "Nova Buriti Farm",
@@ -81,7 +89,9 @@
       ],
       "acquired": "2007-12-01",
       "acquisitionCostMM": 21.6,
-      "bookValueMM": 85
+      "bookValueMM": 85,
+      "fmvPerAcreLow": 2975.0,
+      "fmvPerAcreHigh": 4024.9999999999995
     },
     {
       "name": "Parceria I (Bahia)",
@@ -95,7 +105,9 @@
         "BR-CERRADO-WEST-BA-2024"
       ],
       "acquired": "2011-09-01",
-      "bookValueMM": 60
+      "bookValueMM": 60,
+      "fmvPerAcreLow": 7225.0,
+      "fmvPerAcreHigh": 9775.0
     },
     {
       "name": "Cresca S.A. (50% JV in Paraguay)",
@@ -110,7 +122,9 @@
       ],
       "acquired": "2013-12-01",
       "acquisitionCostMM": 62.0,
-      "bookValueMM": 145
+      "bookValueMM": 145,
+      "fmvPerAcreLow": 3825.0,
+      "fmvPerAcreHigh": 5175.0
     },
     {
       "name": "Parceria II (Piau\u00ed)",
@@ -124,7 +138,9 @@
         "BR-CERRADO-NE-MATOPIBA-2024"
       ],
       "acquired": "2013-11-01",
-      "bookValueMM": 50
+      "bookValueMM": 50,
+      "fmvPerAcreLow": 5100.0,
+      "fmvPerAcreHigh": 6899.999999999999
     },
     {
       "name": "Bolivian operations",
@@ -138,7 +154,9 @@
         "BO-SANTA-CRUZ-2024"
       ],
       "acquired": "2014-01-01",
-      "bookValueMM": 110
+      "bookValueMM": 110,
+      "fmvPerAcreLow": 2975.0,
+      "fmvPerAcreHigh": 4024.9999999999995
     },
     {
       "name": "Other Brazilian farms (post-2014 acquisitions)",
@@ -152,7 +170,9 @@
         "BR-CERRADO-MT-2024",
         "BR-CERRADO-WEST-BA-2024"
       ],
-      "bookValueMM": 245
+      "bookValueMM": 245,
+      "fmvPerAcreLow": 5950.0,
+      "fmvPerAcreHigh": 8049.999999999999
     }
   ],
   "comparables": [
@@ -249,5 +269,8 @@
       "source": "CAO Bolivia + INE land surveys 2024"
     }
   ],
-  "methodology": "BrasilAgro publicly discloses its property portfolio with farm names, hectares, and acquisition dates \u2014 making it possible to build a per-farm FMV table directly from filings. The 9 named farms shown below total ~498K acres (~78% of total ~625K acre portfolio); remaining post-2014 acquisitions are aggregated.\n\nThree real-world data points anchor the FMV analysis:\n1. Deloitte third-party appraisal of the entire portfolio at R$3.5B (June 2025) \u2014 the cleanest external mark\n2. Chaparral Farm sale: 37,183 ha for R$364.5M (March 2024) = ~R$9,800/hectare = ~R$3,970/acre\n3. Prefer\u00eancia Farm sale: 17,799 ha for R$141.4M (June 2025) = ~R$7,940/hectare = ~R$3,213/acre\n4. Original company strategy is acquire \u2192 develop \u2192 sell: documented appreciation from acquisition cost to sale prices over 5-15 year hold periods\n\nPer-region FMV anchors (all 2024-2025):\n- Western Bahia (LEM): R$8,500-10,000/acre \u2014 Jatob\u00e1, Parceria I\n- Northeast Matopiba (PI/TO): R$5,500-7,500/acre \u2014 Cremaq, Parceria II\n- Mato Grosso sugarcane (mill-supply): R$11,500/acre \u2014 Alto Taquari residual\n- Goi\u00e1s sugarcane: R$11,000/acre \u2014 Arauc\u00e1ria\n- Minas Gerais forestry: R$3,500/acre \u2014 Nova Buriti\n\nThe R$3.5B Deloitte mark / 252K hectares = ~R$5,580/acre weighted is the portfolio-level reality check. My per-farm aggregation totals slightly above the Deloitte mark, reflecting more granular per-region pricing than a single-portfolio-average appraisal."
+  "methodology": "BrasilAgro publicly discloses its property portfolio with farm names, hectares, and acquisition dates \u2014 making it possible to build a per-farm FMV table directly from filings. The 9 named farms shown below total ~498K acres (~78% of total ~625K acre portfolio); remaining post-2014 acquisitions are aggregated.\n\nThree real-world data points anchor the FMV analysis:\n1. Deloitte third-party appraisal of the entire portfolio at R$3.5B (June 2025) \u2014 the cleanest external mark\n2. Chaparral Farm sale: 37,183 ha for R$364.5M (March 2024) = ~R$9,800/hectare = ~R$3,970/acre\n3. Prefer\u00eancia Farm sale: 17,799 ha for R$141.4M (June 2025) = ~R$7,940/hectare = ~R$3,213/acre\n4. Original company strategy is acquire \u2192 develop \u2192 sell: documented appreciation from acquisition cost to sale prices over 5-15 year hold periods\n\nPer-region FMV anchors (all 2024-2025):\n- Western Bahia (LEM): R$8,500-10,000/acre \u2014 Jatob\u00e1, Parceria I\n- Northeast Matopiba (PI/TO): R$5,500-7,500/acre \u2014 Cremaq, Parceria II\n- Mato Grosso sugarcane (mill-supply): R$11,500/acre \u2014 Alto Taquari residual\n- Goi\u00e1s sugarcane: R$11,000/acre \u2014 Arauc\u00e1ria\n- Minas Gerais forestry: R$3,500/acre \u2014 Nova Buriti\n\nThe R$3.5B Deloitte mark / 252K hectares = ~R$5,580/acre weighted is the portfolio-level reality check. My per-farm aggregation totals slightly above the Deloitte mark, reflecting more granular per-region pricing than a single-portfolio-average appraisal.",
+  "noiCheckCapRateLow": 5.0,
+  "noiCheckCapRateHigh": 8.0,
+  "noiCheckLabel": "Brazilian Cerrado mixed (country-risk adjusted)"
 }

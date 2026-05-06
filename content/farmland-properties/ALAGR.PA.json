@@ -15,7 +15,9 @@
       "comparablesUsed": [
         "UA-CROP-FRONTLINE-2024"
       ],
-      "bookValueMM": 3
+      "bookValueMM": 3,
+      "fmvPerAcreLow": 120.0,
+      "fmvPerAcreHigh": 280.0
     }
   ],
   "comparables": [
@@ -28,5 +30,8 @@
       "source": "Ukrainian Land Reform 2024 reports + AgroGeneration FY24 disclosures"
     }
   ],
-  "methodology": "AgroGeneration is a French-listed micro-cap Ukrainian operator. The cultivated area of 28,500 hectares is predominantly LEASED, not owned \u2014 only ~\u20ac3M of the \u20ac11M total equity is in fixed-asset land book.\n\nSingle-row aggregation is appropriate because:\n1. The owned land base is too small to meaningfully split\n2. The cultivated area is frontline-adjacent in Eastern Ukraine (Kharkiv + Sumy regions) at deep wartime discount\n3. The company's real value is in working capital, biological assets, and ongoing-business operations \u2014 not land\n\nThe implied NAV/share at FMV doesn't mean much for ALAGR \u2014 reading equity value from the property table will mislead. The \u20ac5.7M operating EBITDA (excluding war expenses) is the more relevant signal."
+  "methodology": "AgroGeneration is a French-listed micro-cap Ukrainian operator. The cultivated area of 28,500 hectares is predominantly LEASED, not owned \u2014 only ~\u20ac3M of the \u20ac11M total equity is in fixed-asset land book.\n\nSingle-row aggregation is appropriate because:\n1. The owned land base is too small to meaningfully split\n2. The cultivated area is frontline-adjacent in Eastern Ukraine (Kharkiv + Sumy regions) at deep wartime discount\n3. The company's real value is in working capital, biological assets, and ongoing-business operations \u2014 not land\n\nThe implied NAV/share at FMV doesn't mean much for ALAGR \u2014 reading equity value from the property table will mislead. The \u20ac5.7M operating EBITDA (excluding war expenses) is the more relevant signal.",
+  "noiCheckCapRateLow": 10.0,
+  "noiCheckCapRateHigh": 20.0,
+  "noiCheckLabel": "Frontline Ukrainian operator (mostly leased)"
 }

@@ -16,7 +16,9 @@
         "ID-PALM-KALIMANTAN-2024",
         "ID-PALM-IMMATURE-2024"
       ],
-      "bookValueMM": 4000000
+      "bookValueMM": 4000000,
+      "fmvPerAcreLow": 41250000.0,
+      "fmvPerAcreHigh": 68750000.0
     },
     {
       "name": "Sumatra plantations",
@@ -29,7 +31,9 @@
       "comparablesUsed": [
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 1200000
+      "bookValueMM": 1200000,
+      "fmvPerAcreLow": 37500000.0,
+      "fmvPerAcreHigh": 62500000.0
     },
     {
       "name": "Sulawesi + smaller / unplanted concession",
@@ -42,7 +46,9 @@
       "comparablesUsed": [
         "ID-PALM-IMMATURE-2024"
       ],
-      "bookValueMM": 800000
+      "bookValueMM": 800000,
+      "fmvPerAcreLow": 22500000.0,
+      "fmvPerAcreHigh": 37500000.0
     }
   ],
   "comparables": [

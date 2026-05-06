@@ -16,7 +16,9 @@
         "MY-PALM-PEN-2024",
         "MY-PALM-2025"
       ],
-      "bookValueMM": 3000
+      "bookValueMM": 3000,
+      "fmvPerAcreLow": 27200.0,
+      "fmvPerAcreHigh": 36800.0
     },
     {
       "name": "Peninsular Malaysia coconut estates",
@@ -29,7 +31,9 @@
       "comparablesUsed": [
         "MY-PALM-PEN-2024"
       ],
-      "bookValueMM": 320
+      "bookValueMM": 320,
+      "fmvPerAcreLow": 23800.0,
+      "fmvPerAcreHigh": 32199.999999999996
     },
     {
       "name": "Indonesia oil palm + 1 mill",
@@ -42,7 +46,9 @@
       "comparablesUsed": [
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 800
+      "bookValueMM": 800,
+      "fmvPerAcreLow": 22100.0,
+      "fmvPerAcreHigh": 29899.999999999996
     },
     {
       "name": "Specialty refineries (Unitata + Unifuji) \u2014 downstream",
@@ -53,7 +59,9 @@
       "fmvPerAcre": 380,
       "fmvRationale": "Two specialty refineries \u2014 Unitata (specialty fats) + Unifuji (chocolate-fat blends). Per-acre column meaningless; placeholder for downstream Net PP&E",
       "comparablesUsed": [],
-      "bookValueMM": 380
+      "bookValueMM": 380,
+      "fmvPerAcreLow": 323.0,
+      "fmvPerAcreHigh": 436.99999999999994
     }
   ],
   "comparables": [

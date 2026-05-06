@@ -54,5 +54,8 @@
       "source": "Kenya Tea Development Agency land reports 2024"
     }
   ],
-  "methodology": "Williamson Tea Kenya operates two named tea estate clusters plus timber land. 3-row breakdown:\n- Kapchorua Tea Company estates (Nandi Hills): mature tea with factory\n- Williamson Tea Kenya estates (Tinderet area): mature tea with factory\n- Eastern Highlands timber + minor diversified\n\nPer-acre marks (KSh 200,000-250,000/acre) translate to ~$2,000-2,500 USD/acre at KES 100/USD \u2014 at the high end of Kenyan tea estate transactions per KTDA 2024 broker comps.\n\nWilliamson's book value reflects decades-old colonial-era cost basis, materially below current market. Yahoo coverage of Nairobi tickers is spotty so live-price portion of comp may not resolve."
+  "methodology": "Williamson Tea Kenya operates two named tea estate clusters plus timber land. 3-row breakdown:\n- Kapchorua Tea Company estates (Nandi Hills): mature tea with factory\n- Williamson Tea Kenya estates (Tinderet area): mature tea with factory\n- Eastern Highlands timber + minor diversified\n\nPer-acre marks (KSh 200,000-250,000/acre) translate to ~$2,000-2,500 USD/acre at KES 100/USD \u2014 at the high end of Kenyan tea estate transactions per KTDA 2024 broker comps.\n\nWilliamson's book value reflects decades-old colonial-era cost basis, materially below current market. Yahoo coverage of Nairobi tickers is spotty so live-price portion of comp may not resolve.",
+  "noiCheckCapRateLow": 6.0,
+  "noiCheckCapRateHigh": 10.0,
+  "noiCheckLabel": "Kenyan tea (emerging market premium)"
 }

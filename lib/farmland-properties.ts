@@ -53,6 +53,13 @@ const PropertyDetailSchema = z.object({
   properties: z.array(PropertySchema),
   comparables: z.array(ComparableSchema),
   methodology: z.string(),
+  // Optional per-issuer asset-class cap rate range used by the NOI
+  // cross-check. When set, overrides the keyword-based defaults so
+  // hybrid issuers (e.g. Almarai mostly dairy + small farmland) get
+  // benchmarked against the right yield range.
+  noiCheckCapRateLow: z.number().positive().optional(),
+  noiCheckCapRateHigh: z.number().positive().optional(),
+  noiCheckLabel: z.string().optional(),
 });
 
 export type Property = z.infer<typeof PropertySchema>;

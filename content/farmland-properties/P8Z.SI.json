@@ -16,7 +16,9 @@
         "ID-PALM-KALIMANTAN-2024",
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 8000000
+      "bookValueMM": 8000000,
+      "fmvPerAcreLow": 64000000.0,
+      "fmvPerAcreHigh": 96000000.0
     },
     {
       "name": "West Kalimantan estates (Tonam Raya + others)",
@@ -29,7 +31,9 @@
       "comparablesUsed": [
         "ID-PALM-KALIMANTAN-2024"
       ],
-      "bookValueMM": 5500000
+      "bookValueMM": 5500000,
+      "fmvPerAcreLow": 60000000.0,
+      "fmvPerAcreHigh": 90000000.0
     },
     {
       "name": "Riau (small position)",
@@ -42,7 +46,9 @@
       "comparablesUsed": [
         "ID-PALM-NSUMATRA-2024"
       ],
-      "bookValueMM": 200000
+      "bookValueMM": 200000,
+      "fmvPerAcreLow": 64000000.0,
+      "fmvPerAcreHigh": 96000000.0
     },
     {
       "name": "Plasma + smallholder partnerships",
@@ -55,7 +61,9 @@
       "comparablesUsed": [
         "ID-PALM-IMMATURE-2024"
       ],
-      "bookValueMM": 300000
+      "bookValueMM": 300000,
+      "fmvPerAcreLow": 32000000.0,
+      "fmvPerAcreHigh": 48000000.0
     }
   ],
   "comparables": [

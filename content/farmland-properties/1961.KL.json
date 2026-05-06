@@ -16,7 +16,9 @@
         "MY-PALM-PEN-2024",
         "MY-PALM-2025"
       ],
-      "bookValueMM": 2700
+      "bookValueMM": 2700,
+      "fmvPerAcreLow": 21320.0,
+      "fmvPerAcreHigh": 30680.0
     },
     {
       "name": "Sabah Malaysia plantation",
@@ -29,7 +31,9 @@
       "comparablesUsed": [
         "MY-PALM-SABAH-2024"
       ],
-      "bookValueMM": 2700
+      "bookValueMM": 2700,
+      "fmvPerAcreLow": 18040.0,
+      "fmvPerAcreHigh": 25960.0
     },
     {
       "name": "Indonesia plantation (subsidiary)",
@@ -42,7 +46,9 @@
       "comparablesUsed": [
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 4000
+      "bookValueMM": 4000,
+      "fmvPerAcreLow": 18040.0,
+      "fmvPerAcreHigh": 25960.0
     },
     {
       "name": "Resource-based manufacturing (Loders Croklaan was sold; current oleochemicals + specialty)",
@@ -53,7 +59,9 @@
       "fmvPerAcre": 33,
       "fmvRationale": "Placeholder for downstream Net PP&E not allocated to plantation acres; the per-acre column is meaningless for this row",
       "comparablesUsed": [],
-      "bookValueMM": 33
+      "bookValueMM": 33,
+      "fmvPerAcreLow": 27.060000000000002,
+      "fmvPerAcreHigh": 38.94
     }
   ],
   "comparables": [

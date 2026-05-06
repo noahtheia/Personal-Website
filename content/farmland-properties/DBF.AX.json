@@ -17,7 +17,9 @@
         "AU-DRYLAND-2025",
         "AU-CROP-2024"
       ],
-      "bookValueMM": 25
+      "bookValueMM": 25,
+      "fmvPerAcreLow": 1760.0,
+      "fmvPerAcreHigh": 2640.0
     },
     {
       "name": "Cowaribin / Kentucky / Merriment NSW",
@@ -32,7 +34,9 @@
         "AU-DRYLAND-2025",
         "DBF-COWARIBIN-2024"
       ],
-      "bookValueMM": 12
+      "bookValueMM": 12,
+      "fmvPerAcreLow": 1360.0,
+      "fmvPerAcreHigh": 2040.0
     },
     {
       "name": "Vineyards (Euston + Wemen, NSW dried-grape)",
@@ -45,7 +49,9 @@
       "comparablesUsed": [
         "AU-VINEYARD-2024"
       ],
-      "bookValueMM": 31
+      "bookValueMM": 31,
+      "fmvPerAcreLow": 17600.0,
+      "fmvPerAcreHigh": 26400.0
     },
     {
       "name": "Northern Territory + Western Australia transition",
@@ -58,7 +64,9 @@
       "comparablesUsed": [
         "AU-DRYLAND-2024"
       ],
-      "bookValueMM": 41
+      "bookValueMM": 41,
+      "fmvPerAcreLow": 1200.0,
+      "fmvPerAcreHigh": 1800.0
     }
   ],
   "comparables": [
