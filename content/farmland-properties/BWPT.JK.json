@@ -18,7 +18,9 @@
       ],
       "bookValueMM": 4000000,
       "fmvPerAcreLow": 41250000.0,
-      "fmvPerAcreHigh": 68750000.0
+      "fmvPerAcreHigh": 68750000.0,
+      "capRateLow": 8.5,
+      "capRateHigh": 11.5
     },
     {
       "name": "Sumatra plantations",
@@ -33,7 +35,9 @@
       ],
       "bookValueMM": 1200000,
       "fmvPerAcreLow": 37500000.0,
-      "fmvPerAcreHigh": 62500000.0
+      "fmvPerAcreHigh": 62500000.0,
+      "capRateLow": 8.5,
+      "capRateHigh": 11.5
     },
     {
       "name": "Sulawesi + smaller / unplanted concession",
@@ -48,7 +52,9 @@
       ],
       "bookValueMM": 800000,
       "fmvPerAcreLow": 22500000.0,
-      "fmvPerAcreHigh": 37500000.0
+      "fmvPerAcreHigh": 37500000.0,
+      "capRateLow": 10.0,
+      "capRateHigh": 14.0
     }
   ],
   "comparables": [

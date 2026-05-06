@@ -15,7 +15,9 @@
       "comparablesUsed": [
         "KE-TEA-2024"
       ],
-      "bookValueMM": 1500
+      "bookValueMM": 1500,
+      "capRateLow": 6.0,
+      "capRateHigh": 9.0
     },
     {
       "name": "Williamson Tea Kenya estates (Tinderet area)",
@@ -28,7 +30,9 @@
       "comparablesUsed": [
         "KE-TEA-2024"
       ],
-      "bookValueMM": 1300
+      "bookValueMM": 1300,
+      "capRateLow": 6.0,
+      "capRateHigh": 9.0
     },
     {
       "name": "Eastern Highlands timber + minor diversified",
@@ -41,7 +45,9 @@
       "comparablesUsed": [
         "KE-TEA-2024"
       ],
-      "bookValueMM": 200
+      "bookValueMM": 200,
+      "capRateLow": 5.5,
+      "capRateHigh": 8.0
     }
   ],
   "comparables": [

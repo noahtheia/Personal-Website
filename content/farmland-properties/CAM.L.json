@@ -16,7 +16,9 @@
         "KE-TEA-2024",
         "TZ-AVO-MACADAMIA-2024"
       ],
-      "bookValueMM": 50
+      "bookValueMM": 50,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.5
     },
     {
       "name": "Eastern Produce Kenya \u2014 tea estates",
@@ -29,7 +31,9 @@
       "comparablesUsed": [
         "KE-TEA-2024"
       ],
-      "bookValueMM": 50
+      "bookValueMM": 50,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.5
     },
     {
       "name": "Eastern Produce Malawi \u2014 tea + macadamia",
@@ -43,7 +47,9 @@
         "KE-TEA-2024",
         "TZ-AVO-MACADAMIA-2024"
       ],
-      "bookValueMM": 35
+      "bookValueMM": 35,
+      "capRateLow": 5.5,
+      "capRateHigh": 8.0
     },
     {
       "name": "Bangladesh tea estates + 14 factories + 2 rubber facilities",
@@ -56,7 +62,9 @@
       "comparablesUsed": [
         "KE-TEA-2024"
       ],
-      "bookValueMM": 35
+      "bookValueMM": 35,
+      "capRateLow": 5.5,
+      "capRateHigh": 8.0
     },
     {
       "name": "India tea (Goodricke 25% stake)",
@@ -69,7 +77,9 @@
       "comparablesUsed": [
         "KE-TEA-2024"
       ],
-      "bookValueMM": 10
+      "bookValueMM": 10,
+      "capRateLow": 5.5,
+      "capRateHigh": 8.0
     },
     {
       "name": "South Africa + Tanzania ag operations",
@@ -82,7 +92,9 @@
       "comparablesUsed": [
         "TZ-AVO-MACADAMIA-2024"
       ],
-      "bookValueMM": 15
+      "bookValueMM": 15,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
     },
     {
       "name": "Other / arable land in UK + minor positions",
@@ -93,7 +105,9 @@
       "fmvPerAcre": 8000,
       "fmvRationale": "UK arable land at higher per-acre",
       "comparablesUsed": [],
-      "bookValueMM": 5
+      "bookValueMM": 5,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
     }
   ],
   "comparables": [

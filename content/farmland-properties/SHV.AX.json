@@ -16,7 +16,9 @@
         "AU-ALMOND-2024",
         "AU-ALMOND-2025"
       ],
-      "bookValueMM": 165
+      "bookValueMM": 165,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
     },
     {
       "name": "Piangil orchards (acquired 2024 for A$129M)",
@@ -30,7 +32,9 @@
         "SHV-PIANGIL-2024",
         "AU-ALMOND-2025"
       ],
-      "bookValueMM": 126
+      "bookValueMM": 126,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
     },
     {
       "name": "Other Sunraysia orchards (Robinvale region)",
@@ -43,7 +47,9 @@
       "comparablesUsed": [
         "AU-ALMOND-2024"
       ],
-      "bookValueMM": 50
+      "bookValueMM": 50,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
     },
     {
       "name": "Loxton orchards (SA Riverland)",
@@ -57,7 +63,9 @@
         "AU-ALMOND-2024",
         "AU-ALMOND-2025"
       ],
-      "bookValueMM": 110
+      "bookValueMM": 110,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Paringa orchards (SA Riverland)",
@@ -70,7 +78,9 @@
       "comparablesUsed": [
         "AU-ALMOND-2024"
       ],
-      "bookValueMM": 70
+      "bookValueMM": 70,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Riverina orchards (NSW)",
@@ -83,7 +93,9 @@
       "comparablesUsed": [
         "AU-ALMOND-2024"
       ],
-      "bookValueMM": 75
+      "bookValueMM": 75,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
     }
   ],
   "comparables": [

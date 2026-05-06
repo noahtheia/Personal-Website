@@ -18,7 +18,9 @@
       ],
       "bookValueMM": 5500,
       "fmvPerAcreLow": 22960.0,
-      "fmvPerAcreHigh": 33040.0
+      "fmvPerAcreHigh": 33040.0,
+      "capRateLow": 7.0,
+      "capRateHigh": 9.5
     },
     {
       "name": "Sabah Malaysia plantations",
@@ -33,7 +35,9 @@
       ],
       "bookValueMM": 2400,
       "fmvPerAcreLow": 18040.0,
-      "fmvPerAcreHigh": 25960.0
+      "fmvPerAcreHigh": 25960.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Indonesia plantations (Belitung, Sumatra, Kalimantan)",
@@ -49,7 +53,9 @@
       ],
       "bookValueMM": 6813,
       "fmvPerAcreLow": 17220.0,
-      "fmvPerAcreHigh": 24780.0
+      "fmvPerAcreHigh": 24780.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     }
   ],
   "comparables": [

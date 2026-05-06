@@ -17,7 +17,9 @@
       ],
       "bookValueMM": 3000,
       "fmvPerAcreLow": 20000.0,
-      "fmvPerAcreHigh": 30000.0
+      "fmvPerAcreHigh": 30000.0,
+      "capRateLow": 7.0,
+      "capRateHigh": 9.5
     },
     {
       "name": "Sarawak peat-soil estates",
@@ -32,7 +34,9 @@
       ],
       "bookValueMM": 1500,
       "fmvPerAcreLow": 15200.0,
-      "fmvPerAcreHigh": 22800.0
+      "fmvPerAcreHigh": 22800.0,
+      "capRateLow": 8.0,
+      "capRateHigh": 11.0
     },
     {
       "name": "Smallholder + plasma partnerships",
@@ -47,7 +51,9 @@
       ],
       "bookValueMM": 500,
       "fmvPerAcreLow": 11200.0,
-      "fmvPerAcreHigh": 16800.0
+      "fmvPerAcreHigh": 16800.0,
+      "capRateLow": 10.0,
+      "capRateHigh": 14.0
     }
   ],
   "comparables": [

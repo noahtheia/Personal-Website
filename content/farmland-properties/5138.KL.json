@@ -17,7 +17,9 @@
       ],
       "bookValueMM": 800,
       "fmvPerAcreLow": 20500.0,
-      "fmvPerAcreHigh": 29500.0
+      "fmvPerAcreHigh": 29500.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Sabah Bukit Mas + other estates",
@@ -32,7 +34,9 @@
       ],
       "bookValueMM": 700,
       "fmvPerAcreLow": 18860.0,
-      "fmvPerAcreHigh": 27140.0
+      "fmvPerAcreHigh": 27140.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     }
   ],
   "comparables": [

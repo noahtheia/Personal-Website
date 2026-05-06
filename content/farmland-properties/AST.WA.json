@@ -18,7 +18,9 @@
       ],
       "bookValueMM": 130,
       "fmvPerAcreLow": 489.99999999999994,
-      "fmvPerAcreHigh": 910.0
+      "fmvPerAcreHigh": 910.0,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0
     },
     {
       "name": "Khmelnytsky region cropland",
@@ -34,7 +36,9 @@
       ],
       "bookValueMM": 50,
       "fmvPerAcreLow": 525.0,
-      "fmvPerAcreHigh": 975.0
+      "fmvPerAcreHigh": 975.0,
+      "capRateLow": 7.0,
+      "capRateHigh": 11.0
     },
     {
       "name": "Vinnytsia + other regions cropland",
@@ -49,7 +53,9 @@
       ],
       "bookValueMM": 20,
       "fmvPerAcreLow": 420.0,
-      "fmvPerAcreHigh": 780.0
+      "fmvPerAcreHigh": 780.0,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0
     },
     {
       "name": "Sugar plants + soybean processing + biogas + oil extraction (downstream)",
@@ -62,7 +68,9 @@
       "comparablesUsed": [],
       "bookValueMM": 50,
       "fmvPerAcreLow": 35.0,
-      "fmvPerAcreHigh": 65.0
+      "fmvPerAcreHigh": 65.0,
+      "capRateLow": 8.0,
+      "capRateHigh": 12.0
     },
     {
       "name": "Dairy operations + 22,000 head cattle",
@@ -77,7 +85,9 @@
       ],
       "bookValueMM": 30,
       "fmvPerAcreLow": 489.99999999999994,
-      "fmvPerAcreHigh": 910.0
+      "fmvPerAcreHigh": 910.0,
+      "capRateLow": 8.0,
+      "capRateHigh": 12.0
     }
   ],
   "comparables": [

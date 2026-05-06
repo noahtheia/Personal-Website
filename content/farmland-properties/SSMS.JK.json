@@ -18,7 +18,9 @@
       ],
       "bookValueMM": 4200000,
       "fmvPerAcreLow": 56000000.0,
-      "fmvPerAcreHigh": 84000000.0
+      "fmvPerAcreHigh": 84000000.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Plasma smallholder partnerships (Central Kalimantan)",
@@ -33,7 +35,9 @@
       ],
       "bookValueMM": 600000,
       "fmvPerAcreLow": 28000000.0,
-      "fmvPerAcreHigh": 42000000.0
+      "fmvPerAcreHigh": 42000000.0,
+      "capRateLow": 10.0,
+      "capRateHigh": 14.0
     },
     {
       "name": "Unplanted concession area + reserves",
@@ -48,7 +52,9 @@
       ],
       "bookValueMM": 200000,
       "fmvPerAcreLow": 20000000.0,
-      "fmvPerAcreHigh": 30000000.0
+      "fmvPerAcreHigh": 30000000.0,
+      "capRateLow": 10.0,
+      "capRateHigh": 14.0
     }
   ],
   "comparables": [

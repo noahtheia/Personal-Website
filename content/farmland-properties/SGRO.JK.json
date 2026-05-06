@@ -18,7 +18,9 @@
       ],
       "bookValueMM": 3500000,
       "fmvPerAcreLow": 56000000.0,
-      "fmvPerAcreHigh": 84000000.0
+      "fmvPerAcreHigh": 84000000.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Kalimantan oil palm estates",
@@ -33,7 +35,9 @@
       ],
       "bookValueMM": 800000,
       "fmvPerAcreLow": 52000000.0,
-      "fmvPerAcreHigh": 78000000.0
+      "fmvPerAcreHigh": 78000000.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Sago palm operations (specialty)",
@@ -48,7 +52,9 @@
       ],
       "bookValueMM": 200000,
       "fmvPerAcreLow": 28000000.0,
-      "fmvPerAcreHigh": 42000000.0
+      "fmvPerAcreHigh": 42000000.0,
+      "capRateLow": 9.0,
+      "capRateHigh": 12.0
     }
   ],
   "comparables": [

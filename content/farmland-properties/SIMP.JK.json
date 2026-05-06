@@ -18,7 +18,9 @@
       ],
       "bookValueMM": 18000000,
       "fmvPerAcreLow": 60000000.0,
-      "fmvPerAcreHigh": 90000000.0
+      "fmvPerAcreHigh": 90000000.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Kalimantan oil palm estates",
@@ -34,7 +36,9 @@
       ],
       "bookValueMM": 8500000,
       "fmvPerAcreLow": 52000000.0,
-      "fmvPerAcreHigh": 78000000.0
+      "fmvPerAcreHigh": 78000000.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Sugarcane plantations + processing",
@@ -49,7 +53,9 @@
       ],
       "bookValueMM": 1500000,
       "fmvPerAcreLow": 32000000.0,
-      "fmvPerAcreHigh": 48000000.0
+      "fmvPerAcreHigh": 48000000.0,
+      "capRateLow": 6.5,
+      "capRateHigh": 9.0
     },
     {
       "name": "Tea + smaller specialty estates",
@@ -64,7 +70,9 @@
       ],
       "bookValueMM": 2000000,
       "fmvPerAcreLow": 48000000.0,
-      "fmvPerAcreHigh": 72000000.0
+      "fmvPerAcreHigh": 72000000.0,
+      "capRateLow": 8.0,
+      "capRateHigh": 10.5
     }
   ],
   "comparables": [

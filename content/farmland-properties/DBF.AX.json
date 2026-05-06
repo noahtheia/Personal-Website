@@ -19,7 +19,9 @@
       ],
       "bookValueMM": 25,
       "fmvPerAcreLow": 1760.0,
-      "fmvPerAcreHigh": 2640.0
+      "fmvPerAcreHigh": 2640.0,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
     },
     {
       "name": "Cowaribin / Kentucky / Merriment NSW",
@@ -36,7 +38,9 @@
       ],
       "bookValueMM": 12,
       "fmvPerAcreLow": 1360.0,
-      "fmvPerAcreHigh": 2040.0
+      "fmvPerAcreHigh": 2040.0,
+      "capRateLow": 5.5,
+      "capRateHigh": 8.0
     },
     {
       "name": "Vineyards (Euston + Wemen, NSW dried-grape)",
@@ -51,7 +55,9 @@
       ],
       "bookValueMM": 31,
       "fmvPerAcreLow": 17600.0,
-      "fmvPerAcreHigh": 26400.0
+      "fmvPerAcreHigh": 26400.0,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
     },
     {
       "name": "Northern Territory + Western Australia transition",
@@ -66,7 +72,9 @@
       ],
       "bookValueMM": 41,
       "fmvPerAcreLow": 1200.0,
-      "fmvPerAcreHigh": 1800.0
+      "fmvPerAcreHigh": 1800.0,
+      "capRateLow": 6.0,
+      "capRateHigh": 9.0
     }
   ],
   "comparables": [

@@ -15,7 +15,9 @@
       "comparablesUsed": [
         "SA-IRRIGATED-2024"
       ],
-      "bookValueMM": 660
+      "bookValueMM": 660,
+      "capRateLow": 7.0,
+      "capRateHigh": 10.0
     },
     {
       "name": "Hail project",
@@ -28,7 +30,9 @@
       "comparablesUsed": [
         "SA-IRRIGATED-2024"
       ],
-      "bookValueMM": 660
+      "bookValueMM": 660,
+      "capRateLow": 7.0,
+      "capRateHigh": 10.0
     },
     {
       "name": "Haradh project",
@@ -41,7 +45,9 @@
       "comparablesUsed": [
         "SA-IRRIGATED-2024"
       ],
-      "bookValueMM": 565
+      "bookValueMM": 565,
+      "capRateLow": 7.0,
+      "capRateHigh": 10.0
     },
     {
       "name": "Al-Jouf project",
@@ -54,7 +60,9 @@
       "comparablesUsed": [
         "SA-IRRIGATED-2024"
       ],
-      "bookValueMM": 373
+      "bookValueMM": 373,
+      "capRateLow": 7.0,
+      "capRateHigh": 10.0
     }
   ],
   "comparables": [

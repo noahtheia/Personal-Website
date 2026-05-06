@@ -17,7 +17,9 @@
       ],
       "bookValueMM": 280,
       "fmvPerAcreLow": 187.5,
-      "fmvPerAcreHigh": 312.5
+      "fmvPerAcreHigh": 312.5,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.5
     },
     {
       "name": "Headingly",
@@ -32,7 +34,9 @@
       ],
       "bookValueMM": 240,
       "fmvPerAcreLow": 210.0,
-      "fmvPerAcreHigh": 350.0
+      "fmvPerAcreHigh": 350.0,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.5
     },
     {
       "name": "Anthony Lagoon / Eva Downs",
@@ -47,7 +51,9 @@
       ],
       "bookValueMM": 215,
       "fmvPerAcreLow": 187.5,
-      "fmvPerAcreHigh": 312.5
+      "fmvPerAcreHigh": 312.5,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.5
     },
     {
       "name": "Avon Downs / Austral Downs / Camooweal",
@@ -63,7 +69,9 @@
       ],
       "bookValueMM": 195,
       "fmvPerAcreLow": 187.5,
-      "fmvPerAcreHigh": 312.5
+      "fmvPerAcreHigh": 312.5,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.5
     },
     {
       "name": "Canobie",
@@ -78,7 +86,9 @@
       ],
       "bookValueMM": 130,
       "fmvPerAcreLow": 210.0,
-      "fmvPerAcreHigh": 350.0
+      "fmvPerAcreHigh": 350.0,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.5
     },
     {
       "name": "Delamere",
@@ -93,7 +103,9 @@
       ],
       "bookValueMM": 80,
       "fmvPerAcreLow": 210.0,
-      "fmvPerAcreHigh": 350.0
+      "fmvPerAcreHigh": 350.0,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.5
     },
     {
       "name": "Camfield",
@@ -108,7 +120,9 @@
       ],
       "bookValueMM": 75,
       "fmvPerAcreLow": 210.0,
-      "fmvPerAcreHigh": 350.0
+      "fmvPerAcreHigh": 350.0,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.5
     },
     {
       "name": "Wondoola",
@@ -123,7 +137,9 @@
       ],
       "bookValueMM": 70,
       "fmvPerAcreLow": 187.5,
-      "fmvPerAcreHigh": 312.5
+      "fmvPerAcreHigh": 312.5,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
     },
     {
       "name": "Dalgonally",
@@ -138,7 +154,9 @@
       ],
       "bookValueMM": 65,
       "fmvPerAcreLow": 202.5,
-      "fmvPerAcreHigh": 337.5
+      "fmvPerAcreHigh": 337.5,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.5
     },
     {
       "name": "South Galway",
@@ -153,7 +171,9 @@
       ],
       "bookValueMM": 55,
       "fmvPerAcreLow": 180.0,
-      "fmvPerAcreHigh": 300.0
+      "fmvPerAcreHigh": 300.0,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.5
     },
     {
       "name": "Goonoo Station + Feedlot + Farm",
@@ -169,7 +189,9 @@
       ],
       "bookValueMM": 35,
       "fmvPerAcreLow": 600.0,
-      "fmvPerAcreHigh": 1000.0
+      "fmvPerAcreHigh": 1000.0,
+      "capRateLow": 6.0,
+      "capRateHigh": 8.5
     },
     {
       "name": "Carrum / Glentana / Wylarah / Aronui (other QLD stations + 2nd feedlot)",
@@ -184,7 +206,9 @@
       ],
       "bookValueMM": 80,
       "fmvPerAcreLow": 187.5,
-      "fmvPerAcreHigh": 312.5
+      "fmvPerAcreHigh": 312.5,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
     },
     {
       "name": "Owned cropping farms (2 farms)",
@@ -199,7 +223,9 @@
       ],
       "bookValueMM": 64,
       "fmvPerAcreLow": 3375.0,
-      "fmvPerAcreHigh": 5625.0
+      "fmvPerAcreHigh": 5625.0,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
     },
     {
       "name": "Other / Montejinni / smaller NT stations",
@@ -214,7 +240,9 @@
       ],
       "bookValueMM": 35,
       "fmvPerAcreLow": 150.0,
-      "fmvPerAcreHigh": 250.0
+      "fmvPerAcreHigh": 250.0,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.5
     }
   ],
   "comparables": [

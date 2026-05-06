@@ -19,7 +19,9 @@
       ],
       "bookValueMM": 880,
       "fmvPerAcreLow": 5904.0,
-      "fmvPerAcreHigh": 8496.0
+      "fmvPerAcreHigh": 8496.0,
+      "capRateLow": 5.0,
+      "capRateHigh": 6.5
     },
     {
       "name": "Planeste Unit (LandCo subsidiary)",
@@ -34,7 +36,9 @@
       ],
       "bookValueMM": 620,
       "fmvPerAcreLow": 5330.0,
-      "fmvPerAcreHigh": 7670.0
+      "fmvPerAcreHigh": 7670.0,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Parna\u00edba Unit",
@@ -49,7 +53,9 @@
       ],
       "bookValueMM": 525,
       "fmvPerAcreLow": 4756.0,
-      "fmvPerAcreHigh": 6844.0
+      "fmvPerAcreHigh": 6844.0,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Parnagu\u00e1 Unit (post 2024 expansion)",
@@ -64,7 +70,9 @@
       ],
       "bookValueMM": 290,
       "fmvPerAcreLow": 4264.0,
-      "fmvPerAcreHigh": 6136.0
+      "fmvPerAcreHigh": 6136.0,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Palmares Unit",
@@ -80,7 +88,9 @@
       ],
       "bookValueMM": 545,
       "fmvPerAcreLow": 7380.000000000001,
-      "fmvPerAcreHigh": 10620.0
+      "fmvPerAcreHigh": 10620.0,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Planorte Unit",
@@ -96,7 +106,9 @@
       ],
       "bookValueMM": 380,
       "fmvPerAcreLow": 5904.0,
-      "fmvPerAcreHigh": 8496.0
+      "fmvPerAcreHigh": 8496.0,
+      "capRateLow": 5.0,
+      "capRateHigh": 6.5
     },
     {
       "name": "Pioneira Unit (JV with Dois Vales Group)",
@@ -111,7 +123,9 @@
       ],
       "bookValueMM": 305,
       "fmvPerAcreLow": 5330.0,
-      "fmvPerAcreHigh": 7670.0
+      "fmvPerAcreHigh": 7670.0,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Pamplona Unit",
@@ -127,7 +141,9 @@
       ],
       "bookValueMM": 295,
       "fmvPerAcreLow": 6560.000000000001,
-      "fmvPerAcreHigh": 9440.0
+      "fmvPerAcreHigh": 9440.0,
+      "capRateLow": 5.0,
+      "capRateHigh": 6.5
     },
     {
       "name": "Parceiro Unit",
@@ -142,7 +158,9 @@
       ],
       "bookValueMM": 175,
       "fmvPerAcreLow": 6970.000000000001,
-      "fmvPerAcreHigh": 10030.0
+      "fmvPerAcreHigh": 10030.0,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Panorama Unit (LandCo)",
@@ -157,7 +175,9 @@
       ],
       "bookValueMM": 380,
       "fmvPerAcreLow": 5740.0,
-      "fmvPerAcreHigh": 8260.0
+      "fmvPerAcreHigh": 8260.0,
+      "capRateLow": 5.0,
+      "capRateHigh": 6.5
     },
     {
       "name": "Piratini Unit (LandCo)",
@@ -172,7 +192,9 @@
       ],
       "bookValueMM": 245,
       "fmvPerAcreLow": 5576.0,
-      "fmvPerAcreHigh": 8024.0
+      "fmvPerAcreHigh": 8024.0,
+      "capRateLow": 5.0,
+      "capRateHigh": 6.5
     },
     {
       "name": "Other named units (Paladino, Parna\u00edba II, Planalto, smaller farms)",
@@ -189,7 +211,9 @@
       ],
       "bookValueMM": 360,
       "fmvPerAcreLow": 5166.0,
-      "fmvPerAcreHigh": 7434.0
+      "fmvPerAcreHigh": 7434.0,
+      "capRateLow": 5.0,
+      "capRateHigh": 6.5
     }
   ],
   "comparables": [

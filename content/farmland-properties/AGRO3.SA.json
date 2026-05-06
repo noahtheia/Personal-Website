@@ -20,7 +20,9 @@
       "acquisitionCostMM": 35.9,
       "bookValueMM": 195,
       "fmvPerAcreLow": 5525.0,
-      "fmvPerAcreHigh": 7474.999999999999
+      "fmvPerAcreHigh": 7474.999999999999,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Jatob\u00e1 Farm",
@@ -39,7 +41,9 @@
       "acquisitionCostMM": 33.1,
       "bookValueMM": 360,
       "fmvPerAcreLow": 7225.0,
-      "fmvPerAcreHigh": 9775.0
+      "fmvPerAcreHigh": 9775.0,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Arauc\u00e1ria Farm",
@@ -57,7 +61,9 @@
       "acquisitionCostMM": 56.2,
       "bookValueMM": 110,
       "fmvPerAcreLow": 9350.0,
-      "fmvPerAcreHigh": 12649.999999999998
+      "fmvPerAcreHigh": 12649.999999999998,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
     },
     {
       "name": "Alto Taquari Farm (residual)",
@@ -74,7 +80,9 @@
       "acquisitionCostMM": 33.2,
       "bookValueMM": 25,
       "fmvPerAcreLow": 10200.0,
-      "fmvPerAcreHigh": 13799.999999999998
+      "fmvPerAcreHigh": 13799.999999999998,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
     },
     {
       "name": "Nova Buriti Farm",
@@ -91,7 +99,9 @@
       "acquisitionCostMM": 21.6,
       "bookValueMM": 85,
       "fmvPerAcreLow": 2975.0,
-      "fmvPerAcreHigh": 4024.9999999999995
+      "fmvPerAcreHigh": 4024.9999999999995,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.5
     },
     {
       "name": "Parceria I (Bahia)",
@@ -107,7 +117,9 @@
       "acquired": "2011-09-01",
       "bookValueMM": 60,
       "fmvPerAcreLow": 7225.0,
-      "fmvPerAcreHigh": 9775.0
+      "fmvPerAcreHigh": 9775.0,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Cresca S.A. (50% JV in Paraguay)",
@@ -124,7 +136,9 @@
       "acquisitionCostMM": 62.0,
       "bookValueMM": 145,
       "fmvPerAcreLow": 3825.0,
-      "fmvPerAcreHigh": 5175.0
+      "fmvPerAcreHigh": 5175.0,
+      "capRateLow": 6.0,
+      "capRateHigh": 8.5
     },
     {
       "name": "Parceria II (Piau\u00ed)",
@@ -140,7 +154,9 @@
       "acquired": "2013-11-01",
       "bookValueMM": 50,
       "fmvPerAcreLow": 5100.0,
-      "fmvPerAcreHigh": 6899.999999999999
+      "fmvPerAcreHigh": 6899.999999999999,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Bolivian operations",
@@ -156,7 +172,9 @@
       "acquired": "2014-01-01",
       "bookValueMM": 110,
       "fmvPerAcreLow": 2975.0,
-      "fmvPerAcreHigh": 4024.9999999999995
+      "fmvPerAcreHigh": 4024.9999999999995,
+      "capRateLow": 7.0,
+      "capRateHigh": 10.0
     },
     {
       "name": "Other Brazilian farms (post-2014 acquisitions)",
@@ -172,7 +190,9 @@
       ],
       "bookValueMM": 245,
       "fmvPerAcreLow": 5950.0,
-      "fmvPerAcreHigh": 8049.999999999999
+      "fmvPerAcreHigh": 8049.999999999999,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
     }
   ],
   "comparables": [

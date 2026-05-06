@@ -17,7 +17,9 @@
       ],
       "bookValueMM": 1400,
       "fmvPerAcreLow": 19200.0,
-      "fmvPerAcreHigh": 28800.0
+      "fmvPerAcreHigh": 28800.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Peninsular Malaysia plantations + 1 mill",
@@ -32,7 +34,9 @@
       ],
       "bookValueMM": 350,
       "fmvPerAcreLow": 22400.0,
-      "fmvPerAcreHigh": 33600.0
+      "fmvPerAcreHigh": 33600.0,
+      "capRateLow": 7.0,
+      "capRateHigh": 9.5
     },
     {
       "name": "Indonesia plantations (West, Central, South Kalimantan) + 7 mills",
@@ -48,7 +52,9 @@
       ],
       "bookValueMM": 2700,
       "fmvPerAcreLow": 17600.0,
-      "fmvPerAcreHigh": 26400.0
+      "fmvPerAcreHigh": 26400.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Iskandar Malaysia property development + Indonesian property",
@@ -63,7 +69,9 @@
       ],
       "bookValueMM": 700,
       "fmvPerAcreLow": 48000.0,
-      "fmvPerAcreHigh": 72000.0
+      "fmvPerAcreHigh": 72000.0,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.5
     },
     {
       "name": "Genomics R&D + biotech subsidiaries",
@@ -76,7 +84,9 @@
       "comparablesUsed": [],
       "bookValueMM": 100,
       "fmvPerAcreLow": 80.0,
-      "fmvPerAcreHigh": 120.0
+      "fmvPerAcreHigh": 120.0,
+      "capRateLow": 8.0,
+      "capRateHigh": 12.0
     }
   ],
   "comparables": [

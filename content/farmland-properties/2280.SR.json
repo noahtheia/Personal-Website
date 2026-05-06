@@ -15,7 +15,9 @@
       "comparablesUsed": [
         "AR-FONDOMONTE-2024"
       ],
-      "bookValueMM": 200
+      "bookValueMM": 200,
+      "capRateLow": 6.5,
+      "capRateHigh": 9.0
     },
     {
       "name": "Saudi forage farms (3 farms in Hail + 1 in Al-Kharj)",
@@ -28,7 +30,9 @@
       "comparablesUsed": [
         "SA-IRRIGATED-2024"
       ],
-      "bookValueMM": 1500
+      "bookValueMM": 1500,
+      "capRateLow": 7.0,
+      "capRateHigh": 10.0
     },
     {
       "name": "Dairy operations \u2014 175,000+ cattle herds",
@@ -41,7 +45,9 @@
       "comparablesUsed": [
         "SA-IRRIGATED-2024"
       ],
-      "bookValueMM": 8000
+      "bookValueMM": 8000,
+      "capRateLow": 8.0,
+      "capRateHigh": 11.0
     },
     {
       "name": "Poultry + bakery + processing facilities (downstream)",
@@ -52,7 +58,9 @@
       "fmvPerAcre": 100,
       "fmvRationale": "Per-acre meaningless; placeholder for poultry + bakery + processing fixed assets",
       "comparablesUsed": [],
-      "bookValueMM": 12000
+      "bookValueMM": 12000,
+      "capRateLow": 8.0,
+      "capRateHigh": 12.0
     },
     {
       "name": "Distribution + retail + cold chain",
@@ -63,7 +71,9 @@
       "fmvPerAcre": 100,
       "fmvRationale": "Per-acre meaningless; placeholder for distribution + cold chain assets",
       "comparablesUsed": [],
-      "bookValueMM": 2800
+      "bookValueMM": 2800,
+      "capRateLow": 8.0,
+      "capRateHigh": 12.0
     }
   ],
   "comparables": [

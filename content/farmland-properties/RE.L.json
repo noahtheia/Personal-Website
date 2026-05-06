@@ -18,7 +18,9 @@
       ],
       "bookValueMM": 240,
       "fmvPerAcreLow": 4400.0,
-      "fmvPerAcreHigh": 6600.0
+      "fmvPerAcreHigh": 6600.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "East Kalimantan immature + young plantings",
@@ -33,7 +35,9 @@
       ],
       "bookValueMM": 40,
       "fmvPerAcreLow": 3200.0,
-      "fmvPerAcreHigh": 4800.0
+      "fmvPerAcreHigh": 4800.0,
+      "capRateLow": 10.0,
+      "capRateHigh": 14.0
     },
     {
       "name": "Smallholder partnerships + concession reserve",
@@ -48,7 +52,9 @@
       ],
       "bookValueMM": 107,
       "fmvPerAcreLow": 2000.0,
-      "fmvPerAcreHigh": 3000.0
+      "fmvPerAcreHigh": 3000.0,
+      "capRateLow": 10.0,
+      "capRateHigh": 14.0
     }
   ],
   "comparables": [

@@ -19,7 +19,9 @@
       ],
       "bookValueMM": 664.6,
       "fmvPerAcreLow": 55250.0,
-      "fmvPerAcreHigh": 74750.0
+      "fmvPerAcreHigh": 74750.0,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
     },
     {
       "name": "Cattle stations (21 properties \u2014 16 breeding/finishing + 5 feedlots, 150K head capacity)",
@@ -36,7 +38,9 @@
       ],
       "bookValueMM": 599.1,
       "fmvPerAcreLow": 306.0,
-      "fmvPerAcreHigh": 413.99999999999994
+      "fmvPerAcreHigh": 413.99999999999994,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
     },
     {
       "name": "Vineyards (7 properties)",
@@ -52,7 +56,9 @@
       ],
       "bookValueMM": 65.9,
       "fmvPerAcreLow": 34000.0,
-      "fmvPerAcreHigh": 46000.0
+      "fmvPerAcreHigh": 46000.0,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Macadamia orchards (3 mature + 3 development)",
@@ -68,7 +74,9 @@
       ],
       "bookValueMM": 70.3,
       "fmvPerAcreLow": 63750.0,
-      "fmvPerAcreHigh": 86250.0
+      "fmvPerAcreHigh": 86250.0,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
     },
     {
       "name": "Cropping properties (2 properties)",
@@ -85,7 +93,9 @@
       ],
       "bookValueMM": 137.0,
       "fmvPerAcreLow": 5950.0,
-      "fmvPerAcreHigh": 8049.999999999999
+      "fmvPerAcreHigh": 8049.999999999999,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
     },
     {
       "name": "Other / development land",
@@ -100,7 +110,9 @@
       ],
       "bookValueMM": 50.1,
       "fmvPerAcreLow": 42500.0,
-      "fmvPerAcreHigh": 57499.99999999999
+      "fmvPerAcreHigh": 57499.99999999999,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
     }
   ],
   "comparables": [

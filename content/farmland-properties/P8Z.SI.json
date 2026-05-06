@@ -18,7 +18,9 @@
       ],
       "bookValueMM": 8000000,
       "fmvPerAcreLow": 64000000.0,
-      "fmvPerAcreHigh": 96000000.0
+      "fmvPerAcreHigh": 96000000.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "West Kalimantan estates (Tonam Raya + others)",
@@ -33,7 +35,9 @@
       ],
       "bookValueMM": 5500000,
       "fmvPerAcreLow": 60000000.0,
-      "fmvPerAcreHigh": 90000000.0
+      "fmvPerAcreHigh": 90000000.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Riau (small position)",
@@ -48,7 +52,9 @@
       ],
       "bookValueMM": 200000,
       "fmvPerAcreLow": 64000000.0,
-      "fmvPerAcreHigh": 96000000.0
+      "fmvPerAcreHigh": 96000000.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Plasma + smallholder partnerships",
@@ -63,7 +69,9 @@
       ],
       "bookValueMM": 300000,
       "fmvPerAcreLow": 32000000.0,
-      "fmvPerAcreHigh": 48000000.0
+      "fmvPerAcreHigh": 48000000.0,
+      "capRateLow": 10.0,
+      "capRateHigh": 14.0
     }
   ],
   "comparables": [

@@ -18,7 +18,9 @@
       ],
       "bookValueMM": 700,
       "fmvPerAcreLow": 4640.0,
-      "fmvPerAcreHigh": 6960.0
+      "fmvPerAcreHigh": 6960.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "East Kalimantan plantation",
@@ -34,7 +36,9 @@
       ],
       "bookValueMM": 500,
       "fmvPerAcreLow": 4240.0,
-      "fmvPerAcreHigh": 6360.0
+      "fmvPerAcreHigh": 6360.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "West Kalimantan plantation",
@@ -49,7 +53,9 @@
       ],
       "bookValueMM": 300,
       "fmvPerAcreLow": 3840.0,
-      "fmvPerAcreHigh": 5760.0
+      "fmvPerAcreHigh": 5760.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     }
   ],
   "comparables": [

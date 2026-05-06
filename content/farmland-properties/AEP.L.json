@@ -18,7 +18,9 @@
       ],
       "bookValueMM": 130,
       "fmvPerAcreLow": 4125.0,
-      "fmvPerAcreHigh": 6875.0
+      "fmvPerAcreHigh": 6875.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Indonesia Sumatra unplanted concession",
@@ -33,7 +35,9 @@
       ],
       "bookValueMM": 50,
       "fmvPerAcreLow": 1125.0,
-      "fmvPerAcreHigh": 1875.0
+      "fmvPerAcreHigh": 1875.0,
+      "capRateLow": 10.0,
+      "capRateHigh": 14.0
     },
     {
       "name": "Malaysia Sabah mature plantation",
@@ -48,7 +52,9 @@
       ],
       "bookValueMM": 65,
       "fmvPerAcreLow": 3750.0,
-      "fmvPerAcreHigh": 6250.0
+      "fmvPerAcreHigh": 6250.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Malaysia Sabah unplanted concession",
@@ -63,7 +69,9 @@
       ],
       "bookValueMM": 26,
       "fmvPerAcreLow": 900.0,
-      "fmvPerAcreHigh": 1500.0
+      "fmvPerAcreHigh": 1500.0,
+      "capRateLow": 10.0,
+      "capRateHigh": 14.0
     }
   ],
   "comparables": [

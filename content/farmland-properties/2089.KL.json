@@ -18,7 +18,9 @@
       ],
       "bookValueMM": 3000,
       "fmvPerAcreLow": 27200.0,
-      "fmvPerAcreHigh": 36800.0
+      "fmvPerAcreHigh": 36800.0,
+      "capRateLow": 7.0,
+      "capRateHigh": 9.5
     },
     {
       "name": "Peninsular Malaysia coconut estates",
@@ -33,7 +35,9 @@
       ],
       "bookValueMM": 320,
       "fmvPerAcreLow": 23800.0,
-      "fmvPerAcreHigh": 32199.999999999996
+      "fmvPerAcreHigh": 32199.999999999996,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Indonesia oil palm + 1 mill",
@@ -48,7 +52,9 @@
       ],
       "bookValueMM": 800,
       "fmvPerAcreLow": 22100.0,
-      "fmvPerAcreHigh": 29899.999999999996
+      "fmvPerAcreHigh": 29899.999999999996,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Specialty refineries (Unitata + Unifuji) \u2014 downstream",
@@ -61,7 +67,9 @@
       "comparablesUsed": [],
       "bookValueMM": 380,
       "fmvPerAcreLow": 323.0,
-      "fmvPerAcreHigh": 436.99999999999994
+      "fmvPerAcreHigh": 436.99999999999994,
+      "capRateLow": 8.0,
+      "capRateHigh": 12.0
     }
   ],
   "comparables": [

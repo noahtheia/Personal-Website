@@ -18,7 +18,9 @@
       ],
       "bookValueMM": 2700,
       "fmvPerAcreLow": 21320.0,
-      "fmvPerAcreHigh": 30680.0
+      "fmvPerAcreHigh": 30680.0,
+      "capRateLow": 7.0,
+      "capRateHigh": 9.5
     },
     {
       "name": "Sabah Malaysia plantation",
@@ -33,7 +35,9 @@
       ],
       "bookValueMM": 2700,
       "fmvPerAcreLow": 18040.0,
-      "fmvPerAcreHigh": 25960.0
+      "fmvPerAcreHigh": 25960.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Indonesia plantation (subsidiary)",
@@ -48,7 +52,9 @@
       ],
       "bookValueMM": 4000,
       "fmvPerAcreLow": 18040.0,
-      "fmvPerAcreHigh": 25960.0
+      "fmvPerAcreHigh": 25960.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Resource-based manufacturing (Loders Croklaan was sold; current oleochemicals + specialty)",
@@ -61,7 +67,9 @@
       "comparablesUsed": [],
       "bookValueMM": 33,
       "fmvPerAcreLow": 27.060000000000002,
-      "fmvPerAcreHigh": 38.94
+      "fmvPerAcreHigh": 38.94,
+      "capRateLow": 8.0,
+      "capRateHigh": 12.0
     }
   ],
   "comparables": [

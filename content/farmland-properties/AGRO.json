@@ -17,7 +17,9 @@
         "ARG-PAMPAS-2025",
         "AGRO-VALUATION-2024"
       ],
-      "bookValueMM": 270
+      "bookValueMM": 270,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Argentina \u2014 C\u00f3rdoba province cropland",
@@ -31,7 +33,9 @@
         "ARG-PAMPAS-2024",
         "ARG-PAMPAS-2025"
       ],
-      "bookValueMM": 170
+      "bookValueMM": 170,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
     },
     {
       "name": "Argentina \u2014 Santa Fe + La Pampa cropland",
@@ -44,7 +48,9 @@
       "comparablesUsed": [
         "ARG-PAMPAS-2024"
       ],
-      "bookValueMM": 130
+      "bookValueMM": 130,
+      "capRateLow": 5.0,
+      "capRateHigh": 6.5
     },
     {
       "name": "Argentina \u2014 Entre R\u00edos rice production",
@@ -58,7 +64,9 @@
         "ARG-PAMPAS-2024",
         "AGRO-RICE-2024"
       ],
-      "bookValueMM": 80
+      "bookValueMM": 80,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Argentina \u2014 Dairy farms (Free Stall + cropping)",
@@ -72,7 +80,9 @@
         "ARG-PAMPAS-2024",
         "AGRO-VALUATION-2024"
       ],
-      "bookValueMM": 80
+      "bookValueMM": 80,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5
     },
     {
       "name": "Uruguay \u2014 Soriano + Colonia + R\u00edo Negro cropland",
@@ -86,7 +96,9 @@
         "URU-CROP-2024",
         "URU-CROP-2025"
       ],
-      "bookValueMM": 450
+      "bookValueMM": 450,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
     },
     {
       "name": "Brazil \u2014 Mato Grosso do Sul sugarcane (owned base)",
@@ -100,7 +112,9 @@
         "BR-CERRADO-CANE-2024",
         "BR-CERRADO-2025"
       ],
-      "bookValueMM": 120
+      "bookValueMM": 120,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
     },
     {
       "name": "Brazil \u2014 Minas Gerais sugarcane (owned base)",
@@ -113,7 +127,9 @@
       "comparablesUsed": [
         "BR-CERRADO-CANE-2024"
       ],
-      "bookValueMM": 60
+      "bookValueMM": 60,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
     }
   ],
   "comparables": [

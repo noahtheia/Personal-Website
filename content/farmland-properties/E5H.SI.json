@@ -18,7 +18,9 @@
       ],
       "bookValueMM": 3200,
       "fmvPerAcreLow": 4000.0,
-      "fmvPerAcreHigh": 6000.0
+      "fmvPerAcreHigh": 6000.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Kalimantan plantations (Central, East, South, West Kalimantan)",
@@ -34,7 +36,9 @@
       ],
       "bookValueMM": 1900,
       "fmvPerAcreLow": 3600.0,
-      "fmvPerAcreHigh": 5400.0
+      "fmvPerAcreHigh": 5400.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Papua + smaller provinces",
@@ -50,7 +54,9 @@
       ],
       "bookValueMM": 600,
       "fmvPerAcreLow": 2800.0,
-      "fmvPerAcreHigh": 4200.0
+      "fmvPerAcreHigh": 4200.0,
+      "capRateLow": 9.0,
+      "capRateHigh": 12.0
     },
     {
       "name": "Downstream refining + Brand operations (placeholder)",
@@ -63,7 +69,9 @@
       "comparablesUsed": [],
       "bookValueMM": 300,
       "fmvPerAcreLow": 240.0,
-      "fmvPerAcreHigh": 360.0
+      "fmvPerAcreHigh": 360.0,
+      "capRateLow": 8.0,
+      "capRateHigh": 12.0
     }
   ],
   "comparables": [

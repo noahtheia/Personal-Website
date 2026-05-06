@@ -18,7 +18,9 @@
       ],
       "bookValueMM": 9500,
       "fmvPerAcreLow": 22960.0,
-      "fmvPerAcreHigh": 33040.0
+      "fmvPerAcreHigh": 33040.0,
+      "capRateLow": 7.0,
+      "capRateHigh": 9.5
     },
     {
       "name": "Sabah Malaysia plantation",
@@ -33,7 +35,9 @@
       ],
       "bookValueMM": 4500,
       "fmvPerAcreLow": 18040.0,
-      "fmvPerAcreHigh": 25960.0
+      "fmvPerAcreHigh": 25960.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Indonesia plantation (Sumatra + Kalimantan)",
@@ -49,7 +53,9 @@
       ],
       "bookValueMM": 9000,
       "fmvPerAcreLow": 18040.0,
-      "fmvPerAcreHigh": 25960.0
+      "fmvPerAcreHigh": 25960.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
     },
     {
       "name": "Papua New Guinea + Solomon Islands plantation",
@@ -65,7 +71,9 @@
       ],
       "bookValueMM": 2000,
       "fmvPerAcreLow": 13120.000000000002,
-      "fmvPerAcreHigh": 18880.0
+      "fmvPerAcreHigh": 18880.0,
+      "capRateLow": 8.0,
+      "capRateHigh": 11.0
     }
   ],
   "comparables": [
