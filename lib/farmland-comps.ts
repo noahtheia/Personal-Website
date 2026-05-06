@@ -1,7 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
-import { getWeightedFmvPerAcreForTicker } from "./farmland-properties";
+import {
+  getPropertyDetail,
+  getWeightedFmvPerAcreForTicker,
+  totalFmvMM,
+} from "./farmland-properties";
 
 const CurrencySchema = z.enum([
   "USD",
@@ -65,6 +69,12 @@ export type PricedFarmlandComp = FarmlandFiling & {
   marketPerAcre: number | null;
   evPerAcre: number | null;
   pNav: number | null;
+  // FMV NAV/share in USD — derived from each issuer's detail page.
+  // Total FMV from detail (filing-currency) − net debt, divided by
+  // shares, then translated to USD. Null if no detail file exists.
+  fmvNavPerShareUsd: number | null;
+  // Live USD price discount (negative) / premium (positive) to FMV NAV.
+  priceVsFmvNavPct: number | null;
 
   // Earnings value (these override the local-currency filing fields).
   annualRevenueMM: number;
@@ -173,6 +183,27 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
           ? priceInFiling / f.epsTTM
           : null;
 
+      // FMV NAV per share (USD): take total FMV from the detail page in filing
+      // currency, subtract net debt in filing currency, divide by shares, then
+      // translate to USD via filingCcy FX. Null if no detail file or if the
+      // implied NAV is non-positive (rare for highly leveraged operators).
+      const detail = getPropertyDetail(f.ticker);
+      const detailFmvLocal = detail ? totalFmvMM(detail) : null;
+      const fmvNavLocal =
+        detailFmvLocal !== null ? detailFmvLocal - netDebtLocal : null;
+      const fmvNavPerShareUsd =
+        fmvNavLocal !== null && fmvNavLocal > 0 && f.sharesOutMM > 0
+          ? (fmvNavLocal / f.sharesOutMM) * fx
+          : null;
+      const priceUsd =
+        localPrice !== null ? localPrice * priceFx : null;
+      const priceVsFmvNavPct =
+        priceUsd !== null &&
+        fmvNavPerShareUsd !== null &&
+        fmvNavPerShareUsd > 0
+          ? (priceUsd / fmvNavPerShareUsd - 1) * 100
+          : null;
+
       return {
         ...f,
         localPrice,
@@ -191,6 +222,8 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         annualEbitdaMM: f.annualEbitdaMM * fx,
         // Dimensionless multiples — passed through
         pNav,
+        fmvNavPerShareUsd,
+        priceVsFmvNavPct,
         ebitdaMargin,
         evEbitda,
         priceSales,

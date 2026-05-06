@@ -16,6 +16,8 @@ type SortKey =
   | "marketPerAcre"
   | "evPerAcre"
   | "pNav"
+  | "fmvNavPerShareUsd"
+  | "priceVsFmvNavPct"
   | "annualRevenueMM"
   | "annualEbitdaMM"
   | "ebitdaMargin"
@@ -26,7 +28,14 @@ type SortKey =
   | "divYield";
 
 type Band = "market" | "land" | "earnings";
-type Format = "money" | "intDollar" | "intDollarSigned" | "int" | "pct" | "mult";
+type Format =
+  | "money"
+  | "intDollar"
+  | "intDollarSigned"
+  | "int"
+  | "pct"
+  | "pctSignedNav"
+  | "mult";
 
 type Column = {
   key: SortKey;
@@ -47,7 +56,9 @@ const COLUMNS: Column[] = [
   { key: "bookPerAcre", label: "Book / Acre", hint: "$ filed", band: "land", format: "intDollar" },
   { key: "marketPerAcre", label: "Market / Acre", hint: "$ FMV", band: "land", format: "intDollar" },
   { key: "evPerAcre", label: "EV / Acre", hint: "$ implied", band: "land", format: "intDollar" },
-  { key: "pNav", label: "P / NAV", hint: "price ÷ NAV", band: "land", format: "mult" },
+  { key: "pNav", label: "P / NAV", hint: "price ÷ book NAV", band: "land", format: "mult" },
+  { key: "fmvNavPerShareUsd", label: "FMV NAV / sh", hint: "$ implied", band: "land", format: "money" },
+  { key: "priceVsFmvNavPct", label: "Price vs FMV NAV", hint: "discount/premium", band: "land", format: "pctSignedNav" },
   // Earnings value — tighter padding like Market Data since it's a long band.
   { key: "annualRevenueMM", label: "Revenue", hint: "$M", band: "earnings", format: "intDollar" },
   { key: "annualEbitdaMM", label: "EBITDA", hint: "$M", band: "earnings", format: "intDollarSigned" },
@@ -315,6 +326,22 @@ function renderCell(val: number | null, col: Column) {
       </span>
     );
   }
+  if (col.format === "pctSignedNav") {
+    // Discount to FMV NAV (negative) = bullish (green); premium = bearish (red).
+    return (
+      <span
+        className={
+          val < 0
+            ? "text-[var(--positive)]"
+            : val > 0
+            ? "text-[var(--negative)]"
+            : ""
+        }
+      >
+        {text}
+      </span>
+    );
+  }
   return text;
 }
 
@@ -337,6 +364,8 @@ function formatValue(val: number, format: Format): string {
     }
     case "pct":
       return `${val.toFixed(1)}%`;
+    case "pctSignedNav":
+      return `${val >= 0 ? "+" : ""}${val.toFixed(1)}%`;
     case "mult":
       return `${val.toFixed(2)}×`;
   }
