@@ -2,341 +2,305 @@
   "ticker": "SLCE3.SA",
   "asOf": "2025-12-31",
   "currency": "BRL",
-  "propertiesNote": "16-row breakdown. 12 named production units publicly disclosed plus 4 regional sub-aggregates covering the remaining ~14 SLC units (Western Bahia LEM, Mato Grosso, Matopiba, Goi\u00e1s + MS).",
+  "propertiesNote": "11-row breakdown of SLC's OWNED cultivable land bank — calibrated to tie FMV total to Deloitte Jul-2025 audited appraisal of R$13.396B (R$58,960/cultivable ha = R$23,876/cultivable acre weighted). SLC operates ~838K ha total but owns only ~672K ha geographic area / ~227K ha cultivable across 22 farms. Leased land (Sierentz, Paineira) is excluded — it is operated but not on the balance sheet, so it doesn't show up in NAV.",
   "properties": [
     {
-      "name": "Paiagu\u00e1s Unit",
+      "name": "Fazenda Paiaguás",
       "location": "Diamantino, Mato Grosso, Brazil",
-      "acres": 165973,
+      "acres": 130000,
       "cropOrUse": "Soy / corn / cotton",
-      "category": "Mato Grosso Cerrado",
-      "fmvPerAcre": 7200,
-      "fmvRationale": "Largest single SLC unit; MT Class-A cotton-soy ground; IMEA 2024 surveys at R$6,500-8,500/acre",
-      "comparablesUsed": [
-        "BR-CERRADO-MT-2024",
-        "BR-CERRADO-MT-2025",
-        "SLC-IR-LANDBANK-2024"
-      ],
-      "bookValueMM": 880,
-      "fmvPerAcreLow": 5904.0,
-      "fmvPerAcreHigh": 8496.0,
-      "capRateLow": 5.0,
-      "capRateHigh": 6.5
-    },
-    {
-      "name": "Planeste Unit (LandCo subsidiary)",
-      "location": "Maranh\u00e3o, Brazil",
-      "acres": 134656,
-      "cropOrUse": "Soy / corn",
-      "category": "Matopiba (Maranh\u00e3o)",
-      "fmvPerAcre": 6500,
-      "fmvRationale": "Maranh\u00e3o Matopiba Cerrado; LandCo subsidiary holding",
-      "comparablesUsed": [
-        "BR-CERRADO-NE-MATOPIBA-2024"
-      ],
-      "bookValueMM": 620,
-      "fmvPerAcreLow": 5330.0,
-      "fmvPerAcreHigh": 7670.0,
-      "capRateLow": 5.5,
-      "capRateHigh": 7.5
-    },
-    {
-      "name": "Parna\u00edba Unit",
-      "location": "Piau\u00ed, Brazil",
-      "acres": 133485,
-      "cropOrUse": "Soy / corn",
-      "category": "Matopiba (Piau\u00ed)",
-      "fmvPerAcre": 5800,
-      "fmvRationale": "Piau\u00ed Matopiba; logistics distance from ports keeps per-acre below MT/BA",
-      "comparablesUsed": [
-        "BR-CERRADO-NE-MATOPIBA-2024"
-      ],
-      "bookValueMM": 525,
-      "fmvPerAcreLow": 4756.0,
-      "fmvPerAcreHigh": 6844.0,
-      "capRateLow": 5.5,
-      "capRateHigh": 7.5
-    },
-    {
-      "name": "Parnagu\u00e1 Unit (post 2024 expansion)",
-      "location": "Piau\u00ed, Brazil",
-      "acres": 83708,
-      "cropOrUse": "Soy / corn / new development",
-      "category": "Matopiba (Piau\u00ed)",
-      "fmvPerAcre": 5200,
-      "fmvRationale": "Piau\u00ed farm expanded by 14,572 ha rental in 2024; mix of mature and newly-developed area at lower per-acre",
-      "comparablesUsed": [
-        "BR-CERRADO-NE-MATOPIBA-2024"
-      ],
-      "bookValueMM": 290,
-      "fmvPerAcreLow": 4264.0,
-      "fmvPerAcreHigh": 6136.0,
-      "capRateLow": 5.5,
-      "capRateHigh": 7.5
-    },
-    {
-      "name": "Palmares Unit",
-      "location": "Bahia, Brazil",
-      "acres": 82734,
-      "cropOrUse": "Soy / cotton",
-      "category": "Western Bahia (LEM region)",
-      "fmvPerAcre": 9000,
-      "fmvRationale": "Western Bahia LEM region \u2014 top-tier Cerrado pricing R$8,500-10,000/acre",
-      "comparablesUsed": [
-        "BR-CERRADO-WEST-BA-2024",
-        "BR-CERRADO-WEST-BA-2025"
-      ],
-      "bookValueMM": 545,
-      "fmvPerAcreLow": 7380.000000000001,
-      "fmvPerAcreHigh": 10620.0,
-      "capRateLow": 4.5,
-      "capRateHigh": 6.0
-    },
-    {
-      "name": "Planorte Unit",
-      "location": "Sapezal, Mato Grosso, Brazil",
-      "acres": 71113,
-      "cropOrUse": "Soy / corn / cotton",
-      "category": "Mato Grosso Cerrado",
-      "fmvPerAcre": 7200,
-      "fmvRationale": "MT Class-A cotton-soy ground in Sapezal region",
-      "comparablesUsed": [
-        "BR-CERRADO-MT-2024",
-        "BR-CERRADO-MT-2025"
-      ],
-      "bookValueMM": 380,
-      "fmvPerAcreLow": 5904.0,
-      "fmvPerAcreHigh": 8496.0,
-      "capRateLow": 5.0,
-      "capRateHigh": 6.5
-    },
-    {
-      "name": "Pioneira Unit (JV with Dois Vales Group)",
-      "location": "Maranh\u00e3o, Brazil",
-      "acres": 65460,
-      "cropOrUse": "Soy / corn",
-      "category": "Matopiba (Maranh\u00e3o)",
-      "fmvPerAcre": 6500,
-      "fmvRationale": "Maranh\u00e3o JV with Dois Vales Group",
-      "comparablesUsed": [
-        "BR-CERRADO-NE-MATOPIBA-2024"
-      ],
-      "bookValueMM": 305,
-      "fmvPerAcreLow": 5330.0,
-      "fmvPerAcreHigh": 7670.0,
-      "capRateLow": 5.5,
-      "capRateHigh": 7.5
-    },
-    {
-      "name": "Pamplona Unit",
-      "location": "Cristalina, Goi\u00e1s, Brazil",
-      "acres": 47316,
-      "cropOrUse": "Soy / corn / cotton",
-      "category": "Goi\u00e1s Cerrado",
-      "fmvPerAcre": 8000,
-      "fmvRationale": "Goi\u00e1s Class-A Cerrado near Bras\u00edlia; SLC's flagship farm in their metaverse marketing",
-      "comparablesUsed": [
-        "BR-GOIAS-CERRADO-2024",
-        "BR-GOIAS-CERRADO-2025"
-      ],
-      "bookValueMM": 295,
-      "fmvPerAcreLow": 6560.000000000001,
-      "fmvPerAcreHigh": 9440.0,
-      "capRateLow": 5.0,
-      "capRateHigh": 6.5
-    },
-    {
-      "name": "Parceiro Unit",
-      "location": "Bahia, Brazil",
-      "acres": 27690,
-      "cropOrUse": "Soy / cotton",
-      "category": "Western Bahia (LEM region)",
-      "fmvPerAcre": 8500,
-      "fmvRationale": "Bahia farm; mid-tier pricing within LEM region",
-      "comparablesUsed": [
-        "BR-CERRADO-WEST-BA-2024"
-      ],
-      "bookValueMM": 175,
-      "fmvPerAcreLow": 6970.000000000001,
-      "fmvPerAcreHigh": 10030.0,
-      "capRateLow": 4.5,
-      "capRateHigh": 6.0
-    },
-    {
-      "name": "Panorama Unit (LandCo)",
-      "location": "Mato Grosso, Brazil",
-      "acres": 75000,
-      "cropOrUse": "Soy / corn / cotton",
-      "category": "Mato Grosso Cerrado",
-      "fmvPerAcre": 7000,
-      "fmvRationale": "LandCo subsidiary MT farm",
-      "comparablesUsed": [
-        "BR-CERRADO-MT-2024"
-      ],
-      "bookValueMM": 380,
-      "fmvPerAcreLow": 5740.0,
-      "fmvPerAcreHigh": 8260.0,
-      "capRateLow": 5.0,
-      "capRateHigh": 6.5
-    },
-    {
-      "name": "Piratini Unit (LandCo)",
-      "location": "Mato Grosso do Sul, Brazil",
-      "acres": 50000,
-      "cropOrUse": "Soy / corn",
-      "category": "Mato Grosso do Sul",
-      "fmvPerAcre": 6800,
-      "fmvRationale": "LandCo subsidiary MS farm",
-      "comparablesUsed": [
-        "BR-CERRADO-MT-2024"
-      ],
-      "bookValueMM": 245,
-      "fmvPerAcreLow": 5576.0,
-      "fmvPerAcreHigh": 8024.0,
-      "capRateLow": 5.0,
-      "capRateHigh": 6.5
-    },
-    {
-      "name": "Other production units \u2014 Western Bahia (LEM region)",
-      "location": "Western Bahia, Brazil",
-      "acres": 200000,
-      "cropOrUse": "Soy / cotton",
-      "category": "Western Bahia (LEM region)",
-      "fmvPerAcre": 9000,
-      "fmvPerAcreLow": 7500,
-      "fmvPerAcreHigh": 10500,
+      "category": "Mato Grosso Cerrado — Class-A",
+      "fmvPerAcre": 25000,
+      "fmvPerAcreLow": 21000,
+      "fmvPerAcreHigh": 29000,
       "capRateLow": 4.5,
       "capRateHigh": 6.0,
-      "fmvRationale": "Aggregated remaining LEM-region units at top-tier R$9K/acre",
+      "fmvRationale": "Largest single SLC owned farm; Diamantino MT Class-A cotton-soy ground; IMEA 2024-2025 transactions at R$60-72K/ha = R$24-29K/acre",
       "comparablesUsed": [
-        "BR-CERRADO-WEST-BA-2024",
-        "BR-CERRADO-WEST-BA-2025"
+        "SLC-DELOITTE-LAUDO-2025",
+        "BR-CERRADO-MT-2024",
+        "BR-CERRADO-MT-2025"
       ],
-      "bookValueMM": 90
+      "bookValueMM": 1100
     },
     {
-      "name": "Other production units \u2014 Mato Grosso",
-      "location": "Mato Grosso, Brazil",
-      "acres": 240000,
+      "name": "Fazenda Planorte",
+      "location": "Sapezal, Mato Grosso, Brazil",
+      "acres": 60000,
       "cropOrUse": "Soy / corn / cotton",
-      "category": "Mato Grosso Cerrado",
-      "fmvPerAcre": 7200,
-      "fmvPerAcreLow": 6000,
-      "fmvPerAcreHigh": 8500,
+      "category": "Mato Grosso Cerrado — Class-A premium (Sapezal)",
+      "fmvPerAcre": 28000,
+      "fmvPerAcreLow": 24000,
+      "fmvPerAcreHigh": 32000,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5,
+      "fmvRationale": "Sapezal sub-region is top-tier MT cotton ground; commands a R$3-5K/acre premium over Diamantino. Adjacent to LAND3 Campo Novo do Parecis cluster",
+      "comparablesUsed": [
+        "SLC-DELOITTE-LAUDO-2025",
+        "BR-CERRADO-MT-2024",
+        "BR-CERRADO-MT-2025"
+      ],
+      "bookValueMM": 420
+    },
+    {
+      "name": "Other MT owned farms (Pioneira / Perdizes / Próspera / Pejuçara / Piracema / Pirapora / Pampeira)",
+      "location": "Mato Grosso (Querência / Porto dos Gaúchos / Tabaporã / Santa Rita do Trivelato / Campo Novo do Parecis), Brazil",
+      "acres": 50000,
+      "cropOrUse": "Soy / corn / cotton",
+      "category": "Mato Grosso Cerrado — mid-tier",
+      "fmvPerAcre": 22000,
+      "fmvPerAcreLow": 18000,
+      "fmvPerAcreHigh": 26000,
       "capRateLow": 5.0,
       "capRateHigh": 6.5,
-      "fmvRationale": "Aggregated MT production units at IMEA mid-cycle R$7,200/acre",
+      "fmvRationale": "Aggregated remaining MT owned farms — northern MT (Querência / Porto dos Gaúchos) is mid-tier vs Diamantino/Sapezal premium; some recently developed area",
       "comparablesUsed": [
         "BR-CERRADO-MT-2024",
         "BR-CERRADO-MT-2025"
       ],
-      "bookValueMM": 110
+      "bookValueMM": 380
     },
     {
-      "name": "Other production units \u2014 Matopiba (MA / PI / TO)",
-      "location": "Maranh\u00e3o / Piau\u00ed / Tocantins, Brazil",
-      "acres": 200000,
-      "cropOrUse": "Soy / corn",
-      "category": "Matopiba (Piau\u00ed)",
-      "fmvPerAcre": 6000,
-      "fmvPerAcreLow": 5000,
-      "fmvPerAcreHigh": 7000,
-      "capRateLow": 5.5,
-      "capRateHigh": 7.5,
-      "fmvRationale": "Matopiba expansion-frontier \u2014 logistics distance to ports drives discount",
+      "name": "Fazenda Palmares",
+      "location": "Barreiras, Bahia, Brazil",
+      "acres": 70000,
+      "cropOrUse": "Soy / cotton",
+      "category": "Western Bahia Cerrado — LEM premium",
+      "fmvPerAcre": 30000,
+      "fmvPerAcreLow": 26000,
+      "fmvPerAcreHigh": 34000,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5,
+      "fmvRationale": "Barreiras LEM region is the top-tier Brazilian Cerrado sub-cluster; transactions at R$70-85K/ha = R$28-34K/acre",
       "comparablesUsed": [
-        "BR-CERRADO-NE-MATOPIBA-2024"
+        "SLC-DELOITTE-LAUDO-2025",
+        "BR-CERRADO-WEST-BA-2024",
+        "BR-CERRADO-WEST-BA-2025"
       ],
-      "bookValueMM": 80
+      "bookValueMM": 700
     },
     {
-      "name": "Other production units \u2014 Goi\u00e1s + Mato Grosso do Sul",
-      "location": "Goi\u00e1s + Mato Grosso do Sul, Brazil",
-      "acres": 153085,
+      "name": "Fazenda Parceiro",
+      "location": "Formosa do Rio Preto, Bahia, Brazil",
+      "acres": 25000,
+      "cropOrUse": "Soy / cotton",
+      "category": "Western Bahia Cerrado — mid-LEM",
+      "fmvPerAcre": 26000,
+      "fmvPerAcreLow": 22000,
+      "fmvPerAcreHigh": 30000,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0,
+      "fmvRationale": "Formosa do Rio Preto BA — mid-tier within LEM cluster, slightly back from Barreiras premium",
+      "comparablesUsed": [
+        "BR-CERRADO-WEST-BA-2024",
+        "BR-CERRADO-WEST-BA-2025"
+      ],
+      "bookValueMM": 180
+    },
+    {
+      "name": "Other Bahia owned farms (Paladino / Panorama / Paysandu / Piratini)",
+      "location": "Bahia (São Desidério / Correntina / Jaborandi), Brazil",
+      "acres": 50000,
+      "cropOrUse": "Soy / cotton",
+      "category": "Western Bahia Cerrado — mid-tier",
+      "fmvPerAcre": 24000,
+      "fmvPerAcreLow": 20000,
+      "fmvPerAcreHigh": 28000,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0,
+      "fmvRationale": "Aggregated remaining BA owned farms outside Barreiras LEM core — São Desidério / Correntina / Jaborandi at solid Class-A pricing but below LEM premium",
+      "comparablesUsed": [
+        "BR-CERRADO-WEST-BA-2024",
+        "BR-CERRADO-WEST-BA-2025"
+      ],
+      "bookValueMM": 400
+    },
+    {
+      "name": "Fazenda Pamplona",
+      "location": "Cristalina, Goiás (and Unaí, Minas Gerais)",
+      "acres": 45000,
       "cropOrUse": "Soy / corn / cotton",
-      "category": "Goi\u00e1s Cerrado",
-      "fmvPerAcre": 7500,
-      "fmvPerAcreLow": 6000,
-      "fmvPerAcreHigh": 8500,
-      "capRateLow": 5.0,
-      "capRateHigh": 6.5,
-      "fmvRationale": "GO + MS smaller production units",
+      "category": "Goiás Cerrado — Class-A",
+      "fmvPerAcre": 26000,
+      "fmvPerAcreLow": 22000,
+      "fmvPerAcreHigh": 30000,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0,
+      "fmvRationale": "Cristalina GO + Unaí MG — Class-A near Brasília; SLC's flagship farm in IR materials. R$60-75K/ha typical",
       "comparablesUsed": [
         "BR-GOIAS-CERRADO-2024",
         "BR-GOIAS-CERRADO-2025"
       ],
-      "bookValueMM": 80
+      "bookValueMM": 380
+    },
+    {
+      "name": "Fazenda Parnaíba",
+      "location": "Tasso Fragoso, Maranhão, Brazil",
+      "acres": 60000,
+      "cropOrUse": "Soy / corn",
+      "category": "Matopiba (Maranhão)",
+      "fmvPerAcre": 17000,
+      "fmvPerAcreLow": 14000,
+      "fmvPerAcreHigh": 20000,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.0,
+      "fmvRationale": "Tasso Fragoso MA Matopiba — mature production unit in southern MA; R$40-50K/ha typical for established Matopiba",
+      "comparablesUsed": [
+        "BR-CERRADO-NE-MATOPIBA-2024",
+        "BR-CERRADO-NE-MATOPIBA-2025"
+      ],
+      "bookValueMM": 380
+    },
+    {
+      "name": "Fazenda Planeste",
+      "location": "Balsas, Maranhão, Brazil",
+      "acres": 30000,
+      "cropOrUse": "Soy / corn",
+      "category": "Matopiba (Maranhão)",
+      "fmvPerAcre": 17000,
+      "fmvPerAcreLow": 14000,
+      "fmvPerAcreHigh": 20000,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.0,
+      "fmvRationale": "Balsas MA — established Matopiba, similar pricing to Tasso Fragoso. LandCo subsidiary",
+      "comparablesUsed": [
+        "BR-CERRADO-NE-MATOPIBA-2024",
+        "BR-CERRADO-NE-MATOPIBA-2025"
+      ],
+      "bookValueMM": 160
+    },
+    {
+      "name": "Fazenda Parnaguá",
+      "location": "Santa Filomena, Piauí, Brazil",
+      "acres": 25000,
+      "cropOrUse": "Soy / corn / new development",
+      "category": "Matopiba (Piauí)",
+      "fmvPerAcre": 15000,
+      "fmvPerAcreLow": 12000,
+      "fmvPerAcreHigh": 18000,
+      "capRateLow": 6.0,
+      "capRateHigh": 7.5,
+      "fmvRationale": "Santa Filomena PI — Matopiba expansion frontier; logistics distance to ports drives discount vs MA. 14,572 ha rental area excluded (leased, not owned)",
+      "comparablesUsed": [
+        "BR-CERRADO-NE-MATOPIBA-2024",
+        "BR-CERRADO-NE-MATOPIBA-2025"
+      ],
+      "bookValueMM": 130
+    },
+    {
+      "name": "Other owned farms (MS Planalto / MS Pantanal / MA Palmeira / 2025 Agrícola Xingu acquisition)",
+      "location": "Mato Grosso do Sul + remaining Maranhão + 2025 BA/MG additions",
+      "acres": 16000,
+      "cropOrUse": "Soy / corn",
+      "category": "Mixed regional — MS / MA / new BA-MG",
+      "fmvPerAcre": 22000,
+      "fmvPerAcreLow": 18000,
+      "fmvPerAcreHigh": 26000,
+      "capRateLow": 5.0,
+      "capRateHigh": 6.5,
+      "fmvRationale": "Aggregated MS Class-A + remaining MA farms + Mar-2025 Agrícola Xingu cultivable portion (27.5K ha gross / ~12K ha cultivable). Blended mid-tier pricing",
+      "comparablesUsed": [
+        "BR-CERRADO-MT-2024",
+        "BR-CERRADO-NE-MATOPIBA-2024"
+      ],
+      "bookValueMM": 130
     }
   ],
   "comparables": [
     {
+      "id": "SLC-DELOITTE-LAUDO-2025",
+      "description": "Deloitte Jul-2025 independent appraisal of SLC's owned cultivable land bank: R$13,396M valued at R$58,960/cultivable hectare = R$23,876/acre weighted (ABNT NBR 14.653-3 Direct Comparative Method, terra nua only — excludes buildings/improvements/machinery)",
+      "location": "SLC owned portfolio (Deloitte appraised)",
+      "acres": 561576,
+      "pricePerAcre": 23876,
+      "date": "2025-07-01",
+      "source": "Deloitte laudo de avaliação Jul 2025 / disclosed Jul 9 2025",
+      "url": "https://br.advfn.com/jornal/2025/07/valor-das-terras-da-slc-agricola-sobe-para-r-13-4-bilhoes-apos-avaliacao-da-deloitte"
+    },
+    {
+      "id": "SLC-DELOITTE-LAUDO-2024",
+      "description": "Deloitte 2024 appraisal: R$11,591M — +7.1% appreciation in 2025 reflects a mix of soybean price stabilization and the Mar-2025 Agrícola Xingu acquisition (+27,516 ha)",
+      "location": "SLC owned portfolio",
+      "pricePerAcre": 22000,
+      "date": "2024-07-01",
+      "source": "Deloitte laudo 2024"
+    },
+    {
+      "id": "BR-CERRADO-MT-2024",
+      "description": "Mato Grosso Class-A cotton-soy ground — IMEA per-hectare benchmarks 2024 (R$60-72K/ha)",
+      "location": "Mato Grosso, Brazil",
+      "pricePerAcre": 24300,
+      "date": "2024-09-15",
+      "source": "IMEA Mato Grosso land surveys 2024 (corrected per-acre conversion)"
+    },
+    {
+      "id": "BR-CERRADO-MT-2025",
+      "description": "Mato Grosso 2025 cropland transactions — Class-A (R$65-78K/ha)",
+      "location": "Mato Grosso, Brazil",
+      "pricePerAcre": 26300,
+      "date": "2025-04-01",
+      "source": "IMEA + MT broker reports H1 2025"
+    },
+    {
       "id": "BR-CERRADO-WEST-BA-2024",
-      "description": "Western Bahia Cerrado high-quality cropland (LEM region)",
+      "description": "Western Bahia Cerrado high-quality cropland (Barreiras / LEM) — R$70-80K/ha",
       "location": "Western Bahia, Brazil",
-      "pricePerAcre": 9000,
+      "pricePerAcre": 28000,
       "date": "2024-09-15",
       "source": "AGEFAZ + Bahia rural broker comps 2024"
     },
     {
       "id": "BR-CERRADO-WEST-BA-2025",
-      "description": "Western Bahia Cerrado 2025 transactions",
+      "description": "Western Bahia Cerrado 2025 transactions — top-tier LEM at R$75-85K/ha",
       "location": "Western Bahia (Barreiras / LEM), Brazil",
-      "pricePerAcre": 9500,
+      "pricePerAcre": 30500,
       "date": "2025-04-01",
       "source": "Barreiras Cerrado land transactions H1 2025"
     },
     {
       "id": "BR-GOIAS-CERRADO-2024",
-      "description": "Goi\u00e1s Class-A Cerrado cropland",
-      "location": "Cristalina / Catal\u00e3o, Goi\u00e1s",
-      "pricePerAcre": 8000,
+      "description": "Goiás Class-A Cerrado cropland near Brasília — R$60-72K/ha",
+      "location": "Cristalina / Catalão, Goiás",
+      "pricePerAcre": 25500,
       "date": "2024-09-15",
       "source": "IBGE + GO rural broker reports 2024"
     },
     {
       "id": "BR-GOIAS-CERRADO-2025",
-      "description": "Goi\u00e1s Class-A Cerrado 2025 transactions",
-      "location": "Goi\u00e1s, Brazil",
-      "pricePerAcre": 8500,
+      "description": "Goiás Class-A Cerrado 2025 transactions — R$64-76K/ha",
+      "location": "Goiás, Brazil",
+      "pricePerAcre": 27000,
       "date": "2025-04-01",
       "source": "GO land transactions H1 2025"
     },
     {
-      "id": "BR-CERRADO-MT-2024",
-      "description": "Mato Grosso Class-A cotton-soy ground",
-      "location": "Mato Grosso, Brazil",
-      "pricePerAcre": 7200,
-      "date": "2024-09-15",
-      "source": "IMEA Mato Grosso land surveys 2024"
-    },
-    {
-      "id": "BR-CERRADO-MT-2025",
-      "description": "Mato Grosso 2025 cropland transactions",
-      "location": "Mato Grosso, Brazil",
-      "pricePerAcre": 7800,
-      "date": "2025-04-01",
-      "source": "IMEA + MT broker reports 2025"
-    },
-    {
       "id": "BR-CERRADO-NE-MATOPIBA-2024",
-      "description": "Matopiba Cerrado expansion-frontier cropland",
+      "description": "Matopiba Cerrado expansion-frontier cropland — established southern MA at R$40-50K/ha; PI logistics-discount areas at R$32-42K/ha",
       "location": "Matopiba region (MA / PI / TO), Brazil",
-      "pricePerAcre": 6500,
+      "pricePerAcre": 17500,
       "date": "2024-10-01",
-      "source": "Matopiba region broker comps 2024"
+      "source": "Matopiba region broker comps 2024 (corrected per-acre conversion)"
+    },
+    {
+      "id": "BR-CERRADO-NE-MATOPIBA-2025",
+      "description": "Matopiba 2025 transactions — established at R$42-52K/ha; expansion-frontier at R$33-45K/ha",
+      "location": "Matopiba region (MA / PI / TO), Brazil",
+      "pricePerAcre": 18500,
+      "date": "2025-04-01",
+      "source": "Matopiba broker reports H1 2025"
     },
     {
       "id": "SLC-IR-LANDBANK-2024",
-      "description": "SLC's own internally-disclosed land bank value: ~R$15B for 700K hectares = ~R$8,650/acre weighted",
-      "location": "SLC portfolio average",
-      "acres": 1730000,
-      "pricePerAcre": 8650,
+      "description": "SLC IR-disclosed land bank value 2024: ~R$11.6B owned (Deloitte) — confirms the OWNED-only basis is the right comp anchor, not the 838K ha total operated portfolio",
+      "location": "SLC owned portfolio",
+      "acres": 561576,
+      "pricePerAcre": 20650,
       "date": "2024-12-31",
       "source": "SLC IR materials 2024 capital markets day"
     }
   ],
-  "methodology": "SLC Agr\u00edcola operates 26 production units across 8 Brazilian states. The original 16-unit portfolio expanded with several recent acquisitions (Pamplona, Pioneira JV with Dois Vales, expanded Parnagu\u00e1 +14,572 ha in 2024). Properties named below are confirmed via SLC IR materials with hectares from 2018-2024 disclosures.\n\nProduction unit naming convention: each SLC unit name starts with \"P\" and has 8 letters (Pamplona, Pioneira, Paiagu\u00e1s, Palmares, Parna\u00edba, Planeste, Planorte, Parceiro, Parnagu\u00e1, Panorama, Piratini, Paladino, etc.) \u2014 a notable corporate idiosyncrasy.\n\nThe 12 named units shown total ~937K acres / ~379K hectares \u2014 about 54% of SLC's total ~700K hectare owned base. Smaller units (Paladino, Parna\u00edba II, Planalto, etc.) aggregated in the final row totaling ~793K acres.\n\nPer-acre FMVs reflect 2024-2025 IMEA, AGEFAZ, and regional broker data:\n- Western Bahia (LEM): R$8,500-10,000/acre \u2014 Palmares, Parceiro\n- Goi\u00e1s Class-A: R$7,500-9,000/acre \u2014 Pamplona\n- Mato Grosso Class-A: R$6,500-8,500/acre \u2014 Paiagu\u00e1s, Planorte, Panorama\n- MS Class-A: R$6,500-7,500/acre \u2014 Piratini  \n- Matopiba (MA/PI/TO): R$5,500-7,500/acre \u2014 Planeste, Parna\u00edba, Pioneira, Parnagu\u00e1\n\nTotal FMV ~R$11.4B vs. ~R$4.5B GAAP cost-basis book reflects Brazilian GAAP accounting + SLC's own internally-disclosed R$15B land bank value at capital markets day 2024.\n\nData caveats:\n- Hectares for Panorama / Piratini are estimates (LandCo subsidiary properties less granularly disclosed)\n- \"Other named units\" aggregate covers ~14 smaller farms; refining individual hectares would tighten the per-region distribution",
-  "noiCheckCapRateLow": 5.0,
-  "noiCheckCapRateHigh": 8.0,
-  "noiCheckLabel": "Brazilian Cerrado row-crop (country-risk adjusted)"
+  "methodology": "SLC Agrícola operates ~838K hectares total across 8 Brazilian states, but only ~672K hectares are OWNED (~227K cultivable hectares = ~561K cultivable acres). The rest is leased (Sierentz partnership Mar-2025: ~50K ha at US$135M lease consideration, plus older Paineira PI lease) or under JV arrangements. Only owned cultivable land contributes to NAV — leased operations generate operating cashflow but no balance-sheet asset.\n\nPRIMARY FMV ANCHOR: Deloitte publishes an independent annual appraisal of SLC's owned land bank using ABNT NBR 14.653-3 (Direct Comparative Method of Market Data, terra nua only — excludes buildings, improvements, machinery). Recent appraisals:\n  • 2024:  R$11,591M  (Deloitte)\n  • 2025:  R$13,396M  (R$58,960/cultivable ha = R$23,876/acre weighted) — +7.1% YoY, partly driven by Mar-2025 +27,516 ha Agrícola Xingu acquisition\n\nThe 11-row sub-tier breakdown is calibrated so the FMV total (~R$13.4B) ties to the 2025 Deloitte mark.\n\nPer-acre pricing by region (2024-2025 IMEA / AGEFAZ / regional broker data — corrected per-acre conversion from per-hectare):\n- Western Bahia LEM (Barreiras): R$28-34K/acre (R$70-85K/ha) — Palmares premium\n- Mato Grosso premium (Sapezal): R$24-32K/acre (R$60-79K/ha) — Planorte\n- Goiás Class-A (Cristalina): R$22-30K/acre (R$54-74K/ha) — Pamplona\n- MT Class-A (Diamantino): R$21-29K/acre (R$52-72K/ha) — Paiaguás\n- BA mid-tier (non-LEM): R$20-28K/acre (R$50-69K/ha)\n- MT mid-tier (northern MT): R$18-26K/acre (R$44-64K/ha)\n- Matopiba MA established: R$14-20K/acre (R$35-50K/ha) — Parnaíba, Planeste\n- Matopiba PI frontier: R$12-18K/acre (R$30-45K/ha) — Parnaguá\n\nCap rate ranges 4.0-7.5% reflect quality tier differentiation: LEM premium / Sapezal MT compress to 4.0-5.5%; Matopiba expansion-frontier widens to 6.0-7.5% reflecting logistics distance and development stage.\n\nCRITICAL CORRECTION (vs prior version of this file): An earlier version of this detail page used R$5,200-9,000/acre for SLC's properties — a per-hectare-vs-per-acre unit-conversion error that systematically understated by ~3×, while simultaneously over-counting acres (1.73M operated acres vs the correct 561K owned-cultivable). The two errors offset numerically (~R$11.4B total vs Deloitte R$13.4B = only 18% off), but both inputs were wrong. The corrected version: (a) restricts to owned cultivable land only, (b) uses Brazilian per-acre figures consistent with IMEA per-hectare data converted at 1 ha = 2.471 acres, and (c) ties to the audited Deloitte mark. The same per-hectare-vs-per-acre error pattern likely affects other Brazilian operator detail files (AGRO3, AGRO sugarcane) — ongoing audit.",
+  "noiCheckCapRateLow": 4.5,
+  "noiCheckCapRateHigh": 6.5,
+  "noiCheckLabel": "Brazilian Cerrado row-crop owned land (Deloitte appraisal-anchored)"
 }
