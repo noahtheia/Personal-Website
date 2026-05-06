@@ -1,9 +1,13 @@
 import {
   aggregateByCategory,
+  propertyFmvHighPerAcre,
+  propertyFmvLowPerAcre,
   propertyFmvMM,
   propertyFmvVsBookPct,
   totalAcres,
   totalBookMM,
+  totalFmvHighMM,
+  totalFmvLowMM,
   totalFmvMM,
   type CategoryAggregate,
   type Comparable,
@@ -26,6 +30,8 @@ export function FarmlandPropertyDetail({
 }) {
   const ccy = detail.currency ?? filing.currency;
   const fmvMM = totalFmvMM(detail);
+  const fmvLowMM = totalFmvLowMM(detail);
+  const fmvHighMM = totalFmvHighMM(detail);
   const bookMM = totalBookMM(detail);
   const acres = totalAcres(detail);
   const fmvVsBookPct =
@@ -37,8 +43,14 @@ export function FarmlandPropertyDetail({
   // accurate against the FMV side of the equation).
   const netDebt = filing.debtMM - filing.cashMM;
   const navAtFmv = fmvMM - netDebt;
+  const navAtFmvLow = fmvLowMM - netDebt;
+  const navAtFmvHigh = fmvHighMM - netDebt;
   const navPerShareAtFmv =
     filing.sharesOutMM > 0 ? navAtFmv / filing.sharesOutMM : null;
+  const navPerShareLow =
+    filing.sharesOutMM > 0 ? navAtFmvLow / filing.sharesOutMM : null;
+  const navPerShareHigh =
+    filing.sharesOutMM > 0 ? navAtFmvHigh / filing.sharesOutMM : null;
 
   const aggregates = aggregateByCategory(detail);
   const compById = new Map(detail.comparables.map((c) => [c.id, c]));
@@ -51,7 +63,11 @@ export function FarmlandPropertyDetail({
           subtitle={`As of ${detail.asOf}`}
         />
         <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          <Card label="Aggregate FMV" value={`${ccy} ${fmtInt(fmvMM)}M`} sub={`${fmtInt(acres)} acres × ${fmtInt(acres > 0 ? (fmvMM * 1_000_000) / acres : 0)} ${ccy}/acre wt avg`} />
+          <Card
+            label="Aggregate FMV"
+            value={`${ccy} ${fmtInt(fmvMM)}M`}
+            sub={`Range ${ccy} ${fmtInt(fmvLowMM)}–${fmtInt(fmvHighMM)}M · ${fmtInt(acres)} acres`}
+          />
           <Card
             label="FMV vs. book"
             value={
@@ -75,7 +91,11 @@ export function FarmlandPropertyDetail({
                 ? "—"
                 : `${ccy} ${navPerShareAtFmv.toFixed(2)}`
             }
-            sub={`(FMV ${fmtInt(fmvMM)} − net debt ${fmtInt(netDebt)}) ÷ ${fmtInt(filing.sharesOutMM)}M sh`}
+            sub={
+              navPerShareLow !== null && navPerShareHigh !== null
+                ? `Range ${ccy} ${navPerShareLow.toFixed(2)}–${navPerShareHigh.toFixed(2)}`
+                : `(FMV ${fmtInt(fmvMM)} − net debt ${fmtInt(netDebt)}) ÷ ${fmtInt(filing.sharesOutMM)}M sh`
+            }
           />
           <Card
             label="Live price vs. FMV NAV"
@@ -85,7 +105,13 @@ export function FarmlandPropertyDetail({
                 : "—"
             }
             sub={
-              priced?.localPrice
+              priced?.localPrice &&
+              navPerShareLow !== null &&
+              navPerShareHigh !== null &&
+              navPerShareLow > 0 &&
+              navPerShareHigh > 0
+                ? `Range ${renderPct((priced.localPrice / navPerShareHigh - 1) * 100)} (high) to ${renderPct((priced.localPrice / navPerShareLow - 1) * 100)} (low)`
+                : priced?.localPrice
                 ? `Local price ${priced.localPrice.toFixed(2)} ${ccy}`
                 : "Live price unavailable"
             }
@@ -199,9 +225,11 @@ function CategoryTable({
       acc.acres += a.acres;
       acc.book += a.totalBookMM;
       acc.fmv += a.totalFmvMM;
+      acc.fmvLow += a.totalFmvLowMM;
+      acc.fmvHigh += a.totalFmvHighMM;
       return acc;
     },
-    { acres: 0, book: 0, fmv: 0 },
+    { acres: 0, book: 0, fmv: 0, fmvLow: 0, fmvHigh: 0 },
   );
   const totalsFmvVsBook =
     totals.book > 0 ? ((totals.fmv - totals.book) / totals.book) * 100 : null;
@@ -217,6 +245,7 @@ function CategoryTable({
             <Th align="right">Avg FMV {ccy}/acre</Th>
             <Th align="right">Book ({ccy} M)</Th>
             <Th align="right">FMV ({ccy} M)</Th>
+            <Th align="right">FMV range ({ccy} M)</Th>
             <Th align="right">FMV vs book</Th>
           </tr>
         </thead>
@@ -234,6 +263,9 @@ function CategoryTable({
               </td>
               <td className="px-3 py-2 text-right">{fmtInt(a.totalBookMM)}</td>
               <td className="px-3 py-2 text-right">{fmtInt(a.totalFmvMM)}</td>
+              <td className="px-3 py-2 text-right text-muted">
+                {fmtInt(a.totalFmvLowMM)}–{fmtInt(a.totalFmvHighMM)}
+              </td>
               <td
                 className={`px-3 py-2 text-right ${
                   a.fmvVsBookPct === null
@@ -267,6 +299,9 @@ function CategoryTable({
             </td>
             <td className="px-3 py-2 text-right">{fmtInt(totals.book)}</td>
             <td className="px-3 py-2 text-right">{fmtInt(totals.fmv)}</td>
+            <td className="px-3 py-2 text-right text-muted">
+              {fmtInt(totals.fmvLow)}–{fmtInt(totals.fmvHigh)}
+            </td>
             <td
               className={`px-3 py-2 text-right ${
                 totalsFmvVsBook === null
@@ -358,8 +393,11 @@ function PropertiesTable({
                     ? fmtInt((p.bookValueMM / p.acres) * 1_000_000)
                     : "—"}
                 </td>
-                <td className="px-3 py-2 text-right font-medium">
-                  {fmtInt(p.fmvPerAcre)}
+                <td className="px-3 py-2 text-right">
+                  <div className="font-medium">{fmtInt(p.fmvPerAcre)}</div>
+                  <div className="mt-0.5 text-[10px] text-muted">
+                    {fmtInt(propertyFmvLowPerAcre(p))}–{fmtInt(propertyFmvHighPerAcre(p))}
+                  </div>
                 </td>
                 <td className="px-3 py-2 text-right">
                   {fmtMoney(fmvMM)}

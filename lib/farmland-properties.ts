@@ -14,8 +14,18 @@ const PropertySchema = z.object({
   bookValueMM: z.number().nonnegative().optional(),
   appraisedValueMM: z.number().nonnegative().optional(),
   appraisalDate: z.string().optional(),
-  // Estimated fair-market value per acre (in `currency`).
+  // Estimated fair-market value per acre (in `currency`). For non-land
+  // asset rows (e.g. water rights), this is per unit and `acres` is a
+  // count of those units (e.g. acre-feet).
   fmvPerAcre: z.number().positive(),
+  // Optional sensitivity bands. When omitted, default to base × 0.85
+  // and base × 1.15 respectively. Author can override per row.
+  fmvPerAcreLow: z.number().positive().optional(),
+  fmvPerAcreHigh: z.number().positive().optional(),
+  // For non-land asset rows (water rights, infrastructure carve-outs,
+  // etc.), set true so the row contributes to FMV but not to acre
+  // totals on the detail page.
+  excludeFromAcreTotals: z.boolean().optional(),
   // One-line justification for the per-acre estimate.
   fmvRationale: z.string().optional(),
   // IDs of `comparables` entries cited for this property.
@@ -55,10 +65,16 @@ export type CategoryAggregate = {
   acres: number;
   totalBookMM: number;
   totalFmvMM: number;
+  totalFmvLowMM: number;
+  totalFmvHighMM: number;
   weightedBookPerAcre: number;
   weightedFmvPerAcre: number;
   fmvVsBookPct: number | null;
 };
+
+// Default ±15% sensitivity bands when not explicitly provided.
+const DEFAULT_LOW_RATIO = 0.85;
+const DEFAULT_HIGH_RATIO = 1.15;
 
 const DETAILS_DIR = path.join(
   process.cwd(),
@@ -87,10 +103,32 @@ export function propertyFmvMM(p: Property): number {
   return (p.acres * p.fmvPerAcre) / 1_000_000;
 }
 
+export function propertyFmvLowPerAcre(p: Property): number {
+  return p.fmvPerAcreLow ?? p.fmvPerAcre * DEFAULT_LOW_RATIO;
+}
+
+export function propertyFmvHighPerAcre(p: Property): number {
+  return p.fmvPerAcreHigh ?? p.fmvPerAcre * DEFAULT_HIGH_RATIO;
+}
+
+export function propertyFmvLowMM(p: Property): number {
+  return (p.acres * propertyFmvLowPerAcre(p)) / 1_000_000;
+}
+
+export function propertyFmvHighMM(p: Property): number {
+  return (p.acres * propertyFmvHighPerAcre(p)) / 1_000_000;
+}
+
 export function propertyFmvVsBookPct(p: Property): number | null {
   if (p.bookValueMM == null || p.bookValueMM <= 0) return null;
   const fmv = propertyFmvMM(p);
   return ((fmv - p.bookValueMM) / p.bookValueMM) * 100;
+}
+
+// Acres are only counted from rows that aren't flagged as non-land
+// (e.g. water rights, infrastructure).
+export function propertyContributesAcres(p: Property): boolean {
+  return p.excludeFromAcreTotals !== true;
 }
 
 // Aggregate all properties by their `category` field.
@@ -102,15 +140,28 @@ export function aggregateByCategory(d: PropertyDetail): CategoryAggregate[] {
   }
   const aggregates: CategoryAggregate[] = [];
   for (const [category, props] of groups.entries()) {
-    const acres = props.reduce((s, p) => s + p.acres, 0);
+    // Acres only counted for land-asset rows (excludes water rights, etc.).
+    const acres = props
+      .filter(propertyContributesAcres)
+      .reduce((s, p) => s + p.acres, 0);
     const totalBookMM = props.reduce((s, p) => s + (p.bookValueMM ?? 0), 0);
     const totalFmvMM = props.reduce((s, p) => s + propertyFmvMM(p), 0);
+    const totalFmvLowMM = props.reduce(
+      (s, p) => s + propertyFmvLowMM(p),
+      0,
+    );
+    const totalFmvHighMM = props.reduce(
+      (s, p) => s + propertyFmvHighMM(p),
+      0,
+    );
     aggregates.push({
       category,
       count: props.length,
       acres,
       totalBookMM,
       totalFmvMM,
+      totalFmvLowMM,
+      totalFmvHighMM,
       weightedBookPerAcre:
         acres > 0 ? (totalBookMM * 1_000_000) / acres : 0,
       weightedFmvPerAcre:
@@ -130,21 +181,32 @@ export function totalFmvMM(d: PropertyDetail): number {
   return d.properties.reduce((s, p) => s + propertyFmvMM(p), 0);
 }
 
+export function totalFmvLowMM(d: PropertyDetail): number {
+  return d.properties.reduce((s, p) => s + propertyFmvLowMM(p), 0);
+}
+
+export function totalFmvHighMM(d: PropertyDetail): number {
+  return d.properties.reduce((s, p) => s + propertyFmvHighMM(p), 0);
+}
+
 export function totalAcres(d: PropertyDetail): number {
-  return d.properties.reduce((s, p) => s + p.acres, 0);
+  return d.properties
+    .filter(propertyContributesAcres)
+    .reduce((s, p) => s + p.acres, 0);
 }
 
 export function totalBookMM(d: PropertyDetail): number {
   return d.properties.reduce((s, p) => s + (p.bookValueMM ?? 0), 0);
 }
 
-// Weighted-average FMV per acre across all properties in a detail file,
-// expressed in the detail's filing currency. Used by the comps table to
-// surface the underwritten FMV/acre instead of a static marketLandMM.
+// Weighted-average FMV per acre across all LAND properties (water rights
+// and other non-land rows excluded from both numerator and denominator).
 export function weightedFmvPerAcre(d: PropertyDetail): number {
-  const acres = totalAcres(d);
+  const landProps = d.properties.filter(propertyContributesAcres);
+  const acres = landProps.reduce((s, p) => s + p.acres, 0);
   if (acres <= 0) return 0;
-  return (totalFmvMM(d) * 1_000_000) / acres;
+  const fmv = landProps.reduce((s, p) => s + propertyFmvMM(p), 0);
+  return (fmv * 1_000_000) / acres;
 }
 
 // Quick lookup wrapper: read a ticker's detail file and return its
