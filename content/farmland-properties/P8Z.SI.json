@@ -1,0 +1,138 @@
+{
+  "ticker": "P8Z.SI",
+  "asOf": "2024-12-31",
+  "currency": "IDR",
+  "propertiesNote": "5-row breakdown calibrated to Bumitama's FY24 audited balance sheet: Total assets IDR 22.86T, Total equity IDR 17.36T, BV/share IDR 8,660.92, PP&E IDR 14.27T. Nucleus 124,408 ha = 307K acres (66.5% of 187,021 ha total planted). Plasma 62,613 ha = 155K acres (33.5%). 17 palm oil mills, weighted avg planting age 13.8 years (peak productivity).",
+  "properties": [
+    {
+      "name": "Central Kalimantan estates (nucleus)",
+      "location": "Central Kalimantan, Indonesia",
+      "acres": 172000,
+      "cropOrUse": "Mature oil palm + 9+ mills (largest cluster)",
+      "category": "Indonesian palm — Central Kalimantan (Bumitama)",
+      "fmvPerAcre": 65000000,
+      "fmvPerAcreLow": 52000000,
+      "fmvPerAcreHigh": 78000000,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0,
+      "fmvRationale": "~70K ha Central Kalimantan nucleus (56% of 124K ha total nucleus). Multiple mills: Pundu Nabatindo, Katari Agro, Gunung Makmur, Bukit Makmur, Sungai Cempaga, Selucing, Kotawaringin, Lamandau. Premium per-acre vs distressed peers reflecting healthy balance sheet + mill density",
+      "comparablesUsed": [
+        "P8Z-FY24-AUDITED",
+        "ID-PALM-KALIMANTAN-2024"
+      ],
+      "bookValueMM": 7300000
+    },
+    {
+      "name": "West Kalimantan estates (nucleus)",
+      "location": "West Kalimantan, Indonesia",
+      "acres": 132000,
+      "cropOrUse": "Mature oil palm + multiple mills",
+      "category": "Indonesian palm — West Kalimantan (Bumitama)",
+      "fmvPerAcre": 60000000,
+      "fmvPerAcreLow": 48000000,
+      "fmvPerAcreHigh": 72000000,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0,
+      "fmvRationale": "~53K ha West Kalimantan nucleus (43% of 124K ha total). Tonam Raya + others. Slight discount vs Central Kalimantan",
+      "comparablesUsed": [
+        "P8Z-FY24-AUDITED",
+        "ID-PALM-KALIMANTAN-2024"
+      ],
+      "bookValueMM": 5500000
+    },
+    {
+      "name": "Riau estates (small Sumatra position)",
+      "location": "Riau, Sumatra, Indonesia",
+      "acres": 3000,
+      "cropOrUse": "Oil palm",
+      "category": "Indonesian palm — Riau (Bumitama)",
+      "fmvPerAcre": 65000000,
+      "fmvPerAcreLow": 52000000,
+      "fmvPerAcreHigh": 78000000,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0,
+      "fmvRationale": "~1.2K ha Riau (Sumatra) — 1% of total nucleus, smallest geographic cluster",
+      "comparablesUsed": [
+        "ID-PALM-NSUMATRA-2024"
+      ],
+      "bookValueMM": 150000
+    },
+    {
+      "name": "Plasma plantations receivable (smallholder partnerships)",
+      "location": "Kalimantan + Sumatra (smallholder areas adjacent to nucleus)",
+      "acres": 155000,
+      "cropOrUse": "Plasma estate partnerships (62,613 ha NOT owned by Bumitama)",
+      "category": "Plasma plantations (partnership receivable)",
+      "fmvPerAcre": 6000000,
+      "fmvPerAcreLow": 5000000,
+      "fmvPerAcreHigh": 7000000,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0,
+      "fmvRationale": "62,613 ha plasma estates owned by smallholder farmers under Indonesia's mandatory plasma program — managed by Bumitama, NOT on balance sheet as land asset. Plasma 33.5% of total planted area (vs ~25% at AALI/SIMP) reflecting Bumitama's earlier-stage development + higher plasma ratio mandate",
+      "comparablesUsed": [
+        "P8Z-FY24-AUDITED"
+      ],
+      "bookValueMM": 900
+    },
+    {
+      "name": "Mills + buildings + processing infrastructure",
+      "location": "Indonesia (17 palm oil mills with 1,165 t/h capacity = ~7M MT FFB throughput annually)",
+      "acres": 1,
+      "cropOrUse": "17 CPO mills + buildings + machinery + bearer plant infrastructure",
+      "category": "CPO mills + processing infrastructure",
+      "fmvPerAcre": 5000000000000,
+      "fmvPerAcreLow": 4000000000000,
+      "fmvPerAcreHigh": 6500000000000,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 9.0,
+      "capRateHigh": 12.0,
+      "fmvRationale": "17 CPO mills (1,165 t/h capacity) + supporting infrastructure. Carved from PP&E IDR 14.27T less land-attributable portion (~IDR 9T) = ~IDR 5T industrial",
+      "comparablesUsed": [
+        "P8Z-FY24-AUDITED"
+      ],
+      "bookValueMM": 5000000
+    }
+  ],
+  "comparables": [
+    {
+      "id": "P8Z-FY24-AUDITED",
+      "description": "Bumitama Agri Ltd (SGX:P8Z, IDR-reporting) FY24 audited balance sheet: Total assets IDR 22.86T, Total liabilities IDR 5.50T, Shareholders' equity IDR 17.36T, PP&E IDR 14.27T, Book value per share IDR 8,660.92, Tangible BV/share IDR 7,906.09. Net debt IDR 0.89T (low leverage = healthy balance sheet). Net profit FY24 IDR 2.74T",
+      "location": "Bumitama Agri full balance sheet",
+      "acres": 462000,
+      "pricePerAcre": 30900000,
+      "date": "2024-12-31",
+      "source": "Bumitama Agri Ltd FY24 Annual Report",
+      "url": "https://bumitama-agri.com/wp-content/uploads/2025/04/Bumitama-Agri-Ltd_AR2024_FA.pdf"
+    },
+    {
+      "id": "P8Z-PORTFOLIO-2024",
+      "description": "Bumitama FY24 planted area disclosure: Total 187,021 ha = 462,317 acres comprising 124,408 ha NUCLEUS owned (307,453 acres, 66.5%) + 62,613 ha PLASMA smallholder partnerships (154,754 acres, 33.5%). 17 mills with 1,165 t/h capacity. Weighted avg planting age 13.8 years (peak productivity)",
+      "location": "Bumitama full portfolio",
+      "acres": 462317,
+      "pricePerAcre": 40000000,
+      "date": "2024-12-31",
+      "source": "Bumitama Agri FY24 Annual Report"
+    },
+    {
+      "id": "ID-PALM-KALIMANTAN-2024",
+      "description": "Kalimantan palm oil concession 2024 — IDR 45-65M/acre (healthy operators)",
+      "location": "Kalimantan, Indonesia",
+      "pricePerAcre": 55000000,
+      "date": "2024-09-30",
+      "source": "Kalimantan palm broker comps 2024"
+    },
+    {
+      "id": "ID-PALM-NSUMATRA-2024",
+      "description": "North Sumatra mature palm oil estate 2024 — IDR 60-80M/acre",
+      "location": "North Sumatra, Indonesia",
+      "pricePerAcre": 70000000,
+      "date": "2024-10-15",
+      "source": "Indonesian palm broker comps 2024"
+    }
+  ],
+  "methodology": "Bumitama Agri Ltd is SGX-listed but reports in IDR (Indonesian-domiciled operations). One of the cleaner Indonesian palm pure-plays with healthy balance sheet (low net debt vs distressed Eagle High BWPT).\n\nCRITICAL CHANGES vs prior version of this file:\n  • Nucleus acres reduced from 460,900 (= confused with total planted) to 307,453 (= 124,408 ha nucleus owned per FY24 disclosure)\n  • Plasma row corrected from 33,100 acres to 154,754 acres = 62,613 ha (matches 33.5% plasma disclosure)\n  • Per-acre reduced from IDR 75-80M to IDR 60-65M to better align with PP&E book IDR 14.27T (1.35× book buildup, in line with AALI/SIMP healthy-operator multiples)\n  • Added separate mills/processing row to reconcile to total PP&E\n\nPRIMARY FMV ANCHOR: Bumitama Agri FY24 audited balance sheet:\n  Total assets:                   IDR 22.86T\n  Total liabilities:              IDR  5.50T\n  Total equity:                   IDR 17.36T\n  PP&E (net of depreciation):     IDR 14.27T\n  Book value per share:           IDR 8,660.92\n  Tangible BV/share:              IDR 7,906.09\n  Net profit FY24:                IDR  2.74T (healthy operator)\n  Net debt:                       IDR  0.89T (very low leverage)\n\nFMV TARGET: My buildup totals ~IDR 19.3T nucleus + IDR 0.9T plasma receivable + IDR 5T industrial = IDR 25.2T (= 1.77× audited PP&E IDR 14.27T). Reasonable mark-to-market premium for healthy Indonesian palm operator with peak-productivity assets (avg age 13.8 years).\n\nPER-ACRE BENCHMARK COMPARISON (Indonesian palm sector):\n  AALI Sumatra:    IDR 65M (healthy, broker-comp anchored)\n  SIMP Sumatra:    IDR 65M (healthy + downstream brands)\n  P8Z C Kalim:     IDR 65M (healthy + premium mill density)\n  P8Z W Kalim:     IDR 60M (slight discount vs C Kalim)\n  BWPT Sumatra:    IDR 35M (distressed, ~50% of healthy)\n\nPLASMA STRUCTURE: Bumitama's plasma ratio at 33.5% is HIGHER than AALI/SIMP (~25%) reflecting later-stage development requirements + Indonesia regulatory mandate. The plasma estates are owned by smallholder farmers under cooperatives with multi-year crop purchase + advisory agreements with Bumitama. Plasma receivable on Bumitama's balance sheet represents net advances less repayments — NOT land value.\n\nCap rate ranges 7.5-10% reflect healthy Indonesian palm going-concern yields. Industrial mill cap rates 9-12% reflect processing-asset operating yields.",
+  "noiCheckCapRateLow": 7.0,
+  "noiCheckCapRateHigh": 10.0,
+  "noiCheckLabel": "Indonesian palm — healthy operator (going-concern)"
+}

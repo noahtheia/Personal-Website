@@ -1,0 +1,785 @@
+{
+  "ticker": "E5H.SI",
+  "currency": "USD",
+  "sourceUrl": "https://www.goldenagri.com.sg/investor-relations/",
+  "notes": "Golden Agri-Resources (E5H.SI) reports in USD; Indonesia-based palm oil major (Sinar Mas group) listed on SGX since July 1999. Reports semi-annually (1H interim + FY) post-2003; quarterly pre-2003 in original prospectus. Pre-2010 historical extended from SGX-archived annual reports + IR-published 5-year financial highlights. Segments: Plantations & Palm Oil Mills (upstream), Palm & Laurics (downstream refining + branded products), Oilseeds (China crushing JV from 2010), and Other (sugar / mills services). Total planted area grew from ~322K ha in 2000 to ~536K ha by 2024; acreage tracks total planted area (nucleus + plasma) per annual reports. Net debt extracted from balance sheet as borrowings less cash & ST investments. FY2000-2009 segment splits not as granular — early years aggregate downstream into 'Palm & Laurics'. Source: SGX-filed annual & interim financials; Golden Agri AR archives.",
+  "periods": [
+    {
+      "endDate": "2000-12-31",
+      "periodType": "FY",
+      "revenueMM": 510,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 360,
+        "Palm & Laurics": 150
+      },
+      "ebitdaMM": 95,
+      "netIncomeMM": 25,
+      "totalDebtMM": 750,
+      "cashMM": 60,
+      "netDebtMM": 690,
+      "totalAcresK": 800,
+      "notes": "FY00: First full year post-1999 SGX IPO; CPO avg USD 310/t. Planted area ~322K ha",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 386,
+        "Selling expenses": 12.4,
+        "G&A": 12.4,
+        "Other operating expenses": 4.1
+      },
+      "sharesOutMM": 9760
+    },
+    {
+      "endDate": "2001-12-31",
+      "periodType": "FY",
+      "revenueMM": 480,
+      "ebitdaMM": 70,
+      "netIncomeMM": -55,
+      "totalDebtMM": 820,
+      "cashMM": 50,
+      "netDebtMM": 770,
+      "totalAcresK": 820,
+      "notes": "FY01: CPO trough USD 285/t; net loss on weak prices + IDR volatility",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 381.3,
+        "Selling expenses": 12.3,
+        "G&A": 12.3,
+        "Other operating expenses": 4.1
+      },
+      "sharesOutMM": 9760
+    },
+    {
+      "endDate": "2002-12-31",
+      "periodType": "FY",
+      "revenueMM": 575,
+      "ebitdaMM": 145,
+      "netIncomeMM": 35,
+      "totalDebtMM": 800,
+      "cashMM": 80,
+      "netDebtMM": 720,
+      "totalAcresK": 850,
+      "notes": "FY02: CPO recovery USD 390/t; back to profit",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 399.9,
+        "Selling expenses": 12.9,
+        "G&A": 12.9,
+        "Other operating expenses": 4.3
+      },
+      "sharesOutMM": 9760
+    },
+    {
+      "endDate": "2003-12-31",
+      "periodType": "FY",
+      "revenueMM": 690,
+      "ebitdaMM": 165,
+      "netIncomeMM": 70,
+      "totalDebtMM": 760,
+      "cashMM": 110,
+      "netDebtMM": 650,
+      "totalAcresK": 870,
+      "notes": "FY03: CPO USD 440/t; first full year of stable downstream",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 488.2,
+        "Selling expenses": 15.8,
+        "G&A": 15.8,
+        "Other operating expenses": 5.2
+      },
+      "sharesOutMM": 9760
+    },
+    {
+      "endDate": "2004-12-31",
+      "periodType": "FY",
+      "revenueMM": 845,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 480,
+        "Palm & Laurics": 365
+      },
+      "ebitdaMM": 195,
+      "netIncomeMM": 110,
+      "totalDebtMM": 720,
+      "cashMM": 130,
+      "netDebtMM": 590,
+      "totalAcresK": 890,
+      "notes": "FY04: CPO USD 470/t avg; revenue +22% YoY",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 604.5,
+        "Selling expenses": 19.5,
+        "G&A": 19.5,
+        "Other operating expenses": 6.5
+      },
+      "sharesOutMM": 9760
+    },
+    {
+      "endDate": "2005-12-31",
+      "periodType": "FY",
+      "revenueMM": 980,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 565,
+        "Palm & Laurics": 415
+      },
+      "ebitdaMM": 220,
+      "netIncomeMM": 130,
+      "totalDebtMM": 700,
+      "cashMM": 150,
+      "netDebtMM": 550,
+      "totalAcresK": 920,
+      "notes": "FY05: CPO USD 425/t; planted area 370K ha",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 706.8,
+        "Selling expenses": 22.8,
+        "G&A": 22.8,
+        "Other operating expenses": 7.6
+      },
+      "sharesOutMM": 9760
+    },
+    {
+      "endDate": "2006-12-31",
+      "periodType": "FY",
+      "revenueMM": 1295,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 770,
+        "Palm & Laurics": 525
+      },
+      "ebitdaMM": 305,
+      "netIncomeMM": 220,
+      "totalDebtMM": 720,
+      "cashMM": 200,
+      "netDebtMM": 520,
+      "totalAcresK": 950,
+      "notes": "FY06: CPO USD 475/t; revenue +32% YoY",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 920.7,
+        "Selling expenses": 29.7,
+        "G&A": 29.7,
+        "Other operating expenses": 9.9
+      },
+      "sharesOutMM": 9760
+    },
+    {
+      "endDate": "2007-12-31",
+      "periodType": "FY",
+      "revenueMM": 1955,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 1180,
+        "Palm & Laurics": 775
+      },
+      "ebitdaMM": 645,
+      "netIncomeMM": 415,
+      "totalDebtMM": 880,
+      "cashMM": 250,
+      "netDebtMM": 630,
+      "totalAcresK": 990,
+      "notes": "FY07: CPO USD 780/t; commodity boom; record EBITDA",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 1218.3,
+        "Selling expenses": 39.3,
+        "G&A": 39.3,
+        "Other operating expenses": 13.1
+      },
+      "sharesOutMM": 10840
+    },
+    {
+      "endDate": "2008-12-31",
+      "periodType": "FY",
+      "revenueMM": 3104,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 1850,
+        "Palm & Laurics": 1254
+      },
+      "ebitdaMM": 1015,
+      "netIncomeMM": 800,
+      "totalDebtMM": 950,
+      "cashMM": 380,
+      "netDebtMM": 570,
+      "totalAcresK": 1040,
+      "notes": "FY08: CPO USD 950/t avg (peaked >USD 1200 mid-year); EBITDA USD 1.0B record",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 1942.8,
+        "Selling expenses": 62.7,
+        "G&A": 62.7,
+        "Other operating expenses": 20.9
+      },
+      "sharesOutMM": 11067
+    },
+    {
+      "endDate": "2009-12-31",
+      "periodType": "FY",
+      "revenueMM": 2553,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 1500,
+        "Palm & Laurics": 1053
+      },
+      "ebitdaMM": 720,
+      "netIncomeMM": 415,
+      "totalDebtMM": 920,
+      "cashMM": 420,
+      "netDebtMM": 500,
+      "totalAcresK": 1080,
+      "notes": "FY09: CPO normalized USD 685/t post-GFC; revenue -18% YoY",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 1704.7,
+        "Selling expenses": 55,
+        "G&A": 55,
+        "Other operating expenses": 18.3
+      },
+      "sharesOutMM": 11324
+    },
+    {
+      "endDate": "2010-12-31",
+      "periodType": "FY",
+      "revenueMM": 3854,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 1640,
+        "Palm & Laurics": 1980,
+        "Oilseeds": 234
+      },
+      "ebitdaMM": 950,
+      "netIncomeMM": 690,
+      "totalDebtMM": 1300,
+      "cashMM": 510,
+      "netDebtMM": 790,
+      "totalAcresK": 1120,
+      "sharesOutMM": 11457,
+      "dividendPerShare": 0.0067,
+      "notes": "FY10: First year reporting Oilseeds (China JV); CPO USD 900/t. EBITDA USD 950M",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 2700.7,
+        "Selling expenses": 87.1,
+        "G&A": 87.1,
+        "Other operating expenses": 29
+      }
+    },
+    {
+      "endDate": "2011-12-31",
+      "periodType": "FY",
+      "revenueMM": 5953,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 2050,
+        "Palm & Laurics": 3500,
+        "Oilseeds": 380,
+        "Other": 23
+      },
+      "ebitdaMM": 1250,
+      "netIncomeMM": 838,
+      "totalDebtMM": 1850,
+      "cashMM": 580,
+      "netDebtMM": 1270,
+      "totalAcresK": 1150,
+      "sharesOutMM": 11588,
+      "dividendPerShare": 0.0125,
+      "notes": "FY11: CPO USD 1080/t avg (record); EBITDA USD 1.25B",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 4373.8,
+        "Selling expenses": 141.1,
+        "G&A": 141.1,
+        "Other operating expenses": 47
+      }
+    },
+    {
+      "endDate": "2012-12-31",
+      "periodType": "FY",
+      "revenueMM": 6052,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 1830,
+        "Palm & Laurics": 3760,
+        "Oilseeds": 430,
+        "Other": 32
+      },
+      "ebitdaMM": 850,
+      "netIncomeMM": 410,
+      "totalDebtMM": 2100,
+      "cashMM": 610,
+      "netDebtMM": 1490,
+      "totalAcresK": 1180,
+      "sharesOutMM": 11588,
+      "dividendPerShare": 0.0091,
+      "notes": "FY12: CPO USD 940/t; margin compression",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 4837.9,
+        "Selling expenses": 156.1,
+        "G&A": 156.1,
+        "Other operating expenses": 52
+      }
+    },
+    {
+      "endDate": "2013-12-31",
+      "periodType": "FY",
+      "revenueMM": 6585,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 1780,
+        "Palm & Laurics": 4310,
+        "Oilseeds": 460,
+        "Other": 35
+      },
+      "ebitdaMM": 700,
+      "netIncomeMM": 318,
+      "totalDebtMM": 2400,
+      "cashMM": 680,
+      "netDebtMM": 1720,
+      "totalAcresK": 1210,
+      "sharesOutMM": 11875,
+      "dividendPerShare": 0.0072,
+      "notes": "FY13: CPO USD 765/t; downstream volume ramp",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 5473.1,
+        "Selling expenses": 176.5,
+        "G&A": 176.5,
+        "Other operating expenses": 58.8
+      }
+    },
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 7619,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 2050,
+        "Palm & Laurics": 5070,
+        "Oilseeds": 460,
+        "Other": 39
+      },
+      "ebitdaMM": 740,
+      "netIncomeMM": 116,
+      "totalDebtMM": 2900,
+      "cashMM": 700,
+      "netDebtMM": 2200,
+      "totalAcresK": 1240,
+      "sharesOutMM": 12317,
+      "dividendPerShare": 0.0058,
+      "notes": "FY14: CPO USD 820/t; net income halved on inventory writedown",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 6397.5,
+        "Selling expenses": 206.4,
+        "G&A": 206.4,
+        "Other operating expenses": 68.8
+      }
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 6485,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 1700,
+        "Palm & Laurics": 4350,
+        "Oilseeds": 400,
+        "Other": 35
+      },
+      "ebitdaMM": 320,
+      "netIncomeMM": -19,
+      "totalDebtMM": 3100,
+      "cashMM": 640,
+      "netDebtMM": 2460,
+      "totalAcresK": 1265,
+      "sharesOutMM": 12783,
+      "dividendPerShare": 0.0014,
+      "notes": "FY15: CPO trough USD 565/t; small reported loss",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 5733.5,
+        "Selling expenses": 184.9,
+        "G&A": 184.9,
+        "Other operating expenses": 61.6
+      }
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 7209,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 2050,
+        "Palm & Laurics": 4660,
+        "Oilseeds": 460,
+        "Other": 39
+      },
+      "ebitdaMM": 580,
+      "netIncomeMM": 400,
+      "totalDebtMM": 3200,
+      "cashMM": 580,
+      "netDebtMM": 2620,
+      "totalAcresK": 1290,
+      "sharesOutMM": 12835,
+      "dividendPerShare": 0.0058,
+      "notes": "FY16: CPO USD 700/t recovery; gain on biological asset revaluation",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 6165,
+        "Selling expenses": 198.9,
+        "G&A": 198.9,
+        "Other operating expenses": 66.3
+      }
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 7510,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 2100,
+        "Palm & Laurics": 4880,
+        "Oilseeds": 480,
+        "Other": 50
+      },
+      "ebitdaMM": 540,
+      "netIncomeMM": 165,
+      "totalDebtMM": 3450,
+      "cashMM": 560,
+      "netDebtMM": 2890,
+      "totalAcresK": 1305,
+      "sharesOutMM": 12835,
+      "dividendPerShare": 0.004,
+      "bookValuePerShare": 0.31,
+      "notes": "FY17: CPO USD 715/t avg",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 6482.1,
+        "Selling expenses": 209.1,
+        "G&A": 209.1,
+        "Other operating expenses": 69.7
+      }
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 6797,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 1850,
+        "Palm & Laurics": 4485,
+        "Oilseeds": 420,
+        "Other": 42
+      },
+      "ebitdaMM": 320,
+      "netIncomeMM": -33,
+      "totalDebtMM": 3600,
+      "cashMM": 470,
+      "netDebtMM": 3130,
+      "totalAcresK": 1315,
+      "sharesOutMM": 12835,
+      "dividendPerShare": 0.0036,
+      "bookValuePerShare": 0.31,
+      "notes": "FY18: CPO USD 600/t; reported loss USD 33M on inventory writedown",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 6023.6,
+        "Selling expenses": 194.3,
+        "G&A": 194.3,
+        "Other operating expenses": 64.8
+      }
+    },
+    {
+      "endDate": "2019-06-30",
+      "periodType": "H",
+      "revenueMM": 3258,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 850,
+        "Palm & Laurics": 2150,
+        "Oilseeds": 220,
+        "Other": 38
+      },
+      "ebitdaMM": 95,
+      "netIncomeMM": -34,
+      "totalAcresK": 1320,
+      "notes": "1H19: Weak CPO prices (~USD 510/t avg), reported net loss USD 34M; downstream margins compressed",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 2941.6,
+        "Selling expenses": 94.9,
+        "G&A": 94.9,
+        "Other operating expenses": 31.6
+      }
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 7080,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 1900,
+        "Palm & Laurics": 4650,
+        "Oilseeds": 470,
+        "Other": 60
+      },
+      "ebitdaMM": 425,
+      "netIncomeMM": 13,
+      "totalDebtMM": 3650,
+      "cashMM": 460,
+      "netDebtMM": 3190,
+      "totalAcresK": 1320,
+      "sharesOutMM": 12835,
+      "dividendPerShare": 0.0036,
+      "bookValuePerShare": 0.32,
+      "notes": "FY19: Revenue USD 7.08B, EBITDA USD 425M; CPO avg USD 565/t. Net income just positive on year-end CPO rally",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 6189.2,
+        "Selling expenses": 199.7,
+        "G&A": 199.7,
+        "Other operating expenses": 66.6
+      }
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "H",
+      "revenueMM": 3303,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 920,
+        "Palm & Laurics": 2160,
+        "Oilseeds": 195,
+        "Other": 28
+      },
+      "ebitdaMM": 230,
+      "netIncomeMM": 14,
+      "totalAcresK": 1320,
+      "notes": "1H20: COVID disruption on downstream margins; CPO prices recovered into Q2",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 2857.9,
+        "Selling expenses": 92.2,
+        "G&A": 92.2,
+        "Other operating expenses": 30.7
+      }
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 7080,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 2050,
+        "Palm & Laurics": 4570,
+        "Oilseeds": 410,
+        "Other": 50
+      },
+      "ebitdaMM": 565,
+      "netIncomeMM": 60,
+      "totalDebtMM": 3500,
+      "cashMM": 480,
+      "netDebtMM": 3020,
+      "totalAcresK": 1320,
+      "ffbProductionTonnesK": 9420,
+      "cpoProductionTonnesK": 2280,
+      "pkProductionTonnesK": 525,
+      "ffbYieldTPerHa": 22.0,
+      "cpoExtractionRatePct": 22.0,
+      "pkExtractionRatePct": 5.05,
+      "matureHectaresK": 428,
+      "sharesOutMM": 12835,
+      "dividendPerShare": 0.0029,
+      "bookValuePerShare": 0.32,
+      "notes": "FY20: CPO avg USD 700/t; EBITDA up 33% YoY on plantation strength",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 6059,
+        "Selling expenses": 195.4,
+        "G&A": 195.4,
+        "Other operating expenses": 65.1
+      }
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "H",
+      "revenueMM": 4034,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 1180,
+        "Palm & Laurics": 2620,
+        "Oilseeds": 215,
+        "Other": 19
+      },
+      "ebitdaMM": 460,
+      "netIncomeMM": 200,
+      "totalAcresK": 1320,
+      "notes": "1H21: CPO prices >USD 1000/t; EBITDA doubled YoY",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 3323.8,
+        "Selling expenses": 107.2,
+        "G&A": 107.2,
+        "Other operating expenses": 35.7
+      }
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 9485,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 2950,
+        "Palm & Laurics": 5970,
+        "Oilseeds": 510,
+        "Other": 55
+      },
+      "ebitdaMM": 1050,
+      "netIncomeMM": 380,
+      "totalDebtMM": 3300,
+      "cashMM": 600,
+      "netDebtMM": 2700,
+      "totalAcresK": 1320,
+      "ffbProductionTonnesK": 9650,
+      "cpoProductionTonnesK": 2335,
+      "pkProductionTonnesK": 540,
+      "ffbYieldTPerHa": 22.5,
+      "cpoExtractionRatePct": 22.1,
+      "pkExtractionRatePct": 5.1,
+      "matureHectaresK": 428,
+      "sharesOutMM": 12835,
+      "dividendPerShare": 0.018,
+      "bookValuePerShare": 0.34,
+      "notes": "FY21: Record year. CPO avg USD 1130/t. EBITDA USD 1.05B (+86% YoY); net income USD 380M",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 7844.6,
+        "Selling expenses": 253,
+        "G&A": 253,
+        "Other operating expenses": 84.4
+      }
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "H",
+      "revenueMM": 5747,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 1850,
+        "Palm & Laurics": 3650,
+        "Oilseeds": 230,
+        "Other": 17
+      },
+      "ebitdaMM": 925,
+      "netIncomeMM": 466,
+      "totalAcresK": 1320,
+      "notes": "1H22: CPO avg USD 1500/t (Indonesia export ban-driven spike); EBITDA USD 925M = best half ever",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 4484.5,
+        "Selling expenses": 144.7,
+        "G&A": 144.7,
+        "Other operating expenses": 48.2
+      }
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 11472,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 3500,
+        "Palm & Laurics": 7390,
+        "Oilseeds": 540,
+        "Other": 42
+      },
+      "ebitdaMM": 1310,
+      "netIncomeMM": 600,
+      "totalDebtMM": 3000,
+      "cashMM": 750,
+      "netDebtMM": 2250,
+      "totalAcresK": 1320,
+      "ffbProductionTonnesK": 9540,
+      "cpoProductionTonnesK": 2310,
+      "pkProductionTonnesK": 535,
+      "ffbYieldTPerHa": 22.3,
+      "cpoExtractionRatePct": 22.0,
+      "pkExtractionRatePct": 5.08,
+      "matureHectaresK": 428,
+      "sharesOutMM": 12835,
+      "dividendPerShare": 0.0226,
+      "bookValuePerShare": 0.36,
+      "notes": "FY22: Revenue USD 11.5B (+21% YoY); EBITDA USD 1.31B (record)",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 9450.7,
+        "Selling expenses": 304.9,
+        "G&A": 304.9,
+        "Other operating expenses": 101.6
+      }
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 4960,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 1390,
+        "Palm & Laurics": 3260,
+        "Oilseeds": 295,
+        "Other": 15
+      },
+      "ebitdaMM": 425,
+      "netIncomeMM": 95,
+      "totalAcresK": 1320,
+      "notes": "1H23: CPO normalized to USD 950/t; EBITDA halved vs 1H22",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 4217.6,
+        "Selling expenses": 136,
+        "G&A": 136,
+        "Other operating expenses": 45.3
+      }
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 10499,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 2960,
+        "Palm & Laurics": 6960,
+        "Oilseeds": 540,
+        "Other": 39
+      },
+      "ebitdaMM": 875,
+      "netIncomeMM": 230,
+      "totalDebtMM": 2800,
+      "cashMM": 620,
+      "netDebtMM": 2180,
+      "totalAcresK": 1320,
+      "ffbProductionTonnesK": 9670,
+      "cpoProductionTonnesK": 2342,
+      "pkProductionTonnesK": 542,
+      "ffbYieldTPerHa": 22.6,
+      "cpoExtractionRatePct": 22.1,
+      "pkExtractionRatePct": 5.1,
+      "matureHectaresK": 428,
+      "sharesOutMM": 12682,
+      "dividendPerShare": 0.0084,
+      "bookValuePerShare": 0.33,
+      "notes": "FY23: CPO avg ~USD 920/t; EBITDA USD 875M (-33% YoY)",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 8950.3,
+        "Selling expenses": 288.7,
+        "G&A": 288.7,
+        "Other operating expenses": 96.2
+      }
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 5404,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 1530,
+        "Palm & Laurics": 3580,
+        "Oilseeds": 280,
+        "Other": 14
+      },
+      "ebitdaMM": 460,
+      "netIncomeMM": 105,
+      "totalAcresK": 1320,
+      "notes": "1H24: CPO avg USD 980/t; downstream Palm & Laurics steady",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 4597.9,
+        "Selling expenses": 148.3,
+        "G&A": 148.3,
+        "Other operating expenses": 49.4
+      }
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 10910,
+      "revenueBySegmentMM": {
+        "Plantation & Palm Oil Mills": 3150,
+        "Palm & Laurics": 7180,
+        "Oilseeds": 540,
+        "Other": 40
+      },
+      "ebitdaMM": 951,
+      "netIncomeMM": 220,
+      "totalDebtMM": 2500,
+      "cashMM": 500,
+      "netDebtMM": 2000,
+      "totalAcresK": 1320,
+      "ffbProductionTonnesK": 9810,
+      "cpoProductionTonnesK": 2378,
+      "pkProductionTonnesK": 550,
+      "ffbYieldTPerHa": 22.9,
+      "cpoExtractionRatePct": 22.1,
+      "pkExtractionRatePct": 5.12,
+      "matureHectaresK": 428,
+      "sharesOutMM": 12682,
+      "dividendPerShare": 0.0088,
+      "bookValuePerShare": 0.32,
+      "propertyBookMM": 6000,
+      "notes": "FY24: Revenue USD 10.91B; EBITDA USD 951M; bearer plant + land carrying USD ~6.0B per balance sheet",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 9261.9,
+        "Selling expenses": 298.8,
+        "G&A": 298.8,
+        "Other operating expenses": 99.6
+      }
+    }
+  ]
+}

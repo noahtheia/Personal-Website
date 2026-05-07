@@ -1,0 +1,874 @@
+{
+  "ticker": "AGRO",
+  "currency": "USD",
+  "sourceUrl": "https://www.adecoagro.com/Investor",
+  "notes": "Adecoagro NYSE-listed since Jan 2011 (IPO ticker AGRO). USD reporting; calendar fiscal year. Three operating segments: Sugar/Ethanol/Energy (S&EE), Farming (Crops + Rice + Dairy), and Land Transformation (farm sales). IFRS reporter — owned farms carried at fair value via biological assets / PP&E revaluation. Annual Cushman & Wakefield independent appraisal of land portfolio with Sep base date. Quarterly data sourced from 6-K earnings releases on adecoagro.com/Investor and SEC EDGAR (CIK 0001488934, 20-F filer). Adjusted EBITDA is the headline KPI in management releases. Net debt reported per company. El Meridiano farm sale closed Q4 2023 for $90M (Argentina). Hectare-to-acre conversion: 1 ha = 2.47105 acres. Land Transformation segment revenue is lumpy (depends on farm dispositions in any quarter). Some 2020-2022 quarterly granularity is approximate as company restated several segments under new IFRS 16 / biological asset standards. Quarterly expensesBySegmentMM are estimated by allocating annual COGS/SG&A/D&A pro-rata to revenue (annual totals tie to filings). Adecoagro does not disclose grossRevenueMM (US-style filer reports net revenue only). FY2011-FY2019 backfill from 20-F annual filings on EDGAR (CIK 0001488934) — annual only as quarterly archives are sparse pre-2020. IPO Jan-2011 raised $400M @ $11/share; ~117M shares outstanding post-IPO. Land portfolio peaked at ~285k ha (~705k acres) in 2014-2015 then steadily reduced via farm dispositions. Sugar/Ethanol segment expanded materially via Angélica + Ivinhema mill ramps (2011-2014).",
+  "periods": [
+    {
+      "endDate": "2011-12-31",
+      "periodType": "FY",
+      "revenueMM": 622.7,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 197,
+        "Farming (Crops + Rice + Dairy)": 415,
+        "Land Transformation": 10.7
+      },
+      "ebitdaMM": 178.4,
+      "netIncomeMM": 138.6,
+      "totalAssetsMM": 1742,
+      "totalDebtMM": 502,
+      "cashMM": 277,
+      "netDebtMM": 225,
+      "totalEquityMM": 1010,
+      "propertyBookMM": 950,
+      "sharesOutMM": 122,
+      "totalAcresK": 692,
+      "epsBasic": 1.14,
+      "notes": "FY11: First full FY post Jan-2011 NYSE IPO. Revenue $622.7M, Adj EBITDA $178.4M. Strong commodity prices + farm-sale gains on Argentine portfolio. Source: 2011 20-F (filed Apr-2012)",
+      "bookValuePerShare": 8.28
+    },
+    {
+      "endDate": "2012-12-31",
+      "periodType": "FY",
+      "revenueMM": 720.4,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 270,
+        "Farming (Crops + Rice + Dairy)": 440,
+        "Land Transformation": 10.4
+      },
+      "ebitdaMM": 188.5,
+      "netIncomeMM": 8.6,
+      "totalAssetsMM": 1850,
+      "totalDebtMM": 644,
+      "cashMM": 217,
+      "netDebtMM": 427,
+      "totalEquityMM": 1010,
+      "propertyBookMM": 1100,
+      "sharesOutMM": 121.5,
+      "totalAcresK": 705,
+      "epsBasic": 0.07,
+      "notes": "FY12: Revenue $720.4M, Adj EBITDA $188.5M. Net income compressed by Argentina drought + FX. Sugar/ethanol ramp continues at Angélica. Source: 2012 20-F",
+      "bookValuePerShare": 8.31
+    },
+    {
+      "endDate": "2013-12-31",
+      "periodType": "FY",
+      "revenueMM": 824.9,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 363,
+        "Farming (Crops + Rice + Dairy)": 451,
+        "Land Transformation": 10.9
+      },
+      "ebitdaMM": 199.5,
+      "netIncomeMM": 19,
+      "totalAssetsMM": 2050,
+      "totalDebtMM": 803,
+      "cashMM": 207,
+      "netDebtMM": 596,
+      "totalEquityMM": 1085,
+      "propertyBookMM": 1200,
+      "sharesOutMM": 121,
+      "totalAcresK": 705,
+      "epsBasic": 0.16,
+      "notes": "FY13: Revenue $824.9M, Adj EBITDA $199.5M. Capex peak for Ivinhema mill construction. Source: 2013 20-F",
+      "bookValuePerShare": 8.97
+    },
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 821,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 393,
+        "Farming (Crops + Rice + Dairy)": 415,
+        "Land Transformation": 13
+      },
+      "ebitdaMM": 230.5,
+      "netIncomeMM": -19.6,
+      "totalAssetsMM": 2030,
+      "totalDebtMM": 870,
+      "cashMM": 230,
+      "netDebtMM": 640,
+      "totalEquityMM": 990,
+      "propertyBookMM": 1200,
+      "sharesOutMM": 121,
+      "totalAcresK": 705,
+      "epsBasic": -0.16,
+      "notes": "FY14: Revenue $821M, Adj EBITDA $230.5M. Net loss on FX (Argentine peso devaluation). Ivinhema mill in commissioning. Source: 2014 20-F",
+      "bookValuePerShare": 8.18
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 819.5,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 411,
+        "Farming (Crops + Rice + Dairy)": 396,
+        "Land Transformation": 12.5
+      },
+      "ebitdaMM": 248,
+      "netIncomeMM": -28.4,
+      "totalAssetsMM": 1900,
+      "totalDebtMM": 922,
+      "cashMM": 226,
+      "netDebtMM": 696,
+      "totalEquityMM": 905,
+      "propertyBookMM": 1180,
+      "sharesOutMM": 119.5,
+      "totalAcresK": 705,
+      "epsBasic": -0.24,
+      "notes": "FY15: Revenue $819.5M, Adj EBITDA $248M (sugar/ethanol scale). Argentine FX drag. Source: 2015 20-F",
+      "bookValuePerShare": 7.57
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 882.4,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 472,
+        "Farming (Crops + Rice + Dairy)": 393,
+        "Land Transformation": 17.4
+      },
+      "ebitdaMM": 326.7,
+      "netIncomeMM": 80,
+      "totalAssetsMM": 2010,
+      "totalDebtMM": 935,
+      "cashMM": 218,
+      "netDebtMM": 717,
+      "totalEquityMM": 968,
+      "propertyBookMM": 1280,
+      "sharesOutMM": 121,
+      "totalAcresK": 692,
+      "epsBasic": 0.66,
+      "notes": "FY16: Revenue $882.4M, Adj EBITDA $326.7M (record year — sugar prices + ethanol parity). First sustained profitable year post-IPO. Source: 2016 20-F",
+      "bookValuePerShare": 8
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 882.5,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 462,
+        "Farming (Crops + Rice + Dairy)": 401,
+        "Land Transformation": 19.5
+      },
+      "ebitdaMM": 257.3,
+      "netIncomeMM": 39,
+      "totalAssetsMM": 2080,
+      "totalDebtMM": 980,
+      "cashMM": 200,
+      "netDebtMM": 780,
+      "totalEquityMM": 985,
+      "propertyBookMM": 1340,
+      "sharesOutMM": 119,
+      "totalAcresK": 692,
+      "epsBasic": 0.33,
+      "notes": "FY17: Revenue $882.5M, Adj EBITDA $257.3M. Sugar prices softened from 2016 highs. Source: 2017 20-F",
+      "bookValuePerShare": 8.28
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 869.9,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 455,
+        "Farming (Crops + Rice + Dairy)": 393,
+        "Land Transformation": 21.9
+      },
+      "ebitdaMM": 263.7,
+      "netIncomeMM": -23.8,
+      "totalAssetsMM": 1970,
+      "totalDebtMM": 945,
+      "cashMM": 195,
+      "netDebtMM": 750,
+      "totalEquityMM": 925,
+      "propertyBookMM": 1400,
+      "sharesOutMM": 117,
+      "totalAcresK": 631,
+      "epsBasic": -0.2,
+      "notes": "FY18: Revenue $869.9M, Adj EBITDA $263.7M. Net loss on Argentine peso 50% devaluation (hyperinflation). Began farm-disposition cycle. Source: 2018 20-F",
+      "bookValuePerShare": 7.91
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 808.6,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 437,
+        "Farming (Crops + Rice + Dairy)": 360,
+        "Land Transformation": 11.6
+      },
+      "ebitdaMM": 311.5,
+      "netIncomeMM": 33.4,
+      "totalAssetsMM": 1880,
+      "totalDebtMM": 855,
+      "cashMM": 215,
+      "netDebtMM": 640,
+      "totalEquityMM": 805,
+      "propertyBookMM": 1500,
+      "propertyFmvMM": 763.4,
+      "sharesOutMM": 118,
+      "totalAcresK": 593.7,
+      "epsBasic": 0.28,
+      "notes": "FY19: Revenue $808.6M, Adj EBITDA $311.5M. Final pre-COVID baseline year. Cushman Sep-2019 land FV $763.4M. Source: 2019 20-F",
+      "bookValuePerShare": 6.82
+    },
+    {
+      "endDate": "2020-03-31",
+      "periodType": "Q",
+      "revenueMM": 168.4,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 102.6,
+        "Farming (Crops + Rice + Dairy)": 65.8,
+        "Land Transformation": 0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 127.2,
+        "G&A / SG&A": 21,
+        "D&A": 24.5,
+        "Other opex": 5.5
+      },
+      "ebitdaMM": 47.4,
+      "netIncomeMM": -47.5,
+      "totalAcresK": 593.7,
+      "bookValuePerShare": 6.73,
+      "notes": "1Q20: revenue $168.4M, Adj EBITDA $47.4M, net loss $47.5M (FX hit on USD-denominated debt amid early COVID BRL/ARS depreciation). BVPS interpolated FY19 ($6.82) → FY20 ($6.46)."
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "Q",
+      "revenueMM": 198.7,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 124.8,
+        "Farming (Crops + Rice + Dairy)": 73.9,
+        "Land Transformation": 0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 150,
+        "G&A / SG&A": 22,
+        "D&A": 25.5,
+        "Other opex": 5.4
+      },
+      "ebitdaMM": 67.9,
+      "netIncomeMM": -10.4,
+      "totalAcresK": 593.7,
+      "bookValuePerShare": 6.64,
+      "notes": "2Q20: revenue $198.7M, Adj EBITDA $67.9M. Sugar prices recovered from April lows. BVPS interpolated FY19→FY20."
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "Q",
+      "revenueMM": 218.4,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 132.2,
+        "Farming (Crops + Rice + Dairy)": 85.2,
+        "Land Transformation": 1
+      },
+      "expensesBySegmentMM": {
+        "COGS": 165,
+        "G&A / SG&A": 22.5,
+        "D&A": 27,
+        "Other opex": 5.6
+      },
+      "ebitdaMM": 89,
+      "netIncomeMM": 25.8,
+      "propertyFmvMM": 808.5,
+      "totalAcresK": 575.1,
+      "bookValuePerShare": 6.55,
+      "notes": "3Q20: revenue $218.4M, Adj EBITDA $89M, net income $25.8M. Cushman Sep-2020 land appraisal: $808.5M. BVPS interpolated FY19→FY20."
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "Q",
+      "revenueMM": 224.4,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 116.4,
+        "Farming (Crops + Rice + Dairy)": 105,
+        "Land Transformation": 3
+      },
+      "expensesBySegmentMM": {
+        "COGS": 169.8,
+        "G&A / SG&A": 23,
+        "D&A": 28,
+        "Other opex": 5.5
+      },
+      "ebitdaMM": 78.6,
+      "netIncomeMM": 14.5,
+      "totalAcresK": 575.1,
+      "bookValuePerShare": 6.46,
+      "notes": "4Q20: revenue $224.4M, Adj EBITDA $78.6M. BVPS = FY20 ($6.46)."
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 809.9,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 476,
+        "Farming (Crops + Rice + Dairy)": 329.9,
+        "Land Transformation": 4
+      },
+      "expensesBySegmentMM": {
+        "COGS": 612,
+        "G&A / SG&A": 88.5,
+        "D&A": 105,
+        "Other opex": 22
+      },
+      "ebitdaMM": 282.9,
+      "netIncomeMM": -17.6,
+      "totalAssetsMM": 1872,
+      "totalDebtMM": 819,
+      "cashMM": 191,
+      "netDebtMM": 628,
+      "totalEquityMM": 760,
+      "propertyFmvMM": 808.5,
+      "propertyBookMM": 1620,
+      "sharesOutMM": 117.6,
+      "totalAcresK": 575.1,
+      "navPerShare": 6.46,
+      "epsBasic": -0.15,
+      "notes": "FY20: Adj EBITDA $282.9M (-9% YoY). Net loss $17.6M from FX. Cushman Sep-2020 farmland $808.5M",
+      "bookValuePerShare": 6.46
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "Q",
+      "revenueMM": 196.7,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 102.5,
+        "Farming (Crops + Rice + Dairy)": 92.2,
+        "Land Transformation": 2
+      },
+      "expensesBySegmentMM": {
+        "COGS": 138.5,
+        "G&A / SG&A": 24.5,
+        "D&A": 26,
+        "Other opex": 6
+      },
+      "ebitdaMM": 70.2,
+      "netIncomeMM": 5.6,
+      "totalAcresK": 575.1,
+      "bookValuePerShare": 6.73,
+      "notes": "1Q21: revenue $196.7M, Adj EBITDA $70.2M. BVPS interpolated FY20 ($6.46) → FY21 ($7.55)."
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "Q",
+      "revenueMM": 234,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 138.3,
+        "Farming (Crops + Rice + Dairy)": 95.7,
+        "Land Transformation": 0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 164.7,
+        "G&A / SG&A": 25.5,
+        "D&A": 27.5,
+        "Other opex": 6.2
+      },
+      "ebitdaMM": 92.8,
+      "netIncomeMM": 25.7,
+      "totalAcresK": 575.1,
+      "bookValuePerShare": 7.01,
+      "notes": "2Q21: revenue $234M, Adj EBITDA $92.8M (sugar price recovery). BVPS interpolated FY20→FY21."
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "revenueMM": 277.7,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 173.1,
+        "Farming (Crops + Rice + Dairy)": 102.6,
+        "Land Transformation": 2
+      },
+      "expensesBySegmentMM": {
+        "COGS": 195.6,
+        "G&A / SG&A": 26,
+        "D&A": 28,
+        "Other opex": 6.5
+      },
+      "ebitdaMM": 122.4,
+      "netIncomeMM": 53.3,
+      "propertyFmvMM": 868.2,
+      "totalAcresK": 575.1,
+      "bookValuePerShare": 7.28,
+      "notes": "3Q21: revenue $277.7M, Adj EBITDA $122.4M. Cushman Sep-2021: $868.2M (+7.4% YoY). BVPS interpolated FY20→FY21."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "revenueMM": 357,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 147.5,
+        "Farming (Crops + Rice + Dairy)": 200,
+        "Land Transformation": 9.5
+      },
+      "expensesBySegmentMM": {
+        "COGS": 251.2,
+        "G&A / SG&A": 26,
+        "D&A": 28.5,
+        "Other opex": 6.3
+      },
+      "ebitdaMM": 117.6,
+      "netIncomeMM": 51.5,
+      "totalAcresK": 575.1,
+      "bookValuePerShare": 7.55,
+      "notes": "4Q21: revenue $357M, Adj EBITDA $117.6M (record harvest year). BVPS = FY21 ($7.55)."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 1065.4,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 561.4,
+        "Farming (Crops + Rice + Dairy)": 490.5,
+        "Land Transformation": 13.5
+      },
+      "expensesBySegmentMM": {
+        "COGS": 750,
+        "G&A / SG&A": 102,
+        "D&A": 110,
+        "Other opex": 25
+      },
+      "ebitdaMM": 403,
+      "netIncomeMM": 136.1,
+      "totalAssetsMM": 2070,
+      "totalDebtMM": 856,
+      "cashMM": 167,
+      "netDebtMM": 689,
+      "totalEquityMM": 880,
+      "propertyFmvMM": 868.2,
+      "propertyBookMM": 1700,
+      "sharesOutMM": 116.5,
+      "totalAcresK": 575.1,
+      "navPerShare": 7.55,
+      "epsBasic": 1.17,
+      "dividendPerShare": 0.27,
+      "dividendPaidMM": 31.5,
+      "notes": "FY21: revenue $1.065B, Adj EBITDA $403M (+42% YoY), net income $136.1M. First post-COVID full recovery year",
+      "bookValuePerShare": 7.55
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 290.8,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 134.2,
+        "Farming (Crops + Rice + Dairy)": 154.6,
+        "Land Transformation": 2
+      },
+      "expensesBySegmentMM": {
+        "COGS": 201.5,
+        "G&A / SG&A": 28.5,
+        "D&A": 30,
+        "Other opex": 7
+      },
+      "ebitdaMM": 78.7,
+      "netIncomeMM": 8.7,
+      "totalAcresK": 575.1,
+      "bookValuePerShare": 7.99,
+      "notes": "1Q22: revenue $290.8M, Adj EBITDA $78.7M. BVPS interpolated FY21 ($7.55) → FY22 ($9.32)."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 311.8,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 175.3,
+        "Farming (Crops + Rice + Dairy)": 134.5,
+        "Land Transformation": 2
+      },
+      "expensesBySegmentMM": {
+        "COGS": 215.5,
+        "G&A / SG&A": 29,
+        "D&A": 30.5,
+        "Other opex": 7.2
+      },
+      "ebitdaMM": 134.7,
+      "netIncomeMM": 73.4,
+      "totalAcresK": 575.1,
+      "bookValuePerShare": 8.44,
+      "notes": "2Q22: revenue $311.8M, Adj EBITDA $134.7M (record sugar/ethanol margins). BVPS interpolated FY21→FY22."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 396.1,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 222.9,
+        "Farming (Crops + Rice + Dairy)": 158.2,
+        "Land Transformation": 15
+      },
+      "expensesBySegmentMM": {
+        "COGS": 274.5,
+        "G&A / SG&A": 31,
+        "D&A": 32,
+        "Other opex": 7.8
+      },
+      "ebitdaMM": 197.7,
+      "netIncomeMM": 89.7,
+      "propertyFmvMM": 855.7,
+      "totalAcresK": 543.7,
+      "bookValuePerShare": 8.88,
+      "notes": "3Q22: revenue $396.1M, record Adj EBITDA $197.7M. Cushman Sep-2022: $855.7M for 220,028 ha. BVPS interpolated FY21→FY22."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 460.2,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 178.5,
+        "Farming (Crops + Rice + Dairy)": 264,
+        "Land Transformation": 17.7
+      },
+      "expensesBySegmentMM": {
+        "COGS": 318.5,
+        "G&A / SG&A": 31.5,
+        "D&A": 32.5,
+        "Other opex": 8
+      },
+      "ebitdaMM": 168,
+      "netIncomeMM": 71.7,
+      "totalAcresK": 543.7,
+      "bookValuePerShare": 9.32,
+      "notes": "4Q22: revenue $460.2M, Adj EBITDA $168M. Strong soy/corn pricing. BVPS = FY22 ($9.32)."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 1458.9,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 710.9,
+        "Farming (Crops + Rice + Dairy)": 711.3,
+        "Land Transformation": 36.7
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1010,
+        "G&A / SG&A": 120,
+        "D&A": 125,
+        "Other opex": 30
+      },
+      "ebitdaMM": 579,
+      "netIncomeMM": 243.5,
+      "totalAssetsMM": 2280,
+      "totalDebtMM": 947,
+      "cashMM": 286,
+      "netDebtMM": 661,
+      "totalEquityMM": 1058,
+      "propertyFmvMM": 855.7,
+      "propertyBookMM": 1820,
+      "sharesOutMM": 113.5,
+      "totalAcresK": 543.7,
+      "navPerShare": 9.32,
+      "epsBasic": 2.15,
+      "dividendPerShare": 0.46,
+      "dividendPaidMM": 52,
+      "notes": "FY22 record: revenue $1.459B, Adj EBITDA $579M (+44% YoY), net income $243.5M. Largest full-year dividend program. Key drivers: sugar >US$0.20/lb, ethanol Brazil parity, corn $7+/bu",
+      "bookValuePerShare": 9.32
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 313.8,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 144.9,
+        "Farming (Crops + Rice + Dairy)": 165.9,
+        "Land Transformation": 3
+      },
+      "expensesBySegmentMM": {
+        "COGS": 213.8,
+        "G&A / SG&A": 29.5,
+        "D&A": 31.5,
+        "Other opex": 7.5
+      },
+      "ebitdaMM": 104.5,
+      "netIncomeMM": 25.2,
+      "totalAcresK": 543.7,
+      "bookValuePerShare": 9.82,
+      "notes": "1Q23: revenue $313.8M, Adj EBITDA $104.5M. BVPS interpolated FY22 ($9.32) → FY23 ($11.30)."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 343.8,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 172.5,
+        "Farming (Crops + Rice + Dairy)": 169.3,
+        "Land Transformation": 2
+      },
+      "expensesBySegmentMM": {
+        "COGS": 234.2,
+        "G&A / SG&A": 30,
+        "D&A": 32,
+        "Other opex": 7.6
+      },
+      "ebitdaMM": 143.1,
+      "netIncomeMM": 56.7,
+      "totalAcresK": 543.7,
+      "bookValuePerShare": 10.31,
+      "notes": "2Q23: revenue $343.8M, Adj EBITDA $143.1M. BVPS interpolated FY22→FY23."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 387.5,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 226.8,
+        "Farming (Crops + Rice + Dairy)": 158.2,
+        "Land Transformation": 2.5
+      },
+      "expensesBySegmentMM": {
+        "COGS": 264,
+        "G&A / SG&A": 31,
+        "D&A": 33,
+        "Other opex": 7.9
+      },
+      "ebitdaMM": 161.8,
+      "netIncomeMM": 70.4,
+      "propertyFmvMM": 695.3,
+      "totalAcresK": 527.8,
+      "bookValuePerShare": 10.81,
+      "notes": "3Q23: revenue $387.5M, Adj EBITDA $161.8M. Cushman Sep-2023: $695.3M for 213,548 ha (pre El Meridiano sale; appraisal methodology revised — lower vs prior year). BVPS interpolated FY22→FY23."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 392.6,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 173.5,
+        "Farming (Crops + Rice + Dairy)": 124,
+        "Land Transformation": 95.1
+      },
+      "expensesBySegmentMM": {
+        "COGS": 268,
+        "G&A / SG&A": 31.5,
+        "D&A": 33.5,
+        "Other opex": 8
+      },
+      "ebitdaMM": 138.4,
+      "netIncomeMM": 71.5,
+      "totalAcresK": 519.9,
+      "bookValuePerShare": 11.30,
+      "notes": "4Q23: revenue $392.6M (incl El Meridiano sale ~$90M Land Transformation), Adj EBITDA $138.4M. BVPS = FY23 ($11.30)."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 1437.7,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 717.7,
+        "Farming (Crops + Rice + Dairy)": 617.4,
+        "Land Transformation": 102.6
+      },
+      "expensesBySegmentMM": {
+        "COGS": 980,
+        "G&A / SG&A": 122,
+        "D&A": 130,
+        "Other opex": 31
+      },
+      "ebitdaMM": 547.8,
+      "netIncomeMM": 223.8,
+      "totalAssetsMM": 2360,
+      "totalDebtMM": 1010,
+      "cashMM": 318,
+      "netDebtMM": 692,
+      "totalEquityMM": 1187,
+      "propertyFmvMM": 695.3,
+      "propertyBookMM": 1900,
+      "sharesOutMM": 105,
+      "totalAcresK": 519.9,
+      "navPerShare": 11.3,
+      "epsBasic": 2.13,
+      "dividendPerShare": 0.84,
+      "dividendPaidMM": 86,
+      "notes": "FY23: revenue $1.438B, Adj EBITDA $547.8M, El Meridiano $90M sale closed Q4. $86M dividend + $24M buyback returned",
+      "bookValuePerShare": 11.3
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 322.7,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 188.7,
+        "Farming (Crops + Rice + Dairy)": 132,
+        "Land Transformation": 2
+      },
+      "expensesBySegmentMM": {
+        "COGS": 229,
+        "G&A / SG&A": 32,
+        "D&A": 35,
+        "Other opex": 8.5
+      },
+      "ebitdaMM": 98.4,
+      "netIncomeMM": 14.4,
+      "totalAcresK": 519.9,
+      "bookValuePerShare": 11.70,
+      "notes": "1Q24: revenue $322.7M, Adj EBITDA $98.4M (impacted by Brazil drought). BVPS interpolated FY23 ($11.30) → FY24 ($12.90)."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 367.9,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 207.2,
+        "Farming (Crops + Rice + Dairy)": 158.7,
+        "Land Transformation": 2
+      },
+      "expensesBySegmentMM": {
+        "COGS": 261,
+        "G&A / SG&A": 32.5,
+        "D&A": 35.5,
+        "Other opex": 8.7
+      },
+      "ebitdaMM": 130,
+      "netIncomeMM": 17,
+      "totalAcresK": 519.9,
+      "bookValuePerShare": 12.10,
+      "notes": "2Q24: revenue $367.9M, Adj EBITDA $130M. BVPS interpolated FY23→FY24."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 423.9,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 220.3,
+        "Farming (Crops + Rice + Dairy)": 198.6,
+        "Land Transformation": 5
+      },
+      "expensesBySegmentMM": {
+        "COGS": 301,
+        "G&A / SG&A": 33,
+        "D&A": 35.5,
+        "Other opex": 8.9
+      },
+      "ebitdaMM": 100.5,
+      "netIncomeMM": 13.7,
+      "propertyFmvMM": 682.6,
+      "totalAcresK": 519.9,
+      "bookValuePerShare": 12.50,
+      "notes": "3Q24: revenue $423.9M, Adj EBITDA $100.5M (lower sugar prices, fire damage to cane). Cushman Sep-2024: $682.6M for 210,371 ha (+0.4% YoY); fires in Brazil cane belt impacted Q3 results. BVPS interpolated FY23→FY24."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 415.5,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 169,
+        "Farming (Crops + Rice + Dairy)": 240.5,
+        "Land Transformation": 6
+      },
+      "expensesBySegmentMM": {
+        "COGS": 295,
+        "G&A / SG&A": 32.5,
+        "D&A": 34,
+        "Other opex": 8.9
+      },
+      "ebitdaMM": 115.1,
+      "netIncomeMM": 17.4,
+      "totalAcresK": 519.9,
+      "bookValuePerShare": 12.90,
+      "notes": "4Q24: revenue $415.5M, Adj EBITDA $115.1M. BVPS = FY24 ($12.90)."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 1530,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 785.2,
+        "Farming (Crops + Rice + Dairy)": 729.8,
+        "Land Transformation": 15
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1086,
+        "G&A / SG&A": 130,
+        "D&A": 140,
+        "Other opex": 35
+      },
+      "ebitdaMM": 444,
+      "netIncomeMM": 62.5,
+      "totalAssetsMM": 3399,
+      "totalDebtMM": 1820,
+      "cashMM": 350,
+      "netDebtMM": 1470,
+      "totalEquityMM": 1320,
+      "propertyFmvMM": 682.6,
+      "propertyBookMM": 2050,
+      "sharesOutMM": 102.34,
+      "totalAcresK": 519.9,
+      "navPerShare": 12.9,
+      "epsBasic": 0.61,
+      "dividendPaidMM": 102,
+      "dividendPerShare": 1,
+      "notes": "FY24: revenue $1.530B, Adj EBITDA $444M (-19% YoY on Brazil drought + sugar price compression). $102M shareholder distribution. Net debt step-up reflects rolling capex + sugar working capital",
+      "bookValuePerShare": 12.9
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 320,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 162,
+        "Farming (Crops + Rice + Dairy)": 156,
+        "Land Transformation": 2
+      },
+      "expensesBySegmentMM": {
+        "COGS": 230,
+        "G&A / SG&A": 33,
+        "D&A": 36,
+        "Other opex": 9
+      },
+      "ebitdaMM": 75,
+      "netIncomeMM": -8,
+      "totalAcresK": 519.9,
+      "bookValuePerShare": 13.10,
+      "notes": "1Q25: revenue ~$320M, Adj EBITDA $75M (sugar price weakness continues). BVPS interpolated FY24 ($12.90) → 3Q25 ($13.70)."
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 350,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 175,
+        "Farming (Crops + Rice + Dairy)": 173,
+        "Land Transformation": 2
+      },
+      "expensesBySegmentMM": {
+        "COGS": 248,
+        "G&A / SG&A": 33.5,
+        "D&A": 36.5,
+        "Other opex": 9.2
+      },
+      "ebitdaMM": 95,
+      "netIncomeMM": 5,
+      "totalAcresK": 519.9,
+      "bookValuePerShare": 13.30,
+      "notes": "2Q25: revenue ~$350M, Adj EBITDA $95M. BVPS interpolated FY24→3Q25."
+    },
+    {
+      "endDate": "2025-09-30",
+      "periodType": "Q",
+      "revenueMM": 410,
+      "revenueBySegmentMM": {
+        "Sugar, Ethanol & Energy": 215,
+        "Farming (Crops + Rice + Dairy)": 191,
+        "Land Transformation": 4
+      },
+      "expensesBySegmentMM": {
+        "COGS": 290,
+        "G&A / SG&A": 34,
+        "D&A": 37,
+        "Other opex": 9.4
+      },
+      "ebitdaMM": 115.1,
+      "netIncomeMM": 18,
+      "propertyFmvMM": 714.8,
+      "totalEquityMM": 1402,
+      "sharesOutMM": 102.34,
+      "totalAcresK": 519.9,
+      "totalDebtMM": 1950,
+      "cashMM": 383.15,
+      "netDebtMM": 1566.85,
+      "navPerShare": 13.7,
+      "notes": "3Q25: Adj EBITDA $115.1M. Cushman Sep-2025: $714.8M for 211,290 ha (+4.7% YoY). Equity $1.402B / 102.34M shares = $13.70 book NAV. 9M25 Adj EBITDA $285M (vs $329M 9M24)",
+      "bookValuePerShare": 13.7
+    }
+  ]
+}

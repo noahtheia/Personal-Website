@@ -1,0 +1,115 @@
+{
+  "ticker": "AST.WA",
+  "asOf": "2025-12-31",
+  "currency": "EUR",
+  "propertiesNote": "5-row breakdown by Ukrainian region + business segment. Land bank concentrated 60% in Poltava region, 20% Khmelnytsky, plus dairy + sugar refineries + processing.",
+  "properties": [
+    {
+      "name": "Poltava region cropland (largest cluster)",
+      "location": "Poltava Oblast, Ukraine",
+      "acres": 318750,
+      "cropOrUse": "Sugar beet + soy + grains (rotation) \u2014 supports Yareskivsky + Globinsky + Novoorzhytskyi sugar plants",
+      "category": "Ukrainian central cropland \u2014 Poltava core",
+      "fmvPerAcre": 700,
+      "fmvRationale": "129K ha Poltava core land bank \u2014 central Ukraine away from frontlines; supports 3 sugar plants + soybean processing + biogas + dairy",
+      "comparablesUsed": [
+        "UA-CROP-CENTRAL-2024",
+        "UA-CROP-EU-2024"
+      ],
+      "bookValueMM": 130,
+      "fmvPerAcreLow": 489.99999999999994,
+      "fmvPerAcreHigh": 910.0,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0
+    },
+    {
+      "name": "Khmelnytsky region cropland",
+      "location": "Khmelnytsky Oblast, Ukraine",
+      "acres": 103780,
+      "cropOrUse": "Sugar beet + grains \u2014 supports Volochysk sugar plant",
+      "category": "Ukrainian Western cropland \u2014 Khmelnytsky",
+      "fmvPerAcre": 750,
+      "fmvRationale": "42K ha Khmelnytsky western Ukraine; closer to EU border so slightly lower wartime risk premium",
+      "comparablesUsed": [
+        "UA-CROP-EU-2024",
+        "UA-CROP-CENTRAL-2024"
+      ],
+      "bookValueMM": 50,
+      "fmvPerAcreLow": 525.0,
+      "fmvPerAcreHigh": 975.0,
+      "capRateLow": 7.0,
+      "capRateHigh": 11.0
+    },
+    {
+      "name": "Vinnytsia + other regions cropland",
+      "location": "Vinnytsia + Cherkasy, Ukraine",
+      "acres": 39534,
+      "cropOrUse": "Mixed grain + sugar beet rotation",
+      "category": "Ukrainian central cropland \u2014 other",
+      "fmvPerAcre": 600,
+      "fmvRationale": "Smaller Vinnytsia + other-region land bank",
+      "comparablesUsed": [
+        "UA-CROP-CENTRAL-2024"
+      ],
+      "bookValueMM": 20,
+      "fmvPerAcreLow": 420.0,
+      "fmvPerAcreHigh": 780.0,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0
+    },
+    {
+      "name": "Sugar plants + soybean processing + biogas + oil extraction (downstream)",
+      "location": "Poltava + Khmelnytsky, Ukraine",
+      "acres": 1,
+      "cropOrUse": "5 sugar plants + soybean plant + biogas complex + oil extraction (Hlobine)",
+      "category": "Downstream processing (not farmland)",
+      "fmvPerAcre": 50,
+      "fmvRationale": "Per-acre meaningless; placeholder for industrial assets \u2014 5 sugar refineries, soybean processing 230K MT/yr capacity, biogas, oil extraction. About \u20ac120-150M of fixed assets pre-war",
+      "comparablesUsed": [],
+      "bookValueMM": 50,
+      "fmvPerAcreLow": 35.0,
+      "fmvPerAcreHigh": 65.0,
+      "capRateLow": 8.0,
+      "capRateHigh": 12.0
+    },
+    {
+      "name": "Dairy operations + 22,000 head cattle",
+      "location": "Poltava + Cherkasy regions, Ukraine",
+      "acres": 80000,
+      "cropOrUse": "Dairy operations (22,000 head + cropland for fodder)",
+      "category": "Ukrainian dairy + fodder support",
+      "fmvPerAcre": 700,
+      "fmvRationale": "Dairy operations with 22,000 head + supporting fodder cropland",
+      "comparablesUsed": [
+        "UA-CROP-CENTRAL-2024"
+      ],
+      "bookValueMM": 30,
+      "fmvPerAcreLow": 489.99999999999994,
+      "fmvPerAcreHigh": 910.0,
+      "capRateLow": 8.0,
+      "capRateHigh": 12.0
+    }
+  ],
+  "comparables": [
+    {
+      "id": "UA-CROP-CENTRAL-2024",
+      "description": "Ukrainian central-region cropland",
+      "location": "Poltava / Cherkasy / Vinnytsia, Ukraine",
+      "pricePerAcre": 1200,
+      "date": "2024-09-30",
+      "source": "Astarta Holding 2024 disclosures + Ukrainian land market data"
+    },
+    {
+      "id": "UA-CROP-EU-2024",
+      "description": "Ukrainian agricultural cropland \u2014 EU border regions, post-2022 discount",
+      "location": "Western Ukraine",
+      "pricePerAcre": 1600,
+      "date": "2024-09-30",
+      "source": "Ukrainian agribusiness broker reports 2024 + Astarta/Kernel disclosures"
+    }
+  ],
+  "methodology": "Astarta Holding refined from 1-row to 5-row breakdown reflecting both geographic and business-segment splits. Per Astarta's own FY24 disclosures:\n- Poltava Oblast: 129,000 ha (60%) \u2014 largest land bank; supports 3 sugar plants (Yareskivsky, Globinsky, Novoorzhytskyi) + soybean processing + biogas + oil extraction at Hlobine\n- Khmelnytsky Oblast: 42,000 ha (20%) \u2014 Western Ukraine, supports Volochysk sugar plant\n- Vinnytsia Oblast: 16,000 ha (7%) + other regions: ~33K ha (13%)\n\nPlus 22,000-head dairy operation with supporting fodder cropland.\n\n5-row breakdown:\n- Poltava cropland (318.7K ac / 129K ha): largest single cluster, central Ukraine\n- Khmelnytsky cropland (103.8K ac / 42K ha): Western Ukraine slight EU-proximity premium\n- Vinnytsia + other (39.5K ac / 16K ha)\n- Downstream processing: 5 sugar plants + soybean + biogas + oil extraction (placeholder, per-acre meaningless)\n- Dairy + fodder support (80K ac including dairy facilities + supporting cropland)\n\nPer-acre marks reflect post-2022 wartime discount. Pre-war Ukrainian cropland traded at $2,000-3,000/acre USD; current 2024 transactions in central regions at $400-800/acre with western Ukraine slightly higher. Astarta's land bank is concentrated in safer central-Ukraine regions.\n\nWartime context: FY25 revenue fell 23% to \u20ac472M as sugar volumes declined; net profit fell 4.2x. Land FMV stable but reflects deep wartime discount. Peace-scenario revaluation back to pre-war levels would imply 3-5x higher per-acre values.",
+  "noiCheckCapRateLow": 8.0,
+  "noiCheckCapRateHigh": 14.0,
+  "noiCheckLabel": "Ukrainian agriculture (wartime risk premium)"
+}

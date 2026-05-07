@@ -1,0 +1,78 @@
+{
+  "ticker": "GPRE",
+  "currency": "USD",
+  "sourceUrl": "https://investor.gpreinc.com/financial-information/sec-filings",
+  "notes": "Green Plains Inc (NASDAQ: GPRE) — Omaha-based ethanol + grain processing (CIK 1309402). Operates ~1.0 billion gallons/yr ethanol production capacity across ~10 plants. Diversifying into Ultra-High Protein (USP) feed (60% protein) using Fluid Quip MSC technology, and renewable corn oil. Fiscal year = calendar year. Reports in USD. Plant ownership consolidated through Green Plains Partners LP (acquired 2023). Volatile ethanol crush margins.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 1934,
+      "ebitdaMM": -7,
+      "netIncomeMM": -41,
+      "totalDebtMM": 405,
+      "cashMM": 226,
+      "netDebtMM": 179,
+      "sharesOutMM": 35.6,
+      "bookValuePerShare": 12.10,
+      "dividendPerShare": 0,
+      "notes": "FY20: revenue $1.93B. EBITDA $-7M (pandemic ethanol demand collapse). Net loss $41M."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 2317,
+      "ebitdaMM": 75,
+      "netIncomeMM": 6,
+      "totalDebtMM": 540,
+      "cashMM": 304,
+      "netDebtMM": 236,
+      "sharesOutMM": 53.8,
+      "bookValuePerShare": 12.65,
+      "dividendPerShare": 0,
+      "notes": "FY21: revenue $2.32B (+20%). EBITDA $75M. Net income $6M. Capital raises funded USP buildout."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 3554,
+      "ebitdaMM": 31,
+      "netIncomeMM": -68,
+      "totalDebtMM": 525,
+      "cashMM": 343,
+      "netDebtMM": 182,
+      "sharesOutMM": 60.0,
+      "bookValuePerShare": 11.40,
+      "dividendPerShare": 0,
+      "notes": "FY22: revenue $3.55B (+53%). EBITDA $31M. Net loss $68M. Strong ethanol prices but cost inflation, USP startup losses."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 3431,
+      "ebitdaMM": 75,
+      "netIncomeMM": -77,
+      "totalDebtMM": 615,
+      "cashMM": 235,
+      "netDebtMM": 380,
+      "sharesOutMM": 63.7,
+      "bookValuePerShare": 9.90,
+      "dividendPerShare": 0,
+      "notes": "FY23: revenue $3.43B. EBITDA $75M. Net loss $77M. Acquired remaining GPP units. Continued USP ramp."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 2496,
+      "ebitdaMM": -25,
+      "netIncomeMM": -123,
+      "totalDebtMM": 565,
+      "cashMM": 173,
+      "netDebtMM": 392,
+      "sharesOutMM": 63.8,
+      "bookValuePerShare": 7.90,
+      "dividendPerShare": 0,
+      "notes": "FY24: revenue $2.50B (-27%). EBITDA $-25M (margin compression). Net loss $123M. Strategic review announced; idled high-cost plants. CEO transition."
+    }
+  ]
+}

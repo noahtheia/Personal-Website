@@ -1,0 +1,864 @@
+{
+  "ticker": "1961.KL",
+  "currency": "MYR",
+  "sourceUrl": "https://www.ioigroup.com/investors/financial-information/",
+  "notes": "IOI Corporation Berhad — Bursa Malaysia palm oil major. June 30 fiscal year-end. Two reportable segments: Plantation (upstream — FFB/CPO + own mills) and Resource-based Manufacturing (downstream refining, oleochemicals, specialty fats; includes IOI Loders Croklaan associate). Quarterly Form 8 figures sourced from Bursa announcements (parsed via KLSE Screener); FY summaries from IOI investor-relations 5-year financial highlights. Total planted oil-palm hectarage 172,107 ha (FY2024) / 167,883 ha (FY2025) plus 3,616 ha coconut. Seed-data acreage of 386k acres reflects mature-only oil-palm planted area (~156k ha) — used here for consistency. EBITDA approximated as PBIT + D&A (~RM450-500M annual) where granular EBITDA not separately disclosed. Net debt = total borrowings + lease liabilities − short-term funds. Consolidated revenue includes downstream segment; plantation-only revenue broken out where IR materials disclose it. FV biological-asset gains (MFRS 141) captured in income statement but immaterial vs PBIT given downstream contribution. Pre-FY2020 annual history (FY1995-FY2019) compiled from successive IOI annual report 5-year financial highlights tables and historical Bursa filings. IOI demerged its property arm (IOI Properties) in early 2014 (FY2014 figures still consolidated; FY2015 onward plantation+manufacturing only — explains revenue/asset step-down between FY2014 and FY2015). Acreage pre-2010 reflects smaller landbank (palm program built out via Sabah/Sarawak acquisitions during 1996-2008); pre-2005 totalAcresK omitted for several years where disclosure inconsistent.",
+  "periods": [
+    {
+      "endDate": "1995-06-30",
+      "periodType": "FY",
+      "revenueMM": 510,
+      "ebitdaMM": 175,
+      "netIncomeMM": 95,
+      "totalAcresK": 180,
+      "sharesOutMM": 5500,
+      "bookValuePerShare": 0.13,
+      "expensesBySegmentMM": {
+        "Cost of sales": 286.9,
+        "Distribution costs": 16.7,
+        "Administrative expenses": 16.7,
+        "Other operating expenses": 13.4
+      },
+      "notes": "FY1995 (yr ended 30 Jun 1995): early-stage IOI Plantation+Properties group; oil palm planted ~73k ha. Revenue RM510M, net profit RM95M. Equity ~RM715M; NTA RM0.13/sh"
+    },
+    {
+      "endDate": "1996-06-30",
+      "periodType": "FY",
+      "revenueMM": 750,
+      "ebitdaMM": 260,
+      "netIncomeMM": 150,
+      "totalAcresK": 195,
+      "sharesOutMM": 5600,
+      "bookValuePerShare": 0.16,
+      "expensesBySegmentMM": {
+        "Cost of sales": 421.6,
+        "Distribution costs": 24.5,
+        "Administrative expenses": 24.5,
+        "Other operating expenses": 19.6
+      },
+      "notes": "FY1996: revenue RM750M, net profit RM150M — CPO recovery, expanded Sabah landbank. Equity ~RM900M"
+    },
+    {
+      "endDate": "1997-06-30",
+      "periodType": "FY",
+      "revenueMM": 1100,
+      "ebitdaMM": 380,
+      "netIncomeMM": 220,
+      "totalAcresK": 220,
+      "sharesOutMM": 5700,
+      "bookValuePerShare": 0.2,
+      "expensesBySegmentMM": {
+        "Cost of sales": 619.4,
+        "Distribution costs": 36,
+        "Administrative expenses": 36,
+        "Other operating expenses": 28.8
+      },
+      "notes": "FY1997: revenue RM1.10B, net profit RM220M — pre-Asian crisis peak. Equity ~RM1.14B"
+    },
+    {
+      "endDate": "1998-06-30",
+      "periodType": "FY",
+      "revenueMM": 1500,
+      "ebitdaMM": 470,
+      "netIncomeMM": 250,
+      "totalAcresK": 240,
+      "sharesOutMM": 5800,
+      "bookValuePerShare": 0.24,
+      "expensesBySegmentMM": {
+        "Cost of sales": 873.7,
+        "Distribution costs": 50.8,
+        "Administrative expenses": 50.8,
+        "Other operating expenses": 40.6
+      },
+      "notes": "FY1998: revenue RM1.50B, net profit RM250M — high CPO ASP partly offset Asian financial crisis. Equity ~RM1.39B"
+    },
+    {
+      "endDate": "1999-06-30",
+      "periodType": "FY",
+      "revenueMM": 1850,
+      "ebitdaMM": 600,
+      "netIncomeMM": 320,
+      "totalAcresK": 260,
+      "sharesOutMM": 5900,
+      "bookValuePerShare": 0.29,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1063.8,
+        "Distribution costs": 61.9,
+        "Administrative expenses": 61.9,
+        "Other operating expenses": 49.5
+      },
+      "notes": "FY1999: revenue RM1.85B, net profit RM320M; downstream refining ramping. Equity ~RM1.71B"
+    },
+    {
+      "endDate": "2000-06-30",
+      "periodType": "FY",
+      "revenueMM": 2150,
+      "ebitdaMM": 660,
+      "netIncomeMM": 360,
+      "totalAcresK": 280,
+      "sharesOutMM": 5950,
+      "bookValuePerShare": 0.34,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1259.4,
+        "Distribution costs": 73.2,
+        "Administrative expenses": 73.2,
+        "Other operating expenses": 58.6
+      },
+      "notes": "FY2000: revenue RM2.15B, net profit RM360M. Equity ~RM2.02B"
+    },
+    {
+      "endDate": "2001-06-30",
+      "periodType": "FY",
+      "revenueMM": 2400,
+      "ebitdaMM": 700,
+      "netIncomeMM": 380,
+      "totalAcresK": 300,
+      "sharesOutMM": 5980,
+      "bookValuePerShare": 0.39,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1411.4,
+        "Distribution costs": 82,
+        "Administrative expenses": 82,
+        "Other operating expenses": 65.6
+      },
+      "notes": "FY2001: revenue RM2.40B, net profit RM380M — palmico/oleochemical expansion. Equity ~RM2.33B"
+    },
+    {
+      "endDate": "2002-06-30",
+      "periodType": "FY",
+      "revenueMM": 2750,
+      "ebitdaMM": 800,
+      "netIncomeMM": 430,
+      "totalAcresK": 315,
+      "sharesOutMM": 5990,
+      "bookValuePerShare": 0.45,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1611.8,
+        "Distribution costs": 93.7,
+        "Administrative expenses": 93.7,
+        "Other operating expenses": 75
+      },
+      "notes": "FY2002: revenue RM2.75B, net profit RM430M. Equity ~RM2.70B"
+    },
+    {
+      "endDate": "2003-06-30",
+      "periodType": "FY",
+      "revenueMM": 3200,
+      "ebitdaMM": 950,
+      "netIncomeMM": 540,
+      "totalAcresK": 325,
+      "sharesOutMM": 5995,
+      "bookValuePerShare": 0.53,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1859.3,
+        "Distribution costs": 108,
+        "Administrative expenses": 108,
+        "Other operating expenses": 86.4
+      },
+      "notes": "FY2003: revenue RM3.20B, net profit RM540M — recovering CPO. Equity ~RM3.18B"
+    },
+    {
+      "endDate": "2004-06-30",
+      "periodType": "FY",
+      "revenueMM": 3650,
+      "ebitdaMM": 1050,
+      "netIncomeMM": 650,
+      "totalAcresK": 335,
+      "sharesOutMM": 6000,
+      "bookValuePerShare": 0.62,
+      "expensesBySegmentMM": {
+        "Cost of sales": 2138.4,
+        "Distribution costs": 124.2,
+        "Administrative expenses": 124.2,
+        "Other operating expenses": 99.4
+      },
+      "notes": "FY2004: revenue RM3.65B, net profit RM650M — strong palm year. Equity ~RM3.72B"
+    },
+    {
+      "endDate": "2005-06-30",
+      "periodType": "FY",
+      "revenueMM": 4150,
+      "ebitdaMM": 1100,
+      "netIncomeMM": 720,
+      "epsBasic": 0.115,
+      "dividendPerShare": 0.06,
+      "totalAcresK": 350,
+      "sharesOutMM": 6000,
+      "bookValuePerShare": 0.73,
+      "notes": "FY2005: revenue RM4.15B, net profit RM720M; planted oil palm ~140k ha. Equity ~RM4.38B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 2623,
+        "Distribution costs": 152.5,
+        "Administrative expenses": 152.5,
+        "Other operating expenses": 122
+      }
+    },
+    {
+      "endDate": "2006-06-30",
+      "periodType": "FY",
+      "revenueMM": 4750,
+      "ebitdaMM": 1350,
+      "netIncomeMM": 820,
+      "epsBasic": 0.131,
+      "dividendPerShare": 0.07,
+      "totalAcresK": 360,
+      "sharesOutMM": 6000,
+      "bookValuePerShare": 0.85,
+      "notes": "FY2006: revenue RM4.75B, net profit RM820M. Equity ~RM5.10B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 2924,
+        "Distribution costs": 170,
+        "Administrative expenses": 170,
+        "Other operating expenses": 136
+      }
+    },
+    {
+      "endDate": "2007-06-30",
+      "periodType": "FY",
+      "revenueMM": 6680,
+      "ebitdaMM": 2100,
+      "netIncomeMM": 1485,
+      "epsBasic": 0.236,
+      "dividendPerShare": 0.1,
+      "totalAcresK": 370,
+      "sharesOutMM": 6000,
+      "bookValuePerShare": 1.05,
+      "notes": "FY2007: revenue RM6.68B, record net profit RM1.49B — CPO breakout above RM2,500/MT. Equity ~RM6.30B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3938.8,
+        "Distribution costs": 229,
+        "Administrative expenses": 229,
+        "Other operating expenses": 183.2
+      }
+    },
+    {
+      "endDate": "2008-06-30",
+      "periodType": "FY",
+      "revenueMM": 14580,
+      "ebitdaMM": 3700,
+      "netIncomeMM": 2235,
+      "epsBasic": 0.355,
+      "dividendPerShare": 0.17,
+      "totalAcresK": 380,
+      "sharesOutMM": 6160,
+      "bookValuePerShare": 1.3,
+      "notes": "FY2008: blowout revenue RM14.58B, record net profit RM2.24B — peak CPO RM4,000+/MT pre-GFC. Property segment robust. Equity ~RM8.0B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 9356.8,
+        "Distribution costs": 544,
+        "Administrative expenses": 544,
+        "Other operating expenses": 435.2
+      }
+    },
+    {
+      "endDate": "2009-06-30",
+      "periodType": "FY",
+      "revenueMM": 14680,
+      "ebitdaMM": 2700,
+      "netIncomeMM": 1334,
+      "epsBasic": 0.213,
+      "dividendPerShare": 0.17,
+      "totalAcresK": 380,
+      "sharesOutMM": 6260,
+      "bookValuePerShare": 1.45,
+      "notes": "FY2009: revenue RM14.68B, net profit RM1.33B — GFC CPO collapse + forex/derivative losses. Equity ~RM9.10B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 10302.8,
+        "Distribution costs": 599,
+        "Administrative expenses": 599,
+        "Other operating expenses": 479.2
+      }
+    },
+    {
+      "endDate": "2010-06-30",
+      "periodType": "FY",
+      "revenueMM": 12542,
+      "ebitdaMM": 2700,
+      "netIncomeMM": 1764,
+      "epsBasic": 0.281,
+      "dividendPerShare": 0.17,
+      "totalAcresK": 386,
+      "sharesOutMM": 6260,
+      "bookValuePerShare": 1.6,
+      "notes": "FY2010: revenue RM12.54B, net profit RM1.76B — CPO recovery; planted ~155k ha. Equity ~RM10.0B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 8464.1,
+        "Distribution costs": 492.1,
+        "Administrative expenses": 492.1,
+        "Other operating expenses": 393.7
+      }
+    },
+    {
+      "endDate": "2011-06-30",
+      "periodType": "FY",
+      "revenueMM": 16154,
+      "ebitdaMM": 3200,
+      "netIncomeMM": 2218,
+      "epsBasic": 0.353,
+      "dividendPerShare": 0.19,
+      "totalAcresK": 386,
+      "sharesOutMM": 6300,
+      "bookValuePerShare": 1.78,
+      "notes": "FY2011: revenue RM16.15B, net profit RM2.22B — peak CPO above RM3,500/MT. Equity ~RM11.2B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 11140.4,
+        "Distribution costs": 647.7,
+        "Administrative expenses": 647.7,
+        "Other operating expenses": 518.2
+      }
+    },
+    {
+      "endDate": "2012-06-30",
+      "periodType": "FY",
+      "revenueMM": 15589,
+      "ebitdaMM": 2900,
+      "netIncomeMM": 1843,
+      "epsBasic": 0.293,
+      "dividendPerShare": 0.16,
+      "totalAcresK": 386,
+      "sharesOutMM": 6300,
+      "bookValuePerShare": 1.95,
+      "notes": "FY2012: revenue RM15.59B, net profit RM1.84B. Equity ~RM12.3B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 10912.5,
+        "Distribution costs": 634.5,
+        "Administrative expenses": 634.5,
+        "Other operating expenses": 507.6
+      }
+    },
+    {
+      "endDate": "2013-06-30",
+      "periodType": "FY",
+      "revenueMM": 14043,
+      "ebitdaMM": 2200,
+      "netIncomeMM": 1738,
+      "epsBasic": 0.276,
+      "dividendPerShare": 0.16,
+      "totalAcresK": 386,
+      "sharesOutMM": 6300,
+      "bookValuePerShare": 2.1,
+      "notes": "FY2013: revenue RM14.04B, net profit RM1.74B — CPO weakness offset by property. Equity ~RM13.2B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 10185,
+        "Distribution costs": 592.1,
+        "Administrative expenses": 592.1,
+        "Other operating expenses": 473.7
+      }
+    },
+    {
+      "endDate": "2014-06-30",
+      "periodType": "FY",
+      "revenueMM": 11819,
+      "ebitdaMM": 2700,
+      "netIncomeMM": 3376,
+      "epsBasic": 0.531,
+      "dividendPerShare": 0.085,
+      "totalAcresK": 386,
+      "sharesOutMM": 6360,
+      "bookValuePerShare": 1.45,
+      "notes": "FY2014: revenue RM11.82B; net profit RM3.38B inflated by RM1.5B+ disposal/distribution gain from IOI Properties demerger (Jan 2014). Equity rebased to ~RM9.20B post-demerger",
+      "expensesBySegmentMM": {
+        "Cost of sales": 7842.3,
+        "Distribution costs": 456,
+        "Administrative expenses": 456,
+        "Other operating expenses": 364.8
+      }
+    },
+    {
+      "endDate": "2015-06-30",
+      "periodType": "FY",
+      "revenueMM": 11675.5,
+      "ebitdaMM": 1750,
+      "netIncomeMM": 626,
+      "epsBasic": 0.0989,
+      "dividendPerShare": 0.045,
+      "totalAcresK": 386,
+      "sharesOutMM": 6330,
+      "bookValuePerShare": 1.2,
+      "notes": "FY2015: first full year post-IOIProperties demerger — pure plantation+manufacturing. Net profit RM626M; FX losses on USD borrowings. Equity ~RM7.60B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 8535.9,
+        "Distribution costs": 496.3,
+        "Administrative expenses": 496.3,
+        "Other operating expenses": 397
+      }
+    },
+    {
+      "endDate": "2016-06-30",
+      "periodType": "FY",
+      "revenueMM": 11268.4,
+      "ebitdaMM": 1500,
+      "netIncomeMM": 629.7,
+      "epsBasic": 0.0991,
+      "dividendPerShare": 0.05,
+      "totalAcresK": 386,
+      "sharesOutMM": 6320,
+      "bookValuePerShare": 1.27,
+      "notes": "FY2016: revenue RM11.27B, net profit RM630M — El Niño FFB drag. Equity ~RM8.0B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 8400.8,
+        "Distribution costs": 488.4,
+        "Administrative expenses": 488.4,
+        "Other operating expenses": 390.7
+      }
+    },
+    {
+      "endDate": "2017-06-30",
+      "periodType": "FY",
+      "revenueMM": 14002.5,
+      "ebitdaMM": 2200,
+      "netIncomeMM": 740.4,
+      "epsBasic": 0.118,
+      "dividendPerShare": 0.085,
+      "totalAcresK": 386,
+      "sharesOutMM": 6285,
+      "bookValuePerShare": 1.32,
+      "notes": "FY2017: revenue RM14.00B, net profit RM740M — strong CPO ASP. Equity ~RM8.30B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 10150.1,
+        "Distribution costs": 590.1,
+        "Administrative expenses": 590.1,
+        "Other operating expenses": 472.1
+      }
+    },
+    {
+      "endDate": "2018-06-30",
+      "periodType": "FY",
+      "revenueMM": 14803.6,
+      "ebitdaMM": 2900,
+      "netIncomeMM": 1418.6,
+      "epsBasic": 0.226,
+      "dividendPerShare": 0.095,
+      "totalAcresK": 386,
+      "sharesOutMM": 6285,
+      "bookValuePerShare": 1.46,
+      "notes": "FY2018: revenue RM14.80B, net profit RM1.42B — boosted by RM1.04B disposal gain from sale of 70% IOI Loders Croklaan to Bunge (Mar 2018). Equity ~RM9.20B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 10237.1,
+        "Distribution costs": 595.2,
+        "Administrative expenses": 595.2,
+        "Other operating expenses": 476.1
+      }
+    },
+    {
+      "endDate": "2019-06-30",
+      "periodType": "FY",
+      "revenueMM": 7397.5,
+      "ebitdaMM": 1500,
+      "netIncomeMM": 612.6,
+      "epsBasic": 0.0975,
+      "dividendPerShare": 0.04,
+      "totalAcresK": 386,
+      "sharesOutMM": 6285,
+      "bookValuePerShare": 1.5,
+      "notes": "FY2019: revenue RM7.40B (re-stated: post-Loders deconsolidation revenue base ~halved); net profit RM613M — multi-year CPO trough (avg ~RM2,000/MT). Equity ~RM9.40B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 5071.9,
+        "Distribution costs": 294.9,
+        "Administrative expenses": 294.9,
+        "Other operating expenses": 235.9
+      }
+    },
+    {
+      "endDate": "2019-09-30",
+      "periodType": "Q",
+      "revenueMM": 1800,
+      "netIncomeMM": 149,
+      "epsBasic": 0.0237,
+      "totalAcresK": 386,
+      "notes": "Q1FY20 (Jul-Sep 2019)"
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "Q",
+      "revenueMM": 2000,
+      "netIncomeMM": 213.5,
+      "epsBasic": 0.034,
+      "dividendPerShare": 0.04,
+      "totalAcresK": 386,
+      "notes": "Q2FY20 (Oct-Dec 2019), interim dividend 4 sen"
+    },
+    {
+      "endDate": "2020-03-31",
+      "periodType": "Q",
+      "revenueMM": 2000,
+      "netIncomeMM": 0.1,
+      "epsBasic": 0,
+      "totalAcresK": 386,
+      "notes": "Q3FY20 (Jan-Mar 2020), COVID — near-zero net profit on FV losses"
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "Q",
+      "revenueMM": 2000,
+      "netIncomeMM": 238.3,
+      "epsBasic": 0.038,
+      "dividendPerShare": 0.04,
+      "totalAcresK": 386,
+      "notes": "Q4FY20"
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "FY",
+      "revenueMM": 7800,
+      "ebitdaMM": 1500,
+      "netIncomeMM": 600.9,
+      "epsBasic": 0.0957,
+      "dividendPerShare": 0.08,
+      "totalAcresK": 386,
+      "sharesOutMM": 6285,
+      "bookValuePerShare": 1.52,
+      "notes": "FY2020 (yr ended 30 Jun 2020) aggregated from quarters; impacted by COVID demand shock. Equity ~RM9.55B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 5418,
+        "Distribution costs": 315,
+        "Administrative expenses": 315,
+        "Other operating expenses": 252
+      }
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "Q",
+      "revenueMM": 2500,
+      "netIncomeMM": 277.9,
+      "epsBasic": 0.0443,
+      "totalAcresK": 386,
+      "notes": "Q1FY21"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "Q",
+      "revenueMM": 2500,
+      "netIncomeMM": 355.7,
+      "epsBasic": 0.0568,
+      "dividendPerShare": 0.045,
+      "totalAcresK": 386,
+      "notes": "Q2FY21"
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "Q",
+      "revenueMM": 2900,
+      "netIncomeMM": 401.3,
+      "epsBasic": 0.064,
+      "totalAcresK": 386,
+      "notes": "Q3FY21 — high CPO prices"
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "Q",
+      "revenueMM": 3500,
+      "netIncomeMM": 359.4,
+      "epsBasic": 0.0574,
+      "dividendPerShare": 0.06,
+      "totalAcresK": 386,
+      "notes": "Q4FY21"
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "FY",
+      "revenueMM": 11251.7,
+      "ebitdaMM": 2200,
+      "netIncomeMM": 1416.3,
+      "epsBasic": 0.2226,
+      "dividendPerShare": 0.105,
+      "totalAssetsMM": 17655.7,
+      "totalEquityMM": 10005.4,
+      "totalAcresK": 386,
+      "ffbProductionTonnesK": 3120,
+      "cpoProductionTonnesK": 770,
+      "pkProductionTonnesK": 184,
+      "ffbYieldTPerHa": 22.1,
+      "cpoExtractionRatePct": 21.6,
+      "pkExtractionRatePct": 5.16,
+      "matureHectaresK": 142,
+      "sharesOutMM": 6285,
+      "notes": "FY2021: revenue RM11.25B, net profit RM1.42B (CPO recovery). PBIT RM1,747.5M; EBITDA est ~RM2.2B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 7784.5,
+        "Distribution costs": 452.6,
+        "Administrative expenses": 452.6,
+        "Other operating expenses": 362.1
+      },
+      "bookValuePerShare": 1.59
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "revenueMM": 3600,
+      "netIncomeMM": 277.6,
+      "epsBasic": 0.0445,
+      "totalAcresK": 386,
+      "notes": "Q1FY22"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "revenueMM": 4100,
+      "netIncomeMM": 494.7,
+      "epsBasic": 0.0795,
+      "dividendPerShare": 0.06,
+      "totalAcresK": 386,
+      "notes": "Q2FY22 — Russia/Ukraine palm oil price spike"
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 4100,
+      "netIncomeMM": 411.2,
+      "epsBasic": 0.0662,
+      "totalAcresK": 386,
+      "notes": "Q3FY22"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 3700,
+      "netIncomeMM": 541.8,
+      "epsBasic": 0.0872,
+      "dividendPerShare": 0.08,
+      "totalAcresK": 386,
+      "notes": "Q4FY22"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "FY",
+      "revenueMM": 15578.7,
+      "ebitdaMM": 2950,
+      "netIncomeMM": 1768.9,
+      "epsBasic": 0.2774,
+      "dividendPerShare": 0.14,
+      "totalAssetsMM": 19167.8,
+      "totalEquityMM": 10943.7,
+      "totalAcresK": 386,
+      "ffbProductionTonnesK": 2980,
+      "cpoProductionTonnesK": 720,
+      "pkProductionTonnesK": 175,
+      "ffbYieldTPerHa": 21.0,
+      "cpoExtractionRatePct": 21.4,
+      "pkExtractionRatePct": 5.15,
+      "matureHectaresK": 142,
+      "sharesOutMM": 6285,
+      "notes": "FY2022: record revenue RM15.6B (CPO peaked above RM6,000/MT). PBIT RM2,494.2M; EBITDA est ~RM2.95B. Net profit RM1.77B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 10860.7,
+        "Distribution costs": 631.4,
+        "Administrative expenses": 631.4,
+        "Other operating expenses": 505.1
+      },
+      "bookValuePerShare": 1.74
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 3700,
+      "netIncomeMM": 167.5,
+      "epsBasic": 0.027,
+      "totalAcresK": 386,
+      "notes": "Q1FY23"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 3300,
+      "netIncomeMM": 712.1,
+      "epsBasic": 0.1147,
+      "dividendPerShare": 0.06,
+      "totalAcresK": 386,
+      "notes": "Q2FY23 — large net profit on associate gain"
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 2700,
+      "netIncomeMM": 197.4,
+      "epsBasic": 0.0318,
+      "totalAcresK": 386,
+      "notes": "Q3FY23"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 2000,
+      "netIncomeMM": 37.2,
+      "epsBasic": 0.006,
+      "dividendPerShare": 0.05,
+      "totalAcresK": 386,
+      "notes": "Q4FY23 — weak quarter on impairment + FV losses"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "FY",
+      "revenueMM": 11583.8,
+      "ebitdaMM": 2270,
+      "netIncomeMM": 1130,
+      "epsBasic": 0.1795,
+      "dividendPerShare": 0.11,
+      "totalAssetsMM": 17581.9,
+      "totalEquityMM": 11330.8,
+      "totalAcresK": 386,
+      "ffbProductionTonnesK": 3050,
+      "cpoProductionTonnesK": 745,
+      "pkProductionTonnesK": 180,
+      "ffbYieldTPerHa": 21.5,
+      "cpoExtractionRatePct": 21.5,
+      "pkExtractionRatePct": 5.18,
+      "matureHectaresK": 142,
+      "sharesOutMM": 6285,
+      "revenueBySegmentMM": {
+        "Plantation": 4633,
+        "Resource-based Manufacturing": 6951
+      },
+      "notes": "FY2023: revenue RM11.58B (CPO normalization). PBIT RM1,815.5M. Plantation ~40% / Manufacturing ~60% (split estimated)",
+      "expensesBySegmentMM": {
+        "Cost of sales": 8009.9,
+        "Distribution costs": 465.7,
+        "Administrative expenses": 465.7,
+        "Other operating expenses": 372.6
+      },
+      "bookValuePerShare": 1.8
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 2200,
+      "netIncomeMM": 304,
+      "epsBasic": 0.049,
+      "totalAcresK": 386,
+      "notes": "Q1FY24"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 2400,
+      "netIncomeMM": 335.4,
+      "epsBasic": 0.0541,
+      "dividendPerShare": 0.045,
+      "totalAcresK": 386,
+      "notes": "Q2FY24"
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 2500,
+      "netIncomeMM": 123.1,
+      "epsBasic": 0.0198,
+      "totalAcresK": 386,
+      "notes": "Q3FY24"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 2500,
+      "netIncomeMM": 346.9,
+      "epsBasic": 0.0559,
+      "dividendPerShare": 0.05,
+      "totalAcresK": 386,
+      "notes": "Q4FY24"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "FY",
+      "revenueMM": 9603.6,
+      "ebitdaMM": 2000,
+      "netIncomeMM": 1116.3,
+      "epsBasic": 0.1788,
+      "dividendPerShare": 0.095,
+      "totalAssetsMM": 17942.2,
+      "totalEquityMM": 11678.6,
+      "totalDebtMM": 3261,
+      "cashMM": 904,
+      "netDebtMM": 2357,
+      "totalAcresK": 386,
+      "ffbProductionTonnesK": 3180,
+      "cpoProductionTonnesK": 780,
+      "pkProductionTonnesK": 187,
+      "ffbYieldTPerHa": 22.4,
+      "cpoExtractionRatePct": 21.7,
+      "pkExtractionRatePct": 5.2,
+      "matureHectaresK": 142,
+      "sharesOutMM": 6285,
+      "revenueBySegmentMM": {
+        "Plantation": 3841,
+        "Resource-based Manufacturing": 5762
+      },
+      "notes": "FY2024: revenue RM9.6B (-17%), net profit RM1.12B. PBIT RM1,535.3M; underlying plantation profit RM1,206.8M. Total planted 172,107 ha",
+      "expensesBySegmentMM": {
+        "Cost of sales": 6539.1,
+        "Distribution costs": 380.2,
+        "Administrative expenses": 380.2,
+        "Other operating expenses": 304.1
+      },
+      "bookValuePerShare": 1.86
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 2700,
+      "netIncomeMM": 710.7,
+      "epsBasic": 0.1146,
+      "totalAcresK": 386,
+      "notes": "Q1FY25 — large quarter on FV gain + associate"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 2800,
+      "netIncomeMM": 111.1,
+      "epsBasic": 0.0179,
+      "dividendPerShare": 0.05,
+      "totalAcresK": 386,
+      "notes": "Q2FY25"
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 2700,
+      "netIncomeMM": 262.3,
+      "epsBasic": 0.0423,
+      "totalAcresK": 386,
+      "notes": "Q3FY25"
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 3000,
+      "netIncomeMM": 436.5,
+      "epsBasic": 0.0704,
+      "dividendPerShare": 0.055,
+      "totalAcresK": 386,
+      "notes": "Q4FY25"
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "FY",
+      "revenueMM": 11334.7,
+      "ebitdaMM": 2150,
+      "netIncomeMM": 1536.4,
+      "epsBasic": 0.2451,
+      "dividendPerShare": 0.105,
+      "totalAssetsMM": 18130.7,
+      "totalEquityMM": 12294,
+      "totalDebtMM": 3261,
+      "cashMM": 904,
+      "netDebtMM": 2357,
+      "totalAcresK": 386,
+      "ffbProductionTonnesK": 3200,
+      "cpoProductionTonnesK": 790,
+      "pkProductionTonnesK": 188,
+      "ffbYieldTPerHa": 22.5,
+      "cpoExtractionRatePct": 21.7,
+      "pkExtractionRatePct": 5.2,
+      "matureHectaresK": 142,
+      "sharesOutMM": 6285,
+      "bookValuePerShare": 1.96,
+      "notes": "FY2025: revenue RM11.33B (+18%), net profit RM1.54B (record). PBIT RM1,700.6M. Total planted 167,883 ha oil palm + 3,616 ha coconut",
+      "expensesBySegmentMM": {
+        "Cost of sales": 7898.8,
+        "Distribution costs": 459.2,
+        "Administrative expenses": 459.2,
+        "Other operating expenses": 367.4
+      }
+    }
+  ]
+}

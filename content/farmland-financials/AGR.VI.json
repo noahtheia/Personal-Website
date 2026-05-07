@@ -1,0 +1,103 @@
+{
+  "ticker": "AGR.VI",
+  "currency": "EUR",
+  "sourceUrl": "https://www.agrana.com/en/investor-relations/",
+  "notes": "AGRANA Beteiligungs-AG (Vienna: AGR) — Austrian diversified agribusiness with three segments: Fruit (largest, ~50% revenue, fruit preparations + concentrates), Sugar (CEE beet sugar + Hungerburg/Tulln refineries), and Starch (food, technical, bioethanol). Fiscal year ends Feb 28/29. Reports in EUR. Volatile sugar segment (EU sugar deregulation 2017+, energy/beet costs 2022-23). Strong recovery FY24 from energy normalization. Listed on Vienna Stock Exchange (Wiener Börse).",
+  "periods": [
+    {
+      "endDate": "2021-02-28",
+      "periodType": "FY",
+      "revenueMM": 2548,
+      "revenueBySegmentMM": {
+        "Fruit": 1191,
+        "Sugar": 645,
+        "Starch": 712
+      },
+      "ebitdaMM": 168,
+      "netIncomeMM": 31,
+      "totalDebtMM": 660,
+      "cashMM": 145,
+      "netDebtMM": 515,
+      "sharesOutMM": 62.5,
+      "bookValuePerShare": 16.6,
+      "dividendPerShare": 0.85,
+      "notes": "FY20/21 (ended Feb 28 2021): revenue EUR 2.55B (-5% YoY pandemic effect). EBITDA EUR 168M. Sugar segment loss-making. Net income EUR 31M."
+    },
+    {
+      "endDate": "2022-02-28",
+      "periodType": "FY",
+      "revenueMM": 2928,
+      "revenueBySegmentMM": {
+        "Fruit": 1289,
+        "Sugar": 781,
+        "Starch": 858
+      },
+      "ebitdaMM": 207,
+      "netIncomeMM": 78,
+      "totalDebtMM": 695,
+      "cashMM": 130,
+      "netDebtMM": 565,
+      "sharesOutMM": 62.5,
+      "bookValuePerShare": 17.1,
+      "dividendPerShare": 0.90,
+      "notes": "FY21/22 (ended Feb 28 2022): revenue EUR 2.93B (+15%). EBITDA EUR 207M. Recovery in Sugar segment, strong Fruit. Net income EUR 78M."
+    },
+    {
+      "endDate": "2023-02-28",
+      "periodType": "FY",
+      "revenueMM": 3637,
+      "revenueBySegmentMM": {
+        "Fruit": 1545,
+        "Sugar": 1098,
+        "Starch": 994
+      },
+      "ebitdaMM": 195,
+      "netIncomeMM": 16,
+      "totalDebtMM": 870,
+      "cashMM": 130,
+      "netDebtMM": 740,
+      "sharesOutMM": 62.5,
+      "bookValuePerShare": 17.0,
+      "dividendPerShare": 0.90,
+      "notes": "FY22/23 (ended Feb 28 2023): revenue EUR 3.64B (+24%) on energy/beet cost pass-through. EBITDA EUR 195M. Net income EUR 16M (margin pressure). Sugar swung positive on price."
+    },
+    {
+      "endDate": "2024-02-29",
+      "periodType": "FY",
+      "revenueMM": 3782,
+      "revenueBySegmentMM": {
+        "Fruit": 1620,
+        "Sugar": 1180,
+        "Starch": 982
+      },
+      "ebitdaMM": 295,
+      "netIncomeMM": 109,
+      "totalDebtMM": 800,
+      "cashMM": 145,
+      "netDebtMM": 655,
+      "sharesOutMM": 62.5,
+      "bookValuePerShare": 17.9,
+      "dividendPerShare": 0.95,
+      "notes": "FY23/24 (ended Feb 29 2024): revenue EUR 3.78B (+4%). EBITDA EUR 295M (+51%) on Sugar peak. Net income EUR 109M. Strong year for sugar segment, fruit margins recovering."
+    },
+    {
+      "endDate": "2025-02-28",
+      "periodType": "FY",
+      "revenueMM": 3565,
+      "revenueBySegmentMM": {
+        "Fruit": 1665,
+        "Sugar": 920,
+        "Starch": 980
+      },
+      "ebitdaMM": 215,
+      "netIncomeMM": 55,
+      "totalDebtMM": 760,
+      "cashMM": 140,
+      "netDebtMM": 620,
+      "sharesOutMM": 62.5,
+      "bookValuePerShare": 17.6,
+      "dividendPerShare": 0.85,
+      "notes": "FY24/25 (ended Feb 28 2025): revenue EUR 3.57B (-6%) on EU sugar price normalization. EBITDA EUR 215M (-27%). Net income EUR 55M. Sugar segment back to mid-cycle."
+    }
+  ]
+}

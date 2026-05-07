@@ -1,0 +1,128 @@
+{
+  "ticker": "1961.KL",
+  "asOf": "2025-06-30",
+  "currency": "MYR",
+  "propertiesNote": "5-row breakdown including downstream placeholder + plasma carve-out. IOI is integrated palm + oleochemical + refining; Loders Croklaan was sold to Bunge in 2018. Indonesia plasma (~19K ha) excluded from owned acres.",
+  "properties": [
+    {
+      "name": "Peninsular Malaysia plantation (subsidiaries)",
+      "location": "Peninsular Malaysia",
+      "acres": 110000,
+      "cropOrUse": "Mature oil palm",
+      "category": "Malaysian palm \u2014 Peninsular",
+      "fmvPerAcre": 26000,
+      "fmvRationale": "IOI Peninsular plantation subsidiaries; mature with mill access",
+      "comparablesUsed": [
+        "MY-PALM-PEN-2024",
+        "MY-PALM-2025"
+      ],
+      "bookValueMM": 2700,
+      "fmvPerAcreLow": 21320.0,
+      "fmvPerAcreHigh": 30680.0,
+      "capRateLow": 7.0,
+      "capRateHigh": 9.5
+    },
+    {
+      "name": "Sabah Malaysia plantation",
+      "location": "Sabah, Malaysia",
+      "acres": 132000,
+      "cropOrUse": "Mature oil palm",
+      "category": "Malaysian palm \u2014 Sabah",
+      "fmvPerAcre": 22000,
+      "fmvRationale": "Sabah plantation cluster; ongoing replant programme",
+      "comparablesUsed": [
+        "MY-PALM-SABAH-2024"
+      ],
+      "bookValueMM": 2700,
+      "fmvPerAcreLow": 18040.0,
+      "fmvPerAcreHigh": 25960.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
+    },
+    {
+      "name": "Indonesia plantation \u2014 nucleus (subsidiary)",
+      "location": "Indonesia (Kalimantan)",
+      "acres": 144000,
+      "cropOrUse": "Mature oil palm + mills (nucleus only)",
+      "category": "Indonesian palm \u2014 IOI nucleus",
+      "fmvPerAcre": 22000,
+      "fmvPerAcreLow": 18040.0,
+      "fmvPerAcreHigh": 25960.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0,
+      "fmvRationale": "Indonesian plantation subsidiary nucleus only (~58K ha owned). Reduced from prior 192K acres to exclude plasma estates owned by smallholder farmers (now in separate plasma row)",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 3500
+    },
+    {
+      "name": "Indonesia plasma plantations (smallholder partnerships)",
+      "location": "Indonesia (Kalimantan)",
+      "acres": 48000,
+      "cropOrUse": "Plasma estate partnerships (~19K ha NOT owned by IOI)",
+      "category": "Plasma plantations (partnership receivable)",
+      "fmvPerAcre": 2000,
+      "fmvPerAcreLow": 1500,
+      "fmvPerAcreHigh": 2500,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0,
+      "fmvRationale": "~19K ha Indonesia plasma estates owned by smallholder farmers under Indonesia's mandatory plasma program \u2014 managed by IOI under multi-year purchase + advisory agreements. NOT on balance sheet as land asset. Estimated as ~25% of Indonesia operations consistent with Kalimantan industry norms",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 200
+    },
+    {
+      "name": "Resource-based manufacturing (Loders Croklaan was sold; current oleochemicals + specialty)",
+      "location": "Various downstream",
+      "acres": 1,
+      "cropOrUse": "Oleochemical / refining facilities (not farmland)",
+      "category": "Downstream / non-land",
+      "fmvPerAcre": 33,
+      "fmvRationale": "Placeholder for downstream Net PP&E not allocated to plantation acres; the per-acre column is meaningless for this row",
+      "comparablesUsed": [],
+      "bookValueMM": 33,
+      "fmvPerAcreLow": 27.060000000000002,
+      "fmvPerAcreHigh": 38.94,
+      "capRateLow": 8.0,
+      "capRateHigh": 12.0
+    }
+  ],
+  "comparables": [
+    {
+      "id": "MY-PALM-PEN-2024",
+      "description": "Peninsular Malaysia palm plantation",
+      "location": "Peninsular Malaysia",
+      "pricePerAcre": 6000,
+      "date": "2024-09-15",
+      "source": "MPOB land valuation reports 2024"
+    },
+    {
+      "id": "MY-PALM-SABAH-2024",
+      "description": "Malaysian Sabah palm plantation",
+      "location": "Sabah, Malaysia",
+      "pricePerAcre": 4800,
+      "date": "2024-09-15",
+      "source": "MPOB Sabah 2024"
+    },
+    {
+      "id": "MY-PALM-2025",
+      "description": "Malaysian palm plantation H1 2025 transactions",
+      "location": "Malaysia palm estates",
+      "pricePerAcre": 5400,
+      "date": "2025-04-01",
+      "source": "MPOB + Bursa Malaysia 2025"
+    },
+    {
+      "id": "ID-PALM-MATURE-2024",
+      "description": "Indonesian mature oil palm with mill access",
+      "location": "Indonesia",
+      "pricePerAcre": 5000,
+      "date": "2024-09-15",
+      "source": "GAPKI 2024 reports"
+    }
+  ],
+  "methodology": "IOI Corporation operates 176,202 hectares (planted, including subsidiary companies; FY24 disclosure) plus another 127,800 hectares through associate companies. Total plantation footprint ~432K acres.\n\nCRITICAL CHANGE vs prior version: Indonesia plasma estates (~19K ha = 48K acres) now correctly carved out via excludeFromAcreTotals=true. Plasma is owned by smallholder farmers under Indonesia's mandatory plasma program \u2014 IOI buys FFB but doesn't own the land. Consistent with how plasma is treated for AALI/SIMP/P8Z/SGRO/SSMS/RE.L/GENP.\n\n5-row breakdown:\n- Peninsular Malaysia (110K acres): IOI subsidiary plantations, freehold\n- Sabah (132K acres): plantation cluster with ongoing replant, freehold\n- Indonesia nucleus (144K acres): IOI Indonesian subsidiary owned\n- Indonesia plasma (48K acres = 19K ha, EXCLUDED from owned acres): smallholder partnerships\n- Resource-based manufacturing (placeholder, not land asset)\n\nIOI sold Loders Croklaan to Bunge in 2018; current downstream is smaller. The MYR 33M placeholder reflects residual fixed downstream asset value not allocated to plantation acres.\n\nPer-acre pricing reflects MPOB 2024-25 + GAPKI 2024 benchmarks. Net PP&E split is rough proportional allocation \u2014 IOI's annual report has more granular segment disclosure that could refine the per-segment book."
+}

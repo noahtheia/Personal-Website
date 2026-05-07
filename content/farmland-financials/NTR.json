@@ -1,0 +1,146 @@
+{
+  "ticker": "NTR",
+  "currency": "USD",
+  "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001725964&type=40-F",
+  "notes": "Nutrien Ltd \u2014 Canadian-headquartered crop nutrients (potash, nitrogen, phosphate) + retail crop inputs; reports under IFRS via 40-F. Created 2018 from PotashCorp + Agrium merger. FY2025 40-F filed 2026-02-27 (CIK 1725964). EBITDA = ProfitLossFromOperatingActivities + DepreciationAndAmortisation. Total debt = long-term borrowings (incl current portion) + short-term borrowings. Dividends declared in USD; map applied manually since IFRS taxonomy omits US-GAAP dividend concepts. Shares outstanding only available for older periods in XBRL.",
+  "periods": [
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 20084.0,
+      "ebitdaMM": 3661.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 14582.0,
+        "SG&A + other opex": 3640.0,
+        "D&A (incl in COGS / SG&A)": 1799.0
+      },
+      "netIncomeMM": 992.0,
+      "totalDebtMM": 10031.0,
+      "cashMM": 671.0,
+      "netDebtMM": 9360.0,
+      "sharesOutMM": 572.94,
+      "epsDiluted": 1.7,
+      "dividendPerShare": 1.8
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 20908.0,
+      "ebitdaMM": 2891.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 15669.0,
+        "SG&A + other opex": 4337.0,
+        "D&A (incl in COGS / SG&A)": 1989.0
+      },
+      "netIncomeMM": 459.0,
+      "totalDebtMM": 10220.0,
+      "cashMM": 1454.0,
+      "netDebtMM": 8766.0,
+      "sharesOutMM": 566.67,
+      "epsDiluted": 0.81,
+      "dividendPerShare": 1.8,
+      "bookValuePerShare": 39.47,
+      "navPerShare": 39.47
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 27712.0,
+      "ebitdaMM": 6732.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 18303.0,
+        "SG&A + other opex": 4628.0,
+        "D&A (incl in COGS / SG&A)": 1951.0
+      },
+      "netIncomeMM": 3179.0,
+      "totalDebtMM": 9626.0,
+      "cashMM": 499.0,
+      "netDebtMM": 9127.0,
+      "epsDiluted": 5.52,
+      "dividendPerShare": 1.86,
+      "sharesOutMM": 575.91,
+      "bookValuePerShare": 41.07,
+      "navPerShare": 41.07
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 37884.0,
+      "ebitdaMM": 12821.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 22460.0,
+        "SG&A + other opex": 4615.0,
+        "D&A (incl in COGS / SG&A)": 2012.0
+      },
+      "netIncomeMM": 7687.0,
+      "totalDebtMM": 10724.0,
+      "cashMM": 901.0,
+      "netDebtMM": 9823.0,
+      "epsDiluted": 14.18,
+      "dividendPerShare": 1.92,
+      "sharesOutMM": 542.1,
+      "bookValuePerShare": 47.63,
+      "navPerShare": 47.63
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 29056.0,
+      "ebitdaMM": 4914.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 20582.0,
+        "SG&A + other opex": 5729.0,
+        "D&A (incl in COGS / SG&A)": 2169.0
+      },
+      "netIncomeMM": 1282.0,
+      "totalDebtMM": 11240.0,
+      "cashMM": 941.0,
+      "netDebtMM": 10299.0,
+      "epsDiluted": 2.53,
+      "dividendPerShare": 2.12,
+      "sharesOutMM": 506.72,
+      "bookValuePerShare": 49.64,
+      "navPerShare": 49.64
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 25972.0,
+      "ebitdaMM": 4195.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 18442.0,
+        "SG&A + other opex": 5674.0,
+        "D&A (incl in COGS / SG&A)": 2339.0
+      },
+      "netIncomeMM": 700.0,
+      "totalDebtMM": 11452.0,
+      "cashMM": 853.0,
+      "netDebtMM": 10599.0,
+      "epsDiluted": 1.36,
+      "dividendPerShare": 2.16,
+      "sharesOutMM": 514.71,
+      "bookValuePerShare": 47.42,
+      "navPerShare": 47.42
+    },
+    {
+      "endDate": "2025-12-31",
+      "periodType": "FY",
+      "revenueMM": 26885.0,
+      "ebitdaMM": 6105.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 18538.0,
+        "SG&A + other opex": 4611.0,
+        "D&A (incl in COGS / SG&A)": 2369.0
+      },
+      "netIncomeMM": 2297.0,
+      "totalDebtMM": 10736.0,
+      "cashMM": 701.0,
+      "netDebtMM": 10035.0,
+      "epsDiluted": 4.66,
+      "dividendPerShare": 2.18,
+      "sharesOutMM": 492.92,
+      "bookValuePerShare": 51.37,
+      "navPerShare": 51.37
+    }
+  ]
+}

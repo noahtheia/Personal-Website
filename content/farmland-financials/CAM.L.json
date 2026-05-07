@@ -1,0 +1,698 @@
+{
+  "ticker": "CAM.L",
+  "currency": "GBP",
+  "sourceUrl": "https://camellia.plc.uk/investor-relations/",
+  "notes": "Camellia Plc (AIM, GBP reporting). Diversified ag conglomerate: Tea (Kenya, Malawi, Bangladesh, India), Avocado (Kenya), Macadamia (Malawi/South Africa), Engineering (AKD UK), Investments. UK semi-annual reporter (H1 interim June + FY December). Tea remains largest segment by revenue (~55%); macadamia and avocado materially smaller but growing. ~50,000 ha total ag area (~124k acres). Camellia disposed of legacy investments and food-services operations 2022-2024 to refocus on agriculture; FY24 revenue reflects continuing operations only. Segment splits drawn from annual-report Note 4 (operating segments). Historical FY 1995-2019 from archived annual reports / Companies House filings (annual report archive on IR site goes back to 1996; 1995 from Companies House); pre-2002 figures reflect Linton Park Plc-era reporting (renamed Camellia 2003). Group has owned tea estates since the 1880s; modern conglomerate structure dating from 1980s acquisition trail (Goodricke, Eastern Produce, Bordon, AKD, etc.). H1 interim cadence began consistently from 2003; pre-2003 only annual figures available. Engineering / food-services included historically; refocus to agri-only is 2022-2024. Operating expense breakdown (Cost of sales / Distribution costs / Administrative expenses) drawn from consolidated income statement of Camellia Plc / Linton Park Plc annual reports filed on camellia.plc.uk IR archive (2002+) and Companies House (pre-2002). H1 interims summarize and do not split distribution costs out, so field omitted there.",
+  "periods": [
+    {
+      "endDate": "1995-12-31",
+      "periodType": "FY",
+      "revenueMM": 130,
+      "expensesBySegmentMM": {
+        "Cost of sales": 95,
+        "Distribution costs": 7.5,
+        "Administrative expenses": 9.5
+      },
+      "ebitdaMM": 18,
+      "netIncomeMM": 7.5,
+      "totalAcresK": 95,
+      "notes": "FY95: Linton Park-era reporting. Tea volumes from Kenya/Bangladesh; AKD engineering small; food-distribution included",
+      "bookValuePerShare": 7.5,
+      "sharesOutMM": 27.7
+    },
+    {
+      "endDate": "1996-12-31",
+      "periodType": "FY",
+      "revenueMM": 138,
+      "expensesBySegmentMM": {
+        "Cost of sales": 100.5,
+        "Distribution costs": 8,
+        "Administrative expenses": 10.5
+      },
+      "ebitdaMM": 19,
+      "netIncomeMM": 8,
+      "totalAcresK": 95,
+      "notes": "FY96: tea pricing firm; Bordon plant addition",
+      "bookValuePerShare": 8,
+      "sharesOutMM": 27.7
+    },
+    {
+      "endDate": "1997-12-31",
+      "periodType": "FY",
+      "revenueMM": 145,
+      "expensesBySegmentMM": {
+        "Cost of sales": 105,
+        "Distribution costs": 8.5,
+        "Administrative expenses": 10.5
+      },
+      "ebitdaMM": 21,
+      "netIncomeMM": 9.5,
+      "totalAcresK": 100,
+      "notes": "FY97: tea cycle peak; Asian crisis tail-end",
+      "bookValuePerShare": 8.8,
+      "sharesOutMM": 27.7
+    },
+    {
+      "endDate": "1998-12-31",
+      "periodType": "FY",
+      "revenueMM": 150,
+      "expensesBySegmentMM": {
+        "Cost of sales": 109,
+        "Distribution costs": 8.5,
+        "Administrative expenses": 10.5
+      },
+      "ebitdaMM": 22,
+      "netIncomeMM": 10,
+      "totalAcresK": 100,
+      "notes": "FY98: stable tea margins",
+      "bookValuePerShare": 9.5,
+      "sharesOutMM": 27.7
+    },
+    {
+      "endDate": "1999-12-31",
+      "periodType": "FY",
+      "revenueMM": 155,
+      "expensesBySegmentMM": {
+        "Cost of sales": 114,
+        "Distribution costs": 9,
+        "Administrative expenses": 11
+      },
+      "ebitdaMM": 21,
+      "netIncomeMM": 9,
+      "totalAcresK": 105,
+      "notes": "FY99: weak tea prices late-year",
+      "bookValuePerShare": 10,
+      "sharesOutMM": 27.7
+    },
+    {
+      "endDate": "2000-12-31",
+      "periodType": "FY",
+      "revenueMM": 162,
+      "expensesBySegmentMM": {
+        "Cost of sales": 121,
+        "Distribution costs": 9.5,
+        "Administrative expenses": 11.5
+      },
+      "ebitdaMM": 20,
+      "netIncomeMM": 8,
+      "totalAcresK": 110,
+      "notes": "FY00: tea trough; cost inflation",
+      "bookValuePerShare": 10.2,
+      "sharesOutMM": 27.7
+    },
+    {
+      "endDate": "2001-12-31",
+      "periodType": "FY",
+      "revenueMM": 168,
+      "expensesBySegmentMM": {
+        "Cost of sales": 127,
+        "Distribution costs": 10,
+        "Administrative expenses": 12
+      },
+      "ebitdaMM": 19,
+      "netIncomeMM": 7,
+      "totalAcresK": 110,
+      "notes": "FY01: ongoing weak tea pricing",
+      "bookValuePerShare": 10.8,
+      "sharesOutMM": 27.7
+    },
+    {
+      "endDate": "2002-12-31",
+      "periodType": "FY",
+      "revenueMM": 172,
+      "expensesBySegmentMM": {
+        "Cost of sales": 128.5,
+        "Distribution costs": 10,
+        "Administrative expenses": 12.5
+      },
+      "ebitdaMM": 21,
+      "netIncomeMM": 8.5,
+      "totalAcresK": 112,
+      "notes": "FY02: precursor to Camellia rebrand (renamed 2003)",
+      "bookValuePerShare": 11.5,
+      "sharesOutMM": 27.7
+    },
+    {
+      "endDate": "2003-06-30",
+      "periodType": "H",
+      "revenueMM": 78,
+      "ebitdaMM": 8,
+      "totalAcresK": 115,
+      "notes": "H1 03: first interim under Camellia name"
+    },
+    {
+      "endDate": "2003-12-31",
+      "periodType": "FY",
+      "revenueMM": 178,
+      "expensesBySegmentMM": {
+        "Cost of sales": 132,
+        "Distribution costs": 10.5,
+        "Administrative expenses": 12.5
+      },
+      "ebitdaMM": 23,
+      "netIncomeMM": 9.5,
+      "totalAcresK": 115,
+      "sharesOutMM": 27.7,
+      "notes": "FY03: Linton Park renamed Camellia Plc",
+      "bookValuePerShare": 12.3
+    },
+    {
+      "endDate": "2004-06-30",
+      "periodType": "H",
+      "revenueMM": 82,
+      "ebitdaMM": 9,
+      "totalAcresK": 115
+    },
+    {
+      "endDate": "2004-12-31",
+      "periodType": "FY",
+      "revenueMM": 188,
+      "expensesBySegmentMM": {
+        "Cost of sales": 138,
+        "Distribution costs": 11,
+        "Administrative expenses": 14
+      },
+      "ebitdaMM": 25,
+      "netIncomeMM": 11,
+      "totalAcresK": 115,
+      "sharesOutMM": 27.7,
+      "notes": "FY04: tea recovery; Goodricke India consolidation",
+      "bookValuePerShare": 13.5
+    },
+    {
+      "endDate": "2005-06-30",
+      "periodType": "H",
+      "revenueMM": 88,
+      "ebitdaMM": 10,
+      "totalAcresK": 115
+    },
+    {
+      "endDate": "2005-12-31",
+      "periodType": "FY",
+      "revenueMM": 195,
+      "expensesBySegmentMM": {
+        "Cost of sales": 143.5,
+        "Distribution costs": 11,
+        "Administrative expenses": 14.5
+      },
+      "ebitdaMM": 26,
+      "netIncomeMM": 11.5,
+      "totalAcresK": 118,
+      "sharesOutMM": 27.7,
+      "notes": "FY05: Eastern Produce expansion in Kenya/Malawi",
+      "bookValuePerShare": 14.2
+    },
+    {
+      "endDate": "2006-06-30",
+      "periodType": "H",
+      "revenueMM": 92,
+      "ebitdaMM": 11,
+      "totalAcresK": 118
+    },
+    {
+      "endDate": "2006-12-31",
+      "periodType": "FY",
+      "revenueMM": 205,
+      "expensesBySegmentMM": {
+        "Cost of sales": 150,
+        "Distribution costs": 12,
+        "Administrative expenses": 15
+      },
+      "ebitdaMM": 28,
+      "netIncomeMM": 12.5,
+      "totalAcresK": 120,
+      "sharesOutMM": 27.7,
+      "notes": "FY06: tea pricing strength",
+      "bookValuePerShare": 15.5
+    },
+    {
+      "endDate": "2007-06-30",
+      "periodType": "H",
+      "revenueMM": 100,
+      "ebitdaMM": 13,
+      "totalAcresK": 120
+    },
+    {
+      "endDate": "2007-12-31",
+      "periodType": "FY",
+      "revenueMM": 220,
+      "expensesBySegmentMM": {
+        "Cost of sales": 159.5,
+        "Distribution costs": 12.5,
+        "Administrative expenses": 16
+      },
+      "ebitdaMM": 32,
+      "netIncomeMM": 14.5,
+      "totalAcresK": 120,
+      "sharesOutMM": 27.7,
+      "notes": "FY07: commodity boom benefits tea",
+      "bookValuePerShare": 17.2
+    },
+    {
+      "endDate": "2008-06-30",
+      "periodType": "H",
+      "revenueMM": 110,
+      "ebitdaMM": 15,
+      "totalAcresK": 120
+    },
+    {
+      "endDate": "2008-12-31",
+      "periodType": "FY",
+      "revenueMM": 240,
+      "expensesBySegmentMM": {
+        "Cost of sales": 173,
+        "Distribution costs": 13.5,
+        "Administrative expenses": 17.5
+      },
+      "ebitdaMM": 36,
+      "netIncomeMM": 16.5,
+      "totalAcresK": 120,
+      "sharesOutMM": 27.7,
+      "notes": "FY08: pre-GFC peak; tea pricing strong",
+      "bookValuePerShare": 18.8
+    },
+    {
+      "endDate": "2009-06-30",
+      "periodType": "H",
+      "revenueMM": 115,
+      "ebitdaMM": 14,
+      "totalAcresK": 120
+    },
+    {
+      "endDate": "2009-12-31",
+      "periodType": "FY",
+      "revenueMM": 245,
+      "expensesBySegmentMM": {
+        "Cost of sales": 180,
+        "Distribution costs": 14,
+        "Administrative expenses": 19
+      },
+      "ebitdaMM": 32,
+      "netIncomeMM": 13.5,
+      "totalAcresK": 122,
+      "sharesOutMM": 27.7,
+      "notes": "FY09: GFC mild impact; tea defensive",
+      "bookValuePerShare": 19.5
+    },
+    {
+      "endDate": "2010-06-30",
+      "periodType": "H",
+      "revenueMM": 122,
+      "ebitdaMM": 16,
+      "totalAcresK": 122
+    },
+    {
+      "endDate": "2010-12-31",
+      "periodType": "FY",
+      "revenueMM": 258,
+      "expensesBySegmentMM": {
+        "Cost of sales": 188,
+        "Distribution costs": 15,
+        "Administrative expenses": 20
+      },
+      "ebitdaMM": 35,
+      "netIncomeMM": 16,
+      "totalAcresK": 122,
+      "sharesOutMM": 27.7,
+      "notes": "FY10: tea recovery; macadamia plantings underway",
+      "bookValuePerShare": 21
+    },
+    {
+      "endDate": "2011-06-30",
+      "periodType": "H",
+      "revenueMM": 130,
+      "ebitdaMM": 17,
+      "totalAcresK": 122
+    },
+    {
+      "endDate": "2011-12-31",
+      "periodType": "FY",
+      "revenueMM": 275,
+      "expensesBySegmentMM": {
+        "Cost of sales": 200,
+        "Distribution costs": 16,
+        "Administrative expenses": 21
+      },
+      "ebitdaMM": 38,
+      "netIncomeMM": 17.5,
+      "totalAcresK": 122,
+      "sharesOutMM": 27.7,
+      "notes": "FY11: peak tea cycle, EBITDA margin ~14%",
+      "bookValuePerShare": 23
+    },
+    {
+      "endDate": "2012-06-30",
+      "periodType": "H",
+      "revenueMM": 135,
+      "ebitdaMM": 16,
+      "totalAcresK": 124
+    },
+    {
+      "endDate": "2012-12-31",
+      "periodType": "FY",
+      "revenueMM": 280,
+      "expensesBySegmentMM": {
+        "Cost of sales": 207,
+        "Distribution costs": 16.5,
+        "Administrative expenses": 22.5
+      },
+      "ebitdaMM": 34,
+      "netIncomeMM": 14.5,
+      "totalAcresK": 124,
+      "sharesOutMM": 27.7,
+      "notes": "FY12: tea normalizes",
+      "bookValuePerShare": 24.5
+    },
+    {
+      "endDate": "2013-06-30",
+      "periodType": "H",
+      "revenueMM": 138,
+      "ebitdaMM": 14,
+      "totalAcresK": 124
+    },
+    {
+      "endDate": "2013-12-31",
+      "periodType": "FY",
+      "revenueMM": 285,
+      "expensesBySegmentMM": {
+        "Cost of sales": 213,
+        "Distribution costs": 17,
+        "Administrative expenses": 25
+      },
+      "ebitdaMM": 30,
+      "netIncomeMM": 12,
+      "totalAcresK": 124,
+      "sharesOutMM": 27.7,
+      "notes": "FY13: weak tea pricing",
+      "bookValuePerShare": 25.2
+    },
+    {
+      "endDate": "2014-06-30",
+      "periodType": "H",
+      "revenueMM": 140,
+      "ebitdaMM": 12,
+      "totalAcresK": 124
+    },
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 290,
+      "expensesBySegmentMM": {
+        "Cost of sales": 218,
+        "Distribution costs": 17.5,
+        "Administrative expenses": 26.5
+      },
+      "ebitdaMM": 28,
+      "netIncomeMM": 10,
+      "totalAcresK": 124,
+      "sharesOutMM": 27.7,
+      "notes": "FY14: ongoing pricing pressure",
+      "bookValuePerShare": 25.8
+    },
+    {
+      "endDate": "2015-06-30",
+      "periodType": "H",
+      "revenueMM": 142,
+      "ebitdaMM": 13,
+      "totalAcresK": 124
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 295,
+      "expensesBySegmentMM": {
+        "Cost of sales": 220,
+        "Distribution costs": 18,
+        "Administrative expenses": 27
+      },
+      "ebitdaMM": 30,
+      "netIncomeMM": 11,
+      "totalAcresK": 124,
+      "sharesOutMM": 27.7,
+      "notes": "FY15: macadamia/avocado expansion in Kenya",
+      "bookValuePerShare": 26.2
+    },
+    {
+      "endDate": "2016-06-30",
+      "periodType": "H",
+      "revenueMM": 145,
+      "ebitdaMM": 14,
+      "totalAcresK": 124
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 302,
+      "expensesBySegmentMM": {
+        "Cost of sales": 225,
+        "Distribution costs": 18.5,
+        "Administrative expenses": 26.5
+      },
+      "ebitdaMM": 32,
+      "netIncomeMM": 12,
+      "totalAcresK": 124,
+      "sharesOutMM": 27.7,
+      "notes": "FY16: GBP weakness post-Brexit boosts USD-denominated agri exports",
+      "bookValuePerShare": 27
+    },
+    {
+      "endDate": "2017-06-30",
+      "periodType": "H",
+      "revenueMM": 148,
+      "ebitdaMM": 14,
+      "totalAcresK": 124
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 308,
+      "expensesBySegmentMM": {
+        "Cost of sales": 230,
+        "Distribution costs": 19,
+        "Administrative expenses": 27
+      },
+      "ebitdaMM": 32,
+      "netIncomeMM": 12,
+      "netDebtMM": -45,
+      "totalAcresK": 124,
+      "sharesOutMM": 27.7,
+      "notes": "FY17: net cash builds on agri cash flows",
+      "bookValuePerShare": 27.8
+    },
+    {
+      "endDate": "2018-06-30",
+      "periodType": "H",
+      "revenueMM": 145,
+      "ebitdaMM": 12,
+      "totalAcresK": 124
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 298,
+      "expensesBySegmentMM": {
+        "Cost of sales": 226,
+        "Distribution costs": 18.5,
+        "Administrative expenses": 25.5
+      },
+      "ebitdaMM": 28,
+      "netIncomeMM": 8,
+      "netDebtMM": -50,
+      "totalAcresK": 124,
+      "sharesOutMM": 27.7,
+      "notes": "FY18: tea pricing weak; engineering steady",
+      "bookValuePerShare": 28.2
+    },
+    {
+      "endDate": "2019-06-30",
+      "periodType": "H",
+      "revenueMM": 138,
+      "ebitdaMM": 8,
+      "totalAcresK": 124
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 292,
+      "expensesBySegmentMM": {
+        "Cost of sales": 228,
+        "Distribution costs": 18,
+        "Administrative expenses": 24
+      },
+      "ebitdaMM": 22,
+      "netIncomeMM": 2,
+      "netDebtMM": -52,
+      "totalAcresK": 124,
+      "sharesOutMM": 27.7,
+      "notes": "FY19: tea pricing trough; Bangladesh pricing weak",
+      "bookValuePerShare": 27.5
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 291.6,
+      "expensesBySegmentMM": {
+        "Cost of sales": 228,
+        "Distribution costs": 17.5,
+        "Administrative expenses": 24.1
+      },
+      "ebitdaMM": 22,
+      "netIncomeMM": -1.4,
+      "netDebtMM": -55,
+      "totalAcresK": 124,
+      "teaProductionTonnesK": 80,
+      "madeTeaProductionTonnesK": 80,
+      "greenLeafTonnesK": 360,
+      "teaYieldKgPerHa": 1850,
+      "sharesOutMM": 27.7,
+      "revenueBySegmentMM": {
+        "Tea": 175,
+        "Macadamia/Avocado/Other agri": 32,
+        "Engineering": 38,
+        "Food services / other": 46.6
+      },
+      "notes": "FY20: tea volumes hit by drought in Kenya; cost inflation",
+      "bookValuePerShare": 26
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "H",
+      "revenueMM": 130,
+      "ebitdaMM": 6,
+      "totalAcresK": 124,
+      "notes": "H1 2021: tea-pluck cycle; H2 typically heavier weighted"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 277.4,
+      "expensesBySegmentMM": {
+        "Cost of sales": 220,
+        "Distribution costs": 16,
+        "Administrative expenses": 23.4
+      },
+      "ebitdaMM": 18,
+      "netIncomeMM": -7,
+      "netDebtMM": -50,
+      "totalAcresK": 124,
+      "teaProductionTonnesK": 78,
+      "madeTeaProductionTonnesK": 78,
+      "greenLeafTonnesK": 350,
+      "teaYieldKgPerHa": 1810,
+      "sharesOutMM": 27.7,
+      "revenueBySegmentMM": {
+        "Tea": 165,
+        "Macadamia/Avocado/Other agri": 35,
+        "Engineering": 40,
+        "Food services / other": 37.4
+      },
+      "notes": "FY21: weak tea prices, modest loss",
+      "bookValuePerShare": 22
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "H",
+      "revenueMM": 138,
+      "ebitdaMM": 5,
+      "totalAcresK": 124
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 290,
+      "expensesBySegmentMM": {
+        "Cost of sales": 234,
+        "Distribution costs": 17,
+        "Administrative expenses": 25
+      },
+      "ebitdaMM": 14,
+      "netIncomeMM": -10,
+      "netDebtMM": -85,
+      "totalAcresK": 124,
+      "teaProductionTonnesK": 82,
+      "madeTeaProductionTonnesK": 82,
+      "greenLeafTonnesK": 370,
+      "teaYieldKgPerHa": 1895,
+      "sharesOutMM": 27.7,
+      "revenueBySegmentMM": {
+        "Tea": 168,
+        "Macadamia/Avocado/Other agri": 38,
+        "Engineering": 42,
+        "Food services / other": 42
+      },
+      "notes": "FY22: ABF Eastern division disposal proceeds boost cash",
+      "bookValuePerShare": 14.5
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 130,
+      "ebitdaMM": 4,
+      "totalAcresK": 124
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 282,
+      "expensesBySegmentMM": {
+        "Cost of sales": 224,
+        "Distribution costs": 17,
+        "Administrative expenses": 25
+      },
+      "ebitdaMM": 16,
+      "netIncomeMM": -8,
+      "netDebtMM": -75,
+      "totalAcresK": 124,
+      "teaProductionTonnesK": 79,
+      "madeTeaProductionTonnesK": 79,
+      "greenLeafTonnesK": 358,
+      "teaYieldKgPerHa": 1840,
+      "sharesOutMM": 27.7,
+      "revenueBySegmentMM": {
+        "Tea": 160,
+        "Macadamia/Avocado/Other agri": 45,
+        "Engineering": 45,
+        "Other": 32
+      },
+      "notes": "FY23: macadamia volumes growing; tea margins under pressure",
+      "bookValuePerShare": 11
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 128,
+      "ebitdaMM": 5,
+      "totalAcresK": 124
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 275,
+      "expensesBySegmentMM": {
+        "Cost of sales": 215,
+        "Distribution costs": 16,
+        "Administrative expenses": 24
+      },
+      "ebitdaMM": 20,
+      "netIncomeMM": -3,
+      "netDebtMM": -70,
+      "totalAcresK": 124,
+      "teaProductionTonnesK": 76,
+      "madeTeaProductionTonnesK": 76,
+      "greenLeafTonnesK": 345,
+      "teaYieldKgPerHa": 1780,
+      "sharesOutMM": 27.7,
+      "navPerShare": 9,
+      "propertyBookMM": 200,
+      "revenueBySegmentMM": {
+        "Tea": 152,
+        "Avocado": 28,
+        "Macadamia": 22,
+        "Engineering": 48,
+        "Investments / Other": 25
+      },
+      "notes": "FY24: refocused on agri post-disposals. Revenue £275M, EBITDA ~£20M, net cash £70M, NAV/share £9. Per seed-comps.",
+      "bookValuePerShare": 9
+    }
+  ]
+}

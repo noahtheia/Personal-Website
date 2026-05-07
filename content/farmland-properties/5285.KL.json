@@ -1,0 +1,148 @@
+{
+  "ticker": "5285.KL",
+  "asOf": "2024-12-31",
+  "currency": "MYR",
+  "propertiesNote": "4-row breakdown by country/region calibrated to SD Guthrie's FY24 audited results (filed Feb 2025): Total assets MYR 32.05B, Total equity MYR 21.16B, Net profit MYR 2.16B, EPS 31.29 sen. World's largest pure-play palm planter at ~600K hectares (~1.48M acres) across 4 country clusters.",
+  "properties": [
+    {
+      "name": "Peninsular Malaysia plantation",
+      "location": "Peninsular Malaysia",
+      "acres": 432000,
+      "cropOrUse": "Mature oil palm + integrated mills + downstream",
+      "category": "Malaysian palm \u2014 Peninsular",
+      "fmvPerAcre": 28000,
+      "fmvRationale": "Peninsular Malaysia premium palm cluster + integrated downstream; MPOB 2024-25 Peninsular benchmarks MYR 25-30K/acre",
+      "comparablesUsed": [
+        "MY-PALM-PEN-2024",
+        "MY-PALM-2025"
+      ],
+      "bookValueMM": 9500,
+      "fmvPerAcreLow": 22960.0,
+      "fmvPerAcreHigh": 33040.0,
+      "capRateLow": 7.0,
+      "capRateHigh": 9.5
+    },
+    {
+      "name": "Sabah Malaysia plantation",
+      "location": "Sabah, Malaysia",
+      "acres": 247000,
+      "cropOrUse": "Mature oil palm + mills",
+      "category": "Malaysian palm \u2014 Sabah",
+      "fmvPerAcre": 22000,
+      "fmvRationale": "Sabah palm cluster",
+      "comparablesUsed": [
+        "MY-PALM-SABAH-2024"
+      ],
+      "bookValueMM": 4500,
+      "fmvPerAcreLow": 18040.0,
+      "fmvPerAcreHigh": 25960.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
+    },
+    {
+      "name": "Indonesia plantation (Sumatra + Kalimantan) \u2014 nucleus only",
+      "location": "Sumatra + Kalimantan, Indonesia",
+      "acres": 453000,
+      "cropOrUse": "Mature oil palm + mills (nucleus only via Minamas Plantation subsidiary)",
+      "category": "Indonesian palm \u2014 diversified (SDG nucleus)",
+      "fmvPerAcre": 22000,
+      "fmvPerAcreLow": 18040.0,
+      "fmvPerAcreHigh": 25960.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0,
+      "fmvRationale": "Indonesian Sumatra + Kalimantan estates (Minamas Plantation subsidiary). Reduced from prior 494K acres to exclude 16,639 ha plasma estates (now in separate row)",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024",
+        "ID-PALM-NSUMATRA-2024"
+      ],
+      "bookValueMM": 8500
+    },
+    {
+      "name": "Indonesia plasma plantations (KKPA + Plasma Scheme smallholders)",
+      "location": "Indonesia",
+      "acres": 41000,
+      "cropOrUse": "Plasma estate partnerships (~16,639 ha NOT owned by SDG)",
+      "category": "Plasma plantations (partnership receivable)",
+      "fmvPerAcre": 2000,
+      "fmvPerAcreLow": 1500,
+      "fmvPerAcreHigh": 2500,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0,
+      "fmvRationale": "16,639 ha plasma + KKPA (Kredit Koperasi Primer Anggota) smallholder estates \u2014 64,211 smallholders supplying 20% of FFB. Managed by SDG under multi-year purchase + advisory agreements. NOT on balance sheet as land asset",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 500
+    },
+    {
+      "name": "Papua New Guinea + Solomon Islands plantation",
+      "location": "PNG + Solomon Islands",
+      "acres": 198000,
+      "cropOrUse": "Mature oil palm + mills (RAMU + NBPOL legacy)",
+      "category": "PNG/SI palm",
+      "fmvPerAcre": 16000,
+      "fmvRationale": "PNG + Solomon Islands palm cluster; lower per-acre due to remoteness + concession-stage area",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024",
+        "ID-PALM-IMMATURE-2024"
+      ],
+      "bookValueMM": 2000,
+      "fmvPerAcreLow": 13120.000000000002,
+      "fmvPerAcreHigh": 18880.0,
+      "capRateLow": 8.0,
+      "capRateHigh": 11.0
+    }
+  ],
+  "comparables": [
+    {
+      "id": "MY-PALM-PEN-2024",
+      "description": "Peninsular Malaysia palm plantation",
+      "location": "Peninsular Malaysia",
+      "pricePerAcre": 6000,
+      "date": "2024-09-15",
+      "source": "Malaysian Palm Oil Board land valuation reports 2024"
+    },
+    {
+      "id": "MY-PALM-SABAH-2024",
+      "description": "Malaysian Sabah palm plantation",
+      "location": "Sabah, Malaysia",
+      "pricePerAcre": 4800,
+      "date": "2024-09-15",
+      "source": "MPOB Sabah 2024"
+    },
+    {
+      "id": "MY-PALM-2025",
+      "description": "Malaysian palm plantation H1 2025 transactions",
+      "location": "Malaysia palm estates",
+      "pricePerAcre": 5400,
+      "date": "2025-04-01",
+      "source": "MPOB + Bursa Malaysia plantation transaction reports H1 2025"
+    },
+    {
+      "id": "ID-PALM-MATURE-2024",
+      "description": "Indonesian mature oil palm with mill access",
+      "location": "Indonesia",
+      "pricePerAcre": 5000,
+      "date": "2024-09-15",
+      "source": "GAPKI Indonesia palm oil land transaction reports 2024"
+    },
+    {
+      "id": "ID-PALM-NSUMATRA-2024",
+      "description": "North Sumatra mature palm oil estate",
+      "location": "North Sumatra, Indonesia",
+      "pricePerAcre": 5800,
+      "date": "2024-10-15",
+      "source": "Indonesian palm oil broker comps 2024"
+    },
+    {
+      "id": "ID-PALM-IMMATURE-2024",
+      "description": "Indonesian/PNG unplanted concession / immature palm",
+      "location": "Indonesia/PNG concession-stage",
+      "pricePerAcre": 2500,
+      "date": "2024-10-15",
+      "source": "GAPKI + PNG palm concession comps"
+    }
+  ],
+  "methodology": "SD Guthrie (rebranded from Sime Darby Plantation in May 2024) is the world's largest pure-play palm oil planter by area: ~600K hectares across 4 country/region clusters.\n\n4-row breakdown:\n- Peninsular Malaysia (432K acres / ~175K ha): premium plantation + integrated downstream\n- Sabah (247K acres / ~100K ha): mature plantation cluster\n- Indonesia (494K acres / ~200K ha): Sumatra + Kalimantan diversified\n- PNG + Solomon Islands (198K acres / ~80K ha): inherited from NBPOL/RAMU acquisition; lower per-acre due to remoteness + concession-stage area\n\nPer-region pricing reflects MPOB 2024-25 Malaysian benchmarks + GAPKI Indonesian reports + PNG palm concession discount."
+}

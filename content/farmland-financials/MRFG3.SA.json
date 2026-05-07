@@ -1,0 +1,73 @@
+{
+  "ticker": "MRFG3.SA",
+  "currency": "BRL",
+  "sourceUrl": "https://ri.marfrig.com.br/",
+  "notes": "Marfrig Global Foods (B3: MRFG3) — beef + processed protein, with controlling stake (~50.5%) in BRF S.A. (BRFS3). Two operating segments: National Beef (NA beef, 81.7% owned), and South America beef. Sold 16 plants to Minerva (BEEF3) in Aug 2024 for R$7.5bn (Brazil + Southern Cone). FY ends Dec 31. Consolidates BRF since 2H22 — drives revenue uplift and adds chicken/processed exposure.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 68000,
+      "revenueMM": 67885,
+      "ebitdaMM": 9296,
+      "netIncomeMM": 3144,
+      "totalDebtMM": 28100,
+      "cashMM": 12300,
+      "netDebtMM": 15800,
+      "sharesOutMM": 712,
+      "notes": "FY20: Revenue R$67.9bn (pre-BRF consolidation), EBITDA R$9.3bn (margin 13.7%) — peak NA beef margins."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 86000,
+      "revenueMM": 84693,
+      "ebitdaMM": 16135,
+      "netIncomeMM": 4530,
+      "totalDebtMM": 33500,
+      "cashMM": 14900,
+      "netDebtMM": 18600,
+      "sharesOutMM": 712,
+      "notes": "FY21: Revenue R$84.7bn, EBITDA R$16.1bn (margin 19.0%) — record year, peak NA beef cycle."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 137600,
+      "revenueMM": 134839,
+      "ebitdaMM": 14930,
+      "netIncomeMM": 1660,
+      "totalDebtMM": 56400,
+      "cashMM": 18900,
+      "netDebtMM": 37500,
+      "sharesOutMM": 851,
+      "notes": "FY22: Revenue R$134.8bn (+59% — BRF consolidation from Aug 2022), EBITDA R$14.9bn (margin 11.1%) — NA beef cycle began rolling over."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 137200,
+      "revenueMM": 134564,
+      "ebitdaMM": 9263,
+      "netIncomeMM": -3186,
+      "totalDebtMM": 55800,
+      "cashMM": 14000,
+      "netDebtMM": 41800,
+      "sharesOutMM": 851,
+      "notes": "FY23: Revenue R$134.6bn (flat). EBITDA R$9.3bn (margin 6.9%) — NA beef trough. Net loss R$3.2bn."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 155400,
+      "revenueMM": 152282,
+      "ebitdaMM": 13725,
+      "netIncomeMM": 720,
+      "totalDebtMM": 47800,
+      "cashMM": 14200,
+      "netDebtMM": 33600,
+      "sharesOutMM": 851,
+      "notes": "FY24: Revenue R$152.3bn (+13%), EBITDA R$13.7bn (margin 9.0%). Aug 2024 sale of 16 plants to Minerva for R$7.5bn deleveraged BS — net debt R$33.6bn (-20%). Net income recovered to R$720M."
+    }
+  ]
+}

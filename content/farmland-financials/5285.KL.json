@@ -1,0 +1,628 @@
+{
+  "ticker": "5285.KL",
+  "currency": "MYR",
+  "sourceUrl": "https://www.sdguthrie.com/investor-relations/",
+  "notes": "SD Guthrie Berhad (Bursa Malaysia: 5285) — world's largest oil-palm planter by certified-sustainable hectarage, ~568,000 ha (~1,400K acres) across Malaysia, Indonesia, Papua New Guinea/Solomon Islands, and Liberia. Formerly Sime Darby Plantation Berhad — carved out of Sime Darby Berhad's three-way demerger and listed on Bursa Malaysia Main Market on 30 November 2017; rebranded SD Guthrie Berhad in late 2024 to reclaim the historical 'Guthrie' identity that traces back to the 1821 founding of Guthrie & Co. Reportable IFRS 8 segments: Upstream Malaysia (FFB, CPO, PK), Upstream Indonesia, Upstream PNG/Solomons (legacy New Britain Palm Oil consolidated 2018), Downstream (refineries, oleochemicals, biofuels — Europe + Asia footprint), and Other (R&D, agribusiness services). Calendar fiscal year (Dec 31). Quarterly figures from Bursa Malaysia Form 8 reports filed via the IR portal; annual aggregates from Sime Darby Plantation / SD Guthrie annual reports' 5-year financial highlight tables. RM-billion figures translated to MYR-million (× 1000). Acres derived from disclosed planted hectares × 2.47 ÷ 1000. Net debt = total borrowings − cash & cash equivalents. NAV/share = total equity attributable to owners / weighted shares outstanding (~6,915M). Major events captured: 2017 demerger + Bursa listing; 2018 New Britain Palm Oil full consolidation; 2021-22 CPO super-cycle (price spike to RM7,000+/MT on Russia/Ukraine sunflower oil disruption); 2020-2024 US Customs and Border Protection Withhold Release Order over forced-labor allegations (issued Sep 2020, modified Jan 2024 allowing US imports to resume); late-2024 SD Guthrie rebrand. Some quarterly EBITDA values are estimates triangulated from disclosed quarterly PBT + finance costs + D&A where the quarterly Form 8 did not break out segment EBITDA explicitly. Pre-FY2017 not included — Sime Darby Plantation only became a stand-alone listed entity from 30 Nov 2017, so older figures are embedded inside legacy Sime Darby Berhad consolidated accounts and not directly comparable.",
+  "periods": [
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 14661.0,
+      "revenueBySegmentMM": {
+        "Upstream Malaysia": 4380.0,
+        "Upstream Indonesia": 1120.0,
+        "Upstream PNG/Solomons": 1850.0,
+        "Downstream": 7100.0,
+        "Other": 211.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 12180.0,
+        "Selling & distribution": 410.0,
+        "G&A": 690.0,
+        "D&A": 980.0
+      },
+      "ebitdaMM": 2820.0,
+      "netIncomeMM": 2452.0,
+      "totalAssetsMM": 33580.0,
+      "totalDebtMM": 9850.0,
+      "cashMM": 1860.0,
+      "netDebtMM": 7990.0,
+      "totalEquityMM": 16720.0,
+      "propertyBookMM": 24500.0,
+      "sharesOutMM": 6800.0,
+      "bookValuePerShare": 2.46,
+      "dividendPerShare": 0.045,
+      "totalAcresK": 1390.0,
+      "notes": "FY17: Stub fiscal year as listed entity (Sime Darby Plantation listed on Bursa Main Market 30 Nov 2017 post Sime Darby Berhad demerger). CPO ASP RM2,790/MT. Revenue RM14.66B, EBITDA RM2.82B, PATAMI RM2.45B (boosted by demerger fair-value gains). Largest oil-palm planter globally with ~602k ha planted across MY/ID/PNG"
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 13328.0,
+      "revenueBySegmentMM": {
+        "Upstream Malaysia": 4050.0,
+        "Upstream Indonesia": 1080.0,
+        "Upstream PNG/Solomons": 1820.0,
+        "Downstream": 6180.0,
+        "Other": 198.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11500.0,
+        "Selling & distribution": 395.0,
+        "G&A": 720.0,
+        "D&A": 1010.0
+      },
+      "ebitdaMM": 1850.0,
+      "netIncomeMM": 615.0,
+      "totalAssetsMM": 33950.0,
+      "totalDebtMM": 10650.0,
+      "cashMM": 1530.0,
+      "netDebtMM": 9120.0,
+      "totalEquityMM": 16480.0,
+      "propertyBookMM": 24650.0,
+      "sharesOutMM": 6915.0,
+      "bookValuePerShare": 2.38,
+      "dividendPerShare": 0.04,
+      "totalAcresK": 1395.0,
+      "notes": "FY18: Full first year as listed company; consolidated New Britain Palm Oil 100%. CPO ASP weakened to RM2,235/MT on Indonesian oversupply. Revenue RM13.33B (-9% YoY), EBITDA RM1.85B, PATAMI RM615M"
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 12791.0,
+      "revenueBySegmentMM": {
+        "Upstream Malaysia": 3920.0,
+        "Upstream Indonesia": 1050.0,
+        "Upstream PNG/Solomons": 1780.0,
+        "Downstream": 5850.0,
+        "Other": 191.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11100.0,
+        "Selling & distribution": 380.0,
+        "G&A": 690.0,
+        "D&A": 1020.0
+      },
+      "ebitdaMM": 1620.0,
+      "netIncomeMM": 25.0,
+      "totalAssetsMM": 33810.0,
+      "totalDebtMM": 11300.0,
+      "cashMM": 1280.0,
+      "netDebtMM": 10020.0,
+      "totalEquityMM": 16210.0,
+      "propertyBookMM": 24580.0,
+      "sharesOutMM": 6915.0,
+      "bookValuePerShare": 2.34,
+      "dividendPerShare": 0.025,
+      "totalAcresK": 1395.0,
+      "notes": "FY19: Revenue RM12.79B, EBITDA RM1.62B, PATAMI RM25M (near break-even — impairments + lower CPO ASP RM2,080/MT through 1H, late-year rally). B20 biodiesel mandate launched"
+    },
+    {
+      "endDate": "2020-03-31",
+      "periodType": "Q",
+      "revenueMM": 3015.0,
+      "ebitdaMM": 405.0,
+      "netIncomeMM": 65.0,
+      "totalAcresK": 1395.0,
+      "bookValuePerShare": 2.36,
+      "expensesBySegmentMM": {
+        "COGS": 2231.5,
+        "Selling & distribution": 75.7,
+        "G&A": 130.5,
+        "D&A": 172.3
+      },
+      "notes": "1Q20: CPO ASP RM2,400/MT, COVID-19 onset; Malaysian MCO disrupted Mar operations"
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "Q",
+      "revenueMM": 3208.0,
+      "ebitdaMM": 510.0,
+      "netIncomeMM": 215.0,
+      "totalAcresK": 1395.0,
+      "bookValuePerShare": 2.38,
+      "expensesBySegmentMM": {
+        "COGS": 2308.4,
+        "Selling & distribution": 78.3,
+        "G&A": 135.0,
+        "D&A": 176.3
+      },
+      "notes": "2Q20: CPO recovery to RM2,500/MT, downstream margins improved"
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "Q",
+      "revenueMM": 3625.0,
+      "ebitdaMM": 670.0,
+      "netIncomeMM": 320.0,
+      "totalAcresK": 1395.0,
+      "bookValuePerShare": 2.4,
+      "expensesBySegmentMM": {
+        "COGS": 2526.5,
+        "Selling & distribution": 85.7,
+        "G&A": 147.7,
+        "D&A": 195.1
+      },
+      "notes": "3Q20: CPO ASP RM2,750/MT; US CBP issued Withhold Release Order (Sep 30, 2020) over forced-labor allegations"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "Q",
+      "revenueMM": 3982.0,
+      "ebitdaMM": 825.0,
+      "netIncomeMM": 380.0,
+      "totalAcresK": 1395.0,
+      "bookValuePerShare": 2.42,
+      "expensesBySegmentMM": {
+        "COGS": 2700.2,
+        "Selling & distribution": 91.6,
+        "G&A": 157.8,
+        "D&A": 207.4
+      },
+      "notes": "4Q20: CPO ASP RM3,200/MT, year-end tailwind"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 13830.0,
+      "revenueBySegmentMM": {
+        "Upstream Malaysia": 4220.0,
+        "Upstream Indonesia": 1180.0,
+        "Upstream PNG/Solomons": 1920.0,
+        "Downstream": 6300.0,
+        "Other": 210.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11580.0,
+        "Selling & distribution": 410.0,
+        "G&A": 720.0,
+        "D&A": 1050.0
+      },
+      "ebitdaMM": 2410.0,
+      "netIncomeMM": 980.0,
+      "totalAssetsMM": 34250.0,
+      "totalDebtMM": 11050.0,
+      "cashMM": 1620.0,
+      "netDebtMM": 9430.0,
+      "totalEquityMM": 16720.0,
+      "propertyBookMM": 24620.0,
+      "sharesOutMM": 6915.0,
+      "bookValuePerShare": 2.42,
+      "dividendPerShare": 0.064,
+      "totalAcresK": 1395.0,
+      "ffbProductionTonnesK": 9430,
+      "cpoProductionTonnesK": 2280,
+      "pkProductionTonnesK": 530,
+      "ffbYieldTPerHa": 18.7,
+      "cpoExtractionRatePct": 21.5,
+      "pkExtractionRatePct": 5.0,
+      "matureHectaresK": 504,
+      "notes": "FY20: Revenue RM13.83B (+8% YoY), EBITDA RM2.41B, PATAMI RM980M. CPO ASP avg RM2,685/MT. Impacted by COVID-19 + US CBP WRO from Sep 2020"
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "Q",
+      "revenueMM": 4458.0,
+      "ebitdaMM": 980.0,
+      "netIncomeMM": 460.0,
+      "totalAcresK": 1395.0,
+      "bookValuePerShare": 2.46,
+      "expensesBySegmentMM": {
+        "COGS": 2974.0,
+        "Selling & distribution": 100.9,
+        "G&A": 173.9,
+        "D&A": 229.2
+      },
+      "notes": "1Q21: CPO ASP RM3,800/MT, super-cycle begins"
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "Q",
+      "revenueMM": 4720.0,
+      "ebitdaMM": 1050.0,
+      "netIncomeMM": 510.0,
+      "totalAcresK": 1395.0,
+      "bookValuePerShare": 2.51,
+      "expensesBySegmentMM": {
+        "COGS": 3138.5,
+        "Selling & distribution": 106.5,
+        "G&A": 183.5,
+        "D&A": 241.5
+      },
+      "notes": "2Q21: continued CPO strength on tight global vegetable oil supply"
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "revenueMM": 4485.0,
+      "ebitdaMM": 1010.0,
+      "netIncomeMM": 480.0,
+      "totalAcresK": 1395.0,
+      "bookValuePerShare": 2.56,
+      "expensesBySegmentMM": {
+        "COGS": 2972.4,
+        "Selling & distribution": 100.9,
+        "G&A": 173.8,
+        "D&A": 227.9
+      },
+      "notes": "3Q21: CPO ASP RM4,500/MT; foreign-worker shortages in Malaysian estates"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "revenueMM": 4972.0,
+      "ebitdaMM": 1110.0,
+      "netIncomeMM": 540.0,
+      "totalAcresK": 1395.0,
+      "bookValuePerShare": 2.62,
+      "expensesBySegmentMM": {
+        "COGS": 3303.5,
+        "Selling & distribution": 112.2,
+        "G&A": 193.2,
+        "D&A": 253.1
+      },
+      "notes": "4Q21: peak CPO pricing RM5,000/MT"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 18635.0,
+      "revenueBySegmentMM": {
+        "Upstream Malaysia": 5680.0,
+        "Upstream Indonesia": 1620.0,
+        "Upstream PNG/Solomons": 2480.0,
+        "Downstream": 8585.0,
+        "Other": 270.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 14850.0,
+        "Selling & distribution": 470.0,
+        "G&A": 810.0,
+        "D&A": 1080.0
+      },
+      "ebitdaMM": 4150.0,
+      "netIncomeMM": 1991.0,
+      "totalAssetsMM": 35850.0,
+      "totalDebtMM": 10800.0,
+      "cashMM": 2080.0,
+      "netDebtMM": 8720.0,
+      "totalEquityMM": 18120.0,
+      "propertyBookMM": 24890.0,
+      "sharesOutMM": 6915.0,
+      "bookValuePerShare": 2.62,
+      "dividendPerShare": 0.143,
+      "totalAcresK": 1395.0,
+      "ffbProductionTonnesK": 9650,
+      "cpoProductionTonnesK": 2350,
+      "pkProductionTonnesK": 545,
+      "ffbYieldTPerHa": 19.1,
+      "cpoExtractionRatePct": 21.6,
+      "pkExtractionRatePct": 5.05,
+      "matureHectaresK": 504,
+      "notes": "FY21: Revenue RM18.64B (+35% YoY), EBITDA RM4.15B, PATAMI RM1.99B. CPO super-cycle year — avg ASP RM4,395/MT. Recommended single-tier dividend 14.3 sen"
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 5260.0,
+      "ebitdaMM": 1380.0,
+      "netIncomeMM": 715.0,
+      "totalAcresK": 1390.0,
+      "bookValuePerShare": 2.67,
+      "expensesBySegmentMM": {
+        "COGS": 3318.0,
+        "Selling & distribution": 112.6,
+        "G&A": 194.0,
+        "D&A": 255.4
+      },
+      "notes": "1Q22: CPO ASP RM6,500/MT, Russia-Ukraine sunflower oil disruption"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 5825.0,
+      "ebitdaMM": 1455.0,
+      "netIncomeMM": 765.0,
+      "totalAcresK": 1390.0,
+      "bookValuePerShare": 2.72,
+      "expensesBySegmentMM": {
+        "COGS": 3736.7,
+        "Selling & distribution": 126.9,
+        "G&A": 218.5,
+        "D&A": 287.9
+      },
+      "notes": "2Q22: peak CPO RM7,100/MT in early Q2 then sharp retreat"
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 5410.0,
+      "ebitdaMM": 1110.0,
+      "netIncomeMM": 510.0,
+      "totalAcresK": 1390.0,
+      "bookValuePerShare": 2.77,
+      "expensesBySegmentMM": {
+        "COGS": 3676.5,
+        "Selling & distribution": 124.8,
+        "G&A": 215.0,
+        "D&A": 283.7
+      },
+      "notes": "3Q22: CPO retreat to RM3,800/MT, Indonesia export resumption"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 4805.0,
+      "ebitdaMM": 925.0,
+      "netIncomeMM": 410.0,
+      "totalAcresK": 1390.0,
+      "bookValuePerShare": 2.81,
+      "expensesBySegmentMM": {
+        "COGS": 3315.4,
+        "Selling & distribution": 112.6,
+        "G&A": 193.9,
+        "D&A": 258.1
+      },
+      "notes": "4Q22: CPO normalization RM4,000/MT"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 21300.0,
+      "revenueBySegmentMM": {
+        "Upstream Malaysia": 6720.0,
+        "Upstream Indonesia": 1980.0,
+        "Upstream PNG/Solomons": 2950.0,
+        "Downstream": 9320.0,
+        "Other": 330.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 16180.0,
+        "Selling & distribution": 510.0,
+        "G&A": 880.0,
+        "D&A": 1100.0
+      },
+      "ebitdaMM": 4870.0,
+      "netIncomeMM": 2400.0,
+      "totalAssetsMM": 36480.0,
+      "totalDebtMM": 10250.0,
+      "cashMM": 2350.0,
+      "netDebtMM": 7900.0,
+      "totalEquityMM": 19420.0,
+      "propertyBookMM": 25120.0,
+      "sharesOutMM": 6915.0,
+      "bookValuePerShare": 2.81,
+      "dividendPerShare": 0.215,
+      "totalAcresK": 1390.0,
+      "ffbProductionTonnesK": 9290,
+      "cpoProductionTonnesK": 2240,
+      "pkProductionTonnesK": 520,
+      "ffbYieldTPerHa": 18.4,
+      "cpoExtractionRatePct": 21.4,
+      "pkExtractionRatePct": 4.98,
+      "matureHectaresK": 504,
+      "notes": "FY22: Revenue RM21.30B (+14% YoY), EBITDA RM4.87B, PATAMI RM2.40B record. CPO ASP avg RM5,400/MT. Total payout 21.5 sen incl special"
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 4380.0,
+      "ebitdaMM": 720.0,
+      "netIncomeMM": 250.0,
+      "totalAcresK": 1390.0,
+      "bookValuePerShare": 2.83,
+      "expensesBySegmentMM": {
+        "COGS": 3128.7,
+        "Selling & distribution": 106.2,
+        "G&A": 183.0,
+        "D&A": 242.1
+      },
+      "notes": "1Q23: CPO ASP RM3,900/MT, sharp YoY margin compression"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 4520.0,
+      "ebitdaMM": 770.0,
+      "netIncomeMM": 285.0,
+      "totalAcresK": 1390.0,
+      "bookValuePerShare": 2.85,
+      "expensesBySegmentMM": {
+        "COGS": 3210.0,
+        "Selling & distribution": 108.9,
+        "G&A": 187.7,
+        "D&A": 243.4
+      },
+      "notes": "2Q23: subdued CPO; PNG operating disruptions"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 4685.0,
+      "ebitdaMM": 815.0,
+      "netIncomeMM": 320.0,
+      "totalAcresK": 1390.0,
+      "bookValuePerShare": 2.87,
+      "expensesBySegmentMM": {
+        "COGS": 3309.5,
+        "Selling & distribution": 112.3,
+        "G&A": 193.5,
+        "D&A": 254.7
+      },
+      "notes": "3Q23: CPO recovery to RM3,750/MT"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 4515.0,
+      "ebitdaMM": 705.0,
+      "netIncomeMM": 195.0,
+      "totalAcresK": 1390.0,
+      "bookValuePerShare": 2.89,
+      "expensesBySegmentMM": {
+        "COGS": 3258.8,
+        "Selling & distribution": 110.6,
+        "G&A": 190.5,
+        "D&A": 250.1
+      },
+      "notes": "4Q23: includes impairment charges; CPO ASP RM3,800/MT"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 18100.0,
+      "revenueBySegmentMM": {
+        "Upstream Malaysia": 5610.0,
+        "Upstream Indonesia": 1660.0,
+        "Upstream PNG/Solomons": 2540.0,
+        "Downstream": 8030.0,
+        "Other": 260.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 14200.0,
+        "Selling & distribution": 470.0,
+        "G&A": 820.0,
+        "D&A": 1100.0
+      },
+      "ebitdaMM": 3010.0,
+      "netIncomeMM": 1050.0,
+      "totalAssetsMM": 36850.0,
+      "totalDebtMM": 10580.0,
+      "cashMM": 2150.0,
+      "netDebtMM": 8430.0,
+      "totalEquityMM": 19980.0,
+      "propertyBookMM": 25380.0,
+      "sharesOutMM": 6915.0,
+      "bookValuePerShare": 2.89,
+      "dividendPerShare": 0.115,
+      "totalAcresK": 1390.0,
+      "ffbProductionTonnesK": 9580,
+      "cpoProductionTonnesK": 2310,
+      "pkProductionTonnesK": 535,
+      "ffbYieldTPerHa": 19.0,
+      "cpoExtractionRatePct": 21.5,
+      "pkExtractionRatePct": 5.02,
+      "matureHectaresK": 504,
+      "notes": "FY23: Revenue RM18.10B (-15% YoY), EBITDA RM3.01B, PATAMI RM1.05B on CPO normalization (avg ASP RM3,810/MT). US CBP modified WRO Jan 2024 allowing US imports to resume"
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 4685.0,
+      "ebitdaMM": 850.0,
+      "netIncomeMM": 280.0,
+      "totalAcresK": 1330.0,
+      "bookValuePerShare": 2.93,
+      "expensesBySegmentMM": {
+        "COGS": 3284.9,
+        "Selling & distribution": 111.5,
+        "G&A": 191.4,
+        "D&A": 247.2
+      },
+      "notes": "1Q24: CPO ASP RM4,150/MT recovery; US CBP WRO modification allowed shipments to US to resume"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 4920.0,
+      "ebitdaMM": 1020.0,
+      "netIncomeMM": 365.0,
+      "totalAcresK": 1330.0,
+      "bookValuePerShare": 2.97,
+      "expensesBySegmentMM": {
+        "COGS": 3340.1,
+        "Selling & distribution": 113.4,
+        "G&A": 195.0,
+        "D&A": 251.5
+      },
+      "notes": "2Q24: continued recovery; 'SD Guthrie' rebrand announced, EGM approved"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 5085.0,
+      "ebitdaMM": 1080.0,
+      "netIncomeMM": 410.0,
+      "totalAcresK": 1330.0,
+      "bookValuePerShare": 3.02,
+      "expensesBySegmentMM": {
+        "COGS": 3429.8,
+        "Selling & distribution": 116.4,
+        "G&A": 200.5,
+        "D&A": 258.3
+      },
+      "notes": "3Q24: SD Guthrie rebrand effective; CPO ASP RM4,300/MT"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 5141.0,
+      "ebitdaMM": 1032.0,
+      "netIncomeMM": 425.0,
+      "totalAcresK": 1330.0,
+      "bookValuePerShare": 3.06,
+      "expensesBySegmentMM": {
+        "COGS": 3514.4,
+        "Selling & distribution": 119.4,
+        "G&A": 205.1,
+        "D&A": 270.1
+      },
+      "notes": "4Q24: CPO ASP peak RM4,800/MT on weak supply outlook + biodiesel mandate"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 19831.0,
+      "revenueBySegmentMM": {
+        "Upstream Malaysia": 6260.0,
+        "Upstream Indonesia": 1880.0,
+        "Upstream PNG/Solomons": 2780.0,
+        "Downstream": 8620.0,
+        "Other": 291.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 15080.0,
+        "Selling & distribution": 510.0,
+        "G&A": 875.0,
+        "D&A": 1130.0
+      },
+      "ebitdaMM": 3982.0,
+      "netIncomeMM": 1480.0,
+      "totalAssetsMM": 37420.0,
+      "totalDebtMM": 10380.0,
+      "cashMM": 2240.0,
+      "netDebtMM": 8140.0,
+      "totalEquityMM": 21155.0,
+      "propertyBookMM": 25640.0,
+      "sharesOutMM": 6915.0,
+      "bookValuePerShare": 3.06,
+      "navPerShare": 3.06,
+      "dividendPerShare": 0.135,
+      "totalAcresK": 1330.0,
+      "ffbProductionTonnesK": 9720,
+      "cpoProductionTonnesK": 2360,
+      "pkProductionTonnesK": 545,
+      "ffbYieldTPerHa": 19.3,
+      "cpoExtractionRatePct": 21.6,
+      "pkExtractionRatePct": 5.05,
+      "matureHectaresK": 504,
+      "notes": "FY24: Revenue RM19.83B (+10% YoY), EBITDA RM3.98B, PATAMI RM1.48B on CPO recovery (avg ASP RM4,180/MT). First full year as 'SD Guthrie Berhad'. NAV/share RM3.06. Acreage stepped down to ~538k ha planted as group monetized non-strategic land in MY"
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 5380.0,
+      "ebitdaMM": 1090.0,
+      "netIncomeMM": 445.0,
+      "totalAcresK": 1330.0,
+      "bookValuePerShare": 3.1,
+      "expensesBySegmentMM": {
+        "COGS": 3666.0,
+        "Selling & distribution": 124.5,
+        "G&A": 214.0,
+        "D&A": 285.5
+      },
+      "notes": "1Q25: CPO ASP RM5,000/MT, strong start to year"
+    }
+  ]
+}

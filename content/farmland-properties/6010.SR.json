@@ -1,0 +1,82 @@
+{
+  "ticker": "6010.SR",
+  "asOf": "2025-12-31",
+  "currency": "SAR",
+  "propertiesNote": "4-row breakdown by named project: Wadi al-Dawasir, Hail, Haradh, Al-Jouf. Acres-per-project are estimates; Saudi disclosure less granular than Western comps.",
+  "properties": [
+    {
+      "name": "Wadi al-Dawasir project",
+      "location": "Wadi al-Dawasir region, Saudi Arabia",
+      "acres": 35000,
+      "cropOrUse": "Wheat + clover + corn (center-pivot irrigation)",
+      "category": "Saudi center-pivot \u2014 Wadi al-Dawasir",
+      "fmvPerAcre": 6500,
+      "fmvRationale": "Wadi al-Dawasir is NADEC's primary agricultural project \u2014 center-pivot irrigated wheat + clover",
+      "comparablesUsed": [
+        "SA-IRRIGATED-2024"
+      ],
+      "bookValueMM": 660,
+      "capRateLow": 7.0,
+      "capRateHigh": 10.0
+    },
+    {
+      "name": "Hail project",
+      "location": "Hail Region, Saudi Arabia",
+      "acres": 35000,
+      "cropOrUse": "Wheat + clover + Rhodes grass",
+      "category": "Saudi center-pivot \u2014 Hail",
+      "fmvPerAcre": 6500,
+      "fmvRationale": "Hail northern region \u2014 major wheat/forage producer for Saudi dairy",
+      "comparablesUsed": [
+        "SA-IRRIGATED-2024"
+      ],
+      "bookValueMM": 660,
+      "capRateLow": 7.0,
+      "capRateHigh": 10.0
+    },
+    {
+      "name": "Haradh project",
+      "location": "Haradh region, Saudi Arabia",
+      "acres": 30000,
+      "cropOrUse": "Forage crops + dairy support",
+      "category": "Saudi center-pivot \u2014 Haradh",
+      "fmvPerAcre": 6500,
+      "fmvRationale": "Haradh forage cluster supporting integrated dairy operations",
+      "comparablesUsed": [
+        "SA-IRRIGATED-2024"
+      ],
+      "bookValueMM": 565,
+      "capRateLow": 7.0,
+      "capRateHigh": 10.0
+    },
+    {
+      "name": "Al-Jouf project",
+      "location": "Al-Jouf Region, Saudi Arabia",
+      "acres": 24000,
+      "cropOrUse": "Wheat + olive groves",
+      "category": "Saudi center-pivot + olive \u2014 Al-Jouf",
+      "fmvPerAcre": 7000,
+      "fmvRationale": "Al-Jouf includes olive grove premium \u2014 Saudi specialty product with quality recognition",
+      "comparablesUsed": [
+        "SA-IRRIGATED-2024"
+      ],
+      "bookValueMM": 373,
+      "capRateLow": 7.0,
+      "capRateHigh": 10.0
+    }
+  ],
+  "comparables": [
+    {
+      "id": "SA-IRRIGATED-2024",
+      "description": "Saudi Arabian irrigated agricultural land \u2014 center pivot operations",
+      "location": "Saudi Arabia (Hail / Wadi al-Dawasir)",
+      "pricePerAcre": 6500,
+      "date": "2024-11-01",
+      "source": "Saudi Ministry of Agriculture + IGI broker reports 2024"
+    }
+  ],
+  "methodology": "NADEC operates 4 named agricultural projects across Saudi Arabia. Refined from 1-row to 4-row breakdown:\n- Wadi al-Dawasir: center-pivot wheat + clover + corn\n- Hail: wheat + clover + Rhodes grass (forage)\n- Haradh: forage + dairy support\n- Al-Jouf: wheat + olive groves (with olive specialty premium)\n\nPer-acre marks reflect 2024 Saudi center-pivot irrigated transaction comps. Al-Jouf marked slightly higher to reflect olive grove specialty premium.\n\nThe 124K-acre estimate for total NADEC farmland is approximate \u2014 Saudi disclosure is less granular than Western markets and the company doesn't publicly disclose hectares per project. Refining against the Arabic-language annual report would tighten these numbers.\n\nNADEC's book value (Net PP&E SAR 2,258M = ~$600M USD) includes dairy + processing infrastructure that isn't farmland-only \u2014 a stricter analysis would carve out dairy from the per-acre book.",
+  "noiCheckCapRateLow": 6.0,
+  "noiCheckCapRateHigh": 9.0,
+  "noiCheckLabel": "Saudi irrigated agriculture + dairy"
+}

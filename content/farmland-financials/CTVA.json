@@ -1,0 +1,144 @@
+{
+  "ticker": "CTVA",
+  "currency": "USD",
+  "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001755672&type=10-K",
+  "notes": "Corteva \u2014 pure-play seeds & crop protection (DowDuPont spin, June 2019). Net cash position FY2024-2025 (cash > debt). EBITDA computed bottom-up; reported \"operating EBITDA\" (non-GAAP) is higher because management adds back significant restructuring + non-recurring items. CommonStockSharesOutstanding used for shares.",
+  "periods": [
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 13846.0,
+      "ebitdaMM": 730.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 8575.0,
+        "SG&A": 3065.0,
+        "D&A": 1599.0
+      },
+      "netIncomeMM": -959.0,
+      "totalDebtMM": 116.0,
+      "cashMM": 1764.0,
+      "netDebtMM": -1648.0,
+      "sharesOutMM": 748.58,
+      "bookValuePerShare": 32.47,
+      "navPerShare": 32.47,
+      "dividendPerShare": 0.26,
+      "epsDiluted": -1.28
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 14217.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 8507.0,
+        "SG&A": 3043.0
+      },
+      "netIncomeMM": 681.0,
+      "totalDebtMM": 1103.0,
+      "cashMM": 3526.0,
+      "netDebtMM": -2423.0,
+      "sharesOutMM": 743.46,
+      "bookValuePerShare": 33.39,
+      "navPerShare": 33.39,
+      "dividendPerShare": 0.52,
+      "epsDiluted": 0.91
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 15655.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 9220.0,
+        "SG&A": 3209.0
+      },
+      "netIncomeMM": 1759.0,
+      "totalDebtMM": 1101.0,
+      "cashMM": 4459.0,
+      "netDebtMM": -3358.0,
+      "sharesOutMM": 726.53,
+      "bookValuePerShare": 34.94,
+      "navPerShare": 34.94,
+      "dividendPerShare": 0.54,
+      "epsDiluted": 2.37
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 17455.0,
+      "ebitdaMM": 2659.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 10436.0,
+        "SG&A": 3173.0,
+        "D&A": 1223.0
+      },
+      "netIncomeMM": 1147.0,
+      "totalDebtMM": 1283.0,
+      "cashMM": 3191.0,
+      "netDebtMM": -1908.0,
+      "sharesOutMM": 713.42,
+      "bookValuePerShare": 35.47,
+      "navPerShare": 35.47,
+      "dividendPerShare": 0.58,
+      "epsDiluted": 1.58
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 17226.0,
+      "ebitdaMM": 2331.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 9920.0,
+        "SG&A": 3176.0,
+        "D&A": 1211.0
+      },
+      "netIncomeMM": 735.0,
+      "totalDebtMM": 2487.0,
+      "cashMM": 2644.0,
+      "netDebtMM": -157.0,
+      "sharesOutMM": 701.26,
+      "bookValuePerShare": 35.7,
+      "navPerShare": 35.7,
+      "dividendPerShare": 0.58,
+      "epsDiluted": 1.03
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 16908.0,
+      "ebitdaMM": 2779.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 9529.0,
+        "SG&A": 3196.0,
+        "D&A": 1227.0
+      },
+      "netIncomeMM": 907.0,
+      "totalDebtMM": 2453.0,
+      "cashMM": 3106.0,
+      "netDebtMM": -653.0,
+      "sharesOutMM": 685.6,
+      "bookValuePerShare": 34.7,
+      "navPerShare": 34.7,
+      "dividendPerShare": 0.66,
+      "epsDiluted": 1.3
+    },
+    {
+      "endDate": "2025-12-31",
+      "periodType": "FY",
+      "revenueMM": 17401.0,
+      "ebitdaMM": 2961.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 9172.0,
+        "SG&A": 3492.0,
+        "D&A": 1203.0
+      },
+      "netIncomeMM": 1094.0,
+      "totalDebtMM": 2468.0,
+      "cashMM": 4521.0,
+      "netDebtMM": -2053.0,
+      "sharesOutMM": 672.16,
+      "bookValuePerShare": 35.92,
+      "navPerShare": 35.92,
+      "dividendPerShare": 0.7,
+      "epsDiluted": 1.6
+    }
+  ]
+}

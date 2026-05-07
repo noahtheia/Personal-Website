@@ -1,0 +1,183 @@
+{
+  "ticker": "MPE.L",
+  "asOf": "2024-12-31",
+  "currency": "USD",
+  "propertiesNote": "7-row breakdown by Indonesian province cluster + plasma carve-out. Total managed: 70,900 ha = 175K acres comprising 54,300 ha nucleus owned (134.4K acres) + 16,600 ha plasma smallholder partnerships (41K acres excluded from owned).",
+  "properties": [
+    {
+      "name": "North Sumatra plantations + mills (PT Sumber Indah Perkasa) — nucleus only",
+      "location": "North Sumatra Province, Indonesia",
+      "acres": 37900,
+      "cropOrUse": "Mature oil palm + multiple mills",
+      "category": "Indonesian palm \u2014 North Sumatra",
+      "fmvPerAcre": 5500,
+      "fmvRationale": "MP Evans' most established cluster with multiple mills; mature plantation $5-6K USD/acre",
+      "comparablesUsed": [
+        "ID-PALM-NSUMATRA-2024",
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 105,
+      "fmvPerAcreLow": 4510.0,
+      "fmvPerAcreHigh": 6490.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
+    },
+    {
+      "name": "South Sumatra (Musi Rawas + 2024 sixth mill) — nucleus only",
+      "location": "Musi Rawas, South Sumatra Province, Indonesia",
+      "acres": 20900,
+      "cropOrUse": "Oil palm + sixth mill (commissioned 2024)",
+      "category": "Indonesian palm \u2014 South Sumatra",
+      "fmvPerAcre": 5000,
+      "fmvRationale": "Musi Rawas concession with 2024-commissioned sixth mill; ~11K ha planted by start of 2025",
+      "comparablesUsed": [
+        "ID-PALM-SSUMATRA-2024",
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 50,
+      "fmvPerAcreLow": 4100.0,
+      "fmvPerAcreHigh": 5900.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
+    },
+    {
+      "name": "Aceh plantations — nucleus only",
+      "location": "Aceh Province, Indonesia",
+      "acres": 19000,
+      "cropOrUse": "Oil palm",
+      "category": "Indonesian palm \u2014 Aceh",
+      "fmvPerAcre": 4500,
+      "fmvRationale": "Aceh smaller plantation cluster",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 35,
+      "fmvPerAcreLow": 3690.0000000000005,
+      "fmvPerAcreHigh": 5310.0,
+      "capRateLow": 8.0,
+      "capRateHigh": 10.5
+    },
+    {
+      "name": "Bangka-Belitung plantations (offshore Sumatra) — nucleus only",
+      "location": "Bangka-Belitung Province, Indonesia",
+      "acres": 19000,
+      "cropOrUse": "Oil palm (mining-rehabilitation area)",
+      "category": "Indonesian palm \u2014 Bangka-Belitung",
+      "fmvPerAcre": 4500,
+      "fmvRationale": "Bangka-Belitung mining-rehabilitation oil palm \u2014 offshore Sumatra",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 35,
+      "fmvPerAcreLow": 3690.0000000000005,
+      "fmvPerAcreHigh": 5310.0,
+      "capRateLow": 8.0,
+      "capRateHigh": 10.5
+    },
+    {
+      "name": "East Kalimantan \u2014 Bumi Mas estate + mill (mature core, nucleus only)",
+      "location": "East Kalimantan Province, Indonesia",
+      "acres": 24500,
+      "cropOrUse": "Mature oil palm + Bumi Mas mill",
+      "category": "Indonesian palm \u2014 East Kalimantan (mature)",
+      "fmvPerAcre": 4800,
+      "fmvRationale": "Bumi Mas mature estate + mill cluster",
+      "comparablesUsed": [
+        "ID-PALM-KALIMANTAN-2024",
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 50,
+      "fmvPerAcreLow": 3936.0000000000005,
+      "fmvPerAcreHigh": 5664.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
+    },
+    {
+      "name": "East Kalimantan \u2014 ABK expansion (2025 new planting, nucleus only)",
+      "location": "East Kalimantan Province (ABK area), Indonesia",
+      "acres": 13400,
+      "cropOrUse": "Oil palm \u2014 new planting 2025 (immature)",
+      "category": "Indonesian palm \u2014 East Kalimantan (ABK new planting)",
+      "fmvPerAcre": 3500,
+      "fmvRationale": "ABK project area \u2014 2025 new planting at immature/development stage discount to mature MPE estates",
+      "comparablesUsed": [
+        "ID-PALM-KALIMANTAN-2024",
+        "ID-PALM-IMMATURE-2024"
+      ],
+      "bookValueMM": 25,
+      "fmvPerAcreLow": 2870.0,
+      "fmvPerAcreHigh": 4130.0,
+      "capRateLow": 10.0,
+      "capRateHigh": 14.0
+    },
+    {
+      "name": "Plasma plantations (scheme-smallholder partnerships)",
+      "location": "Indonesia (across all MPE provinces)",
+      "acres": 41000,
+      "cropOrUse": "Plasma estate partnerships (~16,600 ha NOT owned by MPE)",
+      "category": "Plasma plantations (partnership receivable)",
+      "fmvPerAcre": 1000,
+      "fmvPerAcreLow": 800,
+      "fmvPerAcreHigh": 1200,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0,
+      "fmvRationale": "16,600+ ha plasma scheme-smallholder estates owned by local communities around MPE's estates \u2014 managed under contract with the Group, FFB purchased at regulated price. NOT on balance sheet as land asset",
+      "comparablesUsed": [
+        "ID-PALM-IMMATURE-2024"
+      ],
+      "bookValueMM": 40
+    }
+  ],
+  "comparables": [
+    {
+      "id": "ID-PALM-MATURE-2024",
+      "description": "Indonesian mature oil palm with mill access",
+      "location": "Indonesia",
+      "pricePerAcre": 5000,
+      "date": "2024-09-15",
+      "source": "GAPKI Indonesia palm oil land transaction reports 2024"
+    },
+    {
+      "id": "ID-PALM-NSUMATRA-2024",
+      "description": "North Sumatra mature palm",
+      "location": "North Sumatra",
+      "pricePerAcre": 5800,
+      "date": "2024-10-15",
+      "source": "Indonesian palm broker comps 2024"
+    },
+    {
+      "id": "ID-PALM-SSUMATRA-2024",
+      "description": "South Sumatra palm with new mill access",
+      "location": "South Sumatra",
+      "pricePerAcre": 4800,
+      "date": "2024-11-15",
+      "source": "Sumatran plantation broker reports 2024"
+    },
+    {
+      "id": "ID-PALM-KALIMANTAN-2024",
+      "description": "East Kalimantan palm oil concession",
+      "location": "East Kalimantan",
+      "pricePerAcre": 4400,
+      "date": "2024-09-30",
+      "source": "Kalimantan palm broker comps 2024"
+    },
+    {
+      "id": "ID-PALM-IMMATURE-2024",
+      "description": "Indonesian unplanted/immature palm",
+      "location": "Indonesia (concession-stage)",
+      "pricePerAcre": 2500,
+      "date": "2024-10-15",
+      "source": "GAPKI 2024 reports"
+    },
+    {
+      "id": "MPE-DISP-2024",
+      "description": "MP Evans 2024 disposition / acquisition pricing \u2014 USD basis",
+      "location": "MP Evans portfolio",
+      "pricePerAcre": 5000,
+      "date": "2024-12-31",
+      "source": "MP Evans 2024 Final Results presentation"
+    }
+  ],
+  "methodology": "MP Evans expanded from 4-row to 7-row breakdown including plasma carve-out. CRITICAL CHANGE: 16,600 ha plasma estates (~41K acres) carved out via excludeFromAcreTotals=true. Plasma is owned by local communities around MPE's estates — managed under scheme-smallholder contracts where MPE buys FFB at regulated price but doesn't own the land.\n\nCluster breakdown (NUCLEUS ACRES — net of plasma):\n- North Sumatra (37.9K ac): most mature with multiple mills\n- South Sumatra Musi Rawas (20.9K ac): 6th mill commissioned 2024\n- Aceh (19K ac): smaller mature cluster\n- Bangka-Belitung (19K ac): offshore Sumatra mining-rehabilitation\n- East Kalimantan Bumi Mas mature (24.5K ac): primary KAL cluster\n- East Kalimantan ABK expansion (13.4K ac): 2025 new planting at immature discount\n- Plasma scheme-smallholder partnerships (41K acres EXCLUDED): NOT MPE-owned\n\nTotal nucleus: 134.6K acres = 54.3K ha. Total managed (incl plasma): 175K acres = 70.9K ha per MP Evans FY24 disclosure.\n\nUSD-reporting + GBp-listing structure unchanged. Per-acre values reduced ~23% across all six nucleus rows to back out plasma proportionally."
+}

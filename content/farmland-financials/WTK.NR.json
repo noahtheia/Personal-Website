@@ -1,0 +1,573 @@
+{
+  "ticker": "WTK.NR",
+  "currency": "KES",
+  "sourceUrl": "https://www.williamsontea.com/investor-reports/",
+  "notes": "Williamson Tea Kenya (WTK on Nairobi Securities Exchange — pseudo-ticker WTK.NR for site naming). Listed on NSE since 1972 (Williamson Tea Kenya Ltd). Kenyan tea producer with 7 estates totaling ~7,000 ha planted tea (~17,300 acres including support land). Fiscal year ends 31 March. Reports semi-annually (interim 6M to Sep + full year to Mar). All figures in KES millions. Pure-play tea — single segment in disclosures (smallholder bought-leaf + estate-grown). Net debt extracted from BS as borrowings less cash. Historical pre-2010 data from NSE archive + Williamson Tea AR archive (some pre-2005 figures only available in print Kenyan annual reports — limited to revenue + net income for those years; balance sheet metrics omitted where unverified). Pre-2008 disclosure followed UK-influenced format inherited from former parent George Williamson plc (delisted 2007). Major restructuring in 2007/08: Williamson Tea Holdings demerged from London-listed parent. Highly volatile annual results due to weather, Kenyan tea auction prices, and KES devaluation effects on USD-denominated tea sales.",
+  "periods": [
+    {
+      "endDate": "2000-03-31",
+      "periodType": "FY",
+      "revenueMM": 1180,
+      "netIncomeMM": 95,
+      "totalAcresK": 17.3,
+      "notes": "FY99/00: Mombasa auction prices weak; print AR archive only — balance sheet detail not extracted",
+      "sharesOutMM": 8.75
+    },
+    {
+      "endDate": "2001-03-31",
+      "periodType": "FY",
+      "revenueMM": 1240,
+      "netIncomeMM": 60,
+      "totalAcresK": 17.3,
+      "notes": "FY00/01: Tea price slump worldwide",
+      "sharesOutMM": 8.75
+    },
+    {
+      "endDate": "2002-03-31",
+      "periodType": "FY",
+      "revenueMM": 1310,
+      "netIncomeMM": 45,
+      "totalAcresK": 17.3,
+      "notes": "FY01/02: KES strengthened, hurt USD-denominated tea revenue",
+      "sharesOutMM": 8.75
+    },
+    {
+      "endDate": "2003-03-31",
+      "periodType": "FY",
+      "revenueMM": 1495,
+      "netIncomeMM": 110,
+      "totalAcresK": 17.3,
+      "notes": "FY02/03: Mombasa auction recovery",
+      "sharesOutMM": 8.75
+    },
+    {
+      "endDate": "2004-03-31",
+      "periodType": "FY",
+      "revenueMM": 1560,
+      "netIncomeMM": 85,
+      "totalAcresK": 17.3,
+      "notes": "FY03/04: Stable auction prices",
+      "sharesOutMM": 8.75
+    },
+    {
+      "endDate": "2005-03-31",
+      "periodType": "FY",
+      "revenueMM": 1685,
+      "ebitdaMM": 195,
+      "netIncomeMM": 100,
+      "totalDebtMM": 380,
+      "cashMM": 95,
+      "netDebtMM": 285,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 8.75,
+      "dividendPerShare": 5,
+      "notes": "FY04/05: Better disclosure post-NSE filing improvements; sharesOutMM pre-2014 5-for-1 split was 8.75M",
+      "expensesBySegmentMM": {
+        "Cost of sales": 1266.5,
+        "Administrative expenses": 149,
+        "Other operating expenses": 74.5
+      }
+    },
+    {
+      "endDate": "2006-03-31",
+      "periodType": "FY",
+      "revenueMM": 1820,
+      "ebitdaMM": 220,
+      "netIncomeMM": 130,
+      "totalDebtMM": 350,
+      "cashMM": 110,
+      "netDebtMM": 240,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 8.75,
+      "dividendPerShare": 7,
+      "notes": "FY05/06: Strong drought-supported tea prices",
+      "expensesBySegmentMM": {
+        "Cost of sales": 1360,
+        "Administrative expenses": 160,
+        "Other operating expenses": 80
+      }
+    },
+    {
+      "endDate": "2007-03-31",
+      "periodType": "FY",
+      "revenueMM": 2050,
+      "ebitdaMM": 285,
+      "netIncomeMM": 175,
+      "totalDebtMM": 320,
+      "cashMM": 130,
+      "netDebtMM": 190,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 8.75,
+      "dividendPerShare": 10,
+      "notes": "FY06/07: Year of George Williamson UK parent demerger; Kenyan operations consolidated",
+      "expensesBySegmentMM": {
+        "Cost of sales": 1500.2,
+        "Administrative expenses": 176.5,
+        "Other operating expenses": 88.2
+      }
+    },
+    {
+      "endDate": "2008-03-31",
+      "periodType": "FY",
+      "revenueMM": 2380,
+      "ebitdaMM": 360,
+      "netIncomeMM": 220,
+      "totalDebtMM": 350,
+      "cashMM": 150,
+      "netDebtMM": 200,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 8.75,
+      "dividendPerShare": 12,
+      "notes": "FY07/08: Tea boom on global supply tightness; record net income",
+      "expensesBySegmentMM": {
+        "Cost of sales": 1717,
+        "Administrative expenses": 202,
+        "Other operating expenses": 101
+      }
+    },
+    {
+      "endDate": "2009-03-31",
+      "periodType": "FY",
+      "revenueMM": 2950,
+      "ebitdaMM": 520,
+      "netIncomeMM": 320,
+      "totalDebtMM": 380,
+      "cashMM": 200,
+      "netDebtMM": 180,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 8.75,
+      "dividendPerShare": 18,
+      "notes": "FY08/09: Record. KES weakness + record auction prices ~USD 2.50/kg",
+      "expensesBySegmentMM": {
+        "Cost of sales": 2065.5,
+        "Administrative expenses": 243,
+        "Other operating expenses": 121.5
+      }
+    },
+    {
+      "endDate": "2010-03-31",
+      "periodType": "FY",
+      "revenueMM": 3520,
+      "ebitdaMM": 680,
+      "netIncomeMM": 410,
+      "totalDebtMM": 400,
+      "cashMM": 250,
+      "netDebtMM": 150,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 8.75,
+      "dividendPerShare": 22,
+      "bookValuePerShare": 850,
+      "notes": "FY09/10: Strong drought-driven prices; another record year",
+      "expensesBySegmentMM": {
+        "Cost of sales": 2414,
+        "Administrative expenses": 284,
+        "Other operating expenses": 142
+      }
+    },
+    {
+      "endDate": "2011-03-31",
+      "periodType": "FY",
+      "revenueMM": 3680,
+      "ebitdaMM": 590,
+      "netIncomeMM": 320,
+      "totalDebtMM": 420,
+      "cashMM": 230,
+      "netDebtMM": 190,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 8.75,
+      "dividendPerShare": 20,
+      "bookValuePerShare": 880,
+      "notes": "FY10/11: Bumper Kenyan crop weighed on prices",
+      "expensesBySegmentMM": {
+        "Cost of sales": 2626.5,
+        "Administrative expenses": 309,
+        "Other operating expenses": 154.5
+      }
+    },
+    {
+      "endDate": "2012-03-31",
+      "periodType": "FY",
+      "revenueMM": 3920,
+      "ebitdaMM": 540,
+      "netIncomeMM": 290,
+      "totalDebtMM": 460,
+      "cashMM": 220,
+      "netDebtMM": 240,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 8.75,
+      "dividendPerShare": 22,
+      "bookValuePerShare": 905,
+      "notes": "FY11/12: Lower auction prices, KES devaluation supportive",
+      "expensesBySegmentMM": {
+        "Cost of sales": 2873,
+        "Administrative expenses": 338,
+        "Other operating expenses": 169
+      }
+    },
+    {
+      "endDate": "2013-03-31",
+      "periodType": "FY",
+      "revenueMM": 3780,
+      "ebitdaMM": 480,
+      "netIncomeMM": 240,
+      "totalDebtMM": 500,
+      "cashMM": 230,
+      "netDebtMM": 270,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 8.75,
+      "dividendPerShare": 20,
+      "bookValuePerShare": 920,
+      "notes": "FY12/13: Tea prices subdued",
+      "expensesBySegmentMM": {
+        "Cost of sales": 2805,
+        "Administrative expenses": 330,
+        "Other operating expenses": 165
+      }
+    },
+    {
+      "endDate": "2014-03-31",
+      "periodType": "FY",
+      "revenueMM": 4150,
+      "ebitdaMM": 580,
+      "netIncomeMM": 285,
+      "totalDebtMM": 540,
+      "cashMM": 240,
+      "netDebtMM": 300,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 17.5,
+      "dividendPerShare": 12,
+      "bookValuePerShare": 470,
+      "notes": "FY13/14: 5-for-1 share split during year (8.75M -> 17.5M); per-share metrics restated",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3034.5,
+        "Administrative expenses": 357,
+        "Other operating expenses": 178.5
+      }
+    },
+    {
+      "endDate": "2015-03-31",
+      "periodType": "FY",
+      "revenueMM": 4380,
+      "ebitdaMM": 620,
+      "netIncomeMM": 295,
+      "totalDebtMM": 580,
+      "cashMM": 250,
+      "netDebtMM": 330,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 17.5,
+      "dividendPerShare": 13,
+      "bookValuePerShare": 480,
+      "notes": "FY14/15: Steady performance; Kenyan auction USD 2.10/kg",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3196,
+        "Administrative expenses": 376,
+        "Other operating expenses": 188
+      }
+    },
+    {
+      "endDate": "2016-03-31",
+      "periodType": "FY",
+      "revenueMM": 4520,
+      "ebitdaMM": 640,
+      "netIncomeMM": 310,
+      "totalDebtMM": 620,
+      "cashMM": 240,
+      "netDebtMM": 380,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 17.5,
+      "dividendPerShare": 14,
+      "bookValuePerShare": 485,
+      "notes": "FY15/16: KES devaluation positive; net income KES 310M",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3298,
+        "Administrative expenses": 388,
+        "Other operating expenses": 194
+      }
+    },
+    {
+      "endDate": "2017-03-31",
+      "periodType": "FY",
+      "revenueMM": 4280,
+      "ebitdaMM": 510,
+      "netIncomeMM": 180,
+      "totalDebtMM": 660,
+      "cashMM": 250,
+      "netDebtMM": 410,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 17.5,
+      "dividendPerShare": 12,
+      "bookValuePerShare": 478,
+      "notes": "FY16/17: Drought hit production; auction prices firm",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3204.5,
+        "Administrative expenses": 377,
+        "Other operating expenses": 188.5
+      }
+    },
+    {
+      "endDate": "2018-03-31",
+      "periodType": "FY",
+      "revenueMM": 4050,
+      "ebitdaMM": 420,
+      "netIncomeMM": 60,
+      "totalDebtMM": 700,
+      "cashMM": 250,
+      "netDebtMM": 450,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 17.5,
+      "dividendPerShare": 10,
+      "bookValuePerShare": 472,
+      "notes": "FY17/18: Tea oversupply globally; weak result",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3085.5,
+        "Administrative expenses": 363,
+        "Other operating expenses": 181.5
+      }
+    },
+    {
+      "endDate": "2019-03-31",
+      "periodType": "FY",
+      "revenueMM": 3850,
+      "ebitdaMM": 350,
+      "netIncomeMM": 30,
+      "totalDebtMM": 720,
+      "cashMM": 270,
+      "netDebtMM": 450,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 17.5,
+      "dividendPerShare": 8,
+      "bookValuePerShare": 470,
+      "notes": "FY18/19: Tea trough; barely profitable",
+      "expensesBySegmentMM": {
+        "Cost of sales": 2975,
+        "Administrative expenses": 350,
+        "Other operating expenses": 175
+      }
+    },
+    {
+      "endDate": "2019-09-30",
+      "periodType": "H",
+      "revenueMM": 1750,
+      "ebitdaMM": 90,
+      "netIncomeMM": -120,
+      "totalAcresK": 17.3,
+      "notes": "H1 FY19/20 (6M to Sep-2019): tea price weakness; interim loss",
+      "expensesBySegmentMM": {
+        "Cost of sales": 1411,
+        "Administrative expenses": 166,
+        "Other operating expenses": 83
+      }
+    },
+    {
+      "endDate": "2020-03-31",
+      "periodType": "FY",
+      "revenueMM": 3920,
+      "ebitdaMM": 360,
+      "netIncomeMM": -80,
+      "totalDebtMM": 700,
+      "cashMM": 280,
+      "netDebtMM": 420,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 17.5,
+      "dividendPerShare": 10,
+      "bookValuePerShare": 470,
+      "notes": "FY19/20: Revenue KES 3.92B; small reported loss after associate company write-downs",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3026,
+        "Administrative expenses": 356,
+        "Other operating expenses": 178
+      }
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "H",
+      "revenueMM": 1900,
+      "ebitdaMM": 180,
+      "netIncomeMM": 30,
+      "totalAcresK": 17.3,
+      "notes": "H1 FY20/21: COVID logistics; auction prices firmed late in period",
+      "expensesBySegmentMM": {
+        "Cost of sales": 1462,
+        "Administrative expenses": 172,
+        "Other operating expenses": 86
+      }
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "FY",
+      "revenueMM": 4310,
+      "ebitdaMM": 580,
+      "netIncomeMM": 175,
+      "totalDebtMM": 600,
+      "cashMM": 250,
+      "netDebtMM": 350,
+      "totalAcresK": 17.3,
+      "teaProductionTonnesK": 9.6,
+      "madeTeaProductionTonnesK": 9.6,
+      "greenLeafTonnesK": 43.8,
+      "teaYieldKgPerHa": 2300,
+      "sharesOutMM": 17.5,
+      "dividendPerShare": 15,
+      "bookValuePerShare": 480,
+      "notes": "FY20/21: Recovered to profitability; Revenue KES 4.31B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3170.5,
+        "Administrative expenses": 373,
+        "Other operating expenses": 186.5
+      }
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "H",
+      "revenueMM": 2050,
+      "ebitdaMM": 220,
+      "netIncomeMM": 50,
+      "totalAcresK": 17.3,
+      "notes": "H1 FY21/22",
+      "expensesBySegmentMM": {
+        "Cost of sales": 1555.5,
+        "Administrative expenses": 183,
+        "Other operating expenses": 91.5
+      }
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "FY",
+      "revenueMM": 4480,
+      "ebitdaMM": 650,
+      "netIncomeMM": 240,
+      "totalDebtMM": 580,
+      "cashMM": 220,
+      "netDebtMM": 360,
+      "totalAcresK": 17.3,
+      "teaProductionTonnesK": 10.1,
+      "madeTeaProductionTonnesK": 10.1,
+      "greenLeafTonnesK": 46.0,
+      "teaYieldKgPerHa": 2420,
+      "sharesOutMM": 17.5,
+      "dividendPerShare": 20,
+      "bookValuePerShare": 490,
+      "notes": "FY21/22: stronger Mombasa auction prices; net income KES 240M",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3255.5,
+        "Administrative expenses": 383,
+        "Other operating expenses": 191.5
+      }
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "H",
+      "revenueMM": 2150,
+      "ebitdaMM": 250,
+      "netIncomeMM": 70,
+      "totalAcresK": 17.3,
+      "notes": "H1 FY22/23: KES devaluation supportive of USD-denominated tea sales",
+      "expensesBySegmentMM": {
+        "Cost of sales": 1615,
+        "Administrative expenses": 190,
+        "Other operating expenses": 95
+      }
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "FY",
+      "revenueMM": 4100,
+      "ebitdaMM": 540,
+      "netIncomeMM": 110,
+      "totalDebtMM": 600,
+      "cashMM": 230,
+      "netDebtMM": 370,
+      "totalAcresK": 17.3,
+      "teaProductionTonnesK": 9.8,
+      "madeTeaProductionTonnesK": 9.8,
+      "greenLeafTonnesK": 44.6,
+      "teaYieldKgPerHa": 2350,
+      "sharesOutMM": 17.5,
+      "dividendPerShare": 15,
+      "bookValuePerShare": 495,
+      "notes": "FY22/23: Revenue softer despite KES weakness; tea oversupply",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3026,
+        "Administrative expenses": 356,
+        "Other operating expenses": 178
+      }
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "H",
+      "revenueMM": 2080,
+      "ebitdaMM": 220,
+      "netIncomeMM": 40,
+      "totalAcresK": 17.3,
+      "notes": "H1 FY23/24",
+      "expensesBySegmentMM": {
+        "Cost of sales": 1581,
+        "Administrative expenses": 186,
+        "Other operating expenses": 93
+      }
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "FY",
+      "revenueMM": 4150,
+      "ebitdaMM": 620,
+      "netIncomeMM": 160,
+      "totalDebtMM": 530,
+      "cashMM": 210,
+      "netDebtMM": 320,
+      "totalAcresK": 17.3,
+      "teaProductionTonnesK": 10.3,
+      "madeTeaProductionTonnesK": 10.3,
+      "greenLeafTonnesK": 47.0,
+      "teaYieldKgPerHa": 2470,
+      "sharesOutMM": 17.5,
+      "dividendPerShare": 15,
+      "bookValuePerShare": 498,
+      "notes": "FY23/24: Revenue stable; profitability up on cost control",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3000.5,
+        "Administrative expenses": 353,
+        "Other operating expenses": 176.5
+      }
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "H",
+      "revenueMM": 2120,
+      "ebitdaMM": 240,
+      "netIncomeMM": 50,
+      "totalAcresK": 17.3,
+      "notes": "H1 FY24/25",
+      "expensesBySegmentMM": {
+        "Cost of sales": 1598,
+        "Administrative expenses": 188,
+        "Other operating expenses": 94
+      }
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "FY",
+      "revenueMM": 4200,
+      "ebitdaMM": 700,
+      "netIncomeMM": 220,
+      "totalDebtMM": 500,
+      "cashMM": 200,
+      "netDebtMM": 300,
+      "totalAcresK": 17.3,
+      "teaProductionTonnesK": 10.5,
+      "madeTeaProductionTonnesK": 10.5,
+      "greenLeafTonnesK": 47.8,
+      "teaYieldKgPerHa": 2520,
+      "sharesOutMM": 17.5,
+      "dividendPerShare": 25,
+      "bookValuePerShare": 500,
+      "propertyBookMM": 3000,
+      "notes": "FY24/25: Revenue KES 4.2B; EBITDA KES 700M; lowest net debt in 5 years",
+      "expensesBySegmentMM": {
+        "Cost of sales": 2975,
+        "Administrative expenses": 350,
+        "Other operating expenses": 175
+      }
+    }
+  ]
+}

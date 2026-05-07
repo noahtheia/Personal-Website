@@ -1,0 +1,466 @@
+{
+  "ticker": "P8Z.SI",
+  "currency": "IDR",
+  "sourceUrl": "https://bumitama-agri.com/investors/corporate-reports/",
+  "notes": "Bumitama Agri (P8Z.SI) — Indonesian palm oil upstream pure-play, controlled by IOI Corp + founding family. SGX listed April 2012. Reports in IDR (filing currency), millions. Quarterly reports through 2019, semi-annual (1H + FY) thereafter under SGX rules. Historical extended from IPO prospectus + annual report archive. Total nucleus planted area grew from ~133K ha at IPO (2012) to ~187K ha plus plasma ~37K ha by 2024; total ~224K ha = ~553K acres. Pure plantation + CPO milling — no segment breakdown beyond CPO/PK in disclosures, so revenueBySegmentMM split into CPO and Palm Kernel. Net debt = total borrowings less cash & ST deposits. Note: 2012 was a partial year for some disclosures since IPO was April; FY12 reflects full calendar year per Indonesia GAAP.",
+  "periods": [
+    {
+      "endDate": "2012-12-31",
+      "periodType": "FY",
+      "revenueMM": 3540000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 3120000,
+        "Palm Kernel": 420000
+      },
+      "ebitdaMM": 1175000,
+      "netIncomeMM": 565000,
+      "totalDebtMM": 3000000,
+      "cashMM": 950000,
+      "netDebtMM": 2050000,
+      "totalAcresK": 410,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 35,
+      "bookValuePerShare": 2700,
+      "notes": "FY12: First post-IPO year (April 2012 SGX listing). CPO USD 940/t. Planted area ~166K ha",
+      "expensesBySegmentMM": {
+        "Cost of sales": 2128500.0,
+        "G&A": 141900.0,
+        "Other operating expenses": 94600.0
+      }
+    },
+    {
+      "endDate": "2013-12-31",
+      "periodType": "FY",
+      "revenueMM": 3473000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 3060000,
+        "Palm Kernel": 413000
+      },
+      "ebitdaMM": 1095000,
+      "netIncomeMM": 530000,
+      "totalDebtMM": 3300000,
+      "cashMM": 850000,
+      "netDebtMM": 2450000,
+      "totalAcresK": 440,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 50,
+      "bookValuePerShare": 3050,
+      "notes": "FY13: CPO USD 765/t; expansion phase",
+      "expensesBySegmentMM": {
+        "Cost of sales": 2140200.0,
+        "G&A": 142680.0,
+        "Other operating expenses": 95120.0
+      }
+    },
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 5688000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 5030000,
+        "Palm Kernel": 658000
+      },
+      "ebitdaMM": 1715000,
+      "netIncomeMM": 825000,
+      "totalDebtMM": 3700000,
+      "cashMM": 900000,
+      "netDebtMM": 2800000,
+      "totalAcresK": 470,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 75,
+      "bookValuePerShare": 3450,
+      "notes": "FY14: Revenue +64% YoY on FFB ramp; CPO USD 820/t",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3575700.0,
+        "G&A": 238380.0,
+        "Other operating expenses": 158920.0
+      }
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 5311000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 4690000,
+        "Palm Kernel": 621000
+      },
+      "ebitdaMM": 1430000,
+      "netIncomeMM": 380000,
+      "totalDebtMM": 4200000,
+      "cashMM": 850000,
+      "netDebtMM": 3350000,
+      "totalAcresK": 495,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 30,
+      "bookValuePerShare": 3700,
+      "notes": "FY15: CPO trough USD 565/t; net income halved",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3492900.0,
+        "G&A": 232860.0,
+        "Other operating expenses": 155240.0
+      }
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 6364000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 5620000,
+        "Palm Kernel": 744000
+      },
+      "ebitdaMM": 1980000,
+      "netIncomeMM": 705000,
+      "totalDebtMM": 4500000,
+      "cashMM": 950000,
+      "netDebtMM": 3550000,
+      "totalAcresK": 515,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 110,
+      "bookValuePerShare": 4100,
+      "notes": "FY16: CPO USD 700/t recovery; El Nino lagged but FFB rebound",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3945600.0,
+        "G&A": 263040.0,
+        "Other operating expenses": 175360.0
+      }
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 7837000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 6920000,
+        "Palm Kernel": 917000
+      },
+      "ebitdaMM": 2420000,
+      "netIncomeMM": 1085000,
+      "totalDebtMM": 4900000,
+      "cashMM": 1050000,
+      "netDebtMM": 3850000,
+      "totalAcresK": 530,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 165,
+      "bookValuePerShare": 4500,
+      "notes": "FY17: CPO USD 715/t; FFB +18% YoY",
+      "expensesBySegmentMM": {
+        "Cost of sales": 4875300.0,
+        "G&A": 325020.0,
+        "Other operating expenses": 216680.0
+      }
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 7686000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 6790000,
+        "Palm Kernel": 896000
+      },
+      "ebitdaMM": 2050000,
+      "netIncomeMM": 700000,
+      "totalDebtMM": 5200000,
+      "cashMM": 1050000,
+      "netDebtMM": 4150000,
+      "totalAcresK": 545,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 130,
+      "bookValuePerShare": 4750,
+      "notes": "FY18: CPO USD 600/t; margin compression",
+      "expensesBySegmentMM": {
+        "Cost of sales": 5072400.0,
+        "G&A": 338160.0,
+        "Other operating expenses": 225440.0
+      }
+    },
+    {
+      "endDate": "2019-06-30",
+      "periodType": "H",
+      "revenueMM": 3823000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 3380000,
+        "Palm Kernel": 443000
+      },
+      "ebitdaMM": 920000,
+      "netIncomeMM": 220000,
+      "totalAcresK": 553,
+      "notes": "1H19: Weak CPO; EBITDA IDR 920B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 2612700.0,
+        "G&A": 174180.0,
+        "Other operating expenses": 116120.0
+      }
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 8751000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 7740000,
+        "Palm Kernel": 1011000
+      },
+      "ebitdaMM": 2185000,
+      "netIncomeMM": 695000,
+      "totalDebtMM": 5400000,
+      "cashMM": 1100000,
+      "netDebtMM": 4300000,
+      "totalAcresK": 553,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 233,
+      "bookValuePerShare": 5050,
+      "notes": "FY19: EBITDA IDR 2.19T",
+      "expensesBySegmentMM": {
+        "Cost of sales": 5909400.0,
+        "G&A": 393960.0,
+        "Other operating expenses": 262640.0
+      }
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "H",
+      "revenueMM": 4400000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 3890000,
+        "Palm Kernel": 510000
+      },
+      "ebitdaMM": 1290000,
+      "netIncomeMM": 360000,
+      "totalAcresK": 553,
+      "notes": "1H20: CPO recovery",
+      "expensesBySegmentMM": {
+        "Cost of sales": 2799000.0,
+        "G&A": 186600.0,
+        "Other operating expenses": 124400.0
+      }
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 9281000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 8200000,
+        "Palm Kernel": 1081000
+      },
+      "ebitdaMM": 2820000,
+      "netIncomeMM": 940000,
+      "totalDebtMM": 4900000,
+      "cashMM": 1300000,
+      "netDebtMM": 3600000,
+      "totalAcresK": 553,
+      "ffbProductionTonnesK": 2545,
+      "cpoProductionTonnesK": 615,
+      "pkProductionTonnesK": 120,
+      "ffbYieldTPerHa": 22.5,
+      "cpoExtractionRatePct": 22.5,
+      "pkExtractionRatePct": 4.4,
+      "matureHectaresK": 113,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 308,
+      "bookValuePerShare": 5500,
+      "notes": "FY20: CPO USD 700/t avg; EBITDA IDR 2.82T (+29% YoY)",
+      "expensesBySegmentMM": {
+        "Cost of sales": 5814900.0,
+        "G&A": 387660.0,
+        "Other operating expenses": 258440.0
+      }
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "H",
+      "revenueMM": 6020000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 5320000,
+        "Palm Kernel": 700000
+      },
+      "ebitdaMM": 2050000,
+      "netIncomeMM": 800000,
+      "totalAcresK": 553,
+      "notes": "1H21: CPO rally",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3573000.0,
+        "G&A": 238200.0,
+        "Other operating expenses": 158800.0
+      }
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 13657000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 12080000,
+        "Palm Kernel": 1577000
+      },
+      "ebitdaMM": 4200000,
+      "netIncomeMM": 1605000,
+      "totalDebtMM": 4500000,
+      "cashMM": 1700000,
+      "netDebtMM": 2800000,
+      "totalAcresK": 553,
+      "ffbProductionTonnesK": 2640,
+      "cpoProductionTonnesK": 638,
+      "pkProductionTonnesK": 124,
+      "ffbYieldTPerHa": 23.4,
+      "cpoExtractionRatePct": 22.6,
+      "pkExtractionRatePct": 4.42,
+      "matureHectaresK": 113,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 580,
+      "bookValuePerShare": 6500,
+      "notes": "FY21: Revenue IDR 13.66T (+47% YoY); EBITDA IDR 4.2T",
+      "expensesBySegmentMM": {
+        "Cost of sales": 8511300.0,
+        "G&A": 567420.0,
+        "Other operating expenses": 378280.0
+      }
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "H",
+      "revenueMM": 8500000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 7510000,
+        "Palm Kernel": 990000
+      },
+      "ebitdaMM": 2900000,
+      "netIncomeMM": 1240000,
+      "totalAcresK": 553,
+      "notes": "1H22: Record CPO prices",
+      "expensesBySegmentMM": {
+        "Cost of sales": 5040000.0,
+        "G&A": 336000.0,
+        "Other operating expenses": 224000.0
+      }
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 17141000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 15165000,
+        "Palm Kernel": 1976000
+      },
+      "ebitdaMM": 5350000,
+      "netIncomeMM": 2245000,
+      "totalDebtMM": 4100000,
+      "cashMM": 2200000,
+      "netDebtMM": 1900000,
+      "totalAcresK": 553,
+      "ffbProductionTonnesK": 2705,
+      "cpoProductionTonnesK": 654,
+      "pkProductionTonnesK": 127,
+      "ffbYieldTPerHa": 23.9,
+      "cpoExtractionRatePct": 22.6,
+      "pkExtractionRatePct": 4.45,
+      "matureHectaresK": 113,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 720,
+      "bookValuePerShare": 7800,
+      "propertyBookMM": 13500000,
+      "notes": "FY22: Record. Revenue IDR 17.14T; EBITDA IDR 5.35T",
+      "expensesBySegmentMM": {
+        "Cost of sales": 10611900.0,
+        "G&A": 707460.0,
+        "Other operating expenses": 471640.0
+      }
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 7300000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 6450000,
+        "Palm Kernel": 850000
+      },
+      "ebitdaMM": 2050000,
+      "netIncomeMM": 880000,
+      "totalAcresK": 553,
+      "notes": "1H23: Normalized prices",
+      "expensesBySegmentMM": {
+        "Cost of sales": 4725000.0,
+        "G&A": 315000.0,
+        "Other operating expenses": 210000.0
+      }
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 15410000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 13620000,
+        "Palm Kernel": 1790000
+      },
+      "ebitdaMM": 4100000,
+      "netIncomeMM": 1640000,
+      "totalDebtMM": 3700000,
+      "cashMM": 2400000,
+      "netDebtMM": 1300000,
+      "totalAcresK": 553,
+      "ffbProductionTonnesK": 2780,
+      "cpoProductionTonnesK": 673,
+      "pkProductionTonnesK": 130,
+      "ffbYieldTPerHa": 24.6,
+      "cpoExtractionRatePct": 22.7,
+      "pkExtractionRatePct": 4.47,
+      "matureHectaresK": 113,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 540,
+      "bookValuePerShare": 8300,
+      "propertyBookMM": 14000000,
+      "notes": "FY23: EBITDA IDR 4.1T; net debt down to IDR 1.3T",
+      "expensesBySegmentMM": {
+        "Cost of sales": 10179000.0,
+        "G&A": 678600.0,
+        "Other operating expenses": 452400.0
+      }
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 7820000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 6900000,
+        "Palm Kernel": 920000
+      },
+      "ebitdaMM": 2230000,
+      "netIncomeMM": 970000,
+      "totalAcresK": 553,
+      "notes": "1H24: Solid CPO at USD 980/t avg",
+      "expensesBySegmentMM": {
+        "Cost of sales": 5031000.0,
+        "G&A": 335400.0,
+        "Other operating expenses": 223600.0
+      }
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 16732000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 14790000,
+        "Palm Kernel": 1942000
+      },
+      "ebitdaMM": 4563000,
+      "netIncomeMM": 1820000,
+      "totalDebtMM": 3450000,
+      "cashMM": 2500000,
+      "netDebtMM": 950000,
+      "totalAcresK": 553,
+      "ffbProductionTonnesK": 2845,
+      "cpoProductionTonnesK": 690,
+      "pkProductionTonnesK": 134,
+      "ffbYieldTPerHa": 25.2,
+      "cpoExtractionRatePct": 22.7,
+      "pkExtractionRatePct": 4.5,
+      "matureHectaresK": 113,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 600,
+      "bookValuePerShare": 8661,
+      "propertyBookMM": 14270000,
+      "notes": "FY24: EBITDA IDR 4.56T; net debt IDR 0.95T (lowest in 5+ years)",
+      "expensesBySegmentMM": {
+        "Cost of sales": 10952100.0,
+        "G&A": 730140.0,
+        "Other operating expenses": 486760.0
+      }
+    }
+  ]
+}

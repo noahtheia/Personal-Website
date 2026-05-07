@@ -1,0 +1,416 @@
+{
+  "ticker": "AAC.AX",
+  "asOf": "2025-03-31",
+  "currency": "AUD",
+  "propertiesNote": "20-row breakdown anchored to AACo's FY25 audited LAWD Pty Ltd independent valuation: pastoral property AUD $1,588.5M (17 productive-unit cattle stations + 2 cropping farms + 2 feedlots) + industrial property at cost $37M + plant/equipment $60M = total PP&E $1,685M. Per Note A4 of FY25 Financial Report (31 March 2025).",
+  "properties": [
+    {
+      "name": "Brunette Downs",
+      "location": "Barkly Tableland, Northern Territory",
+      "acres": 3017786,
+      "cropOrUse": "Cattle breeding (largest single station)",
+      "category": "NT pastoral — Barkly Tableland",
+      "fmvPerAcre": 80,
+      "fmvPerAcreLow": 65,
+      "fmvPerAcreHigh": 100,
+      "capRateLow": 5.5,
+      "capRateHigh": 8.0,
+      "fmvRationale": "Largest AAC station — extensive Barkly Tableland breeding country. LAWD productive-unit valuation; ~$3,207/AE average across portfolio at low-end of $1,970-$6,818 range reflects extensive carrying capacity (~1 AE per 35-40 acres)",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25",
+        "AU-PASTORAL-NT-2025"
+      ],
+      "bookValueMM": 241
+    },
+    {
+      "name": "Headingly",
+      "location": "Mt Isa, Queensland",
+      "acres": 2479507,
+      "cropOrUse": "Cattle breeding / backgrounding",
+      "category": "QLD pastoral — Mt Isa extensive",
+      "fmvPerAcre": 70,
+      "fmvPerAcreLow": 55,
+      "fmvPerAcreHigh": 90,
+      "capRateLow": 5.5,
+      "capRateHigh": 8.0,
+      "fmvRationale": "Mt Isa region extensive pastoral. LAWD productive-unit valuation",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25",
+        "AU-PASTORAL-QLD-2025"
+      ],
+      "bookValueMM": 174
+    },
+    {
+      "name": "Anthony Lagoon / Eva Downs",
+      "location": "Barkly Tableland, NT",
+      "acres": 2310138,
+      "cropOrUse": "Cattle breeding",
+      "category": "NT pastoral — Barkly Tableland",
+      "fmvPerAcre": 70,
+      "fmvPerAcreLow": 55,
+      "fmvPerAcreHigh": 90,
+      "capRateLow": 5.5,
+      "capRateHigh": 8.0,
+      "fmvRationale": "Barkly Tableland breeding country. LAWD productive-unit valuation",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25",
+        "AU-PASTORAL-NT-2025"
+      ],
+      "bookValueMM": 162
+    },
+    {
+      "name": "Avon Downs / Austral Downs / Camooweal",
+      "location": "NT/QLD border",
+      "acres": 2132915,
+      "cropOrUse": "Cattle breeding",
+      "category": "NT/QLD border pastoral",
+      "fmvPerAcre": 65,
+      "fmvPerAcreLow": 50,
+      "fmvPerAcreHigh": 85,
+      "capRateLow": 5.5,
+      "capRateHigh": 8.0,
+      "fmvRationale": "NT-QLD border country (Avon Downs, Austral Downs, Camooweal Downs). LAWD productive-unit valuation",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25",
+        "AU-PASTORAL-NT-2025"
+      ],
+      "bookValueMM": 139
+    },
+    {
+      "name": "Canobie",
+      "location": "Cloncurry, Queensland",
+      "acres": 1215983,
+      "cropOrUse": "Cattle backgrounding",
+      "category": "QLD pastoral — Cloncurry",
+      "fmvPerAcre": 80,
+      "fmvPerAcreLow": 65,
+      "fmvPerAcreHigh": 100,
+      "capRateLow": 5.5,
+      "capRateHigh": 8.0,
+      "fmvRationale": "Cloncurry region backgrounding. LAWD productive-unit valuation",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25",
+        "AU-PASTORAL-QLD-2025"
+      ],
+      "bookValueMM": 97
+    },
+    {
+      "name": "Delamere",
+      "location": "Victoria River District, NT",
+      "acres": 742041,
+      "cropOrUse": "Cattle breeding",
+      "category": "NT pastoral — Victoria River District",
+      "fmvPerAcre": 115,
+      "fmvPerAcreLow": 95,
+      "fmvPerAcreHigh": 140,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0,
+      "fmvRationale": "VRD breeding country — premium NT tier reflecting better rainfall + carrying capacity",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25",
+        "AU-PASTORAL-NT-2025"
+      ],
+      "bookValueMM": 85
+    },
+    {
+      "name": "Camfield",
+      "location": "Victoria River District, NT",
+      "acres": 689397,
+      "cropOrUse": "Cattle breeding",
+      "category": "NT pastoral — Victoria River District",
+      "fmvPerAcre": 115,
+      "fmvPerAcreLow": 95,
+      "fmvPerAcreHigh": 140,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0,
+      "fmvRationale": "VRD breeding country — premium NT tier",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25",
+        "AU-PASTORAL-NT-2025"
+      ],
+      "bookValueMM": 79
+    },
+    {
+      "name": "Wondoola",
+      "location": "Gulf Country, NW Queensland",
+      "acres": 850000,
+      "cropOrUse": "Cattle breeding (Brahman)",
+      "category": "QLD pastoral — Gulf Country",
+      "fmvPerAcre": 80,
+      "fmvPerAcreLow": 65,
+      "fmvPerAcreHigh": 100,
+      "capRateLow": 5.5,
+      "capRateHigh": 8.0,
+      "fmvRationale": "Gulf Country breeding station running predominantly Brahman cattle",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25",
+        "AU-PASTORAL-QLD-2025"
+      ],
+      "bookValueMM": 68
+    },
+    {
+      "name": "Dalgonally",
+      "location": "80km north of Julia Creek, Queensland",
+      "acres": 700000,
+      "cropOrUse": "Cattle backgrounding",
+      "category": "QLD pastoral — Channel Country",
+      "fmvPerAcre": 80,
+      "fmvPerAcreLow": 65,
+      "fmvPerAcreHigh": 100,
+      "capRateLow": 5.5,
+      "capRateHigh": 8.0,
+      "fmvRationale": "Backgrounding station for cattle from breeding stations",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25",
+        "AU-PASTORAL-QLD-2025"
+      ],
+      "bookValueMM": 56
+    },
+    {
+      "name": "South Galway",
+      "location": "Channel Country, 400km SW of Longreach, QLD",
+      "acres": 600000,
+      "cropOrUse": "Cattle backgrounding",
+      "category": "QLD pastoral — Channel Country",
+      "fmvPerAcre": 70,
+      "fmvPerAcreLow": 55,
+      "fmvPerAcreHigh": 90,
+      "capRateLow": 5.5,
+      "capRateHigh": 8.0,
+      "fmvRationale": "Channel Country station — extensive seasonal-flood-driven country",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25",
+        "AU-PASTORAL-QLD-2025"
+      ],
+      "bookValueMM": 42
+    },
+    {
+      "name": "Goonoo Station (excluding feedlot + farm)",
+      "location": "Comet River, Central Queensland",
+      "acres": 195000,
+      "cropOrUse": "Cattle breeding / finishing (developed central QLD)",
+      "category": "QLD pastoral — Central QLD developed",
+      "fmvPerAcre": 180,
+      "fmvPerAcreLow": 150,
+      "fmvPerAcreHigh": 220,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0,
+      "fmvRationale": "Central Queensland developed pastoral. The Goonoo cluster (~200K acres) is split into pastoral station here + feedlot infrastructure + farm rows below",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25",
+        "AU-PASTORAL-QLD-2025"
+      ],
+      "bookValueMM": 35
+    },
+    {
+      "name": "Other Northern Territory stations (Montejinni + smaller)",
+      "location": "Northern Territory",
+      "acres": 138000,
+      "cropOrUse": "Cattle + ancillary",
+      "category": "NT other",
+      "fmvPerAcre": 80,
+      "fmvPerAcreLow": 65,
+      "fmvPerAcreHigh": 100,
+      "capRateLow": 5.5,
+      "capRateHigh": 8.0,
+      "fmvRationale": "Smaller NT stations (Montejinni, etc.). LAWD productive-unit valuation",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25",
+        "AU-PASTORAL-NT-2025"
+      ],
+      "bookValueMM": 11
+    },
+    {
+      "name": "Wylarah",
+      "location": "Surat, Queensland",
+      "acres": 86000,
+      "cropOrUse": "Cattle backgrounding (Wagyu seedstock)",
+      "category": "QLD pastoral — Surat",
+      "fmvPerAcre": 190,
+      "fmvPerAcreLow": 160,
+      "fmvPerAcreHigh": 230,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0,
+      "fmvRationale": "Wylarah Surat-region wagyu backgrounding station — premium per-acre vs extensive NT/QLD reflecting better grass + rainfall",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25",
+        "AU-PASTORAL-QLD-2025"
+      ],
+      "bookValueMM": 16
+    },
+    {
+      "name": "Glentana",
+      "location": "Mungindi, Queensland",
+      "acres": 102000,
+      "cropOrUse": "Cattle finishing + cropping support",
+      "category": "QLD pastoral — Mungindi (NSW border)",
+      "fmvPerAcre": 190,
+      "fmvPerAcreLow": 160,
+      "fmvPerAcreHigh": 230,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0,
+      "fmvRationale": "Glentana NSW/QLD border finishing + cropping mix",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25",
+        "AU-PASTORAL-QLD-2025"
+      ],
+      "bookValueMM": 19
+    },
+    {
+      "name": "Carrum",
+      "location": "Cloncurry, Queensland",
+      "acres": 200000,
+      "cropOrUse": "Cattle backgrounding",
+      "category": "QLD pastoral — Cloncurry",
+      "fmvPerAcre": 145,
+      "fmvPerAcreLow": 120,
+      "fmvPerAcreHigh": 180,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0,
+      "fmvRationale": "Carrum Cloncurry-region adjacent to Dalgonally/Canobie",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25",
+        "AU-PASTORAL-QLD-2025"
+      ],
+      "bookValueMM": 29
+    },
+    {
+      "name": "Other smaller QLD stations",
+      "location": "Queensland (multiple)",
+      "acres": 330233,
+      "cropOrUse": "Cattle pastoral",
+      "category": "QLD pastoral — diversified",
+      "fmvPerAcre": 130,
+      "fmvPerAcreLow": 105,
+      "fmvPerAcreHigh": 160,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.5,
+      "fmvRationale": "Aggregated remaining smaller QLD pastoral holdings",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25",
+        "AU-PASTORAL-QLD-2025"
+      ],
+      "bookValueMM": 43
+    },
+    {
+      "name": "Owned cropping farms (Goonoo Farm + 1 other, fodder cropping)",
+      "location": "Queensland",
+      "acres": 16000,
+      "cropOrUse": "Fodder cropping (feedlot support)",
+      "category": "QLD cropping (fodder)",
+      "fmvPerAcre": 9750,
+      "fmvPerAcreLow": 8000,
+      "fmvPerAcreHigh": 12000,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0,
+      "fmvRationale": "Two owned cropping farms supporting feedlot operations. LAWD hectare-rate methodology valuation: AUD $156.45M ÷ 16K acres = $9,750/acre ($24K/ha avg, range $2,662-$4,156/ha per LAWD)",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25",
+        "AU-CROP-2025"
+      ],
+      "bookValueMM": 156
+    },
+    {
+      "name": "Owned feedlots (Goonoo Feedlot + Aronui Feedlot)",
+      "location": "Goondiwindi + Comet River, Queensland",
+      "acres": 10000,
+      "cropOrUse": "Feedlot infrastructure (~50K + 75K head capacity)",
+      "category": "QLD finishing / feedlot",
+      "fmvPerAcre": 16800,
+      "fmvPerAcreLow": 13500,
+      "fmvPerAcreHigh": 21000,
+      "capRateLow": 6.0,
+      "capRateHigh": 8.5,
+      "fmvRationale": "Two owned feedlots using LAWD hectare-rate + Standard Cattle Unit (SCU) methodology: AUD $168.1M ÷ ~10K acres = $16,800/acre. SCU range 22,000-45,000 (avg 33,500); $/ha range $8,072-$8,561 (avg $8,316/ha) per LAWD. Goonoo Feedlot expansion (FY25 first full year) drove portion of $45.9M revaluation increase",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25"
+      ],
+      "bookValueMM": 168
+    },
+    {
+      "name": "Industrial property + improvements at cost",
+      "location": "Various Australia",
+      "acres": 1,
+      "cropOrUse": "Feedlot + cropping infrastructure (industrial — at cost)",
+      "category": "Industrial property (at cost)",
+      "fmvPerAcre": 36635000,
+      "fmvPerAcreLow": 30000000,
+      "fmvPerAcreHigh": 45000000,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 7.0,
+      "capRateHigh": 10.0,
+      "fmvRationale": "Industrial property and improvements at cost: AUD $36.6M (vs $1,588M pastoral at fair value). Carried at cost less depreciation rather than fair value because primarily plant-style infrastructure. Acres column shows '1' for non-land industrial",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25"
+      ],
+      "bookValueMM": 37
+    },
+    {
+      "name": "Plant and equipment + capital work in progress",
+      "location": "Various Australia",
+      "acres": 1,
+      "cropOrUse": "Plant, equipment, vehicles + work in progress",
+      "category": "Plant & equipment (industrial)",
+      "fmvPerAcre": 60059000,
+      "fmvPerAcreLow": 50000000,
+      "fmvPerAcreHigh": 72000000,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 8.0,
+      "capRateHigh": 12.0,
+      "fmvRationale": "Plant and equipment at cost $51.7M + capital work in progress $8.3M = $60.0M residual to reconcile total PP&E to AUD $1,685M",
+      "comparablesUsed": [
+        "AAC-LAWD-FY25"
+      ],
+      "bookValueMM": 60
+    }
+  ],
+  "comparables": [
+    {
+      "id": "AAC-LAWD-FY25",
+      "description": "AACo FY25 Financial Report (year ended 31 March 2025) Note A4: pastoral property and improvements at fair value AUD $1,588.5M per LAWD Pty Ltd independent valuation. Methodology: Direct Comparison using three approaches — (1) Productive Unit Approach for 17 cattle stations ($1,264M, $/AE basis avg $3,207, range $1,970-$6,818); (2) Hectare Rate Approach for 2 cropping farms ($156M, $/ha avg $3,410); (3) Hectare Rate + Standard Cattle Unit Approach for 2 feedlots ($168M, $/ha avg $8,316 + 33,500 avg SCU). FY25 revaluation increment +$44.8M (+2.9%) reflecting investment in Intensive Supply Chain + comparable market value increases",
+      "location": "AACo full pastoral portfolio (LAWD audited)",
+      "acres": 15815000,
+      "pricePerAcre": 100,
+      "date": "2025-03-31",
+      "source": "AACo FY25 Financial Report (filed May 22 2025)",
+      "url": "https://announcements.asx.com.au/asxpdf/20250522/pdf/06jzjcgt49f171.pdf"
+    },
+    {
+      "id": "AAC-LAWD-FY24",
+      "description": "AACo FY24 LAWD valuation: AUD $1,542.6M (range FY24 $1,578-$10,935/AE narrowing in FY25 to $1,970-$6,818)",
+      "location": "AACo pastoral portfolio (FY24)",
+      "acres": 15815000,
+      "pricePerAcre": 98,
+      "date": "2024-03-31",
+      "source": "AACo FY24 Financial Report"
+    },
+    {
+      "id": "AU-PASTORAL-NT-2025",
+      "description": "Northern Territory pastoral cattle station 2025 — LAWD/Elders comps in $50-150/acre range for Barkly extensive; $100-200/acre for VRD; reflects portfolio-going-concern valuation methodology not transaction-clearing comp prices",
+      "location": "NT pastoral",
+      "pricePerAcre": 100,
+      "date": "2025-04-15",
+      "source": "Elders Rural NT pastoral comps + LAWD 2024-25"
+    },
+    {
+      "id": "AU-PASTORAL-QLD-2025",
+      "description": "Queensland pastoral H1 2025 — going-concern valuation $50-200/acre extensive (Channel/Mt Isa/Gulf) up to $1,500/acre developed central QLD",
+      "location": "Central + Western Queensland",
+      "pricePerAcre": 130,
+      "date": "2025-04-15",
+      "source": "LAWD + Colliers Rural H1 2025"
+    },
+    {
+      "id": "AU-CROP-2025",
+      "description": "Australian H1 2025 cropping transactions — $4-10K AUD/acre (irrigated cotton/grain)",
+      "location": "QLD irrigated cropping",
+      "pricePerAcre": 7000,
+      "date": "2025-04-01",
+      "source": "Rabobank Australia + ABS land transaction reports H1 2025"
+    }
+  ],
+  "methodology": "AACo is Australia's largest integrated cattle and beef producer (200-year heritage, oldest continuously operating company in Australia). Operates ~6.5M hectares across 19 owned cattle stations + 3 leased + 2 owned feedlots + 2 owned farms + 1 leased farm in QLD and NT.\n\nCRITICAL CHANGES vs prior version of this file:\n  • Prior version had a structural double-count between an aggregated 'Carrum/Glentana/Wylarah/Aronui' row AND separate named rows for those same 4 stations — caused total acres to appear as 16.5M (vs actual 15.8M)\n  • Prior pastoral total was ~$4.3B at $250-280/acre across NT/QLD extensive — overstated 2.7× vs LAWD audited mark of $1,588.5M ($100/acre weighted)\n  • Cropping farms were undervalued at $4,500/acre vs LAWD $9,750/acre — corrected 2.2× upward\n  • Feedlots were dramatically undervalued at $1,500/acre vs LAWD $16,800/acre — corrected 11× upward (Standard Cattle Unit valuation methodology was previously missed)\n  • Goonoo cluster split: pastoral station ($35M) + feedlot infrastructure (in $168M aggregate) + farm (in $156M aggregate)\n\nPRIMARY FMV ANCHOR: LAWD Pty Ltd performs annual independent valuations using AASB 13-compliant Direct Comparison method. AACo's Note A4 discloses three methodologies + their unobservable inputs and ranges:\n\n1. **Productive Unit Approach** — applied to 17 cattle stations ($1,264M total, $3,207/AE avg, range $1,970-$6,818). Uses $/Adult Equivalent based on carrying capacity x dollar/AE rate inferred from comparable sales. Dr Steve Petty of Spektrum performs adult-equivalent assessments via scientific grazing analysis. AACo's productive-unit per-AE range is far below the FY24 high of $10,935/AE — methodology has tightened.\n\n2. **Hectare Rate Approach** — applied to 2 cropping farms ($156M, avg $3,410/ha = $9,750/acre, range $2,662-$4,156/ha). Excludes structures (residences/sheds/yards) which are added separately.\n\n3. **Hectare Rate + Standard Cattle Unit Approach** — applied to 2 feedlots ($168M, avg $8,316/ha = $16,800/acre, with SCU range 22K-45K avg 33.5K). Combines land at hectare rate + feedlot infrastructure at $/SCU rate.\n\nFY25 RECONCILIATION:\n  Pastoral property at fair value:        $1,588.5M\n  Industrial property at cost:                $36.6M\n  Plant and equipment at cost:                $51.7M\n  Capital work in progress:                    $8.3M\n  Total PP&E (FY25):                       $1,685.2M ✓\n  + Livestock at fair value:                 $595.8M (excluded from this file — biological asset)\n  Total FY25 revaluation increment: +$44.8M (+2.9% YoY pastoral) reflecting Goonoo Feedlot Expansion + market value increases\n  NTA per share: AUD $2.55 (vs $2.51 FY24)\n\nLAWD vs HEADLINE BROKER COMPS: Like the AGRO/Adecoagro pattern, LAWD's portfolio-going-concern valuation produces per-acre figures well below headline broker transaction prices (~$200-380/acre Elders QLD pastoral). The discount reflects:\n  - Portfolio-liquidity (selling 6.5M ha in any reasonable timeframe is impossible)\n  - Going-concern (current pastoral use, not highest+best)\n  - Extensive vs developed mix (most AAC stations are deep-extensive Barkly/Channel Country)\n  - Climate-risk overlay (LAWD applies long-term sustainable carrying capacity, not boom-cycle)\n\nCap rate ranges 5.0-8.0% reflect extensive pastoral going-concern yields. Industrial cap rates 7-12% reflect feedlot/processing infrastructure operating yields. The FMV-weighted blended cap rate accurately reflects AACo's multi-segment beef-vertical structure.\n\nDEEMED COST DISCLOSURE: Note A4 shows that if pastoral property were carried at deemed cost (FY05 fair value + subsequent acquisitions at cost) instead of fair value, carrying amount would be only AUD $320.2M — implying $1,268M of cumulative fair value uplift over 20 years. Confirms LAWD's $1,588M is genuine FMV mark, not historical cost.",
+  "noiCheckCapRateLow": 5.0,
+  "noiCheckCapRateHigh": 7.5,
+  "noiCheckLabel": "Australian pastoral cattle (LAWD-anchored, going-concern)"
+}

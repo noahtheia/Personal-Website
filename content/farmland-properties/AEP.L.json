@@ -1,0 +1,133 @@
+{
+  "ticker": "AEP.L",
+  "asOf": "2024-12-31",
+  "currency": "USD",
+  "propertiesNote": "4-row breakdown separating planted vs concession-stage within Indonesia + Malaysia. Addresses prior methodology caveat about per-acre denominators.",
+  "properties": [
+    {
+      "name": "Indonesia Sumatra mature plantation (planted)",
+      "location": "Sumatra (multiple provinces), Indonesia",
+      "acres": 110000,
+      "cropOrUse": "Mature oil palm + mills",
+      "category": "Indonesian palm \u2014 Sumatra mature",
+      "fmvPerAcre": 5500,
+      "fmvRationale": "Mature Sumatra plantation cluster with mill access",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024",
+        "ID-PALM-NSUMATRA-2024"
+      ],
+      "bookValueMM": 130,
+      "fmvPerAcreLow": 4125.0,
+      "fmvPerAcreHigh": 6875.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
+    },
+    {
+      "name": "Indonesia Sumatra unplanted concession",
+      "location": "Sumatra, Indonesia",
+      "acres": 87700,
+      "cropOrUse": "Unplanted concession + immature",
+      "category": "Indonesian palm \u2014 Sumatra concession",
+      "fmvPerAcre": 1500,
+      "fmvRationale": "Unplanted concession area at deep discount; AEP's concession allocation exceeds planted area materially",
+      "comparablesUsed": [
+        "ID-PALM-IMMATURE-2024"
+      ],
+      "bookValueMM": 50,
+      "fmvPerAcreLow": 1125.0,
+      "fmvPerAcreHigh": 1875.0,
+      "capRateLow": 10.0,
+      "capRateHigh": 14.0
+    },
+    {
+      "name": "Malaysia Sabah mature plantation",
+      "location": "Sabah, Malaysia",
+      "acres": 60000,
+      "cropOrUse": "Mature oil palm + mill",
+      "category": "Malaysian palm \u2014 Sabah mature",
+      "fmvPerAcre": 5000,
+      "fmvRationale": "Mature Sabah cluster",
+      "comparablesUsed": [
+        "MY-PALM-SABAH-2024"
+      ],
+      "bookValueMM": 65,
+      "fmvPerAcreLow": 3750.0,
+      "fmvPerAcreHigh": 6250.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
+    },
+    {
+      "name": "Malaysia Sabah unplanted concession",
+      "location": "Sabah, Malaysia",
+      "acres": 38800,
+      "cropOrUse": "Unplanted concession",
+      "category": "Malaysian palm \u2014 Sabah concession",
+      "fmvPerAcre": 1200,
+      "fmvRationale": "Sabah concession area at discount",
+      "comparablesUsed": [
+        "MY-PALM-SABAH-2024"
+      ],
+      "bookValueMM": 26,
+      "fmvPerAcreLow": 900.0,
+      "fmvPerAcreHigh": 1500.0,
+      "capRateLow": 10.0,
+      "capRateHigh": 14.0
+    },
+    {
+      "name": "Indonesia plasma plantations (cooperative smallholder partnerships)",
+      "location": "Sumatra, Indonesia",
+      "acres": 13290,
+      "cropOrUse": "Plasma estate partnerships (5,379 ha NOT owned by AEP)",
+      "category": "Plasma plantations (partnership receivable)",
+      "fmvPerAcre": 1000,
+      "fmvPerAcreLow": 800,
+      "fmvPerAcreHigh": 1200,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0,
+      "fmvRationale": "5,379 ha plasma estates managed by AEP via 7 cooperative companies. Small plasma footprint vs total operations (~3% of 187K ha managed). NOT on balance sheet as land asset",
+      "comparablesUsed": [
+        "ID-PALM-IMMATURE-2024"
+      ],
+      "bookValueMM": 13
+    }
+  ],
+  "comparables": [
+    {
+      "id": "ID-PALM-NSUMATRA-2024",
+      "description": "North Sumatra mature palm",
+      "location": "North Sumatra",
+      "pricePerAcre": 5800,
+      "date": "2024-10-15",
+      "source": "Indonesian palm broker comps 2024"
+    },
+    {
+      "id": "ID-PALM-MATURE-2024",
+      "description": "Indonesian mature oil palm with mill access",
+      "location": "Indonesia",
+      "pricePerAcre": 5000,
+      "date": "2024-09-15",
+      "source": "GAPKI 2024 reports"
+    },
+    {
+      "id": "ID-PALM-IMMATURE-2024",
+      "description": "Indonesian unplanted/immature palm",
+      "location": "Indonesia (concession-stage)",
+      "pricePerAcre": 2500,
+      "date": "2024-10-15",
+      "source": "GAPKI 2024 reports"
+    },
+    {
+      "id": "MY-PALM-SABAH-2024",
+      "description": "Malaysian Sabah palm plantation",
+      "location": "Sabah, Malaysia",
+      "pricePerAcre": 4800,
+      "date": "2024-09-15",
+      "source": "MPOB Sabah 2024"
+    }
+  ],
+  "methodology": "Anglo-Eastern Plantations refined from 2-row to 4-row breakdown to separate planted vs concession-stage area within each country \u2014 addressing a key methodology caveat from the prior version.\n\nIndonesia Sumatra:\n- Mature planted (110K acres / ~45K ha): premium $5,500/acre\n- Unplanted concession (87.7K acres / ~36K ha): deep discount $1,500/acre\n\nMalaysia Sabah:\n- Mature planted (60K acres / ~24K ha): $5,000/acre\n- Unplanted concession (38.8K acres / ~16K ha): $1,200/acre\n\nThis is the critical caveat for AEP. The total 296K-acre denominator includes ~50% unplanted concession area; mature-only valuation of the planted base would imply $5K/acre vs the 1.0K/acre weighted-average across the full concession.\n\nAEP's net cash position of $182M (essentially zero debt) creates substantial equity-side optionality not reflected in the per-acre table.",
+  "noiCheckCapRateLow": 7.0,
+  "noiCheckCapRateHigh": 11.0,
+  "noiCheckLabel": "Indonesian/Malaysian palm (net-cash structure)"
+}

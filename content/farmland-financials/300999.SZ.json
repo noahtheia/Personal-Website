@@ -1,0 +1,69 @@
+{
+  "ticker": "300999.SZ",
+  "currency": "CNY",
+  "sourceUrl": "https://www.yihaikerry.net/en/investor-relations.html",
+  "notes": "Yihai Kerry Arawana Holdings (SZSE: 300999) — Wilmar International's China subsidiary, IPO'd on ChiNext in October 2020. China's largest cooking-oil/kitchen-foods company (Arawana brand) plus rice, flour, and feed-ingredient distribution. Reports CNY-millions PRC GAAP. Lists in CNY on Shenzhen ChiNext. FY ends Dec 31. Earnings highly sensitive to soybean/palm oil crush spreads — margins compressed FY22-FY24 on soft consumer demand and weaker oilseed-processing economics. Total debt figures pulled from balance sheet (short + long term interest-bearing). EBITDA reflects PRC reporting (operating profit + D&A); margin extremely thin given trader/processor business model.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 194919,
+      "ebitdaMM": 9500,
+      "netIncomeMM": 6001,
+      "sharesOutMM": 5422,
+      "notes": "FY20: First year as listed entity (IPO Oct 2020). Revenue RMB194.9bn, total profit >RMB6bn. Cooking oil + kitchen foods drove growth; pre-soybean-cost-spike year so margins remained healthy. Balance sheet detail not separately retrieved for this period."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 226225,
+      "ebitdaMM": 10106,
+      "netIncomeMM": 4132,
+      "totalDebtMM": 93658,
+      "cashMM": 43835,
+      "netDebtMM": 49823,
+      "sharesOutMM": 5422,
+      "dividendPerShare": 0.111,
+      "notes": "FY21: Revenue RMB226.2bn (+16% YoY) on volume + price pass-through. EBITDA RMB10.1bn (margin 4.5%); NI RMB4.1bn (-31%) as soybean crush spreads compressed. Heavy working-capital build (commodity inventories) drove total debt to RMB93.7bn."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 257485,
+      "ebitdaMM": 7532,
+      "netIncomeMM": 3011,
+      "totalDebtMM": 110086,
+      "cashMM": 39462,
+      "netDebtMM": 70624,
+      "sharesOutMM": 5422,
+      "dividendPerShare": 0.077,
+      "notes": "FY22: Revenue RMB257.5bn (+14%) on Russia/Ukraine driven oilseed price spike pass-through. EBITDA RMB7.5bn (margin 2.9%) — crush spreads turned negative for parts of year. NI RMB3.0bn (-27%). Net debt RMB70.6bn (+42% YoY) on commodity inventory."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 251524,
+      "ebitdaMM": 4939,
+      "netIncomeMM": 2848,
+      "totalDebtMM": 115915,
+      "cashMM": 59296,
+      "netDebtMM": 56619,
+      "sharesOutMM": 5422,
+      "dividendPerShare": 0.111,
+      "notes": "FY23: Revenue RMB251.5bn (-2%) on softer ASP. EBITDA RMB4.9bn (margin 2.0%) — trough margin year as China consumer demand weakened. NI RMB2.85bn (-5%). Cash build to RMB59.3bn, net debt RMB56.6bn."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 238279,
+      "ebitdaMM": 5297,
+      "netIncomeMM": 2502,
+      "totalDebtMM": 94573,
+      "cashMM": 52906,
+      "netDebtMM": 41667,
+      "sharesOutMM": 5422,
+      "dividendPerShare": 0.111,
+      "notes": "FY24: Revenue RMB238.3bn (-5%) on lower oilseed pricing. EBITDA RMB5.3bn (margin 2.2%); slight margin recovery. NI RMB2.5bn (-12%). Net debt RMB41.7bn (-26%) as inventory unwound. Wilmar parent retains ~89.99% stake."
+    }
+  ]
+}

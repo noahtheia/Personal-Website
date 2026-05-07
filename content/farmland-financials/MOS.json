@@ -1,0 +1,123 @@
+{
+  "ticker": "MOS",
+  "currency": "USD",
+  "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001285785&type=10-K",
+  "notes": "The Mosaic Company \u2014 phosphate + potash fertilizer producer (US, Canada, Brazil). EBITDA = OperatingIncomeLoss + DD&A. FY2022 peak on post-pandemic / Russia nitrogen disruption pricing. Material write-downs in FY2024 reduced reported EPS. Long-term debt concept = LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 8681.7,
+      "ebitdaMM": 1260.5,
+      "expensesBySegmentMM": {
+        "Cost of sales": 7616.8,
+        "SG&A": 371.5,
+        "D&A": 847.6
+      },
+      "netIncomeMM": 666.1,
+      "totalDebtMM": 4578.0,
+      "cashMM": 574.0,
+      "netDebtMM": 4004.0,
+      "sharesOutMM": 379.09,
+      "bookValuePerShare": 25.27,
+      "navPerShare": 25.27,
+      "epsDiluted": 1.75
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 12357.4,
+      "ebitdaMM": 3281.4,
+      "expensesBySegmentMM": {
+        "Cost of sales": 9157.1,
+        "SG&A": 430.5,
+        "D&A": 812.9
+      },
+      "netIncomeMM": 1630.6,
+      "totalDebtMM": 4281.6,
+      "cashMM": 769.5,
+      "netDebtMM": 3512.1,
+      "sharesOutMM": 379.09,
+      "bookValuePerShare": 27.97,
+      "navPerShare": 27.97,
+      "dividendPerShare": 0.45,
+      "epsDiluted": 4.27
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 19125.2,
+      "ebitdaMM": 5719.2,
+      "expensesBySegmentMM": {
+        "Cost of sales": 13369.4,
+        "SG&A": 498.0,
+        "D&A": 933.9
+      },
+      "netIncomeMM": 3582.8,
+      "totalDebtMM": 3622.1,
+      "cashMM": 735.4,
+      "netDebtMM": 2886.7,
+      "sharesOutMM": 339.07,
+      "bookValuePerShare": 35.55,
+      "navPerShare": 35.55,
+      "epsDiluted": 10.06
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 13696.1,
+      "ebitdaMM": 2298.7,
+      "expensesBySegmentMM": {
+        "Cost of sales": 11485.5,
+        "SG&A": 500.5,
+        "D&A": 960.6
+      },
+      "netIncomeMM": 1164.9,
+      "totalDebtMM": 3761.4,
+      "cashMM": 348.8,
+      "netDebtMM": 3412.6,
+      "sharesOutMM": 324.1,
+      "bookValuePerShare": 37.92,
+      "navPerShare": 37.92,
+      "epsDiluted": 3.5
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 11122.8,
+      "ebitdaMM": 1647.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 9610.9,
+        "SG&A": 496.9,
+        "D&A": 1025.5
+      },
+      "netIncomeMM": 174.9,
+      "totalDebtMM": 4224.7,
+      "cashMM": 272.8,
+      "netDebtMM": 3951.9,
+      "sharesOutMM": 316.93,
+      "bookValuePerShare": 36.23,
+      "navPerShare": 36.23,
+      "epsDiluted": 0.55
+    },
+    {
+      "endDate": "2025-12-31",
+      "periodType": "FY",
+      "revenueMM": 12052.4,
+      "ebitdaMM": 1871.4,
+      "expensesBySegmentMM": {
+        "Cost of sales": 10150.5,
+        "SG&A": 533.9,
+        "D&A": 1049.9
+      },
+      "netIncomeMM": 540.7,
+      "totalDebtMM": 5053.9,
+      "cashMM": 276.6,
+      "netDebtMM": 4777.3,
+      "sharesOutMM": 317.41,
+      "bookValuePerShare": 38.07,
+      "navPerShare": 38.07,
+      "epsDiluted": 1.7
+    }
+  ]
+}

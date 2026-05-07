@@ -1,0 +1,148 @@
+{
+  "ticker": "BG",
+  "currency": "USD",
+  "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001996862&type=10-K",
+  "notes": "Bunge \u2014 global oilseed processor / grain trader. FY2019-2022 sourced from legacy Bunge Limited (CIK 1144519); FY2023-2025 from Bunge Global SA (CIK 1996862, post-2023 Switzerland redomiciliation). Closed acquisition of Viterra in July 2025 \u2014 large step-up in FY2025 revenue, debt, and shares outstanding. EBITDA computed bottom-up as Net Income + Tax + Interest + D&A.",
+  "periods": [
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 41140.0,
+      "ebitdaMM": -307.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 40598.0,
+        "SG&A": 1351.0,
+        "D&A": 548.0
+      },
+      "netIncomeMM": -1280.0,
+      "totalDebtMM": 4994.0,
+      "cashMM": 320.0,
+      "netDebtMM": 4674.0,
+      "sharesOutMM": 137.04,
+      "dividendPerShare": 2,
+      "epsDiluted": -9.34,
+      "bookValuePerShare": 44.0,
+      "navPerShare": 44.0
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 41404.0,
+      "ebitdaMM": 2093.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 38619.0,
+        "SG&A": 1358.0,
+        "D&A": 435.0
+      },
+      "netIncomeMM": 1145.0,
+      "totalDebtMM": 7288.0,
+      "cashMM": 352.0,
+      "netDebtMM": 6936.0,
+      "sharesOutMM": 148.51,
+      "dividendPerShare": 2,
+      "epsDiluted": 7.71,
+      "bookValuePerShare": 41.78,
+      "navPerShare": 41.78
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 59152.0,
+      "ebitdaMM": 3143.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 55789.0,
+        "SG&A": 1234.0,
+        "D&A": 424.0
+      },
+      "netIncomeMM": 2078.0,
+      "totalDebtMM": 5964.0,
+      "cashMM": 902.0,
+      "netDebtMM": 5062.0,
+      "sharesOutMM": 152.35,
+      "dividendPerShare": 2.08,
+      "epsDiluted": 13.64,
+      "bookValuePerShare": 51.36,
+      "navPerShare": 51.36
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 67232.0,
+      "ebitdaMM": 2809.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 63550.0,
+        "SG&A": 1369.0,
+        "D&A": 408.0
+      },
+      "netIncomeMM": 1610.0,
+      "totalDebtMM": 4651.0,
+      "cashMM": 1104.0,
+      "netDebtMM": 3547.0,
+      "sharesOutMM": 153.19,
+      "dividendPerShare": 2.4,
+      "epsDiluted": 10.51,
+      "bookValuePerShare": 64.99,
+      "navPerShare": 64.99
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 59540.0,
+      "ebitdaMM": 3924.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 54695.0,
+        "SG&A": 1715.0,
+        "D&A": 451.0
+      },
+      "netIncomeMM": 2243.0,
+      "totalDebtMM": 4882.0,
+      "cashMM": 2602.0,
+      "netDebtMM": 2280.0,
+      "dividendPerShare": 2.6125,
+      "epsDiluted": 14.87,
+      "sharesOutMM": 150.84,
+      "bookValuePerShare": 78.32,
+      "navPerShare": 78.32
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 53108.0,
+      "ebitdaMM": 2412.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 49715.0,
+        "SG&A": 1776.0,
+        "D&A": 468.0
+      },
+      "netIncomeMM": 1137.0,
+      "totalDebtMM": 6238.0,
+      "cashMM": 3311.0,
+      "netDebtMM": 2927.0,
+      "dividendPerShare": 2.72,
+      "epsDiluted": 7.99,
+      "sharesOutMM": 142.3,
+      "bookValuePerShare": 76.91,
+      "navPerShare": 76.91
+    },
+    {
+      "endDate": "2025-12-31",
+      "periodType": "FY",
+      "revenueMM": 70329.0,
+      "ebitdaMM": 2435.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 66920.0,
+        "SG&A": 2113.0,
+        "D&A": 703.0
+      },
+      "netIncomeMM": 816.0,
+      "totalDebtMM": 14051.0,
+      "cashMM": 1135.0,
+      "netDebtMM": 12916.0,
+      "dividendPerShare": 2.8,
+      "epsDiluted": 4.91,
+      "sharesOutMM": 166.19,
+      "bookValuePerShare": 104.51,
+      "navPerShare": 104.51
+    }
+  ]
+}

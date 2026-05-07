@@ -1,0 +1,103 @@
+{
+  "ticker": "FRPT",
+  "currency": "USD",
+  "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001304161&type=10-K",
+  "notes": "Freshpet, Inc. (NASDAQ: FRPT) — manufacturer of refrigerated, fresh pet foods (primarily for dogs, with a smaller cat line). Branded as Freshpet — sold via dedicated branded refrigerator units (\"Freshpet Fridges\") in ~28,000 retail stores across N. America and the UK (Petco, PetSmart, Walmart, Target, Costco, Kroger, Tesco). Single product / brand company. Fiscal year = calendar. Heavy multi-year capex cycle (Ennis TX, Bethlehem PA plants) for capacity to support ~30% volume CAGR. Reached EBITDA breakeven FY22 and expanding EBITDA margin since. CIK 1304161. 10-Ks at sec.gov.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 318.8,
+      "expensesBySegmentMM": {
+        "Cost of sales": 199.9,
+        "SG&A": 113.2,
+        "D&A": 22.6,
+        "Other": 0
+      },
+      "ebitdaMM": 36.4,
+      "netDebtMM": -211.6,
+      "totalDebtMM": 0,
+      "cashMM": 211.6,
+      "sharesOutMM": 41.5,
+      "bookValuePerShare": 7.80,
+      "dividendPerShare": 0,
+      "notes": "FY20: revenue $318.8M (+33%). Adj EBITDA $51.5M. Strong COVID-era pet adoption tailwind. Equity raise funded Ennis TX kitchens construction."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 425.5,
+      "expensesBySegmentMM": {
+        "Cost of sales": 297.2,
+        "SG&A": 145.0,
+        "D&A": 27.4,
+        "Other": 0
+      },
+      "ebitdaMM": 19.6,
+      "netDebtMM": -196.7,
+      "totalDebtMM": 0,
+      "cashMM": 196.7,
+      "sharesOutMM": 43.9,
+      "bookValuePerShare": 12.50,
+      "dividendPerShare": 0,
+      "notes": "FY21: revenue $425.5M (+33%). Adj EBITDA $50.0M. Margin pressure from chicken / labour cost inflation + start-up costs at Ennis. Convertible notes issued ($402M)."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 595.2,
+      "expensesBySegmentMM": {
+        "Cost of sales": 463.5,
+        "SG&A": 178.4,
+        "D&A": 50.0,
+        "Other": 0
+      },
+      "ebitdaMM": -28.0,
+      "netDebtMM": 121.0,
+      "totalDebtMM": 350.0,
+      "cashMM": 229.0,
+      "sharesOutMM": 44.5,
+      "bookValuePerShare": 11.00,
+      "dividendPerShare": 0,
+      "notes": "FY22: revenue $595.2M (+40%). Adj EBITDA $11.6M (GAAP EBITDA negative — ramp losses + impairment). Trough margin year. Heavy investment in Ennis kitchens 2 + 3."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 766.9,
+      "expensesBySegmentMM": {
+        "Cost of sales": 553.0,
+        "SG&A": 195.0,
+        "D&A": 65.0,
+        "Other": 0
+      },
+      "ebitdaMM": 73.5,
+      "netDebtMM": 152.5,
+      "totalDebtMM": 408.0,
+      "cashMM": 255.5,
+      "sharesOutMM": 47.5,
+      "bookValuePerShare": 13.20,
+      "dividendPerShare": 0,
+      "notes": "FY23: revenue $766.9M (+29%). Adj EBITDA $99.1M. Margin recovery as Ennis ramped + chicken cost normalized. Reached operational scale."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 975.2,
+      "expensesBySegmentMM": {
+        "Cost of sales": 670.0,
+        "SG&A": 225.0,
+        "D&A": 75.0,
+        "Other": 0
+      },
+      "ebitdaMM": 134.0,
+      "netDebtMM": 162.0,
+      "totalDebtMM": 414.0,
+      "cashMM": 252.0,
+      "sharesOutMM": 48.6,
+      "bookValuePerShare": 14.40,
+      "dividendPerShare": 0,
+      "notes": "FY24: revenue $975.2M (+27%). Adj EBITDA $164.4M (~17% margin — significant operating leverage). Net income positive ~$58M; EPS ~$1.20. First fully profitable year. Capex remains heavy as Ennis expansion + Bethlehem build-out continue."
+    }
+  ]
+}

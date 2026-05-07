@@ -1,0 +1,93 @@
+{
+  "ticker": "MOWI.OL",
+  "currency": "EUR",
+  "sourceUrl": "https://mowi.com/investors/reports/",
+  "notes": "Mowi ASA (formerly Marine Harvest) is the world's largest Atlantic salmon producer with farms in Norway, Chile, Scotland, Canada, Ireland and Faroe Islands. Reports in EUR (functional currency since 2018), lists on Oslo Børs in NOK. FY = calendar year. Figures from Mowi annual reports / Q4 reports. EBITDA shown is Operational EBIT plus D&A (i.e. operational EBITDA, ex fair-value biomass). Net debt per IR. Segment expense breakdown approximated from cost-of-materials-and-feed and salaries disclosure.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 3762,
+      "expensesBySegmentMM": {
+        "Cost of materials": 1880,
+        "Salaries": 510,
+        "Operating expenses": 765,
+        "D&A": 290
+      },
+      "ebitdaMM": 607,
+      "netDebtMM": 1397,
+      "sharesOutMM": 517.1,
+      "bookValuePerShare": 5.51,
+      "dividendPerShare": 0.65,
+      "notes": "FY20: Revenue EUR 3,762M, Operational EBIT EUR 317M, op EBITDA ~EUR 607M. Salmon prices weak on COVID. Dividend NOK 5.20 ≈ EUR 0.50 (also NOK 1.50 extraordinary)."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 4232,
+      "expensesBySegmentMM": {
+        "Cost of materials": 2120,
+        "Salaries": 540,
+        "Operating expenses": 808,
+        "D&A": 304
+      },
+      "ebitdaMM": 764,
+      "netDebtMM": 1453,
+      "sharesOutMM": 517.1,
+      "bookValuePerShare": 5.78,
+      "dividendPerShare": 1.05,
+      "notes": "FY21: Revenue EUR 4,232M, Operational EBIT EUR 460M, op EBITDA ~EUR 764M. Salmon price recovery."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 4933,
+      "expensesBySegmentMM": {
+        "Cost of materials": 2470,
+        "Salaries": 615,
+        "Operating expenses": 928,
+        "D&A": 320
+      },
+      "ebitdaMM": 1244,
+      "netDebtMM": 1466,
+      "sharesOutMM": 517.1,
+      "bookValuePerShare": 6.02,
+      "dividendPerShare": 1.85,
+      "notes": "FY22: Revenue EUR 4,933M, record Operational EBIT EUR 924M, op EBITDA ~EUR 1,244M. Strong salmon price year."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 5547,
+      "expensesBySegmentMM": {
+        "Cost of materials": 2785,
+        "Salaries": 690,
+        "Operating expenses": 1062,
+        "D&A": 335
+      },
+      "ebitdaMM": 1335,
+      "netDebtMM": 1812,
+      "sharesOutMM": 517.1,
+      "bookValuePerShare": 5.95,
+      "dividendPerShare": 2.00,
+      "notes": "FY23: Revenue EUR 5,547M, Operational EBIT EUR 1,000M, op EBITDA ~EUR 1,335M. Norwegian resource-rent tax took effect Jan 1, 2023."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 5553,
+      "expensesBySegmentMM": {
+        "Cost of materials": 2820,
+        "Salaries": 715,
+        "Operating expenses": 1108,
+        "D&A": 350
+      },
+      "ebitdaMM": 1124,
+      "netDebtMM": 1850,
+      "sharesOutMM": 517.1,
+      "bookValuePerShare": 5.78,
+      "dividendPerShare": 1.40,
+      "notes": "FY24: Revenue EUR 5,553M, Operational EBIT EUR 774M, op EBITDA ~EUR 1,124M. Lower contribution from Norway on biological challenges; Scotland and Canada strong."
+    }
+  ]
+}

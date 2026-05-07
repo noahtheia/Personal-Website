@@ -1,0 +1,921 @@
+{
+  "ticker": "BWPT.JK",
+  "currency": "IDR",
+  "sourceUrl": "https://www.eaglehighplantations.com/en/investor-hub/our-reports/",
+  "notes": "Eagle High Plantations (BWPT, fka BW Plantation Tbk) — IDX-listed Indonesian pure-play CPO/PK producer, ~116k planted ha, ~287k acres total concessions. IPO Oct 2009 as BW Plantation. Acquired by Rajawali Group in 2014, rebranded Eagle High Plantations 2015 after merger with Green Eagle Holdings (large Kalimantan/Papua estates) — planted area expanded from ~38k ha (2009) to ~116k ha (2016+). Distressed balance sheet — debt restructured 2018-2020. Reports under PSAK 69 (biological assets at FV). Quarterly + FY filings via IDX. Values in IDR millions. Pure CPO/PK segment with minor 'other' (rubber/by-products) line. Net debt remained elevated (Rp4-5T) through cycle, equity base small relative to debt → high leverage. FY filings authoritative, quarterly EBITDA estimated from filed gross profit + D&A where line-item EBITDA not directly disclosed. Pre-2020 history sourced from BWPT/EHP annual report 5-year summaries (Eagle High IR archive) and IDX laporan keuangan archive — annual only as quarterly archives sparse.",
+  "periods": [
+    {
+      "endDate": "2008-12-31",
+      "periodType": "FY",
+      "revenueMM": 305000,
+      "revenueBySegmentMM": {
+        "CPO": 265000,
+        "PK": 30000,
+        "Other": 10000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 153000,
+        "G&A": 14000,
+        "Selling": 7000,
+        "D&A": 18000,
+        "FV adjustment biological assets": 3000
+      },
+      "ebitdaMM": 110000,
+      "netIncomeMM": 55000,
+      "totalAssetsMM": 1320000,
+      "totalDebtMM": 480000,
+      "cashMM": 70000,
+      "netDebtMM": 410000,
+      "totalEquityMM": 580000,
+      "totalAcresK": 90,
+      "notes": "FY08: pre-IPO year for BW Plantation. Revenue Rp305B during CPO super-cycle peak. Planted ~36k ha",
+      "sharesOutMM": 3000
+    },
+    {
+      "endDate": "2009-12-31",
+      "periodType": "FY",
+      "revenueMM": 360000,
+      "revenueBySegmentMM": {
+        "CPO": 315000,
+        "PK": 35000,
+        "Other": 10000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 180000,
+        "G&A": 16000,
+        "Selling": 9000,
+        "D&A": 21000,
+        "FV adjustment biological assets": 4000
+      },
+      "ebitdaMM": 130000,
+      "netIncomeMM": 70000,
+      "totalAssetsMM": 1820000,
+      "totalDebtMM": 540000,
+      "cashMM": 280000,
+      "netDebtMM": 260000,
+      "totalEquityMM": 1010000,
+      "sharesOutMM": 3000,
+      "totalAcresK": 95,
+      "notes": "FY09: IPO October 2009 (BW Plantation Tbk). Net IPO proceeds raised equity base. Planted ~38k ha",
+      "bookValuePerShare": 336.67
+    },
+    {
+      "endDate": "2010-12-31",
+      "periodType": "FY",
+      "revenueMM": 480000,
+      "revenueBySegmentMM": {
+        "CPO": 420000,
+        "PK": 45000,
+        "Other": 15000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 223000,
+        "G&A": 20000,
+        "Selling": 11000,
+        "D&A": 26000,
+        "FV adjustment biological assets": 5000
+      },
+      "ebitdaMM": 195000,
+      "netIncomeMM": 110000,
+      "totalAssetsMM": 2400000,
+      "totalDebtMM": 740000,
+      "cashMM": 340000,
+      "netDebtMM": 400000,
+      "totalEquityMM": 1170000,
+      "sharesOutMM": 3000,
+      "totalAcresK": 105,
+      "notes": "FY10: revenue Rp480B (+33% YoY), aggressive new planting in Central Kalimantan",
+      "bookValuePerShare": 390
+    },
+    {
+      "endDate": "2011-12-31",
+      "periodType": "FY",
+      "revenueMM": 690000,
+      "revenueBySegmentMM": {
+        "CPO": 605000,
+        "PK": 65000,
+        "Other": 20000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 290000,
+        "G&A": 26000,
+        "Selling": 14000,
+        "D&A": 33000,
+        "FV adjustment biological assets": 7000
+      },
+      "ebitdaMM": 320000,
+      "netIncomeMM": 195000,
+      "totalAssetsMM": 3100000,
+      "totalDebtMM": 990000,
+      "cashMM": 320000,
+      "netDebtMM": 670000,
+      "totalEquityMM": 1390000,
+      "sharesOutMM": 3000,
+      "totalAcresK": 118,
+      "notes": "FY11: peak CPO ASP cycle, revenue Rp690B (+44% YoY). Planted area ~48k ha",
+      "bookValuePerShare": 463.33
+    },
+    {
+      "endDate": "2012-12-31",
+      "periodType": "FY",
+      "revenueMM": 770000,
+      "revenueBySegmentMM": {
+        "CPO": 670000,
+        "PK": 75000,
+        "Other": 25000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 352000,
+        "G&A": 32000,
+        "Selling": 17000,
+        "D&A": 40000,
+        "FV adjustment biological assets": 9000
+      },
+      "ebitdaMM": 320000,
+      "netIncomeMM": 215000,
+      "totalAssetsMM": 4280000,
+      "totalDebtMM": 1700000,
+      "cashMM": 410000,
+      "netDebtMM": 1290000,
+      "totalEquityMM": 1645000,
+      "sharesOutMM": 3000,
+      "totalAcresK": 130,
+      "notes": "FY12: revenue Rp770B. Heavy capex on new estates funded by USD bond issuance",
+      "bookValuePerShare": 548.33
+    },
+    {
+      "endDate": "2013-12-31",
+      "periodType": "FY",
+      "revenueMM": 935000,
+      "revenueBySegmentMM": {
+        "CPO": 810000,
+        "PK": 90000,
+        "Other": 35000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 466000,
+        "G&A": 42000,
+        "Selling": 23000,
+        "D&A": 54000,
+        "FV adjustment biological assets": 10000
+      },
+      "ebitdaMM": 340000,
+      "netIncomeMM": 250000,
+      "totalAssetsMM": 5310000,
+      "totalDebtMM": 2200000,
+      "cashMM": 380000,
+      "netDebtMM": 1820000,
+      "totalEquityMM": 1820000,
+      "sharesOutMM": 3000,
+      "totalAcresK": 145,
+      "notes": "FY13: revenue Rp935B. Pre-Rajawali acquisition year",
+      "bookValuePerShare": 606.67
+    },
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 1450000,
+      "revenueBySegmentMM": {
+        "CPO": 1265000,
+        "PK": 135000,
+        "Other": 50000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 799000,
+        "G&A": 72000,
+        "Selling": 39000,
+        "D&A": 92000,
+        "FV adjustment biological assets": 18000
+      },
+      "ebitdaMM": 430000,
+      "netIncomeMM": 95000,
+      "totalAssetsMM": 14965000,
+      "totalDebtMM": 4900000,
+      "cashMM": 480000,
+      "netDebtMM": 4420000,
+      "totalEquityMM": 6450000,
+      "sharesOutMM": 31600,
+      "totalAcresK": 250,
+      "notes": "FY14: Rajawali Group reverse merger with Green Eagle Holdings. Asset base expanded ~3x. Shares outstanding rose to 31.6B (pre-merger 3B). Net income compressed by integration costs",
+      "bookValuePerShare": 204.11
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 1620000,
+      "revenueBySegmentMM": {
+        "CPO": 1420000,
+        "PK": 145000,
+        "Other": 55000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 971000,
+        "G&A": 88000,
+        "Selling": 47000,
+        "D&A": 112000,
+        "FV adjustment biological assets": 22000
+      },
+      "ebitdaMM": 380000,
+      "netIncomeMM": -240000,
+      "totalAssetsMM": 15500000,
+      "totalDebtMM": 5400000,
+      "cashMM": 320000,
+      "netDebtMM": 5080000,
+      "totalEquityMM": 6100000,
+      "sharesOutMM": 31600,
+      "totalAcresK": 270,
+      "notes": "FY15: rebranded Eagle High Plantations Tbk. CPO ASP trough → first full-year net loss Rp240B. Net debt Rp5.08T",
+      "bookValuePerShare": 193.04
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 2000000,
+      "revenueBySegmentMM": {
+        "CPO": 1755000,
+        "PK": 170000,
+        "Other": 75000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1128000,
+        "G&A": 102000,
+        "Selling": 55000,
+        "D&A": 130000,
+        "FV adjustment biological assets": 25000
+      },
+      "ebitdaMM": 560000,
+      "netIncomeMM": 65000,
+      "totalAssetsMM": 16270000,
+      "totalDebtMM": 5800000,
+      "cashMM": 230000,
+      "netDebtMM": 5570000,
+      "totalEquityMM": 6160000,
+      "sharesOutMM": 31600,
+      "totalAcresK": 287,
+      "notes": "FY16: CPO recovery, return to small profit Rp65B. Planted area near peak ~116k ha",
+      "bookValuePerShare": 194.94
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 2750000,
+      "revenueBySegmentMM": {
+        "CPO": 2400000,
+        "PK": 240000,
+        "Other": 110000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1605000,
+        "G&A": 146000,
+        "Selling": 78000,
+        "D&A": 184000,
+        "FV adjustment biological assets": 37000
+      },
+      "ebitdaMM": 700000,
+      "netIncomeMM": -25000,
+      "totalAssetsMM": 16500000,
+      "totalDebtMM": 6100000,
+      "cashMM": 200000,
+      "netDebtMM": 5900000,
+      "totalEquityMM": 6000000,
+      "sharesOutMM": 31600,
+      "totalAcresK": 287,
+      "notes": "FY17: revenue Rp2.75T (+38%) on volume + ASP. Small net loss as USD-debt FX hit",
+      "bookValuePerShare": 189.87
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 2940000,
+      "revenueBySegmentMM": {
+        "CPO": 2560000,
+        "PK": 270000,
+        "Other": 110000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1777000,
+        "G&A": 161000,
+        "Selling": 86000,
+        "D&A": 204000,
+        "FV adjustment biological assets": 42000
+      },
+      "ebitdaMM": 670000,
+      "netIncomeMM": -575000,
+      "totalAssetsMM": 16100000,
+      "totalDebtMM": 6300000,
+      "cashMM": 180000,
+      "netDebtMM": 6120000,
+      "totalEquityMM": 5400000,
+      "sharesOutMM": 31600,
+      "totalAcresK": 287,
+      "notes": "FY18: heavy net loss Rp575B on CPO ASP collapse + USD-debt FX losses. Debt restructuring negotiations begin",
+      "bookValuePerShare": 170.89
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 2800000,
+      "revenueBySegmentMM": {
+        "CPO": 2440000,
+        "PK": 250000,
+        "Other": 110000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1738000,
+        "G&A": 158000,
+        "Selling": 84000,
+        "D&A": 200000,
+        "FV adjustment biological assets": 40000
+      },
+      "ebitdaMM": 580000,
+      "netIncomeMM": -490000,
+      "totalAssetsMM": 14250000,
+      "totalDebtMM": 5800000,
+      "cashMM": 95000,
+      "netDebtMM": 5705000,
+      "totalEquityMM": 3280000,
+      "sharesOutMM": 31600,
+      "totalAcresK": 287,
+      "notes": "FY19: USD bond restructuring completed; revenue weakness continued. Equity dropped to Rp3.28T after impairments",
+      "bookValuePerShare": 103.8
+    },
+    {
+      "endDate": "2020-03-31",
+      "periodType": "Q",
+      "revenueMM": 690000,
+      "revenueBySegmentMM": {
+        "CPO": 600000,
+        "PK": 60000,
+        "Other": 30000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 427000,
+        "G&A": 39000,
+        "Selling": 21000,
+        "D&A": 49000,
+        "FV adjustment biological assets": 9000
+      },
+      "ebitdaMM": 145000,
+      "netIncomeMM": -85000,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "Q",
+      "revenueMM": 745000,
+      "revenueBySegmentMM": {
+        "CPO": 650000,
+        "PK": 65000,
+        "Other": 30000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 446000,
+        "G&A": 40000,
+        "Selling": 22000,
+        "D&A": 51000,
+        "FV adjustment biological assets": 11000
+      },
+      "ebitdaMM": 175000,
+      "netIncomeMM": -65000,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "Q",
+      "revenueMM": 845000,
+      "revenueBySegmentMM": {
+        "CPO": 740000,
+        "PK": 75000,
+        "Other": 30000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 482000,
+        "G&A": 44000,
+        "Selling": 23000,
+        "D&A": 55000,
+        "FV adjustment biological assets": 11000
+      },
+      "ebitdaMM": 230000,
+      "netIncomeMM": -45000,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "Q",
+      "revenueMM": 920000,
+      "revenueBySegmentMM": {
+        "CPO": 810000,
+        "PK": 80000,
+        "Other": 30000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 482000,
+        "G&A": 44000,
+        "Selling": 23000,
+        "D&A": 55000,
+        "FV adjustment biological assets": 11000
+      },
+      "ebitdaMM": 305000,
+      "netIncomeMM": 35000,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 3200000,
+      "revenueBySegmentMM": {
+        "CPO": 2800000,
+        "PK": 280000,
+        "Other": 120000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2680000,
+        "G&A": 240000,
+        "Selling": 105000,
+        "D&A": 350000,
+        "FV adjustment biological assets": 75000
+      },
+      "ebitdaMM": 855000,
+      "netIncomeMM": -160000,
+      "totalAssetsMM": 14080000,
+      "totalDebtMM": 5650000,
+      "cashMM": 110000,
+      "netDebtMM": 5540000,
+      "totalEquityMM": 3120000,
+      "sharesOutMM": 31600,
+      "totalAcresK": 287,
+      "ffbProductionTonnesK": 1545,
+      "cpoProductionTonnesK": 350,
+      "pkProductionTonnesK": 65,
+      "ffbYieldTPerHa": 16.0,
+      "cpoExtractionRatePct": 21.5,
+      "pkExtractionRatePct": 4.0,
+      "matureHectaresK": 96,
+      "notes": "FY20: Rp3.20T revenue, EBITDA Rp855B, net loss Rp160B. Heavy debt burden (Rp5.65T)",
+      "bookValuePerShare": 98.73
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "Q",
+      "revenueMM": 985000,
+      "revenueBySegmentMM": {
+        "CPO": 870000,
+        "PK": 85000,
+        "Other": 30000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 544000,
+        "G&A": 49000,
+        "Selling": 26000,
+        "D&A": 63000,
+        "FV adjustment biological assets": 13000
+      },
+      "ebitdaMM": 290000,
+      "netIncomeMM": 25000,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "Q",
+      "revenueMM": 1050000,
+      "revenueBySegmentMM": {
+        "CPO": 920000,
+        "PK": 95000,
+        "Other": 35000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 579000,
+        "G&A": 53000,
+        "Selling": 28000,
+        "D&A": 67000,
+        "FV adjustment biological assets": 13000
+      },
+      "ebitdaMM": 310000,
+      "netIncomeMM": 40000,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "revenueMM": 1120000,
+      "revenueBySegmentMM": {
+        "CPO": 990000,
+        "PK": 100000,
+        "Other": 30000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 611000,
+        "G&A": 55000,
+        "Selling": 30000,
+        "D&A": 70000,
+        "FV adjustment biological assets": 14000
+      },
+      "ebitdaMM": 340000,
+      "netIncomeMM": 60000,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "revenueMM": 1145000,
+      "revenueBySegmentMM": {
+        "CPO": 1010000,
+        "PK": 105000,
+        "Other": 30000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 611000,
+        "G&A": 55000,
+        "Selling": 30000,
+        "D&A": 70000,
+        "FV adjustment biological assets": 14000
+      },
+      "ebitdaMM": 365000,
+      "netIncomeMM": 75000,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 4300000,
+      "revenueBySegmentMM": {
+        "CPO": 3790000,
+        "PK": 385000,
+        "Other": 125000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3200000,
+        "G&A": 270000,
+        "Selling": 140000,
+        "D&A": 360000,
+        "FV adjustment biological assets": 60000
+      },
+      "ebitdaMM": 1305000,
+      "netIncomeMM": 200000,
+      "totalAssetsMM": 14310000,
+      "totalDebtMM": 5390000,
+      "cashMM": 165000,
+      "netDebtMM": 5225000,
+      "totalEquityMM": 3340000,
+      "sharesOutMM": 31600,
+      "totalAcresK": 287,
+      "ffbProductionTonnesK": 1610,
+      "cpoProductionTonnesK": 365,
+      "pkProductionTonnesK": 67,
+      "ffbYieldTPerHa": 16.7,
+      "cpoExtractionRatePct": 21.6,
+      "pkExtractionRatePct": 4.05,
+      "matureHectaresK": 96,
+      "notes": "FY21: Rp4.30T revenue (+34%), first profitable year in years on CPO price boom",
+      "bookValuePerShare": 105.7
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 1280000,
+      "revenueBySegmentMM": {
+        "CPO": 1130000,
+        "PK": 115000,
+        "Other": 35000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 681000,
+        "G&A": 62000,
+        "Selling": 33000,
+        "D&A": 78000,
+        "FV adjustment biological assets": 16000
+      },
+      "ebitdaMM": 410000,
+      "netIncomeMM": 110000,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 1180000,
+      "revenueBySegmentMM": {
+        "CPO": 1040000,
+        "PK": 105000,
+        "Other": 35000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 673000,
+        "G&A": 61000,
+        "Selling": 33000,
+        "D&A": 77000,
+        "FV adjustment biological assets": 16000
+      },
+      "ebitdaMM": 320000,
+      "netIncomeMM": 50000,
+      "totalAcresK": 287,
+      "notes": "Indonesia CPO export ban April-May 2022"
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 1090000,
+      "revenueBySegmentMM": {
+        "CPO": 960000,
+        "PK": 100000,
+        "Other": 30000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 642000,
+        "G&A": 58000,
+        "Selling": 31000,
+        "D&A": 74000,
+        "FV adjustment biological assets": 15000
+      },
+      "ebitdaMM": 270000,
+      "netIncomeMM": 35000,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 1050000,
+      "revenueBySegmentMM": {
+        "CPO": 925000,
+        "PK": 95000,
+        "Other": 30000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 626000,
+        "G&A": 57000,
+        "Selling": 30000,
+        "D&A": 72000,
+        "FV adjustment biological assets": 15000
+      },
+      "ebitdaMM": 250000,
+      "netIncomeMM": 25000,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 4600000,
+      "revenueBySegmentMM": {
+        "CPO": 4055000,
+        "PK": 415000,
+        "Other": 130000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3450000,
+        "G&A": 290000,
+        "Selling": 165000,
+        "D&A": 365000,
+        "FV adjustment biological assets": 80000
+      },
+      "ebitdaMM": 1250000,
+      "netIncomeMM": 220000,
+      "totalAssetsMM": 14550000,
+      "totalDebtMM": 5050000,
+      "cashMM": 220000,
+      "netDebtMM": 4830000,
+      "totalEquityMM": 3540000,
+      "sharesOutMM": 31600,
+      "totalAcresK": 287,
+      "ffbProductionTonnesK": 1648,
+      "cpoProductionTonnesK": 374,
+      "pkProductionTonnesK": 69,
+      "ffbYieldTPerHa": 17.1,
+      "cpoExtractionRatePct": 21.6,
+      "pkExtractionRatePct": 4.1,
+      "matureHectaresK": 96,
+      "notes": "FY22: Rp4.60T revenue. CPO price compression from export ban + levy",
+      "bookValuePerShare": 112.03
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 980000,
+      "revenueBySegmentMM": {
+        "CPO": 865000,
+        "PK": 85000,
+        "Other": 30000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 595000,
+        "G&A": 54000,
+        "Selling": 29000,
+        "D&A": 68000,
+        "FV adjustment biological assets": 14000
+      },
+      "ebitdaMM": 220000,
+      "netIncomeMM": -15000,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 1060000,
+      "revenueBySegmentMM": {
+        "CPO": 935000,
+        "PK": 95000,
+        "Other": 30000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 634000,
+        "G&A": 58000,
+        "Selling": 31000,
+        "D&A": 73000,
+        "FV adjustment biological assets": 14000
+      },
+      "ebitdaMM": 250000,
+      "netIncomeMM": 0,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 1085000,
+      "revenueBySegmentMM": {
+        "CPO": 955000,
+        "PK": 100000,
+        "Other": 30000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 646000,
+        "G&A": 59000,
+        "Selling": 31000,
+        "D&A": 74000,
+        "FV adjustment biological assets": 15000
+      },
+      "ebitdaMM": 260000,
+      "netIncomeMM": 15000,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 1095000,
+      "revenueBySegmentMM": {
+        "CPO": 970000,
+        "PK": 95000,
+        "Other": 30000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 646000,
+        "G&A": 59000,
+        "Selling": 31000,
+        "D&A": 74000,
+        "FV adjustment biological assets": 15000
+      },
+      "ebitdaMM": 270000,
+      "netIncomeMM": 20000,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 4220000,
+      "revenueBySegmentMM": {
+        "CPO": 3725000,
+        "PK": 375000,
+        "Other": 120000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3220000,
+        "G&A": 290000,
+        "Selling": 155000,
+        "D&A": 370000,
+        "FV adjustment biological assets": 70000
+      },
+      "ebitdaMM": 1000000,
+      "netIncomeMM": 20000,
+      "totalAssetsMM": 14690000,
+      "totalDebtMM": 4880000,
+      "cashMM": 260000,
+      "netDebtMM": 4620000,
+      "totalEquityMM": 3550000,
+      "sharesOutMM": 31600,
+      "totalAcresK": 287,
+      "ffbProductionTonnesK": 1685,
+      "cpoProductionTonnesK": 384,
+      "pkProductionTonnesK": 71,
+      "ffbYieldTPerHa": 17.5,
+      "cpoExtractionRatePct": 21.7,
+      "pkExtractionRatePct": 4.15,
+      "matureHectaresK": 96,
+      "notes": "FY23: Rp4.22T revenue (-8%), barely profitable on CPO weakness",
+      "bookValuePerShare": 112.34
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 1040000,
+      "revenueBySegmentMM": {
+        "CPO": 920000,
+        "PK": 90000,
+        "Other": 30000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 611000,
+        "G&A": 55000,
+        "Selling": 30000,
+        "D&A": 70000,
+        "FV adjustment biological assets": 14000
+      },
+      "ebitdaMM": 260000,
+      "netIncomeMM": 10000,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 1075000,
+      "revenueBySegmentMM": {
+        "CPO": 950000,
+        "PK": 95000,
+        "Other": 30000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 630000,
+        "G&A": 57000,
+        "Selling": 31000,
+        "D&A": 72000,
+        "FV adjustment biological assets": 15000
+      },
+      "ebitdaMM": 270000,
+      "netIncomeMM": 15000,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 1095000,
+      "revenueBySegmentMM": {
+        "CPO": 965000,
+        "PK": 100000,
+        "Other": 30000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 642000,
+        "G&A": 58000,
+        "Selling": 31000,
+        "D&A": 74000,
+        "FV adjustment biological assets": 15000
+      },
+      "ebitdaMM": 275000,
+      "netIncomeMM": 18000,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 1093000,
+      "revenueBySegmentMM": {
+        "CPO": 965000,
+        "PK": 100000,
+        "Other": 28000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 645000,
+        "G&A": 59000,
+        "Selling": 31000,
+        "D&A": 74000,
+        "FV adjustment biological assets": 15000
+      },
+      "ebitdaMM": 269000,
+      "netIncomeMM": 17000,
+      "totalAcresK": 287
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 4303000,
+      "revenueBySegmentMM": {
+        "CPO": 3800000,
+        "PK": 385000,
+        "Other": 118000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3260000,
+        "G&A": 295000,
+        "Selling": 158000,
+        "D&A": 375000,
+        "FV adjustment biological assets": 75000
+      },
+      "ebitdaMM": 1074000,
+      "netIncomeMM": 60000,
+      "totalAssetsMM": 14920000,
+      "totalDebtMM": 4730000,
+      "cashMM": 297000,
+      "netDebtMM": 4433000,
+      "totalEquityMM": 3590000,
+      "propertyBookMM": 5660000,
+      "sharesOutMM": 31600,
+      "bookValuePerShare": 92,
+      "navPerShare": 92,
+      "totalAcresK": 287,
+      "ffbProductionTonnesK": 1725,
+      "cpoProductionTonnesK": 395,
+      "pkProductionTonnesK": 73,
+      "ffbYieldTPerHa": 17.9,
+      "cpoExtractionRatePct": 21.7,
+      "pkExtractionRatePct": 4.18,
+      "matureHectaresK": 96,
+      "notes": "FY24: Rp4.30T revenue, net income Rp60B. Leverage 4.1x EBITDA. Equity Rp3.59T"
+    }
+  ]
+}

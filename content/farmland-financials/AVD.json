@@ -1,0 +1,78 @@
+{
+  "ticker": "AVD",
+  "currency": "USD",
+  "sourceUrl": "https://www.american-vanguard.com/investors",
+  "notes": "American Vanguard Corp (NYSE: AVD) — specialty crop chemistry (CIK 5981). Manufactures + distributes pesticides, fungicides, herbicides for fruit, vegetable, nut, and row crops. Calendar fiscal year. Reports in USD. SmartBox/SIMPAS precision-application platforms. Severe 2023-24 industry destocking + internal control weaknesses → 2024 financial restatement, going-concern issues, transformation program. Sells products globally (US, Mexico, Brazil, EU, Australia).",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 458,
+      "ebitdaMM": 47,
+      "netIncomeMM": 11,
+      "totalDebtMM": 65,
+      "cashMM": 16,
+      "netDebtMM": 49,
+      "sharesOutMM": 30.0,
+      "bookValuePerShare": 8.50,
+      "dividendPerShare": 0.10,
+      "notes": "FY20: revenue $458M. EBITDA $47M. Net income $11M. Steady year for crop chemistry."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 559,
+      "ebitdaMM": 54,
+      "netIncomeMM": 14,
+      "totalDebtMM": 105,
+      "cashMM": 12,
+      "netDebtMM": 93,
+      "sharesOutMM": 30.6,
+      "bookValuePerShare": 8.85,
+      "dividendPerShare": 0.10,
+      "notes": "FY21: revenue $559M (+22%). EBITDA $54M. Net income $14M. Acquisitions including Agrinos."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 609,
+      "ebitdaMM": 65,
+      "netIncomeMM": 18,
+      "totalDebtMM": 130,
+      "cashMM": 10,
+      "netDebtMM": 120,
+      "sharesOutMM": 30.7,
+      "bookValuePerShare": 9.15,
+      "dividendPerShare": 0.115,
+      "notes": "FY22: revenue $609M (+9%). EBITDA $65M. Net income $18M. Strong agriculture cycle."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 568,
+      "ebitdaMM": -8,
+      "netIncomeMM": -47,
+      "totalDebtMM": 175,
+      "cashMM": 6,
+      "netDebtMM": 169,
+      "sharesOutMM": 30.7,
+      "bookValuePerShare": 7.30,
+      "dividendPerShare": 0.085,
+      "notes": "FY23 (restated): revenue $568M (-7%). EBITDA $-8M (channel destocking + writedowns). Net loss $47M. Material weaknesses identified; restated figures."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 506,
+      "ebitdaMM": 18,
+      "netIncomeMM": -56,
+      "totalDebtMM": 175,
+      "cashMM": 11,
+      "netDebtMM": 164,
+      "sharesOutMM": 30.6,
+      "bookValuePerShare": 5.30,
+      "dividendPerShare": 0,
+      "notes": "FY24: revenue $506M (-11%). EBITDA $18M (transformation program ongoing, restructuring charges $30M+). Net loss $56M. Dividend suspended. Going-concern uncertainty addressed via amended credit facility."
+    }
+  ]
+}

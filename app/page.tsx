@@ -9,7 +9,7 @@ export default function HomePage() {
   const recent = posts.slice(0, 5);
 
   return (
-    <div className="space-y-20">
+    <div className="page-narrow space-y-20">
       <section>
         <p className="eyebrow">Welcome</p>
         <h1 className="mt-4 font-display text-[2rem] font-semibold leading-[1.15] tracking-tight sm:text-[2.5rem]">

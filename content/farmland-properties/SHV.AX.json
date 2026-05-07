@@ -1,0 +1,129 @@
+{
+  "ticker": "SHV.AX",
+  "asOf": "2025-09-30",
+  "currency": "AUD",
+  "propertiesNote": "6-row breakdown by named orchard cluster: Carina West (flagship + processing), Piangil (2024 acquisition), other Sunraysia, Loxton SA, Paringa SA, NSW Riverina.",
+  "properties": [
+    {
+      "name": "Carina West orchards + Robinvale processing facility",
+      "location": "Robinvale, Victoria (Carina West)",
+      "acres": 5500,
+      "cropOrUse": "Almonds + 50,000 MT/yr processing facility",
+      "category": "Sunraysia/Vic \u2014 flagship Carina West",
+      "fmvPerAcre": 30000,
+      "fmvRationale": "Carina West is SHV's processing-anchored flagship with vertically integrated operations",
+      "comparablesUsed": [
+        "AU-ALMOND-2024",
+        "AU-ALMOND-2025"
+      ],
+      "bookValueMM": 165,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
+    },
+    {
+      "name": "Piangil orchards (acquired 2024 for A$129M)",
+      "location": "Sunraysia (Piangil), Victoria",
+      "acres": 4500,
+      "cropOrUse": "Almond orchards (mature)",
+      "category": "Sunraysia/Vic \u2014 Piangil",
+      "fmvPerAcre": 28000,
+      "fmvRationale": "Acquired 2024 for A$129M = A$28K/acre \u2014 most direct internal mark for SHV almond ground",
+      "comparablesUsed": [
+        "SHV-PIANGIL-2024",
+        "AU-ALMOND-2025"
+      ],
+      "bookValueMM": 126,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
+    },
+    {
+      "name": "Other Sunraysia orchards (Robinvale region)",
+      "location": "Robinvale + surrounding Sunraysia, Vic",
+      "acres": 2000,
+      "cropOrUse": "Almond orchards",
+      "category": "Sunraysia/Vic \u2014 other",
+      "fmvPerAcre": 27000,
+      "fmvRationale": "Smaller Sunraysia holdings; mid-tier Robinvale ground",
+      "comparablesUsed": [
+        "AU-ALMOND-2024"
+      ],
+      "bookValueMM": 50,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
+    },
+    {
+      "name": "Loxton orchards (SA Riverland)",
+      "location": "Loxton, South Australia",
+      "acres": 4500,
+      "cropOrUse": "Almond orchards",
+      "category": "SA Riverland \u2014 Loxton",
+      "fmvPerAcre": 25000,
+      "fmvRationale": "Loxton SA Riverland; slightly below Sunraysia per-acre due to higher SA water cost",
+      "comparablesUsed": [
+        "AU-ALMOND-2024",
+        "AU-ALMOND-2025"
+      ],
+      "bookValueMM": 110,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
+    },
+    {
+      "name": "Paringa orchards (SA Riverland)",
+      "location": "Paringa, South Australia",
+      "acres": 2900,
+      "cropOrUse": "Almond orchards",
+      "category": "SA Riverland \u2014 Paringa",
+      "fmvPerAcre": 25000,
+      "fmvRationale": "Paringa SA Riverland orchards",
+      "comparablesUsed": [
+        "AU-ALMOND-2024"
+      ],
+      "bookValueMM": 70,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.0
+    },
+    {
+      "name": "Riverina orchards (NSW)",
+      "location": "NSW Riverina",
+      "acres": 3003,
+      "cropOrUse": "Almond orchards",
+      "category": "NSW Riverina",
+      "fmvPerAcre": 26000,
+      "fmvRationale": "NSW Riverina almond ground; mid-tier between Sunraysia and SA",
+      "comparablesUsed": [
+        "AU-ALMOND-2024"
+      ],
+      "bookValueMM": 75,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
+    }
+  ],
+  "comparables": [
+    {
+      "id": "AU-ALMOND-2024",
+      "description": "Australian mature almond orchard transactions",
+      "location": "NSW Sunraysia / Victoria Mallee",
+      "pricePerAcre": 32000,
+      "date": "2024-10-15",
+      "source": "Australian Almond Industry valuation reports 2024"
+    },
+    {
+      "id": "AU-ALMOND-2025",
+      "description": "H1 2025 Australian almond orchard sales",
+      "location": "NSW + Victoria, Australia",
+      "pricePerAcre": 33000,
+      "date": "2025-04-01",
+      "source": "Colliers Rural + LAWD H1 2025 ag-real-estate report"
+    },
+    {
+      "id": "SHV-PIANGIL-2024",
+      "description": "Select Harvests Piangil acquisition (Sunraysia almond orchards) at A$129M for ~4,500 acres",
+      "location": "Sunraysia (Piangil), Vic",
+      "acres": 4500,
+      "pricePerAcre": 28000,
+      "date": "2024-09-15",
+      "source": "Select Harvests Piangil acquisition disclosure 2024"
+    }
+  ],
+  "methodology": "Select Harvests is Australia's largest pure-play almond grower. The 22,403-acre planted portfolio expanded from 3-row regional aggregation to 6-row property-level breakdown:\n\nSunraysia/Vic cluster (12K ac total):\n- Carina West (5.5K ac flagship + 50,000 MT/yr processing facility)\n- Piangil (4.5K ac acquired 2024 for A$129M = A$28K/acre \u2014 most direct internal benchmark)\n- Other Sunraysia (2K ac smaller holdings)\n\nSA Riverland cluster (7.4K ac total):\n- Loxton (4.5K ac)\n- Paringa (2.9K ac)\n\nNSW Riverina cluster: 3K ac\n\nPer-acre FMVs anchor to:\n- SHV's own 2024 Piangil acquisition at A$28K/acre\n- Colliers Rural + LAWD H1 2025 reports at A$33K/acre for prime Sunraysia ground\n- SA water cost differential: SA Riverland prices A$25K/acre vs Sunraysia A$30K to reflect higher SA water entitlement costs\n\nNet debt of A$168M (1H FY25) is meaningful leverage; FY25 strong almond pricing ($10.18/kg vs $7.69 prior) supported A$82M EBITDA on A$398M revenue."
+}

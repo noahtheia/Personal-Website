@@ -1,0 +1,68 @@
+{
+  "ticker": "0606.HK",
+  "currency": "CNY",
+  "sourceUrl": "https://www.chinaagri.com.cn/index.php/en/main/category/cid/29.html",
+  "notes": "China Agri-Industries Holdings (HKEX: 0606) — agribusiness flagship of COFCO Corp (state-owned). Four segments: oilseeds processing (largest in China — Fortune brand), rice processing/trading, wheat milling/brewing materials, and biofuels/biochemicals. Reports CNY-millions IFRS consolidated. Lists in HKD on HKEX. FY ends Dec 31. High-volume / low-margin trader profile — EBITDA margins ~2-3%. Net debt incl. lease liabilities.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 102837,
+      "ebitdaMM": 4280,
+      "netIncomeMM": 1718,
+      "totalDebtMM": 23800,
+      "cashMM": 6400,
+      "netDebtMM": 17400,
+      "sharesOutMM": 5256,
+      "notes": "FY20: Revenue RMB102.8bn (+20%) on soy/oilseed crush volumes + price rally; EBITDA RMB4.28bn (margin 4.2%) — bumper year for soybean crushing margins."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 126000,
+      "ebitdaMM": 3450,
+      "netIncomeMM": 1390,
+      "totalDebtMM": 28500,
+      "cashMM": 7200,
+      "netDebtMM": 21300,
+      "sharesOutMM": 5256,
+      "notes": "FY21: Revenue RMB126bn (+22%) on commodity inflation; EBITDA RMB3.45bn (margin 2.7%) — crush margins compressed."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 142500,
+      "ebitdaMM": 4820,
+      "netIncomeMM": 2105,
+      "totalDebtMM": 32400,
+      "cashMM": 8100,
+      "netDebtMM": 24300,
+      "sharesOutMM": 5256,
+      "notes": "FY22: Revenue RMB142.5bn — peak year on Russia/Ukraine grain dislocation + China demand. EBITDA RMB4.82bn (margin 3.4%)."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 117400,
+      "ebitdaMM": 2860,
+      "netIncomeMM": 510,
+      "totalDebtMM": 33200,
+      "cashMM": 7900,
+      "netDebtMM": 25300,
+      "sharesOutMM": 5256,
+      "notes": "FY23: Revenue RMB117.4bn (-18%) on grain price normalization; oilseed crush margin trough. EBITDA RMB2.86bn (margin 2.4%), NI RMB510M."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 100185,
+      "ebitdaMM": 2050,
+      "netIncomeMM": 305,
+      "totalDebtMM": 33800,
+      "cashMM": 8200,
+      "netDebtMM": 25600,
+      "sharesOutMM": 5256,
+      "notes": "FY24: Revenue RMB100.2bn (-15%) on continued commodity price softness + weaker oilseed crush spreads; EBITDA RMB2.05bn (margin 2.0%), NI RMB305M. Leverage ~12.5x — heavy working capital."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "ticker": "000876.SZ",
+  "currency": "CNY",
+  "sourceUrl": "http://www.newhope.cn/index.php/news/touzizhegongzuo",
+  "notes": "New Hope Liuhe (SZSE: 000876) — second-largest Chinese animal feed producer + integrated pork business (~15M head/yr). Three core segments: feed (40%+ of revenue, branded Liuhe), hog farming, and food/processed meats. Reports CNY-millions PRC GAAP. Lists in CNY on Shenzhen Stock Exchange. FY ends Dec 31. Hog cycle exposure (lower vs Muyuan due to feed buffer). Net debt = interest-bearing total debt − cash & marketable securities.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 109886,
+      "ebitdaMM": 11250,
+      "netIncomeMM": 4936,
+      "totalDebtMM": 32400,
+      "cashMM": 14200,
+      "netDebtMM": 18200,
+      "sharesOutMM": 4500,
+      "notes": "FY20: Peak hog prices + feed volume growth. Revenue RMB109.9bn (+33%), EBITDA RMB11.25bn (margin 10.2%), NI RMB4.94bn."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 126291,
+      "ebitdaMM": -3200,
+      "netIncomeMM": -9591,
+      "totalDebtMM": 49500,
+      "cashMM": 11200,
+      "netDebtMM": 38300,
+      "sharesOutMM": 4500,
+      "notes": "FY21: Disaster year — hog price crash + biological asset writedowns + heavy expansion capex. Revenue RMB126.3bn (+15%), EBITDA -RMB3.2bn, NI -RMB9.6bn (record loss). Leverage ballooned."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 139063,
+      "ebitdaMM": 6850,
+      "netIncomeMM": 25,
+      "totalDebtMM": 53800,
+      "cashMM": 14500,
+      "netDebtMM": 39300,
+      "sharesOutMM": 4500,
+      "notes": "FY22: Recovery — feed segment stable, hog prices recovered 2H22. Revenue RMB139.1bn (+10%), EBITDA RMB6.85bn (margin 4.9%), NI ~RMB25M (breakeven)."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 141750,
+      "ebitdaMM": 1450,
+      "netIncomeMM": -2945,
+      "totalDebtMM": 56400,
+      "cashMM": 16100,
+      "netDebtMM": 40300,
+      "sharesOutMM": 4540,
+      "notes": "FY23: Trough cycle — hog losses + feed gross margin compressed. Revenue RMB141.8bn, EBITDA RMB1.45bn (margin 1.0%), NI -RMB2.95bn. Asset divestments reduced debt."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 103068,
+      "ebitdaMM": 5300,
+      "netIncomeMM": 487,
+      "totalDebtMM": 51000,
+      "cashMM": 17800,
+      "netDebtMM": 33200,
+      "sharesOutMM": 4540,
+      "notes": "FY24: Revenue RMB103bn (-27% on poultry/feed divestments + lower volumes); hog cycle improved. EBITDA RMB5.3bn (margin 5.1%), NI RMB487M (back to profit). Net debt down to RMB33bn (~6.3x)."
+    }
+  ]
+}

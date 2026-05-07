@@ -51,10 +51,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${fraunces.variable} ${inter.variable}`}>
       <body className="bg-bg font-sans text-fg antialiased">
-        <div className="mx-auto flex min-h-screen max-w-prose flex-col px-6 py-8 sm:py-10">
-          <Header />
-          <main className="flex-1 py-12 sm:py-16">{children}</main>
-          <Footer />
+        <div className="flex min-h-screen flex-col">
+          <div className="mx-auto w-full max-w-prose px-6 pt-8 sm:pt-10">
+            <Header />
+          </div>
+          <main className="flex-1">{children}</main>
+          <div className="mx-auto w-full max-w-prose px-6 pb-8 sm:pb-10">
+            <Footer />
+          </div>
         </div>
         <Analytics />
         <SpeedInsights />

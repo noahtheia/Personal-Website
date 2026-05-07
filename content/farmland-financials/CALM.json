@@ -1,0 +1,103 @@
+{
+  "ticker": "CALM",
+  "currency": "USD",
+  "sourceUrl": "https://ir.calmainefoods.com/sec-filings",
+  "notes": "Cal-Maine Foods (NASDAQ: CALM) — largest US shell egg producer (~20% market share). Fiscal year ends Saturday closest to May 31 (early June). Highly cyclical — earnings track the cage-free wholesale egg price (Urner Barry index). HPAI (avian influenza) outbreaks 2022-23 and 2024-25 disrupted supply, driving record egg prices. Dividend = 1/3 of net income (no fixed rate). No long-term debt. CIK 16933.",
+  "periods": [
+    {
+      "endDate": "2020-05-30",
+      "periodType": "FY",
+      "revenueMM": 1352,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1198,
+        "SG&A": 168,
+        "D&A": 51,
+        "Other": 0
+      },
+      "ebitdaMM": 25,
+      "netDebtMM": -55,
+      "totalDebtMM": 0,
+      "cashMM": 55,
+      "sharesOutMM": 48.4,
+      "bookValuePerShare": 14.91,
+      "dividendPerShare": 0,
+      "notes": "FY20 (ended May 30 2020): revenue $1.35B. Net loss $-3.0M (no dividends, per 1/3 NI policy). Pandemic egg price spike."
+    },
+    {
+      "endDate": "2021-05-29",
+      "periodType": "FY",
+      "revenueMM": 1336,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1225,
+        "SG&A": 142,
+        "D&A": 53,
+        "Other": 0
+      },
+      "ebitdaMM": 22,
+      "netDebtMM": -49,
+      "totalDebtMM": 0,
+      "cashMM": 49,
+      "sharesOutMM": 48.4,
+      "bookValuePerShare": 14.46,
+      "dividendPerShare": 0.04,
+      "notes": "FY21 (ended May 29 2021): revenue $1.34B. Net loss $-2.6M. Minor dividend resumed."
+    },
+    {
+      "endDate": "2022-05-28",
+      "periodType": "FY",
+      "revenueMM": 1779,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1441,
+        "SG&A": 142,
+        "D&A": 55,
+        "Other": 0
+      },
+      "ebitdaMM": 254,
+      "netDebtMM": -167,
+      "totalDebtMM": 0,
+      "cashMM": 167,
+      "sharesOutMM": 48.6,
+      "bookValuePerShare": 16.61,
+      "dividendPerShare": 0.94,
+      "notes": "FY22 (ended May 28 2022): revenue $1.78B (+33%). Net income $132M ($2.71/sh). HPAI driving strong pricing late in year."
+    },
+    {
+      "endDate": "2023-06-03",
+      "periodType": "FY",
+      "revenueMM": 3146,
+      "expensesBySegmentMM": {
+        "Cost of sales": 2123,
+        "SG&A": 165,
+        "D&A": 64,
+        "Other": 0
+      },
+      "ebitdaMM": 989,
+      "netDebtMM": -643,
+      "totalDebtMM": 0,
+      "cashMM": 643,
+      "sharesOutMM": 48.7,
+      "bookValuePerShare": 27.94,
+      "dividendPerShare": 5.34,
+      "notes": "FY23 (ended Jun 3 2023): revenue $3.15B (+77%). Net income $758M ($15.58/sh). Record egg prices from HPAI shortage. Dividend $5.34."
+    },
+    {
+      "endDate": "2024-06-01",
+      "periodType": "FY",
+      "revenueMM": 2324,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1934,
+        "SG&A": 137,
+        "D&A": 70,
+        "Other": 0
+      },
+      "ebitdaMM": 350,
+      "netDebtMM": -812,
+      "totalDebtMM": 0,
+      "cashMM": 812.6,
+      "sharesOutMM": 48.79,
+      "bookValuePerShare": 30.02,
+      "dividendPerShare": 1.59,
+      "notes": "FY24 (ended Jun 1 2024): revenue $2.32B (-26% normalization). Net income $148M ($3.03/sh). Acquired ISE assets. Cash pile $813M, no debt."
+    }
+  ]
+}

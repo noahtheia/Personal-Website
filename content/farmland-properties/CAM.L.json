@@ -1,0 +1,135 @@
+{
+  "ticker": "CAM.L",
+  "asOf": "2024-12-31",
+  "currency": "GBP",
+  "propertiesNote": "7-row breakdown by operating subsidiary / country. Camellia consolidates 50K+ hectares across Kenya / Malawi / Bangladesh / India / South Africa / Tanzania / UK.",
+  "properties": [
+    {
+      "name": "Kakuzi (Kenya) \u2014 avocado, macadamia, blueberry, beef, forestry",
+      "location": "Murang'a County, Kenya",
+      "acres": 22500,
+      "cropOrUse": "Avocado / macadamia / blueberry / beef / forestry",
+      "category": "Kakuzi (Kenya, Murang'a)",
+      "fmvPerAcre": 6500,
+      "fmvRationale": "Kakuzi diversified ag \u2014 avocado + macadamia premium; ~9K hectares across Thika area; Camellia owns ~50%",
+      "comparablesUsed": [
+        "KE-TEA-2024",
+        "TZ-AVO-MACADAMIA-2024"
+      ],
+      "bookValueMM": 50,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.5
+    },
+    {
+      "name": "Eastern Produce Kenya \u2014 tea estates",
+      "location": "Kericho / Nandi Hills, Kenya",
+      "acres": 27500,
+      "cropOrUse": "Tea (mature + bought-leaf operations)",
+      "category": "Kenyan tea \u2014 Eastern Produce",
+      "fmvPerAcre": 5500,
+      "fmvRationale": "Kericho/Nandi Hills mature tea; KTDA broker comps 2024",
+      "comparablesUsed": [
+        "KE-TEA-2024"
+      ],
+      "bookValueMM": 50,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.5
+    },
+    {
+      "name": "Eastern Produce Malawi \u2014 tea + macadamia",
+      "location": "Thyolo Highlands + Mulanje Mountain foothills, Malawi",
+      "acres": 25000,
+      "cropOrUse": "Tea + macadamia",
+      "category": "Malawi tea + macadamia",
+      "fmvPerAcre": 3500,
+      "fmvRationale": "Largest tea + macadamia producer in Malawi; lower per-acre vs Kenya",
+      "comparablesUsed": [
+        "KE-TEA-2024",
+        "TZ-AVO-MACADAMIA-2024"
+      ],
+      "bookValueMM": 35,
+      "capRateLow": 5.5,
+      "capRateHigh": 8.0
+    },
+    {
+      "name": "Bangladesh tea estates + 14 factories + 2 rubber facilities",
+      "location": "Sylhet region, Bangladesh",
+      "acres": 30000,
+      "cropOrUse": "Tea + rubber processing",
+      "category": "Bangladesh tea",
+      "fmvPerAcre": 3500,
+      "fmvRationale": "Sylhet mature tea estates; integrated 14-factory CTC tea production",
+      "comparablesUsed": [
+        "KE-TEA-2024"
+      ],
+      "bookValueMM": 35,
+      "capRateLow": 5.5,
+      "capRateHigh": 8.0
+    },
+    {
+      "name": "India tea (Goodricke 25% stake)",
+      "location": "Assam + West Bengal, India",
+      "acres": 5000,
+      "cropOrUse": "Tea (Goodricke equity stake)",
+      "category": "India tea (associate)",
+      "fmvPerAcre": 4000,
+      "fmvRationale": "Camellia's 25% stake in Goodricke Group plc (BSE-listed); attributed acres reflect proportional ownership",
+      "comparablesUsed": [
+        "KE-TEA-2024"
+      ],
+      "bookValueMM": 10,
+      "capRateLow": 5.5,
+      "capRateHigh": 8.0
+    },
+    {
+      "name": "South Africa + Tanzania ag operations",
+      "location": "South Africa + Tanzania",
+      "acres": 9000,
+      "cropOrUse": "Avocado + nuts + wine grapes",
+      "category": "South African + Tanzanian agriculture",
+      "fmvPerAcre": 5000,
+      "fmvRationale": "South African + Tanzanian specialty ag operations",
+      "comparablesUsed": [
+        "TZ-AVO-MACADAMIA-2024"
+      ],
+      "bookValueMM": 15,
+      "capRateLow": 5.0,
+      "capRateHigh": 7.0
+    },
+    {
+      "name": "Other / arable land in UK + minor positions",
+      "location": "UK + various",
+      "acres": 5000,
+      "cropOrUse": "Mixed arable / livestock",
+      "category": "UK + misc",
+      "fmvPerAcre": 8000,
+      "fmvRationale": "UK arable land at higher per-acre",
+      "comparablesUsed": [],
+      "bookValueMM": 5,
+      "capRateLow": 4.0,
+      "capRateHigh": 5.5
+    }
+  ],
+  "comparables": [
+    {
+      "id": "KE-TEA-2024",
+      "description": "Kenyan tea estate transactions",
+      "location": "Kericho / Nandi Hills, Kenya",
+      "pricePerAcre": 7500,
+      "date": "2024-09-15",
+      "source": "Kenya Tea Development Agency land reports 2024"
+    },
+    {
+      "id": "TZ-AVO-MACADAMIA-2024",
+      "description": "East African avocado / macadamia estate land",
+      "location": "Tanzania / Kenya highlands",
+      "pricePerAcre": 4500,
+      "date": "2024-10-01",
+      "source": "East African ag-investment reports 2024"
+    }
+  ],
+  "methodology": "Camellia plc consolidates ~50,000 hectares (~124K acres) of agricultural land across 7 countries through operating subsidiaries. The 7-row breakdown reflects each subsidiary's geography and crop profile.\n\nNotable holdings:\n- Kakuzi (Kenya, ~50% Camellia ownership, separately AIM-listed): 22.5K acres of diversified ag \u2014 avocado, macadamia, blueberry, beef, forestry \u2014 most valuable per-acre block\n- Eastern Produce Kenya: 27.5K acres of mature Kericho/Nandi Hills tea\n- Eastern Produce Malawi: 25K acres of tea + macadamia (largest in Malawi)\n- Bangladesh tea: 30K acres + 14 CTC factories + 2 rubber processing plants\n- India tea (Goodricke 25% stake): 5K acres attributed by ownership share\n- South Africa + Tanzania: 9K acres of specialty (avocado, nuts, wine grapes)\n- UK arable + misc: 5K acres\n\nCamellia's GBP 200M agricultural-segment Net PP&E carve-out is a rough estimate. Camellia consolidates non-agriculture subsidiaries (engineering, financial services) so a strict comp filter requires segment-level book value disclosure that isn't straightforward in their public reporting.\n\nMethodology caveat: Kakuzi is itself separately listed on Nairobi (KAKZ.NR) and AIM (KAKU); Camellia owns ~50% \u2014 the 22.5K acres shown here is full-economic-area (not Camellia's 50% economic share). For a strictly-Camellia-economic comp, multiply Kakuzi acres by 0.50.",
+  "noiCheckCapRateLow": 4.0,
+  "noiCheckCapRateHigh": 8.0,
+  "noiCheckLabel": "Diversified UK plc (agriculture + non-ag)"
+}

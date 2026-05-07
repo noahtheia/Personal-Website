@@ -1,0 +1,103 @@
+{
+  "ticker": "DOLE",
+  "currency": "USD",
+  "sourceUrl": "https://investors.doleplc.com/financials/sec-filings/default.aspx",
+  "notes": "Dole plc (NYSE: DOLE) — global integrated producer/distributor of fresh fruit and vegetables. Formed Jul 2021 by combining Total Produce + Dole Food Co; NYSE-listed since IPO Jul 30 2021. Three segments post-2024: Fresh Fruit (bananas, pineapples, primarily tropical), Diversified EMEA, Diversified Americas/ROW. Sold Fresh Vegetables to Chiquita Aug 2024 for $293M (formerly 4th segment, now discontinued). Owns/leases ~109K acres of banana/pineapple farms across LatAm + Africa + Asia. CIK 1858253.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 4669,
+      "expensesBySegmentMM": {
+        "Cost of sales": 4290,
+        "SG&A": 280,
+        "D&A": 105,
+        "Other": 0
+      },
+      "ebitdaMM": 290,
+      "netDebtMM": 1730,
+      "totalDebtMM": 1850,
+      "cashMM": 120,
+      "sharesOutMM": 95.0,
+      "bookValuePerShare": 11.40,
+      "dividendPerShare": 0,
+      "notes": "FY20 (pro forma — pre-merger Total Produce + Dole Food): revenue $4.67B. Combined adj EBITDA $290M. Pre-IPO baseline."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 9217,
+      "expensesBySegmentMM": {
+        "Cost of sales": 8569,
+        "SG&A": 367,
+        "D&A": 169,
+        "Other": 0
+      },
+      "ebitdaMM": 380,
+      "netDebtMM": 1255,
+      "totalDebtMM": 1404,
+      "cashMM": 149,
+      "sharesOutMM": 95.0,
+      "bookValuePerShare": 13.50,
+      "dividendPerShare": 0.16,
+      "notes": "FY21: revenue $9.22B (combined Dole + Total Produce). IPO July 2021 with $400M raise. Adj EBITDA $380M."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 9420,
+      "expensesBySegmentMM": {
+        "Cost of sales": 8765,
+        "SG&A": 369,
+        "D&A": 178,
+        "Other": 0
+      },
+      "ebitdaMM": 327,
+      "netDebtMM": 1238,
+      "totalDebtMM": 1389,
+      "cashMM": 151,
+      "sharesOutMM": 94.7,
+      "bookValuePerShare": 12.10,
+      "dividendPerShare": 0.32,
+      "notes": "FY22: revenue $9.42B (+2%). Adj EBITDA $327M. Listeria recall + Yuma freeze impacted Fresh Vegetables. FX headwinds."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 8290,
+      "expensesBySegmentMM": {
+        "Cost of sales": 7682,
+        "SG&A": 376,
+        "D&A": 174,
+        "Other": 0
+      },
+      "ebitdaMM": 363,
+      "netDebtMM": 845,
+      "totalDebtMM": 1100,
+      "cashMM": 255,
+      "sharesOutMM": 95.0,
+      "bookValuePerShare": 13.95,
+      "dividendPerShare": 0.32,
+      "notes": "FY23: revenue $8.29B. Adj EBITDA $363M (+11%). Reorganized into 3 segments. Dispose of Progressive Produce (Apr 2024)."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 8474,
+      "expensesBySegmentMM": {
+        "Cost of sales": 7790,
+        "SG&A": 408,
+        "D&A": 187,
+        "Other": 0
+      },
+      "ebitdaMM": 382,
+      "netDebtMM": 951.6,
+      "totalDebtMM": 1182,
+      "cashMM": 230.4,
+      "sharesOutMM": 95.04,
+      "bookValuePerShare": 15.50,
+      "dividendPerShare": 0.32,
+      "notes": "FY24: revenue $8.47B (continuing ops). Adj EBITDA $382M (+5%). Sold Fresh Vegetables to Chiquita Aug 2024 for $293M (now discontinued ops). Net income $148M ($1.56/sh). 109K owned/leased acres tropical."
+    }
+  ]
+}

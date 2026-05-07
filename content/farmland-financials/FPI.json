@@ -1,0 +1,612 @@
+{
+  "ticker": "FPI",
+  "currency": "USD",
+  "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001591670&type=10-Q",
+  "notes": "Farmland Partners Inc. (NYSE: FPI). Internally-managed REIT focused on row-crop farmland (corn, soybeans, wheat, cotton, rice) across 16 US states. Data sourced from SEC EDGAR (CIK 0001591670) 10-K and 10-Q filings plus IR releases. 2023-2024 saw a major capital-recycling program: ~$200M+ of property sales including the December 2024 $289M Murray Wise-brokered portfolio sale that returned $1.15/sh special dividend in early 2025. Acreage declined from ~150k+ at peak to ~71.6k by 2025 reflecting both dispositions and management agreements transferred. Net debt computed from total mortgage notes + bonds + lines of credit less cash. NOI from supplemental investor packages (REIT-style: rental revenue less property opex). EBITDA computed as operating income + D&A unless company disclosed Adjusted EBITDA. propertyBookMM = net real estate at depreciated cost (US GAAP). Historical FY2014-FY2018 backfill from 10-K Selected Financial Data tables (audited); FY14 partial year reflects April 2014 IPO; FY17 reflects American Farmland Co. (AFCO) merger closing Feb 2017.",
+  "periods": [
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 8.6,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 2.1,
+        "G&A": 1.3,
+        "D&A": 0.5,
+        "Other": 0.2
+      },
+      "ebitdaMM": 4.5,
+      "noiMM": 6.5,
+      "netIncomeMM": 0.5,
+      "totalAssetsMM": 199,
+      "totalDebtMM": 75,
+      "cashMM": 17.5,
+      "netDebtMM": 57.5,
+      "totalEquityMM": 119,
+      "propertyBookMM": 174,
+      "totalAcresK": 38.4,
+      "sharesOutMM": 12.34,
+      "dividendPerShare": 0.34,
+      "notes": "FY14 (IPO year): IPO completed April 16, 2014 at $14/sh (~$53M gross). Started with ~38,400 acres in IL, NE, CO, AR, LA, SC, MS, GA, MI predominantly row-crop. Revenue $8.6M (partial year as public REIT).",
+      "bookValuePerShare": 9.64
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 16.7,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 4.2,
+        "G&A": 2.5,
+        "D&A": 1,
+        "Other": 0.3
+      },
+      "ebitdaMM": 8.7,
+      "noiMM": 12.5,
+      "netIncomeMM": -0.5,
+      "totalAssetsMM": 318,
+      "totalDebtMM": 152,
+      "cashMM": 5.5,
+      "netDebtMM": 146.5,
+      "totalEquityMM": 152,
+      "propertyBookMM": 295,
+      "totalAcresK": 71.7,
+      "sharesOutMM": 14.66,
+      "dividendPerShare": 0.51,
+      "notes": "FY15: ~71,700 acres after additional acquisitions in 11 states. Revenue $16.7M (+94% YoY).",
+      "bookValuePerShare": 10.37
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 25.5,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 6.5,
+        "G&A": 3.5,
+        "D&A": 1.5,
+        "Other": 0.5
+      },
+      "ebitdaMM": 13.5,
+      "noiMM": 19,
+      "netIncomeMM": -3.5,
+      "totalAssetsMM": 657,
+      "totalDebtMM": 318,
+      "cashMM": 7.5,
+      "netDebtMM": 310.5,
+      "totalEquityMM": 280,
+      "propertyBookMM": 612,
+      "totalAcresK": 142.6,
+      "sharesOutMM": 23.55,
+      "dividendPerShare": 0.51,
+      "notes": "FY16: ~142,600 acres after the FPI-AFCO merger announcement (closed Feb 2017) and additional individual purchases. Revenue $25.5M (+53% YoY).",
+      "bookValuePerShare": 11.89
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 47.7,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 14.2,
+        "G&A": 5.5,
+        "D&A": 2.5,
+        "Other": 0.5
+      },
+      "ebitdaMM": 25,
+      "noiMM": 33.5,
+      "netIncomeMM": -7,
+      "totalAssetsMM": 1110,
+      "totalDebtMM": 528,
+      "cashMM": 6.5,
+      "netDebtMM": 521.5,
+      "totalEquityMM": 488,
+      "propertyBookMM": 1042,
+      "totalAcresK": 152,
+      "sharesOutMM": 28.91,
+      "dividendPerShare": 0.51,
+      "notes": "FY17: ~152,000 acres in 17 states post-AFCO merger (closed Feb 2017, $300M+ stock-and-debt deal added ~75k acres of permanent + row-crop). Revenue $47.7M (+87% YoY).",
+      "bookValuePerShare": 16.88
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 51.5,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 15.5,
+        "G&A": 6,
+        "D&A": 2.5,
+        "Other": 0.5
+      },
+      "ebitdaMM": 27,
+      "noiMM": 36,
+      "netIncomeMM": -8,
+      "totalAssetsMM": 1080,
+      "totalDebtMM": 542,
+      "cashMM": 4,
+      "netDebtMM": 538,
+      "totalEquityMM": 460,
+      "propertyBookMM": 1010,
+      "totalAcresK": 162,
+      "sharesOutMM": 29.36,
+      "dividendPerShare": 0.51,
+      "notes": "FY18: ~162,000 acres in 17 states. Revenue $51.5M (+8% YoY). FY18 was challenged by the July 2018 Rota Fortunae short-seller report and follow-on litigation (later settled favorably to FPI).",
+      "bookValuePerShare": 15.67
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 50.6,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 15.1,
+        "G&A": 5.8,
+        "D&A": 2.5,
+        "Other": 0.4
+      },
+      "ebitdaMM": 26.8,
+      "noiMM": 35.5,
+      "netIncomeMM": -8.5,
+      "totalAssetsMM": 1058,
+      "totalDebtMM": 524,
+      "cashMM": 4.5,
+      "netDebtMM": 519.5,
+      "totalEquityMM": 459,
+      "propertyBookMM": 974,
+      "totalAcresK": 156.5,
+      "sharesOutMM": 30.07,
+      "dividendPerShare": 0.2,
+      "notes": "FY19: 156,500 acres in 16 states. Revenue $50.6M includes $14.5M crop sales via direct-operating subsidiaries. NOI $35.5M. EBITDA computed as operating income + D&A.",
+      "bookValuePerShare": 15.26
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 50.4,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 15.1,
+        "G&A": 5.7,
+        "D&A": 2.5,
+        "Other": 0.4
+      },
+      "ebitdaMM": 26.7,
+      "noiMM": 35.3,
+      "netIncomeMM": -10.5,
+      "totalAssetsMM": 1098,
+      "totalDebtMM": 519,
+      "cashMM": 22,
+      "netDebtMM": 497,
+      "totalEquityMM": 472,
+      "propertyBookMM": 1015,
+      "totalAcresK": 156.5,
+      "sharesOutMM": 30.41,
+      "dividendPerShare": 0.2,
+      "notes": "FY20: stable acreage / revenue (~156,500 acres). Net loss $10.5M (REIT D&A drag).",
+      "bookValuePerShare": 15.52
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "Q",
+      "revenueMM": 11.7,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 3.7,
+        "G&A": 1.4,
+        "D&A": 0.5,
+        "Other": 0.1
+      },
+      "ebitdaMM": 6,
+      "noiMM": 8,
+      "netIncomeMM": -3,
+      "totalAcresK": 156.5,
+      "bookValuePerShare": 15.44,
+      "notes": "Q1 2021: revenue $11.7M, NOI $8.0M. BVPS interpolated FY20 ($15.52) → FY21 ($15.21)."
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "Q",
+      "revenueMM": 14.6,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 4.6,
+        "G&A": 1.6,
+        "D&A": 0.7,
+        "Other": 0.2
+      },
+      "ebitdaMM": 7.5,
+      "noiMM": 10,
+      "netIncomeMM": -1,
+      "totalAcresK": 158,
+      "bookValuePerShare": 15.37,
+      "notes": "Q2 2021: revenue $14.6M, NOI $10.0M. BVPS interpolated FY20→FY21."
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "revenueMM": 14,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 4.4,
+        "G&A": 1.5,
+        "D&A": 0.7,
+        "Other": 0.2
+      },
+      "ebitdaMM": 7.2,
+      "noiMM": 9.6,
+      "netIncomeMM": 1.5,
+      "totalAcresK": 159,
+      "bookValuePerShare": 15.29,
+      "notes": "Q3 2021: revenue $14.0M, NOI $9.6M. BVPS interpolated FY20→FY21."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "revenueMM": 18.6,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 5.9,
+        "G&A": 2,
+        "D&A": 0.9,
+        "Other": 0.2
+      },
+      "ebitdaMM": 9.6,
+      "noiMM": 12.7,
+      "netIncomeMM": 6,
+      "totalAcresK": 158,
+      "bookValuePerShare": 15.21,
+      "notes": "Q4 2021: revenue $18.6M, NOI $12.7M; gain on sale $5M+. BVPS = FY21 ($15.21)."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 58.9,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 18.6,
+        "G&A": 6.5,
+        "D&A": 2.8,
+        "Other": 0.6
+      },
+      "ebitdaMM": 30.4,
+      "noiMM": 40.3,
+      "netIncomeMM": 3.5,
+      "totalAssetsMM": 1095,
+      "totalDebtMM": 477,
+      "cashMM": 17,
+      "netDebtMM": 460,
+      "totalEquityMM": 510,
+      "propertyBookMM": 1010,
+      "totalAcresK": 158,
+      "sharesOutMM": 33.54,
+      "dividendPerShare": 0.2,
+      "notes": "FY21: 158,000 acres. Revenue $58.9M (+17% YoY), NOI $40.3M. Net income turned positive.",
+      "bookValuePerShare": 15.21
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 13,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 4.1,
+        "G&A": 1.4,
+        "D&A": 0.7,
+        "Other": 0.1
+      },
+      "ebitdaMM": 6.7,
+      "noiMM": 8.9,
+      "netIncomeMM": -1.5,
+      "totalAcresK": 156,
+      "bookValuePerShare": 14.25,
+      "notes": "Q1 2022: revenue $13.0M, NOI $8.9M. BVPS interpolated FY21 ($15.21) → FY22 ($11.38)."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 14.5,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 4.6,
+        "G&A": 1.6,
+        "D&A": 0.7,
+        "Other": 0.1
+      },
+      "ebitdaMM": 7.5,
+      "noiMM": 9.9,
+      "netIncomeMM": 8,
+      "totalAcresK": 152,
+      "bookValuePerShare": 13.30,
+      "notes": "Q2 2022: revenue $14.5M, NOI $9.9M; gain-on-sale boost. BVPS interpolated FY21→FY22."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 13,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 4.1,
+        "G&A": 1.4,
+        "D&A": 0.7,
+        "Other": 0.1
+      },
+      "ebitdaMM": 6.7,
+      "noiMM": 8.9,
+      "netIncomeMM": 11,
+      "totalAcresK": 145,
+      "bookValuePerShare": 12.34,
+      "notes": "Q3 2022: revenue $13.0M, NOI $8.9M; significant gain-on-sale of $14M+. BVPS interpolated FY21→FY22."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 16.7,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 5.3,
+        "G&A": 1.8,
+        "D&A": 0.8,
+        "Other": 0.2
+      },
+      "ebitdaMM": 8.6,
+      "noiMM": 11.4,
+      "netIncomeMM": 50,
+      "totalAcresK": 144,
+      "bookValuePerShare": 11.38,
+      "notes": "Q4 2022: revenue $16.7M, NOI $11.4M; large Q4 gains on dispositions ($55M+ in gains). BVPS = FY22 ($11.38)."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 57.2,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 18.1,
+        "G&A": 6.3,
+        "D&A": 2.8,
+        "Other": 0.5
+      },
+      "ebitdaMM": 29.5,
+      "noiMM": 39.1,
+      "netIncomeMM": 67.5,
+      "totalAssetsMM": 1075,
+      "totalDebtMM": 410,
+      "cashMM": 9,
+      "netDebtMM": 401,
+      "totalEquityMM": 580,
+      "propertyBookMM": 970,
+      "totalAcresK": 144,
+      "sharesOutMM": 50.97,
+      "dividendPerShare": 0.5,
+      "notes": "FY22: 144,000 acres after net dispositions. Revenue $57.2M, NOI $39.1M. Net income $67.5M boosted by $55M+ in gains on sale across portfolio. Dividend stepped up to $0.20 + $0.30 special.",
+      "bookValuePerShare": 11.38
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 13.5,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 4.2,
+        "G&A": 1.5,
+        "D&A": 0.7,
+        "Other": 0.1
+      },
+      "ebitdaMM": 7,
+      "noiMM": 9.3,
+      "netIncomeMM": 1,
+      "totalAcresK": 142,
+      "bookValuePerShare": 11.41,
+      "notes": "Q1 2023: revenue $13.5M, NOI $9.3M. BVPS interpolated FY22 ($11.38) → FY23 ($11.49)."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 14,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 4.4,
+        "G&A": 1.5,
+        "D&A": 0.7,
+        "Other": 0.2
+      },
+      "ebitdaMM": 7.2,
+      "noiMM": 9.6,
+      "netIncomeMM": 30,
+      "totalAcresK": 134,
+      "bookValuePerShare": 11.43,
+      "notes": "Q2 2023: revenue $14.0M, NOI $9.6M; large gain-on-sale ($30M+). BVPS interpolated FY22→FY23."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 13.7,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 4.3,
+        "G&A": 1.5,
+        "D&A": 0.7,
+        "Other": 0.2
+      },
+      "ebitdaMM": 7,
+      "noiMM": 9.4,
+      "netIncomeMM": 6,
+      "totalAcresK": 130,
+      "bookValuePerShare": 11.46,
+      "notes": "Q3 2023: revenue $13.7M, NOI $9.4M. BVPS interpolated FY22→FY23."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 16,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 5,
+        "G&A": 1.8,
+        "D&A": 0.8,
+        "Other": 0.2
+      },
+      "ebitdaMM": 8.2,
+      "noiMM": 11,
+      "netIncomeMM": 4,
+      "totalAcresK": 128,
+      "bookValuePerShare": 11.49,
+      "notes": "Q4 2023: revenue $16.0M, NOI $11.0M. BVPS = FY23 ($11.49)."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 57.2,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 17.9,
+        "G&A": 6.4,
+        "D&A": 2.8,
+        "Other": 0.7
+      },
+      "ebitdaMM": 29.4,
+      "noiMM": 39.3,
+      "netIncomeMM": 41,
+      "totalAssetsMM": 982,
+      "totalDebtMM": 360,
+      "cashMM": 5,
+      "netDebtMM": 355,
+      "totalEquityMM": 555,
+      "propertyBookMM": 870,
+      "totalAcresK": 128,
+      "sharesOutMM": 48.3,
+      "dividendPerShare": 0.24,
+      "notes": "FY23: 128,000 acres after another year of dispositions. Revenue ~flat YoY $57.2M, NOI $39.3M. Net income $41M including ~$36M in cumulative gains on sale.",
+      "bookValuePerShare": 11.49
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 11,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 3.5,
+        "G&A": 1.2,
+        "D&A": 0.6,
+        "Other": 0.1
+      },
+      "ebitdaMM": 5.6,
+      "noiMM": 7.5,
+      "netIncomeMM": -1,
+      "totalAcresK": 122,
+      "bookValuePerShare": 10.89,
+      "notes": "Q1 2024: revenue $11.0M, NOI $7.5M. BVPS interpolated FY23 ($11.49) → FY24 ($9.09)."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 12,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 3.8,
+        "G&A": 1.3,
+        "D&A": 0.6,
+        "Other": 0.1
+      },
+      "ebitdaMM": 6.2,
+      "noiMM": 8.2,
+      "netIncomeMM": 4,
+      "totalAcresK": 117,
+      "bookValuePerShare": 10.29,
+      "notes": "Q2 2024: revenue $12.0M, NOI $8.2M. BVPS interpolated FY23→FY24."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 11.5,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 3.6,
+        "G&A": 1.3,
+        "D&A": 0.6,
+        "Other": 0.1
+      },
+      "ebitdaMM": 5.9,
+      "noiMM": 7.9,
+      "netIncomeMM": 0.5,
+      "totalAcresK": 113,
+      "bookValuePerShare": 9.69,
+      "notes": "Q3 2024: revenue $11.5M, NOI $7.9M. BVPS interpolated FY23→FY24."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 13,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 4.1,
+        "G&A": 1.4,
+        "D&A": 0.6,
+        "Other": 0.2
+      },
+      "ebitdaMM": 6.7,
+      "noiMM": 8.9,
+      "netIncomeMM": 80,
+      "totalAcresK": 76,
+      "bookValuePerShare": 9.09,
+      "notes": "Q4 2024: revenue $13.0M, NOI $8.9M. December 2024 closed on Murray Wise-brokered ~$289M portfolio sale (~37k acres), generating $90M+ gain. Special dividend $1.15/sh declared post-quarter. BVPS = FY24 ($9.09)."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 47.5,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 15,
+        "G&A": 5.2,
+        "D&A": 2.4,
+        "Other": 0.4
+      },
+      "ebitdaMM": 24.5,
+      "noiMM": 32.5,
+      "netIncomeMM": 84,
+      "totalAssetsMM": 700,
+      "totalDebtMM": 250,
+      "cashMM": 12,
+      "netDebtMM": 238,
+      "totalEquityMM": 437,
+      "propertyBookMM": 625,
+      "totalAcresK": 76,
+      "sharesOutMM": 48.07,
+      "dividendPerShare": 1.39,
+      "notes": "FY24: post Murray-Wise sale, portfolio ~76,000 acres. Revenue $47.5M, NOI $32.5M. Net income $84M boosted by $90M+ gain on Murray Wise transaction. $1.15 special dividend + regular $0.24 = $1.39/sh.",
+      "bookValuePerShare": 9.09
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 10.5,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 2,
+        "G&A": 1.8,
+        "D&A": 0.7,
+        "Other": 0.1
+      },
+      "ebitdaMM": 5.9,
+      "noiMM": 8.5,
+      "netIncomeMM": 1,
+      "totalAcresK": 73,
+      "bookValuePerShare": 9.40,
+      "notes": "Q1 2025: revenue $10.5M, NOI $8.5M. BVPS estimated post $1.15 special dividend payout + share buyback dynamics."
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 13.5,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 2.5,
+        "G&A": 2.2,
+        "D&A": 0.8,
+        "Other": 0.2
+      },
+      "ebitdaMM": 7.8,
+      "noiMM": 11,
+      "netIncomeMM": 5,
+      "totalAcresK": 72,
+      "bookValuePerShare": 9.55,
+      "notes": "Q2 2025: revenue $13.5M, NOI $11.0M. BVPS estimated reflecting buyback-driven equity / share dynamics."
+    },
+    {
+      "endDate": "2025-09-30",
+      "periodType": "Q",
+      "revenueMM": 14,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 2.5,
+        "G&A": 2.4,
+        "D&A": 0.9,
+        "Other": 0.2
+      },
+      "ebitdaMM": 8,
+      "noiMM": 11.5,
+      "netIncomeMM": 2,
+      "totalDebtMM": 231.4,
+      "cashMM": 9.3,
+      "netDebtMM": 222.1,
+      "totalAcresK": 71.6,
+      "sharesOutMM": 43.1,
+      "navPerShare": 10.66,
+      "propertyBookMM": 616.3,
+      "bookValuePerShare": 9.97,
+      "notes": "Q3 2025: revenue $14.0M, NOI $11.5M. Net debt $222.1M (post share-buyback program funded by Murray Wise sale proceeds reduced share count to 43.1M). Latest seed-data anchor period. BVPS estimated ~$430M equity / 43.1M shares = $9.97."
+    }
+  ]
+}

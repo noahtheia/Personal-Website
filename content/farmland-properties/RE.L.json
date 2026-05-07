@@ -1,0 +1,107 @@
+{
+  "ticker": "RE.L",
+  "asOf": "2024-12-31",
+  "currency": "USD",
+  "propertiesNote": "3-row breakdown by maturity tier within East Kalimantan single-region operator.",
+  "properties": [
+    {
+      "name": "PT REA Kaltim mature plantations + mills (1 + 2)",
+      "location": "East Kalimantan, Indonesia",
+      "acres": 50000,
+      "cropOrUse": "Mature oil palm + 3 mills",
+      "category": "Indonesian palm \u2014 Kaltim mature",
+      "fmvPerAcre": 5500,
+      "fmvRationale": "REA's core Kaltim mature estate with 3 mills",
+      "comparablesUsed": [
+        "ID-PALM-KALIMANTAN-2024",
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 240,
+      "fmvPerAcreLow": 4400.0,
+      "fmvPerAcreHigh": 6600.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
+    },
+    {
+      "name": "East Kalimantan immature + young plantings",
+      "location": "East Kalimantan, Indonesia",
+      "acres": 15000,
+      "cropOrUse": "Immature/young oil palm (3-7 years)",
+      "category": "Indonesian palm \u2014 Kaltim immature",
+      "fmvPerAcre": 4000,
+      "fmvRationale": "Younger plantings still in development; per-acre discount until full bearing",
+      "comparablesUsed": [
+        "ID-PALM-IMMATURE-2024"
+      ],
+      "bookValueMM": 40,
+      "fmvPerAcreLow": 3200.0,
+      "fmvPerAcreHigh": 4800.0,
+      "capRateLow": 10.0,
+      "capRateHigh": 14.0
+    },
+    {
+      "name": "Plasma plantations receivable + unplanted concession (smallholder partnerships)",
+      "location": "East Kalimantan, Indonesia",
+      "acres": 27600,
+      "cropOrUse": "Plasma scheme (4,300 smallholders via 51 cooperatives) + unplanted concession reserve",
+      "category": "Indonesian palm \u2014 plasma + concession (excluded from owned acres)",
+      "fmvPerAcre": 2500,
+      "fmvPerAcreLow": 2000,
+      "fmvPerAcreHigh": 3000,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 10.0,
+      "capRateHigh": 14.0,
+      "fmvRationale": "Plasma partnership land owned by 4,300 smallholder farmers (51 cooperatives) \u2014 REA buys FFB from these smallholders but doesn't own the underlying land. Plus unplanted concession reserve. Now correctly carried as excludeFromAcreTotals consistent with AALI/SIMP/P8Z/SGRO/SSMS treatment",
+      "comparablesUsed": [
+        "ID-PALM-IMMATURE-2024",
+        "REA-PLASMA-2024"
+      ],
+      "bookValueMM": 107
+    }
+  ],
+  "comparables": [
+    {
+      "id": "ID-PALM-MATURE-2024",
+      "description": "Indonesian mature oil palm with mill access",
+      "location": "Indonesia",
+      "pricePerAcre": 5000,
+      "date": "2024-09-15",
+      "source": "GAPKI 2024 reports"
+    },
+    {
+      "id": "ID-PALM-KALIMANTAN-2024",
+      "description": "East Kalimantan palm oil concession",
+      "location": "East Kalimantan",
+      "pricePerAcre": 4400,
+      "date": "2024-09-30",
+      "source": "Kalimantan palm broker comps 2024"
+    },
+    {
+      "id": "ID-PALM-IMMATURE-2024",
+      "description": "Indonesian unplanted/immature palm",
+      "location": "Indonesia",
+      "pricePerAcre": 2500,
+      "date": "2024-10-15",
+      "source": "GAPKI 2024 reports"
+    },
+    {
+      "id": "REA-CDM-DISP-2024",
+      "description": "REA's 2024 disposal of subsidiary CDM (PT Cipta Davia Mandiri) to Teladan Prima Agro: 15,238 ha (9,784 fully titled + 5,454 pending title)",
+      "location": "East Kalimantan (CDM subsidiary)",
+      "acres": 37650,
+      "pricePerAcre": 4200,
+      "date": "2024-08-15",
+      "source": "REA Holdings 2024 disposal announcement"
+    },
+    {
+      "id": "REA-PLASMA-2024",
+      "description": "REA Holdings plasma program: 4,300 smallholder farmers via 51 cooperatives — REA buys FFB from these but does not own land. Plasma carried as receivable not as land asset",
+      "location": "East Kalimantan plasma areas",
+      "acres": 27600,
+      "pricePerAcre": 2500,
+      "date": "2024-12-31",
+      "source": "REA Holdings 2024 Annual Report"
+    }
+  ],
+  "methodology": "REA Holdings operates entirely in East Kalimantan with 3 CPO mills. UK-listed ($-reporting) Indonesian palm pure-play.\n\nCRITICAL CHANGE vs prior version: Plasma row (27.6K acres = 11K ha) now correctly excluded from owned-acre totals via excludeFromAcreTotals=true. Plasma plantations are owned by 4,300 smallholder farmers via 51 cooperatives — REA purchases FFB but doesn't own the land. Consistent with how plasma is treated for AALI/SIMP/P8Z/SGRO/SSMS.\n\nDIVESTMENT NOTE: In 2024, REA agreed to sell subsidiary PT Cipta Davia Mandiri (CDM) to Teladan Prima Agro: 15,238 ha (9,784 fully titled + 5,454 pending). Continuing-group RSPO-certifiable area: 62,843 ha as of 2024.\n\n3-row breakdown by maturity:\n- Mature with-mill cluster (50K acres / ~20K ha): premium $5,500/acre, 3 CPO mills\n- Immature/young plantings (15K acres / ~6K ha): development-stage discount\n- Plasma + unplanted concession (27.6K acres / ~11K ha): excluded from owned-acre totals\n\nOwned-acre total post-plasma-carve-out: 65K acres planted (vs 92.6K including plasma). Net debt of $159M is meaningful."
+}

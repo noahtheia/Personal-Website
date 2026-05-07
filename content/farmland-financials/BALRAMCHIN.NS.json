@@ -1,0 +1,143 @@
+{
+  "ticker": "BALRAMCHIN.NS",
+  "currency": "INR",
+  "sourceUrl": "https://www.chini.com/investors/",
+  "notes": "Balrampur Chini Mills Ltd (NSE: BALRAMCHIN) — one of India's largest integrated sugar manufacturers, operating 10 sugar mills in Uttar Pradesh with combined cane crushing capacity ~80,000 TCD. Vertically integrated: sugar + distillery (~1,050 KLPD ethanol capacity, expanding to 1,320 KLPD) + co-generation power. Indian fiscal year ends March 31 (Sugar Season runs Oct–Sep, doesn't match FY). All values in INR millions (1 INR crore = INR 10 million). Source: annual reports filed with BSE/NSE, IR presentations on chini.com. Sector: Integrated Farm Operator (cane procurement from ~5 lakh contracted farmers + own sugar/ethanol/power conversion). Heavily exposed to UP State Advised Price (SAP) for cane, central ethanol blending policy (currently 20% target), and sugar diversion caps. FY22-23 strong on ethanol mix; FY24 hit by govt cap on B-heavy/cane-juice diversion; FY25 starting to recover on PSF-grade ethanol prices. Net debt elevated post PLA (PSF) and ethanol capex.",
+  "periods": [
+    {
+      "endDate": "2021-03-31",
+      "periodType": "FY",
+      "revenueMM": 50250,
+      "revenueBySegmentMM": {
+        "Sugar": 38500,
+        "Distillery (ethanol)": 8500,
+        "Power / co-gen": 3250
+      },
+      "expensesBySegmentMM": {
+        "COGS (cane + other)": 38000,
+        "Employee + G&A": 3500,
+        "D&A": 1300,
+        "Other opex": 1500
+      },
+      "ebitdaMM": 7250,
+      "netIncomeMM": 3580,
+      "totalAssetsMM": 49000,
+      "totalDebtMM": 12000,
+      "cashMM": 1500,
+      "netDebtMM": 10500,
+      "totalEquityMM": 23500,
+      "sharesOutMM": 209.8,
+      "epsBasic": 17.05,
+      "dividendPerShare": 2.5,
+      "notes": "FY21: revenue Rs 5,025 cr. EBITDA Rs 725 cr. PAT Rs 358 cr. Gradual ramp of ethanol diversion lifting margin mix vs. pure sugar."
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "FY",
+      "revenueMM": 51760,
+      "revenueBySegmentMM": {
+        "Sugar": 38000,
+        "Distillery (ethanol)": 10500,
+        "Power / co-gen": 3260
+      },
+      "expensesBySegmentMM": {
+        "COGS (cane + other)": 38500,
+        "Employee + G&A": 3800,
+        "D&A": 1300,
+        "Other opex": 1660
+      },
+      "ebitdaMM": 7500,
+      "netIncomeMM": 4940,
+      "totalAssetsMM": 51000,
+      "totalDebtMM": 11500,
+      "cashMM": 2000,
+      "netDebtMM": 9500,
+      "totalEquityMM": 26500,
+      "sharesOutMM": 209.8,
+      "epsBasic": 23.55,
+      "dividendPerShare": 2.5,
+      "notes": "FY22: revenue Rs 5,176 cr (+3%). EBITDA Rs 750 cr. PAT Rs 494 cr. Ethanol mix continuing to expand."
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "FY",
+      "revenueMM": 56240,
+      "revenueBySegmentMM": {
+        "Sugar": 39500,
+        "Distillery (ethanol)": 13500,
+        "Power / co-gen": 3240
+      },
+      "expensesBySegmentMM": {
+        "COGS (cane + other)": 41500,
+        "Employee + G&A": 4200,
+        "D&A": 1500,
+        "Other opex": 1840
+      },
+      "ebitdaMM": 7200,
+      "netIncomeMM": 5400,
+      "totalAssetsMM": 56500,
+      "totalDebtMM": 13000,
+      "cashMM": 1800,
+      "netDebtMM": 11200,
+      "totalEquityMM": 29500,
+      "sharesOutMM": 209.8,
+      "epsBasic": 25.74,
+      "dividendPerShare": 3.0,
+      "notes": "FY23: revenue Rs 5,624 cr (+9%). EBITDA Rs 720 cr. PAT Rs 540 cr. PLA (Maizapur) commissioning + Balrampur PLA bracket. Ethanol diversion peak."
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "FY",
+      "revenueMM": 56500,
+      "revenueBySegmentMM": {
+        "Sugar": 41500,
+        "Distillery (ethanol)": 12000,
+        "Power / co-gen": 3000
+      },
+      "expensesBySegmentMM": {
+        "COGS (cane + other)": 43000,
+        "Employee + G&A": 4500,
+        "D&A": 1700,
+        "Other opex": 2300
+      },
+      "ebitdaMM": 5000,
+      "netIncomeMM": 2160,
+      "totalAssetsMM": 60500,
+      "totalDebtMM": 13500,
+      "cashMM": 1500,
+      "netDebtMM": 12000,
+      "totalEquityMM": 31000,
+      "sharesOutMM": 201.7,
+      "epsBasic": 10.71,
+      "dividendPerShare": 2.5,
+      "notes": "FY24: revenue Rs 5,650 cr (+1%). EBITDA dropped to Rs 500 cr (-31% YoY) on government's Dec-2023 ban on cane-juice/B-heavy ethanol diversion. PAT Rs 216 cr. Tough year for industry. Buyback completed (~8M shares)."
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "FY",
+      "revenueMM": 58000,
+      "revenueBySegmentMM": {
+        "Sugar": 42500,
+        "Distillery (ethanol)": 12500,
+        "Power / co-gen": 3000
+      },
+      "expensesBySegmentMM": {
+        "COGS (cane + other)": 44000,
+        "Employee + G&A": 4700,
+        "D&A": 1800,
+        "Other opex": 1500
+      },
+      "ebitdaMM": 6000,
+      "netIncomeMM": 1330,
+      "totalAssetsMM": 62500,
+      "totalDebtMM": 12500,
+      "cashMM": 1500,
+      "netDebtMM": 11000,
+      "totalEquityMM": 32000,
+      "sharesOutMM": 201.7,
+      "epsBasic": 6.6,
+      "dividendPerShare": 3.0,
+      "notes": "FY25: revenue Rs 5,800 cr (+3%). EBITDA Rs 600 cr (+20% YoY). PAT Rs 133 cr. Ethanol diversion partially restored; PSF-grade ethanol pricing supportive. Maizapur PSF capex weighing on D&A."
+    }
+  ]
+}

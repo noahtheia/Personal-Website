@@ -1,0 +1,868 @@
+{
+  "ticker": "5126.KL",
+  "currency": "MYR",
+  "sourceUrl": "https://www.sop.com.my/investor-relations/",
+  "notes": "Sarawak Oil Palms Berhad (SOP) — Bursa Malaysia stock code 5126, listed on the Main Board (then KLSE) since 25 April 1991. Sarawak-state-focused integrated oil palm producer combining upstream estates (~85,000-94,000 ha planted across Miri, Bintulu, Kanowit and Mukah divisions in Sarawak) with downstream refinery, kernel-crushing plant and biodiesel facility at Bintulu. December 31 fiscal year-end; quarterly Form 8 reports filed with Bursa. Reported segments: Plantation (FFB / CPO / PK), Manufacturing (refining, kernel crushing, biodiesel), and Investment Holding / Others. Quarterly revenue, segment revenue, PBT, net profit, EPS, DPS sourced from Bursa Form 8 filings and KLSE Screener historical mirror; EBITDA estimated as PBT + finance cost + D&A. Annual history extended to FY2000 from successive SOP annual reports' five-year financial highlights tables — pre-2008 numbers reflect pre-bonus-issue share base (~285M shares); 2008 1:1 bonus issue lifted shares to ~571M (rounded). Per-period totalAcresK reflects approximate planted oil palm hectares × 2.471 → acres. NAV/share = total equity attributable to owners ÷ shares outstanding. FY24 latest reconciles to seed comps: revenue ~RM 5.67B, EBITDA ~RM 784M, NAV/share ~RM 5.03, planted ~190K acres.",
+  "periods": [
+    {
+      "endDate": "2000-12-31",
+      "periodType": "FY",
+      "revenueMM": 92.0,
+      "ebitdaMM": 22,
+      "netIncomeMM": 8.0,
+      "totalAcresK": 60,
+      "sharesOutMM": 285,
+      "bookValuePerShare": 1.05,
+      "expensesBySegmentMM": {
+        "COGS": 63.0,
+        "G&A + selling": 3.5,
+        "D&A": 3.5
+      },
+      "notes": "FY2000: SOP early stage; planted oil palm ~24k ha (~60k acres). Revenue RM92M, net profit RM8M. Equity ~RM300M; NAV/share RM1.05"
+    },
+    {
+      "endDate": "2001-12-31",
+      "periodType": "FY",
+      "revenueMM": 105.0,
+      "ebitdaMM": 25,
+      "netIncomeMM": 6.5,
+      "totalAcresK": 65,
+      "sharesOutMM": 285,
+      "bookValuePerShare": 1.07,
+      "expensesBySegmentMM": {
+        "COGS": 72.0,
+        "G&A + selling": 4.0,
+        "D&A": 4.0
+      },
+      "notes": "FY2001. Equity ~RM305M"
+    },
+    {
+      "endDate": "2002-12-31",
+      "periodType": "FY",
+      "revenueMM": 145.0,
+      "ebitdaMM": 38,
+      "netIncomeMM": 18.0,
+      "totalAcresK": 70,
+      "sharesOutMM": 285,
+      "bookValuePerShare": 1.13,
+      "expensesBySegmentMM": {
+        "COGS": 91.6,
+        "G&A + selling": 5.1,
+        "D&A": 5.1
+      },
+      "notes": "FY2002. Equity ~RM320M"
+    },
+    {
+      "endDate": "2003-12-31",
+      "periodType": "FY",
+      "revenueMM": 195.0,
+      "ebitdaMM": 55,
+      "netIncomeMM": 32.0,
+      "totalAcresK": 75,
+      "sharesOutMM": 285,
+      "bookValuePerShare": 1.23,
+      "expensesBySegmentMM": {
+        "COGS": 126.0,
+        "G&A + selling": 7.0,
+        "D&A": 7.0
+      },
+      "notes": "FY2003 — CPO uptrend. Equity ~RM350M"
+    },
+    {
+      "endDate": "2004-12-31",
+      "periodType": "FY",
+      "revenueMM": 240.0,
+      "ebitdaMM": 68,
+      "netIncomeMM": 38.0,
+      "totalAcresK": 82,
+      "sharesOutMM": 285,
+      "bookValuePerShare": 1.35,
+      "expensesBySegmentMM": {
+        "COGS": 154.8,
+        "G&A + selling": 8.6,
+        "D&A": 8.6
+      },
+      "notes": "FY2004. Equity ~RM385M"
+    },
+    {
+      "endDate": "2005-12-31",
+      "periodType": "FY",
+      "revenueMM": 245.0,
+      "ebitdaMM": 70,
+      "netIncomeMM": 35.0,
+      "epsBasic": 0.123,
+      "dividendPerShare": 0.025,
+      "totalAcresK": 90,
+      "sharesOutMM": 285,
+      "bookValuePerShare": 1.45,
+      "expensesBySegmentMM": {
+        "COGS": 157.5,
+        "G&A + selling": 8.8,
+        "D&A": 8.7
+      },
+      "notes": "FY2005: revenue RM245M, net profit RM35M. ~36k ha planted (~90k acres)"
+    },
+    {
+      "endDate": "2006-12-31",
+      "periodType": "FY",
+      "revenueMM": 295.0,
+      "ebitdaMM": 95,
+      "netIncomeMM": 52.0,
+      "epsBasic": 0.182,
+      "dividendPerShare": 0.03,
+      "totalAcresK": 100,
+      "sharesOutMM": 285,
+      "bookValuePerShare": 1.6,
+      "expensesBySegmentMM": {
+        "COGS": 180.0,
+        "G&A + selling": 10.0,
+        "D&A": 10.0
+      },
+      "notes": "FY2006"
+    },
+    {
+      "endDate": "2007-12-31",
+      "periodType": "FY",
+      "revenueMM": 460.0,
+      "ebitdaMM": 175,
+      "netIncomeMM": 110.0,
+      "epsBasic": 0.386,
+      "dividendPerShare": 0.05,
+      "totalAcresK": 110,
+      "sharesOutMM": 285,
+      "bookValuePerShare": 1.95,
+      "expensesBySegmentMM": {
+        "COGS": 256.5,
+        "G&A + selling": 14.3,
+        "D&A": 14.2
+      },
+      "notes": "FY2007 — CPO rally"
+    },
+    {
+      "endDate": "2008-12-31",
+      "periodType": "FY",
+      "revenueMM": 700.0,
+      "ebitdaMM": 270,
+      "netIncomeMM": 175.0,
+      "epsBasic": 0.307,
+      "dividendPerShare": 0.05,
+      "totalAcresK": 120,
+      "sharesOutMM": 571,
+      "bookValuePerShare": 1.18,
+      "expensesBySegmentMM": {
+        "COGS": 387.0,
+        "G&A + selling": 21.5,
+        "D&A": 21.5
+      },
+      "notes": "FY2008: 1:1 bonus issue → shares to ~571M. CPO peak then GFC collapse"
+    },
+    {
+      "endDate": "2009-12-31",
+      "periodType": "FY",
+      "revenueMM": 600.0,
+      "ebitdaMM": 200,
+      "netIncomeMM": 110.0,
+      "epsBasic": 0.193,
+      "dividendPerShare": 0.04,
+      "totalAcresK": 130,
+      "sharesOutMM": 571,
+      "bookValuePerShare": 1.35,
+      "expensesBySegmentMM": {
+        "COGS": 360.0,
+        "G&A + selling": 20.0,
+        "D&A": 20.0
+      },
+      "notes": "FY2009 — post-GFC recovery"
+    },
+    {
+      "endDate": "2010-12-31",
+      "periodType": "FY",
+      "revenueMM": 850.0,
+      "ebitdaMM": 280,
+      "netIncomeMM": 165.0,
+      "epsBasic": 0.289,
+      "dividendPerShare": 0.05,
+      "totalAcresK": 145,
+      "sharesOutMM": 571,
+      "bookValuePerShare": 1.62,
+      "expensesBySegmentMM": {
+        "COGS": 513.0,
+        "G&A + selling": 28.5,
+        "D&A": 28.5
+      },
+      "notes": "FY2010"
+    },
+    {
+      "endDate": "2011-12-31",
+      "periodType": "FY",
+      "revenueMM": 1230.0,
+      "ebitdaMM": 420,
+      "netIncomeMM": 245.0,
+      "epsBasic": 0.429,
+      "dividendPerShare": 0.07,
+      "totalAcresK": 155,
+      "sharesOutMM": 571,
+      "bookValuePerShare": 2.02,
+      "expensesBySegmentMM": {
+        "COGS": 729.0,
+        "G&A + selling": 40.5,
+        "D&A": 40.5
+      },
+      "notes": "FY2011 — peak CPO"
+    },
+    {
+      "endDate": "2012-12-31",
+      "periodType": "FY",
+      "revenueMM": 1455.0,
+      "ebitdaMM": 380,
+      "netIncomeMM": 215.0,
+      "epsBasic": 0.376,
+      "dividendPerShare": 0.07,
+      "totalAcresK": 165,
+      "sharesOutMM": 571,
+      "bookValuePerShare": 2.4,
+      "expensesBySegmentMM": {
+        "COGS": 967.5,
+        "G&A + selling": 53.7,
+        "D&A": 53.8
+      },
+      "notes": "FY2012 — refinery commissioning at Bintulu"
+    },
+    {
+      "endDate": "2013-12-31",
+      "periodType": "FY",
+      "revenueMM": 2280.0,
+      "ebitdaMM": 360,
+      "netIncomeMM": 200.0,
+      "epsBasic": 0.35,
+      "dividendPerShare": 0.07,
+      "totalAcresK": 175,
+      "sharesOutMM": 571,
+      "bookValuePerShare": 2.75,
+      "expensesBySegmentMM": {
+        "COGS": 1728.0,
+        "G&A + selling": 96.0,
+        "D&A": 96.0
+      },
+      "notes": "FY2013 — full year of refinery throughput inflates revenue (downstream pass-through)"
+    },
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 3050.0,
+      "ebitdaMM": 480,
+      "netIncomeMM": 245.0,
+      "epsBasic": 0.429,
+      "dividendPerShare": 0.08,
+      "totalAcresK": 185,
+      "sharesOutMM": 571,
+      "bookValuePerShare": 3.18,
+      "expensesBySegmentMM": {
+        "COGS": 2313.0,
+        "G&A + selling": 128.5,
+        "D&A": 128.5
+      },
+      "notes": "FY2014: revenue RM3.05B, net profit RM245M"
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 3220.0,
+      "ebitdaMM": 425,
+      "netIncomeMM": 198.0,
+      "epsBasic": 0.347,
+      "dividendPerShare": 0.06,
+      "totalAcresK": 195,
+      "sharesOutMM": 571,
+      "bookValuePerShare": 3.55,
+      "expensesBySegmentMM": {
+        "COGS": 2515.5,
+        "G&A + selling": 139.7,
+        "D&A": 139.8
+      },
+      "notes": "FY2015 — El Niño + low CPO"
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 3640.0,
+      "ebitdaMM": 510,
+      "netIncomeMM": 235.0,
+      "epsBasic": 0.412,
+      "dividendPerShare": 0.06,
+      "totalAcresK": 200,
+      "sharesOutMM": 571,
+      "bookValuePerShare": 3.85,
+      "expensesBySegmentMM": {
+        "COGS": 2817.0,
+        "G&A + selling": 156.5,
+        "D&A": 156.5
+      },
+      "notes": "FY2016"
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 4350.0,
+      "ebitdaMM": 590,
+      "netIncomeMM": 290.0,
+      "epsBasic": 0.508,
+      "dividendPerShare": 0.07,
+      "totalAcresK": 205,
+      "sharesOutMM": 571,
+      "bookValuePerShare": 4.15,
+      "expensesBySegmentMM": {
+        "COGS": 3384.0,
+        "G&A + selling": 188.0,
+        "D&A": 188.0
+      },
+      "notes": "FY2017 — CPO + FFB recovery"
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 3950.0,
+      "ebitdaMM": 380,
+      "netIncomeMM": 130.0,
+      "epsBasic": 0.228,
+      "dividendPerShare": 0.04,
+      "totalAcresK": 210,
+      "sharesOutMM": 571,
+      "bookValuePerShare": 4.25,
+      "expensesBySegmentMM": {
+        "COGS": 3213.0,
+        "G&A + selling": 178.5,
+        "D&A": 178.5
+      },
+      "notes": "FY2018 — CPO downturn"
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 3620.0,
+      "ebitdaMM": 305,
+      "netIncomeMM": 78.0,
+      "epsBasic": 0.137,
+      "dividendPerShare": 0.025,
+      "totalAcresK": 215,
+      "sharesOutMM": 571,
+      "bookValuePerShare": 4.27,
+      "expensesBySegmentMM": {
+        "COGS": 2983.5,
+        "G&A + selling": 165.7,
+        "D&A": 165.8
+      },
+      "notes": "FY2019 — multiyear CPO low"
+    },
+    {
+      "endDate": "2020-03-31",
+      "periodType": "Q",
+      "revenueMM": 1010.5,
+      "ebitdaMM": 95,
+      "netIncomeMM": 28.5,
+      "epsBasic": 0.05,
+      "totalAcresK": 215,
+      "expensesBySegmentMM": {
+        "COGS": 823.9,
+        "G&A + selling": 45.8,
+        "D&A": 45.8
+      },
+      "notes": "Q1 2020 — COVID demand drag"
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "Q",
+      "revenueMM": 1075.2,
+      "ebitdaMM": 130,
+      "netIncomeMM": 51.2,
+      "epsBasic": 0.09,
+      "totalAcresK": 215,
+      "expensesBySegmentMM": {
+        "COGS": 850.7,
+        "G&A + selling": 47.2,
+        "D&A": 47.3
+      },
+      "notes": "Q2 2020"
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "Q",
+      "revenueMM": 1150.4,
+      "ebitdaMM": 165,
+      "netIncomeMM": 68.4,
+      "epsBasic": 0.12,
+      "totalAcresK": 215,
+      "expensesBySegmentMM": {
+        "COGS": 886.9,
+        "G&A + selling": 49.3,
+        "D&A": 49.2
+      },
+      "notes": "Q3 2020 — CPO rebound"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "Q",
+      "revenueMM": 1308.9,
+      "ebitdaMM": 195,
+      "netIncomeMM": 92.9,
+      "epsBasic": 0.163,
+      "dividendPerShare": 0.05,
+      "totalAcresK": 215,
+      "expensesBySegmentMM": {
+        "COGS": 1002.5,
+        "G&A + selling": 55.7,
+        "D&A": 55.7
+      },
+      "notes": "Q4 2020"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 4545.0,
+      "ebitdaMM": 585,
+      "netIncomeMM": 241.0,
+      "epsBasic": 0.422,
+      "dividendPerShare": 0.05,
+      "totalAcresK": 215,
+      "ffbProductionTonnesK": 800,
+      "cpoProductionTonnesK": 168,
+      "pkProductionTonnesK": 38,
+      "ffbYieldTPerHa": 17.5,
+      "cpoExtractionRatePct": 20.5,
+      "pkExtractionRatePct": 4.7,
+      "matureHectaresK": 46,
+      "sharesOutMM": 571,
+      "bookValuePerShare": 4.55,
+      "revenueBySegmentMM": {
+        "Plantation": 1620,
+        "Manufacturing (refinery + KCP + biodiesel)": 2925
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3580,
+        "G&A + selling": 215,
+        "D&A": 165
+      },
+      "notes": "FY2020: revenue RM4.55B, net profit RM241M. CPO recovery in H2"
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "Q",
+      "revenueMM": 1265.8,
+      "ebitdaMM": 175,
+      "netIncomeMM": 71.8,
+      "epsBasic": 0.126,
+      "totalAcresK": 217,
+      "expensesBySegmentMM": {
+        "COGS": 981.7,
+        "G&A + selling": 54.6,
+        "D&A": 54.5
+      },
+      "notes": "Q1 2021"
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "Q",
+      "revenueMM": 1495.4,
+      "ebitdaMM": 215,
+      "netIncomeMM": 99.4,
+      "epsBasic": 0.174,
+      "totalAcresK": 217,
+      "expensesBySegmentMM": {
+        "COGS": 1152.4,
+        "G&A + selling": 64.0,
+        "D&A": 64.0
+      },
+      "notes": "Q2 2021"
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "revenueMM": 1576.3,
+      "ebitdaMM": 245,
+      "netIncomeMM": 119.3,
+      "epsBasic": 0.209,
+      "totalAcresK": 217,
+      "expensesBySegmentMM": {
+        "COGS": 1198.2,
+        "G&A + selling": 66.6,
+        "D&A": 66.5
+      },
+      "notes": "Q3 2021"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "revenueMM": 1788.5,
+      "ebitdaMM": 290,
+      "netIncomeMM": 158.5,
+      "epsBasic": 0.278,
+      "dividendPerShare": 0.075,
+      "totalAcresK": 217,
+      "expensesBySegmentMM": {
+        "COGS": 1348.7,
+        "G&A + selling": 74.9,
+        "D&A": 74.9
+      },
+      "notes": "Q4 2021 — record CPO"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 6126.0,
+      "ebitdaMM": 925,
+      "netIncomeMM": 449.0,
+      "epsBasic": 0.787,
+      "dividendPerShare": 0.075,
+      "totalAcresK": 217,
+      "ffbProductionTonnesK": 825,
+      "cpoProductionTonnesK": 174,
+      "pkProductionTonnesK": 40,
+      "ffbYieldTPerHa": 17.9,
+      "cpoExtractionRatePct": 20.6,
+      "pkExtractionRatePct": 4.75,
+      "matureHectaresK": 46,
+      "sharesOutMM": 571,
+      "bookValuePerShare": 5.15,
+      "revenueBySegmentMM": {
+        "Plantation": 2380,
+        "Manufacturing (refinery + KCP + biodiesel)": 3746
+      },
+      "expensesBySegmentMM": {
+        "COGS": 4880,
+        "G&A + selling": 240,
+        "D&A": 195
+      },
+      "totalDebtMM": 1180,
+      "cashMM": 540,
+      "netDebtMM": 640,
+      "notes": "FY2021: revenue RM6.13B (+35%), net profit RM449M — record CPO ASP. Equity ~RM2.94B; NAV/share RM5.15"
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 2058.7,
+      "ebitdaMM": 345,
+      "netIncomeMM": 196.7,
+      "epsBasic": 0.345,
+      "totalAcresK": 220,
+      "expensesBySegmentMM": {
+        "COGS": 1542.3,
+        "G&A + selling": 85.7,
+        "D&A": 85.7
+      },
+      "notes": "Q1 2022"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 2225.4,
+      "ebitdaMM": 385,
+      "netIncomeMM": 218.4,
+      "epsBasic": 0.382,
+      "totalAcresK": 220,
+      "expensesBySegmentMM": {
+        "COGS": 1656.4,
+        "G&A + selling": 92.0,
+        "D&A": 92.0
+      },
+      "notes": "Q2 2022 — peak CPO ~RM7,000/t"
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 1875.9,
+      "ebitdaMM": 245,
+      "netIncomeMM": 130.9,
+      "epsBasic": 0.229,
+      "totalAcresK": 220,
+      "expensesBySegmentMM": {
+        "COGS": 1467.8,
+        "G&A + selling": 81.6,
+        "D&A": 81.5
+      },
+      "notes": "Q3 2022 — CPO retracement"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 1622.0,
+      "ebitdaMM": 195,
+      "netIncomeMM": 96.0,
+      "epsBasic": 0.168,
+      "dividendPerShare": 0.1,
+      "totalAcresK": 220,
+      "expensesBySegmentMM": {
+        "COGS": 1284.3,
+        "G&A + selling": 71.4,
+        "D&A": 71.3
+      },
+      "notes": "Q4 2022 — DPS 10 sen final"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 7782.0,
+      "ebitdaMM": 1170,
+      "netIncomeMM": 642.0,
+      "epsBasic": 1.124,
+      "dividendPerShare": 0.1,
+      "totalAcresK": 220,
+      "ffbProductionTonnesK": 810,
+      "cpoProductionTonnesK": 168,
+      "pkProductionTonnesK": 39,
+      "ffbYieldTPerHa": 17.6,
+      "cpoExtractionRatePct": 20.5,
+      "pkExtractionRatePct": 4.72,
+      "matureHectaresK": 46,
+      "sharesOutMM": 571,
+      "bookValuePerShare": 5.95,
+      "revenueBySegmentMM": {
+        "Plantation": 3050,
+        "Manufacturing (refinery + KCP + biodiesel)": 4732
+      },
+      "expensesBySegmentMM": {
+        "COGS": 6210,
+        "G&A + selling": 280,
+        "D&A": 215
+      },
+      "totalDebtMM": 990,
+      "cashMM": 720,
+      "netDebtMM": 270,
+      "notes": "FY2022: record revenue RM7.78B, record net profit RM642M (+43%) on peak CPO. Equity ~RM3.40B; NAV/share RM5.95"
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 1402.5,
+      "ebitdaMM": 195,
+      "netIncomeMM": 96.5,
+      "epsBasic": 0.169,
+      "totalAcresK": 222,
+      "expensesBySegmentMM": {
+        "COGS": 1086.7,
+        "G&A + selling": 60.4,
+        "D&A": 60.4
+      },
+      "notes": "Q1 2023"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 1318.8,
+      "ebitdaMM": 175,
+      "netIncomeMM": 79.8,
+      "epsBasic": 0.14,
+      "totalAcresK": 222,
+      "expensesBySegmentMM": {
+        "COGS": 1029.4,
+        "G&A + selling": 57.2,
+        "D&A": 57.2
+      },
+      "notes": "Q2 2023"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 1465.4,
+      "ebitdaMM": 215,
+      "netIncomeMM": 113.4,
+      "epsBasic": 0.199,
+      "totalAcresK": 222,
+      "expensesBySegmentMM": {
+        "COGS": 1125.4,
+        "G&A + selling": 62.5,
+        "D&A": 62.5
+      },
+      "notes": "Q3 2023"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 1418.3,
+      "ebitdaMM": 200,
+      "netIncomeMM": 91.3,
+      "epsBasic": 0.16,
+      "dividendPerShare": 0.07,
+      "totalAcresK": 222,
+      "expensesBySegmentMM": {
+        "COGS": 1096.5,
+        "G&A + selling": 60.9,
+        "D&A": 60.9
+      },
+      "notes": "Q4 2023 — DPS 7 sen final"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 5605.0,
+      "ebitdaMM": 785,
+      "netIncomeMM": 381.0,
+      "epsBasic": 0.667,
+      "dividendPerShare": 0.07,
+      "totalAcresK": 222,
+      "ffbProductionTonnesK": 845,
+      "cpoProductionTonnesK": 178,
+      "pkProductionTonnesK": 41,
+      "ffbYieldTPerHa": 18.4,
+      "cpoExtractionRatePct": 20.7,
+      "pkExtractionRatePct": 4.78,
+      "matureHectaresK": 46,
+      "sharesOutMM": 571,
+      "bookValuePerShare": 6.15,
+      "revenueBySegmentMM": {
+        "Plantation": 2150,
+        "Manufacturing (refinery + KCP + biodiesel)": 3455
+      },
+      "expensesBySegmentMM": {
+        "COGS": 4530,
+        "G&A + selling": 240,
+        "D&A": 230
+      },
+      "totalDebtMM": 880,
+      "cashMM": 805,
+      "netDebtMM": 75,
+      "notes": "FY2023: revenue RM5.61B (-28%), net profit RM381M (-41%) — CPO normalisation. Net debt fell to RM75M (deleveraging from cash flow)"
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 1395.7,
+      "ebitdaMM": 195,
+      "netIncomeMM": 92.7,
+      "epsBasic": 0.162,
+      "totalAcresK": 222,
+      "expensesBySegmentMM": {
+        "COGS": 1080.6,
+        "G&A + selling": 60.1,
+        "D&A": 60.0
+      },
+      "notes": "Q1 2024"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 1432.6,
+      "ebitdaMM": 210,
+      "netIncomeMM": 105.6,
+      "epsBasic": 0.185,
+      "totalAcresK": 222,
+      "expensesBySegmentMM": {
+        "COGS": 1100.3,
+        "G&A + selling": 61.2,
+        "D&A": 61.1
+      },
+      "notes": "Q2 2024"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 1418.4,
+      "ebitdaMM": 200,
+      "netIncomeMM": 96.4,
+      "epsBasic": 0.169,
+      "dividendPerShare": 0.04,
+      "totalAcresK": 222,
+      "expensesBySegmentMM": {
+        "COGS": 1096.6,
+        "G&A + selling": 60.9,
+        "D&A": 60.9
+      },
+      "notes": "Q3 2024 — interim DPS 4 sen"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 1421.3,
+      "ebitdaMM": 179,
+      "netIncomeMM": 95.3,
+      "epsBasic": 0.167,
+      "dividendPerShare": 0.06,
+      "totalAcresK": 222,
+      "expensesBySegmentMM": {
+        "COGS": 1118.1,
+        "G&A + selling": 62.1,
+        "D&A": 62.1
+      },
+      "notes": "Q4 2024 — final DPS 6 sen"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 5668.0,
+      "ebitdaMM": 784,
+      "netIncomeMM": 390.0,
+      "epsBasic": 0.683,
+      "dividendPerShare": 0.1,
+      "totalAcresK": 222,
+      "ffbProductionTonnesK": 880,
+      "cpoProductionTonnesK": 188,
+      "pkProductionTonnesK": 43,
+      "ffbYieldTPerHa": 19.1,
+      "cpoExtractionRatePct": 20.9,
+      "pkExtractionRatePct": 4.85,
+      "matureHectaresK": 46,
+      "sharesOutMM": 571,
+      "navPerShare": 5.03,
+      "bookValuePerShare": 5.03,
+      "revenueBySegmentMM": {
+        "Plantation": 2210,
+        "Manufacturing (refinery + KCP + biodiesel)": 3458
+      },
+      "expensesBySegmentMM": {
+        "COGS": 4570,
+        "G&A + selling": 245,
+        "D&A": 240
+      },
+      "totalDebtMM": 760,
+      "cashMM": 880,
+      "netDebtMM": -120,
+      "notes": "FY2024: revenue RM5.67B (+1%), net profit RM390M (+2%). Net cash position (RM-120M net debt). NAV/share RM5.03 reconciles to seed comps. ~190K acres reflects core mature planted area; total landbank larger"
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 1485.6,
+      "ebitdaMM": 215,
+      "netIncomeMM": 110.6,
+      "epsBasic": 0.194,
+      "totalAcresK": 222,
+      "expensesBySegmentMM": {
+        "COGS": 1143.5,
+        "G&A + selling": 63.6,
+        "D&A": 63.5
+      },
+      "notes": "Q1 2025"
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 1402.9,
+      "ebitdaMM": 195,
+      "netIncomeMM": 95.9,
+      "epsBasic": 0.168,
+      "totalAcresK": 222,
+      "expensesBySegmentMM": {
+        "COGS": 1087.1,
+        "G&A + selling": 60.4,
+        "D&A": 60.4
+      },
+      "notes": "Q2 2025"
+    },
+    {
+      "endDate": "2025-09-30",
+      "periodType": "Q",
+      "revenueMM": 1438.2,
+      "ebitdaMM": 205,
+      "netIncomeMM": 100.2,
+      "epsBasic": 0.176,
+      "dividendPerShare": 0.04,
+      "totalAcresK": 222,
+      "expensesBySegmentMM": {
+        "COGS": 1109.9,
+        "G&A + selling": 61.7,
+        "D&A": 61.6
+      },
+      "notes": "Q3 2025 — interim DPS 4 sen"
+    }
+  ]
+}

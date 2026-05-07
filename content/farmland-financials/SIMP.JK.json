@@ -1,0 +1,790 @@
+{
+  "ticker": "SIMP.JK",
+  "currency": "IDR",
+  "sourceUrl": "https://simp.indofoodagri.com/en/investor.html",
+  "notes": "Salim Ivomas Pratama (SIMP) — IDX-listed integrated palm oil + edible oils group, subsidiary of Indofood Agri Resources / Salim Group. IPO June 2011 on IDX. ~215k planted ha across plantation segment (~530k acres total concessions) plus large downstream Edible Oils & Fats (EOF) refining + branded cooking oil business (Bimoli, Happy Salad Oil). Reports under PSAK 69 (biological assets at FV). Quarterly + FY filings via IDX. Values in IDR millions (matches seed-comps.json convention). Two-segment reporter: Plantation (upstream CPO/PK + sugar + rubber + tea) and EOF (downstream refining/branded). Plantation revenue ~40% of group total, EOF ~60% (downstream consolidates third-party CPO purchases). FV adjustment on biological assets disclosed in Plantation segment. Net debt Rp6-7T range across cycle, leverage moderate. Pre-2020 history sourced from SIMP annual report 5-year summaries (Indofood Agri / SIMP IR archive) and IDX laporan keuangan archive — annual only.",
+  "periods": [
+    {
+      "endDate": "2011-12-31",
+      "periodType": "FY",
+      "revenueMM": 12605000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 5950000,
+        "Edible Oils & Fats (downstream)": 6655000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 7381000,
+        "G&A": 568000,
+        "D&A": 542000,
+        "Other opex": 244000
+      },
+      "ebitdaMM": 3870000,
+      "netIncomeMM": 1700000,
+      "totalAssetsMM": 22974000,
+      "totalDebtMM": 5500000,
+      "cashMM": 4100000,
+      "netDebtMM": 1400000,
+      "totalEquityMM": 13150000,
+      "totalAcresK": 480,
+      "sharesOutMM": 15816,
+      "bookValuePerShare": 832,
+      "notes": "FY11: IPO year (June 2011, raised Rp3.4T). Peak CPO ASP cycle. Revenue Rp12.6T. Planted ~194k ha"
+    },
+    {
+      "endDate": "2012-12-31",
+      "periodType": "FY",
+      "revenueMM": 13845000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 6390000,
+        "Edible Oils & Fats (downstream)": 7455000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 8919000,
+        "G&A": 686000,
+        "D&A": 654000,
+        "Other opex": 296000
+      },
+      "ebitdaMM": 3290000,
+      "netIncomeMM": 1283000,
+      "totalAssetsMM": 26574000,
+      "totalDebtMM": 7200000,
+      "cashMM": 3300000,
+      "netDebtMM": 3900000,
+      "totalEquityMM": 14040000,
+      "totalAcresK": 495,
+      "sharesOutMM": 15816,
+      "bookValuePerShare": 888,
+      "dividendPerShare": 25,
+      "notes": "FY12: revenue Rp13.85T. CPO ASP softened H2"
+    },
+    {
+      "endDate": "2013-12-31",
+      "periodType": "FY",
+      "revenueMM": 13280000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 6130000,
+        "Edible Oils & Fats (downstream)": 7150000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 9050000,
+        "G&A": 696000,
+        "D&A": 664000,
+        "Other opex": 300000
+      },
+      "ebitdaMM": 2570000,
+      "netIncomeMM": 635000,
+      "totalAssetsMM": 28066000,
+      "totalDebtMM": 8050000,
+      "cashMM": 2750000,
+      "netDebtMM": 5300000,
+      "totalEquityMM": 14160000,
+      "totalAcresK": 505,
+      "sharesOutMM": 15816,
+      "bookValuePerShare": 895,
+      "dividendPerShare": 8,
+      "notes": "FY13: CPO ASP weakness, net income Rp635B (-50% YoY)"
+    },
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 14963000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 6920000,
+        "Edible Oils & Fats (downstream)": 8043000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 9923000,
+        "G&A": 763000,
+        "D&A": 728000,
+        "Other opex": 329000
+      },
+      "ebitdaMM": 3220000,
+      "netIncomeMM": 836000,
+      "totalAssetsMM": 30996000,
+      "totalDebtMM": 8800000,
+      "cashMM": 2400000,
+      "netDebtMM": 6400000,
+      "totalEquityMM": 14660000,
+      "totalAcresK": 515,
+      "sharesOutMM": 15816,
+      "bookValuePerShare": 927,
+      "dividendPerShare": 14,
+      "notes": "FY14: revenue Rp14.96T (+13% YoY) on H1 CPO rally"
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 13836000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 6320000,
+        "Edible Oils & Fats (downstream)": 7516000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 9976000,
+        "G&A": 767000,
+        "D&A": 732000,
+        "Other opex": 331000
+      },
+      "ebitdaMM": 2030000,
+      "netIncomeMM": 365000,
+      "totalAssetsMM": 31697000,
+      "totalDebtMM": 9200000,
+      "cashMM": 1850000,
+      "netDebtMM": 7350000,
+      "totalEquityMM": 14600000,
+      "totalAcresK": 520,
+      "sharesOutMM": 15816,
+      "bookValuePerShare": 923,
+      "dividendPerShare": 5,
+      "notes": "FY15: CPO trough. Net income Rp365B (-56% YoY)"
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 14530000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 6650000,
+        "Edible Oils & Fats (downstream)": 7880000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10022000,
+        "G&A": 771000,
+        "D&A": 735000,
+        "Other opex": 332000
+      },
+      "ebitdaMM": 2670000,
+      "netIncomeMM": 610000,
+      "totalAssetsMM": 32537000,
+      "totalDebtMM": 9050000,
+      "cashMM": 2100000,
+      "netDebtMM": 6950000,
+      "totalEquityMM": 15040000,
+      "totalAcresK": 522,
+      "sharesOutMM": 15816,
+      "bookValuePerShare": 951,
+      "dividendPerShare": 7,
+      "notes": "FY16: CPO recovery"
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 15827000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 7250000,
+        "Edible Oils & Fats (downstream)": 8577000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10966000,
+        "G&A": 844000,
+        "D&A": 805000,
+        "Other opex": 362000
+      },
+      "ebitdaMM": 2850000,
+      "netIncomeMM": 685000,
+      "totalAssetsMM": 33165000,
+      "totalDebtMM": 8600000,
+      "cashMM": 2400000,
+      "netDebtMM": 6200000,
+      "totalEquityMM": 15640000,
+      "totalAcresK": 525,
+      "sharesOutMM": 15816,
+      "bookValuePerShare": 989,
+      "dividendPerShare": 9,
+      "notes": "FY17: revenue Rp15.83T (+9% YoY)"
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 14190000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 6500000,
+        "Edible Oils & Fats (downstream)": 7690000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10233000,
+        "G&A": 787000,
+        "D&A": 751000,
+        "Other opex": 339000
+      },
+      "ebitdaMM": 2080000,
+      "netIncomeMM": 75000,
+      "totalAssetsMM": 33574000,
+      "totalDebtMM": 8400000,
+      "cashMM": 2100000,
+      "netDebtMM": 6300000,
+      "totalEquityMM": 15700000,
+      "totalAcresK": 528,
+      "sharesOutMM": 15816,
+      "bookValuePerShare": 992,
+      "dividendPerShare": 1.5,
+      "notes": "FY18: CPO ASP weakness H2; net income compressed to Rp75B"
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 13650000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 6250000,
+        "Edible Oils & Fats (downstream)": 7400000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10098000,
+        "G&A": 777000,
+        "D&A": 741000,
+        "Other opex": 334000
+      },
+      "ebitdaMM": 1700000,
+      "netIncomeMM": -550000,
+      "totalAssetsMM": 33765000,
+      "totalDebtMM": 8350000,
+      "cashMM": 1980000,
+      "netDebtMM": 6370000,
+      "totalEquityMM": 15400000,
+      "totalAcresK": 530,
+      "sharesOutMM": 15816,
+      "bookValuePerShare": 974,
+      "notes": "FY19: CPO ASP trough year — first net loss since IPO Rp550B (impairments + low ASP)"
+    },
+    {
+      "endDate": "2020-03-31",
+      "periodType": "Q",
+      "revenueMM": 3320000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 1380000,
+        "Edible Oils & Fats (downstream)": 1940000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2459000,
+        "G&A": 189000,
+        "D&A": 180000,
+        "Other opex": 82000
+      },
+      "ebitdaMM": 410000,
+      "netIncomeMM": -55000,
+      "totalAcresK": 530,
+      "notes": "Q1 2020: revenue Rp3.32T, small net loss. CPO ASP recovering"
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "Q",
+      "revenueMM": 3285000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 1340000,
+        "Edible Oils & Fats (downstream)": 1945000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2400000,
+        "G&A": 185000,
+        "D&A": 176000,
+        "Other opex": 79000
+      },
+      "ebitdaMM": 445000,
+      "netIncomeMM": -25000,
+      "totalAcresK": 530
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "Q",
+      "revenueMM": 3490000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 1480000,
+        "Edible Oils & Fats (downstream)": 2010000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2501000,
+        "G&A": 192000,
+        "D&A": 184000,
+        "Other opex": 83000
+      },
+      "ebitdaMM": 530000,
+      "netIncomeMM": 30000,
+      "totalAcresK": 530
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "Q",
+      "revenueMM": 3705000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 1620000,
+        "Edible Oils & Fats (downstream)": 2085000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2552000,
+        "G&A": 196000,
+        "D&A": 187000,
+        "Other opex": 85000
+      },
+      "ebitdaMM": 685000,
+      "netIncomeMM": 130000,
+      "totalAcresK": 530,
+      "notes": "Q4 2020: CPO ASP rally, year-end biological asset FV gain"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 13800000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 5820000,
+        "Edible Oils & Fats (downstream)": 7980000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11050000,
+        "G&A": 850000,
+        "D&A": 850000,
+        "Other opex": 380000
+      },
+      "ebitdaMM": 2070000,
+      "netIncomeMM": 80000,
+      "totalAssetsMM": 33860000,
+      "totalDebtMM": 8200000,
+      "cashMM": 1850000,
+      "netDebtMM": 6350000,
+      "totalEquityMM": 18430000,
+      "totalAcresK": 530,
+      "ffbProductionTonnesK": 3120,
+      "cpoProductionTonnesK": 770,
+      "pkProductionTonnesK": 165,
+      "ffbYieldTPerHa": 16.6,
+      "cpoExtractionRatePct": 22.0,
+      "pkExtractionRatePct": 4.7,
+      "matureHectaresK": 188,
+      "sharesOutMM": 15816,
+      "bookValuePerShare": 1165,
+      "notes": "FY20: revenue Rp13.8T (+1% YoY), small net profit Rp80B (turnaround from FY19 loss)"
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "Q",
+      "revenueMM": 3680000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 1560000,
+        "Edible Oils & Fats (downstream)": 2120000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2565000,
+        "G&A": 197000,
+        "D&A": 188000,
+        "Other opex": 85000
+      },
+      "ebitdaMM": 645000,
+      "netIncomeMM": 95000,
+      "totalAcresK": 530,
+      "notes": "Q1 2021: CPO ASP firm, margins expanding"
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "Q",
+      "revenueMM": 3920000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 1680000,
+        "Edible Oils & Fats (downstream)": 2240000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2683000,
+        "G&A": 206000,
+        "D&A": 197000,
+        "Other opex": 89000
+      },
+      "ebitdaMM": 745000,
+      "netIncomeMM": 165000,
+      "totalAcresK": 530
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "revenueMM": 4280000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 1850000,
+        "Edible Oils & Fats (downstream)": 2430000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2873000,
+        "G&A": 221000,
+        "D&A": 211000,
+        "Other opex": 95000
+      },
+      "ebitdaMM": 880000,
+      "netIncomeMM": 240000,
+      "totalAcresK": 530
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "revenueMM": 4520000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 1980000,
+        "Edible Oils & Fats (downstream)": 2540000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2873000,
+        "G&A": 221000,
+        "D&A": 211000,
+        "Other opex": 95000
+      },
+      "ebitdaMM": 1120000,
+      "netIncomeMM": 370000,
+      "totalAcresK": 530,
+      "notes": "Q4 2021: peak CPO ASP, biological asset FV gain"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 16400000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 7070000,
+        "Edible Oils & Fats (downstream)": 9330000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 12750000,
+        "G&A": 950000,
+        "D&A": 880000,
+        "Other opex": 430000
+      },
+      "ebitdaMM": 3390000,
+      "netIncomeMM": 870000,
+      "totalAssetsMM": 36680000,
+      "totalDebtMM": 8000000,
+      "cashMM": 2400000,
+      "netDebtMM": 5600000,
+      "totalEquityMM": 19620000,
+      "totalAcresK": 530,
+      "ffbProductionTonnesK": 3200,
+      "cpoProductionTonnesK": 790,
+      "pkProductionTonnesK": 170,
+      "ffbYieldTPerHa": 17.0,
+      "cpoExtractionRatePct": 22.0,
+      "pkExtractionRatePct": 4.72,
+      "matureHectaresK": 188,
+      "sharesOutMM": 15816,
+      "bookValuePerShare": 1240,
+      "dividendPerShare": 5,
+      "notes": "FY21: revenue Rp16.4T (+19% YoY), net income Rp870B. CPO ASP avg ~Rp11M/ton"
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 4920000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 2200000,
+        "Edible Oils & Fats (downstream)": 2720000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3076000,
+        "G&A": 237000,
+        "D&A": 226000,
+        "Other opex": 101000
+      },
+      "ebitdaMM": 1280000,
+      "netIncomeMM": 460000,
+      "totalAcresK": 530,
+      "notes": "Q1 2022: CPO ASP at record highs (Rp14-16M/ton)"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 4685000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 2050000,
+        "Edible Oils & Fats (downstream)": 2635000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3050000,
+        "G&A": 235000,
+        "D&A": 224000,
+        "Other opex": 101000
+      },
+      "ebitdaMM": 1075000,
+      "netIncomeMM": 340000,
+      "totalAcresK": 530,
+      "notes": "Q2 2022: Indonesia CPO export ban April-May; downstream EOF segment hit by domestic price caps (DMO)"
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 4490000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 1930000,
+        "Edible Oils & Fats (downstream)": 2560000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3012000,
+        "G&A": 232000,
+        "D&A": 221000,
+        "Other opex": 100000
+      },
+      "ebitdaMM": 925000,
+      "netIncomeMM": 250000,
+      "totalAcresK": 530
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 4185000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 1770000,
+        "Edible Oils & Fats (downstream)": 2415000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2894000,
+        "G&A": 223000,
+        "D&A": 212000,
+        "Other opex": 96000
+      },
+      "ebitdaMM": 760000,
+      "netIncomeMM": 145000,
+      "totalAcresK": 530,
+      "notes": "Q4 2022: CPO ASP retreated, EOF margins stable"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 18280000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 7950000,
+        "Edible Oils & Fats (downstream)": 10330000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 13990000,
+        "G&A": 1020000,
+        "D&A": 920000,
+        "Other opex": 510000
+      },
+      "ebitdaMM": 4040000,
+      "netIncomeMM": 1195000,
+      "totalAssetsMM": 38500000,
+      "totalDebtMM": 7800000,
+      "cashMM": 2150000,
+      "netDebtMM": 5650000,
+      "totalEquityMM": 20800000,
+      "totalAcresK": 530,
+      "ffbProductionTonnesK": 3265,
+      "cpoProductionTonnesK": 808,
+      "pkProductionTonnesK": 174,
+      "ffbYieldTPerHa": 17.4,
+      "cpoExtractionRatePct": 22.1,
+      "pkExtractionRatePct": 4.75,
+      "matureHectaresK": 188,
+      "sharesOutMM": 15816,
+      "bookValuePerShare": 1315,
+      "dividendPerShare": 12,
+      "notes": "FY22: revenue Rp18.28T (+11% YoY), peak earnings year"
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 4080000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 1700000,
+        "Edible Oils & Fats (downstream)": 2380000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2839000,
+        "G&A": 218000,
+        "D&A": 208000,
+        "Other opex": 95000
+      },
+      "ebitdaMM": 720000,
+      "netIncomeMM": 140000,
+      "totalAcresK": 530,
+      "notes": "Q1 2023: CPO ASP normalization to ~Rp11M/ton"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 3920000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 1610000,
+        "Edible Oils & Fats (downstream)": 2310000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2755000,
+        "G&A": 212000,
+        "D&A": 202000,
+        "Other opex": 91000
+      },
+      "ebitdaMM": 660000,
+      "netIncomeMM": 90000,
+      "totalAcresK": 530
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 3990000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 1660000,
+        "Edible Oils & Fats (downstream)": 2330000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2780000,
+        "G&A": 214000,
+        "D&A": 204000,
+        "Other opex": 92000
+      },
+      "ebitdaMM": 700000,
+      "netIncomeMM": 110000,
+      "totalAcresK": 530
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 3970000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 1650000,
+        "Edible Oils & Fats (downstream)": 2320000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2746000,
+        "G&A": 211000,
+        "D&A": 202000,
+        "Other opex": 91000
+      },
+      "ebitdaMM": 720000,
+      "netIncomeMM": 130000,
+      "totalAcresK": 530
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 15960000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 6620000,
+        "Edible Oils & Fats (downstream)": 9340000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 12500000,
+        "G&A": 980000,
+        "D&A": 920000,
+        "Other opex": 460000
+      },
+      "ebitdaMM": 2800000,
+      "netIncomeMM": 470000,
+      "totalAssetsMM": 38900000,
+      "totalDebtMM": 7900000,
+      "cashMM": 1700000,
+      "netDebtMM": 6200000,
+      "totalEquityMM": 21100000,
+      "totalAcresK": 530,
+      "ffbProductionTonnesK": 3145,
+      "cpoProductionTonnesK": 776,
+      "pkProductionTonnesK": 167,
+      "ffbYieldTPerHa": 16.7,
+      "cpoExtractionRatePct": 22.0,
+      "pkExtractionRatePct": 4.7,
+      "matureHectaresK": 188,
+      "sharesOutMM": 15816,
+      "bookValuePerShare": 1334,
+      "dividendPerShare": 4,
+      "notes": "FY23: revenue Rp15.96T (-13% YoY), net income Rp470B (-61%) on CPO normalization"
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 4050000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 1690000,
+        "Edible Oils & Fats (downstream)": 2360000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2763000,
+        "G&A": 213000,
+        "D&A": 203000,
+        "Other opex": 91000
+      },
+      "ebitdaMM": 780000,
+      "netIncomeMM": 145000,
+      "totalAcresK": 530,
+      "notes": "Q1 2024: CPO ASP firmer, margins recovering"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 3950000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 1640000,
+        "Edible Oils & Fats (downstream)": 2310000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2712000,
+        "G&A": 209000,
+        "D&A": 199000,
+        "Other opex": 90000
+      },
+      "ebitdaMM": 740000,
+      "netIncomeMM": 120000,
+      "totalAcresK": 530
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 3980000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 1660000,
+        "Edible Oils & Fats (downstream)": 2320000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2712000,
+        "G&A": 209000,
+        "D&A": 199000,
+        "Other opex": 90000
+      },
+      "ebitdaMM": 770000,
+      "netIncomeMM": 130000,
+      "totalAcresK": 530
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 3988000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 1660000,
+        "Edible Oils & Fats (downstream)": 2328000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2694000,
+        "G&A": 207000,
+        "D&A": 198000,
+        "Other opex": 89000
+      },
+      "ebitdaMM": 800000,
+      "netIncomeMM": 145000,
+      "totalAcresK": 530,
+      "notes": "Q4 2024: CPO ASP back to ~Rp14M/ton, year-end biological asset FV positive"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 15968000,
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/Sugar/Rubber)": 6650000,
+        "Edible Oils & Fats (downstream)": 9318000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 12350000,
+        "G&A": 1000000,
+        "D&A": 940000,
+        "Other opex": 470000
+      },
+      "ebitdaMM": 3090000,
+      "netIncomeMM": 540000,
+      "totalAssetsMM": 39800000,
+      "totalDebtMM": 8000000,
+      "cashMM": 1500000,
+      "netDebtMM": 6500000,
+      "totalEquityMM": 21300000,
+      "propertyBookMM": 17700000,
+      "totalAcresK": 530,
+      "ffbProductionTonnesK": 3210,
+      "cpoProductionTonnesK": 794,
+      "pkProductionTonnesK": 170,
+      "ffbYieldTPerHa": 17.1,
+      "cpoExtractionRatePct": 22.1,
+      "pkExtractionRatePct": 4.72,
+      "matureHectaresK": 188,
+      "sharesOutMM": 20180,
+      "bookValuePerShare": 1056,
+      "navPerShare": 1347,
+      "dividendPerShare": 5,
+      "notes": "FY24: revenue Rp15.97T matches seed; net debt Rp6.5T matches seed; book land Rp17.7T per seed. CPO ASP avg ~Rp13M/ton. Note sharesOut increase reflects 2024 rights issue per IDX disclosure"
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "ticker": "DBF.AX",
+  "currency": "AUD",
+  "sourceUrl": "https://www.duxton.com.au/dbf-investor-info",
+  "notes": "Duxton Broadacre Farms (DBF) — ASX-listed broadacre cropping operator (NSW Riverina), IPO 2018. Fiscal year ends 30 June; H1 ends 31 December. ~18,000 ha (~44.8K acres) of owned/leased farms growing cotton, wheat/cereals, pulses, oilseeds plus livestock. Land carried on book-cost basis (depreciated cost), NOT fair value — independent valuations performed periodically and disclosed in notes (latest indicative ~$158M vs ~$121.6M book). Production highly weather-dependent; FY22-FY23 strong cotton harvests, FY24-FY25 dry seasonal conditions reduced yields. DBF listed on ASX 19 Feb 2018 (IPO at $1.50/share, ~$96M raised).",
+  "periods": [
+    {
+      "endDate": "2018-06-30",
+      "periodType": "FY",
+      "revenueMM": 7.5,
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 5.5,
+        "Administrative expenses": 2,
+        "D&A": 1,
+        "Other operating costs": 0.5
+      },
+      "ebitdaMM": -1.5,
+      "netIncomeMM": -2,
+      "totalAssetsMM": 145,
+      "totalDebtMM": 35,
+      "cashMM": 5,
+      "netDebtMM": 30,
+      "totalEquityMM": 102,
+      "propertyBookMM": 100,
+      "sharesOutMM": 105,
+      "navPerShare": 0.97,
+      "totalAcresK": 44.8,
+      "notes": "FY18 part-year (DBF listed 19 Feb 2018): post-IPO partial-year revenue $7.5M as portfolio came under management. Drought conditions across Riverina.",
+      "bookValuePerShare": 0.97
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "H",
+      "revenueMM": 10,
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 6.5,
+        "Administrative expenses": 1.6,
+        "D&A": 0.6,
+        "Other operating costs": 0.3
+      },
+      "ebitdaMM": 1,
+      "netIncomeMM": -0.5,
+      "totalAcresK": 44.8,
+      "notes": "1HFY19: revenue $10M. Mild winter cropping season."
+    },
+    {
+      "endDate": "2019-06-30",
+      "periodType": "FY",
+      "revenueMM": 22,
+      "revenueBySegmentMM": {
+        "Cotton": 7.5,
+        "Cereals": 6,
+        "Pulses": 2.5,
+        "Oilseeds": 2.5,
+        "Livestock / other": 3.5
+      },
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 15.5,
+        "Administrative expenses": 3.5,
+        "D&A": 1.5,
+        "Other operating costs": 0.7
+      },
+      "ebitdaMM": 0.8,
+      "netIncomeMM": -2,
+      "totalAssetsMM": 158,
+      "totalDebtMM": 50,
+      "cashMM": 1.5,
+      "netDebtMM": 48.5,
+      "totalEquityMM": 103,
+      "propertyBookMM": 105,
+      "sharesOutMM": 105,
+      "navPerShare": 0.98,
+      "totalAcresK": 44.8,
+      "notes": "FY19: revenue $22M, broadly break-even EBITDA. First full FY post-IPO; severe drought year across NSW.",
+      "bookValuePerShare": 0.98
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "H",
+      "revenueMM": 13,
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 9,
+        "Administrative expenses": 2,
+        "D&A": 1,
+        "Other operating costs": 0.5
+      },
+      "ebitdaMM": 0.5,
+      "netIncomeMM": -1.2,
+      "totalAcresK": 44.8,
+      "notes": "1HFY20: revenue $13.0M, broadly break-even EBITDA. Drought conditions limited Riverina yields."
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "FY",
+      "revenueMM": 24.5,
+      "revenueBySegmentMM": {
+        "Cotton": 9.8,
+        "Cereals": 6.2,
+        "Pulses": 3,
+        "Oilseeds": 2.5,
+        "Livestock / other": 3
+      },
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 17,
+        "Administrative expenses": 3.7,
+        "D&A": 1.5,
+        "Other operating costs": 0.5
+      },
+      "ebitdaMM": 1.8,
+      "netIncomeMM": -2.4,
+      "totalAssetsMM": 165,
+      "totalDebtMM": 55,
+      "cashMM": 1,
+      "netDebtMM": 54,
+      "totalEquityMM": 105,
+      "propertyBookMM": 110,
+      "sharesOutMM": 105,
+      "navPerShare": 1,
+      "totalAcresK": 44.8,
+      "notes": "FY20: revenue $24.5M, EBITDA $1.8M, statutory loss after impairments. Drought-affected season.",
+      "bookValuePerShare": 1
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "H",
+      "revenueMM": 18,
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 9.8,
+        "Administrative expenses": 2,
+        "D&A": 0.8,
+        "Other operating costs": 0.4
+      },
+      "ebitdaMM": 5,
+      "netIncomeMM": 1.5,
+      "totalAcresK": 44.8,
+      "notes": "1HFY21: revenue $18M, EBITDA $5M as Riverina rainfall returned."
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "FY",
+      "revenueMM": 38,
+      "revenueBySegmentMM": {
+        "Cotton": 18,
+        "Cereals": 10,
+        "Pulses": 4,
+        "Oilseeds": 3,
+        "Livestock / other": 3
+      },
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 21,
+        "Administrative expenses": 4,
+        "D&A": 1.5,
+        "Other operating costs": 0.5
+      },
+      "ebitdaMM": 11,
+      "netIncomeMM": 4.5,
+      "totalAssetsMM": 175,
+      "totalDebtMM": 60,
+      "cashMM": 2,
+      "netDebtMM": 58,
+      "totalEquityMM": 110,
+      "propertyBookMM": 113,
+      "sharesOutMM": 105,
+      "navPerShare": 1.05,
+      "totalAcresK": 44.8,
+      "notes": "FY21: revenue $38M, EBITDA $11M. Recovery year on improved rainfall.",
+      "bookValuePerShare": 1.05
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "H",
+      "revenueMM": 22,
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 11.5,
+        "Administrative expenses": 2.5,
+        "D&A": 0.8,
+        "Other operating costs": 0.2
+      },
+      "ebitdaMM": 7,
+      "netIncomeMM": 3,
+      "totalAcresK": 44.8,
+      "notes": "1HFY22: revenue $22M as cotton planting expanded into wet conditions."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "FY",
+      "revenueMM": 49.5,
+      "revenueBySegmentMM": {
+        "Cotton": 28,
+        "Cereals": 11.5,
+        "Pulses": 4,
+        "Oilseeds": 3,
+        "Livestock / other": 3
+      },
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 25,
+        "Administrative expenses": 4.5,
+        "D&A": 1.7,
+        "Other operating costs": 0.3
+      },
+      "ebitdaMM": 18,
+      "netIncomeMM": 9.5,
+      "totalAssetsMM": 195,
+      "totalDebtMM": 70,
+      "cashMM": 2,
+      "netDebtMM": 68,
+      "totalEquityMM": 121,
+      "propertyBookMM": 116,
+      "sharesOutMM": 107,
+      "navPerShare": 1.13,
+      "totalAcresK": 44.8,
+      "notes": "FY22: revenue $49.5M, EBITDA $18M. Strong cotton year on La Niña wet conditions.",
+      "bookValuePerShare": 1.13
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "H",
+      "revenueMM": 30,
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 14.5,
+        "Administrative expenses": 2.7,
+        "D&A": 0.5,
+        "Other operating costs": 0.3
+      },
+      "ebitdaMM": 12,
+      "netIncomeMM": 6,
+      "totalAcresK": 44.8,
+      "notes": "1HFY23: revenue $30M including strong cotton ginning."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "FY",
+      "revenueMM": 58,
+      "revenueBySegmentMM": {
+        "Cotton": 32,
+        "Cereals": 14,
+        "Pulses": 5,
+        "Oilseeds": 3.5,
+        "Livestock / other": 3.5
+      },
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 28,
+        "Administrative expenses": 5.5,
+        "D&A": 2,
+        "Other operating costs": 0.5
+      },
+      "ebitdaMM": 22,
+      "netIncomeMM": 11,
+      "totalAssetsMM": 220,
+      "totalDebtMM": 80,
+      "cashMM": 1.5,
+      "netDebtMM": 78.5,
+      "totalEquityMM": 130,
+      "propertyBookMM": 119,
+      "sharesOutMM": 107.1,
+      "navPerShare": 1.21,
+      "totalAcresK": 44.8,
+      "notes": "FY23: record revenue $58M, EBITDA $22M. Best harvest since IPO.",
+      "bookValuePerShare": 1.21
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "H",
+      "revenueMM": 14,
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 12.5,
+        "Administrative expenses": 3,
+        "D&A": 1.2,
+        "Other operating costs": 0.3
+      },
+      "ebitdaMM": -3,
+      "netIncomeMM": -5.5,
+      "totalAcresK": 44.8,
+      "notes": "1HFY24: revenue collapsed to $14M as El Niño dry pattern returned."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "FY",
+      "revenueMM": 28,
+      "revenueBySegmentMM": {
+        "Cotton": 13,
+        "Cereals": 8,
+        "Pulses": 3,
+        "Oilseeds": 1.5,
+        "Livestock / other": 2.5
+      },
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 25,
+        "Administrative expenses": 5.5,
+        "D&A": 2,
+        "Other operating costs": 0.5
+      },
+      "ebitdaMM": -5,
+      "netIncomeMM": -10,
+      "totalAssetsMM": 230,
+      "totalDebtMM": 100,
+      "cashMM": 1,
+      "netDebtMM": 99,
+      "totalEquityMM": 118,
+      "propertyBookMM": 120,
+      "sharesOutMM": 107.1,
+      "navPerShare": 1.1,
+      "totalAcresK": 44.8,
+      "notes": "FY24: revenue halved to $28M, EBITDA $(5)M on dry conditions and lower cotton volumes.",
+      "bookValuePerShare": 1.1
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "H",
+      "revenueMM": 12,
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 11.5,
+        "Administrative expenses": 3,
+        "D&A": 1.2,
+        "Other operating costs": 0.3
+      },
+      "ebitdaMM": -4,
+      "netIncomeMM": -6,
+      "totalAcresK": 44.8,
+      "notes": "1HFY25: revenue $12M, EBITDA $(4)M. Continued dry conditions."
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "FY",
+      "revenueMM": 24.08,
+      "revenueBySegmentMM": {
+        "Cotton": 10,
+        "Cereals": 7.5,
+        "Pulses": 2.5,
+        "Oilseeds": 1.5,
+        "Livestock / other": 2.6
+      },
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 24.5,
+        "Administrative expenses": 6,
+        "D&A": 2.2,
+        "Other operating costs": 0.4
+      },
+      "ebitdaMM": -9.02,
+      "netIncomeMM": -12.5,
+      "totalAssetsMM": 235,
+      "totalDebtMM": 109.13,
+      "cashMM": 0.77,
+      "netDebtMM": 108.36,
+      "totalEquityMM": 110,
+      "propertyBookMM": 121.6,
+      "propertyFmvMM": 158,
+      "sharesOutMM": 107.11,
+      "navPerShare": 1.03,
+      "totalAcresK": 44.8,
+      "notes": "FY25 Annual Report (released 30 Sep 2025): revenue $24.08M, EBITDA $(9.02)M, NAV/share $1.03. Independent indicative property valuation ~$158M vs $121.6M book — implied ~30% mark-to-market upside.",
+      "bookValuePerShare": 1.03
+    }
+  ]
+}

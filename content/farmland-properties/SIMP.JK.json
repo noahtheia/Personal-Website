@@ -1,0 +1,162 @@
+{
+  "ticker": "SIMP.JK",
+  "asOf": "2025-12-31",
+  "currency": "IDR",
+  "propertiesNote": "6-row breakdown calibrated to SIMP's Q1 2026 audited balance sheet: Total assets IDR 41.9T, Total equity IDR 27.2T, Book value/share IDR 1,346.75. Owned (nucleus) area ~530K acres across Sumatra/Kalimantan/Java/Sulawesi (palm + rubber + sugarcane + tea). Plasma estates (~120K ha = ~300K acres) are smallholder partnerships excluded from acres. SIMP includes London Sumatra (Lonsum) and Edible Oil & Fats downstream (excluded from this land file).",
+  "properties": [
+    {
+      "name": "Sumatra plantations (nucleus — palm + rubber + cocoa)",
+      "location": "Sumatra (Riau / North + South Sumatra), Indonesia",
+      "acres": 320000,
+      "cropOrUse": "Oil palm + rubber + cocoa + coconut (mature)",
+      "category": "Indonesian palm — Sumatra (SIMP)",
+      "fmvPerAcre": 65000000,
+      "fmvPerAcreLow": 52000000,
+      "fmvPerAcreHigh": 78000000,
+      "capRateLow": 8.0,
+      "capRateHigh": 11.0,
+      "fmvRationale": "~130K ha Sumatra nucleus (Riau + N+S Sumatra) — largest cluster including palm + rubber + small cocoa/coconut. Pre-plasma 2020 disclosure: 192K ha across Riau 56K + N Sum 38K + S Sum 98K (incl ~25% plasma). IDR 65M/acre = ~$4,063/USD per acre",
+      "comparablesUsed": [
+        "SIMP-FY25-AUDITED",
+        "ID-PALM-NSUMATRA-2024"
+      ],
+      "bookValueMM": 14000000
+    },
+    {
+      "name": "Kalimantan plantations (nucleus — oil palm)",
+      "location": "Kalimantan (West + East + Central), Indonesia",
+      "acres": 165000,
+      "cropOrUse": "Mature oil palm + mills",
+      "category": "Indonesian palm — Kalimantan (SIMP)",
+      "fmvPerAcre": 55000000,
+      "fmvPerAcreLow": 44000000,
+      "fmvPerAcreHigh": 66000000,
+      "capRateLow": 8.0,
+      "capRateHigh": 11.0,
+      "fmvRationale": "~67K ha Kalimantan nucleus (W Kalimantan 27K + E Kalimantan 64K + C Kalimantan 11K total, ~25% plasma excluded). IDR 55M/acre = ~$3,438/USD per acre",
+      "comparablesUsed": [
+        "SIMP-FY25-AUDITED",
+        "ID-PALM-KALIMANTAN-2024"
+      ],
+      "bookValueMM": 7000000
+    },
+    {
+      "name": "Sugarcane plantations + processing",
+      "location": "South Sumatra + Sulawesi, Indonesia",
+      "acres": 28000,
+      "cropOrUse": "Sugarcane (mill-supply for SIMP refineries)",
+      "category": "Indonesian sugarcane (SIMP)",
+      "fmvPerAcre": 35000000,
+      "fmvPerAcreLow": 28000000,
+      "fmvPerAcreHigh": 42000000,
+      "capRateLow": 7.0,
+      "capRateHigh": 9.5,
+      "fmvRationale": "~11K ha Indonesian sugarcane mill-supply ground — discount to global cane comps reflecting local market dynamics + smaller scale",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 1200000
+    },
+    {
+      "name": "Tea + smaller specialty estates (Java)",
+      "location": "Java (West Java tea estates) + minor specialty, Indonesia",
+      "acres": 17000,
+      "cropOrUse": "Tea + minor specialty crops",
+      "category": "Indonesian specialty (SIMP)",
+      "fmvPerAcre": 50000000,
+      "fmvPerAcreLow": 40000000,
+      "fmvPerAcreHigh": 60000000,
+      "capRateLow": 8.0,
+      "capRateHigh": 10.5,
+      "fmvRationale": "~7K ha Java tea estates + minor specialty (cocoa)",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 1300000
+    },
+    {
+      "name": "Plasma plantations receivable (smallholder partnerships)",
+      "location": "Indonesia (smallholder areas adjacent to nucleus)",
+      "acres": 296000,
+      "cropOrUse": "Plasma estate partnerships (~120,000 ha NOT owned by SIMP)",
+      "category": "Plasma plantations (partnership receivable)",
+      "fmvPerAcre": 6000000,
+      "fmvPerAcreLow": 5000000,
+      "fmvPerAcreHigh": 7000000,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0,
+      "fmvRationale": "~120,000 ha plasma estates owned by local smallholder farmers under Indonesia's mandatory plasma program — managed by SIMP/Lonsum, NOT on balance sheet as land asset. Carried as plasma receivable (advances + crop purchase obligation)",
+      "comparablesUsed": [
+        "SIMP-FY25-AUDITED"
+      ],
+      "bookValueMM": 1800
+    },
+    {
+      "name": "Mills + buildings + processing infrastructure",
+      "location": "Indonesia (27 palm oil mills + sugar refineries + tea processing + downstream Bimoli/Palmia/Simas brand assets)",
+      "acres": 1,
+      "cropOrUse": "27 CPO mills + processing + Edible Oil & Fats downstream + buildings + machinery",
+      "category": "CPO mills + processing infrastructure",
+      "fmvPerAcre": 6500000000000,
+      "fmvPerAcreLow": 5500000000000,
+      "fmvPerAcreHigh": 8000000000000,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0,
+      "fmvRationale": "27 CPO mills + sugar/tea processing + Edible Oil & Fats downstream brands (Bimoli, Palmia, Simas) + buildings + machinery. Larger industrial infrastructure than AALI reflecting downstream brand portfolio at consumer-product-multiple valuation",
+      "comparablesUsed": [
+        "SIMP-FY25-AUDITED"
+      ],
+      "bookValueMM": 6500000
+    }
+  ],
+  "comparables": [
+    {
+      "id": "SIMP-FY25-AUDITED",
+      "description": "PT Salim Ivomas Pratama Tbk Q1 2026 balance sheet (FY24-FY25 calendar audit basis): Total assets IDR 41.9T, Total liabilities IDR 14.7T, Shareholders' Equity IDR 27.2T, Book Value per Share IDR 1,346.75. PP&E IDR 17.7T (Land 1.47T + Buildings 9.02T + Machinery 10.35T + CWIP 0.24T net of depreciation)",
+      "location": "SIMP consolidated balance sheet",
+      "acres": 530000,
+      "pricePerAcre": 33000000,
+      "date": "2025-12-31",
+      "source": "SIMP Q1 2026 audited financial statements"
+    },
+    {
+      "id": "SIMP-PORTFOLIO-2020",
+      "description": "SIMP 2020 disclosed planted area (most recent regional breakdown): Total oil palm 303,149 ha (mature 253K + immature 41K) across Riau 56K + N Sumatra 38K + S Sumatra 98K + W Kalimantan 27K + E Kalimantan 64K + C Kalimantan 11K + Java 3K + Sulawesi 5K. Includes ~25% plasma not owned",
+      "location": "SIMP full portfolio (2020 disclosure)",
+      "acres": 749000,
+      "pricePerAcre": 40000000,
+      "date": "2020-12-31",
+      "source": "SIMP 2020 Annual Report"
+    },
+    {
+      "id": "ID-PALM-NSUMATRA-2024",
+      "description": "North Sumatra mature palm oil estate transactions 2024 — IDR 60-80M/acre",
+      "location": "North Sumatra, Indonesia",
+      "pricePerAcre": 70000000,
+      "date": "2024-10-15",
+      "source": "Indonesian palm oil broker comps 2024"
+    },
+    {
+      "id": "ID-PALM-KALIMANTAN-2024",
+      "description": "Kalimantan palm oil concession 2024 — IDR 45-65M/acre",
+      "location": "Kalimantan, Indonesia",
+      "pricePerAcre": 55000000,
+      "date": "2024-09-30",
+      "source": "Kalimantan palm broker comps 2024"
+    },
+    {
+      "id": "ID-PALM-MATURE-2024",
+      "description": "Indonesian mature oil palm with mill access — broker comps IDR 50-70M/acre",
+      "location": "Indonesia",
+      "pricePerAcre": 60000000,
+      "date": "2024-09-15",
+      "source": "GAPKI Indonesia palm oil land transaction reports 2024"
+    }
+  ],
+  "methodology": "PT Salim Ivomas Pratama (SIMP) is the Indofood/Salim Group's plantation arm including PP London Sumatra (Lonsum) as a subsidiary. Two reportable segments: Plantations (oil palm + rubber + sugarcane + cocoa + coconut + tea) and Edible Oil & Fats (downstream brands Bimoli, Palmia, Simas).\n\nCRITICAL CHANGES vs prior version of this file:\n  • Prior version aggregated nucleus + plasma to 704K acres total — conflated owned and partnership-managed land\n  • Plasma ~296K acres now correctly excluded from acre totals (smallholder farmer ownership, ~120,000 ha at ~25% of operated area)\n  • Per-acre values reduced (Sumatra IDR 75M → 65M; Kalimantan 65M → 55M) to better align with mark-to-market book + 1.7-2× FMV multiple\n  • Added separate plasma row + mills/processing row for clean reconciliation\n\nPRIMARY FMV ANCHOR: SIMP Q1 2026 audited balance sheet:\n  Total assets:                     IDR 41.9T\n  Total liabilities:                IDR 14.7T\n  Total equity:                     IDR 27.2T\n  Book value per share:             IDR 1,346.75\n  PP&E (net of depreciation):       IDR 17.7T (land 1.47T + buildings 9.02T + machinery 10.35T + CWIP 0.24T)\n  Plus bearer plants (separate biological assets line)\n\nFMV TARGET: My buildup totals ~IDR 31.6T (320K × 65M Sumatra + 165K × 55M Kalimantan + 28K × 35M sugar + 17K × 50M specialty + plasma 1.8T + industrial 6.5T) = roughly 1.8× audited PP&E book of IDR 17.7T, in line with AALI mark-to-market premium for Indonesian palm. Implied NAV/share: ~IDR 27T equity vs 20.2B shares = IDR 1,347/share book.\n\nSIMP's Plantations + Edible Oil & Fats segments give it broader exposure than AALI (palm pure-play). The downstream Bimoli/Palmia/Simas brand portfolio commands consumer-products multiples that pure-play Indonesian palm comps don't capture — included in Mills + processing row.\n\nLONSUM SUBSIDIARY: SIMP holds 59.48% of PT PP London Sumatra Indonesia Tbk (LSIP), a separately listed plantation company. Lonsum operations (mostly North Sumatra palm + rubber) are consolidated into SIMP's totals here.\n\nCap rate ranges 7-13% reflect Indonesian palm going-concern + processing-asset yields with country-risk premium.\n\nPLASMA STRUCTURE (same as AALI): Indonesia's mandatory plasma program requires palm oil companies to develop ~20-30% of estate area for smallholder farmers. SIMP's plasma is managed under cooperatives with multi-year crop purchase + advisory agreements. The plasma receivable on SIMP balance sheet represents net advances less repayments — NOT land value.",
+  "noiCheckCapRateLow": 7.5,
+  "noiCheckCapRateHigh": 11.0,
+  "noiCheckLabel": "Indonesian palm oil + downstream brands (going-concern, country-risk adjusted)"
+}

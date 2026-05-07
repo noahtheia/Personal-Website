@@ -1,0 +1,93 @@
+{
+  "ticker": "GSF.OL",
+  "currency": "NOK",
+  "sourceUrl": "https://www.griegseafood.com/investors/",
+  "notes": "Grieg Seafood ASA is a Norwegian salmon farmer with operations in Norway (Finnmark, Rogaland) and (post divestment of BC operations to Cermaq announced 2024) historically Canada. Reports and lists in NOK on Oslo Børs. FY = calendar year. Smaller and more volatile than tier-1 peers; biological issues and ISA outbreaks have weighed on recent years. Segment expense split estimated.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 7280,
+      "expensesBySegmentMM": {
+        "Cost of materials": 3640,
+        "Salaries": 750,
+        "Operating expenses": 2280,
+        "D&A": 460
+      },
+      "ebitdaMM": 150,
+      "netDebtMM": 3050,
+      "sharesOutMM": 113.13,
+      "bookValuePerShare": 30.0,
+      "dividendPerShare": 0.0,
+      "notes": "FY20: Revenue NOK 7,280M, Operational EBIT NOK -310M. COVID-hit; dividend cancelled."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 7965,
+      "expensesBySegmentMM": {
+        "Cost of materials": 3982,
+        "Salaries": 800,
+        "Operating expenses": 2440,
+        "D&A": 480
+      },
+      "ebitdaMM": 743,
+      "netDebtMM": 3200,
+      "sharesOutMM": 113.13,
+      "bookValuePerShare": 32.0,
+      "dividendPerShare": 4.00,
+      "notes": "FY21: Revenue NOK 7,965M, Operational EBIT NOK 263M. Recovery year."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 8915,
+      "expensesBySegmentMM": {
+        "Cost of materials": 4458,
+        "Salaries": 880,
+        "Operating expenses": 2670,
+        "D&A": 555
+      },
+      "ebitdaMM": 1352,
+      "netDebtMM": 3500,
+      "sharesOutMM": 113.13,
+      "bookValuePerShare": 35.0,
+      "dividendPerShare": 4.00,
+      "notes": "FY22: Revenue NOK 8,915M, Operational EBIT NOK 797M. Strong salmon prices; resource-rent tax announced Sep 2022."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 7395,
+      "expensesBySegmentMM": {
+        "Cost of materials": 3700,
+        "Salaries": 820,
+        "Operating expenses": 2240,
+        "D&A": 565
+      },
+      "ebitdaMM": 70,
+      "netDebtMM": 4100,
+      "sharesOutMM": 113.13,
+      "bookValuePerShare": 30.5,
+      "dividendPerShare": 0.0,
+      "notes": "FY23: Revenue NOK 7,395M, Operational EBIT NOK -495M. Severe biological issues (winter ulcers) in Rogaland and Finnmark; ISA outbreak in BC."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 7000,
+      "expensesBySegmentMM": {
+        "Cost of materials": 3500,
+        "Salaries": 800,
+        "Operating expenses": 2150,
+        "D&A": 560
+      },
+      "ebitdaMM": 760,
+      "netDebtMM": 3950,
+      "sharesOutMM": 113.13,
+      "bookValuePerShare": 28.5,
+      "dividendPerShare": 0.0,
+      "notes": "FY24: Revenue NOK 7,000M, Operational EBIT NOK 200M. BC operations divested to Cermaq (closed 2024). Norway-only platform going forward."
+    }
+  ]
+}

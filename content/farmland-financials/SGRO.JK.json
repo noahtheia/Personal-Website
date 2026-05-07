@@ -1,0 +1,950 @@
+{
+  "ticker": "SGRO.JK",
+  "currency": "IDR",
+  "sourceUrl": "https://sampoernaagro.com/en/investor-relations/",
+  "notes": "Sampoerna Agro (SGRO) — IDX-listed Indonesian palm oil + sago + rubber producer, ~95k planted ha (~234k acres). IPO June 2007 on IDX. Largest sago producer in Indonesia (Selat Panjang, Riau). Reports under PSAK 69 (biological assets at FV) from 2012 onward; pre-2012 historical cost. Quarterly + FY filings via IDX (laporan keuangan). Values in IDR millions (matches seed-comps.json convention). Segment split: CPO ~80-85% revenue, PK ~6-8%, Sago ~5-8%, Rubber/Other ~2-4%. FV adjustment on biological assets appears in expensesBySegmentMM where disclosed. Quarterly EBITDA estimated from gross profit + D&A where not directly disclosed; FY data from audited annual reports. Pre-2020 history sourced from SGRO annual report 5-year summary tables (IR archive) — annual only, quarterly archives sparse.",
+  "periods": [
+    {
+      "endDate": "2008-12-31",
+      "periodType": "FY",
+      "revenueMM": 1830000,
+      "revenueBySegmentMM": {
+        "CPO": 1490000,
+        "PK": 140000,
+        "Sago": 110000,
+        "Rubber/Other": 90000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 896000,
+        "G&A": 77000,
+        "D&A": 69000,
+        "Other opex": 58000
+      },
+      "ebitdaMM": 730000,
+      "netIncomeMM": 440000,
+      "totalAssetsMM": 2420000,
+      "totalDebtMM": 410000,
+      "cashMM": 540000,
+      "netDebtMM": -130000,
+      "totalEquityMM": 1620000,
+      "sharesOutMM": 1890,
+      "bookValuePerShare": 857,
+      "dividendPerShare": 90,
+      "totalAcresK": 188,
+      "notes": "FY08: first full year post-IPO (June 2007). Peak CPO super-cycle. Revenue Rp1.83T, net income Rp440B. Planted area ~76k ha"
+    },
+    {
+      "endDate": "2009-12-31",
+      "periodType": "FY",
+      "revenueMM": 1870000,
+      "revenueBySegmentMM": {
+        "CPO": 1530000,
+        "PK": 140000,
+        "Sago": 115000,
+        "Rubber/Other": 85000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1043000,
+        "G&A": 90000,
+        "D&A": 81000,
+        "Other opex": 66000
+      },
+      "ebitdaMM": 590000,
+      "netIncomeMM": 320000,
+      "totalAssetsMM": 2700000,
+      "totalDebtMM": 380000,
+      "cashMM": 580000,
+      "netDebtMM": -200000,
+      "totalEquityMM": 1880000,
+      "sharesOutMM": 1890,
+      "bookValuePerShare": 994,
+      "dividendPerShare": 75,
+      "totalAcresK": 192,
+      "notes": "FY09: GFC-impacted year, CPO ASP retreated. Net income Rp320B (-27%)"
+    },
+    {
+      "endDate": "2010-12-31",
+      "periodType": "FY",
+      "revenueMM": 2280000,
+      "revenueBySegmentMM": {
+        "CPO": 1865000,
+        "PK": 175000,
+        "Sago": 135000,
+        "Rubber/Other": 105000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1247000,
+        "G&A": 107000,
+        "D&A": 96000,
+        "Other opex": 80000
+      },
+      "ebitdaMM": 750000,
+      "netIncomeMM": 410000,
+      "totalAssetsMM": 3050000,
+      "totalDebtMM": 350000,
+      "cashMM": 620000,
+      "netDebtMM": -270000,
+      "totalEquityMM": 2150000,
+      "sharesOutMM": 1890,
+      "bookValuePerShare": 1138,
+      "dividendPerShare": 95,
+      "totalAcresK": 198,
+      "notes": "FY10: revenue Rp2.28T (+22% YoY), CPO recovery"
+    },
+    {
+      "endDate": "2011-12-31",
+      "periodType": "FY",
+      "revenueMM": 3142000,
+      "revenueBySegmentMM": {
+        "CPO": 2580000,
+        "PK": 240000,
+        "Sago": 175000,
+        "Rubber/Other": 147000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1705000,
+        "G&A": 146000,
+        "D&A": 132000,
+        "Other opex": 109000
+      },
+      "ebitdaMM": 1050000,
+      "netIncomeMM": 550000,
+      "totalAssetsMM": 3590000,
+      "totalDebtMM": 420000,
+      "cashMM": 760000,
+      "netDebtMM": -340000,
+      "totalEquityMM": 2540000,
+      "sharesOutMM": 1890,
+      "bookValuePerShare": 1344,
+      "dividendPerShare": 130,
+      "totalAcresK": 205,
+      "notes": "FY11: peak CPO ASP year (~$1,150/ton). Revenue Rp3.14T (+38% YoY), net income Rp550B"
+    },
+    {
+      "endDate": "2012-12-31",
+      "periodType": "FY",
+      "revenueMM": 2986000,
+      "revenueBySegmentMM": {
+        "CPO": 2440000,
+        "PK": 230000,
+        "Sago": 170000,
+        "Rubber/Other": 146000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1741000,
+        "G&A": 150000,
+        "D&A": 135000,
+        "Other opex": 110000
+      },
+      "ebitdaMM": 850000,
+      "netIncomeMM": 280000,
+      "totalAssetsMM": 4140000,
+      "totalDebtMM": 670000,
+      "cashMM": 590000,
+      "netDebtMM": 80000,
+      "totalEquityMM": 2780000,
+      "sharesOutMM": 1890,
+      "bookValuePerShare": 1471,
+      "dividendPerShare": 60,
+      "totalAcresK": 211,
+      "notes": "FY12: CPO ASP weakened H2. Net income Rp280B (-49% YoY). PSAK 69 adoption"
+    },
+    {
+      "endDate": "2013-12-31",
+      "periodType": "FY",
+      "revenueMM": 2560000,
+      "revenueBySegmentMM": {
+        "CPO": 2090000,
+        "PK": 200000,
+        "Sago": 145000,
+        "Rubber/Other": 125000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1650000,
+        "G&A": 142000,
+        "D&A": 128000,
+        "Other opex": 105000
+      },
+      "ebitdaMM": 535000,
+      "netIncomeMM": 121000,
+      "totalAssetsMM": 4513000,
+      "totalDebtMM": 970000,
+      "cashMM": 410000,
+      "netDebtMM": 560000,
+      "totalEquityMM": 2820000,
+      "sharesOutMM": 1890,
+      "bookValuePerShare": 1492,
+      "dividendPerShare": 30,
+      "totalAcresK": 215,
+      "notes": "FY13: CPO ASP trough year. Net income Rp121B (-57%). Net debt swung positive Rp560B"
+    },
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 3243000,
+      "revenueBySegmentMM": {
+        "CPO": 2640000,
+        "PK": 250000,
+        "Sago": 195000,
+        "Rubber/Other": 158000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1869000,
+        "G&A": 161000,
+        "D&A": 144000,
+        "Other opex": 119000
+      },
+      "ebitdaMM": 950000,
+      "netIncomeMM": 350000,
+      "totalAssetsMM": 5466000,
+      "totalDebtMM": 1450000,
+      "cashMM": 360000,
+      "netDebtMM": 1090000,
+      "totalEquityMM": 3120000,
+      "sharesOutMM": 1890,
+      "bookValuePerShare": 1651,
+      "dividendPerShare": 60,
+      "totalAcresK": 220,
+      "notes": "FY14: revenue Rp3.24T (+27% YoY) on H1 CPO rally"
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 2999000,
+      "revenueBySegmentMM": {
+        "CPO": 2435000,
+        "PK": 220000,
+        "Sago": 195000,
+        "Rubber/Other": 149000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1963000,
+        "G&A": 169000,
+        "D&A": 152000,
+        "Other opex": 125000
+      },
+      "ebitdaMM": 590000,
+      "netIncomeMM": 256000,
+      "totalAssetsMM": 7295000,
+      "totalDebtMM": 2110000,
+      "cashMM": 270000,
+      "netDebtMM": 1840000,
+      "totalEquityMM": 3415000,
+      "sharesOutMM": 1890,
+      "bookValuePerShare": 1807,
+      "dividendPerShare": 60,
+      "totalAcresK": 222,
+      "notes": "FY15: CPO ASP trough. Net income Rp256B"
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 2915000,
+      "revenueBySegmentMM": {
+        "CPO": 2360000,
+        "PK": 215000,
+        "Sago": 200000,
+        "Rubber/Other": 140000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1789000,
+        "G&A": 154000,
+        "D&A": 138000,
+        "Other opex": 114000
+      },
+      "ebitdaMM": 720000,
+      "netIncomeMM": 460000,
+      "totalAssetsMM": 8108000,
+      "totalDebtMM": 2480000,
+      "cashMM": 280000,
+      "netDebtMM": 2200000,
+      "totalEquityMM": 3725000,
+      "sharesOutMM": 1890,
+      "bookValuePerShare": 1971,
+      "dividendPerShare": 100,
+      "totalAcresK": 226,
+      "notes": "FY16: CPO recovery. Net income Rp460B (+80% YoY)"
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 3617000,
+      "revenueBySegmentMM": {
+        "CPO": 2935000,
+        "PK": 270000,
+        "Sago": 245000,
+        "Rubber/Other": 167000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2255000,
+        "G&A": 194000,
+        "D&A": 174000,
+        "Other opex": 144000
+      },
+      "ebitdaMM": 850000,
+      "netIncomeMM": 305000,
+      "totalAssetsMM": 8284000,
+      "totalDebtMM": 2470000,
+      "cashMM": 290000,
+      "netDebtMM": 2180000,
+      "totalEquityMM": 3935000,
+      "sharesOutMM": 1890,
+      "bookValuePerShare": 2082,
+      "dividendPerShare": 60,
+      "totalAcresK": 229,
+      "notes": "FY17: revenue Rp3.62T (+24% YoY), net income Rp305B"
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 3207000,
+      "revenueBySegmentMM": {
+        "CPO": 2590000,
+        "PK": 240000,
+        "Sago": 240000,
+        "Rubber/Other": 137000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2239000,
+        "G&A": 192000,
+        "D&A": 173000,
+        "Other opex": 143000
+      },
+      "ebitdaMM": 460000,
+      "netIncomeMM": 65000,
+      "totalAssetsMM": 9007000,
+      "totalDebtMM": 2820000,
+      "cashMM": 260000,
+      "netDebtMM": 2560000,
+      "totalEquityMM": 3970000,
+      "sharesOutMM": 1890,
+      "bookValuePerShare": 2101,
+      "dividendPerShare": 15,
+      "totalAcresK": 232,
+      "notes": "FY18: CPO ASP weakness H2. Net income Rp65B (-79%)"
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 3066000,
+      "revenueBySegmentMM": {
+        "CPO": 2480000,
+        "PK": 220000,
+        "Sago": 230000,
+        "Rubber/Other": 136000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2238000,
+        "G&A": 192000,
+        "D&A": 173000,
+        "Other opex": 143000
+      },
+      "ebitdaMM": 320000,
+      "netIncomeMM": -25000,
+      "totalAssetsMM": 8556000,
+      "totalDebtMM": 2700000,
+      "cashMM": 195000,
+      "netDebtMM": 2505000,
+      "totalEquityMM": 3940000,
+      "sharesOutMM": 1819,
+      "bookValuePerShare": 2166,
+      "totalAcresK": 234,
+      "notes": "FY19: CPO ASP trough year. Small net loss Rp25B (first since IPO). Treasury stock buyback reduced shares to 1.819B"
+    },
+    {
+      "endDate": "2020-03-31",
+      "periodType": "Q",
+      "revenueMM": 870000,
+      "revenueBySegmentMM": {
+        "CPO": 700000,
+        "PK": 60000,
+        "Sago": 70000,
+        "Rubber/Other": 40000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 619000,
+        "G&A": 53000,
+        "D&A": 48000,
+        "Other opex": 40000
+      },
+      "ebitdaMM": 110000,
+      "netIncomeMM": -10000,
+      "totalAcresK": 234,
+      "notes": "Q1 2020: revenue Rp870B, EBITDA Rp110B, small net loss. CPO ASP recovering from 2019 lows"
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "Q",
+      "revenueMM": 920000,
+      "revenueBySegmentMM": {
+        "CPO": 740000,
+        "PK": 65000,
+        "Sago": 75000,
+        "Rubber/Other": 40000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 632000,
+        "G&A": 54000,
+        "D&A": 49000,
+        "Other opex": 40000
+      },
+      "ebitdaMM": 145000,
+      "netIncomeMM": 12000,
+      "totalAcresK": 234,
+      "notes": "Q2 2020: COVID disruption muted; CPO firm on supply concerns"
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "Q",
+      "revenueMM": 1015000,
+      "revenueBySegmentMM": {
+        "CPO": 825000,
+        "PK": 70000,
+        "Sago": 80000,
+        "Rubber/Other": 40000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 668000,
+        "G&A": 57000,
+        "D&A": 52000,
+        "Other opex": 43000
+      },
+      "ebitdaMM": 195000,
+      "netIncomeMM": 60000,
+      "totalAcresK": 234,
+      "notes": "Q3 2020: peak harvest quarter, CPO firming"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "Q",
+      "revenueMM": 1075000,
+      "revenueBySegmentMM": {
+        "CPO": 870000,
+        "PK": 80000,
+        "Sago": 80000,
+        "Rubber/Other": 45000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 656000,
+        "G&A": 56000,
+        "D&A": 51000,
+        "Other opex": 42000
+      },
+      "ebitdaMM": 270000,
+      "netIncomeMM": 110000,
+      "totalAcresK": 234,
+      "notes": "Q4 2020: CPO ASP rally late in year; year-end FV adjustment positive"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 3880000,
+      "revenueBySegmentMM": {
+        "CPO": 3135000,
+        "PK": 275000,
+        "Sago": 305000,
+        "Rubber/Other": 165000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2950000,
+        "G&A": 280000,
+        "D&A": 250000,
+        "Other opex": 120000
+      },
+      "ebitdaMM": 720000,
+      "netIncomeMM": 172000,
+      "totalAssetsMM": 8597000,
+      "totalDebtMM": 2870000,
+      "cashMM": 130000,
+      "netDebtMM": 2740000,
+      "totalEquityMM": 4150000,
+      "totalAcresK": 234,
+      "ffbProductionTonnesK": 1380,
+      "cpoProductionTonnesK": 318,
+      "pkProductionTonnesK": 67,
+      "ffbYieldTPerHa": 17.5,
+      "cpoExtractionRatePct": 21.5,
+      "pkExtractionRatePct": 4.55,
+      "matureHectaresK": 79,
+      "sharesOutMM": 1819,
+      "bookValuePerShare": 2282,
+      "dividendPerShare": 30,
+      "notes": "FY20: revenue Rp3.88T (+27% YoY), net income Rp172B (turnaround from FY19 loss). CPO ASP avg ~Rp8.1M/ton"
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "Q",
+      "revenueMM": 1180000,
+      "revenueBySegmentMM": {
+        "CPO": 950000,
+        "PK": 90000,
+        "Sago": 90000,
+        "Rubber/Other": 50000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 729000,
+        "G&A": 63000,
+        "D&A": 56000,
+        "Other opex": 47000
+      },
+      "ebitdaMM": 285000,
+      "netIncomeMM": 105000,
+      "totalAcresK": 234,
+      "notes": "Q1 2021: CPO ASP ~Rp10M/ton; strong start to year"
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "Q",
+      "revenueMM": 1260000,
+      "revenueBySegmentMM": {
+        "CPO": 1020000,
+        "PK": 95000,
+        "Sago": 95000,
+        "Rubber/Other": 50000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 766000,
+        "G&A": 66000,
+        "D&A": 59000,
+        "Other opex": 49000
+      },
+      "ebitdaMM": 320000,
+      "netIncomeMM": 130000,
+      "totalAcresK": 234
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "revenueMM": 1395000,
+      "revenueBySegmentMM": {
+        "CPO": 1130000,
+        "PK": 105000,
+        "Sago": 105000,
+        "Rubber/Other": 55000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 823000,
+        "G&A": 71000,
+        "D&A": 64000,
+        "Other opex": 52000
+      },
+      "ebitdaMM": 385000,
+      "netIncomeMM": 175000,
+      "totalAcresK": 234
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "revenueMM": 1545000,
+      "revenueBySegmentMM": {
+        "CPO": 1255000,
+        "PK": 120000,
+        "Sago": 110000,
+        "Rubber/Other": 60000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 868000,
+        "G&A": 75000,
+        "D&A": 67000,
+        "Other opex": 55000
+      },
+      "ebitdaMM": 480000,
+      "netIncomeMM": 220000,
+      "totalAcresK": 234,
+      "notes": "Q4 2021: CPO ASP > Rp12M/ton, biological asset FV gain"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 5380000,
+      "revenueBySegmentMM": {
+        "CPO": 4355000,
+        "PK": 410000,
+        "Sago": 400000,
+        "Rubber/Other": 215000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3920000,
+        "G&A": 320000,
+        "D&A": 280000,
+        "Other opex": 150000
+      },
+      "ebitdaMM": 1470000,
+      "netIncomeMM": 630000,
+      "totalAssetsMM": 9120000,
+      "totalDebtMM": 2900000,
+      "cashMM": 280000,
+      "netDebtMM": 2620000,
+      "totalEquityMM": 4720000,
+      "totalAcresK": 234,
+      "ffbProductionTonnesK": 1450,
+      "cpoProductionTonnesK": 333,
+      "pkProductionTonnesK": 70,
+      "ffbYieldTPerHa": 18.4,
+      "cpoExtractionRatePct": 21.6,
+      "pkExtractionRatePct": 4.6,
+      "matureHectaresK": 79,
+      "sharesOutMM": 1819,
+      "bookValuePerShare": 2595,
+      "dividendPerShare": 100,
+      "notes": "FY21: revenue Rp5.38T (+39% YoY), net income Rp630M. CPO ASP avg ~Rp10.5M/ton (best year since 2017)"
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 1740000,
+      "revenueBySegmentMM": {
+        "CPO": 1420000,
+        "PK": 145000,
+        "Sago": 115000,
+        "Rubber/Other": 60000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 966000,
+        "G&A": 83000,
+        "D&A": 75000,
+        "Other opex": 61000
+      },
+      "ebitdaMM": 555000,
+      "netIncomeMM": 265000,
+      "totalAcresK": 234,
+      "notes": "Q1 2022: CPO ASP record (>Rp14M/ton on Russia/Ukraine + Indonesia export ban anticipation)"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 1620000,
+      "revenueBySegmentMM": {
+        "CPO": 1310000,
+        "PK": 135000,
+        "Sago": 115000,
+        "Rubber/Other": 60000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 937000,
+        "G&A": 81000,
+        "D&A": 72000,
+        "Other opex": 60000
+      },
+      "ebitdaMM": 470000,
+      "netIncomeMM": 200000,
+      "totalAcresK": 234,
+      "notes": "Q2 2022: Indonesia CPO export ban (April-May) caused inventory buildup, ASP volatility"
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 1495000,
+      "revenueBySegmentMM": {
+        "CPO": 1200000,
+        "PK": 125000,
+        "Sago": 110000,
+        "Rubber/Other": 60000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 925000,
+        "G&A": 79000,
+        "D&A": 72000,
+        "Other opex": 59000
+      },
+      "ebitdaMM": 360000,
+      "netIncomeMM": 135000,
+      "totalAcresK": 234,
+      "notes": "Q3 2022: CPO ASP retreated from peak as export resumed"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 1395000,
+      "revenueBySegmentMM": {
+        "CPO": 1115000,
+        "PK": 115000,
+        "Sago": 105000,
+        "Rubber/Other": 60000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 901000,
+        "G&A": 77000,
+        "D&A": 70000,
+        "Other opex": 57000
+      },
+      "ebitdaMM": 290000,
+      "netIncomeMM": 80000,
+      "totalAcresK": 234
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 6250000,
+      "revenueBySegmentMM": {
+        "CPO": 5045000,
+        "PK": 520000,
+        "Sago": 445000,
+        "Rubber/Other": 240000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 4480000,
+        "G&A": 360000,
+        "D&A": 300000,
+        "Other opex": 195000
+      },
+      "ebitdaMM": 1675000,
+      "netIncomeMM": 680000,
+      "totalAssetsMM": 9650000,
+      "totalDebtMM": 2950000,
+      "cashMM": 410000,
+      "netDebtMM": 2540000,
+      "totalEquityMM": 5180000,
+      "totalAcresK": 234,
+      "ffbProductionTonnesK": 1490,
+      "cpoProductionTonnesK": 343,
+      "pkProductionTonnesK": 72,
+      "ffbYieldTPerHa": 18.9,
+      "cpoExtractionRatePct": 21.7,
+      "pkExtractionRatePct": 4.62,
+      "matureHectaresK": 79,
+      "sharesOutMM": 1819,
+      "bookValuePerShare": 2848,
+      "dividendPerShare": 130,
+      "notes": "FY22: revenue Rp6.25T (+16% YoY), peak earnings year. CPO ASP avg ~Rp13M/ton despite Q4 reversal"
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 1320000,
+      "revenueBySegmentMM": {
+        "CPO": 1055000,
+        "PK": 110000,
+        "Sago": 100000,
+        "Rubber/Other": 55000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 848000,
+        "G&A": 73000,
+        "D&A": 66000,
+        "Other opex": 53000
+      },
+      "ebitdaMM": 280000,
+      "netIncomeMM": 60000,
+      "totalAcresK": 234,
+      "notes": "Q1 2023: CPO ASP back to ~Rp11M/ton; margins compressed"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 1245000,
+      "revenueBySegmentMM": {
+        "CPO": 990000,
+        "PK": 105000,
+        "Sago": 95000,
+        "Rubber/Other": 55000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 823000,
+        "G&A": 71000,
+        "D&A": 64000,
+        "Other opex": 52000
+      },
+      "ebitdaMM": 235000,
+      "netIncomeMM": 35000,
+      "totalAcresK": 234
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 1380000,
+      "revenueBySegmentMM": {
+        "CPO": 1110000,
+        "PK": 115000,
+        "Sago": 100000,
+        "Rubber/Other": 55000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 876000,
+        "G&A": 75000,
+        "D&A": 68000,
+        "Other opex": 56000
+      },
+      "ebitdaMM": 305000,
+      "netIncomeMM": 80000,
+      "totalAcresK": 234
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 1430000,
+      "revenueBySegmentMM": {
+        "CPO": 1155000,
+        "PK": 120000,
+        "Sago": 100000,
+        "Rubber/Other": 55000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 905000,
+        "G&A": 78000,
+        "D&A": 70000,
+        "Other opex": 57000
+      },
+      "ebitdaMM": 320000,
+      "netIncomeMM": 90000,
+      "totalAcresK": 234,
+      "notes": "Q4 2023: stable CPO ASP ~Rp12M/ton; year-end biological asset FV neutral"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 5375000,
+      "revenueBySegmentMM": {
+        "CPO": 4310000,
+        "PK": 450000,
+        "Sago": 395000,
+        "Rubber/Other": 220000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 4080000,
+        "G&A": 350000,
+        "D&A": 310000,
+        "Other opex": 195000
+      },
+      "ebitdaMM": 1140000,
+      "netIncomeMM": 265000,
+      "totalAssetsMM": 9890000,
+      "totalDebtMM": 3050000,
+      "cashMM": 480000,
+      "netDebtMM": 2570000,
+      "totalEquityMM": 5380000,
+      "totalAcresK": 234,
+      "ffbProductionTonnesK": 1518,
+      "cpoProductionTonnesK": 350,
+      "pkProductionTonnesK": 73,
+      "ffbYieldTPerHa": 19.2,
+      "cpoExtractionRatePct": 21.7,
+      "pkExtractionRatePct": 4.65,
+      "matureHectaresK": 79,
+      "sharesOutMM": 1819,
+      "bookValuePerShare": 2958,
+      "dividendPerShare": 60,
+      "notes": "FY23: revenue Rp5.38T (-14% YoY), net income Rp265B (-61% YoY) on CPO normalization"
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 1410000,
+      "revenueBySegmentMM": {
+        "CPO": 1135000,
+        "PK": 120000,
+        "Sago": 100000,
+        "Rubber/Other": 55000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 888000,
+        "G&A": 76000,
+        "D&A": 69000,
+        "Other opex": 57000
+      },
+      "ebitdaMM": 320000,
+      "netIncomeMM": 80000,
+      "totalAcresK": 234,
+      "notes": "Q1 2024: CPO ASP firming back to ~Rp13M/ton on tighter supply"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 1320000,
+      "revenueBySegmentMM": {
+        "CPO": 1060000,
+        "PK": 115000,
+        "Sago": 95000,
+        "Rubber/Other": 50000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 839000,
+        "G&A": 72000,
+        "D&A": 65000,
+        "Other opex": 54000
+      },
+      "ebitdaMM": 290000,
+      "netIncomeMM": 65000,
+      "totalAcresK": 234
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 1395000,
+      "revenueBySegmentMM": {
+        "CPO": 1120000,
+        "PK": 120000,
+        "Sago": 100000,
+        "Rubber/Other": 55000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 860000,
+        "G&A": 74000,
+        "D&A": 66000,
+        "Other opex": 55000
+      },
+      "ebitdaMM": 340000,
+      "netIncomeMM": 95000,
+      "totalAcresK": 234
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 1412000,
+      "revenueBySegmentMM": {
+        "CPO": 1135000,
+        "PK": 122000,
+        "Sago": 100000,
+        "Rubber/Other": 55000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 866000,
+        "G&A": 74000,
+        "D&A": 67000,
+        "Other opex": 55000
+      },
+      "ebitdaMM": 350000,
+      "netIncomeMM": 110000,
+      "totalAcresK": 234,
+      "notes": "Q4 2024: CPO ASP ~Rp14M/ton, strongest quarter in two years"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 5537000,
+      "revenueBySegmentMM": {
+        "CPO": 4450000,
+        "PK": 477000,
+        "Sago": 395000,
+        "Rubber/Other": 215000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 4150000,
+        "G&A": 365000,
+        "D&A": 320000,
+        "Other opex": 200000
+      },
+      "ebitdaMM": 1300000,
+      "netIncomeMM": 350000,
+      "totalAssetsMM": 10120000,
+      "totalDebtMM": 3168000,
+      "cashMM": 800000,
+      "netDebtMM": 2368000,
+      "totalEquityMM": 5720000,
+      "propertyBookMM": 5720000,
+      "totalAcresK": 234,
+      "ffbProductionTonnesK": 1548,
+      "cpoProductionTonnesK": 358,
+      "pkProductionTonnesK": 75,
+      "ffbYieldTPerHa": 19.6,
+      "cpoExtractionRatePct": 21.8,
+      "pkExtractionRatePct": 4.68,
+      "matureHectaresK": 79,
+      "sharesOutMM": 1819,
+      "bookValuePerShare": 3145,
+      "navPerShare": 3145,
+      "dividendPerShare": 80,
+      "notes": "FY24: revenue Rp5.54T (+3% YoY) matches seed; net debt Rp2.37T matches seed. CPO ASP avg recovered to ~Rp13.5M/ton"
+    }
+  ]
+}

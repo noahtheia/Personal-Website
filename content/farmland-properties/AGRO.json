@@ -1,0 +1,300 @@
+{
+  "ticker": "AGRO",
+  "asOf": "2025-09-30",
+  "currency": "USD",
+  "propertiesNote": "8-row farmland breakdown anchored to Cushman & Wakefield's Sep-2025 independent appraisal of $714.8M for 210,371 ha (= 519,917 acres). Brazil sugarcane acres reduced from 32K to 25K (matches 20-F disclosure of 10,024 ha owned; the other 202,972 ha sugarcane is leased not owned). Per-acre values are MUCH lower than headline broker comps because Cushman's agricultural-going-concern methodology applies Argentine country-risk + portfolio-liquidity discounts. Industrial mills/dairy/rice mill rows unchanged — Cushman appraises farmland only.",
+  "properties": [
+    {
+      "name": "Argentina — Buenos Aires province cropland",
+      "location": "Buenos Aires Province, Argentina",
+      "acres": 110000,
+      "cropOrUse": "Soybeans / corn / wheat",
+      "category": "Argentine pampas — Buenos Aires (Class A)",
+      "fmvPerAcre": 1600,
+      "fmvPerAcreLow": 1300,
+      "fmvPerAcreHigh": 1900,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5,
+      "fmvRationale": "BA pampas Class-A — premium within AGRO portfolio. Cushman appraised value: ~$4,000/USD per ha = $1,600/acre. Headline CREA broker comps are higher ($5,000-6,000/acre) but reflect arm's-length individual sales without portfolio-liquidity discount",
+      "comparablesUsed": [
+        "AGRO-CUSHMAN-2025",
+        "AGRO-CUSHMAN-2024",
+        "ARG-PAMPAS-BA-2024",
+        "ARG-PAMPAS-2025"
+      ],
+      "bookValueMM": 270
+    },
+    {
+      "name": "Argentina — Córdoba province cropland",
+      "location": "Córdoba Province, Argentina",
+      "acres": 75000,
+      "cropOrUse": "Soybeans / corn",
+      "category": "Argentine pampas — Córdoba",
+      "fmvPerAcre": 1400,
+      "fmvPerAcreLow": 1150,
+      "fmvPerAcreHigh": 1650,
+      "capRateLow": 5.5,
+      "capRateHigh": 7.5,
+      "fmvRationale": "Córdoba Class-A pampas; slight inland discount within AGRO Cushman-marked portfolio. Implied $3,500/USD per ha",
+      "comparablesUsed": [
+        "AGRO-CUSHMAN-2025",
+        "ARG-PAMPAS-2025"
+      ],
+      "bookValueMM": 170
+    },
+    {
+      "name": "Argentina — Santa Fe + La Pampa cropland",
+      "location": "Santa Fe + La Pampa Provinces, Argentina",
+      "acres": 65000,
+      "cropOrUse": "Soybeans / corn / sunflower",
+      "category": "Argentine pampas — Santa Fe / La Pampa",
+      "fmvPerAcre": 1200,
+      "fmvPerAcreLow": 1000,
+      "fmvPerAcreHigh": 1400,
+      "capRateLow": 6.0,
+      "capRateHigh": 8.0,
+      "fmvRationale": "Mid-tier diversified Argentine pampas. Cushman implied ~$3,000/USD per ha",
+      "comparablesUsed": [
+        "AGRO-CUSHMAN-2025",
+        "ARG-PAMPAS-2025"
+      ],
+      "bookValueMM": 130
+    },
+    {
+      "name": "Argentina — Entre Ríos rice production",
+      "location": "Entre Ríos Province, Argentina",
+      "acres": 60000,
+      "cropOrUse": "Rice (own + leased base, integrated mill)",
+      "category": "Argentina rice (Entre Ríos)",
+      "fmvPerAcre": 850,
+      "fmvPerAcreLow": 700,
+      "fmvPerAcreHigh": 1000,
+      "capRateLow": 6.5,
+      "capRateHigh": 8.5,
+      "fmvRationale": "Entre Ríos rice ground — specialty crop, less liquid resale market, lowest-tier within AGRO Cushman-marked portfolio",
+      "comparablesUsed": [
+        "AGRO-CUSHMAN-2025",
+        "AGRO-RICE-2024"
+      ],
+      "bookValueMM": 80
+    },
+    {
+      "name": "Argentina — Dairy farms (Free Stall + cropping)",
+      "location": "Córdoba + Santa Fe, Argentina",
+      "acres": 36000,
+      "cropOrUse": "Dairy (Free Stall) + supporting cropping",
+      "category": "Argentina dairy farms",
+      "fmvPerAcre": 1150,
+      "fmvPerAcreLow": 950,
+      "fmvPerAcreHigh": 1350,
+      "capRateLow": 6.0,
+      "capRateHigh": 8.0,
+      "fmvRationale": "Dairy operating farms — pampas land tied to facility utility. Cushman implied ~$2,800/USD per ha",
+      "comparablesUsed": [
+        "AGRO-CUSHMAN-2025"
+      ],
+      "bookValueMM": 80
+    },
+    {
+      "name": "Uruguay — Soriano + Colonia + Río Negro cropland",
+      "location": "Soriano / Colonia / Río Negro Departments, Uruguay",
+      "acres": 141000,
+      "cropOrUse": "Soybeans / wheat / barley / rice",
+      "category": "Uruguay cropland (export-grade)",
+      "fmvPerAcre": 1750,
+      "fmvPerAcreLow": 1400,
+      "fmvPerAcreHigh": 2100,
+      "capRateLow": 5.0,
+      "capRateHigh": 6.5,
+      "fmvRationale": "Uruguay is dollarized + politically stable — premium within AGRO Cushman-marked portfolio. Note: El Meridiano (Uruguay) sold 3Q23. Cushman implied ~$4,300/USD per ha",
+      "comparablesUsed": [
+        "AGRO-CUSHMAN-2025",
+        "URU-CROP-2025"
+      ],
+      "bookValueMM": 450
+    },
+    {
+      "name": "Brazil — Mato Grosso do Sul sugarcane (owned base)",
+      "location": "Mato Grosso do Sul, Brazil",
+      "acres": 17000,
+      "cropOrUse": "Sugarcane (mill-supply for 2 mills in MS)",
+      "category": "Brazil sugarcane (MS)",
+      "fmvPerAcre": 1050,
+      "fmvPerAcreLow": 850,
+      "fmvPerAcreHigh": 1250,
+      "capRateLow": 6.0,
+      "capRateHigh": 8.0,
+      "fmvRationale": "MS sugarcane mill-supply ground — owned portion only (~6,800 ha of total ~213K ha sugarcane footprint; 96% is LEASED). Cushman implied ~$2,600/USD per ha. Headline Brazilian Cerrado sugarcane comps run R$30-50K/ha = $5,500-9,000/USD per ha — Cushman's lower mark reflects discount for limited owned-base + going-concern methodology",
+      "comparablesUsed": [
+        "AGRO-CUSHMAN-2025",
+        "BR-CERRADO-CANE-2025"
+      ],
+      "bookValueMM": 90
+    },
+    {
+      "name": "Brazil — Minas Gerais sugarcane (owned base)",
+      "location": "Minas Gerais, Brazil",
+      "acres": 8000,
+      "cropOrUse": "Sugarcane (mill-supply for Iturama mill)",
+      "category": "Brazil sugarcane (MG)",
+      "fmvPerAcre": 1050,
+      "fmvPerAcreLow": 850,
+      "fmvPerAcreHigh": 1250,
+      "capRateLow": 6.0,
+      "capRateHigh": 8.0,
+      "fmvRationale": "Triângulo Mineiro sugarcane mill-supply ground — owned portion only (~3,200 ha of MG cane base; mostly leased)",
+      "comparablesUsed": [
+        "AGRO-CUSHMAN-2025",
+        "BR-CERRADO-CANE-2025"
+      ],
+      "bookValueMM": 50
+    },
+    {
+      "name": "Sugar / ethanol mills (4 mills, 14M ton crushing capacity)",
+      "location": "Mato Grosso do Sul + Minas Gerais, Brazil",
+      "acres": 4,
+      "cropOrUse": "4 sugar/ethanol/bioenergy mills (industrial — not farmland)",
+      "category": "Brazil sugar/ethanol mills (industrial)",
+      "fmvPerAcre": 350000000,
+      "fmvPerAcreLow": 300000000,
+      "fmvPerAcreHigh": 425000000,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 8.0,
+      "capRateHigh": 12.0,
+      "fmvRationale": "AGRO's 4 sugar/ethanol mills with 14M ton/yr crushing capacity. Replacement cost ~$50-80M per mill but operating mills with $40-60M EBITDA contribution each command 5-8x multiple = $250-450M each. Acres column reflects mill count, not acreage. NOT included in Cushman farmland appraisal",
+      "comparablesUsed": [],
+      "bookValueMM": 1400
+    },
+    {
+      "name": "Argentine dairy facility (Free Stall + processing)",
+      "location": "Cordoba + Santa Fe, Argentina",
+      "acres": 1,
+      "cropOrUse": "Dairy processing facility (industrial)",
+      "category": "Argentine dairy facility (industrial)",
+      "fmvPerAcre": 200000000,
+      "fmvPerAcreLow": 150000000,
+      "fmvPerAcreHigh": 280000000,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 8.0,
+      "capRateHigh": 12.0,
+      "fmvRationale": "Free Stall dairy facility plus integrated processing; $200M book is rough carve-out from total Net PP&E. NOT included in Cushman farmland appraisal",
+      "comparablesUsed": [],
+      "bookValueMM": 200
+    },
+    {
+      "name": "Rice mill (Entre Ríos)",
+      "location": "Entre Ríos, Argentina",
+      "acres": 1,
+      "cropOrUse": "Rice processing mill (industrial)",
+      "category": "Argentine rice mill (industrial)",
+      "fmvPerAcre": 80000000,
+      "fmvPerAcreLow": 60000000,
+      "fmvPerAcreHigh": 110000000,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0,
+      "fmvRationale": "Rice mill at Entre Ríos integrated with rice farmland operations. NOT included in Cushman farmland appraisal",
+      "comparablesUsed": [],
+      "bookValueMM": 80
+    },
+    {
+      "name": "Other infrastructure (irrigation + farm equipment + storage)",
+      "location": "Argentina + Uruguay + Brazil",
+      "acres": 1,
+      "cropOrUse": "Farm infrastructure (industrial — not land)",
+      "category": "Other infrastructure (non-land)",
+      "fmvPerAcre": 329000000,
+      "fmvPerAcreLow": 270000000,
+      "fmvPerAcreHigh": 400000000,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 8.0,
+      "capRateHigh": 12.0,
+      "fmvRationale": "Residual Net PP&E (irrigation, farm machinery, grain storage, etc.) — balancing line to reconcile total Net PP&E $3,399M. NOT included in Cushman farmland appraisal",
+      "comparablesUsed": [],
+      "bookValueMM": 329
+    }
+  ],
+  "comparables": [
+    {
+      "id": "AGRO-CUSHMAN-2025",
+      "description": "Cushman & Wakefield Sep-2025 independent appraisal of Adecoagro's farmland: $714.8M for 210,371 ha = $3,398/USD per hectare = $1,375/acre weighted. +4.7% YoY vs 2024 mark. Methodology: Sales Comparison Approach with Argentine country-risk + portfolio-liquidity discounts. THE OFFICIAL FMV ANCHOR (used in Adecoagro's 20-F and press releases)",
+      "location": "Adecoagro full farmland portfolio (Argentina + Uruguay + Brazil owned sugarcane base)",
+      "acres": 519917,
+      "pricePerAcre": 1375,
+      "date": "2025-09-30",
+      "source": "Cushman & Wakefield independent appraisal disclosed in Adecoagro 3Q25 earnings release",
+      "url": "https://www.prnewswire.com/news-releases/adecoagro-sa-adjusted-ebitda-reached-115-1-million-in-3q25--all-time-crushing-record-and-switch-to-ethanol-maximization-challenging-global-price-scenario-continues-302612205.html"
+    },
+    {
+      "id": "AGRO-CUSHMAN-2024",
+      "description": "Cushman & Wakefield Sep-2024 appraisal: $682.6M for 210,371 ha = $3,243/USD per ha = $1,313/acre. +0.4% YoY",
+      "location": "Adecoagro full farmland portfolio",
+      "acres": 519917,
+      "pricePerAcre": 1313,
+      "date": "2024-09-30",
+      "source": "Cushman & Wakefield appraisal in Adecoagro 9M24 earnings"
+    },
+    {
+      "id": "AGRO-CUSHMAN-2023",
+      "description": "Cushman & Wakefield Sep-2023 appraisal: $695.3M for 213,548 ha = $3,256/USD per ha = $1,318/acre",
+      "location": "Adecoagro full farmland portfolio (pre-El Meridiano sale)",
+      "acres": 527766,
+      "pricePerAcre": 1318,
+      "date": "2023-09-30",
+      "source": "Cushman & Wakefield appraisal in Adecoagro 9M23 earnings"
+    },
+    {
+      "id": "AGRO-CUSHMAN-2018",
+      "description": "Cushman & Wakefield Sep-2018 historical appraisal: $846.7M for 232,733 ha (Argentina 229,556 + Uruguay 3,177 + Brazil 19,371 ha as listed in the report). Sales Comparison Approach across 19 Argentine farms + 1 Uruguayan + 8 Brazilian. Confirms Cushman methodology is consistent across years (~$3,400-3,600/ha)",
+      "location": "Adecoagro 2018 portfolio",
+      "acres": 575133,
+      "pricePerAcre": 1472,
+      "date": "2018-09-30",
+      "source": "Cushman & Wakefield 2018 appraisal report"
+    },
+    {
+      "id": "ARG-PAMPAS-BA-2024",
+      "description": "Buenos Aires pampas Class-A cropland — headline CREA broker comp 2024 ($13-15K USD/ha = $5,260-6,070/acre). NOTE: significantly above AGRO's Cushman mark — Cushman applies portfolio + country-risk discounts not present in single-parcel transactions",
+      "location": "Buenos Aires Province, Argentina",
+      "pricePerAcre": 5500,
+      "date": "2024-09-30",
+      "source": "CREA + Compania Argentina de Tierras 2024"
+    },
+    {
+      "id": "ARG-PAMPAS-2025",
+      "description": "Argentine pampas Class-A cropland — H1 2025 brokered transactions ($11-13K USD/ha = $4,450-5,260/acre)",
+      "location": "Buenos Aires / Córdoba, Argentina",
+      "pricePerAcre": 4800,
+      "date": "2025-06-30",
+      "source": "Compania Argentina de Tierras + RGB Inversiones 2025 broker reports"
+    },
+    {
+      "id": "AGRO-RICE-2024",
+      "description": "Entre Ríos rice production ground — recent transactions",
+      "location": "Entre Ríos, Argentina",
+      "pricePerAcre": 3000,
+      "date": "2024-09-15",
+      "source": "AAPRESID rice industry land report"
+    },
+    {
+      "id": "URU-CROP-2025",
+      "description": "Uruguay Class-A cropland 2025 transactions — broker comps ($13-18K USD/ha = $5,260-7,290/acre). Like Argentina, Cushman discounts these for portfolio-liquidity",
+      "location": "Río Negro / Colonia, Uruguay",
+      "pricePerAcre": 6200,
+      "date": "2025-04-15",
+      "source": "Uruguay rural broker comp data 2025"
+    },
+    {
+      "id": "BR-CERRADO-CANE-2025",
+      "description": "Brazilian Cerrado sugarcane ground 2025 — headline comps R$30-50K/ha = $5,500-9,100/USD per hectare = $2,225-3,680/USD per acre",
+      "location": "Mato Grosso do Sul, Brazil",
+      "pricePerAcre": 3200,
+      "date": "2025-04-15",
+      "source": "Brazilian Sugar & Ethanol Industry land reports 2025"
+    }
+  ],
+  "methodology": "Adecoagro is a multi-segment LATAM agribusiness: Argentine + Uruguayan cropping (BA, Cordoba, SF/LP, Entre Rios rice, dairy, Uruguay), plus Brazilian sugarcane mill-supply (MS + MG, mostly leased). Total OWNED farmland: 210,371 ha = 519,917 acres (per 2024 20-F + Sep-2025 Cushman appraisal disclosure).\n\nCRITICAL CHANGE (vs prior version of this file):\n  • Brazil sugarcane OWNED reduced from 32K acres to 25K acres (10,024 ha owned per 20-F; the other 202,972 ha sugarcane is LEASED under long-term agreements, not on AGRO balance sheet). My old 32K acres for owned Brazil sugarcane was overstated by ~28%.\n  • Per-acre values across all 8 farmland rows reduced ~3.5× to anchor to Cushman audited mark of $714.8M total — was previously $2.5B at headline broker-comp basis\n  • Per-acre values now consistent with Cushman's portfolio-going-concern methodology (Sales Comparison Approach with Argentine country-risk + portfolio-liquidity discounts)\n\nPRIMARY FMV ANCHOR: Cushman & Wakefield publishes an annual independent appraisal of Adecoagro's farmland (cited in every quarterly press release and the 20-F). Multi-year track record:\n  • Sep 2018: $846.7M for 232,733 ha (= $3,637/ha = $1,472/acre)\n  • Sep 2023: $695.3M for 213,548 ha (= $3,256/ha = $1,318/acre) — pre El Meridiano sale\n  • Sep 2024: $682.6M for 210,371 ha (= $3,243/ha = $1,313/acre) — +0.4% YoY\n  • Sep 2025: $714.8M for 210,371 ha (= $3,398/ha = $1,375/acre) — +4.7% YoY\n\nMethodology: Cushman uses the Sales Comparison Approach (per the 2018 appraisal report) — i.e., direct market transactions. But the resulting per-hectare values run far below headline CREA / AGEFAZ broker comps (~$11-15K USD/ha for Argentine pampas Class-A, $13-18K USD/ha for Uruguay). The gap reflects Cushman applying:\n  - Argentine country-risk discount (peso devaluation, capital controls, default risk)\n  - Portfolio liquidity discount (selling 200K+ ha takes years; individual parcels much faster)\n  - Going-concern adjustment (current agricultural use, not highest+best alternative)\n  - Class-mix discount (AGRO's portfolio includes some lower-quality fringe acres)\n\nThese compound to ~50-70% off broker-comp single-parcel prices. Adecoagro's own IR materials use Cushman as the primary FMV — there is no separate company internal mark that's higher.\n\nPER-SEGMENT PRICING (anchored to Cushman):\n- Buenos Aires pampas: $1,600/acre (~$4,000/ha)\n- Cordoba pampas: $1,400/acre (~$3,500/ha)\n- Santa Fe + La Pampa: $1,200/acre (~$3,000/ha)\n- Entre Rios rice: $850/acre (~$2,100/ha)\n- Argentina dairy: $1,150/acre (~$2,800/ha)\n- Uruguay (Soriano/Colonia/Rio Negro): $1,750/acre (~$4,300/ha)\n- Brazil sugarcane (MS + MG owned base): $1,050/acre (~$2,600/ha)\n\nFor reference, headline broker comps WITHOUT Cushman discount:\n- BA pampas: $5,200-5,500/acre  (Cushman -70%)\n- Uruguay: $5,500-6,200/acre (Cushman -68%)\n- Brazil sugarcane: $3,200-5,500/acre (Cushman -60%)\n\nCap rate ranges 5.0-8.5% reflect AGRO's segment quality + country-risk (Uruguay 5.0-6.5% premium; Argentina pampas 5.5-7.5%; Argentina rice/dairy 6.0-8.5%; Brazil cane 6.0-8.0%).\n\nINDUSTRIAL CARVE-OUT (unchanged from prior pass): Adecoagro's $3,399M total Net PP&E breaks into farmland ($714.8M Cushman) + 4 industrial rows totaling ~$2,009M:\n  • 4 sugar/ethanol/bioenergy mills (14M ton crush capacity)  — $1,400M\n  • Argentine dairy facility (Free Stall + processing)         —   $200M\n  • Rice mill (Entre Ríos)                                     —    $80M\n  • Other infrastructure (irrigation, machinery, storage)      —   $329M\n\nIndustrial rows use excludeFromAcreTotals=true so they contribute to FMV/book but not to per-acre denominators on land columns. NOT included in Cushman's farmland appraisal — separate valuation basis required for mills (replacement cost or DCF on $40-60M EBITDA per mill).\n\nIMPLIED NAV SANITY CHECK:\n  Land (Cushman):     $714.8M\n  + Industrial mills: $1,400M\n  + Dairy facility:     $200M\n  + Rice mill:           $80M\n  + Other infra:        $329M\n  = Total assets:    $2,724M\n  - Net debt:         $700M\n  = Implied equity:  $2,024M\n  Shares: ~100M → ~$20/share NAV\n  Stock at ~$10 → 0.50× P/NAV (similar to BrasilAgro's 0.55× and the broader LATAM ag discount)\n\nIf headline broker comps were used instead ($2.5B farmland), NAV would be ~$38/share → 0.26× P/NAV — but the market clearly does not believe broker comps reflect AGRO's realizable land value, given the persistent discount.",
+  "noiCheckCapRateLow": 5.5,
+  "noiCheckCapRateHigh": 7.5,
+  "noiCheckLabel": "LATAM cropping + sugar mix (Cushman-anchored, country-risk adjusted)"
+}

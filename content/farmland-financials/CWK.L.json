@@ -1,0 +1,103 @@
+{
+  "ticker": "CWK.L",
+  "currency": "GBP",
+  "sourceUrl": "https://www.cranswick.plc.uk/investors/",
+  "notes": "Cranswick plc (LSE: CWK) — UK's largest premium pork producer/processor and a major poultry / cooked-meats / Mediterranean foods business. Vertically integrated across pig farming (own + 3rd-party), abattoirs, primary processing, and value-added (sausage, bacon, charcuterie, ready-to-cook). Customers: Tesco, Sainsbury's, M&S, Aldi, Lidl, plus food-service. Fiscal year ends late March (52/53-wk). Long history of double-digit organic + bolt-on revenue growth. UK pork pricing recovered FY24-FY25 after FY22 cyclical low. Recently expanded into pet food via Inspired Pet Nutrition acquisition (Aug 2024). Annual reports at cranswick.plc.uk/investors.",
+  "periods": [
+    {
+      "endDate": "2021-03-27",
+      "periodType": "FY",
+      "revenueMM": 1900.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1660,
+        "SG&A": 130,
+        "D&A": 60,
+        "Other": 0
+      },
+      "ebitdaMM": 175,
+      "netDebtMM": 14,
+      "totalDebtMM": 65,
+      "cashMM": 51,
+      "sharesOutMM": 53.5,
+      "bookValuePerShare": 8.85,
+      "dividendPerShare": 0.74,
+      "notes": "FY21 (yr-end Mar 2021): revenue £1.90B. COVID retail tailwind. Adj op profit £121.4M. EPS ~190p."
+    },
+    {
+      "endDate": "2022-03-26",
+      "periodType": "FY",
+      "revenueMM": 2010.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1760,
+        "SG&A": 135,
+        "D&A": 65,
+        "Other": 0
+      },
+      "ebitdaMM": 165,
+      "netDebtMM": 28,
+      "totalDebtMM": 80,
+      "cashMM": 52,
+      "sharesOutMM": 53.6,
+      "bookValuePerShare": 9.20,
+      "dividendPerShare": 0.79,
+      "notes": "FY22: revenue £2.01B (+6%). Adj op profit £126M. UK pig-farming labour shortage + CO2 supply crisis disrupted parts of FY. EPS ~178p."
+    },
+    {
+      "endDate": "2023-03-25",
+      "periodType": "FY",
+      "revenueMM": 2316.6,
+      "expensesBySegmentMM": {
+        "Cost of sales": 2050,
+        "SG&A": 145,
+        "D&A": 70,
+        "Other": 0
+      },
+      "ebitdaMM": 200,
+      "netDebtMM": 95,
+      "totalDebtMM": 175,
+      "cashMM": 80,
+      "sharesOutMM": 53.6,
+      "bookValuePerShare": 9.55,
+      "dividendPerShare": 0.825,
+      "notes": "FY23: revenue £2.32B (+15%). Inflation pass-through. Adj op profit £132M. Continental Europe + poultry growth. EPS ~187p."
+    },
+    {
+      "endDate": "2024-03-30",
+      "periodType": "FY",
+      "revenueMM": 2603.5,
+      "expensesBySegmentMM": {
+        "Cost of sales": 2270,
+        "SG&A": 165,
+        "D&A": 80,
+        "Other": 0
+      },
+      "ebitdaMM": 240,
+      "netDebtMM": 130,
+      "totalDebtMM": 220,
+      "cashMM": 90,
+      "sharesOutMM": 53.7,
+      "bookValuePerShare": 9.95,
+      "dividendPerShare": 0.92,
+      "notes": "FY24: revenue £2.60B (+12%). Adj op profit £171M (+30%). Strong volume + margin recovery. EPS ~242p. Continued capex on Hull pork facility + poultry expansion."
+    },
+    {
+      "endDate": "2025-03-29",
+      "periodType": "FY",
+      "revenueMM": 2722.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 2360,
+        "SG&A": 175,
+        "D&A": 85,
+        "Other": 0
+      },
+      "ebitdaMM": 270,
+      "netDebtMM": 195,
+      "totalDebtMM": 230,
+      "cashMM": 35,
+      "sharesOutMM": 53.72,
+      "bookValuePerShare": 10.55,
+      "dividendPerShare": 1.00,
+      "notes": "FY25: revenue £2.72B (+5%). Adj op profit £193M (+13%). Inspired Pet Nutrition (acquired Aug 2024) added new pet-food vertical. EPS ~285p. Dividend 100p (+9%)."
+    }
+  ]
+}

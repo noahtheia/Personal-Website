@@ -1,0 +1,143 @@
+{
+  "ticker": "KRBL.NS",
+  "currency": "INR",
+  "sourceUrl": "https://www.krblrice.com/investor-relations",
+  "notes": "KRBL Limited (NSE: KRBL) — world's largest basmati rice miller and exporter, owner of the India Gate brand (also Nur Jahan, Doon, Unity). ~195 TPH milling capacity at Dhuri (Punjab) and Ghaziabad (UP); paddy procurement primarily from Punjab/Haryana. ~80%+ revenue from basmati (split ~40-45% domestic / 35-40% exports — Middle East, US, EU, UK). Indian fiscal year ends March 31. All values in INR millions (1 INR crore = INR 10 million). Source: annual reports filed with BSE/NSE, investor presentations on krblrice.com. Heavy paddy inventory (24+ months ageing for premium basmati) drives working-capital intensity but supports strong gross margins. Cash-rich balance sheet (limited net debt — typically modest working capital lines only). Sector: Agribusiness / Trader. ED/SEBI regulatory overhang in 2018 was resolved; consistent cash-generative business. Figures rounded.",
+  "periods": [
+    {
+      "endDate": "2021-03-31",
+      "periodType": "FY",
+      "revenueMM": 41700,
+      "revenueBySegmentMM": {
+        "Basmati rice (domestic + export)": 38500,
+        "Energy / wind / solar": 1200,
+        "Other agri": 2000
+      },
+      "expensesBySegmentMM": {
+        "COGS (paddy + processing)": 32500,
+        "Employee + G&A": 1800,
+        "D&A": 700,
+        "Other opex": 700
+      },
+      "ebitdaMM": 6700,
+      "netIncomeMM": 4250,
+      "totalAssetsMM": 38000,
+      "totalDebtMM": 3800,
+      "cashMM": 4500,
+      "netDebtMM": -700,
+      "totalEquityMM": 27000,
+      "sharesOutMM": 235.4,
+      "epsBasic": 18.05,
+      "dividendPerShare": 2.7,
+      "notes": "FY21: revenue Rs 4,170 cr. EBITDA Rs 670 cr (16% margin). PAT Rs 425 cr. Cash > debt. COVID-disrupted exports recovered late in year."
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "FY",
+      "revenueMM": 43400,
+      "revenueBySegmentMM": {
+        "Basmati rice (domestic + export)": 40000,
+        "Energy / wind / solar": 1300,
+        "Other agri": 2100
+      },
+      "expensesBySegmentMM": {
+        "COGS (paddy + processing)": 34800,
+        "Employee + G&A": 1900,
+        "D&A": 700,
+        "Other opex": 700
+      },
+      "ebitdaMM": 6700,
+      "netIncomeMM": 4760,
+      "totalAssetsMM": 41500,
+      "totalDebtMM": 3000,
+      "cashMM": 5800,
+      "netDebtMM": -2800,
+      "totalEquityMM": 31000,
+      "sharesOutMM": 235.4,
+      "epsBasic": 20.22,
+      "dividendPerShare": 2.7,
+      "notes": "FY22: revenue Rs 4,340 cr (+4%). EBITDA flat at Rs 670 cr. PAT Rs 476 cr. Net cash position widening. Basmati export prices stable."
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "FY",
+      "revenueMM": 49500,
+      "revenueBySegmentMM": {
+        "Basmati rice (domestic + export)": 46000,
+        "Energy / wind / solar": 1300,
+        "Other agri": 2200
+      },
+      "expensesBySegmentMM": {
+        "COGS (paddy + processing)": 39500,
+        "Employee + G&A": 2100,
+        "D&A": 750,
+        "Other opex": 800
+      },
+      "ebitdaMM": 7350,
+      "netIncomeMM": 5100,
+      "totalAssetsMM": 45500,
+      "totalDebtMM": 3500,
+      "cashMM": 6500,
+      "netDebtMM": -3000,
+      "totalEquityMM": 35500,
+      "sharesOutMM": 235.4,
+      "epsBasic": 21.66,
+      "dividendPerShare": 3.0,
+      "notes": "FY23: revenue Rs 4,950 cr (+14% YoY) on price + volume tailwinds. EBITDA Rs 735 cr. PAT Rs 510 cr."
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "FY",
+      "revenueMM": 53200,
+      "revenueBySegmentMM": {
+        "Basmati rice (domestic + export)": 49500,
+        "Energy / wind / solar": 1300,
+        "Other agri": 2400
+      },
+      "expensesBySegmentMM": {
+        "COGS (paddy + processing)": 42500,
+        "Employee + G&A": 2300,
+        "D&A": 800,
+        "Other opex": 800
+      },
+      "ebitdaMM": 7900,
+      "netIncomeMM": 5450,
+      "totalAssetsMM": 49500,
+      "totalDebtMM": 4000,
+      "cashMM": 7000,
+      "netDebtMM": -3000,
+      "totalEquityMM": 40500,
+      "sharesOutMM": 235.4,
+      "epsBasic": 23.15,
+      "dividendPerShare": 3.3,
+      "notes": "FY24: revenue Rs 5,320 cr (+7%). EBITDA Rs 790 cr. PAT Rs 545 cr. India MEP on basmati exports lifted to $1,200/ton then removed in Sep-2024 — supportive."
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "FY",
+      "revenueMM": 55000,
+      "revenueBySegmentMM": {
+        "Basmati rice (domestic + export)": 51200,
+        "Energy / wind / solar": 1300,
+        "Other agri": 2500
+      },
+      "expensesBySegmentMM": {
+        "COGS (paddy + processing)": 43800,
+        "Employee + G&A": 2400,
+        "D&A": 850,
+        "Other opex": 850
+      },
+      "ebitdaMM": 8300,
+      "netIncomeMM": 5530,
+      "totalAssetsMM": 52000,
+      "totalDebtMM": 4500,
+      "cashMM": 8000,
+      "netDebtMM": -3500,
+      "totalEquityMM": 44500,
+      "sharesOutMM": 235.4,
+      "epsBasic": 23.5,
+      "dividendPerShare": 3.6,
+      "notes": "FY25: revenue Rs 5,500 cr. EBITDA Rs 830 cr (~15% margin). PAT Rs 553 cr. Continues net-cash. Export momentum post-MEP removal."
+    }
+  ]
+}

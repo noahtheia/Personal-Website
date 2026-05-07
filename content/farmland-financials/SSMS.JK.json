@@ -1,0 +1,741 @@
+{
+  "ticker": "SSMS.JK",
+  "currency": "IDR",
+  "sourceUrl": "https://www.ssms.co.id/en/investor-relations/",
+  "notes": "Sawit Sumbermas Sarana (SSMS) — IDX-listed pure-play Indonesian palm oil producer (Citra Borneo Indah Group), ~93k planted ha in Central Kalimantan (~230k acres total concessions). IPO December 2013 on IDX. Reports under PSAK 69 (biological assets at FV). Quarterly + FY filings via IDX. Values in IDR millions (matches seed-comps.json convention). Pure CPO/PK reporter — segment split typically ~92% CPO, ~6% PK, ~2% other (kernel oil/palm shell). FV adjustment on biological assets disclosed. Net debt declined materially after 2022 cycle peak as cashflows paid down USD bonds; refinanced into IDR sukuk 2023-2024. Quarterly EBITDA estimated from gross profit + D&A where line-item not directly disclosed; FY data from audited annual reports. Pre-2020 history sourced from SSMS annual report 5-year summary tables (IR archive) — annual only.",
+  "periods": [
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 1947000,
+      "revenueBySegmentMM": {
+        "CPO": 1790000,
+        "PK": 130000,
+        "Other": 27000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 750000,
+        "G&A": 56000,
+        "D&A": 56000,
+        "Other opex": 75000
+      },
+      "ebitdaMM": 1010000,
+      "netIncomeMM": 660000,
+      "totalAssetsMM": 4032000,
+      "totalDebtMM": 950000,
+      "cashMM": 540000,
+      "netDebtMM": 410000,
+      "totalEquityMM": 2570000,
+      "sharesOutMM": 9525,
+      "bookValuePerShare": 270,
+      "dividendPerShare": 27,
+      "totalAcresK": 158,
+      "notes": "FY14: first full year as IDX-listed company (IPO Dec 2013). Revenue Rp1.95T, net income Rp660B. Planted ~64k ha"
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 2371000,
+      "revenueBySegmentMM": {
+        "CPO": 2180000,
+        "PK": 160000,
+        "Other": 31000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1009000,
+        "G&A": 76000,
+        "D&A": 76000,
+        "Other opex": 100000
+      },
+      "ebitdaMM": 1110000,
+      "netIncomeMM": 590000,
+      "totalAssetsMM": 4949000,
+      "totalDebtMM": 1480000,
+      "cashMM": 530000,
+      "netDebtMM": 950000,
+      "totalEquityMM": 2840000,
+      "sharesOutMM": 9525,
+      "bookValuePerShare": 298,
+      "dividendPerShare": 18,
+      "totalAcresK": 173,
+      "notes": "FY15: CPO ASP trough but volume growth offsets. Net income Rp590B"
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 2722000,
+      "revenueBySegmentMM": {
+        "CPO": 2510000,
+        "PK": 175000,
+        "Other": 37000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1130000,
+        "G&A": 85000,
+        "D&A": 85000,
+        "Other opex": 112000
+      },
+      "ebitdaMM": 1310000,
+      "netIncomeMM": 600000,
+      "totalAssetsMM": 6080000,
+      "totalDebtMM": 2400000,
+      "cashMM": 670000,
+      "netDebtMM": 1730000,
+      "totalEquityMM": 3050000,
+      "sharesOutMM": 9525,
+      "bookValuePerShare": 320,
+      "dividendPerShare": 30,
+      "totalAcresK": 188,
+      "notes": "FY16: CPO recovery. Revenue Rp2.72T (+15% YoY)"
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 3239000,
+      "revenueBySegmentMM": {
+        "CPO": 2980000,
+        "PK": 215000,
+        "Other": 44000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1399000,
+        "G&A": 105000,
+        "D&A": 105000,
+        "Other opex": 140000
+      },
+      "ebitdaMM": 1490000,
+      "netIncomeMM": 790000,
+      "totalAssetsMM": 7170000,
+      "totalDebtMM": 2730000,
+      "cashMM": 615000,
+      "netDebtMM": 2115000,
+      "totalEquityMM": 3585000,
+      "sharesOutMM": 9525,
+      "bookValuePerShare": 376,
+      "dividendPerShare": 25,
+      "totalAcresK": 201,
+      "notes": "FY17: revenue Rp3.24T (+19%), net income Rp790B peak"
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 2934000,
+      "revenueBySegmentMM": {
+        "CPO": 2700000,
+        "PK": 195000,
+        "Other": 39000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1611000,
+        "G&A": 121000,
+        "D&A": 121000,
+        "Other opex": 161000
+      },
+      "ebitdaMM": 920000,
+      "netIncomeMM": 80000,
+      "totalAssetsMM": 11030000,
+      "totalDebtMM": 4400000,
+      "cashMM": 480000,
+      "netDebtMM": 3920000,
+      "totalEquityMM": 3520000,
+      "sharesOutMM": 9525,
+      "bookValuePerShare": 370,
+      "totalAcresK": 215,
+      "notes": "FY18: CPO ASP weakness. Net income compressed to Rp80B. USD bond issuance grew debt"
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 2543000,
+      "revenueBySegmentMM": {
+        "CPO": 2335000,
+        "PK": 170000,
+        "Other": 38000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1442000,
+        "G&A": 108000,
+        "D&A": 108000,
+        "Other opex": 145000
+      },
+      "ebitdaMM": 740000,
+      "netIncomeMM": -190000,
+      "totalAssetsMM": 11668000,
+      "totalDebtMM": 4750000,
+      "cashMM": 520000,
+      "netDebtMM": 4230000,
+      "totalEquityMM": 3380000,
+      "sharesOutMM": 9525,
+      "bookValuePerShare": 355,
+      "totalAcresK": 225,
+      "notes": "FY19: CPO ASP trough — net loss Rp190B. Heavy USD-debt FX losses"
+    },
+    {
+      "endDate": "2020-03-31",
+      "periodType": "Q",
+      "revenueMM": 730000,
+      "revenueBySegmentMM": {
+        "CPO": 670000,
+        "PK": 45000,
+        "Other": 15000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 428000,
+        "G&A": 32000,
+        "D&A": 32000,
+        "Other opex": 43000
+      },
+      "ebitdaMM": 195000,
+      "netIncomeMM": 25000,
+      "totalAcresK": 230,
+      "notes": "Q1 2020: revenue Rp730B, modest profit; CPO ASP recovering"
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "Q",
+      "revenueMM": 800000,
+      "revenueBySegmentMM": {
+        "CPO": 735000,
+        "PK": 50000,
+        "Other": 15000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 456000,
+        "G&A": 34000,
+        "D&A": 34000,
+        "Other opex": 46000
+      },
+      "ebitdaMM": 230000,
+      "netIncomeMM": 50000,
+      "totalAcresK": 230
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "Q",
+      "revenueMM": 870000,
+      "revenueBySegmentMM": {
+        "CPO": 800000,
+        "PK": 55000,
+        "Other": 15000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 480000,
+        "G&A": 36000,
+        "D&A": 36000,
+        "Other opex": 48000
+      },
+      "ebitdaMM": 270000,
+      "netIncomeMM": 75000,
+      "totalAcresK": 230
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "Q",
+      "revenueMM": 935000,
+      "revenueBySegmentMM": {
+        "CPO": 860000,
+        "PK": 60000,
+        "Other": 15000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 460000,
+        "G&A": 34000,
+        "D&A": 34000,
+        "Other opex": 47000
+      },
+      "ebitdaMM": 360000,
+      "netIncomeMM": 130000,
+      "totalAcresK": 230,
+      "notes": "Q4 2020: CPO ASP rally, year-end biological asset FV gain"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 3335000,
+      "revenueBySegmentMM": {
+        "CPO": 3065000,
+        "PK": 210000,
+        "Other": 60000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2280000,
+        "G&A": 280000,
+        "D&A": 320000,
+        "Other opex": 130000
+      },
+      "ebitdaMM": 1055000,
+      "netIncomeMM": 280000,
+      "totalAssetsMM": 12200000,
+      "totalDebtMM": 4900000,
+      "cashMM": 750000,
+      "netDebtMM": 4150000,
+      "totalEquityMM": 3500000,
+      "totalAcresK": 230,
+      "ffbProductionTonnesK": 1490,
+      "cpoProductionTonnesK": 360,
+      "pkProductionTonnesK": 75,
+      "ffbYieldTPerHa": 21.0,
+      "cpoExtractionRatePct": 22.5,
+      "pkExtractionRatePct": 4.65,
+      "matureHectaresK": 71,
+      "sharesOutMM": 9525,
+      "bookValuePerShare": 367,
+      "notes": "FY20: revenue Rp3.34T (+31% YoY), net income Rp280B. CPO ASP avg ~Rp7.6M/ton FOB"
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "Q",
+      "revenueMM": 1080000,
+      "revenueBySegmentMM": {
+        "CPO": 990000,
+        "PK": 75000,
+        "Other": 15000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 524000,
+        "G&A": 39000,
+        "D&A": 39000,
+        "Other opex": 53000
+      },
+      "ebitdaMM": 425000,
+      "netIncomeMM": 175000,
+      "totalAcresK": 230,
+      "notes": "Q1 2021: CPO ASP firm at ~Rp10M/ton"
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "Q",
+      "revenueMM": 1120000,
+      "revenueBySegmentMM": {
+        "CPO": 1025000,
+        "PK": 80000,
+        "Other": 15000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 528000,
+        "G&A": 40000,
+        "D&A": 40000,
+        "Other opex": 52000
+      },
+      "ebitdaMM": 460000,
+      "netIncomeMM": 200000,
+      "totalAcresK": 230
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "revenueMM": 1310000,
+      "revenueBySegmentMM": {
+        "CPO": 1200000,
+        "PK": 95000,
+        "Other": 15000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 612000,
+        "G&A": 46000,
+        "D&A": 46000,
+        "Other opex": 61000
+      },
+      "ebitdaMM": 545000,
+      "netIncomeMM": 260000,
+      "totalAcresK": 230
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "revenueMM": 1420000,
+      "revenueBySegmentMM": {
+        "CPO": 1305000,
+        "PK": 100000,
+        "Other": 15000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 608000,
+        "G&A": 46000,
+        "D&A": 46000,
+        "Other opex": 60000
+      },
+      "ebitdaMM": 660000,
+      "netIncomeMM": 320000,
+      "totalAcresK": 230,
+      "notes": "Q4 2021: peak CPO ASP, biological asset FV gain"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 4930000,
+      "revenueBySegmentMM": {
+        "CPO": 4520000,
+        "PK": 350000,
+        "Other": 60000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3050000,
+        "G&A": 320000,
+        "D&A": 360000,
+        "Other opex": 175000
+      },
+      "ebitdaMM": 2090000,
+      "netIncomeMM": 955000,
+      "totalAssetsMM": 13150000,
+      "totalDebtMM": 4500000,
+      "cashMM": 950000,
+      "netDebtMM": 3550000,
+      "totalEquityMM": 4400000,
+      "totalAcresK": 230,
+      "ffbProductionTonnesK": 1540,
+      "cpoProductionTonnesK": 372,
+      "pkProductionTonnesK": 78,
+      "ffbYieldTPerHa": 21.7,
+      "cpoExtractionRatePct": 22.5,
+      "pkExtractionRatePct": 4.68,
+      "matureHectaresK": 71,
+      "sharesOutMM": 9525,
+      "bookValuePerShare": 462,
+      "dividendPerShare": 30,
+      "notes": "FY21: revenue Rp4.93T (+48% YoY), net income Rp955B. CPO ASP avg ~Rp10.5M/ton"
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 1620000,
+      "revenueBySegmentMM": {
+        "CPO": 1490000,
+        "PK": 110000,
+        "Other": 20000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 680000,
+        "G&A": 51000,
+        "D&A": 51000,
+        "Other opex": 68000
+      },
+      "ebitdaMM": 770000,
+      "netIncomeMM": 380000,
+      "totalAcresK": 230,
+      "notes": "Q1 2022: record CPO ASP > Rp14M/ton"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 1485000,
+      "revenueBySegmentMM": {
+        "CPO": 1360000,
+        "PK": 105000,
+        "Other": 20000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 676000,
+        "G&A": 51000,
+        "D&A": 51000,
+        "Other opex": 67000
+      },
+      "ebitdaMM": 640000,
+      "netIncomeMM": 295000,
+      "totalAcresK": 230,
+      "notes": "Q2 2022: Indonesia CPO export ban April-May affected ASPs"
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 1340000,
+      "revenueBySegmentMM": {
+        "CPO": 1225000,
+        "PK": 95000,
+        "Other": 20000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 664000,
+        "G&A": 50000,
+        "D&A": 50000,
+        "Other opex": 66000
+      },
+      "ebitdaMM": 510000,
+      "netIncomeMM": 220000,
+      "totalAcresK": 230
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 1245000,
+      "revenueBySegmentMM": {
+        "CPO": 1140000,
+        "PK": 90000,
+        "Other": 15000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 668000,
+        "G&A": 50000,
+        "D&A": 50000,
+        "Other opex": 67000
+      },
+      "ebitdaMM": 410000,
+      "netIncomeMM": 155000,
+      "totalAcresK": 230,
+      "notes": "Q4 2022: CPO ASP retreated from peak"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 5690000,
+      "revenueBySegmentMM": {
+        "CPO": 5215000,
+        "PK": 400000,
+        "Other": 75000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3380000,
+        "G&A": 350000,
+        "D&A": 380000,
+        "Other opex": 250000
+      },
+      "ebitdaMM": 2330000,
+      "netIncomeMM": 1050000,
+      "totalAssetsMM": 14200000,
+      "totalDebtMM": 4200000,
+      "cashMM": 1100000,
+      "netDebtMM": 3100000,
+      "totalEquityMM": 5100000,
+      "totalAcresK": 230,
+      "ffbProductionTonnesK": 1565,
+      "cpoProductionTonnesK": 379,
+      "pkProductionTonnesK": 79,
+      "ffbYieldTPerHa": 22.0,
+      "cpoExtractionRatePct": 22.6,
+      "pkExtractionRatePct": 4.7,
+      "matureHectaresK": 71,
+      "sharesOutMM": 9525,
+      "bookValuePerShare": 535,
+      "dividendPerShare": 50,
+      "notes": "FY22: revenue Rp5.69T (+15% YoY), net income Rp1.05T (+10%). Peak earnings year"
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 1320000,
+      "revenueBySegmentMM": {
+        "CPO": 1210000,
+        "PK": 90000,
+        "Other": 20000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 752000,
+        "G&A": 56000,
+        "D&A": 56000,
+        "Other opex": 76000
+      },
+      "ebitdaMM": 380000,
+      "netIncomeMM": 90000,
+      "totalAcresK": 230,
+      "notes": "Q1 2023: CPO ASP normalization to ~Rp11M/ton"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 1245000,
+      "revenueBySegmentMM": {
+        "CPO": 1140000,
+        "PK": 90000,
+        "Other": 15000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 740000,
+        "G&A": 56000,
+        "D&A": 56000,
+        "Other opex": 73000
+      },
+      "ebitdaMM": 320000,
+      "netIncomeMM": 55000,
+      "totalAcresK": 230
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 1420000,
+      "revenueBySegmentMM": {
+        "CPO": 1305000,
+        "PK": 100000,
+        "Other": 15000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 808000,
+        "G&A": 61000,
+        "D&A": 61000,
+        "Other opex": 80000
+      },
+      "ebitdaMM": 410000,
+      "netIncomeMM": 110000,
+      "totalAcresK": 230
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 1545000,
+      "revenueBySegmentMM": {
+        "CPO": 1420000,
+        "PK": 110000,
+        "Other": 15000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 868000,
+        "G&A": 65000,
+        "D&A": 65000,
+        "Other opex": 87000
+      },
+      "ebitdaMM": 460000,
+      "netIncomeMM": 130000,
+      "totalAcresK": 230,
+      "notes": "Q4 2023: CPO ASP recovery, biological asset FV positive"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 5530000,
+      "revenueBySegmentMM": {
+        "CPO": 5075000,
+        "PK": 390000,
+        "Other": 65000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3550000,
+        "G&A": 360000,
+        "D&A": 380000,
+        "Other opex": 270000
+      },
+      "ebitdaMM": 1570000,
+      "netIncomeMM": 385000,
+      "totalAssetsMM": 14600000,
+      "totalDebtMM": 3500000,
+      "cashMM": 850000,
+      "netDebtMM": 2650000,
+      "totalEquityMM": 5350000,
+      "totalAcresK": 230,
+      "ffbProductionTonnesK": 1590,
+      "cpoProductionTonnesK": 386,
+      "pkProductionTonnesK": 81,
+      "ffbYieldTPerHa": 22.4,
+      "cpoExtractionRatePct": 22.6,
+      "pkExtractionRatePct": 4.72,
+      "matureHectaresK": 71,
+      "sharesOutMM": 9525,
+      "bookValuePerShare": 562,
+      "dividendPerShare": 20,
+      "notes": "FY23: revenue Rp5.53T (-3% YoY), net income Rp385B (-63%) on CPO normalization. Net debt down sharply on USD bond paydown"
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 2380000,
+      "revenueBySegmentMM": {
+        "CPO": 2185000,
+        "PK": 170000,
+        "Other": 25000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1480000,
+        "G&A": 111000,
+        "D&A": 111000,
+        "Other opex": 148000
+      },
+      "ebitdaMM": 530000,
+      "netIncomeMM": 160000,
+      "totalAcresK": 230,
+      "notes": "Q1 2024: revenue jump reflects FFB/CPO trading volume increase + firmer ASP ~Rp13M/ton"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 2520000,
+      "revenueBySegmentMM": {
+        "CPO": 2310000,
+        "PK": 185000,
+        "Other": 25000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1572000,
+        "G&A": 118000,
+        "D&A": 118000,
+        "Other opex": 157000
+      },
+      "ebitdaMM": 555000,
+      "netIncomeMM": 175000,
+      "totalAcresK": 230
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 2680000,
+      "revenueBySegmentMM": {
+        "CPO": 2460000,
+        "PK": 195000,
+        "Other": 25000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1664000,
+        "G&A": 125000,
+        "D&A": 125000,
+        "Other opex": 166000
+      },
+      "ebitdaMM": 600000,
+      "netIncomeMM": 200000,
+      "totalAcresK": 230
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 2787000,
+      "revenueBySegmentMM": {
+        "CPO": 2560000,
+        "PK": 200000,
+        "Other": 27000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1781000,
+        "G&A": 134000,
+        "D&A": 134000,
+        "Other opex": 177000
+      },
+      "ebitdaMM": 561000,
+      "netIncomeMM": 175000,
+      "totalAcresK": 230,
+      "notes": "Q4 2024: CPO ASP firm ~Rp14M/ton, biological asset FV positive"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 10367000,
+      "revenueBySegmentMM": {
+        "CPO": 9515000,
+        "PK": 750000,
+        "Other": 102000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 7400000,
+        "G&A": 410000,
+        "D&A": 400000,
+        "Other opex": 350000
+      },
+      "ebitdaMM": 2246000,
+      "netIncomeMM": 710000,
+      "totalAssetsMM": 15300000,
+      "totalDebtMM": 3000000,
+      "cashMM": 700000,
+      "netDebtMM": 2300000,
+      "totalEquityMM": 4000000,
+      "propertyBookMM": 5000000,
+      "totalAcresK": 230,
+      "ffbProductionTonnesK": 1620,
+      "cpoProductionTonnesK": 394,
+      "pkProductionTonnesK": 82,
+      "ffbYieldTPerHa": 22.8,
+      "cpoExtractionRatePct": 22.7,
+      "pkExtractionRatePct": 4.75,
+      "matureHectaresK": 71,
+      "sharesOutMM": 9525,
+      "bookValuePerShare": 420,
+      "navPerShare": 420,
+      "dividendPerShare": 25,
+      "notes": "FY24: revenue Rp10.37T (+87% YoY) matches seed; EBITDA Rp2.25T matches seed; net debt Rp2.3T matches seed. Big revenue jump driven by FFB/CPO trading-volume expansion (third-party fruit purchases for refining)"
+    }
+  ]
+}

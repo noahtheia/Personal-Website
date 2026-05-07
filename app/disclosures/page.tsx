@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function DisclosuresPage() {
   return (
-    <article>
+    <article className="page-narrow">
       <p className="eyebrow">Disclosures</p>
       <h1 className="mt-3 font-display text-3xl font-semibold tracking-tight sm:text-4xl">
         Disclosures and terms of use

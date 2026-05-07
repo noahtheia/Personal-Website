@@ -1,0 +1,74 @@
+{
+  "ticker": "600598.SS",
+  "currency": "CNY",
+  "sourceUrl": "http://www.bdh.com.cn/",
+  "notes": "Heilongjiang Beidahuang Agriculture Co Ltd (SSE: 600598) — listed subsidiary of state-owned Beidahuang Agricultural Reclamation Group. Operates ~12.96 million mu (~865,000 hectares ≈ 2,135K acres) of state-leased cultivated land in Heilongjiang's Sanjiang Plain (one of the world's three black-soil belts). Primary revenue stream is land-contracting fees (subleasing state farmland to cooperative farmers) plus rice, corn, soybean trading. Reports CNY-millions PRC GAAP. Lists in CNY on Shanghai Stock Exchange. Listed since March 2002. Historically very low debt — pure land-rental operating model with minimal capex. FY2020 detailed data not consistently available across English aggregators, so the 5-year history begins in FY2021. acresK figure (~2,135) reflects total operated/contracted area, not freehold ownership.",
+  "periods": [
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 3629,
+      "ebitdaMM": 1341,
+      "netIncomeMM": 770.21,
+      "totalDebtMM": 4.46,
+      "cashMM": 1685,
+      "netDebtMM": -1681,
+      "sharesOutMM": 1779,
+      "dividendPerShare": 0.40,
+      "totalAcresK": 2135,
+      "notes": "FY21: Revenue RMB3.63bn (mostly land-contracting fees + grain trading). EBITDA RMB1.34bn (margin 37%). NI RMB770M. Essentially debt-free with RMB1.69bn cash — net cash position of ~RMB1.68bn."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 4262,
+      "ebitdaMM": 1235,
+      "netIncomeMM": 975.29,
+      "totalDebtMM": 26.65,
+      "cashMM": 3054,
+      "netDebtMM": -3027,
+      "sharesOutMM": 1778,
+      "dividendPerShare": 0.40,
+      "totalAcresK": 2135,
+      "notes": "FY22: Revenue RMB4.26bn (+17%). EBITDA RMB1.24bn (margin 29%) — slight compression on input costs. NI RMB975M (+27%). Cash build to RMB3.05bn, net cash RMB3.0bn."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 5044,
+      "ebitdaMM": 1298,
+      "netIncomeMM": 1064,
+      "totalDebtMM": 57.03,
+      "cashMM": 2370,
+      "netDebtMM": -2313,
+      "sharesOutMM": 1779,
+      "dividendPerShare": 0.42,
+      "totalAcresK": 2135,
+      "notes": "FY23: Revenue RMB5.04bn (+18%). EBITDA RMB1.30bn (margin 26%). NI RMB1.06bn (+9%). Special dividend distributed; cash drew to RMB2.37bn but still net cash."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 5339,
+      "ebitdaMM": 1335,
+      "netIncomeMM": 1087,
+      "totalDebtMM": 72.97,
+      "cashMM": 1586,
+      "netDebtMM": -1513,
+      "sharesOutMM": 1778,
+      "dividendPerShare": 0.44,
+      "totalAcresK": 2135,
+      "totalAssetsMM": 8975,
+      "notes": "FY24: Revenue RMB5.34bn (+5.83%). EBITDA RMB1.34bn (margin 25%). NI RMB1.087bn (+2.21%). DPS RMB0.44 — consistent grower. Total assets RMB8.98bn. Land-contracting model = stable annuity-like cash flows."
+    },
+    {
+      "endDate": "2025-12-31",
+      "periodType": "FY",
+      "revenueMM": 5230,
+      "sharesOutMM": 1778,
+      "dividendPerShare": 0.55,
+      "totalAcresK": 2135,
+      "notes": "FY25 (preliminary): Revenue RMB5.23bn (~-2% YoY). DPS lifted to RMB0.55 (+25% YoY) signalling balance-sheet capacity / payout policy review. Full earnings detail pending — only top-line + dividend disclosed."
+    }
+  ]
+}

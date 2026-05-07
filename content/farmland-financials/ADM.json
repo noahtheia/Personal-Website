@@ -1,0 +1,148 @@
+{
+  "ticker": "ADM",
+  "currency": "USD",
+  "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000007084&type=10-K",
+  "notes": "Archer-Daniels-Midland \u2014 global agribusiness / oilseed processor / grain trader. FY data sourced from SEC EDGAR XBRL company facts (10-K filings). EBITDA computed bottom-up as Net Income + Tax + Interest + D&A; expenses-by-segment shows GAAP Cost of sales (largest line for trader/processor), SG&A, and D&A. Net debt = Long-term debt (incl current portion) + Short-term borrowings - Cash. Operates in three segments: Ag Services & Oilseeds, Carbohydrate Solutions, Nutrition. FY2023 figures restated in 10-K/A.",
+  "periods": [
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 64656.0,
+      "ebitdaMM": 2983.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 60509.0,
+        "SG&A": 2493.0,
+        "D&A": 993.0
+      },
+      "netIncomeMM": 1379.0,
+      "totalDebtMM": 8881.0,
+      "cashMM": 852.0,
+      "netDebtMM": 8029.0,
+      "dividendPerShare": 1.4,
+      "epsDiluted": 2.44,
+      "sharesOutMM": 565.16,
+      "bookValuePerShare": 34.02,
+      "navPerShare": 34.02
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 64355.0,
+      "ebitdaMM": 3188.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 59902.0,
+        "SG&A": 2687.0,
+        "D&A": 976.0
+      },
+      "netIncomeMM": 1772.0,
+      "totalDebtMM": 9929.0,
+      "cashMM": 666.0,
+      "netDebtMM": 9263.0,
+      "dividendPerShare": 1.44,
+      "epsDiluted": 3.15,
+      "sharesOutMM": 562.54,
+      "bookValuePerShare": 35.59,
+      "navPerShare": 35.59
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 85249.0,
+      "ebitdaMM": 4548.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 79262.0,
+        "SG&A": 2994.0,
+        "D&A": 996.0
+      },
+      "netIncomeMM": 2709.0,
+      "totalDebtMM": 9539.0,
+      "cashMM": 943.0,
+      "netDebtMM": 8596.0,
+      "dividendPerShare": 1.48,
+      "epsDiluted": 4.79,
+      "sharesOutMM": 565.55,
+      "bookValuePerShare": 39.8,
+      "navPerShare": 39.8
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 101556.0,
+      "ebitdaMM": 6632.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 93986.0,
+        "SG&A": 3358.0,
+        "D&A": 1028.0
+      },
+      "netIncomeMM": 4340.0,
+      "totalDebtMM": 9180.0,
+      "cashMM": 1037.0,
+      "netDebtMM": 8143.0,
+      "dividendPerShare": 1.6,
+      "epsDiluted": 7.71,
+      "sharesOutMM": 562.91,
+      "bookValuePerShare": 43.2,
+      "navPerShare": 43.2
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 93935.0,
+      "ebitdaMM": 6017.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 86422.0,
+        "SG&A": 3456.0,
+        "D&A": 1059.0
+      },
+      "netIncomeMM": 3483.0,
+      "totalDebtMM": 8365.0,
+      "cashMM": 1368.0,
+      "netDebtMM": 6997.0,
+      "dividendPerShare": 1.8,
+      "epsDiluted": 6.43,
+      "sharesOutMM": 541.68,
+      "bookValuePerShare": 44.57,
+      "navPerShare": 44.57
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 85530.0,
+      "ebitdaMM": 4123.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 79752.0,
+        "SG&A": 3706.0,
+        "D&A": 1141.0
+      },
+      "netIncomeMM": 1800.0,
+      "totalDebtMM": 10157.0,
+      "cashMM": 611.0,
+      "netDebtMM": 9546.0,
+      "dividendPerShare": 2,
+      "epsDiluted": 3.65,
+      "sharesOutMM": 493.15,
+      "bookValuePerShare": 44.97,
+      "navPerShare": 44.97
+    },
+    {
+      "endDate": "2025-12-31",
+      "periodType": "FY",
+      "revenueMM": 80269.0,
+      "ebitdaMM": 3053.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 75236.0,
+        "SG&A": 3609.0,
+        "D&A": 1181.0
+      },
+      "netIncomeMM": 1078.0,
+      "totalDebtMM": 8410.0,
+      "cashMM": 1015.0,
+      "netDebtMM": 7395.0,
+      "dividendPerShare": 2.04,
+      "epsDiluted": 2.23,
+      "sharesOutMM": 483.41,
+      "bookValuePerShare": 47.04,
+      "navPerShare": 47.04
+    }
+  ]
+}

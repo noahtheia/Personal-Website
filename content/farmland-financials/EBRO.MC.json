@@ -1,0 +1,103 @@
+{
+  "ticker": "EBRO.MC",
+  "currency": "EUR",
+  "sourceUrl": "https://www.ebrofoods.es/en/investor-relations/",
+  "notes": "Ebro Foods S.A. (BME: EBRO) — world's largest rice company and second-largest pasta producer. Brands include Tilda, SOS, La Fallera, Brillante, Saludães, Reis (rice), Panzani, Garofalo, Roland, Ronzoni, American Beauty (pasta). Spain-headquartered, listed on Madrid stock exchange. ~73% of revenue from rice, ~25% from pasta, ~2% from other (sauces, ready meals). FY runs calendar year. Capital allocation: occasional special dividends (FY21 special on sale of Panzani fresh pasta to CVC; FY22 sale of Riviana frozen). Two-step ordinary dividend each year (Apr / Oct). Annual reports / consolidated accounts at ebrofoods.es/en/investor-relations.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 3107,
+      "expensesBySegmentMM": {
+        "Cost of sales": 2280,
+        "SG&A": 470,
+        "D&A": 110,
+        "Other": 0
+      },
+      "ebitdaMM": 360,
+      "netDebtMM": 545,
+      "totalDebtMM": 875,
+      "cashMM": 330,
+      "sharesOutMM": 153.86,
+      "bookValuePerShare": 8.65,
+      "dividendPerShare": 0.57,
+      "notes": "FY20: revenue €3.11B (+5%). COVID pantry-loading lifted rice + pasta volumes. Adj EBITDA €360M. Net debt €545M."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 2746,
+      "expensesBySegmentMM": {
+        "Cost of sales": 2050,
+        "SG&A": 410,
+        "D&A": 90,
+        "Other": 0
+      },
+      "ebitdaMM": 290,
+      "netDebtMM": 410,
+      "totalDebtMM": 750,
+      "cashMM": 340,
+      "sharesOutMM": 153.86,
+      "bookValuePerShare": 9.30,
+      "dividendPerShare": 1.18,
+      "notes": "FY21: revenue €2.75B. Sold Panzani fresh-pasta to CVC for €550M, recorded €169M gain. Special dividend €0.61 + ordinary €0.57. Net debt down to €410M."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 2950,
+      "expensesBySegmentMM": {
+        "Cost of sales": 2280,
+        "SG&A": 420,
+        "D&A": 95,
+        "Other": 0
+      },
+      "ebitdaMM": 295,
+      "netDebtMM": 615,
+      "totalDebtMM": 950,
+      "cashMM": 335,
+      "sharesOutMM": 153.86,
+      "bookValuePerShare": 8.95,
+      "dividendPerShare": 0.57,
+      "notes": "FY22: revenue €2.95B (+7% raw-material pass-through). Wheat / rice price spikes squeezed margin temporarily. Adj EBITDA €295M. Acquired Tilda from Hain (US$340M)."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 3104,
+      "expensesBySegmentMM": {
+        "Cost of sales": 2330,
+        "SG&A": 440,
+        "D&A": 100,
+        "Other": 0
+      },
+      "ebitdaMM": 360,
+      "netDebtMM": 705,
+      "totalDebtMM": 1010,
+      "cashMM": 305,
+      "sharesOutMM": 153.86,
+      "bookValuePerShare": 9.15,
+      "dividendPerShare": 0.60,
+      "notes": "FY23: revenue €3.10B (+5%). Tilda full year. Adj EBITDA recovered to €360M. India rice export ban tightened market. Net debt €705M."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 3140,
+      "expensesBySegmentMM": {
+        "Cost of sales": 2360,
+        "SG&A": 450,
+        "D&A": 100,
+        "Other": 0
+      },
+      "ebitdaMM": 380,
+      "netDebtMM": 720,
+      "totalDebtMM": 800,
+      "cashMM": 80,
+      "sharesOutMM": 153.86,
+      "bookValuePerShare": 9.40,
+      "dividendPerShare": 0.60,
+      "notes": "FY24: revenue €3.14B. Adj EBITDA €380M (+5%). EPS ~€1.05. Net debt €720M (~1.9x EBITDA). Strong cash generation. Pasta margin recovery (durum wheat prices normalizing)."
+    }
+  ]
+}

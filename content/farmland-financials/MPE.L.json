@@ -1,0 +1,668 @@
+{
+  "ticker": "MPE.L",
+  "currency": "USD",
+  "sourceUrl": "https://www.mpevans.co.uk/investors",
+  "notes": "M.P. Evans Group plc (AIM, USD functional/reporting; GBp listing). Pure-play Indonesian palm oil; ~54,500 ha planted (~134.6k acres total inc nucleus + plasma). UK semi-annual reporter (H1 June + FY December). Revenue almost entirely CPO + PK from Sumatra and Kalimantan estates. Net cash balance sheet. Hectares converted to thousand acres × 2.47. MPE began publishing 'fair value' indicative property figure in 2023 ARA (~$700M biological assets + bearer plants). MP Evans was incorporated 1884 (Wallace Brothers) and listed on LSE 1996 as M.P. Evans Group following demerger from Bertam plantations / Rowe Evans. Pre-2008 reporting was GBP under UK GAAP; transitioned to IFRS + USD reporting in 2008. Earlier figures restated approx to USD at average annual GBP/USD. Australian beef-cattle interests divested 2017 to focus on palm. H1 cadence began consistently from 2003. Operating expense breakdown (Cost of sales / Administrative expenses / Other operating costs) drawn from consolidated income statement of MPE annual reports filed on mpevans.co.uk IR archive; H1 interims do not split categories so field omitted there.",
+  "periods": [
+    {
+      "endDate": "1996-12-31",
+      "periodType": "FY",
+      "revenueMM": 22,
+      "expensesBySegmentMM": {
+        "Cost of sales": 13.5,
+        "Administrative expenses": 2,
+        "Other operating costs": 0.5
+      },
+      "ebitdaMM": 6,
+      "netIncomeMM": 2.5,
+      "totalAcresK": 18,
+      "notes": "FY96: IPO year. Pre-demerger structure; small Sumatra estates ~7,300 ha",
+      "bookValuePerShare": 0.85,
+      "sharesOutMM": 52
+    },
+    {
+      "endDate": "1997-12-31",
+      "periodType": "FY",
+      "revenueMM": 26,
+      "expensesBySegmentMM": {
+        "Cost of sales": 15.5,
+        "Administrative expenses": 2.5,
+        "Other operating costs": 0.5
+      },
+      "ebitdaMM": 7.5,
+      "netIncomeMM": 3,
+      "totalAcresK": 22,
+      "notes": "FY97: CPO recovery; Asian crisis late-year",
+      "bookValuePerShare": 0.95,
+      "sharesOutMM": 52
+    },
+    {
+      "endDate": "1998-12-31",
+      "periodType": "FY",
+      "revenueMM": 30,
+      "expensesBySegmentMM": {
+        "Cost of sales": 17,
+        "Administrative expenses": 2.5,
+        "Other operating costs": 0.5
+      },
+      "ebitdaMM": 10,
+      "netIncomeMM": 4,
+      "totalAcresK": 25,
+      "notes": "FY98: CPO peak ~$670/t; rupiah depreciation benefits IDR cost base",
+      "bookValuePerShare": 1.1,
+      "sharesOutMM": 52
+    },
+    {
+      "endDate": "1999-12-31",
+      "periodType": "FY",
+      "revenueMM": 28,
+      "expensesBySegmentMM": {
+        "Cost of sales": 17,
+        "Administrative expenses": 2.5,
+        "Other operating costs": 0.5
+      },
+      "ebitdaMM": 8,
+      "netIncomeMM": 3,
+      "totalAcresK": 28,
+      "notes": "FY99: weaker CPO ~$435/t",
+      "bookValuePerShare": 1.2,
+      "sharesOutMM": 52
+    },
+    {
+      "endDate": "2000-12-31",
+      "periodType": "FY",
+      "revenueMM": 25,
+      "expensesBySegmentMM": {
+        "Cost of sales": 16.5,
+        "Administrative expenses": 2.5,
+        "Other operating costs": 0.5
+      },
+      "ebitdaMM": 5.5,
+      "netIncomeMM": 1.5,
+      "totalAcresK": 32,
+      "notes": "FY00: CPO trough ~$310/t",
+      "bookValuePerShare": 1.25,
+      "sharesOutMM": 52
+    },
+    {
+      "endDate": "2001-12-31",
+      "periodType": "FY",
+      "revenueMM": 24,
+      "expensesBySegmentMM": {
+        "Cost of sales": 16,
+        "Administrative expenses": 2.5,
+        "Other operating costs": 0.5
+      },
+      "ebitdaMM": 5,
+      "netIncomeMM": 1,
+      "totalAcresK": 36,
+      "notes": "FY01: CPO cycle low ~$285/t",
+      "bookValuePerShare": 1.28,
+      "sharesOutMM": 52
+    },
+    {
+      "endDate": "2002-12-31",
+      "periodType": "FY",
+      "revenueMM": 32,
+      "expensesBySegmentMM": {
+        "Cost of sales": 19.5,
+        "Administrative expenses": 3,
+        "Other operating costs": 0.5
+      },
+      "ebitdaMM": 9,
+      "netIncomeMM": 3.5,
+      "totalAcresK": 40,
+      "notes": "FY02: CPO recovery ~$390/t",
+      "bookValuePerShare": 1.35,
+      "sharesOutMM": 52
+    },
+    {
+      "endDate": "2003-06-30",
+      "periodType": "H",
+      "revenueMM": 22,
+      "ebitdaMM": 6.5,
+      "totalAcresK": 44,
+      "notes": "H1 03: first interim under modernized reporting"
+    },
+    {
+      "endDate": "2003-12-31",
+      "periodType": "FY",
+      "revenueMM": 45,
+      "expensesBySegmentMM": {
+        "Cost of sales": 27.5,
+        "Administrative expenses": 4,
+        "Other operating costs": 0.5
+      },
+      "ebitdaMM": 13,
+      "netIncomeMM": 6,
+      "totalAcresK": 48,
+      "notes": "FY03: CPO ~$443/t; Australian cattle interest expansion",
+      "bookValuePerShare": 1.5,
+      "sharesOutMM": 52
+    },
+    {
+      "endDate": "2004-06-30",
+      "periodType": "H",
+      "revenueMM": 28,
+      "ebitdaMM": 8,
+      "totalAcresK": 50
+    },
+    {
+      "endDate": "2004-12-31",
+      "periodType": "FY",
+      "revenueMM": 52,
+      "expensesBySegmentMM": {
+        "Cost of sales": 32,
+        "Administrative expenses": 4.5,
+        "Other operating costs": 0.5
+      },
+      "ebitdaMM": 15,
+      "netIncomeMM": 7,
+      "totalAcresK": 52,
+      "notes": "FY04: CPO ~$471/t",
+      "bookValuePerShare": 1.65,
+      "sharesOutMM": 52
+    },
+    {
+      "endDate": "2005-06-30",
+      "periodType": "H",
+      "revenueMM": 30,
+      "ebitdaMM": 8.5,
+      "totalAcresK": 55
+    },
+    {
+      "endDate": "2005-12-31",
+      "periodType": "FY",
+      "revenueMM": 58,
+      "expensesBySegmentMM": {
+        "Cost of sales": 37.5,
+        "Administrative expenses": 5.5,
+        "Other operating costs": 0.5
+      },
+      "ebitdaMM": 14.5,
+      "netIncomeMM": 6.5,
+      "totalAcresK": 58,
+      "notes": "FY05: CPO ~$420/t",
+      "bookValuePerShare": 1.8,
+      "sharesOutMM": 52
+    },
+    {
+      "endDate": "2006-06-30",
+      "periodType": "H",
+      "revenueMM": 38,
+      "ebitdaMM": 11,
+      "totalAcresK": 60
+    },
+    {
+      "endDate": "2006-12-31",
+      "periodType": "FY",
+      "revenueMM": 78,
+      "expensesBySegmentMM": {
+        "Cost of sales": 47,
+        "Administrative expenses": 6.5,
+        "Other operating costs": 0.5
+      },
+      "ebitdaMM": 24,
+      "netIncomeMM": 12,
+      "totalAcresK": 65,
+      "notes": "FY06: CPO ~$478/t; biofuel demand emerges",
+      "bookValuePerShare": 2.05,
+      "sharesOutMM": 52
+    },
+    {
+      "endDate": "2007-06-30",
+      "periodType": "H",
+      "revenueMM": 48,
+      "ebitdaMM": 17,
+      "totalAcresK": 70
+    },
+    {
+      "endDate": "2007-12-31",
+      "periodType": "FY",
+      "revenueMM": 105,
+      "expensesBySegmentMM": {
+        "Cost of sales": 58,
+        "Administrative expenses": 8.5,
+        "Other operating costs": 0.5
+      },
+      "ebitdaMM": 38,
+      "netIncomeMM": 22,
+      "totalAcresK": 75,
+      "sharesOutMM": 52,
+      "notes": "FY07: CPO breakout ~$780/t; record profits",
+      "bookValuePerShare": 2.55
+    },
+    {
+      "endDate": "2008-06-30",
+      "periodType": "H",
+      "revenueMM": 65,
+      "ebitdaMM": 24,
+      "totalAcresK": 80,
+      "notes": "H1 08: switched to USD reporting under IFRS"
+    },
+    {
+      "endDate": "2008-12-31",
+      "periodType": "FY",
+      "revenueMM": 130,
+      "expensesBySegmentMM": {
+        "Cost of sales": 71,
+        "Administrative expenses": 10,
+        "Other operating costs": 1
+      },
+      "ebitdaMM": 48,
+      "netIncomeMM": 28,
+      "totalAcresK": 85,
+      "sharesOutMM": 52,
+      "notes": "FY08: peak CPO ~$949/t; subsequent GFC crash",
+      "bookValuePerShare": 3.05
+    },
+    {
+      "endDate": "2009-06-30",
+      "periodType": "H",
+      "revenueMM": 50,
+      "ebitdaMM": 14,
+      "totalAcresK": 88
+    },
+    {
+      "endDate": "2009-12-31",
+      "periodType": "FY",
+      "revenueMM": 102,
+      "expensesBySegmentMM": {
+        "Cost of sales": 59,
+        "Administrative expenses": 10,
+        "Other operating costs": 1
+      },
+      "ebitdaMM": 32,
+      "netIncomeMM": 16,
+      "totalAcresK": 92,
+      "sharesOutMM": 52,
+      "notes": "FY09: CPO recovery ~$683/t",
+      "bookValuePerShare": 3.3
+    },
+    {
+      "endDate": "2010-06-30",
+      "periodType": "H",
+      "revenueMM": 62,
+      "ebitdaMM": 22,
+      "totalAcresK": 95
+    },
+    {
+      "endDate": "2010-12-31",
+      "periodType": "FY",
+      "revenueMM": 132,
+      "expensesBySegmentMM": {
+        "Cost of sales": 72,
+        "Administrative expenses": 11,
+        "Other operating costs": 1
+      },
+      "ebitdaMM": 48,
+      "netIncomeMM": 26,
+      "totalAcresK": 100,
+      "sharesOutMM": 52,
+      "notes": "FY10: CPO avg ~$901/t",
+      "bookValuePerShare": 3.75
+    },
+    {
+      "endDate": "2011-06-30",
+      "periodType": "H",
+      "revenueMM": 80,
+      "ebitdaMM": 32,
+      "totalAcresK": 105
+    },
+    {
+      "endDate": "2011-12-31",
+      "periodType": "FY",
+      "revenueMM": 168,
+      "expensesBySegmentMM": {
+        "Cost of sales": 89,
+        "Administrative expenses": 13,
+        "Other operating costs": 1
+      },
+      "ebitdaMM": 65,
+      "netIncomeMM": 38,
+      "totalAcresK": 110,
+      "sharesOutMM": 52,
+      "notes": "FY11: CPO peak ~$1,125/t",
+      "bookValuePerShare": 4.4
+    },
+    {
+      "endDate": "2012-06-30",
+      "periodType": "H",
+      "revenueMM": 78,
+      "ebitdaMM": 25,
+      "totalAcresK": 115
+    },
+    {
+      "endDate": "2012-12-31",
+      "periodType": "FY",
+      "revenueMM": 152,
+      "expensesBySegmentMM": {
+        "Cost of sales": 87,
+        "Administrative expenses": 14,
+        "Other operating costs": 1
+      },
+      "ebitdaMM": 50,
+      "netIncomeMM": 26,
+      "totalAcresK": 118,
+      "sharesOutMM": 52,
+      "notes": "FY12: CPO normalizes ~$999/t",
+      "bookValuePerShare": 4.75
+    },
+    {
+      "endDate": "2013-06-30",
+      "periodType": "H",
+      "revenueMM": 60,
+      "ebitdaMM": 16,
+      "totalAcresK": 120
+    },
+    {
+      "endDate": "2013-12-31",
+      "periodType": "FY",
+      "revenueMM": 130,
+      "expensesBySegmentMM": {
+        "Cost of sales": 76,
+        "Administrative expenses": 15,
+        "Other operating costs": 1
+      },
+      "ebitdaMM": 38,
+      "netIncomeMM": 18,
+      "totalAcresK": 122,
+      "sharesOutMM": 52,
+      "notes": "FY13: CPO trough ~$764/t",
+      "bookValuePerShare": 4.95
+    },
+    {
+      "endDate": "2014-06-30",
+      "periodType": "H",
+      "revenueMM": 70,
+      "ebitdaMM": 21,
+      "totalAcresK": 124
+    },
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 145,
+      "expensesBySegmentMM": {
+        "Cost of sales": 86,
+        "Administrative expenses": 16,
+        "Other operating costs": 1
+      },
+      "ebitdaMM": 42,
+      "netIncomeMM": 22,
+      "totalAcresK": 126,
+      "sharesOutMM": 52,
+      "notes": "FY14: CPO ~$821/t; Kalimantan estates maturing",
+      "bookValuePerShare": 5.2
+    },
+    {
+      "endDate": "2015-06-30",
+      "periodType": "H",
+      "revenueMM": 55,
+      "ebitdaMM": 14,
+      "totalAcresK": 128
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 115,
+      "expensesBySegmentMM": {
+        "Cost of sales": 70,
+        "Administrative expenses": 14,
+        "Other operating costs": 1
+      },
+      "ebitdaMM": 30,
+      "netIncomeMM": 12,
+      "totalAcresK": 130,
+      "sharesOutMM": 52,
+      "notes": "FY15: CPO trough ~$622/t; El Nino impact",
+      "bookValuePerShare": 5.3
+    },
+    {
+      "endDate": "2016-06-30",
+      "periodType": "H",
+      "revenueMM": 60,
+      "ebitdaMM": 18,
+      "totalAcresK": 132
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 132,
+      "expensesBySegmentMM": {
+        "Cost of sales": 78,
+        "Administrative expenses": 15,
+        "Other operating costs": 1
+      },
+      "ebitdaMM": 38,
+      "netIncomeMM": 18,
+      "totalAcresK": 133,
+      "sharesOutMM": 52,
+      "notes": "FY16: CPO recovers ~$700/t",
+      "bookValuePerShare": 5.45
+    },
+    {
+      "endDate": "2017-06-30",
+      "periodType": "H",
+      "revenueMM": 80,
+      "ebitdaMM": 25,
+      "totalAcresK": 134,
+      "notes": "H1 17: divested Australian cattle interests"
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 165,
+      "expensesBySegmentMM": {
+        "Cost of sales": 98,
+        "Administrative expenses": 16,
+        "Other operating costs": 1
+      },
+      "ebitdaMM": 50,
+      "netIncomeMM": 25,
+      "netDebtMM": 30,
+      "totalAcresK": 134,
+      "sharesOutMM": 52,
+      "notes": "FY17: CPO ~$715/t; pure-play palm focus",
+      "bookValuePerShare": 5.75
+    },
+    {
+      "endDate": "2018-06-30",
+      "periodType": "H",
+      "revenueMM": 78,
+      "ebitdaMM": 22,
+      "totalAcresK": 134.6
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 158,
+      "expensesBySegmentMM": {
+        "Cost of sales": 99,
+        "Administrative expenses": 16,
+        "Other operating costs": 1
+      },
+      "ebitdaMM": 42,
+      "netIncomeMM": 18,
+      "netDebtMM": 25,
+      "totalAcresK": 134.6,
+      "sharesOutMM": 52,
+      "notes": "FY18: CPO trough ~$598/t",
+      "bookValuePerShare": 5.85
+    },
+    {
+      "endDate": "2019-06-30",
+      "periodType": "H",
+      "revenueMM": 85,
+      "ebitdaMM": 24,
+      "totalAcresK": 134.6
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 175,
+      "expensesBySegmentMM": {
+        "Cost of sales": 110,
+        "Administrative expenses": 16,
+        "Other operating costs": 1
+      },
+      "ebitdaMM": 48,
+      "netIncomeMM": 20,
+      "netDebtMM": 15,
+      "totalAcresK": 134.6,
+      "sharesOutMM": 52,
+      "notes": "FY19: CPO recovery ~$601/t",
+      "bookValuePerShare": 6.05
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 217.7,
+      "expensesBySegmentMM": {
+        "Cost of sales": 134,
+        "Administrative expenses": 17.5,
+        "Other operating costs": 1.2
+      },
+      "ebitdaMM": 65,
+      "netIncomeMM": 24.5,
+      "netDebtMM": 5,
+      "totalAcresK": 134.6,
+      "ffbProductionTonnesK": 880,
+      "cpoProductionTonnesK": 207,
+      "pkProductionTonnesK": 41,
+      "ffbYieldTPerHa": 22.0,
+      "cpoExtractionRatePct": 22.4,
+      "pkExtractionRatePct": 4.45,
+      "matureHectaresK": 40,
+      "sharesOutMM": 52,
+      "notes": "FY20: COVID-impacted CPO cycle; modest net debt",
+      "bookValuePerShare": 6.3
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "H",
+      "revenueMM": 145,
+      "ebitdaMM": 50,
+      "totalAcresK": 134.6
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 314,
+      "expensesBySegmentMM": {
+        "Cost of sales": 184,
+        "Administrative expenses": 19,
+        "Other operating costs": 1
+      },
+      "ebitdaMM": 110,
+      "netIncomeMM": 60,
+      "netDebtMM": -25,
+      "totalAcresK": 134.6,
+      "ffbProductionTonnesK": 935,
+      "cpoProductionTonnesK": 220,
+      "pkProductionTonnesK": 43,
+      "ffbYieldTPerHa": 23.4,
+      "cpoExtractionRatePct": 22.4,
+      "pkExtractionRatePct": 4.48,
+      "matureHectaresK": 40,
+      "sharesOutMM": 52,
+      "notes": "FY21: CPO rally drives EBITDA +69% YoY; transitions to net cash",
+      "bookValuePerShare": 7
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "H",
+      "revenueMM": 192,
+      "ebitdaMM": 75,
+      "totalAcresK": 134.6
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 380,
+      "expensesBySegmentMM": {
+        "Cost of sales": 228,
+        "Administrative expenses": 21,
+        "Other operating costs": 1
+      },
+      "ebitdaMM": 130,
+      "netIncomeMM": 73,
+      "netDebtMM": -40,
+      "totalAcresK": 134.6,
+      "ffbProductionTonnesK": 980,
+      "cpoProductionTonnesK": 230,
+      "pkProductionTonnesK": 45,
+      "ffbYieldTPerHa": 24.5,
+      "cpoExtractionRatePct": 22.5,
+      "pkExtractionRatePct": 4.5,
+      "matureHectaresK": 40,
+      "sharesOutMM": 52,
+      "notes": "FY22: record CPO; net cash builds further",
+      "bookValuePerShare": 7.55
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 165,
+      "ebitdaMM": 47,
+      "totalAcresK": 134.6
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 320,
+      "expensesBySegmentMM": {
+        "Cost of sales": 207,
+        "Administrative expenses": 20,
+        "Other operating costs": 1
+      },
+      "ebitdaMM": 92,
+      "netIncomeMM": 50,
+      "netDebtMM": -30,
+      "totalAcresK": 134.6,
+      "ffbProductionTonnesK": 1010,
+      "cpoProductionTonnesK": 238,
+      "pkProductionTonnesK": 46,
+      "ffbYieldTPerHa": 25.3,
+      "cpoExtractionRatePct": 22.6,
+      "pkExtractionRatePct": 4.52,
+      "matureHectaresK": 40,
+      "sharesOutMM": 52,
+      "notes": "FY23: CPO normalized; cash payout ramped via dividend + buyback",
+      "bookValuePerShare": 7.5
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 175,
+      "ebitdaMM": 50,
+      "totalAcresK": 134.6
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 352.8,
+      "expensesBySegmentMM": {
+        "Cost of sales": 231,
+        "Administrative expenses": 20.8,
+        "Other operating costs": 1
+      },
+      "ebitdaMM": 100,
+      "netIncomeMM": 56,
+      "netDebtMM": -20,
+      "totalAcresK": 134.6,
+      "ffbProductionTonnesK": 1045,
+      "cpoProductionTonnesK": 246,
+      "pkProductionTonnesK": 47,
+      "ffbYieldTPerHa": 26.1,
+      "cpoExtractionRatePct": 22.7,
+      "pkExtractionRatePct": 4.55,
+      "matureHectaresK": 40,
+      "sharesOutMM": 52,
+      "navPerShare": 7.69,
+      "propertyBookMM": 300,
+      "propertyFmvMM": 700,
+      "notes": "FY24 per seed-comps: revenue $352.8M, EBITDA $100M, net cash $20M, NAV/share $7.69, indicative FMV $700M vs book $300M",
+      "bookValuePerShare": 7.69
+    }
+  ]
+}

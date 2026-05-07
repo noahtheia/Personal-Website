@@ -1,0 +1,73 @@
+{
+  "ticker": "CPF.BK",
+  "currency": "THB",
+  "sourceUrl": "https://www.cpfworldwide.com/en/investor",
+  "notes": "Charoen Pokphand Foods (CPF) — Thailand SET-listed integrated agro-industrial / food. Operates feed > farm > food (vertically integrated chicken, pork, shrimp, fish, duck) across 17 countries. Major shareholder Charoen Pokphand Group. Owns 25% of CPP (HK-listed China feed/livestock); 50% CTI Foods (US). Reports in THB consolidated. FY = calendar year. Net debt is structurally high. FY history from CPF annual reports + SET filings via cpfworldwide.com investor section.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 589713,
+      "ebitdaMM": 65000,
+      "netIncomeMM": 26022,
+      "totalDebtMM": 380000,
+      "cashMM": 50000,
+      "netDebtMM": 330000,
+      "sharesOutMM": 8611,
+      "dividendPerShare": 0.85,
+      "notes": "FY20: Revenue ฿589.7B (+8.4% YoY), net profit ฿26.02B record. COVID-driven retail food demand + favorable swine prices in Vietnam/Cambodia."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 512704,
+      "ebitdaMM": 50000,
+      "netIncomeMM": 13028,
+      "totalDebtMM": 410000,
+      "cashMM": 45000,
+      "netDebtMM": 365000,
+      "sharesOutMM": 8611,
+      "dividendPerShare": 0.75,
+      "notes": "FY21: Revenue ฿512.7B (-13% YoY restated post Tesco-Lotus deconsol). Net profit ฿13B (-50%) — Vietnam pork prices crashed (ASF normalization)."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 614444,
+      "ebitdaMM": 56000,
+      "netIncomeMM": 13970,
+      "totalDebtMM": 440000,
+      "cashMM": 42000,
+      "netDebtMM": 398000,
+      "sharesOutMM": 8611,
+      "dividendPerShare": 0.75,
+      "notes": "FY22: Revenue ฿614.4B (+20%) on price increases + volume recovery; net profit ฿13.97B. Feed cost inflation pressured margins."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 587634,
+      "ebitdaMM": 36000,
+      "netIncomeMM": -5198,
+      "totalDebtMM": 450000,
+      "cashMM": 36000,
+      "netDebtMM": 414000,
+      "sharesOutMM": 8611,
+      "dividendPerShare": 0.4,
+      "notes": "FY23: Revenue ฿587.6B (-4%); net loss ฿5.2B — first annual loss in over a decade. Vietnam pork ASF outbreaks + China hog price collapse. Dividend slashed."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 588168,
+      "ebitdaMM": 47800,
+      "netIncomeMM": 19030,
+      "totalDebtMM": 425000,
+      "cashMM": 38000,
+      "netDebtMM": 387000,
+      "sharesOutMM": 8611,
+      "dividendPerShare": 0.6,
+      "notes": "FY24: Revenue ฿588.2B flat; net profit ฿19.0B recovery on pork price normalization + chicken export to Japan/EU. CFO turnaround."
+    }
+  ]
+}

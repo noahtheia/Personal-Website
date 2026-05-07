@@ -1,0 +1,103 @@
+{
+  "ticker": "INGR",
+  "currency": "USD",
+  "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001046257&type=10-K",
+  "notes": "Ingredion Incorporated (NYSE: INGR) — global ingredient solutions company that processes corn, tapioca, potato, rice, and other grains/tubers into starches, sweeteners (HFCS, dextrose), specialty ingredients, plant-based proteins, and texturizers. Serves food, beverage, brewing, paper, and pharma customers. Four reporting segments since FY24: Texture & Healthful Solutions (T&HS), Food & Industrial Ingredients LATAM (F&II LATAM), Food & Industrial Ingredients US/Canada (F&II US/C), and All Other (incl. PureCircle stevia). Spun off South Korean operations / divested PureCircle stevia partially during FY24. Fiscal year = calendar. SEC CIK 1046257. 10-Ks at sec.gov.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 5987,
+      "expensesBySegmentMM": {
+        "Cost of sales": 4838,
+        "SG&A": 530,
+        "D&A": 250,
+        "Other": 0
+      },
+      "ebitdaMM": 869,
+      "netDebtMM": 1810,
+      "totalDebtMM": 2418,
+      "cashMM": 608,
+      "sharesOutMM": 67.0,
+      "bookValuePerShare": 32.50,
+      "dividendPerShare": 2.585,
+      "notes": "FY20: revenue $5.99B. COVID disruption (food-service exposure ~30% LatAm). Adj op income $531M. Adj EBITDA ~$869M."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 6894,
+      "expensesBySegmentMM": {
+        "Cost of sales": 5616,
+        "SG&A": 580,
+        "D&A": 250,
+        "Other": 0
+      },
+      "ebitdaMM": 825,
+      "netDebtMM": 2127,
+      "totalDebtMM": 2459,
+      "cashMM": 332,
+      "sharesOutMM": 67.0,
+      "bookValuePerShare": 33.00,
+      "dividendPerShare": 2.605,
+      "notes": "FY21: revenue $6.89B (+15%). Strong demand + price pass-through. Adj EBITDA ~$825M. Net debt $2.13B."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 7948,
+      "expensesBySegmentMM": {
+        "Cost of sales": 6440,
+        "SG&A": 640,
+        "D&A": 270,
+        "Other": 0
+      },
+      "ebitdaMM": 999,
+      "netDebtMM": 2027,
+      "totalDebtMM": 2253,
+      "cashMM": 226,
+      "sharesOutMM": 66.0,
+      "bookValuePerShare": 35.50,
+      "dividendPerShare": 2.84,
+      "notes": "FY22: revenue $7.95B (+15%). Aggressive pricing offset corn/energy inflation. Adj EBITDA $999M. Adj EPS $7.34."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 8158,
+      "expensesBySegmentMM": {
+        "Cost of sales": 6620,
+        "SG&A": 670,
+        "D&A": 280,
+        "Other": 0
+      },
+      "ebitdaMM": 1188,
+      "netDebtMM": 1955,
+      "totalDebtMM": 2374,
+      "cashMM": 419,
+      "sharesOutMM": 66.0,
+      "bookValuePerShare": 39.00,
+      "dividendPerShare": 3.04,
+      "notes": "FY23: revenue $8.16B (+3%). Adj EBITDA $1.19B (+19%). Adj EPS $9.42. Strong margin recovery as input costs eased; price held."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 7424,
+      "expensesBySegmentMM": {
+        "Cost of sales": 5950,
+        "SG&A": 650,
+        "D&A": 290,
+        "Other": 0
+      },
+      "ebitdaMM": 1234,
+      "netDebtMM": 893,
+      "totalDebtMM": 1846,
+      "cashMM": 953,
+      "sharesOutMM": 65.4,
+      "bookValuePerShare": 42.00,
+      "dividendPerShare": 3.20,
+      "notes": "FY24: revenue $7.42B (-9% — partly mix/divestitures + lower corn pass-through). Adj EBITDA $1.23B (+4%). Adj EPS $10.65. Sold South Korea biz. Net debt down to $893M (1.5x EBITDA). Strong FCF."
+    }
+  ]
+}

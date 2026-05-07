@@ -1,0 +1,103 @@
+{
+  "ticker": "HRL",
+  "currency": "USD",
+  "sourceUrl": "https://www.hormelfoods.com/about/investors/financial-reports/",
+  "notes": "Hormel Foods (NYSE: HRL) — branded packaged foods + protein. Fiscal year ends last Sunday of October. Three segments post-2024 reorganization: Retail, Foodservice, International. Strong Spam, Skippy, Jennie-O, Planters franchises (Planters acquired Jun 2021 for $3.35B). Dividend Aristocrat (58+ consecutive years of increases). Hormel Foundation owns ~46.4%. CIK 48465.",
+  "periods": [
+    {
+      "endDate": "2020-10-25",
+      "periodType": "FY",
+      "revenueMM": 9608,
+      "expensesBySegmentMM": {
+        "Cost of sales": 7857,
+        "SG&A": 661,
+        "D&A": 144,
+        "Other": 0
+      },
+      "ebitdaMM": 1419,
+      "netDebtMM": -1029,
+      "totalDebtMM": 1031,
+      "cashMM": 2060,
+      "sharesOutMM": 540.4,
+      "bookValuePerShare": 12.22,
+      "dividendPerShare": 0.93,
+      "notes": "FY20: revenue $9.6B (+1%). Pandemic foodservice headwinds offset by retail. Op income $1.13B."
+    },
+    {
+      "endDate": "2021-10-31",
+      "periodType": "FY",
+      "revenueMM": 11386,
+      "expensesBySegmentMM": {
+        "Cost of sales": 9542,
+        "SG&A": 738,
+        "D&A": 184,
+        "Other": 0
+      },
+      "ebitdaMM": 1481,
+      "netDebtMM": 2716,
+      "totalDebtMM": 3309,
+      "cashMM": 593,
+      "sharesOutMM": 543.9,
+      "bookValuePerShare": 13.47,
+      "dividendPerShare": 0.97,
+      "notes": "FY21: revenue $11.4B (+19%). Planters acquisition closed Jun 2021. 53-week year. Net debt rebuilt for deal financing."
+    },
+    {
+      "endDate": "2022-10-30",
+      "periodType": "FY",
+      "revenueMM": 12459,
+      "expensesBySegmentMM": {
+        "Cost of sales": 10396,
+        "SG&A": 781,
+        "D&A": 209,
+        "Other": 0
+      },
+      "ebitdaMM": 1626,
+      "netDebtMM": 2306,
+      "totalDebtMM": 3056,
+      "cashMM": 750,
+      "sharesOutMM": 545.0,
+      "bookValuePerShare": 14.36,
+      "dividendPerShare": 1.04,
+      "notes": "FY22: revenue $12.5B (+9%) — peak. Operating income $1.42B. Inflation pricing offset volume."
+    },
+    {
+      "endDate": "2023-10-29",
+      "periodType": "FY",
+      "revenueMM": 12110,
+      "expensesBySegmentMM": {
+        "Cost of sales": 10271,
+        "SG&A": 769,
+        "D&A": 224,
+        "Other": 0
+      },
+      "ebitdaMM": 1387,
+      "netDebtMM": 2491,
+      "totalDebtMM": 3216,
+      "cashMM": 725,
+      "sharesOutMM": 545.7,
+      "bookValuePerShare": 14.62,
+      "dividendPerShare": 1.10,
+      "notes": "FY23: revenue $12.1B (-3%). Turkey market collapse + retail softness. Op income $1.16B."
+    },
+    {
+      "endDate": "2024-10-27",
+      "periodType": "FY",
+      "revenueMM": 11920,
+      "expensesBySegmentMM": {
+        "Cost of sales": 10076,
+        "SG&A": 776,
+        "D&A": 235,
+        "Other": 0
+      },
+      "ebitdaMM": 1551,
+      "netDebtMM": 2545,
+      "totalDebtMM": 3286,
+      "cashMM": 741,
+      "sharesOutMM": 549.4,
+      "bookValuePerShare": 14.81,
+      "dividendPerShare": 1.13,
+      "notes": "FY24: revenue $11.92B (-2%). Op income $1.32B. Foodservice +growth, retail flat. Dividend raised to $1.13."
+    }
+  ]
+}

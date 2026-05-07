@@ -1,0 +1,211 @@
+{
+  "ticker": "LAND3.SA",
+  "asOf": "2025-12-31",
+  "currency": "BRL",
+  "propertiesNote": "7 individual fazendas in Mato Grosso (the full LAND3 portfolio). Total ties to S&P Global Nov 2025 audited appraisal of R$2,796M = R$28,872/acre weighted. Per-farm acres are estimated (LAND3 reports portfolio aggregate, not per-farm hectares); municipalities are disclosed.",
+  "properties": [
+    {
+      "name": "Fazenda Terra Santa",
+      "location": "Campo Novo do Parecis, Mato Grosso, Brazil",
+      "acres": 16000,
+      "cropOrUse": "Soy / cotton (operated by SLC Agrícola under 20-year lease)",
+      "category": "Mato Grosso Cerrado — premium (Sapezal/Parecis tier)",
+      "fmvPerAcre": 32000,
+      "fmvPerAcreLow": 26000,
+      "fmvPerAcreHigh": 38000,
+      "capRateLow": 3.0,
+      "capRateHigh": 4.5,
+      "fmvRationale": "Campo Novo do Parecis (Sapezal-area) is top-tier MT Class-A cotton-soy ground. The S&P Nov 2025 portfolio average works out to R$28.9K/acre; premium Sapezal/Parecis-tier farms sit at the high end of the blend. Cap rate compressed (3.0-4.5%) by the long-dated SLC lease.",
+      "comparablesUsed": [
+        "LAND3-SP-LAUDO-2025",
+        "LAND3-SP-LAUDO-2024",
+        "BR-CERRADO-MT-2024"
+      ],
+      "acquired": "2010-01-01",
+      "bookValueMM": 125,
+      "notes": "1 of 2 farms in Campo Novo do Parecis. Eponymous flagship — gives the listed entity its name."
+    },
+    {
+      "name": "Fazenda Sete Placas",
+      "location": "Campo Novo do Parecis, Mato Grosso, Brazil",
+      "acres": 16000,
+      "cropOrUse": "Soy / cotton (operated by SLC Agrícola under 20-year lease)",
+      "category": "Mato Grosso Cerrado — premium (Sapezal/Parecis tier)",
+      "fmvPerAcre": 32000,
+      "fmvPerAcreLow": 26000,
+      "fmvPerAcreHigh": 38000,
+      "capRateLow": 3.0,
+      "capRateHigh": 4.5,
+      "fmvRationale": "Second Campo Novo do Parecis farm — same Sapezal-area premium MT Class-A tier as Fazenda Terra Santa.",
+      "comparablesUsed": [
+        "LAND3-SP-LAUDO-2025",
+        "LAND3-SP-LAUDO-2024",
+        "BR-CERRADO-MT-2024"
+      ],
+      "acquired": "2010-01-01",
+      "bookValueMM": 125,
+      "notes": "2 of 2 farms in Campo Novo do Parecis."
+    },
+    {
+      "name": "Fazenda Iporanga",
+      "location": "Tabaporã, Mato Grosso, Brazil",
+      "acres": 22000,
+      "cropOrUse": "Soy / cotton (operated by SLC Agrícola under 20-year lease) + native-vegetation forestry",
+      "category": "Mato Grosso Cerrado — northern MT mid-tier",
+      "fmvPerAcre": 27300,
+      "fmvPerAcreLow": 22000,
+      "fmvPerAcreHigh": 32000,
+      "capRateLow": 3.5,
+      "capRateHigh": 5.0,
+      "fmvRationale": "Largest single farm in the LAND3 portfolio. Tabaporã unit was ~29.3K owned ha pre-spinoff (Terra Santa Agro disclosure). Mid-tier within the S&P appraisal blend; northern-MT productive ground but not Sapezal-tier premium. Also includes the bulk of LAND3's sustainable-forestry (manejo florestal) operations alongside the SLC lease area.",
+      "comparablesUsed": [
+        "LAND3-SP-LAUDO-2025",
+        "LAND3-SP-LAUDO-2024",
+        "BR-CERRADO-MT-2024"
+      ],
+      "acquired": "2010-01-01",
+      "bookValueMM": 155,
+      "notes": "Single farm in Tabaporã. Largest LAND3 holding by acreage. Carries the forestry / manejo florestal operation in addition to the SLC lease."
+    },
+    {
+      "name": "Fazenda C-Vale",
+      "location": "Nova Mutum, Mato Grosso, Brazil",
+      "acres": 13000,
+      "cropOrUse": "Soy / cotton (operated by SLC Agrícola under 20-year lease)",
+      "category": "Mato Grosso Cerrado — northern MT mid-tier",
+      "fmvPerAcre": 27300,
+      "fmvPerAcreLow": 22000,
+      "fmvPerAcreHigh": 32000,
+      "capRateLow": 3.5,
+      "capRateHigh": 5.0,
+      "fmvRationale": "Nova Mutum is in the heart of MT's northern soybean belt — mid-tier within the S&P blend.",
+      "comparablesUsed": [
+        "LAND3-SP-LAUDO-2025",
+        "LAND3-SP-LAUDO-2024",
+        "BR-CERRADO-MT-2024"
+      ],
+      "acquired": "2010-01-01",
+      "bookValueMM": 92,
+      "notes": "Single farm in Nova Mutum. Nova Mutum was historically Terra Santa Agro's operational HQ."
+    },
+    {
+      "name": "Fazenda Mãe Margarida",
+      "location": "Nova Maringá, Mato Grosso, Brazil",
+      "acres": 12000,
+      "cropOrUse": "Soy / cotton (operated by SLC Agrícola under 20-year lease)",
+      "category": "Mato Grosso Cerrado — northern MT mid-tier",
+      "fmvPerAcre": 27300,
+      "fmvPerAcreLow": 22000,
+      "fmvPerAcreHigh": 32000,
+      "capRateLow": 3.5,
+      "capRateHigh": 5.0,
+      "fmvRationale": "Nova Maringá northern-MT cotton-soy ground; mid-tier within the S&P blend.",
+      "comparablesUsed": [
+        "LAND3-SP-LAUDO-2025",
+        "LAND3-SP-LAUDO-2024",
+        "BR-CERRADO-MT-2024"
+      ],
+      "acquired": "2010-01-01",
+      "bookValueMM": 85,
+      "notes": "Single farm in Nova Maringá."
+    },
+    {
+      "name": "Fazenda Ribeiro do Céu",
+      "location": "Santa Rita do Trivelato, Mato Grosso, Brazil",
+      "acres": 10840,
+      "cropOrUse": "Soy / cotton (operated by SLC Agrícola under 20-year lease)",
+      "category": "Mato Grosso Cerrado — northern MT mid-tier",
+      "fmvPerAcre": 27300,
+      "fmvPerAcreLow": 22000,
+      "fmvPerAcreHigh": 32000,
+      "capRateLow": 3.5,
+      "capRateHigh": 5.0,
+      "fmvRationale": "Santa Rita do Trivelato northern-MT productive cropland; mid-tier within the S&P blend.",
+      "comparablesUsed": [
+        "LAND3-SP-LAUDO-2025",
+        "LAND3-SP-LAUDO-2024",
+        "BR-CERRADO-MT-2024"
+      ],
+      "acquired": "2010-01-01",
+      "bookValueMM": 78,
+      "notes": "Single farm in Santa Rita do Trivelato."
+    },
+    {
+      "name": "Fazenda São José",
+      "location": "Diamantino, Mato Grosso, Brazil",
+      "acres": 7000,
+      "cropOrUse": "Soy / cotton (operated by SLC Agrícola under 20-year lease)",
+      "category": "Mato Grosso Cerrado — northern MT mid-tier",
+      "fmvPerAcre": 27300,
+      "fmvPerAcreLow": 22000,
+      "fmvPerAcreHigh": 32000,
+      "capRateLow": 3.5,
+      "capRateHigh": 5.0,
+      "fmvRationale": "Smallest LAND3 farm. Diamantino was historically a mostly-leased operational unit for Terra Santa Agro (only 3,163 ha owned of 22,562 total ha) — the owned remnant carried into LAND3 is correspondingly modest in size.",
+      "comparablesUsed": [
+        "LAND3-SP-LAUDO-2025",
+        "LAND3-SP-LAUDO-2024",
+        "BR-CERRADO-MT-2024"
+      ],
+      "acquired": "2010-01-01",
+      "bookValueMM": 40,
+      "notes": "Single farm in Diamantino. Smallest of the 7 holdings."
+    }
+  ],
+  "comparables": [
+    {
+      "id": "LAND3-SP-LAUDO-2025",
+      "description": "LAND3's own annual independent appraisal: S&P Global Nov 2025 base date valued the 7-farm portfolio (bare land + improvements) at R$2,796.4M = R$71,344/hectare = R$28,872/acre weighted",
+      "location": "LAND3 portfolio (S&P Global appraised)",
+      "acres": 96840,
+      "pricePerAcre": 28872,
+      "date": "2025-11-30",
+      "source": "S&P Global laudo de avaliação Nov 2025 / disclosed Jan 12 2026",
+      "url": "https://br.advfn.com/jornal/2026/01/terra-santa-tem-valor-de-terras-reavaliado-em-r-2-79-bilhoes-aponta-laudo-da-s-amp-p-global"
+    },
+    {
+      "id": "LAND3-SP-LAUDO-2024",
+      "description": "LAND3 prior-year appraisal: S&P Global Nov 2024 base date valued portfolio at R$2,755.9M = R$70,310/ha = R$28,455/acre. -7.9% vs Nov 2023 due to soybean price weakness",
+      "location": "LAND3 portfolio",
+      "acres": 96840,
+      "pricePerAcre": 28455,
+      "date": "2024-11-30",
+      "source": "S&P Global laudo 2024"
+    },
+    {
+      "id": "LAND3-SP-LAUDO-2023",
+      "description": "LAND3 historical appraisal: S&P Global Nov 2023 valued portfolio at R$2,993M = R$30,910/acre. -17.6% vs Nov 2022 R$37,548/acre peak",
+      "location": "LAND3 portfolio",
+      "acres": 96840,
+      "pricePerAcre": 30910,
+      "date": "2023-11-30",
+      "source": "S&P Global laudo 2023"
+    },
+    {
+      "id": "BR-CERRADO-MT-2024",
+      "description": "Mato Grosso Class-A cotton-soy ground — IMEA per-hectare benchmarks 2024",
+      "location": "Mato Grosso, Brazil",
+      "pricePerAcre": 24300,
+      "date": "2024-09-15",
+      "source": "IMEA Mato Grosso land surveys 2024 (corrected per-acre conversion)"
+    },
+    {
+      "id": "BR-CERRADO-MT-2025",
+      "description": "Mato Grosso 2025 cropland transactions — Class-A",
+      "location": "Mato Grosso, Brazil",
+      "pricePerAcre": 26300,
+      "date": "2025-04-01",
+      "source": "IMEA + MT broker reports H1 2025"
+    },
+    {
+      "id": "LAND3-LEASE-SLC",
+      "description": "LAND3's 20-year lease to SLC Agrícola: ~R$96.57M annual revenue / 39,189 ha = R$2,464/ha annualized lease income — implies ~3.5% gross yield on S&P-appraised land FMV, consistent with long-dated locked-in lease economics",
+      "location": "Mato Grosso (LAND3 portfolio)",
+      "acres": 96840,
+      "pricePerAcre": 998,
+      "date": "2025-12-31",
+      "source": "LAND3 reported lease income TTM"
+    }
+  ],
+  "methodology": "LAND3 (Terra Santa Propriedades Agrícolas) is the only pure-play Brazilian farmland REIT in the comp set — spun off from Terra Santa Agro in 2021 to be a B3-listed exclusively-rural-real-estate vehicle. All 7 owned farms (39,189 ha = 96,840 acres useful area) are in Mato Grosso and leased to SLC Agrícola on a 20-year contract. SLC operates the farms and pays LAND3 lease income.\n\nINDIVIDUAL FARMS: The 7 fazendas are disclosed in the TS Brasil subsidiary description as Terra Santa, Iporanga, Mãe Margarida, Ribeiro do Céu, São José, Sete Placas, and C-Vale. Per MT Econômico and other Brazilian agribusiness press, the municipality split is 2 farms in Campo Novo do Parecis + 1 each in Diamantino, Nova Maringá, Nova Mutum, Santa Rita do Trivelato, and Tabaporã. Per-farm hectares are NOT publicly disclosed at the individual-farm level — LAND3 reports portfolio aggregate (39,189 ha useful area) and S&P Global appraises in aggregate. Acreage shown per farm here is estimated and calibrated to (a) sum to 96,840 acres total, (b) reflect the known relative sizes of the underlying old Terra Santa Agro operating units (Tabaporã unit was 29.3K owned ha pre-spinoff; Diamantino unit was only 3.2K owned ha), and (c) split Campo Novo do Parecis evenly between the 2 farms.\n\nPRIMARY FMV ANCHOR: S&P Global publishes an independent annual appraisal (\"laudo\") of LAND3's portfolio. Recent appraisals:\n  • Nov 2022:   R$3,635M (R$92,769/ha = R$37,548/acre) — peak after COVID-era soy rally\n  • Nov 2023:   R$2,993M (R$76,372/ha = R$30,910/acre)\n  • Nov 2024:   R$2,756M (R$70,310/ha = R$28,455/acre) — soybean weakness pulled values down\n  • Nov 2025:   R$2,796M (R$71,344/ha = R$28,872/acre) — slight recovery\nThe 2-tier per-acre split (Campo Novo do Parecis premium at R$32K/acre + 5 northern-MT mid-tier at R$27.3K/acre) is calibrated so the portfolio FMV total (~R$2,794M) ties to the most recent S&P appraisal.\n\nCap rate ranges 3.0-5.0% reflect both premium MT land + the 20-year SLC lease structure compressing yield vs raw-land cap rates. Implied lease yield on S&P-appraised value is 96.57M / 2,796M = 3.5% — consistent with that range.\n\nLAND3 is the landlord side of the SLC operating model — direct landlord-vs-operator comparison within the universe (vs SLCE3.SA also in the comp set). Where SLC's economics depend on commodity prices and operational efficiency, LAND3's economics depend on the lease contract structure + underlying MT Cerrado land appreciation.\n\nPRIOR ERROR FIXED: An earlier version of this detail page used R$7-8K/acre for Brazilian MT Cerrado, which conflated IMEA's per-hectare publication convention with per-acre. IMEA Class-A MT regularly trades at R$60-75K/hectare = R$24-30K/acre — consistent with the S&P appraisal."
+}

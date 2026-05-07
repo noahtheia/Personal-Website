@@ -1,0 +1,79 @@
+{
+  "ticker": "5126.KL",
+  "asOf": "2025-12-31",
+  "currency": "MYR",
+  "propertiesNote": "3-row breakdown by Sarawak soil type. Sarawak palm is unique in the comp set for material peat-soil exposure (~31% of planted area) which trades at discount.",
+  "properties": [
+    {
+      "name": "Sarawak nucleus estates + mills (mineral soil)",
+      "location": "Sarawak, Malaysia (mineral soil areas)",
+      "acres": 130000,
+      "cropOrUse": "Mature oil palm + mills",
+      "category": "Sarawak palm \u2014 mineral soil",
+      "fmvPerAcre": 25000,
+      "fmvRationale": "Mineral soil Sarawak palm at premium to peat",
+      "comparablesUsed": [
+        "MY-PALM-SARAWAK-2024"
+      ],
+      "bookValueMM": 3000,
+      "fmvPerAcreLow": 20000.0,
+      "fmvPerAcreHigh": 30000.0,
+      "capRateLow": 7.0,
+      "capRateHigh": 9.5
+    },
+    {
+      "name": "Sarawak peat-soil estates",
+      "location": "Sarawak, Malaysia (peat soil areas)",
+      "acres": 60000,
+      "cropOrUse": "Mature oil palm on peat",
+      "category": "Sarawak palm \u2014 peat soil",
+      "fmvPerAcre": 19000,
+      "fmvRationale": "Peat-soil palm at discount to mineral soil due to lower yields + sustainability constraints",
+      "comparablesUsed": [
+        "MY-PALM-SARAWAK-2024"
+      ],
+      "bookValueMM": 1500,
+      "fmvPerAcreLow": 15200.0,
+      "fmvPerAcreHigh": 22800.0,
+      "capRateLow": 8.0,
+      "capRateHigh": 11.0
+    },
+    {
+      "name": "Smallholder + plasma partnerships",
+      "location": "Sarawak, Malaysia",
+      "acres": 23000,
+      "cropOrUse": "Plasma scheme (smallholder partnerships, ~9K ha NOT owned)",
+      "category": "Plasma partnerships (excluded from owned acres)",
+      "fmvPerAcre": 4000,
+      "fmvRationale": "~9K ha smallholder partnership area without fee-simple ownership. SOP buys FFB but doesn't own the land. NOT on balance sheet as land asset",
+      "comparablesUsed": [
+        "MY-PALM-SARAWAK-2024"
+      ],
+      "bookValueMM": 100,
+      "fmvPerAcreLow": 3200.0,
+      "fmvPerAcreHigh": 4800.0,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0
+    }
+  ],
+  "comparables": [
+    {
+      "id": "MY-PALM-SARAWAK-2024",
+      "description": "Sarawak palm plantation (peat soils)",
+      "location": "Sarawak, Malaysia",
+      "pricePerAcre": 4200,
+      "date": "2024-09-15",
+      "source": "Malaysian Palm Oil Board Sarawak 2024"
+    },
+    {
+      "id": "MY-PALM-2025",
+      "description": "Malaysian palm plantation H1 2025 transactions",
+      "location": "Malaysia palm estates",
+      "pricePerAcre": 5400,
+      "date": "2025-04-01",
+      "source": "MPOB + Bursa Malaysia 2025"
+    }
+  ],
+  "methodology": "Sarawak Oil Palms is a Sarawak-focused operator with ~86K hectares of palm. Sarawak palm is differentiated by soil type \u2014 mineral soil yields higher than peat soil, with peat trading at meaningful per-acre discount due to lower yields, sustainability constraints (peat is carbon-rich), and certification challenges.\n\n3-row breakdown reflects this soil-type variation:\n- Mineral soil estates (130K acres / ~53K ha): premium per-acre\n- Peat soil estates (60K acres / ~24K ha): discount for yield + sustainability\n- Plasma partnerships (23K acres / ~9K ha): smallholder partnership area"
+}

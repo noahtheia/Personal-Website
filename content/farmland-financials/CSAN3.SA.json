@@ -1,0 +1,73 @@
+{
+  "ticker": "CSAN3.SA",
+  "currency": "BRL",
+  "sourceUrl": "https://ri.cosan.com.br/",
+  "notes": "Cosan S.A. (B3: CSAN3, NYSE: CSAN) — diversified Brazilian conglomerate. Holdings: 44% of Raízen (sugar/ethanol/fuel distribution JV with Shell, B3: RAIZ4); ~99% of Rumo (logistics/rail, RAIL3); Compass (gas distribution, B3: CGAS3); Moove (lubricants, NYSE: MOOV); ~5% of Vale (acquired 2022). Acres figure (~2.1M acres / ~850k ha) reflects Raízen-managed sugarcane area (proportionate). Heavy holdco leverage on Vale stake — pressured FY24 net income.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 22500,
+      "revenueMM": 21100,
+      "ebitdaMM": 5860,
+      "netIncomeMM": 985,
+      "totalDebtMM": 32500,
+      "cashMM": 9800,
+      "netDebtMM": 22700,
+      "sharesOutMM": 1872,
+      "notes": "FY20 (pre-2021 reorg / Compass spinoff included): Revenue R$21.1bn, EBITDA R$5.86bn."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 26000,
+      "revenueMM": 24365,
+      "ebitdaMM": 7400,
+      "netIncomeMM": 2350,
+      "totalDebtMM": 38600,
+      "cashMM": 11400,
+      "netDebtMM": 27200,
+      "sharesOutMM": 1872,
+      "notes": "FY21: Revenue R$24.4bn, EBITDA R$7.4bn — Raízen IPO Aug 2021 raised R$6.9bn; reorganization year."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 35200,
+      "revenueMM": 33072,
+      "ebitdaMM": 11800,
+      "netIncomeMM": 7200,
+      "totalDebtMM": 53800,
+      "cashMM": 13900,
+      "netDebtMM": 39900,
+      "sharesOutMM": 1872,
+      "notes": "FY22: Revenue R$33.1bn (+36%), EBITDA R$11.8bn — Vale stake acquired (~R$23bn collar funded), drove leverage up."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 41800,
+      "revenueMM": 39208,
+      "ebitdaMM": 13050,
+      "netIncomeMM": 4170,
+      "totalDebtMM": 49500,
+      "cashMM": 14600,
+      "netDebtMM": 34900,
+      "sharesOutMM": 1872,
+      "notes": "FY23: Revenue R$39.2bn (+19%), EBITDA R$13.1bn (margin 33.3%). Vale dividends supported NI. Net debt reduced via Compass divestments + Moove dividend recap."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 44400,
+      "revenueMM": 41657,
+      "ebitdaMM": 12830,
+      "netIncomeMM": -4500,
+      "totalDebtMM": 51400,
+      "cashMM": 12700,
+      "netDebtMM": 38700,
+      "sharesOutMM": 1872,
+      "notes": "FY24: Revenue R$41.7bn (+6%), EBITDA R$12.8bn (margin 30.8%). Net loss ~R$4.5bn driven by mark-to-market on Vale collar + monetization losses (~R$7bn impact). Moove IPO pulled in 2024. Leverage at holdco elevated; deleveraging plan announced."
+    }
+  ]
+}

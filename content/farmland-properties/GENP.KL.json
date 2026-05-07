@@ -1,0 +1,148 @@
+{
+  "ticker": "GENP.KL",
+  "asOf": "2024-12-31",
+  "currency": "MYR",
+  "propertiesNote": "6-row breakdown. Hybrid palm + property + R&D operator. Plantation: ~64K ha MY + ~143K ha Indonesia nucleus + ~36K ha Indonesia plasma. Property: Iskandar + Sentul Indonesia. Total landbank 243,200 ha including plasma per FY24 disclosure.",
+  "properties": [
+    {
+      "name": "Sabah Malaysia plantations + 6 mills",
+      "location": "Sabah, Malaysia",
+      "acres": 110000,
+      "cropOrUse": "Mature oil palm + 6 mills",
+      "category": "Malaysian palm \u2014 Sabah (GENP)",
+      "fmvPerAcre": 24000,
+      "fmvRationale": "GENP Sabah cluster with 6 mills",
+      "comparablesUsed": [
+        "MY-PALM-SABAH-2024"
+      ],
+      "bookValueMM": 1400,
+      "fmvPerAcreLow": 19200.0,
+      "fmvPerAcreHigh": 28800.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0
+    },
+    {
+      "name": "Peninsular Malaysia plantations + 1 mill",
+      "location": "Peninsular Malaysia",
+      "acres": 25000,
+      "cropOrUse": "Mature oil palm + 1 mill",
+      "category": "Malaysian palm \u2014 Peninsular (GENP)",
+      "fmvPerAcre": 28000,
+      "fmvRationale": "Peninsular Malaysia smaller cluster",
+      "comparablesUsed": [
+        "MY-PALM-PEN-2024"
+      ],
+      "bookValueMM": 350,
+      "fmvPerAcreLow": 22400.0,
+      "fmvPerAcreHigh": 33600.0,
+      "capRateLow": 7.0,
+      "capRateHigh": 9.5
+    },
+    {
+      "name": "Indonesia plantations (West, Central, South Kalimantan) \u2014 nucleus + 7 mills",
+      "location": "West + Central + South Kalimantan, Indonesia",
+      "acres": 354000,
+      "cropOrUse": "Mature + immature oil palm + 7 mills (nucleus only)",
+      "category": "Indonesian palm \u2014 Kalimantan (GENP nucleus)",
+      "fmvPerAcre": 22000,
+      "fmvPerAcreLow": 17600.0,
+      "fmvPerAcreHigh": 26400.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0,
+      "fmvRationale": "~143K ha Indonesia Kalimantan NUCLEUS (3 provinces). 7 mills support nucleus + plasma FFB. Reduced from prior 442K acres to exclude plasma estates owned by smallholder farmers (now in separate plasma row)",
+      "comparablesUsed": [
+        "ID-PALM-KALIMANTAN-2024",
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 2400
+    },
+    {
+      "name": "Indonesia plasma plantations (smallholder partnerships)",
+      "location": "West + Central + South Kalimantan, Indonesia",
+      "acres": 88000,
+      "cropOrUse": "Plasma estate partnerships (~36K ha NOT owned by GENP)",
+      "category": "Plasma plantations (partnership receivable)",
+      "fmvPerAcre": 2000,
+      "fmvPerAcreLow": 1500,
+      "fmvPerAcreHigh": 2500,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0,
+      "fmvRationale": "~36K ha Indonesia plasma estates owned by smallholder farmers under Indonesia's mandatory plasma program \u2014 managed by GENP under multi-year purchase + advisory agreements. NOT on balance sheet as land asset. Estimated as ~20% of Indonesia operations consistent with Kalimantan industry norms. Per-acre MYR 2,000 reflects financial receivable (advances less repayments) in MYR terms",
+      "comparablesUsed": [
+        "ID-PALM-KALIMANTAN-2024"
+      ],
+      "bookValueMM": 300
+    },
+    {
+      "name": "Iskandar Malaysia property development + Indonesian property",
+      "location": "Iskandar Malaysia + Sentul (Indonesia near Jakarta)",
+      "acres": 15000,
+      "cropOrUse": "Mixed-use property development",
+      "category": "Property development",
+      "fmvPerAcre": 60000,
+      "fmvRationale": "Iskandar Malaysia + 152 ha Sentul Indonesia property (RM593M = ~RM 14.7M/acre = $3.3M USD/ha at premium urban-fringe pricing). Aggregate at lower per-acre",
+      "comparablesUsed": [
+        "MY-PALM-PEN-2024"
+      ],
+      "bookValueMM": 700,
+      "fmvPerAcreLow": 48000.0,
+      "fmvPerAcreHigh": 72000.0,
+      "capRateLow": 4.5,
+      "capRateHigh": 6.5
+    },
+    {
+      "name": "Genomics R&D + biotech subsidiaries",
+      "location": "Various",
+      "acres": 1,
+      "cropOrUse": "R&D facilities (not land asset)",
+      "category": "Genomics R&D (not farmland)",
+      "fmvPerAcre": 100,
+      "fmvRationale": "Per-acre meaningless; placeholder for non-land R&D subsidiary",
+      "comparablesUsed": [],
+      "bookValueMM": 100,
+      "fmvPerAcreLow": 80.0,
+      "fmvPerAcreHigh": 120.0,
+      "capRateLow": 8.0,
+      "capRateHigh": 12.0
+    }
+  ],
+  "comparables": [
+    {
+      "id": "MY-PALM-SABAH-2024",
+      "description": "Malaysian Sabah palm plantation",
+      "location": "Sabah, Malaysia",
+      "pricePerAcre": 4800,
+      "date": "2024-09-15",
+      "source": "MPOB Sabah 2024"
+    },
+    {
+      "id": "MY-PALM-PEN-2024",
+      "description": "Peninsular Malaysia palm plantation",
+      "location": "Peninsular Malaysia",
+      "pricePerAcre": 6000,
+      "date": "2024-09-15",
+      "source": "MPOB land valuation reports 2024"
+    },
+    {
+      "id": "ID-PALM-KALIMANTAN-2024",
+      "description": "Kalimantan palm oil concession",
+      "location": "Kalimantan, Indonesia",
+      "pricePerAcre": 4400,
+      "date": "2024-09-30",
+      "source": "Kalimantan palm broker comps 2024"
+    },
+    {
+      "id": "ID-PALM-MATURE-2024",
+      "description": "Indonesian mature oil palm with mill access",
+      "location": "Indonesia",
+      "pricePerAcre": 5000,
+      "date": "2024-09-15",
+      "source": "GAPKI 2024 reports"
+    }
+  ],
+  "methodology": "Genting Plantations is a hybrid palm + property developer with 243,200 ha total landbank including plasma schemes. Plantation footprint: ~64K ha Malaysia (Sabah + Peninsular) + ~143K ha Indonesia nucleus (West/Central/South Kalimantan) + ~36K ha Indonesia plasma. 13 oil mills total: 1 W. Malaysia + 6 Sabah + 6 Indonesia.\n\nCRITICAL CHANGE vs prior version: Indonesia plasma estates (~36K ha = 88K acres) now correctly carved out via excludeFromAcreTotals=true. Plasma is owned by smallholder farmers under Indonesia's mandatory plasma program \u2014 GENP buys FFB but doesn't own the land. Consistent with how plasma is treated for AALI/SIMP/P8Z/SGRO/SSMS/RE.L.\n\n6-row breakdown:\n- Sabah Malaysia (110K acres + 6 mills): largest Malaysian cluster, freehold\n- Peninsular Malaysia (25K acres + 1 mill): smaller W. Malaysia, freehold\n- Indonesia Kalimantan nucleus (354K acres + 7 mills): GENP-owned Indonesia operations\n- Indonesia plasma (88K acres = 36K ha, EXCLUDED from owned acres): smallholder partnerships\n- Property development (15K acres): Iskandar Malaysia + 152 ha Sentul Indonesia (RM593M July 2024 acquisition for property development = premium urban-fringe pricing)\n- Genomics R&D placeholder (not land asset)\n\nProperty development segment is meaningful \u2014 GENP combines plantation + Iskandar Malaysia urban land + Indonesian urban property. Per-acre marks vary 100-200x across segments.",
+  "noiCheckCapRateLow": 6.0,
+  "noiCheckCapRateHigh": 9.0,
+  "noiCheckLabel": "Palm oil + property development hybrid"
+}
