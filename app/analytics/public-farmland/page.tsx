@@ -4,6 +4,7 @@ import {
 } from "@/lib/farmland-comps";
 import { FarmlandComps } from "@/components/FarmlandComps";
 import { FarmlandScatter } from "@/components/FarmlandScatter";
+import { FarmlandSectorIndex } from "@/components/FarmlandSectorIndex";
 
 function fxNote(rows: PricedFarmlandComp[]): string {
   const seen = new Map<string, number>();
@@ -52,6 +53,8 @@ export default async function PublicFarmlandPage() {
       </header>
 
       <FarmlandComps rows={comps} />
+
+      <FarmlandSectorIndex rows={comps} />
 
       <FarmlandScatter rows={comps} />
 
