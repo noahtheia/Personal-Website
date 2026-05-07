@@ -61,6 +61,7 @@ const GeographySchema = z.enum([
   "EU",
   "Norway",
   "Switzerland",
+  "Poland",
   "Ukraine",
   "Australia",
   "New Zealand",
@@ -91,11 +92,15 @@ const FilingSchema = z.object({
   // do not — e.g. MP Evans reports in USD but lists on LSE in GBp/GBP,
   // and Astarta reports in EUR but lists in Warsaw in PLN.
   priceCurrency: CurrencySchema.optional(),
-  // Sector + geography drive the categorization bands shown in the
-  // Agriculture Comps table. Both are required so each issuer slots
-  // cleanly into a {Geography — Sector} group with peers.
+  // Sector drives the section bands in the comps table. `geography`
+  // = exchange country (where the security lists). `operatingCountry`
+  // = where the company's primary assets/operations sit. Often the
+  // same, but for ag operators that list in London/Warsaw/NYSE while
+  // operating in Ukraine, Indonesia, or Argentina, they diverge — the
+  // table shows both as adjacent columns.
   sector: SectorSchema,
   geography: GeographySchema,
+  operatingCountry: GeographySchema.optional(),
   primaryCrops: z.string(),
   filingDate: z.string(),
   filingUrl: z.string().url().optional(),

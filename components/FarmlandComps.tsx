@@ -35,6 +35,7 @@ const GEOGRAPHY_ORDER: FarmlandGeography[] = [
   "EU",
   "Switzerland",
   "Norway",
+  "Poland",
   "Ukraine",
   "Australia",
   "New Zealand",
@@ -54,15 +55,13 @@ const GEOGRAPHY_ORDER: FarmlandGeography[] = [
   "Nigeria",
 ];
 
-function categoryKey(r: { sector: string; geography: string }): string {
-  return `${r.sector} — ${r.geography}`;
+function categoryKey(r: { sector: string }): string {
+  return r.sector;
 }
 
-function categoryRank(r: { sector: string; geography: string }): number {
+function categoryRank(r: { sector: string }): number {
   const s = SECTOR_ORDER.indexOf(r.sector as FarmlandSector);
-  const g = GEOGRAPHY_ORDER.indexOf(r.geography as FarmlandGeography);
-  // Unknown values sort to the end of their dimension.
-  return (s < 0 ? 99 : s) * 100 + (g < 0 ? 99 : g);
+  return s < 0 ? 999 : s;
 }
 
 type SortKey =
@@ -240,6 +239,18 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
                 </th>
               );
             })}
+            {[
+              { key: "exchange", label: "Exchange" },
+              { key: "operations", label: "Operations" },
+            ].map((c) => (
+              <th
+                key={c.key}
+                rowSpan={2}
+                className="bg-surface px-3 py-2 text-left align-bottom text-[11px] uppercase tracking-wider text-muted"
+              >
+                {c.label}
+              </th>
+            ))}
             {BAND_ORDER.map((b, idx) => {
               const span = COLUMNS.filter((c) => c.band === b).length;
               return (
@@ -307,12 +318,14 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
               label={group.key}
               rows={group.rows}
               stats={group.stats}
-              colCount={2 + COLUMNS.length}
+              colCount={4 + COLUMNS.length}
             />
           ))}
           <tr className="border-t-2 border-rule-strong bg-bg/60 font-semibold">
             <td className="sticky left-0 w-20 bg-bg/95 px-3 py-2 text-left">Mean</td>
             <td className="sticky left-20 bg-bg/95 px-3 py-2 text-left" />
+            <td className="bg-bg/95 px-3 py-2" />
+            <td className="bg-bg/95 px-3 py-2" />
             {COLUMNS.map((c, i) => (
               <td
                 key={c.key}
@@ -327,6 +340,8 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
           <tr className="bg-bg/40 font-semibold">
             <td className="sticky left-0 w-20 bg-bg/95 px-3 py-2 text-left">Median</td>
             <td className="sticky left-20 bg-bg/95 px-3 py-2 text-left" />
+            <td className="bg-bg/95 px-3 py-2" />
+            <td className="bg-bg/95 px-3 py-2" />
             {COLUMNS.map((c, i) => (
               <td
                 key={c.key}
@@ -386,6 +401,12 @@ function CategorySection({
               {r.name}
             </Link>
           </td>
+          <td className="bg-surface px-3 py-3 text-left text-[11px] text-fg-soft">
+            {r.geography}
+          </td>
+          <td className="bg-surface px-3 py-3 text-left text-[11px] text-fg-soft">
+            {r.operatingCountry ?? r.geography}
+          </td>
           {COLUMNS.map((c, i) => {
             const val = r[c.key] as number | null;
             return (
@@ -406,6 +427,8 @@ function CategorySection({
           Mean
         </td>
         <td className="sticky left-20 z-[1] bg-bg/95 px-3 py-1.5 text-left" />
+        <td className="bg-bg/95 px-3 py-1.5" />
+        <td className="bg-bg/95 px-3 py-1.5" />
         {COLUMNS.map((c, i) => (
           <td
             key={c.key}
@@ -422,6 +445,8 @@ function CategorySection({
           Median
         </td>
         <td className="sticky left-20 z-[1] bg-bg/95 px-3 py-1.5 text-left" />
+        <td className="bg-bg/95 px-3 py-1.5" />
+        <td className="bg-bg/95 px-3 py-1.5" />
         {COLUMNS.map((c, i) => (
           <td
             key={c.key}
