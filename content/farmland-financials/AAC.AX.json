@@ -1,0 +1,201 @@
+{
+  "ticker": "AAC.AX",
+  "currency": "AUD",
+  "sourceUrl": "https://aaco.com.au/investors-media/",
+  "notes": "Australian Agricultural Company (AACo) — ASX-listed integrated cattle producer. Fiscal year ends 31 March; H1 ends 30 September. Owns ~6.4M ha (~15.8M acres) of cattle stations across Northern Territory and Queensland, plus feedlots and Darwin abattoir (mothballed 2018). IFRS reporting with biological assets (cattle herd) carried at fair value, and pastoral land/property carried at fair value through directors' valuations supplemented by independent appraisals (LAWD). Statutory results highly volatile due to non-cash livestock and property revaluations; AACo discloses operating EBITDA pre-revaluation as primary KPI. Brand-led wagyu/branded beef strategy (Westholme, Darling Downs, 1824). Production reported in kg meat sold and head-of-cattle. Acreage held essentially constant ~17,000K acres FY20-FY25.",
+  "periods": [
+    {
+      "endDate": "2019-09-30",
+      "periodType": "H",
+      "revenueMM": 199.9,
+      "ebitdaMM": 9.8,
+      "netIncomeMM": -16.5,
+      "totalAcresK": 17000,
+      "notes": "H1 FY20 (1HFY20): statutory revenue $199.9M, operating EBITDA $9.8M (pre-revaluation), statutory loss $16.5M. Drought conditions weighed on margins."
+    },
+    {
+      "endDate": "2020-03-31",
+      "periodType": "FY",
+      "revenueMM": 263.5,
+      "revenueBySegmentMM": {
+        "Branded beef (Westholme/1824/Darling Downs)": 184.5,
+        "Live cattle / commodity": 79.0
+      },
+      "ebitdaMM": -5.6,
+      "netIncomeMM": -44.4,
+      "totalAssetsMM": 1639.5,
+      "totalDebtMM": 354.0,
+      "cashMM": 23.7,
+      "netDebtMM": 330.3,
+      "totalEquityMM": 1132.4,
+      "propertyFmvMM": 1480.6,
+      "propertyBookMM": 1480.6,
+      "sharesOutMM": 602.8,
+      "navPerShare": 1.88,
+      "fmvNavPerShare": 1.88,
+      "totalAcresK": 17000,
+      "notes": "FY20 (year ended 31 Mar 2020): statutory revenue $263.5M, operating EBITDA $(5.6)M, statutory loss $44.4M reflecting drought and livestock revaluation declines. Property assets $1,480.6M."
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "H",
+      "revenueMM": 137.0,
+      "ebitdaMM": 8.4,
+      "netIncomeMM": 6.7,
+      "totalAcresK": 17000,
+      "notes": "1HFY21: revenue $137.0M (-31% on lower live cattle volumes, COVID food-service disruption), operating EBITDA $8.4M, statutory NPAT $6.7M aided by livestock fair-value uplift as drought broke."
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "FY",
+      "revenueMM": 263.4,
+      "revenueBySegmentMM": {
+        "Branded beef": 187.7,
+        "Live cattle / commodity": 75.7
+      },
+      "ebitdaMM": 13.5,
+      "netIncomeMM": 134.7,
+      "totalAssetsMM": 1839.0,
+      "totalDebtMM": 366.0,
+      "cashMM": 14.8,
+      "netDebtMM": 351.2,
+      "totalEquityMM": 1287.7,
+      "propertyFmvMM": 1565.9,
+      "propertyBookMM": 1565.9,
+      "sharesOutMM": 602.8,
+      "navPerShare": 2.14,
+      "fmvNavPerShare": 2.14,
+      "totalAcresK": 17000,
+      "notes": "FY21: operating EBITDA $13.5M; statutory NPAT $134.7M boosted by $144.4M cattle/property fair-value uplift as Australian cattle prices reached record highs."
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "H",
+      "revenueMM": 138.1,
+      "ebitdaMM": 12.0,
+      "netIncomeMM": 117.1,
+      "totalAcresK": 17000,
+      "notes": "1HFY22: revenue $138.1M, operating EBITDA $12.0M, statutory NPAT $117.1M (significant herd FV uplift)."
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "FY",
+      "revenueMM": 318.4,
+      "revenueBySegmentMM": {
+        "Branded beef": 226.4,
+        "Live cattle / commodity": 92.0
+      },
+      "ebitdaMM": 31.0,
+      "netIncomeMM": 137.0,
+      "totalAssetsMM": 2055.6,
+      "totalDebtMM": 433.5,
+      "cashMM": 14.8,
+      "netDebtMM": 418.7,
+      "totalEquityMM": 1424.7,
+      "propertyFmvMM": 1685.0,
+      "propertyBookMM": 1685.0,
+      "sharesOutMM": 602.8,
+      "navPerShare": 2.36,
+      "fmvNavPerShare": 2.36,
+      "totalAcresK": 17000,
+      "notes": "FY22: revenue $318.4M (+21% YoY on branded beef growth and cattle prices), operating EBITDA $31.0M, statutory NPAT $137.0M. Property carried at $1,685M."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "H",
+      "revenueMM": 184.5,
+      "ebitdaMM": 21.4,
+      "netIncomeMM": 24.5,
+      "totalAcresK": 17000,
+      "notes": "1HFY23: revenue $184.5M (+34%), operating EBITDA $21.4M, statutory NPAT $24.5M."
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "FY",
+      "revenueMM": 364.2,
+      "revenueBySegmentMM": {
+        "Branded beef": 261.2,
+        "Live cattle / commodity": 103.0
+      },
+      "ebitdaMM": 60.2,
+      "netIncomeMM": -27.5,
+      "totalAssetsMM": 2065.6,
+      "totalDebtMM": 478.8,
+      "cashMM": 13.0,
+      "netDebtMM": 465.8,
+      "totalEquityMM": 1407.7,
+      "propertyFmvMM": 1685.0,
+      "propertyBookMM": 1685.0,
+      "sharesOutMM": 602.8,
+      "navPerShare": 2.34,
+      "fmvNavPerShare": 2.34,
+      "totalAcresK": 17000,
+      "notes": "FY23: revenue $364.2M (+14%), operating EBITDA $60.2M (record), statutory loss $(27.5)M after $59.8M unfavourable cattle FV movements (cattle price decline)."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "H",
+      "revenueMM": 200.0,
+      "ebitdaMM": 28.1,
+      "netIncomeMM": -49.0,
+      "totalAcresK": 17000,
+      "notes": "1HFY24: revenue $200.0M, operating EBITDA $28.1M, statutory loss $(49.0)M reflecting cattle price-driven livestock devaluation."
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "FY",
+      "revenueMM": 380.0,
+      "revenueBySegmentMM": {
+        "Branded beef": 265.0,
+        "Live cattle / commodity": 115.0
+      },
+      "ebitdaMM": 52.6,
+      "netIncomeMM": -34.6,
+      "totalAssetsMM": 2050.0,
+      "totalDebtMM": 481.7,
+      "cashMM": 11.8,
+      "netDebtMM": 469.9,
+      "totalEquityMM": 1380.0,
+      "propertyFmvMM": 1685.0,
+      "propertyBookMM": 1685.0,
+      "sharesOutMM": 602.8,
+      "navPerShare": 2.29,
+      "fmvNavPerShare": 2.29,
+      "totalAcresK": 17000,
+      "notes": "FY24: revenue $380M, operating EBITDA $52.6M, statutory loss $(34.6)M. Cattle FV losses continued through softer market."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "H",
+      "revenueMM": 198.0,
+      "ebitdaMM": 26.7,
+      "netIncomeMM": 12.4,
+      "totalAcresK": 17000,
+      "notes": "1HFY25: revenue $198.0M, operating EBITDA $26.7M, statutory NPAT $12.4M as cattle prices stabilised."
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "FY",
+      "revenueMM": 387.9,
+      "revenueBySegmentMM": {
+        "Branded beef": 275.0,
+        "Live cattle / commodity": 112.9
+      },
+      "ebitdaMM": 56.3,
+      "noiMM": 58.4,
+      "netIncomeMM": -10.0,
+      "totalAssetsMM": 2050.0,
+      "totalDebtMM": 497.2,
+      "cashMM": 12.2,
+      "netDebtMM": 485.0,
+      "totalEquityMM": 1535.0,
+      "propertyFmvMM": 1685.0,
+      "propertyBookMM": 1685.0,
+      "sharesOutMM": 602.8,
+      "navPerShare": 2.55,
+      "fmvNavPerShare": 2.55,
+      "totalAcresK": 17000,
+      "notes": "FY25 (year ended 31 Mar 2025; reported 21 May 2025): revenue $387.9M, operating EBITDA $56.3M, NAV/share $2.55. Independent LAWD valuation indicated property FMV ~$1,588M; balance sheet carries pastoral land at directors' valuation $1,685M."
+    }
+  ]
+}

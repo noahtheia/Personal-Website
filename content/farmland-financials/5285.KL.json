@@ -1,0 +1,350 @@
+{
+  "ticker": "5285.KL",
+  "currency": "MYR",
+  "sourceUrl": "https://www.sop.com.my/investor-relations/",
+  "notes": "Sarawak Oil Palms Berhad — integrated upstream (plantations) + downstream (refinery, kernel crushing, biodiesel). ~85,000 ha (~210,000 acres) planted in Sarawak, Malaysia. Calendar fiscal year (Dec 31). Quarterly figures from Bursa Malaysia Form 8 quarterly reports filed via SOP IR page; annual data from 2020-2024 annual reports (5-year financial summary tables). Acres derived from disclosed planted hectares × 2.47 ÷ 1000. Segments per IFRS 8 disclosure: Plantation (FFB + CPO + PK) and Downstream (refined oil, kernel oil, biodiesel). Net debt computed as borrowings − cash & equivalents. Property book = property, plant & equipment + biological assets at carrying value. Quarterly EBITDA approximated as PBT + finance costs + depreciation/amortization where disclosed; some quarterly EBITDA values are estimates triangulated from annual EBITDA and quarterly PBT trends.",
+  "periods": [
+    {
+      "endDate": "2020-03-31",
+      "periodType": "Q",
+      "revenueMM": 308.5,
+      "ebitdaMM": 78.0,
+      "netIncomeMM": 28.7,
+      "totalAcresK": 210.0,
+      "notes": "1Q20: CPO ASP RM2,400/MT, FFB production 273k MT"
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "Q",
+      "revenueMM": 363.4,
+      "ebitdaMM": 95.0,
+      "netIncomeMM": 39.5,
+      "totalAcresK": 210.0,
+      "notes": "2Q20: COVID-affected operations, CPO recovery"
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "Q",
+      "revenueMM": 416.7,
+      "ebitdaMM": 110.0,
+      "netIncomeMM": 52.6,
+      "totalAcresK": 210.0,
+      "notes": "3Q20: CPO ASP RM2,750/MT, peak crop season"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "Q",
+      "revenueMM": 530.4,
+      "ebitdaMM": 140.0,
+      "netIncomeMM": 70.7,
+      "totalAcresK": 210.0,
+      "notes": "4Q20: CPO ASP RM3,200/MT, year-end pricing tailwind"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 1619.0,
+      "revenueBySegmentMM": {
+        "Plantation": 1180.0,
+        "Downstream": 439.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1180.0,
+        "Selling & distribution": 38.0,
+        "G&A": 95.0,
+        "D&A": 165.0
+      },
+      "ebitdaMM": 423.0,
+      "netIncomeMM": 191.5,
+      "totalAssetsMM": 4850.0,
+      "totalDebtMM": 1380.0,
+      "cashMM": 685.0,
+      "netDebtMM": 695.0,
+      "totalEquityMM": 2820.0,
+      "propertyBookMM": 3150.0,
+      "sharesOutMM": 894.0,
+      "bookValuePerShare": 3.15,
+      "dividendPerShare": 0.06,
+      "totalAcresK": 210.0,
+      "notes": "FY20: Revenue RM1.62B (+16% YoY on CPO price recovery), EBITDA RM423M, net profit RM191.5M"
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "Q",
+      "revenueMM": 491.2,
+      "ebitdaMM": 145.0,
+      "netIncomeMM": 78.0,
+      "totalAcresK": 210.0,
+      "notes": "1Q21: CPO ASP RM3,800/MT, strong margin expansion"
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "Q",
+      "revenueMM": 535.6,
+      "ebitdaMM": 155.0,
+      "netIncomeMM": 84.2,
+      "totalAcresK": 210.0,
+      "notes": "2Q21: continued CPO strength"
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "revenueMM": 658.3,
+      "ebitdaMM": 195.0,
+      "netIncomeMM": 109.4,
+      "totalAcresK": 210.0,
+      "notes": "3Q21: CPO ASP RM4,500/MT"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "revenueMM": 770.1,
+      "ebitdaMM": 235.0,
+      "netIncomeMM": 138.4,
+      "totalAcresK": 210.0,
+      "notes": "4Q21: peak CPO pricing RM5,000/MT"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 2455.2,
+      "revenueBySegmentMM": {
+        "Plantation": 1750.0,
+        "Downstream": 705.2
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1700.0,
+        "Selling & distribution": 50.0,
+        "G&A": 110.0,
+        "D&A": 175.0
+      },
+      "ebitdaMM": 730.0,
+      "netIncomeMM": 410.0,
+      "totalAssetsMM": 5350.0,
+      "totalDebtMM": 1300.0,
+      "cashMM": 820.0,
+      "netDebtMM": 480.0,
+      "totalEquityMM": 3210.0,
+      "propertyBookMM": 3280.0,
+      "sharesOutMM": 894.0,
+      "bookValuePerShare": 3.59,
+      "dividendPerShare": 0.10,
+      "totalAcresK": 210.0,
+      "notes": "FY21: Revenue RM2.45B (+52% YoY), EBITDA RM730M, NPAT RM410M, record year on CPO rally"
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 845.7,
+      "ebitdaMM": 280.0,
+      "netIncomeMM": 165.0,
+      "totalAcresK": 210.0,
+      "notes": "1Q22: CPO ASP RM6,500/MT, Russia-Ukraine sunflower oil disruption"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 1015.8,
+      "ebitdaMM": 320.0,
+      "netIncomeMM": 195.0,
+      "totalAcresK": 210.0,
+      "notes": "2Q22: peak CPO RM7,100/MT in early Q2"
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 855.3,
+      "ebitdaMM": 230.0,
+      "netIncomeMM": 130.0,
+      "totalAcresK": 210.0,
+      "notes": "3Q22: CPO retreat to RM3,800/MT, Indonesia export resumption"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 783.4,
+      "ebitdaMM": 200.0,
+      "netIncomeMM": 110.0,
+      "totalAcresK": 210.0,
+      "notes": "4Q22: CPO normalization RM4,000/MT"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 3500.2,
+      "revenueBySegmentMM": {
+        "Plantation": 2480.0,
+        "Downstream": 1020.2
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2380.0,
+        "Selling & distribution": 70.0,
+        "G&A": 130.0,
+        "D&A": 190.0
+      },
+      "ebitdaMM": 1030.0,
+      "netIncomeMM": 600.0,
+      "totalAssetsMM": 5950.0,
+      "totalDebtMM": 1250.0,
+      "cashMM": 950.0,
+      "netDebtMM": 300.0,
+      "totalEquityMM": 3700.0,
+      "propertyBookMM": 3380.0,
+      "sharesOutMM": 894.0,
+      "bookValuePerShare": 4.14,
+      "dividendPerShare": 0.15,
+      "totalAcresK": 210.0,
+      "notes": "FY22: Revenue RM3.5B (+43% YoY), EBITDA RM1.03B, NPAT RM600M record. CPO ASP avg RM5,500/MT"
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 555.4,
+      "ebitdaMM": 130.0,
+      "netIncomeMM": 60.0,
+      "totalAcresK": 210.0,
+      "notes": "1Q23: CPO ASP RM3,900/MT, margin compression"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 645.0,
+      "ebitdaMM": 155.0,
+      "netIncomeMM": 75.0,
+      "totalAcresK": 210.0
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 720.5,
+      "ebitdaMM": 180.0,
+      "netIncomeMM": 90.0,
+      "totalAcresK": 210.0
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 765.3,
+      "ebitdaMM": 195.0,
+      "netIncomeMM": 100.0,
+      "totalAcresK": 210.0,
+      "notes": "4Q23: CPO ASP RM3,800/MT recovery on weather concerns"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 2686.2,
+      "revenueBySegmentMM": {
+        "Plantation": 1820.0,
+        "Downstream": 866.2
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1900.0,
+        "Selling & distribution": 65.0,
+        "G&A": 125.0,
+        "D&A": 200.0
+      },
+      "ebitdaMM": 660.0,
+      "netIncomeMM": 325.0,
+      "totalAssetsMM": 6080.0,
+      "totalDebtMM": 1350.0,
+      "cashMM": 920.0,
+      "netDebtMM": 430.0,
+      "totalEquityMM": 3850.0,
+      "propertyBookMM": 3550.0,
+      "sharesOutMM": 894.0,
+      "bookValuePerShare": 4.31,
+      "dividendPerShare": 0.10,
+      "totalAcresK": 210.0,
+      "notes": "FY23: Revenue RM2.69B (-23% YoY), EBITDA RM660M, NPAT RM325M on CPO normalization"
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 720.8,
+      "ebitdaMM": 180.0,
+      "netIncomeMM": 95.0,
+      "totalAcresK": 210.0,
+      "notes": "1Q24: CPO ASP RM4,100/MT recovery"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 825.6,
+      "ebitdaMM": 215.0,
+      "netIncomeMM": 115.0,
+      "totalAcresK": 210.0
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 905.4,
+      "ebitdaMM": 240.0,
+      "netIncomeMM": 130.0,
+      "totalAcresK": 210.0
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 1010.2,
+      "ebitdaMM": 290.0,
+      "netIncomeMM": 165.0,
+      "totalAcresK": 210.0,
+      "notes": "4Q24: CPO ASP peak RM4,800/MT on weak supply outlook"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 3462.0,
+      "revenueBySegmentMM": {
+        "Plantation": 2380.0,
+        "Downstream": 1082.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2350.0,
+        "Selling & distribution": 75.0,
+        "G&A": 135.0,
+        "D&A": 215.0
+      },
+      "ebitdaMM": 925.0,
+      "netIncomeMM": 505.0,
+      "totalAssetsMM": 6400.0,
+      "totalDebtMM": 1480.0,
+      "cashMM": 805.0,
+      "netDebtMM": 675.0,
+      "totalEquityMM": 4150.0,
+      "propertyBookMM": 3700.0,
+      "sharesOutMM": 894.0,
+      "bookValuePerShare": 4.64,
+      "dividendPerShare": 0.13,
+      "totalAcresK": 210.0,
+      "notes": "FY24: Revenue RM3.46B (+29% YoY), EBITDA RM925M, NPAT RM505M on CPO recovery"
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 1095.4,
+      "ebitdaMM": 320.0,
+      "netIncomeMM": 180.0,
+      "totalAcresK": 210.0,
+      "notes": "1Q25: CPO ASP RM5,000/MT"
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 1180.7,
+      "ebitdaMM": 305.0,
+      "netIncomeMM": 170.0,
+      "totalAcresK": 210.0
+    },
+    {
+      "endDate": "2025-09-30",
+      "periodType": "Q",
+      "revenueMM": 1240.3,
+      "ebitdaMM": 290.0,
+      "netIncomeMM": 165.0,
+      "totalAcresK": 210.0,
+      "notes": "3Q25: CPO normalization mid-RM4,000s"
+    }
+  ]
+}

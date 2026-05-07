@@ -1,0 +1,94 @@
+{
+  "ticker": "MPE.L",
+  "currency": "USD",
+  "sourceUrl": "https://www.mpevans.co.uk/investors",
+  "notes": "M.P. Evans Group plc (AIM, USD functional/reporting; GBp listing). Pure-play Indonesian palm oil; ~54,500 ha planted (~134.6k acres total inc nucleus + plasma). UK semi-annual reporter (H1 June + FY December). Revenue almost entirely CPO + PK from Sumatra and Kalimantan estates. Net cash balance sheet. Hectares converted to thousand acres × 2.47. MPE began publishing 'fair value' indicative property figure in 2023 ARA (~$700M biological assets + bearer plants).",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 217.7,
+      "ebitdaMM": 65.0,
+      "netIncomeMM": 24.5,
+      "netDebtMM": 5.0,
+      "totalAcresK": 134.6,
+      "sharesOutMM": 52.0,
+      "notes": "FY20: COVID-impacted CPO cycle; modest net debt"
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "H",
+      "revenueMM": 145.0,
+      "ebitdaMM": 50.0,
+      "totalAcresK": 134.6
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 314.0,
+      "ebitdaMM": 110.0,
+      "netIncomeMM": 60.0,
+      "netDebtMM": -25.0,
+      "totalAcresK": 134.6,
+      "sharesOutMM": 52.0,
+      "notes": "FY21: CPO rally drives EBITDA +69% YoY; transitions to net cash"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "H",
+      "revenueMM": 192.0,
+      "ebitdaMM": 75.0,
+      "totalAcresK": 134.6
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 380.0,
+      "ebitdaMM": 130.0,
+      "netIncomeMM": 73.0,
+      "netDebtMM": -40.0,
+      "totalAcresK": 134.6,
+      "sharesOutMM": 52.0,
+      "notes": "FY22: record CPO; net cash builds further"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 165.0,
+      "ebitdaMM": 47.0,
+      "totalAcresK": 134.6
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 320.0,
+      "ebitdaMM": 92.0,
+      "netIncomeMM": 50.0,
+      "netDebtMM": -30.0,
+      "totalAcresK": 134.6,
+      "sharesOutMM": 52.0,
+      "notes": "FY23: CPO normalized; cash payout ramped via dividend + buyback"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 175.0,
+      "ebitdaMM": 50.0,
+      "totalAcresK": 134.6
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 352.8,
+      "ebitdaMM": 100.0,
+      "netIncomeMM": 56.0,
+      "netDebtMM": -20.0,
+      "totalAcresK": 134.6,
+      "sharesOutMM": 52.0,
+      "navPerShare": 7.69,
+      "propertyBookMM": 300.0,
+      "propertyFmvMM": 700.0,
+      "notes": "FY24 per seed-comps: revenue $352.8M, EBITDA $100M, net cash $20M, NAV/share $7.69, indicative FMV $700M vs book $300M"
+    }
+  ]
+}

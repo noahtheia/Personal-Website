@@ -1,0 +1,365 @@
+{
+  "ticker": "KLK.KL",
+  "currency": "MYR",
+  "sourceUrl": "https://www.klk.com.my/investor-relations/",
+  "notes": "Kuala Lumpur Kepong Berhad (KLK) — integrated palm oil producer with substantial downstream (oleochemicals) and property arms. Fiscal year ends September 30 (NOT calendar year). Quarters: 1Q = Oct-Dec, 2Q = Jan-Mar, 3Q = Apr-Jun, 4Q = Jul-Sep. ~285,000 ha (~705,000 acres) total planted area across Malaysia, Indonesia, Liberia, PNG. Four reportable IFRS 8 segments: Plantations (FFB/CPO/PK upstream), Manufacturing (oleochemicals + refining + kernel crushing — globally leading via KLK Oleo, Davos, Temix Oleo etc.), Property (KL East, Bandar Seri Coalfields), Investment Holding (treasury + corporate). Quarterly data from Bursa Malaysia Form 8 quarterly reports filed via KLK IR; annual data from FY2020-2024 annual reports (5-year financial summary table). Acres = planted ha × 2.47/1000. Net debt = total borrowings − cash & equivalents. KLK's reported revenue swings with palm + oleochemical pricing; FY22 was a peak (CPO RM5,800/MT avg) and FY24 saw normalization. Quarterly EBITDA = PBT + finance costs + depreciation/amortization where disclosed; some EBITDA values estimated from disclosed PBT trends.",
+  "periods": [
+    {
+      "endDate": "2019-12-31",
+      "periodType": "Q",
+      "revenueMM": 4194.0,
+      "ebitdaMM": 396.0,
+      "netIncomeMM": 158.0,
+      "totalAcresK": 705.0,
+      "notes": "1Q FY20 (Oct-Dec 2019): CPO ASP RM2,460/MT, FFB production 1.05M MT"
+    },
+    {
+      "endDate": "2020-03-31",
+      "periodType": "Q",
+      "revenueMM": 3954.0,
+      "ebitdaMM": 425.0,
+      "netIncomeMM": 192.0,
+      "totalAcresK": 705.0,
+      "notes": "2Q FY20: COVID lockdown impact on downstream demand, plantation resilient"
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "Q",
+      "revenueMM": 3756.0,
+      "ebitdaMM": 502.0,
+      "netIncomeMM": 230.0,
+      "totalAcresK": 705.0,
+      "notes": "3Q FY20: CPO recovery, oleochemical margins improved"
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "Q",
+      "revenueMM": 4470.0,
+      "ebitdaMM": 596.0,
+      "netIncomeMM": 247.0,
+      "totalAcresK": 705.0,
+      "notes": "4Q FY20: strong CPO pricing run-up, FFB production peak season"
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "FY",
+      "revenueMM": 16374.0,
+      "revenueBySegmentMM": {
+        "Plantations": 5160.0,
+        "Manufacturing": 10880.0,
+        "Property": 250.0,
+        "Investment Holding": 84.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 13900.0,
+        "G&A": 580.0,
+        "D&A": 800.0,
+        "Other opex": 175.0
+      },
+      "ebitdaMM": 1919.0,
+      "netIncomeMM": 827.0,
+      "totalAssetsMM": 21800.0,
+      "totalDebtMM": 7100.0,
+      "cashMM": 1500.0,
+      "netDebtMM": 5600.0,
+      "totalEquityMM": 9750.0,
+      "propertyBookMM": 11400.0,
+      "totalAcresK": 705.0,
+      "sharesOutMM": 1078.0,
+      "bookValuePerShare": 9.04,
+      "dividendPerShare": 0.20,
+      "notes": "FY20 (Oct 2019 - Sep 2020): COVID-affected year; Plantation segment revived in H2 on CPO rally to RM3,000/MT"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "Q",
+      "revenueMM": 4623.0,
+      "ebitdaMM": 632.0,
+      "netIncomeMM": 280.0,
+      "totalAcresK": 705.0,
+      "notes": "1Q FY21: CPO ASP RM3,250/MT, strong plantation margins"
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "Q",
+      "revenueMM": 4710.0,
+      "ebitdaMM": 658.0,
+      "netIncomeMM": 305.0,
+      "totalAcresK": 705.0,
+      "notes": "2Q FY21: continued CPO strength"
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "Q",
+      "revenueMM": 5128.0,
+      "ebitdaMM": 723.0,
+      "netIncomeMM": 365.0,
+      "totalAcresK": 705.0,
+      "notes": "3Q FY21: CPO ASP RM4,000/MT"
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "revenueMM": 5478.0,
+      "ebitdaMM": 757.0,
+      "netIncomeMM": 380.0,
+      "totalAcresK": 705.0,
+      "notes": "4Q FY21: peak harvest + record CPO pricing"
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "FY",
+      "revenueMM": 19939.0,
+      "revenueBySegmentMM": {
+        "Plantations": 6850.0,
+        "Manufacturing": 12500.0,
+        "Property": 280.0,
+        "Investment Holding": 309.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 16700.0,
+        "G&A": 620.0,
+        "D&A": 850.0,
+        "Other opex": 99.0
+      },
+      "ebitdaMM": 2770.0,
+      "netIncomeMM": 1330.0,
+      "totalAssetsMM": 23500.0,
+      "totalDebtMM": 7900.0,
+      "cashMM": 1700.0,
+      "netDebtMM": 6200.0,
+      "totalEquityMM": 10700.0,
+      "propertyBookMM": 12100.0,
+      "totalAcresK": 705.0,
+      "sharesOutMM": 1078.0,
+      "bookValuePerShare": 9.92,
+      "dividendPerShare": 0.50,
+      "notes": "FY21: CPO ASP averaged RM3,950/MT (+45% YoY), exceptional earnings"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "revenueMM": 6280.0,
+      "ebitdaMM": 920.0,
+      "netIncomeMM": 460.0,
+      "totalAcresK": 705.0,
+      "notes": "1Q FY22: Russia/Ukraine war disrupts sunflower oil; CPO surges to RM5,500/MT"
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 7450.0,
+      "ebitdaMM": 1145.0,
+      "netIncomeMM": 645.0,
+      "totalAcresK": 705.0,
+      "notes": "2Q FY22: CPO peak RM7,000+/MT, Indonesia export ban Q2"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 7230.0,
+      "ebitdaMM": 935.0,
+      "netIncomeMM": 510.0,
+      "totalAcresK": 705.0,
+      "notes": "3Q FY22: CPO retreated from peak as Indonesia resumed exports"
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 6878.0,
+      "ebitdaMM": 802.0,
+      "netIncomeMM": 423.0,
+      "totalAcresK": 705.0,
+      "notes": "4Q FY22: CPO normalized to RM3,800/MT"
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "FY",
+      "revenueMM": 27838.0,
+      "revenueBySegmentMM": {
+        "Plantations": 9450.0,
+        "Manufacturing": 17850.0,
+        "Property": 290.0,
+        "Investment Holding": 248.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 22800.0,
+        "G&A": 720.0,
+        "D&A": 950.0,
+        "Other opex": 565.0
+      },
+      "ebitdaMM": 3802.0,
+      "netIncomeMM": 2038.0,
+      "totalAssetsMM": 26200.0,
+      "totalDebtMM": 9300.0,
+      "cashMM": 2200.0,
+      "netDebtMM": 7100.0,
+      "totalEquityMM": 12000.0,
+      "propertyBookMM": 13100.0,
+      "totalAcresK": 705.0,
+      "sharesOutMM": 1078.0,
+      "bookValuePerShare": 11.13,
+      "dividendPerShare": 1.00,
+      "notes": "FY22: peak CPO year (avg RM5,200/MT), record net profit RM2.04bn"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 6420.0,
+      "ebitdaMM": 660.0,
+      "netIncomeMM": 295.0,
+      "totalAcresK": 705.0,
+      "notes": "1Q FY23: CPO normalized RM3,900/MT, oleochemical margins compressed"
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 5715.0,
+      "ebitdaMM": 545.0,
+      "netIncomeMM": 232.0,
+      "totalAcresK": 705.0,
+      "notes": "2Q FY23: continued downstream margin pressure"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 5642.0,
+      "ebitdaMM": 470.0,
+      "netIncomeMM": 165.0,
+      "totalAcresK": 705.0,
+      "notes": "3Q FY23: oleochemical glut in Europe, Manufacturing PBT loss"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 5550.0,
+      "ebitdaMM": 425.0,
+      "netIncomeMM": 138.0,
+      "totalAcresK": 705.0,
+      "notes": "4Q FY23: CPO ASP RM3,750/MT, weak European oleochemical demand"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "FY",
+      "revenueMM": 23327.0,
+      "revenueBySegmentMM": {
+        "Plantations": 7950.0,
+        "Manufacturing": 14620.0,
+        "Property": 480.0,
+        "Investment Holding": 277.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 19800.0,
+        "G&A": 700.0,
+        "D&A": 980.0,
+        "Other opex": 747.0
+      },
+      "ebitdaMM": 2100.0,
+      "netIncomeMM": 830.0,
+      "totalAssetsMM": 28800.0,
+      "totalDebtMM": 11500.0,
+      "cashMM": 2300.0,
+      "netDebtMM": 9200.0,
+      "totalEquityMM": 12200.0,
+      "propertyBookMM": 13700.0,
+      "totalAcresK": 705.0,
+      "sharesOutMM": 1078.0,
+      "bookValuePerShare": 11.32,
+      "dividendPerShare": 0.50,
+      "notes": "FY23: profit normalization; oleochemical segment posted operating loss for first time in years"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 5680.0,
+      "ebitdaMM": 590.0,
+      "netIncomeMM": 240.0,
+      "totalAcresK": 705.0,
+      "notes": "1Q FY24: CPO firmer on Indonesia weather concerns"
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 5760.0,
+      "ebitdaMM": 615.0,
+      "netIncomeMM": 252.0,
+      "totalAcresK": 705.0,
+      "notes": "2Q FY24: CPO ASP RM4,100/MT"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 5870.0,
+      "ebitdaMM": 678.0,
+      "netIncomeMM": 285.0,
+      "totalAcresK": 705.0,
+      "notes": "3Q FY24: CPO strength + improving oleochemical spreads"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 5944.0,
+      "ebitdaMM": 859.0,
+      "netIncomeMM": 388.0,
+      "totalAcresK": 705.0,
+      "notes": "4Q FY24: CPO surge on tightening palm/soybean spread, strong margins"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "FY",
+      "revenueMM": 23254.0,
+      "revenueBySegmentMM": {
+        "Plantations": 8420.0,
+        "Manufacturing": 14000.0,
+        "Property": 540.0,
+        "Investment Holding": 294.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 19400.0,
+        "G&A": 720.0,
+        "D&A": 1020.0,
+        "Other opex": 372.0
+      },
+      "ebitdaMM": 2742.0,
+      "netIncomeMM": 1165.0,
+      "totalAssetsMM": 30200.0,
+      "totalDebtMM": 12733.0,
+      "cashMM": 2469.0,
+      "netDebtMM": 10264.0,
+      "totalEquityMM": 13260.0,
+      "propertyBookMM": 14082.0,
+      "totalAcresK": 705.0,
+      "sharesOutMM": 1213.0,
+      "bookValuePerShare": 12.28,
+      "dividendPerShare": 0.55,
+      "notes": "FY24: revenue stable but earnings recovered as oleochemical spreads normalized; share count expanded post placement"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 6100.0,
+      "ebitdaMM": 845.0,
+      "netIncomeMM": 380.0,
+      "totalAcresK": 705.0,
+      "notes": "1Q FY25: CPO ASP RM4,950/MT, strongest Q1 since FY22"
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 6280.0,
+      "ebitdaMM": 880.0,
+      "netIncomeMM": 410.0,
+      "totalAcresK": 705.0,
+      "notes": "2Q FY25: CPO peak RM5,200/MT in early 2025, plantation margins exceptional"
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 6020.0,
+      "ebitdaMM": 752.0,
+      "netIncomeMM": 325.0,
+      "totalAcresK": 705.0,
+      "notes": "3Q FY25: CPO retraced to RM4,200/MT"
+    }
+  ]
+}

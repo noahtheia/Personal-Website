@@ -1,0 +1,84 @@
+{
+  "ticker": "ALAGR.PA",
+  "currency": "EUR",
+  "sourceUrl": "https://www.agrogeneration.com/en/",
+  "notes": "AgroGeneration S.A. (Euronext Growth Paris, ticker ALAGR). Identified via seed-comps and Boursorama lookup — NOT Agripower or Vilmorin. AgroGeneration operates ~28,500 ha (~70.4k acres) of Ukrainian farmland under long-term lease, growing wheat, sunflower, corn, and soy in Kharkiv region. French semi-annual reporter (H1 June + FY December). War-impacted since 2022 with Kharkiv operations near front lines; multiple write-downs. Tiny float (~100M shares); equity recapitalized 2023. Per-share NAV €0.111 per seed-comps. Coverage limited — only headline P&L disclosed in interim communiqués.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 35.0,
+      "ebitdaMM": 8.0,
+      "netIncomeMM": 1.5,
+      "totalAcresK": 70.4,
+      "notes": "FY20: pre-war stable operations"
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "H",
+      "revenueMM": 18.0,
+      "totalAcresK": 70.4
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 38.0,
+      "ebitdaMM": 9.5,
+      "netIncomeMM": 2.0,
+      "totalAcresK": 70.4,
+      "notes": "FY21: commodity rally"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "H",
+      "revenueMM": 15.0,
+      "totalAcresK": 70.4,
+      "notes": "H1 22: war disruption begins; Kharkiv-based operations directly impacted"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 28.0,
+      "ebitdaMM": 4.0,
+      "netIncomeMM": -8.0,
+      "totalAcresK": 70.4,
+      "notes": "FY22: war write-downs; equipment losses in Kharkiv region"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 12.0,
+      "totalAcresK": 70.4
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 24.0,
+      "ebitdaMM": 5.5,
+      "netIncomeMM": -2.0,
+      "totalAcresK": 70.4,
+      "notes": "FY23: partial recovery; equity recapitalisation completed"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 11.0,
+      "totalAcresK": 70.4
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 22.6,
+      "ebitdaMM": 5.7,
+      "netIncomeMM": -1.0,
+      "netDebtMM": 9.19,
+      "totalDebtMM": 9.2,
+      "cashMM": 0.01,
+      "totalAcresK": 70.4,
+      "sharesOutMM": 100.0,
+      "navPerShare": 0.111,
+      "propertyBookMM": 3.0,
+      "notes": "FY24 per seed-comps: revenue €22.6M, EBITDA €5.7M, net debt €9.19M, NAV/share €0.111. Filing 2025-06-30. Property book minimal (€3M) reflects Ukrainian farmland is leased not owned."
+    }
+  ]
+}

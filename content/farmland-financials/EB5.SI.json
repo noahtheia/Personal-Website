@@ -1,0 +1,203 @@
+{
+  "ticker": "EB5.SI",
+  "currency": "USD",
+  "sourceUrl": "https://www.first-resources.com/investor-relations.html",
+  "notes": "First Resources (EB5.SI) — pure-play Indonesia palm oil upstream + processing (refinery, biodiesel). Reports in USD. Semi-annual reporting (1H + FY) since cessation of quarterly reporting in line with SGX rules. Total planted area ~217,000 ha nucleus (~536K acres) plus ~58,000 ha plasma; total area shown reflects nucleus + plasma. Capital structure: low gearing, has been net cash recently. Segments not separately reported beyond plantation + processing — revenue figures aggregate. Acreage relatively flat 2019-2024 as new plantings have plateaued.",
+  "periods": [
+    {
+      "endDate": "2019-06-30",
+      "periodType": "H",
+      "revenueMM": 281.7,
+      "revenueBySegmentMM": {
+        "Plantation": 175,
+        "Palm processing & refinery": 107
+      },
+      "ebitdaMM": 100.3,
+      "netIncomeMM": 32.6,
+      "totalAcresK": 432,
+      "notes": "1H19: weak CPO USD 510/t avg"
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 627.0,
+      "revenueBySegmentMM": {
+        "Plantation": 392,
+        "Palm processing & refinery": 235
+      },
+      "ebitdaMM": 252.0,
+      "netIncomeMM": 92.7,
+      "totalDebtMM": 540,
+      "cashMM": 230,
+      "netDebtMM": 310,
+      "totalAcresK": 432,
+      "sharesOutMM": 1581,
+      "dividendPerShare": 0.0146,
+      "bookValuePerShare": 0.65,
+      "notes": "FY19: Revenue USD 627M, EBITDA USD 252M"
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "H",
+      "revenueMM": 286.0,
+      "revenueBySegmentMM": {
+        "Plantation": 180,
+        "Palm processing & refinery": 106
+      },
+      "ebitdaMM": 110.0,
+      "netIncomeMM": 32.0,
+      "totalAcresK": 432,
+      "notes": "1H20: COVID-impacted downstream"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 670.5,
+      "revenueBySegmentMM": {
+        "Plantation": 415,
+        "Palm processing & refinery": 256
+      },
+      "ebitdaMM": 305.0,
+      "netIncomeMM": 124.0,
+      "totalDebtMM": 480,
+      "cashMM": 280,
+      "netDebtMM": 200,
+      "totalAcresK": 432,
+      "sharesOutMM": 1581,
+      "dividendPerShare": 0.0264,
+      "bookValuePerShare": 0.71,
+      "notes": "FY20: CPO avg USD 700/t; EBITDA USD 305M"
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "H",
+      "revenueMM": 411.0,
+      "revenueBySegmentMM": {
+        "Plantation": 250,
+        "Palm processing & refinery": 161
+      },
+      "ebitdaMM": 207.0,
+      "netIncomeMM": 96.0,
+      "totalAcresK": 432,
+      "notes": "1H21: CPO rally USD 1050/t"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 938.3,
+      "revenueBySegmentMM": {
+        "Plantation": 580,
+        "Palm processing & refinery": 358
+      },
+      "ebitdaMM": 444.0,
+      "netIncomeMM": 215.4,
+      "totalDebtMM": 380,
+      "cashMM": 270,
+      "netDebtMM": 110,
+      "totalAcresK": 432,
+      "sharesOutMM": 1581,
+      "dividendPerShare": 0.0411,
+      "bookValuePerShare": 0.78,
+      "notes": "FY21: Record CPO, EBITDA USD 444M (+46% YoY)"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "H",
+      "revenueMM": 642.0,
+      "revenueBySegmentMM": {
+        "Plantation": 410,
+        "Palm processing & refinery": 232
+      },
+      "ebitdaMM": 350.0,
+      "netIncomeMM": 178.0,
+      "totalAcresK": 432,
+      "notes": "1H22: Indonesia export ban + Russia-Ukraine vegoil shock"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 1219.7,
+      "revenueBySegmentMM": {
+        "Plantation": 760,
+        "Palm processing & refinery": 460
+      },
+      "ebitdaMM": 595.0,
+      "netIncomeMM": 286.0,
+      "totalDebtMM": 230,
+      "cashMM": 320,
+      "netDebtMM": -90,
+      "totalAcresK": 432,
+      "sharesOutMM": 1581,
+      "dividendPerShare": 0.0594,
+      "bookValuePerShare": 0.88,
+      "propertyBookMM": 1500,
+      "notes": "FY22: Revenue USD 1.22B (record); EBITDA USD 595M; turned net cash"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 525.0,
+      "revenueBySegmentMM": {
+        "Plantation": 320,
+        "Palm processing & refinery": 205
+      },
+      "ebitdaMM": 240.0,
+      "netIncomeMM": 105.0,
+      "totalAcresK": 432,
+      "notes": "1H23: Normalized CPO ~USD 950/t"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 1029.9,
+      "revenueBySegmentMM": {
+        "Plantation": 640,
+        "Palm processing & refinery": 390
+      },
+      "ebitdaMM": 460.0,
+      "netIncomeMM": 187.4,
+      "totalDebtMM": 100,
+      "cashMM": 230,
+      "netDebtMM": -130,
+      "totalAcresK": 432,
+      "sharesOutMM": 1554,
+      "dividendPerShare": 0.029,
+      "bookValuePerShare": 0.93,
+      "propertyBookMM": 1500,
+      "notes": "FY23: EBITDA USD 460M (-23% YoY); net cash position"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 530.0,
+      "revenueBySegmentMM": {
+        "Plantation": 330,
+        "Palm processing & refinery": 200
+      },
+      "ebitdaMM": 215.0,
+      "netIncomeMM": 95.0,
+      "totalAcresK": 432,
+      "notes": "1H24: Slightly weaker downstream margins"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 1039.0,
+      "revenueBySegmentMM": {
+        "Plantation": 645,
+        "Palm processing & refinery": 394
+      },
+      "ebitdaMM": 420.3,
+      "netIncomeMM": 165.0,
+      "totalDebtMM": 50,
+      "cashMM": 200,
+      "netDebtMM": -150,
+      "totalAcresK": 432,
+      "sharesOutMM": 1554,
+      "dividendPerShare": 0.0247,
+      "bookValuePerShare": 0.97,
+      "propertyBookMM": 1500,
+      "notes": "FY24: EBITDA USD 420M; net cash USD 150M"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ticker": "AEP.L",
+  "currency": "USD",
+  "sourceUrl": "https://www.angloeastern.co.uk/investor-relations",
+  "notes": "Anglo-Eastern Plantations (AIM/Main Market UK, USD reporting). Operates ~120,000 ha (296.5k acres) of oil palm in Sumatra and Sabah/Bintulu. UK semi-annual reporter (H1 interim June + FY December). Revenue is CPO + palm kernel sales; segment split by Indonesia / Malaysia operations from annual report segment notes. AEP carries minimal debt; large net cash position from accumulated CPO cash flows. Hectares converted to thousand acres via × 2.47. Per-share dividend declared in pence-sterling at AGM (board uses GBp); reported here as USD per disclosure year. Coverage 2020-2024 from published annual reports; 2025 H1 from interim release.",
+  "periods": [
+    {
+      "endDate": "2020-06-30",
+      "periodType": "H",
+      "revenueMM": 110.5,
+      "ebitdaMM": 22.3,
+      "totalAcresK": 296.5,
+      "notes": "H1 2020: revenue $110.5M, EBITDA recovering on CPO price rebound off COVID lows"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 233.4,
+      "ebitdaMM": 53.2,
+      "netIncomeMM": 21.5,
+      "netDebtMM": -97.0,
+      "totalAcresK": 296.5,
+      "sharesOutMM": 39.39,
+      "revenueBySegmentMM": {
+        "Indonesia": 195.0,
+        "Malaysia": 38.4
+      },
+      "notes": "FY20: CPO avg ~$640/t. Net cash position reflects deleveraging; no segmental EBITDA disclosed to subdivide here."
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "H",
+      "revenueMM": 154.0,
+      "ebitdaMM": 45.0,
+      "totalAcresK": 296.5,
+      "notes": "H1 2021: CPO surge to ~$1,000/t lifts revenue ~+39% YoY"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 369.0,
+      "ebitdaMM": 121.0,
+      "netIncomeMM": 65.0,
+      "netDebtMM": -141.0,
+      "totalAcresK": 296.5,
+      "sharesOutMM": 39.39,
+      "revenueBySegmentMM": {
+        "Indonesia": 312.0,
+        "Malaysia": 57.0
+      },
+      "notes": "FY21: record CPO pricing, revenue +58% YoY, EBITDA margin ~33%"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "H",
+      "revenueMM": 215.0,
+      "ebitdaMM": 70.0,
+      "totalAcresK": 296.5,
+      "notes": "H1 2022: peak CPO pricing post Russia/Indonesia export curbs"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 419.0,
+      "ebitdaMM": 137.0,
+      "netIncomeMM": 79.0,
+      "netDebtMM": -180.0,
+      "totalAcresK": 296.5,
+      "sharesOutMM": 39.39,
+      "revenueBySegmentMM": {
+        "Indonesia": 357.0,
+        "Malaysia": 62.0
+      },
+      "notes": "FY22: record year. Cash >$180M; no material gross debt"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 173.0,
+      "ebitdaMM": 41.0,
+      "totalAcresK": 296.5,
+      "notes": "H1 2023: CPO normalized; revenue -20% YoY"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 350.0,
+      "ebitdaMM": 90.0,
+      "netIncomeMM": 50.0,
+      "netDebtMM": -178.0,
+      "totalAcresK": 296.5,
+      "sharesOutMM": 39.39,
+      "revenueBySegmentMM": {
+        "Indonesia": 298.0,
+        "Malaysia": 52.0
+      },
+      "notes": "FY23: revenue softens with CPO normalization"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 180.0,
+      "ebitdaMM": 46.0,
+      "totalAcresK": 296.5,
+      "notes": "H1 2024: modest YoY recovery"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 372.26,
+      "ebitdaMM": 99.42,
+      "netIncomeMM": 56.0,
+      "netDebtMM": -181.15,
+      "totalAcresK": 296.5,
+      "sharesOutMM": 39.39,
+      "navPerShare": 14.18,
+      "propertyBookMM": 271.17,
+      "revenueBySegmentMM": {
+        "Indonesia": 316.0,
+        "Malaysia": 56.0
+      },
+      "notes": "FY24: latest from seed. Revenue $372M, EBITDA $99M, net cash $181M, NAV/share $14.18, biological asset/property book $271M"
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "H",
+      "revenueMM": 195.0,
+      "ebitdaMM": 52.0,
+      "totalAcresK": 296.5,
+      "notes": "H1 2025: estimated from interim trading update; subject to verification"
+    }
+  ]
+}

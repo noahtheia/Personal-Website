@@ -1,0 +1,96 @@
+{
+  "ticker": "RE.L",
+  "currency": "USD",
+  "sourceUrl": "https://www.rea.co.uk/investor-information/annual-reports/",
+  "notes": "R.E.A. Holdings plc (Main Market UK, USD reporting). Indonesian palm oil operator (East Kalimantan), ~26,300 ha planted (~65k acres). UK semi-annual reporter (H1 June + FY December). Carries materially more debt than peers (preference shares, $ notes, IDR loans); net debt $169M FY24 vs net cash at AEP/MPE. Stone/coal interest divested 2023. Revenue almost all CPO/PK + small CPKO. Hectares converted via × 2.47.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 134.0,
+      "ebitdaMM": 38.0,
+      "netIncomeMM": -8.0,
+      "netDebtMM": 175.0,
+      "totalAcresK": 65.0,
+      "sharesOutMM": 43.83,
+      "notes": "FY20: CPO recovering off COVID; ongoing capex cycle"
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "H",
+      "revenueMM": 95.0,
+      "ebitdaMM": 32.0,
+      "totalAcresK": 65.0
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 195.0,
+      "ebitdaMM": 75.0,
+      "netIncomeMM": 18.0,
+      "netDebtMM": 168.0,
+      "totalAcresK": 65.0,
+      "sharesOutMM": 43.83,
+      "notes": "FY21: CPO rally helps deleverage cash flow"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "H",
+      "revenueMM": 120.0,
+      "ebitdaMM": 50.0,
+      "totalAcresK": 65.0
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 235.0,
+      "ebitdaMM": 95.0,
+      "netIncomeMM": 28.0,
+      "netDebtMM": 155.0,
+      "totalAcresK": 65.0,
+      "sharesOutMM": 43.83,
+      "notes": "FY22: record CPO supports debt reduction"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 95.0,
+      "ebitdaMM": 28.0,
+      "totalAcresK": 65.0
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 180.0,
+      "ebitdaMM": 56.0,
+      "netIncomeMM": 5.0,
+      "netDebtMM": 172.0,
+      "totalAcresK": 65.0,
+      "sharesOutMM": 43.83,
+      "notes": "FY23: stone/coal divestment; CPO normalized"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 92.0,
+      "ebitdaMM": 27.0,
+      "totalAcresK": 65.0
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 187.94,
+      "ebitdaMM": 58.78,
+      "netIncomeMM": 8.0,
+      "netDebtMM": 168.63,
+      "totalDebtMM": 201.64,
+      "cashMM": 33.01,
+      "totalAcresK": 65.0,
+      "sharesOutMM": 43.83,
+      "navPerShare": 6.73,
+      "propertyBookMM": 387.0,
+      "propertyFmvMM": 335.0,
+      "notes": "FY24 per seed-comps: revenue $187.94M, EBITDA $58.78M, net debt $168.63M, NAV/share $6.73. Property book $387M; indicative FMV $335M (book > FMV reflects historic Indonesian planting cost). Filed 2025-04-28."
+    }
+  ]
+}

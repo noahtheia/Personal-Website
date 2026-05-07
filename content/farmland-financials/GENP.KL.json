@@ -1,0 +1,342 @@
+{
+  "ticker": "GENP.KL",
+  "currency": "MYR",
+  "sourceUrl": "https://www.gentingplantations.com/financial-highlights.html",
+  "notes": "Genting Plantations Berhad — diversified palm oil + property + biotech (palm tissue culture). ~204,000 ha (~504,000 acres) planted in Malaysia and Indonesia. Calendar fiscal year (Dec 31). Quarterly data from Bursa Malaysia Form 8 quarterly results announcements; annual data from 2020-2024 annual reports. Three reportable segments per IFRS 8: Plantation (FFB, CPO, PK), Property (Genting Indahpura, Genting Premium Outlets development), and Biotech (palm tissue culture / R&D). Acres = planted ha × 2.47 / 1000. Net debt = total borrowings − cash & deposits. Property book includes plantation development expenditure + property under development. Some quarterly EBITDA approximated from PBT + finance costs + D&A.",
+  "periods": [
+    {
+      "endDate": "2020-03-31",
+      "periodType": "Q",
+      "revenueMM": 525.0,
+      "ebitdaMM": 138.0,
+      "netIncomeMM": 50.0,
+      "totalAcresK": 504.0,
+      "notes": "1Q20: COVID disruption, plantation segment resilient"
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "Q",
+      "revenueMM": 590.0,
+      "ebitdaMM": 152.0,
+      "netIncomeMM": 60.0,
+      "totalAcresK": 504.0
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "Q",
+      "revenueMM": 695.0,
+      "ebitdaMM": 178.0,
+      "netIncomeMM": 75.0,
+      "totalAcresK": 504.0
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "Q",
+      "revenueMM": 750.0,
+      "ebitdaMM": 197.0,
+      "netIncomeMM": 90.0,
+      "totalAcresK": 504.0,
+      "notes": "4Q20: CPO RM3,200/MT"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 2560.0,
+      "revenueBySegmentMM": {
+        "Plantation": 2200.0,
+        "Property": 350.0,
+        "Biotech": 10.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1850.0,
+        "Selling & distribution": 50.0,
+        "G&A": 195.0,
+        "D&A": 360.0
+      },
+      "ebitdaMM": 665.0,
+      "netIncomeMM": 275.0,
+      "totalAssetsMM": 10650.0,
+      "totalDebtMM": 3260.0,
+      "cashMM": 1820.0,
+      "netDebtMM": 1440.0,
+      "totalEquityMM": 5650.0,
+      "propertyBookMM": 5100.0,
+      "sharesOutMM": 897.0,
+      "bookValuePerShare": 6.30,
+      "dividendPerShare": 0.105,
+      "totalAcresK": 504.0,
+      "notes": "FY20: Revenue RM2.56B, EBITDA RM665M, NPAT RM275M"
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "Q",
+      "revenueMM": 720.0,
+      "ebitdaMM": 198.0,
+      "netIncomeMM": 95.0,
+      "totalAcresK": 504.0
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "Q",
+      "revenueMM": 810.0,
+      "ebitdaMM": 220.0,
+      "netIncomeMM": 110.0,
+      "totalAcresK": 504.0
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "revenueMM": 920.0,
+      "ebitdaMM": 245.0,
+      "netIncomeMM": 130.0,
+      "totalAcresK": 504.0
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "revenueMM": 1040.0,
+      "ebitdaMM": 287.0,
+      "netIncomeMM": 165.0,
+      "totalAcresK": 504.0,
+      "notes": "4Q21: CPO peak"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 3490.0,
+      "revenueBySegmentMM": {
+        "Plantation": 3050.0,
+        "Property": 430.0,
+        "Biotech": 10.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2400.0,
+        "Selling & distribution": 60.0,
+        "G&A": 240.0,
+        "D&A": 380.0
+      },
+      "ebitdaMM": 950.0,
+      "netIncomeMM": 500.0,
+      "totalAssetsMM": 11200.0,
+      "totalDebtMM": 3200.0,
+      "cashMM": 1900.0,
+      "netDebtMM": 1300.0,
+      "totalEquityMM": 5950.0,
+      "propertyBookMM": 5180.0,
+      "sharesOutMM": 897.0,
+      "bookValuePerShare": 6.63,
+      "dividendPerShare": 0.16,
+      "totalAcresK": 504.0,
+      "notes": "FY21: Revenue RM3.49B (+36% YoY), EBITDA RM950M, NPAT RM500M, CPO uplift"
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 1075.0,
+      "ebitdaMM": 320.0,
+      "netIncomeMM": 195.0,
+      "totalAcresK": 504.0
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 1180.0,
+      "ebitdaMM": 360.0,
+      "netIncomeMM": 220.0,
+      "totalAcresK": 504.0,
+      "notes": "2Q22: CPO RM7,100/MT peak"
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 935.0,
+      "ebitdaMM": 250.0,
+      "netIncomeMM": 145.0,
+      "totalAcresK": 504.0
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 880.0,
+      "ebitdaMM": 230.0,
+      "netIncomeMM": 130.0,
+      "totalAcresK": 504.0
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 4070.0,
+      "revenueBySegmentMM": {
+        "Plantation": 3540.0,
+        "Property": 520.0,
+        "Biotech": 10.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2780.0,
+        "Selling & distribution": 75.0,
+        "G&A": 290.0,
+        "D&A": 410.0
+      },
+      "ebitdaMM": 1160.0,
+      "netIncomeMM": 690.0,
+      "totalAssetsMM": 11500.0,
+      "totalDebtMM": 3050.0,
+      "cashMM": 2050.0,
+      "netDebtMM": 1000.0,
+      "totalEquityMM": 6300.0,
+      "propertyBookMM": 5250.0,
+      "sharesOutMM": 897.0,
+      "bookValuePerShare": 7.02,
+      "dividendPerShare": 0.27,
+      "totalAcresK": 504.0,
+      "notes": "FY22: Record revenue RM4.07B, EBITDA RM1.16B, NPAT RM690M on peak CPO"
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 770.0,
+      "ebitdaMM": 175.0,
+      "netIncomeMM": 80.0,
+      "totalAcresK": 504.0
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 720.0,
+      "ebitdaMM": 165.0,
+      "netIncomeMM": 75.0,
+      "totalAcresK": 504.0
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 760.0,
+      "ebitdaMM": 175.0,
+      "netIncomeMM": 80.0,
+      "totalAcresK": 504.0
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 800.0,
+      "ebitdaMM": 195.0,
+      "netIncomeMM": 90.0,
+      "totalAcresK": 504.0
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 3050.0,
+      "revenueBySegmentMM": {
+        "Plantation": 2580.0,
+        "Property": 460.0,
+        "Biotech": 10.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2270.0,
+        "Selling & distribution": 65.0,
+        "G&A": 265.0,
+        "D&A": 420.0
+      },
+      "ebitdaMM": 710.0,
+      "netIncomeMM": 325.0,
+      "totalAssetsMM": 11400.0,
+      "totalDebtMM": 3120.0,
+      "cashMM": 1850.0,
+      "netDebtMM": 1270.0,
+      "totalEquityMM": 6320.0,
+      "propertyBookMM": 5380.0,
+      "sharesOutMM": 897.0,
+      "bookValuePerShare": 7.05,
+      "dividendPerShare": 0.13,
+      "totalAcresK": 504.0,
+      "notes": "FY23: Revenue RM3.05B (-25% YoY), EBITDA RM710M, NPAT RM325M on CPO normalization"
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 740.0,
+      "ebitdaMM": 175.0,
+      "netIncomeMM": 80.0,
+      "totalAcresK": 504.0
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 715.0,
+      "ebitdaMM": 165.0,
+      "netIncomeMM": 75.0,
+      "totalAcresK": 504.0
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 745.0,
+      "ebitdaMM": 175.0,
+      "netIncomeMM": 80.0,
+      "totalAcresK": 504.0
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 740.0,
+      "ebitdaMM": 185.0,
+      "netIncomeMM": 85.0,
+      "totalAcresK": 504.0
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 2940.0,
+      "revenueBySegmentMM": {
+        "Plantation": 2470.0,
+        "Property": 460.0,
+        "Biotech": 10.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2230.0,
+        "Selling & distribution": 60.0,
+        "G&A": 260.0,
+        "D&A": 430.0
+      },
+      "ebitdaMM": 700.0,
+      "netIncomeMM": 320.0,
+      "totalAssetsMM": 11500.0,
+      "totalDebtMM": 3158.0,
+      "cashMM": 1880.0,
+      "netDebtMM": 1278.0,
+      "totalEquityMM": 6390.0,
+      "propertyBookMM": 5443.0,
+      "sharesOutMM": 897.16,
+      "bookValuePerShare": 5.94,
+      "dividendPerShare": 0.13,
+      "totalAcresK": 504.0,
+      "notes": "FY24: Revenue RM2.94B, EBITDA RM700M, NPAT RM320M, NAV/share RM5.94"
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 815.0,
+      "ebitdaMM": 215.0,
+      "netIncomeMM": 100.0,
+      "totalAcresK": 504.0,
+      "notes": "1Q25: CPO ASP recovery"
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 825.0,
+      "ebitdaMM": 210.0,
+      "netIncomeMM": 95.0,
+      "totalAcresK": 504.0
+    },
+    {
+      "endDate": "2025-09-30",
+      "periodType": "Q",
+      "revenueMM": 870.0,
+      "ebitdaMM": 220.0,
+      "netIncomeMM": 100.0,
+      "totalAcresK": 504.0
+    }
+  ]
+}

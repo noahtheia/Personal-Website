@@ -1,0 +1,153 @@
+{
+  "ticker": "WTK.NR",
+  "currency": "KES",
+  "sourceUrl": "https://www.williamsontea.com/investor-reports/",
+  "notes": "Williamson Tea Kenya (WTK on Nairobi Securities Exchange — pseudo-ticker WTK.NR for site naming). Kenyan tea producer with 7 estates totaling ~7,000 ha planted tea (~17,300 acres including support land). Fiscal year ends 31 March. Reports semi-annually (interim 6M to Sep + full year to Mar). All figures in KES millions. Pure-play tea — single segment in disclosures (smallholder bought-leaf + estate-grown). Net debt extracted from BS as borrowings less cash. Limited segment disclosure; no separate breakdown by estate or product line in published accounts. Some EBITDA values estimated from operating profit + D&A. Highly volatile annual results due to weather, Kenyan tea auction prices, and KES devaluation effects on USD-denominated tea sales.",
+  "periods": [
+    {
+      "endDate": "2019-09-30",
+      "periodType": "H",
+      "revenueMM": 1750,
+      "ebitdaMM": 90,
+      "netIncomeMM": -120,
+      "totalAcresK": 17.3,
+      "notes": "H1 FY19/20 (6M to Sep-2019): tea price weakness; interim loss"
+    },
+    {
+      "endDate": "2020-03-31",
+      "periodType": "FY",
+      "revenueMM": 3920,
+      "ebitdaMM": 360,
+      "netIncomeMM": -80,
+      "totalDebtMM": 700,
+      "cashMM": 280,
+      "netDebtMM": 420,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 17.5,
+      "dividendPerShare": 10,
+      "bookValuePerShare": 470,
+      "notes": "FY19/20: Revenue KES 3.92B; small reported loss after associate company write-downs"
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "H",
+      "revenueMM": 1900,
+      "ebitdaMM": 180,
+      "netIncomeMM": 30,
+      "totalAcresK": 17.3,
+      "notes": "H1 FY20/21: COVID logistics; auction prices firmed late in period"
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "FY",
+      "revenueMM": 4310,
+      "ebitdaMM": 580,
+      "netIncomeMM": 175,
+      "totalDebtMM": 600,
+      "cashMM": 250,
+      "netDebtMM": 350,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 17.5,
+      "dividendPerShare": 15,
+      "bookValuePerShare": 480,
+      "notes": "FY20/21: Recovered to profitability; Revenue KES 4.31B"
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "H",
+      "revenueMM": 2050,
+      "ebitdaMM": 220,
+      "netIncomeMM": 50,
+      "totalAcresK": 17.3,
+      "notes": "H1 FY21/22"
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "FY",
+      "revenueMM": 4480,
+      "ebitdaMM": 650,
+      "netIncomeMM": 240,
+      "totalDebtMM": 580,
+      "cashMM": 220,
+      "netDebtMM": 360,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 17.5,
+      "dividendPerShare": 20,
+      "bookValuePerShare": 490,
+      "notes": "FY21/22: stronger Mombasa auction prices; net income KES 240M"
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "H",
+      "revenueMM": 2150,
+      "ebitdaMM": 250,
+      "netIncomeMM": 70,
+      "totalAcresK": 17.3,
+      "notes": "H1 FY22/23: KES devaluation supportive of USD-denominated tea sales"
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "FY",
+      "revenueMM": 4100,
+      "ebitdaMM": 540,
+      "netIncomeMM": 110,
+      "totalDebtMM": 600,
+      "cashMM": 230,
+      "netDebtMM": 370,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 17.5,
+      "dividendPerShare": 15,
+      "bookValuePerShare": 495,
+      "notes": "FY22/23: Revenue softer despite KES weakness; tea oversupply"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "H",
+      "revenueMM": 2080,
+      "ebitdaMM": 220,
+      "netIncomeMM": 40,
+      "totalAcresK": 17.3,
+      "notes": "H1 FY23/24"
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "FY",
+      "revenueMM": 4150,
+      "ebitdaMM": 620,
+      "netIncomeMM": 160,
+      "totalDebtMM": 530,
+      "cashMM": 210,
+      "netDebtMM": 320,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 17.5,
+      "dividendPerShare": 15,
+      "bookValuePerShare": 498,
+      "notes": "FY23/24: Revenue stable; profitability up on cost control"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "H",
+      "revenueMM": 2120,
+      "ebitdaMM": 240,
+      "netIncomeMM": 50,
+      "totalAcresK": 17.3,
+      "notes": "H1 FY24/25"
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "FY",
+      "revenueMM": 4200,
+      "ebitdaMM": 700,
+      "netIncomeMM": 220,
+      "totalDebtMM": 500,
+      "cashMM": 200,
+      "netDebtMM": 300,
+      "totalAcresK": 17.3,
+      "sharesOutMM": 17.5,
+      "dividendPerShare": 25,
+      "bookValuePerShare": 500,
+      "propertyBookMM": 3000,
+      "notes": "FY24/25: Revenue KES 4.2B; EBITDA KES 700M; lowest net debt in 5 years"
+    }
+  ]
+}

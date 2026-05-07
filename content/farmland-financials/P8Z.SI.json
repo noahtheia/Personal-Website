@@ -1,0 +1,203 @@
+{
+  "ticker": "P8Z.SI",
+  "currency": "IDR",
+  "sourceUrl": "https://bumitama-agri.com/investors/corporate-reports/",
+  "notes": "Bumitama Agri (P8Z.SI) — Indonesian palm oil upstream pure-play, controlled by IOI Corp + founding family. Reports in IDR (filing currency), millions. Semi-annual reporting (1H + FY) consistent with SGX practice. Total nucleus planted area ~187,000 ha plus plasma ~37,000 ha; total ~224K ha = ~553K acres; minor variations year on year. Pure plantation + CPO milling — no segment breakdown beyond CPO/PK in disclosures, so revenueBySegmentMM split into CPO and Palm Kernel. Acreage flat — no new plantings. Net debt = total borrowings less cash & ST deposits.",
+  "periods": [
+    {
+      "endDate": "2019-06-30",
+      "periodType": "H",
+      "revenueMM": 3823000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 3380000,
+        "Palm Kernel": 443000
+      },
+      "ebitdaMM": 920000,
+      "netIncomeMM": 220000,
+      "totalAcresK": 553,
+      "notes": "1H19: Weak CPO; EBITDA IDR 920B"
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 8751000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 7740000,
+        "Palm Kernel": 1011000
+      },
+      "ebitdaMM": 2185000,
+      "netIncomeMM": 695000,
+      "totalDebtMM": 5400000,
+      "cashMM": 1100000,
+      "netDebtMM": 4300000,
+      "totalAcresK": 553,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 233,
+      "bookValuePerShare": 5050,
+      "notes": "FY19: EBITDA IDR 2.19T"
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "H",
+      "revenueMM": 4400000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 3890000,
+        "Palm Kernel": 510000
+      },
+      "ebitdaMM": 1290000,
+      "netIncomeMM": 360000,
+      "totalAcresK": 553,
+      "notes": "1H20: CPO recovery"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 9281000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 8200000,
+        "Palm Kernel": 1081000
+      },
+      "ebitdaMM": 2820000,
+      "netIncomeMM": 940000,
+      "totalDebtMM": 4900000,
+      "cashMM": 1300000,
+      "netDebtMM": 3600000,
+      "totalAcresK": 553,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 308,
+      "bookValuePerShare": 5500,
+      "notes": "FY20: CPO USD 700/t avg; EBITDA IDR 2.82T (+29% YoY)"
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "H",
+      "revenueMM": 6020000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 5320000,
+        "Palm Kernel": 700000
+      },
+      "ebitdaMM": 2050000,
+      "netIncomeMM": 800000,
+      "totalAcresK": 553,
+      "notes": "1H21: CPO rally"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 13657000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 12080000,
+        "Palm Kernel": 1577000
+      },
+      "ebitdaMM": 4200000,
+      "netIncomeMM": 1605000,
+      "totalDebtMM": 4500000,
+      "cashMM": 1700000,
+      "netDebtMM": 2800000,
+      "totalAcresK": 553,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 580,
+      "bookValuePerShare": 6500,
+      "notes": "FY21: Revenue IDR 13.66T (+47% YoY); EBITDA IDR 4.2T"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "H",
+      "revenueMM": 8500000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 7510000,
+        "Palm Kernel": 990000
+      },
+      "ebitdaMM": 2900000,
+      "netIncomeMM": 1240000,
+      "totalAcresK": 553,
+      "notes": "1H22: Record CPO prices"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 17141000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 15165000,
+        "Palm Kernel": 1976000
+      },
+      "ebitdaMM": 5350000,
+      "netIncomeMM": 2245000,
+      "totalDebtMM": 4100000,
+      "cashMM": 2200000,
+      "netDebtMM": 1900000,
+      "totalAcresK": 553,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 720,
+      "bookValuePerShare": 7800,
+      "propertyBookMM": 13500000,
+      "notes": "FY22: Record. Revenue IDR 17.14T; EBITDA IDR 5.35T"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 7300000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 6450000,
+        "Palm Kernel": 850000
+      },
+      "ebitdaMM": 2050000,
+      "netIncomeMM": 880000,
+      "totalAcresK": 553,
+      "notes": "1H23: Normalized prices"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 15410000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 13620000,
+        "Palm Kernel": 1790000
+      },
+      "ebitdaMM": 4100000,
+      "netIncomeMM": 1640000,
+      "totalDebtMM": 3700000,
+      "cashMM": 2400000,
+      "netDebtMM": 1300000,
+      "totalAcresK": 553,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 540,
+      "bookValuePerShare": 8300,
+      "propertyBookMM": 14000000,
+      "notes": "FY23: EBITDA IDR 4.1T; net debt down to IDR 1.3T"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 7820000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 6900000,
+        "Palm Kernel": 920000
+      },
+      "ebitdaMM": 2230000,
+      "netIncomeMM": 970000,
+      "totalAcresK": 553,
+      "notes": "1H24: Solid CPO at USD 980/t avg"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 16732000,
+      "revenueBySegmentMM": {
+        "Crude Palm Oil": 14790000,
+        "Palm Kernel": 1942000
+      },
+      "ebitdaMM": 4563000,
+      "netIncomeMM": 1820000,
+      "totalDebtMM": 3450000,
+      "cashMM": 2500000,
+      "netDebtMM": 950000,
+      "totalAcresK": 553,
+      "sharesOutMM": 1734,
+      "dividendPerShare": 600,
+      "bookValuePerShare": 8661,
+      "propertyBookMM": 14270000,
+      "notes": "FY24: EBITDA IDR 4.56T; net debt IDR 0.95T (lowest in 5+ years)"
+    }
+  ]
+}

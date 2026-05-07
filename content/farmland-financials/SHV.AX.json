@@ -1,0 +1,195 @@
+{
+  "ticker": "SHV.AX",
+  "currency": "AUD",
+  "sourceUrl": "https://www.selectharvests.com.au/investor-centre/",
+  "notes": "Select Harvests Limited (SHV) — ASX-listed almond grower / processor. Fiscal year ends 30 September; H1 ends 31 March. Owns and manages ~9,000 ha (~22.4K acres) of almond orchards (Robinvale Vic, Riverland SA, Wemen Vic) plus processing/marketing operation (insertion brand: Lucky, Sunsol, Renshaw etc., progressively divested in favour of bulk almond focus). Bearing trees / orchards are carried on book-cost basis (depreciated cost) under AASB116 — NOT fair value. Crop volume and pricing drive earnings; biological asset (almonds on tree) carried at FV at year-end. Highly cyclical: FY20-FY22 weak almond prices, FY23-FY25 recovery on tighter California crop. Reports almond crop in tonnes and average pool price A$/kg.",
+  "periods": [
+    {
+      "endDate": "2020-03-31",
+      "periodType": "H",
+      "revenueMM": 105.0,
+      "ebitdaMM": 19.0,
+      "netIncomeMM": 1.5,
+      "totalAcresK": 22.4,
+      "notes": "1HFY20: revenue $105M, EBITDA $19M. Lower YoY almond pricing partly offset by higher volumes."
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "FY",
+      "revenueMM": 196.5,
+      "revenueBySegmentMM": {
+        "Almonds": 175.0,
+        "Industrial / consumer / other": 21.5
+      },
+      "ebitdaMM": 41.6,
+      "netIncomeMM": 16.7,
+      "totalAssetsMM": 728.0,
+      "totalDebtMM": 84.0,
+      "cashMM": 8.0,
+      "netDebtMM": 76.0,
+      "totalEquityMM": 432.0,
+      "propertyBookMM": 460.0,
+      "sharesOutMM": 96.6,
+      "navPerShare": 4.47,
+      "totalAcresK": 22.4,
+      "dividendPerShare": 0.13,
+      "notes": "FY20 (year ended 30 Sep 2020): revenue $196.5M, EBITDA $41.6M, NPAT $16.7M. Almond crop 18,420 t at avg pool $7.55/kg."
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "H",
+      "revenueMM": 80.5,
+      "ebitdaMM": 9.4,
+      "netIncomeMM": -2.6,
+      "totalAcresK": 22.4,
+      "notes": "1HFY21: revenue $80.5M (-23%), EBITDA $9.4M, statutory loss $(2.6)M on weaker almond prices."
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "FY",
+      "revenueMM": 162.4,
+      "revenueBySegmentMM": {
+        "Almonds": 145.0,
+        "Industrial / consumer / other": 17.4
+      },
+      "ebitdaMM": 22.5,
+      "netIncomeMM": -3.6,
+      "totalAssetsMM": 690.0,
+      "totalDebtMM": 95.0,
+      "cashMM": 4.0,
+      "netDebtMM": 91.0,
+      "totalEquityMM": 410.0,
+      "propertyBookMM": 470.0,
+      "sharesOutMM": 119.5,
+      "navPerShare": 3.43,
+      "totalAcresK": 22.4,
+      "dividendPerShare": 0.05,
+      "notes": "FY21: revenue $162.4M, EBITDA $22.5M, statutory loss $(3.6)M. Crop ~15,250 t; avg pool $6.50/kg. Capital raising diluted to 119.5M shares."
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "H",
+      "revenueMM": 76.0,
+      "ebitdaMM": 6.0,
+      "netIncomeMM": -7.0,
+      "totalAcresK": 22.4,
+      "notes": "1HFY22: revenue $76M, EBITDA $6M, loss $(7)M. Continued weak almond pricing and freight cost pressures."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "FY",
+      "revenueMM": 143.0,
+      "revenueBySegmentMM": {
+        "Almonds": 130.0,
+        "Industrial / consumer / other": 13.0
+      },
+      "ebitdaMM": 0.7,
+      "netIncomeMM": -22.5,
+      "totalAssetsMM": 810.0,
+      "totalDebtMM": 220.0,
+      "cashMM": 4.0,
+      "netDebtMM": 216.0,
+      "totalEquityMM": 405.0,
+      "propertyBookMM": 540.0,
+      "sharesOutMM": 119.5,
+      "navPerShare": 3.39,
+      "totalAcresK": 22.4,
+      "dividendPerShare": 0.0,
+      "notes": "FY22: revenue $143.0M, EBITDA $0.7M, statutory loss $(22.5)M. Crop ~22,000 t but average pool only $5.50/kg amid global oversupply. No final dividend."
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "H",
+      "revenueMM": 106.0,
+      "ebitdaMM": -3.0,
+      "netIncomeMM": -19.7,
+      "totalAcresK": 22.4,
+      "notes": "1HFY23: revenue $106M, EBITDA $(3)M, statutory loss $(19.7)M. Trough pricing environment."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "FY",
+      "revenueMM": 194.5,
+      "revenueBySegmentMM": {
+        "Almonds": 180.0,
+        "Industrial / consumer / other": 14.5
+      },
+      "ebitdaMM": 11.6,
+      "netIncomeMM": -16.5,
+      "totalAssetsMM": 855.0,
+      "totalDebtMM": 268.0,
+      "cashMM": 2.0,
+      "netDebtMM": 266.0,
+      "totalEquityMM": 425.0,
+      "propertyBookMM": 565.0,
+      "sharesOutMM": 119.6,
+      "navPerShare": 3.55,
+      "totalAcresK": 22.4,
+      "dividendPerShare": 0.0,
+      "notes": "FY23: revenue $194.5M, EBITDA $11.6M, statutory loss $(16.5)M. Crop ~22,500 t; avg pool $7.40/kg in recovery from FY22 trough."
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "H",
+      "revenueMM": 99.0,
+      "ebitdaMM": 14.5,
+      "netIncomeMM": -1.0,
+      "totalAcresK": 22.4,
+      "notes": "1HFY24: revenue $99M, EBITDA $14.5M, near break-even NPAT. Stronger pool pricing momentum."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "FY",
+      "revenueMM": 232.5,
+      "revenueBySegmentMM": {
+        "Almonds": 220.0,
+        "Industrial / consumer / other": 12.5
+      },
+      "ebitdaMM": 31.0,
+      "netIncomeMM": -10.0,
+      "totalAssetsMM": 905.0,
+      "totalDebtMM": 290.0,
+      "cashMM": 2.5,
+      "netDebtMM": 287.5,
+      "totalEquityMM": 460.0,
+      "propertyBookMM": 580.0,
+      "sharesOutMM": 142.0,
+      "navPerShare": 3.24,
+      "totalAcresK": 22.4,
+      "dividendPerShare": 0.04,
+      "notes": "FY24: revenue $232.5M, EBITDA $31.0M, statutory loss $(10)M. Crop ~21,500 t; avg pool $9.50/kg as California crop tightened. Equity raise lifted shares to ~142M."
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "H",
+      "revenueMM": 195.0,
+      "ebitdaMM": 60.0,
+      "netIncomeMM": 26.0,
+      "totalAcresK": 22.4,
+      "notes": "1HFY25: revenue $195M, EBITDA $60M, NPAT $26M as almond prices reached cyclical high."
+    },
+    {
+      "endDate": "2025-09-30",
+      "periodType": "FY",
+      "revenueMM": 398.3,
+      "revenueBySegmentMM": {
+        "Almonds": 385.0,
+        "Industrial / consumer / other": 13.3
+      },
+      "ebitdaMM": 82.4,
+      "noiMM": 75.0,
+      "netIncomeMM": 22.0,
+      "totalAssetsMM": 1010.0,
+      "totalDebtMM": 296.33,
+      "cashMM": 1.37,
+      "netDebtMM": 294.96,
+      "totalEquityMM": 522.7,
+      "propertyBookMM": 599.35,
+      "sharesOutMM": 142.11,
+      "navPerShare": 3.68,
+      "totalAcresK": 22.4,
+      "dividendPerShare": 0.13,
+      "notes": "FY25 Annual Report (released 15 Nov 2025): revenue $398.3M, EBITDA $82.4M, NPAT $22M, NAV/share $3.68. Crop ~28,000 t; avg pool ~$11.00/kg. Highest reported earnings since FY20 cycle peak."
+    }
+  ]
+}

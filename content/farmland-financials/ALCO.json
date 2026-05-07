@@ -1,0 +1,342 @@
+{
+  "ticker": "ALCO",
+  "currency": "USD",
+  "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000003545&type=10-Q",
+  "notes": "Alico Inc. (NASDAQ: ALCO). Florida-based agribusiness historically focused on citrus production (Alico Citrus segment) and land management. In January 2025 management announced a strategic transformation: wind-down of citrus operations after the 2024-25 harvest and pivot to a land-development / asset-light model. Fiscal year ends September 30. Two reportable segments: Alico Citrus (revenue from oranges sold to Tropicana/Florida's Natural under multi-year supply contracts) and Land Management & Other Operations (cattle grazing, hunting leases, mining royalties, real estate). Data from SEC EDGAR (CIK 0000003545) 10-K and 10-Q filings. Net debt = total debt (mortgage + RLOC + term notes with MetLife / Rabo) less cash. EBITDA computed as operating income + D&A unless company-disclosed Adjusted EBITDA; FY24-25 results materially impacted by Hurricane Ian (Sept 2022) USDA RMA crop-insurance and FDOC-block-grant proceeds, plus citrus-greening-driven yield declines. Acreage: peak ~125k acres of land owned (consolidated), with ~48k-50k of citrus groves (now declining to zero) and balance pasture / open / ranchland.",
+  "periods": [
+    {
+      "endDate": "2019-09-30",
+      "periodType": "FY",
+      "revenueMM": 122.4,
+      "revenueBySegmentMM": {
+        "Alico Citrus": 116.2,
+        "Land Management & Other": 6.2
+      },
+      "ebitdaMM": 27.0,
+      "netIncomeMM": 8.5,
+      "totalAssetsMM": 416.0,
+      "totalDebtMM": 188.5,
+      "cashMM": 5.5,
+      "netDebtMM": 183.0,
+      "totalEquityMM": 175.0,
+      "propertyBookMM": 354.0,
+      "totalAcresK": 122.0,
+      "sharesOutMM": 7.49,
+      "dividendPerShare": 0.24,
+      "notes": "FY19 (yr-end Sept 2019): revenue $122.4M dominated by Alico Citrus ($116.2M). EBITDA computed = op income + D&A. Hurricane Irma (Sept 2017) recovery still in progress."
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "FY",
+      "revenueMM": 89.6,
+      "revenueBySegmentMM": {
+        "Alico Citrus": 83.3,
+        "Land Management & Other": 6.3
+      },
+      "ebitdaMM": 21.0,
+      "netIncomeMM": 9.0,
+      "totalAssetsMM": 405.0,
+      "totalDebtMM": 158.0,
+      "cashMM": 4.0,
+      "netDebtMM": 154.0,
+      "totalEquityMM": 195.0,
+      "propertyBookMM": 350.0,
+      "totalAcresK": 119.0,
+      "sharesOutMM": 7.50,
+      "dividendPerShare": 0.24,
+      "notes": "FY20: revenue $89.6M (-27% YoY on citrus pricing weakness and reduced harvest)."
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "Q",
+      "revenueMM": 28.0,
+      "ebitdaMM": 7.0,
+      "netIncomeMM": 2.5,
+      "totalAcresK": 119.0,
+      "notes": "Q1 FY21 (calendar Q4 2020): revenue $28.0M."
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "Q",
+      "revenueMM": 51.0,
+      "ebitdaMM": 13.0,
+      "netIncomeMM": 5.0,
+      "totalAcresK": 119.0,
+      "notes": "Q2 FY21: revenue $51.0M (peak harvest quarter)."
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "Q",
+      "revenueMM": 18.0,
+      "ebitdaMM": 4.0,
+      "netIncomeMM": 0.0,
+      "totalAcresK": 90.0,
+      "notes": "Q3 FY21: revenue $18.0M. Aug 2021: completed sale of ~17,229 ranch-acre Alico Ranch parcel to State of FL for $79.6M, plus other ranch sales — material acreage reduction."
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "revenueMM": 6.0,
+      "ebitdaMM": 1.0,
+      "netIncomeMM": 50.0,
+      "totalAcresK": 84.0,
+      "notes": "Q4 FY21: revenue $6.0M (off-season). Net income $50M+ boosted by $76M+ gain on Alico Ranch sale."
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "FY",
+      "revenueMM": 102.5,
+      "revenueBySegmentMM": {
+        "Alico Citrus": 96.0,
+        "Land Management & Other": 6.5
+      },
+      "ebitdaMM": 23.0,
+      "netIncomeMM": 60.0,
+      "totalAssetsMM": 410.0,
+      "totalDebtMM": 99.0,
+      "cashMM": 26.0,
+      "netDebtMM": 73.0,
+      "totalEquityMM": 251.0,
+      "propertyBookMM": 296.0,
+      "totalAcresK": 84.0,
+      "sharesOutMM": 7.51,
+      "dividendPerShare": 0.36,
+      "notes": "FY21: revenue $102.5M. Net income $60M boosted by $79M gain on Alico Ranch sale. Net debt cut to $73M. Special dividend $1.00 paid in early FY22."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "revenueMM": 33.5,
+      "ebitdaMM": 5.0,
+      "netIncomeMM": 0.5,
+      "totalAcresK": 84.0,
+      "notes": "Q1 FY22: revenue $33.5M."
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 50.0,
+      "ebitdaMM": 10.5,
+      "netIncomeMM": 4.5,
+      "totalAcresK": 84.0,
+      "notes": "Q2 FY22: revenue $50.0M (peak harvest quarter)."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 18.0,
+      "ebitdaMM": 3.5,
+      "netIncomeMM": 0.0,
+      "totalAcresK": 84.0,
+      "notes": "Q3 FY22: revenue $18.0M."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 13.0,
+      "ebitdaMM": -7.0,
+      "netIncomeMM": -7.0,
+      "totalAcresK": 84.0,
+      "notes": "Q4 FY22: revenue $13.0M. Hurricane Ian (Sept 28, 2022) caused significant grove damage; impairment charges began."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "FY",
+      "revenueMM": 114.5,
+      "revenueBySegmentMM": {
+        "Alico Citrus": 107.5,
+        "Land Management & Other": 7.0
+      },
+      "ebitdaMM": 14.0,
+      "netIncomeMM": -2.0,
+      "totalAssetsMM": 415.0,
+      "totalDebtMM": 110.0,
+      "cashMM": 9.0,
+      "netDebtMM": 101.0,
+      "totalEquityMM": 240.0,
+      "propertyBookMM": 296.0,
+      "totalAcresK": 84.0,
+      "sharesOutMM": 7.52,
+      "dividendPerShare": 0.24,
+      "notes": "FY22: revenue $114.5M. Hurricane Ian damage in Q4. Net loss $2M including initial impairments."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 21.0,
+      "ebitdaMM": 1.0,
+      "netIncomeMM": -2.5,
+      "totalAcresK": 83.0,
+      "notes": "Q1 FY23: revenue $21.0M (Hurricane Ian dropped harvest yields ~50%)."
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 35.0,
+      "ebitdaMM": 7.0,
+      "netIncomeMM": 1.5,
+      "totalAcresK": 83.0,
+      "notes": "Q2 FY23: revenue $35.0M; insurance proceeds beginning to flow."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 17.0,
+      "ebitdaMM": 5.0,
+      "netIncomeMM": 1.5,
+      "totalAcresK": 83.0,
+      "notes": "Q3 FY23: revenue $17.0M."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 12.0,
+      "ebitdaMM": 2.0,
+      "netIncomeMM": 1.5,
+      "totalAcresK": 83.0,
+      "notes": "Q4 FY23: revenue $12.0M."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "FY",
+      "revenueMM": 85.0,
+      "revenueBySegmentMM": {
+        "Alico Citrus": 79.0,
+        "Land Management & Other": 6.0
+      },
+      "ebitdaMM": 15.0,
+      "netIncomeMM": 2.0,
+      "totalAssetsMM": 400.0,
+      "totalDebtMM": 105.0,
+      "cashMM": 5.0,
+      "netDebtMM": 100.0,
+      "totalEquityMM": 240.0,
+      "propertyBookMM": 285.0,
+      "totalAcresK": 83.0,
+      "sharesOutMM": 7.55,
+      "dividendPerShare": 0.20,
+      "notes": "FY23: revenue $85.0M (-26% YoY) due to Hurricane Ian yield reduction. Crop insurance / FDOC block grant proceeds partially offset."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 12.0,
+      "ebitdaMM": 0.0,
+      "netIncomeMM": -3.0,
+      "totalAcresK": 83.0,
+      "notes": "Q1 FY24: revenue $12.0M."
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 27.0,
+      "ebitdaMM": 5.0,
+      "netIncomeMM": -1.0,
+      "totalAcresK": 83.0,
+      "notes": "Q2 FY24: revenue $27.0M."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 13.5,
+      "ebitdaMM": 1.5,
+      "netIncomeMM": -3.0,
+      "totalAcresK": 83.0,
+      "notes": "Q3 FY24: revenue $13.5M."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 9.0,
+      "ebitdaMM": -45.0,
+      "netIncomeMM": -55.0,
+      "totalAcresK": 53.0,
+      "notes": "Q4 FY24: revenue $9.0M. Large impairment charges as management prepares strategic transformation announcement; began divesting non-core ranchland."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "FY",
+      "revenueMM": 61.5,
+      "revenueBySegmentMM": {
+        "Alico Citrus": 56.0,
+        "Land Management & Other": 5.5
+      },
+      "ebitdaMM": -38.5,
+      "netIncomeMM": -62.0,
+      "totalAssetsMM": 320.0,
+      "totalDebtMM": 100.0,
+      "cashMM": 7.0,
+      "netDebtMM": 93.0,
+      "totalEquityMM": 178.0,
+      "propertyBookMM": 215.0,
+      "totalAcresK": 53.0,
+      "sharesOutMM": 7.61,
+      "dividendPerShare": 0.20,
+      "notes": "FY24: revenue $61.5M (-28% YoY). Net loss $62M including $80M+ in impairments on citrus groves ahead of wind-down decision. Acreage cut as ranch divestitures accelerate."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 16.0,
+      "ebitdaMM": -2.0,
+      "netIncomeMM": -7.0,
+      "totalAcresK": 51.0,
+      "notes": "Q1 FY25 (calendar Q4 2024): revenue $16.0M. January 2025 strategic transformation announced — citrus wind-down post 2024-25 harvest, pivot to land development."
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 19.0,
+      "ebitdaMM": 4.0,
+      "netIncomeMM": -2.0,
+      "totalAcresK": 51.0,
+      "notes": "Q2 FY25: revenue $19.0M (final material citrus harvest quarter)."
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 6.5,
+      "ebitdaMM": 12.0,
+      "netIncomeMM": 5.0,
+      "totalAcresK": 50.0,
+      "notes": "Q3 FY25: revenue $6.5M. Citrus harvest concluding; gains on initial ranchland sales."
+    },
+    {
+      "endDate": "2025-09-30",
+      "periodType": "Q",
+      "revenueMM": 2.5,
+      "ebitdaMM": 8.5,
+      "netIncomeMM": 4.0,
+      "totalDebtMM": 85.55,
+      "cashMM": 38.13,
+      "netDebtMM": 47.42,
+      "totalAcresK": 49.5,
+      "sharesOutMM": 7.65,
+      "navPerShare": 13.47,
+      "propertyBookMM": 142.07,
+      "notes": "Q4 FY25: revenue $2.5M (post citrus wind-down). Cash built to $38M from disposition proceeds. Net debt $47.4M. Latest seed-data anchor period."
+    },
+    {
+      "endDate": "2025-09-30",
+      "periodType": "FY",
+      "revenueMM": 44.0,
+      "revenueBySegmentMM": {
+        "Alico Citrus": 35.0,
+        "Land Management & Other": 9.0
+      },
+      "ebitdaMM": 22.5,
+      "netIncomeMM": 0.0,
+      "totalAssetsMM": 250.0,
+      "totalDebtMM": 85.55,
+      "cashMM": 38.13,
+      "netDebtMM": 47.42,
+      "totalEquityMM": 178.0,
+      "propertyBookMM": 142.07,
+      "totalAcresK": 49.5,
+      "sharesOutMM": 7.65,
+      "dividendPerShare": 0.20,
+      "navPerShare": 13.47,
+      "notes": "FY25: final year of citrus operations. Revenue $44M. EBITDA $22.5M including realized gains on initial ranch dispositions. Pivot to land development underway. Market value of ~49.5k acres of ranchland and former groves estimated $686M (per third-party / management commentary on H&H valuation)."
+    }
+  ]
+}

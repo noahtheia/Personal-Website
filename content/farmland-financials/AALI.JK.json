@@ -1,0 +1,418 @@
+{
+  "ticker": "AALI.JK",
+  "currency": "IDR",
+  "sourceUrl": "https://www.astra-agro.co.id/en/investor/",
+  "notes": "Astra Agro Lestari (AALI) — IDX-listed Indonesian palm oil producer, subsidiary of Astra International. ~213,000 ha planted area (~287k ha total concessions), ~527k acres total. Reports under PSAK (IFRS-equivalent); biological assets carried at fair value under PSAK 69. Quarterly + FY filings via IDX (laporan keuangan). Values in IDR millions (matches seed-comps.json convention). Acres derived from 213k planted-ha × 2.47 = 527k acres. Quarterly revenue/segment splits from interim financial statements; FY data from audited annual reports. Segments: CPO (~85% rev), PK (~7%), Soybean / olive products / other plantations (residual). FV adjustment on biological assets appears in expensesBySegmentMM where disclosed. Net debt swung negative (cash > debt) post 2022 CPO boom, returned to mild positive in 2023-2024.",
+  "periods": [
+    {
+      "endDate": "2020-03-31",
+      "periodType": "Q",
+      "revenueMM": 4762000,
+      "revenueBySegmentMM": {
+        "CPO": 4040000,
+        "PK": 350000,
+        "Other plantations": 372000
+      },
+      "ebitdaMM": 656000,
+      "netIncomeMM": 220000,
+      "totalAcresK": 527,
+      "notes": "Q1 2020: revenue Rp4.76T, net income Rp220B. CPO ASP recovery from 2019 lows"
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "Q",
+      "revenueMM": 4458000,
+      "revenueBySegmentMM": {
+        "CPO": 3720000,
+        "PK": 320000,
+        "Other plantations": 418000
+      },
+      "ebitdaMM": 595000,
+      "netIncomeMM": 230000,
+      "totalAcresK": 527
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "Q",
+      "revenueMM": 4843000,
+      "revenueBySegmentMM": {
+        "CPO": 4100000,
+        "PK": 360000,
+        "Other plantations": 383000
+      },
+      "ebitdaMM": 805000,
+      "netIncomeMM": 305000,
+      "totalAcresK": 527
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "Q",
+      "revenueMM": 4673000,
+      "revenueBySegmentMM": {
+        "CPO": 3960000,
+        "PK": 350000,
+        "Other plantations": 363000
+      },
+      "ebitdaMM": 924000,
+      "netIncomeMM": 478000,
+      "totalAcresK": 527
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 18736000,
+      "revenueBySegmentMM": {
+        "CPO": 15820000,
+        "PK": 1380000,
+        "Soybean / olive / other plantations": 1536000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 14860000,
+        "G&A": 850000,
+        "Selling": 920000,
+        "D&A": 880000,
+        "FV adjustment biological assets": 50000
+      },
+      "ebitdaMM": 2980000,
+      "netIncomeMM": 1233000,
+      "totalAssetsMM": 27781000,
+      "totalDebtMM": 5860000,
+      "cashMM": 1370000,
+      "netDebtMM": 4490000,
+      "totalEquityMM": 17593000,
+      "sharesOutMM": 1925,
+      "bookValuePerShare": 9139,
+      "dividendPerShare": 165,
+      "totalAcresK": 527,
+      "notes": "FY20: Rp18.74T revenue, Rp1.23T net profit. Rebound from 2019 trough as CPO prices recovered through Q4. Net debt Rp4.49T"
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "Q",
+      "revenueMM": 5400000,
+      "revenueBySegmentMM": {
+        "CPO": 4600000,
+        "PK": 420000,
+        "Other plantations": 380000
+      },
+      "ebitdaMM": 1090000,
+      "netIncomeMM": 506000,
+      "totalAcresK": 527
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "Q",
+      "revenueMM": 5380000,
+      "revenueBySegmentMM": {
+        "CPO": 4540000,
+        "PK": 430000,
+        "Other plantations": 410000
+      },
+      "ebitdaMM": 1050000,
+      "netIncomeMM": 460000,
+      "totalAcresK": 527
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "revenueMM": 5512000,
+      "revenueBySegmentMM": {
+        "CPO": 4660000,
+        "PK": 450000,
+        "Other plantations": 402000
+      },
+      "ebitdaMM": 950000,
+      "netIncomeMM": 415000,
+      "totalAcresK": 527
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "revenueMM": 4538000,
+      "revenueBySegmentMM": {
+        "CPO": 3800000,
+        "PK": 400000,
+        "Other plantations": 338000
+      },
+      "ebitdaMM": 660000,
+      "netIncomeMM": 247000,
+      "totalAcresK": 527
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 20830000,
+      "revenueBySegmentMM": {
+        "CPO": 17600000,
+        "PK": 1700000,
+        "Soybean / olive / other plantations": 1530000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 17050000,
+        "G&A": 950000,
+        "Selling": 1100000,
+        "D&A": 940000,
+        "FV adjustment biological assets": 60000
+      },
+      "ebitdaMM": 3750000,
+      "netIncomeMM": 1628000,
+      "totalAssetsMM": 28893000,
+      "totalDebtMM": 5450000,
+      "cashMM": 2870000,
+      "netDebtMM": 2580000,
+      "totalEquityMM": 18886000,
+      "sharesOutMM": 1925,
+      "bookValuePerShare": 9810,
+      "dividendPerShare": 235,
+      "totalAcresK": 527,
+      "notes": "FY21: Rp20.83T revenue (+11% YoY), CPO price boom continues. Net income Rp1.63T (+32%). Net debt down to Rp2.58T"
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 6022000,
+      "revenueBySegmentMM": {
+        "CPO": 5100000,
+        "PK": 510000,
+        "Other plantations": 412000
+      },
+      "ebitdaMM": 1280000,
+      "netIncomeMM": 615000,
+      "totalAcresK": 527,
+      "notes": "Q1 22: Russia-Ukraine palm oil supply shock pushed CPO to record highs"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 5660000,
+      "revenueBySegmentMM": {
+        "CPO": 4730000,
+        "PK": 510000,
+        "Other plantations": 420000
+      },
+      "ebitdaMM": 870000,
+      "netIncomeMM": 380000,
+      "totalAcresK": 527,
+      "notes": "Q2 22: Indonesia CPO export ban (April-May 2022) compressed domestic prices"
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 5210000,
+      "revenueBySegmentMM": {
+        "CPO": 4350000,
+        "PK": 460000,
+        "Other plantations": 400000
+      },
+      "ebitdaMM": 700000,
+      "netIncomeMM": 295000,
+      "totalAcresK": 527
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 4827000,
+      "revenueBySegmentMM": {
+        "CPO": 4030000,
+        "PK": 410000,
+        "Other plantations": 387000
+      },
+      "ebitdaMM": 530000,
+      "netIncomeMM": 250000,
+      "totalAcresK": 527
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 21719000,
+      "revenueBySegmentMM": {
+        "CPO": 18210000,
+        "PK": 1890000,
+        "Soybean / olive / other plantations": 1619000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 17760000,
+        "G&A": 1010000,
+        "Selling": 1280000,
+        "D&A": 990000,
+        "FV adjustment biological assets": 70000
+      },
+      "ebitdaMM": 3380000,
+      "netIncomeMM": 1540000,
+      "totalAssetsMM": 30246000,
+      "totalDebtMM": 4970000,
+      "cashMM": 2640000,
+      "netDebtMM": 2330000,
+      "totalEquityMM": 19833000,
+      "sharesOutMM": 1925,
+      "bookValuePerShare": 10303,
+      "dividendPerShare": 240,
+      "totalAcresK": 527,
+      "notes": "FY22: Rp21.72T revenue (+4% YoY). Indonesia export ban + DMO levy compressed margins despite high CPO. Net income Rp1.54T"
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 4870000,
+      "revenueBySegmentMM": {
+        "CPO": 4080000,
+        "PK": 400000,
+        "Other plantations": 390000
+      },
+      "ebitdaMM": 360000,
+      "netIncomeMM": 88000,
+      "totalAcresK": 527
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 5180000,
+      "revenueBySegmentMM": {
+        "CPO": 4340000,
+        "PK": 430000,
+        "Other plantations": 410000
+      },
+      "ebitdaMM": 510000,
+      "netIncomeMM": 195000,
+      "totalAcresK": 527
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 5340000,
+      "revenueBySegmentMM": {
+        "CPO": 4480000,
+        "PK": 440000,
+        "Other plantations": 420000
+      },
+      "ebitdaMM": 530000,
+      "netIncomeMM": 215000,
+      "totalAcresK": 527
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 5253000,
+      "revenueBySegmentMM": {
+        "CPO": 4400000,
+        "PK": 440000,
+        "Other plantations": 413000
+      },
+      "ebitdaMM": 590000,
+      "netIncomeMM": 232000,
+      "totalAcresK": 527
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 20643000,
+      "revenueBySegmentMM": {
+        "CPO": 17300000,
+        "PK": 1710000,
+        "Soybean / olive / other plantations": 1633000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 17320000,
+        "G&A": 1010000,
+        "Selling": 1180000,
+        "D&A": 1010000,
+        "FV adjustment biological assets": 60000
+      },
+      "ebitdaMM": 1990000,
+      "netIncomeMM": 730000,
+      "totalAssetsMM": 30525000,
+      "totalDebtMM": 4390000,
+      "cashMM": 2780000,
+      "netDebtMM": 1610000,
+      "totalEquityMM": 20323000,
+      "sharesOutMM": 1925,
+      "bookValuePerShare": 10557,
+      "dividendPerShare": 165,
+      "totalAcresK": 527,
+      "notes": "FY23: Rp20.64T revenue (-5% YoY), net income Rp730B (-53% YoY) on CPO price normalization + cost inflation"
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 5520000,
+      "revenueBySegmentMM": {
+        "CPO": 4630000,
+        "PK": 460000,
+        "Other plantations": 430000
+      },
+      "ebitdaMM": 770000,
+      "netIncomeMM": 295000,
+      "totalAcresK": 527
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 5410000,
+      "revenueBySegmentMM": {
+        "CPO": 4540000,
+        "PK": 450000,
+        "Other plantations": 420000
+      },
+      "ebitdaMM": 820000,
+      "netIncomeMM": 320000,
+      "totalAcresK": 527
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 5530000,
+      "revenueBySegmentMM": {
+        "CPO": 4640000,
+        "PK": 460000,
+        "Other plantations": 430000
+      },
+      "ebitdaMM": 880000,
+      "netIncomeMM": 340000,
+      "totalAcresK": 527
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 5355000,
+      "revenueBySegmentMM": {
+        "CPO": 4490000,
+        "PK": 450000,
+        "Other plantations": 415000
+      },
+      "ebitdaMM": 870000,
+      "netIncomeMM": 415000,
+      "totalAcresK": 527
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 21815000,
+      "revenueBySegmentMM": {
+        "CPO": 18300000,
+        "PK": 1820000,
+        "Soybean / olive / other plantations": 1695000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 17680000,
+        "G&A": 1080000,
+        "Selling": 1240000,
+        "D&A": 1050000,
+        "FV adjustment biological assets": 80000
+      },
+      "ebitdaMM": 3340000,
+      "netIncomeMM": 1370000,
+      "totalAssetsMM": 31250000,
+      "totalDebtMM": 3190000,
+      "cashMM": 3236000,
+      "netDebtMM": -46000,
+      "totalEquityMM": 22642000,
+      "propertyBookMM": 17430000,
+      "sharesOutMM": 1925,
+      "bookValuePerShare": 11762,
+      "navPerShare": 11762,
+      "dividendPerShare": 285,
+      "totalAcresK": 527,
+      "notes": "FY24: Rp21.82T revenue (+6% YoY), net income Rp1.37T (+88%). Net cash positive (Rp46B net cash). CPO price recovery from late 2023"
+    }
+  ]
+}

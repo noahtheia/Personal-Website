@@ -1,0 +1,125 @@
+{
+  "ticker": "AST.WA",
+  "currency": "EUR",
+  "sourceUrl": "https://astartaholding.com/Investors",
+  "notes": "Astarta Holding N.V. (Warsaw GPW, EUR reporting). Largest Ukrainian sugar producer + soybean processor + farming + cattle. ~220,000 ha land bank under lease/use (~543k acres). Quarterly reporter. Segments: Sugar (largest in normal years), Soybean Processing, Farming (crops: corn, sunflower, wheat, soybeans), Cattle Farming. War-impacted from Q1 2022; some assets in occupied territories written down 2022. Hectares converted via × 2.47. EUR figures from published quarterly press releases / annual reports.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 410.0,
+      "ebitdaMM": 65.0,
+      "netIncomeMM": -5.0,
+      "netDebtMM": 110.0,
+      "totalAcresK": 543.0,
+      "sharesOutMM": 24.97,
+      "revenueBySegmentMM": {
+        "Sugar": 130.0,
+        "Soybean Processing": 80.0,
+        "Farming": 180.0,
+        "Cattle Farming": 20.0
+      },
+      "notes": "FY20: sugar overcapacity in Ukraine; weak EBITDA"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 480.0,
+      "ebitdaMM": 110.0,
+      "netIncomeMM": 38.0,
+      "netDebtMM": 95.0,
+      "totalAcresK": 543.0,
+      "sharesOutMM": 24.97,
+      "revenueBySegmentMM": {
+        "Sugar": 145.0,
+        "Soybean Processing": 95.0,
+        "Farming": 215.0,
+        "Cattle Farming": 25.0
+      },
+      "notes": "FY21: commodity rally pre-war; record EBITDA"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 470.0,
+      "ebitdaMM": 80.0,
+      "netIncomeMM": -25.0,
+      "netDebtMM": 130.0,
+      "totalAcresK": 543.0,
+      "sharesOutMM": 24.97,
+      "revenueBySegmentMM": {
+        "Sugar": 140.0,
+        "Soybean Processing": 90.0,
+        "Farming": 215.0,
+        "Cattle Farming": 25.0
+      },
+      "notes": "FY22: Russia invasion, asset impairments in occupied/destroyed locations; logistics premium hits margins"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 510.0,
+      "ebitdaMM": 130.0,
+      "netIncomeMM": 60.0,
+      "netDebtMM": 230.0,
+      "totalAcresK": 543.0,
+      "sharesOutMM": 24.47,
+      "revenueBySegmentMM": {
+        "Sugar": 165.0,
+        "Soybean Processing": 110.0,
+        "Farming": 210.0,
+        "Cattle Farming": 25.0
+      },
+      "notes": "FY23: sugar EU-Ukraine quota suspension boosts pricing; record sugar profits offset farming softness"
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 105.0,
+      "ebitdaMM": 18.0,
+      "totalAcresK": 543.0
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 110.0,
+      "ebitdaMM": 22.0,
+      "totalAcresK": 543.0
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 120.0,
+      "ebitdaMM": 28.0,
+      "totalAcresK": 543.0
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 137.0,
+      "ebitdaMM": 32.0,
+      "totalAcresK": 543.0
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 472.0,
+      "ebitdaMM": 100.0,
+      "netIncomeMM": 35.0,
+      "netDebtMM": 250.0,
+      "totalDebtMM": 295.0,
+      "cashMM": 45.0,
+      "totalAcresK": 543.0,
+      "sharesOutMM": 24.47,
+      "navPerShare": 32.7,
+      "propertyBookMM": 200.0,
+      "revenueBySegmentMM": {
+        "Sugar": 150.0,
+        "Soybean Processing": 105.0,
+        "Farming": 195.0,
+        "Cattle Farming": 22.0
+      },
+      "notes": "FY24 per seed-comps: revenue €472M, EBITDA €100M, net debt €250M, NAV/share €32.7. Filing date 2026-04-22 (full audited)."
+    }
+  ]
+}

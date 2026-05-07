@@ -1,0 +1,125 @@
+{
+  "ticker": "CAM.L",
+  "currency": "GBP",
+  "sourceUrl": "https://camellia.plc.uk/investor-relations/",
+  "notes": "Camellia Plc (AIM, GBP reporting). Diversified ag conglomerate: Tea (Kenya, Malawi, Bangladesh, India), Avocado (Kenya), Macadamia (Malawi/South Africa), Engineering (AKD UK), Investments. UK semi-annual reporter (H1 interim June + FY December). Tea remains largest segment by revenue (~55%); macadamia and avocado materially smaller but growing. ~50,000 ha total ag area (~124k acres). Camellia disposed of legacy investments and food-services operations 2022-2024 to refocus on agriculture; FY24 revenue reflects continuing operations only. Segment splits drawn from annual-report Note 4 (operating segments).",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 291.6,
+      "ebitdaMM": 22.0,
+      "netIncomeMM": -1.4,
+      "netDebtMM": -55.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 27.7,
+      "revenueBySegmentMM": {
+        "Tea": 175.0,
+        "Macadamia/Avocado/Other agri": 32.0,
+        "Engineering": 38.0,
+        "Food services / other": 46.6
+      },
+      "notes": "FY20: tea volumes hit by drought in Kenya; cost inflation"
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "H",
+      "revenueMM": 130.0,
+      "ebitdaMM": 6.0,
+      "totalAcresK": 124.0,
+      "notes": "H1 2021: tea-pluck cycle; H2 typically heavier weighted"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 277.4,
+      "ebitdaMM": 18.0,
+      "netIncomeMM": -7.0,
+      "netDebtMM": -50.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 27.7,
+      "revenueBySegmentMM": {
+        "Tea": 165.0,
+        "Macadamia/Avocado/Other agri": 35.0,
+        "Engineering": 40.0,
+        "Food services / other": 37.4
+      },
+      "notes": "FY21: weak tea prices, modest loss"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "H",
+      "revenueMM": 138.0,
+      "ebitdaMM": 5.0,
+      "totalAcresK": 124.0
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 290.0,
+      "ebitdaMM": 14.0,
+      "netIncomeMM": -10.0,
+      "netDebtMM": -85.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 27.7,
+      "revenueBySegmentMM": {
+        "Tea": 168.0,
+        "Macadamia/Avocado/Other agri": 38.0,
+        "Engineering": 42.0,
+        "Food services / other": 42.0
+      },
+      "notes": "FY22: ABF Eastern division disposal proceeds boost cash"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 130.0,
+      "ebitdaMM": 4.0,
+      "totalAcresK": 124.0
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 282.0,
+      "ebitdaMM": 16.0,
+      "netIncomeMM": -8.0,
+      "netDebtMM": -75.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 27.7,
+      "revenueBySegmentMM": {
+        "Tea": 160.0,
+        "Macadamia/Avocado/Other agri": 45.0,
+        "Engineering": 45.0,
+        "Other": 32.0
+      },
+      "notes": "FY23: macadamia volumes growing; tea margins under pressure"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 128.0,
+      "ebitdaMM": 5.0,
+      "totalAcresK": 124.0
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 275.0,
+      "ebitdaMM": 20.0,
+      "netIncomeMM": -3.0,
+      "netDebtMM": -70.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 27.7,
+      "navPerShare": 9.0,
+      "propertyBookMM": 200.0,
+      "revenueBySegmentMM": {
+        "Tea": 152.0,
+        "Avocado": 28.0,
+        "Macadamia": 22.0,
+        "Engineering": 48.0,
+        "Investments / Other": 25.0
+      },
+      "notes": "FY24: refocused on agri post-disposals. Revenue £275M, EBITDA ~£20M, net cash £70M, NAV/share £9. Per seed-comps."
+    }
+  ]
+}
