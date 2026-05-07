@@ -2,12 +2,12 @@
   "ticker": "MPE.L",
   "asOf": "2024-12-31",
   "currency": "USD",
-  "propertiesNote": "6-row breakdown by Indonesian province cluster + mature/expansion split. East Kalimantan separated into Bumi Mas mature core vs ABK 2025 new planting.",
+  "propertiesNote": "7-row breakdown by Indonesian province cluster + plasma carve-out. Total managed: 70,900 ha = 175K acres comprising 54,300 ha nucleus owned (134.4K acres) + 16,600 ha plasma smallholder partnerships (41K acres excluded from owned).",
   "properties": [
     {
-      "name": "North Sumatra plantations + mills (PT Sumber Indah Perkasa)",
+      "name": "North Sumatra plantations + mills (PT Sumber Indah Perkasa) — nucleus only",
       "location": "North Sumatra Province, Indonesia",
-      "acres": 49400,
+      "acres": 37900,
       "cropOrUse": "Mature oil palm + multiple mills",
       "category": "Indonesian palm \u2014 North Sumatra",
       "fmvPerAcre": 5500,
@@ -23,9 +23,9 @@
       "capRateHigh": 10.0
     },
     {
-      "name": "South Sumatra (Musi Rawas + 2024 sixth mill)",
+      "name": "South Sumatra (Musi Rawas + 2024 sixth mill) — nucleus only",
       "location": "Musi Rawas, South Sumatra Province, Indonesia",
-      "acres": 27181,
+      "acres": 20900,
       "cropOrUse": "Oil palm + sixth mill (commissioned 2024)",
       "category": "Indonesian palm \u2014 South Sumatra",
       "fmvPerAcre": 5000,
@@ -41,9 +41,9 @@
       "capRateHigh": 10.0
     },
     {
-      "name": "Aceh plantations",
+      "name": "Aceh plantations — nucleus only",
       "location": "Aceh Province, Indonesia",
-      "acres": 24700,
+      "acres": 19000,
       "cropOrUse": "Oil palm",
       "category": "Indonesian palm \u2014 Aceh",
       "fmvPerAcre": 4500,
@@ -58,9 +58,9 @@
       "capRateHigh": 10.5
     },
     {
-      "name": "Bangka-Belitung plantations (offshore Sumatra)",
+      "name": "Bangka-Belitung plantations (offshore Sumatra) — nucleus only",
       "location": "Bangka-Belitung Province, Indonesia",
-      "acres": 24700,
+      "acres": 19000,
       "cropOrUse": "Oil palm (mining-rehabilitation area)",
       "category": "Indonesian palm \u2014 Bangka-Belitung",
       "fmvPerAcre": 4500,
@@ -75,9 +75,9 @@
       "capRateHigh": 10.5
     },
     {
-      "name": "East Kalimantan \u2014 Bumi Mas estate + mill (mature core)",
+      "name": "East Kalimantan \u2014 Bumi Mas estate + mill (mature core, nucleus only)",
       "location": "East Kalimantan Province, Indonesia",
-      "acres": 32000,
+      "acres": 24500,
       "cropOrUse": "Mature oil palm + Bumi Mas mill",
       "category": "Indonesian palm \u2014 East Kalimantan (mature)",
       "fmvPerAcre": 4800,
@@ -93,9 +93,9 @@
       "capRateHigh": 10.0
     },
     {
-      "name": "East Kalimantan \u2014 ABK expansion (2025 new planting)",
+      "name": "East Kalimantan \u2014 ABK expansion (2025 new planting, nucleus only)",
       "location": "East Kalimantan Province (ABK area), Indonesia",
-      "acres": 17400,
+      "acres": 13400,
       "cropOrUse": "Oil palm \u2014 new planting 2025 (immature)",
       "category": "Indonesian palm \u2014 East Kalimantan (ABK new planting)",
       "fmvPerAcre": 3500,
@@ -109,6 +109,24 @@
       "fmvPerAcreHigh": 4130.0,
       "capRateLow": 10.0,
       "capRateHigh": 14.0
+    },
+    {
+      "name": "Plasma plantations (scheme-smallholder partnerships)",
+      "location": "Indonesia (across all MPE provinces)",
+      "acres": 41000,
+      "cropOrUse": "Plasma estate partnerships (~16,600 ha NOT owned by MPE)",
+      "category": "Plasma plantations (partnership receivable)",
+      "fmvPerAcre": 1000,
+      "fmvPerAcreLow": 800,
+      "fmvPerAcreHigh": 1200,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0,
+      "fmvRationale": "16,600+ ha plasma scheme-smallholder estates owned by local communities around MPE's estates \u2014 managed under contract with the Group, FFB purchased at regulated price. NOT on balance sheet as land asset",
+      "comparablesUsed": [
+        "ID-PALM-IMMATURE-2024"
+      ],
+      "bookValueMM": 40
     }
   ],
   "comparables": [
@@ -161,5 +179,5 @@
       "source": "MP Evans 2024 Final Results presentation"
     }
   ],
-  "methodology": "MP Evans expanded from 4-row to 6-row breakdown to separate the East Kalimantan mature core (Bumi Mas estate + mill) from the new ABK expansion project (2025 immature planting). Aceh and Bangka-Belitung now also separated.\n\nCluster breakdown:\n- North Sumatra (49.4K ac): most mature with multiple mills\n- South Sumatra Musi Rawas (27.2K ac): 6th mill commissioned 2024\n- Aceh (24.7K ac): smaller mature cluster\n- Bangka-Belitung (24.7K ac): offshore Sumatra mining-rehabilitation\n- East Kalimantan Bumi Mas mature (32K ac): primary KAL cluster\n- East Kalimantan ABK expansion (17.4K ac): 2025 new planting at immature discount\n\nUSD-reporting + GBp-listing structure unchanged. Total ~175K planted acres = 70.9K hectares per MP Evans FY24 disclosure."
+  "methodology": "MP Evans expanded from 4-row to 7-row breakdown including plasma carve-out. CRITICAL CHANGE: 16,600 ha plasma estates (~41K acres) carved out via excludeFromAcreTotals=true. Plasma is owned by local communities around MPE's estates — managed under scheme-smallholder contracts where MPE buys FFB at regulated price but doesn't own the land.\n\nCluster breakdown (NUCLEUS ACRES — net of plasma):\n- North Sumatra (37.9K ac): most mature with multiple mills\n- South Sumatra Musi Rawas (20.9K ac): 6th mill commissioned 2024\n- Aceh (19K ac): smaller mature cluster\n- Bangka-Belitung (19K ac): offshore Sumatra mining-rehabilitation\n- East Kalimantan Bumi Mas mature (24.5K ac): primary KAL cluster\n- East Kalimantan ABK expansion (13.4K ac): 2025 new planting at immature discount\n- Plasma scheme-smallholder partnerships (41K acres EXCLUDED): NOT MPE-owned\n\nTotal nucleus: 134.6K acres = 54.3K ha. Total managed (incl plasma): 175K acres = 70.9K ha per MP Evans FY24 disclosure.\n\nUSD-reporting + GBp-listing structure unchanged. Per-acre values reduced ~23% across all six nucleus rows to back out plasma proportionally."
 }

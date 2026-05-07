@@ -40,22 +40,40 @@
       "capRateHigh": 10.0
     },
     {
-      "name": "Indonesia plantation (Sumatra + Kalimantan)",
+      "name": "Indonesia plantation (Sumatra + Kalimantan) \u2014 nucleus only",
       "location": "Sumatra + Kalimantan, Indonesia",
-      "acres": 494000,
-      "cropOrUse": "Mature oil palm + mills",
-      "category": "Indonesian palm \u2014 diversified",
+      "acres": 453000,
+      "cropOrUse": "Mature oil palm + mills (nucleus only via Minamas Plantation subsidiary)",
+      "category": "Indonesian palm \u2014 diversified (SDG nucleus)",
       "fmvPerAcre": 22000,
-      "fmvRationale": "Indonesian Sumatra + Kalimantan estates",
+      "fmvPerAcreLow": 18040.0,
+      "fmvPerAcreHigh": 25960.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0,
+      "fmvRationale": "Indonesian Sumatra + Kalimantan estates (Minamas Plantation subsidiary). Reduced from prior 494K acres to exclude 16,639 ha plasma estates (now in separate row)",
       "comparablesUsed": [
         "ID-PALM-MATURE-2024",
         "ID-PALM-NSUMATRA-2024"
       ],
-      "bookValueMM": 9000,
-      "fmvPerAcreLow": 18040.0,
-      "fmvPerAcreHigh": 25960.0,
-      "capRateLow": 7.5,
-      "capRateHigh": 10.0
+      "bookValueMM": 8500
+    },
+    {
+      "name": "Indonesia plasma plantations (KKPA + Plasma Scheme smallholders)",
+      "location": "Indonesia",
+      "acres": 41000,
+      "cropOrUse": "Plasma estate partnerships (~16,639 ha NOT owned by SDG)",
+      "category": "Plasma plantations (partnership receivable)",
+      "fmvPerAcre": 2000,
+      "fmvPerAcreLow": 1500,
+      "fmvPerAcreHigh": 2500,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0,
+      "fmvRationale": "16,639 ha plasma + KKPA (Kredit Koperasi Primer Anggota) smallholder estates \u2014 64,211 smallholders supplying 20% of FFB. Managed by SDG under multi-year purchase + advisory agreements. NOT on balance sheet as land asset",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 500
     },
     {
       "name": "Papua New Guinea + Solomon Islands plantation",

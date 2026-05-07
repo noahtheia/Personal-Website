@@ -72,6 +72,24 @@
       "fmvPerAcreHigh": 1500.0,
       "capRateLow": 10.0,
       "capRateHigh": 14.0
+    },
+    {
+      "name": "Indonesia plasma plantations (cooperative smallholder partnerships)",
+      "location": "Sumatra, Indonesia",
+      "acres": 13290,
+      "cropOrUse": "Plasma estate partnerships (5,379 ha NOT owned by AEP)",
+      "category": "Plasma plantations (partnership receivable)",
+      "fmvPerAcre": 1000,
+      "fmvPerAcreLow": 800,
+      "fmvPerAcreHigh": 1200,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0,
+      "fmvRationale": "5,379 ha plasma estates managed by AEP via 7 cooperative companies. Small plasma footprint vs total operations (~3% of 187K ha managed). NOT on balance sheet as land asset",
+      "comparablesUsed": [
+        "ID-PALM-IMMATURE-2024"
+      ],
+      "bookValueMM": 13
     }
   ],
   "comparables": [

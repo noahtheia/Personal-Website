@@ -40,22 +40,40 @@
       "capRateHigh": 10.0
     },
     {
-      "name": "Indonesia plantations (Belitung, Sumatra, Kalimantan)",
+      "name": "Indonesia plantations (Belitung, Sumatra, Kalimantan) \u2014 nucleus only",
       "location": "Indonesia (Belitung Island + Sumatra + Kalimantan)",
-      "acres": 400500,
-      "cropOrUse": "Mature oil palm + mills",
-      "category": "Indonesian palm \u2014 diversified",
+      "acres": 376200,
+      "cropOrUse": "Mature oil palm + mills (nucleus only)",
+      "category": "Indonesian palm \u2014 diversified (KLK nucleus)",
       "fmvPerAcre": 21000,
-      "fmvRationale": "Indonesia plantation cluster; Belitung Island + Sumatra + Kalimantan estates",
+      "fmvPerAcreLow": 17220.0,
+      "fmvPerAcreHigh": 24780.0,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0,
+      "fmvRationale": "Indonesia plantation nucleus; Belitung Island + Sumatra + Kalimantan estates. Reduced from prior 400K acres to exclude 9,840 ha plasma estates (now in separate row)",
       "comparablesUsed": [
         "ID-PALM-MATURE-2024",
         "ID-PALM-MATURE-2025"
       ],
-      "bookValueMM": 6813,
-      "fmvPerAcreLow": 17220.0,
-      "fmvPerAcreHigh": 24780.0,
-      "capRateLow": 7.5,
-      "capRateHigh": 10.0
+      "bookValueMM": 6500
+    },
+    {
+      "name": "Indonesia plasma plantations (smallholder partnerships)",
+      "location": "Indonesia",
+      "acres": 24300,
+      "cropOrUse": "Plasma estate partnerships (~9,840 ha NOT owned by KLK)",
+      "category": "Plasma plantations (partnership receivable)",
+      "fmvPerAcre": 2000,
+      "fmvPerAcreLow": 1500,
+      "fmvPerAcreHigh": 2500,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0,
+      "fmvRationale": "9,840 ha plasma estates allocated to ~6,751 smallholder farmers under Indonesia's mandatory plasma program \u2014 managed by KLK under multi-year purchase + advisory agreements. NOT on balance sheet as land asset. Per RSPO/SPOTT disclosure",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 250
     }
   ],
   "comparables": [
