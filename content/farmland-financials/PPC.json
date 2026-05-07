@@ -1,0 +1,103 @@
+{
+  "ticker": "PPC",
+  "currency": "USD",
+  "sourceUrl": "https://ir.pilgrims.com/financials/sec-filings",
+  "notes": "Pilgrim's Pride (NASDAQ: PPC) — second-largest chicken producer globally. ~80% owned by JBS S.A. (Brazil). Three reporting segments: US, Europe (Pilgrim's UK + Tulip), Mexico. Fiscal year ends late December (52/53 weeks). Acquired Tulip (UK) 2019 and additional UK pork in 2021. Strong margin recovery FY24. CIK 802481.",
+  "periods": [
+    {
+      "endDate": "2020-12-27",
+      "periodType": "FY",
+      "revenueMM": 12091,
+      "expensesBySegmentMM": {
+        "Cost of sales": 11250,
+        "SG&A": 442,
+        "D&A": 365,
+        "Other": 0
+      },
+      "ebitdaMM": 740,
+      "netDebtMM": 2152,
+      "totalDebtMM": 2641,
+      "cashMM": 489,
+      "sharesOutMM": 243.1,
+      "bookValuePerShare": 6.34,
+      "dividendPerShare": 0,
+      "notes": "FY20: revenue $12.1B. COVID-impacted plant operations. Adj EBITDA $740M. DOJ price-fixing investigation overhang."
+    },
+    {
+      "endDate": "2021-12-26",
+      "periodType": "FY",
+      "revenueMM": 14781,
+      "expensesBySegmentMM": {
+        "Cost of sales": 13571,
+        "SG&A": 537,
+        "D&A": 416,
+        "Other": 0
+      },
+      "ebitdaMM": 1109,
+      "netDebtMM": 3133,
+      "totalDebtMM": 3573,
+      "cashMM": 440,
+      "sharesOutMM": 242.6,
+      "bookValuePerShare": 6.92,
+      "dividendPerShare": 0,
+      "notes": "FY21: revenue $14.8B (+22%). Strong commodity chicken pricing. Adj EBITDA $1.11B. Tulip integration."
+    },
+    {
+      "endDate": "2022-12-25",
+      "periodType": "FY",
+      "revenueMM": 17468,
+      "expensesBySegmentMM": {
+        "Cost of sales": 15813,
+        "SG&A": 593,
+        "D&A": 419,
+        "Other": 0
+      },
+      "ebitdaMM": 1617,
+      "netDebtMM": 3000,
+      "totalDebtMM": 3372,
+      "cashMM": 372,
+      "sharesOutMM": 237.7,
+      "bookValuePerShare": 7.64,
+      "dividendPerShare": 0,
+      "notes": "FY22: revenue $17.5B (+18%). Strong USA pricing. Op income $1.18B."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 17361,
+      "expensesBySegmentMM": {
+        "Cost of sales": 16238,
+        "SG&A": 558,
+        "D&A": 467,
+        "Other": 0
+      },
+      "ebitdaMM": 1031,
+      "netDebtMM": 2664,
+      "totalDebtMM": 3203,
+      "cashMM": 539,
+      "sharesOutMM": 237.0,
+      "bookValuePerShare": 7.67,
+      "dividendPerShare": 0,
+      "notes": "FY23: revenue $17.4B (-1%). US chicken margins weak; Mexico strong. Adj EBITDA $1.03B."
+    },
+    {
+      "endDate": "2024-12-29",
+      "periodType": "FY",
+      "revenueMM": 17881,
+      "expensesBySegmentMM": {
+        "Cost of sales": 15816,
+        "SG&A": 615,
+        "D&A": 471,
+        "Other": 0
+      },
+      "ebitdaMM": 1937,
+      "netDebtMM": 1272,
+      "totalDebtMM": 3343,
+      "cashMM": 2071,
+      "sharesOutMM": 237.0,
+      "bookValuePerShare": 11.02,
+      "dividendPerShare": 6.30,
+      "notes": "FY24: revenue $17.88B (+3%). Massive margin recovery — adj EBITDA $1.94B (+88%). Special dividend $6.30/sh paid Jan 2025 (~$1.5B). Op income $1.49B."
+    }
+  ]
+}

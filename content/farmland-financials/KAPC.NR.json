@@ -1,0 +1,78 @@
+{
+  "ticker": "KAPC.NR",
+  "currency": "KES",
+  "sourceUrl": "https://www.kakuzi.co.ke/investors/",
+  "notes": "Kakuzi PLC — Nairobi Securities Exchange (NSE) listed Kenyan plantation operator. ~12,300 ha (30,400 acres) planted across diversified tree crops in Murang'a + Makuyu, Kenya: avocado (Hass — global #2 grower at scale), macadamia, tea, blueberries, livestock, forestry, pineapple. Majority shareholder Camellia Plc (UK, ~50.7%). FY = calendar year. Reports in KES. FY history from Kakuzi annual reports / NSE filings via kakuzi.co.ke. Bookland reflects ~KES 2.4B biological assets + land carrying value (audited annual financial statements).",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 2740,
+      "ebitdaMM": 730,
+      "netIncomeMM": 460,
+      "totalDebtMM": 50,
+      "cashMM": 380,
+      "netDebtMM": -330,
+      "sharesOutMM": 19.6,
+      "dividendPerShare": 8,
+      "totalAcresK": 30.4,
+      "notes": "FY20: Revenue KES 2.74B (+9% YoY); PAT KES 460M. Strong avocado prices to Europe + COVID resilient demand. Net cash position."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 2870,
+      "ebitdaMM": 670,
+      "netIncomeMM": 410,
+      "totalDebtMM": 60,
+      "cashMM": 420,
+      "netDebtMM": -360,
+      "sharesOutMM": 19.6,
+      "dividendPerShare": 8,
+      "totalAcresK": 30.4,
+      "notes": "FY21: Revenue KES 2.87B; PAT KES 410M. Avocado export pricing remained firm; macadamia volumes down on China demand softness."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 3400,
+      "ebitdaMM": 720,
+      "netIncomeMM": 425,
+      "totalDebtMM": 100,
+      "cashMM": 350,
+      "netDebtMM": -250,
+      "sharesOutMM": 19.6,
+      "dividendPerShare": 8,
+      "totalAcresK": 30.4,
+      "notes": "FY22: Revenue KES 3.4B (+19%) record on avocado tonnage + China direct-export market opening. PAT KES 425M."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 1570,
+      "ebitdaMM": 50,
+      "netIncomeMM": -340,
+      "totalDebtMM": 250,
+      "cashMM": 240,
+      "netDebtMM": 10,
+      "sharesOutMM": 19.6,
+      "dividendPerShare": 0,
+      "totalAcresK": 30.4,
+      "notes": "FY23: Revenue KES 1.57B (-54%) — global avocado oversupply (Peru/Mexico) crashed prices; macadamia weak. Net loss KES 340M — first loss in years; dividend suspended."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 2380,
+      "ebitdaMM": 380,
+      "netIncomeMM": 230,
+      "totalDebtMM": 200,
+      "cashMM": 380,
+      "netDebtMM": -180,
+      "sharesOutMM": 19.6,
+      "dividendPerShare": 8,
+      "totalAcresK": 30.4,
+      "notes": "FY24: Revenue KES 2.38B (+52%) recovery; PAT KES 230M, dividend restored at KES 8/share. Avocado pricing partially normalised; blueberry expansion progressing."
+    }
+  ]
+}

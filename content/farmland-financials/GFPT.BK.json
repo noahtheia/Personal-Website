@@ -1,0 +1,73 @@
+{
+  "ticker": "GFPT.BK",
+  "currency": "THB",
+  "sourceUrl": "https://www.gfpt.co.th/EN/investor.aspx",
+  "notes": "GFPT PCL — Thailand SET-listed pure-play vertically integrated poultry. Feed mill > breeder farm > broiler > processed/cooked chicken > export. Joint venture GFN (50/50 with Nichirei Japan, processed chicken export to Japan/EU). Smaller than CPF — pure-play makes it cleaner exposure to Thai chicken cycle. FY = calendar year. Reports in THB. FY history from GFPT annual reports + SET filings via gfpt.co.th.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 14921,
+      "ebitdaMM": 1850,
+      "netIncomeMM": 1106,
+      "totalDebtMM": 5500,
+      "cashMM": 850,
+      "netDebtMM": 4650,
+      "sharesOutMM": 1254,
+      "dividendPerShare": 0.4,
+      "notes": "FY20: Revenue ฿14.9B (-13% YoY) on COVID export disruption; net profit ฿1.1B. Domestic broiler oversupply pressured prices."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 16229,
+      "ebitdaMM": 1450,
+      "netIncomeMM": 685,
+      "totalDebtMM": 6000,
+      "cashMM": 700,
+      "netDebtMM": 5300,
+      "sharesOutMM": 1254,
+      "dividendPerShare": 0.3,
+      "notes": "FY21: Revenue ฿16.2B (+9%); net profit ฿685M (-38%) — corn/soy feed cost inflation squeezed margins."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 18634,
+      "ebitdaMM": 2350,
+      "netIncomeMM": 1370,
+      "totalDebtMM": 6200,
+      "cashMM": 950,
+      "netDebtMM": 5250,
+      "sharesOutMM": 1254,
+      "dividendPerShare": 0.5,
+      "notes": "FY22: Revenue ฿18.6B (+15%); net profit ฿1.37B (+100%) on chicken price recovery + Saudi/EU export reopening."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 18712,
+      "ebitdaMM": 1850,
+      "netIncomeMM": 950,
+      "totalDebtMM": 6100,
+      "cashMM": 1100,
+      "netDebtMM": 5000,
+      "sharesOutMM": 1254,
+      "dividendPerShare": 0.4,
+      "notes": "FY23: Revenue ฿18.7B flat; net profit ฿950M (-31%). Chicken oversupply + sluggish Japanese demand."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 19852,
+      "ebitdaMM": 2450,
+      "netIncomeMM": 1592,
+      "totalDebtMM": 5800,
+      "cashMM": 1300,
+      "netDebtMM": 4500,
+      "sharesOutMM": 1254,
+      "dividendPerShare": 0.45,
+      "notes": "FY24: Revenue ฿19.85B (+6%); net profit ฿1.59B (+68%) — best year since 2017. Lower feed costs (corn/soy) + strong Japan/EU cooked chicken export."
+    }
+  ]
+}

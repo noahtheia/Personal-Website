@@ -1,0 +1,73 @@
+{
+  "ticker": "TUF.BK",
+  "currency": "THB",
+  "sourceUrl": "https://www.thaiunion.com/en/investor",
+  "notes": "Thai Union Group — Thailand SET-listed global seafood (world's largest tuna processor). Brands: Chicken of the Sea (US), John West (UK/Ireland/NL), Petit Navire (France), Mareblu (Italy), Sealect/Fisho (Thailand). Three core: Ambient Seafood (canned tuna/sardine ~45% rev); Frozen, Chilled & Related (shrimp/lobster ~36%); PetCare/Value-Added/Other ~19%. Divested Red Lobster Q1 2024 (US$530M loss). FY = calendar year. Reports in THB. FY history from Thai Union annual reports + SET filings via thaiunion.com.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 132402,
+      "ebitdaMM": 13900,
+      "netIncomeMM": 6246,
+      "totalDebtMM": 49000,
+      "cashMM": 4800,
+      "netDebtMM": 44200,
+      "sharesOutMM": 4771,
+      "dividendPerShare": 0.7,
+      "notes": "FY20: Revenue ฿132.4B (+5% YoY); net profit ฿6.25B (+62%). COVID retail canned-tuna boom; lower fuel + raw-material costs."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 141048,
+      "ebitdaMM": 14600,
+      "netIncomeMM": 8013,
+      "totalDebtMM": 53000,
+      "cashMM": 5100,
+      "netDebtMM": 47900,
+      "sharesOutMM": 4771,
+      "dividendPerShare": 0.84,
+      "notes": "FY21: Revenue ฿141B record; net profit ฿8.01B record on operating leverage + favorable raw materials."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 155586,
+      "ebitdaMM": 15400,
+      "netIncomeMM": 7170,
+      "totalDebtMM": 60000,
+      "cashMM": 5500,
+      "netDebtMM": 54500,
+      "sharesOutMM": 4771,
+      "dividendPerShare": 0.84,
+      "notes": "FY22: Revenue ฿155.6B record (+10%); net profit ฿7.17B. Tuna raw material at all-time high — passed through partially."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 136153,
+      "ebitdaMM": 9800,
+      "netIncomeMM": -3000,
+      "totalDebtMM": 64000,
+      "cashMM": 6000,
+      "netDebtMM": 58000,
+      "sharesOutMM": 4771,
+      "dividendPerShare": 0.31,
+      "notes": "FY23: Revenue ฿136.2B (-12%); net loss ฿3.0B from ฿18.4B Red Lobster impairment / exit charges. Core ex-RL net profit ฿4.1B."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 138903,
+      "ebitdaMM": 13700,
+      "netIncomeMM": 6722,
+      "totalDebtMM": 60500,
+      "cashMM": 6800,
+      "netDebtMM": 53700,
+      "sharesOutMM": 4771,
+      "dividendPerShare": 0.61,
+      "notes": "FY24: Revenue ฿138.9B (+2%); net profit ฿6.72B turnaround post Red Lobster exit. Buyback program + IPO of i-Tail Pet Care subsidiary."
+    }
+  ]
+}

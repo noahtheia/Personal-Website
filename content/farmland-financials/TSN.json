@@ -1,0 +1,103 @@
+{
+  "ticker": "TSN",
+  "currency": "USD",
+  "sourceUrl": "https://ir.tyson.com/financials/sec-filings/default.aspx",
+  "notes": "Tyson Foods (NYSE: TSN) — world's second-largest processor of beef, pork, and chicken. Fiscal year ends late September / early October (52/53-week year). Five reporting segments: Beef, Pork, Chicken, Prepared Foods, International/Other. Highly cyclical — Beef has been pressured FY23-FY25 by US cattle herd contraction and negative spreads, while Chicken margins recovered FY24 from FY23 trough. Net debt rebuilt cash post-2022 acquisitions; ~$2B share buybacks suspended FY23. Dividend $1.96 → $2.00 annualized. Data sourced from 10-K filings (CIK 100493). FY24 10-K filed Nov 12, 2024.",
+  "periods": [
+    {
+      "endDate": "2020-10-03",
+      "periodType": "FY",
+      "revenueMM": 43185,
+      "expensesBySegmentMM": {
+        "Cost of sales": 38298,
+        "SG&A": 1842,
+        "D&A": 1080,
+        "Other": 0
+      },
+      "ebitdaMM": 4125,
+      "netDebtMM": 9335,
+      "totalDebtMM": 11017,
+      "cashMM": 1682,
+      "sharesOutMM": 365.0,
+      "bookValuePerShare": 38.55,
+      "dividendPerShare": 1.665,
+      "notes": "FY20: revenue $43.2B, operating income $3.05B. Pandemic disruption to plant operations. 53-week year."
+    },
+    {
+      "endDate": "2021-10-02",
+      "periodType": "FY",
+      "revenueMM": 47049,
+      "expensesBySegmentMM": {
+        "Cost of sales": 41896,
+        "SG&A": 1929,
+        "D&A": 1124,
+        "Other": 0
+      },
+      "ebitdaMM": 4884,
+      "netDebtMM": 6943,
+      "totalDebtMM": 9462,
+      "cashMM": 2519,
+      "sharesOutMM": 363.0,
+      "bookValuePerShare": 44.75,
+      "dividendPerShare": 1.785,
+      "notes": "FY21: revenue $47.0B (+9%). Beef margins record-high (15.6%). Op income $4.4B."
+    },
+    {
+      "endDate": "2022-10-01",
+      "periodType": "FY",
+      "revenueMM": 53282,
+      "expensesBySegmentMM": {
+        "Cost of sales": 47713,
+        "SG&A": 2107,
+        "D&A": 1180,
+        "Other": 0
+      },
+      "ebitdaMM": 4747,
+      "netDebtMM": 7036,
+      "totalDebtMM": 8095,
+      "cashMM": 1031,
+      "sharesOutMM": 357.0,
+      "bookValuePerShare": 51.55,
+      "dividendPerShare": 1.86,
+      "notes": "FY22: revenue $53.3B (+13%). Beef profits normalized; chicken still negative spread."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "FY",
+      "revenueMM": 52881,
+      "expensesBySegmentMM": {
+        "Cost of sales": 50798,
+        "SG&A": 1996,
+        "D&A": 1336,
+        "Other": 781
+      },
+      "ebitdaMM": 1100,
+      "netDebtMM": 6843,
+      "totalDebtMM": 9486,
+      "cashMM": 2643,
+      "sharesOutMM": 355.4,
+      "bookValuePerShare": 47.20,
+      "dividendPerShare": 1.94,
+      "notes": "FY23: revenue $52.9B (-1%). Operating loss $-395M; impairments $781M. Chicken segment loss $-686M; beef -$278M. EBITDA collapsed."
+    },
+    {
+      "endDate": "2024-09-28",
+      "periodType": "FY",
+      "revenueMM": 53309,
+      "expensesBySegmentMM": {
+        "Cost of sales": 50352,
+        "SG&A": 2017,
+        "D&A": 1304,
+        "Other": 0
+      },
+      "ebitdaMM": 2812,
+      "netDebtMM": 7406,
+      "totalDebtMM": 9477,
+      "cashMM": 2071,
+      "sharesOutMM": 355.6,
+      "bookValuePerShare": 49.10,
+      "dividendPerShare": 1.96,
+      "notes": "FY24: revenue $53.3B (+0.8%). Adj operating income $1.83B (chicken recovery). Adj EBITDA ~$2.81B. Net debt ~$7.4B."
+    }
+  ]
+}
