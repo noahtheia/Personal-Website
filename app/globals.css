@@ -13,8 +13,8 @@
   --muted: #5a6478;
 
   /* Accents */
-  --accent: #1e3a6f;        /* institutional navy — links, focus */
-  --accent-hover: #142a52;
+  --accent: #000000;        /* black — links, focus, eyebrow */
+  --accent-hover: #404040;
   --accent-warm: #c9a227;   /* gold — CTAs, highlights */
   --accent-warm-hover: #a88419;
 
