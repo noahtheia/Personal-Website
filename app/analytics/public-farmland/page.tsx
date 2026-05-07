@@ -17,7 +17,7 @@ function fxNote(rows: PricedFarmlandComp[]): string {
 }
 
 export const metadata = {
-  title: "Public farmland",
+  title: "Agriculture comps",
   description:
     "Public US farmland REIT comps with live-price multiples.",
 };
@@ -32,7 +32,7 @@ export default async function PublicFarmlandPage() {
     <div>
       <header className="border-b border-rule pb-4">
         <h1 className="font-display text-2xl font-semibold tracking-tight sm:text-3xl">
-          Public Farmland Comps
+          Agriculture Comps
         </h1>
         <p className="mt-1 text-sm text-muted">
           (USD millions except per-share and per-acre · non-USD listings
