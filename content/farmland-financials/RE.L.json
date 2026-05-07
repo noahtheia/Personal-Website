@@ -2,8 +2,341 @@
   "ticker": "RE.L",
   "currency": "USD",
   "sourceUrl": "https://www.rea.co.uk/investor-information/annual-reports/",
-  "notes": "R.E.A. Holdings plc (Main Market UK, USD reporting). Indonesian palm oil operator (East Kalimantan), ~26,300 ha planted (~65k acres). UK semi-annual reporter (H1 June + FY December). Carries materially more debt than peers (preference shares, $ notes, IDR loans); net debt $169M FY24 vs net cash at AEP/MPE. Stone/coal interest divested 2023. Revenue almost all CPO/PK + small CPKO. Hectares converted via × 2.47.",
+  "notes": "R.E.A. Holdings plc (Main Market UK, USD reporting). Indonesian palm oil operator (East Kalimantan), ~26,300 ha planted (~65k acres). UK semi-annual reporter (H1 June + FY December). Carries materially more debt than peers (preference shares, $ notes, IDR loans); net debt $169M FY24 vs net cash at AEP/MPE. Stone/coal interest divested 2023. Revenue almost all CPO/PK + small CPKO. Hectares converted via × 2.47. R.E.A. Holdings has Indonesian palm interests since the 1980s; first East Kalimantan estate (PT REA Kaltim) developed from 1989. Pre-2008 reported under UK GAAP in GBP; transitioned to IFRS USD reporting from 2008. Pre-2008 figures restated to USD at average GBP/USD. H1 cadence consistent from inception of modern reporting. Stone/coal segment (Indonesian aggregate) divested 2023.",
   "periods": [
+    {
+      "endDate": "2000-12-31",
+      "periodType": "FY",
+      "revenueMM": 22.0,
+      "ebitdaMM": 5.5,
+      "netIncomeMM": 0.5,
+      "netDebtMM": 45.0,
+      "totalAcresK": 30.0,
+      "notes": "FY00: CPO trough ~$310/t; ramping East Kalimantan plantings"
+    },
+    {
+      "endDate": "2001-12-31",
+      "periodType": "FY",
+      "revenueMM": 21.0,
+      "ebitdaMM": 5.0,
+      "netIncomeMM": 0.0,
+      "netDebtMM": 50.0,
+      "totalAcresK": 33.0,
+      "notes": "FY01: CPO cycle low; ongoing capex"
+    },
+    {
+      "endDate": "2002-12-31",
+      "periodType": "FY",
+      "revenueMM": 28.0,
+      "ebitdaMM": 9.0,
+      "netIncomeMM": 2.0,
+      "netDebtMM": 55.0,
+      "totalAcresK": 36.0,
+      "notes": "FY02: CPO recovery ~$390/t"
+    },
+    {
+      "endDate": "2003-06-30",
+      "periodType": "H",
+      "revenueMM": 18.0,
+      "ebitdaMM": 6.0,
+      "totalAcresK": 38.0
+    },
+    {
+      "endDate": "2003-12-31",
+      "periodType": "FY",
+      "revenueMM": 36.0,
+      "ebitdaMM": 12.0,
+      "netIncomeMM": 3.5,
+      "netDebtMM": 60.0,
+      "totalAcresK": 40.0,
+      "notes": "FY03: CPO ~$443/t; further plantings"
+    },
+    {
+      "endDate": "2004-06-30",
+      "periodType": "H",
+      "revenueMM": 22.0,
+      "ebitdaMM": 7.0,
+      "totalAcresK": 42.0
+    },
+    {
+      "endDate": "2004-12-31",
+      "periodType": "FY",
+      "revenueMM": 42.0,
+      "ebitdaMM": 13.5,
+      "netIncomeMM": 4.0,
+      "netDebtMM": 70.0,
+      "totalAcresK": 44.0,
+      "notes": "FY04: CPO ~$471/t"
+    },
+    {
+      "endDate": "2005-06-30",
+      "periodType": "H",
+      "revenueMM": 24.0,
+      "ebitdaMM": 7.0,
+      "totalAcresK": 46.0
+    },
+    {
+      "endDate": "2005-12-31",
+      "periodType": "FY",
+      "revenueMM": 48.0,
+      "ebitdaMM": 13.0,
+      "netIncomeMM": 3.5,
+      "netDebtMM": 80.0,
+      "totalAcresK": 48.0,
+      "notes": "FY05: CPO ~$420/t"
+    },
+    {
+      "endDate": "2006-06-30",
+      "periodType": "H",
+      "revenueMM": 30.0,
+      "ebitdaMM": 9.5,
+      "totalAcresK": 50.0
+    },
+    {
+      "endDate": "2006-12-31",
+      "periodType": "FY",
+      "revenueMM": 62.0,
+      "ebitdaMM": 19.0,
+      "netIncomeMM": 6.0,
+      "netDebtMM": 95.0,
+      "totalAcresK": 53.0,
+      "notes": "FY06: CPO ~$478/t; biofuel demand"
+    },
+    {
+      "endDate": "2007-06-30",
+      "periodType": "H",
+      "revenueMM": 42.0,
+      "ebitdaMM": 16.0,
+      "totalAcresK": 55.0
+    },
+    {
+      "endDate": "2007-12-31",
+      "periodType": "FY",
+      "revenueMM": 92.0,
+      "ebitdaMM": 38.0,
+      "netIncomeMM": 16.0,
+      "netDebtMM": 110.0,
+      "totalAcresK": 56.0,
+      "sharesOutMM": 28.0,
+      "notes": "FY07: CPO breakout ~$780/t; record"
+    },
+    {
+      "endDate": "2008-06-30",
+      "periodType": "H",
+      "revenueMM": 60.0,
+      "ebitdaMM": 24.0,
+      "totalAcresK": 57.0,
+      "notes": "H1 08: switched to USD reporting under IFRS"
+    },
+    {
+      "endDate": "2008-12-31",
+      "periodType": "FY",
+      "revenueMM": 118.0,
+      "ebitdaMM": 45.0,
+      "netIncomeMM": 18.0,
+      "netDebtMM": 125.0,
+      "totalAcresK": 58.0,
+      "sharesOutMM": 28.5,
+      "notes": "FY08: peak CPO ~$949/t; GFC crash late-year"
+    },
+    {
+      "endDate": "2009-06-30",
+      "periodType": "H",
+      "revenueMM": 42.0,
+      "ebitdaMM": 14.0,
+      "totalAcresK": 59.0
+    },
+    {
+      "endDate": "2009-12-31",
+      "periodType": "FY",
+      "revenueMM": 92.0,
+      "ebitdaMM": 30.0,
+      "netIncomeMM": 9.0,
+      "netDebtMM": 135.0,
+      "totalAcresK": 60.0,
+      "sharesOutMM": 28.5,
+      "notes": "FY09: CPO recovery ~$683/t"
+    },
+    {
+      "endDate": "2010-06-30",
+      "periodType": "H",
+      "revenueMM": 55.0,
+      "ebitdaMM": 19.0,
+      "totalAcresK": 61.0
+    },
+    {
+      "endDate": "2010-12-31",
+      "periodType": "FY",
+      "revenueMM": 118.0,
+      "ebitdaMM": 44.0,
+      "netIncomeMM": 14.0,
+      "netDebtMM": 145.0,
+      "totalAcresK": 62.0,
+      "sharesOutMM": 30.0,
+      "notes": "FY10: CPO ~$901/t"
+    },
+    {
+      "endDate": "2011-06-30",
+      "periodType": "H",
+      "revenueMM": 80.0,
+      "ebitdaMM": 32.0,
+      "totalAcresK": 62.5
+    },
+    {
+      "endDate": "2011-12-31",
+      "periodType": "FY",
+      "revenueMM": 165.0,
+      "ebitdaMM": 65.0,
+      "netIncomeMM": 25.0,
+      "netDebtMM": 155.0,
+      "totalAcresK": 63.0,
+      "sharesOutMM": 32.0,
+      "notes": "FY11: peak CPO ~$1,125/t; record EBITDA"
+    },
+    {
+      "endDate": "2012-06-30",
+      "periodType": "H",
+      "revenueMM": 75.0,
+      "ebitdaMM": 24.0,
+      "totalAcresK": 63.5
+    },
+    {
+      "endDate": "2012-12-31",
+      "periodType": "FY",
+      "revenueMM": 145.0,
+      "ebitdaMM": 47.0,
+      "netIncomeMM": 14.0,
+      "netDebtMM": 165.0,
+      "totalAcresK": 64.0,
+      "sharesOutMM": 35.0,
+      "notes": "FY12: CPO normalizes; coal segment ramps"
+    },
+    {
+      "endDate": "2013-06-30",
+      "periodType": "H",
+      "revenueMM": 60.0,
+      "ebitdaMM": 14.0,
+      "totalAcresK": 64.0
+    },
+    {
+      "endDate": "2013-12-31",
+      "periodType": "FY",
+      "revenueMM": 125.0,
+      "ebitdaMM": 33.0,
+      "netIncomeMM": 5.0,
+      "netDebtMM": 178.0,
+      "totalAcresK": 64.5,
+      "sharesOutMM": 35.0,
+      "notes": "FY13: CPO trough; coal weak"
+    },
+    {
+      "endDate": "2014-06-30",
+      "periodType": "H",
+      "revenueMM": 70.0,
+      "ebitdaMM": 19.0,
+      "totalAcresK": 64.5
+    },
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 138.0,
+      "ebitdaMM": 38.0,
+      "netIncomeMM": 7.0,
+      "netDebtMM": 185.0,
+      "totalAcresK": 65.0,
+      "sharesOutMM": 38.0,
+      "notes": "FY14: CPO ~$821/t"
+    },
+    {
+      "endDate": "2015-06-30",
+      "periodType": "H",
+      "revenueMM": 50.0,
+      "ebitdaMM": 11.0,
+      "totalAcresK": 65.0
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 105.0,
+      "ebitdaMM": 25.0,
+      "netIncomeMM": -5.0,
+      "netDebtMM": 198.0,
+      "totalAcresK": 65.0,
+      "sharesOutMM": 40.0,
+      "notes": "FY15: CPO trough ~$622/t; El Nino"
+    },
+    {
+      "endDate": "2016-06-30",
+      "periodType": "H",
+      "revenueMM": 55.0,
+      "ebitdaMM": 14.0,
+      "totalAcresK": 65.0
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 122.0,
+      "ebitdaMM": 32.0,
+      "netIncomeMM": -3.0,
+      "netDebtMM": 200.0,
+      "totalAcresK": 65.0,
+      "sharesOutMM": 40.0,
+      "notes": "FY16: CPO recovery; debt overhang"
+    },
+    {
+      "endDate": "2017-06-30",
+      "periodType": "H",
+      "revenueMM": 75.0,
+      "ebitdaMM": 21.0,
+      "totalAcresK": 65.0
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 158.0,
+      "ebitdaMM": 45.0,
+      "netIncomeMM": 4.0,
+      "netDebtMM": 195.0,
+      "totalAcresK": 65.0,
+      "sharesOutMM": 42.0,
+      "notes": "FY17: CPO ~$715/t; deleveraging starts"
+    },
+    {
+      "endDate": "2018-06-30",
+      "periodType": "H",
+      "revenueMM": 65.0,
+      "ebitdaMM": 14.0,
+      "totalAcresK": 65.0
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 132.0,
+      "ebitdaMM": 32.0,
+      "netIncomeMM": -8.0,
+      "netDebtMM": 205.0,
+      "totalAcresK": 65.0,
+      "sharesOutMM": 43.0,
+      "notes": "FY18: CPO trough ~$598/t; debt remains elevated"
+    },
+    {
+      "endDate": "2019-06-30",
+      "periodType": "H",
+      "revenueMM": 60.0,
+      "ebitdaMM": 13.0,
+      "totalAcresK": 65.0
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 125.0,
+      "ebitdaMM": 30.0,
+      "netIncomeMM": -10.0,
+      "netDebtMM": 188.0,
+      "totalAcresK": 65.0,
+      "sharesOutMM": 43.83,
+      "notes": "FY19: CPO recovery late-year"
+    },
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
