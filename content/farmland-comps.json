@@ -141,7 +141,8 @@
     "sector": "Farmland Owner / REIT",
     "geography": "Australia",
     "operatingCountry": "Australia",
-    "annualNetIncomeMM": 9.5
+    "annualNetIncomeMM": 9.5,
+    "annualFcfMM": 47
   },
   {
     "ticker": "LAND3.SA",
@@ -283,7 +284,8 @@
     "sector": "Integrated Farm Operator",
     "geography": "EU",
     "operatingCountry": "Ukraine",
-    "annualNetIncomeMM": -1
+    "annualNetIncomeMM": -1,
+    "annualFcfMM": 0
   },
   {
     "ticker": "SHV.AX",
@@ -329,7 +331,8 @@
     "sector": "Diversified Agribusiness",
     "geography": "UK",
     "operatingCountry": "Kenya",
-    "annualNetIncomeMM": -3
+    "annualNetIncomeMM": -3,
+    "annualFcfMM": 3
   },
   {
     "ticker": "AST.WA",
@@ -353,7 +356,8 @@
     "sector": "Diversified Agribusiness",
     "geography": "Poland",
     "operatingCountry": "Ukraine",
-    "annualNetIncomeMM": 35
+    "annualNetIncomeMM": 35,
+    "annualFcfMM": 31
   },
   {
     "ticker": "MPE.L",
@@ -378,7 +382,8 @@
     "sector": "Plantation Operator",
     "geography": "UK",
     "operatingCountry": "Indonesia",
-    "annualNetIncomeMM": 56
+    "annualNetIncomeMM": 56,
+    "annualFcfMM": 60
   },
   {
     "ticker": "RE.L",
@@ -403,7 +408,8 @@
     "sector": "Plantation Operator",
     "geography": "UK",
     "operatingCountry": "Indonesia",
-    "annualNetIncomeMM": 8
+    "annualNetIncomeMM": 8,
+    "annualFcfMM": 11
   },
   {
     "ticker": "AEP.L",
@@ -427,7 +433,8 @@
     "sector": "Plantation Operator",
     "geography": "UK",
     "operatingCountry": "Indonesia",
-    "annualNetIncomeMM": 56
+    "annualNetIncomeMM": 56,
+    "annualFcfMM": 30
   },
   {
     "ticker": "2089.KL",
@@ -1402,7 +1409,8 @@
     "sector": "Agribusiness / Trader",
     "geography": "Poland",
     "operatingCountry": "Ukraine",
-    "annualNetIncomeMM": 268
+    "annualNetIncomeMM": 268,
+    "annualFcfMM": 244
   },
   {
     "ticker": "MHPC.L",
@@ -1423,7 +1431,8 @@
     "sector": "Protein Producer",
     "geography": "UK",
     "operatingCountry": "Ukraine",
-    "annualNetIncomeMM": 168
+    "annualNetIncomeMM": 168,
+    "annualFcfMM": 220
   },
   {
     "ticker": "SZU.DE",
@@ -1443,7 +1452,8 @@
     "sector": "Agribusiness / Trader",
     "geography": "EU",
     "operatingCountry": "EU",
-    "annualNetIncomeMM": -27
+    "annualNetIncomeMM": -27,
+    "annualFcfMM": 91
   },
   {
     "ticker": "TATE.L",
@@ -1463,7 +1473,8 @@
     "sector": "Agribusiness / Trader",
     "geography": "UK",
     "operatingCountry": "UK",
-    "annualNetIncomeMM": 134
+    "annualNetIncomeMM": 134,
+    "annualFcfMM": 103
   },
   {
     "ticker": "ABF.L",
@@ -1483,7 +1494,8 @@
     "sector": "Diversified Agribusiness",
     "geography": "UK",
     "operatingCountry": "UK",
-    "annualNetIncomeMM": 1448
+    "annualNetIncomeMM": 1448,
+    "annualFcfMM": 1395
   },
   {
     "ticker": "ELD.AX",
@@ -2061,7 +2073,9 @@
     "epsTTM": 1.05,
     "sector": "Agribusiness / Trader",
     "geography": "EU",
-    "operatingCountry": "EU"
+    "operatingCountry": "EU",
+    "annualNetIncomeMM": 162,
+    "annualFcfMM": 245
   },
   {
     "ticker": "CWK.L",
@@ -2080,7 +2094,9 @@
     "epsTTM": 2.85,
     "sector": "Protein Producer",
     "geography": "UK",
-    "operatingCountry": "UK"
+    "operatingCountry": "UK",
+    "annualNetIncomeMM": 117,
+    "annualFcfMM": 113
   },
   {
     "ticker": "INGR",
@@ -2642,7 +2658,8 @@
     "sector": "Diversified Agribusiness",
     "geography": "EU",
     "operatingCountry": "EU",
-    "annualNetIncomeMM": 55
+    "annualNetIncomeMM": 55,
+    "annualFcfMM": 32
   },
   {
     "ticker": "HFG.L",
@@ -2664,7 +2681,8 @@
     "sector": "Protein Producer",
     "geography": "UK",
     "operatingCountry": "UK",
-    "annualNetIncomeMM": 47
+    "annualNetIncomeMM": 47,
+    "annualFcfMM": 90
   },
   {
     "ticker": "SM1.NZ",
