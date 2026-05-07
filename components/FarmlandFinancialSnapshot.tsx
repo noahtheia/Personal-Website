@@ -1039,73 +1039,133 @@ function collectAnnualizedEbitda(financials: Financials): DatedPoint[] {
   return merged;
 }
 
-// Build the Income chart series:
-//   - Primary: net revenue per period (segment-stacked bars)
-//   - Overlay: gross revenue line (where reported)
-//   - Overlay2: EBITDA line (where reported)
-// Period filtering: prefer Q over FY/H/LTM within the same fiscal year.
+// Build the Income chart series at a CONSISTENT annual (FY) cadence so
+// the bar chart isn't visually mixed (small Q bars next to large FY bars).
+// For each fiscal year:
+//   - If an FY row exists with revenue, use it.
+//   - Else synthesize FY by summing 4 Q rows (or 2 H rows). Drop years
+//     with incomplete coverage (e.g., 3 Q in the latest open year).
+// All metrics aggregate the same way: revenueMM, grossRevenueMM,
+// ebitdaMM, revenueBySegmentMM (per-key sum), expensesBySegmentMM (per-key sum).
 function buildIncomeSeries(
   financials: Financials,
   ccy: string,
 ): Series | null {
-  // Determine period filter — same logic as pickSeries: drop FY/LTM/H
-  // for years with quarterly coverage.
-  const quarterlyYears = new Set<number>();
-  for (const p of financials.periods) {
-    if (p.periodType === "Q" && typeof p.revenueMM === "number") {
-      quarterlyYears.add(new Date(p.endDate).getFullYear());
-    }
-  }
-  const usable = financials.periods.filter((p) => {
-    if (typeof p.revenueMM !== "number") return false;
-    if (p.periodType === "Q") return true;
-    return !quarterlyYears.has(new Date(p.endDate).getFullYear());
-  });
-  if (usable.length === 0) return null;
-  usable.sort((a, b) => a.endDate.localeCompare(b.endDate));
+  type Aggregated = {
+    endDate: string;
+    revenueMM: number;
+    grossRevenueMM?: number;
+    ebitdaMM?: number;
+    revenueBySegmentMM?: Record<string, number>;
+    expensesBySegmentMM?: Record<string, number>;
+  };
 
-  const points: DatedPoint[] = usable.map((p) => ({
-    date: p.endDate,
-    value: p.revenueMM as number,
+  const byYear = new Map<number, FinancialsPeriod[]>();
+  for (const p of financials.periods) {
+    if (typeof p.revenueMM !== "number") continue;
+    const y = new Date(p.endDate).getFullYear();
+    if (!byYear.has(y)) byYear.set(y, []);
+    byYear.get(y)!.push(p);
+  }
+
+  const sumNum = (
+    parts: FinancialsPeriod[],
+    key: "revenueMM" | "grossRevenueMM" | "ebitdaMM",
+  ): number | undefined => {
+    if (!parts.every((p) => typeof p[key] === "number")) return undefined;
+    return parts.reduce((s, p) => s + (p[key] as number), 0);
+  };
+  const sumSeg = (
+    parts: FinancialsPeriod[],
+    key: "revenueBySegmentMM" | "expensesBySegmentMM",
+  ): Record<string, number> | undefined => {
+    if (!parts.every((p) => p[key])) return undefined;
+    const acc: Record<string, number> = {};
+    for (const p of parts) {
+      for (const [k, v] of Object.entries(p[key]!)) {
+        acc[k] = (acc[k] ?? 0) + v;
+      }
+    }
+    return acc;
+  };
+
+  const aggregated: Aggregated[] = [];
+  for (const [, periods] of byYear) {
+    const fy = periods.find(
+      (p) => p.periodType === "FY" && typeof p.revenueMM === "number",
+    );
+    if (fy) {
+      aggregated.push({
+        endDate: fy.endDate,
+        revenueMM: fy.revenueMM as number,
+        grossRevenueMM: fy.grossRevenueMM,
+        ebitdaMM: fy.ebitdaMM,
+        revenueBySegmentMM: fy.revenueBySegmentMM,
+        expensesBySegmentMM: fy.expensesBySegmentMM,
+      });
+      continue;
+    }
+    const qs = periods
+      .filter((p) => p.periodType === "Q")
+      .sort((a, b) => a.endDate.localeCompare(b.endDate));
+    const hs = periods
+      .filter((p) => p.periodType === "H")
+      .sort((a, b) => a.endDate.localeCompare(b.endDate));
+    let parts: FinancialsPeriod[] | null = null;
+    if (qs.length === 4) parts = qs;
+    else if (hs.length === 2) parts = hs;
+    if (!parts) continue;
+    const rev = sumNum(parts, "revenueMM");
+    if (rev === undefined) continue;
+    aggregated.push({
+      endDate: parts[parts.length - 1].endDate,
+      revenueMM: rev,
+      grossRevenueMM: sumNum(parts, "grossRevenueMM"),
+      ebitdaMM: sumNum(parts, "ebitdaMM"),
+      revenueBySegmentMM: sumSeg(parts, "revenueBySegmentMM"),
+      expensesBySegmentMM: sumSeg(parts, "expensesBySegmentMM"),
+    });
+  }
+
+  if (aggregated.length === 0) return null;
+  aggregated.sort((a, b) => a.endDate.localeCompare(b.endDate));
+
+  const points: DatedPoint[] = aggregated.map((a) => ({
+    date: a.endDate,
+    value: a.revenueMM,
   }));
 
-  // Segment stack: collect all segment names across periods (those that
-  // have any positive contribution), then build per-point segment values.
+  // Segment stack: union of revenue-segment names across years.
   const segmentNames = new Set<string>();
-  for (const p of usable) {
-    if (p.revenueBySegmentMM) {
-      for (const k of Object.keys(p.revenueBySegmentMM)) segmentNames.add(k);
+  for (const a of aggregated) {
+    if (a.revenueBySegmentMM) {
+      for (const k of Object.keys(a.revenueBySegmentMM)) segmentNames.add(k);
     }
   }
   let segments: Series["segments"] | undefined;
   if (segmentNames.size > 0) {
     const namesArr = Array.from(segmentNames);
-    const perPoint = usable.map((p) => {
+    const perPoint = aggregated.map((a) => {
       const out: Record<string, number> = {};
-      for (const n of namesArr) {
-        out[n] = p.revenueBySegmentMM?.[n] ?? 0;
-      }
+      for (const n of namesArr) out[n] = a.revenueBySegmentMM?.[n] ?? 0;
       return out;
     });
     segments = { names: namesArr, perPoint };
   }
 
-  // Operating-expense segments (stacked below zero). Stored as positive
-  // filing-currency $M; the view builder renders them with negative y.
+  // Expense segments (stacked below zero).
   const expenseNamesSet = new Set<string>();
-  for (const p of usable) {
-    if (p.expensesBySegmentMM) {
-      for (const k of Object.keys(p.expensesBySegmentMM))
+  for (const a of aggregated) {
+    if (a.expensesBySegmentMM) {
+      for (const k of Object.keys(a.expensesBySegmentMM))
         expenseNamesSet.add(k);
     }
   }
   if (expenseNamesSet.size > 0) {
     const expenseNames = Array.from(expenseNamesSet);
-    const expensePerPoint = usable.map((p) => {
+    const expensePerPoint = aggregated.map((a) => {
       const out: Record<string, number> = {};
-      for (const n of expenseNames) {
-        out[n] = p.expensesBySegmentMM?.[n] ?? 0;
-      }
+      for (const n of expenseNames) out[n] = a.expensesBySegmentMM?.[n] ?? 0;
       return out;
     });
     if (segments) {
@@ -1114,7 +1174,7 @@ function buildIncomeSeries(
     } else {
       segments = {
         names: [],
-        perPoint: usable.map(() => ({})),
+        perPoint: aggregated.map(() => ({})),
         expenseNames,
         expensePerPoint,
       };
@@ -1123,7 +1183,7 @@ function buildIncomeSeries(
 
   const series: Series = {
     label: "Net revenue",
-    description: `Reported net revenue (segment-stacked), ${ccy} M`,
+    description: `Reported net revenue (annual, segment-stacked), ${ccy} M`,
     unit: { kind: "millions", ccy },
     kind: "bar",
     points,
@@ -1132,45 +1192,33 @@ function buildIncomeSeries(
 
   // Gross revenue overlay
   const grossPoints: DatedPoint[] = [];
-  for (const p of usable) {
-    if (typeof p.grossRevenueMM === "number") {
-      grossPoints.push({ date: p.endDate, value: p.grossRevenueMM });
+  for (const a of aggregated) {
+    if (typeof a.grossRevenueMM === "number") {
+      grossPoints.push({ date: a.endDate, value: a.grossRevenueMM });
     }
   }
   if (grossPoints.length > 0) {
-    series.overlay = {
-      label: "Gross revenue",
-      points: grossPoints,
-    };
+    series.overlay = { label: "Gross revenue", points: grossPoints };
   }
 
-  // EBITDA overlay (separate line, may be lower than revenue including
-  // negative quarters)
+  // EBITDA overlay
   const ebitdaPoints: DatedPoint[] = [];
-  for (const p of usable) {
-    if (typeof p.ebitdaMM === "number") {
-      ebitdaPoints.push({ date: p.endDate, value: p.ebitdaMM });
+  for (const a of aggregated) {
+    if (typeof a.ebitdaMM === "number") {
+      ebitdaPoints.push({ date: a.endDate, value: a.ebitdaMM });
     }
   }
   if (ebitdaPoints.length > 0) {
-    series.overlay2 = {
-      label: "EBITDA",
-      points: ebitdaPoints,
-    };
+    series.overlay2 = { label: "EBITDA", points: ebitdaPoints };
   }
 
-  // EBITDA margin (right axis) — only meaningful when both EBITDA and
-  // revenue exist for the period.
+  // EBITDA margin (right axis) — annual.
   const marginPoints: DatedPoint[] = [];
-  for (const p of usable) {
-    if (
-      typeof p.ebitdaMM === "number" &&
-      typeof p.revenueMM === "number" &&
-      p.revenueMM > 0
-    ) {
+  for (const a of aggregated) {
+    if (typeof a.ebitdaMM === "number" && a.revenueMM > 0) {
       marginPoints.push({
-        date: p.endDate,
-        value: (p.ebitdaMM / p.revenueMM) * 100,
+        date: a.endDate,
+        value: (a.ebitdaMM / a.revenueMM) * 100,
       });
     }
   }
