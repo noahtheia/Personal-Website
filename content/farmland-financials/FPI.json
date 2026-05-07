@@ -8,6 +8,12 @@
       "endDate": "2014-12-31",
       "periodType": "FY",
       "revenueMM": 8.6,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 2.1,
+        "G&A": 1.3,
+        "D&A": 0.5,
+        "Other": 0.2
+      },
       "ebitdaMM": 4.5,
       "noiMM": 6.5,
       "netIncomeMM": 0.5,
@@ -26,6 +32,12 @@
       "endDate": "2015-12-31",
       "periodType": "FY",
       "revenueMM": 16.7,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 4.2,
+        "G&A": 2.5,
+        "D&A": 1.0,
+        "Other": 0.3
+      },
       "ebitdaMM": 8.7,
       "noiMM": 12.5,
       "netIncomeMM": -0.5,
@@ -44,6 +56,12 @@
       "endDate": "2016-12-31",
       "periodType": "FY",
       "revenueMM": 25.5,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 6.5,
+        "G&A": 3.5,
+        "D&A": 1.5,
+        "Other": 0.5
+      },
       "ebitdaMM": 13.5,
       "noiMM": 19.0,
       "netIncomeMM": -3.5,
@@ -62,6 +80,12 @@
       "endDate": "2017-12-31",
       "periodType": "FY",
       "revenueMM": 47.7,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 14.2,
+        "G&A": 5.5,
+        "D&A": 2.5,
+        "Other": 0.5
+      },
       "ebitdaMM": 25.0,
       "noiMM": 33.5,
       "netIncomeMM": -7.0,
@@ -80,6 +104,12 @@
       "endDate": "2018-12-31",
       "periodType": "FY",
       "revenueMM": 51.5,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 15.5,
+        "G&A": 6.0,
+        "D&A": 2.5,
+        "Other": 0.5
+      },
       "ebitdaMM": 27.0,
       "noiMM": 36.0,
       "netIncomeMM": -8.0,

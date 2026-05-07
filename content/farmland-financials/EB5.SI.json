@@ -18,8 +18,13 @@
       "netDebtMM": 125,
       "totalAcresK": 245,
       "sharesOutMM": 1457,
-      "dividendPerShare": 0.0040,
-      "notes": "FY08: First full year post-IPO (Dec 2007 listing). CPO avg USD 950/t. Planted area ~99K ha"
+      "dividendPerShare": 0.004,
+      "notes": "FY08: First full year post-IPO (Dec 2007 listing). CPO avg USD 950/t. Planted area ~99K ha",
+      "expensesBySegmentMM": {
+        "Cost of sales": 83.6,
+        "Selling & distribution expenses": 5.7,
+        "Administrative expenses": 5.7
+      }
     },
     {
       "endDate": "2009-12-31",
@@ -35,8 +40,13 @@
       "netDebtMM": 130,
       "totalAcresK": 260,
       "sharesOutMM": 1495,
-      "dividendPerShare": 0.0070,
-      "notes": "FY09: CPO USD 685/t post-GFC normalization; net income USD 105M"
+      "dividendPerShare": 0.007,
+      "notes": "FY09: CPO USD 685/t post-GFC normalization; net income USD 105M",
+      "expensesBySegmentMM": {
+        "Cost of sales": 83.6,
+        "Selling & distribution expenses": 5.7,
+        "Administrative expenses": 5.7
+      }
     },
     {
       "endDate": "2010-12-31",
@@ -53,7 +63,12 @@
       "totalAcresK": 285,
       "sharesOutMM": 1495,
       "dividendPerShare": 0.0125,
-      "notes": "FY10: CPO USD 900/t avg; revenue +39% YoY"
+      "notes": "FY10: CPO USD 900/t avg; revenue +39% YoY",
+      "expensesBySegmentMM": {
+        "Cost of sales": 96.8,
+        "Selling & distribution expenses": 6.6,
+        "Administrative expenses": 6.6
+      }
     },
     {
       "endDate": "2011-12-31",
@@ -70,8 +85,13 @@
       "netDebtMM": 155,
       "totalAcresK": 305,
       "sharesOutMM": 1503,
-      "dividendPerShare": 0.0250,
-      "notes": "FY11: CPO record USD 1080/t; first contribution from Pelintung refinery (commissioned 2011)"
+      "dividendPerShare": 0.025,
+      "notes": "FY11: CPO record USD 1080/t; first contribution from Pelintung refinery (commissioned 2011)",
+      "expensesBySegmentMM": {
+        "Cost of sales": 118.8,
+        "Selling & distribution expenses": 8.1,
+        "Administrative expenses": 8.1
+      }
     },
     {
       "endDate": "2012-12-31",
@@ -88,8 +108,13 @@
       "netDebtMM": 240,
       "totalAcresK": 325,
       "sharesOutMM": 1542,
-      "dividendPerShare": 0.0260,
-      "notes": "FY12: CPO USD 940/t; biodiesel ramp"
+      "dividendPerShare": 0.026,
+      "notes": "FY12: CPO USD 940/t; biodiesel ramp",
+      "expensesBySegmentMM": {
+        "Cost of sales": 173.4,
+        "Selling & distribution expenses": 11.8,
+        "Administrative expenses": 11.8
+      }
     },
     {
       "endDate": "2013-12-31",
@@ -106,8 +131,13 @@
       "netDebtMM": 290,
       "totalAcresK": 345,
       "sharesOutMM": 1542,
-      "dividendPerShare": 0.0210,
-      "notes": "FY13: CPO USD 765/t"
+      "dividendPerShare": 0.021,
+      "notes": "FY13: CPO USD 765/t",
+      "expensesBySegmentMM": {
+        "Cost of sales": 197.1,
+        "Selling & distribution expenses": 13.4,
+        "Administrative expenses": 13.4
+      }
     },
     {
       "endDate": "2014-12-31",
@@ -125,7 +155,12 @@
       "totalAcresK": 365,
       "sharesOutMM": 1542,
       "dividendPerShare": 0.0245,
-      "notes": "FY14: CPO USD 820/t; biodiesel plant fully online"
+      "notes": "FY14: CPO USD 820/t; biodiesel plant fully online",
+      "expensesBySegmentMM": {
+        "Cost of sales": 242.9,
+        "Selling & distribution expenses": 16.6,
+        "Administrative expenses": 16.6
+      }
     },
     {
       "endDate": "2015-12-31",
@@ -142,8 +177,13 @@
       "netDebtMM": 380,
       "totalAcresK": 385,
       "sharesOutMM": 1581,
-      "dividendPerShare": 0.0090,
-      "notes": "FY15: CPO trough USD 565/t; net income USD 86M"
+      "dividendPerShare": 0.009,
+      "notes": "FY15: CPO trough USD 565/t; net income USD 86M",
+      "expensesBySegmentMM": {
+        "Cost of sales": 257.8,
+        "Selling & distribution expenses": 17.6,
+        "Administrative expenses": 17.6
+      }
     },
     {
       "endDate": "2016-12-31",
@@ -160,8 +200,13 @@
       "netDebtMM": 365,
       "totalAcresK": 400,
       "sharesOutMM": 1581,
-      "dividendPerShare": 0.0140,
-      "notes": "FY16: CPO USD 700/t recovery; El Nino-impacted FFB output"
+      "dividendPerShare": 0.014,
+      "notes": "FY16: CPO USD 700/t recovery; El Nino-impacted FFB output",
+      "expensesBySegmentMM": {
+        "Cost of sales": 236.7,
+        "Selling & distribution expenses": 16.1,
+        "Administrative expenses": 16.1
+      }
     },
     {
       "endDate": "2017-12-31",
@@ -179,8 +224,13 @@
       "totalAcresK": 415,
       "sharesOutMM": 1581,
       "dividendPerShare": 0.0186,
-      "bookValuePerShare": 0.60,
-      "notes": "FY17: CPO USD 715/t; FFB rebound post-El Nino"
+      "bookValuePerShare": 0.6,
+      "notes": "FY17: CPO USD 715/t; FFB rebound post-El Nino",
+      "expensesBySegmentMM": {
+        "Cost of sales": 287.8,
+        "Selling & distribution expenses": 19.6,
+        "Administrative expenses": 19.6
+      }
     },
     {
       "endDate": "2018-12-31",
@@ -197,9 +247,14 @@
       "netDebtMM": 340,
       "totalAcresK": 425,
       "sharesOutMM": 1581,
-      "dividendPerShare": 0.0140,
+      "dividendPerShare": 0.014,
       "bookValuePerShare": 0.62,
-      "notes": "FY18: CPO USD 600/t; weak CPO + biodiesel margin compression"
+      "notes": "FY18: CPO USD 600/t; weak CPO + biodiesel margin compression",
+      "expensesBySegmentMM": {
+        "Cost of sales": 291.3,
+        "Selling & distribution expenses": 19.9,
+        "Administrative expenses": 19.9
+      }
     },
     {
       "endDate": "2019-06-30",
@@ -212,7 +267,12 @@
       "ebitdaMM": 100.3,
       "netIncomeMM": 32.6,
       "totalAcresK": 432,
-      "notes": "1H19: weak CPO USD 510/t avg"
+      "notes": "1H19: weak CPO USD 510/t avg",
+      "expensesBySegmentMM": {
+        "Cost of sales": 159.6,
+        "Selling & distribution expenses": 10.9,
+        "Administrative expenses": 10.9
+      }
     },
     {
       "endDate": "2019-12-31",
@@ -231,7 +291,12 @@
       "sharesOutMM": 1581,
       "dividendPerShare": 0.0146,
       "bookValuePerShare": 0.65,
-      "notes": "FY19: Revenue USD 627M, EBITDA USD 252M"
+      "notes": "FY19: Revenue USD 627M, EBITDA USD 252M",
+      "expensesBySegmentMM": {
+        "Cost of sales": 330.0,
+        "Selling & distribution expenses": 22.5,
+        "Administrative expenses": 22.5
+      }
     },
     {
       "endDate": "2020-06-30",
@@ -244,7 +309,12 @@
       "ebitdaMM": 110.0,
       "netIncomeMM": 32.0,
       "totalAcresK": 432,
-      "notes": "1H20: COVID-impacted downstream"
+      "notes": "1H20: COVID-impacted downstream",
+      "expensesBySegmentMM": {
+        "Cost of sales": 154.9,
+        "Selling & distribution expenses": 10.6,
+        "Administrative expenses": 10.6
+      }
     },
     {
       "endDate": "2020-12-31",
@@ -263,7 +333,12 @@
       "sharesOutMM": 1581,
       "dividendPerShare": 0.0264,
       "bookValuePerShare": 0.71,
-      "notes": "FY20: CPO avg USD 700/t; EBITDA USD 305M"
+      "notes": "FY20: CPO avg USD 700/t; EBITDA USD 305M",
+      "expensesBySegmentMM": {
+        "Cost of sales": 321.6,
+        "Selling & distribution expenses": 21.9,
+        "Administrative expenses": 21.9
+      }
     },
     {
       "endDate": "2021-06-30",
@@ -276,7 +351,12 @@
       "ebitdaMM": 207.0,
       "netIncomeMM": 96.0,
       "totalAcresK": 432,
-      "notes": "1H21: CPO rally USD 1050/t"
+      "notes": "1H21: CPO rally USD 1050/t",
+      "expensesBySegmentMM": {
+        "Cost of sales": 179.5,
+        "Selling & distribution expenses": 12.2,
+        "Administrative expenses": 12.2
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -295,7 +375,12 @@
       "sharesOutMM": 1581,
       "dividendPerShare": 0.0411,
       "bookValuePerShare": 0.78,
-      "notes": "FY21: Record CPO, EBITDA USD 444M (+46% YoY)"
+      "notes": "FY21: Record CPO, EBITDA USD 444M (+46% YoY)",
+      "expensesBySegmentMM": {
+        "Cost of sales": 435.0,
+        "Selling & distribution expenses": 29.7,
+        "Administrative expenses": 29.7
+      }
     },
     {
       "endDate": "2022-06-30",
@@ -308,7 +393,12 @@
       "ebitdaMM": 350.0,
       "netIncomeMM": 178.0,
       "totalAcresK": 432,
-      "notes": "1H22: Indonesia export ban + Russia-Ukraine vegoil shock"
+      "notes": "1H22: Indonesia export ban + Russia-Ukraine vegoil shock",
+      "expensesBySegmentMM": {
+        "Cost of sales": 257.0,
+        "Selling & distribution expenses": 17.5,
+        "Administrative expenses": 17.5
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -328,7 +418,12 @@
       "dividendPerShare": 0.0594,
       "bookValuePerShare": 0.88,
       "propertyBookMM": 1500,
-      "notes": "FY22: Revenue USD 1.22B (record); EBITDA USD 595M; turned net cash"
+      "notes": "FY22: Revenue USD 1.22B (record); EBITDA USD 595M; turned net cash",
+      "expensesBySegmentMM": {
+        "Cost of sales": 549.7,
+        "Selling & distribution expenses": 37.5,
+        "Administrative expenses": 37.5
+      }
     },
     {
       "endDate": "2023-06-30",
@@ -341,7 +436,12 @@
       "ebitdaMM": 240.0,
       "netIncomeMM": 105.0,
       "totalAcresK": 432,
-      "notes": "1H23: Normalized CPO ~USD 950/t"
+      "notes": "1H23: Normalized CPO ~USD 950/t",
+      "expensesBySegmentMM": {
+        "Cost of sales": 250.8,
+        "Selling & distribution expenses": 17.1,
+        "Administrative expenses": 17.1
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -361,7 +461,12 @@
       "dividendPerShare": 0.029,
       "bookValuePerShare": 0.93,
       "propertyBookMM": 1500,
-      "notes": "FY23: EBITDA USD 460M (-23% YoY); net cash position"
+      "notes": "FY23: EBITDA USD 460M (-23% YoY); net cash position",
+      "expensesBySegmentMM": {
+        "Cost of sales": 501.5,
+        "Selling & distribution expenses": 34.2,
+        "Administrative expenses": 34.2
+      }
     },
     {
       "endDate": "2024-06-30",
@@ -374,7 +479,12 @@
       "ebitdaMM": 215.0,
       "netIncomeMM": 95.0,
       "totalAcresK": 432,
-      "notes": "1H24: Slightly weaker downstream margins"
+      "notes": "1H24: Slightly weaker downstream margins",
+      "expensesBySegmentMM": {
+        "Cost of sales": 277.2,
+        "Selling & distribution expenses": 18.9,
+        "Administrative expenses": 18.9
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -394,7 +504,12 @@
       "dividendPerShare": 0.0247,
       "bookValuePerShare": 0.97,
       "propertyBookMM": 1500,
-      "notes": "FY24: EBITDA USD 420M; net cash USD 150M"
+      "notes": "FY24: EBITDA USD 420M; net cash USD 150M",
+      "expensesBySegmentMM": {
+        "Cost of sales": 544.5,
+        "Selling & distribution expenses": 37.1,
+        "Administrative expenses": 37.1
+      }
     }
   ]
 }

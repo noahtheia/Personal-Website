@@ -187,6 +187,13 @@
       "endDate": "2009-03-31",
       "periodType": "FY",
       "revenueMM": 350.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 195.0,
+        "Employee benefits": 47.0,
+        "Administrative expenses": 22.0,
+        "D&A": 24.0,
+        "Other operating expenses": 12.0
+      },
       "ebitdaMM": 50.0,
       "netIncomeMM": 18.0,
       "totalAssetsMM": 1350.0,
@@ -207,6 +214,13 @@
       "endDate": "2010-03-31",
       "periodType": "FY",
       "revenueMM": 360.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 215.0,
+        "Employee benefits": 50.0,
+        "Administrative expenses": 24.0,
+        "D&A": 26.0,
+        "Other operating expenses": 13.0
+      },
       "ebitdaMM": 32.0,
       "netIncomeMM": -22.0,
       "totalAssetsMM": 1380.0,
@@ -227,6 +241,13 @@
       "endDate": "2011-03-31",
       "periodType": "FY",
       "revenueMM": 340.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 205.0,
+        "Employee benefits": 48.0,
+        "Administrative expenses": 23.0,
+        "D&A": 26.0,
+        "Other operating expenses": 10.0
+      },
       "ebitdaMM": 28.0,
       "netIncomeMM": -8.0,
       "totalAssetsMM": 1370.0,
@@ -247,6 +268,13 @@
       "endDate": "2012-03-31",
       "periodType": "FY",
       "revenueMM": 322.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 198.0,
+        "Employee benefits": 46.0,
+        "Administrative expenses": 22.0,
+        "D&A": 25.0,
+        "Other operating expenses": 9.0
+      },
       "ebitdaMM": 22.0,
       "netIncomeMM": -34.0,
       "totalAssetsMM": 1340.0,
@@ -267,6 +295,13 @@
       "endDate": "2013-03-31",
       "periodType": "FY",
       "revenueMM": 290.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 178.0,
+        "Employee benefits": 42.0,
+        "Administrative expenses": 21.0,
+        "D&A": 23.0,
+        "Other operating expenses": 8.0
+      },
       "ebitdaMM": 18.0,
       "netIncomeMM": -49.0,
       "totalAssetsMM": 1300.0,
@@ -287,6 +322,13 @@
       "endDate": "2014-03-31",
       "periodType": "FY",
       "revenueMM": 339.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 215.0,
+        "Employee benefits": 50.0,
+        "Administrative expenses": 25.0,
+        "D&A": 27.0,
+        "Other operating expenses": 10.0
+      },
       "ebitdaMM": 12.0,
       "netIncomeMM": -50.0,
       "totalAssetsMM": 1380.0,
@@ -307,6 +349,13 @@
       "endDate": "2015-03-31",
       "periodType": "FY",
       "revenueMM": 379.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 215.0,
+        "Employee benefits": 50.0,
+        "Administrative expenses": 22.0,
+        "D&A": 22.0,
+        "Other operating expenses": 5.0
+      },
       "ebitdaMM": 65.0,
       "netIncomeMM": 60.0,
       "totalAssetsMM": 1500.0,
@@ -327,6 +376,13 @@
       "endDate": "2016-03-31",
       "periodType": "FY",
       "revenueMM": 370.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 215.0,
+        "Employee benefits": 52.0,
+        "Administrative expenses": 23.0,
+        "D&A": 22.0,
+        "Other operating expenses": 2.0
+      },
       "ebitdaMM": 56.0,
       "netIncomeMM": 134.0,
       "totalAssetsMM": 1600.0,
@@ -347,6 +403,13 @@
       "endDate": "2017-03-31",
       "periodType": "FY",
       "revenueMM": 425.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 270.0,
+        "Employee benefits": 62.0,
+        "Administrative expenses": 26.0,
+        "D&A": 22.0,
+        "Other operating expenses": 4.0
+      },
       "ebitdaMM": 41.0,
       "netIncomeMM": 130.0,
       "totalAssetsMM": 1700.0,
@@ -367,6 +430,13 @@
       "endDate": "2018-03-31",
       "periodType": "FY",
       "revenueMM": 426.7,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 290.0,
+        "Employee benefits": 70.0,
+        "Administrative expenses": 30.0,
+        "D&A": 24.0,
+        "Other operating expenses": 3.3
+      },
       "ebitdaMM": 9.4,
       "netIncomeMM": 102.6,
       "totalAssetsMM": 1840.0,
@@ -387,6 +457,13 @@
       "endDate": "2018-09-30",
       "periodType": "H",
       "revenueMM": 195.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 132.0,
+        "Employee benefits": 32.0,
+        "Administrative expenses": 14.0,
+        "D&A": 11.0,
+        "Other operating expenses": 1.0
+      },
       "ebitdaMM": 5.0,
       "netIncomeMM": 4.0,
       "totalAcresK": 17500,
@@ -396,6 +473,13 @@
       "endDate": "2019-03-31",
       "periodType": "FY",
       "revenueMM": 372.7,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 270.0,
+        "Employee benefits": 65.0,
+        "Administrative expenses": 30.0,
+        "D&A": 25.0,
+        "Other operating expenses": 2.4
+      },
       "ebitdaMM": -19.7,
       "netIncomeMM": -147.7,
       "totalAssetsMM": 1700.0,
@@ -416,6 +500,13 @@
       "endDate": "2019-09-30",
       "periodType": "H",
       "revenueMM": 199.9,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 135.0,
+        "Employee benefits": 32.0,
+        "Administrative expenses": 14.0,
+        "D&A": 8.0,
+        "Other operating expenses": 1.1
+      },
       "ebitdaMM": 9.8,
       "netIncomeMM": -16.5,
       "totalAcresK": 17000,
@@ -428,6 +519,13 @@
       "revenueBySegmentMM": {
         "Branded beef (Westholme/1824/Darling Downs)": 184.5,
         "Live cattle / commodity": 79.0
+      },
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 195.0,
+        "Employee benefits": 45.0,
+        "Administrative expenses": 19.0,
+        "D&A": 9.0,
+        "Other operating expenses": 1.1
       },
       "ebitdaMM": -5.6,
       "netIncomeMM": -44.4,
@@ -448,6 +546,13 @@
       "endDate": "2020-09-30",
       "periodType": "H",
       "revenueMM": 137.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 90.0,
+        "Employee benefits": 22.0,
+        "Administrative expenses": 9.5,
+        "D&A": 6.5,
+        "Other operating expenses": 0.6
+      },
       "ebitdaMM": 8.4,
       "netIncomeMM": 6.7,
       "totalAcresK": 17000,
@@ -460,6 +565,13 @@
       "revenueBySegmentMM": {
         "Branded beef": 187.7,
         "Live cattle / commodity": 75.7
+      },
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 175.0,
+        "Employee benefits": 42.0,
+        "Administrative expenses": 18.0,
+        "D&A": 13.0,
+        "Other operating expenses": 1.9
       },
       "ebitdaMM": 13.5,
       "netIncomeMM": 134.7,
@@ -480,6 +592,13 @@
       "endDate": "2021-09-30",
       "periodType": "H",
       "revenueMM": 138.1,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 88.0,
+        "Employee benefits": 22.0,
+        "Administrative expenses": 9.0,
+        "D&A": 6.5,
+        "Other operating expenses": 0.6
+      },
       "ebitdaMM": 12.0,
       "netIncomeMM": 117.1,
       "totalAcresK": 17000,
@@ -492,6 +611,13 @@
       "revenueBySegmentMM": {
         "Branded beef": 226.4,
         "Live cattle / commodity": 92.0
+      },
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 195.0,
+        "Employee benefits": 50.0,
+        "Administrative expenses": 21.0,
+        "D&A": 19.0,
+        "Other operating expenses": 2.4
       },
       "ebitdaMM": 31.0,
       "netIncomeMM": 137.0,
@@ -512,6 +638,13 @@
       "endDate": "2022-09-30",
       "periodType": "H",
       "revenueMM": 184.5,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 116.0,
+        "Employee benefits": 28.0,
+        "Administrative expenses": 11.5,
+        "D&A": 6.5,
+        "Other operating expenses": 1.1
+      },
       "ebitdaMM": 21.4,
       "netIncomeMM": 24.5,
       "totalAcresK": 17000,
@@ -524,6 +657,13 @@
       "revenueBySegmentMM": {
         "Branded beef": 261.2,
         "Live cattle / commodity": 103.0
+      },
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 215.0,
+        "Employee benefits": 54.0,
+        "Administrative expenses": 22.0,
+        "D&A": 11.0,
+        "Other operating expenses": 2.0
       },
       "ebitdaMM": 60.2,
       "netIncomeMM": -27.5,
@@ -544,6 +684,13 @@
       "endDate": "2023-09-30",
       "periodType": "H",
       "revenueMM": 200.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 121.0,
+        "Employee benefits": 30.0,
+        "Administrative expenses": 12.5,
+        "D&A": 7.0,
+        "Other operating expenses": 1.4
+      },
       "ebitdaMM": 28.1,
       "netIncomeMM": -49.0,
       "totalAcresK": 17000,
@@ -556,6 +703,13 @@
       "revenueBySegmentMM": {
         "Branded beef": 265.0,
         "Live cattle / commodity": 115.0
+      },
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 226.0,
+        "Employee benefits": 56.0,
+        "Administrative expenses": 22.5,
+        "D&A": 21.0,
+        "Other operating expenses": 1.9
       },
       "ebitdaMM": 52.6,
       "netIncomeMM": -34.6,
@@ -576,6 +730,13 @@
       "endDate": "2024-09-30",
       "periodType": "H",
       "revenueMM": 198.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 120.0,
+        "Employee benefits": 30.0,
+        "Administrative expenses": 12.0,
+        "D&A": 8.0,
+        "Other operating expenses": 1.3
+      },
       "ebitdaMM": 26.7,
       "netIncomeMM": 12.4,
       "totalAcresK": 17000,
@@ -588,6 +749,13 @@
       "revenueBySegmentMM": {
         "Branded beef": 275.0,
         "Live cattle / commodity": 112.9
+      },
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 232.0,
+        "Employee benefits": 58.0,
+        "Administrative expenses": 23.0,
+        "D&A": 16.0,
+        "Other operating expenses": 2.6
       },
       "ebitdaMM": 56.3,
       "noiMM": 58.4,

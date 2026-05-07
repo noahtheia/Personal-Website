@@ -18,7 +18,13 @@
       "cashMM": 60,
       "netDebtMM": 690,
       "totalAcresK": 800,
-      "notes": "FY00: First full year post-1999 SGX IPO; CPO avg USD 310/t. Planted area ~322K ha"
+      "notes": "FY00: First full year post-1999 SGX IPO; CPO avg USD 310/t. Planted area ~322K ha",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 386.0,
+        "Selling expenses": 12.4,
+        "G&A": 12.4,
+        "Other operating expenses": 4.1
+      }
     },
     {
       "endDate": "2001-12-31",
@@ -30,7 +36,13 @@
       "cashMM": 50,
       "netDebtMM": 770,
       "totalAcresK": 820,
-      "notes": "FY01: CPO trough USD 285/t; net loss on weak prices + IDR volatility"
+      "notes": "FY01: CPO trough USD 285/t; net loss on weak prices + IDR volatility",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 381.3,
+        "Selling expenses": 12.3,
+        "G&A": 12.3,
+        "Other operating expenses": 4.1
+      }
     },
     {
       "endDate": "2002-12-31",
@@ -42,7 +54,13 @@
       "cashMM": 80,
       "netDebtMM": 720,
       "totalAcresK": 850,
-      "notes": "FY02: CPO recovery USD 390/t; back to profit"
+      "notes": "FY02: CPO recovery USD 390/t; back to profit",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 399.9,
+        "Selling expenses": 12.9,
+        "G&A": 12.9,
+        "Other operating expenses": 4.3
+      }
     },
     {
       "endDate": "2003-12-31",
@@ -54,7 +72,13 @@
       "cashMM": 110,
       "netDebtMM": 650,
       "totalAcresK": 870,
-      "notes": "FY03: CPO USD 440/t; first full year of stable downstream"
+      "notes": "FY03: CPO USD 440/t; first full year of stable downstream",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 488.2,
+        "Selling expenses": 15.8,
+        "G&A": 15.8,
+        "Other operating expenses": 5.2
+      }
     },
     {
       "endDate": "2004-12-31",
@@ -70,7 +94,13 @@
       "cashMM": 130,
       "netDebtMM": 590,
       "totalAcresK": 890,
-      "notes": "FY04: CPO USD 470/t avg; revenue +22% YoY"
+      "notes": "FY04: CPO USD 470/t avg; revenue +22% YoY",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 604.5,
+        "Selling expenses": 19.5,
+        "G&A": 19.5,
+        "Other operating expenses": 6.5
+      }
     },
     {
       "endDate": "2005-12-31",
@@ -86,7 +116,13 @@
       "cashMM": 150,
       "netDebtMM": 550,
       "totalAcresK": 920,
-      "notes": "FY05: CPO USD 425/t; planted area 370K ha"
+      "notes": "FY05: CPO USD 425/t; planted area 370K ha",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 706.8,
+        "Selling expenses": 22.8,
+        "G&A": 22.8,
+        "Other operating expenses": 7.6
+      }
     },
     {
       "endDate": "2006-12-31",
@@ -102,7 +138,13 @@
       "cashMM": 200,
       "netDebtMM": 520,
       "totalAcresK": 950,
-      "notes": "FY06: CPO USD 475/t; revenue +32% YoY"
+      "notes": "FY06: CPO USD 475/t; revenue +32% YoY",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 920.7,
+        "Selling expenses": 29.7,
+        "G&A": 29.7,
+        "Other operating expenses": 9.9
+      }
     },
     {
       "endDate": "2007-12-31",
@@ -118,7 +160,13 @@
       "cashMM": 250,
       "netDebtMM": 630,
       "totalAcresK": 990,
-      "notes": "FY07: CPO USD 780/t; commodity boom; record EBITDA"
+      "notes": "FY07: CPO USD 780/t; commodity boom; record EBITDA",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 1218.3,
+        "Selling expenses": 39.3,
+        "G&A": 39.3,
+        "Other operating expenses": 13.1
+      }
     },
     {
       "endDate": "2008-12-31",
@@ -134,7 +182,13 @@
       "cashMM": 380,
       "netDebtMM": 570,
       "totalAcresK": 1040,
-      "notes": "FY08: CPO USD 950/t avg (peaked >USD 1200 mid-year); EBITDA USD 1.0B record"
+      "notes": "FY08: CPO USD 950/t avg (peaked >USD 1200 mid-year); EBITDA USD 1.0B record",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 1942.8,
+        "Selling expenses": 62.7,
+        "G&A": 62.7,
+        "Other operating expenses": 20.9
+      }
     },
     {
       "endDate": "2009-12-31",
@@ -150,7 +204,13 @@
       "cashMM": 420,
       "netDebtMM": 500,
       "totalAcresK": 1080,
-      "notes": "FY09: CPO normalized USD 685/t post-GFC; revenue -18% YoY"
+      "notes": "FY09: CPO normalized USD 685/t post-GFC; revenue -18% YoY",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 1704.7,
+        "Selling expenses": 55.0,
+        "G&A": 55.0,
+        "Other operating expenses": 18.3
+      }
     },
     {
       "endDate": "2010-12-31",
@@ -169,7 +229,13 @@
       "totalAcresK": 1120,
       "sharesOutMM": 11457,
       "dividendPerShare": 0.0067,
-      "notes": "FY10: First year reporting Oilseeds (China JV); CPO USD 900/t. EBITDA USD 950M"
+      "notes": "FY10: First year reporting Oilseeds (China JV); CPO USD 900/t. EBITDA USD 950M",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 2700.7,
+        "Selling expenses": 87.1,
+        "G&A": 87.1,
+        "Other operating expenses": 29.0
+      }
     },
     {
       "endDate": "2011-12-31",
@@ -189,7 +255,13 @@
       "totalAcresK": 1150,
       "sharesOutMM": 11588,
       "dividendPerShare": 0.0125,
-      "notes": "FY11: CPO USD 1080/t avg (record); EBITDA USD 1.25B"
+      "notes": "FY11: CPO USD 1080/t avg (record); EBITDA USD 1.25B",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 4373.8,
+        "Selling expenses": 141.1,
+        "G&A": 141.1,
+        "Other operating expenses": 47.0
+      }
     },
     {
       "endDate": "2012-12-31",
@@ -209,7 +281,13 @@
       "totalAcresK": 1180,
       "sharesOutMM": 11588,
       "dividendPerShare": 0.0091,
-      "notes": "FY12: CPO USD 940/t; margin compression"
+      "notes": "FY12: CPO USD 940/t; margin compression",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 4837.9,
+        "Selling expenses": 156.1,
+        "G&A": 156.1,
+        "Other operating expenses": 52.0
+      }
     },
     {
       "endDate": "2013-12-31",
@@ -229,7 +307,13 @@
       "totalAcresK": 1210,
       "sharesOutMM": 11875,
       "dividendPerShare": 0.0072,
-      "notes": "FY13: CPO USD 765/t; downstream volume ramp"
+      "notes": "FY13: CPO USD 765/t; downstream volume ramp",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 5473.1,
+        "Selling expenses": 176.5,
+        "G&A": 176.5,
+        "Other operating expenses": 58.8
+      }
     },
     {
       "endDate": "2014-12-31",
@@ -249,7 +333,13 @@
       "totalAcresK": 1240,
       "sharesOutMM": 12317,
       "dividendPerShare": 0.0058,
-      "notes": "FY14: CPO USD 820/t; net income halved on inventory writedown"
+      "notes": "FY14: CPO USD 820/t; net income halved on inventory writedown",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 6397.5,
+        "Selling expenses": 206.4,
+        "G&A": 206.4,
+        "Other operating expenses": 68.8
+      }
     },
     {
       "endDate": "2015-12-31",
@@ -269,7 +359,13 @@
       "totalAcresK": 1265,
       "sharesOutMM": 12783,
       "dividendPerShare": 0.0014,
-      "notes": "FY15: CPO trough USD 565/t; small reported loss"
+      "notes": "FY15: CPO trough USD 565/t; small reported loss",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 5733.5,
+        "Selling expenses": 184.9,
+        "G&A": 184.9,
+        "Other operating expenses": 61.6
+      }
     },
     {
       "endDate": "2016-12-31",
@@ -289,7 +385,13 @@
       "totalAcresK": 1290,
       "sharesOutMM": 12835,
       "dividendPerShare": 0.0058,
-      "notes": "FY16: CPO USD 700/t recovery; gain on biological asset revaluation"
+      "notes": "FY16: CPO USD 700/t recovery; gain on biological asset revaluation",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 6165.0,
+        "Selling expenses": 198.9,
+        "G&A": 198.9,
+        "Other operating expenses": 66.3
+      }
     },
     {
       "endDate": "2017-12-31",
@@ -308,9 +410,15 @@
       "netDebtMM": 2890,
       "totalAcresK": 1305,
       "sharesOutMM": 12835,
-      "dividendPerShare": 0.0040,
+      "dividendPerShare": 0.004,
       "bookValuePerShare": 0.31,
-      "notes": "FY17: CPO USD 715/t avg"
+      "notes": "FY17: CPO USD 715/t avg",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 6482.1,
+        "Selling expenses": 209.1,
+        "G&A": 209.1,
+        "Other operating expenses": 69.7
+      }
     },
     {
       "endDate": "2018-12-31",
@@ -331,7 +439,13 @@
       "sharesOutMM": 12835,
       "dividendPerShare": 0.0036,
       "bookValuePerShare": 0.31,
-      "notes": "FY18: CPO USD 600/t; reported loss USD 33M on inventory writedown"
+      "notes": "FY18: CPO USD 600/t; reported loss USD 33M on inventory writedown",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 6023.6,
+        "Selling expenses": 194.3,
+        "G&A": 194.3,
+        "Other operating expenses": 64.8
+      }
     },
     {
       "endDate": "2019-06-30",
@@ -346,7 +460,13 @@
       "ebitdaMM": 95,
       "netIncomeMM": -34,
       "totalAcresK": 1320,
-      "notes": "1H19: Weak CPO prices (~USD 510/t avg), reported net loss USD 34M; downstream margins compressed"
+      "notes": "1H19: Weak CPO prices (~USD 510/t avg), reported net loss USD 34M; downstream margins compressed",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 2941.6,
+        "Selling expenses": 94.9,
+        "G&A": 94.9,
+        "Other operating expenses": 31.6
+      }
     },
     {
       "endDate": "2019-12-31",
@@ -367,7 +487,13 @@
       "sharesOutMM": 12835,
       "dividendPerShare": 0.0036,
       "bookValuePerShare": 0.32,
-      "notes": "FY19: Revenue USD 7.08B, EBITDA USD 425M; CPO avg USD 565/t. Net income just positive on year-end CPO rally"
+      "notes": "FY19: Revenue USD 7.08B, EBITDA USD 425M; CPO avg USD 565/t. Net income just positive on year-end CPO rally",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 6189.2,
+        "Selling expenses": 199.7,
+        "G&A": 199.7,
+        "Other operating expenses": 66.6
+      }
     },
     {
       "endDate": "2020-06-30",
@@ -382,7 +508,13 @@
       "ebitdaMM": 230,
       "netIncomeMM": 14,
       "totalAcresK": 1320,
-      "notes": "1H20: COVID disruption on downstream margins; CPO prices recovered into Q2"
+      "notes": "1H20: COVID disruption on downstream margins; CPO prices recovered into Q2",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 2857.9,
+        "Selling expenses": 92.2,
+        "G&A": 92.2,
+        "Other operating expenses": 30.7
+      }
     },
     {
       "endDate": "2020-12-31",
@@ -403,7 +535,13 @@
       "sharesOutMM": 12835,
       "dividendPerShare": 0.0029,
       "bookValuePerShare": 0.32,
-      "notes": "FY20: CPO avg USD 700/t; EBITDA up 33% YoY on plantation strength"
+      "notes": "FY20: CPO avg USD 700/t; EBITDA up 33% YoY on plantation strength",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 6059.0,
+        "Selling expenses": 195.4,
+        "G&A": 195.4,
+        "Other operating expenses": 65.1
+      }
     },
     {
       "endDate": "2021-06-30",
@@ -418,7 +556,13 @@
       "ebitdaMM": 460,
       "netIncomeMM": 200,
       "totalAcresK": 1320,
-      "notes": "1H21: CPO prices >USD 1000/t; EBITDA doubled YoY"
+      "notes": "1H21: CPO prices >USD 1000/t; EBITDA doubled YoY",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 3323.8,
+        "Selling expenses": 107.2,
+        "G&A": 107.2,
+        "Other operating expenses": 35.7
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -439,7 +583,13 @@
       "sharesOutMM": 12835,
       "dividendPerShare": 0.018,
       "bookValuePerShare": 0.34,
-      "notes": "FY21: Record year. CPO avg USD 1130/t. EBITDA USD 1.05B (+86% YoY); net income USD 380M"
+      "notes": "FY21: Record year. CPO avg USD 1130/t. EBITDA USD 1.05B (+86% YoY); net income USD 380M",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 7844.6,
+        "Selling expenses": 253.0,
+        "G&A": 253.0,
+        "Other operating expenses": 84.4
+      }
     },
     {
       "endDate": "2022-06-30",
@@ -454,7 +604,13 @@
       "ebitdaMM": 925,
       "netIncomeMM": 466,
       "totalAcresK": 1320,
-      "notes": "1H22: CPO avg USD 1500/t (Indonesia export ban-driven spike); EBITDA USD 925M = best half ever"
+      "notes": "1H22: CPO avg USD 1500/t (Indonesia export ban-driven spike); EBITDA USD 925M = best half ever",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 4484.5,
+        "Selling expenses": 144.7,
+        "G&A": 144.7,
+        "Other operating expenses": 48.2
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -475,7 +631,13 @@
       "sharesOutMM": 12835,
       "dividendPerShare": 0.0226,
       "bookValuePerShare": 0.36,
-      "notes": "FY22: Revenue USD 11.5B (+21% YoY); EBITDA USD 1.31B (record)"
+      "notes": "FY22: Revenue USD 11.5B (+21% YoY); EBITDA USD 1.31B (record)",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 9450.7,
+        "Selling expenses": 304.9,
+        "G&A": 304.9,
+        "Other operating expenses": 101.6
+      }
     },
     {
       "endDate": "2023-06-30",
@@ -490,7 +652,13 @@
       "ebitdaMM": 425,
       "netIncomeMM": 95,
       "totalAcresK": 1320,
-      "notes": "1H23: CPO normalized to USD 950/t; EBITDA halved vs 1H22"
+      "notes": "1H23: CPO normalized to USD 950/t; EBITDA halved vs 1H22",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 4217.6,
+        "Selling expenses": 136.0,
+        "G&A": 136.0,
+        "Other operating expenses": 45.3
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -511,7 +679,13 @@
       "sharesOutMM": 12682,
       "dividendPerShare": 0.0084,
       "bookValuePerShare": 0.33,
-      "notes": "FY23: CPO avg ~USD 920/t; EBITDA USD 875M (-33% YoY)"
+      "notes": "FY23: CPO avg ~USD 920/t; EBITDA USD 875M (-33% YoY)",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 8950.3,
+        "Selling expenses": 288.7,
+        "G&A": 288.7,
+        "Other operating expenses": 96.2
+      }
     },
     {
       "endDate": "2024-06-30",
@@ -526,7 +700,13 @@
       "ebitdaMM": 460,
       "netIncomeMM": 105,
       "totalAcresK": 1320,
-      "notes": "1H24: CPO avg USD 980/t; downstream Palm & Laurics steady"
+      "notes": "1H24: CPO avg USD 980/t; downstream Palm & Laurics steady",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 4597.9,
+        "Selling expenses": 148.3,
+        "G&A": 148.3,
+        "Other operating expenses": 49.4
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -548,7 +728,13 @@
       "dividendPerShare": 0.0088,
       "bookValuePerShare": 0.32,
       "propertyBookMM": 6000,
-      "notes": "FY24: Revenue USD 10.91B; EBITDA USD 951M; bearer plant + land carrying USD ~6.0B per balance sheet"
+      "notes": "FY24: Revenue USD 10.91B; EBITDA USD 951M; bearer plant + land carrying USD ~6.0B per balance sheet",
+      "expensesBySegmentMM": {
+        "Cost of sales (CPO/PK)": 9261.9,
+        "Selling expenses": 298.8,
+        "G&A": 298.8,
+        "Other operating expenses": 99.6
+      }
     }
   ]
 }

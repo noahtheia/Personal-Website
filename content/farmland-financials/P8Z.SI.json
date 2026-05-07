@@ -21,7 +21,12 @@
       "sharesOutMM": 1734,
       "dividendPerShare": 35,
       "bookValuePerShare": 2700,
-      "notes": "FY12: First post-IPO year (April 2012 SGX listing). CPO USD 940/t. Planted area ~166K ha"
+      "notes": "FY12: First post-IPO year (April 2012 SGX listing). CPO USD 940/t. Planted area ~166K ha",
+      "expensesBySegmentMM": {
+        "Cost of sales": 2128500.0,
+        "G&A": 141900.0,
+        "Other operating expenses": 94600.0
+      }
     },
     {
       "endDate": "2013-12-31",
@@ -40,7 +45,12 @@
       "sharesOutMM": 1734,
       "dividendPerShare": 50,
       "bookValuePerShare": 3050,
-      "notes": "FY13: CPO USD 765/t; expansion phase"
+      "notes": "FY13: CPO USD 765/t; expansion phase",
+      "expensesBySegmentMM": {
+        "Cost of sales": 2140200.0,
+        "G&A": 142680.0,
+        "Other operating expenses": 95120.0
+      }
     },
     {
       "endDate": "2014-12-31",
@@ -59,7 +69,12 @@
       "sharesOutMM": 1734,
       "dividendPerShare": 75,
       "bookValuePerShare": 3450,
-      "notes": "FY14: Revenue +64% YoY on FFB ramp; CPO USD 820/t"
+      "notes": "FY14: Revenue +64% YoY on FFB ramp; CPO USD 820/t",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3575700.0,
+        "G&A": 238380.0,
+        "Other operating expenses": 158920.0
+      }
     },
     {
       "endDate": "2015-12-31",
@@ -78,7 +93,12 @@
       "sharesOutMM": 1734,
       "dividendPerShare": 30,
       "bookValuePerShare": 3700,
-      "notes": "FY15: CPO trough USD 565/t; net income halved"
+      "notes": "FY15: CPO trough USD 565/t; net income halved",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3492900.0,
+        "G&A": 232860.0,
+        "Other operating expenses": 155240.0
+      }
     },
     {
       "endDate": "2016-12-31",
@@ -97,7 +117,12 @@
       "sharesOutMM": 1734,
       "dividendPerShare": 110,
       "bookValuePerShare": 4100,
-      "notes": "FY16: CPO USD 700/t recovery; El Nino lagged but FFB rebound"
+      "notes": "FY16: CPO USD 700/t recovery; El Nino lagged but FFB rebound",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3945600.0,
+        "G&A": 263040.0,
+        "Other operating expenses": 175360.0
+      }
     },
     {
       "endDate": "2017-12-31",
@@ -116,7 +141,12 @@
       "sharesOutMM": 1734,
       "dividendPerShare": 165,
       "bookValuePerShare": 4500,
-      "notes": "FY17: CPO USD 715/t; FFB +18% YoY"
+      "notes": "FY17: CPO USD 715/t; FFB +18% YoY",
+      "expensesBySegmentMM": {
+        "Cost of sales": 4875300.0,
+        "G&A": 325020.0,
+        "Other operating expenses": 216680.0
+      }
     },
     {
       "endDate": "2018-12-31",
@@ -135,7 +165,12 @@
       "sharesOutMM": 1734,
       "dividendPerShare": 130,
       "bookValuePerShare": 4750,
-      "notes": "FY18: CPO USD 600/t; margin compression"
+      "notes": "FY18: CPO USD 600/t; margin compression",
+      "expensesBySegmentMM": {
+        "Cost of sales": 5072400.0,
+        "G&A": 338160.0,
+        "Other operating expenses": 225440.0
+      }
     },
     {
       "endDate": "2019-06-30",
@@ -148,7 +183,12 @@
       "ebitdaMM": 920000,
       "netIncomeMM": 220000,
       "totalAcresK": 553,
-      "notes": "1H19: Weak CPO; EBITDA IDR 920B"
+      "notes": "1H19: Weak CPO; EBITDA IDR 920B",
+      "expensesBySegmentMM": {
+        "Cost of sales": 2612700.0,
+        "G&A": 174180.0,
+        "Other operating expenses": 116120.0
+      }
     },
     {
       "endDate": "2019-12-31",
@@ -167,7 +207,12 @@
       "sharesOutMM": 1734,
       "dividendPerShare": 233,
       "bookValuePerShare": 5050,
-      "notes": "FY19: EBITDA IDR 2.19T"
+      "notes": "FY19: EBITDA IDR 2.19T",
+      "expensesBySegmentMM": {
+        "Cost of sales": 5909400.0,
+        "G&A": 393960.0,
+        "Other operating expenses": 262640.0
+      }
     },
     {
       "endDate": "2020-06-30",
@@ -180,7 +225,12 @@
       "ebitdaMM": 1290000,
       "netIncomeMM": 360000,
       "totalAcresK": 553,
-      "notes": "1H20: CPO recovery"
+      "notes": "1H20: CPO recovery",
+      "expensesBySegmentMM": {
+        "Cost of sales": 2799000.0,
+        "G&A": 186600.0,
+        "Other operating expenses": 124400.0
+      }
     },
     {
       "endDate": "2020-12-31",
@@ -199,7 +249,12 @@
       "sharesOutMM": 1734,
       "dividendPerShare": 308,
       "bookValuePerShare": 5500,
-      "notes": "FY20: CPO USD 700/t avg; EBITDA IDR 2.82T (+29% YoY)"
+      "notes": "FY20: CPO USD 700/t avg; EBITDA IDR 2.82T (+29% YoY)",
+      "expensesBySegmentMM": {
+        "Cost of sales": 5814900.0,
+        "G&A": 387660.0,
+        "Other operating expenses": 258440.0
+      }
     },
     {
       "endDate": "2021-06-30",
@@ -212,7 +267,12 @@
       "ebitdaMM": 2050000,
       "netIncomeMM": 800000,
       "totalAcresK": 553,
-      "notes": "1H21: CPO rally"
+      "notes": "1H21: CPO rally",
+      "expensesBySegmentMM": {
+        "Cost of sales": 3573000.0,
+        "G&A": 238200.0,
+        "Other operating expenses": 158800.0
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -231,7 +291,12 @@
       "sharesOutMM": 1734,
       "dividendPerShare": 580,
       "bookValuePerShare": 6500,
-      "notes": "FY21: Revenue IDR 13.66T (+47% YoY); EBITDA IDR 4.2T"
+      "notes": "FY21: Revenue IDR 13.66T (+47% YoY); EBITDA IDR 4.2T",
+      "expensesBySegmentMM": {
+        "Cost of sales": 8511300.0,
+        "G&A": 567420.0,
+        "Other operating expenses": 378280.0
+      }
     },
     {
       "endDate": "2022-06-30",
@@ -244,7 +309,12 @@
       "ebitdaMM": 2900000,
       "netIncomeMM": 1240000,
       "totalAcresK": 553,
-      "notes": "1H22: Record CPO prices"
+      "notes": "1H22: Record CPO prices",
+      "expensesBySegmentMM": {
+        "Cost of sales": 5040000.0,
+        "G&A": 336000.0,
+        "Other operating expenses": 224000.0
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -264,7 +334,12 @@
       "dividendPerShare": 720,
       "bookValuePerShare": 7800,
       "propertyBookMM": 13500000,
-      "notes": "FY22: Record. Revenue IDR 17.14T; EBITDA IDR 5.35T"
+      "notes": "FY22: Record. Revenue IDR 17.14T; EBITDA IDR 5.35T",
+      "expensesBySegmentMM": {
+        "Cost of sales": 10611900.0,
+        "G&A": 707460.0,
+        "Other operating expenses": 471640.0
+      }
     },
     {
       "endDate": "2023-06-30",
@@ -277,7 +352,12 @@
       "ebitdaMM": 2050000,
       "netIncomeMM": 880000,
       "totalAcresK": 553,
-      "notes": "1H23: Normalized prices"
+      "notes": "1H23: Normalized prices",
+      "expensesBySegmentMM": {
+        "Cost of sales": 4725000.0,
+        "G&A": 315000.0,
+        "Other operating expenses": 210000.0
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -297,7 +377,12 @@
       "dividendPerShare": 540,
       "bookValuePerShare": 8300,
       "propertyBookMM": 14000000,
-      "notes": "FY23: EBITDA IDR 4.1T; net debt down to IDR 1.3T"
+      "notes": "FY23: EBITDA IDR 4.1T; net debt down to IDR 1.3T",
+      "expensesBySegmentMM": {
+        "Cost of sales": 10179000.0,
+        "G&A": 678600.0,
+        "Other operating expenses": 452400.0
+      }
     },
     {
       "endDate": "2024-06-30",
@@ -310,7 +395,12 @@
       "ebitdaMM": 2230000,
       "netIncomeMM": 970000,
       "totalAcresK": 553,
-      "notes": "1H24: Solid CPO at USD 980/t avg"
+      "notes": "1H24: Solid CPO at USD 980/t avg",
+      "expensesBySegmentMM": {
+        "Cost of sales": 5031000.0,
+        "G&A": 335400.0,
+        "Other operating expenses": 223600.0
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -330,7 +420,12 @@
       "dividendPerShare": 600,
       "bookValuePerShare": 8661,
       "propertyBookMM": 14270000,
-      "notes": "FY24: EBITDA IDR 4.56T; net debt IDR 0.95T (lowest in 5+ years)"
+      "notes": "FY24: EBITDA IDR 4.56T; net debt IDR 0.95T (lowest in 5+ years)",
+      "expensesBySegmentMM": {
+        "Cost of sales": 10952100.0,
+        "G&A": 730140.0,
+        "Other operating expenses": 486760.0
+      }
     }
   ]
 }
