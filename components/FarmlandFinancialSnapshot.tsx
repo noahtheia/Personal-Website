@@ -244,8 +244,8 @@ export function FarmlandFinancialSnapshot({
                   }}
                   className={`rounded-sm border px-2.5 py-1 text-xs transition-colors ${
                     on
-                      ? "border-accent bg-accent !text-bg"
-                      : "border-rule !text-fg hover:border-accent hover:!text-accent"
+                      ? "border-[var(--accent-warm)] bg-[var(--accent-warm)] !text-fg"
+                      : "border-rule !text-fg hover:border-[var(--accent-warm)] hover:!text-[var(--accent-warm-hover)]"
                   }`}
                 >
                   {c.label}
@@ -271,8 +271,8 @@ export function FarmlandFinancialSnapshot({
                     aria-pressed={on}
                     className={`rounded-sm border px-2.5 py-1 text-xs transition-colors ${
                       on
-                        ? "border-accent bg-accent !text-bg"
-                        : "border-rule !text-fg hover:border-accent hover:!text-accent"
+                        ? "border-[var(--accent-warm)] bg-[var(--accent-warm)] !text-fg"
+                        : "border-rule !text-fg hover:border-[var(--accent-warm)] hover:!text-[var(--accent-warm-hover)]"
                     }`}
                   >
                     {c === "Q" ? "Quarterly" : "Annual"}

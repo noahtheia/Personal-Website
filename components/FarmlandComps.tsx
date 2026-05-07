@@ -270,7 +270,7 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
                           <span
                             aria-hidden="true"
                             className={`inline-flex h-4 w-7 items-center rounded-full transition-colors ${
-                              on ? "bg-accent" : "bg-rule"
+                              on ? "bg-[var(--accent-warm)]" : "bg-rule"
                             }`}
                           >
                             <span
@@ -347,7 +347,7 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
                 <th
                   key={b}
                   colSpan={span}
-                  className={`border-b border-rule bg-accent px-3 py-1.5 text-center text-[11px] font-semibold uppercase tracking-wider text-bg ${
+                  className={`border-b border-rule bg-[var(--accent-warm)] px-3 py-1.5 text-center text-[11px] font-semibold uppercase tracking-wider text-fg ${
                     idx > 0 ? "border-l border-rule-strong" : ""
                   }`}
                 >
@@ -472,7 +472,7 @@ function CategorySection({
       <tr className="border-y border-rule-strong">
         <td
           colSpan={colCount}
-          className="sticky left-0 z-[2] bg-accent px-3 py-1.5 text-left font-display text-[13px] font-semibold uppercase tracking-wider !text-bg"
+          className="sticky left-0 z-[2] bg-[var(--accent-warm)] px-3 py-1.5 text-left font-display text-[13px] font-semibold uppercase tracking-wider !text-fg"
         >
           {label} <span className="opacity-60">· {rows.length}</span>
         </td>
