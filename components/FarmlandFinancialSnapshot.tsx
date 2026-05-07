@@ -439,8 +439,28 @@ export function FarmlandFinancialSnapshot({
                   const hasRevSegs = revStackForYear.some((s) => s.value > 0);
                   const hasExpSegs = expStackForYear.some((s) => s.value > 0);
                   if (hasRevSegs || hasExpSegs) {
+                    const yZero =
+                      view.yZero !== null ? view.yZero : H - PAD.bottom;
+                    const plainTop = Math.min(p.y, yZero);
+                    const plainHeight = Math.abs(p.y - yZero);
                     return (
                       <g key={i}>
+                        {/* When there are NO revenue segments but there
+                            ARE expense segments (e.g. LAND, where opex is
+                            split but revenue isn't), still draw the
+                            primary revenue bar above zero — otherwise the
+                            chart would show only the negative-direction
+                            expense stack and the user can't see revenue. */}
+                        {!hasRevSegs && hasExpSegs && (
+                          <rect
+                            x={p.x - barW / 2}
+                            y={plainTop}
+                            width={barW}
+                            height={plainHeight}
+                            fill={C_PRIMARY}
+                            fillOpacity={0.7}
+                          />
+                        )}
                         {hasRevSegs &&
                           revStackForYear.map((seg, si) => {
                             if (seg.value <= 0) return null;
