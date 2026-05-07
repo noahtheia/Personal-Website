@@ -1,0 +1,98 @@
+{
+  "ticker": "BGA.AX",
+  "currency": "AUD",
+  "sourceUrl": "https://begacheese.com.au/investors/",
+  "notes": "Bega Cheese Limited (BGA.AX) — Australian dairy and grocery company. Two segments: Branded (Bega cheese, Vegemite, Dare iced coffee, Big M, Yoplait, Farmers Union, Daily Juice — acquired Lion Dairy & Drinks Jan 2021) and Bulk (commodity dairy ingredients, lactoferrin, cream cheese exports). Listed ASX. Fiscal year ends Jun 30 (FY24 = year ended 30 Jun 2024). Annual reports: begacheese.com.au/investors/financial-reports/.",
+  "periods": [
+    {
+      "endDate": "2020-06-30",
+      "periodType": "FY",
+      "revenueMM": 1493,
+      "revenueBySegmentMM": {
+        "Branded": 760,
+        "Bulk": 733
+      },
+      "ebitdaMM": 113,
+      "netIncomeMM": 21.7,
+      "totalDebtMM": 200,
+      "cashMM": 18,
+      "netDebtMM": 182,
+      "sharesOutMM": 215.6,
+      "epsBasic": 0.10,
+      "dividendPerShare": 0.10,
+      "notes": "FY20 revenue $1.49B (pre-Lion acquisition). EBITDA $113M."
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "FY",
+      "revenueMM": 1924,
+      "revenueBySegmentMM": {
+        "Branded": 1190,
+        "Bulk": 734
+      },
+      "ebitdaMM": 154,
+      "netIncomeMM": 31.9,
+      "totalDebtMM": 470,
+      "cashMM": 60,
+      "netDebtMM": 410,
+      "sharesOutMM": 303.69,
+      "epsBasic": 0.105,
+      "dividendPerShare": 0.10,
+      "notes": "FY21 — Lion Dairy & Drinks acquired Jan 2021 ($534M). Revenue $1.92B (+29%); equity raise diluted shares."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "FY",
+      "revenueMM": 3035,
+      "revenueBySegmentMM": {
+        "Branded": 2080,
+        "Bulk": 955
+      },
+      "ebitdaMM": 187,
+      "netIncomeMM": 24.2,
+      "totalDebtMM": 450,
+      "cashMM": 56,
+      "netDebtMM": 394,
+      "sharesOutMM": 303.86,
+      "epsBasic": 0.080,
+      "dividendPerShare": 0.10,
+      "notes": "FY22 first full year with Lion. Revenue $3.04B; cost inflation pressured margins."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "FY",
+      "revenueMM": 3380,
+      "revenueBySegmentMM": {
+        "Branded": 2330,
+        "Bulk": 1050
+      },
+      "ebitdaMM": 161,
+      "netIncomeMM": -159.7,
+      "totalDebtMM": 380,
+      "cashMM": 35,
+      "netDebtMM": 345,
+      "sharesOutMM": 303.86,
+      "epsBasic": -0.526,
+      "dividendPerShare": 0.05,
+      "notes": "FY23 — $228M Bulk segment impairment drove statutory net loss. EBITDA $161M underlying."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "FY",
+      "revenueMM": 3517,
+      "revenueBySegmentMM": {
+        "Branded": 2530,
+        "Bulk": 987
+      },
+      "ebitdaMM": 197,
+      "netIncomeMM": 30.2,
+      "totalDebtMM": 290,
+      "cashMM": 81,
+      "netDebtMM": 209,
+      "sharesOutMM": 304.94,
+      "epsBasic": 0.099,
+      "dividendPerShare": 0.05,
+      "notes": "FY24 revenue $3.52B; EBITDA up 22% YoY. Bulk segment review concluded."
+    }
+  ]
+}

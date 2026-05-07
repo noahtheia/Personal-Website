@@ -1,0 +1,108 @@
+{
+  "ticker": "A2M.AX",
+  "currency": "NZD",
+  "sourceUrl": "https://thea2milkcompany.com/investor-centre/",
+  "notes": "The a2 Milk Company Limited (A2M.AX) — New Zealand dairy company specializing in 'A1 protein-free' branded milk and infant formula. Reports in NZD. Dual-listed: NZX primary (NZD), ASX secondary (AUD). Segments: China & Other Asia (largest — infant formula via daigou and CBEC channels), Australia & New Zealand (fresh milk), USA, Mato Mitchell (since 2022 stake in Synlait). Fiscal year ends Jun 30 (FY24 = year ended 30 Jun 2024). Annual reports: thea2milkcompany.com/investor-centre/financial-reports/.",
+  "periods": [
+    {
+      "endDate": "2020-06-30",
+      "periodType": "FY",
+      "revenueMM": 1731,
+      "revenueBySegmentMM": {
+        "China & Other Asia": 950,
+        "Australia & New Zealand": 700,
+        "USA": 75,
+        "Other / MVM": 6
+      },
+      "ebitdaMM": 549,
+      "netIncomeMM": 386,
+      "totalDebtMM": 0,
+      "cashMM": 854,
+      "netDebtMM": -854,
+      "sharesOutMM": 738,
+      "epsBasic": 0.522,
+      "dividendPerShare": 0,
+      "notes": "FY20 record revenue NZ$1.73B, EBITDA NZ$549M (32% margin). Pre-China daigou disruption peak."
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "FY",
+      "revenueMM": 1206,
+      "revenueBySegmentMM": {
+        "China & Other Asia": 530,
+        "Australia & New Zealand": 580,
+        "USA": 95,
+        "Other / MVM": 1
+      },
+      "ebitdaMM": 138,
+      "netIncomeMM": 80.7,
+      "totalDebtMM": 0,
+      "cashMM": 875,
+      "netDebtMM": -875,
+      "sharesOutMM": 740,
+      "epsBasic": 0.109,
+      "dividendPerShare": 0,
+      "notes": "FY21 collapse — daigou channel disrupted by China COVID border restrictions; revenue -30%, EBITDA -75%."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "FY",
+      "revenueMM": 1443,
+      "revenueBySegmentMM": {
+        "China & Other Asia": 720,
+        "Australia & New Zealand": 530,
+        "USA": 84,
+        "Mato Mitchell (Synlait)": 109
+      },
+      "ebitdaMM": 196,
+      "netIncomeMM": 114.7,
+      "totalDebtMM": 0,
+      "cashMM": 816,
+      "netDebtMM": -816,
+      "sharesOutMM": 724.7,
+      "epsBasic": 0.158,
+      "dividendPerShare": 0,
+      "notes": "FY22 partial recovery. EBITDA NZ$196M."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "FY",
+      "revenueMM": 1593,
+      "revenueBySegmentMM": {
+        "China & Other Asia": 880,
+        "Australia & New Zealand": 540,
+        "USA": 65,
+        "Mato Mitchell (Synlait)": 108
+      },
+      "ebitdaMM": 219,
+      "netIncomeMM": 155.6,
+      "totalDebtMM": 0,
+      "cashMM": 757,
+      "netDebtMM": -757,
+      "sharesOutMM": 723.4,
+      "epsBasic": 0.215,
+      "dividendPerShare": 0,
+      "notes": "FY23 revenue NZ$1.59B (+10%), EBITDA NZ$219M."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "FY",
+      "revenueMM": 1675,
+      "revenueBySegmentMM": {
+        "China & Other Asia": 989,
+        "Australia & New Zealand": 543,
+        "USA": 78,
+        "Mato Mitchell (Synlait)": 65
+      },
+      "ebitdaMM": 235,
+      "netIncomeMM": 167.6,
+      "totalDebtMM": 0,
+      "cashMM": 1080,
+      "netDebtMM": -1080,
+      "sharesOutMM": 723.44,
+      "epsBasic": 0.234,
+      "dividendPerShare": 0,
+      "notes": "FY24 revenue NZ$1.68B (+5%), EBITDA NZ$235M (14% margin). NZ$1.08B net cash. First-ever buyback authorized."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "ticker": "GNC.AX",
+  "currency": "AUD",
+  "sourceUrl": "https://www.graincorp.com.au/investor-centre",
+  "notes": "GrainCorp Limited (GNC.AX) — leading Australian grain handling, storage and trading company. Two segments: Agribusiness (grain receival/storage/transport/trading — east-coast Australia silo network, international ports) and Nutrition & Energy (oilseed crushing, refined oils, feeds, bioenergy). Listed ASX. Fiscal year ends Sep 30 (FY24 = year ended 30 Sep 2024). Demerged United Malt May 2020. Annual reports: graincorp.com.au/investor-centre/reports/.",
+  "periods": [
+    {
+      "endDate": "2020-09-30",
+      "periodType": "FY",
+      "revenueMM": 4145,
+      "revenueBySegmentMM": {
+        "Agribusiness": 3055,
+        "Nutrition & Energy": 1090
+      },
+      "ebitdaMM": 130,
+      "netIncomeMM": -16,
+      "totalDebtMM": 480,
+      "cashMM": 230,
+      "netDebtMM": 250,
+      "sharesOutMM": 228.86,
+      "epsBasic": -0.07,
+      "dividendPerShare": 0.07,
+      "notes": "FY20 — drought + United Malt demerger; revenue $4.15B (continuing ops)."
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "FY",
+      "revenueMM": 5959,
+      "revenueBySegmentMM": {
+        "Agribusiness": 4620,
+        "Nutrition & Energy": 1340
+      },
+      "ebitdaMM": 332,
+      "netIncomeMM": 139,
+      "totalDebtMM": 360,
+      "cashMM": 690,
+      "netDebtMM": -330,
+      "sharesOutMM": 226.92,
+      "epsBasic": 0.61,
+      "dividendPerShare": 0.27,
+      "notes": "FY21 record east-coast harvest — EBITDA $332M, net cash position."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "FY",
+      "revenueMM": 8262,
+      "revenueBySegmentMM": {
+        "Agribusiness": 6900,
+        "Nutrition & Energy": 1362
+      },
+      "ebitdaMM": 703,
+      "netIncomeMM": 380,
+      "totalDebtMM": 380,
+      "cashMM": 950,
+      "netDebtMM": -570,
+      "sharesOutMM": 226.92,
+      "epsBasic": 1.69,
+      "dividendPerShare": 0.55,
+      "notes": "FY22 record — bumper harvest plus Russia/Ukraine grain price spike. EBITDA $703M."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "FY",
+      "revenueMM": 8164,
+      "revenueBySegmentMM": {
+        "Agribusiness": 6754,
+        "Nutrition & Energy": 1410
+      },
+      "ebitdaMM": 564,
+      "netIncomeMM": 250,
+      "totalDebtMM": 470,
+      "cashMM": 590,
+      "netDebtMM": -120,
+      "sharesOutMM": 224.44,
+      "epsBasic": 1.11,
+      "dividendPerShare": 0.30,
+      "notes": "FY23 EBITDA $564M, second consecutive bumper crop."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "FY",
+      "revenueMM": 6813,
+      "revenueBySegmentMM": {
+        "Agribusiness": 5550,
+        "Nutrition & Energy": 1263
+      },
+      "ebitdaMM": 268,
+      "netIncomeMM": 70,
+      "totalDebtMM": 540,
+      "cashMM": 295,
+      "netDebtMM": 245,
+      "sharesOutMM": 222.58,
+      "epsBasic": 0.314,
+      "dividendPerShare": 0.24,
+      "notes": "FY24 revenue $6.81B (-17%) on smaller east-coast crop and lower margins. EBITDA $268M."
+    }
+  ]
+}

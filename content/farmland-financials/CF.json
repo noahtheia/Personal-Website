@@ -1,0 +1,141 @@
+{
+  "ticker": "CF",
+  "currency": "USD",
+  "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001324404&type=10-K",
+  "notes": "CF Industries Holdings \u2014 North American nitrogen fertilizer pure-play (ammonia, urea, UAN, AN). EBITDA = OperatingIncomeLoss + DD&A. Aggressive buyback program reduced shares from 215MM (2020) to 154MM (2025). FY2022 was peak earnings on Russia/Ukraine nitrogen squeeze. Has minority interest (CHS Inc preferred); ProfitLoss includes NCI but NetIncomeLossAvailableToCommonStockholdersBasic excludes it.",
+  "periods": [
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 4590.0,
+      "ebitdaMM": 1878.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 3416.0,
+        "SG&A": 239.0,
+        "D&A": 875.0
+      },
+      "totalDebtMM": 3957.0,
+      "cashMM": 287.0,
+      "netDebtMM": 3670.0,
+      "sharesOutMM": 216.02,
+      "bookValuePerShare": 13.41,
+      "navPerShare": 13.41,
+      "dividendPerShare": 1.2,
+      "epsDiluted": 2.23
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 4124.0,
+      "ebitdaMM": 1515.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 3323.0,
+        "SG&A": 206.0,
+        "D&A": 892.0
+      },
+      "totalDebtMM": 3961.0,
+      "sharesOutMM": 213.95,
+      "bookValuePerShare": 13.66,
+      "navPerShare": 13.66,
+      "dividendPerShare": 1.2,
+      "epsDiluted": 1.47,
+      "cashMM": 683.0,
+      "netDebtMM": 3278.0
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 6538.0,
+      "ebitdaMM": 2617.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 4151.0,
+        "SG&A": 223.0,
+        "D&A": 888.0
+      },
+      "totalDebtMM": 3465.0,
+      "sharesOutMM": 207.58,
+      "bookValuePerShare": 15.44,
+      "navPerShare": 15.44,
+      "dividendPerShare": 1.2,
+      "epsDiluted": 4.24,
+      "cashMM": 1628.0,
+      "netDebtMM": 1837.0
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 11186.0,
+      "ebitdaMM": 6247.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 5325.0,
+        "SG&A": 290.0,
+        "D&A": 850.0
+      },
+      "totalDebtMM": 2965.0,
+      "sharesOutMM": 195.6,
+      "bookValuePerShare": 25.82,
+      "navPerShare": 25.82,
+      "dividendPerShare": 1.5,
+      "epsDiluted": 16.38,
+      "cashMM": 2323.0,
+      "netDebtMM": 642.0
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 6631.0,
+      "ebitdaMM": 3099.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 4086.0,
+        "SG&A": 289.0,
+        "D&A": 869.0
+      },
+      "totalDebtMM": 2968.0,
+      "sharesOutMM": 188.19,
+      "bookValuePerShare": 30.38,
+      "navPerShare": 30.38,
+      "dividendPerShare": 1.6,
+      "epsDiluted": 7.87,
+      "cashMM": 2032.0,
+      "netDebtMM": 936.0
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 5936.0,
+      "ebitdaMM": 2671.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 3880.0,
+        "SG&A": 320.0,
+        "D&A": 925.0
+      },
+      "totalDebtMM": 2971.0,
+      "sharesOutMM": 169.88,
+      "bookValuePerShare": 29.34,
+      "navPerShare": 29.34,
+      "dividendPerShare": 2,
+      "epsDiluted": 6.74,
+      "cashMM": 1614.0,
+      "netDebtMM": 1357.0
+    },
+    {
+      "endDate": "2025-12-31",
+      "periodType": "FY",
+      "revenueMM": 7084.0,
+      "ebitdaMM": 3198.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 4360.0,
+        "SG&A": 364.0,
+        "D&A": 898.0
+      },
+      "totalDebtMM": 3215.0,
+      "sharesOutMM": 153.55,
+      "bookValuePerShare": 31.51,
+      "navPerShare": 31.51,
+      "dividendPerShare": 2,
+      "epsDiluted": 8.97,
+      "cashMM": 1982.0,
+      "netDebtMM": 1233.0
+    }
+  ]
+}

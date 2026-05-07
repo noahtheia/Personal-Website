@@ -1,0 +1,101 @@
+{
+  "ticker": "TATE.L",
+  "currency": "GBP",
+  "sourceUrl": "https://www.tateandlyle.com/investors",
+  "notes": "Tate & Lyle plc (TATE.L) — global food/beverage solutions provider (sweeteners, starches, fibers, stabilizers). Listed LSE. Fiscal year ends Mar 31 (FY24 = year ended 31 Mar 2024). In April 2022 sold majority stake in Primary Products business (corn syrup/HFCS/industrial starches) to KPS Capital Partners; retains 49.7% in JV (Primient). Acquired CP Kelco Nov 2024. Reports continuing-operations Food & Beverage Solutions + Sucralose. Annual reports: tateandlyle.com/annual-report.",
+  "periods": [
+    {
+      "endDate": "2020-03-31",
+      "periodType": "FY",
+      "revenueMM": 2882,
+      "revenueBySegmentMM": {
+        "Food & Beverage Solutions": 1124,
+        "Sucralose": 159,
+        "Primary Products": 1599
+      },
+      "ebitdaMM": 460,
+      "netIncomeMM": 222,
+      "totalDebtMM": 660,
+      "cashMM": 365,
+      "netDebtMM": 295,
+      "sharesOutMM": 467,
+      "epsBasic": 0.475,
+      "dividendPerShare": 0.296,
+      "notes": "FY19/20 revenue £2.88B, EBITDA £460M (pre-Primient divestiture)."
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "FY",
+      "revenueMM": 2789,
+      "revenueBySegmentMM": {
+        "Food & Beverage Solutions": 1148,
+        "Sucralose": 153,
+        "Primary Products": 1488
+      },
+      "ebitdaMM": 459,
+      "netIncomeMM": 232,
+      "totalDebtMM": 580,
+      "cashMM": 510,
+      "netDebtMM": 70,
+      "sharesOutMM": 466,
+      "epsBasic": 0.498,
+      "dividendPerShare": 0.298,
+      "notes": "FY20/21 EBITDA £459M, net debt £70M."
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "FY",
+      "revenueMM": 1655,
+      "revenueBySegmentMM": {
+        "Food & Beverage Solutions": 1217,
+        "Sucralose": 167,
+        "Primary Products (residual)": 271
+      },
+      "ebitdaMM": 320,
+      "netIncomeMM": 192,
+      "totalDebtMM": 380,
+      "cashMM": 660,
+      "netDebtMM": -280,
+      "sharesOutMM": 478,
+      "epsBasic": 0.402,
+      "dividendPerShare": 0.30,
+      "notes": "FY21/22 — Primary Products divested April 2022; retained-segment revenue £1.66B. Cash returned to shareholders."
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "FY",
+      "revenueMM": 1750,
+      "revenueBySegmentMM": {
+        "Food & Beverage Solutions": 1480,
+        "Sucralose": 270
+      },
+      "ebitdaMM": 372,
+      "netIncomeMM": 215,
+      "totalDebtMM": 401,
+      "cashMM": 380,
+      "netDebtMM": 21,
+      "sharesOutMM": 469,
+      "epsBasic": 0.458,
+      "dividendPerShare": 0.184,
+      "notes": "FY22/23 first full year as pure-play F&B Solutions; revenue +6%."
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "FY",
+      "revenueMM": 1647,
+      "revenueBySegmentMM": {
+        "Food & Beverage Solutions": 1387,
+        "Sucralose": 260
+      },
+      "ebitdaMM": 314,
+      "netIncomeMM": 134,
+      "totalDebtMM": 631,
+      "cashMM": 191,
+      "netDebtMM": 440,
+      "sharesOutMM": 451,
+      "epsBasic": 0.296,
+      "dividendPerShare": 0.193,
+      "notes": "FY23/24 revenue dipped 6% on volume softness. CP Kelco acquisition pending close."
+    }
+  ]
+}

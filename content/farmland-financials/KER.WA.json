@@ -1,0 +1,98 @@
+{
+  "ticker": "KER.WA",
+  "currency": "USD",
+  "sourceUrl": "https://www.kernel.ua/en/investor-relations/",
+  "notes": "Kernel Holding S.A. (KER.WA) — largest sunflower oil producer/exporter in Ukraine, listed on Warsaw Stock Exchange (WSE). Reports in USD; lists in PLN. Fiscal year ends June 30 (FY24 = year ended 30 Jun 2024). Operating segments: Oilseed Processing (sunflower meal/oil), Infrastructure & Trading (silo network + grain export), Farming (~370k ha leased Ukrainian cropland). FY22-FY23 results materially affected by Russia's invasion of Ukraine (port closures, Black Sea grain corridor disruption). Annual reports: kernel.ua/en/financial-reports/. Public-tender delisting offer pending.",
+  "periods": [
+    {
+      "endDate": "2020-06-30",
+      "periodType": "FY",
+      "revenueMM": 4107,
+      "revenueBySegmentMM": {
+        "Oilseed Processing": 2367,
+        "Infrastructure & Trading": 1500,
+        "Farming": 240
+      },
+      "ebitdaMM": 443,
+      "netIncomeMM": 96,
+      "totalDebtMM": 760,
+      "cashMM": 230,
+      "netDebtMM": 530,
+      "sharesOutMM": 81.97,
+      "epsBasic": 1.17,
+      "notes": "FY20 revenue $4.1B, EBITDA $443M. Pre-war baseline."
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "FY",
+      "revenueMM": 5648,
+      "revenueBySegmentMM": {
+        "Oilseed Processing": 3137,
+        "Infrastructure & Trading": 2200,
+        "Farming": 311
+      },
+      "ebitdaMM": 930,
+      "netIncomeMM": 513,
+      "totalDebtMM": 1102,
+      "cashMM": 250,
+      "netDebtMM": 852,
+      "sharesOutMM": 81.97,
+      "epsBasic": 6.26,
+      "notes": "FY21 record EBITDA $930M on strong sunflower oil prices and bumper harvest."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "FY",
+      "revenueMM": 5332,
+      "revenueBySegmentMM": {
+        "Oilseed Processing": 2840,
+        "Infrastructure & Trading": 2150,
+        "Farming": 342
+      },
+      "ebitdaMM": 513,
+      "netIncomeMM": -41,
+      "totalDebtMM": 1320,
+      "cashMM": 305,
+      "netDebtMM": 1015,
+      "sharesOutMM": 81.97,
+      "epsBasic": -0.50,
+      "notes": "FY22 disrupted by Russian invasion (Feb 2022). Impairments on Russian-occupied assets. EBITDA halved YoY."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "FY",
+      "revenueMM": 3457,
+      "revenueBySegmentMM": {
+        "Oilseed Processing": 1850,
+        "Infrastructure & Trading": 1380,
+        "Farming": 227
+      },
+      "ebitdaMM": 444,
+      "netIncomeMM": 299,
+      "totalDebtMM": 1190,
+      "cashMM": 310,
+      "netDebtMM": 880,
+      "sharesOutMM": 81.97,
+      "epsBasic": 3.65,
+      "notes": "FY23 revenue down sharply on lower volumes (Black Sea corridor uncertainty). EBITDA recovered to $444M."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "FY",
+      "revenueMM": 3503,
+      "revenueBySegmentMM": {
+        "Oilseed Processing": 1720,
+        "Infrastructure & Trading": 1500,
+        "Farming": 283
+      },
+      "ebitdaMM": 519,
+      "netIncomeMM": 268,
+      "totalDebtMM": 1031,
+      "cashMM": 348,
+      "netDebtMM": 683,
+      "sharesOutMM": 84.03,
+      "epsBasic": 3.19,
+      "notes": "FY24 revenue $3.5B, EBITDA $519M. Net debt down to $683M as ops normalized via Ukraine maritime corridor."
+    }
+  ]
+}

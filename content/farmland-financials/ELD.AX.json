@@ -1,0 +1,103 @@
+{
+  "ticker": "ELD.AX",
+  "currency": "AUD",
+  "sourceUrl": "https://elders.com.au/investor-centre/",
+  "notes": "Elders Limited (ELD.AX) — Australian rural services group founded 1839. Three segments: Branch network (rural products retail, agency, livestock, wool, real estate, financial services), Wholesale Products (Titan AG/AIRR — acquired 2018), Feed & Processing (Killara Feedlot, AuctionsPlus). Listed ASX. Fiscal year ends Sep 30 (FY24 = year ended 30 Sep 2024). Acquired Delta Agribusiness Aug 2024. Annual reports: elders.com.au/investor-centre/financial-results/.",
+  "periods": [
+    {
+      "endDate": "2020-09-30",
+      "periodType": "FY",
+      "revenueMM": 2093,
+      "revenueBySegmentMM": {
+        "Branch network": 1690,
+        "Wholesale Products": 360,
+        "Feed & Processing": 43
+      },
+      "ebitdaMM": 132,
+      "netIncomeMM": 78.7,
+      "totalDebtMM": 175,
+      "cashMM": 47,
+      "netDebtMM": 128,
+      "sharesOutMM": 156.97,
+      "epsBasic": 0.501,
+      "dividendPerShare": 0.21,
+      "notes": "FY20 EBITDA $132M, drought recovery year."
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "FY",
+      "revenueMM": 2528,
+      "revenueBySegmentMM": {
+        "Branch network": 2030,
+        "Wholesale Products": 450,
+        "Feed & Processing": 48
+      },
+      "ebitdaMM": 207,
+      "netIncomeMM": 149.6,
+      "totalDebtMM": 230,
+      "cashMM": 50,
+      "netDebtMM": 180,
+      "sharesOutMM": 156.83,
+      "epsBasic": 0.949,
+      "dividendPerShare": 0.42,
+      "notes": "FY21 record — strong commodity prices, livestock margins, AIRR contribution."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "FY",
+      "revenueMM": 3753,
+      "revenueBySegmentMM": {
+        "Branch network": 3050,
+        "Wholesale Products": 650,
+        "Feed & Processing": 53
+      },
+      "ebitdaMM": 232,
+      "netIncomeMM": 161.6,
+      "totalDebtMM": 460,
+      "cashMM": 57,
+      "netDebtMM": 403,
+      "sharesOutMM": 156.85,
+      "epsBasic": 1.029,
+      "dividendPerShare": 0.55,
+      "notes": "FY22 revenue $3.75B — historic peak in commodity prices; EBITDA $232M."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "FY",
+      "revenueMM": 3068,
+      "revenueBySegmentMM": {
+        "Branch network": 2540,
+        "Wholesale Products": 470,
+        "Feed & Processing": 58
+      },
+      "ebitdaMM": 121,
+      "netIncomeMM": 67.1,
+      "totalDebtMM": 425,
+      "cashMM": 50,
+      "netDebtMM": 375,
+      "sharesOutMM": 156.83,
+      "epsBasic": 0.428,
+      "dividendPerShare": 0.36,
+      "notes": "FY23 down cycle — weak livestock prices, El Niño dry conditions."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "FY",
+      "revenueMM": 3258,
+      "revenueBySegmentMM": {
+        "Branch network": 2680,
+        "Wholesale Products": 510,
+        "Feed & Processing": 68
+      },
+      "ebitdaMM": 138,
+      "netIncomeMM": 65.5,
+      "totalDebtMM": 489,
+      "cashMM": 71,
+      "netDebtMM": 418,
+      "sharesOutMM": 156.82,
+      "epsBasic": 0.418,
+      "dividendPerShare": 0.36,
+      "notes": "FY24 revenue $3.26B; Delta Agribusiness acquisition lifted leverage. EBITDA $138M."
+    }
+  ]
+}

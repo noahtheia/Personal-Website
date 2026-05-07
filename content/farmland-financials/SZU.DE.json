@@ -1,0 +1,130 @@
+{
+  "ticker": "SZU.DE",
+  "currency": "EUR",
+  "sourceUrl": "https://www.suedzucker.de/en/investor-relations",
+  "notes": "Südzucker AG (SZU.DE) — Europe's largest sugar producer, headquartered in Mannheim. Listed on Frankfurt (XETRA: SZU). Fiscal year ends Feb 28/29 (FY24 = year ended 29 Feb 2024). Five segments: Sugar, Special Products (BENEO ingredients, freiberger frozen, PortionPack), CropEnergies (bioethanol), Starch (AGRANA), Fruit (juice concentrate, fruit prep). EU sugar quota system ended Sep 2017 — material price volatility since. Annual reports: suedzucker.de/en/investor-relations/publications/.",
+  "periods": [
+    {
+      "endDate": "2020-02-29",
+      "periodType": "FY",
+      "revenueMM": 6669,
+      "revenueBySegmentMM": {
+        "Sugar": 2138,
+        "Special Products": 2403,
+        "CropEnergies": 825,
+        "Starch": 758,
+        "Fruit": 1175
+      },
+      "ebitdaMM": 416,
+      "netIncomeMM": 28,
+      "totalDebtMM": 1900,
+      "cashMM": 380,
+      "netDebtMM": 1520,
+      "sharesOutMM": 204.18,
+      "epsBasic": 0.13,
+      "notes": "FY19/20 revenue €6.67B, EBITDA €416M. Sugar segment recovery from 2018 lows."
+    },
+    {
+      "endDate": "2021-02-28",
+      "periodType": "FY",
+      "revenueMM": 6679,
+      "revenueBySegmentMM": {
+        "Sugar": 2180,
+        "Special Products": 2440,
+        "CropEnergies": 760,
+        "Starch": 730,
+        "Fruit": 1180
+      },
+      "ebitdaMM": 472,
+      "netIncomeMM": 124,
+      "totalDebtMM": 1810,
+      "cashMM": 370,
+      "netDebtMM": 1440,
+      "sharesOutMM": 204.18,
+      "epsBasic": 0.61,
+      "notes": "FY20/21 EBITDA €472M, net income €124M."
+    },
+    {
+      "endDate": "2022-02-28",
+      "periodType": "FY",
+      "revenueMM": 7600,
+      "revenueBySegmentMM": {
+        "Sugar": 2440,
+        "Special Products": 2710,
+        "CropEnergies": 1080,
+        "Starch": 870,
+        "Fruit": 1380
+      },
+      "ebitdaMM": 619,
+      "netIncomeMM": 213,
+      "totalDebtMM": 1850,
+      "cashMM": 350,
+      "netDebtMM": 1500,
+      "sharesOutMM": 204.18,
+      "epsBasic": 1.04,
+      "notes": "FY21/22 revenue €7.6B (+14%), strong CropEnergies bioethanol pricing."
+    },
+    {
+      "endDate": "2023-02-28",
+      "periodType": "FY",
+      "revenueMM": 9499,
+      "revenueBySegmentMM": {
+        "Sugar": 3270,
+        "Special Products": 3220,
+        "CropEnergies": 1490,
+        "Starch": 1019,
+        "Fruit": 1500
+      },
+      "ebitdaMM": 942,
+      "netIncomeMM": 327,
+      "totalDebtMM": 1950,
+      "cashMM": 290,
+      "netDebtMM": 1660,
+      "sharesOutMM": 204.18,
+      "epsBasic": 1.60,
+      "notes": "FY22/23 record revenue €9.5B, EBITDA €942M on European sugar tightness post-Ukraine war."
+    },
+    {
+      "endDate": "2024-02-29",
+      "periodType": "FY",
+      "revenueMM": 10289,
+      "revenueBySegmentMM": {
+        "Sugar": 3850,
+        "Special Products": 3320,
+        "CropEnergies": 1196,
+        "Starch": 1023,
+        "Fruit": 1500
+      },
+      "ebitdaMM": 1144,
+      "netIncomeMM": 414,
+      "totalDebtMM": 2050,
+      "cashMM": 320,
+      "netDebtMM": 1730,
+      "sharesOutMM": 204.18,
+      "epsBasic": 2.03,
+      "dividendPerShare": 0.9,
+      "notes": "FY23/24 revenue €10.3B (+8%), EBITDA €1.14B record."
+    },
+    {
+      "endDate": "2025-02-28",
+      "periodType": "FY",
+      "revenueMM": 9696,
+      "revenueBySegmentMM": {
+        "Sugar": 3000,
+        "Special Products": 3380,
+        "CropEnergies": 1260,
+        "Starch": 1006,
+        "Fruit": 1050
+      },
+      "ebitdaMM": 626,
+      "netIncomeMM": -27,
+      "totalDebtMM": 2180,
+      "cashMM": 320,
+      "netDebtMM": 1860,
+      "sharesOutMM": 204.18,
+      "epsBasic": -0.13,
+      "dividendPerShare": 0.4,
+      "notes": "FY24/25 sugar prices collapsed back; EBITDA halved to €626M. Small net loss."
+    }
+  ]
+}

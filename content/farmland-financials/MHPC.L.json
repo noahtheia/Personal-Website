@@ -1,0 +1,98 @@
+{
+  "ticker": "MHPC.L",
+  "currency": "USD",
+  "sourceUrl": "https://www.mhp.com.ua/en/investor-relations",
+  "notes": "MHP S.E. (MHPC.L) — Ukraine's largest poultry producer, GDR listed on London Stock Exchange. Reports in USD. Calendar fiscal year. Segments: Poultry & related operations (Ukraine), European operations (Perutnina Ptuj — Slovenia/Croatia, acquired 2019), Grain growing (~360k ha land bank). Russia's 2022 invasion impacted Vinnytsia complex (Ukraine's largest poultry farm) and grain logistics. Annual reports: mhp.com.ua/en/investors/financial-information/.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 1911,
+      "revenueBySegmentMM": {
+        "Poultry & related (Ukraine)": 1190,
+        "European operations": 380,
+        "Grain growing & other": 341
+      },
+      "ebitdaMM": 286,
+      "netIncomeMM": -134,
+      "totalDebtMM": 1325,
+      "cashMM": 200,
+      "netDebtMM": 1125,
+      "sharesOutMM": 108.36,
+      "epsBasic": -1.24,
+      "notes": "FY20 revenue $1.91B, EBITDA $286M. Net loss on FX and impairments."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 2371,
+      "revenueBySegmentMM": {
+        "Poultry & related (Ukraine)": 1480,
+        "European operations": 525,
+        "Grain growing & other": 366
+      },
+      "ebitdaMM": 459,
+      "netIncomeMM": 91,
+      "totalDebtMM": 1480,
+      "cashMM": 220,
+      "netDebtMM": 1260,
+      "sharesOutMM": 108.36,
+      "epsBasic": 0.84,
+      "notes": "FY21 revenue +24% on chicken prices recovery. EBITDA $459M."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 2647,
+      "revenueBySegmentMM": {
+        "Poultry & related (Ukraine)": 1450,
+        "European operations": 720,
+        "Grain growing & other": 477
+      },
+      "ebitdaMM": 354,
+      "netIncomeMM": -226,
+      "totalDebtMM": 1565,
+      "cashMM": 218,
+      "netDebtMM": 1347,
+      "sharesOutMM": 108.36,
+      "epsBasic": -2.09,
+      "notes": "FY22 war impact: Vinnytsia damage, refugee logistics; impairments drove $226M loss despite higher revenue."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 2849,
+      "revenueBySegmentMM": {
+        "Poultry & related (Ukraine)": 1610,
+        "European operations": 770,
+        "Grain growing & other": 469
+      },
+      "ebitdaMM": 506,
+      "netIncomeMM": 91,
+      "totalDebtMM": 1500,
+      "cashMM": 270,
+      "netDebtMM": 1230,
+      "sharesOutMM": 108.36,
+      "epsBasic": 0.84,
+      "notes": "FY23 EBITDA recovery to $506M, return to profitability."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 3162,
+      "revenueBySegmentMM": {
+        "Poultry & related (Ukraine)": 1750,
+        "European operations": 870,
+        "Grain growing & other": 542
+      },
+      "ebitdaMM": 484,
+      "netIncomeMM": 168,
+      "totalDebtMM": 1450,
+      "cashMM": 286,
+      "netDebtMM": 1164,
+      "sharesOutMM": 108.36,
+      "epsBasic": 1.55,
+      "notes": "FY24 revenue $3.16B, EBITDA $484M. Net income $168M. Continued recovery."
+    }
+  ]
+}
