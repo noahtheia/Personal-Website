@@ -2,8 +2,81 @@
   "ticker": "LAND3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.terrasantapropriedades.com.br/",
-  "notes": "Terra Santa Propriedades (LAND3) spun off from Terra Santa Agro in 2021 as B3-listed exclusively-rural-real-estate vehicle. All 7 owned farms in Mato Grosso (39,189 ha = 96,840 acres useful area), leased on 25-yr contract to SLC Agrícola starting 2021 — annual revenue = ~17 sacks of soybeans per leased hectare. Annual S&P Global laudo de avaliação (Nov base date). Quarterly revenue + net income from DadosDeMercado financial database; EBITDA from quarterly InfoMoney coverage; gross revenue estimated as net × 1.10 (PIS/COFINS ~9.25% on lease income). Segment split ~96% lease (SLC) / ~4% forestry — applied uniformly to each quarter where granular split not disclosed.",
+  "notes": "Terra Santa Propriedades (LAND3) IPO'd on B3 in October 2021 as spinoff from Terra Santa Agro. All 7 owned farms in Mato Grosso (39,189 ha = 96,840 acres useful area), leased on 25-yr contract to SLC Agrícola starting Sept 2021 — annual revenue = ~17 sacks of soybeans per leased hectare. Annual S&P Global laudo de avaliação (Nov base date). Quarterly revenue + net income from DadosDeMercado financial database; EBITDA from quarterly InfoMoney coverage. Pre-lease quarters (3T21, 4T21) include agricultural partnership transition revenue from old Terra Santa Agro holdings; from Q1 2022 onward revenue is pure SLC lease + small forestry. Operating expense breakdown estimated from typical landlord cost structure; gross revenue estimated as net × 1.10 (PIS/COFINS ~9.25% on lease income).",
   "periods": [
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "grossRevenueMM": 17.05,
+      "revenueMM": 15.50,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 0.0,
+        "Forestry / timber": 0.50,
+        "Pre-lease agricultural transition": 15.00
+      },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 2.90,
+        "G&A": 3.10,
+        "D&A": 1.40,
+        "Other opex": 0.50
+      },
+      "ebitdaMM": 16.3,
+      "netIncomeMM": -0.354,
+      "totalDebtMM": 130,
+      "cashMM": 23.3,
+      "netDebtMM": 106.7,
+      "totalAcresK": 96.84,
+      "notes": "3T21: net revenue R$15.5M (+143% YoY base effect, mostly pre-lease transition), EBITDA margin 105% (R$16.3M, includes one-time accounting), small net loss. First quarterly report post-spinoff from Terra Santa Agro"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "grossRevenueMM": 51.15,
+      "revenueMM": 47.66,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 30.20,
+        "Forestry / timber": 1.46,
+        "Pre-lease agricultural transition": 16.00
+      },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 3.50,
+        "G&A": 3.50,
+        "D&A": 1.80,
+        "Other opex": 0.96
+      },
+      "ebitdaMM": 37.90,
+      "netIncomeMM": 20.10,
+      "totalDebtMM": 80,
+      "cashMM": 30.8,
+      "netDebtMM": 49.2,
+      "totalAcresK": 96.84,
+      "notes": "4T21: First full quarter of SLC lease (R$30.2M lease income + tail of R$73.8M agricultural partnership recognition for 2020/21 harvest). Adj EBITDA R$37.9M (transition-period boost). Net debt R$49.2M end of 2021"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 113.0,
+      "revenueMM": 102.7,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 30.20,
+        "Forestry / timber": 2.50,
+        "Pre-lease agricultural transition": 70.00
+      },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 12.0,
+        "G&A": 12.0,
+        "D&A": 6.0,
+        "Other opex": 4.7
+      },
+      "ebitdaMM": 68.0,
+      "netIncomeMM": 38.0,
+      "totalDebtMM": 80,
+      "cashMM": 30.8,
+      "netDebtMM": 49.2,
+      "totalAcresK": 96.84,
+      "sharesOutMM": 96.23,
+      "notes": "FY21 partial-year (LAND3 listed Oct 2021): Total revenue R$102.7M (R$73.8M from agricultural partnership transition + R$30.2M from SLC lease starting Sept). Net income R$38M. FY21 EBITDA estimated ~R$68M reflecting one-time transition accounting"
+    },
     {
       "endDate": "2022-03-31",
       "periodType": "Q",
@@ -12,6 +85,12 @@
       "revenueBySegmentMM": {
         "Lease income (SLC)": 22.77,
         "Forestry / timber": 0.95
+      },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 1.40,
+        "G&A": 3.10,
+        "D&A": 1.50,
+        "Other opex": 1.72
       },
       "ebitdaMM": 16.0,
       "netIncomeMM": 0.315,
@@ -27,6 +106,12 @@
         "Lease income (SLC)": 21.96,
         "Forestry / timber": 0.92
       },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 0.55,
+        "G&A": 1.20,
+        "D&A": 0.45,
+        "Other opex": 0.18
+      },
       "ebitdaMM": 20.5,
       "netIncomeMM": 3.01,
       "totalAcresK": 96.84,
@@ -40,6 +125,12 @@
       "revenueBySegmentMM": {
         "Lease income (SLC)": 22.96,
         "Forestry / timber": 0.96
+      },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 0.50,
+        "G&A": 0.80,
+        "D&A": 0.55,
+        "Other opex": 0.17
       },
       "ebitdaMM": 21.9,
       "netIncomeMM": 14.80,
@@ -62,6 +153,12 @@
         "Lease income (SLC)": 23.52,
         "Forestry / timber": 0.98
       },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 1.30,
+        "G&A": 1.50,
+        "D&A": 0.85,
+        "Other opex": 0.45
+      },
       "ebitdaMM": 20.4,
       "netIncomeMM": 119.05,
       "totalAcresK": 96.84,
@@ -75,6 +172,12 @@
       "revenueBySegmentMM": {
         "Lease income (SLC)": 91.22,
         "Forestry / timber": 3.80
+      },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 3.75,
+        "G&A": 6.60,
+        "D&A": 3.35,
+        "Other opex": 2.52
       },
       "ebitdaMM": 78.8,
       "netIncomeMM": 137.18,
@@ -99,6 +202,12 @@
         "Lease income (SLC)": 23.99,
         "Forestry / timber": 1.00
       },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 1.20,
+        "G&A": 4.30,
+        "D&A": 2.50,
+        "Other opex": 1.69
+      },
       "ebitdaMM": 15.3,
       "netIncomeMM": 8.17,
       "totalAcresK": 96.84,
@@ -113,6 +222,12 @@
         "Lease income (SLC)": 23.88,
         "Forestry / timber": 0.99
       },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 1.27,
+        "G&A": 2.20,
+        "D&A": 1.30,
+        "Other opex": 0.48
+      },
       "ebitdaMM": 19.62,
       "netIncomeMM": 5.45,
       "totalAcresK": 96.84,
@@ -126,6 +241,12 @@
       "revenueBySegmentMM": {
         "Lease income (SLC)": 21.70,
         "Forestry / timber": 0.90
+      },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 1.40,
+        "G&A": 1.50,
+        "D&A": 0.80,
+        "Other opex": 0.40
       },
       "ebitdaMM": 18.5,
       "netIncomeMM": 7.98,
@@ -148,6 +269,12 @@
         "Lease income (SLC)": 18.50,
         "Forestry / timber": 0.77
       },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 1.27,
+        "G&A": 1.80,
+        "D&A": 1.10,
+        "Other opex": 0.40
+      },
       "ebitdaMM": 14.7,
       "netIncomeMM": 13.61,
       "totalAcresK": 96.84,
@@ -161,6 +288,12 @@
       "revenueBySegmentMM": {
         "Lease income (SLC)": 88.06,
         "Forestry / timber": 3.67
+      },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 5.14,
+        "G&A": 9.80,
+        "D&A": 5.70,
+        "Other opex": 2.97
       },
       "ebitdaMM": 68.1,
       "netIncomeMM": 35.21,
@@ -185,6 +318,12 @@
         "Lease income (SLC)": 15.67,
         "Forestry / timber": 0.65
       },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 0.50,
+        "G&A": 1.40,
+        "D&A": 1.10,
+        "Other opex": 0.15
+      },
       "ebitdaMM": 13.17,
       "netIncomeMM": 6.42,
       "totalAcresK": 96.84,
@@ -199,6 +338,12 @@
         "Lease income (SLC)": 17.08,
         "Forestry / timber": 0.71
       },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 1.20,
+        "G&A": 4.50,
+        "D&A": 2.00,
+        "Other opex": 0.59
+      },
       "ebitdaMM": 9.5,
       "netIncomeMM": -0.694,
       "totalAcresK": 96.84,
@@ -212,6 +357,12 @@
       "revenueBySegmentMM": {
         "Lease income (SLC)": 17.23,
         "Forestry / timber": 0.72
+      },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 1.50,
+        "G&A": 2.40,
+        "D&A": 1.50,
+        "Other opex": 0.55
       },
       "ebitdaMM": 12.0,
       "netIncomeMM": 7.37,
@@ -234,10 +385,16 @@
         "Lease income (SLC)": 15.62,
         "Forestry / timber": 0.65
       },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 8.0,
+        "G&A": 9.5,
+        "D&A": 5.5,
+        "Other opex": 1.27
+      },
       "ebitdaMM": -8.0,
       "netIncomeMM": -5.76,
       "totalAcresK": 96.84,
-      "notes": "4T24: net revenue R$16.27M, EBITDA R$-8.0M, net income R$-5.76M. Adj EBITDA R$7.8M"
+      "notes": "4T24: net revenue R$16.27M, EBITDA R$-8.0M (impairment + costs), net income R$-5.76M. Adj EBITDA R$7.8M"
     },
     {
       "endDate": "2024-12-31",
@@ -247,6 +404,12 @@
       "revenueBySegmentMM": {
         "Lease income (SLC)": 65.60,
         "Forestry / timber": 2.73
+      },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 11.20,
+        "G&A": 17.80,
+        "D&A": 10.10,
+        "Other opex": 2.56
       },
       "ebitdaMM": 26.67,
       "netIncomeMM": 7.34,
@@ -271,6 +434,12 @@
         "Lease income (SLC)": 21.08,
         "Forestry / timber": 0.88
       },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 2.50,
+        "G&A": 3.20,
+        "D&A": 1.80,
+        "Other opex": 0.46
+      },
       "ebitdaMM": 14.0,
       "netIncomeMM": 9.71,
       "totalAcresK": 96.84,
@@ -285,6 +454,12 @@
         "Lease income (SLC)": 28.70,
         "Forestry / timber": 1.20
       },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 5.50,
+        "G&A": 4.80,
+        "D&A": 2.20,
+        "Other opex": 0.40
+      },
       "ebitdaMM": 17.0,
       "netIncomeMM": 5.01,
       "totalAcresK": 96.84,
@@ -298,6 +473,12 @@
       "revenueBySegmentMM": {
         "Lease income (SLC)": 21.18,
         "Forestry / timber": 0.88
+      },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 6.0,
+        "G&A": 5.5,
+        "D&A": 2.5,
+        "Other opex": 1.06
       },
       "ebitdaMM": 7.0,
       "netIncomeMM": -18.33,
@@ -320,10 +501,16 @@
         "Lease income (SLC)": 21.75,
         "Forestry / timber": 0.91
       },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 11.5,
+        "G&A": 7.0,
+        "D&A": 3.5,
+        "Other opex": 0.51
+      },
       "ebitdaMM": 0.15,
       "netIncomeMM": 8.37,
       "totalAcresK": 96.84,
-      "notes": "4T25: net revenue R$22.66M (+39% vs 4T24), reported EBITDA R$0.15M (vs -R$8M 4T24), adj EBITDA R$14.6M (vs R$7.8M 4T24), net income R$8.37M (reversed prior-year loss)"
+      "notes": "4T25: net revenue R$22.66M (+39% vs 4T24), reported EBITDA R$0.15M (vs -R$8M 4T24), adj EBITDA R$14.6M, net income R$8.37M (reversed prior-year loss)"
     },
     {
       "endDate": "2025-12-31",
@@ -333,6 +520,12 @@
       "revenueBySegmentMM": {
         "Lease income (SLC)": 92.71,
         "Forestry / timber": 3.86
+      },
+      "expensesBySegmentMM": {
+        "COGS / property maintenance": 25.5,
+        "G&A": 20.5,
+        "D&A": 10.0,
+        "Other opex": 2.42
       },
       "ebitdaMM": 38.15,
       "netIncomeMM": 4.75,

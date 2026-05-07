@@ -23,7 +23,7 @@ const CHART_DEFS: { id: ChartId; label: string; description: string }[] = [
     id: "income",
     label: "Income",
     description:
-      "Gross + net revenue (segment-stacked) and EBITDA per period (most-granular available).",
+      "Net revenue stacked above zero, opex stacked below, gross-revenue + EBITDA lines, EBITDA margin on right axis.",
   },
   {
     id: "propertyValue",
@@ -61,18 +61,30 @@ const C_OVERLAY2 = "var(--positive)";
 const C_SECONDARY_POSITIVE = "var(--positive)";
 const C_SECONDARY_NEGATIVE = "var(--negative)";
 
-// Segment fill palette for stacked bar charts (cycles if more than 6 segments)
+// Segment fill palette for stacked revenue bars (cycles if more than 6 segments)
 const SEGMENT_PALETTE = [
   "var(--accent)",
   "var(--positive)",
-  "var(--negative)",
   "var(--fg-soft)",
   "var(--muted)",
   "var(--rule)",
 ];
 
+// Distinct palette for expense segments (rendered below zero) so users can
+// tell revenue contribution apart from cost structure at a glance.
+const EXPENSE_PALETTE = [
+  "var(--negative)",
+  "#b86a6a",
+  "#7d4949",
+  "#5a3535",
+];
+
 function segmentColor(i: number): string {
   return SEGMENT_PALETTE[i % SEGMENT_PALETTE.length];
+}
+
+function expenseColor(i: number): string {
+  return EXPENSE_PALETTE[i % EXPENSE_PALETTE.length];
 }
 
 export function FarmlandFinancialSnapshot({
@@ -378,26 +390,47 @@ export function FarmlandFinancialSnapshot({
                       ((W - PAD.left - PAD.right) / view.points.length) * 0.7,
                     ),
                   );
-                  // Stacked segments
-                  if (view.segmentStacks && view.segmentNames) {
+                  // Stacked segments (revenue above zero, expenses below)
+                  if (
+                    (view.segmentStacks && view.segmentNames) ||
+                    (view.expenseStacks && view.expenseNames)
+                  ) {
                     return (
                       <g key={i}>
-                        {view.segmentStacks[i].map((seg, si) => {
-                          if (seg.value <= 0) return null;
-                          const top = Math.min(seg.y0, seg.y1);
-                          const height = Math.abs(seg.y0 - seg.y1);
-                          return (
-                            <rect
-                              key={si}
-                              x={p.x - barW / 2}
-                              y={top}
-                              width={barW}
-                              height={height}
-                              fill={segmentColor(si)}
-                              fillOpacity={0.85}
-                            />
-                          );
-                        })}
+                        {view.segmentStacks &&
+                          view.segmentStacks[i].map((seg, si) => {
+                            if (seg.value <= 0) return null;
+                            const top = Math.min(seg.y0, seg.y1);
+                            const height = Math.abs(seg.y0 - seg.y1);
+                            return (
+                              <rect
+                                key={`r-${si}`}
+                                x={p.x - barW / 2}
+                                y={top}
+                                width={barW}
+                                height={height}
+                                fill={segmentColor(si)}
+                                fillOpacity={0.85}
+                              />
+                            );
+                          })}
+                        {view.expenseStacks &&
+                          view.expenseStacks[i].map((seg, si) => {
+                            if (seg.value <= 0) return null;
+                            const top = Math.min(seg.y0, seg.y1);
+                            const height = Math.abs(seg.y0 - seg.y1);
+                            return (
+                              <rect
+                                key={`e-${si}`}
+                                x={p.x - barW / 2}
+                                y={top}
+                                width={barW}
+                                height={height}
+                                fill={expenseColor(si)}
+                                fillOpacity={0.85}
+                              />
+                            );
+                          })}
                       </g>
                     );
                   }
@@ -632,16 +665,27 @@ function PrimaryHoverDot({
 function Legend({ active }: { active: Series }) {
   // For bar charts with segments, show segment swatches instead of the
   // generic "primary" swatch.
-  const showSegments = active.kind === "bar" && active.segments;
+  const showSegments =
+    active.kind === "bar" && active.segments && active.segments.names.length > 0;
+  const showExpenses =
+    active.kind === "bar" &&
+    active.segments?.expenseNames &&
+    active.segments.expenseNames.length > 0;
   return (
     <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs">
       {showSegments
         ? active.segments!.names.map((name, i) => (
-            <Swatch key={name} color={segmentColor(i)} label={name} />
+            <Swatch key={`r-${name}`} color={segmentColor(i)} label={name} />
           ))
-        : (
-            <Swatch color={C_PRIMARY} label={active.label} />
-          )}
+        : !showExpenses && <Swatch color={C_PRIMARY} label={active.label} />}
+      {showExpenses &&
+        active.segments!.expenseNames!.map((name, i) => (
+          <Swatch
+            key={`e-${name}`}
+            color={expenseColor(i)}
+            label={`${name} (expense)`}
+          />
+        ))}
       {active.overlay && (
         <Swatch color={C_OVERLAY} label={active.overlay.label} />
       )}
@@ -697,10 +741,13 @@ type Series = {
   // Segment stacking: when present and kind === 'bar', each bar is split
   // into colored segments. Segments[i] provides the value contribution
   // per segment for points[i]. Segment names should be stable across
-  // points (missing segments treated as 0).
+  // points (missing segments treated as 0). Optional expense* fields stack
+  // downward below zero in the same bar.
   segments?: {
     names: string[];
     perPoint: Record<string, number>[];
+    expenseNames?: string[];
+    expensePerPoint?: Record<string, number>[];
   };
 };
 
@@ -1043,6 +1090,37 @@ function buildIncomeSeries(
     segments = { names: namesArr, perPoint };
   }
 
+  // Operating-expense segments (stacked below zero). Stored as positive
+  // filing-currency $M; the view builder renders them with negative y.
+  const expenseNamesSet = new Set<string>();
+  for (const p of usable) {
+    if (p.expensesBySegmentMM) {
+      for (const k of Object.keys(p.expensesBySegmentMM))
+        expenseNamesSet.add(k);
+    }
+  }
+  if (expenseNamesSet.size > 0) {
+    const expenseNames = Array.from(expenseNamesSet);
+    const expensePerPoint = usable.map((p) => {
+      const out: Record<string, number> = {};
+      for (const n of expenseNames) {
+        out[n] = p.expensesBySegmentMM?.[n] ?? 0;
+      }
+      return out;
+    });
+    if (segments) {
+      segments.expenseNames = expenseNames;
+      segments.expensePerPoint = expensePerPoint;
+    } else {
+      segments = {
+        names: [],
+        perPoint: usable.map(() => ({})),
+        expenseNames,
+        expensePerPoint,
+      };
+    }
+  }
+
   const series: Series = {
     label: "Net revenue",
     description: `Reported net revenue (segment-stacked), ${ccy} M`,
@@ -1078,6 +1156,29 @@ function buildIncomeSeries(
     series.overlay2 = {
       label: "EBITDA",
       points: ebitdaPoints,
+    };
+  }
+
+  // EBITDA margin (right axis) — only meaningful when both EBITDA and
+  // revenue exist for the period.
+  const marginPoints: DatedPoint[] = [];
+  for (const p of usable) {
+    if (
+      typeof p.ebitdaMM === "number" &&
+      typeof p.revenueMM === "number" &&
+      p.revenueMM > 0
+    ) {
+      marginPoints.push({
+        date: p.endDate,
+        value: (p.ebitdaMM / p.revenueMM) * 100,
+      });
+    }
+  }
+  if (marginPoints.length > 0) {
+    series.secondary = {
+      label: "EBITDA margin",
+      unit: { kind: "percent" },
+      points: marginPoints,
     };
   }
 
@@ -1201,6 +1302,10 @@ type View = {
   // sequence of stacked segment heights (in y-space, top-to-bottom).
   segmentStacks: { name: string; y0: number; y1: number; value: number }[][] | null;
   segmentNames: string[] | null;
+  // Expense stacks: rendered below zero, value stored as positive but
+  // y0/y1 reflect the negative direction.
+  expenseStacks: { name: string; y0: number; y1: number; value: number }[][] | null;
+  expenseNames: string[] | null;
 };
 
 function buildView(active: Series): View {
@@ -1228,6 +1333,14 @@ function buildView(active: Series): View {
   const overlayRaw = active.overlay?.points.map((p) => p.value) ?? [];
   const overlay2Raw = active.overlay2?.points.map((p) => p.value) ?? [];
   const allPrimary = [...primaryRaw, ...overlayRaw, ...overlay2Raw];
+  // Account for expense totals stacked below zero.
+  if (active.kind === "bar" && active.segments?.expensePerPoint) {
+    for (const segMap of active.segments.expensePerPoint) {
+      let sum = 0;
+      for (const v of Object.values(segMap)) sum += v;
+      if (sum > 0) allPrimary.push(-sum);
+    }
+  }
   const minRaw = Math.min(...allPrimary);
   const maxRaw = Math.max(...allPrimary);
   const isBar = active.kind === "bar";
@@ -1302,10 +1415,12 @@ function buildView(active: Series): View {
   // Segment stacks (only for bar charts with segments data)
   let segmentStacks: View["segmentStacks"] = null;
   let segmentNames: string[] | null = null;
+  let expenseStacks: View["expenseStacks"] = null;
+  let expenseNames: string[] | null = null;
   if (active.kind === "bar" && active.segments) {
     segmentNames = active.segments.names;
     segmentStacks = points.map((pt, i) => {
-      const segValues = active.segments!.perPoint[i];
+      const segValues = active.segments!.perPoint[i] ?? {};
       const stack: { name: string; y0: number; y1: number; value: number }[] = [];
       let cumulative = 0;
       for (const name of active.segments!.names) {
@@ -1320,6 +1435,29 @@ function buildView(active: Series): View {
       }
       return stack;
     });
+
+    // Expense stacks: cumulative subtraction starting at 0, y descends.
+    if (active.segments.expenseNames && active.segments.expensePerPoint) {
+      expenseNames = active.segments.expenseNames;
+      const expNames = expenseNames;
+      const expPerPoint = active.segments.expensePerPoint;
+      expenseStacks = points.map((_pt, i) => {
+        const segValues = expPerPoint[i] ?? {};
+        const stack: { name: string; y0: number; y1: number; value: number }[] = [];
+        let cumulative = 0;
+        for (const name of expNames) {
+          const v = segValues[name] ?? 0;
+          stack.push({
+            name,
+            y0: yOf(cumulative),
+            y1: yOf(cumulative - v),
+            value: v,
+          });
+          cumulative -= v;
+        }
+        return stack;
+      });
+    }
   }
 
   // Overlay (line, same y scale)
@@ -1448,6 +1586,8 @@ function buildView(active: Series): View {
     secondaryYZero,
     segmentStacks,
     segmentNames,
+    expenseStacks,
+    expenseNames,
   };
 }
 
@@ -1472,6 +1612,8 @@ function emptyView(): View {
     secondaryYZero: null,
     segmentStacks: null,
     segmentNames: null,
+    expenseStacks: null,
+    expenseNames: null,
   };
 }
 

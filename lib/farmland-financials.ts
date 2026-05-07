@@ -29,6 +29,11 @@ const PeriodSchema = z.object({
   // with multi-segment revenue (BrasilAgro, Adecoagro, etc.) — the
   // values should sum to revenueMM (or grossRevenueMM if pre-tax).
   revenueBySegmentMM: z.record(z.string(), z.number()).optional(),
+  // Operating expense breakdown by category (e.g. "COGS", "G&A", "D&A",
+  // "Other opex"). Values are POSITIVE filing-currency $M (the chart
+  // renders them as negative segments below zero). Sum of these +
+  // EBITDA should approximate net revenue.
+  expensesBySegmentMM: z.record(z.string(), z.number()).optional(),
   ebitdaMM: z.number().optional(),
   // Net Operating Income (REIT-style). For agribusiness operators
   // without a true REIT NOI line, can be left out.
