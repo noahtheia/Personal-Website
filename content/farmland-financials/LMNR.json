@@ -7,31 +7,32 @@
     {
       "endDate": "2010-10-31",
       "periodType": "FY",
-      "revenueMM": 50.0,
+      "revenueMM": 50,
       "revenueBySegmentMM": {
         "Agribusiness": 47.4,
-        "Rental Operations": 2.0,
+        "Rental Operations": 2,
         "Real Estate Development": 0.6
       },
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 32.0,
-        "Real Estate operating expenses": 1.0,
-        "Selling, G&A": 5.0,
-        "D&A": 4.0,
+        "COGS (Agribusiness)": 32,
+        "Real Estate operating expenses": 1,
+        "Selling, G&A": 5,
+        "D&A": 4,
         "Other": 0.5
       },
       "ebitdaMM": 7.5,
       "netIncomeMM": 1.6,
-      "totalAssetsMM": 174.0,
-      "totalDebtMM": 60.0,
+      "totalAssetsMM": 174,
+      "totalDebtMM": 60,
       "cashMM": 0.7,
       "netDebtMM": 59.3,
-      "totalEquityMM": 81.0,
-      "propertyBookMM": 142.0,
-      "totalAcresK": 7.0,
+      "totalEquityMM": 81,
+      "propertyBookMM": 142,
+      "totalAcresK": 7,
       "sharesOutMM": 8.6,
       "dividendPerShare": 0.125,
-      "notes": "FY10 (yr-end Oct 2010): IPO year — Mar 24, 2010 at $14/sh (~$32M gross). Revenue $50M dominated by lemons + oranges + avocados; ~7,000 acres (10-K)."
+      "notes": "FY10 (yr-end Oct 2010): IPO year — Mar 24, 2010 at $14/sh (~$32M gross). Revenue $50M dominated by lemons + oranges + avocados; ~7,000 acres (10-K).",
+      "bookValuePerShare": 9.42
     },
     {
       "endDate": "2011-10-31",
@@ -43,53 +44,55 @@
         "Real Estate Development": 0.8
       },
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 42.0,
-        "Real Estate operating expenses": 1.0,
-        "Selling, G&A": 6.0,
-        "D&A": 5.0,
+        "COGS (Agribusiness)": 42,
+        "Real Estate operating expenses": 1,
+        "Selling, G&A": 6,
+        "D&A": 5,
         "Other": 0.7
       },
-      "ebitdaMM": 13.0,
+      "ebitdaMM": 13,
       "netIncomeMM": 4.7,
-      "totalAssetsMM": 181.0,
-      "totalDebtMM": 53.0,
+      "totalAssetsMM": 181,
+      "totalDebtMM": 53,
       "cashMM": 0.5,
       "netDebtMM": 52.5,
-      "totalEquityMM": 92.0,
-      "propertyBookMM": 145.0,
+      "totalEquityMM": 92,
+      "propertyBookMM": 145,
       "totalAcresK": 7.5,
       "sharesOutMM": 8.85,
       "dividendPerShare": 0.15,
-      "notes": "FY11: revenue $67.7M (+35% YoY) on strong lemon pricing (10-K)."
+      "notes": "FY11: revenue $67.7M (+35% YoY) on strong lemon pricing (10-K).",
+      "bookValuePerShare": 10.4
     },
     {
       "endDate": "2012-10-31",
       "periodType": "FY",
-      "revenueMM": 67.0,
+      "revenueMM": 67,
       "revenueBySegmentMM": {
         "Agribusiness": 63.7,
         "Rental Operations": 2.6,
         "Real Estate Development": 0.7
       },
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 45.0,
-        "Real Estate operating expenses": 1.0,
-        "Selling, G&A": 6.0,
-        "D&A": 5.0,
+        "COGS (Agribusiness)": 45,
+        "Real Estate operating expenses": 1,
+        "Selling, G&A": 6,
+        "D&A": 5,
         "Other": 0.5
       },
       "ebitdaMM": 9.5,
       "netIncomeMM": 1.7,
-      "totalAssetsMM": 195.0,
-      "totalDebtMM": 65.0,
+      "totalAssetsMM": 195,
+      "totalDebtMM": 65,
       "cashMM": 0.4,
       "netDebtMM": 64.6,
-      "totalEquityMM": 95.0,
-      "propertyBookMM": 158.0,
+      "totalEquityMM": 95,
+      "propertyBookMM": 158,
       "totalAcresK": 7.5,
       "sharesOutMM": 9.5,
       "dividendPerShare": 0.15,
-      "notes": "FY12: revenue $67M (10-K)."
+      "notes": "FY12: revenue $67M (10-K).",
+      "bookValuePerShare": 10
     },
     {
       "endDate": "2013-10-31",
@@ -101,24 +104,25 @@
         "Real Estate Development": 0.8
       },
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 52.0,
-        "Real Estate operating expenses": 1.0,
-        "Selling, G&A": 7.0,
-        "D&A": 5.0,
+        "COGS (Agribusiness)": 52,
+        "Real Estate operating expenses": 1,
+        "Selling, G&A": 7,
+        "D&A": 5,
         "Other": 0.1
       },
       "ebitdaMM": 13.5,
       "netIncomeMM": 4.7,
-      "totalAssetsMM": 215.0,
-      "totalDebtMM": 75.0,
+      "totalAssetsMM": 215,
+      "totalDebtMM": 75,
       "cashMM": 0.5,
       "netDebtMM": 74.5,
-      "totalEquityMM": 100.0,
-      "propertyBookMM": 175.0,
+      "totalEquityMM": 100,
+      "propertyBookMM": 175,
       "totalAcresK": 7.5,
       "sharesOutMM": 11.4,
       "dividendPerShare": 0.15,
-      "notes": "FY13: revenue $78.6M (10-K)."
+      "notes": "FY13: revenue $78.6M (10-K).",
+      "bookValuePerShare": 8.77
     },
     {
       "endDate": "2014-10-31",
@@ -130,53 +134,55 @@
         "Real Estate Development": 0.9
       },
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 69.0,
-        "Real Estate operating expenses": 1.0,
-        "Selling, G&A": 9.0,
-        "D&A": 6.0,
-        "Other": 1.0
+        "COGS (Agribusiness)": 69,
+        "Real Estate operating expenses": 1,
+        "Selling, G&A": 9,
+        "D&A": 6,
+        "Other": 1
       },
       "ebitdaMM": 16.5,
       "netIncomeMM": 5.5,
-      "totalAssetsMM": 245.0,
-      "totalDebtMM": 90.0,
+      "totalAssetsMM": 245,
+      "totalDebtMM": 90,
       "cashMM": 0.5,
       "netDebtMM": 89.5,
-      "totalEquityMM": 110.0,
-      "propertyBookMM": 200.0,
-      "totalAcresK": 8.0,
+      "totalEquityMM": 110,
+      "propertyBookMM": 200,
+      "totalAcresK": 8,
       "sharesOutMM": 13.85,
       "dividendPerShare": 0.15,
-      "notes": "FY14: revenue $102.5M (+30% YoY) on strong agribusiness; first year crossing $100M (10-K)."
+      "notes": "FY14: revenue $102.5M (+30% YoY) on strong agribusiness; first year crossing $100M (10-K).",
+      "bookValuePerShare": 7.94
     },
     {
       "endDate": "2015-10-31",
       "periodType": "FY",
-      "revenueMM": 100.0,
+      "revenueMM": 100,
       "revenueBySegmentMM": {
         "Agribusiness": 96.2,
-        "Rental Operations": 3.0,
+        "Rental Operations": 3,
         "Real Estate Development": 0.8
       },
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 67.0,
-        "Real Estate operating expenses": 1.0,
-        "Selling, G&A": 9.0,
-        "D&A": 6.0,
-        "Other": 1.0
+        "COGS (Agribusiness)": 67,
+        "Real Estate operating expenses": 1,
+        "Selling, G&A": 9,
+        "D&A": 6,
+        "Other": 1
       },
-      "ebitdaMM": 16.0,
-      "netIncomeMM": 7.0,
-      "totalAssetsMM": 270.0,
-      "totalDebtMM": 95.0,
+      "ebitdaMM": 16,
+      "netIncomeMM": 7,
+      "totalAssetsMM": 270,
+      "totalDebtMM": 95,
       "cashMM": 0.5,
       "netDebtMM": 94.5,
-      "totalEquityMM": 130.0,
-      "propertyBookMM": 218.0,
+      "totalEquityMM": 130,
+      "propertyBookMM": 218,
       "totalAcresK": 8.5,
       "sharesOutMM": 14.06,
       "dividendPerShare": 0.16,
-      "notes": "FY15: revenue $100M; Harvest at Limoneira (East Area I) lot-sales picked up (10-K)."
+      "notes": "FY15: revenue $100M; Harvest at Limoneira (East Area I) lot-sales picked up (10-K).",
+      "bookValuePerShare": 9.25
     },
     {
       "endDate": "2016-10-31",
@@ -184,86 +190,89 @@
       "revenueMM": 105.5,
       "revenueBySegmentMM": {
         "Agribusiness": 100.5,
-        "Rental Operations": 4.0,
-        "Real Estate Development": 1.0
+        "Rental Operations": 4,
+        "Real Estate Development": 1
       },
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 74.0,
+        "COGS (Agribusiness)": 74,
         "Real Estate operating expenses": 1.5,
-        "Selling, G&A": 9.0,
-        "D&A": 6.0,
-        "Other": 1.0
+        "Selling, G&A": 9,
+        "D&A": 6,
+        "Other": 1
       },
-      "ebitdaMM": 14.0,
-      "netIncomeMM": 7.0,
-      "totalAssetsMM": 285.0,
-      "totalDebtMM": 95.0,
+      "ebitdaMM": 14,
+      "netIncomeMM": 7,
+      "totalAssetsMM": 285,
+      "totalDebtMM": 95,
       "cashMM": 0.4,
       "netDebtMM": 94.6,
-      "totalEquityMM": 145.0,
-      "propertyBookMM": 230.0,
-      "totalAcresK": 9.0,
-      "sharesOutMM": 14.20,
+      "totalEquityMM": 145,
+      "propertyBookMM": 230,
+      "totalAcresK": 9,
+      "sharesOutMM": 14.2,
       "dividendPerShare": 0.18,
-      "notes": "FY16: revenue $105.5M; Harvest at Limoneira phased lot sales accelerating (10-K)."
+      "notes": "FY16: revenue $105.5M; Harvest at Limoneira phased lot sales accelerating (10-K).",
+      "bookValuePerShare": 10.21
     },
     {
       "endDate": "2017-10-31",
       "periodType": "FY",
-      "revenueMM": 119.0,
+      "revenueMM": 119,
       "revenueBySegmentMM": {
         "Agribusiness": 113.5,
         "Rental Operations": 4.2,
         "Real Estate Development": 1.3
       },
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 76.0,
+        "COGS (Agribusiness)": 76,
         "Real Estate operating expenses": 1.5,
-        "Selling, G&A": 10.0,
-        "D&A": 7.0,
+        "Selling, G&A": 10,
+        "D&A": 7,
         "Other": 0.5
       },
-      "ebitdaMM": 24.0,
+      "ebitdaMM": 24,
       "netIncomeMM": 11.5,
-      "totalAssetsMM": 350.0,
-      "totalDebtMM": 100.0,
+      "totalAssetsMM": 350,
+      "totalDebtMM": 100,
       "cashMM": 0.6,
       "netDebtMM": 99.4,
-      "totalEquityMM": 200.0,
-      "propertyBookMM": 250.0,
+      "totalEquityMM": 200,
+      "propertyBookMM": 250,
       "totalAcresK": 11.5,
-      "sharesOutMM": 14.20,
-      "dividendPerShare": 0.20,
-      "notes": "FY17: revenue $119M (+13% YoY); Aug 2017 acquired Oxnard Lemon Co. (~$60M cash + stock, ~1,300 acres + packinghouse). Strong lemon-pricing year (10-K)."
+      "sharesOutMM": 14.2,
+      "dividendPerShare": 0.2,
+      "notes": "FY17: revenue $119M (+13% YoY); Aug 2017 acquired Oxnard Lemon Co. (~$60M cash + stock, ~1,300 acres + packinghouse). Strong lemon-pricing year (10-K).",
+      "bookValuePerShare": 14.08
     },
     {
       "endDate": "2018-10-31",
       "periodType": "FY",
-      "revenueMM": 138.0,
+      "revenueMM": 138,
       "revenueBySegmentMM": {
         "Agribusiness": 132.5,
         "Rental Operations": 4.5,
-        "Real Estate Development": 1.0
+        "Real Estate Development": 1
       },
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 100.0,
+        "COGS (Agribusiness)": 100,
         "Real Estate operating expenses": 1.5,
-        "Selling, G&A": 12.0,
-        "D&A": 8.0,
+        "Selling, G&A": 12,
+        "D&A": 8,
         "Other": 0.5
       },
-      "ebitdaMM": 16.0,
+      "ebitdaMM": 16,
       "netIncomeMM": 6.5,
-      "totalAssetsMM": 395.0,
-      "totalDebtMM": 110.0,
+      "totalAssetsMM": 395,
+      "totalDebtMM": 110,
       "cashMM": 0.5,
       "netDebtMM": 109.5,
-      "totalEquityMM": 230.0,
-      "propertyBookMM": 275.0,
+      "totalEquityMM": 230,
+      "propertyBookMM": 275,
       "totalAcresK": 12.5,
-      "sharesOutMM": 17.50,
+      "sharesOutMM": 17.5,
       "dividendPerShare": 0.24,
-      "notes": "FY18: revenue $138M; full-year contribution from Oxnard Lemon (10-K)."
+      "notes": "FY18: revenue $138M; full-year contribution from Oxnard Lemon (10-K).",
+      "bookValuePerShare": 13.14
     },
     {
       "endDate": "2019-10-31",
@@ -275,24 +284,25 @@
         "Real Estate Development": 0.7
       },
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 138.0,
-        "Real Estate operating expenses": 2.0,
-        "Selling, G&A": 13.0,
-        "D&A": 8.0,
+        "COGS (Agribusiness)": 138,
+        "Real Estate operating expenses": 2,
+        "Selling, G&A": 13,
+        "D&A": 8,
         "Other": 1.1
       },
       "ebitdaMM": 12.5,
       "netIncomeMM": 4.6,
-      "totalAssetsMM": 405.0,
-      "totalDebtMM": 117.0,
+      "totalAssetsMM": 405,
+      "totalDebtMM": 117,
       "cashMM": 0.5,
       "netDebtMM": 116.5,
-      "totalEquityMM": 240.0,
-      "propertyBookMM": 280.0,
+      "totalEquityMM": 240,
+      "propertyBookMM": 280,
       "totalAcresK": 12.5,
       "sharesOutMM": 17.59,
-      "dividendPerShare": 0.30,
-      "notes": "FY19 (yr-end Oct 2019): revenue $174.6M dominated by Agribusiness (lemons + oranges + avocados). EBITDA computed from Adj EBITDA reported in IR release."
+      "dividendPerShare": 0.3,
+      "notes": "FY19 (yr-end Oct 2019): revenue $174.6M dominated by Agribusiness (lemons + oranges + avocados). EBITDA computed from Adj EBITDA reported in IR release.",
+      "bookValuePerShare": 13.64
     },
     {
       "endDate": "2020-10-31",
@@ -304,37 +314,38 @@
         "Real Estate Development": 0.5
       },
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 135.0,
-        "Real Estate operating expenses": 2.0,
-        "Selling, G&A": 13.0,
-        "D&A": 8.0,
+        "COGS (Agribusiness)": 135,
+        "Real Estate operating expenses": 2,
+        "Selling, G&A": 13,
+        "D&A": 8,
         "Other": 1.5
       },
-      "ebitdaMM": 8.0,
+      "ebitdaMM": 8,
       "netIncomeMM": -7.5,
-      "totalAssetsMM": 410.0,
-      "totalDebtMM": 122.0,
+      "totalAssetsMM": 410,
+      "totalDebtMM": 122,
       "cashMM": 0.5,
       "netDebtMM": 121.5,
-      "totalEquityMM": 235.0,
-      "propertyBookMM": 282.0,
+      "totalEquityMM": 235,
+      "propertyBookMM": 282,
       "totalAcresK": 12.5,
       "sharesOutMM": 17.62,
-      "dividendPerShare": 0.30,
-      "notes": "FY20: revenue $167.5M, Adj EBITDA $8.0M. COVID disruption to foodservice channel."
+      "dividendPerShare": 0.3,
+      "notes": "FY20: revenue $167.5M, Adj EBITDA $8.0M. COVID disruption to foodservice channel.",
+      "bookValuePerShare": 13.34
     },
     {
       "endDate": "2021-01-31",
       "periodType": "Q",
       "revenueMM": 36.5,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 30.0,
+        "COGS (Agribusiness)": 30,
         "Real Estate operating expenses": 0.5,
         "Selling, G&A": 3.5,
         "D&A": 1.5,
-        "Other": 0.0
+        "Other": 0
       },
-      "ebitdaMM": 1.0,
+      "ebitdaMM": 1,
       "netIncomeMM": -3.5,
       "totalAcresK": 12.5,
       "notes": "Q1 FY21: revenue $36.5M."
@@ -342,16 +353,16 @@
     {
       "endDate": "2021-04-30",
       "periodType": "Q",
-      "revenueMM": 47.0,
+      "revenueMM": 47,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 36.0,
+        "COGS (Agribusiness)": 36,
         "Real Estate operating expenses": 0.5,
         "Selling, G&A": 3.5,
-        "D&A": 2.0,
-        "Other": 1.0
+        "D&A": 2,
+        "Other": 1
       },
-      "ebitdaMM": 4.0,
-      "netIncomeMM": -1.0,
+      "ebitdaMM": 4,
+      "netIncomeMM": -1,
       "totalAcresK": 12.5,
       "notes": "Q2 FY21: revenue $47.0M."
     },
@@ -360,13 +371,13 @@
       "periodType": "Q",
       "revenueMM": 51.5,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 38.0,
+        "COGS (Agribusiness)": 38,
         "Real Estate operating expenses": 0.5,
         "Selling, G&A": 3.5,
         "D&A": 2.5,
-        "Other": 1.0
+        "Other": 1
       },
-      "ebitdaMM": 6.0,
+      "ebitdaMM": 6,
       "netIncomeMM": 0.5,
       "totalAcresK": 12.5,
       "notes": "Q3 FY21: revenue $51.5M (peak summer lemon and avocado quarter)."
@@ -376,13 +387,13 @@
       "periodType": "Q",
       "revenueMM": 38.5,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 30.0,
+        "COGS (Agribusiness)": 30,
         "Real Estate operating expenses": 0.5,
         "Selling, G&A": 3.5,
-        "D&A": 2.0,
+        "D&A": 2,
         "Other": 0.5
       },
-      "ebitdaMM": 2.0,
+      "ebitdaMM": 2,
       "netIncomeMM": -1.5,
       "totalAcresK": 12.5,
       "notes": "Q4 FY21: revenue $38.5M."
@@ -397,34 +408,35 @@
         "Real Estate Development": 0.7
       },
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 135.0,
-        "Real Estate operating expenses": 2.0,
-        "Selling, G&A": 13.0,
-        "D&A": 9.0,
+        "COGS (Agribusiness)": 135,
+        "Real Estate operating expenses": 2,
+        "Selling, G&A": 13,
+        "D&A": 9,
         "Other": 1.5
       },
-      "ebitdaMM": 13.0,
+      "ebitdaMM": 13,
       "netIncomeMM": -5.5,
-      "totalAssetsMM": 425.0,
-      "totalDebtMM": 130.0,
+      "totalAssetsMM": 425,
+      "totalDebtMM": 130,
       "cashMM": 0.5,
       "netDebtMM": 129.5,
-      "totalEquityMM": 230.0,
-      "propertyBookMM": 290.0,
+      "totalEquityMM": 230,
+      "propertyBookMM": 290,
       "totalAcresK": 12.5,
       "sharesOutMM": 17.65,
-      "dividendPerShare": 0.30,
-      "notes": "FY21: revenue $173.5M, Adj EBITDA $13M."
+      "dividendPerShare": 0.3,
+      "notes": "FY21: revenue $173.5M, Adj EBITDA $13M.",
+      "bookValuePerShare": 13.03
     },
     {
       "endDate": "2022-01-31",
       "periodType": "Q",
-      "revenueMM": 41.0,
+      "revenueMM": 41,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 33.0,
+        "COGS (Agribusiness)": 33,
         "Real Estate operating expenses": 0.5,
         "Selling, G&A": 3.5,
-        "D&A": 2.0,
+        "D&A": 2,
         "Other": 0.5
       },
       "ebitdaMM": 1.5,
@@ -435,15 +447,15 @@
     {
       "endDate": "2022-04-30",
       "periodType": "Q",
-      "revenueMM": 50.0,
+      "revenueMM": 50,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 38.0,
+        "COGS (Agribusiness)": 38,
         "Real Estate operating expenses": 0.5,
         "Selling, G&A": 3.5,
-        "D&A": 2.0,
-        "Other": 1.0
+        "D&A": 2,
+        "Other": 1
       },
-      "ebitdaMM": 5.0,
+      "ebitdaMM": 5,
       "netIncomeMM": -1.5,
       "totalAcresK": 12.5,
       "notes": "Q2 FY22: revenue $50.0M."
@@ -451,15 +463,15 @@
     {
       "endDate": "2022-07-31",
       "periodType": "Q",
-      "revenueMM": 60.0,
+      "revenueMM": 60,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 44.0,
+        "COGS (Agribusiness)": 44,
         "Real Estate operating expenses": 0.5,
-        "Selling, G&A": 4.0,
+        "Selling, G&A": 4,
         "D&A": 2.5,
-        "Other": 1.0
+        "Other": 1
       },
-      "ebitdaMM": 8.0,
+      "ebitdaMM": 8,
       "netIncomeMM": 1.5,
       "totalAcresK": 12.5,
       "notes": "Q3 FY22: revenue $60.0M (strong avocado pricing)."
@@ -467,60 +479,61 @@
     {
       "endDate": "2022-10-31",
       "periodType": "Q",
-      "revenueMM": 33.0,
+      "revenueMM": 33,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 27.0,
+        "COGS (Agribusiness)": 27,
         "Real Estate operating expenses": 0.5,
-        "Selling, G&A": 3.0,
-        "D&A": 2.0,
+        "Selling, G&A": 3,
+        "D&A": 2,
         "Other": 0.5
       },
-      "ebitdaMM": 0.0,
-      "netIncomeMM": -3.0,
+      "ebitdaMM": 0,
+      "netIncomeMM": -3,
       "totalAcresK": 12.5,
       "notes": "Q4 FY22: revenue $33.0M."
     },
     {
       "endDate": "2022-10-31",
       "periodType": "FY",
-      "revenueMM": 184.0,
+      "revenueMM": 184,
       "revenueBySegmentMM": {
         "Agribusiness": 178.5,
         "Rental Operations": 4.8,
         "Real Estate Development": 0.7
       },
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 143.0,
-        "Real Estate operating expenses": 2.0,
-        "Selling, G&A": 14.0,
-        "D&A": 9.0,
+        "COGS (Agribusiness)": 143,
+        "Real Estate operating expenses": 2,
+        "Selling, G&A": 14,
+        "D&A": 9,
         "Other": 1.5
       },
       "ebitdaMM": 14.5,
       "netIncomeMM": -6.5,
-      "totalAssetsMM": 415.0,
-      "totalDebtMM": 110.0,
+      "totalAssetsMM": 415,
+      "totalDebtMM": 110,
       "cashMM": 0.5,
       "netDebtMM": 109.5,
-      "totalEquityMM": 235.0,
-      "propertyBookMM": 290.0,
+      "totalEquityMM": 235,
+      "propertyBookMM": 290,
       "totalAcresK": 12.5,
       "sharesOutMM": 17.68,
-      "dividendPerShare": 0.30,
-      "notes": "FY22: revenue $184M, Adj EBITDA $14.5M. Avocado pricing strength offset by cost inflation."
+      "dividendPerShare": 0.3,
+      "notes": "FY22: revenue $184M, Adj EBITDA $14.5M. Avocado pricing strength offset by cost inflation.",
+      "bookValuePerShare": 13.29
     },
     {
       "endDate": "2023-01-31",
       "periodType": "Q",
-      "revenueMM": 36.0,
+      "revenueMM": 36,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 30.0,
+        "COGS (Agribusiness)": 30,
         "Real Estate operating expenses": 0.5,
-        "Selling, G&A": 4.0,
-        "D&A": 2.0,
+        "Selling, G&A": 4,
+        "D&A": 2,
         "Other": 0.5
       },
-      "ebitdaMM": -1.0,
+      "ebitdaMM": -1,
       "netIncomeMM": -3.5,
       "totalAcresK": 12.5,
       "notes": "Q1 FY23: revenue $36.0M."
@@ -530,31 +543,31 @@
       "periodType": "Q",
       "revenueMM": 49.5,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 9.0,
+        "COGS (Agribusiness)": 9,
         "Real Estate operating expenses": 0.5,
-        "Selling, G&A": 3.0,
-        "D&A": 2.0,
-        "Other": 0.0
+        "Selling, G&A": 3,
+        "D&A": 2,
+        "Other": 0
       },
-      "ebitdaMM": 35.0,
-      "netIncomeMM": 24.0,
+      "ebitdaMM": 35,
+      "netIncomeMM": 24,
       "totalAcresK": 12.5,
       "notes": "Q2 FY23: revenue $49.5M. Large gain on Northern Properties sale (~$98M sale of Windfall Investors / agricultural property in Northern California closed Feb 2023) drove EBITDA / net income spike."
     },
     {
       "endDate": "2023-07-31",
       "periodType": "Q",
-      "revenueMM": 67.0,
+      "revenueMM": 67,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 49.0,
+        "COGS (Agribusiness)": 49,
         "Real Estate operating expenses": 0.5,
-        "Selling, G&A": 4.0,
+        "Selling, G&A": 4,
         "D&A": 2.5,
-        "Other": 2.0
+        "Other": 2
       },
-      "ebitdaMM": 9.0,
+      "ebitdaMM": 9,
       "netIncomeMM": 2.5,
-      "totalAcresK": 11.0,
+      "totalAcresK": 11,
       "notes": "Q3 FY23: revenue $67.0M (strong fresh lemon and avocado season)."
     },
     {
@@ -562,60 +575,61 @@
       "periodType": "Q",
       "revenueMM": 31.5,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 27.0,
+        "COGS (Agribusiness)": 27,
         "Real Estate operating expenses": 0.5,
-        "Selling, G&A": 3.0,
-        "D&A": 2.0,
-        "Other": 0.0
+        "Selling, G&A": 3,
+        "D&A": 2,
+        "Other": 0
       },
-      "ebitdaMM": -1.0,
+      "ebitdaMM": -1,
       "netIncomeMM": -3.5,
-      "totalAcresK": 11.0,
+      "totalAcresK": 11,
       "notes": "Q4 FY23: revenue $31.5M."
     },
     {
       "endDate": "2023-10-31",
       "periodType": "FY",
-      "revenueMM": 184.0,
+      "revenueMM": 184,
       "revenueBySegmentMM": {
         "Agribusiness": 178.5,
         "Rental Operations": 4.8,
         "Real Estate Development": 0.7
       },
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 116.0,
-        "Real Estate operating expenses": 2.0,
-        "Selling, G&A": 14.0,
-        "D&A": 9.0,
-        "Other": 1.0
+        "COGS (Agribusiness)": 116,
+        "Real Estate operating expenses": 2,
+        "Selling, G&A": 14,
+        "D&A": 9,
+        "Other": 1
       },
-      "ebitdaMM": 42.0,
+      "ebitdaMM": 42,
       "netIncomeMM": 19.5,
-      "totalAssetsMM": 395.0,
-      "totalDebtMM": 50.0,
+      "totalAssetsMM": 395,
+      "totalDebtMM": 50,
       "cashMM": 1.5,
       "netDebtMM": 48.5,
-      "totalEquityMM": 250.0,
-      "propertyBookMM": 250.0,
-      "totalAcresK": 11.0,
+      "totalEquityMM": 250,
+      "propertyBookMM": 250,
+      "totalAcresK": 11,
       "sharesOutMM": 17.72,
-      "dividendPerShare": 0.30,
-      "notes": "FY23: revenue $184M, Adj EBITDA $42M including ~$30M gain on Northern Properties sale. Net debt cut to ~$48M. Sold ~1,300+ acres."
+      "dividendPerShare": 0.3,
+      "notes": "FY23: revenue $184M, Adj EBITDA $42M including ~$30M gain on Northern Properties sale. Net debt cut to ~$48M. Sold ~1,300+ acres.",
+      "bookValuePerShare": 14.11
     },
     {
       "endDate": "2024-01-31",
       "periodType": "Q",
       "revenueMM": 41.5,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 33.0,
+        "COGS (Agribusiness)": 33,
         "Real Estate operating expenses": 0.5,
-        "Selling, G&A": 4.0,
-        "D&A": 2.0,
-        "Other": 1.0
+        "Selling, G&A": 4,
+        "D&A": 2,
+        "Other": 1
       },
-      "ebitdaMM": 1.0,
+      "ebitdaMM": 1,
       "netIncomeMM": -3.5,
-      "totalAcresK": 11.0,
+      "totalAcresK": 11,
       "notes": "Q1 FY24: revenue $41.5M."
     },
     {
@@ -623,15 +637,15 @@
       "periodType": "Q",
       "revenueMM": 44.5,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 35.0,
+        "COGS (Agribusiness)": 35,
         "Real Estate operating expenses": 0.5,
-        "Selling, G&A": 4.0,
+        "Selling, G&A": 4,
         "D&A": 2.5,
-        "Other": 1.0
+        "Other": 1
       },
       "ebitdaMM": 1.5,
       "netIncomeMM": -3.5,
-      "totalAcresK": 11.0,
+      "totalAcresK": 11,
       "notes": "Q2 FY24: revenue $44.5M."
     },
     {
@@ -639,15 +653,15 @@
       "periodType": "Q",
       "revenueMM": 56.5,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 42.0,
+        "COGS (Agribusiness)": 42,
         "Real Estate operating expenses": 0.5,
-        "Selling, G&A": 4.0,
+        "Selling, G&A": 4,
         "D&A": 2.5,
         "Other": 1.5
       },
-      "ebitdaMM": 6.0,
+      "ebitdaMM": 6,
       "netIncomeMM": -1.5,
-      "totalAcresK": 11.0,
+      "totalAcresK": 11,
       "notes": "Q3 FY24: revenue $56.5M."
     },
     {
@@ -655,13 +669,13 @@
       "periodType": "Q",
       "revenueMM": 32.5,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 30.0,
+        "COGS (Agribusiness)": 30,
         "Real Estate operating expenses": 0.5,
-        "Selling, G&A": 3.0,
-        "D&A": 2.0,
-        "Other": 0.0
+        "Selling, G&A": 3,
+        "D&A": 2,
+        "Other": 0
       },
-      "ebitdaMM": -3.0,
+      "ebitdaMM": -3,
       "netIncomeMM": -8.5,
       "totalAcresK": 10.5,
       "notes": "Q4 FY24: revenue $32.5M."
@@ -669,45 +683,46 @@
     {
       "endDate": "2024-10-31",
       "periodType": "FY",
-      "revenueMM": 175.0,
+      "revenueMM": 175,
       "revenueBySegmentMM": {
         "Agribusiness": 169.5,
         "Rental Operations": 4.8,
         "Real Estate Development": 0.7
       },
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 142.0,
-        "Real Estate operating expenses": 2.0,
-        "Selling, G&A": 15.0,
-        "D&A": 9.0,
+        "COGS (Agribusiness)": 142,
+        "Real Estate operating expenses": 2,
+        "Selling, G&A": 15,
+        "D&A": 9,
         "Other": 1.5
       },
       "ebitdaMM": 5.5,
-      "netIncomeMM": -17.0,
-      "totalAssetsMM": 380.0,
-      "totalDebtMM": 65.0,
-      "cashMM": 1.0,
-      "netDebtMM": 64.0,
-      "totalEquityMM": 235.0,
-      "propertyBookMM": 245.0,
+      "netIncomeMM": -17,
+      "totalAssetsMM": 380,
+      "totalDebtMM": 65,
+      "cashMM": 1,
+      "netDebtMM": 64,
+      "totalEquityMM": 235,
+      "propertyBookMM": 245,
       "totalAcresK": 10.5,
       "sharesOutMM": 17.75,
-      "dividendPerShare": 0.30,
-      "notes": "FY24: revenue $175M (-5% YoY) on lemon-pricing weakness. Adj EBITDA $5.5M (vs $42M prior year on no comparable land-sale gain). Net loss $17M."
+      "dividendPerShare": 0.3,
+      "notes": "FY24: revenue $175M (-5% YoY) on lemon-pricing weakness. Adj EBITDA $5.5M (vs $42M prior year on no comparable land-sale gain). Net loss $17M.",
+      "bookValuePerShare": 13.24
     },
     {
       "endDate": "2025-01-31",
       "periodType": "Q",
-      "revenueMM": 36.0,
+      "revenueMM": 36,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 31.0,
+        "COGS (Agribusiness)": 31,
         "Real Estate operating expenses": 0.5,
-        "Selling, G&A": 4.0,
-        "D&A": 2.0,
-        "Other": 1.0
+        "Selling, G&A": 4,
+        "D&A": 2,
+        "Other": 1
       },
       "ebitdaMM": -2.5,
-      "netIncomeMM": -7.0,
+      "netIncomeMM": -7,
       "totalAcresK": 10.5,
       "notes": "Q1 FY25: revenue $36.0M."
     },
@@ -716,13 +731,13 @@
       "periodType": "Q",
       "revenueMM": 38.5,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 33.0,
+        "COGS (Agribusiness)": 33,
         "Real Estate operating expenses": 0.5,
-        "Selling, G&A": 4.0,
+        "Selling, G&A": 4,
         "D&A": 2.5,
         "Other": 1.5
       },
-      "ebitdaMM": -3.0,
+      "ebitdaMM": -3,
       "netIncomeMM": -7.5,
       "totalAcresK": 10.5,
       "notes": "Q2 FY25: revenue $38.5M. Continued lemon-pricing weakness."
@@ -732,7 +747,7 @@
       "periodType": "Q",
       "revenueMM": 51.5,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 42.0,
+        "COGS (Agribusiness)": 42,
         "Real Estate operating expenses": 0.5,
         "Selling, G&A": 4.5,
         "D&A": 2.5,
@@ -748,19 +763,19 @@
       "periodType": "Q",
       "revenueMM": 33.5,
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 33.0,
+        "COGS (Agribusiness)": 33,
         "Real Estate operating expenses": 0.5,
-        "Selling, G&A": 4.0,
-        "D&A": 2.0,
-        "Other": 0.0
+        "Selling, G&A": 4,
+        "D&A": 2,
+        "Other": 0
       },
-      "ebitdaMM": -6.0,
+      "ebitdaMM": -6,
       "netIncomeMM": -10.5,
       "totalDebtMM": 72.48,
       "cashMM": 1.51,
       "netDebtMM": 70.97,
       "totalAcresK": 10.5,
-      "sharesOutMM": 17.80,
+      "sharesOutMM": 17.8,
       "navPerShare": 10.11,
       "propertyBookMM": 172.65,
       "notes": "Q4 FY25: revenue $33.5M. Lemon pricing remained weak through fiscal year end. Net debt $70.97M. Latest seed-data anchor period."
@@ -775,25 +790,26 @@
         "Real Estate Development": 0.7
       },
       "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 142.0,
-        "Real Estate operating expenses": 2.0,
-        "Selling, G&A": 16.0,
-        "D&A": 9.0,
+        "COGS (Agribusiness)": 142,
+        "Real Estate operating expenses": 2,
+        "Selling, G&A": 16,
+        "D&A": 9,
         "Other": 1.9
       },
       "ebitdaMM": -11.2,
       "netIncomeMM": -29.5,
-      "totalAssetsMM": 365.0,
+      "totalAssetsMM": 365,
       "totalDebtMM": 72.48,
       "cashMM": 1.51,
       "netDebtMM": 70.97,
-      "totalEquityMM": 218.0,
+      "totalEquityMM": 218,
       "propertyBookMM": 172.65,
       "totalAcresK": 10.5,
-      "sharesOutMM": 17.80,
-      "dividendPerShare": 0.30,
+      "sharesOutMM": 17.8,
+      "dividendPerShare": 0.3,
       "navPerShare": 10.11,
-      "notes": "FY25: revenue $159.7M (-9% YoY) on persistent lemon-pricing weakness and reduced fresh-volume mix. Adj EBITDA $(11.2)M — first negative full-year Adj EBITDA in recent history. Net debt $70.97M. Book value / share $12.25; reported NAV/share ~$10.11."
+      "notes": "FY25: revenue $159.7M (-9% YoY) on persistent lemon-pricing weakness and reduced fresh-volume mix. Adj EBITDA $(11.2)M — first negative full-year Adj EBITDA in recent history. Net debt $70.97M. Book value / share $12.25; reported NAV/share ~$10.11.",
+      "bookValuePerShare": 12.25
     }
   ]
 }

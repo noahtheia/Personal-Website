@@ -8,17 +8,17 @@
       "endDate": "2021-09-30",
       "periodType": "Q",
       "grossRevenueMM": 17.05,
-      "revenueMM": 15.50,
+      "revenueMM": 15.5,
       "revenueBySegmentMM": {
-        "Lease income (SLC)": 0.0,
-        "Forestry / timber": 0.50,
-        "Pre-lease agricultural transition": 15.00
+        "Lease income (SLC)": 0,
+        "Forestry / timber": 0.5,
+        "Pre-lease agricultural transition": 15
       },
       "expensesBySegmentMM": {
-        "COGS / property maintenance": 2.90,
-        "G&A": 3.10,
-        "D&A": 1.40,
-        "Other opex": 0.50
+        "COGS / property maintenance": 2.9,
+        "G&A": 3.1,
+        "D&A": 1.4,
+        "Other opex": 0.5
       },
       "ebitdaMM": 16.3,
       "netIncomeMM": -0.354,
@@ -34,18 +34,18 @@
       "grossRevenueMM": 51.15,
       "revenueMM": 47.66,
       "revenueBySegmentMM": {
-        "Lease income (SLC)": 30.20,
+        "Lease income (SLC)": 30.2,
         "Forestry / timber": 1.46,
-        "Pre-lease agricultural transition": 16.00
+        "Pre-lease agricultural transition": 16
       },
       "expensesBySegmentMM": {
-        "COGS / property maintenance": 3.50,
-        "G&A": 3.50,
-        "D&A": 1.80,
+        "COGS / property maintenance": 3.5,
+        "G&A": 3.5,
+        "D&A": 1.8,
         "Other opex": 0.96
       },
-      "ebitdaMM": 37.90,
-      "netIncomeMM": 20.10,
+      "ebitdaMM": 37.9,
+      "netIncomeMM": 20.1,
       "totalDebtMM": 80,
       "cashMM": 30.8,
       "netDebtMM": 49.2,
@@ -55,21 +55,21 @@
     {
       "endDate": "2021-12-31",
       "periodType": "FY",
-      "grossRevenueMM": 113.0,
+      "grossRevenueMM": 113,
       "revenueMM": 102.7,
       "revenueBySegmentMM": {
-        "Lease income (SLC)": 30.20,
-        "Forestry / timber": 2.50,
-        "Pre-lease agricultural transition": 70.00
+        "Lease income (SLC)": 30.2,
+        "Forestry / timber": 2.5,
+        "Pre-lease agricultural transition": 70
       },
       "expensesBySegmentMM": {
-        "COGS / property maintenance": 12.0,
-        "G&A": 12.0,
-        "D&A": 6.0,
+        "COGS / property maintenance": 12,
+        "G&A": 12,
+        "D&A": 6,
         "Other opex": 4.7
       },
-      "ebitdaMM": 68.0,
-      "netIncomeMM": 38.0,
+      "ebitdaMM": 68,
+      "netIncomeMM": 38,
       "totalDebtMM": 80,
       "cashMM": 30.8,
       "netDebtMM": 49.2,
@@ -87,12 +87,12 @@
         "Forestry / timber": 0.95
       },
       "expensesBySegmentMM": {
-        "COGS / property maintenance": 1.40,
-        "G&A": 3.10,
-        "D&A": 1.50,
+        "COGS / property maintenance": 1.4,
+        "G&A": 3.1,
+        "D&A": 1.5,
         "Other opex": 1.72
       },
-      "ebitdaMM": 16.0,
+      "ebitdaMM": 16,
       "netIncomeMM": 0.315,
       "totalAcresK": 96.84,
       "notes": "1T22: net revenue R$23.72M, adj EBITDA R$16M, net income R$0.315M"
@@ -108,7 +108,7 @@
       },
       "expensesBySegmentMM": {
         "COGS / property maintenance": 0.55,
-        "G&A": 1.20,
+        "G&A": 1.2,
         "D&A": 0.45,
         "Other opex": 0.18
       },
@@ -127,13 +127,13 @@
         "Forestry / timber": 0.96
       },
       "expensesBySegmentMM": {
-        "COGS / property maintenance": 0.50,
-        "G&A": 0.80,
+        "COGS / property maintenance": 0.5,
+        "G&A": 0.8,
         "D&A": 0.55,
         "Other opex": 0.17
       },
       "ebitdaMM": 21.9,
-      "netIncomeMM": 14.80,
+      "netIncomeMM": 14.8,
       "totalAcresK": 96.84,
       "notes": "3T22: net revenue R$23.92M, EBITDA estimated by FY22 subtraction, net income R$14.80M"
     },
@@ -148,14 +148,14 @@
       "endDate": "2022-12-31",
       "periodType": "Q",
       "grossRevenueMM": 26.95,
-      "revenueMM": 24.50,
+      "revenueMM": 24.5,
       "revenueBySegmentMM": {
         "Lease income (SLC)": 23.52,
         "Forestry / timber": 0.98
       },
       "expensesBySegmentMM": {
-        "COGS / property maintenance": 1.30,
-        "G&A": 1.50,
+        "COGS / property maintenance": 1.3,
+        "G&A": 1.5,
         "D&A": 0.85,
         "Other opex": 0.45
       },
@@ -171,11 +171,11 @@
       "revenueMM": 95.02,
       "revenueBySegmentMM": {
         "Lease income (SLC)": 91.22,
-        "Forestry / timber": 3.80
+        "Forestry / timber": 3.8
       },
       "expensesBySegmentMM": {
         "COGS / property maintenance": 3.75,
-        "G&A": 6.60,
+        "G&A": 6.6,
         "D&A": 3.35,
         "Other opex": 2.52
       },
@@ -191,7 +191,8 @@
       "propertyFmvMM": 3635,
       "dividendPerShare": 1.354,
       "sharesOutMM": 96.23,
-      "notes": "FY22: adj EBITDA R$78.8M (-10.7% YoY), net income R$137.2M (+260% YoY). FMV NAV/share computed from S&P Nov-2022 R$3,635M property − est ~R$30M net debt"
+      "notes": "FY22: adj EBITDA R$78.8M (-10.7% YoY), net income R$137.2M (+260% YoY). FMV NAV/share computed from S&P Nov-2022 R$3,635M property − est ~R$30M net debt",
+      "bookValuePerShare": 9.14
     },
     {
       "endDate": "2023-03-31",
@@ -200,12 +201,12 @@
       "revenueMM": 24.99,
       "revenueBySegmentMM": {
         "Lease income (SLC)": 23.99,
-        "Forestry / timber": 1.00
+        "Forestry / timber": 1
       },
       "expensesBySegmentMM": {
-        "COGS / property maintenance": 1.20,
-        "G&A": 4.30,
-        "D&A": 2.50,
+        "COGS / property maintenance": 1.2,
+        "G&A": 4.3,
+        "D&A": 2.5,
         "Other opex": 1.69
       },
       "ebitdaMM": 15.3,
@@ -224,8 +225,8 @@
       },
       "expensesBySegmentMM": {
         "COGS / property maintenance": 1.27,
-        "G&A": 2.20,
-        "D&A": 1.30,
+        "G&A": 2.2,
+        "D&A": 1.3,
         "Other opex": 0.48
       },
       "ebitdaMM": 19.62,
@@ -237,16 +238,16 @@
       "endDate": "2023-09-30",
       "periodType": "Q",
       "grossRevenueMM": 24.9,
-      "revenueMM": 22.60,
+      "revenueMM": 22.6,
       "revenueBySegmentMM": {
-        "Lease income (SLC)": 21.70,
-        "Forestry / timber": 0.90
+        "Lease income (SLC)": 21.7,
+        "Forestry / timber": 0.9
       },
       "expensesBySegmentMM": {
-        "COGS / property maintenance": 1.40,
-        "G&A": 1.50,
-        "D&A": 0.80,
-        "Other opex": 0.40
+        "COGS / property maintenance": 1.4,
+        "G&A": 1.5,
+        "D&A": 0.8,
+        "Other opex": 0.4
       },
       "ebitdaMM": 18.5,
       "netIncomeMM": 7.98,
@@ -266,14 +267,14 @@
       "grossRevenueMM": 21.2,
       "revenueMM": 19.27,
       "revenueBySegmentMM": {
-        "Lease income (SLC)": 18.50,
+        "Lease income (SLC)": 18.5,
         "Forestry / timber": 0.77
       },
       "expensesBySegmentMM": {
         "COGS / property maintenance": 1.27,
-        "G&A": 1.80,
-        "D&A": 1.10,
-        "Other opex": 0.40
+        "G&A": 1.8,
+        "D&A": 1.1,
+        "Other opex": 0.4
       },
       "ebitdaMM": 14.7,
       "netIncomeMM": 13.61,
@@ -291,8 +292,8 @@
       },
       "expensesBySegmentMM": {
         "COGS / property maintenance": 5.14,
-        "G&A": 9.80,
-        "D&A": 5.70,
+        "G&A": 9.8,
+        "D&A": 5.7,
         "Other opex": 2.97
       },
       "ebitdaMM": 68.1,
@@ -307,7 +308,8 @@
       "fmvNavPerShare": 29.98,
       "dividendPerShare": 0.471,
       "sharesOutMM": 96.23,
-      "notes": "FY23: net debt R$108.3M (+291.4% YoY), leverage 1.58x. Equity R$786M (-9% YoY post-dividend payout). FMV NAV/share computed from S&P Nov-2023 R$2,993M property − net debt"
+      "notes": "FY23: net debt R$108.3M (+291.4% YoY), leverage 1.58x. Equity R$786M (-9% YoY post-dividend payout). FMV NAV/share computed from S&P Nov-2023 R$2,993M property − net debt",
+      "bookValuePerShare": 8.17
     },
     {
       "endDate": "2024-03-31",
@@ -319,9 +321,9 @@
         "Forestry / timber": 0.65
       },
       "expensesBySegmentMM": {
-        "COGS / property maintenance": 0.50,
-        "G&A": 1.40,
-        "D&A": 1.10,
+        "COGS / property maintenance": 0.5,
+        "G&A": 1.4,
+        "D&A": 1.1,
         "Other opex": 0.15
       },
       "ebitdaMM": 13.17,
@@ -339,9 +341,9 @@
         "Forestry / timber": 0.71
       },
       "expensesBySegmentMM": {
-        "COGS / property maintenance": 1.20,
-        "G&A": 4.50,
-        "D&A": 2.00,
+        "COGS / property maintenance": 1.2,
+        "G&A": 4.5,
+        "D&A": 2,
         "Other opex": 0.59
       },
       "ebitdaMM": 9.5,
@@ -359,12 +361,12 @@
         "Forestry / timber": 0.72
       },
       "expensesBySegmentMM": {
-        "COGS / property maintenance": 1.50,
-        "G&A": 2.40,
-        "D&A": 1.50,
+        "COGS / property maintenance": 1.5,
+        "G&A": 2.4,
+        "D&A": 1.5,
         "Other opex": 0.55
       },
-      "ebitdaMM": 12.0,
+      "ebitdaMM": 12,
       "netIncomeMM": 7.37,
       "totalAcresK": 96.84,
       "notes": "3T24: net revenue R$17.95M, EBITDA estimated, net income R$7.37M"
@@ -386,12 +388,12 @@
         "Forestry / timber": 0.65
       },
       "expensesBySegmentMM": {
-        "COGS / property maintenance": 8.0,
+        "COGS / property maintenance": 8,
         "G&A": 9.5,
         "D&A": 5.5,
         "Other opex": 1.27
       },
-      "ebitdaMM": -8.0,
+      "ebitdaMM": -8,
       "netIncomeMM": -5.76,
       "totalAcresK": 96.84,
       "notes": "4T24: net revenue R$16.27M, EBITDA R$-8.0M (impairment + costs), net income R$-5.76M. Adj EBITDA R$7.8M"
@@ -402,13 +404,13 @@
       "grossRevenueMM": 75.19,
       "revenueMM": 68.33,
       "revenueBySegmentMM": {
-        "Lease income (SLC)": 65.60,
+        "Lease income (SLC)": 65.6,
         "Forestry / timber": 2.73
       },
       "expensesBySegmentMM": {
-        "COGS / property maintenance": 11.20,
-        "G&A": 17.80,
-        "D&A": 10.10,
+        "COGS / property maintenance": 11.2,
+        "G&A": 17.8,
+        "D&A": 10.1,
         "Other opex": 2.56
       },
       "ebitdaMM": 26.67,
@@ -423,7 +425,8 @@
       "fmvNavPerShare": 27.71,
       "dividendPerShare": 0.0869,
       "sharesOutMM": 96.23,
-      "notes": "FY24: net debt R$90.5M (down from R$108.3M FY23), equity R$714M (-9.1% YoY). Year-end S&P FMV R$2,755.9M. FMV NAV/share R$27.71"
+      "notes": "FY24: net debt R$90.5M (down from R$108.3M FY23), equity R$714M (-9.1% YoY). Year-end S&P FMV R$2,755.9M. FMV NAV/share R$27.71",
+      "bookValuePerShare": 7.42
     },
     {
       "endDate": "2025-03-31",
@@ -435,12 +438,12 @@
         "Forestry / timber": 0.88
       },
       "expensesBySegmentMM": {
-        "COGS / property maintenance": 2.50,
-        "G&A": 3.20,
-        "D&A": 1.80,
+        "COGS / property maintenance": 2.5,
+        "G&A": 3.2,
+        "D&A": 1.8,
         "Other opex": 0.46
       },
-      "ebitdaMM": 14.0,
+      "ebitdaMM": 14,
       "netIncomeMM": 9.71,
       "totalAcresK": 96.84,
       "notes": "1T25: net revenue R$21.96M, EBITDA estimated, net income R$9.71M (recovery in 2024/25 soy harvest pricing)"
@@ -449,18 +452,18 @@
       "endDate": "2025-06-30",
       "periodType": "Q",
       "grossRevenueMM": 32.89,
-      "revenueMM": 29.90,
+      "revenueMM": 29.9,
       "revenueBySegmentMM": {
-        "Lease income (SLC)": 28.70,
-        "Forestry / timber": 1.20
+        "Lease income (SLC)": 28.7,
+        "Forestry / timber": 1.2
       },
       "expensesBySegmentMM": {
-        "COGS / property maintenance": 5.50,
-        "G&A": 4.80,
-        "D&A": 2.20,
-        "Other opex": 0.40
+        "COGS / property maintenance": 5.5,
+        "G&A": 4.8,
+        "D&A": 2.2,
+        "Other opex": 0.4
       },
-      "ebitdaMM": 17.0,
+      "ebitdaMM": 17,
       "netIncomeMM": 5.01,
       "totalAcresK": 96.84,
       "notes": "2T25: net revenue R$29.90M (highest quarter ever, +68% YoY), EBITDA estimated"
@@ -475,12 +478,12 @@
         "Forestry / timber": 0.88
       },
       "expensesBySegmentMM": {
-        "COGS / property maintenance": 6.0,
+        "COGS / property maintenance": 6,
         "G&A": 5.5,
         "D&A": 2.5,
         "Other opex": 1.06
       },
-      "ebitdaMM": 7.0,
+      "ebitdaMM": 7,
       "netIncomeMM": -18.33,
       "totalAcresK": 96.84,
       "notes": "3T25: net revenue R$22.06M, net loss R$-18.33M (likely property revaluation hit)"
@@ -503,7 +506,7 @@
       },
       "expensesBySegmentMM": {
         "COGS / property maintenance": 11.5,
-        "G&A": 7.0,
+        "G&A": 7,
         "D&A": 3.5,
         "Other opex": 0.51
       },
@@ -524,7 +527,7 @@
       "expensesBySegmentMM": {
         "COGS / property maintenance": 25.5,
         "G&A": 20.5,
-        "D&A": 10.0,
+        "D&A": 10,
         "Other opex": 2.42
       },
       "ebitdaMM": 38.15,
@@ -540,7 +543,8 @@
       "totalAssetsMM": 913.96,
       "sharesOutMM": 96.23,
       "dividendPerShare": 0.0724,
-      "notes": "FY25: net debt R$57.2M (-37% YoY), leverage 0.86x (vs 2.26x FY24). Lease income TTM R$96.57M = ~R$2,464/ha annualized. Implied FMV NAV/share R$28.46 vs reported book R$6.84"
+      "notes": "FY25: net debt R$57.2M (-37% YoY), leverage 0.86x (vs 2.26x FY24). Lease income TTM R$96.57M = ~R$2,464/ha annualized. Implied FMV NAV/share R$28.46 vs reported book R$6.84",
+      "bookValuePerShare": 6.85
     }
   ]
 }
