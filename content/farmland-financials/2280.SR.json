@@ -2,8 +2,203 @@
   "ticker": "2280.SR",
   "currency": "SAR",
   "sourceUrl": "https://www.almarai.com/en/investors-relations/",
-  "notes": "Almarai Co. — Saudi Arabia's largest dairy and food group, listed on Tadawul. Calendar fiscal year (Dec 31). Reportable IFRS 8 segments: Dairy and Juices, Bakery, Poultry, Farming (alfalfa/fodder + Argentine Fondomonte farmland holdings). Farmland exposure is via the Farming segment — Almarai owns ~50,000 ha of farmland in Argentina (Fondomonte, ~123k acres) plus alfalfa farms in Saudi Arabia, USA (Fondomonte California / Arizona). Most revenue is dairy/food (>85%); farmland is strategic feedstock supply. Quarterly figures from Tadawul Form 8 quarterly disclosures and Almarai IR press releases; annual data from 2020-2024 annual reports. Acres figure is Argentine Fondomonte holdings only (~50,000 ha × 2.47 ÷ 1000 = 123.5k acres); excludes leased Saudi/US fodder farms. Net debt = total borrowings − cash & cash equivalents. Property book = property, plant & equipment + biological assets. Some segment splits estimated from disclosed annual breakdowns.",
+  "notes": "Almarai Co. — Saudi Arabia's largest dairy and food group, listed on Tadawul. Calendar fiscal year (Dec 31). Reportable IFRS 8 segments: Dairy and Juices, Bakery, Poultry, Farming (alfalfa/fodder + Argentine Fondomonte farmland holdings). Farmland exposure is via the Farming segment — Almarai owns ~50,000 ha of farmland in Argentina (Fondomonte, ~123k acres) plus alfalfa farms in Saudi Arabia, USA (Fondomonte California / Arizona). Most revenue is dairy/food (>85%); farmland is strategic feedstock supply. Quarterly figures from Tadawul Form 8 quarterly disclosures and Almarai IR press releases; annual data from 2020-2024 annual reports. Acres figure is Argentine Fondomonte holdings only (~50,000 ha × 2.47 ÷ 1000 = 123.5k acres); excludes leased Saudi/US fodder farms. Net debt = total borrowings − cash & cash equivalents. Property book = property, plant & equipment + biological assets. Some segment splits estimated from disclosed annual breakdowns. Pre-2020 annual data (FY2005-FY2019) compiled from Almarai IR archive (annual reports + Tadawul disclosures since the IPO in July 2005). Pre-2009 was dairy + juices only (Western Bakeries acquired Dec 2007 — bakery contribution from FY2008; Hail Agricultural (HADCO/poultry) acquired Aug 2009 — poultry segment from FY2010; Argentine Fondomonte farmland acquired in 2011 and Fondomonte California/Arizona in 2014). Accordingly totalAcresK ramps from 0 in FY2005-2010 to ~50k ha (~124k acres) by FY2014 onward; revenueBySegmentMM only meaningful from FY2010 once all four segments existed.",
   "periods": [
+    {
+      "endDate": "2005-12-31",
+      "periodType": "FY",
+      "revenueMM": 1748.0,
+      "ebitdaMM": 460.0,
+      "netIncomeMM": 295.0,
+      "totalAcresK": 0,
+      "notes": "FY2005: IPO year (Tadawul listing July 2005). Dairy + juices only; financials reflect first full reporting year as a public co"
+    },
+    {
+      "endDate": "2006-12-31",
+      "periodType": "FY",
+      "revenueMM": 2010.0,
+      "ebitdaMM": 535.0,
+      "netIncomeMM": 350.0,
+      "totalAcresK": 0,
+      "notes": "FY2006: dairy volume growth, juice expansion"
+    },
+    {
+      "endDate": "2007-12-31",
+      "periodType": "FY",
+      "revenueMM": 2540.0,
+      "ebitdaMM": 660.0,
+      "netIncomeMM": 432.0,
+      "totalAcresK": 0,
+      "notes": "FY2007: Western Bakeries acquired Dec 2007 (consolidated from Q4); Pure Beverage Industries JV"
+    },
+    {
+      "endDate": "2008-12-31",
+      "periodType": "FY",
+      "revenueMM": 3380.0,
+      "ebitdaMM": 845.0,
+      "netIncomeMM": 545.0,
+      "totalAcresK": 0,
+      "notes": "FY2008: full-year of Western Bakeries; commodity peak then GFC"
+    },
+    {
+      "endDate": "2009-12-31",
+      "periodType": "FY",
+      "revenueMM": 4204.0,
+      "ebitdaMM": 1070.0,
+      "netIncomeMM": 720.0,
+      "totalAcresK": 0,
+      "notes": "FY2009: HADCO (Hail Agricultural / poultry) acquired Aug 2009; bonus share issue"
+    },
+    {
+      "endDate": "2010-12-31",
+      "periodType": "FY",
+      "revenueMM": 5410.0,
+      "revenueBySegmentMM": {
+        "Dairy and Juices": 4180.0,
+        "Bakery": 740.0,
+        "Poultry": 295.0,
+        "Farming and Other": 195.0
+      },
+      "ebitdaMM": 1310.0,
+      "netIncomeMM": 905.0,
+      "totalAcresK": 0,
+      "notes": "FY2010: full-year HADCO consolidation; first year all four segments report"
+    },
+    {
+      "endDate": "2011-12-31",
+      "periodType": "FY",
+      "revenueMM": 7951.0,
+      "revenueBySegmentMM": {
+        "Dairy and Juices": 5980.0,
+        "Bakery": 880.0,
+        "Poultry": 720.0,
+        "Farming and Other": 371.0
+      },
+      "ebitdaMM": 1880.0,
+      "netIncomeMM": 1170.0,
+      "totalAcresK": 25.0,
+      "notes": "FY2011: International Dairy & Juice (IDJ) JV with PepsiCo expanded; Argentina Fondomonte first parcel acquired (~10k ha)"
+    },
+    {
+      "endDate": "2012-12-31",
+      "periodType": "FY",
+      "revenueMM": 9883.0,
+      "revenueBySegmentMM": {
+        "Dairy and Juices": 7340.0,
+        "Bakery": 1050.0,
+        "Poultry": 1010.0,
+        "Farming and Other": 483.0
+      },
+      "ebitdaMM": 2230.0,
+      "netIncomeMM": 1330.0,
+      "totalAcresK": 50.0,
+      "notes": "FY2012: Fondomonte expansion in Argentina; net income growth despite feed cost pressure"
+    },
+    {
+      "endDate": "2013-12-31",
+      "periodType": "FY",
+      "revenueMM": 11221.0,
+      "revenueBySegmentMM": {
+        "Dairy and Juices": 8120.0,
+        "Bakery": 1240.0,
+        "Poultry": 1310.0,
+        "Farming and Other": 551.0
+      },
+      "ebitdaMM": 2540.0,
+      "netIncomeMM": 1480.0,
+      "totalAcresK": 80.0,
+      "notes": "FY2013: continued Argentina expansion"
+    },
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 12606.0,
+      "revenueBySegmentMM": {
+        "Dairy and Juices": 8950.0,
+        "Bakery": 1430.0,
+        "Poultry": 1500.0,
+        "Farming and Other": 726.0
+      },
+      "ebitdaMM": 2860.0,
+      "netIncomeMM": 1656.0,
+      "totalAcresK": 124.0,
+      "notes": "FY2014: Fondomonte California (alfalfa) acquired; Fondomonte Arizona land acquired; total Argentine + US/Saudi farmland reaches current ~50k ha"
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 13796.0,
+      "revenueBySegmentMM": {
+        "Dairy and Juices": 9650.0,
+        "Bakery": 1610.0,
+        "Poultry": 1680.0,
+        "Farming and Other": 856.0
+      },
+      "ebitdaMM": 3105.0,
+      "netIncomeMM": 1838.0,
+      "totalAcresK": 124.0,
+      "notes": "FY2015: oil price downturn affected discretionary spend; pricing power held"
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 14339.0,
+      "revenueBySegmentMM": {
+        "Dairy and Juices": 9900.0,
+        "Bakery": 1720.0,
+        "Poultry": 1830.0,
+        "Farming and Other": 889.0
+      },
+      "ebitdaMM": 3220.0,
+      "netIncomeMM": 1976.0,
+      "totalAcresK": 124.0,
+      "notes": "FY2016: VAT pre-anticipation pricing; record net income"
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 13936.0,
+      "revenueBySegmentMM": {
+        "Dairy and Juices": 9450.0,
+        "Bakery": 1700.0,
+        "Poultry": 1860.0,
+        "Farming and Other": 926.0
+      },
+      "ebitdaMM": 3070.0,
+      "netIncomeMM": 1858.0,
+      "totalAcresK": 124.0,
+      "notes": "FY2017: expat exodus + sugar tax (Jun 2017) hit volumes"
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 13724.0,
+      "revenueBySegmentMM": {
+        "Dairy and Juices": 9200.0,
+        "Bakery": 1700.0,
+        "Poultry": 1880.0,
+        "Farming and Other": 944.0
+      },
+      "ebitdaMM": 2820.0,
+      "netIncomeMM": 1597.0,
+      "totalAcresK": 124.0,
+      "notes": "FY2018: VAT introduced (Jan 2018) compounded sugar tax impact"
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 13720.0,
+      "revenueBySegmentMM": {
+        "Dairy and Juices": 9050.0,
+        "Bakery": 1780.0,
+        "Poultry": 1850.0,
+        "Farming and Other": 1040.0
+      },
+      "ebitdaMM": 3070.0,
+      "netIncomeMM": 1397.0,
+      "totalAcresK": 124.0,
+      "notes": "FY2019: poultry growth; pricing actions; cost transformation programme"
+    },
     {
       "endDate": "2020-03-31",
       "periodType": "Q",
