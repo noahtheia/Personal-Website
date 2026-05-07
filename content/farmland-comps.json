@@ -141,8 +141,8 @@
     "ticker": "ALCO",
     "name": "Alico",
     "currency": "USD",
-    "primaryCrops": "Citrus / cattle / land monetization",
-    "filingDate": "2025-12-15",
+    "primaryCrops": "Land development (citrus wind-down)",
+    "filingDate": "2025-11-24",
     "filingUrl": "https://www.alicoinc.com/investors",
     "sharesOutMM": 7.65,
     "debtMM": 85.55,
@@ -150,11 +150,12 @@
     "acresK": 49.5,
     "navPerShare": 13.47,
     "annualDividend": 0.2,
-    "annualNoiMM": 8,
+    "annualNoiMM": 22.5,
     "annualRevenueMM": 44.07,
-    "annualEbitdaMM": -27.26,
+    "annualEbitdaMM": 22.5,
     "epsTTM": -19.29,
-    "bookLandMM": 142.07
+    "bookLandMM": 142.07,
+    "marketLandMM": 686
   },
   {
     "ticker": "LMNR",
