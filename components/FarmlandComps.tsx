@@ -17,7 +17,6 @@ type SortKey =
   | "evPerAcre"
   | "pNav"
   | "fmvNavPerShareUsd"
-  | "priceVsFmvNavPct"
   | "annualRevenueMM"
   | "annualEbitdaMM"
   | "ebitdaMargin"
@@ -34,7 +33,6 @@ type Format =
   | "intDollarSigned"
   | "int"
   | "pct"
-  | "pctSignedNav"
   | "mult";
 
 type Column = {
@@ -58,7 +56,6 @@ const COLUMNS: Column[] = [
   { key: "evPerAcre", label: "EV / Acre", hint: "$ implied", band: "land", format: "intDollar" },
   { key: "pNav", label: "P / NAV", hint: "price ÷ FMV NAV (per detail page)", band: "land", format: "mult" },
   { key: "fmvNavPerShareUsd", label: "FMV NAV / sh", hint: "$ implied", band: "land", format: "money" },
-  { key: "priceVsFmvNavPct", label: "Price vs FMV NAV", hint: "discount/premium", band: "land", format: "pctSignedNav" },
   // Earnings value — tighter padding like Market Data since it's a long band.
   { key: "annualRevenueMM", label: "Revenue", hint: "$M", band: "earnings", format: "intDollar" },
   { key: "annualEbitdaMM", label: "EBITDA", hint: "$M", band: "earnings", format: "intDollarSigned" },
@@ -326,22 +323,6 @@ function renderCell(val: number | null, col: Column) {
       </span>
     );
   }
-  if (col.format === "pctSignedNav") {
-    // Discount to FMV NAV (negative) = bullish (green); premium = bearish (red).
-    return (
-      <span
-        className={
-          val < 0
-            ? "text-[var(--positive)]"
-            : val > 0
-            ? "text-[var(--negative)]"
-            : ""
-        }
-      >
-        {text}
-      </span>
-    );
-  }
   return text;
 }
 
@@ -364,8 +345,6 @@ function formatValue(val: number, format: Format): string {
     }
     case "pct":
       return `${val.toFixed(1)}%`;
-    case "pctSignedNav":
-      return `${val >= 0 ? "+" : ""}${val.toFixed(1)}%`;
     case "mult":
       return `${val.toFixed(2)}×`;
   }

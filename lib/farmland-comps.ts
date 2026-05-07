@@ -72,8 +72,6 @@ export type PricedFarmlandComp = FarmlandFiling & {
   // Total FMV from detail (filing-currency) − net debt, divided by
   // shares, then translated to USD. Null if no detail file exists.
   fmvNavPerShareUsd: number | null;
-  // Live USD price discount (negative) / premium (positive) to FMV NAV.
-  priceVsFmvNavPct: number | null;
 
   // Earnings value (these override the local-currency filing fields).
   annualRevenueMM: number;
@@ -170,14 +168,6 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
           : null;
       const fmvNavPerShareUsd =
         fmvNavPerShareLocal !== null ? fmvNavPerShareLocal * fx : null;
-      const priceUsd =
-        localPrice !== null ? localPrice * priceFx : null;
-      const priceVsFmvNavPct =
-        priceUsd !== null &&
-        fmvNavPerShareUsd !== null &&
-        fmvNavPerShareUsd > 0
-          ? (priceUsd / fmvNavPerShareUsd - 1) * 100
-          : null;
 
       // Dimensionless ratios — computed in filing currency for correctness
       // (price has been translated into filing currency above).
@@ -234,7 +224,6 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         // Dimensionless multiples — passed through
         pNav,
         fmvNavPerShareUsd,
-        priceVsFmvNavPct,
         ebitdaMargin,
         evEbitda,
         priceSales,
