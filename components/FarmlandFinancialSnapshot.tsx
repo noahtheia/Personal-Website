@@ -11,9 +11,8 @@ type ChartId =
   | "ebitda"
   | "propertyValue"
   | "navPerShare"
-  | "totalAcres"
-  | "marketCap"
-  | "ev";
+  | "acreage"
+  | "capRate";
 
 const CHART_DEFS: { id: ChartId; label: string; description: string }[] = [
   {
@@ -44,20 +43,16 @@ const CHART_DEFS: { id: ChartId; label: string; description: string }[] = [
       "FMV NAV per share with daily stock price overlay and daily premium/discount on right axis.",
   },
   {
-    id: "totalAcres",
-    label: "Total acres",
-    description: "Total operated / managed area (in thousands of acres).",
-  },
-  {
-    id: "marketCap",
-    label: "Market cap",
+    id: "acreage",
+    label: "Acreage",
     description:
-      "Daily implied market cap = price × shares outstanding (current; varies with price only).",
+      "Total operated/managed acres (left) and market-implied EV per acre (right, daily).",
   },
   {
-    id: "ev",
-    label: "Enterprise value",
-    description: "Daily implied EV = market cap + current net debt.",
+    id: "capRate",
+    label: "Cap-Rate",
+    description:
+      "Market cap rate (EBITDA ÷ EV, daily) vs NAV cap rate (EBITDA ÷ property FMV, step).",
   },
 ];
 
@@ -647,18 +642,20 @@ function buildAllSeries(
     ebitda: null,
     propertyValue: null,
     navPerShare: null,
-    totalAcres: null,
-    marketCap: null,
-    ev: null,
+    acreage: null,
+    capRate: null,
   };
 
-  // --- Price-derived (uses Yahoo daily history) ---
+  // Pre-build aux series we'll need: daily market cap, daily EV (using
+  // most-recent disclosed shares + net debt at-or-before each date if
+  // financials provide them; otherwise current values).
+  let dailyMarketCap: DatedPoint[] = [];
+  let dailyEv: DatedPoint[] = [];
   if (history && history.points.length > 0) {
     const pricePoints: DatedPoint[] = history.points.map((p) => ({
       date: p.date,
       value: p.close,
     }));
-
     result.price = {
       label: "Share price",
       description: "Daily local-currency close.",
@@ -667,28 +664,28 @@ function buildAllSeries(
       points: pricePoints,
     };
 
-    const netDebt = filing.debtMM - filing.cashMM;
-    const marketCapPoints: DatedPoint[] = pricePoints.map((p) => ({
-      date: p.date,
-      value: p.value * filing.sharesOutMM,
-    }));
-    result.marketCap = {
-      label: "Market cap",
-      description: `${filing.currency} M (price × current shares ${filing.sharesOutMM.toFixed(1)}M)`,
-      unit: { kind: "millions", ccy: filing.currency },
-      kind: "line",
-      points: marketCapPoints,
-    };
-    result.ev = {
-      label: "Enterprise value",
-      description: `${filing.currency} M (market cap + current net debt ${formatNum(netDebt)}M)`,
-      unit: { kind: "millions", ccy: filing.currency },
-      kind: "line",
-      points: marketCapPoints.map((p) => ({
-        date: p.date,
-        value: p.value + netDebt,
-      })),
-    };
+    // Build daily MC + EV using historical shares + netDebt where available
+    const sharesSeries = financials
+      ? collectDated(financials, "sharesOutMM")
+      : [];
+    const netDebtSeries = financials
+      ? collectDated(financials, "netDebtMM")
+      : [];
+
+    const currentShares = filing.sharesOutMM;
+    const currentNetDebt = filing.debtMM - filing.cashMM;
+
+    dailyMarketCap = pricePoints.map((p) => {
+      const sh =
+        findValueAtOrBeforeDated(sharesSeries, p.date) ?? currentShares;
+      return { date: p.date, value: p.value * sh };
+    });
+    dailyEv = pricePoints.map((p) => {
+      const mc = dailyMarketCap.find((x) => x.date === p.date)?.value ?? 0;
+      const nd =
+        findValueAtOrBeforeDated(netDebtSeries, p.date) ?? currentNetDebt;
+      return { date: p.date, value: mc + nd };
+    });
   }
 
   // --- Reported financials ---
@@ -786,15 +783,148 @@ function buildAllSeries(
       result.navPerShare = navSeries;
     }
 
-    result.totalAcres = pickSeries(financials, "totalAcresK", {
-      label: "Total acres (K)",
+    const acresSeries = pickSeries(financials, "totalAcresK", {
+      label: "Acreage (K)",
       description: "Total operated / managed area, thousands of acres",
       unit: { kind: "thousands" },
       kind: "step",
     });
+    if (acresSeries) {
+      // Secondary axis: market-implied EV per acre, daily
+      if (dailyEv.length > 0) {
+        const evPerAcrePoints: DatedPoint[] = [];
+        for (const p of dailyEv) {
+          const acresKAtDate =
+            findValueAtOrBeforeDated(
+              acresSeries.points.map((x) => ({ date: x.date, value: x.value })),
+              p.date,
+            ) ?? filing.acresK;
+          if (acresKAtDate > 0) {
+            // EV (in $M) ÷ acres (in K) = $ per K-acre... convert to $/acre
+            // EV/M × 1,000,000 = $; ÷ (acresK × 1,000) = $/acre
+            const dollarsPerAcre =
+              (p.value * 1_000_000) / (acresKAtDate * 1_000);
+            evPerAcrePoints.push({ date: p.date, value: dollarsPerAcre });
+          }
+        }
+        if (evPerAcrePoints.length > 0) {
+          acresSeries.secondary = {
+            label: "Market price / acre (EV ÷ acres)",
+            unit: { kind: "currency", ccy },
+            points: evPerAcrePoints,
+          };
+        }
+      }
+    }
+    result.acreage = acresSeries;
+
+    // ---- Cap-Rate chart ----
+    // Market cap rate (daily) = EBITDA at date ÷ EV at date
+    // NAV cap rate (step) = EBITDA at date ÷ property FMV at date
+    // EBITDA series: prefer LTM/FY; fall back to annualized last quarter.
+    const ebitdaForCap = collectAnnualizedEbitda(financials);
+    const fmvSeries = collectDated(financials, "propertyFmvMM");
+    if (
+      dailyEv.length > 0 &&
+      ebitdaForCap.length > 0 &&
+      (fmvSeries.length > 0 || true)
+    ) {
+      const marketCapRate: DatedPoint[] = [];
+      const navCapRate: DatedPoint[] = [];
+
+      for (const p of dailyEv) {
+        const e = findValueAtOrBeforeDated(ebitdaForCap, p.date);
+        if (e === null || e <= 0) continue;
+        if (p.value > 0) {
+          marketCapRate.push({
+            date: p.date,
+            value: (e / p.value) * 100,
+          });
+        }
+      }
+
+      // NAV cap rate: at each FMV reporting date, compute EBITDA/FMV
+      for (const f of fmvSeries) {
+        const e = findValueAtOrBeforeDated(ebitdaForCap, f.date);
+        if (e === null || e <= 0 || f.value <= 0) continue;
+        navCapRate.push({
+          date: f.date,
+          value: (e / f.value) * 100,
+        });
+      }
+
+      if (marketCapRate.length > 0) {
+        const capSeries: Series = {
+          label: "Market cap rate",
+          description: `EBITDA ÷ EV (daily). Latest EBITDA: ${ccy} ${formatNum(ebitdaForCap[ebitdaForCap.length - 1].value)}M`,
+          unit: { kind: "percent" },
+          kind: "line",
+          points: marketCapRate,
+        };
+        if (navCapRate.length > 0) {
+          capSeries.overlay = {
+            label: "NAV cap rate (EBITDA ÷ property FMV)",
+            points: navCapRate,
+          };
+        }
+        result.capRate = capSeries;
+      }
+    }
   }
 
   return result;
+}
+
+// Collect dated values for a numeric key from financials (raw, no period
+// filtering — useful for shares, net debt, property FMV which are reported
+// at multiple period types and we want all of them for the at-or-before
+// lookup).
+function collectDated(
+  financials: Financials,
+  key: keyof FinancialsPeriod,
+): DatedPoint[] {
+  const out: DatedPoint[] = [];
+  for (const p of financials.periods) {
+    const v = p[key];
+    if (typeof v !== "number") continue;
+    out.push({ date: p.endDate, value: v });
+  }
+  return out.sort((a, b) => a.date.localeCompare(b.date));
+}
+
+// Collect annualized EBITDA for cap-rate computations. Prefers FY/LTM
+// values directly; for quarterly periods, sums the trailing 4 quarters
+// to construct an LTM EBITDA at each quarterly reporting date.
+function collectAnnualizedEbitda(financials: Financials): DatedPoint[] {
+  const fyOrLtm: DatedPoint[] = [];
+  const quarterly: { date: string; value: number }[] = [];
+  for (const p of financials.periods) {
+    if (typeof p.ebitdaMM !== "number") continue;
+    if (p.periodType === "FY" || p.periodType === "LTM") {
+      fyOrLtm.push({ date: p.endDate, value: p.ebitdaMM });
+    } else if (p.periodType === "Q") {
+      quarterly.push({ date: p.endDate, value: p.ebitdaMM });
+    }
+  }
+  // Sort
+  fyOrLtm.sort((a, b) => a.date.localeCompare(b.date));
+  quarterly.sort((a, b) => a.date.localeCompare(b.date));
+
+  // Build LTM at each quarterly date by summing trailing 4 quarters
+  const ltmFromQ: DatedPoint[] = [];
+  for (let i = 3; i < quarterly.length; i++) {
+    const sum =
+      quarterly[i].value +
+      quarterly[i - 1].value +
+      quarterly[i - 2].value +
+      quarterly[i - 3].value;
+    ltmFromQ.push({ date: quarterly[i].date, value: sum });
+  }
+
+  // Combine FY/LTM and constructed LTM, keeping the most recent at each date
+  const merged = [...fyOrLtm, ...ltmFromQ];
+  merged.sort((a, b) => a.date.localeCompare(b.date));
+  return merged;
 }
 
 function pickSeries(
