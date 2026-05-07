@@ -3,7 +3,6 @@ import path from "node:path";
 import { z } from "zod";
 import {
   getPropertyDetail,
-  getWeightedFmvPerAcreForTicker,
   totalFmvMM,
 } from "./farmland-properties";
 
@@ -142,24 +141,27 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
       const evPerAcreLocal =
         evLocal !== null ? (evLocal / f.acresK) * 1000 : null;
       const bookPerAcreLocal = (f.bookLandMM / f.acresK) * 1000;
-      // Market / Acre prefers the weighted FMV/acre underwritten in the
-      // detail page when available (so the comps table reflects the actual
-      // bottoms-up analysis). Falls back to a static marketLandMM where the
-      // detail page hasn't been compiled.
-      const detailFmvPerAcreLocal = getWeightedFmvPerAcreForTicker(f.ticker);
+      // Market / Acre uses the total FMV from the detail page (matching the
+      // 'Aggregate FMV' card on the individual ticker page) divided by the
+      // comps-file acresK. This includes industrial / water / plasma rows
+      // that contribute to the FMV total but not to per-acre denominators
+      // on the detail page itself, so the resulting per-acre is on a
+      // 'enterprise-equivalent per land acre' basis (consistent with how
+      // FMV NAV is computed: totalFmvMM − net debt). Falls back to a
+      // static marketLandMM where the detail page hasn't been compiled.
+      const detail = getPropertyDetail(f.ticker);
+      const detailFmvLocal = detail ? totalFmvMM(detail) : null;
       const marketPerAcreLocal =
-        detailFmvPerAcreLocal !== null
-          ? detailFmvPerAcreLocal
+        detailFmvLocal !== null && f.acresK > 0
+          ? (detailFmvLocal / f.acresK) * 1000
           : f.marketLandMM !== undefined
           ? (f.marketLandMM / f.acresK) * 1000
           : null;
 
-      // FMV NAV per share (filing currency): take total FMV from the detail
-      // page in filing currency, subtract net debt in filing currency, divide
+      // FMV NAV per share (filing currency): subtract net debt from the
+      // detail-page total FMV (already loaded above for Market/Acre), divide
       // by shares. Used both for P/NAV (multiplier) and the USD-translated
       // FMV NAV/sh display column. Null if no detail file or non-positive.
-      const detail = getPropertyDetail(f.ticker);
-      const detailFmvLocal = detail ? totalFmvMM(detail) : null;
       const fmvNavLocal =
         detailFmvLocal !== null ? detailFmvLocal - netDebtLocal : null;
       const fmvNavPerShareLocal =
