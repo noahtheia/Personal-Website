@@ -42,18 +42,19 @@
       "name": "Smallholder + plasma partnerships",
       "location": "Sarawak, Malaysia",
       "acres": 23000,
-      "cropOrUse": "Plasma scheme (smallholder partnerships)",
-      "category": "Plasma partnerships",
-      "fmvPerAcre": 14000,
-      "fmvRationale": "Smallholder partnership area without fee-simple ownership",
+      "cropOrUse": "Plasma scheme (smallholder partnerships, ~9K ha NOT owned)",
+      "category": "Plasma partnerships (excluded from owned acres)",
+      "fmvPerAcre": 4000,
+      "fmvRationale": "~9K ha smallholder partnership area without fee-simple ownership. SOP buys FFB but doesn't own the land. NOT on balance sheet as land asset",
       "comparablesUsed": [
         "MY-PALM-SARAWAK-2024"
       ],
-      "bookValueMM": 500,
-      "fmvPerAcreLow": 11200.0,
-      "fmvPerAcreHigh": 16800.0,
-      "capRateLow": 10.0,
-      "capRateHigh": 14.0
+      "bookValueMM": 100,
+      "fmvPerAcreLow": 3200.0,
+      "fmvPerAcreHigh": 4800.0,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0
     }
   ],
   "comparables": [
