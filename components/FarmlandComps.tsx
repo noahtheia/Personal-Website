@@ -160,6 +160,47 @@ function cellPadX(band: Band): string {
   return band === "land" ? "px-3" : "px-1.5";
 }
 
+// Direction for peer-relative coloring. "higher" → green when a cell
+// is >+1σ above sector mean; "lower" → green when below the mean
+// (e.g. cheaper EV/EBITDA is good). Columns not listed get no
+// tinting (size / debt / per-acre — direction is ambiguous).
+const DIRECTION: Partial<Record<SortKey, "higher" | "lower">> = {
+  ebitdaMargin: "higher",
+  netIncomeMargin: "higher",
+  roe: "higher",
+  roic: "higher",
+  divYield: "higher",
+  fcfYield: "higher",
+  evCapRate: "higher",
+  evEbitda: "lower",
+  priceSales: "lower",
+  priceEarnings: "lower",
+  pNav: "lower",
+};
+
+// Returns an inline-style background tint, or undefined for no tint.
+function peerToneStyle(
+  val: number | null,
+  key: SortKey,
+  mean: number | null,
+  std: number | null,
+): React.CSSProperties | undefined {
+  if (val === null || mean === null || std === null || std === 0) return undefined;
+  const dir = DIRECTION[key];
+  if (!dir) return undefined;
+  const z = (val - mean) / std;
+  if (Math.abs(z) < 1) return undefined;
+  const isGood = dir === "higher" ? z > 0 : z < 0;
+  // Lighter tint for 1-2σ, stronger for >2σ. Use the editorial
+  // positive/negative variables with an alpha blend.
+  const strong = Math.abs(z) >= 2;
+  const color = isGood ? "var(--positive)" : "var(--negative)";
+  // Color-mix is widely supported. Alpha 12% / 22% strong.
+  return {
+    backgroundColor: `color-mix(in srgb, ${color} ${strong ? 22 : 12}%, transparent)`,
+  };
+}
+
 export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
   const [sortKey, setSortKey] = useState<SortKey>("marketCapMM");
   const [dir, setDir] = useState<"asc" | "desc">("desc");
@@ -563,7 +604,7 @@ function CategorySection({
 }: {
   label: string;
   rows: PricedFarmlandComp[];
-  stats: { mean: Stats; median: Stats };
+  stats: { mean: Stats; median: Stats; std: Stats };
   colCount: number;
   visibleColumns: typeof COLUMNS;
   visibleBandBreaks: Set<number>;
@@ -620,9 +661,16 @@ function CategorySection({
           </td>
           {visibleColumns.map((c, i) => {
             const val = r[c.key] as number | null;
+            const toneStyle = peerToneStyle(
+              val,
+              c.key,
+              stats.mean[c.key],
+              stats.std[c.key],
+            );
             return (
               <td
                 key={c.key}
+                style={toneStyle}
                 className={`${cellPadX(c.band)} py-3 text-right ${
                   visibleBandBreaks.has(i) ? "border-l border-rule-strong" : ""
                 }`}
@@ -748,10 +796,13 @@ function csvCell(v: string | number | null | undefined): string {
   return s;
 }
 
-function computeStats(rows: PricedFarmlandComp[]): { mean: Stats; median: Stats } {
+function computeStats(
+  rows: PricedFarmlandComp[],
+): { mean: Stats; median: Stats; std: Stats } {
   const keys = COLUMNS.map((c) => c.key);
   const mean = {} as Stats;
   const median = {} as Stats;
+  const std = {} as Stats;
   for (const k of keys) {
     const vals = rows
       .map((r) => r[k] as number | null)
@@ -759,18 +810,28 @@ function computeStats(rows: PricedFarmlandComp[]): { mean: Stats; median: Stats 
     if (vals.length === 0) {
       mean[k] = null;
       median[k] = null;
+      std[k] = null;
       continue;
     }
     const sum = vals.reduce((a, b) => a + b, 0);
-    mean[k] = sum / vals.length;
+    const m = sum / vals.length;
+    mean[k] = m;
     const sortedVals = [...vals].sort((a, b) => a - b);
     const mid = Math.floor(sortedVals.length / 2);
     median[k] =
       sortedVals.length % 2 === 0
         ? (sortedVals[mid - 1] + sortedVals[mid]) / 2
         : sortedVals[mid];
+    if (vals.length < 2) {
+      std[k] = null;
+    } else {
+      const variance =
+        vals.reduce((acc, v) => acc + (v - m) * (v - m), 0) / (vals.length - 1);
+      std[k] = Math.sqrt(variance);
+    }
   }
   mean.ticker = null;
   median.ticker = null;
-  return { mean, median };
+  std.ticker = null;
+  return { mean, median, std };
 }
