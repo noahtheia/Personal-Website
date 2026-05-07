@@ -56,7 +56,7 @@ const COLUMNS: Column[] = [
   { key: "bookPerAcre", label: "Book / Acre", hint: "$ filed", band: "land", format: "intDollar" },
   { key: "marketPerAcre", label: "Market / Acre", hint: "$ FMV", band: "land", format: "intDollar" },
   { key: "evPerAcre", label: "EV / Acre", hint: "$ implied", band: "land", format: "intDollar" },
-  { key: "pNav", label: "P / NAV", hint: "price ÷ book NAV", band: "land", format: "mult" },
+  { key: "pNav", label: "P / NAV", hint: "price ÷ FMV NAV (per detail page)", band: "land", format: "mult" },
   { key: "fmvNavPerShareUsd", label: "FMV NAV / sh", hint: "$ implied", band: "land", format: "money" },
   { key: "priceVsFmvNavPct", label: "Price vs FMV NAV", hint: "discount/premium", band: "land", format: "pctSignedNav" },
   // Earnings value — tighter padding like Market Data since it's a long band.

@@ -154,10 +154,40 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
           ? (f.marketLandMM / f.acresK) * 1000
           : null;
 
+      // FMV NAV per share (filing currency): take total FMV from the detail
+      // page in filing currency, subtract net debt in filing currency, divide
+      // by shares. Used both for P/NAV (multiplier) and the USD-translated
+      // FMV NAV/sh display column. Null if no detail file or non-positive.
+      const detail = getPropertyDetail(f.ticker);
+      const detailFmvLocal = detail ? totalFmvMM(detail) : null;
+      const fmvNavLocal =
+        detailFmvLocal !== null ? detailFmvLocal - netDebtLocal : null;
+      const fmvNavPerShareLocal =
+        fmvNavLocal !== null && fmvNavLocal > 0 && f.sharesOutMM > 0
+          ? fmvNavLocal / f.sharesOutMM
+          : null;
+      const fmvNavPerShareUsd =
+        fmvNavPerShareLocal !== null ? fmvNavPerShareLocal * fx : null;
+      const priceUsd =
+        localPrice !== null ? localPrice * priceFx : null;
+      const priceVsFmvNavPct =
+        priceUsd !== null &&
+        fmvNavPerShareUsd !== null &&
+        fmvNavPerShareUsd > 0
+          ? (priceUsd / fmvNavPerShareUsd - 1) * 100
+          : null;
+
       // Dimensionless ratios — computed in filing currency for correctness
       // (price has been translated into filing currency above).
+      // P/NAV uses the detail-page FMV NAV when available (the bottoms-up
+      // mark from each issuer's per-property valuation); falls back to book
+      // NAV from the comps file for issuers without a detail page.
+      const navPerShareForPNav =
+        fmvNavPerShareLocal !== null ? fmvNavPerShareLocal : f.navPerShare;
       const pNav =
-        priceInFiling !== null ? priceInFiling / f.navPerShare : null;
+        priceInFiling !== null && navPerShareForPNav > 0
+          ? priceInFiling / navPerShareForPNav
+          : null;
       const divYield =
         priceInFiling !== null && priceInFiling > 0
           ? (f.annualDividend / priceInFiling) * 100
@@ -181,27 +211,6 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
       const priceEarnings =
         priceInFiling !== null && f.epsTTM > 0
           ? priceInFiling / f.epsTTM
-          : null;
-
-      // FMV NAV per share (USD): take total FMV from the detail page in filing
-      // currency, subtract net debt in filing currency, divide by shares, then
-      // translate to USD via filingCcy FX. Null if no detail file or if the
-      // implied NAV is non-positive (rare for highly leveraged operators).
-      const detail = getPropertyDetail(f.ticker);
-      const detailFmvLocal = detail ? totalFmvMM(detail) : null;
-      const fmvNavLocal =
-        detailFmvLocal !== null ? detailFmvLocal - netDebtLocal : null;
-      const fmvNavPerShareUsd =
-        fmvNavLocal !== null && fmvNavLocal > 0 && f.sharesOutMM > 0
-          ? (fmvNavLocal / f.sharesOutMM) * fx
-          : null;
-      const priceUsd =
-        localPrice !== null ? localPrice * priceFx : null;
-      const priceVsFmvNavPct =
-        priceUsd !== null &&
-        fmvNavPerShareUsd !== null &&
-        fmvNavPerShareUsd > 0
-          ? (priceUsd / fmvNavPerShareUsd - 1) * 100
           : null;
 
       return {
