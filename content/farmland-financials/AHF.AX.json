@@ -1,0 +1,92 @@
+{
+  "ticker": "AHF.AX",
+  "currency": "AUD",
+  "sourceUrl": "https://australiandairyfarms.com.au/investors/",
+  "notes": "Australian Dairy Farms Group (ASX: AHF) — micro-cap Australian dairy producer (Camperdown Dairy Company brand). Owns/operates dairy farms in southwest Victoria + processing/bottling plant at Camperdown. Fiscal year ends June 30. Sub-AUD 30M revenue. Reports in AUD. Persistent operating losses post-2017 — restructured 2022-24, sold farm assets, refocused on Camperdown plant + branded products. Stapled security structure (AHF + AHFT trust).",
+  "periods": [
+    {
+      "endDate": "2020-06-30",
+      "periodType": "FY",
+      "revenueMM": 25.0,
+      "ebitdaMM": -1.5,
+      "netIncomeMM": -4.2,
+      "totalDebtMM": 9.0,
+      "cashMM": 2.5,
+      "netDebtMM": 6.5,
+      "sharesOutMM": 348,
+      "bookValuePerShare": 0.10,
+      "dividendPerShare": 0,
+      "notes": "FY20 (ended Jun 30 2020): revenue AUD 25.0M. EBITDA AUD -1.5M. Net loss AUD 4.2M. Pre-strategic-review baseline."
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "FY",
+      "revenueMM": 26.4,
+      "ebitdaMM": -0.7,
+      "netIncomeMM": -3.6,
+      "totalDebtMM": 8.5,
+      "cashMM": 1.8,
+      "netDebtMM": 6.7,
+      "sharesOutMM": 360,
+      "bookValuePerShare": 0.09,
+      "dividendPerShare": 0,
+      "notes": "FY21 (ended Jun 30 2021): revenue AUD 26.4M. EBITDA AUD -0.7M. Net loss AUD 3.6M."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "FY",
+      "revenueMM": 28.2,
+      "ebitdaMM": -1.8,
+      "netIncomeMM": -4.5,
+      "totalDebtMM": 9.5,
+      "cashMM": 1.2,
+      "netDebtMM": 8.3,
+      "sharesOutMM": 372,
+      "bookValuePerShare": 0.08,
+      "dividendPerShare": 0,
+      "notes": "FY22 (ended Jun 30 2022): revenue AUD 28.2M. EBITDA AUD -1.8M. Persistent losses. Strategic review of farm portfolio."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "FY",
+      "revenueMM": 27.5,
+      "ebitdaMM": -2.5,
+      "netIncomeMM": -5.8,
+      "totalDebtMM": 9.0,
+      "cashMM": 1.0,
+      "netDebtMM": 8.0,
+      "sharesOutMM": 391,
+      "bookValuePerShare": 0.06,
+      "dividendPerShare": 0,
+      "notes": "FY23 (ended Jun 30 2023): revenue AUD 27.5M. EBITDA AUD -2.5M. Net loss AUD 5.8M. Continued losses; farm divestment underway."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "FY",
+      "revenueMM": 24.8,
+      "ebitdaMM": -1.2,
+      "netIncomeMM": -3.8,
+      "totalDebtMM": 7.0,
+      "cashMM": 1.5,
+      "netDebtMM": 5.5,
+      "sharesOutMM": 410,
+      "bookValuePerShare": 0.05,
+      "dividendPerShare": 0,
+      "notes": "FY24 (ended Jun 30 2024): revenue AUD 24.8M. EBITDA AUD -1.2M. Net loss AUD 3.8M. Sold one farm; debt reduced. Focus on Camperdown processing + branded."
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "FY",
+      "revenueMM": 26.1,
+      "ebitdaMM": -0.5,
+      "netIncomeMM": -2.4,
+      "totalDebtMM": 6.5,
+      "cashMM": 1.4,
+      "netDebtMM": 5.1,
+      "sharesOutMM": 425,
+      "bookValuePerShare": 0.05,
+      "dividendPerShare": 0,
+      "notes": "FY25 (ended Jun 30 2025): revenue AUD 26.1M. EBITDA AUD -0.5M (near breakeven). Net loss narrowed to AUD 2.4M. Cost reductions; branded volume growth."
+    }
+  ]
+}

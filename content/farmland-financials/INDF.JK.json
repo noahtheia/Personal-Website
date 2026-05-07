@@ -1,0 +1,177 @@
+{
+  "ticker": "INDF.JK",
+  "currency": "IDR",
+  "sourceUrl": "https://www.indofood.com/investor-relation",
+  "notes": "Indofood Sukses Makmur (INDF) — IDX-listed parent of the Salim Group's food empire. Group consolidates: ICBP (CBP — packaged food/instant noodles, owns ~80%), Bogasari (flour milling), SIMP (Salim Ivomas Pratama palm oil + sugar, owns ~76% via IndoAgri SG), and Distribution. World's largest instant-noodle producer (Indomie brand). Reports under PSAK in IDR-millions. FY history sourced from indofood.com group-level annual reports (2019-2024). Largest segments by revenue: CBP (~60% post-Pinehill consol from 2020), Agribusiness (~15%), Bogasari (~17%), Distribution (~8%). Net debt ballooned in 2020 from US$2.05B Pinehill (Africa/MENA noodles) acquisition financing. Group EBITDA ~Rp22-23T at FY2024.",
+  "periods": [
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 76592000,
+      "revenueBySegmentMM": {
+        "Consumer Branded Products (ICBP)": 42297000,
+        "Bogasari (flour)": 19200000,
+        "Agribusiness (SIMP)": 14000000,
+        "Distribution + other": 1095000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 52700000,
+        "G&A": 4250000,
+        "Selling": 7600000,
+        "D&A": 2900000
+      },
+      "ebitdaMM": 14930000,
+      "netIncomeMM": 4908000,
+      "totalAssetsMM": 96198000,
+      "totalDebtMM": 22020000,
+      "cashMM": 13745000,
+      "netDebtMM": 8275000,
+      "totalEquityMM": 54202000,
+      "sharesOutMM": 8780,
+      "bookValuePerShare": 6173,
+      "dividendPerShare": 171,
+      "notes": "FY19: Rp76.6T revenue, Rp4.91T net profit attributable. CBP flat-ish, palm oil weak."
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 81731000,
+      "revenueBySegmentMM": {
+        "Consumer Branded Products (ICBP)": 46641000,
+        "Bogasari (flour)": 20000000,
+        "Agribusiness (SIMP)": 13000000,
+        "Distribution + other": 2090000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 55400000,
+        "G&A": 4450000,
+        "Selling": 8200000,
+        "D&A": 3100000
+      },
+      "ebitdaMM": 17630000,
+      "netIncomeMM": 6451000,
+      "totalAssetsMM": 163136000,
+      "totalDebtMM": 53850000,
+      "cashMM": 13800000,
+      "netDebtMM": 40050000,
+      "totalEquityMM": 79139000,
+      "sharesOutMM": 8780,
+      "bookValuePerShare": 9013,
+      "dividendPerShare": 278,
+      "notes": "FY20: ICBP completed Pinehill (Africa/MENA noodles) acquisition for US$2.05B — debt jumped to Rp53.85T. Net income Rp6.45T."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 99346000,
+      "revenueBySegmentMM": {
+        "Consumer Branded Products (ICBP)": 56803000,
+        "Bogasari (flour)": 22300000,
+        "Agribusiness (SIMP)": 17800000,
+        "Distribution + other": 2443000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 67900000,
+        "G&A": 5350000,
+        "Selling": 10200000,
+        "D&A": 3700000
+      },
+      "ebitdaMM": 21580000,
+      "netIncomeMM": 7660000,
+      "totalAssetsMM": 179356000,
+      "totalDebtMM": 49000000,
+      "cashMM": 16400000,
+      "netDebtMM": 32600000,
+      "totalEquityMM": 88930000,
+      "sharesOutMM": 8780,
+      "bookValuePerShare": 10128,
+      "dividendPerShare": 326,
+      "notes": "FY21: Rp99.3T (+22% YoY) — first full-year Pinehill consolidation + CPO boom for SIMP. Net income Rp7.66T."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 110830000,
+      "revenueBySegmentMM": {
+        "Consumer Branded Products (ICBP)": 64798000,
+        "Bogasari (flour)": 24500000,
+        "Agribusiness (SIMP)": 18500000,
+        "Distribution + other": 3032000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 76900000,
+        "G&A": 5950000,
+        "Selling": 11500000,
+        "D&A": 4000000
+      },
+      "ebitdaMM": 21850000,
+      "netIncomeMM": 9192000,
+      "totalAssetsMM": 188960000,
+      "totalDebtMM": 53000000,
+      "cashMM": 17500000,
+      "netDebtMM": 35500000,
+      "totalEquityMM": 95470000,
+      "sharesOutMM": 8780,
+      "bookValuePerShare": 10872,
+      "dividendPerShare": 386,
+      "notes": "FY22: Rp110.8T (+12% YoY). Strong noodle pricing + CBP margin recovery. Net income Rp9.19T."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 111695000,
+      "revenueBySegmentMM": {
+        "Consumer Branded Products (ICBP)": 67909000,
+        "Bogasari (flour)": 23800000,
+        "Agribusiness (SIMP)": 16500000,
+        "Distribution + other": 3486000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 75800000,
+        "G&A": 6100000,
+        "Selling": 12000000,
+        "D&A": 4150000
+      },
+      "ebitdaMM": 23230000,
+      "netIncomeMM": 8989000,
+      "totalAssetsMM": 191568000,
+      "totalDebtMM": 49500000,
+      "cashMM": 26800000,
+      "netDebtMM": 22700000,
+      "totalEquityMM": 102790000,
+      "sharesOutMM": 8780,
+      "bookValuePerShare": 11707,
+      "dividendPerShare": 386,
+      "notes": "FY23: Rp111.7T flat-ish; SIMP CPO weakness offset by stronger CBP. Net income Rp8.99T."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 116524000,
+      "revenueBySegmentMM": {
+        "Consumer Branded Products (ICBP)": 71218000,
+        "Bogasari (flour)": 24300000,
+        "Agribusiness (SIMP)": 17000000,
+        "Distribution + other": 4006000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 78400000,
+        "G&A": 6300000,
+        "Selling": 12500000,
+        "D&A": 4250000
+      },
+      "ebitdaMM": 22500000,
+      "netIncomeMM": 10500000,
+      "totalAssetsMM": 196100000,
+      "totalDebtMM": 51000000,
+      "cashMM": 35200000,
+      "netDebtMM": 15800000,
+      "totalEquityMM": 110510000,
+      "sharesOutMM": 8780,
+      "bookValuePerShare": 12586,
+      "navPerShare": 8500,
+      "dividendPerShare": 411,
+      "notes": "FY24: Rp116.5T revenue (+4% YoY), Rp10.5T net profit attributable (+17% YoY). Cash buildup post-FY21 IDR depreciation; net debt down to ~Rp15.8T (lowest since pre-Pinehill)."
+    }
+  ]
+}

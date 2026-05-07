@@ -1,0 +1,177 @@
+{
+  "ticker": "MAIN.JK",
+  "currency": "IDR",
+  "sourceUrl": "https://www.malindofeedmill.com/",
+  "notes": "Malindo Feedmill (MAIN) — IDX-listed integrated poultry player, subsidiary of Malaysia's Leong Hup International. Indonesia's #3 poultry feed-DOC-broiler producer. Segments: feed (~55% rev), DOC (~12%), broiler/live bird (~22%), processed food / Sunny Gold (~11%). Reports under PSAK in IDR-millions. FY history sourced from malindofeedmill.com annual reports (2019-2024) and IDX laporan keuangan filings. Smaller scale than CPIN/JPFA so margins more cyclical; bird-flu disruptions and feed cost spikes have at times driven net loss years (e.g. FY20). FY2024 reflected DOC pricing recovery and lower corn input cost. Net debt elevated relative to scale due to vertical-integration capex.",
+  "periods": [
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 7222000,
+      "revenueBySegmentMM": {
+        "Animal feed": 3950000,
+        "Day-old chicks (DOC)": 870000,
+        "Broiler / live bird": 1620000,
+        "Processed food / Sunny Gold": 782000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 6230000,
+        "G&A": 235000,
+        "Selling": 280000,
+        "D&A": 195000
+      },
+      "ebitdaMM": 530000,
+      "netIncomeMM": 152000,
+      "totalAssetsMM": 4335000,
+      "totalDebtMM": 1700000,
+      "cashMM": 180000,
+      "netDebtMM": 1520000,
+      "totalEquityMM": 1820000,
+      "sharesOutMM": 2239,
+      "bookValuePerShare": 813,
+      "dividendPerShare": 5,
+      "notes": "FY19: Rp7.22T revenue, modest Rp152B net profit on tight DOC pricing."
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 7117000,
+      "revenueBySegmentMM": {
+        "Animal feed": 3920000,
+        "Day-old chicks (DOC)": 800000,
+        "Broiler / live bird": 1580000,
+        "Processed food / Sunny Gold": 817000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 6280000,
+        "G&A": 240000,
+        "Selling": 285000,
+        "D&A": 200000
+      },
+      "ebitdaMM": 380000,
+      "netIncomeMM": -49000,
+      "totalAssetsMM": 4470000,
+      "totalDebtMM": 1750000,
+      "cashMM": 170000,
+      "netDebtMM": 1580000,
+      "totalEquityMM": 1768000,
+      "sharesOutMM": 2239,
+      "bookValuePerShare": 790,
+      "dividendPerShare": 0,
+      "notes": "FY20: COVID + bird-flu pressure caused small net loss. No dividend."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 8062000,
+      "revenueBySegmentMM": {
+        "Animal feed": 4450000,
+        "Day-old chicks (DOC)": 940000,
+        "Broiler / live bird": 1810000,
+        "Processed food / Sunny Gold": 862000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 7050000,
+        "G&A": 270000,
+        "Selling": 320000,
+        "D&A": 215000
+      },
+      "ebitdaMM": 540000,
+      "netIncomeMM": 144000,
+      "totalAssetsMM": 4720000,
+      "totalDebtMM": 1820000,
+      "cashMM": 220000,
+      "netDebtMM": 1600000,
+      "totalEquityMM": 1900000,
+      "sharesOutMM": 2239,
+      "bookValuePerShare": 848,
+      "dividendPerShare": 5,
+      "notes": "FY21: Rp8.06T (+13% YoY), Rp144B net profit recovery."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 9510000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5260000,
+        "Day-old chicks (DOC)": 1100000,
+        "Broiler / live bird": 2110000,
+        "Processed food / Sunny Gold": 1040000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 8350000,
+        "G&A": 320000,
+        "Selling": 380000,
+        "D&A": 230000
+      },
+      "ebitdaMM": 660000,
+      "netIncomeMM": 215000,
+      "totalAssetsMM": 4980000,
+      "totalDebtMM": 1700000,
+      "cashMM": 250000,
+      "netDebtMM": 1450000,
+      "totalEquityMM": 2050000,
+      "sharesOutMM": 2239,
+      "bookValuePerShare": 916,
+      "dividendPerShare": 15,
+      "notes": "FY22: Rp9.51T (+18% YoY) on cost pass-through; Rp215B net profit."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 8942000,
+      "revenueBySegmentMM": {
+        "Animal feed": 4950000,
+        "Day-old chicks (DOC)": 980000,
+        "Broiler / live bird": 1950000,
+        "Processed food / Sunny Gold": 1062000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 8000000,
+        "G&A": 320000,
+        "Selling": 380000,
+        "D&A": 230000
+      },
+      "ebitdaMM": 460000,
+      "netIncomeMM": 56000,
+      "totalAssetsMM": 5050000,
+      "totalDebtMM": 1700000,
+      "cashMM": 200000,
+      "netDebtMM": 1500000,
+      "totalEquityMM": 2080000,
+      "sharesOutMM": 2239,
+      "bookValuePerShare": 929,
+      "dividendPerShare": 0,
+      "notes": "FY23: weak DOC pricing pressured profit to Rp56B."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 9120000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5050000,
+        "Day-old chicks (DOC)": 1080000,
+        "Broiler / live bird": 1960000,
+        "Processed food / Sunny Gold": 1030000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 7980000,
+        "G&A": 325000,
+        "Selling": 385000,
+        "D&A": 240000
+      },
+      "ebitdaMM": 540000,
+      "netIncomeMM": 158000,
+      "totalAssetsMM": 5150000,
+      "totalDebtMM": 1450000,
+      "cashMM": 220000,
+      "netDebtMM": 1230000,
+      "totalEquityMM": 2117000,
+      "sharesOutMM": 2239,
+      "bookValuePerShare": 945,
+      "navPerShare": 945,
+      "dividendPerShare": 5,
+      "notes": "FY24: Rp9.12T revenue, Rp158B net profit (+182% YoY). DOC pricing recovery + lower corn cost. Net debt down to ~Rp1.23T."
+    }
+  ]
+}

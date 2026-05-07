@@ -1,0 +1,177 @@
+{
+  "ticker": "ICBP.JK",
+  "currency": "IDR",
+  "sourceUrl": "https://icbp.indofood.com/investor-relation",
+  "notes": "Indofood CBP Sukses Makmur (ICBP) — IDX-listed CBP arm of the Indofood/Salim group, ~80% owned by INDF. World's largest instant-noodle producer (Indomie + Pinehill from 2020). Segments: Noodles (~75% rev incl. Pinehill Africa/MENA), Dairy (Indomilk ~10%), Snacks/Food Seasonings/Nutrition (~10%), Beverages (~5%). Reports under PSAK in IDR-millions. FY history sourced from icbp.indofood.com annual reports (2019-2024). Net debt ballooned in 2020 from Pinehill US$2.05B acquisition financing. Highest-margin business in INDF group: ~25-27% EBITDA margin. FY2024 reflected continued noodle price firmness and FX hedge gains.",
+  "periods": [
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 42297000,
+      "revenueBySegmentMM": {
+        "Noodles": 28350000,
+        "Dairy": 7800000,
+        "Snacks / Seasonings / Nutrition": 4400000,
+        "Beverages + other": 1747000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 27500000,
+        "G&A": 2400000,
+        "Selling": 5300000,
+        "D&A": 1600000
+      },
+      "ebitdaMM": 8700000,
+      "netIncomeMM": 5039000,
+      "totalAssetsMM": 38709000,
+      "totalDebtMM": 5650000,
+      "cashMM": 8350000,
+      "netDebtMM": -2700000,
+      "totalEquityMM": 26671000,
+      "sharesOutMM": 11662,
+      "bookValuePerShare": 2287,
+      "dividendPerShare": 215,
+      "notes": "FY19: Rp42.3T revenue, Rp5.04T net profit. Net cash positive. Pre-Pinehill."
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 46641000,
+      "revenueBySegmentMM": {
+        "Noodles": 31500000,
+        "Dairy": 8500000,
+        "Snacks / Seasonings / Nutrition": 4750000,
+        "Beverages + other": 1891000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 30050000,
+        "G&A": 2580000,
+        "Selling": 5750000,
+        "D&A": 1750000
+      },
+      "ebitdaMM": 11460000,
+      "netIncomeMM": 6587000,
+      "totalAssetsMM": 103588000,
+      "totalDebtMM": 41700000,
+      "cashMM": 7800000,
+      "netDebtMM": 33900000,
+      "totalEquityMM": 33559000,
+      "sharesOutMM": 11662,
+      "bookValuePerShare": 2877,
+      "dividendPerShare": 187,
+      "notes": "FY20: Pinehill Africa/MENA noodles (US$2.05B) consolidated H2; debt jumped to Rp41.7T. Net income Rp6.59T."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 56803000,
+      "revenueBySegmentMM": {
+        "Noodles": 41200000,
+        "Dairy": 9200000,
+        "Snacks / Seasonings / Nutrition": 4750000,
+        "Beverages + other": 1653000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 36800000,
+        "G&A": 3050000,
+        "Selling": 7400000,
+        "D&A": 2150000
+      },
+      "ebitdaMM": 14820000,
+      "netIncomeMM": 6386000,
+      "totalAssetsMM": 118066000,
+      "totalDebtMM": 39700000,
+      "cashMM": 9700000,
+      "netDebtMM": 30000000,
+      "totalEquityMM": 38419000,
+      "sharesOutMM": 11662,
+      "bookValuePerShare": 3294,
+      "dividendPerShare": 215,
+      "notes": "FY21: Rp56.8T (+22% YoY) full-year Pinehill consol. Net income Rp6.39T."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 64798000,
+      "revenueBySegmentMM": {
+        "Noodles": 47600000,
+        "Dairy": 9800000,
+        "Snacks / Seasonings / Nutrition": 5200000,
+        "Beverages + other": 2198000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 42400000,
+        "G&A": 3300000,
+        "Selling": 8400000,
+        "D&A": 2400000
+      },
+      "ebitdaMM": 15370000,
+      "netIncomeMM": 4587000,
+      "totalAssetsMM": 121276000,
+      "totalDebtMM": 42600000,
+      "cashMM": 9300000,
+      "netDebtMM": 33300000,
+      "totalEquityMM": 40912000,
+      "sharesOutMM": 11662,
+      "bookValuePerShare": 3508,
+      "dividendPerShare": 197,
+      "notes": "FY22: Rp64.8T (+14% YoY). Strong noodle volumes; FX losses on USD debt. Net income Rp4.59T."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 67909000,
+      "revenueBySegmentMM": {
+        "Noodles": 50500000,
+        "Dairy": 10000000,
+        "Snacks / Seasonings / Nutrition": 5300000,
+        "Beverages + other": 2109000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 42800000,
+        "G&A": 3400000,
+        "Selling": 8650000,
+        "D&A": 2500000
+      },
+      "ebitdaMM": 18000000,
+      "netIncomeMM": 7184000,
+      "totalAssetsMM": 124075000,
+      "totalDebtMM": 41200000,
+      "cashMM": 12500000,
+      "netDebtMM": 28700000,
+      "totalEquityMM": 47024000,
+      "sharesOutMM": 11662,
+      "bookValuePerShare": 4032,
+      "dividendPerShare": 230,
+      "notes": "FY23: Rp67.9T revenue (+5% YoY), Rp7.18T net profit (+57%) — strong margin recovery + lower input cost."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 71218000,
+      "revenueBySegmentMM": {
+        "Noodles": 52900000,
+        "Dairy": 10300000,
+        "Snacks / Seasonings / Nutrition": 5650000,
+        "Beverages + other": 2368000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 44400000,
+        "G&A": 3550000,
+        "Selling": 9000000,
+        "D&A": 2600000
+      },
+      "ebitdaMM": 19000000,
+      "netIncomeMM": 10870000,
+      "totalAssetsMM": 130710000,
+      "totalDebtMM": 40200000,
+      "cashMM": 13990000,
+      "netDebtMM": 26210000,
+      "totalEquityMM": 52720000,
+      "sharesOutMM": 11662,
+      "bookValuePerShare": 4520,
+      "navPerShare": 4520,
+      "dividendPerShare": 248,
+      "notes": "FY24: Rp71.2T revenue (+5% YoY), Rp10.87T net profit (+51% YoY). Lower wheat/palm oil + FX hedge gains. Net debt down to ~Rp26.2T."
+    }
+  ]
+}

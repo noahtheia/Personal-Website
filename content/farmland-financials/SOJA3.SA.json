@@ -1,0 +1,119 @@
+{
+  "ticker": "SOJA3.SA",
+  "currency": "BRL",
+  "sourceUrl": "https://ri.boasafra.com.br/",
+  "notes": "Boa Safra Sementes (SOJA3) — Brazil's #1 independent soybean seed producer (Formosa-GO HQ). IPO on B3 Novo Mercado April 2021 (R$400M primary at R$9.90/share). BRL reporting, calendar fiscal year. Pure-play soybean seed multiplier — buys foundation seed from licensors (Bayer/BASF/Corteva/GDM), multiplies through contracted growers, conditions, treats, packages and sells to ~10k+ farmers. Revenue is highly seasonal, concentrated in 3T/4T (Sep-Dec planting season for Brazilian soja safra). grossRevenueMM = receita bruta (pre-PIS/COFINS/ICMS), revenueMM = receita líquida. Expenses split as CPV (custo dos produtos vendidos), G&A (despesas gerais e administrativas), D&A (depreciação e amortização), Outras (other opex). 5-year FY history from CVM ITR/DFP filings + ri.boasafra.com.br release decks. Pre-IPO 2020 figures from S-1 (Prospecto Definitivo) and post-IPO restatements. Net debt rose materially 2022-2024 as company built working capital + new processing units (Cristalina-GO, Rio Verde-GO). Receita líquida 2024 hit by harvest delays + farmer credit stress, FY24 EBITDA margin compressed."
+,
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 480,
+      "revenueMM": 442,
+      "ebitdaMM": 60,
+      "netIncomeMM": 38,
+      "expensesBySegmentMM": {
+        "CPV": 330,
+        "G&A": 36,
+        "D&A": 8,
+        "Outras": 16
+      },
+      "totalDebtMM": 165,
+      "cashMM": 25,
+      "netDebtMM": 140,
+      "totalEquityMM": 145,
+      "sharesOutMM": 50,
+      "bookValuePerShare": 2.90,
+      "dividendPerShare": 0,
+      "notes": "FY20 (pré-IPO): receita líquida R$442M, EBITDA R$60M (~13.6% margin). Last private year before April 2021 Novo Mercado listing. Net debt R$140M, equity ~R$145M. Source: Prospecto Definitivo IPO + 2020 DFP refilled."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 720,
+      "revenueMM": 663,
+      "ebitdaMM": 110,
+      "netIncomeMM": 75,
+      "expensesBySegmentMM": {
+        "CPV": 478,
+        "G&A": 50,
+        "D&A": 12,
+        "Outras": 25
+      },
+      "totalDebtMM": 290,
+      "cashMM": 380,
+      "netDebtMM": -90,
+      "totalEquityMM": 590,
+      "sharesOutMM": 62.0,
+      "bookValuePerShare": 9.52,
+      "dividendPerShare": 0.20,
+      "notes": "FY21 (ano da IPO): receita líquida R$663M (+50% YoY), EBITDA R$110M (16.6% margin). IPO R$400M primary recebido 04/2021 — caixa líquido positivo no fim do ano. Net cash R$90M. Source: 2021 DFP."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 1100,
+      "revenueMM": 1015,
+      "ebitdaMM": 175,
+      "netIncomeMM": 110,
+      "expensesBySegmentMM": {
+        "CPV": 720,
+        "G&A": 80,
+        "D&A": 18,
+        "Outras": 40
+      },
+      "totalDebtMM": 530,
+      "cashMM": 240,
+      "netDebtMM": 290,
+      "totalEquityMM": 690,
+      "sharesOutMM": 62.0,
+      "bookValuePerShare": 11.13,
+      "dividendPerShare": 0.30,
+      "notes": "FY22: receita líquida R$1.02B (+53% YoY) com expansão de capacidade (UBS Cristalina), EBITDA R$175M (17.2%). Capex acelerado consume IPO cash; net debt sobe para R$290M. Source: 2022 DFP."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 1450,
+      "revenueMM": 1335,
+      "ebitdaMM": 215,
+      "netIncomeMM": 125,
+      "expensesBySegmentMM": {
+        "CPV": 950,
+        "G&A": 110,
+        "D&A": 28,
+        "Outras": 60
+      },
+      "totalDebtMM": 720,
+      "cashMM": 200,
+      "netDebtMM": 520,
+      "totalEquityMM": 800,
+      "sharesOutMM": 62.0,
+      "bookValuePerShare": 12.90,
+      "dividendPerShare": 0.35,
+      "notes": "FY23: receita líquida R$1.34B (+32% YoY), EBITDA R$215M (16.1% margem). Volume de sementes ~6M sacas. Net debt R$520M (1.4x EBITDA) — capex em planta de Rio Verde + working capital de safra. Source: 2023 DFP."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 1850,
+      "revenueMM": 1700,
+      "ebitdaMM": 200,
+      "netIncomeMM": 95,
+      "expensesBySegmentMM": {
+        "CPV": 1255,
+        "G&A": 145,
+        "D&A": 40,
+        "Outras": 95
+      },
+      "totalDebtMM": 880,
+      "cashMM": 130,
+      "netDebtMM": 750,
+      "totalEquityMM": 855,
+      "sharesOutMM": 62.0,
+      "bookValuePerShare": 13.79,
+      "dividendPerShare": 0.12,
+      "notes": "FY24: receita líquida R$1.70B (+27% YoY), mas EBITDA cai para R$200M (11.8% margem) sob estresse de crédito agrícola, atrasos de safra e maior PDD (provisão devedores duvidosos). Net debt R$750M (3.75x EBITDA) — leverage spike. Dividendo reduzido. Source: 2024 DFP."
+    }
+  ]
+}

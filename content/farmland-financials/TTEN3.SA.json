@@ -1,0 +1,119 @@
+{
+  "ticker": "TTEN3.SA",
+  "currency": "BRL",
+  "sourceUrl": "https://ri.3tentos.com.br/",
+  "notes": "3tentos Agroindustrial (TTEN3) — vertically-integrated Brazilian agribusiness based in Cruz Alta, RS. Three core verticals: (1) varejo de insumos (input retail to ~30k farmers in RS/MT/GO), (2) industrial (esmagamento de soja → farelo + óleo + biodiesel — 3 plants: Cruz Alta-RS, Ijuí-RS, Vilhena-RO), (3) grãos (soybean/corn origination + trading). IPO on B3 Novo Mercado July 2021 (R$1.4B at R$10.50). BRL reporting, calendar fiscal year. grossRevenueMM = receita bruta, revenueMM = receita líquida. Expense split: CPV (cost of goods), G&A (despesas administrativas), D&A (depreciação), Outras (logistics/comerciais). Material capex 2022-2024 to build Vilhena-RO biodiesel + crushing complex (R$1.5B+ project). Net debt elevated as a result. 5-year FY history from CVM ITR/DFP filings + ri.3tentos.com.br release decks. Pre-IPO 2020 figures from Prospecto Definitivo. Volume metrics: ~3M tonnes soja crushed in FY24, ~1M tonnes biodiesel produced, ~R$3B in input retail receita."
+,
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 3500,
+      "revenueMM": 3250,
+      "ebitdaMM": 320,
+      "netIncomeMM": 230,
+      "expensesBySegmentMM": {
+        "CPV": 2750,
+        "G&A": 145,
+        "D&A": 45,
+        "Outras": 80
+      },
+      "totalDebtMM": 700,
+      "cashMM": 100,
+      "netDebtMM": 600,
+      "totalEquityMM": 580,
+      "sharesOutMM": 400,
+      "bookValuePerShare": 1.45,
+      "dividendPerShare": 0,
+      "notes": "FY20 (pré-IPO): receita líquida R$3.25B, EBITDA R$320M (9.8% margem) — ano forte de soja. Última safra antes do IPO. Source: Prospecto IPO 07/2021."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 5650,
+      "revenueMM": 5240,
+      "ebitdaMM": 510,
+      "netIncomeMM": 365,
+      "expensesBySegmentMM": {
+        "CPV": 4395,
+        "G&A": 220,
+        "D&A": 70,
+        "Outras": 115
+      },
+      "totalDebtMM": 1100,
+      "cashMM": 1450,
+      "netDebtMM": -350,
+      "totalEquityMM": 2400,
+      "sharesOutMM": 520.0,
+      "bookValuePerShare": 4.62,
+      "dividendPerShare": 0.10,
+      "notes": "FY21 (ano da IPO): receita líquida R$5.24B (+61% YoY), EBITDA R$510M (9.7%). IPO 07/2021 R$1.4B captados — caixa líquido R$350M no fim do ano. Equity sobe para R$2.4B. Source: 2021 DFP."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 7300,
+      "revenueMM": 6770,
+      "ebitdaMM": 730,
+      "netIncomeMM": 525,
+      "expensesBySegmentMM": {
+        "CPV": 5640,
+        "G&A": 300,
+        "D&A": 100,
+        "Outras": 145
+      },
+      "totalDebtMM": 1850,
+      "cashMM": 1100,
+      "netDebtMM": 750,
+      "totalEquityMM": 2870,
+      "sharesOutMM": 520.0,
+      "bookValuePerShare": 5.52,
+      "dividendPerShare": 0.18,
+      "notes": "FY22: receita líquida R$6.77B (+29% YoY), EBITDA R$730M (10.8% margem) — preços altos soja/biodiesel. Capex de R$700M+ na expansão Vilhena-RO. Net debt R$750M. Source: 2022 DFP."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 8100,
+      "revenueMM": 7510,
+      "ebitdaMM": 720,
+      "netIncomeMM": 480,
+      "expensesBySegmentMM": {
+        "CPV": 6280,
+        "G&A": 360,
+        "D&A": 130,
+        "Outras": 200
+      },
+      "totalDebtMM": 2400,
+      "cashMM": 850,
+      "netDebtMM": 1550,
+      "totalEquityMM": 3260,
+      "sharesOutMM": 520.0,
+      "bookValuePerShare": 6.27,
+      "dividendPerShare": 0.20,
+      "notes": "FY23: receita líquida R$7.51B (+11% YoY), EBITDA R$720M (9.6%). Vilhena-RO inicia operações 2H23. Capex remanescente eleva net debt para R$1.55B. Source: 2023 DFP."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 8650,
+      "revenueMM": 8000,
+      "ebitdaMM": 650,
+      "netIncomeMM": 440,
+      "expensesBySegmentMM": {
+        "CPV": 6800,
+        "G&A": 400,
+        "D&A": 165,
+        "Outras": 250
+      },
+      "totalDebtMM": 2900,
+      "cashMM": 750,
+      "netDebtMM": 2150,
+      "totalEquityMM": 3590,
+      "sharesOutMM": 520.0,
+      "bookValuePerShare": 6.90,
+      "dividendPerShare": 0.15,
+      "notes": "FY24: receita líquida R$8.0B (+7% YoY), EBITDA R$650M (8.1% margem) com preços soja em queda + ramp-up de Vilhena absorvendo margem. Net debt R$2.15B (3.3x EBITDA). Source: 2024 DFP."
+    }
+  ]
+}

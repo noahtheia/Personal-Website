@@ -1,0 +1,78 @@
+{
+  "ticker": "ALTO",
+  "currency": "USD",
+  "sourceUrl": "https://www.altoingredients.com/investors/sec-filings",
+  "notes": "Alto Ingredients (NASDAQ: ALTO) — Sacramento-based ethanol + specialty alcohols producer (CIK 1076259, formerly Pacific Ethanol). Operates Pekin (IL) campus + Magic Valley (ID) + Columbia (OR) plants. ~350M gal/yr capacity. Three segments: Pekin (specialty + fuel), Marketing & Distribution, Western Production. Fiscal year = calendar. Reports in USD. Restructured 2024 — idled Magic Valley + Columbia, ICP Pekin sale processes. Significant operating losses post-2022.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 906,
+      "ebitdaMM": 40,
+      "netIncomeMM": 90,
+      "totalDebtMM": 80,
+      "cashMM": 47,
+      "netDebtMM": 33,
+      "sharesOutMM": 71,
+      "bookValuePerShare": 1.95,
+      "dividendPerShare": 0,
+      "notes": "FY20: revenue $906M. EBITDA $40M. Net income $90M (gain on plant sales offset losses)."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 1183,
+      "ebitdaMM": 42,
+      "netIncomeMM": 21,
+      "totalDebtMM": 65,
+      "cashMM": 47,
+      "netDebtMM": 18,
+      "sharesOutMM": 75.5,
+      "bookValuePerShare": 2.45,
+      "dividendPerShare": 0,
+      "notes": "FY21: revenue $1.18B. EBITDA $42M. Net income $21M. Renamed to Alto Ingredients (specialty pivot)."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 1276,
+      "ebitdaMM": 30,
+      "netIncomeMM": -3,
+      "totalDebtMM": 90,
+      "cashMM": 30,
+      "netDebtMM": 60,
+      "sharesOutMM": 75.5,
+      "bookValuePerShare": 2.40,
+      "dividendPerShare": 0,
+      "notes": "FY22: revenue $1.28B. EBITDA $30M. Net loss $3M. Margin compression on corn cost spike."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 989,
+      "ebitdaMM": -3,
+      "netIncomeMM": -38,
+      "totalDebtMM": 95,
+      "cashMM": 31,
+      "netDebtMM": 64,
+      "sharesOutMM": 75.6,
+      "bookValuePerShare": 1.95,
+      "dividendPerShare": 0,
+      "notes": "FY23: revenue $989M. EBITDA $-3M. Net loss $38M. CO2 supply contract delays + Pekin plant outages."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 945,
+      "ebitdaMM": -42,
+      "netIncomeMM": -83,
+      "totalDebtMM": 110,
+      "cashMM": 27,
+      "netDebtMM": 83,
+      "sharesOutMM": 76.0,
+      "bookValuePerShare": 0.85,
+      "dividendPerShare": 0,
+      "notes": "FY24: revenue $945M. EBITDA $-42M. Net loss $83M (asset impairments $40M+). Idled Magic Valley + Columbia. Strategic alternatives review for remaining assets."
+    }
+  ]
+}
