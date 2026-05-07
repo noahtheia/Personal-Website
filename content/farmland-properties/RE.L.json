@@ -40,21 +40,23 @@
       "capRateHigh": 14.0
     },
     {
-      "name": "Smallholder partnerships + concession reserve",
+      "name": "Plasma plantations receivable + unplanted concession (smallholder partnerships)",
       "location": "East Kalimantan, Indonesia",
       "acres": 27600,
-      "cropOrUse": "Plasma scheme + unplanted concession",
-      "category": "Indonesian palm \u2014 partnerships/reserve",
+      "cropOrUse": "Plasma scheme (4,300 smallholders via 51 cooperatives) + unplanted concession reserve",
+      "category": "Indonesian palm \u2014 plasma + concession (excluded from owned acres)",
       "fmvPerAcre": 2500,
-      "fmvRationale": "Plasma partnership land + unplanted concession area",
-      "comparablesUsed": [
-        "ID-PALM-IMMATURE-2024"
-      ],
-      "bookValueMM": 107,
-      "fmvPerAcreLow": 2000.0,
-      "fmvPerAcreHigh": 3000.0,
+      "fmvPerAcreLow": 2000,
+      "fmvPerAcreHigh": 3000,
+      "excludeFromAcreTotals": true,
       "capRateLow": 10.0,
-      "capRateHigh": 14.0
+      "capRateHigh": 14.0,
+      "fmvRationale": "Plasma partnership land owned by 4,300 smallholder farmers (51 cooperatives) \u2014 REA buys FFB from these smallholders but doesn't own the underlying land. Plus unplanted concession reserve. Now correctly carried as excludeFromAcreTotals consistent with AALI/SIMP/P8Z/SGRO/SSMS treatment",
+      "comparablesUsed": [
+        "ID-PALM-IMMATURE-2024",
+        "REA-PLASMA-2024"
+      ],
+      "bookValueMM": 107
     }
   ],
   "comparables": [
@@ -84,12 +86,22 @@
     },
     {
       "id": "REA-CDM-DISP-2024",
-      "description": "REA's 2024 disposal of subsidiary CDM to Teladan Prima Agro",
-      "location": "Indonesian palm subsidiary",
+      "description": "REA's 2024 disposal of subsidiary CDM (PT Cipta Davia Mandiri) to Teladan Prima Agro: 15,238 ha (9,784 fully titled + 5,454 pending title)",
+      "location": "East Kalimantan (CDM subsidiary)",
+      "acres": 37650,
       "pricePerAcre": 4200,
       "date": "2024-08-15",
       "source": "REA Holdings 2024 disposal announcement"
+    },
+    {
+      "id": "REA-PLASMA-2024",
+      "description": "REA Holdings plasma program: 4,300 smallholder farmers via 51 cooperatives — REA buys FFB from these but does not own land. Plasma carried as receivable not as land asset",
+      "location": "East Kalimantan plasma areas",
+      "acres": 27600,
+      "pricePerAcre": 2500,
+      "date": "2024-12-31",
+      "source": "REA Holdings 2024 Annual Report"
     }
   ],
-  "methodology": "REA Holdings operates entirely in East Kalimantan with 3 CPO mills. Total ~75K hectares allocation, half planted (~37,500 ha = 92.6K acres planted base).\n\n3-row breakdown refined from previous 2-row:\n- Mature with-mill cluster (50K acres / ~20K ha): premium $5,500/acre\n- Immature/young plantings (15K acres / ~6K ha): mid-discount during development\n- Plasma + unplanted concession (27.6K acres / ~11K ha): full concession discount\n\nNet debt of $159M is meaningful. The 2024 CDM disposal to Teladan Prima Agro provides a useful in-portfolio mark."
+  "methodology": "REA Holdings operates entirely in East Kalimantan with 3 CPO mills. UK-listed ($-reporting) Indonesian palm pure-play.\n\nCRITICAL CHANGE vs prior version: Plasma row (27.6K acres = 11K ha) now correctly excluded from owned-acre totals via excludeFromAcreTotals=true. Plasma plantations are owned by 4,300 smallholder farmers via 51 cooperatives — REA purchases FFB but doesn't own the land. Consistent with how plasma is treated for AALI/SIMP/P8Z/SGRO/SSMS.\n\nDIVESTMENT NOTE: In 2024, REA agreed to sell subsidiary PT Cipta Davia Mandiri (CDM) to Teladan Prima Agro: 15,238 ha (9,784 fully titled + 5,454 pending). Continuing-group RSPO-certifiable area: 62,843 ha as of 2024.\n\n3-row breakdown by maturity:\n- Mature with-mill cluster (50K acres / ~20K ha): premium $5,500/acre, 3 CPO mills\n- Immature/young plantings (15K acres / ~6K ha): development-stage discount\n- Plasma + unplanted concession (27.6K acres / ~11K ha): excluded from owned-acre totals\n\nOwned-acre total post-plasma-carve-out: 65K acres planted (vs 92.6K including plasma). Net debt of $159M is meaningful."
 }
