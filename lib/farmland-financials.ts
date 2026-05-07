@@ -60,6 +60,33 @@ const PeriodSchema = z.object({
   epsDiluted: z.number().optional(),
   // ---- Operating ----
   totalAcresK: z.number().optional(),
+  // ---- Operational metrics: palm oil (per period) ----
+  // Productive (mature) planted area in thousands of hectares — differs
+  // from totalAcresK which often includes immature + reserve land.
+  matureHectaresK: z.number().optional(),
+  // FFB (fresh fruit bunches) harvested in thousands of tonnes.
+  ffbProductionTonnesK: z.number().optional(),
+  // CPO (crude palm oil) produced in thousands of tonnes — refined from FFB.
+  cpoProductionTonnesK: z.number().optional(),
+  // Palm Kernel produced in thousands of tonnes — typically 4-6% of FFB.
+  pkProductionTonnesK: z.number().optional(),
+  // FFB yield per planted hectare per year (t/ha/yr) — typically
+  // 18-25 for mature palm.
+  ffbYieldTPerHa: z.number().optional(),
+  // CPO extraction rate = CPO / FFB processed × 100 — typically 20-23%.
+  cpoExtractionRatePct: z.number().optional(),
+  // PK extraction rate = PK / FFB processed × 100 — typically 4-6%.
+  pkExtractionRatePct: z.number().optional(),
+  // ---- Operational metrics: tea (per period) ----
+  // Made (processed) tea production in thousands of tonnes.
+  teaProductionTonnesK: z.number().optional(),
+  // Made tea production in thousands of tonnes (alias for finished tea).
+  madeTeaProductionTonnesK: z.number().optional(),
+  // Green leaf harvested in thousands of tonnes (input to factory).
+  greenLeafTonnesK: z.number().optional(),
+  // Tea yield (made tea kg per planted hectare per year) — typically
+  // 1,500-3,000 kg/ha for productive estates.
+  teaYieldKgPerHa: z.number().optional(),
   // ---- Dividends / distributions ----
   dividendPaidMM: z.number().optional(),
   dividendPerShare: z.number().optional(),

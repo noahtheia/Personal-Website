@@ -79,7 +79,7 @@
   },
   {
     "ticker": "SLCE3.SA",
-    "name": "SLC Agrícola",
+    "name": "SLC Agr\u00edcola",
     "currency": "BRL",
     "primaryCrops": "Row crops (soy, cotton, corn)",
     "filingDate": "2026-03-12",
@@ -157,7 +157,7 @@
   },
   {
     "ticker": "LAND3.SA",
-    "name": "Terra Santa Propriedades Agrícolas",
+    "name": "Terra Santa Propriedades Agr\u00edcolas",
     "currency": "BRL",
     "primaryCrops": "Brazilian farmland REIT (Mato Grosso, leased to SLC)",
     "filingDate": "2026-03-15",
@@ -1000,7 +1000,7 @@
     "ticker": "BRFS3.SA",
     "name": "BRF S.A.",
     "currency": "BRL",
-    "primaryCrops": "Chicken / pork / processed (Sadia, Perdigão)",
+    "primaryCrops": "Chicken / pork / processed (Sadia, Perdig\u00e3o)",
     "filingDate": "2025-03-18",
     "filingUrl": "https://ri.brf-global.com/",
     "sharesOutMM": 1685,
@@ -1020,7 +1020,7 @@
   },
   {
     "ticker": "SMTO3.SA",
-    "name": "São Martinho",
+    "name": "S\u00e3o Martinho",
     "currency": "BRL",
     "primaryCrops": "Sugar / ethanol (sugarcane, fiscal year ends Mar 31)",
     "filingDate": "2025-06-12",
@@ -1046,7 +1046,7 @@
     "ticker": "CSAN3.SA",
     "name": "Cosan S.A.",
     "currency": "BRL",
-    "primaryCrops": "Sugar / ethanol (Raízen JV) + logistics + Vale stake",
+    "primaryCrops": "Sugar / ethanol (Ra\u00edzen JV) + logistics + Vale stake",
     "filingDate": "2025-03-13",
     "filingUrl": "https://ri.cosan.com.br/",
     "sharesOutMM": 1872,
@@ -1085,7 +1085,9 @@
     "sector": "Diversified Agribusiness",
     "geography": "Singapore",
     "operatingCountry": "Singapore",
-    "annualNetIncomeMM": 1170
+    "annualNetIncomeMM": 1170,
+    "annualFcfMM": 850.0,
+    "annualEquityMM": 22150.0
   },
   {
     "ticker": "O32.SI",
@@ -1105,7 +1107,9 @@
     "sector": "Agribusiness / Trader",
     "geography": "Singapore",
     "operatingCountry": "Singapore",
-    "annualNetIncomeMM": -810
+    "annualNetIncomeMM": -810,
+    "annualFcfMM": 1100.0,
+    "annualEquityMM": 8200.0
   },
   {
     "ticker": "CPF.BK",
@@ -1125,7 +1129,9 @@
     "sector": "Protein Producer",
     "geography": "Thailand",
     "operatingCountry": "Thailand",
-    "annualNetIncomeMM": 19030
+    "annualNetIncomeMM": 19030,
+    "annualFcfMM": 29500.0,
+    "annualEquityMM": 245000.0
   },
   {
     "ticker": "GFPT.BK",
@@ -1145,7 +1151,9 @@
     "sector": "Protein Producer",
     "geography": "Thailand",
     "operatingCountry": "Thailand",
-    "annualNetIncomeMM": 1592
+    "annualNetIncomeMM": 1592,
+    "annualFcfMM": 1700.0,
+    "annualEquityMM": 18200.0
   },
   {
     "ticker": "TUF.BK",
@@ -1165,7 +1173,9 @@
     "sector": "Protein Producer",
     "geography": "Thailand",
     "operatingCountry": "Thailand",
-    "annualNetIncomeMM": 6722
+    "annualNetIncomeMM": 6722,
+    "annualFcfMM": 9000.0,
+    "annualEquityMM": 63500.0
   },
   {
     "ticker": "KAPC.NR",
@@ -1187,7 +1197,9 @@
     "sector": "Plantation Operator",
     "geography": "Kenya",
     "operatingCountry": "Kenya",
-    "annualNetIncomeMM": 230
+    "annualNetIncomeMM": 230,
+    "annualFcfMM": 390.0,
+    "annualEquityMM": 5800.0
   },
   {
     "ticker": "TSN",
@@ -1518,7 +1530,8 @@
     "geography": "Poland",
     "operatingCountry": "Ukraine",
     "annualNetIncomeMM": 268,
-    "annualFcfMM": 244
+    "annualFcfMM": 244,
+    "annualEquityMM": 1825.0
   },
   {
     "ticker": "MHPC.L",
@@ -1540,11 +1553,12 @@
     "geography": "UK",
     "operatingCountry": "Ukraine",
     "annualNetIncomeMM": 168,
-    "annualFcfMM": 220
+    "annualFcfMM": 220,
+    "annualEquityMM": 1085.0
   },
   {
     "ticker": "SZU.DE",
-    "name": "Südzucker AG",
+    "name": "S\u00fcdzucker AG",
     "currency": "EUR",
     "primaryCrops": "Sugar, starch, fruit, ethanol (EU)",
     "filingDate": "2025-05-15",
@@ -1561,7 +1575,8 @@
     "geography": "EU",
     "operatingCountry": "EU",
     "annualNetIncomeMM": -27,
-    "annualFcfMM": 91
+    "annualFcfMM": 91,
+    "annualEquityMM": 4250.0
   },
   {
     "ticker": "TATE.L",
@@ -1582,7 +1597,8 @@
     "geography": "UK",
     "operatingCountry": "UK",
     "annualNetIncomeMM": 134,
-    "annualFcfMM": 103
+    "annualFcfMM": 103,
+    "annualEquityMM": 1340.0
   },
   {
     "ticker": "ABF.L",
@@ -1603,7 +1619,8 @@
     "geography": "UK",
     "operatingCountry": "UK",
     "annualNetIncomeMM": 1448,
-    "annualFcfMM": 1395
+    "annualFcfMM": 1395,
+    "annualEquityMM": 10350.0
   },
   {
     "ticker": "ELD.AX",
@@ -1624,7 +1641,8 @@
     "geography": "Australia",
     "operatingCountry": "Australia",
     "annualNetIncomeMM": 65.5,
-    "annualFcfMM": 142
+    "annualFcfMM": 142,
+    "annualEquityMM": 985.0
   },
   {
     "ticker": "GNC.AX",
@@ -1645,7 +1663,8 @@
     "geography": "Australia",
     "operatingCountry": "Australia",
     "annualNetIncomeMM": 70,
-    "annualFcfMM": -25
+    "annualFcfMM": -25,
+    "annualEquityMM": 1200.0
   },
   {
     "ticker": "BGA.AX",
@@ -1666,7 +1685,8 @@
     "geography": "Australia",
     "operatingCountry": "Australia",
     "annualNetIncomeMM": 30.2,
-    "annualFcfMM": 114
+    "annualFcfMM": 114,
+    "annualEquityMM": 1175.0
   },
   {
     "ticker": "A2M.AX",
@@ -1688,7 +1708,8 @@
     "geography": "New Zealand",
     "operatingCountry": "New Zealand",
     "annualNetIncomeMM": 167.6,
-    "annualFcfMM": 218
+    "annualFcfMM": 218,
+    "annualEquityMM": 994.0
   },
   {
     "ticker": "FDP",
@@ -1731,7 +1752,8 @@
     "geography": "US",
     "operatingCountry": "US",
     "annualNetIncomeMM": 37.7,
-    "annualFcfMM": 37.2
+    "annualFcfMM": 37.2,
+    "annualEquityMM": 543.0
   },
   {
     "ticker": "IPI",
@@ -1751,7 +1773,9 @@
     "sector": "Crop Inputs / Fertilizer",
     "geography": "US",
     "operatingCountry": "US",
-    "annualNetIncomeMM": 11.2
+    "annualNetIncomeMM": 11.2,
+    "annualFcfMM": 13.9,
+    "annualEquityMM": 497.0
   },
   {
     "ticker": "SMG",
@@ -1772,7 +1796,8 @@
     "geography": "US",
     "operatingCountry": "US",
     "annualNetIncomeMM": 145.2,
-    "annualFcfMM": 273.9
+    "annualFcfMM": 273.9,
+    "annualEquityMM": 34.0
   },
   {
     "ticker": "ANDE",
@@ -1793,7 +1818,8 @@
     "geography": "US",
     "operatingCountry": "US",
     "annualNetIncomeMM": 95.7,
-    "annualFcfMM": -56.13
+    "annualFcfMM": -56.13,
+    "annualEquityMM": 1340.0
   },
   {
     "ticker": "LW",
@@ -1814,7 +1840,8 @@
     "geography": "US",
     "operatingCountry": "US",
     "annualNetIncomeMM": 357.2,
-    "annualFcfMM": 230.1
+    "annualFcfMM": 230.1,
+    "annualEquityMM": 1280.0
   },
   {
     "ticker": "MOWI.OL",
@@ -1886,7 +1913,7 @@
   },
   {
     "ticker": "LSG.OL",
-    "name": "Lerøy Seafood Group",
+    "name": "Ler\u00f8y Seafood Group",
     "currency": "NOK",
     "primaryCrops": "Atlantic salmon, whitefish",
     "filingDate": "2025-02-19",
@@ -1948,7 +1975,8 @@
     "geography": "Hong Kong",
     "operatingCountry": "China",
     "annualNetIncomeMM": 1480,
-    "annualFcfMM": 1850
+    "annualFcfMM": 1850,
+    "annualEquityMM": 6750.0
   },
   {
     "ticker": "1117.HK",
@@ -1970,7 +1998,8 @@
     "geography": "Hong Kong",
     "operatingCountry": "Hong Kong",
     "annualNetIncomeMM": -1469,
-    "annualFcfMM": -2200
+    "annualFcfMM": -2200,
+    "annualEquityMM": 11500.0
   },
   {
     "ticker": "0606.HK",
@@ -1992,7 +2021,8 @@
     "geography": "Hong Kong",
     "operatingCountry": "Hong Kong",
     "annualNetIncomeMM": 305,
-    "annualFcfMM": 850
+    "annualFcfMM": 850,
+    "annualEquityMM": 18900.0
   },
   {
     "ticker": "002714.SZ",
@@ -2013,7 +2043,8 @@
     "geography": "China",
     "operatingCountry": "China",
     "annualNetIncomeMM": 17810,
-    "annualFcfMM": 21500
+    "annualFcfMM": 21500,
+    "annualEquityMM": 105000.0
   },
   {
     "ticker": "000876.SZ",
@@ -2034,7 +2065,8 @@
     "geography": "China",
     "operatingCountry": "China",
     "annualNetIncomeMM": 487,
-    "annualFcfMM": 1450
+    "annualFcfMM": 1450,
+    "annualEquityMM": 30500.0
   },
   {
     "ticker": "DCMSHRIRAM.NS",
@@ -2106,7 +2138,7 @@
     "ticker": "VNM.HM",
     "name": "Vinamilk (Vietnam Dairy Products JSC)",
     "currency": "VND",
-    "primaryCrops": "Dairy (Vietnam's largest — milk, yogurt, condensed milk, infant formula)",
+    "primaryCrops": "Dairy (Vietnam's largest \u2014 milk, yogurt, condensed milk, infant formula)",
     "filingDate": "2025-03-30",
     "filingUrl": "https://www.vinamilk.com.vn/en/investor-relations",
     "sharesOutMM": 2089.9,
@@ -2164,13 +2196,14 @@
     "epsTTM": 0.65,
     "sector": "Diversified Agribusiness",
     "geography": "US",
-    "operatingCountry": "Argentina"
+    "operatingCountry": "Argentina",
+    "annualEquityMM": 680.0
   },
   {
     "ticker": "ARL.JO",
     "name": "Astral Foods Limited",
     "currency": "ZAR",
-    "primaryCrops": "Poultry (broilers, feed) — South Africa",
+    "primaryCrops": "Poultry (broilers, feed) \u2014 South Africa",
     "filingDate": "2024-11-18",
     "filingUrl": "https://www.astralfoods.com/investors/",
     "sharesOutMM": 39.05,
@@ -2258,7 +2291,7 @@
     "ticker": "INGR",
     "name": "Ingredion Incorporated",
     "currency": "USD",
-    "primaryCrops": "Corn-based ingredients (starches, sweeteners, plant proteins) — global",
+    "primaryCrops": "Corn-based ingredients (starches, sweeteners, plant proteins) \u2014 global",
     "filingDate": "2025-02-20",
     "filingUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001046257&type=10-K",
     "sharesOutMM": 65.4,
@@ -2637,7 +2670,7 @@
   },
   {
     "ticker": "AGXY3.SA",
-    "name": "AgroGalaxy Participações",
+    "name": "AgroGalaxy Participa\u00e7\u00f5es",
     "currency": "BRL",
     "primaryCrops": "Ag input retail (seeds/fertilizer/chemicals)",
     "filingDate": "2025-03-31",
@@ -2681,7 +2714,7 @@
   },
   {
     "ticker": "VITT3.SA",
-    "name": "Vittia Fertilizantes e Biológicos",
+    "name": "Vittia Fertilizantes e Biol\u00f3gicos",
     "currency": "BRL",
     "primaryCrops": "Specialty fertilizer + biopesticide",
     "filingDate": "2025-03-31",
@@ -2969,7 +3002,7 @@
     "ticker": "AVD",
     "name": "American Vanguard Corp",
     "currency": "USD",
-    "primaryCrops": "Specialty crop chemistry — pesticides + fungicides + herbicides (Global)",
+    "primaryCrops": "Specialty crop chemistry \u2014 pesticides + fungicides + herbicides (Global)",
     "filingDate": "2024-12-31",
     "filingUrl": "https://www.american-vanguard.com/investors",
     "sharesOutMM": 30.6,
@@ -3038,7 +3071,7 @@
     "ticker": "MLP",
     "name": "Maui Land & Pineapple Co.",
     "currency": "USD",
-    "primaryCrops": "Hawaiian land owner — leasing + resort + selective development (Maui)",
+    "primaryCrops": "Hawaiian land owner \u2014 leasing + resort + selective development (Maui)",
     "filingDate": "2024-12-31",
     "filingUrl": "https://mauiland.com/investors/",
     "sharesOutMM": 19.6,
@@ -3078,13 +3111,14 @@
     "geography": "China",
     "operatingCountry": "China",
     "annualNetIncomeMM": 2502,
-    "annualFcfMM": 9800
+    "annualFcfMM": 9800,
+    "annualEquityMM": 70200.0
   },
   {
     "ticker": "600598.SS",
     "name": "Heilongjiang Beidahuang Agriculture",
     "currency": "CNY",
-    "primaryCrops": "Rice / corn / soybean — state-leased farmland operator (Sanjiang Plain)",
+    "primaryCrops": "Rice / corn / soybean \u2014 state-leased farmland operator (Sanjiang Plain)",
     "filingDate": "2025-03-28",
     "filingUrl": "http://www.bdh.com.cn/",
     "sharesOutMM": 1778,
@@ -3100,7 +3134,8 @@
     "geography": "China",
     "operatingCountry": "China",
     "annualNetIncomeMM": 1087,
-    "annualFcfMM": 850
+    "annualFcfMM": 850,
+    "annualEquityMM": 18450.0
   },
   {
     "ticker": "000895.SZ",
@@ -3121,7 +3156,8 @@
     "geography": "China",
     "operatingCountry": "China",
     "annualNetIncomeMM": 5105,
-    "annualFcfMM": 5400
+    "annualFcfMM": 5400,
+    "annualEquityMM": 16800.0
   },
   {
     "ticker": "TIPCO.BK",
@@ -3142,6 +3178,7 @@
     "geography": "Thailand",
     "operatingCountry": "Thailand",
     "annualNetIncomeMM": -92.1,
-    "annualFcfMM": -65
+    "annualFcfMM": -65,
+    "annualEquityMM": 1850.0
   }
 ]
