@@ -26,7 +26,9 @@
       "cashMM": 23.3,
       "netDebtMM": 106.7,
       "totalAcresK": 96.84,
-      "notes": "3T21: net revenue R$15.5M (+143% YoY base effect, mostly pre-lease transition), EBITDA margin 105% (R$16.3M, includes one-time accounting), small net loss. First quarterly report post-spinoff from Terra Santa Agro"
+      "bookValuePerShare": 7.71,
+      "navPerShare": 7.71,
+      "notes": "3T21: net revenue R$15.5M (+143% YoY base effect, mostly pre-lease transition), EBITDA margin 105% (R$16.3M, includes one-time accounting), small net loss. First quarterly report post-spinoff from Terra Santa Agro. PL/share estimated at IPO baseline before Q4 2021 transition revenue boost."
     },
     {
       "endDate": "2021-12-31",
@@ -50,7 +52,9 @@
       "cashMM": 30.8,
       "netDebtMM": 49.2,
       "totalAcresK": 96.84,
-      "notes": "4T21: First full quarter of SLC lease (R$30.2M lease income + tail of R$73.8M agricultural partnership recognition for 2020/21 harvest). Adj EBITDA R$37.9M (transition-period boost). Net debt R$49.2M end of 2021"
+      "bookValuePerShare": 7.74,
+      "navPerShare": 7.74,
+      "notes": "4T21: First full quarter of SLC lease (R$30.2M lease income + tail of R$73.8M agricultural partnership recognition for 2020/21 harvest). Adj EBITDA R$37.9M (transition-period boost). Net debt R$49.2M end of 2021. PL/share estimated post-IPO base, pre-FY22 farmland revaluation lift."
     },
     {
       "endDate": "2021-12-31",
@@ -75,7 +79,9 @@
       "netDebtMM": 49.2,
       "totalAcresK": 96.84,
       "sharesOutMM": 96.23,
-      "notes": "FY21 partial-year (LAND3 listed Oct 2021): Total revenue R$102.7M (R$73.8M from agricultural partnership transition + R$30.2M from SLC lease starting Sept). Net income R$38M. FY21 EBITDA estimated ~R$68M reflecting one-time transition accounting"
+      "bookValuePerShare": 7.74,
+      "navPerShare": 7.74,
+      "notes": "FY21 partial-year (LAND3 listed Oct 2021): Total revenue R$102.7M (R$73.8M from agricultural partnership transition + R$30.2M from SLC lease starting Sept). Net income R$38M. FY21 EBITDA estimated ~R$68M reflecting one-time transition accounting. PL/share estimated post-IPO base."
     },
     {
       "endDate": "2022-03-31",
@@ -95,7 +101,9 @@
       "ebitdaMM": 16,
       "netIncomeMM": 0.315,
       "totalAcresK": 96.84,
-      "notes": "1T22: net revenue R$23.72M, adj EBITDA R$16M, net income R$0.315M"
+      "bookValuePerShare": 7.76,
+      "navPerShare": 7.76,
+      "notes": "1T22: net revenue R$23.72M, adj EBITDA R$16M, net income R$0.315M. PL/share interpolated between IPO base and FY22 (R$9.14 incl. revaluation gain)."
     },
     {
       "endDate": "2022-06-30",
@@ -115,7 +123,9 @@
       "ebitdaMM": 20.5,
       "netIncomeMM": 3.01,
       "totalAcresK": 96.84,
-      "notes": "2T22: net revenue R$22.88M, adj EBITDA R$20.5M, net income R$3.01M (reverted prior loss)"
+      "bookValuePerShare": 7.79,
+      "navPerShare": 7.79,
+      "notes": "2T22: net revenue R$22.88M, adj EBITDA R$20.5M, net income R$3.01M (reverted prior loss). PL/share interpolated to FY22 anchor."
     },
     {
       "endDate": "2022-09-30",
@@ -135,14 +145,18 @@
       "ebitdaMM": 21.9,
       "netIncomeMM": 14.8,
       "totalAcresK": 96.84,
-      "notes": "3T22: net revenue R$23.92M, EBITDA estimated by FY22 subtraction, net income R$14.80M"
+      "bookValuePerShare": 7.94,
+      "navPerShare": 7.94,
+      "notes": "3T22: net revenue R$23.92M, EBITDA estimated by FY22 subtraction, net income R$14.80M. PL/share reflects accumulated YTD net income."
     },
     {
       "endDate": "2022-11-30",
       "periodType": "LTM",
       "propertyFmvMM": 3635,
       "totalAcresK": 96.84,
-      "notes": "S&P Global Nov-2022 laudo: R$3,635M = R$92,769/ha = R$37,548/acre (peak after COVID-era soy rally)"
+      "bookValuePerShare": 9.05,
+      "navPerShare": 9.05,
+      "notes": "S&P Global Nov-2022 laudo: R$3,635M = R$92,769/ha = R$37,548/acre (peak after COVID-era soy rally). PL/share approximated near year-end FY22 anchor."
     },
     {
       "endDate": "2022-12-31",
@@ -162,7 +176,9 @@
       "ebitdaMM": 20.4,
       "netIncomeMM": 119.05,
       "totalAcresK": 96.84,
-      "notes": "4T22: net revenue R$24.50M (-48.6% YoY), adj EBITDA R$20.4M, net income R$119.05M (included land-revaluation gain). Approved R$130.3M dividend = R$1.354 per share"
+      "bookValuePerShare": 9.14,
+      "navPerShare": 9.14,
+      "notes": "4T22: net revenue R$24.50M (-48.6% YoY), adj EBITDA R$20.4M, net income R$119.05M (included land-revaluation gain). Approved R$130.3M dividend = R$1.354 per share. PL/share = FY22 (R$9.14)."
     },
     {
       "endDate": "2022-12-31",
@@ -212,7 +228,9 @@
       "ebitdaMM": 15.3,
       "netIncomeMM": 8.17,
       "totalAcresK": 96.84,
-      "notes": "1T23: net revenue R$24.99M (+5.4% YoY), gross profit R$23.8M, net income R$8.17M (+2,494% YoY base effect)"
+      "bookValuePerShare": 8.90,
+      "navPerShare": 8.90,
+      "notes": "1T23: net revenue R$24.99M (+5.4% YoY), gross profit R$23.8M, net income R$8.17M (+2,494% YoY base effect). PL/share interpolated FY22 (R$9.14) → FY23 (R$8.17), reflecting Q1 2023 R$130.3M dividend payout."
     },
     {
       "endDate": "2023-06-30",
@@ -232,7 +250,9 @@
       "ebitdaMM": 19.62,
       "netIncomeMM": 5.45,
       "totalAcresK": 96.84,
-      "notes": "2T23: net revenue R$24.87M, adj EBITDA R$19.62M, net income R$5.45M (+81% YoY)"
+      "bookValuePerShare": 8.66,
+      "navPerShare": 8.66,
+      "notes": "2T23: net revenue R$24.87M, adj EBITDA R$19.62M, net income R$5.45M (+81% YoY). PL/share interpolated FY22→FY23."
     },
     {
       "endDate": "2023-09-30",
@@ -252,14 +272,18 @@
       "ebitdaMM": 18.5,
       "netIncomeMM": 7.98,
       "totalAcresK": 96.84,
-      "notes": "3T23: net revenue R$22.60M, gross profit R$21.2M, EBITDA estimated, net income R$7.98M"
+      "bookValuePerShare": 8.41,
+      "navPerShare": 8.41,
+      "notes": "3T23: net revenue R$22.60M, gross profit R$21.2M, EBITDA estimated, net income R$7.98M. PL/share interpolated FY22→FY23."
     },
     {
       "endDate": "2023-11-30",
       "periodType": "LTM",
       "propertyFmvMM": 2993,
       "totalAcresK": 96.84,
-      "notes": "S&P Nov-2023: R$2,993M = R$76,372/ha = R$30,910/acre (-17.6% YoY on soybean weakness)"
+      "bookValuePerShare": 8.30,
+      "navPerShare": 8.30,
+      "notes": "S&P Nov-2023: R$2,993M = R$76,372/ha = R$30,910/acre (-17.6% YoY on soybean weakness). PL/share approximated near year-end FY23 anchor."
     },
     {
       "endDate": "2023-12-31",
@@ -279,7 +303,9 @@
       "ebitdaMM": 14.7,
       "netIncomeMM": 13.61,
       "totalAcresK": 96.84,
-      "notes": "4T23: net revenue R$19.27M (-21.3% YoY on soy price decline), adj EBITDA R$14.7M (+2% YoY), net income R$13.61M"
+      "bookValuePerShare": 8.17,
+      "navPerShare": 8.17,
+      "notes": "4T23: net revenue R$19.27M (-21.3% YoY on soy price decline), adj EBITDA R$14.7M (+2% YoY), net income R$13.61M. PL/share = FY23 (R$8.17)."
     },
     {
       "endDate": "2023-12-31",
@@ -329,7 +355,9 @@
       "ebitdaMM": 13.17,
       "netIncomeMM": 6.42,
       "totalAcresK": 96.84,
-      "notes": "1T24: net revenue R$16.32M (-34.7% YoY due to 30% lower fixed soy price for 2023/24 harvest), EBITDA R$13.17M (-13.7% YoY), net income R$6.42M (-21.4% YoY)"
+      "bookValuePerShare": 7.98,
+      "navPerShare": 7.98,
+      "notes": "1T24: net revenue R$16.32M (-34.7% YoY due to 30% lower fixed soy price for 2023/24 harvest), EBITDA R$13.17M (-13.7% YoY), net income R$6.42M (-21.4% YoY). PL/share interpolated FY23 (R$8.17) → FY24 (R$7.42)."
     },
     {
       "endDate": "2024-06-30",
@@ -349,7 +377,9 @@
       "ebitdaMM": 9.5,
       "netIncomeMM": -0.694,
       "totalAcresK": 96.84,
-      "notes": "2T24: net revenue R$17.79M, EBITDA estimated, small net loss R$-0.694M"
+      "bookValuePerShare": 7.79,
+      "navPerShare": 7.79,
+      "notes": "2T24: net revenue R$17.79M, EBITDA estimated, small net loss R$-0.694M. PL/share interpolated FY23→FY24."
     },
     {
       "endDate": "2024-09-30",
@@ -369,14 +399,18 @@
       "ebitdaMM": 12,
       "netIncomeMM": 7.37,
       "totalAcresK": 96.84,
-      "notes": "3T24: net revenue R$17.95M, EBITDA estimated, net income R$7.37M"
+      "bookValuePerShare": 7.61,
+      "navPerShare": 7.61,
+      "notes": "3T24: net revenue R$17.95M, EBITDA estimated, net income R$7.37M. PL/share interpolated FY23→FY24."
     },
     {
       "endDate": "2024-11-30",
       "periodType": "LTM",
       "propertyFmvMM": 2755.9,
       "totalAcresK": 96.84,
-      "notes": "S&P Nov-2024: R$2,755.9M = R$70,310/ha = R$28,455/acre (-7.9% YoY on continued soy weakness)"
+      "bookValuePerShare": 7.45,
+      "navPerShare": 7.45,
+      "notes": "S&P Nov-2024: R$2,755.9M = R$70,310/ha = R$28,455/acre (-7.9% YoY on continued soy weakness). PL/share approximated near year-end FY24 anchor."
     },
     {
       "endDate": "2024-12-31",
@@ -396,7 +430,9 @@
       "ebitdaMM": -8,
       "netIncomeMM": -5.76,
       "totalAcresK": 96.84,
-      "notes": "4T24: net revenue R$16.27M, EBITDA R$-8.0M (impairment + costs), net income R$-5.76M. Adj EBITDA R$7.8M"
+      "bookValuePerShare": 7.42,
+      "navPerShare": 7.42,
+      "notes": "4T24: net revenue R$16.27M, EBITDA R$-8.0M (impairment + costs), net income R$-5.76M. Adj EBITDA R$7.8M. PL/share = FY24 (R$7.42)."
     },
     {
       "endDate": "2024-12-31",
@@ -446,7 +482,9 @@
       "ebitdaMM": 14,
       "netIncomeMM": 9.71,
       "totalAcresK": 96.84,
-      "notes": "1T25: net revenue R$21.96M, EBITDA estimated, net income R$9.71M (recovery in 2024/25 soy harvest pricing)"
+      "bookValuePerShare": 7.28,
+      "navPerShare": 7.28,
+      "notes": "1T25: net revenue R$21.96M, EBITDA estimated, net income R$9.71M (recovery in 2024/25 soy harvest pricing). PL/share interpolated FY24 (R$7.42) → FY25 (R$6.85)."
     },
     {
       "endDate": "2025-06-30",
@@ -466,7 +504,9 @@
       "ebitdaMM": 17,
       "netIncomeMM": 5.01,
       "totalAcresK": 96.84,
-      "notes": "2T25: net revenue R$29.90M (highest quarter ever, +68% YoY), EBITDA estimated"
+      "bookValuePerShare": 7.13,
+      "navPerShare": 7.13,
+      "notes": "2T25: net revenue R$29.90M (highest quarter ever, +68% YoY), EBITDA estimated. PL/share interpolated FY24→FY25."
     },
     {
       "endDate": "2025-09-30",
@@ -486,14 +526,18 @@
       "ebitdaMM": 7,
       "netIncomeMM": -18.33,
       "totalAcresK": 96.84,
-      "notes": "3T25: net revenue R$22.06M, net loss R$-18.33M (likely property revaluation hit)"
+      "bookValuePerShare": 6.99,
+      "navPerShare": 6.99,
+      "notes": "3T25: net revenue R$22.06M, net loss R$-18.33M (likely property revaluation hit). PL/share interpolated FY24→FY25."
     },
     {
       "endDate": "2025-11-30",
       "periodType": "LTM",
       "propertyFmvMM": 2796.4,
       "totalAcresK": 96.84,
-      "notes": "S&P Nov-2025: R$2,796.4M = R$71,344/ha = R$28,872/acre (slight recovery)"
+      "bookValuePerShare": 6.90,
+      "navPerShare": 6.90,
+      "notes": "S&P Nov-2025: R$2,796.4M = R$71,344/ha = R$28,872/acre (slight recovery). PL/share approximated near year-end FY25 anchor."
     },
     {
       "endDate": "2025-12-31",
@@ -513,7 +557,9 @@
       "ebitdaMM": 0.15,
       "netIncomeMM": 8.37,
       "totalAcresK": 96.84,
-      "notes": "4T25: net revenue R$22.66M (+39% vs 4T24), reported EBITDA R$0.15M (vs -R$8M 4T24), adj EBITDA R$14.6M, net income R$8.37M (reversed prior-year loss)"
+      "bookValuePerShare": 6.85,
+      "navPerShare": 6.85,
+      "notes": "4T25: net revenue R$22.66M (+39% vs 4T24), reported EBITDA R$0.15M (vs -R$8M 4T24), adj EBITDA R$14.6M, net income R$8.37M (reversed prior-year loss). PL/share = FY25 (R$6.85)."
     },
     {
       "endDate": "2025-12-31",

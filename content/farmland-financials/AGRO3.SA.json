@@ -291,7 +291,9 @@
       "ebitdaMM": 32,
       "netIncomeMM": 14,
       "totalAcresK": 308,
-      "notes": "1T FY20/21 (Jul-Sep 2020): Receita líquida R$118M, EBITDA Aj R$32M. BrasilAgro fiscal year is Jul-Jun"
+      "bookValuePerShare": 12.18,
+      "navPerShare": 12.18,
+      "notes": "1T FY20/21 (Jul-Sep 2020): Receita líquida R$118M, EBITDA Aj R$32M. BrasilAgro fiscal year is Jul-Jun. PL/share interpolated FY19/20 (R$11.75) → FY20/21 (R$13.45)."
     },
     {
       "endDate": "2020-12-31",
@@ -314,7 +316,9 @@
       "ebitdaMM": 70,
       "netIncomeMM": 38,
       "totalAcresK": 308,
-      "notes": "2T FY20/21: Receita líquida R$200M includes ~R$60M farm-sale (Imobiliário) contribution. EBITDA Aj R$70M"
+      "bookValuePerShare": 12.60,
+      "navPerShare": 12.60,
+      "notes": "2T FY20/21: Receita líquida R$200M includes ~R$60M farm-sale (Imobiliário) contribution. EBITDA Aj R$70M. PL/share interpolated FY19/20→FY20/21."
     },
     {
       "endDate": "2021-03-31",
@@ -337,7 +341,9 @@
       "ebitdaMM": 85,
       "netIncomeMM": 50,
       "totalAcresK": 308,
-      "notes": "3T FY20/21 (Jan-Mar 2021): Receita líquida R$290M (peak soybean billing quarter), EBITDA Aj R$85M"
+      "bookValuePerShare": 13.03,
+      "navPerShare": 13.03,
+      "notes": "3T FY20/21 (Jan-Mar 2021): Receita líquida R$290M (peak soybean billing quarter), EBITDA Aj R$85M. PL/share interpolated FY19/20→FY20/21."
     },
     {
       "endDate": "2021-06-30",
@@ -360,7 +366,9 @@
       "ebitdaMM": 53,
       "netIncomeMM": 22,
       "totalAcresK": 308,
-      "notes": "4T FY20/21 (Apr-Jun 2021): Receita líquida R$210M, EBITDA Aj R$53M"
+      "bookValuePerShare": 13.45,
+      "navPerShare": 13.45,
+      "notes": "4T FY20/21 (Apr-Jun 2021): Receita líquida R$210M, EBITDA Aj R$53M. PL/share = FY20/21 (R$13.45)."
     },
     {
       "endDate": "2021-06-30",
@@ -416,7 +424,9 @@
       "ebitdaMM": 38,
       "netIncomeMM": 18,
       "totalAcresK": 312,
-      "notes": "1T FY21/22: Receita líquida R$150M (incl Alto Taquari farm partial sale), EBITDA Aj R$38M"
+      "bookValuePerShare": 13.84,
+      "navPerShare": 13.84,
+      "notes": "1T FY21/22: Receita líquida R$150M (incl Alto Taquari farm partial sale), EBITDA Aj R$38M. PL/share interpolated FY20/21 (R$13.45) → FY21/22 (R$15.00)."
     },
     {
       "endDate": "2021-12-31",
@@ -439,7 +449,9 @@
       "ebitdaMM": 105,
       "netIncomeMM": 70,
       "totalAcresK": 312,
-      "notes": "2T FY21/22: Receita líquida R$255M (large Imobiliário quarter — Chaparral/Alto Taquari sales), EBITDA Aj R$105M"
+      "bookValuePerShare": 14.23,
+      "navPerShare": 14.23,
+      "notes": "2T FY21/22: Receita líquida R$255M (large Imobiliário quarter — Chaparral/Alto Taquari sales), EBITDA Aj R$105M. PL/share interpolated FY20/21→FY21/22."
     },
     {
       "endDate": "2022-03-31",
@@ -462,7 +474,9 @@
       "ebitdaMM": 90,
       "netIncomeMM": 50,
       "totalAcresK": 312,
-      "notes": "3T FY21/22: Receita líquida R$327M (soy peak), EBITDA Aj R$90M"
+      "bookValuePerShare": 14.61,
+      "navPerShare": 14.61,
+      "notes": "3T FY21/22: Receita líquida R$327M (soy peak), EBITDA Aj R$90M. PL/share interpolated FY20/21→FY21/22."
     },
     {
       "endDate": "2022-06-30",
@@ -485,7 +499,9 @@
       "ebitdaMM": 60,
       "netIncomeMM": 32,
       "totalAcresK": 312,
-      "notes": "4T FY21/22: Receita líquida R$260M, EBITDA Aj R$60M"
+      "bookValuePerShare": 15.00,
+      "navPerShare": 15.00,
+      "notes": "4T FY21/22: Receita líquida R$260M, EBITDA Aj R$60M. PL/share = FY21/22 (R$15.00)."
     },
     {
       "endDate": "2022-06-30",
@@ -541,7 +557,9 @@
       "ebitdaMM": 45,
       "netIncomeMM": 22,
       "totalAcresK": 318,
-      "notes": "1T FY22/23: Receita líquida R$182M, EBITDA Aj R$45M"
+      "bookValuePerShare": 15.30,
+      "navPerShare": 15.30,
+      "notes": "1T FY22/23: Receita líquida R$182M, EBITDA Aj R$45M. PL/share interpolated FY21/22 (R$15.00) → FY22/23 (R$16.20)."
     },
     {
       "endDate": "2022-12-31",
@@ -564,7 +582,9 @@
       "ebitdaMM": 110,
       "netIncomeMM": 65,
       "totalAcresK": 318,
-      "notes": "2T FY22/23: Receita líquida R$282M, EBITDA Aj R$110M (Imobiliário concentrated quarter)"
+      "bookValuePerShare": 15.60,
+      "navPerShare": 15.60,
+      "notes": "2T FY22/23: Receita líquida R$282M, EBITDA Aj R$110M (Imobiliário concentrated quarter). PL/share interpolated FY21/22→FY22/23."
     },
     {
       "endDate": "2023-03-31",
@@ -587,7 +607,9 @@
       "ebitdaMM": 100,
       "netIncomeMM": 55,
       "totalAcresK": 318,
-      "notes": "3T FY22/23: Receita líquida R$345M (soy peak quarter), EBITDA Aj R$100M"
+      "bookValuePerShare": 15.90,
+      "navPerShare": 15.90,
+      "notes": "3T FY22/23: Receita líquida R$345M (soy peak quarter), EBITDA Aj R$100M. PL/share interpolated FY21/22→FY22/23."
     },
     {
       "endDate": "2023-06-30",
@@ -610,7 +632,9 @@
       "ebitdaMM": 60,
       "netIncomeMM": 28,
       "totalAcresK": 318,
-      "notes": "4T FY22/23: Receita líquida R$290M, EBITDA Aj R$60M"
+      "bookValuePerShare": 16.20,
+      "navPerShare": 16.20,
+      "notes": "4T FY22/23: Receita líquida R$290M, EBITDA Aj R$60M. PL/share = FY22/23 (R$16.20)."
     },
     {
       "endDate": "2023-06-30",
@@ -668,7 +692,9 @@
       "ebitdaMM": 32,
       "netIncomeMM": 12,
       "totalAcresK": 322,
-      "notes": "1T FY23/24: Receita líquida R$159M, EBITDA Aj R$32M (commodity headwinds — soy price -25% YoY)"
+      "bookValuePerShare": 16.41,
+      "navPerShare": 16.41,
+      "notes": "1T FY23/24: Receita líquida R$159M, EBITDA Aj R$32M (commodity headwinds — soy price -25% YoY). PL/share interpolated FY22/23 (R$16.20) → FY23/24 (R$17.03)."
     },
     {
       "endDate": "2023-12-31",
@@ -691,7 +717,9 @@
       "ebitdaMM": 88,
       "netIncomeMM": 50,
       "totalAcresK": 322,
-      "notes": "2T FY23/24: Receita líquida R$245M, EBITDA Aj R$88M (Imobiliário-heavy)"
+      "bookValuePerShare": 16.62,
+      "navPerShare": 16.62,
+      "notes": "2T FY23/24: Receita líquida R$245M, EBITDA Aj R$88M (Imobiliário-heavy). PL/share interpolated FY22/23→FY23/24."
     },
     {
       "endDate": "2024-03-31",
@@ -714,7 +742,9 @@
       "ebitdaMM": 50,
       "netIncomeMM": 18,
       "totalAcresK": 322,
-      "notes": "3T FY23/24: Receita líquida R$254M, EBITDA Aj R$50M (lower soy prices vs prior year)"
+      "bookValuePerShare": 16.82,
+      "navPerShare": 16.82,
+      "notes": "3T FY23/24: Receita líquida R$254M, EBITDA Aj R$50M (lower soy prices vs prior year). PL/share interpolated FY22/23→FY23/24."
     },
     {
       "endDate": "2024-06-30",
@@ -737,7 +767,9 @@
       "ebitdaMM": 45,
       "netIncomeMM": 15,
       "totalAcresK": 322,
-      "notes": "4T FY23/24: Receita líquida R$227M, EBITDA Aj R$45M"
+      "bookValuePerShare": 17.03,
+      "navPerShare": 17.03,
+      "notes": "4T FY23/24: Receita líquida R$227M, EBITDA Aj R$45M. PL/share = FY23/24 (R$17.03)."
     },
     {
       "endDate": "2024-06-30",
@@ -795,7 +827,9 @@
       "ebitdaMM": 32,
       "netIncomeMM": 10,
       "totalAcresK": 326,
-      "notes": "1T FY24/25 (Jul-Sep 2024): Receita líquida R$164M, EBITDA Aj R$32M"
+      "bookValuePerShare": 17.16,
+      "navPerShare": 17.16,
+      "notes": "1T FY24/25 (Jul-Sep 2024): Receita líquida R$164M, EBITDA Aj R$32M. PL/share interpolated FY23/24 (R$17.03) → FY24/25 (R$17.54)."
     },
     {
       "endDate": "2024-12-31",
@@ -818,7 +852,9 @@
       "ebitdaMM": 105,
       "netIncomeMM": 60,
       "totalAcresK": 326,
-      "notes": "2T FY24/25 (Oct-Dec 2024): Receita líquida R$290M, EBITDA Aj R$105M (large farm-disposition quarter)"
+      "bookValuePerShare": 17.29,
+      "navPerShare": 17.29,
+      "notes": "2T FY24/25 (Oct-Dec 2024): Receita líquida R$290M, EBITDA Aj R$105M (large farm-disposition quarter). PL/share interpolated FY23/24→FY24/25."
     },
     {
       "endDate": "2025-03-31",
@@ -841,7 +877,9 @@
       "ebitdaMM": 55,
       "netIncomeMM": 22,
       "totalAcresK": 326,
-      "notes": "3T FY24/25 (Jan-Mar 2025): Receita líquida R$264M, EBITDA Aj R$55M (soy billing peak)"
+      "bookValuePerShare": 17.41,
+      "navPerShare": 17.41,
+      "notes": "3T FY24/25 (Jan-Mar 2025): Receita líquida R$264M, EBITDA Aj R$55M (soy billing peak). PL/share interpolated FY23/24→FY24/25."
     },
     {
       "endDate": "2025-06-30",
@@ -864,7 +902,9 @@
       "ebitdaMM": 25,
       "netIncomeMM": 8,
       "totalAcresK": 329,
-      "notes": "4T FY24/25 (Apr-Jun 2025): Receita líquida R$159M, EBITDA Aj R$25M (low Imobiliário quarter)"
+      "bookValuePerShare": 17.54,
+      "navPerShare": 17.54,
+      "notes": "4T FY24/25 (Apr-Jun 2025): Receita líquida R$159M, EBITDA Aj R$25M (low Imobiliário quarter). PL/share = FY24/25 (R$17.54)."
     },
     {
       "endDate": "2025-06-30",
@@ -923,7 +963,9 @@
       "ebitdaMM": 38,
       "netIncomeMM": 14,
       "totalAcresK": 329,
-      "notes": "1T FY25/26 (Jul-Sep 2025): Receita líquida R$178M, EBITDA Aj R$38M. First quarter of new fiscal year"
+      "bookValuePerShare": 17.65,
+      "navPerShare": 17.65,
+      "notes": "1T FY25/26 (Jul-Sep 2025): Receita líquida R$178M, EBITDA Aj R$38M. First quarter of new fiscal year. PL/share estimated extrapolating modest equity growth from FY24/25 base."
     }
   ]
 }

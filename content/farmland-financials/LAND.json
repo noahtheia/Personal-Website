@@ -481,7 +481,8 @@
       "noiMM": 20.4,
       "netIncomeMM": -2.4,
       "totalAcresK": 116.0,
-      "notes": "Q2 2023: revenue $23.4M, NOI $20.4M."
+      "bookValuePerShare": 21.49,
+      "notes": "Q2 2023: revenue $23.4M, NOI $20.4M. BVPS interpolated FY22→FY23."
     },
     {
       "endDate": "2023-09-30",
@@ -497,7 +498,8 @@
       "noiMM": 20.6,
       "netIncomeMM": -2.0,
       "totalAcresK": 116.0,
-      "notes": "Q3 2023: revenue $23.7M, NOI $20.6M."
+      "bookValuePerShare": 21.51,
+      "notes": "Q3 2023: revenue $23.7M, NOI $20.6M. BVPS interpolated FY22→FY23."
     },
     {
       "endDate": "2023-12-31",
@@ -513,7 +515,8 @@
       "noiMM": 20.5,
       "netIncomeMM": -3.0,
       "totalAcresK": 115.7,
-      "notes": "Q4 2023: revenue $23.5M, NOI $20.5M."
+      "bookValuePerShare": 21.52,
+      "notes": "Q4 2023: revenue $23.5M, NOI $20.5M. BVPS = FY23 ($21.52)."
     },
     {
       "endDate": "2023-12-31",
@@ -555,7 +558,8 @@
       "noiMM": 18.5,
       "netIncomeMM": -2.6,
       "totalAcresK": 112.0,
-      "notes": "Q1 2024: revenue $21.4M, NOI $18.5M. Disposition program underway."
+      "bookValuePerShare": 21.42,
+      "notes": "Q1 2024: revenue $21.4M, NOI $18.5M. Disposition program underway. BVPS interpolated FY23 ($21.52) → FY24 ($21.12)."
     },
     {
       "endDate": "2024-06-30",
@@ -571,7 +575,8 @@
       "noiMM": 18.2,
       "netIncomeMM": -2.0,
       "totalAcresK": 108.0,
-      "notes": "Q2 2024: revenue $21.0M, NOI $18.2M. Several farm dispositions completed."
+      "bookValuePerShare": 21.32,
+      "notes": "Q2 2024: revenue $21.0M, NOI $18.2M. Several farm dispositions completed. BVPS interpolated FY23→FY24."
     },
     {
       "endDate": "2024-09-30",
@@ -587,7 +592,8 @@
       "noiMM": 16.5,
       "netIncomeMM": -3.5,
       "totalAcresK": 103.0,
-      "notes": "Q3 2024: revenue $19.0M, NOI $16.5M. Acreage reduced via dispositions; some leases on extension/repricing."
+      "bookValuePerShare": 21.22,
+      "notes": "Q3 2024: revenue $19.0M, NOI $16.5M. Acreage reduced via dispositions; some leases on extension/repricing. BVPS interpolated FY23→FY24."
     },
     {
       "endDate": "2024-12-31",
@@ -603,7 +609,8 @@
       "noiMM": 15.4,
       "netIncomeMM": -3.6,
       "totalAcresK": 101.5,
-      "notes": "Q4 2024: revenue $17.7M, NOI $15.4M."
+      "bookValuePerShare": 21.12,
+      "notes": "Q4 2024: revenue $17.7M, NOI $15.4M. BVPS = FY24 ($21.12)."
     },
     {
       "endDate": "2024-12-31",
@@ -645,7 +652,8 @@
       "noiMM": 14.8,
       "netIncomeMM": -3.0,
       "totalAcresK": 100.5,
-      "notes": "Q1 2025: revenue $17.0M, NOI $14.8M."
+      "bookValuePerShare": 20.50,
+      "notes": "Q1 2025: revenue $17.0M, NOI $14.8M. BVPS estimated at ~$20.50 reflecting modest dilution from share issuance toward 41.4M ending count."
     },
     {
       "endDate": "2025-06-30",
@@ -661,7 +669,8 @@
       "noiMM": 16.9,
       "netIncomeMM": -1.5,
       "totalAcresK": 100.0,
-      "notes": "Q2 2025: revenue $19.5M, NOI $16.9M (lease repricings on certain pistachio / almond properties)."
+      "bookValuePerShare": 19.50,
+      "notes": "Q2 2025: revenue $19.5M, NOI $16.9M (lease repricings on certain pistachio / almond properties). BVPS estimated reflecting continuing share dilution."
     },
     {
       "endDate": "2025-09-30",
@@ -682,7 +691,8 @@
       "totalAcresK": 100.0,
       "sharesOutMM": 41.44,
       "navPerShare": 15.97,
-      "notes": "Q3 2025: revenue $23.5M (annualizing toward $88M), NOI $20.4M. Net debt $513.4M. Latest seed-data anchor period."
+      "bookValuePerShare": 18.34,
+      "notes": "Q3 2025: revenue $23.5M (annualizing toward $88M), NOI $20.4M. Net debt $513.4M. Latest seed-data anchor period. BVPS ≈ $760M est equity / 41.44M shares = $18.34."
     }
   ]
 }

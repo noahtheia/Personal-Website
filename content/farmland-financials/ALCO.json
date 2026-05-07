@@ -419,7 +419,8 @@
       "ebitdaMM": 7,
       "netIncomeMM": 2.5,
       "totalAcresK": 119,
-      "notes": "Q1 FY21 (calendar Q4 2020): revenue $28.0M."
+      "bookValuePerShare": 27.86,
+      "notes": "Q1 FY21 (calendar Q4 2020): revenue $28.0M. BVPS interpolated FY20 ($26.00) → FY21 ($33.42)."
     },
     {
       "endDate": "2021-03-31",
@@ -434,7 +435,8 @@
       "ebitdaMM": 13,
       "netIncomeMM": 5,
       "totalAcresK": 119,
-      "notes": "Q2 FY21: revenue $51.0M (peak harvest quarter)."
+      "bookValuePerShare": 29.71,
+      "notes": "Q2 FY21: revenue $51.0M (peak harvest quarter). BVPS interpolated FY20→FY21."
     },
     {
       "endDate": "2021-06-30",
@@ -449,7 +451,8 @@
       "ebitdaMM": 4,
       "netIncomeMM": 0,
       "totalAcresK": 90,
-      "notes": "Q3 FY21: revenue $18.0M. Aug 2021: completed sale of ~17,229 ranch-acre Alico Ranch parcel to State of FL for $79.6M, plus other ranch sales — material acreage reduction."
+      "bookValuePerShare": 31.57,
+      "notes": "Q3 FY21: revenue $18.0M. Aug 2021: completed sale of ~17,229 ranch-acre Alico Ranch parcel to State of FL for $79.6M, plus other ranch sales — material acreage reduction. BVPS interpolated FY20→FY21."
     },
     {
       "endDate": "2021-09-30",
@@ -464,7 +467,8 @@
       "ebitdaMM": 1,
       "netIncomeMM": 50,
       "totalAcresK": 84,
-      "notes": "Q4 FY21: revenue $6.0M (off-season). Net income $50M+ boosted by $76M+ gain on Alico Ranch sale."
+      "bookValuePerShare": 33.42,
+      "notes": "Q4 FY21: revenue $6.0M (off-season). Net income $50M+ boosted by $76M+ gain on Alico Ranch sale. BVPS = FY21 ($33.42)."
     },
     {
       "endDate": "2021-09-30",
@@ -507,7 +511,8 @@
       "ebitdaMM": 5,
       "netIncomeMM": 0.5,
       "totalAcresK": 84,
-      "notes": "Q1 FY22: revenue $33.5M."
+      "bookValuePerShare": 33.04,
+      "notes": "Q1 FY22: revenue $33.5M. BVPS interpolated FY21 ($33.42) → FY22 ($31.91)."
     },
     {
       "endDate": "2022-03-31",
@@ -522,7 +527,8 @@
       "ebitdaMM": 10.5,
       "netIncomeMM": 4.5,
       "totalAcresK": 84,
-      "notes": "Q2 FY22: revenue $50.0M (peak harvest quarter)."
+      "bookValuePerShare": 32.66,
+      "notes": "Q2 FY22: revenue $50.0M (peak harvest quarter). BVPS interpolated FY21→FY22."
     },
     {
       "endDate": "2022-06-30",
@@ -537,7 +543,8 @@
       "ebitdaMM": 3.5,
       "netIncomeMM": 0,
       "totalAcresK": 84,
-      "notes": "Q3 FY22: revenue $18.0M."
+      "bookValuePerShare": 32.29,
+      "notes": "Q3 FY22: revenue $18.0M. BVPS interpolated FY21→FY22."
     },
     {
       "endDate": "2022-09-30",
@@ -552,7 +559,8 @@
       "ebitdaMM": -7,
       "netIncomeMM": -7,
       "totalAcresK": 84,
-      "notes": "Q4 FY22: revenue $13.0M. Hurricane Ian (Sept 28, 2022) caused significant grove damage; impairment charges began."
+      "bookValuePerShare": 31.91,
+      "notes": "Q4 FY22: revenue $13.0M. Hurricane Ian (Sept 28, 2022) caused significant grove damage; impairment charges began. BVPS = FY22 ($31.91)."
     },
     {
       "endDate": "2022-09-30",
@@ -595,7 +603,8 @@
       "ebitdaMM": 1,
       "netIncomeMM": -2.5,
       "totalAcresK": 83,
-      "notes": "Q1 FY23: revenue $21.0M (Hurricane Ian dropped harvest yields ~50%)."
+      "bookValuePerShare": 31.88,
+      "notes": "Q1 FY23: revenue $21.0M (Hurricane Ian dropped harvest yields ~50%). BVPS interpolated FY22 ($31.91) → FY23 ($31.79)."
     },
     {
       "endDate": "2023-03-31",
@@ -610,7 +619,8 @@
       "ebitdaMM": 7,
       "netIncomeMM": 1.5,
       "totalAcresK": 83,
-      "notes": "Q2 FY23: revenue $35.0M; insurance proceeds beginning to flow."
+      "bookValuePerShare": 31.85,
+      "notes": "Q2 FY23: revenue $35.0M; insurance proceeds beginning to flow. BVPS interpolated FY22→FY23."
     },
     {
       "endDate": "2023-06-30",
@@ -625,7 +635,8 @@
       "ebitdaMM": 5,
       "netIncomeMM": 1.5,
       "totalAcresK": 83,
-      "notes": "Q3 FY23: revenue $17.0M."
+      "bookValuePerShare": 31.82,
+      "notes": "Q3 FY23: revenue $17.0M. BVPS interpolated FY22→FY23."
     },
     {
       "endDate": "2023-09-30",
@@ -640,7 +651,8 @@
       "ebitdaMM": 2,
       "netIncomeMM": 1.5,
       "totalAcresK": 83,
-      "notes": "Q4 FY23: revenue $12.0M."
+      "bookValuePerShare": 31.79,
+      "notes": "Q4 FY23: revenue $12.0M. BVPS = FY23 ($31.79)."
     },
     {
       "endDate": "2023-09-30",
@@ -683,7 +695,8 @@
       "ebitdaMM": 0,
       "netIncomeMM": -3,
       "totalAcresK": 83,
-      "notes": "Q1 FY24: revenue $12.0M."
+      "bookValuePerShare": 29.69,
+      "notes": "Q1 FY24: revenue $12.0M. BVPS interpolated FY23 ($31.79) → FY24 ($23.39)."
     },
     {
       "endDate": "2024-03-31",
@@ -698,7 +711,8 @@
       "ebitdaMM": 5,
       "netIncomeMM": -1,
       "totalAcresK": 83,
-      "notes": "Q2 FY24: revenue $27.0M."
+      "bookValuePerShare": 27.59,
+      "notes": "Q2 FY24: revenue $27.0M. BVPS interpolated FY23→FY24."
     },
     {
       "endDate": "2024-06-30",
@@ -713,7 +727,8 @@
       "ebitdaMM": 1.5,
       "netIncomeMM": -3,
       "totalAcresK": 83,
-      "notes": "Q3 FY24: revenue $13.5M."
+      "bookValuePerShare": 25.49,
+      "notes": "Q3 FY24: revenue $13.5M. BVPS interpolated FY23→FY24."
     },
     {
       "endDate": "2024-09-30",
@@ -728,7 +743,8 @@
       "ebitdaMM": -45,
       "netIncomeMM": -55,
       "totalAcresK": 53,
-      "notes": "Q4 FY24: revenue $9.0M. Large impairment charges as management prepares strategic transformation announcement; began divesting non-core ranchland."
+      "bookValuePerShare": 23.39,
+      "notes": "Q4 FY24: revenue $9.0M. Large impairment charges as management prepares strategic transformation announcement; began divesting non-core ranchland. BVPS = FY24 ($23.39)."
     },
     {
       "endDate": "2024-09-30",
@@ -771,7 +787,8 @@
       "ebitdaMM": -2,
       "netIncomeMM": -7,
       "totalAcresK": 51,
-      "notes": "Q1 FY25 (calendar Q4 2024): revenue $16.0M. January 2025 strategic transformation announced — citrus wind-down post 2024-25 harvest, pivot to land development."
+      "bookValuePerShare": 23.36,
+      "notes": "Q1 FY25 (calendar Q4 2024): revenue $16.0M. January 2025 strategic transformation announced — citrus wind-down post 2024-25 harvest, pivot to land development. BVPS interpolated FY24 ($23.39) → FY25 ($23.27)."
     },
     {
       "endDate": "2025-03-31",
@@ -786,7 +803,8 @@
       "ebitdaMM": 4,
       "netIncomeMM": -2,
       "totalAcresK": 51,
-      "notes": "Q2 FY25: revenue $19.0M (final material citrus harvest quarter)."
+      "bookValuePerShare": 23.33,
+      "notes": "Q2 FY25: revenue $19.0M (final material citrus harvest quarter). BVPS interpolated FY24→FY25."
     },
     {
       "endDate": "2025-06-30",
@@ -795,7 +813,8 @@
       "ebitdaMM": 12,
       "netIncomeMM": 5,
       "totalAcresK": 50,
-      "notes": "Q3 FY25: revenue $6.5M. Citrus harvest concluding; gains on initial ranchland sales."
+      "bookValuePerShare": 23.30,
+      "notes": "Q3 FY25: revenue $6.5M. Citrus harvest concluding; gains on initial ranchland sales. BVPS interpolated FY24→FY25."
     },
     {
       "endDate": "2025-09-30",
@@ -810,7 +829,8 @@
       "sharesOutMM": 7.65,
       "navPerShare": 13.47,
       "propertyBookMM": 142.07,
-      "notes": "Q4 FY25: revenue $2.5M (post citrus wind-down). Cash built to $38M from disposition proceeds. Net debt $47.4M. Latest seed-data anchor period."
+      "bookValuePerShare": 23.27,
+      "notes": "Q4 FY25: revenue $2.5M (post citrus wind-down). Cash built to $38M from disposition proceeds. Net debt $47.4M. Latest seed-data anchor period. BVPS = FY25 ($23.27)."
     },
     {
       "endDate": "2025-09-30",

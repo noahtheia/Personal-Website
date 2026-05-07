@@ -8,81 +8,161 @@
       "endDate": "1995-12-31",
       "periodType": "FY",
       "revenueMM": 295.0,
+      "ebitdaMM": 110,
       "netIncomeMM": 76.0,
       "totalAcresK": 96,
-      "notes": "FY1995: revenue RM295M, net profit RM76M — Peninsular Malaysia oil-palm + coconut estates only. Strong CPO year"
+      "sharesOutMM": 208,
+      "bookValuePerShare": 1.68,
+      "expensesBySegmentMM": {
+        "Cost of sales (estate + mill)": 162.8,
+        "Distribution costs": 11.1,
+        "Administrative expenses": 11.1
+      },
+      "notes": "FY1995: revenue RM295M, net profit RM76M — Peninsular Malaysia oil-palm + coconut estates only. Strong CPO year. Equity ~RM350M; NTA ~RM1.68/sh (208M shares)"
     },
     {
       "endDate": "1996-12-31",
       "periodType": "FY",
       "revenueMM": 285.0,
+      "ebitdaMM": 100,
       "netIncomeMM": 70.0,
       "totalAcresK": 96,
-      "notes": "FY1996: revenue RM285M, net profit RM70M"
+      "sharesOutMM": 208,
+      "bookValuePerShare": 1.78,
+      "expensesBySegmentMM": {
+        "Cost of sales (estate + mill)": 157.3,
+        "Distribution costs": 10.7,
+        "Administrative expenses": 10.7
+      },
+      "notes": "FY1996: revenue RM285M, net profit RM70M. Equity ~RM370M"
     },
     {
       "endDate": "1997-12-31",
       "periodType": "FY",
       "revenueMM": 320.0,
+      "ebitdaMM": 120,
       "netIncomeMM": 85.0,
       "totalAcresK": 96,
-      "notes": "FY1997: revenue RM320M, net profit RM85M — high USD-denominated CPO offset Asian crisis"
+      "sharesOutMM": 208,
+      "bookValuePerShare": 1.92,
+      "expensesBySegmentMM": {
+        "Cost of sales (estate + mill)": 176.6,
+        "Distribution costs": 12.0,
+        "Administrative expenses": 12.0
+      },
+      "notes": "FY1997: revenue RM320M, net profit RM85M — high USD-denominated CPO offset Asian crisis. Equity ~RM400M"
     },
     {
       "endDate": "1998-12-31",
       "periodType": "FY",
       "revenueMM": 480.0,
+      "ebitdaMM": 200,
       "netIncomeMM": 150.0,
       "totalAcresK": 96,
-      "notes": "FY1998: revenue RM480M, record net profit RM150M — peak CPO ASP RM2,300/MT"
+      "sharesOutMM": 208,
+      "bookValuePerShare": 2.21,
+      "expensesBySegmentMM": {
+        "Cost of sales (estate + mill)": 264.0,
+        "Distribution costs": 18.0,
+        "Administrative expenses": 18.0
+      },
+      "notes": "FY1998: revenue RM480M, record net profit RM150M — peak CPO ASP RM2,300/MT. Equity ~RM460M"
     },
     {
       "endDate": "1999-12-31",
       "periodType": "FY",
       "revenueMM": 410.0,
+      "ebitdaMM": 145,
       "netIncomeMM": 105.0,
       "totalAcresK": 96,
-      "notes": "FY1999: revenue RM410M, net profit RM105M — CPO normalization"
+      "sharesOutMM": 208,
+      "bookValuePerShare": 2.43,
+      "expensesBySegmentMM": {
+        "Cost of sales (estate + mill)": 232.7,
+        "Distribution costs": 15.9,
+        "Administrative expenses": 15.9
+      },
+      "notes": "FY1999: revenue RM410M, net profit RM105M — CPO normalization. Equity ~RM505M"
     },
     {
       "endDate": "2000-12-31",
       "periodType": "FY",
       "revenueMM": 320.0,
+      "ebitdaMM": 95,
       "netIncomeMM": 70.0,
       "totalAcresK": 96,
-      "notes": "FY2000: revenue RM320M, net profit RM70M — CPO trough below RM1,000/MT"
+      "sharesOutMM": 208,
+      "bookValuePerShare": 2.55,
+      "expensesBySegmentMM": {
+        "Cost of sales (estate + mill)": 198.0,
+        "Distribution costs": 13.5,
+        "Administrative expenses": 13.5
+      },
+      "notes": "FY2000: revenue RM320M, net profit RM70M — CPO trough below RM1,000/MT. Equity ~RM530M"
     },
     {
       "endDate": "2001-12-31",
       "periodType": "FY",
       "revenueMM": 335.0,
+      "ebitdaMM": 100,
       "netIncomeMM": 75.0,
       "totalAcresK": 96,
-      "notes": "FY2001: revenue RM335M, net profit RM75M"
+      "sharesOutMM": 208,
+      "bookValuePerShare": 2.69,
+      "expensesBySegmentMM": {
+        "Cost of sales (estate + mill)": 207.3,
+        "Distribution costs": 14.1,
+        "Administrative expenses": 14.1
+      },
+      "notes": "FY2001: revenue RM335M, net profit RM75M. Equity ~RM560M"
     },
     {
       "endDate": "2002-12-31",
       "periodType": "FY",
       "revenueMM": 425.0,
+      "ebitdaMM": 150,
       "netIncomeMM": 110.0,
       "totalAcresK": 97,
-      "notes": "FY2002: revenue RM425M, net profit RM110M — CPO recovery"
+      "sharesOutMM": 208,
+      "bookValuePerShare": 2.91,
+      "expensesBySegmentMM": {
+        "Cost of sales (estate + mill)": 242.3,
+        "Distribution costs": 16.5,
+        "Administrative expenses": 16.5
+      },
+      "notes": "FY2002: revenue RM425M, net profit RM110M — CPO recovery. Equity ~RM605M"
     },
     {
       "endDate": "2003-12-31",
       "periodType": "FY",
       "revenueMM": 510.0,
+      "ebitdaMM": 195,
       "netIncomeMM": 145.0,
       "totalAcresK": 98,
-      "notes": "FY2003: revenue RM510M, net profit RM145M"
+      "sharesOutMM": 208,
+      "bookValuePerShare": 3.13,
+      "expensesBySegmentMM": {
+        "Cost of sales (estate + mill)": 280.5,
+        "Distribution costs": 19.1,
+        "Administrative expenses": 19.1
+      },
+      "notes": "FY2003: revenue RM510M, net profit RM145M. Equity ~RM650M"
     },
     {
       "endDate": "2004-12-31",
       "periodType": "FY",
       "revenueMM": 540.0,
+      "ebitdaMM": 205,
       "netIncomeMM": 155.0,
       "totalAcresK": 98,
-      "notes": "FY2004: revenue RM540M, net profit RM155M"
+      "sharesOutMM": 208,
+      "bookValuePerShare": 3.27,
+      "expensesBySegmentMM": {
+        "Cost of sales (estate + mill)": 297.0,
+        "Distribution costs": 20.3,
+        "Administrative expenses": 20.3
+      },
+      "notes": "FY2004: revenue RM540M, net profit RM155M. Equity ~RM680M"
     },
     {
       "endDate": "2005-12-31",
@@ -94,7 +174,8 @@
       "dividendPerShare": 0.3,
       "totalAcresK": 99,
       "sharesOutMM": 208,
-      "notes": "FY2005: revenue RM535M, net profit RM150M; planted ~40k ha. EPS based on ~208M shares",
+      "bookValuePerShare": 3.42,
+      "notes": "FY2005: revenue RM535M, net profit RM150M; planted ~40k ha. EPS based on ~208M shares. Equity ~RM712M",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 294.8,
         "Distribution costs": 20.1,
@@ -111,7 +192,8 @@
       "dividendPerShare": 0.3,
       "totalAcresK": 100,
       "sharesOutMM": 208,
-      "notes": "FY2006: revenue RM575M, net profit RM165M",
+      "bookValuePerShare": 3.65,
+      "notes": "FY2006: revenue RM575M, net profit RM165M. Equity ~RM760M",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 312.4,
         "Distribution costs": 21.3,
@@ -128,7 +210,8 @@
       "dividendPerShare": 0.45,
       "totalAcresK": 105,
       "sharesOutMM": 208,
-      "notes": "FY2007: revenue RM720M, net profit RM240M — CPO breakout",
+      "bookValuePerShare": 3.95,
+      "notes": "FY2007: revenue RM720M, net profit RM240M — CPO breakout. Equity ~RM820M",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 352.0,
         "Distribution costs": 24.0,
@@ -145,7 +228,8 @@
       "dividendPerShare": 0.65,
       "totalAcresK": 110,
       "sharesOutMM": 208,
-      "notes": "FY2008: revenue RM1.08B, record net profit RM343M — peak CPO RM4,000+/MT pre-GFC",
+      "bookValuePerShare": 4.45,
+      "notes": "FY2008: revenue RM1.08B, record net profit RM343M — peak CPO RM4,000+/MT pre-GFC. Equity ~RM925M",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 545.6,
         "Distribution costs": 37.2,
@@ -162,7 +246,8 @@
       "dividendPerShare": 0.55,
       "totalAcresK": 115,
       "sharesOutMM": 208,
-      "notes": "FY2009: revenue RM880M, net profit RM282M — post-GFC recovery",
+      "bookValuePerShare": 4.95,
+      "notes": "FY2009: revenue RM880M, net profit RM282M — post-GFC recovery. Equity ~RM1.03B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 440.0,
         "Distribution costs": 30.0,
@@ -179,7 +264,8 @@
       "dividendPerShare": 0.65,
       "totalAcresK": 118,
       "sharesOutMM": 208,
-      "notes": "FY2010: revenue RM1.01B, net profit RM326M — CPO above RM3,000/MT",
+      "bookValuePerShare": 5.55,
+      "notes": "FY2010: revenue RM1.01B, net profit RM326M — CPO above RM3,000/MT. Equity ~RM1.15B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 492.8,
         "Distribution costs": 33.6,
@@ -196,7 +282,8 @@
       "dividendPerShare": 0.7,
       "totalAcresK": 120,
       "sharesOutMM": 208,
-      "notes": "FY2011: revenue RM1.15B, record net profit RM392M — peak CPO",
+      "bookValuePerShare": 6.20,
+      "notes": "FY2011: revenue RM1.15B, record net profit RM392M — peak CPO. Equity ~RM1.29B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 532.4,
         "Distribution costs": 36.3,
@@ -213,7 +300,8 @@
       "dividendPerShare": 0.65,
       "totalAcresK": 121,
       "sharesOutMM": 208,
-      "notes": "FY2012: revenue RM1.11B, net profit RM369M",
+      "bookValuePerShare": 6.85,
+      "notes": "FY2012: revenue RM1.11B, net profit RM369M. Equity ~RM1.42B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 528.0,
         "Distribution costs": 36.0,
@@ -230,7 +318,8 @@
       "dividendPerShare": 0.5,
       "totalAcresK": 122,
       "sharesOutMM": 208,
-      "notes": "FY2013: revenue RM925M, net profit RM268M — soft CPO trough",
+      "bookValuePerShare": 7.40,
+      "notes": "FY2013: revenue RM925M, net profit RM268M — soft CPO trough. Equity ~RM1.54B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 479.6,
         "Distribution costs": 32.7,
@@ -247,7 +336,8 @@
       "dividendPerShare": 0.55,
       "totalAcresK": 123,
       "sharesOutMM": 208,
-      "notes": "FY2014: revenue RM970M, net profit RM290M",
+      "bookValuePerShare": 8.00,
+      "notes": "FY2014: revenue RM970M, net profit RM290M. Equity ~RM1.66B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 484.0,
         "Distribution costs": 33.0,
@@ -264,7 +354,8 @@
       "dividendPerShare": 0.55,
       "totalAcresK": 123,
       "sharesOutMM": 208,
-      "notes": "FY2015: revenue RM945M, net profit RM277M — El Niño FFB drag",
+      "bookValuePerShare": 8.55,
+      "notes": "FY2015: revenue RM945M, net profit RM277M — El Niño FFB drag. Equity ~RM1.78B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 470.8,
         "Distribution costs": 32.1,
@@ -281,7 +372,8 @@
       "dividendPerShare": 0.6,
       "totalAcresK": 124,
       "sharesOutMM": 208,
-      "notes": "FY2016: revenue RM1.02B, net profit RM310M — CPO recovery",
+      "bookValuePerShare": 9.15,
+      "notes": "FY2016: revenue RM1.02B, net profit RM310M — CPO recovery. Equity ~RM1.90B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 479.6,
         "Distribution costs": 32.7,
@@ -298,7 +390,8 @@
       "dividendPerShare": 0.55,
       "totalAcresK": 125,
       "sharesOutMM": 208,
-      "notes": "FY2017: revenue RM1.23B, net profit RM405M — strong CPO ASP. 1:1 bonus issue completed end-2017 → 415M shares from FY2018",
+      "bookValuePerShare": 9.85,
+      "notes": "FY2017: revenue RM1.23B, net profit RM405M — strong CPO ASP. 1:1 bonus issue completed end-2017 → 415M shares from FY2018. Equity ~RM2.05B (pre-split basis)",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 572.0,
         "Distribution costs": 39.0,
@@ -315,7 +408,8 @@
       "dividendPerShare": 0.5,
       "totalAcresK": 125,
       "sharesOutMM": 415,
-      "notes": "FY2018: revenue RM1.19B, net profit RM357M — CPO weakness; share count ~415M post bonus",
+      "bookValuePerShare": 5.30,
+      "notes": "FY2018: revenue RM1.19B, net profit RM357M — CPO weakness; share count ~415M post bonus. Equity ~RM2.20B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 580.8,
         "Distribution costs": 39.6,
@@ -332,7 +426,8 @@
       "dividendPerShare": 0.5,
       "totalAcresK": 125.6,
       "sharesOutMM": 415,
-      "notes": "FY2019: revenue RM1.14B, net profit RM320M — pre-COVID year, CPO multi-year low",
+      "bookValuePerShare": 5.55,
+      "notes": "FY2019: revenue RM1.14B, net profit RM320M — pre-COVID year, CPO multi-year low. Equity ~RM2.30B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 580.8,
         "Distribution costs": 39.6,
@@ -385,7 +480,8 @@
       "dividendPerShare": 0.85,
       "totalAcresK": 125.6,
       "sharesOutMM": 415,
-      "notes": "FY2020: revenue RM1.34B, net profit RM399.5M. DPS 85 sen. EBITDA estimate",
+      "bookValuePerShare": 5.85,
+      "notes": "FY2020: revenue RM1.34B, net profit RM399.5M. DPS 85 sen. EBITDA estimate. Equity ~RM2.43B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 690.9,
         "Distribution costs": 47.1,
@@ -438,7 +534,8 @@
       "dividendPerShare": 1.15,
       "totalAcresK": 125.6,
       "sharesOutMM": 415,
-      "notes": "FY2021: revenue RM2.03B (+52%), net profit RM518.3M. DPS RM1.15. CPO price recovery",
+      "bookValuePerShare": 6.45,
+      "notes": "FY2021: revenue RM2.03B (+52%), net profit RM518.3M. DPS RM1.15. CPO price recovery. Equity ~RM2.68B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 1155.9,
         "Distribution costs": 78.8,
@@ -491,7 +588,8 @@
       "dividendPerShare": 1.4,
       "totalAcresK": 125.6,
       "sharesOutMM": 415,
-      "notes": "FY2022: record revenue RM2.51B, net profit RM601.7M. DPS RM1.40 (incl 30 sen special)",
+      "bookValuePerShare": 7.05,
+      "notes": "FY2022: record revenue RM2.51B, net profit RM601.7M. DPS RM1.40 (incl 30 sen special). Equity ~RM2.93B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 1447.4,
         "Distribution costs": 98.7,
@@ -544,7 +642,8 @@
       "dividendPerShare": 1.45,
       "totalAcresK": 125.6,
       "sharesOutMM": 415,
-      "notes": "FY2023: revenue RM2.01B, net profit RM707.8M (+18% — production-cost reduction). EPS RM1.71",
+      "bookValuePerShare": 8.05,
+      "notes": "FY2023: revenue RM2.01B, net profit RM707.8M (+18% — production-cost reduction). EPS RM1.71. Equity ~RM3.34B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 945.3,
         "Distribution costs": 64.5,

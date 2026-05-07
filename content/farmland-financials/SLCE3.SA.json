@@ -267,7 +267,9 @@
       "ebitdaMM": 165,
       "netIncomeMM": 28,
       "totalAcresK": 466,
-      "notes": "1T20: Receita líquida R$510M, EBITDA Ajustado R$165M. COVID-19 impact + BRL devaluation tail-end of 2019/20 harvest"
+      "bookValuePerShare": 10.60,
+      "navPerShare": 10.60,
+      "notes": "1T20: Receita líquida R$510M, EBITDA Ajustado R$165M. COVID-19 impact + BRL devaluation tail-end of 2019/20 harvest. PL/share interpolated FY19 (R$10.13) → FY20 (R$12.02)."
     },
     {
       "endDate": "2020-06-30",
@@ -289,7 +291,9 @@
       "ebitdaMM": 280,
       "netIncomeMM": 110,
       "totalAcresK": 466,
-      "notes": "2T20: Receita líquida R$820M (+50% YoY), EBITDA Aj R$280M. Soybean billing peak quarter (BRL/USD weakness boosted prices)"
+      "bookValuePerShare": 11.08,
+      "navPerShare": 11.08,
+      "notes": "2T20: Receita líquida R$820M (+50% YoY), EBITDA Aj R$280M. Soybean billing peak quarter (BRL/USD weakness boosted prices). PL/share interpolated FY19→FY20."
     },
     {
       "endDate": "2020-09-30",
@@ -311,7 +315,9 @@
       "ebitdaMM": 230,
       "netIncomeMM": 91,
       "totalAcresK": 466,
-      "notes": "3T20: Receita líquida R$690M, EBITDA Aj R$230M"
+      "bookValuePerShare": 11.55,
+      "navPerShare": 11.55,
+      "notes": "3T20: Receita líquida R$690M, EBITDA Aj R$230M. PL/share interpolated FY19→FY20."
     },
     {
       "endDate": "2020-12-31",
@@ -333,7 +339,9 @@
       "ebitdaMM": 195,
       "netIncomeMM": 81,
       "totalAcresK": 466,
-      "notes": "4T20: Receita líquida R$615M, EBITDA Aj R$195M"
+      "bookValuePerShare": 12.02,
+      "navPerShare": 12.02,
+      "notes": "4T20: Receita líquida R$615M, EBITDA Aj R$195M. PL/share = FY20 (R$12.02)."
     },
     {
       "endDate": "2020-12-31",
@@ -386,7 +394,9 @@
       "ebitdaMM": 200,
       "netIncomeMM": 65,
       "totalAcresK": 470,
-      "notes": "1T21: Receita líquida R$555M, EBITDA Aj R$200M"
+      "bookValuePerShare": 12.79,
+      "navPerShare": 12.79,
+      "notes": "1T21: Receita líquida R$555M, EBITDA Aj R$200M. PL/share interpolated FY20 (R$12.02) → FY21 (R$15.09)."
     },
     {
       "endDate": "2021-06-30",
@@ -408,7 +418,9 @@
       "ebitdaMM": 360,
       "netIncomeMM": 145,
       "totalAcresK": 470,
-      "notes": "2T21: Receita líquida R$1.015B, EBITDA Aj R$360M (record soybean billing quarter)"
+      "bookValuePerShare": 13.56,
+      "navPerShare": 13.56,
+      "notes": "2T21: Receita líquida R$1.015B, EBITDA Aj R$360M (record soybean billing quarter). PL/share interpolated FY20→FY21."
     },
     {
       "endDate": "2021-09-30",
@@ -430,7 +442,9 @@
       "ebitdaMM": 295,
       "netIncomeMM": 110,
       "totalAcresK": 470,
-      "notes": "3T21: Receita líquida R$865M, EBITDA Aj R$295M. Cotton volume ramp"
+      "bookValuePerShare": 14.33,
+      "navPerShare": 14.33,
+      "notes": "3T21: Receita líquida R$865M, EBITDA Aj R$295M. Cotton volume ramp. PL/share interpolated FY20→FY21."
     },
     {
       "endDate": "2021-12-31",
@@ -452,7 +466,9 @@
       "ebitdaMM": 410,
       "netIncomeMM": 165,
       "totalAcresK": 470,
-      "notes": "4T21: Receita líquida R$1.26B, EBITDA Aj R$410M (cotton price >$1.20/lb)"
+      "bookValuePerShare": 15.09,
+      "navPerShare": 15.09,
+      "notes": "4T21: Receita líquida R$1.26B, EBITDA Aj R$410M (cotton price >$1.20/lb). PL/share = FY21 (R$15.09)."
     },
     {
       "endDate": "2021-12-31",
@@ -506,7 +522,9 @@
       "ebitdaMM": 305,
       "netIncomeMM": 95,
       "totalAcresK": 472,
-      "notes": "1T22: Receita líquida R$895M, EBITDA Aj R$305M"
+      "bookValuePerShare": 15.80,
+      "navPerShare": 15.80,
+      "notes": "1T22: Receita líquida R$895M, EBITDA Aj R$305M. PL/share interpolated pre-Aug-2022 split basis (FY21 R$15.09 → split-adjusted year-end R$17.90 pre-split = R$8.01 post-split)."
     },
     {
       "endDate": "2022-06-30",
@@ -528,7 +546,9 @@
       "ebitdaMM": 615,
       "netIncomeMM": 280,
       "totalAcresK": 472,
-      "notes": "2T22: Receita líquida R$1.74B (+71% YoY), EBITDA Aj R$615M (record). Ukraine-war driven grain rally"
+      "bookValuePerShare": 16.50,
+      "navPerShare": 16.50,
+      "notes": "2T22: Receita líquida R$1.74B (+71% YoY), EBITDA Aj R$615M (record). Ukraine-war driven grain rally. PL/share interpolated pre-Aug-2022 split basis."
     },
     {
       "endDate": "2022-09-30",
@@ -550,7 +570,9 @@
       "ebitdaMM": 470,
       "netIncomeMM": 200,
       "totalAcresK": 472,
-      "notes": "3T22: Receita líquida R$1.365B, EBITDA Aj R$470M"
+      "bookValuePerShare": 7.70,
+      "navPerShare": 7.70,
+      "notes": "3T22: Receita líquida R$1.365B, EBITDA Aj R$470M. PL/share R$7.70 reflects post Aug-2022 1-for-2.236 stock split (sharesOut 195.5M→437M)."
     },
     {
       "endDate": "2022-12-31",
@@ -572,7 +594,9 @@
       "ebitdaMM": 470,
       "netIncomeMM": 210,
       "totalAcresK": 472,
-      "notes": "4T22: Receita líquida R$1.40B, EBITDA Aj R$470M. Cotton segment ramped further"
+      "bookValuePerShare": 8.01,
+      "navPerShare": 8.01,
+      "notes": "4T22: Receita líquida R$1.40B, EBITDA Aj R$470M. Cotton segment ramped further. PL/share = FY22 (R$8.01) post-split."
     },
     {
       "endDate": "2022-12-31",
@@ -626,7 +650,9 @@
       "ebitdaMM": 405,
       "netIncomeMM": 130,
       "totalAcresK": 472,
-      "notes": "1T23: Receita líquida R$1.365B, EBITDA Aj R$405M"
+      "bookValuePerShare": 8.13,
+      "navPerShare": 8.13,
+      "notes": "1T23: Receita líquida R$1.365B, EBITDA Aj R$405M. PL/share interpolated FY22 (R$8.01) → FY23 (R$8.47)."
     },
     {
       "endDate": "2023-06-30",
@@ -648,7 +674,9 @@
       "ebitdaMM": 555,
       "netIncomeMM": 205,
       "totalAcresK": 472,
-      "notes": "2T23: Receita líquida R$2.07B, EBITDA Aj R$555M"
+      "bookValuePerShare": 8.24,
+      "navPerShare": 8.24,
+      "notes": "2T23: Receita líquida R$2.07B, EBITDA Aj R$555M. PL/share interpolated FY22→FY23."
     },
     {
       "endDate": "2023-09-30",
@@ -670,7 +698,9 @@
       "ebitdaMM": 380,
       "netIncomeMM": 110,
       "totalAcresK": 472,
-      "notes": "3T23: Receita líquida R$1.455B, EBITDA Aj R$380M (soy price rolled lower from Q2 highs)"
+      "bookValuePerShare": 8.36,
+      "navPerShare": 8.36,
+      "notes": "3T23: Receita líquida R$1.455B, EBITDA Aj R$380M (soy price rolled lower from Q2 highs). PL/share interpolated FY22→FY23."
     },
     {
       "endDate": "2023-12-31",
@@ -692,7 +722,9 @@
       "ebitdaMM": 380,
       "netIncomeMM": 95,
       "totalAcresK": 472,
-      "notes": "4T23: Receita líquida R$1.645B, EBITDA Aj R$380M. Cotton billing peak"
+      "bookValuePerShare": 8.47,
+      "navPerShare": 8.47,
+      "notes": "4T23: Receita líquida R$1.645B, EBITDA Aj R$380M. Cotton billing peak. PL/share = FY23 (R$8.47)."
     },
     {
       "endDate": "2023-12-31",
@@ -747,7 +779,9 @@
       "ebitdaMM": 280,
       "netIncomeMM": 50,
       "totalAcresK": 472,
-      "notes": "1T24: Receita líquida R$1.225B, EBITDA Aj R$280M (lower soy + cotton prices YoY)"
+      "bookValuePerShare": 8.89,
+      "navPerShare": 8.89,
+      "notes": "1T24: Receita líquida R$1.225B, EBITDA Aj R$280M (lower soy + cotton prices YoY). PL/share interpolated FY23 (R$8.47) → FY24 (R$10.15)."
     },
     {
       "endDate": "2024-06-30",
@@ -770,7 +804,9 @@
       "netIncomeMM": 220,
       "totalAcresK": 472,
       "propertyFmvMM": 11591,
-      "notes": "2T24: Receita líquida R$2.255B, EBITDA Aj R$685M. Deloitte Jul-2024 land appraisal R$11.591B = R$58,960/cultivable ha"
+      "bookValuePerShare": 9.31,
+      "navPerShare": 9.31,
+      "notes": "2T24: Receita líquida R$2.255B, EBITDA Aj R$685M. Deloitte Jul-2024 land appraisal R$11.591B = R$58,960/cultivable ha. PL/share interpolated FY23→FY24."
     },
     {
       "endDate": "2024-09-30",
@@ -792,7 +828,9 @@
       "ebitdaMM": 575,
       "netIncomeMM": 130,
       "totalAcresK": 472,
-      "notes": "3T24: Receita líquida R$2.07B, EBITDA Aj R$575M"
+      "bookValuePerShare": 9.73,
+      "navPerShare": 9.73,
+      "notes": "3T24: Receita líquida R$2.07B, EBITDA Aj R$575M. PL/share interpolated FY23→FY24."
     },
     {
       "endDate": "2024-12-31",
@@ -814,7 +852,9 @@
       "ebitdaMM": 1060,
       "netIncomeMM": 100,
       "totalAcresK": 472,
-      "notes": "4T24: Receita líquida R$3.0B (record), EBITDA Aj R$1.06B (cotton billing concentrated, volume +34% YoY)"
+      "bookValuePerShare": 10.15,
+      "navPerShare": 10.15,
+      "notes": "4T24: Receita líquida R$3.0B (record), EBITDA Aj R$1.06B (cotton billing concentrated, volume +34% YoY). PL/share = FY24 (R$10.15)."
     },
     {
       "endDate": "2024-12-31",
@@ -871,7 +911,9 @@
       "ebitdaMM": 380,
       "netIncomeMM": 80,
       "totalAcresK": 561,
-      "notes": "1T25: Receita líquida R$1.365B, EBITDA Aj R$380M. Agrícola Xingu acquisition completed Mar-2025 (+27,516 ha)"
+      "bookValuePerShare": 10.30,
+      "navPerShare": 10.30,
+      "notes": "1T25: Receita líquida R$1.365B, EBITDA Aj R$380M. Agrícola Xingu acquisition completed Mar-2025 (+27,516 ha). PL/share extrapolated above FY24 base."
     },
     {
       "endDate": "2025-06-30",
@@ -894,7 +936,9 @@
       "netIncomeMM": 270,
       "totalAcresK": 561,
       "propertyFmvMM": 13396,
-      "notes": "2T25: Receita líquida R$2.54B, EBITDA Aj R$770M. Deloitte Jul-2025 land appraisal R$13.396B"
+      "bookValuePerShare": 10.45,
+      "navPerShare": 10.45,
+      "notes": "2T25: Receita líquida R$2.54B, EBITDA Aj R$770M. Deloitte Jul-2025 land appraisal R$13.396B. PL/share extrapolated above FY24 base."
     },
     {
       "endDate": "2025-09-30",
@@ -916,7 +960,9 @@
       "ebitdaMM": 620,
       "netIncomeMM": 175,
       "totalAcresK": 561,
-      "notes": "3T25: Receita líquida R$2.21B, EBITDA Aj R$620M. 9M25 Receita líquida R$6.115B, EBITDA Aj R$1.77B"
+      "bookValuePerShare": 10.60,
+      "navPerShare": 10.60,
+      "notes": "3T25: Receita líquida R$2.21B, EBITDA Aj R$620M. 9M25 Receita líquida R$6.115B, EBITDA Aj R$1.77B. PL/share extrapolated above FY24 base."
     }
   ]
 }

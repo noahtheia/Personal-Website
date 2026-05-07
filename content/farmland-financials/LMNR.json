@@ -348,7 +348,8 @@
       "ebitdaMM": 1,
       "netIncomeMM": -3.5,
       "totalAcresK": 12.5,
-      "notes": "Q1 FY21: revenue $36.5M."
+      "bookValuePerShare": 13.26,
+      "notes": "Q1 FY21: revenue $36.5M. BVPS interpolated FY20 ($13.34) → FY21 ($13.03)."
     },
     {
       "endDate": "2021-04-30",
@@ -364,7 +365,8 @@
       "ebitdaMM": 4,
       "netIncomeMM": -1,
       "totalAcresK": 12.5,
-      "notes": "Q2 FY21: revenue $47.0M."
+      "bookValuePerShare": 13.19,
+      "notes": "Q2 FY21: revenue $47.0M. BVPS interpolated FY20→FY21."
     },
     {
       "endDate": "2021-07-31",
@@ -380,7 +382,8 @@
       "ebitdaMM": 6,
       "netIncomeMM": 0.5,
       "totalAcresK": 12.5,
-      "notes": "Q3 FY21: revenue $51.5M (peak summer lemon and avocado quarter)."
+      "bookValuePerShare": 13.11,
+      "notes": "Q3 FY21: revenue $51.5M (peak summer lemon and avocado quarter). BVPS interpolated FY20→FY21."
     },
     {
       "endDate": "2021-10-31",
@@ -396,7 +399,8 @@
       "ebitdaMM": 2,
       "netIncomeMM": -1.5,
       "totalAcresK": 12.5,
-      "notes": "Q4 FY21: revenue $38.5M."
+      "bookValuePerShare": 13.03,
+      "notes": "Q4 FY21: revenue $38.5M. BVPS = FY21 ($13.03)."
     },
     {
       "endDate": "2021-10-31",
@@ -442,7 +446,8 @@
       "ebitdaMM": 1.5,
       "netIncomeMM": -3.5,
       "totalAcresK": 12.5,
-      "notes": "Q1 FY22: revenue $41.0M."
+      "bookValuePerShare": 13.10,
+      "notes": "Q1 FY22: revenue $41.0M. BVPS interpolated FY21 ($13.03) → FY22 ($13.29)."
     },
     {
       "endDate": "2022-04-30",
@@ -458,7 +463,8 @@
       "ebitdaMM": 5,
       "netIncomeMM": -1.5,
       "totalAcresK": 12.5,
-      "notes": "Q2 FY22: revenue $50.0M."
+      "bookValuePerShare": 13.16,
+      "notes": "Q2 FY22: revenue $50.0M. BVPS interpolated FY21→FY22."
     },
     {
       "endDate": "2022-07-31",
@@ -474,7 +480,8 @@
       "ebitdaMM": 8,
       "netIncomeMM": 1.5,
       "totalAcresK": 12.5,
-      "notes": "Q3 FY22: revenue $60.0M (strong avocado pricing)."
+      "bookValuePerShare": 13.23,
+      "notes": "Q3 FY22: revenue $60.0M (strong avocado pricing). BVPS interpolated FY21→FY22."
     },
     {
       "endDate": "2022-10-31",
@@ -490,7 +497,8 @@
       "ebitdaMM": 0,
       "netIncomeMM": -3,
       "totalAcresK": 12.5,
-      "notes": "Q4 FY22: revenue $33.0M."
+      "bookValuePerShare": 13.29,
+      "notes": "Q4 FY22: revenue $33.0M. BVPS = FY22 ($13.29)."
     },
     {
       "endDate": "2022-10-31",
@@ -536,7 +544,8 @@
       "ebitdaMM": -1,
       "netIncomeMM": -3.5,
       "totalAcresK": 12.5,
-      "notes": "Q1 FY23: revenue $36.0M."
+      "bookValuePerShare": 13.50,
+      "notes": "Q1 FY23: revenue $36.0M. BVPS interpolated FY22 ($13.29) → FY23 ($14.11)."
     },
     {
       "endDate": "2023-04-30",
@@ -552,7 +561,8 @@
       "ebitdaMM": 35,
       "netIncomeMM": 24,
       "totalAcresK": 12.5,
-      "notes": "Q2 FY23: revenue $49.5M. Large gain on Northern Properties sale (~$98M sale of Windfall Investors / agricultural property in Northern California closed Feb 2023) drove EBITDA / net income spike."
+      "bookValuePerShare": 13.70,
+      "notes": "Q2 FY23: revenue $49.5M. Large gain on Northern Properties sale (~$98M sale of Windfall Investors / agricultural property in Northern California closed Feb 2023) drove EBITDA / net income spike. BVPS interpolated FY22→FY23."
     },
     {
       "endDate": "2023-07-31",
@@ -568,7 +578,8 @@
       "ebitdaMM": 9,
       "netIncomeMM": 2.5,
       "totalAcresK": 11,
-      "notes": "Q3 FY23: revenue $67.0M (strong fresh lemon and avocado season)."
+      "bookValuePerShare": 13.91,
+      "notes": "Q3 FY23: revenue $67.0M (strong fresh lemon and avocado season). BVPS interpolated FY22→FY23."
     },
     {
       "endDate": "2023-10-31",
@@ -584,7 +595,8 @@
       "ebitdaMM": -1,
       "netIncomeMM": -3.5,
       "totalAcresK": 11,
-      "notes": "Q4 FY23: revenue $31.5M."
+      "bookValuePerShare": 14.11,
+      "notes": "Q4 FY23: revenue $31.5M. BVPS = FY23 ($14.11)."
     },
     {
       "endDate": "2023-10-31",
@@ -630,7 +642,8 @@
       "ebitdaMM": 1,
       "netIncomeMM": -3.5,
       "totalAcresK": 11,
-      "notes": "Q1 FY24: revenue $41.5M."
+      "bookValuePerShare": 13.89,
+      "notes": "Q1 FY24: revenue $41.5M. BVPS interpolated FY23 ($14.11) → FY24 ($13.24)."
     },
     {
       "endDate": "2024-04-30",
@@ -646,7 +659,8 @@
       "ebitdaMM": 1.5,
       "netIncomeMM": -3.5,
       "totalAcresK": 11,
-      "notes": "Q2 FY24: revenue $44.5M."
+      "bookValuePerShare": 13.68,
+      "notes": "Q2 FY24: revenue $44.5M. BVPS interpolated FY23→FY24."
     },
     {
       "endDate": "2024-07-31",
@@ -662,7 +676,8 @@
       "ebitdaMM": 6,
       "netIncomeMM": -1.5,
       "totalAcresK": 11,
-      "notes": "Q3 FY24: revenue $56.5M."
+      "bookValuePerShare": 13.46,
+      "notes": "Q3 FY24: revenue $56.5M. BVPS interpolated FY23→FY24."
     },
     {
       "endDate": "2024-10-31",
@@ -678,7 +693,8 @@
       "ebitdaMM": -3,
       "netIncomeMM": -8.5,
       "totalAcresK": 10.5,
-      "notes": "Q4 FY24: revenue $32.5M."
+      "bookValuePerShare": 13.24,
+      "notes": "Q4 FY24: revenue $32.5M. BVPS = FY24 ($13.24)."
     },
     {
       "endDate": "2024-10-31",
@@ -724,7 +740,8 @@
       "ebitdaMM": -2.5,
       "netIncomeMM": -7,
       "totalAcresK": 10.5,
-      "notes": "Q1 FY25: revenue $36.0M."
+      "bookValuePerShare": 12.99,
+      "notes": "Q1 FY25: revenue $36.0M. BVPS interpolated FY24 ($13.24) → FY25 ($12.25)."
     },
     {
       "endDate": "2025-04-30",
@@ -740,7 +757,8 @@
       "ebitdaMM": -3,
       "netIncomeMM": -7.5,
       "totalAcresK": 10.5,
-      "notes": "Q2 FY25: revenue $38.5M. Continued lemon-pricing weakness."
+      "bookValuePerShare": 12.74,
+      "notes": "Q2 FY25: revenue $38.5M. Continued lemon-pricing weakness. BVPS interpolated FY24→FY25."
     },
     {
       "endDate": "2025-07-31",
@@ -756,7 +774,8 @@
       "ebitdaMM": 0.5,
       "netIncomeMM": -4.5,
       "totalAcresK": 10.5,
-      "notes": "Q3 FY25: revenue $51.5M."
+      "bookValuePerShare": 12.50,
+      "notes": "Q3 FY25: revenue $51.5M. BVPS interpolated FY24→FY25."
     },
     {
       "endDate": "2025-10-31",
@@ -778,7 +797,8 @@
       "sharesOutMM": 17.8,
       "navPerShare": 10.11,
       "propertyBookMM": 172.65,
-      "notes": "Q4 FY25: revenue $33.5M. Lemon pricing remained weak through fiscal year end. Net debt $70.97M. Latest seed-data anchor period."
+      "bookValuePerShare": 12.25,
+      "notes": "Q4 FY25: revenue $33.5M. Lemon pricing remained weak through fiscal year end. Net debt $70.97M. Latest seed-data anchor period. BVPS = FY25 ($12.25)."
     },
     {
       "endDate": "2025-10-31",
