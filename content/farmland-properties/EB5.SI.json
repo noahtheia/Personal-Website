@@ -2,60 +2,78 @@
   "ticker": "EB5.SI",
   "asOf": "2024-12-31",
   "currency": "USD",
-  "propertiesNote": "3-row breakdown by Indonesian region. Riau is core (Ciliandra Perkasa subsidiary); East + West Kalimantan smaller clusters.",
+  "propertiesNote": "4-row breakdown by Indonesian region + plasma carve-out. Riau is core (Ciliandra Perkasa subsidiary); East + West Kalimantan smaller clusters. Plasma 36,274 ha (89.6K acres) excluded from owned via separate row.",
   "properties": [
     {
-      "name": "Riau province plantation (PT Ciliandra Perkasa core)",
+      "name": "Riau province plantation (PT Ciliandra Perkasa core, nucleus only)",
       "location": "Riau, Sumatra, Indonesia",
-      "acres": 198000,
+      "acres": 164000,
       "cropOrUse": "Mature oil palm + 4 mills",
-      "category": "Indonesian palm \u2014 Riau",
+      "category": "Indonesian palm \u2014 Riau (FR nucleus)",
       "fmvPerAcre": 5800,
-      "fmvRationale": "Riau is First Resources' core region; Ciliandra Perkasa subsidiary; mature plantation with multiple mills + Pelintung/Dumai processing",
+      "fmvRationale": "Riau is First Resources' core region; Ciliandra Perkasa subsidiary; mature plantation with multiple mills + Pelintung/Dumai processing. Nucleus only after ~17% plasma reduction",
       "comparablesUsed": [
         "ID-PALM-MATURE-2024",
         "ID-PALM-NSUMATRA-2024"
       ],
-      "bookValueMM": 700,
+      "bookValueMM": 600,
       "fmvPerAcreLow": 4640.0,
       "fmvPerAcreHigh": 6960.0,
       "capRateLow": 7.5,
       "capRateHigh": 10.0
     },
     {
-      "name": "East Kalimantan plantation",
+      "name": "East Kalimantan plantation (nucleus only)",
       "location": "East Kalimantan, Indonesia",
-      "acres": 195000,
+      "acres": 162000,
       "cropOrUse": "Mature oil palm + 2 mills",
-      "category": "Indonesian palm \u2014 East Kalimantan",
+      "category": "Indonesian palm \u2014 East Kalimantan (FR nucleus)",
       "fmvPerAcre": 5300,
-      "fmvRationale": "East Kalimantan plantation with mill access",
+      "fmvRationale": "East Kalimantan plantation with mill access. Nucleus only after plasma reduction",
       "comparablesUsed": [
         "ID-PALM-KALIMANTAN-2024",
         "ID-PALM-MATURE-2024"
       ],
-      "bookValueMM": 500,
+      "bookValueMM": 425,
       "fmvPerAcreLow": 4240.0,
       "fmvPerAcreHigh": 6360.0,
       "capRateLow": 7.5,
       "capRateHigh": 10.0
     },
     {
-      "name": "West Kalimantan plantation",
+      "name": "West Kalimantan plantation (nucleus only)",
       "location": "West Kalimantan, Indonesia",
-      "acres": 128000,
+      "acres": 106000,
       "cropOrUse": "Mature oil palm + 1 mill",
-      "category": "Indonesian palm \u2014 West Kalimantan",
+      "category": "Indonesian palm \u2014 West Kalimantan (FR nucleus)",
       "fmvPerAcre": 4800,
-      "fmvRationale": "West Kalimantan estate cluster",
+      "fmvRationale": "West Kalimantan estate cluster. Nucleus only after plasma reduction",
       "comparablesUsed": [
         "ID-PALM-KALIMANTAN-2024"
       ],
-      "bookValueMM": 300,
+      "bookValueMM": 250,
       "fmvPerAcreLow": 3840.0,
       "fmvPerAcreHigh": 5760.0,
       "capRateLow": 7.5,
       "capRateHigh": 10.0
+    },
+    {
+      "name": "Plasma plantations (smallholder partnerships)",
+      "location": "Indonesia (Riau + East + West Kalimantan)",
+      "acres": 89600,
+      "cropOrUse": "Plasma estate partnerships (~36,274 ha NOT owned by FR)",
+      "category": "Plasma plantations (partnership receivable)",
+      "fmvPerAcre": 1000,
+      "fmvPerAcreLow": 800,
+      "fmvPerAcreHigh": 1200,
+      "excludeFromAcreTotals": true,
+      "capRateLow": 9.0,
+      "capRateHigh": 13.0,
+      "fmvRationale": "36,274 ha plasma smallholder estates as of end-2024 \u2014 owned by smallholder farmers under Indonesia's NES model (80% nucleus / 20% plasma). FR provides advances + technical assistance + FFB purchase under multi-year partnerships. NOT on balance sheet as land asset",
+      "comparablesUsed": [
+        "ID-PALM-MATURE-2024"
+      ],
+      "bookValueMM": 90
     }
   ],
   "comparables": [
