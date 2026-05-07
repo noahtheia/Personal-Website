@@ -7,8 +7,7 @@ import type { PriceHistory } from "@/lib/farmland-history";
 
 type ChartId =
   | "price"
-  | "revenue"
-  | "ebitda"
+  | "income"
   | "propertyValue"
   | "navPerShare"
   | "acreage"
@@ -21,14 +20,10 @@ const CHART_DEFS: { id: ChartId; label: string; description: string }[] = [
     description: "Daily local-currency close.",
   },
   {
-    id: "revenue",
-    label: "Revenue",
-    description: "Reported revenue per period (most-granular available).",
-  },
-  {
-    id: "ebitda",
-    label: "EBITDA",
-    description: "Reported / adjusted EBITDA per period.",
+    id: "income",
+    label: "Income",
+    description:
+      "Gross + net revenue (segment-stacked) and EBITDA per period (most-granular available).",
   },
   {
     id: "propertyValue",
@@ -62,8 +57,23 @@ const PAD = { top: 28, right: 64, bottom: 36, left: 64 };
 
 const C_PRIMARY = "var(--accent)";
 const C_OVERLAY = "var(--fg-soft)";
+const C_OVERLAY2 = "var(--positive)";
 const C_SECONDARY_POSITIVE = "var(--positive)";
 const C_SECONDARY_NEGATIVE = "var(--negative)";
+
+// Segment fill palette for stacked bar charts (cycles if more than 6 segments)
+const SEGMENT_PALETTE = [
+  "var(--accent)",
+  "var(--positive)",
+  "var(--negative)",
+  "var(--fg-soft)",
+  "var(--muted)",
+  "var(--rule)",
+];
+
+function segmentColor(i: number): string {
+  return SEGMENT_PALETTE[i % SEGMENT_PALETTE.length];
+}
 
 export function FarmlandFinancialSnapshot({
   filing,
@@ -265,7 +275,10 @@ export function FarmlandFinancialSnapshot({
               )}
             </div>
 
-            {(active.overlay || active.secondary) && <Legend active={active} />}
+            {(active.overlay ||
+              active.overlay2 ||
+              active.secondary ||
+              active.segments) && <Legend active={active} />}
 
             <svg
               ref={svgRef}
@@ -365,6 +378,30 @@ export function FarmlandFinancialSnapshot({
                       ((W - PAD.left - PAD.right) / view.points.length) * 0.7,
                     ),
                   );
+                  // Stacked segments
+                  if (view.segmentStacks && view.segmentNames) {
+                    return (
+                      <g key={i}>
+                        {view.segmentStacks[i].map((seg, si) => {
+                          if (seg.value <= 0) return null;
+                          const top = Math.min(seg.y0, seg.y1);
+                          const height = Math.abs(seg.y0 - seg.y1);
+                          return (
+                            <rect
+                              key={si}
+                              x={p.x - barW / 2}
+                              y={top}
+                              width={barW}
+                              height={height}
+                              fill={segmentColor(si)}
+                              fillOpacity={0.85}
+                            />
+                          );
+                        })}
+                      </g>
+                    );
+                  }
+                  // Plain bar
                   const yZero =
                     view.yZero !== null ? view.yZero : H - PAD.bottom;
                   const top = Math.min(p.y, yZero);
@@ -406,6 +443,19 @@ export function FarmlandFinancialSnapshot({
                   stroke={C_OVERLAY}
                   strokeWidth="1.5"
                   strokeOpacity="0.85"
+                  strokeLinejoin="round"
+                  strokeLinecap="round"
+                />
+              )}
+
+              {/* Overlay 2 series (e.g. EBITDA on Income chart) */}
+              {view.overlay2Path && (
+                <path
+                  d={view.overlay2Path}
+                  fill="none"
+                  stroke={C_OVERLAY2}
+                  strokeWidth="1.75"
+                  strokeOpacity="0.9"
                   strokeLinejoin="round"
                   strokeLinecap="round"
                 />
@@ -580,11 +630,23 @@ function PrimaryHoverDot({
 }
 
 function Legend({ active }: { active: Series }) {
+  // For bar charts with segments, show segment swatches instead of the
+  // generic "primary" swatch.
+  const showSegments = active.kind === "bar" && active.segments;
   return (
     <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs">
-      <Swatch color={C_PRIMARY} label={active.label} />
+      {showSegments
+        ? active.segments!.names.map((name, i) => (
+            <Swatch key={name} color={segmentColor(i)} label={name} />
+          ))
+        : (
+            <Swatch color={C_PRIMARY} label={active.label} />
+          )}
       {active.overlay && (
         <Swatch color={C_OVERLAY} label={active.overlay.label} />
+      )}
+      {active.overlay2 && (
+        <Swatch color={C_OVERLAY2} label={active.overlay2.label} />
       )}
       {active.secondary && (
         <Swatch
@@ -627,7 +689,19 @@ type Series = {
   kind: SeriesKind;
   points: DatedPoint[];
   overlay?: { label: string; points: DatedPoint[] };
+  // Optional second overlay (line) on the same primary axis. Used for the
+  // Income chart to show gross-vs-net revenue context above the segment
+  // stacks.
+  overlay2?: { label: string; points: DatedPoint[] };
   secondary?: { label: string; unit: Unit; points: DatedPoint[] };
+  // Segment stacking: when present and kind === 'bar', each bar is split
+  // into colored segments. Segments[i] provides the value contribution
+  // per segment for points[i]. Segment names should be stable across
+  // points (missing segments treated as 0).
+  segments?: {
+    names: string[];
+    perPoint: Record<string, number>[];
+  };
 };
 
 function buildAllSeries(
@@ -638,8 +712,7 @@ function buildAllSeries(
 ): Record<ChartId, Series | null> {
   const result: Record<ChartId, Series | null> = {
     price: null,
-    revenue: null,
-    ebitda: null,
+    income: null,
     propertyValue: null,
     navPerShare: null,
     acreage: null,
@@ -691,18 +764,10 @@ function buildAllSeries(
   // --- Reported financials ---
   if (financials && financials.periods.length > 0) {
     const ccy = financials.currency;
-    result.revenue = pickSeries(financials, "revenueMM", {
-      label: "Revenue",
-      description: `Reported revenue, ${ccy} M`,
-      unit: { kind: "millions", ccy },
-      kind: "bar",
-    });
-    result.ebitda = pickSeries(financials, "ebitdaMM", {
-      label: "EBITDA",
-      description: `Reported / adjusted EBITDA, ${ccy} M`,
-      unit: { kind: "millions", ccy },
-      kind: "bar",
-    });
+
+    // ---- Income chart: combine net revenue (segment-stacked bars) +
+    // gross revenue overlay + EBITDA overlay ----
+    result.income = buildIncomeSeries(financials, ccy);
     const propertySeries =
       pickSeries(financials, "propertyFmvMM", {
         label: "Property value",
@@ -927,6 +992,98 @@ function collectAnnualizedEbitda(financials: Financials): DatedPoint[] {
   return merged;
 }
 
+// Build the Income chart series:
+//   - Primary: net revenue per period (segment-stacked bars)
+//   - Overlay: gross revenue line (where reported)
+//   - Overlay2: EBITDA line (where reported)
+// Period filtering: prefer Q over FY/H/LTM within the same fiscal year.
+function buildIncomeSeries(
+  financials: Financials,
+  ccy: string,
+): Series | null {
+  // Determine period filter — same logic as pickSeries: drop FY/LTM/H
+  // for years with quarterly coverage.
+  const quarterlyYears = new Set<number>();
+  for (const p of financials.periods) {
+    if (p.periodType === "Q" && typeof p.revenueMM === "number") {
+      quarterlyYears.add(new Date(p.endDate).getFullYear());
+    }
+  }
+  const usable = financials.periods.filter((p) => {
+    if (typeof p.revenueMM !== "number") return false;
+    if (p.periodType === "Q") return true;
+    return !quarterlyYears.has(new Date(p.endDate).getFullYear());
+  });
+  if (usable.length === 0) return null;
+  usable.sort((a, b) => a.endDate.localeCompare(b.endDate));
+
+  const points: DatedPoint[] = usable.map((p) => ({
+    date: p.endDate,
+    value: p.revenueMM as number,
+  }));
+
+  // Segment stack: collect all segment names across periods (those that
+  // have any positive contribution), then build per-point segment values.
+  const segmentNames = new Set<string>();
+  for (const p of usable) {
+    if (p.revenueBySegmentMM) {
+      for (const k of Object.keys(p.revenueBySegmentMM)) segmentNames.add(k);
+    }
+  }
+  let segments: Series["segments"] | undefined;
+  if (segmentNames.size > 0) {
+    const namesArr = Array.from(segmentNames);
+    const perPoint = usable.map((p) => {
+      const out: Record<string, number> = {};
+      for (const n of namesArr) {
+        out[n] = p.revenueBySegmentMM?.[n] ?? 0;
+      }
+      return out;
+    });
+    segments = { names: namesArr, perPoint };
+  }
+
+  const series: Series = {
+    label: "Net revenue",
+    description: `Reported net revenue (segment-stacked), ${ccy} M`,
+    unit: { kind: "millions", ccy },
+    kind: "bar",
+    points,
+    segments,
+  };
+
+  // Gross revenue overlay
+  const grossPoints: DatedPoint[] = [];
+  for (const p of usable) {
+    if (typeof p.grossRevenueMM === "number") {
+      grossPoints.push({ date: p.endDate, value: p.grossRevenueMM });
+    }
+  }
+  if (grossPoints.length > 0) {
+    series.overlay = {
+      label: "Gross revenue",
+      points: grossPoints,
+    };
+  }
+
+  // EBITDA overlay (separate line, may be lower than revenue including
+  // negative quarters)
+  const ebitdaPoints: DatedPoint[] = [];
+  for (const p of usable) {
+    if (typeof p.ebitdaMM === "number") {
+      ebitdaPoints.push({ date: p.endDate, value: p.ebitdaMM });
+    }
+  }
+  if (ebitdaPoints.length > 0) {
+    series.overlay2 = {
+      label: "EBITDA",
+      points: ebitdaPoints,
+    };
+  }
+
+  return series;
+}
+
 function pickSeries(
   financials: Financials,
   key: keyof FinancialsPeriod,
@@ -1033,11 +1190,17 @@ type View = {
   dateMax: number;
   overlayPoints: ViewPoint[] | null;
   overlayPath: string | null;
+  overlay2Points: ViewPoint[] | null;
+  overlay2Path: string | null;
   secondaryPoints: ViewPoint[] | null;
   secondaryRawValues: number[] | null;
   secondaryPath: string | null;
   secondaryYTicks: { value: number; y: number }[] | null;
   secondaryYZero: number | null;
+  // Segment stack data: parallel to view.points; for each point a
+  // sequence of stacked segment heights (in y-space, top-to-bottom).
+  segmentStacks: { name: string; y0: number; y1: number; value: number }[][] | null;
+  segmentNames: string[] | null;
 };
 
 function buildView(active: Series): View {
@@ -1048,6 +1211,7 @@ function buildView(active: Series): View {
   const allDates: number[] = [];
   for (const p of active.points) allDates.push(toMs(p.date));
   if (active.overlay) for (const p of active.overlay.points) allDates.push(toMs(p.date));
+  if (active.overlay2) for (const p of active.overlay2.points) allDates.push(toMs(p.date));
   if (active.secondary) for (const p of active.secondary.points) allDates.push(toMs(p.date));
   if (allDates.length === 0) {
     return emptyView();
@@ -1059,10 +1223,11 @@ function buildView(active: Series): View {
   const xOf = (dateMs: number) =>
     PAD.left + ((dateMs - dateMin) / dateSpan) * innerW;
 
-  // Primary y scale — combine primary + overlay (same axis)
+  // Primary y scale — combine primary + overlay + overlay2 (same axis)
   const primaryRaw = active.points.map((p) => p.value);
   const overlayRaw = active.overlay?.points.map((p) => p.value) ?? [];
-  const allPrimary = [...primaryRaw, ...overlayRaw];
+  const overlay2Raw = active.overlay2?.points.map((p) => p.value) ?? [];
+  const allPrimary = [...primaryRaw, ...overlayRaw, ...overlay2Raw];
   const minRaw = Math.min(...allPrimary);
   const maxRaw = Math.max(...allPrimary);
   const isBar = active.kind === "bar";
@@ -1134,6 +1299,29 @@ function buildView(active: Series): View {
     }
   }
 
+  // Segment stacks (only for bar charts with segments data)
+  let segmentStacks: View["segmentStacks"] = null;
+  let segmentNames: string[] | null = null;
+  if (active.kind === "bar" && active.segments) {
+    segmentNames = active.segments.names;
+    segmentStacks = points.map((pt, i) => {
+      const segValues = active.segments!.perPoint[i];
+      const stack: { name: string; y0: number; y1: number; value: number }[] = [];
+      let cumulative = 0;
+      for (const name of active.segments!.names) {
+        const v = segValues[name] ?? 0;
+        stack.push({
+          name,
+          y0: yOf(cumulative),
+          y1: yOf(cumulative + v),
+          value: v,
+        });
+        cumulative += v;
+      }
+      return stack;
+    });
+  }
+
   // Overlay (line, same y scale)
   let overlayPoints: ViewPoint[] | null = null;
   let overlayPath: string | null = null;
@@ -1149,6 +1337,28 @@ function buildView(active: Series): View {
       .sort((a, b) => a.dateMs - b.dateMs)
       .map((p) => ({ ...p, x: xOf(p.dateMs), y: yOf(p.value) }));
     overlayPath = overlayPoints
+      .map(
+        (p, i) =>
+          `${i === 0 ? "M" : "L"}${p.x.toFixed(1)},${p.y.toFixed(1)}`,
+      )
+      .join(" ");
+  }
+
+  // Overlay 2 (second line on same primary axis)
+  let overlay2Points: ViewPoint[] | null = null;
+  let overlay2Path: string | null = null;
+  if (active.overlay2) {
+    overlay2Points = active.overlay2.points
+      .map((p) => ({
+        date: p.date,
+        dateMs: toMs(p.date),
+        value: p.value,
+        x: 0,
+        y: 0,
+      }))
+      .sort((a, b) => a.dateMs - b.dateMs)
+      .map((p) => ({ ...p, x: xOf(p.dateMs), y: yOf(p.value) }));
+    overlay2Path = overlay2Points
       .map(
         (p, i) =>
           `${i === 0 ? "M" : "L"}${p.x.toFixed(1)},${p.y.toFixed(1)}`,
@@ -1229,11 +1439,15 @@ function buildView(active: Series): View {
     dateMax,
     overlayPoints,
     overlayPath,
+    overlay2Points,
+    overlay2Path,
     secondaryPoints,
     secondaryRawValues,
     secondaryPath,
     secondaryYTicks,
     secondaryYZero,
+    segmentStacks,
+    segmentNames,
   };
 }
 
@@ -1249,11 +1463,15 @@ function emptyView(): View {
     dateMax: 0,
     overlayPoints: null,
     overlayPath: null,
+    overlay2Points: null,
+    overlay2Path: null,
     secondaryPoints: null,
     secondaryRawValues: null,
     secondaryPath: null,
     secondaryYTicks: null,
     secondaryYZero: null,
+    segmentStacks: null,
+    segmentNames: null,
   };
 }
 

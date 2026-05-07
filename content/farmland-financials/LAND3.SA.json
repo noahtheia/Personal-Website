@@ -2,32 +2,49 @@
   "ticker": "LAND3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.terrasantapropriedades.com.br/",
-  "notes": "Terra Santa Propriedades (LAND3) spun off from Terra Santa Agro in 2021 as B3-listed exclusively-rural-real-estate vehicle. All 7 owned farms in Mato Grosso (39,189 ha = 96,840 acres useful area), leased on 25-yr contract to SLC Agrícola starting 2021 — annual revenue = ~17 sacks of soybeans per leased hectare. Annual S&P Global laudo de avaliação (Nov base date). Quarterly data from InfoMoney + IR press releases. Some early-2022 + 2024 quarters partially backfilled.",
+  "notes": "Terra Santa Propriedades (LAND3) spun off from Terra Santa Agro in 2021 as B3-listed exclusively-rural-real-estate vehicle. All 7 owned farms in Mato Grosso (39,189 ha = 96,840 acres useful area), leased on 25-yr contract to SLC Agrícola starting 2021 — annual revenue = ~17 sacks of soybeans per leased hectare. Annual S&P Global laudo de avaliação (Nov base date). Quarterly revenue + net income from DadosDeMercado financial database; EBITDA from quarterly InfoMoney coverage; gross revenue estimated as net × 1.10 (PIS/COFINS ~9.25% on lease income). Segment split ~96% lease (SLC) / ~4% forestry — applied uniformly to each quarter where granular split not disclosed.",
   "periods": [
     {
       "endDate": "2022-03-31",
       "periodType": "Q",
-      "revenueMM": 23.7,
+      "grossRevenueMM": 26.1,
+      "revenueMM": 23.72,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 22.77,
+        "Forestry / timber": 0.95
+      },
       "ebitdaMM": 16.0,
       "netIncomeMM": 0.315,
       "totalAcresK": 96.84,
-      "notes": "1T22: net revenue R$23.7M, adj EBITDA R$16M, net income R$0.315M (net income -98.6% YoY due to land-revaluation absent in this period)"
+      "notes": "1T22: net revenue R$23.72M, adj EBITDA R$16M, net income R$0.315M"
     },
     {
       "endDate": "2022-06-30",
       "periodType": "Q",
+      "grossRevenueMM": 25.2,
+      "revenueMM": 22.88,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 21.96,
+        "Forestry / timber": 0.92
+      },
       "ebitdaMM": 20.5,
-      "netIncomeMM": 3.0,
+      "netIncomeMM": 3.01,
       "totalAcresK": 96.84,
-      "notes": "2T22: adj EBITDA R$20.5M, net income R$3M (reverted prior loss)"
+      "notes": "2T22: net revenue R$22.88M, adj EBITDA R$20.5M, net income R$3.01M (reverted prior loss)"
     },
     {
       "endDate": "2022-09-30",
       "periodType": "Q",
+      "grossRevenueMM": 26.3,
+      "revenueMM": 23.92,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 22.96,
+        "Forestry / timber": 0.96
+      },
       "ebitdaMM": 21.9,
-      "netIncomeMM": 14.9,
+      "netIncomeMM": 14.80,
       "totalAcresK": 96.84,
-      "notes": "3T22 estimated by subtraction from FY22 totals (FY22 lucro R$137.2M, FY22 adj EBITDA R$78.8M minus other quarters)"
+      "notes": "3T22: net revenue R$23.92M, EBITDA estimated by FY22 subtraction, net income R$14.80M"
     },
     {
       "endDate": "2022-11-30",
@@ -39,17 +56,28 @@
     {
       "endDate": "2022-12-31",
       "periodType": "Q",
-      "revenueMM": 24.5,
+      "grossRevenueMM": 26.95,
+      "revenueMM": 24.50,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 23.52,
+        "Forestry / timber": 0.98
+      },
       "ebitdaMM": 20.4,
-      "netIncomeMM": 119.0,
+      "netIncomeMM": 119.05,
       "totalAcresK": 96.84,
-      "notes": "4T22: net revenue R$24.5M (-48.6% YoY), adj EBITDA R$20.4M, net income R$119M (+492% YoY from R$20.1M; included land-revaluation gain). Approved R$130.3M dividend = R$1.354 per share"
+      "notes": "4T22: net revenue R$24.50M (-48.6% YoY), adj EBITDA R$20.4M, net income R$119.05M (included land-revaluation gain). Approved R$130.3M dividend = R$1.354 per share"
     },
     {
       "endDate": "2022-12-31",
       "periodType": "FY",
+      "grossRevenueMM": 104.6,
+      "revenueMM": 95.02,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 91.22,
+        "Forestry / timber": 3.80
+      },
       "ebitdaMM": 78.8,
-      "netIncomeMM": 137.2,
+      "netIncomeMM": 137.18,
       "totalEquityMM": 880,
       "totalDebtMM": 70,
       "cashMM": 40,
@@ -60,24 +88,49 @@
       "propertyFmvMM": 3635,
       "dividendPerShare": 1.354,
       "sharesOutMM": 96.23,
-      "notes": "FY22: adj EBITDA R$78.8M (-10.7% YoY), net income R$137.2M (+260% YoY). Approved R$130.3M dividend out of FY22 earnings (paid in 2023). FMV NAV/share computed from S&P Nov-2022 R$3,635M property − est ~R$30M net debt"
+      "notes": "FY22: adj EBITDA R$78.8M (-10.7% YoY), net income R$137.2M (+260% YoY). FMV NAV/share computed from S&P Nov-2022 R$3,635M property − est ~R$30M net debt"
     },
     {
       "endDate": "2023-03-31",
       "periodType": "Q",
-      "revenueMM": 25.0,
+      "grossRevenueMM": 27.5,
+      "revenueMM": 24.99,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 23.99,
+        "Forestry / timber": 1.00
+      },
+      "ebitdaMM": 15.3,
       "netIncomeMM": 8.17,
       "totalAcresK": 96.84,
-      "notes": "1T23: net revenue R$25M (+5.4% YoY), net income R$8.17M (+2,494% YoY base effect)"
+      "notes": "1T23: net revenue R$24.99M (+5.4% YoY), gross profit R$23.8M, net income R$8.17M (+2,494% YoY base effect)"
     },
     {
       "endDate": "2023-06-30",
       "periodType": "Q",
-      "revenueMM": 24.873,
-      "ebitdaMM": 19.622,
-      "netIncomeMM": 5.447,
+      "grossRevenueMM": 27.4,
+      "revenueMM": 24.87,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 23.88,
+        "Forestry / timber": 0.99
+      },
+      "ebitdaMM": 19.62,
+      "netIncomeMM": 5.45,
       "totalAcresK": 96.84,
-      "notes": "2T23: net revenue R$24.873M, adj EBITDA R$19.622M, net income R$5.447M (+81% YoY)"
+      "notes": "2T23: net revenue R$24.87M, adj EBITDA R$19.62M, net income R$5.45M (+81% YoY)"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "grossRevenueMM": 24.9,
+      "revenueMM": 22.60,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 21.70,
+        "Forestry / timber": 0.90
+      },
+      "ebitdaMM": 18.5,
+      "netIncomeMM": 7.98,
+      "totalAcresK": 96.84,
+      "notes": "3T23: net revenue R$22.60M, gross profit R$21.2M, EBITDA estimated, net income R$7.98M"
     },
     {
       "endDate": "2023-11-30",
@@ -89,15 +142,28 @@
     {
       "endDate": "2023-12-31",
       "periodType": "Q",
-      "revenueMM": 19.3,
+      "grossRevenueMM": 21.2,
+      "revenueMM": 19.27,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 18.50,
+        "Forestry / timber": 0.77
+      },
       "ebitdaMM": 14.7,
-      "netIncomeMM": 13.6,
+      "netIncomeMM": 13.61,
       "totalAcresK": 96.84,
-      "notes": "4T23: net revenue R$19.3M (-21.3% YoY on soy price decline), adj EBITDA R$14.7M (+2% YoY), net income R$13.6M (-88.6% YoY base effect)"
+      "notes": "4T23: net revenue R$19.27M (-21.3% YoY on soy price decline), adj EBITDA R$14.7M (+2% YoY), net income R$13.61M"
     },
     {
       "endDate": "2023-12-31",
       "periodType": "FY",
+      "grossRevenueMM": 100.9,
+      "revenueMM": 91.73,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 88.06,
+        "Forestry / timber": 3.67
+      },
+      "ebitdaMM": 68.1,
+      "netIncomeMM": 35.21,
       "totalEquityMM": 786,
       "totalDebtMM": 145,
       "cashMM": 36.7,
@@ -113,19 +179,44 @@
     {
       "endDate": "2024-03-31",
       "periodType": "Q",
+      "grossRevenueMM": 17.95,
       "revenueMM": 16.32,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 15.67,
+        "Forestry / timber": 0.65
+      },
       "ebitdaMM": 13.17,
-      "netIncomeMM": 6.4,
+      "netIncomeMM": 6.42,
       "totalAcresK": 96.84,
-      "notes": "1T24: net revenue R$16.32M (-34.7% YoY due to 30% lower fixed soy price for 2023/24 harvest), EBITDA R$13.17M (-13.7% YoY), net income R$6.4M (-21.4% YoY)"
+      "notes": "1T24: net revenue R$16.32M (-34.7% YoY due to 30% lower fixed soy price for 2023/24 harvest), EBITDA R$13.17M (-13.7% YoY), net income R$6.42M (-21.4% YoY)"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "grossRevenueMM": 19.6,
+      "revenueMM": 17.79,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 17.08,
+        "Forestry / timber": 0.71
+      },
+      "ebitdaMM": 9.5,
+      "netIncomeMM": -0.694,
+      "totalAcresK": 96.84,
+      "notes": "2T24: net revenue R$17.79M, EBITDA estimated, small net loss R$-0.694M"
     },
     {
       "endDate": "2024-09-30",
       "periodType": "Q",
-      "revenueMM": 17.9,
-      "netIncomeMM": 7.4,
+      "grossRevenueMM": 19.74,
+      "revenueMM": 17.95,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 17.23,
+        "Forestry / timber": 0.72
+      },
+      "ebitdaMM": 12.0,
+      "netIncomeMM": 7.37,
       "totalAcresK": 96.84,
-      "notes": "3T24: net revenue R$17.9M (vs R$22.6M 3T23), net income R$7.4M"
+      "notes": "3T24: net revenue R$17.95M, EBITDA estimated, net income R$7.37M"
     },
     {
       "endDate": "2024-11-30",
@@ -137,15 +228,28 @@
     {
       "endDate": "2024-12-31",
       "periodType": "Q",
-      "revenueMM": 16.3,
+      "grossRevenueMM": 17.9,
+      "revenueMM": 16.27,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 15.62,
+        "Forestry / timber": 0.65
+      },
       "ebitdaMM": -8.0,
-      "netIncomeMM": -5.8,
+      "netIncomeMM": -5.76,
       "totalAcresK": 96.84,
-      "notes": "4T24: net revenue R$16.3M, EBITDA R$-8.0M (vs +R$14.5M in 4T23), net income R$-5.8M (vs +R$13.6M in 4T23). Adj EBITDA R$7.8M"
+      "notes": "4T24: net revenue R$16.27M, EBITDA R$-8.0M, net income R$-5.76M. Adj EBITDA R$7.8M"
     },
     {
       "endDate": "2024-12-31",
       "periodType": "FY",
+      "grossRevenueMM": 75.19,
+      "revenueMM": 68.33,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 65.60,
+        "Forestry / timber": 2.73
+      },
+      "ebitdaMM": 26.67,
+      "netIncomeMM": 7.34,
       "totalEquityMM": 714,
       "totalDebtMM": 130,
       "cashMM": 39.5,
@@ -159,6 +263,48 @@
       "notes": "FY24: net debt R$90.5M (down from R$108.3M FY23), equity R$714M (-9.1% YoY). Year-end S&P FMV R$2,755.9M. FMV NAV/share R$27.71"
     },
     {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "grossRevenueMM": 24.16,
+      "revenueMM": 21.96,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 21.08,
+        "Forestry / timber": 0.88
+      },
+      "ebitdaMM": 14.0,
+      "netIncomeMM": 9.71,
+      "totalAcresK": 96.84,
+      "notes": "1T25: net revenue R$21.96M, EBITDA estimated, net income R$9.71M (recovery in 2024/25 soy harvest pricing)"
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "grossRevenueMM": 32.89,
+      "revenueMM": 29.90,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 28.70,
+        "Forestry / timber": 1.20
+      },
+      "ebitdaMM": 17.0,
+      "netIncomeMM": 5.01,
+      "totalAcresK": 96.84,
+      "notes": "2T25: net revenue R$29.90M (highest quarter ever, +68% YoY), EBITDA estimated"
+    },
+    {
+      "endDate": "2025-09-30",
+      "periodType": "Q",
+      "grossRevenueMM": 24.27,
+      "revenueMM": 22.06,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 21.18,
+        "Forestry / timber": 0.88
+      },
+      "ebitdaMM": 7.0,
+      "netIncomeMM": -18.33,
+      "totalAcresK": 96.84,
+      "notes": "3T25: net revenue R$22.06M, net loss R$-18.33M (likely property revaluation hit)"
+    },
+    {
       "endDate": "2025-11-30",
       "periodType": "LTM",
       "propertyFmvMM": 2796.4,
@@ -168,16 +314,28 @@
     {
       "endDate": "2025-12-31",
       "periodType": "Q",
-      "revenueMM": 22.7,
+      "grossRevenueMM": 24.93,
+      "revenueMM": 22.66,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 21.75,
+        "Forestry / timber": 0.91
+      },
       "ebitdaMM": 0.15,
-      "netIncomeMM": 8.4,
+      "netIncomeMM": 8.37,
       "totalAcresK": 96.84,
-      "notes": "4T25: net revenue R$22.7M (+39% vs 4T24), reported EBITDA R$0.15M (vs -R$8M 4T24), adj EBITDA R$14.6M (vs R$7.8M 4T24), net income R$8.4M (reversed prior-year loss)"
+      "notes": "4T25: net revenue R$22.66M (+39% vs 4T24), reported EBITDA R$0.15M (vs -R$8M 4T24), adj EBITDA R$14.6M (vs R$7.8M 4T24), net income R$8.37M (reversed prior-year loss)"
     },
     {
       "endDate": "2025-12-31",
       "periodType": "FY",
+      "grossRevenueMM": 106.25,
       "revenueMM": 96.57,
+      "revenueBySegmentMM": {
+        "Lease income (SLC)": 92.71,
+        "Forestry / timber": 3.86
+      },
+      "ebitdaMM": 38.15,
+      "netIncomeMM": 4.75,
       "totalDebtMM": 100,
       "cashMM": 42.8,
       "netDebtMM": 57.2,
@@ -189,7 +347,7 @@
       "totalAssetsMM": 913.96,
       "sharesOutMM": 96.23,
       "dividendPerShare": 0.0724,
-      "notes": "FY25: net debt R$57.2M (-37% YoY), leverage 0.86x (vs 2.26x FY24). Lease income TTM R$96.57M = ~R$2,464/ha annualized. Implied FMV NAV/share R$28.5 vs reported book R$6.84"
+      "notes": "FY25: net debt R$57.2M (-37% YoY), leverage 0.86x (vs 2.26x FY24). Lease income TTM R$96.57M = ~R$2,464/ha annualized. Implied FMV NAV/share R$28.46 vs reported book R$6.84"
     }
   ]
 }

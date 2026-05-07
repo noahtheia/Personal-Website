@@ -18,7 +18,17 @@ const PeriodSchema = z.object({
   // LTM = trailing twelve months.
   periodType: z.enum(["Q", "FY", "H", "LTM"]),
   // ---- Income statement (filing-currency $ millions) ----
+  // Gross revenue (before taxes/deductions). Useful for landlord-style
+  // operators where the gross-to-net spread is just PIS/COFINS in Brazil
+  // or VAT-equivalent elsewhere.
+  grossRevenueMM: z.number().optional(),
   revenueMM: z.number().optional(),
+  // Optional revenue breakdown by segment / product line. Keys are
+  // free-form (e.g. "Lease income (SLC)", "Forestry", "Cattle sales") and
+  // values are filing-currency $M for the period. Useful for operators
+  // with multi-segment revenue (BrasilAgro, Adecoagro, etc.) — the
+  // values should sum to revenueMM (or grossRevenueMM if pre-tax).
+  revenueBySegmentMM: z.record(z.string(), z.number()).optional(),
   ebitdaMM: z.number().optional(),
   // Net Operating Income (REIT-style). For agribusiness operators
   // without a true REIT NOI line, can be left out.
