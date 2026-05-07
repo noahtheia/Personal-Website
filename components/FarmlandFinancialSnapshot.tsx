@@ -11,7 +11,9 @@ type ChartId =
   | "propertyValue"
   | "navPerShare"
   | "acreage"
-  | "capRate";
+  | "capRate"
+  | "dividends"
+  | "shares";
 
 const CHART_DEFS: { id: ChartId; label: string; description: string }[] = [
   {
@@ -48,6 +50,18 @@ const CHART_DEFS: { id: ChartId; label: string; description: string }[] = [
     label: "Cap-Rate",
     description:
       "Market cap rate (EBITDA ÷ EV, daily) vs NAV cap rate (EBITDA ÷ property FMV, step).",
+  },
+  {
+    id: "dividends",
+    label: "Dividends",
+    description:
+      "Dividend per share each fiscal year, with running yield on right axis (DPS ÷ year-end share price).",
+  },
+  {
+    id: "shares",
+    label: "Shares",
+    description:
+      "Shares outstanding each fiscal year — buyback / dilution trend in million-share units.",
   },
 ];
 
@@ -832,6 +846,8 @@ function buildAllSeries(
     navPerShare: null,
     acreage: null,
     capRate: null,
+    dividends: null,
+    shares: null,
   };
 
   // Pre-build aux series we'll need: daily market cap, daily EV (using
@@ -1108,6 +1124,79 @@ function buildAllSeries(
         }
         result.capRate = capSeries;
       }
+    }
+
+    // ---- Dividends chart ----
+    // FY-cadence step series of dividend per share (filing currency).
+    // Secondary axis = running yield (DPS ÷ year-end stock price)
+    // when both are available.
+    const dpsRows = financials.periods
+      .filter(
+        (p) =>
+          p.periodType === "FY" && typeof p.dividendPerShare === "number",
+      )
+      .sort((a, b) => a.endDate.localeCompare(b.endDate));
+    if (dpsRows.length > 0) {
+      const divSeries: Series = {
+        label: "Dividend / share",
+        description: `DPS in ${ccy} per fiscal year`,
+        unit: { kind: "currency", ccy },
+        kind: "step",
+        points: dpsRows.map((p) => ({
+          date: p.endDate,
+          value: p.dividendPerShare as number,
+        })),
+      };
+
+      // Compute trailing yield at each FY end using year-end close
+      // (when price history exists in the issuer's listing currency
+      // and the conversion to filing currency is straightforward).
+      if (history && history.points.length > 0) {
+        // Map history to filing currency where they differ. For
+        // simplicity assume listing == filing here; price-currency
+        // mismatches (GBp / DKK) are uncommon among dividend payers.
+        const yieldPoints: DatedPoint[] = [];
+        for (const p of dpsRows) {
+          const priceAt = findValueAtOrBeforeDated(
+            history.points.map((h) => ({ date: h.date, value: h.close })),
+            p.endDate,
+          );
+          if (priceAt !== null && priceAt > 0) {
+            yieldPoints.push({
+              date: p.endDate,
+              value: ((p.dividendPerShare as number) / priceAt) * 100,
+            });
+          }
+        }
+        if (yieldPoints.length > 0) {
+          divSeries.secondary = {
+            label: "Dividend yield",
+            unit: { kind: "percent" },
+            points: yieldPoints,
+          };
+        }
+      }
+      result.dividends = divSeries;
+    }
+
+    // ---- Shares-outstanding trend ----
+    const shareRows = financials.periods
+      .filter(
+        (p) =>
+          p.periodType === "FY" && typeof p.sharesOutMM === "number",
+      )
+      .sort((a, b) => a.endDate.localeCompare(b.endDate));
+    if (shareRows.length > 0) {
+      result.shares = {
+        label: "Shares outstanding",
+        description: "Year-end shares (millions)",
+        unit: { kind: "thousands" },
+        kind: "step",
+        points: shareRows.map((p) => ({
+          date: p.endDate,
+          value: p.sharesOutMM as number,
+        })),
+      };
     }
   }
 
