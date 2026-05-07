@@ -38,6 +38,16 @@ export default async function PublicFarmlandPage() {
           (USD millions except per-share and per-acre · non-USD listings
           translated to USD at live FX)
         </p>
+        <p className="mt-2 text-[11px] uppercase tracking-wider text-muted">
+          Last updated{" "}
+          <time dateTime={fetchedAt}>
+            {new Date(fetchedAt).toLocaleString("en-US", {
+              dateStyle: "medium",
+              timeStyle: "short",
+            })}
+          </time>{" "}
+          · {comps.length} tickers
+        </p>
       </header>
 
       <FarmlandComps rows={comps} />

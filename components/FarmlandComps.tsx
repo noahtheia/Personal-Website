@@ -624,6 +624,10 @@ function formatValue(val: number, format: Format): string {
       return `$${rounded.toLocaleString("en-US")}`;
     }
     case "pct":
+      // Render negative percentages as parenthesized values (matches the
+      // intDollarSigned convention) so the leading "(" doesn't drift the
+      // whole column out of alignment with positive %s.
+      if (val < 0) return `(${Math.abs(val).toFixed(1)}%)`;
       return `${val.toFixed(1)}%`;
     case "mult":
       return `${val.toFixed(2)}×`;
