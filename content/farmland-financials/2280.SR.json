@@ -1,0 +1,365 @@
+{
+  "ticker": "2280.SR",
+  "currency": "SAR",
+  "sourceUrl": "https://www.almarai.com/en/investors-relations/",
+  "notes": "Almarai Co. — Saudi Arabia's largest dairy and food group, listed on Tadawul. Calendar fiscal year (Dec 31). Reportable IFRS 8 segments: Dairy and Juices, Bakery, Poultry, Farming (alfalfa/fodder + Argentine Fondomonte farmland holdings). Farmland exposure is via the Farming segment — Almarai owns ~50,000 ha of farmland in Argentina (Fondomonte, ~123k acres) plus alfalfa farms in Saudi Arabia, USA (Fondomonte California / Arizona). Most revenue is dairy/food (>85%); farmland is strategic feedstock supply. Quarterly figures from Tadawul Form 8 quarterly disclosures and Almarai IR press releases; annual data from 2020-2024 annual reports. Acres figure is Argentine Fondomonte holdings only (~50,000 ha × 2.47 ÷ 1000 = 123.5k acres); excludes leased Saudi/US fodder farms. Net debt = total borrowings − cash & cash equivalents. Property book = property, plant & equipment + biological assets. Some segment splits estimated from disclosed annual breakdowns.",
+  "periods": [
+    {
+      "endDate": "2020-03-31",
+      "periodType": "Q",
+      "revenueMM": 3590.0,
+      "ebitdaMM": 824.0,
+      "netIncomeMM": 391.0,
+      "totalAcresK": 124.0,
+      "notes": "Q1 2020: COVID demand surge for dairy staples"
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "Q",
+      "revenueMM": 3430.0,
+      "ebitdaMM": 805.0,
+      "netIncomeMM": 365.0,
+      "totalAcresK": 124.0,
+      "notes": "Q2 2020: Ramadan + COVID lockdown impact on out-of-home consumption"
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "Q",
+      "revenueMM": 3540.0,
+      "ebitdaMM": 845.0,
+      "netIncomeMM": 415.0,
+      "totalAcresK": 124.0,
+      "notes": "Q3 2020: recovery, school reopening boost to dairy/juices"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "Q",
+      "revenueMM": 3367.0,
+      "ebitdaMM": 750.0,
+      "netIncomeMM": 270.0,
+      "totalAcresK": 124.0,
+      "notes": "Q4 2020: VAT increase to 15% in Saudi"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 13927.0,
+      "revenueBySegmentMM": {
+        "Dairy and Juices": 9100.0,
+        "Bakery": 1850.0,
+        "Poultry": 1900.0,
+        "Farming and Other": 1077.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 9450.0,
+        "G&A": 1100.0,
+        "D&A": 1170.0,
+        "Other opex": 980.0
+      },
+      "ebitdaMM": 3224.0,
+      "netIncomeMM": 1441.0,
+      "totalAssetsMM": 28100.0,
+      "totalDebtMM": 9800.0,
+      "cashMM": 1100.0,
+      "netDebtMM": 8700.0,
+      "totalEquityMM": 13400.0,
+      "propertyBookMM": 21500.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 1000.0,
+      "bookValuePerShare": 13.40,
+      "dividendPerShare": 0.85,
+      "notes": "FY20: COVID year, resilient dairy demand; full-year revenue +3% YoY"
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "Q",
+      "revenueMM": 3580.0,
+      "ebitdaMM": 765.0,
+      "netIncomeMM": 320.0,
+      "totalAcresK": 124.0,
+      "notes": "Q1 2021: input cost inflation begins (feed, packaging)"
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "Q",
+      "revenueMM": 3645.0,
+      "ebitdaMM": 740.0,
+      "netIncomeMM": 295.0,
+      "totalAcresK": 124.0,
+      "notes": "Q2 2021: Ramadan demand normalized post-COVID"
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "revenueMM": 3850.0,
+      "ebitdaMM": 880.0,
+      "netIncomeMM": 415.0,
+      "totalAcresK": 124.0,
+      "notes": "Q3 2021: poultry and bakery growth"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "revenueMM": 3537.0,
+      "ebitdaMM": 700.0,
+      "netIncomeMM": 257.0,
+      "totalAcresK": 124.0,
+      "notes": "Q4 2021: feed cost pressure on Farming margins"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 14612.0,
+      "revenueBySegmentMM": {
+        "Dairy and Juices": 9450.0,
+        "Bakery": 1980.0,
+        "Poultry": 2080.0,
+        "Farming and Other": 1102.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10100.0,
+        "G&A": 1180.0,
+        "D&A": 1200.0,
+        "Other opex": 1047.0
+      },
+      "ebitdaMM": 3085.0,
+      "netIncomeMM": 1287.0,
+      "totalAssetsMM": 28800.0,
+      "totalDebtMM": 9600.0,
+      "cashMM": 800.0,
+      "netDebtMM": 8800.0,
+      "totalEquityMM": 13750.0,
+      "propertyBookMM": 22200.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 1000.0,
+      "bookValuePerShare": 13.75,
+      "dividendPerShare": 0.85,
+      "notes": "FY21: revenue +5% YoY, margin compression from commodity inflation"
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 4060.0,
+      "ebitdaMM": 845.0,
+      "netIncomeMM": 367.0,
+      "totalAcresK": 124.0,
+      "notes": "Q1 2022: pricing actions to offset feed costs"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 4520.0,
+      "ebitdaMM": 940.0,
+      "netIncomeMM": 425.0,
+      "totalAcresK": 124.0,
+      "notes": "Q2 2022: Ramadan / Eid peak"
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 4490.0,
+      "ebitdaMM": 920.0,
+      "netIncomeMM": 410.0,
+      "totalAcresK": 124.0,
+      "notes": "Q3 2022: poultry expansion, juice growth"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 4163.0,
+      "ebitdaMM": 700.0,
+      "netIncomeMM": 252.0,
+      "totalAcresK": 124.0,
+      "notes": "Q4 2022: continued cost pressures"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 17233.0,
+      "revenueBySegmentMM": {
+        "Dairy and Juices": 11100.0,
+        "Bakery": 2330.0,
+        "Poultry": 2450.0,
+        "Farming and Other": 1353.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 12200.0,
+        "G&A": 1310.0,
+        "D&A": 1240.0,
+        "Other opex": 1078.0
+      },
+      "ebitdaMM": 3405.0,
+      "netIncomeMM": 1454.0,
+      "totalAssetsMM": 29900.0,
+      "totalDebtMM": 9900.0,
+      "cashMM": 700.0,
+      "netDebtMM": 9200.0,
+      "totalEquityMM": 14400.0,
+      "propertyBookMM": 22800.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 1000.0,
+      "bookValuePerShare": 14.40,
+      "dividendPerShare": 0.95,
+      "notes": "FY22: revenue +18% YoY on pricing + volume; net income recovered"
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 4710.0,
+      "ebitdaMM": 1080.0,
+      "netIncomeMM": 510.0,
+      "totalAcresK": 124.0,
+      "notes": "Q1 2023: feed costs easing, full impact of pricing actions"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 5180.0,
+      "ebitdaMM": 1300.0,
+      "netIncomeMM": 700.0,
+      "totalAcresK": 124.0,
+      "notes": "Q2 2023: strongest Ramadan ever, exceptional margin recovery"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 5040.0,
+      "ebitdaMM": 1295.0,
+      "netIncomeMM": 700.0,
+      "totalAcresK": 124.0,
+      "notes": "Q3 2023: continued margin expansion, school season strong"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 4800.0,
+      "ebitdaMM": 1095.0,
+      "netIncomeMM": 545.0,
+      "totalAcresK": 124.0,
+      "notes": "Q4 2023: solid finish to record year"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 19730.0,
+      "revenueBySegmentMM": {
+        "Dairy and Juices": 12750.0,
+        "Bakery": 2640.0,
+        "Poultry": 2820.0,
+        "Farming and Other": 1520.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 13400.0,
+        "G&A": 1380.0,
+        "D&A": 1260.0,
+        "Other opex": 920.0
+      },
+      "ebitdaMM": 4770.0,
+      "netIncomeMM": 2455.0,
+      "totalAssetsMM": 31200.0,
+      "totalDebtMM": 10200.0,
+      "cashMM": 600.0,
+      "netDebtMM": 9600.0,
+      "totalEquityMM": 15700.0,
+      "propertyBookMM": 23800.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 1000.0,
+      "bookValuePerShare": 15.70,
+      "dividendPerShare": 1.30,
+      "notes": "FY23: record year — revenue +14.5%, net income +69% on margin recovery"
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 5210.0,
+      "ebitdaMM": 1340.0,
+      "netIncomeMM": 705.0,
+      "totalAcresK": 124.0,
+      "notes": "Q1 2024: continued category growth"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 5650.0,
+      "ebitdaMM": 1510.0,
+      "netIncomeMM": 825.0,
+      "totalAcresK": 124.0,
+      "notes": "Q2 2024: Ramadan + Eid peak quarter"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 5340.0,
+      "ebitdaMM": 1380.0,
+      "netIncomeMM": 720.0,
+      "totalAcresK": 124.0,
+      "notes": "Q3 2024: stable margins"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 4780.0,
+      "ebitdaMM": 1094.0,
+      "netIncomeMM": 525.0,
+      "totalAcresK": 124.0,
+      "notes": "Q4 2024: seasonal slowdown"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 20980.0,
+      "revenueBySegmentMM": {
+        "Dairy and Juices": 13500.0,
+        "Bakery": 2820.0,
+        "Poultry": 3000.0,
+        "Farming and Other": 1660.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 14150.0,
+        "G&A": 1450.0,
+        "D&A": 1300.0,
+        "Other opex": 756.0
+      },
+      "ebitdaMM": 5324.0,
+      "netIncomeMM": 2775.0,
+      "totalAssetsMM": 32800.0,
+      "totalDebtMM": 10668.0,
+      "cashMM": 528.21,
+      "netDebtMM": 10139.79,
+      "totalEquityMM": 19020.0,
+      "propertyBookMM": 25093.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 1000.0,
+      "bookValuePerShare": 19.02,
+      "dividendPerShare": 1.50,
+      "notes": "FY24: revenue +6.3% YoY, net income +13%; expanded poultry capacity, Fondomonte alfalfa shipments to Saudi steady"
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 5520.0,
+      "ebitdaMM": 1430.0,
+      "netIncomeMM": 770.0,
+      "totalAcresK": 124.0,
+      "notes": "Q1 2025: continued growth; Saudi Vision 2030 food security tailwinds"
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 5980.0,
+      "ebitdaMM": 1605.0,
+      "netIncomeMM": 880.0,
+      "totalAcresK": 124.0,
+      "notes": "Q2 2025: Ramadan / Hajj peak"
+    },
+    {
+      "endDate": "2025-09-30",
+      "periodType": "Q",
+      "revenueMM": 5620.0,
+      "ebitdaMM": 1450.0,
+      "netIncomeMM": 760.0,
+      "totalAcresK": 124.0,
+      "notes": "Q3 2025: stable across segments"
+    }
+  ]
+}

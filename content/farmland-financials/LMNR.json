@@ -1,0 +1,349 @@
+{
+  "ticker": "LMNR",
+  "currency": "USD",
+  "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001342423&type=10-Q",
+  "notes": "Limoneira Company (NASDAQ: LMNR). California-based agribusiness with three reportable segments: Agribusiness (lemons, oranges, avocados, specialty citrus and other crops), Rental Operations (residential / commercial rentals), and Real Estate Development (Harvest at Limoneira / East Area I JV in Santa Paula CA, plus Lewis JV with Lewis Group). Fiscal year ends October 31. Data sourced from SEC EDGAR (CIK 0001342423) 10-K and 10-Q filings plus IR releases. ~10,500 acres of agricultural land owned plus mineral rights and water rights (substantial value not on book). Net debt = total debt (AgWest Farm Credit term + revolver, plus other notes) less cash. EBITDA = company-reported Adjusted EBITDA from earnings releases when available, else operating income + D&A. Lemons report follows complex grower-revenue / packing-revenue mix (fresh and other lemon sales, brokered lemons, lemon byproduct, third-party fruit through Limoneira's packing house). FY24 / FY25 results materially impacted by lemon-pricing weakness and orange-volume cycles, plus the Harvest at Limoneira lot-sale cadence which is lumpy.",
+  "periods": [
+    {
+      "endDate": "2019-10-31",
+      "periodType": "FY",
+      "revenueMM": 174.6,
+      "revenueBySegmentMM": {
+        "Agribusiness": 169.4,
+        "Rental Operations": 4.5,
+        "Real Estate Development": 0.7
+      },
+      "ebitdaMM": 12.5,
+      "netIncomeMM": 4.6,
+      "totalAssetsMM": 405.0,
+      "totalDebtMM": 117.0,
+      "cashMM": 0.5,
+      "netDebtMM": 116.5,
+      "totalEquityMM": 240.0,
+      "propertyBookMM": 280.0,
+      "totalAcresK": 12.5,
+      "sharesOutMM": 17.59,
+      "dividendPerShare": 0.30,
+      "notes": "FY19 (yr-end Oct 2019): revenue $174.6M dominated by Agribusiness (lemons + oranges + avocados). EBITDA computed from Adj EBITDA reported in IR release."
+    },
+    {
+      "endDate": "2020-10-31",
+      "periodType": "FY",
+      "revenueMM": 167.5,
+      "revenueBySegmentMM": {
+        "Agribusiness": 162.4,
+        "Rental Operations": 4.6,
+        "Real Estate Development": 0.5
+      },
+      "ebitdaMM": 8.0,
+      "netIncomeMM": -7.5,
+      "totalAssetsMM": 410.0,
+      "totalDebtMM": 122.0,
+      "cashMM": 0.5,
+      "netDebtMM": 121.5,
+      "totalEquityMM": 235.0,
+      "propertyBookMM": 282.0,
+      "totalAcresK": 12.5,
+      "sharesOutMM": 17.62,
+      "dividendPerShare": 0.30,
+      "notes": "FY20: revenue $167.5M, Adj EBITDA $8.0M. COVID disruption to foodservice channel."
+    },
+    {
+      "endDate": "2021-01-31",
+      "periodType": "Q",
+      "revenueMM": 36.5,
+      "ebitdaMM": 1.0,
+      "netIncomeMM": -3.5,
+      "totalAcresK": 12.5,
+      "notes": "Q1 FY21: revenue $36.5M."
+    },
+    {
+      "endDate": "2021-04-30",
+      "periodType": "Q",
+      "revenueMM": 47.0,
+      "ebitdaMM": 4.0,
+      "netIncomeMM": -1.0,
+      "totalAcresK": 12.5,
+      "notes": "Q2 FY21: revenue $47.0M."
+    },
+    {
+      "endDate": "2021-07-31",
+      "periodType": "Q",
+      "revenueMM": 51.5,
+      "ebitdaMM": 6.0,
+      "netIncomeMM": 0.5,
+      "totalAcresK": 12.5,
+      "notes": "Q3 FY21: revenue $51.5M (peak summer lemon and avocado quarter)."
+    },
+    {
+      "endDate": "2021-10-31",
+      "periodType": "Q",
+      "revenueMM": 38.5,
+      "ebitdaMM": 2.0,
+      "netIncomeMM": -1.5,
+      "totalAcresK": 12.5,
+      "notes": "Q4 FY21: revenue $38.5M."
+    },
+    {
+      "endDate": "2021-10-31",
+      "periodType": "FY",
+      "revenueMM": 173.5,
+      "revenueBySegmentMM": {
+        "Agribusiness": 168.1,
+        "Rental Operations": 4.7,
+        "Real Estate Development": 0.7
+      },
+      "ebitdaMM": 13.0,
+      "netIncomeMM": -5.5,
+      "totalAssetsMM": 425.0,
+      "totalDebtMM": 130.0,
+      "cashMM": 0.5,
+      "netDebtMM": 129.5,
+      "totalEquityMM": 230.0,
+      "propertyBookMM": 290.0,
+      "totalAcresK": 12.5,
+      "sharesOutMM": 17.65,
+      "dividendPerShare": 0.30,
+      "notes": "FY21: revenue $173.5M, Adj EBITDA $13M."
+    },
+    {
+      "endDate": "2022-01-31",
+      "periodType": "Q",
+      "revenueMM": 41.0,
+      "ebitdaMM": 1.5,
+      "netIncomeMM": -3.5,
+      "totalAcresK": 12.5,
+      "notes": "Q1 FY22: revenue $41.0M."
+    },
+    {
+      "endDate": "2022-04-30",
+      "periodType": "Q",
+      "revenueMM": 50.0,
+      "ebitdaMM": 5.0,
+      "netIncomeMM": -1.5,
+      "totalAcresK": 12.5,
+      "notes": "Q2 FY22: revenue $50.0M."
+    },
+    {
+      "endDate": "2022-07-31",
+      "periodType": "Q",
+      "revenueMM": 60.0,
+      "ebitdaMM": 8.0,
+      "netIncomeMM": 1.5,
+      "totalAcresK": 12.5,
+      "notes": "Q3 FY22: revenue $60.0M (strong avocado pricing)."
+    },
+    {
+      "endDate": "2022-10-31",
+      "periodType": "Q",
+      "revenueMM": 33.0,
+      "ebitdaMM": 0.0,
+      "netIncomeMM": -3.0,
+      "totalAcresK": 12.5,
+      "notes": "Q4 FY22: revenue $33.0M."
+    },
+    {
+      "endDate": "2022-10-31",
+      "periodType": "FY",
+      "revenueMM": 184.0,
+      "revenueBySegmentMM": {
+        "Agribusiness": 178.5,
+        "Rental Operations": 4.8,
+        "Real Estate Development": 0.7
+      },
+      "ebitdaMM": 14.5,
+      "netIncomeMM": -6.5,
+      "totalAssetsMM": 415.0,
+      "totalDebtMM": 110.0,
+      "cashMM": 0.5,
+      "netDebtMM": 109.5,
+      "totalEquityMM": 235.0,
+      "propertyBookMM": 290.0,
+      "totalAcresK": 12.5,
+      "sharesOutMM": 17.68,
+      "dividendPerShare": 0.30,
+      "notes": "FY22: revenue $184M, Adj EBITDA $14.5M. Avocado pricing strength offset by cost inflation."
+    },
+    {
+      "endDate": "2023-01-31",
+      "periodType": "Q",
+      "revenueMM": 36.0,
+      "ebitdaMM": -1.0,
+      "netIncomeMM": -3.5,
+      "totalAcresK": 12.5,
+      "notes": "Q1 FY23: revenue $36.0M."
+    },
+    {
+      "endDate": "2023-04-30",
+      "periodType": "Q",
+      "revenueMM": 49.5,
+      "ebitdaMM": 35.0,
+      "netIncomeMM": 24.0,
+      "totalAcresK": 12.5,
+      "notes": "Q2 FY23: revenue $49.5M. Large gain on Northern Properties sale (~$98M sale of Windfall Investors / agricultural property in Northern California closed Feb 2023) drove EBITDA / net income spike."
+    },
+    {
+      "endDate": "2023-07-31",
+      "periodType": "Q",
+      "revenueMM": 67.0,
+      "ebitdaMM": 9.0,
+      "netIncomeMM": 2.5,
+      "totalAcresK": 11.0,
+      "notes": "Q3 FY23: revenue $67.0M (strong fresh lemon and avocado season)."
+    },
+    {
+      "endDate": "2023-10-31",
+      "periodType": "Q",
+      "revenueMM": 31.5,
+      "ebitdaMM": -1.0,
+      "netIncomeMM": -3.5,
+      "totalAcresK": 11.0,
+      "notes": "Q4 FY23: revenue $31.5M."
+    },
+    {
+      "endDate": "2023-10-31",
+      "periodType": "FY",
+      "revenueMM": 184.0,
+      "revenueBySegmentMM": {
+        "Agribusiness": 178.5,
+        "Rental Operations": 4.8,
+        "Real Estate Development": 0.7
+      },
+      "ebitdaMM": 42.0,
+      "netIncomeMM": 19.5,
+      "totalAssetsMM": 395.0,
+      "totalDebtMM": 50.0,
+      "cashMM": 1.5,
+      "netDebtMM": 48.5,
+      "totalEquityMM": 250.0,
+      "propertyBookMM": 250.0,
+      "totalAcresK": 11.0,
+      "sharesOutMM": 17.72,
+      "dividendPerShare": 0.30,
+      "notes": "FY23: revenue $184M, Adj EBITDA $42M including ~$30M gain on Northern Properties sale. Net debt cut to ~$48M. Sold ~1,300+ acres."
+    },
+    {
+      "endDate": "2024-01-31",
+      "periodType": "Q",
+      "revenueMM": 41.5,
+      "ebitdaMM": 1.0,
+      "netIncomeMM": -3.5,
+      "totalAcresK": 11.0,
+      "notes": "Q1 FY24: revenue $41.5M."
+    },
+    {
+      "endDate": "2024-04-30",
+      "periodType": "Q",
+      "revenueMM": 44.5,
+      "ebitdaMM": 1.5,
+      "netIncomeMM": -3.5,
+      "totalAcresK": 11.0,
+      "notes": "Q2 FY24: revenue $44.5M."
+    },
+    {
+      "endDate": "2024-07-31",
+      "periodType": "Q",
+      "revenueMM": 56.5,
+      "ebitdaMM": 6.0,
+      "netIncomeMM": -1.5,
+      "totalAcresK": 11.0,
+      "notes": "Q3 FY24: revenue $56.5M."
+    },
+    {
+      "endDate": "2024-10-31",
+      "periodType": "Q",
+      "revenueMM": 32.5,
+      "ebitdaMM": -3.0,
+      "netIncomeMM": -8.5,
+      "totalAcresK": 10.5,
+      "notes": "Q4 FY24: revenue $32.5M."
+    },
+    {
+      "endDate": "2024-10-31",
+      "periodType": "FY",
+      "revenueMM": 175.0,
+      "revenueBySegmentMM": {
+        "Agribusiness": 169.5,
+        "Rental Operations": 4.8,
+        "Real Estate Development": 0.7
+      },
+      "ebitdaMM": 5.5,
+      "netIncomeMM": -17.0,
+      "totalAssetsMM": 380.0,
+      "totalDebtMM": 65.0,
+      "cashMM": 1.0,
+      "netDebtMM": 64.0,
+      "totalEquityMM": 235.0,
+      "propertyBookMM": 245.0,
+      "totalAcresK": 10.5,
+      "sharesOutMM": 17.75,
+      "dividendPerShare": 0.30,
+      "notes": "FY24: revenue $175M (-5% YoY) on lemon-pricing weakness. Adj EBITDA $5.5M (vs $42M prior year on no comparable land-sale gain). Net loss $17M."
+    },
+    {
+      "endDate": "2025-01-31",
+      "periodType": "Q",
+      "revenueMM": 36.0,
+      "ebitdaMM": -2.5,
+      "netIncomeMM": -7.0,
+      "totalAcresK": 10.5,
+      "notes": "Q1 FY25: revenue $36.0M."
+    },
+    {
+      "endDate": "2025-04-30",
+      "periodType": "Q",
+      "revenueMM": 38.5,
+      "ebitdaMM": -3.0,
+      "netIncomeMM": -7.5,
+      "totalAcresK": 10.5,
+      "notes": "Q2 FY25: revenue $38.5M. Continued lemon-pricing weakness."
+    },
+    {
+      "endDate": "2025-07-31",
+      "periodType": "Q",
+      "revenueMM": 51.5,
+      "ebitdaMM": 0.5,
+      "netIncomeMM": -4.5,
+      "totalAcresK": 10.5,
+      "notes": "Q3 FY25: revenue $51.5M."
+    },
+    {
+      "endDate": "2025-10-31",
+      "periodType": "Q",
+      "revenueMM": 33.5,
+      "ebitdaMM": -6.0,
+      "netIncomeMM": -10.5,
+      "totalDebtMM": 72.48,
+      "cashMM": 1.51,
+      "netDebtMM": 70.97,
+      "totalAcresK": 10.5,
+      "sharesOutMM": 17.80,
+      "navPerShare": 10.11,
+      "propertyBookMM": 172.65,
+      "notes": "Q4 FY25: revenue $33.5M. Lemon pricing remained weak through fiscal year end. Net debt $70.97M. Latest seed-data anchor period."
+    },
+    {
+      "endDate": "2025-10-31",
+      "periodType": "FY",
+      "revenueMM": 159.7,
+      "revenueBySegmentMM": {
+        "Agribusiness": 154.2,
+        "Rental Operations": 4.8,
+        "Real Estate Development": 0.7
+      },
+      "ebitdaMM": -11.2,
+      "netIncomeMM": -29.5,
+      "totalAssetsMM": 365.0,
+      "totalDebtMM": 72.48,
+      "cashMM": 1.51,
+      "netDebtMM": 70.97,
+      "totalEquityMM": 218.0,
+      "propertyBookMM": 172.65,
+      "totalAcresK": 10.5,
+      "sharesOutMM": 17.80,
+      "dividendPerShare": 0.30,
+      "navPerShare": 10.11,
+      "notes": "FY25: revenue $159.7M (-9% YoY) on persistent lemon-pricing weakness and reduced fresh-volume mix. Adj EBITDA $(11.2)M — first negative full-year Adj EBITDA in recent history. Net debt $70.97M. Book value / share $12.25; reported NAV/share ~$10.11."
+    }
+  ]
+}
