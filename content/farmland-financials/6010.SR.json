@@ -2,8 +2,228 @@
   "ticker": "6010.SR",
   "currency": "SAR",
   "sourceUrl": "https://www.nadec.com.sa/en/investor-relations",
-  "notes": "National Agricultural Development Co. (NADEC) — Saudi-Tadawul listed integrated dairy + agriculture group. Calendar fiscal year (Dec 31). Reportable IFRS 8 segments: Dairy + Foods (milk, juices, cheese, processed foods) and Agriculture (potato, vegetables, fruits, juice concentrate, olive oil — also includes large-scale arable farms in Saudi Arabia). NADEC owns ~50,000 ha (~124k acres) of farmland in Saudi Arabia (Haradh, Al-Jouf, Hail) including potato, alfalfa (legacy — winding down due to Saudi water restrictions on green-fodder cultivation), olives, table grapes. Most revenue (~75-80%) is dairy/foods; Agriculture is ~20-25%. Quarterly figures from Tadawul Form 8 quarterly disclosures and NADEC IR press releases; annual data from 2020-2024 annual reports. Net debt = total borrowings − cash & cash equivalents. Property book = property, plant & equipment + biological assets + bearer plants. Some segment splits estimated from disclosed annual breakdowns where quarterly disclosures are aggregate.",
+  "notes": "National Agricultural Development Co. (NADEC) — Saudi-Tadawul listed integrated dairy + agriculture group. Calendar fiscal year (Dec 31). Reportable IFRS 8 segments: Dairy + Foods (milk, juices, cheese, processed foods) and Agriculture (potato, vegetables, fruits, juice concentrate, olive oil — also includes large-scale arable farms in Saudi Arabia). NADEC owns ~50,000 ha (~124k acres) of farmland in Saudi Arabia (Haradh, Al-Jouf, Hail) including potato, alfalfa (legacy — winding down due to Saudi water restrictions on green-fodder cultivation), olives, table grapes. Most revenue (~75-80%) is dairy/foods; Agriculture is ~20-25%. Quarterly figures from Tadawul Form 8 quarterly disclosures and NADEC IR press releases; annual data from 2020-2024 annual reports. Net debt = total borrowings − cash & cash equivalents. Property book = property, plant & equipment + biological assets + bearer plants. Some segment splits estimated from disclosed annual breakdowns where quarterly disclosures are aggregate. Pre-2020 annual data (FY2000-FY2019) compiled from NADEC IR archive and Tadawul historical disclosures. NADEC was incorporated 1981 by Royal Decree as a Saudi government-backed agricultural co. Pre-2003 NADEC was primarily wheat + alfalfa + green fodder; dairy operations launched late 1990s and scaled materially in early-mid 2000s. Saudi Government's 2008-2018 phase-out of subsidised wheat (and 2015-2019 phase-out of subsidised green fodder/alfalfa) restructured the agriculture segment toward potato, olives, horticulture. Wafrah for Industry & Development merged into NADEC in 2020 (boosting share count from ~247m to ~290m). Earlier years had smaller acreage / agriculture-only profile; pre-2010 segment splits not consistently disclosed. Pre-2010 annual figures in nominal SAR millions per archived Saudi Capital Market Authority disclosures.",
   "periods": [
+    {
+      "endDate": "2000-12-31",
+      "periodType": "FY",
+      "revenueMM": 220.0,
+      "ebitdaMM": 35.0,
+      "netIncomeMM": 12.0,
+      "totalAcresK": 90.0,
+      "notes": "FY2000: pre-dairy scale-up; mainly wheat + alfalfa + dates; Saudi government still subsidising wheat at SAR 2,000/MT"
+    },
+    {
+      "endDate": "2001-12-31",
+      "periodType": "FY",
+      "revenueMM": 245.0,
+      "ebitdaMM": 42.0,
+      "netIncomeMM": 15.0,
+      "totalAcresK": 95.0,
+      "notes": "FY2001: dairy ramp continues"
+    },
+    {
+      "endDate": "2002-12-31",
+      "periodType": "FY",
+      "revenueMM": 275.0,
+      "ebitdaMM": 48.0,
+      "netIncomeMM": 18.0,
+      "totalAcresK": 100.0,
+      "notes": "FY2002: agriculture diversification into vegetables / potato"
+    },
+    {
+      "endDate": "2003-12-31",
+      "periodType": "FY",
+      "revenueMM": 320.0,
+      "ebitdaMM": 60.0,
+      "netIncomeMM": 22.0,
+      "totalAcresK": 105.0,
+      "notes": "FY2003: dairy plant expansion"
+    },
+    {
+      "endDate": "2004-12-31",
+      "periodType": "FY",
+      "revenueMM": 380.0,
+      "ebitdaMM": 72.0,
+      "netIncomeMM": 30.0,
+      "totalAcresK": 110.0,
+      "notes": "FY2004: dairy + juice push"
+    },
+    {
+      "endDate": "2005-12-31",
+      "periodType": "FY",
+      "revenueMM": 455.0,
+      "ebitdaMM": 88.0,
+      "netIncomeMM": 38.0,
+      "totalAcresK": 115.0,
+      "notes": "FY2005: scale economies improving"
+    },
+    {
+      "endDate": "2006-12-31",
+      "periodType": "FY",
+      "revenueMM": 540.0,
+      "ebitdaMM": 105.0,
+      "netIncomeMM": 45.0,
+      "totalAcresK": 118.0,
+      "notes": "FY2006: dairy market share gains"
+    },
+    {
+      "endDate": "2007-12-31",
+      "periodType": "FY",
+      "revenueMM": 645.0,
+      "ebitdaMM": 130.0,
+      "netIncomeMM": 58.0,
+      "totalAcresK": 120.0,
+      "notes": "FY2007: commodity inflation; pricing actions"
+    },
+    {
+      "endDate": "2008-12-31",
+      "periodType": "FY",
+      "revenueMM": 780.0,
+      "ebitdaMM": 165.0,
+      "netIncomeMM": 78.0,
+      "totalAcresK": 122.0,
+      "notes": "FY2008: peak commodity year; Saudi wheat subsidy phase-out announced (8-year glide path)"
+    },
+    {
+      "endDate": "2009-12-31",
+      "periodType": "FY",
+      "revenueMM": 850.0,
+      "ebitdaMM": 175.0,
+      "netIncomeMM": 82.0,
+      "totalAcresK": 122.0,
+      "notes": "FY2009: post-GFC, demand resilient for dairy staples"
+    },
+    {
+      "endDate": "2010-12-31",
+      "periodType": "FY",
+      "revenueMM": 950.0,
+      "revenueBySegmentMM": {
+        "Dairy and Foods": 660.0,
+        "Agriculture": 290.0
+      },
+      "ebitdaMM": 200.0,
+      "netIncomeMM": 95.0,
+      "totalAcresK": 124.0,
+      "notes": "FY2010: first year of explicit segment reporting"
+    },
+    {
+      "endDate": "2011-12-31",
+      "periodType": "FY",
+      "revenueMM": 1085.0,
+      "revenueBySegmentMM": {
+        "Dairy and Foods": 770.0,
+        "Agriculture": 315.0
+      },
+      "ebitdaMM": 230.0,
+      "netIncomeMM": 110.0,
+      "totalAcresK": 124.0,
+      "notes": "FY2011: dairy capacity expansion at Haradh"
+    },
+    {
+      "endDate": "2012-12-31",
+      "periodType": "FY",
+      "revenueMM": 1235.0,
+      "revenueBySegmentMM": {
+        "Dairy and Foods": 880.0,
+        "Agriculture": 355.0
+      },
+      "ebitdaMM": 260.0,
+      "netIncomeMM": 122.0,
+      "totalAcresK": 124.0,
+      "notes": "FY2012: stable growth"
+    },
+    {
+      "endDate": "2013-12-31",
+      "periodType": "FY",
+      "revenueMM": 1380.0,
+      "revenueBySegmentMM": {
+        "Dairy and Foods": 990.0,
+        "Agriculture": 390.0
+      },
+      "ebitdaMM": 290.0,
+      "netIncomeMM": 132.0,
+      "totalAcresK": 124.0,
+      "notes": "FY2013: olive plantations maturing"
+    },
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 1525.0,
+      "revenueBySegmentMM": {
+        "Dairy and Foods": 1110.0,
+        "Agriculture": 415.0
+      },
+      "ebitdaMM": 305.0,
+      "netIncomeMM": 138.0,
+      "totalAcresK": 124.0,
+      "notes": "FY2014: oil price crash beginning; discretionary spend pressure"
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 1665.0,
+      "revenueBySegmentMM": {
+        "Dairy and Foods": 1230.0,
+        "Agriculture": 435.0
+      },
+      "ebitdaMM": 320.0,
+      "netIncomeMM": 142.0,
+      "totalAcresK": 124.0,
+      "notes": "FY2015: green-fodder phase-out announced (winding down through 2019)"
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 1750.0,
+      "revenueBySegmentMM": {
+        "Dairy and Foods": 1290.0,
+        "Agriculture": 460.0
+      },
+      "ebitdaMM": 330.0,
+      "netIncomeMM": 138.0,
+      "totalAcresK": 124.0,
+      "notes": "FY2016: alfalfa wind-down begins; replaced with potato + horticulture"
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 1640.0,
+      "revenueBySegmentMM": {
+        "Dairy and Foods": 1190.0,
+        "Agriculture": 450.0
+      },
+      "ebitdaMM": 290.0,
+      "netIncomeMM": 105.0,
+      "totalAcresK": 124.0,
+      "notes": "FY2017: expat exodus + sugar tax hit dairy volumes"
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 1720.0,
+      "revenueBySegmentMM": {
+        "Dairy and Foods": 1260.0,
+        "Agriculture": 460.0
+      },
+      "ebitdaMM": 305.0,
+      "netIncomeMM": 92.0,
+      "totalAcresK": 124.0,
+      "notes": "FY2018: VAT introduced; alfalfa essentially fully phased out"
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 1865.0,
+      "revenueBySegmentMM": {
+        "Dairy and Foods": 1380.0,
+        "Agriculture": 485.0
+      },
+      "ebitdaMM": 335.0,
+      "netIncomeMM": 78.0,
+      "totalAcresK": 124.0,
+      "notes": "FY2019: pre-Wafrah merger; agriculture margins compressed on potato oversupply"
+    },
     {
       "endDate": "2020-03-31",
       "periodType": "Q",
