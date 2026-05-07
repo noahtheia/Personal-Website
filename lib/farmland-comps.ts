@@ -20,6 +20,18 @@ const CurrencySchema = z.enum([
   "SGD",
   "NZD",
   "THB",
+  "NOK",
+  "DKK",
+  "HKD",
+  "CNY",
+  "INR",
+  "VND",
+  "ZAR",
+  "PHP",
+  "ARS",
+  "MXN",
+  "EGP",
+  "CHF",
 ]);
 type Currency = z.infer<typeof CurrencySchema>;
 
@@ -31,6 +43,7 @@ const SectorSchema = z.enum([
   "Diversified Agribusiness",
   "Protein Producer",
   "Dairy / Egg Producer",
+  "Aquaculture / Seafood",
   "Agribusiness / Trader",
   "Crop Inputs / Fertilizer",
   "Rural Services",
@@ -39,10 +52,14 @@ type Sector = z.infer<typeof SectorSchema>;
 
 const GeographySchema = z.enum([
   "US",
+  "Canada",
+  "Mexico",
   "Brazil",
   "Argentina",
   "UK",
   "EU",
+  "Norway",
+  "Switzerland",
   "Ukraine",
   "Australia",
   "New Zealand",
@@ -50,9 +67,15 @@ const GeographySchema = z.enum([
   "Indonesia",
   "Singapore",
   "Thailand",
+  "Vietnam",
+  "Philippines",
+  "China",
+  "Hong Kong",
+  "India",
   "Saudi Arabia",
+  "Egypt",
   "Kenya",
-  "Canada",
+  "South Africa",
 ]);
 type Geography = z.infer<typeof GeographySchema>;
 

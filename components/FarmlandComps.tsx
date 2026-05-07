@@ -19,6 +19,7 @@ const SECTOR_ORDER: FarmlandSector[] = [
   "Diversified Agribusiness",
   "Protein Producer",
   "Dairy / Egg Producer",
+  "Aquaculture / Seafood",
   "Agribusiness / Trader",
   "Crop Inputs / Fertilizer",
   "Rural Services",
@@ -27,10 +28,13 @@ const SECTOR_ORDER: FarmlandSector[] = [
 const GEOGRAPHY_ORDER: FarmlandGeography[] = [
   "US",
   "Canada",
+  "Mexico",
   "Brazil",
   "Argentina",
   "UK",
   "EU",
+  "Switzerland",
+  "Norway",
   "Ukraine",
   "Australia",
   "New Zealand",
@@ -38,8 +42,15 @@ const GEOGRAPHY_ORDER: FarmlandGeography[] = [
   "Indonesia",
   "Singapore",
   "Thailand",
+  "Vietnam",
+  "Philippines",
+  "China",
+  "Hong Kong",
+  "India",
   "Saudi Arabia",
+  "Egypt",
   "Kenya",
+  "South Africa",
 ];
 
 function categoryKey(r: { sector: string; geography: string }): string {
