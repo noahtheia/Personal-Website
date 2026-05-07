@@ -23,8 +23,9 @@
       "propertyBookMM": 64.5,
       "totalAcresK": 3.75,
       "sharesOutMM": 6.53,
+      "bookValuePerShare": 6.36,
       "dividendPerShare": 0.34,
-      "notes": "FY13 (IPO year): completed IPO Jan 28, 2013 at $15/sh (~$53M gross proceeds). 12 farms / ~3,750 acres at year end (mostly CA & FL). Revenue $3.4M (partial year as REIT). Initial dividend $0.34/sh."
+      "notes": "FY13 (IPO year): completed IPO Jan 28, 2013 at $15/sh (~$53M gross proceeds). 12 farms / ~3,750 acres at year end (mostly CA & FL). Revenue $3.4M (partial year as REIT). Initial dividend $0.34/sh. BVPS = totalEquity / sharesOut = $6.36 (note: includes preferred equity in numerator)."
     },
     {
       "endDate": "2014-12-31",
@@ -45,6 +46,7 @@
       "propertyBookMM": 138.5,
       "totalAcresK": 10.4,
       "sharesOutMM": 7.79,
+      "bookValuePerShare": 8.45,
       "dividendPerShare": 0.42,
       "notes": "FY14: 26 farms / ~10,400 acres across 7 states after follow-on acquisitions. Revenue $5.2M."
     },
@@ -67,6 +69,7 @@
       "propertyBookMM": 251.0,
       "totalAcresK": 30.4,
       "sharesOutMM": 7.81,
+      "bookValuePerShare": 10.24,
       "dividendPerShare": 0.452,
       "notes": "FY15: 47 farms / ~30,400 acres in 8 states. Revenue $11.4M (+119% YoY) on portfolio growth. Net loss $0.4M (REIT D&A drag)."
     },
@@ -89,6 +92,7 @@
       "propertyBookMM": 327.5,
       "totalAcresK": 35.3,
       "sharesOutMM": 8.99,
+      "bookValuePerShare": 10.57,
       "dividendPerShare": 0.4737,
       "notes": "FY16: 63 farms / ~35,265 acres in 9 states. Revenue $17.9M (+57% YoY)."
     },
@@ -111,6 +115,7 @@
       "propertyBookMM": 466.0,
       "totalAcresK": 63.5,
       "sharesOutMM": 13.94,
+      "bookValuePerShare": 11.62,
       "dividendPerShare": 0.5208,
       "notes": "FY17: 75 farms / ~63,500 acres in 9 states (large acquisitions including OR/WA blueberry & MI cherry farms). Revenue $24.3M (+36% YoY)."
     },
@@ -135,6 +140,7 @@
       "propertyBookMM": 638.0,
       "totalAcresK": 72.0,
       "sharesOutMM": 16.78,
+      "bookValuePerShare": 13.11,
       "dividendPerShare": 0.5298,
       "notes": "FY18: 86 farms / ~72,000 acres in 10 states. Revenue $32.0M (+32% YoY)."
     },
@@ -159,6 +165,7 @@
       "propertyBookMM": 814.0,
       "totalAcresK": 86.0,
       "sharesOutMM": 22.07,
+      "bookValuePerShare": 13.82,
       "dividendPerShare": 0.5345,
       "notes": "FY19: 113 farms / ~86,534 acres across 10 states. Total revenue $38.4M. NOI $32.6M. Net loss $3.7M (REIT-typical due to D&A). EBITDA computed = operating income + D&A. Annual dividend ~$0.5345/sh paid monthly."
     },
@@ -247,6 +254,7 @@
       "propertyBookMM": 951.0,
       "totalAcresK": 104.3,
       "sharesOutMM": 25.85,
+      "bookValuePerShare": 13.54,
       "dividendPerShare": 0.5404,
       "notes": "FY20: 141 farms / 104,344 acres. Revenue $48.5M (+26% YoY) on 11 acquisitions during year. NOI $41.9M."
     },
@@ -335,6 +343,7 @@
       "propertyBookMM": 1273.0,
       "totalAcresK": 115.0,
       "sharesOutMM": 32.96,
+      "bookValuePerShare": 17.45,
       "dividendPerShare": 0.5478,
       "navPerShare": 14.42,
       "notes": "FY21: 169 farms / 115,000+ acres in 14 states. Revenue $74.0M (+53% YoY). NOI $64.9M. Year-end estimated NAV / share ~$14.42 (company disclosure based on third-party appraisals on subset)."
@@ -424,6 +433,7 @@
       "propertyBookMM": 1407.0,
       "totalAcresK": 116.0,
       "sharesOutMM": 35.41,
+      "bookValuePerShare": 21.46,
       "dividendPerShare": 0.5598,
       "navPerShare": 15.65,
       "notes": "FY22: peak portfolio at 169 farms / ~116,000 acres. Revenue $91.5M (+24% YoY). NOI $80M. Year-end estimated NAV / share ~$15.65."
@@ -513,6 +523,7 @@
       "propertyBookMM": 1395.0,
       "totalAcresK": 115.7,
       "sharesOutMM": 35.78,
+      "bookValuePerShare": 21.52,
       "dividendPerShare": 0.5598,
       "navPerShare": 15.97,
       "notes": "FY23: 169 farms / 115,728 acres. Revenue $93.3M (+2% YoY). NOI $81.1M. Net loss $8.7M reflects higher interest expense. NAV/sh year-end ~$15.97."
@@ -602,6 +613,7 @@
       "propertyBookMM": 1280.0,
       "totalAcresK": 101.5,
       "sharesOutMM": 35.99,
+      "bookValuePerShare": 21.12,
       "dividendPerShare": 0.5598,
       "navPerShare": 15.30,
       "notes": "FY24: 152 farms / 101,500 acres after disposition program. Revenue $79.1M (-15% YoY). NOI $68.6M. Net loss widened on dispositions / impairments. Year-end NAV/sh ~$15.30."

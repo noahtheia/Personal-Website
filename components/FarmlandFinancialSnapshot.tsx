@@ -898,30 +898,65 @@ function buildAllSeries(
       });
     result.propertyValue = propertySeries;
 
-    // NAV/share + price overlay + premium/discount secondary
-    const navKey: keyof FinancialsPeriod | null = financials.periods.some(
+    // NAV/share + price overlay + premium/discount secondary.
+    // Per-period fall-through: prefer FMV NAV → NAV → book value per
+    // share so that issuers like LAND (which only started disclosing
+    // estimated NAV in 2021) still get a continuous series back to IPO
+    // via earlier-year book value. Label uses the BEST disclosure
+    // available so users understand what's plotted.
+    type NavSourceKey =
+      | "fmvNavPerShare"
+      | "navPerShare"
+      | "bookValuePerShare";
+    const hasFmvNav = financials.periods.some(
       (p) => typeof p.fmvNavPerShare === "number",
-    )
+    );
+    const hasNav = financials.periods.some(
+      (p) => typeof p.navPerShare === "number",
+    );
+    const hasBvps = financials.periods.some(
+      (p) => typeof p.bookValuePerShare === "number",
+    );
+    const navKey: NavSourceKey | null = hasFmvNav
       ? "fmvNavPerShare"
-      : financials.periods.some((p) => typeof p.navPerShare === "number")
+      : hasNav
       ? "navPerShare"
-      : financials.periods.some((p) => typeof p.bookValuePerShare === "number")
+      : hasBvps
       ? "bookValuePerShare"
       : null;
 
     if (navKey) {
-      const navLabel =
-        navKey === "fmvNavPerShare"
-          ? "FMV NAV / share"
-          : navKey === "navPerShare"
-          ? "NAV / share"
-          : "Book value / share";
-      const navSeries = pickSeries(financials, navKey, {
-        label: navLabel,
-        description: `${navLabel}, ${ccy}`,
-        unit: { kind: "currency", ccy },
-        kind: "step",
-      });
+      const navLabel = hasFmvNav
+        ? "FMV NAV / share"
+        : hasNav
+        ? "NAV / share"
+        : "Book value / share";
+      const pickPerPeriod = (p: FinancialsPeriod): number | undefined => {
+        if (typeof p.fmvNavPerShare === "number") return p.fmvNavPerShare;
+        if (typeof p.navPerShare === "number") return p.navPerShare;
+        if (typeof p.bookValuePerShare === "number")
+          return p.bookValuePerShare;
+        return undefined;
+      };
+      const points: DatedPoint[] = [];
+      const seenDates = new Set<string>();
+      for (const p of financials.periods) {
+        const v = pickPerPeriod(p);
+        if (v === undefined) continue;
+        if (seenDates.has(p.endDate)) continue; // dedupe Q vs FY same-date
+        seenDates.add(p.endDate);
+        points.push({ date: p.endDate, value: v });
+      }
+      points.sort((a, b) => a.date.localeCompare(b.date));
+      const navSeries: Series | null = points.length > 0
+        ? {
+            label: navLabel,
+            description: `${navLabel}, ${ccy} (best-available per period)`,
+            unit: { kind: "currency", ccy },
+            kind: "step",
+            points,
+          }
+        : null;
 
       // Daily price overlay + daily premium/discount secondary axis
       if (navSeries && history && history.points.length > 0) {
