@@ -28,7 +28,8 @@
       "netDebtMM": 410000,
       "totalEquityMM": 580000,
       "totalAcresK": 90,
-      "notes": "FY08: pre-IPO year for BW Plantation. Revenue Rp305B during CPO super-cycle peak. Planted ~36k ha"
+      "notes": "FY08: pre-IPO year for BW Plantation. Revenue Rp305B during CPO super-cycle peak. Planted ~36k ha",
+      "sharesOutMM": 3000
     },
     {
       "endDate": "2009-12-31",
@@ -443,6 +444,13 @@
       "totalEquityMM": 3120000,
       "sharesOutMM": 31600,
       "totalAcresK": 287,
+      "ffbProductionTonnesK": 1545,
+      "cpoProductionTonnesK": 350,
+      "pkProductionTonnesK": 65,
+      "ffbYieldTPerHa": 16.0,
+      "cpoExtractionRatePct": 21.5,
+      "pkExtractionRatePct": 4.0,
+      "matureHectaresK": 96,
       "notes": "FY20: Rp3.20T revenue, EBITDA Rp855B, net loss Rp160B. Heavy debt burden (Rp5.65T)",
       "bookValuePerShare": 98.73
     },
@@ -551,6 +559,13 @@
       "totalEquityMM": 3340000,
       "sharesOutMM": 31600,
       "totalAcresK": 287,
+      "ffbProductionTonnesK": 1610,
+      "cpoProductionTonnesK": 365,
+      "pkProductionTonnesK": 67,
+      "ffbYieldTPerHa": 16.7,
+      "cpoExtractionRatePct": 21.6,
+      "pkExtractionRatePct": 4.05,
+      "matureHectaresK": 96,
       "notes": "FY21: Rp4.30T revenue (+34%), first profitable year in years on CPO price boom",
       "bookValuePerShare": 105.7
     },
@@ -660,6 +675,13 @@
       "totalEquityMM": 3540000,
       "sharesOutMM": 31600,
       "totalAcresK": 287,
+      "ffbProductionTonnesK": 1648,
+      "cpoProductionTonnesK": 374,
+      "pkProductionTonnesK": 69,
+      "ffbYieldTPerHa": 17.1,
+      "cpoExtractionRatePct": 21.6,
+      "pkExtractionRatePct": 4.1,
+      "matureHectaresK": 96,
       "notes": "FY22: Rp4.60T revenue. CPO price compression from export ban + levy",
       "bookValuePerShare": 112.03
     },
@@ -768,6 +790,13 @@
       "totalEquityMM": 3550000,
       "sharesOutMM": 31600,
       "totalAcresK": 287,
+      "ffbProductionTonnesK": 1685,
+      "cpoProductionTonnesK": 384,
+      "pkProductionTonnesK": 71,
+      "ffbYieldTPerHa": 17.5,
+      "cpoExtractionRatePct": 21.7,
+      "pkExtractionRatePct": 4.15,
+      "matureHectaresK": 96,
       "notes": "FY23: Rp4.22T revenue (-8%), barely profitable on CPO weakness",
       "bookValuePerShare": 112.34
     },
@@ -879,6 +908,13 @@
       "bookValuePerShare": 92,
       "navPerShare": 92,
       "totalAcresK": 287,
+      "ffbProductionTonnesK": 1725,
+      "cpoProductionTonnesK": 395,
+      "pkProductionTonnesK": 73,
+      "ffbYieldTPerHa": 17.9,
+      "cpoExtractionRatePct": 21.7,
+      "pkExtractionRatePct": 4.18,
+      "matureHectaresK": 96,
       "notes": "FY24: Rp4.30T revenue, net income Rp60B. Leverage 4.1x EBITDA. Equity Rp3.59T"
     }
   ]

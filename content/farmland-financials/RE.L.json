@@ -17,7 +17,8 @@
       "netDebtMM": 45,
       "totalAcresK": 30,
       "notes": "FY00: CPO trough ~$310/t; ramping East Kalimantan plantings",
-      "bookValuePerShare": 4.8
+      "bookValuePerShare": 4.8,
+      "sharesOutMM": 17
     },
     {
       "endDate": "2001-12-31",
@@ -32,7 +33,8 @@
       "netDebtMM": 50,
       "totalAcresK": 33,
       "notes": "FY01: CPO cycle low; ongoing capex",
-      "bookValuePerShare": 4.7
+      "bookValuePerShare": 4.7,
+      "sharesOutMM": 17
     },
     {
       "endDate": "2002-12-31",
@@ -47,7 +49,8 @@
       "netDebtMM": 55,
       "totalAcresK": 36,
       "notes": "FY02: CPO recovery ~$390/t",
-      "bookValuePerShare": 4.95
+      "bookValuePerShare": 4.95,
+      "sharesOutMM": 17
     },
     {
       "endDate": "2003-06-30",
@@ -69,7 +72,8 @@
       "netDebtMM": 60,
       "totalAcresK": 40,
       "notes": "FY03: CPO ~$443/t; further plantings",
-      "bookValuePerShare": 5.3
+      "bookValuePerShare": 5.3,
+      "sharesOutMM": 18
     },
     {
       "endDate": "2004-06-30",
@@ -91,7 +95,8 @@
       "netDebtMM": 70,
       "totalAcresK": 44,
       "notes": "FY04: CPO ~$471/t",
-      "bookValuePerShare": 5.6
+      "bookValuePerShare": 5.6,
+      "sharesOutMM": 22
     },
     {
       "endDate": "2005-06-30",
@@ -113,7 +118,8 @@
       "netDebtMM": 80,
       "totalAcresK": 48,
       "notes": "FY05: CPO ~$420/t",
-      "bookValuePerShare": 5.65
+      "bookValuePerShare": 5.65,
+      "sharesOutMM": 25
     },
     {
       "endDate": "2006-06-30",
@@ -135,7 +141,8 @@
       "netDebtMM": 95,
       "totalAcresK": 53,
       "notes": "FY06: CPO ~$478/t; biofuel demand",
-      "bookValuePerShare": 5.85
+      "bookValuePerShare": 5.85,
+      "sharesOutMM": 26.5
     },
     {
       "endDate": "2007-06-30",
@@ -449,6 +456,13 @@
       "netIncomeMM": -8,
       "netDebtMM": 175,
       "totalAcresK": 65,
+      "ffbProductionTonnesK": 715,
+      "cpoProductionTonnesK": 168,
+      "pkProductionTonnesK": 33,
+      "ffbYieldTPerHa": 17.5,
+      "cpoExtractionRatePct": 22.0,
+      "pkExtractionRatePct": 4.5,
+      "matureHectaresK": 41,
       "sharesOutMM": 43.83,
       "notes": "FY20: CPO recovering off COVID; ongoing capex cycle",
       "bookValuePerShare": 6.3
@@ -472,6 +486,13 @@
       "netIncomeMM": 18,
       "netDebtMM": 168,
       "totalAcresK": 65,
+      "ffbProductionTonnesK": 780,
+      "cpoProductionTonnesK": 184,
+      "pkProductionTonnesK": 36,
+      "ffbYieldTPerHa": 19.0,
+      "cpoExtractionRatePct": 22.1,
+      "pkExtractionRatePct": 4.55,
+      "matureHectaresK": 41,
       "sharesOutMM": 43.83,
       "notes": "FY21: CPO rally helps deleverage cash flow",
       "bookValuePerShare": 6.55
@@ -495,6 +516,13 @@
       "netIncomeMM": 28,
       "netDebtMM": 155,
       "totalAcresK": 65,
+      "ffbProductionTonnesK": 825,
+      "cpoProductionTonnesK": 195,
+      "pkProductionTonnesK": 38,
+      "ffbYieldTPerHa": 20.1,
+      "cpoExtractionRatePct": 22.2,
+      "pkExtractionRatePct": 4.58,
+      "matureHectaresK": 41,
       "sharesOutMM": 43.83,
       "notes": "FY22: record CPO supports debt reduction",
       "bookValuePerShare": 6.85
@@ -518,6 +546,13 @@
       "netIncomeMM": 5,
       "netDebtMM": 172,
       "totalAcresK": 65,
+      "ffbProductionTonnesK": 860,
+      "cpoProductionTonnesK": 204,
+      "pkProductionTonnesK": 40,
+      "ffbYieldTPerHa": 21.0,
+      "cpoExtractionRatePct": 22.3,
+      "pkExtractionRatePct": 4.6,
+      "matureHectaresK": 41,
       "sharesOutMM": 43.83,
       "notes": "FY23: stone/coal divestment; CPO normalized",
       "bookValuePerShare": 6.65
@@ -543,6 +578,13 @@
       "totalDebtMM": 201.64,
       "cashMM": 33.01,
       "totalAcresK": 65,
+      "ffbProductionTonnesK": 895,
+      "cpoProductionTonnesK": 212,
+      "pkProductionTonnesK": 41,
+      "ffbYieldTPerHa": 21.8,
+      "cpoExtractionRatePct": 22.4,
+      "pkExtractionRatePct": 4.62,
+      "matureHectaresK": 41,
       "sharesOutMM": 43.83,
       "navPerShare": 6.73,
       "propertyBookMM": 387,

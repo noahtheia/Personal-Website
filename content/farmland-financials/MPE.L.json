@@ -17,7 +17,8 @@
       "netIncomeMM": 2.5,
       "totalAcresK": 18,
       "notes": "FY96: IPO year. Pre-demerger structure; small Sumatra estates ~7,300 ha",
-      "bookValuePerShare": 0.85
+      "bookValuePerShare": 0.85,
+      "sharesOutMM": 52
     },
     {
       "endDate": "1997-12-31",
@@ -32,7 +33,8 @@
       "netIncomeMM": 3,
       "totalAcresK": 22,
       "notes": "FY97: CPO recovery; Asian crisis late-year",
-      "bookValuePerShare": 0.95
+      "bookValuePerShare": 0.95,
+      "sharesOutMM": 52
     },
     {
       "endDate": "1998-12-31",
@@ -47,7 +49,8 @@
       "netIncomeMM": 4,
       "totalAcresK": 25,
       "notes": "FY98: CPO peak ~$670/t; rupiah depreciation benefits IDR cost base",
-      "bookValuePerShare": 1.1
+      "bookValuePerShare": 1.1,
+      "sharesOutMM": 52
     },
     {
       "endDate": "1999-12-31",
@@ -62,7 +65,8 @@
       "netIncomeMM": 3,
       "totalAcresK": 28,
       "notes": "FY99: weaker CPO ~$435/t",
-      "bookValuePerShare": 1.2
+      "bookValuePerShare": 1.2,
+      "sharesOutMM": 52
     },
     {
       "endDate": "2000-12-31",
@@ -77,7 +81,8 @@
       "netIncomeMM": 1.5,
       "totalAcresK": 32,
       "notes": "FY00: CPO trough ~$310/t",
-      "bookValuePerShare": 1.25
+      "bookValuePerShare": 1.25,
+      "sharesOutMM": 52
     },
     {
       "endDate": "2001-12-31",
@@ -92,7 +97,8 @@
       "netIncomeMM": 1,
       "totalAcresK": 36,
       "notes": "FY01: CPO cycle low ~$285/t",
-      "bookValuePerShare": 1.28
+      "bookValuePerShare": 1.28,
+      "sharesOutMM": 52
     },
     {
       "endDate": "2002-12-31",
@@ -107,7 +113,8 @@
       "netIncomeMM": 3.5,
       "totalAcresK": 40,
       "notes": "FY02: CPO recovery ~$390/t",
-      "bookValuePerShare": 1.35
+      "bookValuePerShare": 1.35,
+      "sharesOutMM": 52
     },
     {
       "endDate": "2003-06-30",
@@ -130,7 +137,8 @@
       "netIncomeMM": 6,
       "totalAcresK": 48,
       "notes": "FY03: CPO ~$443/t; Australian cattle interest expansion",
-      "bookValuePerShare": 1.5
+      "bookValuePerShare": 1.5,
+      "sharesOutMM": 52
     },
     {
       "endDate": "2004-06-30",
@@ -152,7 +160,8 @@
       "netIncomeMM": 7,
       "totalAcresK": 52,
       "notes": "FY04: CPO ~$471/t",
-      "bookValuePerShare": 1.65
+      "bookValuePerShare": 1.65,
+      "sharesOutMM": 52
     },
     {
       "endDate": "2005-06-30",
@@ -174,7 +183,8 @@
       "netIncomeMM": 6.5,
       "totalAcresK": 58,
       "notes": "FY05: CPO ~$420/t",
-      "bookValuePerShare": 1.8
+      "bookValuePerShare": 1.8,
+      "sharesOutMM": 52
     },
     {
       "endDate": "2006-06-30",
@@ -196,7 +206,8 @@
       "netIncomeMM": 12,
       "totalAcresK": 65,
       "notes": "FY06: CPO ~$478/t; biofuel demand emerges",
-      "bookValuePerShare": 2.05
+      "bookValuePerShare": 2.05,
+      "sharesOutMM": 52
     },
     {
       "endDate": "2007-06-30",
@@ -515,6 +526,13 @@
       "netIncomeMM": 24.5,
       "netDebtMM": 5,
       "totalAcresK": 134.6,
+      "ffbProductionTonnesK": 880,
+      "cpoProductionTonnesK": 207,
+      "pkProductionTonnesK": 41,
+      "ffbYieldTPerHa": 22.0,
+      "cpoExtractionRatePct": 22.4,
+      "pkExtractionRatePct": 4.45,
+      "matureHectaresK": 40,
       "sharesOutMM": 52,
       "notes": "FY20: COVID-impacted CPO cycle; modest net debt",
       "bookValuePerShare": 6.3
@@ -539,6 +557,13 @@
       "netIncomeMM": 60,
       "netDebtMM": -25,
       "totalAcresK": 134.6,
+      "ffbProductionTonnesK": 935,
+      "cpoProductionTonnesK": 220,
+      "pkProductionTonnesK": 43,
+      "ffbYieldTPerHa": 23.4,
+      "cpoExtractionRatePct": 22.4,
+      "pkExtractionRatePct": 4.48,
+      "matureHectaresK": 40,
       "sharesOutMM": 52,
       "notes": "FY21: CPO rally drives EBITDA +69% YoY; transitions to net cash",
       "bookValuePerShare": 7
@@ -563,6 +588,13 @@
       "netIncomeMM": 73,
       "netDebtMM": -40,
       "totalAcresK": 134.6,
+      "ffbProductionTonnesK": 980,
+      "cpoProductionTonnesK": 230,
+      "pkProductionTonnesK": 45,
+      "ffbYieldTPerHa": 24.5,
+      "cpoExtractionRatePct": 22.5,
+      "pkExtractionRatePct": 4.5,
+      "matureHectaresK": 40,
       "sharesOutMM": 52,
       "notes": "FY22: record CPO; net cash builds further",
       "bookValuePerShare": 7.55
@@ -587,6 +619,13 @@
       "netIncomeMM": 50,
       "netDebtMM": -30,
       "totalAcresK": 134.6,
+      "ffbProductionTonnesK": 1010,
+      "cpoProductionTonnesK": 238,
+      "pkProductionTonnesK": 46,
+      "ffbYieldTPerHa": 25.3,
+      "cpoExtractionRatePct": 22.6,
+      "pkExtractionRatePct": 4.52,
+      "matureHectaresK": 40,
       "sharesOutMM": 52,
       "notes": "FY23: CPO normalized; cash payout ramped via dividend + buyback",
       "bookValuePerShare": 7.5
@@ -611,6 +650,13 @@
       "netIncomeMM": 56,
       "netDebtMM": -20,
       "totalAcresK": 134.6,
+      "ffbProductionTonnesK": 1045,
+      "cpoProductionTonnesK": 246,
+      "pkProductionTonnesK": 47,
+      "ffbYieldTPerHa": 26.1,
+      "cpoExtractionRatePct": 22.7,
+      "pkExtractionRatePct": 4.55,
+      "matureHectaresK": 40,
       "sharesOutMM": 52,
       "navPerShare": 7.69,
       "propertyBookMM": 300,
