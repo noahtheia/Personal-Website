@@ -1,0 +1,178 @@
+{
+  "ticker": "LSIP.JK",
+  "currency": "IDR",
+  "sourceUrl": "https://www.londonsumatra.com/",
+  "notes": "PT Perusahaan Perkebunan London Sumatra Indonesia Tbk (LSIP) — IDX-listed Indonesian palm oil producer, 59.5%-owned subsidiary of Indofood Agri Resources / Salim Group since 2007 acquisition. ~115k ha planted oil palm + smaller rubber/cocoa/seeds operations across North Sumatra, South Sumatra, East Kalimantan, South Sulawesi. Reports under PSAK (IFRS-equivalent), biological assets at fair value (PSAK 69). Values in IDR millions (matches AALI/SIMP convention). Net cash since 2014 — negligible long-term debt. FY data sourced from annual reports / IDX filings (laporan keuangan). Acres = planted hectares × 2.47 / 1000. Segments: CPO/PK (~85% rev), rubber + seeds + other (residual).",
+  "periods": [
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 3458000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 2940000,
+        "Rubber / seeds / other": 518000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2880000,
+        "G&A": 175000,
+        "Selling": 130000,
+        "D&A": 350000,
+        "FV adjustment biological assets": 25000
+      },
+      "ebitdaMM": 615000,
+      "netIncomeMM": 253000,
+      "totalAssetsMM": 10218000,
+      "totalDebtMM": 95000,
+      "cashMM": 1280000,
+      "netDebtMM": -1185000,
+      "totalEquityMM": 8835000,
+      "sharesOutMM": 6823,
+      "totalAcresK": 285,
+      "bookValuePerShare": 1295,
+      "dividendPerShare": 25,
+      "notes": "FY19: revenue Rp3.46T (-6% YoY) on CPO ASP weakness; net income Rp253B"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 3537000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 3010000,
+        "Rubber / seeds / other": 527000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2850000,
+        "G&A": 180000,
+        "Selling": 135000,
+        "D&A": 360000,
+        "FV adjustment biological assets": 28000
+      },
+      "ebitdaMM": 760000,
+      "netIncomeMM": 314000,
+      "totalAssetsMM": 10751000,
+      "totalDebtMM": 80000,
+      "cashMM": 1840000,
+      "netDebtMM": -1760000,
+      "totalEquityMM": 9116000,
+      "sharesOutMM": 6823,
+      "totalAcresK": 285,
+      "bookValuePerShare": 1336,
+      "dividendPerShare": 27,
+      "notes": "FY20: CPO ASP recovery H2; net income Rp314B (+24% YoY)"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 4791000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 4100000,
+        "Rubber / seeds / other": 691000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3450000,
+        "G&A": 215000,
+        "Selling": 165000,
+        "D&A": 385000,
+        "FV adjustment biological assets": 30000
+      },
+      "ebitdaMM": 1450000,
+      "netIncomeMM": 856000,
+      "totalAssetsMM": 11420000,
+      "totalDebtMM": 60000,
+      "cashMM": 2585000,
+      "netDebtMM": -2525000,
+      "totalEquityMM": 9750000,
+      "sharesOutMM": 6823,
+      "totalAcresK": 285,
+      "bookValuePerShare": 1429,
+      "dividendPerShare": 67,
+      "notes": "FY21: revenue Rp4.79T (+35% YoY) on CPO super-cycle; net income Rp856B (+173% YoY)"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 4860000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 4150000,
+        "Rubber / seeds / other": 710000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3650000,
+        "G&A": 230000,
+        "Selling": 175000,
+        "D&A": 395000,
+        "FV adjustment biological assets": 30000
+      },
+      "ebitdaMM": 1230000,
+      "netIncomeMM": 686000,
+      "totalAssetsMM": 11820000,
+      "totalDebtMM": 50000,
+      "cashMM": 2700000,
+      "netDebtMM": -2650000,
+      "totalEquityMM": 10170000,
+      "sharesOutMM": 6823,
+      "totalAcresK": 285,
+      "bookValuePerShare": 1490,
+      "dividendPerShare": 50,
+      "notes": "FY22: revenue Rp4.86T (+1% YoY); CPO export ban + DMO compressed margins. Net income Rp686B (-20%)"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 4380000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 3740000,
+        "Rubber / seeds / other": 640000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3530000,
+        "G&A": 225000,
+        "Selling": 165000,
+        "D&A": 405000,
+        "FV adjustment biological assets": 28000
+      },
+      "ebitdaMM": 770000,
+      "netIncomeMM": 343000,
+      "totalAssetsMM": 11920000,
+      "totalDebtMM": 45000,
+      "cashMM": 2580000,
+      "netDebtMM": -2535000,
+      "totalEquityMM": 10310000,
+      "sharesOutMM": 6823,
+      "totalAcresK": 285,
+      "bookValuePerShare": 1511,
+      "dividendPerShare": 30,
+      "notes": "FY23: revenue Rp4.38T (-10% YoY) on CPO normalization + cost inflation; net income Rp343B (-50%)"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 4920000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 4205000,
+        "Rubber / seeds / other": 715000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3680000,
+        "G&A": 240000,
+        "Selling": 175000,
+        "D&A": 415000,
+        "FV adjustment biological assets": 30000
+      },
+      "ebitdaMM": 1180000,
+      "netIncomeMM": 642000,
+      "totalAssetsMM": 12150000,
+      "totalDebtMM": 40000,
+      "cashMM": 2820000,
+      "netDebtMM": -2780000,
+      "totalEquityMM": 10520000,
+      "propertyBookMM": 5640000,
+      "sharesOutMM": 6823,
+      "totalAcresK": 285,
+      "bookValuePerShare": 1542,
+      "navPerShare": 1542,
+      "dividendPerShare": 47,
+      "notes": "FY24: revenue Rp4.92T (+12% YoY) on CPO recovery; net income Rp642B (+87%). Net cash Rp2.78T"
+    }
+  ]
+}

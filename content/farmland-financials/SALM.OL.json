@@ -1,0 +1,93 @@
+{
+  "ticker": "SALM.OL",
+  "currency": "NOK",
+  "sourceUrl": "https://www.salmar.no/en/investor/",
+  "notes": "SalMar ASA is one of the world's largest producers of farmed Atlantic salmon, with operations in Northern Norway, Central Norway, Iceland (Icelandic Salmon) and offshore (SalMar Aker Ocean / Ocean Farm 1). Reports and lists in NOK on Oslo Børs. FY = calendar year. NTS ASA (Norway Royal Salmon + SalmoNor) acquired Q4 2022 — FY22 includes partial-year contribution and FY23 is the first full consolidated year. Segment cost split estimated from feed/salary disclosure.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 12846,
+      "expensesBySegmentMM": {
+        "Cost of materials": 6420,
+        "Salaries": 1485,
+        "Operating expenses": 2300,
+        "D&A": 1085
+      },
+      "ebitdaMM": 3125,
+      "netDebtMM": 6230,
+      "sharesOutMM": 113.3,
+      "bookValuePerShare": 79.5,
+      "dividendPerShare": 20.0,
+      "notes": "FY20: Revenue NOK 12,846M, Operational EBIT NOK 2,040M. Pre-NTS perimeter."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 13796,
+      "expensesBySegmentMM": {
+        "Cost of materials": 6900,
+        "Salaries": 1610,
+        "Operating expenses": 2470,
+        "D&A": 1145
+      },
+      "ebitdaMM": 3625,
+      "netDebtMM": 5550,
+      "sharesOutMM": 113.3,
+      "bookValuePerShare": 84.2,
+      "dividendPerShare": 20.0,
+      "notes": "FY21: Revenue NOK 13,796M, Operational EBIT NOK 2,481M. Recovering salmon price."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 19818,
+      "expensesBySegmentMM": {
+        "Cost of materials": 9910,
+        "Salaries": 2280,
+        "Operating expenses": 3528,
+        "D&A": 1390
+      },
+      "ebitdaMM": 6280,
+      "netDebtMM": 17800,
+      "sharesOutMM": 130.7,
+      "bookValuePerShare": 119.0,
+      "dividendPerShare": 0.0,
+      "notes": "FY22: Revenue NOK 19,818M, Operational EBIT NOK 4,890M. NTS acquisition closed Q4 (debt step-up). Dividend cancelled following Norwegian resource-rent tax announcement Sept 2022."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 23919,
+      "expensesBySegmentMM": {
+        "Cost of materials": 11960,
+        "Salaries": 2750,
+        "Operating expenses": 4250,
+        "D&A": 1610
+      },
+      "ebitdaMM": 7000,
+      "netDebtMM": 16500,
+      "sharesOutMM": 130.93,
+      "bookValuePerShare": 142.0,
+      "dividendPerShare": 18.0,
+      "notes": "FY23: Revenue NOK 23,919M, Operational EBIT NOK 5,389M. First full year incl. NTS. Resource-rent tax in effect."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 25770,
+      "expensesBySegmentMM": {
+        "Cost of materials": 12880,
+        "Salaries": 2900,
+        "Operating expenses": 4525,
+        "D&A": 1700
+      },
+      "ebitdaMM": 6886,
+      "netDebtMM": 16300,
+      "sharesOutMM": 130.93,
+      "bookValuePerShare": 152.0,
+      "dividendPerShare": 22.0,
+      "notes": "FY24: Revenue NOK 25,770M, Operational EBIT NOK 5,186M. Record harvest volume ~244kt GWE."
+    }
+  ]
+}
