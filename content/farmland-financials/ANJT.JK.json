@@ -1,0 +1,178 @@
+{
+  "ticker": "ANJT.JK",
+  "currency": "IDR",
+  "sourceUrl": "https://www.anj-group.com/",
+  "notes": "PT Austindo Nusantara Jaya Tbk (ANJ) — IDX-listed diversified plantation operator: ~52k ha planted oil palm (across North Sumatra, West Kalimantan, South Sumatra, West Papua) + sago (Papua) + edamame / specialty foods (East Java, Belitung). Reports under PSAK. Values in IDR millions (matches AALI/SIMP/LSIP/SMAR convention). Net debt funded by USD-denominated facilities. FY data from annual reports / IDX. Acres = planted hectares × 2.47 / 1000. Segments: CPO/PK ~90% rev; sago, edamame, renewable energy contribute residual.",
+  "periods": [
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 2080000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 1880000,
+        "Sago / edamame / other": 200000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1715000,
+        "G&A": 130000,
+        "Selling": 95000,
+        "D&A": 290000,
+        "FV adjustment biological assets": 18000
+      },
+      "ebitdaMM": 195000,
+      "netIncomeMM": -116000,
+      "totalAssetsMM": 7560000,
+      "totalDebtMM": 2370000,
+      "cashMM": 295000,
+      "netDebtMM": 2075000,
+      "totalEquityMM": 4350000,
+      "sharesOutMM": 3354,
+      "totalAcresK": 128,
+      "bookValuePerShare": 1297,
+      "dividendPerShare": 0,
+      "notes": "FY19: revenue Rp2.08T (-9% YoY) on CPO weakness; net loss Rp116B as new West Papua estates ramped"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 2240000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 2030000,
+        "Sago / edamame / other": 210000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1768000,
+        "G&A": 135000,
+        "Selling": 100000,
+        "D&A": 305000,
+        "FV adjustment biological assets": 20000
+      },
+      "ebitdaMM": 410000,
+      "netIncomeMM": 96000,
+      "totalAssetsMM": 7680000,
+      "totalDebtMM": 2280000,
+      "cashMM": 360000,
+      "netDebtMM": 1920000,
+      "totalEquityMM": 4470000,
+      "sharesOutMM": 3354,
+      "totalAcresK": 128,
+      "bookValuePerShare": 1333,
+      "dividendPerShare": 0,
+      "notes": "FY20: CPO recovery; net income Rp96B reverses prior loss"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 3340000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 3020000,
+        "Sago / edamame / other": 320000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2280000,
+        "G&A": 165000,
+        "Selling": 125000,
+        "D&A": 320000,
+        "FV adjustment biological assets": 30000
+      },
+      "ebitdaMM": 970000,
+      "netIncomeMM": 510000,
+      "totalAssetsMM": 8050000,
+      "totalDebtMM": 2120000,
+      "cashMM": 670000,
+      "netDebtMM": 1450000,
+      "totalEquityMM": 4960000,
+      "sharesOutMM": 3354,
+      "totalAcresK": 128,
+      "bookValuePerShare": 1479,
+      "dividendPerShare": 35,
+      "notes": "FY21: revenue Rp3.34T (+49% YoY) on CPO super-cycle; net income Rp510B"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 3520000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 3170000,
+        "Sago / edamame / other": 350000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2470000,
+        "G&A": 175000,
+        "Selling": 135000,
+        "D&A": 335000,
+        "FV adjustment biological assets": 32000
+      },
+      "ebitdaMM": 920000,
+      "netIncomeMM": 415000,
+      "totalAssetsMM": 8260000,
+      "totalDebtMM": 2050000,
+      "cashMM": 730000,
+      "netDebtMM": 1320000,
+      "totalEquityMM": 5310000,
+      "sharesOutMM": 3354,
+      "totalAcresK": 128,
+      "bookValuePerShare": 1583,
+      "dividendPerShare": 25,
+      "notes": "FY22: revenue Rp3.52T (+5% YoY); export ban + DMO compressed margins. Net income Rp415B"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 3270000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 2940000,
+        "Sago / edamame / other": 330000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2510000,
+        "G&A": 178000,
+        "Selling": 130000,
+        "D&A": 350000,
+        "FV adjustment biological assets": 28000
+      },
+      "ebitdaMM": 530000,
+      "netIncomeMM": 144000,
+      "totalAssetsMM": 8420000,
+      "totalDebtMM": 2080000,
+      "cashMM": 690000,
+      "netDebtMM": 1390000,
+      "totalEquityMM": 5400000,
+      "sharesOutMM": 3354,
+      "totalAcresK": 128,
+      "bookValuePerShare": 1610,
+      "dividendPerShare": 10,
+      "notes": "FY23: revenue Rp3.27T (-7% YoY); CPO normalization. Net income Rp144B (-65%)"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 3680000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 3315000,
+        "Sago / edamame / other": 365000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2660000,
+        "G&A": 185000,
+        "Selling": 140000,
+        "D&A": 360000,
+        "FV adjustment biological assets": 33000
+      },
+      "ebitdaMM": 920000,
+      "netIncomeMM": 392000,
+      "totalAssetsMM": 8580000,
+      "totalDebtMM": 2010000,
+      "cashMM": 790000,
+      "netDebtMM": 1220000,
+      "totalEquityMM": 5640000,
+      "propertyBookMM": 4350000,
+      "sharesOutMM": 3354,
+      "totalAcresK": 128,
+      "bookValuePerShare": 1682,
+      "navPerShare": 1682,
+      "dividendPerShare": 28,
+      "notes": "FY24: revenue Rp3.68T (+13% YoY) on CPO recovery; net income Rp392B (+172%)"
+    }
+  ]
+}

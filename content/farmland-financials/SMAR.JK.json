@@ -1,0 +1,184 @@
+{
+  "ticker": "SMAR.JK",
+  "currency": "IDR",
+  "sourceUrl": "https://www.smart-tbk.com/",
+  "notes": "PT Sinar Mas Agro Resources and Technology Tbk (SMART) — IDX-listed midstream/downstream palm oil refiner & branded consumer producer (Filma cooking oil, Kunci Mas, Mitra), majority-owned by Golden Agri-Resources (Singapore). ~138k ha planted oil palm own estates + heavy refining/processing capacity (CPO refining, oleochemicals, biodiesel). Reports under PSAK. Values in IDR millions (matches AALI/SIMP/LSIP convention). Heavy debt load to fund refining capacity. FY data from annual reports. Acres = planted hectares × 2.47 / 1000. Segments: refined products / branded oils dominate revenue; plantation segment ~20%.",
+  "periods": [
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 36198000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 28960000,
+        "Plantation (CPO/PK)": 6515000,
+        "Other": 723000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 33680000,
+        "G&A": 850000,
+        "Selling": 760000,
+        "D&A": 845000,
+        "FV adjustment biological assets": 65000
+      },
+      "ebitdaMM": 1840000,
+      "netIncomeMM": 899000,
+      "totalAssetsMM": 28838000,
+      "totalDebtMM": 13680000,
+      "cashMM": 1450000,
+      "netDebtMM": 12230000,
+      "totalEquityMM": 9320000,
+      "sharesOutMM": 2872,
+      "totalAcresK": 341,
+      "bookValuePerShare": 3245,
+      "dividendPerShare": 50,
+      "notes": "FY19: revenue Rp36.2T (-7% YoY) on CPO ASP weakness; net income Rp899B"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 41001000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 32800000,
+        "Plantation (CPO/PK)": 7380000,
+        "Other": 821000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 37580000,
+        "G&A": 950000,
+        "Selling": 850000,
+        "D&A": 875000,
+        "FV adjustment biological assets": 70000
+      },
+      "ebitdaMM": 2620000,
+      "netIncomeMM": 1268000,
+      "totalAssetsMM": 30200000,
+      "totalDebtMM": 12950000,
+      "cashMM": 1985000,
+      "netDebtMM": 10965000,
+      "totalEquityMM": 10210000,
+      "sharesOutMM": 2872,
+      "totalAcresK": 341,
+      "bookValuePerShare": 3555,
+      "dividendPerShare": 70,
+      "notes": "FY20: revenue Rp41.0T (+13% YoY); CPO recovery + biodiesel demand; net income Rp1.27T"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 56115000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 44890000,
+        "Plantation (CPO/PK)": 10100000,
+        "Other": 1125000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 51290000,
+        "G&A": 1180000,
+        "Selling": 1050000,
+        "D&A": 935000,
+        "FV adjustment biological assets": 80000
+      },
+      "ebitdaMM": 3960000,
+      "netIncomeMM": 1837000,
+      "totalAssetsMM": 32500000,
+      "totalDebtMM": 13800000,
+      "cashMM": 2410000,
+      "netDebtMM": 11390000,
+      "totalEquityMM": 11700000,
+      "sharesOutMM": 2872,
+      "totalAcresK": 341,
+      "bookValuePerShare": 4076,
+      "dividendPerShare": 110,
+      "notes": "FY21: revenue Rp56.1T (+37% YoY) CPO super-cycle peak; net income Rp1.84T (+45%)"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 64298000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 51440000,
+        "Plantation (CPO/PK)": 11560000,
+        "Other": 1298000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 59140000,
+        "G&A": 1340000,
+        "Selling": 1220000,
+        "D&A": 985000,
+        "FV adjustment biological assets": 85000
+      },
+      "ebitdaMM": 3760000,
+      "netIncomeMM": 1693000,
+      "totalAssetsMM": 33850000,
+      "totalDebtMM": 14100000,
+      "cashMM": 2310000,
+      "netDebtMM": 11790000,
+      "totalEquityMM": 12750000,
+      "sharesOutMM": 2872,
+      "totalAcresK": 341,
+      "bookValuePerShare": 4441,
+      "dividendPerShare": 100,
+      "notes": "FY22: revenue Rp64.3T (+15% YoY); export ban + DMO levy compressed Q2 margins. Net income Rp1.69T"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 60535000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 48420000,
+        "Plantation (CPO/PK)": 10895000,
+        "Other": 1220000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 56640000,
+        "G&A": 1320000,
+        "Selling": 1190000,
+        "D&A": 1010000,
+        "FV adjustment biological assets": 75000
+      },
+      "ebitdaMM": 2400000,
+      "netIncomeMM": 988000,
+      "totalAssetsMM": 34050000,
+      "totalDebtMM": 13680000,
+      "cashMM": 2180000,
+      "netDebtMM": 11500000,
+      "totalEquityMM": 13350000,
+      "sharesOutMM": 2872,
+      "totalAcresK": 341,
+      "bookValuePerShare": 4649,
+      "dividendPerShare": 60,
+      "notes": "FY23: revenue Rp60.5T (-6% YoY) on CPO ASP normalization; net income Rp988B (-42%)"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 68420000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 54740000,
+        "Plantation (CPO/PK)": 12320000,
+        "Other": 1360000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 62830000,
+        "G&A": 1420000,
+        "Selling": 1305000,
+        "D&A": 1040000,
+        "FV adjustment biological assets": 90000
+      },
+      "ebitdaMM": 3915000,
+      "netIncomeMM": 1820000,
+      "totalAssetsMM": 35200000,
+      "totalDebtMM": 13420000,
+      "cashMM": 2540000,
+      "netDebtMM": 10880000,
+      "totalEquityMM": 14380000,
+      "propertyBookMM": 8650000,
+      "sharesOutMM": 2872,
+      "totalAcresK": 341,
+      "bookValuePerShare": 5008,
+      "navPerShare": 5008,
+      "dividendPerShare": 130,
+      "notes": "FY24: revenue Rp68.4T (+13% YoY); CPO recovery + branded oils volume growth. Net income Rp1.82T (+84%)"
+    }
+  ]
+}

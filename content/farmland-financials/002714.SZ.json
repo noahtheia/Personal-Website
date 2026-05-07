@@ -1,0 +1,68 @@
+{
+  "ticker": "002714.SZ",
+  "currency": "CNY",
+  "sourceUrl": "http://www.muyuanfoods.com/index.php?m=content&c=index&a=lists&catid=27",
+  "notes": "Muyuan Foods (SZSE: 002714) — world's largest pork producer by volume (~71M head sold in FY24). Highly vertically integrated: own breeding, feed mills, slaughter, and increasingly downstream meat processing. Reports CNY-millions PRC GAAP. Lists in CNY on Shenzhen Stock Exchange. FY ends Dec 31. Earnings driven by China hog cycle — extreme volatility. Net debt company-defined (interest-bearing only); leases not always disclosed at consolidated level.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 56277,
+      "ebitdaMM": 33500,
+      "netIncomeMM": 27451,
+      "totalDebtMM": 38400,
+      "cashMM": 11400,
+      "netDebtMM": 27000,
+      "sharesOutMM": 3760,
+      "notes": "FY20: Peak-cycle year — post-ASF China hog prices ~RMB35/kg. Revenue RMB56.3bn, EBITDA RMB33.5bn (margin 60%), NI RMB27.5bn. Massive capacity expansion."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 78850,
+      "ebitdaMM": 16800,
+      "netIncomeMM": 6904,
+      "totalDebtMM": 55600,
+      "cashMM": 9200,
+      "netDebtMM": 46400,
+      "sharesOutMM": 5290,
+      "notes": "FY21: Hog prices crashed ~50% (post-ASF herd rebuild) — margins collapsed. Revenue RMB78.9bn (+40% on volume), EBITDA RMB16.8bn (margin 21%), NI RMB6.9bn (-75% YoY)."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 124826,
+      "ebitdaMM": 27100,
+      "netIncomeMM": 13266,
+      "totalDebtMM": 67500,
+      "cashMM": 14100,
+      "netDebtMM": 53400,
+      "sharesOutMM": 5430,
+      "notes": "FY22: Hog price recovery 2H22 (RMB22-28/kg). Revenue RMB124.8bn (+58%), EBITDA RMB27.1bn (margin 21.7%), NI RMB13.3bn. 61.2M head sold."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 110861,
+      "ebitdaMM": 13500,
+      "netIncomeMM": -4263,
+      "totalDebtMM": 75200,
+      "cashMM": 19400,
+      "netDebtMM": 55800,
+      "sharesOutMM": 5462,
+      "notes": "FY23: Trough cycle — hog prices avg RMB14-15/kg (below cost). Revenue RMB110.9bn (-11%), EBITDA RMB13.5bn (margin 12.2%), NI -RMB4.26bn (first annual loss). 63.8M head sold."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 137949,
+      "ebitdaMM": 31200,
+      "netIncomeMM": 17810,
+      "totalDebtMM": 71400,
+      "cashMM": 22200,
+      "netDebtMM": 49200,
+      "sharesOutMM": 5468,
+      "notes": "FY24: Strong recovery — hog prices avg RMB17/kg, full-year cost down to ~RMB13.7/kg. Revenue RMB137.9bn (+24%), EBITDA RMB31.2bn (margin 22.6%), NI RMB17.8bn. 71.6M head sold (record). Leverage <1.6x."
+    }
+  ]
+}

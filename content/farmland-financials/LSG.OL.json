@@ -1,0 +1,93 @@
+{
+  "ticker": "LSG.OL",
+  "currency": "NOK",
+  "sourceUrl": "https://www.leroyseafood.com/en/investor/",
+  "notes": "Lerøy Seafood Group is a Norwegian vertically-integrated seafood group with operations across salmon/trout farming (Lerøy Aurora, Lerøy Midt, Lerøy Sjøtroll), wild-catch whitefish (Havfisk trawlers), processing (Lerøy Norway Seafoods), and value-add processing (VAP) and distribution. ~52% owned by Austevoll Seafood. Reports and lists in NOK on Oslo Børs. FY = calendar year. Segment expense split estimated from raw-material and personnel cost disclosure.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 20425,
+      "expensesBySegmentMM": {
+        "Cost of materials": 12500,
+        "Salaries": 2860,
+        "Operating expenses": 3300,
+        "D&A": 1100
+      },
+      "ebitdaMM": 2375,
+      "netDebtMM": 4500,
+      "sharesOutMM": 595.77,
+      "bookValuePerShare": 25.0,
+      "dividendPerShare": 1.00,
+      "notes": "FY20: Revenue NOK 20,425M, Operational EBIT NOK 1,275M. COVID-impacted year. Dividend cut."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 23291,
+      "expensesBySegmentMM": {
+        "Cost of materials": 14250,
+        "Salaries": 3100,
+        "Operating expenses": 3680,
+        "D&A": 1170
+      },
+      "ebitdaMM": 3091,
+      "netDebtMM": 4900,
+      "sharesOutMM": 595.77,
+      "bookValuePerShare": 27.0,
+      "dividendPerShare": 2.50,
+      "notes": "FY21: Revenue NOK 23,291M, Operational EBIT NOK 1,921M. Salmon price recovery."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 27725,
+      "expensesBySegmentMM": {
+        "Cost of materials": 16965,
+        "Salaries": 3650,
+        "Operating expenses": 4350,
+        "D&A": 1235
+      },
+      "ebitdaMM": 4290,
+      "netDebtMM": 5800,
+      "sharesOutMM": 595.77,
+      "bookValuePerShare": 29.5,
+      "dividendPerShare": 1.50,
+      "notes": "FY22: Revenue NOK 27,725M, Operational EBIT NOK 3,055M. Record salmon prices; Norwegian resource-rent tax announced Sep 2022."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 31470,
+      "expensesBySegmentMM": {
+        "Cost of materials": 19250,
+        "Salaries": 4080,
+        "Operating expenses": 4920,
+        "D&A": 1410
+      },
+      "ebitdaMM": 3220,
+      "netDebtMM": 6300,
+      "sharesOutMM": 595.77,
+      "bookValuePerShare": 30.5,
+      "dividendPerShare": 1.50,
+      "notes": "FY23: Revenue NOK 31,470M, Operational EBIT NOK 1,810M. Margins squeezed by costs and resource-rent tax (effective Jan 1, 2023)."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 32360,
+      "expensesBySegmentMM": {
+        "Cost of materials": 19800,
+        "Salaries": 4180,
+        "Operating expenses": 5060,
+        "D&A": 1480
+      },
+      "ebitdaMM": 3540,
+      "netDebtMM": 6700,
+      "sharesOutMM": 595.77,
+      "bookValuePerShare": 31.5,
+      "dividendPerShare": 2.00,
+      "notes": "FY24: Revenue NOK 32,360M, Operational EBIT NOK 2,060M. Whitefish strong; salmon biological issues in Lerøy Aurora region."
+    }
+  ]
+}
