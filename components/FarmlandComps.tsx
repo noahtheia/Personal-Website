@@ -51,6 +51,7 @@ const GEOGRAPHY_ORDER: FarmlandGeography[] = [
   "Egypt",
   "Kenya",
   "South Africa",
+  "Nigeria",
 ];
 
 function categoryKey(r: { sector: string; geography: string }): string {

@@ -32,6 +32,7 @@ const CurrencySchema = z.enum([
   "MXN",
   "EGP",
   "CHF",
+  "NGN",
 ]);
 type Currency = z.infer<typeof CurrencySchema>;
 
@@ -76,6 +77,7 @@ const GeographySchema = z.enum([
   "Egypt",
   "Kenya",
   "South Africa",
+  "Nigeria",
 ]);
 type Geography = z.infer<typeof GeographySchema>;
 
