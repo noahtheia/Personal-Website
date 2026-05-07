@@ -116,6 +116,7 @@ const COLUMNS: Column[] = [
   { key: "evPerAcre", label: "EV / Acre", hint: "$ implied", band: "land", format: "intDollar" },
   { key: "pNav", label: "P / NAV", hint: "price ÷ FMV NAV (per detail page)", band: "land", format: "mult" },
   { key: "fmvNavPerShareUsd", label: "FMV NAV / sh", hint: "$ implied", band: "land", format: "money" },
+  { key: "evCapRate", label: "Cap Rate", hint: "NOI ÷ EV", band: "land", format: "pct" },
   // Earnings value — tighter padding like Market Data since it's a long band.
   { key: "annualRevenueMM", label: "Revenue", hint: "$M", band: "earnings", format: "intDollar" },
   { key: "annualEbitdaMM", label: "EBITDA", hint: "$M", band: "earnings", format: "intDollarSigned" },
@@ -123,7 +124,6 @@ const COLUMNS: Column[] = [
   { key: "evEbitda", label: "EV / EBITDA", hint: "×", band: "earnings", format: "mult" },
   { key: "priceSales", label: "P / S", hint: "mkt cap ÷ rev", band: "earnings", format: "mult" },
   { key: "priceEarnings", label: "P / E", hint: "price ÷ EPS", band: "earnings", format: "mult" },
-  { key: "evCapRate", label: "Cap Rate", hint: "NOI ÷ EV", band: "earnings", format: "pct" },
   { key: "divYield", label: "Div Yield", hint: "div ÷ price", band: "earnings", format: "pct" },
 ];
 
