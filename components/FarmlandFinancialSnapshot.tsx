@@ -564,19 +564,22 @@ export function FarmlandFinancialSnapshot({
                       hoverDate={hoveredPoint.dateMs}
                     />
                   )}
-                  {view.overlayPoints && hoverIdx !== null && (
-                    <circle
-                      cx={view.overlayPoints[hoverIdx].x}
-                      cy={view.overlayPoints[hoverIdx].y}
-                      r={3.5}
-                      fill="var(--bg)"
-                      stroke={C_OVERLAY}
-                      strokeWidth="1.5"
-                    />
-                  )}
+                  {view.overlayPoints &&
+                    hoverIdx !== null &&
+                    view.overlayPoints[hoverIdx] && (
+                      <circle
+                        cx={view.overlayPoints[hoverIdx].x}
+                        cy={view.overlayPoints[hoverIdx].y}
+                        r={3.5}
+                        fill="var(--bg)"
+                        stroke={C_OVERLAY}
+                        strokeWidth="1.5"
+                      />
+                    )}
                   {view.secondaryPoints &&
                     view.secondaryRawValues &&
-                    hoverIdx !== null && (
+                    hoverIdx !== null &&
+                    view.secondaryPoints[hoverIdx] && (
                       <circle
                         cx={view.secondaryPoints[hoverIdx].x}
                         cy={view.secondaryPoints[hoverIdx].y}
