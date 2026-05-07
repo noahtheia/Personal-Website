@@ -18,9 +18,11 @@
       "totalDebtMM": 4994.0,
       "cashMM": 320.0,
       "netDebtMM": 4674.0,
-      "sharesOutMM": 141.81,
+      "sharesOutMM": 137.04,
       "dividendPerShare": 2,
-      "epsDiluted": -9.34
+      "epsDiluted": -9.34,
+      "bookValuePerShare": 44.0,
+      "navPerShare": 44.0
     },
     {
       "endDate": "2020-12-31",
@@ -36,9 +38,11 @@
       "totalDebtMM": 7288.0,
       "cashMM": 352.0,
       "netDebtMM": 6936.0,
-      "sharesOutMM": 139.79,
+      "sharesOutMM": 148.51,
       "dividendPerShare": 2,
-      "epsDiluted": 7.71
+      "epsDiluted": 7.71,
+      "bookValuePerShare": 41.78,
+      "navPerShare": 41.78
     },
     {
       "endDate": "2021-12-31",
@@ -54,9 +58,11 @@
       "totalDebtMM": 5964.0,
       "cashMM": 902.0,
       "netDebtMM": 5062.0,
-      "sharesOutMM": 141.06,
+      "sharesOutMM": 152.35,
       "dividendPerShare": 2.08,
-      "epsDiluted": 13.64
+      "epsDiluted": 13.64,
+      "bookValuePerShare": 51.36,
+      "navPerShare": 51.36
     },
     {
       "endDate": "2022-12-31",
@@ -72,9 +78,11 @@
       "totalDebtMM": 4651.0,
       "cashMM": 1104.0,
       "netDebtMM": 3547.0,
-      "sharesOutMM": 149.91,
+      "sharesOutMM": 153.19,
       "dividendPerShare": 2.4,
-      "epsDiluted": 10.51
+      "epsDiluted": 10.51,
+      "bookValuePerShare": 64.99,
+      "navPerShare": 64.99
     },
     {
       "endDate": "2023-12-31",
@@ -91,7 +99,10 @@
       "cashMM": 2602.0,
       "netDebtMM": 2280.0,
       "dividendPerShare": 2.6125,
-      "epsDiluted": 14.87
+      "epsDiluted": 14.87,
+      "sharesOutMM": 150.84,
+      "bookValuePerShare": 78.32,
+      "navPerShare": 78.32
     },
     {
       "endDate": "2024-12-31",
@@ -108,7 +119,10 @@
       "cashMM": 3311.0,
       "netDebtMM": 2927.0,
       "dividendPerShare": 2.72,
-      "epsDiluted": 7.99
+      "epsDiluted": 7.99,
+      "sharesOutMM": 142.3,
+      "bookValuePerShare": 76.91,
+      "navPerShare": 76.91
     },
     {
       "endDate": "2025-12-31",
@@ -125,7 +139,10 @@
       "cashMM": 1135.0,
       "netDebtMM": 12916.0,
       "dividendPerShare": 2.8,
-      "epsDiluted": 4.91
+      "epsDiluted": 4.91,
+      "sharesOutMM": 166.19,
+      "bookValuePerShare": 104.51,
+      "navPerShare": 104.51
     }
   ]
 }
