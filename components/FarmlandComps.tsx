@@ -151,6 +151,28 @@ function cellPadX(band: Band): string {
 export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
   const [sortKey, setSortKey] = useState<SortKey>("marketCapMM");
   const [dir, setDir] = useState<"asc" | "desc">("desc");
+  const [visibleBands, setVisibleBands] = useState<Record<Band, boolean>>({
+    market: true,
+    land: true,
+    earnings: true,
+  });
+  const [filterOpen, setFilterOpen] = useState(false);
+
+  const visibleBandList = BAND_ORDER.filter((b) => visibleBands[b]);
+  const visibleColumns = COLUMNS.filter((c) => visibleBands[c.band]);
+  // Indices in visibleColumns where a band changes — for vertical separators.
+  const visibleBandBreaks = new Set<number>();
+  for (let i = 1; i < visibleColumns.length; i++) {
+    if (visibleColumns[i].band !== visibleColumns[i - 1].band) {
+      visibleBandBreaks.add(i);
+    }
+  }
+
+  // If the current sort column got hidden, fall back to marketCapMM
+  // (which lives in "market", a band whose visibility likely toggles
+  // back on quickly). Avoids dead sort state.
+  const sortStillVisible = visibleColumns.some((c) => c.key === sortKey);
+  const effectiveSortKey: SortKey = sortStillVisible ? sortKey : "marketCapMM";
 
   // Group rows by {Sector — Geography}, preserve SECTOR/GEOGRAPHY_ORDER
   // outer order; within each group, sort by the user's chosen column.
@@ -168,8 +190,8 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
     // Sort rows inside each group by current sort column.
     for (const [, groupRows] of ordered) {
       groupRows.sort((a, b) => {
-        const av = a[sortKey];
-        const bv = b[sortKey];
+        const av = a[effectiveSortKey];
+        const bv = b[effectiveSortKey];
         if (typeof av === "string" && typeof bv === "string") {
           return dir === "asc" ? av.localeCompare(bv) : bv.localeCompare(av);
         }
@@ -186,7 +208,7 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
       rows: groupRows,
       stats: computeStats(groupRows),
     }));
-  }, [rows, sortKey, dir]);
+  }, [rows, effectiveSortKey, dir]);
 
   const overallStats = useMemo(() => computeStats(rows), [rows]);
 
@@ -199,7 +221,75 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
   }
 
   return (
-    <div className="mt-6 overflow-x-auto rounded-sm border border-rule bg-surface">
+    <div className="mt-6 space-y-3">
+      <div className="flex justify-end">
+        <div className="relative">
+          <button
+            type="button"
+            onClick={() => setFilterOpen((o) => !o)}
+            className="inline-flex items-center gap-2 rounded-sm border border-rule bg-surface px-3 py-1.5 text-xs font-medium !text-fg transition-colors hover:border-accent hover:!text-accent"
+            aria-haspopup="true"
+            aria-expanded={filterOpen}
+          >
+            <span>Filter</span>
+            <span className="text-[10px] opacity-60">
+              {visibleBandList.length}/{BAND_ORDER.length}
+            </span>
+            <span aria-hidden="true" className="text-[10px]">+</span>
+          </button>
+          {filterOpen && (
+            <>
+              {/* Click-away */}
+              <div
+                className="fixed inset-0 z-20"
+                onClick={() => setFilterOpen(false)}
+                aria-hidden="true"
+              />
+              <div
+                role="menu"
+                className="absolute right-0 z-30 mt-1 w-56 rounded-sm border border-rule bg-surface shadow-lg"
+              >
+                <div className="border-b border-rule px-3 py-2 text-[10px] font-semibold uppercase tracking-wider text-muted">
+                  Column groups
+                </div>
+                <ul className="py-1">
+                  {BAND_ORDER.map((b) => {
+                    const on = visibleBands[b];
+                    return (
+                      <li key={b}>
+                        <button
+                          type="button"
+                          onClick={() =>
+                            setVisibleBands((v) => ({ ...v, [b]: !v[b] }))
+                          }
+                          className="flex w-full items-center justify-between px-3 py-2 text-xs transition-colors hover:bg-bg/60"
+                        >
+                          <span className={on ? "!text-fg" : "!text-muted"}>
+                            {BAND_LABEL[b]}
+                          </span>
+                          <span
+                            aria-hidden="true"
+                            className={`inline-flex h-4 w-7 items-center rounded-full transition-colors ${
+                              on ? "bg-accent" : "bg-rule"
+                            }`}
+                          >
+                            <span
+                              className={`inline-block h-3 w-3 rounded-full bg-bg transition-transform ${
+                                on ? "translate-x-3.5" : "translate-x-0.5"
+                              }`}
+                            />
+                          </span>
+                        </button>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            </>
+          )}
+        </div>
+      </div>
+      <div className="overflow-x-auto rounded-sm border border-rule bg-surface">
       <table className="w-full border-collapse font-sans text-xs tabular-nums">
         <thead>
           {/* Band row */}
@@ -251,8 +341,8 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
                 {c.label}
               </th>
             ))}
-            {BAND_ORDER.map((b, idx) => {
-              const span = COLUMNS.filter((c) => c.band === b).length;
+            {visibleBandList.map((b, idx) => {
+              const span = visibleColumns.filter((c) => c.band === b).length;
               return (
                 <th
                   key={b}
@@ -268,9 +358,9 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
           </tr>
           {/* Column header row */}
           <tr className="border-b border-rule-strong">
-            {COLUMNS.map((c, i) => {
-              const active = c.key === sortKey;
-              const bandBreak = BAND_BREAKS.has(i)
+            {visibleColumns.map((c, i) => {
+              const active = c.key === effectiveSortKey;
+              const bandBreak = visibleBandBreaks.has(i)
                 ? "border-l border-rule-strong"
                 : "";
               return (
@@ -318,7 +408,9 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
               label={group.key}
               rows={group.rows}
               stats={group.stats}
-              colCount={4 + COLUMNS.length}
+              colCount={4 + visibleColumns.length}
+              visibleColumns={visibleColumns}
+              visibleBandBreaks={visibleBandBreaks}
             />
           ))}
           <tr className="border-t-2 border-rule-strong bg-bg/60 font-semibold">
@@ -326,11 +418,11 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
             <td className="sticky left-20 bg-bg/95 px-3 py-2 text-left" />
             <td className="bg-bg/95 px-3 py-2" />
             <td className="bg-bg/95 px-3 py-2" />
-            {COLUMNS.map((c, i) => (
+            {visibleColumns.map((c, i) => (
               <td
                 key={c.key}
                 className={`${cellPadX(c.band)} py-2 text-right ${
-                  BAND_BREAKS.has(i) ? "border-l border-rule-strong" : ""
+                  visibleBandBreaks.has(i) ? "border-l border-rule-strong" : ""
                 }`}
               >
                 {renderCell(overallStats.mean[c.key], c)}
@@ -342,11 +434,11 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
             <td className="sticky left-20 bg-bg/95 px-3 py-2 text-left" />
             <td className="bg-bg/95 px-3 py-2" />
             <td className="bg-bg/95 px-3 py-2" />
-            {COLUMNS.map((c, i) => (
+            {visibleColumns.map((c, i) => (
               <td
                 key={c.key}
                 className={`${cellPadX(c.band)} py-2 text-right ${
-                  BAND_BREAKS.has(i) ? "border-l border-rule-strong" : ""
+                  visibleBandBreaks.has(i) ? "border-l border-rule-strong" : ""
                 }`}
               >
                 {renderCell(overallStats.median[c.key], c)}
@@ -355,6 +447,7 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
           </tr>
         </tbody>
       </table>
+      </div>
     </div>
   );
 }
@@ -364,11 +457,15 @@ function CategorySection({
   rows,
   stats,
   colCount,
+  visibleColumns,
+  visibleBandBreaks,
 }: {
   label: string;
   rows: PricedFarmlandComp[];
   stats: { mean: Stats; median: Stats };
   colCount: number;
+  visibleColumns: typeof COLUMNS;
+  visibleBandBreaks: Set<number>;
 }) {
   return (
     <>
@@ -407,13 +504,13 @@ function CategorySection({
           <td className="bg-surface px-3 py-3 text-left text-[11px] text-fg-soft">
             {r.operatingCountry ?? r.geography}
           </td>
-          {COLUMNS.map((c, i) => {
+          {visibleColumns.map((c, i) => {
             const val = r[c.key] as number | null;
             return (
               <td
                 key={c.key}
                 className={`${cellPadX(c.band)} py-3 text-right ${
-                  BAND_BREAKS.has(i) ? "border-l border-rule-strong" : ""
+                  visibleBandBreaks.has(i) ? "border-l border-rule-strong" : ""
                 }`}
               >
                 {renderCell(val, c)}
@@ -429,11 +526,11 @@ function CategorySection({
         <td className="sticky left-20 z-[1] bg-bg/95 px-3 py-1.5 text-left" />
         <td className="bg-bg/95 px-3 py-1.5" />
         <td className="bg-bg/95 px-3 py-1.5" />
-        {COLUMNS.map((c, i) => (
+        {visibleColumns.map((c, i) => (
           <td
             key={c.key}
             className={`${cellPadX(c.band)} py-1.5 text-right ${
-              BAND_BREAKS.has(i) ? "border-l border-rule-strong" : ""
+              visibleBandBreaks.has(i) ? "border-l border-rule-strong" : ""
             }`}
           >
             {renderCell(stats.mean[c.key], c)}
@@ -447,11 +544,11 @@ function CategorySection({
         <td className="sticky left-20 z-[1] bg-bg/95 px-3 py-1.5 text-left" />
         <td className="bg-bg/95 px-3 py-1.5" />
         <td className="bg-bg/95 px-3 py-1.5" />
-        {COLUMNS.map((c, i) => (
+        {visibleColumns.map((c, i) => (
           <td
             key={c.key}
             className={`${cellPadX(c.band)} py-1.5 text-right ${
-              BAND_BREAKS.has(i) ? "border-l border-rule-strong" : ""
+              visibleBandBreaks.has(i) ? "border-l border-rule-strong" : ""
             }`}
           >
             {renderCell(stats.median[c.key], c)}
