@@ -1,0 +1,38 @@
+{
+  "ticker": "RFF.AX",
+  "currency": "AUD",
+  "sourceUrl": "https://www.ruralfunds.com.au/investments/rural-funds-group/publications",
+  "notes": "Australian REIT — IFRS fair-value accounting (book = FMV). Total adjusted property assets disclosed annually in 30-Jun annual reports.",
+  "periods": [
+    {
+      "endDate": "2024-06-30",
+      "periodType": "FY",
+      "totalAssetsMM": 2050,
+      "propertyBookMM": 1951.7,
+      "propertyFmvMM": 1951.7,
+      "totalDebtMM": 813,
+      "navPerShare": 3.14,
+      "fmvNavPerShare": 3.14,
+      "sharesOutMM": 388.2,
+      "totalAcresK": 1828.8,
+      "dividendPerShare": 0.117,
+      "notes": "FY24 Annual Report. Total adjusted property assets AUD $1,951.7M"
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "FY",
+      "revenueMM": 128.8,
+      "noiMM": 95.1,
+      "totalAssetsMM": 2100,
+      "propertyBookMM": 1975.6,
+      "propertyFmvMM": 1975.6,
+      "totalDebtMM": 811,
+      "navPerShare": 3.08,
+      "fmvNavPerShare": 3.08,
+      "sharesOutMM": 389,
+      "totalAcresK": 1828.8,
+      "dividendPerShare": 0.1173,
+      "notes": "FY25 Annual Report. Net property income +9.2% YoY. Adjusted NAV/unit $3.08"
+    }
+  ]
+}

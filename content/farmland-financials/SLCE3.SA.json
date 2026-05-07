@@ -1,0 +1,40 @@
+{
+  "ticker": "SLCE3.SA",
+  "currency": "BRL",
+  "sourceUrl": "https://ri.slcagricola.com.br/en/",
+  "notes": "SLC Agricola B3-listed since 2007. Annual Deloitte appraisals of OWNED cultivable land (terras próprias). Quarterly fundamental data backfill in progress.",
+  "periods": [
+    {
+      "endDate": "2024-07-01",
+      "periodType": "LTM",
+      "propertyFmvMM": 11591,
+      "totalAcresK": 561,
+      "notes": "Deloitte Jul-2024 farmland appraisal: R$11,591M / R$58,960/cultivable ha"
+    },
+    {
+      "endDate": "2025-07-01",
+      "periodType": "LTM",
+      "propertyFmvMM": 13396,
+      "totalAcresK": 561,
+      "notes": "Deloitte Jul-2025 farmland appraisal: R$13,396M / R$58,960/cultivable ha (+15.6% YoY incl. Mar-2025 +27,516 ha Agrícola Xingu acquisition; +7.1% on comparable basis)"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 8550,
+      "ebitdaMM": 2600,
+      "noiMM": 2600,
+      "propertyBookMM": 4500,
+      "propertyFmvMM": 13396,
+      "totalDebtMM": 11150,
+      "cashMM": 2650,
+      "netDebtMM": 8500,
+      "sharesOutMM": 443.3,
+      "navPerShare": 10.13,
+      "totalAcresK": 561,
+      "epsBasic": 1.12,
+      "dividendPerShare": 0.81,
+      "notes": "FY24 reported."
+    }
+  ]
+}

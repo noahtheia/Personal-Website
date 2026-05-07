@@ -1,0 +1,36 @@
+{
+  "ticker": "LAND3.SA",
+  "currency": "BRL",
+  "sourceUrl": "https://ri.terrasantapropriedades.com.br/",
+  "notes": "Terra Santa Propriedades (LAND3) spun off from Terra Santa Agro in 2021 as B3-listed exclusively-rural-real-estate vehicle. All 7 owned farms in Mato Grosso, leased on 25-yr contract to SLC Agrícola. Annual S&P Global laudo de avaliação (Nov base date).",
+  "periods": [
+    {
+      "endDate": "2022-11-30",
+      "periodType": "LTM",
+      "propertyFmvMM": 3635,
+      "totalAcresK": 96.84,
+      "notes": "S&P Global Nov-2022 laudo: R$3,635M = R$92,769/ha = R$37,548/acre (peak after COVID-era soy rally)"
+    },
+    {
+      "endDate": "2023-11-30",
+      "periodType": "LTM",
+      "propertyFmvMM": 2993,
+      "totalAcresK": 96.84,
+      "notes": "S&P Nov-2023: R$2,993M = R$76,372/ha = R$30,910/acre (-17.6% YoY)"
+    },
+    {
+      "endDate": "2024-11-30",
+      "periodType": "LTM",
+      "propertyFmvMM": 2755.9,
+      "totalAcresK": 96.84,
+      "notes": "S&P Nov-2024: R$2,756M = R$70,310/ha = R$28,455/acre (-7.9% on soybean weakness)"
+    },
+    {
+      "endDate": "2025-11-30",
+      "periodType": "LTM",
+      "propertyFmvMM": 2796.4,
+      "totalAcresK": 96.84,
+      "notes": "S&P Nov-2025: R$2,796.4M = R$71,344/ha = R$28,872/acre (slight recovery)"
+    }
+  ]
+}

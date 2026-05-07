@@ -6,6 +6,7 @@ import {
   type PricedFarmlandComp,
 } from "@/lib/farmland-comps";
 import { getPropertyDetail } from "@/lib/farmland-properties";
+import { getFinancials } from "@/lib/farmland-financials";
 import { fetchPriceHistory } from "@/lib/farmland-history";
 import { FarmlandDetailTabs } from "@/components/FarmlandDetailTabs";
 import { FarmlandPropertyDetail } from "@/components/FarmlandPropertyDetail";
@@ -45,6 +46,7 @@ export default async function PublicFarmlandTickerPage({
   if (!filing) notFound();
 
   const detail = getPropertyDetail(decoded);
+  const financials = getFinancials(decoded);
   const comps = await getPricedFarmlandComps();
   const priced = comps.find((c) => c.ticker === decoded);
   const history = await fetchPriceHistory(decoded);
@@ -101,6 +103,7 @@ export default async function PublicFarmlandTickerPage({
             filing={filing}
             priced={priced}
             history={history}
+            financials={financials}
           />
         }
       />

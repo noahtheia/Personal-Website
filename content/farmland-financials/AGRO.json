@@ -1,0 +1,52 @@
+{
+  "ticker": "AGRO",
+  "currency": "USD",
+  "sourceUrl": "https://www.adecoagro.com/Investor",
+  "notes": "Adecoagro NYSE-listed since Jan 2011. Quarterly + annual data from Cushman & Wakefield farmland appraisals (Sep dates), 20-F annual reports, and quarterly press releases. Cushman appraisals run on Sep 30 (consistent across years).",
+  "periods": [
+    {
+      "endDate": "2018-09-30",
+      "periodType": "LTM",
+      "propertyFmvMM": 846.7,
+      "totalAcresK": 575.1,
+      "notes": "Cushman & Wakefield Sep-2018 farmland appraisal: $846.7M for 232,733 ha = $3,637/ha"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "LTM",
+      "propertyFmvMM": 695.3,
+      "totalAcresK": 527.8,
+      "notes": "Cushman Sep-2023: $695.3M for 213,548 ha (pre El Meridiano sale)"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "LTM",
+      "propertyFmvMM": 682.6,
+      "totalAcresK": 519.9,
+      "notes": "Cushman Sep-2024: $682.6M for 210,371 ha (+0.4% YoY)"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 1530,
+      "ebitdaMM": 444,
+      "totalAssetsMM": 3399,
+      "sharesOutMM": 102.34,
+      "totalAcresK": 519.9,
+      "propertyFmvMM": 682.6,
+      "dividendPaidMM": 102,
+      "notes": "FY24 Adjusted EBITDA $444M; $102M shareholder distribution"
+    },
+    {
+      "endDate": "2025-09-30",
+      "periodType": "LTM",
+      "ebitdaMM": 115.1,
+      "propertyFmvMM": 714.8,
+      "totalAcresK": 519.9,
+      "navPerShare": 13.7,
+      "totalEquityMM": 1402,
+      "sharesOutMM": 102.34,
+      "notes": "Cushman Sep-2025: $714.8M (+4.7% YoY). 3Q25 Adjusted EBITDA $115.1M. Equity per share $13.7"
+    }
+  ]
+}
