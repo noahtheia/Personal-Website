@@ -1732,7 +1732,9 @@
     "epsTTM": 0.5,
     "sector": "Aquaculture / Seafood",
     "geography": "Norway",
-    "operatingCountry": "Norway"
+    "operatingCountry": "Norway",
+    "annualNetIncomeMM": 472,
+    "annualFcfMM": 682
   },
   {
     "ticker": "SALM.OL",
@@ -1751,7 +1753,9 @@
     "epsTTM": 23.4,
     "sector": "Aquaculture / Seafood",
     "geography": "Norway",
-    "operatingCountry": "Norway"
+    "operatingCountry": "Norway",
+    "annualNetIncomeMM": 3065,
+    "annualFcfMM": 1900
   },
   {
     "ticker": "BAKKA.OL",
@@ -1771,7 +1775,9 @@
     "epsTTM": 17.5,
     "sector": "Aquaculture / Seafood",
     "geography": "Norway",
-    "operatingCountry": "Norway"
+    "operatingCountry": "Norway",
+    "annualNetIncomeMM": 1033,
+    "annualFcfMM": 300
   },
   {
     "ticker": "LSG.OL",
@@ -1790,7 +1796,9 @@
     "epsTTM": 3.4,
     "sector": "Aquaculture / Seafood",
     "geography": "Norway",
-    "operatingCountry": "Norway"
+    "operatingCountry": "Norway",
+    "annualNetIncomeMM": 2025,
+    "annualFcfMM": 1200
   },
   {
     "ticker": "GSF.OL",
@@ -1809,7 +1817,9 @@
     "epsTTM": -1.2,
     "sector": "Aquaculture / Seafood",
     "geography": "Norway",
-    "operatingCountry": "Norway"
+    "operatingCountry": "Norway",
+    "annualNetIncomeMM": -135,
+    "annualFcfMM": -150
   },
   {
     "ticker": "0288.HK",
@@ -2723,7 +2733,8 @@
     "sector": "Dairy / Egg Producer",
     "geography": "New Zealand",
     "operatingCountry": "New Zealand",
-    "annualNetIncomeMM": 12
+    "annualNetIncomeMM": 12,
+    "annualFcfMM": 115
   },
   {
     "ticker": "AHF.AX",
@@ -2744,7 +2755,8 @@
     "sector": "Dairy / Egg Producer",
     "geography": "Australia",
     "operatingCountry": "Australia",
-    "annualNetIncomeMM": -2.4
+    "annualNetIncomeMM": -2.4,
+    "annualFcfMM": -0.5
   },
   {
     "ticker": "CVGW",
