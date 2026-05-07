@@ -82,6 +82,8 @@ type SortKey =
   | "annualNetIncomeMM"
   | "ebitdaMargin"
   | "netIncomeMargin"
+  | "roe"
+  | "roic"
   | "evEbitda"
   | "priceSales"
   | "priceEarnings"
@@ -118,6 +120,8 @@ const COLUMNS: Column[] = [
   { key: "annualNetIncomeMM", label: "Net Income", hint: "$M", band: "operating", format: "intDollarSigned" },
   { key: "ebitdaMargin", label: "EBITDA Margin", hint: "EBITDA ÷ rev", band: "operating", format: "pct" },
   { key: "netIncomeMargin", label: "Net Income Margin", hint: "NI ÷ rev", band: "operating", format: "pct" },
+  { key: "roe", label: "ROE", hint: "NI ÷ equity", band: "operating", format: "pct" },
+  { key: "roic", label: "ROIC", hint: "NI ÷ (equity + net debt)", band: "operating", format: "pct" },
   // Valuation multiples
   { key: "evEbitda", label: "EV / EBITDA", hint: "×", band: "valuation", format: "mult" },
   { key: "priceSales", label: "P / S", hint: "mkt cap ÷ rev", band: "valuation", format: "mult" },

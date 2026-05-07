@@ -124,6 +124,10 @@ const FilingSchema = z.object({
   // Optional — free cash flow (CFO − capex). Few ag issuers
   // disclose cleanly; null when not available.
   annualFcfMM: z.number().optional(),
+  // Optional — total shareholders' equity (book value), used to
+  // derive ROE and ROIC. When absent, downstream ratios fall back
+  // to navPerShare × sharesOut as an approximation.
+  annualEquityMM: z.number().optional(),
   epsTTM: z.number(),
   // Book value of property/land. Optional for issuers that don't carry
   // significant land on the balance sheet (processors, traders).
@@ -137,7 +141,7 @@ export type FarmlandGeography = Geography;
 
 export type PricedFarmlandComp = Omit<
   FarmlandFiling,
-  "annualNetIncomeMM" | "annualFcfMM"
+  "annualNetIncomeMM" | "annualFcfMM" | "annualEquityMM"
 > & {
   // Live local-currency price (raw Yahoo quote).
   localPrice: number | null;
@@ -164,8 +168,11 @@ export type PricedFarmlandComp = Omit<
   annualEbitdaMM: number;
   annualNetIncomeMM: number | null;
   annualFcfMM: number | null;
+  annualEquityMM: number | null;
   ebitdaMargin: number | null;
   netIncomeMargin: number | null;
+  roe: number | null;
+  roic: number | null;
   evEbitda: number | null;
   priceSales: number | null;
   priceEarnings: number | null;
@@ -323,6 +330,29 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         marketCapLocal > 0
           ? (f.annualFcfMM / marketCapLocal) * 100
           : null;
+      // Shareholders' equity — prefer the explicit field; fall back
+      // to navPerShare × sharesOutMM (book/NAV per share × shares).
+      const equityLocal =
+        f.annualEquityMM !== undefined
+          ? f.annualEquityMM
+          : f.navPerShare !== undefined && f.navPerShare > 0
+          ? f.navPerShare * f.sharesOutMM
+          : null;
+      const roe =
+        annualNetIncomeMMLocal !== null && equityLocal !== null && equityLocal > 0
+          ? (annualNetIncomeMMLocal / equityLocal) * 100
+          : null;
+      // ROIC ≈ NI ÷ (Equity + Net Debt). Simple invested-capital
+      // proxy without splitting out NOPAT (most ag P&Ls don't break
+      // out interest cleanly enough to bother).
+      const investedCapital =
+        equityLocal !== null ? equityLocal + netDebtLocal : null;
+      const roic =
+        annualNetIncomeMMLocal !== null &&
+        investedCapital !== null &&
+        investedCapital > 0
+          ? (annualNetIncomeMMLocal / investedCapital) * 100
+          : null;
 
       return {
         ...f,
@@ -346,11 +376,14 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
             : null,
         annualFcfMM:
           f.annualFcfMM !== undefined ? f.annualFcfMM * fx : null,
+        annualEquityMM: equityLocal !== null ? equityLocal * fx : null,
         // Dimensionless multiples — passed through
         pNav,
         fmvNavPerShareUsd,
         ebitdaMargin,
         netIncomeMargin,
+        roe,
+        roic,
         evEbitda,
         priceSales,
         priceEarnings,
