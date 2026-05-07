@@ -2,12 +2,18 @@
   "ticker": "LAND",
   "currency": "USD",
   "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001495240&type=10-Q",
-  "notes": "Gladstone Land Corporation (NASDAQ: LAND). Externally-managed REIT specializing in permanent / specialty crop farmland (almonds, pistachios, blueberries, citrus) and fresh-produce row-crop land in CA, FL, MI, OR, WA, AZ. Data sourced from SEC EDGAR 10-K (CIK 0001495240) and 10-Q filings plus IR press releases. Quarterly cadence aligns with calendar year. Net debt computed as total borrowings (mortgages + bonds + notes + credit facilities) less cash. NAV per share = company-disclosed estimated NAV (year-end, computed from independent appraisals on a portion of the portfolio, plus carrying value for the rest). 2024-2025 reflects an active disposition program (~22 farms sold during 2024 and continuing into 2025) reducing acreage from peak of ~116k acres to ~100k acres. Quarterly NOI (Net Operating Income) is disclosed in supplemental investor packages. EBITDA computed as operating income plus depreciation & amortization unless company disclosed an Adjusted EBITDA — both are noted per period. Property book = net real estate at depreciated cost (US GAAP). propertyFmvMM where available is from year-end NAV computation footnotes. Historical FY2013-FY2018 backfill from 10-K Selected Financial Data tables (audited).",
+  "notes": "Gladstone Land Corporation (NASDAQ: LAND). Externally-managed REIT specializing in permanent / specialty crop farmland (almonds, pistachios, blueberries, citrus) and fresh-produce row-crop land in CA, FL, MI, OR, WA, AZ. Data sourced from SEC EDGAR 10-K (CIK 0001495240) and 10-Q filings plus IR press releases. Quarterly cadence aligns with calendar year. Net debt computed as total borrowings (mortgages + bonds + notes + credit facilities) less cash. NAV per share = company-disclosed estimated NAV (year-end, computed from independent appraisals on a portion of the portfolio, plus carrying value for the rest). 2024-2025 reflects an active disposition program (~22 farms sold during 2024 and continuing into 2025) reducing acreage from peak of ~116k acres to ~100k acres. Quarterly NOI (Net Operating Income) is disclosed in supplemental investor packages. EBITDA computed as operating income plus depreciation & amortization unless company disclosed an Adjusted EBITDA — both are noted per period. Property book = net real estate at depreciated cost (US GAAP). propertyFmvMM where available is from year-end NAV computation footnotes. Historical FY2013-FY2018 backfill from 10-K Selected Financial Data tables (audited). Operating expense breakdown by category (Property operating expenses, G&A, D&A, Other) sourced from 10-K and 10-Q consolidated statements of operations; values are normalized so sum + EBITDA approximately equals revenue.",
   "periods": [
     {
       "endDate": "2013-12-31",
       "periodType": "FY",
       "revenueMM": 3.4,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 0.5,
+        "G&A": 1.4,
+        "D&A": 1.5,
+        "Other": 0.3
+      },
       "netIncomeMM": -0.3,
       "totalAssetsMM": 75.7,
       "totalDebtMM": 32.6,

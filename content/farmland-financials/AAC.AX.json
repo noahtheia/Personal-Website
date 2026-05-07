@@ -8,6 +8,13 @@
       "endDate": "2002-03-31",
       "periodType": "FY",
       "revenueMM": 168.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 88.0,
+        "Employee benefits": 22.0,
+        "Administrative expenses": 10.0,
+        "D&A": 11.0,
+        "Other operating expenses": 5.0
+      },
       "ebitdaMM": 32.0,
       "netIncomeMM": 16.0,
       "totalAssetsMM": 750.0,
@@ -26,6 +33,13 @@
       "endDate": "2003-03-31",
       "periodType": "FY",
       "revenueMM": 198.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 105.0,
+        "Employee benefits": 26.0,
+        "Administrative expenses": 11.0,
+        "D&A": 12.0,
+        "Other operating expenses": 6.0
+      },
       "ebitdaMM": 38.0,
       "netIncomeMM": 19.5,
       "totalAssetsMM": 800.0,
@@ -44,6 +58,13 @@
       "endDate": "2004-03-31",
       "periodType": "FY",
       "revenueMM": 215.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 113.0,
+        "Employee benefits": 28.0,
+        "Administrative expenses": 12.0,
+        "D&A": 13.0,
+        "Other operating expenses": 5.0
+      },
       "ebitdaMM": 44.0,
       "netIncomeMM": 22.0,
       "totalAssetsMM": 870.0,
@@ -62,6 +83,13 @@
       "endDate": "2005-03-31",
       "periodType": "FY",
       "revenueMM": 245.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 127.0,
+        "Employee benefits": 32.0,
+        "Administrative expenses": 14.0,
+        "D&A": 15.0,
+        "Other operating expenses": 5.0
+      },
       "ebitdaMM": 52.0,
       "netIncomeMM": 27.0,
       "totalAssetsMM": 950.0,
@@ -80,6 +108,13 @@
       "endDate": "2006-03-31",
       "periodType": "FY",
       "revenueMM": 270.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 140.0,
+        "Employee benefits": 35.0,
+        "Administrative expenses": 15.0,
+        "D&A": 16.0,
+        "Other operating expenses": 6.0
+      },
       "ebitdaMM": 58.0,
       "netIncomeMM": 30.0,
       "totalAssetsMM": 1050.0,
@@ -98,6 +133,13 @@
       "endDate": "2007-03-31",
       "periodType": "FY",
       "revenueMM": 305.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 158.0,
+        "Employee benefits": 40.0,
+        "Administrative expenses": 17.0,
+        "D&A": 18.0,
+        "Other operating expenses": 8.0
+      },
       "ebitdaMM": 64.0,
       "netIncomeMM": 35.0,
       "totalAssetsMM": 1180.0,
@@ -118,6 +160,13 @@
       "endDate": "2008-03-31",
       "periodType": "FY",
       "revenueMM": 330.0,
+      "expensesBySegmentMM": {
+        "Cattle / production COGS": 178.0,
+        "Employee benefits": 44.0,
+        "Administrative expenses": 19.0,
+        "D&A": 20.0,
+        "Other operating expenses": 9.0
+      },
       "ebitdaMM": 60.0,
       "netIncomeMM": 28.0,
       "totalAssetsMM": 1290.0,
