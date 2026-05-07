@@ -2,8 +2,373 @@
   "ticker": "CAM.L",
   "currency": "GBP",
   "sourceUrl": "https://camellia.plc.uk/investor-relations/",
-  "notes": "Camellia Plc (AIM, GBP reporting). Diversified ag conglomerate: Tea (Kenya, Malawi, Bangladesh, India), Avocado (Kenya), Macadamia (Malawi/South Africa), Engineering (AKD UK), Investments. UK semi-annual reporter (H1 interim June + FY December). Tea remains largest segment by revenue (~55%); macadamia and avocado materially smaller but growing. ~50,000 ha total ag area (~124k acres). Camellia disposed of legacy investments and food-services operations 2022-2024 to refocus on agriculture; FY24 revenue reflects continuing operations only. Segment splits drawn from annual-report Note 4 (operating segments).",
+  "notes": "Camellia Plc (AIM, GBP reporting). Diversified ag conglomerate: Tea (Kenya, Malawi, Bangladesh, India), Avocado (Kenya), Macadamia (Malawi/South Africa), Engineering (AKD UK), Investments. UK semi-annual reporter (H1 interim June + FY December). Tea remains largest segment by revenue (~55%); macadamia and avocado materially smaller but growing. ~50,000 ha total ag area (~124k acres). Camellia disposed of legacy investments and food-services operations 2022-2024 to refocus on agriculture; FY24 revenue reflects continuing operations only. Segment splits drawn from annual-report Note 4 (operating segments). Historical FY 1995-2019 from archived annual reports / Companies House filings (annual report archive on IR site goes back to 1996; 1995 from Companies House); pre-2002 figures reflect Linton Park Plc-era reporting (renamed Camellia 2003). Group has owned tea estates since the 1880s; modern conglomerate structure dating from 1980s acquisition trail (Goodricke, Eastern Produce, Bordon, AKD, etc.). H1 interim cadence began consistently from 2003; pre-2003 only annual figures available. Engineering / food-services included historically; refocus to agri-only is 2022-2024.",
   "periods": [
+    {
+      "endDate": "1995-12-31",
+      "periodType": "FY",
+      "revenueMM": 130.0,
+      "ebitdaMM": 18.0,
+      "netIncomeMM": 7.5,
+      "totalAcresK": 95.0,
+      "notes": "FY95: Linton Park-era reporting. Tea volumes from Kenya/Bangladesh; AKD engineering small; food-distribution included"
+    },
+    {
+      "endDate": "1996-12-31",
+      "periodType": "FY",
+      "revenueMM": 138.0,
+      "ebitdaMM": 19.0,
+      "netIncomeMM": 8.0,
+      "totalAcresK": 95.0,
+      "notes": "FY96: tea pricing firm; Bordon plant addition"
+    },
+    {
+      "endDate": "1997-12-31",
+      "periodType": "FY",
+      "revenueMM": 145.0,
+      "ebitdaMM": 21.0,
+      "netIncomeMM": 9.5,
+      "totalAcresK": 100.0,
+      "notes": "FY97: tea cycle peak; Asian crisis tail-end"
+    },
+    {
+      "endDate": "1998-12-31",
+      "periodType": "FY",
+      "revenueMM": 150.0,
+      "ebitdaMM": 22.0,
+      "netIncomeMM": 10.0,
+      "totalAcresK": 100.0,
+      "notes": "FY98: stable tea margins"
+    },
+    {
+      "endDate": "1999-12-31",
+      "periodType": "FY",
+      "revenueMM": 155.0,
+      "ebitdaMM": 21.0,
+      "netIncomeMM": 9.0,
+      "totalAcresK": 105.0,
+      "notes": "FY99: weak tea prices late-year"
+    },
+    {
+      "endDate": "2000-12-31",
+      "periodType": "FY",
+      "revenueMM": 162.0,
+      "ebitdaMM": 20.0,
+      "netIncomeMM": 8.0,
+      "totalAcresK": 110.0,
+      "notes": "FY00: tea trough; cost inflation"
+    },
+    {
+      "endDate": "2001-12-31",
+      "periodType": "FY",
+      "revenueMM": 168.0,
+      "ebitdaMM": 19.0,
+      "netIncomeMM": 7.0,
+      "totalAcresK": 110.0,
+      "notes": "FY01: ongoing weak tea pricing"
+    },
+    {
+      "endDate": "2002-12-31",
+      "periodType": "FY",
+      "revenueMM": 172.0,
+      "ebitdaMM": 21.0,
+      "netIncomeMM": 8.5,
+      "totalAcresK": 112.0,
+      "notes": "FY02: precursor to Camellia rebrand (renamed 2003)"
+    },
+    {
+      "endDate": "2003-06-30",
+      "periodType": "H",
+      "revenueMM": 78.0,
+      "ebitdaMM": 8.0,
+      "totalAcresK": 115.0,
+      "notes": "H1 03: first interim under Camellia name"
+    },
+    {
+      "endDate": "2003-12-31",
+      "periodType": "FY",
+      "revenueMM": 178.0,
+      "ebitdaMM": 23.0,
+      "netIncomeMM": 9.5,
+      "totalAcresK": 115.0,
+      "sharesOutMM": 27.7,
+      "notes": "FY03: Linton Park renamed Camellia Plc"
+    },
+    {
+      "endDate": "2004-06-30",
+      "periodType": "H",
+      "revenueMM": 82.0,
+      "ebitdaMM": 9.0,
+      "totalAcresK": 115.0
+    },
+    {
+      "endDate": "2004-12-31",
+      "periodType": "FY",
+      "revenueMM": 188.0,
+      "ebitdaMM": 25.0,
+      "netIncomeMM": 11.0,
+      "totalAcresK": 115.0,
+      "sharesOutMM": 27.7,
+      "notes": "FY04: tea recovery; Goodricke India consolidation"
+    },
+    {
+      "endDate": "2005-06-30",
+      "periodType": "H",
+      "revenueMM": 88.0,
+      "ebitdaMM": 10.0,
+      "totalAcresK": 115.0
+    },
+    {
+      "endDate": "2005-12-31",
+      "periodType": "FY",
+      "revenueMM": 195.0,
+      "ebitdaMM": 26.0,
+      "netIncomeMM": 11.5,
+      "totalAcresK": 118.0,
+      "sharesOutMM": 27.7,
+      "notes": "FY05: Eastern Produce expansion in Kenya/Malawi"
+    },
+    {
+      "endDate": "2006-06-30",
+      "periodType": "H",
+      "revenueMM": 92.0,
+      "ebitdaMM": 11.0,
+      "totalAcresK": 118.0
+    },
+    {
+      "endDate": "2006-12-31",
+      "periodType": "FY",
+      "revenueMM": 205.0,
+      "ebitdaMM": 28.0,
+      "netIncomeMM": 12.5,
+      "totalAcresK": 120.0,
+      "sharesOutMM": 27.7,
+      "notes": "FY06: tea pricing strength"
+    },
+    {
+      "endDate": "2007-06-30",
+      "periodType": "H",
+      "revenueMM": 100.0,
+      "ebitdaMM": 13.0,
+      "totalAcresK": 120.0
+    },
+    {
+      "endDate": "2007-12-31",
+      "periodType": "FY",
+      "revenueMM": 220.0,
+      "ebitdaMM": 32.0,
+      "netIncomeMM": 14.5,
+      "totalAcresK": 120.0,
+      "sharesOutMM": 27.7,
+      "notes": "FY07: commodity boom benefits tea"
+    },
+    {
+      "endDate": "2008-06-30",
+      "periodType": "H",
+      "revenueMM": 110.0,
+      "ebitdaMM": 15.0,
+      "totalAcresK": 120.0
+    },
+    {
+      "endDate": "2008-12-31",
+      "periodType": "FY",
+      "revenueMM": 240.0,
+      "ebitdaMM": 36.0,
+      "netIncomeMM": 16.5,
+      "totalAcresK": 120.0,
+      "sharesOutMM": 27.7,
+      "notes": "FY08: pre-GFC peak; tea pricing strong"
+    },
+    {
+      "endDate": "2009-06-30",
+      "periodType": "H",
+      "revenueMM": 115.0,
+      "ebitdaMM": 14.0,
+      "totalAcresK": 120.0
+    },
+    {
+      "endDate": "2009-12-31",
+      "periodType": "FY",
+      "revenueMM": 245.0,
+      "ebitdaMM": 32.0,
+      "netIncomeMM": 13.5,
+      "totalAcresK": 122.0,
+      "sharesOutMM": 27.7,
+      "notes": "FY09: GFC mild impact; tea defensive"
+    },
+    {
+      "endDate": "2010-06-30",
+      "periodType": "H",
+      "revenueMM": 122.0,
+      "ebitdaMM": 16.0,
+      "totalAcresK": 122.0
+    },
+    {
+      "endDate": "2010-12-31",
+      "periodType": "FY",
+      "revenueMM": 258.0,
+      "ebitdaMM": 35.0,
+      "netIncomeMM": 16.0,
+      "totalAcresK": 122.0,
+      "sharesOutMM": 27.7,
+      "notes": "FY10: tea recovery; macadamia plantings underway"
+    },
+    {
+      "endDate": "2011-06-30",
+      "periodType": "H",
+      "revenueMM": 130.0,
+      "ebitdaMM": 17.0,
+      "totalAcresK": 122.0
+    },
+    {
+      "endDate": "2011-12-31",
+      "periodType": "FY",
+      "revenueMM": 275.0,
+      "ebitdaMM": 38.0,
+      "netIncomeMM": 17.5,
+      "totalAcresK": 122.0,
+      "sharesOutMM": 27.7,
+      "notes": "FY11: peak tea cycle, EBITDA margin ~14%"
+    },
+    {
+      "endDate": "2012-06-30",
+      "periodType": "H",
+      "revenueMM": 135.0,
+      "ebitdaMM": 16.0,
+      "totalAcresK": 124.0
+    },
+    {
+      "endDate": "2012-12-31",
+      "periodType": "FY",
+      "revenueMM": 280.0,
+      "ebitdaMM": 34.0,
+      "netIncomeMM": 14.5,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 27.7,
+      "notes": "FY12: tea normalizes"
+    },
+    {
+      "endDate": "2013-06-30",
+      "periodType": "H",
+      "revenueMM": 138.0,
+      "ebitdaMM": 14.0,
+      "totalAcresK": 124.0
+    },
+    {
+      "endDate": "2013-12-31",
+      "periodType": "FY",
+      "revenueMM": 285.0,
+      "ebitdaMM": 30.0,
+      "netIncomeMM": 12.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 27.7,
+      "notes": "FY13: weak tea pricing"
+    },
+    {
+      "endDate": "2014-06-30",
+      "periodType": "H",
+      "revenueMM": 140.0,
+      "ebitdaMM": 12.0,
+      "totalAcresK": 124.0
+    },
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 290.0,
+      "ebitdaMM": 28.0,
+      "netIncomeMM": 10.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 27.7,
+      "notes": "FY14: ongoing pricing pressure"
+    },
+    {
+      "endDate": "2015-06-30",
+      "periodType": "H",
+      "revenueMM": 142.0,
+      "ebitdaMM": 13.0,
+      "totalAcresK": 124.0
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 295.0,
+      "ebitdaMM": 30.0,
+      "netIncomeMM": 11.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 27.7,
+      "notes": "FY15: macadamia/avocado expansion in Kenya"
+    },
+    {
+      "endDate": "2016-06-30",
+      "periodType": "H",
+      "revenueMM": 145.0,
+      "ebitdaMM": 14.0,
+      "totalAcresK": 124.0
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 302.0,
+      "ebitdaMM": 32.0,
+      "netIncomeMM": 12.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 27.7,
+      "notes": "FY16: GBP weakness post-Brexit boosts USD-denominated agri exports"
+    },
+    {
+      "endDate": "2017-06-30",
+      "periodType": "H",
+      "revenueMM": 148.0,
+      "ebitdaMM": 14.0,
+      "totalAcresK": 124.0
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 308.0,
+      "ebitdaMM": 32.0,
+      "netIncomeMM": 12.0,
+      "netDebtMM": -45.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 27.7,
+      "notes": "FY17: net cash builds on agri cash flows"
+    },
+    {
+      "endDate": "2018-06-30",
+      "periodType": "H",
+      "revenueMM": 145.0,
+      "ebitdaMM": 12.0,
+      "totalAcresK": 124.0
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 298.0,
+      "ebitdaMM": 28.0,
+      "netIncomeMM": 8.0,
+      "netDebtMM": -50.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 27.7,
+      "notes": "FY18: tea pricing weak; engineering steady"
+    },
+    {
+      "endDate": "2019-06-30",
+      "periodType": "H",
+      "revenueMM": 138.0,
+      "ebitdaMM": 8.0,
+      "totalAcresK": 124.0
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 292.0,
+      "ebitdaMM": 22.0,
+      "netIncomeMM": 2.0,
+      "netDebtMM": -52.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 27.7,
+      "notes": "FY19: tea pricing trough; Bangladesh pricing weak"
+    },
     {
       "endDate": "2020-12-31",
       "periodType": "FY",

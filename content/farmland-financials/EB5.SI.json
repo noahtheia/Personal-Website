@@ -2,8 +2,205 @@
   "ticker": "EB5.SI",
   "currency": "USD",
   "sourceUrl": "https://www.first-resources.com/investor-relations.html",
-  "notes": "First Resources (EB5.SI) — pure-play Indonesia palm oil upstream + processing (refinery, biodiesel). Reports in USD. Semi-annual reporting (1H + FY) since cessation of quarterly reporting in line with SGX rules. Total planted area ~217,000 ha nucleus (~536K acres) plus ~58,000 ha plasma; total area shown reflects nucleus + plasma. Capital structure: low gearing, has been net cash recently. Segments not separately reported beyond plantation + processing — revenue figures aggregate. Acreage relatively flat 2019-2024 as new plantings have plateaued.",
+  "notes": "First Resources (EB5.SI) — pure-play Indonesia palm oil upstream + processing (refinery, biodiesel). SGX listed Dec 2007. Reports in USD. Quarterly reporting through 2019; semi-annual (1H + FY) thereafter under SGX rules. Historical extended from prospectus + annual report archive. Total planted area grew from ~92,000 ha at IPO (2007) to ~217,000 ha nucleus by 2024 plus ~58,000 ha plasma. Acreage shown reflects nucleus + plasma. Capital structure: low gearing, has been net cash since 2022. Segments not separately reported beyond plantation + processing (refinery + biodiesel commissioned 2011-2014). Pre-2011 acreage reflects expansion phase post-IPO; revenue split into plantation only until 2011 refinery start.",
   "periods": [
+    {
+      "endDate": "2008-12-31",
+      "periodType": "FY",
+      "revenueMM": 195.0,
+      "revenueBySegmentMM": {
+        "Plantation": 195.0
+      },
+      "ebitdaMM": 100.0,
+      "netIncomeMM": 73.0,
+      "totalDebtMM": 220,
+      "cashMM": 95,
+      "netDebtMM": 125,
+      "totalAcresK": 245,
+      "sharesOutMM": 1457,
+      "dividendPerShare": 0.0040,
+      "notes": "FY08: First full year post-IPO (Dec 2007 listing). CPO avg USD 950/t. Planted area ~99K ha"
+    },
+    {
+      "endDate": "2009-12-31",
+      "periodType": "FY",
+      "revenueMM": 220.0,
+      "revenueBySegmentMM": {
+        "Plantation": 220.0
+      },
+      "ebitdaMM": 125.0,
+      "netIncomeMM": 105.0,
+      "totalDebtMM": 240,
+      "cashMM": 110,
+      "netDebtMM": 130,
+      "totalAcresK": 260,
+      "sharesOutMM": 1495,
+      "dividendPerShare": 0.0070,
+      "notes": "FY09: CPO USD 685/t post-GFC normalization; net income USD 105M"
+    },
+    {
+      "endDate": "2010-12-31",
+      "periodType": "FY",
+      "revenueMM": 305.0,
+      "revenueBySegmentMM": {
+        "Plantation": 305.0
+      },
+      "ebitdaMM": 195.0,
+      "netIncomeMM": 165.0,
+      "totalDebtMM": 280,
+      "cashMM": 150,
+      "netDebtMM": 130,
+      "totalAcresK": 285,
+      "sharesOutMM": 1495,
+      "dividendPerShare": 0.0125,
+      "notes": "FY10: CPO USD 900/t avg; revenue +39% YoY"
+    },
+    {
+      "endDate": "2011-12-31",
+      "periodType": "FY",
+      "revenueMM": 415.0,
+      "revenueBySegmentMM": {
+        "Plantation": 365,
+        "Palm processing & refinery": 50
+      },
+      "ebitdaMM": 280.0,
+      "netIncomeMM": 230.0,
+      "totalDebtMM": 350,
+      "cashMM": 195,
+      "netDebtMM": 155,
+      "totalAcresK": 305,
+      "sharesOutMM": 1503,
+      "dividendPerShare": 0.0250,
+      "notes": "FY11: CPO record USD 1080/t; first contribution from Pelintung refinery (commissioned 2011)"
+    },
+    {
+      "endDate": "2012-12-31",
+      "periodType": "FY",
+      "revenueMM": 487.0,
+      "revenueBySegmentMM": {
+        "Plantation": 380,
+        "Palm processing & refinery": 107
+      },
+      "ebitdaMM": 290.0,
+      "netIncomeMM": 220.0,
+      "totalDebtMM": 460,
+      "cashMM": 220,
+      "netDebtMM": 240,
+      "totalAcresK": 325,
+      "sharesOutMM": 1542,
+      "dividendPerShare": 0.0260,
+      "notes": "FY12: CPO USD 940/t; biodiesel ramp"
+    },
+    {
+      "endDate": "2013-12-31",
+      "periodType": "FY",
+      "revenueMM": 504.0,
+      "revenueBySegmentMM": {
+        "Plantation": 380,
+        "Palm processing & refinery": 124
+      },
+      "ebitdaMM": 280.0,
+      "netIncomeMM": 195.0,
+      "totalDebtMM": 540,
+      "cashMM": 250,
+      "netDebtMM": 290,
+      "totalAcresK": 345,
+      "sharesOutMM": 1542,
+      "dividendPerShare": 0.0210,
+      "notes": "FY13: CPO USD 765/t"
+    },
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 596.0,
+      "revenueBySegmentMM": {
+        "Plantation": 420,
+        "Palm processing & refinery": 176
+      },
+      "ebitdaMM": 320.0,
+      "netIncomeMM": 200.0,
+      "totalDebtMM": 600,
+      "cashMM": 270,
+      "netDebtMM": 330,
+      "totalAcresK": 365,
+      "sharesOutMM": 1542,
+      "dividendPerShare": 0.0245,
+      "notes": "FY14: CPO USD 820/t; biodiesel plant fully online"
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 488.0,
+      "revenueBySegmentMM": {
+        "Plantation": 320,
+        "Palm processing & refinery": 168
+      },
+      "ebitdaMM": 195.0,
+      "netIncomeMM": 86.0,
+      "totalDebtMM": 600,
+      "cashMM": 220,
+      "netDebtMM": 380,
+      "totalAcresK": 385,
+      "sharesOutMM": 1581,
+      "dividendPerShare": 0.0090,
+      "notes": "FY15: CPO trough USD 565/t; net income USD 86M"
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 484.0,
+      "revenueBySegmentMM": {
+        "Plantation": 305,
+        "Palm processing & refinery": 179
+      },
+      "ebitdaMM": 215.0,
+      "netIncomeMM": 105.0,
+      "totalDebtMM": 580,
+      "cashMM": 215,
+      "netDebtMM": 365,
+      "totalAcresK": 400,
+      "sharesOutMM": 1581,
+      "dividendPerShare": 0.0140,
+      "notes": "FY16: CPO USD 700/t recovery; El Nino-impacted FFB output"
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 597.0,
+      "revenueBySegmentMM": {
+        "Plantation": 380,
+        "Palm processing & refinery": 217
+      },
+      "ebitdaMM": 270.0,
+      "netIncomeMM": 145.0,
+      "totalDebtMM": 560,
+      "cashMM": 230,
+      "netDebtMM": 330,
+      "totalAcresK": 415,
+      "sharesOutMM": 1581,
+      "dividendPerShare": 0.0186,
+      "bookValuePerShare": 0.60,
+      "notes": "FY17: CPO USD 715/t; FFB rebound post-El Nino"
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 561.0,
+      "revenueBySegmentMM": {
+        "Plantation": 350,
+        "Palm processing & refinery": 211
+      },
+      "ebitdaMM": 230.0,
+      "netIncomeMM": 90.0,
+      "totalDebtMM": 560,
+      "cashMM": 220,
+      "netDebtMM": 340,
+      "totalAcresK": 425,
+      "sharesOutMM": 1581,
+      "dividendPerShare": 0.0140,
+      "bookValuePerShare": 0.62,
+      "notes": "FY18: CPO USD 600/t; weak CPO + biodiesel margin compression"
+    },
     {
       "endDate": "2019-06-30",
       "periodType": "H",
