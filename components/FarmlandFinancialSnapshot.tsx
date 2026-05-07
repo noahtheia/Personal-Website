@@ -98,9 +98,20 @@ export function FarmlandFinancialSnapshot({
   history: PriceHistory | null;
   financials: Financials | null;
 }) {
+  // Default to most-granular cadence available — quarterly when the
+  // ticker reports any Q (or H) periods; else annual.
+  const hasSubAnnual = !!financials?.periods.some(
+    (p) =>
+      (p.periodType === "Q" || p.periodType === "H") &&
+      typeof p.revenueMM === "number",
+  );
+  const [incomeCadence, setIncomeCadence] = useState<IncomeCadence>(
+    hasSubAnnual ? "Q" : "FY",
+  );
+
   const series = useMemo(
-    () => buildAllSeries(filing, priced, history, financials),
-    [filing, priced, history, financials],
+    () => buildAllSeries(filing, priced, history, financials, incomeCadence),
+    [filing, priced, history, financials, incomeCadence],
   );
 
   const firstWithData =
@@ -215,7 +226,7 @@ export function FarmlandFinancialSnapshot({
           }
         />
 
-        <div className="mt-4 flex flex-wrap items-center gap-2 border-b border-rule pb-3">
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-b border-rule pb-3">
           <div role="tablist" aria-label="Chart" className="flex flex-wrap gap-1">
             {CHART_DEFS.map((c) => {
               const s = series[c.id];
@@ -242,6 +253,34 @@ export function FarmlandFinancialSnapshot({
               );
             })}
           </div>
+          {activeId === "income" && hasSubAnnual && (
+            <div
+              role="group"
+              aria-label="Income cadence"
+              className="flex gap-1"
+            >
+              {(["Q", "FY"] as IncomeCadence[]).map((c) => {
+                const on = incomeCadence === c;
+                return (
+                  <button
+                    key={c}
+                    onClick={() => {
+                      setIncomeCadence(c);
+                      setHoverIdx(null);
+                    }}
+                    aria-pressed={on}
+                    className={`rounded-sm border px-2.5 py-1 text-xs transition-colors ${
+                      on
+                        ? "border-accent bg-accent !text-bg"
+                        : "border-rule !text-fg hover:border-accent hover:!text-accent"
+                    }`}
+                  >
+                    {c === "Q" ? "Quarterly" : "Annual"}
+                  </button>
+                );
+              })}
+            </div>
+          )}
         </div>
 
         {!active || !view ? (
@@ -756,6 +795,7 @@ function buildAllSeries(
   priced: PricedFarmlandComp | undefined,
   history: PriceHistory | null,
   financials: Financials | null,
+  incomeCadence: IncomeCadence,
 ): Record<ChartId, Series | null> {
   const result: Record<ChartId, Series | null> = {
     price: null,
@@ -814,7 +854,7 @@ function buildAllSeries(
 
     // ---- Income chart: combine net revenue (segment-stacked bars) +
     // gross revenue overlay + EBITDA overlay ----
-    result.income = buildIncomeSeries(financials, ccy);
+    result.income = buildIncomeSeries(financials, ccy, incomeCadence);
     const propertySeries =
       pickSeries(financials, "propertyFmvMM", {
         label: "Property value",
@@ -1039,17 +1079,19 @@ function collectAnnualizedEbitda(financials: Financials): DatedPoint[] {
   return merged;
 }
 
-// Build the Income chart series at a CONSISTENT annual (FY) cadence so
-// the bar chart isn't visually mixed (small Q bars next to large FY bars).
-// For each fiscal year:
-//   - If an FY row exists with revenue, use it.
-//   - Else synthesize FY by summing 4 Q rows (or 2 H rows). Drop years
-//     with incomplete coverage (e.g., 3 Q in the latest open year).
-// All metrics aggregate the same way: revenueMM, grossRevenueMM,
-// ebitdaMM, revenueBySegmentMM (per-key sum), expensesBySegmentMM (per-key sum).
+export type IncomeCadence = "Q" | "FY";
+
+// Build the Income chart series in the requested cadence (Q = strict
+// quarterly only; FY = annual, with quarters/halves aggregated up where
+// no FY row exists for a given year). The toggle in the UI swaps
+// between the two so users can pick "as granular as possible" or "as
+// far back as possible." Older issuers tend to have decades of FY-only
+// archives but only a handful of Q years; LAND3 has both Q and FY for
+// every year of its short post-IPO life.
 function buildIncomeSeries(
   financials: Financials,
   ccy: string,
+  cadence: IncomeCadence,
 ): Series | null {
   type Aggregated = {
     endDate: string;
@@ -1060,75 +1102,102 @@ function buildIncomeSeries(
     expensesBySegmentMM?: Record<string, number>;
   };
 
-  const byYear = new Map<number, FinancialsPeriod[]>();
-  for (const p of financials.periods) {
-    if (typeof p.revenueMM !== "number") continue;
-    const y = new Date(p.endDate).getFullYear();
-    if (!byYear.has(y)) byYear.set(y, []);
-    byYear.get(y)!.push(p);
-  }
+  let aggregated: Aggregated[] = [];
 
-  const sumNum = (
-    parts: FinancialsPeriod[],
-    key: "revenueMM" | "grossRevenueMM" | "ebitdaMM",
-  ): number | undefined => {
-    if (!parts.every((p) => typeof p[key] === "number")) return undefined;
-    return parts.reduce((s, p) => s + (p[key] as number), 0);
-  };
-  const sumSeg = (
-    parts: FinancialsPeriod[],
-    key: "revenueBySegmentMM" | "expensesBySegmentMM",
-  ): Record<string, number> | undefined => {
-    if (!parts.every((p) => p[key])) return undefined;
-    const acc: Record<string, number> = {};
-    for (const p of parts) {
-      for (const [k, v] of Object.entries(p[key]!)) {
-        acc[k] = (acc[k] ?? 0) + v;
-      }
-    }
-    return acc;
-  };
-
-  const aggregated: Aggregated[] = [];
-  for (const [, periods] of byYear) {
-    const fy = periods.find(
-      (p) => p.periodType === "FY" && typeof p.revenueMM === "number",
+  if (cadence === "Q") {
+    // Strict quarterly: only Q rows (no FY mixed in). For semi-annual-
+    // only issuers (no Q rows ever), fall back to H rows so the toggle
+    // still surfaces sub-annual granularity.
+    const qRows = financials.periods.filter(
+      (p) => p.periodType === "Q" && typeof p.revenueMM === "number",
     );
-    if (fy) {
-      aggregated.push({
-        endDate: fy.endDate,
-        revenueMM: fy.revenueMM as number,
-        grossRevenueMM: fy.grossRevenueMM,
-        ebitdaMM: fy.ebitdaMM,
-        revenueBySegmentMM: fy.revenueBySegmentMM,
-        expensesBySegmentMM: fy.expensesBySegmentMM,
-      });
-      continue;
+    const sourceRows =
+      qRows.length > 0
+        ? qRows
+        : financials.periods.filter(
+            (p) => p.periodType === "H" && typeof p.revenueMM === "number",
+          );
+    aggregated = sourceRows
+      .map((p) => ({
+        endDate: p.endDate,
+        revenueMM: p.revenueMM as number,
+        grossRevenueMM: p.grossRevenueMM,
+        ebitdaMM: p.ebitdaMM,
+        revenueBySegmentMM: p.revenueBySegmentMM,
+        expensesBySegmentMM: p.expensesBySegmentMM,
+      }))
+      .sort((a, b) => a.endDate.localeCompare(b.endDate));
+  } else {
+    // Annual: prefer FY rows, synthesize from 4 Q (or 2 H) where missing.
+    const byYear = new Map<number, FinancialsPeriod[]>();
+    for (const p of financials.periods) {
+      if (typeof p.revenueMM !== "number") continue;
+      const y = new Date(p.endDate).getFullYear();
+      if (!byYear.has(y)) byYear.set(y, []);
+      byYear.get(y)!.push(p);
     }
-    const qs = periods
-      .filter((p) => p.periodType === "Q")
-      .sort((a, b) => a.endDate.localeCompare(b.endDate));
-    const hs = periods
-      .filter((p) => p.periodType === "H")
-      .sort((a, b) => a.endDate.localeCompare(b.endDate));
-    let parts: FinancialsPeriod[] | null = null;
-    if (qs.length === 4) parts = qs;
-    else if (hs.length === 2) parts = hs;
-    if (!parts) continue;
-    const rev = sumNum(parts, "revenueMM");
-    if (rev === undefined) continue;
-    aggregated.push({
-      endDate: parts[parts.length - 1].endDate,
-      revenueMM: rev,
-      grossRevenueMM: sumNum(parts, "grossRevenueMM"),
-      ebitdaMM: sumNum(parts, "ebitdaMM"),
-      revenueBySegmentMM: sumSeg(parts, "revenueBySegmentMM"),
-      expensesBySegmentMM: sumSeg(parts, "expensesBySegmentMM"),
-    });
+
+    const sumNum = (
+      parts: FinancialsPeriod[],
+      key: "revenueMM" | "grossRevenueMM" | "ebitdaMM",
+    ): number | undefined => {
+      if (!parts.every((p) => typeof p[key] === "number")) return undefined;
+      return parts.reduce((s, p) => s + (p[key] as number), 0);
+    };
+    const sumSeg = (
+      parts: FinancialsPeriod[],
+      key: "revenueBySegmentMM" | "expensesBySegmentMM",
+    ): Record<string, number> | undefined => {
+      if (!parts.every((p) => p[key])) return undefined;
+      const acc: Record<string, number> = {};
+      for (const p of parts) {
+        for (const [k, v] of Object.entries(p[key]!)) {
+          acc[k] = (acc[k] ?? 0) + v;
+        }
+      }
+      return acc;
+    };
+
+    for (const [, periods] of byYear) {
+      const fy = periods.find(
+        (p) => p.periodType === "FY" && typeof p.revenueMM === "number",
+      );
+      if (fy) {
+        aggregated.push({
+          endDate: fy.endDate,
+          revenueMM: fy.revenueMM as number,
+          grossRevenueMM: fy.grossRevenueMM,
+          ebitdaMM: fy.ebitdaMM,
+          revenueBySegmentMM: fy.revenueBySegmentMM,
+          expensesBySegmentMM: fy.expensesBySegmentMM,
+        });
+        continue;
+      }
+      const qs = periods
+        .filter((p) => p.periodType === "Q")
+        .sort((a, b) => a.endDate.localeCompare(b.endDate));
+      const hs = periods
+        .filter((p) => p.periodType === "H")
+        .sort((a, b) => a.endDate.localeCompare(b.endDate));
+      let parts: FinancialsPeriod[] | null = null;
+      if (qs.length === 4) parts = qs;
+      else if (hs.length === 2) parts = hs;
+      if (!parts) continue;
+      const rev = sumNum(parts, "revenueMM");
+      if (rev === undefined) continue;
+      aggregated.push({
+        endDate: parts[parts.length - 1].endDate,
+        revenueMM: rev,
+        grossRevenueMM: sumNum(parts, "grossRevenueMM"),
+        ebitdaMM: sumNum(parts, "ebitdaMM"),
+        revenueBySegmentMM: sumSeg(parts, "revenueBySegmentMM"),
+        expensesBySegmentMM: sumSeg(parts, "expensesBySegmentMM"),
+      });
+    }
+    aggregated.sort((a, b) => a.endDate.localeCompare(b.endDate));
   }
 
   if (aggregated.length === 0) return null;
-  aggregated.sort((a, b) => a.endDate.localeCompare(b.endDate));
 
   const points: DatedPoint[] = aggregated.map((a) => ({
     date: a.endDate,
@@ -1183,7 +1252,9 @@ function buildIncomeSeries(
 
   const series: Series = {
     label: "Net revenue",
-    description: `Reported net revenue (annual, segment-stacked), ${ccy} M`,
+    description: `Reported net revenue (${
+      cadence === "Q" ? "quarterly" : "annual"
+    }, segment-stacked), ${ccy} M`,
     unit: { kind: "millions", ccy },
     kind: "bar",
     points,
