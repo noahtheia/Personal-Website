@@ -3,6 +3,7 @@ import {
   type PricedFarmlandComp,
 } from "@/lib/farmland-comps";
 import { FarmlandComps } from "@/components/FarmlandComps";
+import { FarmlandScatter } from "@/components/FarmlandScatter";
 
 function fxNote(rows: PricedFarmlandComp[]): string {
   const seen = new Map<string, number>();
@@ -51,6 +52,8 @@ export default async function PublicFarmlandPage() {
       </header>
 
       <FarmlandComps rows={comps} />
+
+      <FarmlandScatter rows={comps} />
 
       <p className="mt-3 text-xs text-muted">
         Updated{" "}
