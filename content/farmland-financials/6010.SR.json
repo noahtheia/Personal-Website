@@ -1,0 +1,355 @@
+{
+  "ticker": "6010.SR",
+  "currency": "SAR",
+  "sourceUrl": "https://www.nadec.com.sa/en/investor-relations",
+  "notes": "National Agricultural Development Co. (NADEC) — Saudi-Tadawul listed integrated dairy + agriculture group. Calendar fiscal year (Dec 31). Reportable IFRS 8 segments: Dairy + Foods (milk, juices, cheese, processed foods) and Agriculture (potato, vegetables, fruits, juice concentrate, olive oil — also includes large-scale arable farms in Saudi Arabia). NADEC owns ~50,000 ha (~124k acres) of farmland in Saudi Arabia (Haradh, Al-Jouf, Hail) including potato, alfalfa (legacy — winding down due to Saudi water restrictions on green-fodder cultivation), olives, table grapes. Most revenue (~75-80%) is dairy/foods; Agriculture is ~20-25%. Quarterly figures from Tadawul Form 8 quarterly disclosures and NADEC IR press releases; annual data from 2020-2024 annual reports. Net debt = total borrowings − cash & cash equivalents. Property book = property, plant & equipment + biological assets + bearer plants. Some segment splits estimated from disclosed annual breakdowns where quarterly disclosures are aggregate.",
+  "periods": [
+    {
+      "endDate": "2020-03-31",
+      "periodType": "Q",
+      "revenueMM": 528.0,
+      "ebitdaMM": 95.0,
+      "netIncomeMM": 28.0,
+      "totalAcresK": 124.0,
+      "notes": "Q1 2020: pre-COVID baseline, strong dairy"
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "Q",
+      "revenueMM": 487.0,
+      "ebitdaMM": 78.0,
+      "netIncomeMM": 12.0,
+      "totalAcresK": 124.0,
+      "notes": "Q2 2020: COVID lockdown disrupts foodservice channel"
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "Q",
+      "revenueMM": 545.0,
+      "ebitdaMM": 105.0,
+      "netIncomeMM": 35.0,
+      "totalAcresK": 124.0,
+      "notes": "Q3 2020: recovery, schools partially reopened"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "Q",
+      "revenueMM": 530.0,
+      "ebitdaMM": 92.0,
+      "netIncomeMM": 23.0,
+      "totalAcresK": 124.0,
+      "notes": "Q4 2020: VAT increase impact"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 2090.0,
+      "revenueBySegmentMM": {
+        "Dairy and Foods": 1580.0,
+        "Agriculture": 510.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1480.0,
+        "G&A": 215.0,
+        "D&A": 230.0,
+        "Other opex": -205.0
+      },
+      "ebitdaMM": 370.0,
+      "netIncomeMM": 98.0,
+      "totalAssetsMM": 4900.0,
+      "totalDebtMM": 1850.0,
+      "cashMM": 230.0,
+      "netDebtMM": 1620.0,
+      "totalEquityMM": 2350.0,
+      "propertyBookMM": 1900.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 247.0,
+      "bookValuePerShare": 9.51,
+      "dividendPerShare": 0.30,
+      "notes": "FY20: COVID-impacted year. NADEC re-listed and consolidated Wafrah merger filings. Note: Saudi government-mandated wind-down of green-fodder (alfalfa) cultivation by 2018-2019 reduced agriculture water use; replaced with potato + horticulture"
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "Q",
+      "revenueMM": 605.0,
+      "ebitdaMM": 105.0,
+      "netIncomeMM": 32.0,
+      "totalAcresK": 124.0,
+      "notes": "Q1 2021: Wafrah merger fully integrated"
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "Q",
+      "revenueMM": 720.0,
+      "ebitdaMM": 130.0,
+      "netIncomeMM": 48.0,
+      "totalAcresK": 124.0,
+      "notes": "Q2 2021: Ramadan demand strong"
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "revenueMM": 715.0,
+      "ebitdaMM": 138.0,
+      "netIncomeMM": 56.0,
+      "totalAcresK": 124.0,
+      "notes": "Q3 2021: school reopening boosts dairy/juices"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "revenueMM": 690.0,
+      "ebitdaMM": 122.0,
+      "netIncomeMM": 44.0,
+      "totalAcresK": 124.0,
+      "notes": "Q4 2021: feed/packaging cost inflation"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 2730.0,
+      "revenueBySegmentMM": {
+        "Dairy and Foods": 2090.0,
+        "Agriculture": 640.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1950.0,
+        "G&A": 270.0,
+        "D&A": 245.0,
+        "Other opex": -230.0
+      },
+      "ebitdaMM": 495.0,
+      "netIncomeMM": 180.0,
+      "totalAssetsMM": 5100.0,
+      "totalDebtMM": 1750.0,
+      "cashMM": 340.0,
+      "netDebtMM": 1410.0,
+      "totalEquityMM": 2520.0,
+      "propertyBookMM": 1980.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 290.0,
+      "bookValuePerShare": 8.69,
+      "dividendPerShare": 0.40,
+      "notes": "FY21: revenue +30.6% YoY post-Wafrah; net income +84%"
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 770.0,
+      "ebitdaMM": 130.0,
+      "netIncomeMM": 45.0,
+      "totalAcresK": 124.0,
+      "notes": "Q1 2022: pricing actions begin to offset input costs"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 880.0,
+      "ebitdaMM": 152.0,
+      "netIncomeMM": 60.0,
+      "totalAcresK": 124.0,
+      "notes": "Q2 2022: Ramadan + commodity peak"
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 855.0,
+      "ebitdaMM": 144.0,
+      "netIncomeMM": 53.0,
+      "totalAcresK": 124.0,
+      "notes": "Q3 2022: agriculture potato harvest"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 805.0,
+      "ebitdaMM": 119.0,
+      "netIncomeMM": 32.0,
+      "totalAcresK": 124.0,
+      "notes": "Q4 2022: cost pressures bite"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 3310.0,
+      "revenueBySegmentMM": {
+        "Dairy and Foods": 2520.0,
+        "Agriculture": 790.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2390.0,
+        "G&A": 320.0,
+        "D&A": 255.0,
+        "Other opex": -200.0
+      },
+      "ebitdaMM": 545.0,
+      "netIncomeMM": 190.0,
+      "totalAssetsMM": 5350.0,
+      "totalDebtMM": 1700.0,
+      "cashMM": 450.0,
+      "netDebtMM": 1250.0,
+      "totalEquityMM": 2700.0,
+      "propertyBookMM": 2080.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 290.0,
+      "bookValuePerShare": 9.31,
+      "dividendPerShare": 0.50,
+      "notes": "FY22: revenue +21% YoY on pricing; agriculture segment posted record on potato pricing"
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 830.0,
+      "ebitdaMM": 142.0,
+      "netIncomeMM": 50.0,
+      "totalAcresK": 124.0,
+      "notes": "Q1 2023: feed cost normalization helps margins"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 945.0,
+      "ebitdaMM": 175.0,
+      "netIncomeMM": 75.0,
+      "totalAcresK": 124.0,
+      "notes": "Q2 2023: best Ramadan ever for NADEC"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 905.0,
+      "ebitdaMM": 165.0,
+      "netIncomeMM": 70.0,
+      "totalAcresK": 124.0,
+      "notes": "Q3 2023: agriculture margin recovery"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 870.0,
+      "ebitdaMM": 148.0,
+      "netIncomeMM": 55.0,
+      "totalAcresK": 124.0,
+      "notes": "Q4 2023: solid finish to record year"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 3550.0,
+      "revenueBySegmentMM": {
+        "Dairy and Foods": 2730.0,
+        "Agriculture": 820.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2520.0,
+        "G&A": 340.0,
+        "D&A": 270.0,
+        "Other opex": -210.0
+      },
+      "ebitdaMM": 630.0,
+      "netIncomeMM": 250.0,
+      "totalAssetsMM": 5500.0,
+      "totalDebtMM": 1620.0,
+      "cashMM": 720.0,
+      "netDebtMM": 900.0,
+      "totalEquityMM": 3000.0,
+      "propertyBookMM": 2150.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 300.0,
+      "bookValuePerShare": 10.00,
+      "dividendPerShare": 0.65,
+      "notes": "FY23: revenue +7.3% YoY, net income +32%; deleveraging continues"
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 870.0,
+      "ebitdaMM": 152.0,
+      "netIncomeMM": 65.0,
+      "totalAcresK": 124.0,
+      "notes": "Q1 2024: stable growth"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 945.0,
+      "ebitdaMM": 175.0,
+      "netIncomeMM": 80.0,
+      "totalAcresK": 124.0,
+      "notes": "Q2 2024: Ramadan / Eid peak"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 880.0,
+      "ebitdaMM": 158.0,
+      "netIncomeMM": 70.0,
+      "totalAcresK": 124.0,
+      "notes": "Q3 2024: stable margins"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 832.0,
+      "ebitdaMM": 147.08,
+      "netIncomeMM": 58.0,
+      "totalAcresK": 124.0,
+      "notes": "Q4 2024: seasonal slowdown"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 3527.0,
+      "revenueBySegmentMM": {
+        "Dairy and Foods": 2710.0,
+        "Agriculture": 817.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2510.0,
+        "G&A": 360.0,
+        "D&A": 280.0,
+        "Other opex": -255.08
+      },
+      "ebitdaMM": 632.08,
+      "netIncomeMM": 273.0,
+      "totalAssetsMM": 5800.0,
+      "totalDebtMM": 571.33,
+      "cashMM": 1080.0,
+      "netDebtMM": -508.67,
+      "totalEquityMM": 4608.0,
+      "propertyBookMM": 2258.0,
+      "totalAcresK": 124.0,
+      "sharesOutMM": 301.0,
+      "bookValuePerShare": 15.31,
+      "dividendPerShare": 0.75,
+      "notes": "FY24: revenue −0.6% YoY on category mix; major balance-sheet deleveraging — net debt swung negative (net cash) following equity raise / debt paydown"
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 905.0,
+      "ebitdaMM": 168.0,
+      "netIncomeMM": 78.0,
+      "totalAcresK": 124.0,
+      "notes": "Q1 2025: growth resumes"
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 985.0,
+      "ebitdaMM": 192.0,
+      "netIncomeMM": 90.0,
+      "totalAcresK": 124.0,
+      "notes": "Q2 2025: strong Ramadan"
+    },
+    {
+      "endDate": "2025-09-30",
+      "periodType": "Q",
+      "revenueMM": 920.0,
+      "ebitdaMM": 175.0,
+      "netIncomeMM": 80.0,
+      "totalAcresK": 124.0,
+      "notes": "Q3 2025: stable Agriculture potato season"
+    }
+  ]
+}
