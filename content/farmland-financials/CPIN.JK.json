@@ -1,0 +1,177 @@
+{
+  "ticker": "CPIN.JK",
+  "currency": "IDR",
+  "sourceUrl": "https://www.cp.co.id/investor-relation",
+  "notes": "Charoen Pokphand Indonesia (CPIN) — IDX-listed largest integrated poultry producer in Indonesia: animal feed, day-old-chicks (DOC), commercial broilers, and processed/branded foods (Fiesta, Champ). Subsidiary of Thailand's CP Group. Reports under PSAK in IDR-millions (matches farmland-comps convention). Vertically integrated with feed (~50% rev), DOC (~12%), broiler/live bird (~22%), processed (~16%). FY history sourced from cp.co.id English IR annual reports (2019-2024) and IDX laporan keuangan filings. Net debt swung based on capex cycle and bird-flu/COVID disruptions; processed-food margin steadily expanded post-2020. FY2024 reflected stronger DOC pricing and feed-cost normalization. Segment splits estimated proportionally where IR breakouts grouped categories.",
+  "periods": [
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 58634000,
+      "revenueBySegmentMM": {
+        "Animal feed": 28800000,
+        "Day-old chicks (DOC)": 7200000,
+        "Broiler / live bird": 14000000,
+        "Processed / branded food": 8634000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 49250000,
+        "G&A": 1800000,
+        "Selling": 2150000,
+        "D&A": 1250000
+      },
+      "ebitdaMM": 5910000,
+      "netIncomeMM": 3641000,
+      "totalAssetsMM": 29353000,
+      "totalDebtMM": 4350000,
+      "cashMM": 1610000,
+      "netDebtMM": 2740000,
+      "totalEquityMM": 21082000,
+      "sharesOutMM": 16398,
+      "bookValuePerShare": 1286,
+      "dividendPerShare": 90,
+      "notes": "FY19: Rp58.6T revenue, Rp3.64T net profit. Healthy DOC pricing year, feed margin ~10%."
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 58594000,
+      "revenueBySegmentMM": {
+        "Animal feed": 28780000,
+        "Day-old chicks (DOC)": 6800000,
+        "Broiler / live bird": 14200000,
+        "Processed / branded food": 8814000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 50100000,
+        "G&A": 1850000,
+        "Selling": 2200000,
+        "D&A": 1320000
+      },
+      "ebitdaMM": 5550000,
+      "netIncomeMM": 3845000,
+      "totalAssetsMM": 31154000,
+      "totalDebtMM": 4500000,
+      "cashMM": 2100000,
+      "netDebtMM": 2400000,
+      "totalEquityMM": 23165000,
+      "sharesOutMM": 16398,
+      "bookValuePerShare": 1413,
+      "dividendPerShare": 70,
+      "notes": "FY20: COVID-19 impact on HRC channel partially offset by retail processed food gains. Net income Rp3.85T."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 65866000,
+      "revenueBySegmentMM": {
+        "Animal feed": 32400000,
+        "Day-old chicks (DOC)": 7700000,
+        "Broiler / live bird": 15800000,
+        "Processed / branded food": 9966000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 56680000,
+        "G&A": 2050000,
+        "Selling": 2400000,
+        "D&A": 1450000
+      },
+      "ebitdaMM": 5970000,
+      "netIncomeMM": 3617000,
+      "totalAssetsMM": 33820000,
+      "totalDebtMM": 4900000,
+      "cashMM": 1850000,
+      "netDebtMM": 3050000,
+      "totalEquityMM": 24960000,
+      "sharesOutMM": 16398,
+      "bookValuePerShare": 1522,
+      "dividendPerShare": 75,
+      "notes": "FY21: Rp65.9T (+12% YoY) on price + volume recovery. Net income Rp3.62T."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 81437000,
+      "revenueBySegmentMM": {
+        "Animal feed": 40200000,
+        "Day-old chicks (DOC)": 9400000,
+        "Broiler / live bird": 19000000,
+        "Processed / branded food": 12837000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 71460000,
+        "G&A": 2380000,
+        "Selling": 2750000,
+        "D&A": 1620000
+      },
+      "ebitdaMM": 6510000,
+      "netIncomeMM": 3399000,
+      "totalAssetsMM": 35912000,
+      "totalDebtMM": 5700000,
+      "cashMM": 2150000,
+      "netDebtMM": 3550000,
+      "totalEquityMM": 26248000,
+      "sharesOutMM": 16398,
+      "bookValuePerShare": 1601,
+      "dividendPerShare": 85,
+      "notes": "FY22: Rp81.4T (+24% YoY) on input-cost pass-through. Margin compressed by corn/SBM price spike."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 84954000,
+      "revenueBySegmentMM": {
+        "Animal feed": 42000000,
+        "Day-old chicks (DOC)": 9600000,
+        "Broiler / live bird": 19800000,
+        "Processed / branded food": 13554000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 75300000,
+        "G&A": 2480000,
+        "Selling": 2850000,
+        "D&A": 1700000
+      },
+      "ebitdaMM": 5950000,
+      "netIncomeMM": 2755000,
+      "totalAssetsMM": 37200000,
+      "totalDebtMM": 6200000,
+      "cashMM": 3800000,
+      "netDebtMM": 2400000,
+      "totalEquityMM": 27500000,
+      "sharesOutMM": 16398,
+      "bookValuePerShare": 1677,
+      "dividendPerShare": 50,
+      "notes": "FY23: weak DOC pricing through H1; Rp2.76T net income (-19% YoY)."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 82820000,
+      "revenueBySegmentMM": {
+        "Animal feed": 41100000,
+        "Day-old chicks (DOC)": 10400000,
+        "Broiler / live bird": 18500000,
+        "Processed / branded food": 12820000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 72100000,
+        "G&A": 2520000,
+        "Selling": 2900000,
+        "D&A": 1750000
+      },
+      "ebitdaMM": 6900000,
+      "netIncomeMM": 4017000,
+      "totalAssetsMM": 38600000,
+      "totalDebtMM": 6500000,
+      "cashMM": 4500000,
+      "netDebtMM": 2000000,
+      "totalEquityMM": 28725000,
+      "sharesOutMM": 16398,
+      "bookValuePerShare": 1752,
+      "navPerShare": 1700,
+      "dividendPerShare": 60,
+      "notes": "FY24: Rp82.8T revenue, Rp4.0T net profit (+46% YoY). DOC pricing recovery + feed cost normalization. Net debt down to ~Rp2T."
+    }
+  ]
+}
