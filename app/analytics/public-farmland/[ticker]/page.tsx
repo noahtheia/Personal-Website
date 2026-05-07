@@ -5,11 +5,11 @@ import {
   getPricedFarmlandComps,
   type PricedFarmlandComp,
 } from "@/lib/farmland-comps";
-import {
-  getPropertyDetail,
-  type PropertyDetail,
-} from "@/lib/farmland-properties";
+import { getPropertyDetail } from "@/lib/farmland-properties";
+import { fetchPriceHistory } from "@/lib/farmland-history";
+import { FarmlandDetailTabs } from "@/components/FarmlandDetailTabs";
 import { FarmlandPropertyDetail } from "@/components/FarmlandPropertyDetail";
+import { FarmlandFinancialSnapshot } from "@/components/FarmlandFinancialSnapshot";
 
 export const revalidate = 3600;
 
@@ -47,6 +47,7 @@ export default async function PublicFarmlandTickerPage({
   const detail = getPropertyDetail(decoded);
   const comps = await getPricedFarmlandComps();
   const priced = comps.find((c) => c.ticker === decoded);
+  const history = await fetchPriceHistory(decoded);
 
   return (
     <div>
@@ -83,16 +84,46 @@ export default async function PublicFarmlandTickerPage({
 
       <SummaryStats filing={filing} priced={priced} />
 
-      {detail ? (
-        <FarmlandPropertyDetail
-          filing={filing}
-          priced={priced}
-          detail={detail}
-        />
-      ) : (
-        <PendingDetail filing={filing} />
-      )}
+      <FarmlandDetailTabs
+        fmvAnalysis={
+          detail ? (
+            <FarmlandPropertyDetail
+              filing={filing}
+              priced={priced}
+              detail={detail}
+            />
+          ) : (
+            <PendingDetail ticker={filing.ticker} />
+          )
+        }
+        financialSnapshot={
+          <FarmlandFinancialSnapshot
+            filing={filing}
+            priced={priced}
+            history={history}
+          />
+        }
+      />
     </div>
+  );
+}
+
+function PendingDetail({ ticker }: { ticker: string }) {
+  return (
+    <section className="mt-8 rounded-sm border border-rule bg-surface p-6">
+      <h2 className="font-display text-lg font-semibold">
+        In-depth land analysis pending
+      </h2>
+      <p className="mt-2 text-sm text-fg-soft">
+        Property-by-property land detail and an implied fair-market analysis
+        haven&apos;t been compiled for {ticker} yet. The schema and page are
+        ready — adding{" "}
+        <code className="rounded bg-bg px-1 py-0.5 text-[12px]">
+          content/farmland-properties/{ticker}.json
+        </code>{" "}
+        will populate this page automatically.
+      </p>
+    </section>
   );
 }
 
@@ -131,40 +162,6 @@ function Stat({ label, value }: { label: string; value: string }) {
         {value}
       </dd>
     </div>
-  );
-}
-
-function PendingDetail({
-  filing,
-}: {
-  filing: ReturnType<typeof getFilings>[number];
-}) {
-  return (
-    <section className="mt-8 rounded-sm border border-rule bg-surface p-6">
-      <h2 className="font-display text-lg font-semibold">
-        In-depth land analysis pending
-      </h2>
-      <p className="mt-2 text-sm text-fg-soft">
-        Property-by-property land detail and an implied fair-market analysis
-        haven&apos;t been compiled for {filing.ticker} yet. The schema and page
-        are ready — adding{" "}
-        <code className="rounded bg-bg px-1 py-0.5 text-[12px]">
-          content/farmland-properties/{filing.ticker}.json
-        </code>{" "}
-        will populate this page automatically.
-      </p>
-      <p className="mt-4 text-xs text-muted">
-        For now, see the{" "}
-        <Link
-          href="/analytics/public-farmland"
-          className="!text-accent no-underline hover:underline"
-        >
-          comps table
-        </Link>{" "}
-        for {filing.ticker}&apos;s aggregate book value, EV, and per-acre
-        multiples.
-      </p>
-    </section>
   );
 }
 
