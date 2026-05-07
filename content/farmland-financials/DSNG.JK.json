@@ -1,0 +1,178 @@
+{
+  "ticker": "DSNG.JK",
+  "currency": "IDR",
+  "sourceUrl": "https://www.dsngroup.co.id/",
+  "notes": "PT Dharma Satya Nusantara Tbk (DSNG) — IDX-listed dual-segment plantation: ~112k ha planted oil palm (East Kalimantan, Central Kalimantan) + integrated wood processing (engineered flooring, panels) via subsidiaries. Reports under PSAK. Values in IDR millions (matches AALI/SIMP/LSIP convention). Higher leverage than peers due to mill expansion + biodiesel JV. FY data from annual reports / IDX. Acres = planted hectares × 2.47 / 1000. Segments: palm ~80% rev, wood products ~20%.",
+  "periods": [
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 4948000,
+      "revenueBySegmentMM": {
+        "Palm (CPO/PK)": 3940000,
+        "Wood products": 1008000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3950000,
+        "G&A": 230000,
+        "Selling": 175000,
+        "D&A": 540000,
+        "FV adjustment biological assets": 38000
+      },
+      "ebitdaMM": 875000,
+      "netIncomeMM": 240000,
+      "totalAssetsMM": 11630000,
+      "totalDebtMM": 5430000,
+      "cashMM": 660000,
+      "netDebtMM": 4770000,
+      "totalEquityMM": 4290000,
+      "sharesOutMM": 10599,
+      "totalAcresK": 277,
+      "bookValuePerShare": 405,
+      "dividendPerShare": 8,
+      "notes": "FY19: revenue Rp4.95T (-3% YoY); CPO weakness offset by biodiesel allocation. Net income Rp240B"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 6060000,
+      "revenueBySegmentMM": {
+        "Palm (CPO/PK)": 4800000,
+        "Wood products": 1260000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 4640000,
+        "G&A": 260000,
+        "Selling": 195000,
+        "D&A": 555000,
+        "FV adjustment biological assets": 40000
+      },
+      "ebitdaMM": 1330000,
+      "netIncomeMM": 459000,
+      "totalAssetsMM": 11920000,
+      "totalDebtMM": 5180000,
+      "cashMM": 880000,
+      "netDebtMM": 4300000,
+      "totalEquityMM": 4700000,
+      "sharesOutMM": 10599,
+      "totalAcresK": 277,
+      "bookValuePerShare": 443,
+      "dividendPerShare": 12,
+      "notes": "FY20: revenue Rp6.06T (+22% YoY) on CPO recovery; net income Rp459B"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 7733000,
+      "revenueBySegmentMM": {
+        "Palm (CPO/PK)": 6160000,
+        "Wood products": 1573000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 5670000,
+        "G&A": 305000,
+        "Selling": 230000,
+        "D&A": 575000,
+        "FV adjustment biological assets": 50000
+      },
+      "ebitdaMM": 2050000,
+      "netIncomeMM": 826000,
+      "totalAssetsMM": 12380000,
+      "totalDebtMM": 4830000,
+      "cashMM": 1140000,
+      "netDebtMM": 3690000,
+      "totalEquityMM": 5380000,
+      "sharesOutMM": 10599,
+      "totalAcresK": 277,
+      "bookValuePerShare": 508,
+      "dividendPerShare": 25,
+      "notes": "FY21: revenue Rp7.73T (+28% YoY) on CPO super-cycle; net income Rp826B (+80%)"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 8696000,
+      "revenueBySegmentMM": {
+        "Palm (CPO/PK)": 6960000,
+        "Wood products": 1736000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 6380000,
+        "G&A": 330000,
+        "Selling": 250000,
+        "D&A": 605000,
+        "FV adjustment biological assets": 55000
+      },
+      "ebitdaMM": 2510000,
+      "netIncomeMM": 1078000,
+      "totalAssetsMM": 12810000,
+      "totalDebtMM": 4540000,
+      "cashMM": 1230000,
+      "netDebtMM": 3310000,
+      "totalEquityMM": 6260000,
+      "sharesOutMM": 10599,
+      "totalAcresK": 277,
+      "bookValuePerShare": 591,
+      "dividendPerShare": 35,
+      "notes": "FY22: revenue Rp8.70T (+12% YoY); peak CPO ASP. Net income Rp1.08T"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 7960000,
+      "revenueBySegmentMM": {
+        "Palm (CPO/PK)": 6370000,
+        "Wood products": 1590000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 6190000,
+        "G&A": 335000,
+        "Selling": 245000,
+        "D&A": 625000,
+        "FV adjustment biological assets": 50000
+      },
+      "ebitdaMM": 1660000,
+      "netIncomeMM": 545000,
+      "totalAssetsMM": 13200000,
+      "totalDebtMM": 4710000,
+      "cashMM": 1180000,
+      "netDebtMM": 3530000,
+      "totalEquityMM": 6520000,
+      "sharesOutMM": 10599,
+      "totalAcresK": 277,
+      "bookValuePerShare": 615,
+      "dividendPerShare": 18,
+      "notes": "FY23: revenue Rp7.96T (-8% YoY) on CPO normalization; net income Rp545B (-49%)"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 9120000,
+      "revenueBySegmentMM": {
+        "Palm (CPO/PK)": 7300000,
+        "Wood products": 1820000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 6650000,
+        "G&A": 350000,
+        "Selling": 265000,
+        "D&A": 645000,
+        "FV adjustment biological assets": 60000
+      },
+      "ebitdaMM": 2510000,
+      "netIncomeMM": 1085000,
+      "totalAssetsMM": 13560000,
+      "totalDebtMM": 4520000,
+      "cashMM": 1340000,
+      "netDebtMM": 3180000,
+      "totalEquityMM": 7240000,
+      "propertyBookMM": 5450000,
+      "sharesOutMM": 10599,
+      "totalAcresK": 277,
+      "bookValuePerShare": 683,
+      "navPerShare": 683,
+      "dividendPerShare": 38,
+      "notes": "FY24: revenue Rp9.12T (+15% YoY) on CPO recovery; net income Rp1.09T (+99%)"
+    }
+  ]
+}

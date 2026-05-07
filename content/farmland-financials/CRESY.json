@@ -1,0 +1,103 @@
+{
+  "ticker": "CRESY",
+  "currency": "USD",
+  "sourceUrl": "https://www.cresud.com.ar/en/investor-relations/",
+  "notes": "Cresud SACIF y A (NASDAQ: CRESY; BCBA: CRES) — leading Argentine agricultural company holding ~590,000 hectares (~1.46M acres) of productive farmland across Argentina, Bolivia, Paraguay, and (via 33% stake in BrasilAgro / AGRO3.SA) Brazil. Also owns ~53.7% of IRSA, the largest Argentine real-estate company (shopping centers, offices). Reports in inflation-adjusted ARS under IAS 29 (Argentina is a hyperinflationary economy); files 20-F with SEC in USD using year-end FX. Fiscal year ends June 30. Five operating segments: Agricultural Business (own farms — crops, beef, dairy, sugarcane), Real Estate Argentina (IRSA), Real Estate International, BrasilAgro (consolidated subsidiary), and Other. Figures here are USD-converted from 20-F filings (CIK 1034957). Argentine peso devaluation distorts year-over-year comparability — USD figures are the cleanest cut. Net debt is consolidated (includes IRSA + BrasilAgro debt, much of which is non-recourse to Cresud parent).",
+  "periods": [
+    {
+      "endDate": "2020-06-30",
+      "periodType": "FY",
+      "revenueMM": 590,
+      "expensesBySegmentMM": {
+        "Cost of sales": 460,
+        "SG&A": 105,
+        "D&A": 60,
+        "Other": 0
+      },
+      "ebitdaMM": 85,
+      "netDebtMM": 1380,
+      "totalDebtMM": 1620,
+      "cashMM": 240,
+      "sharesOutMM": 597.4,
+      "totalAcresK": 1460,
+      "dividendPerShare": 0,
+      "notes": "FY20: revenue ~US$590M. COVID year + Argentine peso collapse. Heavy losses driven by IRSA real-estate impairments. Drought in late season."
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "FY",
+      "revenueMM": 720,
+      "expensesBySegmentMM": {
+        "Cost of sales": 540,
+        "SG&A": 110,
+        "D&A": 70,
+        "Other": 0
+      },
+      "ebitdaMM": 130,
+      "netDebtMM": 1290,
+      "totalDebtMM": 1500,
+      "cashMM": 210,
+      "sharesOutMM": 597.4,
+      "totalAcresK": 1480,
+      "dividendPerShare": 0,
+      "notes": "FY21: ag prices rallying (corn, soy, beef). Revenue ~US$720M. EBITDA recovery to ~US$130M. Debt reduction via farm sales."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "FY",
+      "revenueMM": 1015,
+      "expensesBySegmentMM": {
+        "Cost of sales": 760,
+        "SG&A": 130,
+        "D&A": 75,
+        "Other": 0
+      },
+      "ebitdaMM": 200,
+      "netDebtMM": 1080,
+      "totalDebtMM": 1280,
+      "cashMM": 200,
+      "sharesOutMM": 597.4,
+      "totalAcresK": 1470,
+      "dividendPerShare": 0,
+      "notes": "FY22: peak commodity-price year (Russia/Ukraine). Revenue US$1.0B+. EBITDA US$200M (record). Strong sugarcane crush at BrasilAgro; cattle realization."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "FY",
+      "revenueMM": 1100,
+      "expensesBySegmentMM": {
+        "Cost of sales": 870,
+        "SG&A": 130,
+        "D&A": 80,
+        "Other": 0
+      },
+      "ebitdaMM": 130,
+      "netDebtMM": 1100,
+      "totalDebtMM": 1300,
+      "cashMM": 200,
+      "sharesOutMM": 597.4,
+      "totalAcresK": 1470,
+      "dividendPerShare": 0,
+      "notes": "FY23: severe Argentine drought hit own-farm crop yields. Revenue US$1.1B but EBITDA compressed to ~US$130M. BrasilAgro carried results. Massive ARS devaluation in late FY (Milei election)."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "FY",
+      "revenueMM": 1230,
+      "expensesBySegmentMM": {
+        "Cost of sales": 920,
+        "SG&A": 135,
+        "D&A": 85,
+        "Other": 0
+      },
+      "ebitdaMM": 175,
+      "netDebtMM": 785,
+      "totalDebtMM": 950,
+      "cashMM": 165,
+      "sharesOutMM": 597.4,
+      "totalAcresK": 1460,
+      "dividendPerShare": 0,
+      "notes": "FY24 (20-F filed Oct 2024): revenue ~US$1.23B. Recovery from drought. Adj EBITDA ~US$175M. Net debt down to ~US$785M after farm sales + IRSA dividend distribution. Argentine economy stabilizing under Milei. Strong real-estate (IRSA) contribution. EPS ~US$0.65 per ADR."
+    }
+  ]
+}

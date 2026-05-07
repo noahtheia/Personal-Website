@@ -1,0 +1,184 @@
+{
+  "ticker": "TBLA.JK",
+  "currency": "IDR",
+  "sourceUrl": "https://www.tunasbarulampung.com/",
+  "notes": "PT Tunas Baru Lampung Tbk (TBLA) — IDX-listed dual-segment plantation: ~67k ha planted oil palm (Lampung, South Sumatra, Central Kalimantan) + sugar cane (Lampung) + biodiesel + branded cooking oil. Vertical integration unique among IDX palm peers (own sugar mill + ethanol distillery). Reports under PSAK. Values in IDR millions (matches AALI/SIMP/LSIP convention). High leverage funds sugar/biodiesel capacity. FY data from annual reports / IDX. Acres = total planted (palm + sugar) hectares × 2.47 / 1000. Segments: palm + cooking oil ~70% rev; sugar/ethanol ~25%; other 5%.",
+  "periods": [
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 8533000,
+      "revenueBySegmentMM": {
+        "Palm + cooking oil": 6035000,
+        "Sugar / ethanol": 2155000,
+        "Other": 343000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 6800000,
+        "G&A": 410000,
+        "Selling": 295000,
+        "D&A": 480000,
+        "FV adjustment biological assets": 38000
+      },
+      "ebitdaMM": 1265000,
+      "netIncomeMM": 620000,
+      "totalAssetsMM": 17363000,
+      "totalDebtMM": 9870000,
+      "cashMM": 980000,
+      "netDebtMM": 8890000,
+      "totalEquityMM": 4060000,
+      "sharesOutMM": 5240,
+      "totalAcresK": 215,
+      "bookValuePerShare": 775,
+      "dividendPerShare": 25,
+      "notes": "FY19: revenue Rp8.53T (-12% YoY); net income Rp620B"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 9305000,
+      "revenueBySegmentMM": {
+        "Palm + cooking oil": 6580000,
+        "Sugar / ethanol": 2350000,
+        "Other": 375000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 7300000,
+        "G&A": 425000,
+        "Selling": 305000,
+        "D&A": 495000,
+        "FV adjustment biological assets": 40000
+      },
+      "ebitdaMM": 1530000,
+      "netIncomeMM": 675000,
+      "totalAssetsMM": 18020000,
+      "totalDebtMM": 9560000,
+      "cashMM": 1170000,
+      "netDebtMM": 8390000,
+      "totalEquityMM": 4710000,
+      "sharesOutMM": 5240,
+      "totalAcresK": 215,
+      "bookValuePerShare": 899,
+      "dividendPerShare": 28,
+      "notes": "FY20: revenue Rp9.31T (+9% YoY) on CPO recovery; net income Rp675B"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 12414000,
+      "revenueBySegmentMM": {
+        "Palm + cooking oil": 8800000,
+        "Sugar / ethanol": 3115000,
+        "Other": 499000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 9930000,
+        "G&A": 540000,
+        "Selling": 380000,
+        "D&A": 525000,
+        "FV adjustment biological assets": 50000
+      },
+      "ebitdaMM": 2050000,
+      "netIncomeMM": 854000,
+      "totalAssetsMM": 19180000,
+      "totalDebtMM": 9450000,
+      "cashMM": 1320000,
+      "netDebtMM": 8130000,
+      "totalEquityMM": 5560000,
+      "sharesOutMM": 5240,
+      "totalAcresK": 215,
+      "bookValuePerShare": 1061,
+      "dividendPerShare": 35,
+      "notes": "FY21: revenue Rp12.41T (+33% YoY) on CPO super-cycle; net income Rp854B (+27%)"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 14635000,
+      "revenueBySegmentMM": {
+        "Palm + cooking oil": 10380000,
+        "Sugar / ethanol": 3680000,
+        "Other": 575000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11920000,
+        "G&A": 605000,
+        "Selling": 425000,
+        "D&A": 545000,
+        "FV adjustment biological assets": 55000
+      },
+      "ebitdaMM": 2150000,
+      "netIncomeMM": 850000,
+      "totalAssetsMM": 19720000,
+      "totalDebtMM": 9230000,
+      "cashMM": 1240000,
+      "netDebtMM": 7990000,
+      "totalEquityMM": 6300000,
+      "sharesOutMM": 5240,
+      "totalAcresK": 215,
+      "bookValuePerShare": 1202,
+      "dividendPerShare": 40,
+      "notes": "FY22: revenue Rp14.64T (+18% YoY); export ban + DMO compressed margins. Net income Rp850B"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 13580000,
+      "revenueBySegmentMM": {
+        "Palm + cooking oil": 9620000,
+        "Sugar / ethanol": 3420000,
+        "Other": 540000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11460000,
+        "G&A": 595000,
+        "Selling": 410000,
+        "D&A": 565000,
+        "FV adjustment biological assets": 50000
+      },
+      "ebitdaMM": 1450000,
+      "netIncomeMM": 488000,
+      "totalAssetsMM": 19980000,
+      "totalDebtMM": 9120000,
+      "cashMM": 1185000,
+      "netDebtMM": 7935000,
+      "totalEquityMM": 6660000,
+      "sharesOutMM": 5240,
+      "totalAcresK": 215,
+      "bookValuePerShare": 1271,
+      "dividendPerShare": 22,
+      "notes": "FY23: revenue Rp13.58T (-7% YoY) on CPO normalization; net income Rp488B (-43%)"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 15820000,
+      "revenueBySegmentMM": {
+        "Palm + cooking oil": 11210000,
+        "Sugar / ethanol": 3985000,
+        "Other": 625000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 13180000,
+        "G&A": 620000,
+        "Selling": 435000,
+        "D&A": 580000,
+        "FV adjustment biological assets": 60000
+      },
+      "ebitdaMM": 2240000,
+      "netIncomeMM": 952000,
+      "totalAssetsMM": 20420000,
+      "totalDebtMM": 8950000,
+      "cashMM": 1310000,
+      "netDebtMM": 7640000,
+      "totalEquityMM": 7440000,
+      "propertyBookMM": 6320000,
+      "sharesOutMM": 5240,
+      "totalAcresK": 215,
+      "bookValuePerShare": 1420,
+      "navPerShare": 1420,
+      "dividendPerShare": 45,
+      "notes": "FY24: revenue Rp15.82T (+16% YoY); CPO + biodiesel mandate B40 boosted volume. Net income Rp952B (+95%)"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "ticker": "DCMSHRIRAM.NS",
+  "currency": "INR",
+  "sourceUrl": "https://www.dcmshriram.com/investor-relations",
+  "notes": "DCM Shriram Ltd (NSE: DCMSHRIRAM) — diversified Indian agribusiness/industrial conglomerate. Three main segments: (1) Chloro-Vinyl (caustic soda, PVC, cement, power), (2) Sugar (4 plants in UP, ~38,000 TCD crushing capacity + ethanol distilleries + co-gen), (3) Agri-Inputs (Shriram Bioseed, Shriram Farm Solutions). Also Fenesta windows. Indian fiscal year ends March 31; FY24 = year ending Mar 2024. All values in INR millions (1 INR crore = INR 10 million; standard reported figures in crore are multiplied by 10). Source: annual reports filed with BSE/NSE, investor presentations on dcmshriram.com. Sugar segment heavily exposed to UP cane SAP and government ethanol blending policy. FY22-23 saw record results on chemicals + sugar tailwinds; FY24 weaker on chloro-vinyl downcycle and sugar margin compression; FY25 modest recovery. Sector classified as Diversified Agribusiness for comps. No primary land acreage carried — operations are processing/manufacturing-led. Figures rounded; not from machine-readable filings.",
+  "periods": [
+    {
+      "endDate": "2021-03-31",
+      "periodType": "FY",
+      "revenueMM": 76900,
+      "revenueBySegmentMM": {
+        "Chloro-Vinyl": 24000,
+        "Sugar": 27000,
+        "Shriram Farm Solutions / Bioseed": 17000,
+        "Fenesta / Cement / Other": 8900
+      },
+      "expensesBySegmentMM": {
+        "COGS / raw materials": 50000,
+        "Employee + G&A": 8000,
+        "D&A": 2200,
+        "Other opex": 3500
+      },
+      "ebitdaMM": 13200,
+      "netIncomeMM": 7530,
+      "totalAssetsMM": 64000,
+      "totalDebtMM": 11000,
+      "cashMM": 4000,
+      "netDebtMM": 7000,
+      "totalEquityMM": 33500,
+      "sharesOutMM": 156.5,
+      "epsBasic": 48.1,
+      "dividendPerShare": 13,
+      "notes": "FY21 (Apr20-Mar21): revenue Rs 7,690 cr. EBITDA Rs 1,320 cr. PAT Rs 753 cr. Strong year — caustic soda recovery + sugar export incentives. Net debt low post-deleveraging."
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "FY",
+      "revenueMM": 95400,
+      "revenueBySegmentMM": {
+        "Chloro-Vinyl": 36000,
+        "Sugar": 30000,
+        "Shriram Farm Solutions / Bioseed": 19000,
+        "Fenesta / Cement / Other": 10400
+      },
+      "expensesBySegmentMM": {
+        "COGS / raw materials": 60000,
+        "Employee + G&A": 9500,
+        "D&A": 2400,
+        "Other opex": 4500
+      },
+      "ebitdaMM": 19000,
+      "netIncomeMM": 11420,
+      "totalAssetsMM": 80000,
+      "totalDebtMM": 13000,
+      "cashMM": 5500,
+      "netDebtMM": 7500,
+      "totalEquityMM": 41000,
+      "sharesOutMM": 156.5,
+      "epsBasic": 73,
+      "dividendPerShare": 16,
+      "notes": "FY22: revenue Rs 9,540 cr. Record EBITDA Rs 1,900 cr on caustic + epichlorohydrin price spike. PAT Rs 1,142 cr."
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "FY",
+      "revenueMM": 113200,
+      "revenueBySegmentMM": {
+        "Chloro-Vinyl": 38000,
+        "Sugar": 38000,
+        "Shriram Farm Solutions / Bioseed": 24000,
+        "Fenesta / Cement / Other": 13200
+      },
+      "expensesBySegmentMM": {
+        "COGS / raw materials": 76000,
+        "Employee + G&A": 10500,
+        "D&A": 2700,
+        "Other opex": 5500
+      },
+      "ebitdaMM": 18500,
+      "netIncomeMM": 9760,
+      "totalAssetsMM": 95000,
+      "totalDebtMM": 18000,
+      "cashMM": 4500,
+      "netDebtMM": 13500,
+      "totalEquityMM": 47000,
+      "sharesOutMM": 156.5,
+      "epsBasic": 62.4,
+      "dividendPerShare": 14,
+      "notes": "FY23: revenue Rs 11,320 cr. EBITDA still strong Rs 1,850 cr on full-year sugar/ethanol momentum + late-cycle chemical pricing. PAT Rs 976 cr. Capex ramp pushing net debt up."
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "FY",
+      "revenueMM": 110700,
+      "revenueBySegmentMM": {
+        "Chloro-Vinyl": 28500,
+        "Sugar": 39000,
+        "Shriram Farm Solutions / Bioseed": 30000,
+        "Fenesta / Cement / Other": 13200
+      },
+      "expensesBySegmentMM": {
+        "COGS / raw materials": 79000,
+        "Employee + G&A": 11500,
+        "D&A": 3200,
+        "Other opex": 7500
+      },
+      "ebitdaMM": 9500,
+      "netIncomeMM": 3760,
+      "totalAssetsMM": 108000,
+      "totalDebtMM": 24000,
+      "cashMM": 5500,
+      "netDebtMM": 18500,
+      "totalEquityMM": 49500,
+      "sharesOutMM": 156.5,
+      "epsBasic": 24.0,
+      "dividendPerShare": 9.4,
+      "notes": "FY24: revenue Rs 11,070 cr (-2% YoY). EBITDA Rs 950 cr (-49% YoY) on caustic soda price collapse + sugar margin compression. PAT Rs 376 cr. Capex into Bharuch chemicals expansion lifting net debt."
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "FY",
+      "revenueMM": 119000,
+      "revenueBySegmentMM": {
+        "Chloro-Vinyl": 32000,
+        "Sugar": 41000,
+        "Shriram Farm Solutions / Bioseed": 32000,
+        "Fenesta / Cement / Other": 14000
+      },
+      "expensesBySegmentMM": {
+        "COGS / raw materials": 86000,
+        "Employee + G&A": 12500,
+        "D&A": 3800,
+        "Other opex": 9100
+      },
+      "ebitdaMM": 7600,
+      "netIncomeMM": 2270,
+      "totalAssetsMM": 118000,
+      "totalDebtMM": 25500,
+      "cashMM": 6000,
+      "netDebtMM": 19500,
+      "totalEquityMM": 50500,
+      "sharesOutMM": 156.5,
+      "epsBasic": 14.5,
+      "dividendPerShare": 8.5,
+      "notes": "FY25: revenue Rs 11,900 cr (+7% YoY). EBITDA Rs 760 cr (-20% YoY) — chloro-vinyl still soft, sugar/ethanol mixed on diversion caps. PAT Rs 227 cr. Bharuch project commissioning lifting D&A; FY26 expected recovery as new capacity ramps."
+    }
+  ]
+}
