@@ -1037,7 +1037,7 @@ function buildAllSeries(
             findValueAtOrBeforeDated(
               acresSeries.points.map((x) => ({ date: x.date, value: x.value })),
               p.date,
-            ) ?? filing.acresK;
+            ) ?? filing.acresK ?? 0;
           if (acresKAtDate > 0) {
             // EV (in $M) ÷ acres (in K) = $ per K-acre... convert to $/acre
             // EV/M × 1,000,000 = $; ÷ (acresK × 1,000) = $/acre

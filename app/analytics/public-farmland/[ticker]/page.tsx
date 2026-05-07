@@ -138,11 +138,23 @@ function SummaryStats({
   priced: PricedFarmlandComp | undefined;
 }) {
   const ccy = filing.currency;
-  const bookPerAcre = (filing.bookLandMM / filing.acresK) * 1000;
+  const acresK = filing.acresK ?? 0;
+  const bookPerAcre =
+    filing.bookLandMM !== undefined && acresK > 0
+      ? (filing.bookLandMM / acresK) * 1000
+      : null;
   return (
     <dl className="mt-6 grid grid-cols-2 gap-4 border-b border-rule pb-6 sm:grid-cols-4">
-      <Stat label="Acres" value={`${fmtInt(filing.acresK * 1000)}`} />
-      <Stat label="Book / acre" value={`${ccy} ${fmtInt(bookPerAcre)}`} />
+      <Stat
+        label="Acres"
+        value={acresK > 0 ? `${fmtInt(acresK * 1000)}` : "—"}
+      />
+      <Stat
+        label="Book / acre"
+        value={
+          bookPerAcre !== null ? `${ccy} ${fmtInt(bookPerAcre)}` : "—"
+        }
+      />
       <Stat
         label="Market cap (USD)"
         value={priced?.marketCapMM != null ? `$${fmtInt(priced.marketCapMM)}M` : "—"}

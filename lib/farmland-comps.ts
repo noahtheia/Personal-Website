@@ -22,6 +22,39 @@ const CurrencySchema = z.enum([
 ]);
 type Currency = z.infer<typeof CurrencySchema>;
 
+const SectorSchema = z.enum([
+  "Farmland Owner / REIT",
+  "Integrated Farm Operator",
+  "Plantation Operator",
+  "Pastoral / Livestock",
+  "Diversified Agribusiness",
+  "Protein Producer",
+  "Dairy / Egg Producer",
+  "Agribusiness / Trader",
+  "Crop Inputs / Fertilizer",
+  "Rural Services",
+]);
+type Sector = z.infer<typeof SectorSchema>;
+
+const GeographySchema = z.enum([
+  "US",
+  "Brazil",
+  "Argentina",
+  "UK",
+  "EU",
+  "Ukraine",
+  "Australia",
+  "New Zealand",
+  "Malaysia",
+  "Indonesia",
+  "Singapore",
+  "Thailand",
+  "Saudi Arabia",
+  "Kenya",
+  "Canada",
+]);
+type Geography = z.infer<typeof GeographySchema>;
+
 const FilingSchema = z.object({
   ticker: z.string(),
   name: z.string(),
@@ -32,6 +65,11 @@ const FilingSchema = z.object({
   // do not — e.g. MP Evans reports in USD but lists on LSE in GBp/GBP,
   // and Astarta reports in EUR but lists in Warsaw in PLN.
   priceCurrency: CurrencySchema.optional(),
+  // Sector + geography drive the categorization bands shown in the
+  // Agriculture Comps table. Both are required so each issuer slots
+  // cleanly into a {Geography — Sector} group with peers.
+  sector: SectorSchema,
+  geography: GeographySchema,
   primaryCrops: z.string(),
   filingDate: z.string(),
   filingUrl: z.string().url().optional(),
@@ -39,18 +77,25 @@ const FilingSchema = z.object({
   sharesOutMM: z.number().positive(),
   debtMM: z.number().nonnegative(),
   cashMM: z.number().nonnegative(),
-  acresK: z.number().positive(),
-  navPerShare: z.number().positive(),
+  // Operated / managed acres. Optional for non-land-owners (protein
+  // processors, fertilizer producers, agribusiness traders) where the
+  // metric isn't meaningful.
+  acresK: z.number().nonnegative().optional(),
+  navPerShare: z.number().positive().optional(),
   annualDividend: z.number().nonnegative(),
   annualNoiMM: z.number().nonnegative(),
   annualRevenueMM: z.number().nonnegative(),
   annualEbitdaMM: z.number(),
   epsTTM: z.number(),
-  bookLandMM: z.number().positive(),
+  // Book value of property/land. Optional for issuers that don't carry
+  // significant land on the balance sheet (processors, traders).
+  bookLandMM: z.number().nonnegative().optional(),
   marketLandMM: z.number().positive().optional(),
 });
 
 export type FarmlandFiling = z.infer<typeof FilingSchema>;
+export type FarmlandSector = Sector;
+export type FarmlandGeography = Geography;
 
 export type PricedFarmlandComp = FarmlandFiling & {
   // Live local-currency price (raw Yahoo quote).
@@ -136,9 +181,14 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         priceInFiling !== null ? priceInFiling * f.sharesOutMM : null;
       const evLocal =
         marketCapLocal !== null ? marketCapLocal + netDebtLocal : null;
+      // Per-acre metrics only meaningful when issuer owns/operates land.
+      const acresK = f.acresK ?? 0;
       const evPerAcreLocal =
-        evLocal !== null ? (evLocal / f.acresK) * 1000 : null;
-      const bookPerAcreLocal = (f.bookLandMM / f.acresK) * 1000;
+        evLocal !== null && acresK > 0 ? (evLocal / acresK) * 1000 : null;
+      const bookPerAcreLocal =
+        f.bookLandMM !== undefined && acresK > 0
+          ? (f.bookLandMM / acresK) * 1000
+          : null;
       // Market / Acre uses the total FMV from the detail page (matching the
       // 'Aggregate FMV' card on the individual ticker page) divided by the
       // comps-file acresK. This includes industrial / water / plasma rows
@@ -150,10 +200,10 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
       const detail = getPropertyDetail(f.ticker);
       const detailFmvLocal = detail ? totalFmvMM(detail) : null;
       const marketPerAcreLocal =
-        detailFmvLocal !== null && f.acresK > 0
-          ? (detailFmvLocal / f.acresK) * 1000
-          : f.marketLandMM !== undefined
-          ? (f.marketLandMM / f.acresK) * 1000
+        detailFmvLocal !== null && acresK > 0
+          ? (detailFmvLocal / acresK) * 1000
+          : f.marketLandMM !== undefined && acresK > 0
+          ? (f.marketLandMM / acresK) * 1000
           : null;
 
       // FMV NAV per share (filing currency): subtract net debt from the
@@ -175,9 +225,13 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
       // mark from each issuer's per-property valuation); falls back to book
       // NAV from the comps file for issuers without a detail page.
       const navPerShareForPNav =
-        fmvNavPerShareLocal !== null ? fmvNavPerShareLocal : f.navPerShare;
+        fmvNavPerShareLocal !== null
+          ? fmvNavPerShareLocal
+          : f.navPerShare ?? null;
       const pNav =
-        priceInFiling !== null && navPerShareForPNav > 0
+        priceInFiling !== null &&
+        navPerShareForPNav !== null &&
+        navPerShareForPNav > 0
           ? priceInFiling / navPerShareForPNav
           : null;
       const divYield =
@@ -215,7 +269,7 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         marketCapMM: marketCapLocal !== null ? marketCapLocal * fx : null,
         netDebtMM: netDebtLocal * fx,
         evMM: evLocal !== null ? evLocal * fx : null,
-        bookPerAcre: bookPerAcreLocal * fx,
+        bookPerAcre: bookPerAcreLocal !== null ? bookPerAcreLocal * fx : null,
         marketPerAcre:
           marketPerAcreLocal !== null ? marketPerAcreLocal * fx : null,
         evPerAcre: evPerAcreLocal !== null ? evPerAcreLocal * fx : null,

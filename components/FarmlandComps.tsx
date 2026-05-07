@@ -2,7 +2,56 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import type { PricedFarmlandComp } from "@/lib/farmland-comps";
+import type {
+  FarmlandGeography,
+  FarmlandSector,
+  PricedFarmlandComp,
+} from "@/lib/farmland-comps";
+
+// Display order for category bands. Each row is grouped under a
+// "{Sector} — {Geography}" header. Sort first by sector, then by
+// geography within sector.
+const SECTOR_ORDER: FarmlandSector[] = [
+  "Farmland Owner / REIT",
+  "Integrated Farm Operator",
+  "Plantation Operator",
+  "Pastoral / Livestock",
+  "Diversified Agribusiness",
+  "Protein Producer",
+  "Dairy / Egg Producer",
+  "Agribusiness / Trader",
+  "Crop Inputs / Fertilizer",
+  "Rural Services",
+];
+
+const GEOGRAPHY_ORDER: FarmlandGeography[] = [
+  "US",
+  "Canada",
+  "Brazil",
+  "Argentina",
+  "UK",
+  "EU",
+  "Ukraine",
+  "Australia",
+  "New Zealand",
+  "Malaysia",
+  "Indonesia",
+  "Singapore",
+  "Thailand",
+  "Saudi Arabia",
+  "Kenya",
+];
+
+function categoryKey(r: { sector: string; geography: string }): string {
+  return `${r.sector} — ${r.geography}`;
+}
+
+function categoryRank(r: { sector: string; geography: string }): number {
+  const s = SECTOR_ORDER.indexOf(r.sector as FarmlandSector);
+  const g = GEOGRAPHY_ORDER.indexOf(r.geography as FarmlandGeography);
+  // Unknown values sort to the end of their dimension.
+  return (s < 0 ? 99 : s) * 100 + (g < 0 ? 99 : g);
+}
 
 type SortKey =
   | "ticker"
@@ -92,25 +141,43 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
   const [sortKey, setSortKey] = useState<SortKey>("marketCapMM");
   const [dir, setDir] = useState<"asc" | "desc">("desc");
 
-  const sorted = useMemo(() => {
-    const copy = [...rows];
-    copy.sort((a, b) => {
-      const av = a[sortKey];
-      const bv = b[sortKey];
-      if (typeof av === "string" && typeof bv === "string") {
-        return dir === "asc" ? av.localeCompare(bv) : bv.localeCompare(av);
-      }
-      const an = av as number | null;
-      const bn = bv as number | null;
-      if (an === null && bn === null) return 0;
-      if (an === null) return 1;
-      if (bn === null) return -1;
-      return dir === "asc" ? an - bn : bn - an;
+  // Group rows by {Sector — Geography}, preserve SECTOR/GEOGRAPHY_ORDER
+  // outer order; within each group, sort by the user's chosen column.
+  const groups = useMemo(() => {
+    const buckets = new Map<string, PricedFarmlandComp[]>();
+    for (const r of rows) {
+      const k = categoryKey(r);
+      if (!buckets.has(k)) buckets.set(k, []);
+      buckets.get(k)!.push(r);
+    }
+    // Ordered group entries
+    const ordered = Array.from(buckets.entries()).sort(([, a], [, b]) => {
+      return categoryRank(a[0]) - categoryRank(b[0]);
     });
-    return copy;
+    // Sort rows inside each group by current sort column.
+    for (const [, groupRows] of ordered) {
+      groupRows.sort((a, b) => {
+        const av = a[sortKey];
+        const bv = b[sortKey];
+        if (typeof av === "string" && typeof bv === "string") {
+          return dir === "asc" ? av.localeCompare(bv) : bv.localeCompare(av);
+        }
+        const an = av as number | null;
+        const bn = bv as number | null;
+        if (an === null && bn === null) return 0;
+        if (an === null) return 1;
+        if (bn === null) return -1;
+        return dir === "asc" ? an - bn : bn - an;
+      });
+    }
+    return ordered.map(([key, groupRows]) => ({
+      key,
+      rows: groupRows,
+      stats: computeStats(groupRows),
+    }));
   }, [rows, sortKey, dir]);
 
-  const stats = useMemo(() => computeStats(rows), [rows]);
+  const overallStats = useMemo(() => computeStats(rows), [rows]);
 
   function onHeaderClick(k: SortKey) {
     if (k === sortKey) setDir((d) => (d === "asc" ? "desc" : "asc"));
@@ -222,41 +289,14 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
           </tr>
         </thead>
         <tbody>
-          {sorted.map((r) => (
-            <tr
-              key={r.ticker}
-              className="border-b border-rule transition-colors hover:bg-bg/60"
-            >
-              <td className="sticky left-0 z-[1] w-20 bg-surface px-3 py-3 text-left align-top">
-                <Link
-                  href={`/analytics/public-farmland/${encodeURIComponent(r.ticker)}`}
-                  className="font-semibold !text-fg no-underline transition-colors hover:!text-accent"
-                >
-                  {r.ticker}
-                </Link>
-              </td>
-              <td className="sticky left-20 z-[1] bg-surface px-3 py-3 text-left align-middle">
-                <Link
-                  href={`/analytics/public-farmland/${encodeURIComponent(r.ticker)}`}
-                  className="text-[12px] !text-fg no-underline transition-colors hover:!text-accent"
-                >
-                  {r.name}
-                </Link>
-              </td>
-              {COLUMNS.map((c, i) => {
-                const val = r[c.key] as number | null;
-                return (
-                  <td
-                    key={c.key}
-                    className={`${cellPadX(c.band)} py-3 text-right ${
-                      BAND_BREAKS.has(i) ? "border-l border-rule-strong" : ""
-                    }`}
-                  >
-                    {renderCell(val, c)}
-                  </td>
-                );
-              })}
-            </tr>
+          {groups.map((group) => (
+            <CategorySection
+              key={group.key}
+              label={group.key}
+              rows={group.rows}
+              stats={group.stats}
+              colCount={2 + COLUMNS.length}
+            />
           ))}
           <tr className="border-t-2 border-rule-strong bg-bg/60 font-semibold">
             <td className="sticky left-0 w-20 bg-bg/95 px-3 py-2 text-left">Mean</td>
@@ -268,7 +308,7 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
                   BAND_BREAKS.has(i) ? "border-l border-rule-strong" : ""
                 }`}
               >
-                {renderCell(stats.mean[c.key], c)}
+                {renderCell(overallStats.mean[c.key], c)}
               </td>
             ))}
           </tr>
@@ -282,13 +322,106 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
                   BAND_BREAKS.has(i) ? "border-l border-rule-strong" : ""
                 }`}
               >
-                {renderCell(stats.median[c.key], c)}
+                {renderCell(overallStats.median[c.key], c)}
               </td>
             ))}
           </tr>
         </tbody>
       </table>
     </div>
+  );
+}
+
+function CategorySection({
+  label,
+  rows,
+  stats,
+  colCount,
+}: {
+  label: string;
+  rows: PricedFarmlandComp[];
+  stats: { mean: Stats; median: Stats };
+  colCount: number;
+}) {
+  return (
+    <>
+      <tr className="border-y border-rule-strong">
+        <td
+          colSpan={colCount}
+          className="sticky left-0 z-[2] bg-accent px-3 py-1.5 text-left font-display text-[13px] font-semibold uppercase tracking-wider !text-bg"
+        >
+          {label} <span className="opacity-60">· {rows.length}</span>
+        </td>
+      </tr>
+      {rows.map((r) => (
+        <tr
+          key={r.ticker}
+          className="border-b border-rule transition-colors hover:bg-bg/60"
+        >
+          <td className="sticky left-0 z-[1] w-20 bg-surface px-3 py-3 text-left align-top">
+            <Link
+              href={`/analytics/public-farmland/${encodeURIComponent(r.ticker)}`}
+              className="font-semibold !text-fg no-underline transition-colors hover:!text-accent"
+            >
+              {r.ticker}
+            </Link>
+          </td>
+          <td className="sticky left-20 z-[1] bg-surface px-3 py-3 text-left align-middle">
+            <Link
+              href={`/analytics/public-farmland/${encodeURIComponent(r.ticker)}`}
+              className="text-[12px] !text-fg no-underline transition-colors hover:!text-accent"
+            >
+              {r.name}
+            </Link>
+          </td>
+          {COLUMNS.map((c, i) => {
+            const val = r[c.key] as number | null;
+            return (
+              <td
+                key={c.key}
+                className={`${cellPadX(c.band)} py-3 text-right ${
+                  BAND_BREAKS.has(i) ? "border-l border-rule-strong" : ""
+                }`}
+              >
+                {renderCell(val, c)}
+              </td>
+            );
+          })}
+        </tr>
+      ))}
+      <tr className="border-b border-rule bg-bg/30 text-[11px] font-medium text-fg-soft">
+        <td className="sticky left-0 z-[1] bg-bg/95 px-3 py-1.5 text-left">
+          Mean
+        </td>
+        <td className="sticky left-20 z-[1] bg-bg/95 px-3 py-1.5 text-left" />
+        {COLUMNS.map((c, i) => (
+          <td
+            key={c.key}
+            className={`${cellPadX(c.band)} py-1.5 text-right ${
+              BAND_BREAKS.has(i) ? "border-l border-rule-strong" : ""
+            }`}
+          >
+            {renderCell(stats.mean[c.key], c)}
+          </td>
+        ))}
+      </tr>
+      <tr className="border-b border-rule-strong bg-bg/30 text-[11px] font-medium text-fg-soft">
+        <td className="sticky left-0 z-[1] bg-bg/95 px-3 py-1.5 text-left">
+          Median
+        </td>
+        <td className="sticky left-20 z-[1] bg-bg/95 px-3 py-1.5 text-left" />
+        {COLUMNS.map((c, i) => (
+          <td
+            key={c.key}
+            className={`${cellPadX(c.band)} py-1.5 text-right ${
+              BAND_BREAKS.has(i) ? "border-l border-rule-strong" : ""
+            }`}
+          >
+            {renderCell(stats.median[c.key], c)}
+          </td>
+        ))}
+      </tr>
+    </>
   );
 }
 

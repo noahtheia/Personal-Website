@@ -17,7 +17,9 @@
     "annualEbitdaMM": 54.6,
     "epsTTM": -0.29,
     "bookLandMM": 1100,
-    "marketLandMM": 2081
+    "marketLandMM": 2081,
+    "sector": "Farmland Owner / REIT",
+    "geography": "US"
   },
   {
     "ticker": "FPI",
@@ -37,7 +39,9 @@
     "annualEbitdaMM": 30.1,
     "epsTTM": 0.61,
     "bookLandMM": 616.3,
-    "marketLandMM": 572
+    "marketLandMM": 572,
+    "sector": "Farmland Owner / REIT",
+    "geography": "US"
   },
   {
     "ticker": "AGRO",
@@ -57,11 +61,13 @@
     "annualEbitdaMM": 365.77,
     "epsTTM": -0.08,
     "bookLandMM": 3399,
-    "marketLandMM": 714.8
+    "marketLandMM": 714.8,
+    "sector": "Diversified Agribusiness",
+    "geography": "Argentina"
   },
   {
     "ticker": "SLCE3.SA",
-    "name": "SLC Agr\u00edcola",
+    "name": "SLC Agrícola",
     "currency": "BRL",
     "primaryCrops": "Row crops (soy, cotton, corn)",
     "filingDate": "2026-03-12",
@@ -77,7 +83,9 @@
     "annualEbitdaMM": 2600,
     "epsTTM": 1.12,
     "bookLandMM": 4500,
-    "marketLandMM": 13396
+    "marketLandMM": 13396,
+    "sector": "Integrated Farm Operator",
+    "geography": "Brazil"
   },
   {
     "ticker": "AGRO3.SA",
@@ -97,7 +105,9 @@
     "annualEbitdaMM": 267,
     "epsTTM": 1.38,
     "bookLandMM": 3100,
-    "marketLandMM": 3500
+    "marketLandMM": 3500,
+    "sector": "Integrated Farm Operator",
+    "geography": "Brazil"
   },
   {
     "ticker": "RFF.AX",
@@ -117,11 +127,13 @@
     "annualEbitdaMM": 95.1,
     "epsTTM": 0.067,
     "bookLandMM": 1976,
-    "marketLandMM": 1976
+    "marketLandMM": 1976,
+    "sector": "Farmland Owner / REIT",
+    "geography": "Australia"
   },
   {
     "ticker": "LAND3.SA",
-    "name": "Terra Santa Propriedades Agr\u00edcolas",
+    "name": "Terra Santa Propriedades Agrícolas",
     "currency": "BRL",
     "primaryCrops": "Brazilian farmland REIT (Mato Grosso, leased to SLC)",
     "filingDate": "2026-03-15",
@@ -137,7 +149,9 @@
     "annualEbitdaMM": 70,
     "epsTTM": 0.05,
     "bookLandMM": 700,
-    "marketLandMM": 2796
+    "marketLandMM": 2796,
+    "sector": "Farmland Owner / REIT",
+    "geography": "Brazil"
   },
   {
     "ticker": "ALCO",
@@ -157,7 +171,9 @@
     "annualEbitdaMM": 22.5,
     "epsTTM": -19.29,
     "bookLandMM": 142.07,
-    "marketLandMM": 686
+    "marketLandMM": 686,
+    "sector": "Integrated Farm Operator",
+    "geography": "US"
   },
   {
     "ticker": "LMNR",
@@ -176,7 +192,9 @@
     "annualRevenueMM": 159.72,
     "annualEbitdaMM": -11.2,
     "epsTTM": -0.93,
-    "bookLandMM": 172.65
+    "bookLandMM": 172.65,
+    "sector": "Integrated Farm Operator",
+    "geography": "US"
   },
   {
     "ticker": "AAC.AX",
@@ -196,7 +214,9 @@
     "annualEbitdaMM": 56.3,
     "epsTTM": -0.002,
     "bookLandMM": 1685,
-    "marketLandMM": 1588
+    "marketLandMM": 1588,
+    "sector": "Pastoral / Livestock",
+    "geography": "Australia"
   },
   {
     "ticker": "DBF.AX",
@@ -216,7 +236,9 @@
     "annualEbitdaMM": -9.02,
     "epsTTM": -0.05,
     "bookLandMM": 121.6,
-    "marketLandMM": 158
+    "marketLandMM": 158,
+    "sector": "Integrated Farm Operator",
+    "geography": "Australia"
   },
   {
     "ticker": "ALAGR.PA",
@@ -235,7 +257,9 @@
     "annualRevenueMM": 22.6,
     "annualEbitdaMM": 5.7,
     "epsTTM": -0.015,
-    "bookLandMM": 3
+    "bookLandMM": 3,
+    "sector": "Integrated Farm Operator",
+    "geography": "Ukraine"
   },
   {
     "ticker": "SHV.AX",
@@ -254,7 +278,9 @@
     "annualRevenueMM": 398.3,
     "annualEbitdaMM": 82.4,
     "epsTTM": 0.224,
-    "bookLandMM": 599.35
+    "bookLandMM": 599.35,
+    "sector": "Integrated Farm Operator",
+    "geography": "Australia"
   },
   {
     "ticker": "CAM.L",
@@ -267,13 +293,15 @@
     "debtMM": 30,
     "cashMM": 100,
     "acresK": 124,
-    "navPerShare": 9.0,
+    "navPerShare": 9,
     "annualDividend": 2.6,
     "annualNoiMM": 15,
     "annualRevenueMM": 275,
     "annualEbitdaMM": 20,
     "epsTTM": 0.01,
-    "bookLandMM": 200
+    "bookLandMM": 200,
+    "sector": "Diversified Agribusiness",
+    "geography": "UK"
   },
   {
     "ticker": "AST.WA",
@@ -293,7 +321,9 @@
     "annualRevenueMM": 472,
     "annualEbitdaMM": 100,
     "epsTTM": 0.815,
-    "bookLandMM": 200
+    "bookLandMM": 200,
+    "sector": "Diversified Agribusiness",
+    "geography": "Ukraine"
   },
   {
     "ticker": "MPE.L",
@@ -314,7 +344,9 @@
     "annualEbitdaMM": 100,
     "epsTTM": 1.54,
     "bookLandMM": 300,
-    "marketLandMM": 700
+    "marketLandMM": 700,
+    "sector": "Plantation Operator",
+    "geography": "UK"
   },
   {
     "ticker": "RE.L",
@@ -335,7 +367,9 @@
     "annualEbitdaMM": 58.78,
     "epsTTM": 0.42,
     "bookLandMM": 387,
-    "marketLandMM": 335
+    "marketLandMM": 335,
+    "sector": "Plantation Operator",
+    "geography": "UK"
   },
   {
     "ticker": "AEP.L",
@@ -355,7 +389,9 @@
     "annualRevenueMM": 372.26,
     "annualEbitdaMM": 99.42,
     "epsTTM": 1.71,
-    "bookLandMM": 271.17
+    "bookLandMM": 271.17,
+    "sector": "Plantation Operator",
+    "geography": "UK"
   },
   {
     "ticker": "2089.KL",
@@ -374,7 +410,9 @@
     "annualRevenueMM": 1800,
     "annualEbitdaMM": 1000,
     "epsTTM": 1.73,
-    "bookLandMM": 4500
+    "bookLandMM": 4500,
+    "sector": "Plantation Operator",
+    "geography": "Malaysia"
   },
   {
     "ticker": "KLK.KL",
@@ -394,7 +432,9 @@
     "annualEbitdaMM": 2742,
     "epsTTM": 0.54,
     "bookLandMM": 14082,
-    "marketLandMM": 17000
+    "marketLandMM": 17000,
+    "sector": "Plantation Operator",
+    "geography": "Malaysia"
   },
   {
     "ticker": "6010.SR",
@@ -413,7 +453,9 @@
     "annualRevenueMM": 3527,
     "annualEbitdaMM": 632.08,
     "epsTTM": 1.31,
-    "bookLandMM": 2258
+    "bookLandMM": 2258,
+    "sector": "Diversified Agribusiness",
+    "geography": "Saudi Arabia"
   },
   {
     "ticker": "2280.SR",
@@ -427,12 +469,14 @@
     "cashMM": 528.21,
     "acresK": 124,
     "navPerShare": 19.02,
-    "annualDividend": 1.0,
+    "annualDividend": 1,
     "annualNoiMM": 5324,
     "annualRevenueMM": 20980,
     "annualEbitdaMM": 5324,
     "epsTTM": 2.31,
-    "bookLandMM": 25093
+    "bookLandMM": 25093,
+    "sector": "Diversified Agribusiness",
+    "geography": "Saudi Arabia"
   },
   {
     "ticker": "WTK.NR",
@@ -451,7 +495,9 @@
     "annualRevenueMM": 4200,
     "annualEbitdaMM": 700,
     "epsTTM": 30.1,
-    "bookLandMM": 3000
+    "bookLandMM": 3000,
+    "sector": "Plantation Operator",
+    "geography": "Kenya"
   },
   {
     "ticker": "AALI.JK",
@@ -471,7 +517,9 @@
     "annualEbitdaMM": 3340000,
     "epsTTM": 596.22,
     "bookLandMM": 17430000,
-    "marketLandMM": 30400000
+    "marketLandMM": 30400000,
+    "sector": "Plantation Operator",
+    "geography": "Indonesia"
   },
   {
     "ticker": "SIMP.JK",
@@ -491,7 +539,9 @@
     "annualEbitdaMM": 5303000,
     "epsTTM": 99.99,
     "bookLandMM": 17700000,
-    "marketLandMM": 31600000
+    "marketLandMM": 31600000,
+    "sector": "Plantation Operator",
+    "geography": "Indonesia"
   },
   {
     "ticker": "SGRO.JK",
@@ -511,7 +561,9 @@
     "annualEbitdaMM": 1930000,
     "epsTTM": 411.61,
     "bookLandMM": 5720000,
-    "marketLandMM": 11000000
+    "marketLandMM": 11000000,
+    "sector": "Plantation Operator",
+    "geography": "Indonesia"
   },
   {
     "ticker": "SSMS.JK",
@@ -531,7 +583,9 @@
     "annualEbitdaMM": 2246000,
     "epsTTM": 86.04,
     "bookLandMM": 5000000,
-    "marketLandMM": 14000000
+    "marketLandMM": 14000000,
+    "sector": "Plantation Operator",
+    "geography": "Indonesia"
   },
   {
     "ticker": "BWPT.JK",
@@ -551,7 +605,9 @@
     "annualEbitdaMM": 1074000,
     "epsTTM": 8.36,
     "bookLandMM": 5660000,
-    "marketLandMM": 7750000
+    "marketLandMM": 7750000,
+    "sector": "Plantation Operator",
+    "geography": "Indonesia"
   },
   {
     "ticker": "1961.KL",
@@ -571,7 +627,9 @@
     "annualEbitdaMM": 1689,
     "epsTTM": 0.25,
     "bookLandMM": 9433,
-    "marketLandMM": 9000
+    "marketLandMM": 9000,
+    "sector": "Plantation Operator",
+    "geography": "Malaysia"
   },
   {
     "ticker": "5285.KL",
@@ -591,7 +649,9 @@
     "annualEbitdaMM": 3982,
     "epsTTM": 0.3129,
     "bookLandMM": 21161,
-    "marketLandMM": 31600
+    "marketLandMM": 31600,
+    "sector": "Plantation Operator",
+    "geography": "Malaysia"
   },
   {
     "ticker": "GENP.KL",
@@ -611,7 +671,9 @@
     "annualEbitdaMM": 700,
     "epsTTM": 0.36,
     "bookLandMM": 5443,
-    "marketLandMM": 11500
+    "marketLandMM": 11500,
+    "sector": "Plantation Operator",
+    "geography": "Malaysia"
   },
   {
     "ticker": "5126.KL",
@@ -630,7 +692,9 @@
     "annualRevenueMM": 5668,
     "annualEbitdaMM": 784,
     "epsTTM": 0.5,
-    "bookLandMM": 5000
+    "bookLandMM": 5000,
+    "sector": "Plantation Operator",
+    "geography": "Malaysia"
   },
   {
     "ticker": "5138.KL",
@@ -649,7 +713,9 @@
     "annualRevenueMM": 702.4,
     "annualEbitdaMM": 252.17,
     "epsTTM": 0.16,
-    "bookLandMM": 1500
+    "bookLandMM": 1500,
+    "sector": "Plantation Operator",
+    "geography": "Malaysia"
   },
   {
     "ticker": "EB5.SI",
@@ -670,7 +736,9 @@
     "annualEbitdaMM": 420.26,
     "epsTTM": 0.16,
     "bookLandMM": 1500,
-    "marketLandMM": 2400
+    "marketLandMM": 2400,
+    "sector": "Plantation Operator",
+    "geography": "Singapore"
   },
   {
     "ticker": "P8Z.SI",
@@ -688,10 +756,12 @@
     "annualDividend": 783.226,
     "annualNoiMM": 4563000,
     "annualRevenueMM": 16732000,
-    "annualEbitdaMM": 4563495.0,
+    "annualEbitdaMM": 4563495,
     "epsTTM": 1319,
     "bookLandMM": 14270000,
-    "marketLandMM": 25200000
+    "marketLandMM": 25200000,
+    "sector": "Plantation Operator",
+    "geography": "Singapore"
   },
   {
     "ticker": "E5H.SI",
@@ -712,6 +782,8 @@
     "annualEbitdaMM": 951.24,
     "epsTTM": 0.03,
     "bookLandMM": 6000,
-    "marketLandMM": 4900
+    "marketLandMM": 4900,
+    "sector": "Plantation Operator",
+    "geography": "Singapore"
   }
 ]
