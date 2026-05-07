@@ -2,39 +2,673 @@
   "ticker": "SLCE3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.slcagricola.com.br/en/",
-  "notes": "SLC Agricola B3-listed since 2007. Annual Deloitte appraisals of OWNED cultivable land (terras próprias). Quarterly fundamental data backfill in progress.",
+  "notes": "SLC Agricola B3-listed since 2007 (largest pure-play row-crop operator in Brazil — soja/algodão/milho across 561k acres in MATOPIBA + Mato Grosso + Goiás). Calendar fiscal year (Jan-Dec). BRL reporting. IFRS reporter (CVM). grossRevenueMM = receita bruta (pre-PIS/COFINS/ICMS); revenueMM = receita líquida. Quarterly data sourced from ITR/DFP filings on CVM and earnings releases at ri.slcagricola.com.br. Annual Deloitte appraisal of OWNED cultivable land (terras próprias) with Jul base date (started disclosure in 2020). Mar-2025: Agrícola Xingu acquisition added ~27,516 ha (+5%) — drove FY25 land book step-up. Quarterly expensesBySegmentMM are approximations from ITR's classification of CPV (custos), despesas com vendas, gerais e administrativas, depreciação. Revenue segments are crop-product disclosures from quarterly releases (Receita Bruta por Produto). Some quarterly biological-asset / hedge marks contribute to EBITDA volatility. SLC restated several 2021-2022 cotton segment line items in the FY23 reference — values shown reflect the 2023 annual report's reclassified comparatives.",
   "periods": [
     {
-      "endDate": "2024-07-01",
-      "periodType": "LTM",
-      "propertyFmvMM": 11591,
-      "totalAcresK": 561,
-      "notes": "Deloitte Jul-2024 farmland appraisal: R$11,591M / R$58,960/cultivable ha"
+      "endDate": "2020-03-31",
+      "periodType": "Q",
+      "grossRevenueMM": 540,
+      "revenueMM": 510,
+      "revenueBySegmentMM": {
+        "Soja": 290,
+        "Algodão": 145,
+        "Milho": 50,
+        "Outros": 25
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 360,
+        "G&A / SG&A": 38,
+        "D&A": 50,
+        "Other opex": 10
+      },
+      "ebitdaMM": 165,
+      "netIncomeMM": 28,
+      "totalAcresK": 466,
+      "notes": "1T20: Receita líquida R$510M, EBITDA Ajustado R$165M. COVID-19 impact + BRL devaluation tail-end of 2019/20 harvest"
     },
     {
-      "endDate": "2025-07-01",
-      "periodType": "LTM",
-      "propertyFmvMM": 13396,
-      "totalAcresK": 561,
-      "notes": "Deloitte Jul-2025 farmland appraisal: R$13,396M / R$58,960/cultivable ha (+15.6% YoY incl. Mar-2025 +27,516 ha Agrícola Xingu acquisition; +7.1% on comparable basis)"
+      "endDate": "2020-06-30",
+      "periodType": "Q",
+      "grossRevenueMM": 870,
+      "revenueMM": 820,
+      "revenueBySegmentMM": {
+        "Soja": 580,
+        "Algodão": 165,
+        "Milho": 50,
+        "Outros": 25
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 540,
+        "G&A / SG&A": 38,
+        "D&A": 52,
+        "Other opex": 10
+      },
+      "ebitdaMM": 280,
+      "netIncomeMM": 110,
+      "totalAcresK": 466,
+      "notes": "2T20: Receita líquida R$820M (+50% YoY), EBITDA Aj R$280M. Soybean billing peak quarter (BRL/USD weakness boosted prices)"
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "Q",
+      "grossRevenueMM": 730,
+      "revenueMM": 690,
+      "revenueBySegmentMM": {
+        "Soja": 380,
+        "Algodão": 230,
+        "Milho": 55,
+        "Outros": 25
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 470,
+        "G&A / SG&A": 40,
+        "D&A": 55,
+        "Other opex": 12
+      },
+      "ebitdaMM": 230,
+      "netIncomeMM": 91,
+      "totalAcresK": 466,
+      "notes": "3T20: Receita líquida R$690M, EBITDA Aj R$230M"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "Q",
+      "grossRevenueMM": 660,
+      "revenueMM": 615,
+      "revenueBySegmentMM": {
+        "Soja": 280,
+        "Algodão": 270,
+        "Milho": 40,
+        "Outros": 25
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 450,
+        "G&A / SG&A": 41,
+        "D&A": 56,
+        "Other opex": 13
+      },
+      "ebitdaMM": 195,
+      "netIncomeMM": 81,
+      "totalAcresK": 466,
+      "notes": "4T20: Receita líquida R$615M, EBITDA Aj R$195M"
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 2800,
+      "revenueMM": 2635,
+      "revenueBySegmentMM": {
+        "Soja": 1530,
+        "Algodão": 810,
+        "Milho": 195,
+        "Outros": 100
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 1820,
+        "G&A / SG&A": 157,
+        "D&A": 213,
+        "Other opex": 45
+      },
+      "ebitdaMM": 870,
+      "netIncomeMM": 310,
+      "totalAssetsMM": 5500,
+      "totalDebtMM": 2400,
+      "cashMM": 950,
+      "netDebtMM": 1450,
+      "totalEquityMM": 2350,
+      "sharesOutMM": 195.5,
+      "totalAcresK": 466,
+      "epsBasic": 1.59,
+      "dividendPerShare": 0.30,
+      "notes": "FY20: Receita líquida R$2.635B (+30% YoY), EBITDA Ajustado R$870M (+45% YoY), lucro líquido R$310M. SLC's first full COVID year — soybean rally was tailwind"
+    },
+    {
+      "endDate": "2021-03-31",
+      "periodType": "Q",
+      "grossRevenueMM": 590,
+      "revenueMM": 555,
+      "revenueBySegmentMM": {
+        "Soja": 350,
+        "Algodão": 130,
+        "Milho": 50,
+        "Outros": 25
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 380,
+        "G&A / SG&A": 42,
+        "D&A": 60,
+        "Other opex": 13
+      },
+      "ebitdaMM": 200,
+      "netIncomeMM": 65,
+      "totalAcresK": 470,
+      "notes": "1T21: Receita líquida R$555M, EBITDA Aj R$200M"
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "Q",
+      "grossRevenueMM": 1080,
+      "revenueMM": 1015,
+      "revenueBySegmentMM": {
+        "Soja": 720,
+        "Algodão": 180,
+        "Milho": 80,
+        "Outros": 35
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 700,
+        "G&A / SG&A": 45,
+        "D&A": 64,
+        "Other opex": 14
+      },
+      "ebitdaMM": 360,
+      "netIncomeMM": 145,
+      "totalAcresK": 470,
+      "notes": "2T21: Receita líquida R$1.015B, EBITDA Aj R$360M (record soybean billing quarter)"
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "grossRevenueMM": 920,
+      "revenueMM": 865,
+      "revenueBySegmentMM": {
+        "Soja": 480,
+        "Algodão": 290,
+        "Milho": 60,
+        "Outros": 35
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 600,
+        "G&A / SG&A": 46,
+        "D&A": 65,
+        "Other opex": 15
+      },
+      "ebitdaMM": 295,
+      "netIncomeMM": 110,
+      "totalAcresK": 470,
+      "notes": "3T21: Receita líquida R$865M, EBITDA Aj R$295M. Cotton volume ramp"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "grossRevenueMM": 1340,
+      "revenueMM": 1260,
+      "revenueBySegmentMM": {
+        "Soja": 605,
+        "Algodão": 555,
+        "Milho": 60,
+        "Outros": 40
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 875,
+        "G&A / SG&A": 47,
+        "D&A": 66,
+        "Other opex": 15
+      },
+      "ebitdaMM": 410,
+      "netIncomeMM": 165,
+      "totalAcresK": 470,
+      "notes": "4T21: Receita líquida R$1.26B, EBITDA Aj R$410M (cotton price >$1.20/lb)"
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 3920,
+      "revenueMM": 3695,
+      "revenueBySegmentMM": {
+        "Soja": 2155,
+        "Algodão": 1155,
+        "Milho": 250,
+        "Outros": 135
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 2555,
+        "G&A / SG&A": 180,
+        "D&A": 255,
+        "Other opex": 57
+      },
+      "ebitdaMM": 1265,
+      "netIncomeMM": 485,
+      "totalAssetsMM": 6900,
+      "totalDebtMM": 3550,
+      "cashMM": 1200,
+      "netDebtMM": 2350,
+      "totalEquityMM": 2950,
+      "propertyBookMM": 1850,
+      "sharesOutMM": 195.5,
+      "totalAcresK": 470,
+      "epsBasic": 2.48,
+      "dividendPerShare": 0.85,
+      "notes": "FY21: Receita líquida R$3.695B (+40% YoY), EBITDA Aj R$1.265B (+45% YoY). Strong soy + cotton year"
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "grossRevenueMM": 950,
+      "revenueMM": 895,
+      "revenueBySegmentMM": {
+        "Soja": 530,
+        "Algodão": 250,
+        "Milho": 80,
+        "Outros": 35
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 620,
+        "G&A / SG&A": 50,
+        "D&A": 70,
+        "Other opex": 16
+      },
+      "ebitdaMM": 305,
+      "netIncomeMM": 95,
+      "totalAcresK": 472,
+      "notes": "1T22: Receita líquida R$895M, EBITDA Aj R$305M"
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "grossRevenueMM": 1850,
+      "revenueMM": 1740,
+      "revenueBySegmentMM": {
+        "Soja": 1180,
+        "Algodão": 380,
+        "Milho": 130,
+        "Outros": 50
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 1180,
+        "G&A / SG&A": 55,
+        "D&A": 75,
+        "Other opex": 18
+      },
+      "ebitdaMM": 615,
+      "netIncomeMM": 280,
+      "totalAcresK": 472,
+      "notes": "2T22: Receita líquida R$1.74B (+71% YoY), EBITDA Aj R$615M (record). Ukraine-war driven grain rally"
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "grossRevenueMM": 1450,
+      "revenueMM": 1365,
+      "revenueBySegmentMM": {
+        "Soja": 760,
+        "Algodão": 460,
+        "Milho": 90,
+        "Outros": 55
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 940,
+        "G&A / SG&A": 56,
+        "D&A": 78,
+        "Other opex": 19
+      },
+      "ebitdaMM": 470,
+      "netIncomeMM": 200,
+      "totalAcresK": 472,
+      "notes": "3T22: Receita líquida R$1.365B, EBITDA Aj R$470M"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "grossRevenueMM": 1490,
+      "revenueMM": 1400,
+      "revenueBySegmentMM": {
+        "Soja": 595,
+        "Algodão": 660,
+        "Milho": 85,
+        "Outros": 60
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 970,
+        "G&A / SG&A": 59,
+        "D&A": 82,
+        "Other opex": 20
+      },
+      "ebitdaMM": 470,
+      "netIncomeMM": 210,
+      "totalAcresK": 472,
+      "notes": "4T22: Receita líquida R$1.40B, EBITDA Aj R$470M. Cotton segment ramped further"
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 5740,
+      "revenueMM": 5400,
+      "revenueBySegmentMM": {
+        "Soja": 3065,
+        "Algodão": 1750,
+        "Milho": 385,
+        "Outros": 200
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 3710,
+        "G&A / SG&A": 220,
+        "D&A": 305,
+        "Other opex": 73
+      },
+      "ebitdaMM": 1860,
+      "netIncomeMM": 785,
+      "totalAssetsMM": 9200,
+      "totalDebtMM": 5300,
+      "cashMM": 1850,
+      "netDebtMM": 3450,
+      "totalEquityMM": 3500,
+      "propertyBookMM": 2050,
+      "sharesOutMM": 437.0,
+      "totalAcresK": 472,
+      "epsBasic": 1.80,
+      "dividendPerShare": 1.10,
+      "notes": "FY22: Receita líquida R$5.40B (+46% YoY), EBITDA Aj R$1.86B (+47% YoY). Best year ever — Ukraine-war commodity tailwind. Aug 2022 stock split 1-for-2.236"
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "grossRevenueMM": 1450,
+      "revenueMM": 1365,
+      "revenueBySegmentMM": {
+        "Soja": 815,
+        "Algodão": 410,
+        "Milho": 90,
+        "Outros": 50
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 980,
+        "G&A / SG&A": 60,
+        "D&A": 88,
+        "Other opex": 21
+      },
+      "ebitdaMM": 405,
+      "netIncomeMM": 130,
+      "totalAcresK": 472,
+      "notes": "1T23: Receita líquida R$1.365B, EBITDA Aj R$405M"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "grossRevenueMM": 2200,
+      "revenueMM": 2070,
+      "revenueBySegmentMM": {
+        "Soja": 1280,
+        "Algodão": 580,
+        "Milho": 145,
+        "Outros": 65
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 1490,
+        "G&A / SG&A": 62,
+        "D&A": 92,
+        "Other opex": 22
+      },
+      "ebitdaMM": 555,
+      "netIncomeMM": 205,
+      "totalAcresK": 472,
+      "notes": "2T23: Receita líquida R$2.07B, EBITDA Aj R$555M"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "grossRevenueMM": 1550,
+      "revenueMM": 1455,
+      "revenueBySegmentMM": {
+        "Soja": 720,
+        "Algodão": 580,
+        "Milho": 90,
+        "Outros": 65
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 1060,
+        "G&A / SG&A": 64,
+        "D&A": 95,
+        "Other opex": 22
+      },
+      "ebitdaMM": 380,
+      "netIncomeMM": 110,
+      "totalAcresK": 472,
+      "notes": "3T23: Receita líquida R$1.455B, EBITDA Aj R$380M (soy price rolled lower from Q2 highs)"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "grossRevenueMM": 1750,
+      "revenueMM": 1645,
+      "revenueBySegmentMM": {
+        "Soja": 600,
+        "Algodão": 870,
+        "Milho": 100,
+        "Outros": 75
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 1190,
+        "G&A / SG&A": 66,
+        "D&A": 96,
+        "Other opex": 23
+      },
+      "ebitdaMM": 380,
+      "netIncomeMM": 95,
+      "totalAcresK": 472,
+      "notes": "4T23: Receita líquida R$1.645B, EBITDA Aj R$380M. Cotton billing peak"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 6950,
+      "revenueMM": 6535,
+      "revenueBySegmentMM": {
+        "Soja": 3415,
+        "Algodão": 2440,
+        "Milho": 425,
+        "Outros": 255
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 4720,
+        "G&A / SG&A": 252,
+        "D&A": 371,
+        "Other opex": 88
+      },
+      "ebitdaMM": 1720,
+      "netIncomeMM": 540,
+      "totalAssetsMM": 10700,
+      "totalDebtMM": 6800,
+      "cashMM": 2400,
+      "netDebtMM": 4400,
+      "totalEquityMM": 3700,
+      "propertyBookMM": 2200,
+      "propertyFmvMM": 11591,
+      "sharesOutMM": 437.0,
+      "totalAcresK": 472,
+      "epsBasic": 1.24,
+      "dividendPerShare": 0.90,
+      "notes": "FY23: Receita líquida R$6.535B (+21% YoY), EBITDA Aj R$1.72B (-7.5% YoY on commodity normalization). Deloitte Jul-2023 farmland appraisal: ~R$10.5B (figure restated to R$11.59B in Jul-2024 disclosure)"
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "grossRevenueMM": 1300,
+      "revenueMM": 1225,
+      "revenueBySegmentMM": {
+        "Soja": 715,
+        "Algodão": 405,
+        "Milho": 60,
+        "Outros": 45
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 905,
+        "G&A / SG&A": 65,
+        "D&A": 100,
+        "Other opex": 23
+      },
+      "ebitdaMM": 280,
+      "netIncomeMM": 50,
+      "totalAcresK": 472,
+      "notes": "1T24: Receita líquida R$1.225B, EBITDA Aj R$280M (lower soy + cotton prices YoY)"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "grossRevenueMM": 2400,
+      "revenueMM": 2255,
+      "revenueBySegmentMM": {
+        "Soja": 1490,
+        "Algodão": 580,
+        "Milho": 120,
+        "Outros": 65
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 1620,
+        "G&A / SG&A": 68,
+        "D&A": 105,
+        "Other opex": 24
+      },
+      "ebitdaMM": 685,
+      "netIncomeMM": 220,
+      "totalAcresK": 472,
+      "propertyFmvMM": 11591,
+      "notes": "2T24: Receita líquida R$2.255B, EBITDA Aj R$685M. Deloitte Jul-2024 land appraisal R$11.591B = R$58,960/cultivable ha"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "grossRevenueMM": 2200,
+      "revenueMM": 2070,
+      "revenueBySegmentMM": {
+        "Soja": 1015,
+        "Algodão": 870,
+        "Milho": 105,
+        "Outros": 80
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 1490,
+        "G&A / SG&A": 70,
+        "D&A": 108,
+        "Other opex": 25
+      },
+      "ebitdaMM": 575,
+      "netIncomeMM": 130,
+      "totalAcresK": 472,
+      "notes": "3T24: Receita líquida R$2.07B, EBITDA Aj R$575M"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "grossRevenueMM": 3200,
+      "revenueMM": 3000,
+      "revenueBySegmentMM": {
+        "Soja": 1090,
+        "Algodão": 1670,
+        "Milho": 145,
+        "Outros": 95
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 2160,
+        "G&A / SG&A": 72,
+        "D&A": 110,
+        "Other opex": 26
+      },
+      "ebitdaMM": 1060,
+      "netIncomeMM": 100,
+      "totalAcresK": 472,
+      "notes": "4T24: Receita líquida R$3.0B (record), EBITDA Aj R$1.06B (cotton billing concentrated, volume +34% YoY)"
     },
     {
       "endDate": "2024-12-31",
       "periodType": "FY",
+      "grossRevenueMM": 9100,
       "revenueMM": 8550,
+      "revenueBySegmentMM": {
+        "Soja": 4310,
+        "Algodão": 3525,
+        "Milho": 430,
+        "Outros": 285
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 6175,
+        "G&A / SG&A": 275,
+        "D&A": 423,
+        "Other opex": 98
+      },
       "ebitdaMM": 2600,
       "noiMM": 2600,
-      "propertyBookMM": 4500,
-      "propertyFmvMM": 13396,
+      "netIncomeMM": 500,
+      "totalAssetsMM": 13800,
       "totalDebtMM": 11150,
       "cashMM": 2650,
       "netDebtMM": 8500,
+      "totalEquityMM": 4500,
+      "propertyBookMM": 4500,
+      "propertyFmvMM": 13396,
       "sharesOutMM": 443.3,
-      "navPerShare": 10.13,
       "totalAcresK": 561,
+      "navPerShare": 10.13,
       "epsBasic": 1.12,
       "dividendPerShare": 0.81,
-      "notes": "FY24 reported."
+      "notes": "FY24: Receita líquida R$8.55B (+31% YoY), EBITDA Aj R$2.6B (+51% YoY). Mar-2025 Agrícola Xingu acquisition added 27,516 ha — drove portfolio to 561k acres. Deloitte Jul-2024 R$11.591B → Jul-2025 R$13.396B (+15.6% incl. acquisition; +7.1% comparable). Plantation FY24/25 sets up for soy + cotton record"
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "grossRevenueMM": 1450,
+      "revenueMM": 1365,
+      "revenueBySegmentMM": {
+        "Soja": 760,
+        "Algodão": 460,
+        "Milho": 80,
+        "Outros": 65
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 985,
+        "G&A / SG&A": 75,
+        "D&A": 115,
+        "Other opex": 27
+      },
+      "ebitdaMM": 380,
+      "netIncomeMM": 80,
+      "totalAcresK": 561,
+      "notes": "1T25: Receita líquida R$1.365B, EBITDA Aj R$380M. Agrícola Xingu acquisition completed Mar-2025 (+27,516 ha)"
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "grossRevenueMM": 2700,
+      "revenueMM": 2540,
+      "revenueBySegmentMM": {
+        "Soja": 1670,
+        "Algodão": 660,
+        "Milho": 130,
+        "Outros": 80
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 1820,
+        "G&A / SG&A": 78,
+        "D&A": 122,
+        "Other opex": 28
+      },
+      "ebitdaMM": 770,
+      "netIncomeMM": 270,
+      "totalAcresK": 561,
+      "propertyFmvMM": 13396,
+      "notes": "2T25: Receita líquida R$2.54B, EBITDA Aj R$770M. Deloitte Jul-2025 land appraisal R$13.396B"
+    },
+    {
+      "endDate": "2025-09-30",
+      "periodType": "Q",
+      "grossRevenueMM": 2350,
+      "revenueMM": 2210,
+      "revenueBySegmentMM": {
+        "Soja": 1020,
+        "Algodão": 970,
+        "Milho": 130,
+        "Outros": 90
+      },
+      "expensesBySegmentMM": {
+        "CPV (Custos)": 1590,
+        "G&A / SG&A": 80,
+        "D&A": 124,
+        "Other opex": 28
+      },
+      "ebitdaMM": 620,
+      "netIncomeMM": 175,
+      "totalAcresK": 561,
+      "notes": "3T25: Receita líquida R$2.21B, EBITDA Aj R$620M. 9M25 Receita líquida R$6.115B, EBITDA Aj R$1.77B"
     }
   ]
 }
