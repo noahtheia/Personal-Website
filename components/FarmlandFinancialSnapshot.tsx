@@ -29,7 +29,7 @@ const CHART_DEFS: { id: ChartId; label: string; description: string }[] = [
     id: "propertyValue",
     label: "Property value",
     description:
-      "Independent appraisal / fair value of the property portfolio.",
+      "Book value (step), independent FMV appraisal where disclosed, and daily market enterprise value.",
   },
   {
     id: "navPerShare",
@@ -883,19 +883,43 @@ function buildAllSeries(
     // ---- Income chart: combine net revenue (segment-stacked bars) +
     // gross revenue overlay + EBITDA overlay ----
     result.income = buildIncomeSeries(financials, ccy, incomeCadence);
-    const propertySeries =
-      pickSeries(financials, "propertyFmvMM", {
-        label: "Property value",
-        description: `Independent appraisal / fair value, ${ccy} M`,
-        unit: { kind: "millions", ccy },
-        kind: "step",
-      }) ??
-      pickSeries(financials, "propertyBookMM", {
-        label: "Property book",
-        description: `Property book value, ${ccy} M`,
-        unit: { kind: "millions", ccy },
-        kind: "step",
-      });
+    // Property value: book value (primary step), independent FMV
+    // appraisal where disclosed (overlay step), and the market's
+    // implied enterprise value (overlay2, daily line) — pure-play
+    // farmland operators trade close to property value, so EV is a
+    // reasonable real-time proxy of how the market is pricing the
+    // portfolio.
+    const bookSeries = pickSeries(financials, "propertyBookMM", {
+      label: "Book value",
+      description: `Book value of property, ${ccy} M`,
+      unit: { kind: "millions", ccy },
+      kind: "step",
+    });
+    const fmvSeries = pickSeries(financials, "propertyFmvMM", {
+      label: "FMV appraisal",
+      description: `Independent appraisal / fair value, ${ccy} M`,
+      unit: { kind: "millions", ccy },
+      kind: "step",
+    });
+    const propertySeries: Series | null = bookSeries ?? fmvSeries;
+    if (propertySeries) {
+      // If we have both book AND FMV, surface FMV as overlay.
+      if (bookSeries && fmvSeries) {
+        propertySeries.overlay = {
+          label: "Independent FMV appraisal",
+          points: fmvSeries.points,
+        };
+      }
+      // Daily market enterprise value as overlay2 (filing currency).
+      // dailyEv was built earlier at filing-currency, so values align
+      // directly with the property book/FMV magnitudes.
+      if (dailyEv.length > 0) {
+        propertySeries.overlay2 = {
+          label: "Market enterprise value",
+          points: dailyEv,
+        };
+      }
+    }
     result.propertyValue = propertySeries;
 
     // NAV/share + price overlay + premium/discount secondary.
@@ -1038,11 +1062,11 @@ function buildAllSeries(
     // NAV cap rate (step) = EBITDA at date ÷ property FMV at date
     // EBITDA series: prefer LTM/FY; fall back to annualized last quarter.
     const ebitdaForCap = collectAnnualizedEbitda(financials);
-    const fmvSeries = collectDated(financials, "propertyFmvMM");
+    const fmvDatedSeries = collectDated(financials, "propertyFmvMM");
     if (
       dailyEv.length > 0 &&
       ebitdaForCap.length > 0 &&
-      (fmvSeries.length > 0 || true)
+      (fmvDatedSeries.length > 0 || true)
     ) {
       const marketCapRate: DatedPoint[] = [];
       const navCapRate: DatedPoint[] = [];
@@ -1059,7 +1083,7 @@ function buildAllSeries(
       }
 
       // NAV cap rate: at each FMV reporting date, compute EBITDA/FMV
-      for (const f of fmvSeries) {
+      for (const f of fmvDatedSeries) {
         const e = findValueAtOrBeforeDated(ebitdaForCap, f.date);
         if (e === null || e <= 0 || f.value <= 0) continue;
         navCapRate.push({
