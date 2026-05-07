@@ -1,6 +1,6 @@
 // Historical price data fetcher for individual issuer detail pages.
-// Uses Yahoo's chart API which is the same source as live quotes; range=5y
-// at monthly interval gives ~60 data points per ticker.
+// Uses Yahoo's chart API which is the same source as live quotes.
+// Default: range=10y at daily interval gives ~2,500 data points per ticker.
 
 export type PricePoint = {
   // ISO date (YYYY-MM-DD) at month-end.
@@ -19,8 +19,8 @@ export type PriceHistory = {
 
 export async function fetchPriceHistory(
   ticker: string,
-  range: string = "5y",
-  interval: string = "1mo",
+  range: string = "10y",
+  interval: string = "1d",
 ): Promise<PriceHistory | null> {
   try {
     const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(
