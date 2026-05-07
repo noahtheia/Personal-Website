@@ -86,7 +86,7 @@ type SortKey =
   | "evCapRate"
   | "divYield";
 
-type Band = "market" | "land" | "earnings";
+type Band = "market" | "land" | "operating" | "valuation";
 type Format =
   | "money"
   | "intDollar"
@@ -109,7 +109,16 @@ const COLUMNS: Column[] = [
   { key: "marketCapMM", label: "Market Cap", hint: "$M", band: "market", format: "intDollar" },
   { key: "netDebtMM", label: "Net Debt", hint: "$M", band: "market", format: "intDollarSigned" },
   { key: "evMM", label: "Enterprise Value", hint: "$M", band: "market", format: "intDollar" },
-  // Land value
+  // Operating metrics
+  { key: "annualRevenueMM", label: "Revenue", hint: "$M", band: "operating", format: "intDollar" },
+  { key: "annualEbitdaMM", label: "EBITDA", hint: "$M", band: "operating", format: "intDollarSigned" },
+  { key: "ebitdaMargin", label: "EBITDA Margin", hint: "EBITDA ÷ rev", band: "operating", format: "pct" },
+  // Valuation multiples
+  { key: "evEbitda", label: "EV / EBITDA", hint: "×", band: "valuation", format: "mult" },
+  { key: "priceSales", label: "P / S", hint: "mkt cap ÷ rev", band: "valuation", format: "mult" },
+  { key: "priceEarnings", label: "P / E", hint: "price ÷ EPS", band: "valuation", format: "mult" },
+  { key: "divYield", label: "Div Yield", hint: "div ÷ price", band: "valuation", format: "pct" },
+  // Land value (right-most band)
   { key: "acresK", label: "Acres", hint: "thousands", band: "land", format: "int" },
   { key: "bookPerAcre", label: "Book / Acre", hint: "$ filed", band: "land", format: "intDollar" },
   { key: "marketPerAcre", label: "Market / Acre", hint: "$ FMV", band: "land", format: "intDollar" },
@@ -117,23 +126,16 @@ const COLUMNS: Column[] = [
   { key: "pNav", label: "P / NAV", hint: "price ÷ FMV NAV (per detail page)", band: "land", format: "mult" },
   { key: "fmvNavPerShareUsd", label: "FMV NAV / sh", hint: "$ implied", band: "land", format: "money" },
   { key: "evCapRate", label: "Cap Rate", hint: "NOI ÷ EV", band: "land", format: "pct" },
-  // Earnings value — tighter padding like Market Data since it's a long band.
-  { key: "annualRevenueMM", label: "Revenue", hint: "$M", band: "earnings", format: "intDollar" },
-  { key: "annualEbitdaMM", label: "EBITDA", hint: "$M", band: "earnings", format: "intDollarSigned" },
-  { key: "ebitdaMargin", label: "EBITDA Margin", hint: "EBITDA ÷ rev", band: "earnings", format: "pct" },
-  { key: "evEbitda", label: "EV / EBITDA", hint: "×", band: "earnings", format: "mult" },
-  { key: "priceSales", label: "P / S", hint: "mkt cap ÷ rev", band: "earnings", format: "mult" },
-  { key: "priceEarnings", label: "P / E", hint: "price ÷ EPS", band: "earnings", format: "mult" },
-  { key: "divYield", label: "Div Yield", hint: "div ÷ price", band: "earnings", format: "pct" },
 ];
 
 const BAND_LABEL: Record<Band, string> = {
   market: "Market Data",
+  operating: "Operating Metrics",
+  valuation: "Valuation Multiples",
   land: "Land Value",
-  earnings: "Earnings Value",
 };
 
-const BAND_ORDER: Band[] = ["market", "land", "earnings"];
+const BAND_ORDER: Band[] = ["market", "operating", "valuation", "land"];
 
 // Indices where a band changes — used to draw vertical separators.
 const BAND_BREAKS = new Set(
@@ -143,8 +145,8 @@ const BAND_BREAKS = new Set(
 );
 
 function cellPadX(band: Band): string {
-  // Multi-column bands (Market Data, Earnings Value) use tighter padding;
-  // Land Value uses normal spacing.
+  // Multi-column bands (Market Data, Operating Metrics, Valuation Multiples)
+  // use tighter padding; Land Value gets the looser px-3.
   return band === "land" ? "px-3" : "px-1.5";
 }
 
@@ -153,8 +155,9 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
   const [dir, setDir] = useState<"asc" | "desc">("desc");
   const [visibleBands, setVisibleBands] = useState<Record<Band, boolean>>({
     market: true,
+    operating: true,
+    valuation: true,
     land: true,
-    earnings: true,
   });
   const [filterOpen, setFilterOpen] = useState(false);
 
