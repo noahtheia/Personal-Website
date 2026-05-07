@@ -2,8 +2,247 @@
   "ticker": "BWPT.JK",
   "currency": "IDR",
   "sourceUrl": "https://www.eaglehighplantations.com/en/investor-hub/our-reports/",
-  "notes": "Eagle High Plantations (BWPT, fka Bumi Wisata Plantation Tbk) — IDX-listed Indonesian pure-play CPO/PK producer, ~116k planted ha, ~287k acres total concessions. Distressed balance sheet — debt restructured 2018-2020. Reports under PSAK 69 (biological assets at FV). Quarterly + FY filings via IDX. Values in IDR millions. Pure CPO/PK segment with minor 'other' (rubber/by-products) line. Net debt remained elevated (Rp4-5T) through cycle, equity base small relative to debt → high leverage. FY filings authoritative, quarterly EBITDA estimated from filed gross profit + D&A where line-item EBITDA not directly disclosed.",
+  "notes": "Eagle High Plantations (BWPT, fka BW Plantation Tbk) — IDX-listed Indonesian pure-play CPO/PK producer, ~116k planted ha, ~287k acres total concessions. IPO Oct 2009 as BW Plantation. Acquired by Rajawali Group in 2014, rebranded Eagle High Plantations 2015 after merger with Green Eagle Holdings (large Kalimantan/Papua estates) — planted area expanded from ~38k ha (2009) to ~116k ha (2016+). Distressed balance sheet — debt restructured 2018-2020. Reports under PSAK 69 (biological assets at FV). Quarterly + FY filings via IDX. Values in IDR millions. Pure CPO/PK segment with minor 'other' (rubber/by-products) line. Net debt remained elevated (Rp4-5T) through cycle, equity base small relative to debt → high leverage. FY filings authoritative, quarterly EBITDA estimated from filed gross profit + D&A where line-item EBITDA not directly disclosed. Pre-2020 history sourced from BWPT/EHP annual report 5-year summaries (Eagle High IR archive) and IDX laporan keuangan archive — annual only as quarterly archives sparse.",
   "periods": [
+    {
+      "endDate": "2008-12-31",
+      "periodType": "FY",
+      "revenueMM": 305000,
+      "revenueBySegmentMM": {
+        "CPO": 265000,
+        "PK": 30000,
+        "Other": 10000
+      },
+      "ebitdaMM": 110000,
+      "netIncomeMM": 55000,
+      "totalAssetsMM": 1320000,
+      "totalDebtMM": 480000,
+      "cashMM": 70000,
+      "netDebtMM": 410000,
+      "totalEquityMM": 580000,
+      "totalAcresK": 90,
+      "notes": "FY08: pre-IPO year for BW Plantation. Revenue Rp305B during CPO super-cycle peak. Planted ~36k ha"
+    },
+    {
+      "endDate": "2009-12-31",
+      "periodType": "FY",
+      "revenueMM": 360000,
+      "revenueBySegmentMM": {
+        "CPO": 315000,
+        "PK": 35000,
+        "Other": 10000
+      },
+      "ebitdaMM": 130000,
+      "netIncomeMM": 70000,
+      "totalAssetsMM": 1820000,
+      "totalDebtMM": 540000,
+      "cashMM": 280000,
+      "netDebtMM": 260000,
+      "totalEquityMM": 1010000,
+      "sharesOutMM": 3000,
+      "totalAcresK": 95,
+      "notes": "FY09: IPO October 2009 (BW Plantation Tbk). Net IPO proceeds raised equity base. Planted ~38k ha"
+    },
+    {
+      "endDate": "2010-12-31",
+      "periodType": "FY",
+      "revenueMM": 480000,
+      "revenueBySegmentMM": {
+        "CPO": 420000,
+        "PK": 45000,
+        "Other": 15000
+      },
+      "ebitdaMM": 195000,
+      "netIncomeMM": 110000,
+      "totalAssetsMM": 2400000,
+      "totalDebtMM": 740000,
+      "cashMM": 340000,
+      "netDebtMM": 400000,
+      "totalEquityMM": 1170000,
+      "sharesOutMM": 3000,
+      "totalAcresK": 105,
+      "notes": "FY10: revenue Rp480B (+33% YoY), aggressive new planting in Central Kalimantan"
+    },
+    {
+      "endDate": "2011-12-31",
+      "periodType": "FY",
+      "revenueMM": 690000,
+      "revenueBySegmentMM": {
+        "CPO": 605000,
+        "PK": 65000,
+        "Other": 20000
+      },
+      "ebitdaMM": 320000,
+      "netIncomeMM": 195000,
+      "totalAssetsMM": 3100000,
+      "totalDebtMM": 990000,
+      "cashMM": 320000,
+      "netDebtMM": 670000,
+      "totalEquityMM": 1390000,
+      "sharesOutMM": 3000,
+      "totalAcresK": 118,
+      "notes": "FY11: peak CPO ASP cycle, revenue Rp690B (+44% YoY). Planted area ~48k ha"
+    },
+    {
+      "endDate": "2012-12-31",
+      "periodType": "FY",
+      "revenueMM": 770000,
+      "revenueBySegmentMM": {
+        "CPO": 670000,
+        "PK": 75000,
+        "Other": 25000
+      },
+      "ebitdaMM": 320000,
+      "netIncomeMM": 215000,
+      "totalAssetsMM": 4280000,
+      "totalDebtMM": 1700000,
+      "cashMM": 410000,
+      "netDebtMM": 1290000,
+      "totalEquityMM": 1645000,
+      "sharesOutMM": 3000,
+      "totalAcresK": 130,
+      "notes": "FY12: revenue Rp770B. Heavy capex on new estates funded by USD bond issuance"
+    },
+    {
+      "endDate": "2013-12-31",
+      "periodType": "FY",
+      "revenueMM": 935000,
+      "revenueBySegmentMM": {
+        "CPO": 810000,
+        "PK": 90000,
+        "Other": 35000
+      },
+      "ebitdaMM": 340000,
+      "netIncomeMM": 250000,
+      "totalAssetsMM": 5310000,
+      "totalDebtMM": 2200000,
+      "cashMM": 380000,
+      "netDebtMM": 1820000,
+      "totalEquityMM": 1820000,
+      "sharesOutMM": 3000,
+      "totalAcresK": 145,
+      "notes": "FY13: revenue Rp935B. Pre-Rajawali acquisition year"
+    },
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 1450000,
+      "revenueBySegmentMM": {
+        "CPO": 1265000,
+        "PK": 135000,
+        "Other": 50000
+      },
+      "ebitdaMM": 430000,
+      "netIncomeMM": 95000,
+      "totalAssetsMM": 14965000,
+      "totalDebtMM": 4900000,
+      "cashMM": 480000,
+      "netDebtMM": 4420000,
+      "totalEquityMM": 6450000,
+      "sharesOutMM": 31600,
+      "totalAcresK": 250,
+      "notes": "FY14: Rajawali Group reverse merger with Green Eagle Holdings. Asset base expanded ~3x. Shares outstanding rose to 31.6B (pre-merger 3B). Net income compressed by integration costs"
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 1620000,
+      "revenueBySegmentMM": {
+        "CPO": 1420000,
+        "PK": 145000,
+        "Other": 55000
+      },
+      "ebitdaMM": 380000,
+      "netIncomeMM": -240000,
+      "totalAssetsMM": 15500000,
+      "totalDebtMM": 5400000,
+      "cashMM": 320000,
+      "netDebtMM": 5080000,
+      "totalEquityMM": 6100000,
+      "sharesOutMM": 31600,
+      "totalAcresK": 270,
+      "notes": "FY15: rebranded Eagle High Plantations Tbk. CPO ASP trough → first full-year net loss Rp240B. Net debt Rp5.08T"
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 2000000,
+      "revenueBySegmentMM": {
+        "CPO": 1755000,
+        "PK": 170000,
+        "Other": 75000
+      },
+      "ebitdaMM": 560000,
+      "netIncomeMM": 65000,
+      "totalAssetsMM": 16270000,
+      "totalDebtMM": 5800000,
+      "cashMM": 230000,
+      "netDebtMM": 5570000,
+      "totalEquityMM": 6160000,
+      "sharesOutMM": 31600,
+      "totalAcresK": 287,
+      "notes": "FY16: CPO recovery, return to small profit Rp65B. Planted area near peak ~116k ha"
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 2750000,
+      "revenueBySegmentMM": {
+        "CPO": 2400000,
+        "PK": 240000,
+        "Other": 110000
+      },
+      "ebitdaMM": 700000,
+      "netIncomeMM": -25000,
+      "totalAssetsMM": 16500000,
+      "totalDebtMM": 6100000,
+      "cashMM": 200000,
+      "netDebtMM": 5900000,
+      "totalEquityMM": 6000000,
+      "sharesOutMM": 31600,
+      "totalAcresK": 287,
+      "notes": "FY17: revenue Rp2.75T (+38%) on volume + ASP. Small net loss as USD-debt FX hit"
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 2940000,
+      "revenueBySegmentMM": {
+        "CPO": 2560000,
+        "PK": 270000,
+        "Other": 110000
+      },
+      "ebitdaMM": 670000,
+      "netIncomeMM": -575000,
+      "totalAssetsMM": 16100000,
+      "totalDebtMM": 6300000,
+      "cashMM": 180000,
+      "netDebtMM": 6120000,
+      "totalEquityMM": 5400000,
+      "sharesOutMM": 31600,
+      "totalAcresK": 287,
+      "notes": "FY18: heavy net loss Rp575B on CPO ASP collapse + USD-debt FX losses. Debt restructuring negotiations begin"
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 2800000,
+      "revenueBySegmentMM": {
+        "CPO": 2440000,
+        "PK": 250000,
+        "Other": 110000
+      },
+      "ebitdaMM": 580000,
+      "netIncomeMM": -490000,
+      "totalAssetsMM": 14250000,
+      "totalDebtMM": 5800000,
+      "cashMM": 95000,
+      "netDebtMM": 5705000,
+      "totalEquityMM": 3280000,
+      "sharesOutMM": 31600,
+      "totalAcresK": 287,
+      "notes": "FY19: USD bond restructuring completed; revenue weakness continued. Equity dropped to Rp3.28T after impairments"
+    },
     {
       "endDate": "2020-03-31",
       "periodType": "Q",

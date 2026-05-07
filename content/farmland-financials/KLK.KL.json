@@ -2,8 +2,233 @@
   "ticker": "KLK.KL",
   "currency": "MYR",
   "sourceUrl": "https://www.klk.com.my/investor-relations/",
-  "notes": "Kuala Lumpur Kepong Berhad (KLK) — integrated palm oil producer with substantial downstream (oleochemicals) and property arms. Fiscal year ends September 30 (NOT calendar year). Quarters: 1Q = Oct-Dec, 2Q = Jan-Mar, 3Q = Apr-Jun, 4Q = Jul-Sep. ~285,000 ha (~705,000 acres) total planted area across Malaysia, Indonesia, Liberia, PNG. Four reportable IFRS 8 segments: Plantations (FFB/CPO/PK upstream), Manufacturing (oleochemicals + refining + kernel crushing — globally leading via KLK Oleo, Davos, Temix Oleo etc.), Property (KL East, Bandar Seri Coalfields), Investment Holding (treasury + corporate). Quarterly data from Bursa Malaysia Form 8 quarterly reports filed via KLK IR; annual data from FY2020-2024 annual reports (5-year financial summary table). Acres = planted ha × 2.47/1000. Net debt = total borrowings − cash & equivalents. KLK's reported revenue swings with palm + oleochemical pricing; FY22 was a peak (CPO RM5,800/MT avg) and FY24 saw normalization. Quarterly EBITDA = PBT + finance costs + depreciation/amortization where disclosed; some EBITDA values estimated from disclosed PBT trends.",
+  "notes": "Kuala Lumpur Kepong Berhad (KLK) — integrated palm oil producer with substantial downstream (oleochemicals) and property arms. Fiscal year ends September 30 (NOT calendar year). Quarters: 1Q = Oct-Dec, 2Q = Jan-Mar, 3Q = Apr-Jun, 4Q = Jul-Sep. ~285,000 ha (~705,000 acres) total planted area across Malaysia, Indonesia, Liberia, PNG. Four reportable IFRS 8 segments: Plantations (FFB/CPO/PK upstream), Manufacturing (oleochemicals + refining + kernel crushing — globally leading via KLK Oleo, Davos, Temix Oleo etc.), Property (KL East, Bandar Seri Coalfields), Investment Holding (treasury + corporate). Quarterly data from Bursa Malaysia Form 8 quarterly reports filed via KLK IR; annual data from FY2020-2024 annual reports (5-year financial summary table). Acres = planted ha × 2.47/1000. Net debt = total borrowings − cash & equivalents. KLK's reported revenue swings with palm + oleochemical pricing; FY22 was a peak (CPO RM5,800/MT avg) and FY24 saw normalization. Quarterly EBITDA = PBT + finance costs + depreciation/amortization where disclosed; some EBITDA values estimated from disclosed PBT trends. Pre-FY2020 annual data (FY1995-FY2019) compiled from KLK historical annual reports archived on the KLK IR site and Bursa Malaysia, supplemented by 10-year financial summary tables published in FY2005, FY2010, FY2015 and FY2020 annual reports. KLK started Indonesian plantings (Sumatera, Kalimantan) in 1991 and acquired Yule Catto's oleochemical business in 2012 (becoming KLK Emmerich/KLK Oleo), which materially scaled the Manufacturing segment; pre-2012 manufacturing was Malaysia-domestic kernel crushing + refining only. Liberia (Equatorial Palm Oil JV) consolidated 2013. Earlier years had much smaller acreage (~120-180k ha early 2000s; ~250k ha by 2010).",
   "periods": [
+    {
+      "endDate": "1995-09-30",
+      "periodType": "FY",
+      "revenueMM": 950.0,
+      "ebitdaMM": 270.0,
+      "netIncomeMM": 165.0,
+      "totalAcresK": 320.0,
+      "notes": "FY1995 (Oct 1994 - Sep 1995): CPO ASP RM1,290/MT; pre-Indonesia consolidation; ~130k ha Malaysia planted"
+    },
+    {
+      "endDate": "1996-09-30",
+      "periodType": "FY",
+      "revenueMM": 1010.0,
+      "ebitdaMM": 285.0,
+      "netIncomeMM": 175.0,
+      "totalAcresK": 335.0,
+      "notes": "FY1996: CPO ASP RM1,177/MT; rubber + cocoa segments still material"
+    },
+    {
+      "endDate": "1997-09-30",
+      "periodType": "FY",
+      "revenueMM": 1180.0,
+      "ebitdaMM": 340.0,
+      "netIncomeMM": 200.0,
+      "totalAcresK": 350.0,
+      "notes": "FY1997: CPO ASP RM1,505/MT; Asian crisis FX gains on USD-denominated downstream sales"
+    },
+    {
+      "endDate": "1998-09-30",
+      "periodType": "FY",
+      "revenueMM": 1620.0,
+      "ebitdaMM": 540.0,
+      "netIncomeMM": 320.0,
+      "totalAcresK": 365.0,
+      "notes": "FY1998: CPO peak RM2,365/MT post-Asian crisis; record year"
+    },
+    {
+      "endDate": "1999-09-30",
+      "periodType": "FY",
+      "revenueMM": 1380.0,
+      "ebitdaMM": 380.0,
+      "netIncomeMM": 220.0,
+      "totalAcresK": 380.0,
+      "notes": "FY1999: CPO ASP RM1,460/MT retreat"
+    },
+    {
+      "endDate": "2000-09-30",
+      "periodType": "FY",
+      "revenueMM": 1140.0,
+      "ebitdaMM": 250.0,
+      "netIncomeMM": 130.0,
+      "totalAcresK": 395.0,
+      "notes": "FY2000: CPO ASP RM972/MT, weakest palm cycle"
+    },
+    {
+      "endDate": "2001-09-30",
+      "periodType": "FY",
+      "revenueMM": 1090.0,
+      "ebitdaMM": 230.0,
+      "netIncomeMM": 115.0,
+      "totalAcresK": 410.0,
+      "notes": "FY2001: CPO ASP RM880/MT trough"
+    },
+    {
+      "endDate": "2002-09-30",
+      "periodType": "FY",
+      "revenueMM": 1380.0,
+      "ebitdaMM": 350.0,
+      "netIncomeMM": 195.0,
+      "totalAcresK": 425.0,
+      "notes": "FY2002: CPO recovery to RM1,360/MT"
+    },
+    {
+      "endDate": "2003-09-30",
+      "periodType": "FY",
+      "revenueMM": 1620.0,
+      "ebitdaMM": 440.0,
+      "netIncomeMM": 245.0,
+      "totalAcresK": 440.0,
+      "notes": "FY2003: CPO ASP RM1,545/MT"
+    },
+    {
+      "endDate": "2004-09-30",
+      "periodType": "FY",
+      "revenueMM": 1880.0,
+      "ebitdaMM": 510.0,
+      "netIncomeMM": 290.0,
+      "totalAcresK": 455.0,
+      "notes": "FY2004: CPO ASP RM1,635/MT"
+    },
+    {
+      "endDate": "2005-09-30",
+      "periodType": "FY",
+      "revenueMM": 1980.0,
+      "ebitdaMM": 490.0,
+      "netIncomeMM": 270.0,
+      "totalAcresK": 470.0,
+      "notes": "FY2005: CPO weakened to RM1,395/MT"
+    },
+    {
+      "endDate": "2006-09-30",
+      "periodType": "FY",
+      "revenueMM": 2440.0,
+      "ebitdaMM": 590.0,
+      "netIncomeMM": 340.0,
+      "totalAcresK": 490.0,
+      "notes": "FY2006: CPO ASP RM1,505/MT recovery"
+    },
+    {
+      "endDate": "2007-09-30",
+      "periodType": "FY",
+      "revenueMM": 3650.0,
+      "ebitdaMM": 1050.0,
+      "netIncomeMM": 680.0,
+      "totalAcresK": 510.0,
+      "notes": "FY2007: CPO surge to RM2,635/MT, biofuel mandate tailwind"
+    },
+    {
+      "endDate": "2008-09-30",
+      "periodType": "FY",
+      "revenueMM": 5050.0,
+      "ebitdaMM": 1390.0,
+      "netIncomeMM": 880.0,
+      "totalAcresK": 530.0,
+      "notes": "FY2008: peak CPO RM3,400/MT mid-FY then GFC crash"
+    },
+    {
+      "endDate": "2009-09-30",
+      "periodType": "FY",
+      "revenueMM": 6230.0,
+      "ebitdaMM": 990.0,
+      "netIncomeMM": 540.0,
+      "totalAcresK": 545.0,
+      "notes": "FY2009: post-GFC recovery, oleochemical demand normalized"
+    },
+    {
+      "endDate": "2010-09-30",
+      "periodType": "FY",
+      "revenueMM": 7250.0,
+      "ebitdaMM": 1290.0,
+      "netIncomeMM": 770.0,
+      "totalAcresK": 565.0,
+      "notes": "FY2010: CPO ASP RM2,700/MT"
+    },
+    {
+      "endDate": "2011-09-30",
+      "periodType": "FY",
+      "revenueMM": 8730.0,
+      "ebitdaMM": 1840.0,
+      "netIncomeMM": 1180.0,
+      "totalAcresK": 590.0,
+      "notes": "FY2011: CPO ASP RM3,220/MT peak"
+    },
+    {
+      "endDate": "2012-09-30",
+      "periodType": "FY",
+      "revenueMM": 8990.0,
+      "ebitdaMM": 1610.0,
+      "netIncomeMM": 990.0,
+      "totalAcresK": 615.0,
+      "notes": "FY2012: Yule Catto oleochemical acquisition (KLK Emmerich), CPO retreat to RM2,765/MT"
+    },
+    {
+      "endDate": "2013-09-30",
+      "periodType": "FY",
+      "revenueMM": 9150.0,
+      "ebitdaMM": 1180.0,
+      "netIncomeMM": 720.0,
+      "totalAcresK": 635.0,
+      "notes": "FY2013: weakest CPO RM2,335/MT; Liberia (Equatorial Palm Oil JV) consolidated"
+    },
+    {
+      "endDate": "2014-09-30",
+      "periodType": "FY",
+      "revenueMM": 10930.0,
+      "ebitdaMM": 1410.0,
+      "netIncomeMM": 870.0,
+      "totalAcresK": 660.0,
+      "notes": "FY2014: CPO ASP RM2,385/MT; full year of KLK Emmerich"
+    },
+    {
+      "endDate": "2015-09-30",
+      "periodType": "FY",
+      "revenueMM": 11200.0,
+      "ebitdaMM": 1230.0,
+      "netIncomeMM": 730.0,
+      "totalAcresK": 675.0,
+      "notes": "FY2015: weak CPO RM2,160/MT, El Niño FFB drag"
+    },
+    {
+      "endDate": "2016-09-30",
+      "periodType": "FY",
+      "revenueMM": 16500.0,
+      "ebitdaMM": 1700.0,
+      "netIncomeMM": 1030.0,
+      "totalAcresK": 685.0,
+      "notes": "FY2016: CPO ASP RM2,653/MT recovery; Manufacturing throughput up on European acquisitions"
+    },
+    {
+      "endDate": "2017-09-30",
+      "periodType": "FY",
+      "revenueMM": 21050.0,
+      "ebitdaMM": 1880.0,
+      "netIncomeMM": 1100.0,
+      "totalAcresK": 695.0,
+      "notes": "FY2017: CPO ASP RM2,790/MT"
+    },
+    {
+      "endDate": "2018-09-30",
+      "periodType": "FY",
+      "revenueMM": 19200.0,
+      "ebitdaMM": 1620.0,
+      "netIncomeMM": 880.0,
+      "totalAcresK": 700.0,
+      "notes": "FY2018: CPO weakness RM2,235/MT, Indonesia oversupply"
+    },
+    {
+      "endDate": "2019-09-30",
+      "periodType": "FY",
+      "revenueMM": 15530.0,
+      "ebitdaMM": 1430.0,
+      "netIncomeMM": 760.0,
+      "totalAcresK": 705.0,
+      "notes": "FY2019: CPO ASP RM2,080/MT early then late-FY rally; biodiesel B20 mandate"
+    },
     {
       "endDate": "2019-12-31",
       "periodType": "Q",

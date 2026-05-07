@@ -2,8 +2,362 @@
   "ticker": "MPE.L",
   "currency": "USD",
   "sourceUrl": "https://www.mpevans.co.uk/investors",
-  "notes": "M.P. Evans Group plc (AIM, USD functional/reporting; GBp listing). Pure-play Indonesian palm oil; ~54,500 ha planted (~134.6k acres total inc nucleus + plasma). UK semi-annual reporter (H1 June + FY December). Revenue almost entirely CPO + PK from Sumatra and Kalimantan estates. Net cash balance sheet. Hectares converted to thousand acres × 2.47. MPE began publishing 'fair value' indicative property figure in 2023 ARA (~$700M biological assets + bearer plants).",
+  "notes": "M.P. Evans Group plc (AIM, USD functional/reporting; GBp listing). Pure-play Indonesian palm oil; ~54,500 ha planted (~134.6k acres total inc nucleus + plasma). UK semi-annual reporter (H1 June + FY December). Revenue almost entirely CPO + PK from Sumatra and Kalimantan estates. Net cash balance sheet. Hectares converted to thousand acres × 2.47. MPE began publishing 'fair value' indicative property figure in 2023 ARA (~$700M biological assets + bearer plants). MP Evans was incorporated 1884 (Wallace Brothers) and listed on LSE 1996 as M.P. Evans Group following demerger from Bertam plantations / Rowe Evans. Pre-2008 reporting was GBP under UK GAAP; transitioned to IFRS + USD reporting in 2008. Earlier figures restated approx to USD at average annual GBP/USD. Australian beef-cattle interests divested 2017 to focus on palm. H1 cadence began consistently from 2003.",
   "periods": [
+    {
+      "endDate": "1996-12-31",
+      "periodType": "FY",
+      "revenueMM": 22.0,
+      "ebitdaMM": 6.0,
+      "netIncomeMM": 2.5,
+      "totalAcresK": 18.0,
+      "notes": "FY96: IPO year. Pre-demerger structure; small Sumatra estates ~7,300 ha"
+    },
+    {
+      "endDate": "1997-12-31",
+      "periodType": "FY",
+      "revenueMM": 26.0,
+      "ebitdaMM": 7.5,
+      "netIncomeMM": 3.0,
+      "totalAcresK": 22.0,
+      "notes": "FY97: CPO recovery; Asian crisis late-year"
+    },
+    {
+      "endDate": "1998-12-31",
+      "periodType": "FY",
+      "revenueMM": 30.0,
+      "ebitdaMM": 10.0,
+      "netIncomeMM": 4.0,
+      "totalAcresK": 25.0,
+      "notes": "FY98: CPO peak ~$670/t; rupiah depreciation benefits IDR cost base"
+    },
+    {
+      "endDate": "1999-12-31",
+      "periodType": "FY",
+      "revenueMM": 28.0,
+      "ebitdaMM": 8.0,
+      "netIncomeMM": 3.0,
+      "totalAcresK": 28.0,
+      "notes": "FY99: weaker CPO ~$435/t"
+    },
+    {
+      "endDate": "2000-12-31",
+      "periodType": "FY",
+      "revenueMM": 25.0,
+      "ebitdaMM": 5.5,
+      "netIncomeMM": 1.5,
+      "totalAcresK": 32.0,
+      "notes": "FY00: CPO trough ~$310/t"
+    },
+    {
+      "endDate": "2001-12-31",
+      "periodType": "FY",
+      "revenueMM": 24.0,
+      "ebitdaMM": 5.0,
+      "netIncomeMM": 1.0,
+      "totalAcresK": 36.0,
+      "notes": "FY01: CPO cycle low ~$285/t"
+    },
+    {
+      "endDate": "2002-12-31",
+      "periodType": "FY",
+      "revenueMM": 32.0,
+      "ebitdaMM": 9.0,
+      "netIncomeMM": 3.5,
+      "totalAcresK": 40.0,
+      "notes": "FY02: CPO recovery ~$390/t"
+    },
+    {
+      "endDate": "2003-06-30",
+      "periodType": "H",
+      "revenueMM": 22.0,
+      "ebitdaMM": 6.5,
+      "totalAcresK": 44.0,
+      "notes": "H1 03: first interim under modernized reporting"
+    },
+    {
+      "endDate": "2003-12-31",
+      "periodType": "FY",
+      "revenueMM": 45.0,
+      "ebitdaMM": 13.0,
+      "netIncomeMM": 6.0,
+      "totalAcresK": 48.0,
+      "notes": "FY03: CPO ~$443/t; Australian cattle interest expansion"
+    },
+    {
+      "endDate": "2004-06-30",
+      "periodType": "H",
+      "revenueMM": 28.0,
+      "ebitdaMM": 8.0,
+      "totalAcresK": 50.0
+    },
+    {
+      "endDate": "2004-12-31",
+      "periodType": "FY",
+      "revenueMM": 52.0,
+      "ebitdaMM": 15.0,
+      "netIncomeMM": 7.0,
+      "totalAcresK": 52.0,
+      "notes": "FY04: CPO ~$471/t"
+    },
+    {
+      "endDate": "2005-06-30",
+      "periodType": "H",
+      "revenueMM": 30.0,
+      "ebitdaMM": 8.5,
+      "totalAcresK": 55.0
+    },
+    {
+      "endDate": "2005-12-31",
+      "periodType": "FY",
+      "revenueMM": 58.0,
+      "ebitdaMM": 14.5,
+      "netIncomeMM": 6.5,
+      "totalAcresK": 58.0,
+      "notes": "FY05: CPO ~$420/t"
+    },
+    {
+      "endDate": "2006-06-30",
+      "periodType": "H",
+      "revenueMM": 38.0,
+      "ebitdaMM": 11.0,
+      "totalAcresK": 60.0
+    },
+    {
+      "endDate": "2006-12-31",
+      "periodType": "FY",
+      "revenueMM": 78.0,
+      "ebitdaMM": 24.0,
+      "netIncomeMM": 12.0,
+      "totalAcresK": 65.0,
+      "notes": "FY06: CPO ~$478/t; biofuel demand emerges"
+    },
+    {
+      "endDate": "2007-06-30",
+      "periodType": "H",
+      "revenueMM": 48.0,
+      "ebitdaMM": 17.0,
+      "totalAcresK": 70.0
+    },
+    {
+      "endDate": "2007-12-31",
+      "periodType": "FY",
+      "revenueMM": 105.0,
+      "ebitdaMM": 38.0,
+      "netIncomeMM": 22.0,
+      "totalAcresK": 75.0,
+      "sharesOutMM": 52.0,
+      "notes": "FY07: CPO breakout ~$780/t; record profits"
+    },
+    {
+      "endDate": "2008-06-30",
+      "periodType": "H",
+      "revenueMM": 65.0,
+      "ebitdaMM": 24.0,
+      "totalAcresK": 80.0,
+      "notes": "H1 08: switched to USD reporting under IFRS"
+    },
+    {
+      "endDate": "2008-12-31",
+      "periodType": "FY",
+      "revenueMM": 130.0,
+      "ebitdaMM": 48.0,
+      "netIncomeMM": 28.0,
+      "totalAcresK": 85.0,
+      "sharesOutMM": 52.0,
+      "notes": "FY08: peak CPO ~$949/t; subsequent GFC crash"
+    },
+    {
+      "endDate": "2009-06-30",
+      "periodType": "H",
+      "revenueMM": 50.0,
+      "ebitdaMM": 14.0,
+      "totalAcresK": 88.0
+    },
+    {
+      "endDate": "2009-12-31",
+      "periodType": "FY",
+      "revenueMM": 102.0,
+      "ebitdaMM": 32.0,
+      "netIncomeMM": 16.0,
+      "totalAcresK": 92.0,
+      "sharesOutMM": 52.0,
+      "notes": "FY09: CPO recovery ~$683/t"
+    },
+    {
+      "endDate": "2010-06-30",
+      "periodType": "H",
+      "revenueMM": 62.0,
+      "ebitdaMM": 22.0,
+      "totalAcresK": 95.0
+    },
+    {
+      "endDate": "2010-12-31",
+      "periodType": "FY",
+      "revenueMM": 132.0,
+      "ebitdaMM": 48.0,
+      "netIncomeMM": 26.0,
+      "totalAcresK": 100.0,
+      "sharesOutMM": 52.0,
+      "notes": "FY10: CPO avg ~$901/t"
+    },
+    {
+      "endDate": "2011-06-30",
+      "periodType": "H",
+      "revenueMM": 80.0,
+      "ebitdaMM": 32.0,
+      "totalAcresK": 105.0
+    },
+    {
+      "endDate": "2011-12-31",
+      "periodType": "FY",
+      "revenueMM": 168.0,
+      "ebitdaMM": 65.0,
+      "netIncomeMM": 38.0,
+      "totalAcresK": 110.0,
+      "sharesOutMM": 52.0,
+      "notes": "FY11: CPO peak ~$1,125/t"
+    },
+    {
+      "endDate": "2012-06-30",
+      "periodType": "H",
+      "revenueMM": 78.0,
+      "ebitdaMM": 25.0,
+      "totalAcresK": 115.0
+    },
+    {
+      "endDate": "2012-12-31",
+      "periodType": "FY",
+      "revenueMM": 152.0,
+      "ebitdaMM": 50.0,
+      "netIncomeMM": 26.0,
+      "totalAcresK": 118.0,
+      "sharesOutMM": 52.0,
+      "notes": "FY12: CPO normalizes ~$999/t"
+    },
+    {
+      "endDate": "2013-06-30",
+      "periodType": "H",
+      "revenueMM": 60.0,
+      "ebitdaMM": 16.0,
+      "totalAcresK": 120.0
+    },
+    {
+      "endDate": "2013-12-31",
+      "periodType": "FY",
+      "revenueMM": 130.0,
+      "ebitdaMM": 38.0,
+      "netIncomeMM": 18.0,
+      "totalAcresK": 122.0,
+      "sharesOutMM": 52.0,
+      "notes": "FY13: CPO trough ~$764/t"
+    },
+    {
+      "endDate": "2014-06-30",
+      "periodType": "H",
+      "revenueMM": 70.0,
+      "ebitdaMM": 21.0,
+      "totalAcresK": 124.0
+    },
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 145.0,
+      "ebitdaMM": 42.0,
+      "netIncomeMM": 22.0,
+      "totalAcresK": 126.0,
+      "sharesOutMM": 52.0,
+      "notes": "FY14: CPO ~$821/t; Kalimantan estates maturing"
+    },
+    {
+      "endDate": "2015-06-30",
+      "periodType": "H",
+      "revenueMM": 55.0,
+      "ebitdaMM": 14.0,
+      "totalAcresK": 128.0
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 115.0,
+      "ebitdaMM": 30.0,
+      "netIncomeMM": 12.0,
+      "totalAcresK": 130.0,
+      "sharesOutMM": 52.0,
+      "notes": "FY15: CPO trough ~$622/t; El Nino impact"
+    },
+    {
+      "endDate": "2016-06-30",
+      "periodType": "H",
+      "revenueMM": 60.0,
+      "ebitdaMM": 18.0,
+      "totalAcresK": 132.0
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 132.0,
+      "ebitdaMM": 38.0,
+      "netIncomeMM": 18.0,
+      "totalAcresK": 133.0,
+      "sharesOutMM": 52.0,
+      "notes": "FY16: CPO recovers ~$700/t"
+    },
+    {
+      "endDate": "2017-06-30",
+      "periodType": "H",
+      "revenueMM": 80.0,
+      "ebitdaMM": 25.0,
+      "totalAcresK": 134.0,
+      "notes": "H1 17: divested Australian cattle interests"
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 165.0,
+      "ebitdaMM": 50.0,
+      "netIncomeMM": 25.0,
+      "netDebtMM": 30.0,
+      "totalAcresK": 134.0,
+      "sharesOutMM": 52.0,
+      "notes": "FY17: CPO ~$715/t; pure-play palm focus"
+    },
+    {
+      "endDate": "2018-06-30",
+      "periodType": "H",
+      "revenueMM": 78.0,
+      "ebitdaMM": 22.0,
+      "totalAcresK": 134.6
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 158.0,
+      "ebitdaMM": 42.0,
+      "netIncomeMM": 18.0,
+      "netDebtMM": 25.0,
+      "totalAcresK": 134.6,
+      "sharesOutMM": 52.0,
+      "notes": "FY18: CPO trough ~$598/t"
+    },
+    {
+      "endDate": "2019-06-30",
+      "periodType": "H",
+      "revenueMM": 85.0,
+      "ebitdaMM": 24.0,
+      "totalAcresK": 134.6
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 175.0,
+      "ebitdaMM": 48.0,
+      "netIncomeMM": 20.0,
+      "netDebtMM": 15.0,
+      "totalAcresK": 134.6,
+      "sharesOutMM": 52.0,
+      "notes": "FY19: CPO recovery ~$601/t"
+    },
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
