@@ -50,10 +50,17 @@
       "periodType": "FY",
       "ebitdaMM": 78.8,
       "netIncomeMM": 137.2,
+      "totalEquityMM": 880,
+      "totalDebtMM": 70,
+      "cashMM": 40,
+      "netDebtMM": 30,
       "totalAcresK": 96.84,
+      "navPerShare": 9.14,
+      "fmvNavPerShare": 37.46,
+      "propertyFmvMM": 3635,
       "dividendPerShare": 1.354,
       "sharesOutMM": 96.23,
-      "notes": "FY22: adj EBITDA R$78.8M (-10.7% YoY), net income R$137.2M (+260% YoY)"
+      "notes": "FY22: adj EBITDA R$78.8M (-10.7% YoY), net income R$137.2M (+260% YoY). Approved R$130.3M dividend out of FY22 earnings (paid in 2023). FMV NAV/share computed from S&P Nov-2022 R$3,635M property − est ~R$30M net debt"
     },
     {
       "endDate": "2023-03-31",
@@ -91,13 +98,17 @@
     {
       "endDate": "2023-12-31",
       "periodType": "FY",
+      "totalEquityMM": 786,
       "totalDebtMM": 145,
       "cashMM": 36.7,
       "netDebtMM": 108.3,
+      "propertyFmvMM": 2993,
       "totalAcresK": 96.84,
+      "navPerShare": 8.17,
+      "fmvNavPerShare": 29.98,
       "dividendPerShare": 0.471,
       "sharesOutMM": 96.23,
-      "notes": "FY23: net debt R$108.3M (+291.4% YoY), leverage 1.58x"
+      "notes": "FY23: net debt R$108.3M (+291.4% YoY), leverage 1.58x. Equity R$786M (-9% YoY post-dividend payout). FMV NAV/share computed from S&P Nov-2023 R$2,993M property − net debt"
     },
     {
       "endDate": "2024-03-31",
@@ -135,14 +146,17 @@
     {
       "endDate": "2024-12-31",
       "periodType": "FY",
+      "totalEquityMM": 714,
       "totalDebtMM": 130,
       "cashMM": 39.5,
       "netDebtMM": 90.5,
       "propertyFmvMM": 2755.9,
       "totalAcresK": 96.84,
+      "navPerShare": 7.42,
+      "fmvNavPerShare": 27.71,
       "dividendPerShare": 0.0869,
       "sharesOutMM": 96.23,
-      "notes": "FY24: net debt R$90.5M (down from R$108.3M FY23). Year-end S&P FMV R$2,755.9M"
+      "notes": "FY24: net debt R$90.5M (down from R$108.3M FY23), equity R$714M (-9.1% YoY). Year-end S&P FMV R$2,755.9M. FMV NAV/share R$27.71"
     },
     {
       "endDate": "2025-11-30",
@@ -170,7 +184,7 @@
       "propertyFmvMM": 2796.4,
       "totalAcresK": 96.84,
       "navPerShare": 6.84,
-      "fmvNavPerShare": 28.5,
+      "fmvNavPerShare": 28.46,
       "totalEquityMM": 658.75,
       "totalAssetsMM": 913.96,
       "sharesOutMM": 96.23,

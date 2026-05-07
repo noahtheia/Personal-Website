@@ -40,7 +40,8 @@ const CHART_DEFS: { id: ChartId; label: string; description: string }[] = [
   {
     id: "navPerShare",
     label: "NAV / share",
-    description: "Reported NAV or BV per share per period.",
+    description:
+      "FMV NAV per share with stock price overlay and premium/discount on right axis.",
   },
   {
     id: "totalAcres",
@@ -64,7 +65,13 @@ const CHART_DEFS: { id: ChartId; label: string; description: string }[] = [
 
 const W = 760;
 const H = 320;
-const PAD = { top: 28, right: 24, bottom: 36, left: 64 };
+const PAD = { top: 28, right: 64, bottom: 36, left: 64 };
+
+// Color tokens
+const C_PRIMARY = "var(--accent)";
+const C_OVERLAY = "var(--fg-soft)";
+const C_SECONDARY_POSITIVE = "var(--positive)";
+const C_SECONDARY_NEGATIVE = "var(--negative)";
 
 export function FarmlandFinancialSnapshot({
   filing,
@@ -95,7 +102,7 @@ export function FarmlandFinancialSnapshot({
   const view = useMemo(
     () =>
       active && active.points.length > 0
-        ? buildView(active.points, active.kind)
+        ? buildView(active)
         : null,
     [active],
   );
@@ -226,6 +233,10 @@ export function FarmlandFinancialSnapshot({
               )}
             </div>
 
+            {active.overlay || active.secondary ? (
+              <Legend active={active} />
+            ) : null}
+
             <svg
               ref={svgRef}
               viewBox={`0 0 ${W} ${H}`}
@@ -235,8 +246,9 @@ export function FarmlandFinancialSnapshot({
               onPointerMove={onMove}
               onPointerLeave={onLeave}
             >
-              {view.yTicks.map((t) => (
-                <g key={t.value}>
+              {/* Y-axis (primary, left) */}
+              {view.yTicks.map((t, i) => (
+                <g key={`y-${i}`}>
                   <line
                     x1={PAD.left}
                     x2={W - PAD.right}
@@ -258,9 +270,26 @@ export function FarmlandFinancialSnapshot({
                 </g>
               ))}
 
-              {view.xTicks.map((t) => (
+              {/* Y-axis (secondary, right) */}
+              {view.secondaryYTicks &&
+                view.secondaryYTicks.map((t, i) => (
+                  <text
+                    key={`y2-${i}`}
+                    x={W - PAD.right + 8}
+                    y={t.y}
+                    textAnchor="start"
+                    dominantBaseline="middle"
+                    fontSize="10"
+                    fill="var(--muted)"
+                  >
+                    {formatTick(t.value, active.secondary!.unit)}
+                  </text>
+                ))}
+
+              {/* X labels */}
+              {view.xTicks.map((t, i) => (
                 <text
-                  key={t.label}
+                  key={`x-${i}`}
                   x={t.x}
                   y={H - PAD.bottom + 16}
                   textAnchor="middle"
@@ -271,13 +300,31 @@ export function FarmlandFinancialSnapshot({
                 </text>
               ))}
 
+              {/* Zero reference line for secondary axis (e.g. premium/discount = 0) */}
+              {view.secondaryYZero !== null && (
+                <line
+                  x1={PAD.left}
+                  x2={W - PAD.right}
+                  y1={view.secondaryYZero}
+                  y2={view.secondaryYZero}
+                  stroke="var(--muted)"
+                  strokeDasharray="4 4"
+                  strokeOpacity="0.5"
+                />
+              )}
+
+              {/* Primary series rendering (line or bar) */}
               {active.kind === "line" ? (
                 <>
-                  <path d={view.area} fill="var(--accent)" fillOpacity="0.08" />
+                  <path
+                    d={view.area}
+                    fill={C_PRIMARY}
+                    fillOpacity="0.08"
+                  />
                   <path
                     d={view.path}
                     fill="none"
-                    stroke="var(--accent)"
+                    stroke={C_PRIMARY}
                     strokeWidth="2"
                     strokeLinejoin="round"
                     strokeLinecap="round"
@@ -300,26 +347,83 @@ export function FarmlandFinancialSnapshot({
                       y={top}
                       width={barW}
                       height={height}
-                      fill="var(--accent)"
+                      fill={C_PRIMARY}
                       fillOpacity={hoverIdx === i ? 1 : 0.7}
                     />
                   );
                 })
               )}
 
+              {/* Primary series circle markers (for line) */}
               {active.kind === "line" &&
                 view.points.map((p, i) => (
                   <circle
-                    key={i}
+                    key={`p-${i}`}
                     cx={p.x}
                     cy={p.y}
                     r={hoverIdx === i ? 4 : 2.5}
-                    fill={hoverIdx === i ? "var(--accent)" : "var(--bg)"}
-                    stroke="var(--accent)"
+                    fill={hoverIdx === i ? C_PRIMARY : "var(--bg)"}
+                    stroke={C_PRIMARY}
                     strokeWidth="1.5"
                   />
                 ))}
 
+              {/* Overlay series (e.g. stock price overlay on NAV) */}
+              {view.overlayPath && (
+                <>
+                  <path
+                    d={view.overlayPath}
+                    fill="none"
+                    stroke={C_OVERLAY}
+                    strokeWidth="1.75"
+                    strokeDasharray="4 3"
+                    strokeLinejoin="round"
+                    strokeLinecap="round"
+                  />
+                  {view.overlayPoints!.map((p, i) => (
+                    <circle
+                      key={`o-${i}`}
+                      cx={p.x}
+                      cy={p.y}
+                      r={hoverIdx === i ? 3.5 : 2}
+                      fill="var(--bg)"
+                      stroke={C_OVERLAY}
+                      strokeWidth="1.5"
+                    />
+                  ))}
+                </>
+              )}
+
+              {/* Secondary series (right axis) */}
+              {view.secondaryPath && (
+                <>
+                  <path
+                    d={view.secondaryPath}
+                    fill="none"
+                    stroke={C_SECONDARY_NEGATIVE}
+                    strokeWidth="1.75"
+                    strokeLinejoin="round"
+                    strokeLinecap="round"
+                  />
+                  {view.secondaryPoints!.map((p, i) => (
+                    <circle
+                      key={`s-${i}`}
+                      cx={p.x}
+                      cy={p.y}
+                      r={hoverIdx === i ? 3.5 : 2}
+                      fill={
+                        view.secondaryRawValues![i] >= 0
+                          ? C_SECONDARY_POSITIVE
+                          : C_SECONDARY_NEGATIVE
+                      }
+                      stroke="var(--bg)"
+                      strokeWidth="1"
+                    />
+                  ))}
+                </>
+              )}
+
+              {/* Hover crosshair */}
               {hoverIdx !== null && view.points[hoverIdx] && (
                 <line
                   x1={view.points[hoverIdx].x}
@@ -332,6 +436,45 @@ export function FarmlandFinancialSnapshot({
                 />
               )}
             </svg>
+
+            {/* Hover tooltip below the chart for multi-series */}
+            {hovered && (active.overlay || active.secondary) && (
+              <div className="mt-2 flex flex-wrap gap-x-6 gap-y-1 text-xs tabular-nums">
+                <span>
+                  <span className="text-muted">{active.label}:</span>{" "}
+                  <span className="font-medium" style={{ color: "var(--accent)" }}>
+                    {formatY(hovered.value, active.unit)}
+                  </span>
+                </span>
+                {active.overlay && view.overlayPoints?.[hoverIdx!] && (
+                  <span>
+                    <span className="text-muted">{active.overlay.label}:</span>{" "}
+                    <span className="font-medium" style={{ color: "var(--fg-soft)" }}>
+                      {formatY(active.overlay.points[hoverIdx!].value, active.unit)}
+                    </span>
+                  </span>
+                )}
+                {active.secondary && view.secondaryRawValues?.[hoverIdx!] !== undefined && (
+                  <span>
+                    <span className="text-muted">{active.secondary.label}:</span>{" "}
+                    <span
+                      className="font-medium"
+                      style={{
+                        color:
+                          view.secondaryRawValues![hoverIdx!] >= 0
+                            ? "var(--positive)"
+                            : "var(--negative)",
+                      }}
+                    >
+                      {formatY(
+                        view.secondaryRawValues![hoverIdx!],
+                        active.secondary.unit,
+                      )}
+                    </span>
+                  </span>
+                )}
+              </div>
+            )}
           </>
         )}
 
@@ -344,25 +487,67 @@ export function FarmlandFinancialSnapshot({
                 content/farmland-financials/{filing.ticker}.json
               </code>{" "}
               — manually compiled from each issuer&apos;s annual reports and
-              independent valuations. Each period is timestamped to its fiscal
-              end-date with period type (Q / FY / H / LTM). Market cap and EV
-              charts hold shares + net debt constant at current values.
+              independent valuations. NAV/share chart overlays the stock price
+              at each reporting date and shows premium/discount on the right
+              axis (price ÷ NAV − 1).
             </>
           ) : (
             <>
               Market cap, EV charts hold shares and net debt constant at
-              current values — they show how cheap the stock has been
-              historically vs today&apos;s fundamentals, not actual historical
-              fundamentals. Adding manual quarterly data in{" "}
+              current values. Adding manual quarterly data in{" "}
               <code className="rounded bg-bg px-1 py-0.5 text-[11px]">
                 content/farmland-financials/{filing.ticker}.json
               </code>{" "}
-              will unlock revenue / EBITDA / property value time-series.
+              will unlock revenue / EBITDA / NAV time-series.
             </>
           )}
         </p>
       </section>
     </div>
+  );
+}
+
+function Legend({ active }: { active: Series }) {
+  return (
+    <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs">
+      <Swatch color={C_PRIMARY} label={active.label} />
+      {active.overlay && (
+        <Swatch color={C_OVERLAY} label={active.overlay.label} dashed />
+      )}
+      {active.secondary && (
+        <Swatch
+          color={C_SECONDARY_NEGATIVE}
+          label={`${active.secondary.label} (right axis)`}
+        />
+      )}
+    </div>
+  );
+}
+
+function Swatch({
+  color,
+  label,
+  dashed,
+}: {
+  color: string;
+  label: string;
+  dashed?: boolean;
+}) {
+  return (
+    <span className="inline-flex items-center gap-1.5">
+      <svg width={20} height={6} aria-hidden>
+        <line
+          x1={0}
+          x2={20}
+          y1={3}
+          y2={3}
+          stroke={color}
+          strokeWidth="2"
+          strokeDasharray={dashed ? "3 2" : undefined}
+        />
+      </svg>
+      <span className="text-muted">{label}</span>
+    </span>
   );
 }
 
@@ -372,7 +557,8 @@ type Unit =
   | { kind: "currency"; ccy: string }
   | { kind: "millions"; ccy: string }
   | { kind: "thousands" }
-  | { kind: "multiplier" };
+  | { kind: "multiplier" }
+  | { kind: "percent" };
 
 type SeriesKind = "line" | "bar";
 
@@ -382,6 +568,19 @@ type Series = {
   unit: Unit;
   kind: SeriesKind;
   points: { label: string; value: number }[];
+  // Optional secondary line on the same primary axis (e.g. price overlay
+  // on NAV chart). Same units as primary.
+  overlay?: {
+    label: string;
+    points: { label: string; value: number }[];
+  };
+  // Optional series rendered on a separate right-side y-axis (e.g. % premium/
+  // discount line on a NAV chart).
+  secondary?: {
+    label: string;
+    unit: Unit;
+    points: { label: string; value: number }[];
+  };
 };
 
 function buildAllSeries(
@@ -479,26 +678,69 @@ function buildAllSeries(
 
     // NAV per share: prefer fmvNavPerShare, fall back to navPerShare or
     // bookValuePerShare
-    const navSeries =
-      pickSeries(financials, "fmvNavPerShare", {
-        label: "FMV NAV / share",
-        description: `FMV-based NAV per share, ${ccy}`,
-        unit: { kind: "currency", ccy },
-        kind: "line",
-      }) ??
-      pickSeries(financials, "navPerShare", {
-        label: "NAV / share",
-        description: `Reported NAV per share, ${ccy}`,
-        unit: { kind: "currency", ccy },
-        kind: "line",
-      }) ??
-      pickSeries(financials, "bookValuePerShare", {
-        label: "Book value / share",
-        description: `Book value per share, ${ccy}`,
+    const navKey: keyof FinancialsPeriod | null = financials.periods.some(
+      (p) => typeof p.fmvNavPerShare === "number",
+    )
+      ? "fmvNavPerShare"
+      : financials.periods.some((p) => typeof p.navPerShare === "number")
+      ? "navPerShare"
+      : financials.periods.some(
+          (p) => typeof p.bookValuePerShare === "number",
+        )
+      ? "bookValuePerShare"
+      : null;
+
+    if (navKey) {
+      const navLabel =
+        navKey === "fmvNavPerShare"
+          ? "FMV NAV / share"
+          : navKey === "navPerShare"
+          ? "NAV / share"
+          : "Book value / share";
+      const navSeries = pickSeries(financials, navKey, {
+        label: navLabel,
+        description: `${navLabel}, ${ccy}`,
         unit: { kind: "currency", ccy },
         kind: "line",
       });
-    result.navPerShare = navSeries;
+
+      // Build overlay (stock price at each NAV reporting date) + secondary
+      // axis (premium/discount % to NAV) when we have history.
+      if (navSeries && history && history.points.length > 0) {
+        const overlayPoints: { label: string; value: number }[] = [];
+        const secondaryPoints: { label: string; value: number }[] = [];
+
+        for (const p of financials.periods) {
+          const v = p[navKey];
+          if (typeof v !== "number") continue;
+          const px = findClosestPrice(history, p.endDate);
+          if (px === null) continue;
+          const label = formatPeriodLabel(p);
+          overlayPoints.push({ label, value: px });
+          // Premium/discount = (price − NAV) / NAV × 100. Negative = discount.
+          secondaryPoints.push({
+            label,
+            value: ((px - v) / v) * 100,
+          });
+        }
+
+        if (overlayPoints.length > 0) {
+          navSeries.overlay = {
+            label: "Stock price",
+            points: overlayPoints,
+          };
+        }
+        if (secondaryPoints.length > 0) {
+          navSeries.secondary = {
+            label: "Premium / discount to NAV",
+            unit: { kind: "percent" },
+            points: secondaryPoints,
+          };
+        }
+      }
+
+      result.navPerShare = navSeries;
+    }
 
     result.totalAcres = pickSeries(financials, "totalAcresK", {
       label: "Total acres (K)",
@@ -547,19 +789,43 @@ function formatPeriodLabel(p: FinancialsPeriod): string {
     const h = month <= 6 ? "1H" : "2H";
     return `${h} ${year.toString().slice(2)}`;
   }
-  // LTM = trailing 12 months — show end-month + year
   return d.toLocaleDateString("en-US", { month: "short", year: "2-digit" });
+}
+
+function findClosestPrice(
+  history: PriceHistory,
+  isoDate: string,
+): number | null {
+  const target = new Date(isoDate).getTime();
+  let best: { delta: number; close: number } | null = null;
+  for (const p of history.points) {
+    const t = new Date(p.date).getTime();
+    const delta = Math.abs(t - target);
+    if (best === null || delta < best.delta) {
+      best = { delta, close: p.close };
+    }
+  }
+  // Reject if closest match is more than 90 days away — avoid stale prices
+  // for very-old reporting dates outside the 5y price window.
+  if (best === null || best.delta > 90 * 24 * 60 * 60 * 1000) return null;
+  return best.close;
 }
 
 // ---- View builder -------------------------------------------------------
 
 type ViewPoint = { label: string; value: number; x: number; y: number };
 
-function buildView(points: { label: string; value: number }[], kind: SeriesKind) {
+function buildView(active: Series) {
+  const points = active.points;
+  const kind = active.kind;
   const values = points.map((p) => p.value);
-  const minRaw = Math.min(...values);
-  const maxRaw = Math.max(...values);
-  // For bar charts, anchor lower bound at 0 (or below if values negative)
+
+  // Combine primary values with overlay values for shared-axis scaling
+  const overlayValues = active.overlay?.points.map((p) => p.value) ?? [];
+  const allPrimary = [...values, ...overlayValues];
+
+  const minRaw = Math.min(...allPrimary);
+  const maxRaw = Math.max(...allPrimary);
   const yMinTarget = kind === "bar" ? Math.min(0, minRaw) : minRaw;
   const yMaxTarget = kind === "bar" ? Math.max(0, maxRaw) : maxRaw;
   const pad =
@@ -571,20 +837,17 @@ function buildView(points: { label: string; value: number }[], kind: SeriesKind)
   const innerH = H - PAD.top - PAD.bottom;
   const stepX = innerW / Math.max(points.length - 1, 1);
 
-  const out: ViewPoint[] = points.map((p, i) => {
-    // For single-point series, center; otherwise space evenly
-    const x =
-      points.length === 1 ? PAD.left + innerW / 2 : PAD.left + i * stepX;
-    return {
-      label: p.label,
-      value: p.value,
-      x,
-      y:
-        yMax === yMin
-          ? PAD.top + innerH / 2
-          : PAD.top + (1 - (p.value - yMin) / (yMax - yMin)) * innerH,
-    };
-  });
+  const yOf = (v: number) =>
+    yMax === yMin
+      ? PAD.top + innerH / 2
+      : PAD.top + (1 - (v - yMin) / (yMax - yMin)) * innerH;
+
+  const out: ViewPoint[] = points.map((p, i) => ({
+    label: p.label,
+    value: p.value,
+    x: points.length === 1 ? PAD.left + innerW / 2 : PAD.left + i * stepX,
+    y: yOf(p.value),
+  }));
 
   const path = out
     .map(
@@ -598,23 +861,80 @@ function buildView(points: { label: string; value: number }[], kind: SeriesKind)
         out.map((p) => `L${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ") +
         ` L${out[out.length - 1].x.toFixed(1)},${(H - PAD.bottom).toFixed(1)} Z`;
 
+  // Overlay rendering (uses same x positions as primary; same y scale)
+  let overlayPoints: ViewPoint[] | null = null;
+  let overlayPath: string | null = null;
+  if (active.overlay && active.overlay.points.length === points.length) {
+    overlayPoints = active.overlay.points.map((p, i) => ({
+      label: p.label,
+      value: p.value,
+      x: out[i].x,
+      y: yOf(p.value),
+    }));
+    overlayPath = overlayPoints
+      .map(
+        (p, i) =>
+          `${i === 0 ? "M" : "L"}${p.x.toFixed(1)},${p.y.toFixed(1)}`,
+      )
+      .join(" ");
+  }
+
+  // Secondary axis (right side) — independent scale
+  let secondaryPoints: ViewPoint[] | null = null;
+  let secondaryRawValues: number[] | null = null;
+  let secondaryPath: string | null = null;
+  let secondaryYTicks: { value: number; y: number }[] | null = null;
+  let secondaryYZero: number | null = null;
+  if (active.secondary && active.secondary.points.length === points.length) {
+    secondaryRawValues = active.secondary.points.map((p) => p.value);
+    const sMin = Math.min(...secondaryRawValues);
+    const sMax = Math.max(...secondaryRawValues);
+    // Pad and include 0 for premium/discount charts
+    const sMinTarget = Math.min(0, sMin);
+    const sMaxTarget = Math.max(0, sMax);
+    const sPad = (sMaxTarget - sMinTarget) * 0.15 || Math.abs(sMaxTarget) * 0.1 || 5;
+    const s2Min = niceFloor(sMinTarget - sPad);
+    const s2Max = niceCeil(sMaxTarget + sPad);
+
+    const sYof = (v: number) =>
+      s2Max === s2Min
+        ? PAD.top + innerH / 2
+        : PAD.top + (1 - (v - s2Min) / (s2Max - s2Min)) * innerH;
+
+    secondaryPoints = active.secondary.points.map((p, i) => ({
+      label: p.label,
+      value: p.value,
+      x: out[i].x,
+      y: sYof(p.value),
+    }));
+    secondaryPath = secondaryPoints
+      .map(
+        (p, i) =>
+          `${i === 0 ? "M" : "L"}${p.x.toFixed(1)},${p.y.toFixed(1)}`,
+      )
+      .join(" ");
+
+    secondaryYTicks = [];
+    const tickCount = 4;
+    for (let i = 0; i <= tickCount; i++) {
+      const v = s2Min + ((s2Max - s2Min) * i) / tickCount;
+      secondaryYTicks.push({ value: v, y: sYof(v) });
+    }
+    if (0 >= s2Min && 0 <= s2Max) {
+      secondaryYZero = sYof(0);
+    }
+  }
+
   // Y ticks
   const yTicks: { value: number; y: number }[] = [];
   const tickCount = 4;
   for (let i = 0; i <= tickCount; i++) {
     const v = yMin + ((yMax - yMin) * i) / tickCount;
-    const y =
-      yMax === yMin
-        ? PAD.top + innerH / 2
-        : PAD.top + (1 - (v - yMin) / (yMax - yMin)) * innerH;
-    yTicks.push({ value: v, y });
+    yTicks.push({ value: v, y: yOf(v) });
   }
 
-  // Y zero line for bar charts
   const yZero =
-    kind === "bar" && 0 >= yMin && 0 <= yMax
-      ? PAD.top + (1 - (0 - yMin) / (yMax - yMin)) * innerH
-      : null;
+    kind === "bar" && 0 >= yMin && 0 <= yMax ? yOf(0) : null;
 
   // X ticks
   const xTickCount = Math.min(8, out.length);
@@ -630,7 +950,21 @@ function buildView(points: { label: string; value: number }[], kind: SeriesKind)
     }
   }
 
-  return { points: out, path, area, yTicks, xTicks, yZero };
+  return {
+    points: out,
+    path,
+    area,
+    yTicks,
+    xTicks,
+    yZero,
+    overlayPoints,
+    overlayPath,
+    secondaryPoints,
+    secondaryRawValues,
+    secondaryPath,
+    secondaryYTicks,
+    secondaryYZero,
+  };
 }
 
 function nearestIndex(x: number, points: ViewPoint[]) {
@@ -669,6 +1003,9 @@ function formatY(v: number, unit: Unit) {
   if (unit.kind === "thousands") {
     return `${formatNum(v)}K acres`;
   }
+  if (unit.kind === "percent") {
+    return `${v >= 0 ? "+" : ""}${v.toFixed(1)}%`;
+  }
   return `${v.toFixed(2)}×`;
 }
 
@@ -684,6 +1021,9 @@ function formatTick(v: number, unit: Unit) {
   }
   if (unit.kind === "thousands") {
     return Math.round(v).toLocaleString("en-US");
+  }
+  if (unit.kind === "percent") {
+    return `${v >= 0 ? "+" : ""}${v.toFixed(0)}%`;
   }
   return `${v.toFixed(1)}×`;
 }
