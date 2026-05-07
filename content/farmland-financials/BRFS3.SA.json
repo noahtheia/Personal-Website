@@ -1,0 +1,73 @@
+{
+  "ticker": "BRFS3.SA",
+  "currency": "BRL",
+  "sourceUrl": "https://ri.brf-global.com/",
+  "notes": "BRF S.A. (B3: BRFS3, NYSE: BRFS) — global poultry + pork + processed foods (Sadia, Perdigão, Qualy). Marfrig holds ~50.5% controlling stake (since 2022). Major exporter (Halal/Middle East/Asia). FY ends Dec 31. Pre-2024 EBITDA was depressed by avian-influenza-related restrictions and feed-cost inflation; FY24 marks a strong margin recovery on lower corn/soy and improved Halal pricing.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 41700,
+      "revenueMM": 39431,
+      "ebitdaMM": 4624,
+      "netIncomeMM": 30,
+      "totalDebtMM": 18800,
+      "cashMM": 6900,
+      "netDebtMM": 11900,
+      "sharesOutMM": 812,
+      "notes": "FY20: Revenue R$39.4bn, EBITDA R$4.6bn (margin 11.7%). Margins pressured by COVID logistics."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 50600,
+      "revenueMM": 48343,
+      "ebitdaMM": 4525,
+      "netIncomeMM": -1374,
+      "totalDebtMM": 21100,
+      "cashMM": 7400,
+      "netDebtMM": 13700,
+      "sharesOutMM": 812,
+      "notes": "FY21: Revenue R$48.3bn (+23%), EBITDA R$4.5bn (margin 9.4%) — feed cost inflation hit margins; net loss R$1.4bn."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 56400,
+      "revenueMM": 53710,
+      "ebitdaMM": 4170,
+      "netIncomeMM": -3082,
+      "totalDebtMM": 22500,
+      "cashMM": 6300,
+      "netDebtMM": 16200,
+      "sharesOutMM": 1063,
+      "notes": "FY22: Revenue R$53.7bn (+11%), EBITDA R$4.2bn (margin 7.8%) — record-low operating margins on persistent input costs. Net loss R$3.1bn. R$5bn capital raise."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 56300,
+      "revenueMM": 53615,
+      "ebitdaMM": 4793,
+      "netIncomeMM": -1869,
+      "totalDebtMM": 22700,
+      "cashMM": 11500,
+      "netDebtMM": 11200,
+      "sharesOutMM": 1685,
+      "notes": "FY23: Revenue R$53.6bn (flat), EBITDA R$4.8bn (margin 8.9%) — early signs of margin recovery in 2H. Net loss R$1.9bn. Marfrig increased stake; capital structure strengthened post-followon."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 64500,
+      "revenueMM": 61432,
+      "ebitdaMM": 8214,
+      "netIncomeMM": 3354,
+      "totalDebtMM": 18900,
+      "cashMM": 9100,
+      "netDebtMM": 9800,
+      "sharesOutMM": 1685,
+      "notes": "FY24: Strong recovery. Revenue R$61.4bn (+15%), EBITDA R$8.2bn (margin 13.4%) — best in 5+ years. Net income R$3.35bn (vs R$1.9bn loss). Leverage 1.2x. Resumed dividends."
+    }
+  ]
+}

@@ -19,6 +19,7 @@ const CurrencySchema = z.enum([
   "IDR",
   "SGD",
   "NZD",
+  "THB",
 ]);
 type Currency = z.infer<typeof CurrencySchema>;
 

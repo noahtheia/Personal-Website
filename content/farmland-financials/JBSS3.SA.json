@@ -1,0 +1,73 @@
+{
+  "ticker": "JBSS3.SA",
+  "currency": "BRL",
+  "sourceUrl": "https://ri.jbs.com.br/",
+  "notes": "JBS S.A. (B3: JBSS3) — world's largest meat producer. Five business units: Beef North America, Beef South America, Seara (Brazilian processed/poultry), Pilgrim's Pride (66.4% owned NYSE: PPC), and Friboi/Australia. NYSE secondary listing JBS (JBS) effective June 2025. FY ends Dec 31. All figures BRL-mm consolidated IFRS. Receita bruta (gross revenue) = net revenue + indirect taxes (~1.5-2% in BR) where disclosed; international sales no gross-up. Net debt / leverage shown on company-defined basis (incl. lease liabilities).",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 275000,
+      "revenueMM": 270204,
+      "ebitdaMM": 26997,
+      "netIncomeMM": 4357,
+      "totalDebtMM": 79600,
+      "cashMM": 22100,
+      "netDebtMM": 57500,
+      "sharesOutMM": 2370,
+      "notes": "FY20: Pandemic disruption + record beef cycle in NA. Net revenue R$270.2bn, EBITDA R$27.0bn (margin 10.0%), NI R$4.36bn."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 355000,
+      "revenueMM": 350739,
+      "ebitdaMM": 44521,
+      "netIncomeMM": 20122,
+      "totalDebtMM": 91300,
+      "cashMM": 19400,
+      "netDebtMM": 71900,
+      "sharesOutMM": 2370,
+      "notes": "FY21: Peak NA beef cycle. Revenue R$350.7bn (+30%), EBITDA R$44.5bn (margin 12.7%) — record year. Aggressive buyback."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 380000,
+      "revenueMM": 374851,
+      "ebitdaMM": 32466,
+      "netIncomeMM": 15431,
+      "totalDebtMM": 99800,
+      "cashMM": 25200,
+      "netDebtMM": 74600,
+      "sharesOutMM": 2218,
+      "notes": "FY22: Revenue R$374.9bn (+7%), EBITDA R$32.5bn (margin 8.7%) — beef cycle began rolling over in NA."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 369000,
+      "revenueMM": 363817,
+      "ebitdaMM": 16029,
+      "netIncomeMM": -1063,
+      "totalDebtMM": 109300,
+      "cashMM": 22000,
+      "netDebtMM": 87300,
+      "sharesOutMM": 2217,
+      "notes": "FY23: Trough year. Revenue R$363.8bn (-3%), EBITDA R$16.0bn (margin 4.4%) — NA beef margin compression + chicken weak. Net loss R$1.1bn."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 422300,
+      "revenueMM": 416095,
+      "ebitdaMM": 30238,
+      "netIncomeMM": 6770,
+      "totalDebtMM": 95400,
+      "cashMM": 24800,
+      "netDebtMM": 70600,
+      "sharesOutMM": 2217,
+      "notes": "FY24: Recovery. Revenue R$416.1bn (+14%), EBITDA R$30.2bn (margin 7.3%), NI R$6.77bn. Leverage 2.2x. Dividend R$2.3bn."
+    }
+  ]
+}

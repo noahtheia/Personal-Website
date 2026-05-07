@@ -1,0 +1,73 @@
+{
+  "ticker": "O32.SI",
+  "currency": "SGD",
+  "sourceUrl": "https://www.olamgroup.com/investors.html",
+  "notes": "Olam Group — Singapore-listed agri / food ingredients trader (rebrand from Olam International, Jan 2022). Three operating groups: ofi (olam food ingredients — cocoa, coffee, dairy, nuts, spices); Olam Agri (grains, oilseeds, edible oils, rice, cotton — sold 64.6% to SALIC in 2024 for US$1.78B); Remaining Olam Group (gestation businesses + corporate). Reports in SGD. FY = calendar year. Net debt heavy due to commodity inventory financing. FY history from Olam annual reports & half-year results announcements via olamgroup.com.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 35808,
+      "ebitdaMM": 2150,
+      "netIncomeMM": 280,
+      "totalDebtMM": 19500,
+      "cashMM": 2200,
+      "netDebtMM": 17300,
+      "sharesOutMM": 3270,
+      "dividendPerShare": 0.075,
+      "notes": "FY20: Revenue S$35.8B (+9% YoY), PATMI S$280M. Reorganization plan announced (split into Olam Food Ingredients + Olam Global Agri + Remaining Olam Group)."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 47242,
+      "ebitdaMM": 2400,
+      "netIncomeMM": 685,
+      "totalDebtMM": 22000,
+      "cashMM": 2800,
+      "netDebtMM": 19200,
+      "sharesOutMM": 3370,
+      "dividendPerShare": 0.085,
+      "notes": "FY21: Record revenue S$47.2B (+32% YoY), PATMI S$685M. Olam Global Agri sold 35.4% stake to SALIC (Saudi Agricultural Investment) for US$1.24B."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 54914,
+      "ebitdaMM": 2150,
+      "netIncomeMM": 459,
+      "totalDebtMM": 24500,
+      "cashMM": 3000,
+      "netDebtMM": 21500,
+      "sharesOutMM": 3470,
+      "dividendPerShare": 0.085,
+      "notes": "FY22: Revenue S$54.9B record, PATMI S$459M. Rebranded to Olam Group; ofi separation listing plans deferred."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 47823,
+      "ebitdaMM": 1850,
+      "netIncomeMM": -322,
+      "totalDebtMM": 21800,
+      "cashMM": 3200,
+      "netDebtMM": 18600,
+      "sharesOutMM": 3859,
+      "dividendPerShare": 0.04,
+      "notes": "FY23: Revenue S$47.8B (-13%), net loss S$322M on ofi cocoa working capital + Nigeria forex losses. Final dividend slashed."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 36430,
+      "ebitdaMM": 1650,
+      "netIncomeMM": -810,
+      "totalDebtMM": 19500,
+      "cashMM": 3100,
+      "netDebtMM": 16400,
+      "sharesOutMM": 3859,
+      "dividendPerShare": 0.04,
+      "notes": "FY24: Revenue S$36.4B (-24% YoY post Olam Agri deconsolidation; SALIC majority stake completed). Net loss S$810M on cocoa price spike margin squeeze + reorg costs. ofi planning UK + Singapore concurrent listing."
+    }
+  ]
+}

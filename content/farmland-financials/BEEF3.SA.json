@@ -1,0 +1,73 @@
+{
+  "ticker": "BEEF3.SA",
+  "currency": "BRL",
+  "sourceUrl": "https://ri.minervafoods.com/",
+  "notes": "Minerva S.A. (B3: BEEF3) — South American beef pure-play with operations in Brazil, Paraguay, Uruguay, Argentina, Colombia, Australia. Aug 2024: closed acquisition of 16 plants from Marfrig (Brazil + Argentina + Chile + Uruguay) for R$7.5bn — transformative deal but elevated leverage. FY ends Dec 31. Net debt elevated post-Marfrig deal closing in 2024 (~R$15bn jump in net debt and capacity uplift ~50%).",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 21000,
+      "revenueMM": 20316,
+      "ebitdaMM": 1924,
+      "netIncomeMM": 380,
+      "totalDebtMM": 8200,
+      "cashMM": 4900,
+      "netDebtMM": 3300,
+      "sharesOutMM": 590,
+      "notes": "FY20: Revenue R$20.3bn, EBITDA R$1.92bn (margin 9.5%)."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 28000,
+      "revenueMM": 26953,
+      "ebitdaMM": 2487,
+      "netIncomeMM": 415,
+      "totalDebtMM": 9700,
+      "cashMM": 5400,
+      "netDebtMM": 4300,
+      "sharesOutMM": 590,
+      "notes": "FY21: Revenue R$26.9bn (+33%), EBITDA R$2.49bn (margin 9.2%) — China demand strong."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 30700,
+      "revenueMM": 29632,
+      "ebitdaMM": 2877,
+      "netIncomeMM": 700,
+      "totalDebtMM": 11200,
+      "cashMM": 6800,
+      "netDebtMM": 4400,
+      "sharesOutMM": 590,
+      "notes": "FY22: Revenue R$29.6bn (+10%), EBITDA R$2.88bn (margin 9.7%)."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 30500,
+      "revenueMM": 29361,
+      "ebitdaMM": 2492,
+      "netIncomeMM": 89,
+      "totalDebtMM": 13100,
+      "cashMM": 7200,
+      "netDebtMM": 5900,
+      "sharesOutMM": 590,
+      "notes": "FY23: Revenue R$29.4bn (-1%), EBITDA R$2.49bn (margin 8.5%) — Brazilian cattle cycle pressure on Brazil ops, offset by Uruguay/Argentina."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "grossRevenueMM": 39800,
+      "revenueMM": 38386,
+      "ebitdaMM": 2348,
+      "netIncomeMM": -360,
+      "totalDebtMM": 16800,
+      "cashMM": 7100,
+      "netDebtMM": 9700,
+      "sharesOutMM": 587,
+      "notes": "FY24: Revenue R$38.4bn (+31% reflecting partial-year contribution from acquired Marfrig plants closed Aug 2024). EBITDA R$2.35bn (margin 6.1%) — integration costs + financial expenses on deal funding produced net loss R$360M. Net debt jumped to ~R$9.7bn. Leverage ~4.1x."
+    }
+  ]
+}
