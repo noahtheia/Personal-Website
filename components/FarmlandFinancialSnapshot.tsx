@@ -429,15 +429,20 @@ export function FarmlandFinancialSnapshot({
                       ((W - PAD.left - PAD.right) / view.points.length) * 0.7,
                     ),
                   );
-                  // Stacked segments (revenue above zero, expenses below)
-                  if (
-                    (view.segmentStacks && view.segmentNames) ||
-                    (view.expenseStacks && view.expenseNames)
-                  ) {
+                  // Stacked segments (revenue above zero, expenses below).
+                  // Years that have segment columns defined globally but
+                  // no per-year contributions (older issuers' early years)
+                  // still need a primary bar — fall through to plain
+                  // when this year's stack would render nothing.
+                  const revStackForYear = view.segmentStacks?.[i] ?? [];
+                  const expStackForYear = view.expenseStacks?.[i] ?? [];
+                  const hasRevSegs = revStackForYear.some((s) => s.value > 0);
+                  const hasExpSegs = expStackForYear.some((s) => s.value > 0);
+                  if (hasRevSegs || hasExpSegs) {
                     return (
                       <g key={i}>
-                        {view.segmentStacks &&
-                          view.segmentStacks[i].map((seg, si) => {
+                        {hasRevSegs &&
+                          revStackForYear.map((seg, si) => {
                             if (seg.value <= 0) return null;
                             const top = Math.min(seg.y0, seg.y1);
                             const height = Math.abs(seg.y0 - seg.y1);
@@ -453,8 +458,8 @@ export function FarmlandFinancialSnapshot({
                               />
                             );
                           })}
-                        {view.expenseStacks &&
-                          view.expenseStacks[i].map((seg, si) => {
+                        {hasExpSegs &&
+                          expStackForYear.map((seg, si) => {
                             if (seg.value <= 0) return null;
                             const top = Math.min(seg.y0, seg.y1);
                             const height = Math.abs(seg.y0 - seg.y1);
@@ -1108,28 +1113,89 @@ function buildIncomeSeries(
   let aggregated: Aggregated[] = [];
 
   if (cadence === "Q") {
-    // Strict quarterly: only Q rows (no FY mixed in). For semi-annual-
-    // only issuers (no Q rows ever), fall back to H rows so the toggle
-    // still surfaces sub-annual granularity.
+    // Strict quarterly when Q rows exist. Otherwise (semi-annual
+    // issuers like AU/UK plc.s), fall back to half-yearly: emit H1
+    // directly and synthesize H2 = FY − H1 for years where both the
+    // interim H1 and the full FY were reported. Years with FY-only
+    // (no interim) are skipped here — Annual mode covers them.
     const qRows = financials.periods.filter(
       (p) => p.periodType === "Q" && typeof p.revenueMM === "number",
     );
-    const sourceRows =
-      qRows.length > 0
-        ? qRows
-        : financials.periods.filter(
-            (p) => p.periodType === "H" && typeof p.revenueMM === "number",
-          );
-    aggregated = sourceRows
-      .map((p) => ({
-        endDate: p.endDate,
-        revenueMM: p.revenueMM as number,
-        grossRevenueMM: p.grossRevenueMM,
-        ebitdaMM: p.ebitdaMM,
-        revenueBySegmentMM: p.revenueBySegmentMM,
-        expensesBySegmentMM: p.expensesBySegmentMM,
-      }))
-      .sort((a, b) => a.endDate.localeCompare(b.endDate));
+    if (qRows.length > 0) {
+      aggregated = qRows
+        .map((p) => ({
+          endDate: p.endDate,
+          revenueMM: p.revenueMM as number,
+          grossRevenueMM: p.grossRevenueMM,
+          ebitdaMM: p.ebitdaMM,
+          revenueBySegmentMM: p.revenueBySegmentMM,
+          expensesBySegmentMM: p.expensesBySegmentMM,
+        }))
+        .sort((a, b) => a.endDate.localeCompare(b.endDate));
+    } else {
+      const hByYear = new Map<number, FinancialsPeriod>();
+      const fyByYear = new Map<number, FinancialsPeriod>();
+      for (const p of financials.periods) {
+        if (typeof p.revenueMM !== "number") continue;
+        const y = new Date(p.endDate).getFullYear();
+        if (p.periodType === "H") hByYear.set(y, p);
+        else if (p.periodType === "FY") fyByYear.set(y, p);
+      }
+      const subtractNum = (
+        fy: FinancialsPeriod,
+        h1: FinancialsPeriod,
+        key: "revenueMM" | "grossRevenueMM" | "ebitdaMM",
+      ): number | undefined =>
+        typeof fy[key] === "number" && typeof h1[key] === "number"
+          ? (fy[key] as number) - (h1[key] as number)
+          : undefined;
+      const subtractSeg = (
+        fy: FinancialsPeriod,
+        h1: FinancialsPeriod,
+        key: "revenueBySegmentMM" | "expensesBySegmentMM",
+      ): Record<string, number> | undefined => {
+        if (!fy[key] || !h1[key]) return undefined;
+        const out: Record<string, number> = {};
+        const keys = new Set([
+          ...Object.keys(fy[key]!),
+          ...Object.keys(h1[key]!),
+        ]);
+        for (const k of keys) {
+          out[k] = (fy[key]![k] ?? 0) - (h1[key]![k] ?? 0);
+        }
+        return out;
+      };
+      const sortedYears = Array.from(
+        new Set([...hByYear.keys(), ...fyByYear.keys()]),
+      ).sort((a, b) => a - b);
+      for (const y of sortedYears) {
+        const h1 = hByYear.get(y);
+        const fy = fyByYear.get(y);
+        if (!h1) continue; // FY-only year — Annual toggle covers it
+        aggregated.push({
+          endDate: h1.endDate,
+          revenueMM: h1.revenueMM as number,
+          grossRevenueMM: h1.grossRevenueMM,
+          ebitdaMM: h1.ebitdaMM,
+          revenueBySegmentMM: h1.revenueBySegmentMM,
+          expensesBySegmentMM: h1.expensesBySegmentMM,
+        });
+        if (fy) {
+          const h2Rev = subtractNum(fy, h1, "revenueMM");
+          if (typeof h2Rev === "number") {
+            aggregated.push({
+              endDate: fy.endDate,
+              revenueMM: h2Rev,
+              grossRevenueMM: subtractNum(fy, h1, "grossRevenueMM"),
+              ebitdaMM: subtractNum(fy, h1, "ebitdaMM"),
+              revenueBySegmentMM: subtractSeg(fy, h1, "revenueBySegmentMM"),
+              expensesBySegmentMM: subtractSeg(fy, h1, "expensesBySegmentMM"),
+            });
+          }
+        }
+      }
+      aggregated.sort((a, b) => a.endDate.localeCompare(b.endDate));
+    }
   } else {
     // Annual: prefer FY rows, synthesize from 4 Q (or 2 H) where missing.
     const byYear = new Map<number, FinancialsPeriod[]>();
