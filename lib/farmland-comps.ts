@@ -135,7 +135,10 @@ export type FarmlandFiling = z.infer<typeof FilingSchema>;
 export type FarmlandSector = Sector;
 export type FarmlandGeography = Geography;
 
-export type PricedFarmlandComp = FarmlandFiling & {
+export type PricedFarmlandComp = Omit<
+  FarmlandFiling,
+  "annualNetIncomeMM" | "annualFcfMM"
+> & {
   // Live local-currency price (raw Yahoo quote).
   localPrice: number | null;
 
