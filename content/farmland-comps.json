@@ -93,7 +93,8 @@
     "sector": "Integrated Farm Operator",
     "geography": "Brazil",
     "operatingCountry": "Brazil",
-    "annualNetIncomeMM": 500
+    "annualNetIncomeMM": 500,
+    "annualFcfMM": -150
   },
   {
     "ticker": "AGRO3.SA",
@@ -117,7 +118,8 @@
     "sector": "Integrated Farm Operator",
     "geography": "Brazil",
     "operatingCountry": "Brazil",
-    "annualNetIncomeMM": 100
+    "annualNetIncomeMM": 100,
+    "annualFcfMM": 130
   },
   {
     "ticker": "RFF.AX",
@@ -166,7 +168,8 @@
     "sector": "Farmland Owner / REIT",
     "geography": "Brazil",
     "operatingCountry": "Brazil",
-    "annualNetIncomeMM": 4.75
+    "annualNetIncomeMM": 4.75,
+    "annualFcfMM": 65
   },
   {
     "ticker": "ALCO",
@@ -237,7 +240,8 @@
     "sector": "Pastoral / Livestock",
     "geography": "Australia",
     "operatingCountry": "Australia",
-    "annualNetIncomeMM": -10
+    "annualNetIncomeMM": -10,
+    "annualFcfMM": 17
   },
   {
     "ticker": "DBF.AX",
@@ -261,7 +265,8 @@
     "sector": "Integrated Farm Operator",
     "geography": "Australia",
     "operatingCountry": "Australia",
-    "annualNetIncomeMM": -12.5
+    "annualNetIncomeMM": -12.5,
+    "annualFcfMM": -7
   },
   {
     "ticker": "ALAGR.PA",
@@ -308,7 +313,8 @@
     "sector": "Integrated Farm Operator",
     "geography": "Australia",
     "operatingCountry": "Australia",
-    "annualNetIncomeMM": 22
+    "annualNetIncomeMM": 22,
+    "annualFcfMM": 34
   },
   {
     "ticker": "CAM.L",
@@ -884,7 +890,8 @@
     "sector": "Protein Producer",
     "geography": "Brazil",
     "operatingCountry": "Brazil",
-    "annualNetIncomeMM": 6770
+    "annualNetIncomeMM": 6770,
+    "annualFcfMM": 17700
   },
   {
     "ticker": "BEEF3.SA",
@@ -905,7 +912,8 @@
     "sector": "Protein Producer",
     "geography": "Brazil",
     "operatingCountry": "Brazil",
-    "annualNetIncomeMM": -360
+    "annualNetIncomeMM": -360,
+    "annualFcfMM": 100
   },
   {
     "ticker": "MRFG3.SA",
@@ -926,7 +934,8 @@
     "sector": "Protein Producer",
     "geography": "Brazil",
     "operatingCountry": "Brazil",
-    "annualNetIncomeMM": 720
+    "annualNetIncomeMM": 720,
+    "annualFcfMM": 4100
   },
   {
     "ticker": "BRFS3.SA",
@@ -947,7 +956,8 @@
     "sector": "Protein Producer",
     "geography": "Brazil",
     "operatingCountry": "Brazil",
-    "annualNetIncomeMM": 3354
+    "annualNetIncomeMM": 3354,
+    "annualFcfMM": 3800
   },
   {
     "ticker": "SMTO3.SA",
@@ -970,7 +980,8 @@
     "sector": "Integrated Farm Operator",
     "geography": "Brazil",
     "operatingCountry": "Brazil",
-    "annualNetIncomeMM": 901
+    "annualNetIncomeMM": 901,
+    "annualFcfMM": 400
   },
   {
     "ticker": "CSAN3.SA",
@@ -993,7 +1004,8 @@
     "sector": "Diversified Agribusiness",
     "geography": "Brazil",
     "operatingCountry": "Brazil",
-    "annualNetIncomeMM": -4500
+    "annualNetIncomeMM": -4500,
+    "annualFcfMM": -1500
   },
   {
     "ticker": "F34.SI",
@@ -1515,7 +1527,8 @@
     "sector": "Rural Services",
     "geography": "Australia",
     "operatingCountry": "Australia",
-    "annualNetIncomeMM": 65.5
+    "annualNetIncomeMM": 65.5,
+    "annualFcfMM": 142
   },
   {
     "ticker": "GNC.AX",
@@ -1535,7 +1548,8 @@
     "sector": "Agribusiness / Trader",
     "geography": "Australia",
     "operatingCountry": "Australia",
-    "annualNetIncomeMM": 70
+    "annualNetIncomeMM": 70,
+    "annualFcfMM": -25
   },
   {
     "ticker": "BGA.AX",
@@ -1555,7 +1569,8 @@
     "sector": "Dairy / Egg Producer",
     "geography": "Australia",
     "operatingCountry": "Australia",
-    "annualNetIncomeMM": 30.2
+    "annualNetIncomeMM": 30.2,
+    "annualFcfMM": 114
   },
   {
     "ticker": "A2M.AX",
@@ -1576,7 +1591,8 @@
     "sector": "Dairy / Egg Producer",
     "geography": "New Zealand",
     "operatingCountry": "New Zealand",
-    "annualNetIncomeMM": 167.6
+    "annualNetIncomeMM": 167.6,
+    "annualFcfMM": 218
   },
   {
     "ticker": "FDP",
@@ -2443,7 +2459,8 @@
     "sector": "Agribusiness / Trader",
     "geography": "Brazil",
     "operatingCountry": "Brazil",
-    "annualNetIncomeMM": 95
+    "annualNetIncomeMM": 95,
+    "annualFcfMM": 10
   },
   {
     "ticker": "AGXY3.SA",
@@ -2463,7 +2480,8 @@
     "sector": "Agribusiness / Trader",
     "geography": "Brazil",
     "operatingCountry": "Brazil",
-    "annualNetIncomeMM": -1000
+    "annualNetIncomeMM": -1000,
+    "annualFcfMM": -400
   },
   {
     "ticker": "TTEN3.SA",
@@ -2483,7 +2501,8 @@
     "sector": "Diversified Agribusiness",
     "geography": "Brazil",
     "operatingCountry": "Brazil",
-    "annualNetIncomeMM": 440
+    "annualNetIncomeMM": 440,
+    "annualFcfMM": -350
   },
   {
     "ticker": "VITT3.SA",
@@ -2503,7 +2522,8 @@
     "sector": "Crop Inputs / Fertilizer",
     "geography": "Brazil",
     "operatingCountry": "Brazil",
-    "annualNetIncomeMM": 95
+    "annualNetIncomeMM": 95,
+    "annualFcfMM": 20
   },
   {
     "ticker": "PRESCO.LG",
