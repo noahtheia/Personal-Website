@@ -8,9 +8,11 @@ import {
 import { getPropertyDetail } from "@/lib/farmland-properties";
 import { getFinancials } from "@/lib/farmland-financials";
 import { fetchPriceHistory } from "@/lib/farmland-history";
+import { getInsiders } from "@/lib/farmland-insiders";
 import { FarmlandDetailTabs } from "@/components/FarmlandDetailTabs";
 import { FarmlandPropertyDetail } from "@/components/FarmlandPropertyDetail";
 import { FarmlandFinancialSnapshot } from "@/components/FarmlandFinancialSnapshot";
+import { FarmlandInsiders } from "@/components/FarmlandInsiders";
 
 export const revalidate = 3600;
 
@@ -50,6 +52,7 @@ export default async function PublicFarmlandTickerPage({
   const comps = await getPricedFarmlandComps();
   const priced = comps.find((c) => c.ticker === decoded);
   const history = await fetchPriceHistory(decoded);
+  const insiders = getInsiders(decoded);
 
   return (
     <div>
@@ -107,6 +110,10 @@ export default async function PublicFarmlandTickerPage({
           />
         }
       />
+
+      {insiders && insiders.transactions.length > 0 && (
+        <FarmlandInsiders data={insiders} />
+      )}
     </div>
   );
 }
