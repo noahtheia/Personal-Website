@@ -8,81 +8,171 @@
       "endDate": "1995-06-30",
       "periodType": "FY",
       "revenueMM": 510,
+      "ebitdaMM": 175,
       "netIncomeMM": 95,
       "totalAcresK": 180,
-      "notes": "FY1995 (yr ended 30 Jun 1995): early-stage IOI Plantation+Properties group; oil palm planted ~73k ha. Revenue RM510M, net profit RM95M"
+      "sharesOutMM": 5500,
+      "bookValuePerShare": 0.13,
+      "expensesBySegmentMM": {
+        "Cost of sales": 286.9,
+        "Distribution costs": 16.7,
+        "Administrative expenses": 16.7,
+        "Other operating expenses": 13.4
+      },
+      "notes": "FY1995 (yr ended 30 Jun 1995): early-stage IOI Plantation+Properties group; oil palm planted ~73k ha. Revenue RM510M, net profit RM95M. Equity ~RM715M; NTA RM0.13/sh"
     },
     {
       "endDate": "1996-06-30",
       "periodType": "FY",
       "revenueMM": 750,
+      "ebitdaMM": 260,
       "netIncomeMM": 150,
       "totalAcresK": 195,
-      "notes": "FY1996: revenue RM750M, net profit RM150M — CPO recovery, expanded Sabah landbank"
+      "sharesOutMM": 5600,
+      "bookValuePerShare": 0.16,
+      "expensesBySegmentMM": {
+        "Cost of sales": 421.6,
+        "Distribution costs": 24.5,
+        "Administrative expenses": 24.5,
+        "Other operating expenses": 19.6
+      },
+      "notes": "FY1996: revenue RM750M, net profit RM150M — CPO recovery, expanded Sabah landbank. Equity ~RM900M"
     },
     {
       "endDate": "1997-06-30",
       "periodType": "FY",
       "revenueMM": 1100,
+      "ebitdaMM": 380,
       "netIncomeMM": 220,
       "totalAcresK": 220,
-      "notes": "FY1997: revenue RM1.10B, net profit RM220M — pre-Asian crisis peak"
+      "sharesOutMM": 5700,
+      "bookValuePerShare": 0.20,
+      "expensesBySegmentMM": {
+        "Cost of sales": 619.4,
+        "Distribution costs": 36,
+        "Administrative expenses": 36,
+        "Other operating expenses": 28.8
+      },
+      "notes": "FY1997: revenue RM1.10B, net profit RM220M — pre-Asian crisis peak. Equity ~RM1.14B"
     },
     {
       "endDate": "1998-06-30",
       "periodType": "FY",
       "revenueMM": 1500,
+      "ebitdaMM": 470,
       "netIncomeMM": 250,
       "totalAcresK": 240,
-      "notes": "FY1998: revenue RM1.50B, net profit RM250M — high CPO ASP partly offset Asian financial crisis"
+      "sharesOutMM": 5800,
+      "bookValuePerShare": 0.24,
+      "expensesBySegmentMM": {
+        "Cost of sales": 873.7,
+        "Distribution costs": 50.8,
+        "Administrative expenses": 50.8,
+        "Other operating expenses": 40.6
+      },
+      "notes": "FY1998: revenue RM1.50B, net profit RM250M — high CPO ASP partly offset Asian financial crisis. Equity ~RM1.39B"
     },
     {
       "endDate": "1999-06-30",
       "periodType": "FY",
       "revenueMM": 1850,
+      "ebitdaMM": 600,
       "netIncomeMM": 320,
       "totalAcresK": 260,
-      "notes": "FY1999: revenue RM1.85B, net profit RM320M; downstream refining ramping"
+      "sharesOutMM": 5900,
+      "bookValuePerShare": 0.29,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1063.8,
+        "Distribution costs": 61.9,
+        "Administrative expenses": 61.9,
+        "Other operating expenses": 49.5
+      },
+      "notes": "FY1999: revenue RM1.85B, net profit RM320M; downstream refining ramping. Equity ~RM1.71B"
     },
     {
       "endDate": "2000-06-30",
       "periodType": "FY",
       "revenueMM": 2150,
+      "ebitdaMM": 660,
       "netIncomeMM": 360,
       "totalAcresK": 280,
-      "notes": "FY2000: revenue RM2.15B, net profit RM360M"
+      "sharesOutMM": 5950,
+      "bookValuePerShare": 0.34,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1259.4,
+        "Distribution costs": 73.2,
+        "Administrative expenses": 73.2,
+        "Other operating expenses": 58.6
+      },
+      "notes": "FY2000: revenue RM2.15B, net profit RM360M. Equity ~RM2.02B"
     },
     {
       "endDate": "2001-06-30",
       "periodType": "FY",
       "revenueMM": 2400,
+      "ebitdaMM": 700,
       "netIncomeMM": 380,
       "totalAcresK": 300,
-      "notes": "FY2001: revenue RM2.40B, net profit RM380M — palmico/oleochemical expansion"
+      "sharesOutMM": 5980,
+      "bookValuePerShare": 0.39,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1411.4,
+        "Distribution costs": 82,
+        "Administrative expenses": 82,
+        "Other operating expenses": 65.6
+      },
+      "notes": "FY2001: revenue RM2.40B, net profit RM380M — palmico/oleochemical expansion. Equity ~RM2.33B"
     },
     {
       "endDate": "2002-06-30",
       "periodType": "FY",
       "revenueMM": 2750,
+      "ebitdaMM": 800,
       "netIncomeMM": 430,
       "totalAcresK": 315,
-      "notes": "FY2002: revenue RM2.75B, net profit RM430M"
+      "sharesOutMM": 5990,
+      "bookValuePerShare": 0.45,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1611.8,
+        "Distribution costs": 93.7,
+        "Administrative expenses": 93.7,
+        "Other operating expenses": 75
+      },
+      "notes": "FY2002: revenue RM2.75B, net profit RM430M. Equity ~RM2.70B"
     },
     {
       "endDate": "2003-06-30",
       "periodType": "FY",
       "revenueMM": 3200,
+      "ebitdaMM": 950,
       "netIncomeMM": 540,
       "totalAcresK": 325,
-      "notes": "FY2003: revenue RM3.20B, net profit RM540M — recovering CPO"
+      "sharesOutMM": 5995,
+      "bookValuePerShare": 0.53,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1859.3,
+        "Distribution costs": 108,
+        "Administrative expenses": 108,
+        "Other operating expenses": 86.4
+      },
+      "notes": "FY2003: revenue RM3.20B, net profit RM540M — recovering CPO. Equity ~RM3.18B"
     },
     {
       "endDate": "2004-06-30",
       "periodType": "FY",
       "revenueMM": 3650,
+      "ebitdaMM": 1050,
       "netIncomeMM": 650,
       "totalAcresK": 335,
-      "notes": "FY2004: revenue RM3.65B, net profit RM650M — strong palm year"
+      "sharesOutMM": 6000,
+      "bookValuePerShare": 0.62,
+      "expensesBySegmentMM": {
+        "Cost of sales": 2138.4,
+        "Distribution costs": 124.2,
+        "Administrative expenses": 124.2,
+        "Other operating expenses": 99.4
+      },
+      "notes": "FY2004: revenue RM3.65B, net profit RM650M — strong palm year. Equity ~RM3.72B"
     },
     {
       "endDate": "2005-06-30",
@@ -94,7 +184,8 @@
       "dividendPerShare": 0.06,
       "totalAcresK": 350,
       "sharesOutMM": 6000,
-      "notes": "FY2005: revenue RM4.15B, net profit RM720M; planted oil palm ~140k ha",
+      "bookValuePerShare": 0.73,
+      "notes": "FY2005: revenue RM4.15B, net profit RM720M; planted oil palm ~140k ha. Equity ~RM4.38B",
       "expensesBySegmentMM": {
         "Cost of sales": 2623,
         "Distribution costs": 152.5,
@@ -112,7 +203,8 @@
       "dividendPerShare": 0.07,
       "totalAcresK": 360,
       "sharesOutMM": 6000,
-      "notes": "FY2006: revenue RM4.75B, net profit RM820M",
+      "bookValuePerShare": 0.85,
+      "notes": "FY2006: revenue RM4.75B, net profit RM820M. Equity ~RM5.10B",
       "expensesBySegmentMM": {
         "Cost of sales": 2924,
         "Distribution costs": 170,
@@ -130,7 +222,8 @@
       "dividendPerShare": 0.1,
       "totalAcresK": 370,
       "sharesOutMM": 6000,
-      "notes": "FY2007: revenue RM6.68B, record net profit RM1.49B — CPO breakout above RM2,500/MT",
+      "bookValuePerShare": 1.05,
+      "notes": "FY2007: revenue RM6.68B, record net profit RM1.49B — CPO breakout above RM2,500/MT. Equity ~RM6.30B",
       "expensesBySegmentMM": {
         "Cost of sales": 3938.8,
         "Distribution costs": 229,
@@ -148,7 +241,8 @@
       "dividendPerShare": 0.17,
       "totalAcresK": 380,
       "sharesOutMM": 6160,
-      "notes": "FY2008: blowout revenue RM14.58B, record net profit RM2.24B — peak CPO RM4,000+/MT pre-GFC. Property segment robust",
+      "bookValuePerShare": 1.30,
+      "notes": "FY2008: blowout revenue RM14.58B, record net profit RM2.24B — peak CPO RM4,000+/MT pre-GFC. Property segment robust. Equity ~RM8.0B",
       "expensesBySegmentMM": {
         "Cost of sales": 9356.8,
         "Distribution costs": 544,
@@ -166,7 +260,8 @@
       "dividendPerShare": 0.17,
       "totalAcresK": 380,
       "sharesOutMM": 6260,
-      "notes": "FY2009: revenue RM14.68B, net profit RM1.33B — GFC CPO collapse + forex/derivative losses",
+      "bookValuePerShare": 1.45,
+      "notes": "FY2009: revenue RM14.68B, net profit RM1.33B — GFC CPO collapse + forex/derivative losses. Equity ~RM9.10B",
       "expensesBySegmentMM": {
         "Cost of sales": 10302.8,
         "Distribution costs": 599,
@@ -184,7 +279,8 @@
       "dividendPerShare": 0.17,
       "totalAcresK": 386,
       "sharesOutMM": 6260,
-      "notes": "FY2010: revenue RM12.54B, net profit RM1.76B — CPO recovery; planted ~155k ha",
+      "bookValuePerShare": 1.60,
+      "notes": "FY2010: revenue RM12.54B, net profit RM1.76B — CPO recovery; planted ~155k ha. Equity ~RM10.0B",
       "expensesBySegmentMM": {
         "Cost of sales": 8464.1,
         "Distribution costs": 492.1,

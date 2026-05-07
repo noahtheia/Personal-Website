@@ -183,7 +183,8 @@
       "noiMM": 8.9,
       "netIncomeMM": -0.7,
       "totalAcresK": 86.6,
-      "notes": "Q1 2020: revenue $10.5M, NOI $8.9M (10-Q)."
+      "bookValuePerShare": 13.75,
+      "notes": "Q1 2020: revenue $10.5M, NOI $8.9M (10-Q). BVPS interpolated between FY19 ($13.82) and FY20 ($13.54) anchors."
     },
     {
       "endDate": "2020-06-30",
@@ -199,7 +200,8 @@
       "noiMM": 9.8,
       "netIncomeMM": -0.5,
       "totalAcresK": 91.6,
-      "notes": "Q2 2020: revenue $11.4M, NOI $9.8M."
+      "bookValuePerShare": 13.68,
+      "notes": "Q2 2020: revenue $11.4M, NOI $9.8M. BVPS interpolated FY19→FY20."
     },
     {
       "endDate": "2020-09-30",

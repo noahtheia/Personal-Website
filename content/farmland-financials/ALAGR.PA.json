@@ -7,284 +7,298 @@
     {
       "endDate": "2010-12-31",
       "periodType": "FY",
-      "revenueMM": 14.0,
+      "revenueMM": 14,
       "expensesBySegmentMM": {
-        "Cost of sales": 11.0,
-        "Administrative expenses": 2.0
+        "Cost of sales": 11,
+        "Administrative expenses": 2
       },
-      "ebitdaMM": 1.0,
-      "netIncomeMM": -3.0,
-      "netDebtMM": 12.0,
-      "totalAcresK": 64.0,
-      "sharesOutMM": 18.0,
-      "notes": "FY10: IPO year (Mar 2010 Alternext Paris). Argentinian + Ukrainian ops; ~26,000 ha"
+      "ebitdaMM": 1,
+      "netIncomeMM": -3,
+      "netDebtMM": 12,
+      "totalAcresK": 64,
+      "sharesOutMM": 18,
+      "notes": "FY10: IPO year (Mar 2010 Alternext Paris). Argentinian + Ukrainian ops; ~26,000 ha",
+      "bookValuePerShare": 2.4
     },
     {
       "endDate": "2011-06-30",
       "periodType": "H",
-      "revenueMM": 8.0,
-      "totalAcresK": 79.0
+      "revenueMM": 8,
+      "totalAcresK": 79
     },
     {
       "endDate": "2011-12-31",
       "periodType": "FY",
-      "revenueMM": 22.0,
+      "revenueMM": 22,
       "expensesBySegmentMM": {
         "Cost of sales": 16.5,
         "Administrative expenses": 2.5
       },
-      "ebitdaMM": 3.0,
-      "netIncomeMM": -2.0,
-      "netDebtMM": 18.0,
-      "totalAcresK": 79.0,
-      "sharesOutMM": 18.0,
-      "notes": "FY11: ~32,000 ha; commodity rally helps margins"
+      "ebitdaMM": 3,
+      "netIncomeMM": -2,
+      "netDebtMM": 18,
+      "totalAcresK": 79,
+      "sharesOutMM": 18,
+      "notes": "FY11: ~32,000 ha; commodity rally helps margins",
+      "bookValuePerShare": 2.2
     },
     {
       "endDate": "2012-06-30",
       "periodType": "H",
-      "revenueMM": 9.0,
-      "totalAcresK": 89.0
+      "revenueMM": 9,
+      "totalAcresK": 89
     },
     {
       "endDate": "2012-12-31",
       "periodType": "FY",
-      "revenueMM": 28.0,
+      "revenueMM": 28,
       "expensesBySegmentMM": {
-        "Cost of sales": 21.0,
-        "Administrative expenses": 3.0
+        "Cost of sales": 21,
+        "Administrative expenses": 3
       },
-      "ebitdaMM": 4.0,
+      "ebitdaMM": 4,
       "netIncomeMM": -3.5,
-      "netDebtMM": 28.0,
-      "totalAcresK": 89.0,
-      "sharesOutMM": 18.0,
-      "notes": "FY12: drought weakens grain output; ~36,000 ha"
+      "netDebtMM": 28,
+      "totalAcresK": 89,
+      "sharesOutMM": 18,
+      "notes": "FY12: drought weakens grain output; ~36,000 ha",
+      "bookValuePerShare": 1.85
     },
     {
       "endDate": "2013-06-30",
       "periodType": "H",
-      "revenueMM": 25.0,
-      "totalAcresK": 296.0,
+      "revenueMM": 25,
+      "totalAcresK": 296,
       "notes": "H1 13: Harmelia merger closes — added ~40,000 ha + Eastern Ukraine ops"
     },
     {
       "endDate": "2013-12-31",
       "periodType": "FY",
-      "revenueMM": 70.0,
+      "revenueMM": 70,
       "expensesBySegmentMM": {
-        "Cost of sales": 53.0,
-        "Administrative expenses": 6.0
+        "Cost of sales": 53,
+        "Administrative expenses": 6
       },
-      "ebitdaMM": 11.0,
-      "netIncomeMM": -10.0,
-      "netDebtMM": 55.0,
-      "totalAcresK": 296.0,
-      "sharesOutMM": 35.0,
-      "notes": "FY13: Harmelia merger; land bank ~120,000 ha. Heavy debt"
+      "ebitdaMM": 11,
+      "netIncomeMM": -10,
+      "netDebtMM": 55,
+      "totalAcresK": 296,
+      "sharesOutMM": 35,
+      "notes": "FY13: Harmelia merger; land bank ~120,000 ha. Heavy debt",
+      "bookValuePerShare": 1.85
     },
     {
       "endDate": "2014-06-30",
       "periodType": "H",
-      "revenueMM": 30.0,
-      "totalAcresK": 247.0,
+      "revenueMM": 30,
+      "totalAcresK": 247,
       "notes": "H1 14: Argentine assets disposal; war begins in Eastern Ukraine"
     },
     {
       "endDate": "2014-12-31",
       "periodType": "FY",
-      "revenueMM": 65.0,
+      "revenueMM": 65,
       "expensesBySegmentMM": {
-        "Cost of sales": 51.0,
-        "Administrative expenses": 6.0
+        "Cost of sales": 51,
+        "Administrative expenses": 6
       },
-      "ebitdaMM": 8.0,
-      "netIncomeMM": -25.0,
-      "netDebtMM": 60.0,
-      "totalAcresK": 247.0,
-      "sharesOutMM": 40.0,
-      "notes": "FY14: Argentine sale; UAH collapse; first debt restructuring"
+      "ebitdaMM": 8,
+      "netIncomeMM": -25,
+      "netDebtMM": 60,
+      "totalAcresK": 247,
+      "sharesOutMM": 40,
+      "notes": "FY14: Argentine sale; UAH collapse; first debt restructuring",
+      "bookValuePerShare": 1.1
     },
     {
       "endDate": "2015-06-30",
       "periodType": "H",
-      "revenueMM": 22.0,
-      "totalAcresK": 198.0
+      "revenueMM": 22,
+      "totalAcresK": 198
     },
     {
       "endDate": "2015-12-31",
       "periodType": "FY",
-      "revenueMM": 50.0,
+      "revenueMM": 50,
       "expensesBySegmentMM": {
         "Cost of sales": 36.5,
         "Administrative expenses": 4.5
       },
-      "ebitdaMM": 9.0,
-      "netIncomeMM": -8.0,
-      "netDebtMM": 45.0,
-      "totalAcresK": 198.0,
-      "sharesOutMM": 50.0,
-      "notes": "FY15: continued land bank reduction; debt swap"
+      "ebitdaMM": 9,
+      "netIncomeMM": -8,
+      "netDebtMM": 45,
+      "totalAcresK": 198,
+      "sharesOutMM": 50,
+      "notes": "FY15: continued land bank reduction; debt swap",
+      "bookValuePerShare": 0.7
     },
     {
       "endDate": "2016-06-30",
       "periodType": "H",
-      "revenueMM": 18.0,
-      "totalAcresK": 148.0
+      "revenueMM": 18,
+      "totalAcresK": 148
     },
     {
       "endDate": "2016-12-31",
       "periodType": "FY",
-      "revenueMM": 42.0,
+      "revenueMM": 42,
       "expensesBySegmentMM": {
-        "Cost of sales": 30.0,
-        "Administrative expenses": 4.0
+        "Cost of sales": 30,
+        "Administrative expenses": 4
       },
-      "ebitdaMM": 8.0,
-      "netIncomeMM": -3.0,
-      "netDebtMM": 25.0,
-      "totalAcresK": 148.0,
-      "sharesOutMM": 60.0,
-      "notes": "FY16: lease non-renewals; major debt swap completed"
+      "ebitdaMM": 8,
+      "netIncomeMM": -3,
+      "netDebtMM": 25,
+      "totalAcresK": 148,
+      "sharesOutMM": 60,
+      "notes": "FY16: lease non-renewals; major debt swap completed",
+      "bookValuePerShare": 0.55
     },
     {
       "endDate": "2017-06-30",
       "periodType": "H",
-      "revenueMM": 16.0,
-      "totalAcresK": 124.0
+      "revenueMM": 16,
+      "totalAcresK": 124
     },
     {
       "endDate": "2017-12-31",
       "periodType": "FY",
-      "revenueMM": 38.0,
+      "revenueMM": 38,
       "expensesBySegmentMM": {
         "Cost of sales": 27.5,
         "Administrative expenses": 3.5
       },
-      "ebitdaMM": 7.0,
-      "netIncomeMM": 1.0,
-      "netDebtMM": 18.0,
-      "totalAcresK": 124.0,
-      "sharesOutMM": 65.0,
-      "notes": "FY17: first profitable year post-restructuring"
+      "ebitdaMM": 7,
+      "netIncomeMM": 1,
+      "netDebtMM": 18,
+      "totalAcresK": 124,
+      "sharesOutMM": 65,
+      "notes": "FY17: first profitable year post-restructuring",
+      "bookValuePerShare": 0.5
     },
     {
       "endDate": "2018-06-30",
       "periodType": "H",
-      "revenueMM": 14.0,
-      "totalAcresK": 99.0
+      "revenueMM": 14,
+      "totalAcresK": 99
     },
     {
       "endDate": "2018-12-31",
       "periodType": "FY",
-      "revenueMM": 34.0,
+      "revenueMM": 34,
       "expensesBySegmentMM": {
-        "Cost of sales": 24.0,
-        "Administrative expenses": 3.0
+        "Cost of sales": 24,
+        "Administrative expenses": 3
       },
-      "ebitdaMM": 7.0,
-      "netIncomeMM": 1.0,
-      "netDebtMM": 14.0,
-      "totalAcresK": 99.0,
-      "sharesOutMM": 70.0,
-      "notes": "FY18: continued footprint reduction"
+      "ebitdaMM": 7,
+      "netIncomeMM": 1,
+      "netDebtMM": 14,
+      "totalAcresK": 99,
+      "sharesOutMM": 70,
+      "notes": "FY18: continued footprint reduction",
+      "bookValuePerShare": 0.48
     },
     {
       "endDate": "2019-06-30",
       "periodType": "H",
-      "revenueMM": 16.0,
-      "totalAcresK": 80.0
+      "revenueMM": 16,
+      "totalAcresK": 80
     },
     {
       "endDate": "2019-12-31",
       "periodType": "FY",
-      "revenueMM": 36.0,
+      "revenueMM": 36,
       "expensesBySegmentMM": {
-        "Cost of sales": 25.0,
-        "Administrative expenses": 3.0
+        "Cost of sales": 25,
+        "Administrative expenses": 3
       },
-      "ebitdaMM": 8.0,
+      "ebitdaMM": 8,
       "netIncomeMM": 1.5,
-      "netDebtMM": 11.0,
-      "totalAcresK": 80.0,
-      "sharesOutMM": 80.0,
-      "notes": "FY19: stable Kharkiv-region focused operations"
+      "netDebtMM": 11,
+      "totalAcresK": 80,
+      "sharesOutMM": 80,
+      "notes": "FY19: stable Kharkiv-region focused operations",
+      "bookValuePerShare": 0.45
     },
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
-      "revenueMM": 35.0,
+      "revenueMM": 35,
       "expensesBySegmentMM": {
-        "Cost of sales": 24.0,
-        "Administrative expenses": 3.0
+        "Cost of sales": 24,
+        "Administrative expenses": 3
       },
-      "ebitdaMM": 8.0,
+      "ebitdaMM": 8,
       "netIncomeMM": 1.5,
       "totalAcresK": 70.4,
-      "notes": "FY20: pre-war stable operations"
+      "notes": "FY20: pre-war stable operations",
+      "bookValuePerShare": 0.42
     },
     {
       "endDate": "2021-06-30",
       "periodType": "H",
-      "revenueMM": 18.0,
+      "revenueMM": 18,
       "totalAcresK": 70.4
     },
     {
       "endDate": "2021-12-31",
       "periodType": "FY",
-      "revenueMM": 38.0,
+      "revenueMM": 38,
       "expensesBySegmentMM": {
         "Cost of sales": 25.5,
-        "Administrative expenses": 3.0
+        "Administrative expenses": 3
       },
       "ebitdaMM": 9.5,
-      "netIncomeMM": 2.0,
+      "netIncomeMM": 2,
       "totalAcresK": 70.4,
-      "notes": "FY21: commodity rally"
+      "notes": "FY21: commodity rally",
+      "bookValuePerShare": 0.4
     },
     {
       "endDate": "2022-06-30",
       "periodType": "H",
-      "revenueMM": 15.0,
+      "revenueMM": 15,
       "totalAcresK": 70.4,
       "notes": "H1 22: war disruption begins; Kharkiv-based operations directly impacted"
     },
     {
       "endDate": "2022-12-31",
       "periodType": "FY",
-      "revenueMM": 28.0,
+      "revenueMM": 28,
       "expensesBySegmentMM": {
-        "Cost of sales": 21.0,
-        "Administrative expenses": 3.0
+        "Cost of sales": 21,
+        "Administrative expenses": 3
       },
-      "ebitdaMM": 4.0,
-      "netIncomeMM": -8.0,
+      "ebitdaMM": 4,
+      "netIncomeMM": -8,
       "totalAcresK": 70.4,
-      "notes": "FY22: war write-downs; equipment losses in Kharkiv region"
+      "notes": "FY22: war write-downs; equipment losses in Kharkiv region",
+      "bookValuePerShare": 0.3
     },
     {
       "endDate": "2023-06-30",
       "periodType": "H",
-      "revenueMM": 12.0,
+      "revenueMM": 12,
       "totalAcresK": 70.4
     },
     {
       "endDate": "2023-12-31",
       "periodType": "FY",
-      "revenueMM": 24.0,
+      "revenueMM": 24,
       "expensesBySegmentMM": {
-        "Cost of sales": 16.0,
+        "Cost of sales": 16,
         "Administrative expenses": 2.5
       },
       "ebitdaMM": 5.5,
-      "netIncomeMM": -2.0,
+      "netIncomeMM": -2,
       "totalAcresK": 70.4,
-      "notes": "FY23: partial recovery; equity recapitalisation completed"
+      "notes": "FY23: partial recovery; equity recapitalisation completed",
+      "bookValuePerShare": 0.135
     },
     {
       "endDate": "2024-06-30",
       "periodType": "H",
-      "revenueMM": 11.0,
+      "revenueMM": 11,
       "totalAcresK": 70.4
     },
     {
@@ -296,15 +310,16 @@
         "Administrative expenses": 2.5
       },
       "ebitdaMM": 5.7,
-      "netIncomeMM": -1.0,
+      "netIncomeMM": -1,
       "netDebtMM": 9.19,
       "totalDebtMM": 9.2,
       "cashMM": 0.01,
       "totalAcresK": 70.4,
-      "sharesOutMM": 100.0,
+      "sharesOutMM": 100,
       "navPerShare": 0.111,
-      "propertyBookMM": 3.0,
-      "notes": "FY24 per seed-comps: revenue €22.6M, EBITDA €5.7M, net debt €9.19M, NAV/share €0.111. Filing 2025-06-30. Property book minimal (€3M) reflects Ukrainian farmland is leased not owned."
+      "propertyBookMM": 3,
+      "notes": "FY24 per seed-comps: revenue €22.6M, EBITDA €5.7M, net debt €9.19M, NAV/share €0.111. Filing 2025-06-30. Property book minimal (€3M) reflects Ukrainian farmland is leased not owned.",
+      "bookValuePerShare": 0.111
     }
   ]
 }
