@@ -2,83 +2,102 @@
   "ticker": "SGRO.JK",
   "asOf": "2024-12-31",
   "currency": "IDR",
-  "propertiesNote": "3-row breakdown: Sumatra oil palm (235K ac), Kalimantan oil palm (110K ac), Sago specialty (46K ac).",
+  "propertiesNote": "4-row breakdown calibrated to SGRO FY24 audited: Total assets IDR 10.16T, Total equity IDR 5.72T, Total debt IDR 3.17T. ~158K ha total planted = 48% nucleus / 52% plasma. Sumatra is majority of nucleus (85K ha). Sago specialty separate carve-out.",
   "properties": [
     {
-      "name": "Sumatra oil palm estates + mills",
+      "name": "Sumatra oil palm estates + mills (nucleus)",
       "location": "Sumatra, Indonesia",
-      "acres": 235000,
+      "acres": 130000,
       "cropOrUse": "Mature oil palm + mills",
-      "category": "Indonesian palm \u2014 Sumatra (SGRO)",
-      "fmvPerAcre": 70000000,
-      "fmvRationale": "Sumatra core plantation cluster; mature with mill access",
+      "category": "Indonesian palm — Sumatra (SGRO nucleus)",
+      "fmvPerAcre": 60000000,
+      "fmvPerAcreLow": 48000000,
+      "fmvPerAcreHigh": 72000000,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0,
+      "fmvRationale": "~53K ha Sumatra nucleus (majority of 76K ha total nucleus). Mature with mill access. IDR 60M/acre = ~$3,750/USD per acre",
       "comparablesUsed": [
-        "ID-PALM-MATURE-2024",
+        "SGRO-FY24-AUDITED",
         "ID-PALM-NSUMATRA-2024"
       ],
-      "bookValueMM": 3500000,
-      "fmvPerAcreLow": 56000000.0,
-      "fmvPerAcreHigh": 84000000.0,
-      "capRateLow": 7.5,
-      "capRateHigh": 10.0
+      "bookValueMM": 2800000
     },
     {
-      "name": "Kalimantan oil palm estates",
+      "name": "Kalimantan oil palm estates (nucleus)",
       "location": "Kalimantan, Indonesia",
-      "acres": 110000,
+      "acres": 58000,
       "cropOrUse": "Mature oil palm",
-      "category": "Indonesian palm \u2014 Kalimantan (SGRO)",
-      "fmvPerAcre": 65000000,
-      "fmvRationale": "Kalimantan plantation cluster",
+      "category": "Indonesian palm — Kalimantan (SGRO nucleus)",
+      "fmvPerAcre": 55000000,
+      "fmvPerAcreLow": 44000000,
+      "fmvPerAcreHigh": 66000000,
+      "capRateLow": 7.5,
+      "capRateHigh": 10.0,
+      "fmvRationale": "~23K ha Kalimantan nucleus. Slightly below Sumatra per-acre",
       "comparablesUsed": [
         "ID-PALM-KALIMANTAN-2024"
       ],
-      "bookValueMM": 800000,
-      "fmvPerAcreLow": 52000000.0,
-      "fmvPerAcreHigh": 78000000.0,
-      "capRateLow": 7.5,
-      "capRateHigh": 10.0
+      "bookValueMM": 700000
     },
     {
       "name": "Sago palm operations (specialty)",
       "location": "Riau / South Sumatra (Selat Panjang area)",
       "acres": 46000,
       "cropOrUse": "Sago palm (Indonesia's largest sago producer)",
-      "category": "Indonesian sago specialty (SGRO)",
-      "fmvPerAcre": 35000000,
-      "fmvRationale": "Sago palm specialty crop \u2014 much lower per-acre than oil palm; SGRO is Indonesia's largest sago producer",
+      "category": "Indonesian sago specialty",
+      "fmvPerAcre": 30000000,
+      "fmvPerAcreLow": 24000000,
+      "fmvPerAcreHigh": 36000000,
+      "capRateLow": 9.0,
+      "capRateHigh": 12.0,
+      "fmvRationale": "Sago palm specialty crop — much lower per-acre than oil palm; SGRO is Indonesia's largest sago producer. Specialty + smaller resale market",
       "comparablesUsed": [
         "ID-PALM-IMMATURE-2024"
       ],
-      "bookValueMM": 200000,
-      "fmvPerAcreLow": 28000000.0,
-      "fmvPerAcreHigh": 42000000.0,
+      "bookValueMM": 200000
+    },
+    {
+      "name": "Plasma plantations receivable (smallholder partnerships)",
+      "location": "Indonesia (smallholder areas adjacent to nucleus)",
+      "acres": 203000,
+      "cropOrUse": "Plasma estate partnerships (~82K ha NOT owned by SGRO)",
+      "category": "Plasma plantations (partnership receivable)",
+      "fmvPerAcre": 6000000,
+      "fmvPerAcreLow": 5000000,
+      "fmvPerAcreHigh": 7000000,
+      "excludeFromAcreTotals": true,
       "capRateLow": 9.0,
-      "capRateHigh": 12.0
+      "capRateHigh": 13.0,
+      "fmvRationale": "~82K ha plasma estates owned by smallholder farmers — managed by SGRO under multi-year purchase + advisory agreements. NOT on balance sheet as land asset. SGRO's 52% plasma ratio is HIGHER than AALI/SIMP (~25%) reflecting later-stage development + Indonesia regulatory mandate",
+      "comparablesUsed": [
+        "SGRO-FY24-AUDITED"
+      ],
+      "bookValueMM": 800
     }
   ],
   "comparables": [
     {
-      "id": "ID-PALM-MATURE-2024",
-      "description": "Indonesian mature oil palm with mill access",
-      "location": "Indonesia",
-      "pricePerAcre": 5000,
-      "date": "2024-09-15",
-      "source": "GAPKI 2024 reports"
+      "id": "SGRO-FY24-AUDITED",
+      "description": "PT Sampoerna Agro Tbk FY24 audited balance sheet: Total assets IDR 10.16T, Total liabilities IDR 4.44T, Total equity IDR 5.72T, Total debt IDR 3.17T. ~158K ha total planted area split 48% nucleus (~76K ha) / 52% plasma (~82K ha)",
+      "location": "Sampoerna Agro full balance sheet",
+      "acres": 391000,
+      "pricePerAcre": 14600000,
+      "date": "2024-12-31",
+      "source": "Sampoerna Agro FY24 Annual Report"
     },
     {
       "id": "ID-PALM-NSUMATRA-2024",
-      "description": "North Sumatra mature palm",
+      "description": "North Sumatra mature palm — IDR 60-80M/acre",
       "location": "North Sumatra",
-      "pricePerAcre": 5800,
+      "pricePerAcre": 70000000,
       "date": "2024-10-15",
       "source": "Indonesian palm broker comps 2024"
     },
     {
       "id": "ID-PALM-KALIMANTAN-2024",
-      "description": "Kalimantan palm oil concession",
+      "description": "Kalimantan palm — IDR 45-65M/acre",
       "location": "Kalimantan, Indonesia",
-      "pricePerAcre": 4400,
+      "pricePerAcre": 55000000,
       "date": "2024-09-30",
       "source": "Kalimantan palm broker comps 2024"
     },
@@ -86,10 +105,10 @@
       "id": "ID-PALM-IMMATURE-2024",
       "description": "Indonesian sago / specialty palm",
       "location": "Indonesia",
-      "pricePerAcre": 2500,
+      "pricePerAcre": 12000000,
       "date": "2024-10-15",
       "source": "GAPKI 2024 reports"
     }
   ],
-  "methodology": "PT Sampoerna Agro operates ~158K hectares across Indonesia split between oil palm (majority) and sago palm (specialty). 3-row breakdown by region + crop type:\n- Sumatra oil palm core (235K ac)\n- Kalimantan oil palm (110K ac)\n- Sago palm (46K ac) \u2014 SGRO is Indonesia's largest sago producer; Riau/South Sumatra Selat Panjang area\n\nSago marked at ~50% discount to mature palm per-acre to reflect specialty crop economics + smaller resale market. Total ~391K acres."
+  "methodology": "PT Sampoerna Agro operates ~158K hectares across Indonesia split between oil palm (majority) and sago palm (specialty).\n\nCRITICAL CHANGES vs prior version of this file:\n  • Nucleus acres reduced from 391K (= total planted) to ~188K (= 76K ha nucleus only per Indonesia Investments disclosure)\n  • Plasma row added at 203K acres = 82K ha (excluded from acre totals)\n  • Per-acre adjusted slightly for healthier mark vs broker comp range\n\nFY24 audited: Total assets IDR 10.16T, equity IDR 5.72T, debt IDR 3.17T. Indonesian GAAP cost-method accounting.\n\n4-row breakdown by region + crop type:\n- Sumatra oil palm nucleus (130K ac / 53K ha) — Sumatra accounts for majority of total 85K ha SGRO Sumatra footprint\n- Kalimantan oil palm nucleus (58K ac / 23K ha)\n- Sago palm (46K ac / 19K ha) — SGRO is Indonesia's largest sago producer; specialty crop economics\n- Plasma receivable (203K ac / 82K ha) — smallholder partnerships, excluded from owned acres\n\nSago marked at ~50% discount to mature palm per-acre to reflect specialty crop + smaller resale market."
 }
