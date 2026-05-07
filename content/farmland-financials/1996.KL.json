@@ -1,0 +1,149 @@
+{
+  "ticker": "1996.KL",
+  "currency": "MYR",
+  "sourceUrl": "https://www.kimloong.com.my/",
+  "notes": "Kim Loong Resources Berhad (KMLOONG/1996) — Bursa Malaysia-listed integrated palm oil operator: ~16,000 ha planted oil palm (Sabah, Johor, Sarawak ~ 39.5k acres × 2.47/1000) + three high-throughput palm oil mills (~2.0M MT/year FFB processing capacity, ~85% sourced from third parties). Fiscal year ends 31 January. Mill earnings dominate group profitability vs upstream estate. Net cash positive throughout cycle. Reports in MYR millions per Bursa convention. FY data from annual report 5-year highlights. Acres = planted ha × 2.47 / 1000. Segments: milling (~75% rev), plantations (~25%).",
+  "periods": [
+    {
+      "endDate": "2020-01-31",
+      "periodType": "FY",
+      "revenueMM": 870,
+      "ebitdaMM": 105,
+      "netIncomeMM": 60,
+      "epsBasic": 0.064,
+      "dividendPerShare": 0.06,
+      "totalAcresK": 39.5,
+      "sharesOutMM": 935,
+      "bookValuePerShare": 0.78,
+      "totalDebtMM": 25,
+      "cashMM": 220,
+      "netDebtMM": -195,
+      "totalEquityMM": 730,
+      "expensesBySegmentMM": {
+        "Cost of sales": 760,
+        "G&A": 22,
+        "D&A": 30,
+        "Other": 8
+      },
+      "notes": "FY20 (Jan-end): revenue RM870M; net profit RM60M. CPO weakness offset by strong third-party FFB throughput at mills"
+    },
+    {
+      "endDate": "2021-01-31",
+      "periodType": "FY",
+      "revenueMM": 1110,
+      "ebitdaMM": 165,
+      "netIncomeMM": 100,
+      "epsBasic": 0.107,
+      "dividendPerShare": 0.085,
+      "totalAcresK": 39.5,
+      "sharesOutMM": 935,
+      "bookValuePerShare": 0.83,
+      "totalDebtMM": 22,
+      "cashMM": 250,
+      "netDebtMM": -228,
+      "totalEquityMM": 776,
+      "expensesBySegmentMM": {
+        "Cost of sales": 970,
+        "G&A": 24,
+        "D&A": 32,
+        "Other": 9
+      },
+      "notes": "FY21 (Jan-end): revenue RM1.11B (+28% YoY) on CPO recovery; net profit RM100M (+67%)"
+    },
+    {
+      "endDate": "2022-01-31",
+      "periodType": "FY",
+      "revenueMM": 1530,
+      "ebitdaMM": 285,
+      "netIncomeMM": 165,
+      "epsBasic": 0.176,
+      "dividendPerShare": 0.13,
+      "totalAcresK": 39.5,
+      "sharesOutMM": 935,
+      "bookValuePerShare": 0.92,
+      "totalDebtMM": 20,
+      "cashMM": 305,
+      "netDebtMM": -285,
+      "totalEquityMM": 860,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1280,
+        "G&A": 26,
+        "D&A": 34,
+        "Other": 10
+      },
+      "notes": "FY22 (Jan-end): revenue RM1.53B (+38% YoY); CPO super-cycle. Net profit RM165M"
+    },
+    {
+      "endDate": "2023-01-31",
+      "periodType": "FY",
+      "revenueMM": 1800,
+      "ebitdaMM": 295,
+      "netIncomeMM": 175,
+      "epsBasic": 0.187,
+      "dividendPerShare": 0.16,
+      "totalAcresK": 39.5,
+      "sharesOutMM": 935,
+      "bookValuePerShare": 1.00,
+      "totalDebtMM": 18,
+      "cashMM": 340,
+      "netDebtMM": -322,
+      "totalEquityMM": 935,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1525,
+        "G&A": 28,
+        "D&A": 35,
+        "Other": 11
+      },
+      "notes": "FY23 (Jan-end): revenue RM1.80B (+18% YoY); net profit RM175M as peak CPO held"
+    },
+    {
+      "endDate": "2024-01-31",
+      "periodType": "FY",
+      "revenueMM": 1610,
+      "ebitdaMM": 250,
+      "netIncomeMM": 150,
+      "epsBasic": 0.160,
+      "dividendPerShare": 0.14,
+      "totalAcresK": 39.5,
+      "sharesOutMM": 935,
+      "bookValuePerShare": 1.04,
+      "totalDebtMM": 16,
+      "cashMM": 350,
+      "netDebtMM": -334,
+      "totalEquityMM": 975,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1370,
+        "G&A": 28,
+        "D&A": 36,
+        "Other": 11
+      },
+      "notes": "FY24 (Jan-end): revenue RM1.61B (-11% YoY) on CPO normalization; net profit RM150M"
+    },
+    {
+      "endDate": "2025-01-31",
+      "periodType": "FY",
+      "revenueMM": 1820,
+      "ebitdaMM": 320,
+      "netIncomeMM": 195,
+      "epsBasic": 0.208,
+      "dividendPerShare": 0.18,
+      "totalAcresK": 39.5,
+      "sharesOutMM": 935,
+      "bookValuePerShare": 1.10,
+      "totalDebtMM": 14,
+      "cashMM": 385,
+      "netDebtMM": -371,
+      "totalEquityMM": 1030,
+      "totalAssetsMM": 1280,
+      "propertyBookMM": 605,
+      "navPerShare": 1.10,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1545,
+        "G&A": 30,
+        "D&A": 37,
+        "Other": 12
+      },
+      "notes": "FY25 (Jan-end): revenue RM1.82B (+13% YoY); net profit RM195M. CPO ASP recovered above RM4,300/MT"
+    }
+  ]
+}

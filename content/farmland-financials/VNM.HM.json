@@ -1,0 +1,138 @@
+{
+  "ticker": "VNM.HM",
+  "currency": "VND",
+  "sourceUrl": "https://www.vinamilk.com.vn/en/investor-relations",
+  "notes": "Vietnam Dairy Products JSC (HOSE: VNM) — Vietnam's largest dairy producer (~50%+ domestic milk market share). 13 factories in Vietnam, 3 abroad (US — Driftwood Dairy, Cambodia — Angkor Milk, Poland — JV stake), 13 dairy farms incl. organic in Lam Dong. Products: liquid milk, powdered milk (Optimum, Dielac infant formula), yogurt (Susu), condensed milk (Ong Tho), ice cream, soy milk. Fiscal year ends Dec 31 (Vietnamese standard). All values in VND millions (VND/USD ~25,000; reporting in millions matches IDR convention used elsewhere in the comps universe — Vinamilk's audited statements present figures in VND million). Source: Vinamilk audited consolidated financial statements (PwC Vietnam), full-year reports filed with HOSE. Strong cash position consistently — net cash for years. EPS in VND (a Vinamilk share trades around VND 70-80k). Sector: Dairy / Egg Producer.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 59636000,
+      "revenueBySegmentMM": {
+        "Domestic dairy": 50800000,
+        "Export + foreign subsidiaries": 8836000
+      },
+      "expensesBySegmentMM": {
+        "COGS (raw milk + ingredients)": 33500000,
+        "Selling": 11500000,
+        "G&A": 1500000,
+        "D&A": 2200000
+      },
+      "ebitdaMM": 14500000,
+      "netIncomeMM": 11236000,
+      "totalAssetsMM": 48432000,
+      "totalDebtMM": 7300000,
+      "cashMM": 22000000,
+      "netDebtMM": -14700000,
+      "totalEquityMM": 33647000,
+      "sharesOutMM": 2089.9,
+      "epsBasic": 5295,
+      "dividendPerShare": 4100,
+      "notes": "FY20: revenue VND 59,636B. EBITDA ~VND 14,500B (24% margin). PAT VND 11,236B. Net cash. Strong COVID-resilience year — at-home milk consumption robust."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 60919000,
+      "revenueBySegmentMM": {
+        "Domestic dairy": 51200000,
+        "Export + foreign subsidiaries": 9719000
+      },
+      "expensesBySegmentMM": {
+        "COGS (raw milk + ingredients)": 36700000,
+        "Selling": 12800000,
+        "G&A": 1600000,
+        "D&A": 2400000
+      },
+      "ebitdaMM": 13300000,
+      "netIncomeMM": 10532000,
+      "totalAssetsMM": 53332000,
+      "totalDebtMM": 8800000,
+      "cashMM": 22500000,
+      "netDebtMM": -13700000,
+      "totalEquityMM": 35850000,
+      "sharesOutMM": 2089.9,
+      "epsBasic": 4517,
+      "dividendPerShare": 3850,
+      "notes": "FY21: revenue VND 60,919B (+2%). EBITDA VND 13,300B. PAT VND 10,532B. Margins compressed by raw milk import cost inflation (NZ/EU milk powder)."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 59956000,
+      "revenueBySegmentMM": {
+        "Domestic dairy": 50500000,
+        "Export + foreign subsidiaries": 9456000
+      },
+      "expensesBySegmentMM": {
+        "COGS (raw milk + ingredients)": 38500000,
+        "Selling": 12500000,
+        "G&A": 1700000,
+        "D&A": 2400000
+      },
+      "ebitdaMM": 11500000,
+      "netIncomeMM": 8578000,
+      "totalAssetsMM": 48483000,
+      "totalDebtMM": 5500000,
+      "cashMM": 19500000,
+      "netDebtMM": -14000000,
+      "totalEquityMM": 32816000,
+      "sharesOutMM": 2089.9,
+      "epsBasic": 3632,
+      "dividendPerShare": 3850,
+      "notes": "FY22: revenue VND 59,956B (-2%). EBITDA VND 11,500B. PAT VND 8,578B (-19%). Imported skim milk powder cost peak + IDR/EUR FX pressure on input costs."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 60369000,
+      "revenueBySegmentMM": {
+        "Domestic dairy": 50700000,
+        "Export + foreign subsidiaries": 9669000
+      },
+      "expensesBySegmentMM": {
+        "COGS (raw milk + ingredients)": 36800000,
+        "Selling": 13000000,
+        "G&A": 1800000,
+        "D&A": 2500000
+      },
+      "ebitdaMM": 12100000,
+      "netIncomeMM": 9019000,
+      "totalAssetsMM": 52673000,
+      "totalDebtMM": 5800000,
+      "cashMM": 23500000,
+      "netDebtMM": -17700000,
+      "totalEquityMM": 36207000,
+      "sharesOutMM": 2089.9,
+      "epsBasic": 3914,
+      "dividendPerShare": 3850,
+      "notes": "FY23: revenue VND 60,369B (+1%). EBITDA VND 12,100B. PAT VND 9,019B (+5%). Raw milk powder prices normalizing; gross margin recovery."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 61782000,
+      "revenueBySegmentMM": {
+        "Domestic dairy": 51600000,
+        "Export + foreign subsidiaries": 10182000
+      },
+      "expensesBySegmentMM": {
+        "COGS (raw milk + ingredients)": 37500000,
+        "Selling": 13500000,
+        "G&A": 1900000,
+        "D&A": 2600000
+      },
+      "ebitdaMM": 12200000,
+      "netIncomeMM": 9453000,
+      "totalAssetsMM": 55696000,
+      "totalDebtMM": 5800000,
+      "cashMM": 21500000,
+      "netDebtMM": -15700000,
+      "totalEquityMM": 36800000,
+      "sharesOutMM": 2089.9,
+      "epsBasic": 4500,
+      "dividendPerShare": 4400,
+      "notes": "FY24: revenue VND 61,782B (+2%). EBITDA VND 12,200B (~20% margin). PAT VND 9,453B (+5%). Stable cash machine; sustained net-cash position. Lo Voi Cambodia + Driftwood (US) contributing to export growth."
+    }
+  ]
+}

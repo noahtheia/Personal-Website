@@ -1,0 +1,138 @@
+{
+  "ticker": "URC.PS",
+  "currency": "PHP",
+  "sourceUrl": "https://www.urc.com.ph/investor-relations",
+  "notes": "Universal Robina Corporation (PSE: URC) — JG Summit Holdings flagship food & beverage company, the largest Philippine-based branded food company. Two main businesses: (1) Branded Consumer Foods (BCFG) — snacks, beverages (C2 RTD tea, Refresh juices), candies, biscuits, instant noodles (Nissin partnership), pet food, ice cream — operates in Philippines, Thailand, Vietnam, Indonesia, Malaysia, Australia/NZ (Griffin's, Unifoods, Snack Brands Aus.); (2) Agro-Industrial & Commodities (AIC) — sugar milling (URSUMCO, SONEDCO, CARSUMCO, BISUMCO), flour milling, animal feeds & livestock (hogs, poultry). Fiscal year ends Dec 31. All values in PHP millions. Source: SEC Philippines 17-A annual reports + audited consolidated financial statements. Sector: Diversified Agribusiness (sugar/livestock + branded foods). PHP/USD ~58. Share count ~2,204M.",
+  "periods": [
+    {
+      "endDate": "2020-12-31",
+      "periodType": "FY",
+      "revenueMM": 134210,
+      "revenueBySegmentMM": {
+        "Branded Consumer Foods (BCFG)": 105000,
+        "Agro-Industrial & Commodities (AIC)": 29210
+      },
+      "expensesBySegmentMM": {
+        "COGS (raw materials + production)": 91000,
+        "Selling + advertising": 19000,
+        "G&A": 6500,
+        "D&A": 5500
+      },
+      "ebitdaMM": 18200,
+      "netIncomeMM": 8230,
+      "totalAssetsMM": 161000,
+      "totalDebtMM": 32000,
+      "cashMM": 14500,
+      "netDebtMM": 17500,
+      "totalEquityMM": 80500,
+      "sharesOutMM": 2204.2,
+      "epsBasic": 3.73,
+      "dividendPerShare": 3.05,
+      "notes": "FY20: revenue PHP 134.2B. EBITDA PHP 18.2B. NI PHP 8.23B. COVID hit — at-home consumption boost on snacks offset by HoReCa weakness. Sugar segment soft on global price weakness."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "FY",
+      "revenueMM": 132655,
+      "revenueBySegmentMM": {
+        "Branded Consumer Foods (BCFG)": 103000,
+        "Agro-Industrial & Commodities (AIC)": 29655
+      },
+      "expensesBySegmentMM": {
+        "COGS (raw materials + production)": 91500,
+        "Selling + advertising": 19500,
+        "G&A": 6800,
+        "D&A": 5500
+      },
+      "ebitdaMM": 16700,
+      "netIncomeMM": 7090,
+      "totalAssetsMM": 162500,
+      "totalDebtMM": 33000,
+      "cashMM": 13500,
+      "netDebtMM": 19500,
+      "totalEquityMM": 81000,
+      "sharesOutMM": 2204.2,
+      "epsBasic": 3.22,
+      "dividendPerShare": 3.05,
+      "notes": "FY21: revenue PHP 132.7B (-1%). EBITDA PHP 16.7B. NI PHP 7.09B. Continued mobility restrictions in PH; BCFG margins squeezed by input inflation."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "FY",
+      "revenueMM": 148765,
+      "revenueBySegmentMM": {
+        "Branded Consumer Foods (BCFG)": 116000,
+        "Agro-Industrial & Commodities (AIC)": 32765
+      },
+      "expensesBySegmentMM": {
+        "COGS (raw materials + production)": 105500,
+        "Selling + advertising": 21500,
+        "G&A": 7100,
+        "D&A": 5800
+      },
+      "ebitdaMM": 16900,
+      "netIncomeMM": 7920,
+      "totalAssetsMM": 168000,
+      "totalDebtMM": 35000,
+      "cashMM": 13500,
+      "netDebtMM": 21500,
+      "totalEquityMM": 84000,
+      "sharesOutMM": 2204.2,
+      "epsBasic": 3.59,
+      "dividendPerShare": 3.30,
+      "notes": "FY22: revenue PHP 148.8B (+12%). EBITDA PHP 16.9B. NI PHP 7.92B. Reopening + price increases lifted top-line; sugar prices recovered."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "FY",
+      "revenueMM": 159080,
+      "revenueBySegmentMM": {
+        "Branded Consumer Foods (BCFG)": 124000,
+        "Agro-Industrial & Commodities (AIC)": 35080
+      },
+      "expensesBySegmentMM": {
+        "COGS (raw materials + production)": 113000,
+        "Selling + advertising": 22500,
+        "G&A": 7500,
+        "D&A": 6100
+      },
+      "ebitdaMM": 18500,
+      "netIncomeMM": 11500,
+      "totalAssetsMM": 174000,
+      "totalDebtMM": 35500,
+      "cashMM": 14500,
+      "netDebtMM": 21000,
+      "totalEquityMM": 88500,
+      "sharesOutMM": 2204.2,
+      "epsBasic": 5.22,
+      "dividendPerShare": 3.50,
+      "notes": "FY23: revenue PHP 159.1B (+7%). EBITDA PHP 18.5B (+9%). NI PHP 11.5B (+45%). Strong year on PH sugar price spike + branded foods volume + price."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "FY",
+      "revenueMM": 167000,
+      "revenueBySegmentMM": {
+        "Branded Consumer Foods (BCFG)": 130500,
+        "Agro-Industrial & Commodities (AIC)": 36500
+      },
+      "expensesBySegmentMM": {
+        "COGS (raw materials + production)": 119500,
+        "Selling + advertising": 23500,
+        "G&A": 7700,
+        "D&A": 6300
+      },
+      "ebitdaMM": 19500,
+      "netIncomeMM": 9920,
+      "totalAssetsMM": 178000,
+      "totalDebtMM": 36000,
+      "cashMM": 14000,
+      "netDebtMM": 22000,
+      "totalEquityMM": 91000,
+      "sharesOutMM": 2204.2,
+      "epsBasic": 4.50,
+      "dividendPerShare": 4.00,
+      "notes": "FY24: revenue PHP 167B (+5%). EBITDA PHP 19.5B (+5%). NI PHP 9.92B (-14% YoY off elevated FY23 base). Sugar margins normalized; branded foods steady."
+    }
+  ]
+}

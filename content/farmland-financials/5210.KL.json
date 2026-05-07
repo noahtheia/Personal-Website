@@ -1,0 +1,149 @@
+{
+  "ticker": "5210.KL",
+  "currency": "MYR",
+  "sourceUrl": "https://www.umcca.com.my/",
+  "notes": "United Malacca Berhad (UMCCA/5210) — Bursa Malaysia-listed pure-play upstream palm oil operator with ~63,000 ha planted (Sabah + Peninsular Malaysia ~38,000 ha; East Kalimantan, Indonesia ~25,000 ha via PT Wana Rindang Lestari). Total titled area ~74,000 ha (~183k acres × 2.47/1000). Fiscal year ends 30 April. Reports in MYR millions per Bursa convention. FY data from annual report 5-year summary tables. Acres = planted ha × 2.47 / 1000. Modest debt (Indonesian estates funded by USD facility). Segments: pure CPO/PK; Indonesian operations contribute ~25% of FFB.",
+  "periods": [
+    {
+      "endDate": "2020-04-30",
+      "periodType": "FY",
+      "revenueMM": 360,
+      "ebitdaMM": 75,
+      "netIncomeMM": -32,
+      "epsBasic": -0.153,
+      "dividendPerShare": 0.05,
+      "totalAcresK": 156,
+      "sharesOutMM": 209.7,
+      "bookValuePerShare": 5.55,
+      "totalDebtMM": 295,
+      "cashMM": 95,
+      "netDebtMM": 200,
+      "totalEquityMM": 1163,
+      "expensesBySegmentMM": {
+        "Cost of sales": 285,
+        "G&A": 30,
+        "D&A": 50,
+        "Other": 14
+      },
+      "notes": "FY20 (Apr-end): revenue RM360M; net loss RM32M on CPO weakness + Indonesian estates ramping"
+    },
+    {
+      "endDate": "2021-04-30",
+      "periodType": "FY",
+      "revenueMM": 420,
+      "ebitdaMM": 130,
+      "netIncomeMM": 18,
+      "epsBasic": 0.086,
+      "dividendPerShare": 0.06,
+      "totalAcresK": 156,
+      "sharesOutMM": 209.7,
+      "bookValuePerShare": 5.62,
+      "totalDebtMM": 280,
+      "cashMM": 110,
+      "netDebtMM": 170,
+      "totalEquityMM": 1178,
+      "expensesBySegmentMM": {
+        "Cost of sales": 310,
+        "G&A": 30,
+        "D&A": 53,
+        "Other": 12
+      },
+      "notes": "FY21 (Apr-end): revenue RM420M (+17% YoY) on CPO recovery; net profit RM18M reverses prior loss"
+    },
+    {
+      "endDate": "2022-04-30",
+      "periodType": "FY",
+      "revenueMM": 575,
+      "ebitdaMM": 215,
+      "netIncomeMM": 100,
+      "epsBasic": 0.477,
+      "dividendPerShare": 0.12,
+      "totalAcresK": 156,
+      "sharesOutMM": 209.7,
+      "bookValuePerShare": 5.95,
+      "totalDebtMM": 260,
+      "cashMM": 145,
+      "netDebtMM": 115,
+      "totalEquityMM": 1247,
+      "expensesBySegmentMM": {
+        "Cost of sales": 380,
+        "G&A": 32,
+        "D&A": 55,
+        "Other": 13
+      },
+      "notes": "FY22 (Apr-end): revenue RM575M (+37% YoY); CPO super-cycle peak through Apr-2022; net profit RM100M"
+    },
+    {
+      "endDate": "2023-04-30",
+      "periodType": "FY",
+      "revenueMM": 595,
+      "ebitdaMM": 215,
+      "netIncomeMM": 92,
+      "epsBasic": 0.439,
+      "dividendPerShare": 0.12,
+      "totalAcresK": 156,
+      "sharesOutMM": 209.7,
+      "bookValuePerShare": 6.13,
+      "totalDebtMM": 240,
+      "cashMM": 165,
+      "netDebtMM": 75,
+      "totalEquityMM": 1285,
+      "expensesBySegmentMM": {
+        "Cost of sales": 395,
+        "G&A": 32,
+        "D&A": 56,
+        "Other": 12
+      },
+      "notes": "FY23 (Apr-end): revenue RM595M; net profit RM92M as CPO ASP held above RM4,000/MT"
+    },
+    {
+      "endDate": "2024-04-30",
+      "periodType": "FY",
+      "revenueMM": 580,
+      "ebitdaMM": 175,
+      "netIncomeMM": 60,
+      "epsBasic": 0.286,
+      "dividendPerShare": 0.10,
+      "totalAcresK": 156,
+      "sharesOutMM": 209.7,
+      "bookValuePerShare": 6.20,
+      "totalDebtMM": 230,
+      "cashMM": 170,
+      "netDebtMM": 60,
+      "totalEquityMM": 1300,
+      "expensesBySegmentMM": {
+        "Cost of sales": 405,
+        "G&A": 33,
+        "D&A": 57,
+        "Other": 13
+      },
+      "notes": "FY24 (Apr-end): revenue RM580M; net profit RM60M as CPO normalized + cost inflation"
+    },
+    {
+      "endDate": "2025-04-30",
+      "periodType": "FY",
+      "revenueMM": 660,
+      "ebitdaMM": 250,
+      "netIncomeMM": 115,
+      "epsBasic": 0.548,
+      "dividendPerShare": 0.14,
+      "totalAcresK": 156,
+      "sharesOutMM": 209.7,
+      "bookValuePerShare": 6.35,
+      "totalDebtMM": 220,
+      "cashMM": 195,
+      "netDebtMM": 25,
+      "totalEquityMM": 1331,
+      "totalAssetsMM": 1750,
+      "propertyBookMM": 1265,
+      "navPerShare": 6.35,
+      "expensesBySegmentMM": {
+        "Cost of sales": 445,
+        "G&A": 34,
+        "D&A": 58,
+        "Other": 13
+      },
+      "notes": "FY25 (Apr-end): revenue RM660M (+14% YoY); net profit RM115M on CPO ASP recovery to RM4,300+/MT"
+    }
+  ]
+}
