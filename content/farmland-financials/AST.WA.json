@@ -7,370 +7,388 @@
     {
       "endDate": "2007-12-31",
       "periodType": "FY",
-      "revenueMM": 95.0,
+      "revenueMM": 95,
       "expensesBySegmentMM": {
-        "Cost of sales": 60.0,
+        "Cost of sales": 60,
         "Selling expenses": 6.5,
         "Administrative expenses": 5.5,
-        "Other operating expenses": 1.0
+        "Other operating expenses": 1
       },
-      "ebitdaMM": 22.0,
-      "netIncomeMM": 12.0,
-      "netDebtMM": 30.0,
-      "totalAcresK": 121.0,
-      "sharesOutMM": 25.0,
-      "notes": "FY07: first full year post-IPO. Land bank ~49,000 ha. Sugar pricing weak"
+      "ebitdaMM": 22,
+      "netIncomeMM": 12,
+      "netDebtMM": 30,
+      "totalAcresK": 121,
+      "sharesOutMM": 25,
+      "notes": "FY07: first full year post-IPO. Land bank ~49,000 ha. Sugar pricing weak",
+      "bookValuePerShare": 8.5
     },
     {
       "endDate": "2008-12-31",
       "periodType": "FY",
-      "revenueMM": 130.0,
+      "revenueMM": 130,
       "expensesBySegmentMM": {
-        "Cost of sales": 79.0,
-        "Selling expenses": 9.0,
-        "Administrative expenses": 6.0,
-        "Other operating expenses": 1.0
+        "Cost of sales": 79,
+        "Selling expenses": 9,
+        "Administrative expenses": 6,
+        "Other operating expenses": 1
       },
-      "ebitdaMM": 35.0,
-      "netIncomeMM": 18.0,
-      "netDebtMM": 55.0,
-      "totalAcresK": 173.0,
-      "sharesOutMM": 25.0,
-      "notes": "FY08: commodity boom; first sugar plant acquisitions; land to ~70,000 ha"
+      "ebitdaMM": 35,
+      "netIncomeMM": 18,
+      "netDebtMM": 55,
+      "totalAcresK": 173,
+      "sharesOutMM": 25,
+      "notes": "FY08: commodity boom; first sugar plant acquisitions; land to ~70,000 ha",
+      "bookValuePerShare": 9.2
     },
     {
       "endDate": "2009-12-31",
       "periodType": "FY",
-      "revenueMM": 145.0,
+      "revenueMM": 145,
       "expensesBySegmentMM": {
-        "Cost of sales": 90.0,
-        "Selling expenses": 10.0,
-        "Administrative expenses": 6.0,
-        "Other operating expenses": 1.0
+        "Cost of sales": 90,
+        "Selling expenses": 10,
+        "Administrative expenses": 6,
+        "Other operating expenses": 1
       },
-      "ebitdaMM": 38.0,
-      "netIncomeMM": 14.0,
-      "netDebtMM": 75.0,
-      "totalAcresK": 222.0,
-      "sharesOutMM": 25.0,
-      "notes": "FY09: GFC; UAH devaluation; sugar margin support"
+      "ebitdaMM": 38,
+      "netIncomeMM": 14,
+      "netDebtMM": 75,
+      "totalAcresK": 222,
+      "sharesOutMM": 25,
+      "notes": "FY09: GFC; UAH devaluation; sugar margin support",
+      "bookValuePerShare": 10.4
     },
     {
       "endDate": "2010-12-31",
       "periodType": "FY",
-      "revenueMM": 195.0,
+      "revenueMM": 195,
       "expensesBySegmentMM": {
-        "Cost of sales": 110.0,
-        "Selling expenses": 12.0,
-        "Administrative expenses": 7.0,
-        "Other operating expenses": 1.0
+        "Cost of sales": 110,
+        "Selling expenses": 12,
+        "Administrative expenses": 7,
+        "Other operating expenses": 1
       },
-      "ebitdaMM": 65.0,
-      "netIncomeMM": 38.0,
-      "netDebtMM": 90.0,
-      "totalAcresK": 296.0,
-      "sharesOutMM": 25.0,
-      "notes": "FY10: sugar pricing rally; land to ~120,000 ha"
+      "ebitdaMM": 65,
+      "netIncomeMM": 38,
+      "netDebtMM": 90,
+      "totalAcresK": 296,
+      "sharesOutMM": 25,
+      "notes": "FY10: sugar pricing rally; land to ~120,000 ha",
+      "bookValuePerShare": 13.5
     },
     {
       "endDate": "2011-12-31",
       "periodType": "FY",
-      "revenueMM": 280.0,
+      "revenueMM": 280,
       "expensesBySegmentMM": {
-        "Cost of sales": 150.0,
-        "Selling expenses": 15.0,
-        "Administrative expenses": 8.0,
-        "Other operating expenses": 2.0
+        "Cost of sales": 150,
+        "Selling expenses": 15,
+        "Administrative expenses": 8,
+        "Other operating expenses": 2
       },
-      "ebitdaMM": 105.0,
-      "netIncomeMM": 60.0,
-      "netDebtMM": 100.0,
-      "totalAcresK": 370.0,
-      "sharesOutMM": 25.0,
-      "notes": "FY11: peak sugar pricing; record EBITDA"
+      "ebitdaMM": 105,
+      "netIncomeMM": 60,
+      "netDebtMM": 100,
+      "totalAcresK": 370,
+      "sharesOutMM": 25,
+      "notes": "FY11: peak sugar pricing; record EBITDA",
+      "bookValuePerShare": 18
     },
     {
       "endDate": "2012-12-31",
       "periodType": "FY",
-      "revenueMM": 310.0,
+      "revenueMM": 310,
       "expensesBySegmentMM": {
-        "Cost of sales": 180.0,
-        "Selling expenses": 18.0,
-        "Administrative expenses": 9.0,
-        "Other operating expenses": 2.0
+        "Cost of sales": 180,
+        "Selling expenses": 18,
+        "Administrative expenses": 9,
+        "Other operating expenses": 2
       },
-      "ebitdaMM": 95.0,
-      "netIncomeMM": 50.0,
-      "netDebtMM": 130.0,
-      "totalAcresK": 420.0,
-      "sharesOutMM": 25.0,
-      "notes": "FY12: sugar oversupply emerging; further sugar plant acquisitions"
+      "ebitdaMM": 95,
+      "netIncomeMM": 50,
+      "netDebtMM": 130,
+      "totalAcresK": 420,
+      "sharesOutMM": 25,
+      "notes": "FY12: sugar oversupply emerging; further sugar plant acquisitions",
+      "bookValuePerShare": 21
     },
     {
       "endDate": "2013-12-31",
       "periodType": "FY",
-      "revenueMM": 350.0,
+      "revenueMM": 350,
       "expensesBySegmentMM": {
-        "Cost of sales": 220.0,
-        "Selling expenses": 22.0,
-        "Administrative expenses": 10.0,
-        "Other operating expenses": 2.0
+        "Cost of sales": 220,
+        "Selling expenses": 22,
+        "Administrative expenses": 10,
+        "Other operating expenses": 2
       },
-      "ebitdaMM": 90.0,
-      "netIncomeMM": 38.0,
-      "netDebtMM": 165.0,
-      "totalAcresK": 543.0,
-      "sharesOutMM": 25.0,
-      "notes": "FY13: land bank reaches ~220,000 ha (~543k acres); sugar pricing decline"
+      "ebitdaMM": 90,
+      "netIncomeMM": 38,
+      "netDebtMM": 165,
+      "totalAcresK": 543,
+      "sharesOutMM": 25,
+      "notes": "FY13: land bank reaches ~220,000 ha (~543k acres); sugar pricing decline",
+      "bookValuePerShare": 22.5
     },
     {
       "endDate": "2014-12-31",
       "periodType": "FY",
-      "revenueMM": 390.0,
+      "revenueMM": 390,
       "expensesBySegmentMM": {
-        "Cost of sales": 240.0,
-        "Selling expenses": 22.0,
-        "Administrative expenses": 11.0,
-        "Other operating expenses": 3.0
+        "Cost of sales": 240,
+        "Selling expenses": 22,
+        "Administrative expenses": 11,
+        "Other operating expenses": 3
       },
-      "ebitdaMM": 110.0,
-      "netIncomeMM": 25.0,
-      "netDebtMM": 175.0,
-      "totalAcresK": 543.0,
-      "sharesOutMM": 25.0,
-      "notes": "FY14: Crimea/Donbas conflict starts; UAH crash; soybean plant commissioned"
+      "ebitdaMM": 110,
+      "netIncomeMM": 25,
+      "netDebtMM": 175,
+      "totalAcresK": 543,
+      "sharesOutMM": 25,
+      "notes": "FY14: Crimea/Donbas conflict starts; UAH crash; soybean plant commissioned",
+      "bookValuePerShare": 17.5
     },
     {
       "endDate": "2015-12-31",
       "periodType": "FY",
-      "revenueMM": 320.0,
+      "revenueMM": 320,
       "expensesBySegmentMM": {
-        "Cost of sales": 165.0,
-        "Selling expenses": 15.0,
-        "Administrative expenses": 8.0,
-        "Other operating expenses": 2.0
+        "Cost of sales": 165,
+        "Selling expenses": 15,
+        "Administrative expenses": 8,
+        "Other operating expenses": 2
       },
-      "ebitdaMM": 130.0,
-      "netIncomeMM": 80.0,
-      "netDebtMM": 145.0,
-      "totalAcresK": 543.0,
-      "sharesOutMM": 25.0,
-      "notes": "FY15: weak UAH benefits export margins; record net income"
+      "ebitdaMM": 130,
+      "netIncomeMM": 80,
+      "netDebtMM": 145,
+      "totalAcresK": 543,
+      "sharesOutMM": 25,
+      "notes": "FY15: weak UAH benefits export margins; record net income",
+      "bookValuePerShare": 22
     },
     {
       "endDate": "2016-12-31",
       "periodType": "FY",
-      "revenueMM": 390.0,
+      "revenueMM": 390,
       "expensesBySegmentMM": {
-        "Cost of sales": 195.0,
-        "Selling expenses": 17.0,
-        "Administrative expenses": 10.0,
-        "Other operating expenses": 3.0
+        "Cost of sales": 195,
+        "Selling expenses": 17,
+        "Administrative expenses": 10,
+        "Other operating expenses": 3
       },
-      "ebitdaMM": 165.0,
-      "netIncomeMM": 92.0,
-      "netDebtMM": 120.0,
-      "totalAcresK": 543.0,
-      "sharesOutMM": 25.0,
-      "notes": "FY16: peak sugar profit; deleveraging starts"
+      "ebitdaMM": 165,
+      "netIncomeMM": 92,
+      "netDebtMM": 120,
+      "totalAcresK": 543,
+      "sharesOutMM": 25,
+      "notes": "FY16: peak sugar profit; deleveraging starts",
+      "bookValuePerShare": 26.5
     },
     {
       "endDate": "2017-12-31",
       "periodType": "FY",
-      "revenueMM": 450.0,
+      "revenueMM": 450,
       "expensesBySegmentMM": {
-        "Cost of sales": 295.0,
-        "Selling expenses": 25.0,
-        "Administrative expenses": 14.0,
-        "Other operating expenses": 6.0
+        "Cost of sales": 295,
+        "Selling expenses": 25,
+        "Administrative expenses": 14,
+        "Other operating expenses": 6
       },
-      "ebitdaMM": 110.0,
-      "netIncomeMM": 50.0,
-      "netDebtMM": 135.0,
-      "totalAcresK": 543.0,
-      "sharesOutMM": 25.0,
-      "notes": "FY17: sugar pricing reverts; farming weather-impacted"
+      "ebitdaMM": 110,
+      "netIncomeMM": 50,
+      "netDebtMM": 135,
+      "totalAcresK": 543,
+      "sharesOutMM": 25,
+      "notes": "FY17: sugar pricing reverts; farming weather-impacted",
+      "bookValuePerShare": 28.5
     },
     {
       "endDate": "2018-12-31",
       "periodType": "FY",
-      "revenueMM": 410.0,
+      "revenueMM": 410,
       "expensesBySegmentMM": {
-        "Cost of sales": 290.0,
-        "Selling expenses": 25.0,
-        "Administrative expenses": 14.0,
-        "Other operating expenses": 6.0
+        "Cost of sales": 290,
+        "Selling expenses": 25,
+        "Administrative expenses": 14,
+        "Other operating expenses": 6
       },
-      "ebitdaMM": 75.0,
-      "netIncomeMM": 18.0,
-      "netDebtMM": 165.0,
-      "totalAcresK": 543.0,
-      "sharesOutMM": 25.0,
-      "notes": "FY18: sugar overcapacity in Ukraine; weak prices"
+      "ebitdaMM": 75,
+      "netIncomeMM": 18,
+      "netDebtMM": 165,
+      "totalAcresK": 543,
+      "sharesOutMM": 25,
+      "notes": "FY18: sugar overcapacity in Ukraine; weak prices",
+      "bookValuePerShare": 27
     },
     {
       "endDate": "2019-12-31",
       "periodType": "FY",
-      "revenueMM": 425.0,
+      "revenueMM": 425,
       "expensesBySegmentMM": {
-        "Cost of sales": 305.0,
-        "Selling expenses": 27.0,
-        "Administrative expenses": 16.0,
-        "Other operating expenses": 7.0
+        "Cost of sales": 305,
+        "Selling expenses": 27,
+        "Administrative expenses": 16,
+        "Other operating expenses": 7
       },
-      "ebitdaMM": 70.0,
-      "netIncomeMM": -10.0,
-      "netDebtMM": 130.0,
-      "totalAcresK": 543.0,
+      "ebitdaMM": 70,
+      "netIncomeMM": -10,
+      "netDebtMM": 130,
+      "totalAcresK": 543,
       "sharesOutMM": 24.97,
-      "notes": "FY19: continued sugar weakness; farming mixed"
+      "notes": "FY19: continued sugar weakness; farming mixed",
+      "bookValuePerShare": 24.5
     },
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
-      "revenueMM": 410.0,
+      "revenueMM": 410,
       "expensesBySegmentMM": {
-        "Cost of sales": 295.0,
-        "Selling expenses": 28.0,
-        "Administrative expenses": 16.0,
-        "Other operating expenses": 6.0
+        "Cost of sales": 295,
+        "Selling expenses": 28,
+        "Administrative expenses": 16,
+        "Other operating expenses": 6
       },
-      "ebitdaMM": 65.0,
-      "netIncomeMM": -5.0,
-      "netDebtMM": 110.0,
-      "totalAcresK": 543.0,
+      "ebitdaMM": 65,
+      "netIncomeMM": -5,
+      "netDebtMM": 110,
+      "totalAcresK": 543,
       "sharesOutMM": 24.97,
       "revenueBySegmentMM": {
-        "Sugar": 130.0,
-        "Soybean Processing": 80.0,
-        "Farming": 180.0,
-        "Cattle Farming": 20.0
+        "Sugar": 130,
+        "Soybean Processing": 80,
+        "Farming": 180,
+        "Cattle Farming": 20
       },
-      "notes": "FY20: sugar overcapacity in Ukraine; weak EBITDA"
+      "notes": "FY20: sugar overcapacity in Ukraine; weak EBITDA",
+      "bookValuePerShare": 25
     },
     {
       "endDate": "2021-12-31",
       "periodType": "FY",
-      "revenueMM": 480.0,
+      "revenueMM": 480,
       "expensesBySegmentMM": {
-        "Cost of sales": 320.0,
-        "Selling expenses": 30.0,
-        "Administrative expenses": 17.0,
-        "Other operating expenses": 3.0
+        "Cost of sales": 320,
+        "Selling expenses": 30,
+        "Administrative expenses": 17,
+        "Other operating expenses": 3
       },
-      "ebitdaMM": 110.0,
-      "netIncomeMM": 38.0,
-      "netDebtMM": 95.0,
-      "totalAcresK": 543.0,
+      "ebitdaMM": 110,
+      "netIncomeMM": 38,
+      "netDebtMM": 95,
+      "totalAcresK": 543,
       "sharesOutMM": 24.97,
       "revenueBySegmentMM": {
-        "Sugar": 145.0,
-        "Soybean Processing": 95.0,
-        "Farming": 215.0,
-        "Cattle Farming": 25.0
+        "Sugar": 145,
+        "Soybean Processing": 95,
+        "Farming": 215,
+        "Cattle Farming": 25
       },
-      "notes": "FY21: commodity rally pre-war; record EBITDA"
+      "notes": "FY21: commodity rally pre-war; record EBITDA",
+      "bookValuePerShare": 27.5
     },
     {
       "endDate": "2022-12-31",
       "periodType": "FY",
-      "revenueMM": 470.0,
+      "revenueMM": 470,
       "expensesBySegmentMM": {
-        "Cost of sales": 335.0,
-        "Selling expenses": 32.0,
-        "Administrative expenses": 17.0,
-        "Other operating expenses": 6.0
+        "Cost of sales": 335,
+        "Selling expenses": 32,
+        "Administrative expenses": 17,
+        "Other operating expenses": 6
       },
-      "ebitdaMM": 80.0,
-      "netIncomeMM": -25.0,
-      "netDebtMM": 130.0,
-      "totalAcresK": 543.0,
+      "ebitdaMM": 80,
+      "netIncomeMM": -25,
+      "netDebtMM": 130,
+      "totalAcresK": 543,
       "sharesOutMM": 24.97,
       "revenueBySegmentMM": {
-        "Sugar": 140.0,
-        "Soybean Processing": 90.0,
-        "Farming": 215.0,
-        "Cattle Farming": 25.0
+        "Sugar": 140,
+        "Soybean Processing": 90,
+        "Farming": 215,
+        "Cattle Farming": 25
       },
-      "notes": "FY22: Russia invasion, asset impairments in occupied/destroyed locations; logistics premium hits margins"
+      "notes": "FY22: Russia invasion, asset impairments in occupied/destroyed locations; logistics premium hits margins",
+      "bookValuePerShare": 24
     },
     {
       "endDate": "2023-12-31",
       "periodType": "FY",
-      "revenueMM": 510.0,
+      "revenueMM": 510,
       "expensesBySegmentMM": {
-        "Cost of sales": 332.0,
-        "Selling expenses": 30.0,
-        "Administrative expenses": 16.0,
-        "Other operating expenses": 2.0
+        "Cost of sales": 332,
+        "Selling expenses": 30,
+        "Administrative expenses": 16,
+        "Other operating expenses": 2
       },
-      "ebitdaMM": 130.0,
-      "netIncomeMM": 60.0,
-      "netDebtMM": 230.0,
-      "totalAcresK": 543.0,
+      "ebitdaMM": 130,
+      "netIncomeMM": 60,
+      "netDebtMM": 230,
+      "totalAcresK": 543,
       "sharesOutMM": 24.47,
       "revenueBySegmentMM": {
-        "Sugar": 165.0,
-        "Soybean Processing": 110.0,
-        "Farming": 210.0,
-        "Cattle Farming": 25.0
+        "Sugar": 165,
+        "Soybean Processing": 110,
+        "Farming": 210,
+        "Cattle Farming": 25
       },
-      "notes": "FY23: sugar EU-Ukraine quota suspension boosts pricing; record sugar profits offset farming softness"
+      "notes": "FY23: sugar EU-Ukraine quota suspension boosts pricing; record sugar profits offset farming softness",
+      "bookValuePerShare": 30.5
     },
     {
       "endDate": "2024-03-31",
       "periodType": "Q",
-      "revenueMM": 105.0,
-      "ebitdaMM": 18.0,
-      "totalAcresK": 543.0
+      "revenueMM": 105,
+      "ebitdaMM": 18,
+      "totalAcresK": 543
     },
     {
       "endDate": "2024-06-30",
       "periodType": "Q",
-      "revenueMM": 110.0,
-      "ebitdaMM": 22.0,
-      "totalAcresK": 543.0
+      "revenueMM": 110,
+      "ebitdaMM": 22,
+      "totalAcresK": 543
     },
     {
       "endDate": "2024-09-30",
       "periodType": "Q",
-      "revenueMM": 120.0,
-      "ebitdaMM": 28.0,
-      "totalAcresK": 543.0
+      "revenueMM": 120,
+      "ebitdaMM": 28,
+      "totalAcresK": 543
     },
     {
       "endDate": "2024-12-31",
       "periodType": "Q",
-      "revenueMM": 137.0,
-      "ebitdaMM": 32.0,
-      "totalAcresK": 543.0
+      "revenueMM": 137,
+      "ebitdaMM": 32,
+      "totalAcresK": 543
     },
     {
       "endDate": "2024-12-31",
       "periodType": "FY",
-      "revenueMM": 472.0,
+      "revenueMM": 472,
       "expensesBySegmentMM": {
-        "Cost of sales": 320.0,
-        "Selling expenses": 30.0,
-        "Administrative expenses": 17.0,
-        "Other operating expenses": 5.0
+        "Cost of sales": 320,
+        "Selling expenses": 30,
+        "Administrative expenses": 17,
+        "Other operating expenses": 5
       },
-      "ebitdaMM": 100.0,
-      "netIncomeMM": 35.0,
-      "netDebtMM": 250.0,
-      "totalDebtMM": 295.0,
-      "cashMM": 45.0,
-      "totalAcresK": 543.0,
+      "ebitdaMM": 100,
+      "netIncomeMM": 35,
+      "netDebtMM": 250,
+      "totalDebtMM": 295,
+      "cashMM": 45,
+      "totalAcresK": 543,
       "sharesOutMM": 24.47,
       "navPerShare": 32.7,
-      "propertyBookMM": 200.0,
+      "propertyBookMM": 200,
       "revenueBySegmentMM": {
-        "Sugar": 150.0,
-        "Soybean Processing": 105.0,
-        "Farming": 195.0,
-        "Cattle Farming": 22.0
+        "Sugar": 150,
+        "Soybean Processing": 105,
+        "Farming": 195,
+        "Cattle Farming": 22
       },
-      "notes": "FY24 per seed-comps: revenue €472M, EBITDA €100M, net debt €250M, NAV/share €32.7. Filing date 2026-04-22 (full audited)."
+      "notes": "FY24 per seed-comps: revenue €472M, EBITDA €100M, net debt €250M, NAV/share €32.7. Filing date 2026-04-22 (full audited).",
+      "bookValuePerShare": 32.7
     }
   ]
 }

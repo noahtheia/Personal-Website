@@ -7,63 +7,67 @@
     {
       "endDate": "1996-12-31",
       "periodType": "FY",
-      "revenueMM": 22.0,
+      "revenueMM": 22,
       "expensesBySegmentMM": {
         "Cost of sales": 13.5,
-        "Administrative expenses": 2.0,
+        "Administrative expenses": 2,
         "Other operating costs": 0.5
       },
-      "ebitdaMM": 6.0,
+      "ebitdaMM": 6,
       "netIncomeMM": 2.5,
-      "totalAcresK": 18.0,
-      "notes": "FY96: IPO year. Pre-demerger structure; small Sumatra estates ~7,300 ha"
+      "totalAcresK": 18,
+      "notes": "FY96: IPO year. Pre-demerger structure; small Sumatra estates ~7,300 ha",
+      "bookValuePerShare": 0.85
     },
     {
       "endDate": "1997-12-31",
       "periodType": "FY",
-      "revenueMM": 26.0,
+      "revenueMM": 26,
       "expensesBySegmentMM": {
         "Cost of sales": 15.5,
         "Administrative expenses": 2.5,
         "Other operating costs": 0.5
       },
       "ebitdaMM": 7.5,
-      "netIncomeMM": 3.0,
-      "totalAcresK": 22.0,
-      "notes": "FY97: CPO recovery; Asian crisis late-year"
+      "netIncomeMM": 3,
+      "totalAcresK": 22,
+      "notes": "FY97: CPO recovery; Asian crisis late-year",
+      "bookValuePerShare": 0.95
     },
     {
       "endDate": "1998-12-31",
       "periodType": "FY",
-      "revenueMM": 30.0,
+      "revenueMM": 30,
       "expensesBySegmentMM": {
-        "Cost of sales": 17.0,
+        "Cost of sales": 17,
         "Administrative expenses": 2.5,
         "Other operating costs": 0.5
       },
-      "ebitdaMM": 10.0,
-      "netIncomeMM": 4.0,
-      "totalAcresK": 25.0,
-      "notes": "FY98: CPO peak ~$670/t; rupiah depreciation benefits IDR cost base"
+      "ebitdaMM": 10,
+      "netIncomeMM": 4,
+      "totalAcresK": 25,
+      "notes": "FY98: CPO peak ~$670/t; rupiah depreciation benefits IDR cost base",
+      "bookValuePerShare": 1.1
     },
     {
       "endDate": "1999-12-31",
       "periodType": "FY",
-      "revenueMM": 28.0,
+      "revenueMM": 28,
       "expensesBySegmentMM": {
-        "Cost of sales": 17.0,
+        "Cost of sales": 17,
         "Administrative expenses": 2.5,
         "Other operating costs": 0.5
       },
-      "ebitdaMM": 8.0,
-      "netIncomeMM": 3.0,
-      "totalAcresK": 28.0,
-      "notes": "FY99: weaker CPO ~$435/t"
+      "ebitdaMM": 8,
+      "netIncomeMM": 3,
+      "totalAcresK": 28,
+      "notes": "FY99: weaker CPO ~$435/t",
+      "bookValuePerShare": 1.2
     },
     {
       "endDate": "2000-12-31",
       "periodType": "FY",
-      "revenueMM": 25.0,
+      "revenueMM": 25,
       "expensesBySegmentMM": {
         "Cost of sales": 16.5,
         "Administrative expenses": 2.5,
@@ -71,91 +75,96 @@
       },
       "ebitdaMM": 5.5,
       "netIncomeMM": 1.5,
-      "totalAcresK": 32.0,
-      "notes": "FY00: CPO trough ~$310/t"
+      "totalAcresK": 32,
+      "notes": "FY00: CPO trough ~$310/t",
+      "bookValuePerShare": 1.25
     },
     {
       "endDate": "2001-12-31",
       "periodType": "FY",
-      "revenueMM": 24.0,
+      "revenueMM": 24,
       "expensesBySegmentMM": {
-        "Cost of sales": 16.0,
+        "Cost of sales": 16,
         "Administrative expenses": 2.5,
         "Other operating costs": 0.5
       },
-      "ebitdaMM": 5.0,
-      "netIncomeMM": 1.0,
-      "totalAcresK": 36.0,
-      "notes": "FY01: CPO cycle low ~$285/t"
+      "ebitdaMM": 5,
+      "netIncomeMM": 1,
+      "totalAcresK": 36,
+      "notes": "FY01: CPO cycle low ~$285/t",
+      "bookValuePerShare": 1.28
     },
     {
       "endDate": "2002-12-31",
       "periodType": "FY",
-      "revenueMM": 32.0,
+      "revenueMM": 32,
       "expensesBySegmentMM": {
         "Cost of sales": 19.5,
-        "Administrative expenses": 3.0,
+        "Administrative expenses": 3,
         "Other operating costs": 0.5
       },
-      "ebitdaMM": 9.0,
+      "ebitdaMM": 9,
       "netIncomeMM": 3.5,
-      "totalAcresK": 40.0,
-      "notes": "FY02: CPO recovery ~$390/t"
+      "totalAcresK": 40,
+      "notes": "FY02: CPO recovery ~$390/t",
+      "bookValuePerShare": 1.35
     },
     {
       "endDate": "2003-06-30",
       "periodType": "H",
-      "revenueMM": 22.0,
+      "revenueMM": 22,
       "ebitdaMM": 6.5,
-      "totalAcresK": 44.0,
+      "totalAcresK": 44,
       "notes": "H1 03: first interim under modernized reporting"
     },
     {
       "endDate": "2003-12-31",
       "periodType": "FY",
-      "revenueMM": 45.0,
+      "revenueMM": 45,
       "expensesBySegmentMM": {
         "Cost of sales": 27.5,
-        "Administrative expenses": 4.0,
+        "Administrative expenses": 4,
         "Other operating costs": 0.5
       },
-      "ebitdaMM": 13.0,
-      "netIncomeMM": 6.0,
-      "totalAcresK": 48.0,
-      "notes": "FY03: CPO ~$443/t; Australian cattle interest expansion"
+      "ebitdaMM": 13,
+      "netIncomeMM": 6,
+      "totalAcresK": 48,
+      "notes": "FY03: CPO ~$443/t; Australian cattle interest expansion",
+      "bookValuePerShare": 1.5
     },
     {
       "endDate": "2004-06-30",
       "periodType": "H",
-      "revenueMM": 28.0,
-      "ebitdaMM": 8.0,
-      "totalAcresK": 50.0
+      "revenueMM": 28,
+      "ebitdaMM": 8,
+      "totalAcresK": 50
     },
     {
       "endDate": "2004-12-31",
       "periodType": "FY",
-      "revenueMM": 52.0,
+      "revenueMM": 52,
       "expensesBySegmentMM": {
-        "Cost of sales": 32.0,
+        "Cost of sales": 32,
         "Administrative expenses": 4.5,
         "Other operating costs": 0.5
       },
-      "ebitdaMM": 15.0,
-      "netIncomeMM": 7.0,
-      "totalAcresK": 52.0,
-      "notes": "FY04: CPO ~$471/t"
+      "ebitdaMM": 15,
+      "netIncomeMM": 7,
+      "totalAcresK": 52,
+      "notes": "FY04: CPO ~$471/t",
+      "bookValuePerShare": 1.65
     },
     {
       "endDate": "2005-06-30",
       "periodType": "H",
-      "revenueMM": 30.0,
+      "revenueMM": 30,
       "ebitdaMM": 8.5,
-      "totalAcresK": 55.0
+      "totalAcresK": 55
     },
     {
       "endDate": "2005-12-31",
       "periodType": "FY",
-      "revenueMM": 58.0,
+      "revenueMM": 58,
       "expensesBySegmentMM": {
         "Cost of sales": 37.5,
         "Administrative expenses": 5.5,
@@ -163,411 +172,430 @@
       },
       "ebitdaMM": 14.5,
       "netIncomeMM": 6.5,
-      "totalAcresK": 58.0,
-      "notes": "FY05: CPO ~$420/t"
+      "totalAcresK": 58,
+      "notes": "FY05: CPO ~$420/t",
+      "bookValuePerShare": 1.8
     },
     {
       "endDate": "2006-06-30",
       "periodType": "H",
-      "revenueMM": 38.0,
-      "ebitdaMM": 11.0,
-      "totalAcresK": 60.0
+      "revenueMM": 38,
+      "ebitdaMM": 11,
+      "totalAcresK": 60
     },
     {
       "endDate": "2006-12-31",
       "periodType": "FY",
-      "revenueMM": 78.0,
+      "revenueMM": 78,
       "expensesBySegmentMM": {
-        "Cost of sales": 47.0,
+        "Cost of sales": 47,
         "Administrative expenses": 6.5,
         "Other operating costs": 0.5
       },
-      "ebitdaMM": 24.0,
-      "netIncomeMM": 12.0,
-      "totalAcresK": 65.0,
-      "notes": "FY06: CPO ~$478/t; biofuel demand emerges"
+      "ebitdaMM": 24,
+      "netIncomeMM": 12,
+      "totalAcresK": 65,
+      "notes": "FY06: CPO ~$478/t; biofuel demand emerges",
+      "bookValuePerShare": 2.05
     },
     {
       "endDate": "2007-06-30",
       "periodType": "H",
-      "revenueMM": 48.0,
-      "ebitdaMM": 17.0,
-      "totalAcresK": 70.0
+      "revenueMM": 48,
+      "ebitdaMM": 17,
+      "totalAcresK": 70
     },
     {
       "endDate": "2007-12-31",
       "periodType": "FY",
-      "revenueMM": 105.0,
+      "revenueMM": 105,
       "expensesBySegmentMM": {
-        "Cost of sales": 58.0,
+        "Cost of sales": 58,
         "Administrative expenses": 8.5,
         "Other operating costs": 0.5
       },
-      "ebitdaMM": 38.0,
-      "netIncomeMM": 22.0,
-      "totalAcresK": 75.0,
-      "sharesOutMM": 52.0,
-      "notes": "FY07: CPO breakout ~$780/t; record profits"
+      "ebitdaMM": 38,
+      "netIncomeMM": 22,
+      "totalAcresK": 75,
+      "sharesOutMM": 52,
+      "notes": "FY07: CPO breakout ~$780/t; record profits",
+      "bookValuePerShare": 2.55
     },
     {
       "endDate": "2008-06-30",
       "periodType": "H",
-      "revenueMM": 65.0,
-      "ebitdaMM": 24.0,
-      "totalAcresK": 80.0,
+      "revenueMM": 65,
+      "ebitdaMM": 24,
+      "totalAcresK": 80,
       "notes": "H1 08: switched to USD reporting under IFRS"
     },
     {
       "endDate": "2008-12-31",
       "periodType": "FY",
-      "revenueMM": 130.0,
+      "revenueMM": 130,
       "expensesBySegmentMM": {
-        "Cost of sales": 71.0,
-        "Administrative expenses": 10.0,
-        "Other operating costs": 1.0
+        "Cost of sales": 71,
+        "Administrative expenses": 10,
+        "Other operating costs": 1
       },
-      "ebitdaMM": 48.0,
-      "netIncomeMM": 28.0,
-      "totalAcresK": 85.0,
-      "sharesOutMM": 52.0,
-      "notes": "FY08: peak CPO ~$949/t; subsequent GFC crash"
+      "ebitdaMM": 48,
+      "netIncomeMM": 28,
+      "totalAcresK": 85,
+      "sharesOutMM": 52,
+      "notes": "FY08: peak CPO ~$949/t; subsequent GFC crash",
+      "bookValuePerShare": 3.05
     },
     {
       "endDate": "2009-06-30",
       "periodType": "H",
-      "revenueMM": 50.0,
-      "ebitdaMM": 14.0,
-      "totalAcresK": 88.0
+      "revenueMM": 50,
+      "ebitdaMM": 14,
+      "totalAcresK": 88
     },
     {
       "endDate": "2009-12-31",
       "periodType": "FY",
-      "revenueMM": 102.0,
+      "revenueMM": 102,
       "expensesBySegmentMM": {
-        "Cost of sales": 59.0,
-        "Administrative expenses": 10.0,
-        "Other operating costs": 1.0
+        "Cost of sales": 59,
+        "Administrative expenses": 10,
+        "Other operating costs": 1
       },
-      "ebitdaMM": 32.0,
-      "netIncomeMM": 16.0,
-      "totalAcresK": 92.0,
-      "sharesOutMM": 52.0,
-      "notes": "FY09: CPO recovery ~$683/t"
+      "ebitdaMM": 32,
+      "netIncomeMM": 16,
+      "totalAcresK": 92,
+      "sharesOutMM": 52,
+      "notes": "FY09: CPO recovery ~$683/t",
+      "bookValuePerShare": 3.3
     },
     {
       "endDate": "2010-06-30",
       "periodType": "H",
-      "revenueMM": 62.0,
-      "ebitdaMM": 22.0,
-      "totalAcresK": 95.0
+      "revenueMM": 62,
+      "ebitdaMM": 22,
+      "totalAcresK": 95
     },
     {
       "endDate": "2010-12-31",
       "periodType": "FY",
-      "revenueMM": 132.0,
+      "revenueMM": 132,
       "expensesBySegmentMM": {
-        "Cost of sales": 72.0,
-        "Administrative expenses": 11.0,
-        "Other operating costs": 1.0
+        "Cost of sales": 72,
+        "Administrative expenses": 11,
+        "Other operating costs": 1
       },
-      "ebitdaMM": 48.0,
-      "netIncomeMM": 26.0,
-      "totalAcresK": 100.0,
-      "sharesOutMM": 52.0,
-      "notes": "FY10: CPO avg ~$901/t"
+      "ebitdaMM": 48,
+      "netIncomeMM": 26,
+      "totalAcresK": 100,
+      "sharesOutMM": 52,
+      "notes": "FY10: CPO avg ~$901/t",
+      "bookValuePerShare": 3.75
     },
     {
       "endDate": "2011-06-30",
       "periodType": "H",
-      "revenueMM": 80.0,
-      "ebitdaMM": 32.0,
-      "totalAcresK": 105.0
+      "revenueMM": 80,
+      "ebitdaMM": 32,
+      "totalAcresK": 105
     },
     {
       "endDate": "2011-12-31",
       "periodType": "FY",
-      "revenueMM": 168.0,
+      "revenueMM": 168,
       "expensesBySegmentMM": {
-        "Cost of sales": 89.0,
-        "Administrative expenses": 13.0,
-        "Other operating costs": 1.0
+        "Cost of sales": 89,
+        "Administrative expenses": 13,
+        "Other operating costs": 1
       },
-      "ebitdaMM": 65.0,
-      "netIncomeMM": 38.0,
-      "totalAcresK": 110.0,
-      "sharesOutMM": 52.0,
-      "notes": "FY11: CPO peak ~$1,125/t"
+      "ebitdaMM": 65,
+      "netIncomeMM": 38,
+      "totalAcresK": 110,
+      "sharesOutMM": 52,
+      "notes": "FY11: CPO peak ~$1,125/t",
+      "bookValuePerShare": 4.4
     },
     {
       "endDate": "2012-06-30",
       "periodType": "H",
-      "revenueMM": 78.0,
-      "ebitdaMM": 25.0,
-      "totalAcresK": 115.0
+      "revenueMM": 78,
+      "ebitdaMM": 25,
+      "totalAcresK": 115
     },
     {
       "endDate": "2012-12-31",
       "periodType": "FY",
-      "revenueMM": 152.0,
+      "revenueMM": 152,
       "expensesBySegmentMM": {
-        "Cost of sales": 87.0,
-        "Administrative expenses": 14.0,
-        "Other operating costs": 1.0
+        "Cost of sales": 87,
+        "Administrative expenses": 14,
+        "Other operating costs": 1
       },
-      "ebitdaMM": 50.0,
-      "netIncomeMM": 26.0,
-      "totalAcresK": 118.0,
-      "sharesOutMM": 52.0,
-      "notes": "FY12: CPO normalizes ~$999/t"
+      "ebitdaMM": 50,
+      "netIncomeMM": 26,
+      "totalAcresK": 118,
+      "sharesOutMM": 52,
+      "notes": "FY12: CPO normalizes ~$999/t",
+      "bookValuePerShare": 4.75
     },
     {
       "endDate": "2013-06-30",
       "periodType": "H",
-      "revenueMM": 60.0,
-      "ebitdaMM": 16.0,
-      "totalAcresK": 120.0
+      "revenueMM": 60,
+      "ebitdaMM": 16,
+      "totalAcresK": 120
     },
     {
       "endDate": "2013-12-31",
       "periodType": "FY",
-      "revenueMM": 130.0,
+      "revenueMM": 130,
       "expensesBySegmentMM": {
-        "Cost of sales": 76.0,
-        "Administrative expenses": 15.0,
-        "Other operating costs": 1.0
+        "Cost of sales": 76,
+        "Administrative expenses": 15,
+        "Other operating costs": 1
       },
-      "ebitdaMM": 38.0,
-      "netIncomeMM": 18.0,
-      "totalAcresK": 122.0,
-      "sharesOutMM": 52.0,
-      "notes": "FY13: CPO trough ~$764/t"
+      "ebitdaMM": 38,
+      "netIncomeMM": 18,
+      "totalAcresK": 122,
+      "sharesOutMM": 52,
+      "notes": "FY13: CPO trough ~$764/t",
+      "bookValuePerShare": 4.95
     },
     {
       "endDate": "2014-06-30",
       "periodType": "H",
-      "revenueMM": 70.0,
-      "ebitdaMM": 21.0,
-      "totalAcresK": 124.0
+      "revenueMM": 70,
+      "ebitdaMM": 21,
+      "totalAcresK": 124
     },
     {
       "endDate": "2014-12-31",
       "periodType": "FY",
-      "revenueMM": 145.0,
+      "revenueMM": 145,
       "expensesBySegmentMM": {
-        "Cost of sales": 86.0,
-        "Administrative expenses": 16.0,
-        "Other operating costs": 1.0
+        "Cost of sales": 86,
+        "Administrative expenses": 16,
+        "Other operating costs": 1
       },
-      "ebitdaMM": 42.0,
-      "netIncomeMM": 22.0,
-      "totalAcresK": 126.0,
-      "sharesOutMM": 52.0,
-      "notes": "FY14: CPO ~$821/t; Kalimantan estates maturing"
+      "ebitdaMM": 42,
+      "netIncomeMM": 22,
+      "totalAcresK": 126,
+      "sharesOutMM": 52,
+      "notes": "FY14: CPO ~$821/t; Kalimantan estates maturing",
+      "bookValuePerShare": 5.2
     },
     {
       "endDate": "2015-06-30",
       "periodType": "H",
-      "revenueMM": 55.0,
-      "ebitdaMM": 14.0,
-      "totalAcresK": 128.0
+      "revenueMM": 55,
+      "ebitdaMM": 14,
+      "totalAcresK": 128
     },
     {
       "endDate": "2015-12-31",
       "periodType": "FY",
-      "revenueMM": 115.0,
+      "revenueMM": 115,
       "expensesBySegmentMM": {
-        "Cost of sales": 70.0,
-        "Administrative expenses": 14.0,
-        "Other operating costs": 1.0
+        "Cost of sales": 70,
+        "Administrative expenses": 14,
+        "Other operating costs": 1
       },
-      "ebitdaMM": 30.0,
-      "netIncomeMM": 12.0,
-      "totalAcresK": 130.0,
-      "sharesOutMM": 52.0,
-      "notes": "FY15: CPO trough ~$622/t; El Nino impact"
+      "ebitdaMM": 30,
+      "netIncomeMM": 12,
+      "totalAcresK": 130,
+      "sharesOutMM": 52,
+      "notes": "FY15: CPO trough ~$622/t; El Nino impact",
+      "bookValuePerShare": 5.3
     },
     {
       "endDate": "2016-06-30",
       "periodType": "H",
-      "revenueMM": 60.0,
-      "ebitdaMM": 18.0,
-      "totalAcresK": 132.0
+      "revenueMM": 60,
+      "ebitdaMM": 18,
+      "totalAcresK": 132
     },
     {
       "endDate": "2016-12-31",
       "periodType": "FY",
-      "revenueMM": 132.0,
+      "revenueMM": 132,
       "expensesBySegmentMM": {
-        "Cost of sales": 78.0,
-        "Administrative expenses": 15.0,
-        "Other operating costs": 1.0
+        "Cost of sales": 78,
+        "Administrative expenses": 15,
+        "Other operating costs": 1
       },
-      "ebitdaMM": 38.0,
-      "netIncomeMM": 18.0,
-      "totalAcresK": 133.0,
-      "sharesOutMM": 52.0,
-      "notes": "FY16: CPO recovers ~$700/t"
+      "ebitdaMM": 38,
+      "netIncomeMM": 18,
+      "totalAcresK": 133,
+      "sharesOutMM": 52,
+      "notes": "FY16: CPO recovers ~$700/t",
+      "bookValuePerShare": 5.45
     },
     {
       "endDate": "2017-06-30",
       "periodType": "H",
-      "revenueMM": 80.0,
-      "ebitdaMM": 25.0,
-      "totalAcresK": 134.0,
+      "revenueMM": 80,
+      "ebitdaMM": 25,
+      "totalAcresK": 134,
       "notes": "H1 17: divested Australian cattle interests"
     },
     {
       "endDate": "2017-12-31",
       "periodType": "FY",
-      "revenueMM": 165.0,
+      "revenueMM": 165,
       "expensesBySegmentMM": {
-        "Cost of sales": 98.0,
-        "Administrative expenses": 16.0,
-        "Other operating costs": 1.0
+        "Cost of sales": 98,
+        "Administrative expenses": 16,
+        "Other operating costs": 1
       },
-      "ebitdaMM": 50.0,
-      "netIncomeMM": 25.0,
-      "netDebtMM": 30.0,
-      "totalAcresK": 134.0,
-      "sharesOutMM": 52.0,
-      "notes": "FY17: CPO ~$715/t; pure-play palm focus"
+      "ebitdaMM": 50,
+      "netIncomeMM": 25,
+      "netDebtMM": 30,
+      "totalAcresK": 134,
+      "sharesOutMM": 52,
+      "notes": "FY17: CPO ~$715/t; pure-play palm focus",
+      "bookValuePerShare": 5.75
     },
     {
       "endDate": "2018-06-30",
       "periodType": "H",
-      "revenueMM": 78.0,
-      "ebitdaMM": 22.0,
+      "revenueMM": 78,
+      "ebitdaMM": 22,
       "totalAcresK": 134.6
     },
     {
       "endDate": "2018-12-31",
       "periodType": "FY",
-      "revenueMM": 158.0,
+      "revenueMM": 158,
       "expensesBySegmentMM": {
-        "Cost of sales": 99.0,
-        "Administrative expenses": 16.0,
-        "Other operating costs": 1.0
+        "Cost of sales": 99,
+        "Administrative expenses": 16,
+        "Other operating costs": 1
       },
-      "ebitdaMM": 42.0,
-      "netIncomeMM": 18.0,
-      "netDebtMM": 25.0,
+      "ebitdaMM": 42,
+      "netIncomeMM": 18,
+      "netDebtMM": 25,
       "totalAcresK": 134.6,
-      "sharesOutMM": 52.0,
-      "notes": "FY18: CPO trough ~$598/t"
+      "sharesOutMM": 52,
+      "notes": "FY18: CPO trough ~$598/t",
+      "bookValuePerShare": 5.85
     },
     {
       "endDate": "2019-06-30",
       "periodType": "H",
-      "revenueMM": 85.0,
-      "ebitdaMM": 24.0,
+      "revenueMM": 85,
+      "ebitdaMM": 24,
       "totalAcresK": 134.6
     },
     {
       "endDate": "2019-12-31",
       "periodType": "FY",
-      "revenueMM": 175.0,
+      "revenueMM": 175,
       "expensesBySegmentMM": {
-        "Cost of sales": 110.0,
-        "Administrative expenses": 16.0,
-        "Other operating costs": 1.0
+        "Cost of sales": 110,
+        "Administrative expenses": 16,
+        "Other operating costs": 1
       },
-      "ebitdaMM": 48.0,
-      "netIncomeMM": 20.0,
-      "netDebtMM": 15.0,
+      "ebitdaMM": 48,
+      "netIncomeMM": 20,
+      "netDebtMM": 15,
       "totalAcresK": 134.6,
-      "sharesOutMM": 52.0,
-      "notes": "FY19: CPO recovery ~$601/t"
+      "sharesOutMM": 52,
+      "notes": "FY19: CPO recovery ~$601/t",
+      "bookValuePerShare": 6.05
     },
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
       "revenueMM": 217.7,
       "expensesBySegmentMM": {
-        "Cost of sales": 134.0,
+        "Cost of sales": 134,
         "Administrative expenses": 17.5,
         "Other operating costs": 1.2
       },
-      "ebitdaMM": 65.0,
+      "ebitdaMM": 65,
       "netIncomeMM": 24.5,
-      "netDebtMM": 5.0,
+      "netDebtMM": 5,
       "totalAcresK": 134.6,
-      "sharesOutMM": 52.0,
-      "notes": "FY20: COVID-impacted CPO cycle; modest net debt"
+      "sharesOutMM": 52,
+      "notes": "FY20: COVID-impacted CPO cycle; modest net debt",
+      "bookValuePerShare": 6.3
     },
     {
       "endDate": "2021-06-30",
       "periodType": "H",
-      "revenueMM": 145.0,
-      "ebitdaMM": 50.0,
+      "revenueMM": 145,
+      "ebitdaMM": 50,
       "totalAcresK": 134.6
     },
     {
       "endDate": "2021-12-31",
       "periodType": "FY",
-      "revenueMM": 314.0,
+      "revenueMM": 314,
       "expensesBySegmentMM": {
-        "Cost of sales": 184.0,
-        "Administrative expenses": 19.0,
-        "Other operating costs": 1.0
+        "Cost of sales": 184,
+        "Administrative expenses": 19,
+        "Other operating costs": 1
       },
-      "ebitdaMM": 110.0,
-      "netIncomeMM": 60.0,
-      "netDebtMM": -25.0,
+      "ebitdaMM": 110,
+      "netIncomeMM": 60,
+      "netDebtMM": -25,
       "totalAcresK": 134.6,
-      "sharesOutMM": 52.0,
-      "notes": "FY21: CPO rally drives EBITDA +69% YoY; transitions to net cash"
+      "sharesOutMM": 52,
+      "notes": "FY21: CPO rally drives EBITDA +69% YoY; transitions to net cash",
+      "bookValuePerShare": 7
     },
     {
       "endDate": "2022-06-30",
       "periodType": "H",
-      "revenueMM": 192.0,
-      "ebitdaMM": 75.0,
+      "revenueMM": 192,
+      "ebitdaMM": 75,
       "totalAcresK": 134.6
     },
     {
       "endDate": "2022-12-31",
       "periodType": "FY",
-      "revenueMM": 380.0,
+      "revenueMM": 380,
       "expensesBySegmentMM": {
-        "Cost of sales": 228.0,
-        "Administrative expenses": 21.0,
-        "Other operating costs": 1.0
+        "Cost of sales": 228,
+        "Administrative expenses": 21,
+        "Other operating costs": 1
       },
-      "ebitdaMM": 130.0,
-      "netIncomeMM": 73.0,
-      "netDebtMM": -40.0,
+      "ebitdaMM": 130,
+      "netIncomeMM": 73,
+      "netDebtMM": -40,
       "totalAcresK": 134.6,
-      "sharesOutMM": 52.0,
-      "notes": "FY22: record CPO; net cash builds further"
+      "sharesOutMM": 52,
+      "notes": "FY22: record CPO; net cash builds further",
+      "bookValuePerShare": 7.55
     },
     {
       "endDate": "2023-06-30",
       "periodType": "H",
-      "revenueMM": 165.0,
-      "ebitdaMM": 47.0,
+      "revenueMM": 165,
+      "ebitdaMM": 47,
       "totalAcresK": 134.6
     },
     {
       "endDate": "2023-12-31",
       "periodType": "FY",
-      "revenueMM": 320.0,
+      "revenueMM": 320,
       "expensesBySegmentMM": {
-        "Cost of sales": 207.0,
-        "Administrative expenses": 20.0,
-        "Other operating costs": 1.0
+        "Cost of sales": 207,
+        "Administrative expenses": 20,
+        "Other operating costs": 1
       },
-      "ebitdaMM": 92.0,
-      "netIncomeMM": 50.0,
-      "netDebtMM": -30.0,
+      "ebitdaMM": 92,
+      "netIncomeMM": 50,
+      "netDebtMM": -30,
       "totalAcresK": 134.6,
-      "sharesOutMM": 52.0,
-      "notes": "FY23: CPO normalized; cash payout ramped via dividend + buyback"
+      "sharesOutMM": 52,
+      "notes": "FY23: CPO normalized; cash payout ramped via dividend + buyback",
+      "bookValuePerShare": 7.5
     },
     {
       "endDate": "2024-06-30",
       "periodType": "H",
-      "revenueMM": 175.0,
-      "ebitdaMM": 50.0,
+      "revenueMM": 175,
+      "ebitdaMM": 50,
       "totalAcresK": 134.6
     },
     {
@@ -575,19 +603,20 @@
       "periodType": "FY",
       "revenueMM": 352.8,
       "expensesBySegmentMM": {
-        "Cost of sales": 231.0,
+        "Cost of sales": 231,
         "Administrative expenses": 20.8,
-        "Other operating costs": 1.0
+        "Other operating costs": 1
       },
-      "ebitdaMM": 100.0,
-      "netIncomeMM": 56.0,
-      "netDebtMM": -20.0,
+      "ebitdaMM": 100,
+      "netIncomeMM": 56,
+      "netDebtMM": -20,
       "totalAcresK": 134.6,
-      "sharesOutMM": 52.0,
+      "sharesOutMM": 52,
       "navPerShare": 7.69,
-      "propertyBookMM": 300.0,
-      "propertyFmvMM": 700.0,
-      "notes": "FY24 per seed-comps: revenue $352.8M, EBITDA $100M, net cash $20M, NAV/share $7.69, indicative FMV $700M vs book $300M"
+      "propertyBookMM": 300,
+      "propertyFmvMM": 700,
+      "notes": "FY24 per seed-comps: revenue $352.8M, EBITDA $100M, net cash $20M, NAV/share $7.69, indicative FMV $700M vs book $300M",
+      "bookValuePerShare": 7.69
     }
   ]
 }
