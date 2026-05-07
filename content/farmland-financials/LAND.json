@@ -217,7 +217,8 @@
       "noiMM": 11.8,
       "netIncomeMM": 0.4,
       "totalAcresK": 99.8,
-      "notes": "Q3 2020: revenue $13.6M, NOI $11.8M."
+      "bookValuePerShare": 13.61,
+      "notes": "Q3 2020: revenue $13.6M, NOI $11.8M. BVPS interpolated FY19→FY20."
     },
     {
       "endDate": "2020-12-31",
@@ -233,7 +234,8 @@
       "noiMM": 11.4,
       "netIncomeMM": 0.0,
       "totalAcresK": 104.3,
-      "notes": "Q4 2020: revenue $13.0M, NOI $11.4M."
+      "bookValuePerShare": 13.54,
+      "notes": "Q4 2020: revenue $13.0M, NOI $11.4M. BVPS = FY20 ($13.54)."
     },
     {
       "endDate": "2020-12-31",
@@ -274,7 +276,8 @@
       "noiMM": 12.7,
       "netIncomeMM": 0.5,
       "totalAcresK": 107.0,
-      "notes": "Q1 2021: revenue $14.6M, NOI $12.7M."
+      "bookValuePerShare": 14.52,
+      "notes": "Q1 2021: revenue $14.6M, NOI $12.7M. BVPS interpolated FY20 ($13.54) → FY21 ($17.45)."
     },
     {
       "endDate": "2021-06-30",
@@ -290,7 +293,8 @@
       "noiMM": 16.4,
       "netIncomeMM": 1.5,
       "totalAcresK": 110.0,
-      "notes": "Q2 2021: revenue $18.7M (+64% YoY), NOI $16.4M, on portfolio ramp."
+      "bookValuePerShare": 15.50,
+      "notes": "Q2 2021: revenue $18.7M (+64% YoY), NOI $16.4M, on portfolio ramp. BVPS interpolated FY20→FY21."
     },
     {
       "endDate": "2021-09-30",
@@ -306,7 +310,8 @@
       "noiMM": 17.4,
       "netIncomeMM": 1.6,
       "totalAcresK": 112.5,
-      "notes": "Q3 2021: revenue $19.7M, NOI $17.4M."
+      "bookValuePerShare": 16.47,
+      "notes": "Q3 2021: revenue $19.7M, NOI $17.4M. BVPS interpolated FY20→FY21."
     },
     {
       "endDate": "2021-12-31",
@@ -322,7 +327,8 @@
       "noiMM": 18.4,
       "netIncomeMM": 1.4,
       "totalAcresK": 115.0,
-      "notes": "Q4 2021: revenue $21.0M, NOI $18.4M."
+      "bookValuePerShare": 17.45,
+      "notes": "Q4 2021: revenue $21.0M, NOI $18.4M. BVPS = FY21 ($17.45)."
     },
     {
       "endDate": "2021-12-31",
@@ -364,7 +370,8 @@
       "noiMM": 19.6,
       "netIncomeMM": 1.7,
       "totalAcresK": 115.5,
-      "notes": "Q1 2022: revenue $22.4M, NOI $19.6M."
+      "bookValuePerShare": 18.45,
+      "notes": "Q1 2022: revenue $22.4M, NOI $19.6M. BVPS interpolated FY21 ($17.45) → FY22 ($21.46)."
     },
     {
       "endDate": "2022-06-30",
@@ -380,7 +387,8 @@
       "noiMM": 20.6,
       "netIncomeMM": 2.0,
       "totalAcresK": 116.0,
-      "notes": "Q2 2022: revenue $23.6M, NOI $20.6M."
+      "bookValuePerShare": 19.46,
+      "notes": "Q2 2022: revenue $23.6M, NOI $20.6M. BVPS interpolated FY21→FY22."
     },
     {
       "endDate": "2022-09-30",
@@ -396,7 +404,8 @@
       "noiMM": 20.1,
       "netIncomeMM": 1.0,
       "totalAcresK": 116.0,
-      "notes": "Q3 2022: revenue $23.0M, NOI $20.1M."
+      "bookValuePerShare": 20.46,
+      "notes": "Q3 2022: revenue $23.0M, NOI $20.1M. BVPS interpolated FY21→FY22."
     },
     {
       "endDate": "2022-12-31",
@@ -412,7 +421,8 @@
       "noiMM": 19.7,
       "netIncomeMM": -0.5,
       "totalAcresK": 116.0,
-      "notes": "Q4 2022: revenue $22.5M, NOI $19.7M."
+      "bookValuePerShare": 21.46,
+      "notes": "Q4 2022: revenue $22.5M, NOI $19.7M. BVPS = FY22 ($21.46)."
     },
     {
       "endDate": "2022-12-31",
@@ -454,7 +464,8 @@
       "noiMM": 19.6,
       "netIncomeMM": -1.4,
       "totalAcresK": 116.0,
-      "notes": "Q1 2023: revenue $22.7M, NOI $19.6M."
+      "bookValuePerShare": 21.48,
+      "notes": "Q1 2023: revenue $22.7M, NOI $19.6M. BVPS interpolated FY22 ($21.46) → FY23 ($21.52)."
     },
     {
       "endDate": "2023-06-30",
