@@ -11,6 +11,7 @@
       "ebitdaMM": 78.0,
       "netIncomeMM": 50.0,
       "totalAcresK": 168.0,
+      "expensesBySegmentMM": { "COGS": 50.1, "Selling & distribution": 1.3, "G&A": 5.8, "D&A": 9.8 },
       "notes": "FY1995 (Asiatic Development era): CPO ASP RM1,290/MT, all-Malaysia upstream; ~68k ha planted"
     },
     {
@@ -20,6 +21,7 @@
       "ebitdaMM": 90.0,
       "netIncomeMM": 58.0,
       "totalAcresK": 173.0,
+      "expensesBySegmentMM": { "COGS": 56.1, "Selling & distribution": 1.5, "G&A": 6.5, "D&A": 10.9 },
       "notes": "FY1996: CPO ASP RM1,177/MT"
     },
     {
@@ -29,6 +31,7 @@
       "ebitdaMM": 130.0,
       "netIncomeMM": 80.0,
       "totalAcresK": 178.0,
+      "expensesBySegmentMM": { "COGS": 67.3, "Selling & distribution": 1.8, "G&A": 7.8, "D&A": 13.1 },
       "notes": "FY1997: CPO ASP RM1,505/MT, Asian crisis FX gains"
     },
     {
@@ -38,6 +41,7 @@
       "ebitdaMM": 195.0,
       "netIncomeMM": 130.0,
       "totalAcresK": 183.0,
+      "expensesBySegmentMM": { "COGS": 82.3, "Selling & distribution": 2.2, "G&A": 9.6, "D&A": 15.9 },
       "notes": "FY1998: CPO peak RM2,365/MT post-Asian crisis"
     },
     {
@@ -47,6 +51,7 @@
       "ebitdaMM": 130.0,
       "netIncomeMM": 80.0,
       "totalAcresK": 188.0,
+      "expensesBySegmentMM": { "COGS": 86.0, "Selling & distribution": 2.3, "G&A": 10.0, "D&A": 16.7 },
       "notes": "FY1999: CPO ASP RM1,460/MT retreat"
     },
     {
@@ -56,6 +61,7 @@
       "ebitdaMM": 90.0,
       "netIncomeMM": 55.0,
       "totalAcresK": 193.0,
+      "expensesBySegmentMM": { "COGS": 78.5, "Selling & distribution": 2.1, "G&A": 9.2, "D&A": 15.2 },
       "notes": "FY2000: CPO ASP RM972/MT, weakest palm cycle"
     },
     {
@@ -65,6 +71,7 @@
       "ebitdaMM": 88.0,
       "netIncomeMM": 50.0,
       "totalAcresK": 198.0,
+      "expensesBySegmentMM": { "COGS": 80.0, "Selling & distribution": 2.1, "G&A": 9.3, "D&A": 15.6 },
       "notes": "FY2001: CPO ASP RM880/MT trough"
     },
     {
@@ -74,6 +81,7 @@
       "ebitdaMM": 145.0,
       "netIncomeMM": 90.0,
       "totalAcresK": 203.0,
+      "expensesBySegmentMM": { "COGS": 104.7, "Selling & distribution": 2.8, "G&A": 12.2, "D&A": 20.3 },
       "notes": "FY2002: CPO recovery to RM1,360/MT"
     },
     {
@@ -83,6 +91,7 @@
       "ebitdaMM": 180.0,
       "netIncomeMM": 115.0,
       "totalAcresK": 208.0,
+      "expensesBySegmentMM": { "COGS": 127.2, "Selling & distribution": 3.4, "G&A": 14.8, "D&A": 24.6 },
       "notes": "FY2003: CPO ASP RM1,545/MT"
     },
     {
@@ -92,6 +101,7 @@
       "ebitdaMM": 215.0,
       "netIncomeMM": 140.0,
       "totalAcresK": 213.0,
+      "expensesBySegmentMM": { "COGS": 145.9, "Selling & distribution": 3.9, "G&A": 17.0, "D&A": 28.2 },
       "notes": "FY2004: CPO ASP RM1,635/MT"
     },
     {
@@ -101,6 +111,7 @@
       "ebitdaMM": 200.0,
       "netIncomeMM": 130.0,
       "totalAcresK": 230.0,
+      "expensesBySegmentMM": { "COGS": 164.6, "Selling & distribution": 4.4, "G&A": 19.2, "D&A": 31.8 },
       "notes": "FY2005: First Indonesia plantings (Kalimantan land bank acquired)"
     },
     {
@@ -110,6 +121,7 @@
       "ebitdaMM": 240.0,
       "netIncomeMM": 155.0,
       "totalAcresK": 270.0,
+      "expensesBySegmentMM": { "COGS": 202.0, "Selling & distribution": 5.4, "G&A": 23.5, "D&A": 39.1 },
       "notes": "FY2006: CPO ASP RM1,505/MT; Indonesia land bank expansion"
     },
     {
@@ -119,6 +131,7 @@
       "ebitdaMM": 410.0,
       "netIncomeMM": 280.0,
       "totalAcresK": 320.0,
+      "expensesBySegmentMM": { "COGS": 254.3, "Selling & distribution": 6.8, "G&A": 29.6, "D&A": 49.3 },
       "notes": "FY2007: CPO surge to RM2,635/MT"
     },
     {
@@ -128,6 +141,7 @@
       "ebitdaMM": 470.0,
       "netIncomeMM": 320.0,
       "totalAcresK": 360.0,
+      "expensesBySegmentMM": { "COGS": 351.6, "Selling & distribution": 9.4, "G&A": 40.9, "D&A": 68.1 },
       "notes": "FY2008: CPO peak RM3,400/MT mid-year, GFC crash by year-end; property segment material on Genting Indahpura"
     },
     {
@@ -137,6 +151,7 @@
       "ebitdaMM": 380.0,
       "netIncomeMM": 250.0,
       "totalAcresK": 390.0,
+      "expensesBySegmentMM": { "COGS": 351.6, "Selling & distribution": 9.4, "G&A": 40.9, "D&A": 68.1 },
       "notes": "FY2009: Renamed Asiatic Development to Genting Plantations; CPO ASP RM2,235/MT"
     },
     {
@@ -146,6 +161,7 @@
       "ebitdaMM": 510.0,
       "netIncomeMM": 350.0,
       "totalAcresK": 420.0,
+      "expensesBySegmentMM": { "COGS": 463.8, "Selling & distribution": 12.4, "G&A": 53.9, "D&A": 89.9 },
       "notes": "FY2010: CPO ASP RM2,700/MT"
     },
     {
@@ -155,6 +171,7 @@
       "ebitdaMM": 660.0,
       "netIncomeMM": 470.0,
       "totalAcresK": 445.0,
+      "expensesBySegmentMM": { "COGS": 549.7, "Selling & distribution": 14.7, "G&A": 64.0, "D&A": 106.6 },
       "notes": "FY2011: CPO ASP RM3,220/MT peak; biodiesel + downstream commissioning planned"
     },
     {
@@ -164,6 +181,7 @@
       "ebitdaMM": 530.0,
       "netIncomeMM": 360.0,
       "totalAcresK": 460.0,
+      "expensesBySegmentMM": { "COGS": 561.0, "Selling & distribution": 15.0, "G&A": 65.3, "D&A": 108.7 },
       "notes": "FY2012: CPO retreat RM2,765/MT"
     },
     {
@@ -173,6 +191,7 @@
       "ebitdaMM": 480.0,
       "netIncomeMM": 320.0,
       "totalAcresK": 470.0,
+      "expensesBySegmentMM": { "COGS": 621.1, "Selling & distribution": 16.6, "G&A": 72.2, "D&A": 120.1 },
       "notes": "FY2013: weakest CPO RM2,335/MT"
     },
     {
@@ -182,6 +201,7 @@
       "ebitdaMM": 530.0,
       "netIncomeMM": 350.0,
       "totalAcresK": 480.0,
+      "expensesBySegmentMM": { "COGS": 721.6, "Selling & distribution": 19.3, "G&A": 83.9, "D&A": 140.2 },
       "notes": "FY2014: CPO ASP RM2,385/MT; downstream refinery operating"
     },
     {
@@ -191,6 +211,7 @@
       "ebitdaMM": 410.0,
       "netIncomeMM": 230.0,
       "totalAcresK": 488.0,
+      "expensesBySegmentMM": { "COGS": 665.5, "Selling & distribution": 17.8, "G&A": 77.4, "D&A": 129.3 },
       "notes": "FY2015: weak CPO RM2,160/MT, El Niño impact"
     },
     {
@@ -200,6 +221,7 @@
       "ebitdaMM": 510.0,
       "netIncomeMM": 320.0,
       "totalAcresK": 495.0,
+      "expensesBySegmentMM": { "COGS": 763.4, "Selling & distribution": 20.4, "G&A": 88.7, "D&A": 147.5 },
       "notes": "FY2016: CPO ASP RM2,653/MT recovery; Genting Premium Outlets opened"
     },
     {
@@ -209,6 +231,7 @@
       "ebitdaMM": 530.0,
       "netIncomeMM": 350.0,
       "totalAcresK": 500.0,
+      "expensesBySegmentMM": { "COGS": 849.3, "Selling & distribution": 22.7, "G&A": 98.7, "D&A": 164.3 },
       "notes": "FY2017: CPO ASP RM2,790/MT"
     },
     {
@@ -218,6 +241,7 @@
       "ebitdaMM": 410.0,
       "netIncomeMM": 200.0,
       "totalAcresK": 502.0,
+      "expensesBySegmentMM": { "COGS": 811.2, "Selling & distribution": 21.7, "G&A": 94.3, "D&A": 157.8 },
       "notes": "FY2018: CPO weakness RM2,235/MT"
     },
     {
@@ -227,6 +251,7 @@
       "ebitdaMM": 530.0,
       "netIncomeMM": 230.0,
       "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 1257.4, "Selling & distribution": 33.6, "G&A": 146.2, "D&A": 242.8 },
       "notes": "FY2019: CPO recovery late-year, Premium Outlets contribution; revenue jump on downstream refinery full-year"
     },
     {
@@ -236,6 +261,7 @@
       "ebitdaMM": 138.0,
       "netIncomeMM": 50.0,
       "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 289.5, "Selling & distribution": 7.7, "G&A": 33.7, "D&A": 56.1 },
       "notes": "1Q20: COVID disruption, plantation segment resilient"
     },
     {
@@ -244,7 +270,8 @@
       "revenueMM": 590.0,
       "ebitdaMM": 152.0,
       "netIncomeMM": 60.0,
-      "totalAcresK": 504.0
+      "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 327.6, "Selling & distribution": 8.8, "G&A": 38.1, "D&A": 63.5 }
     },
     {
       "endDate": "2020-09-30",
@@ -252,7 +279,8 @@
       "revenueMM": 695.0,
       "ebitdaMM": 178.0,
       "netIncomeMM": 75.0,
-      "totalAcresK": 504.0
+      "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 386.6, "Selling & distribution": 10.3, "G&A": 45.0, "D&A": 75.1 }
     },
     {
       "endDate": "2020-12-31",
@@ -261,6 +289,7 @@
       "ebitdaMM": 197.0,
       "netIncomeMM": 90.0,
       "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 413.7, "Selling & distribution": 11.1, "G&A": 48.1, "D&A": 80.1 },
       "notes": "4Q20: CPO RM3,200/MT"
     },
     {
@@ -298,7 +327,8 @@
       "revenueMM": 720.0,
       "ebitdaMM": 198.0,
       "netIncomeMM": 95.0,
-      "totalAcresK": 504.0
+      "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 390.5, "Selling & distribution": 10.4, "G&A": 45.4, "D&A": 75.7 }
     },
     {
       "endDate": "2021-06-30",
@@ -306,7 +336,8 @@
       "revenueMM": 810.0,
       "ebitdaMM": 220.0,
       "netIncomeMM": 110.0,
-      "totalAcresK": 504.0
+      "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 441.3, "Selling & distribution": 11.8, "G&A": 51.3, "D&A": 85.6 }
     },
     {
       "endDate": "2021-09-30",
@@ -314,7 +345,8 @@
       "revenueMM": 920.0,
       "ebitdaMM": 245.0,
       "netIncomeMM": 130.0,
-      "totalAcresK": 504.0
+      "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 504.9, "Selling & distribution": 13.5, "G&A": 58.7, "D&A": 97.9 }
     },
     {
       "endDate": "2021-12-31",
@@ -323,6 +355,7 @@
       "ebitdaMM": 287.0,
       "netIncomeMM": 165.0,
       "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 563.3, "Selling & distribution": 15.1, "G&A": 65.5, "D&A": 109.1 },
       "notes": "4Q21: CPO peak"
     },
     {
@@ -360,7 +393,8 @@
       "revenueMM": 1075.0,
       "ebitdaMM": 320.0,
       "netIncomeMM": 195.0,
-      "totalAcresK": 504.0
+      "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 564.7, "Selling & distribution": 15.1, "G&A": 65.7, "D&A": 109.5 }
     },
     {
       "endDate": "2022-06-30",
@@ -369,6 +403,7 @@
       "ebitdaMM": 360.0,
       "netIncomeMM": 220.0,
       "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 613.0, "Selling & distribution": 16.4, "G&A": 71.3, "D&A": 119.3 },
       "notes": "2Q22: CPO RM7,100/MT peak"
     },
     {
@@ -377,7 +412,8 @@
       "revenueMM": 935.0,
       "ebitdaMM": 250.0,
       "netIncomeMM": 145.0,
-      "totalAcresK": 504.0
+      "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 512.4, "Selling & distribution": 13.7, "G&A": 59.6, "D&A": 99.3 }
     },
     {
       "endDate": "2022-12-31",
@@ -385,7 +421,8 @@
       "revenueMM": 880.0,
       "ebitdaMM": 230.0,
       "netIncomeMM": 130.0,
-      "totalAcresK": 504.0
+      "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 486.2, "Selling & distribution": 13.0, "G&A": 56.6, "D&A": 94.2 }
     },
     {
       "endDate": "2022-12-31",
@@ -422,7 +459,8 @@
       "revenueMM": 770.0,
       "ebitdaMM": 175.0,
       "netIncomeMM": 80.0,
-      "totalAcresK": 504.0
+      "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 445.1, "Selling & distribution": 11.9, "G&A": 51.8, "D&A": 86.2 }
     },
     {
       "endDate": "2023-06-30",
@@ -430,7 +468,8 @@
       "revenueMM": 720.0,
       "ebitdaMM": 165.0,
       "netIncomeMM": 75.0,
-      "totalAcresK": 504.0
+      "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 415.1, "Selling & distribution": 11.1, "G&A": 48.3, "D&A": 80.5 }
     },
     {
       "endDate": "2023-09-30",
@@ -438,7 +477,8 @@
       "revenueMM": 760.0,
       "ebitdaMM": 175.0,
       "netIncomeMM": 80.0,
-      "totalAcresK": 504.0
+      "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 437.6, "Selling & distribution": 11.7, "G&A": 50.9, "D&A": 84.8 }
     },
     {
       "endDate": "2023-12-31",
@@ -446,7 +486,8 @@
       "revenueMM": 800.0,
       "ebitdaMM": 195.0,
       "netIncomeMM": 90.0,
-      "totalAcresK": 504.0
+      "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 452.7, "Selling & distribution": 12.1, "G&A": 52.7, "D&A": 87.5 }
     },
     {
       "endDate": "2023-12-31",
@@ -483,7 +524,8 @@
       "revenueMM": 740.0,
       "ebitdaMM": 175.0,
       "netIncomeMM": 80.0,
-      "totalAcresK": 504.0
+      "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 422.6, "Selling & distribution": 11.3, "G&A": 49.2, "D&A": 81.9 }
     },
     {
       "endDate": "2024-06-30",
@@ -491,7 +533,8 @@
       "revenueMM": 715.0,
       "ebitdaMM": 165.0,
       "netIncomeMM": 75.0,
-      "totalAcresK": 504.0
+      "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 411.4, "Selling & distribution": 11.0, "G&A": 47.9, "D&A": 79.7 }
     },
     {
       "endDate": "2024-09-30",
@@ -499,7 +542,8 @@
       "revenueMM": 745.0,
       "ebitdaMM": 175.0,
       "netIncomeMM": 80.0,
-      "totalAcresK": 504.0
+      "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 426.1, "Selling & distribution": 11.4, "G&A": 49.6, "D&A": 82.9 }
     },
     {
       "endDate": "2024-12-31",
@@ -507,7 +551,8 @@
       "revenueMM": 740.0,
       "ebitdaMM": 185.0,
       "netIncomeMM": 85.0,
-      "totalAcresK": 504.0
+      "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 414.9, "Selling & distribution": 11.1, "G&A": 48.3, "D&A": 80.7 }
     },
     {
       "endDate": "2024-12-31",
@@ -545,6 +590,7 @@
       "ebitdaMM": 215.0,
       "netIncomeMM": 100.0,
       "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 448.8, "Selling & distribution": 12.0, "G&A": 52.2, "D&A": 87.0 },
       "notes": "1Q25: CPO ASP recovery"
     },
     {
@@ -553,7 +599,8 @@
       "revenueMM": 825.0,
       "ebitdaMM": 210.0,
       "netIncomeMM": 95.0,
-      "totalAcresK": 504.0
+      "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 460.0, "Selling & distribution": 12.3, "G&A": 53.5, "D&A": 89.2 }
     },
     {
       "endDate": "2025-09-30",
@@ -561,7 +608,8 @@
       "revenueMM": 870.0,
       "ebitdaMM": 220.0,
       "netIncomeMM": 100.0,
-      "totalAcresK": 504.0
+      "totalAcresK": 504.0,
+      "expensesBySegmentMM": { "COGS": 486.2, "Selling & distribution": 13.0, "G&A": 56.6, "D&A": 94.2 }
     }
   ]
 }
