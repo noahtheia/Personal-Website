@@ -1,10 +1,8 @@
-import { FARMLAND_SERIES } from "@/lib/farmland";
 import {
   getPricedFarmlandComps,
   type PricedFarmlandComp,
 } from "@/lib/farmland-comps";
 import { FarmlandComps } from "@/components/FarmlandComps";
-import { FarmlandChart } from "@/components/FarmlandChart";
 
 function fxNote(rows: PricedFarmlandComp[]): string {
   const seen = new Map<string, number>();
@@ -21,7 +19,7 @@ function fxNote(rows: PricedFarmlandComp[]): string {
 export const metadata = {
   title: "Public farmland",
   description:
-    "Public US farmland REIT comps with live-price multiples, plus USDA NASS land values and cash rents.",
+    "Public US farmland REIT comps with live-price multiples.",
 };
 
 export const revalidate = 3600;
@@ -60,17 +58,6 @@ export default async function PublicFarmlandPage() {
         cap rate, yield) are computed in local currency to avoid FX
         distortion.
       </p>
-
-      <section className="mt-12 border-t border-rule pt-8">
-        <h2 className="font-display text-xl font-semibold tracking-tight">
-          USDA land &amp; rent series
-        </h2>
-        <p className="mt-1 text-sm text-muted">
-          Long-run national averages from the USDA NASS Land Values and Cash
-          Rents annual summaries.
-        </p>
-        <FarmlandChart series={FARMLAND_SERIES} />
-      </section>
 
       <p className="mt-10 text-[11px] leading-relaxed text-muted">
         Filing inputs (shares outstanding, debt, cash, acres, NAV, annual NOI,
