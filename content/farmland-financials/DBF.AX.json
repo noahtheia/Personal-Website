@@ -8,6 +8,12 @@
       "endDate": "2018-06-30",
       "periodType": "FY",
       "revenueMM": 7.5,
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 5.5,
+        "Administrative expenses": 2.0,
+        "D&A": 1.0,
+        "Other operating costs": 0.5
+      },
       "ebitdaMM": -1.5,
       "netIncomeMM": -2.0,
       "totalAssetsMM": 145.0,
@@ -25,6 +31,12 @@
       "endDate": "2018-12-31",
       "periodType": "H",
       "revenueMM": 10.0,
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 6.5,
+        "Administrative expenses": 1.6,
+        "D&A": 0.6,
+        "Other operating costs": 0.3
+      },
       "ebitdaMM": 1.0,
       "netIncomeMM": -0.5,
       "totalAcresK": 44.8,
@@ -40,6 +52,12 @@
         "Pulses": 2.5,
         "Oilseeds": 2.5,
         "Livestock / other": 3.5
+      },
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 15.5,
+        "Administrative expenses": 3.5,
+        "D&A": 1.5,
+        "Other operating costs": 0.7
       },
       "ebitdaMM": 0.8,
       "netIncomeMM": -2.0,
@@ -58,6 +76,12 @@
       "endDate": "2019-12-31",
       "periodType": "H",
       "revenueMM": 13.0,
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 9.0,
+        "Administrative expenses": 2.0,
+        "D&A": 1.0,
+        "Other operating costs": 0.5
+      },
       "ebitdaMM": 0.5,
       "netIncomeMM": -1.2,
       "totalAcresK": 44.8,
@@ -73,6 +97,12 @@
         "Pulses": 3.0,
         "Oilseeds": 2.5,
         "Livestock / other": 3.0
+      },
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 17.0,
+        "Administrative expenses": 3.7,
+        "D&A": 1.5,
+        "Other operating costs": 0.5
       },
       "ebitdaMM": 1.8,
       "netIncomeMM": -2.4,
@@ -91,6 +121,12 @@
       "endDate": "2020-12-31",
       "periodType": "H",
       "revenueMM": 18.0,
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 9.8,
+        "Administrative expenses": 2.0,
+        "D&A": 0.8,
+        "Other operating costs": 0.4
+      },
       "ebitdaMM": 5.0,
       "netIncomeMM": 1.5,
       "totalAcresK": 44.8,
@@ -106,6 +142,12 @@
         "Pulses": 4.0,
         "Oilseeds": 3.0,
         "Livestock / other": 3.0
+      },
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 21.0,
+        "Administrative expenses": 4.0,
+        "D&A": 1.5,
+        "Other operating costs": 0.5
       },
       "ebitdaMM": 11.0,
       "netIncomeMM": 4.5,
@@ -124,6 +166,12 @@
       "endDate": "2021-12-31",
       "periodType": "H",
       "revenueMM": 22.0,
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 11.5,
+        "Administrative expenses": 2.5,
+        "D&A": 0.8,
+        "Other operating costs": 0.2
+      },
       "ebitdaMM": 7.0,
       "netIncomeMM": 3.0,
       "totalAcresK": 44.8,
@@ -139,6 +187,12 @@
         "Pulses": 4.0,
         "Oilseeds": 3.0,
         "Livestock / other": 3.0
+      },
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 25.0,
+        "Administrative expenses": 4.5,
+        "D&A": 1.7,
+        "Other operating costs": 0.3
       },
       "ebitdaMM": 18.0,
       "netIncomeMM": 9.5,
@@ -157,6 +211,12 @@
       "endDate": "2022-12-31",
       "periodType": "H",
       "revenueMM": 30.0,
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 14.5,
+        "Administrative expenses": 2.7,
+        "D&A": 0.5,
+        "Other operating costs": 0.3
+      },
       "ebitdaMM": 12.0,
       "netIncomeMM": 6.0,
       "totalAcresK": 44.8,
@@ -172,6 +232,12 @@
         "Pulses": 5.0,
         "Oilseeds": 3.5,
         "Livestock / other": 3.5
+      },
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 28.0,
+        "Administrative expenses": 5.5,
+        "D&A": 2.0,
+        "Other operating costs": 0.5
       },
       "ebitdaMM": 22.0,
       "netIncomeMM": 11.0,
@@ -190,6 +256,12 @@
       "endDate": "2023-12-31",
       "periodType": "H",
       "revenueMM": 14.0,
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 12.5,
+        "Administrative expenses": 3.0,
+        "D&A": 1.2,
+        "Other operating costs": 0.3
+      },
       "ebitdaMM": -3.0,
       "netIncomeMM": -5.5,
       "totalAcresK": 44.8,
@@ -205,6 +277,12 @@
         "Pulses": 3.0,
         "Oilseeds": 1.5,
         "Livestock / other": 2.5
+      },
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 25.0,
+        "Administrative expenses": 5.5,
+        "D&A": 2.0,
+        "Other operating costs": 0.5
       },
       "ebitdaMM": -5.0,
       "netIncomeMM": -10.0,
@@ -223,6 +301,12 @@
       "endDate": "2024-12-31",
       "periodType": "H",
       "revenueMM": 12.0,
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 11.5,
+        "Administrative expenses": 3.0,
+        "D&A": 1.2,
+        "Other operating costs": 0.3
+      },
       "ebitdaMM": -4.0,
       "netIncomeMM": -6.0,
       "totalAcresK": 44.8,
@@ -238,6 +322,12 @@
         "Pulses": 2.5,
         "Oilseeds": 1.5,
         "Livestock / other": 2.6
+      },
+      "expensesBySegmentMM": {
+        "Cost of sales / cropping costs": 24.5,
+        "Administrative expenses": 6.0,
+        "D&A": 2.2,
+        "Other operating costs": 0.4
       },
       "ebitdaMM": -9.02,
       "netIncomeMM": -12.5,

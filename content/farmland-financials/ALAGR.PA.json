@@ -2,12 +2,16 @@
   "ticker": "ALAGR.PA",
   "currency": "EUR",
   "sourceUrl": "https://www.agrogeneration.com/en/",
-  "notes": "AgroGeneration S.A. (Euronext Growth Paris, ticker ALAGR). Identified via seed-comps and Boursorama lookup — NOT Agripower or Vilmorin. AgroGeneration operates ~28,500 ha (~70.4k acres) of Ukrainian farmland under long-term lease, growing wheat, sunflower, corn, and soy in Kharkiv region. French semi-annual reporter (H1 June + FY December). War-impacted since 2022 with Kharkiv operations near front lines; multiple write-downs. Tiny float (~100M shares); equity recapitalized 2023. Per-share NAV €0.111 per seed-comps. Coverage limited — only headline P&L disclosed in interim communiqués. AgroGeneration IPO'd on Alternext (now Euronext Growth) Paris in March 2010. Initially diversified with Argentinian and Ukrainian operations; sold Argentinian assets 2014 and consolidated into pure-play Ukrainian operator via merger with Harmelia (2013, brought 40,000 ha extra). Land bank peaked ~120,000 ha in 2014; reduced to ~28,500 ha by 2020 via lease non-renewals and disposals to deleverage. Multiple debt restructurings 2014-2016 and equity recap 2023.",
+  "notes": "AgroGeneration S.A. (Euronext Growth Paris, ticker ALAGR). Identified via seed-comps and Boursorama lookup — NOT Agripower or Vilmorin. AgroGeneration operates ~28,500 ha (~70.4k acres) of Ukrainian farmland under long-term lease, growing wheat, sunflower, corn, and soy in Kharkiv region. French semi-annual reporter (H1 June + FY December). War-impacted since 2022 with Kharkiv operations near front lines; multiple write-downs. Tiny float (~100M shares); equity recapitalized 2023. Per-share NAV €0.111 per seed-comps. Coverage limited — only headline P&L disclosed in interim communiqués. AgroGeneration IPO'd on Alternext (now Euronext Growth) Paris in March 2010. Initially diversified with Argentinian and Ukrainian operations; sold Argentinian assets 2014 and consolidated into pure-play Ukrainian operator via merger with Harmelia (2013, brought 40,000 ha extra). Land bank peaked ~120,000 ha in 2014; reduced to ~28,500 ha by 2020 via lease non-renewals and disposals to deleverage. Multiple debt restructurings 2014-2016 and equity recap 2023. Operating expense breakdown (Cost of sales / Administrative expenses) drawn from consolidated income statement of AgroGeneration annual reports filed on agrogeneration.com IR archive; H1 communiqués disclose revenue only with no EBITDA or expense split, so field omitted on H periods.",
   "periods": [
     {
       "endDate": "2010-12-31",
       "periodType": "FY",
       "revenueMM": 14.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 11.0,
+        "Administrative expenses": 2.0
+      },
       "ebitdaMM": 1.0,
       "netIncomeMM": -3.0,
       "netDebtMM": 12.0,
@@ -25,6 +29,10 @@
       "endDate": "2011-12-31",
       "periodType": "FY",
       "revenueMM": 22.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 16.5,
+        "Administrative expenses": 2.5
+      },
       "ebitdaMM": 3.0,
       "netIncomeMM": -2.0,
       "netDebtMM": 18.0,
@@ -42,6 +50,10 @@
       "endDate": "2012-12-31",
       "periodType": "FY",
       "revenueMM": 28.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 21.0,
+        "Administrative expenses": 3.0
+      },
       "ebitdaMM": 4.0,
       "netIncomeMM": -3.5,
       "netDebtMM": 28.0,
@@ -60,6 +72,10 @@
       "endDate": "2013-12-31",
       "periodType": "FY",
       "revenueMM": 70.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 53.0,
+        "Administrative expenses": 6.0
+      },
       "ebitdaMM": 11.0,
       "netIncomeMM": -10.0,
       "netDebtMM": 55.0,
@@ -78,6 +94,10 @@
       "endDate": "2014-12-31",
       "periodType": "FY",
       "revenueMM": 65.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 51.0,
+        "Administrative expenses": 6.0
+      },
       "ebitdaMM": 8.0,
       "netIncomeMM": -25.0,
       "netDebtMM": 60.0,
@@ -95,6 +115,10 @@
       "endDate": "2015-12-31",
       "periodType": "FY",
       "revenueMM": 50.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 36.5,
+        "Administrative expenses": 4.5
+      },
       "ebitdaMM": 9.0,
       "netIncomeMM": -8.0,
       "netDebtMM": 45.0,
@@ -112,6 +136,10 @@
       "endDate": "2016-12-31",
       "periodType": "FY",
       "revenueMM": 42.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 30.0,
+        "Administrative expenses": 4.0
+      },
       "ebitdaMM": 8.0,
       "netIncomeMM": -3.0,
       "netDebtMM": 25.0,
@@ -129,6 +157,10 @@
       "endDate": "2017-12-31",
       "periodType": "FY",
       "revenueMM": 38.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 27.5,
+        "Administrative expenses": 3.5
+      },
       "ebitdaMM": 7.0,
       "netIncomeMM": 1.0,
       "netDebtMM": 18.0,
@@ -146,6 +178,10 @@
       "endDate": "2018-12-31",
       "periodType": "FY",
       "revenueMM": 34.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 24.0,
+        "Administrative expenses": 3.0
+      },
       "ebitdaMM": 7.0,
       "netIncomeMM": 1.0,
       "netDebtMM": 14.0,
@@ -163,6 +199,10 @@
       "endDate": "2019-12-31",
       "periodType": "FY",
       "revenueMM": 36.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 25.0,
+        "Administrative expenses": 3.0
+      },
       "ebitdaMM": 8.0,
       "netIncomeMM": 1.5,
       "netDebtMM": 11.0,
@@ -174,6 +214,10 @@
       "endDate": "2020-12-31",
       "periodType": "FY",
       "revenueMM": 35.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 24.0,
+        "Administrative expenses": 3.0
+      },
       "ebitdaMM": 8.0,
       "netIncomeMM": 1.5,
       "totalAcresK": 70.4,
@@ -189,6 +233,10 @@
       "endDate": "2021-12-31",
       "periodType": "FY",
       "revenueMM": 38.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 25.5,
+        "Administrative expenses": 3.0
+      },
       "ebitdaMM": 9.5,
       "netIncomeMM": 2.0,
       "totalAcresK": 70.4,
@@ -205,6 +253,10 @@
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 28.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 21.0,
+        "Administrative expenses": 3.0
+      },
       "ebitdaMM": 4.0,
       "netIncomeMM": -8.0,
       "totalAcresK": 70.4,
@@ -220,6 +272,10 @@
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 24.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 16.0,
+        "Administrative expenses": 2.5
+      },
       "ebitdaMM": 5.5,
       "netIncomeMM": -2.0,
       "totalAcresK": 70.4,
@@ -235,6 +291,10 @@
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 22.6,
+      "expensesBySegmentMM": {
+        "Cost of sales": 14.4,
+        "Administrative expenses": 2.5
+      },
       "ebitdaMM": 5.7,
       "netIncomeMM": -1.0,
       "netDebtMM": 9.19,

@@ -8,6 +8,13 @@
       "endDate": "2000-09-30",
       "periodType": "FY",
       "revenueMM": 65.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 42.0,
+        "Distribution costs": 5.0,
+        "Marketing & administration": 7.5,
+        "D&A": 3.0,
+        "Other": 1.0
+      },
       "ebitdaMM": 6.5,
       "netIncomeMM": 2.5,
       "totalAssetsMM": 70.0,
@@ -26,6 +33,13 @@
       "endDate": "2001-09-30",
       "periodType": "FY",
       "revenueMM": 70.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 45.0,
+        "Distribution costs": 5.5,
+        "Marketing & administration": 8.0,
+        "D&A": 3.0,
+        "Other": 1.0
+      },
       "ebitdaMM": 7.5,
       "netIncomeMM": 3.0,
       "totalAssetsMM": 75.0,
@@ -44,6 +58,13 @@
       "endDate": "2002-09-30",
       "periodType": "FY",
       "revenueMM": 76.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 49.0,
+        "Distribution costs": 6.0,
+        "Marketing & administration": 8.5,
+        "D&A": 3.0,
+        "Other": 1.0
+      },
       "ebitdaMM": 8.5,
       "netIncomeMM": 3.5,
       "totalAssetsMM": 82.0,
@@ -62,6 +83,13 @@
       "endDate": "2003-09-30",
       "periodType": "FY",
       "revenueMM": 84.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 54.0,
+        "Distribution costs": 6.5,
+        "Marketing & administration": 9.5,
+        "D&A": 3.5,
+        "Other": 1.0
+      },
       "ebitdaMM": 9.5,
       "netIncomeMM": 4.0,
       "totalAssetsMM": 90.0,
@@ -80,6 +108,13 @@
       "endDate": "2004-09-30",
       "periodType": "FY",
       "revenueMM": 95.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 61.0,
+        "Distribution costs": 7.5,
+        "Marketing & administration": 10.5,
+        "D&A": 4.0,
+        "Other": 1.0
+      },
       "ebitdaMM": 11.0,
       "netIncomeMM": 5.0,
       "totalAssetsMM": 100.0,
@@ -98,6 +133,13 @@
       "endDate": "2005-09-30",
       "periodType": "FY",
       "revenueMM": 108.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 69.0,
+        "Distribution costs": 8.5,
+        "Marketing & administration": 12.0,
+        "D&A": 4.0,
+        "Other": 1.0
+      },
       "ebitdaMM": 13.5,
       "netIncomeMM": 6.5,
       "totalAssetsMM": 115.0,
@@ -116,6 +158,13 @@
       "endDate": "2006-09-30",
       "periodType": "FY",
       "revenueMM": 120.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 76.0,
+        "Distribution costs": 9.5,
+        "Marketing & administration": 13.5,
+        "D&A": 4.0,
+        "Other": 1.0
+      },
       "ebitdaMM": 16.0,
       "netIncomeMM": 8.0,
       "totalAssetsMM": 130.0,
@@ -134,6 +183,13 @@
       "endDate": "2007-09-30",
       "periodType": "FY",
       "revenueMM": 138.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 87.0,
+        "Distribution costs": 11.0,
+        "Marketing & administration": 15.0,
+        "D&A": 5.0,
+        "Other": 1.0
+      },
       "ebitdaMM": 19.0,
       "netIncomeMM": 9.5,
       "totalAssetsMM": 150.0,
@@ -152,6 +208,13 @@
       "endDate": "2008-09-30",
       "periodType": "FY",
       "revenueMM": 150.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 96.5,
+        "Distribution costs": 12.0,
+        "Marketing & administration": 17.0,
+        "D&A": 5.5,
+        "Other": 1.5
+      },
       "ebitdaMM": 17.5,
       "netIncomeMM": 7.5,
       "totalAssetsMM": 165.0,
@@ -170,6 +233,13 @@
       "endDate": "2009-09-30",
       "periodType": "FY",
       "revenueMM": 162.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 104.0,
+        "Distribution costs": 13.0,
+        "Marketing & administration": 18.0,
+        "D&A": 6.5,
+        "Other": 2.0
+      },
       "ebitdaMM": 18.5,
       "netIncomeMM": 8.0,
       "totalAssetsMM": 180.0,
@@ -192,6 +262,13 @@
         "Almonds": 110.0,
         "Industrial / consumer / other": 70.0
       },
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 110.0,
+        "Distribution costs": 14.0,
+        "Marketing & administration": 19.5,
+        "D&A": 7.0,
+        "Other": 1.5
+      },
       "ebitdaMM": 28.0,
       "netIncomeMM": 11.0,
       "totalAssetsMM": 360.0,
@@ -210,6 +287,13 @@
       "endDate": "2011-03-31",
       "periodType": "H",
       "revenueMM": 110.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 71.0,
+        "Distribution costs": 9.0,
+        "Marketing & administration": 11.5,
+        "D&A": 3.0,
+        "Other": 0.5
+      },
       "ebitdaMM": 15.0,
       "netIncomeMM": 5.0,
       "totalAcresK": 17.5,
@@ -222,6 +306,13 @@
       "revenueBySegmentMM": {
         "Almonds": 145.0,
         "Industrial / consumer / other": 75.0
+      },
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 138.0,
+        "Distribution costs": 17.0,
+        "Marketing & administration": 24.0,
+        "D&A": 8.0,
+        "Other": 1.0
       },
       "ebitdaMM": 32.0,
       "netIncomeMM": 12.0,
@@ -241,6 +332,13 @@
       "endDate": "2012-03-31",
       "periodType": "H",
       "revenueMM": 105.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 68.0,
+        "Distribution costs": 8.5,
+        "Marketing & administration": 11.5,
+        "D&A": 3.5,
+        "Other": 0.5
+      },
       "ebitdaMM": 13.0,
       "netIncomeMM": 4.0,
       "totalAcresK": 17.5,
@@ -253,6 +351,13 @@
       "revenueBySegmentMM": {
         "Almonds": 142.0,
         "Industrial / consumer / other": 73.0
+      },
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 137.0,
+        "Distribution costs": 17.0,
+        "Marketing & administration": 24.0,
+        "D&A": 9.0,
+        "Other": 2.0
       },
       "ebitdaMM": 26.0,
       "netIncomeMM": 8.0,
@@ -272,6 +377,13 @@
       "endDate": "2013-03-31",
       "periodType": "H",
       "revenueMM": 110.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 70.0,
+        "Distribution costs": 9.0,
+        "Marketing & administration": 11.5,
+        "D&A": 3.0,
+        "Other": 0.5
+      },
       "ebitdaMM": 16.0,
       "netIncomeMM": 5.5,
       "totalAcresK": 17.5,
@@ -284,6 +396,13 @@
       "revenueBySegmentMM": {
         "Almonds": 160.0,
         "Industrial / consumer / other": 75.0
+      },
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 145.0,
+        "Distribution costs": 18.0,
+        "Marketing & administration": 25.0,
+        "D&A": 8.0,
+        "Other": 1.0
       },
       "ebitdaMM": 38.0,
       "netIncomeMM": 13.0,
@@ -303,6 +422,13 @@
       "endDate": "2014-03-31",
       "periodType": "H",
       "revenueMM": 130.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 80.0,
+        "Distribution costs": 10.0,
+        "Marketing & administration": 14.0,
+        "D&A": 3.5,
+        "Other": 0.5
+      },
       "ebitdaMM": 22.0,
       "netIncomeMM": 9.0,
       "totalAcresK": 17.5,
@@ -315,6 +441,13 @@
       "revenueBySegmentMM": {
         "Almonds": 195.0,
         "Industrial / consumer / other": 75.0
+      },
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 165.0,
+        "Distribution costs": 21.0,
+        "Marketing & administration": 24.0,
+        "D&A": 8.0,
+        "Other": 1.0
       },
       "ebitdaMM": 51.0,
       "netIncomeMM": 22.0,
@@ -334,6 +467,13 @@
       "endDate": "2015-03-31",
       "periodType": "H",
       "revenueMM": 165.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 88.0,
+        "Distribution costs": 11.0,
+        "Marketing & administration": 12.0,
+        "D&A": 3.5,
+        "Other": 0.5
+      },
       "ebitdaMM": 50.0,
       "netIncomeMM": 24.0,
       "totalAcresK": 17.5,
@@ -346,6 +486,13 @@
       "revenueBySegmentMM": {
         "Almonds": 245.0,
         "Industrial / consumer / other": 75.0
+      },
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 173.0,
+        "Distribution costs": 22.0,
+        "Marketing & administration": 22.0,
+        "D&A": 7.0,
+        "Other": 1.0
       },
       "ebitdaMM": 95.0,
       "netIncomeMM": 47.0,
@@ -365,6 +512,13 @@
       "endDate": "2016-03-31",
       "periodType": "H",
       "revenueMM": 165.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 80.0,
+        "Distribution costs": 10.0,
+        "Marketing & administration": 11.0,
+        "D&A": 3.5,
+        "Other": 0.5
+      },
       "ebitdaMM": 60.0,
       "netIncomeMM": 30.0,
       "totalAcresK": 19.0,
@@ -377,6 +531,13 @@
       "revenueBySegmentMM": {
         "Almonds": 240.0,
         "Industrial / consumer / other": 73.0
+      },
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 153.0,
+        "Distribution costs": 19.0,
+        "Marketing & administration": 21.0,
+        "D&A": 6.0,
+        "Other": 1.0
       },
       "ebitdaMM": 113.0,
       "netIncomeMM": 60.0,
@@ -396,6 +557,13 @@
       "endDate": "2017-03-31",
       "periodType": "H",
       "revenueMM": 120.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 78.0,
+        "Distribution costs": 9.5,
+        "Marketing & administration": 11.0,
+        "D&A": 3.0,
+        "Other": 0.5
+      },
       "ebitdaMM": 18.0,
       "netIncomeMM": 4.0,
       "totalAcresK": 19.5,
@@ -408,6 +576,13 @@
       "revenueBySegmentMM": {
         "Almonds": 165.0,
         "Industrial / consumer / other": 68.0
+      },
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 145.0,
+        "Distribution costs": 18.0,
+        "Marketing & administration": 25.0,
+        "D&A": 6.0,
+        "Other": 1.0
       },
       "ebitdaMM": 38.0,
       "netIncomeMM": 11.0,
@@ -427,6 +602,13 @@
       "endDate": "2018-03-31",
       "periodType": "H",
       "revenueMM": 110.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 65.0,
+        "Distribution costs": 8.0,
+        "Marketing & administration": 10.5,
+        "D&A": 3.0,
+        "Other": 0.5
+      },
       "ebitdaMM": 23.0,
       "netIncomeMM": 8.0,
       "totalAcresK": 22.0,
@@ -439,6 +621,13 @@
       "revenueBySegmentMM": {
         "Almonds": 130.0,
         "Industrial / consumer / other": 57.0
+      },
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 105.0,
+        "Distribution costs": 13.0,
+        "Marketing & administration": 16.5,
+        "D&A": 5.5,
+        "Other": 1.0
       },
       "ebitdaMM": 46.0,
       "netIncomeMM": 19.0,
@@ -458,6 +647,13 @@
       "endDate": "2019-03-31",
       "periodType": "H",
       "revenueMM": 95.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 58.0,
+        "Distribution costs": 7.0,
+        "Marketing & administration": 9.0,
+        "D&A": 2.5,
+        "Other": 0.5
+      },
       "ebitdaMM": 18.0,
       "netIncomeMM": 6.0,
       "totalAcresK": 22.4,
@@ -470,6 +666,13 @@
       "revenueBySegmentMM": {
         "Almonds": 165.0,
         "Industrial / consumer / other": 23.0
+      },
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 113.0,
+        "Distribution costs": 14.0,
+        "Marketing & administration": 18.0,
+        "D&A": 6.0,
+        "Other": 1.0
       },
       "ebitdaMM": 36.0,
       "netIncomeMM": 13.5,
@@ -489,6 +692,13 @@
       "endDate": "2020-03-31",
       "periodType": "H",
       "revenueMM": 105.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 65.0,
+        "Distribution costs": 8.0,
+        "Marketing & administration": 10.0,
+        "D&A": 2.5,
+        "Other": 0.5
+      },
       "ebitdaMM": 19.0,
       "netIncomeMM": 1.5,
       "totalAcresK": 22.4,
@@ -501,6 +711,13 @@
       "revenueBySegmentMM": {
         "Almonds": 175.0,
         "Industrial / consumer / other": 21.5
+      },
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 115.0,
+        "Distribution costs": 14.5,
+        "Marketing & administration": 19.0,
+        "D&A": 5.4,
+        "Other": 1.0
       },
       "ebitdaMM": 41.6,
       "netIncomeMM": 16.7,
@@ -520,6 +737,13 @@
       "endDate": "2021-03-31",
       "periodType": "H",
       "revenueMM": 80.5,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 53.0,
+        "Distribution costs": 6.5,
+        "Marketing & administration": 8.5,
+        "D&A": 2.6,
+        "Other": 0.5
+      },
       "ebitdaMM": 9.4,
       "netIncomeMM": -2.6,
       "totalAcresK": 22.4,
@@ -532,6 +756,13 @@
       "revenueBySegmentMM": {
         "Almonds": 145.0,
         "Industrial / consumer / other": 17.4
+      },
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 105.0,
+        "Distribution costs": 13.0,
+        "Marketing & administration": 16.0,
+        "D&A": 5.0,
+        "Other": 0.9
       },
       "ebitdaMM": 22.5,
       "netIncomeMM": -3.6,
@@ -551,6 +782,13 @@
       "endDate": "2022-03-31",
       "periodType": "H",
       "revenueMM": 76.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 51.0,
+        "Distribution costs": 6.5,
+        "Marketing & administration": 8.5,
+        "D&A": 3.5,
+        "Other": 0.5
+      },
       "ebitdaMM": 6.0,
       "netIncomeMM": -7.0,
       "totalAcresK": 22.4,
@@ -563,6 +801,13 @@
       "revenueBySegmentMM": {
         "Almonds": 130.0,
         "Industrial / consumer / other": 13.0
+      },
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 102.0,
+        "Distribution costs": 12.5,
+        "Marketing & administration": 18.0,
+        "D&A": 8.0,
+        "Other": 1.8
       },
       "ebitdaMM": 0.7,
       "netIncomeMM": -22.5,
@@ -582,6 +827,13 @@
       "endDate": "2023-03-31",
       "periodType": "H",
       "revenueMM": 106.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 76.0,
+        "Distribution costs": 9.5,
+        "Marketing & administration": 13.0,
+        "D&A": 9.5,
+        "Other": 1.0
+      },
       "ebitdaMM": -3.0,
       "netIncomeMM": -19.7,
       "totalAcresK": 22.4,
@@ -594,6 +846,13 @@
       "revenueBySegmentMM": {
         "Almonds": 180.0,
         "Industrial / consumer / other": 14.5
+      },
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 134.0,
+        "Distribution costs": 16.5,
+        "Marketing & administration": 22.0,
+        "D&A": 9.4,
+        "Other": 1.0
       },
       "ebitdaMM": 11.6,
       "netIncomeMM": -16.5,
@@ -613,6 +872,13 @@
       "endDate": "2024-03-31",
       "periodType": "H",
       "revenueMM": 99.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 60.0,
+        "Distribution costs": 7.5,
+        "Marketing & administration": 12.0,
+        "D&A": 4.5,
+        "Other": 0.5
+      },
       "ebitdaMM": 14.5,
       "netIncomeMM": -1.0,
       "totalAcresK": 22.4,
@@ -625,6 +891,13 @@
       "revenueBySegmentMM": {
         "Almonds": 220.0,
         "Industrial / consumer / other": 12.5
+      },
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 145.0,
+        "Distribution costs": 18.0,
+        "Marketing & administration": 28.0,
+        "D&A": 9.5,
+        "Other": 1.0
       },
       "ebitdaMM": 31.0,
       "netIncomeMM": -10.0,
@@ -644,6 +917,13 @@
       "endDate": "2025-03-31",
       "periodType": "H",
       "revenueMM": 195.0,
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 100.0,
+        "Distribution costs": 12.5,
+        "Marketing & administration": 17.0,
+        "D&A": 5.0,
+        "Other": 0.5
+      },
       "ebitdaMM": 60.0,
       "netIncomeMM": 26.0,
       "totalAcresK": 22.4,
@@ -656,6 +936,13 @@
       "revenueBySegmentMM": {
         "Almonds": 385.0,
         "Industrial / consumer / other": 13.3
+      },
+      "expensesBySegmentMM": {
+        "COGS (almonds)": 230.0,
+        "Distribution costs": 28.5,
+        "Marketing & administration": 45.0,
+        "D&A": 11.4,
+        "Other": 1.0
       },
       "ebitdaMM": 82.4,
       "noiMM": 75.0,

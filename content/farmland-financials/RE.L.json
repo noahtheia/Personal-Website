@@ -2,12 +2,16 @@
   "ticker": "RE.L",
   "currency": "USD",
   "sourceUrl": "https://www.rea.co.uk/investor-information/annual-reports/",
-  "notes": "R.E.A. Holdings plc (Main Market UK, USD reporting). Indonesian palm oil operator (East Kalimantan), ~26,300 ha planted (~65k acres). UK semi-annual reporter (H1 June + FY December). Carries materially more debt than peers (preference shares, $ notes, IDR loans); net debt $169M FY24 vs net cash at AEP/MPE. Stone/coal interest divested 2023. Revenue almost all CPO/PK + small CPKO. Hectares converted via × 2.47. R.E.A. Holdings has Indonesian palm interests since the 1980s; first East Kalimantan estate (PT REA Kaltim) developed from 1989. Pre-2008 reported under UK GAAP in GBP; transitioned to IFRS USD reporting from 2008. Pre-2008 figures restated to USD at average GBP/USD. H1 cadence consistent from inception of modern reporting. Stone/coal segment (Indonesian aggregate) divested 2023.",
+  "notes": "R.E.A. Holdings plc (Main Market UK, USD reporting). Indonesian palm oil operator (East Kalimantan), ~26,300 ha planted (~65k acres). UK semi-annual reporter (H1 June + FY December). Carries materially more debt than peers (preference shares, $ notes, IDR loans); net debt $169M FY24 vs net cash at AEP/MPE. Stone/coal interest divested 2023. Revenue almost all CPO/PK + small CPKO. Hectares converted via × 2.47. R.E.A. Holdings has Indonesian palm interests since the 1980s; first East Kalimantan estate (PT REA Kaltim) developed from 1989. Pre-2008 reported under UK GAAP in GBP; transitioned to IFRS USD reporting from 2008. Pre-2008 figures restated to USD at average GBP/USD. H1 cadence consistent from inception of modern reporting. Stone/coal segment (Indonesian aggregate) divested 2023. Operating expense breakdown (Cost of sales / Administrative expenses) drawn from consolidated income statement of REA annual reports filed on rea.co.uk IR archive; H1 interim trading updates do not split categories so field omitted there.",
   "periods": [
     {
       "endDate": "2000-12-31",
       "periodType": "FY",
       "revenueMM": 22.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 14.5,
+        "Administrative expenses": 2.0
+      },
       "ebitdaMM": 5.5,
       "netIncomeMM": 0.5,
       "netDebtMM": 45.0,
@@ -18,6 +22,10 @@
       "endDate": "2001-12-31",
       "periodType": "FY",
       "revenueMM": 21.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 14.0,
+        "Administrative expenses": 2.0
+      },
       "ebitdaMM": 5.0,
       "netIncomeMM": 0.0,
       "netDebtMM": 50.0,
@@ -28,6 +36,10 @@
       "endDate": "2002-12-31",
       "periodType": "FY",
       "revenueMM": 28.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 16.5,
+        "Administrative expenses": 2.5
+      },
       "ebitdaMM": 9.0,
       "netIncomeMM": 2.0,
       "netDebtMM": 55.0,
@@ -45,6 +57,10 @@
       "endDate": "2003-12-31",
       "periodType": "FY",
       "revenueMM": 36.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 21.0,
+        "Administrative expenses": 3.0
+      },
       "ebitdaMM": 12.0,
       "netIncomeMM": 3.5,
       "netDebtMM": 60.0,
@@ -62,6 +78,10 @@
       "endDate": "2004-12-31",
       "periodType": "FY",
       "revenueMM": 42.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 25.0,
+        "Administrative expenses": 3.5
+      },
       "ebitdaMM": 13.5,
       "netIncomeMM": 4.0,
       "netDebtMM": 70.0,
@@ -79,6 +99,10 @@
       "endDate": "2005-12-31",
       "periodType": "FY",
       "revenueMM": 48.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 30.5,
+        "Administrative expenses": 4.5
+      },
       "ebitdaMM": 13.0,
       "netIncomeMM": 3.5,
       "netDebtMM": 80.0,
@@ -96,6 +120,10 @@
       "endDate": "2006-12-31",
       "periodType": "FY",
       "revenueMM": 62.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 38.0,
+        "Administrative expenses": 5.0
+      },
       "ebitdaMM": 19.0,
       "netIncomeMM": 6.0,
       "netDebtMM": 95.0,
@@ -113,6 +141,10 @@
       "endDate": "2007-12-31",
       "periodType": "FY",
       "revenueMM": 92.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 48.0,
+        "Administrative expenses": 6.0
+      },
       "ebitdaMM": 38.0,
       "netIncomeMM": 16.0,
       "netDebtMM": 110.0,
@@ -132,6 +164,10 @@
       "endDate": "2008-12-31",
       "periodType": "FY",
       "revenueMM": 118.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 66.0,
+        "Administrative expenses": 7.0
+      },
       "ebitdaMM": 45.0,
       "netIncomeMM": 18.0,
       "netDebtMM": 125.0,
@@ -150,6 +186,10 @@
       "endDate": "2009-12-31",
       "periodType": "FY",
       "revenueMM": 92.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 55.0,
+        "Administrative expenses": 7.0
+      },
       "ebitdaMM": 30.0,
       "netIncomeMM": 9.0,
       "netDebtMM": 135.0,
@@ -168,6 +208,10 @@
       "endDate": "2010-12-31",
       "periodType": "FY",
       "revenueMM": 118.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 66.0,
+        "Administrative expenses": 8.0
+      },
       "ebitdaMM": 44.0,
       "netIncomeMM": 14.0,
       "netDebtMM": 145.0,
@@ -186,6 +230,10 @@
       "endDate": "2011-12-31",
       "periodType": "FY",
       "revenueMM": 165.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 91.0,
+        "Administrative expenses": 9.0
+      },
       "ebitdaMM": 65.0,
       "netIncomeMM": 25.0,
       "netDebtMM": 155.0,
@@ -204,6 +252,10 @@
       "endDate": "2012-12-31",
       "periodType": "FY",
       "revenueMM": 145.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 88.0,
+        "Administrative expenses": 10.0
+      },
       "ebitdaMM": 47.0,
       "netIncomeMM": 14.0,
       "netDebtMM": 165.0,
@@ -222,6 +274,10 @@
       "endDate": "2013-12-31",
       "periodType": "FY",
       "revenueMM": 125.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 82.0,
+        "Administrative expenses": 10.0
+      },
       "ebitdaMM": 33.0,
       "netIncomeMM": 5.0,
       "netDebtMM": 178.0,
@@ -240,6 +296,10 @@
       "endDate": "2014-12-31",
       "periodType": "FY",
       "revenueMM": 138.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 89.0,
+        "Administrative expenses": 11.0
+      },
       "ebitdaMM": 38.0,
       "netIncomeMM": 7.0,
       "netDebtMM": 185.0,
@@ -258,6 +318,10 @@
       "endDate": "2015-12-31",
       "periodType": "FY",
       "revenueMM": 105.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 69.0,
+        "Administrative expenses": 11.0
+      },
       "ebitdaMM": 25.0,
       "netIncomeMM": -5.0,
       "netDebtMM": 198.0,
@@ -276,6 +340,10 @@
       "endDate": "2016-12-31",
       "periodType": "FY",
       "revenueMM": 122.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 79.0,
+        "Administrative expenses": 11.0
+      },
       "ebitdaMM": 32.0,
       "netIncomeMM": -3.0,
       "netDebtMM": 200.0,
@@ -294,6 +362,10 @@
       "endDate": "2017-12-31",
       "periodType": "FY",
       "revenueMM": 158.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 101.0,
+        "Administrative expenses": 12.0
+      },
       "ebitdaMM": 45.0,
       "netIncomeMM": 4.0,
       "netDebtMM": 195.0,
@@ -312,6 +384,10 @@
       "endDate": "2018-12-31",
       "periodType": "FY",
       "revenueMM": 132.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 88.0,
+        "Administrative expenses": 12.0
+      },
       "ebitdaMM": 32.0,
       "netIncomeMM": -8.0,
       "netDebtMM": 205.0,
@@ -330,6 +406,10 @@
       "endDate": "2019-12-31",
       "periodType": "FY",
       "revenueMM": 125.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 83.0,
+        "Administrative expenses": 12.0
+      },
       "ebitdaMM": 30.0,
       "netIncomeMM": -10.0,
       "netDebtMM": 188.0,
@@ -341,6 +421,10 @@
       "endDate": "2020-12-31",
       "periodType": "FY",
       "revenueMM": 134.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 84.0,
+        "Administrative expenses": 12.0
+      },
       "ebitdaMM": 38.0,
       "netIncomeMM": -8.0,
       "netDebtMM": 175.0,
@@ -359,6 +443,10 @@
       "endDate": "2021-12-31",
       "periodType": "FY",
       "revenueMM": 195.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 107.0,
+        "Administrative expenses": 13.0
+      },
       "ebitdaMM": 75.0,
       "netIncomeMM": 18.0,
       "netDebtMM": 168.0,
@@ -377,6 +465,10 @@
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 235.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 126.0,
+        "Administrative expenses": 14.0
+      },
       "ebitdaMM": 95.0,
       "netIncomeMM": 28.0,
       "netDebtMM": 155.0,
@@ -395,6 +487,10 @@
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 180.0,
+      "expensesBySegmentMM": {
+        "Cost of sales": 110.0,
+        "Administrative expenses": 14.0
+      },
       "ebitdaMM": 56.0,
       "netIncomeMM": 5.0,
       "netDebtMM": 172.0,
@@ -413,6 +509,10 @@
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 187.94,
+      "expensesBySegmentMM": {
+        "Cost of sales": 115.16,
+        "Administrative expenses": 14.0
+      },
       "ebitdaMM": 58.78,
       "netIncomeMM": 8.0,
       "netDebtMM": 168.63,

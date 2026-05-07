@@ -280,6 +280,12 @@
       "endDate": "2022-06-30",
       "periodType": "Q",
       "revenueMM": 14.5,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 4.6,
+        "G&A": 1.6,
+        "D&A": 0.7,
+        "Other": 0.1
+      },
       "ebitdaMM": 7.5,
       "noiMM": 9.9,
       "netIncomeMM": 8.0,
@@ -290,6 +296,12 @@
       "endDate": "2022-09-30",
       "periodType": "Q",
       "revenueMM": 13.0,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 4.1,
+        "G&A": 1.4,
+        "D&A": 0.7,
+        "Other": 0.1
+      },
       "ebitdaMM": 6.7,
       "noiMM": 8.9,
       "netIncomeMM": 11.0,
@@ -300,6 +312,12 @@
       "endDate": "2022-12-31",
       "periodType": "Q",
       "revenueMM": 16.7,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 5.3,
+        "G&A": 1.8,
+        "D&A": 0.8,
+        "Other": 0.2
+      },
       "ebitdaMM": 8.6,
       "noiMM": 11.4,
       "netIncomeMM": 50.0,
@@ -310,6 +328,12 @@
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 57.2,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 18.1,
+        "G&A": 6.3,
+        "D&A": 2.8,
+        "Other": 0.5
+      },
       "ebitdaMM": 29.5,
       "noiMM": 39.1,
       "netIncomeMM": 67.5,
@@ -328,6 +352,12 @@
       "endDate": "2023-03-31",
       "periodType": "Q",
       "revenueMM": 13.5,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 4.2,
+        "G&A": 1.5,
+        "D&A": 0.7,
+        "Other": 0.1
+      },
       "ebitdaMM": 7.0,
       "noiMM": 9.3,
       "netIncomeMM": 1.0,
@@ -338,6 +368,12 @@
       "endDate": "2023-06-30",
       "periodType": "Q",
       "revenueMM": 14.0,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 4.4,
+        "G&A": 1.5,
+        "D&A": 0.7,
+        "Other": 0.2
+      },
       "ebitdaMM": 7.2,
       "noiMM": 9.6,
       "netIncomeMM": 30.0,
@@ -348,6 +384,12 @@
       "endDate": "2023-09-30",
       "periodType": "Q",
       "revenueMM": 13.7,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 4.3,
+        "G&A": 1.5,
+        "D&A": 0.7,
+        "Other": 0.2
+      },
       "ebitdaMM": 7.0,
       "noiMM": 9.4,
       "netIncomeMM": 6.0,
@@ -358,6 +400,12 @@
       "endDate": "2023-12-31",
       "periodType": "Q",
       "revenueMM": 16.0,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 5.0,
+        "G&A": 1.8,
+        "D&A": 0.8,
+        "Other": 0.2
+      },
       "ebitdaMM": 8.2,
       "noiMM": 11.0,
       "netIncomeMM": 4.0,
@@ -368,6 +416,12 @@
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 57.2,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 17.9,
+        "G&A": 6.4,
+        "D&A": 2.8,
+        "Other": 0.7
+      },
       "ebitdaMM": 29.4,
       "noiMM": 39.3,
       "netIncomeMM": 41.0,
@@ -386,6 +440,12 @@
       "endDate": "2024-03-31",
       "periodType": "Q",
       "revenueMM": 11.0,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 3.5,
+        "G&A": 1.2,
+        "D&A": 0.6,
+        "Other": 0.1
+      },
       "ebitdaMM": 5.6,
       "noiMM": 7.5,
       "netIncomeMM": -1.0,
@@ -396,6 +456,12 @@
       "endDate": "2024-06-30",
       "periodType": "Q",
       "revenueMM": 12.0,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 3.8,
+        "G&A": 1.3,
+        "D&A": 0.6,
+        "Other": 0.1
+      },
       "ebitdaMM": 6.2,
       "noiMM": 8.2,
       "netIncomeMM": 4.0,
@@ -406,6 +472,12 @@
       "endDate": "2024-09-30",
       "periodType": "Q",
       "revenueMM": 11.5,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 3.6,
+        "G&A": 1.3,
+        "D&A": 0.6,
+        "Other": 0.1
+      },
       "ebitdaMM": 5.9,
       "noiMM": 7.9,
       "netIncomeMM": 0.5,
@@ -416,6 +488,12 @@
       "endDate": "2024-12-31",
       "periodType": "Q",
       "revenueMM": 13.0,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 4.1,
+        "G&A": 1.4,
+        "D&A": 0.6,
+        "Other": 0.2
+      },
       "ebitdaMM": 6.7,
       "noiMM": 8.9,
       "netIncomeMM": 80.0,
@@ -426,6 +504,12 @@
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 47.5,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 15.0,
+        "G&A": 5.2,
+        "D&A": 2.4,
+        "Other": 0.4
+      },
       "ebitdaMM": 24.5,
       "noiMM": 32.5,
       "netIncomeMM": 84.0,
@@ -444,6 +528,12 @@
       "endDate": "2025-03-31",
       "periodType": "Q",
       "revenueMM": 10.5,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 2.0,
+        "G&A": 1.8,
+        "D&A": 0.7,
+        "Other": 0.1
+      },
       "ebitdaMM": 5.9,
       "noiMM": 8.5,
       "netIncomeMM": 1.0,
@@ -454,6 +544,12 @@
       "endDate": "2025-06-30",
       "periodType": "Q",
       "revenueMM": 13.5,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 2.5,
+        "G&A": 2.2,
+        "D&A": 0.8,
+        "Other": 0.2
+      },
       "ebitdaMM": 7.8,
       "noiMM": 11.0,
       "netIncomeMM": 5.0,
@@ -464,6 +560,12 @@
       "endDate": "2025-09-30",
       "periodType": "Q",
       "revenueMM": 14.0,
+      "expensesBySegmentMM": {
+        "Property operating expenses": 2.5,
+        "G&A": 2.4,
+        "D&A": 0.9,
+        "Other": 0.2
+      },
       "ebitdaMM": 8.0,
       "noiMM": 11.5,
       "netIncomeMM": 2.0,

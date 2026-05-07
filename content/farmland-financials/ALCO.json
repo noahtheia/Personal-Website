@@ -247,6 +247,12 @@
         "Land Management & Other": 5.0,
         "Other Operations / Sugarcane / Cattle": 24.0
       },
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 100.0,
+        "G&A": 12.0,
+        "D&A": 5.0,
+        "Other operating costs": 1.0
+      },
       "ebitdaMM": 35.0,
       "netIncomeMM": 8.5,
       "totalAssetsMM": 530.0,
@@ -266,6 +272,12 @@
       "revenueBySegmentMM": {
         "Alico Citrus": 138.0,
         "Land Management & Other": 7.0
+      },
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 100.0,
+        "G&A": 11.0,
+        "D&A": 5.0,
+        "Other operating costs": 1.0
       },
       "ebitdaMM": 28.0,
       "netIncomeMM": 1.5,
@@ -287,6 +299,12 @@
         "Alico Citrus": 124.0,
         "Land Management & Other": 6.0
       },
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 95.0,
+        "G&A": 11.0,
+        "D&A": 5.0,
+        "Other operating costs": 1.0
+      },
       "ebitdaMM": 18.0,
       "netIncomeMM": -7.5,
       "totalAssetsMM": 460.0,
@@ -306,6 +324,12 @@
       "revenueBySegmentMM": {
         "Alico Citrus": 135.0,
         "Land Management & Other": 7.0
+      },
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 100.0,
+        "G&A": 12.0,
+        "D&A": 5.0,
+        "Other operating costs": 1.0
       },
       "ebitdaMM": 24.0,
       "netIncomeMM": 24.0,
@@ -328,6 +352,12 @@
         "Alico Citrus": 116.2,
         "Land Management & Other": 6.2
       },
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 80.0,
+        "G&A": 10.0,
+        "D&A": 5.0,
+        "Other operating costs": 0.4
+      },
       "ebitdaMM": 27.0,
       "netIncomeMM": 8.5,
       "totalAssetsMM": 416.0,
@@ -349,6 +379,12 @@
         "Alico Citrus": 83.3,
         "Land Management & Other": 6.3
       },
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 56.0,
+        "G&A": 8.0,
+        "D&A": 4.0,
+        "Other operating costs": 0.6
+      },
       "ebitdaMM": 21.0,
       "netIncomeMM": 9.0,
       "totalAssetsMM": 405.0,
@@ -366,6 +402,12 @@
       "endDate": "2020-12-31",
       "periodType": "Q",
       "revenueMM": 28.0,
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 17.0,
+        "G&A": 2.5,
+        "D&A": 1.0,
+        "Other operating costs": 0.5
+      },
       "ebitdaMM": 7.0,
       "netIncomeMM": 2.5,
       "totalAcresK": 119.0,
@@ -375,6 +417,12 @@
       "endDate": "2021-03-31",
       "periodType": "Q",
       "revenueMM": 51.0,
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 33.0,
+        "G&A": 2.5,
+        "D&A": 1.5,
+        "Other operating costs": 1.0
+      },
       "ebitdaMM": 13.0,
       "netIncomeMM": 5.0,
       "totalAcresK": 119.0,
@@ -384,6 +432,12 @@
       "endDate": "2021-06-30",
       "periodType": "Q",
       "revenueMM": 18.0,
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 10.0,
+        "G&A": 2.5,
+        "D&A": 1.0,
+        "Other operating costs": 0.5
+      },
       "ebitdaMM": 4.0,
       "netIncomeMM": 0.0,
       "totalAcresK": 90.0,
@@ -393,6 +447,12 @@
       "endDate": "2021-09-30",
       "periodType": "Q",
       "revenueMM": 6.0,
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 1.0,
+        "G&A": 2.5,
+        "D&A": 1.0,
+        "Other operating costs": 0.5
+      },
       "ebitdaMM": 1.0,
       "netIncomeMM": 50.0,
       "totalAcresK": 84.0,
@@ -405,6 +465,12 @@
       "revenueBySegmentMM": {
         "Alico Citrus": 96.0,
         "Land Management & Other": 6.5
+      },
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 65.0,
+        "G&A": 9.0,
+        "D&A": 5.0,
+        "Other operating costs": 0.5
       },
       "ebitdaMM": 23.0,
       "netIncomeMM": 60.0,
@@ -423,6 +489,12 @@
       "endDate": "2021-12-31",
       "periodType": "Q",
       "revenueMM": 33.5,
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 24.0,
+        "G&A": 3.0,
+        "D&A": 1.0,
+        "Other operating costs": 0.5
+      },
       "ebitdaMM": 5.0,
       "netIncomeMM": 0.5,
       "totalAcresK": 84.0,
@@ -432,6 +504,12 @@
       "endDate": "2022-03-31",
       "periodType": "Q",
       "revenueMM": 50.0,
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 35.0,
+        "G&A": 2.5,
+        "D&A": 1.5,
+        "Other operating costs": 0.5
+      },
       "ebitdaMM": 10.5,
       "netIncomeMM": 4.5,
       "totalAcresK": 84.0,
@@ -441,6 +519,12 @@
       "endDate": "2022-06-30",
       "periodType": "Q",
       "revenueMM": 18.0,
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 11.0,
+        "G&A": 2.5,
+        "D&A": 0.5,
+        "Other operating costs": 0.5
+      },
       "ebitdaMM": 3.5,
       "netIncomeMM": 0.0,
       "totalAcresK": 84.0,
@@ -450,6 +534,12 @@
       "endDate": "2022-09-30",
       "periodType": "Q",
       "revenueMM": 13.0,
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 15.0,
+        "G&A": 2.5,
+        "D&A": 1.0,
+        "Other operating costs": 1.5
+      },
       "ebitdaMM": -7.0,
       "netIncomeMM": -7.0,
       "totalAcresK": 84.0,
@@ -462,6 +552,12 @@
       "revenueBySegmentMM": {
         "Alico Citrus": 107.5,
         "Land Management & Other": 7.0
+      },
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 85.0,
+        "G&A": 10.0,
+        "D&A": 5.0,
+        "Other operating costs": 0.5
       },
       "ebitdaMM": 14.0,
       "netIncomeMM": -2.0,
@@ -480,6 +576,12 @@
       "endDate": "2022-12-31",
       "periodType": "Q",
       "revenueMM": 21.0,
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 16.0,
+        "G&A": 2.5,
+        "D&A": 1.0,
+        "Other operating costs": 0.5
+      },
       "ebitdaMM": 1.0,
       "netIncomeMM": -2.5,
       "totalAcresK": 83.0,
@@ -489,6 +591,12 @@
       "endDate": "2023-03-31",
       "periodType": "Q",
       "revenueMM": 35.0,
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 24.0,
+        "G&A": 2.5,
+        "D&A": 1.0,
+        "Other operating costs": 0.5
+      },
       "ebitdaMM": 7.0,
       "netIncomeMM": 1.5,
       "totalAcresK": 83.0,
@@ -498,6 +606,12 @@
       "endDate": "2023-06-30",
       "periodType": "Q",
       "revenueMM": 17.0,
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 8.0,
+        "G&A": 2.5,
+        "D&A": 1.0,
+        "Other operating costs": 0.5
+      },
       "ebitdaMM": 5.0,
       "netIncomeMM": 1.5,
       "totalAcresK": 83.0,
@@ -507,6 +621,12 @@
       "endDate": "2023-09-30",
       "periodType": "Q",
       "revenueMM": 12.0,
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 6.0,
+        "G&A": 2.5,
+        "D&A": 1.0,
+        "Other operating costs": 0.5
+      },
       "ebitdaMM": 2.0,
       "netIncomeMM": 1.5,
       "totalAcresK": 83.0,
@@ -519,6 +639,12 @@
       "revenueBySegmentMM": {
         "Alico Citrus": 79.0,
         "Land Management & Other": 6.0
+      },
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 56.0,
+        "G&A": 9.0,
+        "D&A": 4.0,
+        "Other operating costs": 1.0
       },
       "ebitdaMM": 15.0,
       "netIncomeMM": 2.0,
@@ -537,6 +663,12 @@
       "endDate": "2023-12-31",
       "periodType": "Q",
       "revenueMM": 12.0,
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 8.0,
+        "G&A": 2.5,
+        "D&A": 1.0,
+        "Other operating costs": 0.5
+      },
       "ebitdaMM": 0.0,
       "netIncomeMM": -3.0,
       "totalAcresK": 83.0,
@@ -546,6 +678,12 @@
       "endDate": "2024-03-31",
       "periodType": "Q",
       "revenueMM": 27.0,
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 18.0,
+        "G&A": 2.5,
+        "D&A": 1.0,
+        "Other operating costs": 0.5
+      },
       "ebitdaMM": 5.0,
       "netIncomeMM": -1.0,
       "totalAcresK": 83.0,
@@ -555,6 +693,12 @@
       "endDate": "2024-06-30",
       "periodType": "Q",
       "revenueMM": 13.5,
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 8.0,
+        "G&A": 2.5,
+        "D&A": 1.0,
+        "Other operating costs": 0.5
+      },
       "ebitdaMM": 1.5,
       "netIncomeMM": -3.0,
       "totalAcresK": 83.0,
@@ -564,6 +708,12 @@
       "endDate": "2024-09-30",
       "periodType": "Q",
       "revenueMM": 9.0,
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 25.0,
+        "G&A": 2.5,
+        "D&A": 1.0,
+        "Other operating costs": 25.5
+      },
       "ebitdaMM": -45.0,
       "netIncomeMM": -55.0,
       "totalAcresK": 53.0,
@@ -576,6 +726,12 @@
       "revenueBySegmentMM": {
         "Alico Citrus": 56.0,
         "Land Management & Other": 5.5
+      },
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 60.0,
+        "G&A": 9.0,
+        "D&A": 4.0,
+        "Other operating costs": 27.0
       },
       "ebitdaMM": -38.5,
       "netIncomeMM": -62.0,
@@ -594,6 +750,12 @@
       "endDate": "2024-12-31",
       "periodType": "Q",
       "revenueMM": 16.0,
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 13.0,
+        "G&A": 2.5,
+        "D&A": 1.0,
+        "Other operating costs": 1.5
+      },
       "ebitdaMM": -2.0,
       "netIncomeMM": -7.0,
       "totalAcresK": 51.0,
@@ -603,6 +765,12 @@
       "endDate": "2025-03-31",
       "periodType": "Q",
       "revenueMM": 19.0,
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 11.0,
+        "G&A": 2.5,
+        "D&A": 1.0,
+        "Other operating costs": 0.5
+      },
       "ebitdaMM": 4.0,
       "netIncomeMM": -2.0,
       "totalAcresK": 51.0,
@@ -639,6 +807,12 @@
       "revenueBySegmentMM": {
         "Alico Citrus": 35.0,
         "Land Management & Other": 9.0
+      },
+      "expensesBySegmentMM": {
+        "COGS (citrus)": 11.0,
+        "G&A": 7.0,
+        "D&A": 2.5,
+        "Other operating costs": 1.0
       },
       "ebitdaMM": 22.5,
       "netIncomeMM": 0.0,
