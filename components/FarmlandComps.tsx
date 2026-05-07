@@ -79,12 +79,15 @@ type SortKey =
   | "fmvNavPerShareUsd"
   | "annualRevenueMM"
   | "annualEbitdaMM"
+  | "annualNetIncomeMM"
   | "ebitdaMargin"
+  | "netIncomeMargin"
   | "evEbitda"
   | "priceSales"
   | "priceEarnings"
   | "evCapRate"
-  | "divYield";
+  | "divYield"
+  | "fcfYield";
 
 type Band = "market" | "land" | "operating" | "valuation";
 type Format =
@@ -112,12 +115,15 @@ const COLUMNS: Column[] = [
   // Operating metrics
   { key: "annualRevenueMM", label: "Revenue", hint: "$M", band: "operating", format: "intDollar" },
   { key: "annualEbitdaMM", label: "EBITDA", hint: "$M", band: "operating", format: "intDollarSigned" },
+  { key: "annualNetIncomeMM", label: "Net Income", hint: "$M", band: "operating", format: "intDollarSigned" },
   { key: "ebitdaMargin", label: "EBITDA Margin", hint: "EBITDA ÷ rev", band: "operating", format: "pct" },
+  { key: "netIncomeMargin", label: "Net Income Margin", hint: "NI ÷ rev", band: "operating", format: "pct" },
   // Valuation multiples
   { key: "evEbitda", label: "EV / EBITDA", hint: "×", band: "valuation", format: "mult" },
   { key: "priceSales", label: "P / S", hint: "mkt cap ÷ rev", band: "valuation", format: "mult" },
   { key: "priceEarnings", label: "P / E", hint: "price ÷ EPS", band: "valuation", format: "mult" },
   { key: "divYield", label: "Div Yield", hint: "div ÷ price", band: "valuation", format: "pct" },
+  { key: "fcfYield", label: "FCF Yield", hint: "FCF ÷ mkt cap", band: "valuation", format: "pct" },
   // Land value (right-most band)
   { key: "acresK", label: "Acres", hint: "thousands", band: "land", format: "int" },
   { key: "bookPerAcre", label: "Book / Acre", hint: "$ filed", band: "land", format: "intDollar" },

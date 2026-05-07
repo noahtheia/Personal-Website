@@ -117,6 +117,13 @@ const FilingSchema = z.object({
   annualNoiMM: z.number().nonnegative(),
   annualRevenueMM: z.number().nonnegative(),
   annualEbitdaMM: z.number(),
+  // Optional — net income is back-fillable from the per-ticker
+  // financials file (latest FY netIncomeMM). Allowed to be negative
+  // (loss-making issuers) or undefined (data gap).
+  annualNetIncomeMM: z.number().optional(),
+  // Optional — free cash flow (CFO − capex). Few ag issuers
+  // disclose cleanly; null when not available.
+  annualFcfMM: z.number().optional(),
   epsTTM: z.number(),
   // Book value of property/land. Optional for issuers that don't carry
   // significant land on the balance sheet (processors, traders).
@@ -152,12 +159,16 @@ export type PricedFarmlandComp = FarmlandFiling & {
   // Earnings value (these override the local-currency filing fields).
   annualRevenueMM: number;
   annualEbitdaMM: number;
+  annualNetIncomeMM: number | null;
+  annualFcfMM: number | null;
   ebitdaMargin: number | null;
+  netIncomeMargin: number | null;
   evEbitda: number | null;
   priceSales: number | null;
   priceEarnings: number | null;
   evCapRate: number | null;
   divYield: number | null;
+  fcfYield: number | null;
 
   fxToUsd: number;
   fetchedAt: string;
@@ -277,6 +288,18 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         f.annualRevenueMM > 0
           ? (f.annualEbitdaMM / f.annualRevenueMM) * 100
           : null;
+      // Net income — prefer the explicit field; fall back to
+      // epsTTM × sharesOut where the seed file hasn't been backfilled.
+      const annualNetIncomeMMLocal =
+        f.annualNetIncomeMM !== undefined
+          ? f.annualNetIncomeMM
+          : Number.isFinite(f.epsTTM) && f.sharesOutMM > 0
+          ? f.epsTTM * f.sharesOutMM
+          : null;
+      const netIncomeMargin =
+        annualNetIncomeMMLocal !== null && f.annualRevenueMM > 0
+          ? (annualNetIncomeMMLocal / f.annualRevenueMM) * 100
+          : null;
       const evEbitda =
         evLocal !== null && f.annualEbitdaMM > 0
           ? evLocal / f.annualEbitdaMM
@@ -288,6 +311,14 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
       const priceEarnings =
         priceInFiling !== null && f.epsTTM > 0
           ? priceInFiling / f.epsTTM
+          : null;
+      // FCF yield = annual FCF ÷ market cap × 100. Both in local
+      // (filing) currency for correctness.
+      const fcfYield =
+        f.annualFcfMM !== undefined &&
+        marketCapLocal !== null &&
+        marketCapLocal > 0
+          ? (f.annualFcfMM / marketCapLocal) * 100
           : null;
 
       return {
@@ -306,15 +337,23 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         evPerAcre: evPerAcreLocal !== null ? evPerAcreLocal * fx : null,
         annualRevenueMM: f.annualRevenueMM * fx,
         annualEbitdaMM: f.annualEbitdaMM * fx,
+        annualNetIncomeMM:
+          annualNetIncomeMMLocal !== null
+            ? annualNetIncomeMMLocal * fx
+            : null,
+        annualFcfMM:
+          f.annualFcfMM !== undefined ? f.annualFcfMM * fx : null,
         // Dimensionless multiples — passed through
         pNav,
         fmvNavPerShareUsd,
         ebitdaMargin,
+        netIncomeMargin,
         evEbitda,
         priceSales,
         priceEarnings,
         evCapRate,
         divYield,
+        fcfYield,
         fxToUsd: fx,
         fetchedAt,
       };
