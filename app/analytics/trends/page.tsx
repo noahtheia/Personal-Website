@@ -1,6 +1,7 @@
 import { getPricedFarmlandComps } from "@/lib/farmland-comps";
 import { FarmlandMultiplesHistory } from "@/components/FarmlandMultiplesHistory";
 import { FarmlandSectorIndex } from "@/components/FarmlandSectorIndex";
+import { FarmlandSectorRankings } from "@/components/FarmlandSectorRankings";
 import { getUniverseMultiples } from "@/lib/farmland-multiples-history";
 
 export const metadata = {
@@ -45,6 +46,8 @@ export default async function AgricultureTrendsPage() {
       <FarmlandMultiplesHistory fy={multiplesFY} q={multiplesQ} />
 
       <FarmlandSectorIndex rows={comps} />
+
+      <FarmlandSectorRankings rows={comps} />
     </div>
   );
 }
