@@ -134,6 +134,75 @@ const FilingSchema = z.object({
   // significant land on the balance sheet (processors, traders).
   bookLandMM: z.number().nonnegative().optional(),
   marketLandMM: z.number().positive().optional(),
+
+  // Cross-universe extensions surfaced by the multi-sector gap audit.
+  // All optional. `debtMM` should hold financial debt only; preferred
+  // equity is broken out so EV math can add it cleanly.
+  preferredMM: z.number().nonnegative().optional(),
+  // Equity-method investments (e.g. ADM's stake in Wilmar; plantation
+  // associates). Held outside the consolidated balance sheet — affects
+  // EV / asset-base interpretation but not net-debt.
+  equityMethodInvestmentsMM: z.number().nonnegative().optional(),
+  // Material litigation / contingency accrual (e.g. TSN antitrust
+  // accruals; ADM SEC settlement). For analyst transparency.
+  litigationAccrualMM: z.number().nonnegative().optional(),
+  // Buyback authorization remaining (filing-currency MM equivalent).
+  // Distinct from buybackYield, which is realized last-12-months.
+  repurchaseAuthRemainingMM: z.number().nonnegative().optional(),
+  // Forward-year capex guidance range from MD&A liquidity section.
+  capexGuidanceLowMM: z.number().nonnegative().optional(),
+  capexGuidanceHighMM: z.number().nonnegative().optional(),
+  // Debt by reporting currency (filing-currency-equivalent MM). Used
+  // for FX-translated leverage analysis on multi-currency operators.
+  debtByCurrencyMM: z.record(z.string(), z.number().nonnegative()).optional(),
+
+  // Sector-template KPI blocks. Each is optional and only populated for
+  // issuers in the matching sector (or a closely-related one). Exposed
+  // on the detail page as a sector-specific KPI card.
+  reit: z
+    .object({
+      walt: z.number().nonnegative().optional(),
+      occupancyPct: z.number().min(0).max(100).optional(),
+      top10TenantPctOfRent: z.number().min(0).max(100).optional(),
+      ffoPerShare: z.number().optional(),
+      affoPerShare: z.number().optional(),
+      preferredCoverage: z.number().optional(),
+    })
+    .optional(),
+  plantation: z
+    .object({
+      ffbYieldTPerHa: z.number().nonnegative().optional(),
+      oerPct: z.number().min(0).max(100).optional(),
+      kerPct: z.number().min(0).max(100).optional(),
+      cpoAspPerMt: z.number().nonnegative().optional(),
+      cpoCostPerMt: z.number().nonnegative().optional(),
+      maturePlantedHa: z.number().nonnegative().optional(),
+      immaturePlantedHa: z.number().nonnegative().optional(),
+      rspoPct: z.number().min(0).max(100).optional(),
+      methaneCapturePctMills: z.number().min(0).max(100).optional(),
+      replantingHaLtm: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  protein: z
+    .object({
+      plants: z.number().nonnegative().optional(),
+      weeklyHeadCapacity: z.number().nonnegative().optional(),
+      weeklyLbsCapacityMM: z.number().nonnegative().optional(),
+      capacityUtilizationPct: z.number().min(0).max(100).optional(),
+      plantClosuresLtm: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  trader: z
+    .object({
+      // "Readily marketable inventories" — quasi-cash hedged inventory
+      // (ADM/Bunge/COFCO convention). Subtracted from net debt for
+      // adjusted leverage.
+      rmiMM: z.number().nonnegative().optional(),
+      throughputMtMM: z.number().nonnegative().optional(),
+      ethanolGalsMM: z.number().nonnegative().optional(),
+      boardCrushCapturePct: z.number().min(0).max(200).optional(),
+    })
+    .optional(),
 });
 
 export type FarmlandFiling = z.infer<typeof FilingSchema>;
@@ -152,6 +221,10 @@ export type PricedFarmlandComp = Omit<
   price: number | null;
   marketCapMM: number | null;
   netDebtMM: number;
+  // Net debt minus readily-marketable inventories (when disclosed).
+  // For commodity traders / processors, RMI is hedged inventory carried
+  // as quasi-cash; this gives an economic-leverage view.
+  rmiAdjustedNetDebtMM: number;
   evMM: number | null;
 
   // Land value
@@ -242,11 +315,19 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
 
       // All intermediate calcs done in filing currency; USD conversion at the
       // end (only for absolute-$ values — multiples are dimensionless).
+      const preferredLocal = f.preferredMM ?? 0;
+      const rmiLocal = f.trader?.rmiMM ?? 0;
       const netDebtLocal = f.debtMM - f.cashMM;
+      // RMI is hedged inventory the issuer treats as quasi-cash (ADM/Bunge
+      // convention). Subtracting it produces an economic-leverage view.
+      const rmiAdjustedNetDebtLocal = netDebtLocal - rmiLocal;
       const marketCapLocal =
         priceInFiling !== null ? priceInFiling * f.sharesOutMM : null;
+      // EV adds preferred equity (senior to common) when broken out.
       const evLocal =
-        marketCapLocal !== null ? marketCapLocal + netDebtLocal : null;
+        marketCapLocal !== null
+          ? marketCapLocal + netDebtLocal + preferredLocal
+          : null;
       // Per-acre metrics only meaningful when issuer owns/operates land.
       const acresK = f.acresK ?? 0;
       const evPerAcreLocal =
@@ -435,6 +516,7 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         price: localPrice !== null ? localPrice * priceFx : null,
         marketCapMM: marketCapLocal !== null ? marketCapLocal * fx : null,
         netDebtMM: netDebtLocal * fx,
+        rmiAdjustedNetDebtMM: rmiAdjustedNetDebtLocal * fx,
         evMM: evLocal !== null ? evLocal * fx : null,
         bookPerAcre: bookPerAcreLocal !== null ? bookPerAcreLocal * fx : null,
         marketPerAcre:

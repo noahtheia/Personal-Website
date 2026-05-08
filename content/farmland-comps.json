@@ -23,7 +23,12 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": -11.7,
     "annualFcfMM": -0.17,
-    "annualEquityMM": 760
+    "annualEquityMM": 760,
+    "reit": {
+      "walt": 4.7,
+      "occupancyPct": 95.0,
+      "affoPerShare": 0.47
+    }
   },
   {
     "ticker": "FPI",
@@ -514,7 +519,12 @@
     "operatingCountry": "Malaysia",
     "annualNetIncomeMM": 1165,
     "annualFcfMM": 1180,
-    "annualEquityMM": 13260
+    "annualEquityMM": 13260,
+    "plantation": {
+      "rspoPct": 83.19,
+      "methaneCapturePctMills": 26.5,
+      "cpoAspPerMt": 4116
+    }
   },
   {
     "ticker": "6010.SR",
@@ -1221,7 +1231,14 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 474,
     "annualFcfMM": 1177,
-    "annualEquityMM": 17460
+    "annualEquityMM": 17460,
+    "litigationAccrualMM": 1101,
+    "capexGuidanceLowMM": 700,
+    "capexGuidanceHighMM": 1000,
+    "protein": {
+      "plants": 219,
+      "plantClosuresLtm": 3
+    }
   },
   {
     "ticker": "HRL",
@@ -1398,7 +1415,11 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 1078,
     "annualFcfMM": 4204,
-    "annualEquityMM": 22739.6
+    "annualEquityMM": 22739.6,
+    "litigationAccrualMM": 40,
+    "trader": {
+      "throughputMtMM": 54.8
+    }
   },
   {
     "ticker": "BG",

@@ -89,6 +89,8 @@ export default async function PublicFarmlandTickerPage({
 
       <SummaryStats filing={filing} priced={priced} />
 
+      <SectorKpiBlock filing={filing} />
+
       <FarmlandDetailTabs
         fmvAnalysis={
           detail ? (
@@ -171,6 +173,113 @@ function SummaryStats({
         value={priced?.evPerAcre != null ? `$${fmtInt(priced.evPerAcre)}` : "—"}
       />
     </dl>
+  );
+}
+
+// Sector-specific KPI card. Only renders when the filing has the
+// matching sector block populated. Bullets out of the gap-audit pilots:
+// REIT (LAND), plantation (KLK), protein (TSN), trader (ADM).
+function SectorKpiBlock({
+  filing,
+}: {
+  filing: ReturnType<typeof getFilings>[number];
+}) {
+  const items: { label: string; value: string }[] = [];
+  if (filing.reit) {
+    const r = filing.reit;
+    if (r.walt != null) items.push({ label: "WALT (yrs)", value: r.walt.toFixed(1) });
+    if (r.occupancyPct != null)
+      items.push({ label: "Occupancy", value: `${r.occupancyPct.toFixed(1)}%` });
+    if (r.top10TenantPctOfRent != null)
+      items.push({ label: "Top-10 tenants", value: `${r.top10TenantPctOfRent.toFixed(0)}% of rent` });
+    if (r.affoPerShare != null)
+      items.push({ label: "AFFO / share", value: `${filing.currency} ${r.affoPerShare.toFixed(2)}` });
+    if (r.ffoPerShare != null)
+      items.push({ label: "FFO / share", value: `${filing.currency} ${r.ffoPerShare.toFixed(2)}` });
+    if (r.preferredCoverage != null)
+      items.push({ label: "Pref coverage", value: `${r.preferredCoverage.toFixed(1)}×` });
+  }
+  if (filing.plantation) {
+    const p = filing.plantation;
+    if (p.ffbYieldTPerHa != null)
+      items.push({ label: "FFB yield", value: `${p.ffbYieldTPerHa.toFixed(1)} t/ha` });
+    if (p.oerPct != null) items.push({ label: "OER", value: `${p.oerPct.toFixed(1)}%` });
+    if (p.kerPct != null) items.push({ label: "KER", value: `${p.kerPct.toFixed(1)}%` });
+    if (p.cpoAspPerMt != null)
+      items.push({ label: "CPO ASP", value: `${filing.currency} ${fmtInt(p.cpoAspPerMt)}/t` });
+    if (p.cpoCostPerMt != null)
+      items.push({ label: "CPO cost", value: `${filing.currency} ${fmtInt(p.cpoCostPerMt)}/t` });
+    if (p.rspoPct != null)
+      items.push({ label: "RSPO certified", value: `${p.rspoPct.toFixed(1)}%` });
+    if (p.methaneCapturePctMills != null)
+      items.push({ label: "Methane capture", value: `${p.methaneCapturePctMills.toFixed(1)}% of mills` });
+    if (p.replantingHaLtm != null)
+      items.push({ label: "Replanting LTM", value: `${fmtInt(p.replantingHaLtm)} ha` });
+  }
+  if (filing.protein) {
+    const p = filing.protein;
+    if (p.plants != null) items.push({ label: "Plants", value: fmtInt(p.plants) });
+    if (p.weeklyHeadCapacity != null)
+      items.push({ label: "Capacity", value: `${fmtInt(p.weeklyHeadCapacity)}/wk` });
+    if (p.capacityUtilizationPct != null)
+      items.push({ label: "Utilization", value: `${p.capacityUtilizationPct.toFixed(0)}%` });
+    if (p.plantClosuresLtm != null)
+      items.push({ label: "Plant closures LTM", value: fmtInt(p.plantClosuresLtm) });
+  }
+  if (filing.trader) {
+    const t = filing.trader;
+    if (t.rmiMM != null)
+      items.push({ label: "RMI", value: `${filing.currency} ${fmtInt(t.rmiMM)}M` });
+    if (t.throughputMtMM != null)
+      items.push({ label: "Throughput", value: `${t.throughputMtMM.toFixed(1)} MMT` });
+    if (t.ethanolGalsMM != null)
+      items.push({ label: "Ethanol", value: `${fmtInt(t.ethanolGalsMM)}M gal` });
+    if (t.boardCrushCapturePct != null)
+      items.push({ label: "Crush capture", value: `${t.boardCrushCapturePct.toFixed(0)}%` });
+  }
+  // Cross-universe extensions worth surfacing here too.
+  if (filing.preferredMM != null)
+    items.push({ label: "Preferred", value: `${filing.currency} ${fmtInt(filing.preferredMM)}M` });
+  if (filing.repurchaseAuthRemainingMM != null)
+    items.push({
+      label: "Buyback auth left",
+      value: `${filing.currency} ${fmtInt(filing.repurchaseAuthRemainingMM)}M`,
+    });
+  if (filing.capexGuidanceLowMM != null && filing.capexGuidanceHighMM != null)
+    items.push({
+      label: "Capex guidance",
+      value: `${filing.currency} ${fmtInt(filing.capexGuidanceLowMM)}–${fmtInt(filing.capexGuidanceHighMM)}M`,
+    });
+  if (filing.litigationAccrualMM != null)
+    items.push({
+      label: "Litigation accrual",
+      value: `${filing.currency} ${fmtInt(filing.litigationAccrualMM)}M`,
+    });
+  if (filing.equityMethodInvestmentsMM != null)
+    items.push({
+      label: "Equity-method inv.",
+      value: `${filing.currency} ${fmtInt(filing.equityMethodInvestmentsMM)}M`,
+    });
+
+  if (items.length === 0) return null;
+  return (
+    <section className="mt-6 rounded-sm border border-rule bg-surface p-4">
+      <p className="text-[10px] uppercase tracking-wider text-muted">
+        Sector KPIs
+      </p>
+      <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-3 sm:grid-cols-3 md:grid-cols-4">
+        {items.map((it) => (
+          <div key={it.label}>
+            <dt className="text-[10px] uppercase tracking-wider text-muted">
+              {it.label}
+            </dt>
+            <dd className="mt-0.5 font-display text-base font-semibold tabular-nums">
+              {it.value}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </section>
   );
 }
 
