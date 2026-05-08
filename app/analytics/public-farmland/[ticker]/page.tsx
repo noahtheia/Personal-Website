@@ -6,7 +6,7 @@ import {
   type PricedFarmlandComp,
 } from "@/lib/farmland-comps";
 import { getPropertyDetail } from "@/lib/farmland-properties";
-import { getFinancials } from "@/lib/farmland-financials";
+import { getFinancials, getAllFinancials } from "@/lib/farmland-financials";
 import { fetchPriceHistory } from "@/lib/farmland-history";
 import { getInsiders } from "@/lib/farmland-insiders";
 import { FarmlandDetailTabs } from "@/components/FarmlandDetailTabs";
@@ -55,6 +55,13 @@ export default async function PublicFarmlandTickerPage({
   const priced = comps.find((c) => c.ticker === decoded);
   const history = await fetchPriceHistory(decoded);
   const insiders = getInsiders(decoded);
+  // Market-share series — current ticker's revenue / sum of sector
+  // peers' revenue per fiscal year. Only computed when the issuer has
+  // FY revenue history; rendered as a synthesized metric in the Sector
+  // Trends tab so users can see relative scale changing over time.
+  const marketShareSeries = financials
+    ? buildMarketShareSeries(filing.sector, financials, comps)
+    : [];
 
   return (
     <div>
@@ -124,7 +131,11 @@ export default async function PublicFarmlandTickerPage({
           financials.periods.filter(
             (p) => p.periodType === "FY" || p.periodType === "LTM",
           ).length >= 2 ? (
-            <FarmlandSectorTrends financials={financials} />
+            <FarmlandSectorTrends
+              financials={financials}
+              marketShareSeries={marketShareSeries}
+              sector={filing.sector}
+            />
           ) : undefined
         }
       />
@@ -632,4 +643,89 @@ function fmtCompact(n: number): string {
   if (abs >= 1e6) return `${(n / 1e6).toFixed(2)}M`;
   if (abs >= 1e4) return `${(n / 1e3).toFixed(1)}K`;
   return Math.round(n).toLocaleString("en-US");
+}
+
+// Compute market-share-of-sector revenue per fiscal year for the
+// current ticker. For each FY in the issuer's history, sum FY revenue
+// across all peers in the same sector that reported a fiscal year
+// ending within ±90 days, then divide. Best-effort: peer FY years are
+// staggered (LW May, TSN Sep, ABF Sep, etc.) so the +/- 90 day window
+// catches near-coincident year-ends but skips far-apart ones.
+function buildMarketShareSeries(
+  sector: string,
+  ownFinancials: ReturnType<typeof getFinancials>,
+  comps: ReturnType<typeof getPricedFarmlandComps> extends Promise<infer T> ? T : never,
+): { endDate: string; value: number }[] {
+  if (!ownFinancials) return [];
+  const peerTickers = comps
+    .filter((c) => c.sector === sector)
+    .map((c) => c.ticker);
+  if (peerTickers.length < 2) return [];
+
+  const allFin = getAllFinancials();
+  const peerFY = new Map<string, { date: number; revenueMM: number }[]>();
+  for (const t of peerTickers) {
+    const f = allFin.get(t);
+    if (!f) continue;
+    const points: { date: number; revenueMM: number }[] = [];
+    for (const p of f.periods) {
+      if (p.periodType !== "FY") continue;
+      if (typeof p.revenueMM !== "number") continue;
+      const ms = new Date(p.endDate).getTime();
+      if (!Number.isFinite(ms)) continue;
+      points.push({ date: ms, revenueMM: p.revenueMM });
+    }
+    if (points.length > 0) peerFY.set(t, points);
+  }
+
+  // Translate to a common currency basis. Cross-currency sums are
+  // approximate — comps fxToUsd is current FX, used uniformly across
+  // historical periods (FX drift is the cost of not having historical
+  // FX series). Skip translation entirely when all peers share the
+  // current ticker's filing currency (Norwegian salmon farmers, US
+  // protein, etc.).
+  const fxByTicker = new Map<string, number>();
+  for (const c of comps) {
+    if (peerTickers.includes(c.ticker)) fxByTicker.set(c.ticker, c.fxToUsd);
+  }
+  const currenciesInSector = new Set(
+    comps.filter((c) => peerTickers.includes(c.ticker)).map((c) => c.currency),
+  );
+  const needsTranslation = currenciesInSector.size > 1;
+
+  const ownTicker = ownFinancials.ticker;
+  const ownFx = fxByTicker.get(ownTicker) ?? 1;
+  const ownFY = (peerFY.get(ownTicker) ?? []).slice().sort((a, b) => a.date - b.date);
+  const NINETY_DAYS = 90 * 86400 * 1000;
+  const out: { endDate: string; value: number }[] = [];
+
+  for (const own of ownFY) {
+    let peerSum = 0;
+    for (const [peer, pts] of peerFY) {
+      // Closest-by-date fiscal year for this peer relative to own's FY end.
+      let best: { date: number; revenueMM: number } | null = null;
+      let bestDelta = Infinity;
+      for (const p of pts) {
+        const d = Math.abs(p.date - own.date);
+        if (d < bestDelta) {
+          bestDelta = d;
+          best = p;
+        }
+      }
+      if (!best || bestDelta > NINETY_DAYS) continue;
+      const peerFx = fxByTicker.get(peer) ?? 1;
+      const usdRev = needsTranslation ? best.revenueMM * peerFx : best.revenueMM;
+      peerSum += usdRev;
+    }
+    if (peerSum <= 0) continue;
+    const ownUsd = needsTranslation ? own.revenueMM * ownFx : own.revenueMM;
+    const share = (ownUsd / peerSum) * 100;
+    if (Number.isFinite(share)) {
+      out.push({
+        endDate: new Date(own.date).toISOString().slice(0, 10),
+        value: share,
+      });
+    }
+  }
+  return out;
 }

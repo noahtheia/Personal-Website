@@ -191,8 +191,12 @@ const METRICS: Metric[] = [
 
 export function FarmlandSectorTrends({
   financials,
+  marketShareSeries,
+  sector,
 }: {
   financials: Financials | null;
+  marketShareSeries?: { endDate: string; value: number }[];
+  sector?: string;
 }) {
   if (!financials || financials.periods.length < 2) return null;
 
@@ -215,6 +219,23 @@ export function FarmlandSectorTrends({
     if (series.length < 2) return [];
     return [{ metric: m, series }];
   });
+
+  // Market-share-of-sector series — pre-computed server-side, prepended
+  // when supplied so it sits at the top of the trend grid as the most
+  // visible cross-sector contextualizer.
+  if (marketShareSeries && marketShareSeries.length >= 2) {
+    populated.unshift({
+      metric: {
+        label: sector
+          ? `Share of ${sector.replace(/ \/ .*$/, "")} sector`
+          : "Sector market share",
+        unit: "%",
+        format: (v) => `${v.toFixed(1)}%`,
+        extract: () => null,
+      },
+      series: marketShareSeries,
+    });
+  }
 
   if (populated.length === 0) {
     return (
