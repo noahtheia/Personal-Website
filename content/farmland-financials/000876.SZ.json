@@ -2,7 +2,7 @@
   "ticker": "000876.SZ",
   "currency": "CNY",
   "sourceUrl": "http://www.newhope.cn/index.php/news/touzizhegongzuo",
-  "notes": "New Hope Liuhe (SZSE: 000876) — second-largest Chinese animal feed producer + integrated pork business (~15M head/yr). Three core segments: feed (40%+ of revenue, branded Liuhe), hog farming, and food/processed meats. Reports CNY-millions PRC GAAP. Lists in CNY on Shenzhen Stock Exchange. FY ends Dec 31. Hog cycle exposure (lower vs Muyuan due to feed buffer). Net debt = interest-bearing total debt − cash & marketable securities.",
+  "notes": "New Hope Liuhe (SZSE: 000876) \u2014 second-largest Chinese animal feed producer + integrated pork business (~15M head/yr). Three core segments: feed (40%+ of revenue, branded Liuhe), hog farming, and food/processed meats. Reports CNY-millions PRC GAAP. Lists in CNY on Shenzhen Stock Exchange. FY ends Dec 31. Hog cycle exposure (lower vs Muyuan due to feed buffer). Net debt = interest-bearing total debt \u2212 cash & marketable securities.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -17,7 +17,8 @@
       "notes": "FY20: Peak hog prices + feed volume growth. Revenue RMB109.9bn (+33%), EBITDA RMB11.25bn (margin 10.2%), NI RMB4.94bn.",
       "capexMM": 14000,
       "daMM": 1700,
-      "cfoMM": 8500
+      "cfoMM": 8500,
+      "totalEquityMM": 19500
     },
     {
       "endDate": "2021-12-31",
@@ -29,10 +30,11 @@
       "cashMM": 11200,
       "netDebtMM": 38300,
       "sharesOutMM": 4500,
-      "notes": "FY21: Disaster year — hog price crash + biological asset writedowns + heavy expansion capex. Revenue RMB126.3bn (+15%), EBITDA -RMB3.2bn, NI -RMB9.6bn (record loss). Leverage ballooned.",
+      "notes": "FY21: Disaster year \u2014 hog price crash + biological asset writedowns + heavy expansion capex. Revenue RMB126.3bn (+15%), EBITDA -RMB3.2bn, NI -RMB9.6bn (record loss). Leverage ballooned.",
       "capexMM": 18000,
       "daMM": 2700,
-      "cfoMM": -2500
+      "cfoMM": -2500,
+      "totalEquityMM": 21800
     },
     {
       "endDate": "2022-12-31",
@@ -44,10 +46,11 @@
       "cashMM": 14500,
       "netDebtMM": 39300,
       "sharesOutMM": 4500,
-      "notes": "FY22: Recovery — feed segment stable, hog prices recovered 2H22. Revenue RMB139.1bn (+10%), EBITDA RMB6.85bn (margin 4.9%), NI ~RMB25M (breakeven).",
+      "notes": "FY22: Recovery \u2014 feed segment stable, hog prices recovered 2H22. Revenue RMB139.1bn (+10%), EBITDA RMB6.85bn (margin 4.9%), NI ~RMB25M (breakeven).",
       "capexMM": 9500,
       "daMM": 3500,
-      "cfoMM": 1100
+      "cfoMM": 1100,
+      "totalEquityMM": 23600
     },
     {
       "endDate": "2023-12-31",
@@ -71,10 +74,11 @@
         "D&A": 3900,
         "Other opex": -100
       },
-      "notes": "FY23: Trough cycle — hog losses + feed gross margin compressed. Revenue RMB141.8bn, EBITDA RMB1.45bn (margin 1.0%), NI -RMB2.95bn. Asset divestments reduced debt.",
+      "notes": "FY23: Trough cycle \u2014 hog losses + feed gross margin compressed. Revenue RMB141.8bn, EBITDA RMB1.45bn (margin 1.0%), NI -RMB2.95bn. Asset divestments reduced debt.",
       "capexMM": 4500,
       "daMM": 3900,
-      "cfoMM": 4400
+      "cfoMM": 4400,
+      "totalEquityMM": 24800
     },
     {
       "endDate": "2023-03-31",
@@ -106,7 +110,8 @@
       "revenueMM": 36160,
       "ebitdaMM": 300,
       "netIncomeMM": -71,
-      "notes": "Q4 23"
+      "notes": "Q4 23",
+      "totalEquityMM": 24800
     },
     {
       "endDate": "2024-12-31",
@@ -141,7 +146,8 @@
         "1-3y": 12750.0,
         "3-5y": 7650.0,
         "5+y": 10200.0
-      }
+      },
+      "totalEquityMM": 25400
     },
     {
       "endDate": "2024-03-31",
@@ -173,7 +179,8 @@
       "revenueMM": 27153,
       "ebitdaMM": 1300,
       "netIncomeMM": -1088,
-      "notes": "Q4 24: impairments."
+      "notes": "Q4 24: impairments.",
+      "totalEquityMM": 25400
     }
   ]
 }

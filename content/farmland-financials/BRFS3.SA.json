@@ -2,7 +2,7 @@
   "ticker": "BRFS3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.brf-global.com/",
-  "notes": "BRF S.A. (B3: BRFS3, NYSE: BRFS) — global poultry + pork + processed foods (Sadia, Perdigão, Qualy). Marfrig holds ~50.5% controlling stake (since 2022). Major exporter (Halal/Middle East/Asia). FY ends Dec 31. Pre-2024 EBITDA was depressed by avian-influenza-related restrictions and feed-cost inflation; FY24 marks a strong margin recovery on lower corn/soy and improved Halal pricing. Quarterly + segment data from BRF ITR/DFP filings (ri.brf-global.com). Geographic segments: Brazil (domestic processed/in-natura), International, Halal (DDP — Direct Distribution / GCC + Turkey ops), Other (Pet, Ingredients).",
+  "notes": "BRF S.A. (B3: BRFS3, NYSE: BRFS) \u2014 global poultry + pork + processed foods (Sadia, Perdig\u00e3o, Qualy). Marfrig holds ~50.5% controlling stake (since 2022). Major exporter (Halal/Middle East/Asia). FY ends Dec 31. Pre-2024 EBITDA was depressed by avian-influenza-related restrictions and feed-cost inflation; FY24 marks a strong margin recovery on lower corn/soy and improved Halal pricing. Quarterly + segment data from BRF ITR/DFP filings (ri.brf-global.com). Geographic segments: Brazil (domestic processed/in-natura), International, Halal (DDP \u2014 Direct Distribution / GCC + Turkey ops), Other (Pet, Ingredients).",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -30,7 +30,8 @@
       "notes": "FY20: Revenue R$39.4bn, EBITDA R$4.6bn (margin 11.7%). Margins pressured by COVID logistics.",
       "capexMM": 1900,
       "daMM": 2100,
-      "cfoMM": 4500
+      "cfoMM": 4500,
+      "totalEquityMM": 7500
     },
     {
       "endDate": "2021-12-31",
@@ -55,10 +56,11 @@
       "cashMM": 7400,
       "netDebtMM": 13700,
       "sharesOutMM": 812,
-      "notes": "FY21: Revenue R$48.3bn (+23%), EBITDA R$4.5bn (margin 9.4%) — feed cost inflation hit margins; net loss R$1.4bn.",
+      "notes": "FY21: Revenue R$48.3bn (+23%), EBITDA R$4.5bn (margin 9.4%) \u2014 feed cost inflation hit margins; net loss R$1.4bn.",
       "capexMM": 2400,
       "daMM": 2500,
-      "cfoMM": 3800
+      "cfoMM": 3800,
+      "totalEquityMM": 7100
     },
     {
       "endDate": "2022-03-31",
@@ -98,7 +100,8 @@
       "netIncomeMM": -934,
       "sharesOutMM": 1063,
       "netDebtMM": 16200,
-      "notes": "4T22: Revenue R$13.7bn, EBITDA R$1.1bn. R$5bn capital raise completed."
+      "notes": "4T22: Revenue R$13.7bn, EBITDA R$1.1bn. R$5bn capital raise completed.",
+      "totalEquityMM": 6650
     },
     {
       "endDate": "2022-12-31",
@@ -123,10 +126,11 @@
       "cashMM": 6300,
       "netDebtMM": 16200,
       "sharesOutMM": 1063,
-      "notes": "FY22: Revenue R$53.7bn (+11%), EBITDA R$4.2bn (margin 7.8%) — record-low operating margins on persistent input costs. Net loss R$3.1bn. R$5bn capital raise.",
+      "notes": "FY22: Revenue R$53.7bn (+11%), EBITDA R$4.2bn (margin 7.8%) \u2014 record-low operating margins on persistent input costs. Net loss R$3.1bn. R$5bn capital raise.",
       "capexMM": 3100,
       "daMM": 3200,
-      "cfoMM": 1500
+      "cfoMM": 1500,
+      "totalEquityMM": 6650
     },
     {
       "endDate": "2023-03-31",
@@ -136,7 +140,7 @@
       "netIncomeMM": -1124,
       "sharesOutMM": 1685,
       "netDebtMM": 14400,
-      "notes": "1T23: Revenue R$13.1bn, EBITDA R$624M (margin 4.8%) — bottom of cycle."
+      "notes": "1T23: Revenue R$13.1bn, EBITDA R$624M (margin 4.8%) \u2014 bottom of cycle."
     },
     {
       "endDate": "2023-06-30",
@@ -156,7 +160,7 @@
       "netIncomeMM": -262,
       "sharesOutMM": 1685,
       "netDebtMM": 12100,
-      "notes": "3T23: Revenue R$13.6bn, EBITDA R$1.43bn (margin 10.5%) — strong recovery."
+      "notes": "3T23: Revenue R$13.6bn, EBITDA R$1.43bn (margin 10.5%) \u2014 strong recovery."
     },
     {
       "endDate": "2023-12-31",
@@ -166,7 +170,8 @@
       "netIncomeMM": 614,
       "sharesOutMM": 1685,
       "netDebtMM": 11200,
-      "notes": "4T23: Revenue R$13.8bn, EBITDA R$1.97bn (margin 14.3%) — back to profit. Inflection."
+      "notes": "4T23: Revenue R$13.8bn, EBITDA R$1.97bn (margin 14.3%) \u2014 back to profit. Inflection.",
+      "totalEquityMM": 8550
     },
     {
       "endDate": "2023-12-31",
@@ -191,10 +196,11 @@
       "cashMM": 11500,
       "netDebtMM": 11200,
       "sharesOutMM": 1685,
-      "notes": "FY23: Revenue R$53.6bn (flat), EBITDA R$4.8bn (margin 8.9%) — early signs of margin recovery in 2H. Net loss R$1.9bn. Marfrig increased stake; capital structure strengthened post-followon.",
+      "notes": "FY23: Revenue R$53.6bn (flat), EBITDA R$4.8bn (margin 8.9%) \u2014 early signs of margin recovery in 2H. Net loss R$1.9bn. Marfrig increased stake; capital structure strengthened post-followon.",
       "capexMM": 2200,
       "daMM": 3500,
-      "cfoMM": 4200
+      "cfoMM": 4200,
+      "totalEquityMM": 8550
     },
     {
       "endDate": "2024-03-31",
@@ -234,7 +240,8 @@
       "netIncomeMM": 993,
       "sharesOutMM": 1685,
       "netDebtMM": 9800,
-      "notes": "4T24: Revenue R$16.5bn, EBITDA R$1.94bn. Strong year close."
+      "notes": "4T24: Revenue R$16.5bn, EBITDA R$1.94bn. Strong year close.",
+      "totalEquityMM": 9450
     },
     {
       "endDate": "2024-12-31",
@@ -259,7 +266,7 @@
       "cashMM": 9100,
       "netDebtMM": 9800,
       "sharesOutMM": 1685,
-      "notes": "FY24: Strong recovery. Revenue R$61.4bn (+15%), EBITDA R$8.2bn (margin 13.4%) — best in 5+ years. Net income R$3.35bn (vs R$1.9bn loss). Leverage 1.2x. Resumed dividends.",
+      "notes": "FY24: Strong recovery. Revenue R$61.4bn (+15%), EBITDA R$8.2bn (margin 13.4%) \u2014 best in 5+ years. Net income R$3.35bn (vs R$1.9bn loss). Leverage 1.2x. Resumed dividends.",
       "capexMM": 2400,
       "daMM": 3800,
       "cfoMM": 7800,
@@ -270,7 +277,8 @@
         "1-3y": 4725.0,
         "3-5y": 2835.0,
         "5+y": 3780.0
-      }
+      },
+      "totalEquityMM": 9450
     },
     {
       "endDate": "2025-03-31",

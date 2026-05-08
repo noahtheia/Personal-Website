@@ -20,7 +20,12 @@
       "capexMM": 110.6,
       "daMM": 78.2,
       "cfoMM": 98.9,
-      "totalEquityMM": 425
+      "totalEquityMM": 425,
+      "expensesBySegmentMM": {
+        "COGS": 1873,
+        "SG&A": 68,
+        "D&A": 78
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -38,7 +43,12 @@
       "capexMM": 187.2,
       "daMM": 92.0,
       "cfoMM": 4.2,
-      "totalEquityMM": 540
+      "totalEquityMM": 540,
+      "expensesBySegmentMM": {
+        "COGS": 2200,
+        "SG&A": 42,
+        "D&A": 92
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -110,7 +120,12 @@
       "capexMM": 212.4,
       "daMM": 92.7,
       "cfoMM": 69.7,
-      "totalEquityMM": 605
+      "totalEquityMM": 605,
+      "expensesBySegmentMM": {
+        "COGS": 3490,
+        "SG&A": 33,
+        "D&A": 93
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -182,7 +197,12 @@
       "capexMM": 108.1,
       "daMM": 98.2,
       "cfoMM": 56.3,
-      "totalEquityMM": 580
+      "totalEquityMM": 580,
+      "expensesBySegmentMM": {
+        "COGS": 3315,
+        "SG&A": 41,
+        "D&A": 98
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -270,7 +290,12 @@
         "Ethanol Production": 2067.1,
         "Agribusiness & Energy Services": 421.1
       },
-      "totalEquityMM": 545
+      "totalEquityMM": 545,
+      "expensesBySegmentMM": {
+        "COGS": 2470,
+        "SG&A": 51,
+        "D&A": 91
+      }
     },
     {
       "endDate": "2025-03-31",

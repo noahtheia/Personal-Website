@@ -22,7 +22,12 @@
       "capexMM": 75.8,
       "daMM": 178.9,
       "cfoMM": -51.0,
-      "totalEquityMM": 877
+      "totalEquityMM": 877,
+      "expensesBySegmentMM": {
+        "COGS": 12180,
+        "SG&A": 256,
+        "D&A": 179
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -90,7 +95,12 @@
       "capexMM": 108.3,
       "daMM": 134.7,
       "cfoMM": 287.1,
-      "totalEquityMM": 1015
+      "totalEquityMM": 1015,
+      "expensesBySegmentMM": {
+        "COGS": 16770,
+        "SG&A": 322,
+        "D&A": 135
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -158,7 +168,12 @@
       "capexMM": 150.4,
       "daMM": 125.1,
       "cfoMM": 946.8,
-      "totalEquityMM": 1095
+      "totalEquityMM": 1095,
+      "expensesBySegmentMM": {
+        "COGS": 14210,
+        "SG&A": 320,
+        "D&A": 125
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -234,7 +249,12 @@
         "Agribusiness": 8456,
         "Renewables": 2801
       },
-      "totalEquityMM": 1180
+      "totalEquityMM": 1180,
+      "expensesBySegmentMM": {
+        "COGS": 10755,
+        "SG&A": 290,
+        "D&A": 128
+      }
     },
     {
       "endDate": "2025-03-31",
@@ -326,7 +346,12 @@
         "Agribusiness": 8260,
         "Renewables": 2749
       },
-      "totalEquityMM": 1240
+      "totalEquityMM": 1240,
+      "expensesBySegmentMM": {
+        "COGS": 10515,
+        "SG&A": 295,
+        "D&A": 133
+      }
     },
     {
       "endDate": "2026-03-31",

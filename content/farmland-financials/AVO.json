@@ -21,7 +21,12 @@
       "capexMM": 73.4,
       "daMM": 20.4,
       "cfoMM": 47.0,
-      "totalEquityMM": 425
+      "totalEquityMM": 425,
+      "expensesBySegmentMM": {
+        "COGS": 770,
+        "SG&A": 60,
+        "D&A": 20
+      }
     },
     {
       "endDate": "2022-01-31",
@@ -97,7 +102,12 @@
       "capexMM": 61.2,
       "daMM": 24.8,
       "cfoMM": 35.2,
-      "totalEquityMM": 410
+      "totalEquityMM": 410,
+      "expensesBySegmentMM": {
+        "COGS": 970,
+        "SG&A": 88,
+        "D&A": 25
+      }
     },
     {
       "endDate": "2023-01-31",
@@ -173,7 +183,12 @@
       "capexMM": 49.8,
       "daMM": 32.8,
       "cfoMM": 29.2,
-      "totalEquityMM": 395
+      "totalEquityMM": 395,
+      "expensesBySegmentMM": {
+        "COGS": 850,
+        "SG&A": 65,
+        "D&A": 33
+      }
     },
     {
       "endDate": "2024-01-31",
@@ -254,7 +269,12 @@
         "International Farming": 6.4,
         "Blueberries": 75.7
       },
-      "totalEquityMM": 410
+      "totalEquityMM": 410,
+      "expensesBySegmentMM": {
+        "COGS": 1075,
+        "SG&A": 90,
+        "D&A": 38
+      }
     },
     {
       "endDate": "2025-01-31",
@@ -348,7 +368,12 @@
         "International Farming": 23.8,
         "Blueberries": 93.1
       },
-      "totalEquityMM": 425
+      "totalEquityMM": 425,
+      "expensesBySegmentMM": {
+        "COGS": 1230,
+        "SG&A": 95,
+        "D&A": 35
+      }
     },
     {
       "endDate": "2026-01-31",

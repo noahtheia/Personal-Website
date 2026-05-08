@@ -2,7 +2,7 @@
   "ticker": "BEEF3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.minervafoods.com/",
-  "notes": "Minerva S.A. (B3: BEEF3) — South American beef pure-play with operations in Brazil, Paraguay, Uruguay, Argentina, Colombia, Australia. Aug 2024: closed acquisition of 16 plants from Marfrig (Brazil + Argentina + Chile + Uruguay) for R$7.5bn — transformative deal but elevated leverage. FY ends Dec 31. Net debt elevated post-Marfrig deal closing in 2024 (~R$15bn jump in net debt and capacity uplift ~50%). Quarterly data from Minerva ITR/DFP filings (ri.minervafoods.com). Geographic segments: Brazil, Athena Foods (Paraguay/Uruguay/Argentina/Colombia), Australia.",
+  "notes": "Minerva S.A. (B3: BEEF3) \u2014 South American beef pure-play with operations in Brazil, Paraguay, Uruguay, Argentina, Colombia, Australia. Aug 2024: closed acquisition of 16 plants from Marfrig (Brazil + Argentina + Chile + Uruguay) for R$7.5bn \u2014 transformative deal but elevated leverage. FY ends Dec 31. Net debt elevated post-Marfrig deal closing in 2024 (~R$15bn jump in net debt and capacity uplift ~50%). Quarterly data from Minerva ITR/DFP filings (ri.minervafoods.com). Geographic segments: Brazil, Athena Foods (Paraguay/Uruguay/Argentina/Colombia), Australia.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -29,7 +29,8 @@
       "notes": "FY20: Revenue R$20.3bn, EBITDA R$1.92bn (margin 9.5%).",
       "capexMM": 320,
       "daMM": 380,
-      "cfoMM": 920
+      "cfoMM": 920,
+      "totalEquityMM": 1250
     },
     {
       "endDate": "2021-12-31",
@@ -53,10 +54,11 @@
       "cashMM": 5400,
       "netDebtMM": 4300,
       "sharesOutMM": 590,
-      "notes": "FY21: Revenue R$26.9bn (+33%), EBITDA R$2.49bn (margin 9.2%) — China demand strong.",
+      "notes": "FY21: Revenue R$26.9bn (+33%), EBITDA R$2.49bn (margin 9.2%) \u2014 China demand strong.",
       "capexMM": 400,
       "daMM": 440,
-      "cfoMM": 1380
+      "cfoMM": 1380,
+      "totalEquityMM": 1830
     },
     {
       "endDate": "2022-03-31",
@@ -96,7 +98,8 @@
       "netIncomeMM": 175,
       "sharesOutMM": 590,
       "netDebtMM": 4400,
-      "notes": "4T22: Revenue R$7.27bn, EBITDA R$684M (margin 9.4%)."
+      "notes": "4T22: Revenue R$7.27bn, EBITDA R$684M (margin 9.4%).",
+      "totalEquityMM": 2160
     },
     {
       "endDate": "2022-12-31",
@@ -123,7 +126,8 @@
       "notes": "FY22: Revenue R$29.6bn (+10%), EBITDA R$2.88bn (margin 9.7%).",
       "capexMM": 520,
       "daMM": 510,
-      "cfoMM": 1750
+      "cfoMM": 1750,
+      "totalEquityMM": 2160
     },
     {
       "endDate": "2023-03-31",
@@ -133,7 +137,7 @@
       "netIncomeMM": -195,
       "sharesOutMM": 590,
       "netDebtMM": 5100,
-      "notes": "1T23: Revenue R$7.06bn, EBITDA R$528M (margin 7.5%) — Brazil cattle squeeze."
+      "notes": "1T23: Revenue R$7.06bn, EBITDA R$528M (margin 7.5%) \u2014 Brazil cattle squeeze."
     },
     {
       "endDate": "2023-06-30",
@@ -163,7 +167,8 @@
       "netIncomeMM": 146,
       "sharesOutMM": 590,
       "netDebtMM": 5900,
-      "notes": "4T23: Revenue R$7.49bn, EBITDA R$672M (margin 9.0%)."
+      "notes": "4T23: Revenue R$7.49bn, EBITDA R$672M (margin 9.0%).",
+      "totalEquityMM": 2350
     },
     {
       "endDate": "2023-12-31",
@@ -187,10 +192,11 @@
       "cashMM": 7200,
       "netDebtMM": 5900,
       "sharesOutMM": 590,
-      "notes": "FY23: Revenue R$29.4bn (-1%), EBITDA R$2.49bn (margin 8.5%) — Brazilian cattle cycle pressure on Brazil ops, offset by Uruguay/Argentina.",
+      "notes": "FY23: Revenue R$29.4bn (-1%), EBITDA R$2.49bn (margin 8.5%) \u2014 Brazilian cattle cycle pressure on Brazil ops, offset by Uruguay/Argentina.",
       "capexMM": 550,
       "daMM": 570,
-      "cfoMM": 1450
+      "cfoMM": 1450,
+      "totalEquityMM": 2350
     },
     {
       "endDate": "2024-03-31",
@@ -220,7 +226,7 @@
       "netIncomeMM": -301,
       "sharesOutMM": 587,
       "netDebtMM": 9300,
-      "notes": "3T24: Revenue R$9.49bn (Marfrig assets begin consolidating Aug 28). EBITDA R$552M — integration costs."
+      "notes": "3T24: Revenue R$9.49bn (Marfrig assets begin consolidating Aug 28). EBITDA R$552M \u2014 integration costs."
     },
     {
       "endDate": "2024-12-31",
@@ -230,7 +236,8 @@
       "netIncomeMM": -39,
       "sharesOutMM": 587,
       "netDebtMM": 9700,
-      "notes": "4T24: Revenue R$13.7bn — first full quarter post-Marfrig deal close. EBITDA R$450M (margin 3.3%) — heavy integration drag."
+      "notes": "4T24: Revenue R$13.7bn \u2014 first full quarter post-Marfrig deal close. EBITDA R$450M (margin 3.3%) \u2014 heavy integration drag.",
+      "totalEquityMM": 2680
     },
     {
       "endDate": "2024-12-31",
@@ -254,7 +261,7 @@
       "cashMM": 7100,
       "netDebtMM": 9700,
       "sharesOutMM": 587,
-      "notes": "FY24: Revenue R$38.4bn (+31% reflecting partial-year contribution from acquired Marfrig plants closed Aug 2024). EBITDA R$2.35bn (margin 6.1%) — integration costs + financial expenses on deal funding produced net loss R$360M. Net debt jumped to ~R$9.7bn. Leverage ~4.1x.",
+      "notes": "FY24: Revenue R$38.4bn (+31% reflecting partial-year contribution from acquired Marfrig plants closed Aug 2024). EBITDA R$2.35bn (margin 6.1%) \u2014 integration costs + financial expenses on deal funding produced net loss R$360M. Net debt jumped to ~R$9.7bn. Leverage ~4.1x.",
       "capexMM": 950,
       "daMM": 1100,
       "cfoMM": 1650,
@@ -265,7 +272,8 @@
         "1-3y": 4200.0,
         "3-5y": 2520.0,
         "5+y": 3360.0
-      }
+      },
+      "totalEquityMM": 2680
     },
     {
       "endDate": "2025-03-31",
@@ -275,7 +283,7 @@
       "netIncomeMM": 124,
       "sharesOutMM": 587,
       "netDebtMM": 10100,
-      "notes": "1T25: Revenue R$14.6bn (first full year of Marfrig assets). EBITDA R$1.10bn (margin 7.6%) — synergies emerging."
+      "notes": "1T25: Revenue R$14.6bn (first full year of Marfrig assets). EBITDA R$1.10bn (margin 7.6%) \u2014 synergies emerging."
     },
     {
       "endDate": "2025-06-30",

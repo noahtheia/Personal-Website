@@ -20,7 +20,12 @@
       "totalEquityMM": 1100,
       "cfoMM": 180,
       "capexMM": 60,
-      "daMM": 75
+      "daMM": 75,
+      "expensesBySegmentMM": {
+        "Cost of sales": 945,
+        "Administrative expenses": 95,
+        "Other operating expenses": 45
+      }
     },
     {
       "endDate": "2001-03-31",
@@ -38,7 +43,12 @@
       "totalEquityMM": 1150,
       "cfoMM": 165,
       "capexMM": 55,
-      "daMM": 78
+      "daMM": 78,
+      "expensesBySegmentMM": {
+        "Cost of sales": 990,
+        "Administrative expenses": 100,
+        "Other operating expenses": 50
+      }
     },
     {
       "endDate": "2002-03-31",
@@ -56,7 +66,12 @@
       "totalEquityMM": 1210,
       "cfoMM": 195,
       "capexMM": 70,
-      "daMM": 82
+      "daMM": 82,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1045,
+        "Administrative expenses": 108,
+        "Other operating expenses": 52
+      }
     },
     {
       "endDate": "2003-03-31",
@@ -74,7 +89,12 @@
       "totalEquityMM": 1290,
       "cfoMM": 220,
       "capexMM": 85,
-      "daMM": 88
+      "daMM": 88,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1195,
+        "Administrative expenses": 120,
+        "Other operating expenses": 60
+      }
     },
     {
       "endDate": "2004-03-31",
@@ -92,7 +112,12 @@
       "totalEquityMM": 1380,
       "cfoMM": 240,
       "capexMM": 95,
-      "daMM": 92
+      "daMM": 92,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1245,
+        "Administrative expenses": 125,
+        "Other operating expenses": 62
+      }
     },
     {
       "endDate": "2005-03-31",

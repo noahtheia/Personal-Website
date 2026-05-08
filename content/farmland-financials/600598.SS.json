@@ -2,7 +2,7 @@
   "ticker": "600598.SS",
   "currency": "CNY",
   "sourceUrl": "http://www.bdh.com.cn/",
-  "notes": "Heilongjiang Beidahuang Agriculture Co Ltd (SSE: 600598) — listed subsidiary of state-owned Beidahuang Agricultural Reclamation Group. Operates ~12.96 million mu (~865,000 hectares ≈ 2,135K acres) of state-leased cultivated land in Heilongjiang's Sanjiang Plain (one of the world's three black-soil belts). Primary revenue stream is land-contracting fees (subleasing state farmland to cooperative farmers) plus rice, corn, soybean trading. Reports CNY-millions PRC GAAP. Lists in CNY on Shanghai Stock Exchange. Listed since March 2002. Historically very low debt — pure land-rental operating model with minimal capex. FY2020 detailed data not consistently available across English aggregators, so the 5-year history begins in FY2021. acresK figure (~2,135) reflects total operated/contracted area, not freehold ownership.",
+  "notes": "Heilongjiang Beidahuang Agriculture Co Ltd (SSE: 600598) \u2014 listed subsidiary of state-owned Beidahuang Agricultural Reclamation Group. Operates ~12.96 million mu (~865,000 hectares \u2248 2,135K acres) of state-leased cultivated land in Heilongjiang's Sanjiang Plain (one of the world's three black-soil belts). Primary revenue stream is land-contracting fees (subleasing state farmland to cooperative farmers) plus rice, corn, soybean trading. Reports CNY-millions PRC GAAP. Lists in CNY on Shanghai Stock Exchange. Listed since March 2002. Historically very low debt \u2014 pure land-rental operating model with minimal capex. FY2020 detailed data not consistently available across English aggregators, so the 5-year history begins in FY2021. acresK figure (~2,135) reflects total operated/contracted area, not freehold ownership.",
   "periods": [
     {
       "endDate": "2021-12-31",
@@ -16,10 +16,11 @@
       "sharesOutMM": 1779,
       "dividendPerShare": 0.4,
       "totalAcresK": 2135,
-      "notes": "FY21: Revenue RMB3.63bn (mostly land-contracting fees + grain trading). EBITDA RMB1.34bn (margin 37%). NI RMB770M. Essentially debt-free with RMB1.69bn cash — net cash position of ~RMB1.68bn.",
+      "notes": "FY21: Revenue RMB3.63bn (mostly land-contracting fees + grain trading). EBITDA RMB1.34bn (margin 37%). NI RMB770M. Essentially debt-free with RMB1.69bn cash \u2014 net cash position of ~RMB1.68bn.",
       "capexMM": 220,
       "daMM": 360,
-      "cfoMM": 1450
+      "cfoMM": 1450,
+      "totalEquityMM": 12800
     },
     {
       "endDate": "2022-12-31",
@@ -33,10 +34,11 @@
       "sharesOutMM": 1778,
       "dividendPerShare": 0.4,
       "totalAcresK": 2135,
-      "notes": "FY22: Revenue RMB4.26bn (+17%). EBITDA RMB1.24bn (margin 29%) — slight compression on input costs. NI RMB975M (+27%). Cash build to RMB3.05bn, net cash RMB3.0bn.",
+      "notes": "FY22: Revenue RMB4.26bn (+17%). EBITDA RMB1.24bn (margin 29%) \u2014 slight compression on input costs. NI RMB975M (+27%). Cash build to RMB3.05bn, net cash RMB3.0bn.",
       "capexMM": 250,
       "daMM": 380,
-      "cfoMM": 1280
+      "cfoMM": 1280,
+      "totalEquityMM": 13350
     },
     {
       "endDate": "2023-12-31",
@@ -64,7 +66,8 @@
       "notes": "FY23: Revenue RMB5.04bn (+18%). EBITDA RMB1.30bn (margin 26%). NI RMB1.06bn (+9%). Special dividend distributed; cash drew to RMB2.37bn but still net cash.",
       "capexMM": 280,
       "daMM": 400,
-      "cfoMM": 1560
+      "cfoMM": 1560,
+      "totalEquityMM": 13750
     },
     {
       "endDate": "2023-03-31",
@@ -96,7 +99,8 @@
       "revenueMM": 1734,
       "ebitdaMM": 413,
       "netIncomeMM": 404,
-      "notes": "Q4 23"
+      "notes": "Q4 23",
+      "totalEquityMM": 13750
     },
     {
       "endDate": "2024-12-31",
@@ -122,10 +126,11 @@
         "D&A": 420,
         "Other opex": -146
       },
-      "notes": "FY24: Revenue RMB5.34bn (+5.83%). EBITDA RMB1.34bn (margin 25%). NI RMB1.087bn (+2.21%). DPS RMB0.44 — consistent grower. Total assets RMB8.98bn. Land-contracting model = stable annuity-like cash flows.",
+      "notes": "FY24: Revenue RMB5.34bn (+5.83%). EBITDA RMB1.34bn (margin 25%). NI RMB1.087bn (+2.21%). DPS RMB0.44 \u2014 consistent grower. Total assets RMB8.98bn. Land-contracting model = stable annuity-like cash flows.",
       "capexMM": 290,
       "daMM": 420,
-      "cfoMM": 1680
+      "cfoMM": 1680,
+      "totalEquityMM": 14050
     },
     {
       "endDate": "2024-03-31",
@@ -157,7 +162,8 @@
       "revenueMM": 1829,
       "ebitdaMM": 415,
       "netIncomeMM": 397,
-      "notes": "Q4 24"
+      "notes": "Q4 24",
+      "totalEquityMM": 14050
     },
     {
       "endDate": "2025-12-31",
@@ -166,11 +172,12 @@
       "sharesOutMM": 1778,
       "dividendPerShare": 0.55,
       "totalAcresK": 2135,
-      "notes": "FY25 (preliminary): Revenue RMB5.23bn (~-2% YoY). DPS lifted to RMB0.55 (+25% YoY) signalling balance-sheet capacity / payout policy review. Full earnings detail pending — only top-line + dividend disclosed.",
+      "notes": "FY25 (preliminary): Revenue RMB5.23bn (~-2% YoY). DPS lifted to RMB0.55 (+25% YoY) signalling balance-sheet capacity / payout policy review. Full earnings detail pending \u2014 only top-line + dividend disclosed.",
       "capexMM": 300,
       "daMM": 430,
       "cfoMM": 1750,
-      "interestExpenseMM": 80
+      "interestExpenseMM": 80,
+      "totalEquityMM": 14250
     }
   ]
 }

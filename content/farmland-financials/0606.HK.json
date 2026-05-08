@@ -2,7 +2,7 @@
   "ticker": "0606.HK",
   "currency": "CNY",
   "sourceUrl": "https://www.chinaagri.com.cn/index.php/en/main/category/cid/29.html",
-  "notes": "China Agri-Industries Holdings (HKEX: 0606) — agribusiness flagship of COFCO Corp (state-owned). Four segments: oilseeds processing (largest in China — Fortune brand), rice processing/trading, wheat milling/brewing materials, and biofuels/biochemicals. Reports CNY-millions IFRS consolidated. Lists in HKD on HKEX. FY ends Dec 31. High-volume / low-margin trader profile — EBITDA margins ~2-3%. Net debt incl. lease liabilities.",
+  "notes": "China Agri-Industries Holdings (HKEX: 0606) \u2014 agribusiness flagship of COFCO Corp (state-owned). Four segments: oilseeds processing (largest in China \u2014 Fortune brand), rice processing/trading, wheat milling/brewing materials, and biofuels/biochemicals. Reports CNY-millions IFRS consolidated. Lists in HKD on HKEX. FY ends Dec 31. High-volume / low-margin trader profile \u2014 EBITDA margins ~2-3%. Net debt incl. lease liabilities.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -14,10 +14,11 @@
       "cashMM": 6400,
       "netDebtMM": 17400,
       "sharesOutMM": 5256,
-      "notes": "FY20: Revenue RMB102.8bn (+20%) on soy/oilseed crush volumes + price rally; EBITDA RMB4.28bn (margin 4.2%) — bumper year for soybean crushing margins.",
+      "notes": "FY20: Revenue RMB102.8bn (+20%) on soy/oilseed crush volumes + price rally; EBITDA RMB4.28bn (margin 4.2%) \u2014 bumper year for soybean crushing margins.",
       "capexMM": 1900,
       "daMM": 1500,
-      "cfoMM": 3500
+      "cfoMM": 3500,
+      "totalEquityMM": 28500
     },
     {
       "endDate": "2021-12-31",
@@ -29,10 +30,11 @@
       "cashMM": 7200,
       "netDebtMM": 21300,
       "sharesOutMM": 5256,
-      "notes": "FY21: Revenue RMB126bn (+22%) on commodity inflation; EBITDA RMB3.45bn (margin 2.7%) — crush margins compressed.",
+      "notes": "FY21: Revenue RMB126bn (+22%) on commodity inflation; EBITDA RMB3.45bn (margin 2.7%) \u2014 crush margins compressed.",
       "capexMM": 2200,
       "daMM": 1600,
-      "cfoMM": 2800
+      "cfoMM": 2800,
+      "totalEquityMM": 31200
     },
     {
       "endDate": "2022-12-31",
@@ -56,10 +58,11 @@
         "D&A": 1700,
         "Other opex": -20
       },
-      "notes": "FY22: Revenue RMB142.5bn — peak year on Russia/Ukraine grain dislocation + China demand. EBITDA RMB4.82bn (margin 3.4%).",
+      "notes": "FY22: Revenue RMB142.5bn \u2014 peak year on Russia/Ukraine grain dislocation + China demand. EBITDA RMB4.82bn (margin 3.4%).",
       "capexMM": 2400,
       "daMM": 1700,
-      "cfoMM": 2600
+      "cfoMM": 2600,
+      "totalEquityMM": 33400
     },
     {
       "endDate": "2023-06-30",
@@ -94,7 +97,8 @@
       "notes": "FY23: Revenue RMB117.4bn (-18%) on grain price normalization; oilseed crush margin trough. EBITDA RMB2.86bn (margin 2.4%), NI RMB510M.",
       "capexMM": 2300,
       "daMM": 1800,
-      "cfoMM": 4500
+      "cfoMM": 4500,
+      "totalEquityMM": 34600
     },
     {
       "endDate": "2024-06-30",
@@ -126,7 +130,7 @@
         "D&A": 1850,
         "Other opex": 1135
       },
-      "notes": "FY24: Revenue RMB100.2bn (-15%) on continued commodity price softness + weaker oilseed crush spreads; EBITDA RMB2.05bn (margin 2.0%), NI RMB305M. Leverage ~12.5x — heavy working capital.",
+      "notes": "FY24: Revenue RMB100.2bn (-15%) on continued commodity price softness + weaker oilseed crush spreads; EBITDA RMB2.05bn (margin 2.0%), NI RMB305M. Leverage ~12.5x \u2014 heavy working capital.",
       "capexMM": 2200,
       "daMM": 1850,
       "cfoMM": 4900,
@@ -137,7 +141,8 @@
         "1-3y": 8450.0,
         "3-5y": 5070.0,
         "5+y": 6760.0
-      }
+      },
+      "totalEquityMM": 35100
     }
   ]
 }

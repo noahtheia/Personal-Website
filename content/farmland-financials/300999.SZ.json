@@ -2,7 +2,7 @@
   "ticker": "300999.SZ",
   "currency": "CNY",
   "sourceUrl": "https://www.yihaikerry.net/en/investor-relations.html",
-  "notes": "Yihai Kerry Arawana Holdings (SZSE: 300999) — Wilmar International's China subsidiary, IPO'd on ChiNext in October 2020. China's largest cooking-oil/kitchen-foods company (Arawana brand) plus rice, flour, and feed-ingredient distribution. Reports CNY-millions PRC GAAP. Lists in CNY on Shenzhen ChiNext. FY ends Dec 31. Earnings highly sensitive to soybean/palm oil crush spreads — margins compressed FY22-FY24 on soft consumer demand and weaker oilseed-processing economics. Total debt figures pulled from balance sheet (short + long term interest-bearing). EBITDA reflects PRC reporting (operating profit + D&A); margin extremely thin given trader/processor business model.",
+  "notes": "Yihai Kerry Arawana Holdings (SZSE: 300999) \u2014 Wilmar International's China subsidiary, IPO'd on ChiNext in October 2020. China's largest cooking-oil/kitchen-foods company (Arawana brand) plus rice, flour, and feed-ingredient distribution. Reports CNY-millions PRC GAAP. Lists in CNY on Shenzhen ChiNext. FY ends Dec 31. Earnings highly sensitive to soybean/palm oil crush spreads \u2014 margins compressed FY22-FY24 on soft consumer demand and weaker oilseed-processing economics. Total debt figures pulled from balance sheet (short + long term interest-bearing). EBITDA reflects PRC reporting (operating profit + D&A); margin extremely thin given trader/processor business model.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -14,7 +14,8 @@
       "notes": "FY20: First year as listed entity (IPO Oct 2020). Revenue RMB194.9bn, total profit >RMB6bn. Cooking oil + kitchen foods drove growth; pre-soybean-cost-spike year so margins remained healthy. Balance sheet detail not separately retrieved for this period.",
       "capexMM": 4800,
       "daMM": 1800,
-      "cfoMM": -7000
+      "cfoMM": -7000,
+      "totalEquityMM": 49800
     },
     {
       "endDate": "2021-12-31",
@@ -30,7 +31,8 @@
       "notes": "FY21: Revenue RMB226.2bn (+16% YoY) on volume + price pass-through. EBITDA RMB10.1bn (margin 4.5%); NI RMB4.1bn (-31%) as soybean crush spreads compressed. Heavy working-capital build (commodity inventories) drove total debt to RMB93.7bn.",
       "capexMM": 6500,
       "daMM": 2100,
-      "cfoMM": -1300
+      "cfoMM": -1300,
+      "totalEquityMM": 53600
     },
     {
       "endDate": "2022-12-31",
@@ -43,10 +45,11 @@
       "netDebtMM": 70624,
       "sharesOutMM": 5422,
       "dividendPerShare": 0.077,
-      "notes": "FY22: Revenue RMB257.5bn (+14%) on Russia/Ukraine driven oilseed price spike pass-through. EBITDA RMB7.5bn (margin 2.9%) — crush spreads turned negative for parts of year. NI RMB3.0bn (-27%). Net debt RMB70.6bn (+42% YoY) on commodity inventory.",
+      "notes": "FY22: Revenue RMB257.5bn (+14%) on Russia/Ukraine driven oilseed price spike pass-through. EBITDA RMB7.5bn (margin 2.9%) \u2014 crush spreads turned negative for parts of year. NI RMB3.0bn (-27%). Net debt RMB70.6bn (+42% YoY) on commodity inventory.",
       "capexMM": 9200,
       "daMM": 2600,
-      "cfoMM": 5500
+      "cfoMM": 5500,
+      "totalEquityMM": 56400
     },
     {
       "endDate": "2023-12-31",
@@ -70,10 +73,11 @@
         "D&A": 3100,
         "Other opex": -515
       },
-      "notes": "FY23: Revenue RMB251.5bn (-2%) on softer ASP. EBITDA RMB4.9bn (margin 2.0%) — trough margin year as China consumer demand weakened. NI RMB2.85bn (-5%). Cash build to RMB59.3bn, net debt RMB56.6bn.",
+      "notes": "FY23: Revenue RMB251.5bn (-2%) on softer ASP. EBITDA RMB4.9bn (margin 2.0%) \u2014 trough margin year as China consumer demand weakened. NI RMB2.85bn (-5%). Cash build to RMB59.3bn, net debt RMB56.6bn.",
       "capexMM": 7800,
       "daMM": 3100,
-      "cfoMM": 4900
+      "cfoMM": 4900,
+      "totalEquityMM": 58800
     },
     {
       "endDate": "2023-03-31",
@@ -105,7 +109,8 @@
       "revenueMM": 67864,
       "ebitdaMM": 1530,
       "netIncomeMM": 865,
-      "notes": "Q4 23"
+      "notes": "Q4 23",
+      "totalEquityMM": 58800
     },
     {
       "endDate": "2024-12-31",
@@ -140,7 +145,8 @@
         "1-3y": 23643.25,
         "3-5y": 14185.95,
         "5+y": 18914.6
-      }
+      },
+      "totalEquityMM": 60500
     },
     {
       "endDate": "2024-03-31",
@@ -172,7 +178,8 @@
       "revenueMM": 63279,
       "ebitdaMM": 1700,
       "netIncomeMM": 584,
-      "notes": "Q4 24"
+      "notes": "Q4 24",
+      "totalEquityMM": 60500
     }
   ]
 }

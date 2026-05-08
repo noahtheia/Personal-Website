@@ -2,7 +2,7 @@
   "ticker": "CSAN3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.cosan.com.br/",
-  "notes": "Cosan S.A. (B3: CSAN3, NYSE: CSAN) — diversified Brazilian conglomerate. Holdings: 44% of Raízen (sugar/ethanol/fuel distribution JV with Shell, B3: RAIZ4); ~99% of Rumo (logistics/rail, RAIL3); Compass (gas distribution, B3: CGAS3); Moove (lubricants, NYSE: MOOV); ~5% of Vale (acquired 2022). Acres figure (~2.1M acres / ~850k ha) reflects Raízen-managed sugarcane area (proportionate). Heavy holdco leverage on Vale stake — pressured FY24 net income. Quarterly + segment data from Cosan ITR/DFP filings (ri.cosan.com.br). Segments per Cosan disclosure: Raízen (sugar/ethanol/fuel), Rumo (rail logistics), Compass (gas), Moove (lubricants), Other.",
+  "notes": "Cosan S.A. (B3: CSAN3, NYSE: CSAN) \u2014 diversified Brazilian conglomerate. Holdings: 44% of Ra\u00edzen (sugar/ethanol/fuel distribution JV with Shell, B3: RAIZ4); ~99% of Rumo (logistics/rail, RAIL3); Compass (gas distribution, B3: CGAS3); Moove (lubricants, NYSE: MOOV); ~5% of Vale (acquired 2022). Acres figure (~2.1M acres / ~850k ha) reflects Ra\u00edzen-managed sugarcane area (proportionate). Heavy holdco leverage on Vale stake \u2014 pressured FY24 net income. Quarterly + segment data from Cosan ITR/DFP filings (ri.cosan.com.br). Segments per Cosan disclosure: Ra\u00edzen (sugar/ethanol/fuel), Rumo (rail logistics), Compass (gas), Moove (lubricants), Other.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -10,7 +10,7 @@
       "grossRevenueMM": 22500,
       "revenueMM": 21100,
       "revenueBySegmentMM": {
-        "Raízen": 0,
+        "Ra\u00edzen": 0,
         "Compass": 6800,
         "Rumo": 7100,
         "Moove": 3400,
@@ -28,10 +28,11 @@
       "cashMM": 9800,
       "netDebtMM": 22700,
       "sharesOutMM": 1872,
-      "notes": "FY20 (pre-2021 reorg / Compass spinoff included): Revenue R$21.1bn, EBITDA R$5.86bn. Raízen consolidated via equity method.",
+      "notes": "FY20 (pre-2021 reorg / Compass spinoff included): Revenue R$21.1bn, EBITDA R$5.86bn. Ra\u00edzen consolidated via equity method.",
       "capexMM": 4500,
       "daMM": 4200,
-      "cfoMM": 7800
+      "cfoMM": 7800,
+      "totalEquityMM": 18500
     },
     {
       "endDate": "2021-12-31",
@@ -39,7 +40,7 @@
       "grossRevenueMM": 26000,
       "revenueMM": 24365,
       "revenueBySegmentMM": {
-        "Raízen": 0,
+        "Ra\u00edzen": 0,
         "Compass": 9100,
         "Rumo": 7600,
         "Moove": 4500,
@@ -57,10 +58,11 @@
       "cashMM": 11400,
       "netDebtMM": 27200,
       "sharesOutMM": 1872,
-      "notes": "FY21: Revenue R$24.4bn, EBITDA R$7.4bn — Raízen IPO Aug 2021 raised R$6.9bn; reorganization year.",
+      "notes": "FY21: Revenue R$24.4bn, EBITDA R$7.4bn \u2014 Ra\u00edzen IPO Aug 2021 raised R$6.9bn; reorganization year.",
       "capexMM": 6800,
       "daMM": 5100,
-      "cfoMM": 9500
+      "cfoMM": 9500,
+      "totalEquityMM": 24700
     },
     {
       "endDate": "2022-03-31",
@@ -100,7 +102,8 @@
       "netIncomeMM": 1510,
       "sharesOutMM": 1872,
       "netDebtMM": 39900,
-      "notes": "4T22: Revenue R$8.27bn, EBITDA R$3.00bn."
+      "notes": "4T22: Revenue R$8.27bn, EBITDA R$3.00bn.",
+      "totalEquityMM": 30200
     },
     {
       "endDate": "2022-12-31",
@@ -108,7 +111,7 @@
       "grossRevenueMM": 35200,
       "revenueMM": 33072,
       "revenueBySegmentMM": {
-        "Raízen": 0,
+        "Ra\u00edzen": 0,
         "Compass": 12600,
         "Rumo": 9800,
         "Moove": 6800,
@@ -132,10 +135,11 @@
       "cashMM": 13900,
       "netDebtMM": 39900,
       "sharesOutMM": 1872,
-      "notes": "FY22: Revenue R$33.1bn (+36%), EBITDA R$11.8bn — Vale stake acquired (~R$23bn collar funded), drove leverage up.",
+      "notes": "FY22: Revenue R$33.1bn (+36%), EBITDA R$11.8bn \u2014 Vale stake acquired (~R$23bn collar funded), drove leverage up.",
       "capexMM": 9500,
       "daMM": 6800,
-      "cfoMM": 12500
+      "cfoMM": 12500,
+      "totalEquityMM": 30200
     },
     {
       "endDate": "2023-03-31",
@@ -175,7 +179,8 @@
       "netIncomeMM": 930,
       "sharesOutMM": 1872,
       "netDebtMM": 34900,
-      "notes": "4T23: Revenue R$9.76bn, EBITDA R$3.21bn."
+      "notes": "4T23: Revenue R$9.76bn, EBITDA R$3.21bn.",
+      "totalEquityMM": 31800
     },
     {
       "endDate": "2023-12-31",
@@ -183,7 +188,7 @@
       "grossRevenueMM": 41800,
       "revenueMM": 39208,
       "revenueBySegmentMM": {
-        "Raízen": 0,
+        "Ra\u00edzen": 0,
         "Compass": 14800,
         "Rumo": 11500,
         "Moove": 8400,
@@ -210,7 +215,8 @@
       "notes": "FY23: Revenue R$39.2bn (+19%), EBITDA R$13.1bn (margin 33.3%). Vale dividends supported NI. Net debt reduced via Compass divestments + Moove dividend recap.",
       "capexMM": 11200,
       "daMM": 8500,
-      "cfoMM": 14500
+      "cfoMM": 14500,
+      "totalEquityMM": 31800
     },
     {
       "endDate": "2024-03-31",
@@ -250,7 +256,8 @@
       "netIncomeMM": -660,
       "sharesOutMM": 1872,
       "netDebtMM": 38700,
-      "notes": "4T24: Revenue R$10.5bn, EBITDA R$3.19bn."
+      "notes": "4T24: Revenue R$10.5bn, EBITDA R$3.19bn.",
+      "totalEquityMM": 28500
     },
     {
       "endDate": "2024-12-31",
@@ -258,7 +265,7 @@
       "grossRevenueMM": 44400,
       "revenueMM": 41657,
       "revenueBySegmentMM": {
-        "Raízen": 0,
+        "Ra\u00edzen": 0,
         "Compass": 15800,
         "Rumo": 12400,
         "Moove": 9100,
@@ -293,7 +300,8 @@
         "1-3y": 14500,
         "3-5y": 12500,
         "5+y": 16900
-      }
+      },
+      "totalEquityMM": 28500
     },
     {
       "endDate": "2025-03-31",

@@ -20,7 +20,12 @@
       "capexMM": 6.6,
       "cfoMM": 71.7,
       "daMM": 30.3,
-      "totalEquityMM": 78
+      "totalEquityMM": 78,
+      "expensesBySegmentMM": {
+        "COGS": 855,
+        "SG&A": 21,
+        "D&A": 30
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -38,7 +43,12 @@
       "capexMM": 16.4,
       "daMM": 23.3,
       "cfoMM": 26.8,
-      "totalEquityMM": 165
+      "totalEquityMM": 165,
+      "expensesBySegmentMM": {
+        "COGS": 1119,
+        "SG&A": 22,
+        "D&A": 23
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -113,7 +123,12 @@
       "capexMM": 37.7,
       "daMM": 25.1,
       "cfoMM": 6.0,
-      "totalEquityMM": 195
+      "totalEquityMM": 195,
+      "expensesBySegmentMM": {
+        "COGS": 1221,
+        "SG&A": 30,
+        "D&A": 25
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -188,7 +203,12 @@
       "capexMM": 29.5,
       "daMM": 23.1,
       "cfoMM": 22.0,
-      "totalEquityMM": 165
+      "totalEquityMM": 165,
+      "expensesBySegmentMM": {
+        "COGS": 933,
+        "SG&A": 33,
+        "D&A": 23
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -281,7 +301,12 @@
         "Marketing & Distribution": 227.4,
         "Western Production": 152.2
       },
-      "totalEquityMM": 130
+      "totalEquityMM": 130,
+      "expensesBySegmentMM": {
+        "COGS": 933,
+        "SG&A": 30,
+        "D&A": 24
+      }
     },
     {
       "endDate": "2025-03-31",

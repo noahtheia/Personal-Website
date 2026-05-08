@@ -24,7 +24,12 @@
       "capexMM": 11.3,
       "daMM": 16.1,
       "cfoMM": 28.9,
-      "totalEquityMM": 165
+      "totalEquityMM": 165,
+      "expensesBySegmentMM": {
+        "COGS": 945,
+        "SG&A": 49,
+        "D&A": 16
+      }
     },
     {
       "endDate": "2021-10-31",
@@ -46,7 +51,12 @@
       "capexMM": 11.4,
       "daMM": 17.6,
       "cfoMM": 13.6,
-      "totalEquityMM": 158
+      "totalEquityMM": 158,
+      "expensesBySegmentMM": {
+        "COGS": 1090,
+        "SG&A": 51,
+        "D&A": 18
+      }
     },
     {
       "endDate": "2022-01-31",
@@ -125,7 +135,12 @@
       "capexMM": 9.8,
       "daMM": 16.6,
       "cfoMM": 50.2,
-      "totalEquityMM": 145
+      "totalEquityMM": 145,
+      "expensesBySegmentMM": {
+        "COGS": 1148,
+        "SG&A": 52,
+        "D&A": 17
+      }
     },
     {
       "endDate": "2023-01-31",
@@ -204,7 +219,12 @@
       "capexMM": 10.7,
       "daMM": 17.3,
       "cfoMM": -14.5,
-      "totalEquityMM": 152
+      "totalEquityMM": 152,
+      "expensesBySegmentMM": {
+        "COGS": 869,
+        "SG&A": 51,
+        "D&A": 17
+      }
     },
     {
       "endDate": "2024-01-31",
@@ -282,7 +302,12 @@
         "3-5y": 0,
         "5+y": 0
       },
-      "totalEquityMM": 160
+      "totalEquityMM": 160,
+      "expensesBySegmentMM": {
+        "COGS": 591,
+        "SG&A": 46,
+        "D&A": 11
+      }
     },
     {
       "endDate": "2025-01-31",
