@@ -22,7 +22,10 @@
       "netDebtMM": 1520,
       "sharesOutMM": 204.18,
       "epsBasic": 0.13,
-      "notes": "FY19/20 revenue €6.67B, EBITDA €416M. Sugar segment recovery from 2018 lows."
+      "notes": "FY19/20 revenue €6.67B, EBITDA €416M. Sugar segment recovery from 2018 lows.",
+      "capexMM": 270,
+      "daMM": 290,
+      "cfoMM": 450
     },
     {
       "endDate": "2021-02-28",
@@ -42,7 +45,10 @@
       "netDebtMM": 1440,
       "sharesOutMM": 204.18,
       "epsBasic": 0.61,
-      "notes": "FY20/21 EBITDA €472M, net income €124M."
+      "notes": "FY20/21 EBITDA €472M, net income €124M.",
+      "capexMM": 250,
+      "daMM": 280,
+      "cfoMM": 480
     },
     {
       "endDate": "2022-02-28",
@@ -62,7 +68,10 @@
       "netDebtMM": 1500,
       "sharesOutMM": 204.18,
       "epsBasic": 1.04,
-      "notes": "FY21/22 revenue €7.6B (+14%), strong CropEnergies bioethanol pricing."
+      "notes": "FY21/22 revenue €7.6B (+14%), strong CropEnergies bioethanol pricing.",
+      "capexMM": 280,
+      "daMM": 290,
+      "cfoMM": 410
     },
     {
       "endDate": "2023-02-28",
@@ -81,8 +90,11 @@
       "cashMM": 290,
       "netDebtMM": 1660,
       "sharesOutMM": 204.18,
-      "epsBasic": 1.60,
-      "notes": "FY22/23 record revenue €9.5B, EBITDA €942M on European sugar tightness post-Ukraine war."
+      "epsBasic": 1.6,
+      "notes": "FY22/23 record revenue €9.5B, EBITDA €942M on European sugar tightness post-Ukraine war.",
+      "capexMM": 350,
+      "daMM": 310,
+      "cfoMM": 720
     },
     {
       "endDate": "2024-02-29",
@@ -103,7 +115,10 @@
       "sharesOutMM": 204.18,
       "epsBasic": 2.03,
       "dividendPerShare": 0.9,
-      "notes": "FY23/24 revenue €10.3B (+8%), EBITDA €1.14B record."
+      "notes": "FY23/24 revenue €10.3B (+8%), EBITDA €1.14B record.",
+      "capexMM": 420,
+      "daMM": 340,
+      "cfoMM": 980
     },
     {
       "endDate": "2025-02-28",
@@ -124,7 +139,10 @@
       "sharesOutMM": 204.18,
       "epsBasic": -0.13,
       "dividendPerShare": 0.4,
-      "notes": "FY24/25 sugar prices collapsed back; EBITDA halved to €626M. Small net loss."
+      "notes": "FY24/25 sugar prices collapsed back; EBITDA halved to €626M. Small net loss.",
+      "capexMM": 450,
+      "daMM": 370,
+      "cfoMM": 540
     }
   ]
 }

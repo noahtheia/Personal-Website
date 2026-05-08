@@ -21,7 +21,10 @@
       "sharesOutMM": 153.86,
       "bookValuePerShare": 8.65,
       "dividendPerShare": 0.57,
-      "notes": "FY20: revenue €3.11B (+5%). COVID pantry-loading lifted rice + pasta volumes. Adj EBITDA €360M. Net debt €545M."
+      "notes": "FY20: revenue €3.11B (+5%). COVID pantry-loading lifted rice + pasta volumes. Adj EBITDA €360M. Net debt €545M.",
+      "capexMM": 95,
+      "daMM": 110,
+      "cfoMM": 350
     },
     {
       "endDate": "2021-12-31",
@@ -38,9 +41,12 @@
       "totalDebtMM": 750,
       "cashMM": 340,
       "sharesOutMM": 153.86,
-      "bookValuePerShare": 9.30,
+      "bookValuePerShare": 9.3,
       "dividendPerShare": 1.18,
-      "notes": "FY21: revenue €2.75B. Sold Panzani fresh-pasta to CVC for €550M, recorded €169M gain. Special dividend €0.61 + ordinary €0.57. Net debt down to €410M."
+      "notes": "FY21: revenue €2.75B. Sold Panzani fresh-pasta to CVC for €550M, recorded €169M gain. Special dividend €0.61 + ordinary €0.57. Net debt down to €410M.",
+      "capexMM": 90,
+      "daMM": 90,
+      "cfoMM": 250
     },
     {
       "endDate": "2022-12-31",
@@ -59,7 +65,10 @@
       "sharesOutMM": 153.86,
       "bookValuePerShare": 8.95,
       "dividendPerShare": 0.57,
-      "notes": "FY22: revenue €2.95B (+7% raw-material pass-through). Wheat / rice price spikes squeezed margin temporarily. Adj EBITDA €295M. Acquired Tilda from Hain (US$340M)."
+      "notes": "FY22: revenue €2.95B (+7% raw-material pass-through). Wheat / rice price spikes squeezed margin temporarily. Adj EBITDA €295M. Acquired Tilda from Hain (US$340M).",
+      "capexMM": 100,
+      "daMM": 95,
+      "cfoMM": 230
     },
     {
       "endDate": "2023-12-31",
@@ -77,8 +86,11 @@
       "cashMM": 305,
       "sharesOutMM": 153.86,
       "bookValuePerShare": 9.15,
-      "dividendPerShare": 0.60,
-      "notes": "FY23: revenue €3.10B (+5%). Tilda full year. Adj EBITDA recovered to €360M. India rice export ban tightened market. Net debt €705M."
+      "dividendPerShare": 0.6,
+      "notes": "FY23: revenue €3.10B (+5%). Tilda full year. Adj EBITDA recovered to €360M. India rice export ban tightened market. Net debt €705M.",
+      "capexMM": 105,
+      "daMM": 100,
+      "cfoMM": 360
     },
     {
       "endDate": "2024-12-31",
@@ -95,9 +107,12 @@
       "totalDebtMM": 800,
       "cashMM": 80,
       "sharesOutMM": 153.86,
-      "bookValuePerShare": 9.40,
-      "dividendPerShare": 0.60,
-      "notes": "FY24: revenue €3.14B. Adj EBITDA €380M (+5%). EPS ~€1.05. Net debt €720M (~1.9x EBITDA). Strong cash generation. Pasta margin recovery (durum wheat prices normalizing)."
+      "bookValuePerShare": 9.4,
+      "dividendPerShare": 0.6,
+      "notes": "FY24: revenue €3.14B. Adj EBITDA €380M (+5%). EPS ~€1.05. Net debt €720M (~1.9x EBITDA). Strong cash generation. Pasta margin recovery (durum wheat prices normalizing).",
+      "capexMM": 115,
+      "daMM": 105,
+      "cfoMM": 380
     }
   ]
 }

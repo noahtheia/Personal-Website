@@ -20,7 +20,10 @@
       "netDebtMM": 530,
       "sharesOutMM": 81.97,
       "epsBasic": 1.17,
-      "notes": "FY20 revenue $4.1B, EBITDA $443M. Pre-war baseline."
+      "notes": "FY20 revenue $4.1B, EBITDA $443M. Pre-war baseline.",
+      "capexMM": 86,
+      "daMM": 78,
+      "cfoMM": 195
     },
     {
       "endDate": "2021-06-30",
@@ -38,7 +41,10 @@
       "netDebtMM": 852,
       "sharesOutMM": 81.97,
       "epsBasic": 6.26,
-      "notes": "FY21 record EBITDA $930M on strong sunflower oil prices and bumper harvest."
+      "notes": "FY21 record EBITDA $930M on strong sunflower oil prices and bumper harvest.",
+      "capexMM": 195,
+      "daMM": 92,
+      "cfoMM": 410
     },
     {
       "endDate": "2022-06-30",
@@ -55,8 +61,11 @@
       "cashMM": 305,
       "netDebtMM": 1015,
       "sharesOutMM": 81.97,
-      "epsBasic": -0.50,
-      "notes": "FY22 disrupted by Russian invasion (Feb 2022). Impairments on Russian-occupied assets. EBITDA halved YoY."
+      "epsBasic": -0.5,
+      "notes": "FY22 disrupted by Russian invasion (Feb 2022). Impairments on Russian-occupied assets. EBITDA halved YoY.",
+      "capexMM": 173,
+      "daMM": 130,
+      "cfoMM": 250
     },
     {
       "endDate": "2023-06-30",
@@ -74,7 +83,10 @@
       "netDebtMM": 880,
       "sharesOutMM": 81.97,
       "epsBasic": 3.65,
-      "notes": "FY23 revenue down sharply on lower volumes (Black Sea corridor uncertainty). EBITDA recovered to $444M."
+      "notes": "FY23 revenue down sharply on lower volumes (Black Sea corridor uncertainty). EBITDA recovered to $444M.",
+      "capexMM": 110,
+      "daMM": 110,
+      "cfoMM": 320
     },
     {
       "endDate": "2024-06-30",
@@ -92,7 +104,10 @@
       "netDebtMM": 683,
       "sharesOutMM": 84.03,
       "epsBasic": 3.19,
-      "notes": "FY24 revenue $3.5B, EBITDA $519M. Net debt down to $683M as ops normalized via Ukraine maritime corridor."
+      "notes": "FY24 revenue $3.5B, EBITDA $519M. Net debt down to $683M as ops normalized via Ukraine maritime corridor.",
+      "capexMM": 95,
+      "daMM": 105,
+      "cfoMM": 380
     }
   ]
 }

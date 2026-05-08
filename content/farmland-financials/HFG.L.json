@@ -20,9 +20,12 @@
       "cashMM": 75,
       "netDebtMM": 125,
       "sharesOutMM": 89.0,
-      "bookValuePerShare": 2.90,
+      "bookValuePerShare": 2.9,
       "dividendPerShare": 0.293,
-      "notes": "FY20 (52w to Jan 3 2021): revenue GBP 2.81B (+6%). EBITDA GBP 100M. Net income GBP 39M. Strong pandemic retail demand for packaged meat."
+      "notes": "FY20 (52w to Jan 3 2021): revenue GBP 2.81B (+6%). EBITDA GBP 100M. Net income GBP 39M. Strong pandemic retail demand for packaged meat.",
+      "capexMM": 47,
+      "daMM": 53,
+      "cfoMM": 130
     },
     {
       "endDate": "2022-01-02",
@@ -42,7 +45,10 @@
       "sharesOutMM": 89.4,
       "bookValuePerShare": 3.05,
       "dividendPerShare": 0.317,
-      "notes": "FY21 (52w to Jan 2 2022): revenue GBP 3.20B (+14%). EBITDA GBP 109M. Acquired Fairfax Meadow + Foppen (Dutch seafood). Net income GBP 38M."
+      "notes": "FY21 (52w to Jan 2 2022): revenue GBP 3.20B (+14%). EBITDA GBP 109M. Acquired Fairfax Meadow + Foppen (Dutch seafood). Net income GBP 38M.",
+      "capexMM": 75,
+      "daMM": 65,
+      "cfoMM": 90
     },
     {
       "endDate": "2023-01-01",
@@ -62,7 +68,10 @@
       "sharesOutMM": 89.4,
       "bookValuePerShare": 2.98,
       "dividendPerShare": 0.32,
-      "notes": "FY22 (52w to Jan 1 2023): revenue GBP 3.85B (+20%). EBITDA GBP 88M (-19%). Severe seafood inflation, UK margin squeeze. Profit warning. Net income GBP 6M."
+      "notes": "FY22 (52w to Jan 1 2023): revenue GBP 3.85B (+20%). EBITDA GBP 88M (-19%). Severe seafood inflation, UK margin squeeze. Profit warning. Net income GBP 6M.",
+      "capexMM": 70,
+      "daMM": 78,
+      "cfoMM": 90
     },
     {
       "endDate": "2023-12-31",
@@ -80,9 +89,12 @@
       "cashMM": 70,
       "netDebtMM": 345,
       "sharesOutMM": 89.5,
-      "bookValuePerShare": 3.10,
+      "bookValuePerShare": 3.1,
       "dividendPerShare": 0.32,
-      "notes": "FY23 (52w to Dec 31 2023): revenue GBP 3.99B (+4%). EBITDA recovered to GBP 138M. Repriced contracts. Net income GBP 25M. Operations stabilized."
+      "notes": "FY23 (52w to Dec 31 2023): revenue GBP 3.99B (+4%). EBITDA recovered to GBP 138M. Repriced contracts. Net income GBP 25M. Operations stabilized.",
+      "capexMM": 60,
+      "daMM": 80,
+      "cfoMM": 175
     },
     {
       "endDate": "2024-12-29",
@@ -102,7 +114,10 @@
       "sharesOutMM": 89.7,
       "bookValuePerShare": 3.25,
       "dividendPerShare": 0.337,
-      "notes": "FY24 (52w to Dec 29 2024): revenue GBP 4.08B (+2%). EBITDA GBP 159M. Net income GBP 47M. Lower leverage. New contracts secured (Walmart Canada)."
+      "notes": "FY24 (52w to Dec 29 2024): revenue GBP 4.08B (+2%). EBITDA GBP 159M. Net income GBP 47M. Lower leverage. New contracts secured (Walmart Canada).",
+      "capexMM": 60,
+      "daMM": 80,
+      "cfoMM": 195
     }
   ]
 }

@@ -21,7 +21,10 @@
       "sharesOutMM": 467,
       "epsBasic": 0.475,
       "dividendPerShare": 0.296,
-      "notes": "FY19/20 revenue £2.88B, EBITDA £460M (pre-Primient divestiture)."
+      "notes": "FY19/20 revenue £2.88B, EBITDA £460M (pre-Primient divestiture).",
+      "capexMM": 154,
+      "daMM": 113,
+      "cfoMM": 320
     },
     {
       "endDate": "2021-03-31",
@@ -40,7 +43,10 @@
       "sharesOutMM": 466,
       "epsBasic": 0.498,
       "dividendPerShare": 0.298,
-      "notes": "FY20/21 EBITDA £459M, net debt £70M."
+      "notes": "FY20/21 EBITDA £459M, net debt £70M.",
+      "capexMM": 124,
+      "daMM": 110,
+      "cfoMM": 380
     },
     {
       "endDate": "2022-03-31",
@@ -58,8 +64,11 @@
       "netDebtMM": -280,
       "sharesOutMM": 478,
       "epsBasic": 0.402,
-      "dividendPerShare": 0.30,
-      "notes": "FY21/22 — Primary Products divested April 2022; retained-segment revenue £1.66B. Cash returned to shareholders."
+      "dividendPerShare": 0.3,
+      "notes": "FY21/22 — Primary Products divested April 2022; retained-segment revenue £1.66B. Cash returned to shareholders.",
+      "capexMM": 70,
+      "daMM": 71,
+      "cfoMM": 230
     },
     {
       "endDate": "2023-03-31",
@@ -77,7 +86,10 @@
       "sharesOutMM": 469,
       "epsBasic": 0.458,
       "dividendPerShare": 0.184,
-      "notes": "FY22/23 first full year as pure-play F&B Solutions; revenue +6%."
+      "notes": "FY22/23 first full year as pure-play F&B Solutions; revenue +6%.",
+      "capexMM": 76,
+      "daMM": 75,
+      "cfoMM": 270
     },
     {
       "endDate": "2024-03-31",
@@ -95,7 +107,10 @@
       "sharesOutMM": 451,
       "epsBasic": 0.296,
       "dividendPerShare": 0.193,
-      "notes": "FY23/24 revenue dipped 6% on volume softness. CP Kelco acquisition pending close."
+      "notes": "FY23/24 revenue dipped 6% on volume softness. CP Kelco acquisition pending close.",
+      "capexMM": 78,
+      "daMM": 78,
+      "cfoMM": 250
     }
   ]
 }

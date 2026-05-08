@@ -15,7 +15,10 @@
       "cashMM": 6900,
       "netDebtMM": 11900,
       "sharesOutMM": 812,
-      "notes": "FY20: Revenue R$39.4bn, EBITDA R$4.6bn (margin 11.7%). Margins pressured by COVID logistics."
+      "notes": "FY20: Revenue R$39.4bn, EBITDA R$4.6bn (margin 11.7%). Margins pressured by COVID logistics.",
+      "capexMM": 1900,
+      "daMM": 2100,
+      "cfoMM": 4500
     },
     {
       "endDate": "2021-12-31",
@@ -28,7 +31,10 @@
       "cashMM": 7400,
       "netDebtMM": 13700,
       "sharesOutMM": 812,
-      "notes": "FY21: Revenue R$48.3bn (+23%), EBITDA R$4.5bn (margin 9.4%) — feed cost inflation hit margins; net loss R$1.4bn."
+      "notes": "FY21: Revenue R$48.3bn (+23%), EBITDA R$4.5bn (margin 9.4%) — feed cost inflation hit margins; net loss R$1.4bn.",
+      "capexMM": 2400,
+      "daMM": 2500,
+      "cfoMM": 3800
     },
     {
       "endDate": "2022-12-31",
@@ -41,7 +47,10 @@
       "cashMM": 6300,
       "netDebtMM": 16200,
       "sharesOutMM": 1063,
-      "notes": "FY22: Revenue R$53.7bn (+11%), EBITDA R$4.2bn (margin 7.8%) — record-low operating margins on persistent input costs. Net loss R$3.1bn. R$5bn capital raise."
+      "notes": "FY22: Revenue R$53.7bn (+11%), EBITDA R$4.2bn (margin 7.8%) — record-low operating margins on persistent input costs. Net loss R$3.1bn. R$5bn capital raise.",
+      "capexMM": 3100,
+      "daMM": 3200,
+      "cfoMM": 1500
     },
     {
       "endDate": "2023-12-31",
@@ -54,7 +63,10 @@
       "cashMM": 11500,
       "netDebtMM": 11200,
       "sharesOutMM": 1685,
-      "notes": "FY23: Revenue R$53.6bn (flat), EBITDA R$4.8bn (margin 8.9%) — early signs of margin recovery in 2H. Net loss R$1.9bn. Marfrig increased stake; capital structure strengthened post-followon."
+      "notes": "FY23: Revenue R$53.6bn (flat), EBITDA R$4.8bn (margin 8.9%) — early signs of margin recovery in 2H. Net loss R$1.9bn. Marfrig increased stake; capital structure strengthened post-followon.",
+      "capexMM": 2200,
+      "daMM": 3500,
+      "cfoMM": 4200
     },
     {
       "endDate": "2024-12-31",
@@ -67,7 +79,10 @@
       "cashMM": 9100,
       "netDebtMM": 9800,
       "sharesOutMM": 1685,
-      "notes": "FY24: Strong recovery. Revenue R$61.4bn (+15%), EBITDA R$8.2bn (margin 13.4%) — best in 5+ years. Net income R$3.35bn (vs R$1.9bn loss). Leverage 1.2x. Resumed dividends."
+      "notes": "FY24: Strong recovery. Revenue R$61.4bn (+15%), EBITDA R$8.2bn (margin 13.4%) — best in 5+ years. Net income R$3.35bn (vs R$1.9bn loss). Leverage 1.2x. Resumed dividends.",
+      "capexMM": 2400,
+      "daMM": 3800,
+      "cfoMM": 7800
     }
   ]
 }

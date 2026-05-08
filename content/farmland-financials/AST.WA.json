@@ -74,7 +74,10 @@
       "totalAcresK": 296,
       "sharesOutMM": 25,
       "notes": "FY10: sugar pricing rally; land to ~120,000 ha",
-      "bookValuePerShare": 13.5
+      "bookValuePerShare": 13.5,
+      "capexMM": 30,
+      "daMM": 8,
+      "cfoMM": 35
     },
     {
       "endDate": "2011-12-31",
@@ -92,7 +95,10 @@
       "totalAcresK": 370,
       "sharesOutMM": 25,
       "notes": "FY11: peak sugar pricing; record EBITDA",
-      "bookValuePerShare": 18
+      "bookValuePerShare": 18,
+      "capexMM": 50,
+      "daMM": 12,
+      "cfoMM": 60
     },
     {
       "endDate": "2012-12-31",
@@ -110,7 +116,10 @@
       "totalAcresK": 420,
       "sharesOutMM": 25,
       "notes": "FY12: sugar oversupply emerging; further sugar plant acquisitions",
-      "bookValuePerShare": 21
+      "bookValuePerShare": 21,
+      "capexMM": 70,
+      "daMM": 16,
+      "cfoMM": 70
     },
     {
       "endDate": "2013-12-31",
@@ -128,7 +137,10 @@
       "totalAcresK": 543,
       "sharesOutMM": 25,
       "notes": "FY13: land bank reaches ~220,000 ha (~543k acres); sugar pricing decline",
-      "bookValuePerShare": 22.5
+      "bookValuePerShare": 22.5,
+      "capexMM": 90,
+      "daMM": 22,
+      "cfoMM": 50
     },
     {
       "endDate": "2014-12-31",
@@ -146,7 +158,10 @@
       "totalAcresK": 543,
       "sharesOutMM": 25,
       "notes": "FY14: Crimea/Donbas conflict starts; UAH crash; soybean plant commissioned",
-      "bookValuePerShare": 17.5
+      "bookValuePerShare": 17.5,
+      "capexMM": 60,
+      "daMM": 28,
+      "cfoMM": 80
     },
     {
       "endDate": "2015-12-31",
@@ -164,7 +179,10 @@
       "totalAcresK": 543,
       "sharesOutMM": 25,
       "notes": "FY15: weak UAH benefits export margins; record net income",
-      "bookValuePerShare": 22
+      "bookValuePerShare": 22,
+      "capexMM": 30,
+      "daMM": 30,
+      "cfoMM": 65
     },
     {
       "endDate": "2016-12-31",
@@ -182,7 +200,10 @@
       "totalAcresK": 543,
       "sharesOutMM": 25,
       "notes": "FY16: peak sugar profit; deleveraging starts",
-      "bookValuePerShare": 26.5
+      "bookValuePerShare": 26.5,
+      "capexMM": 22,
+      "daMM": 28,
+      "cfoMM": 95
     },
     {
       "endDate": "2017-12-31",
@@ -200,7 +221,10 @@
       "totalAcresK": 543,
       "sharesOutMM": 25,
       "notes": "FY17: sugar pricing reverts; farming weather-impacted",
-      "bookValuePerShare": 28.5
+      "bookValuePerShare": 28.5,
+      "capexMM": 30,
+      "daMM": 30,
+      "cfoMM": 90
     },
     {
       "endDate": "2018-12-31",
@@ -218,7 +242,10 @@
       "totalAcresK": 543,
       "sharesOutMM": 25,
       "notes": "FY18: sugar overcapacity in Ukraine; weak prices",
-      "bookValuePerShare": 27
+      "bookValuePerShare": 27,
+      "capexMM": 35,
+      "daMM": 30,
+      "cfoMM": 50
     },
     {
       "endDate": "2019-12-31",
@@ -236,7 +263,10 @@
       "totalAcresK": 543,
       "sharesOutMM": 24.97,
       "notes": "FY19: continued sugar weakness; farming mixed",
-      "bookValuePerShare": 24.5
+      "bookValuePerShare": 24.5,
+      "capexMM": 28,
+      "daMM": 32,
+      "cfoMM": 75
     },
     {
       "endDate": "2020-12-31",
@@ -260,7 +290,10 @@
         "Cattle Farming": 20
       },
       "notes": "FY20: sugar overcapacity in Ukraine; weak EBITDA",
-      "bookValuePerShare": 25
+      "bookValuePerShare": 25,
+      "capexMM": 25,
+      "daMM": 28,
+      "cfoMM": 80
     },
     {
       "endDate": "2021-12-31",
@@ -284,7 +317,10 @@
         "Cattle Farming": 25
       },
       "notes": "FY21: commodity rally pre-war; record EBITDA",
-      "bookValuePerShare": 27.5
+      "bookValuePerShare": 27.5,
+      "capexMM": 35,
+      "daMM": 28,
+      "cfoMM": 90
     },
     {
       "endDate": "2022-12-31",
@@ -308,7 +344,10 @@
         "Cattle Farming": 25
       },
       "notes": "FY22: Russia invasion, asset impairments in occupied/destroyed locations; logistics premium hits margins",
-      "bookValuePerShare": 24
+      "bookValuePerShare": 24,
+      "capexMM": 25,
+      "daMM": 32,
+      "cfoMM": 60
     },
     {
       "endDate": "2023-12-31",
@@ -332,7 +371,10 @@
         "Cattle Farming": 25
       },
       "notes": "FY23: sugar EU-Ukraine quota suspension boosts pricing; record sugar profits offset farming softness",
-      "bookValuePerShare": 30.5
+      "bookValuePerShare": 30.5,
+      "capexMM": 30,
+      "daMM": 30,
+      "cfoMM": 100
     },
     {
       "endDate": "2024-03-31",
@@ -388,7 +430,10 @@
         "Cattle Farming": 22
       },
       "notes": "FY24 per seed-comps: revenue €472M, EBITDA €100M, net debt €250M, NAV/share €32.7. Filing date 2026-04-22 (full audited).",
-      "bookValuePerShare": 32.7
+      "bookValuePerShare": 32.7,
+      "capexMM": 35,
+      "daMM": 32,
+      "cfoMM": 95
     }
   ]
 }
