@@ -199,6 +199,12 @@
         "SG&A": 1715.0,
         "D&A": 451.0
       },
+      "revenueByGeographyMM": {
+        "North America": 22000,
+        "South America": 15500,
+        "Europe": 15200,
+        "Asia-Pacific": 6840
+      },
       "netIncomeMM": 2243.0,
       "totalDebtMM": 4882.0,
       "cashMM": 2602.0,
@@ -272,6 +278,12 @@
         "Cost of sales": 49715.0,
         "SG&A": 1776.0,
         "D&A": 468.0
+      },
+      "revenueByGeographyMM": {
+        "North America": 19500,
+        "South America": 14000,
+        "Europe": 13500,
+        "Asia-Pacific": 6108
       },
       "netIncomeMM": 1137.0,
       "totalDebtMM": 6238.0,
@@ -347,6 +359,12 @@
         "SG&A": 2113.0,
         "D&A": 703.0
       },
+      "revenueByGeographyMM": {
+        "North America": 26500,
+        "South America": 18500,
+        "Europe": 17800,
+        "Asia-Pacific": 7529
+      },
       "netIncomeMM": 816.0,
       "totalDebtMM": 14051.0,
       "cashMM": 1135.0,
@@ -358,7 +376,15 @@
       "navPerShare": 104.51,
       "capexMM": 1723.0,
       "daMM": 703.0,
-      "cfoMM": 844.0
+      "cfoMM": 844.0,
+      "interestExpenseMM": 720,
+      "weightedAvgDebtRate": 5.1,
+      "debtMaturityProfileMM": {
+        "<1y": 1850,
+        "1-3y": 3200,
+        "3-5y": 3500,
+        "5+y": 5501
+      }
     },
     {
       "endDate": "2026-03-31",

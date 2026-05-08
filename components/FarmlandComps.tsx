@@ -93,7 +93,10 @@ type SortKey =
   | "priceEarnings"
   | "evCapRate"
   | "divYield"
-  | "fcfYield";
+  | "fcfYield"
+  | "buybackYield"
+  | "payoutRatio"
+  | "fcfPayoutRatio";
 
 type Band = "market" | "land" | "operating" | "valuation";
 type Format =
@@ -132,6 +135,9 @@ const COLUMNS: Column[] = [
   { key: "priceEarnings", label: "P / E", hint: "price ÷ EPS", band: "valuation", format: "mult" },
   { key: "divYield", label: "Div Yield", hint: "div ÷ price", band: "valuation", format: "pct" },
   { key: "fcfYield", label: "FCF Yield", hint: "FCF ÷ mkt cap", band: "valuation", format: "pct" },
+  { key: "buybackYield", label: "Buyback Yield", hint: "Δshares × price ÷ mkt cap", band: "valuation", format: "pct" },
+  { key: "payoutRatio", label: "Payout (EPS)", hint: "DPS ÷ EPS", band: "valuation", format: "pct" },
+  { key: "fcfPayoutRatio", label: "Payout (FCF)", hint: "DPS × sh ÷ FCF", band: "valuation", format: "pct" },
   // Land value (right-most band)
   { key: "acresK", label: "Acres", hint: "thousands", band: "land", format: "int" },
   { key: "bookPerAcre", label: "Book / Acre", hint: "$ filed", band: "land", format: "intDollar" },
@@ -175,6 +181,9 @@ const DIRECTION: Partial<Record<SortKey, "higher" | "lower">> = {
   roic: "higher",
   divYield: "higher",
   fcfYield: "higher",
+  buybackYield: "higher",
+  payoutRatio: "lower",
+  fcfPayoutRatio: "lower",
   evCapRate: "higher",
   evEbitda: "lower",
   priceSales: "lower",

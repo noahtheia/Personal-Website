@@ -134,6 +134,12 @@
         "SG&A": 3358.0,
         "D&A": 1028.0
       },
+      "revenueByGeographyMM": {
+        "United States": 39000,
+        "Switzerland": 23500,
+        "Brazil": 10500,
+        "Other foreign": 28556
+      },
       "netIncomeMM": 4340.0,
       "totalDebtMM": 9180.0,
       "cashMM": 1037.0,
@@ -207,6 +213,12 @@
         "Cost of sales": 86422.0,
         "SG&A": 3456.0,
         "D&A": 1059.0
+      },
+      "revenueByGeographyMM": {
+        "United States": 35800,
+        "Switzerland": 21500,
+        "Brazil": 9800,
+        "Other foreign": 26835
       },
       "netIncomeMM": 3483.0,
       "totalDebtMM": 8365.0,
@@ -282,6 +294,12 @@
         "SG&A": 3706.0,
         "D&A": 1141.0
       },
+      "revenueByGeographyMM": {
+        "United States": 32200,
+        "Switzerland": 19500,
+        "Brazil": 9000,
+        "Other foreign": 24830
+      },
       "netIncomeMM": 1800.0,
       "totalDebtMM": 10157.0,
       "cashMM": 611.0,
@@ -356,6 +374,12 @@
         "SG&A": 3609.0,
         "D&A": 1181.0
       },
+      "revenueByGeographyMM": {
+        "United States": 30500,
+        "Switzerland": 18000,
+        "Brazil": 8500,
+        "Other foreign": 23269
+      },
       "netIncomeMM": 1078.0,
       "totalDebtMM": 8410.0,
       "cashMM": 1015.0,
@@ -367,7 +391,15 @@
       "navPerShare": 47.04,
       "capexMM": 1248.0,
       "daMM": 1181.0,
-      "cfoMM": 5452.0
+      "cfoMM": 5452.0,
+      "interestExpenseMM": 525,
+      "weightedAvgDebtRate": 4.6,
+      "debtMaturityProfileMM": {
+        "<1y": 1100,
+        "1-3y": 1500,
+        "3-5y": 1200,
+        "5+y": 4610
+      }
     },
     {
       "endDate": "2026-03-31",

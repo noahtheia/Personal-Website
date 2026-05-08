@@ -34,6 +34,12 @@ const PeriodSchema = z.object({
   // renders them as negative segments below zero). Sum of these +
   // EBITDA should approximate net revenue.
   expensesBySegmentMM: z.record(z.string(), z.number()).optional(),
+  // Optional revenue breakdown by geography (e.g. "Asia", "Europe",
+  // "Americas", "Other" — or country-level "US", "Brazil", "China"...).
+  // Values are filing-currency $M and should sum to revenueMM.
+  // Sourced from segment-by-geography note in the latest 10-K / 20-F /
+  // annual report.
+  revenueByGeographyMM: z.record(z.string(), z.number()).optional(),
   ebitdaMM: z.number().optional(),
   // Net Operating Income (REIT-style). For agribusiness operators
   // without a true REIT NOI line, can be left out.
@@ -56,6 +62,18 @@ const PeriodSchema = z.object({
   cashMM: z.number().optional(),
   netDebtMM: z.number().optional(),
   totalEquityMM: z.number().optional(),
+  // ---- Capital structure / debt note ----
+  // P&L interest expense (positive, filing-currency $M) — pulled from
+  // the income statement or finance-cost note.
+  interestExpenseMM: z.number().optional(),
+  // Weighted-average interest cost on outstanding debt in % (e.g. 5.2
+  // for 5.2%). Often disclosed in the debt note.
+  weightedAvgDebtRate: z.number().optional(),
+  // Debt maturity profile — map of maturity bucket label
+  // ("<1y", "1-3y", "3-5y", "5+y") to outstanding principal in
+  // filing-currency $M. Sourced from the maturity profile of
+  // borrowings table in the debt note.
+  debtMaturityProfileMM: z.record(z.string(), z.number()).optional(),
   // Property book / fair-value carrying amount (varies by reporting
   // basis — IFRS REITs carry at FV, US GAAP at depreciated cost).
   propertyBookMM: z.number().optional(),

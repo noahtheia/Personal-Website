@@ -5,6 +5,7 @@ import {
   getPropertyDetail,
   totalFmvMM,
 } from "./farmland-properties";
+import { getFinancials } from "./farmland-financials";
 
 const CurrencySchema = z.enum([
   "USD",
@@ -179,6 +180,14 @@ export type PricedFarmlandComp = Omit<
   evCapRate: number | null;
   divYield: number | null;
   fcfYield: number | null;
+  // Buyback yield: net annual repurchases ÷ market cap, %. Computed
+  // from year-over-year sharesOutMM delta × latest price (negative if
+  // shares were issued rather than retired).
+  buybackYield: number | null;
+  // Dividend coverage: payout ratio (DPS ÷ EPS, %) and FCF coverage
+  // (DPS × shares ÷ FCF, %). Both expressed as percentages.
+  payoutRatio: number | null;
+  fcfPayoutRatio: number | null;
 
   fxToUsd: number;
   fetchedAt: string;
@@ -346,6 +355,34 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         marketCapLocal > 0
           ? (f.annualFcfMM / marketCapLocal) * 100
           : null;
+      // Buyback yield: net annual repurchases ÷ market cap × 100.
+      // Approximated as Δshares × current price ÷ market cap. Reads
+      // the latest two FY rows from the financials file. Negative if
+      // the issuer net-issued rather than repurchased.
+      const fin = getFinancials(f.ticker);
+      let buybackYield: number | null = null;
+      if (fin && priceInFiling !== null && marketCapLocal !== null && marketCapLocal > 0) {
+        const fyShares = fin.periods
+          .filter(
+            (p) =>
+              p.periodType === "FY" && typeof p.sharesOutMM === "number",
+          )
+          .sort((a, b) => a.endDate.localeCompare(b.endDate));
+        if (fyShares.length >= 2) {
+          const last = fyShares[fyShares.length - 1].sharesOutMM as number;
+          const prev = fyShares[fyShares.length - 2].sharesOutMM as number;
+          // Δshares > 0 = retired = positive buyback yield.
+          const deltaShares = prev - last;
+          buybackYield = ((deltaShares * priceInFiling) / marketCapLocal) * 100;
+        }
+      }
+      // Payout ratios — DPS ÷ EPS and (DPS × shares) ÷ FCF, both %.
+      const payoutRatio =
+        f.epsTTM > 0 ? (f.annualDividend / f.epsTTM) * 100 : null;
+      const fcfPayoutRatio =
+        f.annualFcfMM !== undefined && f.annualFcfMM > 0
+          ? ((f.annualDividend * f.sharesOutMM) / f.annualFcfMM) * 100
+          : null;
       // Shareholders' equity — prefer the explicit field; fall back
       // to navPerShare × sharesOutMM (book/NAV per share × shares).
       const equityLocal =
@@ -406,6 +443,9 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         evCapRate,
         divYield,
         fcfYield,
+        buybackYield,
+        payoutRatio,
+        fcfPayoutRatio,
         fxToUsd: fx,
         fetchedAt,
       };

@@ -47,6 +47,14 @@
       "netDebtMM": 37200,
       "sharesOutMM": 6320,
       "dividendPerShare": 0.17,
+      "revenueByGeographyMM": {
+        "China": 37500,
+        "South & Southeast Asia": 17800,
+        "Africa": 6200,
+        "Europe": 4500,
+        "Australia & NZ": 3500,
+        "Other": 3948
+      },
       "notes": "FY22: Revenue US$73.4B all-time high; core net profit US$2.40B record on Russia/Ukraine grain disruption + sugar rally. Highest interim dividend ever (S$0.06).",
       "capexMM": 1700,
       "daMM": 1230,
@@ -68,6 +76,14 @@
         "Feed & Industrial Products": 35000,
         "Plantations & Sugar Milling": 3500,
         "Others": 1163
+      },
+      "revenueByGeographyMM": {
+        "China": 33800,
+        "South & Southeast Asia": 16500,
+        "Africa": 5800,
+        "Europe": 4100,
+        "Australia & NZ": 3200,
+        "Other": 3763
       },
       "expensesBySegmentMM": {
         "COGS": 60500,
@@ -105,11 +121,27 @@
         "Plantations & Sugar Milling": 3050,
         "Others": 1128
       },
+      "revenueByGeographyMM": {
+        "China": 33500,
+        "South & Southeast Asia": 17200,
+        "Africa": 5900,
+        "Europe": 4200,
+        "Australia & NZ": 3100,
+        "Other": 3478
+      },
       "expensesBySegmentMM": {
         "COGS": 60800,
         "SG&A": 2138,
         "D&A": 1340,
         "Other opex": 0
+      },
+      "interestExpenseMM": 1850,
+      "weightedAvgDebtRate": 4.8,
+      "debtMaturityProfileMM": {
+        "<1y": 28500,
+        "1-3y": 7800,
+        "3-5y": 3200,
+        "5+y": 2000
       },
       "notes": "FY24: Revenue flat US$67.4B; core profit US$1.17B — weakest in 4 years on China consumer pack volumes + plantation profit drag. Anti-bribery probe Indonesia ongoing.",
       "capexMM": 1450,

@@ -75,6 +75,12 @@
         "Agriculture": 1815,
         "Ingredients": 1851
       },
+      "revenueByGeographyMM": {
+        "United Kingdom": 6700,
+        "Europe & Africa": 5950,
+        "The Americas": 3000,
+        "Asia Pacific": 1350
+      },
       "expensesBySegmentMM": {
         "COGS": 12300,
         "SG&A": 2700,
@@ -105,6 +111,12 @@
         "Agriculture": 1857,
         "Ingredients": 2021
       },
+      "revenueByGeographyMM": {
+        "United Kingdom": 7700,
+        "Europe & Africa": 7000,
+        "The Americas": 3500,
+        "Asia Pacific": 1551
+      },
       "expensesBySegmentMM": {
         "COGS": 14500,
         "SG&A": 3000,
@@ -134,6 +146,12 @@
         "Grocery": 3987,
         "Agriculture": 1781,
         "Ingredients": 2160
+      },
+      "revenueByGeographyMM": {
+        "United Kingdom": 7900,
+        "Europe & Africa": 7100,
+        "The Americas": 3550,
+        "Asia Pacific": 1524
       },
       "expensesBySegmentMM": {
         "COGS": 14600,
@@ -215,6 +233,12 @@
         "Agriculture": 1675,
         "Ingredients": 2238
       },
+      "revenueByGeographyMM": {
+        "United Kingdom": 7800,
+        "Europe & Africa": 6900,
+        "The Americas": 3500,
+        "Asia Pacific": 1414
+      },
       "expensesBySegmentMM": {
         "COGS": 14200,
         "SG&A": 3050,
@@ -229,6 +253,14 @@
       "sharesOutMM": 720,
       "epsBasic": 1.78,
       "dividendPerShare": 0.65,
+      "interestExpenseMM": 145,
+      "weightedAvgDebtRate": 4.5,
+      "debtMaturityProfileMM": {
+        "<1y": 450,
+        "1-3y": 700,
+        "3-5y": 600,
+        "5+y": 600
+      },
       "notes": "FY24/25: revenue £19.6B (-2%). Sugar segment loss in H2 — review of Vivergo / Norfolk Wissington bioethanol underway. £400M buyback continued.",
       "capexMM": 950,
       "daMM": 810,

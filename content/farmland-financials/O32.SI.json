@@ -47,6 +47,12 @@
       "netDebtMM": 21500,
       "sharesOutMM": 3470,
       "dividendPerShare": 0.085,
+      "revenueByGeographyMM": {
+        "Asia, Middle East & Australia": 19200,
+        "Africa": 12500,
+        "Americas": 13800,
+        "Europe": 9414
+      },
       "notes": "FY22: Revenue S$54.9B record, PATMI S$459M. Rebranded to Olam Group; ofi separation listing plans deferred.",
       "capexMM": 1100,
       "daMM": 720,
@@ -67,6 +73,12 @@
         "ofi (food ingredients — cocoa, coffee, dairy, nuts)": 19500,
         "Olam Agri (grains, oilseeds, rice)": 25500,
         "Remaining Olam Group": 2823
+      },
+      "revenueByGeographyMM": {
+        "Asia, Middle East & Australia": 16500,
+        "Africa": 11200,
+        "Americas": 11800,
+        "Europe": 8323
       },
       "expensesBySegmentMM": {
         "COGS": 43800,
@@ -103,11 +115,25 @@
         "Olam Agri (grains, oilseeds, rice — deconsolidated)": 13500,
         "Remaining Olam Group": 1930
       },
+      "revenueByGeographyMM": {
+        "Asia, Middle East & Australia": 12200,
+        "Africa": 8400,
+        "Americas": 9500,
+        "Europe": 6330
+      },
       "expensesBySegmentMM": {
         "COGS": 33000,
         "SG&A": 1780,
         "D&A": 820,
         "Other opex": 0
+      },
+      "interestExpenseMM": 1320,
+      "weightedAvgDebtRate": 6.1,
+      "debtMaturityProfileMM": {
+        "<1y": 12800,
+        "1-3y": 4500,
+        "3-5y": 1500,
+        "5+y": 700
       },
       "notes": "FY24: Revenue S$36.4B (-24% YoY post Olam Agri deconsolidation; SALIC majority stake completed). Net loss S$810M on cocoa price spike margin squeeze + reorg costs. ofi planning UK + Singapore concurrent listing.",
       "capexMM": 880,
