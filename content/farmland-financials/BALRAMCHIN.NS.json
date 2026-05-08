@@ -29,7 +29,10 @@
       "sharesOutMM": 209.8,
       "epsBasic": 17.05,
       "dividendPerShare": 2.5,
-      "notes": "FY21: revenue Rs 5,025 cr. EBITDA Rs 725 cr. PAT Rs 358 cr. Gradual ramp of ethanol diversion lifting margin mix vs. pure sugar."
+      "notes": "FY21: revenue Rs 5,025 cr. EBITDA Rs 725 cr. PAT Rs 358 cr. Gradual ramp of ethanol diversion lifting margin mix vs. pure sugar.",
+      "capexMM": 1500,
+      "daMM": 1050,
+      "cfoMM": 7800
     },
     {
       "endDate": "2022-03-31",
@@ -56,7 +59,10 @@
       "sharesOutMM": 209.8,
       "epsBasic": 23.55,
       "dividendPerShare": 2.5,
-      "notes": "FY22: revenue Rs 5,176 cr (+3%). EBITDA Rs 750 cr. PAT Rs 494 cr. Ethanol mix continuing to expand."
+      "notes": "FY22: revenue Rs 5,176 cr (+3%). EBITDA Rs 750 cr. PAT Rs 494 cr. Ethanol mix continuing to expand.",
+      "capexMM": 2400,
+      "daMM": 1150,
+      "cfoMM": 4500
     },
     {
       "endDate": "2023-03-31",
@@ -83,7 +89,10 @@
       "sharesOutMM": 209.8,
       "epsBasic": 25.74,
       "dividendPerShare": 3.0,
-      "notes": "FY23: revenue Rs 5,624 cr (+9%). EBITDA Rs 720 cr. PAT Rs 540 cr. PLA (Maizapur) commissioning + Balrampur PLA bracket. Ethanol diversion peak."
+      "notes": "FY23: revenue Rs 5,624 cr (+9%). EBITDA Rs 720 cr. PAT Rs 540 cr. PLA (Maizapur) commissioning + Balrampur PLA bracket. Ethanol diversion peak.",
+      "capexMM": 6500,
+      "daMM": 1250,
+      "cfoMM": 4800
     },
     {
       "endDate": "2024-03-31",
@@ -110,7 +119,10 @@
       "sharesOutMM": 201.7,
       "epsBasic": 10.71,
       "dividendPerShare": 2.5,
-      "notes": "FY24: revenue Rs 5,650 cr (+1%). EBITDA dropped to Rs 500 cr (-31% YoY) on government's Dec-2023 ban on cane-juice/B-heavy ethanol diversion. PAT Rs 216 cr. Tough year for industry. Buyback completed (~8M shares)."
+      "notes": "FY24: revenue Rs 5,650 cr (+1%). EBITDA dropped to Rs 500 cr (-31% YoY) on government's Dec-2023 ban on cane-juice/B-heavy ethanol diversion. PAT Rs 216 cr. Tough year for industry. Buyback completed (~8M shares).",
+      "capexMM": 5800,
+      "daMM": 1500,
+      "cfoMM": 6500
     },
     {
       "endDate": "2025-03-31",
@@ -137,7 +149,10 @@
       "sharesOutMM": 201.7,
       "epsBasic": 6.6,
       "dividendPerShare": 3.0,
-      "notes": "FY25: revenue Rs 5,800 cr (+3%). EBITDA Rs 600 cr (+20% YoY). PAT Rs 133 cr. Ethanol diversion partially restored; PSF-grade ethanol pricing supportive. Maizapur PSF capex weighing on D&A."
+      "notes": "FY25: revenue Rs 5,800 cr (+3%). EBITDA Rs 600 cr (+20% YoY). PAT Rs 133 cr. Ethanol diversion partially restored; PSF-grade ethanol pricing supportive. Maizapur PSF capex weighing on D&A.",
+      "capexMM": 4500,
+      "daMM": 1700,
+      "cfoMM": 5500
     }
   ]
 }

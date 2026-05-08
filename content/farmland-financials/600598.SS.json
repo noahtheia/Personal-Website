@@ -14,9 +14,12 @@
       "cashMM": 1685,
       "netDebtMM": -1681,
       "sharesOutMM": 1779,
-      "dividendPerShare": 0.40,
+      "dividendPerShare": 0.4,
       "totalAcresK": 2135,
-      "notes": "FY21: Revenue RMB3.63bn (mostly land-contracting fees + grain trading). EBITDA RMB1.34bn (margin 37%). NI RMB770M. Essentially debt-free with RMB1.69bn cash — net cash position of ~RMB1.68bn."
+      "notes": "FY21: Revenue RMB3.63bn (mostly land-contracting fees + grain trading). EBITDA RMB1.34bn (margin 37%). NI RMB770M. Essentially debt-free with RMB1.69bn cash — net cash position of ~RMB1.68bn.",
+      "capexMM": 220,
+      "daMM": 360,
+      "cfoMM": 1450
     },
     {
       "endDate": "2022-12-31",
@@ -28,9 +31,12 @@
       "cashMM": 3054,
       "netDebtMM": -3027,
       "sharesOutMM": 1778,
-      "dividendPerShare": 0.40,
+      "dividendPerShare": 0.4,
       "totalAcresK": 2135,
-      "notes": "FY22: Revenue RMB4.26bn (+17%). EBITDA RMB1.24bn (margin 29%) — slight compression on input costs. NI RMB975M (+27%). Cash build to RMB3.05bn, net cash RMB3.0bn."
+      "notes": "FY22: Revenue RMB4.26bn (+17%). EBITDA RMB1.24bn (margin 29%) — slight compression on input costs. NI RMB975M (+27%). Cash build to RMB3.05bn, net cash RMB3.0bn.",
+      "capexMM": 250,
+      "daMM": 380,
+      "cfoMM": 1280
     },
     {
       "endDate": "2023-12-31",
@@ -44,7 +50,10 @@
       "sharesOutMM": 1779,
       "dividendPerShare": 0.42,
       "totalAcresK": 2135,
-      "notes": "FY23: Revenue RMB5.04bn (+18%). EBITDA RMB1.30bn (margin 26%). NI RMB1.06bn (+9%). Special dividend distributed; cash drew to RMB2.37bn but still net cash."
+      "notes": "FY23: Revenue RMB5.04bn (+18%). EBITDA RMB1.30bn (margin 26%). NI RMB1.06bn (+9%). Special dividend distributed; cash drew to RMB2.37bn but still net cash.",
+      "capexMM": 280,
+      "daMM": 400,
+      "cfoMM": 1560
     },
     {
       "endDate": "2024-12-31",
@@ -59,7 +68,10 @@
       "dividendPerShare": 0.44,
       "totalAcresK": 2135,
       "totalAssetsMM": 8975,
-      "notes": "FY24: Revenue RMB5.34bn (+5.83%). EBITDA RMB1.34bn (margin 25%). NI RMB1.087bn (+2.21%). DPS RMB0.44 — consistent grower. Total assets RMB8.98bn. Land-contracting model = stable annuity-like cash flows."
+      "notes": "FY24: Revenue RMB5.34bn (+5.83%). EBITDA RMB1.34bn (margin 25%). NI RMB1.087bn (+2.21%). DPS RMB0.44 — consistent grower. Total assets RMB8.98bn. Land-contracting model = stable annuity-like cash flows.",
+      "capexMM": 290,
+      "daMM": 420,
+      "cfoMM": 1680
     },
     {
       "endDate": "2025-12-31",
@@ -68,7 +80,10 @@
       "sharesOutMM": 1778,
       "dividendPerShare": 0.55,
       "totalAcresK": 2135,
-      "notes": "FY25 (preliminary): Revenue RMB5.23bn (~-2% YoY). DPS lifted to RMB0.55 (+25% YoY) signalling balance-sheet capacity / payout policy review. Full earnings detail pending — only top-line + dividend disclosed."
+      "notes": "FY25 (preliminary): Revenue RMB5.23bn (~-2% YoY). DPS lifted to RMB0.55 (+25% YoY) signalling balance-sheet capacity / payout policy review. Full earnings detail pending — only top-line + dividend disclosed.",
+      "capexMM": 300,
+      "daMM": 430,
+      "cfoMM": 1750
     }
   ]
 }

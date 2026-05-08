@@ -25,7 +25,10 @@
         "D&A": 30,
         "Other": 8
       },
-      "notes": "FY20 (Jan-end): revenue RM870M; net profit RM60M. CPO weakness offset by strong third-party FFB throughput at mills"
+      "notes": "FY20 (Jan-end): revenue RM870M; net profit RM60M. CPO weakness offset by strong third-party FFB throughput at mills",
+      "capexMM": 25,
+      "daMM": 22,
+      "cfoMM": 70
     },
     {
       "endDate": "2021-01-31",
@@ -55,7 +58,10 @@
         "D&A": 32,
         "Other": 9
       },
-      "notes": "FY21 (Jan-end): revenue RM1.11B (+28% YoY) on CPO recovery; net profit RM100M (+67%)"
+      "notes": "FY21 (Jan-end): revenue RM1.11B (+28% YoY) on CPO recovery; net profit RM100M (+67%)",
+      "capexMM": 30,
+      "daMM": 23,
+      "cfoMM": 95
     },
     {
       "endDate": "2022-01-31",
@@ -85,7 +91,10 @@
         "D&A": 34,
         "Other": 10
       },
-      "notes": "FY22 (Jan-end): revenue RM1.53B (+38% YoY); CPO super-cycle. Net profit RM165M"
+      "notes": "FY22 (Jan-end): revenue RM1.53B (+38% YoY); CPO super-cycle. Net profit RM165M",
+      "capexMM": 38,
+      "daMM": 25,
+      "cfoMM": 130
     },
     {
       "endDate": "2023-01-31",
@@ -115,7 +124,10 @@
         "D&A": 35,
         "Other": 11
       },
-      "notes": "FY23 (Jan-end): revenue RM1.80B (+18% YoY); net profit RM175M as peak CPO held"
+      "notes": "FY23 (Jan-end): revenue RM1.80B (+18% YoY); net profit RM175M as peak CPO held",
+      "capexMM": 45,
+      "daMM": 27,
+      "cfoMM": 160
     },
     {
       "endDate": "2024-01-31",
@@ -145,7 +157,10 @@
         "D&A": 36,
         "Other": 11
       },
-      "notes": "FY24 (Jan-end): revenue RM1.61B (-11% YoY) on CPO normalization; net profit RM150M"
+      "notes": "FY24 (Jan-end): revenue RM1.61B (-11% YoY) on CPO normalization; net profit RM150M",
+      "capexMM": 40,
+      "daMM": 28,
+      "cfoMM": 115
     },
     {
       "endDate": "2025-01-31",
@@ -178,7 +193,10 @@
         "D&A": 37,
         "Other": 12
       },
-      "notes": "FY25 (Jan-end): revenue RM1.82B (+13% YoY); net profit RM195M. CPO ASP recovered above RM4,300/MT"
+      "notes": "FY25 (Jan-end): revenue RM1.82B (+13% YoY); net profit RM195M. CPO ASP recovered above RM4,300/MT",
+      "capexMM": 42,
+      "daMM": 30,
+      "cfoMM": 130
     }
   ]
 }

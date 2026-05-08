@@ -30,7 +30,10 @@
       "totalAcresK": 285,
       "bookValuePerShare": 1295,
       "dividendPerShare": 25,
-      "notes": "FY19: revenue Rp3.46T (-6% YoY) on CPO ASP weakness; net income Rp253B"
+      "notes": "FY19: revenue Rp3.46T (-6% YoY) on CPO ASP weakness; net income Rp253B",
+      "capexMM": 510000,
+      "daMM": 280000,
+      "cfoMM": 760000
     },
     {
       "endDate": "2020-12-31",
@@ -65,7 +68,10 @@
       "matureHectaresK": 72,
       "bookValuePerShare": 1336,
       "dividendPerShare": 27,
-      "notes": "FY20: CPO ASP recovery H2; net income Rp314B (+24% YoY)"
+      "notes": "FY20: CPO ASP recovery H2; net income Rp314B (+24% YoY)",
+      "capexMM": 400000,
+      "daMM": 290000,
+      "cfoMM": 1300000
     },
     {
       "endDate": "2021-12-31",
@@ -100,7 +106,10 @@
       "matureHectaresK": 72,
       "bookValuePerShare": 1429,
       "dividendPerShare": 67,
-      "notes": "FY21: revenue Rp4.79T (+35% YoY) on CPO super-cycle; net income Rp856B (+173% YoY)"
+      "notes": "FY21: revenue Rp4.79T (+35% YoY) on CPO super-cycle; net income Rp856B (+173% YoY)",
+      "capexMM": 520000,
+      "daMM": 300000,
+      "cfoMM": 1640000
     },
     {
       "endDate": "2022-12-31",
@@ -135,7 +144,10 @@
       "matureHectaresK": 72,
       "bookValuePerShare": 1490,
       "dividendPerShare": 50,
-      "notes": "FY22: revenue Rp4.86T (+1% YoY); CPO export ban + DMO compressed margins. Net income Rp686B (-20%)"
+      "notes": "FY22: revenue Rp4.86T (+1% YoY); CPO export ban + DMO compressed margins. Net income Rp686B (-20%)",
+      "capexMM": 660000,
+      "daMM": 310000,
+      "cfoMM": 1380000
     },
     {
       "endDate": "2023-12-31",
@@ -170,7 +182,10 @@
       "matureHectaresK": 72,
       "bookValuePerShare": 1511,
       "dividendPerShare": 30,
-      "notes": "FY23: revenue Rp4.38T (-10% YoY) on CPO normalization + cost inflation; net income Rp343B (-50%)"
+      "notes": "FY23: revenue Rp4.38T (-10% YoY) on CPO normalization + cost inflation; net income Rp343B (-50%)",
+      "capexMM": 620000,
+      "daMM": 320000,
+      "cfoMM": 880000
     },
     {
       "endDate": "2024-12-31",
@@ -207,7 +222,10 @@
       "bookValuePerShare": 1542,
       "navPerShare": 1542,
       "dividendPerShare": 47,
-      "notes": "FY24: revenue Rp4.92T (+12% YoY) on CPO recovery; net income Rp642B (+87%). Net cash Rp2.78T"
+      "notes": "FY24: revenue Rp4.92T (+12% YoY) on CPO recovery; net income Rp642B (+87%). Net cash Rp2.78T",
+      "capexMM": 600000,
+      "daMM": 330000,
+      "cfoMM": 970000
     }
   ]
 }

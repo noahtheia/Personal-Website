@@ -25,7 +25,10 @@
         "D&A": 110,
         "Other": 18
       },
-      "notes": "FY19: revenue RM605M; net loss RM180M on CPO weakness + impairment of acquired estates"
+      "notes": "FY19: revenue RM605M; net loss RM180M on CPO weakness + impairment of acquired estates",
+      "capexMM": 90,
+      "daMM": 75,
+      "cfoMM": 180
     },
     {
       "endDate": "2020-12-31",
@@ -55,7 +58,10 @@
         "D&A": 115,
         "Other": 14
       },
-      "notes": "FY20: revenue RM695M (+15% YoY) on CPO recovery; near-breakeven net loss"
+      "notes": "FY20: revenue RM695M (+15% YoY) on CPO recovery; near-breakeven net loss",
+      "capexMM": 80,
+      "daMM": 78,
+      "cfoMM": 290
     },
     {
       "endDate": "2021-12-31",
@@ -85,7 +91,10 @@
         "D&A": 120,
         "Other": 12
       },
-      "notes": "FY21: revenue RM920M (+32% YoY); net profit RM215M as CPO super-cycle peaked"
+      "notes": "FY21: revenue RM920M (+32% YoY); net profit RM215M as CPO super-cycle peaked",
+      "capexMM": 95,
+      "daMM": 80,
+      "cfoMM": 410
     },
     {
       "endDate": "2022-12-31",
@@ -115,7 +124,10 @@
         "D&A": 125,
         "Other": 15
       },
-      "notes": "FY22: revenue RM1.14B; net profit RM700M boosted by RM550M land disposal gain (Kulai estates to UEM Sunrise)"
+      "notes": "FY22: revenue RM1.14B; net profit RM700M boosted by RM550M land disposal gain (Kulai estates to UEM Sunrise)",
+      "capexMM": 130,
+      "daMM": 85,
+      "cfoMM": 510
     },
     {
       "endDate": "2023-12-31",
@@ -145,7 +157,10 @@
         "D&A": 125,
         "Other": 16
       },
-      "notes": "FY23: revenue RM950M (-17% YoY); net loss RM28M as CPO normalized + replanting costs. LTAT takeover offer at RM1.55 lapsed"
+      "notes": "FY23: revenue RM950M (-17% YoY); net loss RM28M as CPO normalized + replanting costs. LTAT takeover offer at RM1.55 lapsed",
+      "capexMM": 110,
+      "daMM": 88,
+      "cfoMM": 270
     },
     {
       "endDate": "2024-12-31",
@@ -178,7 +193,10 @@
         "D&A": 130,
         "Other": 17
       },
-      "notes": "FY24: revenue RM1.15B (+21% YoY) on CPO recovery; net profit RM165M reverses prior loss"
+      "notes": "FY24: revenue RM1.15B (+21% YoY) on CPO recovery; net profit RM165M reverses prior loss",
+      "capexMM": 105,
+      "daMM": 90,
+      "cfoMM": 320
     }
   ]
 }

@@ -373,7 +373,10 @@
       "totalAcresK": 348,
       "bookValuePerShare": 4581,
       "dividendPerShare": 830,
-      "notes": "FY10: revenue Rp8.84T (+19% YoY), net income Rp2.02T"
+      "notes": "FY10: revenue Rp8.84T (+19% YoY), net income Rp2.02T",
+      "capexMM": 1380000,
+      "daMM": 303000,
+      "cfoMM": 2330000
     },
     {
       "endDate": "2011-12-31",
@@ -402,7 +405,10 @@
       "totalAcresK": 360,
       "bookValuePerShare": 5347,
       "dividendPerShare": 990,
-      "notes": "FY11: peak CPO ASP year (avg ~$1,150/ton). Revenue Rp10.77T (+22% YoY), net income Rp2.50T"
+      "notes": "FY11: peak CPO ASP year (avg ~$1,150/ton). Revenue Rp10.77T (+22% YoY), net income Rp2.50T",
+      "capexMM": 1490000,
+      "daMM": 354000,
+      "cfoMM": 2700000
     },
     {
       "endDate": "2012-12-31",
@@ -431,7 +437,10 @@
       "totalAcresK": 374,
       "bookValuePerShare": 5946,
       "dividendPerShare": 990,
-      "notes": "FY12: revenue Rp11.56T, net income Rp2.45T"
+      "notes": "FY12: revenue Rp11.56T, net income Rp2.45T",
+      "capexMM": 1850000,
+      "daMM": 434000,
+      "cfoMM": 1900000
     },
     {
       "endDate": "2013-12-31",
@@ -460,7 +469,10 @@
       "totalAcresK": 384,
       "bookValuePerShare": 6069,
       "dividendPerShare": 695,
-      "notes": "FY13: CPO ASP weakness. Net income Rp1.90T (-22% YoY)"
+      "notes": "FY13: CPO ASP weakness. Net income Rp1.90T (-22% YoY)",
+      "capexMM": 2200000,
+      "daMM": 500000,
+      "cfoMM": 1640000
     },
     {
       "endDate": "2014-12-31",
@@ -489,7 +501,10 @@
       "totalAcresK": 397,
       "bookValuePerShare": 7513,
       "dividendPerShare": 905,
-      "notes": "FY14: revenue Rp16.31T (+29% YoY) on H1 CPO rally. Net income Rp2.62T"
+      "notes": "FY14: revenue Rp16.31T (+29% YoY) on H1 CPO rally. Net income Rp2.62T",
+      "capexMM": 2350000,
+      "daMM": 601000,
+      "cfoMM": 2740000
     },
     {
       "endDate": "2015-12-31",
@@ -518,7 +533,10 @@
       "totalAcresK": 410,
       "bookValuePerShare": 6078,
       "dividendPerShare": 295,
-      "notes": "FY15: CPO ASP trough. Revenue -20% YoY, net income Rp695B (-73%). Rights issue increased shares from 1,575M to 1,925M"
+      "notes": "FY15: CPO ASP trough. Revenue -20% YoY, net income Rp695B (-73%). Rights issue increased shares from 1,575M to 1,925M",
+      "capexMM": 1830000,
+      "daMM": 700000,
+      "cfoMM": 1300000
     },
     {
       "endDate": "2016-12-31",
@@ -547,7 +565,10 @@
       "totalAcresK": 425,
       "bookValuePerShare": 6717,
       "dividendPerShare": 605,
-      "notes": "FY16: CPO ASP recovery. Net income Rp2.11T (+204% YoY)"
+      "notes": "FY16: CPO ASP recovery. Net income Rp2.11T (+204% YoY)",
+      "capexMM": 1180000,
+      "daMM": 760000,
+      "cfoMM": 2530000
     },
     {
       "endDate": "2017-12-31",
@@ -576,7 +597,10 @@
       "totalAcresK": 444,
       "bookValuePerShare": 7758,
       "dividendPerShare": 405,
-      "notes": "FY17: revenue Rp17.31T (+23% YoY), net income Rp2.11T"
+      "notes": "FY17: revenue Rp17.31T (+23% YoY), net income Rp2.11T",
+      "capexMM": 1110000,
+      "daMM": 820000,
+      "cfoMM": 2400000
     },
     {
       "endDate": "2018-12-31",
@@ -605,7 +629,10 @@
       "totalAcresK": 470,
       "bookValuePerShare": 8214,
       "dividendPerShare": 165,
-      "notes": "FY18: CPO ASP soft H2 on EU/Indian biodiesel policy concerns. Net income Rp1.44T"
+      "notes": "FY18: CPO ASP soft H2 on EU/Indian biodiesel policy concerns. Net income Rp1.44T",
+      "capexMM": 920000,
+      "daMM": 870000,
+      "cfoMM": 1730000
     },
     {
       "endDate": "2019-12-31",
@@ -634,7 +661,10 @@
       "totalAcresK": 510,
       "bookValuePerShare": 8602,
       "dividendPerShare": 65,
-      "notes": "FY19: CPO ASP trough year. Revenue -8.5% YoY, net income Rp244B (-83%) — weakest profit since IPO"
+      "notes": "FY19: CPO ASP trough year. Revenue -8.5% YoY, net income Rp244B (-83%) — weakest profit since IPO",
+      "capexMM": 720000,
+      "daMM": 900000,
+      "cfoMM": 950000
     },
     {
       "endDate": "2020-03-31",
@@ -751,7 +781,10 @@
       "cpoExtractionRatePct": 22.4,
       "pkExtractionRatePct": 4.55,
       "matureHectaresK": 206,
-      "notes": "FY20: Rp18.74T revenue, Rp1.23T net profit. Rebound from 2019 trough as CPO prices recovered through Q4. Net debt Rp4.49T"
+      "notes": "FY20: Rp18.74T revenue, Rp1.23T net profit. Rebound from 2019 trough as CPO prices recovered through Q4. Net debt Rp4.49T",
+      "capexMM": 690000,
+      "daMM": 880000,
+      "cfoMM": 2170000
     },
     {
       "endDate": "2021-03-31",
@@ -867,7 +900,10 @@
       "cpoExtractionRatePct": 22.5,
       "pkExtractionRatePct": 4.58,
       "matureHectaresK": 206,
-      "notes": "FY21: Rp20.83T revenue (+11% YoY), CPO price boom continues. Net income Rp1.63T (+32%). Net debt down to Rp2.58T"
+      "notes": "FY21: Rp20.83T revenue (+11% YoY), CPO price boom continues. Net income Rp1.63T (+32%). Net debt down to Rp2.58T",
+      "capexMM": 880000,
+      "daMM": 940000,
+      "cfoMM": 2890000
     },
     {
       "endDate": "2022-03-31",
@@ -985,7 +1021,10 @@
       "cpoExtractionRatePct": 22.5,
       "pkExtractionRatePct": 4.58,
       "matureHectaresK": 206,
-      "notes": "FY22: Rp21.72T revenue (+4% YoY). Indonesia export ban + DMO levy compressed margins despite high CPO. Net income Rp1.54T"
+      "notes": "FY22: Rp21.72T revenue (+4% YoY). Indonesia export ban + DMO levy compressed margins despite high CPO. Net income Rp1.54T",
+      "capexMM": 1180000,
+      "daMM": 990000,
+      "cfoMM": 2360000
     },
     {
       "endDate": "2023-03-31",
@@ -1101,7 +1140,10 @@
       "cpoExtractionRatePct": 22.3,
       "pkExtractionRatePct": 4.55,
       "matureHectaresK": 206,
-      "notes": "FY23: Rp20.64T revenue (-5% YoY), net income Rp730B (-53% YoY) on CPO price normalization + cost inflation"
+      "notes": "FY23: Rp20.64T revenue (-5% YoY), net income Rp730B (-53% YoY) on CPO price normalization + cost inflation",
+      "capexMM": 1240000,
+      "daMM": 1010000,
+      "cfoMM": 1370000
     },
     {
       "endDate": "2024-03-31",
@@ -1219,7 +1261,10 @@
       "cpoExtractionRatePct": 22.4,
       "pkExtractionRatePct": 4.56,
       "matureHectaresK": 206,
-      "notes": "FY24: Rp21.82T revenue (+6% YoY), net income Rp1.37T (+88%). Net cash positive (Rp46B net cash). CPO price recovery from late 2023"
+      "notes": "FY24: Rp21.82T revenue (+6% YoY), net income Rp1.37T (+88%). Net cash positive (Rp46B net cash). CPO price recovery from late 2023",
+      "capexMM": 1290000,
+      "daMM": 1050000,
+      "cfoMM": 2280000
     }
   ]
 }

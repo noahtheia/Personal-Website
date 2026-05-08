@@ -20,8 +20,11 @@
       "cashMM": 700,
       "sharesOutMM": 39.05,
       "bookValuePerShare": 90.5,
-      "dividendPerShare": 9.50,
-      "notes": "FY20: revenue R14.8B. Op profit R590M. Net cash R650M (no debt). COVID disruptions to QSR / hospitality demand."
+      "dividendPerShare": 9.5,
+      "notes": "FY20: revenue R14.8B. Op profit R590M. Net cash R650M (no debt). COVID disruptions to QSR / hospitality demand.",
+      "capexMM": 580,
+      "daMM": 380,
+      "cfoMM": 1200
     },
     {
       "endDate": "2021-09-30",
@@ -39,8 +42,11 @@
       "cashMM": 850,
       "sharesOutMM": 39.05,
       "bookValuePerShare": 95.0,
-      "dividendPerShare": 11.50,
-      "notes": "FY21: revenue R16.4B (+11%). HEPS 1,463 cents. Op profit ~R740M. Cash position strong, no debt."
+      "dividendPerShare": 11.5,
+      "notes": "FY21: revenue R16.4B (+11%). HEPS 1,463 cents. Op profit ~R740M. Cash position strong, no debt.",
+      "capexMM": 640,
+      "daMM": 400,
+      "cfoMM": 1500
     },
     {
       "endDate": "2022-09-30",
@@ -58,8 +64,11 @@
       "cashMM": 410,
       "sharesOutMM": 39.05,
       "bookValuePerShare": 98.0,
-      "dividendPerShare": 14.00,
-      "notes": "FY22: revenue R18.6B. Load-shedding intensifies. Diesel costs R741M (vs R8M FY21). Op profit R860M. Cash drawn down for working-capital."
+      "dividendPerShare": 14.0,
+      "notes": "FY22: revenue R18.6B. Load-shedding intensifies. Diesel costs R741M (vs R8M FY21). Op profit R860M. Cash drawn down for working-capital.",
+      "capexMM": 750,
+      "daMM": 420,
+      "cfoMM": 1100
     },
     {
       "endDate": "2023-09-30",
@@ -78,7 +87,10 @@
       "sharesOutMM": 39.05,
       "bookValuePerShare": 75.0,
       "dividendPerShare": 0,
-      "notes": "FY23: ANNUS HORRIBILIS. Revenue R19.7B but op LOSS R(977M). HPAI culls (2M breeder hens) + record load-shedding + feed-cost squeeze. Net debt swung to R380M. Dividend suspended. Worst year on record."
+      "notes": "FY23: ANNUS HORRIBILIS. Revenue R19.7B but op LOSS R(977M). HPAI culls (2M breeder hens) + record load-shedding + feed-cost squeeze. Net debt swung to R380M. Dividend suspended. Worst year on record.",
+      "capexMM": 820,
+      "daMM": 440,
+      "cfoMM": 850
     },
     {
       "endDate": "2024-09-30",
@@ -97,7 +109,10 @@
       "sharesOutMM": 39.05,
       "bookValuePerShare": 92.0,
       "dividendPerShare": 9.75,
-      "notes": "FY24: powerful recovery. Revenue R22.5B (+14%). Op profit R972M (vs R-977M loss FY23). HEPS ~2,250 cents. Load-shedding eased; AI flock rebuilt; feed-grain costs lower. Net cash position restored. Dividend reinstated 975 cents."
+      "notes": "FY24: powerful recovery. Revenue R22.5B (+14%). Op profit R972M (vs R-977M loss FY23). HEPS ~2,250 cents. Load-shedding eased; AI flock rebuilt; feed-grain costs lower. Net cash position restored. Dividend reinstated 975 cents.",
+      "capexMM": 700,
+      "daMM": 460,
+      "cfoMM": 1450
     }
   ]
 }

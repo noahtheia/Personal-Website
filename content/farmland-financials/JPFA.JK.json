@@ -30,7 +30,10 @@
       "sharesOutMM": 11727,
       "bookValuePerShare": 980,
       "dividendPerShare": 50,
-      "notes": "FY19: Rp36.7T revenue, Rp1.72T net profit. Strong DOC pricing year."
+      "notes": "FY19: Rp36.7T revenue, Rp1.72T net profit. Strong DOC pricing year.",
+      "capexMM": 1900000,
+      "daMM": 920000,
+      "cfoMM": 3100000
     },
     {
       "endDate": "2020-12-31",
@@ -58,7 +61,10 @@
       "sharesOutMM": 11727,
       "bookValuePerShare": 1031,
       "dividendPerShare": 35,
-      "notes": "FY20: COVID hit HRC + processed food channels. Net income Rp1.22T."
+      "notes": "FY20: COVID hit HRC + processed food channels. Net income Rp1.22T.",
+      "capexMM": 1600000,
+      "daMM": 980000,
+      "cfoMM": 3500000
     },
     {
       "endDate": "2021-12-31",
@@ -86,7 +92,10 @@
       "sharesOutMM": 11727,
       "bookValuePerShare": 1141,
       "dividendPerShare": 65,
-      "notes": "FY21: Rp41.2T revenue (+11% YoY), strong commercial price recovery. Net income Rp2.13T."
+      "notes": "FY21: Rp41.2T revenue (+11% YoY), strong commercial price recovery. Net income Rp2.13T.",
+      "capexMM": 2100000,
+      "daMM": 1050000,
+      "cfoMM": 3300000
     },
     {
       "endDate": "2022-12-31",
@@ -114,7 +123,10 @@
       "sharesOutMM": 11727,
       "bookValuePerShare": 1202,
       "dividendPerShare": 35,
-      "notes": "FY22: Rp49.4T (+20% YoY) on cost pass-through. Margin squeezed by feed-input spike. Net income Rp1.38T."
+      "notes": "FY22: Rp49.4T (+20% YoY) on cost pass-through. Margin squeezed by feed-input spike. Net income Rp1.38T.",
+      "capexMM": 2700000,
+      "daMM": 1120000,
+      "cfoMM": 2400000
     },
     {
       "endDate": "2023-12-31",
@@ -142,7 +154,10 @@
       "sharesOutMM": 11727,
       "bookValuePerShare": 1245,
       "dividendPerShare": 25,
-      "notes": "FY23: shrimp-feed weakness + DOC trough compressed margin. Net income Rp921B (-33% YoY)."
+      "notes": "FY23: shrimp-feed weakness + DOC trough compressed margin. Net income Rp921B (-33% YoY).",
+      "capexMM": 2400000,
+      "daMM": 1180000,
+      "cfoMM": 1800000
     },
     {
       "endDate": "2024-12-31",
@@ -171,7 +186,10 @@
       "bookValuePerShare": 1303,
       "navPerShare": 1190,
       "dividendPerShare": 75,
-      "notes": "FY24: Rp54.6T revenue, Rp1.95T net profit (+112% YoY). DOC pricing recovery + shrimp-feed margin reset. Net debt down to ~Rp7.1T."
+      "notes": "FY24: Rp54.6T revenue, Rp1.95T net profit (+112% YoY). DOC pricing recovery + shrimp-feed margin reset. Net debt down to ~Rp7.1T.",
+      "capexMM": 2500000,
+      "daMM": 1240000,
+      "cfoMM": 3300000
     }
   ]
 }

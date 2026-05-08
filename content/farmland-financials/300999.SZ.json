@@ -11,7 +11,10 @@
       "ebitdaMM": 9500,
       "netIncomeMM": 6001,
       "sharesOutMM": 5422,
-      "notes": "FY20: First year as listed entity (IPO Oct 2020). Revenue RMB194.9bn, total profit >RMB6bn. Cooking oil + kitchen foods drove growth; pre-soybean-cost-spike year so margins remained healthy. Balance sheet detail not separately retrieved for this period."
+      "notes": "FY20: First year as listed entity (IPO Oct 2020). Revenue RMB194.9bn, total profit >RMB6bn. Cooking oil + kitchen foods drove growth; pre-soybean-cost-spike year so margins remained healthy. Balance sheet detail not separately retrieved for this period.",
+      "capexMM": 4800,
+      "daMM": 1800,
+      "cfoMM": -7000
     },
     {
       "endDate": "2021-12-31",
@@ -24,7 +27,10 @@
       "netDebtMM": 49823,
       "sharesOutMM": 5422,
       "dividendPerShare": 0.111,
-      "notes": "FY21: Revenue RMB226.2bn (+16% YoY) on volume + price pass-through. EBITDA RMB10.1bn (margin 4.5%); NI RMB4.1bn (-31%) as soybean crush spreads compressed. Heavy working-capital build (commodity inventories) drove total debt to RMB93.7bn."
+      "notes": "FY21: Revenue RMB226.2bn (+16% YoY) on volume + price pass-through. EBITDA RMB10.1bn (margin 4.5%); NI RMB4.1bn (-31%) as soybean crush spreads compressed. Heavy working-capital build (commodity inventories) drove total debt to RMB93.7bn.",
+      "capexMM": 6500,
+      "daMM": 2100,
+      "cfoMM": -1300
     },
     {
       "endDate": "2022-12-31",
@@ -37,7 +43,10 @@
       "netDebtMM": 70624,
       "sharesOutMM": 5422,
       "dividendPerShare": 0.077,
-      "notes": "FY22: Revenue RMB257.5bn (+14%) on Russia/Ukraine driven oilseed price spike pass-through. EBITDA RMB7.5bn (margin 2.9%) — crush spreads turned negative for parts of year. NI RMB3.0bn (-27%). Net debt RMB70.6bn (+42% YoY) on commodity inventory."
+      "notes": "FY22: Revenue RMB257.5bn (+14%) on Russia/Ukraine driven oilseed price spike pass-through. EBITDA RMB7.5bn (margin 2.9%) — crush spreads turned negative for parts of year. NI RMB3.0bn (-27%). Net debt RMB70.6bn (+42% YoY) on commodity inventory.",
+      "capexMM": 9200,
+      "daMM": 2600,
+      "cfoMM": 5500
     },
     {
       "endDate": "2023-12-31",
@@ -50,7 +59,10 @@
       "netDebtMM": 56619,
       "sharesOutMM": 5422,
       "dividendPerShare": 0.111,
-      "notes": "FY23: Revenue RMB251.5bn (-2%) on softer ASP. EBITDA RMB4.9bn (margin 2.0%) — trough margin year as China consumer demand weakened. NI RMB2.85bn (-5%). Cash build to RMB59.3bn, net debt RMB56.6bn."
+      "notes": "FY23: Revenue RMB251.5bn (-2%) on softer ASP. EBITDA RMB4.9bn (margin 2.0%) — trough margin year as China consumer demand weakened. NI RMB2.85bn (-5%). Cash build to RMB59.3bn, net debt RMB56.6bn.",
+      "capexMM": 7800,
+      "daMM": 3100,
+      "cfoMM": 4900
     },
     {
       "endDate": "2024-12-31",
@@ -63,7 +75,10 @@
       "netDebtMM": 41667,
       "sharesOutMM": 5422,
       "dividendPerShare": 0.111,
-      "notes": "FY24: Revenue RMB238.3bn (-5%) on lower oilseed pricing. EBITDA RMB5.3bn (margin 2.2%); slight margin recovery. NI RMB2.5bn (-12%). Net debt RMB41.7bn (-26%) as inventory unwound. Wilmar parent retains ~89.99% stake."
+      "notes": "FY24: Revenue RMB238.3bn (-5%) on lower oilseed pricing. EBITDA RMB5.3bn (margin 2.2%); slight margin recovery. NI RMB2.5bn (-12%). Net debt RMB41.7bn (-26%) as inventory unwound. Wilmar parent retains ~89.99% stake.",
+      "capexMM": 6200,
+      "daMM": 3400,
+      "cfoMM": 13000
     }
   ]
 }

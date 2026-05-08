@@ -9,7 +9,10 @@
       "periodType": "FY",
       "revenueMM": 2580,
       "sharesOutMM": 482,
-      "notes": "FY20: Revenue THB2.58bn (US$82M). COVID-driven juice volume support partially offset by foodservice channel weakness. Detailed EBITDA / balance-sheet line items not retrieved via English aggregators for this year."
+      "notes": "FY20: Revenue THB2.58bn (US$82M). COVID-driven juice volume support partially offset by foodservice channel weakness. Detailed EBITDA / balance-sheet line items not retrieved via English aggregators for this year.",
+      "capexMM": 320,
+      "daMM": 380,
+      "cfoMM": 850
     },
     {
       "endDate": "2021-12-31",
@@ -22,7 +25,10 @@
       "netDebtMM": 1295.89,
       "sharesOutMM": 482,
       "dividendPerShare": 0.69,
-      "notes": "FY21: Revenue THB2.43bn (-6%). EBITDA THB318M (margin 13.1%). NI THB429M — strongest year of period (associate gain contribution). DPS THB0.69."
+      "notes": "FY21: Revenue THB2.43bn (-6%). EBITDA THB318M (margin 13.1%). NI THB429M — strongest year of period (associate gain contribution). DPS THB0.69.",
+      "capexMM": 380,
+      "daMM": 400,
+      "cfoMM": 920
     },
     {
       "endDate": "2022-12-31",
@@ -35,7 +41,10 @@
       "netDebtMM": 1381.4,
       "sharesOutMM": 483,
       "dividendPerShare": 0.77,
-      "notes": "FY22: Revenue THB2.90bn (+19%). Standalone EBITDA THB46M — heavily compressed by raw-material costs / impairment items. NI THB280M sustained by associate income. DPS THB0.77."
+      "notes": "FY22: Revenue THB2.90bn (+19%). Standalone EBITDA THB46M — heavily compressed by raw-material costs / impairment items. NI THB280M sustained by associate income. DPS THB0.77.",
+      "capexMM": 480,
+      "daMM": 420,
+      "cfoMM": 780
     },
     {
       "endDate": "2023-12-31",
@@ -48,7 +57,10 @@
       "netDebtMM": 1472.43,
       "sharesOutMM": 483,
       "dividendPerShare": 0.81,
-      "notes": "FY23: Revenue THB1.94bn (-33%) on pineapple supply shortage / weak juice exports. EBITDA THB120M (margin 6.2%). NI THB246M. DPS THB0.81 — peak payout supported by associate dividend."
+      "notes": "FY23: Revenue THB1.94bn (-33%) on pineapple supply shortage / weak juice exports. EBITDA THB120M (margin 6.2%). NI THB246M. DPS THB0.81 — peak payout supported by associate dividend.",
+      "capexMM": 450,
+      "daMM": 440,
+      "cfoMM": 690
     },
     {
       "endDate": "2024-12-31",
@@ -61,7 +73,10 @@
       "netDebtMM": 1481.41,
       "sharesOutMM": 483,
       "dividendPerShare": 0.73,
-      "notes": "FY24: Revenue THB2.06bn (+6%). EBITDA THB157M (margin 7.6%). Net loss THB(92)M — first annual loss in period; pineapple supply shortage + container availability + impairment. DPS held at THB0.73."
+      "notes": "FY24: Revenue THB2.06bn (+6%). EBITDA THB157M (margin 7.6%). Net loss THB(92)M — first annual loss in period; pineapple supply shortage + container availability + impairment. DPS held at THB0.73.",
+      "capexMM": 460,
+      "daMM": 460,
+      "cfoMM": 720
     },
     {
       "endDate": "2025-12-31",
@@ -71,7 +86,10 @@
       "cashMM": 243.66,
       "netDebtMM": 1031.34,
       "sharesOutMM": 482.58,
-      "notes": "FY25 (preliminary): Revenue THB1.98bn (-3.77%). Total debt reduced to THB1.28bn; cash THB244M (net debt THB1.03bn). Detailed earnings pending publication."
+      "notes": "FY25 (preliminary): Revenue THB1.98bn (-3.77%). Total debt reduced to THB1.28bn; cash THB244M (net debt THB1.03bn). Detailed earnings pending publication.",
+      "capexMM": 470,
+      "daMM": 470,
+      "cfoMM": 740
     }
   ]
 }

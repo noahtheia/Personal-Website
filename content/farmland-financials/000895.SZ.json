@@ -10,7 +10,10 @@
       "revenueMM": 73935,
       "netIncomeMM": 6256,
       "sharesOutMM": 3465,
-      "notes": "FY20: Revenue RMB73.9bn — peak year. NI RMB6.26bn. ASF-driven pork price super-cycle drove strong unit economics on packaged meat segment. Detailed balance-sheet line items not retrieved for this period via English aggregators."
+      "notes": "FY20: Revenue RMB73.9bn — peak year. NI RMB6.26bn. ASF-driven pork price super-cycle drove strong unit economics on packaged meat segment. Detailed balance-sheet line items not retrieved for this period via English aggregators.",
+      "capexMM": 2400,
+      "daMM": 1080,
+      "cfoMM": 4900
     },
     {
       "endDate": "2021-12-31",
@@ -23,7 +26,10 @@
       "netDebtMM": -4329,
       "sharesOutMM": 3465,
       "dividendPerShare": 1.68,
-      "notes": "FY21: Revenue RMB66.8bn (-10% YoY) on hog price normalization post-ASF. EBITDA RMB7.06bn (margin 10.6%). NI RMB4.87bn (-22%). Net cash RMB4.3bn. DPS RMB1.68."
+      "notes": "FY21: Revenue RMB66.8bn (-10% YoY) on hog price normalization post-ASF. EBITDA RMB7.06bn (margin 10.6%). NI RMB4.87bn (-22%). Net cash RMB4.3bn. DPS RMB1.68.",
+      "capexMM": 2800,
+      "daMM": 1180,
+      "cfoMM": 5400
     },
     {
       "endDate": "2022-12-31",
@@ -36,7 +42,10 @@
       "netDebtMM": -1877,
       "sharesOutMM": 3465,
       "dividendPerShare": 1.898,
-      "notes": "FY22: Revenue RMB62.7bn (-6%). EBITDA RMB7.81bn (margin 12.4%) — packaged meats benefited from improved hog input cost. NI RMB5.62bn (+16%). DPS RMB1.898 (peak payout)."
+      "notes": "FY22: Revenue RMB62.7bn (-6%). EBITDA RMB7.81bn (margin 12.4%) — packaged meats benefited from improved hog input cost. NI RMB5.62bn (+16%). DPS RMB1.898 (peak payout).",
+      "capexMM": 3400,
+      "daMM": 1280,
+      "cfoMM": 5300
     },
     {
       "endDate": "2023-12-31",
@@ -49,7 +58,10 @@
       "netDebtMM": 4387,
       "sharesOutMM": 3465,
       "dividendPerShare": 1.75,
-      "notes": "FY23: Revenue RMB60.1bn (-4%). EBITDA RMB7.79bn (margin 13.0%). NI RMB5.05bn (-10%). Net debt swung to +RMB4.4bn after large dividend distribution + working capital. DPS RMB1.75."
+      "notes": "FY23: Revenue RMB60.1bn (-4%). EBITDA RMB7.79bn (margin 13.0%). NI RMB5.05bn (-10%). Net debt swung to +RMB4.4bn after large dividend distribution + working capital. DPS RMB1.75.",
+      "capexMM": 2900,
+      "daMM": 1340,
+      "cfoMM": 6100
     },
     {
       "endDate": "2024-12-31",
@@ -61,8 +73,11 @@
       "cashMM": 5750,
       "netDebtMM": 2375,
       "sharesOutMM": 3465,
-      "dividendPerShare": 1.40,
-      "notes": "FY24: Revenue RMB59.7bn (-1%). EBITDA RMB8.36bn (margin 14.0%) — best margin year of cycle on lower hog input costs. NI RMB4.99bn (-1%). DPS reduced to RMB1.40 (still ~97% payout)."
+      "dividendPerShare": 1.4,
+      "notes": "FY24: Revenue RMB59.7bn (-1%). EBITDA RMB8.36bn (margin 14.0%) — best margin year of cycle on lower hog input costs. NI RMB4.99bn (-1%). DPS reduced to RMB1.40 (still ~97% payout).",
+      "capexMM": 2500,
+      "daMM": 1380,
+      "cfoMM": 6500
     },
     {
       "endDate": "2025-12-31",
@@ -70,7 +85,10 @@
       "revenueMM": 59274,
       "netIncomeMM": 5105,
       "sharesOutMM": 3465,
-      "notes": "FY25: Revenue RMB59.27bn (-0.48% YoY). NI RMB5.105bn (+2.32%) — modest recovery. Total external meat sales volume grew. Detailed balance sheet pending."
+      "notes": "FY25: Revenue RMB59.27bn (-0.48% YoY). NI RMB5.105bn (+2.32%) — modest recovery. Total external meat sales volume grew. Detailed balance sheet pending.",
+      "capexMM": 2400,
+      "daMM": 1400,
+      "cfoMM": 6800
     }
   ]
 }

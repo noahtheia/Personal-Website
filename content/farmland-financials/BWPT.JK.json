@@ -197,7 +197,10 @@
       "sharesOutMM": 31600,
       "totalAcresK": 250,
       "notes": "FY14: Rajawali Group reverse merger with Green Eagle Holdings. Asset base expanded ~3x. Shares outstanding rose to 31.6B (pre-merger 3B). Net income compressed by integration costs",
-      "bookValuePerShare": 204.11
+      "bookValuePerShare": 204.11,
+      "capexMM": 1900000,
+      "daMM": 320000,
+      "cfoMM": 760000
     },
     {
       "endDate": "2015-12-31",
@@ -225,7 +228,10 @@
       "sharesOutMM": 31600,
       "totalAcresK": 270,
       "notes": "FY15: rebranded Eagle High Plantations Tbk. CPO ASP trough → first full-year net loss Rp240B. Net debt Rp5.08T",
-      "bookValuePerShare": 193.04
+      "bookValuePerShare": 193.04,
+      "capexMM": 1100000,
+      "daMM": 380000,
+      "cfoMM": 280000
     },
     {
       "endDate": "2016-12-31",
@@ -253,7 +259,10 @@
       "sharesOutMM": 31600,
       "totalAcresK": 287,
       "notes": "FY16: CPO recovery, return to small profit Rp65B. Planted area near peak ~116k ha",
-      "bookValuePerShare": 194.94
+      "bookValuePerShare": 194.94,
+      "capexMM": 850000,
+      "daMM": 400000,
+      "cfoMM": 240000
     },
     {
       "endDate": "2017-12-31",
@@ -281,7 +290,10 @@
       "sharesOutMM": 31600,
       "totalAcresK": 287,
       "notes": "FY17: revenue Rp2.75T (+38%) on volume + ASP. Small net loss as USD-debt FX hit",
-      "bookValuePerShare": 189.87
+      "bookValuePerShare": 189.87,
+      "capexMM": 700000,
+      "daMM": 410000,
+      "cfoMM": 380000
     },
     {
       "endDate": "2018-12-31",
@@ -309,7 +321,10 @@
       "sharesOutMM": 31600,
       "totalAcresK": 287,
       "notes": "FY18: heavy net loss Rp575B on CPO ASP collapse + USD-debt FX losses. Debt restructuring negotiations begin",
-      "bookValuePerShare": 170.89
+      "bookValuePerShare": 170.89,
+      "capexMM": 480000,
+      "daMM": 420000,
+      "cfoMM": 290000
     },
     {
       "endDate": "2019-12-31",
@@ -337,7 +352,10 @@
       "sharesOutMM": 31600,
       "totalAcresK": 287,
       "notes": "FY19: USD bond restructuring completed; revenue weakness continued. Equity dropped to Rp3.28T after impairments",
-      "bookValuePerShare": 103.8
+      "bookValuePerShare": 103.8,
+      "capexMM": 350000,
+      "daMM": 440000,
+      "cfoMM": 230000
     },
     {
       "endDate": "2020-03-31",
@@ -452,7 +470,10 @@
       "pkExtractionRatePct": 4.0,
       "matureHectaresK": 96,
       "notes": "FY20: Rp3.20T revenue, EBITDA Rp855B, net loss Rp160B. Heavy debt burden (Rp5.65T)",
-      "bookValuePerShare": 98.73
+      "bookValuePerShare": 98.73,
+      "capexMM": 290000,
+      "daMM": 460000,
+      "cfoMM": 540000
     },
     {
       "endDate": "2021-03-31",
@@ -567,7 +588,10 @@
       "pkExtractionRatePct": 4.05,
       "matureHectaresK": 96,
       "notes": "FY21: Rp4.30T revenue (+34%), first profitable year in years on CPO price boom",
-      "bookValuePerShare": 105.7
+      "bookValuePerShare": 105.7,
+      "capexMM": 380000,
+      "daMM": 480000,
+      "cfoMM": 880000
     },
     {
       "endDate": "2022-03-31",
@@ -683,7 +707,10 @@
       "pkExtractionRatePct": 4.1,
       "matureHectaresK": 96,
       "notes": "FY22: Rp4.60T revenue. CPO price compression from export ban + levy",
-      "bookValuePerShare": 112.03
+      "bookValuePerShare": 112.03,
+      "capexMM": 460000,
+      "daMM": 500000,
+      "cfoMM": 720000
     },
     {
       "endDate": "2023-03-31",
@@ -798,7 +825,10 @@
       "pkExtractionRatePct": 4.15,
       "matureHectaresK": 96,
       "notes": "FY23: Rp4.22T revenue (-8%), barely profitable on CPO weakness",
-      "bookValuePerShare": 112.34
+      "bookValuePerShare": 112.34,
+      "capexMM": 440000,
+      "daMM": 510000,
+      "cfoMM": 510000
     },
     {
       "endDate": "2024-03-31",
@@ -915,7 +945,10 @@
       "cpoExtractionRatePct": 21.7,
       "pkExtractionRatePct": 4.18,
       "matureHectaresK": 96,
-      "notes": "FY24: Rp4.30T revenue, net income Rp60B. Leverage 4.1x EBITDA. Equity Rp3.59T"
+      "notes": "FY24: Rp4.30T revenue, net income Rp60B. Leverage 4.1x EBITDA. Equity Rp3.59T",
+      "capexMM": 470000,
+      "daMM": 520000,
+      "cfoMM": 580000
     }
   ]
 }

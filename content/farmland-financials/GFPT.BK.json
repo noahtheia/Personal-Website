@@ -15,7 +15,10 @@
       "netDebtMM": 4650,
       "sharesOutMM": 1254,
       "dividendPerShare": 0.4,
-      "notes": "FY20: Revenue ฿14.9B (-13% YoY) on COVID export disruption; net profit ฿1.1B. Domestic broiler oversupply pressured prices."
+      "notes": "FY20: Revenue ฿14.9B (-13% YoY) on COVID export disruption; net profit ฿1.1B. Domestic broiler oversupply pressured prices.",
+      "capexMM": 580,
+      "daMM": 720,
+      "cfoMM": 1500
     },
     {
       "endDate": "2021-12-31",
@@ -28,7 +31,10 @@
       "netDebtMM": 5300,
       "sharesOutMM": 1254,
       "dividendPerShare": 0.3,
-      "notes": "FY21: Revenue ฿16.2B (+9%); net profit ฿685M (-38%) — corn/soy feed cost inflation squeezed margins."
+      "notes": "FY21: Revenue ฿16.2B (+9%); net profit ฿685M (-38%) — corn/soy feed cost inflation squeezed margins.",
+      "capexMM": 720,
+      "daMM": 760,
+      "cfoMM": 1300
     },
     {
       "endDate": "2022-12-31",
@@ -41,7 +47,10 @@
       "netDebtMM": 5250,
       "sharesOutMM": 1254,
       "dividendPerShare": 0.5,
-      "notes": "FY22: Revenue ฿18.6B (+15%); net profit ฿1.37B (+100%) on chicken price recovery + Saudi/EU export reopening."
+      "notes": "FY22: Revenue ฿18.6B (+15%); net profit ฿1.37B (+100%) on chicken price recovery + Saudi/EU export reopening.",
+      "capexMM": 880,
+      "daMM": 800,
+      "cfoMM": 1550
     },
     {
       "endDate": "2023-12-31",
@@ -54,7 +63,10 @@
       "netDebtMM": 5000,
       "sharesOutMM": 1254,
       "dividendPerShare": 0.4,
-      "notes": "FY23: Revenue ฿18.7B flat; net profit ฿950M (-31%). Chicken oversupply + sluggish Japanese demand."
+      "notes": "FY23: Revenue ฿18.7B flat; net profit ฿950M (-31%). Chicken oversupply + sluggish Japanese demand.",
+      "capexMM": 850,
+      "daMM": 830,
+      "cfoMM": 1450
     },
     {
       "endDate": "2024-12-31",
@@ -67,7 +79,10 @@
       "netDebtMM": 4500,
       "sharesOutMM": 1254,
       "dividendPerShare": 0.45,
-      "notes": "FY24: Revenue ฿19.85B (+6%); net profit ฿1.59B (+68%) — best year since 2017. Lower feed costs (corn/soy) + strong Japan/EU cooked chicken export."
+      "notes": "FY24: Revenue ฿19.85B (+6%); net profit ฿1.59B (+68%) — best year since 2017. Lower feed costs (corn/soy) + strong Japan/EU cooked chicken export.",
+      "capexMM": 900,
+      "daMM": 860,
+      "cfoMM": 1700
     }
   ]
 }

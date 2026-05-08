@@ -15,7 +15,10 @@
       "netDebtMM": 330000,
       "sharesOutMM": 8611,
       "dividendPerShare": 0.85,
-      "notes": "FY20: Revenue ฿589.7B (+8.4% YoY), net profit ฿26.02B record. COVID-driven retail food demand + favorable swine prices in Vietnam/Cambodia."
+      "notes": "FY20: Revenue ฿589.7B (+8.4% YoY), net profit ฿26.02B record. COVID-driven retail food demand + favorable swine prices in Vietnam/Cambodia.",
+      "capexMM": 22000,
+      "daMM": 18500,
+      "cfoMM": 32000
     },
     {
       "endDate": "2021-12-31",
@@ -28,7 +31,10 @@
       "netDebtMM": 365000,
       "sharesOutMM": 8611,
       "dividendPerShare": 0.75,
-      "notes": "FY21: Revenue ฿512.7B (-13% YoY restated post Tesco-Lotus deconsol). Net profit ฿13B (-50%) — Vietnam pork prices crashed (ASF normalization)."
+      "notes": "FY21: Revenue ฿512.7B (-13% YoY restated post Tesco-Lotus deconsol). Net profit ฿13B (-50%) — Vietnam pork prices crashed (ASF normalization).",
+      "capexMM": 26000,
+      "daMM": 20500,
+      "cfoMM": 21000
     },
     {
       "endDate": "2022-12-31",
@@ -41,7 +47,10 @@
       "netDebtMM": 398000,
       "sharesOutMM": 8611,
       "dividendPerShare": 0.75,
-      "notes": "FY22: Revenue ฿614.4B (+20%) on price increases + volume recovery; net profit ฿13.97B. Feed cost inflation pressured margins."
+      "notes": "FY22: Revenue ฿614.4B (+20%) on price increases + volume recovery; net profit ฿13.97B. Feed cost inflation pressured margins.",
+      "capexMM": 31000,
+      "daMM": 23000,
+      "cfoMM": 18000
     },
     {
       "endDate": "2023-12-31",
@@ -54,7 +63,10 @@
       "netDebtMM": 414000,
       "sharesOutMM": 8611,
       "dividendPerShare": 0.4,
-      "notes": "FY23: Revenue ฿587.6B (-4%); net loss ฿5.2B — first annual loss in over a decade. Vietnam pork ASF outbreaks + China hog price collapse. Dividend slashed."
+      "notes": "FY23: Revenue ฿587.6B (-4%); net loss ฿5.2B — first annual loss in over a decade. Vietnam pork ASF outbreaks + China hog price collapse. Dividend slashed.",
+      "capexMM": 28000,
+      "daMM": 24500,
+      "cfoMM": 28000
     },
     {
       "endDate": "2024-12-31",
@@ -67,7 +79,10 @@
       "netDebtMM": 387000,
       "sharesOutMM": 8611,
       "dividendPerShare": 0.6,
-      "notes": "FY24: Revenue ฿588.2B flat; net profit ฿19.0B recovery on pork price normalization + chicken export to Japan/EU. CFO turnaround."
+      "notes": "FY24: Revenue ฿588.2B flat; net profit ฿19.0B recovery on pork price normalization + chicken export to Japan/EU. CFO turnaround.",
+      "capexMM": 26000,
+      "daMM": 25500,
+      "cfoMM": 45000
     }
   ]
 }

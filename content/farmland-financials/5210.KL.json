@@ -25,7 +25,10 @@
         "D&A": 50,
         "Other": 14
       },
-      "notes": "FY20 (Apr-end): revenue RM360M; net loss RM32M on CPO weakness + Indonesian estates ramping"
+      "notes": "FY20 (Apr-end): revenue RM360M; net loss RM32M on CPO weakness + Indonesian estates ramping",
+      "capexMM": 65,
+      "daMM": 50,
+      "cfoMM": 75
     },
     {
       "endDate": "2021-04-30",
@@ -55,7 +58,10 @@
         "D&A": 53,
         "Other": 12
       },
-      "notes": "FY21 (Apr-end): revenue RM420M (+17% YoY) on CPO recovery; net profit RM18M reverses prior loss"
+      "notes": "FY21 (Apr-end): revenue RM420M (+17% YoY) on CPO recovery; net profit RM18M reverses prior loss",
+      "capexMM": 55,
+      "daMM": 52,
+      "cfoMM": 95
     },
     {
       "endDate": "2022-04-30",
@@ -85,7 +91,10 @@
         "D&A": 55,
         "Other": 13
       },
-      "notes": "FY22 (Apr-end): revenue RM575M (+37% YoY); CPO super-cycle peak through Apr-2022; net profit RM100M"
+      "notes": "FY22 (Apr-end): revenue RM575M (+37% YoY); CPO super-cycle peak through Apr-2022; net profit RM100M",
+      "capexMM": 70,
+      "daMM": 55,
+      "cfoMM": 130
     },
     {
       "endDate": "2023-04-30",
@@ -115,7 +124,10 @@
         "D&A": 56,
         "Other": 12
       },
-      "notes": "FY23 (Apr-end): revenue RM595M; net profit RM92M as CPO ASP held above RM4,000/MT"
+      "notes": "FY23 (Apr-end): revenue RM595M; net profit RM92M as CPO ASP held above RM4,000/MT",
+      "capexMM": 75,
+      "daMM": 58,
+      "cfoMM": 160
     },
     {
       "endDate": "2024-04-30",
@@ -145,7 +157,10 @@
         "D&A": 57,
         "Other": 13
       },
-      "notes": "FY24 (Apr-end): revenue RM580M; net profit RM60M as CPO normalized + cost inflation"
+      "notes": "FY24 (Apr-end): revenue RM580M; net profit RM60M as CPO normalized + cost inflation",
+      "capexMM": 70,
+      "daMM": 60,
+      "cfoMM": 110
     },
     {
       "endDate": "2025-04-30",
@@ -178,7 +193,10 @@
         "D&A": 58,
         "Other": 13
       },
-      "notes": "FY25 (Apr-end): revenue RM660M (+14% YoY); net profit RM115M on CPO ASP recovery to RM4,300+/MT"
+      "notes": "FY25 (Apr-end): revenue RM660M (+14% YoY); net profit RM115M on CPO ASP recovery to RM4,300+/MT",
+      "capexMM": 70,
+      "daMM": 62,
+      "cfoMM": 120
     }
   ]
 }

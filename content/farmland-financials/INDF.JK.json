@@ -30,7 +30,10 @@
       "sharesOutMM": 8780,
       "bookValuePerShare": 6173,
       "dividendPerShare": 171,
-      "notes": "FY19: Rp76.6T revenue, Rp4.91T net profit attributable. CBP flat-ish, palm oil weak."
+      "notes": "FY19: Rp76.6T revenue, Rp4.91T net profit attributable. CBP flat-ish, palm oil weak.",
+      "capexMM": 6500000,
+      "daMM": 3800000,
+      "cfoMM": 13350000
     },
     {
       "endDate": "2020-12-31",
@@ -58,7 +61,10 @@
       "sharesOutMM": 8780,
       "bookValuePerShare": 9013,
       "dividendPerShare": 278,
-      "notes": "FY20: ICBP completed Pinehill (Africa/MENA noodles) acquisition for US$2.05B — debt jumped to Rp53.85T. Net income Rp6.45T."
+      "notes": "FY20: ICBP completed Pinehill (Africa/MENA noodles) acquisition for US$2.05B — debt jumped to Rp53.85T. Net income Rp6.45T.",
+      "capexMM": 6800000,
+      "daMM": 4100000,
+      "cfoMM": 13860000
     },
     {
       "endDate": "2021-12-31",
@@ -86,7 +92,10 @@
       "sharesOutMM": 8780,
       "bookValuePerShare": 10128,
       "dividendPerShare": 326,
-      "notes": "FY21: Rp99.3T (+22% YoY) — first full-year Pinehill consolidation + CPO boom for SIMP. Net income Rp7.66T."
+      "notes": "FY21: Rp99.3T (+22% YoY) — first full-year Pinehill consolidation + CPO boom for SIMP. Net income Rp7.66T.",
+      "capexMM": 8500000,
+      "daMM": 4500000,
+      "cfoMM": 12700000
     },
     {
       "endDate": "2022-12-31",
@@ -114,7 +123,10 @@
       "sharesOutMM": 8780,
       "bookValuePerShare": 10872,
       "dividendPerShare": 386,
-      "notes": "FY22: Rp110.8T (+12% YoY). Strong noodle pricing + CBP margin recovery. Net income Rp9.19T."
+      "notes": "FY22: Rp110.8T (+12% YoY). Strong noodle pricing + CBP margin recovery. Net income Rp9.19T.",
+      "capexMM": 11200000,
+      "daMM": 5100000,
+      "cfoMM": 13800000
     },
     {
       "endDate": "2023-12-31",
@@ -142,7 +154,10 @@
       "sharesOutMM": 8780,
       "bookValuePerShare": 11707,
       "dividendPerShare": 386,
-      "notes": "FY23: Rp111.7T flat-ish; SIMP CPO weakness offset by stronger CBP. Net income Rp8.99T."
+      "notes": "FY23: Rp111.7T flat-ish; SIMP CPO weakness offset by stronger CBP. Net income Rp8.99T.",
+      "capexMM": 9400000,
+      "daMM": 5400000,
+      "cfoMM": 16100000
     },
     {
       "endDate": "2024-12-31",
@@ -171,7 +186,10 @@
       "bookValuePerShare": 12586,
       "navPerShare": 8500,
       "dividendPerShare": 411,
-      "notes": "FY24: Rp116.5T revenue (+4% YoY), Rp10.5T net profit attributable (+17% YoY). Cash buildup post-FY21 IDR depreciation; net debt down to ~Rp15.8T (lowest since pre-Pinehill)."
+      "notes": "FY24: Rp116.5T revenue (+4% YoY), Rp10.5T net profit attributable (+17% YoY). Cash buildup post-FY21 IDR depreciation; net debt down to ~Rp15.8T (lowest since pre-Pinehill).",
+      "capexMM": 9800000,
+      "daMM": 5700000,
+      "cfoMM": 17500000
     }
   ]
 }

@@ -26,7 +26,10 @@
       "sharesOutMM": 953.91,
       "bookValuePerShare": 36.8,
       "dividendPerShare": 7.0,
-      "notes": "FY20: COVID; rubber subdued, palm-oil firm"
+      "notes": "FY20: COVID; rubber subdued, palm-oil firm",
+      "capexMM": 4800,
+      "daMM": 1900,
+      "cfoMM": 9500
     },
     {
       "endDate": "2021-12-31",
@@ -50,7 +53,10 @@
       "sharesOutMM": 953.91,
       "bookValuePerShare": 50.1,
       "dividendPerShare": 10.0,
-      "notes": "FY21: CPO rally, record dividend, +50% revenue YoY"
+      "notes": "FY21: CPO rally, record dividend, +50% revenue YoY",
+      "capexMM": 6200,
+      "daMM": 2100,
+      "cfoMM": 14500
     },
     {
       "endDate": "2022-12-31",
@@ -74,7 +80,10 @@
       "sharesOutMM": 953.91,
       "bookValuePerShare": 68.4,
       "dividendPerShare": 13.5,
-      "notes": "FY22: peak CPO prices, very strong cash generation"
+      "notes": "FY22: peak CPO prices, very strong cash generation",
+      "capexMM": 7800,
+      "daMM": 2300,
+      "cfoMM": 18000
     },
     {
       "endDate": "2023-12-31",
@@ -98,7 +107,10 @@
       "sharesOutMM": 953.91,
       "bookValuePerShare": 88.6,
       "dividendPerShare": 22.0,
-      "notes": "FY23: Naira devaluation tailwind H2; revenue +49% YoY"
+      "notes": "FY23: Naira devaluation tailwind H2; revenue +49% YoY",
+      "capexMM": 9500,
+      "daMM": 2600,
+      "cfoMM": 28000
     },
     {
       "endDate": "2024-12-31",
@@ -122,7 +134,10 @@
       "sharesOutMM": 953.91,
       "bookValuePerShare": 105.0,
       "dividendPerShare": 35.0,
-      "notes": "FY24: full-year FX boost; rubber recovery; net cash position"
+      "notes": "FY24: full-year FX boost; rubber recovery; net cash position",
+      "capexMM": 11500,
+      "daMM": 3000,
+      "cfoMM": 50000
     }
   ]
 }

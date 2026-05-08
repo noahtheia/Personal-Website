@@ -14,7 +14,10 @@
       "cashMM": 1830,
       "netDebtMM": 1750,
       "sharesOutMM": 14687,
-      "notes": "FY20: Pandemic surge in US retail meat demand offset by HRC weakness. Revenue $25.6bn, EBITDA $2.83bn (margin 11.0%). Strong China hog cycle still elevated."
+      "notes": "FY20: Pandemic surge in US retail meat demand offset by HRC weakness. Revenue $25.6bn, EBITDA $2.83bn (margin 11.0%). Strong China hog cycle still elevated.",
+      "capexMM": 870,
+      "daMM": 800,
+      "cfoMM": 2100
     },
     {
       "endDate": "2021-12-31",
@@ -26,7 +29,10 @@
       "cashMM": 1850,
       "netDebtMM": 2110,
       "sharesOutMM": 14687,
-      "notes": "FY21: Revenue $27.3bn (+7%) on US foodservice recovery; EBITDA $2.57bn — China pork prices collapsed (post-ASF herd rebuild) compressed Shuanghui margins."
+      "notes": "FY21: Revenue $27.3bn (+7%) on US foodservice recovery; EBITDA $2.57bn — China pork prices collapsed (post-ASF herd rebuild) compressed Shuanghui margins.",
+      "capexMM": 950,
+      "daMM": 850,
+      "cfoMM": 1850
     },
     {
       "endDate": "2022-12-31",
@@ -38,7 +44,10 @@
       "cashMM": 1740,
       "netDebtMM": 1940,
       "sharesOutMM": 14687,
-      "notes": "FY22: Revenue $28.1bn (+3%), EBITDA $2.85bn (margin 10.1%). US Smithfield benefitted from elevated hog prices; China business stable."
+      "notes": "FY22: Revenue $28.1bn (+3%), EBITDA $2.85bn (margin 10.1%). US Smithfield benefitted from elevated hog prices; China business stable.",
+      "capexMM": 1080,
+      "daMM": 900,
+      "cfoMM": 1700
     },
     {
       "endDate": "2023-12-31",
@@ -50,7 +59,10 @@
       "cashMM": 1965,
       "netDebtMM": 1905,
       "sharesOutMM": 13380,
-      "notes": "FY23: Trough year — US fresh pork posted operating loss on excess hog supply + processor oversupply; revenue $26.2bn (-7%), EBITDA $2.27bn (margin 8.6%), NI $626M. Buyback retired ~9% of shares."
+      "notes": "FY23: Trough year — US fresh pork posted operating loss on excess hog supply + processor oversupply; revenue $26.2bn (-7%), EBITDA $2.27bn (margin 8.6%), NI $626M. Buyback retired ~9% of shares.",
+      "capexMM": 950,
+      "daMM": 920,
+      "cfoMM": 2300
     },
     {
       "endDate": "2024-12-31",
@@ -62,7 +74,10 @@
       "cashMM": 2050,
       "netDebtMM": 1800,
       "sharesOutMM": 12910,
-      "notes": "FY24: Strong recovery in US fresh pork (margins normalized), record packaged meats profit. Revenue $26.2bn (flat), EBITDA $3.20bn (margin 12.2%), NI $1.48bn (+136% YoY). Leverage <0.6x. Smithfield IPO completed Jan 2025."
+      "notes": "FY24: Strong recovery in US fresh pork (margins normalized), record packaged meats profit. Revenue $26.2bn (flat), EBITDA $3.20bn (margin 12.2%), NI $1.48bn (+136% YoY). Leverage <0.6x. Smithfield IPO completed Jan 2025.",
+      "capexMM": 850,
+      "daMM": 940,
+      "cfoMM": 2500
     }
   ]
 }
