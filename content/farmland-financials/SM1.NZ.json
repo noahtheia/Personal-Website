@@ -70,7 +70,26 @@
       "capexMM": 50,
       "daMM": 70,
       "cfoMM": -45,
+      "revenueBySegmentMM": {
+        "Advanced nutrition": 850,
+        "Foodservice": 280,
+        "Ingredients": 453
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1380,
+        "SG&A": 100,
+        "D&A": 70,
+        "Other opex": -2
+      },
       "notes": "FY23 (ended Jul 31 2023): revenue NZD 1.58B (-5%). EBITDA NZD 35M. Net loss NZD 4M. China infant formula demand weak. Leverage spiked."
+    },
+    {
+      "endDate": "2024-01-31",
+      "periodType": "H",
+      "revenueMM": 826,
+      "ebitdaMM": -45,
+      "netIncomeMM": -97,
+      "notes": "H1 FY24 (6 months to Jan-24)."
     },
     {
       "endDate": "2024-07-31",

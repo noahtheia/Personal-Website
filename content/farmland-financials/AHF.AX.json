@@ -8,6 +8,12 @@
       "endDate": "2020-06-30",
       "periodType": "FY",
       "revenueMM": 25.0,
+      "expensesBySegmentMM": {
+        "COGS": 19.5,
+        "SG&A": 5.0,
+        "D&A": 1.7,
+        "Other": 0.3
+      },
       "ebitdaMM": -1.5,
       "netIncomeMM": -4.2,
       "totalDebtMM": 9.0,
@@ -22,6 +28,12 @@
       "endDate": "2021-06-30",
       "periodType": "FY",
       "revenueMM": 26.4,
+      "expensesBySegmentMM": {
+        "COGS": 20.5,
+        "SG&A": 5.0,
+        "D&A": 1.6,
+        "Other": 0.0
+      },
       "ebitdaMM": -0.7,
       "netIncomeMM": -3.6,
       "totalDebtMM": 8.5,
@@ -36,6 +48,12 @@
       "endDate": "2022-06-30",
       "periodType": "FY",
       "revenueMM": 28.2,
+      "expensesBySegmentMM": {
+        "COGS": 22.5,
+        "SG&A": 5.5,
+        "D&A": 1.8,
+        "Other": 0.2
+      },
       "ebitdaMM": -1.8,
       "netIncomeMM": -4.5,
       "totalDebtMM": 9.5,

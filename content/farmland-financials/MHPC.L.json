@@ -138,6 +138,86 @@
       "capexMM": 130,
       "daMM": 200,
       "cfoMM": 420
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "H",
+      "revenueMM": 1135,
+      "ebitdaMM": 195,
+      "netIncomeMM": 30,
+      "sharesOutMM": 108.36,
+      "netDebtMM": 1190,
+      "notes": "H1 2021: revenue $1.14B, EBITDA $195M."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "H",
+      "revenueMM": 1236,
+      "ebitdaMM": 264,
+      "netIncomeMM": 61,
+      "sharesOutMM": 108.36,
+      "netDebtMM": 1260,
+      "notes": "H2 2021: revenue $1.24B, EBITDA $264M."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "H",
+      "revenueMM": 1320,
+      "ebitdaMM": 215,
+      "netIncomeMM": -185,
+      "sharesOutMM": 108.36,
+      "netDebtMM": 1300,
+      "notes": "H1 2022: war disruption, revenue $1.32B, EBITDA $215M, large impairment-driven loss."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "H",
+      "revenueMM": 1327,
+      "ebitdaMM": 139,
+      "netIncomeMM": -41,
+      "sharesOutMM": 108.36,
+      "netDebtMM": 1347,
+      "notes": "H2 2022: revenue $1.33B, EBITDA $139M."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 1340,
+      "ebitdaMM": 230,
+      "netIncomeMM": 32,
+      "sharesOutMM": 108.36,
+      "netDebtMM": 1290,
+      "notes": "H1 2023: revenue $1.34B, EBITDA $230M."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "H",
+      "revenueMM": 1509,
+      "ebitdaMM": 276,
+      "netIncomeMM": 59,
+      "sharesOutMM": 108.36,
+      "netDebtMM": 1230,
+      "notes": "H2 2023: revenue $1.51B, EBITDA $276M."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 1487,
+      "ebitdaMM": 226,
+      "netIncomeMM": 78,
+      "sharesOutMM": 108.36,
+      "netDebtMM": 1190,
+      "notes": "H1 2024: revenue $1.49B, EBITDA $226M."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "H",
+      "revenueMM": 1675,
+      "ebitdaMM": 258,
+      "netIncomeMM": 90,
+      "sharesOutMM": 108.36,
+      "netDebtMM": 1164,
+      "notes": "H2 2024: revenue $1.68B, EBITDA $258M."
     }
   ]
 }

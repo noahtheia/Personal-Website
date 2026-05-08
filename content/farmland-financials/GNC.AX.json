@@ -121,7 +121,21 @@
       "capexMM": 140,
       "daMM": 135,
       "cfoMM": 230,
+      "expensesBySegmentMM": {
+        "COGS": 6280,
+        "SG&A": 265,
+        "D&A": 135,
+        "Other opex": 0
+      },
       "notes": "FY24 revenue $6.81B (-17%) on smaller east-coast crop and lower margins. EBITDA $268M."
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "H",
+      "revenueMM": 3300,
+      "ebitdaMM": 130,
+      "netIncomeMM": 30,
+      "notes": "H1 FY24 (6 months to Mar-24)."
     }
   ]
 }

@@ -90,7 +90,21 @@
       "capexMM": 30,
       "daMM": 45,
       "cfoMM": 175,
+      "expensesBySegmentMM": {
+        "COGS": 2750,
+        "SG&A": 197,
+        "D&A": 45,
+        "Other opex": -45
+      },
       "notes": "FY23 down cycle — weak livestock prices, El Niño dry conditions."
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "H",
+      "revenueMM": 1550,
+      "ebitdaMM": 75,
+      "netIncomeMM": 40,
+      "notes": "H1 FY23 (6 months to Mar-23)."
     },
     {
       "endDate": "2024-09-30",
@@ -112,7 +126,21 @@
       "capexMM": 32,
       "daMM": 50,
       "cfoMM": 100,
+      "expensesBySegmentMM": {
+        "COGS": 2920,
+        "SG&A": 200,
+        "D&A": 50,
+        "Other opex": -50
+      },
       "notes": "FY24 revenue $3.26B; Delta Agribusiness acquisition lifted leverage. EBITDA $138M."
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "H",
+      "revenueMM": 1620,
+      "ebitdaMM": 80,
+      "netIncomeMM": 35,
+      "notes": "H1 FY24 (6 months to Mar-24)."
     }
   ]
 }
