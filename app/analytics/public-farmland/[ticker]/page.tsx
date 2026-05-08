@@ -319,6 +319,31 @@ function SectorKpiBlock({
       items.push({ label: "Utilization", value: `${p.capacityUtilizationPct.toFixed(0)}%` });
     if (p.plantClosuresLtm != null)
       items.push({ label: "Plant closures LTM", value: fmtInt(p.plantClosuresLtm) });
+    if (p.brandedCpg) {
+      const b = p.brandedCpg;
+      if (b.brandedRevenuePct != null)
+        items.push({ label: "Branded revenue", value: `${b.brandedRevenuePct.toFixed(0)}%` });
+      if (b.acvDistributionPct != null)
+        items.push({ label: "ACV distribution", value: `${b.acvDistributionPct.toFixed(0)}%` });
+      if (b.foodserviceMixPct != null)
+        items.push({ label: "Foodservice mix", value: `${b.foodserviceMixPct.toFixed(0)}%` });
+    }
+    if (p.pig) {
+      const pg = p.pig;
+      if (pg.breedingSows != null)
+        items.push({ label: "Breeding sows", value: fmtInt(pg.breedingSows) });
+      if (pg.pigletsPerSowPerYear != null)
+        items.push({ label: "Piglets / sow", value: pg.pigletsPerSowPerYear.toFixed(1) });
+      if (pg.feedConversionRatio != null)
+        items.push({ label: "FCR", value: pg.feedConversionRatio.toFixed(2) });
+      if (pg.slaughterWeightKg != null)
+        items.push({ label: "Slaughter wt", value: `${pg.slaughterWeightKg.toFixed(0)} kg` });
+      if (pg.costPerKgLive != null)
+        items.push({
+          label: "Cost / kg live",
+          value: `${filing.currency} ${pg.costPerKgLive.toFixed(2)}`,
+        });
+    }
   }
   if (filing.trader) {
     const t = filing.trader;
@@ -330,6 +355,35 @@ function SectorKpiBlock({
       items.push({ label: "Ethanol", value: `${fmtInt(t.ethanolGalsMM)}M gal` });
     if (t.boardCrushCapturePct != null)
       items.push({ label: "Crush capture", value: `${t.boardCrushCapturePct.toFixed(0)}%` });
+    if (t.ingredients) {
+      const ing = t.ingredients;
+      if (ing.specialtyRevenuePct != null)
+        items.push({ label: "Specialty rev", value: `${ing.specialtyRevenuePct.toFixed(0)}%` });
+      if (ing.rdIntensityPct != null)
+        items.push({ label: "R&D / sales", value: `${ing.rdIntensityPct.toFixed(1)}%` });
+    }
+    if (t.ethanol) {
+      const e = t.ethanol;
+      if (e.ebitdaPerGal != null)
+        items.push({ label: "EBITDA / gal", value: `$${e.ebitdaPerGal.toFixed(2)}` });
+      if (e.cornCrushSpreadUSDPerBu != null)
+        items.push({
+          label: "Corn crush spread",
+          value: `$${e.cornCrushSpreadUSDPerBu.toFixed(2)}/bu`,
+        });
+      if (e.d6RinValueAvg != null)
+        items.push({ label: "D6 RIN", value: `$${e.d6RinValueAvg.toFixed(2)}` });
+    }
+    if (t.retailDistribution) {
+      const r = t.retailDistribution;
+      if (r.retailLocationsCount != null)
+        items.push({ label: "Retail locations", value: fmtInt(r.retailLocationsCount) });
+      if (r.barterReceivablesMM != null)
+        items.push({
+          label: "Barter A/R",
+          value: `${filing.currency} ${fmtInt(r.barterReceivablesMM)}M`,
+        });
+    }
   }
   if (filing.aquaculture) {
     const a = filing.aquaculture;
@@ -437,6 +491,48 @@ function SectorKpiBlock({
     items.push({
       label: "Equity-method inv.",
       value: `${filing.currency} ${fmtInt(filing.equityMethodInvestmentsMM)}M`,
+    });
+  if (filing.biologicalAssetsFairValueMM != null)
+    items.push({
+      label: "Bio assets (IAS 41)",
+      value: `${filing.currency} ${fmtInt(filing.biologicalAssetsFairValueMM)}M`,
+    });
+  if (filing.nonAgricultureRevenuePct != null)
+    items.push({
+      label: "Non-ag revenue",
+      value: `${filing.nonAgricultureRevenuePct.toFixed(0)}%`,
+    });
+  if (filing.minorityInterestMM != null)
+    items.push({
+      label: "Minority interest",
+      value: `${filing.currency} ${fmtInt(filing.minorityInterestMM)}M`,
+    });
+  if (filing.regulatedRevenueMM != null)
+    items.push({
+      label: "Regulated rev",
+      value: `${filing.currency} ${fmtInt(filing.regulatedRevenueMM)}M`,
+    });
+  if (filing.commodityHedgeNotionalMM != null)
+    items.push({
+      label: "Hedge notional",
+      value: `${filing.currency} ${fmtInt(filing.commodityHedgeNotionalMM)}M`,
+    });
+  if (filing.forwardSalesCoveragePct != null)
+    items.push({
+      label: "Fwd-sales coverage",
+      value: `${filing.forwardSalesCoveragePct.toFixed(0)}%`,
+    });
+  if (filing.aroMM != null)
+    items.push({ label: "ARO", value: `${filing.currency} ${fmtInt(filing.aroMM)}M` });
+  if (filing.weatherImpairmentMM != null)
+    items.push({
+      label: "Weather impairment",
+      value: `${filing.currency} ${fmtInt(filing.weatherImpairmentMM)}M`,
+    });
+  if (filing.diseaseLossProvisionMM != null)
+    items.push({
+      label: "Disease loss",
+      value: `${filing.currency} ${fmtInt(filing.diseaseLossProvisionMM)}M`,
     });
 
   if (items.length === 0) return null;

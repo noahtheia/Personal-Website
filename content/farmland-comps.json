@@ -1504,7 +1504,11 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 816,
     "annualFcfMM": -879,
-    "annualEquityMM": 17368.5
+    "annualEquityMM": 17368.5,
+    "trader": {
+      "throughputMtMM": 73,
+      "rmiMM": 8500
+    }
   },
   {
     "ticker": "NTR",
@@ -1698,7 +1702,13 @@
     "operatingCountry": "UK",
     "annualNetIncomeMM": 134,
     "annualFcfMM": 103,
-    "annualEquityMM": 1340.0
+    "annualEquityMM": 1340.0,
+    "trader": {
+      "ingredients": {
+        "specialtyRevenuePct": 75,
+        "rdIntensityPct": 1.5
+      }
+    }
   },
   {
     "ticker": "ABF.L",
@@ -2188,7 +2198,13 @@
     "operatingCountry": "China",
     "annualNetIncomeMM": 17810,
     "annualFcfMM": 21500,
-    "annualEquityMM": 105000.0
+    "annualEquityMM": 105000.0,
+    "protein": {
+      "pig": {
+        "costPerKgLive": 13.5,
+        "feedConversionRatio": 2.75
+      }
+    }
   },
   {
     "ticker": "000876.SZ",
@@ -2462,7 +2478,13 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 729,
     "annualFcfMM": 511,
-    "annualEquityMM": 2746.8
+    "annualEquityMM": 2746.8,
+    "trader": {
+      "ingredients": {
+        "specialtyRevenuePct": 35,
+        "rdIntensityPct": 0.7
+      }
+    }
   },
   {
     "ticker": "FRPT",
@@ -2484,7 +2506,13 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 139.14,
     "annualFcfMM": 12.38,
-    "annualEquityMM": 699.8
+    "annualEquityMM": 699.8,
+    "protein": {
+      "plants": 3,
+      "brandedCpg": {
+        "acvDistributionPct": 75
+      }
+    }
   },
   {
     "ticker": "LSIP.JK",
@@ -3212,7 +3240,13 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": -123,
     "annualFcfMM": 73.67,
-    "annualEquityMM": 504
+    "annualEquityMM": 504,
+    "trader": {
+      "ethanolGalsMM": 850,
+      "ethanol": {
+        "ebitdaPerGal": 0.10
+      }
+    }
   },
   {
     "ticker": "ALTO",

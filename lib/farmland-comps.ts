@@ -156,6 +156,49 @@ const FilingSchema = z.object({
   // for FX-translated leverage analysis on multi-currency operators.
   debtByCurrencyMM: z.record(z.string(), z.number().nonnegative()).optional(),
 
+  // Recurring cross-universe fields surfaced by 4+ sector audits. All
+  // optional; filing-currency-denominated unless noted.
+  // IFRS / IAS 41 fair-value of biological assets (livestock, standing
+  // crops, growing cane, biological forests).
+  biologicalAssetsFairValueMM: z.number().optional(),
+  // Non-ag share of consolidated revenue (Primark for ABF; Rumo+Moove
+  // for CSAN; chloro-vinyls for DCM; Vector for RCL).
+  nonAgricultureRevenuePct: z.number().min(0).max(100).optional(),
+  // Net income / equity attributable to minority interest. Material
+  // for INDF→ICBP, CRESY→IRSA, CSAN→Raizen-Rumo, 2050→Almarai.
+  minorityInterestMM: z.number().optional(),
+  // "Mark-to-market timing" — commodity-derivative MTM swing the
+  // issuer flags as a non-recurring adjustment in Adjusted EBITDA.
+  mtmTimingMM: z.number().optional(),
+  // Per-MD&A FX translation impact on YoY revenue growth.
+  fxTranslationImpactPct: z.number().optional(),
+  // Subsidy / mandate revenue (RenovaBio, ethanol blending mandates,
+  // EU CAP, Indian FRP, Chinese state grain procurement).
+  regulatedRevenueMM: z.number().nonnegative().optional(),
+  // Weather-driven impairment (frost, drought, hurricane, bushfire).
+  weatherImpairmentMM: z.number().nonnegative().optional(),
+  // Asset retirement obligation (phosphogypsum stacks, mine tailings,
+  // plantation reclamation).
+  aroMM: z.number().nonnegative().optional(),
+  // Disease-related write-downs (HPAI/ASF/ISA depopulation losses).
+  diseaseLossProvisionMM: z.number().nonnegative().optional(),
+  // Notional value of commodity hedges outstanding (CME corn/soy,
+  // ICE sugar, NASDAQ Salmon Index, etc.).
+  commodityHedgeNotionalMM: z.number().nonnegative().optional(),
+  // % of next-12-month volume sold on fixed-price forward contracts.
+  forwardSalesCoveragePct: z.number().min(0).max(100).optional(),
+  // Segment EBITDA disclosure — array of (segment, revenue, EBITDA)
+  // tuples for SOTP / segment-EBIT-to-capital analysis.
+  segmentEbitdaMM: z
+    .array(
+      z.object({
+        segment: z.string(),
+        revenueMM: z.number().optional(),
+        ebitdaMM: z.number().optional(),
+      }),
+    )
+    .optional(),
+
   // Sector-template KPI blocks. Each is optional and only populated for
   // issuers in the matching sector (or a closely-related one). Exposed
   // on the detail page as a sector-specific KPI card.
@@ -274,6 +317,24 @@ const FilingSchema = z.object({
       weeklyLbsCapacityMM: z.number().nonnegative().optional(),
       capacityUtilizationPct: z.number().min(0).max(100).optional(),
       plantClosuresLtm: z.number().nonnegative().optional(),
+      // Branded / CPG sub-block (Hormel, Post, Freshpet, Hilton).
+      brandedCpg: z
+        .object({
+          brandedRevenuePct: z.number().min(0).max(100).optional(),
+          acvDistributionPct: z.number().min(0).max(100).optional(),
+          foodserviceMixPct: z.number().min(0).max(100).optional(),
+        })
+        .optional(),
+      // Pig-only sub-block (Muyuan, Shuanghui, New Hope, Cranswick).
+      pig: z
+        .object({
+          breedingSows: z.number().nonnegative().optional(),
+          pigletsPerSowPerYear: z.number().nonnegative().optional(),
+          feedConversionRatio: z.number().nonnegative().optional(),
+          slaughterWeightKg: z.number().nonnegative().optional(),
+          costPerKgLive: z.number().nonnegative().optional(),
+        })
+        .optional(),
     })
     .optional(),
   trader: z
@@ -285,6 +346,31 @@ const FilingSchema = z.object({
       throughputMtMM: z.number().nonnegative().optional(),
       ethanolGalsMM: z.number().nonnegative().optional(),
       boardCrushCapturePct: z.number().min(0).max(200).optional(),
+      // Ingredient producers (Tate, Ingredion, Südzucker, Yihai Kerry,
+      // Ebro, KRBL) — specialty mix and R&D intensity separate them
+      // from pure commodity traders.
+      ingredients: z
+        .object({
+          specialtyRevenuePct: z.number().min(0).max(100).optional(),
+          rdIntensityPct: z.number().min(0).max(50).optional(),
+        })
+        .optional(),
+      // Ethanol producers (Green Plains, Alto, Andersons Renewables).
+      ethanol: z
+        .object({
+          ebitdaPerGal: z.number().optional(),
+          cornCrushSpreadUSDPerBu: z.number().optional(),
+          d6RinValueAvg: z.number().optional(),
+        })
+        .optional(),
+      // Inputs / retail distribution (AgroGalaxy, Andersons Plant
+      // Nutrient). Brazilian agri retailers carry large barter A/R.
+      retailDistribution: z
+        .object({
+          retailLocationsCount: z.number().nonnegative().optional(),
+          barterReceivablesMM: z.number().nonnegative().optional(),
+        })
+        .optional(),
     })
     .optional(),
   // Aquaculture / salmon farmers — Norwegian + Faroese cohort. MAB
