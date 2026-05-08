@@ -25,6 +25,8 @@
     "annualFcfMM": -0.17,
     "annualEquityMM": 760,
     "reit": {
+      "waterRightsValueMM": 220,
+      "rentIndexationType": "participation",
       "walt": 4.7,
       "occupancyPct": 95.0,
       "affoPerShare": 0.47
@@ -56,6 +58,8 @@
     "annualFcfMM": 10.12,
     "annualEquityMM": 437,
     "reit": {
+      "waterRightsValueMM": 15,
+      "top10TenantPctOfRent": 30,
       "affoPerShare": 0.39,
       "rentIndexationType": "mixed"
     }
@@ -84,7 +88,8 @@
     "operatingCountry": "Argentina",
     "annualNetIncomeMM": 62.5,
     "annualFcfMM": 91.38,
-    "annualEquityMM": 1320
+    "annualEquityMM": 1320,
+    "nonAgricultureRevenuePct": 5
   },
   {
     "ticker": "SLCE3.SA",
@@ -114,7 +119,12 @@
     "integratedFarm": {
       "plantedAreaHa": 730000,
       "ownedAreaHa": 270000,
-      "leasedAreaHa": 460000
+      "leasedAreaHa": 460000,
+      "productionVolumeMT": 2400000,
+      "productionUnit": "MT_grain",
+      "yieldPerHa": 3.3,
+      "realizedPricePerUnit": 1450,
+      "biologicalAssetsMM": 1850
     }
   },
   {
@@ -143,7 +153,14 @@
     "annualFcfMM": 130,
     "annualEquityMM": 1750,
     "integratedFarm": {
-      "plantedAreaHa": 270000
+      "plantedAreaHa": 270000,
+      "ownedAreaHa": 220000,
+      "leasedAreaHa": 50000,
+      "productionVolumeMT": 850000,
+      "productionUnit": "MT_grain",
+      "yieldPerHa": 3.1,
+      "realizedPricePerUnit": 1380,
+      "biologicalAssetsMM": 620
     }
   },
   {
@@ -172,6 +189,7 @@
     "annualFcfMM": 47,
     "annualEquityMM": 1198,
     "reit": {
+      "waterRightsValueMM": 80,
       "walt": 13.5,
       "top10TenantPctOfRent": 84,
       "affoPerShare": 0.115,
@@ -236,9 +254,18 @@
     "annualFcfMM": 14.62,
     "annualEquityMM": 178,
     "integratedFarm": {
+      "plantedAreaHa": 20000,
       "ownedAreaHa": 20030,
+      "productionVolumeMT": 4500000,
+      "productionUnit": "boxes_citrus",
+      "yieldPerHa": 225,
+      "realizedPricePerUnit": 12.5,
+      "waterRightsVolumeML": 95,
+      "biologicalAssetsMM": 45,
       "treeCrop": {
-        "bearingHa": 0
+        "bearingHa": 0,
+        "nonBearingHa": 2000,
+        "avgTreeAgeYears": 18
       }
     }
   },
@@ -267,9 +294,20 @@
     "annualFcfMM": -19.14,
     "annualEquityMM": 218,
     "integratedFarm": {
+      "plantedAreaHa": 4250,
       "ownedAreaHa": 4250,
+      "leasedAreaHa": 1150,
+      "productionVolumeMT": 95000,
+      "productionUnit": "MT_lemon",
+      "yieldPerHa": 22.4,
+      "realizedPricePerUnit": 1850,
+      "waterRightsVolumeML": 38,
+      "biologicalAssetsMM": 175,
       "treeCrop": {
-        "bearingHa": 4250
+        "bearingHa": 4250,
+        "nonBearingHa": 600,
+        "avgTreeAgeYears": 14,
+        "replantingHaYTD": 120
       }
     }
   },
@@ -299,9 +337,18 @@
     "annualFcfMM": 17,
     "annualEquityMM": 1535,
     "integratedFarm": {
+      "ownedAreaHa": 460000,
       "leasedAreaHa": 6400000,
+      "productionVolumeMT": 95000000,
+      "productionUnit": "kg_LW_beef",
+      "yieldPerHa": 14.8,
+      "realizedPricePerUnit": 3.45,
+      "biologicalAssetsMM": 920,
       "cattle": {
-        "headcountClosing": 340000
+        "headcountClosing": 340000,
+        "avgDailyGainKg": 0.85,
+        "weaningRate": 78,
+        "feedlotCapacity": 50000
       }
     }
   },
@@ -331,7 +378,15 @@
     "annualFcfMM": -7,
     "annualEquityMM": 110,
     "integratedFarm": {
-      "waterRightsVolumeML": 70000
+      "plantedAreaHa": 12500,
+      "ownedAreaHa": 10800,
+      "leasedAreaHa": 1700,
+      "productionVolumeMT": 145000,
+      "productionUnit": "MT_grain",
+      "yieldPerHa": 11.6,
+      "realizedPricePerUnit": 410,
+      "waterRightsVolumeML": 70000,
+      "biologicalAssetsMM": 95
     }
   },
   {
@@ -357,7 +412,17 @@
     "operatingCountry": "Ukraine",
     "annualNetIncomeMM": -1,
     "annualFcfMM": 0,
-    "annualEquityMM": 11.1
+    "annualEquityMM": 11.1,
+    "integratedFarm": {
+      "plantedAreaHa": 50000,
+      "ownedAreaHa": 8000,
+      "leasedAreaHa": 42000,
+      "productionVolumeMT": 230000,
+      "productionUnit": "MT_grain",
+      "yieldPerHa": 4.6,
+      "realizedPricePerUnit": 220,
+      "biologicalAssetsMM": 35
+    }
   },
   {
     "ticker": "SHV.AX",
@@ -384,8 +449,19 @@
     "annualFcfMM": 34,
     "annualEquityMM": 522.7,
     "integratedFarm": {
+      "plantedAreaHa": 9000,
+      "ownedAreaHa": 9000,
+      "productionVolumeMT": 30500,
+      "productionUnit": "MT_kernel",
+      "yieldPerHa": 3.4,
+      "realizedPricePerUnit": 8200,
+      "waterRightsVolumeML": 115000,
+      "biologicalAssetsMM": 410,
       "treeCrop": {
-        "bearingHa": 9000
+        "bearingHa": 9000,
+        "nonBearingHa": 1200,
+        "avgTreeAgeYears": 9,
+        "replantingHaYTD": 80
       }
     }
   },
@@ -412,7 +488,8 @@
     "operatingCountry": "Kenya",
     "annualNetIncomeMM": -3,
     "annualFcfMM": 3,
-    "annualEquityMM": 249.3
+    "annualEquityMM": 249.3,
+    "nonAgricultureRevenuePct": 30
   },
   {
     "ticker": "AST.WA",
@@ -438,7 +515,8 @@
     "operatingCountry": "Ukraine",
     "annualNetIncomeMM": 35,
     "annualFcfMM": 31,
-    "annualEquityMM": 800.2
+    "annualEquityMM": 800.2,
+    "nonAgricultureRevenuePct": 5
   },
   {
     "ticker": "MPE.L",
@@ -469,8 +547,15 @@
     "plantation": {
       "ffbYieldTPerHa": 22,
       "oerPct": 22,
+      "kerPct": 4.8,
       "cpoAspPerMt": 950,
-      "rspoPct": 100
+      "cpoCostPerMt": 700,
+      "maturePlantedHa": 34000,
+      "immaturePlantedHa": 5000,
+      "rspoPct": 100,
+      "methaneCapturePctMills": 50,
+      "replantingHaLtm": 1200,
+      "ndpeCompliancePct": 100
     }
   },
   {
@@ -501,7 +586,16 @@
     "annualEquityMM": 295,
     "plantation": {
       "ffbYieldTPerHa": 18,
-      "oerPct": 22.5
+      "oerPct": 22.5,
+      "kerPct": 4.5,
+      "cpoAspPerMt": 950,
+      "cpoCostPerMt": 650,
+      "maturePlantedHa": 38000,
+      "immaturePlantedHa": 6000,
+      "rspoPct": 80,
+      "methaneCapturePctMills": 40,
+      "replantingHaLtm": 1500,
+      "ndpeCompliancePct": 95
     }
   },
   {
@@ -531,7 +625,16 @@
     "annualEquityMM": 558.6,
     "plantation": {
       "ffbYieldTPerHa": 19,
-      "oerPct": 22
+      "oerPct": 22,
+      "kerPct": 4.7,
+      "cpoAspPerMt": 1000,
+      "cpoCostPerMt": 600,
+      "maturePlantedHa": 18000,
+      "immaturePlantedHa": 3000,
+      "rspoPct": 100,
+      "methaneCapturePctMills": 60,
+      "replantingHaLtm": 800,
+      "ndpeCompliancePct": 100
     }
   },
   {
@@ -561,7 +664,15 @@
     "plantation": {
       "ffbYieldTPerHa": 24,
       "oerPct": 23.5,
-      "rspoPct": 100
+      "kerPct": 4.8,
+      "cpoAspPerMt": 4100,
+      "cpoCostPerMt": 2500,
+      "maturePlantedHa": 14000,
+      "immaturePlantedHa": 2000,
+      "rspoPct": 100,
+      "methaneCapturePctMills": 30,
+      "replantingHaLtm": 600,
+      "ndpeCompliancePct": 90
     }
   },
   {
@@ -590,10 +701,18 @@
     "annualFcfMM": 1180,
     "annualEquityMM": 13260,
     "plantation": {
+      "ffbYieldTPerHa": 20,
+      "oerPct": 21.5,
+      "kerPct": 5.0,
+      "cpoAspPerMt": 4116,
+      "cpoCostPerMt": 2400,
+      "maturePlantedHa": 235000,
+      "immaturePlantedHa": 35000,
       "rspoPct": 83.19,
       "methaneCapturePctMills": 26.5,
-      "cpoAspPerMt": 4116,
-      "rubberRevenueSharePct": 5
+      "replantingHaLtm": 6500,
+      "rubberRevenueSharePct": 5,
+      "ndpeCompliancePct": 95
     }
   },
   {
@@ -619,7 +738,8 @@
     "operatingCountry": "Saudi Arabia",
     "annualNetIncomeMM": 273,
     "annualFcfMM": 230,
-    "annualEquityMM": 4608
+    "annualEquityMM": 4608,
+    "nonAgricultureRevenuePct": 10
   },
   {
     "ticker": "2280.SR",
@@ -644,7 +764,8 @@
     "operatingCountry": "Saudi Arabia",
     "annualNetIncomeMM": 2775,
     "annualFcfMM": 2350,
-    "annualEquityMM": 19020
+    "annualEquityMM": 19020,
+    "nonAgricultureRevenuePct": 5
   },
   {
     "ticker": "WTK.NR",
@@ -671,7 +792,12 @@
     "annualFcfMM": 280,
     "annualEquityMM": 8750,
     "tea": {
-      "madeTeaProducedKgMM": 14
+      "madeTeaProducedKgMM": 14,
+      "greenLeafYieldKgPerHa": 5000,
+      "madeTeaAspPerKg": 320,
+      "auctionVsDirectPct": 70,
+      "boughtLeafSharePct": 35,
+      "teaPlantedHa": 5200
     }
   },
   {
@@ -701,7 +827,17 @@
     "annualEquityMM": 22642000,
     "plantation": {
       "ffbYieldTPerHa": 19,
-      "oerPct": 22
+      "oerPct": 22,
+      "kerPct": 4.8,
+      "cpoAspPerMt": 12500000,
+      "cpoCostPerMt": 6500000,
+      "maturePlantedHa": 250000,
+      "immaturePlantedHa": 35000,
+      "rspoPct": 70,
+      "methaneCapturePctMills": 45,
+      "replantingHaLtm": 7000,
+      "nucleusVsPlasmaPct": 80,
+      "ndpeCompliancePct": 95
     }
   },
   {
@@ -728,7 +864,23 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 540000,
     "annualFcfMM": 1850000,
-    "annualEquityMM": 21300000
+    "annualEquityMM": 21300000,
+    "plantation": {
+      "ffbYieldTPerHa": 18,
+      "oerPct": 22,
+      "kerPct": 4.5,
+      "cpoAspPerMt": 12200000,
+      "cpoCostPerMt": 6800000,
+      "maturePlantedHa": 250000,
+      "immaturePlantedHa": 30000,
+      "rspoPct": 55,
+      "methaneCapturePctMills": 35,
+      "replantingHaLtm": 6000,
+      "nucleusVsPlasmaPct": 75,
+      "rubberRevenueSharePct": 4,
+      "sugarRevenueSharePct": 5,
+      "ndpeCompliancePct": 90
+    }
   },
   {
     "ticker": "SGRO.JK",
@@ -754,7 +906,21 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 350000,
     "annualFcfMM": 540000,
-    "annualEquityMM": 5720000
+    "annualEquityMM": 5720000,
+    "plantation": {
+      "ffbYieldTPerHa": 19,
+      "oerPct": 22.5,
+      "kerPct": 4.8,
+      "cpoAspPerMt": 12400000,
+      "cpoCostPerMt": 6300000,
+      "maturePlantedHa": 100000,
+      "immaturePlantedHa": 15000,
+      "rspoPct": 75,
+      "methaneCapturePctMills": 50,
+      "replantingHaLtm": 3000,
+      "nucleusVsPlasmaPct": 78,
+      "ndpeCompliancePct": 95
+    }
   },
   {
     "ticker": "SSMS.JK",
@@ -782,7 +948,18 @@
     "annualFcfMM": 1180000,
     "annualEquityMM": 4000000,
     "plantation": {
-      "ffbYieldTPerHa": 21
+      "ffbYieldTPerHa": 21,
+      "oerPct": 22.8,
+      "kerPct": 4.9,
+      "cpoAspPerMt": 12600000,
+      "cpoCostPerMt": 6200000,
+      "maturePlantedHa": 75000,
+      "immaturePlantedHa": 10000,
+      "rspoPct": 65,
+      "methaneCapturePctMills": 40,
+      "replantingHaLtm": 2200,
+      "nucleusVsPlasmaPct": 82,
+      "ndpeCompliancePct": 92
     }
   },
   {
@@ -809,7 +986,21 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 60000,
     "annualFcfMM": 320000,
-    "annualEquityMM": 3590000
+    "annualEquityMM": 3590000,
+    "plantation": {
+      "ffbYieldTPerHa": 17,
+      "oerPct": 21.8,
+      "kerPct": 4.4,
+      "cpoAspPerMt": 12000000,
+      "cpoCostPerMt": 7000000,
+      "maturePlantedHa": 130000,
+      "immaturePlantedHa": 15000,
+      "rspoPct": 50,
+      "methaneCapturePctMills": 30,
+      "replantingHaLtm": 3500,
+      "nucleusVsPlasmaPct": 80,
+      "ndpeCompliancePct": 88
+    }
   },
   {
     "ticker": "1961.KL",
@@ -838,7 +1029,17 @@
     "annualEquityMM": 12294,
     "plantation": {
       "ffbYieldTPerHa": 22,
-      "oerPct": 21.8
+      "oerPct": 21.8,
+      "kerPct": 5.1,
+      "cpoAspPerMt": 4250,
+      "cpoCostPerMt": 2350,
+      "maturePlantedHa": 200000,
+      "immaturePlantedHa": 25000,
+      "rspoPct": 80,
+      "methaneCapturePctMills": 60,
+      "replantingHaLtm": 5500,
+      "rubberRevenueSharePct": 3,
+      "ndpeCompliancePct": 98
     }
   },
   {
@@ -869,7 +1070,15 @@
     "plantation": {
       "ffbYieldTPerHa": 19,
       "oerPct": 21.5,
-      "rspoPct": 99
+      "kerPct": 5.0,
+      "cpoAspPerMt": 4300,
+      "cpoCostPerMt": 2200,
+      "maturePlantedHa": 130000,
+      "immaturePlantedHa": 20000,
+      "rspoPct": 99,
+      "methaneCapturePctMills": 75,
+      "replantingHaLtm": 4000,
+      "ndpeCompliancePct": 100
     }
   },
   {
@@ -899,7 +1108,16 @@
     "annualEquityMM": 6390,
     "plantation": {
       "ffbYieldTPerHa": 20,
-      "oerPct": 21
+      "oerPct": 21,
+      "kerPct": 4.8,
+      "cpoAspPerMt": 4150,
+      "cpoCostPerMt": 2450,
+      "maturePlantedHa": 60000,
+      "immaturePlantedHa": 8000,
+      "rspoPct": 70,
+      "methaneCapturePctMills": 50,
+      "replantingHaLtm": 1800,
+      "ndpeCompliancePct": 95
     }
   },
   {
@@ -927,7 +1145,17 @@
     "annualFcfMM": 420,
     "annualEquityMM": 2872.1,
     "plantation": {
-      "ffbYieldTPerHa": 21
+      "ffbYieldTPerHa": 21,
+      "oerPct": 20.8,
+      "kerPct": 4.6,
+      "cpoAspPerMt": 4100,
+      "cpoCostPerMt": 2550,
+      "maturePlantedHa": 14000,
+      "immaturePlantedHa": 2000,
+      "rspoPct": 50,
+      "methaneCapturePctMills": 25,
+      "replantingHaLtm": 500,
+      "ndpeCompliancePct": 85
     }
   },
   {
@@ -956,7 +1184,16 @@
     "annualEquityMM": 1504,
     "plantation": {
       "ffbYieldTPerHa": 21,
-      "oerPct": 22
+      "oerPct": 22,
+      "kerPct": 4.5,
+      "cpoAspPerMt": 4050,
+      "cpoCostPerMt": 2600,
+      "maturePlantedHa": 75000,
+      "immaturePlantedHa": 10000,
+      "rspoPct": 55,
+      "methaneCapturePctMills": 30,
+      "replantingHaLtm": 2200,
+      "ndpeCompliancePct": 88
     }
   },
   {
@@ -987,7 +1224,17 @@
     "annualEquityMM": 1507.4,
     "plantation": {
       "ffbYieldTPerHa": 22,
-      "oerPct": 22.5
+      "oerPct": 22.5,
+      "kerPct": 4.8,
+      "cpoAspPerMt": 950,
+      "cpoCostPerMt": 600,
+      "maturePlantedHa": 240000,
+      "immaturePlantedHa": 30000,
+      "rspoPct": 85,
+      "methaneCapturePctMills": 65,
+      "replantingHaLtm": 7000,
+      "nucleusVsPlasmaPct": 80,
+      "ndpeCompliancePct": 98
     }
   },
   {
@@ -1017,7 +1264,18 @@
     "annualFcfMM": 2400000,
     "annualEquityMM": 15018174,
     "plantation": {
-      "ffbYieldTPerHa": 22
+      "ffbYieldTPerHa": 22,
+      "oerPct": 22,
+      "kerPct": 4.7,
+      "cpoAspPerMt": 950,
+      "cpoCostPerMt": 650,
+      "maturePlantedHa": 85000,
+      "immaturePlantedHa": 12000,
+      "rspoPct": 75,
+      "methaneCapturePctMills": 55,
+      "replantingHaLtm": 2500,
+      "nucleusVsPlasmaPct": 78,
+      "ndpeCompliancePct": 95
     }
   },
   {
@@ -1045,7 +1303,21 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 220,
     "annualFcfMM": 350,
-    "annualEquityMM": 4058.2
+    "annualEquityMM": 4058.2,
+    "plantation": {
+      "ffbYieldTPerHa": 19,
+      "oerPct": 22.2,
+      "kerPct": 4.7,
+      "cpoAspPerMt": 950,
+      "cpoCostPerMt": 620,
+      "maturePlantedHa": 140000,
+      "immaturePlantedHa": 18000,
+      "rspoPct": 80,
+      "methaneCapturePctMills": 60,
+      "replantingHaLtm": 4000,
+      "nucleusVsPlasmaPct": 80,
+      "ndpeCompliancePct": 96
+    }
   },
   {
     "ticker": "JBSS3.SA",
@@ -1069,7 +1341,9 @@
     "annualNetIncomeMM": 6770,
     "annualFcfMM": 17700,
     "protein": {
-      "plants": 250
+      "plants": 250,
+      "weeklyHeadCapacity": 12800000,
+      "capacityUtilizationPct": 78
     }
   },
   {
@@ -1092,7 +1366,13 @@
     "geography": "Brazil",
     "operatingCountry": "Brazil",
     "annualNetIncomeMM": -360,
-    "annualFcfMM": 100
+    "annualFcfMM": 100,
+    "protein": {
+      "plants": 51,
+      "weeklyHeadCapacity": 252000,
+      "capacityUtilizationPct": 76,
+      "plantClosuresLtm": 2
+    }
   },
   {
     "ticker": "MRFG3.SA",
@@ -1116,7 +1396,10 @@
     "annualNetIncomeMM": 720,
     "annualFcfMM": 4100,
     "protein": {
-      "plants": 32
+      "plants": 32,
+      "weeklyHeadCapacity": 224000,
+      "capacityUtilizationPct": 80,
+      "plantClosuresLtm": 1
     }
   },
   {
@@ -1141,7 +1424,9 @@
     "annualNetIncomeMM": 3354,
     "annualFcfMM": 3800,
     "protein": {
-      "plants": 35
+      "plants": 35,
+      "weeklyHeadCapacity": 31000000,
+      "capacityUtilizationPct": 82
     }
   },
   {
@@ -1168,11 +1453,21 @@
     "annualNetIncomeMM": 901,
     "annualFcfMM": 400,
     "integratedFarm": {
+      "plantedAreaHa": 240000,
+      "ownedAreaHa": 60000,
+      "leasedAreaHa": 180000,
+      "productionVolumeMT": 22000000,
+      "productionUnit": "MT_sugar",
+      "yieldPerHa": 92,
+      "realizedPricePerUnit": 2150,
+      "biologicalAssetsMM": 1450,
       "sugarEthanol": {
         "crushedCaneMT": 22000000,
         "atrKgPerMT": 135,
         "sugarMixPct": 50,
-        "ethanolMixPct": 50
+        "ethanolMixPct": 50,
+        "ethanolVolumeM3": 980000,
+        "cogenerationMWh": 1350000
       }
     }
   },
@@ -1199,7 +1494,8 @@
     "operatingCountry": "Brazil",
     "annualNetIncomeMM": -4500,
     "annualFcfMM": -1500,
-    "nonAgricultureRevenuePct": 30
+    "nonAgricultureRevenuePct": 30,
+    "equityMethodInvestmentsMM": 6200
   },
   {
     "ticker": "F34.SI",
@@ -1225,7 +1521,8 @@
     "annualEquityMM": 22150.0,
     "trader": {
       "throughputMtMM": 80
-    }
+    },
+    "nonAgricultureRevenuePct": 15
   },
   {
     "ticker": "O32.SI",
@@ -1249,9 +1546,17 @@
     "annualFcfMM": 1100.0,
     "annualEquityMM": 8200.0,
     "trader": {
+      "rmiMM": 6000,
       "throughputMtMM": 45,
-      "rmiMM": 6000
-    }
+      "boardCrushCapturePct": 72,
+      "ingredients": {
+        "specialtyRevenuePct": 15,
+        "rdIntensityPct": 0.4
+      }
+    },
+    "equityMethodInvestmentsMM": 1200,
+    "litigationAccrualMM": 80,
+    "nonAgricultureRevenuePct": 5
   },
   {
     "ticker": "CPF.BK",
@@ -1273,7 +1578,17 @@
     "operatingCountry": "Thailand",
     "annualNetIncomeMM": 19030,
     "annualFcfMM": 29500.0,
-    "annualEquityMM": 245000.0
+    "annualEquityMM": 245000.0,
+    "protein": {
+      "plants": 28,
+      "capacityUtilizationPct": 75,
+      "pig": {
+        "breedingSows": 250000,
+        "pigletsPerSowPerYear": 24,
+        "feedConversionRatio": 2.6,
+        "slaughterWeightKg": 105
+      }
+    }
   },
   {
     "ticker": "GFPT.BK",
@@ -1295,7 +1610,12 @@
     "operatingCountry": "Thailand",
     "annualNetIncomeMM": 1592,
     "annualFcfMM": 1700.0,
-    "annualEquityMM": 18200.0
+    "annualEquityMM": 18200.0,
+    "protein": {
+      "plants": 6,
+      "weeklyHeadCapacity": 4600000,
+      "capacityUtilizationPct": 80
+    }
   },
   {
     "ticker": "TUF.BK",
@@ -1319,7 +1639,8 @@
     "annualFcfMM": 9000.0,
     "annualEquityMM": 63500.0,
     "protein": {
-      "plants": 14
+      "plants": 14,
+      "capacityUtilizationPct": 72
     }
   },
   {
@@ -1346,6 +1667,11 @@
     "annualFcfMM": 390.0,
     "annualEquityMM": 5800.0,
     "tea": {
+      "madeTeaProducedKgMM": 45,
+      "greenLeafYieldKgPerHa": 5500,
+      "madeTeaAspPerKg": 310,
+      "auctionVsDirectPct": 75,
+      "boughtLeafSharePct": 30,
       "teaPlantedHa": 4500
     }
   },
@@ -1375,6 +1701,9 @@
     "capexGuidanceHighMM": 1000,
     "protein": {
       "plants": 219,
+      "weeklyHeadCapacity": 47000000,
+      "weeklyLbsCapacityMM": 415,
+      "capacityUtilizationPct": 78,
       "plantClosuresLtm": 3
     }
   },
@@ -1401,10 +1730,17 @@
     "annualEquityMM": 8136.6,
     "protein": {
       "plants": 40,
+      "weeklyHeadCapacity": 215000,
+      "weeklyLbsCapacityMM": 38,
+      "capacityUtilizationPct": 82,
+      "plantClosuresLtm": 1,
       "brandedCpg": {
-        "brandedRevenuePct": 45
+        "brandedRevenuePct": 45,
+        "acvDistributionPct": 95,
+        "foodserviceMixPct": 32
       }
-    }
+    },
+    "litigationAccrualMM": 75
   },
   {
     "ticker": "PPC",
@@ -1428,8 +1764,13 @@
     "annualFcfMM": 653.15,
     "annualEquityMM": 2611.7,
     "protein": {
-      "plants": 36
-    }
+      "plants": 36,
+      "weeklyHeadCapacity": 45000000,
+      "weeklyLbsCapacityMM": 295,
+      "capacityUtilizationPct": 80,
+      "plantClosuresLtm": 2
+    },
+    "litigationAccrualMM": 195
   },
   {
     "ticker": "CALM",
@@ -1453,10 +1794,11 @@
     "annualFcfMM": 1063.48,
     "annualEquityMM": 1464.7,
     "egg": {
+      "feedCostPerDozen": 0.55,
+      "contractedFarmCount": 45,
       "layingHenFlockMM": 50.4,
       "dozensSoldMM": 1278,
       "avgSellingPricePerDozen": 2.74,
-      "feedCostPerDozen": 0.55,
       "specialtyEggMixPct": 30
     }
   },
@@ -1482,11 +1824,12 @@
     "annualFcfMM": -48.23,
     "annualEquityMM": 332.3,
     "egg": {
+      "feedCostPerDozen": 0.85,
+      "contractedFarmCount": 440,
       "layingHenFlockMM": 6,
       "dozensSoldMM": 330,
       "avgSellingPricePerDozen": 5.8,
-      "specialtyEggMixPct": 100,
-      "contractedFarmCount": 440
+      "specialtyEggMixPct": 100
     }
   },
   {
@@ -1511,7 +1854,9 @@
     "annualFcfMM": 679.24,
     "annualEquityMM": 3627.4,
     "protein": {
-      "plants": 260
+      "plants": 260,
+      "capacityUtilizationPct": 78,
+      "plantClosuresLtm": 3
     }
   },
   {
@@ -1536,7 +1881,14 @@
     "annualFcfMM": 488.1,
     "annualEquityMM": 2305.9,
     "protein": {
-      "plants": 50
+      "plants": 50,
+      "weeklyHeadCapacity": 18000000,
+      "capacityUtilizationPct": 80,
+      "brandedCpg": {
+        "brandedRevenuePct": 78,
+        "acvDistributionPct": 92,
+        "foodserviceMixPct": 35
+      }
     }
   },
   {
@@ -1562,7 +1914,14 @@
     "annualFcfMM": 1.71,
     "annualEquityMM": 1473.1,
     "integratedFarm": {
-      "ownedAreaHa": 44000
+      "plantedAreaHa": 44000,
+      "ownedAreaHa": 44000,
+      "leasedAreaHa": 65000,
+      "productionVolumeMT": 195000000,
+      "productionUnit": "boxes_produce",
+      "yieldPerHa": 38,
+      "realizedPricePerUnit": 14.2,
+      "biologicalAssetsMM": 285
     }
   },
   {
@@ -1588,8 +1947,22 @@
     "annualEquityMM": 22739.6,
     "litigationAccrualMM": 40,
     "trader": {
-      "throughputMtMM": 54.8
-    }
+      "rmiMM": 8500,
+      "throughputMtMM": 54.8,
+      "ethanolGalsMM": 1700,
+      "boardCrushCapturePct": 78,
+      "ingredients": {
+        "specialtyRevenuePct": 30,
+        "rdIntensityPct": 0.6
+      },
+      "ethanol": {
+        "ebitdaPerGal": 0.18,
+        "cornCrushSpreadUSDPerBu": 0.95,
+        "d6RinValueAvg": 0.62
+      }
+    },
+    "equityMethodInvestmentsMM": 3500,
+    "nonAgricultureRevenuePct": 8
   },
   {
     "ticker": "BG",
@@ -1613,9 +1986,17 @@
     "annualFcfMM": -879,
     "annualEquityMM": 17368.5,
     "trader": {
+      "rmiMM": 8500,
       "throughputMtMM": 73,
-      "rmiMM": 8500
-    }
+      "boardCrushCapturePct": 80,
+      "ingredients": {
+        "specialtyRevenuePct": 20,
+        "rdIntensityPct": 0.4
+      }
+    },
+    "equityMethodInvestmentsMM": 850,
+    "litigationAccrualMM": 120,
+    "nonAgricultureRevenuePct": 4
   },
   {
     "ticker": "NTR",
@@ -1639,8 +2020,14 @@
     "annualFcfMM": 2125,
     "annualEquityMM": 25321.3,
     "cropInputs": {
-      "realizedPriceByNutrientUSDPerMT": { "nitrogen": 385, "potash": 295 },
-      "productionCapacityKMTPerYear": { "potash": 20000, "nitrogen": 11000 },
+      "realizedPriceByNutrientUSDPerMT": {
+        "nitrogen": 385,
+        "potash": 295
+      },
+      "productionCapacityKMTPerYear": {
+        "potash": 20000,
+        "nitrogen": 11000
+      },
       "retailRevenuePct": 50
     }
   },
@@ -1691,7 +2078,9 @@
     "annualFcfMM": 1802,
     "annualEquityMM": 4838.4,
     "cropInputs": {
-      "productionCapacityKMTPerYear": { "ammonia": 10300 },
+      "productionCapacityKMTPerYear": {
+        "ammonia": 10300
+      },
       "gasCostUSDPerMMBtu": 2.5,
       "capacityUtilizationPct": 95
     }
@@ -1718,7 +2107,10 @@
     "annualFcfMM": -534.6,
     "annualEquityMM": 12083.8,
     "cropInputs": {
-      "productionCapacityKMTPerYear": { "phosphate": 7500, "potash": 12800 }
+      "productionCapacityKMTPerYear": {
+        "phosphate": 7500,
+        "potash": 12800
+      }
     }
   },
   {
@@ -1742,7 +2134,19 @@
     "operatingCountry": "Ukraine",
     "annualNetIncomeMM": 268,
     "annualFcfMM": 244,
-    "annualEquityMM": 1825.0
+    "annualEquityMM": 1825.0,
+    "trader": {
+      "rmiMM": 500,
+      "throughputMtMM": 6,
+      "boardCrushCapturePct": 65,
+      "ingredients": {
+        "specialtyRevenuePct": 20,
+        "rdIntensityPct": 0.3
+      }
+    },
+    "equityMethodInvestmentsMM": 40,
+    "litigationAccrualMM": 10,
+    "nonAgricultureRevenuePct": 10
   },
   {
     "ticker": "MHPC.L",
@@ -1765,7 +2169,12 @@
     "operatingCountry": "Ukraine",
     "annualNetIncomeMM": 168,
     "annualFcfMM": 220,
-    "annualEquityMM": 1085.0
+    "annualEquityMM": 1085.0,
+    "protein": {
+      "plants": 12,
+      "weeklyHeadCapacity": 13500000,
+      "capacityUtilizationPct": 85
+    }
   },
   {
     "ticker": "SZU.DE",
@@ -1787,7 +2196,23 @@
     "operatingCountry": "EU",
     "annualNetIncomeMM": -27,
     "annualFcfMM": 91,
-    "annualEquityMM": 4250.0
+    "annualEquityMM": 4250.0,
+    "trader": {
+      "rmiMM": 350,
+      "throughputMtMM": 4,
+      "ethanolGalsMM": 90,
+      "boardCrushCapturePct": 60,
+      "ingredients": {
+        "specialtyRevenuePct": 25,
+        "rdIntensityPct": 0.5
+      },
+      "ethanol": {
+        "ebitdaPerGal": 0.12
+      }
+    },
+    "equityMethodInvestmentsMM": 200,
+    "litigationAccrualMM": 60,
+    "nonAgricultureRevenuePct": 35
   },
   {
     "ticker": "TATE.L",
@@ -1811,11 +2236,16 @@
     "annualFcfMM": 103,
     "annualEquityMM": 1340.0,
     "trader": {
+      "rmiMM": 250,
+      "throughputMtMM": 3,
       "ingredients": {
         "specialtyRevenuePct": 75,
         "rdIntensityPct": 1.5
       }
-    }
+    },
+    "equityMethodInvestmentsMM": 75,
+    "litigationAccrualMM": 30,
+    "nonAgricultureRevenuePct": 5
   },
   {
     "ticker": "ABF.L",
@@ -1860,7 +2290,8 @@
     "operatingCountry": "Australia",
     "annualNetIncomeMM": 65.5,
     "annualFcfMM": 142,
-    "annualEquityMM": 985.0
+    "annualEquityMM": 985.0,
+    "nonAgricultureRevenuePct": 20
   },
   {
     "ticker": "GNC.AX",
@@ -1882,7 +2313,19 @@
     "operatingCountry": "Australia",
     "annualNetIncomeMM": 70,
     "annualFcfMM": -25,
-    "annualEquityMM": 1200.0
+    "annualEquityMM": 1200.0,
+    "trader": {
+      "rmiMM": 1000,
+      "throughputMtMM": 28,
+      "boardCrushCapturePct": 60,
+      "ingredients": {
+        "specialtyRevenuePct": 10,
+        "rdIntensityPct": 0.2
+      }
+    },
+    "equityMethodInvestmentsMM": 30,
+    "litigationAccrualMM": 15,
+    "nonAgricultureRevenuePct": 8
   },
   {
     "ticker": "BGA.AX",
@@ -1961,7 +2404,14 @@
     "annualFcfMM": 181.3,
     "annualEquityMM": 2016.2,
     "integratedFarm": {
-      "ownedAreaHa": 36000
+      "plantedAreaHa": 30000,
+      "ownedAreaHa": 36000,
+      "leasedAreaHa": 8000,
+      "productionVolumeMT": 105000000,
+      "productionUnit": "boxes_produce",
+      "yieldPerHa": 42,
+      "realizedPricePerUnit": 13.8,
+      "biologicalAssetsMM": 220
     }
   },
   {
@@ -1986,7 +2436,21 @@
     "annualFcfMM": 37.2,
     "annualEquityMM": 543.0,
     "integratedFarm": {
-      "ownedAreaHa": 4500
+      "plantedAreaHa": 36000,
+      "ownedAreaHa": 4500,
+      "leasedAreaHa": 8000,
+      "productionVolumeMT": 215000,
+      "productionUnit": "MT_avocado",
+      "yieldPerHa": 6.0,
+      "realizedPricePerUnit": 2750,
+      "waterRightsVolumeML": 85,
+      "biologicalAssetsMM": 195,
+      "treeCrop": {
+        "bearingHa": 28000,
+        "nonBearingHa": 8000,
+        "avgTreeAgeYears": 11,
+        "replantingHaYTD": 450
+      }
     }
   },
   {
@@ -2011,7 +2475,10 @@
     "annualFcfMM": 13.9,
     "annualEquityMM": 497.0,
     "cropInputs": {
-      "realizedPriceByNutrientUSDPerMT": { "potash": 380, "trio": 290 }
+      "realizedPriceByNutrientUSDPerMT": {
+        "potash": 380,
+        "trio": 290
+      }
     }
   },
   {
@@ -2034,7 +2501,11 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 145.2,
     "annualFcfMM": 273.9,
-    "annualEquityMM": 34.0
+    "annualEquityMM": 34.0,
+    "cropInputs": {
+      "rdSpendPctOfRevenue": 1.2,
+      "retailRevenuePct": 70
+    }
   },
   {
     "ticker": "ANDE",
@@ -2056,7 +2527,29 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 95.7,
     "annualFcfMM": -56.13,
-    "annualEquityMM": 1340.0
+    "annualEquityMM": 1340.0,
+    "trader": {
+      "rmiMM": 700,
+      "throughputMtMM": 25,
+      "ethanolGalsMM": 410,
+      "boardCrushCapturePct": 55,
+      "ingredients": {
+        "specialtyRevenuePct": 5,
+        "rdIntensityPct": 0.1
+      },
+      "ethanol": {
+        "ebitdaPerGal": 0.2,
+        "cornCrushSpreadUSDPerBu": 0.9,
+        "d6RinValueAvg": 0.62
+      },
+      "retailDistribution": {
+        "retailLocationsCount": 60,
+        "barterReceivablesMM": 120
+      }
+    },
+    "equityMethodInvestmentsMM": 50,
+    "litigationAccrualMM": 12,
+    "nonAgricultureRevenuePct": 15
   },
   {
     "ticker": "LW",
@@ -2078,7 +2571,15 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 357.2,
     "annualFcfMM": 230.1,
-    "annualEquityMM": 1280.0
+    "annualEquityMM": 1280.0,
+    "integratedFarm": {
+      "plantedAreaHa": 62000,
+      "leasedAreaHa": 62000,
+      "productionVolumeMT": 3100000,
+      "productionUnit": "MT_potato",
+      "yieldPerHa": 50,
+      "realizedPricePerUnit": 285
+    }
   },
   {
     "ticker": "MOWI.OL",
@@ -2103,6 +2604,8 @@
     "annualFcfMM": 682,
     "annualEquityMM": 2988.8,
     "aquaculture": {
+      "biomassAtSeaKt": 250,
+      "costPerKgNok": 46,
       "harvestVolumeKtGwt": 498,
       "ebitPerKgNok": 18,
       "mabLicencedTonnes": 205000,
@@ -2131,6 +2634,8 @@
     "annualFcfMM": 1900,
     "annualEquityMM": 19901.4,
     "aquaculture": {
+      "biomassAtSeaKt": 120,
+      "costPerKgNok": 38,
       "harvestVolumeKtGwt": 244,
       "ebitPerKgNok": 21,
       "mabLicencedTonnes": 190000,
@@ -2160,6 +2665,8 @@
     "annualFcfMM": 300,
     "annualEquityMM": 8751.2,
     "aquaculture": {
+      "biomassAtSeaKt": 50,
+      "costPerKgNok": 38,
       "harvestVolumeKtGwt": 93,
       "mabLicencedTonnes": 70000,
       "smoltReleasedMM": 22
@@ -2187,6 +2694,8 @@
     "annualFcfMM": 1200,
     "annualEquityMM": 18766.8,
     "aquaculture": {
+      "biomassAtSeaKt": 95,
+      "costPerKgNok": 50,
       "harvestVolumeKtGwt": 178,
       "ebitPerKgNok": 16,
       "mabLicencedTonnes": 205000
@@ -2214,6 +2723,8 @@
     "annualFcfMM": -150,
     "annualEquityMM": 3224.2,
     "aquaculture": {
+      "biomassAtSeaKt": 40,
+      "costPerKgNok": 58,
       "harvestVolumeKtGwt": 75,
       "ebitPerKgNok": 5,
       "mabLicencedTonnes": 85000,
@@ -2244,8 +2755,13 @@
     "annualEquityMM": 6750.0,
     "protein": {
       "plants": 50,
+      "capacityUtilizationPct": 78,
       "pig": {
-        "slaughterWeightKg": 110
+        "breedingSows": 1900000,
+        "pigletsPerSowPerYear": 22,
+        "feedConversionRatio": 2.8,
+        "slaughterWeightKg": 110,
+        "costPerKgLive": 14.5
       }
     }
   },
@@ -2272,7 +2788,8 @@
     "annualFcfMM": -2200,
     "annualEquityMM": 11500.0,
     "dairy": {
-      "cowHerdK": 480
+      "cowHerdK": 480,
+      "milkIntakeMlitres": 2100
     }
   },
   {
@@ -2296,7 +2813,19 @@
     "operatingCountry": "Hong Kong",
     "annualNetIncomeMM": 305,
     "annualFcfMM": 850,
-    "annualEquityMM": 18900.0
+    "annualEquityMM": 18900.0,
+    "trader": {
+      "rmiMM": 1500,
+      "throughputMtMM": 12,
+      "boardCrushCapturePct": 55,
+      "ingredients": {
+        "specialtyRevenuePct": 8,
+        "rdIntensityPct": 0.2
+      }
+    },
+    "equityMethodInvestmentsMM": 150,
+    "litigationAccrualMM": 20,
+    "nonAgricultureRevenuePct": 12
   },
   {
     "ticker": "002714.SZ",
@@ -2320,9 +2849,14 @@
     "annualFcfMM": 21500,
     "annualEquityMM": 105000.0,
     "protein": {
+      "plants": 24,
+      "capacityUtilizationPct": 82,
       "pig": {
-        "costPerKgLive": 13.5,
-        "feedConversionRatio": 2.75
+        "breedingSows": 3300000,
+        "pigletsPerSowPerYear": 26,
+        "feedConversionRatio": 2.75,
+        "slaughterWeightKg": 120,
+        "costPerKgLive": 13.5
       }
     }
   },
@@ -2346,7 +2880,16 @@
     "operatingCountry": "China",
     "annualNetIncomeMM": 487,
     "annualFcfMM": 1450,
-    "annualEquityMM": 30500.0
+    "annualEquityMM": 30500.0,
+    "protein": {
+      "pig": {
+        "breedingSows": 1500000,
+        "pigletsPerSowPerYear": 23,
+        "feedConversionRatio": 2.75,
+        "slaughterWeightKg": 115,
+        "costPerKgLive": 14.2
+      }
+    }
   },
   {
     "ticker": "DCMSHRIRAM.NS",
@@ -2368,7 +2911,8 @@
     "operatingCountry": "India",
     "annualNetIncomeMM": 2270,
     "annualFcfMM": 1950,
-    "annualEquityMM": 50500
+    "annualEquityMM": 50500,
+    "nonAgricultureRevenuePct": 40
   },
   {
     "ticker": "KRBL.NS",
@@ -2390,7 +2934,18 @@
     "operatingCountry": "India",
     "annualNetIncomeMM": 5530,
     "annualFcfMM": 4100,
-    "annualEquityMM": 44500
+    "annualEquityMM": 44500,
+    "trader": {
+      "rmiMM": 350,
+      "throughputMtMM": 1.2,
+      "ingredients": {
+        "specialtyRevenuePct": 60,
+        "rdIntensityPct": 0.3
+      }
+    },
+    "equityMethodInvestmentsMM": 5,
+    "litigationAccrualMM": 25,
+    "nonAgricultureRevenuePct": 5
   },
   {
     "ticker": "BALRAMCHIN.NS",
@@ -2414,8 +2969,17 @@
     "annualFcfMM": 1100,
     "annualEquityMM": 32000,
     "integratedFarm": {
+      "productionVolumeMT": 1100000,
+      "productionUnit": "MT_sugar",
+      "realizedPricePerUnit": 38500,
+      "biologicalAssetsMM": 85,
       "sugarEthanol": {
-        "atrKgPerMT": 110
+        "crushedCaneMT": 10000000,
+        "atrKgPerMT": 110,
+        "sugarMixPct": 78,
+        "ethanolMixPct": 22,
+        "ethanolVolumeM3": 330000,
+        "cogenerationMWh": 165000
       }
     }
   },
@@ -2442,6 +3006,7 @@
     "annualEquityMM": 36800000,
     "dairy": {
       "cowHerdK": 140,
+      "milkIntakeMlitres": 1500,
       "infantFormulaRevenuePct": 20,
       "brandedRevenuePct": 95,
       "coldChainDistributionPoints": 240000
@@ -2467,7 +3032,8 @@
     "operatingCountry": "Philippines",
     "annualNetIncomeMM": 9920,
     "annualFcfMM": 8500,
-    "annualEquityMM": 91000
+    "annualEquityMM": 91000,
+    "nonAgricultureRevenuePct": 95
   },
   {
     "ticker": "CRESY",
@@ -2488,7 +3054,9 @@
     "sector": "Diversified Agribusiness",
     "geography": "US",
     "operatingCountry": "Argentina",
-    "annualEquityMM": 680.0
+    "annualEquityMM": 680.0,
+    "nonAgricultureRevenuePct": 60,
+    "minorityInterestMM": 850
   },
   {
     "ticker": "ARL.JO",
@@ -2512,7 +3080,9 @@
     "annualFcfMM": 750,
     "annualEquityMM": 3592.6,
     "protein": {
-      "plants": 5
+      "plants": 5,
+      "weeklyHeadCapacity": 5500000,
+      "capacityUtilizationPct": 78
     }
   },
   {
@@ -2558,7 +3128,18 @@
     "operatingCountry": "EU",
     "annualNetIncomeMM": 162,
     "annualFcfMM": 245,
-    "annualEquityMM": 1446.3
+    "annualEquityMM": 1446.3,
+    "trader": {
+      "rmiMM": 400,
+      "throughputMtMM": 2.5,
+      "ingredients": {
+        "specialtyRevenuePct": 100,
+        "rdIntensityPct": 0.3
+      }
+    },
+    "equityMethodInvestmentsMM": 60,
+    "litigationAccrualMM": 15,
+    "nonAgricultureRevenuePct": 2
   },
   {
     "ticker": "CWK.L",
@@ -2582,7 +3163,15 @@
     "annualFcfMM": 113,
     "annualEquityMM": 566.7,
     "protein": {
-      "plants": 18
+      "plants": 18,
+      "capacityUtilizationPct": 84,
+      "pig": {
+        "breedingSows": 30000,
+        "pigletsPerSowPerYear": 27,
+        "feedConversionRatio": 2.5,
+        "slaughterWeightKg": 110,
+        "costPerKgLive": 1.85
+      }
     }
   },
   {
@@ -2607,11 +3196,17 @@
     "annualFcfMM": 511,
     "annualEquityMM": 2746.8,
     "trader": {
+      "rmiMM": 600,
+      "throughputMtMM": 5,
+      "boardCrushCapturePct": 50,
       "ingredients": {
         "specialtyRevenuePct": 35,
         "rdIntensityPct": 0.7
       }
-    }
+    },
+    "equityMethodInvestmentsMM": 90,
+    "litigationAccrualMM": 35,
+    "nonAgricultureRevenuePct": 5
   },
   {
     "ticker": "FRPT",
@@ -2636,8 +3231,12 @@
     "annualEquityMM": 699.8,
     "protein": {
       "plants": 3,
+      "weeklyLbsCapacityMM": 11,
+      "capacityUtilizationPct": 88,
       "brandedCpg": {
-        "acvDistributionPct": 75
+        "brandedRevenuePct": 100,
+        "acvDistributionPct": 75,
+        "foodserviceMixPct": 0
       }
     }
   },
@@ -2666,7 +3265,19 @@
     "annualFcfMM": 720000,
     "annualEquityMM": 10520000,
     "plantation": {
-      "ffbYieldTPerHa": 17
+      "ffbYieldTPerHa": 17,
+      "oerPct": 22.5,
+      "kerPct": 4.7,
+      "cpoAspPerMt": 12300000,
+      "cpoCostPerMt": 6500000,
+      "maturePlantedHa": 75000,
+      "immaturePlantedHa": 10000,
+      "rspoPct": 70,
+      "methaneCapturePctMills": 45,
+      "replantingHaLtm": 2200,
+      "nucleusVsPlasmaPct": 82,
+      "rubberRevenueSharePct": 4,
+      "ndpeCompliancePct": 95
     }
   },
   {
@@ -2692,7 +3303,21 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 1820000,
     "annualFcfMM": 2100000,
-    "annualEquityMM": 14380000
+    "annualEquityMM": 14380000,
+    "plantation": {
+      "ffbYieldTPerHa": 20,
+      "oerPct": 22.8,
+      "kerPct": 4.9,
+      "cpoAspPerMt": 12500000,
+      "cpoCostPerMt": 6400000,
+      "maturePlantedHa": 130000,
+      "immaturePlantedHa": 15000,
+      "rspoPct": 80,
+      "methaneCapturePctMills": 60,
+      "replantingHaLtm": 3500,
+      "nucleusVsPlasmaPct": 80,
+      "ndpeCompliancePct": 96
+    }
   },
   {
     "ticker": "ANJT.JK",
@@ -2717,7 +3342,21 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 392000,
     "annualFcfMM": 280000,
-    "annualEquityMM": 5640000
+    "annualEquityMM": 5640000,
+    "plantation": {
+      "ffbYieldTPerHa": 19,
+      "oerPct": 22.3,
+      "kerPct": 4.7,
+      "cpoAspPerMt": 12200000,
+      "cpoCostPerMt": 6700000,
+      "maturePlantedHa": 45000,
+      "immaturePlantedHa": 8000,
+      "rspoPct": 90,
+      "methaneCapturePctMills": 65,
+      "replantingHaLtm": 1200,
+      "nucleusVsPlasmaPct": 75,
+      "ndpeCompliancePct": 98
+    }
   },
   {
     "ticker": "DSNG.JK",
@@ -2742,7 +3381,21 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 1085000,
     "annualFcfMM": 1450000,
-    "annualEquityMM": 7240000
+    "annualEquityMM": 7240000,
+    "plantation": {
+      "ffbYieldTPerHa": 20,
+      "oerPct": 22.5,
+      "kerPct": 4.8,
+      "cpoAspPerMt": 12400000,
+      "cpoCostPerMt": 6300000,
+      "maturePlantedHa": 100000,
+      "immaturePlantedHa": 12000,
+      "rspoPct": 65,
+      "methaneCapturePctMills": 50,
+      "replantingHaLtm": 2800,
+      "nucleusVsPlasmaPct": 80,
+      "ndpeCompliancePct": 92
+    }
   },
   {
     "ticker": "TBLA.JK",
@@ -2770,7 +3423,19 @@
     "annualEquityMM": 7440000,
     "plantation": {
       "ffbYieldTPerHa": 20,
-      "sugarRevenueSharePct": 25
+      "oerPct": 21.8,
+      "kerPct": 4.5,
+      "cpoAspPerMt": 12000000,
+      "cpoCostPerMt": 6800000,
+      "maturePlantedHa": 50000,
+      "immaturePlantedHa": 7000,
+      "rspoPct": 40,
+      "methaneCapturePctMills": 30,
+      "replantingHaLtm": 1500,
+      "nucleusVsPlasmaPct": 78,
+      "sugarRevenueSharePct": 25,
+      "sugarProducedMt": 220000,
+      "ndpeCompliancePct": 85
     }
   },
   {
@@ -2798,7 +3463,17 @@
     "annualFcfMM": 215,
     "annualEquityMM": 3990,
     "plantation": {
-      "ffbYieldTPerHa": 17
+      "ffbYieldTPerHa": 17,
+      "oerPct": 20.8,
+      "kerPct": 4.6,
+      "cpoAspPerMt": 4100,
+      "cpoCostPerMt": 2550,
+      "maturePlantedHa": 25000,
+      "immaturePlantedHa": 4000,
+      "rspoPct": 50,
+      "methaneCapturePctMills": 25,
+      "replantingHaLtm": 700,
+      "ndpeCompliancePct": 85
     }
   },
   {
@@ -2826,7 +3501,17 @@
     "annualFcfMM": 95,
     "annualEquityMM": 1331,
     "plantation": {
-      "ffbYieldTPerHa": 18
+      "ffbYieldTPerHa": 18,
+      "oerPct": 21.5,
+      "kerPct": 4.9,
+      "cpoAspPerMt": 4250,
+      "cpoCostPerMt": 2300,
+      "maturePlantedHa": 55000,
+      "immaturePlantedHa": 7000,
+      "rspoPct": 75,
+      "methaneCapturePctMills": 60,
+      "replantingHaLtm": 1500,
+      "ndpeCompliancePct": 95
     }
   },
   {
@@ -2852,7 +3537,20 @@
     "operatingCountry": "Malaysia",
     "annualNetIncomeMM": 195,
     "annualFcfMM": 215,
-    "annualEquityMM": 1030
+    "annualEquityMM": 1030,
+    "plantation": {
+      "ffbYieldTPerHa": 19,
+      "oerPct": 21,
+      "kerPct": 4.7,
+      "cpoAspPerMt": 4150,
+      "cpoCostPerMt": 2500,
+      "maturePlantedHa": 35000,
+      "immaturePlantedHa": 5000,
+      "rspoPct": 60,
+      "methaneCapturePctMills": 35,
+      "replantingHaLtm": 1000,
+      "ndpeCompliancePct": 90
+    }
   },
   {
     "ticker": "CPIN.JK",
@@ -2875,7 +3573,11 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 4017000,
     "annualFcfMM": 4500000,
-    "annualEquityMM": 28725000
+    "annualEquityMM": 28725000,
+    "protein": {
+      "plants": 16,
+      "capacityUtilizationPct": 75
+    }
   },
   {
     "ticker": "JPFA.JK",
@@ -2898,7 +3600,11 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 1952000,
     "annualFcfMM": 1750000,
-    "annualEquityMM": 15280000
+    "annualEquityMM": 15280000,
+    "protein": {
+      "plants": 12,
+      "capacityUtilizationPct": 73
+    }
   },
   {
     "ticker": "MAIN.JK",
@@ -2921,7 +3627,11 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 158000,
     "annualFcfMM": 220000,
-    "annualEquityMM": 2117000
+    "annualEquityMM": 2117000,
+    "protein": {
+      "plants": 10,
+      "capacityUtilizationPct": 72
+    }
   },
   {
     "ticker": "INDF.JK",
@@ -2944,7 +3654,9 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 10500000,
     "annualFcfMM": 14500000,
-    "annualEquityMM": 110510000
+    "annualEquityMM": 110510000,
+    "nonAgricultureRevenuePct": 20,
+    "minorityInterestMM": 3800
   },
   {
     "ticker": "ICBP.JK",
@@ -2967,7 +3679,8 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 10870000,
     "annualFcfMM": 12300000,
-    "annualEquityMM": 52720000
+    "annualEquityMM": 52720000,
+    "nonAgricultureRevenuePct": 95
   },
   {
     "ticker": "SOJA3.SA",
@@ -2989,7 +3702,19 @@
     "operatingCountry": "Brazil",
     "annualNetIncomeMM": 95,
     "annualFcfMM": 10,
-    "annualEquityMM": 855
+    "annualEquityMM": 855,
+    "trader": {
+      "rmiMM": 800,
+      "throughputMtMM": 9,
+      "boardCrushCapturePct": 65,
+      "ingredients": {
+        "specialtyRevenuePct": 15,
+        "rdIntensityPct": 0.2
+      }
+    },
+    "equityMethodInvestmentsMM": 25,
+    "litigationAccrualMM": 40,
+    "nonAgricultureRevenuePct": 8
   },
   {
     "ticker": "AGXY3.SA",
@@ -3011,7 +3736,21 @@
     "operatingCountry": "Brazil",
     "annualNetIncomeMM": -1000,
     "annualFcfMM": -400,
-    "annualEquityMM": 80
+    "annualEquityMM": 80,
+    "trader": {
+      "rmiMM": 200,
+      "throughputMtMM": 2,
+      "ingredients": {
+        "rdIntensityPct": 0.1
+      },
+      "retailDistribution": {
+        "retailLocationsCount": 200,
+        "barterReceivablesMM": 350
+      }
+    },
+    "equityMethodInvestmentsMM": 10,
+    "litigationAccrualMM": 20,
+    "nonAgricultureRevenuePct": 3
   },
   {
     "ticker": "TTEN3.SA",
@@ -3033,7 +3772,8 @@
     "operatingCountry": "Brazil",
     "annualNetIncomeMM": 440,
     "annualFcfMM": -350,
-    "annualEquityMM": 3590
+    "annualEquityMM": 3590,
+    "nonAgricultureRevenuePct": 5
   },
   {
     "ticker": "VITT3.SA",
@@ -3055,7 +3795,11 @@
     "operatingCountry": "Brazil",
     "annualNetIncomeMM": 95,
     "annualFcfMM": 20,
-    "annualEquityMM": 800
+    "annualEquityMM": 800,
+    "cropInputs": {
+      "rdSpendPctOfRevenue": 0.8,
+      "retailRevenuePct": 15
+    }
   },
   {
     "ticker": "PRESCO.LG",
@@ -3082,7 +3826,17 @@
     "annualFcfMM": 35000,
     "annualEquityMM": 145000,
     "plantation": {
-      "ffbYieldTPerHa": 12
+      "ffbYieldTPerHa": 12,
+      "oerPct": 22.5,
+      "kerPct": 4.8,
+      "cpoAspPerMt": 1450000,
+      "cpoCostPerMt": 750000,
+      "maturePlantedHa": 18000,
+      "immaturePlantedHa": 3000,
+      "rspoPct": 30,
+      "methaneCapturePctMills": 20,
+      "replantingHaLtm": 400,
+      "ndpeCompliancePct": 80
     }
   },
   {
@@ -3110,7 +3864,18 @@
     "annualFcfMM": 45000,
     "annualEquityMM": 100200,
     "plantation": {
-      "rubberRevenueSharePct": 15
+      "ffbYieldTPerHa": 13,
+      "oerPct": 22.8,
+      "kerPct": 4.9,
+      "cpoAspPerMt": 1500000,
+      "cpoCostPerMt": 700000,
+      "maturePlantedHa": 12000,
+      "immaturePlantedHa": 2500,
+      "rspoPct": 40,
+      "methaneCapturePctMills": 25,
+      "replantingHaLtm": 350,
+      "rubberRevenueSharePct": 15,
+      "ndpeCompliancePct": 85
     }
   },
   {
@@ -3136,7 +3901,15 @@
     "operatingCountry": "Kenya",
     "annualNetIncomeMM": 2,
     "annualFcfMM": 180,
-    "annualEquityMM": 8665
+    "annualEquityMM": 8665,
+    "tea": {
+      "madeTeaProducedKgMM": 18,
+      "greenLeafYieldKgPerHa": 4800,
+      "madeTeaAspPerKg": 305,
+      "auctionVsDirectPct": 80,
+      "boughtLeafSharePct": 25,
+      "teaPlantedHa": 4200
+    }
   },
   {
     "ticker": "LIMU.NR",
@@ -3163,7 +3936,12 @@
     "annualFcfMM": 18,
     "annualEquityMM": 840,
     "tea": {
-      "boughtLeafSharePct": 100
+      "madeTeaProducedKgMM": 6,
+      "greenLeafYieldKgPerHa": 4500,
+      "madeTeaAspPerKg": 295,
+      "auctionVsDirectPct": 85,
+      "boughtLeafSharePct": 100,
+      "teaPlantedHa": 1800
     }
   },
   {
@@ -3187,7 +3965,8 @@
     "operatingCountry": "Saudi Arabia",
     "annualNetIncomeMM": 1240,
     "annualFcfMM": 980,
-    "annualEquityMM": 11600
+    "annualEquityMM": 11600,
+    "nonAgricultureRevenuePct": 25
   },
   {
     "ticker": "2270.SR",
@@ -3238,10 +4017,20 @@
     "annualFcfMM": 32,
     "annualEquityMM": 1100,
     "segmentEbitdaMM": [
-      { "segment": "Sugar", "ebitdaMM": 50 },
-      { "segment": "Starch", "ebitdaMM": 90 },
-      { "segment": "Fruit", "ebitdaMM": 75 }
-    ]
+      {
+        "segment": "Sugar",
+        "ebitdaMM": 50
+      },
+      {
+        "segment": "Starch",
+        "ebitdaMM": 90
+      },
+      {
+        "segment": "Fruit",
+        "ebitdaMM": 75
+      }
+    ],
+    "nonAgricultureRevenuePct": 10
   },
   {
     "ticker": "HFG.L",
@@ -3267,7 +4056,13 @@
     "annualFcfMM": 90,
     "annualEquityMM": 291.5,
     "protein": {
-      "plants": 24
+      "plants": 24,
+      "capacityUtilizationPct": 80,
+      "brandedCpg": {
+        "brandedRevenuePct": 95,
+        "acvDistributionPct": 88,
+        "foodserviceMixPct": 15
+      }
     }
   },
   {
@@ -3293,6 +4088,7 @@
     "annualFcfMM": 115,
     "annualEquityMM": 805.1,
     "dairy": {
+      "milkIntakeMlitres": 1450,
       "milkSolidsKgMM": 74,
       "avgFarmgateMilkPrice": 8.0,
       "infantFormulaRevenuePct": 50
@@ -3348,7 +4144,24 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 8,
     "annualFcfMM": 19.39,
-    "annualEquityMM": 166.4
+    "annualEquityMM": 166.4,
+    "integratedFarm": {
+      "plantedAreaHa": 500,
+      "ownedAreaHa": 350,
+      "leasedAreaHa": 150,
+      "productionVolumeMT": 4500,
+      "productionUnit": "MT_avocado",
+      "yieldPerHa": 9.0,
+      "realizedPricePerUnit": 2950,
+      "waterRightsVolumeML": 4,
+      "biologicalAssetsMM": 12,
+      "treeCrop": {
+        "bearingHa": 420,
+        "nonBearingHa": 80,
+        "avgTreeAgeYears": 12,
+        "replantingHaYTD": 15
+      }
+    }
   },
   {
     "ticker": "AVD",
@@ -3371,7 +4184,10 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": -56,
     "annualFcfMM": -25.11,
-    "annualEquityMM": 162.2
+    "annualEquityMM": 162.2,
+    "cropInputs": {
+      "rdSpendPctOfRevenue": 5.5
+    }
   },
   {
     "ticker": "GPRE",
@@ -3396,11 +4212,23 @@
     "annualFcfMM": 73.67,
     "annualEquityMM": 504,
     "trader": {
+      "rmiMM": 150,
+      "throughputMtMM": 7,
       "ethanolGalsMM": 850,
+      "boardCrushCapturePct": 50,
+      "ingredients": {
+        "specialtyRevenuePct": 10,
+        "rdIntensityPct": 0.3
+      },
       "ethanol": {
-        "ebitdaPerGal": 0.10
+        "ebitdaPerGal": 0.1,
+        "cornCrushSpreadUSDPerBu": 0.85,
+        "d6RinValueAvg": 0.62
       }
-    }
+    },
+    "equityMethodInvestmentsMM": 15,
+    "litigationAccrualMM": 8,
+    "nonAgricultureRevenuePct": 5
   },
   {
     "ticker": "ALTO",
@@ -3423,7 +4251,24 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": -83,
     "annualFcfMM": 8.65,
-    "annualEquityMM": 64.6
+    "annualEquityMM": 64.6,
+    "trader": {
+      "rmiMM": 50,
+      "throughputMtMM": 2,
+      "ethanolGalsMM": 250,
+      "boardCrushCapturePct": 45,
+      "ingredients": {
+        "specialtyRevenuePct": 5,
+        "rdIntensityPct": 0.2
+      },
+      "ethanol": {
+        "ebitdaPerGal": 0.05,
+        "cornCrushSpreadUSDPerBu": 0.8,
+        "d6RinValueAvg": 0.62
+      }
+    },
+    "litigationAccrualMM": 5,
+    "nonAgricultureRevenuePct": 2
   },
   {
     "ticker": "MLP",
@@ -3450,6 +4295,8 @@
     "annualFcfMM": -0.48,
     "annualEquityMM": 3.9,
     "reit": {
+      "waterRightsValueMM": 50,
+      "top10TenantPctOfRent": 45,
       "occupancyPct": 92,
       "rentIndexationType": "cpi"
     }
@@ -3474,7 +4321,19 @@
     "operatingCountry": "China",
     "annualNetIncomeMM": 2502,
     "annualFcfMM": 9800,
-    "annualEquityMM": 70200.0
+    "annualEquityMM": 70200.0,
+    "trader": {
+      "rmiMM": 1800,
+      "throughputMtMM": 8,
+      "boardCrushCapturePct": 60,
+      "ingredients": {
+        "specialtyRevenuePct": 25,
+        "rdIntensityPct": 0.3
+      }
+    },
+    "equityMethodInvestmentsMM": 80,
+    "litigationAccrualMM": 10,
+    "nonAgricultureRevenuePct": 8
   },
   {
     "ticker": "600598.SS",
@@ -3497,7 +4356,16 @@
     "operatingCountry": "China",
     "annualNetIncomeMM": 1087,
     "annualFcfMM": 850,
-    "annualEquityMM": 18450.0
+    "annualEquityMM": 18450.0,
+    "integratedFarm": {
+      "plantedAreaHa": 2500000,
+      "ownedAreaHa": 2500000,
+      "productionVolumeMT": 13500000,
+      "productionUnit": "MT_grain",
+      "yieldPerHa": 5.4,
+      "realizedPricePerUnit": 2650,
+      "biologicalAssetsMM": 1850
+    }
   },
   {
     "ticker": "000895.SZ",
@@ -3519,7 +4387,18 @@
     "operatingCountry": "China",
     "annualNetIncomeMM": 5105,
     "annualFcfMM": 5400,
-    "annualEquityMM": 16800.0
+    "annualEquityMM": 16800.0,
+    "protein": {
+      "plants": 30,
+      "capacityUtilizationPct": 76,
+      "pig": {
+        "breedingSows": 200000,
+        "pigletsPerSowPerYear": 22,
+        "feedConversionRatio": 2.9,
+        "slaughterWeightKg": 110,
+        "costPerKgLive": 14.8
+      }
+    }
   },
   {
     "ticker": "TIPCO.BK",
@@ -3541,6 +4420,7 @@
     "operatingCountry": "Thailand",
     "annualNetIncomeMM": -92.1,
     "annualFcfMM": -65,
-    "annualEquityMM": 1850.0
+    "annualEquityMM": 1850.0,
+    "nonAgricultureRevenuePct": 100
   }
 ]
