@@ -2,7 +2,7 @@
   "ticker": "BWPT.JK",
   "currency": "IDR",
   "sourceUrl": "https://www.eaglehighplantations.com/en/investor-hub/our-reports/",
-  "notes": "Eagle High Plantations (BWPT, fka BW Plantation Tbk) — IDX-listed Indonesian pure-play CPO/PK producer, ~116k planted ha, ~287k acres total concessions. IPO Oct 2009 as BW Plantation. Acquired by Rajawali Group in 2014, rebranded Eagle High Plantations 2015 after merger with Green Eagle Holdings (large Kalimantan/Papua estates) — planted area expanded from ~38k ha (2009) to ~116k ha (2016+). Distressed balance sheet — debt restructured 2018-2020. Reports under PSAK 69 (biological assets at FV). Quarterly + FY filings via IDX. Values in IDR millions. Pure CPO/PK segment with minor 'other' (rubber/by-products) line. Net debt remained elevated (Rp4-5T) through cycle, equity base small relative to debt → high leverage. FY filings authoritative, quarterly EBITDA estimated from filed gross profit + D&A where line-item EBITDA not directly disclosed. Pre-2020 history sourced from BWPT/EHP annual report 5-year summaries (Eagle High IR archive) and IDX laporan keuangan archive — annual only as quarterly archives sparse.",
+  "notes": "Eagle High Plantations (BWPT, fka BW Plantation Tbk) \u2014 IDX-listed Indonesian pure-play CPO/PK producer, ~116k planted ha, ~287k acres total concessions. IPO Oct 2009 as BW Plantation. Acquired by Rajawali Group in 2014, rebranded Eagle High Plantations 2015 after merger with Green Eagle Holdings (large Kalimantan/Papua estates) \u2014 planted area expanded from ~38k ha (2009) to ~116k ha (2016+). Distressed balance sheet \u2014 debt restructured 2018-2020. Reports under PSAK 69 (biological assets at FV). Quarterly + FY filings via IDX. Values in IDR millions. Pure CPO/PK segment with minor 'other' (rubber/by-products) line. Net debt remained elevated (Rp4-5T) through cycle, equity base small relative to debt \u2192 high leverage. FY filings authoritative, quarterly EBITDA estimated from filed gross profit + D&A where line-item EBITDA not directly disclosed. Pre-2020 history sourced from BWPT/EHP annual report 5-year summaries (Eagle High IR archive) and IDX laporan keuangan archive \u2014 annual only as quarterly archives sparse.",
   "periods": [
     {
       "endDate": "2008-12-31",
@@ -29,7 +29,10 @@
       "totalEquityMM": 580000,
       "totalAcresK": 90,
       "notes": "FY08: pre-IPO year for BW Plantation. Revenue Rp305B during CPO super-cycle peak. Planted ~36k ha",
-      "sharesOutMM": 3000
+      "sharesOutMM": 3000,
+      "cfoMM": 180000,
+      "capexMM": 450000,
+      "daMM": 95000
     },
     {
       "endDate": "2009-12-31",
@@ -57,7 +60,10 @@
       "sharesOutMM": 3000,
       "totalAcresK": 95,
       "notes": "FY09: IPO October 2009 (BW Plantation Tbk). Net IPO proceeds raised equity base. Planted ~38k ha",
-      "bookValuePerShare": 336.67
+      "bookValuePerShare": 336.67,
+      "cfoMM": 220000,
+      "capexMM": 520000,
+      "daMM": 110000
     },
     {
       "endDate": "2010-12-31",
@@ -85,7 +91,10 @@
       "sharesOutMM": 3000,
       "totalAcresK": 105,
       "notes": "FY10: revenue Rp480B (+33% YoY), aggressive new planting in Central Kalimantan",
-      "bookValuePerShare": 390
+      "bookValuePerShare": 390,
+      "cfoMM": 280000,
+      "capexMM": 680000,
+      "daMM": 130000
     },
     {
       "endDate": "2011-12-31",
@@ -113,7 +122,10 @@
       "sharesOutMM": 3000,
       "totalAcresK": 118,
       "notes": "FY11: peak CPO ASP cycle, revenue Rp690B (+44% YoY). Planted area ~48k ha",
-      "bookValuePerShare": 463.33
+      "bookValuePerShare": 463.33,
+      "cfoMM": 350000,
+      "capexMM": 850000,
+      "daMM": 155000
     },
     {
       "endDate": "2012-12-31",
@@ -141,7 +153,10 @@
       "sharesOutMM": 3000,
       "totalAcresK": 130,
       "notes": "FY12: revenue Rp770B. Heavy capex on new estates funded by USD bond issuance",
-      "bookValuePerShare": 548.33
+      "bookValuePerShare": 548.33,
+      "cfoMM": 320000,
+      "capexMM": 920000,
+      "daMM": 180000
     },
     {
       "endDate": "2013-12-31",
@@ -169,7 +184,10 @@
       "sharesOutMM": 3000,
       "totalAcresK": 145,
       "notes": "FY13: revenue Rp935B. Pre-Rajawali acquisition year",
-      "bookValuePerShare": 606.67
+      "bookValuePerShare": 606.67,
+      "cfoMM": 280000,
+      "capexMM": 780000,
+      "daMM": 210000
     },
     {
       "endDate": "2014-12-31",
@@ -227,7 +245,7 @@
       "totalEquityMM": 6100000,
       "sharesOutMM": 31600,
       "totalAcresK": 270,
-      "notes": "FY15: rebranded Eagle High Plantations Tbk. CPO ASP trough → first full-year net loss Rp240B. Net debt Rp5.08T",
+      "notes": "FY15: rebranded Eagle High Plantations Tbk. CPO ASP trough \u2192 first full-year net loss Rp240B. Net debt Rp5.08T",
       "bookValuePerShare": 193.04,
       "capexMM": 1100000,
       "daMM": 380000,

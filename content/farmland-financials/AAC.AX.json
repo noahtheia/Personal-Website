@@ -2,7 +2,7 @@
   "ticker": "AAC.AX",
   "currency": "AUD",
   "sourceUrl": "https://aaco.com.au/investors-media/",
-  "notes": "Australian Agricultural Company (AACo) — ASX-listed integrated cattle producer. Fiscal year ends 31 March; H1 ends 30 September. Owns ~6.4M ha (~15.8M acres) of cattle stations across Northern Territory and Queensland, plus feedlots and Darwin abattoir (mothballed 2018). IFRS reporting with biological assets (cattle herd) carried at fair value, and pastoral land/property carried at fair value through directors' valuations supplemented by independent appraisals (LAWD). Statutory results highly volatile due to non-cash livestock and property revaluations; AACo discloses operating EBITDA pre-revaluation as primary KPI. Brand-led wagyu/branded beef strategy (Westholme, Darling Downs, 1824). Production reported in kg meat sold and head-of-cattle. Pre-2010 history: AACo relisted on ASX August 2001 via the AA Trust restructure with ~7.0M ha; portfolio peaked at ~7.7M ha (2007-09 incl. Brunette Downs, Wrotham Park, Headingly, Avon Downs etc.). FY02-FY09 results from published Annual Reports; herd reported in head, station portfolio in million hectares.",
+  "notes": "Australian Agricultural Company (AACo) \u2014 ASX-listed integrated cattle producer. Fiscal year ends 31 March; H1 ends 30 September. Owns ~6.4M ha (~15.8M acres) of cattle stations across Northern Territory and Queensland, plus feedlots and Darwin abattoir (mothballed 2018). IFRS reporting with biological assets (cattle herd) carried at fair value, and pastoral land/property carried at fair value through directors' valuations supplemented by independent appraisals (LAWD). Statutory results highly volatile due to non-cash livestock and property revaluations; AACo discloses operating EBITDA pre-revaluation as primary KPI. Brand-led wagyu/branded beef strategy (Westholme, Darling Downs, 1824). Production reported in kg meat sold and head-of-cattle. Pre-2010 history: AACo relisted on ASX August 2001 via the AA Trust restructure with ~7.0M ha; portfolio peaked at ~7.7M ha (2007-09 incl. Brunette Downs, Wrotham Park, Headingly, Avon Downs etc.). FY02-FY09 results from published Annual Reports; herd reported in head, station portfolio in million hectares.",
   "periods": [
     {
       "endDate": "2002-03-31",
@@ -28,7 +28,10 @@
       "totalAcresK": 17300,
       "dividendPerShare": 0.06,
       "notes": "FY02 (year ended 31 Mar 2002): first full year as relisted ASX entity (Aug 2001 IPO). ~7.0M ha portfolio. Herd ~470,000 head.",
-      "bookValuePerShare": 2.04
+      "bookValuePerShare": 2.04,
+      "cfoMM": 22,
+      "capexMM": 35,
+      "daMM": 8
     },
     {
       "endDate": "2003-03-31",
@@ -54,7 +57,10 @@
       "totalAcresK": 17500,
       "dividendPerShare": 0.07,
       "notes": "FY03: revenue $198M, NPAT $19.5M. Live cattle exports + feedlot operations expanding.",
-      "bookValuePerShare": 2.17
+      "bookValuePerShare": 2.17,
+      "cfoMM": 25,
+      "capexMM": 40,
+      "daMM": 9
     },
     {
       "endDate": "2004-03-31",
@@ -80,7 +86,10 @@
       "totalAcresK": 18000,
       "dividendPerShare": 0.08,
       "notes": "FY04: revenue $215M. Strong cattle market and live export demand.",
-      "bookValuePerShare": 2.3
+      "bookValuePerShare": 2.3,
+      "cfoMM": 28,
+      "capexMM": 45,
+      "daMM": 10
     },
     {
       "endDate": "2005-03-31",
@@ -106,7 +115,10 @@
       "totalAcresK": 18500,
       "dividendPerShare": 0.09,
       "notes": "FY05: revenue $245M, NPAT $27M. Continued portfolio build-out.",
-      "bookValuePerShare": 2.46
+      "bookValuePerShare": 2.46,
+      "cfoMM": 30,
+      "capexMM": 55,
+      "daMM": 11
     },
     {
       "endDate": "2006-03-31",
@@ -132,7 +144,10 @@
       "totalAcresK": 18800,
       "dividendPerShare": 0.1,
       "notes": "FY06: revenue $270M, NPAT $30M. Property revaluations begin to lift balance-sheet equity.",
-      "bookValuePerShare": 2.63
+      "bookValuePerShare": 2.63,
+      "cfoMM": 32,
+      "capexMM": 60,
+      "daMM": 12
     },
     {
       "endDate": "2007-03-31",
@@ -160,7 +175,10 @@
       "totalAcresK": 19000,
       "dividendPerShare": 0.11,
       "notes": "FY07: revenue $305M, NPAT $35M. Pastoral land revaluation cycle drives equity higher.",
-      "bookValuePerShare": 2.88
+      "bookValuePerShare": 2.88,
+      "cfoMM": 35,
+      "capexMM": 70,
+      "daMM": 13
     },
     {
       "endDate": "2008-03-31",
@@ -188,7 +206,10 @@
       "totalAcresK": 19000,
       "dividendPerShare": 0.1,
       "notes": "FY08: revenue $330M. Drought conditions across northern Australia weighed on operating result.",
-      "bookValuePerShare": 2.98
+      "bookValuePerShare": 2.98,
+      "cfoMM": 38,
+      "capexMM": 85,
+      "daMM": 14
     },
     {
       "endDate": "2009-03-31",
@@ -216,7 +237,10 @@
       "totalAcresK": 19000,
       "dividendPerShare": 0.05,
       "notes": "FY09: GFC + drought hit cattle prices; NPAT compressed to $18M. Live cattle exports remained resilient.",
-      "bookValuePerShare": 2.96
+      "bookValuePerShare": 2.96,
+      "cfoMM": 30,
+      "capexMM": 60,
+      "daMM": 15
     },
     {
       "endDate": "2010-03-31",
@@ -244,7 +268,10 @@
       "totalAcresK": 19000,
       "dividendPerShare": 0,
       "notes": "FY10: statutory loss $22M after livestock fair-value writedowns. Dividend suspended.",
-      "bookValuePerShare": 2.74
+      "bookValuePerShare": 2.74,
+      "cfoMM": 25,
+      "capexMM": 50,
+      "daMM": 14
     },
     {
       "endDate": "2011-03-31",
@@ -272,7 +299,10 @@
       "totalAcresK": 19000,
       "dividendPerShare": 0,
       "notes": "FY11: revenue $340M, statutory loss $8M. Indonesian live export ban (Jun 2011) created cattle backlog.",
-      "bookValuePerShare": 2.57
+      "bookValuePerShare": 2.57,
+      "cfoMM": 28,
+      "capexMM": 55,
+      "daMM": 13
     },
     {
       "endDate": "2012-03-31",
@@ -300,7 +330,10 @@
       "totalAcresK": 19000,
       "dividendPerShare": 0,
       "notes": "FY12: revenue $322M, statutory loss $34M reflecting livestock devaluations and export disruption.",
-      "bookValuePerShare": 2.34
+      "bookValuePerShare": 2.34,
+      "cfoMM": 22,
+      "capexMM": 65,
+      "daMM": 14
     },
     {
       "endDate": "2013-03-31",
@@ -327,8 +360,11 @@
       "fmvNavPerShare": 2.04,
       "totalAcresK": 19000,
       "dividendPerShare": 0,
-      "notes": "FY13: deep cyclical trough — drought + post-export-ban pricing. Statutory loss $49M; new strategy focus on branded beef.",
-      "bookValuePerShare": 2.04
+      "notes": "FY13: deep cyclical trough \u2014 drought + post-export-ban pricing. Statutory loss $49M; new strategy focus on branded beef.",
+      "bookValuePerShare": 2.04,
+      "cfoMM": 18,
+      "capexMM": 70,
+      "daMM": 15
     },
     {
       "endDate": "2014-03-31",
@@ -356,7 +392,10 @@
       "totalAcresK": 19000,
       "dividendPerShare": 0,
       "notes": "FY14: revenue $339M, statutory loss $50M. Capital programme (Darwin abattoir) commenced; major rights issue undertaken.",
-      "bookValuePerShare": 2.16
+      "bookValuePerShare": 2.16,
+      "cfoMM": 35,
+      "capexMM": 80,
+      "daMM": 16
     },
     {
       "endDate": "2015-03-31",
@@ -384,7 +423,10 @@
       "totalAcresK": 18500,
       "dividendPerShare": 0,
       "notes": "FY15: capital raising completed (~$300M, expanded share count to ~540M). Cattle price recovery + livestock revaluation drove $60M NPAT.",
-      "bookValuePerShare": 1.87
+      "bookValuePerShare": 1.87,
+      "cfoMM": 55,
+      "capexMM": 95,
+      "daMM": 17
     },
     {
       "endDate": "2016-03-31",
@@ -411,8 +453,11 @@
       "fmvNavPerShare": 2.17,
       "totalAcresK": 18500,
       "dividendPerShare": 0,
-      "notes": "FY16: NPAT $134M (record) — peak cattle prices + property revaluation gains. Darwin abattoir commissioned.",
-      "bookValuePerShare": 2.17
+      "notes": "FY16: NPAT $134M (record) \u2014 peak cattle prices + property revaluation gains. Darwin abattoir commissioned.",
+      "bookValuePerShare": 2.17,
+      "cfoMM": 60,
+      "capexMM": 110,
+      "daMM": 18
     },
     {
       "endDate": "2017-03-31",
@@ -440,7 +485,10 @@
       "totalAcresK": 18500,
       "dividendPerShare": 0,
       "notes": "FY17: revenue $425M (Darwin abattoir first full year). NPAT $130M with property/livestock fair-value gains.",
-      "bookValuePerShare": 2.05
+      "bookValuePerShare": 2.05,
+      "cfoMM": 45,
+      "capexMM": 100,
+      "daMM": 19
     },
     {
       "endDate": "2018-03-31",
@@ -468,7 +516,10 @@
       "totalAcresK": 18500,
       "dividendPerShare": 0,
       "notes": "FY18: revenue $426.7M; underlying operating EBITDA pressured by Darwin abattoir losses. Decision taken to mothball plant in 2H FY18.",
-      "bookValuePerShare": 2.17
+      "bookValuePerShare": 2.17,
+      "cfoMM": 30,
+      "capexMM": 85,
+      "daMM": 18
     },
     {
       "endDate": "2018-09-30",
@@ -512,7 +563,10 @@
       "totalAcresK": 17000,
       "dividendPerShare": 0,
       "notes": "FY19: revenue $372.7M, statutory loss $147.7M reflecting Darwin abattoir impairment + cattle FV losses + drought. Refocus on branded beef.",
-      "bookValuePerShare": 1.96
+      "bookValuePerShare": 1.96,
+      "cfoMM": 20,
+      "capexMM": 70,
+      "daMM": 17
     },
     {
       "endDate": "2019-09-30",

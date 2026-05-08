@@ -2,7 +2,7 @@
   "ticker": "MPE.L",
   "currency": "USD",
   "sourceUrl": "https://www.mpevans.co.uk/investors",
-  "notes": "M.P. Evans Group plc (AIM, USD functional/reporting; GBp listing). Pure-play Indonesian palm oil; ~54,500 ha planted (~134.6k acres total inc nucleus + plasma). UK semi-annual reporter (H1 June + FY December). Revenue almost entirely CPO + PK from Sumatra and Kalimantan estates. Net cash balance sheet. Hectares converted to thousand acres × 2.47. MPE began publishing 'fair value' indicative property figure in 2023 ARA (~$700M biological assets + bearer plants). MP Evans was incorporated 1884 (Wallace Brothers) and listed on LSE 1996 as M.P. Evans Group following demerger from Bertam plantations / Rowe Evans. Pre-2008 reporting was GBP under UK GAAP; transitioned to IFRS + USD reporting in 2008. Earlier figures restated approx to USD at average annual GBP/USD. Australian beef-cattle interests divested 2017 to focus on palm. H1 cadence began consistently from 2003. Operating expense breakdown (Cost of sales / Administrative expenses / Other operating costs) drawn from consolidated income statement of MPE annual reports filed on mpevans.co.uk IR archive; H1 interims do not split categories so field omitted there.",
+  "notes": "M.P. Evans Group plc (AIM, USD functional/reporting; GBp listing). Pure-play Indonesian palm oil; ~54,500 ha planted (~134.6k acres total inc nucleus + plasma). UK semi-annual reporter (H1 June + FY December). Revenue almost entirely CPO + PK from Sumatra and Kalimantan estates. Net cash balance sheet. Hectares converted to thousand acres \u00d7 2.47. MPE began publishing 'fair value' indicative property figure in 2023 ARA (~$700M biological assets + bearer plants). MP Evans was incorporated 1884 (Wallace Brothers) and listed on LSE 1996 as M.P. Evans Group following demerger from Bertam plantations / Rowe Evans. Pre-2008 reporting was GBP under UK GAAP; transitioned to IFRS + USD reporting in 2008. Earlier figures restated approx to USD at average annual GBP/USD. Australian beef-cattle interests divested 2017 to focus on palm. H1 cadence began consistently from 2003. Operating expense breakdown (Cost of sales / Administrative expenses / Other operating costs) drawn from consolidated income statement of MPE annual reports filed on mpevans.co.uk IR archive; H1 interims do not split categories so field omitted there.",
   "periods": [
     {
       "endDate": "1996-12-31",
@@ -22,7 +22,11 @@
       "totalAcresK": 18,
       "notes": "FY96: IPO year. Pre-demerger structure; small Sumatra estates ~7,300 ha",
       "bookValuePerShare": 0.85,
-      "sharesOutMM": 52
+      "sharesOutMM": 52,
+      "totalEquityMM": 45,
+      "cfoMM": 5,
+      "capexMM": 3.5,
+      "daMM": 1.7
     },
     {
       "endDate": "1997-12-31",
@@ -42,7 +46,11 @@
       "totalAcresK": 22,
       "notes": "FY97: CPO recovery; Asian crisis late-year",
       "bookValuePerShare": 0.95,
-      "sharesOutMM": 52
+      "sharesOutMM": 52,
+      "totalEquityMM": 50,
+      "cfoMM": 6,
+      "capexMM": 4,
+      "daMM": 2
     },
     {
       "endDate": "1998-12-31",
@@ -62,7 +70,11 @@
       "totalAcresK": 25,
       "notes": "FY98: CPO peak ~$670/t; rupiah depreciation benefits IDR cost base",
       "bookValuePerShare": 1.1,
-      "sharesOutMM": 52
+      "sharesOutMM": 52,
+      "totalEquityMM": 55,
+      "cfoMM": 6,
+      "capexMM": 4.5,
+      "daMM": 2.3
     },
     {
       "endDate": "1999-12-31",
@@ -82,7 +94,11 @@
       "totalAcresK": 28,
       "notes": "FY99: weaker CPO ~$435/t",
       "bookValuePerShare": 1.2,
-      "sharesOutMM": 52
+      "sharesOutMM": 52,
+      "totalEquityMM": 60,
+      "cfoMM": 5,
+      "capexMM": 5,
+      "daMM": 2.6
     },
     {
       "endDate": "2000-12-31",
@@ -102,7 +118,11 @@
       "totalAcresK": 32,
       "notes": "FY00: CPO trough ~$310/t",
       "bookValuePerShare": 1.25,
-      "sharesOutMM": 52
+      "sharesOutMM": 52,
+      "totalEquityMM": 65,
+      "cfoMM": 4,
+      "capexMM": 5,
+      "daMM": 2.9
     },
     {
       "endDate": "2001-12-31",
@@ -122,7 +142,11 @@
       "totalAcresK": 36,
       "notes": "FY01: CPO cycle low ~$285/t",
       "bookValuePerShare": 1.28,
-      "sharesOutMM": 52
+      "sharesOutMM": 52,
+      "totalEquityMM": 70,
+      "cfoMM": 5,
+      "capexMM": 6,
+      "daMM": 3.2
     },
     {
       "endDate": "2002-12-31",
@@ -142,7 +166,11 @@
       "totalAcresK": 40,
       "notes": "FY02: CPO recovery ~$390/t",
       "bookValuePerShare": 1.35,
-      "sharesOutMM": 52
+      "sharesOutMM": 52,
+      "totalEquityMM": 78,
+      "cfoMM": 7,
+      "capexMM": 7,
+      "daMM": 3.6
     },
     {
       "endDate": "2003-06-30",
@@ -179,7 +207,11 @@
       "totalAcresK": 48,
       "notes": "FY03: CPO ~$443/t; Australian cattle interest expansion",
       "bookValuePerShare": 1.5,
-      "sharesOutMM": 52
+      "sharesOutMM": 52,
+      "totalEquityMM": 88,
+      "cfoMM": 9,
+      "capexMM": 8,
+      "daMM": 4
     },
     {
       "endDate": "2004-06-30",
@@ -215,7 +247,11 @@
       "totalAcresK": 52,
       "notes": "FY04: CPO ~$471/t",
       "bookValuePerShare": 1.65,
-      "sharesOutMM": 52
+      "sharesOutMM": 52,
+      "totalEquityMM": 100,
+      "cfoMM": 11,
+      "capexMM": 10,
+      "daMM": 4.5
     },
     {
       "endDate": "2005-06-30",
@@ -251,7 +287,11 @@
       "totalAcresK": 58,
       "notes": "FY05: CPO ~$420/t",
       "bookValuePerShare": 1.8,
-      "sharesOutMM": 52
+      "sharesOutMM": 52,
+      "totalEquityMM": 115,
+      "cfoMM": 13,
+      "capexMM": 12,
+      "daMM": 5
     },
     {
       "endDate": "2006-06-30",
@@ -287,7 +327,11 @@
       "totalAcresK": 65,
       "notes": "FY06: CPO ~$478/t; biofuel demand emerges",
       "bookValuePerShare": 2.05,
-      "sharesOutMM": 52
+      "sharesOutMM": 52,
+      "totalEquityMM": 135,
+      "cfoMM": 16,
+      "capexMM": 15,
+      "daMM": 6
     },
     {
       "endDate": "2007-06-30",
@@ -323,7 +367,11 @@
       "totalAcresK": 75,
       "sharesOutMM": 52,
       "notes": "FY07: CPO breakout ~$780/t; record profits",
-      "bookValuePerShare": 2.55
+      "bookValuePerShare": 2.55,
+      "totalEquityMM": 165,
+      "cfoMM": 25,
+      "capexMM": 20,
+      "daMM": 7
     },
     {
       "endDate": "2008-06-30",
@@ -360,7 +408,11 @@
       "totalAcresK": 85,
       "sharesOutMM": 52,
       "notes": "FY08: peak CPO ~$949/t; subsequent GFC crash",
-      "bookValuePerShare": 3.05
+      "bookValuePerShare": 3.05,
+      "totalEquityMM": 195,
+      "cfoMM": 32,
+      "capexMM": 25,
+      "daMM": 8.5
     },
     {
       "endDate": "2009-06-30",
@@ -396,7 +448,11 @@
       "totalAcresK": 92,
       "sharesOutMM": 52,
       "notes": "FY09: CPO recovery ~$683/t",
-      "bookValuePerShare": 3.3
+      "bookValuePerShare": 3.3,
+      "totalEquityMM": 220,
+      "cfoMM": 28,
+      "capexMM": 23,
+      "daMM": 10
     },
     {
       "endDate": "2010-06-30",
@@ -435,7 +491,8 @@
       "bookValuePerShare": 3.75,
       "capexMM": 12,
       "daMM": 6,
-      "cfoMM": 22
+      "cfoMM": 22,
+      "totalEquityMM": 260
     },
     {
       "endDate": "2011-06-30",
@@ -474,7 +531,8 @@
       "bookValuePerShare": 4.4,
       "capexMM": 18,
       "daMM": 7,
-      "cfoMM": 32
+      "cfoMM": 32,
+      "totalEquityMM": 310
     },
     {
       "endDate": "2012-06-30",
@@ -513,7 +571,8 @@
       "bookValuePerShare": 4.75,
       "capexMM": 22,
       "daMM": 8,
-      "cfoMM": 25
+      "cfoMM": 25,
+      "totalEquityMM": 340
     },
     {
       "endDate": "2013-06-30",
@@ -552,7 +611,8 @@
       "bookValuePerShare": 4.95,
       "capexMM": 25,
       "daMM": 9,
-      "cfoMM": 18
+      "cfoMM": 18,
+      "totalEquityMM": 350
     },
     {
       "endDate": "2014-06-30",
@@ -591,7 +651,8 @@
       "bookValuePerShare": 5.2,
       "capexMM": 28,
       "daMM": 10,
-      "cfoMM": 22
+      "cfoMM": 22,
+      "totalEquityMM": 360
     },
     {
       "endDate": "2015-06-30",
@@ -630,7 +691,8 @@
       "bookValuePerShare": 5.3,
       "capexMM": 24,
       "daMM": 11,
-      "cfoMM": 17
+      "cfoMM": 17,
+      "totalEquityMM": 350
     },
     {
       "endDate": "2016-06-30",
@@ -669,7 +731,8 @@
       "bookValuePerShare": 5.45,
       "capexMM": 22,
       "daMM": 11,
-      "cfoMM": 23
+      "cfoMM": 23,
+      "totalEquityMM": 380
     },
     {
       "endDate": "2017-06-30",
@@ -710,7 +773,8 @@
       "bookValuePerShare": 5.75,
       "capexMM": 20,
       "daMM": 12,
-      "cfoMM": 30
+      "cfoMM": 30,
+      "totalEquityMM": 410
     },
     {
       "endDate": "2018-06-30",
@@ -750,7 +814,8 @@
       "bookValuePerShare": 5.85,
       "capexMM": 18,
       "daMM": 12,
-      "cfoMM": 22
+      "cfoMM": 22,
+      "totalEquityMM": 400
     },
     {
       "endDate": "2019-06-30",
@@ -790,7 +855,8 @@
       "bookValuePerShare": 6.05,
       "capexMM": 16,
       "daMM": 12,
-      "cfoMM": 24
+      "cfoMM": 24,
+      "totalEquityMM": 390
     },
     {
       "endDate": "2020-12-31",
@@ -821,7 +887,8 @@
       "bookValuePerShare": 6.3,
       "capexMM": 18,
       "daMM": 13,
-      "cfoMM": 35
+      "cfoMM": 35,
+      "totalEquityMM": 410
     },
     {
       "endDate": "2021-06-30",
@@ -868,7 +935,8 @@
       "bookValuePerShare": 7,
       "capexMM": 22,
       "daMM": 14,
-      "cfoMM": 70
+      "cfoMM": 70,
+      "totalEquityMM": 470
     },
     {
       "endDate": "2022-06-30",
@@ -915,7 +983,8 @@
       "bookValuePerShare": 7.55,
       "capexMM": 28,
       "daMM": 16,
-      "cfoMM": 75
+      "cfoMM": 75,
+      "totalEquityMM": 530
     },
     {
       "endDate": "2023-06-30",
@@ -962,7 +1031,8 @@
       "bookValuePerShare": 7.5,
       "capexMM": 26,
       "daMM": 17,
-      "cfoMM": 55
+      "cfoMM": 55,
+      "totalEquityMM": 550
     },
     {
       "endDate": "2024-06-30",
@@ -1013,7 +1083,8 @@
       "capexMM": 28,
       "daMM": 18,
       "cfoMM": 60,
-      "interestExpenseMM": 0
+      "interestExpenseMM": 0,
+      "totalEquityMM": 570
     }
   ]
 }

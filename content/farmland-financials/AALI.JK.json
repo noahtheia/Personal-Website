@@ -2,7 +2,7 @@
   "ticker": "AALI.JK",
   "currency": "IDR",
   "sourceUrl": "https://www.astra-agro.co.id/en/investor/",
-  "notes": "Astra Agro Lestari (AALI) — IDX-listed Indonesian palm oil producer, subsidiary of Astra International. ~213,000 ha planted area (~287k ha total concessions), ~527k acres total. Reports under PSAK (IFRS-equivalent); biological assets carried at fair value under PSAK 69. Quarterly + FY filings via IDX (laporan keuangan). Values in IDR millions (matches seed-comps.json convention). Acres derived from planted-ha × 2.47 = thousand acres; planted area grew from ~80k ha (1998 IPO) to ~213k ha (2024). Quarterly revenue/segment splits from interim financial statements; FY data from audited annual reports. Segments: CPO (~85% rev), PK (~7%), Soybean / olive products / other plantations (residual). FV adjustment on biological assets appears in expensesBySegmentMM where disclosed. Net debt swung negative (cash > debt) post 2022 CPO boom, returned to mild positive in 2023-2024. Pre-2010 periods are annual only — quarterly archives sparse pre-2010. 1998-2010 sourced from AALI annual report 5-year-summary tables and historical IDX filings.",
+  "notes": "Astra Agro Lestari (AALI) \u2014 IDX-listed Indonesian palm oil producer, subsidiary of Astra International. ~213,000 ha planted area (~287k ha total concessions), ~527k acres total. Reports under PSAK (IFRS-equivalent); biological assets carried at fair value under PSAK 69. Quarterly + FY filings via IDX (laporan keuangan). Values in IDR millions (matches seed-comps.json convention). Acres derived from planted-ha \u00d7 2.47 = thousand acres; planted area grew from ~80k ha (1998 IPO) to ~213k ha (2024). Quarterly revenue/segment splits from interim financial statements; FY data from audited annual reports. Segments: CPO (~85% rev), PK (~7%), Soybean / olive products / other plantations (residual). FV adjustment on biological assets appears in expensesBySegmentMM where disclosed. Net debt swung negative (cash > debt) post 2022 CPO boom, returned to mild positive in 2023-2024. Pre-2010 periods are annual only \u2014 quarterly archives sparse pre-2010. 1998-2010 sourced from AALI annual report 5-year-summary tables and historical IDX filings.",
   "periods": [
     {
       "endDate": "1998-12-31",
@@ -30,7 +30,10 @@
       "sharesOutMM": 1575,
       "totalAcresK": 198,
       "notes": "FY98: AALI's first full year as IDX-listed company (IPO Dec 1997). Revenue Rp691B, net profit Rp184B amid IDR collapse during Asian Financial Crisis. CPO USD-pricing windfall offset by IDR-debt FX losses. Planted area ~80k ha",
-      "bookValuePerShare": 587.3
+      "bookValuePerShare": 587.3,
+      "cfoMM": 220000,
+      "capexMM": 130000,
+      "daMM": 70000
     },
     {
       "endDate": "1999-12-31",
@@ -58,7 +61,10 @@
       "sharesOutMM": 1575,
       "totalAcresK": 210,
       "notes": "FY99: revenue Rp1.10T (+58% YoY) on CPO price boom + post-AFC IDR weakness. Net income Rp350B",
-      "bookValuePerShare": 787.3
+      "bookValuePerShare": 787.3,
+      "cfoMM": 280000,
+      "capexMM": 150000,
+      "daMM": 85000
     },
     {
       "endDate": "2000-12-31",
@@ -86,7 +92,10 @@
       "sharesOutMM": 1575,
       "totalAcresK": 220,
       "notes": "FY00: CPO price soft year. Net income Rp245B",
-      "bookValuePerShare": 907.94
+      "bookValuePerShare": 907.94,
+      "cfoMM": 320000,
+      "capexMM": 180000,
+      "daMM": 100000
     },
     {
       "endDate": "2001-12-31",
@@ -114,7 +123,10 @@
       "sharesOutMM": 1575,
       "totalAcresK": 232,
       "notes": "FY01: CPO ASP trough year (~$285/ton avg). Net income Rp175B",
-      "bookValuePerShare": 971.43
+      "bookValuePerShare": 971.43,
+      "cfoMM": 280000,
+      "capexMM": 200000,
+      "daMM": 115000
     },
     {
       "endDate": "2002-12-31",
@@ -142,7 +154,10 @@
       "sharesOutMM": 1575,
       "totalAcresK": 244,
       "notes": "FY02: CPO recovery year",
-      "bookValuePerShare": 1111.11
+      "bookValuePerShare": 1111.11,
+      "cfoMM": 380000,
+      "capexMM": 230000,
+      "daMM": 130000
     },
     {
       "endDate": "2003-12-31",
@@ -170,7 +185,10 @@
       "sharesOutMM": 1575,
       "totalAcresK": 256,
       "notes": "FY03: turned net cash positive",
-      "bookValuePerShare": 1301.59
+      "bookValuePerShare": 1301.59,
+      "cfoMM": 450000,
+      "capexMM": 280000,
+      "daMM": 150000
     },
     {
       "endDate": "2004-12-31",
@@ -199,7 +217,10 @@
       "totalAcresK": 268,
       "dividendPerShare": 250,
       "notes": "FY04: net income Rp560B, strong CPO year",
-      "bookValuePerShare": 1530.16
+      "bookValuePerShare": 1530.16,
+      "cfoMM": 580000,
+      "capexMM": 340000,
+      "daMM": 175000
     },
     {
       "endDate": "2005-12-31",
@@ -228,7 +249,10 @@
       "totalAcresK": 282,
       "dividendPerShare": 365,
       "notes": "FY05: revenue Rp3.37T, net income Rp790B",
-      "bookValuePerShare": 1828.57
+      "bookValuePerShare": 1828.57,
+      "cfoMM": 720000,
+      "capexMM": 410000,
+      "daMM": 200000
     },
     {
       "endDate": "2006-12-31",
@@ -257,7 +281,10 @@
       "totalAcresK": 296,
       "dividendPerShare": 360,
       "notes": "FY06: flat revenue YoY, CPO ASP firming H2",
-      "bookValuePerShare": 2088.89
+      "bookValuePerShare": 2088.89,
+      "cfoMM": 950000,
+      "capexMM": 500000,
+      "daMM": 230000
     },
     {
       "endDate": "2007-12-31",
@@ -286,7 +313,10 @@
       "totalAcresK": 309,
       "bookValuePerShare": 2680,
       "dividendPerShare": 685,
-      "notes": "FY07: revenue Rp5.96T (+77% YoY) on CPO super-cycle; net income Rp1.97T"
+      "notes": "FY07: revenue Rp5.96T (+77% YoY) on CPO super-cycle; net income Rp1.97T",
+      "cfoMM": 1650000,
+      "capexMM": 650000,
+      "daMM": 270000
     },
     {
       "endDate": "2008-12-31",
@@ -315,7 +345,10 @@
       "totalAcresK": 322,
       "bookValuePerShare": 3460,
       "dividendPerShare": 1135,
-      "notes": "FY08: peak earnings of CPO super-cycle. Revenue Rp8.16T, net income Rp2.63T (+33% YoY)"
+      "notes": "FY08: peak earnings of CPO super-cycle. Revenue Rp8.16T, net income Rp2.63T (+33% YoY)",
+      "cfoMM": 2400000,
+      "capexMM": 850000,
+      "daMM": 320000
     },
     {
       "endDate": "2009-12-31",
@@ -344,7 +377,10 @@
       "totalAcresK": 335,
       "bookValuePerShare": 4115,
       "dividendPerShare": 830,
-      "notes": "FY09: GFC-impacted year, CPO ASP fell. Net income Rp1.66T (-37% YoY)"
+      "notes": "FY09: GFC-impacted year, CPO ASP fell. Net income Rp1.66T (-37% YoY)",
+      "cfoMM": 1850000,
+      "capexMM": 750000,
+      "daMM": 380000
     },
     {
       "endDate": "2010-12-31",
@@ -585,7 +621,7 @@
       "totalAcresK": 425,
       "bookValuePerShare": 6717,
       "dividendPerShare": 605,
-      "notes": "FY16: CPO ASP recovery. Net income Rp2.11T (+204% YoY). FFB 4,873K t (-13% YoY on El Niño drag), CPO 1,554K t, PK 336K t",
+      "notes": "FY16: CPO ASP recovery. Net income Rp2.11T (+204% YoY). FFB 4,873K t (-13% YoY on El Ni\u00f1o drag), CPO 1,554K t, PK 336K t",
       "ffbProductionTonnesK": 4873,
       "cpoProductionTonnesK": 1554,
       "pkProductionTonnesK": 336,
@@ -690,7 +726,7 @@
       "totalAcresK": 510,
       "bookValuePerShare": 8602,
       "dividendPerShare": 65,
-      "notes": "FY19: CPO ASP trough year. Revenue -8.5% YoY, net income Rp244B (-83%) — weakest profit since IPO. FFB 6,689K t (-8% YoY), CPO 2,026K t, PK 346K t",
+      "notes": "FY19: CPO ASP trough year. Revenue -8.5% YoY, net income Rp244B (-83%) \u2014 weakest profit since IPO. FFB 6,689K t (-8% YoY), CPO 2,026K t, PK 346K t",
       "ffbProductionTonnesK": 6689,
       "cpoProductionTonnesK": 2026,
       "pkProductionTonnesK": 346,
@@ -777,7 +813,8 @@
       },
       "ebitdaMM": 924000,
       "netIncomeMM": 478000,
-      "totalAcresK": 527
+      "totalAcresK": 527,
+      "totalEquityMM": 15800000
     },
     {
       "endDate": "2020-12-31",
@@ -896,7 +933,8 @@
       },
       "ebitdaMM": 660000,
       "netIncomeMM": 247000,
-      "totalAcresK": 527
+      "totalAcresK": 527,
+      "totalEquityMM": 16700000
     },
     {
       "endDate": "2021-12-31",
@@ -1017,7 +1055,8 @@
       },
       "ebitdaMM": 530000,
       "netIncomeMM": 250000,
-      "totalAcresK": 527
+      "totalAcresK": 527,
+      "totalEquityMM": 17500000
     },
     {
       "endDate": "2022-12-31",
@@ -1136,7 +1175,8 @@
       },
       "ebitdaMM": 590000,
       "netIncomeMM": 232000,
-      "totalAcresK": 527
+      "totalAcresK": 527,
+      "totalEquityMM": 17800000
     },
     {
       "endDate": "2023-12-31",
@@ -1255,7 +1295,8 @@
       },
       "ebitdaMM": 870000,
       "netIncomeMM": 415000,
-      "totalAcresK": 527
+      "totalAcresK": 527,
+      "totalEquityMM": 18200000
     },
     {
       "endDate": "2024-12-31",

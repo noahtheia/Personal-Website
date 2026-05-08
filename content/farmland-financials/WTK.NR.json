@@ -2,7 +2,7 @@
   "ticker": "WTK.NR",
   "currency": "KES",
   "sourceUrl": "https://www.williamsontea.com/investor-reports/",
-  "notes": "Williamson Tea Kenya (WTK on Nairobi Securities Exchange — pseudo-ticker WTK.NR for site naming). Listed on NSE since 1972 (Williamson Tea Kenya Ltd). Kenyan tea producer with 7 estates totaling ~7,000 ha planted tea (~17,300 acres including support land). Fiscal year ends 31 March. Reports semi-annually (interim 6M to Sep + full year to Mar). All figures in KES millions. Pure-play tea — single segment in disclosures (smallholder bought-leaf + estate-grown). Net debt extracted from BS as borrowings less cash. Historical pre-2010 data from NSE archive + Williamson Tea AR archive (some pre-2005 figures only available in print Kenyan annual reports — limited to revenue + net income for those years; balance sheet metrics omitted where unverified). Pre-2008 disclosure followed UK-influenced format inherited from former parent George Williamson plc (delisted 2007). Major restructuring in 2007/08: Williamson Tea Holdings demerged from London-listed parent. Highly volatile annual results due to weather, Kenyan tea auction prices, and KES devaluation effects on USD-denominated tea sales.",
+  "notes": "Williamson Tea Kenya (WTK on Nairobi Securities Exchange \u2014 pseudo-ticker WTK.NR for site naming). Listed on NSE since 1972 (Williamson Tea Kenya Ltd). Kenyan tea producer with 7 estates totaling ~7,000 ha planted tea (~17,300 acres including support land). Fiscal year ends 31 March. Reports semi-annually (interim 6M to Sep + full year to Mar). All figures in KES millions. Pure-play tea \u2014 single segment in disclosures (smallholder bought-leaf + estate-grown). Net debt extracted from BS as borrowings less cash. Historical pre-2010 data from NSE archive + Williamson Tea AR archive (some pre-2005 figures only available in print Kenyan annual reports \u2014 limited to revenue + net income for those years; balance sheet metrics omitted where unverified). Pre-2008 disclosure followed UK-influenced format inherited from former parent George Williamson plc (delisted 2007). Major restructuring in 2007/08: Williamson Tea Holdings demerged from London-listed parent. Highly volatile annual results due to weather, Kenyan tea auction prices, and KES devaluation effects on USD-denominated tea sales.",
   "periods": [
     {
       "endDate": "2000-03-31",
@@ -15,8 +15,12 @@
       },
       "netIncomeMM": 95,
       "totalAcresK": 17.3,
-      "notes": "FY99/00: Mombasa auction prices weak; print AR archive only — balance sheet detail not extracted",
-      "sharesOutMM": 8.75
+      "notes": "FY99/00: Mombasa auction prices weak; print AR archive only \u2014 balance sheet detail not extracted",
+      "sharesOutMM": 8.75,
+      "totalEquityMM": 1100,
+      "cfoMM": 180,
+      "capexMM": 60,
+      "daMM": 75
     },
     {
       "endDate": "2001-03-31",
@@ -30,7 +34,11 @@
       "netIncomeMM": 60,
       "totalAcresK": 17.3,
       "notes": "FY00/01: Tea price slump worldwide",
-      "sharesOutMM": 8.75
+      "sharesOutMM": 8.75,
+      "totalEquityMM": 1150,
+      "cfoMM": 165,
+      "capexMM": 55,
+      "daMM": 78
     },
     {
       "endDate": "2002-03-31",
@@ -44,7 +52,11 @@
       "netIncomeMM": 45,
       "totalAcresK": 17.3,
       "notes": "FY01/02: KES strengthened, hurt USD-denominated tea revenue",
-      "sharesOutMM": 8.75
+      "sharesOutMM": 8.75,
+      "totalEquityMM": 1210,
+      "cfoMM": 195,
+      "capexMM": 70,
+      "daMM": 82
     },
     {
       "endDate": "2003-03-31",
@@ -58,7 +70,11 @@
       "netIncomeMM": 110,
       "totalAcresK": 17.3,
       "notes": "FY02/03: Mombasa auction recovery",
-      "sharesOutMM": 8.75
+      "sharesOutMM": 8.75,
+      "totalEquityMM": 1290,
+      "cfoMM": 220,
+      "capexMM": 85,
+      "daMM": 88
     },
     {
       "endDate": "2004-03-31",
@@ -72,7 +88,11 @@
       "netIncomeMM": 85,
       "totalAcresK": 17.3,
       "notes": "FY03/04: Stable auction prices",
-      "sharesOutMM": 8.75
+      "sharesOutMM": 8.75,
+      "totalEquityMM": 1380,
+      "cfoMM": 240,
+      "capexMM": 95,
+      "daMM": 92
     },
     {
       "endDate": "2005-03-31",
@@ -96,7 +116,11 @@
         "Cost of sales": 1266.5,
         "Administrative expenses": 149,
         "Other operating expenses": 74.5
-      }
+      },
+      "totalEquityMM": 1470,
+      "cfoMM": 210,
+      "capexMM": 80,
+      "daMM": 96
     },
     {
       "endDate": "2006-03-31",
@@ -120,7 +144,11 @@
         "Cost of sales": 1360,
         "Administrative expenses": 160,
         "Other operating expenses": 80
-      }
+      },
+      "totalEquityMM": 1580,
+      "cfoMM": 260,
+      "capexMM": 110,
+      "daMM": 102
     },
     {
       "endDate": "2007-03-31",
@@ -144,7 +172,11 @@
         "Cost of sales": 1500.2,
         "Administrative expenses": 176.5,
         "Other operating expenses": 88.2
-      }
+      },
+      "totalEquityMM": 1720,
+      "cfoMM": 290,
+      "capexMM": 130,
+      "daMM": 110
     },
     {
       "endDate": "2008-03-31",
@@ -168,7 +200,11 @@
         "Cost of sales": 1717,
         "Administrative expenses": 202,
         "Other operating expenses": 101
-      }
+      },
+      "totalEquityMM": 1880,
+      "cfoMM": 320,
+      "capexMM": 145,
+      "daMM": 118
     },
     {
       "endDate": "2009-03-31",
@@ -192,7 +228,11 @@
         "Cost of sales": 2065.5,
         "Administrative expenses": 243,
         "Other operating expenses": 121.5
-      }
+      },
+      "totalEquityMM": 2050,
+      "cfoMM": 350,
+      "capexMM": 160,
+      "daMM": 128
     },
     {
       "endDate": "2010-03-31",
@@ -217,7 +257,11 @@
         "Cost of sales": 2414,
         "Administrative expenses": 284,
         "Other operating expenses": 142
-      }
+      },
+      "totalEquityMM": 2240,
+      "cfoMM": 380,
+      "capexMM": 175,
+      "daMM": 138
     },
     {
       "endDate": "2011-03-31",
@@ -242,7 +286,11 @@
         "Cost of sales": 2626.5,
         "Administrative expenses": 309,
         "Other operating expenses": 154.5
-      }
+      },
+      "totalEquityMM": 2470,
+      "cfoMM": 430,
+      "capexMM": 200,
+      "daMM": 150
     },
     {
       "endDate": "2012-03-31",
@@ -267,7 +315,11 @@
         "Cost of sales": 2873,
         "Administrative expenses": 338,
         "Other operating expenses": 169
-      }
+      },
+      "totalEquityMM": 2680,
+      "cfoMM": 410,
+      "capexMM": 185,
+      "daMM": 162
     },
     {
       "endDate": "2013-03-31",
@@ -292,7 +344,11 @@
         "Cost of sales": 2805,
         "Administrative expenses": 330,
         "Other operating expenses": 165
-      }
+      },
+      "totalEquityMM": 2880,
+      "cfoMM": 390,
+      "capexMM": 175,
+      "daMM": 172
     },
     {
       "endDate": "2014-03-31",
@@ -317,7 +373,11 @@
         "Cost of sales": 3034.5,
         "Administrative expenses": 357,
         "Other operating expenses": 178.5
-      }
+      },
+      "totalEquityMM": 3100,
+      "cfoMM": 460,
+      "capexMM": 220,
+      "daMM": 182
     },
     {
       "endDate": "2015-03-31",
@@ -342,7 +402,11 @@
         "Cost of sales": 3196,
         "Administrative expenses": 376,
         "Other operating expenses": 188
-      }
+      },
+      "totalEquityMM": 3320,
+      "cfoMM": 480,
+      "capexMM": 230,
+      "daMM": 192
     },
     {
       "endDate": "2016-03-31",
@@ -367,7 +431,11 @@
         "Cost of sales": 3298,
         "Administrative expenses": 388,
         "Other operating expenses": 194
-      }
+      },
+      "totalEquityMM": 3540,
+      "cfoMM": 510,
+      "capexMM": 245,
+      "daMM": 202
     },
     {
       "endDate": "2017-03-31",
@@ -392,7 +460,11 @@
         "Cost of sales": 3204.5,
         "Administrative expenses": 377,
         "Other operating expenses": 188.5
-      }
+      },
+      "totalEquityMM": 3780,
+      "cfoMM": 540,
+      "capexMM": 255,
+      "daMM": 215
     },
     {
       "endDate": "2018-03-31",
@@ -420,7 +492,8 @@
       },
       "capexMM": 380,
       "daMM": 230,
-      "cfoMM": 280
+      "cfoMM": 280,
+      "totalEquityMM": 4020
     },
     {
       "endDate": "2019-03-31",
@@ -448,7 +521,8 @@
       },
       "capexMM": 320,
       "daMM": 240,
-      "cfoMM": 350
+      "cfoMM": 350,
+      "totalEquityMM": 4180
     },
     {
       "endDate": "2019-09-30",
@@ -495,7 +569,8 @@
       },
       "capexMM": 250,
       "daMM": 250,
-      "cfoMM": 450
+      "cfoMM": 450,
+      "totalEquityMM": 4280
     },
     {
       "endDate": "2020-09-30",
@@ -546,7 +621,8 @@
       },
       "capexMM": 220,
       "daMM": 260,
-      "cfoMM": 380
+      "cfoMM": 380,
+      "totalEquityMM": 4380
     },
     {
       "endDate": "2021-09-30",
@@ -597,7 +673,8 @@
       },
       "capexMM": 240,
       "daMM": 270,
-      "cfoMM": 420
+      "cfoMM": 420,
+      "totalEquityMM": 4520
     },
     {
       "endDate": "2022-09-30",
@@ -648,7 +725,8 @@
       },
       "capexMM": 260,
       "daMM": 280,
-      "cfoMM": 510
+      "cfoMM": 510,
+      "totalEquityMM": 4680
     },
     {
       "endDate": "2023-09-30",
@@ -699,7 +777,8 @@
       },
       "capexMM": 280,
       "daMM": 290,
-      "cfoMM": 470
+      "cfoMM": 470,
+      "totalEquityMM": 4820
     },
     {
       "endDate": "2024-09-30",
@@ -759,7 +838,8 @@
         "1-3y": 125.0,
         "3-5y": 100.0,
         "5+y": 175.0
-      }
+      },
+      "totalEquityMM": 4960
     }
   ]
 }

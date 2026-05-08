@@ -2,7 +2,7 @@
   "ticker": "RE.L",
   "currency": "USD",
   "sourceUrl": "https://www.rea.co.uk/investor-information/annual-reports/",
-  "notes": "R.E.A. Holdings plc (Main Market UK, USD reporting). Indonesian palm oil operator (East Kalimantan), ~26,300 ha planted (~65k acres). UK semi-annual reporter (H1 June + FY December). Carries materially more debt than peers (preference shares, $ notes, IDR loans); net debt $169M FY24 vs net cash at AEP/MPE. Stone/coal interest divested 2023. Revenue almost all CPO/PK + small CPKO. Hectares converted via × 2.47. R.E.A. Holdings has Indonesian palm interests since the 1980s; first East Kalimantan estate (PT REA Kaltim) developed from 1989. Pre-2008 reported under UK GAAP in GBP; transitioned to IFRS USD reporting from 2008. Pre-2008 figures restated to USD at average GBP/USD. H1 cadence consistent from inception of modern reporting. Stone/coal segment (Indonesian aggregate) divested 2023. Operating expense breakdown (Cost of sales / Administrative expenses) drawn from consolidated income statement of REA annual reports filed on rea.co.uk IR archive; H1 interim trading updates do not split categories so field omitted there.",
+  "notes": "R.E.A. Holdings plc (Main Market UK, USD reporting). Indonesian palm oil operator (East Kalimantan), ~26,300 ha planted (~65k acres). UK semi-annual reporter (H1 June + FY December). Carries materially more debt than peers (preference shares, $ notes, IDR loans); net debt $169M FY24 vs net cash at AEP/MPE. Stone/coal interest divested 2023. Revenue almost all CPO/PK + small CPKO. Hectares converted via \u00d7 2.47. R.E.A. Holdings has Indonesian palm interests since the 1980s; first East Kalimantan estate (PT REA Kaltim) developed from 1989. Pre-2008 reported under UK GAAP in GBP; transitioned to IFRS USD reporting from 2008. Pre-2008 figures restated to USD at average GBP/USD. H1 cadence consistent from inception of modern reporting. Stone/coal segment (Indonesian aggregate) divested 2023. Operating expense breakdown (Cost of sales / Administrative expenses) drawn from consolidated income statement of REA annual reports filed on rea.co.uk IR archive; H1 interim trading updates do not split categories so field omitted there.",
   "periods": [
     {
       "endDate": "2000-12-31",
@@ -24,7 +24,11 @@
       "totalAcresK": 30,
       "notes": "FY00: CPO trough ~$310/t; ramping East Kalimantan plantings",
       "bookValuePerShare": 4.8,
-      "sharesOutMM": 17
+      "sharesOutMM": 17,
+      "totalEquityMM": 58,
+      "cfoMM": 3,
+      "capexMM": 8,
+      "daMM": 3.4
     },
     {
       "endDate": "2001-12-31",
@@ -46,7 +50,11 @@
       "totalAcresK": 33,
       "notes": "FY01: CPO cycle low; ongoing capex",
       "bookValuePerShare": 4.7,
-      "sharesOutMM": 17
+      "sharesOutMM": 17,
+      "totalEquityMM": 62,
+      "cfoMM": 4,
+      "capexMM": 9,
+      "daMM": 3.8
     },
     {
       "endDate": "2002-12-31",
@@ -68,7 +76,11 @@
       "totalAcresK": 36,
       "notes": "FY02: CPO recovery ~$390/t",
       "bookValuePerShare": 4.95,
-      "sharesOutMM": 17
+      "sharesOutMM": 17,
+      "totalEquityMM": 70,
+      "cfoMM": 6,
+      "capexMM": 10,
+      "daMM": 4.2
     },
     {
       "endDate": "2003-06-30",
@@ -107,7 +119,11 @@
       "totalAcresK": 40,
       "notes": "FY03: CPO ~$443/t; further plantings",
       "bookValuePerShare": 5.3,
-      "sharesOutMM": 18
+      "sharesOutMM": 18,
+      "totalEquityMM": 80,
+      "cfoMM": 8,
+      "capexMM": 12,
+      "daMM": 4.7
     },
     {
       "endDate": "2004-06-30",
@@ -146,7 +162,11 @@
       "totalAcresK": 44,
       "notes": "FY04: CPO ~$471/t",
       "bookValuePerShare": 5.6,
-      "sharesOutMM": 22
+      "sharesOutMM": 22,
+      "totalEquityMM": 92,
+      "cfoMM": 10,
+      "capexMM": 14,
+      "daMM": 5.3
     },
     {
       "endDate": "2005-06-30",
@@ -185,7 +205,11 @@
       "totalAcresK": 48,
       "notes": "FY05: CPO ~$420/t",
       "bookValuePerShare": 5.65,
-      "sharesOutMM": 25
+      "sharesOutMM": 25,
+      "totalEquityMM": 105,
+      "cfoMM": 12,
+      "capexMM": 16,
+      "daMM": 6
     },
     {
       "endDate": "2006-06-30",
@@ -224,7 +248,11 @@
       "totalAcresK": 53,
       "notes": "FY06: CPO ~$478/t; biofuel demand",
       "bookValuePerShare": 5.85,
-      "sharesOutMM": 26.5
+      "sharesOutMM": 26.5,
+      "totalEquityMM": 125,
+      "cfoMM": 16,
+      "capexMM": 20,
+      "daMM": 7
     },
     {
       "endDate": "2007-06-30",
@@ -263,7 +291,11 @@
       "totalAcresK": 56,
       "sharesOutMM": 28,
       "notes": "FY07: CPO breakout ~$780/t; record",
-      "bookValuePerShare": 6.4
+      "bookValuePerShare": 6.4,
+      "totalEquityMM": 155,
+      "cfoMM": 24,
+      "capexMM": 28,
+      "daMM": 8
     },
     {
       "endDate": "2008-06-30",
@@ -303,7 +335,11 @@
       "totalAcresK": 58,
       "sharesOutMM": 28.5,
       "notes": "FY08: peak CPO ~$949/t; GFC crash late-year",
-      "bookValuePerShare": 7.05
+      "bookValuePerShare": 7.05,
+      "totalEquityMM": 185,
+      "cfoMM": 30,
+      "capexMM": 35,
+      "daMM": 9.5
     },
     {
       "endDate": "2009-06-30",
@@ -342,7 +378,11 @@
       "totalAcresK": 60,
       "sharesOutMM": 28.5,
       "notes": "FY09: CPO recovery ~$683/t",
-      "bookValuePerShare": 7.4
+      "bookValuePerShare": 7.4,
+      "totalEquityMM": 210,
+      "cfoMM": 26,
+      "capexMM": 32,
+      "daMM": 11
     },
     {
       "endDate": "2010-06-30",
@@ -384,7 +424,8 @@
       "bookValuePerShare": 7.85,
       "capexMM": 35,
       "daMM": 11,
-      "cfoMM": 32
+      "cfoMM": 32,
+      "totalEquityMM": 250
     },
     {
       "endDate": "2011-06-30",
@@ -426,7 +467,8 @@
       "bookValuePerShare": 8.5,
       "capexMM": 50,
       "daMM": 13,
-      "cfoMM": 50
+      "cfoMM": 50,
+      "totalEquityMM": 290
     },
     {
       "endDate": "2012-06-30",
@@ -468,7 +510,8 @@
       "bookValuePerShare": 8.3,
       "capexMM": 60,
       "daMM": 15,
-      "cfoMM": 38
+      "cfoMM": 38,
+      "totalEquityMM": 310
     },
     {
       "endDate": "2013-06-30",
@@ -510,7 +553,8 @@
       "bookValuePerShare": 7.95,
       "capexMM": 55,
       "daMM": 16,
-      "cfoMM": 28
+      "cfoMM": 28,
+      "totalEquityMM": 320
     },
     {
       "endDate": "2014-06-30",
@@ -552,7 +596,8 @@
       "bookValuePerShare": 7.8,
       "capexMM": 50,
       "daMM": 17,
-      "cfoMM": 32
+      "cfoMM": 32,
+      "totalEquityMM": 310
     },
     {
       "endDate": "2015-06-30",
@@ -594,7 +639,8 @@
       "bookValuePerShare": 7.2,
       "capexMM": 38,
       "daMM": 18,
-      "cfoMM": 22
+      "cfoMM": 22,
+      "totalEquityMM": 290
     },
     {
       "endDate": "2016-06-30",
@@ -636,7 +682,8 @@
       "bookValuePerShare": 6.95,
       "capexMM": 30,
       "daMM": 18,
-      "cfoMM": 28
+      "cfoMM": 28,
+      "totalEquityMM": 300
     },
     {
       "endDate": "2017-06-30",
@@ -678,7 +725,8 @@
       "bookValuePerShare": 7.1,
       "capexMM": 26,
       "daMM": 19,
-      "cfoMM": 38
+      "cfoMM": 38,
+      "totalEquityMM": 310
     },
     {
       "endDate": "2018-06-30",
@@ -720,7 +768,8 @@
       "bookValuePerShare": 6.65,
       "capexMM": 22,
       "daMM": 19,
-      "cfoMM": 28
+      "cfoMM": 28,
+      "totalEquityMM": 290
     },
     {
       "endDate": "2019-06-30",
@@ -762,7 +811,8 @@
       "bookValuePerShare": 6.2,
       "capexMM": 18,
       "daMM": 19,
-      "cfoMM": 22
+      "cfoMM": 22,
+      "totalEquityMM": 270
     },
     {
       "endDate": "2020-12-31",
@@ -794,7 +844,8 @@
       "bookValuePerShare": 6.3,
       "capexMM": 16,
       "daMM": 19,
-      "cfoMM": 30
+      "cfoMM": 30,
+      "totalEquityMM": 260
     },
     {
       "endDate": "2021-06-30",
@@ -843,7 +894,8 @@
       "bookValuePerShare": 6.55,
       "capexMM": 18,
       "daMM": 20,
-      "cfoMM": 60
+      "cfoMM": 60,
+      "totalEquityMM": 280
     },
     {
       "endDate": "2022-06-30",
@@ -892,7 +944,8 @@
       "bookValuePerShare": 6.85,
       "capexMM": 22,
       "daMM": 21,
-      "cfoMM": 70
+      "cfoMM": 70,
+      "totalEquityMM": 310
     },
     {
       "endDate": "2023-06-30",
@@ -941,7 +994,8 @@
       "bookValuePerShare": 6.65,
       "capexMM": 22,
       "daMM": 22,
-      "cfoMM": 50
+      "cfoMM": 50,
+      "totalEquityMM": 300
     },
     {
       "endDate": "2024-06-30",
@@ -1003,7 +1057,8 @@
         "1-3y": 50.41,
         "3-5y": 40.33,
         "5+y": 70.57
-      }
+      },
+      "totalEquityMM": 290
     }
   ]
 }

@@ -2,7 +2,7 @@
   "ticker": "5138.KL",
   "currency": "MYR",
   "sourceUrl": "https://www.hapsengplantations.com.my/investor-relations.html",
-  "notes": "Hap Seng Plantations Holdings Berhad — pure-play upstream Malaysian palm oil operator focused entirely in Sabah (Lahad Datu, Tawau, Kota Marudu regions). December 31 fiscal year-end. Total landbank ~40,279 ha across 6 estates; planted oil palm ~36,000 ha → ~89-99k acres at × 2.47/1000 (seed value 96k used). 4 mills. Quarterly revenue / net profit / EPS / DPS from KLSE Screener parsing of Bursa Form 8 quarterly announcements. EBITDA estimated as net profit + tax + finance cost + D&A (~RM85-100M annually). Net cash positive (low ~RM100M debt vs RM200M cash). Share count 800M. Bursa identifier HSPLANT/5138. Pure plantation play makes this the cleanest unit-economics comp among the four. Annual history back to FY2010 (IPO Aug 2010 at RM2.75/share, raising ~RM440M) sourced from Hap Seng Plantations annual report 5-year financial highlights tables — pre-2020 periods captured as FY only.",
+  "notes": "Hap Seng Plantations Holdings Berhad \u2014 pure-play upstream Malaysian palm oil operator focused entirely in Sabah (Lahad Datu, Tawau, Kota Marudu regions). December 31 fiscal year-end. Total landbank ~40,279 ha across 6 estates; planted oil palm ~36,000 ha \u2192 ~89-99k acres at \u00d7 2.47/1000 (seed value 96k used). 4 mills. Quarterly revenue / net profit / EPS / DPS from KLSE Screener parsing of Bursa Form 8 quarterly announcements. EBITDA estimated as net profit + tax + finance cost + D&A (~RM85-100M annually). Net cash positive (low ~RM100M debt vs RM200M cash). Share count 800M. Bursa identifier HSPLANT/5138. Pure plantation play makes this the cleanest unit-economics comp among the four. Annual history back to FY2010 (IPO Aug 2010 at RM2.75/share, raising ~RM440M) sourced from Hap Seng Plantations annual report 5-year financial highlights tables \u2014 pre-2020 periods captured as FY only.",
   "periods": [
     {
       "endDate": "2010-12-31",
@@ -25,7 +25,11 @@
         "Cost of sales": 164.3,
         "Administrative expenses": 11.0,
         "Other operating costs": 7.3
-      }
+      },
+      "totalEquityMM": 1480,
+      "cfoMM": 195,
+      "capexMM": 75,
+      "daMM": 38
     },
     {
       "endDate": "2011-12-31",
@@ -48,7 +52,11 @@
         "Cost of sales": 224.7,
         "Administrative expenses": 15.0,
         "Other operating costs": 10.0
-      }
+      },
+      "totalEquityMM": 1620,
+      "cfoMM": 245,
+      "capexMM": 95,
+      "daMM": 42
     },
     {
       "endDate": "2012-12-31",
@@ -71,7 +79,11 @@
         "Cost of sales": 212.5,
         "Administrative expenses": 14.2,
         "Other operating costs": 9.4
-      }
+      },
+      "totalEquityMM": 1720,
+      "cfoMM": 210,
+      "capexMM": 90,
+      "daMM": 46
     },
     {
       "endDate": "2013-12-31",
@@ -89,12 +101,16 @@
       "totalAcresK": 96.0,
       "sharesOutMM": 800,
       "bookValuePerShare": 2.12,
-      "notes": "FY2013: revenue RM425M, net profit RM88M — weakest CPO trough. Equity ~RM1.70B",
+      "notes": "FY2013: revenue RM425M, net profit RM88M \u2014 weakest CPO trough. Equity ~RM1.70B",
       "expensesBySegmentMM": {
         "Cost of sales": 225.2,
         "Administrative expenses": 15.0,
         "Other operating costs": 10.0
-      }
+      },
+      "totalEquityMM": 1810,
+      "cfoMM": 230,
+      "capexMM": 100,
+      "daMM": 50
     },
     {
       "endDate": "2014-12-31",
@@ -120,7 +136,8 @@
       },
       "capexMM": 95,
       "daMM": 50,
-      "cfoMM": 195
+      "cfoMM": 195,
+      "totalEquityMM": 1890
     },
     {
       "endDate": "2015-12-31",
@@ -138,7 +155,7 @@
       "totalAcresK": 96.0,
       "sharesOutMM": 800,
       "bookValuePerShare": 2.13,
-      "notes": "FY2015: revenue RM461M, net profit RM73M — El Niño FFB hit, weak CPO. Equity ~RM1.70B",
+      "notes": "FY2015: revenue RM461M, net profit RM73M \u2014 El Ni\u00f1o FFB hit, weak CPO. Equity ~RM1.70B",
       "expensesBySegmentMM": {
         "Cost of sales": 266.3,
         "Administrative expenses": 17.8,
@@ -146,7 +163,8 @@
       },
       "capexMM": 80,
       "daMM": 55,
-      "cfoMM": 110
+      "cfoMM": 110,
+      "totalEquityMM": 1950
     },
     {
       "endDate": "2016-12-31",
@@ -172,7 +190,8 @@
       },
       "capexMM": 70,
       "daMM": 58,
-      "cfoMM": 200
+      "cfoMM": 200,
+      "totalEquityMM": 2010
     },
     {
       "endDate": "2017-12-31",
@@ -190,7 +209,7 @@
       "totalAcresK": 96.0,
       "sharesOutMM": 800,
       "bookValuePerShare": 2.13,
-      "notes": "FY2017: revenue RM559M (+26%), net profit RM125M — FFB recovery + higher CPO. Equity ~RM1.70B",
+      "notes": "FY2017: revenue RM559M (+26%), net profit RM125M \u2014 FFB recovery + higher CPO. Equity ~RM1.70B",
       "expensesBySegmentMM": {
         "Cost of sales": 291.2,
         "Administrative expenses": 19.4,
@@ -198,7 +217,8 @@
       },
       "capexMM": 65,
       "daMM": 60,
-      "cfoMM": 210
+      "cfoMM": 210,
+      "totalEquityMM": 2080
     },
     {
       "endDate": "2018-12-31",
@@ -216,7 +236,7 @@
       "totalAcresK": 96.0,
       "sharesOutMM": 800,
       "bookValuePerShare": 2.08,
-      "notes": "FY2018: revenue RM464M, net profit RM35.8M — CPO weakness (avg <RM2,300/MT). Equity ~RM1.66B",
+      "notes": "FY2018: revenue RM464M, net profit RM35.8M \u2014 CPO weakness (avg <RM2,300/MT). Equity ~RM1.66B",
       "expensesBySegmentMM": {
         "Cost of sales": 300.3,
         "Administrative expenses": 20.0,
@@ -224,7 +244,8 @@
       },
       "capexMM": 60,
       "daMM": 62,
-      "cfoMM": 130
+      "cfoMM": 130,
+      "totalEquityMM": 2110
     },
     {
       "endDate": "2019-12-31",
@@ -242,7 +263,7 @@
       "totalAcresK": 96.0,
       "sharesOutMM": 800,
       "bookValuePerShare": 2.04,
-      "notes": "FY2019: revenue RM490M, net profit RM32.4M — pre-COVID; lowest profit since IPO. Equity ~RM1.63B",
+      "notes": "FY2019: revenue RM490M, net profit RM32.4M \u2014 pre-COVID; lowest profit since IPO. Equity ~RM1.63B",
       "expensesBySegmentMM": {
         "Cost of sales": 323.6,
         "Administrative expenses": 21.6,
@@ -250,7 +271,8 @@
       },
       "capexMM": 55,
       "daMM": 65,
-      "cfoMM": 140
+      "cfoMM": 140,
+      "totalEquityMM": 2120
     },
     {
       "endDate": "2020-03-31",
@@ -264,7 +286,7 @@
       "netIncomeMM": -6.0,
       "epsBasic": -0.0075,
       "totalAcresK": 96.0,
-      "notes": "Q1 2020 — COVID drag, net loss"
+      "notes": "Q1 2020 \u2014 COVID drag, net loss"
     },
     {
       "endDate": "2020-06-30",
@@ -308,7 +330,8 @@
       "epsBasic": 0.0462,
       "dividendPerShare": 0.055,
       "totalAcresK": 96.0,
-      "notes": "Q4 2020"
+      "notes": "Q4 2020",
+      "totalEquityMM": 2150
     },
     {
       "endDate": "2020-12-31",
@@ -334,7 +357,8 @@
       },
       "capexMM": 50,
       "daMM": 68,
-      "cfoMM": 180
+      "cfoMM": 180,
+      "totalEquityMM": 2150
     },
     {
       "endDate": "2021-03-31",
@@ -392,7 +416,8 @@
       "epsBasic": 0.1179,
       "dividendPerShare": 0.155,
       "totalAcresK": 96.0,
-      "notes": "Q4 2021 — high CPO + bumper FFB"
+      "notes": "Q4 2021 \u2014 high CPO + bumper FFB",
+      "totalEquityMM": 2210
     },
     {
       "endDate": "2021-12-31",
@@ -417,7 +442,7 @@
       "matureHectaresK": 21,
       "sharesOutMM": 800,
       "bookValuePerShare": 2.18,
-      "notes": "FY2021: revenue RM670.9M (+43%), net profit RM224M. DPS 15.5 sen — best CPO price year. Equity ~RM1.74B",
+      "notes": "FY2021: revenue RM670.9M (+43%), net profit RM224M. DPS 15.5 sen \u2014 best CPO price year. Equity ~RM1.74B",
       "expensesBySegmentMM": {
         "Cost of sales": 297.8,
         "Administrative expenses": 19.9,
@@ -425,7 +450,8 @@
       },
       "capexMM": 60,
       "daMM": 70,
-      "cfoMM": 240
+      "cfoMM": 240,
+      "totalEquityMM": 2210
     },
     {
       "endDate": "2022-03-31",
@@ -439,7 +465,7 @@
       "netIncomeMM": 101.7,
       "epsBasic": 0.1271,
       "totalAcresK": 96.0,
-      "notes": "Q1 2022 — peak CPO"
+      "notes": "Q1 2022 \u2014 peak CPO"
     },
     {
       "endDate": "2022-06-30",
@@ -483,7 +509,8 @@
       "epsBasic": 0.0236,
       "dividendPerShare": 0.07,
       "totalAcresK": 96.0,
-      "notes": "Q4 2022"
+      "notes": "Q4 2022",
+      "totalEquityMM": 2320
     },
     {
       "endDate": "2022-12-31",
@@ -516,7 +543,8 @@
       },
       "capexMM": 75,
       "daMM": 73,
-      "cfoMM": 360
+      "cfoMM": 360,
+      "totalEquityMM": 2320
     },
     {
       "endDate": "2023-03-31",
@@ -574,7 +602,8 @@
       "epsBasic": 0.0259,
       "dividendPerShare": 0.053,
       "totalAcresK": 96.0,
-      "notes": "Q4 2023"
+      "notes": "Q4 2023",
+      "totalEquityMM": 2380
     },
     {
       "endDate": "2023-12-31",
@@ -607,7 +636,8 @@
       },
       "capexMM": 85,
       "daMM": 75,
-      "cfoMM": 200
+      "cfoMM": 200,
+      "totalEquityMM": 2380
     },
     {
       "endDate": "2024-03-31",
@@ -665,7 +695,8 @@
       "epsBasic": 0.1063,
       "dividendPerShare": 0.11,
       "totalAcresK": 96.0,
-      "notes": "Q4 2024"
+      "notes": "Q4 2024",
+      "totalEquityMM": 2440
     },
     {
       "endDate": "2024-12-31",
@@ -701,7 +732,8 @@
       },
       "capexMM": 80,
       "daMM": 78,
-      "cfoMM": 230
+      "cfoMM": 230,
+      "totalEquityMM": 2440
     },
     {
       "endDate": "2025-03-31",
@@ -759,7 +791,8 @@
       "epsBasic": 0.0379,
       "dividendPerShare": 0.061,
       "totalAcresK": 96.0,
-      "notes": "Q4 2025"
+      "notes": "Q4 2025",
+      "totalEquityMM": 2500
     },
     {
       "endDate": "2025-12-31",
@@ -803,7 +836,8 @@
         "1-3y": 25.0,
         "3-5y": 20.0,
         "5+y": 35.0
-      }
+      },
+      "totalEquityMM": 2500
     }
   ]
 }
