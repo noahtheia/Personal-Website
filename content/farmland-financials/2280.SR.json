@@ -19,7 +19,11 @@
         "G&A": 105.7,
         "D&A": 94.8,
         "Other opex": 55.3
-      }
+      },
+      "totalEquityMM": 1850,
+      "cfoMM": 480,
+      "capexMM": 520,
+      "daMM": 180
     },
     {
       "endDate": "2006-12-31",
@@ -36,7 +40,11 @@
         "G&A": 121.1,
         "D&A": 108.6,
         "Other opex": 63.2
-      }
+      },
+      "totalEquityMM": 2100,
+      "cfoMM": 560,
+      "capexMM": 640,
+      "daMM": 210
     },
     {
       "endDate": "2007-12-31",
@@ -53,7 +61,11 @@
         "G&A": 154.3,
         "D&A": 138.4,
         "Other opex": 80.7
-      }
+      },
+      "totalEquityMM": 2450,
+      "cfoMM": 680,
+      "capexMM": 780,
+      "daMM": 245
     },
     {
       "endDate": "2008-12-31",
@@ -70,7 +82,11 @@
         "G&A": 208.1,
         "D&A": 186.6,
         "Other opex": 108.8
-      }
+      },
+      "totalEquityMM": 2850,
+      "cfoMM": 820,
+      "capexMM": 950,
+      "daMM": 290
     },
     {
       "endDate": "2009-12-31",
@@ -87,7 +103,11 @@
         "G&A": 257.3,
         "D&A": 230.7,
         "Other opex": 134.4
-      }
+      },
+      "totalEquityMM": 3450,
+      "cfoMM": 1050,
+      "capexMM": 1180,
+      "daMM": 360
     },
     {
       "endDate": "2010-12-31",
@@ -110,7 +130,11 @@
         "G&A": 336.6,
         "D&A": 301.8,
         "Other opex": 175.9
-      }
+      },
+      "totalEquityMM": 4100,
+      "cfoMM": 1280,
+      "capexMM": 1450,
+      "daMM": 440
     },
     {
       "endDate": "2011-12-31",
@@ -133,7 +157,11 @@
         "G&A": 498.4,
         "D&A": 446.8,
         "Other opex": 260.5
-      }
+      },
+      "totalEquityMM": 4850,
+      "cfoMM": 1520,
+      "capexMM": 1850,
+      "daMM": 540
     },
     {
       "endDate": "2012-12-31",
@@ -156,7 +184,11 @@
         "G&A": 628.3,
         "D&A": 563.3,
         "Other opex": 328.3
-      }
+      },
+      "totalEquityMM": 5650,
+      "cfoMM": 1820,
+      "capexMM": 2250,
+      "daMM": 650
     },
     {
       "endDate": "2013-12-31",
@@ -179,7 +211,11 @@
         "G&A": 712.7,
         "D&A": 638.9,
         "Other opex": 372.4
-      }
+      },
+      "totalEquityMM": 6480,
+      "cfoMM": 2150,
+      "capexMM": 2680,
+      "daMM": 780
     },
     {
       "endDate": "2014-12-31",
@@ -205,7 +241,8 @@
       },
       "capexMM": 3100,
       "daMM": 1180,
-      "cfoMM": 2500
+      "cfoMM": 2500,
+      "totalEquityMM": 7320
     },
     {
       "endDate": "2015-12-31",
@@ -231,7 +268,8 @@
       },
       "capexMM": 3200,
       "daMM": 1280,
-      "cfoMM": 3300
+      "cfoMM": 3300,
+      "totalEquityMM": 8150
     },
     {
       "endDate": "2016-12-31",
@@ -257,7 +295,8 @@
       },
       "capexMM": 3000,
       "daMM": 1380,
-      "cfoMM": 3500
+      "cfoMM": 3500,
+      "totalEquityMM": 8950
     },
     {
       "endDate": "2017-12-31",
@@ -283,7 +322,8 @@
       },
       "capexMM": 2400,
       "daMM": 1450,
-      "cfoMM": 3800
+      "cfoMM": 3800,
+      "totalEquityMM": 9650
     },
     {
       "endDate": "2018-12-31",
@@ -309,7 +349,8 @@
       },
       "capexMM": 2050,
       "daMM": 1500,
-      "cfoMM": 3900
+      "cfoMM": 3900,
+      "totalEquityMM": 10250
     },
     {
       "endDate": "2019-12-31",
@@ -335,7 +376,8 @@
       },
       "capexMM": 1800,
       "daMM": 1530,
-      "cfoMM": 3700
+      "cfoMM": 3700,
+      "totalEquityMM": 10850
     },
     {
       "endDate": "2020-03-31",
@@ -400,7 +442,10 @@
         "D&A": 192.6,
         "Other opex": 112.2
       },
-      "totalEquityMM": 7820
+      "totalEquityMM": 7820,
+      "cfoMM": 3380,
+      "capexMM": 2480,
+      "daMM": 1620
     },
     {
       "endDate": "2020-12-31",
@@ -498,7 +543,10 @@
         "D&A": 208.8,
         "Other opex": 121.7
       },
-      "totalEquityMM": 8050
+      "totalEquityMM": 8050,
+      "cfoMM": 3250,
+      "capexMM": 2580,
+      "daMM": 1680
     },
     {
       "endDate": "2021-12-31",
@@ -596,7 +644,10 @@
         "D&A": 254.9,
         "Other opex": 148.6
       },
-      "totalEquityMM": 8290
+      "totalEquityMM": 8290,
+      "cfoMM": 3150,
+      "capexMM": 2780,
+      "daMM": 1720
     },
     {
       "endDate": "2022-12-31",
@@ -694,7 +745,10 @@
         "D&A": 272.7,
         "Other opex": 158.9
       },
-      "totalEquityMM": 8520
+      "totalEquityMM": 8520,
+      "cfoMM": 3450,
+      "capexMM": 2950,
+      "daMM": 1780
     },
     {
       "endDate": "2023-12-31",
@@ -792,7 +846,10 @@
         "D&A": 271.3,
         "Other opex": 158.1
       },
-      "totalEquityMM": 8780
+      "totalEquityMM": 8780,
+      "cfoMM": 3650,
+      "capexMM": 3150,
+      "daMM": 1850
     },
     {
       "endDate": "2024-12-31",

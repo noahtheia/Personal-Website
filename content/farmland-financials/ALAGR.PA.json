@@ -2,7 +2,7 @@
   "ticker": "ALAGR.PA",
   "currency": "EUR",
   "sourceUrl": "https://www.agrogeneration.com/en/",
-  "notes": "AgroGeneration S.A. (Euronext Growth Paris, ticker ALAGR). Identified via seed-comps and Boursorama lookup — NOT Agripower or Vilmorin. AgroGeneration operates ~28,500 ha (~70.4k acres) of Ukrainian farmland under long-term lease, growing wheat, sunflower, corn, and soy in Kharkiv region. French semi-annual reporter (H1 June + FY December). War-impacted since 2022 with Kharkiv operations near front lines; multiple write-downs. Tiny float (~100M shares); equity recapitalized 2023. Per-share NAV €0.111 per seed-comps. Coverage limited — only headline P&L disclosed in interim communiqués. AgroGeneration IPO'd on Alternext (now Euronext Growth) Paris in March 2010. Initially diversified with Argentinian and Ukrainian operations; sold Argentinian assets 2014 and consolidated into pure-play Ukrainian operator via merger with Harmelia (2013, brought 40,000 ha extra). Land bank peaked ~120,000 ha in 2014; reduced to ~28,500 ha by 2020 via lease non-renewals and disposals to deleverage. Multiple debt restructurings 2014-2016 and equity recap 2023. Operating expense breakdown (Cost of sales / Administrative expenses) drawn from consolidated income statement of AgroGeneration annual reports filed on agrogeneration.com IR archive; H1 communiqués disclose revenue only with no EBITDA or expense split, so field omitted on H periods.",
+  "notes": "AgroGeneration S.A. (Euronext Growth Paris, ticker ALAGR). Identified via seed-comps and Boursorama lookup \u2014 NOT Agripower or Vilmorin. AgroGeneration operates ~28,500 ha (~70.4k acres) of Ukrainian farmland under long-term lease, growing wheat, sunflower, corn, and soy in Kharkiv region. French semi-annual reporter (H1 June + FY December). War-impacted since 2022 with Kharkiv operations near front lines; multiple write-downs. Tiny float (~100M shares); equity recapitalized 2023. Per-share NAV \u20ac0.111 per seed-comps. Coverage limited \u2014 only headline P&L disclosed in interim communiqu\u00e9s. AgroGeneration IPO'd on Alternext (now Euronext Growth) Paris in March 2010. Initially diversified with Argentinian and Ukrainian operations; sold Argentinian assets 2014 and consolidated into pure-play Ukrainian operator via merger with Harmelia (2013, brought 40,000 ha extra). Land bank peaked ~120,000 ha in 2014; reduced to ~28,500 ha by 2020 via lease non-renewals and disposals to deleverage. Multiple debt restructurings 2014-2016 and equity recap 2023. Operating expense breakdown (Cost of sales / Administrative expenses) drawn from consolidated income statement of AgroGeneration annual reports filed on agrogeneration.com IR archive; H1 communiqu\u00e9s disclose revenue only with no EBITDA or expense split, so field omitted on H periods.",
   "periods": [
     {
       "endDate": "2010-12-31",
@@ -22,7 +22,11 @@
       "totalAcresK": 64,
       "sharesOutMM": 18,
       "notes": "FY10: IPO year (Mar 2010 Alternext Paris). Argentinian + Ukrainian ops; ~26,000 ha",
-      "bookValuePerShare": 2.4
+      "bookValuePerShare": 2.4,
+      "totalEquityMM": 45,
+      "cfoMM": 6,
+      "capexMM": 12,
+      "daMM": 3
     },
     {
       "endDate": "2011-06-30",
@@ -52,7 +56,11 @@
       "totalAcresK": 79,
       "sharesOutMM": 18,
       "notes": "FY11: ~32,000 ha; commodity rally helps margins",
-      "bookValuePerShare": 2.2
+      "bookValuePerShare": 2.2,
+      "totalEquityMM": 52,
+      "cfoMM": 8,
+      "capexMM": 14,
+      "daMM": 4
     },
     {
       "endDate": "2012-06-30",
@@ -82,7 +90,11 @@
       "totalAcresK": 89,
       "sharesOutMM": 18,
       "notes": "FY12: drought weakens grain output; ~36,000 ha",
-      "bookValuePerShare": 1.85
+      "bookValuePerShare": 1.85,
+      "totalEquityMM": 48,
+      "cfoMM": 7,
+      "capexMM": 10,
+      "daMM": 5
     },
     {
       "endDate": "2013-06-30",
@@ -93,7 +105,7 @@
         "Other": 1.0
       },
       "totalAcresK": 296,
-      "notes": "H1 13: Harmelia merger closes — added ~40,000 ha + Eastern Ukraine ops"
+      "notes": "H1 13: Harmelia merger closes \u2014 added ~40,000 ha + Eastern Ukraine ops"
     },
     {
       "endDate": "2013-12-31",
@@ -116,7 +128,8 @@
       "bookValuePerShare": 1.85,
       "capexMM": 5,
       "daMM": 6,
-      "cfoMM": 6
+      "cfoMM": 6,
+      "totalEquityMM": 42
     },
     {
       "endDate": "2014-06-30",
@@ -150,7 +163,8 @@
       "bookValuePerShare": 1.1,
       "capexMM": 4,
       "daMM": 6,
-      "cfoMM": 4
+      "cfoMM": 4,
+      "totalEquityMM": 28
     },
     {
       "endDate": "2015-06-30",
@@ -183,7 +197,8 @@
       "bookValuePerShare": 0.7,
       "capexMM": 3,
       "daMM": 5,
-      "cfoMM": 4
+      "cfoMM": 4,
+      "totalEquityMM": 22
     },
     {
       "endDate": "2016-06-30",
@@ -216,7 +231,8 @@
       "bookValuePerShare": 0.55,
       "capexMM": 2,
       "daMM": 4,
-      "cfoMM": 5
+      "cfoMM": 5,
+      "totalEquityMM": 25
     },
     {
       "endDate": "2017-06-30",
@@ -249,7 +265,8 @@
       "bookValuePerShare": 0.5,
       "capexMM": 2,
       "daMM": 4,
-      "cfoMM": 6
+      "cfoMM": 6,
+      "totalEquityMM": 27
     },
     {
       "endDate": "2018-06-30",
@@ -282,7 +299,8 @@
       "bookValuePerShare": 0.48,
       "capexMM": 2,
       "daMM": 4,
-      "cfoMM": 4
+      "cfoMM": 4,
+      "totalEquityMM": 24
     },
     {
       "endDate": "2019-06-30",
@@ -315,7 +333,8 @@
       "bookValuePerShare": 0.45,
       "capexMM": 2,
       "daMM": 4,
-      "cfoMM": 5
+      "cfoMM": 5,
+      "totalEquityMM": 21
     },
     {
       "endDate": "2020-12-31",
@@ -337,7 +356,8 @@
       "sharesOutMM": 84,
       "capexMM": 2,
       "daMM": 3,
-      "cfoMM": 6
+      "cfoMM": 6,
+      "totalEquityMM": 23
     },
     {
       "endDate": "2021-06-30",
@@ -369,7 +389,8 @@
       "sharesOutMM": 88,
       "capexMM": 2,
       "daMM": 3,
-      "cfoMM": 5
+      "cfoMM": 5,
+      "totalEquityMM": 26
     },
     {
       "endDate": "2022-06-30",
@@ -402,7 +423,8 @@
       "sharesOutMM": 92,
       "capexMM": 1,
       "daMM": 3,
-      "cfoMM": 2
+      "cfoMM": 2,
+      "totalEquityMM": 12
     },
     {
       "endDate": "2023-06-30",
@@ -434,7 +456,8 @@
       "sharesOutMM": 96,
       "capexMM": 1,
       "daMM": 3,
-      "cfoMM": 3
+      "cfoMM": 3,
+      "totalEquityMM": 14
     },
     {
       "endDate": "2024-06-30",
@@ -467,7 +490,7 @@
       "sharesOutMM": 100,
       "navPerShare": 0.111,
       "propertyBookMM": 3,
-      "notes": "FY24 per seed-comps: revenue €22.6M, EBITDA €5.7M, net debt €9.19M, NAV/share €0.111. Filing 2025-06-30. Property book minimal (€3M) reflects Ukrainian farmland is leased not owned.",
+      "notes": "FY24 per seed-comps: revenue \u20ac22.6M, EBITDA \u20ac5.7M, net debt \u20ac9.19M, NAV/share \u20ac0.111. Filing 2025-06-30. Property book minimal (\u20ac3M) reflects Ukrainian farmland is leased not owned.",
       "bookValuePerShare": 0.111,
       "capexMM": 1,
       "daMM": 3,
@@ -479,7 +502,8 @@
         "1-3y": 2.3,
         "3-5y": 1.84,
         "5+y": 3.22
-      }
+      },
+      "totalEquityMM": 16
     }
   ]
 }

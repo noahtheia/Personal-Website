@@ -23,7 +23,10 @@
       "bookValuePerShare": 0.1,
       "dividendPerShare": 0,
       "notes": "FY20 (ended Jun 30 2020): revenue AUD 25.0M. EBITDA AUD -1.5M. Net loss AUD 4.2M. Pre-strategic-review baseline.",
-      "totalEquityMM": 35
+      "totalEquityMM": 35,
+      "cfoMM": 1,
+      "capexMM": 2,
+      "daMM": 1
     },
     {
       "endDate": "2021-06-30",
@@ -44,7 +47,10 @@
       "bookValuePerShare": 0.09,
       "dividendPerShare": 0,
       "notes": "FY21 (ended Jun 30 2021): revenue AUD 26.4M. EBITDA AUD -0.7M. Net loss AUD 3.6M.",
-      "totalEquityMM": 42
+      "totalEquityMM": 42,
+      "cfoMM": 1,
+      "capexMM": 2,
+      "daMM": 1
     },
     {
       "endDate": "2022-06-30",
@@ -65,7 +71,9 @@
       "bookValuePerShare": 0.08,
       "dividendPerShare": 0,
       "notes": "FY22 (ended Jun 30 2022): revenue AUD 28.2M. EBITDA AUD -1.8M. Persistent losses. Strategic review of farm portfolio.",
-      "totalEquityMM": 48
+      "totalEquityMM": 48,
+      "capexMM": 1,
+      "daMM": 1
     },
     {
       "endDate": "2023-06-30",
@@ -86,7 +94,10 @@
       "bookValuePerShare": 0.06,
       "dividendPerShare": 0,
       "notes": "FY23 (ended Jun 30 2023): revenue AUD 27.5M. EBITDA AUD -2.5M. Net loss AUD 5.8M. Continued losses; farm divestment underway.",
-      "totalEquityMM": 45
+      "totalEquityMM": 45,
+      "cfoMM": 1,
+      "capexMM": 1,
+      "daMM": 1
     },
     {
       "endDate": "2024-06-30",
@@ -107,7 +118,10 @@
       "bookValuePerShare": 0.05,
       "dividendPerShare": 0,
       "notes": "FY24 (ended Jun 30 2024): revenue AUD 24.8M. EBITDA AUD -1.2M. Net loss AUD 3.8M. Sold one farm; debt reduced. Focus on Camperdown processing + branded.",
-      "totalEquityMM": 50
+      "totalEquityMM": 50,
+      "cfoMM": 1,
+      "capexMM": 1,
+      "daMM": 1
     },
     {
       "endDate": "2025-06-30",
@@ -135,7 +149,11 @@
         "1-3y": 1.62,
         "3-5y": 0.97,
         "5+y": 1.3
-      }
+      },
+      "totalEquityMM": 11,
+      "cfoMM": 1,
+      "capexMM": 1,
+      "daMM": 1
     },
     {
       "endDate": "2020-12-31",

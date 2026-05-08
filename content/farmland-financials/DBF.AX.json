@@ -2,7 +2,7 @@
   "ticker": "DBF.AX",
   "currency": "AUD",
   "sourceUrl": "https://www.duxton.com.au/dbf-investor-info",
-  "notes": "Duxton Broadacre Farms (DBF) — ASX-listed broadacre cropping operator (NSW Riverina), IPO 2018. Fiscal year ends 30 June; H1 ends 31 December. ~18,000 ha (~44.8K acres) of owned/leased farms growing cotton, wheat/cereals, pulses, oilseeds plus livestock. Land carried on book-cost basis (depreciated cost), NOT fair value — independent valuations performed periodically and disclosed in notes (latest indicative ~$158M vs ~$121.6M book). Production highly weather-dependent; FY22-FY23 strong cotton harvests, FY24-FY25 dry seasonal conditions reduced yields. DBF listed on ASX 19 Feb 2018 (IPO at $1.50/share, ~$96M raised).",
+  "notes": "Duxton Broadacre Farms (DBF) \u2014 ASX-listed broadacre cropping operator (NSW Riverina), IPO 2018. Fiscal year ends 30 June; H1 ends 31 December. ~18,000 ha (~44.8K acres) of owned/leased farms growing cotton, wheat/cereals, pulses, oilseeds plus livestock. Land carried on book-cost basis (depreciated cost), NOT fair value \u2014 independent valuations performed periodically and disclosed in notes (latest indicative ~$158M vs ~$121.6M book). Production highly weather-dependent; FY22-FY23 strong cotton harvests, FY24-FY25 dry seasonal conditions reduced yields. DBF listed on ASX 19 Feb 2018 (IPO at $1.50/share, ~$96M raised).",
   "periods": [
     {
       "endDate": "2018-06-30",
@@ -26,7 +26,10 @@
       "navPerShare": 0.97,
       "totalAcresK": 44.8,
       "notes": "FY18 part-year (DBF listed 19 Feb 2018): post-IPO partial-year revenue $7.5M as portfolio came under management. Drought conditions across Riverina.",
-      "bookValuePerShare": 0.97
+      "bookValuePerShare": 0.97,
+      "cfoMM": 4,
+      "capexMM": 6,
+      "daMM": 2
     },
     {
       "endDate": "2018-12-31",
@@ -72,7 +75,10 @@
       "navPerShare": 0.98,
       "totalAcresK": 44.8,
       "notes": "FY19: revenue $22M, broadly break-even EBITDA. First full FY post-IPO; severe drought year across NSW.",
-      "bookValuePerShare": 0.98
+      "bookValuePerShare": 0.98,
+      "cfoMM": 5,
+      "capexMM": 8,
+      "daMM": 3
     },
     {
       "endDate": "2019-12-31",
@@ -218,7 +224,7 @@
       "capexMM": 7,
       "daMM": 1.7,
       "cfoMM": 14,
-      "notes": "FY22: revenue $49.5M, EBITDA $18M. Strong cotton year on La Niña wet conditions.",
+      "notes": "FY22: revenue $49.5M, EBITDA $18M. Strong cotton year on La Ni\u00f1a wet conditions.",
       "bookValuePerShare": 1.13
     },
     {
@@ -283,7 +289,7 @@
       "ebitdaMM": -3,
       "netIncomeMM": -5.5,
       "totalAcresK": 44.8,
-      "notes": "1HFY24: revenue collapsed to $14M as El Niño dry pattern returned."
+      "notes": "1HFY24: revenue collapsed to $14M as El Ni\u00f1o dry pattern returned."
     },
     {
       "endDate": "2024-06-30",
@@ -366,7 +372,7 @@
       "capexMM": 4,
       "daMM": 2.2,
       "cfoMM": -7,
-      "notes": "FY25 Annual Report (released 30 Sep 2025): revenue $24.08M, EBITDA $(9.02)M, NAV/share $1.03. Independent indicative property valuation ~$158M vs $121.6M book — implied ~30% mark-to-market upside.",
+      "notes": "FY25 Annual Report (released 30 Sep 2025): revenue $24.08M, EBITDA $(9.02)M, NAV/share $1.03. Independent indicative property valuation ~$158M vs $121.6M book \u2014 implied ~30% mark-to-market upside.",
       "bookValuePerShare": 1.03,
       "interestExpenseMM": 7.64,
       "weightedAvgDebtRate": 7.0,

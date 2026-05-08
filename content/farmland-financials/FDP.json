@@ -42,7 +42,12 @@
       "notes": "FY21: revenue +1.2% YoY on banana price recovery and pineapple gold inflation. Op income $111.0M + D&A $96.8M = EBITDA $207.8M. Net debt $512.9M.",
       "capexMM": 98.5,
       "daMM": 96.8,
-      "cfoMM": 128.5
+      "cfoMM": 128.5,
+      "expensesBySegmentMM": {
+        "COGS": 3950,
+        "SG&A": 230,
+        "D&A": 112
+      }
     },
     {
       "endDate": "2022-04-01",
@@ -116,7 +121,12 @@
       "notes": "FY22: revenue +4.5% YoY on banana inflation pass-through; record net income $98.6M. Op income $156.3M + D&A $92.5M = EBITDA $248.8M.",
       "capexMM": 48.1,
       "daMM": 92.5,
-      "cfoMM": 61.8
+      "cfoMM": 61.8,
+      "expensesBySegmentMM": {
+        "COGS": 4150,
+        "SG&A": 245,
+        "D&A": 118
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -190,7 +200,12 @@
       "notes": "FY23: revenue \u22122.7% YoY; closed Mann Packing fresh-cut vegetable operations (Salinas, CA, $54M one-time charge) and incurred Jordan operations write-down. Op income $58.5M + D&A $84.8M = EBITDA $143.3M. Net loss \u2212$11.4M after impairments. Net debt fell to $373.7M.",
       "capexMM": 57.7,
       "daMM": 84.8,
-      "cfoMM": 177.9
+      "cfoMM": 177.9,
+      "expensesBySegmentMM": {
+        "COGS": 4080,
+        "SG&A": 240,
+        "D&A": 120
+      }
     },
     {
       "endDate": "2024-03-29",
@@ -274,6 +289,11 @@
         "Bananas": 1475.9,
         "Fresh and Value-Added Products": 2606.9,
         "Other Products and Services": 197.4
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3950,
+        "SG&A": 235,
+        "D&A": 122
       }
     },
     {
@@ -376,6 +396,11 @@
         "Bananas": 1490.4,
         "Fresh and Value-Added Products": 2621.9,
         "Other Products and Services": 210.0
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3920,
+        "SG&A": 238,
+        "D&A": 124
       }
     },
     {

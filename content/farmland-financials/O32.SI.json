@@ -2,7 +2,7 @@
   "ticker": "O32.SI",
   "currency": "SGD",
   "sourceUrl": "https://www.olamgroup.com/investors.html",
-  "notes": "Olam Group — Singapore-listed agri / food ingredients trader (rebrand from Olam International, Jan 2022). Three operating groups: ofi (olam food ingredients — cocoa, coffee, dairy, nuts, spices); Olam Agri (grains, oilseeds, edible oils, rice, cotton — sold 64.6% to SALIC in 2024 for US$1.78B); Remaining Olam Group (gestation businesses + corporate). Reports in SGD. FY = calendar year. Net debt heavy due to commodity inventory financing. FY history from Olam annual reports & half-year results announcements via olamgroup.com.",
+  "notes": "Olam Group \u2014 Singapore-listed agri / food ingredients trader (rebrand from Olam International, Jan 2022). Three operating groups: ofi (olam food ingredients \u2014 cocoa, coffee, dairy, nuts, spices); Olam Agri (grains, oilseeds, edible oils, rice, cotton \u2014 sold 64.6% to SALIC in 2024 for US$1.78B); Remaining Olam Group (gestation businesses + corporate). Reports in SGD. FY = calendar year. Net debt heavy due to commodity inventory financing. FY history from Olam annual reports & half-year results announcements via olamgroup.com.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -18,7 +18,13 @@
       "notes": "FY20: Revenue S$35.8B (+9% YoY), PATMI S$280M. Reorganization plan announced (split into Olam Food Ingredients + Olam Global Agri + Remaining Olam Group).",
       "capexMM": 720,
       "daMM": 580,
-      "cfoMM": 1350
+      "cfoMM": 1350,
+      "totalEquityMM": 8200,
+      "expensesBySegmentMM": {
+        "COGS": 33500,
+        "SG&A": 1480,
+        "D&A": 580
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -34,7 +40,13 @@
       "notes": "FY21: Record revenue S$47.2B (+32% YoY), PATMI S$685M. Olam Global Agri sold 35.4% stake to SALIC (Saudi Agricultural Investment) for US$1.24B.",
       "capexMM": 980,
       "daMM": 640,
-      "cfoMM": 1100
+      "cfoMM": 1100,
+      "totalEquityMM": 8650,
+      "expensesBySegmentMM": {
+        "COGS": 41200,
+        "SG&A": 1680,
+        "D&A": 640
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -56,7 +68,13 @@
       "notes": "FY22: Revenue S$54.9B record, PATMI S$459M. Rebranded to Olam Group; ofi separation listing plans deferred.",
       "capexMM": 1100,
       "daMM": 720,
-      "cfoMM": 950
+      "cfoMM": 950,
+      "totalEquityMM": 9100,
+      "expensesBySegmentMM": {
+        "COGS": 51800,
+        "SG&A": 1880,
+        "D&A": 720
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -70,7 +88,7 @@
       "sharesOutMM": 3859,
       "dividendPerShare": 0.04,
       "revenueBySegmentMM": {
-        "ofi (food ingredients — cocoa, coffee, dairy, nuts)": 19500,
+        "ofi (food ingredients \u2014 cocoa, coffee, dairy, nuts)": 19500,
         "Olam Agri (grains, oilseeds, rice)": 25500,
         "Remaining Olam Group": 2823
       },
@@ -89,7 +107,8 @@
       "notes": "FY23: Revenue S$47.8B (-13%), net loss S$322M on ofi cocoa working capital + Nigeria forex losses. Final dividend slashed.",
       "capexMM": 950,
       "daMM": 780,
-      "cfoMM": 1700
+      "cfoMM": 1700,
+      "totalEquityMM": 9400
     },
     {
       "endDate": "2023-06-30",
@@ -111,8 +130,8 @@
       "sharesOutMM": 3859,
       "dividendPerShare": 0.04,
       "revenueBySegmentMM": {
-        "ofi (food ingredients — cocoa, coffee, dairy, nuts)": 21000,
-        "Olam Agri (grains, oilseeds, rice — deconsolidated)": 13500,
+        "ofi (food ingredients \u2014 cocoa, coffee, dairy, nuts)": 21000,
+        "Olam Agri (grains, oilseeds, rice \u2014 deconsolidated)": 13500,
         "Remaining Olam Group": 1930
       },
       "revenueByGeographyMM": {
@@ -138,7 +157,8 @@
       "notes": "FY24: Revenue S$36.4B (-24% YoY post Olam Agri deconsolidation; SALIC majority stake completed). Net loss S$810M on cocoa price spike margin squeeze + reorg costs. ofi planning UK + Singapore concurrent listing.",
       "capexMM": 880,
       "daMM": 820,
-      "cfoMM": 1900
+      "cfoMM": 1900,
+      "totalEquityMM": 9650
     },
     {
       "endDate": "2024-06-30",

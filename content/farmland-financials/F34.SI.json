@@ -2,7 +2,7 @@
   "ticker": "F34.SI",
   "currency": "USD",
   "sourceUrl": "https://www.wilmar-international.com/investor-relations",
-  "notes": "Wilmar International — Singapore-listed diversified agribusiness (Asia's largest palm + grain + sugar processor / trader). Reports in USD. Segments: Food Products (consumer pack oils, rice, flour, noodles in China/India/Africa); Feed & Industrial Products (oilseeds crush, palm refining, sugar milling, oleochemicals); Plantation & Sugar Milling (~230k ha planted oil palm Indonesia/Malaysia/Africa + Australia sugar). FY = calendar year. Net debt is high but largely working-capital-funded inventory (commodity trading book). FY history sourced from issuer annual reports / earnings releases via wilmar-international.com.",
+  "notes": "Wilmar International \u2014 Singapore-listed diversified agribusiness (Asia's largest palm + grain + sugar processor / trader). Reports in USD. Segments: Food Products (consumer pack oils, rice, flour, noodles in China/India/Africa); Feed & Industrial Products (oilseeds crush, palm refining, sugar milling, oleochemicals); Plantation & Sugar Milling (~230k ha planted oil palm Indonesia/Malaysia/Africa + Australia sugar). FY = calendar year. Net debt is high but largely working-capital-funded inventory (commodity trading book). FY history sourced from issuer annual reports / earnings releases via wilmar-international.com.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -15,10 +15,16 @@
       "netDebtMM": 28500,
       "sharesOutMM": 6320,
       "dividendPerShare": 0.155,
-      "notes": "FY20: Revenue US$50.5B (+18% YoY), core net profit US$1.53B — record year on COVID consumer-pack demand and palm rally.",
+      "notes": "FY20: Revenue US$50.5B (+18% YoY), core net profit US$1.53B \u2014 record year on COVID consumer-pack demand and palm rally.",
       "capexMM": 1100,
       "daMM": 1050,
-      "cfoMM": 2750
+      "cfoMM": 2750,
+      "totalEquityMM": 21800,
+      "expensesBySegmentMM": {
+        "COGS": 46200,
+        "SG&A": 2150,
+        "D&A": 920
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -31,10 +37,16 @@
       "netDebtMM": 34800,
       "sharesOutMM": 6320,
       "dividendPerShare": 0.155,
-      "notes": "FY21: Revenue US$65.8B (+30% YoY) on commodity inflation, core net profit US$1.89B — record. YKA (China subsidiary) listed on Shenzhen ChiNext Oct-2020.",
+      "notes": "FY21: Revenue US$65.8B (+30% YoY) on commodity inflation, core net profit US$1.89B \u2014 record. YKA (China subsidiary) listed on Shenzhen ChiNext Oct-2020.",
       "capexMM": 1450,
       "daMM": 1130,
-      "cfoMM": 1100
+      "cfoMM": 1100,
+      "totalEquityMM": 22500,
+      "expensesBySegmentMM": {
+        "COGS": 60800,
+        "SG&A": 2480,
+        "D&A": 1020
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -58,7 +70,13 @@
       "notes": "FY22: Revenue US$73.4B all-time high; core net profit US$2.40B record on Russia/Ukraine grain disruption + sugar rally. Highest interim dividend ever (S$0.06).",
       "capexMM": 1700,
       "daMM": 1230,
-      "cfoMM": 1500
+      "cfoMM": 1500,
+      "totalEquityMM": 23200,
+      "expensesBySegmentMM": {
+        "COGS": 70500,
+        "SG&A": 2680,
+        "D&A": 1120
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -94,7 +112,8 @@
       "notes": "FY23: Revenue US$67.2B (-9% YoY), core profit US$1.53B (-36% YoY) on oilseeds crush margin compression in China + sugar plant ramp.",
       "capexMM": 1500,
       "daMM": 1290,
-      "cfoMM": 4400
+      "cfoMM": 4400,
+      "totalEquityMM": 22900
     },
     {
       "endDate": "2023-06-30",
@@ -143,10 +162,11 @@
         "3-5y": 3200,
         "5+y": 2000
       },
-      "notes": "FY24: Revenue flat US$67.4B; core profit US$1.17B — weakest in 4 years on China consumer pack volumes + plantation profit drag. Anti-bribery probe Indonesia ongoing.",
+      "notes": "FY24: Revenue flat US$67.4B; core profit US$1.17B \u2014 weakest in 4 years on China consumer pack volumes + plantation profit drag. Anti-bribery probe Indonesia ongoing.",
       "capexMM": 1450,
       "daMM": 1340,
-      "cfoMM": 4100
+      "cfoMM": 4100,
+      "totalEquityMM": 22700
     },
     {
       "endDate": "2024-06-30",

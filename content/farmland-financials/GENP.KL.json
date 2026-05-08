@@ -2,7 +2,7 @@
   "ticker": "GENP.KL",
   "currency": "MYR",
   "sourceUrl": "https://www.gentingplantations.com/financial-highlights.html",
-  "notes": "Genting Plantations Berhad — diversified palm oil + property + biotech (palm tissue culture). ~204,000 ha (~504,000 acres) planted in Malaysia and Indonesia. Calendar fiscal year (Dec 31). Quarterly data from Bursa Malaysia Form 8 quarterly results announcements; annual data from 2020-2024 annual reports. Three reportable segments per IFRS 8: Plantation (FFB, CPO, PK), Property (Genting Indahpura, Genting Premium Outlets development), and Biotech (palm tissue culture / R&D). Acres = planted ha × 2.47 / 1000. Net debt = total borrowings − cash & deposits. Property book includes plantation development expenditure + property under development. Some quarterly EBITDA approximated from PBT + finance costs + D&A. Pre-2020 annual data compiled from Genting Plantations 10-year financial highlights tables (FY1995-FY2019) on the IR site, supplemented by historical annual reports filed with Bursa Malaysia. Renamed from Asiatic Development to Genting Plantations in Sep 2009. Indonesia plantations (Kalimantan, Sumatra) acquired progressively starting 2005 — pre-2005 acreage is Malaysia-only (~50-80k ha). Property segment material from FY2008 (Indahpura development); biotech immaterial in scope (~RM10M revenue). Earliest years had no biotech segment.",
+  "notes": "Genting Plantations Berhad \u2014 diversified palm oil + property + biotech (palm tissue culture). ~204,000 ha (~504,000 acres) planted in Malaysia and Indonesia. Calendar fiscal year (Dec 31). Quarterly data from Bursa Malaysia Form 8 quarterly results announcements; annual data from 2020-2024 annual reports. Three reportable segments per IFRS 8: Plantation (FFB, CPO, PK), Property (Genting Indahpura, Genting Premium Outlets development), and Biotech (palm tissue culture / R&D). Acres = planted ha \u00d7 2.47 / 1000. Net debt = total borrowings \u2212 cash & deposits. Property book includes plantation development expenditure + property under development. Some quarterly EBITDA approximated from PBT + finance costs + D&A. Pre-2020 annual data compiled from Genting Plantations 10-year financial highlights tables (FY1995-FY2019) on the IR site, supplemented by historical annual reports filed with Bursa Malaysia. Renamed from Asiatic Development to Genting Plantations in Sep 2009. Indonesia plantations (Kalimantan, Sumatra) acquired progressively starting 2005 \u2014 pre-2005 acreage is Malaysia-only (~50-80k ha). Property segment material from FY2008 (Indahpura development); biotech immaterial in scope (~RM10M revenue). Earliest years had no biotech segment.",
   "periods": [
     {
       "endDate": "1995-12-31",
@@ -19,7 +19,11 @@
         "G&A": 5.8,
         "D&A": 9.8
       },
-      "notes": "FY1995 (Asiatic Development era): CPO ASP RM1,290/MT, all-Malaysia upstream; ~68k ha planted. Equity ~RM455M"
+      "notes": "FY1995 (Asiatic Development era): CPO ASP RM1,290/MT, all-Malaysia upstream; ~68k ha planted. Equity ~RM455M",
+      "totalEquityMM": 380,
+      "cfoMM": 45,
+      "capexMM": 60,
+      "daMM": 18
     },
     {
       "endDate": "1996-12-31",
@@ -36,7 +40,11 @@
         "G&A": 6.5,
         "D&A": 10.9
       },
-      "notes": "FY1996: CPO ASP RM1,177/MT. Equity ~RM505M"
+      "notes": "FY1996: CPO ASP RM1,177/MT. Equity ~RM505M",
+      "totalEquityMM": 420,
+      "cfoMM": 55,
+      "capexMM": 70,
+      "daMM": 22
     },
     {
       "endDate": "1997-12-31",
@@ -53,7 +61,11 @@
         "G&A": 7.8,
         "D&A": 13.1
       },
-      "notes": "FY1997: CPO ASP RM1,505/MT, Asian crisis FX gains. Equity ~RM580M"
+      "notes": "FY1997: CPO ASP RM1,505/MT, Asian crisis FX gains. Equity ~RM580M",
+      "totalEquityMM": 460,
+      "cfoMM": 65,
+      "capexMM": 80,
+      "daMM": 26
     },
     {
       "endDate": "1998-12-31",
@@ -70,7 +82,11 @@
         "G&A": 9.6,
         "D&A": 15.9
       },
-      "notes": "FY1998: CPO peak RM2,365/MT post-Asian crisis. Equity ~RM700M"
+      "notes": "FY1998: CPO peak RM2,365/MT post-Asian crisis. Equity ~RM700M",
+      "totalEquityMM": 510,
+      "cfoMM": 75,
+      "capexMM": 90,
+      "daMM": 30
     },
     {
       "endDate": "1999-12-31",
@@ -87,7 +103,11 @@
         "G&A": 10.0,
         "D&A": 16.7
       },
-      "notes": "FY1999: CPO ASP RM1,460/MT retreat. Equity ~RM770M"
+      "notes": "FY1999: CPO ASP RM1,460/MT retreat. Equity ~RM770M",
+      "totalEquityMM": 560,
+      "cfoMM": 85,
+      "capexMM": 100,
+      "daMM": 34
     },
     {
       "endDate": "2000-12-31",
@@ -104,7 +124,11 @@
         "G&A": 9.2,
         "D&A": 15.2
       },
-      "notes": "FY2000: CPO ASP RM972/MT, weakest palm cycle. Equity ~RM830M"
+      "notes": "FY2000: CPO ASP RM972/MT, weakest palm cycle. Equity ~RM830M",
+      "totalEquityMM": 620,
+      "cfoMM": 95,
+      "capexMM": 115,
+      "daMM": 38
     },
     {
       "endDate": "2001-12-31",
@@ -121,7 +145,11 @@
         "G&A": 9.3,
         "D&A": 15.6
       },
-      "notes": "FY2001: CPO ASP RM880/MT trough. Equity ~RM865M"
+      "notes": "FY2001: CPO ASP RM880/MT trough. Equity ~RM865M",
+      "totalEquityMM": 690,
+      "cfoMM": 110,
+      "capexMM": 130,
+      "daMM": 44
     },
     {
       "endDate": "2002-12-31",
@@ -138,7 +166,11 @@
         "G&A": 12.2,
         "D&A": 20.3
       },
-      "notes": "FY2002: CPO recovery to RM1,360/MT. Equity ~RM935M"
+      "notes": "FY2002: CPO recovery to RM1,360/MT. Equity ~RM935M",
+      "totalEquityMM": 770,
+      "cfoMM": 130,
+      "capexMM": 150,
+      "daMM": 50
     },
     {
       "endDate": "2003-12-31",
@@ -155,7 +187,11 @@
         "G&A": 14.8,
         "D&A": 24.6
       },
-      "notes": "FY2003: CPO ASP RM1,545/MT. Equity ~RM1.05B"
+      "notes": "FY2003: CPO ASP RM1,545/MT. Equity ~RM1.05B",
+      "totalEquityMM": 870,
+      "cfoMM": 155,
+      "capexMM": 175,
+      "daMM": 58
     },
     {
       "endDate": "2004-12-31",
@@ -172,7 +208,11 @@
         "G&A": 17.0,
         "D&A": 28.2
       },
-      "notes": "FY2004: CPO ASP RM1,635/MT. Equity ~RM1.16B"
+      "notes": "FY2004: CPO ASP RM1,635/MT. Equity ~RM1.16B",
+      "totalEquityMM": 990,
+      "cfoMM": 185,
+      "capexMM": 205,
+      "daMM": 68
     },
     {
       "endDate": "2005-12-31",
@@ -189,7 +229,11 @@
         "G&A": 19.2,
         "D&A": 31.8
       },
-      "notes": "FY2005: First Indonesia plantings (Kalimantan land bank acquired). Equity ~RM1.25B"
+      "notes": "FY2005: First Indonesia plantings (Kalimantan land bank acquired). Equity ~RM1.25B",
+      "totalEquityMM": 1130,
+      "cfoMM": 220,
+      "capexMM": 240,
+      "daMM": 80
     },
     {
       "endDate": "2006-12-31",
@@ -206,7 +250,11 @@
         "G&A": 23.5,
         "D&A": 39.1
       },
-      "notes": "FY2006: CPO ASP RM1,505/MT; Indonesia land bank expansion. Equity ~RM1.40B"
+      "notes": "FY2006: CPO ASP RM1,505/MT; Indonesia land bank expansion. Equity ~RM1.40B",
+      "totalEquityMM": 1300,
+      "cfoMM": 265,
+      "capexMM": 290,
+      "daMM": 95
     },
     {
       "endDate": "2007-12-31",
@@ -223,7 +271,11 @@
         "G&A": 29.6,
         "D&A": 49.3
       },
-      "notes": "FY2007: CPO surge to RM2,635/MT. Equity ~RM1.65B"
+      "notes": "FY2007: CPO surge to RM2,635/MT. Equity ~RM1.65B",
+      "totalEquityMM": 1520,
+      "cfoMM": 320,
+      "capexMM": 360,
+      "daMM": 115
     },
     {
       "endDate": "2008-12-31",
@@ -240,7 +292,11 @@
         "G&A": 40.9,
         "D&A": 68.1
       },
-      "notes": "FY2008: CPO peak RM3,400/MT mid-year, GFC crash by year-end; property segment material on Genting Indahpura. Equity ~RM1.90B"
+      "notes": "FY2008: CPO peak RM3,400/MT mid-year, GFC crash by year-end; property segment material on Genting Indahpura. Equity ~RM1.90B",
+      "totalEquityMM": 1780,
+      "cfoMM": 390,
+      "capexMM": 440,
+      "daMM": 140
     },
     {
       "endDate": "2009-12-31",
@@ -257,7 +313,11 @@
         "G&A": 40.9,
         "D&A": 68.1
       },
-      "notes": "FY2009: Renamed Asiatic Development to Genting Plantations; CPO ASP RM2,235/MT. Equity ~RM2.10B"
+      "notes": "FY2009: Renamed Asiatic Development to Genting Plantations; CPO ASP RM2,235/MT. Equity ~RM2.10B",
+      "totalEquityMM": 2080,
+      "cfoMM": 440,
+      "capexMM": 500,
+      "daMM": 165
     },
     {
       "endDate": "2010-12-31",
@@ -274,7 +334,11 @@
         "G&A": 53.9,
         "D&A": 89.9
       },
-      "notes": "FY2010: CPO ASP RM2,700/MT. Equity ~RM2.40B"
+      "notes": "FY2010: CPO ASP RM2,700/MT. Equity ~RM2.40B",
+      "totalEquityMM": 2450,
+      "cfoMM": 510,
+      "capexMM": 580,
+      "daMM": 195
     },
     {
       "endDate": "2011-12-31",
@@ -291,7 +355,11 @@
         "G&A": 64.0,
         "D&A": 106.6
       },
-      "notes": "FY2011: CPO ASP RM3,220/MT peak; biodiesel + downstream commissioning planned. Equity ~RM2.72B"
+      "notes": "FY2011: CPO ASP RM3,220/MT peak; biodiesel + downstream commissioning planned. Equity ~RM2.72B",
+      "totalEquityMM": 2880,
+      "cfoMM": 600,
+      "capexMM": 680,
+      "daMM": 230
     },
     {
       "endDate": "2012-12-31",
@@ -308,7 +376,11 @@
         "G&A": 65.3,
         "D&A": 108.7
       },
-      "notes": "FY2012: CPO retreat RM2,765/MT. Equity ~RM3.00B"
+      "notes": "FY2012: CPO retreat RM2,765/MT. Equity ~RM3.00B",
+      "totalEquityMM": 3350,
+      "cfoMM": 680,
+      "capexMM": 780,
+      "daMM": 270
     },
     {
       "endDate": "2013-12-31",
@@ -325,7 +397,11 @@
         "G&A": 72.2,
         "D&A": 120.1
       },
-      "notes": "FY2013: weakest CPO RM2,335/MT. Equity ~RM3.26B"
+      "notes": "FY2013: weakest CPO RM2,335/MT. Equity ~RM3.26B",
+      "totalEquityMM": 3850,
+      "cfoMM": 720,
+      "capexMM": 850,
+      "daMM": 310
     },
     {
       "endDate": "2014-12-31",
@@ -345,7 +421,8 @@
       "notes": "FY2014: CPO ASP RM2,385/MT; downstream refinery operating. Equity ~RM3.52B",
       "capexMM": 350,
       "daMM": 110,
-      "cfoMM": 350
+      "cfoMM": 350,
+      "totalEquityMM": 4380
     },
     {
       "endDate": "2015-12-31",
@@ -362,13 +439,14 @@
         "G&A": 77.4,
         "D&A": 129.3
       },
-      "notes": "FY2015: weak CPO RM2,160/MT, El Niño impact. Equity ~RM3.70B. FFB 1,727K t (own, ex-Plasma), yield 19.0 t/ha mature",
+      "notes": "FY2015: weak CPO RM2,160/MT, El Ni\u00f1o impact. Equity ~RM3.70B. FFB 1,727K t (own, ex-Plasma), yield 19.0 t/ha mature",
       "capexMM": 410,
       "daMM": 130,
       "cfoMM": 270,
       "ffbProductionTonnesK": 1727,
       "ffbYieldTPerHa": 19.0,
-      "matureHectaresK": 90
+      "matureHectaresK": 90,
+      "totalEquityMM": 4920
     },
     {
       "endDate": "2016-12-31",
@@ -391,7 +469,8 @@
       "cfoMM": 410,
       "ffbProductionTonnesK": 1614,
       "ffbYieldTPerHa": 17.5,
-      "matureHectaresK": 93
+      "matureHectaresK": 93,
+      "totalEquityMM": 5450
     },
     {
       "endDate": "2017-12-31",
@@ -414,7 +493,8 @@
       "cfoMM": 430,
       "ffbProductionTonnesK": 1884,
       "ffbYieldTPerHa": 18.4,
-      "matureHectaresK": 110
+      "matureHectaresK": 110,
+      "totalEquityMM": 5950
     },
     {
       "endDate": "2018-12-31",
@@ -437,7 +517,8 @@
       "cfoMM": 360,
       "ffbProductionTonnesK": 2083,
       "ffbYieldTPerHa": 18.2,
-      "matureHectaresK": 113
+      "matureHectaresK": 113,
+      "totalEquityMM": 6380
     },
     {
       "endDate": "2019-12-31",
@@ -460,7 +541,8 @@
       "cfoMM": 410,
       "ffbProductionTonnesK": 2194,
       "ffbYieldTPerHa": 18.5,
-      "matureHectaresK": 113
+      "matureHectaresK": 113,
+      "totalEquityMM": 6750
     },
     {
       "endDate": "2020-03-31",
@@ -518,7 +600,11 @@
         "G&A": 48.1,
         "D&A": 80.1
       },
-      "notes": "4Q20: CPO RM3,200/MT"
+      "notes": "4Q20: CPO RM3,200/MT",
+      "totalEquityMM": 7080,
+      "cfoMM": 920,
+      "capexMM": 700,
+      "daMM": 535
     },
     {
       "endDate": "2020-12-31",
@@ -614,7 +700,11 @@
         "G&A": 65.5,
         "D&A": 109.1
       },
-      "notes": "4Q21: CPO peak"
+      "notes": "4Q21: CPO peak",
+      "totalEquityMM": 7480,
+      "cfoMM": 1080,
+      "capexMM": 720,
+      "daMM": 555
     },
     {
       "endDate": "2021-12-31",
@@ -710,7 +800,11 @@
         "Selling & distribution": 13.0,
         "G&A": 56.6,
         "D&A": 94.2
-      }
+      },
+      "totalEquityMM": 7920,
+      "cfoMM": 1180,
+      "capexMM": 760,
+      "daMM": 575
     },
     {
       "endDate": "2022-12-31",
@@ -805,7 +899,11 @@
         "Selling & distribution": 12.1,
         "G&A": 52.7,
         "D&A": 87.5
-      }
+      },
+      "totalEquityMM": 8280,
+      "cfoMM": 1050,
+      "capexMM": 780,
+      "daMM": 595
     },
     {
       "endDate": "2023-12-31",
@@ -900,7 +998,11 @@
         "Selling & distribution": 11.1,
         "G&A": 48.3,
         "D&A": 80.7
-      }
+      },
+      "totalEquityMM": 8650,
+      "cfoMM": 1120,
+      "capexMM": 800,
+      "daMM": 615
     },
     {
       "endDate": "2024-12-31",

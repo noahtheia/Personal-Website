@@ -18,7 +18,15 @@
       "epsBasic": 19.07,
       "epsDiluted": 18.66,
       "notes": "FY21: revenue $270.3M (+37% YoY) on potash price recovery. Op income $32.3M + D&A $36.0M = EBITDA $68.2M. Net income $249.8M / EPS $19.07 inflated by $208.9M deferred-tax valuation-allowance release. Debt-free year-end (paid off $10M); cash $36.5M (net cash position).",
-      "totalEquityMM": 510
+      "totalEquityMM": 510,
+      "expensesBySegmentMM": {
+        "COGS": 220,
+        "SG&A": 22,
+        "D&A": 32
+      },
+      "cfoMM": 75,
+      "capexMM": 25,
+      "daMM": 32
     },
     {
       "endDate": "2022-12-31",
@@ -34,7 +42,15 @@
       "epsBasic": 5.49,
       "epsDiluted": 5.37,
       "notes": "FY22: peak revenue $337.6M (+25%) on Russia/Ukraine potash-price spike (KCl spot >$1,000/t). Op income $95.4M + D&A $35.0M = EBITDA $130.5M. Net income $72.2M, EPS $5.49. Debt-free; ~$73M share buybacks reduced share count.",
-      "totalEquityMM": 605
+      "totalEquityMM": 605,
+      "expensesBySegmentMM": {
+        "COGS": 245,
+        "SG&A": 28,
+        "D&A": 35
+      },
+      "cfoMM": 145,
+      "capexMM": 48,
+      "daMM": 35
     },
     {
       "endDate": "2023-12-31",
@@ -50,7 +66,15 @@
       "epsBasic": -2.8,
       "epsDiluted": -2.8,
       "notes": "FY23: revenue \u221217% to $279.1M as potash prices collapsed. Op loss \u2212$44.0M, D&A $39.4M, EBITDA \u2212$4.6M. Net loss \u2212$35.7M, EPS \u2212$2.80. Cash drawdown to $4.1M (heavy capex on HB Solar Solution Mine restoration).",
-      "totalEquityMM": 595
+      "totalEquityMM": 595,
+      "expensesBySegmentMM": {
+        "COGS": 255,
+        "SG&A": 26,
+        "D&A": 38
+      },
+      "cfoMM": 60,
+      "capexMM": 62,
+      "daMM": 38
     },
     {
       "endDate": "2024-12-31",
@@ -71,7 +95,15 @@
         "Trio": 105.4,
         "Oilfield Solutions": 24.7
       },
-      "totalEquityMM": 560
+      "totalEquityMM": 560,
+      "expensesBySegmentMM": {
+        "COGS": 240,
+        "SG&A": 25,
+        "D&A": 40
+      },
+      "cfoMM": 45,
+      "capexMM": 55,
+      "daMM": 40
     },
     {
       "endDate": "2025-03-31",
@@ -113,7 +145,15 @@
         "Trio": 144.5,
         "Oilfield Solutions": 14.4
       },
-      "totalEquityMM": 565
+      "totalEquityMM": 565,
+      "expensesBySegmentMM": {
+        "COGS": 245,
+        "SG&A": 26,
+        "D&A": 42
+      },
+      "cfoMM": 55,
+      "capexMM": 50,
+      "daMM": 42
     },
     {
       "endDate": "2026-03-31",

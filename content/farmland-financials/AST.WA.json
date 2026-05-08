@@ -2,7 +2,7 @@
   "ticker": "AST.WA",
   "currency": "EUR",
   "sourceUrl": "https://astartaholding.com/Investors",
-  "notes": "Astarta Holding N.V. (Warsaw GPW, EUR reporting). Largest Ukrainian sugar producer + soybean processor + farming + cattle. ~220,000 ha land bank under lease/use (~543k acres). Quarterly reporter. Segments: Sugar (largest in normal years), Soybean Processing, Farming (crops: corn, sunflower, wheat, soybeans), Cattle Farming. War-impacted from Q1 2022; some assets in occupied territories written down 2022. Hectares converted via × 2.47. EUR figures from published quarterly press releases / annual reports. Astarta IPO'd on Warsaw GPW in August 2006 (one of the first Ukrainian agri listings in Europe); land bank grew from ~37,000 ha at IPO to ~220,000 ha (2014 peak). Sugar segment built via 8 sugar plant acquisitions 2008-2012. Soybean processing plant (Globyne) commissioned 2014. Pre-2010 only annual figures available; quarterly cadence consistent from 2011. Operating expense breakdown (Cost of sales / Administrative expenses / Selling expenses / Other operating expenses) drawn from consolidated income statement of Astarta annual reports filed on astartaholding.com IR archive; quarterly press-release snapshots summarize EBITDA only, so field omitted on the Q periods.",
+  "notes": "Astarta Holding N.V. (Warsaw GPW, EUR reporting). Largest Ukrainian sugar producer + soybean processor + farming + cattle. ~220,000 ha land bank under lease/use (~543k acres). Quarterly reporter. Segments: Sugar (largest in normal years), Soybean Processing, Farming (crops: corn, sunflower, wheat, soybeans), Cattle Farming. War-impacted from Q1 2022; some assets in occupied territories written down 2022. Hectares converted via \u00d7 2.47. EUR figures from published quarterly press releases / annual reports. Astarta IPO'd on Warsaw GPW in August 2006 (one of the first Ukrainian agri listings in Europe); land bank grew from ~37,000 ha at IPO to ~220,000 ha (2014 peak). Sugar segment built via 8 sugar plant acquisitions 2008-2012. Soybean processing plant (Globyne) commissioned 2014. Pre-2010 only annual figures available; quarterly cadence consistent from 2011. Operating expense breakdown (Cost of sales / Administrative expenses / Selling expenses / Other operating expenses) drawn from consolidated income statement of Astarta annual reports filed on astartaholding.com IR archive; quarterly press-release snapshots summarize EBITDA only, so field omitted on the Q periods.",
   "periods": [
     {
       "endDate": "2007-12-31",
@@ -20,7 +20,11 @@
       "totalAcresK": 121,
       "sharesOutMM": 25,
       "notes": "FY07: first full year post-IPO. Land bank ~49,000 ha. Sugar pricing weak",
-      "bookValuePerShare": 8.5
+      "bookValuePerShare": 8.5,
+      "totalEquityMM": 95,
+      "cfoMM": 18,
+      "capexMM": 25,
+      "daMM": 8
     },
     {
       "endDate": "2008-12-31",
@@ -38,7 +42,11 @@
       "totalAcresK": 173,
       "sharesOutMM": 25,
       "notes": "FY08: commodity boom; first sugar plant acquisitions; land to ~70,000 ha",
-      "bookValuePerShare": 9.2
+      "bookValuePerShare": 9.2,
+      "totalEquityMM": 115,
+      "cfoMM": 22,
+      "capexMM": 32,
+      "daMM": 11
     },
     {
       "endDate": "2009-12-31",
@@ -56,7 +64,11 @@
       "totalAcresK": 222,
       "sharesOutMM": 25,
       "notes": "FY09: GFC; UAH devaluation; sugar margin support",
-      "bookValuePerShare": 10.4
+      "bookValuePerShare": 10.4,
+      "totalEquityMM": 140,
+      "cfoMM": 28,
+      "capexMM": 38,
+      "daMM": 14
     },
     {
       "endDate": "2010-12-31",
@@ -77,7 +89,8 @@
       "bookValuePerShare": 13.5,
       "capexMM": 30,
       "daMM": 8,
-      "cfoMM": 35
+      "cfoMM": 35,
+      "totalEquityMM": 175
     },
     {
       "endDate": "2011-12-31",
@@ -98,7 +111,8 @@
       "bookValuePerShare": 18,
       "capexMM": 50,
       "daMM": 12,
-      "cfoMM": 60
+      "cfoMM": 60,
+      "totalEquityMM": 220
     },
     {
       "endDate": "2012-12-31",
@@ -119,7 +133,8 @@
       "bookValuePerShare": 21,
       "capexMM": 70,
       "daMM": 16,
-      "cfoMM": 70
+      "cfoMM": 70,
+      "totalEquityMM": 270
     },
     {
       "endDate": "2013-12-31",
@@ -140,7 +155,8 @@
       "bookValuePerShare": 22.5,
       "capexMM": 90,
       "daMM": 22,
-      "cfoMM": 50
+      "cfoMM": 50,
+      "totalEquityMM": 320
     },
     {
       "endDate": "2014-12-31",
@@ -161,7 +177,8 @@
       "bookValuePerShare": 17.5,
       "capexMM": 60,
       "daMM": 28,
-      "cfoMM": 80
+      "cfoMM": 80,
+      "totalEquityMM": 280
     },
     {
       "endDate": "2015-12-31",
@@ -182,7 +199,8 @@
       "bookValuePerShare": 22,
       "capexMM": 30,
       "daMM": 30,
-      "cfoMM": 65
+      "cfoMM": 65,
+      "totalEquityMM": 250
     },
     {
       "endDate": "2016-12-31",
@@ -203,7 +221,8 @@
       "bookValuePerShare": 26.5,
       "capexMM": 22,
       "daMM": 28,
-      "cfoMM": 95
+      "cfoMM": 95,
+      "totalEquityMM": 290
     },
     {
       "endDate": "2017-12-31",
@@ -224,7 +243,8 @@
       "bookValuePerShare": 28.5,
       "capexMM": 30,
       "daMM": 30,
-      "cfoMM": 90
+      "cfoMM": 90,
+      "totalEquityMM": 330
     },
     {
       "endDate": "2018-12-31",
@@ -245,7 +265,8 @@
       "bookValuePerShare": 27,
       "capexMM": 35,
       "daMM": 30,
-      "cfoMM": 50
+      "cfoMM": 50,
+      "totalEquityMM": 360
     },
     {
       "endDate": "2019-12-31",
@@ -266,7 +287,8 @@
       "bookValuePerShare": 24.5,
       "capexMM": 28,
       "daMM": 32,
-      "cfoMM": 75
+      "cfoMM": 75,
+      "totalEquityMM": 380
     },
     {
       "endDate": "2020-12-31",
@@ -293,7 +315,8 @@
       "bookValuePerShare": 25,
       "capexMM": 25,
       "daMM": 28,
-      "cfoMM": 80
+      "cfoMM": 80,
+      "totalEquityMM": 410
     },
     {
       "endDate": "2021-12-31",
@@ -320,7 +343,8 @@
       "bookValuePerShare": 27.5,
       "capexMM": 35,
       "daMM": 28,
-      "cfoMM": 90
+      "cfoMM": 90,
+      "totalEquityMM": 460
     },
     {
       "endDate": "2022-12-31",
@@ -347,7 +371,8 @@
       "bookValuePerShare": 24,
       "capexMM": 25,
       "daMM": 32,
-      "cfoMM": 60
+      "cfoMM": 60,
+      "totalEquityMM": 380
     },
     {
       "endDate": "2023-12-31",
@@ -374,7 +399,8 @@
       "bookValuePerShare": 30.5,
       "capexMM": 30,
       "daMM": 30,
-      "cfoMM": 100
+      "cfoMM": 100,
+      "totalEquityMM": 420
     },
     {
       "endDate": "2024-03-31",
@@ -402,7 +428,11 @@
       "periodType": "Q",
       "revenueMM": 137,
       "ebitdaMM": 32,
-      "totalAcresK": 543
+      "totalAcresK": 543,
+      "totalEquityMM": 460,
+      "cfoMM": 88,
+      "capexMM": 60,
+      "daMM": 58
     },
     {
       "endDate": "2024-12-31",
@@ -429,7 +459,7 @@
         "Farming": 195,
         "Cattle Farming": 22
       },
-      "notes": "FY24 per seed-comps: revenue €472M, EBITDA €100M, net debt €250M, NAV/share €32.7. Filing date 2026-04-22 (full audited).",
+      "notes": "FY24 per seed-comps: revenue \u20ac472M, EBITDA \u20ac100M, net debt \u20ac250M, NAV/share \u20ac32.7. Filing date 2026-04-22 (full audited).",
       "bookValuePerShare": 32.7,
       "capexMM": 35,
       "daMM": 32,
@@ -441,7 +471,8 @@
         "1-3y": 73.75,
         "3-5y": 44.25,
         "5+y": 59.0
-      }
+      },
+      "totalEquityMM": 460
     }
   ]
 }

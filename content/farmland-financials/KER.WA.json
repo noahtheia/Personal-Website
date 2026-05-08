@@ -2,7 +2,7 @@
   "ticker": "KER.WA",
   "currency": "USD",
   "sourceUrl": "https://www.kernel.ua/en/investor-relations/",
-  "notes": "Kernel Holding S.A. (KER.WA) — largest sunflower oil producer/exporter in Ukraine, listed on Warsaw Stock Exchange (WSE). Reports in USD; lists in PLN. Fiscal year ends June 30 (FY24 = year ended 30 Jun 2024). Operating segments: Oilseed Processing (sunflower meal/oil), Infrastructure & Trading (silo network + grain export), Farming (~370k ha leased Ukrainian cropland). FY22-FY23 results materially affected by Russia's invasion of Ukraine (port closures, Black Sea grain corridor disruption). Annual reports: kernel.ua/en/financial-reports/. Public-tender delisting offer pending.",
+  "notes": "Kernel Holding S.A. (KER.WA) \u2014 largest sunflower oil producer/exporter in Ukraine, listed on Warsaw Stock Exchange (WSE). Reports in USD; lists in PLN. Fiscal year ends June 30 (FY24 = year ended 30 Jun 2024). Operating segments: Oilseed Processing (sunflower meal/oil), Infrastructure & Trading (silo network + grain export), Farming (~370k ha leased Ukrainian cropland). FY22-FY23 results materially affected by Russia's invasion of Ukraine (port closures, Black Sea grain corridor disruption). Annual reports: kernel.ua/en/financial-reports/. Public-tender delisting offer pending.",
   "periods": [
     {
       "endDate": "2020-06-30",
@@ -29,7 +29,8 @@
       "notes": "FY20 revenue $4.1B, EBITDA $443M. Pre-war baseline.",
       "capexMM": 86,
       "daMM": 78,
-      "cfoMM": 195
+      "cfoMM": 195,
+      "totalEquityMM": 1480
     },
     {
       "endDate": "2021-06-30",
@@ -56,7 +57,8 @@
       "notes": "FY21 record EBITDA $930M on strong sunflower oil prices and bumper harvest.",
       "capexMM": 195,
       "daMM": 92,
-      "cfoMM": 410
+      "cfoMM": 410,
+      "totalEquityMM": 1850
     },
     {
       "endDate": "2022-06-30",
@@ -83,7 +85,8 @@
       "notes": "FY22 disrupted by Russian invasion (Feb 2022). Impairments on Russian-occupied assets. EBITDA halved YoY.",
       "capexMM": 173,
       "daMM": 130,
-      "cfoMM": 250
+      "cfoMM": 250,
+      "totalEquityMM": 2350
     },
     {
       "endDate": "2023-06-30",
@@ -117,7 +120,8 @@
       "notes": "FY23 revenue down sharply on lower volumes (Black Sea corridor uncertainty). EBITDA recovered to $444M.",
       "capexMM": 110,
       "daMM": 110,
-      "cfoMM": 320
+      "cfoMM": 320,
+      "totalEquityMM": 2180
     },
     {
       "endDate": "2024-06-30",
@@ -151,7 +155,8 @@
       "notes": "FY24 revenue $3.5B, EBITDA $519M. Net debt down to $683M as ops normalized via Ukraine maritime corridor.",
       "capexMM": 95,
       "daMM": 105,
-      "cfoMM": 380
+      "cfoMM": 380,
+      "totalEquityMM": 2280
     },
     {
       "endDate": "2020-12-31",
@@ -243,7 +248,8 @@
         "1-3y": 280,
         "3-5y": 90,
         "5+y": 40
-      }
+      },
+      "totalEquityMM": 2420
     }
   ]
 }
