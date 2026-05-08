@@ -198,6 +198,13 @@ function SectorKpiBlock({
       items.push({ label: "FFO / share", value: `${filing.currency} ${r.ffoPerShare.toFixed(2)}` });
     if (r.preferredCoverage != null)
       items.push({ label: "Pref coverage", value: `${r.preferredCoverage.toFixed(1)}×` });
+    if (r.rentIndexationType != null)
+      items.push({ label: "Rent indexation", value: r.rentIndexationType });
+    if (r.waterRightsValueMM != null)
+      items.push({
+        label: "Water rights",
+        value: `${filing.currency} ${fmtInt(r.waterRightsValueMM)}M`,
+      });
   }
   if (filing.plantation) {
     const p = filing.plantation;
@@ -215,6 +222,92 @@ function SectorKpiBlock({
       items.push({ label: "Methane capture", value: `${p.methaneCapturePctMills.toFixed(1)}% of mills` });
     if (p.replantingHaLtm != null)
       items.push({ label: "Replanting LTM", value: `${fmtInt(p.replantingHaLtm)} ha` });
+    if (p.rubberRevenueSharePct != null)
+      items.push({ label: "Rubber rev %", value: `${p.rubberRevenueSharePct.toFixed(0)}%` });
+    if (p.rubberAspPerKg != null)
+      items.push({ label: "Rubber ASP", value: `${filing.currency} ${p.rubberAspPerKg.toFixed(2)}/kg` });
+    if (p.sugarRevenueSharePct != null)
+      items.push({ label: "Sugar rev %", value: `${p.sugarRevenueSharePct.toFixed(0)}%` });
+    if (p.sugarProducedMt != null)
+      items.push({ label: "Sugar produced", value: `${fmtInt(p.sugarProducedMt)} MT` });
+    if (p.nucleusVsPlasmaPct != null)
+      items.push({ label: "Nucleus / plasma", value: `${p.nucleusVsPlasmaPct.toFixed(0)}%` });
+    if (p.ndpeCompliancePct != null)
+      items.push({ label: "NDPE compliance", value: `${p.ndpeCompliancePct.toFixed(1)}%` });
+  }
+  if (filing.tea) {
+    const t = filing.tea;
+    if (t.madeTeaProducedKgMM != null)
+      items.push({ label: "Made tea", value: `${t.madeTeaProducedKgMM.toFixed(1)}M kg` });
+    if (t.greenLeafYieldKgPerHa != null)
+      items.push({ label: "Green-leaf yield", value: `${fmtInt(t.greenLeafYieldKgPerHa)} kg/ha` });
+    if (t.madeTeaAspPerKg != null)
+      items.push({ label: "Tea ASP", value: `${filing.currency} ${t.madeTeaAspPerKg.toFixed(2)}/kg` });
+    if (t.auctionVsDirectPct != null)
+      items.push({ label: "Auction share", value: `${t.auctionVsDirectPct.toFixed(0)}%` });
+    if (t.boughtLeafSharePct != null)
+      items.push({ label: "Bought-leaf share", value: `${t.boughtLeafSharePct.toFixed(0)}%` });
+    if (t.teaPlantedHa != null)
+      items.push({ label: "Tea planted", value: `${fmtInt(t.teaPlantedHa)} ha` });
+  }
+  if (filing.integratedFarm) {
+    const i = filing.integratedFarm;
+    if (i.plantedAreaHa != null)
+      items.push({ label: "Planted area", value: `${fmtInt(i.plantedAreaHa)} ha` });
+    if (i.ownedAreaHa != null && i.leasedAreaHa != null)
+      items.push({
+        label: "Owned / leased",
+        value: `${fmtInt(i.ownedAreaHa)} / ${fmtInt(i.leasedAreaHa)} ha`,
+      });
+    if (i.productionVolumeMT != null)
+      items.push({
+        label: "Production",
+        value: `${fmtInt(i.productionVolumeMT)} ${i.productionUnit ?? "MT"}`,
+      });
+    if (i.realizedPricePerUnit != null)
+      items.push({
+        label: "Realized price",
+        value: `${filing.currency} ${i.realizedPricePerUnit.toFixed(2)}`,
+      });
+    if (i.waterRightsVolumeML != null)
+      items.push({ label: "Water rights", value: `${fmtInt(i.waterRightsVolumeML)} ML` });
+    if (i.biologicalAssetsMM != null)
+      items.push({
+        label: "Bio assets",
+        value: `${filing.currency} ${fmtInt(i.biologicalAssetsMM)}M`,
+      });
+    if (i.sugarEthanol) {
+      const s = i.sugarEthanol;
+      if (s.crushedCaneMT != null)
+        items.push({ label: "Cane crushed", value: `${fmtInt(s.crushedCaneMT / 1e6)}M MT` });
+      if (s.atrKgPerMT != null)
+        items.push({ label: "ATR", value: `${s.atrKgPerMT.toFixed(0)} kg/MT` });
+      if (s.sugarMixPct != null && s.ethanolMixPct != null)
+        items.push({
+          label: "Sugar / ethanol mix",
+          value: `${s.sugarMixPct.toFixed(0)}% / ${s.ethanolMixPct.toFixed(0)}%`,
+        });
+      if (s.ethanolVolumeM3 != null)
+        items.push({ label: "Ethanol", value: `${fmtInt(s.ethanolVolumeM3)} m³` });
+    }
+    if (i.cattle) {
+      const c = i.cattle;
+      if (c.headcountClosing != null)
+        items.push({ label: "Cattle head", value: `${fmtInt(c.headcountClosing)}` });
+      if (c.avgDailyGainKg != null)
+        items.push({ label: "Daily gain", value: `${c.avgDailyGainKg.toFixed(2)} kg` });
+      if (c.weaningRate != null)
+        items.push({ label: "Weaning rate", value: `${c.weaningRate.toFixed(0)}%` });
+    }
+    if (i.treeCrop) {
+      const tc = i.treeCrop;
+      if (tc.bearingHa != null)
+        items.push({ label: "Bearing trees", value: `${fmtInt(tc.bearingHa)} ha` });
+      if (tc.nonBearingHa != null)
+        items.push({ label: "Non-bearing", value: `${fmtInt(tc.nonBearingHa)} ha` });
+      if (tc.avgTreeAgeYears != null)
+        items.push({ label: "Avg tree age", value: `${tc.avgTreeAgeYears.toFixed(0)} yrs` });
+    }
   }
   if (filing.protein) {
     const p = filing.protein;

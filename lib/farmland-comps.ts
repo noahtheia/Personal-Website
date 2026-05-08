@@ -167,6 +167,14 @@ const FilingSchema = z.object({
       ffoPerShare: z.number().optional(),
       affoPerShare: z.number().optional(),
       preferredCoverage: z.number().optional(),
+      // Indexation type for rent escalators — fixed, CPI, commodity-
+      // linked (LAND3 soybean), participation, or a mix.
+      rentIndexationType: z
+        .enum(["fixed", "cpi", "commodity", "participation", "mixed"])
+        .optional(),
+      // Water rights carried separately from land at fair value
+      // (RFF, MLP, LAND-water districts).
+      waterRightsValueMM: z.number().nonnegative().optional(),
     })
     .optional(),
   plantation: z
@@ -181,6 +189,82 @@ const FilingSchema = z.object({
       rspoPct: z.number().min(0).max(100).optional(),
       methaneCapturePctMills: z.number().min(0).max(100).optional(),
       replantingHaLtm: z.number().nonnegative().optional(),
+      // Rubber sub-fields (KLK, IOI, SD Guthrie, United Plantations,
+      // Okomu palm+rubber).
+      rubberRevenueSharePct: z.number().min(0).max(100).optional(),
+      rubberMaturedHa: z.number().nonnegative().optional(),
+      rubberAspPerKg: z.number().nonnegative().optional(),
+      // Sugar sub-fields (TBLA palm+sugar).
+      sugarRevenueSharePct: z.number().min(0).max(100).optional(),
+      sugarProducedMt: z.number().nonnegative().optional(),
+      sugarAspPerMt: z.number().nonnegative().optional(),
+      // Indonesian plasma / smallholder scheme exposure (regulated 20%).
+      nucleusVsPlasmaPct: z.number().min(0).max(100).optional(),
+      plasmaObligationMM: z.number().nonnegative().optional(),
+      // No Deforestation, No Peat, No Exploitation compliance share —
+      // increasingly priced by EU buyers post-EUDR.
+      ndpeCompliancePct: z.number().min(0).max(100).optional(),
+    })
+    .optional(),
+  // Tea operators (Williamson Tea, Sasini, Kakuzi, Limuru). Disclosure
+  // conventions don't share fields with palm — kept as a separate block.
+  tea: z
+    .object({
+      madeTeaProducedKgMM: z.number().nonnegative().optional(),
+      greenLeafYieldKgPerHa: z.number().nonnegative().optional(),
+      madeTeaAspPerKg: z.number().nonnegative().optional(),
+      auctionVsDirectPct: z.number().min(0).max(100).optional(),
+      boughtLeafSharePct: z.number().min(0).max(100).optional(),
+      teaPlantedHa: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  // Integrated farm operators (SLC, BrasilAgro, Alico, Limoneira,
+  // Duxton, AgroGeneration, Select Harvests, São Martinho, Dole, FDP,
+  // Mission Produce, Lamb Weston, Balrampur, Calavo, Beidahuang,
+  // Australian Agricultural). Heterogeneous cohort — core fields cover
+  // crop+livestock+orchard, sub-blocks specialize.
+  integratedFarm: z
+    .object({
+      plantedAreaHa: z.number().nonnegative().optional(),
+      ownedAreaHa: z.number().nonnegative().optional(),
+      leasedAreaHa: z.number().nonnegative().optional(),
+      productionVolumeMT: z.number().nonnegative().optional(),
+      productionUnit: z.string().optional(),
+      yieldPerHa: z.number().nonnegative().optional(),
+      realizedPricePerUnit: z.number().nonnegative().optional(),
+      waterRightsVolumeML: z.number().nonnegative().optional(),
+      biologicalAssetsMM: z.number().nonnegative().optional(),
+      // Sugar / ethanol sub-block (São Martinho, Balrampur, AGRO,
+      // Astarta, AGRANA, Cosan-Raizen, DCM Shriram).
+      sugarEthanol: z
+        .object({
+          crushedCaneMT: z.number().nonnegative().optional(),
+          atrKgPerMT: z.number().nonnegative().optional(),
+          sugarMixPct: z.number().min(0).max(100).optional(),
+          ethanolMixPct: z.number().min(0).max(100).optional(),
+          ethanolVolumeM3: z.number().nonnegative().optional(),
+          cogenerationMWh: z.number().nonnegative().optional(),
+        })
+        .optional(),
+      // Cattle sub-block (AAC, partial for SLC).
+      cattle: z
+        .object({
+          headcountClosing: z.number().nonnegative().optional(),
+          avgDailyGainKg: z.number().nonnegative().optional(),
+          weaningRate: z.number().min(0).max(100).optional(),
+          feedlotCapacity: z.number().nonnegative().optional(),
+        })
+        .optional(),
+      // Tree-crop sub-block (Limoneira, Alico, Select Harvests,
+      // Mission Produce, Calavo).
+      treeCrop: z
+        .object({
+          bearingHa: z.number().nonnegative().optional(),
+          nonBearingHa: z.number().nonnegative().optional(),
+          avgTreeAgeYears: z.number().nonnegative().optional(),
+          replantingHaYTD: z.number().nonnegative().optional(),
+        })
+        .optional(),
     })
     .optional(),
   protein: z

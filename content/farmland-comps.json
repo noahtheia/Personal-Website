@@ -54,7 +54,11 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 84,
     "annualFcfMM": 10.12,
-    "annualEquityMM": 437
+    "annualEquityMM": 437,
+    "reit": {
+      "affoPerShare": 0.39,
+      "rentIndexationType": "mixed"
+    }
   },
   {
     "ticker": "AGRO",
@@ -106,7 +110,12 @@
     "operatingCountry": "Brazil",
     "annualNetIncomeMM": 500,
     "annualFcfMM": -150,
-    "annualEquityMM": 4500
+    "annualEquityMM": 4500,
+    "integratedFarm": {
+      "plantedAreaHa": 730000,
+      "ownedAreaHa": 270000,
+      "leasedAreaHa": 460000
+    }
   },
   {
     "ticker": "AGRO3.SA",
@@ -132,7 +141,10 @@
     "operatingCountry": "Brazil",
     "annualNetIncomeMM": 100,
     "annualFcfMM": 130,
-    "annualEquityMM": 1750
+    "annualEquityMM": 1750,
+    "integratedFarm": {
+      "plantedAreaHa": 270000
+    }
   },
   {
     "ticker": "RFF.AX",
@@ -158,7 +170,13 @@
     "operatingCountry": "Australia",
     "annualNetIncomeMM": 9.5,
     "annualFcfMM": 47,
-    "annualEquityMM": 1198
+    "annualEquityMM": 1198,
+    "reit": {
+      "walt": 13.5,
+      "top10TenantPctOfRent": 84,
+      "affoPerShare": 0.115,
+      "rentIndexationType": "cpi"
+    }
   },
   {
     "ticker": "LAND3.SA",
@@ -184,7 +202,13 @@
     "operatingCountry": "Brazil",
     "annualNetIncomeMM": 4.75,
     "annualFcfMM": 65,
-    "annualEquityMM": 658.75
+    "annualEquityMM": 658.75,
+    "reit": {
+      "walt": 18,
+      "occupancyPct": 100,
+      "top10TenantPctOfRent": 100,
+      "rentIndexationType": "commodity"
+    }
   },
   {
     "ticker": "ALCO",
@@ -261,7 +285,13 @@
     "operatingCountry": "Australia",
     "annualNetIncomeMM": -10,
     "annualFcfMM": 17,
-    "annualEquityMM": 1535
+    "annualEquityMM": 1535,
+    "integratedFarm": {
+      "leasedAreaHa": 6400000,
+      "cattle": {
+        "headcountClosing": 340000
+      }
+    }
   },
   {
     "ticker": "DBF.AX",
@@ -287,7 +317,10 @@
     "operatingCountry": "Australia",
     "annualNetIncomeMM": -12.5,
     "annualFcfMM": -7,
-    "annualEquityMM": 110
+    "annualEquityMM": 110,
+    "integratedFarm": {
+      "waterRightsVolumeML": 70000
+    }
   },
   {
     "ticker": "ALAGR.PA",
@@ -337,7 +370,12 @@
     "operatingCountry": "Australia",
     "annualNetIncomeMM": 22,
     "annualFcfMM": 34,
-    "annualEquityMM": 522.7
+    "annualEquityMM": 522.7,
+    "integratedFarm": {
+      "treeCrop": {
+        "bearingHa": 9000
+      }
+    }
   },
   {
     "ticker": "CAM.L",
@@ -599,7 +637,10 @@
     "operatingCountry": "Kenya",
     "annualNetIncomeMM": 220,
     "annualFcfMM": 280,
-    "annualEquityMM": 8750
+    "annualEquityMM": 8750,
+    "tea": {
+      "madeTeaProducedKgMM": 14
+    }
   },
   {
     "ticker": "AALI.JK",
@@ -1050,7 +1091,15 @@
     "geography": "Brazil",
     "operatingCountry": "Brazil",
     "annualNetIncomeMM": 901,
-    "annualFcfMM": 400
+    "annualFcfMM": 400,
+    "integratedFarm": {
+      "sugarEthanol": {
+        "crushedCaneMT": 22000000,
+        "atrKgPerMT": 135,
+        "sugarMixPct": 50,
+        "ethanolMixPct": 50
+      }
+    }
   },
   {
     "ticker": "CSAN3.SA",
@@ -2227,7 +2276,12 @@
     "operatingCountry": "India",
     "annualNetIncomeMM": 1330,
     "annualFcfMM": 1100,
-    "annualEquityMM": 32000
+    "annualEquityMM": 32000,
+    "integratedFarm": {
+      "sugarEthanol": {
+        "atrKgPerMT": 110
+      }
+    }
   },
   {
     "ticker": "VNM.HM",
@@ -2933,7 +2987,10 @@
     "operatingCountry": "Kenya",
     "annualNetIncomeMM": 12.5,
     "annualFcfMM": 18,
-    "annualEquityMM": 840
+    "annualEquityMM": 840,
+    "tea": {
+      "boughtLeafSharePct": 100
+    }
   },
   {
     "ticker": "2050.SR",
@@ -3203,7 +3260,11 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 0.2,
     "annualFcfMM": -0.48,
-    "annualEquityMM": 3.9
+    "annualEquityMM": 3.9,
+    "reit": {
+      "occupancyPct": 92,
+      "rentIndexationType": "cpi"
+    }
   },
   {
     "ticker": "300999.SZ",
