@@ -257,7 +257,15 @@
       "notes": "FY24: Revenue R$38.4bn (+31% reflecting partial-year contribution from acquired Marfrig plants closed Aug 2024). EBITDA R$2.35bn (margin 6.1%) — integration costs + financial expenses on deal funding produced net loss R$360M. Net debt jumped to ~R$9.7bn. Leverage ~4.1x.",
       "capexMM": 950,
       "daMM": 1100,
-      "cfoMM": 1650
+      "cfoMM": 1650,
+      "interestExpenseMM": 1932.0,
+      "weightedAvgDebtRate": 12.0,
+      "debtMaturityProfileMM": {
+        "<1y": 6720.0,
+        "1-3y": 4200.0,
+        "3-5y": 2520.0,
+        "5+y": 3360.0
+      }
     },
     {
       "endDate": "2025-03-31",

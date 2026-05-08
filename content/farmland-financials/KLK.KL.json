@@ -382,7 +382,14 @@
       "notes": "FY2016: CPO ASP RM2,653/MT recovery; Manufacturing throughput up on European acquisitions. Equity ~RM8.08B",
       "capexMM": 720,
       "daMM": 410,
-      "cfoMM": 1480
+      "cfoMM": 1480,
+      "ffbProductionTonnesK": 3496,
+      "cpoProductionTonnesK": 925,
+      "pkProductionTonnesK": 188,
+      "ffbYieldTPerHa": 19.82,
+      "cpoExtractionRatePct": 22.28,
+      "pkExtractionRatePct": 4.53,
+      "matureHectaresK": 176
     },
     {
       "endDate": "2017-09-30",
@@ -402,7 +409,14 @@
       "notes": "FY2017: CPO ASP RM2,790/MT. Equity ~RM8.84B",
       "capexMM": 760,
       "daMM": 430,
-      "cfoMM": 1500
+      "cfoMM": 1500,
+      "ffbProductionTonnesK": 3874,
+      "cpoProductionTonnesK": 993,
+      "pkProductionTonnesK": 199,
+      "ffbYieldTPerHa": 21.39,
+      "cpoExtractionRatePct": 21.68,
+      "pkExtractionRatePct": 4.35,
+      "matureHectaresK": 181
     },
     {
       "endDate": "2018-09-30",
@@ -422,7 +436,14 @@
       "notes": "FY2018: CPO weakness RM2,235/MT, Indonesia oversupply. Equity ~RM9.22B",
       "capexMM": 720,
       "daMM": 460,
-      "cfoMM": 1090
+      "cfoMM": 1090,
+      "ffbProductionTonnesK": 3929,
+      "cpoProductionTonnesK": 1000,
+      "pkProductionTonnesK": 201,
+      "ffbYieldTPerHa": 21.64,
+      "cpoExtractionRatePct": 21.79,
+      "pkExtractionRatePct": 4.37,
+      "matureHectaresK": 182
     },
     {
       "endDate": "2019-09-30",
@@ -442,7 +463,14 @@
       "notes": "FY2019: CPO ASP RM2,080/MT early then late-FY rally; biodiesel B20 mandate. Equity ~RM9.49B",
       "capexMM": 640,
       "daMM": 480,
-      "cfoMM": 1300
+      "cfoMM": 1300,
+      "ffbProductionTonnesK": 4104,
+      "cpoProductionTonnesK": 1023,
+      "pkProductionTonnesK": 197,
+      "ffbYieldTPerHa": 22.41,
+      "cpoExtractionRatePct": 21.88,
+      "pkExtractionRatePct": 4.21,
+      "matureHectaresK": 183
     },
     {
       "endDate": "2019-12-31",
@@ -942,7 +970,15 @@
       "notes": "FY24: revenue stable but earnings recovered as oleochemical spreads normalized; share count expanded post placement",
       "capexMM": 990,
       "daMM": 700,
-      "cfoMM": 1610
+      "cfoMM": 1610,
+      "interestExpenseMM": 611.18,
+      "weightedAvgDebtRate": 4.5,
+      "debtMaturityProfileMM": {
+        "<1y": 2546.6,
+        "1-3y": 3183.25,
+        "3-5y": 2546.6,
+        "5+y": 4456.55
+      }
     },
     {
       "endDate": "2024-12-31",

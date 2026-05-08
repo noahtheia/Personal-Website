@@ -817,7 +817,15 @@
       "notes": "FY24: revenue Rp15.97T matches seed; net debt Rp6.5T matches seed; book land Rp17.7T per seed. CPO ASP avg ~Rp13M/ton. Note sharesOut increase reflects 2024 rights issue per IDX disclosure",
       "capexMM": 1280000,
       "daMM": 1090000,
-      "cfoMM": 2200000
+      "cfoMM": 2200000,
+      "interestExpenseMM": 640000.0,
+      "weightedAvgDebtRate": 8.0,
+      "debtMaturityProfileMM": {
+        "<1y": 1600000.0,
+        "1-3y": 2000000.0,
+        "3-5y": 1600000.0,
+        "5+y": 2800000.0
+      }
     }
   ]
 }

@@ -600,7 +600,15 @@
       "daMM": 0.6,
       "cfoMM": 56.6,
       "notes": "FY25 Annual Report. Net property income +9.2% YoY to $95.1M; adjusted NAV/unit $3.08; distribution 11.73 cps.",
-      "bookValuePerShare": 3.08
+      "bookValuePerShare": 3.08,
+      "interestExpenseMM": 44.6,
+      "weightedAvgDebtRate": 5.5,
+      "debtMaturityProfileMM": {
+        "<1y": 162.2,
+        "1-3y": 202.75,
+        "3-5y": 162.2,
+        "5+y": 283.85
+      }
     }
   ]
 }

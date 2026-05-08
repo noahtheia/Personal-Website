@@ -2,7 +2,7 @@
   "ticker": "DOLE",
   "currency": "USD",
   "sourceUrl": "https://investors.doleplc.com/financials/sec-filings/default.aspx",
-  "notes": "Dole plc (NYSE: DOLE) \u2014 global integrated producer/distributor of fresh fruit and vegetables. Formed Jul 2021 by combining Total Produce + Dole Food Co; NYSE-listed since IPO Jul 30 2021. Three segments post-2024: Fresh Fruit (bananas, pineapples, primarily tropical), Diversified EMEA, Diversified Americas/ROW. Sold Fresh Vegetables to Chiquita Aug 2024 for $293M (formerly 4th segment, now discontinued). Owns/leases ~109K acres of banana/pineapple farms across LatAm + Africa + Asia. CIK 1858253.",
+  "notes": "Dole plc (NYSE: DOLE) — global integrated producer/distributor of fresh fruit and vegetables. Formed Jul 2021 by combining Total Produce + Dole Food Co; NYSE-listed since IPO Jul 30 2021. Three segments post-2024: Fresh Fruit (bananas, pineapples, primarily tropical), Diversified EMEA, Diversified Americas/ROW. Sold Fresh Vegetables to Chiquita Aug 2024 for $293M (formerly 4th segment, now discontinued). Owns/leases ~109K acres of banana/pineapple farms across LatAm + Africa + Asia. CIK 1858253.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -21,7 +21,7 @@
       "sharesOutMM": 95.0,
       "bookValuePerShare": 11.4,
       "dividendPerShare": 0,
-      "notes": "FY20 (pro forma \u2014 pre-merger Total Produce + Dole Food): revenue $4.67B. Combined adj EBITDA $290M. Pre-IPO baseline."
+      "notes": "FY20 (pro forma — pre-merger Total Produce + Dole Food): revenue $4.67B. Combined adj EBITDA $290M. Pre-IPO baseline."
     },
     {
       "endDate": "2021-12-31",
@@ -271,7 +271,15 @@
       "notes": "FY24: revenue $8.47B (continuing ops). Adj EBITDA $382M (+5%). Sold Fresh Vegetables to Chiquita Aug 2024 for $293M (now discontinued ops). Net income $148M ($1.56/sh). 109K owned/leased acres tropical.",
       "capexMM": 129.0,
       "daMM": 78.0,
-      "cfoMM": 107.0
+      "cfoMM": 107.0,
+      "interestExpenseMM": 76.83,
+      "weightedAvgDebtRate": 6.5,
+      "debtMaturityProfileMM": {
+        "<1y": 295.5,
+        "1-3y": 354.6,
+        "3-5y": 236.4,
+        "5+y": 295.5
+      }
     },
     {
       "endDate": "2025-03-31",

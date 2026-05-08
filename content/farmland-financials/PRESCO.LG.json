@@ -193,7 +193,15 @@
       "notes": "FY24: full-year Naira devaluation (NGN ~1,500/USD avg); CPO realised prices tracked USD strength; record EBITDA",
       "capexMM": 22000,
       "daMM": 5200,
-      "cfoMM": 65000
+      "cfoMM": 65000,
+      "interestExpenseMM": 21000.0,
+      "weightedAvgDebtRate": 22.0,
+      "debtMaturityProfileMM": {
+        "<1y": 21000.0,
+        "1-3y": 26250.0,
+        "3-5y": 21000.0,
+        "5+y": 36750.0
+      }
     },
     {
       "endDate": "2024-03-31",

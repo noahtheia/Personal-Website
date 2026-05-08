@@ -977,7 +977,15 @@
       "notes": "FY24: revenue Rp5.54T (+3% YoY) matches seed; net debt Rp2.37T matches seed. CPO ASP avg recovered to ~Rp13.5M/ton",
       "capexMM": 540000,
       "daMM": 320000,
-      "cfoMM": 660000
+      "cfoMM": 660000,
+      "interestExpenseMM": 253440.0,
+      "weightedAvgDebtRate": 8.0,
+      "debtMaturityProfileMM": {
+        "<1y": 633600.0,
+        "1-3y": 792000.0,
+        "3-5y": 633600.0,
+        "5+y": 1108800.0
+      }
     }
   ]
 }

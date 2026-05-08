@@ -156,7 +156,15 @@
       "notes": "FY24: continued tea price weakness, near-breakeven on operating side; restructuring announced",
       "capexMM": 350,
       "daMM": 280,
-      "cfoMM": 480
+      "cfoMM": 480,
+      "interestExpenseMM": 188.5,
+      "weightedAvgDebtRate": 14.0,
+      "debtMaturityProfileMM": {
+        "<1y": 290.0,
+        "1-3y": 362.5,
+        "3-5y": 290.0,
+        "5+y": 507.5
+      }
     },
     {
       "endDate": "2024-03-31",

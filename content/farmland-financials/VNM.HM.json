@@ -211,7 +211,15 @@
       "notes": "FY24: revenue VND 61,782B (+2%). EBITDA VND 12,200B (~20% margin). PAT VND 9,453B (+5%). Stable cash machine; sustained net-cash position. Lo Voi Cambodia + Driftwood (US) contributing to export growth.",
       "capexMM": 1700000,
       "daMM": 2150000,
-      "cfoMM": 12500000
+      "cfoMM": 12500000,
+      "interestExpenseMM": 319000.0,
+      "weightedAvgDebtRate": 5.5,
+      "debtMaturityProfileMM": {
+        "<1y": 1450000.0,
+        "1-3y": 1740000.0,
+        "3-5y": 1160000.0,
+        "5+y": 1450000.0
+      }
     }
   ]
 }

@@ -924,7 +924,15 @@
       "notes": "FY24: Revenue RM2.94B, EBITDA RM700M, NPAT RM320M, NAV/share RM5.94",
       "capexMM": 420,
       "daMM": 230,
-      "cfoMM": 580
+      "cfoMM": 580,
+      "interestExpenseMM": 164.22,
+      "weightedAvgDebtRate": 5.0,
+      "debtMaturityProfileMM": {
+        "<1y": 631.6,
+        "1-3y": 789.5,
+        "3-5y": 631.6,
+        "5+y": 1105.3
+      }
     },
     {
       "endDate": "2025-03-31",

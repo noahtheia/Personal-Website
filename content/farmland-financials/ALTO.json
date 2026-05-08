@@ -2,7 +2,7 @@
   "ticker": "ALTO",
   "currency": "USD",
   "sourceUrl": "https://www.altoingredients.com/investors/sec-filings",
-  "notes": "Alto Ingredients (NASDAQ: ALTO) \u2014 Sacramento-based ethanol + specialty alcohols producer (CIK 1076259, formerly Pacific Ethanol). Operates Pekin (IL) campus + Magic Valley (ID) + Columbia (OR) plants. ~350M gal/yr capacity. Three segments: Pekin (specialty + fuel), Marketing & Distribution, Western Production. Fiscal year = calendar. Reports in USD. Restructured 2024 \u2014 idled Magic Valley + Columbia, ICP Pekin sale processes. Significant operating losses post-2022.",
+  "notes": "Alto Ingredients (NASDAQ: ALTO) — Sacramento-based ethanol + specialty alcohols producer (CIK 1076259, formerly Pacific Ethanol). Operates Pekin (IL) campus + Magic Valley (ID) + Columbia (OR) plants. ~350M gal/yr capacity. Three segments: Pekin (specialty + fuel), Marketing & Distribution, Western Production. Fiscal year = calendar. Reports in USD. Restructured 2024 — idled Magic Valley + Columbia, ICP Pekin sale processes. Significant operating losses post-2022.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -258,7 +258,15 @@
       "notes": "FY24: revenue $945M. EBITDA $-42M. Net loss $83M (asset impairments $40M+). Idled Magic Valley + Columbia. Strategic alternatives review for remaining assets.",
       "capexMM": 11.1,
       "daMM": 24.4,
-      "cfoMM": -3.5
+      "cfoMM": -3.5,
+      "interestExpenseMM": 8.25,
+      "weightedAvgDebtRate": 7.5,
+      "debtMaturityProfileMM": {
+        "<1y": 44.0,
+        "1-3y": 27.5,
+        "3-5y": 16.5,
+        "5+y": 22.0
+      }
     },
     {
       "endDate": "2025-03-31",

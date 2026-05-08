@@ -493,7 +493,15 @@
       },
       "capexMM": 900000,
       "daMM": 750000,
-      "cfoMM": 1640000
+      "cfoMM": 1640000,
+      "interestExpenseMM": 258750.0,
+      "weightedAvgDebtRate": 7.5,
+      "debtMaturityProfileMM": {
+        "<1y": 690000.0,
+        "1-3y": 862500.0,
+        "3-5y": 690000.0,
+        "5+y": 1207500.0
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@
   "ticker": "TSN",
   "currency": "USD",
   "sourceUrl": "https://ir.tyson.com/financials/sec-filings/default.aspx",
-  "notes": "Tyson Foods (NYSE: TSN) \u2014 world's second-largest processor of beef, pork, and chicken. Fiscal year ends late September / early October (52/53-week year). Five reporting segments: Beef, Pork, Chicken, Prepared Foods, International/Other. Highly cyclical \u2014 Beef has been pressured FY23-FY25 by US cattle herd contraction and negative spreads, while Chicken margins recovered FY24 from FY23 trough. Net debt rebuilt cash post-2022 acquisitions; ~$2B share buybacks suspended FY23. Dividend $1.96 \u2192 $2.00 annualized. Data sourced from 10-K filings (CIK 100493). FY24 10-K filed Nov 12, 2024.",
+  "notes": "Tyson Foods (NYSE: TSN) — world's second-largest processor of beef, pork, and chicken. Fiscal year ends late September / early October (52/53-week year). Five reporting segments: Beef, Pork, Chicken, Prepared Foods, International/Other. Highly cyclical — Beef has been pressured FY23-FY25 by US cattle herd contraction and negative spreads, while Chicken margins recovered FY24 from FY23 trough. Net debt rebuilt cash post-2022 acquisitions; ~$2B share buybacks suspended FY23. Dividend $1.96 → $2.00 annualized. Data sourced from 10-K filings (CIK 100493). FY24 10-K filed Nov 12, 2024.",
   "periods": [
     {
       "endDate": "2020-10-03",
@@ -372,6 +372,14 @@
         "Chicken": 16425,
         "Prepared Foods": 9851,
         "International/Other": 2353
+      },
+      "interestExpenseMM": 454.9,
+      "weightedAvgDebtRate": 4.8,
+      "debtMaturityProfileMM": {
+        "<1y": 2369.25,
+        "1-3y": 2843.1,
+        "3-5y": 1895.4,
+        "5+y": 2369.25
       }
     },
     {

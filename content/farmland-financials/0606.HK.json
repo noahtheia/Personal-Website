@@ -129,7 +129,15 @@
       "notes": "FY24: Revenue RMB100.2bn (-15%) on continued commodity price softness + weaker oilseed crush spreads; EBITDA RMB2.05bn (margin 2.0%), NI RMB305M. Leverage ~12.5x — heavy working capital.",
       "capexMM": 2200,
       "daMM": 1850,
-      "cfoMM": 4900
+      "cfoMM": 4900,
+      "interestExpenseMM": 1521.0,
+      "weightedAvgDebtRate": 4.0,
+      "debtMaturityProfileMM": {
+        "<1y": 13520.0,
+        "1-3y": 8450.0,
+        "3-5y": 5070.0,
+        "5+y": 6760.0
+      }
     }
   ]
 }

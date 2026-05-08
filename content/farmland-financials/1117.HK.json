@@ -141,7 +141,15 @@
       "notes": "FY24: China raw milk surplus — prices fell ~13% YoY. Revenue RMB9.08bn (lower vs 23 due to revenue recognition restatement / one-time deconsolidation in prior year). Operating EBITDA RMB1.35bn. Net loss RMB1.47bn (bio-asset writedown + impairments). Leverage elevated at ~9x.",
       "capexMM": 2200,
       "daMM": 1460,
-      "cfoMM": 2300
+      "cfoMM": 2300,
+      "interestExpenseMM": 576.0,
+      "weightedAvgDebtRate": 4.0,
+      "debtMaturityProfileMM": {
+        "<1y": 3600.0,
+        "1-3y": 4320.0,
+        "3-5y": 2880.0,
+        "5+y": 3600.0
+      }
     }
   ]
 }

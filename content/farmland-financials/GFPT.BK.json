@@ -134,7 +134,15 @@
       "notes": "FY24: Revenue ฿19.85B (+6%); net profit ฿1.59B (+68%) — best year since 2017. Lower feed costs (corn/soy) + strong Japan/EU cooked chicken export.",
       "capexMM": 900,
       "daMM": 860,
-      "cfoMM": 1700
+      "cfoMM": 1700,
+      "interestExpenseMM": 261.0,
+      "weightedAvgDebtRate": 4.5,
+      "debtMaturityProfileMM": {
+        "<1y": 2320.0,
+        "1-3y": 1450.0,
+        "3-5y": 870.0,
+        "5+y": 1160.0
+      }
     },
     {
       "endDate": "2024-03-31",

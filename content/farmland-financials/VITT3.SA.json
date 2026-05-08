@@ -127,7 +127,15 @@
       "notes": "FY24: receita líquida R$682M (+7% YoY) — desaceleração com queda de preços de commodities + estresse no crédito agrícola. EBITDA R$160M (23.5% margem) ligeiramente comprimida. Net debt R$120M (0.75x EBITDA). Source: 2024 DFP.",
       "capexMM": 55,
       "daMM": 55,
-      "cfoMM": 145
+      "cfoMM": 145,
+      "interestExpenseMM": 30.0,
+      "weightedAvgDebtRate": 13.0,
+      "debtMaturityProfileMM": {
+        "<1y": 48.0,
+        "1-3y": 60.0,
+        "3-5y": 48.0,
+        "5+y": 84.0
+      }
     },
     {
       "endDate": "2022-03-31",

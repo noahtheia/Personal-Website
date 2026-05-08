@@ -139,7 +139,15 @@
       "notes": "FY24: Revenue KES 2.38B (+52%) recovery; PAT KES 230M, dividend restored at KES 8/share. Avocado pricing partially normalised; blueberry expansion progressing.",
       "capexMM": 65,
       "daMM": 82,
-      "cfoMM": 140
+      "cfoMM": 140,
+      "interestExpenseMM": 26.0,
+      "weightedAvgDebtRate": 14.0,
+      "debtMaturityProfileMM": {
+        "<1y": 40.0,
+        "1-3y": 50.0,
+        "3-5y": 40.0,
+        "5+y": 70.0
+      }
     }
   ]
 }

@@ -82,7 +82,7 @@
       "netDebtMM": -120,
       "sharesOutMM": 224.44,
       "epsBasic": 1.11,
-      "dividendPerShare": 0.30,
+      "dividendPerShare": 0.3,
       "capexMM": 120,
       "daMM": 130,
       "cfoMM": 380,
@@ -127,7 +127,15 @@
         "D&A": 135,
         "Other opex": 0
       },
-      "notes": "FY24 revenue $6.81B (-17%) on smaller east-coast crop and lower margins. EBITDA $268M."
+      "notes": "FY24 revenue $6.81B (-17%) on smaller east-coast crop and lower margins. EBITDA $268M.",
+      "interestExpenseMM": 29.7,
+      "weightedAvgDebtRate": 5.5,
+      "debtMaturityProfileMM": {
+        "<1y": 216.0,
+        "1-3y": 135.0,
+        "3-5y": 81.0,
+        "5+y": 108.0
+      }
     },
     {
       "endDate": "2024-03-31",

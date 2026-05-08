@@ -174,7 +174,15 @@
       "notes": "FY24: Strong recovery — hog prices avg RMB17/kg, full-year cost down to ~RMB13.7/kg. Revenue RMB137.9bn (+24%), EBITDA RMB31.2bn (margin 22.6%), NI RMB17.8bn. 71.6M head sold (record). Leverage <1.6x.",
       "capexMM": 6500,
       "daMM": 7800,
-      "cfoMM": 36000
+      "cfoMM": 36000,
+      "interestExpenseMM": 3213.0,
+      "weightedAvgDebtRate": 3.8,
+      "debtMaturityProfileMM": {
+        "<1y": 28560.0,
+        "1-3y": 17850.0,
+        "3-5y": 10710.0,
+        "5+y": 14280.0
+      }
     }
   ]
 }

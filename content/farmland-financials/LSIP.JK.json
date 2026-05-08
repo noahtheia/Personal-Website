@@ -465,7 +465,15 @@
       "notes": "FY24: revenue Rp4.92T (+12% YoY) on CPO recovery; net income Rp642B (+87%). Net cash Rp2.78T",
       "capexMM": 600000,
       "daMM": 330000,
-      "cfoMM": 970000
+      "cfoMM": 970000,
+      "interestExpenseMM": 2600.0,
+      "weightedAvgDebtRate": 6.5,
+      "debtMaturityProfileMM": {
+        "<1y": 8000.0,
+        "1-3y": 10000.0,
+        "3-5y": 8000.0,
+        "5+y": 14000.0
+      }
     }
   ]
 }

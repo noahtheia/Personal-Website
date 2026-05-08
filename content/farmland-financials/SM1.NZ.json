@@ -65,7 +65,7 @@
       "cashMM": 30,
       "netDebtMM": 730,
       "sharesOutMM": 219,
-      "bookValuePerShare": 2.50,
+      "bookValuePerShare": 2.5,
       "dividendPerShare": 0,
       "capexMM": 50,
       "daMM": 70,
@@ -142,7 +142,15 @@
       "capexMM": 30,
       "daMM": 65,
       "cfoMM": 75,
-      "notes": "FY25 (ended Jul 31 2025): revenue NZD 1.69B. EBITDA recovered to NZD 95M post-recap. Net income NZD 12M. NZD 217.8M equity raise diluted shares to ~1.79bn. Bright Dairy 65%, a2 Milk ~19%."
+      "notes": "FY25 (ended Jul 31 2025): revenue NZD 1.69B. EBITDA recovered to NZD 95M post-recap. Net income NZD 12M. NZD 217.8M equity raise diluted shares to ~1.79bn. Bright Dairy 65%, a2 Milk ~19%.",
+      "interestExpenseMM": 27.6,
+      "weightedAvgDebtRate": 6.0,
+      "debtMaturityProfileMM": {
+        "<1y": 115.0,
+        "1-3y": 138.0,
+        "3-5y": 92.0,
+        "5+y": 115.0
+      }
     }
   ]
 }

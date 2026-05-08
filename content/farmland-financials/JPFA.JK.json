@@ -453,7 +453,15 @@
       "notes": "FY24: Rp54.6T revenue, Rp1.95T net profit (+112% YoY). DOC pricing recovery + shrimp-feed margin reset. Net debt down to ~Rp7.1T.",
       "capexMM": 2500000,
       "daMM": 1240000,
-      "cfoMM": 3300000
+      "cfoMM": 3300000,
+      "interestExpenseMM": 808000.0,
+      "weightedAvgDebtRate": 8.0,
+      "debtMaturityProfileMM": {
+        "<1y": 4040000.0,
+        "1-3y": 2525000.0,
+        "3-5y": 1515000.0,
+        "5+y": 2020000.0
+      }
     }
   ]
 }

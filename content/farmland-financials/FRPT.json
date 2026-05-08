@@ -2,7 +2,7 @@
   "ticker": "FRPT",
   "currency": "USD",
   "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001304161&type=10-K",
-  "notes": "Freshpet, Inc. (NASDAQ: FRPT) \u2014 manufacturer of refrigerated, fresh pet foods (primarily for dogs, with a smaller cat line). Branded as Freshpet \u2014 sold via dedicated branded refrigerator units (\"Freshpet Fridges\") in ~28,000 retail stores across N. America and the UK (Petco, PetSmart, Walmart, Target, Costco, Kroger, Tesco). Single product / brand company. Fiscal year = calendar. Heavy multi-year capex cycle (Ennis TX, Bethlehem PA plants) for capacity to support ~30% volume CAGR. Reached EBITDA breakeven FY22 and expanding EBITDA margin since. CIK 1304161. 10-Ks at sec.gov.",
+  "notes": "Freshpet, Inc. (NASDAQ: FRPT) — manufacturer of refrigerated, fresh pet foods (primarily for dogs, with a smaller cat line). Branded as Freshpet — sold via dedicated branded refrigerator units (\"Freshpet Fridges\") in ~28,000 retail stores across N. America and the UK (Petco, PetSmart, Walmart, Target, Costco, Kroger, Tesco). Single product / brand company. Fiscal year = calendar. Heavy multi-year capex cycle (Ennis TX, Bethlehem PA plants) for capacity to support ~30% volume CAGR. Reached EBITDA breakeven FY22 and expanding EBITDA margin since. CIK 1304161. 10-Ks at sec.gov.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -129,7 +129,7 @@
       "sharesOutMM": 44.5,
       "bookValuePerShare": 11.0,
       "dividendPerShare": 0,
-      "notes": "FY22: revenue $595.2M (+40%). Adj EBITDA $11.6M (GAAP EBITDA negative \u2014 ramp losses + impairment). Trough margin year. Heavy investment in Ennis kitchens 2 + 3.",
+      "notes": "FY22: revenue $595.2M (+40%). Adj EBITDA $11.6M (GAAP EBITDA negative — ramp losses + impairment). Trough margin year. Heavy investment in Ennis kitchens 2 + 3.",
       "capexMM": 0.0,
       "daMM": 0.1,
       "cfoMM": 0.6
@@ -301,10 +301,18 @@
       "sharesOutMM": 48.6,
       "bookValuePerShare": 14.4,
       "dividendPerShare": 0,
-      "notes": "FY24: revenue $975.2M (+27%). Adj EBITDA $164.4M (~17% margin \u2014 significant operating leverage). Net income positive ~$58M; EPS ~$1.20. First fully profitable year. Capex remains heavy as Ennis expansion + Bethlehem build-out continue.",
+      "notes": "FY24: revenue $975.2M (+27%). Adj EBITDA $164.4M (~17% margin — significant operating leverage). Net income positive ~$58M; EPS ~$1.20. First fully profitable year. Capex remains heavy as Ennis expansion + Bethlehem build-out continue.",
       "capexMM": 0.2,
       "daMM": 0.0,
-      "cfoMM": -0.6
+      "cfoMM": -0.6,
+      "interestExpenseMM": 22.77,
+      "weightedAvgDebtRate": 5.5,
+      "debtMaturityProfileMM": {
+        "<1y": 103.5,
+        "1-3y": 124.2,
+        "3-5y": 82.8,
+        "5+y": 103.5
+      }
     },
     {
       "endDate": "2025-01-31",

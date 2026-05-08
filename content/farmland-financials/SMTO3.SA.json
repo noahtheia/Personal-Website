@@ -262,7 +262,15 @@
       "notes": "FY24/25 (Mar-25): Revenue R$6.41bn (+8%), EBITDA R$2.75bn (margin 42.8%) — record sugar production but lower unit margins on cane TCH/ATR pressure from drought + fires. Leverage 1.85x. Dividends R$540M.",
       "capexMM": 1550,
       "daMM": 1200,
-      "cfoMM": 2400
+      "cfoMM": 2400,
+      "interestExpenseMM": 792.0,
+      "weightedAvgDebtRate": 11.5,
+      "debtMaturityProfileMM": {
+        "<1y": 1440.0,
+        "1-3y": 1800.0,
+        "3-5y": 1440.0,
+        "5+y": 2520.0
+      }
     },
     {
       "endDate": "2025-06-30",

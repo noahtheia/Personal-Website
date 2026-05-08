@@ -132,7 +132,15 @@
       "notes": "FY24: revenue R36.8B. Underlying EBITDA R3.3B (+50% — chicken recovery, sugar stable). Rainbow Chicken (RBO) unbundled and separately listed June 2024 — these continuing-ops figures exclude Rainbow post-unbundling and reflect group basis pre-spin. HEPS ~145 cents. Dividend 65 cents.",
       "capexMM": 1200,
       "daMM": 1010,
-      "cfoMM": 2900
+      "cfoMM": 2900,
+      "interestExpenseMM": 504.0,
+      "weightedAvgDebtRate": 11.0,
+      "debtMaturityProfileMM": {
+        "<1y": 1920.0,
+        "1-3y": 1200.0,
+        "3-5y": 720.0,
+        "5+y": 960.0
+      }
     },
     {
       "endDate": "2023-12-31",

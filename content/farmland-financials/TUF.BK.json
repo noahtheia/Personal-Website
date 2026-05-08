@@ -136,7 +136,15 @@
       "notes": "FY24: Revenue ฿138.9B (+2%); net profit ฿6.72B turnaround post Red Lobster exit. Buyback program + IPO of i-Tail Pet Care subsidiary.",
       "capexMM": 5500,
       "daMM": 5300,
-      "cfoMM": 11200
+      "cfoMM": 11200,
+      "interestExpenseMM": 2420.0,
+      "weightedAvgDebtRate": 4.0,
+      "debtMaturityProfileMM": {
+        "<1y": 24200.0,
+        "1-3y": 15125.0,
+        "3-5y": 9075.0,
+        "5+y": 12100.0
+      }
     },
     {
       "endDate": "2024-03-31",

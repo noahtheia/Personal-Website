@@ -24,7 +24,12 @@
       "notes": "FY20: revenue $12.1B. COVID-impacted plant operations. Adj EBITDA $740M. DOJ price-fixing investigation overhang.",
       "capexMM": 354.8,
       "daMM": 337.1,
-      "cfoMM": 724.2
+      "cfoMM": 724.2,
+      "revenueBySegmentMM": {
+        "U.S.": 7496,
+        "Europe": 3274,
+        "Mexico": 1322
+      }
     },
     {
       "endDate": "2021-12-26",
@@ -46,7 +51,12 @@
       "notes": "FY21: revenue $14.8B (+22%). Strong commodity chicken pricing. Adj EBITDA $1.11B. Tulip integration.",
       "capexMM": 381.7,
       "daMM": 380.8,
-      "cfoMM": 326.5
+      "cfoMM": 326.5,
+      "revenueBySegmentMM": {
+        "U.S.": 9113.9,
+        "Europe": 3934.1,
+        "Mexico": 1729.5
+      }
     },
     {
       "endDate": "2022-03-27",
@@ -124,7 +134,12 @@
       "notes": "FY22: revenue $17.5B (+18%). Strong USA pricing. Op income $1.18B.",
       "capexMM": 487.1,
       "daMM": 403.1,
-      "cfoMM": 669.9
+      "cfoMM": 669.9,
+      "revenueBySegmentMM": {
+        "U.S.": 10748.4,
+        "Europe": 4874.7,
+        "Mexico": 1845.3
+      }
     },
     {
       "endDate": "2023-03-26",
@@ -202,7 +217,12 @@
       "notes": "FY23: revenue $17.4B (-1%). US chicken margins weak; Mexico strong. Adj EBITDA $1.03B.",
       "capexMM": 557.8,
       "daMM": 419.9,
-      "cfoMM": 677.9
+      "cfoMM": 677.9,
+      "revenueBySegmentMM": {
+        "U.S.": 10027.7,
+        "Europe": 5203.3,
+        "Mexico": 2131.2
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -280,7 +300,20 @@
       "notes": "FY24: revenue $17.88B (+3%). Massive margin recovery \u2014 adj EBITDA $1.94B (+88%). Special dividend $6.30/sh paid Jan 2025 (~$1.5B). Op income $1.49B.",
       "capexMM": 458.5,
       "daMM": 433.6,
-      "cfoMM": 1990.1
+      "cfoMM": 1990.1,
+      "interestExpenseMM": 183.87,
+      "weightedAvgDebtRate": 5.5,
+      "debtMaturityProfileMM": {
+        "<1y": 835.75,
+        "1-3y": 1002.9,
+        "3-5y": 668.6,
+        "5+y": 835.75
+      },
+      "revenueBySegmentMM": {
+        "U.S.": 10629.9,
+        "Europe": 5136.7,
+        "Mexico": 2111.6
+      }
     },
     {
       "endDate": "2025-03-30",
@@ -299,7 +332,12 @@
       "sharesOutMM": 237.12,
       "totalDebtMM": 3200.6,
       "cashMM": 2066.8,
-      "netDebtMM": 1133.8
+      "netDebtMM": 1133.8,
+      "revenueBySegmentMM": {
+        "U.S.": 2743.2,
+        "Europe": 1231.5,
+        "Mexico": 488.3
+      }
     },
     {
       "endDate": "2025-06-29",
@@ -317,7 +355,12 @@
       "daMM": 113.5,
       "totalDebtMM": 3115.2,
       "cashMM": 849.0,
-      "netDebtMM": 2266.1
+      "netDebtMM": 2266.1,
+      "revenueBySegmentMM": {
+        "U.S.": 2820.4,
+        "Europe": 1371.3,
+        "Mexico": 565.7
+      }
     },
     {
       "endDate": "2025-09-28",
@@ -336,7 +379,12 @@
       "sharesOutMM": 237.55,
       "totalDebtMM": 3092.6,
       "cashMM": 612.6,
-      "netDebtMM": 2480.0
+      "netDebtMM": 2480.0,
+      "revenueBySegmentMM": {
+        "U.S.": 2836.6,
+        "Europe": 1392.5,
+        "Mexico": 530.2
+      }
     },
     {
       "endDate": "2025-12-28",
@@ -355,7 +403,12 @@
       "sharesOutMM": 237.55,
       "totalDebtMM": 3094.0,
       "cashMM": 640.2,
-      "netDebtMM": 2453.8
+      "netDebtMM": 2453.8,
+      "revenueBySegmentMM": {
+        "U.S.": 2598.5,
+        "Europe": 1383.6,
+        "Mexico": 535.7
+      }
     },
     {
       "endDate": "2026-03-29",
@@ -374,7 +427,12 @@
       "sharesOutMM": 237.55,
       "totalDebtMM": 3096.5,
       "cashMM": 542.4,
-      "netDebtMM": 2554.1
+      "netDebtMM": 2554.1,
+      "revenueBySegmentMM": {
+        "U.S.": 2635.4,
+        "Europe": 1351.7,
+        "Mexico": 545.5
+      }
     }
   ]
 }

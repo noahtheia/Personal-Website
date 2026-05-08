@@ -127,7 +127,15 @@
       "notes": "FY24: receita líquida R$1.70B (+27% YoY), mas EBITDA cai para R$200M (11.8% margem) sob estresse de crédito agrícola, atrasos de safra e maior PDD (provisão devedores duvidosos). Net debt R$750M (3.75x EBITDA) — leverage spike. Dividendo reduzido. Source: 2024 DFP.",
       "capexMM": 95,
       "daMM": 42,
-      "cfoMM": 195
+      "cfoMM": 195,
+      "interestExpenseMM": 110.0,
+      "weightedAvgDebtRate": 13.0,
+      "debtMaturityProfileMM": {
+        "<1y": 352.0,
+        "1-3y": 220.0,
+        "3-5y": 132.0,
+        "5+y": 176.0
+      }
     },
     {
       "endDate": "2022-03-31",

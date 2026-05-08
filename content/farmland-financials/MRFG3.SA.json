@@ -255,7 +255,15 @@
       "notes": "FY24: Revenue R$152.3bn (+13%), EBITDA R$13.7bn (margin 9.0%). Aug 2024 sale of 16 plants to Minerva for R$7.5bn deleveraged BS — net debt R$33.6bn (-20%). Net income recovered to R$720M.",
       "capexMM": 3800,
       "daMM": 5400,
-      "cfoMM": 9200
+      "cfoMM": 9200,
+      "interestExpenseMM": 5019.0,
+      "weightedAvgDebtRate": 11.0,
+      "debtMaturityProfileMM": {
+        "<1y": 19120.0,
+        "1-3y": 11950.0,
+        "3-5y": 7170.0,
+        "5+y": 9560.0
+      }
     },
     {
       "endDate": "2025-03-31",

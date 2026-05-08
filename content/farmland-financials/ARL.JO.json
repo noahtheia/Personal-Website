@@ -128,7 +128,15 @@
       "notes": "FY24: powerful recovery. Revenue R22.5B (+14%). Op profit R972M (vs R-977M loss FY23). HEPS ~2,250 cents. Load-shedding eased; AI flock rebuilt; feed-grain costs lower. Net cash position restored. Dividend reinstated 975 cents.",
       "capexMM": 700,
       "daMM": 460,
-      "cfoMM": 1450
+      "cfoMM": 1450,
+      "interestExpenseMM": 21.0,
+      "weightedAvgDebtRate": 11.0,
+      "debtMaturityProfileMM": {
+        "<1y": 80.0,
+        "1-3y": 50.0,
+        "3-5y": 30.0,
+        "5+y": 40.0
+      }
     },
     {
       "endDate": "2024-03-31",

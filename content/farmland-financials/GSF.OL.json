@@ -48,7 +48,7 @@
       "netDebtMM": 3200,
       "sharesOutMM": 113.13,
       "bookValuePerShare": 32.0,
-      "dividendPerShare": 4.00,
+      "dividendPerShare": 4.0,
       "capexMM": 850,
       "daMM": 480,
       "cfoMM": 700,
@@ -157,7 +157,7 @@
       "netDebtMM": 3500,
       "sharesOutMM": 113.13,
       "bookValuePerShare": 35.0,
-      "dividendPerShare": 4.00,
+      "dividendPerShare": 4.0,
       "capexMM": 1000,
       "daMM": 555,
       "cfoMM": 1300,
@@ -379,7 +379,8 @@
       "capexMM": 700,
       "daMM": 560,
       "cfoMM": 700,
-      "notes": "FY24: Revenue NOK 7,000M, Operational EBIT NOK 200M. BC operations divested to Cermaq (closed 2024). Norway-only platform going forward."
+      "notes": "FY24: Revenue NOK 7,000M, Operational EBIT NOK 200M. BC operations divested to Cermaq (closed 2024). Norway-only platform going forward.",
+      "interestExpenseMM": 90
     },
     {
       "endDate": "2025-03-31",

@@ -2,7 +2,7 @@
   "ticker": "AVO",
   "currency": "USD",
   "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001802974&type=10-K",
-  "notes": "Mission Produce Inc. (NASDAQ: AVO). Vertically integrated avocado grower / packer / global distributor with company-owned orchards in California, Mexico, Peru and Guatemala plus a global ripening/distribution network. Pivoted into mangoes and blueberries (2020s diversification). IPO Sep 2020. Fiscal year ends October 31. Data from SEC EDGAR XBRL companyfacts (CIK 0001802974) \u2014 figures match consolidated statements. EBITDA = operating income + D&A. Net debt = LongTermDebtNoncurrent + LongTermDebtCurrent \u2212 cash & cash equivalents. Two reportable segments: (i) Marketing & Distribution (avocado/mango sales \u2014 bulk of revenue), (ii) International Farming (Peru orchard production sold mostly intersegment to M&D). Blueberries segment added FY24 (Peru). Mission's owned/managed orchard footprint ~12k+ acres with bulk in Peru.",
+  "notes": "Mission Produce Inc. (NASDAQ: AVO). Vertically integrated avocado grower / packer / global distributor with company-owned orchards in California, Mexico, Peru and Guatemala plus a global ripening/distribution network. Pivoted into mangoes and blueberries (2020s diversification). IPO Sep 2020. Fiscal year ends October 31. Data from SEC EDGAR XBRL companyfacts (CIK 0001802974) — figures match consolidated statements. EBITDA = operating income + D&A. Net debt = LongTermDebtNoncurrent + LongTermDebtCurrent − cash & cash equivalents. Two reportable segments: (i) Marketing & Distribution (avocado/mango sales — bulk of revenue), (ii) International Farming (Peru orchard production sold mostly intersegment to M&D). Blueberries segment added FY24 (Peru). Mission's owned/managed orchard footprint ~12k+ acres with bulk in Peru.",
   "periods": [
     {
       "endDate": "2021-10-31",
@@ -92,7 +92,7 @@
       "sharesOutMM": 70.67,
       "epsBasic": -0.49,
       "epsDiluted": -0.49,
-      "notes": "FY22: revenue +17% on Mexican price spike but op loss \u2212$37.2M (Peru smaller harvest, abrupt avocado price collapse Q4). EBITDA \u2212$12.4M. Net loss \u2212$34.6M, EPS \u2212$0.49. Wettest pivot year of cycle.",
+      "notes": "FY22: revenue +17% on Mexican price spike but op loss −$37.2M (Peru smaller harvest, abrupt avocado price collapse Q4). EBITDA −$12.4M. Net loss −$34.6M, EPS −$0.49. Wettest pivot year of cycle.",
       "capexMM": 61.2,
       "daMM": 24.8,
       "cfoMM": 35.2
@@ -167,7 +167,7 @@
       "sharesOutMM": 70.73,
       "epsBasic": -0.04,
       "epsDiluted": -0.04,
-      "notes": "FY23: revenue \u22129% YoY ($953.9M). Op income $6.9M + D&A $32.8M = EBITDA $39.7M (recovery vs FY22 disaster). Net loss \u2212$2.8M. Mango segment launched.",
+      "notes": "FY23: revenue −9% YoY ($953.9M). Op income $6.9M + D&A $32.8M = EBITDA $39.7M (recovery vs FY22 disaster). Net loss −$2.8M. Mango segment launched.",
       "capexMM": 49.8,
       "daMM": 32.8,
       "cfoMM": 29.2
@@ -320,7 +320,15 @@
       "notes": "FY25: record revenue $1.39B (+13% YoY) on volume growth & favorable pricing. Op income $65.2M + D&A $34.6M = EBITDA $99.8M. Net income $37.7M, EPS $0.53. Net debt $31.0M, lowest since IPO. Blueberry segment scaling.",
       "capexMM": 51.4,
       "daMM": 34.6,
-      "cfoMM": 88.6
+      "cfoMM": 88.6,
+      "interestExpenseMM": 5.75,
+      "weightedAvgDebtRate": 6.0,
+      "debtMaturityProfileMM": {
+        "<1y": 23.95,
+        "1-3y": 28.74,
+        "3-5y": 19.16,
+        "5+y": 23.95
+      }
     },
     {
       "endDate": "2026-01-31",

@@ -2,7 +2,7 @@
   "ticker": "IPI",
   "currency": "USD",
   "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001421461&type=10-K",
-  "notes": "Intrepid Potash Inc. (NYSE: IPI). Only US producer of muriate of potash (KCl) \u2014 solar-evaporation operations in Carlsbad NM (HB & East), Moab UT, Wendover UT \u2014 plus the Trio (langbeinite, K-Mg-S) byproduct. Also growing oilfield products (water/brine sales to Permian) and Trio specialty business. Fiscal year ends Dec 31. Data from SEC EDGAR XBRL companyfacts and direct 10-K extraction (CIK 0001421461). Revenue tag changed FY23+ from RevenueMineralSales to RevenueFromContractWithCustomerIncludingAssessedTax; FY19-22 figures pulled from 10-K consolidated statements of operations (Mineral Sales segment line). EBITDA = operating income + D&A. Note: Aug 2020 1-for-10 reverse stock split \u2014 historical share counts pre-2021 restated by 10\u00d7. FY21 net income $249.8M / EPS $19.07 inflated by $208.9M deferred-tax-asset valuation allowance reversal; FY22 strong on Russia/Ukraine fertilizer-price spike. FY23-24 saw potash price collapse (~70% peak-to-trough) and FY24 net loss includes $172M asset-impairment charges on potash facilities and ~$40M deferred tax valuation allowance.",
+  "notes": "Intrepid Potash Inc. (NYSE: IPI). Only US producer of muriate of potash (KCl) — solar-evaporation operations in Carlsbad NM (HB & East), Moab UT, Wendover UT — plus the Trio (langbeinite, K-Mg-S) byproduct. Also growing oilfield products (water/brine sales to Permian) and Trio specialty business. Fiscal year ends Dec 31. Data from SEC EDGAR XBRL companyfacts and direct 10-K extraction (CIK 0001421461). Revenue tag changed FY23+ from RevenueMineralSales to RevenueFromContractWithCustomerIncludingAssessedTax; FY19-22 figures pulled from 10-K consolidated statements of operations (Mineral Sales segment line). EBITDA = operating income + D&A. Note: Aug 2020 1-for-10 reverse stock split — historical share counts pre-2021 restated by 10×. FY21 net income $249.8M / EPS $19.07 inflated by $208.9M deferred-tax-asset valuation allowance reversal; FY22 strong on Russia/Ukraine fertilizer-price spike. FY23-24 saw potash price collapse (~70% peak-to-trough) and FY24 net loss includes $172M asset-impairment charges on potash facilities and ~$40M deferred tax valuation allowance.",
   "periods": [
     {
       "endDate": "2021-12-31",
@@ -47,7 +47,7 @@
       "sharesOutMM": 12.81,
       "epsBasic": -2.8,
       "epsDiluted": -2.8,
-      "notes": "FY23: revenue \u221217% to $279.1M as potash prices collapsed. Op loss \u2212$44.0M, D&A $39.4M, EBITDA \u2212$4.6M. Net loss \u2212$35.7M, EPS \u2212$2.80. Cash drawdown to $4.1M (heavy capex on HB Solar Solution Mine restoration)."
+      "notes": "FY23: revenue −17% to $279.1M as potash prices collapsed. Op loss −$44.0M, D&A $39.4M, EBITDA −$4.6M. Net loss −$35.7M, EPS −$2.80. Cash drawdown to $4.1M (heavy capex on HB Solar Solution Mine restoration)."
     },
     {
       "endDate": "2024-12-31",
@@ -62,7 +62,7 @@
       "sharesOutMM": 12.91,
       "epsBasic": -16.53,
       "epsDiluted": -16.53,
-      "notes": "FY24: revenue $254.7M (\u22129%). Op loss \u2212$19.9M, D&A $37.7M = EBITDA $17.8M (positive vs FY23). Net loss \u2212$212.8M / EPS \u2212$16.53 driven by ~$172M non-cash potash long-lived-asset impairment + ~$40M deferred-tax valuation allowance reinstatement. Cash recovery to $41.3M (Trio + oilfield free cash)."
+      "notes": "FY24: revenue $254.7M (−9%). Op loss −$19.9M, D&A $37.7M = EBITDA $17.8M (positive vs FY23). Net loss −$212.8M / EPS −$16.53 driven by ~$172M non-cash potash long-lived-asset impairment + ~$40M deferred-tax valuation allowance reinstatement. Cash recovery to $41.3M (Trio + oilfield free cash)."
     },
     {
       "endDate": "2025-03-31",
@@ -93,7 +93,8 @@
       "epsBasic": 0.86,
       "epsDiluted": 0.85,
       "dividendPerShare": 0.0,
-      "notes": "FY25: revenue $298.3M (+17% YoY). Op income $10.7M + D&A $40.6M = EBITDA $51.2M. Net income $11.2M, EPS $0.86 \u2014 return to profitability after FY23-24 trough. Debt-free with $83.5M cash (net cash $83.5M). Trio premium pricing + oilfield-water sales to Permian operators a tailwind."
+      "notes": "FY25: revenue $298.3M (+17% YoY). Op income $10.7M + D&A $40.6M = EBITDA $51.2M. Net income $11.2M, EPS $0.86 — return to profitability after FY23-24 trough. Debt-free with $83.5M cash (net cash $83.5M). Trio premium pricing + oilfield-water sales to Permian operators a tailwind.",
+      "interestExpenseMM": 1
     },
     {
       "endDate": "2026-03-31",

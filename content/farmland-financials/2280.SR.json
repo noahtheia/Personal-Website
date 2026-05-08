@@ -820,7 +820,15 @@
       "notes": "FY24: revenue +6.3% YoY, net income +13%; expanded poultry capacity, Fondomonte alfalfa shipments to Saudi steady",
       "capexMM": 2700,
       "daMM": 1720,
-      "cfoMM": 3900
+      "cfoMM": 3900,
+      "interestExpenseMM": 640.08,
+      "weightedAvgDebtRate": 6.0,
+      "debtMaturityProfileMM": {
+        "<1y": 2667.0,
+        "1-3y": 3200.4,
+        "3-5y": 2133.6,
+        "5+y": 2667.0
+      }
     },
     {
       "endDate": "2025-03-31",

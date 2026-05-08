@@ -248,7 +248,15 @@
       "notes": "FY25: revenue Rs 5,500 cr. EBITDA Rs 830 cr (~15% margin). PAT Rs 553 cr. Continues net-cash. Export momentum post-MEP removal.",
       "capexMM": 1450,
       "daMM": 1480,
-      "cfoMM": 5800
+      "cfoMM": 5800,
+      "interestExpenseMM": 405.0,
+      "weightedAvgDebtRate": 9.0,
+      "debtMaturityProfileMM": {
+        "<1y": 1800.0,
+        "1-3y": 1125.0,
+        "3-5y": 675.0,
+        "5+y": 900.0
+      }
     }
   ]
 }

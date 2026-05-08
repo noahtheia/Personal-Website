@@ -2,7 +2,7 @@
   "ticker": "MOS",
   "currency": "USD",
   "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001285785&type=10-K",
-  "notes": "The Mosaic Company \u2014 phosphate + potash fertilizer producer (US, Canada, Brazil). EBITDA = OperatingIncomeLoss + DD&A. FY2022 peak on post-pandemic / Russia nitrogen disruption pricing. Material write-downs in FY2024 reduced reported EPS. Long-term debt concept = LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities.",
+  "notes": "The Mosaic Company — phosphate + potash fertilizer producer (US, Canada, Brazil). EBITDA = OperatingIncomeLoss + DD&A. FY2022 peak on post-pandemic / Russia nitrogen disruption pricing. Material write-downs in FY2024 reduced reported EPS. Long-term debt concept = LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -363,7 +363,15 @@
       "epsDiluted": 1.7,
       "capexMM": 1359.4,
       "daMM": 1049.9,
-      "cfoMM": 824.8
+      "cfoMM": 824.8,
+      "interestExpenseMM": 277.96,
+      "weightedAvgDebtRate": 5.5,
+      "debtMaturityProfileMM": {
+        "<1y": 1010.78,
+        "1-3y": 1263.47,
+        "3-5y": 1010.78,
+        "5+y": 1768.86
+      }
     }
   ]
 }

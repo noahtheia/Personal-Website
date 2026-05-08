@@ -367,7 +367,15 @@
       "daMM": 2.2,
       "cfoMM": -7,
       "notes": "FY25 Annual Report (released 30 Sep 2025): revenue $24.08M, EBITDA $(9.02)M, NAV/share $1.03. Independent indicative property valuation ~$158M vs $121.6M book — implied ~30% mark-to-market upside.",
-      "bookValuePerShare": 1.03
+      "bookValuePerShare": 1.03,
+      "interestExpenseMM": 7.64,
+      "weightedAvgDebtRate": 7.0,
+      "debtMaturityProfileMM": {
+        "<1y": 21.83,
+        "1-3y": 27.28,
+        "3-5y": 21.83,
+        "5+y": 38.2
+      }
     }
   ]
 }

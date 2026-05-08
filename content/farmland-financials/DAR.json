@@ -2,7 +2,7 @@
   "ticker": "DAR",
   "currency": "USD",
   "sourceUrl": "https://ir.darlingii.com/financials-and-filings/sec-filings",
-  "notes": "Darling Ingredients (NYSE: DAR) \u2014 global rendering / animal byproduct processor. Three segments: Feed, Food (gelatin/Rousselot/Sonac), Fuel (50/50 Diamond Green Diesel JV with Valero). Acquired Valley Proteins (Apr 2022, ~$1.1B) and Gelnex (Apr 2023). DGD is largest renewable diesel producer in N America (~1.2B gal/yr capacity). FY24 weakness from soft RIN/RVO pricing for renewable diesel. CIK 916540.",
+  "notes": "Darling Ingredients (NYSE: DAR) — global rendering / animal byproduct processor. Three segments: Feed, Food (gelatin/Rousselot/Sonac), Fuel (50/50 Diamond Green Diesel JV with Valero). Acquired Valley Proteins (Apr 2022, ~$1.1B) and Gelnex (Apr 2023). DGD is largest renewable diesel producer in N America (~1.2B gal/yr capacity). FY24 weakness from soft RIN/RVO pricing for renewable diesel. CIK 916540.",
   "periods": [
     {
       "endDate": "2020-01-02",
@@ -211,7 +211,7 @@
       "sharesOutMM": 159.6,
       "bookValuePerShare": 22.1,
       "dividendPerShare": 0,
-      "notes": "FY23: revenue $6.78B (+9%). Adj EBITDA $1.26B (-23% \u2014 fat prices fell, DGD weaker). Gelnex closed Apr 2023.",
+      "notes": "FY23: revenue $6.78B (+9%). Adj EBITDA $1.26B (-23% — fat prices fell, DGD weaker). Gelnex closed Apr 2023.",
       "capexMM": 555.5,
       "daMM": 502.0,
       "cfoMM": 899.3
@@ -284,10 +284,18 @@
       "sharesOutMM": 158.4,
       "bookValuePerShare": 22.9,
       "dividendPerShare": 0,
-      "notes": "FY24: revenue $5.69B (-16%). Adj EBITDA $818M (-35%) \u2014 fats/oils trough + RIN compression hammered DGD. Net income $199M. PTC adoption pending under IRA section 45Z.",
+      "notes": "FY24: revenue $5.69B (-16%). Adj EBITDA $818M (-35%) — fats/oils trough + RIN compression hammered DGD. Net income $199M. PTC adoption pending under IRA section 45Z.",
       "capexMM": 332.5,
       "daMM": 503.8,
-      "cfoMM": 839.3
+      "cfoMM": 839.3,
+      "interestExpenseMM": 262.68,
+      "weightedAvgDebtRate": 6.5,
+      "debtMaturityProfileMM": {
+        "<1y": 875.6,
+        "1-3y": 1094.5,
+        "3-5y": 875.6,
+        "5+y": 1532.3
+      }
     },
     {
       "endDate": "2025-03-29",

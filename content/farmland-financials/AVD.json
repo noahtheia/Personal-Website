@@ -2,7 +2,7 @@
   "ticker": "AVD",
   "currency": "USD",
   "sourceUrl": "https://www.american-vanguard.com/investors",
-  "notes": "American Vanguard Corp (NYSE: AVD) \u2014 specialty crop chemistry (CIK 5981). Manufactures + distributes pesticides, fungicides, herbicides for fruit, vegetable, nut, and row crops. Calendar fiscal year. Reports in USD. SmartBox/SIMPAS precision-application platforms. Severe 2023-24 industry destocking + internal control weaknesses \u2192 2024 financial restatement, going-concern issues, transformation program. Sells products globally (US, Mexico, Brazil, EU, Australia).",
+  "notes": "American Vanguard Corp (NYSE: AVD) — specialty crop chemistry (CIK 5981). Manufactures + distributes pesticides, fungicides, herbicides for fruit, vegetable, nut, and row crops. Calendar fiscal year. Reports in USD. SmartBox/SIMPAS precision-application platforms. Severe 2023-24 industry destocking + internal control weaknesses → 2024 financial restatement, going-concern issues, transformation program. Sells products globally (US, Mexico, Brazil, EU, Australia).",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -237,7 +237,15 @@
       "notes": "FY24: revenue $506M (-11%). EBITDA $18M (transformation program ongoing, restructuring charges $30M+). Net loss $56M. Dividend suspended. Going-concern uncertainty addressed via amended credit facility.",
       "capexMM": 7.3,
       "daMM": 5.2,
-      "cfoMM": 3.9
+      "cfoMM": 3.9,
+      "interestExpenseMM": 11.38,
+      "weightedAvgDebtRate": 6.5,
+      "debtMaturityProfileMM": {
+        "<1y": 70.0,
+        "1-3y": 43.75,
+        "3-5y": 26.25,
+        "5+y": 35.0
+      }
     },
     {
       "endDate": "2025-03-31",

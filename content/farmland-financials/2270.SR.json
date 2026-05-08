@@ -155,7 +155,15 @@
       "notes": "FY25: continued category growth; strong cash generation; bonus issue effect on shares unchanged",
       "capexMM": 50,
       "daMM": 46,
-      "cfoMM": 130
+      "cfoMM": 130,
+      "interestExpenseMM": 2.75,
+      "weightedAvgDebtRate": 5.5,
+      "debtMaturityProfileMM": {
+        "<1y": 12.5,
+        "1-3y": 15.0,
+        "3-5y": 10.0,
+        "5+y": 12.5
+      }
     },
     {
       "endDate": "2024-06-30",

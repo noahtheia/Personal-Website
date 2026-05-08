@@ -138,7 +138,15 @@
       "notes": "FY24: Revenue ฿588.2B flat; net profit ฿19.0B recovery on pork price normalization + chicken export to Japan/EU. CFO turnaround.",
       "capexMM": 26000,
       "daMM": 25500,
-      "cfoMM": 45000
+      "cfoMM": 45000,
+      "interestExpenseMM": 19125.0,
+      "weightedAvgDebtRate": 4.5,
+      "debtMaturityProfileMM": {
+        "<1y": 170000.0,
+        "1-3y": 106250.0,
+        "3-5y": 63750.0,
+        "5+y": 85000.0
+      }
     },
     {
       "endDate": "2024-03-31",

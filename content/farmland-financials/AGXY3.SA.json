@@ -127,7 +127,15 @@
       "notes": "FY24: receita líquida cai para R$4.5B (-48% YoY) após 13-Set-2024 pedido de recuperação judicial — perda de fornecedores, fechamento de filiais, restrições de crédito. EBITDA R$-350M, prejuízo R$-1.0B (impairments + reestruturação). Equity quase zerado. Stock -95% vs IPO. Source: 2024 ITR (DFP atrasada).",
       "capexMM": 35,
       "daMM": 175,
-      "cfoMM": -420
+      "cfoMM": -420,
+      "interestExpenseMM": 299.0,
+      "weightedAvgDebtRate": 14.0,
+      "debtMaturityProfileMM": {
+        "<1y": 920.0,
+        "1-3y": 575.0,
+        "3-5y": 345.0,
+        "5+y": 460.0
+      }
     },
     {
       "endDate": "2022-03-31",

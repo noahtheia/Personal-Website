@@ -958,7 +958,15 @@
       "bookValuePerShare": 17.54,
       "capexMM": 145,
       "daMM": 65,
-      "cfoMM": 195
+      "cfoMM": 195,
+      "interestExpenseMM": 170.43,
+      "weightedAvgDebtRate": 13.5,
+      "debtMaturityProfileMM": {
+        "<1y": 262.2,
+        "1-3y": 327.75,
+        "3-5y": 262.2,
+        "5+y": 458.85
+      }
     },
     {
       "endDate": "2025-09-30",

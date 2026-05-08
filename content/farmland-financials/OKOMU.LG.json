@@ -193,7 +193,15 @@
       "notes": "FY24: full-year FX boost; rubber recovery; net cash position",
       "capexMM": 11500,
       "daMM": 3000,
-      "cfoMM": 50000
+      "cfoMM": 50000,
+      "interestExpenseMM": 3600.0,
+      "weightedAvgDebtRate": 22.0,
+      "debtMaturityProfileMM": {
+        "<1y": 3600.0,
+        "1-3y": 4500.0,
+        "3-5y": 3600.0,
+        "5+y": 6300.0
+      }
     },
     {
       "endDate": "2024-03-31",

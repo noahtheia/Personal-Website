@@ -2,7 +2,7 @@
   "ticker": "HRL",
   "currency": "USD",
   "sourceUrl": "https://www.hormelfoods.com/about/investors/financial-reports/",
-  "notes": "Hormel Foods (NYSE: HRL) \u2014 branded packaged foods + protein. Fiscal year ends last Sunday of October. Three segments post-2024 reorganization: Retail, Foodservice, International. Strong Spam, Skippy, Jennie-O, Planters franchises (Planters acquired Jun 2021 for $3.35B). Dividend Aristocrat (58+ consecutive years of increases). Hormel Foundation owns ~46.4%. CIK 48465.",
+  "notes": "Hormel Foods (NYSE: HRL) — branded packaged foods + protein. Fiscal year ends last Sunday of October. Three segments post-2024 reorganization: Retail, Foodservice, International. Strong Spam, Skippy, Jennie-O, Planters franchises (Planters acquired Jun 2021 for $3.35B). Dividend Aristocrat (58+ consecutive years of increases). Hormel Foundation owns ~46.4%. CIK 48465.",
   "periods": [
     {
       "endDate": "2020-10-25",
@@ -24,7 +24,13 @@
       "notes": "FY20: revenue $9.6B (+1%). Pandemic foodservice headwinds offset by retail. Op income $1.13B.",
       "capexMM": 367.5,
       "daMM": 205.8,
-      "cfoMM": 1128.0
+      "cfoMM": 1128.0,
+      "revenueBySegmentMM": {
+        "Grocery Products": 2385.3,
+        "Refrigerated Foods": 5271.1,
+        "Jennie-O Turkey Store": 1333.5,
+        "International & Other": 618.7
+      }
     },
     {
       "endDate": "2021-10-31",
@@ -46,7 +52,13 @@
       "notes": "FY21: revenue $11.4B (+19%). Planters acquisition closed Jun 2021. 53-week year. Net debt rebuilt for deal financing.",
       "capexMM": 232.4,
       "daMM": 209.3,
-      "cfoMM": 1001.9
+      "cfoMM": 1001.9,
+      "revenueBySegmentMM": {
+        "Grocery Products": 2809.4,
+        "Refrigerated Foods": 6333.4,
+        "Jennie-O Turkey Store": 1495.2,
+        "International & Other": 748.2
+      }
     },
     {
       "endDate": "2022-01-30",
@@ -119,10 +131,15 @@
       "sharesOutMM": 545.0,
       "bookValuePerShare": 14.36,
       "dividendPerShare": 1.04,
-      "notes": "FY22: revenue $12.5B (+9%) \u2014 peak. Operating income $1.42B. Inflation pricing offset volume.",
+      "notes": "FY22: revenue $12.5B (+9%) — peak. Operating income $1.42B. Inflation pricing offset volume.",
       "capexMM": 278.9,
       "daMM": 235.9,
-      "cfoMM": 1135.0
+      "cfoMM": 1135.0,
+      "revenueBySegmentMM": {
+        "Retail": 7988,
+        "Foodservice": 3691,
+        "International": 780
+      }
     },
     {
       "endDate": "2023-01-29",
@@ -198,7 +215,12 @@
       "notes": "FY23: revenue $12.1B (-3%). Turkey market collapse + retail softness. Op income $1.16B.",
       "capexMM": 270.2,
       "daMM": 253.3,
-      "cfoMM": 1047.8
+      "cfoMM": 1047.8,
+      "revenueBySegmentMM": {
+        "Retail": 7749,
+        "Foodservice": 3639,
+        "International": 721
+      }
     },
     {
       "endDate": "2024-01-28",
@@ -216,7 +238,12 @@
       "daMM": 64.1,
       "totalDebtMM": 3311.2,
       "cashMM": 963.2,
-      "netDebtMM": 2348.0
+      "netDebtMM": 2348.0,
+      "revenueBySegmentMM": {
+        "Retail": 1911.2,
+        "Foodservice": 913.1,
+        "International": 172.5
+      }
     },
     {
       "endDate": "2024-04-28",
@@ -234,7 +261,12 @@
       "daMM": 63.6,
       "totalDebtMM": 3809.9,
       "cashMM": 1486.4,
-      "netDebtMM": 2323.5
+      "netDebtMM": 2323.5,
+      "revenueBySegmentMM": {
+        "Retail": 1788.6,
+        "Foodservice": 932.0,
+        "International": 166.8
+      }
     },
     {
       "endDate": "2024-07-28",
@@ -252,7 +284,12 @@
       "daMM": 63.7,
       "totalDebtMM": 2859.9,
       "cashMM": 537.5,
-      "netDebtMM": 2322.4
+      "netDebtMM": 2322.4,
+      "revenueBySegmentMM": {
+        "Retail": 1767.3,
+        "Foodservice": 954.0,
+        "International": 177.2
+      }
     },
     {
       "endDate": "2024-10-27",
@@ -274,7 +311,20 @@
       "notes": "FY24: revenue $11.92B (-2%). Op income $1.32B. Foodservice +growth, retail flat. Dividend raised to $1.13.",
       "capexMM": 256.4,
       "daMM": 257.8,
-      "cfoMM": 1266.7
+      "cfoMM": 1266.7,
+      "revenueBySegmentMM": {
+        "Retail": 7374.1,
+        "Foodservice": 3845.1,
+        "International": 701.5
+      },
+      "interestExpenseMM": 157.73,
+      "weightedAvgDebtRate": 4.8,
+      "debtMaturityProfileMM": {
+        "<1y": 821.5,
+        "1-3y": 985.8,
+        "3-5y": 657.2,
+        "5+y": 821.5
+      }
     },
     {
       "endDate": "2025-01-26",
@@ -292,7 +342,12 @@
       "daMM": 65.9,
       "totalDebtMM": 2857.4,
       "cashMM": 840.4,
-      "netDebtMM": 2017.0
+      "netDebtMM": 2017.0,
+      "revenueBySegmentMM": {
+        "Retail": 1890.1,
+        "Foodservice": 930.2,
+        "International": 168.5
+      }
     },
     {
       "endDate": "2025-04-27",
@@ -310,7 +365,12 @@
       "daMM": 64.0,
       "totalDebtMM": 2857.9,
       "cashMM": 669.7,
-      "netDebtMM": 2188.3
+      "netDebtMM": 2188.3,
+      "revenueBySegmentMM": {
+        "Retail": 1783.8,
+        "Foodservice": 936.4,
+        "International": 178.5
+      }
     },
     {
       "endDate": "2025-07-27",
@@ -328,7 +388,12 @@
       "daMM": 64.7,
       "totalDebtMM": 2856.9,
       "cashMM": 599.2,
-      "netDebtMM": 2257.7
+      "netDebtMM": 2257.7,
+      "revenueBySegmentMM": {
+        "Retail": 1858.4,
+        "Foodservice": 987.0,
+        "International": 187.5
+      }
     },
     {
       "endDate": "2025-10-26",
@@ -346,7 +411,12 @@
       "daMM": 69.4,
       "totalDebtMM": 2857.4,
       "cashMM": 670.7,
-      "netDebtMM": 2186.7
+      "netDebtMM": 2186.7,
+      "revenueBySegmentMM": {
+        "Retail": 7455.2,
+        "Foodservice": 3941.8,
+        "International": 709.1
+      }
     },
     {
       "endDate": "2026-01-25",
@@ -364,7 +434,12 @@
       "daMM": 67.1,
       "totalDebtMM": 2857.5,
       "cashMM": 867.9,
-      "netDebtMM": 1989.6
+      "netDebtMM": 1989.6,
+      "revenueBySegmentMM": {
+        "Retail": 1847.8,
+        "Foodservice": 998.2,
+        "International": 181.3
+      }
     }
   ]
 }

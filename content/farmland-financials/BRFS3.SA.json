@@ -262,7 +262,15 @@
       "notes": "FY24: Strong recovery. Revenue R$61.4bn (+15%), EBITDA R$8.2bn (margin 13.4%) — best in 5+ years. Net income R$3.35bn (vs R$1.9bn loss). Leverage 1.2x. Resumed dividends.",
       "capexMM": 2400,
       "daMM": 3800,
-      "cfoMM": 7800
+      "cfoMM": 7800,
+      "interestExpenseMM": 2079.0,
+      "weightedAvgDebtRate": 11.5,
+      "debtMaturityProfileMM": {
+        "<1y": 7560.0,
+        "1-3y": 4725.0,
+        "3-5y": 2835.0,
+        "5+y": 3780.0
+      }
     },
     {
       "endDate": "2025-03-31",

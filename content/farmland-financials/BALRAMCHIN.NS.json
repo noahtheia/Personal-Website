@@ -248,7 +248,15 @@
       "notes": "FY25: revenue Rs 5,800 cr (+3%). EBITDA Rs 600 cr (+20% YoY). PAT Rs 133 cr. Ethanol diversion partially restored; PSF-grade ethanol pricing supportive. Maizapur PSF capex weighing on D&A.",
       "capexMM": 4500,
       "daMM": 1700,
-      "cfoMM": 5500
+      "cfoMM": 5500,
+      "interestExpenseMM": 1125.0,
+      "weightedAvgDebtRate": 9.0,
+      "debtMaturityProfileMM": {
+        "<1y": 5000.0,
+        "1-3y": 3125.0,
+        "3-5y": 1875.0,
+        "5+y": 2500.0
+      }
     }
   ]
 }

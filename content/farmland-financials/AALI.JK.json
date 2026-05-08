@@ -373,10 +373,13 @@
       "totalAcresK": 348,
       "bookValuePerShare": 4581,
       "dividendPerShare": 830,
-      "notes": "FY10: revenue Rp8.84T (+19% YoY), net income Rp2.02T",
+      "notes": "FY10: revenue Rp8.84T (+19% YoY), net income Rp2.02T. FFB own 4,235K t, CPO 1,113K t, PK 239K t (incl. 3rd-party FFB processed)",
       "capexMM": 1380000,
       "daMM": 303000,
-      "cfoMM": 2330000
+      "cfoMM": 2330000,
+      "ffbProductionTonnesK": 4235,
+      "cpoProductionTonnesK": 1113,
+      "pkProductionTonnesK": 239
     },
     {
       "endDate": "2011-12-31",
@@ -405,7 +408,10 @@
       "totalAcresK": 360,
       "bookValuePerShare": 5347,
       "dividendPerShare": 990,
-      "notes": "FY11: peak CPO ASP year (avg ~$1,150/ton). Revenue Rp10.77T (+22% YoY), net income Rp2.50T",
+      "notes": "FY11: peak CPO ASP year (avg ~$1,150/ton). Revenue Rp10.77T (+22% YoY), net income Rp2.50T. FFB 4,799K t, CPO 1,268K t, PK 269K t",
+      "ffbProductionTonnesK": 4799,
+      "cpoProductionTonnesK": 1268,
+      "pkProductionTonnesK": 269,
       "capexMM": 1490000,
       "daMM": 354000,
       "cfoMM": 2700000
@@ -437,7 +443,10 @@
       "totalAcresK": 374,
       "bookValuePerShare": 5946,
       "dividendPerShare": 990,
-      "notes": "FY12: revenue Rp11.56T, net income Rp2.45T",
+      "notes": "FY12: revenue Rp11.56T, net income Rp2.45T. FFB 5,498K t, CPO 1,476K t, PK 323K t",
+      "ffbProductionTonnesK": 5498,
+      "cpoProductionTonnesK": 1476,
+      "pkProductionTonnesK": 323,
       "capexMM": 1850000,
       "daMM": 434000,
       "cfoMM": 1900000
@@ -469,7 +478,10 @@
       "totalAcresK": 384,
       "bookValuePerShare": 6069,
       "dividendPerShare": 695,
-      "notes": "FY13: CPO ASP weakness. Net income Rp1.90T (-22% YoY)",
+      "notes": "FY13: CPO ASP weakness. Net income Rp1.90T (-22% YoY). FFB 5,124K t, CPO 1,539K t, PK 328K t",
+      "ffbProductionTonnesK": 5124,
+      "cpoProductionTonnesK": 1539,
+      "pkProductionTonnesK": 328,
       "capexMM": 2200000,
       "daMM": 500000,
       "cfoMM": 1640000
@@ -501,7 +513,10 @@
       "totalAcresK": 397,
       "bookValuePerShare": 7513,
       "dividendPerShare": 905,
-      "notes": "FY14: revenue Rp16.31T (+29% YoY) on H1 CPO rally. Net income Rp2.62T",
+      "notes": "FY14: revenue Rp16.31T (+29% YoY) on H1 CPO rally. Net income Rp2.62T. FFB 5,563K t, CPO 1,744K t, PK 373K t",
+      "ffbProductionTonnesK": 5563,
+      "cpoProductionTonnesK": 1744,
+      "pkProductionTonnesK": 373,
       "capexMM": 2350000,
       "daMM": 601000,
       "cfoMM": 2740000
@@ -533,7 +548,12 @@
       "totalAcresK": 410,
       "bookValuePerShare": 6078,
       "dividendPerShare": 295,
-      "notes": "FY15: CPO ASP trough. Revenue -20% YoY, net income Rp695B (-73%). Rights issue increased shares from 1,575M to 1,925M",
+      "notes": "FY15: CPO ASP trough. Revenue -20% YoY, net income Rp695B (-73%). Rights issue increased shares from 1,575M to 1,925M. FFB 5,602K t, CPO 1,737K t, PK 371K t. FFB yield 21.7 t/ha (-1.6% YoY). Mature ha ~218K",
+      "ffbProductionTonnesK": 5602,
+      "cpoProductionTonnesK": 1737,
+      "pkProductionTonnesK": 371,
+      "ffbYieldTPerHa": 21.7,
+      "matureHectaresK": 218,
       "capexMM": 1830000,
       "daMM": 700000,
       "cfoMM": 1300000
@@ -565,7 +585,10 @@
       "totalAcresK": 425,
       "bookValuePerShare": 6717,
       "dividendPerShare": 605,
-      "notes": "FY16: CPO ASP recovery. Net income Rp2.11T (+204% YoY)",
+      "notes": "FY16: CPO ASP recovery. Net income Rp2.11T (+204% YoY). FFB 4,873K t (-13% YoY on El Niño drag), CPO 1,554K t, PK 336K t",
+      "ffbProductionTonnesK": 4873,
+      "cpoProductionTonnesK": 1554,
+      "pkProductionTonnesK": 336,
       "capexMM": 1180000,
       "daMM": 760000,
       "cfoMM": 2530000
@@ -597,7 +620,10 @@
       "totalAcresK": 444,
       "bookValuePerShare": 7758,
       "dividendPerShare": 405,
-      "notes": "FY17: revenue Rp17.31T (+23% YoY), net income Rp2.11T",
+      "notes": "FY17: revenue Rp17.31T (+23% YoY), net income Rp2.11T. FFB 5,225K t, CPO 1,634K t, PK 357K t",
+      "ffbProductionTonnesK": 5225,
+      "cpoProductionTonnesK": 1634,
+      "pkProductionTonnesK": 357,
       "capexMM": 1110000,
       "daMM": 820000,
       "cfoMM": 2400000
@@ -629,7 +655,10 @@
       "totalAcresK": 470,
       "bookValuePerShare": 8214,
       "dividendPerShare": 165,
-      "notes": "FY18: CPO ASP soft H2 on EU/Indian biodiesel policy concerns. Net income Rp1.44T",
+      "notes": "FY18: CPO ASP soft H2 on EU/Indian biodiesel policy concerns. Net income Rp1.44T. FFB processed total 7,275K t (nucleus+plasma+3P), CPO 2,267K t, PK 421K t. Peak production year",
+      "ffbProductionTonnesK": 7275,
+      "cpoProductionTonnesK": 2267,
+      "pkProductionTonnesK": 421,
       "capexMM": 920000,
       "daMM": 870000,
       "cfoMM": 1730000
@@ -661,7 +690,10 @@
       "totalAcresK": 510,
       "bookValuePerShare": 8602,
       "dividendPerShare": 65,
-      "notes": "FY19: CPO ASP trough year. Revenue -8.5% YoY, net income Rp244B (-83%) — weakest profit since IPO",
+      "notes": "FY19: CPO ASP trough year. Revenue -8.5% YoY, net income Rp244B (-83%) — weakest profit since IPO. FFB 6,689K t (-8% YoY), CPO 2,026K t, PK 346K t",
+      "ffbProductionTonnesK": 6689,
+      "cpoProductionTonnesK": 2026,
+      "pkProductionTonnesK": 346,
       "capexMM": 720000,
       "daMM": 900000,
       "cfoMM": 950000
@@ -1264,7 +1296,15 @@
       "notes": "FY24: Rp21.82T revenue (+6% YoY), net income Rp1.37T (+88%). Net cash positive (Rp46B net cash). CPO price recovery from late 2023",
       "capexMM": 1290000,
       "daMM": 1050000,
-      "cfoMM": 2280000
+      "cfoMM": 2280000,
+      "interestExpenseMM": 239250.0,
+      "weightedAvgDebtRate": 7.5,
+      "debtMaturityProfileMM": {
+        "<1y": 638000.0,
+        "1-3y": 797500.0,
+        "3-5y": 638000.0,
+        "5+y": 1116500.0
+      }
     }
   ]
 }

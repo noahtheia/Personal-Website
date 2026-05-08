@@ -20,7 +20,7 @@
       "cashMM": 2.5,
       "netDebtMM": 6.5,
       "sharesOutMM": 348,
-      "bookValuePerShare": 0.10,
+      "bookValuePerShare": 0.1,
       "dividendPerShare": 0,
       "notes": "FY20 (ended Jun 30 2020): revenue AUD 25.0M. EBITDA AUD -1.5M. Net loss AUD 4.2M. Pre-strategic-review baseline."
     },
@@ -122,7 +122,15 @@
       "sharesOutMM": 425,
       "bookValuePerShare": 0.05,
       "dividendPerShare": 0,
-      "notes": "FY25 (ended Jun 30 2025): revenue AUD 26.1M. EBITDA AUD -0.5M (near breakeven). Net loss narrowed to AUD 2.4M. Cost reductions; branded volume growth."
+      "notes": "FY25 (ended Jun 30 2025): revenue AUD 26.1M. EBITDA AUD -0.5M (near breakeven). Net loss narrowed to AUD 2.4M. Cost reductions; branded volume growth.",
+      "interestExpenseMM": 0.39,
+      "weightedAvgDebtRate": 6.0,
+      "debtMaturityProfileMM": {
+        "<1y": 2.6,
+        "1-3y": 1.62,
+        "3-5y": 0.97,
+        "5+y": 1.3
+      }
     },
     {
       "endDate": "2020-12-31",

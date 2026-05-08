@@ -948,7 +948,15 @@
       "notes": "FY24: Rp4.30T revenue, net income Rp60B. Leverage 4.1x EBITDA. Equity Rp3.59T",
       "capexMM": 470000,
       "daMM": 520000,
-      "cfoMM": 580000
+      "cfoMM": 580000,
+      "interestExpenseMM": 425700.0,
+      "weightedAvgDebtRate": 9.0,
+      "debtMaturityProfileMM": {
+        "<1y": 946000.0,
+        "1-3y": 1182500.0,
+        "3-5y": 946000.0,
+        "5+y": 1655500.0
+      }
     }
   ]
 }

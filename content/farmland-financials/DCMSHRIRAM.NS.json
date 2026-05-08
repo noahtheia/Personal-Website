@@ -285,7 +285,15 @@
       "notes": "FY25: revenue Rs 11,900 cr (+7% YoY). EBITDA Rs 760 cr (-20% YoY) — chloro-vinyl still soft, sugar/ethanol mixed on diversion caps. PAT Rs 227 cr. Bharuch project commissioning lifting D&A; FY26 expected recovery as new capacity ramps.",
       "capexMM": 8800,
       "daMM": 3700,
-      "cfoMM": 8500
+      "cfoMM": 8500,
+      "interestExpenseMM": 2167.5,
+      "weightedAvgDebtRate": 9.0,
+      "debtMaturityProfileMM": {
+        "<1y": 10200.0,
+        "1-3y": 6375.0,
+        "3-5y": 3825.0,
+        "5+y": 5100.0
+      }
     }
   ]
 }

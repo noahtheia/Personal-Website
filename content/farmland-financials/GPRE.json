@@ -2,7 +2,7 @@
   "ticker": "GPRE",
   "currency": "USD",
   "sourceUrl": "https://investor.gpreinc.com/financial-information/sec-filings",
-  "notes": "Green Plains Inc (NASDAQ: GPRE) \u2014 Omaha-based ethanol + grain processing (CIK 1309402). Operates ~1.0 billion gallons/yr ethanol production capacity across ~10 plants. Diversifying into Ultra-High Protein (USP) feed (60% protein) using Fluid Quip MSC technology, and renewable corn oil. Fiscal year = calendar year. Reports in USD. Plant ownership consolidated through Green Plains Partners LP (acquired 2023). Volatile ethanol crush margins.",
+  "notes": "Green Plains Inc (NASDAQ: GPRE) — Omaha-based ethanol + grain processing (CIK 1309402). Operates ~1.0 billion gallons/yr ethanol production capacity across ~10 plants. Diversifying into Ultra-High Protein (USP) feed (60% protein) using Fluid Quip MSC technology, and renewable corn oil. Fiscal year = calendar year. Reports in USD. Plant ownership consolidated through Green Plains Partners LP (acquired 2023). Volatile ethanol crush margins.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -249,7 +249,15 @@
       "notes": "FY24: revenue $2.50B (-27%). EBITDA $-25M (margin compression). Net loss $123M. Strategic review announced; idled high-cost plants. CEO transition.",
       "capexMM": 95.1,
       "daMM": 90.6,
-      "cfoMM": -30.0
+      "cfoMM": -30.0,
+      "interestExpenseMM": 39.55,
+      "weightedAvgDebtRate": 7.0,
+      "debtMaturityProfileMM": {
+        "<1y": 226.0,
+        "1-3y": 141.25,
+        "3-5y": 84.75,
+        "5+y": 113.0
+      }
     },
     {
       "endDate": "2025-03-31",

@@ -2,7 +2,7 @@
   "ticker": "POST",
   "currency": "USD",
   "sourceUrl": "https://www.postholdings.com/investors/sec-filings/",
-  "notes": "Post Holdings (NYSE: POST) \u2014 multi-segment packaged foods. Segments: Post Consumer Brands (cereal, pet food via 2023 Perfection acquisition), Weetabix (UK cereals), Foodservice (egg products + potatoes \u2014 Michael Foods), Refrigerated Retail (Bob Evans sausage, side dishes). Holds 13.6% of BellRing Brands. Fiscal year ends Sep 30. Active M&A platform led by CEO Rob Vitale. Major eggs platform via Michael Foods (~$2B+ rev). CIK 1530950.",
+  "notes": "Post Holdings (NYSE: POST) — multi-segment packaged foods. Segments: Post Consumer Brands (cereal, pet food via 2023 Perfection acquisition), Weetabix (UK cereals), Foodservice (egg products + potatoes — Michael Foods), Refrigerated Retail (Bob Evans sausage, side dishes). Holds 13.6% of BellRing Brands. Fiscal year ends Sep 30. Active M&A platform led by CEO Rob Vitale. Major eggs platform via Michael Foods (~$2B+ rev). CIK 1530950.",
   "periods": [
     {
       "endDate": "2020-09-30",
@@ -248,7 +248,15 @@
       "notes": "FY24: revenue $7.92B (+13%). Pet food + Foodservice eggs HPAI tailwind. Adj EBITDA $1.40B. Net income $367M ($5.57/sh diluted).",
       "capexMM": 429.5,
       "daMM": 476.9,
-      "cfoMM": 931.7
+      "cfoMM": 931.7,
+      "interestExpenseMM": 372.02,
+      "weightedAvgDebtRate": 5.5,
+      "debtMaturityProfileMM": {
+        "<1y": 1691.0,
+        "1-3y": 2029.2,
+        "3-5y": 1352.8,
+        "5+y": 1691.0
+      }
     },
     {
       "endDate": "2024-12-31",

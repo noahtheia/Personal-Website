@@ -483,7 +483,15 @@
       "notes": "FY24: revenue Rp15.82T (+16% YoY); CPO + biodiesel mandate B40 boosted volume. Net income Rp952B (+95%)",
       "capexMM": 1050000,
       "daMM": 550000,
-      "cfoMM": 1180000
+      "cfoMM": 1180000,
+      "interestExpenseMM": 805500.0,
+      "weightedAvgDebtRate": 9.0,
+      "debtMaturityProfileMM": {
+        "<1y": 1790000.0,
+        "1-3y": 2237500.0,
+        "3-5y": 1790000.0,
+        "5+y": 3132500.0
+      }
     }
   ]
 }

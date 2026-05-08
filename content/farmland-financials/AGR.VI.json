@@ -142,7 +142,15 @@
       "notes": "FY24/25 (ended Feb 28 2025): revenue EUR 3.57B (-6%) on EU sugar price normalization. EBITDA EUR 215M (-27%). Net income EUR 55M. Sugar segment back to mid-cycle.",
       "capexMM": 140,
       "daMM": 145,
-      "cfoMM": 230
+      "cfoMM": 230,
+      "interestExpenseMM": 30.4,
+      "weightedAvgDebtRate": 4.0,
+      "debtMaturityProfileMM": {
+        "<1y": 190.0,
+        "1-3y": 228.0,
+        "3-5y": 152.0,
+        "5+y": 190.0
+      }
     },
     {
       "endDate": "2020-08-31",

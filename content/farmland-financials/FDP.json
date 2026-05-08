@@ -2,7 +2,7 @@
   "ticker": "FDP",
   "currency": "USD",
   "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001047340&type=10-K",
-  "notes": "Fresh Del Monte Produce Inc. (NYSE: FDP). Vertically integrated grower / marketer of bananas, pineapples and other fresh & prepared tropical fruit & vegetables sold globally. Reports in USD with a 52/53-week fiscal year ending the last Friday of December. Data extracted from SEC EDGAR XBRL companyfacts (CIK 0001047340) \u2014 figures match the consolidated statements of operations and balance sheets. EBITDA computed as operating income plus depreciation, depletion & amortization (DDA). totalDebt = LongTermDebtAndCapitalLeaseObligations (non-current) + LongTermDebtAndCapitalLeaseObligationsCurrent. Net debt = total debt - cash & cash equivalents. Significant FY24-25 deleveraging reflects pineapple-segment cash generation and asset sales (Mann Packing closure FY23, Jordan farm operations divestitures). Dividends per share materially raised from $0.60 (FY22) to $1.20 (FY25) on stronger free cash flow.",
+  "notes": "Fresh Del Monte Produce Inc. (NYSE: FDP). Vertically integrated grower / marketer of bananas, pineapples and other fresh & prepared tropical fruit & vegetables sold globally. Reports in USD with a 52/53-week fiscal year ending the last Friday of December. Data extracted from SEC EDGAR XBRL companyfacts (CIK 0001047340) — figures match the consolidated statements of operations and balance sheets. EBITDA computed as operating income plus depreciation, depletion & amortization (DDA). totalDebt = LongTermDebtAndCapitalLeaseObligations (non-current) + LongTermDebtAndCapitalLeaseObligationsCurrent. Net debt = total debt - cash & cash equivalents. Significant FY24-25 deleveraging reflects pineapple-segment cash generation and asset sales (Mann Packing closure FY23, Jordan farm operations divestitures). Dividends per share materially raised from $0.60 (FY22) to $1.20 (FY25) on stronger free cash flow.",
   "periods": [
     {
       "endDate": "2021-01-01",
@@ -19,7 +19,7 @@
       "epsBasic": 1.03,
       "epsDiluted": 1.03,
       "dividendPerShare": 0.3,
-      "notes": "FY20 (53-week year ended Jan 1, 2021): COVID-impacted; banana segment held up while gold pineapple soft. Op income $76.5M + D&A $95.0M = EBITDA $171.5M. Net debt $525.5M (long-term debt $541.8M + current debt $0.2M \u2212 cash $16.5M).",
+      "notes": "FY20 (53-week year ended Jan 1, 2021): COVID-impacted; banana segment held up while gold pineapple soft. Op income $76.5M + D&A $95.0M = EBITDA $171.5M. Net debt $525.5M (long-term debt $541.8M + current debt $0.2M − cash $16.5M).",
       "capexMM": 150.0,
       "daMM": 95.0,
       "cfoMM": 180.6
@@ -187,7 +187,7 @@
       "epsBasic": -0.24,
       "epsDiluted": -0.24,
       "dividendPerShare": 0.75,
-      "notes": "FY23: revenue \u22122.7% YoY; closed Mann Packing fresh-cut vegetable operations (Salinas, CA, $54M one-time charge) and incurred Jordan operations write-down. Op income $58.5M + D&A $84.8M = EBITDA $143.3M. Net loss \u2212$11.4M after impairments. Net debt fell to $373.7M.",
+      "notes": "FY23: revenue −2.7% YoY; closed Mann Packing fresh-cut vegetable operations (Salinas, CA, $54M one-time charge) and incurred Jordan operations write-down. Op income $58.5M + D&A $84.8M = EBITDA $143.3M. Net loss −$11.4M after impairments. Net debt fell to $373.7M.",
       "capexMM": 57.7,
       "daMM": 84.8,
       "cfoMM": 177.9
@@ -335,10 +335,18 @@
       "epsBasic": 1.9,
       "epsDiluted": 1.88,
       "dividendPerShare": 1.2,
-      "notes": "FY25: revenue +1.0% YoY at $4.32B; op income $137.4M + D&A $72.5M = EBITDA $209.9M. Net income $90.7M, EPS $1.90. Net debt $142.0M \u2014 lowest in 8+ years (debt down to $177.7M from peak ~$725M FY18). Dividend raised to $1.20/share (+20%).",
+      "notes": "FY25: revenue +1.0% YoY at $4.32B; op income $137.4M + D&A $72.5M = EBITDA $209.9M. Net income $90.7M, EPS $1.90. Net debt $142.0M — lowest in 8+ years (debt down to $177.7M from peak ~$725M FY18). Dividend raised to $1.20/share (+20%).",
       "capexMM": 63.8,
       "daMM": 72.5,
-      "cfoMM": 245.1
+      "cfoMM": 245.1,
+      "interestExpenseMM": 10.66,
+      "weightedAvgDebtRate": 6.0,
+      "debtMaturityProfileMM": {
+        "<1y": 44.42,
+        "1-3y": 53.31,
+        "3-5y": 35.54,
+        "5+y": 44.42
+      }
     },
     {
       "endDate": "2026-03-27",

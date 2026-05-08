@@ -630,7 +630,15 @@
       "notes": "FY24: Revenue RM19.83B (+10% YoY), EBITDA RM3.98B, PATAMI RM1.48B on CPO recovery (avg ASP RM4,180/MT). First full year as 'SD Guthrie Berhad'. NAV/share RM3.06. Acreage stepped down to ~538k ha planted as group monetized non-strategic land in MY",
       "capexMM": 950,
       "daMM": 1200,
-      "cfoMM": 1900
+      "cfoMM": 1900,
+      "interestExpenseMM": 519.0,
+      "weightedAvgDebtRate": 4.8,
+      "debtMaturityProfileMM": {
+        "<1y": 2076.0,
+        "1-3y": 2595.0,
+        "3-5y": 2076.0,
+        "5+y": 3633.0
+      }
     },
     {
       "endDate": "2025-03-31",

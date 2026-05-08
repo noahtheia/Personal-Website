@@ -849,7 +849,15 @@
       "notes": "FY2024: revenue RM5.67B (+1%), net profit RM390M (+2%). Net cash position (RM-120M net debt). NAV/share RM5.03 reconciles to seed comps. ~190K acres reflects core mature planted area; total landbank larger",
       "capexMM": 80,
       "daMM": 82,
-      "cfoMM": 220
+      "cfoMM": 220,
+      "interestExpenseMM": 41.8,
+      "weightedAvgDebtRate": 5.0,
+      "debtMaturityProfileMM": {
+        "<1y": 152.0,
+        "1-3y": 190.0,
+        "3-5y": 152.0,
+        "5+y": 266.0
+      }
     },
     {
       "endDate": "2025-03-31",

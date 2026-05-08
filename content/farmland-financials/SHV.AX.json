@@ -1001,7 +1001,15 @@
       "daMM": 22.5,
       "cfoMM": 65,
       "notes": "FY25 Annual Report (released 15 Nov 2025): revenue $398.3M, EBITDA $82.4M, NPAT $22M, NAV/share $3.68. Crop ~28,000 t; avg pool ~$11.00/kg. Highest reported earnings since FY20 cycle peak.",
-      "bookValuePerShare": 3.68
+      "bookValuePerShare": 3.68,
+      "interestExpenseMM": 17.78,
+      "weightedAvgDebtRate": 6.0,
+      "debtMaturityProfileMM": {
+        "<1y": 59.27,
+        "1-3y": 74.08,
+        "3-5y": 59.27,
+        "5+y": 103.72
+      }
     }
   ]
 }

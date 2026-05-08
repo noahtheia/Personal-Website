@@ -2,7 +2,7 @@
   "ticker": "MLP",
   "currency": "USD",
   "sourceUrl": "https://mauiland.com/investors/",
-  "notes": "Maui Land & Pineapple Co (NYSE: MLP) \u2014 Hawaiian land owner / diversified land company (CIK 63330). Owns ~22,000 acres on Maui (predominantly West Maui \u2014 Kapalua Resort area + Upcountry). Exited active pineapple operations 2009; today operates land leases (commercial, residential, agricultural), Kapalua resort amenities (Plantation/Bay golf courses, Kapalua Spa), small water/utility business, and selective land development. Fiscal year = calendar. Sub-$10M revenue; book value heavily understated relative to market value of land. Largely uses historical-cost basis for land (acquired pre-1909).",
+  "notes": "Maui Land & Pineapple Co (NYSE: MLP) — Hawaiian land owner / diversified land company (CIK 63330). Owns ~22,000 acres on Maui (predominantly West Maui — Kapalua Resort area + Upcountry). Exited active pineapple operations 2009; today operates land leases (commercial, residential, agricultural), Kapalua resort amenities (Plantation/Bay golf courses, Kapalua Spa), small water/utility business, and selective land development. Fiscal year = calendar. Sub-$10M revenue; book value heavily understated relative to market value of land. Largely uses historical-cost basis for land (acquired pre-1909).",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -251,7 +251,8 @@
       "notes": "FY24: revenue $12.5M (+47%). EBITDA $1.0M. Net income $0.2M. Lot sales rebounded. Pursuing entitlements on ~1,500 acres for residential/workforce housing.",
       "daMM": 0.7,
       "cfoMM": 0.4,
-      "capexMM": 1.9
+      "capexMM": 1.9,
+      "interestExpenseMM": 0
     },
     {
       "endDate": "2025-03-31",

@@ -18,8 +18,8 @@
       "cashMM": 18,
       "netDebtMM": 182,
       "sharesOutMM": 215.6,
-      "epsBasic": 0.10,
-      "dividendPerShare": 0.10,
+      "epsBasic": 0.1,
+      "dividendPerShare": 0.1,
       "capexMM": 38,
       "daMM": 40,
       "cfoMM": 100,
@@ -40,7 +40,7 @@
       "netDebtMM": 410,
       "sharesOutMM": 303.69,
       "epsBasic": 0.105,
-      "dividendPerShare": 0.10,
+      "dividendPerShare": 0.1,
       "capexMM": 75,
       "daMM": 65,
       "cfoMM": 80,
@@ -60,8 +60,8 @@
       "cashMM": 56,
       "netDebtMM": 394,
       "sharesOutMM": 303.86,
-      "epsBasic": 0.080,
-      "dividendPerShare": 0.10,
+      "epsBasic": 0.08,
+      "dividendPerShare": 0.1,
       "capexMM": 95,
       "daMM": 95,
       "cfoMM": 110,
@@ -127,7 +127,15 @@
         "D&A": 105,
         "Other opex": 0
       },
-      "notes": "FY24 revenue $3.52B; EBITDA up 22% YoY. Bulk segment review concluded."
+      "notes": "FY24 revenue $3.52B; EBITDA up 22% YoY. Bulk segment review concluded.",
+      "interestExpenseMM": 15.95,
+      "weightedAvgDebtRate": 5.5,
+      "debtMaturityProfileMM": {
+        "<1y": 116.0,
+        "1-3y": 72.5,
+        "3-5y": 43.5,
+        "5+y": 58.0
+      }
     },
     {
       "endDate": "2024-12-31",

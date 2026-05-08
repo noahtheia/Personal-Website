@@ -2,7 +2,7 @@
   "ticker": "ANDE",
   "currency": "USD",
   "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000821026&type=10-K",
-  "notes": "The Andersons, Inc. (NASDAQ: ANDE). Diversified North American agribusiness \u2014 three reportable segments: Trade (grain origination/merchandising/storage; ~7M tons capacity Eastern Corn Belt + acquired Skyland 2024), Renewables (4 ethanol plants ~480MGY plus DDG byproducts; consolidated post-2021 buyout of LP partners), and Plant Nutrient (specialty fertilizers / lawn / homeowner). Fiscal year ends Dec 31. Data from SEC EDGAR XBRL companyfacts (CIK 0000821026). Note: ANDE does NOT report a US-GAAP `OperatingIncomeLoss` line in its consolidated statements \u2014 this segment of the income statement is gross-profit-driven (revenue \u2212 cost of sales/merchandising). EBITDA computed as net income before tax + interest + D&A using directly-tagged D&A. Shares from cover page (`EntityCommonStockSharesOutstanding`). Revenue swung wildly with grain price cycle: FY22 record $17.3B (Russia/Ukraine spike); FY23 $14.8B; FY24 $11.3B (post-glut deflation). Skyland Grain acquired Apr 2024 (180M).",
+  "notes": "The Andersons, Inc. (NASDAQ: ANDE). Diversified North American agribusiness — three reportable segments: Trade (grain origination/merchandising/storage; ~7M tons capacity Eastern Corn Belt + acquired Skyland 2024), Renewables (4 ethanol plants ~480MGY plus DDG byproducts; consolidated post-2021 buyout of LP partners), and Plant Nutrient (specialty fertilizers / lawn / homeowner). Fiscal year ends Dec 31. Data from SEC EDGAR XBRL companyfacts (CIK 0000821026). Note: ANDE does NOT report a US-GAAP `OperatingIncomeLoss` line in its consolidated statements — this segment of the income statement is gross-profit-driven (revenue − cost of sales/merchandising). EBITDA computed as net income before tax + interest + D&A using directly-tagged D&A. Shares from cover page (`EntityCommonStockSharesOutstanding`). Revenue swung wildly with grain price cycle: FY22 record $17.3B (Russia/Ukraine spike); FY23 $14.8B; FY24 $11.3B (post-glut deflation). Skyland Grain acquired Apr 2024 (180M).",
   "periods": [
     {
       "endDate": "2021-12-31",
@@ -85,7 +85,7 @@
       "epsBasic": 3.89,
       "epsDiluted": 3.89,
       "dividendPerShare": 0.72,
-      "notes": "FY22: peak revenue $17.3B on Russia/Ukraine grain price spike (corn / soy / wheat). Net income $131.1M, EPS $3.89 \u2014 record year. EBITDA approx $368M including D&A $134.7M.",
+      "notes": "FY22: peak revenue $17.3B on Russia/Ukraine grain price spike (corn / soy / wheat). Net income $131.1M, EPS $3.89 — record year. EBITDA approx $368M including D&A $134.7M.",
       "capexMM": 108.3,
       "daMM": 134.7,
       "cfoMM": 287.1
@@ -152,7 +152,7 @@
       "epsBasic": 3.0,
       "epsDiluted": 3.0,
       "dividendPerShare": 0.74,
-      "notes": "FY23: revenue \u221215% YoY on grain price normalization. Net income $101.2M, EPS $3.00. Net cash position ($643.9M cash on B/S funded Skyland acquisition completed Apr 2024). D&A $125.1M.",
+      "notes": "FY23: revenue −15% YoY on grain price normalization. Net income $101.2M, EPS $3.00. Net cash position ($643.9M cash on B/S funded Skyland acquisition completed Apr 2024). D&A $125.1M.",
       "capexMM": 150.4,
       "daMM": 125.1,
       "cfoMM": 946.8
@@ -219,7 +219,7 @@
       "epsBasic": 3.35,
       "epsDiluted": 3.35,
       "dividendPerShare": 0.77,
-      "notes": "FY24: revenue $11.26B (\u221224% YoY) on continued grain deflation, but EBITDA grew to $391.9M with Skyland Grain integration (Apr 2024, $180M) adding scale. Net income $114.0M, EPS $3.35. D&A $127.8M.",
+      "notes": "FY24: revenue $11.26B (−24% YoY) on continued grain deflation, but EBITDA grew to $391.9M with Skyland Grain integration (Apr 2024, $180M) adding scale. Net income $114.0M, EPS $3.35. D&A $127.8M.",
       "capexMM": 149.2,
       "daMM": 127.8,
       "cfoMM": 331.5
@@ -286,10 +286,18 @@
       "epsBasic": 2.83,
       "epsDiluted": 2.83,
       "dividendPerShare": 0.79,
-      "notes": "FY25: revenue $11.01B (\u22122% YoY) on stable but soft grain pricing. Net income $95.7M (D&A $133.3M). EBITDA approx $350M. Net debt $525M (cash drawdown for capex / Skyland integration).",
+      "notes": "FY25: revenue $11.01B (−2% YoY) on stable but soft grain pricing. Net income $95.7M (D&A $133.3M). EBITDA approx $350M. Net debt $525M (cash drawdown for capex / Skyland integration).",
       "capexMM": 233.1,
       "daMM": 133.3,
-      "cfoMM": 177.0
+      "cfoMM": 177.0,
+      "interestExpenseMM": 37.4,
+      "weightedAvgDebtRate": 6.0,
+      "debtMaturityProfileMM": {
+        "<1y": 249.36,
+        "1-3y": 155.85,
+        "3-5y": 93.51,
+        "5+y": 124.68
+      }
     },
     {
       "endDate": "2026-03-31",

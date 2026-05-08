@@ -2,7 +2,7 @@
   "ticker": "CTVA",
   "currency": "USD",
   "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001755672&type=10-K",
-  "notes": "Corteva \u2014 pure-play seeds & crop protection (DowDuPont spin, June 2019). Net cash position FY2024-2025 (cash > debt). EBITDA computed bottom-up; reported \"operating EBITDA\" (non-GAAP) is higher because management adds back significant restructuring + non-recurring items. CommonStockSharesOutstanding used for shares.",
+  "notes": "Corteva — pure-play seeds & crop protection (DowDuPont spin, June 2019). Net cash position FY2024-2025 (cash > debt). EBITDA computed bottom-up; reported \"operating EBITDA\" (non-GAAP) is higher because management adds back significant restructuring + non-recurring items. CommonStockSharesOutstanding used for shares.",
   "periods": [
     {
       "endDate": "2019-12-31",
@@ -357,7 +357,15 @@
       "epsDiluted": 1.6,
       "daMM": 1203.0,
       "cfoMM": 3406.0,
-      "capexMM": 591.0
+      "capexMM": 591.0,
+      "interestExpenseMM": 123.4,
+      "weightedAvgDebtRate": 5.0,
+      "debtMaturityProfileMM": {
+        "<1y": 617.0,
+        "1-3y": 740.4,
+        "3-5y": 493.6,
+        "5+y": 617.0
+      }
     },
     {
       "endDate": "2026-03-31",

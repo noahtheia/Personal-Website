@@ -154,7 +154,15 @@
       "notes": "FY24: cleaner business mix; Almarai associate contribution material; book value rebuild. Almarai equity stake driving NI lift.",
       "capexMM": 600,
       "daMM": 800,
-      "cfoMM": 1750
+      "cfoMM": 1750,
+      "interestExpenseMM": 468.0,
+      "weightedAvgDebtRate": 6.2,
+      "debtMaturityProfileMM": {
+        "<1y": 1950.0,
+        "1-3y": 2340.0,
+        "3-5y": 1560.0,
+        "5+y": 1950.0
+      }
     },
     {
       "endDate": "2024-03-31",

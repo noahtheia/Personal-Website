@@ -193,11 +193,19 @@
       "propertyBookMM": 2200,
       "sharesOutMM": 597.4,
       "totalAcresK": 1460,
-      "dividendPerShare": 0.30,
+      "dividendPerShare": 0.3,
       "cfoMM": 320,
       "capexMM": 220,
       "daMM": 85,
-      "notes": "FY24 (20-F filed Oct 2024). ARS revenue Ps. 914,157M, Agri Ps. 384,487M, Urban Ps. 270,550M. Adj EBITDA Ps. 256,396M (Agri Ps. 80,066M, Urban Ps. 176,330M, +23.5% YoY). Net result Ps. 104,729M (Cresud share Ps. 84,576M). Total assets Ps. 3,473,111M, equity Ps. 1,563,910M. 277,000 ha planted, 707k grain tons (-7%). 3 farm sales for USD 75M (USD 48M profit). Translated at Jun-30-2024 close ARS/USD ~903. Dividends ARS 52,000M cash + 22.1M IRSA shares distribution. EPS ARS 142.77 basic."
+      "notes": "FY24 (20-F filed Oct 2024). ARS revenue Ps. 914,157M, Agri Ps. 384,487M, Urban Ps. 270,550M. Adj EBITDA Ps. 256,396M (Agri Ps. 80,066M, Urban Ps. 176,330M, +23.5% YoY). Net result Ps. 104,729M (Cresud share Ps. 84,576M). Total assets Ps. 3,473,111M, equity Ps. 1,563,910M. 277,000 ha planted, 707k grain tons (-7%). 3 farm sales for USD 75M (USD 48M profit). Translated at Jun-30-2024 close ARS/USD ~903. Dividends ARS 52,000M cash + 22.1M IRSA shares distribution. EPS ARS 142.77 basic.",
+      "interestExpenseMM": 76.0,
+      "weightedAvgDebtRate": 8.0,
+      "debtMaturityProfileMM": {
+        "<1y": 190.0,
+        "1-3y": 237.5,
+        "3-5y": 190.0,
+        "5+y": 332.5
+      }
     }
   ]
 }

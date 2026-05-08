@@ -872,7 +872,15 @@
       "notes": "FY24: revenue −0.6% YoY on category mix; major balance-sheet deleveraging — net debt swung negative (net cash) following equity raise / debt paydown",
       "capexMM": 38,
       "daMM": 24,
-      "cfoMM": 28
+      "cfoMM": 28,
+      "interestExpenseMM": 34.28,
+      "weightedAvgDebtRate": 6.0,
+      "debtMaturityProfileMM": {
+        "<1y": 142.83,
+        "1-3y": 171.4,
+        "3-5y": 114.27,
+        "5+y": 142.83
+      }
     },
     {
       "endDate": "2025-03-31",

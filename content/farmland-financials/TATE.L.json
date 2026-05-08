@@ -218,7 +218,15 @@
       "notes": "FY24/25 (Mar-25): revenue £1.65B reflects CP Kelco partial-year. Net debt jumped to £1.13B post-acquisition.",
       "capexMM": 110,
       "daMM": 95,
-      "cfoMM": 230
+      "cfoMM": 230,
+      "interestExpenseMM": 70.5,
+      "weightedAvgDebtRate": 5.0,
+      "debtMaturityProfileMM": {
+        "<1y": 352.5,
+        "1-3y": 423.0,
+        "3-5y": 282.0,
+        "5+y": 352.5
+      }
     },
     {
       "endDate": "2025-09-30",
