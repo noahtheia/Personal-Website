@@ -3,6 +3,7 @@ import {
   type PricedFarmlandComp,
 } from "@/lib/farmland-comps";
 import { FarmlandComps } from "@/components/FarmlandComps";
+import { FarmlandLeaderboards } from "@/components/FarmlandLeaderboards";
 import { FarmlandScatter } from "@/components/FarmlandScatter";
 import { FarmlandSectorIndex } from "@/components/FarmlandSectorIndex";
 
@@ -53,6 +54,8 @@ export default async function PublicFarmlandPage() {
       </header>
 
       <FarmlandComps rows={comps} />
+
+      <FarmlandLeaderboards rows={comps} />
 
       <FarmlandSectorIndex rows={comps} />
 
