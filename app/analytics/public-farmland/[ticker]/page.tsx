@@ -11,6 +11,7 @@ import { fetchPriceHistory } from "@/lib/farmland-history";
 import { getInsiders } from "@/lib/farmland-insiders";
 import { FarmlandDetailTabs } from "@/components/FarmlandDetailTabs";
 import { FarmlandPropertyDetail } from "@/components/FarmlandPropertyDetail";
+import { FarmlandTangibleAssets } from "@/components/FarmlandTangibleAssets";
 import { FarmlandFinancialSnapshot } from "@/components/FarmlandFinancialSnapshot";
 import { FarmlandInsiders } from "@/components/FarmlandInsiders";
 import { FarmlandSectorTrends } from "@/components/FarmlandSectorTrends";
@@ -102,15 +103,23 @@ export default async function PublicFarmlandTickerPage({
 
       <FarmlandDetailTabs
         fmvAnalysis={
-          detail ? (
-            <FarmlandPropertyDetail
+          <>
+            <FarmlandTangibleAssets
               filing={filing}
               priced={priced}
+              financials={financials}
               detail={detail}
             />
-          ) : (
-            <PendingDetail ticker={filing.ticker} />
-          )
+            {detail ? (
+              <FarmlandPropertyDetail
+                filing={filing}
+                priced={priced}
+                detail={detail}
+              />
+            ) : (
+              <PendingDetail ticker={filing.ticker} />
+            )}
+          </>
         }
         insiders={
           insiders && insiders.transactions.length > 0 ? (

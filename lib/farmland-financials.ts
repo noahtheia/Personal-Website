@@ -62,6 +62,21 @@ const PeriodSchema = z.object({
   cashMM: z.number().optional(),
   netDebtMM: z.number().optional(),
   totalEquityMM: z.number().optional(),
+  // Net property, plant, and equipment book value (post-depreciation).
+  // For agribusiness operators this is mills, processing plants,
+  // machinery, vehicles, and orchards-in-development. Distinct from
+  // propertyBookMM which often refers to land specifically.
+  ppeBookMM: z.number().nonnegative().optional(),
+  // Independent PP&E fair-value mark when the issuer publishes one
+  // (rare — IFRS revaluation-model issuers like some Australian and
+  // South African names).
+  ppeFmvMM: z.number().nonnegative().optional(),
+  // Total inventory book value. For commodity traders, the
+  // hedged-portion sub-component sits in trader.rmiMM separately.
+  inventoryMM: z.number().nonnegative().optional(),
+  // Identifiable + goodwill intangibles. Subtract from total assets
+  // to back into a tangible-asset base for FMV analysis.
+  intangibleAssetsMM: z.number().nonnegative().optional(),
   // ---- Capital structure / debt note ----
   // P&L interest expense (positive, filing-currency $M) — pulled from
   // the income statement or finance-cost note.
