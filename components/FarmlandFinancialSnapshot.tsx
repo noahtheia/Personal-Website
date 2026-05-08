@@ -11,6 +11,7 @@ type ChartId =
   | "margins"
   | "capex"
   | "capitalAllocation"
+  | "capitalStructure"
   | "propertyValue"
   | "navPerShare"
   | "acreage"
@@ -46,6 +47,12 @@ const CHART_DEFS: { id: ChartId; label: string; description: string }[] = [
     label: "Capital allocation",
     description:
       "Capex / dividends / buybacks stacked per fiscal year, with CFO line — see how the issuer splits its cash flow between reinvestment and shareholder return.",
+  },
+  {
+    id: "capitalStructure",
+    label: "Capital structure",
+    description:
+      "Debt ladder + interest coverage trend. Bars show debt maturity buckets (latest disclosure); EBITDA / interest expense ratio on the right axis tracks coverage over time.",
   },
   {
     id: "propertyValue",
@@ -859,6 +866,7 @@ function buildAllSeries(
     margins: null,
     capex: null,
     capitalAllocation: null,
+    capitalStructure: null,
     propertyValue: null,
     navPerShare: null,
     acreage: null,
@@ -1461,6 +1469,61 @@ function buildAllSeries(
         }
         result.capitalAllocation = allocSeries;
       }
+    }
+
+    // ---- Capital structure ----
+    // Bar: net debt by FY. Overlay: total debt. Overlay2: EBITDA
+    // (so leverage is visible vs earnings power). Secondary axis:
+    // Net Debt / EBITDA leverage ratio.
+    const csRows = financials.periods
+      .filter((p) => p.periodType === "FY")
+      .sort((a, b) => a.endDate.localeCompare(b.endDate));
+    const netDebtPts: DatedPoint[] = [];
+    const totalDebtPts: DatedPoint[] = [];
+    const ebitdaCsPts: DatedPoint[] = [];
+    const leveragePts: DatedPoint[] = [];
+    for (const p of csRows) {
+      const nd =
+        typeof p.netDebtMM === "number"
+          ? p.netDebtMM
+          : typeof p.totalDebtMM === "number" && typeof p.cashMM === "number"
+          ? p.totalDebtMM - p.cashMM
+          : null;
+      if (nd !== null) {
+        netDebtPts.push({ date: p.endDate, value: nd });
+      }
+      if (typeof p.totalDebtMM === "number") {
+        totalDebtPts.push({ date: p.endDate, value: p.totalDebtMM });
+      }
+      if (typeof p.ebitdaMM === "number") {
+        ebitdaCsPts.push({ date: p.endDate, value: p.ebitdaMM });
+        if (nd !== null && p.ebitdaMM > 0) {
+          leveragePts.push({ date: p.endDate, value: nd / p.ebitdaMM });
+        }
+      }
+    }
+    if (netDebtPts.length > 0 || totalDebtPts.length > 0) {
+      const csSeries: Series = {
+        label: "Net debt",
+        description: `Net debt + total debt + EBITDA over time (${ccy} M); leverage ratio on right axis`,
+        unit: { kind: "millions", ccy },
+        kind: "bar",
+        points: netDebtPts.length > 0 ? netDebtPts : totalDebtPts,
+      };
+      if (totalDebtPts.length > 0 && netDebtPts.length > 0) {
+        csSeries.overlay = { label: "Total debt", points: totalDebtPts };
+      }
+      if (ebitdaCsPts.length > 0) {
+        csSeries.overlay2 = { label: "EBITDA", points: ebitdaCsPts };
+      }
+      if (leveragePts.length > 0) {
+        csSeries.secondary = {
+          label: "Net Debt / EBITDA (×)",
+          unit: { kind: "multiplier" },
+          points: leveragePts,
+        };
+      }
+      result.capitalStructure = csSeries;
     }
   }
 
