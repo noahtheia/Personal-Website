@@ -1,12 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type {
   FarmlandGeography,
   FarmlandSector,
   PricedFarmlandComp,
 } from "@/lib/farmland-comps";
+
+const WATCHLIST_KEY = "farmland-comps-watchlist";
+
+const WATCHLIST_SECTOR_KEY = "★ Watchlist";
 
 // Display order for category bands. Each row is grouped under a
 // "{Sector} — {Geography}" header. Sort first by sector, then by
@@ -213,6 +217,43 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
     land: true,
   });
   const [filterOpen, setFilterOpen] = useState(false);
+  const [watchlist, setWatchlist] = useState<Set<string>>(new Set());
+  const [watchlistOnly, setWatchlistOnly] = useState(false);
+
+  // Load watchlist from localStorage on mount.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    try {
+      const raw = window.localStorage.getItem(WATCHLIST_KEY);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed)) {
+          setWatchlist(
+            new Set(parsed.filter((x): x is string => typeof x === "string")),
+          );
+        }
+      }
+    } catch {
+      // ignore corrupted storage
+    }
+  }, []);
+
+  function toggleWatch(ticker: string) {
+    setWatchlist((prev) => {
+      const next = new Set(prev);
+      if (next.has(ticker)) next.delete(ticker);
+      else next.add(ticker);
+      try {
+        window.localStorage.setItem(
+          WATCHLIST_KEY,
+          JSON.stringify(Array.from(next)),
+        );
+      } catch {
+        // ignore quota errors
+      }
+      return next;
+    });
+  }
 
   const visibleBandList = BAND_ORDER.filter((b) => visibleBands[b]);
   const visibleColumns = COLUMNS.filter((c) => visibleBands[c.band]);
@@ -236,7 +277,7 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
   // before grouping so empty sectors collapse out automatically.
   const groups = useMemo(() => {
     const q = search.trim().toLowerCase();
-    const filtered = q
+    let filtered = q
       ? rows.filter(
           (r) =>
             r.ticker.toLowerCase().includes(q) ||
@@ -245,14 +286,23 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
             (r.operatingCountry ?? "").toLowerCase().includes(q),
         )
       : rows;
+    if (watchlistOnly) {
+      filtered = filtered.filter((r) => watchlist.has(r.ticker));
+    }
     const buckets = new Map<string, PricedFarmlandComp[]>();
+    // Pinned (★) tickers float to a synthetic Watchlist band at the
+    // top — appear here AND in their normal sector below.
+    const pinned = filtered.filter((r) => watchlist.has(r.ticker));
+    if (pinned.length > 0) buckets.set(WATCHLIST_SECTOR_KEY, pinned);
     for (const r of filtered) {
       const k = categoryKey(r);
       if (!buckets.has(k)) buckets.set(k, []);
       buckets.get(k)!.push(r);
     }
-    // Ordered group entries
-    const ordered = Array.from(buckets.entries()).sort(([, a], [, b]) => {
+    // Ordered group entries — Watchlist always first when present
+    const ordered = Array.from(buckets.entries()).sort(([keyA, a], [keyB, b]) => {
+      if (keyA === WATCHLIST_SECTOR_KEY) return -1;
+      if (keyB === WATCHLIST_SECTOR_KEY) return 1;
       return categoryRank(a[0]) - categoryRank(b[0]);
     });
     // Sort rows inside each group by current sort column.
@@ -276,7 +326,7 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
       rows: groupRows,
       stats: computeStats(groupRows),
     }));
-  }, [rows, effectiveSortKey, dir, search]);
+  }, [rows, effectiveSortKey, dir, search, watchlist, watchlistOnly]);
 
   const overallStats = useMemo(() => computeStats(rows), [rows]);
 
@@ -346,6 +396,22 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
           </span>
         </div>
         <div className="flex items-center gap-2">
+          {watchlist.size > 0 && (
+            <button
+              type="button"
+              onClick={() => setWatchlistOnly((v) => !v)}
+              aria-pressed={watchlistOnly}
+              className={`inline-flex items-center gap-2 rounded-sm border px-3 py-1.5 text-xs font-medium transition-colors ${
+                watchlistOnly
+                  ? "border-accent bg-accent !text-bg"
+                  : "border-rule bg-surface !text-fg hover:border-accent hover:!text-accent"
+              }`}
+            >
+              <span aria-hidden="true">★</span>
+              <span>Watchlist</span>
+              <span className="text-[10px] opacity-70">{watchlist.size}</span>
+            </button>
+          )}
           <button
             type="button"
             onClick={handleExportCsv}
@@ -551,6 +617,8 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
                   return next;
                 })
               }
+              onToggleWatch={toggleWatch}
+              isWatched={(t) => watchlist.has(t)}
             />
           ))}
           <tr className="border-t-2 border-rule-strong bg-bg/60 font-semibold">
@@ -601,6 +669,8 @@ function CategorySection({
   visibleBandBreaks,
   isCollapsed,
   onToggle,
+  onToggleWatch,
+  isWatched,
 }: {
   label: string;
   rows: PricedFarmlandComp[];
@@ -610,6 +680,8 @@ function CategorySection({
   visibleBandBreaks: Set<number>;
   isCollapsed: boolean;
   onToggle: () => void;
+  onToggleWatch: (ticker: string) => void;
+  isWatched: (ticker: string) => boolean;
 }) {
   return (
     <>
@@ -638,12 +710,31 @@ function CategorySection({
           className="border-b border-rule transition-colors hover:bg-bg/60"
         >
           <td className="sticky left-0 z-[1] w-20 bg-surface px-3 py-3 text-left align-top">
-            <Link
-              href={`/analytics/public-farmland/${encodeURIComponent(r.ticker)}`}
-              className="font-semibold !text-fg no-underline transition-colors hover:!text-accent"
-            >
-              {r.ticker}
-            </Link>
+            <div className="flex items-center gap-1.5">
+              <button
+                type="button"
+                onClick={() => onToggleWatch(r.ticker)}
+                aria-pressed={isWatched(r.ticker)}
+                aria-label={
+                  isWatched(r.ticker)
+                    ? `Remove ${r.ticker} from watchlist`
+                    : `Add ${r.ticker} to watchlist`
+                }
+                className={`text-sm leading-none transition-colors ${
+                  isWatched(r.ticker)
+                    ? "!text-[var(--accent-warm)]"
+                    : "!text-muted hover:!text-[var(--accent-warm)]"
+                }`}
+              >
+                {isWatched(r.ticker) ? "★" : "☆"}
+              </button>
+              <Link
+                href={`/analytics/public-farmland/${encodeURIComponent(r.ticker)}`}
+                className="font-semibold !text-fg no-underline transition-colors hover:!text-accent"
+              >
+                {r.ticker}
+              </Link>
+            </div>
           </td>
           <td className="sticky left-20 z-[1] bg-surface px-3 py-3 text-left align-middle">
             <Link
