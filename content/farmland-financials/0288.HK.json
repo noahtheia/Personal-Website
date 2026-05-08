@@ -8,6 +8,17 @@
       "endDate": "2020-12-31",
       "periodType": "FY",
       "revenueMM": 25589,
+      "revenueBySegmentMM": {
+        "Pork (fresh + processed)": 22500,
+        "Hog production": 1900,
+        "Other (poultry, packaged meats other)": 1189
+      },
+      "expensesBySegmentMM": {
+        "COGS": 20800,
+        "SG&A": 2000,
+        "D&A": 800,
+        "Other opex": -839
+      },
       "ebitdaMM": 2828,
       "netIncomeMM": 1063,
       "totalDebtMM": 3580,
@@ -18,6 +29,14 @@
       "capexMM": 870,
       "daMM": 800,
       "cfoMM": 2100
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "H",
+      "revenueMM": 13260,
+      "ebitdaMM": 1280,
+      "netIncomeMM": 558,
+      "notes": "H1 21: Revenue $13.3bn. China pork prices declining post-ASF rebuild."
     },
     {
       "endDate": "2021-12-31",

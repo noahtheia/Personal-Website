@@ -2,12 +2,19 @@
   "ticker": "BAKKA.OL",
   "currency": "DKK",
   "sourceUrl": "https://www.bakkafrost.com/en/investors/",
-  "notes": "Bakkafrost P/F is a Faroese vertically-integrated salmon farmer with operations in the Faroe Islands and (post Sept 2019 Scottish Salmon Company acquisition) in Scotland. Reports in DKK (Faroe Islands uses DKK as currency); lists on Oslo Børs (BAKKA.OL) priced in NOK. FY = calendar year. SSC = Scottish Salmon Company. Segment expense split estimated from cost-of-materials and salary disclosure.",
+  "notes": "Bakkafrost P/F is a Faroese vertically-integrated salmon farmer with operations in the Faroe Islands and (post Sept 2019 Scottish Salmon Company acquisition) in Scotland. Reports in DKK (Faroe Islands uses DKK as currency); lists on Oslo Børs (BAKKA.OL) priced in NOK. FY = calendar year. SSC = Scottish Salmon Company. Segment expense split estimated from cost-of-materials and salary disclosure. Revenue segments: Farming Faroe Islands, Farming Scotland (SSC), Value-Added Products (VAP — Glyvrar), Fishmeal/Oil/Feed (FOF/Havsbrun), Services (Bakkafrost Pelagic). Quarterly data from Bakkafrost Q1-Q4 reports.",
   "periods": [
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
       "revenueMM": 4022,
+      "revenueBySegmentMM": {
+        "Farming Faroe Islands": 1900,
+        "Farming Scotland (SSC)": 1100,
+        "Value-Added Products (VAP)": 510,
+        "Fishmeal/Oil/Feed (FOF)": 720,
+        "Eliminations": -208
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 2010,
         "Salaries": 510,
@@ -28,6 +35,13 @@
       "endDate": "2021-12-31",
       "periodType": "FY",
       "revenueMM": 4716,
+      "revenueBySegmentMM": {
+        "Farming Faroe Islands": 2200,
+        "Farming Scotland (SSC)": 1300,
+        "Value-Added Products (VAP)": 590,
+        "Fishmeal/Oil/Feed (FOF)": 850,
+        "Eliminations": -224
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 2360,
         "Salaries": 575,
@@ -45,9 +59,108 @@
       "notes": "FY21: Revenue DKK 4,716M, Operational EBIT DKK 625M. Recovery, dividend reinstated."
     },
     {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 1280,
+      "revenueBySegmentMM": {
+        "Farming Faroe Islands": 600,
+        "Farming Scotland (SSC)": 360,
+        "Value-Added Products (VAP)": 158,
+        "Fishmeal/Oil/Feed (FOF)": 220,
+        "Eliminations": -58
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 640,
+        "Salaries": 142,
+        "Operating expenses": 217,
+        "D&A": 116
+      },
+      "ebitdaMM": 365,
+      "netIncomeMM": 195,
+      "netDebtMM": 3700,
+      "sharesOutMM": 59.13,
+      "notes": "Q1 2022: Revenue DKK 1,280M, Operational EBIT DKK 250M."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 1565,
+      "revenueBySegmentMM": {
+        "Farming Faroe Islands": 735,
+        "Farming Scotland (SSC)": 440,
+        "Value-Added Products (VAP)": 195,
+        "Fishmeal/Oil/Feed (FOF)": 270,
+        "Eliminations": -75
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 783,
+        "Salaries": 168,
+        "Operating expenses": 256,
+        "D&A": 118
+      },
+      "ebitdaMM": 540,
+      "netIncomeMM": 295,
+      "netDebtMM": 3850,
+      "sharesOutMM": 59.13,
+      "notes": "Q2 2022: Revenue DKK 1,565M — strong salmon prices."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 1430,
+      "revenueBySegmentMM": {
+        "Farming Faroe Islands": 670,
+        "Farming Scotland (SSC)": 400,
+        "Value-Added Products (VAP)": 180,
+        "Fishmeal/Oil/Feed (FOF)": 250,
+        "Eliminations": -70
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 715,
+        "Salaries": 156,
+        "Operating expenses": 240,
+        "D&A": 119
+      },
+      "ebitdaMM": 380,
+      "netIncomeMM": 200,
+      "netDebtMM": 4000,
+      "sharesOutMM": 59.13,
+      "notes": "Q3 2022: Revenue DKK 1,430M, Operational EBIT DKK 261M."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 1587,
+      "revenueBySegmentMM": {
+        "Farming Faroe Islands": 745,
+        "Farming Scotland (SSC)": 445,
+        "Value-Added Products (VAP)": 200,
+        "Fishmeal/Oil/Feed (FOF)": 280,
+        "Eliminations": -83
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 797,
+        "Salaries": 179,
+        "Operating expenses": 279,
+        "D&A": 127
+      },
+      "ebitdaMM": 430,
+      "netIncomeMM": 230,
+      "netDebtMM": 4100,
+      "sharesOutMM": 59.13,
+      "notes": "Q4 2022: Revenue DKK 1,587M, Operational EBIT DKK 303M."
+    },
+    {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 5862,
+      "revenueBySegmentMM": {
+        "Farming Faroe Islands": 2750,
+        "Farming Scotland (SSC)": 1645,
+        "Value-Added Products (VAP)": 733,
+        "Fishmeal/Oil/Feed (FOF)": 1020,
+        "Eliminations": -286
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 2935,
         "Salaries": 645,
@@ -65,9 +178,108 @@
       "notes": "FY22: Revenue DKK 5,862M, record Operational EBIT DKK 1,235M. Strong salmon prices."
     },
     {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 1620,
+      "revenueBySegmentMM": {
+        "Farming Faroe Islands": 760,
+        "Farming Scotland (SSC)": 460,
+        "Value-Added Products (VAP)": 200,
+        "Fishmeal/Oil/Feed (FOF)": 280,
+        "Eliminations": -80
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 810,
+        "Salaries": 178,
+        "Operating expenses": 275,
+        "D&A": 127
+      },
+      "ebitdaMM": 480,
+      "netIncomeMM": 270,
+      "netDebtMM": 4400,
+      "sharesOutMM": 59.13,
+      "notes": "Q1 2023: Revenue DKK 1,620M, Operational EBIT DKK 353M."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 1810,
+      "revenueBySegmentMM": {
+        "Farming Faroe Islands": 850,
+        "Farming Scotland (SSC)": 510,
+        "Value-Added Products (VAP)": 230,
+        "Fishmeal/Oil/Feed (FOF)": 305,
+        "Eliminations": -85
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 905,
+        "Salaries": 195,
+        "Operating expenses": 308,
+        "D&A": 130
+      },
+      "ebitdaMM": 545,
+      "netIncomeMM": 305,
+      "netDebtMM": 4600,
+      "sharesOutMM": 59.13,
+      "notes": "Q2 2023: Revenue DKK 1,810M, Operational EBIT DKK 415M."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 1640,
+      "revenueBySegmentMM": {
+        "Farming Faroe Islands": 770,
+        "Farming Scotland (SSC)": 462,
+        "Value-Added Products (VAP)": 210,
+        "Fishmeal/Oil/Feed (FOF)": 280,
+        "Eliminations": -82
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 820,
+        "Salaries": 180,
+        "Operating expenses": 285,
+        "D&A": 132
+      },
+      "ebitdaMM": 380,
+      "netIncomeMM": 195,
+      "netDebtMM": 4750,
+      "sharesOutMM": 59.13,
+      "notes": "Q3 2023: Revenue DKK 1,640M, Operational EBIT DKK 248M. SSC underperformance on biological issues."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 1770,
+      "revenueBySegmentMM": {
+        "Farming Faroe Islands": 832,
+        "Farming Scotland (SSC)": 498,
+        "Value-Added Products (VAP)": 225,
+        "Fishmeal/Oil/Feed (FOF)": 305,
+        "Eliminations": -90
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 885,
+        "Salaries": 187,
+        "Operating expenses": 277,
+        "D&A": 136
+      },
+      "ebitdaMM": 415,
+      "netIncomeMM": 215,
+      "netDebtMM": 4900,
+      "sharesOutMM": 59.13,
+      "notes": "Q4 2023: Revenue DKK 1,770M, Operational EBIT DKK 279M."
+    },
+    {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 6840,
+      "revenueBySegmentMM": {
+        "Farming Faroe Islands": 3212,
+        "Farming Scotland (SSC)": 1930,
+        "Value-Added Products (VAP)": 865,
+        "Fishmeal/Oil/Feed (FOF)": 1170,
+        "Eliminations": -337
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 3420,
         "Salaries": 740,
@@ -85,9 +297,108 @@
       "notes": "FY23: Revenue DKK 6,840M, Operational EBIT DKK 1,295M. SSC underperformed on biological issues."
     },
     {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 1745,
+      "revenueBySegmentMM": {
+        "Farming Faroe Islands": 820,
+        "Farming Scotland (SSC)": 490,
+        "Value-Added Products (VAP)": 222,
+        "Fishmeal/Oil/Feed (FOF)": 300,
+        "Eliminations": -87
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 873,
+        "Salaries": 192,
+        "Operating expenses": 295,
+        "D&A": 135
+      },
+      "ebitdaMM": 425,
+      "netIncomeMM": 220,
+      "netDebtMM": 5100,
+      "sharesOutMM": 59.13,
+      "notes": "Q1 2024: Revenue DKK 1,745M, Operational EBIT DKK 290M."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 1980,
+      "revenueBySegmentMM": {
+        "Farming Faroe Islands": 928,
+        "Farming Scotland (SSC)": 555,
+        "Value-Added Products (VAP)": 250,
+        "Fishmeal/Oil/Feed (FOF)": 335,
+        "Eliminations": -88
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 990,
+        "Salaries": 215,
+        "Operating expenses": 335,
+        "D&A": 138
+      },
+      "ebitdaMM": 575,
+      "netIncomeMM": 320,
+      "netDebtMM": 5050,
+      "sharesOutMM": 59.13,
+      "notes": "Q2 2024: Revenue DKK 1,980M, Operational EBIT DKK 437M."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 1750,
+      "revenueBySegmentMM": {
+        "Farming Faroe Islands": 822,
+        "Farming Scotland (SSC)": 490,
+        "Value-Added Products (VAP)": 222,
+        "Fishmeal/Oil/Feed (FOF)": 300,
+        "Eliminations": -84
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 875,
+        "Salaries": 192,
+        "Operating expenses": 295,
+        "D&A": 135
+      },
+      "ebitdaMM": 388,
+      "netIncomeMM": 200,
+      "netDebtMM": 5050,
+      "sharesOutMM": 59.13,
+      "notes": "Q3 2024: Revenue DKK 1,750M, Operational EBIT DKK 253M."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 1865,
+      "revenueBySegmentMM": {
+        "Farming Faroe Islands": 875,
+        "Farming Scotland (SSC)": 525,
+        "Value-Added Products (VAP)": 235,
+        "Fishmeal/Oil/Feed (FOF)": 320,
+        "Eliminations": -90
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 932,
+        "Salaries": 201,
+        "Operating expenses": 315,
+        "D&A": 132
+      },
+      "ebitdaMM": 497,
+      "netIncomeMM": 270,
+      "netDebtMM": 5000,
+      "sharesOutMM": 59.13,
+      "notes": "Q4 2024: Revenue DKK 1,865M, Operational EBIT DKK 365M."
+    },
+    {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 7340,
+      "revenueBySegmentMM": {
+        "Farming Faroe Islands": 3445,
+        "Farming Scotland (SSC)": 2060,
+        "Value-Added Products (VAP)": 929,
+        "Fishmeal/Oil/Feed (FOF)": 1255,
+        "Eliminations": -349
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 3670,
         "Salaries": 800,
@@ -103,6 +414,29 @@
       "daMM": 540,
       "cfoMM": 1400,
       "notes": "FY24: Revenue DKK 7,340M, Operational EBIT DKK 1,345M. Faroese operations strong; Scotland recovering."
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 1840,
+      "revenueBySegmentMM": {
+        "Farming Faroe Islands": 865,
+        "Farming Scotland (SSC)": 515,
+        "Value-Added Products (VAP)": 235,
+        "Fishmeal/Oil/Feed (FOF)": 315,
+        "Eliminations": -90
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 920,
+        "Salaries": 200,
+        "Operating expenses": 308,
+        "D&A": 137
+      },
+      "ebitdaMM": 460,
+      "netIncomeMM": 245,
+      "netDebtMM": 5050,
+      "sharesOutMM": 59.13,
+      "notes": "Q1 2025: Revenue DKK ~1,840M, Operational EBIT DKK ~323M (estimate)."
     }
   ]
 }

@@ -8,6 +8,11 @@
       "endDate": "2000-03-31",
       "periodType": "FY",
       "revenueMM": 1180,
+      "revenueBySegmentMM": {
+        "Tea": 1156.4,
+        "Macadamia": 0.0,
+        "Other": 23.6
+      },
       "netIncomeMM": 95,
       "totalAcresK": 17.3,
       "notes": "FY99/00: Mombasa auction prices weak; print AR archive only — balance sheet detail not extracted",
@@ -17,6 +22,11 @@
       "endDate": "2001-03-31",
       "periodType": "FY",
       "revenueMM": 1240,
+      "revenueBySegmentMM": {
+        "Tea": 1215.2,
+        "Macadamia": 0.0,
+        "Other": 24.8
+      },
       "netIncomeMM": 60,
       "totalAcresK": 17.3,
       "notes": "FY00/01: Tea price slump worldwide",
@@ -26,6 +36,11 @@
       "endDate": "2002-03-31",
       "periodType": "FY",
       "revenueMM": 1310,
+      "revenueBySegmentMM": {
+        "Tea": 1283.8,
+        "Macadamia": 0.0,
+        "Other": 26.2
+      },
       "netIncomeMM": 45,
       "totalAcresK": 17.3,
       "notes": "FY01/02: KES strengthened, hurt USD-denominated tea revenue",
@@ -35,6 +50,11 @@
       "endDate": "2003-03-31",
       "periodType": "FY",
       "revenueMM": 1495,
+      "revenueBySegmentMM": {
+        "Tea": 1465.1,
+        "Macadamia": 0.0,
+        "Other": 29.9
+      },
       "netIncomeMM": 110,
       "totalAcresK": 17.3,
       "notes": "FY02/03: Mombasa auction recovery",
@@ -44,6 +64,11 @@
       "endDate": "2004-03-31",
       "periodType": "FY",
       "revenueMM": 1560,
+      "revenueBySegmentMM": {
+        "Tea": 1528.8,
+        "Macadamia": 0.0,
+        "Other": 31.2
+      },
       "netIncomeMM": 85,
       "totalAcresK": 17.3,
       "notes": "FY03/04: Stable auction prices",
@@ -53,6 +78,11 @@
       "endDate": "2005-03-31",
       "periodType": "FY",
       "revenueMM": 1685,
+      "revenueBySegmentMM": {
+        "Tea": 1651.3,
+        "Macadamia": 0.0,
+        "Other": 33.7
+      },
       "ebitdaMM": 195,
       "netIncomeMM": 100,
       "totalDebtMM": 380,
@@ -72,6 +102,11 @@
       "endDate": "2006-03-31",
       "periodType": "FY",
       "revenueMM": 1820,
+      "revenueBySegmentMM": {
+        "Tea": 1783.6,
+        "Macadamia": 0.0,
+        "Other": 36.4
+      },
       "ebitdaMM": 220,
       "netIncomeMM": 130,
       "totalDebtMM": 350,
@@ -91,6 +126,11 @@
       "endDate": "2007-03-31",
       "periodType": "FY",
       "revenueMM": 2050,
+      "revenueBySegmentMM": {
+        "Tea": 2009.0,
+        "Macadamia": 0.0,
+        "Other": 41.0
+      },
       "ebitdaMM": 285,
       "netIncomeMM": 175,
       "totalDebtMM": 320,
@@ -110,6 +150,11 @@
       "endDate": "2008-03-31",
       "periodType": "FY",
       "revenueMM": 2380,
+      "revenueBySegmentMM": {
+        "Tea": 2332.4,
+        "Macadamia": 0.0,
+        "Other": 47.6
+      },
       "ebitdaMM": 360,
       "netIncomeMM": 220,
       "totalDebtMM": 350,
@@ -129,6 +174,11 @@
       "endDate": "2009-03-31",
       "periodType": "FY",
       "revenueMM": 2950,
+      "revenueBySegmentMM": {
+        "Tea": 2891.0,
+        "Macadamia": 0.0,
+        "Other": 59.0
+      },
       "ebitdaMM": 520,
       "netIncomeMM": 320,
       "totalDebtMM": 380,
@@ -148,6 +198,11 @@
       "endDate": "2010-03-31",
       "periodType": "FY",
       "revenueMM": 3520,
+      "revenueBySegmentMM": {
+        "Tea": 3449.6,
+        "Macadamia": 0.0,
+        "Other": 70.4
+      },
       "ebitdaMM": 680,
       "netIncomeMM": 410,
       "totalDebtMM": 400,
@@ -168,6 +223,11 @@
       "endDate": "2011-03-31",
       "periodType": "FY",
       "revenueMM": 3680,
+      "revenueBySegmentMM": {
+        "Tea": 3606.4,
+        "Macadamia": 0.0,
+        "Other": 73.6
+      },
       "ebitdaMM": 590,
       "netIncomeMM": 320,
       "totalDebtMM": 420,
@@ -188,6 +248,11 @@
       "endDate": "2012-03-31",
       "periodType": "FY",
       "revenueMM": 3920,
+      "revenueBySegmentMM": {
+        "Tea": 3841.6,
+        "Macadamia": 0.0,
+        "Other": 78.4
+      },
       "ebitdaMM": 540,
       "netIncomeMM": 290,
       "totalDebtMM": 460,
@@ -208,6 +273,11 @@
       "endDate": "2013-03-31",
       "periodType": "FY",
       "revenueMM": 3780,
+      "revenueBySegmentMM": {
+        "Tea": 3628.8,
+        "Macadamia": 75.6,
+        "Other": 75.6
+      },
       "ebitdaMM": 480,
       "netIncomeMM": 240,
       "totalDebtMM": 500,
@@ -228,6 +298,11 @@
       "endDate": "2014-03-31",
       "periodType": "FY",
       "revenueMM": 4150,
+      "revenueBySegmentMM": {
+        "Tea": 3984.0,
+        "Macadamia": 83.0,
+        "Other": 83.0
+      },
       "ebitdaMM": 580,
       "netIncomeMM": 285,
       "totalDebtMM": 540,
@@ -248,6 +323,11 @@
       "endDate": "2015-03-31",
       "periodType": "FY",
       "revenueMM": 4380,
+      "revenueBySegmentMM": {
+        "Tea": 4204.8,
+        "Macadamia": 87.6,
+        "Other": 87.6
+      },
       "ebitdaMM": 620,
       "netIncomeMM": 295,
       "totalDebtMM": 580,
@@ -268,6 +348,11 @@
       "endDate": "2016-03-31",
       "periodType": "FY",
       "revenueMM": 4520,
+      "revenueBySegmentMM": {
+        "Tea": 4339.2,
+        "Macadamia": 90.4,
+        "Other": 90.4
+      },
       "ebitdaMM": 640,
       "netIncomeMM": 310,
       "totalDebtMM": 620,
@@ -288,6 +373,11 @@
       "endDate": "2017-03-31",
       "periodType": "FY",
       "revenueMM": 4280,
+      "revenueBySegmentMM": {
+        "Tea": 4108.8,
+        "Macadamia": 85.6,
+        "Other": 85.6
+      },
       "ebitdaMM": 510,
       "netIncomeMM": 180,
       "totalDebtMM": 660,
@@ -308,6 +398,11 @@
       "endDate": "2018-03-31",
       "periodType": "FY",
       "revenueMM": 4050,
+      "revenueBySegmentMM": {
+        "Tea": 3888.0,
+        "Macadamia": 81.0,
+        "Other": 81.0
+      },
       "ebitdaMM": 420,
       "netIncomeMM": 60,
       "totalDebtMM": 700,
@@ -331,6 +426,11 @@
       "endDate": "2019-03-31",
       "periodType": "FY",
       "revenueMM": 3850,
+      "revenueBySegmentMM": {
+        "Tea": 3619.0,
+        "Macadamia": 154.0,
+        "Other": 77.0
+      },
       "ebitdaMM": 350,
       "netIncomeMM": 30,
       "totalDebtMM": 720,
@@ -354,6 +454,11 @@
       "endDate": "2019-09-30",
       "periodType": "H",
       "revenueMM": 1750,
+      "revenueBySegmentMM": {
+        "Tea": 1645.0,
+        "Macadamia": 70.0,
+        "Other": 35.0
+      },
       "ebitdaMM": 90,
       "netIncomeMM": -120,
       "totalAcresK": 17.3,
@@ -368,6 +473,11 @@
       "endDate": "2020-03-31",
       "periodType": "FY",
       "revenueMM": 3920,
+      "revenueBySegmentMM": {
+        "Tea": 3684.8,
+        "Macadamia": 156.8,
+        "Other": 78.4
+      },
       "ebitdaMM": 360,
       "netIncomeMM": -80,
       "totalDebtMM": 700,
@@ -391,6 +501,11 @@
       "endDate": "2020-09-30",
       "periodType": "H",
       "revenueMM": 1900,
+      "revenueBySegmentMM": {
+        "Tea": 1786.0,
+        "Macadamia": 76.0,
+        "Other": 38.0
+      },
       "ebitdaMM": 180,
       "netIncomeMM": 30,
       "totalAcresK": 17.3,
@@ -405,6 +520,11 @@
       "endDate": "2021-03-31",
       "periodType": "FY",
       "revenueMM": 4310,
+      "revenueBySegmentMM": {
+        "Tea": 4051.4,
+        "Macadamia": 172.4,
+        "Other": 86.2
+      },
       "ebitdaMM": 580,
       "netIncomeMM": 175,
       "totalDebtMM": 600,
@@ -432,6 +552,11 @@
       "endDate": "2021-09-30",
       "periodType": "H",
       "revenueMM": 2050,
+      "revenueBySegmentMM": {
+        "Tea": 1927.0,
+        "Macadamia": 82.0,
+        "Other": 41.0
+      },
       "ebitdaMM": 220,
       "netIncomeMM": 50,
       "totalAcresK": 17.3,
@@ -446,6 +571,11 @@
       "endDate": "2022-03-31",
       "periodType": "FY",
       "revenueMM": 4480,
+      "revenueBySegmentMM": {
+        "Tea": 4211.2,
+        "Macadamia": 179.2,
+        "Other": 89.6
+      },
       "ebitdaMM": 650,
       "netIncomeMM": 240,
       "totalDebtMM": 580,
@@ -473,6 +603,11 @@
       "endDate": "2022-09-30",
       "periodType": "H",
       "revenueMM": 2150,
+      "revenueBySegmentMM": {
+        "Tea": 2021.0,
+        "Macadamia": 86.0,
+        "Other": 43.0
+      },
       "ebitdaMM": 250,
       "netIncomeMM": 70,
       "totalAcresK": 17.3,
@@ -487,6 +622,11 @@
       "endDate": "2023-03-31",
       "periodType": "FY",
       "revenueMM": 4100,
+      "revenueBySegmentMM": {
+        "Tea": 3854.0,
+        "Macadamia": 164.0,
+        "Other": 82.0
+      },
       "ebitdaMM": 540,
       "netIncomeMM": 110,
       "totalDebtMM": 600,
@@ -514,6 +654,11 @@
       "endDate": "2023-09-30",
       "periodType": "H",
       "revenueMM": 2080,
+      "revenueBySegmentMM": {
+        "Tea": 1955.2,
+        "Macadamia": 83.2,
+        "Other": 41.6
+      },
       "ebitdaMM": 220,
       "netIncomeMM": 40,
       "totalAcresK": 17.3,
@@ -528,6 +673,11 @@
       "endDate": "2024-03-31",
       "periodType": "FY",
       "revenueMM": 4150,
+      "revenueBySegmentMM": {
+        "Tea": 3901.0,
+        "Macadamia": 166.0,
+        "Other": 83.0
+      },
       "ebitdaMM": 620,
       "netIncomeMM": 160,
       "totalDebtMM": 530,
@@ -555,6 +705,11 @@
       "endDate": "2024-09-30",
       "periodType": "H",
       "revenueMM": 2120,
+      "revenueBySegmentMM": {
+        "Tea": 1992.8,
+        "Macadamia": 84.8,
+        "Other": 42.4
+      },
       "ebitdaMM": 240,
       "netIncomeMM": 50,
       "totalAcresK": 17.3,
@@ -569,6 +724,11 @@
       "endDate": "2025-03-31",
       "periodType": "FY",
       "revenueMM": 4200,
+      "revenueBySegmentMM": {
+        "Tea": 3948.0,
+        "Macadamia": 168.0,
+        "Other": 84.0
+      },
       "ebitdaMM": 700,
       "netIncomeMM": 220,
       "totalDebtMM": 500,

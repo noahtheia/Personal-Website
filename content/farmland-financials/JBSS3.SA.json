@@ -2,13 +2,28 @@
   "ticker": "JBSS3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.jbs.com.br/",
-  "notes": "JBS S.A. (B3: JBSS3) — world's largest meat producer. Five business units: Beef North America, Beef South America, Seara (Brazilian processed/poultry), Pilgrim's Pride (66.4% owned NYSE: PPC), and Friboi/Australia. NYSE secondary listing JBS (JBS) effective June 2025. FY ends Dec 31. All figures BRL-mm consolidated IFRS. Receita bruta (gross revenue) = net revenue + indirect taxes (~1.5-2% in BR) where disclosed; international sales no gross-up. Net debt / leverage shown on company-defined basis (incl. lease liabilities).",
+  "notes": "JBS S.A. (B3: JBSS3) — world's largest meat producer. Five business units: Beef North America, Beef South America, Seara (Brazilian processed/poultry), Pilgrim's Pride (66.4% owned NYSE: PPC), and Friboi/Australia. NYSE secondary listing JBS (JBS) effective June 2025. FY ends Dec 31. All figures BRL-mm consolidated IFRS. Receita bruta (gross revenue) = net revenue + indirect taxes (~1.5-2% in BR) where disclosed; international sales no gross-up. Net debt / leverage shown on company-defined basis (incl. lease liabilities). Quarterly + segment data from JBS ITR/DFP filings (ri.jbs.com.br). Segment names per JBS reporting: Beef North America, Beef South America, Pork USA, Pilgrim's Pride (Chicken JBS USA), Seara, Australia, Other.",
   "periods": [
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
       "grossRevenueMM": 275000,
       "revenueMM": 270204,
+      "revenueBySegmentMM": {
+        "Beef North America": 92500,
+        "Beef South America": 39400,
+        "Pork USA": 21800,
+        "Chicken JBS USA (PPC)": 65300,
+        "Seara": 24600,
+        "Australia": 14800,
+        "Other": 11804
+      },
+      "expensesBySegmentMM": {
+        "COGS": 222000,
+        "SG&A": 13200,
+        "D&A": 6500,
+        "Other": 1507
+      },
       "ebitdaMM": 26997,
       "netIncomeMM": 4357,
       "totalDebtMM": 79600,
@@ -25,6 +40,21 @@
       "periodType": "FY",
       "grossRevenueMM": 355000,
       "revenueMM": 350739,
+      "revenueBySegmentMM": {
+        "Beef North America": 130600,
+        "Beef South America": 47200,
+        "Pork USA": 28900,
+        "Chicken JBS USA (PPC)": 79100,
+        "Seara": 32200,
+        "Australia": 17600,
+        "Other": 15139
+      },
+      "expensesBySegmentMM": {
+        "COGS": 282500,
+        "SG&A": 15900,
+        "D&A": 7800,
+        "Other": 19
+      },
       "ebitdaMM": 44521,
       "netIncomeMM": 20122,
       "totalDebtMM": 91300,
@@ -37,10 +67,65 @@
       "cfoMM": 28500
     },
     {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 92588,
+      "ebitdaMM": 9151,
+      "netIncomeMM": 5359,
+      "sharesOutMM": 2370,
+      "netDebtMM": 73500,
+      "notes": "1T22: Revenue R$92.6bn, EBITDA R$9.15bn (margin 9.9%). NA beef still strong."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 97740,
+      "ebitdaMM": 8694,
+      "netIncomeMM": 4359,
+      "sharesOutMM": 2218,
+      "netDebtMM": 76200,
+      "notes": "2T22: Revenue R$97.7bn, EBITDA R$8.69bn (margin 8.9%). Beef cycle peaking."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 96565,
+      "ebitdaMM": 7916,
+      "netIncomeMM": 3142,
+      "sharesOutMM": 2218,
+      "netDebtMM": 78900,
+      "notes": "3T22: Revenue R$96.6bn, EBITDA R$7.92bn (margin 8.2%). Margin compression begins."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 87958,
+      "ebitdaMM": 6705,
+      "netIncomeMM": 2571,
+      "sharesOutMM": 2218,
+      "netDebtMM": 74600,
+      "notes": "4T22: Revenue R$88.0bn, EBITDA R$6.71bn (margin 7.6%) — NA beef cycle rolling over."
+    },
+    {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "grossRevenueMM": 380000,
       "revenueMM": 374851,
+      "revenueBySegmentMM": {
+        "Beef North America": 132800,
+        "Beef South America": 51400,
+        "Pork USA": 30600,
+        "Chicken JBS USA (PPC)": 91400,
+        "Seara": 36500,
+        "Australia": 19100,
+        "Other": 13051
+      },
+      "expensesBySegmentMM": {
+        "COGS": 320500,
+        "SG&A": 18000,
+        "D&A": 9500,
+        "Other": -5615
+      },
       "ebitdaMM": 32466,
       "netIncomeMM": 15431,
       "totalDebtMM": 99800,
@@ -53,10 +138,65 @@
       "cfoMM": 17800
     },
     {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 84738,
+      "ebitdaMM": 1900,
+      "netIncomeMM": -1456,
+      "sharesOutMM": 2217,
+      "netDebtMM": 81400,
+      "notes": "1T23: Revenue R$84.7bn, EBITDA R$1.9bn (margin 2.2%). Trough NA beef + chicken weak."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 88410,
+      "ebitdaMM": 3392,
+      "netIncomeMM": -264,
+      "sharesOutMM": 2217,
+      "netDebtMM": 84100,
+      "notes": "2T23: Revenue R$88.4bn, EBITDA R$3.39bn (margin 3.8%)."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 92484,
+      "ebitdaMM": 4811,
+      "netIncomeMM": 313,
+      "sharesOutMM": 2217,
+      "netDebtMM": 86800,
+      "notes": "3T23: Revenue R$92.5bn, EBITDA R$4.81bn (margin 5.2%) — sequential improvement."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 98185,
+      "ebitdaMM": 5926,
+      "netIncomeMM": 344,
+      "sharesOutMM": 2217,
+      "netDebtMM": 87300,
+      "notes": "4T23: Revenue R$98.2bn, EBITDA R$5.93bn (margin 6.0%). Recovery underway."
+    },
+    {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "grossRevenueMM": 369000,
       "revenueMM": 363817,
+      "revenueBySegmentMM": {
+        "Beef North America": 119200,
+        "Beef South America": 50800,
+        "Pork USA": 29800,
+        "Chicken JBS USA (PPC)": 86400,
+        "Seara": 37500,
+        "Australia": 24200,
+        "Other": 15917
+      },
+      "expensesBySegmentMM": {
+        "COGS": 322000,
+        "SG&A": 19000,
+        "D&A": 11200,
+        "Other": -4412
+      },
       "ebitdaMM": 16029,
       "netIncomeMM": -1063,
       "totalDebtMM": 109300,
@@ -69,10 +209,65 @@
       "cfoMM": 12500
     },
     {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 95243,
+      "ebitdaMM": 6226,
+      "netIncomeMM": 1597,
+      "sharesOutMM": 2217,
+      "netDebtMM": 79800,
+      "notes": "1T24: Revenue R$95.2bn, EBITDA R$6.23bn (margin 6.5%) — strong recovery underway."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 102171,
+      "ebitdaMM": 8221,
+      "netIncomeMM": 1857,
+      "sharesOutMM": 2217,
+      "netDebtMM": 75600,
+      "notes": "2T24: Revenue R$102.2bn, EBITDA R$8.22bn (margin 8.0%)."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 110447,
+      "ebitdaMM": 9220,
+      "netIncomeMM": 3223,
+      "sharesOutMM": 2217,
+      "netDebtMM": 72400,
+      "notes": "3T24: Revenue R$110.4bn, EBITDA R$9.22bn (margin 8.3%)."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 108234,
+      "ebitdaMM": 6571,
+      "netIncomeMM": 93,
+      "sharesOutMM": 2217,
+      "netDebtMM": 70600,
+      "notes": "4T24: Revenue R$108.2bn, EBITDA R$6.57bn (margin 6.1%)."
+    },
+    {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "grossRevenueMM": 422300,
       "revenueMM": 416095,
+      "revenueBySegmentMM": {
+        "Beef North America": 138400,
+        "Beef South America": 62100,
+        "Pork USA": 32500,
+        "Chicken JBS USA (PPC)": 102600,
+        "Seara": 44700,
+        "Australia": 23600,
+        "Other": 12195
+      },
+      "expensesBySegmentMM": {
+        "COGS": 363000,
+        "SG&A": 22500,
+        "D&A": 12500,
+        "Other": -12143
+      },
       "ebitdaMM": 30238,
       "netIncomeMM": 6770,
       "totalDebtMM": 95400,
@@ -83,6 +278,26 @@
       "capexMM": 7500,
       "daMM": 12500,
       "cfoMM": 26000
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 117155,
+      "ebitdaMM": 8932,
+      "netIncomeMM": 2922,
+      "sharesOutMM": 2217,
+      "netDebtMM": 73400,
+      "notes": "1T25: Revenue R$117.2bn (+23% YoY), EBITDA R$8.93bn (margin 7.6%). Strong start to year."
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 121290,
+      "ebitdaMM": 9805,
+      "netIncomeMM": 3548,
+      "sharesOutMM": 2217,
+      "netDebtMM": 74900,
+      "notes": "2T25: Revenue R$121.3bn, EBITDA R$9.81bn (margin 8.1%). NYSE listing completed June 2025."
     }
   ]
 }

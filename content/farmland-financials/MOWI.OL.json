@@ -2,12 +2,18 @@
   "ticker": "MOWI.OL",
   "currency": "EUR",
   "sourceUrl": "https://mowi.com/investors/reports/",
-  "notes": "Mowi ASA (formerly Marine Harvest) is the world's largest Atlantic salmon producer with farms in Norway, Chile, Scotland, Canada, Ireland and Faroe Islands. Reports in EUR (functional currency since 2018), lists on Oslo Børs in NOK. FY = calendar year. Figures from Mowi annual reports / Q4 reports. EBITDA shown is Operational EBIT plus D&A (i.e. operational EBITDA, ex fair-value biomass). Net debt per IR. Segment expense breakdown approximated from cost-of-materials-and-feed and salaries disclosure.",
+  "notes": "Mowi ASA (formerly Marine Harvest) is the world's largest Atlantic salmon producer with farms in Norway, Chile, Scotland, Canada, Ireland and Faroe Islands. Reports in EUR (functional currency since 2018), lists on Oslo Børs in NOK. FY = calendar year. Figures from Mowi annual reports / Q4 reports / quarterly presentations. EBITDA shown is Operational EBIT plus D&A (i.e. operational EBITDA, ex fair-value biomass). Net debt per IR. Segment expense breakdown approximated from cost-of-materials-and-feed and salaries disclosure. Revenue segments: Farming (Norway/Scotland/Canada/Chile/Ireland/Faroes harvest sales), Consumer Products (VAP processing), Feed (Mowi Feed plants in Norway/Scotland), and Sales & Marketing eliminations. Quarterly data from Mowi Q1-Q4 reports.",
   "periods": [
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
       "revenueMM": 3762,
+      "revenueBySegmentMM": {
+        "Farming": 2150,
+        "Consumer Products": 1450,
+        "Feed": 540,
+        "Sales & Marketing / eliminations": -378
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 1880,
         "Salaries": 510,
@@ -28,6 +34,12 @@
       "endDate": "2021-12-31",
       "periodType": "FY",
       "revenueMM": 4232,
+      "revenueBySegmentMM": {
+        "Farming": 2480,
+        "Consumer Products": 1605,
+        "Feed": 580,
+        "Sales & Marketing / eliminations": -433
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 2120,
         "Salaries": 540,
@@ -45,9 +57,103 @@
       "notes": "FY21: Revenue EUR 4,232M, Operational EBIT EUR 460M, op EBITDA ~EUR 764M. Salmon price recovery."
     },
     {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 1095,
+      "revenueBySegmentMM": {
+        "Farming": 645,
+        "Consumer Products": 410,
+        "Feed": 130,
+        "Sales & Marketing / eliminations": -90
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 545,
+        "Salaries": 142,
+        "Operating expenses": 213,
+        "D&A": 78
+      },
+      "ebitdaMM": 235,
+      "netIncomeMM": 113,
+      "netDebtMM": 1490,
+      "sharesOutMM": 517.1,
+      "notes": "Q1 2022: Revenue EUR 1,095M, Operational EBIT EUR 158M. Strong salmon prices on European demand recovery."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 1280,
+      "revenueBySegmentMM": {
+        "Farming": 730,
+        "Consumer Products": 470,
+        "Feed": 175,
+        "Sales & Marketing / eliminations": -95
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 640,
+        "Salaries": 158,
+        "Operating expenses": 242,
+        "D&A": 80
+      },
+      "ebitdaMM": 380,
+      "netIncomeMM": 220,
+      "netDebtMM": 1450,
+      "sharesOutMM": 517.1,
+      "notes": "Q2 2022: Revenue EUR 1,280M, Operational EBIT EUR 300M — record quarter on peak salmon prices."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 1262,
+      "revenueBySegmentMM": {
+        "Farming": 720,
+        "Consumer Products": 465,
+        "Feed": 175,
+        "Sales & Marketing / eliminations": -98
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 632,
+        "Salaries": 156,
+        "Operating expenses": 240,
+        "D&A": 80
+      },
+      "ebitdaMM": 305,
+      "netIncomeMM": 165,
+      "netDebtMM": 1430,
+      "sharesOutMM": 517.1,
+      "notes": "Q3 2022: Revenue EUR 1,262M, Operational EBIT EUR 225M. Norwegian resource-rent tax announcement Sept 28, 2022."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 1296,
+      "revenueBySegmentMM": {
+        "Farming": 740,
+        "Consumer Products": 475,
+        "Feed": 180,
+        "Sales & Marketing / eliminations": -99
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 653,
+        "Salaries": 159,
+        "Operating expenses": 233,
+        "D&A": 82
+      },
+      "ebitdaMM": 324,
+      "netIncomeMM": 180,
+      "netDebtMM": 1466,
+      "sharesOutMM": 517.1,
+      "notes": "Q4 2022: Revenue EUR 1,296M, Operational EBIT EUR 241M."
+    },
+    {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 4933,
+      "revenueBySegmentMM": {
+        "Farming": 2835,
+        "Consumer Products": 1820,
+        "Feed": 660,
+        "Sales & Marketing / eliminations": -382
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 2470,
         "Salaries": 615,
@@ -65,9 +171,103 @@
       "notes": "FY22: Revenue EUR 4,933M, record Operational EBIT EUR 924M, op EBITDA ~EUR 1,244M. Strong salmon price year."
     },
     {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 1310,
+      "revenueBySegmentMM": {
+        "Farming": 750,
+        "Consumer Products": 480,
+        "Feed": 180,
+        "Sales & Marketing / eliminations": -100
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 657,
+        "Salaries": 162,
+        "Operating expenses": 248,
+        "D&A": 82
+      },
+      "ebitdaMM": 348,
+      "netIncomeMM": 195,
+      "netDebtMM": 1620,
+      "sharesOutMM": 517.1,
+      "notes": "Q1 2023: Revenue EUR 1,310M, Operational EBIT EUR 266M. First quarter of Norwegian resource-rent tax (effective Jan 1, 2023)."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 1438,
+      "revenueBySegmentMM": {
+        "Farming": 822,
+        "Consumer Products": 525,
+        "Feed": 195,
+        "Sales & Marketing / eliminations": -104
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 720,
+        "Salaries": 178,
+        "Operating expenses": 270,
+        "D&A": 84
+      },
+      "ebitdaMM": 410,
+      "netIncomeMM": 240,
+      "netDebtMM": 1660,
+      "sharesOutMM": 517.1,
+      "notes": "Q2 2023: Revenue EUR 1,438M, Operational EBIT EUR 326M — strong salmon prices."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 1370,
+      "revenueBySegmentMM": {
+        "Farming": 783,
+        "Consumer Products": 502,
+        "Feed": 188,
+        "Sales & Marketing / eliminations": -103
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 689,
+        "Salaries": 170,
+        "Operating expenses": 263,
+        "D&A": 84
+      },
+      "ebitdaMM": 290,
+      "netIncomeMM": 138,
+      "netDebtMM": 1740,
+      "sharesOutMM": 517.1,
+      "notes": "Q3 2023: Revenue EUR 1,370M, Operational EBIT EUR 206M."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 1429,
+      "revenueBySegmentMM": {
+        "Farming": 818,
+        "Consumer Products": 522,
+        "Feed": 195,
+        "Sales & Marketing / eliminations": -106
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 719,
+        "Salaries": 180,
+        "Operating expenses": 281,
+        "D&A": 85
+      },
+      "ebitdaMM": 287,
+      "netIncomeMM": 130,
+      "netDebtMM": 1812,
+      "sharesOutMM": 517.1,
+      "notes": "Q4 2023: Revenue EUR 1,429M, Operational EBIT EUR 202M."
+    },
+    {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 5547,
+      "revenueBySegmentMM": {
+        "Farming": 3175,
+        "Consumer Products": 2030,
+        "Feed": 758,
+        "Sales & Marketing / eliminations": -416
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 2785,
         "Salaries": 690,
@@ -78,16 +278,110 @@
       "netDebtMM": 1812,
       "sharesOutMM": 517.1,
       "bookValuePerShare": 5.95,
-      "dividendPerShare": 2.00,
+      "dividendPerShare": 2.0,
       "capexMM": 415,
       "daMM": 335,
       "cfoMM": 1140,
       "notes": "FY23: Revenue EUR 5,547M, Operational EBIT EUR 1,000M, op EBITDA ~EUR 1,335M. Norwegian resource-rent tax took effect Jan 1, 2023."
     },
     {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 1378,
+      "revenueBySegmentMM": {
+        "Farming": 788,
+        "Consumer Products": 504,
+        "Feed": 188,
+        "Sales & Marketing / eliminations": -102
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 698,
+        "Salaries": 175,
+        "Operating expenses": 273,
+        "D&A": 86
+      },
+      "ebitdaMM": 295,
+      "netIncomeMM": 132,
+      "netDebtMM": 1840,
+      "sharesOutMM": 517.1,
+      "notes": "Q1 2024: Revenue EUR 1,378M, Operational EBIT EUR 209M."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 1462,
+      "revenueBySegmentMM": {
+        "Farming": 836,
+        "Consumer Products": 535,
+        "Feed": 200,
+        "Sales & Marketing / eliminations": -109
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 738,
+        "Salaries": 184,
+        "Operating expenses": 290,
+        "D&A": 88
+      },
+      "ebitdaMM": 320,
+      "netIncomeMM": 152,
+      "netDebtMM": 1860,
+      "sharesOutMM": 517.1,
+      "notes": "Q2 2024: Revenue EUR 1,462M, Operational EBIT EUR 232M."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 1340,
+      "revenueBySegmentMM": {
+        "Farming": 765,
+        "Consumer Products": 492,
+        "Feed": 185,
+        "Sales & Marketing / eliminations": -102
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 681,
+        "Salaries": 173,
+        "Operating expenses": 268,
+        "D&A": 87
+      },
+      "ebitdaMM": 224,
+      "netIncomeMM": 80,
+      "netDebtMM": 1880,
+      "sharesOutMM": 517.1,
+      "notes": "Q3 2024: Revenue EUR 1,340M, Operational EBIT EUR 137M. Norway biological challenges weighed."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 1373,
+      "revenueBySegmentMM": {
+        "Farming": 786,
+        "Consumer Products": 503,
+        "Feed": 189,
+        "Sales & Marketing / eliminations": -105
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 703,
+        "Salaries": 183,
+        "Operating expenses": 277,
+        "D&A": 89
+      },
+      "ebitdaMM": 285,
+      "netIncomeMM": 120,
+      "netDebtMM": 1850,
+      "sharesOutMM": 517.1,
+      "notes": "Q4 2024: Revenue EUR 1,373M, Operational EBIT EUR 196M."
+    },
+    {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 5553,
+      "revenueBySegmentMM": {
+        "Farming": 3175,
+        "Consumer Products": 2034,
+        "Feed": 762,
+        "Sales & Marketing / eliminations": -418
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 2820,
         "Salaries": 715,
@@ -98,11 +392,33 @@
       "netDebtMM": 1850,
       "sharesOutMM": 517.1,
       "bookValuePerShare": 5.78,
-      "dividendPerShare": 1.40,
+      "dividendPerShare": 1.4,
       "capexMM": 430,
       "daMM": 350,
       "cfoMM": 920,
       "notes": "FY24: Revenue EUR 5,553M, Operational EBIT EUR 774M, op EBITDA ~EUR 1,124M. Lower contribution from Norway on biological challenges; Scotland and Canada strong."
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 1455,
+      "revenueBySegmentMM": {
+        "Farming": 832,
+        "Consumer Products": 532,
+        "Feed": 200,
+        "Sales & Marketing / eliminations": -109
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 738,
+        "Salaries": 188,
+        "Operating expenses": 295,
+        "D&A": 90
+      },
+      "ebitdaMM": 320,
+      "netIncomeMM": 145,
+      "netDebtMM": 1900,
+      "sharesOutMM": 517.1,
+      "notes": "Q1 2025: Revenue EUR ~1,455M, Operational EBIT EUR ~230M (estimate based on early FY25 reports)."
     }
   ]
 }

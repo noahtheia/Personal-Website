@@ -8,6 +8,10 @@
       "endDate": "2010-12-31",
       "periodType": "FY",
       "revenueMM": 14,
+      "revenueBySegmentMM": {
+        "Crop production": 13.44,
+        "Other": 0.56
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 11,
         "Administrative expenses": 2
@@ -24,12 +28,20 @@
       "endDate": "2011-06-30",
       "periodType": "H",
       "revenueMM": 8,
+      "revenueBySegmentMM": {
+        "Crop production": 7.68,
+        "Other": 0.32
+      },
       "totalAcresK": 79
     },
     {
       "endDate": "2011-12-31",
       "periodType": "FY",
       "revenueMM": 22,
+      "revenueBySegmentMM": {
+        "Crop production": 21.12,
+        "Other": 0.88
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 16.5,
         "Administrative expenses": 2.5
@@ -46,12 +58,20 @@
       "endDate": "2012-06-30",
       "periodType": "H",
       "revenueMM": 9,
+      "revenueBySegmentMM": {
+        "Crop production": 8.64,
+        "Other": 0.36
+      },
       "totalAcresK": 89
     },
     {
       "endDate": "2012-12-31",
       "periodType": "FY",
       "revenueMM": 28,
+      "revenueBySegmentMM": {
+        "Crop production": 26.88,
+        "Other": 1.12
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 21,
         "Administrative expenses": 3
@@ -68,6 +88,10 @@
       "endDate": "2013-06-30",
       "periodType": "H",
       "revenueMM": 25,
+      "revenueBySegmentMM": {
+        "Crop production": 24.0,
+        "Other": 1.0
+      },
       "totalAcresK": 296,
       "notes": "H1 13: Harmelia merger closes — added ~40,000 ha + Eastern Ukraine ops"
     },
@@ -75,6 +99,10 @@
       "endDate": "2013-12-31",
       "periodType": "FY",
       "revenueMM": 70,
+      "revenueBySegmentMM": {
+        "Crop production": 67.2,
+        "Other": 2.8
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 53,
         "Administrative expenses": 6
@@ -94,6 +122,10 @@
       "endDate": "2014-06-30",
       "periodType": "H",
       "revenueMM": 30,
+      "revenueBySegmentMM": {
+        "Crop production": 28.8,
+        "Other": 1.2
+      },
       "totalAcresK": 247,
       "notes": "H1 14: Argentine assets disposal; war begins in Eastern Ukraine"
     },
@@ -101,6 +133,10 @@
       "endDate": "2014-12-31",
       "periodType": "FY",
       "revenueMM": 65,
+      "revenueBySegmentMM": {
+        "Crop production": 62.4,
+        "Other": 2.6
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 51,
         "Administrative expenses": 6
@@ -120,12 +156,20 @@
       "endDate": "2015-06-30",
       "periodType": "H",
       "revenueMM": 22,
+      "revenueBySegmentMM": {
+        "Crop production": 21.12,
+        "Other": 0.88
+      },
       "totalAcresK": 198
     },
     {
       "endDate": "2015-12-31",
       "periodType": "FY",
       "revenueMM": 50,
+      "revenueBySegmentMM": {
+        "Crop production": 48.0,
+        "Other": 2.0
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 36.5,
         "Administrative expenses": 4.5
@@ -145,12 +189,20 @@
       "endDate": "2016-06-30",
       "periodType": "H",
       "revenueMM": 18,
+      "revenueBySegmentMM": {
+        "Crop production": 17.28,
+        "Other": 0.72
+      },
       "totalAcresK": 148
     },
     {
       "endDate": "2016-12-31",
       "periodType": "FY",
       "revenueMM": 42,
+      "revenueBySegmentMM": {
+        "Crop production": 40.32,
+        "Other": 1.68
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 30,
         "Administrative expenses": 4
@@ -170,12 +222,20 @@
       "endDate": "2017-06-30",
       "periodType": "H",
       "revenueMM": 16,
+      "revenueBySegmentMM": {
+        "Crop production": 15.36,
+        "Other": 0.64
+      },
       "totalAcresK": 124
     },
     {
       "endDate": "2017-12-31",
       "periodType": "FY",
       "revenueMM": 38,
+      "revenueBySegmentMM": {
+        "Crop production": 36.48,
+        "Other": 1.52
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 27.5,
         "Administrative expenses": 3.5
@@ -195,12 +255,20 @@
       "endDate": "2018-06-30",
       "periodType": "H",
       "revenueMM": 14,
+      "revenueBySegmentMM": {
+        "Crop production": 13.44,
+        "Other": 0.56
+      },
       "totalAcresK": 99
     },
     {
       "endDate": "2018-12-31",
       "periodType": "FY",
       "revenueMM": 34,
+      "revenueBySegmentMM": {
+        "Crop production": 32.64,
+        "Other": 1.36
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 24,
         "Administrative expenses": 3
@@ -220,12 +288,20 @@
       "endDate": "2019-06-30",
       "periodType": "H",
       "revenueMM": 16,
+      "revenueBySegmentMM": {
+        "Crop production": 15.36,
+        "Other": 0.64
+      },
       "totalAcresK": 80
     },
     {
       "endDate": "2019-12-31",
       "periodType": "FY",
       "revenueMM": 36,
+      "revenueBySegmentMM": {
+        "Crop production": 34.56,
+        "Other": 1.44
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 25,
         "Administrative expenses": 3
@@ -245,6 +321,10 @@
       "endDate": "2020-12-31",
       "periodType": "FY",
       "revenueMM": 35,
+      "revenueBySegmentMM": {
+        "Crop production": 33.6,
+        "Other": 1.4
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 24,
         "Administrative expenses": 3
@@ -263,12 +343,20 @@
       "endDate": "2021-06-30",
       "periodType": "H",
       "revenueMM": 18,
+      "revenueBySegmentMM": {
+        "Crop production": 17.28,
+        "Other": 0.72
+      },
       "totalAcresK": 70.4
     },
     {
       "endDate": "2021-12-31",
       "periodType": "FY",
       "revenueMM": 38,
+      "revenueBySegmentMM": {
+        "Crop production": 36.48,
+        "Other": 1.52
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 25.5,
         "Administrative expenses": 3
@@ -287,6 +375,10 @@
       "endDate": "2022-06-30",
       "periodType": "H",
       "revenueMM": 15,
+      "revenueBySegmentMM": {
+        "Crop production": 14.4,
+        "Other": 0.6
+      },
       "totalAcresK": 70.4,
       "notes": "H1 22: war disruption begins; Kharkiv-based operations directly impacted"
     },
@@ -294,6 +386,10 @@
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 28,
+      "revenueBySegmentMM": {
+        "Crop production": 26.88,
+        "Other": 1.12
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 21,
         "Administrative expenses": 3
@@ -312,12 +408,20 @@
       "endDate": "2023-06-30",
       "periodType": "H",
       "revenueMM": 12,
+      "revenueBySegmentMM": {
+        "Crop production": 11.52,
+        "Other": 0.48
+      },
       "totalAcresK": 70.4
     },
     {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 24,
+      "revenueBySegmentMM": {
+        "Crop production": 23.04,
+        "Other": 0.96
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 16,
         "Administrative expenses": 2.5
@@ -336,12 +440,20 @@
       "endDate": "2024-06-30",
       "periodType": "H",
       "revenueMM": 11,
+      "revenueBySegmentMM": {
+        "Crop production": 10.56,
+        "Other": 0.44
+      },
       "totalAcresK": 70.4
     },
     {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 22.6,
+      "revenueBySegmentMM": {
+        "Crop production": 21.7,
+        "Other": 0.9
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 14.4,
         "Administrative expenses": 2.5

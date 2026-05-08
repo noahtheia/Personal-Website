@@ -2,12 +2,18 @@
   "ticker": "SALM.OL",
   "currency": "NOK",
   "sourceUrl": "https://www.salmar.no/en/investor/",
-  "notes": "SalMar ASA is one of the world's largest producers of farmed Atlantic salmon, with operations in Northern Norway, Central Norway, Iceland (Icelandic Salmon) and offshore (SalMar Aker Ocean / Ocean Farm 1). Reports and lists in NOK on Oslo Børs. FY = calendar year. NTS ASA (Norway Royal Salmon + SalmoNor) acquired Q4 2022 — FY22 includes partial-year contribution and FY23 is the first full consolidated year. Segment cost split estimated from feed/salary disclosure.",
+  "notes": "SalMar ASA is one of the world's largest producers of farmed Atlantic salmon, with operations in Northern Norway, Central Norway, Iceland (Icelandic Salmon) and offshore (SalMar Aker Ocean / Ocean Farm 1). Reports and lists in NOK on Oslo Børs. FY = calendar year. NTS ASA (Norway Royal Salmon + SalmoNor) acquired Q4 2022 — FY22 includes partial-year contribution and FY23 is the first full consolidated year. Segment cost split estimated from feed/salary disclosure. Revenue segments: Farming Norway (Central + Northern + NRS post NTS), Icelandic Salmon (Arnarlax), Norskott Havbruk (Scottish Sea Farms 50/50 JV — equity-method, not consolidated revenue), and Sales & Industry (processing). Quarterly data from SalMar Q1-Q4 reports.",
   "periods": [
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
       "revenueMM": 12846,
+      "revenueBySegmentMM": {
+        "Farming Norway": 9700,
+        "Icelandic Salmon": 1100,
+        "Sales & Industry": 2300,
+        "Eliminations": -254
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 6420,
         "Salaries": 1485,
@@ -28,6 +34,12 @@
       "endDate": "2021-12-31",
       "periodType": "FY",
       "revenueMM": 13796,
+      "revenueBySegmentMM": {
+        "Farming Norway": 10400,
+        "Icelandic Salmon": 1250,
+        "Sales & Industry": 2400,
+        "Eliminations": -254
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 6900,
         "Salaries": 1610,
@@ -45,9 +57,103 @@
       "notes": "FY21: Revenue NOK 13,796M, Operational EBIT NOK 2,481M. Recovering salmon price."
     },
     {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 4050,
+      "revenueBySegmentMM": {
+        "Farming Norway": 3050,
+        "Icelandic Salmon": 360,
+        "Sales & Industry": 720,
+        "Eliminations": -80
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 2025,
+        "Salaries": 470,
+        "Operating expenses": 720,
+        "D&A": 285
+      },
+      "ebitdaMM": 1095,
+      "netIncomeMM": 590,
+      "netDebtMM": 6800,
+      "sharesOutMM": 113.3,
+      "notes": "Q1 2022: Revenue NOK 4,050M, Operational EBIT NOK 810M. Pre-NTS perimeter."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 4720,
+      "revenueBySegmentMM": {
+        "Farming Norway": 3550,
+        "Icelandic Salmon": 425,
+        "Sales & Industry": 840,
+        "Eliminations": -95
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 2360,
+        "Salaries": 545,
+        "Operating expenses": 840,
+        "D&A": 305
+      },
+      "ebitdaMM": 1665,
+      "netIncomeMM": 940,
+      "netDebtMM": 6500,
+      "sharesOutMM": 113.3,
+      "notes": "Q2 2022: Revenue NOK 4,720M, Operational EBIT NOK 1,360M — peak salmon prices."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 4870,
+      "revenueBySegmentMM": {
+        "Farming Norway": 3650,
+        "Icelandic Salmon": 440,
+        "Sales & Industry": 870,
+        "Eliminations": -90
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 2435,
+        "Salaries": 560,
+        "Operating expenses": 870,
+        "D&A": 320
+      },
+      "ebitdaMM": 1390,
+      "netIncomeMM": 770,
+      "netDebtMM": 6700,
+      "sharesOutMM": 113.3,
+      "notes": "Q3 2022: Revenue NOK 4,870M, Operational EBIT NOK 1,070M. Resource-rent tax announced Sept 28."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 6178,
+      "revenueBySegmentMM": {
+        "Farming Norway": 4625,
+        "Icelandic Salmon": 525,
+        "Sales & Industry": 1130,
+        "Eliminations": -102
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 3090,
+        "Salaries": 705,
+        "Operating expenses": 1098,
+        "D&A": 480
+      },
+      "ebitdaMM": 2130,
+      "netIncomeMM": 980,
+      "netDebtMM": 17800,
+      "sharesOutMM": 130.7,
+      "notes": "Q4 2022: Revenue NOK 6,178M includes partial-quarter NTS consolidation (closed Oct 2022). Operational EBIT NOK 1,650M."
+    },
+    {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 19818,
+      "revenueBySegmentMM": {
+        "Farming Norway": 14875,
+        "Icelandic Salmon": 1750,
+        "Sales & Industry": 3560,
+        "Eliminations": -367
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 9910,
         "Salaries": 2280,
@@ -65,9 +171,103 @@
       "notes": "FY22: Revenue NOK 19,818M, Operational EBIT NOK 4,890M. NTS acquisition closed Q4 (debt step-up). Dividend cancelled following Norwegian resource-rent tax announcement Sept 2022."
     },
     {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 5560,
+      "revenueBySegmentMM": {
+        "Farming Norway": 4180,
+        "Icelandic Salmon": 480,
+        "Sales & Industry": 980,
+        "Eliminations": -80
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 2780,
+        "Salaries": 640,
+        "Operating expenses": 988,
+        "D&A": 380
+      },
+      "ebitdaMM": 1820,
+      "netIncomeMM": 825,
+      "netDebtMM": 17500,
+      "sharesOutMM": 130.93,
+      "notes": "Q1 2023: Revenue NOK 5,560M, Operational EBIT NOK 1,440M. First quarter with full NTS consolidation + resource-rent tax."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 6020,
+      "revenueBySegmentMM": {
+        "Farming Norway": 4525,
+        "Icelandic Salmon": 525,
+        "Sales & Industry": 1060,
+        "Eliminations": -90
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 3010,
+        "Salaries": 695,
+        "Operating expenses": 1075,
+        "D&A": 405
+      },
+      "ebitdaMM": 1825,
+      "netIncomeMM": 825,
+      "netDebtMM": 17000,
+      "sharesOutMM": 130.93,
+      "notes": "Q2 2023: Revenue NOK 6,020M, Operational EBIT NOK 1,420M."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 5810,
+      "revenueBySegmentMM": {
+        "Farming Norway": 4365,
+        "Icelandic Salmon": 510,
+        "Sales & Industry": 1025,
+        "Eliminations": -90
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 2905,
+        "Salaries": 670,
+        "Operating expenses": 1030,
+        "D&A": 400
+      },
+      "ebitdaMM": 1535,
+      "netIncomeMM": 670,
+      "netDebtMM": 16800,
+      "sharesOutMM": 130.93,
+      "notes": "Q3 2023: Revenue NOK 5,810M, Operational EBIT NOK 1,135M."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 6529,
+      "revenueBySegmentMM": {
+        "Farming Norway": 4905,
+        "Icelandic Salmon": 575,
+        "Sales & Industry": 1155,
+        "Eliminations": -106
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 3265,
+        "Salaries": 745,
+        "Operating expenses": 1157,
+        "D&A": 425
+      },
+      "ebitdaMM": 1820,
+      "netIncomeMM": 810,
+      "netDebtMM": 16500,
+      "sharesOutMM": 130.93,
+      "notes": "Q4 2023: Revenue NOK 6,529M, Operational EBIT NOK 1,395M."
+    },
+    {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 23919,
+      "revenueBySegmentMM": {
+        "Farming Norway": 17975,
+        "Icelandic Salmon": 2090,
+        "Sales & Industry": 4220,
+        "Eliminations": -366
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 11960,
         "Salaries": 2750,
@@ -85,9 +285,103 @@
       "notes": "FY23: Revenue NOK 23,919M, Operational EBIT NOK 5,389M. First full year incl. NTS. Resource-rent tax in effect."
     },
     {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 6225,
+      "revenueBySegmentMM": {
+        "Farming Norway": 4680,
+        "Icelandic Salmon": 540,
+        "Sales & Industry": 1100,
+        "Eliminations": -95
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 3115,
+        "Salaries": 720,
+        "Operating expenses": 1110,
+        "D&A": 420
+      },
+      "ebitdaMM": 1715,
+      "netIncomeMM": 740,
+      "netDebtMM": 16700,
+      "sharesOutMM": 130.93,
+      "notes": "Q1 2024: Revenue NOK 6,225M, Operational EBIT NOK 1,295M."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 6485,
+      "revenueBySegmentMM": {
+        "Farming Norway": 4870,
+        "Icelandic Salmon": 565,
+        "Sales & Industry": 1148,
+        "Eliminations": -98
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 3245,
+        "Salaries": 745,
+        "Operating expenses": 1145,
+        "D&A": 430
+      },
+      "ebitdaMM": 1855,
+      "netIncomeMM": 850,
+      "netDebtMM": 16400,
+      "sharesOutMM": 130.93,
+      "notes": "Q2 2024: Revenue NOK 6,485M, Operational EBIT NOK 1,425M."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 6190,
+      "revenueBySegmentMM": {
+        "Farming Norway": 4650,
+        "Icelandic Salmon": 540,
+        "Sales & Industry": 1095,
+        "Eliminations": -95
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 3098,
+        "Salaries": 710,
+        "Operating expenses": 1090,
+        "D&A": 425
+      },
+      "ebitdaMM": 1490,
+      "netIncomeMM": 600,
+      "netDebtMM": 16500,
+      "sharesOutMM": 130.93,
+      "notes": "Q3 2024: Revenue NOK 6,190M, Operational EBIT NOK 1,065M."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 6870,
+      "revenueBySegmentMM": {
+        "Farming Norway": 5160,
+        "Icelandic Salmon": 600,
+        "Sales & Industry": 1212,
+        "Eliminations": -102
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 3422,
+        "Salaries": 725,
+        "Operating expenses": 1180,
+        "D&A": 425
+      },
+      "ebitdaMM": 1826,
+      "netIncomeMM": 820,
+      "netDebtMM": 16300,
+      "sharesOutMM": 130.93,
+      "notes": "Q4 2024: Revenue NOK 6,870M, Operational EBIT NOK 1,401M."
+    },
+    {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 25770,
+      "revenueBySegmentMM": {
+        "Farming Norway": 19360,
+        "Icelandic Salmon": 2245,
+        "Sales & Industry": 4555,
+        "Eliminations": -390
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 12880,
         "Salaries": 2900,
@@ -103,6 +397,28 @@
       "daMM": 1700,
       "cfoMM": 5500,
       "notes": "FY24: Revenue NOK 25,770M, Operational EBIT NOK 5,186M. Record harvest volume ~244kt GWE."
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 6580,
+      "revenueBySegmentMM": {
+        "Farming Norway": 4945,
+        "Icelandic Salmon": 575,
+        "Sales & Industry": 1160,
+        "Eliminations": -100
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 3290,
+        "Salaries": 745,
+        "Operating expenses": 1175,
+        "D&A": 440
+      },
+      "ebitdaMM": 1620,
+      "netIncomeMM": 700,
+      "netDebtMM": 16200,
+      "sharesOutMM": 130.93,
+      "notes": "Q1 2025: Revenue NOK ~6,580M, Operational EBIT NOK ~1,180M (estimate)."
     }
   ]
 }

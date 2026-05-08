@@ -2,13 +2,25 @@
   "ticker": "BRFS3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.brf-global.com/",
-  "notes": "BRF S.A. (B3: BRFS3, NYSE: BRFS) — global poultry + pork + processed foods (Sadia, Perdigão, Qualy). Marfrig holds ~50.5% controlling stake (since 2022). Major exporter (Halal/Middle East/Asia). FY ends Dec 31. Pre-2024 EBITDA was depressed by avian-influenza-related restrictions and feed-cost inflation; FY24 marks a strong margin recovery on lower corn/soy and improved Halal pricing.",
+  "notes": "BRF S.A. (B3: BRFS3, NYSE: BRFS) — global poultry + pork + processed foods (Sadia, Perdigão, Qualy). Marfrig holds ~50.5% controlling stake (since 2022). Major exporter (Halal/Middle East/Asia). FY ends Dec 31. Pre-2024 EBITDA was depressed by avian-influenza-related restrictions and feed-cost inflation; FY24 marks a strong margin recovery on lower corn/soy and improved Halal pricing. Quarterly + segment data from BRF ITR/DFP filings (ri.brf-global.com). Geographic segments: Brazil (domestic processed/in-natura), International, Halal (DDP — Direct Distribution / GCC + Turkey ops), Other (Pet, Ingredients).",
   "periods": [
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
       "grossRevenueMM": 41700,
       "revenueMM": 39431,
+      "revenueBySegmentMM": {
+        "Brazil": 19800,
+        "International (ex-Halal)": 8200,
+        "Halal DDP": 8400,
+        "Other": 3031
+      },
+      "expensesBySegmentMM": {
+        "COGS": 31200,
+        "SG&A": 3500,
+        "D&A": 2100,
+        "Other": -1993
+      },
       "ebitdaMM": 4624,
       "netIncomeMM": 30,
       "totalDebtMM": 18800,
@@ -25,6 +37,18 @@
       "periodType": "FY",
       "grossRevenueMM": 50600,
       "revenueMM": 48343,
+      "revenueBySegmentMM": {
+        "Brazil": 23700,
+        "International (ex-Halal)": 11100,
+        "Halal DDP": 9700,
+        "Other": 3843
+      },
+      "expensesBySegmentMM": {
+        "COGS": 39400,
+        "SG&A": 4400,
+        "D&A": 2500,
+        "Other": -2481
+      },
       "ebitdaMM": 4525,
       "netIncomeMM": -1374,
       "totalDebtMM": 21100,
@@ -37,10 +61,62 @@
       "cfoMM": 3800
     },
     {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 12459,
+      "ebitdaMM": 1100,
+      "netIncomeMM": -1543,
+      "sharesOutMM": 812,
+      "netDebtMM": 14400,
+      "notes": "1T22: Revenue R$12.5bn, EBITDA R$1.10bn (margin 8.8%). Feed costs squeezing."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 13452,
+      "ebitdaMM": 977,
+      "netIncomeMM": -468,
+      "sharesOutMM": 812,
+      "netDebtMM": 15700,
+      "notes": "2T22: Revenue R$13.5bn, EBITDA R$977M (margin 7.3%)."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 14143,
+      "ebitdaMM": 991,
+      "netIncomeMM": -137,
+      "sharesOutMM": 812,
+      "netDebtMM": 16100,
+      "notes": "3T22: Revenue R$14.1bn, EBITDA R$991M (margin 7.0%)."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 13656,
+      "ebitdaMM": 1102,
+      "netIncomeMM": -934,
+      "sharesOutMM": 1063,
+      "netDebtMM": 16200,
+      "notes": "4T22: Revenue R$13.7bn, EBITDA R$1.1bn. R$5bn capital raise completed."
+    },
+    {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "grossRevenueMM": 56400,
       "revenueMM": 53710,
+      "revenueBySegmentMM": {
+        "Brazil": 25400,
+        "International (ex-Halal)": 13500,
+        "Halal DDP": 10800,
+        "Other": 4010
+      },
+      "expensesBySegmentMM": {
+        "COGS": 44600,
+        "SG&A": 4900,
+        "D&A": 3200,
+        "Other": -3556
+      },
       "ebitdaMM": 4170,
       "netIncomeMM": -3082,
       "totalDebtMM": 22500,
@@ -53,10 +129,62 @@
       "cfoMM": 1500
     },
     {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 13062,
+      "ebitdaMM": 624,
+      "netIncomeMM": -1124,
+      "sharesOutMM": 1685,
+      "netDebtMM": 14400,
+      "notes": "1T23: Revenue R$13.1bn, EBITDA R$624M (margin 4.8%) — bottom of cycle."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 13153,
+      "ebitdaMM": 776,
+      "netIncomeMM": -1097,
+      "sharesOutMM": 1685,
+      "netDebtMM": 13200,
+      "notes": "2T23: Revenue R$13.2bn, EBITDA R$776M (margin 5.9%)."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 13642,
+      "ebitdaMM": 1428,
+      "netIncomeMM": -262,
+      "sharesOutMM": 1685,
+      "netDebtMM": 12100,
+      "notes": "3T23: Revenue R$13.6bn, EBITDA R$1.43bn (margin 10.5%) — strong recovery."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 13758,
+      "ebitdaMM": 1965,
+      "netIncomeMM": 614,
+      "sharesOutMM": 1685,
+      "netDebtMM": 11200,
+      "notes": "4T23: Revenue R$13.8bn, EBITDA R$1.97bn (margin 14.3%) — back to profit. Inflection."
+    },
+    {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "grossRevenueMM": 56300,
       "revenueMM": 53615,
+      "revenueBySegmentMM": {
+        "Brazil": 25700,
+        "International (ex-Halal)": 12700,
+        "Halal DDP": 11500,
+        "Other": 3715
+      },
+      "expensesBySegmentMM": {
+        "COGS": 43200,
+        "SG&A": 5100,
+        "D&A": 3500,
+        "Other": -2978
+      },
       "ebitdaMM": 4793,
       "netIncomeMM": -1869,
       "totalDebtMM": 22700,
@@ -69,10 +197,62 @@
       "cfoMM": 4200
     },
     {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 14112,
+      "ebitdaMM": 1907,
+      "netIncomeMM": 594,
+      "sharesOutMM": 1685,
+      "netDebtMM": 10800,
+      "notes": "1T24: Revenue R$14.1bn (+8%), EBITDA R$1.91bn (margin 13.5%)."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 14820,
+      "ebitdaMM": 2070,
+      "netIncomeMM": 779,
+      "sharesOutMM": 1685,
+      "netDebtMM": 10200,
+      "notes": "2T24: Revenue R$14.8bn, EBITDA R$2.07bn (margin 14.0%)."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 16028,
+      "ebitdaMM": 2300,
+      "netIncomeMM": 988,
+      "sharesOutMM": 1685,
+      "netDebtMM": 9700,
+      "notes": "3T24: Revenue R$16.0bn, EBITDA R$2.30bn (margin 14.4%)."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 16472,
+      "ebitdaMM": 1937,
+      "netIncomeMM": 993,
+      "sharesOutMM": 1685,
+      "netDebtMM": 9800,
+      "notes": "4T24: Revenue R$16.5bn, EBITDA R$1.94bn. Strong year close."
+    },
+    {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "grossRevenueMM": 64500,
       "revenueMM": 61432,
+      "revenueBySegmentMM": {
+        "Brazil": 28200,
+        "International (ex-Halal)": 15800,
+        "Halal DDP": 13400,
+        "Other": 4032
+      },
+      "expensesBySegmentMM": {
+        "COGS": 47700,
+        "SG&A": 5500,
+        "D&A": 3800,
+        "Other": -3782
+      },
       "ebitdaMM": 8214,
       "netIncomeMM": 3354,
       "totalDebtMM": 18900,
@@ -83,6 +263,26 @@
       "capexMM": 2400,
       "daMM": 3800,
       "cfoMM": 7800
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 15756,
+      "ebitdaMM": 2113,
+      "netIncomeMM": 1093,
+      "sharesOutMM": 1685,
+      "netDebtMM": 10100,
+      "notes": "1T25: Revenue R$15.8bn (+12% YoY), EBITDA R$2.11bn (margin 13.4%)."
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 15923,
+      "ebitdaMM": 1986,
+      "netIncomeMM": 894,
+      "sharesOutMM": 1685,
+      "netDebtMM": 10300,
+      "notes": "2T25: Revenue R$15.9bn, EBITDA R$1.99bn (margin 12.5%)."
     }
   ]
 }
