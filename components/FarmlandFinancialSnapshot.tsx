@@ -68,7 +68,7 @@ const CHART_DEFS: { id: ChartId; label: string; description: string }[] = [
     id: "dividends",
     label: "Dividends",
     description:
-      "Dividend per share each fiscal year, with running yield on right axis (DPS ÷ year-end share price).",
+      "DPS, EPS, and FCF/share by fiscal year — coverage at a glance. Right axis: trailing dividend yield.",
   },
 ];
 
@@ -1170,7 +1170,7 @@ function buildAllSeries(
     if (dpsRows.length > 0) {
       const divSeries: Series = {
         label: "Dividend / share",
-        description: `DPS in ${ccy} per fiscal year`,
+        description: `DPS, EPS, and FCF / share — coverage view, ${ccy}`,
         unit: { kind: "currency", ccy },
         kind: "step",
         points: dpsRows.map((p) => ({
@@ -1179,13 +1179,54 @@ function buildAllSeries(
         })),
       };
 
-      // Compute trailing yield at each FY end using year-end close
-      // (when price history exists in the issuer's listing currency
-      // and the conversion to filing currency is straightforward).
+      // EPS overlay for payout-ratio context. Shows whether earnings
+      // cover the dividend.
+      const fyForCoverage = financials.periods
+        .filter((p) => p.periodType === "FY")
+        .sort((a, b) => a.endDate.localeCompare(b.endDate));
+      const epsPoints: DatedPoint[] = [];
+      for (const p of fyForCoverage) {
+        const eps =
+          typeof p.epsBasic === "number"
+            ? p.epsBasic
+            : typeof p.epsDiluted === "number"
+            ? p.epsDiluted
+            : typeof p.netIncomeMM === "number" &&
+              typeof p.sharesOutMM === "number" &&
+              p.sharesOutMM > 0
+            ? p.netIncomeMM / p.sharesOutMM
+            : null;
+        if (eps !== null) {
+          epsPoints.push({ date: p.endDate, value: eps });
+        }
+      }
+      if (epsPoints.length > 0) {
+        divSeries.overlay = { label: "EPS", points: epsPoints };
+      }
+
+      // FCF / share overlay (same axis, per-share basis).
+      const fcfPerSharePts: DatedPoint[] = [];
+      for (const p of fyForCoverage) {
+        if (
+          typeof p.cfoMM === "number" &&
+          typeof p.capexMM === "number" &&
+          typeof p.sharesOutMM === "number" &&
+          p.sharesOutMM > 0
+        ) {
+          const fcf = p.cfoMM - p.capexMM;
+          fcfPerSharePts.push({
+            date: p.endDate,
+            value: fcf / p.sharesOutMM,
+          });
+        }
+      }
+      if (fcfPerSharePts.length > 0) {
+        divSeries.overlay2 = { label: "FCF / share", points: fcfPerSharePts };
+      }
+
+      // Trailing dividend yield on the right axis (DPS ÷ year-end
+      // close). Same logic as before — just the secondary axis.
       if (history && history.points.length > 0) {
-        // Map history to filing currency where they differ. For
-        // simplicity assume listing == filing here; price-currency
-        // mismatches (GBp / DKK) are uncommon among dividend payers.
         const yieldPoints: DatedPoint[] = [];
         for (const p of dpsRows) {
           const priceAt = findValueAtOrBeforeDated(

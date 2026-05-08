@@ -94,6 +94,13 @@
         "Infrastructure & Trading": 1380,
         "Farming": 227
       },
+      "revenueByGeographyMM": {
+        "Europe": 1200,
+        "Asia": 950,
+        "MENA": 680,
+        "Africa": 400,
+        "Other": 227
+      },
       "expensesBySegmentMM": {
         "COGS": 2750,
         "SG&A": 200,
@@ -120,6 +127,13 @@
         "Oilseed Processing": 1720,
         "Infrastructure & Trading": 1500,
         "Farming": 283
+      },
+      "revenueByGeographyMM": {
+        "Europe": 1250,
+        "Asia": 950,
+        "MENA": 680,
+        "Africa": 380,
+        "Other": 243
       },
       "expensesBySegmentMM": {
         "COGS": 2700,
@@ -198,6 +212,13 @@
         "Infrastructure & Trading": 1820,
         "Farming": 310
       },
+      "revenueByGeographyMM": {
+        "Europe": 1500,
+        "Asia": 1100,
+        "MENA": 800,
+        "Africa": 480,
+        "Other": 300
+      },
       "expensesBySegmentMM": {
         "COGS": 3320,
         "SG&A": 240,
@@ -214,7 +235,15 @@
       "notes": "FY25 (yr-end Jun 2025): revenue $4.18B, EBITDA $590M. Continued normalization.",
       "capexMM": 100,
       "daMM": 110,
-      "cfoMM": 420
+      "cfoMM": 420,
+      "interestExpenseMM": 65,
+      "weightedAvgDebtRate": 7.0,
+      "debtMaturityProfileMM": {
+        "<1y": 540,
+        "1-3y": 280,
+        "3-5y": 90,
+        "5+y": 40
+      }
     }
   ]
 }

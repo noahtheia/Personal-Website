@@ -120,6 +120,13 @@
         "Australia": 19100,
         "Other": 13051
       },
+      "revenueByGeographyMM": {
+        "United States": 230000,
+        "Brazil": 78000,
+        "Australia": 19100,
+        "Europe": 20500,
+        "Other": 27251
+      },
       "expensesBySegmentMM": {
         "COGS": 320500,
         "SG&A": 18000,
@@ -190,6 +197,13 @@
         "Seara": 37500,
         "Australia": 24200,
         "Other": 15917
+      },
+      "revenueByGeographyMM": {
+        "United States": 215000,
+        "Brazil": 80000,
+        "Australia": 24200,
+        "Europe": 19500,
+        "Other": 25117
       },
       "expensesBySegmentMM": {
         "COGS": 322000,
@@ -262,6 +276,13 @@
         "Australia": 23600,
         "Other": 12195
       },
+      "revenueByGeographyMM": {
+        "United States": 245000,
+        "Brazil": 95000,
+        "Australia": 23600,
+        "Europe": 22000,
+        "Other": 30495
+      },
       "expensesBySegmentMM": {
         "COGS": 363000,
         "SG&A": 22500,
@@ -277,7 +298,15 @@
       "notes": "FY24: Recovery. Revenue R$416.1bn (+14%), EBITDA R$30.2bn (margin 7.3%), NI R$6.77bn. Leverage 2.2x. Dividend R$2.3bn.",
       "capexMM": 7500,
       "daMM": 12500,
-      "cfoMM": 26000
+      "cfoMM": 26000,
+      "interestExpenseMM": 8500,
+      "weightedAvgDebtRate": 6.4,
+      "debtMaturityProfileMM": {
+        "<1y": 11500,
+        "1-3y": 18500,
+        "3-5y": 19000,
+        "5+y": 46400
+      }
     },
     {
       "endDate": "2025-03-31",

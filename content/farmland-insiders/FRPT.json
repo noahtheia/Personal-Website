@@ -1,0 +1,67 @@
+{
+  "ticker": "FRPT",
+  "cik": 1304161,
+  "asOf": "2026-05-08",
+  "transactions": [
+    {
+      "date": "2026-01-10",
+      "insider": "MICHEL KIRK WHEELER",
+      "title": "Chairman",
+      "type": "Option grant",
+      "code": "A",
+      "shares": 20000.0,
+      "direction": "acquired",
+      "pricePerShare": 0.0,
+      "valueUSD": 0.0,
+      "remainingShares": 20000.0,
+      "filingUrl": "https://www.sec.gov/Archives/edgar/data/1304161/000165495426000353/0001654954-26-000353-index.htm"
+    },
+    {
+      "date": "2026-01-10",
+      "insider": "Perlysky Dov",
+      "title": "Director",
+      "type": "Option grant",
+      "code": "A",
+      "shares": 20000.0,
+      "direction": "acquired",
+      "pricePerShare": 0.0,
+      "valueUSD": 0.0,
+      "remainingShares": 20000.0,
+      "filingUrl": "https://www.sec.gov/Archives/edgar/data/1304161/000165495426000352/0001654954-26-000352-index.htm"
+    },
+    {
+      "date": "2026-01-10",
+      "insider": "SPINDEL HOWARD",
+      "title": "Director",
+      "type": "Option grant",
+      "code": "A",
+      "shares": 20000.0,
+      "direction": "acquired",
+      "pricePerShare": 0.0,
+      "valueUSD": 0.0,
+      "remainingShares": 20000.0,
+      "filingUrl": "https://www.sec.gov/Archives/edgar/data/1304161/000165495426000349/0001654954-26-000349-index.htm"
+    },
+    {
+      "date": "2026-01-10",
+      "insider": "WIESEN IRVING L",
+      "title": "Director",
+      "type": "Option grant",
+      "code": "A",
+      "shares": 20000.0,
+      "direction": "acquired",
+      "pricePerShare": 0.0,
+      "valueUSD": 0.0,
+      "remainingShares": 20000.0,
+      "filingUrl": "https://www.sec.gov/Archives/edgar/data/1304161/000165495426000347/0001654954-26-000347-index.htm"
+    }
+  ],
+  "summary": {
+    "ttmBuyValueUSD": 0.0,
+    "ttmSellValueUSD": 0.0,
+    "ttmNetUSD": 0.0,
+    "ttmInsiders": 4,
+    "lastTransactionDate": "2026-01-10",
+    "transactionCount": 4
+  }
+}

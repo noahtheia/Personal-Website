@@ -81,6 +81,11 @@
         "Hog production": 2050,
         "Other (poultry, packaged meats other)": 1286
       },
+      "revenueByGeographyMM": {
+        "United States": 15500,
+        "China": 9700,
+        "Europe": 2936
+      },
       "expensesBySegmentMM": {
         "COGS": 23000,
         "SG&A": 2300,
@@ -114,6 +119,11 @@
         "Pork (fresh + processed)": 23200,
         "Hog production": 1750,
         "Other (poultry, packaged meats other)": 1286
+      },
+      "revenueByGeographyMM": {
+        "United States": 14200,
+        "China": 9100,
+        "Europe": 2936
       },
       "expensesBySegmentMM": {
         "COGS": 22200,
@@ -149,6 +159,11 @@
         "Hog production": 1700,
         "Other (poultry, packaged meats other)": 1228
       },
+      "revenueByGeographyMM": {
+        "United States": 14500,
+        "China": 8800,
+        "Europe": 2928
+      },
       "expensesBySegmentMM": {
         "COGS": 21000,
         "SG&A": 2400,
@@ -164,7 +179,15 @@
       "notes": "FY24: Strong recovery in US fresh pork (margins normalized), record packaged meats profit. Revenue $26.2bn (flat), EBITDA $3.20bn (margin 12.2%), NI $1.48bn (+136% YoY). Leverage <0.6x. Smithfield IPO completed Jan 2025.",
       "capexMM": 850,
       "daMM": 940,
-      "cfoMM": 2500
+      "cfoMM": 2500,
+      "interestExpenseMM": 195,
+      "weightedAvgDebtRate": 5.1,
+      "debtMaturityProfileMM": {
+        "<1y": 1100,
+        "1-3y": 1200,
+        "3-5y": 700,
+        "5+y": 850
+      }
     },
     {
       "endDate": "2025-06-30",

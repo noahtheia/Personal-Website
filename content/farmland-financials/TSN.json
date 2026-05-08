@@ -24,7 +24,14 @@
       "notes": "FY20: revenue $43.2B, operating income $3.05B. Pandemic disruption to plant operations. 53-week year.",
       "capexMM": 1199.0,
       "daMM": 1178.0,
-      "cfoMM": 3874.0
+      "cfoMM": 3874.0,
+      "revenueBySegmentMM": {
+        "Beef": 15742,
+        "Pork": 5128,
+        "Chicken": 13234,
+        "Prepared Foods": 8532,
+        "International/Other": 1856
+      }
     },
     {
       "endDate": "2021-10-02",
@@ -46,7 +53,14 @@
       "notes": "FY21: revenue $47.0B (+9%). Beef margins record-high (15.6%). Op income $4.4B.",
       "capexMM": 1209.0,
       "daMM": 1195.0,
-      "cfoMM": 3840.0
+      "cfoMM": 3840.0,
+      "revenueBySegmentMM": {
+        "Beef": 17999,
+        "Pork": 6277,
+        "Chicken": 13733,
+        "Prepared Foods": 8853,
+        "International/Other": 1990
+      }
     },
     {
       "endDate": "2022-01-01",
@@ -64,7 +78,14 @@
       "daMM": 300.0,
       "totalDebtMM": 8274.0,
       "cashMM": 2956.0,
-      "netDebtMM": 5318.0
+      "netDebtMM": 5318.0,
+      "revenueBySegmentMM": {
+        "Beef": 5002,
+        "Pork": 1626,
+        "Chicken": 3890,
+        "Prepared Foods": 2333,
+        "International/Other": 550
+      }
     },
     {
       "endDate": "2022-04-02",
@@ -82,7 +103,14 @@
       "daMM": 295.0,
       "totalDebtMM": 8270.0,
       "cashMM": 1151.0,
-      "netDebtMM": 7119.0
+      "netDebtMM": 7119.0,
+      "revenueBySegmentMM": {
+        "Beef": 5034,
+        "Pork": 1565,
+        "Chicken": 4086,
+        "Prepared Foods": 2393,
+        "International/Other": 565
+      }
     },
     {
       "endDate": "2022-07-02",
@@ -100,7 +128,14 @@
       "daMM": 297.0,
       "totalDebtMM": 8261.0,
       "cashMM": 1056.0,
-      "netDebtMM": 7205.0
+      "netDebtMM": 7205.0,
+      "revenueBySegmentMM": {
+        "Beef": 4959,
+        "Pork": 1619,
+        "Chicken": 4366,
+        "Prepared Foods": 2447,
+        "International/Other": 602
+      }
     },
     {
       "endDate": "2022-10-01",
@@ -122,7 +157,14 @@
       "notes": "FY22: revenue $53.3B (+13%). Beef profits normalized; chicken still negative spread.",
       "capexMM": 1887.0,
       "daMM": 1191.0,
-      "cfoMM": 2687.0
+      "cfoMM": 2687.0,
+      "revenueBySegmentMM": {
+        "Beef": 19854,
+        "Pork": 6414,
+        "Chicken": 16961,
+        "Prepared Foods": 9689,
+        "International/Other": 2355
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -140,7 +182,14 @@
       "daMM": 303.0,
       "totalDebtMM": 7859.0,
       "cashMM": 654.0,
-      "netDebtMM": 7205.0
+      "netDebtMM": 7205.0,
+      "revenueBySegmentMM": {
+        "Beef": 4723,
+        "Pork": 1529,
+        "Chicken": 4263,
+        "Prepared Foods": 2538,
+        "International/Other": 612
+      }
     },
     {
       "endDate": "2023-04-01",
@@ -158,7 +207,14 @@
       "daMM": 317.0,
       "totalDebtMM": 7865.0,
       "cashMM": 543.0,
-      "netDebtMM": 7322.0
+      "netDebtMM": 7322.0,
+      "revenueBySegmentMM": {
+        "Beef": 4617,
+        "Pork": 1421,
+        "Chicken": 4430,
+        "Prepared Foods": 2422,
+        "International/Other": 634
+      }
     },
     {
       "endDate": "2023-07-01",
@@ -176,7 +232,14 @@
       "daMM": 323.0,
       "totalDebtMM": 8863.0,
       "cashMM": 699.0,
-      "netDebtMM": 8164.0
+      "netDebtMM": 8164.0,
+      "revenueBySegmentMM": {
+        "Beef": 4956,
+        "Pork": 1324,
+        "Chicken": 4212,
+        "Prepared Foods": 2383,
+        "International/Other": 633
+      }
     },
     {
       "endDate": "2023-09-30",
@@ -198,7 +261,14 @@
       "notes": "FY23: revenue $52.9B (-1%). Operating loss $-395M; impairments $781M. Chicken segment loss $-686M; beef -$278M. EBITDA collapsed.",
       "capexMM": 1939.0,
       "daMM": 1329.0,
-      "cfoMM": 1752.0
+      "cfoMM": 1752.0,
+      "revenueBySegmentMM": {
+        "Beef": 19325,
+        "Pork": 5768,
+        "Chicken": 17060,
+        "Prepared Foods": 9845,
+        "International/Other": 2515
+      }
     },
     {
       "endDate": "2023-12-30",
@@ -216,7 +286,14 @@
       "daMM": 373.0,
       "totalDebtMM": 8370.0,
       "cashMM": 1484.0,
-      "netDebtMM": 6886.0
+      "netDebtMM": 6886.0,
+      "revenueBySegmentMM": {
+        "Beef": 5023,
+        "Pork": 1517,
+        "Chicken": 4033,
+        "Prepared Foods": 2543,
+        "International/Other": 582
+      }
     },
     {
       "endDate": "2024-03-30",
@@ -234,7 +311,14 @@
       "daMM": 349.0,
       "totalDebtMM": 9645.0,
       "cashMM": 2182.0,
-      "netDebtMM": 7463.0
+      "netDebtMM": 7463.0,
+      "revenueBySegmentMM": {
+        "Beef": 4954,
+        "Pork": 1486,
+        "Chicken": 4065,
+        "Prepared Foods": 2404,
+        "International/Other": 580
+      }
     },
     {
       "endDate": "2024-06-29",
@@ -252,7 +336,14 @@
       "daMM": 360.0,
       "totalDebtMM": 9701.0,
       "cashMM": 2569.0,
-      "netDebtMM": 7132.0
+      "netDebtMM": 7132.0,
+      "revenueBySegmentMM": {
+        "Beef": 5241,
+        "Pork": 1462,
+        "Chicken": 4076,
+        "Prepared Foods": 2432,
+        "International/Other": 582
+      }
     },
     {
       "endDate": "2024-09-28",
@@ -274,7 +365,14 @@
       "notes": "FY24: revenue $53.3B (+0.8%). Adj operating income $1.83B (chicken recovery). Adj EBITDA ~$2.81B. Net debt ~$7.4B.",
       "capexMM": 1132.0,
       "daMM": 1388.0,
-      "cfoMM": 2590.0
+      "cfoMM": 2590.0,
+      "revenueBySegmentMM": {
+        "Beef": 20479,
+        "Pork": 5903,
+        "Chicken": 16425,
+        "Prepared Foods": 9851,
+        "International/Other": 2353
+      }
     },
     {
       "endDate": "2024-12-28",
@@ -292,7 +390,14 @@
       "daMM": 348.0,
       "totalDebtMM": 9711.0,
       "cashMM": 2292.0,
-      "netDebtMM": 7419.0
+      "netDebtMM": 7419.0,
+      "revenueBySegmentMM": {
+        "Beef": 5335,
+        "Pork": 1617,
+        "Chicken": 4065,
+        "Prepared Foods": 2473,
+        "International/Other": 584
+      }
     },
     {
       "endDate": "2025-03-29",
@@ -310,7 +415,14 @@
       "daMM": 285.0,
       "totalDebtMM": 8172.0,
       "cashMM": 992.0,
-      "netDebtMM": 7180.0
+      "netDebtMM": 7180.0,
+      "revenueBySegmentMM": {
+        "Beef": 5196,
+        "Pork": 1244,
+        "Chicken": 4141,
+        "Prepared Foods": 2396,
+        "International/Other": 566
+      }
     },
     {
       "endDate": "2025-06-28",
@@ -328,7 +440,14 @@
       "daMM": 329.0,
       "totalDebtMM": 8179.0,
       "cashMM": 1547.0,
-      "netDebtMM": 6632.0
+      "netDebtMM": 6632.0,
+      "revenueBySegmentMM": {
+        "Beef": 5603,
+        "Pork": 1506,
+        "Chicken": 4220,
+        "Prepared Foods": 2515,
+        "International/Other": 557
+      }
     },
     {
       "endDate": "2025-09-27",
@@ -346,7 +465,14 @@
       "daMM": 321.0,
       "totalDebtMM": 7921.0,
       "cashMM": 1229.0,
-      "netDebtMM": 6692.0
+      "netDebtMM": 6692.0,
+      "revenueBySegmentMM": {
+        "Beef": 5489,
+        "Pork": 1414,
+        "Chicken": 4411,
+        "Prepared Foods": 2546,
+        "International/Other": 584
+      }
     },
     {
       "endDate": "2025-12-27",
@@ -364,7 +490,14 @@
       "daMM": 376.0,
       "totalDebtMM": 7453.0,
       "cashMM": 1278.0,
-      "netDebtMM": 6175.0
+      "netDebtMM": 6175.0,
+      "revenueBySegmentMM": {
+        "Beef": 5771,
+        "Pork": 1609,
+        "Chicken": 4212,
+        "Prepared Foods": 2673,
+        "International/Other": 582
+      }
     },
     {
       "endDate": "2026-03-28",
@@ -382,7 +515,14 @@
       "daMM": 293.0,
       "totalDebtMM": 7942.0,
       "cashMM": 500.0,
-      "netDebtMM": 7442.0
+      "netDebtMM": 7442.0,
+      "revenueBySegmentMM": {
+        "Beef": 5205,
+        "Pork": 1579,
+        "Chicken": 4286,
+        "Prepared Foods": 2511,
+        "International/Other": 577
+      }
     }
   ]
 }

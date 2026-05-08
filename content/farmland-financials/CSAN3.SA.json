@@ -114,6 +114,12 @@
         "Moove": 6800,
         "Other": 3872
       },
+      "revenueByGeographyMM": {
+        "Brazil": 28500,
+        "Europe": 2300,
+        "North America": 1400,
+        "Other": 872
+      },
       "expensesBySegmentMM": {
         "COGS": 19500,
         "SG&A": 2800,
@@ -182,6 +188,12 @@
         "Rumo": 11500,
         "Moove": 8400,
         "Other": 4508
+      },
+      "revenueByGeographyMM": {
+        "Brazil": 33500,
+        "Europe": 2900,
+        "North America": 1700,
+        "Other": 1108
       },
       "expensesBySegmentMM": {
         "COGS": 22500,
@@ -252,6 +264,12 @@
         "Moove": 9100,
         "Other": 4357
       },
+      "revenueByGeographyMM": {
+        "Brazil": 35500,
+        "Europe": 3200,
+        "North America": 1800,
+        "Other": 1157
+      },
       "expensesBySegmentMM": {
         "COGS": 23800,
         "SG&A": 3500,
@@ -267,7 +285,15 @@
       "notes": "FY24: Revenue R$41.7bn (+6%), EBITDA R$12.8bn (margin 30.8%). Net loss ~R$4.5bn driven by mark-to-market on Vale collar + monetization losses (~R$7bn impact). Moove IPO pulled in 2024. Leverage at holdco elevated; deleveraging plan announced.",
       "capexMM": 12500,
       "daMM": 10500,
-      "cfoMM": 15800
+      "cfoMM": 15800,
+      "interestExpenseMM": 7800,
+      "weightedAvgDebtRate": 12.5,
+      "debtMaturityProfileMM": {
+        "<1y": 7500,
+        "1-3y": 14500,
+        "3-5y": 12500,
+        "5+y": 16900
+      }
     },
     {
       "endDate": "2025-03-31",

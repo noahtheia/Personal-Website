@@ -67,6 +67,12 @@
         "European operations": 720,
         "Grain growing & other": 477
       },
+      "revenueByGeographyMM": {
+        "Ukraine": 920,
+        "European Union": 850,
+        "MENA": 550,
+        "Asia & Other": 327
+      },
       "expensesBySegmentMM": {
         "COGS": 2050,
         "SG&A": 240,
@@ -93,6 +99,12 @@
         "Poultry & related (Ukraine)": 1610,
         "European operations": 770,
         "Grain growing & other": 469
+      },
+      "revenueByGeographyMM": {
+        "Ukraine": 970,
+        "European Union": 900,
+        "MENA": 660,
+        "Asia & Other": 319
       },
       "expensesBySegmentMM": {
         "COGS": 2090,
@@ -121,6 +133,12 @@
         "European operations": 870,
         "Grain growing & other": 542
       },
+      "revenueByGeographyMM": {
+        "Ukraine": 1080,
+        "European Union": 1010,
+        "MENA": 720,
+        "Asia & Other": 352
+      },
       "expensesBySegmentMM": {
         "COGS": 2380,
         "SG&A": 290,
@@ -137,7 +155,15 @@
       "notes": "FY24 revenue $3.16B, EBITDA $484M. Net income $168M. Continued recovery.",
       "capexMM": 130,
       "daMM": 200,
-      "cfoMM": 420
+      "cfoMM": 420,
+      "interestExpenseMM": 95,
+      "weightedAvgDebtRate": 6.6,
+      "debtMaturityProfileMM": {
+        "<1y": 320,
+        "1-3y": 530,
+        "3-5y": 410,
+        "5+y": 190
+      }
     },
     {
       "endDate": "2021-06-30",

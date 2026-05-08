@@ -314,6 +314,12 @@
         "Agribusiness (SIMP)": 16500000,
         "Distribution + other": 3486000
       },
+      "revenueByGeographyMM": {
+        "Indonesia": 84000000,
+        "Africa, Middle East & SE Europe (Pinehill)": 21500000,
+        "Other Asia & Oceania": 4400000,
+        "Other": 1795000
+      },
       "expensesBySegmentMM": {
         "COGS": 75800000,
         "G&A": 6100000,
@@ -433,6 +439,12 @@
         "Agribusiness (SIMP)": 17000000,
         "Distribution + other": 4006000
       },
+      "revenueByGeographyMM": {
+        "Indonesia": 87500000,
+        "Africa, Middle East & SE Europe (Pinehill)": 22500000,
+        "Other Asia & Oceania": 4500000,
+        "Other": 2024000
+      },
       "expensesBySegmentMM": {
         "COGS": 78400000,
         "G&A": 6300000,
@@ -453,7 +465,15 @@
       "notes": "FY24: Rp116.5T revenue (+4% YoY), Rp10.5T net profit attributable (+17% YoY). Cash buildup post-FY21 IDR depreciation; net debt down to ~Rp15.8T (lowest since pre-Pinehill).",
       "capexMM": 9800000,
       "daMM": 5700000,
-      "cfoMM": 17500000
+      "cfoMM": 17500000,
+      "interestExpenseMM": 3100000,
+      "weightedAvgDebtRate": 6.2,
+      "debtMaturityProfileMM": {
+        "<1y": 8500000,
+        "1-3y": 14000000,
+        "3-5y": 12500000,
+        "5+y": 16000000
+      }
     }
   ]
 }
