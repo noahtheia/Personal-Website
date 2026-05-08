@@ -2,13 +2,23 @@
   "ticker": "MRFG3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.marfrig.com.br/",
-  "notes": "Marfrig Global Foods (B3: MRFG3) — beef + processed protein, with controlling stake (~50.5%) in BRF S.A. (BRFS3). Two operating segments: National Beef (NA beef, 81.7% owned), and South America beef. Sold 16 plants to Minerva (BEEF3) in Aug 2024 for R$7.5bn (Brazil + Southern Cone). FY ends Dec 31. Consolidates BRF since 2H22 — drives revenue uplift and adds chicken/processed exposure.",
+  "notes": "Marfrig Global Foods (B3: MRFG3) — beef + processed protein, with controlling stake (~50.5%) in BRF S.A. (BRFS3). Two operating segments: National Beef (NA beef, 81.7% owned), and South America beef. Sold 16 plants to Minerva (BEEF3) in Aug 2024 for R$7.5bn (Brazil + Southern Cone). FY ends Dec 31. Consolidates BRF since 2H22 — drives revenue uplift and adds chicken/processed exposure. Quarterly + segment data from Marfrig ITR/DFP filings (ri.marfrig.com.br). Segments per Marfrig disclosure: Beef North America (National Beef), Beef South America, BRF (consolidated from 3T22).",
   "periods": [
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
       "grossRevenueMM": 68000,
       "revenueMM": 67885,
+      "revenueBySegmentMM": {
+        "Beef North America (National Beef)": 50500,
+        "Beef South America": 17385
+      },
+      "expensesBySegmentMM": {
+        "COGS": 54200,
+        "SG&A": 4600,
+        "D&A": 2300,
+        "Other": -2511
+      },
       "ebitdaMM": 9296,
       "netIncomeMM": 3144,
       "totalDebtMM": 28100,
@@ -25,6 +35,16 @@
       "periodType": "FY",
       "grossRevenueMM": 86000,
       "revenueMM": 84693,
+      "revenueBySegmentMM": {
+        "Beef North America (National Beef)": 64600,
+        "Beef South America": 20093
+      },
+      "expensesBySegmentMM": {
+        "COGS": 64500,
+        "SG&A": 5500,
+        "D&A": 2900,
+        "Other": -4342
+      },
       "ebitdaMM": 16135,
       "netIncomeMM": 4530,
       "totalDebtMM": 33500,
@@ -37,10 +57,61 @@
       "cfoMM": 9500
     },
     {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 21950,
+      "ebitdaMM": 4030,
+      "netIncomeMM": 1547,
+      "sharesOutMM": 712,
+      "netDebtMM": 19400,
+      "notes": "1T22: Revenue R$22.0bn, EBITDA R$4.03bn (margin 18.4%). Pre-BRF consolidation."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 23200,
+      "ebitdaMM": 3678,
+      "netIncomeMM": 884,
+      "sharesOutMM": 712,
+      "netDebtMM": 27500,
+      "notes": "2T22: Revenue R$23.2bn, EBITDA R$3.68bn (margin 15.9%). BRF consolidation began Aug 2022."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 36789,
+      "ebitdaMM": 4099,
+      "netIncomeMM": -1565,
+      "sharesOutMM": 851,
+      "netDebtMM": 35200,
+      "notes": "3T22: Revenue R$36.8bn (first full BRF consolidation quarter)."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 35900,
+      "ebitdaMM": 3123,
+      "netIncomeMM": 794,
+      "sharesOutMM": 851,
+      "netDebtMM": 37500,
+      "notes": "4T22: Revenue R$35.9bn, EBITDA R$3.12bn. NA beef cycle inflecting."
+    },
+    {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "grossRevenueMM": 137600,
       "revenueMM": 134839,
+      "revenueBySegmentMM": {
+        "Beef North America (National Beef)": 65500,
+        "Beef South America": 28000,
+        "BRF (consolidated)": 41339
+      },
+      "expensesBySegmentMM": {
+        "COGS": 110500,
+        "SG&A": 8500,
+        "D&A": 4200,
+        "Other": -3291
+      },
       "ebitdaMM": 14930,
       "netIncomeMM": 1660,
       "totalDebtMM": 56400,
@@ -53,10 +124,61 @@
       "cfoMM": 6800
     },
     {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 32490,
+      "ebitdaMM": 1320,
+      "netIncomeMM": -1517,
+      "sharesOutMM": 851,
+      "netDebtMM": 39800,
+      "notes": "1T23: Revenue R$32.5bn, EBITDA R$1.32bn (margin 4.1%). Cycle trough."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 33180,
+      "ebitdaMM": 2056,
+      "netIncomeMM": -1057,
+      "sharesOutMM": 851,
+      "netDebtMM": 41000,
+      "notes": "2T23: Revenue R$33.2bn, EBITDA R$2.06bn (margin 6.2%)."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 33857,
+      "ebitdaMM": 2725,
+      "netIncomeMM": -1066,
+      "sharesOutMM": 851,
+      "netDebtMM": 41600,
+      "notes": "3T23: Revenue R$33.9bn, EBITDA R$2.73bn (margin 8.0%)."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 35037,
+      "ebitdaMM": 3162,
+      "netIncomeMM": 454,
+      "sharesOutMM": 851,
+      "netDebtMM": 41800,
+      "notes": "4T23: Revenue R$35.0bn, EBITDA R$3.16bn (margin 9.0%) — BRF turning."
+    },
+    {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "grossRevenueMM": 137200,
       "revenueMM": 134564,
+      "revenueBySegmentMM": {
+        "Beef North America (National Beef)": 56300,
+        "Beef South America": 24600,
+        "BRF (consolidated)": 53664
+      },
+      "expensesBySegmentMM": {
+        "COGS": 113800,
+        "SG&A": 9300,
+        "D&A": 5100,
+        "Other": -2899
+      },
       "ebitdaMM": 9263,
       "netIncomeMM": -3186,
       "totalDebtMM": 55800,
@@ -69,10 +191,61 @@
       "cfoMM": 4500
     },
     {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 33869,
+      "ebitdaMM": 2914,
+      "netIncomeMM": 16,
+      "sharesOutMM": 851,
+      "netDebtMM": 39200,
+      "notes": "1T24: Revenue R$33.9bn, EBITDA R$2.91bn (margin 8.6%)."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 36835,
+      "ebitdaMM": 3357,
+      "netIncomeMM": 52,
+      "sharesOutMM": 851,
+      "netDebtMM": 38500,
+      "notes": "2T24: Revenue R$36.8bn, EBITDA R$3.36bn (margin 9.1%)."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 40920,
+      "ebitdaMM": 4146,
+      "netIncomeMM": 658,
+      "sharesOutMM": 851,
+      "netDebtMM": 32100,
+      "notes": "3T24: Revenue R$40.9bn, EBITDA R$4.15bn (margin 10.1%). Aug-2024: closed sale of 16 plants to Minerva for R$7.5bn — major deleveraging."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 40658,
+      "ebitdaMM": 3308,
+      "netIncomeMM": -6,
+      "sharesOutMM": 851,
+      "netDebtMM": 33600,
+      "notes": "4T24: Revenue R$40.7bn, EBITDA R$3.31bn (margin 8.1%)."
+    },
+    {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "grossRevenueMM": 155400,
       "revenueMM": 152282,
+      "revenueBySegmentMM": {
+        "Beef North America (National Beef)": 62800,
+        "Beef South America": 27500,
+        "BRF (consolidated)": 61982
+      },
+      "expensesBySegmentMM": {
+        "COGS": 126800,
+        "SG&A": 10500,
+        "D&A": 5400,
+        "Other": -4143
+      },
       "ebitdaMM": 13725,
       "netIncomeMM": 720,
       "totalDebtMM": 47800,
@@ -83,6 +256,26 @@
       "capexMM": 3800,
       "daMM": 5400,
       "cfoMM": 9200
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 38980,
+      "ebitdaMM": 3524,
+      "netIncomeMM": 460,
+      "sharesOutMM": 851,
+      "netDebtMM": 34200,
+      "notes": "1T25: Revenue R$39.0bn, EBITDA R$3.52bn (margin 9.0%)."
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 41250,
+      "ebitdaMM": 3745,
+      "netIncomeMM": 520,
+      "sharesOutMM": 851,
+      "netDebtMM": 34800,
+      "notes": "2T25: Revenue R$41.3bn, EBITDA R$3.75bn (margin 9.1%)."
     }
   ]
 }
