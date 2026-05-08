@@ -234,7 +234,13 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 0,
     "annualFcfMM": 14.62,
-    "annualEquityMM": 178
+    "annualEquityMM": 178,
+    "integratedFarm": {
+      "ownedAreaHa": 20030,
+      "treeCrop": {
+        "bearingHa": 0
+      }
+    }
   },
   {
     "ticker": "LMNR",
@@ -259,7 +265,13 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": -29.5,
     "annualFcfMM": -19.14,
-    "annualEquityMM": 218
+    "annualEquityMM": 218,
+    "integratedFarm": {
+      "ownedAreaHa": 4250,
+      "treeCrop": {
+        "bearingHa": 4250
+      }
+    }
   },
   {
     "ticker": "AAC.AX",
@@ -580,7 +592,8 @@
     "plantation": {
       "rspoPct": 83.19,
       "methaneCapturePctMills": 26.5,
-      "cpoAspPerMt": 4116
+      "cpoAspPerMt": 4116,
+      "rubberRevenueSharePct": 5
     }
   },
   {
@@ -1185,7 +1198,8 @@
     "geography": "Brazil",
     "operatingCountry": "Brazil",
     "annualNetIncomeMM": -4500,
-    "annualFcfMM": -1500
+    "annualFcfMM": -1500,
+    "nonAgricultureRevenuePct": 30
   },
   {
     "ticker": "F34.SI",
@@ -1208,7 +1222,10 @@
     "operatingCountry": "Singapore",
     "annualNetIncomeMM": 1170,
     "annualFcfMM": 850.0,
-    "annualEquityMM": 22150.0
+    "annualEquityMM": 22150.0,
+    "trader": {
+      "throughputMtMM": 80
+    }
   },
   {
     "ticker": "O32.SI",
@@ -1230,7 +1247,11 @@
     "operatingCountry": "Singapore",
     "annualNetIncomeMM": -810,
     "annualFcfMM": 1100.0,
-    "annualEquityMM": 8200.0
+    "annualEquityMM": 8200.0,
+    "trader": {
+      "throughputMtMM": 45,
+      "rmiMM": 6000
+    }
   },
   {
     "ticker": "CPF.BK",
@@ -1323,7 +1344,10 @@
     "operatingCountry": "Kenya",
     "annualNetIncomeMM": 230,
     "annualFcfMM": 390.0,
-    "annualEquityMM": 5800.0
+    "annualEquityMM": 5800.0,
+    "tea": {
+      "teaPlantedHa": 4500
+    }
   },
   {
     "ticker": "TSN",
@@ -1536,7 +1560,10 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 51.32,
     "annualFcfMM": 1.71,
-    "annualEquityMM": 1473.1
+    "annualEquityMM": 1473.1,
+    "integratedFarm": {
+      "ownedAreaHa": 44000
+    }
   },
   {
     "ticker": "ADM",
@@ -1810,7 +1837,8 @@
     "operatingCountry": "UK",
     "annualNetIncomeMM": 1448,
     "annualFcfMM": 1395,
-    "annualEquityMM": 10350.0
+    "annualEquityMM": 10350.0,
+    "nonAgricultureRevenuePct": 50
   },
   {
     "ticker": "ELD.AX",
@@ -1931,7 +1959,10 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 90.7,
     "annualFcfMM": 181.3,
-    "annualEquityMM": 2016.2
+    "annualEquityMM": 2016.2,
+    "integratedFarm": {
+      "ownedAreaHa": 36000
+    }
   },
   {
     "ticker": "AVO",
@@ -1953,7 +1984,10 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 37.7,
     "annualFcfMM": 37.2,
-    "annualEquityMM": 543.0
+    "annualEquityMM": 543.0,
+    "integratedFarm": {
+      "ownedAreaHa": 4500
+    }
   },
   {
     "ticker": "IPI",
@@ -2501,7 +2535,8 @@
     "operatingCountry": "South Africa",
     "annualNetIncomeMM": 1280,
     "annualFcfMM": 1450,
-    "annualEquityMM": 8272
+    "annualEquityMM": 8272,
+    "nonAgricultureRevenuePct": 15
   },
   {
     "ticker": "EBRO.MC",
@@ -3073,7 +3108,10 @@
     "operatingCountry": "Nigeria",
     "annualNetIncomeMM": 53400,
     "annualFcfMM": 45000,
-    "annualEquityMM": 100200
+    "annualEquityMM": 100200,
+    "plantation": {
+      "rubberRevenueSharePct": 15
+    }
   },
   {
     "ticker": "SASN.NR",
@@ -3198,7 +3236,12 @@
     "operatingCountry": "EU",
     "annualNetIncomeMM": 55,
     "annualFcfMM": 32,
-    "annualEquityMM": 1100
+    "annualEquityMM": 1100,
+    "segmentEbitdaMM": [
+      { "segment": "Sugar", "ebitdaMM": 50 },
+      { "segment": "Starch", "ebitdaMM": 90 },
+      { "segment": "Fruit", "ebitdaMM": 75 }
+    ]
   },
   {
     "ticker": "HFG.L",
