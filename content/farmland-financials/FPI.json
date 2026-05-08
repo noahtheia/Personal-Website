@@ -27,7 +27,10 @@
       "sharesOutMM": 12.34,
       "dividendPerShare": 0.34,
       "notes": "FY14 (IPO year): IPO completed April 16, 2014 at $14/sh (~$53M gross). Started with ~38,400 acres in IL, NE, CO, AR, LA, SC, MS, GA, MI predominantly row-crop. Revenue $8.6M (partial year as public REIT).",
-      "bookValuePerShare": 9.64
+      "bookValuePerShare": 9.64,
+      "capexMM": 126.3,
+      "daMM": 0.3,
+      "cfoMM": 1.8
     },
     {
       "endDate": "2015-12-31",
@@ -52,7 +55,10 @@
       "sharesOutMM": 14.66,
       "dividendPerShare": 0.51,
       "notes": "FY15: ~71,700 acres after additional acquisitions in 11 states. Revenue $16.7M (+94% YoY).",
-      "bookValuePerShare": 10.37
+      "bookValuePerShare": 10.37,
+      "capexMM": 116.9,
+      "daMM": 0.9,
+      "cfoMM": 7.7
     },
     {
       "endDate": "2016-12-31",
@@ -77,7 +83,10 @@
       "sharesOutMM": 23.55,
       "dividendPerShare": 0.51,
       "notes": "FY16: ~142,600 acres after the FPI-AFCO merger announcement (closed Feb 2017) and additional individual purchases. Revenue $25.5M (+53% YoY).",
-      "bookValuePerShare": 11.89
+      "bookValuePerShare": 11.89,
+      "capexMM": 137.4,
+      "daMM": 1.6,
+      "cfoMM": 5.0
     },
     {
       "endDate": "2017-12-31",
@@ -102,7 +111,10 @@
       "sharesOutMM": 28.91,
       "dividendPerShare": 0.51,
       "notes": "FY17: ~152,000 acres in 17 states post-AFCO merger (closed Feb 2017, $300M+ stock-and-debt deal added ~75k acres of permanent + row-crop). Revenue $47.7M (+87% YoY).",
-      "bookValuePerShare": 16.88
+      "bookValuePerShare": 16.88,
+      "capexMM": 227.7,
+      "daMM": 7.8,
+      "cfoMM": 0.9
     },
     {
       "endDate": "2018-12-31",
@@ -127,7 +139,10 @@
       "sharesOutMM": 29.36,
       "dividendPerShare": 0.51,
       "notes": "FY18: ~162,000 acres in 17 states. Revenue $51.5M (+8% YoY). FY18 was challenged by the July 2018 Rota Fortunae short-seller report and follow-on litigation (later settled favorably to FPI).",
-      "bookValuePerShare": 15.67
+      "bookValuePerShare": 15.67,
+      "capexMM": 45.9,
+      "daMM": 8.5,
+      "cfoMM": 20.0
     },
     {
       "endDate": "2019-12-31",
@@ -152,7 +167,10 @@
       "sharesOutMM": 30.07,
       "dividendPerShare": 0.2,
       "notes": "FY19: 156,500 acres in 16 states. Revenue $50.6M includes $14.5M crop sales via direct-operating subsidiaries. NOI $35.5M. EBITDA computed as operating income + D&A.",
-      "bookValuePerShare": 15.26
+      "bookValuePerShare": 15.26,
+      "capexMM": 8.0,
+      "daMM": 8.3,
+      "cfoMM": 18.0
     },
     {
       "endDate": "2020-12-31",
@@ -177,7 +195,10 @@
       "sharesOutMM": 30.41,
       "dividendPerShare": 0.2,
       "notes": "FY20: stable acreage / revenue (~156,500 acres). Net loss $10.5M (REIT D&A drag).",
-      "bookValuePerShare": 15.52
+      "bookValuePerShare": 15.52,
+      "capexMM": 3.6,
+      "daMM": 8.0,
+      "cfoMM": 19.7
     },
     {
       "endDate": "2021-03-31",
@@ -194,7 +215,7 @@
       "netIncomeMM": -3,
       "totalAcresK": 156.5,
       "bookValuePerShare": 15.44,
-      "notes": "Q1 2021: revenue $11.7M, NOI $8.0M. BVPS interpolated FY20 ($15.52) → FY21 ($15.21)."
+      "notes": "Q1 2021: revenue $11.7M, NOI $8.0M. BVPS interpolated FY20 ($15.52) \u2192 FY21 ($15.21)."
     },
     {
       "endDate": "2021-06-30",
@@ -211,7 +232,7 @@
       "netIncomeMM": -1,
       "totalAcresK": 158,
       "bookValuePerShare": 15.37,
-      "notes": "Q2 2021: revenue $14.6M, NOI $10.0M. BVPS interpolated FY20→FY21."
+      "notes": "Q2 2021: revenue $14.6M, NOI $10.0M. BVPS interpolated FY20\u2192FY21."
     },
     {
       "endDate": "2021-09-30",
@@ -228,7 +249,7 @@
       "netIncomeMM": 1.5,
       "totalAcresK": 159,
       "bookValuePerShare": 15.29,
-      "notes": "Q3 2021: revenue $14.0M, NOI $9.6M. BVPS interpolated FY20→FY21."
+      "notes": "Q3 2021: revenue $14.0M, NOI $9.6M. BVPS interpolated FY20\u2192FY21."
     },
     {
       "endDate": "2021-12-31",
@@ -270,7 +291,10 @@
       "sharesOutMM": 33.54,
       "dividendPerShare": 0.2,
       "notes": "FY21: 158,000 acres. Revenue $58.9M (+17% YoY), NOI $40.3M. Net income turned positive.",
-      "bookValuePerShare": 15.21
+      "bookValuePerShare": 15.21,
+      "capexMM": 83.9,
+      "daMM": 7.6,
+      "cfoMM": 7.9
     },
     {
       "endDate": "2022-03-31",
@@ -287,7 +311,7 @@
       "netIncomeMM": -1.5,
       "totalAcresK": 156,
       "bookValuePerShare": 14.25,
-      "notes": "Q1 2022: revenue $13.0M, NOI $8.9M. BVPS interpolated FY21 ($15.21) → FY22 ($11.38)."
+      "notes": "Q1 2022: revenue $13.0M, NOI $8.9M. BVPS interpolated FY21 ($15.21) \u2192 FY22 ($11.38)."
     },
     {
       "endDate": "2022-06-30",
@@ -303,8 +327,8 @@
       "noiMM": 9.9,
       "netIncomeMM": 8,
       "totalAcresK": 152,
-      "bookValuePerShare": 13.30,
-      "notes": "Q2 2022: revenue $14.5M, NOI $9.9M; gain-on-sale boost. BVPS interpolated FY21→FY22."
+      "bookValuePerShare": 13.3,
+      "notes": "Q2 2022: revenue $14.5M, NOI $9.9M; gain-on-sale boost. BVPS interpolated FY21\u2192FY22."
     },
     {
       "endDate": "2022-09-30",
@@ -321,7 +345,7 @@
       "netIncomeMM": 11,
       "totalAcresK": 145,
       "bookValuePerShare": 12.34,
-      "notes": "Q3 2022: revenue $13.0M, NOI $8.9M; significant gain-on-sale of $14M+. BVPS interpolated FY21→FY22."
+      "notes": "Q3 2022: revenue $13.0M, NOI $8.9M; significant gain-on-sale of $14M+. BVPS interpolated FY21\u2192FY22."
     },
     {
       "endDate": "2022-12-31",
@@ -363,7 +387,10 @@
       "sharesOutMM": 50.97,
       "dividendPerShare": 0.5,
       "notes": "FY22: 144,000 acres after net dispositions. Revenue $57.2M, NOI $39.1M. Net income $67.5M boosted by $55M+ in gains on sale across portfolio. Dividend stepped up to $0.20 + $0.30 special.",
-      "bookValuePerShare": 11.38
+      "bookValuePerShare": 11.38,
+      "capexMM": 58.7,
+      "daMM": 7.0,
+      "cfoMM": 17.1
     },
     {
       "endDate": "2023-03-31",
@@ -380,7 +407,7 @@
       "netIncomeMM": 1,
       "totalAcresK": 142,
       "bookValuePerShare": 11.41,
-      "notes": "Q1 2023: revenue $13.5M, NOI $9.3M. BVPS interpolated FY22 ($11.38) → FY23 ($11.49)."
+      "notes": "Q1 2023: revenue $13.5M, NOI $9.3M. BVPS interpolated FY22 ($11.38) \u2192 FY23 ($11.49)."
     },
     {
       "endDate": "2023-06-30",
@@ -397,7 +424,7 @@
       "netIncomeMM": 30,
       "totalAcresK": 134,
       "bookValuePerShare": 11.43,
-      "notes": "Q2 2023: revenue $14.0M, NOI $9.6M; large gain-on-sale ($30M+). BVPS interpolated FY22→FY23."
+      "notes": "Q2 2023: revenue $14.0M, NOI $9.6M; large gain-on-sale ($30M+). BVPS interpolated FY22\u2192FY23."
     },
     {
       "endDate": "2023-09-30",
@@ -414,7 +441,7 @@
       "netIncomeMM": 6,
       "totalAcresK": 130,
       "bookValuePerShare": 11.46,
-      "notes": "Q3 2023: revenue $13.7M, NOI $9.4M. BVPS interpolated FY22→FY23."
+      "notes": "Q3 2023: revenue $13.7M, NOI $9.4M. BVPS interpolated FY22\u2192FY23."
     },
     {
       "endDate": "2023-12-31",
@@ -456,7 +483,10 @@
       "sharesOutMM": 48.3,
       "dividendPerShare": 0.24,
       "notes": "FY23: 128,000 acres after another year of dispositions. Revenue ~flat YoY $57.2M, NOI $39.3M. Net income $41M including ~$36M in cumulative gains on sale.",
-      "bookValuePerShare": 11.49
+      "bookValuePerShare": 11.49,
+      "capexMM": 28.0,
+      "daMM": 7.5,
+      "cfoMM": 12.9
     },
     {
       "endDate": "2024-03-31",
@@ -473,7 +503,7 @@
       "netIncomeMM": -1,
       "totalAcresK": 122,
       "bookValuePerShare": 10.89,
-      "notes": "Q1 2024: revenue $11.0M, NOI $7.5M. BVPS interpolated FY23 ($11.49) → FY24 ($9.09)."
+      "notes": "Q1 2024: revenue $11.0M, NOI $7.5M. BVPS interpolated FY23 ($11.49) \u2192 FY24 ($9.09)."
     },
     {
       "endDate": "2024-06-30",
@@ -490,7 +520,7 @@
       "netIncomeMM": 4,
       "totalAcresK": 117,
       "bookValuePerShare": 10.29,
-      "notes": "Q2 2024: revenue $12.0M, NOI $8.2M. BVPS interpolated FY23→FY24."
+      "notes": "Q2 2024: revenue $12.0M, NOI $8.2M. BVPS interpolated FY23\u2192FY24."
     },
     {
       "endDate": "2024-09-30",
@@ -507,7 +537,7 @@
       "netIncomeMM": 0.5,
       "totalAcresK": 113,
       "bookValuePerShare": 9.69,
-      "notes": "Q3 2024: revenue $11.5M, NOI $7.9M. BVPS interpolated FY23→FY24."
+      "notes": "Q3 2024: revenue $11.5M, NOI $7.9M. BVPS interpolated FY23\u2192FY24."
     },
     {
       "endDate": "2024-12-31",
@@ -549,7 +579,10 @@
       "sharesOutMM": 48.07,
       "dividendPerShare": 1.39,
       "notes": "FY24: post Murray-Wise sale, portfolio ~76,000 acres. Revenue $47.5M, NOI $32.5M. Net income $84M boosted by $90M+ gain on Murray Wise transaction. $1.15 special dividend + regular $0.24 = $1.39/sh.",
-      "bookValuePerShare": 9.09
+      "bookValuePerShare": 9.09,
+      "capexMM": 19.4,
+      "daMM": 5.6,
+      "cfoMM": 16.1
     },
     {
       "endDate": "2025-03-31",
@@ -565,7 +598,7 @@
       "noiMM": 8.5,
       "netIncomeMM": 1,
       "totalAcresK": 73,
-      "bookValuePerShare": 9.40,
+      "bookValuePerShare": 9.4,
       "notes": "Q1 2025: revenue $10.5M, NOI $8.5M. BVPS estimated post $1.15 special dividend payout + share buyback dynamics."
     },
     {

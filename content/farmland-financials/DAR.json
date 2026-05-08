@@ -2,7 +2,7 @@
   "ticker": "DAR",
   "currency": "USD",
   "sourceUrl": "https://ir.darlingii.com/financials-and-filings/sec-filings",
-  "notes": "Darling Ingredients (NYSE: DAR) — global rendering / animal byproduct processor. Three segments: Feed, Food (gelatin/Rousselot/Sonac), Fuel (50/50 Diamond Green Diesel JV with Valero). Acquired Valley Proteins (Apr 2022, ~$1.1B) and Gelnex (Apr 2023). DGD is largest renewable diesel producer in N America (~1.2B gal/yr capacity). FY24 weakness from soft RIN/RVO pricing for renewable diesel. CIK 916540.",
+  "notes": "Darling Ingredients (NYSE: DAR) \u2014 global rendering / animal byproduct processor. Three segments: Feed, Food (gelatin/Rousselot/Sonac), Fuel (50/50 Diamond Green Diesel JV with Valero). Acquired Valley Proteins (Apr 2022, ~$1.1B) and Gelnex (Apr 2023). DGD is largest renewable diesel producer in N America (~1.2B gal/yr capacity). FY24 weakness from soft RIN/RVO pricing for renewable diesel. CIK 916540.",
   "periods": [
     {
       "endDate": "2020-01-02",
@@ -19,9 +19,12 @@
       "totalDebtMM": 1500,
       "cashMM": 130,
       "sharesOutMM": 165.4,
-      "bookValuePerShare": 11.30,
+      "bookValuePerShare": 11.3,
       "dividendPerShare": 0,
-      "notes": "FY19 (ended Dec 28 2019): revenue $3.37B. Adj EBITDA combined $614M (incl DGD)."
+      "notes": "FY19 (ended Dec 28 2019): revenue $3.37B. Adj EBITDA combined $614M (incl DGD).",
+      "capexMM": 359.5,
+      "daMM": 325.5,
+      "cfoMM": 362.6
     },
     {
       "endDate": "2021-01-02",
@@ -38,9 +41,12 @@
       "totalDebtMM": 1290,
       "cashMM": 115,
       "sharesOutMM": 165.0,
-      "bookValuePerShare": 12.40,
+      "bookValuePerShare": 12.4,
       "dividendPerShare": 0,
-      "notes": "FY20 (ended Jan 2 2021): revenue $3.57B. Adj EBITDA $792M. DGD ramping."
+      "notes": "FY20 (ended Jan 2 2021): revenue $3.57B. Adj EBITDA $792M. DGD ramping.",
+      "capexMM": 280.1,
+      "daMM": 350.2,
+      "cfoMM": 624.7
     },
     {
       "endDate": "2022-01-01",
@@ -57,9 +63,12 @@
       "totalDebtMM": 1014,
       "cashMM": 109,
       "sharesOutMM": 164.2,
-      "bookValuePerShare": 16.60,
+      "bookValuePerShare": 16.6,
       "dividendPerShare": 0,
-      "notes": "FY21 (ended Jan 1 2022): revenue $4.44B (+25%). Adj EBITDA $1.27B. DGD outperformed."
+      "notes": "FY21 (ended Jan 1 2022): revenue $4.44B (+25%). Adj EBITDA $1.27B. DGD outperformed.",
+      "capexMM": 274.1,
+      "daMM": 316.4,
+      "cfoMM": 704.4
     },
     {
       "endDate": "2022-12-31",
@@ -76,9 +85,12 @@
       "totalDebtMM": 4321,
       "cashMM": 105,
       "sharesOutMM": 161.4,
-      "bookValuePerShare": 21.50,
+      "bookValuePerShare": 21.5,
       "dividendPerShare": 0,
-      "notes": "FY22: revenue $6.21B (+40%). Valley Proteins (+$1.1B) closed Apr 2022. Adj EBITDA $1.63B. Net debt jumped on M&A."
+      "notes": "FY22: revenue $6.21B (+40%). Valley Proteins (+$1.1B) closed Apr 2022. Adj EBITDA $1.63B. Net debt jumped on M&A.",
+      "capexMM": 391.3,
+      "daMM": 394.7,
+      "cfoMM": 813.7
     },
     {
       "endDate": "2023-12-30",
@@ -95,9 +107,12 @@
       "totalDebtMM": 4308,
       "cashMM": 56,
       "sharesOutMM": 159.6,
-      "bookValuePerShare": 22.10,
+      "bookValuePerShare": 22.1,
       "dividendPerShare": 0,
-      "notes": "FY23: revenue $6.78B (+9%). Adj EBITDA $1.26B (-23% — fat prices fell, DGD weaker). Gelnex closed Apr 2023."
+      "notes": "FY23: revenue $6.78B (+9%). Adj EBITDA $1.26B (-23% \u2014 fat prices fell, DGD weaker). Gelnex closed Apr 2023.",
+      "capexMM": 555.5,
+      "daMM": 502.0,
+      "cfoMM": 899.3
     },
     {
       "endDate": "2024-12-28",
@@ -114,9 +129,12 @@
       "totalDebtMM": 4378,
       "cashMM": 87.6,
       "sharesOutMM": 158.4,
-      "bookValuePerShare": 22.90,
+      "bookValuePerShare": 22.9,
       "dividendPerShare": 0,
-      "notes": "FY24: revenue $5.69B (-16%). Adj EBITDA $818M (-35%) — fats/oils trough + RIN compression hammered DGD. Net income $199M. PTC adoption pending under IRA section 45Z."
+      "notes": "FY24: revenue $5.69B (-16%). Adj EBITDA $818M (-35%) \u2014 fats/oils trough + RIN compression hammered DGD. Net income $199M. PTC adoption pending under IRA section 45Z.",
+      "capexMM": 332.5,
+      "daMM": 503.8,
+      "cfoMM": 839.3
     }
   ]
 }

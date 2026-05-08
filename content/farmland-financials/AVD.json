@@ -2,7 +2,7 @@
   "ticker": "AVD",
   "currency": "USD",
   "sourceUrl": "https://www.american-vanguard.com/investors",
-  "notes": "American Vanguard Corp (NYSE: AVD) — specialty crop chemistry (CIK 5981). Manufactures + distributes pesticides, fungicides, herbicides for fruit, vegetable, nut, and row crops. Calendar fiscal year. Reports in USD. SmartBox/SIMPAS precision-application platforms. Severe 2023-24 industry destocking + internal control weaknesses → 2024 financial restatement, going-concern issues, transformation program. Sells products globally (US, Mexico, Brazil, EU, Australia).",
+  "notes": "American Vanguard Corp (NYSE: AVD) \u2014 specialty crop chemistry (CIK 5981). Manufactures + distributes pesticides, fungicides, herbicides for fruit, vegetable, nut, and row crops. Calendar fiscal year. Reports in USD. SmartBox/SIMPAS precision-application platforms. Severe 2023-24 industry destocking + internal control weaknesses \u2192 2024 financial restatement, going-concern issues, transformation program. Sells products globally (US, Mexico, Brazil, EU, Australia).",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -14,9 +14,12 @@
       "cashMM": 16,
       "netDebtMM": 49,
       "sharesOutMM": 30.0,
-      "bookValuePerShare": 8.50,
-      "dividendPerShare": 0.10,
-      "notes": "FY20: revenue $458M. EBITDA $47M. Net income $11M. Steady year for crop chemistry."
+      "bookValuePerShare": 8.5,
+      "dividendPerShare": 0.1,
+      "notes": "FY20: revenue $458M. EBITDA $47M. Net income $11M. Steady year for crop chemistry.",
+      "capexMM": 11.2,
+      "cfoMM": 90.3,
+      "daMM": 19.9
     },
     {
       "endDate": "2021-12-31",
@@ -29,8 +32,11 @@
       "netDebtMM": 93,
       "sharesOutMM": 30.6,
       "bookValuePerShare": 8.85,
-      "dividendPerShare": 0.10,
-      "notes": "FY21: revenue $559M (+22%). EBITDA $54M. Net income $14M. Acquisitions including Agrinos."
+      "dividendPerShare": 0.1,
+      "notes": "FY21: revenue $559M (+22%). EBITDA $54M. Net income $14M. Acquisitions including Agrinos.",
+      "capexMM": 9.5,
+      "daMM": 9.2,
+      "cfoMM": 86.4
     },
     {
       "endDate": "2022-12-31",
@@ -44,7 +50,10 @@
       "sharesOutMM": 30.7,
       "bookValuePerShare": 9.15,
       "dividendPerShare": 0.115,
-      "notes": "FY22: revenue $609M (+9%). EBITDA $65M. Net income $18M. Strong agriculture cycle."
+      "notes": "FY22: revenue $609M (+9%). EBITDA $65M. Net income $18M. Strong agriculture cycle.",
+      "capexMM": 13.3,
+      "daMM": 8.9,
+      "cfoMM": 57.1
     },
     {
       "endDate": "2023-12-31",
@@ -56,9 +65,12 @@
       "cashMM": 6,
       "netDebtMM": 169,
       "sharesOutMM": 30.7,
-      "bookValuePerShare": 7.30,
+      "bookValuePerShare": 7.3,
       "dividendPerShare": 0.085,
-      "notes": "FY23 (restated): revenue $568M (-7%). EBITDA $-8M (channel destocking + writedowns). Net loss $47M. Material weaknesses identified; restated figures."
+      "notes": "FY23 (restated): revenue $568M (-7%). EBITDA $-8M (channel destocking + writedowns). Net loss $47M. Material weaknesses identified; restated figures.",
+      "capexMM": 11.9,
+      "daMM": 6.6,
+      "cfoMM": -58.7
     },
     {
       "endDate": "2024-12-31",
@@ -70,9 +82,12 @@
       "cashMM": 11,
       "netDebtMM": 164,
       "sharesOutMM": 30.6,
-      "bookValuePerShare": 5.30,
+      "bookValuePerShare": 5.3,
       "dividendPerShare": 0,
-      "notes": "FY24: revenue $506M (-11%). EBITDA $18M (transformation program ongoing, restructuring charges $30M+). Net loss $56M. Dividend suspended. Going-concern uncertainty addressed via amended credit facility."
+      "notes": "FY24: revenue $506M (-11%). EBITDA $18M (transformation program ongoing, restructuring charges $30M+). Net loss $56M. Dividend suspended. Going-concern uncertainty addressed via amended credit facility.",
+      "capexMM": 7.3,
+      "daMM": 5.2,
+      "cfoMM": 3.9
     }
   ]
 }

@@ -12,7 +12,7 @@
       "netIncomeMM": 295,
       "totalAcresK": 0,
       "sharesOutMM": 200,
-      "bookValuePerShare": 11.50,
+      "bookValuePerShare": 11.5,
       "notes": "FY2005: IPO year (Tadawul listing July 2005). Dairy + juices only; financials reflect first full reporting year as a public co. Equity ~SAR2,300M (200M shares pre-split)",
       "expensesBySegmentMM": {
         "COGS": 1032.2,
@@ -29,7 +29,7 @@
       "netIncomeMM": 350,
       "totalAcresK": 0,
       "sharesOutMM": 200,
-      "bookValuePerShare": 12.50,
+      "bookValuePerShare": 12.5,
       "notes": "FY2006: dairy volume growth, juice expansion. Equity ~SAR2,500M",
       "expensesBySegmentMM": {
         "COGS": 1182.1,
@@ -46,7 +46,7 @@
       "netIncomeMM": 432,
       "totalAcresK": 0,
       "sharesOutMM": 230,
-      "bookValuePerShare": 13.00,
+      "bookValuePerShare": 13.0,
       "notes": "FY2007: Western Bakeries acquired Dec 2007 (consolidated from Q4); Pure Beverage Industries JV. Equity ~SAR3,000M",
       "expensesBySegmentMM": {
         "COGS": 1506.6,
@@ -63,7 +63,7 @@
       "netIncomeMM": 545,
       "totalAcresK": 0,
       "sharesOutMM": 600,
-      "bookValuePerShare": 6.00,
+      "bookValuePerShare": 6.0,
       "notes": "FY2008: full-year of Western Bakeries; commodity peak then GFC. Equity ~SAR3,600M (3:1 bonus issue lifted shares to ~600M)",
       "expensesBySegmentMM": {
         "COGS": 2031.5,
@@ -80,7 +80,7 @@
       "netIncomeMM": 720,
       "totalAcresK": 0,
       "sharesOutMM": 600,
-      "bookValuePerShare": 7.00,
+      "bookValuePerShare": 7.0,
       "notes": "FY2009: HADCO (Hail Agricultural / poultry) acquired Aug 2009; bonus share issue. Equity ~SAR4,200M",
       "expensesBySegmentMM": {
         "COGS": 2511.6,
@@ -126,7 +126,7 @@
       "netIncomeMM": 1170,
       "totalAcresK": 25,
       "sharesOutMM": 600,
-      "bookValuePerShare": 9.10,
+      "bookValuePerShare": 9.1,
       "notes": "FY2011: International Dairy & Juice (IDJ) JV with PepsiCo expanded; Argentina Fondomonte first parcel acquired (~10k ha). Equity ~SAR5,460M",
       "expensesBySegmentMM": {
         "COGS": 4865.3,
@@ -149,7 +149,7 @@
       "netIncomeMM": 1330,
       "totalAcresK": 50,
       "sharesOutMM": 600,
-      "bookValuePerShare": 10.40,
+      "bookValuePerShare": 10.4,
       "notes": "FY2012: Fondomonte expansion in Argentina; net income growth despite feed cost pressure. Equity ~SAR6,250M",
       "expensesBySegmentMM": {
         "COGS": 6133.1,
@@ -172,7 +172,7 @@
       "netIncomeMM": 1480,
       "totalAcresK": 80,
       "sharesOutMM": 600,
-      "bookValuePerShare": 11.80,
+      "bookValuePerShare": 11.8,
       "notes": "FY2013: continued Argentina expansion. Equity ~SAR7,070M",
       "expensesBySegmentMM": {
         "COGS": 6957,
@@ -195,14 +195,17 @@
       "netIncomeMM": 1656,
       "totalAcresK": 124,
       "sharesOutMM": 1000,
-      "bookValuePerShare": 8.40,
+      "bookValuePerShare": 8.4,
       "notes": "FY2014: Fondomonte California (alfalfa) acquired; Fondomonte Arizona land acquired; total Argentine + US/Saudi farmland reaches current ~50k ha. 5:3 bonus issue → ~1,000M shares; Equity ~SAR8,400M",
       "expensesBySegmentMM": {
         "COGS": 7810.4,
         "G&A": 800.1,
         "D&A": 717.3,
         "Other opex": 418.2
-      }
+      },
+      "capexMM": 3100,
+      "daMM": 1180,
+      "cfoMM": 2500
     },
     {
       "endDate": "2015-12-31",
@@ -218,14 +221,17 @@
       "netIncomeMM": 1838,
       "totalAcresK": 124,
       "sharesOutMM": 1000,
-      "bookValuePerShare": 9.40,
+      "bookValuePerShare": 9.4,
       "notes": "FY2015: oil price downturn affected discretionary spend; pricing power held. Equity ~SAR9,400M",
       "expensesBySegmentMM": {
         "COGS": 8567.8,
         "G&A": 877.7,
         "D&A": 786.9,
         "Other opex": 458.6
-      }
+      },
+      "capexMM": 3200,
+      "daMM": 1280,
+      "cfoMM": 3300
     },
     {
       "endDate": "2016-12-31",
@@ -248,7 +254,10 @@
         "G&A": 912.9,
         "D&A": 818.4,
         "Other opex": 476.9
-      }
+      },
+      "capexMM": 3000,
+      "daMM": 1380,
+      "cfoMM": 3500
     },
     {
       "endDate": "2017-12-31",
@@ -264,14 +273,17 @@
       "netIncomeMM": 1858,
       "totalAcresK": 124,
       "sharesOutMM": 1000,
-      "bookValuePerShare": 11.50,
+      "bookValuePerShare": 11.5,
       "notes": "FY2017: expat exodus + sugar tax (Jun 2017) hit volumes. Equity ~SAR11,500M",
       "expensesBySegmentMM": {
         "COGS": 8708,
         "G&A": 892.1,
         "D&A": 799.7,
         "Other opex": 466.2
-      }
+      },
+      "capexMM": 2400,
+      "daMM": 1450,
+      "cfoMM": 3800
     },
     {
       "endDate": "2018-12-31",
@@ -287,14 +299,17 @@
       "netIncomeMM": 1597,
       "totalAcresK": 124,
       "sharesOutMM": 1000,
-      "bookValuePerShare": 12.30,
+      "bookValuePerShare": 12.3,
       "notes": "FY2018: VAT introduced (Jan 2018) compounded sugar tax impact. Equity ~SAR12,300M",
       "expensesBySegmentMM": {
         "COGS": 8738.5,
         "G&A": 895.2,
         "D&A": 802.5,
         "Other opex": 467.8
-      }
+      },
+      "capexMM": 2050,
+      "daMM": 1500,
+      "cfoMM": 3900
     },
     {
       "endDate": "2019-12-31",
@@ -317,7 +332,10 @@
         "G&A": 874.4,
         "D&A": 783.8,
         "Other opex": 456.9
-      }
+      },
+      "capexMM": 1800,
+      "daMM": 1530,
+      "cfoMM": 3700
     },
     {
       "endDate": "2020-03-31",
@@ -326,7 +344,7 @@
       "ebitdaMM": 824,
       "netIncomeMM": 391,
       "totalAcresK": 124,
-      "bookValuePerShare": 13.00,
+      "bookValuePerShare": 13.0,
       "notes": "Q1 2020: COVID demand surge for dairy staples",
       "expensesBySegmentMM": {
         "COGS": 2216.7,
@@ -342,7 +360,7 @@
       "ebitdaMM": 805,
       "netIncomeMM": 365,
       "totalAcresK": 124,
-      "bookValuePerShare": 13.10,
+      "bookValuePerShare": 13.1,
       "notes": "Q2 2020: Ramadan + COVID lockdown impact on out-of-home consumption",
       "expensesBySegmentMM": {
         "COGS": 2103.7,
@@ -374,7 +392,7 @@
       "ebitdaMM": 750,
       "netIncomeMM": 270,
       "totalAcresK": 124,
-      "bookValuePerShare": 13.40,
+      "bookValuePerShare": 13.4,
       "notes": "Q4 2020: VAT increase to 15% in Saudi",
       "expensesBySegmentMM": {
         "COGS": 2097.3,
@@ -411,7 +429,10 @@
       "sharesOutMM": 1000,
       "bookValuePerShare": 13.4,
       "dividendPerShare": 0.85,
-      "notes": "FY20: COVID year, resilient dairy demand; full-year revenue +3% YoY"
+      "notes": "FY20: COVID year, resilient dairy demand; full-year revenue +3% YoY",
+      "capexMM": 1500,
+      "daMM": 1560,
+      "cfoMM": 3450
     },
     {
       "endDate": "2021-03-31",
@@ -505,7 +526,10 @@
       "sharesOutMM": 1000,
       "bookValuePerShare": 13.75,
       "dividendPerShare": 0.85,
-      "notes": "FY21: revenue +5% YoY, margin compression from commodity inflation"
+      "notes": "FY21: revenue +5% YoY, margin compression from commodity inflation",
+      "capexMM": 1700,
+      "daMM": 1590,
+      "cfoMM": 3000
     },
     {
       "endDate": "2022-03-31",
@@ -514,7 +538,7 @@
       "ebitdaMM": 845,
       "netIncomeMM": 367,
       "totalAcresK": 124,
-      "bookValuePerShare": 13.90,
+      "bookValuePerShare": 13.9,
       "notes": "Q1 2022: pricing actions to offset feed costs",
       "expensesBySegmentMM": {
         "COGS": 2576.5,
@@ -530,7 +554,7 @@
       "ebitdaMM": 940,
       "netIncomeMM": 425,
       "totalAcresK": 124,
-      "bookValuePerShare": 14.10,
+      "bookValuePerShare": 14.1,
       "notes": "Q2 2022: Ramadan / Eid peak",
       "expensesBySegmentMM": {
         "COGS": 2869,
@@ -562,7 +586,7 @@
       "ebitdaMM": 700,
       "netIncomeMM": 252,
       "totalAcresK": 124,
-      "bookValuePerShare": 14.40,
+      "bookValuePerShare": 14.4,
       "notes": "Q4 2022: continued cost pressures",
       "expensesBySegmentMM": {
         "COGS": 2775.2,
@@ -599,7 +623,10 @@
       "sharesOutMM": 1000,
       "bookValuePerShare": 14.4,
       "dividendPerShare": 0.95,
-      "notes": "FY22: revenue +18% YoY on pricing + volume; net income recovered"
+      "notes": "FY22: revenue +18% YoY on pricing + volume; net income recovered",
+      "capexMM": 2000,
+      "daMM": 1610,
+      "cfoMM": 2700
     },
     {
       "endDate": "2023-03-31",
@@ -624,7 +651,7 @@
       "ebitdaMM": 1300,
       "netIncomeMM": 700,
       "totalAcresK": 124,
-      "bookValuePerShare": 15.00,
+      "bookValuePerShare": 15.0,
       "notes": "Q2 2023: strongest Ramadan ever, exceptional margin recovery",
       "expensesBySegmentMM": {
         "COGS": 3109.4,
@@ -656,7 +683,7 @@
       "ebitdaMM": 1095,
       "netIncomeMM": 545,
       "totalAcresK": 124,
-      "bookValuePerShare": 15.70,
+      "bookValuePerShare": 15.7,
       "notes": "Q4 2023: solid finish to record year",
       "expensesBySegmentMM": {
         "COGS": 2969.2,
@@ -693,7 +720,10 @@
       "sharesOutMM": 1000,
       "bookValuePerShare": 15.7,
       "dividendPerShare": 1.3,
-      "notes": "FY23: record year — revenue +14.5%, net income +69% on margin recovery"
+      "notes": "FY23: record year — revenue +14.5%, net income +69% on margin recovery",
+      "capexMM": 2400,
+      "daMM": 1660,
+      "cfoMM": 3500
     },
     {
       "endDate": "2024-03-31",
@@ -702,7 +732,7 @@
       "ebitdaMM": 1340,
       "netIncomeMM": 705,
       "totalAcresK": 124,
-      "bookValuePerShare": 16.10,
+      "bookValuePerShare": 16.1,
       "notes": "Q1 2024: continued category growth",
       "expensesBySegmentMM": {
         "COGS": 3101.4,
@@ -734,7 +764,7 @@
       "ebitdaMM": 1380,
       "netIncomeMM": 720,
       "totalAcresK": 124,
-      "bookValuePerShare": 17.50,
+      "bookValuePerShare": 17.5,
       "notes": "Q3 2024: stable margins",
       "expensesBySegmentMM": {
         "COGS": 3173.5,
@@ -787,7 +817,10 @@
       "sharesOutMM": 1000,
       "bookValuePerShare": 19.02,
       "dividendPerShare": 1.5,
-      "notes": "FY24: revenue +6.3% YoY, net income +13%; expanded poultry capacity, Fondomonte alfalfa shipments to Saudi steady"
+      "notes": "FY24: revenue +6.3% YoY, net income +13%; expanded poultry capacity, Fondomonte alfalfa shipments to Saudi steady",
+      "capexMM": 2700,
+      "daMM": 1720,
+      "cfoMM": 3900
     },
     {
       "endDate": "2025-03-31",
@@ -796,7 +829,7 @@
       "ebitdaMM": 1430,
       "netIncomeMM": 770,
       "totalAcresK": 124,
-      "bookValuePerShare": 19.40,
+      "bookValuePerShare": 19.4,
       "notes": "Q1 2025: continued growth; Saudi Vision 2030 food security tailwinds",
       "expensesBySegmentMM": {
         "COGS": 3277.7,
@@ -812,7 +845,7 @@
       "ebitdaMM": 1605,
       "netIncomeMM": 880,
       "totalAcresK": 124,
-      "bookValuePerShare": 19.80,
+      "bookValuePerShare": 19.8,
       "notes": "Q2 2025: Ramadan / Hajj peak",
       "expensesBySegmentMM": {
         "COGS": 3506.1,
@@ -828,7 +861,7 @@
       "ebitdaMM": 1450,
       "netIncomeMM": 760,
       "totalAcresK": 124,
-      "bookValuePerShare": 20.20,
+      "bookValuePerShare": 20.2,
       "notes": "Q3 2025: stable across segments",
       "expensesBySegmentMM": {
         "COGS": 3341.8,

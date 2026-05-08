@@ -15,7 +15,10 @@
       "cashMM": 22100,
       "netDebtMM": 57500,
       "sharesOutMM": 2370,
-      "notes": "FY20: Pandemic disruption + record beef cycle in NA. Net revenue R$270.2bn, EBITDA R$27.0bn (margin 10.0%), NI R$4.36bn."
+      "notes": "FY20: Pandemic disruption + record beef cycle in NA. Net revenue R$270.2bn, EBITDA R$27.0bn (margin 10.0%), NI R$4.36bn.",
+      "capexMM": 5800,
+      "daMM": 6500,
+      "cfoMM": 22000
     },
     {
       "endDate": "2021-12-31",
@@ -28,7 +31,10 @@
       "cashMM": 19400,
       "netDebtMM": 71900,
       "sharesOutMM": 2370,
-      "notes": "FY21: Peak NA beef cycle. Revenue R$350.7bn (+30%), EBITDA R$44.5bn (margin 12.7%) — record year. Aggressive buyback."
+      "notes": "FY21: Peak NA beef cycle. Revenue R$350.7bn (+30%), EBITDA R$44.5bn (margin 12.7%) — record year. Aggressive buyback.",
+      "capexMM": 8100,
+      "daMM": 7800,
+      "cfoMM": 28500
     },
     {
       "endDate": "2022-12-31",
@@ -41,7 +47,10 @@
       "cashMM": 25200,
       "netDebtMM": 74600,
       "sharesOutMM": 2218,
-      "notes": "FY22: Revenue R$374.9bn (+7%), EBITDA R$32.5bn (margin 8.7%) — beef cycle began rolling over in NA."
+      "notes": "FY22: Revenue R$374.9bn (+7%), EBITDA R$32.5bn (margin 8.7%) — beef cycle began rolling over in NA.",
+      "capexMM": 9300,
+      "daMM": 9500,
+      "cfoMM": 17800
     },
     {
       "endDate": "2023-12-31",
@@ -54,7 +63,10 @@
       "cashMM": 22000,
       "netDebtMM": 87300,
       "sharesOutMM": 2217,
-      "notes": "FY23: Trough year. Revenue R$363.8bn (-3%), EBITDA R$16.0bn (margin 4.4%) — NA beef margin compression + chicken weak. Net loss R$1.1bn."
+      "notes": "FY23: Trough year. Revenue R$363.8bn (-3%), EBITDA R$16.0bn (margin 4.4%) — NA beef margin compression + chicken weak. Net loss R$1.1bn.",
+      "capexMM": 7800,
+      "daMM": 11200,
+      "cfoMM": 12500
     },
     {
       "endDate": "2024-12-31",
@@ -67,7 +79,10 @@
       "cashMM": 24800,
       "netDebtMM": 70600,
       "sharesOutMM": 2217,
-      "notes": "FY24: Recovery. Revenue R$416.1bn (+14%), EBITDA R$30.2bn (margin 7.3%), NI R$6.77bn. Leverage 2.2x. Dividend R$2.3bn."
+      "notes": "FY24: Recovery. Revenue R$416.1bn (+14%), EBITDA R$30.2bn (margin 7.3%), NI R$6.77bn. Leverage 2.2x. Dividend R$2.3bn.",
+      "capexMM": 7500,
+      "daMM": 12500,
+      "cfoMM": 26000
     }
   ]
 }

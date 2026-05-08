@@ -266,7 +266,10 @@
       "totalAcresK": 185,
       "sharesOutMM": 39.39,
       "notes": "FY10: CPO avg ~$901/t",
-      "bookValuePerShare": 7
+      "bookValuePerShare": 7,
+      "capexMM": 18,
+      "daMM": 11,
+      "cfoMM": 38
     },
     {
       "endDate": "2011-06-30",
@@ -289,7 +292,10 @@
       "totalAcresK": 205,
       "sharesOutMM": 39.39,
       "notes": "FY11: CPO peak avg ~$1,125/t",
-      "bookValuePerShare": 8
+      "bookValuePerShare": 8,
+      "capexMM": 22,
+      "daMM": 13,
+      "cfoMM": 60
     },
     {
       "endDate": "2012-06-30",
@@ -312,7 +318,10 @@
       "totalAcresK": 235,
       "sharesOutMM": 39.39,
       "notes": "FY12: CPO normalizes to ~$999/t",
-      "bookValuePerShare": 8.65
+      "bookValuePerShare": 8.65,
+      "capexMM": 24,
+      "daMM": 14,
+      "cfoMM": 45
     },
     {
       "endDate": "2013-06-30",
@@ -335,7 +344,10 @@
       "totalAcresK": 260,
       "sharesOutMM": 39.39,
       "notes": "FY13: CPO trough ~$764/t; ongoing planting",
-      "bookValuePerShare": 9.05
+      "bookValuePerShare": 9.05,
+      "capexMM": 20,
+      "daMM": 14,
+      "cfoMM": 32
     },
     {
       "endDate": "2014-06-30",
@@ -358,7 +370,10 @@
       "totalAcresK": 280,
       "sharesOutMM": 39.39,
       "notes": "FY14: CPO ~$821/t",
-      "bookValuePerShare": 9.55
+      "bookValuePerShare": 9.55,
+      "capexMM": 18,
+      "daMM": 15,
+      "cfoMM": 36
     },
     {
       "endDate": "2015-06-30",
@@ -381,7 +396,10 @@
       "totalAcresK": 290,
       "sharesOutMM": 39.39,
       "notes": "FY15: CPO trough ~$622/t; El Nino impact",
-      "bookValuePerShare": 9.85
+      "bookValuePerShare": 9.85,
+      "capexMM": 14,
+      "daMM": 15,
+      "cfoMM": 26
     },
     {
       "endDate": "2016-06-30",
@@ -404,7 +422,10 @@
       "totalAcresK": 295,
       "sharesOutMM": 39.39,
       "notes": "FY16: CPO recovers to ~$700/t avg",
-      "bookValuePerShare": 10.3
+      "bookValuePerShare": 10.3,
+      "capexMM": 12,
+      "daMM": 14,
+      "cfoMM": 33
     },
     {
       "endDate": "2017-06-30",
@@ -428,7 +449,10 @@
       "totalAcresK": 295,
       "sharesOutMM": 39.39,
       "notes": "FY17: CPO ~$715/t avg; net cash builds",
-      "bookValuePerShare": 10.95
+      "bookValuePerShare": 10.95,
+      "capexMM": 11,
+      "daMM": 14,
+      "cfoMM": 42
     },
     {
       "endDate": "2018-06-30",
@@ -452,7 +476,10 @@
       "totalAcresK": 296,
       "sharesOutMM": 39.39,
       "notes": "FY18: CPO trough ~$598/t",
-      "bookValuePerShare": 11.2
+      "bookValuePerShare": 11.2,
+      "capexMM": 10,
+      "daMM": 14,
+      "cfoMM": 30
     },
     {
       "endDate": "2019-06-30",
@@ -476,7 +503,10 @@
       "totalAcresK": 296.5,
       "sharesOutMM": 39.39,
       "notes": "FY19: CPO ~$601/t recovery into year-end",
-      "bookValuePerShare": 11.55
+      "bookValuePerShare": 11.55,
+      "capexMM": 9,
+      "daMM": 14,
+      "cfoMM": 33
     },
     {
       "endDate": "2020-06-30",
@@ -512,7 +542,10 @@
         "Malaysia": 38.4
       },
       "notes": "FY20: CPO avg ~$640/t. Net cash position reflects deleveraging; no segmental EBITDA disclosed to subdivide here.",
-      "bookValuePerShare": 12.05
+      "bookValuePerShare": 12.05,
+      "capexMM": 11,
+      "daMM": 14,
+      "cfoMM": 47
     },
     {
       "endDate": "2021-06-30",
@@ -548,7 +581,10 @@
         "Malaysia": 57
       },
       "notes": "FY21: record CPO pricing, revenue +58% YoY, EBITDA margin ~33%",
-      "bookValuePerShare": 13.2
+      "bookValuePerShare": 13.2,
+      "capexMM": 13,
+      "daMM": 15,
+      "cfoMM": 105
     },
     {
       "endDate": "2022-06-30",
@@ -584,7 +620,10 @@
         "Malaysia": 62
       },
       "notes": "FY22: record year. Cash >$180M; no material gross debt",
-      "bookValuePerShare": 14
+      "bookValuePerShare": 14,
+      "capexMM": 14,
+      "daMM": 16,
+      "cfoMM": 118
     },
     {
       "endDate": "2023-06-30",
@@ -620,7 +659,10 @@
         "Malaysia": 52
       },
       "notes": "FY23: revenue softens with CPO normalization",
-      "bookValuePerShare": 13.85
+      "bookValuePerShare": 13.85,
+      "capexMM": 14,
+      "daMM": 17,
+      "cfoMM": 78
     },
     {
       "endDate": "2024-06-30",
@@ -658,7 +700,10 @@
         "Malaysia": 56
       },
       "notes": "FY24: latest from seed. Revenue $372M, EBITDA $99M, net cash $181M, NAV/share $14.18, biological asset/property book $271M",
-      "bookValuePerShare": 14.18
+      "bookValuePerShare": 14.18,
+      "capexMM": 16,
+      "daMM": 18,
+      "cfoMM": 86
     },
     {
       "endDate": "2025-06-30",

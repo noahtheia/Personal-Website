@@ -17,8 +17,11 @@
       "totalAssetsMM": 2050,
       "sharesOutMM": 32.5,
       "bookValuePerShare": 49.85,
-      "dividendPerShare": 4.50,
-      "notes": "FY21: COVID demand for shelf-stable milk; price discipline maintained"
+      "dividendPerShare": 4.5,
+      "notes": "FY21: COVID demand for shelf-stable milk; price discipline maintained",
+      "capexMM": 35,
+      "daMM": 38,
+      "cfoMM": 80
     },
     {
       "endDate": "2022-03-31",
@@ -33,8 +36,11 @@
       "totalAssetsMM": 2150,
       "sharesOutMM": 32.5,
       "bookValuePerShare": 53.54,
-      "dividendPerShare": 5.00,
-      "notes": "FY22: input cost inflation (milk powder, packaging); pricing actions late in year"
+      "dividendPerShare": 5.0,
+      "notes": "FY22: input cost inflation (milk powder, packaging); pricing actions late in year",
+      "capexMM": 40,
+      "daMM": 40,
+      "cfoMM": 95
     },
     {
       "endDate": "2023-03-31",
@@ -49,8 +55,11 @@
       "totalAssetsMM": 2300,
       "sharesOutMM": 32.5,
       "bookValuePerShare": 58.46,
-      "dividendPerShare": 5.50,
-      "notes": "FY23: full impact of pricing flowed through; commodity easing"
+      "dividendPerShare": 5.5,
+      "notes": "FY23: full impact of pricing flowed through; commodity easing",
+      "capexMM": 50,
+      "daMM": 42,
+      "cfoMM": 110
     },
     {
       "endDate": "2024-03-31",
@@ -64,9 +73,12 @@
       "totalEquityMM": 2080,
       "totalAssetsMM": 2480,
       "sharesOutMM": 32.5,
-      "bookValuePerShare": 64.00,
-      "dividendPerShare": 6.00,
-      "notes": "FY24: record revenue and net income; export expansion across MENA"
+      "bookValuePerShare": 64.0,
+      "dividendPerShare": 6.0,
+      "notes": "FY24: record revenue and net income; export expansion across MENA",
+      "capexMM": 55,
+      "daMM": 44,
+      "cfoMM": 120
     },
     {
       "endDate": "2025-03-31",
@@ -80,9 +92,12 @@
       "totalEquityMM": 2470,
       "totalAssetsMM": 2700,
       "sharesOutMM": 32.5,
-      "bookValuePerShare": 76.00,
-      "dividendPerShare": 6.00,
-      "notes": "FY25: continued category growth; strong cash generation; bonus issue effect on shares unchanged"
+      "bookValuePerShare": 76.0,
+      "dividendPerShare": 6.0,
+      "notes": "FY25: continued category growth; strong cash generation; bonus issue effect on shares unchanged",
+      "capexMM": 50,
+      "daMM": 46,
+      "cfoMM": 130
     }
   ]
 }

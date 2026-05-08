@@ -29,7 +29,10 @@
       "sharesOutMM": 235.4,
       "epsBasic": 18.05,
       "dividendPerShare": 2.7,
-      "notes": "FY21: revenue Rs 4,170 cr. EBITDA Rs 670 cr (16% margin). PAT Rs 425 cr. Cash > debt. COVID-disrupted exports recovered late in year."
+      "notes": "FY21: revenue Rs 4,170 cr. EBITDA Rs 670 cr (16% margin). PAT Rs 425 cr. Cash > debt. COVID-disrupted exports recovered late in year.",
+      "capexMM": 1100,
+      "daMM": 1200,
+      "cfoMM": 4200
     },
     {
       "endDate": "2022-03-31",
@@ -56,7 +59,10 @@
       "sharesOutMM": 235.4,
       "epsBasic": 20.22,
       "dividendPerShare": 2.7,
-      "notes": "FY22: revenue Rs 4,340 cr (+4%). EBITDA flat at Rs 670 cr. PAT Rs 476 cr. Net cash position widening. Basmati export prices stable."
+      "notes": "FY22: revenue Rs 4,340 cr (+4%). EBITDA flat at Rs 670 cr. PAT Rs 476 cr. Net cash position widening. Basmati export prices stable.",
+      "capexMM": 1400,
+      "daMM": 1280,
+      "cfoMM": 3500
     },
     {
       "endDate": "2023-03-31",
@@ -83,7 +89,10 @@
       "sharesOutMM": 235.4,
       "epsBasic": 21.66,
       "dividendPerShare": 3.0,
-      "notes": "FY23: revenue Rs 4,950 cr (+14% YoY) on price + volume tailwinds. EBITDA Rs 735 cr. PAT Rs 510 cr."
+      "notes": "FY23: revenue Rs 4,950 cr (+14% YoY) on price + volume tailwinds. EBITDA Rs 735 cr. PAT Rs 510 cr.",
+      "capexMM": 1600,
+      "daMM": 1350,
+      "cfoMM": 4500
     },
     {
       "endDate": "2024-03-31",
@@ -110,7 +119,10 @@
       "sharesOutMM": 235.4,
       "epsBasic": 23.15,
       "dividendPerShare": 3.3,
-      "notes": "FY24: revenue Rs 5,320 cr (+7%). EBITDA Rs 790 cr. PAT Rs 545 cr. India MEP on basmati exports lifted to $1,200/ton then removed in Sep-2024 — supportive."
+      "notes": "FY24: revenue Rs 5,320 cr (+7%). EBITDA Rs 790 cr. PAT Rs 545 cr. India MEP on basmati exports lifted to $1,200/ton then removed in Sep-2024 — supportive.",
+      "capexMM": 1500,
+      "daMM": 1420,
+      "cfoMM": 5300
     },
     {
       "endDate": "2025-03-31",
@@ -137,7 +149,10 @@
       "sharesOutMM": 235.4,
       "epsBasic": 23.5,
       "dividendPerShare": 3.6,
-      "notes": "FY25: revenue Rs 5,500 cr. EBITDA Rs 830 cr (~15% margin). PAT Rs 553 cr. Continues net-cash. Export momentum post-MEP removal."
+      "notes": "FY25: revenue Rs 5,500 cr. EBITDA Rs 830 cr (~15% margin). PAT Rs 553 cr. Continues net-cash. Export momentum post-MEP removal.",
+      "capexMM": 1450,
+      "daMM": 1480,
+      "cfoMM": 5800
     }
   ]
 }

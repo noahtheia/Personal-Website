@@ -381,7 +381,10 @@
         "Distribution costs": 496.3,
         "Administrative expenses": 496.3,
         "Other operating expenses": 397
-      }
+      },
+      "capexMM": 700,
+      "daMM": 380,
+      "cfoMM": 1430
     },
     {
       "endDate": "2016-06-30",
@@ -400,7 +403,10 @@
         "Distribution costs": 488.4,
         "Administrative expenses": 488.4,
         "Other operating expenses": 390.7
-      }
+      },
+      "capexMM": 660,
+      "daMM": 410,
+      "cfoMM": 1290
     },
     {
       "endDate": "2017-06-30",
@@ -419,7 +425,10 @@
         "Distribution costs": 590.1,
         "Administrative expenses": 590.1,
         "Other operating expenses": 472.1
-      }
+      },
+      "capexMM": 640,
+      "daMM": 430,
+      "cfoMM": 1660
     },
     {
       "endDate": "2018-06-30",
@@ -438,7 +447,10 @@
         "Distribution costs": 595.2,
         "Administrative expenses": 595.2,
         "Other operating expenses": 476.1
-      }
+      },
+      "capexMM": 580,
+      "daMM": 460,
+      "cfoMM": 1410
     },
     {
       "endDate": "2019-06-30",
@@ -457,7 +469,10 @@
         "Distribution costs": 294.9,
         "Administrative expenses": 294.9,
         "Other operating expenses": 235.9
-      }
+      },
+      "capexMM": 540,
+      "daMM": 470,
+      "cfoMM": 1180
     },
     {
       "endDate": "2019-09-30",
@@ -514,7 +529,10 @@
         "Distribution costs": 315,
         "Administrative expenses": 315,
         "Other operating expenses": 252
-      }
+      },
+      "capexMM": 480,
+      "daMM": 490,
+      "cfoMM": 1660
     },
     {
       "endDate": "2020-09-30",
@@ -580,7 +598,10 @@
         "Administrative expenses": 452.6,
         "Other operating expenses": 362.1
       },
-      "bookValuePerShare": 1.59
+      "bookValuePerShare": 1.59,
+      "capexMM": 530,
+      "daMM": 510,
+      "cfoMM": 2030
     },
     {
       "endDate": "2021-09-30",
@@ -646,7 +667,10 @@
         "Administrative expenses": 631.4,
         "Other operating expenses": 505.1
       },
-      "bookValuePerShare": 1.74
+      "bookValuePerShare": 1.74,
+      "capexMM": 720,
+      "daMM": 540,
+      "cfoMM": 2480
     },
     {
       "endDate": "2022-09-30",
@@ -716,7 +740,10 @@
         "Administrative expenses": 465.7,
         "Other operating expenses": 372.6
       },
-      "bookValuePerShare": 1.8
+      "bookValuePerShare": 1.8,
+      "capexMM": 690,
+      "daMM": 580,
+      "cfoMM": 1690
     },
     {
       "endDate": "2023-09-30",
@@ -789,7 +816,10 @@
         "Administrative expenses": 380.2,
         "Other operating expenses": 304.1
       },
-      "bookValuePerShare": 1.86
+      "bookValuePerShare": 1.86,
+      "capexMM": 620,
+      "daMM": 600,
+      "cfoMM": 1410
     },
     {
       "endDate": "2024-09-30",
@@ -858,7 +888,10 @@
         "Distribution costs": 459.2,
         "Administrative expenses": 459.2,
         "Other operating expenses": 367.4
-      }
+      },
+      "capexMM": 640,
+      "daMM": 620,
+      "cfoMM": 1530
     }
   ]
 }

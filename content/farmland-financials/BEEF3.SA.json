@@ -15,7 +15,10 @@
       "cashMM": 4900,
       "netDebtMM": 3300,
       "sharesOutMM": 590,
-      "notes": "FY20: Revenue R$20.3bn, EBITDA R$1.92bn (margin 9.5%)."
+      "notes": "FY20: Revenue R$20.3bn, EBITDA R$1.92bn (margin 9.5%).",
+      "capexMM": 320,
+      "daMM": 380,
+      "cfoMM": 920
     },
     {
       "endDate": "2021-12-31",
@@ -28,7 +31,10 @@
       "cashMM": 5400,
       "netDebtMM": 4300,
       "sharesOutMM": 590,
-      "notes": "FY21: Revenue R$26.9bn (+33%), EBITDA R$2.49bn (margin 9.2%) — China demand strong."
+      "notes": "FY21: Revenue R$26.9bn (+33%), EBITDA R$2.49bn (margin 9.2%) — China demand strong.",
+      "capexMM": 400,
+      "daMM": 440,
+      "cfoMM": 1380
     },
     {
       "endDate": "2022-12-31",
@@ -41,7 +47,10 @@
       "cashMM": 6800,
       "netDebtMM": 4400,
       "sharesOutMM": 590,
-      "notes": "FY22: Revenue R$29.6bn (+10%), EBITDA R$2.88bn (margin 9.7%)."
+      "notes": "FY22: Revenue R$29.6bn (+10%), EBITDA R$2.88bn (margin 9.7%).",
+      "capexMM": 520,
+      "daMM": 510,
+      "cfoMM": 1750
     },
     {
       "endDate": "2023-12-31",
@@ -54,7 +63,10 @@
       "cashMM": 7200,
       "netDebtMM": 5900,
       "sharesOutMM": 590,
-      "notes": "FY23: Revenue R$29.4bn (-1%), EBITDA R$2.49bn (margin 8.5%) — Brazilian cattle cycle pressure on Brazil ops, offset by Uruguay/Argentina."
+      "notes": "FY23: Revenue R$29.4bn (-1%), EBITDA R$2.49bn (margin 8.5%) — Brazilian cattle cycle pressure on Brazil ops, offset by Uruguay/Argentina.",
+      "capexMM": 550,
+      "daMM": 570,
+      "cfoMM": 1450
     },
     {
       "endDate": "2024-12-31",
@@ -67,7 +79,10 @@
       "cashMM": 7100,
       "netDebtMM": 9700,
       "sharesOutMM": 587,
-      "notes": "FY24: Revenue R$38.4bn (+31% reflecting partial-year contribution from acquired Marfrig plants closed Aug 2024). EBITDA R$2.35bn (margin 6.1%) — integration costs + financial expenses on deal funding produced net loss R$360M. Net debt jumped to ~R$9.7bn. Leverage ~4.1x."
+      "notes": "FY24: Revenue R$38.4bn (+31% reflecting partial-year contribution from acquired Marfrig plants closed Aug 2024). EBITDA R$2.35bn (margin 6.1%) — integration costs + financial expenses on deal funding produced net loss R$360M. Net debt jumped to ~R$9.7bn. Leverage ~4.1x.",
+      "capexMM": 950,
+      "daMM": 1100,
+      "cfoMM": 1650
     }
   ]
 }

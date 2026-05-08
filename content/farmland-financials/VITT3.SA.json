@@ -2,8 +2,7 @@
   "ticker": "VITT3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.vittia.com.br/",
-  "notes": "Vittia Fertilizantes e Biológicos (VITT3) — São Joaquim da Barra-SP based specialty fertilizer + bio-input producer. Three product lines: (1) fertilizantes especiais (foliar, organominerais, condicionadores de solo), (2) defensivos biológicos (bionematicidas/biofungicidas/bioinseticidas — fungos like Trichoderma, bactérias like Bacillus), (3) inoculantes (rhizobium for soja, azospirillum for corn/cana). IPO on B3 Novo Mercado October 2021 (R$355M primary + secondary at R$11/share). BRL reporting, calendar fiscal year. grossRevenueMM = receita bruta, revenueMM = receita líquida. Expense split: CPV (cost of product sold), G&A (despesas gerais e administrativas), D&A (depreciação), Outras (comerciais/P&D). Higher EBITDA margins (~22-25%) than commodity ag-input distributors due to specialty/biological mix. Brazilian biofertilizer market grew 30%+ CAGR 2020-2024 driven by integrated pest management adoption. 5-year FY history from CVM ITR/DFP filings + ri.vittia.com.br release decks. Pre-IPO 2020 figures from Prospecto Definitivo. Capex into new Uberaba-MG facility 2023-2024. Net debt remained low — strong cash conversion."
-,
+  "notes": "Vittia Fertilizantes e Biológicos (VITT3) — São Joaquim da Barra-SP based specialty fertilizer + bio-input producer. Three product lines: (1) fertilizantes especiais (foliar, organominerais, condicionadores de solo), (2) defensivos biológicos (bionematicidas/biofungicidas/bioinseticidas — fungos like Trichoderma, bactérias like Bacillus), (3) inoculantes (rhizobium for soja, azospirillum for corn/cana). IPO on B3 Novo Mercado October 2021 (R$355M primary + secondary at R$11/share). BRL reporting, calendar fiscal year. grossRevenueMM = receita bruta, revenueMM = receita líquida. Expense split: CPV (cost of product sold), G&A (despesas gerais e administrativas), D&A (depreciação), Outras (comerciais/P&D). Higher EBITDA margins (~22-25%) than commodity ag-input distributors due to specialty/biological mix. Brazilian biofertilizer market grew 30%+ CAGR 2020-2024 driven by integrated pest management adoption. 5-year FY history from CVM ITR/DFP filings + ri.vittia.com.br release decks. Pre-IPO 2020 figures from Prospecto Definitivo. Capex into new Uberaba-MG facility 2023-2024. Net debt remained low — strong cash conversion.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -25,7 +24,10 @@
       "sharesOutMM": 75,
       "bookValuePerShare": 1.93,
       "dividendPerShare": 0,
-      "notes": "FY20 (pré-IPO): receita líquida R$265M, EBITDA R$70M (26.4% margem). Último ano antes do IPO 10/2021. Source: Prospecto Definitivo IPO."
+      "notes": "FY20 (pré-IPO): receita líquida R$265M, EBITDA R$70M (26.4% margem). Último ano antes do IPO 10/2021. Source: Prospecto Definitivo IPO.",
+      "capexMM": 18,
+      "daMM": 12,
+      "cfoMM": 50
     },
     {
       "endDate": "2021-12-31",
@@ -47,7 +49,10 @@
       "sharesOutMM": 91.0,
       "bookValuePerShare": 6.37,
       "dividendPerShare": 0.12,
-      "notes": "FY21 (ano da IPO): receita líquida R$375M (+42% YoY), EBITDA R$100M (26.7%). IPO 10/2021 R$355M primário — caixa líquido positivo. Source: 2021 DFP."
+      "notes": "FY21 (ano da IPO): receita líquida R$375M (+42% YoY), EBITDA R$100M (26.7%). IPO 10/2021 R$355M primário — caixa líquido positivo. Source: 2021 DFP.",
+      "capexMM": 35,
+      "daMM": 20,
+      "cfoMM": 85
     },
     {
       "endDate": "2022-12-31",
@@ -69,7 +74,10 @@
       "sharesOutMM": 91.0,
       "bookValuePerShare": 7.25,
       "dividendPerShare": 0.18,
-      "notes": "FY22: receita líquida R$530M (+41% YoY), EBITDA R$145M (27.4%). Forte demanda biológicos pós-Ucrânia (substituição parcial de defensivos químicos). Net cash R$75M. Source: 2022 DFP."
+      "notes": "FY22: receita líquida R$530M (+41% YoY), EBITDA R$145M (27.4%). Forte demanda biológicos pós-Ucrânia (substituição parcial de defensivos químicos). Net cash R$75M. Source: 2022 DFP.",
+      "capexMM": 65,
+      "daMM": 32,
+      "cfoMM": 120
     },
     {
       "endDate": "2023-12-31",
@@ -90,8 +98,11 @@
       "totalEquityMM": 745,
       "sharesOutMM": 91.0,
       "bookValuePerShare": 8.19,
-      "dividendPerShare": 0.20,
-      "notes": "FY23: receita líquida R$640M (+21% YoY), EBITDA R$165M (25.8%). Capex em nova planta Uberaba-MG. Net debt volta para terreno positivo (R$40M). Source: 2023 DFP."
+      "dividendPerShare": 0.2,
+      "notes": "FY23: receita líquida R$640M (+21% YoY), EBITDA R$165M (25.8%). Capex em nova planta Uberaba-MG. Net debt volta para terreno positivo (R$40M). Source: 2023 DFP.",
+      "capexMM": 75,
+      "daMM": 45,
+      "cfoMM": 95
     },
     {
       "endDate": "2024-12-31",
@@ -113,7 +124,10 @@
       "sharesOutMM": 91.0,
       "bookValuePerShare": 8.79,
       "dividendPerShare": 0.18,
-      "notes": "FY24: receita líquida R$682M (+7% YoY) — desaceleração com queda de preços de commodities + estresse no crédito agrícola. EBITDA R$160M (23.5% margem) ligeiramente comprimida. Net debt R$120M (0.75x EBITDA). Source: 2024 DFP."
+      "notes": "FY24: receita líquida R$682M (+7% YoY) — desaceleração com queda de preços de commodities + estresse no crédito agrícola. EBITDA R$160M (23.5% margem) ligeiramente comprimida. Net debt R$120M (0.75x EBITDA). Source: 2024 DFP.",
+      "capexMM": 55,
+      "daMM": 55,
+      "cfoMM": 145
     }
   ]
 }

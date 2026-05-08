@@ -28,7 +28,10 @@
       "sharesOutMM": 2204.2,
       "epsBasic": 3.73,
       "dividendPerShare": 3.05,
-      "notes": "FY20: revenue PHP 134.2B. EBITDA PHP 18.2B. NI PHP 8.23B. COVID hit — at-home consumption boost on snacks offset by HoReCa weakness. Sugar segment soft on global price weakness."
+      "notes": "FY20: revenue PHP 134.2B. EBITDA PHP 18.2B. NI PHP 8.23B. COVID hit — at-home consumption boost on snacks offset by HoReCa weakness. Sugar segment soft on global price weakness.",
+      "capexMM": 7500,
+      "daMM": 6800,
+      "cfoMM": 21000
     },
     {
       "endDate": "2021-12-31",
@@ -54,7 +57,10 @@
       "sharesOutMM": 2204.2,
       "epsBasic": 3.22,
       "dividendPerShare": 3.05,
-      "notes": "FY21: revenue PHP 132.7B (-1%). EBITDA PHP 16.7B. NI PHP 7.09B. Continued mobility restrictions in PH; BCFG margins squeezed by input inflation."
+      "notes": "FY21: revenue PHP 132.7B (-1%). EBITDA PHP 16.7B. NI PHP 7.09B. Continued mobility restrictions in PH; BCFG margins squeezed by input inflation.",
+      "capexMM": 8200,
+      "daMM": 7100,
+      "cfoMM": 18500
     },
     {
       "endDate": "2022-12-31",
@@ -79,8 +85,11 @@
       "totalEquityMM": 84000,
       "sharesOutMM": 2204.2,
       "epsBasic": 3.59,
-      "dividendPerShare": 3.30,
-      "notes": "FY22: revenue PHP 148.8B (+12%). EBITDA PHP 16.9B. NI PHP 7.92B. Reopening + price increases lifted top-line; sugar prices recovered."
+      "dividendPerShare": 3.3,
+      "notes": "FY22: revenue PHP 148.8B (+12%). EBITDA PHP 16.9B. NI PHP 7.92B. Reopening + price increases lifted top-line; sugar prices recovered.",
+      "capexMM": 11000,
+      "daMM": 7500,
+      "cfoMM": 17500
     },
     {
       "endDate": "2023-12-31",
@@ -105,8 +114,11 @@
       "totalEquityMM": 88500,
       "sharesOutMM": 2204.2,
       "epsBasic": 5.22,
-      "dividendPerShare": 3.50,
-      "notes": "FY23: revenue PHP 159.1B (+7%). EBITDA PHP 18.5B (+9%). NI PHP 11.5B (+45%). Strong year on PH sugar price spike + branded foods volume + price."
+      "dividendPerShare": 3.5,
+      "notes": "FY23: revenue PHP 159.1B (+7%). EBITDA PHP 18.5B (+9%). NI PHP 11.5B (+45%). Strong year on PH sugar price spike + branded foods volume + price.",
+      "capexMM": 9500,
+      "daMM": 7800,
+      "cfoMM": 21500
     },
     {
       "endDate": "2024-12-31",
@@ -130,9 +142,12 @@
       "netDebtMM": 22000,
       "totalEquityMM": 91000,
       "sharesOutMM": 2204.2,
-      "epsBasic": 4.50,
-      "dividendPerShare": 4.00,
-      "notes": "FY24: revenue PHP 167B (+5%). EBITDA PHP 19.5B (+5%). NI PHP 9.92B (-14% YoY off elevated FY23 base). Sugar margins normalized; branded foods steady."
+      "epsBasic": 4.5,
+      "dividendPerShare": 4.0,
+      "notes": "FY24: revenue PHP 167B (+5%). EBITDA PHP 19.5B (+5%). NI PHP 9.92B (-14% YoY off elevated FY23 base). Sugar margins normalized; branded foods steady.",
+      "capexMM": 8800,
+      "daMM": 8100,
+      "cfoMM": 23000
     }
   ]
 }

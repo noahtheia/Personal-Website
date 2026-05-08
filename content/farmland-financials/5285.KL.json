@@ -33,7 +33,10 @@
       "bookValuePerShare": 2.46,
       "dividendPerShare": 0.045,
       "totalAcresK": 1390.0,
-      "notes": "FY17: Stub fiscal year as listed entity (Sime Darby Plantation listed on Bursa Main Market 30 Nov 2017 post Sime Darby Berhad demerger). CPO ASP RM2,790/MT. Revenue RM14.66B, EBITDA RM2.82B, PATAMI RM2.45B (boosted by demerger fair-value gains). Largest oil-palm planter globally with ~602k ha planted across MY/ID/PNG"
+      "notes": "FY17: Stub fiscal year as listed entity (Sime Darby Plantation listed on Bursa Main Market 30 Nov 2017 post Sime Darby Berhad demerger). CPO ASP RM2,790/MT. Revenue RM14.66B, EBITDA RM2.82B, PATAMI RM2.45B (boosted by demerger fair-value gains). Largest oil-palm planter globally with ~602k ha planted across MY/ID/PNG",
+      "capexMM": 720,
+      "daMM": 750,
+      "cfoMM": 1380
     },
     {
       "endDate": "2018-12-31",
@@ -64,7 +67,10 @@
       "bookValuePerShare": 2.38,
       "dividendPerShare": 0.04,
       "totalAcresK": 1395.0,
-      "notes": "FY18: Full first year as listed company; consolidated New Britain Palm Oil 100%. CPO ASP weakened to RM2,235/MT on Indonesian oversupply. Revenue RM13.33B (-9% YoY), EBITDA RM1.85B, PATAMI RM615M"
+      "notes": "FY18: Full first year as listed company; consolidated New Britain Palm Oil 100%. CPO ASP weakened to RM2,235/MT on Indonesian oversupply. Revenue RM13.33B (-9% YoY), EBITDA RM1.85B, PATAMI RM615M",
+      "capexMM": 950,
+      "daMM": 980,
+      "cfoMM": 1490
     },
     {
       "endDate": "2019-12-31",
@@ -95,7 +101,10 @@
       "bookValuePerShare": 2.34,
       "dividendPerShare": 0.025,
       "totalAcresK": 1395.0,
-      "notes": "FY19: Revenue RM12.79B, EBITDA RM1.62B, PATAMI RM25M (near break-even — impairments + lower CPO ASP RM2,080/MT through 1H, late-year rally). B20 biodiesel mandate launched"
+      "notes": "FY19: Revenue RM12.79B, EBITDA RM1.62B, PATAMI RM25M (near break-even — impairments + lower CPO ASP RM2,080/MT through 1H, late-year rally). B20 biodiesel mandate launched",
+      "capexMM": 880,
+      "daMM": 1010,
+      "cfoMM": 1290
     },
     {
       "endDate": "2020-03-31",
@@ -197,7 +206,10 @@
       "cpoExtractionRatePct": 21.5,
       "pkExtractionRatePct": 5.0,
       "matureHectaresK": 504,
-      "notes": "FY20: Revenue RM13.83B (+8% YoY), EBITDA RM2.41B, PATAMI RM980M. CPO ASP avg RM2,685/MT. Impacted by COVID-19 + US CBP WRO from Sep 2020"
+      "notes": "FY20: Revenue RM13.83B (+8% YoY), EBITDA RM2.41B, PATAMI RM980M. CPO ASP avg RM2,685/MT. Impacted by COVID-19 + US CBP WRO from Sep 2020",
+      "capexMM": 720,
+      "daMM": 1040,
+      "cfoMM": 2780
     },
     {
       "endDate": "2021-03-31",
@@ -299,7 +311,10 @@
       "cpoExtractionRatePct": 21.6,
       "pkExtractionRatePct": 5.05,
       "matureHectaresK": 504,
-      "notes": "FY21: Revenue RM18.64B (+35% YoY), EBITDA RM4.15B, PATAMI RM1.99B. CPO super-cycle year — avg ASP RM4,395/MT. Recommended single-tier dividend 14.3 sen"
+      "notes": "FY21: Revenue RM18.64B (+35% YoY), EBITDA RM4.15B, PATAMI RM1.99B. CPO super-cycle year — avg ASP RM4,395/MT. Recommended single-tier dividend 14.3 sen",
+      "capexMM": 850,
+      "daMM": 1080,
+      "cfoMM": 3160
     },
     {
       "endDate": "2022-03-31",
@@ -401,7 +416,10 @@
       "cpoExtractionRatePct": 21.4,
       "pkExtractionRatePct": 4.98,
       "matureHectaresK": 504,
-      "notes": "FY22: Revenue RM21.30B (+14% YoY), EBITDA RM4.87B, PATAMI RM2.40B record. CPO ASP avg RM5,400/MT. Total payout 21.5 sen incl special"
+      "notes": "FY22: Revenue RM21.30B (+14% YoY), EBITDA RM4.87B, PATAMI RM2.40B record. CPO ASP avg RM5,400/MT. Total payout 21.5 sen incl special",
+      "capexMM": 1020,
+      "daMM": 1140,
+      "cfoMM": 2810
     },
     {
       "endDate": "2023-03-31",
@@ -503,7 +521,10 @@
       "cpoExtractionRatePct": 21.5,
       "pkExtractionRatePct": 5.02,
       "matureHectaresK": 504,
-      "notes": "FY23: Revenue RM18.10B (-15% YoY), EBITDA RM3.01B, PATAMI RM1.05B on CPO normalization (avg ASP RM3,810/MT). US CBP modified WRO Jan 2024 allowing US imports to resume"
+      "notes": "FY23: Revenue RM18.10B (-15% YoY), EBITDA RM3.01B, PATAMI RM1.05B on CPO normalization (avg ASP RM3,810/MT). US CBP modified WRO Jan 2024 allowing US imports to resume",
+      "capexMM": 990,
+      "daMM": 1180,
+      "cfoMM": 1490
     },
     {
       "endDate": "2024-03-31",
@@ -606,7 +627,10 @@
       "cpoExtractionRatePct": 21.6,
       "pkExtractionRatePct": 5.05,
       "matureHectaresK": 504,
-      "notes": "FY24: Revenue RM19.83B (+10% YoY), EBITDA RM3.98B, PATAMI RM1.48B on CPO recovery (avg ASP RM4,180/MT). First full year as 'SD Guthrie Berhad'. NAV/share RM3.06. Acreage stepped down to ~538k ha planted as group monetized non-strategic land in MY"
+      "notes": "FY24: Revenue RM19.83B (+10% YoY), EBITDA RM3.98B, PATAMI RM1.48B on CPO recovery (avg ASP RM4,180/MT). First full year as 'SD Guthrie Berhad'. NAV/share RM3.06. Acreage stepped down to ~538k ha planted as group monetized non-strategic land in MY",
+      "capexMM": 950,
+      "daMM": 1200,
+      "cfoMM": 1900
     },
     {
       "endDate": "2025-03-31",

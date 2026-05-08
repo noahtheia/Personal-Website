@@ -17,8 +17,11 @@
       "totalAssetsMM": 28800,
       "sharesOutMM": 800,
       "bookValuePerShare": 11.81,
-      "dividendPerShare": 0.50,
-      "notes": "FY20: COVID surge in retail/foods staples; Panda contributed ~half of group revenue"
+      "dividendPerShare": 0.5,
+      "notes": "FY20: COVID surge in retail/foods staples; Panda contributed ~half of group revenue",
+      "capexMM": 480,
+      "daMM": 690,
+      "cfoMM": 1900
     },
     {
       "endDate": "2021-12-31",
@@ -33,8 +36,11 @@
       "totalAssetsMM": 29400,
       "sharesOutMM": 800,
       "bookValuePerShare": 12.13,
-      "dividendPerShare": 0.50,
-      "notes": "FY21: edible-oil cost inflation pressured Foods margins"
+      "dividendPerShare": 0.5,
+      "notes": "FY21: edible-oil cost inflation pressured Foods margins",
+      "capexMM": 550,
+      "daMM": 720,
+      "cfoMM": 1450
     },
     {
       "endDate": "2022-12-31",
@@ -50,7 +56,10 @@
       "sharesOutMM": 800,
       "bookValuePerShare": 8.88,
       "dividendPerShare": 0.0,
-      "notes": "FY22: Panda restructuring / impairment SAR ~3bn; commodity squeeze on Foods"
+      "notes": "FY22: Panda restructuring / impairment SAR ~3bn; commodity squeeze on Foods",
+      "capexMM": 620,
+      "daMM": 760,
+      "cfoMM": 1100
     },
     {
       "endDate": "2023-12-31",
@@ -64,9 +73,12 @@
       "totalEquityMM": 7600,
       "totalAssetsMM": 25500,
       "sharesOutMM": 800,
-      "bookValuePerShare": 9.50,
+      "bookValuePerShare": 9.5,
       "dividendPerShare": 0.0,
-      "notes": "FY23: Panda divestment progressing; Foods margin recovery; Almarai associate income up"
+      "notes": "FY23: Panda divestment progressing; Foods margin recovery; Almarai associate income up",
+      "capexMM": 580,
+      "daMM": 780,
+      "cfoMM": 1620
     },
     {
       "endDate": "2024-12-31",
@@ -80,9 +92,12 @@
       "totalEquityMM": 11600,
       "totalAssetsMM": 26800,
       "sharesOutMM": 800,
-      "bookValuePerShare": 14.50,
+      "bookValuePerShare": 14.5,
       "dividendPerShare": 0.0,
-      "notes": "FY24: cleaner business mix; Almarai associate contribution material; book value rebuild"
+      "notes": "FY24: cleaner business mix; Almarai associate contribution material; book value rebuild",
+      "capexMM": 600,
+      "daMM": 800,
+      "cfoMM": 1750
     }
   ]
 }

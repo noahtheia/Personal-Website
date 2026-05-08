@@ -21,7 +21,10 @@
       "sharesOutMM": 62.5,
       "bookValuePerShare": 16.6,
       "dividendPerShare": 0.85,
-      "notes": "FY20/21 (ended Feb 28 2021): revenue EUR 2.55B (-5% YoY pandemic effect). EBITDA EUR 168M. Sugar segment loss-making. Net income EUR 31M."
+      "notes": "FY20/21 (ended Feb 28 2021): revenue EUR 2.55B (-5% YoY pandemic effect). EBITDA EUR 168M. Sugar segment loss-making. Net income EUR 31M.",
+      "capexMM": 90,
+      "daMM": 110,
+      "cfoMM": 180
     },
     {
       "endDate": "2022-02-28",
@@ -39,8 +42,11 @@
       "netDebtMM": 565,
       "sharesOutMM": 62.5,
       "bookValuePerShare": 17.1,
-      "dividendPerShare": 0.90,
-      "notes": "FY21/22 (ended Feb 28 2022): revenue EUR 2.93B (+15%). EBITDA EUR 207M. Recovery in Sugar segment, strong Fruit. Net income EUR 78M."
+      "dividendPerShare": 0.9,
+      "notes": "FY21/22 (ended Feb 28 2022): revenue EUR 2.93B (+15%). EBITDA EUR 207M. Recovery in Sugar segment, strong Fruit. Net income EUR 78M.",
+      "capexMM": 95,
+      "daMM": 115,
+      "cfoMM": 175
     },
     {
       "endDate": "2023-02-28",
@@ -58,8 +64,11 @@
       "netDebtMM": 740,
       "sharesOutMM": 62.5,
       "bookValuePerShare": 17.0,
-      "dividendPerShare": 0.90,
-      "notes": "FY22/23 (ended Feb 28 2023): revenue EUR 3.64B (+24%) on energy/beet cost pass-through. EBITDA EUR 195M. Net income EUR 16M (margin pressure). Sugar swung positive on price."
+      "dividendPerShare": 0.9,
+      "notes": "FY22/23 (ended Feb 28 2023): revenue EUR 3.64B (+24%) on energy/beet cost pass-through. EBITDA EUR 195M. Net income EUR 16M (margin pressure). Sugar swung positive on price.",
+      "capexMM": 110,
+      "daMM": 120,
+      "cfoMM": 90
     },
     {
       "endDate": "2024-02-29",
@@ -78,7 +87,10 @@
       "sharesOutMM": 62.5,
       "bookValuePerShare": 17.9,
       "dividendPerShare": 0.95,
-      "notes": "FY23/24 (ended Feb 29 2024): revenue EUR 3.78B (+4%). EBITDA EUR 295M (+51%) on Sugar peak. Net income EUR 109M. Strong year for sugar segment, fruit margins recovering."
+      "notes": "FY23/24 (ended Feb 29 2024): revenue EUR 3.78B (+4%). EBITDA EUR 295M (+51%) on Sugar peak. Net income EUR 109M. Strong year for sugar segment, fruit margins recovering.",
+      "capexMM": 130,
+      "daMM": 135,
+      "cfoMM": 270
     },
     {
       "endDate": "2025-02-28",
@@ -97,7 +109,10 @@
       "sharesOutMM": 62.5,
       "bookValuePerShare": 17.6,
       "dividendPerShare": 0.85,
-      "notes": "FY24/25 (ended Feb 28 2025): revenue EUR 3.57B (-6%) on EU sugar price normalization. EBITDA EUR 215M (-27%). Net income EUR 55M. Sugar segment back to mid-cycle."
+      "notes": "FY24/25 (ended Feb 28 2025): revenue EUR 3.57B (-6%) on EU sugar price normalization. EBITDA EUR 215M (-27%). Net income EUR 55M. Sugar segment back to mid-cycle.",
+      "capexMM": 140,
+      "daMM": 145,
+      "cfoMM": 230
     }
   ]
 }

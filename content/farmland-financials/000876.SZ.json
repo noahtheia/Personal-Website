@@ -14,7 +14,10 @@
       "cashMM": 14200,
       "netDebtMM": 18200,
       "sharesOutMM": 4500,
-      "notes": "FY20: Peak hog prices + feed volume growth. Revenue RMB109.9bn (+33%), EBITDA RMB11.25bn (margin 10.2%), NI RMB4.94bn."
+      "notes": "FY20: Peak hog prices + feed volume growth. Revenue RMB109.9bn (+33%), EBITDA RMB11.25bn (margin 10.2%), NI RMB4.94bn.",
+      "capexMM": 14000,
+      "daMM": 1700,
+      "cfoMM": 8500
     },
     {
       "endDate": "2021-12-31",
@@ -26,7 +29,10 @@
       "cashMM": 11200,
       "netDebtMM": 38300,
       "sharesOutMM": 4500,
-      "notes": "FY21: Disaster year — hog price crash + biological asset writedowns + heavy expansion capex. Revenue RMB126.3bn (+15%), EBITDA -RMB3.2bn, NI -RMB9.6bn (record loss). Leverage ballooned."
+      "notes": "FY21: Disaster year — hog price crash + biological asset writedowns + heavy expansion capex. Revenue RMB126.3bn (+15%), EBITDA -RMB3.2bn, NI -RMB9.6bn (record loss). Leverage ballooned.",
+      "capexMM": 18000,
+      "daMM": 2700,
+      "cfoMM": -2500
     },
     {
       "endDate": "2022-12-31",
@@ -38,7 +44,10 @@
       "cashMM": 14500,
       "netDebtMM": 39300,
       "sharesOutMM": 4500,
-      "notes": "FY22: Recovery — feed segment stable, hog prices recovered 2H22. Revenue RMB139.1bn (+10%), EBITDA RMB6.85bn (margin 4.9%), NI ~RMB25M (breakeven)."
+      "notes": "FY22: Recovery — feed segment stable, hog prices recovered 2H22. Revenue RMB139.1bn (+10%), EBITDA RMB6.85bn (margin 4.9%), NI ~RMB25M (breakeven).",
+      "capexMM": 9500,
+      "daMM": 3500,
+      "cfoMM": 1100
     },
     {
       "endDate": "2023-12-31",
@@ -50,7 +59,10 @@
       "cashMM": 16100,
       "netDebtMM": 40300,
       "sharesOutMM": 4540,
-      "notes": "FY23: Trough cycle — hog losses + feed gross margin compressed. Revenue RMB141.8bn, EBITDA RMB1.45bn (margin 1.0%), NI -RMB2.95bn. Asset divestments reduced debt."
+      "notes": "FY23: Trough cycle — hog losses + feed gross margin compressed. Revenue RMB141.8bn, EBITDA RMB1.45bn (margin 1.0%), NI -RMB2.95bn. Asset divestments reduced debt.",
+      "capexMM": 4500,
+      "daMM": 3900,
+      "cfoMM": 4400
     },
     {
       "endDate": "2024-12-31",
@@ -62,7 +74,10 @@
       "cashMM": 17800,
       "netDebtMM": 33200,
       "sharesOutMM": 4540,
-      "notes": "FY24: Revenue RMB103bn (-27% on poultry/feed divestments + lower volumes); hog cycle improved. EBITDA RMB5.3bn (margin 5.1%), NI RMB487M (back to profit). Net debt down to RMB33bn (~6.3x)."
+      "notes": "FY24: Revenue RMB103bn (-27% on poultry/feed divestments + lower volumes); hog cycle improved. EBITDA RMB5.3bn (margin 5.1%), NI RMB487M (back to profit). Net debt down to RMB33bn (~6.3x).",
+      "capexMM": 3200,
+      "daMM": 4100,
+      "cfoMM": 6300
     }
   ]
 }

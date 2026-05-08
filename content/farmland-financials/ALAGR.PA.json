@@ -85,7 +85,10 @@
       "totalAcresK": 296,
       "sharesOutMM": 35,
       "notes": "FY13: Harmelia merger; land bank ~120,000 ha. Heavy debt",
-      "bookValuePerShare": 1.85
+      "bookValuePerShare": 1.85,
+      "capexMM": 5,
+      "daMM": 6,
+      "cfoMM": 6
     },
     {
       "endDate": "2014-06-30",
@@ -108,7 +111,10 @@
       "totalAcresK": 247,
       "sharesOutMM": 40,
       "notes": "FY14: Argentine sale; UAH collapse; first debt restructuring",
-      "bookValuePerShare": 1.1
+      "bookValuePerShare": 1.1,
+      "capexMM": 4,
+      "daMM": 6,
+      "cfoMM": 4
     },
     {
       "endDate": "2015-06-30",
@@ -130,7 +136,10 @@
       "totalAcresK": 198,
       "sharesOutMM": 50,
       "notes": "FY15: continued land bank reduction; debt swap",
-      "bookValuePerShare": 0.7
+      "bookValuePerShare": 0.7,
+      "capexMM": 3,
+      "daMM": 5,
+      "cfoMM": 4
     },
     {
       "endDate": "2016-06-30",
@@ -152,7 +161,10 @@
       "totalAcresK": 148,
       "sharesOutMM": 60,
       "notes": "FY16: lease non-renewals; major debt swap completed",
-      "bookValuePerShare": 0.55
+      "bookValuePerShare": 0.55,
+      "capexMM": 2,
+      "daMM": 4,
+      "cfoMM": 5
     },
     {
       "endDate": "2017-06-30",
@@ -174,7 +186,10 @@
       "totalAcresK": 124,
       "sharesOutMM": 65,
       "notes": "FY17: first profitable year post-restructuring",
-      "bookValuePerShare": 0.5
+      "bookValuePerShare": 0.5,
+      "capexMM": 2,
+      "daMM": 4,
+      "cfoMM": 6
     },
     {
       "endDate": "2018-06-30",
@@ -196,7 +211,10 @@
       "totalAcresK": 99,
       "sharesOutMM": 70,
       "notes": "FY18: continued footprint reduction",
-      "bookValuePerShare": 0.48
+      "bookValuePerShare": 0.48,
+      "capexMM": 2,
+      "daMM": 4,
+      "cfoMM": 4
     },
     {
       "endDate": "2019-06-30",
@@ -218,7 +236,10 @@
       "totalAcresK": 80,
       "sharesOutMM": 80,
       "notes": "FY19: stable Kharkiv-region focused operations",
-      "bookValuePerShare": 0.45
+      "bookValuePerShare": 0.45,
+      "capexMM": 2,
+      "daMM": 4,
+      "cfoMM": 5
     },
     {
       "endDate": "2020-12-31",
@@ -233,7 +254,10 @@
       "totalAcresK": 70.4,
       "notes": "FY20: pre-war stable operations",
       "bookValuePerShare": 0.42,
-      "sharesOutMM": 84
+      "sharesOutMM": 84,
+      "capexMM": 2,
+      "daMM": 3,
+      "cfoMM": 6
     },
     {
       "endDate": "2021-06-30",
@@ -254,7 +278,10 @@
       "totalAcresK": 70.4,
       "notes": "FY21: commodity rally",
       "bookValuePerShare": 0.4,
-      "sharesOutMM": 88
+      "sharesOutMM": 88,
+      "capexMM": 2,
+      "daMM": 3,
+      "cfoMM": 5
     },
     {
       "endDate": "2022-06-30",
@@ -276,7 +303,10 @@
       "totalAcresK": 70.4,
       "notes": "FY22: war write-downs; equipment losses in Kharkiv region",
       "bookValuePerShare": 0.3,
-      "sharesOutMM": 92
+      "sharesOutMM": 92,
+      "capexMM": 1,
+      "daMM": 3,
+      "cfoMM": 2
     },
     {
       "endDate": "2023-06-30",
@@ -297,7 +327,10 @@
       "totalAcresK": 70.4,
       "notes": "FY23: partial recovery; equity recapitalisation completed",
       "bookValuePerShare": 0.135,
-      "sharesOutMM": 96
+      "sharesOutMM": 96,
+      "capexMM": 1,
+      "daMM": 3,
+      "cfoMM": 3
     },
     {
       "endDate": "2024-06-30",
@@ -323,7 +356,10 @@
       "navPerShare": 0.111,
       "propertyBookMM": 3,
       "notes": "FY24 per seed-comps: revenue €22.6M, EBITDA €5.7M, net debt €9.19M, NAV/share €0.111. Filing 2025-06-30. Property book minimal (€3M) reflects Ukrainian farmland is leased not owned.",
-      "bookValuePerShare": 0.111
+      "bookValuePerShare": 0.111,
+      "capexMM": 1,
+      "daMM": 3,
+      "cfoMM": 4
     }
   ]
 }

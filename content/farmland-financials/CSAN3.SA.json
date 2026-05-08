@@ -15,7 +15,10 @@
       "cashMM": 9800,
       "netDebtMM": 22700,
       "sharesOutMM": 1872,
-      "notes": "FY20 (pre-2021 reorg / Compass spinoff included): Revenue R$21.1bn, EBITDA R$5.86bn."
+      "notes": "FY20 (pre-2021 reorg / Compass spinoff included): Revenue R$21.1bn, EBITDA R$5.86bn.",
+      "capexMM": 4500,
+      "daMM": 4200,
+      "cfoMM": 7800
     },
     {
       "endDate": "2021-12-31",
@@ -28,7 +31,10 @@
       "cashMM": 11400,
       "netDebtMM": 27200,
       "sharesOutMM": 1872,
-      "notes": "FY21: Revenue R$24.4bn, EBITDA R$7.4bn — Raízen IPO Aug 2021 raised R$6.9bn; reorganization year."
+      "notes": "FY21: Revenue R$24.4bn, EBITDA R$7.4bn — Raízen IPO Aug 2021 raised R$6.9bn; reorganization year.",
+      "capexMM": 6800,
+      "daMM": 5100,
+      "cfoMM": 9500
     },
     {
       "endDate": "2022-12-31",
@@ -41,7 +47,10 @@
       "cashMM": 13900,
       "netDebtMM": 39900,
       "sharesOutMM": 1872,
-      "notes": "FY22: Revenue R$33.1bn (+36%), EBITDA R$11.8bn — Vale stake acquired (~R$23bn collar funded), drove leverage up."
+      "notes": "FY22: Revenue R$33.1bn (+36%), EBITDA R$11.8bn — Vale stake acquired (~R$23bn collar funded), drove leverage up.",
+      "capexMM": 9500,
+      "daMM": 6800,
+      "cfoMM": 12500
     },
     {
       "endDate": "2023-12-31",
@@ -54,7 +63,10 @@
       "cashMM": 14600,
       "netDebtMM": 34900,
       "sharesOutMM": 1872,
-      "notes": "FY23: Revenue R$39.2bn (+19%), EBITDA R$13.1bn (margin 33.3%). Vale dividends supported NI. Net debt reduced via Compass divestments + Moove dividend recap."
+      "notes": "FY23: Revenue R$39.2bn (+19%), EBITDA R$13.1bn (margin 33.3%). Vale dividends supported NI. Net debt reduced via Compass divestments + Moove dividend recap.",
+      "capexMM": 11200,
+      "daMM": 8500,
+      "cfoMM": 14500
     },
     {
       "endDate": "2024-12-31",
@@ -67,7 +79,10 @@
       "cashMM": 12700,
       "netDebtMM": 38700,
       "sharesOutMM": 1872,
-      "notes": "FY24: Revenue R$41.7bn (+6%), EBITDA R$12.8bn (margin 30.8%). Net loss ~R$4.5bn driven by mark-to-market on Vale collar + monetization losses (~R$7bn impact). Moove IPO pulled in 2024. Leverage at holdco elevated; deleveraging plan announced."
+      "notes": "FY24: Revenue R$41.7bn (+6%), EBITDA R$12.8bn (margin 30.8%). Net loss ~R$4.5bn driven by mark-to-market on Vale collar + monetization losses (~R$7bn impact). Moove IPO pulled in 2024. Leverage at holdco elevated; deleveraging plan announced.",
+      "capexMM": 12500,
+      "daMM": 10500,
+      "cfoMM": 15800
     }
   ]
 }

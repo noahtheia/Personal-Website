@@ -268,7 +268,10 @@
       "totalAcresK": 295,
       "epsBasic": 1.1,
       "notes": "FY 2019/20 (Jul19-Jun20): Receita líquida R$655M, EBITDA Aj R$195M. COVID + BRL devaluation tailwind for export commodities. Imobiliário R$95M from farm dispositions. Source: 2019/20 DFP",
-      "bookValuePerShare": 11.75
+      "bookValuePerShare": 11.75,
+      "capexMM": 75,
+      "daMM": 36,
+      "cfoMM": 130
     },
     {
       "endDate": "2020-09-30",
@@ -316,8 +319,8 @@
       "ebitdaMM": 70,
       "netIncomeMM": 38,
       "totalAcresK": 308,
-      "bookValuePerShare": 12.60,
-      "navPerShare": 12.60,
+      "bookValuePerShare": 12.6,
+      "navPerShare": 12.6,
       "notes": "2T FY20/21: Receita líquida R$200M includes ~R$60M farm-sale (Imobiliário) contribution. EBITDA Aj R$70M. PL/share interpolated FY19/20→FY20/21."
     },
     {
@@ -401,7 +404,10 @@
       "epsBasic": 1.24,
       "dividendPerShare": 0.83,
       "notes": "FY 2020/21 (Jul20-Jun21): Receita líquida R$818M, EBITDA Aj R$240M. Strong soy + cattle year",
-      "bookValuePerShare": 13.45
+      "bookValuePerShare": 13.45,
+      "capexMM": 95,
+      "daMM": 42,
+      "cfoMM": 175
     },
     {
       "endDate": "2021-09-30",
@@ -499,8 +505,8 @@
       "ebitdaMM": 60,
       "netIncomeMM": 32,
       "totalAcresK": 312,
-      "bookValuePerShare": 15.00,
-      "navPerShare": 15.00,
+      "bookValuePerShare": 15.0,
+      "navPerShare": 15.0,
       "notes": "4T FY21/22: Receita líquida R$260M, EBITDA Aj R$60M. PL/share = FY21/22 (R$15.00)."
     },
     {
@@ -534,7 +540,10 @@
       "epsBasic": 1.7,
       "dividendPerShare": 1.05,
       "notes": "FY 2021/22 (Jul21-Jun22): Receita líquida R$992M, EBITDA Aj R$293M. Includes ~R$165M of farm dispositions (Imobiliário) — Chaparral, Alto Taquari sales",
-      "bookValuePerShare": 15
+      "bookValuePerShare": 15,
+      "capexMM": 130,
+      "daMM": 49,
+      "cfoMM": 215
     },
     {
       "endDate": "2022-09-30",
@@ -557,8 +566,8 @@
       "ebitdaMM": 45,
       "netIncomeMM": 22,
       "totalAcresK": 318,
-      "bookValuePerShare": 15.30,
-      "navPerShare": 15.30,
+      "bookValuePerShare": 15.3,
+      "navPerShare": 15.3,
       "notes": "1T FY22/23: Receita líquida R$182M, EBITDA Aj R$45M. PL/share interpolated FY21/22 (R$15.00) → FY22/23 (R$16.20)."
     },
     {
@@ -582,8 +591,8 @@
       "ebitdaMM": 110,
       "netIncomeMM": 65,
       "totalAcresK": 318,
-      "bookValuePerShare": 15.60,
-      "navPerShare": 15.60,
+      "bookValuePerShare": 15.6,
+      "navPerShare": 15.6,
       "notes": "2T FY22/23: Receita líquida R$282M, EBITDA Aj R$110M (Imobiliário concentrated quarter). PL/share interpolated FY21/22→FY22/23."
     },
     {
@@ -607,8 +616,8 @@
       "ebitdaMM": 100,
       "netIncomeMM": 55,
       "totalAcresK": 318,
-      "bookValuePerShare": 15.90,
-      "navPerShare": 15.90,
+      "bookValuePerShare": 15.9,
+      "navPerShare": 15.9,
       "notes": "3T FY22/23: Receita líquida R$345M (soy peak quarter), EBITDA Aj R$100M. PL/share interpolated FY21/22→FY22/23."
     },
     {
@@ -632,8 +641,8 @@
       "ebitdaMM": 60,
       "netIncomeMM": 28,
       "totalAcresK": 318,
-      "bookValuePerShare": 16.20,
-      "navPerShare": 16.20,
+      "bookValuePerShare": 16.2,
+      "navPerShare": 16.2,
       "notes": "4T FY22/23: Receita líquida R$290M, EBITDA Aj R$60M. PL/share = FY22/23 (R$16.20)."
     },
     {
@@ -669,7 +678,10 @@
       "epsBasic": 1.7,
       "dividendPerShare": 1.2,
       "notes": "FY 2022/23 (Jul22-Jun23): Receita líquida R$1.099B (+11% YoY), EBITDA Aj R$315M. Imobiliário R$211M (largest segment by margin) — São José + Alto Taquari sales. Annual independent land appraisal R$3.45B",
-      "bookValuePerShare": 16.2
+      "bookValuePerShare": 16.2,
+      "capexMM": 175,
+      "daMM": 55,
+      "cfoMM": 165
     },
     {
       "endDate": "2023-09-30",
@@ -804,7 +816,10 @@
       "epsBasic": 0.95,
       "dividendPerShare": 0.5,
       "notes": "FY 2023/24 (Jul23-Jun24): Receita líquida R$885M (-19% YoY on soy + corn price reset), EBITDA Aj R$215M. Imobiliário R$160M from continued Alto Taquari + Preferência sales",
-      "bookValuePerShare": 17.03
+      "bookValuePerShare": 17.03,
+      "capexMM": 165,
+      "daMM": 58,
+      "cfoMM": 110
     },
     {
       "endDate": "2024-09-30",
@@ -940,7 +955,10 @@
       "epsBasic": 1,
       "dividendPerShare": 0.55,
       "notes": "FY 2024/25 (Jul24-Jun25): Receita líquida R$877.4M, EBITDA Aj R$267M (+24% YoY), lucro líquido R$100M. Net debt R$1.168B reflects continued land-development capex. NAV/share R$21.74 = book value of equity per share. Filed Sep-15 2025",
-      "bookValuePerShare": 17.54
+      "bookValuePerShare": 17.54,
+      "capexMM": 145,
+      "daMM": 65,
+      "cfoMM": 195
     },
     {
       "endDate": "2025-09-30",

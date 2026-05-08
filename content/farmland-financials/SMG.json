@@ -2,7 +2,7 @@
   "ticker": "SMG",
   "currency": "USD",
   "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000825542&type=10-K",
-  "notes": "Scotts Miracle-Gro Co (NYSE: SMG). Largest US consumer lawn & garden brand (Scotts, Miracle-Gro, Roundup distribution agreement) plus Hawthorne Gardening (indoor / hydroponics, Gen 1 cannabis-cultivation supplier). Fiscal year ends last Saturday of September. Data from SEC EDGAR XBRL companyfacts (CIK 0000825542). EBITDA = operating income + D&A. Net debt = LongTermDebtNoncurrent + LongTermDebtCurrent − cash. FY21 was peak (COVID gardening boom + Hawthorne hydroponics demand pull from cannabis legalization wave); FY22-24 collapse driven by post-COVID consumer rollback PLUS Hawthorne cannabis-segment crash (revenue fell from $1.4B FY21 to <$300M by FY24, multi-billion goodwill writedowns). Heavy debt-paydown campaign FY23-25; FY25 profitability returning to core US Consumer.",
+  "notes": "Scotts Miracle-Gro Co (NYSE: SMG). Largest US consumer lawn & garden brand (Scotts, Miracle-Gro, Roundup distribution agreement) plus Hawthorne Gardening (indoor / hydroponics, Gen 1 cannabis-cultivation supplier). Fiscal year ends last Saturday of September. Data from SEC EDGAR XBRL companyfacts (CIK 0000825542). EBITDA = operating income + D&A. Net debt = LongTermDebtNoncurrent + LongTermDebtCurrent \u2212 cash. FY21 was peak (COVID gardening boom + Hawthorne hydroponics demand pull from cannabis legalization wave); FY22-24 collapse driven by post-COVID consumer rollback PLUS Hawthorne cannabis-segment crash (revenue fell from $1.4B FY21 to <$300M by FY24, multi-billion goodwill writedowns). Heavy debt-paydown campaign FY23-25; FY25 profitability returning to core US Consumer.",
   "periods": [
     {
       "endDate": "2021-09-30",
@@ -15,10 +15,13 @@
       "cashMM": 244.1,
       "netDebtMM": 2050.4,
       "sharesOutMM": 55.6,
-      "epsBasic": 9.20,
-      "epsDiluted": 9.20,
+      "epsBasic": 9.2,
+      "epsDiluted": 9.2,
       "dividendPerShare": 2.52,
-      "notes": "FY21: peak year. Revenue $4.93B (+19% YoY) on COVID lawn/garden boom + Hawthorne hydroponics (cannabis cultivation pull-through). Op income $723M + D&A $93.8M = EBITDA $816.8M. Net income $512.5M, EPS $9.20."
+      "notes": "FY21: peak year. Revenue $4.93B (+19% YoY) on COVID lawn/garden boom + Hawthorne hydroponics (cannabis cultivation pull-through). Op income $723M + D&A $93.8M = EBITDA $816.8M. Net income $512.5M, EPS $9.20.",
+      "capexMM": 106.9,
+      "daMM": 93.8,
+      "cfoMM": 271.5
     },
     {
       "endDate": "2022-09-30",
@@ -34,7 +37,10 @@
       "epsBasic": -7.88,
       "epsDiluted": -7.88,
       "dividendPerShare": 2.64,
-      "notes": "FY22: revenue −20% YoY to $3.92B as COVID gardening reversed. Op loss −$434M (Hawthorne goodwill / asset writedowns) + D&A $105.2M = EBITDA −$328.8M. Net loss −$437.5M, EPS −$7.88. Net debt swelled to $2.88B."
+      "notes": "FY22: revenue \u221220% YoY to $3.92B as COVID gardening reversed. Op loss \u2212$434M (Hawthorne goodwill / asset writedowns) + D&A $105.2M = EBITDA \u2212$328.8M. Net loss \u2212$437.5M, EPS \u2212$7.88. Net debt swelled to $2.88B.",
+      "capexMM": 113.5,
+      "daMM": 105.2,
+      "cfoMM": -129.0
     },
     {
       "endDate": "2023-09-30",
@@ -50,7 +56,10 @@
       "epsBasic": -6.79,
       "epsDiluted": -6.79,
       "dividendPerShare": 2.64,
-      "notes": "FY23: revenue $3.55B (−9.5%); Hawthorne segment continued bleeding (revenue cut in half). Op loss −$174M + D&A $92.5M = EBITDA −$81.9M. Net loss −$380.1M, EPS −$6.79."
+      "notes": "FY23: revenue $3.55B (\u22129.5%); Hawthorne segment continued bleeding (revenue cut in half). Op loss \u2212$174M + D&A $92.5M = EBITDA \u2212$81.9M. Net loss \u2212$380.1M, EPS \u2212$6.79.",
+      "capexMM": 92.8,
+      "daMM": 92.5,
+      "cfoMM": 531.0
     },
     {
       "endDate": "2024-09-30",
@@ -66,7 +75,10 @@
       "epsBasic": -0.61,
       "epsDiluted": -0.61,
       "dividendPerShare": 2.64,
-      "notes": "FY24: revenue flat at $3.55B but margin recovery — op income $208.8M + D&A $80.6M = EBITDA $289.4M (vs −$82M FY23). Net loss −$34.9M (interest expense + remaining Hawthorne charges). Debt paydown $383M YoY."
+      "notes": "FY24: revenue flat at $3.55B but margin recovery \u2014 op income $208.8M + D&A $80.6M = EBITDA $289.4M (vs \u2212$82M FY23). Net loss \u2212$34.9M (interest expense + remaining Hawthorne charges). Debt paydown $383M YoY.",
+      "capexMM": 84.0,
+      "daMM": 80.6,
+      "cfoMM": 667.5
     },
     {
       "endDate": "2025-09-30",
@@ -82,7 +94,10 @@
       "epsBasic": 2.52,
       "epsDiluted": 2.52,
       "dividendPerShare": 2.64,
-      "notes": "FY25: revenue $3.41B (−4%) but full margin restoration — op income $358.6M + D&A $62.7M = EBITDA $421.3M. Net income $145.2M, EPS $2.52 — first profitable year since FY21. Net debt $2.07B (-$813M from FY22 peak). Hawthorne now <8% of mix; consumer core stabilized."
+      "notes": "FY25: revenue $3.41B (\u22124%) but full margin restoration \u2014 op income $358.6M + D&A $62.7M = EBITDA $421.3M. Net income $145.2M, EPS $2.52 \u2014 first profitable year since FY21. Net debt $2.07B (-$813M from FY22 peak). Hawthorne now <8% of mix; consumer core stabilized.",
+      "capexMM": 97.4,
+      "cfoMM": 371.3,
+      "daMM": 75.0
     }
   ]
 }

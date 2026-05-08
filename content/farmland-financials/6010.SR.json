@@ -12,7 +12,7 @@
       "netIncomeMM": 12,
       "totalAcresK": 90,
       "sharesOutMM": 100,
-      "bookValuePerShare": 4.00,
+      "bookValuePerShare": 4.0,
       "notes": "FY2000: pre-dairy scale-up; mainly wheat + alfalfa + dates; Saudi government still subsidising wheat at SAR 2,000/MT. Equity ~SAR400M",
       "expensesBySegmentMM": {
         "COGS": 156.4,
@@ -29,7 +29,7 @@
       "netIncomeMM": 15,
       "totalAcresK": 95,
       "sharesOutMM": 100,
-      "bookValuePerShare": 4.10,
+      "bookValuePerShare": 4.1,
       "notes": "FY2001: dairy ramp continues. Equity ~SAR410M",
       "expensesBySegmentMM": {
         "COGS": 174.2,
@@ -46,7 +46,7 @@
       "netIncomeMM": 18,
       "totalAcresK": 100,
       "sharesOutMM": 100,
-      "bookValuePerShare": 4.20,
+      "bookValuePerShare": 4.2,
       "notes": "FY2002: agriculture diversification into vegetables / potato. Equity ~SAR420M",
       "expensesBySegmentMM": {
         "COGS": 195.5,
@@ -97,7 +97,7 @@
       "netIncomeMM": 38,
       "totalAcresK": 115,
       "sharesOutMM": 100,
-      "bookValuePerShare": 4.80,
+      "bookValuePerShare": 4.8,
       "notes": "FY2005: scale economies improving. Equity ~SAR480M",
       "expensesBySegmentMM": {
         "COGS": 323.5,
@@ -114,7 +114,7 @@
       "netIncomeMM": 45,
       "totalAcresK": 118,
       "sharesOutMM": 120,
-      "bookValuePerShare": 5.00,
+      "bookValuePerShare": 5.0,
       "notes": "FY2006: dairy market share gains. Equity ~SAR600M",
       "expensesBySegmentMM": {
         "COGS": 383.9,
@@ -131,7 +131,7 @@
       "netIncomeMM": 58,
       "totalAcresK": 120,
       "sharesOutMM": 120,
-      "bookValuePerShare": 5.40,
+      "bookValuePerShare": 5.4,
       "notes": "FY2007: commodity inflation; pricing actions. Equity ~SAR650M",
       "expensesBySegmentMM": {
         "COGS": 458.6,
@@ -148,7 +148,7 @@
       "netIncomeMM": 78,
       "totalAcresK": 122,
       "sharesOutMM": 150,
-      "bookValuePerShare": 4.80,
+      "bookValuePerShare": 4.8,
       "notes": "FY2008: peak commodity year; Saudi wheat subsidy phase-out announced (8-year glide path). Equity ~SAR720M",
       "expensesBySegmentMM": {
         "COGS": 554.6,
@@ -165,7 +165,7 @@
       "netIncomeMM": 82,
       "totalAcresK": 122,
       "sharesOutMM": 150,
-      "bookValuePerShare": 5.20,
+      "bookValuePerShare": 5.2,
       "notes": "FY2009: post-GFC, demand resilient for dairy staples. Equity ~SAR780M",
       "expensesBySegmentMM": {
         "COGS": 604.4,
@@ -186,7 +186,7 @@
       "netIncomeMM": 95,
       "totalAcresK": 124,
       "sharesOutMM": 200,
-      "bookValuePerShare": 4.30,
+      "bookValuePerShare": 4.3,
       "notes": "FY2010: first year of explicit segment reporting. Equity ~SAR860M (post-rights issue, ~200M shares)",
       "expensesBySegmentMM": {
         "COGS": 675.4,
@@ -207,7 +207,7 @@
       "netIncomeMM": 110,
       "totalAcresK": 124,
       "sharesOutMM": 220,
-      "bookValuePerShare": 4.50,
+      "bookValuePerShare": 4.5,
       "notes": "FY2011: dairy capacity expansion at Haradh. Equity ~SAR990M",
       "expensesBySegmentMM": {
         "COGS": 771.4,
@@ -228,7 +228,7 @@
       "netIncomeMM": 122,
       "totalAcresK": 124,
       "sharesOutMM": 230,
-      "bookValuePerShare": 4.60,
+      "bookValuePerShare": 4.6,
       "notes": "FY2012: stable growth. Equity ~SAR1,060M",
       "expensesBySegmentMM": {
         "COGS": 878.1,
@@ -270,7 +270,7 @@
       "netIncomeMM": 138,
       "totalAcresK": 124,
       "sharesOutMM": 247,
-      "bookValuePerShare": 5.10,
+      "bookValuePerShare": 5.1,
       "notes": "FY2014: oil price crash beginning; discretionary spend pressure. Equity ~SAR1,260M",
       "expensesBySegmentMM": {
         "COGS": 1084.3,
@@ -291,14 +291,17 @@
       "netIncomeMM": 142,
       "totalAcresK": 124,
       "sharesOutMM": 247,
-      "bookValuePerShare": 5.40,
+      "bookValuePerShare": 5.4,
       "notes": "FY2015: green-fodder phase-out announced (winding down through 2019). Equity ~SAR1,335M",
       "expensesBySegmentMM": {
         "COGS": 1183.8,
         "G&A": 169.8,
         "D&A": 131.5,
         "Other opex": -140.1
-      }
+      },
+      "capexMM": 25,
+      "daMM": 18,
+      "cfoMM": 5
     },
     {
       "endDate": "2016-12-31",
@@ -319,7 +322,10 @@
         "G&A": 178.5,
         "D&A": 138.3,
         "Other opex": -141.1
-      }
+      },
+      "capexMM": 22,
+      "daMM": 19,
+      "cfoMM": 6
     },
     {
       "endDate": "2017-12-31",
@@ -340,7 +346,10 @@
         "G&A": 167.3,
         "D&A": 129.6,
         "Other opex": -112.9
-      }
+      },
+      "capexMM": 20,
+      "daMM": 19,
+      "cfoMM": 8
     },
     {
       "endDate": "2018-12-31",
@@ -361,7 +370,10 @@
         "G&A": 175.4,
         "D&A": 135.9,
         "Other opex": -119.2
-      }
+      },
+      "capexMM": 18,
+      "daMM": 20,
+      "cfoMM": 10
     },
     {
       "endDate": "2019-12-31",
@@ -382,7 +394,10 @@
         "G&A": 190.2,
         "D&A": 147.3,
         "Other opex": -133.5
-      }
+      },
+      "capexMM": 22,
+      "daMM": 21,
+      "cfoMM": 12
     },
     {
       "endDate": "2020-03-31",
@@ -423,7 +438,7 @@
       "ebitdaMM": 105,
       "netIncomeMM": 35,
       "totalAcresK": 124,
-      "bookValuePerShare": 9.30,
+      "bookValuePerShare": 9.3,
       "notes": "Q3 2020: recovery, schools partially reopened",
       "expensesBySegmentMM": {
         "COGS": 387.5,
@@ -474,7 +489,10 @@
       "sharesOutMM": 247,
       "bookValuePerShare": 9.51,
       "dividendPerShare": 0.3,
-      "notes": "FY20: COVID-impacted year. NADEC re-listed and consolidated Wafrah merger filings. Note: Saudi government-mandated wind-down of green-fodder (alfalfa) cultivation by 2018-2019 reduced agriculture water use; replaced with potato + horticulture"
+      "notes": "FY20: COVID-impacted year. NADEC re-listed and consolidated Wafrah merger filings. Note: Saudi government-mandated wind-down of green-fodder (alfalfa) cultivation by 2018-2019 reduced agriculture water use; replaced with potato + horticulture",
+      "capexMM": 25,
+      "daMM": 22,
+      "cfoMM": 15
     },
     {
       "endDate": "2021-03-31",
@@ -483,7 +501,7 @@
       "ebitdaMM": 105,
       "netIncomeMM": 32,
       "totalAcresK": 124,
-      "bookValuePerShare": 8.30,
+      "bookValuePerShare": 8.3,
       "notes": "Q1 2021: Wafrah merger fully integrated; share count ~290M post-merger dilutes per-share NAV",
       "expensesBySegmentMM": {
         "COGS": 430.2,
@@ -499,7 +517,7 @@
       "ebitdaMM": 130,
       "netIncomeMM": 48,
       "totalAcresK": 124,
-      "bookValuePerShare": 8.40,
+      "bookValuePerShare": 8.4,
       "notes": "Q2 2021: Ramadan demand strong",
       "expensesBySegmentMM": {
         "COGS": 511.9,
@@ -566,7 +584,10 @@
       "sharesOutMM": 290,
       "bookValuePerShare": 8.69,
       "dividendPerShare": 0.4,
-      "notes": "FY21: revenue +30.6% YoY post-Wafrah; net income +84%"
+      "notes": "FY21: revenue +30.6% YoY post-Wafrah; net income +84%",
+      "capexMM": 30,
+      "daMM": 22,
+      "cfoMM": 18
     },
     {
       "endDate": "2022-03-31",
@@ -591,7 +612,7 @@
       "ebitdaMM": 152,
       "netIncomeMM": 60,
       "totalAcresK": 124,
-      "bookValuePerShare": 9.00,
+      "bookValuePerShare": 9.0,
       "notes": "Q2 2022: Ramadan + commodity peak",
       "expensesBySegmentMM": {
         "COGS": 625.7,
@@ -658,7 +679,10 @@
       "sharesOutMM": 290,
       "bookValuePerShare": 9.31,
       "dividendPerShare": 0.5,
-      "notes": "FY22: revenue +21% YoY on pricing; agriculture segment posted record on potato pricing"
+      "notes": "FY22: revenue +21% YoY on pricing; agriculture segment posted record on potato pricing",
+      "capexMM": 35,
+      "daMM": 23,
+      "cfoMM": 22
     },
     {
       "endDate": "2023-03-31",
@@ -715,7 +739,7 @@
       "ebitdaMM": 148,
       "netIncomeMM": 55,
       "totalAcresK": 124,
-      "bookValuePerShare": 10.00,
+      "bookValuePerShare": 10.0,
       "notes": "Q4 2023: solid finish to record year",
       "expensesBySegmentMM": {
         "COGS": 618.6,
@@ -750,7 +774,10 @@
       "sharesOutMM": 300,
       "bookValuePerShare": 10,
       "dividendPerShare": 0.65,
-      "notes": "FY23: revenue +7.3% YoY, net income +32%; deleveraging continues"
+      "notes": "FY23: revenue +7.3% YoY, net income +32%; deleveraging continues",
+      "capexMM": 40,
+      "daMM": 24,
+      "cfoMM": 25
     },
     {
       "endDate": "2024-03-31",
@@ -759,7 +786,7 @@
       "ebitdaMM": 152,
       "netIncomeMM": 65,
       "totalAcresK": 124,
-      "bookValuePerShare": 10.20,
+      "bookValuePerShare": 10.2,
       "notes": "Q1 2024: stable growth",
       "expensesBySegmentMM": {
         "COGS": 618.6,
@@ -791,7 +818,7 @@
       "ebitdaMM": 158,
       "netIncomeMM": 70,
       "totalAcresK": 124,
-      "bookValuePerShare": 10.70,
+      "bookValuePerShare": 10.7,
       "notes": "Q3 2024: stable margins",
       "expensesBySegmentMM": {
         "COGS": 625.7,
@@ -842,7 +869,10 @@
       "sharesOutMM": 301,
       "bookValuePerShare": 15.31,
       "dividendPerShare": 0.75,
-      "notes": "FY24: revenue −0.6% YoY on category mix; major balance-sheet deleveraging — net debt swung negative (net cash) following equity raise / debt paydown"
+      "notes": "FY24: revenue −0.6% YoY on category mix; major balance-sheet deleveraging — net debt swung negative (net cash) following equity raise / debt paydown",
+      "capexMM": 38,
+      "daMM": 24,
+      "cfoMM": 28
     },
     {
       "endDate": "2025-03-31",
@@ -883,7 +913,7 @@
       "ebitdaMM": 175,
       "netIncomeMM": 80,
       "totalAcresK": 124,
-      "bookValuePerShare": 16.10,
+      "bookValuePerShare": 16.1,
       "notes": "Q3 2025: stable Agriculture potato season",
       "expensesBySegmentMM": {
         "COGS": 654.1,

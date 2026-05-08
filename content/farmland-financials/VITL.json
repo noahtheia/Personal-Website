@@ -2,7 +2,7 @@
   "ticker": "VITL",
   "currency": "USD",
   "sourceUrl": "https://investors.vitalfarms.com/financials/sec-filings/default.aspx",
-  "notes": "Vital Farms (NASDAQ: VITL) — pasture-raised eggs and butter, network of ~440 small family farms. IPO'd Aug 2020. B Corp / public benefit corporation. Fastest growth among US egg companies — share gains in shell + retail butter. Fiscal year ends late December (52/53 weeks). Egg Central Station processing facility in Springfield, MO; opened Seymour, IN facility 2025. CIK 1579733.",
+  "notes": "Vital Farms (NASDAQ: VITL) \u2014 pasture-raised eggs and butter, network of ~440 small family farms. IPO'd Aug 2020. B Corp / public benefit corporation. Fastest growth among US egg companies \u2014 share gains in shell + retail butter. Fiscal year ends late December (52/53 weeks). Egg Central Station processing facility in Springfield, MO; opened Seymour, IN facility 2025. CIK 1579733.",
   "periods": [
     {
       "endDate": "2020-12-27",
@@ -21,7 +21,10 @@
       "sharesOutMM": 39.6,
       "bookValuePerShare": 4.55,
       "dividendPerShare": 0,
-      "notes": "FY20: revenue $214M (+74%). IPO'd Aug 2020 raising ~$200M net. Net income $9.7M."
+      "notes": "FY20: revenue $214M (+74%). IPO'd Aug 2020 raising ~$200M net. Net income $9.7M.",
+      "capexMM": 10.3,
+      "daMM": 2.5,
+      "cfoMM": 11.5
     },
     {
       "endDate": "2021-12-26",
@@ -40,7 +43,10 @@
       "sharesOutMM": 40.0,
       "bookValuePerShare": 4.65,
       "dividendPerShare": 0,
-      "notes": "FY21: revenue $261M (+22%). Cost-of-feed inflation pressured margins. Net income $-7.4M."
+      "notes": "FY21: revenue $261M (+22%). Cost-of-feed inflation pressured margins. Net income $-7.4M.",
+      "capexMM": 16.7,
+      "daMM": 3.5,
+      "cfoMM": 17.7
     },
     {
       "endDate": "2022-12-25",
@@ -59,7 +65,10 @@
       "sharesOutMM": 40.4,
       "bookValuePerShare": 4.85,
       "dividendPerShare": 0,
-      "notes": "FY22: revenue $362M (+39%). HPAI-driven egg shortage benefitted Vital Farms volume + price. Net income $1.7M."
+      "notes": "FY22: revenue $362M (+39%). HPAI-driven egg shortage benefitted Vital Farms volume + price. Net income $1.7M.",
+      "capexMM": 10.5,
+      "daMM": 5.4,
+      "cfoMM": -8.1
     },
     {
       "endDate": "2023-12-31",
@@ -76,9 +85,12 @@
       "totalDebtMM": 5.0,
       "cashMM": 83.7,
       "sharesOutMM": 41.7,
-      "bookValuePerShare": 5.50,
+      "bookValuePerShare": 5.5,
       "dividendPerShare": 0,
-      "notes": "FY23: revenue $472M (+30%). Net income $25.6M ($0.61/sh). Adj EBITDA $48.5M."
+      "notes": "FY23: revenue $472M (+30%). Net income $25.6M ($0.61/sh). Adj EBITDA $48.5M.",
+      "capexMM": 11.5,
+      "daMM": 7.9,
+      "cfoMM": 50.9
     },
     {
       "endDate": "2024-12-29",
@@ -94,10 +106,13 @@
       "netDebtMM": -155.1,
       "totalDebtMM": 4.5,
       "cashMM": 159.6,
-      "sharesOutMM": 44.30,
-      "bookValuePerShare": 7.50,
+      "sharesOutMM": 44.3,
+      "bookValuePerShare": 7.5,
       "dividendPerShare": 0,
-      "notes": "FY24: revenue $606M (+28%). Net income $53.4M ($1.21/sh). Adj EBITDA $80M (13.1% margin). Cash $160M, no meaningful debt."
+      "notes": "FY24: revenue $606M (+28%). Net income $53.4M ($1.21/sh). Adj EBITDA $80M (13.1% margin). Cash $160M, no meaningful debt.",
+      "capexMM": 28.6,
+      "daMM": 9.3,
+      "cfoMM": 64.8
     }
   ]
 }

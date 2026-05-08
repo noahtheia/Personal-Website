@@ -160,9 +160,52 @@ function cellPadX(band: Band): string {
   return band === "land" ? "px-3" : "px-1.5";
 }
 
+// Direction for peer-relative coloring. "higher" → green when a cell
+// is >+1σ above sector mean; "lower" → green when below the mean
+// (e.g. cheaper EV/EBITDA is good). Columns not listed get no
+// tinting (size / debt / per-acre — direction is ambiguous).
+const DIRECTION: Partial<Record<SortKey, "higher" | "lower">> = {
+  ebitdaMargin: "higher",
+  netIncomeMargin: "higher",
+  roe: "higher",
+  roic: "higher",
+  divYield: "higher",
+  fcfYield: "higher",
+  evCapRate: "higher",
+  evEbitda: "lower",
+  priceSales: "lower",
+  priceEarnings: "lower",
+  pNav: "lower",
+};
+
+// Returns an inline-style background tint, or undefined for no tint.
+function peerToneStyle(
+  val: number | null,
+  key: SortKey,
+  mean: number | null,
+  std: number | null,
+): React.CSSProperties | undefined {
+  if (val === null || mean === null || std === null || std === 0) return undefined;
+  const dir = DIRECTION[key];
+  if (!dir) return undefined;
+  const z = (val - mean) / std;
+  if (Math.abs(z) < 1) return undefined;
+  const isGood = dir === "higher" ? z > 0 : z < 0;
+  // Lighter tint for 1-2σ, stronger for >2σ. Use the editorial
+  // positive/negative variables with an alpha blend.
+  const strong = Math.abs(z) >= 2;
+  const color = isGood ? "var(--positive)" : "var(--negative)";
+  // Color-mix is widely supported. Alpha 12% / 22% strong.
+  return {
+    backgroundColor: `color-mix(in srgb, ${color} ${strong ? 22 : 12}%, transparent)`,
+  };
+}
+
 export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
   const [sortKey, setSortKey] = useState<SortKey>("marketCapMM");
   const [dir, setDir] = useState<"asc" | "desc">("desc");
+  const [search, setSearch] = useState<string>("");
+  const [collapsed, setCollapsed] = useState<Set<string>>(new Set());
   const [visibleBands, setVisibleBands] = useState<Record<Band, boolean>>({
     market: true,
     operating: true,
@@ -187,11 +230,23 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
   const sortStillVisible = visibleColumns.some((c) => c.key === sortKey);
   const effectiveSortKey: SortKey = sortStillVisible ? sortKey : "marketCapMM";
 
-  // Group rows by {Sector — Geography}, preserve SECTOR/GEOGRAPHY_ORDER
-  // outer order; within each group, sort by the user's chosen column.
+  // Group rows by sector, preserve SECTOR_ORDER outer order; within
+  // each group, sort by the user's chosen column. Apply the search
+  // filter (matches ticker, name, or operating country, case-insensitive)
+  // before grouping so empty sectors collapse out automatically.
   const groups = useMemo(() => {
+    const q = search.trim().toLowerCase();
+    const filtered = q
+      ? rows.filter(
+          (r) =>
+            r.ticker.toLowerCase().includes(q) ||
+            r.name.toLowerCase().includes(q) ||
+            r.geography.toLowerCase().includes(q) ||
+            (r.operatingCountry ?? "").toLowerCase().includes(q),
+        )
+      : rows;
     const buckets = new Map<string, PricedFarmlandComp[]>();
-    for (const r of rows) {
+    for (const r of filtered) {
       const k = categoryKey(r);
       if (!buckets.has(k)) buckets.set(k, []);
       buckets.get(k)!.push(r);
@@ -221,7 +276,7 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
       rows: groupRows,
       stats: computeStats(groupRows),
     }));
-  }, [rows, effectiveSortKey, dir]);
+  }, [rows, effectiveSortKey, dir, search]);
 
   const overallStats = useMemo(() => computeStats(rows), [rows]);
 
@@ -233,9 +288,71 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
     }
   }
 
+  const totalShown = useMemo(
+    () => groups.reduce((s, g) => s + g.rows.length, 0),
+    [groups],
+  );
+
+  function handleExportCsv() {
+    const visibleKeys = visibleColumns.map((c) => c.key);
+    const headers = ["Ticker", "Company", "Exchange", "Operations"].concat(
+      visibleColumns.map((c) => c.label),
+    );
+    const lines: string[] = [headers.map(csvCell).join(",")];
+    for (const g of groups) {
+      for (const r of g.rows) {
+        const row = [
+          r.ticker,
+          r.name,
+          r.geography,
+          r.operatingCountry ?? r.geography,
+          ...visibleKeys.map((k) => {
+            const v = r[k] as number | null;
+            return v === null || v === undefined || !Number.isFinite(v as number)
+              ? ""
+              : String(v);
+          }),
+        ];
+        lines.push(row.map(csvCell).join(","));
+      }
+    }
+    const csv = lines.join("\n");
+    const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `agriculture-comps-${new Date().toISOString().slice(0, 10)}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
   return (
     <div className="mt-6 space-y-3">
-      <div className="flex justify-end">
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <div className="flex flex-wrap items-center gap-2">
+          <input
+            type="search"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Search ticker, name, or country…"
+            aria-label="Search comps table"
+            className="rounded-sm border border-rule bg-surface px-3 py-1.5 text-xs placeholder:text-muted focus:border-accent focus:outline-none w-72"
+          />
+          <span className="text-[11px] uppercase tracking-wider text-muted">
+            {totalShown} {totalShown === 1 ? "ticker" : "tickers"}
+            {search ? ` matching "${search}"` : ""}
+          </span>
+        </div>
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={handleExportCsv}
+            className="inline-flex items-center gap-2 rounded-sm border border-rule bg-surface px-3 py-1.5 text-xs font-medium !text-fg transition-colors hover:border-accent hover:!text-accent"
+          >
+            <span>Export CSV</span>
+          </button>
         <div className="relative">
           <button
             type="button"
@@ -300,6 +417,7 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
               </div>
             </>
           )}
+        </div>
         </div>
       </div>
       <div className="overflow-x-auto rounded-sm border border-rule bg-surface">
@@ -424,6 +542,15 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
               colCount={4 + visibleColumns.length}
               visibleColumns={visibleColumns}
               visibleBandBreaks={visibleBandBreaks}
+              isCollapsed={collapsed.has(group.key)}
+              onToggle={() =>
+                setCollapsed((c) => {
+                  const next = new Set(c);
+                  if (next.has(group.key)) next.delete(group.key);
+                  else next.add(group.key);
+                  return next;
+                })
+              }
             />
           ))}
           <tr className="border-t-2 border-rule-strong bg-bg/60 font-semibold">
@@ -472,13 +599,17 @@ function CategorySection({
   colCount,
   visibleColumns,
   visibleBandBreaks,
+  isCollapsed,
+  onToggle,
 }: {
   label: string;
   rows: PricedFarmlandComp[];
-  stats: { mean: Stats; median: Stats };
+  stats: { mean: Stats; median: Stats; std: Stats };
   colCount: number;
   visibleColumns: typeof COLUMNS;
   visibleBandBreaks: Set<number>;
+  isCollapsed: boolean;
+  onToggle: () => void;
 }) {
   return (
     <>
@@ -487,10 +618,21 @@ function CategorySection({
           colSpan={colCount}
           className="sticky left-0 z-[2] bg-[var(--accent-warm)] px-3 py-1.5 text-left font-display text-[13px] font-semibold uppercase tracking-wider !text-fg"
         >
-          {label} <span className="opacity-60">· {rows.length}</span>
+          <button
+            type="button"
+            onClick={onToggle}
+            aria-expanded={!isCollapsed}
+            className="inline-flex items-center gap-2 !text-fg no-underline hover:!text-fg-soft"
+          >
+            <span aria-hidden="true" className="text-[10px]">
+              {isCollapsed ? "▸" : "▾"}
+            </span>
+            <span>{label}</span>
+            <span className="opacity-60">· {rows.length}</span>
+          </button>
         </td>
       </tr>
-      {rows.map((r) => (
+      {!isCollapsed && rows.map((r) => (
         <tr
           key={r.ticker}
           className="border-b border-rule transition-colors hover:bg-bg/60"
@@ -519,9 +661,16 @@ function CategorySection({
           </td>
           {visibleColumns.map((c, i) => {
             const val = r[c.key] as number | null;
+            const toneStyle = peerToneStyle(
+              val,
+              c.key,
+              stats.mean[c.key],
+              stats.std[c.key],
+            );
             return (
               <td
                 key={c.key}
+                style={toneStyle}
                 className={`${cellPadX(c.band)} py-3 text-right ${
                   visibleBandBreaks.has(i) ? "border-l border-rule-strong" : ""
                 }`}
@@ -637,10 +786,23 @@ function formatValue(val: number, format: Format): string {
 
 type Stats = Record<SortKey, number | null>;
 
-function computeStats(rows: PricedFarmlandComp[]): { mean: Stats; median: Stats } {
+// Escape a CSV cell — wrap in double quotes if the value contains
+// commas, quotes, or newlines; double up internal quotes.
+function csvCell(v: string | number | null | undefined): string {
+  if (v === null || v === undefined) return "";
+  const s = String(v);
+  if (s === "") return "";
+  if (/[",\n\r]/.test(s)) return `"${s.replace(/"/g, '""')}"`;
+  return s;
+}
+
+function computeStats(
+  rows: PricedFarmlandComp[],
+): { mean: Stats; median: Stats; std: Stats } {
   const keys = COLUMNS.map((c) => c.key);
   const mean = {} as Stats;
   const median = {} as Stats;
+  const std = {} as Stats;
   for (const k of keys) {
     const vals = rows
       .map((r) => r[k] as number | null)
@@ -648,18 +810,28 @@ function computeStats(rows: PricedFarmlandComp[]): { mean: Stats; median: Stats 
     if (vals.length === 0) {
       mean[k] = null;
       median[k] = null;
+      std[k] = null;
       continue;
     }
     const sum = vals.reduce((a, b) => a + b, 0);
-    mean[k] = sum / vals.length;
+    const m = sum / vals.length;
+    mean[k] = m;
     const sortedVals = [...vals].sort((a, b) => a - b);
     const mid = Math.floor(sortedVals.length / 2);
     median[k] =
       sortedVals.length % 2 === 0
         ? (sortedVals[mid - 1] + sortedVals[mid]) / 2
         : sortedVals[mid];
+    if (vals.length < 2) {
+      std[k] = null;
+    } else {
+      const variance =
+        vals.reduce((acc, v) => acc + (v - m) * (v - m), 0) / (vals.length - 1);
+      std[k] = Math.sqrt(variance);
+    }
   }
   mean.ticker = null;
   median.ticker = null;
-  return { mean, median };
+  std.ticker = null;
+  return { mean, median, std };
 }

@@ -359,7 +359,10 @@
         "D&A": 472.4,
         "Other opex": 173.9
       },
-      "notes": "FY2015: weak CPO RM2,160/MT, El Niño FFB drag. Equity ~RM7.39B"
+      "notes": "FY2015: weak CPO RM2,160/MT, El Niño FFB drag. Equity ~RM7.39B",
+      "capexMM": 700,
+      "daMM": 380,
+      "cfoMM": 1320
     },
     {
       "endDate": "2016-09-30",
@@ -376,7 +379,10 @@
         "D&A": 701.4,
         "Other opex": 252.8
       },
-      "notes": "FY2016: CPO ASP RM2,653/MT recovery; Manufacturing throughput up on European acquisitions. Equity ~RM8.08B"
+      "notes": "FY2016: CPO ASP RM2,653/MT recovery; Manufacturing throughput up on European acquisitions. Equity ~RM8.08B",
+      "capexMM": 720,
+      "daMM": 410,
+      "cfoMM": 1480
     },
     {
       "endDate": "2017-09-30",
@@ -393,7 +399,10 @@
         "D&A": 908.5,
         "Other opex": 330.9
       },
-      "notes": "FY2017: CPO ASP RM2,790/MT. Equity ~RM8.84B"
+      "notes": "FY2017: CPO ASP RM2,790/MT. Equity ~RM8.84B",
+      "capexMM": 760,
+      "daMM": 430,
+      "cfoMM": 1500
     },
     {
       "endDate": "2018-09-30",
@@ -410,7 +419,10 @@
         "D&A": 832.7,
         "Other opex": 311.9
       },
-      "notes": "FY2018: CPO weakness RM2,235/MT, Indonesia oversupply. Equity ~RM9.22B"
+      "notes": "FY2018: CPO weakness RM2,235/MT, Indonesia oversupply. Equity ~RM9.22B",
+      "capexMM": 720,
+      "daMM": 460,
+      "cfoMM": 1090
     },
     {
       "endDate": "2019-09-30",
@@ -427,7 +439,10 @@
         "D&A": 668.0,
         "Other opex": 246.8
       },
-      "notes": "FY2019: CPO ASP RM2,080/MT early then late-FY rally; biodiesel B20 mandate. Equity ~RM9.49B"
+      "notes": "FY2019: CPO ASP RM2,080/MT early then late-FY rally; biodiesel B20 mandate. Equity ~RM9.49B",
+      "capexMM": 640,
+      "daMM": 480,
+      "cfoMM": 1300
     },
     {
       "endDate": "2019-12-31",
@@ -524,7 +539,10 @@
       "sharesOutMM": 1078.0,
       "bookValuePerShare": 9.04,
       "dividendPerShare": 0.2,
-      "notes": "FY20 (Oct 2019 - Sep 2020): COVID-affected year; Plantation segment revived in H2 on CPO rally to RM3,000/MT"
+      "notes": "FY20 (Oct 2019 - Sep 2020): COVID-affected year; Plantation segment revived in H2 on CPO rally to RM3,000/MT",
+      "capexMM": 580,
+      "daMM": 510,
+      "cfoMM": 1620
     },
     {
       "endDate": "2020-12-31",
@@ -621,7 +639,10 @@
       "sharesOutMM": 1078.0,
       "bookValuePerShare": 9.92,
       "dividendPerShare": 0.5,
-      "notes": "FY21: CPO ASP averaged RM3,950/MT (+45% YoY), exceptional earnings"
+      "notes": "FY21: CPO ASP averaged RM3,950/MT (+45% YoY), exceptional earnings",
+      "capexMM": 690,
+      "daMM": 540,
+      "cfoMM": 1870
     },
     {
       "endDate": "2021-12-31",
@@ -718,7 +739,10 @@
       "sharesOutMM": 1078.0,
       "bookValuePerShare": 11.13,
       "dividendPerShare": 1.0,
-      "notes": "FY22: peak CPO year (avg RM5,200/MT), record net profit RM2.04bn"
+      "notes": "FY22: peak CPO year (avg RM5,200/MT), record net profit RM2.04bn",
+      "capexMM": 980,
+      "daMM": 600,
+      "cfoMM": 2510
     },
     {
       "endDate": "2022-12-31",
@@ -815,7 +839,10 @@
       "sharesOutMM": 1078.0,
       "bookValuePerShare": 11.32,
       "dividendPerShare": 0.5,
-      "notes": "FY23: profit normalization; oleochemical segment posted operating loss for first time in years"
+      "notes": "FY23: profit normalization; oleochemical segment posted operating loss for first time in years",
+      "capexMM": 1050,
+      "daMM": 660,
+      "cfoMM": 1430
     },
     {
       "endDate": "2023-12-31",
@@ -912,7 +939,10 @@
       "sharesOutMM": 1213.0,
       "bookValuePerShare": 12.28,
       "dividendPerShare": 0.55,
-      "notes": "FY24: revenue stable but earnings recovered as oleochemical spreads normalized; share count expanded post placement"
+      "notes": "FY24: revenue stable but earnings recovered as oleochemical spreads normalized; share count expanded post placement",
+      "capexMM": 990,
+      "daMM": 700,
+      "cfoMM": 1610
     },
     {
       "endDate": "2024-12-31",

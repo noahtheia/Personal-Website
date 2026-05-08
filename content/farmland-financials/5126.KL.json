@@ -262,7 +262,10 @@
         "G&A + selling": 128.5,
         "D&A": 128.5
       },
-      "notes": "FY2014: revenue RM3.05B, net profit RM245M"
+      "notes": "FY2014: revenue RM3.05B, net profit RM245M",
+      "capexMM": 230,
+      "daMM": 75,
+      "cfoMM": 220
     },
     {
       "endDate": "2015-12-31",
@@ -280,7 +283,10 @@
         "G&A + selling": 139.7,
         "D&A": 139.8
       },
-      "notes": "FY2015 — El Niño + low CPO"
+      "notes": "FY2015 — El Niño + low CPO",
+      "capexMM": 200,
+      "daMM": 80,
+      "cfoMM": 130
     },
     {
       "endDate": "2016-12-31",
@@ -298,7 +304,10 @@
         "G&A + selling": 156.5,
         "D&A": 156.5
       },
-      "notes": "FY2016"
+      "notes": "FY2016",
+      "capexMM": 130,
+      "daMM": 85,
+      "cfoMM": 180
     },
     {
       "endDate": "2017-12-31",
@@ -316,7 +325,10 @@
         "G&A + selling": 188.0,
         "D&A": 188.0
       },
-      "notes": "FY2017 — CPO + FFB recovery"
+      "notes": "FY2017 — CPO + FFB recovery",
+      "capexMM": 90,
+      "daMM": 88,
+      "cfoMM": 160
     },
     {
       "endDate": "2018-12-31",
@@ -334,7 +346,10 @@
         "G&A + selling": 178.5,
         "D&A": 178.5
       },
-      "notes": "FY2018 — CPO downturn"
+      "notes": "FY2018 — CPO downturn",
+      "capexMM": 70,
+      "daMM": 90,
+      "cfoMM": 130
     },
     {
       "endDate": "2019-12-31",
@@ -352,7 +367,10 @@
         "G&A + selling": 165.7,
         "D&A": 165.8
       },
-      "notes": "FY2019 — multiyear CPO low"
+      "notes": "FY2019 — multiyear CPO low",
+      "capexMM": 50,
+      "daMM": 92,
+      "cfoMM": 145
     },
     {
       "endDate": "2020-03-31",
@@ -442,7 +460,10 @@
         "G&A + selling": 215,
         "D&A": 165
       },
-      "notes": "FY2020: revenue RM4.55B, net profit RM241M. CPO recovery in H2"
+      "notes": "FY2020: revenue RM4.55B, net profit RM241M. CPO recovery in H2",
+      "capexMM": 45,
+      "daMM": 90,
+      "cfoMM": 175
     },
     {
       "endDate": "2021-03-31",
@@ -535,7 +556,10 @@
       "totalDebtMM": 1180,
       "cashMM": 540,
       "netDebtMM": 640,
-      "notes": "FY2021: revenue RM6.13B (+35%), net profit RM449M — record CPO ASP. Equity ~RM2.94B; NAV/share RM5.15"
+      "notes": "FY2021: revenue RM6.13B (+35%), net profit RM449M — record CPO ASP. Equity ~RM2.94B; NAV/share RM5.15",
+      "capexMM": 55,
+      "daMM": 88,
+      "cfoMM": 235
     },
     {
       "endDate": "2022-03-31",
@@ -628,7 +652,10 @@
       "totalDebtMM": 990,
       "cashMM": 720,
       "netDebtMM": 270,
-      "notes": "FY2022: record revenue RM7.78B, record net profit RM642M (+43%) on peak CPO. Equity ~RM3.40B; NAV/share RM5.95"
+      "notes": "FY2022: record revenue RM7.78B, record net profit RM642M (+43%) on peak CPO. Equity ~RM3.40B; NAV/share RM5.95",
+      "capexMM": 70,
+      "daMM": 86,
+      "cfoMM": 350
     },
     {
       "endDate": "2023-03-31",
@@ -721,7 +748,10 @@
       "totalDebtMM": 880,
       "cashMM": 805,
       "netDebtMM": 75,
-      "notes": "FY2023: revenue RM5.61B (-28%), net profit RM381M (-41%) — CPO normalisation. Net debt fell to RM75M (deleveraging from cash flow)"
+      "notes": "FY2023: revenue RM5.61B (-28%), net profit RM381M (-41%) — CPO normalisation. Net debt fell to RM75M (deleveraging from cash flow)",
+      "capexMM": 75,
+      "daMM": 84,
+      "cfoMM": 200
     },
     {
       "endDate": "2024-03-31",
@@ -816,7 +846,10 @@
       "totalDebtMM": 760,
       "cashMM": 880,
       "netDebtMM": -120,
-      "notes": "FY2024: revenue RM5.67B (+1%), net profit RM390M (+2%). Net cash position (RM-120M net debt). NAV/share RM5.03 reconciles to seed comps. ~190K acres reflects core mature planted area; total landbank larger"
+      "notes": "FY2024: revenue RM5.67B (+1%), net profit RM390M (+2%). Net cash position (RM-120M net debt). NAV/share RM5.03 reconciles to seed comps. ~190K acres reflects core mature planted area; total landbank larger",
+      "capexMM": 80,
+      "daMM": 82,
+      "cfoMM": 220
     },
     {
       "endDate": "2025-03-31",

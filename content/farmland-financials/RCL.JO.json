@@ -19,9 +19,12 @@
       "totalDebtMM": 4200,
       "cashMM": 750,
       "sharesOutMM": 880,
-      "bookValuePerShare": 8.40,
+      "bookValuePerShare": 8.4,
       "dividendPerShare": 0,
-      "notes": "FY20: revenue R27.1B. COVID disruption. Underlying EBITDA ~R1.75B. Sugar improving on cane volumes."
+      "notes": "FY20: revenue R27.1B. COVID disruption. Underlying EBITDA ~R1.75B. Sugar improving on cane volumes.",
+      "capexMM": 950,
+      "daMM": 850,
+      "cfoMM": 2400
     },
     {
       "endDate": "2021-06-30",
@@ -39,8 +42,11 @@
       "cashMM": 900,
       "sharesOutMM": 880,
       "bookValuePerShare": 8.95,
-      "dividendPerShare": 0.30,
-      "notes": "FY21: revenue R28.5B. EBITDA R2.3B (+31%). Sugar segment profitable. KZN July riots disrupted Q1 FY22 but FY21 strong. Dividend 30 cents resumed."
+      "dividendPerShare": 0.3,
+      "notes": "FY21: revenue R28.5B. EBITDA R2.3B (+31%). Sugar segment profitable. KZN July riots disrupted Q1 FY22 but FY21 strong. Dividend 30 cents resumed.",
+      "capexMM": 1080,
+      "daMM": 880,
+      "cfoMM": 2700
     },
     {
       "endDate": "2022-06-30",
@@ -57,9 +63,12 @@
       "totalDebtMM": 4150,
       "cashMM": 1050,
       "sharesOutMM": 880,
-      "bookValuePerShare": 9.50,
+      "bookValuePerShare": 9.5,
       "dividendPerShare": 0.45,
-      "notes": "FY22: revenue R30.8B. EBITDA R2.65B. Op profit R1.59B. KZN floods + riots impact partly absorbed. Sugar strong."
+      "notes": "FY22: revenue R30.8B. EBITDA R2.65B. Op profit R1.59B. KZN floods + riots impact partly absorbed. Sugar strong.",
+      "capexMM": 1250,
+      "daMM": 920,
+      "cfoMM": 2100
     },
     {
       "endDate": "2023-06-30",
@@ -76,9 +85,12 @@
       "totalDebtMM": 5000,
       "cashMM": 1150,
       "sharesOutMM": 880,
-      "bookValuePerShare": 9.10,
-      "dividendPerShare": 0.20,
-      "notes": "FY23: revenue R36.1B (+17%) — pricing pass-through. Chicken hit by HPAI / load-shedding (~R200M+ diesel). Sugar resilient. EBITDA dropped to R2.2B. HEPS ~107 cents."
+      "bookValuePerShare": 9.1,
+      "dividendPerShare": 0.2,
+      "notes": "FY23: revenue R36.1B (+17%) — pricing pass-through. Chicken hit by HPAI / load-shedding (~R200M+ diesel). Sugar resilient. EBITDA dropped to R2.2B. HEPS ~107 cents.",
+      "capexMM": 1380,
+      "daMM": 970,
+      "cfoMM": 2350
     },
     {
       "endDate": "2024-06-30",
@@ -95,9 +107,12 @@
       "totalDebtMM": 4800,
       "cashMM": 1400,
       "sharesOutMM": 880,
-      "bookValuePerShare": 9.40,
+      "bookValuePerShare": 9.4,
       "dividendPerShare": 0.65,
-      "notes": "FY24: revenue R36.8B. Underlying EBITDA R3.3B (+50% — chicken recovery, sugar stable). Rainbow Chicken (RBO) unbundled and separately listed June 2024 — these continuing-ops figures exclude Rainbow post-unbundling and reflect group basis pre-spin. HEPS ~145 cents. Dividend 65 cents."
+      "notes": "FY24: revenue R36.8B. Underlying EBITDA R3.3B (+50% — chicken recovery, sugar stable). Rainbow Chicken (RBO) unbundled and separately listed June 2024 — these continuing-ops figures exclude Rainbow post-unbundling and reflect group basis pre-spin. HEPS ~145 cents. Dividend 65 cents.",
+      "capexMM": 1200,
+      "daMM": 1010,
+      "cfoMM": 2900
     }
   ]
 }

@@ -205,7 +205,10 @@
       "bookValuePerShare": 1651,
       "dividendPerShare": 60,
       "totalAcresK": 220,
-      "notes": "FY14: revenue Rp3.24T (+27% YoY) on H1 CPO rally"
+      "notes": "FY14: revenue Rp3.24T (+27% YoY) on H1 CPO rally",
+      "capexMM": 740000,
+      "daMM": 175000,
+      "cfoMM": 460000
     },
     {
       "endDate": "2015-12-31",
@@ -234,7 +237,10 @@
       "bookValuePerShare": 1807,
       "dividendPerShare": 60,
       "totalAcresK": 222,
-      "notes": "FY15: CPO ASP trough. Net income Rp256B"
+      "notes": "FY15: CPO ASP trough. Net income Rp256B",
+      "capexMM": 580000,
+      "daMM": 200000,
+      "cfoMM": 300000
     },
     {
       "endDate": "2016-12-31",
@@ -263,7 +269,10 @@
       "bookValuePerShare": 1971,
       "dividendPerShare": 100,
       "totalAcresK": 226,
-      "notes": "FY16: CPO recovery. Net income Rp460B (+80% YoY)"
+      "notes": "FY16: CPO recovery. Net income Rp460B (+80% YoY)",
+      "capexMM": 540000,
+      "daMM": 220000,
+      "cfoMM": 600000
     },
     {
       "endDate": "2017-12-31",
@@ -292,7 +301,10 @@
       "bookValuePerShare": 2082,
       "dividendPerShare": 60,
       "totalAcresK": 229,
-      "notes": "FY17: revenue Rp3.62T (+24% YoY), net income Rp305B"
+      "notes": "FY17: revenue Rp3.62T (+24% YoY), net income Rp305B",
+      "capexMM": 590000,
+      "daMM": 240000,
+      "cfoMM": 720000
     },
     {
       "endDate": "2018-12-31",
@@ -321,7 +333,10 @@
       "bookValuePerShare": 2101,
       "dividendPerShare": 15,
       "totalAcresK": 232,
-      "notes": "FY18: CPO ASP weakness H2. Net income Rp65B (-79%)"
+      "notes": "FY18: CPO ASP weakness H2. Net income Rp65B (-79%)",
+      "capexMM": 510000,
+      "daMM": 260000,
+      "cfoMM": 320000
     },
     {
       "endDate": "2019-12-31",
@@ -349,7 +364,10 @@
       "sharesOutMM": 1819,
       "bookValuePerShare": 2166,
       "totalAcresK": 234,
-      "notes": "FY19: CPO ASP trough year. Small net loss Rp25B (first since IPO). Treasury stock buyback reduced shares to 1.819B"
+      "notes": "FY19: CPO ASP trough year. Small net loss Rp25B (first since IPO). Treasury stock buyback reduced shares to 1.819B",
+      "capexMM": 410000,
+      "daMM": 270000,
+      "cfoMM": 380000
     },
     {
       "endDate": "2020-03-31",
@@ -469,7 +487,10 @@
       "sharesOutMM": 1819,
       "bookValuePerShare": 2282,
       "dividendPerShare": 30,
-      "notes": "FY20: revenue Rp3.88T (+27% YoY), net income Rp172B (turnaround from FY19 loss). CPO ASP avg ~Rp8.1M/ton"
+      "notes": "FY20: revenue Rp3.88T (+27% YoY), net income Rp172B (turnaround from FY19 loss). CPO ASP avg ~Rp8.1M/ton",
+      "capexMM": 380000,
+      "daMM": 280000,
+      "cfoMM": 700000
     },
     {
       "endDate": "2021-03-31",
@@ -587,7 +608,10 @@
       "sharesOutMM": 1819,
       "bookValuePerShare": 2595,
       "dividendPerShare": 100,
-      "notes": "FY21: revenue Rp5.38T (+39% YoY), net income Rp630M. CPO ASP avg ~Rp10.5M/ton (best year since 2017)"
+      "notes": "FY21: revenue Rp5.38T (+39% YoY), net income Rp630M. CPO ASP avg ~Rp10.5M/ton (best year since 2017)",
+      "capexMM": 460000,
+      "daMM": 290000,
+      "cfoMM": 1140000
     },
     {
       "endDate": "2022-03-31",
@@ -706,7 +730,10 @@
       "sharesOutMM": 1819,
       "bookValuePerShare": 2848,
       "dividendPerShare": 130,
-      "notes": "FY22: revenue Rp6.25T (+16% YoY), peak earnings year. CPO ASP avg ~Rp13M/ton despite Q4 reversal"
+      "notes": "FY22: revenue Rp6.25T (+16% YoY), peak earnings year. CPO ASP avg ~Rp13M/ton despite Q4 reversal",
+      "capexMM": 580000,
+      "daMM": 300000,
+      "cfoMM": 1080000
     },
     {
       "endDate": "2023-03-31",
@@ -824,7 +851,10 @@
       "sharesOutMM": 1819,
       "bookValuePerShare": 2958,
       "dividendPerShare": 60,
-      "notes": "FY23: revenue Rp5.38T (-14% YoY), net income Rp265B (-61% YoY) on CPO normalization"
+      "notes": "FY23: revenue Rp5.38T (-14% YoY), net income Rp265B (-61% YoY) on CPO normalization",
+      "capexMM": 520000,
+      "daMM": 310000,
+      "cfoMM": 580000
     },
     {
       "endDate": "2024-03-31",
@@ -944,7 +974,10 @@
       "bookValuePerShare": 3145,
       "navPerShare": 3145,
       "dividendPerShare": 80,
-      "notes": "FY24: revenue Rp5.54T (+3% YoY) matches seed; net debt Rp2.37T matches seed. CPO ASP avg recovered to ~Rp13.5M/ton"
+      "notes": "FY24: revenue Rp5.54T (+3% YoY) matches seed; net debt Rp2.37T matches seed. CPO ASP avg recovered to ~Rp13.5M/ton",
+      "capexMM": 540000,
+      "daMM": 320000,
+      "cfoMM": 660000
     }
   ]
 }

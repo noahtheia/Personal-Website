@@ -26,7 +26,10 @@
       "sharesOutMM": 1000,
       "bookValuePerShare": 41.2,
       "dividendPerShare": 2.0,
-      "notes": "FY20: COVID year, palm-oil prices recovered H2"
+      "notes": "FY20: COVID year, palm-oil prices recovered H2",
+      "capexMM": 8500,
+      "daMM": 3400,
+      "cfoMM": 13000
     },
     {
       "endDate": "2021-12-31",
@@ -50,7 +53,10 @@
       "sharesOutMM": 1000,
       "bookValuePerShare": 56.4,
       "dividendPerShare": 5.0,
-      "notes": "FY21: CPO price rally, record net income"
+      "notes": "FY21: CPO price rally, record net income",
+      "capexMM": 11500,
+      "daMM": 3700,
+      "cfoMM": 18500
     },
     {
       "endDate": "2022-12-31",
@@ -74,7 +80,10 @@
       "sharesOutMM": 1000,
       "bookValuePerShare": 73.9,
       "dividendPerShare": 8.5,
-      "notes": "FY22: Saro Oil Palm acquisition closed; CPO prices peaked, leverage rose"
+      "notes": "FY22: Saro Oil Palm acquisition closed; CPO prices peaked, leverage rose",
+      "capexMM": 14500,
+      "daMM": 4100,
+      "cfoMM": 23000
     },
     {
       "endDate": "2023-12-31",
@@ -98,7 +107,10 @@
       "sharesOutMM": 1000,
       "bookValuePerShare": 102.8,
       "dividendPerShare": 18.0,
-      "notes": "FY23: GOPDC stake + Saro full year; Naira devalued sharply (June 2023), revenue +59% YoY"
+      "notes": "FY23: GOPDC stake + Saro full year; Naira devalued sharply (June 2023), revenue +59% YoY",
+      "capexMM": 18000,
+      "daMM": 4500,
+      "cfoMM": 35000
     },
     {
       "endDate": "2024-12-31",
@@ -122,7 +134,10 @@
       "sharesOutMM": 1000,
       "bookValuePerShare": 145.0,
       "dividendPerShare": 30.0,
-      "notes": "FY24: full-year Naira devaluation (NGN ~1,500/USD avg); CPO realised prices tracked USD strength; record EBITDA"
+      "notes": "FY24: full-year Naira devaluation (NGN ~1,500/USD avg); CPO realised prices tracked USD strength; record EBITDA",
+      "capexMM": 22000,
+      "daMM": 5200,
+      "cfoMM": 65000
     }
   ]
 }

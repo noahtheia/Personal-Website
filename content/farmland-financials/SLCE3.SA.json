@@ -19,7 +19,10 @@
       "sharesOutMM": 87,
       "totalAcresK": 358,
       "notes": "FY07: First post-IPO year (IPO June-2007 raised R$490M). Receita líquida R$172M (partial year of cotton commercialization), EBITDA R$45M. Plantation area ~145k ha. Source: 2007 DFP (CVM)",
-      "bookValuePerShare": 8.28
+      "bookValuePerShare": 8.28,
+      "capexMM": 90,
+      "daMM": 8,
+      "cfoMM": 30
     },
     {
       "endDate": "2008-12-31",
@@ -37,7 +40,10 @@
       "totalAcresK": 395,
       "epsBasic": 0.61,
       "notes": "FY08: Receita líquida R$365M (+112% YoY on first full cotton year + commodity peak), EBITDA R$110M. Plantation ~160k ha. Source: 2008 DFP",
-      "bookValuePerShare": 9.2
+      "bookValuePerShare": 9.2,
+      "capexMM": 140,
+      "daMM": 18,
+      "cfoMM": 55
     },
     {
       "endDate": "2009-12-31",
@@ -55,7 +61,10 @@
       "totalAcresK": 420,
       "epsBasic": 0.44,
       "notes": "FY09: Receita líquida R$405M, EBITDA R$115M. Post-GFC commodity reset; cotton volume offset price pressure. Source: 2009 DFP",
-      "bookValuePerShare": 10
+      "bookValuePerShare": 10,
+      "capexMM": 110,
+      "daMM": 28,
+      "cfoMM": 70
     },
     {
       "endDate": "2010-12-31",
@@ -74,7 +83,10 @@
       "epsBasic": 0.99,
       "dividendPerShare": 0.18,
       "notes": "FY10: Receita líquida R$555M (+37% YoY), EBITDA R$165M. Cotton scale-up + IFRS-1 first-time adoption. Plantation ~180k ha. Source: 2010 DFP",
-      "bookValuePerShare": 10.29
+      "bookValuePerShare": 10.29,
+      "capexMM": 130,
+      "daMM": 35,
+      "cfoMM": 85
     },
     {
       "endDate": "2011-12-31",
@@ -93,7 +105,10 @@
       "epsBasic": 1.35,
       "dividendPerShare": 0.3,
       "notes": "FY11: Receita líquida R$760M (+37% YoY) — record cotton prices >$2/lb in 1H. EBITDA R$250M. Source: 2011 DFP",
-      "bookValuePerShare": 11.75
+      "bookValuePerShare": 11.75,
+      "capexMM": 180,
+      "daMM": 45,
+      "cfoMM": 110
     },
     {
       "endDate": "2012-12-31",
@@ -112,7 +127,10 @@
       "epsBasic": 1.33,
       "dividendPerShare": 0.32,
       "notes": "FY12: Receita líquida R$880M, EBITDA R$250M (cotton price normalization). Source: 2012 DFP",
-      "bookValuePerShare": 12.76
+      "bookValuePerShare": 12.76,
+      "capexMM": 220,
+      "daMM": 60,
+      "cfoMM": 145
     },
     {
       "endDate": "2013-12-31",
@@ -131,7 +149,10 @@
       "epsBasic": 1.07,
       "dividendPerShare": 0.27,
       "notes": "FY13: Receita líquida R$1.07B (+22% YoY), EBITDA R$270M. Plantation crossed 300k ha. Source: 2013 DFP",
-      "bookValuePerShare": 13.72
+      "bookValuePerShare": 13.72,
+      "capexMM": 260,
+      "daMM": 75,
+      "cfoMM": 180
     },
     {
       "endDate": "2014-12-31",
@@ -150,7 +171,10 @@
       "epsBasic": 0.71,
       "dividendPerShare": 0.18,
       "notes": "FY14: Receita líquida R$1.265B, EBITDA R$290M. Drought in MATOPIBA pressured Q3-Q4 yields. Source: 2014 DFP",
-      "bookValuePerShare": 14.43
+      "bookValuePerShare": 14.43,
+      "capexMM": 220,
+      "daMM": 95,
+      "cfoMM": 240
     },
     {
       "endDate": "2015-12-31",
@@ -169,7 +193,10 @@
       "epsBasic": 0.36,
       "dividendPerShare": 0.1,
       "notes": "FY15: Receita líquida R$1.51B, EBITDA R$360M. BRL devaluation (R$3.95/USD) tailwind for export commodities; net income compressed by FX on USD debt. Source: 2015 DFP",
-      "bookValuePerShare": 14.64
+      "bookValuePerShare": 14.64,
+      "capexMM": 200,
+      "daMM": 130,
+      "cfoMM": 380
     },
     {
       "endDate": "2016-12-31",
@@ -188,7 +215,10 @@
       "epsBasic": 1.79,
       "dividendPerShare": 0.45,
       "notes": "FY16: Receita líquida R$1.81B (+20% YoY), EBITDA R$480M (+33% YoY). Strong soybean year + improved cotton yields. Source: 2016 DFP",
-      "bookValuePerShare": 16.02
+      "bookValuePerShare": 16.02,
+      "capexMM": 230,
+      "daMM": 165,
+      "cfoMM": 510
     },
     {
       "endDate": "2017-12-31",
@@ -207,7 +237,10 @@
       "epsBasic": 1.13,
       "dividendPerShare": 0.28,
       "notes": "FY17: Receita líquida R$1.605B (-11% YoY on commodity price reset), EBITDA R$410M. Source: 2017 DFP",
-      "bookValuePerShare": 16.58
+      "bookValuePerShare": 16.58,
+      "capexMM": 250,
+      "daMM": 175,
+      "cfoMM": 425
     },
     {
       "endDate": "2018-12-31",
@@ -226,7 +259,10 @@
       "epsBasic": 1.02,
       "dividendPerShare": 0.32,
       "notes": "FY18: Receita líquida R$1.83B (+14% YoY), EBITDA R$540M (+32%). 2018 stock split 2-for-1 (sharesOutMM doubled to ~195M). BRL devaluation + cotton rally tailwinds. Source: 2018 DFP",
-      "bookValuePerShare": 9.11
+      "bookValuePerShare": 9.11,
+      "capexMM": 320,
+      "daMM": 200,
+      "cfoMM": 540
     },
     {
       "endDate": "2019-12-31",
@@ -245,7 +281,10 @@
       "epsBasic": 1.1,
       "dividendPerShare": 0.34,
       "notes": "FY19: Receita líquida R$2.02B (+10% YoY), EBITDA R$600M. Final pre-COVID baseline year. Source: 2019 DFP",
-      "bookValuePerShare": 10.13
+      "bookValuePerShare": 10.13,
+      "capexMM": 380,
+      "daMM": 230,
+      "cfoMM": 615
     },
     {
       "endDate": "2020-03-31",
@@ -267,8 +306,8 @@
       "ebitdaMM": 165,
       "netIncomeMM": 28,
       "totalAcresK": 466,
-      "bookValuePerShare": 10.60,
-      "navPerShare": 10.60,
+      "bookValuePerShare": 10.6,
+      "navPerShare": 10.6,
       "notes": "1T20: Receita líquida R$510M, EBITDA Ajustado R$165M. COVID-19 impact + BRL devaluation tail-end of 2019/20 harvest. PL/share interpolated FY19 (R$10.13) → FY20 (R$12.02)."
     },
     {
@@ -372,7 +411,10 @@
       "epsBasic": 1.59,
       "dividendPerShare": 0.3,
       "notes": "FY20: Receita líquida R$2.635B (+30% YoY), EBITDA Ajustado R$870M (+45% YoY), lucro líquido R$310M. SLC's first full COVID year — soybean rally was tailwind",
-      "bookValuePerShare": 12.02
+      "bookValuePerShare": 12.02,
+      "capexMM": 480,
+      "daMM": 280,
+      "cfoMM": 950
     },
     {
       "endDate": "2021-03-31",
@@ -500,7 +542,10 @@
       "epsBasic": 2.48,
       "dividendPerShare": 0.85,
       "notes": "FY21: Receita líquida R$3.695B (+40% YoY), EBITDA Aj R$1.265B (+45% YoY). Strong soy + cotton year",
-      "bookValuePerShare": 15.09
+      "bookValuePerShare": 15.09,
+      "capexMM": 620,
+      "daMM": 360,
+      "cfoMM": 1180
     },
     {
       "endDate": "2022-03-31",
@@ -522,8 +567,8 @@
       "ebitdaMM": 305,
       "netIncomeMM": 95,
       "totalAcresK": 472,
-      "bookValuePerShare": 15.80,
-      "navPerShare": 15.80,
+      "bookValuePerShare": 15.8,
+      "navPerShare": 15.8,
       "notes": "1T22: Receita líquida R$895M, EBITDA Aj R$305M. PL/share interpolated pre-Aug-2022 split basis (FY21 R$15.09 → split-adjusted year-end R$17.90 pre-split = R$8.01 post-split)."
     },
     {
@@ -546,8 +591,8 @@
       "ebitdaMM": 615,
       "netIncomeMM": 280,
       "totalAcresK": 472,
-      "bookValuePerShare": 16.50,
-      "navPerShare": 16.50,
+      "bookValuePerShare": 16.5,
+      "navPerShare": 16.5,
       "notes": "2T22: Receita líquida R$1.74B (+71% YoY), EBITDA Aj R$615M (record). Ukraine-war driven grain rally. PL/share interpolated pre-Aug-2022 split basis."
     },
     {
@@ -570,8 +615,8 @@
       "ebitdaMM": 470,
       "netIncomeMM": 200,
       "totalAcresK": 472,
-      "bookValuePerShare": 7.70,
-      "navPerShare": 7.70,
+      "bookValuePerShare": 7.7,
+      "navPerShare": 7.7,
       "notes": "3T22: Receita líquida R$1.365B, EBITDA Aj R$470M. PL/share R$7.70 reflects post Aug-2022 1-for-2.236 stock split (sharesOut 195.5M→437M)."
     },
     {
@@ -628,7 +673,10 @@
       "epsBasic": 1.8,
       "dividendPerShare": 1.1,
       "notes": "FY22: Receita líquida R$5.40B (+46% YoY), EBITDA Aj R$1.86B (+47% YoY). Best year ever — Ukraine-war commodity tailwind. Aug 2022 stock split 1-for-2.236",
-      "bookValuePerShare": 8.01
+      "bookValuePerShare": 8.01,
+      "capexMM": 850,
+      "daMM": 460,
+      "cfoMM": 1750
     },
     {
       "endDate": "2023-03-31",
@@ -757,7 +805,10 @@
       "epsBasic": 1.24,
       "dividendPerShare": 0.9,
       "notes": "FY23: Receita líquida R$6.535B (+21% YoY), EBITDA Aj R$1.72B (-7.5% YoY on commodity normalization). Deloitte Jul-2023 farmland appraisal: ~R$10.5B (figure restated to R$11.59B in Jul-2024 disclosure)",
-      "bookValuePerShare": 8.47
+      "bookValuePerShare": 8.47,
+      "capexMM": 750,
+      "daMM": 540,
+      "cfoMM": 1380
     },
     {
       "endDate": "2024-03-31",
@@ -889,7 +940,10 @@
       "epsBasic": 1.12,
       "dividendPerShare": 0.81,
       "notes": "FY24: Receita líquida R$8.55B (+31% YoY), EBITDA Aj R$2.6B (+51% YoY). Mar-2025 Agrícola Xingu acquisition added 27,516 ha — drove portfolio to 561k acres. Deloitte Jul-2024 R$11.591B → Jul-2025 R$13.396B (+15.6% incl. acquisition; +7.1% comparable). Plantation FY24/25 sets up for soy + cotton record",
-      "bookValuePerShare": 10.15
+      "bookValuePerShare": 10.15,
+      "capexMM": 700,
+      "daMM": 580,
+      "cfoMM": 1450
     },
     {
       "endDate": "2025-03-31",
@@ -911,8 +965,8 @@
       "ebitdaMM": 380,
       "netIncomeMM": 80,
       "totalAcresK": 561,
-      "bookValuePerShare": 10.30,
-      "navPerShare": 10.30,
+      "bookValuePerShare": 10.3,
+      "navPerShare": 10.3,
       "notes": "1T25: Receita líquida R$1.365B, EBITDA Aj R$380M. Agrícola Xingu acquisition completed Mar-2025 (+27,516 ha). PL/share extrapolated above FY24 base."
     },
     {
@@ -960,8 +1014,8 @@
       "ebitdaMM": 620,
       "netIncomeMM": 175,
       "totalAcresK": 561,
-      "bookValuePerShare": 10.60,
-      "navPerShare": 10.60,
+      "bookValuePerShare": 10.6,
+      "navPerShare": 10.6,
       "notes": "3T25: Receita líquida R$2.21B, EBITDA Aj R$620M. 9M25 Receita líquida R$6.115B, EBITDA Aj R$1.77B. PL/share extrapolated above FY24 base."
     }
   ]

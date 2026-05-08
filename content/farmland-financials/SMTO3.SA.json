@@ -15,7 +15,10 @@
       "cashMM": 1400,
       "netDebtMM": 4400,
       "sharesOutMM": 339.6,
-      "notes": "FY20/21 (FY ends Mar-21): Revenue R$3.86bn, EBITDA R$2.14bn (margin 55.4%) — strong sugar prices."
+      "notes": "FY20/21 (FY ends Mar-21): Revenue R$3.86bn, EBITDA R$2.14bn (margin 55.4%) — strong sugar prices.",
+      "capexMM": 950,
+      "daMM": 750,
+      "cfoMM": 1450
     },
     {
       "endDate": "2022-03-31",
@@ -28,7 +31,10 @@
       "cashMM": 1800,
       "netDebtMM": 4300,
       "sharesOutMM": 339.6,
-      "notes": "FY21/22 (Mar-22): Revenue R$4.96bn (+28%), EBITDA R$2.52bn (margin 50.9%). Frost-impacted 21/22 cane harvest offset by record prices."
+      "notes": "FY21/22 (Mar-22): Revenue R$4.96bn (+28%), EBITDA R$2.52bn (margin 50.9%). Frost-impacted 21/22 cane harvest offset by record prices.",
+      "capexMM": 1150,
+      "daMM": 850,
+      "cfoMM": 1850
     },
     {
       "endDate": "2023-03-31",
@@ -41,7 +47,10 @@
       "cashMM": 2400,
       "netDebtMM": 4300,
       "sharesOutMM": 339.6,
-      "notes": "FY22/23 (Mar-23): Revenue R$6.15bn (+24%), EBITDA R$3.01bn (margin 49.0%) — record EBITDA on strong ethanol-sugar mix."
+      "notes": "FY22/23 (Mar-23): Revenue R$6.15bn (+24%), EBITDA R$3.01bn (margin 49.0%) — record EBITDA on strong ethanol-sugar mix.",
+      "capexMM": 1450,
+      "daMM": 950,
+      "cfoMM": 2200
     },
     {
       "endDate": "2024-03-31",
@@ -54,7 +63,10 @@
       "cashMM": 2600,
       "netDebtMM": 4800,
       "sharesOutMM": 339.6,
-      "notes": "FY23/24 (Mar-24): Revenue R$5.91bn (-4%), EBITDA R$2.82bn (margin 47.7%). Ethanol prices fell; sugar mix increased."
+      "notes": "FY23/24 (Mar-24): Revenue R$5.91bn (-4%), EBITDA R$2.82bn (margin 47.7%). Ethanol prices fell; sugar mix increased.",
+      "capexMM": 1650,
+      "daMM": 1100,
+      "cfoMM": 2050
     },
     {
       "endDate": "2025-03-31",
@@ -67,7 +79,10 @@
       "cashMM": 2100,
       "netDebtMM": 5100,
       "sharesOutMM": 339.6,
-      "notes": "FY24/25 (Mar-25): Revenue R$6.41bn (+8%), EBITDA R$2.75bn (margin 42.8%) — record sugar production but lower unit margins on cane TCH/ATR pressure from drought + fires. Leverage 1.85x. Dividends R$540M."
+      "notes": "FY24/25 (Mar-25): Revenue R$6.41bn (+8%), EBITDA R$2.75bn (margin 42.8%) — record sugar production but lower unit margins on cane TCH/ATR pressure from drought + fires. Leverage 1.85x. Dividends R$540M.",
+      "capexMM": 1550,
+      "daMM": 1200,
+      "cfoMM": 2400
     }
   ]
 }

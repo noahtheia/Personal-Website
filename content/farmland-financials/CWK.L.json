@@ -21,7 +21,10 @@
       "sharesOutMM": 53.5,
       "bookValuePerShare": 8.85,
       "dividendPerShare": 0.74,
-      "notes": "FY21 (yr-end Mar 2021): revenue £1.90B. COVID retail tailwind. Adj op profit £121.4M. EPS ~190p."
+      "notes": "FY21 (yr-end Mar 2021): revenue £1.90B. COVID retail tailwind. Adj op profit £121.4M. EPS ~190p.",
+      "capexMM": 75,
+      "daMM": 60,
+      "cfoMM": 175
     },
     {
       "endDate": "2022-03-26",
@@ -38,9 +41,12 @@
       "totalDebtMM": 80,
       "cashMM": 52,
       "sharesOutMM": 53.6,
-      "bookValuePerShare": 9.20,
+      "bookValuePerShare": 9.2,
       "dividendPerShare": 0.79,
-      "notes": "FY22: revenue £2.01B (+6%). Adj op profit £126M. UK pig-farming labour shortage + CO2 supply crisis disrupted parts of FY. EPS ~178p."
+      "notes": "FY22: revenue £2.01B (+6%). Adj op profit £126M. UK pig-farming labour shortage + CO2 supply crisis disrupted parts of FY. EPS ~178p.",
+      "capexMM": 80,
+      "daMM": 65,
+      "cfoMM": 110
     },
     {
       "endDate": "2023-03-25",
@@ -59,7 +65,10 @@
       "sharesOutMM": 53.6,
       "bookValuePerShare": 9.55,
       "dividendPerShare": 0.825,
-      "notes": "FY23: revenue £2.32B (+15%). Inflation pass-through. Adj op profit £132M. Continental Europe + poultry growth. EPS ~187p."
+      "notes": "FY23: revenue £2.32B (+15%). Inflation pass-through. Adj op profit £132M. Continental Europe + poultry growth. EPS ~187p.",
+      "capexMM": 95,
+      "daMM": 70,
+      "cfoMM": 185
     },
     {
       "endDate": "2024-03-30",
@@ -78,7 +87,10 @@
       "sharesOutMM": 53.7,
       "bookValuePerShare": 9.95,
       "dividendPerShare": 0.92,
-      "notes": "FY24: revenue £2.60B (+12%). Adj op profit £171M (+30%). Strong volume + margin recovery. EPS ~242p. Continued capex on Hull pork facility + poultry expansion."
+      "notes": "FY24: revenue £2.60B (+12%). Adj op profit £171M (+30%). Strong volume + margin recovery. EPS ~242p. Continued capex on Hull pork facility + poultry expansion.",
+      "capexMM": 100,
+      "daMM": 80,
+      "cfoMM": 230
     },
     {
       "endDate": "2025-03-29",
@@ -96,8 +108,11 @@
       "cashMM": 35,
       "sharesOutMM": 53.72,
       "bookValuePerShare": 10.55,
-      "dividendPerShare": 1.00,
-      "notes": "FY25: revenue £2.72B (+5%). Adj op profit £193M (+13%). Inspired Pet Nutrition (acquired Aug 2024) added new pet-food vertical. EPS ~285p. Dividend 100p (+9%)."
+      "dividendPerShare": 1.0,
+      "notes": "FY25: revenue £2.72B (+5%). Adj op profit £193M (+13%). Inspired Pet Nutrition (acquired Aug 2024) added new pet-food vertical. EPS ~285p. Dividend 100p (+9%).",
+      "capexMM": 95,
+      "daMM": 85,
+      "cfoMM": 240
     }
   ]
 }

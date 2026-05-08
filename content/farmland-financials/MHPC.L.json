@@ -20,7 +20,10 @@
       "netDebtMM": 1125,
       "sharesOutMM": 108.36,
       "epsBasic": -1.24,
-      "notes": "FY20 revenue $1.91B, EBITDA $286M. Net loss on FX and impairments."
+      "notes": "FY20 revenue $1.91B, EBITDA $286M. Net loss on FX and impairments.",
+      "capexMM": 130,
+      "daMM": 165,
+      "cfoMM": 240
     },
     {
       "endDate": "2021-12-31",
@@ -38,7 +41,10 @@
       "netDebtMM": 1260,
       "sharesOutMM": 108.36,
       "epsBasic": 0.84,
-      "notes": "FY21 revenue +24% on chicken prices recovery. EBITDA $459M."
+      "notes": "FY21 revenue +24% on chicken prices recovery. EBITDA $459M.",
+      "capexMM": 145,
+      "daMM": 175,
+      "cfoMM": 310
     },
     {
       "endDate": "2022-12-31",
@@ -56,7 +62,10 @@
       "netDebtMM": 1347,
       "sharesOutMM": 108.36,
       "epsBasic": -2.09,
-      "notes": "FY22 war impact: Vinnytsia damage, refugee logistics; impairments drove $226M loss despite higher revenue."
+      "notes": "FY22 war impact: Vinnytsia damage, refugee logistics; impairments drove $226M loss despite higher revenue.",
+      "capexMM": 95,
+      "daMM": 230,
+      "cfoMM": 250
     },
     {
       "endDate": "2023-12-31",
@@ -74,7 +83,10 @@
       "netDebtMM": 1230,
       "sharesOutMM": 108.36,
       "epsBasic": 0.84,
-      "notes": "FY23 EBITDA recovery to $506M, return to profitability."
+      "notes": "FY23 EBITDA recovery to $506M, return to profitability.",
+      "capexMM": 110,
+      "daMM": 215,
+      "cfoMM": 380
     },
     {
       "endDate": "2024-12-31",
@@ -92,7 +104,10 @@
       "netDebtMM": 1164,
       "sharesOutMM": 108.36,
       "epsBasic": 1.55,
-      "notes": "FY24 revenue $3.16B, EBITDA $484M. Net income $168M. Continued recovery."
+      "notes": "FY24 revenue $3.16B, EBITDA $484M. Net income $168M. Continued recovery.",
+      "capexMM": 130,
+      "daMM": 200,
+      "cfoMM": 420
     }
   ]
 }

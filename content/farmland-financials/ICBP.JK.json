@@ -30,7 +30,10 @@
       "sharesOutMM": 11662,
       "bookValuePerShare": 2287,
       "dividendPerShare": 215,
-      "notes": "FY19: Rp42.3T revenue, Rp5.04T net profit. Net cash positive. Pre-Pinehill."
+      "notes": "FY19: Rp42.3T revenue, Rp5.04T net profit. Net cash positive. Pre-Pinehill.",
+      "capexMM": 2900000,
+      "daMM": 1200000,
+      "cfoMM": 7400000
     },
     {
       "endDate": "2020-12-31",
@@ -58,7 +61,10 @@
       "sharesOutMM": 11662,
       "bookValuePerShare": 2877,
       "dividendPerShare": 187,
-      "notes": "FY20: Pinehill Africa/MENA noodles (US$2.05B) consolidated H2; debt jumped to Rp41.7T. Net income Rp6.59T."
+      "notes": "FY20: Pinehill Africa/MENA noodles (US$2.05B) consolidated H2; debt jumped to Rp41.7T. Net income Rp6.59T.",
+      "capexMM": 3100000,
+      "daMM": 1450000,
+      "cfoMM": 7560000
     },
     {
       "endDate": "2021-12-31",
@@ -86,7 +92,10 @@
       "sharesOutMM": 11662,
       "bookValuePerShare": 3294,
       "dividendPerShare": 215,
-      "notes": "FY21: Rp56.8T (+22% YoY) full-year Pinehill consol. Net income Rp6.39T."
+      "notes": "FY21: Rp56.8T (+22% YoY) full-year Pinehill consol. Net income Rp6.39T.",
+      "capexMM": 3700000,
+      "daMM": 2100000,
+      "cfoMM": 8200000
     },
     {
       "endDate": "2022-12-31",
@@ -114,7 +123,10 @@
       "sharesOutMM": 11662,
       "bookValuePerShare": 3508,
       "dividendPerShare": 197,
-      "notes": "FY22: Rp64.8T (+14% YoY). Strong noodle volumes; FX losses on USD debt. Net income Rp4.59T."
+      "notes": "FY22: Rp64.8T (+14% YoY). Strong noodle volumes; FX losses on USD debt. Net income Rp4.59T.",
+      "capexMM": 4400000,
+      "daMM": 2400000,
+      "cfoMM": 8800000
     },
     {
       "endDate": "2023-12-31",
@@ -142,7 +154,10 @@
       "sharesOutMM": 11662,
       "bookValuePerShare": 4032,
       "dividendPerShare": 230,
-      "notes": "FY23: Rp67.9T revenue (+5% YoY), Rp7.18T net profit (+57%) — strong margin recovery + lower input cost."
+      "notes": "FY23: Rp67.9T revenue (+5% YoY), Rp7.18T net profit (+57%) — strong margin recovery + lower input cost.",
+      "capexMM": 4200000,
+      "daMM": 2600000,
+      "cfoMM": 11400000
     },
     {
       "endDate": "2024-12-31",
@@ -171,7 +186,10 @@
       "bookValuePerShare": 4520,
       "navPerShare": 4520,
       "dividendPerShare": 248,
-      "notes": "FY24: Rp71.2T revenue (+5% YoY), Rp10.87T net profit (+51% YoY). Lower wheat/palm oil + FX hedge gains. Net debt down to ~Rp26.2T."
+      "notes": "FY24: Rp71.2T revenue (+5% YoY), Rp10.87T net profit (+51% YoY). Lower wheat/palm oil + FX hedge gains. Net debt down to ~Rp26.2T.",
+      "capexMM": 4300000,
+      "daMM": 2750000,
+      "cfoMM": 12200000
     }
   ]
 }
