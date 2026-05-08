@@ -275,3 +275,26 @@ export function getFinancialsTickers(): string[] {
     .filter((f) => f.endsWith(".json"))
     .map((f) => f.replace(/\.json$/, ""));
 }
+
+// Bulk load every financials file. Used to compute market-share trends
+// where the current ticker's revenue per period needs the sector-wide
+// revenue denominator. Returns a map keyed by ticker. Skips files that
+// fail validation rather than throwing — universe coverage is uneven.
+export function getAllFinancials(): Map<string, Financials> {
+  const out = new Map<string, Financials>();
+  if (!fs.existsSync(FINANCIALS_DIR)) return out;
+  for (const file of fs.readdirSync(FINANCIALS_DIR)) {
+    if (!file.endsWith(".json")) continue;
+    try {
+      const raw = JSON.parse(
+        fs.readFileSync(path.join(FINANCIALS_DIR, file), "utf8"),
+      );
+      const parsed = FinancialsSchema.parse(raw);
+      parsed.periods.sort((a, b) => a.endDate.localeCompare(b.endDate));
+      out.set(parsed.ticker, parsed);
+    } catch {
+      // skip invalid
+    }
+  }
+  return out;
+}

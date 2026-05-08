@@ -4,7 +4,8 @@
 // detail page. Reads from period.{block}.{field} (new nested shape) and
 // falls back to flat per-period fields (existing palm/tea data already
 // in the financials JSONs for ~32 plantation tickers). Only renders
-// metrics with 2+ periods of populated data.
+// metrics with 2+ periods of populated data. Also derives market-share
+// trend from peer financials when peer data is supplied.
 
 import type { Financials, FinancialsPeriod } from "@/lib/farmland-financials";
 import { tipFor } from "@/lib/farmland-glossary";

@@ -1530,10 +1530,115 @@ function buildAllSeries(
   return result;
 }
 
+// Synthesize a "Q4" row for fiscal years where the data file carries
+// only Q1/Q2/Q3 rows + an FY row (LW, HRL, POST, TSN's older years —
+// the issuer reports a YTD-Q3 interim then folds the final quarter
+// into the full-year file). Without this, the income chart shows
+// 12-month gaps between fiscal years' Q3 and the next year's Q1, and
+// the LTM-EBITDA construction silently drops the missing Q4. Returns a
+// new periods array with synthetic Q rows inserted at each FY's
+// endDate (revenue/EBITDA/etc = FY total − sum of Q1+Q2+Q3).
+function expandWithSynthesizedQuarters(
+  periods: FinancialsPeriod[],
+): FinancialsPeriod[] {
+  const numericKeys: (keyof FinancialsPeriod)[] = [
+    "grossRevenueMM",
+    "revenueMM",
+    "ebitdaMM",
+    "noiMM",
+    "netIncomeMM",
+    "capexMM",
+    "daMM",
+    "cfoMM",
+    "interestExpenseMM",
+    "dividendPaidMM",
+  ];
+  const recordKeys: (keyof FinancialsPeriod)[] = [
+    "revenueBySegmentMM",
+    "expensesBySegmentMM",
+    "revenueByGeographyMM",
+  ];
+  const sorted = [...periods].sort((a, b) => a.endDate.localeCompare(b.endDate));
+  const out: FinancialsPeriod[] = [...sorted];
+
+  for (const fy of sorted) {
+    if (fy.periodType !== "FY") continue;
+    const fyEndMs = new Date(fy.endDate).getTime();
+    if (!Number.isFinite(fyEndMs)) continue;
+    // Quarter rows in the 12 months strictly before the FY end.
+    const windowStart = fyEndMs - 365 * 24 * 60 * 60 * 1000;
+    const qRows = sorted.filter((p) => {
+      if (p.periodType !== "Q") return false;
+      const t = new Date(p.endDate).getTime();
+      return t > windowStart && t < fyEndMs;
+    });
+    // If there's already a Q row at exactly the FY end (calendar-year
+    // issuers like JBSS3 / ADM with both Q-12 and FY-12), don't
+    // double-count.
+    const haveTerminalQ = sorted.some(
+      (p) => p.periodType === "Q" && p.endDate === fy.endDate,
+    );
+    if (qRows.length !== 3 || haveTerminalQ) continue;
+
+    const synthetic: FinancialsPeriod = {
+      endDate: fy.endDate,
+      periodType: "Q",
+    };
+    for (const k of numericKeys) {
+      const fyV = fy[k];
+      if (typeof fyV !== "number") continue;
+      let sum = 0;
+      let allPresent = true;
+      for (const q of qRows) {
+        const v = q[k];
+        if (typeof v !== "number") {
+          allPresent = false;
+          break;
+        }
+        sum += v;
+      }
+      if (!allPresent) continue;
+      const diff = fyV - sum;
+      if (Number.isFinite(diff)) {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        (synthetic as any)[k] = diff;
+      }
+    }
+    for (const k of recordKeys) {
+      const fyR = fy[k] as Record<string, number> | undefined;
+      if (!fyR) continue;
+      let allPresent = true;
+      const sum: Record<string, number> = {};
+      for (const q of qRows) {
+        const r = q[k] as Record<string, number> | undefined;
+        if (!r) {
+          allPresent = false;
+          break;
+        }
+        for (const [name, val] of Object.entries(r)) {
+          sum[name] = (sum[name] ?? 0) + val;
+        }
+      }
+      if (!allPresent) continue;
+      const diff: Record<string, number> = {};
+      for (const name of Object.keys(fyR)) {
+        diff[name] = (fyR[name] ?? 0) - (sum[name] ?? 0);
+      }
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      (synthetic as any)[k] = diff;
+    }
+    // Only insert if we synthesized at least the headline revenue line.
+    if (typeof synthetic.revenueMM === "number") {
+      synthetic.notes = "Synthetic Q4 = FY − (Q1 + Q2 + Q3)";
+      out.push(synthetic);
+    }
+  }
+  out.sort((a, b) => a.endDate.localeCompare(b.endDate));
+  return out;
+}
+
 // Collect dated values for a numeric key from financials (raw, no period
 // filtering — useful for shares, net debt, property FMV which are reported
-// at multiple period types and we want all of them for the at-or-before
-// lookup).
 function collectDated(
   financials: Financials,
   key: keyof FinancialsPeriod,
@@ -1549,11 +1654,15 @@ function collectDated(
 
 // Collect annualized EBITDA for cap-rate computations. Prefers FY/LTM
 // values directly; for quarterly periods, sums the trailing 4 quarters
-// to construct an LTM EBITDA at each quarterly reporting date.
+// to construct an LTM EBITDA at each quarterly reporting date. Uses the
+// expanded period array (with synthesized Q4 rows) so issuers that
+// report only Q1/Q2/Q3 + FY get a complete LTM series instead of a
+// 13-month-window approximation that drops Q4.
 function collectAnnualizedEbitda(financials: Financials): DatedPoint[] {
+  const expanded = expandWithSynthesizedQuarters(financials.periods);
   const fyOrLtm: DatedPoint[] = [];
   const quarterly: { date: string; value: number }[] = [];
-  for (const p of financials.periods) {
+  for (const p of expanded) {
     if (typeof p.ebitdaMM !== "number") continue;
     if (p.periodType === "FY" || p.periodType === "LTM") {
       fyOrLtm.push({ date: p.endDate, value: p.ebitdaMM });
@@ -1605,6 +1714,10 @@ function buildIncomeSeries(
     expensesBySegmentMM?: Record<string, number>;
   };
 
+  // Expand with synthesized Q4 rows so issuers that report only
+  // Q1/Q2/Q3 + FY (LW, HRL, POST, …) get a full quarterly series.
+  const expandedPeriods = expandWithSynthesizedQuarters(financials.periods);
+
   let aggregated: Aggregated[] = [];
 
   if (cadence === "Q") {
@@ -1613,7 +1726,7 @@ function buildIncomeSeries(
     // directly and synthesize H2 = FY − H1 for years where both the
     // interim H1 and the full FY were reported. Years with FY-only
     // (no interim) are skipped here — Annual mode covers them.
-    const qRows = financials.periods.filter(
+    const qRows = expandedPeriods.filter(
       (p) => p.periodType === "Q" && typeof p.revenueMM === "number",
     );
     if (qRows.length > 0) {
@@ -1630,7 +1743,7 @@ function buildIncomeSeries(
     } else {
       const hByYear = new Map<number, FinancialsPeriod>();
       const fyByYear = new Map<number, FinancialsPeriod>();
-      for (const p of financials.periods) {
+      for (const p of expandedPeriods) {
         if (typeof p.revenueMM !== "number") continue;
         const y = new Date(p.endDate).getFullYear();
         if (p.periodType === "H") hByYear.set(y, p);
@@ -1693,10 +1806,31 @@ function buildIncomeSeries(
     }
   } else {
     // Annual: prefer FY rows, synthesize from 4 Q (or 2 H) where missing.
+    // Group by FISCAL year, not calendar year — for issuers with
+    // fiscal-year-end ≠ Dec, calendar-year grouping mixes Q3 of FY-N
+    // with Q1/Q2 of FY-N+1 inside the same calendar bucket. Use the FY
+    // row's endDate as the canonical year key when an FY row exists in
+    // the issuer's history.
+    const fyEnds = expandedPeriods
+      .filter((p) => p.periodType === "FY")
+      .map((p) => new Date(p.endDate).getTime())
+      .filter((t) => Number.isFinite(t))
+      .sort((a, b) => a - b);
+    const fiscalYearOf = (endDateIso: string): number => {
+      const t = new Date(endDateIso).getTime();
+      // Find the smallest FY end-date >= this period's end. That's the
+      // fiscal year this period belongs to.
+      for (const fy of fyEnds) {
+        if (fy >= t) return new Date(fy).getFullYear();
+      }
+      // Beyond the latest FY end — bucket by calendar year of the
+      // period itself (probably an interim Q after the latest FY).
+      return new Date(endDateIso).getFullYear();
+    };
     const byYear = new Map<number, FinancialsPeriod[]>();
-    for (const p of financials.periods) {
+    for (const p of expandedPeriods) {
       if (typeof p.revenueMM !== "number") continue;
-      const y = new Date(p.endDate).getFullYear();
+      const y = fyEnds.length > 0 ? fiscalYearOf(p.endDate) : new Date(p.endDate).getFullYear();
       if (!byYear.has(y)) byYear.set(y, []);
       byYear.get(y)!.push(p);
     }
