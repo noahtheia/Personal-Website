@@ -72,6 +72,12 @@
         "Central Europe": 425,
         "Asia Pacific": 298
       },
+      "revenueByGeographyMM": {
+        "UK & Ireland": 2010,
+        "Western Europe": 1115,
+        "Central Europe": 425,
+        "Asia Pacific": 298
+      },
       "expensesBySegmentMM": {
         "COGS": 3470,
         "SG&A": 270,
@@ -96,6 +102,12 @@
       "periodType": "FY",
       "revenueMM": 3993,
       "revenueBySegmentMM": {
+        "UK & Ireland": 2095,
+        "Western Europe": 1140,
+        "Central Europe": 440,
+        "Asia Pacific": 318
+      },
+      "revenueByGeographyMM": {
         "UK & Ireland": 2095,
         "Western Europe": 1140,
         "Central Europe": 440,
@@ -130,6 +142,12 @@
         "Central Europe": 460,
         "Asia Pacific": 323
       },
+      "revenueByGeographyMM": {
+        "UK & Ireland": 2150,
+        "Western Europe": 1150,
+        "Central Europe": 460,
+        "Asia Pacific": 323
+      },
       "expensesBySegmentMM": {
         "COGS": 3590,
         "SG&A": 300,
@@ -147,7 +165,15 @@
       "notes": "FY24 (52w to Dec 29 2024): revenue GBP 4.08B (+2%). EBITDA GBP 159M. Net income GBP 47M. Lower leverage. New contracts secured (Walmart Canada).",
       "capexMM": 60,
       "daMM": 80,
-      "cfoMM": 195
+      "cfoMM": 195,
+      "interestExpenseMM": 28,
+      "weightedAvgDebtRate": 5.4,
+      "debtMaturityProfileMM": {
+        "<1y": 70,
+        "1-3y": 130,
+        "3-5y": 100,
+        "5+y": 60
+      }
     },
     {
       "endDate": "2021-07-04",
