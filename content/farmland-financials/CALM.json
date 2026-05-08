@@ -2,7 +2,7 @@
   "ticker": "CALM",
   "currency": "USD",
   "sourceUrl": "https://ir.calmainefoods.com/sec-filings",
-  "notes": "Cal-Maine Foods (NASDAQ: CALM) — largest US shell egg producer (~20% market share). Fiscal year ends Saturday closest to May 31 (early June). Highly cyclical — earnings track the cage-free wholesale egg price (Urner Barry index). HPAI (avian influenza) outbreaks 2022-23 and 2024-25 disrupted supply, driving record egg prices. Dividend = 1/3 of net income (no fixed rate). No long-term debt. CIK 16933.",
+  "notes": "Cal-Maine Foods (NASDAQ: CALM) \u2014 largest US shell egg producer (~20% market share). Fiscal year ends Saturday closest to May 31 (early June). Highly cyclical \u2014 earnings track the cage-free wholesale egg price (Urner Barry index). HPAI (avian influenza) outbreaks 2022-23 and 2024-25 disrupted supply, driving record egg prices. Dividend = 1/3 of net income (no fixed rate). No long-term debt. CIK 16933.",
   "periods": [
     {
       "endDate": "2020-05-30",
@@ -347,7 +347,12 @@
       "daMM": 110.0,
       "totalDebtMM": 6496.0,
       "cashMM": 829.0,
-      "netDebtMM": 5667.0
+      "netDebtMM": 5667.0,
+      "revenueBySegmentMM": {
+        "Conventional Eggs": 1016.4,
+        "Specialty Eggs": 328.9,
+        "Prepared Foods": 11.8
+      }
     },
     {
       "endDate": "2025-04-27",
@@ -383,7 +388,12 @@
       "daMM": 106.0,
       "totalDebtMM": 6827.0,
       "cashMM": 132.0,
-      "netDebtMM": 6695.0
+      "netDebtMM": 6695.0,
+      "revenueBySegmentMM": {
+        "Conventional Eggs": 505.9,
+        "Specialty Eggs": 283.5,
+        "Prepared Foods": 83.9
+      }
     },
     {
       "endDate": "2025-11-02",
@@ -401,7 +411,12 @@
       "daMM": 99.0,
       "totalDebtMM": 6830.0,
       "cashMM": 168.0,
-      "netDebtMM": 6662.0
+      "netDebtMM": 6662.0,
+      "revenueBySegmentMM": {
+        "Conventional Eggs": 363.9,
+        "Specialty Eggs": 285.7,
+        "Prepared Foods": 71.7
+      }
     },
     {
       "endDate": "2026-02-01",
@@ -419,7 +434,12 @@
       "daMM": 102.0,
       "totalDebtMM": 6647.0,
       "cashMM": 561.0,
-      "netDebtMM": 6086.0
+      "netDebtMM": 6086.0,
+      "revenueBySegmentMM": {
+        "Conventional Eggs": 283.2,
+        "Specialty Eggs": 289.1,
+        "Prepared Foods": 63.6
+      }
     }
   ]
 }

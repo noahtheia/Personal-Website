@@ -362,10 +362,13 @@
         "G&A": 77.4,
         "D&A": 129.3
       },
-      "notes": "FY2015: weak CPO RM2,160/MT, El Niño impact. Equity ~RM3.70B",
+      "notes": "FY2015: weak CPO RM2,160/MT, El Niño impact. Equity ~RM3.70B. FFB 1,727K t (own, ex-Plasma), yield 19.0 t/ha mature",
       "capexMM": 410,
       "daMM": 130,
-      "cfoMM": 270
+      "cfoMM": 270,
+      "ffbProductionTonnesK": 1727,
+      "ffbYieldTPerHa": 19.0,
+      "matureHectaresK": 90
     },
     {
       "endDate": "2016-12-31",
@@ -382,10 +385,13 @@
         "G&A": 88.7,
         "D&A": 147.5
       },
-      "notes": "FY2016: CPO ASP RM2,653/MT recovery; Genting Premium Outlets opened. Equity ~RM3.93B",
+      "notes": "FY2016: CPO ASP RM2,653/MT recovery; Genting Premium Outlets opened. Equity ~RM3.93B. FFB 1,614K t, yield 17.5 t/ha (drought lag)",
       "capexMM": 480,
       "daMM": 145,
-      "cfoMM": 410
+      "cfoMM": 410,
+      "ffbProductionTonnesK": 1614,
+      "ffbYieldTPerHa": 17.5,
+      "matureHectaresK": 93
     },
     {
       "endDate": "2017-12-31",
@@ -402,10 +408,13 @@
         "G&A": 98.7,
         "D&A": 164.3
       },
-      "notes": "FY2017: CPO ASP RM2,790/MT. Equity ~RM4.12B",
+      "notes": "FY2017: CPO ASP RM2,790/MT. Equity ~RM4.12B. FFB 1,884K t, yield 18.4 t/ha. Mature ~110K ha (Indonesia maturing)",
       "capexMM": 520,
       "daMM": 160,
-      "cfoMM": 430
+      "cfoMM": 430,
+      "ffbProductionTonnesK": 1884,
+      "ffbYieldTPerHa": 18.4,
+      "matureHectaresK": 110
     },
     {
       "endDate": "2018-12-31",
@@ -422,10 +431,13 @@
         "G&A": 94.3,
         "D&A": 157.8
       },
-      "notes": "FY2018: CPO weakness RM2,235/MT. Equity ~RM4.18B",
+      "notes": "FY2018: CPO weakness RM2,235/MT. Equity ~RM4.18B. FFB 2,083K t, yield 18.2 t/ha. Mature 113K ha",
       "capexMM": 480,
       "daMM": 175,
-      "cfoMM": 360
+      "cfoMM": 360,
+      "ffbProductionTonnesK": 2083,
+      "ffbYieldTPerHa": 18.2,
+      "matureHectaresK": 113
     },
     {
       "endDate": "2019-12-31",
@@ -442,10 +454,13 @@
         "G&A": 146.2,
         "D&A": 242.8
       },
-      "notes": "FY2019: CPO recovery late-year, Premium Outlets contribution; revenue jump on downstream refinery full-year. Equity ~RM4.27B",
+      "notes": "FY2019: CPO recovery late-year, Premium Outlets contribution; revenue jump on downstream refinery full-year. Equity ~RM4.27B. FFB 2,194K t (+5% YoY), yield 18.5 t/ha. Mature 113K ha",
       "capexMM": 360,
       "daMM": 185,
-      "cfoMM": 410
+      "cfoMM": 410,
+      "ffbProductionTonnesK": 2194,
+      "ffbYieldTPerHa": 18.5,
+      "matureHectaresK": 113
     },
     {
       "endDate": "2020-03-31",
