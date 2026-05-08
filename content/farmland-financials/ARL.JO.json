@@ -2,7 +2,7 @@
   "ticker": "ARL.JO",
   "currency": "ZAR",
   "sourceUrl": "https://www.astralfoods.com/investors/",
-  "notes": "Astral Foods Limited (JSE: ARL) — South Africa's largest integrated poultry producer. Two divisions: Poultry (County Fair, Festive, Goldi brands — broiler grow-out, processing) and Feed (Meadow Feeds, the country's largest animal-feed business, sells externally and intercompany). Fiscal year ends 30 September. Dual challenge over FY22-FY24: (1) load-shedding (electricity rationing) which forced diesel generator running; (2) avian-influenza (HPAI) outbreaks in mid-2023 destroyed ~2M breeder hens, requiring R220M government grant + multi-year flock rebuild; (3) high feed-grain prices (yellow maize, soy meal). FY24 was a recovery year as power supply normalized and feed costs eased. Annual report at astralfoods.com/investors/.",
+  "notes": "Astral Foods Limited (JSE: ARL) \u2014 South Africa's largest integrated poultry producer. Two divisions: Poultry (County Fair, Festive, Goldi brands \u2014 broiler grow-out, processing) and Feed (Meadow Feeds, the country's largest animal-feed business, sells externally and intercompany). Fiscal year ends 30 September. Dual challenge over FY22-FY24: (1) load-shedding (electricity rationing) which forced diesel generator running; (2) avian-influenza (HPAI) outbreaks in mid-2023 destroyed ~2M breeder hens, requiring R220M government grant + multi-year flock rebuild; (3) high feed-grain prices (yellow maize, soy meal). FY24 was a recovery year as power supply normalized and feed costs eased. Annual report at astralfoods.com/investors/.",
   "periods": [
     {
       "endDate": "2020-09-30",
@@ -24,7 +24,8 @@
       "notes": "FY20: revenue R14.8B. Op profit R590M. Net cash R650M (no debt). COVID disruptions to QSR / hospitality demand.",
       "capexMM": 580,
       "daMM": 380,
-      "cfoMM": 1200
+      "cfoMM": 1200,
+      "totalEquityMM": 4250
     },
     {
       "endDate": "2021-09-30",
@@ -46,7 +47,8 @@
       "notes": "FY21: revenue R16.4B (+11%). HEPS 1,463 cents. Op profit ~R740M. Cash position strong, no debt.",
       "capexMM": 640,
       "daMM": 400,
-      "cfoMM": 1500
+      "cfoMM": 1500,
+      "totalEquityMM": 4480
     },
     {
       "endDate": "2022-09-30",
@@ -68,7 +70,8 @@
       "notes": "FY22: revenue R18.6B. Load-shedding intensifies. Diesel costs R741M (vs R8M FY21). Op profit R860M. Cash drawn down for working-capital.",
       "capexMM": 750,
       "daMM": 420,
-      "cfoMM": 1100
+      "cfoMM": 1100,
+      "totalEquityMM": 4720
     },
     {
       "endDate": "2023-09-30",
@@ -94,7 +97,8 @@
       "notes": "FY23: ANNUS HORRIBILIS. Revenue R19.7B but op LOSS R(977M). HPAI culls (2M breeder hens) + record load-shedding + feed-cost squeeze. Net debt swung to R380M. Dividend suspended. Worst year on record.",
       "capexMM": 820,
       "daMM": 440,
-      "cfoMM": 850
+      "cfoMM": 850,
+      "totalEquityMM": 4910
     },
     {
       "endDate": "2023-03-31",
@@ -136,7 +140,8 @@
         "1-3y": 50.0,
         "3-5y": 30.0,
         "5+y": 40.0
-      }
+      },
+      "totalEquityMM": 5085
     },
     {
       "endDate": "2024-03-31",

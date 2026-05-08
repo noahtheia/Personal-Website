@@ -19,7 +19,8 @@
       "notes": "FY20: revenue $906M. EBITDA $40M. Net income $90M (gain on plant sales offset losses).",
       "capexMM": 6.6,
       "cfoMM": 71.7,
-      "daMM": 30.3
+      "daMM": 30.3,
+      "totalEquityMM": 78
     },
     {
       "endDate": "2021-12-31",
@@ -36,7 +37,8 @@
       "notes": "FY21: revenue $1.18B. EBITDA $42M. Net income $21M. Renamed to Alto Ingredients (specialty pivot).",
       "capexMM": 16.4,
       "daMM": 23.3,
-      "cfoMM": 26.8
+      "cfoMM": 26.8,
+      "totalEquityMM": 165
     },
     {
       "endDate": "2022-03-31",
@@ -110,7 +112,8 @@
       "notes": "FY22: revenue $1.28B. EBITDA $30M. Net loss $3M. Margin compression on corn cost spike.",
       "capexMM": 37.7,
       "daMM": 25.1,
-      "cfoMM": 6.0
+      "cfoMM": 6.0,
+      "totalEquityMM": 195
     },
     {
       "endDate": "2023-03-31",
@@ -184,7 +187,8 @@
       "notes": "FY23: revenue $989M. EBITDA $-3M. Net loss $38M. CO2 supply contract delays + Pekin plant outages.",
       "capexMM": 29.5,
       "daMM": 23.1,
-      "cfoMM": 22.0
+      "cfoMM": 22.0,
+      "totalEquityMM": 165
     },
     {
       "endDate": "2024-03-31",
@@ -276,7 +280,8 @@
         "Pekin Campus": 586.3,
         "Marketing & Distribution": 227.4,
         "Western Production": 152.2
-      }
+      },
+      "totalEquityMM": 130
     },
     {
       "endDate": "2025-03-31",

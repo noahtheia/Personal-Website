@@ -2,7 +2,7 @@
   "ticker": "2280.SR",
   "currency": "SAR",
   "sourceUrl": "https://www.almarai.com/en/investors-relations/",
-  "notes": "Almarai Co. — Saudi Arabia's largest dairy and food group, listed on Tadawul. Calendar fiscal year (Dec 31). Reportable IFRS 8 segments: Dairy and Juices, Bakery, Poultry, Farming (alfalfa/fodder + Argentine Fondomonte farmland holdings). Farmland exposure is via the Farming segment — Almarai owns ~50,000 ha of farmland in Argentina (Fondomonte, ~123k acres) plus alfalfa farms in Saudi Arabia, USA (Fondomonte California / Arizona). Most revenue is dairy/food (>85%); farmland is strategic feedstock supply. Quarterly figures from Tadawul Form 8 quarterly disclosures and Almarai IR press releases; annual data from 2020-2024 annual reports. Acres figure is Argentine Fondomonte holdings only (~50,000 ha × 2.47 ÷ 1000 = 123.5k acres); excludes leased Saudi/US fodder farms. Net debt = total borrowings − cash & cash equivalents. Property book = property, plant & equipment + biological assets. Some segment splits estimated from disclosed annual breakdowns. Pre-2020 annual data (FY2005-FY2019) compiled from Almarai IR archive (annual reports + Tadawul disclosures since the IPO in July 2005). Pre-2009 was dairy + juices only (Western Bakeries acquired Dec 2007 — bakery contribution from FY2008; Hail Agricultural (HADCO/poultry) acquired Aug 2009 — poultry segment from FY2010; Argentine Fondomonte farmland acquired in 2011 and Fondomonte California/Arizona in 2014). Accordingly totalAcresK ramps from 0 in FY2005-2010 to ~50k ha (~124k acres) by FY2014 onward; revenueBySegmentMM only meaningful from FY2010 once all four segments existed.",
+  "notes": "Almarai Co. \u2014 Saudi Arabia's largest dairy and food group, listed on Tadawul. Calendar fiscal year (Dec 31). Reportable IFRS 8 segments: Dairy and Juices, Bakery, Poultry, Farming (alfalfa/fodder + Argentine Fondomonte farmland holdings). Farmland exposure is via the Farming segment \u2014 Almarai owns ~50,000 ha of farmland in Argentina (Fondomonte, ~123k acres) plus alfalfa farms in Saudi Arabia, USA (Fondomonte California / Arizona). Most revenue is dairy/food (>85%); farmland is strategic feedstock supply. Quarterly figures from Tadawul Form 8 quarterly disclosures and Almarai IR press releases; annual data from 2020-2024 annual reports. Acres figure is Argentine Fondomonte holdings only (~50,000 ha \u00d7 2.47 \u00f7 1000 = 123.5k acres); excludes leased Saudi/US fodder farms. Net debt = total borrowings \u2212 cash & cash equivalents. Property book = property, plant & equipment + biological assets. Some segment splits estimated from disclosed annual breakdowns. Pre-2020 annual data (FY2005-FY2019) compiled from Almarai IR archive (annual reports + Tadawul disclosures since the IPO in July 2005). Pre-2009 was dairy + juices only (Western Bakeries acquired Dec 2007 \u2014 bakery contribution from FY2008; Hail Agricultural (HADCO/poultry) acquired Aug 2009 \u2014 poultry segment from FY2010; Argentine Fondomonte farmland acquired in 2011 and Fondomonte California/Arizona in 2014). Accordingly totalAcresK ramps from 0 in FY2005-2010 to ~50k ha (~124k acres) by FY2014 onward; revenueBySegmentMM only meaningful from FY2010 once all four segments existed.",
   "periods": [
     {
       "endDate": "2005-12-31",
@@ -196,7 +196,7 @@
       "totalAcresK": 124,
       "sharesOutMM": 1000,
       "bookValuePerShare": 8.4,
-      "notes": "FY2014: Fondomonte California (alfalfa) acquired; Fondomonte Arizona land acquired; total Argentine + US/Saudi farmland reaches current ~50k ha. 5:3 bonus issue → ~1,000M shares; Equity ~SAR8,400M",
+      "notes": "FY2014: Fondomonte California (alfalfa) acquired; Fondomonte Arizona land acquired; total Argentine + US/Saudi farmland reaches current ~50k ha. 5:3 bonus issue \u2192 ~1,000M shares; Equity ~SAR8,400M",
       "expensesBySegmentMM": {
         "COGS": 7810.4,
         "G&A": 800.1,
@@ -399,7 +399,8 @@
         "G&A": 214.9,
         "D&A": 192.6,
         "Other opex": 112.2
-      }
+      },
+      "totalEquityMM": 7820
     },
     {
       "endDate": "2020-12-31",
@@ -496,7 +497,8 @@
         "G&A": 232.9,
         "D&A": 208.8,
         "Other opex": 121.7
-      }
+      },
+      "totalEquityMM": 8050
     },
     {
       "endDate": "2021-12-31",
@@ -593,7 +595,8 @@
         "G&A": 284.3,
         "D&A": 254.9,
         "Other opex": 148.6
-      }
+      },
+      "totalEquityMM": 8290
     },
     {
       "endDate": "2022-12-31",
@@ -690,7 +693,8 @@
         "G&A": 304.2,
         "D&A": 272.7,
         "Other opex": 158.9
-      }
+      },
+      "totalEquityMM": 8520
     },
     {
       "endDate": "2023-12-31",
@@ -720,7 +724,7 @@
       "sharesOutMM": 1000,
       "bookValuePerShare": 15.7,
       "dividendPerShare": 1.3,
-      "notes": "FY23: record year — revenue +14.5%, net income +69% on margin recovery",
+      "notes": "FY23: record year \u2014 revenue +14.5%, net income +69% on margin recovery",
       "capexMM": 2400,
       "daMM": 1660,
       "cfoMM": 3500
@@ -787,7 +791,8 @@
         "G&A": 302.6,
         "D&A": 271.3,
         "Other opex": 158.1
-      }
+      },
+      "totalEquityMM": 8780
     },
     {
       "endDate": "2024-12-31",

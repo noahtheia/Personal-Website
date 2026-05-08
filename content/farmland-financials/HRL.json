@@ -2,7 +2,7 @@
   "ticker": "HRL",
   "currency": "USD",
   "sourceUrl": "https://www.hormelfoods.com/about/investors/financial-reports/",
-  "notes": "Hormel Foods (NYSE: HRL) — branded packaged foods + protein. Fiscal year ends last Sunday of October. Three segments post-2024 reorganization: Retail, Foodservice, International. Strong Spam, Skippy, Jennie-O, Planters franchises (Planters acquired Jun 2021 for $3.35B). Dividend Aristocrat (58+ consecutive years of increases). Hormel Foundation owns ~46.4%. CIK 48465.",
+  "notes": "Hormel Foods (NYSE: HRL) \u2014 branded packaged foods + protein. Fiscal year ends last Sunday of October. Three segments post-2024 reorganization: Retail, Foodservice, International. Strong Spam, Skippy, Jennie-O, Planters franchises (Planters acquired Jun 2021 for $3.35B). Dividend Aristocrat (58+ consecutive years of increases). Hormel Foundation owns ~46.4%. CIK 48465.",
   "periods": [
     {
       "endDate": "2020-10-25",
@@ -30,7 +30,8 @@
         "Refrigerated Foods": 5271.1,
         "Jennie-O Turkey Store": 1333.5,
         "International & Other": 618.7
-      }
+      },
+      "totalEquityMM": 4374
     },
     {
       "endDate": "2021-10-31",
@@ -58,7 +59,8 @@
         "Refrigerated Foods": 6333.4,
         "Jennie-O Turkey Store": 1495.2,
         "International & Other": 748.2
-      }
+      },
+      "totalEquityMM": 4647
     },
     {
       "endDate": "2022-01-30",
@@ -131,7 +133,7 @@
       "sharesOutMM": 545.0,
       "bookValuePerShare": 14.36,
       "dividendPerShare": 1.04,
-      "notes": "FY22: revenue $12.5B (+9%) — peak. Operating income $1.42B. Inflation pricing offset volume.",
+      "notes": "FY22: revenue $12.5B (+9%) \u2014 peak. Operating income $1.42B. Inflation pricing offset volume.",
       "capexMM": 278.9,
       "daMM": 235.9,
       "cfoMM": 1135.0,
@@ -139,7 +141,8 @@
         "Retail": 7988,
         "Foodservice": 3691,
         "International": 780
-      }
+      },
+      "totalEquityMM": 4946
     },
     {
       "endDate": "2023-01-29",
@@ -220,7 +223,8 @@
         "Retail": 7749,
         "Foodservice": 3639,
         "International": 721
-      }
+      },
+      "totalEquityMM": 5252
     },
     {
       "endDate": "2024-01-28",
@@ -324,7 +328,8 @@
         "1-3y": 985.8,
         "3-5y": 657.2,
         "5+y": 821.5
-      }
+      },
+      "totalEquityMM": 5475
     },
     {
       "endDate": "2025-01-26",

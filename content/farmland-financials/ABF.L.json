@@ -2,7 +2,7 @@
   "ticker": "ABF.L",
   "currency": "GBP",
   "sourceUrl": "https://www.abf.co.uk/investorrelations",
-  "notes": "Associated British Foods plc (ABF.L) — diversified group with five segments: Retail (Primark — biggest contributor, ~50% revenue), Sugar (AB Sugar, Illovo), Grocery (Twinings, Ovaltine, Kingsmill, Jordans), Agriculture (AB Agri animal nutrition), Ingredients (AB Mauri yeast, ABF Ingredients). Listed LSE. Fiscal year ends mid-September. AG comp focus = Sugar + Agriculture segments. Annual reports: abf.co.uk/investorrelations/annual-report.",
+  "notes": "Associated British Foods plc (ABF.L) \u2014 diversified group with five segments: Retail (Primark \u2014 biggest contributor, ~50% revenue), Sugar (AB Sugar, Illovo), Grocery (Twinings, Ovaltine, Kingsmill, Jordans), Agriculture (AB Agri animal nutrition), Ingredients (AB Mauri yeast, ABF Ingredients). Listed LSE. Fiscal year ends mid-September. AG comp focus = Sugar + Agriculture segments. Annual reports: abf.co.uk/investorrelations/annual-report.",
   "periods": [
     {
       "endDate": "2020-09-12",
@@ -29,10 +29,11 @@
       "sharesOutMM": 791,
       "epsBasic": 0.867,
       "dividendPerShare": 0.137,
-      "notes": "FY19/20 — COVID lockdowns crushed Primark; revenue £13.9B (-12%).",
+      "notes": "FY19/20 \u2014 COVID lockdowns crushed Primark; revenue \u00a313.9B (-12%).",
       "capexMM": 691,
       "daMM": 763,
-      "cfoMM": 1670
+      "cfoMM": 1670,
+      "totalEquityMM": 9370
     },
     {
       "endDate": "2021-09-18",
@@ -59,10 +60,11 @@
       "sharesOutMM": 791,
       "epsBasic": 0.916,
       "dividendPerShare": 0.265,
-      "notes": "FY20/21 EBITDA £1.93B, recovery year.",
+      "notes": "FY20/21 EBITDA \u00a31.93B, recovery year.",
       "capexMM": 632,
       "daMM": 750,
-      "cfoMM": 2050
+      "cfoMM": 2050,
+      "totalEquityMM": 9755
     },
     {
       "endDate": "2022-09-17",
@@ -95,10 +97,11 @@
       "sharesOutMM": 786,
       "epsBasic": 1.23,
       "dividendPerShare": 0.439,
-      "notes": "FY21/22 revenue £17.0B (+22%), strong Primark rebound.",
+      "notes": "FY21/22 revenue \u00a317.0B (+22%), strong Primark rebound.",
       "capexMM": 837,
       "daMM": 760,
-      "cfoMM": 1380
+      "cfoMM": 1380,
+      "totalEquityMM": 10295
     },
     {
       "endDate": "2023-09-16",
@@ -131,10 +134,11 @@
       "sharesOutMM": 753,
       "epsBasic": 1.382,
       "dividendPerShare": 0.473,
-      "notes": "FY22/23 revenue £19.75B record. Sugar segment £2.69B on EU sugar tightness.",
+      "notes": "FY22/23 revenue \u00a319.75B record. Sugar segment \u00a32.69B on EU sugar tightness.",
       "capexMM": 1206,
       "daMM": 770,
-      "cfoMM": 2200
+      "cfoMM": 2200,
+      "totalEquityMM": 10730
     },
     {
       "endDate": "2024-09-14",
@@ -167,10 +171,11 @@
       "sharesOutMM": 738,
       "epsBasic": 1.94,
       "dividendPerShare": 0.6325,
-      "notes": "FY23/24 revenue £20.1B; £500M share buyback. Sugar segment EBITDA pressured by EU sugar price reset.",
+      "notes": "FY23/24 revenue \u00a320.1B; \u00a3500M share buyback. Sugar segment EBITDA pressured by EU sugar price reset.",
       "capexMM": 941,
       "daMM": 800,
-      "cfoMM": 2400
+      "cfoMM": 2400,
+      "totalEquityMM": 11150
     },
     {
       "endDate": "2021-03-06",
@@ -180,7 +185,7 @@
       "netIncomeMM": 320,
       "sharesOutMM": 791,
       "netDebtMM": 1100,
-      "notes": "H1 FY20/21 (Sep 2020-Mar 2021): revenue £6.31B. Primark COVID-impacted."
+      "notes": "H1 FY20/21 (Sep 2020-Mar 2021): revenue \u00a36.31B. Primark COVID-impacted."
     },
     {
       "endDate": "2022-03-05",
@@ -190,7 +195,7 @@
       "netIncomeMM": 510,
       "sharesOutMM": 791,
       "netDebtMM": 1200,
-      "notes": "H1 FY21/22: revenue £7.88B (+25%). Primark recovery."
+      "notes": "H1 FY21/22: revenue \u00a37.88B (+25%). Primark recovery."
     },
     {
       "endDate": "2023-03-04",
@@ -200,7 +205,7 @@
       "netIncomeMM": 480,
       "sharesOutMM": 753,
       "netDebtMM": 1500,
-      "notes": "H1 FY22/23: revenue £9.56B (+21%). Sugar tightness."
+      "notes": "H1 FY22/23: revenue \u00a39.56B (+21%). Sugar tightness."
     },
     {
       "endDate": "2024-03-02",
@@ -210,7 +215,7 @@
       "netIncomeMM": 740,
       "sharesOutMM": 738,
       "netDebtMM": 1100,
-      "notes": "H1 FY23/24: revenue £9.73B. Strong Primark + Sugar."
+      "notes": "H1 FY23/24: revenue \u00a39.73B. Strong Primark + Sugar."
     },
     {
       "endDate": "2025-03-01",
@@ -220,7 +225,7 @@
       "netIncomeMM": 712,
       "sharesOutMM": 738,
       "netDebtMM": 950,
-      "notes": "H1 FY24/25: revenue £9.50B (-2%). Sugar headwind, Primark resilient."
+      "notes": "H1 FY24/25: revenue \u00a39.50B (-2%). Sugar headwind, Primark resilient."
     },
     {
       "endDate": "2025-09-13",
@@ -261,10 +266,11 @@
         "3-5y": 600,
         "5+y": 600
       },
-      "notes": "FY24/25: revenue £19.6B (-2%). Sugar segment loss in H2 — review of Vivergo / Norfolk Wissington bioethanol underway. £400M buyback continued.",
+      "notes": "FY24/25: revenue \u00a319.6B (-2%). Sugar segment loss in H2 \u2014 review of Vivergo / Norfolk Wissington bioethanol underway. \u00a3400M buyback continued.",
       "capexMM": 950,
       "daMM": 810,
-      "cfoMM": 2300
+      "cfoMM": 2300,
+      "totalEquityMM": 11380
     }
   ]
 }

@@ -2,7 +2,7 @@
   "ticker": "TUF.BK",
   "currency": "THB",
   "sourceUrl": "https://www.thaiunion.com/en/investor",
-  "notes": "Thai Union Group — Thailand SET-listed global seafood (world's largest tuna processor). Brands: Chicken of the Sea (US), John West (UK/Ireland/NL), Petit Navire (France), Mareblu (Italy), Sealect/Fisho (Thailand). Three core: Ambient Seafood (canned tuna/sardine ~45% rev); Frozen, Chilled & Related (shrimp/lobster ~36%); PetCare/Value-Added/Other ~19%. Divested Red Lobster Q1 2024 (US$530M loss). FY = calendar year. Reports in THB. FY history from Thai Union annual reports + SET filings via thaiunion.com.",
+  "notes": "Thai Union Group \u2014 Thailand SET-listed global seafood (world's largest tuna processor). Brands: Chicken of the Sea (US), John West (UK/Ireland/NL), Petit Navire (France), Mareblu (Italy), Sealect/Fisho (Thailand). Three core: Ambient Seafood (canned tuna/sardine ~45% rev); Frozen, Chilled & Related (shrimp/lobster ~36%); PetCare/Value-Added/Other ~19%. Divested Red Lobster Q1 2024 (US$530M loss). FY = calendar year. Reports in THB. FY history from Thai Union annual reports + SET filings via thaiunion.com.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -15,10 +15,11 @@
       "netDebtMM": 44200,
       "sharesOutMM": 4771,
       "dividendPerShare": 0.7,
-      "notes": "FY20: Revenue ฿132.4B (+5% YoY); net profit ฿6.25B (+62%). COVID retail canned-tuna boom; lower fuel + raw-material costs.",
+      "notes": "FY20: Revenue \u0e3f132.4B (+5% YoY); net profit \u0e3f6.25B (+62%). COVID retail canned-tuna boom; lower fuel + raw-material costs.",
       "capexMM": 4900,
       "daMM": 4200,
-      "cfoMM": 11500
+      "cfoMM": 11500,
+      "totalEquityMM": 56700
     },
     {
       "endDate": "2021-12-31",
@@ -31,10 +32,11 @@
       "netDebtMM": 47900,
       "sharesOutMM": 4771,
       "dividendPerShare": 0.84,
-      "notes": "FY21: Revenue ฿141B record; net profit ฿8.01B record on operating leverage + favorable raw materials.",
+      "notes": "FY21: Revenue \u0e3f141B record; net profit \u0e3f8.01B record on operating leverage + favorable raw materials.",
       "capexMM": 5400,
       "daMM": 4500,
-      "cfoMM": 8500
+      "cfoMM": 8500,
+      "totalEquityMM": 60500
     },
     {
       "endDate": "2022-12-31",
@@ -47,10 +49,11 @@
       "netDebtMM": 54500,
       "sharesOutMM": 4771,
       "dividendPerShare": 0.84,
-      "notes": "FY22: Revenue ฿155.6B record (+10%); net profit ฿7.17B. Tuna raw material at all-time high — passed through partially.",
+      "notes": "FY22: Revenue \u0e3f155.6B record (+10%); net profit \u0e3f7.17B. Tuna raw material at all-time high \u2014 passed through partially.",
       "capexMM": 6800,
       "daMM": 4900,
-      "cfoMM": 5500
+      "cfoMM": 5500,
+      "totalEquityMM": 63800
     },
     {
       "endDate": "2023-12-31",
@@ -74,10 +77,11 @@
         "D&A": 5100,
         "Other opex": -5100
       },
-      "notes": "FY23: Revenue ฿136.2B (-12%); net loss ฿3.0B from ฿18.4B Red Lobster impairment / exit charges. Core ex-RL net profit ฿4.1B.",
+      "notes": "FY23: Revenue \u0e3f136.2B (-12%); net loss \u0e3f3.0B from \u0e3f18.4B Red Lobster impairment / exit charges. Core ex-RL net profit \u0e3f4.1B.",
       "capexMM": 5900,
       "daMM": 5100,
-      "cfoMM": 7700
+      "cfoMM": 7700,
+      "totalEquityMM": 64200
     },
     {
       "endDate": "2023-03-31",
@@ -109,7 +113,8 @@
       "revenueMM": 34153,
       "ebitdaMM": 2700,
       "netIncomeMM": -6100,
-      "notes": "Q4 23: Red Lobster impairment hit."
+      "notes": "Q4 23: Red Lobster impairment hit.",
+      "totalEquityMM": 64200
     },
     {
       "endDate": "2024-12-31",
@@ -133,7 +138,7 @@
         "D&A": 5300,
         "Other opex": -10600
       },
-      "notes": "FY24: Revenue ฿138.9B (+2%); net profit ฿6.72B turnaround post Red Lobster exit. Buyback program + IPO of i-Tail Pet Care subsidiary.",
+      "notes": "FY24: Revenue \u0e3f138.9B (+2%); net profit \u0e3f6.72B turnaround post Red Lobster exit. Buyback program + IPO of i-Tail Pet Care subsidiary.",
       "capexMM": 5500,
       "daMM": 5300,
       "cfoMM": 11200,
@@ -144,7 +149,8 @@
         "1-3y": 15125.0,
         "3-5y": 9075.0,
         "5+y": 12100.0
-      }
+      },
+      "totalEquityMM": 65500
     },
     {
       "endDate": "2024-03-31",
@@ -176,7 +182,8 @@
       "revenueMM": 35303,
       "ebitdaMM": 3500,
       "netIncomeMM": 1672,
-      "notes": "Q4 24"
+      "notes": "Q4 24",
+      "totalEquityMM": 65500
     }
   ]
 }

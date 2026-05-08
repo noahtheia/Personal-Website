@@ -2,7 +2,7 @@
   "ticker": "ELD.AX",
   "currency": "AUD",
   "sourceUrl": "https://elders.com.au/investor-centre/",
-  "notes": "Elders Limited (ELD.AX) — Australian rural services group founded 1839. Three segments: Branch network (rural products retail, agency, livestock, wool, real estate, financial services), Wholesale Products (Titan AG/AIRR — acquired 2018), Feed & Processing (Killara Feedlot, AuctionsPlus). Listed ASX. Fiscal year ends Sep 30 (FY24 = year ended 30 Sep 2024). Acquired Delta Agribusiness Aug 2024. Annual reports: elders.com.au/investor-centre/financial-results/.",
+  "notes": "Elders Limited (ELD.AX) \u2014 Australian rural services group founded 1839. Three segments: Branch network (rural products retail, agency, livestock, wool, real estate, financial services), Wholesale Products (Titan AG/AIRR \u2014 acquired 2018), Feed & Processing (Killara Feedlot, AuctionsPlus). Listed ASX. Fiscal year ends Sep 30 (FY24 = year ended 30 Sep 2024). Acquired Delta Agribusiness Aug 2024. Annual reports: elders.com.au/investor-centre/financial-results/.",
   "periods": [
     {
       "endDate": "2020-09-30",
@@ -24,7 +24,8 @@
       "capexMM": 18,
       "daMM": 33,
       "cfoMM": 110,
-      "notes": "FY20 EBITDA $132M, drought recovery year."
+      "notes": "FY20 EBITDA $132M, drought recovery year.",
+      "totalEquityMM": 460
     },
     {
       "endDate": "2021-09-30",
@@ -46,7 +47,8 @@
       "capexMM": 25,
       "daMM": 36,
       "cfoMM": 135,
-      "notes": "FY21 record — strong commodity prices, livestock margins, AIRR contribution."
+      "notes": "FY21 record \u2014 strong commodity prices, livestock margins, AIRR contribution.",
+      "totalEquityMM": 545
     },
     {
       "endDate": "2022-09-30",
@@ -68,7 +70,8 @@
       "capexMM": 35,
       "daMM": 40,
       "cfoMM": 60,
-      "notes": "FY22 revenue $3.75B — historic peak in commodity prices; EBITDA $232M."
+      "notes": "FY22 revenue $3.75B \u2014 historic peak in commodity prices; EBITDA $232M.",
+      "totalEquityMM": 720
     },
     {
       "endDate": "2023-09-30",
@@ -96,7 +99,8 @@
         "D&A": 45,
         "Other opex": -45
       },
-      "notes": "FY23 down cycle — weak livestock prices, El Niño dry conditions."
+      "notes": "FY23 down cycle \u2014 weak livestock prices, El Ni\u00f1o dry conditions.",
+      "totalEquityMM": 740
     },
     {
       "endDate": "2023-03-31",
@@ -140,7 +144,8 @@
         "1-3y": 122.25,
         "3-5y": 73.35,
         "5+y": 97.8
-      }
+      },
+      "totalEquityMM": 765
     },
     {
       "endDate": "2024-03-31",

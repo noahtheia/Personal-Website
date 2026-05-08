@@ -24,7 +24,8 @@
       "epsDiluted": 1.75,
       "capexMM": 1170.6,
       "daMM": 847.6,
-      "cfoMM": 1582.6
+      "cfoMM": 1582.6,
+      "totalEquityMM": 6755
     },
     {
       "endDate": "2021-12-31",
@@ -47,7 +48,8 @@
       "epsDiluted": 4.27,
       "capexMM": 1288.6,
       "daMM": 812.9,
-      "cfoMM": 2187.0
+      "cfoMM": 2187.0,
+      "totalEquityMM": 7790
     },
     {
       "endDate": "2022-03-31",
@@ -126,7 +128,8 @@
       "epsDiluted": 10.06,
       "capexMM": 1247.3,
       "daMM": 933.9,
-      "cfoMM": 3935.8
+      "cfoMM": 3935.8,
+      "totalEquityMM": 9440
     },
     {
       "endDate": "2023-03-31",
@@ -205,7 +208,8 @@
       "epsDiluted": 3.5,
       "capexMM": 1402.4,
       "daMM": 960.6,
-      "cfoMM": 2407.2
+      "cfoMM": 2407.2,
+      "totalEquityMM": 9560
     },
     {
       "endDate": "2024-03-31",
@@ -299,7 +303,8 @@
         "Phosphate": 4500,
         "Potash": 2400,
         "Mosaic Fertilizantes": 4400
-      }
+      },
+      "totalEquityMM": 8870
     },
     {
       "endDate": "2025-03-31",
@@ -401,7 +406,8 @@
         "Phosphate": 4600,
         "Potash": 2700,
         "Mosaic Fertilizantes": 4800
-      }
+      },
+      "totalEquityMM": 8950
     }
   ]
 }

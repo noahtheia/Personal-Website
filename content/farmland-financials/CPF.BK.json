@@ -2,7 +2,7 @@
   "ticker": "CPF.BK",
   "currency": "THB",
   "sourceUrl": "https://www.cpfworldwide.com/en/investor",
-  "notes": "Charoen Pokphand Foods (CPF) — Thailand SET-listed integrated agro-industrial / food. Operates feed > farm > food (vertically integrated chicken, pork, shrimp, fish, duck) across 17 countries. Major shareholder Charoen Pokphand Group. Owns 25% of CPP (HK-listed China feed/livestock); 50% CTI Foods (US). Reports in THB consolidated. FY = calendar year. Net debt is structurally high. FY history from CPF annual reports + SET filings via cpfworldwide.com investor section.",
+  "notes": "Charoen Pokphand Foods (CPF) \u2014 Thailand SET-listed integrated agro-industrial / food. Operates feed > farm > food (vertically integrated chicken, pork, shrimp, fish, duck) across 17 countries. Major shareholder Charoen Pokphand Group. Owns 25% of CPP (HK-listed China feed/livestock); 50% CTI Foods (US). Reports in THB consolidated. FY = calendar year. Net debt is structurally high. FY history from CPF annual reports + SET filings via cpfworldwide.com investor section.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -15,10 +15,11 @@
       "netDebtMM": 330000,
       "sharesOutMM": 8611,
       "dividendPerShare": 0.85,
-      "notes": "FY20: Revenue ฿589.7B (+8.4% YoY), net profit ฿26.02B record. COVID-driven retail food demand + favorable swine prices in Vietnam/Cambodia.",
+      "notes": "FY20: Revenue \u0e3f589.7B (+8.4% YoY), net profit \u0e3f26.02B record. COVID-driven retail food demand + favorable swine prices in Vietnam/Cambodia.",
       "capexMM": 22000,
       "daMM": 18500,
-      "cfoMM": 32000
+      "cfoMM": 32000,
+      "totalEquityMM": 215000
     },
     {
       "endDate": "2021-12-31",
@@ -31,10 +32,11 @@
       "netDebtMM": 365000,
       "sharesOutMM": 8611,
       "dividendPerShare": 0.75,
-      "notes": "FY21: Revenue ฿512.7B (-13% YoY restated post Tesco-Lotus deconsol). Net profit ฿13B (-50%) — Vietnam pork prices crashed (ASF normalization).",
+      "notes": "FY21: Revenue \u0e3f512.7B (-13% YoY restated post Tesco-Lotus deconsol). Net profit \u0e3f13B (-50%) \u2014 Vietnam pork prices crashed (ASF normalization).",
       "capexMM": 26000,
       "daMM": 20500,
-      "cfoMM": 21000
+      "cfoMM": 21000,
+      "totalEquityMM": 232000
     },
     {
       "endDate": "2022-12-31",
@@ -47,10 +49,11 @@
       "netDebtMM": 398000,
       "sharesOutMM": 8611,
       "dividendPerShare": 0.75,
-      "notes": "FY22: Revenue ฿614.4B (+20%) on price increases + volume recovery; net profit ฿13.97B. Feed cost inflation pressured margins.",
+      "notes": "FY22: Revenue \u0e3f614.4B (+20%) on price increases + volume recovery; net profit \u0e3f13.97B. Feed cost inflation pressured margins.",
       "capexMM": 31000,
       "daMM": 23000,
-      "cfoMM": 18000
+      "cfoMM": 18000,
+      "totalEquityMM": 245000
     },
     {
       "endDate": "2023-12-31",
@@ -65,7 +68,7 @@
       "dividendPerShare": 0.4,
       "revenueBySegmentMM": {
         "Feed": 145000,
-        "Farm (livestock — chicken, pork, shrimp)": 220000,
+        "Farm (livestock \u2014 chicken, pork, shrimp)": 220000,
         "Food (processed)": 200000,
         "Other / regional": 22634
       },
@@ -75,10 +78,11 @@
         "D&A": 24500,
         "Other opex": -24000
       },
-      "notes": "FY23: Revenue ฿587.6B (-4%); net loss ฿5.2B — first annual loss in over a decade. Vietnam pork ASF outbreaks + China hog price collapse. Dividend slashed.",
+      "notes": "FY23: Revenue \u0e3f587.6B (-4%); net loss \u0e3f5.2B \u2014 first annual loss in over a decade. Vietnam pork ASF outbreaks + China hog price collapse. Dividend slashed.",
       "capexMM": 28000,
       "daMM": 24500,
-      "cfoMM": 28000
+      "cfoMM": 28000,
+      "totalEquityMM": 248000
     },
     {
       "endDate": "2023-03-31",
@@ -110,7 +114,8 @@
       "revenueMM": 147634,
       "ebitdaMM": 9000,
       "netIncomeMM": -898,
-      "notes": "Q4 23"
+      "notes": "Q4 23",
+      "totalEquityMM": 248000
     },
     {
       "endDate": "2024-12-31",
@@ -125,7 +130,7 @@
       "dividendPerShare": 0.6,
       "revenueBySegmentMM": {
         "Feed": 142000,
-        "Farm (livestock — chicken, pork, shrimp)": 222000,
+        "Farm (livestock \u2014 chicken, pork, shrimp)": 222000,
         "Food (processed)": 202000,
         "Other / regional": 22168
       },
@@ -135,7 +140,7 @@
         "D&A": 25500,
         "Other opex": -22132
       },
-      "notes": "FY24: Revenue ฿588.2B flat; net profit ฿19.0B recovery on pork price normalization + chicken export to Japan/EU. CFO turnaround.",
+      "notes": "FY24: Revenue \u0e3f588.2B flat; net profit \u0e3f19.0B recovery on pork price normalization + chicken export to Japan/EU. CFO turnaround.",
       "capexMM": 26000,
       "daMM": 25500,
       "cfoMM": 45000,
@@ -146,7 +151,8 @@
         "1-3y": 106250.0,
         "3-5y": 63750.0,
         "5+y": 85000.0
-      }
+      },
+      "totalEquityMM": 252000
     },
     {
       "endDate": "2024-03-31",
@@ -178,7 +184,8 @@
       "revenueMM": 149168,
       "ebitdaMM": 12300,
       "netIncomeMM": 5130,
-      "notes": "Q4 24"
+      "notes": "Q4 24",
+      "totalEquityMM": 252000
     }
   ]
 }

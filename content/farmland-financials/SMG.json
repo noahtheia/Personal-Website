@@ -21,7 +21,8 @@
       "notes": "FY21: peak year. Revenue $4.93B (+19% YoY) on COVID lawn/garden boom + Hawthorne hydroponics (cannabis cultivation pull-through). Op income $723M + D&A $93.8M = EBITDA $816.8M. Net income $512.5M, EPS $9.20.",
       "capexMM": 106.9,
       "daMM": 93.8,
-      "cfoMM": 271.5
+      "cfoMM": 271.5,
+      "totalEquityMM": 425
     },
     {
       "endDate": "2022-01-01",
@@ -97,7 +98,8 @@
       "notes": "FY22: revenue \u221220% YoY to $3.92B as COVID gardening reversed. Op loss \u2212$434M (Hawthorne goodwill / asset writedowns) + D&A $105.2M = EBITDA \u2212$328.8M. Net loss \u2212$437.5M, EPS \u2212$7.88. Net debt swelled to $2.88B.",
       "capexMM": 113.5,
       "daMM": 105.2,
-      "cfoMM": -129.0
+      "cfoMM": -129.0,
+      "totalEquityMM": 105
     },
     {
       "endDate": "2022-12-31",
@@ -173,7 +175,8 @@
       "notes": "FY23: revenue $3.55B (\u22129.5%); Hawthorne segment continued bleeding (revenue cut in half). Op loss \u2212$174M + D&A $92.5M = EBITDA \u2212$81.9M. Net loss \u2212$380.1M, EPS \u2212$6.79.",
       "capexMM": 92.8,
       "daMM": 92.5,
-      "cfoMM": 531.0
+      "cfoMM": 531.0,
+      "totalEquityMM": -310
     },
     {
       "endDate": "2023-12-30",
@@ -254,7 +257,8 @@
         "U.S. Consumer": 3013.7,
         "Hawthorne": 294.7,
         "Other": 244.3
-      }
+      },
+      "totalEquityMM": -195
     },
     {
       "endDate": "2024-12-28",
@@ -347,7 +351,8 @@
         "U.S. Consumer": 2993.7,
         "Hawthorne": 165.8,
         "Other": 253.6
-      }
+      },
+      "totalEquityMM": -50
     },
     {
       "endDate": "2025-12-27",

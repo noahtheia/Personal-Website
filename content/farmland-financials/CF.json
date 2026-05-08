@@ -24,7 +24,8 @@
       "epsDiluted": 2.23,
       "capexMM": 404.0,
       "daMM": 875.0,
-      "cfoMM": 1505.0
+      "cfoMM": 1505.0,
+      "totalEquityMM": 3520
     },
     {
       "endDate": "2020-12-31",
@@ -46,7 +47,8 @@
       "netDebtMM": 3278.0,
       "capexMM": 309.0,
       "daMM": 892.0,
-      "cfoMM": 1231.0
+      "cfoMM": 1231.0,
+      "totalEquityMM": 3265
     },
     {
       "endDate": "2021-12-31",
@@ -68,7 +70,8 @@
       "netDebtMM": 1837.0,
       "capexMM": 514.0,
       "daMM": 888.0,
-      "cfoMM": 2873.0
+      "cfoMM": 2873.0,
+      "totalEquityMM": 3850
     },
     {
       "endDate": "2022-03-31",
@@ -153,7 +156,8 @@
         "UAN": 3572,
         "AN": 845,
         "Other": 787
-      }
+      },
+      "totalEquityMM": 4800
     },
     {
       "endDate": "2023-03-31",
@@ -238,7 +242,8 @@
         "UAN": 2068,
         "AN": 497,
         "Other": 564
-      }
+      },
+      "totalEquityMM": 4350
     },
     {
       "endDate": "2024-03-31",
@@ -330,7 +335,8 @@
         "UAN": 1678,
         "AN": 419,
         "Other": 503
-      }
+      },
+      "totalEquityMM": 4150
     },
     {
       "endDate": "2025-03-31",
@@ -444,7 +450,8 @@
         "UAN": 2161,
         "AN": 421,
         "Other": 545
-      }
+      },
+      "totalEquityMM": 4200
     },
     {
       "endDate": "2026-03-31",

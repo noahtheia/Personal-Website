@@ -43,7 +43,8 @@
       "notes": "FY21: revenue $9.22B (combined Dole + Total Produce). IPO July 2021 with $400M raise. Adj EBITDA $380M.",
       "capexMM": 75.0,
       "daMM": 68.0,
-      "cfoMM": 7.0
+      "cfoMM": 7.0,
+      "totalEquityMM": 1395
     },
     {
       "endDate": "2022-03-31",
@@ -119,7 +120,8 @@
       "notes": "FY22: revenue $9.42B (+2%). Adj EBITDA $327M. Listeria recall + Yuma freeze impacted Fresh Vegetables. FX headwinds.",
       "capexMM": 71.0,
       "daMM": 68.0,
-      "cfoMM": 53.0
+      "cfoMM": 53.0,
+      "totalEquityMM": 1320
     },
     {
       "endDate": "2023-03-31",
@@ -195,7 +197,8 @@
       "notes": "FY23: revenue $8.29B. Adj EBITDA $363M (+11%). Reorganized into 3 segments. Dispose of Progressive Produce (Apr 2024).",
       "capexMM": 150.0,
       "daMM": 66.0,
-      "cfoMM": 422.0
+      "cfoMM": 422.0,
+      "totalEquityMM": 1450
     },
     {
       "endDate": "2024-03-31",
@@ -301,7 +304,8 @@
         "Fresh Fruit": 3293.5,
         "Diversified Fresh Produce - EMEA": 3608.7,
         "Diversified Fresh Produce - Americas & ROW": 1686.3
-      }
+      },
+      "totalEquityMM": 1510
     },
     {
       "endDate": "2025-03-31",
@@ -395,7 +399,8 @@
         "Fresh Fruit": 874.0,
         "Diversified Fresh Produce - EMEA": 1025.9,
         "Diversified Fresh Produce - Americas & ROW": 486.5
-      }
+      },
+      "totalEquityMM": 1560
     }
   ]
 }

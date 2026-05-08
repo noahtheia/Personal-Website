@@ -21,7 +21,8 @@
       "notes": "FY21 (year ended May 30, 2021): COVID-disrupted with QSR partial recovery. Revenue $3.67B (-3% vs FY20). Op income $474.8M + D&A $187.8M = EBITDA $662.6M. Net income $317.8M, EPS $2.17.",
       "capexMM": 147.2,
       "daMM": 187.8,
-      "cfoMM": 552.7
+      "cfoMM": 552.7,
+      "totalEquityMM": 472
     },
     {
       "endDate": "2022-02-27",
@@ -59,7 +60,8 @@
       "notes": "FY22: revenue $4.10B (+12%) on QSR recovery. Op income $444M + D&A $192M = EBITDA $636.5M. Net income $200.9M, EPS $1.38 (lower YoY on input-cost inflation: edible oil, energy, freight).",
       "capexMM": 290.1,
       "daMM": 192.1,
-      "cfoMM": 418.6
+      "cfoMM": 418.6,
+      "totalEquityMM": 555
     },
     {
       "endDate": "2022-08-28",
@@ -134,7 +136,8 @@
       "notes": "FY23: revenue +30% to $5.35B (incl. partial-year EMEA JV consolidation post-Feb 2023 buyout). Op income $882M + D&A $223M = EBITDA $1.10B. Net income $1.0B / EPS $6.98 includes ~$401M gain on remeasurement of pre-existing 50% LWM stake.",
       "capexMM": 654.0,
       "daMM": 222.8,
-      "cfoMM": 761.7
+      "cfoMM": 761.7,
+      "totalEquityMM": 1095
     },
     {
       "endDate": "2023-08-27",
@@ -212,7 +215,8 @@
       "revenueBySegmentMM": {
         "North America": 4363.2,
         "International": 2104.4
-      }
+      },
+      "totalEquityMM": 1490
     },
     {
       "endDate": "2024-08-25",
@@ -309,7 +313,8 @@
       "revenueBySegmentMM": {
         "North America": 4265.2,
         "International": 2186.1
-      }
+      },
+      "totalEquityMM": 1610
     },
     {
       "endDate": "2025-08-24",

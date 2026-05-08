@@ -2,7 +2,7 @@
   "ticker": "0288.HK",
   "currency": "USD",
   "sourceUrl": "https://www.wh-group.com/en/ir/reports.php",
-  "notes": "WH Group Limited (HKEX: 0288) — world's largest pork producer. Owns 100% Smithfield Foods (US), Shuanghui Development (China; A-share 000895.SZ ~70%), and European pork operations (Goodvalley + Morliny). Reports in USD-millions (functional currency due to mix). Lists in HKD on HKEX. Floated Smithfield Foods on NYSE/Nasdaq Jan 2025 (SFD; ~20% of subsidiary). FY ends Dec 31. All figures USD-mm consolidated IFRS. Net debt company-defined (incl. lease liabilities under IFRS 16).",
+  "notes": "WH Group Limited (HKEX: 0288) \u2014 world's largest pork producer. Owns 100% Smithfield Foods (US), Shuanghui Development (China; A-share 000895.SZ ~70%), and European pork operations (Goodvalley + Morliny). Reports in USD-millions (functional currency due to mix). Lists in HKD on HKEX. Floated Smithfield Foods on NYSE/Nasdaq Jan 2025 (SFD; ~20% of subsidiary). FY ends Dec 31. All figures USD-mm consolidated IFRS. Net debt company-defined (incl. lease liabilities under IFRS 16).",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -28,7 +28,8 @@
       "notes": "FY20: Pandemic surge in US retail meat demand offset by HRC weakness. Revenue $25.6bn, EBITDA $2.83bn (margin 11.0%). Strong China hog cycle still elevated.",
       "capexMM": 870,
       "daMM": 800,
-      "cfoMM": 2100
+      "cfoMM": 2100,
+      "totalEquityMM": 7180
     },
     {
       "endDate": "2021-06-30",
@@ -59,10 +60,11 @@
       "cashMM": 1850,
       "netDebtMM": 2110,
       "sharesOutMM": 14687,
-      "notes": "FY21: Revenue $27.3bn (+7%) on US foodservice recovery; EBITDA $2.57bn — China pork prices collapsed (post-ASF herd rebuild) compressed Shuanghui margins.",
+      "notes": "FY21: Revenue $27.3bn (+7%) on US foodservice recovery; EBITDA $2.57bn \u2014 China pork prices collapsed (post-ASF herd rebuild) compressed Shuanghui margins.",
       "capexMM": 950,
       "daMM": 850,
-      "cfoMM": 1850
+      "cfoMM": 1850,
+      "totalEquityMM": 7395
     },
     {
       "endDate": "2022-06-30",
@@ -101,7 +103,8 @@
       "notes": "FY22: Revenue $28.1bn (+3%), EBITDA $2.85bn (margin 10.1%). US Smithfield benefitted from elevated hog prices; China business stable.",
       "capexMM": 1080,
       "daMM": 900,
-      "cfoMM": 1700
+      "cfoMM": 1700,
+      "totalEquityMM": 6920
     },
     {
       "endDate": "2023-06-30",
@@ -137,10 +140,11 @@
       "cashMM": 1965,
       "netDebtMM": 1905,
       "sharesOutMM": 13380,
-      "notes": "FY23: Trough year — US fresh pork posted operating loss on excess hog supply + processor oversupply; revenue $26.2bn (-7%), EBITDA $2.27bn (margin 8.6%), NI $626M. Buyback retired ~9% of shares.",
+      "notes": "FY23: Trough year \u2014 US fresh pork posted operating loss on excess hog supply + processor oversupply; revenue $26.2bn (-7%), EBITDA $2.27bn (margin 8.6%), NI $626M. Buyback retired ~9% of shares.",
       "capexMM": 950,
       "daMM": 920,
-      "cfoMM": 2300
+      "cfoMM": 2300,
+      "totalEquityMM": 7050
     },
     {
       "endDate": "2024-06-30",
@@ -187,7 +191,8 @@
         "1-3y": 1200,
         "3-5y": 700,
         "5+y": 850
-      }
+      },
+      "totalEquityMM": 7250
     },
     {
       "endDate": "2025-06-30",

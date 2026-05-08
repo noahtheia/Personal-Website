@@ -21,7 +21,8 @@
       "notes": "FY21: revenue $12.6B (+54% YoY) on grain rally + ethanol margin recovery. Trade gross profit boom; ELEMENT ethanol JV restructured. EBITDA approx pretax income + interest + D&A = ~$297M. Net income $104.0M, EPS $3.12.",
       "capexMM": 75.8,
       "daMM": 178.9,
-      "cfoMM": -51.0
+      "cfoMM": -51.0,
+      "totalEquityMM": 877
     },
     {
       "endDate": "2022-03-31",
@@ -88,7 +89,8 @@
       "notes": "FY22: peak revenue $17.3B on Russia/Ukraine grain price spike (corn / soy / wheat). Net income $131.1M, EPS $3.89 \u2014 record year. EBITDA approx $368M including D&A $134.7M.",
       "capexMM": 108.3,
       "daMM": 134.7,
-      "cfoMM": 287.1
+      "cfoMM": 287.1,
+      "totalEquityMM": 1015
     },
     {
       "endDate": "2023-03-31",
@@ -155,7 +157,8 @@
       "notes": "FY23: revenue \u221215% YoY on grain price normalization. Net income $101.2M, EPS $3.00. Net cash position ($643.9M cash on B/S funded Skyland acquisition completed Apr 2024). D&A $125.1M.",
       "capexMM": 150.4,
       "daMM": 125.1,
-      "cfoMM": 946.8
+      "cfoMM": 946.8,
+      "totalEquityMM": 1095
     },
     {
       "endDate": "2024-03-31",
@@ -230,7 +233,8 @@
       "revenueBySegmentMM": {
         "Agribusiness": 8456,
         "Renewables": 2801
-      }
+      },
+      "totalEquityMM": 1180
     },
     {
       "endDate": "2025-03-31",
@@ -321,7 +325,8 @@
       "revenueBySegmentMM": {
         "Agribusiness": 8260,
         "Renewables": 2749
-      }
+      },
+      "totalEquityMM": 1240
     },
     {
       "endDate": "2026-03-31",

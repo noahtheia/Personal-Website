@@ -2,7 +2,7 @@
   "ticker": "AVD",
   "currency": "USD",
   "sourceUrl": "https://www.american-vanguard.com/investors",
-  "notes": "American Vanguard Corp (NYSE: AVD) — specialty crop chemistry (CIK 5981). Manufactures + distributes pesticides, fungicides, herbicides for fruit, vegetable, nut, and row crops. Calendar fiscal year. Reports in USD. SmartBox/SIMPAS precision-application platforms. Severe 2023-24 industry destocking + internal control weaknesses → 2024 financial restatement, going-concern issues, transformation program. Sells products globally (US, Mexico, Brazil, EU, Australia).",
+  "notes": "American Vanguard Corp (NYSE: AVD) \u2014 specialty crop chemistry (CIK 5981). Manufactures + distributes pesticides, fungicides, herbicides for fruit, vegetable, nut, and row crops. Calendar fiscal year. Reports in USD. SmartBox/SIMPAS precision-application platforms. Severe 2023-24 industry destocking + internal control weaknesses \u2192 2024 financial restatement, going-concern issues, transformation program. Sells products globally (US, Mexico, Brazil, EU, Australia).",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -19,7 +19,8 @@
       "notes": "FY20: revenue $458M. EBITDA $47M. Net income $11M. Steady year for crop chemistry.",
       "capexMM": 11.2,
       "cfoMM": 90.3,
-      "daMM": 19.9
+      "daMM": 19.9,
+      "totalEquityMM": 198
     },
     {
       "endDate": "2021-12-31",
@@ -36,7 +37,8 @@
       "notes": "FY21: revenue $559M (+22%). EBITDA $54M. Net income $14M. Acquisitions including Agrinos.",
       "capexMM": 9.5,
       "daMM": 9.2,
-      "cfoMM": 86.4
+      "cfoMM": 86.4,
+      "totalEquityMM": 211
     },
     {
       "endDate": "2022-03-31",
@@ -101,7 +103,8 @@
       "notes": "FY22: revenue $609M (+9%). EBITDA $65M. Net income $18M. Strong agriculture cycle.",
       "capexMM": 13.3,
       "daMM": 8.9,
-      "cfoMM": 57.1
+      "cfoMM": 57.1,
+      "totalEquityMM": 226
     },
     {
       "endDate": "2023-03-31",
@@ -169,7 +172,8 @@
       "notes": "FY23 (restated): revenue $568M (-7%). EBITDA $-8M (channel destocking + writedowns). Net loss $47M. Material weaknesses identified; restated figures.",
       "capexMM": 11.9,
       "daMM": 6.6,
-      "cfoMM": -58.7
+      "cfoMM": -58.7,
+      "totalEquityMM": 215
     },
     {
       "endDate": "2024-03-31",
@@ -245,7 +249,8 @@
         "1-3y": 43.75,
         "3-5y": 26.25,
         "5+y": 35.0
-      }
+      },
+      "totalEquityMM": 175
     },
     {
       "endDate": "2025-03-31",

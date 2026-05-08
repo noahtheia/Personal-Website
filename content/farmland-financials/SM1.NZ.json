@@ -2,7 +2,7 @@
   "ticker": "SM1.NZ",
   "currency": "NZD",
   "sourceUrl": "https://www.synlait.com/investor-centre/",
-  "notes": "Synlait Milk (NZX/ASX: SM1) — New Zealand dairy processor. Dual listed (Canterbury, NZ and ASX). Manufactures infant formula base powder for a2 Milk Company (largest customer ~50%+ revenue) and own-brand products. Fiscal year ends July 31. Three plants: Dunsandel (Canterbury), Pokeno (Waikato), Auckland (consumer-pack). Heavily indebted post Pokeno + Dairyworks expansion. Recapitalised 2024 with NZD 217.8M equity raise (Bright Dairy + a2 Milk). Reports in NZD.",
+  "notes": "Synlait Milk (NZX/ASX: SM1) \u2014 New Zealand dairy processor. Dual listed (Canterbury, NZ and ASX). Manufactures infant formula base powder for a2 Milk Company (largest customer ~50%+ revenue) and own-brand products. Fiscal year ends July 31. Three plants: Dunsandel (Canterbury), Pokeno (Waikato), Auckland (consumer-pack). Heavily indebted post Pokeno + Dairyworks expansion. Recapitalised 2024 with NZD 217.8M equity raise (Bright Dairy + a2 Milk). Reports in NZD.",
   "periods": [
     {
       "endDate": "2020-07-31",
@@ -19,7 +19,8 @@
       "capexMM": 70,
       "daMM": 60,
       "cfoMM": 105,
-      "notes": "FY20 (ended Jul 31 2020): revenue NZD 1.30B (+9%). EBITDA NZD 119M. Net income NZD 75M. Pre-Dairyworks integration."
+      "notes": "FY20 (ended Jul 31 2020): revenue NZD 1.30B (+9%). EBITDA NZD 119M. Net income NZD 75M. Pre-Dairyworks integration.",
+      "totalEquityMM": 540
     },
     {
       "endDate": "2021-07-31",
@@ -36,7 +37,8 @@
       "capexMM": 95,
       "daMM": 70,
       "cfoMM": -50,
-      "notes": "FY21 (ended Jul 31 2021): revenue NZD 1.37B. EBITDA collapsed to NZD 6M. Net loss NZD 28M. Inventory writedowns + a2 Milk demand softness. Pokeno ramp losses."
+      "notes": "FY21 (ended Jul 31 2021): revenue NZD 1.37B. EBITDA collapsed to NZD 6M. Net loss NZD 28M. Inventory writedowns + a2 Milk demand softness. Pokeno ramp losses.",
+      "totalEquityMM": 580
     },
     {
       "endDate": "2022-07-31",
@@ -53,7 +55,8 @@
       "capexMM": 50,
       "daMM": 70,
       "cfoMM": 95,
-      "notes": "FY22 (ended Jul 31 2022): revenue NZD 1.66B (+21%). EBITDA NZD 78M. Net income NZD 39M (recovery). Strong commodity dairy prices."
+      "notes": "FY22 (ended Jul 31 2022): revenue NZD 1.66B (+21%). EBITDA NZD 78M. Net income NZD 39M (recovery). Strong commodity dairy prices.",
+      "totalEquityMM": 615
     },
     {
       "endDate": "2023-07-31",
@@ -81,7 +84,8 @@
         "D&A": 70,
         "Other opex": -2
       },
-      "notes": "FY23 (ended Jul 31 2023): revenue NZD 1.58B (-5%). EBITDA NZD 35M. Net loss NZD 4M. China infant formula demand weak. Leverage spiked."
+      "notes": "FY23 (ended Jul 31 2023): revenue NZD 1.58B (-5%). EBITDA NZD 35M. Net loss NZD 4M. China infant formula demand weak. Leverage spiked.",
+      "totalEquityMM": 645
     },
     {
       "endDate": "2024-01-31",
@@ -117,7 +121,8 @@
         "D&A": 70,
         "Other opex": 168
       },
-      "notes": "FY24 (ended Jul 31 2024): revenue NZD 1.66B. EBITDA NZD -134M (impairments NZD ~150M on Pokeno + North Island consumer assets). Net loss NZD 182M. Going concern noted; recap completed Sept 2024."
+      "notes": "FY24 (ended Jul 31 2024): revenue NZD 1.66B. EBITDA NZD -134M (impairments NZD ~150M on Pokeno + North Island consumer assets). Net loss NZD 182M. Going concern noted; recap completed Sept 2024.",
+      "totalEquityMM": 670
     },
     {
       "endDate": "2025-01-31",
@@ -150,7 +155,8 @@
         "1-3y": 138.0,
         "3-5y": 92.0,
         "5+y": 115.0
-      }
+      },
+      "totalEquityMM": 690
     }
   ]
 }

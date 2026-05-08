@@ -2,7 +2,7 @@
   "ticker": "2050.SR",
   "currency": "SAR",
   "sourceUrl": "https://www.savola.com/en/investor-relations",
-  "notes": "Savola Group — Saudi diversified food and retail conglomerate listed on Tadawul. Two principal operating segments: Savola Foods (edible oils, sugar, pasta — Afia / Al Arabi / Al Osra brands across MENA + Egypt + Iran + Turkey) and Panda Retail (large-format Saudi grocery chain; restructured / partially divested 2022-2024). Savola also holds a strategic ~34% stake in Almarai (2280.SR), the region's largest dairy company — equity-accounted income from Almarai is a meaningful contributor to consolidated net income. Calendar fiscal year. SAR reporting; figures in SAR millions. FY2022 included a SAR ~3.0bn impairment / divestment hit on Panda; FY2023 onwards reflects a slimmer foods-led group plus the Almarai stake. Net debt has been moderated by Panda asset sales. No farmland directly owned at the parent level (its Almarai stake gives indirect exposure to Fondomonte ~50k ha) — acresK omitted at the comps row level. Pre-FY2022 reflects pre-restructuring scale.",
+  "notes": "Savola Group \u2014 Saudi diversified food and retail conglomerate listed on Tadawul. Two principal operating segments: Savola Foods (edible oils, sugar, pasta \u2014 Afia / Al Arabi / Al Osra brands across MENA + Egypt + Iran + Turkey) and Panda Retail (large-format Saudi grocery chain; restructured / partially divested 2022-2024). Savola also holds a strategic ~34% stake in Almarai (2280.SR), the region's largest dairy company \u2014 equity-accounted income from Almarai is a meaningful contributor to consolidated net income. Calendar fiscal year. SAR reporting; figures in SAR millions. FY2022 included a SAR ~3.0bn impairment / divestment hit on Panda; FY2023 onwards reflects a slimmer foods-led group plus the Almarai stake. Net debt has been moderated by Panda asset sales. No farmland directly owned at the parent level (its Almarai stake gives indirect exposure to Fondomonte ~50k ha) \u2014 acresK omitted at the comps row level. Pre-FY2022 reflects pre-restructuring scale.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -123,7 +123,8 @@
       "revenueMM": 6480,
       "ebitdaMM": 490,
       "netIncomeMM": 120,
-      "notes": "Q4 23"
+      "notes": "Q4 23",
+      "totalEquityMM": 4650
     },
     {
       "endDate": "2024-12-31",
@@ -194,7 +195,8 @@
       "revenueMM": 6900,
       "ebitdaMM": 450,
       "netIncomeMM": 320,
-      "notes": "Q4 24"
+      "notes": "Q4 24",
+      "totalEquityMM": 4780
     }
   ]
 }

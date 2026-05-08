@@ -24,7 +24,8 @@
       "notes": "FY20: revenue $5.99B. COVID disruption (food-service exposure ~30% LatAm). Adj op income $531M. Adj EBITDA ~$869M.",
       "capexMM": 340.0,
       "daMM": 213.0,
-      "cfoMM": 829.0
+      "cfoMM": 829.0,
+      "totalEquityMM": 2575
     },
     {
       "endDate": "2021-12-31",
@@ -46,7 +47,8 @@
       "notes": "FY21: revenue $6.89B (+15%). Strong demand + price pass-through. Adj EBITDA ~$825M. Net debt $2.13B.",
       "capexMM": 300.0,
       "daMM": 220.0,
-      "cfoMM": 392.0
+      "cfoMM": 392.0,
+      "totalEquityMM": 2780
     },
     {
       "endDate": "2022-03-31",
@@ -121,7 +123,8 @@
       "notes": "FY22: revenue $7.95B (+15%). Aggressive pricing offset corn/energy inflation. Adj EBITDA $999M. Adj EPS $7.34.",
       "capexMM": 300.0,
       "daMM": 215.0,
-      "cfoMM": 152.0
+      "cfoMM": 152.0,
+      "totalEquityMM": 2810
     },
     {
       "endDate": "2023-03-31",
@@ -196,7 +199,8 @@
       "notes": "FY23: revenue $8.16B (+3%). Adj EBITDA $1.19B (+19%). Adj EPS $9.42. Strong margin recovery as input costs eased; price held.",
       "capexMM": 314.0,
       "daMM": 219.0,
-      "cfoMM": 1057.0
+      "cfoMM": 1057.0,
+      "totalEquityMM": 3175
     },
     {
       "endDate": "2024-03-31",
@@ -291,7 +295,8 @@
         "F&II - LATAM": 2450,
         "F&II - U.S./Canada": 2155,
         "All Other": 459
-      }
+      },
+      "totalEquityMM": 3380
     },
     {
       "endDate": "2025-03-31",

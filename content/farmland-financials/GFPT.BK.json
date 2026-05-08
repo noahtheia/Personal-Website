@@ -2,7 +2,7 @@
   "ticker": "GFPT.BK",
   "currency": "THB",
   "sourceUrl": "https://www.gfpt.co.th/EN/investor.aspx",
-  "notes": "GFPT PCL — Thailand SET-listed pure-play vertically integrated poultry. Feed mill > breeder farm > broiler > processed/cooked chicken > export. Joint venture GFN (50/50 with Nichirei Japan, processed chicken export to Japan/EU). Smaller than CPF — pure-play makes it cleaner exposure to Thai chicken cycle. FY = calendar year. Reports in THB. FY history from GFPT annual reports + SET filings via gfpt.co.th.",
+  "notes": "GFPT PCL \u2014 Thailand SET-listed pure-play vertically integrated poultry. Feed mill > breeder farm > broiler > processed/cooked chicken > export. Joint venture GFN (50/50 with Nichirei Japan, processed chicken export to Japan/EU). Smaller than CPF \u2014 pure-play makes it cleaner exposure to Thai chicken cycle. FY = calendar year. Reports in THB. FY history from GFPT annual reports + SET filings via gfpt.co.th.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -15,10 +15,11 @@
       "netDebtMM": 4650,
       "sharesOutMM": 1254,
       "dividendPerShare": 0.4,
-      "notes": "FY20: Revenue ฿14.9B (-13% YoY) on COVID export disruption; net profit ฿1.1B. Domestic broiler oversupply pressured prices.",
+      "notes": "FY20: Revenue \u0e3f14.9B (-13% YoY) on COVID export disruption; net profit \u0e3f1.1B. Domestic broiler oversupply pressured prices.",
       "capexMM": 580,
       "daMM": 720,
-      "cfoMM": 1500
+      "cfoMM": 1500,
+      "totalEquityMM": 17850
     },
     {
       "endDate": "2021-12-31",
@@ -31,10 +32,11 @@
       "netDebtMM": 5300,
       "sharesOutMM": 1254,
       "dividendPerShare": 0.3,
-      "notes": "FY21: Revenue ฿16.2B (+9%); net profit ฿685M (-38%) — corn/soy feed cost inflation squeezed margins.",
+      "notes": "FY21: Revenue \u0e3f16.2B (+9%); net profit \u0e3f685M (-38%) \u2014 corn/soy feed cost inflation squeezed margins.",
       "capexMM": 720,
       "daMM": 760,
-      "cfoMM": 1300
+      "cfoMM": 1300,
+      "totalEquityMM": 18420
     },
     {
       "endDate": "2022-12-31",
@@ -47,10 +49,11 @@
       "netDebtMM": 5250,
       "sharesOutMM": 1254,
       "dividendPerShare": 0.5,
-      "notes": "FY22: Revenue ฿18.6B (+15%); net profit ฿1.37B (+100%) on chicken price recovery + Saudi/EU export reopening.",
+      "notes": "FY22: Revenue \u0e3f18.6B (+15%); net profit \u0e3f1.37B (+100%) on chicken price recovery + Saudi/EU export reopening.",
       "capexMM": 880,
       "daMM": 800,
-      "cfoMM": 1550
+      "cfoMM": 1550,
+      "totalEquityMM": 19180
     },
     {
       "endDate": "2023-12-31",
@@ -73,10 +76,11 @@
         "D&A": 830,
         "Other opex": -818
       },
-      "notes": "FY23: Revenue ฿18.7B flat; net profit ฿950M (-31%). Chicken oversupply + sluggish Japanese demand.",
+      "notes": "FY23: Revenue \u0e3f18.7B flat; net profit \u0e3f950M (-31%). Chicken oversupply + sluggish Japanese demand.",
       "capexMM": 850,
       "daMM": 830,
-      "cfoMM": 1450
+      "cfoMM": 1450,
+      "totalEquityMM": 19850
     },
     {
       "endDate": "2023-03-31",
@@ -108,7 +112,8 @@
       "revenueMM": 4612,
       "ebitdaMM": 460,
       "netIncomeMM": 235,
-      "notes": "Q4 23"
+      "notes": "Q4 23",
+      "totalEquityMM": 19850
     },
     {
       "endDate": "2024-12-31",
@@ -131,7 +136,7 @@
         "D&A": 860,
         "Other opex": -860
       },
-      "notes": "FY24: Revenue ฿19.85B (+6%); net profit ฿1.59B (+68%) — best year since 2017. Lower feed costs (corn/soy) + strong Japan/EU cooked chicken export.",
+      "notes": "FY24: Revenue \u0e3f19.85B (+6%); net profit \u0e3f1.59B (+68%) \u2014 best year since 2017. Lower feed costs (corn/soy) + strong Japan/EU cooked chicken export.",
       "capexMM": 900,
       "daMM": 860,
       "cfoMM": 1700,
@@ -142,7 +147,8 @@
         "1-3y": 1450.0,
         "3-5y": 870.0,
         "5+y": 1160.0
-      }
+      },
+      "totalEquityMM": 20510
     },
     {
       "endDate": "2024-03-31",
@@ -174,7 +180,8 @@
       "revenueMM": 5002,
       "ebitdaMM": 615,
       "netIncomeMM": 402,
-      "notes": "Q4 24"
+      "notes": "Q4 24",
+      "totalEquityMM": 20510
     }
   ]
 }

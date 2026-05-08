@@ -20,7 +20,8 @@
       "notes": "FY21 (year ended Oct 31, 2021): post-IPO first full year. Revenue $891.7M; op income $60.9M + D&A $20.4M = EBITDA $81.3M. Net debt $79.4M. Per-pound avocado pricing strong in late FY21.",
       "capexMM": 73.4,
       "daMM": 20.4,
-      "cfoMM": 47.0
+      "cfoMM": 47.0,
+      "totalEquityMM": 425
     },
     {
       "endDate": "2022-01-31",
@@ -95,7 +96,8 @@
       "notes": "FY22: revenue +17% on Mexican price spike but op loss \u2212$37.2M (Peru smaller harvest, abrupt avocado price collapse Q4). EBITDA \u2212$12.4M. Net loss \u2212$34.6M, EPS \u2212$0.49. Wettest pivot year of cycle.",
       "capexMM": 61.2,
       "daMM": 24.8,
-      "cfoMM": 35.2
+      "cfoMM": 35.2,
+      "totalEquityMM": 410
     },
     {
       "endDate": "2023-01-31",
@@ -170,7 +172,8 @@
       "notes": "FY23: revenue \u22129% YoY ($953.9M). Op income $6.9M + D&A $32.8M = EBITDA $39.7M (recovery vs FY22 disaster). Net loss \u2212$2.8M. Mango segment launched.",
       "capexMM": 49.8,
       "daMM": 32.8,
-      "cfoMM": 29.2
+      "cfoMM": 29.2,
+      "totalEquityMM": 395
     },
     {
       "endDate": "2024-01-31",
@@ -250,7 +253,8 @@
         "Marketing & Distribution": 1152.6,
         "International Farming": 6.4,
         "Blueberries": 75.7
-      }
+      },
+      "totalEquityMM": 410
     },
     {
       "endDate": "2025-01-31",
@@ -343,7 +347,8 @@
         "Marketing & Distribution": 1274.3,
         "International Farming": 23.8,
         "Blueberries": 93.1
-      }
+      },
+      "totalEquityMM": 425
     },
     {
       "endDate": "2026-01-31",

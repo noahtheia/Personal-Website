@@ -19,7 +19,8 @@
       "notes": "FY20: revenue $1.93B. EBITDA $-7M (pandemic ethanol demand collapse). Net loss $41M.",
       "capexMM": 110.6,
       "daMM": 78.2,
-      "cfoMM": 98.9
+      "cfoMM": 98.9,
+      "totalEquityMM": 425
     },
     {
       "endDate": "2021-12-31",
@@ -36,7 +37,8 @@
       "notes": "FY21: revenue $2.32B (+20%). EBITDA $75M. Net income $6M. Capital raises funded USP buildout.",
       "capexMM": 187.2,
       "daMM": 92.0,
-      "cfoMM": 4.2
+      "cfoMM": 4.2,
+      "totalEquityMM": 540
     },
     {
       "endDate": "2022-03-31",
@@ -107,7 +109,8 @@
       "notes": "FY22: revenue $3.55B (+53%). EBITDA $31M. Net loss $68M. Strong ethanol prices but cost inflation, USP startup losses.",
       "capexMM": 212.4,
       "daMM": 92.7,
-      "cfoMM": 69.7
+      "cfoMM": 69.7,
+      "totalEquityMM": 605
     },
     {
       "endDate": "2023-03-31",
@@ -178,7 +181,8 @@
       "notes": "FY23: revenue $3.43B. EBITDA $75M. Net loss $77M. Acquired remaining GPP units. Continued USP ramp.",
       "capexMM": 108.1,
       "daMM": 98.2,
-      "cfoMM": 56.3
+      "cfoMM": 56.3,
+      "totalEquityMM": 580
     },
     {
       "endDate": "2024-03-31",
@@ -265,7 +269,8 @@
       "revenueBySegmentMM": {
         "Ethanol Production": 2067.1,
         "Agribusiness & Energy Services": 421.1
-      }
+      },
+      "totalEquityMM": 545
     },
     {
       "endDate": "2025-03-31",

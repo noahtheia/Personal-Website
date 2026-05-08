@@ -2,7 +2,7 @@
   "ticker": "NTR",
   "currency": "USD",
   "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001725964&type=40-F",
-  "notes": "Nutrien Ltd — Canadian-headquartered crop nutrients (potash, nitrogen, phosphate) + retail crop inputs; reports under IFRS via 40-F. Created 2018 from PotashCorp + Agrium merger. FY2025 40-F filed 2026-02-27 (CIK 1725964). EBITDA = ProfitLossFromOperatingActivities + DepreciationAndAmortisation. Total debt = long-term borrowings (incl current portion) + short-term borrowings. Dividends declared in USD; map applied manually since IFRS taxonomy omits US-GAAP dividend concepts. Shares outstanding only available for older periods in XBRL.",
+  "notes": "Nutrien Ltd \u2014 Canadian-headquartered crop nutrients (potash, nitrogen, phosphate) + retail crop inputs; reports under IFRS via 40-F. Created 2018 from PotashCorp + Agrium merger. FY2025 40-F filed 2026-02-27 (CIK 1725964). EBITDA = ProfitLossFromOperatingActivities + DepreciationAndAmortisation. Total debt = long-term borrowings (incl current portion) + short-term borrowings. Dividends declared in USD; map applied manually since IFRS taxonomy omits US-GAAP dividend concepts. Shares outstanding only available for older periods in XBRL.",
   "periods": [
     {
       "endDate": "2019-12-31",
@@ -46,7 +46,8 @@
       "navPerShare": 39.47,
       "capexMM": 135.0,
       "daMM": 517.0,
-      "cfoMM": -41.0
+      "cfoMM": -41.0,
+      "totalEquityMM": 17260
     },
     {
       "endDate": "2021-12-31",
@@ -69,7 +70,8 @@
       "navPerShare": 41.07,
       "capexMM": 159.0,
       "daMM": 716.0,
-      "cfoMM": 483.0
+      "cfoMM": 483.0,
+      "totalEquityMM": 18620
     },
     {
       "endDate": "2022-12-31",
@@ -92,7 +94,8 @@
       "navPerShare": 47.63,
       "capexMM": 171.0,
       "daMM": 682.0,
-      "cfoMM": 452.0
+      "cfoMM": 452.0,
+      "totalEquityMM": 19480
     },
     {
       "endDate": "2023-12-31",
@@ -115,7 +118,8 @@
       "navPerShare": 49.64,
       "capexMM": 140.0,
       "daMM": 694.0,
-      "cfoMM": 271.0
+      "cfoMM": 271.0,
+      "totalEquityMM": 16850
     },
     {
       "endDate": "2024-12-31",
@@ -138,7 +142,8 @@
       "navPerShare": 47.42,
       "capexMM": 147.0,
       "daMM": 662.0,
-      "cfoMM": 541.0
+      "cfoMM": 541.0,
+      "totalEquityMM": 15920
     },
     {
       "endDate": "2025-12-31",
@@ -169,7 +174,8 @@
         "1-3y": 3220.8,
         "3-5y": 2147.2,
         "5+y": 2684.0
-      }
+      },
+      "totalEquityMM": 15500
     }
   ]
 }

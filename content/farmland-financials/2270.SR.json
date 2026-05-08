@@ -2,7 +2,7 @@
   "ticker": "2270.SR",
   "currency": "SAR",
   "sourceUrl": "https://www.sadafco.com/en/investor-relations/",
-  "notes": "Saudia Dairy and Foodstuff Company (SADAFCO) — Tadawul-listed Saudi food group focused on UHT (long-life) milk under the Saudia brand, plus tomato paste, ice cream, snacks and cheese. Operates in Saudi Arabia + GCC + Levant + sub-Saharan Africa export markets. Fiscal year ends 31 March (FY2024 = year to Mar-2024; FY2025 = year to Mar-2025). SAR reporting; figures in SAR millions. Net cash balance sheet (essentially no debt; large cash + short-term investments). Capital-light vs Almarai (no upstream dairy farms — sources milk powder + raw milk). Strong dividend track record. SADAFCO has no direct farmland ownership; classified as Dairy / Egg Producer in the comps universe (acresK omitted). Multi-year history below shows compounding revenue and earnings growth driven by category expansion and price discipline.",
+  "notes": "Saudia Dairy and Foodstuff Company (SADAFCO) \u2014 Tadawul-listed Saudi food group focused on UHT (long-life) milk under the Saudia brand, plus tomato paste, ice cream, snacks and cheese. Operates in Saudi Arabia + GCC + Levant + sub-Saharan Africa export markets. Fiscal year ends 31 March (FY2024 = year to Mar-2024; FY2025 = year to Mar-2025). SAR reporting; figures in SAR millions. Net cash balance sheet (essentially no debt; large cash + short-term investments). Capital-light vs Almarai (no upstream dairy farms \u2014 sources milk powder + raw milk). Strong dividend track record. SADAFCO has no direct farmland ownership; classified as Dairy / Egg Producer in the comps universe (acresK omitted). Multi-year history below shows compounding revenue and earnings growth driven by category expansion and price discipline.",
   "periods": [
     {
       "endDate": "2021-03-31",
@@ -123,7 +123,8 @@
       "revenueMM": 555,
       "ebitdaMM": 81,
       "netIncomeMM": 58,
-      "notes": "Q4 FY24"
+      "notes": "Q4 FY24",
+      "totalEquityMM": 1095
     },
     {
       "endDate": "2025-03-31",
@@ -195,7 +196,8 @@
       "revenueMM": 580,
       "ebitdaMM": 82,
       "netIncomeMM": 63,
-      "notes": "Q4 FY25"
+      "notes": "Q4 FY25",
+      "totalEquityMM": 1145
     }
   ]
 }

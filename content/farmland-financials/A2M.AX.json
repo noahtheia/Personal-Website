@@ -2,7 +2,7 @@
   "ticker": "A2M.AX",
   "currency": "NZD",
   "sourceUrl": "https://thea2milkcompany.com/investor-centre/",
-  "notes": "The a2 Milk Company Limited (A2M.AX) — New Zealand dairy company specializing in 'A1 protein-free' branded milk and infant formula. Reports in NZD. Dual-listed: NZX primary (NZD), ASX secondary (AUD). Segments: China & Other Asia (largest — infant formula via daigou and CBEC channels), Australia & New Zealand (fresh milk), USA, Mato Mitchell (since 2022 stake in Synlait). Fiscal year ends Jun 30 (FY24 = year ended 30 Jun 2024). Annual reports: thea2milkcompany.com/investor-centre/financial-reports/.",
+  "notes": "The a2 Milk Company Limited (A2M.AX) \u2014 New Zealand dairy company specializing in 'A1 protein-free' branded milk and infant formula. Reports in NZD. Dual-listed: NZX primary (NZD), ASX secondary (AUD). Segments: China & Other Asia (largest \u2014 infant formula via daigou and CBEC channels), Australia & New Zealand (fresh milk), USA, Mato Mitchell (since 2022 stake in Synlait). Fiscal year ends Jun 30 (FY24 = year ended 30 Jun 2024). Annual reports: thea2milkcompany.com/investor-centre/financial-reports/.",
   "periods": [
     {
       "endDate": "2020-06-30",
@@ -25,7 +25,8 @@
       "capexMM": 16,
       "daMM": 14,
       "cfoMM": 427,
-      "notes": "FY20 record revenue NZ$1.73B, EBITDA NZ$549M (32% margin). Pre-China daigou disruption peak."
+      "notes": "FY20 record revenue NZ$1.73B, EBITDA NZ$549M (32% margin). Pre-China daigou disruption peak.",
+      "totalEquityMM": 875
     },
     {
       "endDate": "2021-06-30",
@@ -48,7 +49,8 @@
       "capexMM": 18,
       "daMM": 17,
       "cfoMM": 96,
-      "notes": "FY21 collapse — daigou channel disrupted by China COVID border restrictions; revenue -30%, EBITDA -75%."
+      "notes": "FY21 collapse \u2014 daigou channel disrupted by China COVID border restrictions; revenue -30%, EBITDA -75%.",
+      "totalEquityMM": 950
     },
     {
       "endDate": "2022-06-30",
@@ -71,7 +73,8 @@
       "capexMM": 14,
       "daMM": 21,
       "cfoMM": 152,
-      "notes": "FY22 partial recovery. EBITDA NZ$196M."
+      "notes": "FY22 partial recovery. EBITDA NZ$196M.",
+      "totalEquityMM": 1010
     },
     {
       "endDate": "2023-06-30",
@@ -100,7 +103,8 @@
         "D&A": 25,
         "Other opex": 0
       },
-      "notes": "FY23 revenue NZ$1.59B (+10%), EBITDA NZ$219M."
+      "notes": "FY23 revenue NZ$1.59B (+10%), EBITDA NZ$219M.",
+      "totalEquityMM": 1075
     },
     {
       "endDate": "2023-12-31",
@@ -138,7 +142,8 @@
         "Other opex": 0
       },
       "notes": "FY24 revenue NZ$1.68B (+5%), EBITDA NZ$235M (14% margin). NZ$1.08B net cash. First-ever buyback authorized.",
-      "interestExpenseMM": 0
+      "interestExpenseMM": 0,
+      "totalEquityMM": 1140
     },
     {
       "endDate": "2024-12-31",

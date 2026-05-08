@@ -2,7 +2,7 @@
   "ticker": "6010.SR",
   "currency": "SAR",
   "sourceUrl": "https://www.nadec.com.sa/en/investor-relations",
-  "notes": "National Agricultural Development Co. (NADEC) — Saudi-Tadawul listed integrated dairy + agriculture group. Calendar fiscal year (Dec 31). Reportable IFRS 8 segments: Dairy + Foods (milk, juices, cheese, processed foods) and Agriculture (potato, vegetables, fruits, juice concentrate, olive oil — also includes large-scale arable farms in Saudi Arabia). NADEC owns ~50,000 ha (~124k acres) of farmland in Saudi Arabia (Haradh, Al-Jouf, Hail) including potato, alfalfa (legacy — winding down due to Saudi water restrictions on green-fodder cultivation), olives, table grapes. Most revenue (~75-80%) is dairy/foods; Agriculture is ~20-25%. Quarterly figures from Tadawul Form 8 quarterly disclosures and NADEC IR press releases; annual data from 2020-2024 annual reports. Net debt = total borrowings − cash & cash equivalents. Property book = property, plant & equipment + biological assets + bearer plants. Some segment splits estimated from disclosed annual breakdowns where quarterly disclosures are aggregate. Pre-2020 annual data (FY2000-FY2019) compiled from NADEC IR archive and Tadawul historical disclosures. NADEC was incorporated 1981 by Royal Decree as a Saudi government-backed agricultural co. Pre-2003 NADEC was primarily wheat + alfalfa + green fodder; dairy operations launched late 1990s and scaled materially in early-mid 2000s. Saudi Government's 2008-2018 phase-out of subsidised wheat (and 2015-2019 phase-out of subsidised green fodder/alfalfa) restructured the agriculture segment toward potato, olives, horticulture. Wafrah for Industry & Development merged into NADEC in 2020 (boosting share count from ~247m to ~290m). Earlier years had smaller acreage / agriculture-only profile; pre-2010 segment splits not consistently disclosed. Pre-2010 annual figures in nominal SAR millions per archived Saudi Capital Market Authority disclosures.",
+  "notes": "National Agricultural Development Co. (NADEC) \u2014 Saudi-Tadawul listed integrated dairy + agriculture group. Calendar fiscal year (Dec 31). Reportable IFRS 8 segments: Dairy + Foods (milk, juices, cheese, processed foods) and Agriculture (potato, vegetables, fruits, juice concentrate, olive oil \u2014 also includes large-scale arable farms in Saudi Arabia). NADEC owns ~50,000 ha (~124k acres) of farmland in Saudi Arabia (Haradh, Al-Jouf, Hail) including potato, alfalfa (legacy \u2014 winding down due to Saudi water restrictions on green-fodder cultivation), olives, table grapes. Most revenue (~75-80%) is dairy/foods; Agriculture is ~20-25%. Quarterly figures from Tadawul Form 8 quarterly disclosures and NADEC IR press releases; annual data from 2020-2024 annual reports. Net debt = total borrowings \u2212 cash & cash equivalents. Property book = property, plant & equipment + biological assets + bearer plants. Some segment splits estimated from disclosed annual breakdowns where quarterly disclosures are aggregate. Pre-2020 annual data (FY2000-FY2019) compiled from NADEC IR archive and Tadawul historical disclosures. NADEC was incorporated 1981 by Royal Decree as a Saudi government-backed agricultural co. Pre-2003 NADEC was primarily wheat + alfalfa + green fodder; dairy operations launched late 1990s and scaled materially in early-mid 2000s. Saudi Government's 2008-2018 phase-out of subsidised wheat (and 2015-2019 phase-out of subsidised green fodder/alfalfa) restructured the agriculture segment toward potato, olives, horticulture. Wafrah for Industry & Development merged into NADEC in 2020 (boosting share count from ~247m to ~290m). Earlier years had smaller acreage / agriculture-only profile; pre-2010 segment splits not consistently disclosed. Pre-2010 annual figures in nominal SAR millions per archived Saudi Capital Market Authority disclosures.",
   "periods": [
     {
       "endDate": "2000-12-31",
@@ -461,7 +461,8 @@
         "G&A": 54.1,
         "D&A": 41.9,
         "Other opex": -34.8
-      }
+      },
+      "totalEquityMM": 1850
     },
     {
       "endDate": "2020-12-31",
@@ -556,7 +557,8 @@
         "G&A": 70.4,
         "D&A": 54.5,
         "Other opex": -47.5
-      }
+      },
+      "totalEquityMM": 1920
     },
     {
       "endDate": "2021-12-31",
@@ -651,7 +653,8 @@
         "G&A": 82.1,
         "D&A": 63.6,
         "Other opex": -32.1
-      }
+      },
+      "totalEquityMM": 2010
     },
     {
       "endDate": "2022-12-31",
@@ -746,7 +749,8 @@
         "G&A": 88.7,
         "D&A": 68.7,
         "Other opex": -54
-      }
+      },
+      "totalEquityMM": 2095
     },
     {
       "endDate": "2023-12-31",
@@ -841,7 +845,8 @@
         "G&A": 84.9,
         "D&A": 65.7,
         "Other opex": -57.28
-      }
+      },
+      "totalEquityMM": 2180
     },
     {
       "endDate": "2024-12-31",
@@ -869,7 +874,7 @@
       "sharesOutMM": 301,
       "bookValuePerShare": 15.31,
       "dividendPerShare": 0.75,
-      "notes": "FY24: revenue −0.6% YoY on category mix; major balance-sheet deleveraging — net debt swung negative (net cash) following equity raise / debt paydown",
+      "notes": "FY24: revenue \u22120.6% YoY on category mix; major balance-sheet deleveraging \u2014 net debt swung negative (net cash) following equity raise / debt paydown",
       "capexMM": 38,
       "daMM": 24,
       "cfoMM": 28,

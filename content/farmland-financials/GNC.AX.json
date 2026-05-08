@@ -2,7 +2,7 @@
   "ticker": "GNC.AX",
   "currency": "AUD",
   "sourceUrl": "https://www.graincorp.com.au/investor-centre",
-  "notes": "GrainCorp Limited (GNC.AX) — leading Australian grain handling, storage and trading company. Two segments: Agribusiness (grain receival/storage/transport/trading — east-coast Australia silo network, international ports) and Nutrition & Energy (oilseed crushing, refined oils, feeds, bioenergy). Listed ASX. Fiscal year ends Sep 30 (FY24 = year ended 30 Sep 2024). Demerged United Malt May 2020. Annual reports: graincorp.com.au/investor-centre/reports/.",
+  "notes": "GrainCorp Limited (GNC.AX) \u2014 leading Australian grain handling, storage and trading company. Two segments: Agribusiness (grain receival/storage/transport/trading \u2014 east-coast Australia silo network, international ports) and Nutrition & Energy (oilseed crushing, refined oils, feeds, bioenergy). Listed ASX. Fiscal year ends Sep 30 (FY24 = year ended 30 Sep 2024). Demerged United Malt May 2020. Annual reports: graincorp.com.au/investor-centre/reports/.",
   "periods": [
     {
       "endDate": "2020-09-30",
@@ -23,7 +23,8 @@
       "capexMM": 65,
       "daMM": 110,
       "cfoMM": 220,
-      "notes": "FY20 — drought + United Malt demerger; revenue $4.15B (continuing ops)."
+      "notes": "FY20 \u2014 drought + United Malt demerger; revenue $4.15B (continuing ops).",
+      "totalEquityMM": 1685
     },
     {
       "endDate": "2021-09-30",
@@ -44,7 +45,8 @@
       "capexMM": 75,
       "daMM": 115,
       "cfoMM": 600,
-      "notes": "FY21 record east-coast harvest — EBITDA $332M, net cash position."
+      "notes": "FY21 record east-coast harvest \u2014 EBITDA $332M, net cash position.",
+      "totalEquityMM": 1820
     },
     {
       "endDate": "2022-09-30",
@@ -65,7 +67,8 @@
       "capexMM": 90,
       "daMM": 120,
       "cfoMM": 700,
-      "notes": "FY22 record — bumper harvest plus Russia/Ukraine grain price spike. EBITDA $703M."
+      "notes": "FY22 record \u2014 bumper harvest plus Russia/Ukraine grain price spike. EBITDA $703M.",
+      "totalEquityMM": 2210
     },
     {
       "endDate": "2023-09-30",
@@ -92,7 +95,8 @@
         "D&A": 130,
         "Other opex": 0
       },
-      "notes": "FY23 EBITDA $564M, second consecutive bumper crop."
+      "notes": "FY23 EBITDA $564M, second consecutive bumper crop.",
+      "totalEquityMM": 2340
     },
     {
       "endDate": "2023-03-31",
@@ -135,7 +139,8 @@
         "1-3y": 135.0,
         "3-5y": 81.0,
         "5+y": 108.0
-      }
+      },
+      "totalEquityMM": 2295
     },
     {
       "endDate": "2024-03-31",

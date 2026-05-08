@@ -2,7 +2,7 @@
   "ticker": "EBRO.MC",
   "currency": "EUR",
   "sourceUrl": "https://www.ebrofoods.es/en/investor-relations/",
-  "notes": "Ebro Foods S.A. (BME: EBRO) — world's largest rice company and second-largest pasta producer. Brands include Tilda, SOS, La Fallera, Brillante, Saludães, Reis (rice), Panzani, Garofalo, Roland, Ronzoni, American Beauty (pasta). Spain-headquartered, listed on Madrid stock exchange. ~73% of revenue from rice, ~25% from pasta, ~2% from other (sauces, ready meals). FY runs calendar year. Capital allocation: occasional special dividends (FY21 special on sale of Panzani fresh pasta to CVC; FY22 sale of Riviana frozen). Two-step ordinary dividend each year (Apr / Oct). Annual reports / consolidated accounts at ebrofoods.es/en/investor-relations.",
+  "notes": "Ebro Foods S.A. (BME: EBRO) \u2014 world's largest rice company and second-largest pasta producer. Brands include Tilda, SOS, La Fallera, Brillante, Salud\u00e3es, Reis (rice), Panzani, Garofalo, Roland, Ronzoni, American Beauty (pasta). Spain-headquartered, listed on Madrid stock exchange. ~73% of revenue from rice, ~25% from pasta, ~2% from other (sauces, ready meals). FY runs calendar year. Capital allocation: occasional special dividends (FY21 special on sale of Panzani fresh pasta to CVC; FY22 sale of Riviana frozen). Two-step ordinary dividend each year (Apr / Oct). Annual reports / consolidated accounts at ebrofoods.es/en/investor-relations.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -25,10 +25,11 @@
       "sharesOutMM": 153.86,
       "bookValuePerShare": 8.65,
       "dividendPerShare": 0.57,
-      "notes": "FY20: revenue €3.11B (+5%). COVID pantry-loading lifted rice + pasta volumes. Adj EBITDA €360M. Net debt €545M.",
+      "notes": "FY20: revenue \u20ac3.11B (+5%). COVID pantry-loading lifted rice + pasta volumes. Adj EBITDA \u20ac360M. Net debt \u20ac545M.",
       "capexMM": 95,
       "daMM": 110,
-      "cfoMM": 350
+      "cfoMM": 350,
+      "totalEquityMM": 1325
     },
     {
       "endDate": "2021-12-31",
@@ -51,10 +52,11 @@
       "sharesOutMM": 153.86,
       "bookValuePerShare": 9.3,
       "dividendPerShare": 1.18,
-      "notes": "FY21: revenue €2.75B. Sold Panzani fresh-pasta to CVC for €550M, recorded €169M gain. Special dividend €0.61 + ordinary €0.57. Net debt down to €410M.",
+      "notes": "FY21: revenue \u20ac2.75B. Sold Panzani fresh-pasta to CVC for \u20ac550M, recorded \u20ac169M gain. Special dividend \u20ac0.61 + ordinary \u20ac0.57. Net debt down to \u20ac410M.",
       "capexMM": 90,
       "daMM": 90,
-      "cfoMM": 250
+      "cfoMM": 250,
+      "totalEquityMM": 1390
     },
     {
       "endDate": "2022-12-31",
@@ -77,10 +79,11 @@
       "sharesOutMM": 153.86,
       "bookValuePerShare": 8.95,
       "dividendPerShare": 0.57,
-      "notes": "FY22: revenue €2.95B (+7% raw-material pass-through). Wheat / rice price spikes squeezed margin temporarily. Adj EBITDA €295M. Acquired Tilda from Hain (US$340M).",
+      "notes": "FY22: revenue \u20ac2.95B (+7% raw-material pass-through). Wheat / rice price spikes squeezed margin temporarily. Adj EBITDA \u20ac295M. Acquired Tilda from Hain (US$340M).",
       "capexMM": 100,
       "daMM": 95,
-      "cfoMM": 230
+      "cfoMM": 230,
+      "totalEquityMM": 1450
     },
     {
       "endDate": "2023-12-31",
@@ -103,10 +106,11 @@
       "sharesOutMM": 153.86,
       "bookValuePerShare": 9.15,
       "dividendPerShare": 0.6,
-      "notes": "FY23: revenue €3.10B (+5%). Tilda full year. Adj EBITDA recovered to €360M. India rice export ban tightened market. Net debt €705M.",
+      "notes": "FY23: revenue \u20ac3.10B (+5%). Tilda full year. Adj EBITDA recovered to \u20ac360M. India rice export ban tightened market. Net debt \u20ac705M.",
       "capexMM": 105,
       "daMM": 100,
-      "cfoMM": 360
+      "cfoMM": 360,
+      "totalEquityMM": 1520
     },
     {
       "endDate": "2024-12-31",
@@ -129,7 +133,7 @@
       "sharesOutMM": 153.86,
       "bookValuePerShare": 9.4,
       "dividendPerShare": 0.6,
-      "notes": "FY24: revenue €3.14B. Adj EBITDA €380M (+5%). EPS ~€1.05. Net debt €720M (~1.9x EBITDA). Strong cash generation. Pasta margin recovery (durum wheat prices normalizing).",
+      "notes": "FY24: revenue \u20ac3.14B. Adj EBITDA \u20ac380M (+5%). EPS ~\u20ac1.05. Net debt \u20ac720M (~1.9x EBITDA). Strong cash generation. Pasta margin recovery (durum wheat prices normalizing).",
       "capexMM": 115,
       "daMM": 105,
       "cfoMM": 380,
@@ -140,7 +144,8 @@
         "1-3y": 240.0,
         "3-5y": 160.0,
         "5+y": 200.0
-      }
+      },
+      "totalEquityMM": 1585
     },
     {
       "endDate": "2020-06-30",
@@ -150,7 +155,7 @@
       "netIncomeMM": 95,
       "sharesOutMM": 153.86,
       "netDebtMM": 590,
-      "notes": "H1 2020: revenue €1.57B, EBITDA €200M. COVID pantry-loading boost."
+      "notes": "H1 2020: revenue \u20ac1.57B, EBITDA \u20ac200M. COVID pantry-loading boost."
     },
     {
       "endDate": "2021-06-30",
@@ -160,7 +165,7 @@
       "netIncomeMM": 175,
       "sharesOutMM": 153.86,
       "netDebtMM": 520,
-      "notes": "H1 2021: revenue €1.37B, EBITDA €145M. Includes Panzani sale gain."
+      "notes": "H1 2021: revenue \u20ac1.37B, EBITDA \u20ac145M. Includes Panzani sale gain."
     },
     {
       "endDate": "2022-06-30",
@@ -170,7 +175,7 @@
       "netIncomeMM": 65,
       "sharesOutMM": 153.86,
       "netDebtMM": 640,
-      "notes": "H1 2022: revenue €1.45B, EBITDA €145M. Wheat/rice price spike margin squeeze."
+      "notes": "H1 2022: revenue \u20ac1.45B, EBITDA \u20ac145M. Wheat/rice price spike margin squeeze."
     },
     {
       "endDate": "2023-06-30",
@@ -180,7 +185,7 @@
       "netIncomeMM": 90,
       "sharesOutMM": 153.86,
       "netDebtMM": 720,
-      "notes": "H1 2023: revenue €1.54B, EBITDA €175M. Tilda full year contribution."
+      "notes": "H1 2023: revenue \u20ac1.54B, EBITDA \u20ac175M. Tilda full year contribution."
     },
     {
       "endDate": "2024-06-30",
@@ -190,7 +195,7 @@
       "netIncomeMM": 96,
       "sharesOutMM": 153.86,
       "netDebtMM": 700,
-      "notes": "H1 2024: revenue €1.57B, EBITDA €188M (+8%)."
+      "notes": "H1 2024: revenue \u20ac1.57B, EBITDA \u20ac188M (+8%)."
     },
     {
       "endDate": "2025-06-30",
@@ -200,7 +205,7 @@
       "netIncomeMM": 102,
       "sharesOutMM": 153.86,
       "netDebtMM": 690,
-      "notes": "H1 2025: revenue €1.61B, EBITDA €200M. Strong pasta + rice."
+      "notes": "H1 2025: revenue \u20ac1.61B, EBITDA \u20ac200M. Strong pasta + rice."
     }
   ]
 }

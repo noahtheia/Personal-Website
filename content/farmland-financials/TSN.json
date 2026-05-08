@@ -2,7 +2,7 @@
   "ticker": "TSN",
   "currency": "USD",
   "sourceUrl": "https://ir.tyson.com/financials/sec-filings/default.aspx",
-  "notes": "Tyson Foods (NYSE: TSN) — world's second-largest processor of beef, pork, and chicken. Fiscal year ends late September / early October (52/53-week year). Five reporting segments: Beef, Pork, Chicken, Prepared Foods, International/Other. Highly cyclical — Beef has been pressured FY23-FY25 by US cattle herd contraction and negative spreads, while Chicken margins recovered FY24 from FY23 trough. Net debt rebuilt cash post-2022 acquisitions; ~$2B share buybacks suspended FY23. Dividend $1.96 → $2.00 annualized. Data sourced from 10-K filings (CIK 100493). FY24 10-K filed Nov 12, 2024.",
+  "notes": "Tyson Foods (NYSE: TSN) \u2014 world's second-largest processor of beef, pork, and chicken. Fiscal year ends late September / early October (52/53-week year). Five reporting segments: Beef, Pork, Chicken, Prepared Foods, International/Other. Highly cyclical \u2014 Beef has been pressured FY23-FY25 by US cattle herd contraction and negative spreads, while Chicken margins recovered FY24 from FY23 trough. Net debt rebuilt cash post-2022 acquisitions; ~$2B share buybacks suspended FY23. Dividend $1.96 \u2192 $2.00 annualized. Data sourced from 10-K filings (CIK 100493). FY24 10-K filed Nov 12, 2024.",
   "periods": [
     {
       "endDate": "2020-10-03",
@@ -31,7 +31,8 @@
         "Chicken": 13234,
         "Prepared Foods": 8532,
         "International/Other": 1856
-      }
+      },
+      "totalEquityMM": 11919
     },
     {
       "endDate": "2021-10-02",
@@ -60,7 +61,8 @@
         "Chicken": 13733,
         "Prepared Foods": 8853,
         "International/Other": 1990
-      }
+      },
+      "totalEquityMM": 14376
     },
     {
       "endDate": "2022-01-01",
@@ -164,7 +166,8 @@
         "Chicken": 16961,
         "Prepared Foods": 9689,
         "International/Other": 2355
-      }
+      },
+      "totalEquityMM": 18341
     },
     {
       "endDate": "2022-12-31",
@@ -268,7 +271,8 @@
         "Chicken": 17060,
         "Prepared Foods": 9845,
         "International/Other": 2515
-      }
+      },
+      "totalEquityMM": 18075
     },
     {
       "endDate": "2023-12-30",
@@ -380,7 +384,8 @@
         "1-3y": 2843.1,
         "3-5y": 1895.4,
         "5+y": 2369.25
-      }
+      },
+      "totalEquityMM": 18380
     },
     {
       "endDate": "2024-12-28",
@@ -480,7 +485,8 @@
         "Chicken": 4411,
         "Prepared Foods": 2546,
         "International/Other": 584
-      }
+      },
+      "totalEquityMM": 18950
     },
     {
       "endDate": "2025-12-27",
