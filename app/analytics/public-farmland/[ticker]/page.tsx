@@ -13,6 +13,7 @@ import { FarmlandDetailTabs } from "@/components/FarmlandDetailTabs";
 import { FarmlandPropertyDetail } from "@/components/FarmlandPropertyDetail";
 import { FarmlandFinancialSnapshot } from "@/components/FarmlandFinancialSnapshot";
 import { FarmlandInsiders } from "@/components/FarmlandInsiders";
+import { tipFor } from "@/lib/farmland-glossary";
 
 export const revalidate = 3600;
 
@@ -214,9 +215,9 @@ function SectorKpiBlock({
     if (p.oerPct != null) items.push({ label: "OER", value: `${p.oerPct.toFixed(1)}%` });
     if (p.kerPct != null) items.push({ label: "KER", value: `${p.kerPct.toFixed(1)}%` });
     if (p.cpoAspPerMt != null)
-      items.push({ label: "CPO ASP", value: `${filing.currency} ${fmtInt(p.cpoAspPerMt)}/t` });
+      items.push({ label: "CPO ASP", value: `${filing.currency} ${fmtCompact(p.cpoAspPerMt)}/t` });
     if (p.cpoCostPerMt != null)
-      items.push({ label: "CPO cost", value: `${filing.currency} ${fmtInt(p.cpoCostPerMt)}/t` });
+      items.push({ label: "CPO cost", value: `${filing.currency} ${fmtCompact(p.cpoCostPerMt)}/t` });
     if (p.rspoPct != null)
       items.push({ label: "RSPO certified", value: `${p.rspoPct.toFixed(1)}%` });
     if (p.methaneCapturePctMills != null)
@@ -260,10 +261,10 @@ function SectorKpiBlock({
         label: "Owned / leased",
         value: `${fmtInt(i.ownedAreaHa)} / ${fmtInt(i.leasedAreaHa)} ha`,
       });
-    if (i.productionVolumeMT != null)
+    if (i.productionVolume != null)
       items.push({
         label: "Production",
-        value: `${fmtInt(i.productionVolumeMT)} ${i.productionUnit ?? "MT"}`,
+        value: `${fmtInt(i.productionVolume)} ${i.productionUnit ?? "MT"}`,
       });
     if (i.realizedPricePerUnit != null)
       items.push({
@@ -538,20 +539,30 @@ function SectorKpiBlock({
   if (items.length === 0) return null;
   return (
     <section className="mt-6 rounded-sm border border-rule bg-surface p-4">
-      <p className="text-[10px] uppercase tracking-wider text-muted">
-        Sector KPIs
+      <p className="flex items-center gap-2 text-[10px] uppercase tracking-wider text-muted">
+        <span>Sector KPIs</span>
+        <ConfidenceBadge confidence={filing.sectorBlockConfidence} />
       </p>
       <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-3 sm:grid-cols-3 md:grid-cols-4">
-        {items.map((it) => (
-          <div key={it.label}>
-            <dt className="text-[10px] uppercase tracking-wider text-muted">
-              {it.label}
-            </dt>
-            <dd className="mt-0.5 font-display text-base font-semibold tabular-nums">
-              {it.value}
-            </dd>
-          </div>
-        ))}
+        {items.map((it) => {
+          const tip = tipFor(it.label);
+          return (
+            <div key={it.label}>
+              <dt
+                className={`text-[10px] uppercase tracking-wider text-muted ${
+                  tip ? "cursor-help decoration-dotted underline-offset-2" : ""
+                }`}
+                style={tip ? { textDecorationLine: "underline" } : undefined}
+                title={tip}
+              >
+                {it.label}
+              </dt>
+              <dd className="mt-0.5 font-display text-base font-semibold tabular-nums">
+                {it.value}
+              </dd>
+            </div>
+          );
+        })}
       </dl>
     </section>
   );
@@ -570,6 +581,45 @@ function Stat({ label, value }: { label: string; value: string }) {
   );
 }
 
+// Tiny chip surfacing the data-quality tier for the sector-block
+// values. "filing" = traced to issuer disclosure, "audit" = cited in a
+// pilot research note, "estimate" = agent recall / industry-typical.
+// Hidden when confidence isn't tagged.
+function ConfidenceBadge({
+  confidence,
+}: {
+  confidence: "filing" | "audit" | "estimate" | undefined;
+}) {
+  if (!confidence) return null;
+  const meta = {
+    filing: { label: "filing", color: "var(--positive)", title: "Values traced to issuer filings" },
+    audit: { label: "audit", color: "var(--accent)", title: "Values from pilot research note (LAND/ADM/KLK/TSN)" },
+    estimate: { label: "estimate", color: "var(--accent-warm)", title: "Industry-typical recall — verify before use" },
+  }[confidence];
+  return (
+    <span
+      title={meta.title}
+      className="inline-flex items-center gap-1 rounded-sm border border-rule px-1.5 py-0.5 text-[9px] font-medium normal-case tracking-normal"
+      style={{ color: meta.color, borderColor: meta.color }}
+    >
+      <span aria-hidden="true" className="inline-block h-1.5 w-1.5 rounded-full" style={{ background: meta.color }} />
+      {meta.label}
+    </span>
+  );
+}
+
 function fmtInt(n: number) {
+  return Math.round(n).toLocaleString("en-US");
+}
+
+// Compact money scaler for sector-block fields where raw filing-currency
+// values get unwieldy. Indonesian palm operators report CPO ASP in raw
+// IDR (e.g. 12_500_000 / MT), which reads opaquely without scaling.
+// Returns "12.5M" / "1.2B" / "850K" / raw "342" depending on magnitude.
+function fmtCompact(n: number): string {
+  const abs = Math.abs(n);
+  if (abs >= 1e9) return `${(n / 1e9).toFixed(2)}B`;
+  if (abs >= 1e6) return `${(n / 1e6).toFixed(2)}M`;
+  if (abs >= 1e4) return `${(n / 1e3).toFixed(1)}K`;
   return Math.round(n).toLocaleString("en-US");
 }

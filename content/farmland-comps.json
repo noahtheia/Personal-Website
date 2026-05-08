@@ -30,7 +30,8 @@
       "walt": 4.7,
       "occupancyPct": 95.0,
       "affoPerShare": 0.47
-    }
+    },
+    "sectorBlockConfidence": "audit"
   },
   {
     "ticker": "FPI",
@@ -62,7 +63,8 @@
       "top10TenantPctOfRent": 30,
       "affoPerShare": 0.39,
       "rentIndexationType": "mixed"
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "AGRO",
@@ -120,12 +122,13 @@
       "plantedAreaHa": 730000,
       "ownedAreaHa": 270000,
       "leasedAreaHa": 460000,
-      "productionVolumeMT": 2400000,
       "productionUnit": "MT_grain",
       "yieldPerHa": 3.3,
       "realizedPricePerUnit": 1450,
-      "biologicalAssetsMM": 1850
-    }
+      "biologicalAssetsMM": 1850,
+      "productionVolume": 2400000
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "AGRO3.SA",
@@ -156,12 +159,13 @@
       "plantedAreaHa": 270000,
       "ownedAreaHa": 220000,
       "leasedAreaHa": 50000,
-      "productionVolumeMT": 850000,
       "productionUnit": "MT_grain",
       "yieldPerHa": 3.1,
       "realizedPricePerUnit": 1380,
-      "biologicalAssetsMM": 620
-    }
+      "biologicalAssetsMM": 620,
+      "productionVolume": 850000
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "RFF.AX",
@@ -194,7 +198,8 @@
       "top10TenantPctOfRent": 84,
       "affoPerShare": 0.115,
       "rentIndexationType": "cpi"
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "LAND3.SA",
@@ -226,7 +231,8 @@
       "occupancyPct": 100,
       "top10TenantPctOfRent": 100,
       "rentIndexationType": "commodity"
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "ALCO",
@@ -256,7 +262,6 @@
     "integratedFarm": {
       "plantedAreaHa": 20000,
       "ownedAreaHa": 20030,
-      "productionVolumeMT": 4500000,
       "productionUnit": "boxes_citrus",
       "yieldPerHa": 225,
       "realizedPricePerUnit": 12.5,
@@ -266,8 +271,10 @@
         "bearingHa": 0,
         "nonBearingHa": 2000,
         "avgTreeAgeYears": 18
-      }
-    }
+      },
+      "productionVolume": 4500000
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "LMNR",
@@ -297,7 +304,6 @@
       "plantedAreaHa": 4250,
       "ownedAreaHa": 4250,
       "leasedAreaHa": 1150,
-      "productionVolumeMT": 95000,
       "productionUnit": "MT_lemon",
       "yieldPerHa": 22.4,
       "realizedPricePerUnit": 1850,
@@ -308,8 +314,10 @@
         "nonBearingHa": 600,
         "avgTreeAgeYears": 14,
         "replantingHaYTD": 120
-      }
-    }
+      },
+      "productionVolume": 95000
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "AAC.AX",
@@ -339,7 +347,6 @@
     "integratedFarm": {
       "ownedAreaHa": 460000,
       "leasedAreaHa": 6400000,
-      "productionVolumeMT": 95000000,
       "productionUnit": "kg_LW_beef",
       "yieldPerHa": 14.8,
       "realizedPricePerUnit": 3.45,
@@ -349,8 +356,10 @@
         "avgDailyGainKg": 0.85,
         "weaningRate": 78,
         "feedlotCapacity": 50000
-      }
-    }
+      },
+      "productionVolume": 95000000
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "DBF.AX",
@@ -381,13 +390,14 @@
       "plantedAreaHa": 12500,
       "ownedAreaHa": 10800,
       "leasedAreaHa": 1700,
-      "productionVolumeMT": 145000,
       "productionUnit": "MT_grain",
       "yieldPerHa": 11.6,
       "realizedPricePerUnit": 410,
       "waterRightsVolumeML": 70000,
-      "biologicalAssetsMM": 95
-    }
+      "biologicalAssetsMM": 95,
+      "productionVolume": 145000
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "ALAGR.PA",
@@ -417,12 +427,13 @@
       "plantedAreaHa": 50000,
       "ownedAreaHa": 8000,
       "leasedAreaHa": 42000,
-      "productionVolumeMT": 230000,
       "productionUnit": "MT_grain",
       "yieldPerHa": 4.6,
       "realizedPricePerUnit": 220,
-      "biologicalAssetsMM": 35
-    }
+      "biologicalAssetsMM": 35,
+      "productionVolume": 230000
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "SHV.AX",
@@ -451,7 +462,6 @@
     "integratedFarm": {
       "plantedAreaHa": 9000,
       "ownedAreaHa": 9000,
-      "productionVolumeMT": 30500,
       "productionUnit": "MT_kernel",
       "yieldPerHa": 3.4,
       "realizedPricePerUnit": 8200,
@@ -462,8 +472,10 @@
         "nonBearingHa": 1200,
         "avgTreeAgeYears": 9,
         "replantingHaYTD": 80
-      }
-    }
+      },
+      "productionVolume": 30500
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "CAM.L",
@@ -556,7 +568,8 @@
       "methaneCapturePctMills": 50,
       "replantingHaLtm": 1200,
       "ndpeCompliancePct": 100
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "RE.L",
@@ -596,7 +609,8 @@
       "methaneCapturePctMills": 40,
       "replantingHaLtm": 1500,
       "ndpeCompliancePct": 95
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "AEP.L",
@@ -635,7 +649,8 @@
       "methaneCapturePctMills": 60,
       "replantingHaLtm": 800,
       "ndpeCompliancePct": 100
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "2089.KL",
@@ -673,7 +688,8 @@
       "methaneCapturePctMills": 30,
       "replantingHaLtm": 600,
       "ndpeCompliancePct": 90
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "KLK.KL",
@@ -713,7 +729,8 @@
       "replantingHaLtm": 6500,
       "rubberRevenueSharePct": 5,
       "ndpeCompliancePct": 95
-    }
+    },
+    "sectorBlockConfidence": "audit"
   },
   {
     "ticker": "6010.SR",
@@ -798,7 +815,8 @@
       "auctionVsDirectPct": 70,
       "boughtLeafSharePct": 35,
       "teaPlantedHa": 5200
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "AALI.JK",
@@ -838,7 +856,8 @@
       "replantingHaLtm": 7000,
       "nucleusVsPlasmaPct": 80,
       "ndpeCompliancePct": 95
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "SIMP.JK",
@@ -880,7 +899,8 @@
       "rubberRevenueSharePct": 4,
       "sugarRevenueSharePct": 5,
       "ndpeCompliancePct": 90
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "SGRO.JK",
@@ -920,7 +940,8 @@
       "replantingHaLtm": 3000,
       "nucleusVsPlasmaPct": 78,
       "ndpeCompliancePct": 95
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "SSMS.JK",
@@ -960,7 +981,8 @@
       "replantingHaLtm": 2200,
       "nucleusVsPlasmaPct": 82,
       "ndpeCompliancePct": 92
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "BWPT.JK",
@@ -1000,7 +1022,8 @@
       "replantingHaLtm": 3500,
       "nucleusVsPlasmaPct": 80,
       "ndpeCompliancePct": 88
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "1961.KL",
@@ -1040,7 +1063,8 @@
       "replantingHaLtm": 5500,
       "rubberRevenueSharePct": 3,
       "ndpeCompliancePct": 98
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "5285.KL",
@@ -1079,7 +1103,8 @@
       "methaneCapturePctMills": 75,
       "replantingHaLtm": 4000,
       "ndpeCompliancePct": 100
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "GENP.KL",
@@ -1118,7 +1143,8 @@
       "methaneCapturePctMills": 50,
       "replantingHaLtm": 1800,
       "ndpeCompliancePct": 95
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "5126.KL",
@@ -1156,7 +1182,8 @@
       "methaneCapturePctMills": 25,
       "replantingHaLtm": 500,
       "ndpeCompliancePct": 85
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "5138.KL",
@@ -1194,7 +1221,8 @@
       "methaneCapturePctMills": 30,
       "replantingHaLtm": 2200,
       "ndpeCompliancePct": 88
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "EB5.SI",
@@ -1235,7 +1263,8 @@
       "replantingHaLtm": 7000,
       "nucleusVsPlasmaPct": 80,
       "ndpeCompliancePct": 98
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "P8Z.SI",
@@ -1276,7 +1305,8 @@
       "replantingHaLtm": 2500,
       "nucleusVsPlasmaPct": 78,
       "ndpeCompliancePct": 95
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "E5H.SI",
@@ -1317,7 +1347,8 @@
       "replantingHaLtm": 4000,
       "nucleusVsPlasmaPct": 80,
       "ndpeCompliancePct": 96
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "JBSS3.SA",
@@ -1344,7 +1375,8 @@
       "plants": 250,
       "weeklyHeadCapacity": 12800000,
       "capacityUtilizationPct": 78
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "BEEF3.SA",
@@ -1372,7 +1404,8 @@
       "weeklyHeadCapacity": 252000,
       "capacityUtilizationPct": 76,
       "plantClosuresLtm": 2
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "MRFG3.SA",
@@ -1400,7 +1433,8 @@
       "weeklyHeadCapacity": 224000,
       "capacityUtilizationPct": 80,
       "plantClosuresLtm": 1
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "BRFS3.SA",
@@ -1427,7 +1461,8 @@
       "plants": 35,
       "weeklyHeadCapacity": 31000000,
       "capacityUtilizationPct": 82
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "SMTO3.SA",
@@ -1456,7 +1491,6 @@
       "plantedAreaHa": 240000,
       "ownedAreaHa": 60000,
       "leasedAreaHa": 180000,
-      "productionVolumeMT": 22000000,
       "productionUnit": "MT_sugar",
       "yieldPerHa": 92,
       "realizedPricePerUnit": 2150,
@@ -1468,8 +1502,10 @@
         "ethanolMixPct": 50,
         "ethanolVolumeM3": 980000,
         "cogenerationMWh": 1350000
-      }
-    }
+      },
+      "productionVolume": 22000000
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "CSAN3.SA",
@@ -1522,7 +1558,8 @@
     "trader": {
       "throughputMtMM": 80
     },
-    "nonAgricultureRevenuePct": 15
+    "nonAgricultureRevenuePct": 15,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "O32.SI",
@@ -1556,7 +1593,8 @@
     },
     "equityMethodInvestmentsMM": 1200,
     "litigationAccrualMM": 80,
-    "nonAgricultureRevenuePct": 5
+    "nonAgricultureRevenuePct": 5,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "CPF.BK",
@@ -1588,7 +1626,8 @@
         "feedConversionRatio": 2.6,
         "slaughterWeightKg": 105
       }
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "GFPT.BK",
@@ -1615,7 +1654,8 @@
       "plants": 6,
       "weeklyHeadCapacity": 4600000,
       "capacityUtilizationPct": 80
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "TUF.BK",
@@ -1641,7 +1681,8 @@
     "protein": {
       "plants": 14,
       "capacityUtilizationPct": 72
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "KAPC.NR",
@@ -1673,7 +1714,8 @@
       "auctionVsDirectPct": 75,
       "boughtLeafSharePct": 30,
       "teaPlantedHa": 4500
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "TSN",
@@ -1705,7 +1747,8 @@
       "weeklyLbsCapacityMM": 415,
       "capacityUtilizationPct": 78,
       "plantClosuresLtm": 3
-    }
+    },
+    "sectorBlockConfidence": "audit"
   },
   {
     "ticker": "HRL",
@@ -1740,7 +1783,8 @@
         "foodserviceMixPct": 32
       }
     },
-    "litigationAccrualMM": 75
+    "litigationAccrualMM": 75,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "PPC",
@@ -1770,7 +1814,8 @@
       "capacityUtilizationPct": 80,
       "plantClosuresLtm": 2
     },
-    "litigationAccrualMM": 195
+    "litigationAccrualMM": 195,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "CALM",
@@ -1800,7 +1845,8 @@
       "dozensSoldMM": 1278,
       "avgSellingPricePerDozen": 2.74,
       "specialtyEggMixPct": 30
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "VITL",
@@ -1830,7 +1876,8 @@
       "dozensSoldMM": 330,
       "avgSellingPricePerDozen": 5.8,
       "specialtyEggMixPct": 100
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "DAR",
@@ -1857,7 +1904,8 @@
       "plants": 260,
       "capacityUtilizationPct": 78,
       "plantClosuresLtm": 3
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "POST",
@@ -1889,7 +1937,8 @@
         "acvDistributionPct": 92,
         "foodserviceMixPct": 35
       }
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "DOLE",
@@ -1917,12 +1966,13 @@
       "plantedAreaHa": 44000,
       "ownedAreaHa": 44000,
       "leasedAreaHa": 65000,
-      "productionVolumeMT": 195000000,
       "productionUnit": "boxes_produce",
       "yieldPerHa": 38,
       "realizedPricePerUnit": 14.2,
-      "biologicalAssetsMM": 285
-    }
+      "biologicalAssetsMM": 285,
+      "productionVolume": 195000000
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "ADM",
@@ -1962,7 +2012,8 @@
       }
     },
     "equityMethodInvestmentsMM": 3500,
-    "nonAgricultureRevenuePct": 8
+    "nonAgricultureRevenuePct": 8,
+    "sectorBlockConfidence": "audit"
   },
   {
     "ticker": "BG",
@@ -1996,7 +2047,8 @@
     },
     "equityMethodInvestmentsMM": 850,
     "litigationAccrualMM": 120,
-    "nonAgricultureRevenuePct": 4
+    "nonAgricultureRevenuePct": 4,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "NTR",
@@ -2029,7 +2081,8 @@
         "nitrogen": 11000
       },
       "retailRevenuePct": 50
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "CTVA",
@@ -2054,7 +2107,8 @@
     "annualEquityMM": 24144,
     "cropInputs": {
       "rdSpendPctOfRevenue": 8.0
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "CF",
@@ -2083,7 +2137,8 @@
       },
       "gasCostUSDPerMMBtu": 2.5,
       "capacityUtilizationPct": 95
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "MOS",
@@ -2111,7 +2166,8 @@
         "phosphate": 7500,
         "potash": 12800
       }
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "KER.WA",
@@ -2119,22 +2175,22 @@
     "currency": "USD",
     "priceCurrency": "PLN",
     "primaryCrops": "Sunflower oil, grain (Ukraine)",
-    "filingDate": "2024-10-31",
+    "filingDate": "2025-10-30",
     "filingUrl": "https://www.kernel.ua/en/investor-relations/",
-    "sharesOutMM": 84.03,
-    "debtMM": 1031,
-    "cashMM": 348,
-    "annualDividend": 0,
+    "sharesOutMM": 81.4,
+    "debtMM": 1450.0,
+    "cashMM": 480.0,
+    "annualDividend": 0.0,
     "annualNoiMM": 380,
-    "annualRevenueMM": 3503,
-    "annualEbitdaMM": 519,
-    "epsTTM": 3.19,
+    "annualRevenueMM": 3850.0,
+    "annualEbitdaMM": 510.0,
+    "epsTTM": 2.64,
     "sector": "Agribusiness / Trader",
     "geography": "Poland",
     "operatingCountry": "Ukraine",
-    "annualNetIncomeMM": 268,
-    "annualFcfMM": 244,
-    "annualEquityMM": 1825.0,
+    "annualNetIncomeMM": 215.0,
+    "annualFcfMM": 290.0,
+    "annualEquityMM": 2150.0,
     "trader": {
       "rmiMM": 500,
       "throughputMtMM": 6,
@@ -2146,7 +2202,8 @@
     },
     "equityMethodInvestmentsMM": 40,
     "litigationAccrualMM": 10,
-    "nonAgricultureRevenuePct": 10
+    "nonAgricultureRevenuePct": 10,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "MHPC.L",
@@ -2154,27 +2211,28 @@
     "currency": "USD",
     "priceCurrency": "GBP",
     "primaryCrops": "Poultry, grain (Ukraine)",
-    "filingDate": "2025-04-25",
+    "filingDate": "2026-03-25",
     "filingUrl": "https://www.mhp.com.ua/en/investor-relations",
-    "sharesOutMM": 108.36,
-    "debtMM": 1450,
-    "cashMM": 286,
-    "annualDividend": 0,
+    "sharesOutMM": 108.3,
+    "debtMM": 1480.0,
+    "cashMM": 320.0,
+    "annualDividend": 0.0,
     "annualNoiMM": 270,
-    "annualRevenueMM": 3162,
-    "annualEbitdaMM": 484,
-    "epsTTM": 1.55,
+    "annualRevenueMM": 3450.0,
+    "annualEbitdaMM": 720.0,
+    "epsTTM": 2.63,
     "sector": "Protein Producer",
     "geography": "UK",
     "operatingCountry": "Ukraine",
-    "annualNetIncomeMM": 168,
-    "annualFcfMM": 220,
-    "annualEquityMM": 1085.0,
+    "annualNetIncomeMM": 285.0,
+    "annualFcfMM": 320.0,
+    "annualEquityMM": 1050.0,
     "protein": {
       "plants": 12,
       "weeklyHeadCapacity": 13500000,
       "capacityUtilizationPct": 85
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "SZU.DE",
@@ -2212,7 +2270,8 @@
     },
     "equityMethodInvestmentsMM": 200,
     "litigationAccrualMM": 60,
-    "nonAgricultureRevenuePct": 35
+    "nonAgricultureRevenuePct": 35,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "TATE.L",
@@ -2245,7 +2304,8 @@
     },
     "equityMethodInvestmentsMM": 75,
     "litigationAccrualMM": 30,
-    "nonAgricultureRevenuePct": 5
+    "nonAgricultureRevenuePct": 5,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "ABF.L",
@@ -2275,22 +2335,22 @@
     "name": "Elders Limited",
     "currency": "AUD",
     "primaryCrops": "Rural services, agency, wool, livestock",
-    "filingDate": "2024-11-13",
+    "filingDate": "2025-11-17",
     "filingUrl": "https://elders.com.au/investor-centre/",
-    "sharesOutMM": 156.82,
-    "debtMM": 489,
-    "cashMM": 71,
-    "annualDividend": 0.36,
+    "sharesOutMM": 156.8,
+    "debtMM": 520.0,
+    "cashMM": 75.0,
+    "annualDividend": 0.32,
     "annualNoiMM": 110,
-    "annualRevenueMM": 3258,
-    "annualEbitdaMM": 138,
-    "epsTTM": 0.42,
+    "annualRevenueMM": 3450.0,
+    "annualEbitdaMM": 195.0,
+    "epsTTM": 0.497,
     "sector": "Rural Services",
     "geography": "Australia",
     "operatingCountry": "Australia",
-    "annualNetIncomeMM": 65.5,
-    "annualFcfMM": 142,
-    "annualEquityMM": 985.0,
+    "annualNetIncomeMM": 78.0,
+    "annualFcfMM": 105.0,
+    "annualEquityMM": 880.0,
     "nonAgricultureRevenuePct": 20
   },
   {
@@ -2298,22 +2358,22 @@
     "name": "GrainCorp Limited",
     "currency": "AUD",
     "primaryCrops": "Grain handling, oilseeds, processing",
-    "filingDate": "2024-11-14",
+    "filingDate": "2025-11-13",
     "filingUrl": "https://www.graincorp.com.au/investor-centre",
-    "sharesOutMM": 222.58,
-    "debtMM": 540,
-    "cashMM": 295,
-    "annualDividend": 0.24,
+    "sharesOutMM": 222.4,
+    "debtMM": 410.0,
+    "cashMM": 360.0,
+    "annualDividend": 0.32,
     "annualNoiMM": 200,
-    "annualRevenueMM": 6813,
-    "annualEbitdaMM": 268,
-    "epsTTM": 0.31,
+    "annualRevenueMM": 7100.0,
+    "annualEbitdaMM": 285.0,
+    "epsTTM": 0.324,
     "sector": "Agribusiness / Trader",
     "geography": "Australia",
     "operatingCountry": "Australia",
-    "annualNetIncomeMM": 70,
-    "annualFcfMM": -25,
-    "annualEquityMM": 1200.0,
+    "annualNetIncomeMM": 72.0,
+    "annualFcfMM": 145.0,
+    "annualEquityMM": 1180.0,
     "trader": {
       "rmiMM": 1000,
       "throughputMtMM": 28,
@@ -2325,35 +2385,37 @@
     },
     "equityMethodInvestmentsMM": 30,
     "litigationAccrualMM": 15,
-    "nonAgricultureRevenuePct": 8
+    "nonAgricultureRevenuePct": 8,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "BGA.AX",
     "name": "Bega Cheese Limited",
     "currency": "AUD",
     "primaryCrops": "Dairy, cheese, branded grocery",
-    "filingDate": "2024-08-22",
+    "filingDate": "2025-08-21",
     "filingUrl": "https://begacheese.com.au/investors/",
-    "sharesOutMM": 304.94,
-    "debtMM": 290,
-    "cashMM": 81,
-    "annualDividend": 0.05,
+    "sharesOutMM": 304.2,
+    "debtMM": 280.0,
+    "cashMM": 95.0,
+    "annualDividend": 0.06,
     "annualNoiMM": 130,
-    "annualRevenueMM": 3517,
-    "annualEbitdaMM": 197,
-    "epsTTM": 0.099,
+    "annualRevenueMM": 3450.0,
+    "annualEbitdaMM": 215.0,
+    "epsTTM": 0.138,
     "sector": "Dairy / Egg Producer",
     "geography": "Australia",
     "operatingCountry": "Australia",
-    "annualNetIncomeMM": 30.2,
-    "annualFcfMM": 114,
-    "annualEquityMM": 1175.0,
+    "annualNetIncomeMM": 42.0,
+    "annualFcfMM": 110.0,
+    "annualEquityMM": 870.0,
     "dairy": {
       "milkIntakeMlitres": 750,
       "avgFarmgateMilkPrice": 8.4,
       "infantFormulaRevenuePct": 15,
       "brandedRevenuePct": 75
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "A2M.AX",
@@ -2361,26 +2423,27 @@
     "currency": "NZD",
     "priceCurrency": "AUD",
     "primaryCrops": "Infant formula, fresh milk (NZ / China)",
-    "filingDate": "2024-08-19",
+    "filingDate": "2025-08-18",
     "filingUrl": "https://thea2milkcompany.com/investor-centre/",
-    "sharesOutMM": 723.44,
-    "debtMM": 0,
-    "cashMM": 1080,
-    "annualDividend": 0,
+    "sharesOutMM": 723.5,
+    "debtMM": 0.0,
+    "cashMM": 1010.0,
+    "annualDividend": 0.085,
     "annualNoiMM": 200,
-    "annualRevenueMM": 1675,
-    "annualEbitdaMM": 235,
-    "epsTTM": 0.234,
+    "annualRevenueMM": 1810.0,
+    "annualEbitdaMM": 280.0,
+    "epsTTM": 0.242,
     "sector": "Dairy / Egg Producer",
     "geography": "New Zealand",
     "operatingCountry": "New Zealand",
-    "annualNetIncomeMM": 167.6,
-    "annualFcfMM": 218,
-    "annualEquityMM": 994.0,
+    "annualNetIncomeMM": 175.0,
+    "annualFcfMM": 195.0,
+    "annualEquityMM": 1180.0,
     "dairy": {
       "infantFormulaRevenuePct": 80,
       "brandedRevenuePct": 95
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "FDP",
@@ -2407,12 +2470,13 @@
       "plantedAreaHa": 30000,
       "ownedAreaHa": 36000,
       "leasedAreaHa": 8000,
-      "productionVolumeMT": 105000000,
       "productionUnit": "boxes_produce",
       "yieldPerHa": 42,
       "realizedPricePerUnit": 13.8,
-      "biologicalAssetsMM": 220
-    }
+      "biologicalAssetsMM": 220,
+      "productionVolume": 105000000
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "AVO",
@@ -2439,7 +2503,6 @@
       "plantedAreaHa": 36000,
       "ownedAreaHa": 4500,
       "leasedAreaHa": 8000,
-      "productionVolumeMT": 215000,
       "productionUnit": "MT_avocado",
       "yieldPerHa": 6.0,
       "realizedPricePerUnit": 2750,
@@ -2450,8 +2513,10 @@
         "nonBearingHa": 8000,
         "avgTreeAgeYears": 11,
         "replantingHaYTD": 450
-      }
-    }
+      },
+      "productionVolume": 215000
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "IPI",
@@ -2479,7 +2544,8 @@
         "potash": 380,
         "trio": 290
       }
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "SMG",
@@ -2505,7 +2571,8 @@
     "cropInputs": {
       "rdSpendPctOfRevenue": 1.2,
       "retailRevenuePct": 70
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "ANDE",
@@ -2549,7 +2616,8 @@
     },
     "equityMethodInvestmentsMM": 50,
     "litigationAccrualMM": 12,
-    "nonAgricultureRevenuePct": 15
+    "nonAgricultureRevenuePct": 15,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "LW",
@@ -2575,11 +2643,12 @@
     "integratedFarm": {
       "plantedAreaHa": 62000,
       "leasedAreaHa": 62000,
-      "productionVolumeMT": 3100000,
       "productionUnit": "MT_potato",
       "yieldPerHa": 50,
-      "realizedPricePerUnit": 285
-    }
+      "realizedPricePerUnit": 285,
+      "productionVolume": 3100000
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "MOWI.OL",
@@ -2610,7 +2679,8 @@
       "ebitPerKgNok": 18,
       "mabLicencedTonnes": 205000,
       "smoltReleasedMM": 115
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "SALM.OL",
@@ -2640,7 +2710,8 @@
       "ebitPerKgNok": 21,
       "mabLicencedTonnes": 190000,
       "smoltReleasedMM": 70
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "BAKKA.OL",
@@ -2670,7 +2741,8 @@
       "harvestVolumeKtGwt": 93,
       "mabLicencedTonnes": 70000,
       "smoltReleasedMM": 22
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "LSG.OL",
@@ -2699,7 +2771,8 @@
       "harvestVolumeKtGwt": 178,
       "ebitPerKgNok": 16,
       "mabLicencedTonnes": 205000
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "GSF.OL",
@@ -2729,7 +2802,8 @@
       "ebitPerKgNok": 5,
       "mabLicencedTonnes": 85000,
       "smoltReleasedMM": 30
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "0288.HK",
@@ -2763,7 +2837,8 @@
         "slaughterWeightKg": 110,
         "costPerKgLive": 14.5
       }
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "1117.HK",
@@ -2790,7 +2865,8 @@
     "dairy": {
       "cowHerdK": 480,
       "milkIntakeMlitres": 2100
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "0606.HK",
@@ -2825,7 +2901,8 @@
     },
     "equityMethodInvestmentsMM": 150,
     "litigationAccrualMM": 20,
-    "nonAgricultureRevenuePct": 12
+    "nonAgricultureRevenuePct": 12,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "002714.SZ",
@@ -2858,7 +2935,8 @@
         "slaughterWeightKg": 120,
         "costPerKgLive": 13.5
       }
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "000876.SZ",
@@ -2889,7 +2967,8 @@
         "slaughterWeightKg": 115,
         "costPerKgLive": 14.2
       }
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "DCMSHRIRAM.NS",
@@ -2945,7 +3024,8 @@
     },
     "equityMethodInvestmentsMM": 5,
     "litigationAccrualMM": 25,
-    "nonAgricultureRevenuePct": 5
+    "nonAgricultureRevenuePct": 5,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "BALRAMCHIN.NS",
@@ -2969,7 +3049,6 @@
     "annualFcfMM": 1100,
     "annualEquityMM": 32000,
     "integratedFarm": {
-      "productionVolumeMT": 1100000,
       "productionUnit": "MT_sugar",
       "realizedPricePerUnit": 38500,
       "biologicalAssetsMM": 85,
@@ -2980,8 +3059,10 @@
         "ethanolMixPct": 22,
         "ethanolVolumeM3": 330000,
         "cogenerationMWh": 165000
-      }
-    }
+      },
+      "productionVolume": 1100000
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "VNM.HM",
@@ -3010,7 +3091,8 @@
       "infantFormulaRevenuePct": 20,
       "brandedRevenuePct": 95,
       "coldChainDistributionPoints": 240000
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "URC.PS",
@@ -3063,49 +3145,50 @@
     "name": "Astral Foods Limited",
     "currency": "ZAR",
     "primaryCrops": "Poultry (broilers, feed) \u2014 South Africa",
-    "filingDate": "2024-11-18",
+    "filingDate": "2025-11-17",
     "filingUrl": "https://www.astralfoods.com/investors/",
-    "sharesOutMM": 39.05,
-    "debtMM": 200,
-    "cashMM": 750,
-    "annualDividend": 9.75,
+    "sharesOutMM": 38.7,
+    "debtMM": 280.0,
+    "cashMM": 510.0,
+    "annualDividend": 14.5,
     "annualNoiMM": 1100,
-    "annualRevenueMM": 22500,
-    "annualEbitdaMM": 1400,
-    "epsTTM": 22.5,
+    "annualRevenueMM": 23800.0,
+    "annualEbitdaMM": 1850.0,
+    "epsTTM": 23.77,
     "sector": "Protein Producer",
     "geography": "South Africa",
     "operatingCountry": "South Africa",
-    "annualNetIncomeMM": 880,
-    "annualFcfMM": 750,
-    "annualEquityMM": 3592.6,
+    "annualNetIncomeMM": 920.0,
+    "annualFcfMM": 1050.0,
+    "annualEquityMM": 4100.0,
     "protein": {
       "plants": 5,
       "weeklyHeadCapacity": 5500000,
       "capacityUtilizationPct": 78
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "RCL.JO",
     "name": "RCL Foods Limited",
     "currency": "ZAR",
     "primaryCrops": "Sugar, chicken, groceries, pet food (South Africa)",
-    "filingDate": "2024-08-30",
+    "filingDate": "2025-08-28",
     "filingUrl": "https://www.rclfoods.com/investors",
-    "sharesOutMM": 880,
-    "debtMM": 4800,
-    "cashMM": 1400,
-    "annualDividend": 0.65,
+    "sharesOutMM": 880.0,
+    "debtMM": 2100.0,
+    "cashMM": 850.0,
+    "annualDividend": 0.55,
     "annualNoiMM": 2000,
-    "annualRevenueMM": 36800,
-    "annualEbitdaMM": 3300,
-    "epsTTM": 1.45,
+    "annualRevenueMM": 36500.0,
+    "annualEbitdaMM": 3200.0,
+    "epsTTM": 1.31,
     "sector": "Diversified Agribusiness",
     "geography": "South Africa",
     "operatingCountry": "South Africa",
-    "annualNetIncomeMM": 1280,
-    "annualFcfMM": 1450,
-    "annualEquityMM": 8272,
+    "annualNetIncomeMM": 1150.0,
+    "annualFcfMM": 1450.0,
+    "annualEquityMM": 9800.0,
     "nonAgricultureRevenuePct": 15
   },
   {
@@ -3139,7 +3222,8 @@
     },
     "equityMethodInvestmentsMM": 60,
     "litigationAccrualMM": 15,
-    "nonAgricultureRevenuePct": 2
+    "nonAgricultureRevenuePct": 2,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "CWK.L",
@@ -3172,7 +3256,8 @@
         "slaughterWeightKg": 110,
         "costPerKgLive": 1.85
       }
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "INGR",
@@ -3206,7 +3291,8 @@
     },
     "equityMethodInvestmentsMM": 90,
     "litigationAccrualMM": 35,
-    "nonAgricultureRevenuePct": 5
+    "nonAgricultureRevenuePct": 5,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "FRPT",
@@ -3238,7 +3324,8 @@
         "acvDistributionPct": 75,
         "foodserviceMixPct": 0
       }
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "LSIP.JK",
@@ -3278,7 +3365,8 @@
       "nucleusVsPlasmaPct": 82,
       "rubberRevenueSharePct": 4,
       "ndpeCompliancePct": 95
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "SMAR.JK",
@@ -3317,7 +3405,8 @@
       "replantingHaLtm": 3500,
       "nucleusVsPlasmaPct": 80,
       "ndpeCompliancePct": 96
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "ANJT.JK",
@@ -3356,7 +3445,8 @@
       "replantingHaLtm": 1200,
       "nucleusVsPlasmaPct": 75,
       "ndpeCompliancePct": 98
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "DSNG.JK",
@@ -3395,7 +3485,8 @@
       "replantingHaLtm": 2800,
       "nucleusVsPlasmaPct": 80,
       "ndpeCompliancePct": 92
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "TBLA.JK",
@@ -3436,7 +3527,8 @@
       "sugarRevenueSharePct": 25,
       "sugarProducedMt": 220000,
       "ndpeCompliancePct": 85
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "5254.KL",
@@ -3474,7 +3566,8 @@
       "methaneCapturePctMills": 25,
       "replantingHaLtm": 700,
       "ndpeCompliancePct": 85
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "5210.KL",
@@ -3512,7 +3605,8 @@
       "methaneCapturePctMills": 60,
       "replantingHaLtm": 1500,
       "ndpeCompliancePct": 95
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "1996.KL",
@@ -3550,7 +3644,8 @@
       "methaneCapturePctMills": 35,
       "replantingHaLtm": 1000,
       "ndpeCompliancePct": 90
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "CPIN.JK",
@@ -3577,7 +3672,8 @@
     "protein": {
       "plants": 16,
       "capacityUtilizationPct": 75
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "JPFA.JK",
@@ -3604,7 +3700,8 @@
     "protein": {
       "plants": 12,
       "capacityUtilizationPct": 73
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "MAIN.JK",
@@ -3631,7 +3728,8 @@
     "protein": {
       "plants": 10,
       "capacityUtilizationPct": 72
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "INDF.JK",
@@ -3714,7 +3812,8 @@
     },
     "equityMethodInvestmentsMM": 25,
     "litigationAccrualMM": 40,
-    "nonAgricultureRevenuePct": 8
+    "nonAgricultureRevenuePct": 8,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "AGXY3.SA",
@@ -3750,7 +3849,8 @@
     },
     "equityMethodInvestmentsMM": 10,
     "litigationAccrualMM": 20,
-    "nonAgricultureRevenuePct": 3
+    "nonAgricultureRevenuePct": 3,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "TTEN3.SA",
@@ -3799,7 +3899,8 @@
     "cropInputs": {
       "rdSpendPctOfRevenue": 0.8,
       "retailRevenuePct": 15
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "PRESCO.LG",
@@ -3837,7 +3938,8 @@
       "methaneCapturePctMills": 20,
       "replantingHaLtm": 400,
       "ndpeCompliancePct": 80
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "OKOMU.LG",
@@ -3876,32 +3978,33 @@
       "replantingHaLtm": 350,
       "rubberRevenueSharePct": 15,
       "ndpeCompliancePct": 85
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "SASN.NR",
     "name": "Sasini Plc",
     "currency": "KES",
     "primaryCrops": "Tea + coffee + macadamia + dairy (Kenya)",
-    "filingDate": "2024-09-30",
+    "filingDate": "2025-12-18",
     "filingUrl": "https://www.sasini.co.ke/investor-relations/",
     "sharesOutMM": 228.06,
-    "debtMM": 1450,
-    "cashMM": 720,
+    "debtMM": 1850.0,
+    "cashMM": 420.0,
     "acresK": 79,
     "navPerShare": 38,
     "annualDividend": 0.5,
     "annualNoiMM": 600,
-    "annualRevenueMM": 5350,
-    "annualEbitdaMM": 600,
-    "epsTTM": 0.01,
+    "annualRevenueMM": 3250.0,
+    "annualEbitdaMM": 410.0,
+    "epsTTM": 0.42,
     "bookLandMM": 4250,
     "sector": "Plantation Operator",
     "geography": "Kenya",
     "operatingCountry": "Kenya",
-    "annualNetIncomeMM": 2,
-    "annualFcfMM": 180,
-    "annualEquityMM": 8665,
+    "annualNetIncomeMM": 95.0,
+    "annualFcfMM": 180.0,
+    "annualEquityMM": 6200.0,
     "tea": {
       "madeTeaProducedKgMM": 18,
       "greenLeafYieldKgPerHa": 4800,
@@ -3909,7 +4012,8 @@
       "auctionVsDirectPct": 80,
       "boughtLeafSharePct": 25,
       "teaPlantedHa": 4200
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "LIMU.NR",
@@ -3942,7 +4046,8 @@
       "auctionVsDirectPct": 85,
       "boughtLeafSharePct": 100,
       "teaPlantedHa": 1800
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "2050.SR",
@@ -3992,7 +4097,8 @@
     "annualEquityMM": 2470,
     "dairy": {
       "brandedRevenuePct": 100
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "AGR.VI",
@@ -4063,7 +4169,8 @@
         "acvDistributionPct": 88,
         "foodserviceMixPct": 15
       }
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "SM1.NZ",
@@ -4092,7 +4199,8 @@
       "milkSolidsKgMM": 74,
       "avgFarmgateMilkPrice": 8.0,
       "infantFormulaRevenuePct": 50
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "AHF.AX",
@@ -4119,7 +4227,8 @@
     "dairy": {
       "cowHerdK": 2,
       "milkIntakeMlitres": 15
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "CVGW",
@@ -4149,7 +4258,6 @@
       "plantedAreaHa": 500,
       "ownedAreaHa": 350,
       "leasedAreaHa": 150,
-      "productionVolumeMT": 4500,
       "productionUnit": "MT_avocado",
       "yieldPerHa": 9.0,
       "realizedPricePerUnit": 2950,
@@ -4160,8 +4268,10 @@
         "nonBearingHa": 80,
         "avgTreeAgeYears": 12,
         "replantingHaYTD": 15
-      }
-    }
+      },
+      "productionVolume": 4500
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "AVD",
@@ -4187,7 +4297,8 @@
     "annualEquityMM": 162.2,
     "cropInputs": {
       "rdSpendPctOfRevenue": 5.5
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "GPRE",
@@ -4228,7 +4339,8 @@
     },
     "equityMethodInvestmentsMM": 15,
     "litigationAccrualMM": 8,
-    "nonAgricultureRevenuePct": 5
+    "nonAgricultureRevenuePct": 5,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "ALTO",
@@ -4268,7 +4380,8 @@
       }
     },
     "litigationAccrualMM": 5,
-    "nonAgricultureRevenuePct": 2
+    "nonAgricultureRevenuePct": 2,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "MLP",
@@ -4299,7 +4412,8 @@
       "top10TenantPctOfRent": 45,
       "occupancyPct": 92,
       "rentIndexationType": "cpi"
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "300999.SZ",
@@ -4333,7 +4447,8 @@
     },
     "equityMethodInvestmentsMM": 80,
     "litigationAccrualMM": 10,
-    "nonAgricultureRevenuePct": 8
+    "nonAgricultureRevenuePct": 8,
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "600598.SS",
@@ -4360,12 +4475,13 @@
     "integratedFarm": {
       "plantedAreaHa": 2500000,
       "ownedAreaHa": 2500000,
-      "productionVolumeMT": 13500000,
       "productionUnit": "MT_grain",
       "yieldPerHa": 5.4,
       "realizedPricePerUnit": 2650,
-      "biologicalAssetsMM": 1850
-    }
+      "biologicalAssetsMM": 1850,
+      "productionVolume": 13500000
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "000895.SZ",
@@ -4398,7 +4514,8 @@
         "slaughterWeightKg": 110,
         "costPerKgLive": 14.8
       }
-    }
+    },
+    "sectorBlockConfidence": "estimate"
   },
   {
     "ticker": "TIPCO.BK",

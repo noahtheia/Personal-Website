@@ -8,6 +8,7 @@ import type {
   PricedFarmlandComp,
 } from "@/lib/farmland-comps";
 import { Sparkline } from "./Sparkline";
+import { tipFor } from "@/lib/farmland-glossary";
 
 const WATCHLIST_KEY = "farmland-comps-watchlist";
 
@@ -858,16 +859,25 @@ function CategorySection({
             className="sticky left-0 z-[1] bg-bg/40 px-3 py-1.5 text-left text-[10px] uppercase tracking-wider text-muted"
           >
             <span className="mr-2 font-semibold text-fg-soft">Sector KPIs</span>
-            {kpiSummary.map((k, i) => (
-              <span key={k.label} className="mr-3 inline-flex items-baseline gap-1">
-                {i > 0 && <span aria-hidden="true" className="opacity-50">·</span>}
-                <span className="text-muted">{k.label}</span>
-                <span className="font-semibold tabular-nums !text-fg">
-                  {k.value}
+            {kpiSummary.map((k, i) => {
+              const tip = tipFor(k.label);
+              return (
+                <span key={k.label} className="mr-3 inline-flex items-baseline gap-1">
+                  {i > 0 && <span aria-hidden="true" className="opacity-50">·</span>}
+                  <span
+                    className={`text-muted ${tip ? "cursor-help decoration-dotted underline-offset-2" : ""}`}
+                    style={tip ? { textDecorationLine: "underline" } : undefined}
+                    title={tip}
+                  >
+                    {k.label}
+                  </span>
+                  <span className="font-semibold tabular-nums !text-fg">
+                    {k.value}
+                  </span>
+                  <span className="text-[9px] opacity-60">({k.count}/{rows.length})</span>
                 </span>
-                <span className="text-[9px] opacity-60">({k.count}/{rows.length})</span>
-              </span>
-            ))}
+              );
+            })}
           </td>
         </tr>
       )}

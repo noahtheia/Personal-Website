@@ -135,6 +135,15 @@ const FilingSchema = z.object({
   bookLandMM: z.number().nonnegative().optional(),
   marketLandMM: z.number().positive().optional(),
 
+  // Provenance for the sector-block + extension fields. Distinguishes
+  // filing-traced values from sector-audit-cited estimates from agent
+  // recall, so the UI can flag confidence to the reader. Defaults to
+  // "estimate" when absent. The cross-universe filing core (sharesOut,
+  // debt, revenue, etc.) is assumed filing-grade regardless.
+  sectorBlockConfidence: z
+    .enum(["filing", "audit", "estimate"])
+    .optional(),
+
   // Cross-universe extensions surfaced by the multi-sector gap audit.
   // All optional. `debtMM` should hold financial debt only; preferred
   // equity is broken out so EV math can add it cleanly.
@@ -271,7 +280,11 @@ const FilingSchema = z.object({
       plantedAreaHa: z.number().nonnegative().optional(),
       ownedAreaHa: z.number().nonnegative().optional(),
       leasedAreaHa: z.number().nonnegative().optional(),
-      productionVolumeMT: z.number().nonnegative().optional(),
+      productionVolume: z.number().nonnegative().optional(),
+      // Unit string for productionVolume — values aren't always in MT
+      // (DOLE/FDP report in boxes, AAC in kg liveweight, AAC produces
+      // beef in head). Field name is unit-agnostic; this string carries
+      // the true unit.
       productionUnit: z.string().optional(),
       yieldPerHa: z.number().nonnegative().optional(),
       realizedPricePerUnit: z.number().nonnegative().optional(),

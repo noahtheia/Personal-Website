@@ -9,6 +9,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import type { PricedFarmlandComp } from "@/lib/farmland-comps";
+import { tipFor } from "@/lib/farmland-glossary";
 
 type Metric = {
   label: string;
@@ -348,7 +349,21 @@ function MetricChart({
   return (
     <div className="rounded-sm border border-rule bg-surface p-3">
       <p className="text-[10px] uppercase tracking-wider text-muted">
-        {metric.label}
+        <span
+          title={tipFor(metric.label)}
+          className={
+            tipFor(metric.label)
+              ? "cursor-help decoration-dotted underline-offset-2"
+              : ""
+          }
+          style={
+            tipFor(metric.label)
+              ? { textDecorationLine: "underline" }
+              : undefined
+          }
+        >
+          {metric.label}
+        </span>
         <span className="ml-1 opacity-60">({data.length} populated)</span>
       </p>
       <ul className="mt-2 space-y-1.5">
