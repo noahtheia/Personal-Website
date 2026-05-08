@@ -21,7 +21,10 @@
       "sharesOutMM": 41.5,
       "bookValuePerShare": 7.8,
       "dividendPerShare": 0,
-      "notes": "FY20: revenue $318.8M (+33%). Adj EBITDA $51.5M. Strong COVID-era pet adoption tailwind. Equity raise funded Ennis TX kitchens construction."
+      "notes": "FY20: revenue $318.8M (+33%). Adj EBITDA $51.5M. Strong COVID-era pet adoption tailwind. Equity raise funded Ennis TX kitchens construction.",
+      "capexMM": 0.1,
+      "daMM": 0.1,
+      "cfoMM": 1.5
     },
     {
       "endDate": "2021-12-31",
@@ -40,7 +43,10 @@
       "sharesOutMM": 43.9,
       "bookValuePerShare": 12.5,
       "dividendPerShare": 0,
-      "notes": "FY21: revenue $425.5M (+33%). Adj EBITDA $50.0M. Margin pressure from chicken / labour cost inflation + start-up costs at Ennis. Convertible notes issued ($402M)."
+      "notes": "FY21: revenue $425.5M (+33%). Adj EBITDA $50.0M. Margin pressure from chicken / labour cost inflation + start-up costs at Ennis. Convertible notes issued ($402M).",
+      "capexMM": 0.0,
+      "daMM": 0.1,
+      "cfoMM": 0.8
     },
     {
       "endDate": "2022-12-31",
@@ -59,7 +65,10 @@
       "sharesOutMM": 44.5,
       "bookValuePerShare": 11.0,
       "dividendPerShare": 0,
-      "notes": "FY22: revenue $595.2M (+40%). Adj EBITDA $11.6M (GAAP EBITDA negative \u2014 ramp losses + impairment). Trough margin year. Heavy investment in Ennis kitchens 2 + 3."
+      "notes": "FY22: revenue $595.2M (+40%). Adj EBITDA $11.6M (GAAP EBITDA negative \u2014 ramp losses + impairment). Trough margin year. Heavy investment in Ennis kitchens 2 + 3.",
+      "capexMM": 0.0,
+      "daMM": 0.1,
+      "cfoMM": 0.6
     },
     {
       "endDate": "2023-12-31",
@@ -78,7 +87,10 @@
       "sharesOutMM": 47.5,
       "bookValuePerShare": 13.2,
       "dividendPerShare": 0,
-      "notes": "FY23: revenue $766.9M (+29%). Adj EBITDA $99.1M. Margin recovery as Ennis ramped + chicken cost normalized. Reached operational scale."
+      "notes": "FY23: revenue $766.9M (+29%). Adj EBITDA $99.1M. Margin recovery as Ennis ramped + chicken cost normalized. Reached operational scale.",
+      "capexMM": 0.0,
+      "daMM": 0.0,
+      "cfoMM": 1.9
     },
     {
       "endDate": "2024-12-31",
@@ -97,7 +109,10 @@
       "sharesOutMM": 48.6,
       "bookValuePerShare": 14.4,
       "dividendPerShare": 0,
-      "notes": "FY24: revenue $975.2M (+27%). Adj EBITDA $164.4M (~17% margin \u2014 significant operating leverage). Net income positive ~$58M; EPS ~$1.20. First fully profitable year. Capex remains heavy as Ennis expansion + Bethlehem build-out continue."
+      "notes": "FY24: revenue $975.2M (+27%). Adj EBITDA $164.4M (~17% margin \u2014 significant operating leverage). Net income positive ~$58M; EPS ~$1.20. First fully profitable year. Capex remains heavy as Ennis expansion + Bethlehem build-out continue.",
+      "capexMM": 0.2,
+      "daMM": 0.0,
+      "cfoMM": -0.6
     }
   ]
 }

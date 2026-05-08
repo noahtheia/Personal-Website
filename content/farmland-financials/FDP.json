@@ -19,7 +19,10 @@
       "epsBasic": 1.03,
       "epsDiluted": 1.03,
       "dividendPerShare": 0.3,
-      "notes": "FY20 (53-week year ended Jan 1, 2021): COVID-impacted; banana segment held up while gold pineapple soft. Op income $76.5M + D&A $95.0M = EBITDA $171.5M. Net debt $525.5M (long-term debt $541.8M + current debt $0.2M \u2212 cash $16.5M)."
+      "notes": "FY20 (53-week year ended Jan 1, 2021): COVID-impacted; banana segment held up while gold pineapple soft. Op income $76.5M + D&A $95.0M = EBITDA $171.5M. Net debt $525.5M (long-term debt $541.8M + current debt $0.2M \u2212 cash $16.5M).",
+      "capexMM": 150.0,
+      "daMM": 95.0,
+      "cfoMM": 180.6
     },
     {
       "endDate": "2021-12-31",
@@ -36,7 +39,10 @@
       "epsBasic": 1.68,
       "epsDiluted": 1.68,
       "dividendPerShare": 0.5,
-      "notes": "FY21: revenue +1.2% YoY on banana price recovery and pineapple gold inflation. Op income $111.0M + D&A $96.8M = EBITDA $207.8M. Net debt $512.9M."
+      "notes": "FY21: revenue +1.2% YoY on banana price recovery and pineapple gold inflation. Op income $111.0M + D&A $96.8M = EBITDA $207.8M. Net debt $512.9M.",
+      "capexMM": 98.5,
+      "daMM": 96.8,
+      "cfoMM": 128.5
     },
     {
       "endDate": "2022-12-30",
@@ -53,7 +59,10 @@
       "epsBasic": 2.06,
       "epsDiluted": 2.06,
       "dividendPerShare": 0.6,
-      "notes": "FY22: revenue +4.5% YoY on banana inflation pass-through; record net income $98.6M. Op income $156.3M + D&A $92.5M = EBITDA $248.8M."
+      "notes": "FY22: revenue +4.5% YoY on banana inflation pass-through; record net income $98.6M. Op income $156.3M + D&A $92.5M = EBITDA $248.8M.",
+      "capexMM": 48.1,
+      "daMM": 92.5,
+      "cfoMM": 61.8
     },
     {
       "endDate": "2023-12-29",
@@ -70,7 +79,10 @@
       "epsBasic": -0.24,
       "epsDiluted": -0.24,
       "dividendPerShare": 0.75,
-      "notes": "FY23: revenue \u22122.7% YoY; closed Mann Packing fresh-cut vegetable operations (Salinas, CA, $54M one-time charge) and incurred Jordan operations write-down. Op income $58.5M + D&A $84.8M = EBITDA $143.3M. Net loss \u2212$11.4M after impairments. Net debt fell to $373.7M."
+      "notes": "FY23: revenue \u22122.7% YoY; closed Mann Packing fresh-cut vegetable operations (Salinas, CA, $54M one-time charge) and incurred Jordan operations write-down. Op income $58.5M + D&A $84.8M = EBITDA $143.3M. Net loss \u2212$11.4M after impairments. Net debt fell to $373.7M.",
+      "capexMM": 57.7,
+      "daMM": 84.8,
+      "cfoMM": 177.9
     },
     {
       "endDate": "2024-12-27",
@@ -87,7 +99,10 @@
       "epsBasic": 2.97,
       "epsDiluted": 2.96,
       "dividendPerShare": 1.0,
-      "notes": "FY24: record EBITDA $274.8M (op income $196.3M + D&A $78.5M). Net income $142.2M, EPS $2.97. Net debt slashed to $217.8M (-42% YoY) on FCF + asset sales (Mann property monetization). Pineapple segment volumes up, banana margins recovered."
+      "notes": "FY24: record EBITDA $274.8M (op income $196.3M + D&A $78.5M). Net income $142.2M, EPS $2.97. Net debt slashed to $217.8M (-42% YoY) on FCF + asset sales (Mann property monetization). Pineapple segment volumes up, banana margins recovered.",
+      "capexMM": 51.7,
+      "daMM": 78.5,
+      "cfoMM": 182.5
     },
     {
       "endDate": "2025-12-26",
@@ -104,7 +119,10 @@
       "epsBasic": 1.9,
       "epsDiluted": 1.88,
       "dividendPerShare": 1.2,
-      "notes": "FY25: revenue +1.0% YoY at $4.32B; op income $137.4M + D&A $72.5M = EBITDA $209.9M. Net income $90.7M, EPS $1.90. Net debt $142.0M \u2014 lowest in 8+ years (debt down to $177.7M from peak ~$725M FY18). Dividend raised to $1.20/share (+20%)."
+      "notes": "FY25: revenue +1.0% YoY at $4.32B; op income $137.4M + D&A $72.5M = EBITDA $209.9M. Net income $90.7M, EPS $1.90. Net debt $142.0M \u2014 lowest in 8+ years (debt down to $177.7M from peak ~$725M FY18). Dividend raised to $1.20/share (+20%).",
+      "capexMM": 63.8,
+      "daMM": 72.5,
+      "cfoMM": 245.1
     }
   ]
 }

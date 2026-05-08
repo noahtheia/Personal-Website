@@ -117,7 +117,10 @@
       "totalAcresK": 705,
       "epsBasic": -0.24,
       "notes": "FY15: Revenue $819.5M, Adj EBITDA $248M (sugar/ethanol scale). Argentine FX drag. Source: 2015 20-F",
-      "bookValuePerShare": 7.57
+      "bookValuePerShare": 7.57,
+      "capexMM": 141.5,
+      "daMM": 90.5,
+      "cfoMM": 145.2
     },
     {
       "endDate": "2016-12-31",
@@ -140,7 +143,10 @@
       "totalAcresK": 692,
       "epsBasic": 0.66,
       "notes": "FY16: Revenue $882.4M, Adj EBITDA $326.7M (record year \u2014 sugar prices + ethanol parity). First sustained profitable year post-IPO. Source: 2016 20-F",
-      "bookValuePerShare": 8
+      "bookValuePerShare": 8,
+      "capexMM": 132.4,
+      "daMM": 109.2,
+      "cfoMM": 255.4
     },
     {
       "endDate": "2017-12-31",
@@ -163,7 +169,10 @@
       "totalAcresK": 692,
       "epsBasic": 0.33,
       "notes": "FY17: Revenue $882.5M, Adj EBITDA $257.3M. Sugar prices softened from 2016 highs. Source: 2017 20-F",
-      "bookValuePerShare": 8.28
+      "bookValuePerShare": 8.28,
+      "capexMM": 198.6,
+      "daMM": 127.2,
+      "cfoMM": 237.1
     },
     {
       "endDate": "2018-12-31",
@@ -186,7 +195,10 @@
       "totalAcresK": 631,
       "epsBasic": -0.2,
       "notes": "FY18: Revenue $869.9M, Adj EBITDA $263.7M. Net loss on Argentine peso 50% devaluation (hyperinflation). Began farm-disposition cycle. Source: 2018 20-F",
-      "bookValuePerShare": 7.91
+      "bookValuePerShare": 7.91,
+      "capexMM": 207.1,
+      "daMM": 127.6,
+      "cfoMM": 218.5
     },
     {
       "endDate": "2019-12-31",
@@ -210,7 +222,10 @@
       "totalAcresK": 593.7,
       "epsBasic": 0.28,
       "notes": "FY19: Revenue $808.6M, Adj EBITDA $311.5M. Final pre-COVID baseline year. Cushman Sep-2019 land FV $763.4M. Source: 2019 20-F",
-      "bookValuePerShare": 6.82
+      "bookValuePerShare": 6.82,
+      "capexMM": 252.4,
+      "daMM": 140.7,
+      "cfoMM": 322.1
     },
     {
       "endDate": "2020-03-31",
@@ -326,7 +341,10 @@
       "navPerShare": 6.46,
       "epsBasic": -0.15,
       "notes": "FY20: Adj EBITDA $282.9M (-9% YoY). Net loss $17.6M from FX. Cushman Sep-2020 farmland $808.5M",
-      "bookValuePerShare": 6.46
+      "bookValuePerShare": 6.46,
+      "capexMM": 168.5,
+      "daMM": 114.4,
+      "cfoMM": 257.1
     },
     {
       "endDate": "2021-03-31",
@@ -444,7 +462,10 @@
       "dividendPerShare": 0.27,
       "dividendPaidMM": 31.5,
       "notes": "FY21: revenue $1.065B, Adj EBITDA $403M (+42% YoY), net income $136.1M. First post-COVID full recovery year",
-      "bookValuePerShare": 7.55
+      "bookValuePerShare": 7.55,
+      "capexMM": 199.3,
+      "daMM": 134.5,
+      "cfoMM": 348.7
     },
     {
       "endDate": "2022-03-31",
@@ -562,7 +583,10 @@
       "dividendPerShare": 0.46,
       "dividendPaidMM": 52,
       "notes": "FY22 record: revenue $1.459B, Adj EBITDA $579M (+44% YoY), net income $243.5M. Largest full-year dividend program. Key drivers: sugar >US$0.20/lb, ethanol Brazil parity, corn $7+/bu",
-      "bookValuePerShare": 9.32
+      "bookValuePerShare": 9.32,
+      "capexMM": 217.8,
+      "daMM": 155.8,
+      "cfoMM": 370.0
     },
     {
       "endDate": "2023-03-31",
@@ -680,7 +704,10 @@
       "dividendPerShare": 0.84,
       "dividendPaidMM": 86,
       "notes": "FY23: revenue $1.438B, Adj EBITDA $547.8M, El Meridiano $90M sale closed Q4. $86M dividend + $24M buyback returned",
-      "bookValuePerShare": 11.3
+      "bookValuePerShare": 11.3,
+      "capexMM": 241.6,
+      "daMM": 158.1,
+      "cfoMM": 434.9
     },
     {
       "endDate": "2024-03-31",
@@ -798,7 +825,10 @@
       "dividendPaidMM": 102,
       "dividendPerShare": 1,
       "notes": "FY24: revenue $1.530B, Adj EBITDA $444M (-19% YoY on Brazil drought + sugar price compression). $102M shareholder distribution. Net debt step-up reflects rolling capex + sugar working capital",
-      "bookValuePerShare": 12.9
+      "bookValuePerShare": 12.9,
+      "capexMM": 260.2,
+      "daMM": 189.2,
+      "cfoMM": 328.3
     },
     {
       "endDate": "2025-03-31",

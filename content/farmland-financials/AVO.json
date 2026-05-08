@@ -17,7 +17,10 @@
       "sharesOutMM": 70.63,
       "epsBasic": 0.64,
       "epsDiluted": 0.64,
-      "notes": "FY21 (year ended Oct 31, 2021): post-IPO first full year. Revenue $891.7M; op income $60.9M + D&A $20.4M = EBITDA $81.3M. Net debt $79.4M. Per-pound avocado pricing strong in late FY21."
+      "notes": "FY21 (year ended Oct 31, 2021): post-IPO first full year. Revenue $891.7M; op income $60.9M + D&A $20.4M = EBITDA $81.3M. Net debt $79.4M. Per-pound avocado pricing strong in late FY21.",
+      "capexMM": 73.4,
+      "daMM": 20.4,
+      "cfoMM": 47.0
     },
     {
       "endDate": "2022-10-31",
@@ -32,7 +35,10 @@
       "sharesOutMM": 70.67,
       "epsBasic": -0.49,
       "epsDiluted": -0.49,
-      "notes": "FY22: revenue +17% on Mexican price spike but op loss \u2212$37.2M (Peru smaller harvest, abrupt avocado price collapse Q4). EBITDA \u2212$12.4M. Net loss \u2212$34.6M, EPS \u2212$0.49. Wettest pivot year of cycle."
+      "notes": "FY22: revenue +17% on Mexican price spike but op loss \u2212$37.2M (Peru smaller harvest, abrupt avocado price collapse Q4). EBITDA \u2212$12.4M. Net loss \u2212$34.6M, EPS \u2212$0.49. Wettest pivot year of cycle.",
+      "capexMM": 61.2,
+      "daMM": 24.8,
+      "cfoMM": 35.2
     },
     {
       "endDate": "2023-10-31",
@@ -47,7 +53,10 @@
       "sharesOutMM": 70.73,
       "epsBasic": -0.04,
       "epsDiluted": -0.04,
-      "notes": "FY23: revenue \u22129% YoY ($953.9M). Op income $6.9M + D&A $32.8M = EBITDA $39.7M (recovery vs FY22 disaster). Net loss \u2212$2.8M. Mango segment launched."
+      "notes": "FY23: revenue \u22129% YoY ($953.9M). Op income $6.9M + D&A $32.8M = EBITDA $39.7M (recovery vs FY22 disaster). Net loss \u2212$2.8M. Mango segment launched.",
+      "capexMM": 49.8,
+      "daMM": 32.8,
+      "cfoMM": 29.2
     },
     {
       "endDate": "2024-10-31",
@@ -62,7 +71,10 @@
       "sharesOutMM": 70.91,
       "epsBasic": 0.52,
       "epsDiluted": 0.52,
-      "notes": "FY24: revenue +29% to $1.23B on Mexico avocado per-lb price inflation + Peru recovery. EBITDA $103.4M (op income $65.7M + D&A $37.7M). Net income $36.7M, EPS $0.52. Net debt down to $55.7M. First Peru blueberry harvest contributed."
+      "notes": "FY24: revenue +29% to $1.23B on Mexico avocado per-lb price inflation + Peru recovery. EBITDA $103.4M (op income $65.7M + D&A $37.7M). Net income $36.7M, EPS $0.52. Net debt down to $55.7M. First Peru blueberry harvest contributed.",
+      "capexMM": 32.2,
+      "daMM": 37.7,
+      "cfoMM": 93.4
     },
     {
       "endDate": "2025-10-31",
@@ -77,7 +89,10 @@
       "sharesOutMM": 70.57,
       "epsBasic": 0.53,
       "epsDiluted": 0.53,
-      "notes": "FY25: record revenue $1.39B (+13% YoY) on volume growth & favorable pricing. Op income $65.2M + D&A $34.6M = EBITDA $99.8M. Net income $37.7M, EPS $0.53. Net debt $31.0M, lowest since IPO. Blueberry segment scaling."
+      "notes": "FY25: record revenue $1.39B (+13% YoY) on volume growth & favorable pricing. Op income $65.2M + D&A $34.6M = EBITDA $99.8M. Net income $37.7M, EPS $0.53. Net debt $31.0M, lowest since IPO. Blueberry segment scaling.",
+      "capexMM": 51.4,
+      "daMM": 34.6,
+      "cfoMM": 88.6
     }
   ]
 }
