@@ -290,8 +290,24 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         priceInFiling !== null && priceInFiling > 0
           ? (f.annualDividend / priceInFiling) * 100
           : null;
+      // Cap rate is only a meaningful metric for issuers whose
+      // productive asset is land they own — REITs, integrated farm
+      // operators, plantation operators, pastoral/livestock outfits.
+      // For processors / traders / aquaculture / crop-inputs, NOI ÷
+      // EV is just an EBITDA-yield proxy and would mislead readers
+      // who expect a real-estate-style cap rate.
+      const LAND_OWNING_SECTORS: ReadonlySet<Sector> = new Set([
+        "Farmland Owner / REIT",
+        "Integrated Farm Operator",
+        "Plantation Operator",
+        "Pastoral / Livestock",
+      ]);
+      const isLandOwner = LAND_OWNING_SECTORS.has(f.sector);
       const evCapRate =
-        evLocal !== null && evLocal > 0
+        isLandOwner &&
+        evLocal !== null &&
+        evLocal > 0 &&
+        f.annualNoiMM > 0
           ? (f.annualNoiMM / evLocal) * 100
           : null;
       const ebitdaMargin =
