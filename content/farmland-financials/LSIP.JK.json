@@ -112,6 +112,86 @@
       "cfoMM": 1640000
     },
     {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 1230000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 1050000,
+        "Rubber / seeds / other": 180000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 920000,
+        "G&A": 58000,
+        "Selling": 44000,
+        "D&A": 99000
+      },
+      "ebitdaMM": 320000,
+      "netIncomeMM": 195000,
+      "netDebtMM": -2600000,
+      "sharesOutMM": 6823,
+      "notes": "Q1 2022: revenue Rp1.23T on peak CPO ASP."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 1280000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 1095000,
+        "Rubber / seeds / other": 185000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 960000,
+        "G&A": 60000,
+        "Selling": 46000,
+        "D&A": 99000
+      },
+      "ebitdaMM": 330000,
+      "netIncomeMM": 195000,
+      "netDebtMM": -2620000,
+      "sharesOutMM": 6823,
+      "notes": "Q2 2022: revenue Rp1.28T; export ban + DMO compressed margins."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 1180000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 1010000,
+        "Rubber / seeds / other": 170000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 890000,
+        "G&A": 56000,
+        "Selling": 43000,
+        "D&A": 98000
+      },
+      "ebitdaMM": 280000,
+      "netIncomeMM": 145000,
+      "netDebtMM": -2630000,
+      "sharesOutMM": 6823,
+      "notes": "Q3 2022: revenue Rp1.18T."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 1170000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 995000,
+        "Rubber / seeds / other": 175000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 880000,
+        "G&A": 56000,
+        "Selling": 42000,
+        "D&A": 99000
+      },
+      "ebitdaMM": 300000,
+      "netIncomeMM": 151000,
+      "netDebtMM": -2650000,
+      "sharesOutMM": 6823,
+      "notes": "Q4 2022: revenue Rp1.17T."
+    },
+    {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 4860000,
@@ -150,6 +230,86 @@
       "cfoMM": 1380000
     },
     {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 1090000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 930000,
+        "Rubber / seeds / other": 160000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 880000,
+        "G&A": 56000,
+        "Selling": 41000,
+        "D&A": 100000
+      },
+      "ebitdaMM": 195000,
+      "netIncomeMM": 86000,
+      "netDebtMM": -2580000,
+      "sharesOutMM": 6823,
+      "notes": "Q1 2023: revenue Rp1.09T."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 1100000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 940000,
+        "Rubber / seeds / other": 160000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 887000,
+        "G&A": 57000,
+        "Selling": 42000,
+        "D&A": 101000
+      },
+      "ebitdaMM": 195000,
+      "netIncomeMM": 88000,
+      "netDebtMM": -2560000,
+      "sharesOutMM": 6823,
+      "notes": "Q2 2023: revenue Rp1.10T."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 1080000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 922000,
+        "Rubber / seeds / other": 158000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 870000,
+        "G&A": 56000,
+        "Selling": 41000,
+        "D&A": 102000
+      },
+      "ebitdaMM": 185000,
+      "netIncomeMM": 80000,
+      "netDebtMM": -2550000,
+      "sharesOutMM": 6823,
+      "notes": "Q3 2023: revenue Rp1.08T."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 1110000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 948000,
+        "Rubber / seeds / other": 162000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 893000,
+        "G&A": 56000,
+        "Selling": 41000,
+        "D&A": 102000
+      },
+      "ebitdaMM": 195000,
+      "netIncomeMM": 89000,
+      "netDebtMM": -2535000,
+      "sharesOutMM": 6823,
+      "notes": "Q4 2023: revenue Rp1.11T."
+    },
+    {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 4380000,
@@ -186,6 +346,86 @@
       "capexMM": 620000,
       "daMM": 320000,
       "cfoMM": 880000
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 1210000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 1035000,
+        "Rubber / seeds / other": 175000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 905000,
+        "G&A": 59000,
+        "Selling": 43000,
+        "D&A": 103000
+      },
+      "ebitdaMM": 290000,
+      "netIncomeMM": 155000,
+      "netDebtMM": -2700000,
+      "sharesOutMM": 6823,
+      "notes": "Q1 2024: revenue Rp1.21T on CPO recovery."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 1245000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 1065000,
+        "Rubber / seeds / other": 180000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 930000,
+        "G&A": 60000,
+        "Selling": 44000,
+        "D&A": 103000
+      },
+      "ebitdaMM": 300000,
+      "netIncomeMM": 165000,
+      "netDebtMM": -2740000,
+      "sharesOutMM": 6823,
+      "notes": "Q2 2024: revenue Rp1.25T."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 1215000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 1040000,
+        "Rubber / seeds / other": 175000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 910000,
+        "G&A": 60000,
+        "Selling": 43000,
+        "D&A": 104000
+      },
+      "ebitdaMM": 290000,
+      "netIncomeMM": 158000,
+      "netDebtMM": -2760000,
+      "sharesOutMM": 6823,
+      "notes": "Q3 2024: revenue Rp1.22T."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 1250000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 1065000,
+        "Rubber / seeds / other": 185000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 935000,
+        "G&A": 61000,
+        "Selling": 45000,
+        "D&A": 105000
+      },
+      "ebitdaMM": 300000,
+      "netIncomeMM": 164000,
+      "netDebtMM": -2780000,
+      "sharesOutMM": 6823,
+      "notes": "Q4 2024: revenue Rp1.25T; net income Rp164B."
     },
     {
       "endDate": "2024-12-31",

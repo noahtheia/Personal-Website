@@ -141,6 +141,94 @@
       "capexMM": 78,
       "daMM": 78,
       "cfoMM": 250
+    },
+    {
+      "endDate": "2020-09-30",
+      "periodType": "H",
+      "revenueMM": 1380,
+      "ebitdaMM": 215,
+      "netIncomeMM": 110,
+      "sharesOutMM": 466,
+      "netDebtMM": 250,
+      "notes": "H1 FY20/21 (Apr-Sep 2020): revenue £1.38B, EBITDA £215M."
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "H",
+      "revenueMM": 770,
+      "ebitdaMM": 155,
+      "netIncomeMM": 90,
+      "sharesOutMM": 466,
+      "netDebtMM": -250,
+      "notes": "H1 FY21/22 (Apr-Sep 2021, post-Primient sale Apr 2022 — proforma continuing ops): revenue £770M, EBITDA £155M."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "H",
+      "revenueMM": 880,
+      "ebitdaMM": 175,
+      "netIncomeMM": 100,
+      "sharesOutMM": 469,
+      "netDebtMM": -10,
+      "notes": "H1 FY22/23 (Apr-Sep 2022): revenue £880M, EBITDA £175M."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "H",
+      "revenueMM": 836,
+      "ebitdaMM": 154,
+      "netIncomeMM": 70,
+      "sharesOutMM": 451,
+      "netDebtMM": 250,
+      "notes": "H1 FY23/24 (Apr-Sep 2023): revenue £836M, EBITDA £154M."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "H",
+      "revenueMM": 808,
+      "ebitdaMM": 184,
+      "netIncomeMM": 88,
+      "sharesOutMM": 451,
+      "netDebtMM": 480,
+      "notes": "H1 FY24/25 (Apr-Sep 2024): revenue £808M, EBITDA £184M. CP Kelco closes Nov 2024."
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "FY",
+      "revenueMM": 1652,
+      "revenueBySegmentMM": {
+        "Food & Beverage Solutions": 1110,
+        "Sucralose": 100,
+        "CP Kelco (acquired Nov 2024)": 442
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1100,
+        "SG&A": 230,
+        "D&A": 95,
+        "Other": -83
+      },
+      "ebitdaMM": 310,
+      "netIncomeMM": 80,
+      "totalDebtMM": 1410,
+      "cashMM": 285,
+      "netDebtMM": 1125,
+      "sharesOutMM": 451,
+      "epsBasic": 0.18,
+      "dividendPerShare": 0.197,
+      "notes": "FY24/25 (Mar-25): revenue £1.65B reflects CP Kelco partial-year. Net debt jumped to £1.13B post-acquisition.",
+      "capexMM": 110,
+      "daMM": 95,
+      "cfoMM": 230
+    },
+    {
+      "endDate": "2025-09-30",
+      "periodType": "H",
+      "revenueMM": 925,
+      "ebitdaMM": 195,
+      "netIncomeMM": 60,
+      "sharesOutMM": 451,
+      "netDebtMM": 1090,
+      "notes": "H1 FY25/26 (Apr-Sep 2025): revenue £925M, EBITDA £195M with full CP Kelco."
     }
   ]
 }

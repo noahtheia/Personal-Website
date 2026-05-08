@@ -15,6 +15,12 @@
         "Agriculture": 1390,
         "Ingredients": 1525
       },
+      "expensesBySegmentMM": {
+        "COGS": 10500,
+        "SG&A": 2400,
+        "D&A": 763,
+        "Other": -1200
+      },
       "ebitdaMM": 1474,
       "netIncomeMM": 686,
       "totalDebtMM": 2960,
@@ -38,6 +44,12 @@
         "Grocery": 3582,
         "Agriculture": 1477,
         "Ingredients": 1590
+      },
+      "expensesBySegmentMM": {
+        "COGS": 9700,
+        "SG&A": 2300,
+        "D&A": 750,
+        "Other": -795
       },
       "ebitdaMM": 1929,
       "netIncomeMM": 725,
