@@ -1,37 +1,127 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { MultipleSeries } from "@/lib/farmland-multiples-history";
+import type {
+  Cadence,
+  MultipleSeries,
+} from "@/lib/farmland-multiples-history";
 
 const W = 760;
 const H = 380;
 const PAD = { top: 24, right: 32, bottom: 48, left: 80 };
 
+const SECTOR_PALETTE = [
+  "#0a3d62", "#27ae60", "#d35400", "#c0392b", "#7d3c98",
+  "#16a085", "#e67e22", "#2980b9", "#a93226", "#5d6d7e",
+  "#8b4513",
+];
+
 export function FarmlandMultiplesHistory({
-  series,
+  fy,
+  q,
 }: {
-  series: MultipleSeries[];
+  fy: MultipleSeries[];
+  q: MultipleSeries[];
 }) {
+  const [cadence, setCadence] = useState<Cadence>("FY");
   const [activeMetric, setActiveMetric] = useState<string>(
-    series[0]?.metric ?? "",
+    fy[0]?.metric ?? "",
   );
   const [showSectors, setShowSectors] = useState(false);
-  const [hover, setHover] = useState<{ year: number; label?: string } | null>(
-    null,
+  const [excludedSectors, setExcludedSectors] = useState<Set<string>>(
+    new Set(),
   );
+  const [hover, setHover] = useState<string | null>(null);
 
+  const series = cadence === "FY" ? fy : q;
   const active = series.find((s) => s.metric === activeMetric) ?? series[0];
 
-  // Trim leading years where the cohort is too small to be meaningful
+  // Trim leading buckets where the cohort is too small to be useful.
   const minCount = 5;
-  const points = useMemo(() => {
+  const allPoints = useMemo(() => {
     if (!active) return [];
     return active.points.filter((p) => p.count >= minCount);
   }, [active]);
 
+  // Categories from the (cohort-wide) bySector keys, sorted by mean
+  // count across buckets.
+  const sectors = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const p of allPoints) {
+      if (!p.bySector) continue;
+      for (const [s, v] of Object.entries(p.bySector)) {
+        if (v !== null) counts.set(s, (counts.get(s) ?? 0) + 1);
+      }
+    }
+    return Array.from(counts.entries())
+      .sort((a, b) => b[1] - a[1])
+      .map(([k]) => k);
+  }, [allPoints]);
+
+  // Apply sector exclusion to recompute median / IQR. When a sector is
+  // excluded, drop its entries from the per-bucket sample set.
+  const points = useMemo(() => {
+    if (!active) return [];
+    if (excludedSectors.size === 0) return allPoints;
+    return allPoints.map((p) => {
+      // Rebuild from bySector contributions: take the included
+      // sectors' median values as a per-sector approximation, then
+      // compute median/IQR across the included sectors.
+      const includedVals: number[] = [];
+      const includedBySector: Record<string, number | null> = {};
+      if (p.bySector) {
+        for (const [s, v] of Object.entries(p.bySector)) {
+          if (excludedSectors.has(s)) continue;
+          if (v !== null) includedVals.push(v);
+          includedBySector[s] = v;
+        }
+      }
+      if (includedVals.length === 0) {
+        return { ...p, median: null, p25: null, p75: null, count: 0, bySector: includedBySector };
+      }
+      const sorted = [...includedVals].sort((a, b) => a - b);
+      return {
+        ...p,
+        median: quantile(sorted, 0.5),
+        p25: quantile(sorted, 0.25),
+        p75: quantile(sorted, 0.75),
+        count: sorted.length,
+        bySector: includedBySector,
+      };
+    });
+  }, [active, allPoints, excludedSectors]);
+
+  const sectorColor = useMemo(() => {
+    const m = new Map<string, string>();
+    sectors.forEach((s, i) => m.set(s, SECTOR_PALETTE[i % SECTOR_PALETTE.length]));
+    return m;
+  }, [sectors]);
+
+  function toggleSector(s: string) {
+    setExcludedSectors((cur) => {
+      const next = new Set(cur);
+      if (next.has(s)) next.delete(s);
+      else next.add(s);
+      return next;
+    });
+  }
+  function showOnly(s: string) {
+    setExcludedSectors(new Set(sectors.filter((k) => k !== s)));
+  }
+  function showAll() {
+    setExcludedSectors(new Set());
+  }
+
+  const visiblePts = points.filter((p) => p.median !== null);
   const innerW = W - PAD.left - PAD.right;
   const innerH = H - PAD.top - PAD.bottom;
 
+  // X-axis: dates.
+  const xMin = visiblePts.length ? toMs(visiblePts[0].date) : 0;
+  const xMax = visiblePts.length ? toMs(visiblePts[visiblePts.length - 1].date) : 1;
+  const xSpan = Math.max(1, xMax - xMin);
+
+  // Y range — values from median + IQR + (when toggled) per-sector lines
   const allValues: number[] = [];
   for (const p of points) {
     if (p.median !== null) allValues.push(p.median);
@@ -48,26 +138,24 @@ export function FarmlandMultiplesHistory({
   const yPad = (yMax - yMin) * 0.1 || 1;
   const yLo = yMin - yPad;
   const yHi = yMax + yPad;
-  const yearMin = points[0]?.year ?? 2020;
-  const yearMax = points[points.length - 1]?.year ?? 2024;
 
-  const xOf = (year: number) =>
-    PAD.left +
-    ((year - yearMin) / Math.max(1, yearMax - yearMin)) * innerW;
+  const xOf = (ms: number) =>
+    PAD.left + ((ms - xMin) / xSpan) * innerW;
   const yOf = (v: number) =>
     PAD.top + (1 - (v - yLo) / Math.max(1e-9, yHi - yLo)) * innerH;
 
-  // Pretty year ticks
-  const yearTicks = useMemo(() => {
-    const span = yearMax - yearMin;
-    if (span <= 0) return [yearMin];
+  const xTicks = useMemo(() => {
+    if (!active || visiblePts.length === 0) return [];
+    const startYear = new Date(visiblePts[0].date).getUTCFullYear();
+    const endYear = new Date(visiblePts[visiblePts.length - 1].date).getUTCFullYear();
+    const span = endYear - startYear;
     const step = span > 20 ? 5 : span > 10 ? 2 : 1;
-    const out: number[] = [];
-    for (let y = Math.ceil(yearMin / step) * step; y <= yearMax; y += step) {
-      out.push(y);
+    const out: { ms: number; label: string }[] = [];
+    for (let y = Math.ceil(startYear / step) * step; y <= endYear; y += step) {
+      out.push({ ms: Date.UTC(y, 0, 1), label: String(y) });
     }
     return out;
-  }, [yearMin, yearMax]);
+  }, [active, visiblePts]);
 
   const yTicks = useMemo(() => {
     const span = yHi - yLo;
@@ -79,43 +167,18 @@ export function FarmlandMultiplesHistory({
     return out;
   }, [yLo, yHi]);
 
-  // Sector palette
-  const sectorPalette = [
-    "#0a3d62", "#27ae60", "#d35400", "#c0392b", "#7d3c98",
-    "#16a085", "#e67e22", "#2980b9", "#a93226", "#5d6d7e",
-    "#8b4513",
-  ];
-  const sectors = useMemo(() => {
-    const set = new Set<string>();
-    for (const p of points) {
-      if (p.bySector) for (const k of Object.keys(p.bySector)) set.add(k);
-    }
-    return Array.from(set).sort();
-  }, [points]);
-  const sectorColor = useMemo(() => {
-    const map = new Map<string, string>();
-    sectors.forEach((s, i) =>
-      map.set(s, sectorPalette[i % sectorPalette.length]),
-    );
-    return map;
-  }, [sectors]);
-
-  function pathFromPoints(
-    pts: { year: number; v: number | null }[],
-  ): string {
+  function pathFromPoints(pts: { x: number; y: number | null }[]): string {
     let started = false;
     let d = "";
     for (const p of pts) {
-      if (p.v === null) continue;
-      const x = xOf(p.year).toFixed(1);
-      const y = yOf(p.v).toFixed(1);
-      d += `${started ? "L" : "M"}${x},${y} `;
+      if (p.y === null) continue;
+      d += `${started ? "L" : "M"}${p.x.toFixed(1)},${p.y.toFixed(1)} `;
       started = true;
     }
     return d.trim();
   }
 
-  if (!active || points.length === 0) {
+  if (!active || visiblePts.length === 0) {
     return null;
   }
 
@@ -126,9 +189,12 @@ export function FarmlandMultiplesHistory({
           Multiples & margins history
         </h2>
         <p className="text-xs text-muted">
-          Cohort {showSectors ? "by sector" : "median + IQR"} across{" "}
-          {points[0]?.count}-{points[points.length - 1]?.count} tickers per
-          year
+          Cohort {showSectors ? "by sector" : "median + IQR"} ·{" "}
+          {visiblePts[0]?.count}-{visiblePts[visiblePts.length - 1]?.count}{" "}
+          tickers per {cadence === "FY" ? "year" : "quarter"}
+          {excludedSectors.size > 0
+            ? ` · ${excludedSectors.size} sector${excludedSectors.size === 1 ? "" : "s"} hidden`
+            : ""}
         </p>
       </div>
 
@@ -149,6 +215,26 @@ export function FarmlandMultiplesHistory({
               {s.label}
             </button>
           ))}
+        </div>
+        <div className="flex gap-1">
+          {(["FY", "Q"] as Cadence[]).map((c) => {
+            const on = cadence === c;
+            return (
+              <button
+                key={c}
+                type="button"
+                onClick={() => setCadence(c)}
+                aria-pressed={on}
+                className={`rounded-sm border px-2.5 py-1 text-xs transition-colors ${
+                  on
+                    ? "border-accent bg-accent !text-bg"
+                    : "border-rule bg-surface !text-fg hover:border-accent hover:!text-accent"
+                }`}
+              >
+                {c === "FY" ? "Annual" : "Quarterly"}
+              </button>
+            );
+          })}
         </div>
         <label className="flex items-center gap-2 text-xs">
           <input
@@ -187,16 +273,16 @@ export function FarmlandMultiplesHistory({
             </g>
           ))}
           {/* X labels */}
-          {yearTicks.map((y) => (
+          {xTicks.map((t) => (
             <text
-              key={`x-${y}`}
-              x={xOf(y)}
+              key={t.label}
+              x={xOf(t.ms)}
               y={H - PAD.bottom + 14}
               textAnchor="middle"
               fontSize="10"
               fill="var(--muted)"
             >
-              {y}
+              {t.label}
             </text>
           ))}
           {/* IQR band (when not showing sectors) */}
@@ -204,23 +290,21 @@ export function FarmlandMultiplesHistory({
             <>
               <path
                 d={
-                  // Forward p75
-                  points
+                  visiblePts
                     .filter((p) => p.p75 !== null)
                     .map(
                       (p, i) =>
-                        `${i === 0 ? "M" : "L"}${xOf(p.year).toFixed(1)},${yOf(p.p75 as number).toFixed(1)}`,
+                        `${i === 0 ? "M" : "L"}${xOf(toMs(p.date)).toFixed(1)},${yOf(p.p75 as number).toFixed(1)}`,
                     )
                     .join(" ") +
                   " " +
-                  // Backward p25
-                  points
+                  visiblePts
                     .slice()
                     .reverse()
                     .filter((p) => p.p25 !== null)
                     .map(
                       (p) =>
-                        `L${xOf(p.year).toFixed(1)},${yOf(p.p25 as number).toFixed(1)}`,
+                        `L${xOf(toMs(p.date)).toFixed(1)},${yOf(p.p25 as number).toFixed(1)}`,
                     )
                     .join(" ") +
                   " Z"
@@ -230,23 +314,24 @@ export function FarmlandMultiplesHistory({
               />
               <path
                 d={pathFromPoints(
-                  points.map((p) => ({ year: p.year, v: p.median })),
+                  visiblePts.map((p) => ({
+                    x: xOf(toMs(p.date)),
+                    y: p.median !== null ? yOf(p.median) : null,
+                  })),
                 )}
                 fill="none"
                 stroke="var(--accent)"
                 strokeWidth="2"
               />
-              {points.map((p) =>
+              {visiblePts.map((p) =>
                 p.median !== null ? (
                   <circle
-                    key={p.year}
-                    cx={xOf(p.year)}
+                    key={p.bucket}
+                    cx={xOf(toMs(p.date))}
                     cy={yOf(p.median)}
                     r="3"
                     fill="var(--accent)"
-                    onMouseEnter={() =>
-                      setHover({ year: p.year, label: "median" })
-                    }
+                    onMouseEnter={() => setHover(p.bucket)}
                     onMouseLeave={() => setHover(null)}
                     style={{ cursor: "pointer" }}
                   />
@@ -256,60 +341,109 @@ export function FarmlandMultiplesHistory({
           )}
           {/* Sector lines */}
           {showSectors &&
-            sectors.map((sector) => {
-              const color = sectorColor.get(sector) ?? "#888";
-              const sectorPts = points.map((p) => ({
-                year: p.year,
-                v: p.bySector?.[sector] ?? null,
-              }));
-              return (
-                <path
-                  key={sector}
-                  d={pathFromPoints(sectorPts)}
-                  fill="none"
-                  stroke={color}
-                  strokeWidth="1.5"
-                  strokeOpacity="0.85"
-                />
-              );
-            })}
+            sectors
+              .filter((s) => !excludedSectors.has(s))
+              .map((sector) => {
+                const color = sectorColor.get(sector) ?? "#888";
+                const sectorPts = visiblePts.map((p) => ({
+                  x: xOf(toMs(p.date)),
+                  y:
+                    p.bySector && typeof p.bySector[sector] === "number"
+                      ? yOf(p.bySector[sector] as number)
+                      : null,
+                }));
+                return (
+                  <path
+                    key={sector}
+                    d={pathFromPoints(sectorPts)}
+                    fill="none"
+                    stroke={color}
+                    strokeWidth="1.5"
+                    strokeOpacity="0.85"
+                  />
+                );
+              })}
           {/* Hover tooltip */}
-          {hover && (
-            <text
-              x={xOf(hover.year)}
-              y={PAD.top - 6}
-              textAnchor="middle"
-              fontSize="10"
-              fill="var(--fg)"
-              fontWeight="600"
-            >
-              {hover.year} ·{" "}
-              {formatTick(
-                points.find((p) => p.year === hover.year)?.median ?? 0,
-                active.unit,
-              )}{" "}
-              ({points.find((p) => p.year === hover.year)?.count} tickers)
-            </text>
-          )}
+          {hover && (() => {
+            const p = points.find((x) => x.bucket === hover);
+            if (!p || p.median === null) return null;
+            return (
+              <text
+                x={xOf(toMs(p.date))}
+                y={PAD.top - 6}
+                textAnchor="middle"
+                fontSize="10"
+                fill="var(--fg)"
+                fontWeight="600"
+              >
+                {hover} · {formatTick(p.median, active.unit)} ({p.count} tickers)
+              </text>
+            );
+          })()}
         </svg>
       </div>
 
-      {showSectors && sectors.length > 0 && (
-        <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-[11px]">
-          {sectors.map((s) => (
-            <span key={s} className="inline-flex items-center gap-1.5">
-              <span
-                aria-hidden="true"
-                className="inline-block h-2.5 w-2.5 rounded-full"
-                style={{ background: sectorColor.get(s) }}
-              />
-              <span className="text-muted">{s}</span>
-            </span>
-          ))}
+      {/* Sector legend (always interactive) */}
+      <div className="mt-3 space-y-1">
+        <div className="flex items-baseline justify-between text-[11px]">
+          <span className="uppercase tracking-wider text-muted">
+            Sector · click to hide / show, double-click for show only
+          </span>
+          {excludedSectors.size > 0 && (
+            <button
+              type="button"
+              onClick={showAll}
+              className="!text-fg-soft hover:!text-accent"
+            >
+              Show all
+            </button>
+          )}
         </div>
-      )}
+        <div className="flex flex-wrap gap-x-3 gap-y-1.5 text-[11px]">
+          {sectors.map((s) => {
+            const isOff = excludedSectors.has(s);
+            const color = sectorColor.get(s) ?? "#888";
+            return (
+              <button
+                key={s}
+                type="button"
+                onClick={() => toggleSector(s)}
+                onDoubleClick={() => showOnly(s)}
+                aria-pressed={!isOff}
+                className={`inline-flex items-center gap-1.5 transition-opacity ${
+                  isOff ? "opacity-30" : ""
+                }`}
+              >
+                <span
+                  aria-hidden="true"
+                  className="inline-block h-2.5 w-2.5 rounded-full"
+                  style={{ background: color }}
+                />
+                <span
+                  className={isOff ? "text-muted line-through" : "text-fg-soft"}
+                >
+                  {s}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
     </section>
   );
+}
+
+function quantile(sorted: number[], q: number): number | null {
+  if (sorted.length === 0) return null;
+  const idx = (sorted.length - 1) * q;
+  const lo = Math.floor(idx);
+  const hi = Math.ceil(idx);
+  if (lo === hi) return sorted[lo];
+  return sorted[lo] * (hi - idx) + sorted[hi] * (idx - lo);
+}
+
+function toMs(iso: string): number {
+  return new Date(iso).getTime();
 }
 
 function niceStep(s: number): number {

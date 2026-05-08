@@ -29,9 +29,12 @@ export const metadata = {
 export const revalidate = 3600;
 
 export default async function PublicFarmlandPage() {
-  const comps = await getPricedFarmlandComps();
+  const [comps, multiplesFY, multiplesQ] = await Promise.all([
+    getPricedFarmlandComps(),
+    getUniverseMultiples("FY"),
+    getUniverseMultiples("Q"),
+  ]);
   const fetchedAt = comps[0]?.fetchedAt ?? new Date().toISOString();
-  const multiplesHistory = getUniverseMultiples();
 
   return (
     <div>
@@ -59,7 +62,7 @@ export default async function PublicFarmlandPage() {
 
       <FarmlandLeaderboards rows={comps} />
 
-      <FarmlandMultiplesHistory series={multiplesHistory} />
+      <FarmlandMultiplesHistory fy={multiplesFY} q={multiplesQ} />
 
       <FarmlandSectorIndex rows={comps} />
 
