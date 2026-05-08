@@ -106,7 +106,26 @@
       "capexMM": 35,
       "daMM": 70,
       "cfoMM": 110,
+      "revenueBySegmentMM": {
+        "Advanced nutrition": 880,
+        "Foodservice": 300,
+        "Ingredients": 484
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1500,
+        "SG&A": 130,
+        "D&A": 70,
+        "Other opex": 168
+      },
       "notes": "FY24 (ended Jul 31 2024): revenue NZD 1.66B. EBITDA NZD -134M (impairments NZD ~150M on Pokeno + North Island consumer assets). Net loss NZD 182M. Going concern noted; recap completed Sept 2024."
+    },
+    {
+      "endDate": "2025-01-31",
+      "periodType": "H",
+      "revenueMM": 870,
+      "ebitdaMM": 60,
+      "netIncomeMM": 5,
+      "notes": "H1 FY25 (6 months to Jan-25, post-recap)."
     },
     {
       "endDate": "2025-07-31",

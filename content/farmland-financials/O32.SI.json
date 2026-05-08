@@ -63,10 +63,29 @@
       "netDebtMM": 18600,
       "sharesOutMM": 3859,
       "dividendPerShare": 0.04,
+      "revenueBySegmentMM": {
+        "ofi (food ingredients — cocoa, coffee, dairy, nuts)": 19500,
+        "Olam Agri (grains, oilseeds, rice)": 25500,
+        "Remaining Olam Group": 2823
+      },
+      "expensesBySegmentMM": {
+        "COGS": 43800,
+        "SG&A": 2173,
+        "D&A": 780,
+        "Other opex": 1220
+      },
       "notes": "FY23: Revenue S$47.8B (-13%), net loss S$322M on ofi cocoa working capital + Nigeria forex losses. Final dividend slashed.",
       "capexMM": 950,
       "daMM": 780,
       "cfoMM": 1700
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 23800,
+      "ebitdaMM": 800,
+      "netIncomeMM": -82,
+      "notes": "H1 23"
     },
     {
       "endDate": "2024-12-31",
@@ -79,10 +98,29 @@
       "netDebtMM": 16400,
       "sharesOutMM": 3859,
       "dividendPerShare": 0.04,
+      "revenueBySegmentMM": {
+        "ofi (food ingredients — cocoa, coffee, dairy, nuts)": 21000,
+        "Olam Agri (grains, oilseeds, rice — deconsolidated)": 13500,
+        "Remaining Olam Group": 1930
+      },
+      "expensesBySegmentMM": {
+        "COGS": 33000,
+        "SG&A": 1780,
+        "D&A": 820,
+        "Other opex": 0
+      },
       "notes": "FY24: Revenue S$36.4B (-24% YoY post Olam Agri deconsolidation; SALIC majority stake completed). Net loss S$810M on cocoa price spike margin squeeze + reorg costs. ofi planning UK + Singapore concurrent listing.",
       "capexMM": 880,
       "daMM": 820,
       "cfoMM": 1900
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 18000,
+      "ebitdaMM": 700,
+      "netIncomeMM": -380,
+      "notes": "H1 24"
     }
   ]
 }

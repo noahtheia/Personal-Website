@@ -63,10 +63,30 @@
       "netDebtMM": 35100,
       "sharesOutMM": 6280,
       "dividendPerShare": 0.16,
+      "revenueBySegmentMM": {
+        "Food Products": 27500,
+        "Feed & Industrial Products": 35000,
+        "Plantations & Sugar Milling": 3500,
+        "Others": 1163
+      },
+      "expensesBySegmentMM": {
+        "COGS": 60500,
+        "SG&A": 2073,
+        "D&A": 1290,
+        "Other opex": 0
+      },
       "notes": "FY23: Revenue US$67.2B (-9% YoY), core profit US$1.53B (-36% YoY) on oilseeds crush margin compression in China + sugar plant ramp.",
       "capexMM": 1500,
       "daMM": 1290,
       "cfoMM": 4400
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 32700,
+      "ebitdaMM": 1500,
+      "netIncomeMM": 614,
+      "notes": "H1 23"
     },
     {
       "endDate": "2024-12-31",
@@ -79,10 +99,30 @@
       "netDebtMM": 36700,
       "sharesOutMM": 6240,
       "dividendPerShare": 0.115,
+      "revenueBySegmentMM": {
+        "Food Products": 28000,
+        "Feed & Industrial Products": 35200,
+        "Plantations & Sugar Milling": 3050,
+        "Others": 1128
+      },
+      "expensesBySegmentMM": {
+        "COGS": 60800,
+        "SG&A": 2138,
+        "D&A": 1340,
+        "Other opex": 0
+      },
       "notes": "FY24: Revenue flat US$67.4B; core profit US$1.17B — weakest in 4 years on China consumer pack volumes + plantation profit drag. Anti-bribery probe Indonesia ongoing.",
       "capexMM": 1450,
       "daMM": 1340,
       "cfoMM": 4100
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 32400,
+      "ebitdaMM": 1430,
+      "netIncomeMM": 451,
+      "notes": "H1 24"
     }
   ]
 }

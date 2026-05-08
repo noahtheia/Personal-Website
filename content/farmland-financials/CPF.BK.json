@@ -63,6 +63,18 @@
       "netDebtMM": 414000,
       "sharesOutMM": 8611,
       "dividendPerShare": 0.4,
+      "revenueBySegmentMM": {
+        "Feed": 145000,
+        "Farm (livestock — chicken, pork, shrimp)": 220000,
+        "Food (processed)": 200000,
+        "Other / regional": 22634
+      },
+      "expensesBySegmentMM": {
+        "COGS": 525000,
+        "SG&A": 26634,
+        "D&A": 24500,
+        "Other opex": -24000
+      },
       "notes": "FY23: Revenue ฿587.6B (-4%); net loss ฿5.2B — first annual loss in over a decade. Vietnam pork ASF outbreaks + China hog price collapse. Dividend slashed.",
       "capexMM": 28000,
       "daMM": 24500,
@@ -79,6 +91,18 @@
       "netDebtMM": 387000,
       "sharesOutMM": 8611,
       "dividendPerShare": 0.6,
+      "revenueBySegmentMM": {
+        "Feed": 142000,
+        "Farm (livestock — chicken, pork, shrimp)": 222000,
+        "Food (processed)": 202000,
+        "Other / regional": 22168
+      },
+      "expensesBySegmentMM": {
+        "COGS": 510000,
+        "SG&A": 27000,
+        "D&A": 25500,
+        "Other opex": -22132
+      },
       "notes": "FY24: Revenue ฿588.2B flat; net profit ฿19.0B recovery on pork price normalization + chicken export to Japan/EU. CFO turnaround.",
       "capexMM": 26000,
       "daMM": 25500,
