@@ -14,8 +14,7 @@ type ChartId =
   | "navPerShare"
   | "acreage"
   | "capRate"
-  | "dividends"
-  | "shares";
+  | "dividends";
 
 const CHART_DEFS: { id: ChartId; label: string; description: string }[] = [
   {
@@ -70,12 +69,6 @@ const CHART_DEFS: { id: ChartId; label: string; description: string }[] = [
     label: "Dividends",
     description:
       "Dividend per share each fiscal year, with running yield on right axis (DPS ÷ year-end share price).",
-  },
-  {
-    id: "shares",
-    label: "Shares",
-    description:
-      "Shares outstanding each fiscal year — buyback / dilution trend in million-share units.",
   },
 ];
 
@@ -863,7 +856,6 @@ function buildAllSeries(
     acreage: null,
     capRate: null,
     dividends: null,
-    shares: null,
   };
 
   // Pre-build aux series we'll need: daily market cap, daily EV (using
@@ -878,11 +870,34 @@ function buildAllSeries(
     }));
     result.price = {
       label: "Share price",
-      description: "Daily local-currency close.",
+      description:
+        "Daily local-currency close, with year-end shares outstanding on the right axis.",
       unit: { kind: "currency", ccy: history.currency },
       kind: "line",
       points: pricePoints,
     };
+
+    // Shares-outstanding overlay on the secondary axis. FY rows
+    // sorted ascending. The chart renders this as a step line so
+    // bonus issues / buybacks show as visible inflections.
+    if (financials) {
+      const shareRows = financials.periods
+        .filter(
+          (p) =>
+            p.periodType === "FY" && typeof p.sharesOutMM === "number",
+        )
+        .sort((a, b) => a.endDate.localeCompare(b.endDate));
+      if (shareRows.length > 0) {
+        result.price.secondary = {
+          label: "Shares outstanding (M)",
+          unit: { kind: "thousands" },
+          points: shareRows.map((p) => ({
+            date: p.endDate,
+            value: p.sharesOutMM as number,
+          })),
+        };
+      }
+    }
 
     // Build daily MC + EV using historical shares + netDebt where available
     const sharesSeries = financials
@@ -1193,26 +1208,6 @@ function buildAllSeries(
         }
       }
       result.dividends = divSeries;
-    }
-
-    // ---- Shares-outstanding trend ----
-    const shareRows = financials.periods
-      .filter(
-        (p) =>
-          p.periodType === "FY" && typeof p.sharesOutMM === "number",
-      )
-      .sort((a, b) => a.endDate.localeCompare(b.endDate));
-    if (shareRows.length > 0) {
-      result.shares = {
-        label: "Shares outstanding",
-        description: "Year-end shares (millions)",
-        unit: { kind: "thousands" },
-        kind: "step",
-        points: shareRows.map((p) => ({
-          date: p.endDate,
-          value: p.sharesOutMM as number,
-        })),
-      };
     }
 
     // ---- Margins / Returns trend ----
