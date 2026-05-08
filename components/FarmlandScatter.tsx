@@ -39,18 +39,22 @@ const AXES: Axis[] = [
   { key: "evPerAcre", label: "EV / Acre ($)", unit: "money" },
 ];
 
-const SECTOR_COLORS: Record<string, string> = {
-  "Farmland Owner / REIT": "#0a3d62",
-  "Integrated Farm Operator": "#16a085",
-  "Plantation Operator": "#27ae60",
-  "Pastoral / Livestock": "#8b4513",
-  "Diversified Agribusiness": "#d35400",
-  "Protein Producer": "#c0392b",
-  "Dairy / Egg Producer": "#e67e22",
-  "Aquaculture / Seafood": "#2980b9",
-  "Agribusiness / Trader": "#7d3c98",
-  "Crop Inputs / Fertilizer": "#a93226",
-  "Rural Services": "#5d6d7e",
+// Color palette assigned in legend order. Editorial-style palette
+// with enough hue separation for ~25 categories.
+const PALETTE = [
+  "#0a3d62", "#27ae60", "#d35400", "#c0392b", "#7d3c98",
+  "#16a085", "#e67e22", "#2980b9", "#a93226", "#5d6d7e",
+  "#8b4513", "#1e7a4f", "#b03a2e", "#6c3483", "#2874a6",
+  "#9a7d0a", "#117a65", "#c39bd3", "#566573", "#7e5109",
+  "#1a5276", "#943126", "#0e6655", "#9c640c", "#4a235a",
+];
+
+type GroupBy = "sector" | "geography" | "operatingCountry";
+
+const GROUP_LABEL: Record<GroupBy, string> = {
+  sector: "Sector",
+  geography: "Exchange",
+  operatingCountry: "Operations",
 };
 
 const W = 760;
@@ -60,17 +64,26 @@ const PAD = { top: 24, right: 32, bottom: 56, left: 80 };
 export function FarmlandScatter({ rows }: { rows: PricedFarmlandComp[] }) {
   const [xKey, setXKey] = useState<string>("evEbitda");
   const [yKey, setYKey] = useState<string>("roic");
+  const [groupBy, setGroupBy] = useState<GroupBy>("sector");
+  const [excluded, setExcluded] = useState<Set<string>>(new Set());
+  const [removeOutliers, setRemoveOutliers] = useState(false);
   const [hoverTicker, setHoverTicker] = useState<string | null>(null);
 
   const xAxis = AXES.find((a) => a.key === xKey)!;
   const yAxis = AXES.find((a) => a.key === yKey)!;
 
-  // Build dataset
-  const points = useMemo(() => {
+  function categoryOf(r: PricedFarmlandComp): string {
+    if (groupBy === "sector") return r.sector;
+    if (groupBy === "geography") return r.geography;
+    return r.operatingCountry ?? r.geography;
+  }
+
+  // Build dataset (pre-outlier-filter)
+  const allPoints = useMemo(() => {
     const data: {
       ticker: string;
       name: string;
-      sector: string;
+      category: string;
       x: number;
       y: number;
     }[] = [];
@@ -79,27 +92,92 @@ export function FarmlandScatter({ rows }: { rows: PricedFarmlandComp[] }) {
       const yv = r[yAxis.key] as number | null;
       if (xv === null || yv === null || !Number.isFinite(xv) || !Number.isFinite(yv))
         continue;
-      // For log axes, drop non-positive values
       if (xAxis.log && xv <= 0) continue;
       if (yAxis.log && yv <= 0) continue;
       data.push({
         ticker: r.ticker,
         name: r.name,
-        sector: r.sector,
+        category: categoryOf(r),
         x: xv,
         y: yv,
       });
     }
     return data;
-  }, [rows, xKey, yKey, xAxis, yAxis]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [rows, xKey, yKey, xAxis, yAxis, groupBy]);
 
-  // Scales
+  // Categories ordered by frequency (most common first)
+  const categories = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const p of allPoints) {
+      counts.set(p.category, (counts.get(p.category) ?? 0) + 1);
+    }
+    return Array.from(counts.entries())
+      .sort((a, b) => b[1] - a[1])
+      .map(([k]) => k);
+  }, [allPoints]);
+
+  // Stable color per category, assigned in PALETTE order
+  const colorByCategory = useMemo(() => {
+    const map = new Map<string, string>();
+    categories.forEach((c, i) => map.set(c, PALETTE[i % PALETTE.length]));
+    return map;
+  }, [categories]);
+
+  // Apply category-include filter
+  const includedPoints = useMemo(
+    () => allPoints.filter((p) => !excluded.has(p.category)),
+    [allPoints, excluded],
+  );
+
+  // Optionally drop outliers using 1.5×IQR on each axis (computed on
+  // the included subset so excluding sectors first then trimming).
+  const points = useMemo(() => {
+    if (!removeOutliers || includedPoints.length < 4) return includedPoints;
+    const xVals = includedPoints.map((p) => p.x).sort((a, b) => a - b);
+    const yVals = includedPoints.map((p) => p.y).sort((a, b) => a - b);
+    const q = (arr: number[], p: number) => {
+      const idx = (arr.length - 1) * p;
+      const lo = Math.floor(idx);
+      const hi = Math.ceil(idx);
+      if (lo === hi) return arr[lo];
+      return arr[lo] * (hi - idx) + arr[hi] * (idx - lo);
+    };
+    const xQ1 = q(xVals, 0.25);
+    const xQ3 = q(xVals, 0.75);
+    const xIQR = xQ3 - xQ1;
+    const yQ1 = q(yVals, 0.25);
+    const yQ3 = q(yVals, 0.75);
+    const yIQR = yQ3 - yQ1;
+    const xLo = xQ1 - 1.5 * xIQR;
+    const xHi = xQ3 + 1.5 * xIQR;
+    const yLo = yQ1 - 1.5 * yIQR;
+    const yHi = yQ3 + 1.5 * yIQR;
+    return includedPoints.filter(
+      (p) => p.x >= xLo && p.x <= xHi && p.y >= yLo && p.y <= yHi,
+    );
+  }, [includedPoints, removeOutliers]);
+
+  function toggleCategory(c: string) {
+    setExcluded((cur) => {
+      const next = new Set(cur);
+      if (next.has(c)) next.delete(c);
+      else next.add(c);
+      return next;
+    });
+  }
+  function showOnly(c: string) {
+    setExcluded(new Set(categories.filter((k) => k !== c)));
+  }
+  function showAll() {
+    setExcluded(new Set());
+  }
+
+  // Scales (computed on visible points only)
   const xMin = points.length ? Math.min(...points.map((p) => p.x)) : 0;
   const xMax = points.length ? Math.max(...points.map((p) => p.x)) : 1;
   const yMin = points.length ? Math.min(...points.map((p) => p.y)) : 0;
   const yMax = points.length ? Math.max(...points.map((p) => p.y)) : 1;
-
-  // Pad ranges
   const xRange = xMax - xMin || 1;
   const yRange = yMax - yMin || 1;
   const xLo = xAxis.log ? xMin * 0.7 : xMin - xRange * 0.05;
@@ -129,11 +207,8 @@ export function FarmlandScatter({ rows }: { rows: PricedFarmlandComp[] }) {
     return PAD.top + (1 - (v - yLo) / (yHi - yLo)) * innerH;
   };
 
-  // Tick generation
   const xTicks = ticks(xLo, xHi, !!xAxis.log);
   const yTicks = ticks(yLo, yHi, !!yAxis.log);
-
-  const sectors = Array.from(new Set(rows.map((r) => r.sector))).sort();
 
   return (
     <section className="mt-12 border-t border-rule pt-8">
@@ -142,10 +217,12 @@ export function FarmlandScatter({ rows }: { rows: PricedFarmlandComp[] }) {
           Scatter
         </h2>
         <p className="text-xs text-muted">
-          {points.length} of {rows.length} tickers (rows missing either
-          axis are dropped)
+          {points.length} of {allPoints.length} tickers shown
+          {excluded.size > 0 ? ` · ${excluded.size} ${GROUP_LABEL[groupBy].toLowerCase()} hidden` : ""}
+          {removeOutliers ? " · outliers removed" : ""}
         </p>
       </div>
+
       <div className="mb-4 flex flex-wrap items-end gap-3 text-xs">
         <label className="flex flex-col gap-1">
           <span className="text-[10px] uppercase tracking-wider text-muted">
@@ -178,6 +255,45 @@ export function FarmlandScatter({ rows }: { rows: PricedFarmlandComp[] }) {
               </option>
             ))}
           </select>
+        </label>
+        <label className="flex flex-col gap-1">
+          <span className="text-[10px] uppercase tracking-wider text-muted">
+            Color by
+          </span>
+          <div className="flex gap-1">
+            {(["sector", "geography", "operatingCountry"] as GroupBy[]).map(
+              (g) => {
+                const on = groupBy === g;
+                return (
+                  <button
+                    key={g}
+                    type="button"
+                    onClick={() => {
+                      setGroupBy(g);
+                      setExcluded(new Set());
+                    }}
+                    aria-pressed={on}
+                    className={`rounded-sm border px-2.5 py-1 text-xs transition-colors ${
+                      on
+                        ? "border-accent bg-accent !text-bg"
+                        : "border-rule bg-surface !text-fg hover:border-accent hover:!text-accent"
+                    }`}
+                  >
+                    {GROUP_LABEL[g]}
+                  </button>
+                );
+              },
+            )}
+          </div>
+        </label>
+        <label className="flex items-center gap-2 text-xs">
+          <input
+            type="checkbox"
+            checked={removeOutliers}
+            onChange={(e) => setRemoveOutliers(e.target.checked)}
+            className="accent-[var(--accent)]"
+          />
+          <span>Remove outliers (1.5×IQR)</span>
         </label>
       </div>
 
@@ -253,7 +369,7 @@ export function FarmlandScatter({ rows }: { rows: PricedFarmlandComp[] }) {
           {points.map((p) => {
             const cx = xOf(p.x);
             const cy = yOf(p.y);
-            const color = SECTOR_COLORS[p.sector] ?? "#888";
+            const color = colorByCategory.get(p.category) ?? "#888";
             const isHover = hoverTicker === p.ticker;
             return (
               <g key={p.ticker}>
@@ -286,18 +402,50 @@ export function FarmlandScatter({ rows }: { rows: PricedFarmlandComp[] }) {
         </svg>
       </div>
 
-      {/* Sector legend */}
-      <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-[11px]">
-        {sectors.map((s) => (
-          <span key={s} className="inline-flex items-center gap-1.5">
-            <span
-              aria-hidden="true"
-              className="inline-block h-2.5 w-2.5 rounded-full"
-              style={{ background: SECTOR_COLORS[s] ?? "#888" }}
-            />
-            <span className="text-muted">{s}</span>
+      {/* Interactive legend */}
+      <div className="mt-3 space-y-2">
+        <div className="flex items-baseline justify-between text-[11px]">
+          <span className="uppercase tracking-wider text-muted">
+            {GROUP_LABEL[groupBy]} · click to toggle
           </span>
-        ))}
+          {excluded.size > 0 && (
+            <button
+              type="button"
+              onClick={showAll}
+              className="!text-fg-soft hover:!text-accent"
+            >
+              Show all
+            </button>
+          )}
+        </div>
+        <div className="flex flex-wrap gap-x-3 gap-y-1.5 text-[11px]">
+          {categories.map((c) => {
+            const isOff = excluded.has(c);
+            const color = colorByCategory.get(c) ?? "#888";
+            return (
+              <button
+                key={c}
+                type="button"
+                onClick={() => toggleCategory(c)}
+                onDoubleClick={() => showOnly(c)}
+                aria-pressed={!isOff}
+                title={`Click to ${isOff ? "show" : "hide"} · double-click to show only`}
+                className={`inline-flex items-center gap-1.5 transition-opacity ${
+                  isOff ? "opacity-30" : ""
+                }`}
+              >
+                <span
+                  aria-hidden="true"
+                  className="inline-block h-2.5 w-2.5 rounded-full"
+                  style={{ background: color }}
+                />
+                <span className={isOff ? "text-muted line-through" : "text-fg-soft"}>
+                  {c}
+                </span>
+              </button>
+            );
+          })}
+        </div>
       </div>
     </section>
   );
@@ -312,7 +460,6 @@ function ticks(lo: number, hi: number, log: boolean): number[] {
     for (let v = start; v <= hi + 1e-9; v += step) out.push(round(v));
     return out;
   }
-  // Log: pick decade ticks
   const out: number[] = [];
   if (lo <= 0) lo = 1e-3;
   const lo10 = Math.floor(Math.log10(lo));
