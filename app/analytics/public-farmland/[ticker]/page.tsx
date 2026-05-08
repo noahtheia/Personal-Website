@@ -13,6 +13,7 @@ import { FarmlandDetailTabs } from "@/components/FarmlandDetailTabs";
 import { FarmlandPropertyDetail } from "@/components/FarmlandPropertyDetail";
 import { FarmlandFinancialSnapshot } from "@/components/FarmlandFinancialSnapshot";
 import { FarmlandInsiders } from "@/components/FarmlandInsiders";
+import { FarmlandSectorTrends } from "@/components/FarmlandSectorTrends";
 import { tipFor } from "@/lib/farmland-glossary";
 
 export const revalidate = 3600;
@@ -116,6 +117,15 @@ export default async function PublicFarmlandTickerPage({
             history={history}
             financials={financials}
           />
+        }
+        sectorTrends={
+          // Only surface the tab when there are 2+ FY/LTM periods to plot.
+          financials &&
+          financials.periods.filter(
+            (p) => p.periodType === "FY" || p.periodType === "LTM",
+          ).length >= 2 ? (
+            <FarmlandSectorTrends financials={financials} />
+          ) : undefined
         }
       />
     </div>

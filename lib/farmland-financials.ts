@@ -122,6 +122,117 @@ const PeriodSchema = z.object({
   // Free-form contextual note for the period (e.g. "Q3 24/25 reflects
   // El Meridiano disposition" for AGRO).
   notes: z.string().optional(),
+
+  // ---- Per-period sector blocks (mirror the comps schema) ----
+  // These are optional sub-objects that let sector-specific KPIs be
+  // tracked over time (FFB yield trend, capacity utilization, harvest
+  // volume, etc.). Existing flat palm/tea fields above remain valid;
+  // the renderer prefers nested values when both are present.
+  reit: z
+    .object({
+      walt: z.number().nonnegative().optional(),
+      occupancyPct: z.number().min(0).max(100).optional(),
+      top10TenantPctOfRent: z.number().min(0).max(100).optional(),
+      ffoPerShare: z.number().optional(),
+      affoPerShare: z.number().optional(),
+      preferredCoverage: z.number().optional(),
+      waterRightsValueMM: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  plantation: z
+    .object({
+      ffbYieldTPerHa: z.number().nonnegative().optional(),
+      oerPct: z.number().min(0).max(100).optional(),
+      kerPct: z.number().min(0).max(100).optional(),
+      cpoAspPerMt: z.number().nonnegative().optional(),
+      cpoCostPerMt: z.number().nonnegative().optional(),
+      maturePlantedHa: z.number().nonnegative().optional(),
+      immaturePlantedHa: z.number().nonnegative().optional(),
+      rspoPct: z.number().min(0).max(100).optional(),
+      methaneCapturePctMills: z.number().min(0).max(100).optional(),
+      replantingHaLtm: z.number().nonnegative().optional(),
+      rubberRevenueSharePct: z.number().min(0).max(100).optional(),
+      rubberAspPerKg: z.number().nonnegative().optional(),
+      sugarRevenueSharePct: z.number().min(0).max(100).optional(),
+      sugarProducedMt: z.number().nonnegative().optional(),
+      nucleusVsPlasmaPct: z.number().min(0).max(100).optional(),
+      ndpeCompliancePct: z.number().min(0).max(100).optional(),
+    })
+    .optional(),
+  tea: z
+    .object({
+      madeTeaProducedKgMM: z.number().nonnegative().optional(),
+      greenLeafYieldKgPerHa: z.number().nonnegative().optional(),
+      madeTeaAspPerKg: z.number().nonnegative().optional(),
+      auctionVsDirectPct: z.number().min(0).max(100).optional(),
+      boughtLeafSharePct: z.number().min(0).max(100).optional(),
+      teaPlantedHa: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  aquaculture: z
+    .object({
+      harvestVolumeKtGwt: z.number().nonnegative().optional(),
+      ebitPerKgNok: z.number().optional(),
+      mabLicencedTonnes: z.number().nonnegative().optional(),
+      biomassAtSeaKt: z.number().nonnegative().optional(),
+      smoltReleasedMM: z.number().nonnegative().optional(),
+      costPerKgNok: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  cropInputs: z
+    .object({
+      capacityUtilizationPct: z.number().min(0).max(100).optional(),
+      gasCostUSDPerMMBtu: z.number().nonnegative().optional(),
+      rdSpendPctOfRevenue: z.number().min(0).max(50).optional(),
+      retailRevenuePct: z.number().min(0).max(100).optional(),
+    })
+    .optional(),
+  egg: z
+    .object({
+      layingHenFlockMM: z.number().nonnegative().optional(),
+      dozensSoldMM: z.number().nonnegative().optional(),
+      avgSellingPricePerDozen: z.number().nonnegative().optional(),
+      feedCostPerDozen: z.number().nonnegative().optional(),
+      specialtyEggMixPct: z.number().min(0).max(100).optional(),
+    })
+    .optional(),
+  dairy: z
+    .object({
+      milkIntakeMlitres: z.number().nonnegative().optional(),
+      milkSolidsKgMM: z.number().nonnegative().optional(),
+      avgFarmgateMilkPrice: z.number().nonnegative().optional(),
+      cowHerdK: z.number().nonnegative().optional(),
+      infantFormulaRevenuePct: z.number().min(0).max(100).optional(),
+      brandedRevenuePct: z.number().min(0).max(100).optional(),
+    })
+    .optional(),
+  protein: z
+    .object({
+      plants: z.number().nonnegative().optional(),
+      weeklyHeadCapacity: z.number().nonnegative().optional(),
+      weeklyLbsCapacityMM: z.number().nonnegative().optional(),
+      capacityUtilizationPct: z.number().min(0).max(100).optional(),
+      plantClosuresLtm: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  integratedFarm: z
+    .object({
+      plantedAreaHa: z.number().nonnegative().optional(),
+      productionVolume: z.number().nonnegative().optional(),
+      productionUnit: z.string().optional(),
+      yieldPerHa: z.number().nonnegative().optional(),
+      realizedPricePerUnit: z.number().nonnegative().optional(),
+      biologicalAssetsMM: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  trader: z
+    .object({
+      rmiMM: z.number().nonnegative().optional(),
+      throughputMtMM: z.number().nonnegative().optional(),
+      ethanolGalsMM: z.number().nonnegative().optional(),
+      boardCrushCapturePct: z.number().min(0).max(200).optional(),
+    })
+    .optional(),
 });
 
 const FinancialsSchema = z.object({

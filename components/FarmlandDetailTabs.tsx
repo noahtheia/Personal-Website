@@ -2,23 +2,27 @@
 
 import { useState, type ReactNode } from "react";
 
-type TabId = "fmv" | "insiders" | "financial";
+type TabId = "fmv" | "insiders" | "financial" | "sectorTrends";
 
 export function FarmlandDetailTabs({
   fmvAnalysis,
   insiders,
   financialSnapshot,
+  sectorTrends,
 }: {
   fmvAnalysis: ReactNode;
   // Optional — hidden when the issuer doesn't surface insider data
   // (international filers without a Form-4 equivalent).
   insiders?: ReactNode;
   financialSnapshot: ReactNode;
+  // Optional — hidden when there's no multi-period sector-block data.
+  sectorTrends?: ReactNode;
 }) {
   const tabs: { id: TabId; label: string }[] = [
     { id: "fmv", label: "FMV Analysis" },
     ...(insiders ? [{ id: "insiders" as const, label: "Insider Transactions" }] : []),
     { id: "financial", label: "Financial Snapshot" },
+    ...(sectorTrends ? [{ id: "sectorTrends" as const, label: "Sector Trends" }] : []),
   ];
   const [activeId, setActiveId] = useState<TabId>("fmv");
 
@@ -52,6 +56,9 @@ export function FarmlandDetailTabs({
       <div hidden={activeId !== "fmv"}>{fmvAnalysis}</div>
       {insiders && <div hidden={activeId !== "insiders"}>{insiders}</div>}
       <div hidden={activeId !== "financial"}>{financialSnapshot}</div>
+      {sectorTrends && (
+        <div hidden={activeId !== "sectorTrends"}>{sectorTrends}</div>
+      )}
     </div>
   );
 }
