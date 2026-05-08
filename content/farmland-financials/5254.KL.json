@@ -157,10 +157,45 @@
         "D&A": 125,
         "Other": 16
       },
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/FFB)": 950
+      },
       "notes": "FY23: revenue RM950M (-17% YoY); net loss RM28M as CPO normalized + replanting costs. LTAT takeover offer at RM1.55 lapsed",
       "capexMM": 110,
       "daMM": 88,
       "cfoMM": 270
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 230,
+      "ebitdaMM": 60,
+      "netIncomeMM": -10,
+      "notes": "Q1 23"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 240,
+      "ebitdaMM": 70,
+      "netIncomeMM": -8,
+      "notes": "Q2 23"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 245,
+      "ebitdaMM": 75,
+      "netIncomeMM": -5,
+      "notes": "Q3 23"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 235,
+      "ebitdaMM": 75,
+      "netIncomeMM": -5,
+      "notes": "Q4 23"
     },
     {
       "endDate": "2024-12-31",
@@ -193,10 +228,45 @@
         "D&A": 130,
         "Other": 17
       },
+      "revenueBySegmentMM": {
+        "Plantation (CPO/PK/FFB)": 1145
+      },
       "notes": "FY24: revenue RM1.15B (+21% YoY) on CPO recovery; net profit RM165M reverses prior loss",
       "capexMM": 105,
       "daMM": 90,
       "cfoMM": 320
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 280,
+      "ebitdaMM": 110,
+      "netIncomeMM": 38,
+      "notes": "Q1 24"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 285,
+      "ebitdaMM": 115,
+      "netIncomeMM": 41,
+      "notes": "Q2 24"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 290,
+      "ebitdaMM": 117,
+      "netIncomeMM": 43,
+      "notes": "Q3 24"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 290,
+      "ebitdaMM": 118,
+      "netIncomeMM": 43,
+      "notes": "Q4 24"
     }
   ]
 }

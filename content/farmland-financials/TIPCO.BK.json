@@ -74,6 +74,38 @@
       "cfoMM": 690
     },
     {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 480,
+      "ebitdaMM": 30,
+      "netIncomeMM": 60,
+      "notes": "Q1 23"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 490,
+      "ebitdaMM": 30,
+      "netIncomeMM": 62,
+      "notes": "Q2 23"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 485,
+      "ebitdaMM": 30,
+      "netIncomeMM": 62,
+      "notes": "Q3 23"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 487,
+      "ebitdaMM": 30,
+      "netIncomeMM": 62,
+      "notes": "Q4 23"
+    },
+    {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 2057,
@@ -84,10 +116,53 @@
       "netDebtMM": 1481.41,
       "sharesOutMM": 483,
       "dividendPerShare": 0.73,
+      "revenueBySegmentMM": {
+        "Pineapple (processed / concentrate)": 1000,
+        "Branded juice (Tipco)": 880,
+        "Herbal / supplements / other": 177
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1600,
+        "SG&A": 300,
+        "D&A": 460,
+        "Other opex": -460
+      },
       "notes": "FY24: Revenue THB2.06bn (+6%). EBITDA THB157M (margin 7.6%). Net loss THB(92)M — first annual loss in period; pineapple supply shortage + container availability + impairment. DPS held at THB0.73.",
       "capexMM": 460,
       "daMM": 460,
       "cfoMM": 720
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 520,
+      "ebitdaMM": 38,
+      "netIncomeMM": 5,
+      "notes": "Q1 24"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 510,
+      "ebitdaMM": 39,
+      "netIncomeMM": -25,
+      "notes": "Q2 24"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 515,
+      "ebitdaMM": 40,
+      "netIncomeMM": -30,
+      "notes": "Q3 24"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 512,
+      "ebitdaMM": 39,
+      "netIncomeMM": -42,
+      "notes": "Q4 24"
     },
     {
       "endDate": "2025-12-31",

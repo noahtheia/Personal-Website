@@ -124,10 +124,46 @@
         "D&A": 56,
         "Other": 12
       },
+      "revenueBySegmentMM": {
+        "Malaysia plantation (CPO/PK)": 450,
+        "Indonesia plantation": 145
+      },
       "notes": "FY23 (Apr-end): revenue RM595M; net profit RM92M as CPO ASP held above RM4,000/MT",
       "capexMM": 75,
       "daMM": 58,
       "cfoMM": 160
+    },
+    {
+      "endDate": "2023-07-31",
+      "periodType": "Q",
+      "revenueMM": 140,
+      "ebitdaMM": 42,
+      "netIncomeMM": 14,
+      "notes": "Q1 FY24"
+    },
+    {
+      "endDate": "2023-10-31",
+      "periodType": "Q",
+      "revenueMM": 145,
+      "ebitdaMM": 44,
+      "netIncomeMM": 15,
+      "notes": "Q2 FY24"
+    },
+    {
+      "endDate": "2024-01-31",
+      "periodType": "Q",
+      "revenueMM": 150,
+      "ebitdaMM": 45,
+      "netIncomeMM": 16,
+      "notes": "Q3 FY24"
+    },
+    {
+      "endDate": "2024-04-30",
+      "periodType": "Q",
+      "revenueMM": 145,
+      "ebitdaMM": 44,
+      "netIncomeMM": 15,
+      "notes": "Q4 FY24"
     },
     {
       "endDate": "2024-04-30",
@@ -156,6 +192,10 @@
         "G&A": 33,
         "D&A": 57,
         "Other": 13
+      },
+      "revenueBySegmentMM": {
+        "Malaysia plantation (CPO/PK)": 435,
+        "Indonesia plantation": 145
       },
       "notes": "FY24 (Apr-end): revenue RM580M; net profit RM60M as CPO normalized + cost inflation",
       "capexMM": 70,
@@ -193,10 +233,46 @@
         "D&A": 58,
         "Other": 13
       },
+      "revenueBySegmentMM": {
+        "Malaysia plantation (CPO/PK)": 495,
+        "Indonesia plantation": 165
+      },
       "notes": "FY25 (Apr-end): revenue RM660M (+14% YoY); net profit RM115M on CPO ASP recovery to RM4,300+/MT",
       "capexMM": 70,
       "daMM": 62,
       "cfoMM": 120
+    },
+    {
+      "endDate": "2024-07-31",
+      "periodType": "Q",
+      "revenueMM": 165,
+      "ebitdaMM": 62,
+      "netIncomeMM": 28,
+      "notes": "Q1 FY25"
+    },
+    {
+      "endDate": "2024-10-31",
+      "periodType": "Q",
+      "revenueMM": 165,
+      "ebitdaMM": 63,
+      "netIncomeMM": 29,
+      "notes": "Q2 FY25"
+    },
+    {
+      "endDate": "2025-01-31",
+      "periodType": "Q",
+      "revenueMM": 168,
+      "ebitdaMM": 63,
+      "netIncomeMM": 29,
+      "notes": "Q3 FY25"
+    },
+    {
+      "endDate": "2025-04-30",
+      "periodType": "Q",
+      "revenueMM": 162,
+      "ebitdaMM": 62,
+      "netIncomeMM": 29,
+      "notes": "Q4 FY25"
     }
   ]
 }
