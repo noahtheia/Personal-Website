@@ -24,6 +24,11 @@ const SECTIONS: Section[] = [
     label: "Compare",
     items: [{ href: "/analytics/compare", label: "Agriculture" }],
   },
+  {
+    id: "screener",
+    label: "Screener",
+    items: [{ href: "/analytics/screener", label: "Agriculture" }],
+  },
 ];
 
 export function AnalyticsSidebar() {
