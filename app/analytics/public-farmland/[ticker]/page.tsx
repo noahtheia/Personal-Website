@@ -103,6 +103,11 @@ export default async function PublicFarmlandTickerPage({
             <PendingDetail ticker={filing.ticker} />
           )
         }
+        insiders={
+          insiders && insiders.transactions.length > 0 ? (
+            <FarmlandInsiders data={insiders} />
+          ) : undefined
+        }
         financialSnapshot={
           <FarmlandFinancialSnapshot
             filing={filing}
@@ -112,10 +117,6 @@ export default async function PublicFarmlandTickerPage({
           />
         }
       />
-
-      {insiders && insiders.transactions.length > 0 && (
-        <FarmlandInsiders data={insiders} />
-      )}
     </div>
   );
 }
