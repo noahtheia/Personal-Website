@@ -670,6 +670,142 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
   );
 }
 
+// Aggregate sector-specific KPIs across the rows in a sector and
+// return them as compact { label, value, count } tuples for inline
+// rendering under the sector banner. Only fields that at least one
+// ticker in the sector actually populates appear; the count makes
+// data-density visible. Uses simple mean for percentages / yields and
+// sum for absolute counts (plant counts, throughput, etc.).
+function sectorKpiSummary(
+  sector: string,
+  rows: PricedFarmlandComp[],
+): { label: string; value: string; count: number }[] {
+  type Agg = {
+    label: string;
+    extract: (r: PricedFarmlandComp) => number | null | undefined;
+    format: (mean: number) => string;
+    aggregate?: "mean" | "sum";
+  };
+  const SPECS: Record<string, Agg[]> = {
+    "Farmland Owner / REIT": [
+      { label: "WALT", extract: (r) => r.reit?.walt, format: (v) => `${v.toFixed(1)} yr` },
+      {
+        label: "Occupancy",
+        extract: (r) => r.reit?.occupancyPct,
+        format: (v) => `${v.toFixed(0)}%`,
+      },
+    ],
+    "Plantation Operator": [
+      {
+        label: "FFB yield",
+        extract: (r) => r.plantation?.ffbYieldTPerHa,
+        format: (v) => `${v.toFixed(1)} t/ha`,
+      },
+      {
+        label: "OER",
+        extract: (r) => r.plantation?.oerPct,
+        format: (v) => `${v.toFixed(1)}%`,
+      },
+      {
+        label: "RSPO",
+        extract: (r) => r.plantation?.rspoPct,
+        format: (v) => `${v.toFixed(0)}%`,
+      },
+    ],
+    "Aquaculture / Seafood": [
+      {
+        label: "Harvest",
+        extract: (r) => r.aquaculture?.harvestVolumeKtGwt,
+        format: (v) => `${Math.round(v)} kt`,
+        aggregate: "sum",
+      },
+      {
+        label: "EBIT/kg",
+        extract: (r) => r.aquaculture?.ebitPerKgNok,
+        format: (v) => `NOK ${v.toFixed(1)}`,
+      },
+    ],
+    "Crop Inputs / Fertilizer": [
+      {
+        label: "Capacity utilization",
+        extract: (r) => r.cropInputs?.capacityUtilizationPct,
+        format: (v) => `${v.toFixed(0)}%`,
+      },
+      {
+        label: "R&D / sales",
+        extract: (r) => r.cropInputs?.rdSpendPctOfRevenue,
+        format: (v) => `${v.toFixed(1)}%`,
+      },
+    ],
+    "Dairy / Egg Producer": [
+      {
+        label: "Branded rev",
+        extract: (r) => r.dairy?.brandedRevenuePct,
+        format: (v) => `${v.toFixed(0)}%`,
+      },
+      {
+        label: "IF rev",
+        extract: (r) => r.dairy?.infantFormulaRevenuePct,
+        format: (v) => `${v.toFixed(0)}%`,
+      },
+    ],
+    "Protein Producer": [
+      {
+        label: "Plants",
+        extract: (r) => r.protein?.plants,
+        format: (v) => `${Math.round(v)}`,
+        aggregate: "sum",
+      },
+    ],
+    "Integrated Farm Operator": [
+      {
+        label: "Planted area",
+        extract: (r) => r.integratedFarm?.plantedAreaHa,
+        format: (v) => `${Math.round(v / 1000)}K ha`,
+        aggregate: "sum",
+      },
+    ],
+    "Agribusiness / Trader": [
+      {
+        label: "Throughput",
+        extract: (r) => r.trader?.throughputMtMM,
+        format: (v) => `${v.toFixed(1)} MMT`,
+        aggregate: "sum",
+      },
+      {
+        label: "RMI",
+        extract: (r) => r.trader?.rmiMM,
+        format: (v) => `$${Math.round(v / 1000)}B`,
+        aggregate: "sum",
+      },
+    ],
+    "Diversified Agribusiness": [
+      {
+        label: "Non-ag rev",
+        extract: (r) => r.nonAgricultureRevenuePct,
+        format: (v) => `${v.toFixed(0)}%`,
+      },
+    ],
+  };
+  const specs = SPECS[sector];
+  if (!specs) return [];
+  const out: { label: string; value: string; count: number }[] = [];
+  for (const spec of specs) {
+    const vals: number[] = [];
+    for (const r of rows) {
+      const v = spec.extract(r);
+      if (typeof v === "number" && Number.isFinite(v)) vals.push(v);
+    }
+    if (vals.length === 0) continue;
+    const agg =
+      spec.aggregate === "sum"
+        ? vals.reduce((a, b) => a + b, 0)
+        : vals.reduce((a, b) => a + b, 0) / vals.length;
+    out.push({ label: spec.label, value: spec.format(agg), count: vals.length });
+  }
+  return out;
+}
+
 function CategorySection({
   label,
   rows,
@@ -693,6 +829,7 @@ function CategorySection({
   onToggleWatch: (ticker: string) => void;
   isWatched: (ticker: string) => boolean;
 }) {
+  const kpiSummary = sectorKpiSummary(label, rows);
   return (
     <>
       <tr className="border-y border-rule-strong">
@@ -714,6 +851,26 @@ function CategorySection({
           </button>
         </td>
       </tr>
+      {!isCollapsed && kpiSummary.length > 0 && (
+        <tr className="border-b border-rule">
+          <td
+            colSpan={colCount}
+            className="sticky left-0 z-[1] bg-bg/40 px-3 py-1.5 text-left text-[10px] uppercase tracking-wider text-muted"
+          >
+            <span className="mr-2 font-semibold text-fg-soft">Sector KPIs</span>
+            {kpiSummary.map((k, i) => (
+              <span key={k.label} className="mr-3 inline-flex items-baseline gap-1">
+                {i > 0 && <span aria-hidden="true" className="opacity-50">·</span>}
+                <span className="text-muted">{k.label}</span>
+                <span className="font-semibold tabular-nums !text-fg">
+                  {k.value}
+                </span>
+                <span className="text-[9px] opacity-60">({k.count}/{rows.length})</span>
+              </span>
+            ))}
+          </td>
+        </tr>
+      )}
       {!isCollapsed && rows.map((r) => (
         <tr
           key={r.ticker}
