@@ -1304,7 +1304,14 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 1220.05,
     "annualFcfMM": 1063.48,
-    "annualEquityMM": 1464.7
+    "annualEquityMM": 1464.7,
+    "egg": {
+      "layingHenFlockMM": 50.4,
+      "dozensSoldMM": 1278,
+      "avgSellingPricePerDozen": 2.74,
+      "feedCostPerDozen": 0.55,
+      "specialtyEggMixPct": 30
+    }
   },
   {
     "ticker": "VITL",
@@ -1326,7 +1333,14 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 66.28,
     "annualFcfMM": -48.23,
-    "annualEquityMM": 332.3
+    "annualEquityMM": 332.3,
+    "egg": {
+      "layingHenFlockMM": 6,
+      "dozensSoldMM": 330,
+      "avgSellingPricePerDozen": 5.8,
+      "specialtyEggMixPct": 100,
+      "contractedFarmCount": 440
+    }
   },
   {
     "ticker": "DAR",
@@ -1463,7 +1477,12 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 2297,
     "annualFcfMM": 2125,
-    "annualEquityMM": 25321.3
+    "annualEquityMM": 25321.3,
+    "cropInputs": {
+      "realizedPriceByNutrientUSDPerMT": { "nitrogen": 385, "potash": 295 },
+      "productionCapacityKMTPerYear": { "potash": 20000, "nitrogen": 11000 },
+      "retailRevenuePct": 50
+    }
   },
   {
     "ticker": "CTVA",
@@ -1485,7 +1504,10 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 1094,
     "annualFcfMM": 2815,
-    "annualEquityMM": 24144
+    "annualEquityMM": 24144,
+    "cropInputs": {
+      "rdSpendPctOfRevenue": 8.0
+    }
   },
   {
     "ticker": "CF",
@@ -1507,7 +1529,12 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 1455,
     "annualFcfMM": 1802,
-    "annualEquityMM": 4838.4
+    "annualEquityMM": 4838.4,
+    "cropInputs": {
+      "productionCapacityKMTPerYear": { "ammonia": 10300 },
+      "gasCostUSDPerMMBtu": 2.5,
+      "capacityUtilizationPct": 95
+    }
   },
   {
     "ticker": "MOS",
@@ -1529,7 +1556,10 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 540.7,
     "annualFcfMM": -534.6,
-    "annualEquityMM": 12083.8
+    "annualEquityMM": 12083.8,
+    "cropInputs": {
+      "productionCapacityKMTPerYear": { "phosphate": 7500, "potash": 12800 }
+    }
   },
   {
     "ticker": "KER.WA",
@@ -1707,7 +1737,13 @@
     "operatingCountry": "Australia",
     "annualNetIncomeMM": 30.2,
     "annualFcfMM": 114,
-    "annualEquityMM": 1175.0
+    "annualEquityMM": 1175.0,
+    "dairy": {
+      "milkIntakeMlitres": 750,
+      "avgFarmgateMilkPrice": 8.4,
+      "infantFormulaRevenuePct": 15,
+      "brandedRevenuePct": 75
+    }
   },
   {
     "ticker": "A2M.AX",
@@ -1730,7 +1766,11 @@
     "operatingCountry": "New Zealand",
     "annualNetIncomeMM": 167.6,
     "annualFcfMM": 218,
-    "annualEquityMM": 994.0
+    "annualEquityMM": 994.0,
+    "dairy": {
+      "infantFormulaRevenuePct": 80,
+      "brandedRevenuePct": 95
+    }
   },
   {
     "ticker": "FDP",
@@ -1796,7 +1836,10 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 11.2,
     "annualFcfMM": 13.9,
-    "annualEquityMM": 497.0
+    "annualEquityMM": 497.0,
+    "cropInputs": {
+      "realizedPriceByNutrientUSDPerMT": { "potash": 380, "trio": 290 }
+    }
   },
   {
     "ticker": "SMG",
@@ -1885,7 +1928,13 @@
     "operatingCountry": "Norway",
     "annualNetIncomeMM": 472,
     "annualFcfMM": 682,
-    "annualEquityMM": 2988.8
+    "annualEquityMM": 2988.8,
+    "aquaculture": {
+      "harvestVolumeKtGwt": 498,
+      "ebitPerKgNok": 18,
+      "mabLicencedTonnes": 205000,
+      "smoltReleasedMM": 115
+    }
   },
   {
     "ticker": "SALM.OL",
@@ -1907,7 +1956,13 @@
     "operatingCountry": "Norway",
     "annualNetIncomeMM": 3065,
     "annualFcfMM": 1900,
-    "annualEquityMM": 19901.4
+    "annualEquityMM": 19901.4,
+    "aquaculture": {
+      "harvestVolumeKtGwt": 244,
+      "ebitPerKgNok": 21,
+      "mabLicencedTonnes": 190000,
+      "smoltReleasedMM": 70
+    }
   },
   {
     "ticker": "BAKKA.OL",
@@ -1930,7 +1985,12 @@
     "operatingCountry": "Norway",
     "annualNetIncomeMM": 1033,
     "annualFcfMM": 300,
-    "annualEquityMM": 8751.2
+    "annualEquityMM": 8751.2,
+    "aquaculture": {
+      "harvestVolumeKtGwt": 93,
+      "mabLicencedTonnes": 70000,
+      "smoltReleasedMM": 22
+    }
   },
   {
     "ticker": "LSG.OL",
@@ -1952,7 +2012,12 @@
     "operatingCountry": "Norway",
     "annualNetIncomeMM": 2025,
     "annualFcfMM": 1200,
-    "annualEquityMM": 18766.8
+    "annualEquityMM": 18766.8,
+    "aquaculture": {
+      "harvestVolumeKtGwt": 178,
+      "ebitPerKgNok": 16,
+      "mabLicencedTonnes": 205000
+    }
   },
   {
     "ticker": "GSF.OL",
@@ -1974,7 +2039,13 @@
     "operatingCountry": "Norway",
     "annualNetIncomeMM": -135,
     "annualFcfMM": -150,
-    "annualEquityMM": 3224.2
+    "annualEquityMM": 3224.2,
+    "aquaculture": {
+      "harvestVolumeKtGwt": 75,
+      "ebitPerKgNok": 5,
+      "mabLicencedTonnes": 85000,
+      "smoltReleasedMM": 30
+    }
   },
   {
     "ticker": "0288.HK",
@@ -2020,7 +2091,10 @@
     "operatingCountry": "Hong Kong",
     "annualNetIncomeMM": -1469,
     "annualFcfMM": -2200,
-    "annualEquityMM": 11500.0
+    "annualEquityMM": 11500.0,
+    "dairy": {
+      "cowHerdK": 480
+    }
   },
   {
     "ticker": "0606.HK",
@@ -2175,7 +2249,13 @@
     "operatingCountry": "Vietnam",
     "annualNetIncomeMM": 9453000,
     "annualFcfMM": 8200000,
-    "annualEquityMM": 36800000
+    "annualEquityMM": 36800000,
+    "dairy": {
+      "cowHerdK": 140,
+      "infantFormulaRevenuePct": 20,
+      "brandedRevenuePct": 95,
+      "coldChainDistributionPoints": 240000
+    }
   },
   {
     "ticker": "URC.PS",
@@ -2899,7 +2979,10 @@
     "operatingCountry": "Saudi Arabia",
     "annualNetIncomeMM": 273,
     "annualFcfMM": 250,
-    "annualEquityMM": 2470
+    "annualEquityMM": 2470,
+    "dairy": {
+      "brandedRevenuePct": 100
+    }
   },
   {
     "ticker": "AGR.VI",
@@ -2969,7 +3052,12 @@
     "operatingCountry": "New Zealand",
     "annualNetIncomeMM": 12,
     "annualFcfMM": 115,
-    "annualEquityMM": 805.1
+    "annualEquityMM": 805.1,
+    "dairy": {
+      "milkSolidsKgMM": 74,
+      "avgFarmgateMilkPrice": 8.0,
+      "infantFormulaRevenuePct": 50
+    }
   },
   {
     "ticker": "AHF.AX",
@@ -2992,7 +3080,11 @@
     "operatingCountry": "Australia",
     "annualNetIncomeMM": -2.4,
     "annualFcfMM": -0.5,
-    "annualEquityMM": 21.3
+    "annualEquityMM": 21.3,
+    "dairy": {
+      "cowHerdK": 2,
+      "milkIntakeMlitres": 15
+    }
   },
   {
     "ticker": "CVGW",

@@ -203,6 +203,70 @@ const FilingSchema = z.object({
       boardCrushCapturePct: z.number().min(0).max(200).optional(),
     })
     .optional(),
+  // Aquaculture / salmon farmers — Norwegian + Faroese cohort. MAB
+  // (max-allowed-biomass) plays the role of "acres" for sea-cage
+  // operators; biomass-at-sea + smolt release are the leading-indicator
+  // pair for next-period harvests; ebit/kg and cost/kg are the
+  // industry-standard unit-economics pair.
+  aquaculture: z
+    .object({
+      harvestVolumeKtGwt: z.number().nonnegative().optional(),
+      ebitPerKgNok: z.number().optional(),
+      mabLicencedTonnes: z.number().nonnegative().optional(),
+      biomassAtSeaKt: z.number().nonnegative().optional(),
+      smoltReleasedMM: z.number().nonnegative().optional(),
+      costPerKgNok: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  // Crop-input / fertilizer producers — N/P/K, seeds, crop chemistry.
+  // Realized price and volume by nutrient are the headline cyclical
+  // indicators; capacity utilization + nat-gas cost are the cost-side
+  // levers; ore reserves matter for terminal value of mining names.
+  cropInputs: z
+    .object({
+      realizedPriceByNutrientUSDPerMT: z
+        .record(z.string(), z.number().nonnegative())
+        .optional(),
+      salesVolumeByNutrientKMT: z
+        .record(z.string(), z.number().nonnegative())
+        .optional(),
+      productionCapacityKMTPerYear: z
+        .record(z.string(), z.number().nonnegative())
+        .optional(),
+      capacityUtilizationPct: z.number().min(0).max(100).optional(),
+      gasCostUSDPerMMBtu: z.number().nonnegative().optional(),
+      mineLifeYears: z.number().nonnegative().optional(),
+      rdSpendPctOfRevenue: z.number().min(0).max(50).optional(),
+      retailRevenuePct: z.number().min(0).max(100).optional(),
+    })
+    .optional(),
+  // Egg producers — small cohort (CALM, VITL). Flock + dozens + ASP +
+  // feed cost is the canonical four-tuple; specialty mix matters for
+  // the cage-free / pasture-raised premium.
+  egg: z
+    .object({
+      layingHenFlockMM: z.number().nonnegative().optional(),
+      dozensSoldMM: z.number().nonnegative().optional(),
+      avgSellingPricePerDozen: z.number().nonnegative().optional(),
+      feedCostPerDozen: z.number().nonnegative().optional(),
+      specialtyEggMixPct: z.number().min(0).max(100).optional(),
+      contractedFarmCount: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  // Dairy producers — covers raw-milk processors, branded dairy, and
+  // infant-formula exposed names. Not bundled with egg because the
+  // disclosure conventions barely overlap.
+  dairy: z
+    .object({
+      milkIntakeMlitres: z.number().nonnegative().optional(),
+      milkSolidsKgMM: z.number().nonnegative().optional(),
+      avgFarmgateMilkPrice: z.number().nonnegative().optional(),
+      cowHerdK: z.number().nonnegative().optional(),
+      infantFormulaRevenuePct: z.number().min(0).max(100).optional(),
+      brandedRevenuePct: z.number().min(0).max(100).optional(),
+      coldChainDistributionPoints: z.number().nonnegative().optional(),
+    })
+    .optional(),
 });
 
 export type FarmlandFiling = z.infer<typeof FilingSchema>;

@@ -237,6 +237,90 @@ function SectorKpiBlock({
     if (t.boardCrushCapturePct != null)
       items.push({ label: "Crush capture", value: `${t.boardCrushCapturePct.toFixed(0)}%` });
   }
+  if (filing.aquaculture) {
+    const a = filing.aquaculture;
+    if (a.harvestVolumeKtGwt != null)
+      items.push({ label: "Harvest", value: `${fmtInt(a.harvestVolumeKtGwt)} kt GWT` });
+    if (a.ebitPerKgNok != null)
+      items.push({ label: "EBIT / kg", value: `NOK ${a.ebitPerKgNok.toFixed(1)}` });
+    if (a.mabLicencedTonnes != null)
+      items.push({ label: "MAB licence", value: `${fmtInt(a.mabLicencedTonnes / 1000)} kt` });
+    if (a.biomassAtSeaKt != null)
+      items.push({ label: "Biomass at sea", value: `${fmtInt(a.biomassAtSeaKt)} kt` });
+    if (a.smoltReleasedMM != null)
+      items.push({ label: "Smolt released", value: `${a.smoltReleasedMM.toFixed(0)}M` });
+    if (a.costPerKgNok != null)
+      items.push({ label: "Cost / kg", value: `NOK ${a.costPerKgNok.toFixed(1)}` });
+  }
+  if (filing.cropInputs) {
+    const c = filing.cropInputs;
+    if (c.realizedPriceByNutrientUSDPerMT) {
+      const parts = Object.entries(c.realizedPriceByNutrientUSDPerMT)
+        .map(([k, v]) => `${k} $${fmtInt(v)}`)
+        .join(" · ");
+      items.push({ label: "Realized $/MT", value: parts });
+    }
+    if (c.productionCapacityKMTPerYear) {
+      const parts = Object.entries(c.productionCapacityKMTPerYear)
+        .map(([k, v]) => `${k} ${fmtInt(v)}`)
+        .join(" · ");
+      items.push({ label: "Capacity (KMT/yr)", value: parts });
+    }
+    if (c.capacityUtilizationPct != null)
+      items.push({ label: "Utilization", value: `${c.capacityUtilizationPct.toFixed(0)}%` });
+    if (c.gasCostUSDPerMMBtu != null)
+      items.push({ label: "Gas cost", value: `$${c.gasCostUSDPerMMBtu.toFixed(2)}/MMBtu` });
+    if (c.mineLifeYears != null)
+      items.push({ label: "Mine life", value: `${c.mineLifeYears.toFixed(0)} yrs` });
+    if (c.rdSpendPctOfRevenue != null)
+      items.push({ label: "R&D / sales", value: `${c.rdSpendPctOfRevenue.toFixed(1)}%` });
+    if (c.retailRevenuePct != null)
+      items.push({ label: "Retail mix", value: `${c.retailRevenuePct.toFixed(0)}%` });
+  }
+  if (filing.egg) {
+    const e = filing.egg;
+    if (e.layingHenFlockMM != null)
+      items.push({ label: "Laying flock", value: `${e.layingHenFlockMM.toFixed(1)}M hens` });
+    if (e.dozensSoldMM != null)
+      items.push({ label: "Dozens sold", value: `${fmtInt(e.dozensSoldMM)}M` });
+    if (e.avgSellingPricePerDozen != null)
+      items.push({
+        label: "ASP / dozen",
+        value: `${filing.currency} ${e.avgSellingPricePerDozen.toFixed(2)}`,
+      });
+    if (e.feedCostPerDozen != null)
+      items.push({
+        label: "Feed / dozen",
+        value: `${filing.currency} ${e.feedCostPerDozen.toFixed(2)}`,
+      });
+    if (e.specialtyEggMixPct != null)
+      items.push({ label: "Specialty mix", value: `${e.specialtyEggMixPct.toFixed(0)}%` });
+    if (e.contractedFarmCount != null)
+      items.push({ label: "Farms in network", value: fmtInt(e.contractedFarmCount) });
+  }
+  if (filing.dairy) {
+    const d = filing.dairy;
+    if (d.milkIntakeMlitres != null)
+      items.push({ label: "Milk intake", value: `${fmtInt(d.milkIntakeMlitres)} ML` });
+    if (d.milkSolidsKgMM != null)
+      items.push({ label: "Milk solids", value: `${fmtInt(d.milkSolidsKgMM)}M kgMS` });
+    if (d.avgFarmgateMilkPrice != null)
+      items.push({
+        label: "Farmgate price",
+        value: `${filing.currency} ${d.avgFarmgateMilkPrice.toFixed(2)}`,
+      });
+    if (d.cowHerdK != null)
+      items.push({ label: "Cow herd", value: `${fmtInt(d.cowHerdK)}K` });
+    if (d.infantFormulaRevenuePct != null)
+      items.push({ label: "IF revenue", value: `${d.infantFormulaRevenuePct.toFixed(0)}%` });
+    if (d.brandedRevenuePct != null)
+      items.push({ label: "Branded revenue", value: `${d.brandedRevenuePct.toFixed(0)}%` });
+    if (d.coldChainDistributionPoints != null)
+      items.push({
+        label: "Cold-chain points",
+        value: fmtInt(d.coldChainDistributionPoints),
+      });
+  }
   // Cross-universe extensions worth surfacing here too.
   if (filing.preferredMM != null)
     items.push({ label: "Preferred", value: `${filing.currency} ${fmtInt(filing.preferredMM)}M` });
