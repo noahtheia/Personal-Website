@@ -4,7 +4,6 @@ import {
 } from "@/lib/farmland-comps";
 import { FarmlandComps } from "@/components/FarmlandComps";
 import { FarmlandLeaderboards } from "@/components/FarmlandLeaderboards";
-import { FarmlandScatter } from "@/components/FarmlandScatter";
 import { FarmlandSectorIndex } from "@/components/FarmlandSectorIndex";
 
 function fxNote(rows: PricedFarmlandComp[]): string {
@@ -58,8 +57,6 @@ export default async function PublicFarmlandPage() {
       <FarmlandLeaderboards rows={comps} />
 
       <FarmlandSectorIndex rows={comps} />
-
-      <FarmlandScatter rows={comps} />
 
       <p className="mt-3 text-xs text-muted">
         Updated{" "}
