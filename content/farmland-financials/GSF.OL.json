@@ -2,12 +2,17 @@
   "ticker": "GSF.OL",
   "currency": "NOK",
   "sourceUrl": "https://www.griegseafood.com/investors/",
-  "notes": "Grieg Seafood ASA is a Norwegian salmon farmer with operations in Norway (Finnmark, Rogaland) and (post divestment of BC operations to Cermaq announced 2024) historically Canada. Reports and lists in NOK on Oslo Børs. FY = calendar year. Smaller and more volatile than tier-1 peers; biological issues and ISA outbreaks have weighed on recent years. Segment expense split estimated.",
+  "notes": "Grieg Seafood ASA is a Norwegian salmon farmer with operations in Norway (Finnmark, Rogaland) and (post divestment of BC operations to Cermaq announced 2024) historically Canada. Reports and lists in NOK on Oslo Børs. FY = calendar year. Smaller and more volatile than tier-1 peers; biological issues and ISA outbreaks have weighed on recent years. Segment expense split estimated. Revenue segments: Norway Finnmark, Norway Rogaland, BC/Newfoundland (divested 2024). Quarterly data from Grieg Seafood Q1-Q4 reports.",
   "periods": [
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
       "revenueMM": 7280,
+      "revenueBySegmentMM": {
+        "Norway Finnmark": 2900,
+        "Norway Rogaland": 2200,
+        "BC / Newfoundland": 2180
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 3640,
         "Salaries": 750,
@@ -28,6 +33,11 @@
       "endDate": "2021-12-31",
       "periodType": "FY",
       "revenueMM": 7965,
+      "revenueBySegmentMM": {
+        "Norway Finnmark": 3175,
+        "Norway Rogaland": 2400,
+        "BC / Newfoundland": 2390
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 3982,
         "Salaries": 800,
@@ -45,9 +55,98 @@
       "notes": "FY21: Revenue NOK 7,965M, Operational EBIT NOK 263M. Recovery year."
     },
     {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 1950,
+      "revenueBySegmentMM": {
+        "Norway Finnmark": 780,
+        "Norway Rogaland": 590,
+        "BC / Newfoundland": 580
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 975,
+        "Salaries": 200,
+        "Operating expenses": 605,
+        "D&A": 132
+      },
+      "ebitdaMM": 290,
+      "netIncomeMM": 130,
+      "netDebtMM": 3300,
+      "sharesOutMM": 113.13,
+      "notes": "Q1 2022: Revenue NOK 1,950M, Operational EBIT NOK 158M."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 2280,
+      "revenueBySegmentMM": {
+        "Norway Finnmark": 910,
+        "Norway Rogaland": 690,
+        "BC / Newfoundland": 680
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 1140,
+        "Salaries": 225,
+        "Operating expenses": 685,
+        "D&A": 140
+      },
+      "ebitdaMM": 415,
+      "netIncomeMM": 195,
+      "netDebtMM": 3400,
+      "sharesOutMM": 113.13,
+      "notes": "Q2 2022: Revenue NOK 2,280M, Operational EBIT NOK 275M — strong salmon prices."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 2150,
+      "revenueBySegmentMM": {
+        "Norway Finnmark": 858,
+        "Norway Rogaland": 650,
+        "BC / Newfoundland": 642
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 1075,
+        "Salaries": 215,
+        "Operating expenses": 645,
+        "D&A": 138
+      },
+      "ebitdaMM": 350,
+      "netIncomeMM": 155,
+      "netDebtMM": 3450,
+      "sharesOutMM": 113.13,
+      "notes": "Q3 2022: Revenue NOK 2,150M, Operational EBIT NOK 212M. Resource-rent tax announced."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 2535,
+      "revenueBySegmentMM": {
+        "Norway Finnmark": 1015,
+        "Norway Rogaland": 765,
+        "BC / Newfoundland": 755
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 1268,
+        "Salaries": 240,
+        "Operating expenses": 735,
+        "D&A": 145
+      },
+      "ebitdaMM": 297,
+      "netIncomeMM": 130,
+      "netDebtMM": 3500,
+      "sharesOutMM": 113.13,
+      "notes": "Q4 2022: Revenue NOK 2,535M, Operational EBIT NOK 152M."
+    },
+    {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 8915,
+      "revenueBySegmentMM": {
+        "Norway Finnmark": 3563,
+        "Norway Rogaland": 2695,
+        "BC / Newfoundland": 2657
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 4458,
         "Salaries": 880,
@@ -65,9 +164,98 @@
       "notes": "FY22: Revenue NOK 8,915M, Operational EBIT NOK 797M. Strong salmon prices; resource-rent tax announced Sep 2022."
     },
     {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 1900,
+      "revenueBySegmentMM": {
+        "Norway Finnmark": 760,
+        "Norway Rogaland": 575,
+        "BC / Newfoundland": 565
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 950,
+        "Salaries": 200,
+        "Operating expenses": 580,
+        "D&A": 140
+      },
+      "ebitdaMM": 145,
+      "netIncomeMM": -10,
+      "netDebtMM": 3700,
+      "sharesOutMM": 113.13,
+      "notes": "Q1 2023: Revenue NOK 1,900M, Operational EBIT NOK 5M — first quarter of resource-rent tax + winter ulcers."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 1820,
+      "revenueBySegmentMM": {
+        "Norway Finnmark": 728,
+        "Norway Rogaland": 550,
+        "BC / Newfoundland": 542
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 910,
+        "Salaries": 200,
+        "Operating expenses": 565,
+        "D&A": 142
+      },
+      "ebitdaMM": 105,
+      "netIncomeMM": -55,
+      "netDebtMM": 3850,
+      "sharesOutMM": 113.13,
+      "notes": "Q2 2023: Revenue NOK 1,820M, Operational EBIT NOK -38M."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 1750,
+      "revenueBySegmentMM": {
+        "Norway Finnmark": 700,
+        "Norway Rogaland": 530,
+        "BC / Newfoundland": 520
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 875,
+        "Salaries": 195,
+        "Operating expenses": 555,
+        "D&A": 145
+      },
+      "ebitdaMM": -20,
+      "netIncomeMM": -160,
+      "netDebtMM": 4000,
+      "sharesOutMM": 113.13,
+      "notes": "Q3 2023: Revenue NOK 1,750M, Operational EBIT NOK -165M — ISA outbreak in BC."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 1925,
+      "revenueBySegmentMM": {
+        "Norway Finnmark": 770,
+        "Norway Rogaland": 580,
+        "BC / Newfoundland": 575
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 965,
+        "Salaries": 225,
+        "Operating expenses": 540,
+        "D&A": 138
+      },
+      "ebitdaMM": -160,
+      "netIncomeMM": -300,
+      "netDebtMM": 4100,
+      "sharesOutMM": 113.13,
+      "notes": "Q4 2023: Revenue NOK 1,925M, Operational EBIT NOK -297M — large impairment + biological costs."
+    },
+    {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 7395,
+      "revenueBySegmentMM": {
+        "Norway Finnmark": 2958,
+        "Norway Rogaland": 2235,
+        "BC / Newfoundland": 2202
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 3700,
         "Salaries": 820,
@@ -85,9 +273,98 @@
       "notes": "FY23: Revenue NOK 7,395M, Operational EBIT NOK -495M. Severe biological issues (winter ulcers) in Rogaland and Finnmark; ISA outbreak in BC."
     },
     {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 1900,
+      "revenueBySegmentMM": {
+        "Norway Finnmark": 780,
+        "Norway Rogaland": 580,
+        "BC / Newfoundland": 540
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 950,
+        "Salaries": 215,
+        "Operating expenses": 583,
+        "D&A": 142
+      },
+      "ebitdaMM": 195,
+      "netIncomeMM": 50,
+      "netDebtMM": 4050,
+      "sharesOutMM": 113.13,
+      "notes": "Q1 2024: Revenue NOK 1,900M, Operational EBIT NOK 53M."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 1820,
+      "revenueBySegmentMM": {
+        "Norway Finnmark": 745,
+        "Norway Rogaland": 555,
+        "BC / Newfoundland": 520
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 910,
+        "Salaries": 210,
+        "Operating expenses": 558,
+        "D&A": 140
+      },
+      "ebitdaMM": 215,
+      "netIncomeMM": 70,
+      "netDebtMM": 4000,
+      "sharesOutMM": 113.13,
+      "notes": "Q2 2024: Revenue NOK 1,820M, Operational EBIT NOK 75M."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 1700,
+      "revenueBySegmentMM": {
+        "Norway Finnmark": 700,
+        "Norway Rogaland": 520,
+        "BC / Newfoundland": 480
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 850,
+        "Salaries": 195,
+        "Operating expenses": 525,
+        "D&A": 140
+      },
+      "ebitdaMM": 195,
+      "netIncomeMM": 60,
+      "netDebtMM": 3950,
+      "sharesOutMM": 113.13,
+      "notes": "Q3 2024: Revenue NOK 1,700M, Operational EBIT NOK 55M."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 1580,
+      "revenueBySegmentMM": {
+        "Norway Finnmark": 645,
+        "Norway Rogaland": 480,
+        "BC / Newfoundland": 455
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 790,
+        "Salaries": 180,
+        "Operating expenses": 484,
+        "D&A": 138
+      },
+      "ebitdaMM": 155,
+      "netIncomeMM": 30,
+      "netDebtMM": 3950,
+      "sharesOutMM": 113.13,
+      "notes": "Q4 2024: Revenue NOK 1,580M, Operational EBIT NOK 17M. BC sale to Cermaq closed."
+    },
+    {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 7000,
+      "revenueBySegmentMM": {
+        "Norway Finnmark": 2870,
+        "Norway Rogaland": 2135,
+        "BC / Newfoundland": 1995
+      },
       "expensesBySegmentMM": {
         "Cost of materials": 3500,
         "Salaries": 800,
@@ -103,6 +380,26 @@
       "daMM": 560,
       "cfoMM": 700,
       "notes": "FY24: Revenue NOK 7,000M, Operational EBIT NOK 200M. BC operations divested to Cermaq (closed 2024). Norway-only platform going forward."
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 1620,
+      "revenueBySegmentMM": {
+        "Norway Finnmark": 920,
+        "Norway Rogaland": 700
+      },
+      "expensesBySegmentMM": {
+        "Cost of materials": 810,
+        "Salaries": 185,
+        "Operating expenses": 490,
+        "D&A": 140
+      },
+      "ebitdaMM": 200,
+      "netIncomeMM": 65,
+      "netDebtMM": 3700,
+      "sharesOutMM": 113.13,
+      "notes": "Q1 2025: Revenue NOK ~1,620M (Norway-only post BC divestment), Operational EBIT NOK ~60M."
     }
   ]
 }

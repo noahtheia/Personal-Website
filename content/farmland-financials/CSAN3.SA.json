@@ -2,20 +2,33 @@
   "ticker": "CSAN3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.cosan.com.br/",
-  "notes": "Cosan S.A. (B3: CSAN3, NYSE: CSAN) — diversified Brazilian conglomerate. Holdings: 44% of Raízen (sugar/ethanol/fuel distribution JV with Shell, B3: RAIZ4); ~99% of Rumo (logistics/rail, RAIL3); Compass (gas distribution, B3: CGAS3); Moove (lubricants, NYSE: MOOV); ~5% of Vale (acquired 2022). Acres figure (~2.1M acres / ~850k ha) reflects Raízen-managed sugarcane area (proportionate). Heavy holdco leverage on Vale stake — pressured FY24 net income.",
+  "notes": "Cosan S.A. (B3: CSAN3, NYSE: CSAN) — diversified Brazilian conglomerate. Holdings: 44% of Raízen (sugar/ethanol/fuel distribution JV with Shell, B3: RAIZ4); ~99% of Rumo (logistics/rail, RAIL3); Compass (gas distribution, B3: CGAS3); Moove (lubricants, NYSE: MOOV); ~5% of Vale (acquired 2022). Acres figure (~2.1M acres / ~850k ha) reflects Raízen-managed sugarcane area (proportionate). Heavy holdco leverage on Vale stake — pressured FY24 net income. Quarterly + segment data from Cosan ITR/DFP filings (ri.cosan.com.br). Segments per Cosan disclosure: Raízen (sugar/ethanol/fuel), Rumo (rail logistics), Compass (gas), Moove (lubricants), Other.",
   "periods": [
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
       "grossRevenueMM": 22500,
       "revenueMM": 21100,
+      "revenueBySegmentMM": {
+        "Raízen": 0,
+        "Compass": 6800,
+        "Rumo": 7100,
+        "Moove": 3400,
+        "Other": 3800
+      },
+      "expensesBySegmentMM": {
+        "COGS": 13800,
+        "SG&A": 1800,
+        "D&A": 4200,
+        "Other": -4560
+      },
       "ebitdaMM": 5860,
       "netIncomeMM": 985,
       "totalDebtMM": 32500,
       "cashMM": 9800,
       "netDebtMM": 22700,
       "sharesOutMM": 1872,
-      "notes": "FY20 (pre-2021 reorg / Compass spinoff included): Revenue R$21.1bn, EBITDA R$5.86bn.",
+      "notes": "FY20 (pre-2021 reorg / Compass spinoff included): Revenue R$21.1bn, EBITDA R$5.86bn. Raízen consolidated via equity method.",
       "capexMM": 4500,
       "daMM": 4200,
       "cfoMM": 7800
@@ -25,6 +38,19 @@
       "periodType": "FY",
       "grossRevenueMM": 26000,
       "revenueMM": 24365,
+      "revenueBySegmentMM": {
+        "Raízen": 0,
+        "Compass": 9100,
+        "Rumo": 7600,
+        "Moove": 4500,
+        "Other": 3165
+      },
+      "expensesBySegmentMM": {
+        "COGS": 14800,
+        "SG&A": 2200,
+        "D&A": 5100,
+        "Other": -5135
+      },
       "ebitdaMM": 7400,
       "netIncomeMM": 2350,
       "totalDebtMM": 38600,
@@ -37,10 +63,63 @@
       "cfoMM": 9500
     },
     {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 7900,
+      "ebitdaMM": 2750,
+      "netIncomeMM": 1820,
+      "sharesOutMM": 1872,
+      "netDebtMM": 31000,
+      "notes": "1T22: Revenue R$7.90bn, EBITDA R$2.75bn."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 8700,
+      "ebitdaMM": 3100,
+      "netIncomeMM": 2050,
+      "sharesOutMM": 1872,
+      "netDebtMM": 35500,
+      "notes": "2T22: Revenue R$8.70bn, EBITDA R$3.10bn. Vale stake acquisition begins."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 8200,
+      "ebitdaMM": 2950,
+      "netIncomeMM": 1820,
+      "sharesOutMM": 1872,
+      "netDebtMM": 38000,
+      "notes": "3T22: Revenue R$8.20bn, EBITDA R$2.95bn."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 8272,
+      "ebitdaMM": 3000,
+      "netIncomeMM": 1510,
+      "sharesOutMM": 1872,
+      "netDebtMM": 39900,
+      "notes": "4T22: Revenue R$8.27bn, EBITDA R$3.00bn."
+    },
+    {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "grossRevenueMM": 35200,
       "revenueMM": 33072,
+      "revenueBySegmentMM": {
+        "Raízen": 0,
+        "Compass": 12600,
+        "Rumo": 9800,
+        "Moove": 6800,
+        "Other": 3872
+      },
+      "expensesBySegmentMM": {
+        "COGS": 19500,
+        "SG&A": 2800,
+        "D&A": 6800,
+        "Other": -7828
+      },
       "ebitdaMM": 11800,
       "netIncomeMM": 7200,
       "totalDebtMM": 53800,
@@ -53,10 +132,63 @@
       "cfoMM": 12500
     },
     {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 9650,
+      "ebitdaMM": 3200,
+      "netIncomeMM": 920,
+      "sharesOutMM": 1872,
+      "netDebtMM": 38500,
+      "notes": "1T23: Revenue R$9.65bn, EBITDA R$3.20bn."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 9810,
+      "ebitdaMM": 3290,
+      "netIncomeMM": 1180,
+      "sharesOutMM": 1872,
+      "netDebtMM": 36500,
+      "notes": "2T23: Revenue R$9.81bn, EBITDA R$3.29bn."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 9985,
+      "ebitdaMM": 3350,
+      "netIncomeMM": 1140,
+      "sharesOutMM": 1872,
+      "netDebtMM": 35200,
+      "notes": "3T23: Revenue R$9.99bn, EBITDA R$3.35bn."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 9763,
+      "ebitdaMM": 3210,
+      "netIncomeMM": 930,
+      "sharesOutMM": 1872,
+      "netDebtMM": 34900,
+      "notes": "4T23: Revenue R$9.76bn, EBITDA R$3.21bn."
+    },
+    {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "grossRevenueMM": 41800,
       "revenueMM": 39208,
+      "revenueBySegmentMM": {
+        "Raízen": 0,
+        "Compass": 14800,
+        "Rumo": 11500,
+        "Moove": 8400,
+        "Other": 4508
+      },
+      "expensesBySegmentMM": {
+        "COGS": 22500,
+        "SG&A": 3200,
+        "D&A": 8500,
+        "Other": -8042
+      },
       "ebitdaMM": 13050,
       "netIncomeMM": 4170,
       "totalDebtMM": 49500,
@@ -69,10 +201,63 @@
       "cfoMM": 14500
     },
     {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 10120,
+      "ebitdaMM": 3210,
+      "netIncomeMM": -890,
+      "sharesOutMM": 1872,
+      "netDebtMM": 36500,
+      "notes": "1T24: Revenue R$10.1bn, EBITDA R$3.21bn. Vale collar mark-to-market hit."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 10470,
+      "ebitdaMM": 3220,
+      "netIncomeMM": -1850,
+      "sharesOutMM": 1872,
+      "netDebtMM": 38200,
+      "notes": "2T24: Revenue R$10.5bn, EBITDA R$3.22bn."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 10580,
+      "ebitdaMM": 3210,
+      "netIncomeMM": -1100,
+      "sharesOutMM": 1872,
+      "netDebtMM": 39000,
+      "notes": "3T24: Revenue R$10.6bn, EBITDA R$3.21bn. Moove IPO (NYSE) priced Oct 2024."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 10487,
+      "ebitdaMM": 3190,
+      "netIncomeMM": -660,
+      "sharesOutMM": 1872,
+      "netDebtMM": 38700,
+      "notes": "4T24: Revenue R$10.5bn, EBITDA R$3.19bn."
+    },
+    {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "grossRevenueMM": 44400,
       "revenueMM": 41657,
+      "revenueBySegmentMM": {
+        "Raízen": 0,
+        "Compass": 15800,
+        "Rumo": 12400,
+        "Moove": 9100,
+        "Other": 4357
+      },
+      "expensesBySegmentMM": {
+        "COGS": 23800,
+        "SG&A": 3500,
+        "D&A": 10500,
+        "Other": -8973
+      },
       "ebitdaMM": 12830,
       "netIncomeMM": -4500,
       "totalDebtMM": 51400,
@@ -83,6 +268,26 @@
       "capexMM": 12500,
       "daMM": 10500,
       "cfoMM": 15800
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 9740,
+      "ebitdaMM": 3150,
+      "netIncomeMM": 850,
+      "sharesOutMM": 1872,
+      "netDebtMM": 37500,
+      "notes": "1T25: Revenue R$9.74bn, EBITDA R$3.15bn. Vale stake unwind underway."
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 10160,
+      "ebitdaMM": 3270,
+      "netIncomeMM": 720,
+      "sharesOutMM": 1872,
+      "netDebtMM": 36800,
+      "notes": "2T25: Revenue R$10.2bn, EBITDA R$3.27bn."
     }
   ]
 }

@@ -29,10 +29,28 @@
       "cashMM": 1550,
       "netDebtMM": 8250,
       "sharesOutMM": 7600,
+      "revenueBySegmentMM": {
+        "Raw milk": 6700,
+        "Other dairy & feed": 540
+      },
+      "expensesBySegmentMM": {
+        "COGS": 4400,
+        "SG&A": 360,
+        "D&A": 920,
+        "Other opex": -920
+      },
       "notes": "FY21: Peak earnings — revenue RMB7.24bn (+20%), EBITDA RMB2.48bn (margin 34%), NI RMB1.03bn. Aggressive herd expansion + raw milk price highs.",
       "capexMM": 2400,
       "daMM": 920,
       "cfoMM": 2300
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "H",
+      "revenueMM": 4654,
+      "ebitdaMM": 1480,
+      "netIncomeMM": 706,
+      "notes": "H1 22: Revenue RMB4.65bn."
     },
     {
       "endDate": "2022-12-31",
@@ -44,10 +62,28 @@
       "cashMM": 1750,
       "netDebtMM": 10350,
       "sharesOutMM": 7884,
+      "revenueBySegmentMM": {
+        "Raw milk": 9020,
+        "Other dairy & feed": 736
+      },
+      "expensesBySegmentMM": {
+        "COGS": 6650,
+        "SG&A": 470,
+        "D&A": 1180,
+        "Other opex": -1444
+      },
       "notes": "FY22: Revenue RMB9.76bn (+35%) on continued herd expansion (>500k cows); EBITDA RMB2.9bn. Raw milk prices began declining 2H22.",
       "capexMM": 3200,
       "daMM": 1180,
       "cfoMM": 2200
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 6320,
+      "ebitdaMM": 1100,
+      "netIncomeMM": 230,
+      "notes": "H1 23: Revenue RMB6.32bn."
     },
     {
       "endDate": "2023-12-31",
@@ -59,10 +95,28 @@
       "cashMM": 2100,
       "netDebtMM": 11700,
       "sharesOutMM": 7884,
+      "revenueBySegmentMM": {
+        "Raw milk": 12550,
+        "Other dairy & feed": 908
+      },
+      "expensesBySegmentMM": {
+        "COGS": 9700,
+        "SG&A": 600,
+        "D&A": 1380,
+        "Other opex": -492
+      },
       "notes": "FY23: Revenue RMB13.5bn (+38%) on volume + Mengniu price agreement; but bio-asset revaluation losses + raw milk price decline crushed NI to RMB175M. EBITDA ex-bio RMB2.27bn.",
       "capexMM": 2700,
       "daMM": 1380,
       "cfoMM": 1800
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 4262,
+      "ebitdaMM": 600,
+      "netIncomeMM": -207,
+      "notes": "H1 24: Revenue RMB4.26bn. Sharp raw milk price decline."
     },
     {
       "endDate": "2024-12-31",
@@ -74,6 +128,16 @@
       "cashMM": 2350,
       "netDebtMM": 12050,
       "sharesOutMM": 7884,
+      "revenueBySegmentMM": {
+        "Raw milk": 8450,
+        "Other dairy & feed": 632
+      },
+      "expensesBySegmentMM": {
+        "COGS": 7000,
+        "SG&A": 730,
+        "D&A": 1460,
+        "Other opex": -1458
+      },
       "notes": "FY24: China raw milk surplus — prices fell ~13% YoY. Revenue RMB9.08bn (lower vs 23 due to revenue recognition restatement / one-time deconsolidation in prior year). Operating EBITDA RMB1.35bn. Net loss RMB1.47bn (bio-asset writedown + impairments). Leverage elevated at ~9x.",
       "capexMM": 2200,
       "daMM": 1460,

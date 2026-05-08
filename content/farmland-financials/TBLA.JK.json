@@ -115,6 +115,90 @@
       "cfoMM": 1820000
     },
     {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 3650000,
+      "revenueBySegmentMM": {
+        "Palm + cooking oil": 2590000,
+        "Sugar / ethanol": 920000,
+        "Other": 140000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2970000,
+        "G&A": 150000,
+        "Selling": 105000,
+        "D&A": 135000
+      },
+      "ebitdaMM": 555000,
+      "netIncomeMM": 230000,
+      "netDebtMM": 8050000,
+      "sharesOutMM": 5240,
+      "notes": "Q1 2022: revenue Rp3.65T on peak CPO ASP."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 3720000,
+      "revenueBySegmentMM": {
+        "Palm + cooking oil": 2640000,
+        "Sugar / ethanol": 935000,
+        "Other": 145000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3030000,
+        "G&A": 152000,
+        "Selling": 108000,
+        "D&A": 136000
+      },
+      "ebitdaMM": 555000,
+      "netIncomeMM": 220000,
+      "netDebtMM": 8100000,
+      "sharesOutMM": 5240,
+      "notes": "Q2 2022: revenue Rp3.72T; export ban + DMO compressed margins."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 3580000,
+      "revenueBySegmentMM": {
+        "Palm + cooking oil": 2540000,
+        "Sugar / ethanol": 900000,
+        "Other": 140000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2920000,
+        "G&A": 148000,
+        "Selling": 104000,
+        "D&A": 137000
+      },
+      "ebitdaMM": 525000,
+      "netIncomeMM": 200000,
+      "netDebtMM": 8050000,
+      "sharesOutMM": 5240,
+      "notes": "Q3 2022: revenue Rp3.58T."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 3685000,
+      "revenueBySegmentMM": {
+        "Palm + cooking oil": 2610000,
+        "Sugar / ethanol": 925000,
+        "Other": 150000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3000000,
+        "G&A": 155000,
+        "Selling": 108000,
+        "D&A": 137000
+      },
+      "ebitdaMM": 515000,
+      "netIncomeMM": 200000,
+      "netDebtMM": 7990000,
+      "sharesOutMM": 5240,
+      "notes": "Q4 2022: revenue Rp3.69T."
+    },
+    {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 14635000,
@@ -154,6 +238,90 @@
       "cfoMM": 1700000
     },
     {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 3380000,
+      "revenueBySegmentMM": {
+        "Palm + cooking oil": 2395000,
+        "Sugar / ethanol": 850000,
+        "Other": 135000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2855000,
+        "G&A": 148000,
+        "Selling": 102000,
+        "D&A": 140000
+      },
+      "ebitdaMM": 360000,
+      "netIncomeMM": 120000,
+      "netDebtMM": 7900000,
+      "sharesOutMM": 5240,
+      "notes": "Q1 2023: revenue Rp3.38T."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 3410000,
+      "revenueBySegmentMM": {
+        "Palm + cooking oil": 2415000,
+        "Sugar / ethanol": 858000,
+        "Other": 137000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2880000,
+        "G&A": 149000,
+        "Selling": 103000,
+        "D&A": 141000
+      },
+      "ebitdaMM": 365000,
+      "netIncomeMM": 125000,
+      "netDebtMM": 7950000,
+      "sharesOutMM": 5240,
+      "notes": "Q2 2023: revenue Rp3.41T."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 3360000,
+      "revenueBySegmentMM": {
+        "Palm + cooking oil": 2380000,
+        "Sugar / ethanol": 845000,
+        "Other": 135000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2835000,
+        "G&A": 148000,
+        "Selling": 101000,
+        "D&A": 141000
+      },
+      "ebitdaMM": 355000,
+      "netIncomeMM": 115000,
+      "netDebtMM": 7960000,
+      "sharesOutMM": 5240,
+      "notes": "Q3 2023: revenue Rp3.36T."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 3430000,
+      "revenueBySegmentMM": {
+        "Palm + cooking oil": 2430000,
+        "Sugar / ethanol": 867000,
+        "Other": 133000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2890000,
+        "G&A": 150000,
+        "Selling": 104000,
+        "D&A": 143000
+      },
+      "ebitdaMM": 370000,
+      "netIncomeMM": 128000,
+      "netDebtMM": 7935000,
+      "sharesOutMM": 5240,
+      "notes": "Q4 2023: revenue Rp3.43T."
+    },
+    {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 13580000,
@@ -191,6 +359,90 @@
       "capexMM": 1020000,
       "daMM": 530000,
       "cfoMM": 1080000
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 3900000,
+      "revenueBySegmentMM": {
+        "Palm + cooking oil": 2765000,
+        "Sugar / ethanol": 980000,
+        "Other": 155000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3250000,
+        "G&A": 153000,
+        "Selling": 107000,
+        "D&A": 143000
+      },
+      "ebitdaMM": 540000,
+      "netIncomeMM": 220000,
+      "netDebtMM": 7800000,
+      "sharesOutMM": 5240,
+      "notes": "Q1 2024: revenue Rp3.90T on CPO recovery + B40 biodiesel mandate."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 4010000,
+      "revenueBySegmentMM": {
+        "Palm + cooking oil": 2845000,
+        "Sugar / ethanol": 1010000,
+        "Other": 155000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3340000,
+        "G&A": 156000,
+        "Selling": 109000,
+        "D&A": 144000
+      },
+      "ebitdaMM": 580000,
+      "netIncomeMM": 245000,
+      "netDebtMM": 7700000,
+      "sharesOutMM": 5240,
+      "notes": "Q2 2024: revenue Rp4.01T."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 3905000,
+      "revenueBySegmentMM": {
+        "Palm + cooking oil": 2770000,
+        "Sugar / ethanol": 980000,
+        "Other": 155000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3255000,
+        "G&A": 154000,
+        "Selling": 107000,
+        "D&A": 145000
+      },
+      "ebitdaMM": 555000,
+      "netIncomeMM": 235000,
+      "netDebtMM": 7670000,
+      "sharesOutMM": 5240,
+      "notes": "Q3 2024: revenue Rp3.91T."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 4005000,
+      "revenueBySegmentMM": {
+        "Palm + cooking oil": 2830000,
+        "Sugar / ethanol": 1015000,
+        "Other": 160000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3335000,
+        "G&A": 157000,
+        "Selling": 112000,
+        "D&A": 148000
+      },
+      "ebitdaMM": 565000,
+      "netIncomeMM": 252000,
+      "netDebtMM": 7640000,
+      "sharesOutMM": 5240,
+      "notes": "Q4 2024: revenue Rp4.01T; net income Rp252B."
     },
     {
       "endDate": "2024-12-31",

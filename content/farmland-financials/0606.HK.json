@@ -44,10 +44,30 @@
       "cashMM": 8100,
       "netDebtMM": 24300,
       "sharesOutMM": 5256,
+      "revenueBySegmentMM": {
+        "Oilseed processing": 78000,
+        "Biofuel & biochemical": 14500,
+        "Brewing materials": 17800,
+        "Rice": 32200
+      },
+      "expensesBySegmentMM": {
+        "COGS": 130000,
+        "SG&A": 6000,
+        "D&A": 1700,
+        "Other opex": -20
+      },
       "notes": "FY22: Revenue RMB142.5bn — peak year on Russia/Ukraine grain dislocation + China demand. EBITDA RMB4.82bn (margin 3.4%).",
       "capexMM": 2400,
       "daMM": 1700,
       "cfoMM": 2600
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 60500,
+      "ebitdaMM": 1450,
+      "netIncomeMM": 290,
+      "notes": "H1 23: Revenue RMB60.5bn."
     },
     {
       "endDate": "2023-12-31",
@@ -59,10 +79,30 @@
       "cashMM": 7900,
       "netDebtMM": 25300,
       "sharesOutMM": 5256,
+      "revenueBySegmentMM": {
+        "Oilseed processing": 64000,
+        "Biofuel & biochemical": 12000,
+        "Brewing materials": 14500,
+        "Rice": 26900
+      },
+      "expensesBySegmentMM": {
+        "COGS": 107500,
+        "SG&A": 5500,
+        "D&A": 1800,
+        "Other opex": 740
+      },
       "notes": "FY23: Revenue RMB117.4bn (-18%) on grain price normalization; oilseed crush margin trough. EBITDA RMB2.86bn (margin 2.4%), NI RMB510M.",
       "capexMM": 2300,
       "daMM": 1800,
       "cfoMM": 4500
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 51200,
+      "ebitdaMM": 950,
+      "netIncomeMM": 80,
+      "notes": "H1 24: Revenue RMB51.2bn."
     },
     {
       "endDate": "2024-12-31",
@@ -74,6 +114,18 @@
       "cashMM": 8200,
       "netDebtMM": 25600,
       "sharesOutMM": 5256,
+      "revenueBySegmentMM": {
+        "Oilseed processing": 54500,
+        "Biofuel & biochemical": 10000,
+        "Brewing materials": 12500,
+        "Rice": 23185
+      },
+      "expensesBySegmentMM": {
+        "COGS": 91500,
+        "SG&A": 5500,
+        "D&A": 1850,
+        "Other opex": 1135
+      },
       "notes": "FY24: Revenue RMB100.2bn (-15%) on continued commodity price softness + weaker oilseed crush spreads; EBITDA RMB2.05bn (margin 2.0%), NI RMB305M. Leverage ~12.5x — heavy working capital.",
       "capexMM": 2200,
       "daMM": 1850,

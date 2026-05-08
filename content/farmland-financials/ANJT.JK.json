@@ -112,6 +112,86 @@
       "cfoMM": 940000
     },
     {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 880000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 792000,
+        "Sago / edamame / other": 88000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 615000,
+        "G&A": 44000,
+        "Selling": 34000,
+        "D&A": 82000
+      },
+      "ebitdaMM": 245000,
+      "netIncomeMM": 120000,
+      "netDebtMM": 1400000,
+      "sharesOutMM": 3354,
+      "notes": "Q1 2022: revenue Rp880B on peak CPO ASP."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 925000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 832000,
+        "Sago / edamame / other": 93000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 650000,
+        "G&A": 46000,
+        "Selling": 36000,
+        "D&A": 84000
+      },
+      "ebitdaMM": 245000,
+      "netIncomeMM": 115000,
+      "netDebtMM": 1380000,
+      "sharesOutMM": 3354,
+      "notes": "Q2 2022: revenue Rp925B; export ban / DMO compressed margins."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 845000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 762000,
+        "Sago / edamame / other": 83000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 595000,
+        "G&A": 42000,
+        "Selling": 32000,
+        "D&A": 82000
+      },
+      "ebitdaMM": 215000,
+      "netIncomeMM": 95000,
+      "netDebtMM": 1340000,
+      "sharesOutMM": 3354,
+      "notes": "Q3 2022: revenue Rp845B."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 870000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 783000,
+        "Sago / edamame / other": 87000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 610000,
+        "G&A": 43000,
+        "Selling": 33000,
+        "D&A": 87000
+      },
+      "ebitdaMM": 215000,
+      "netIncomeMM": 85000,
+      "netDebtMM": 1320000,
+      "sharesOutMM": 3354,
+      "notes": "Q4 2022: revenue Rp870B; net income Rp85B."
+    },
+    {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 3520000,
@@ -150,6 +230,86 @@
       "cfoMM": 880000
     },
     {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 810000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 728000,
+        "Sago / edamame / other": 82000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 622000,
+        "G&A": 44000,
+        "Selling": 32000,
+        "D&A": 87000
+      },
+      "ebitdaMM": 130000,
+      "netIncomeMM": 35000,
+      "netDebtMM": 1380000,
+      "sharesOutMM": 3354,
+      "notes": "Q1 2023: revenue Rp810B; CPO ASP softened."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 820000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 738000,
+        "Sago / edamame / other": 82000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 630000,
+        "G&A": 44000,
+        "Selling": 32000,
+        "D&A": 88000
+      },
+      "ebitdaMM": 135000,
+      "netIncomeMM": 38000,
+      "netDebtMM": 1390000,
+      "sharesOutMM": 3354,
+      "notes": "Q2 2023: revenue Rp820B."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 805000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 723000,
+        "Sago / edamame / other": 82000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 618000,
+        "G&A": 43000,
+        "Selling": 32000,
+        "D&A": 87000
+      },
+      "ebitdaMM": 130000,
+      "netIncomeMM": 35000,
+      "netDebtMM": 1395000,
+      "sharesOutMM": 3354,
+      "notes": "Q3 2023: revenue Rp805B."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 835000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 751000,
+        "Sago / edamame / other": 84000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 640000,
+        "G&A": 47000,
+        "Selling": 34000,
+        "D&A": 88000
+      },
+      "ebitdaMM": 135000,
+      "netIncomeMM": 36000,
+      "netDebtMM": 1390000,
+      "sharesOutMM": 3354,
+      "notes": "Q4 2023: revenue Rp835B."
+    },
+    {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 3270000,
@@ -186,6 +346,86 @@
       "capexMM": 410000,
       "daMM": 300000,
       "cfoMM": 540000
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 905000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 815000,
+        "Sago / edamame / other": 90000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 655000,
+        "G&A": 45000,
+        "Selling": 34000,
+        "D&A": 89000
+      },
+      "ebitdaMM": 220000,
+      "netIncomeMM": 90000,
+      "netDebtMM": 1300000,
+      "sharesOutMM": 3354,
+      "notes": "Q1 2024: revenue Rp905B; CPO recovery."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 920000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 828000,
+        "Sago / edamame / other": 92000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 665000,
+        "G&A": 46000,
+        "Selling": 35000,
+        "D&A": 90000
+      },
+      "ebitdaMM": 235000,
+      "netIncomeMM": 100000,
+      "netDebtMM": 1280000,
+      "sharesOutMM": 3354,
+      "notes": "Q2 2024: revenue Rp920B."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 905000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 815000,
+        "Sago / edamame / other": 90000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 655000,
+        "G&A": 45000,
+        "Selling": 34000,
+        "D&A": 90000
+      },
+      "ebitdaMM": 230000,
+      "netIncomeMM": 96000,
+      "netDebtMM": 1250000,
+      "sharesOutMM": 3354,
+      "notes": "Q3 2024: revenue Rp905B."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 950000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 856000,
+        "Sago / edamame / other": 94000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 685000,
+        "G&A": 49000,
+        "Selling": 37000,
+        "D&A": 91000
+      },
+      "ebitdaMM": 235000,
+      "netIncomeMM": 106000,
+      "netDebtMM": 1220000,
+      "sharesOutMM": 3354,
+      "notes": "Q4 2024: revenue Rp950B; net income Rp106B."
     },
     {
       "endDate": "2024-12-31",

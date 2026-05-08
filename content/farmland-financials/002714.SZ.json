@@ -44,10 +44,53 @@
       "cashMM": 14100,
       "netDebtMM": 53400,
       "sharesOutMM": 5430,
+      "revenueBySegmentMM": {
+        "Pig farming (live hogs)": 116500,
+        "Slaughter & meat processing": 7500,
+        "Other": 826
+      },
+      "expensesBySegmentMM": {
+        "COGS": 90000,
+        "SG&A": 4500,
+        "D&A": 5400,
+        "Other opex": -2174
+      },
       "notes": "FY22: Hog price recovery 2H22 (RMB22-28/kg). Revenue RMB124.8bn (+58%), EBITDA RMB27.1bn (margin 21.7%), NI RMB13.3bn. 61.2M head sold.",
       "capexMM": 18000,
       "daMM": 5400,
       "cfoMM": 23000
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 24149,
+      "ebitdaMM": 1900,
+      "netIncomeMM": -1198,
+      "notes": "Q1 23: hog prices weakening."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 27572,
+      "ebitdaMM": 3000,
+      "netIncomeMM": -156,
+      "notes": "Q2 23"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 30197,
+      "ebitdaMM": 3500,
+      "netIncomeMM": -816,
+      "notes": "Q3 23"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 28943,
+      "ebitdaMM": 5100,
+      "netIncomeMM": -2093,
+      "notes": "Q4 23: trough."
     },
     {
       "endDate": "2023-12-31",
@@ -59,10 +102,53 @@
       "cashMM": 19400,
       "netDebtMM": 55800,
       "sharesOutMM": 5462,
+      "revenueBySegmentMM": {
+        "Pig farming (live hogs)": 99500,
+        "Slaughter & meat processing": 10800,
+        "Other": 561
+      },
+      "expensesBySegmentMM": {
+        "COGS": 86500,
+        "SG&A": 4500,
+        "D&A": 6800,
+        "Other opex": -439
+      },
       "notes": "FY23: Trough cycle — hog prices avg RMB14-15/kg (below cost). Revenue RMB110.9bn (-11%), EBITDA RMB13.5bn (margin 12.2%), NI -RMB4.26bn (first annual loss). 63.8M head sold.",
       "capexMM": 9800,
       "daMM": 6800,
       "cfoMM": 9800
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 26272,
+      "ebitdaMM": 4500,
+      "netIncomeMM": -2366,
+      "notes": "Q1 24"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 30086,
+      "ebitdaMM": 6800,
+      "netIncomeMM": 3232,
+      "notes": "Q2 24: prices recovering."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 39668,
+      "ebitdaMM": 12500,
+      "netIncomeMM": 9652,
+      "notes": "Q3 24: peak quarter."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 41923,
+      "ebitdaMM": 7400,
+      "netIncomeMM": 7292,
+      "notes": "Q4 24"
     },
     {
       "endDate": "2024-12-31",
@@ -74,6 +160,17 @@
       "cashMM": 22200,
       "netDebtMM": 49200,
       "sharesOutMM": 5468,
+      "revenueBySegmentMM": {
+        "Pig farming (live hogs)": 124000,
+        "Slaughter & meat processing": 13200,
+        "Other": 749
+      },
+      "expensesBySegmentMM": {
+        "COGS": 95000,
+        "SG&A": 5000,
+        "D&A": 7800,
+        "Other opex": -1051
+      },
       "notes": "FY24: Strong recovery — hog prices avg RMB17/kg, full-year cost down to ~RMB13.7/kg. Revenue RMB137.9bn (+24%), EBITDA RMB31.2bn (margin 22.6%), NI RMB17.8bn. 71.6M head sold (record). Leverage <1.6x.",
       "capexMM": 6500,
       "daMM": 7800,

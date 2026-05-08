@@ -128,6 +128,146 @@
       "capexMM": 380,
       "daMM": 195,
       "cfoMM": 620
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 1620,
+      "ebitdaMM": 175,
+      "netIncomeMM": 130,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 200,
+      "notes": "1T22: receita R$1.62B, EBITDA R$175M (10.8%)."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 1810,
+      "ebitdaMM": 195,
+      "netIncomeMM": 145,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 450,
+      "notes": "2T22: receita R$1.81B, EBITDA R$195M."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 1860,
+      "ebitdaMM": 195,
+      "netIncomeMM": 140,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 620,
+      "notes": "3T22: receita R$1.86B, EBITDA R$195M."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 1480,
+      "ebitdaMM": 165,
+      "netIncomeMM": 110,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 750,
+      "notes": "4T22: receita R$1.48B, EBITDA R$165M."
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 1830,
+      "ebitdaMM": 170,
+      "netIncomeMM": 115,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 1050,
+      "notes": "1T23: receita R$1.83B, EBITDA R$170M."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 1920,
+      "ebitdaMM": 185,
+      "netIncomeMM": 120,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 1250,
+      "notes": "2T23: receita R$1.92B, EBITDA R$185M. Vilhena-RO inaugura."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 1990,
+      "ebitdaMM": 195,
+      "netIncomeMM": 130,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 1420,
+      "notes": "3T23: receita R$1.99B, EBITDA R$195M."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 1770,
+      "ebitdaMM": 170,
+      "netIncomeMM": 115,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 1550,
+      "notes": "4T23: receita R$1.77B, EBITDA R$170M."
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 1880,
+      "ebitdaMM": 145,
+      "netIncomeMM": 100,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 1750,
+      "notes": "1T24: receita R$1.88B, EBITDA R$145M. Margens caindo."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 2050,
+      "ebitdaMM": 165,
+      "netIncomeMM": 110,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 1950,
+      "notes": "2T24: receita R$2.05B, EBITDA R$165M."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 2130,
+      "ebitdaMM": 175,
+      "netIncomeMM": 125,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 2100,
+      "notes": "3T24: receita R$2.13B, EBITDA R$175M."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 1940,
+      "ebitdaMM": 165,
+      "netIncomeMM": 105,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 2150,
+      "notes": "4T24: receita R$1.94B, EBITDA R$165M."
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 2050,
+      "ebitdaMM": 180,
+      "netIncomeMM": 120,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 2200,
+      "notes": "1T25: receita R$2.05B, EBITDA R$180M. Vilhena ramp-up estabilizado."
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 2240,
+      "ebitdaMM": 200,
+      "netIncomeMM": 135,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 2240,
+      "notes": "2T25: receita R$2.24B, EBITDA R$200M."
     }
   ]
 }

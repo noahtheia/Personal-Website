@@ -58,10 +58,53 @@
       "netDebtMM": 4387,
       "sharesOutMM": 3465,
       "dividendPerShare": 1.75,
+      "revenueBySegmentMM": {
+        "Packaged meats": 27500,
+        "Fresh pork": 31000,
+        "Other": 1597
+      },
+      "expensesBySegmentMM": {
+        "COGS": 49500,
+        "SG&A": 4100,
+        "D&A": 1340,
+        "Other opex": -2636
+      },
       "notes": "FY23: Revenue RMB60.1bn (-4%). EBITDA RMB7.79bn (margin 13.0%). NI RMB5.05bn (-10%). Net debt swung to +RMB4.4bn after large dividend distribution + working capital. DPS RMB1.75.",
       "capexMM": 2900,
       "daMM": 1340,
       "cfoMM": 6100
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 14550,
+      "ebitdaMM": 1800,
+      "netIncomeMM": 1450,
+      "notes": "Q1 23"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 14750,
+      "ebitdaMM": 1900,
+      "netIncomeMM": 1230,
+      "notes": "Q2 23"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 15400,
+      "ebitdaMM": 2050,
+      "netIncomeMM": 1300,
+      "notes": "Q3 23"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 15397,
+      "ebitdaMM": 2043,
+      "netIncomeMM": 1073,
+      "notes": "Q4 23"
     },
     {
       "endDate": "2024-12-31",
@@ -74,10 +117,53 @@
       "netDebtMM": 2375,
       "sharesOutMM": 3465,
       "dividendPerShare": 1.4,
+      "revenueBySegmentMM": {
+        "Packaged meats": 28000,
+        "Fresh pork": 30200,
+        "Other": 1515
+      },
+      "expensesBySegmentMM": {
+        "COGS": 48000,
+        "SG&A": 4200,
+        "D&A": 1380,
+        "Other opex": -2227
+      },
       "notes": "FY24: Revenue RMB59.7bn (-1%). EBITDA RMB8.36bn (margin 14.0%) — best margin year of cycle on lower hog input costs. NI RMB4.99bn (-1%). DPS reduced to RMB1.40 (still ~97% payout).",
       "capexMM": 2500,
       "daMM": 1380,
       "cfoMM": 6500
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 14400,
+      "ebitdaMM": 2050,
+      "netIncomeMM": 1450,
+      "notes": "Q1 24"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 14750,
+      "ebitdaMM": 2100,
+      "netIncomeMM": 1240,
+      "notes": "Q2 24"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 15300,
+      "ebitdaMM": 2150,
+      "netIncomeMM": 1280,
+      "notes": "Q3 24"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 15265,
+      "ebitdaMM": 2062,
+      "netIncomeMM": 1019,
+      "notes": "Q4 24"
     },
     {
       "endDate": "2025-12-31",

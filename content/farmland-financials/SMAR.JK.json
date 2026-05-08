@@ -115,6 +115,90 @@
       "cfoMM": 5300000
     },
     {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 15800000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 12640000,
+        "Plantation (CPO/PK)": 2840000,
+        "Other": 320000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 14530000,
+        "G&A": 330000,
+        "Selling": 300000,
+        "D&A": 245000
+      },
+      "ebitdaMM": 1100000,
+      "netIncomeMM": 510000,
+      "netDebtMM": 11800000,
+      "sharesOutMM": 2872,
+      "notes": "Q1 2022: revenue Rp15.8T on peak CPO ASP. Net income Rp510B."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 16500000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 13200000,
+        "Plantation (CPO/PK)": 2965000,
+        "Other": 335000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 15300000,
+        "G&A": 340000,
+        "Selling": 310000,
+        "D&A": 250000
+      },
+      "ebitdaMM": 950000,
+      "netIncomeMM": 420000,
+      "netDebtMM": 11900000,
+      "sharesOutMM": 2872,
+      "notes": "Q2 2022: revenue Rp16.5T; export ban + DMO compressed margins."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 15700000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 12550000,
+        "Plantation (CPO/PK)": 2825000,
+        "Other": 325000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 14450000,
+        "G&A": 330000,
+        "Selling": 300000,
+        "D&A": 245000
+      },
+      "ebitdaMM": 850000,
+      "netIncomeMM": 350000,
+      "netDebtMM": 11850000,
+      "sharesOutMM": 2872,
+      "notes": "Q3 2022: revenue Rp15.7T; CPO ASP normalization."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 16298000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 13050000,
+        "Plantation (CPO/PK)": 2930000,
+        "Other": 318000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 14860000,
+        "G&A": 340000,
+        "Selling": 310000,
+        "D&A": 245000
+      },
+      "ebitdaMM": 860000,
+      "netIncomeMM": 413000,
+      "netDebtMM": 11790000,
+      "sharesOutMM": 2872,
+      "notes": "Q4 2022: revenue Rp16.3T; net income Rp413B."
+    },
+    {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 64298000,
@@ -154,6 +238,90 @@
       "cfoMM": 4800000
     },
     {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 15100000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 12080000,
+        "Plantation (CPO/PK)": 2715000,
+        "Other": 305000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 14130000,
+        "G&A": 325000,
+        "Selling": 295000,
+        "D&A": 250000
+      },
+      "ebitdaMM": 580000,
+      "netIncomeMM": 220000,
+      "netDebtMM": 11700000,
+      "sharesOutMM": 2872,
+      "notes": "Q1 2023: revenue Rp15.1T; CPO ASP softened."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 15200000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 12160000,
+        "Plantation (CPO/PK)": 2735000,
+        "Other": 305000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 14210000,
+        "G&A": 330000,
+        "Selling": 295000,
+        "D&A": 250000
+      },
+      "ebitdaMM": 600000,
+      "netIncomeMM": 245000,
+      "netDebtMM": 11600000,
+      "sharesOutMM": 2872,
+      "notes": "Q2 2023: revenue Rp15.2T; net income Rp245B."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 14900000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 11920000,
+        "Plantation (CPO/PK)": 2685000,
+        "Other": 295000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 13950000,
+        "G&A": 325000,
+        "Selling": 290000,
+        "D&A": 252000
+      },
+      "ebitdaMM": 590000,
+      "netIncomeMM": 240000,
+      "netDebtMM": 11550000,
+      "sharesOutMM": 2872,
+      "notes": "Q3 2023: revenue Rp14.9T."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 15335000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 12260000,
+        "Plantation (CPO/PK)": 2760000,
+        "Other": 315000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 14350000,
+        "G&A": 340000,
+        "Selling": 310000,
+        "D&A": 258000
+      },
+      "ebitdaMM": 630000,
+      "netIncomeMM": 283000,
+      "netDebtMM": 11500000,
+      "sharesOutMM": 2872,
+      "notes": "Q4 2023: revenue Rp15.3T; net income Rp283B."
+    },
+    {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 60535000,
@@ -191,6 +359,90 @@
       "capexMM": 1380000,
       "daMM": 800000,
       "cfoMM": 3200000
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 16800000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 13440000,
+        "Plantation (CPO/PK)": 3025000,
+        "Other": 335000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 15440000,
+        "G&A": 350000,
+        "Selling": 320000,
+        "D&A": 255000
+      },
+      "ebitdaMM": 920000,
+      "netIncomeMM": 410000,
+      "netDebtMM": 11200000,
+      "sharesOutMM": 2872,
+      "notes": "Q1 2024: revenue Rp16.8T; CPO recovery."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 17200000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 13760000,
+        "Plantation (CPO/PK)": 3100000,
+        "Other": 340000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 15810000,
+        "G&A": 358000,
+        "Selling": 325000,
+        "D&A": 258000
+      },
+      "ebitdaMM": 980000,
+      "netIncomeMM": 460000,
+      "netDebtMM": 11000000,
+      "sharesOutMM": 2872,
+      "notes": "Q2 2024: revenue Rp17.2T."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 16800000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 13440000,
+        "Plantation (CPO/PK)": 3025000,
+        "Other": 335000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 15425000,
+        "G&A": 355000,
+        "Selling": 320000,
+        "D&A": 260000
+      },
+      "ebitdaMM": 970000,
+      "netIncomeMM": 450000,
+      "netDebtMM": 10950000,
+      "sharesOutMM": 2872,
+      "notes": "Q3 2024: revenue Rp16.8T."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 17620000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 14100000,
+        "Plantation (CPO/PK)": 3170000,
+        "Other": 350000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 16155000,
+        "G&A": 357000,
+        "Selling": 340000,
+        "D&A": 267000
+      },
+      "ebitdaMM": 1045000,
+      "netIncomeMM": 500000,
+      "netDebtMM": 10880000,
+      "sharesOutMM": 2872,
+      "notes": "Q4 2024: revenue Rp17.6T; net income Rp500B."
     },
     {
       "endDate": "2024-12-31",

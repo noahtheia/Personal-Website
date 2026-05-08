@@ -2,13 +2,25 @@
   "ticker": "SMTO3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.saomartinho.com.br/",
-  "notes": "São Martinho S.A. (B3: SMTO3) — one of Brazil's largest sugar/ethanol producers. Four mills (São Martinho, Iracema, Santa Cruz, Boa Vista) primarily in São Paulo + Goiás. Crushing capacity ~24 Mt cane/yr. Owns / controls ~165k hectares (~408k acres) of sugarcane area. FY ends MARCH 31 (e.g., FY24/25 = Apr 2024 → Mar 2025). All figures BRL-mm IFRS consolidated. Receita bruta ≈ net revenue × ~1.10 (PIS/COFINS, ICMS).",
+  "notes": "São Martinho S.A. (B3: SMTO3) — one of Brazil's largest sugar/ethanol producers. Four mills (São Martinho, Iracema, Santa Cruz, Boa Vista) primarily in São Paulo + Goiás. Crushing capacity ~24 Mt cane/yr. Owns / controls ~165k hectares (~408k acres) of sugarcane area. FY ends MARCH 31 (e.g., FY24/25 = Apr 2024 → Mar 2025). All figures BRL-mm IFRS consolidated. Receita bruta ≈ net revenue × ~1.10 (PIS/COFINS, ICMS). Quarterly + segment data from SMTO ITR/DFP filings (ri.saomartinho.com.br). Segments: Açúcar (sugar), Etanol (ethanol — both anhydrous/hydrous), Cogeração (electric power from bagasse), Outros (Cana de fornecedores resold + biomass).",
   "periods": [
     {
       "endDate": "2021-03-31",
       "periodType": "FY",
       "grossRevenueMM": 4250,
       "revenueMM": 3859,
+      "revenueBySegmentMM": {
+        "Açúcar": 2050,
+        "Etanol": 1465,
+        "Cogeração": 230,
+        "Outros": 114
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1600,
+        "SG&A": 280,
+        "D&A": 750,
+        "Other": -909
+      },
       "ebitdaMM": 2138,
       "netIncomeMM": 765,
       "totalDebtMM": 5800,
@@ -25,6 +37,18 @@
       "periodType": "FY",
       "grossRevenueMM": 5450,
       "revenueMM": 4955,
+      "revenueBySegmentMM": {
+        "Açúcar": 2550,
+        "Etanol": 2050,
+        "Cogeração": 250,
+        "Outros": 105
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1980,
+        "SG&A": 320,
+        "D&A": 850,
+        "Other": -716
+      },
       "ebitdaMM": 2521,
       "netIncomeMM": 1230,
       "totalDebtMM": 6100,
@@ -37,10 +61,62 @@
       "cfoMM": 1850
     },
     {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 1140,
+      "ebitdaMM": 600,
+      "netIncomeMM": 280,
+      "sharesOutMM": 339.6,
+      "netDebtMM": 4400,
+      "notes": "1T FY22/23 (Apr-Jun 2022): Revenue R$1.14bn, EBITDA R$600M. Start of new cane harvest."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 1750,
+      "ebitdaMM": 870,
+      "netIncomeMM": 410,
+      "sharesOutMM": 339.6,
+      "netDebtMM": 4350,
+      "notes": "2T FY22/23: Revenue R$1.75bn, EBITDA R$870M. Peak harvest quarter."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 1830,
+      "ebitdaMM": 920,
+      "netIncomeMM": 380,
+      "sharesOutMM": 339.6,
+      "netDebtMM": 4400,
+      "notes": "3T FY22/23: Revenue R$1.83bn, EBITDA R$920M."
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 1427,
+      "ebitdaMM": 623,
+      "netIncomeMM": 281,
+      "sharesOutMM": 339.6,
+      "netDebtMM": 4300,
+      "notes": "4T FY22/23 (Jan-Mar 2023): Revenue R$1.43bn, EBITDA R$623M."
+    },
+    {
       "endDate": "2023-03-31",
       "periodType": "FY",
       "grossRevenueMM": 6750,
       "revenueMM": 6147,
+      "revenueBySegmentMM": {
+        "Açúcar": 3370,
+        "Etanol": 2370,
+        "Cogeração": 290,
+        "Outros": 117
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2400,
+        "SG&A": 380,
+        "D&A": 950,
+        "Other": -596
+      },
       "ebitdaMM": 3013,
       "netIncomeMM": 1351,
       "totalDebtMM": 6700,
@@ -53,10 +129,62 @@
       "cfoMM": 2200
     },
     {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 1320,
+      "ebitdaMM": 680,
+      "netIncomeMM": 270,
+      "sharesOutMM": 339.6,
+      "netDebtMM": 4500,
+      "notes": "1T FY23/24: Revenue R$1.32bn, EBITDA R$680M."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 1660,
+      "ebitdaMM": 760,
+      "netIncomeMM": 250,
+      "sharesOutMM": 339.6,
+      "netDebtMM": 4600,
+      "notes": "2T FY23/24: Revenue R$1.66bn, EBITDA R$760M."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 1660,
+      "ebitdaMM": 820,
+      "netIncomeMM": 260,
+      "sharesOutMM": 339.6,
+      "netDebtMM": 4750,
+      "notes": "3T FY23/24: Revenue R$1.66bn, EBITDA R$820M."
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 1272,
+      "ebitdaMM": 560,
+      "netIncomeMM": 165,
+      "sharesOutMM": 339.6,
+      "netDebtMM": 4800,
+      "notes": "4T FY23/24: Revenue R$1.27bn, EBITDA R$560M."
+    },
+    {
       "endDate": "2024-03-31",
       "periodType": "FY",
       "grossRevenueMM": 6500,
       "revenueMM": 5912,
+      "revenueBySegmentMM": {
+        "Açúcar": 3500,
+        "Etanol": 2000,
+        "Cogeração": 280,
+        "Outros": 132
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2360,
+        "SG&A": 410,
+        "D&A": 1100,
+        "Other": -778
+      },
       "ebitdaMM": 2820,
       "netIncomeMM": 945,
       "totalDebtMM": 7400,
@@ -69,10 +197,62 @@
       "cfoMM": 2050
     },
     {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 1480,
+      "ebitdaMM": 690,
+      "netIncomeMM": 220,
+      "sharesOutMM": 339.6,
+      "netDebtMM": 4900,
+      "notes": "1T FY24/25: Revenue R$1.48bn, EBITDA R$690M."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 1810,
+      "ebitdaMM": 760,
+      "netIncomeMM": 250,
+      "sharesOutMM": 339.6,
+      "netDebtMM": 4980,
+      "notes": "2T FY24/25: Revenue R$1.81bn, EBITDA R$760M. Cane fires/drought impacted."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 1810,
+      "ebitdaMM": 760,
+      "netIncomeMM": 270,
+      "sharesOutMM": 339.6,
+      "netDebtMM": 5050,
+      "notes": "3T FY24/25: Revenue R$1.81bn, EBITDA R$760M."
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 1311,
+      "ebitdaMM": 536,
+      "netIncomeMM": 161,
+      "sharesOutMM": 339.6,
+      "netDebtMM": 5100,
+      "notes": "4T FY24/25: Revenue R$1.31bn, EBITDA R$536M."
+    },
+    {
       "endDate": "2025-03-31",
       "periodType": "FY",
       "grossRevenueMM": 7050,
       "revenueMM": 6411,
+      "revenueBySegmentMM": {
+        "Açúcar": 4000,
+        "Etanol": 1990,
+        "Cogeração": 290,
+        "Outros": 131
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2640,
+        "SG&A": 460,
+        "D&A": 1200,
+        "Other": -635
+      },
       "ebitdaMM": 2746,
       "netIncomeMM": 901,
       "totalDebtMM": 7200,
@@ -83,6 +263,26 @@
       "capexMM": 1550,
       "daMM": 1200,
       "cfoMM": 2400
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 1450,
+      "ebitdaMM": 660,
+      "netIncomeMM": 200,
+      "sharesOutMM": 339.6,
+      "netDebtMM": 5200,
+      "notes": "1T FY25/26: Revenue R$1.45bn, EBITDA R$660M."
+    },
+    {
+      "endDate": "2025-09-30",
+      "periodType": "Q",
+      "revenueMM": 1850,
+      "ebitdaMM": 770,
+      "netIncomeMM": 240,
+      "sharesOutMM": 339.6,
+      "netDebtMM": 5250,
+      "notes": "2T FY25/26: Revenue R$1.85bn, EBITDA R$770M."
     }
   ]
 }

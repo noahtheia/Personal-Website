@@ -144,6 +144,17 @@
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 26228,
+      "revenueBySegmentMM": {
+        "Pork (fresh + processed)": 23300,
+        "Hog production": 1700,
+        "Other (poultry, packaged meats other)": 1228
+      },
+      "expensesBySegmentMM": {
+        "COGS": 21000,
+        "SG&A": 2400,
+        "D&A": 940,
+        "Other opex": -1316
+      },
       "ebitdaMM": 3204,
       "netIncomeMM": 1480,
       "totalDebtMM": 3850,
@@ -154,6 +165,14 @@
       "capexMM": 850,
       "daMM": 940,
       "cfoMM": 2500
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "H",
+      "revenueMM": 13550,
+      "ebitdaMM": 1700,
+      "netIncomeMM": 800,
+      "notes": "H1 25: Post-Smithfield IPO. Revenue $13.5bn."
     }
   ]
 }

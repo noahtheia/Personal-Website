@@ -15,6 +15,12 @@
         "Starch": 758,
         "Fruit": 1175
       },
+      "expensesBySegmentMM": {
+        "COGS": 5400,
+        "SG&A": 850,
+        "D&A": 290,
+        "Other": -287
+      },
       "ebitdaMM": 416,
       "netIncomeMM": 28,
       "totalDebtMM": 1900,
@@ -37,6 +43,12 @@
         "CropEnergies": 760,
         "Starch": 730,
         "Fruit": 1180
+      },
+      "expensesBySegmentMM": {
+        "COGS": 5400,
+        "SG&A": 870,
+        "D&A": 280,
+        "Other": -343
       },
       "ebitdaMM": 472,
       "netIncomeMM": 124,
@@ -61,6 +73,12 @@
         "Starch": 870,
         "Fruit": 1380
       },
+      "expensesBySegmentMM": {
+        "COGS": 6100,
+        "SG&A": 950,
+        "D&A": 290,
+        "Other": -359
+      },
       "ebitdaMM": 619,
       "netIncomeMM": 213,
       "totalDebtMM": 1850,
@@ -84,6 +102,12 @@
         "Starch": 1019,
         "Fruit": 1500
       },
+      "expensesBySegmentMM": {
+        "COGS": 7400,
+        "SG&A": 1100,
+        "D&A": 310,
+        "Other": -253
+      },
       "ebitdaMM": 942,
       "netIncomeMM": 327,
       "totalDebtMM": 1950,
@@ -106,6 +130,12 @@
         "CropEnergies": 1196,
         "Starch": 1023,
         "Fruit": 1500
+      },
+      "expensesBySegmentMM": {
+        "COGS": 7900,
+        "SG&A": 1250,
+        "D&A": 340,
+        "Other": -345
       },
       "ebitdaMM": 1144,
       "netIncomeMM": 414,
@@ -131,6 +161,12 @@
         "Starch": 1006,
         "Fruit": 1050
       },
+      "expensesBySegmentMM": {
+        "COGS": 7800,
+        "SG&A": 1240,
+        "D&A": 370,
+        "Other": -340
+      },
       "ebitdaMM": 626,
       "netIncomeMM": -27,
       "totalDebtMM": 2180,
@@ -143,6 +179,66 @@
       "capexMM": 450,
       "daMM": 370,
       "cfoMM": 540
+    },
+    {
+      "endDate": "2020-08-31",
+      "periodType": "H",
+      "revenueMM": 3320,
+      "ebitdaMM": 215,
+      "netIncomeMM": 30,
+      "sharesOutMM": 204.18,
+      "netDebtMM": 1480,
+      "notes": "H1 FY20/21 (Mar-Aug 2020): revenue €3.32B, EBITDA €215M."
+    },
+    {
+      "endDate": "2021-08-31",
+      "periodType": "H",
+      "revenueMM": 3540,
+      "ebitdaMM": 250,
+      "netIncomeMM": 75,
+      "sharesOutMM": 204.18,
+      "netDebtMM": 1450,
+      "notes": "H1 FY21/22 (Mar-Aug 2021): revenue €3.54B, EBITDA €250M."
+    },
+    {
+      "endDate": "2022-08-31",
+      "periodType": "H",
+      "revenueMM": 4520,
+      "ebitdaMM": 410,
+      "netIncomeMM": 145,
+      "sharesOutMM": 204.18,
+      "netDebtMM": 1620,
+      "notes": "H1 FY22/23 (Mar-Aug 2022): revenue €4.52B, EBITDA €410M. Sugar price spike post-Ukraine."
+    },
+    {
+      "endDate": "2023-08-31",
+      "periodType": "H",
+      "revenueMM": 5290,
+      "ebitdaMM": 705,
+      "netIncomeMM": 270,
+      "sharesOutMM": 204.18,
+      "netDebtMM": 1700,
+      "notes": "H1 FY23/24 (Mar-Aug 2023): revenue €5.29B, EBITDA €705M. Peak sugar pricing."
+    },
+    {
+      "endDate": "2024-08-31",
+      "periodType": "H",
+      "revenueMM": 4870,
+      "ebitdaMM": 360,
+      "netIncomeMM": 30,
+      "sharesOutMM": 204.18,
+      "netDebtMM": 1820,
+      "notes": "H1 FY24/25 (Mar-Aug 2024): revenue €4.87B, EBITDA €360M. Sugar prices reset."
+    },
+    {
+      "endDate": "2025-08-31",
+      "periodType": "H",
+      "revenueMM": 4710,
+      "ebitdaMM": 330,
+      "netIncomeMM": 10,
+      "sharesOutMM": 204.18,
+      "netDebtMM": 1900,
+      "notes": "H1 FY25/26 (Mar-Aug 2025): revenue €4.71B, EBITDA €330M. Sugar mid-cycle."
     }
   ]
 }

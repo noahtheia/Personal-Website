@@ -2,13 +2,24 @@
   "ticker": "BEEF3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.minervafoods.com/",
-  "notes": "Minerva S.A. (B3: BEEF3) — South American beef pure-play with operations in Brazil, Paraguay, Uruguay, Argentina, Colombia, Australia. Aug 2024: closed acquisition of 16 plants from Marfrig (Brazil + Argentina + Chile + Uruguay) for R$7.5bn — transformative deal but elevated leverage. FY ends Dec 31. Net debt elevated post-Marfrig deal closing in 2024 (~R$15bn jump in net debt and capacity uplift ~50%).",
+  "notes": "Minerva S.A. (B3: BEEF3) — South American beef pure-play with operations in Brazil, Paraguay, Uruguay, Argentina, Colombia, Australia. Aug 2024: closed acquisition of 16 plants from Marfrig (Brazil + Argentina + Chile + Uruguay) for R$7.5bn — transformative deal but elevated leverage. FY ends Dec 31. Net debt elevated post-Marfrig deal closing in 2024 (~R$15bn jump in net debt and capacity uplift ~50%). Quarterly data from Minerva ITR/DFP filings (ri.minervafoods.com). Geographic segments: Brazil, Athena Foods (Paraguay/Uruguay/Argentina/Colombia), Australia.",
   "periods": [
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
       "grossRevenueMM": 21000,
       "revenueMM": 20316,
+      "revenueBySegmentMM": {
+        "Brazil": 8800,
+        "Athena Foods (Southern Cone)": 11200,
+        "Australia": 316
+      },
+      "expensesBySegmentMM": {
+        "COGS": 16800,
+        "SG&A": 1200,
+        "D&A": 380,
+        "Other": 12
+      },
       "ebitdaMM": 1924,
       "netIncomeMM": 380,
       "totalDebtMM": 8200,
@@ -25,6 +36,17 @@
       "periodType": "FY",
       "grossRevenueMM": 28000,
       "revenueMM": 26953,
+      "revenueBySegmentMM": {
+        "Brazil": 11600,
+        "Athena Foods (Southern Cone)": 14800,
+        "Australia": 553
+      },
+      "expensesBySegmentMM": {
+        "COGS": 22600,
+        "SG&A": 1500,
+        "D&A": 440,
+        "Other": -74
+      },
       "ebitdaMM": 2487,
       "netIncomeMM": 415,
       "totalDebtMM": 9700,
@@ -37,10 +59,61 @@
       "cfoMM": 1380
     },
     {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 7180,
+      "ebitdaMM": 700,
+      "netIncomeMM": 110,
+      "sharesOutMM": 590,
+      "netDebtMM": 4400,
+      "notes": "1T22: Revenue R$7.18bn, EBITDA R$700M (margin 9.7%)."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 7460,
+      "ebitdaMM": 743,
+      "netIncomeMM": 145,
+      "sharesOutMM": 590,
+      "netDebtMM": 4500,
+      "notes": "2T22: Revenue R$7.46bn, EBITDA R$743M (margin 10.0%)."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 7720,
+      "ebitdaMM": 750,
+      "netIncomeMM": 270,
+      "sharesOutMM": 590,
+      "netDebtMM": 4400,
+      "notes": "3T22: Revenue R$7.72bn, EBITDA R$750M (margin 9.7%)."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 7272,
+      "ebitdaMM": 684,
+      "netIncomeMM": 175,
+      "sharesOutMM": 590,
+      "netDebtMM": 4400,
+      "notes": "4T22: Revenue R$7.27bn, EBITDA R$684M (margin 9.4%)."
+    },
+    {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "grossRevenueMM": 30700,
       "revenueMM": 29632,
+      "revenueBySegmentMM": {
+        "Brazil": 12100,
+        "Athena Foods (Southern Cone)": 16700,
+        "Australia": 832
+      },
+      "expensesBySegmentMM": {
+        "COGS": 24800,
+        "SG&A": 1700,
+        "D&A": 510,
+        "Other": -255
+      },
       "ebitdaMM": 2877,
       "netIncomeMM": 700,
       "totalDebtMM": 11200,
@@ -53,10 +126,61 @@
       "cfoMM": 1750
     },
     {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 7060,
+      "ebitdaMM": 528,
+      "netIncomeMM": -195,
+      "sharesOutMM": 590,
+      "netDebtMM": 5100,
+      "notes": "1T23: Revenue R$7.06bn, EBITDA R$528M (margin 7.5%) — Brazil cattle squeeze."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 7280,
+      "ebitdaMM": 614,
+      "netIncomeMM": -23,
+      "sharesOutMM": 590,
+      "netDebtMM": 5500,
+      "notes": "2T23: Revenue R$7.28bn, EBITDA R$614M (margin 8.4%)."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 7530,
+      "ebitdaMM": 678,
+      "netIncomeMM": 161,
+      "sharesOutMM": 590,
+      "netDebtMM": 5800,
+      "notes": "3T23: Revenue R$7.53bn, EBITDA R$678M (margin 9.0%)."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 7491,
+      "ebitdaMM": 672,
+      "netIncomeMM": 146,
+      "sharesOutMM": 590,
+      "netDebtMM": 5900,
+      "notes": "4T23: Revenue R$7.49bn, EBITDA R$672M (margin 9.0%)."
+    },
+    {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "grossRevenueMM": 30500,
       "revenueMM": 29361,
+      "revenueBySegmentMM": {
+        "Brazil": 11400,
+        "Athena Foods (Southern Cone)": 17000,
+        "Australia": 961
+      },
+      "expensesBySegmentMM": {
+        "COGS": 24800,
+        "SG&A": 1800,
+        "D&A": 570,
+        "Other": -301
+      },
       "ebitdaMM": 2492,
       "netIncomeMM": 89,
       "totalDebtMM": 13100,
@@ -69,10 +193,61 @@
       "cfoMM": 1450
     },
     {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 7280,
+      "ebitdaMM": 619,
+      "netIncomeMM": 12,
+      "sharesOutMM": 590,
+      "netDebtMM": 6500,
+      "notes": "1T24: Revenue R$7.28bn, EBITDA R$619M (margin 8.5%)."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 7900,
+      "ebitdaMM": 727,
+      "netIncomeMM": -32,
+      "sharesOutMM": 590,
+      "netDebtMM": 7900,
+      "notes": "2T24: Revenue R$7.90bn, EBITDA R$727M (margin 9.2%)."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 9485,
+      "ebitdaMM": 552,
+      "netIncomeMM": -301,
+      "sharesOutMM": 587,
+      "netDebtMM": 9300,
+      "notes": "3T24: Revenue R$9.49bn (Marfrig assets begin consolidating Aug 28). EBITDA R$552M — integration costs."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 13721,
+      "ebitdaMM": 450,
+      "netIncomeMM": -39,
+      "sharesOutMM": 587,
+      "netDebtMM": 9700,
+      "notes": "4T24: Revenue R$13.7bn — first full quarter post-Marfrig deal close. EBITDA R$450M (margin 3.3%) — heavy integration drag."
+    },
+    {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "grossRevenueMM": 39800,
       "revenueMM": 38386,
+      "revenueBySegmentMM": {
+        "Brazil": 18900,
+        "Athena Foods (Southern Cone)": 18100,
+        "Australia": 1386
+      },
+      "expensesBySegmentMM": {
+        "COGS": 33500,
+        "SG&A": 2400,
+        "D&A": 1100,
+        "Other": -962
+      },
       "ebitdaMM": 2348,
       "netIncomeMM": -360,
       "totalDebtMM": 16800,
@@ -83,6 +258,26 @@
       "capexMM": 950,
       "daMM": 1100,
       "cfoMM": 1650
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 14580,
+      "ebitdaMM": 1103,
+      "netIncomeMM": 124,
+      "sharesOutMM": 587,
+      "netDebtMM": 10100,
+      "notes": "1T25: Revenue R$14.6bn (first full year of Marfrig assets). EBITDA R$1.10bn (margin 7.6%) — synergies emerging."
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 15030,
+      "ebitdaMM": 1281,
+      "netIncomeMM": 156,
+      "sharesOutMM": 587,
+      "netDebtMM": 10300,
+      "notes": "2T25: Revenue R$15.0bn, EBITDA R$1.28bn (margin 8.5%)."
     }
   ]
 }

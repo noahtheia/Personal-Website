@@ -59,10 +59,54 @@
       "cashMM": 16100,
       "netDebtMM": 40300,
       "sharesOutMM": 4540,
+      "revenueBySegmentMM": {
+        "Feed": 79000,
+        "Pig farming": 28500,
+        "Poultry": 16000,
+        "Food / processed meats": 18250
+      },
+      "expensesBySegmentMM": {
+        "COGS": 130000,
+        "SG&A": 6500,
+        "D&A": 3900,
+        "Other opex": -100
+      },
       "notes": "FY23: Trough cycle — hog losses + feed gross margin compressed. Revenue RMB141.8bn, EBITDA RMB1.45bn (margin 1.0%), NI -RMB2.95bn. Asset divestments reduced debt.",
       "capexMM": 4500,
       "daMM": 3900,
       "cfoMM": 4400
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 33480,
+      "ebitdaMM": 200,
+      "netIncomeMM": -1690,
+      "notes": "Q1 23"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 35260,
+      "ebitdaMM": 250,
+      "netIncomeMM": -1262,
+      "notes": "Q2 23"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 36850,
+      "ebitdaMM": 700,
+      "netIncomeMM": 78,
+      "notes": "Q3 23"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 36160,
+      "ebitdaMM": 300,
+      "netIncomeMM": -71,
+      "notes": "Q4 23"
     },
     {
       "endDate": "2024-12-31",
@@ -74,10 +118,54 @@
       "cashMM": 17800,
       "netDebtMM": 33200,
       "sharesOutMM": 4540,
+      "revenueBySegmentMM": {
+        "Feed": 60000,
+        "Pig farming": 28000,
+        "Poultry": 5000,
+        "Food / processed meats": 10068
+      },
+      "expensesBySegmentMM": {
+        "COGS": 88000,
+        "SG&A": 5500,
+        "D&A": 4100,
+        "Other opex": 168
+      },
       "notes": "FY24: Revenue RMB103bn (-27% on poultry/feed divestments + lower volumes); hog cycle improved. EBITDA RMB5.3bn (margin 5.1%), NI RMB487M (back to profit). Net debt down to RMB33bn (~6.3x).",
       "capexMM": 3200,
       "daMM": 4100,
       "cfoMM": 6300
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 24375,
+      "ebitdaMM": 800,
+      "netIncomeMM": -195,
+      "notes": "Q1 24"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 24770,
+      "ebitdaMM": 1300,
+      "netIncomeMM": 240,
+      "notes": "Q2 24"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 26770,
+      "ebitdaMM": 1900,
+      "netIncomeMM": 1530,
+      "notes": "Q3 24: hog cycle peak."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 27153,
+      "ebitdaMM": 1300,
+      "netIncomeMM": -1088,
+      "notes": "Q4 24: impairments."
     }
   ]
 }

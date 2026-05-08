@@ -50,10 +50,53 @@
       "sharesOutMM": 1779,
       "dividendPerShare": 0.42,
       "totalAcresK": 2135,
+      "revenueBySegmentMM": {
+        "Land contracting fees": 2900,
+        "Rice trading": 1400,
+        "Corn / soybean / other": 744
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3300,
+        "SG&A": 250,
+        "D&A": 400,
+        "Other opex": -204
+      },
       "notes": "FY23: Revenue RMB5.04bn (+18%). EBITDA RMB1.30bn (margin 26%). NI RMB1.06bn (+9%). Special dividend distributed; cash drew to RMB2.37bn but still net cash.",
       "capexMM": 280,
       "daMM": 400,
       "cfoMM": 1560
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 470,
+      "ebitdaMM": 25,
+      "netIncomeMM": -15,
+      "notes": "Q1 23: typical seasonal trough."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 990,
+      "ebitdaMM": 280,
+      "netIncomeMM": 215,
+      "notes": "Q2 23"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 1850,
+      "ebitdaMM": 580,
+      "netIncomeMM": 460,
+      "notes": "Q3 23: harvest season peak."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 1734,
+      "ebitdaMM": 413,
+      "netIncomeMM": 404,
+      "notes": "Q4 23"
     },
     {
       "endDate": "2024-12-31",
@@ -68,10 +111,53 @@
       "dividendPerShare": 0.44,
       "totalAcresK": 2135,
       "totalAssetsMM": 8975,
+      "revenueBySegmentMM": {
+        "Land contracting fees": 3050,
+        "Rice trading": 1500,
+        "Corn / soybean / other": 789
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3450,
+        "SG&A": 280,
+        "D&A": 420,
+        "Other opex": -146
+      },
       "notes": "FY24: Revenue RMB5.34bn (+5.83%). EBITDA RMB1.34bn (margin 25%). NI RMB1.087bn (+2.21%). DPS RMB0.44 — consistent grower. Total assets RMB8.98bn. Land-contracting model = stable annuity-like cash flows.",
       "capexMM": 290,
       "daMM": 420,
       "cfoMM": 1680
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 510,
+      "ebitdaMM": 30,
+      "netIncomeMM": -10,
+      "notes": "Q1 24"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 1050,
+      "ebitdaMM": 290,
+      "netIncomeMM": 230,
+      "notes": "Q2 24"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 1950,
+      "ebitdaMM": 600,
+      "netIncomeMM": 470,
+      "notes": "Q3 24: harvest peak."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 1829,
+      "ebitdaMM": 415,
+      "netIncomeMM": 397,
+      "notes": "Q4 24"
     },
     {
       "endDate": "2025-12-31",

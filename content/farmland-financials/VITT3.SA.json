@@ -128,6 +128,146 @@
       "capexMM": 55,
       "daMM": 55,
       "cfoMM": 145
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 95,
+      "ebitdaMM": 22,
+      "netIncomeMM": 14,
+      "sharesOutMM": 91.0,
+      "netDebtMM": -200,
+      "notes": "1T22: receita R$95M, EBITDA R$22M."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 130,
+      "ebitdaMM": 35,
+      "netIncomeMM": 22,
+      "sharesOutMM": 91.0,
+      "netDebtMM": -160,
+      "notes": "2T22: receita R$130M, EBITDA R$35M."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 175,
+      "ebitdaMM": 50,
+      "netIncomeMM": 32,
+      "sharesOutMM": 91.0,
+      "netDebtMM": -120,
+      "notes": "3T22: receita R$175M, EBITDA R$50M. Pico sazonal pré-safra."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 130,
+      "ebitdaMM": 38,
+      "netIncomeMM": 27,
+      "sharesOutMM": 91.0,
+      "netDebtMM": -75,
+      "notes": "4T22: receita R$130M, EBITDA R$38M."
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 115,
+      "ebitdaMM": 28,
+      "netIncomeMM": 18,
+      "sharesOutMM": 91.0,
+      "netDebtMM": -30,
+      "notes": "1T23: receita R$115M, EBITDA R$28M."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 155,
+      "ebitdaMM": 42,
+      "netIncomeMM": 27,
+      "sharesOutMM": 91.0,
+      "netDebtMM": 10,
+      "notes": "2T23: receita R$155M, EBITDA R$42M."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 215,
+      "ebitdaMM": 58,
+      "netIncomeMM": 38,
+      "sharesOutMM": 91.0,
+      "netDebtMM": 30,
+      "notes": "3T23: receita R$215M, EBITDA R$58M."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 155,
+      "ebitdaMM": 37,
+      "netIncomeMM": 22,
+      "sharesOutMM": 91.0,
+      "netDebtMM": 40,
+      "notes": "4T23: receita R$155M, EBITDA R$37M."
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 130,
+      "ebitdaMM": 28,
+      "netIncomeMM": 16,
+      "sharesOutMM": 91.0,
+      "netDebtMM": 70,
+      "notes": "1T24: receita R$130M, EBITDA R$28M."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 165,
+      "ebitdaMM": 38,
+      "netIncomeMM": 22,
+      "sharesOutMM": 91.0,
+      "netDebtMM": 95,
+      "notes": "2T24: receita R$165M, EBITDA R$38M."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 230,
+      "ebitdaMM": 55,
+      "netIncomeMM": 33,
+      "sharesOutMM": 91.0,
+      "netDebtMM": 110,
+      "notes": "3T24: receita R$230M, EBITDA R$55M."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 157,
+      "ebitdaMM": 39,
+      "netIncomeMM": 24,
+      "sharesOutMM": 91.0,
+      "netDebtMM": 120,
+      "notes": "4T24: receita R$157M, EBITDA R$39M."
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 145,
+      "ebitdaMM": 32,
+      "netIncomeMM": 19,
+      "sharesOutMM": 91.0,
+      "netDebtMM": 130,
+      "notes": "1T25: receita R$145M, EBITDA R$32M."
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 180,
+      "ebitdaMM": 42,
+      "netIncomeMM": 25,
+      "sharesOutMM": 91.0,
+      "netDebtMM": 135,
+      "notes": "2T25: receita R$180M, EBITDA R$42M."
     }
   ]
 }

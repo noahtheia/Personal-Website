@@ -24,6 +24,54 @@
       "cfoMM": -51.0
     },
     {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 677.9,
+      "netIncomeMM": 5.5,
+      "expensesBySegmentMM": {
+        "COGS": 3858.4,
+        "D&A": 34.4
+      },
+      "capexMM": 20.7,
+      "cfoMM": -1075.0,
+      "daMM": 34.4,
+      "totalDebtMM": 2075.1,
+      "cashMM": 36.4,
+      "netDebtMM": 2038.7
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 956.0,
+      "netIncomeMM": 79.8,
+      "expensesBySegmentMM": {
+        "COGS": 4219.8,
+        "D&A": 27.5
+      },
+      "capexMM": 22.8,
+      "cfoMM": 353.2,
+      "daMM": 27.5,
+      "totalDebtMM": 1778.8,
+      "cashMM": 86.0,
+      "netDebtMM": 1692.8
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 635.4,
+      "netIncomeMM": 36.7,
+      "expensesBySegmentMM": {
+        "COGS": 4055.6,
+        "D&A": 27.3
+      },
+      "capexMM": 28.8,
+      "cfoMM": 568.4,
+      "daMM": 27.3,
+      "totalDebtMM": 1263.0,
+      "cashMM": 140.8,
+      "netDebtMM": 1122.2
+    },
+    {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 17325.4,
@@ -41,6 +89,54 @@
       "capexMM": 108.3,
       "daMM": 134.7,
       "cfoMM": 287.1
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 739.0,
+      "netIncomeMM": -14.8,
+      "expensesBySegmentMM": {
+        "COGS": 3733.2,
+        "D&A": 32.2
+      },
+      "capexMM": 25.5,
+      "cfoMM": -333.5,
+      "daMM": 32.2,
+      "totalDebtMM": 1210.7,
+      "cashMM": 70.9,
+      "netDebtMM": 1139.8
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 975.3,
+      "netIncomeMM": 55.0,
+      "expensesBySegmentMM": {
+        "COGS": 3798.2,
+        "D&A": 24.4
+      },
+      "capexMM": 49.5,
+      "cfoMM": 540.9,
+      "daMM": 24.4,
+      "totalDebtMM": 706.8,
+      "cashMM": 96.3,
+      "netDebtMM": 610.5
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 688.1,
+      "netIncomeMM": 9.7,
+      "expensesBySegmentMM": {
+        "COGS": 3478.0,
+        "D&A": 24.9
+      },
+      "capexMM": 33.7,
+      "cfoMM": 488.7,
+      "daMM": 24.9,
+      "totalDebtMM": 611.4,
+      "cashMM": 418.1,
+      "netDebtMM": 193.3
     },
     {
       "endDate": "2023-12-31",
@@ -62,6 +158,54 @@
       "cfoMM": 946.8
     },
     {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 341.4,
+      "netIncomeMM": 5.6,
+      "expensesBySegmentMM": {
+        "COGS": 2589.9,
+        "D&A": 30.9
+      },
+      "capexMM": 26.8,
+      "cfoMM": -239.6,
+      "daMM": 30.9,
+      "totalDebtMM": 593.9,
+      "cashMM": 283.9,
+      "netDebtMM": 310.0
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 492.5,
+      "netIncomeMM": 36.0,
+      "expensesBySegmentMM": {
+        "COGS": 2619.8,
+        "D&A": 30.3
+      },
+      "capexMM": 28.6,
+      "cfoMM": 304.4,
+      "daMM": 30.3,
+      "totalDebtMM": 581.1,
+      "cashMM": 530.4,
+      "netDebtMM": 50.7
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 231.9,
+      "netIncomeMM": 27.4,
+      "expensesBySegmentMM": {
+        "COGS": 2443.9,
+        "D&A": 30.4
+      },
+      "capexMM": 37.8,
+      "cfoMM": -2.1,
+      "daMM": 30.4,
+      "totalDebtMM": 585.0,
+      "cashMM": 454.1,
+      "netDebtMM": 130.9
+    },
+    {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 11257.5,
@@ -81,6 +225,54 @@
       "cfoMM": 331.5
     },
     {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 370.8,
+      "netIncomeMM": 0.3,
+      "expensesBySegmentMM": {
+        "COGS": 2506.2,
+        "D&A": 34.3
+      },
+      "capexMM": 46.5,
+      "cfoMM": -350.0,
+      "daMM": 34.3,
+      "totalDebtMM": 873.5,
+      "cashMM": 219.2,
+      "netDebtMM": 654.2
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 535.0,
+      "netIncomeMM": 7.9,
+      "expensesBySegmentMM": {
+        "COGS": 2977.5,
+        "D&A": 33.1
+      },
+      "capexMM": 48.8,
+      "cfoMM": 299.3,
+      "daMM": 33.1,
+      "totalDebtMM": 747.1,
+      "cashMM": 351.0,
+      "netDebtMM": 396.2
+    },
+    {
+      "endDate": "2025-09-30",
+      "periodType": "Q",
+      "revenueMM": 295.8,
+      "netIncomeMM": 20.1,
+      "expensesBySegmentMM": {
+        "COGS": 2506.8,
+        "D&A": 32.6
+      },
+      "capexMM": 66.8,
+      "cfoMM": 233.9,
+      "daMM": 32.6,
+      "totalDebtMM": 774.3,
+      "cashMM": 81.6,
+      "netDebtMM": 692.7
+    },
+    {
       "endDate": "2025-12-31",
       "periodType": "FY",
       "revenueMM": 11008.9,
@@ -98,6 +290,22 @@
       "capexMM": 233.1,
       "daMM": 133.3,
       "cfoMM": 177.0
+    },
+    {
+      "endDate": "2026-03-31",
+      "periodType": "Q",
+      "revenueMM": 378.9,
+      "netIncomeMM": 33.2,
+      "expensesBySegmentMM": {
+        "COGS": 2466.7,
+        "D&A": 34.1
+      },
+      "capexMM": 51.7,
+      "cfoMM": -393.7,
+      "daMM": 34.1,
+      "totalDebtMM": 1309.0,
+      "cashMM": 72.4,
+      "netDebtMM": 1236.7
     }
   ]
 }

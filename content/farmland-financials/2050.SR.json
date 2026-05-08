@@ -75,7 +75,20 @@
       "sharesOutMM": 800,
       "bookValuePerShare": 9.5,
       "dividendPerShare": 0.0,
-      "notes": "FY23: Panda divestment progressing; Foods margin recovery; Almarai associate income up",
+      "revenueBySegmentMM": {
+        "Edible oils": 9000,
+        "Sugar": 4500,
+        "Pasta": 2400,
+        "Panda Retail (residual)": 10500,
+        "Other foods": 430
+      },
+      "expensesBySegmentMM": {
+        "COGS": 21500,
+        "SG&A": 2800,
+        "D&A": 780,
+        "Other opex": -200
+      },
+      "notes": "FY23: Panda divestment progressing; Foods margin recovery; Almarai associate income up. Almarai 34% stake equity-accounted (excluded from revenue line).",
       "capexMM": 580,
       "daMM": 780,
       "cfoMM": 1620
@@ -94,7 +107,19 @@
       "sharesOutMM": 800,
       "bookValuePerShare": 14.5,
       "dividendPerShare": 0.0,
-      "notes": "FY24: cleaner business mix; Almarai associate contribution material; book value rebuild",
+      "revenueBySegmentMM": {
+        "Edible oils": 9800,
+        "Sugar": 4800,
+        "Pasta": 2600,
+        "Other foods / residual": 10900
+      },
+      "expensesBySegmentMM": {
+        "COGS": 22500,
+        "SG&A": 2950,
+        "D&A": 800,
+        "Other opex": 0
+      },
+      "notes": "FY24: cleaner business mix; Almarai associate contribution material; book value rebuild. Almarai equity stake driving NI lift.",
       "capexMM": 600,
       "daMM": 800,
       "cfoMM": 1750

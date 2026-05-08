@@ -59,10 +59,53 @@
       "netDebtMM": 56619,
       "sharesOutMM": 5422,
       "dividendPerShare": 0.111,
+      "revenueBySegmentMM": {
+        "Kitchen food (cooking oil, rice, flour)": 149000,
+        "Feed ingredients & oilseed processing": 98000,
+        "Other": 4524
+      },
+      "expensesBySegmentMM": {
+        "COGS": 235000,
+        "SG&A": 8500,
+        "D&A": 3100,
+        "Other opex": -515
+      },
       "notes": "FY23: Revenue RMB251.5bn (-2%) on softer ASP. EBITDA RMB4.9bn (margin 2.0%) — trough margin year as China consumer demand weakened. NI RMB2.85bn (-5%). Cash build to RMB59.3bn, net debt RMB56.6bn.",
       "capexMM": 7800,
       "daMM": 3100,
       "cfoMM": 4900
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 60260,
+      "ebitdaMM": 1100,
+      "netIncomeMM": 660,
+      "notes": "Q1 23"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 58680,
+      "ebitdaMM": 1080,
+      "netIncomeMM": 600,
+      "notes": "Q2 23"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 64720,
+      "ebitdaMM": 1230,
+      "netIncomeMM": 723,
+      "notes": "Q3 23"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 67864,
+      "ebitdaMM": 1530,
+      "netIncomeMM": 865,
+      "notes": "Q4 23"
     },
     {
       "endDate": "2024-12-31",
@@ -75,10 +118,53 @@
       "netDebtMM": 41667,
       "sharesOutMM": 5422,
       "dividendPerShare": 0.111,
+      "revenueBySegmentMM": {
+        "Kitchen food (cooking oil, rice, flour)": 142000,
+        "Feed ingredients & oilseed processing": 92000,
+        "Other": 4279
+      },
+      "expensesBySegmentMM": {
+        "COGS": 222500,
+        "SG&A": 8800,
+        "D&A": 3400,
+        "Other opex": -1718
+      },
       "notes": "FY24: Revenue RMB238.3bn (-5%) on lower oilseed pricing. EBITDA RMB5.3bn (margin 2.2%); slight margin recovery. NI RMB2.5bn (-12%). Net debt RMB41.7bn (-26%) as inventory unwound. Wilmar parent retains ~89.99% stake.",
       "capexMM": 6200,
       "daMM": 3400,
       "cfoMM": 13000
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 57500,
+      "ebitdaMM": 1100,
+      "netIncomeMM": 850,
+      "notes": "Q1 24"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 56000,
+      "ebitdaMM": 1100,
+      "netIncomeMM": 530,
+      "notes": "Q2 24"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 61500,
+      "ebitdaMM": 1400,
+      "netIncomeMM": 538,
+      "notes": "Q3 24"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 63279,
+      "ebitdaMM": 1700,
+      "netIncomeMM": 584,
+      "notes": "Q4 24"
     }
   ]
 }

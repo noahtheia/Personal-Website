@@ -128,6 +128,146 @@
       "capexMM": 35,
       "daMM": 175,
       "cfoMM": -420
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 1450,
+      "ebitdaMM": 70,
+      "netIncomeMM": 22,
+      "sharesOutMM": 125.0,
+      "netDebtMM": 1300,
+      "notes": "1T22: receita R$1.45B, EBITDA R$70M. Início do ano forte com preços de fertilizantes elevados."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 1750,
+      "ebitdaMM": 105,
+      "netIncomeMM": 38,
+      "sharesOutMM": 125.0,
+      "netDebtMM": 1500,
+      "notes": "2T22: receita R$1.75B, EBITDA R$105M."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 2150,
+      "ebitdaMM": 150,
+      "netIncomeMM": 65,
+      "sharesOutMM": 125.0,
+      "netDebtMM": 1620,
+      "notes": "3T22: receita R$2.15B, EBITDA R$150M. Pico sazonal pré-safra."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 1800,
+      "ebitdaMM": 145,
+      "netIncomeMM": 50,
+      "sharesOutMM": 125.0,
+      "netDebtMM": 1640,
+      "notes": "4T22: receita R$1.80B, EBITDA R$145M."
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 1850,
+      "ebitdaMM": 95,
+      "netIncomeMM": 12,
+      "sharesOutMM": 125.0,
+      "netDebtMM": 1900,
+      "notes": "1T23: receita R$1.85B, EBITDA R$95M. Margem comprimindo."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 2200,
+      "ebitdaMM": 100,
+      "netIncomeMM": -25,
+      "sharesOutMM": 125.0,
+      "netDebtMM": 2150,
+      "notes": "2T23: receita R$2.20B, EBITDA R$100M. Início de PDD."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 2700,
+      "ebitdaMM": 80,
+      "netIncomeMM": -75,
+      "sharesOutMM": 125.0,
+      "netDebtMM": 2280,
+      "notes": "3T23: receita R$2.70B, EBITDA R$80M. PDD acelera."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 1980,
+      "ebitdaMM": 45,
+      "netIncomeMM": -92,
+      "sharesOutMM": 125.0,
+      "netDebtMM": 2370,
+      "notes": "4T23: receita R$1.98B, EBITDA R$45M. Estresse de crédito agudo."
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 1450,
+      "ebitdaMM": -50,
+      "netIncomeMM": -180,
+      "sharesOutMM": 125.0,
+      "netDebtMM": 2400,
+      "notes": "1T24: receita R$1.45B (-22% YoY), EBITDA R$-50M. Forneceedores começam a cortar limites."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 1300,
+      "ebitdaMM": -100,
+      "netIncomeMM": -250,
+      "sharesOutMM": 125.0,
+      "netDebtMM": 2350,
+      "notes": "2T24: receita R$1.30B, EBITDA R$-100M."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 1100,
+      "ebitdaMM": -150,
+      "netIncomeMM": -350,
+      "sharesOutMM": 125.0,
+      "netDebtMM": 2300,
+      "notes": "3T24: receita R$1.10B. 13-Set-2024: pedido de recuperação judicial. Operations frozen."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 650,
+      "ebitdaMM": -50,
+      "netIncomeMM": -220,
+      "sharesOutMM": 125.0,
+      "netDebtMM": 2050,
+      "notes": "4T24: receita R$650M (colapso pós-RJ). Reestruturação em andamento."
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 580,
+      "ebitdaMM": -30,
+      "netIncomeMM": -120,
+      "sharesOutMM": 125.0,
+      "netDebtMM": 1980,
+      "notes": "1T25: receita R$580M sob RJ. Stock continua suspenso/colapsado."
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 620,
+      "ebitdaMM": -10,
+      "netIncomeMM": -85,
+      "sharesOutMM": 125.0,
+      "netDebtMM": 1920,
+      "notes": "2T25: receita R$620M. Plano de RJ aprovado por credores."
     }
   ]
 }
