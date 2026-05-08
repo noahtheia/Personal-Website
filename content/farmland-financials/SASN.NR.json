@@ -95,10 +95,31 @@
       "sharesOutMM": 228.06,
       "bookValuePerShare": 36.61,
       "dividendPerShare": 0.75,
+      "revenueBySegmentMM": {
+        "Tea": 2400,
+        "Coffee": 800,
+        "Macadamia": 1500,
+        "Avocado": 700,
+        "Dairy / other": 280
+      },
+      "expensesBySegmentMM": {
+        "COGS": 4200,
+        "SG&A": 490,
+        "D&A": 270,
+        "Other opex": 0
+      },
       "notes": "FY23: Kenyan tea auction prices weakened, macadamia oversupply pressure",
       "capexMM": 380,
       "daMM": 270,
       "cfoMM": 460
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "H",
+      "revenueMM": 2950,
+      "ebitdaMM": 420,
+      "netIncomeMM": 90,
+      "notes": "H1 FY23: 6 months to Mar-23."
     },
     {
       "endDate": "2024-09-30",
@@ -119,10 +140,31 @@
       "sharesOutMM": 228.06,
       "bookValuePerShare": 38.0,
       "dividendPerShare": 0.5,
+      "revenueBySegmentMM": {
+        "Tea": 2200,
+        "Coffee": 750,
+        "Macadamia": 1400,
+        "Avocado": 720,
+        "Dairy / other": 280
+      },
+      "expensesBySegmentMM": {
+        "COGS": 4050,
+        "SG&A": 420,
+        "D&A": 280,
+        "Other opex": 0
+      },
       "notes": "FY24: continued tea price weakness, near-breakeven on operating side; restructuring announced",
       "capexMM": 350,
       "daMM": 280,
       "cfoMM": 480
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "H",
+      "revenueMM": 2700,
+      "ebitdaMM": 320,
+      "netIncomeMM": 5,
+      "notes": "H1 FY24: 6 months to Mar-24."
     }
   ]
 }

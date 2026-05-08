@@ -71,6 +71,15 @@
       "sharesOutMM": 2.4,
       "bookValuePerShare": 343.75,
       "dividendPerShare": 10.0,
+      "revenueBySegmentMM": {
+        "Made tea": 165
+      },
+      "expensesBySegmentMM": {
+        "COGS": 105,
+        "SG&A": 18,
+        "D&A": 14,
+        "Other opex": 0
+      },
       "notes": "FY22: best year of cycle, KES weakness boosted USD-priced tea exports",
       "capexMM": 12,
       "daMM": 14,
@@ -95,10 +104,27 @@
       "sharesOutMM": 2.4,
       "bookValuePerShare": 346.67,
       "dividendPerShare": 9.0,
+      "revenueBySegmentMM": {
+        "Made tea": 152
+      },
+      "expensesBySegmentMM": {
+        "COGS": 100,
+        "SG&A": 17,
+        "D&A": 14,
+        "Other opex": 0
+      },
       "notes": "FY23: tea auction prices softened, gross margin compression",
       "capexMM": 11,
       "daMM": 14,
       "cfoMM": 21
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 80,
+      "ebitdaMM": 18,
+      "netIncomeMM": 9,
+      "notes": "H1 23"
     },
     {
       "endDate": "2024-12-31",
@@ -119,10 +145,27 @@
       "sharesOutMM": 2.4,
       "bookValuePerShare": 350.0,
       "dividendPerShare": 8.0,
+      "revenueBySegmentMM": {
+        "Made tea": 145
+      },
+      "expensesBySegmentMM": {
+        "COGS": 96,
+        "SG&A": 18,
+        "D&A": 15,
+        "Other opex": 0
+      },
       "notes": "FY24: tea price weakness persisted; net cash maintained",
       "capexMM": 13,
       "daMM": 15,
       "cfoMM": 24
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 76,
+      "ebitdaMM": 15,
+      "netIncomeMM": 6,
+      "notes": "H1 24"
     }
   ]
 }

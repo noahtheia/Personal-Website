@@ -94,7 +94,21 @@
       "capexMM": 12,
       "daMM": 25,
       "cfoMM": 158,
+      "expensesBySegmentMM": {
+        "COGS": 829,
+        "SG&A": 520,
+        "D&A": 25,
+        "Other opex": 0
+      },
       "notes": "FY23 revenue NZ$1.59B (+10%), EBITDA NZ$219M."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "H",
+      "revenueMM": 813,
+      "ebitdaMM": 100,
+      "netIncomeMM": 75,
+      "notes": "H1 FY24 (6 months to Dec-23)."
     },
     {
       "endDate": "2024-06-30",
@@ -117,7 +131,21 @@
       "capexMM": 14,
       "daMM": 27,
       "cfoMM": 312,
+      "expensesBySegmentMM": {
+        "COGS": 870,
+        "SG&A": 543,
+        "D&A": 27,
+        "Other opex": 0
+      },
       "notes": "FY24 revenue NZ$1.68B (+5%), EBITDA NZ$235M (14% margin). NZ$1.08B net cash. First-ever buyback authorized."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "H",
+      "revenueMM": 893,
+      "ebitdaMM": 124,
+      "netIncomeMM": 91,
+      "notes": "H1 FY25 (6 months to Dec-24)."
     }
   ]
 }

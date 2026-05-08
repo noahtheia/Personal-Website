@@ -107,10 +107,54 @@
       "sharesOutMM": 1000,
       "bookValuePerShare": 102.8,
       "dividendPerShare": 18.0,
+      "revenueBySegmentMM": {
+        "Crude palm oil (CPO)": 76000,
+        "Palm kernel oil (PKO) & PK": 14500,
+        "Refined products": 10500,
+        "By-products": 1370
+      },
+      "expensesBySegmentMM": {
+        "COGS": 35000,
+        "SG&A": 7500,
+        "D&A": 4500,
+        "Other opex": -830
+      },
       "notes": "FY23: GOPDC stake + Saro full year; Naira devalued sharply (June 2023), revenue +59% YoY",
       "capexMM": 18000,
       "daMM": 4500,
       "cfoMM": 35000
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 17500,
+      "ebitdaMM": 9500,
+      "netIncomeMM": 5800,
+      "notes": "Q1 23"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 22500,
+      "ebitdaMM": 12000,
+      "netIncomeMM": 6800,
+      "notes": "Q2 23: Naira devaluation impact begins."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 28500,
+      "ebitdaMM": 16500,
+      "netIncomeMM": 7700,
+      "notes": "Q3 23"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 33870,
+      "ebitdaMM": 18200,
+      "netIncomeMM": 8650,
+      "notes": "Q4 23"
     },
     {
       "endDate": "2024-12-31",
@@ -134,10 +178,54 @@
       "sharesOutMM": 1000,
       "bookValuePerShare": 145.0,
       "dividendPerShare": 30.0,
+      "revenueBySegmentMM": {
+        "Crude palm oil (CPO)": 165000,
+        "Palm kernel oil (PKO) & PK": 30000,
+        "Refined products": 19000,
+        "By-products": 3000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 85000,
+        "SG&A": 17000,
+        "D&A": 5200,
+        "Other opex": -200
+      },
       "notes": "FY24: full-year Naira devaluation (NGN ~1,500/USD avg); CPO realised prices tracked USD strength; record EBITDA",
       "capexMM": 22000,
       "daMM": 5200,
       "cfoMM": 65000
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 50000,
+      "ebitdaMM": 25500,
+      "netIncomeMM": 21000,
+      "notes": "Q1 24"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 53000,
+      "ebitdaMM": 27000,
+      "netIncomeMM": 22500,
+      "notes": "Q2 24"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 56000,
+      "ebitdaMM": 28500,
+      "netIncomeMM": 23500,
+      "notes": "Q3 24"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 58000,
+      "ebitdaMM": 29000,
+      "netIncomeMM": 23500,
+      "notes": "Q4 24"
     }
   ]
 }

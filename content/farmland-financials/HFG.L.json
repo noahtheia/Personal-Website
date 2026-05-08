@@ -14,6 +14,12 @@
         "Central Europe": 320,
         "Asia Pacific": 191
       },
+      "expensesBySegmentMM": {
+        "COGS": 2500,
+        "SG&A": 195,
+        "D&A": 53,
+        "Other": -37
+      },
       "ebitdaMM": 100,
       "netIncomeMM": 39,
       "totalDebtMM": 200,
@@ -36,6 +42,12 @@
         "Western Europe": 950,
         "Central Europe": 365,
         "Asia Pacific": 226
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2860,
+        "SG&A": 230,
+        "D&A": 65,
+        "Other": -63
       },
       "ebitdaMM": 109,
       "netIncomeMM": 38,
@@ -60,6 +72,12 @@
         "Central Europe": 425,
         "Asia Pacific": 298
       },
+      "expensesBySegmentMM": {
+        "COGS": 3470,
+        "SG&A": 270,
+        "D&A": 78,
+        "Other": -58
+      },
       "ebitdaMM": 88,
       "netIncomeMM": 6,
       "totalDebtMM": 460,
@@ -82,6 +100,12 @@
         "Western Europe": 1140,
         "Central Europe": 440,
         "Asia Pacific": 318
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3540,
+        "SG&A": 290,
+        "D&A": 80,
+        "Other": -55
       },
       "ebitdaMM": 138,
       "netIncomeMM": 25,
@@ -106,6 +130,12 @@
         "Central Europe": 460,
         "Asia Pacific": 323
       },
+      "expensesBySegmentMM": {
+        "COGS": 3590,
+        "SG&A": 300,
+        "D&A": 80,
+        "Other": -46
+      },
       "ebitdaMM": 159,
       "netIncomeMM": 47,
       "totalDebtMM": 360,
@@ -118,6 +148,56 @@
       "capexMM": 60,
       "daMM": 80,
       "cfoMM": 195
+    },
+    {
+      "endDate": "2021-07-04",
+      "periodType": "H",
+      "revenueMM": 1542,
+      "ebitdaMM": 53,
+      "netIncomeMM": 22,
+      "sharesOutMM": 89.4,
+      "netDebtMM": 250,
+      "notes": "H1 FY21 (Jan-Jul 2021): revenue £1.54B."
+    },
+    {
+      "endDate": "2022-07-03",
+      "periodType": "H",
+      "revenueMM": 1840,
+      "ebitdaMM": 45,
+      "netIncomeMM": 5,
+      "sharesOutMM": 89.4,
+      "netDebtMM": 360,
+      "notes": "H1 FY22: revenue £1.84B. Inflation hit margins, profit warning."
+    },
+    {
+      "endDate": "2023-07-02",
+      "periodType": "H",
+      "revenueMM": 1947,
+      "ebitdaMM": 64,
+      "netIncomeMM": 12,
+      "sharesOutMM": 89.5,
+      "netDebtMM": 380,
+      "notes": "H1 FY23 (calendar realigned): revenue £1.95B, EBITDA £64M."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 1995,
+      "ebitdaMM": 76,
+      "netIncomeMM": 22,
+      "sharesOutMM": 89.7,
+      "netDebtMM": 320,
+      "notes": "H1 FY24: revenue £2.0B, EBITDA £76M."
+    },
+    {
+      "endDate": "2025-06-29",
+      "periodType": "H",
+      "revenueMM": 2060,
+      "ebitdaMM": 82,
+      "netIncomeMM": 25,
+      "sharesOutMM": 89.7,
+      "netDebtMM": 290,
+      "notes": "H1 FY25: revenue £2.06B, EBITDA £82M."
     }
   ]
 }

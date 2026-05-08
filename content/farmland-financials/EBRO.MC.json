@@ -8,6 +8,10 @@
       "endDate": "2020-12-31",
       "periodType": "FY",
       "revenueMM": 3107,
+      "revenueBySegmentMM": {
+        "Rice": 2270,
+        "Pasta": 837
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 2280,
         "SG&A": 470,
@@ -30,6 +34,10 @@
       "endDate": "2021-12-31",
       "periodType": "FY",
       "revenueMM": 2746,
+      "revenueBySegmentMM": {
+        "Rice": 2030,
+        "Pasta": 716
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 2050,
         "SG&A": 410,
@@ -52,6 +60,10 @@
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 2950,
+      "revenueBySegmentMM": {
+        "Rice": 2180,
+        "Pasta": 770
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 2280,
         "SG&A": 420,
@@ -74,6 +86,10 @@
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 3104,
+      "revenueBySegmentMM": {
+        "Rice": 2295,
+        "Pasta": 809
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 2330,
         "SG&A": 440,
@@ -96,6 +112,10 @@
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 3140,
+      "revenueBySegmentMM": {
+        "Rice": 2320,
+        "Pasta": 820
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 2360,
         "SG&A": 450,
@@ -113,6 +133,66 @@
       "capexMM": 115,
       "daMM": 105,
       "cfoMM": 380
+    },
+    {
+      "endDate": "2020-06-30",
+      "periodType": "H",
+      "revenueMM": 1565,
+      "ebitdaMM": 200,
+      "netIncomeMM": 95,
+      "sharesOutMM": 153.86,
+      "netDebtMM": 590,
+      "notes": "H1 2020: revenue €1.57B, EBITDA €200M. COVID pantry-loading boost."
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "H",
+      "revenueMM": 1370,
+      "ebitdaMM": 145,
+      "netIncomeMM": 175,
+      "sharesOutMM": 153.86,
+      "netDebtMM": 520,
+      "notes": "H1 2021: revenue €1.37B, EBITDA €145M. Includes Panzani sale gain."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "H",
+      "revenueMM": 1450,
+      "ebitdaMM": 145,
+      "netIncomeMM": 65,
+      "sharesOutMM": 153.86,
+      "netDebtMM": 640,
+      "notes": "H1 2022: revenue €1.45B, EBITDA €145M. Wheat/rice price spike margin squeeze."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 1540,
+      "ebitdaMM": 175,
+      "netIncomeMM": 90,
+      "sharesOutMM": 153.86,
+      "netDebtMM": 720,
+      "notes": "H1 2023: revenue €1.54B, EBITDA €175M. Tilda full year contribution."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 1572,
+      "ebitdaMM": 188,
+      "netIncomeMM": 96,
+      "sharesOutMM": 153.86,
+      "netDebtMM": 700,
+      "notes": "H1 2024: revenue €1.57B, EBITDA €188M (+8%)."
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "H",
+      "revenueMM": 1605,
+      "ebitdaMM": 200,
+      "netIncomeMM": 102,
+      "sharesOutMM": 153.86,
+      "netDebtMM": 690,
+      "notes": "H1 2025: revenue €1.61B, EBITDA €200M. Strong pasta + rice."
     }
   ]
 }

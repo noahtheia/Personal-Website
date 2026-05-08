@@ -50,10 +50,30 @@
       "sharesOutMM": 19.6,
       "dividendPerShare": 8,
       "totalAcresK": 30.4,
+      "revenueBySegmentMM": {
+        "Avocado": 1850,
+        "Macadamia": 750,
+        "Tea": 480,
+        "Blueberries / livestock / forestry": 320
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2280,
+        "SG&A": 320,
+        "D&A": 78,
+        "Other opex": 2
+      },
       "notes": "FY22: Revenue KES 3.4B (+19%) record on avocado tonnage + China direct-export market opening. PAT KES 425M.",
       "capexMM": 75,
       "daMM": 78,
       "cfoMM": 150
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 600,
+      "ebitdaMM": -80,
+      "netIncomeMM": -180,
+      "notes": "H1 23: avocado season front-loaded; price collapse evident."
     },
     {
       "endDate": "2023-12-31",
@@ -67,10 +87,30 @@
       "sharesOutMM": 19.6,
       "dividendPerShare": 0,
       "totalAcresK": 30.4,
+      "revenueBySegmentMM": {
+        "Avocado": 720,
+        "Macadamia": 350,
+        "Tea": 380,
+        "Blueberries / livestock / forestry": 120
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1300,
+        "SG&A": 220,
+        "D&A": 80,
+        "Other opex": -80
+      },
       "notes": "FY23: Revenue KES 1.57B (-54%) — global avocado oversupply (Peru/Mexico) crashed prices; macadamia weak. Net loss KES 340M — first loss in years; dividend suspended.",
       "capexMM": 70,
       "daMM": 80,
       "cfoMM": 130
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 920,
+      "ebitdaMM": 110,
+      "netIncomeMM": 50,
+      "notes": "H1 24: recovery underway."
     },
     {
       "endDate": "2024-12-31",
@@ -84,6 +124,18 @@
       "sharesOutMM": 19.6,
       "dividendPerShare": 8,
       "totalAcresK": 30.4,
+      "revenueBySegmentMM": {
+        "Avocado": 1280,
+        "Macadamia": 480,
+        "Tea": 420,
+        "Blueberries / livestock / forestry": 200
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1600,
+        "SG&A": 320,
+        "D&A": 82,
+        "Other opex": -2
+      },
       "notes": "FY24: Revenue KES 2.38B (+52%) recovery; PAT KES 230M, dividend restored at KES 8/share. Avocado pricing partially normalised; blueberry expansion progressing.",
       "capexMM": 65,
       "daMM": 82,

@@ -98,6 +98,94 @@
       "cfoMM": 3300000
     },
     {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 12000000,
+      "revenueBySegmentMM": {
+        "Animal feed": 4810000,
+        "DOC + broiler": 4000000,
+        "Beef cattle": 1410000,
+        "Aquaculture / other": 1780000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10460000,
+        "G&A": 360000,
+        "Selling": 415000,
+        "D&A": 285000
+      },
+      "ebitdaMM": 1010000,
+      "netIncomeMM": 380000,
+      "netDebtMM": 8200000,
+      "sharesOutMM": 11727,
+      "notes": "Q1 2022: revenue Rp12.0T."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 12500000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5005000,
+        "DOC + broiler": 4170000,
+        "Beef cattle": 1465000,
+        "Aquaculture / other": 1860000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10880000,
+        "G&A": 372000,
+        "Selling": 430000,
+        "D&A": 295000
+      },
+      "ebitdaMM": 1010000,
+      "netIncomeMM": 360000,
+      "netDebtMM": 8300000,
+      "sharesOutMM": 11727,
+      "notes": "Q2 2022: revenue Rp12.5T."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 12300000,
+      "revenueBySegmentMM": {
+        "Animal feed": 4925000,
+        "DOC + broiler": 4105000,
+        "Beef cattle": 1445000,
+        "Aquaculture / other": 1825000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10720000,
+        "G&A": 368000,
+        "Selling": 423000,
+        "D&A": 295000
+      },
+      "ebitdaMM": 905000,
+      "netIncomeMM": 295000,
+      "netDebtMM": 8260000,
+      "sharesOutMM": 11727,
+      "notes": "Q3 2022: revenue Rp12.3T; feed-input cost spike."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 12631000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5060000,
+        "DOC + broiler": 4225000,
+        "Beef cattle": 1480000,
+        "Aquaculture / other": 1866000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10990000,
+        "G&A": 380000,
+        "Selling": 432000,
+        "D&A": 305000
+      },
+      "ebitdaMM": 925000,
+      "netIncomeMM": 341000,
+      "netDebtMM": 8250000,
+      "sharesOutMM": 11727,
+      "notes": "Q4 2022: revenue Rp12.6T."
+    },
+    {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 49431000,
@@ -129,6 +217,94 @@
       "cfoMM": 2400000
     },
     {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 12700000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5090000,
+        "DOC + broiler": 4180000,
+        "Beef cattle": 1475000,
+        "Aquaculture / other": 1955000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11150000,
+        "G&A": 380000,
+        "Selling": 435000,
+        "D&A": 300000
+      },
+      "ebitdaMM": 800000,
+      "netIncomeMM": 220000,
+      "netDebtMM": 7900000,
+      "sharesOutMM": 11727,
+      "notes": "Q1 2023: revenue Rp12.7T; weak DOC pricing."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 12900000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5170000,
+        "DOC + broiler": 4250000,
+        "Beef cattle": 1500000,
+        "Aquaculture / other": 1980000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11320000,
+        "G&A": 388000,
+        "Selling": 442000,
+        "D&A": 305000
+      },
+      "ebitdaMM": 815000,
+      "netIncomeMM": 230000,
+      "netDebtMM": 7950000,
+      "sharesOutMM": 11727,
+      "notes": "Q2 2023: revenue Rp12.9T."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 12800000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5130000,
+        "DOC + broiler": 4220000,
+        "Beef cattle": 1490000,
+        "Aquaculture / other": 1960000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11220000,
+        "G&A": 386000,
+        "Selling": 440000,
+        "D&A": 305000
+      },
+      "ebitdaMM": 805000,
+      "netIncomeMM": 225000,
+      "netDebtMM": 7850000,
+      "sharesOutMM": 11727,
+      "notes": "Q3 2023: revenue Rp12.8T."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 13235000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5310000,
+        "DOC + broiler": 4350000,
+        "Beef cattle": 1535000,
+        "Aquaculture / other": 2040000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11510000,
+        "G&A": 406000,
+        "Selling": 463000,
+        "D&A": 310000
+      },
+      "ebitdaMM": 840000,
+      "netIncomeMM": 246000,
+      "netDebtMM": 7800000,
+      "sharesOutMM": 11727,
+      "notes": "Q4 2023: revenue Rp13.2T."
+    },
+    {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 51635000,
@@ -158,6 +334,94 @@
       "capexMM": 2400000,
       "daMM": 1180000,
       "cfoMM": 1800000
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 13500000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5440000,
+        "DOC + broiler": 4450000,
+        "Beef cattle": 1560000,
+        "Aquaculture / other": 2050000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11700000,
+        "G&A": 400000,
+        "Selling": 458000,
+        "D&A": 315000
+      },
+      "ebitdaMM": 1050000,
+      "netIncomeMM": 450000,
+      "netDebtMM": 7400000,
+      "sharesOutMM": 11727,
+      "notes": "Q1 2024: revenue Rp13.5T; DOC pricing recovery."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 13750000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5540000,
+        "DOC + broiler": 4530000,
+        "Beef cattle": 1585000,
+        "Aquaculture / other": 2095000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11890000,
+        "G&A": 408000,
+        "Selling": 465000,
+        "D&A": 320000
+      },
+      "ebitdaMM": 1120000,
+      "netIncomeMM": 510000,
+      "netDebtMM": 7300000,
+      "sharesOutMM": 11727,
+      "notes": "Q2 2024: revenue Rp13.75T."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 13550000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5460000,
+        "DOC + broiler": 4470000,
+        "Beef cattle": 1565000,
+        "Aquaculture / other": 2055000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11720000,
+        "G&A": 402000,
+        "Selling": 458000,
+        "D&A": 320000
+      },
+      "ebitdaMM": 1095000,
+      "netIncomeMM": 480000,
+      "netDebtMM": 7200000,
+      "sharesOutMM": 11727,
+      "notes": "Q3 2024: revenue Rp13.55T."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 13820000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5560000,
+        "DOC + broiler": 4550000,
+        "Beef cattle": 1590000,
+        "Aquaculture / other": 2120000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11890000,
+        "G&A": 410000,
+        "Selling": 469000,
+        "D&A": 325000
+      },
+      "ebitdaMM": 1135000,
+      "netIncomeMM": 512000,
+      "netDebtMM": 7100000,
+      "sharesOutMM": 11727,
+      "notes": "Q4 2024: revenue Rp13.8T."
     },
     {
       "endDate": "2024-12-31",

@@ -86,7 +86,21 @@
       "capexMM": 75,
       "daMM": 100,
       "cfoMM": 175,
+      "expensesBySegmentMM": {
+        "COGS": 2700,
+        "SG&A": 419,
+        "D&A": 100,
+        "Other opex": 0
+      },
       "notes": "FY23 — $228M Bulk segment impairment drove statutory net loss. EBITDA $161M underlying."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "H",
+      "revenueMM": 1750,
+      "ebitdaMM": 95,
+      "netIncomeMM": 8,
+      "notes": "H1 FY24 (6 months to Dec-23)."
     },
     {
       "endDate": "2024-06-30",
@@ -107,7 +121,21 @@
       "capexMM": 65,
       "daMM": 105,
       "cfoMM": 200,
+      "expensesBySegmentMM": {
+        "COGS": 2820,
+        "SG&A": 395,
+        "D&A": 105,
+        "Other opex": 0
+      },
       "notes": "FY24 revenue $3.52B; EBITDA up 22% YoY. Bulk segment review concluded."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "H",
+      "revenueMM": 1850,
+      "ebitdaMM": 110,
+      "netIncomeMM": 18,
+      "notes": "H1 FY25 (6 months to Dec-24)."
     }
   ]
 }

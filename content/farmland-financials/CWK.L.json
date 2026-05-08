@@ -8,6 +8,13 @@
       "endDate": "2021-03-27",
       "periodType": "FY",
       "revenueMM": 1900.0,
+      "revenueBySegmentMM": {
+        "Pork": 1320,
+        "Poultry": 270,
+        "Convenience": 280,
+        "Pet": 0,
+        "Other (Continental Europe)": 30
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 1660,
         "SG&A": 130,
@@ -30,6 +37,13 @@
       "endDate": "2022-03-26",
       "periodType": "FY",
       "revenueMM": 2010.0,
+      "revenueBySegmentMM": {
+        "Pork": 1380,
+        "Poultry": 305,
+        "Convenience": 290,
+        "Pet": 0,
+        "Other (Continental Europe)": 35
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 1760,
         "SG&A": 135,
@@ -52,6 +66,13 @@
       "endDate": "2023-03-25",
       "periodType": "FY",
       "revenueMM": 2316.6,
+      "revenueBySegmentMM": {
+        "Pork": 1530,
+        "Poultry": 380,
+        "Convenience": 365,
+        "Pet": 0,
+        "Other (Continental Europe)": 41.6
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 2050,
         "SG&A": 145,
@@ -74,6 +95,13 @@
       "endDate": "2024-03-30",
       "periodType": "FY",
       "revenueMM": 2603.5,
+      "revenueBySegmentMM": {
+        "Pork": 1700,
+        "Poultry": 430,
+        "Convenience": 425,
+        "Pet": 0,
+        "Other (Continental Europe)": 48.5
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 2270,
         "SG&A": 165,
@@ -96,6 +124,13 @@
       "endDate": "2025-03-29",
       "periodType": "FY",
       "revenueMM": 2722.0,
+      "revenueBySegmentMM": {
+        "Pork": 1700,
+        "Poultry": 460,
+        "Convenience": 455,
+        "Pet": 60,
+        "Other (Continental Europe)": 47
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 2360,
         "SG&A": 175,
@@ -113,6 +148,56 @@
       "capexMM": 95,
       "daMM": 85,
       "cfoMM": 240
+    },
+    {
+      "endDate": "2021-09-26",
+      "periodType": "H",
+      "revenueMM": 920,
+      "ebitdaMM": 80,
+      "netIncomeMM": 50,
+      "sharesOutMM": 53.5,
+      "netDebtMM": 30,
+      "notes": "H1 FY21/22 (Mar-Sep 2021): revenue £920M, EBITDA £80M."
+    },
+    {
+      "endDate": "2022-09-25",
+      "periodType": "H",
+      "revenueMM": 1080,
+      "ebitdaMM": 85,
+      "netIncomeMM": 50,
+      "sharesOutMM": 53.6,
+      "netDebtMM": 60,
+      "notes": "H1 FY22/23: revenue £1.08B (+17%), EBITDA £85M."
+    },
+    {
+      "endDate": "2023-09-24",
+      "periodType": "H",
+      "revenueMM": 1240,
+      "ebitdaMM": 105,
+      "netIncomeMM": 65,
+      "sharesOutMM": 53.6,
+      "netDebtMM": 100,
+      "notes": "H1 FY23/24: revenue £1.24B, EBITDA £105M."
+    },
+    {
+      "endDate": "2024-09-29",
+      "periodType": "H",
+      "revenueMM": 1300,
+      "ebitdaMM": 125,
+      "netIncomeMM": 78,
+      "sharesOutMM": 53.7,
+      "netDebtMM": 200,
+      "notes": "H1 FY24/25: revenue £1.30B, EBITDA £125M. Inspired Pet acquired Aug 2024."
+    },
+    {
+      "endDate": "2025-09-28",
+      "periodType": "H",
+      "revenueMM": 1395,
+      "ebitdaMM": 140,
+      "netIncomeMM": 88,
+      "sharesOutMM": 53.72,
+      "netDebtMM": 215,
+      "notes": "H1 FY25/26: revenue £1.40B (+7%), EBITDA £140M."
     }
   ]
 }

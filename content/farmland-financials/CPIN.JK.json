@@ -98,6 +98,94 @@
       "cfoMM": 4500000
     },
     {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 19800000,
+      "revenueBySegmentMM": {
+        "Animal feed": 9780000,
+        "Day-old chicks (DOC)": 2280000,
+        "Broiler / live bird": 4620000,
+        "Processed / branded food": 3120000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 17400000,
+        "G&A": 580000,
+        "Selling": 670000,
+        "D&A": 395000
+      },
+      "ebitdaMM": 1620000,
+      "netIncomeMM": 845000,
+      "netDebtMM": 3300000,
+      "sharesOutMM": 16398,
+      "notes": "Q1 2022: revenue Rp19.8T; healthy DOC pricing."
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 20500000,
+      "revenueBySegmentMM": {
+        "Animal feed": 10120000,
+        "Day-old chicks (DOC)": 2370000,
+        "Broiler / live bird": 4790000,
+        "Processed / branded food": 3220000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 18000000,
+        "G&A": 595000,
+        "Selling": 690000,
+        "D&A": 405000
+      },
+      "ebitdaMM": 1670000,
+      "netIncomeMM": 870000,
+      "netDebtMM": 3450000,
+      "sharesOutMM": 16398,
+      "notes": "Q2 2022: revenue Rp20.5T."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 20300000,
+      "revenueBySegmentMM": {
+        "Animal feed": 10025000,
+        "Day-old chicks (DOC)": 2345000,
+        "Broiler / live bird": 4730000,
+        "Processed / branded food": 3200000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 17820000,
+        "G&A": 590000,
+        "Selling": 685000,
+        "D&A": 405000
+      },
+      "ebitdaMM": 1610000,
+      "netIncomeMM": 830000,
+      "netDebtMM": 3500000,
+      "sharesOutMM": 16398,
+      "notes": "Q3 2022: revenue Rp20.3T; corn/SBM cost spike pressured margin."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 20837000,
+      "revenueBySegmentMM": {
+        "Animal feed": 10275000,
+        "Day-old chicks (DOC)": 2405000,
+        "Broiler / live bird": 4860000,
+        "Processed / branded food": 3297000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 18240000,
+        "G&A": 615000,
+        "Selling": 705000,
+        "D&A": 415000
+      },
+      "ebitdaMM": 1610000,
+      "netIncomeMM": 854000,
+      "netDebtMM": 3550000,
+      "sharesOutMM": 16398,
+      "notes": "Q4 2022: revenue Rp20.8T."
+    },
+    {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 81437000,
@@ -129,6 +217,94 @@
       "cfoMM": 3900000
     },
     {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 21100000,
+      "revenueBySegmentMM": {
+        "Animal feed": 10430000,
+        "Day-old chicks (DOC)": 2380000,
+        "Broiler / live bird": 4920000,
+        "Processed / branded food": 3370000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 18720000,
+        "G&A": 615000,
+        "Selling": 705000,
+        "D&A": 425000
+      },
+      "ebitdaMM": 1430000,
+      "netIncomeMM": 660000,
+      "netDebtMM": 3000000,
+      "sharesOutMM": 16398,
+      "notes": "Q1 2023: revenue Rp21.1T; weak DOC pricing."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 21300000,
+      "revenueBySegmentMM": {
+        "Animal feed": 10530000,
+        "Day-old chicks (DOC)": 2410000,
+        "Broiler / live bird": 4965000,
+        "Processed / branded food": 3395000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 18890000,
+        "G&A": 620000,
+        "Selling": 712000,
+        "D&A": 428000
+      },
+      "ebitdaMM": 1500000,
+      "netIncomeMM": 690000,
+      "netDebtMM": 2700000,
+      "sharesOutMM": 16398,
+      "notes": "Q2 2023: revenue Rp21.3T."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 21200000,
+      "revenueBySegmentMM": {
+        "Animal feed": 10480000,
+        "Day-old chicks (DOC)": 2400000,
+        "Broiler / live bird": 4940000,
+        "Processed / branded food": 3380000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 18790000,
+        "G&A": 620000,
+        "Selling": 710000,
+        "D&A": 425000
+      },
+      "ebitdaMM": 1490000,
+      "netIncomeMM": 690000,
+      "netDebtMM": 2550000,
+      "sharesOutMM": 16398,
+      "notes": "Q3 2023: revenue Rp21.2T."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 21354000,
+      "revenueBySegmentMM": {
+        "Animal feed": 10560000,
+        "Day-old chicks (DOC)": 2410000,
+        "Broiler / live bird": 4975000,
+        "Processed / branded food": 3409000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 18900000,
+        "G&A": 625000,
+        "Selling": 723000,
+        "D&A": 422000
+      },
+      "ebitdaMM": 1530000,
+      "netIncomeMM": 715000,
+      "netDebtMM": 2400000,
+      "sharesOutMM": 16398,
+      "notes": "Q4 2023: revenue Rp21.4T; net income Rp715B."
+    },
+    {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 84954000,
@@ -158,6 +334,94 @@
       "capexMM": 2200000,
       "daMM": 1400000,
       "cfoMM": 3300000
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 20600000,
+      "revenueBySegmentMM": {
+        "Animal feed": 10220000,
+        "Day-old chicks (DOC)": 2585000,
+        "Broiler / live bird": 4605000,
+        "Processed / branded food": 3190000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 17900000,
+        "G&A": 625000,
+        "Selling": 720000,
+        "D&A": 435000
+      },
+      "ebitdaMM": 1690000,
+      "netIncomeMM": 950000,
+      "netDebtMM": 2300000,
+      "sharesOutMM": 16398,
+      "notes": "Q1 2024: revenue Rp20.6T; DOC pricing recovery + lower feed cost."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 20800000,
+      "revenueBySegmentMM": {
+        "Animal feed": 10320000,
+        "Day-old chicks (DOC)": 2610000,
+        "Broiler / live bird": 4645000,
+        "Processed / branded food": 3225000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 18100000,
+        "G&A": 630000,
+        "Selling": 725000,
+        "D&A": 437000
+      },
+      "ebitdaMM": 1730000,
+      "netIncomeMM": 1010000,
+      "netDebtMM": 2200000,
+      "sharesOutMM": 16398,
+      "notes": "Q2 2024: revenue Rp20.8T."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 20500000,
+      "revenueBySegmentMM": {
+        "Animal feed": 10170000,
+        "Day-old chicks (DOC)": 2575000,
+        "Broiler / live bird": 4580000,
+        "Processed / branded food": 3175000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 17850000,
+        "G&A": 625000,
+        "Selling": 718000,
+        "D&A": 437000
+      },
+      "ebitdaMM": 1700000,
+      "netIncomeMM": 985000,
+      "netDebtMM": 2150000,
+      "sharesOutMM": 16398,
+      "notes": "Q3 2024: revenue Rp20.5T."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 20920000,
+      "revenueBySegmentMM": {
+        "Animal feed": 10390000,
+        "Day-old chicks (DOC)": 2630000,
+        "Broiler / live bird": 4670000,
+        "Processed / branded food": 3230000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 18250000,
+        "G&A": 640000,
+        "Selling": 737000,
+        "D&A": 441000
+      },
+      "ebitdaMM": 1780000,
+      "netIncomeMM": 1072000,
+      "netDebtMM": 2000000,
+      "sharesOutMM": 16398,
+      "notes": "Q4 2024: revenue Rp20.9T; net income Rp1.07T."
     },
     {
       "endDate": "2024-12-31",

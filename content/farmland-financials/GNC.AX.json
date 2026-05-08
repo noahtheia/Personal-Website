@@ -86,7 +86,21 @@
       "capexMM": 120,
       "daMM": 130,
       "cfoMM": 380,
+      "expensesBySegmentMM": {
+        "COGS": 7200,
+        "SG&A": 270,
+        "D&A": 130,
+        "Other opex": 0
+      },
       "notes": "FY23 EBITDA $564M, second consecutive bumper crop."
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "H",
+      "revenueMM": 4100,
+      "ebitdaMM": 285,
+      "netIncomeMM": 130,
+      "notes": "H1 FY23 (6 months to Mar-23)."
     },
     {
       "endDate": "2024-09-30",

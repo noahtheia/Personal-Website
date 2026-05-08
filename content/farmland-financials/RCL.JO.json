@@ -87,10 +87,24 @@
       "sharesOutMM": 880,
       "bookValuePerShare": 9.1,
       "dividendPerShare": 0.2,
+      "revenueBySegmentMM": {
+        "Sugar": 11500,
+        "Chicken (Rainbow)": 12000,
+        "Groceries / pies / pet food": 10000,
+        "Vector Logistics": 2605
+      },
       "notes": "FY23: revenue R36.1B (+17%) — pricing pass-through. Chicken hit by HPAI / load-shedding (~R200M+ diesel). Sugar resilient. EBITDA dropped to R2.2B. HEPS ~107 cents.",
       "capexMM": 1380,
       "daMM": 970,
       "cfoMM": 2350
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "H",
+      "revenueMM": 17500,
+      "ebitdaMM": 1100,
+      "netIncomeMM": 480,
+      "notes": "H1 FY23 (6 months to Dec-22)."
     },
     {
       "endDate": "2024-06-30",
@@ -109,10 +123,24 @@
       "sharesOutMM": 880,
       "bookValuePerShare": 9.4,
       "dividendPerShare": 0.65,
+      "revenueBySegmentMM": {
+        "Sugar": 12000,
+        "Chicken (Rainbow, until June 2024)": 11500,
+        "Groceries / pies / pet food": 10500,
+        "Vector Logistics": 2800
+      },
       "notes": "FY24: revenue R36.8B. Underlying EBITDA R3.3B (+50% — chicken recovery, sugar stable). Rainbow Chicken (RBO) unbundled and separately listed June 2024 — these continuing-ops figures exclude Rainbow post-unbundling and reflect group basis pre-spin. HEPS ~145 cents. Dividend 65 cents.",
       "capexMM": 1200,
       "daMM": 1010,
       "cfoMM": 2900
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "H",
+      "revenueMM": 18000,
+      "ebitdaMM": 1700,
+      "netIncomeMM": 700,
+      "notes": "H1 FY24 (6 months to Dec-23) — chicken margin recovery."
     }
   ]
 }

@@ -13,6 +13,12 @@
         "Infrastructure & Trading": 1500,
         "Farming": 240
       },
+      "expensesBySegmentMM": {
+        "COGS": 3450,
+        "SG&A": 215,
+        "D&A": 78,
+        "Other": -79
+      },
       "ebitdaMM": 443,
       "netIncomeMM": 96,
       "totalDebtMM": 760,
@@ -33,6 +39,12 @@
         "Oilseed Processing": 3137,
         "Infrastructure & Trading": 2200,
         "Farming": 311
+      },
+      "expensesBySegmentMM": {
+        "COGS": 4400,
+        "SG&A": 230,
+        "D&A": 92,
+        "Other": -4
       },
       "ebitdaMM": 930,
       "netIncomeMM": 513,
@@ -55,6 +67,12 @@
         "Infrastructure & Trading": 2150,
         "Farming": 342
       },
+      "expensesBySegmentMM": {
+        "COGS": 4400,
+        "SG&A": 280,
+        "D&A": 130,
+        "Other": 9
+      },
       "ebitdaMM": 513,
       "netIncomeMM": -41,
       "totalDebtMM": 1320,
@@ -75,6 +93,12 @@
         "Oilseed Processing": 1850,
         "Infrastructure & Trading": 1380,
         "Farming": 227
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2750,
+        "SG&A": 200,
+        "D&A": 110,
+        "Other": -47
       },
       "ebitdaMM": 444,
       "netIncomeMM": 299,
@@ -97,6 +121,12 @@
         "Infrastructure & Trading": 1500,
         "Farming": 283
       },
+      "expensesBySegmentMM": {
+        "COGS": 2700,
+        "SG&A": 215,
+        "D&A": 105,
+        "Other": -36
+      },
       "ebitdaMM": 519,
       "netIncomeMM": 268,
       "totalDebtMM": 1031,
@@ -108,6 +138,83 @@
       "capexMM": 95,
       "daMM": 105,
       "cfoMM": 380
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "H",
+      "revenueMM": 2200,
+      "ebitdaMM": 245,
+      "netIncomeMM": 90,
+      "sharesOutMM": 81.97,
+      "netDebtMM": 670,
+      "notes": "H1 FY20/21 (Jul-Dec 2020): revenue $2.2B, EBITDA $245M."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "H",
+      "revenueMM": 2965,
+      "ebitdaMM": 410,
+      "netIncomeMM": 215,
+      "sharesOutMM": 81.97,
+      "netDebtMM": 980,
+      "notes": "H1 FY21/22 (Jul-Dec 2021): revenue $2.97B, EBITDA $410M. Pre-war final half."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "H",
+      "revenueMM": 1620,
+      "ebitdaMM": 195,
+      "netIncomeMM": 80,
+      "sharesOutMM": 81.97,
+      "netDebtMM": 920,
+      "notes": "H1 FY22/23 (Jul-Dec 2022): revenue $1.62B (-45% YoY) on war disruption. EBITDA $195M."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "H",
+      "revenueMM": 1660,
+      "ebitdaMM": 240,
+      "netIncomeMM": 130,
+      "sharesOutMM": 84.03,
+      "netDebtMM": 800,
+      "notes": "H1 FY23/24 (Jul-Dec 2023): revenue $1.66B, EBITDA $240M. Maritime corridor reopened."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "H",
+      "revenueMM": 1995,
+      "ebitdaMM": 295,
+      "netIncomeMM": 165,
+      "sharesOutMM": 84.03,
+      "netDebtMM": 580,
+      "notes": "H1 FY24/25 (Jul-Dec 2024): revenue $2.0B, EBITDA $295M."
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "FY",
+      "revenueMM": 4180,
+      "revenueBySegmentMM": {
+        "Oilseed Processing": 2050,
+        "Infrastructure & Trading": 1820,
+        "Farming": 310
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3320,
+        "SG&A": 240,
+        "D&A": 110,
+        "Other": -80
+      },
+      "ebitdaMM": 590,
+      "netIncomeMM": 310,
+      "totalDebtMM": 950,
+      "cashMM": 380,
+      "netDebtMM": 570,
+      "sharesOutMM": 84.03,
+      "epsBasic": 3.69,
+      "notes": "FY25 (yr-end Jun 2025): revenue $4.18B, EBITDA $590M. Continued normalization.",
+      "capexMM": 100,
+      "daMM": 110,
+      "cfoMM": 420
     }
   ]
 }

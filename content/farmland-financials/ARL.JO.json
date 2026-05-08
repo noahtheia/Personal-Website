@@ -87,10 +87,22 @@
       "sharesOutMM": 39.05,
       "bookValuePerShare": 75.0,
       "dividendPerShare": 0,
+      "revenueBySegmentMM": {
+        "Poultry": 13500,
+        "Feed": 6237
+      },
       "notes": "FY23: ANNUS HORRIBILIS. Revenue R19.7B but op LOSS R(977M). HPAI culls (2M breeder hens) + record load-shedding + feed-cost squeeze. Net debt swung to R380M. Dividend suspended. Worst year on record.",
       "capexMM": 820,
       "daMM": 440,
       "cfoMM": 850
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "H",
+      "revenueMM": 9500,
+      "ebitdaMM": 250,
+      "netIncomeMM": -50,
+      "notes": "H1 FY23 (Apr 22-Mar 23 H1): squeezed by feed costs."
     },
     {
       "endDate": "2024-09-30",
@@ -109,10 +121,22 @@
       "sharesOutMM": 39.05,
       "bookValuePerShare": 92.0,
       "dividendPerShare": 9.75,
+      "revenueBySegmentMM": {
+        "Poultry": 15500,
+        "Feed": 7000
+      },
       "notes": "FY24: powerful recovery. Revenue R22.5B (+14%). Op profit R972M (vs R-977M loss FY23). HEPS ~2,250 cents. Load-shedding eased; AI flock rebuilt; feed-grain costs lower. Net cash position restored. Dividend reinstated 975 cents.",
       "capexMM": 700,
       "daMM": 460,
       "cfoMM": 1450
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "H",
+      "revenueMM": 11000,
+      "ebitdaMM": 700,
+      "netIncomeMM": 350,
+      "notes": "H1 FY24."
     }
   ]
 }
