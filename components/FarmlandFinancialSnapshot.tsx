@@ -10,6 +10,7 @@ type ChartId =
   | "income"
   | "margins"
   | "capex"
+  | "capitalAllocation"
   | "propertyValue"
   | "navPerShare"
   | "acreage"
@@ -39,6 +40,12 @@ const CHART_DEFS: { id: ChartId; label: string; description: string }[] = [
     label: "Capex",
     description:
       "Annual capital expenditures (bars), depreciation & amortization (overlay), and capex-to-revenue intensity (right axis).",
+  },
+  {
+    id: "capitalAllocation",
+    label: "Capital allocation",
+    description:
+      "Capex / dividends / buybacks stacked per fiscal year, with CFO line — see how the issuer splits its cash flow between reinvestment and shareholder return.",
   },
   {
     id: "propertyValue",
@@ -851,6 +858,7 @@ function buildAllSeries(
     income: null,
     margins: null,
     capex: null,
+    capitalAllocation: null,
     propertyValue: null,
     navPerShare: null,
     acreage: null,
@@ -1374,6 +1382,85 @@ function buildAllSeries(
         };
       }
       result.capex = capexSeries;
+    }
+
+    // ---- Capital allocation ----
+    // FY-cadence stacked bars: capex / dividends / buybacks per FY
+    // (positive uses of cash) + CFO line (cash flow available to
+    // allocate). Buybacks computed from year-over-year sharesOut
+    // delta × that year's avg price (history fetched daily). This
+    // makes reinvestment vs return-of-capital read at a glance.
+    const capAllocRows = financials.periods
+      .filter((p) => p.periodType === "FY")
+      .sort((a, b) => a.endDate.localeCompare(b.endDate));
+    if (capAllocRows.length > 0) {
+      const points: DatedPoint[] = [];
+      const segNames = ["Capex", "Dividends", "Buybacks"];
+      const perPoint: Record<string, number>[] = [];
+      const cfoPts: DatedPoint[] = [];
+      for (let i = 0; i < capAllocRows.length; i++) {
+        const p = capAllocRows[i];
+        const prev = i > 0 ? capAllocRows[i - 1] : null;
+        const capex =
+          typeof p.capexMM === "number" ? Math.max(0, p.capexMM) : 0;
+        const divs =
+          typeof p.dividendPerShare === "number" &&
+          typeof p.sharesOutMM === "number"
+            ? Math.max(0, p.dividendPerShare * p.sharesOutMM)
+            : 0;
+        // Buyback proxy: positive when shares declined YoY × avg price
+        // (use this year's price proxy from yearend close where
+        // available). Only included when we have prior shares + a
+        // price reference.
+        let buybacks = 0;
+        if (
+          prev &&
+          typeof prev.sharesOutMM === "number" &&
+          typeof p.sharesOutMM === "number" &&
+          history &&
+          history.points.length > 0
+        ) {
+          const priceAt = findValueAtOrBeforeDated(
+            history.points.map((h) => ({ date: h.date, value: h.close })),
+            p.endDate,
+          );
+          if (priceAt !== null && priceAt > 0) {
+            const dShares = (prev.sharesOutMM as number) - (p.sharesOutMM as number);
+            buybacks = Math.max(0, dShares * priceAt);
+          }
+        }
+        // Skip rows with no allocation data at all
+        if (capex === 0 && divs === 0 && buybacks === 0) continue;
+        points.push({
+          date: p.endDate,
+          value: capex + divs + buybacks,
+        });
+        perPoint.push({
+          Capex: capex,
+          Dividends: divs,
+          Buybacks: buybacks,
+        });
+        if (typeof p.cfoMM === "number") {
+          cfoPts.push({ date: p.endDate, value: p.cfoMM });
+        }
+      }
+      if (points.length > 0) {
+        const allocSeries: Series = {
+          label: "Capital allocation",
+          description: `Capex / Dividends / Buybacks stacked per FY, ${ccy} M`,
+          unit: { kind: "millions", ccy },
+          kind: "bar",
+          points,
+          segments: { names: segNames, perPoint },
+        };
+        if (cfoPts.length > 0) {
+          allocSeries.overlay = {
+            label: "Cash from operations",
+            points: cfoPts,
+          };
+        }
+        result.capitalAllocation = allocSeries;
+      }
     }
   }
 
