@@ -453,7 +453,13 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 56,
     "annualFcfMM": 60,
-    "annualEquityMM": 399.9
+    "annualEquityMM": 399.9,
+    "plantation": {
+      "ffbYieldTPerHa": 22,
+      "oerPct": 22,
+      "cpoAspPerMt": 950,
+      "rspoPct": 100
+    }
   },
   {
     "ticker": "RE.L",
@@ -480,7 +486,11 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 8,
     "annualFcfMM": 11,
-    "annualEquityMM": 295
+    "annualEquityMM": 295,
+    "plantation": {
+      "ffbYieldTPerHa": 18,
+      "oerPct": 22.5
+    }
   },
   {
     "ticker": "AEP.L",
@@ -506,7 +516,11 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 56,
     "annualFcfMM": 30,
-    "annualEquityMM": 558.6
+    "annualEquityMM": 558.6,
+    "plantation": {
+      "ffbYieldTPerHa": 19,
+      "oerPct": 22
+    }
   },
   {
     "ticker": "2089.KL",
@@ -531,7 +545,12 @@
     "operatingCountry": "Malaysia",
     "annualNetIncomeMM": 825.2,
     "annualFcfMM": 720,
-    "annualEquityMM": 2978.2
+    "annualEquityMM": 2978.2,
+    "plantation": {
+      "ffbYieldTPerHa": 24,
+      "oerPct": 23.5,
+      "rspoPct": 100
+    }
   },
   {
     "ticker": "KLK.KL",
@@ -666,7 +685,11 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 1370000,
     "annualFcfMM": 1450000,
-    "annualEquityMM": 22642000
+    "annualEquityMM": 22642000,
+    "plantation": {
+      "ffbYieldTPerHa": 19,
+      "oerPct": 22
+    }
   },
   {
     "ticker": "SIMP.JK",
@@ -744,7 +767,10 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 710000,
     "annualFcfMM": 1180000,
-    "annualEquityMM": 4000000
+    "annualEquityMM": 4000000,
+    "plantation": {
+      "ffbYieldTPerHa": 21
+    }
   },
   {
     "ticker": "BWPT.JK",
@@ -796,7 +822,11 @@
     "operatingCountry": "Malaysia",
     "annualNetIncomeMM": 1536.4,
     "annualFcfMM": 980,
-    "annualEquityMM": 12294
+    "annualEquityMM": 12294,
+    "plantation": {
+      "ffbYieldTPerHa": 22,
+      "oerPct": 21.8
+    }
   },
   {
     "ticker": "5285.KL",
@@ -822,7 +852,12 @@
     "operatingCountry": "Malaysia",
     "annualNetIncomeMM": 1480,
     "annualFcfMM": 1620,
-    "annualEquityMM": 21155
+    "annualEquityMM": 21155,
+    "plantation": {
+      "ffbYieldTPerHa": 19,
+      "oerPct": 21.5,
+      "rspoPct": 99
+    }
   },
   {
     "ticker": "GENP.KL",
@@ -848,7 +883,11 @@
     "operatingCountry": "Malaysia",
     "annualNetIncomeMM": 320,
     "annualFcfMM": 285,
-    "annualEquityMM": 6390
+    "annualEquityMM": 6390,
+    "plantation": {
+      "ffbYieldTPerHa": 20,
+      "oerPct": 21
+    }
   },
   {
     "ticker": "5126.KL",
@@ -873,7 +912,10 @@
     "operatingCountry": "Malaysia",
     "annualNetIncomeMM": 390,
     "annualFcfMM": 420,
-    "annualEquityMM": 2872.1
+    "annualEquityMM": 2872.1,
+    "plantation": {
+      "ffbYieldTPerHa": 21
+    }
   },
   {
     "ticker": "5138.KL",
@@ -898,7 +940,11 @@
     "operatingCountry": "Malaysia",
     "annualNetIncomeMM": 124.9,
     "annualFcfMM": 145,
-    "annualEquityMM": 1504
+    "annualEquityMM": 1504,
+    "plantation": {
+      "ffbYieldTPerHa": 21,
+      "oerPct": 22
+    }
   },
   {
     "ticker": "EB5.SI",
@@ -925,7 +971,11 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 165,
     "annualFcfMM": 175,
-    "annualEquityMM": 1507.4
+    "annualEquityMM": 1507.4,
+    "plantation": {
+      "ffbYieldTPerHa": 22,
+      "oerPct": 22.5
+    }
   },
   {
     "ticker": "P8Z.SI",
@@ -952,7 +1002,10 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 1820000,
     "annualFcfMM": 2400000,
-    "annualEquityMM": 15018174
+    "annualEquityMM": 15018174,
+    "plantation": {
+      "ffbYieldTPerHa": 22
+    }
   },
   {
     "ticker": "E5H.SI",
@@ -1001,7 +1054,10 @@
     "geography": "Brazil",
     "operatingCountry": "Brazil",
     "annualNetIncomeMM": 6770,
-    "annualFcfMM": 17700
+    "annualFcfMM": 17700,
+    "protein": {
+      "plants": 250
+    }
   },
   {
     "ticker": "BEEF3.SA",
@@ -1045,7 +1101,10 @@
     "geography": "Brazil",
     "operatingCountry": "Brazil",
     "annualNetIncomeMM": 720,
-    "annualFcfMM": 4100
+    "annualFcfMM": 4100,
+    "protein": {
+      "plants": 32
+    }
   },
   {
     "ticker": "BRFS3.SA",
@@ -1067,7 +1126,10 @@
     "geography": "Brazil",
     "operatingCountry": "Brazil",
     "annualNetIncomeMM": 3354,
-    "annualFcfMM": 3800
+    "annualFcfMM": 3800,
+    "protein": {
+      "plants": 35
+    }
   },
   {
     "ticker": "SMTO3.SA",
@@ -1234,7 +1296,10 @@
     "operatingCountry": "Thailand",
     "annualNetIncomeMM": 6722,
     "annualFcfMM": 9000.0,
-    "annualEquityMM": 63500.0
+    "annualEquityMM": 63500.0,
+    "protein": {
+      "plants": 14
+    }
   },
   {
     "ticker": "KAPC.NR",
@@ -1309,7 +1374,13 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 478.2,
     "annualFcfMM": 534.35,
-    "annualEquityMM": 8136.6
+    "annualEquityMM": 8136.6,
+    "protein": {
+      "plants": 40,
+      "brandedCpg": {
+        "brandedRevenuePct": 45
+      }
+    }
   },
   {
     "ticker": "PPC",
@@ -1331,7 +1402,10 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 1082.36,
     "annualFcfMM": 653.15,
-    "annualEquityMM": 2611.7
+    "annualEquityMM": 2611.7,
+    "protein": {
+      "plants": 36
+    }
   },
   {
     "ticker": "CALM",
@@ -1411,7 +1485,10 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 62.8,
     "annualFcfMM": 679.24,
-    "annualEquityMM": 3627.4
+    "annualEquityMM": 3627.4,
+    "protein": {
+      "plants": 260
+    }
   },
   {
     "ticker": "POST",
@@ -1433,7 +1510,10 @@
     "operatingCountry": "US",
     "annualNetIncomeMM": 335.7,
     "annualFcfMM": 488.1,
-    "annualEquityMM": 2305.9
+    "annualEquityMM": 2305.9,
+    "protein": {
+      "plants": 50
+    }
   },
   {
     "ticker": "DOLE",
@@ -2127,7 +2207,13 @@
     "operatingCountry": "China",
     "annualNetIncomeMM": 1480,
     "annualFcfMM": 1850,
-    "annualEquityMM": 6750.0
+    "annualEquityMM": 6750.0,
+    "protein": {
+      "plants": 50,
+      "pig": {
+        "slaughterWeightKg": 110
+      }
+    }
   },
   {
     "ticker": "1117.HK",
@@ -2390,7 +2476,10 @@
     "operatingCountry": "South Africa",
     "annualNetIncomeMM": 880,
     "annualFcfMM": 750,
-    "annualEquityMM": 3592.6
+    "annualEquityMM": 3592.6,
+    "protein": {
+      "plants": 5
+    }
   },
   {
     "ticker": "RCL.JO",
@@ -2456,7 +2545,10 @@
     "operatingCountry": "UK",
     "annualNetIncomeMM": 117,
     "annualFcfMM": 113,
-    "annualEquityMM": 566.7
+    "annualEquityMM": 566.7,
+    "protein": {
+      "plants": 18
+    }
   },
   {
     "ticker": "INGR",
@@ -2537,7 +2629,10 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 642000,
     "annualFcfMM": 720000,
-    "annualEquityMM": 10520000
+    "annualEquityMM": 10520000,
+    "plantation": {
+      "ffbYieldTPerHa": 17
+    }
   },
   {
     "ticker": "SMAR.JK",
@@ -2637,7 +2732,11 @@
     "operatingCountry": "Indonesia",
     "annualNetIncomeMM": 952000,
     "annualFcfMM": 1100000,
-    "annualEquityMM": 7440000
+    "annualEquityMM": 7440000,
+    "plantation": {
+      "ffbYieldTPerHa": 20,
+      "sugarRevenueSharePct": 25
+    }
   },
   {
     "ticker": "5254.KL",
@@ -2662,7 +2761,10 @@
     "operatingCountry": "Malaysia",
     "annualNetIncomeMM": 165,
     "annualFcfMM": 215,
-    "annualEquityMM": 3990
+    "annualEquityMM": 3990,
+    "plantation": {
+      "ffbYieldTPerHa": 17
+    }
   },
   {
     "ticker": "5210.KL",
@@ -2687,7 +2789,10 @@
     "operatingCountry": "Malaysia",
     "annualNetIncomeMM": 115,
     "annualFcfMM": 95,
-    "annualEquityMM": 1331
+    "annualEquityMM": 1331,
+    "plantation": {
+      "ffbYieldTPerHa": 18
+    }
   },
   {
     "ticker": "1996.KL",
@@ -2940,7 +3045,10 @@
     "operatingCountry": "Nigeria",
     "annualNetIncomeMM": 90500,
     "annualFcfMM": 35000,
-    "annualEquityMM": 145000
+    "annualEquityMM": 145000,
+    "plantation": {
+      "ffbYieldTPerHa": 12
+    }
   },
   {
     "ticker": "OKOMU.LG",
@@ -3114,7 +3222,10 @@
     "operatingCountry": "UK",
     "annualNetIncomeMM": 47,
     "annualFcfMM": 90,
-    "annualEquityMM": 291.5
+    "annualEquityMM": 291.5,
+    "protein": {
+      "plants": 24
+    }
   },
   {
     "ticker": "SM1.NZ",
