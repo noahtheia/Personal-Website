@@ -191,6 +191,11 @@ export type PricedFarmlandComp = Omit<
 
   fxToUsd: number;
   fetchedAt: string;
+
+  // Last 5 fiscal years of revenue (filing-currency) for an inline
+  // sparkline next to the company name in the comps table. Empty
+  // array if we don't have FY revenue history.
+  revenueSparkline: number[];
 };
 
 const COMPS_FILE = path.join(process.cwd(), "content", "farmland-comps.json");
@@ -355,11 +360,25 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         marketCapLocal > 0
           ? (f.annualFcfMM / marketCapLocal) * 100
           : null;
+      // Pull financials once for both buyback-yield + revenue spark.
+      const fin = getFinancials(f.ticker);
+      // Revenue sparkline: last 5 FY rows of revenueMM from the
+      // financials file. Empty array if no FY rows or all null.
+      const revenueSparkline = fin
+        ? fin.periods
+            .filter(
+              (p) =>
+                p.periodType === "FY" && typeof p.revenueMM === "number",
+            )
+            .sort((a, b) => a.endDate.localeCompare(b.endDate))
+            .slice(-5)
+            .map((p) => p.revenueMM as number)
+        : [];
+
       // Buyback yield: net annual repurchases ÷ market cap × 100.
       // Approximated as Δshares × current price ÷ market cap. Reads
       // the latest two FY rows from the financials file. Negative if
       // the issuer net-issued rather than repurchased.
-      const fin = getFinancials(f.ticker);
       let buybackYield: number | null = null;
       if (fin && priceInFiling !== null && marketCapLocal !== null && marketCapLocal > 0) {
         const fyShares = fin.periods
@@ -448,6 +467,7 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         fcfPayoutRatio,
         fxToUsd: fx,
         fetchedAt,
+        revenueSparkline,
       };
     }),
   );

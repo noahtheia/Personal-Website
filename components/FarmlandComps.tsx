@@ -7,6 +7,7 @@ import type {
   FarmlandSector,
   PricedFarmlandComp,
 } from "@/lib/farmland-comps";
+import { Sparkline } from "./Sparkline";
 
 const WATCHLIST_KEY = "farmland-comps-watchlist";
 
@@ -746,12 +747,17 @@ function CategorySection({
             </div>
           </td>
           <td className="sticky left-20 z-[1] bg-surface px-3 py-3 text-left align-middle">
-            <Link
-              href={`/analytics/public-farmland/${encodeURIComponent(r.ticker)}`}
-              className="text-[12px] !text-fg no-underline transition-colors hover:!text-accent"
-            >
-              {r.name}
-            </Link>
+            <div className="flex items-center justify-between gap-2">
+              <Link
+                href={`/analytics/public-farmland/${encodeURIComponent(r.ticker)}`}
+                className="text-[12px] !text-fg no-underline transition-colors hover:!text-accent"
+              >
+                {r.name}
+              </Link>
+              {r.revenueSparkline.length >= 2 && (
+                <Sparkline values={r.revenueSparkline} />
+              )}
+            </div>
           </td>
           <td className="bg-surface px-3 py-3 text-left text-[11px] text-fg-soft">
             {r.geography}
