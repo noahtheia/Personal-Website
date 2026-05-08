@@ -81,6 +81,38 @@
       "cfoMM": 28000
     },
     {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 148000,
+      "ebitdaMM": 9500,
+      "netIncomeMM": -1300,
+      "notes": "Q1 23"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 145000,
+      "ebitdaMM": 8500,
+      "netIncomeMM": -1700,
+      "notes": "Q2 23"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 147000,
+      "ebitdaMM": 9000,
+      "netIncomeMM": -1300,
+      "notes": "Q3 23"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 147634,
+      "ebitdaMM": 9000,
+      "netIncomeMM": -898,
+      "notes": "Q4 23"
+    },
+    {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 588168,
@@ -107,6 +139,38 @@
       "capexMM": 26000,
       "daMM": 25500,
       "cfoMM": 45000
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 145000,
+      "ebitdaMM": 11000,
+      "netIncomeMM": 4000,
+      "notes": "Q1 24"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 146000,
+      "ebitdaMM": 12000,
+      "netIncomeMM": 4800,
+      "notes": "Q2 24"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 148000,
+      "ebitdaMM": 12500,
+      "netIncomeMM": 5100,
+      "notes": "Q3 24"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 149168,
+      "ebitdaMM": 12300,
+      "netIncomeMM": 5130,
+      "notes": "Q4 24"
     }
   ]
 }

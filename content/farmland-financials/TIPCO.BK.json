@@ -57,6 +57,17 @@
       "netDebtMM": 1472.43,
       "sharesOutMM": 483,
       "dividendPerShare": 0.81,
+      "revenueBySegmentMM": {
+        "Pineapple (processed / concentrate)": 920,
+        "Branded juice (Tipco)": 850,
+        "Herbal / supplements / other": 172
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1500,
+        "SG&A": 322,
+        "D&A": 440,
+        "Other opex": -440
+      },
       "notes": "FY23: Revenue THB1.94bn (-33%) on pineapple supply shortage / weak juice exports. EBITDA THB120M (margin 6.2%). NI THB246M. DPS THB0.81 — peak payout supported by associate dividend.",
       "capexMM": 450,
       "daMM": 440,

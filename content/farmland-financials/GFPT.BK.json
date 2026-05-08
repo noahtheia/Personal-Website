@@ -63,10 +63,52 @@
       "netDebtMM": 5000,
       "sharesOutMM": 1254,
       "dividendPerShare": 0.4,
+      "revenueBySegmentMM": {
+        "Domestic chicken / feed": 12500,
+        "Export (cooked / processed chicken)": 6212
+      },
+      "expensesBySegmentMM": {
+        "COGS": 16000,
+        "SG&A": 850,
+        "D&A": 830,
+        "Other opex": -818
+      },
       "notes": "FY23: Revenue ฿18.7B flat; net profit ฿950M (-31%). Chicken oversupply + sluggish Japanese demand.",
       "capexMM": 850,
       "daMM": 830,
       "cfoMM": 1450
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 4650,
+      "ebitdaMM": 460,
+      "netIncomeMM": 230,
+      "notes": "Q1 23"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 4750,
+      "ebitdaMM": 470,
+      "netIncomeMM": 245,
+      "notes": "Q2 23"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 4700,
+      "ebitdaMM": 460,
+      "netIncomeMM": 240,
+      "notes": "Q3 23"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 4612,
+      "ebitdaMM": 460,
+      "netIncomeMM": 235,
+      "notes": "Q4 23"
     },
     {
       "endDate": "2024-12-31",
@@ -79,10 +121,52 @@
       "netDebtMM": 4500,
       "sharesOutMM": 1254,
       "dividendPerShare": 0.45,
+      "revenueBySegmentMM": {
+        "Domestic chicken / feed": 13200,
+        "Export (cooked / processed chicken)": 6652
+      },
+      "expensesBySegmentMM": {
+        "COGS": 16500,
+        "SG&A": 902,
+        "D&A": 860,
+        "Other opex": -860
+      },
       "notes": "FY24: Revenue ฿19.85B (+6%); net profit ฿1.59B (+68%) — best year since 2017. Lower feed costs (corn/soy) + strong Japan/EU cooked chicken export.",
       "capexMM": 900,
       "daMM": 860,
       "cfoMM": 1700
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 4900,
+      "ebitdaMM": 600,
+      "netIncomeMM": 380,
+      "notes": "Q1 24"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 4950,
+      "ebitdaMM": 615,
+      "netIncomeMM": 400,
+      "notes": "Q2 24"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 5000,
+      "ebitdaMM": 620,
+      "netIncomeMM": 410,
+      "notes": "Q3 24"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 5002,
+      "ebitdaMM": 615,
+      "netIncomeMM": 402,
+      "notes": "Q4 24"
     }
   ]
 }

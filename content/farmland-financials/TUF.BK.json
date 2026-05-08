@@ -63,10 +63,53 @@
       "netDebtMM": 58000,
       "sharesOutMM": 4771,
       "dividendPerShare": 0.31,
+      "revenueBySegmentMM": {
+        "Ambient Seafood (canned tuna/sardine)": 61200,
+        "Frozen, Chilled & Related (shrimp, lobster)": 49500,
+        "PetCare / Value-Added / Other": 25453
+      },
+      "expensesBySegmentMM": {
+        "COGS": 116000,
+        "SG&A": 10353,
+        "D&A": 5100,
+        "Other opex": -5100
+      },
       "notes": "FY23: Revenue ฿136.2B (-12%); net loss ฿3.0B from ฿18.4B Red Lobster impairment / exit charges. Core ex-RL net profit ฿4.1B.",
       "capexMM": 5900,
       "daMM": 5100,
       "cfoMM": 7700
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 35000,
+      "ebitdaMM": 2400,
+      "netIncomeMM": 1100,
+      "notes": "Q1 23"
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 33000,
+      "ebitdaMM": 2300,
+      "netIncomeMM": 950,
+      "notes": "Q2 23"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 34000,
+      "ebitdaMM": 2400,
+      "netIncomeMM": 1050,
+      "notes": "Q3 23"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 34153,
+      "ebitdaMM": 2700,
+      "netIncomeMM": -6100,
+      "notes": "Q4 23: Red Lobster impairment hit."
     },
     {
       "endDate": "2024-12-31",
@@ -79,10 +122,53 @@
       "netDebtMM": 53700,
       "sharesOutMM": 4771,
       "dividendPerShare": 0.61,
+      "revenueBySegmentMM": {
+        "Ambient Seafood (canned tuna/sardine)": 62500,
+        "Frozen, Chilled & Related (shrimp, lobster)": 49500,
+        "PetCare / Value-Added / Other": 26903
+      },
+      "expensesBySegmentMM": {
+        "COGS": 117000,
+        "SG&A": 13503,
+        "D&A": 5300,
+        "Other opex": -10600
+      },
       "notes": "FY24: Revenue ฿138.9B (+2%); net profit ฿6.72B turnaround post Red Lobster exit. Buyback program + IPO of i-Tail Pet Care subsidiary.",
       "capexMM": 5500,
       "daMM": 5300,
       "cfoMM": 11200
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 33700,
+      "ebitdaMM": 3300,
+      "netIncomeMM": 1600,
+      "notes": "Q1 24"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 34500,
+      "ebitdaMM": 3400,
+      "netIncomeMM": 1700,
+      "notes": "Q2 24"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 35400,
+      "ebitdaMM": 3500,
+      "netIncomeMM": 1750,
+      "notes": "Q3 24"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 35303,
+      "ebitdaMM": 3500,
+      "netIncomeMM": 1672,
+      "notes": "Q4 24"
     }
   ]
 }
