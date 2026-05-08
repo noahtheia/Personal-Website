@@ -39,6 +39,17 @@ const PeriodSchema = z.object({
   // without a true REIT NOI line, can be left out.
   noiMM: z.number().optional(),
   netIncomeMM: z.number().optional(),
+  // ---- Cash flow (filing-currency $ millions, POSITIVE values) ----
+  // Capital expenditures during the period (CapEx — payments for
+  // PP&E + property additions). Used to chart reinvestment cycles
+  // and compute capex / revenue intensity.
+  capexMM: z.number().optional(),
+  // Depreciation + amortization expense for the period. Lets us
+  // separate the non-cash drag on EBITDA from real cash outflow.
+  daMM: z.number().optional(),
+  // Cash flow from operations during the period — the headline
+  // CFO line on the cash flow statement.
+  cfoMM: z.number().optional(),
   // ---- Balance sheet (filing-currency $ millions) ----
   totalAssetsMM: z.number().optional(),
   totalDebtMM: z.number().optional(),

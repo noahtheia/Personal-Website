@@ -8,6 +8,8 @@ import type { PriceHistory } from "@/lib/farmland-history";
 type ChartId =
   | "price"
   | "income"
+  | "margins"
+  | "capex"
   | "propertyValue"
   | "navPerShare"
   | "acreage"
@@ -26,6 +28,18 @@ const CHART_DEFS: { id: ChartId; label: string; description: string }[] = [
     label: "Income",
     description:
       "Net revenue stacked above zero, opex stacked below, gross-revenue + EBITDA lines, EBITDA margin on right axis.",
+  },
+  {
+    id: "margins",
+    label: "Margins",
+    description:
+      "EBITDA margin, net income margin, ROE, and ROIC by fiscal year — profitability + return on capital trends.",
+  },
+  {
+    id: "capex",
+    label: "Capex",
+    description:
+      "Annual capital expenditures (bars), depreciation & amortization (overlay), and capex-to-revenue intensity (right axis).",
   },
   {
     id: "propertyValue",
@@ -842,6 +856,8 @@ function buildAllSeries(
   const result: Record<ChartId, Series | null> = {
     price: null,
     income: null,
+    margins: null,
+    capex: null,
     propertyValue: null,
     navPerShare: null,
     acreage: null,
@@ -1197,6 +1213,131 @@ function buildAllSeries(
           value: p.sharesOutMM as number,
         })),
       };
+    }
+
+    // ---- Margins / Returns trend ----
+    // FY-cadence multi-line: EBITDA margin (primary), NI margin
+    // (overlay), ROE (overlay2), ROIC (secondary axis — same %
+    // unit but a different curve so the right axis just mirrors
+    // for clarity).
+    const fyAll = financials.periods
+      .filter((p) => p.periodType === "FY")
+      .sort((a, b) => a.endDate.localeCompare(b.endDate));
+    const ebitdaMarginPts: DatedPoint[] = [];
+    const niMarginPts: DatedPoint[] = [];
+    const roePts: DatedPoint[] = [];
+    const roicPts: DatedPoint[] = [];
+    for (const p of fyAll) {
+      const rev = typeof p.revenueMM === "number" ? p.revenueMM : null;
+      const eb = typeof p.ebitdaMM === "number" ? p.ebitdaMM : null;
+      const ni = typeof p.netIncomeMM === "number" ? p.netIncomeMM : null;
+      // Equity: prefer totalEquityMM, else book × shares
+      const equity =
+        typeof p.totalEquityMM === "number"
+          ? p.totalEquityMM
+          : typeof p.bookValuePerShare === "number" &&
+            typeof p.sharesOutMM === "number"
+          ? p.bookValuePerShare * p.sharesOutMM
+          : null;
+      const netDebt = typeof p.netDebtMM === "number" ? p.netDebtMM : 0;
+      if (rev !== null && rev > 0 && eb !== null) {
+        ebitdaMarginPts.push({ date: p.endDate, value: (eb / rev) * 100 });
+      }
+      if (rev !== null && rev > 0 && ni !== null) {
+        niMarginPts.push({ date: p.endDate, value: (ni / rev) * 100 });
+      }
+      if (ni !== null && equity !== null && equity > 0) {
+        roePts.push({ date: p.endDate, value: (ni / equity) * 100 });
+      }
+      if (ni !== null && equity !== null && equity + netDebt > 0) {
+        roicPts.push({
+          date: p.endDate,
+          value: (ni / (equity + netDebt)) * 100,
+        });
+      }
+    }
+    if (ebitdaMarginPts.length > 0 || niMarginPts.length > 0) {
+      const primaryPts =
+        ebitdaMarginPts.length > 0 ? ebitdaMarginPts : niMarginPts;
+      const primaryLabel =
+        ebitdaMarginPts.length > 0 ? "EBITDA margin" : "Net income margin";
+      const margins: Series = {
+        label: primaryLabel,
+        description: "Profitability + return on capital, % per FY",
+        unit: { kind: "percent" },
+        kind: "line",
+        points: primaryPts,
+      };
+      if (
+        ebitdaMarginPts.length > 0 &&
+        niMarginPts.length > 0 &&
+        primaryLabel !== "Net income margin"
+      ) {
+        margins.overlay = {
+          label: "Net income margin",
+          points: niMarginPts,
+        };
+      }
+      if (roePts.length > 0) {
+        margins.overlay2 = { label: "ROE", points: roePts };
+      }
+      if (roicPts.length > 0) {
+        margins.secondary = {
+          label: "ROIC",
+          unit: { kind: "percent" },
+          points: roicPts,
+        };
+      }
+      result.margins = margins;
+    }
+
+    // ---- Capex trend ----
+    const capexRows = fyAll.filter(
+      (p) => typeof p.capexMM === "number" && (p.capexMM as number) >= 0,
+    );
+    if (capexRows.length > 0) {
+      const capexSeries: Series = {
+        label: "Capex",
+        description: `Capital expenditures by FY, ${ccy} M`,
+        unit: { kind: "millions", ccy },
+        kind: "bar",
+        points: capexRows.map((p) => ({
+          date: p.endDate,
+          value: p.capexMM as number,
+        })),
+      };
+
+      // D&A overlay (same axis, $M)
+      const daRows = fyAll.filter((p) => typeof p.daMM === "number");
+      if (daRows.length > 0) {
+        capexSeries.overlay = {
+          label: "D&A",
+          points: daRows.map((p) => ({
+            date: p.endDate,
+            value: p.daMM as number,
+          })),
+        };
+      }
+
+      // Capex / revenue intensity on right axis
+      const intensityPts: DatedPoint[] = [];
+      for (const p of capexRows) {
+        const rev = typeof p.revenueMM === "number" ? p.revenueMM : null;
+        if (rev !== null && rev > 0) {
+          intensityPts.push({
+            date: p.endDate,
+            value: ((p.capexMM as number) / rev) * 100,
+          });
+        }
+      }
+      if (intensityPts.length > 0) {
+        capexSeries.secondary = {
+          label: "Capex / revenue",
+          unit: { kind: "percent" },
+          points: intensityPts,
+        };
+      }
+      result.capex = capexSeries;
     }
   }
 
