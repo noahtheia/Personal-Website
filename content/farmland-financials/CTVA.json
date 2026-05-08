@@ -2,7 +2,7 @@
   "ticker": "CTVA",
   "currency": "USD",
   "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001755672&type=10-K",
-  "notes": "Corteva — pure-play seeds & crop protection (DowDuPont spin, June 2019). Net cash position FY2024-2025 (cash > debt). EBITDA computed bottom-up; reported \"operating EBITDA\" (non-GAAP) is higher because management adds back significant restructuring + non-recurring items. CommonStockSharesOutstanding used for shares.",
+  "notes": "Corteva \u2014 pure-play seeds & crop protection (DowDuPont spin, June 2019). Net cash position FY2024-2025 (cash > debt). EBITDA computed bottom-up; reported \"operating EBITDA\" (non-GAAP) is higher because management adds back significant restructuring + non-recurring items. CommonStockSharesOutstanding used for shares.",
   "periods": [
     {
       "endDate": "2019-12-31",
@@ -46,7 +46,11 @@
       "epsDiluted": 0.91,
       "daMM": 1177.0,
       "cfoMM": 2064.0,
-      "capexMM": 475.0
+      "capexMM": 475.0,
+      "revenueBySegmentMM": {
+        "Seed": 7756,
+        "Crop Protection": 6461
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -67,7 +71,11 @@
       "epsDiluted": 2.37,
       "daMM": 1243.0,
       "cfoMM": 2727.0,
-      "capexMM": 573.0
+      "capexMM": 573.0,
+      "revenueBySegmentMM": {
+        "Seed": 8402,
+        "Crop Protection": 7253
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -135,7 +143,11 @@
       "epsDiluted": 1.58,
       "daMM": 1223.0,
       "cfoMM": 872.0,
-      "capexMM": 605.0
+      "capexMM": 605.0,
+      "revenueBySegmentMM": {
+        "Seed": 8979,
+        "Crop Protection": 8476
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -209,7 +221,11 @@
       "epsDiluted": 1.03,
       "daMM": 1211.0,
       "cfoMM": 1769.0,
-      "capexMM": 595.0
+      "capexMM": 595.0,
+      "revenueBySegmentMM": {
+        "Seed": 9472,
+        "Crop Protection": 7754
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -226,7 +242,11 @@
       "sharesOutMM": 697.8,
       "totalDebtMM": 2492.0,
       "cashMM": 1505.0,
-      "netDebtMM": 987.0
+      "netDebtMM": 987.0,
+      "revenueBySegmentMM": {
+        "Seed": 2751,
+        "Crop Protection": 1741
+      }
     },
     {
       "endDate": "2024-06-30",
@@ -243,7 +263,11 @@
       "sharesOutMM": 693.62,
       "totalDebtMM": 2471.0,
       "cashMM": 1839.0,
-      "netDebtMM": 632.0
+      "netDebtMM": 632.0,
+      "revenueBySegmentMM": {
+        "Seed": 4331,
+        "Crop Protection": 1781
+      }
     },
     {
       "endDate": "2024-09-30",
@@ -260,7 +284,11 @@
       "sharesOutMM": 689.17,
       "totalDebtMM": 2475.0,
       "cashMM": 2421.0,
-      "netDebtMM": 54.0
+      "netDebtMM": 54.0,
+      "revenueBySegmentMM": {
+        "Seed": 691,
+        "Crop Protection": 1635
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -283,7 +311,11 @@
       "epsDiluted": 1.3,
       "daMM": 1227.0,
       "cfoMM": 2145.0,
-      "capexMM": 597.0
+      "capexMM": 597.0,
+      "revenueBySegmentMM": {
+        "Seed": 9545,
+        "Crop Protection": 7363
+      }
     },
     {
       "endDate": "2025-03-31",
@@ -300,7 +332,11 @@
       "sharesOutMM": 683.03,
       "totalDebtMM": 2465.0,
       "cashMM": 2008.0,
-      "netDebtMM": 457.0
+      "netDebtMM": 457.0,
+      "revenueBySegmentMM": {
+        "Seed": 2707,
+        "Crop Protection": 1710
+      }
     },
     {
       "endDate": "2025-06-30",
@@ -317,7 +353,11 @@
       "sharesOutMM": 679.88,
       "totalDebtMM": 2970.0,
       "cashMM": 2065.0,
-      "netDebtMM": 905.0
+      "netDebtMM": 905.0,
+      "revenueBySegmentMM": {
+        "Seed": 4537,
+        "Crop Protection": 1919
+      }
     },
     {
       "endDate": "2025-09-30",
@@ -334,7 +374,11 @@
       "sharesOutMM": 679.88,
       "totalDebtMM": 2476.0,
       "cashMM": 2509.0,
-      "netDebtMM": -33.0
+      "netDebtMM": -33.0,
+      "revenueBySegmentMM": {
+        "Seed": 917,
+        "Crop Protection": 1701
+      }
     },
     {
       "endDate": "2025-12-31",
@@ -365,6 +409,10 @@
         "1-3y": 740.4,
         "3-5y": 493.6,
         "5+y": 617.0
+      },
+      "revenueBySegmentMM": {
+        "Seed": 9898,
+        "Crop Protection": 7503
       }
     },
     {
@@ -382,7 +430,11 @@
       "sharesOutMM": 672.16,
       "totalDebtMM": 2473.0,
       "cashMM": 1964.0,
-      "netDebtMM": 509.0
+      "netDebtMM": 509.0,
+      "revenueBySegmentMM": {
+        "Seed": 3023,
+        "Crop Protection": 1882
+      }
     }
   ]
 }

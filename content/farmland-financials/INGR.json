@@ -2,7 +2,7 @@
   "ticker": "INGR",
   "currency": "USD",
   "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001046257&type=10-K",
-  "notes": "Ingredion Incorporated (NYSE: INGR) — global ingredient solutions company that processes corn, tapioca, potato, rice, and other grains/tubers into starches, sweeteners (HFCS, dextrose), specialty ingredients, plant-based proteins, and texturizers. Serves food, beverage, brewing, paper, and pharma customers. Four reporting segments since FY24: Texture & Healthful Solutions (T&HS), Food & Industrial Ingredients LATAM (F&II LATAM), Food & Industrial Ingredients US/Canada (F&II US/C), and All Other (incl. PureCircle stevia). Spun off South Korean operations / divested PureCircle stevia partially during FY24. Fiscal year = calendar. SEC CIK 1046257. 10-Ks at sec.gov.",
+  "notes": "Ingredion Incorporated (NYSE: INGR) \u2014 global ingredient solutions company that processes corn, tapioca, potato, rice, and other grains/tubers into starches, sweeteners (HFCS, dextrose), specialty ingredients, plant-based proteins, and texturizers. Serves food, beverage, brewing, paper, and pharma customers. Four reporting segments since FY24: Texture & Healthful Solutions (T&HS), Food & Industrial Ingredients LATAM (F&II LATAM), Food & Industrial Ingredients US/Canada (F&II US/C), and All Other (incl. PureCircle stevia). Spun off South Korean operations / divested PureCircle stevia partially during FY24. Fiscal year = calendar. SEC CIK 1046257. 10-Ks at sec.gov.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -249,7 +249,13 @@
       "sharesOutMM": 64.49,
       "totalDebtMM": 1741.0,
       "cashMM": 877.0,
-      "netDebtMM": 864.0
+      "netDebtMM": 864.0,
+      "revenueBySegmentMM": {
+        "Texture & Healthful Solutions": 600,
+        "F&II - LATAM": 620,
+        "F&II - U.S./Canada": 548,
+        "All Other": 102
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -268,7 +274,7 @@
       "sharesOutMM": 65.4,
       "bookValuePerShare": 42.0,
       "dividendPerShare": 3.2,
-      "notes": "FY24: revenue $7.42B (-9% — partly mix/divestitures + lower corn pass-through). Adj EBITDA $1.23B (+4%). Adj EPS $10.65. Sold South Korea biz. Net debt down to $893M (1.5x EBITDA). Strong FCF.",
+      "notes": "FY24: revenue $7.42B (-9% \u2014 partly mix/divestitures + lower corn pass-through). Adj EBITDA $1.23B (+4%). Adj EPS $10.65. Sold South Korea biz. Net debt down to $893M (1.5x EBITDA). Strong FCF.",
       "capexMM": 295.0,
       "daMM": 214.0,
       "cfoMM": 1436.0,
@@ -279,6 +285,12 @@
         "1-3y": 553.8,
         "3-5y": 369.2,
         "5+y": 461.5
+      },
+      "revenueBySegmentMM": {
+        "Texture & Healthful Solutions": 2366,
+        "F&II - LATAM": 2450,
+        "F&II - U.S./Canada": 2155,
+        "All Other": 459
       }
     },
     {
@@ -331,7 +343,13 @@
       "daMM": 57.0,
       "totalDebtMM": 1741.0,
       "cashMM": 915.0,
-      "netDebtMM": 826.0
+      "netDebtMM": 826.0,
+      "revenueBySegmentMM": {
+        "Texture & Healthful Solutions": 605,
+        "F&II - LATAM": 585,
+        "F&II - U.S./Canada": 507,
+        "All Other": 119
+      }
     },
     {
       "endDate": "2025-12-31",
@@ -348,7 +366,13 @@
       "daMM": 57.0,
       "totalDebtMM": 1742.0,
       "cashMM": 1030.0,
-      "netDebtMM": 712.0
+      "netDebtMM": 712.0,
+      "revenueBySegmentMM": {
+        "Texture & Healthful Solutions": 591,
+        "F&II - LATAM": 587,
+        "F&II - U.S./Canada": 463,
+        "All Other": 116
+      }
     }
   ]
 }

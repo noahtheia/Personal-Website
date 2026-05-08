@@ -2,7 +2,7 @@
   "ticker": "CF",
   "currency": "USD",
   "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001324404&type=10-K",
-  "notes": "CF Industries Holdings — North American nitrogen fertilizer pure-play (ammonia, urea, UAN, AN). EBITDA = OperatingIncomeLoss + DD&A. Aggressive buyback program reduced shares from 215MM (2020) to 154MM (2025). FY2022 was peak earnings on Russia/Ukraine nitrogen squeeze. Has minority interest (CHS Inc preferred); ProfitLoss includes NCI but NetIncomeLossAvailableToCommonStockholdersBasic excludes it.",
+  "notes": "CF Industries Holdings \u2014 North American nitrogen fertilizer pure-play (ammonia, urea, UAN, AN). EBITDA = OperatingIncomeLoss + DD&A. Aggressive buyback program reduced shares from 215MM (2020) to 154MM (2025). FY2022 was peak earnings on Russia/Ukraine nitrogen squeeze. Has minority interest (CHS Inc preferred); ProfitLoss includes NCI but NetIncomeLossAvailableToCommonStockholdersBasic excludes it.",
   "periods": [
     {
       "endDate": "2019-12-31",
@@ -146,7 +146,14 @@
       "netDebtMM": 642.0,
       "capexMM": 453.0,
       "daMM": 850.0,
-      "cfoMM": 3855.0
+      "cfoMM": 3855.0,
+      "revenueBySegmentMM": {
+        "Ammonia": 3090,
+        "Granular Urea": 2892,
+        "UAN": 3572,
+        "AN": 845,
+        "Other": 787
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -224,7 +231,14 @@
       "netDebtMM": 936.0,
       "capexMM": 499.0,
       "daMM": 869.0,
-      "cfoMM": 2757.0
+      "cfoMM": 2757.0,
+      "revenueBySegmentMM": {
+        "Ammonia": 1679,
+        "Granular Urea": 1823,
+        "UAN": 2068,
+        "AN": 497,
+        "Other": 564
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -280,7 +294,14 @@
       "sharesOutMM": 169.88,
       "totalDebtMM": 2970.0,
       "cashMM": 1877.0,
-      "netDebtMM": 1093.0
+      "netDebtMM": 1093.0,
+      "revenueBySegmentMM": {
+        "Ammonia": 353,
+        "Granular Urea": 388,
+        "UAN": 406,
+        "AN": 106,
+        "Other": 117
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -302,7 +323,14 @@
       "netDebtMM": 1357.0,
       "capexMM": 518.0,
       "daMM": 925.0,
-      "cfoMM": 2271.0
+      "cfoMM": 2271.0,
+      "revenueBySegmentMM": {
+        "Ammonia": 1736,
+        "Granular Urea": 1600,
+        "UAN": 1678,
+        "AN": 419,
+        "Other": 503
+      }
     },
     {
       "endDate": "2025-03-31",
@@ -321,7 +349,14 @@
       "sharesOutMM": 169.88,
       "totalDebtMM": 2972.0,
       "cashMM": 1406.0,
-      "netDebtMM": 1566.0
+      "netDebtMM": 1566.0,
+      "revenueBySegmentMM": {
+        "Ammonia": 520,
+        "Granular Urea": 439,
+        "UAN": 470,
+        "AN": 101,
+        "Other": 133
+      }
     },
     {
       "endDate": "2025-06-30",
@@ -339,7 +374,14 @@
       "daMM": 232.0,
       "totalDebtMM": 2973.0,
       "cashMM": 1686.0,
-      "netDebtMM": 1287.0
+      "netDebtMM": 1287.0,
+      "revenueBySegmentMM": {
+        "Ammonia": 491,
+        "Granular Urea": 547,
+        "UAN": 610,
+        "AN": 117,
+        "Other": 125
+      }
     },
     {
       "endDate": "2025-09-30",
@@ -358,7 +400,14 @@
       "sharesOutMM": 153.55,
       "totalDebtMM": 2974.0,
       "cashMM": 1838.0,
-      "netDebtMM": 1136.0
+      "netDebtMM": 1136.0,
+      "revenueBySegmentMM": {
+        "Ammonia": 457,
+        "Granular Urea": 423,
+        "UAN": 517,
+        "AN": 122,
+        "Other": 140
+      }
     },
     {
       "endDate": "2025-12-31",
@@ -388,6 +437,13 @@
         "1-3y": 803.75,
         "3-5y": 643.0,
         "5+y": 1125.25
+      },
+      "revenueBySegmentMM": {
+        "Ammonia": 2176,
+        "Granular Urea": 1781,
+        "UAN": 2161,
+        "AN": 421,
+        "Other": 545
       }
     },
     {
@@ -407,7 +463,14 @@
       "sharesOutMM": 153.55,
       "totalDebtMM": 3216.0,
       "cashMM": 2042.0,
-      "netDebtMM": 1174.0
+      "netDebtMM": 1174.0,
+      "revenueBySegmentMM": {
+        "Ammonia": 627,
+        "Granular Urea": 590,
+        "UAN": 583,
+        "AN": 58,
+        "Other": 128
+      }
     }
   ]
 }

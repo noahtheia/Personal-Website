@@ -2,7 +2,7 @@
   "ticker": "DAR",
   "currency": "USD",
   "sourceUrl": "https://ir.darlingii.com/financials-and-filings/sec-filings",
-  "notes": "Darling Ingredients (NYSE: DAR) — global rendering / animal byproduct processor. Three segments: Feed, Food (gelatin/Rousselot/Sonac), Fuel (50/50 Diamond Green Diesel JV with Valero). Acquired Valley Proteins (Apr 2022, ~$1.1B) and Gelnex (Apr 2023). DGD is largest renewable diesel producer in N America (~1.2B gal/yr capacity). FY24 weakness from soft RIN/RVO pricing for renewable diesel. CIK 916540.",
+  "notes": "Darling Ingredients (NYSE: DAR) \u2014 global rendering / animal byproduct processor. Three segments: Feed, Food (gelatin/Rousselot/Sonac), Fuel (50/50 Diamond Green Diesel JV with Valero). Acquired Valley Proteins (Apr 2022, ~$1.1B) and Gelnex (Apr 2023). DGD is largest renewable diesel producer in N America (~1.2B gal/yr capacity). FY24 weakness from soft RIN/RVO pricing for renewable diesel. CIK 916540.",
   "periods": [
     {
       "endDate": "2020-01-02",
@@ -46,7 +46,12 @@
       "notes": "FY20 (ended Jan 2 2021): revenue $3.57B. Adj EBITDA $792M. DGD ramping.",
       "capexMM": 280.1,
       "daMM": 350.2,
-      "cfoMM": 624.7
+      "cfoMM": 624.7,
+      "revenueBySegmentMM": {
+        "Feed Ingredients": 2072.1,
+        "Food Ingredients": 1185.7,
+        "Fuel Ingredients": 314.1
+      }
     },
     {
       "endDate": "2022-01-01",
@@ -68,7 +73,12 @@
       "notes": "FY21 (ended Jan 1 2022): revenue $4.44B (+25%). Adj EBITDA $1.27B. DGD outperformed.",
       "capexMM": 274.1,
       "daMM": 316.4,
-      "cfoMM": 704.4
+      "cfoMM": 704.4,
+      "revenueBySegmentMM": {
+        "Feed Ingredients": 3039.5,
+        "Food Ingredients": 1271.6,
+        "Fuel Ingredients": 430.2
+      }
     },
     {
       "endDate": "2022-04-02",
@@ -141,7 +151,12 @@
       "notes": "FY22: revenue $6.21B (+40%). Valley Proteins (+$1.1B) closed Apr 2022. Adj EBITDA $1.63B. Net debt jumped on M&A.",
       "capexMM": 391.3,
       "daMM": 394.7,
-      "cfoMM": 813.7
+      "cfoMM": 813.7,
+      "revenueBySegmentMM": {
+        "Feed Ingredients": 4539.0,
+        "Food Ingredients": 1459.6,
+        "Fuel Ingredients": 533.6
+      }
     },
     {
       "endDate": "2023-04-01",
@@ -211,10 +226,15 @@
       "sharesOutMM": 159.6,
       "bookValuePerShare": 22.1,
       "dividendPerShare": 0,
-      "notes": "FY23: revenue $6.78B (+9%). Adj EBITDA $1.26B (-23% — fat prices fell, DGD weaker). Gelnex closed Apr 2023.",
+      "notes": "FY23: revenue $6.78B (+9%). Adj EBITDA $1.26B (-23% \u2014 fat prices fell, DGD weaker). Gelnex closed Apr 2023.",
       "capexMM": 555.5,
       "daMM": 502.0,
-      "cfoMM": 899.3
+      "cfoMM": 899.3,
+      "revenueBySegmentMM": {
+        "Feed Ingredients": 4472.6,
+        "Food Ingredients": 1752.1,
+        "Fuel Ingredients": 563.4
+      }
     },
     {
       "endDate": "2024-03-30",
@@ -248,7 +268,12 @@
       "daMM": 124.6,
       "totalDebtMM": 4409.4,
       "cashMM": 121.6,
-      "netDebtMM": 4287.8
+      "netDebtMM": 4287.8,
+      "revenueBySegmentMM": {
+        "Feed Ingredients": 934.1,
+        "Food Ingredients": 378.8,
+        "Fuel Ingredients": 142.3
+      }
     },
     {
       "endDate": "2024-09-28",
@@ -265,7 +290,12 @@
       "daMM": 123.6,
       "totalDebtMM": 4246.2,
       "cashMM": 114.8,
-      "netDebtMM": 4131.4
+      "netDebtMM": 4131.4,
+      "revenueBySegmentMM": {
+        "Feed Ingredients": 927.5,
+        "Food Ingredients": 357.3,
+        "Fuel Ingredients": 137.1
+      }
     },
     {
       "endDate": "2024-12-28",
@@ -284,7 +314,7 @@
       "sharesOutMM": 158.4,
       "bookValuePerShare": 22.9,
       "dividendPerShare": 0,
-      "notes": "FY24: revenue $5.69B (-16%). Adj EBITDA $818M (-35%) — fats/oils trough + RIN compression hammered DGD. Net income $199M. PTC adoption pending under IRA section 45Z.",
+      "notes": "FY24: revenue $5.69B (-16%). Adj EBITDA $818M (-35%) \u2014 fats/oils trough + RIN compression hammered DGD. Net income $199M. PTC adoption pending under IRA section 45Z.",
       "capexMM": 332.5,
       "daMM": 503.8,
       "cfoMM": 839.3,
@@ -295,6 +325,11 @@
         "1-3y": 1094.5,
         "3-5y": 875.6,
         "5+y": 1532.3
+      },
+      "revenueBySegmentMM": {
+        "Feed Ingredients": 3675.6,
+        "Food Ingredients": 1489.1,
+        "Fuel Ingredients": 550.5
       }
     },
     {
@@ -312,7 +347,12 @@
       "daMM": 123.8,
       "totalDebtMM": 3921.5,
       "cashMM": 81.5,
-      "netDebtMM": 3840.0
+      "netDebtMM": 3840.0,
+      "revenueBySegmentMM": {
+        "Feed Ingredients": 896.3,
+        "Food Ingredients": 349.2,
+        "Fuel Ingredients": 135.1
+      }
     },
     {
       "endDate": "2025-06-28",
@@ -329,7 +369,12 @@
       "daMM": 121.1,
       "totalDebtMM": 3980.3,
       "cashMM": 94.6,
-      "netDebtMM": 3885.7
+      "netDebtMM": 3885.7,
+      "revenueBySegmentMM": {
+        "Feed Ingredients": 936.5,
+        "Food Ingredients": 386.1,
+        "Fuel Ingredients": 158.8
+      }
     },
     {
       "endDate": "2025-09-27",
@@ -346,7 +391,12 @@
       "daMM": 124.1,
       "totalDebtMM": 4103.6,
       "cashMM": 91.5,
-      "netDebtMM": 4012.1
+      "netDebtMM": 4012.1,
+      "revenueBySegmentMM": {
+        "Feed Ingredients": 1029.1,
+        "Food Ingredients": 380.6,
+        "Fuel Ingredients": 154.3
+      }
     },
     {
       "endDate": "2026-01-03",
@@ -363,7 +413,12 @@
       "daMM": 139.5,
       "totalDebtMM": 3937.5,
       "cashMM": 88.7,
-      "netDebtMM": 3848.8
+      "netDebtMM": 3848.8,
+      "revenueBySegmentMM": {
+        "Feed Ingredients": 1128.2,
+        "Food Ingredients": 429.0,
+        "Fuel Ingredients": 152.6
+      }
     }
   ]
 }

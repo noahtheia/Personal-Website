@@ -2,7 +2,7 @@
   "ticker": "ALTO",
   "currency": "USD",
   "sourceUrl": "https://www.altoingredients.com/investors/sec-filings",
-  "notes": "Alto Ingredients (NASDAQ: ALTO) — Sacramento-based ethanol + specialty alcohols producer (CIK 1076259, formerly Pacific Ethanol). Operates Pekin (IL) campus + Magic Valley (ID) + Columbia (OR) plants. ~350M gal/yr capacity. Three segments: Pekin (specialty + fuel), Marketing & Distribution, Western Production. Fiscal year = calendar. Reports in USD. Restructured 2024 — idled Magic Valley + Columbia, ICP Pekin sale processes. Significant operating losses post-2022.",
+  "notes": "Alto Ingredients (NASDAQ: ALTO) \u2014 Sacramento-based ethanol + specialty alcohols producer (CIK 1076259, formerly Pacific Ethanol). Operates Pekin (IL) campus + Magic Valley (ID) + Columbia (OR) plants. ~350M gal/yr capacity. Three segments: Pekin (specialty + fuel), Marketing & Distribution, Western Production. Fiscal year = calendar. Reports in USD. Restructured 2024 \u2014 idled Magic Valley + Columbia, ICP Pekin sale processes. Significant operating losses post-2022.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -241,7 +241,12 @@
       "sharesOutMM": 76.62,
       "totalDebtMM": 90.6,
       "cashMM": 33.6,
-      "netDebtMM": 57.0
+      "netDebtMM": 57.0,
+      "revenueBySegmentMM": {
+        "Pekin Campus": 148.0,
+        "Marketing & Distribution": 57.5,
+        "Western Production": 46.8
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -266,6 +271,11 @@
         "1-3y": 27.5,
         "3-5y": 16.5,
         "5+y": 22.0
+      },
+      "revenueBySegmentMM": {
+        "Pekin Campus": 586.3,
+        "Marketing & Distribution": 227.4,
+        "Western Production": 152.2
       }
     },
     {
@@ -285,7 +295,12 @@
       "sharesOutMM": 76.5,
       "totalDebtMM": 117.0,
       "cashMM": 26.8,
-      "netDebtMM": 90.2
+      "netDebtMM": 90.2,
+      "revenueBySegmentMM": {
+        "Pekin Campus": 152.1,
+        "Marketing & Distribution": 51.6,
+        "Western Production": 24.3
+      }
     },
     {
       "endDate": "2025-06-30",
@@ -304,7 +319,12 @@
       "sharesOutMM": 77.2,
       "totalDebtMM": 124.2,
       "cashMM": 29.8,
-      "netDebtMM": 94.4
+      "netDebtMM": 94.4,
+      "revenueBySegmentMM": {
+        "Pekin Campus": 133.9,
+        "Marketing & Distribution": 60.4,
+        "Western Production": 25.4
+      }
     },
     {
       "endDate": "2025-09-30",
@@ -323,7 +343,12 @@
       "sharesOutMM": 77.34,
       "totalDebtMM": 122.6,
       "cashMM": 32.5,
-      "netDebtMM": 90.1
+      "netDebtMM": 90.1,
+      "revenueBySegmentMM": {
+        "Pekin Campus": 154.9,
+        "Marketing & Distribution": 61.2,
+        "Western Production": 25.9
+      }
     },
     {
       "endDate": "2025-12-31",
@@ -342,7 +367,12 @@
       "sharesOutMM": 77.31,
       "totalDebtMM": 101.2,
       "cashMM": 23.4,
-      "netDebtMM": 77.8
+      "netDebtMM": 77.8,
+      "revenueBySegmentMM": {
+        "Pekin Campus": 150.6,
+        "Marketing & Distribution": 57.9,
+        "Western Production": 25.0
+      }
     }
   ]
 }

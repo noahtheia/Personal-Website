@@ -25,7 +25,14 @@
       "navPerShare": 44.0,
       "capexMM": 524.0,
       "daMM": 548.0,
-      "cfoMM": -808.0
+      "cfoMM": -808.0,
+      "revenueBySegmentMM": {
+        "Agribusiness": 28407,
+        "Edible Oil Products": 9186,
+        "Milling Products": 1739,
+        "Fertilizer": 520,
+        "Sugar & Bioenergy": 1288
+      }
     },
     {
       "endDate": "2020-12-31",
@@ -48,7 +55,14 @@
       "navPerShare": 41.78,
       "capexMM": 365.0,
       "daMM": 435.0,
-      "cfoMM": -3536.0
+      "cfoMM": -3536.0,
+      "revenueBySegmentMM": {
+        "Agribusiness": 29529,
+        "Edible Oil Products": 9601,
+        "Milling Products": 1648,
+        "Fertilizer": 484,
+        "Sugar & Bioenergy": 142
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -71,7 +85,13 @@
       "navPerShare": 51.36,
       "capexMM": 399.0,
       "daMM": 424.0,
-      "cfoMM": -2894.0
+      "cfoMM": -2894.0,
+      "revenueBySegmentMM": {
+        "Agribusiness": 43636,
+        "Refined and Specialty Oils": 13332,
+        "Milling": 1909,
+        "Sugar & Bioenergy": 270
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -142,7 +162,13 @@
       "navPerShare": 64.99,
       "capexMM": 555.0,
       "daMM": 408.0,
-      "cfoMM": -5549.0
+      "cfoMM": -5549.0,
+      "revenueBySegmentMM": {
+        "Agribusiness": 47700,
+        "Refined and Specialty Oils": 16850,
+        "Milling": 2388,
+        "Sugar & Bioenergy": 259
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -222,7 +248,13 @@
       "navPerShare": 78.32,
       "capexMM": 1122.0,
       "daMM": 451.0,
-      "cfoMM": 3308.0
+      "cfoMM": 3308.0,
+      "revenueBySegmentMM": {
+        "Agribusiness": 42764,
+        "Refined and Specialty Oils": 14603,
+        "Milling": 1896,
+        "Sugar & Bioenergy": 235
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -302,7 +334,13 @@
       "navPerShare": 76.91,
       "capexMM": 1376.0,
       "daMM": 468.0,
-      "cfoMM": 1900.0
+      "cfoMM": 1900.0,
+      "revenueBySegmentMM": {
+        "Agribusiness": 38598,
+        "Refined and Specialty Oils": 12771,
+        "Milling": 1555,
+        "Sugar & Bioenergy": 130
+      }
     },
     {
       "endDate": "2025-03-31",
@@ -319,7 +357,13 @@
       "daMM": 120.0,
       "totalDebtMM": 7392.0,
       "cashMM": 3245.0,
-      "netDebtMM": 4147.0
+      "netDebtMM": 4147.0,
+      "revenueBySegmentMM": {
+        "Soybean Processing and Refining": 6661,
+        "Softseed Processing and Refining": 1515,
+        "Other Oilseeds Processing and Refining": 1083,
+        "Grain Merchandising and Milling": 2384
+      }
     },
     {
       "endDate": "2025-06-30",
@@ -390,6 +434,12 @@
         "1-3y": 3200,
         "3-5y": 3500,
         "5+y": 5501
+      },
+      "revenueBySegmentMM": {
+        "Soybean Processing and Refining": 36313,
+        "Softseed Processing and Refining": 11252,
+        "Other Oilseeds Processing and Refining": 4633,
+        "Grain Merchandising and Milling": 18128
       }
     },
     {
@@ -407,7 +457,13 @@
       "daMM": 238.0,
       "totalDebtMM": 15914.0,
       "cashMM": 839.0,
-      "netDebtMM": 15075.0
+      "netDebtMM": 15075.0,
+      "revenueBySegmentMM": {
+        "Soybean Processing and Refining": 9552,
+        "Softseed Processing and Refining": 3904,
+        "Tropical Oils and Specialty Ingredients": 1228,
+        "Grain Merchandising and Milling": 7177
+      }
     }
   ]
 }

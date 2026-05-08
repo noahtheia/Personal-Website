@@ -25,7 +25,13 @@
       "navPerShare": 34.02,
       "capexMM": 828.0,
       "daMM": 993.0,
-      "cfoMM": -5452.0
+      "cfoMM": -5452.0,
+      "revenueBySegmentMM": {
+        "Ag Services and Oilseeds": 48741,
+        "Carbohydrate Solutions": 9886,
+        "Nutrition": 5677,
+        "Other Business": 352
+      }
     },
     {
       "endDate": "2020-12-31",
@@ -48,7 +54,13 @@
       "navPerShare": 35.59,
       "capexMM": 823.0,
       "daMM": 976.0,
-      "cfoMM": -2386.0
+      "cfoMM": -2386.0,
+      "revenueBySegmentMM": {
+        "Ag Services and Oilseeds": 49716,
+        "Carbohydrate Solutions": 8472,
+        "Nutrition": 5800,
+        "Other Business": 367
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -71,7 +83,13 @@
       "navPerShare": 39.8,
       "capexMM": 1169.0,
       "daMM": 996.0,
-      "cfoMM": 6595.0
+      "cfoMM": 6595.0,
+      "revenueBySegmentMM": {
+        "Ag Services and Oilseeds": 67047,
+        "Carbohydrate Solutions": 11110,
+        "Nutrition": 6712,
+        "Other Business": 380
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -151,7 +169,13 @@
       "navPerShare": 43.2,
       "capexMM": 1319.0,
       "daMM": 1028.0,
-      "cfoMM": 3478.0
+      "cfoMM": 3478.0,
+      "revenueBySegmentMM": {
+        "Ag Services and Oilseeds": 79563,
+        "Carbohydrate Solutions": 13961,
+        "Nutrition": 7636,
+        "Other Business": 396
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -231,7 +255,13 @@
       "navPerShare": 44.57,
       "capexMM": 1494.0,
       "daMM": 1059.0,
-      "cfoMM": 4460.0
+      "cfoMM": 4460.0,
+      "revenueBySegmentMM": {
+        "Ag Services and Oilseeds": 73426,
+        "Carbohydrate Solutions": 12874,
+        "Nutrition": 7211,
+        "Other Business": 424
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -265,7 +295,13 @@
       "daMM": 218.0,
       "totalDebtMM": 10560.0,
       "cashMM": 764.0,
-      "netDebtMM": 9796.0
+      "netDebtMM": 9796.0,
+      "revenueBySegmentMM": {
+        "Ag Services and Oilseeds": 17333,
+        "Carbohydrate Solutions": 2894,
+        "Nutrition": 1908,
+        "Other Business": 113
+      }
     },
     {
       "endDate": "2024-09-30",
@@ -282,7 +318,13 @@
       "daMM": 221.0,
       "totalDebtMM": 10058.0,
       "cashMM": 784.0,
-      "netDebtMM": 9274.0
+      "netDebtMM": 9274.0,
+      "revenueBySegmentMM": {
+        "Ag Services and Oilseeds": 15089,
+        "Carbohydrate Solutions": 2908,
+        "Nutrition": 1831,
+        "Other Business": 109
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -311,7 +353,13 @@
       "navPerShare": 44.97,
       "capexMM": 1563.0,
       "daMM": 1141.0,
-      "cfoMM": 2790.0
+      "cfoMM": 2790.0,
+      "revenueBySegmentMM": {
+        "Ag Services and Oilseeds": 66516,
+        "Carbohydrate Solutions": 11234,
+        "Nutrition": 7349,
+        "Other Business": 431
+      }
     },
     {
       "endDate": "2025-03-31",
@@ -328,7 +376,13 @@
       "daMM": 287.0,
       "totalDebtMM": 11065.0,
       "cashMM": 864.0,
-      "netDebtMM": 10201.0
+      "netDebtMM": 10201.0,
+      "revenueBySegmentMM": {
+        "Ag Services and Oilseeds": 15675,
+        "Carbohydrate Solutions": 2571,
+        "Nutrition": 1817,
+        "Other Business": 112
+      }
     },
     {
       "endDate": "2025-06-30",
@@ -345,7 +399,13 @@
       "daMM": 228.0,
       "totalDebtMM": 9228.0,
       "cashMM": 1057.0,
-      "netDebtMM": 8171.0
+      "netDebtMM": 8171.0,
+      "revenueBySegmentMM": {
+        "Ag Services and Oilseeds": 16269,
+        "Carbohydrate Solutions": 2792,
+        "Nutrition": 1993,
+        "Other Business": 112
+      }
     },
     {
       "endDate": "2025-09-30",
@@ -362,7 +422,13 @@
       "daMM": 234.0,
       "totalDebtMM": 7856.0,
       "cashMM": 1235.0,
-      "netDebtMM": 6621.0
+      "netDebtMM": 6621.0,
+      "revenueBySegmentMM": {
+        "Ag Services and Oilseeds": 15613,
+        "Carbohydrate Solutions": 2734,
+        "Nutrition": 1916,
+        "Other Business": 109
+      }
     },
     {
       "endDate": "2025-12-31",
@@ -399,6 +465,12 @@
         "1-3y": 1500,
         "3-5y": 1200,
         "5+y": 4610
+      },
+      "revenueBySegmentMM": {
+        "Ag Services and Oilseeds": 61571,
+        "Carbohydrate Solutions": 10737,
+        "Nutrition": 7512,
+        "Other Business": 449
       }
     },
     {
@@ -416,7 +488,13 @@
       "daMM": 293.0,
       "totalDebtMM": 9329.0,
       "cashMM": 591.0,
-      "netDebtMM": 8738.0
+      "netDebtMM": 8738.0,
+      "revenueBySegmentMM": {
+        "Ag Services and Oilseeds": 16001,
+        "Carbohydrate Solutions": 2559,
+        "Nutrition": 1805,
+        "Other Business": 125
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@
   "ticker": "GPRE",
   "currency": "USD",
   "sourceUrl": "https://investor.gpreinc.com/financial-information/sec-filings",
-  "notes": "Green Plains Inc (NASDAQ: GPRE) — Omaha-based ethanol + grain processing (CIK 1309402). Operates ~1.0 billion gallons/yr ethanol production capacity across ~10 plants. Diversifying into Ultra-High Protein (USP) feed (60% protein) using Fluid Quip MSC technology, and renewable corn oil. Fiscal year = calendar year. Reports in USD. Plant ownership consolidated through Green Plains Partners LP (acquired 2023). Volatile ethanol crush margins.",
+  "notes": "Green Plains Inc (NASDAQ: GPRE) \u2014 Omaha-based ethanol + grain processing (CIK 1309402). Operates ~1.0 billion gallons/yr ethanol production capacity across ~10 plants. Diversifying into Ultra-High Protein (USP) feed (60% protein) using Fluid Quip MSC technology, and renewable corn oil. Fiscal year = calendar year. Reports in USD. Plant ownership consolidated through Green Plains Partners LP (acquired 2023). Volatile ethanol crush margins.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -232,7 +232,11 @@
       "sharesOutMM": 64.65,
       "totalDebtMM": 556.2,
       "cashMM": 227.5,
-      "netDebtMM": 328.7
+      "netDebtMM": 328.7,
+      "revenueBySegmentMM": {
+        "Ethanol Production": 564.6,
+        "Agribusiness & Energy Services": 101.9
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -257,6 +261,10 @@
         "1-3y": 141.25,
         "3-5y": 84.75,
         "5+y": 113.0
+      },
+      "revenueBySegmentMM": {
+        "Ethanol Production": 2067.1,
+        "Agribusiness & Energy Services": 421.1
       }
     },
     {
@@ -275,7 +283,11 @@
       "sharesOutMM": 65.39,
       "totalDebtMM": 571.8,
       "cashMM": 98.6,
-      "netDebtMM": 473.2
+      "netDebtMM": 473.2,
+      "revenueBySegmentMM": {
+        "Ethanol Production": 497.8,
+        "Agribusiness & Energy Services": 109.8
+      }
     },
     {
       "endDate": "2025-06-30",
@@ -293,7 +305,11 @@
       "sharesOutMM": 65.59,
       "totalDebtMM": 508.2,
       "cashMM": 108.6,
-      "netDebtMM": 399.6
+      "netDebtMM": 399.6,
+      "revenueBySegmentMM": {
+        "Ethanol Production": 527.1,
+        "Agribusiness & Energy Services": 31.5
+      }
     },
     {
       "endDate": "2025-09-30",
@@ -311,7 +327,11 @@
       "sharesOutMM": 71.93,
       "totalDebtMM": 353.4,
       "cashMM": 135.9,
-      "netDebtMM": 217.5
+      "netDebtMM": 217.5,
+      "revenueBySegmentMM": {
+        "Ethanol Production": 473.9,
+        "Agribusiness & Energy Services": 40.8
+      }
     },
     {
       "endDate": "2025-12-31",
@@ -329,7 +349,11 @@
       "sharesOutMM": 69.83,
       "totalDebtMM": 412.0,
       "cashMM": 182.3,
-      "netDebtMM": 229.7
+      "netDebtMM": 229.7,
+      "revenueBySegmentMM": {
+        "Ethanol Production": 403.0,
+        "Agribusiness & Energy Services": 31.2
+      }
     },
     {
       "endDate": "2026-03-31",
@@ -347,7 +371,11 @@
       "sharesOutMM": 70.04,
       "totalDebtMM": 492.2,
       "cashMM": 95.7,
-      "netDebtMM": 396.5
+      "netDebtMM": 396.5,
+      "revenueBySegmentMM": {
+        "Ethanol Production": 393.4,
+        "Agribusiness & Energy Services": 58.6
+      }
     }
   ]
 }

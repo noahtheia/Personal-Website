@@ -2,7 +2,7 @@
   "ticker": "POST",
   "currency": "USD",
   "sourceUrl": "https://www.postholdings.com/investors/sec-filings/",
-  "notes": "Post Holdings (NYSE: POST) — multi-segment packaged foods. Segments: Post Consumer Brands (cereal, pet food via 2023 Perfection acquisition), Weetabix (UK cereals), Foodservice (egg products + potatoes — Michael Foods), Refrigerated Retail (Bob Evans sausage, side dishes). Holds 13.6% of BellRing Brands. Fiscal year ends Sep 30. Active M&A platform led by CEO Rob Vitale. Major eggs platform via Michael Foods (~$2B+ rev). CIK 1530950.",
+  "notes": "Post Holdings (NYSE: POST) \u2014 multi-segment packaged foods. Segments: Post Consumer Brands (cereal, pet food via 2023 Perfection acquisition), Weetabix (UK cereals), Foodservice (egg products + potatoes \u2014 Michael Foods), Refrigerated Retail (Bob Evans sausage, side dishes). Holds 13.6% of BellRing Brands. Fiscal year ends Sep 30. Active M&A platform led by CEO Rob Vitale. Major eggs platform via Michael Foods (~$2B+ rev). CIK 1530950.",
   "periods": [
     {
       "endDate": "2020-09-30",
@@ -46,7 +46,13 @@
       "notes": "FY21: revenue $6.22B (+9%). BellRing spin-off Mar 2022 separated Premier Protein. Adj EBITDA $1.12B.",
       "capexMM": 190.9,
       "daMM": 366.5,
-      "cfoMM": 588.2
+      "cfoMM": 588.2,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 1915.3,
+        "Weetabix": 477.5,
+        "Foodservice": 1615.6,
+        "Refrigerated Retail": 974.5
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -102,7 +108,13 @@
       "notes": "FY22: revenue $5.85B (BellRing deconsolidated). Adj EBITDA $953M. Inflation pressure on margins.",
       "capexMM": 255.3,
       "daMM": 380.2,
-      "cfoMM": 382.6
+      "cfoMM": 382.6,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 2242.7,
+        "Weetabix": 477.3,
+        "Foodservice": 2095.0,
+        "Refrigerated Retail": 1036.6
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -175,7 +187,13 @@
       "notes": "FY23: revenue $6.99B (+19%). Pet food (Perfection Pet Foods $1.2B, closed Apr 2023). HPAI-driven egg pricing strength at Michael Foods. Adj EBITDA $1.24B.",
       "capexMM": 303.0,
       "daMM": 407.1,
-      "cfoMM": 750.3
+      "cfoMM": 750.3,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 3033.1,
+        "Weetabix": 512.1,
+        "Foodservice": 2425.9,
+        "Refrigerated Retail": 1019.7
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -226,7 +244,13 @@
       "daMM": 120.7,
       "totalDebtMM": 6399.0,
       "cashMM": 333.8,
-      "netDebtMM": 6065.2
+      "netDebtMM": 6065.2,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 1008.1,
+        "Weetabix": 136.1,
+        "Foodservice": 589.1,
+        "Refrigerated Retail": 214.4
+      }
     },
     {
       "endDate": "2024-09-30",
@@ -256,6 +280,12 @@
         "1-3y": 2029.2,
         "3-5y": 1352.8,
         "5+y": 1691.0
+      },
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 4109.6,
+        "Weetabix": 543.2,
+        "Foodservice": 2307.1,
+        "Refrigerated Retail": 962.2
       }
     },
     {
@@ -273,7 +303,13 @@
       "daMM": 120.3,
       "totalDebtMM": 6945.6,
       "cashMM": 872.9,
-      "netDebtMM": 6072.7
+      "netDebtMM": 6072.7,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 963.9,
+        "Weetabix": 127.6,
+        "Foodservice": 616.6,
+        "Refrigerated Retail": 266.6
+      }
     },
     {
       "endDate": "2025-03-31",
@@ -290,7 +326,13 @@
       "daMM": 125.6,
       "totalDebtMM": 6945.8,
       "cashMM": 617.6,
-      "netDebtMM": 6328.2
+      "netDebtMM": 6328.2,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 987.9,
+        "Weetabix": 131.7,
+        "Foodservice": 607.9,
+        "Refrigerated Retail": 224.6
+      }
     },
     {
       "endDate": "2025-06-30",
@@ -307,7 +349,13 @@
       "daMM": 132.2,
       "totalDebtMM": 7347.2,
       "cashMM": 1056.3,
-      "netDebtMM": 6290.9
+      "netDebtMM": 6290.9,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 914.0,
+        "Weetabix": 137.9,
+        "Foodservice": 698.5,
+        "Refrigerated Retail": 233.9
+      }
     },
     {
       "endDate": "2025-09-30",
@@ -324,7 +372,13 @@
       "daMM": 146.2,
       "totalDebtMM": 7422.9,
       "cashMM": 176.7,
-      "netDebtMM": 7246.2
+      "netDebtMM": 7246.2,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 1158.8,
+        "Weetabix": 145.0,
+        "Foodservice": 718.0,
+        "Refrigerated Retail": 228.2
+      }
     },
     {
       "endDate": "2025-12-31",
@@ -341,7 +395,13 @@
       "daMM": 152.5,
       "totalDebtMM": 7459.1,
       "cashMM": 279.3,
-      "netDebtMM": 7179.8
+      "netDebtMM": 7179.8,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 1103.8,
+        "Weetabix": 137.9,
+        "Foodservice": 669.1,
+        "Refrigerated Retail": 266.6
+      }
     },
     {
       "endDate": "2026-03-31",
@@ -358,7 +418,13 @@
       "daMM": 138.2,
       "totalDebtMM": 7630.4,
       "cashMM": 269.4,
-      "netDebtMM": 7361.0
+      "netDebtMM": 7361.0,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 1044.9,
+        "Weetabix": 136.1,
+        "Foodservice": 627.4,
+        "Refrigerated Retail": 235.3
+      }
     }
   ]
 }

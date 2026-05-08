@@ -2,7 +2,7 @@
   "ticker": "LW",
   "currency": "USD",
   "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001679273&type=10-K",
-  "notes": "Lamb Weston Holdings, Inc. (NYSE: LW). World's #2 frozen-potato processor (frozen french fries / formed potato products) — supplies QSR (McDonald's, Wendy's, Yum, Chick-fil-A) globally. Spun out of ConAgra Brands Nov 2016. Fiscal year ends last Sunday of May (52/53-week). Data from SEC EDGAR XBRL companyfacts (CIK 0001679273). EBITDA = operating income + D&A. Net debt = LongTermDebt + LongTermDebtAndCapitalLeaseObligationsCurrent − cash. Major M&A: Feb 2023 acquired remaining 50% of Lamb-Weston/Meijer EMEA JV (~$936M cash + assumed debt ~$430M) — added FY23 partial-year and full FY24 EMEA consolidation. Prior to FY23 EMEA was equity-method (revenue not consolidated). FY23 net income $1.0B includes ~$401M one-time gain on JV step-up (acquisition-date fair value). FY25 saw normalized post-COVID demand softening + ERP-implementation disruption.",
+  "notes": "Lamb Weston Holdings, Inc. (NYSE: LW). World's #2 frozen-potato processor (frozen french fries / formed potato products) \u2014 supplies QSR (McDonald's, Wendy's, Yum, Chick-fil-A) globally. Spun out of ConAgra Brands Nov 2016. Fiscal year ends last Sunday of May (52/53-week). Data from SEC EDGAR XBRL companyfacts (CIK 0001679273). EBITDA = operating income + D&A. Net debt = LongTermDebt + LongTermDebtAndCapitalLeaseObligationsCurrent \u2212 cash. Major M&A: Feb 2023 acquired remaining 50% of Lamb-Weston/Meijer EMEA JV (~$936M cash + assumed debt ~$430M) \u2014 added FY23 partial-year and full FY24 EMEA consolidation. Prior to FY23 EMEA was equity-method (revenue not consolidated). FY23 net income $1.0B includes ~$401M one-time gain on JV step-up (acquisition-date fair value). FY25 saw normalized post-COVID demand softening + ERP-implementation disruption.",
   "periods": [
     {
       "endDate": "2021-05-30",
@@ -208,7 +208,11 @@
       "notes": "FY24: full-year EMEA consolidation drove revenue to $6.47B (+21%). Op income $1.07B + D&A $306.8M = EBITDA $1.37B. Net income $725.5M / EPS $5.01. Net debt $3.82B (acquisition financing + ERP-implementation working-capital build).",
       "capexMM": 929.5,
       "daMM": 306.8,
-      "cfoMM": 798.2
+      "cfoMM": 798.2,
+      "revenueBySegmentMM": {
+        "North America": 4363.2,
+        "International": 2104.4
+      }
     },
     {
       "endDate": "2024-08-25",
@@ -226,7 +230,11 @@
       "daMM": 90.5,
       "totalDebtMM": 4030.9,
       "cashMM": 120.8,
-      "netDebtMM": 3910.1
+      "netDebtMM": 3910.1,
+      "revenueBySegmentMM": {
+        "North America": 1103.7,
+        "International": 550.4
+      }
     },
     {
       "endDate": "2024-11-24",
@@ -244,7 +252,11 @@
       "daMM": 112.2,
       "totalDebtMM": 4083.8,
       "cashMM": 79.0,
-      "netDebtMM": 4004.8
+      "netDebtMM": 4004.8,
+      "revenueBySegmentMM": {
+        "North America": 1072.1,
+        "International": 528.8
+      }
     },
     {
       "endDate": "2025-02-23",
@@ -262,7 +274,11 @@
       "daMM": 88.0,
       "totalDebtMM": 4245.1,
       "cashMM": 67.5,
-      "netDebtMM": 4177.6
+      "netDebtMM": 4177.6,
+      "revenueBySegmentMM": {
+        "North America": 986.3,
+        "International": 534.2
+      }
     },
     {
       "endDate": "2025-05-25",
@@ -278,7 +294,7 @@
       "epsBasic": 2.51,
       "epsDiluted": 2.51,
       "dividendPerShare": 1.46,
-      "notes": "FY25: revenue $6.45B (flat YoY) on volume softness — post-COVID QSR traffic weakness + share loss. Op income $665.1M + D&A $407.5M = EBITDA $1.07B. Net income $357.2M / EPS $2.51. Restructuring ('Focus to Win') announced Oct 2024 — facility closures, capex deferrals. Buybacks reduced share count to 139.3M.",
+      "notes": "FY25: revenue $6.45B (flat YoY) on volume softness \u2014 post-COVID QSR traffic weakness + share loss. Op income $665.1M + D&A $407.5M = EBITDA $1.07B. Net income $357.2M / EPS $2.51. Restructuring ('Focus to Win') announced Oct 2024 \u2014 facility closures, capex deferrals. Buybacks reduced share count to 139.3M.",
       "capexMM": 638.2,
       "daMM": 407.5,
       "cfoMM": 868.3,
@@ -289,6 +305,10 @@
         "1-3y": 1155.0,
         "3-5y": 770.0,
         "5+y": 962.5
+      },
+      "revenueBySegmentMM": {
+        "North America": 4265.2,
+        "International": 2186.1
       }
     },
     {
@@ -307,7 +327,11 @@
       "daMM": 95.3,
       "totalDebtMM": 3968.1,
       "cashMM": 98.6,
-      "netDebtMM": 3869.5
+      "netDebtMM": 3869.5,
+      "revenueBySegmentMM": {
+        "North America": 1084.5,
+        "International": 574.7
+      }
     },
     {
       "endDate": "2025-11-23",
@@ -325,7 +349,11 @@
       "daMM": 89.4,
       "totalDebtMM": 3918.6,
       "cashMM": 82.7,
-      "netDebtMM": 3835.9
+      "netDebtMM": 3835.9,
+      "revenueBySegmentMM": {
+        "North America": 1069.5,
+        "International": 548.6
+      }
     },
     {
       "endDate": "2026-02-22",
@@ -343,7 +371,11 @@
       "daMM": 88.6,
       "totalDebtMM": 3992.7,
       "cashMM": 57.5,
-      "netDebtMM": 3935.2
+      "netDebtMM": 3935.2,
+      "revenueBySegmentMM": {
+        "North America": 1035.0,
+        "International": 529.8
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@
   "ticker": "DOLE",
   "currency": "USD",
   "sourceUrl": "https://investors.doleplc.com/financials/sec-filings/default.aspx",
-  "notes": "Dole plc (NYSE: DOLE) — global integrated producer/distributor of fresh fruit and vegetables. Formed Jul 2021 by combining Total Produce + Dole Food Co; NYSE-listed since IPO Jul 30 2021. Three segments post-2024: Fresh Fruit (bananas, pineapples, primarily tropical), Diversified EMEA, Diversified Americas/ROW. Sold Fresh Vegetables to Chiquita Aug 2024 for $293M (formerly 4th segment, now discontinued). Owns/leases ~109K acres of banana/pineapple farms across LatAm + Africa + Asia. CIK 1858253.",
+  "notes": "Dole plc (NYSE: DOLE) \u2014 global integrated producer/distributor of fresh fruit and vegetables. Formed Jul 2021 by combining Total Produce + Dole Food Co; NYSE-listed since IPO Jul 30 2021. Three segments post-2024: Fresh Fruit (bananas, pineapples, primarily tropical), Diversified EMEA, Diversified Americas/ROW. Sold Fresh Vegetables to Chiquita Aug 2024 for $293M (formerly 4th segment, now discontinued). Owns/leases ~109K acres of banana/pineapple farms across LatAm + Africa + Asia. CIK 1858253.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -21,7 +21,7 @@
       "sharesOutMM": 95.0,
       "bookValuePerShare": 11.4,
       "dividendPerShare": 0,
-      "notes": "FY20 (pro forma — pre-merger Total Produce + Dole Food): revenue $4.67B. Combined adj EBITDA $290M. Pre-IPO baseline."
+      "notes": "FY20 (pro forma \u2014 pre-merger Total Produce + Dole Food): revenue $4.67B. Combined adj EBITDA $290M. Pre-IPO baseline."
     },
     {
       "endDate": "2021-12-31",
@@ -213,7 +213,13 @@
       "sharesOutMM": 94.93,
       "totalDebtMM": 989.6,
       "cashMM": 239.4,
-      "netDebtMM": 750.2
+      "netDebtMM": 750.2,
+      "revenueBySegmentMM": {
+        "Fresh Fruit": 824.2,
+        "Diversified Fresh Produce - EMEA": 853.5,
+        "Diversified Fresh Produce - Americas & ROW": 476.8,
+        "Fresh Vegetables": 290.3
+      }
     },
     {
       "endDate": "2024-06-30",
@@ -231,7 +237,13 @@
       "sharesOutMM": 94.95,
       "totalDebtMM": 937.5,
       "cashMM": 219.6,
-      "netDebtMM": 717.8
+      "netDebtMM": 717.8,
+      "revenueBySegmentMM": {
+        "Fresh Fruit": 851.5,
+        "Diversified Fresh Produce - EMEA": 944.9,
+        "Diversified Fresh Produce - Americas & ROW": 356.1,
+        "Fresh Vegetables": 297.5
+      }
     },
     {
       "endDate": "2024-09-30",
@@ -249,7 +261,12 @@
       "sharesOutMM": 95.01,
       "totalDebtMM": 965.8,
       "cashMM": 260.6,
-      "netDebtMM": 705.2
+      "netDebtMM": 705.2,
+      "revenueBySegmentMM": {
+        "Fresh Fruit": 798.8,
+        "Diversified Fresh Produce - EMEA": 899.6,
+        "Diversified Fresh Produce - Americas & ROW": 390.1
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -279,6 +296,11 @@
         "1-3y": 354.6,
         "3-5y": 236.4,
         "5+y": 295.5
+      },
+      "revenueBySegmentMM": {
+        "Fresh Fruit": 3293.5,
+        "Diversified Fresh Produce - EMEA": 3608.7,
+        "Diversified Fresh Produce - Americas & ROW": 1686.3
       }
     },
     {
@@ -297,7 +319,13 @@
       "sharesOutMM": 95.14,
       "totalDebtMM": 978.7,
       "cashMM": 254.9,
-      "netDebtMM": 723.8
+      "netDebtMM": 723.8,
+      "revenueBySegmentMM": {
+        "Fresh Fruit": 878.1,
+        "Diversified Fresh Produce - EMEA": 892.1,
+        "Diversified Fresh Produce - Americas & ROW": 363.5,
+        "Fresh Vegetables": 245.0
+      }
     },
     {
       "endDate": "2025-06-30",
@@ -315,7 +343,13 @@
       "sharesOutMM": 95.16,
       "totalDebtMM": 1072.5,
       "cashMM": 316.9,
-      "netDebtMM": 755.6
+      "netDebtMM": 755.6,
+      "revenueBySegmentMM": {
+        "Fresh Fruit": 972.6,
+        "Diversified Fresh Produce - EMEA": 1100.8,
+        "Diversified Fresh Produce - Americas & ROW": 386.3,
+        "Fresh Vegetables": 247.2
+      }
     },
     {
       "endDate": "2025-09-30",
@@ -333,7 +367,12 @@
       "sharesOutMM": 95.16,
       "totalDebtMM": 956.7,
       "cashMM": 314.7,
-      "netDebtMM": 642.1
+      "netDebtMM": 642.1,
+      "revenueBySegmentMM": {
+        "Fresh Fruit": 890.4,
+        "Diversified Fresh Produce - EMEA": 997.8,
+        "Diversified Fresh Produce - Americas & ROW": 420.0
+      }
     },
     {
       "endDate": "2025-12-31",
@@ -351,7 +390,12 @@
       "sharesOutMM": 95.16,
       "totalDebtMM": 887.1,
       "cashMM": 267.9,
-      "netDebtMM": 619.2
+      "netDebtMM": 619.2,
+      "revenueBySegmentMM": {
+        "Fresh Fruit": 874.0,
+        "Diversified Fresh Produce - EMEA": 1025.9,
+        "Diversified Fresh Produce - Americas & ROW": 486.5
+      }
     }
   ]
 }

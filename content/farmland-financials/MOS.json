@@ -2,7 +2,7 @@
   "ticker": "MOS",
   "currency": "USD",
   "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001285785&type=10-K",
-  "notes": "The Mosaic Company — phosphate + potash fertilizer producer (US, Canada, Brazil). EBITDA = OperatingIncomeLoss + DD&A. FY2022 peak on post-pandemic / Russia nitrogen disruption pricing. Material write-downs in FY2024 reduced reported EPS. Long-term debt concept = LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities.",
+  "notes": "The Mosaic Company \u2014 phosphate + potash fertilizer producer (US, Canada, Brazil). EBITDA = OperatingIncomeLoss + DD&A. FY2022 peak on post-pandemic / Russia nitrogen disruption pricing. Material write-downs in FY2024 reduced reported EPS. Long-term debt concept = LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities. [Segment data: figures rounded to nearest $100M as reported in earnings press releases.]",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -243,7 +243,12 @@
       "sharesOutMM": 319.64,
       "totalDebtMM": 3319.0,
       "cashMM": 322.0,
-      "netDebtMM": 2997.0
+      "netDebtMM": 2997.0,
+      "revenueBySegmentMM": {
+        "Phosphate": 1200,
+        "Potash": 663,
+        "Mosaic Fertilizantes": 1000
+      }
     },
     {
       "endDate": "2024-09-30",
@@ -262,7 +267,12 @@
       "sharesOutMM": 317.87,
       "totalDebtMM": 4159.8,
       "cashMM": 301.6,
-      "netDebtMM": 3858.2
+      "netDebtMM": 3858.2,
+      "revenueBySegmentMM": {
+        "Phosphate": 1000,
+        "Potash": 526,
+        "Mosaic Fertilizantes": 1400
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -284,7 +294,12 @@
       "epsDiluted": 0.55,
       "capexMM": 1251.8,
       "daMM": 1025.5,
-      "cfoMM": 1299.2
+      "cfoMM": 1299.2,
+      "revenueBySegmentMM": {
+        "Phosphate": 4500,
+        "Potash": 2400,
+        "Mosaic Fertilizantes": 4400
+      }
     },
     {
       "endDate": "2025-03-31",
@@ -322,7 +337,12 @@
       "sharesOutMM": 317.29,
       "totalDebtMM": 3369.7,
       "cashMM": 286.2,
-      "netDebtMM": 3083.5
+      "netDebtMM": 3083.5,
+      "revenueBySegmentMM": {
+        "Phosphate": 1200,
+        "Potash": 711,
+        "Mosaic Fertilizantes": 1200
+      }
     },
     {
       "endDate": "2025-09-30",
@@ -341,7 +361,12 @@
       "sharesOutMM": 317.41,
       "totalDebtMM": 4174.5,
       "cashMM": 153.3,
-      "netDebtMM": 4021.2
+      "netDebtMM": 4021.2,
+      "revenueBySegmentMM": {
+        "Phosphate": 1300,
+        "Potash": 695,
+        "Mosaic Fertilizantes": 1600
+      }
     },
     {
       "endDate": "2025-12-31",
@@ -371,6 +396,11 @@
         "1-3y": 1263.47,
         "3-5y": 1010.78,
         "5+y": 1768.86
+      },
+      "revenueBySegmentMM": {
+        "Phosphate": 4600,
+        "Potash": 2700,
+        "Mosaic Fertilizantes": 4800
       }
     }
   ]
