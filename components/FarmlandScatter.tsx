@@ -210,6 +210,58 @@ export function FarmlandScatter({ rows }: { rows: PricedFarmlandComp[] }) {
   const xTicks = ticks(xLo, xHi, !!xAxis.log);
   const yTicks = ticks(yLo, yHi, !!yAxis.log);
 
+  // Linear regression on the visible points. When an axis uses a log
+  // scale, fit on log-space values so the line is straight in screen
+  // coordinates (i.e. log-log or semi-log fit).
+  const fit = useMemo(() => {
+    if (points.length < 3) return null;
+    const tx = (v: number) => (xAxis.log ? Math.log(Math.max(v, 1e-9)) : v);
+    const ty = (v: number) => (yAxis.log ? Math.log(Math.max(v, 1e-9)) : v);
+    const n = points.length;
+    let sx = 0, sy = 0, sxx = 0, sxy = 0, syy = 0;
+    for (const p of points) {
+      const x = tx(p.x);
+      const y = ty(p.y);
+      sx += x; sy += y; sxx += x * x; sxy += x * y; syy += y * y;
+    }
+    const denom = n * sxx - sx * sx;
+    if (denom === 0) return null;
+    const slope = (n * sxy - sx * sy) / denom;
+    const intercept = (sy - slope * sx) / n;
+    const meanY = sy / n;
+    let ssRes = 0, ssTot = 0;
+    for (const p of points) {
+      const yhat = slope * tx(p.x) + intercept;
+      ssRes += (ty(p.y) - yhat) ** 2;
+      ssTot += (ty(p.y) - meanY) ** 2;
+    }
+    const r2 = ssTot === 0 ? 0 : 1 - ssRes / ssTot;
+    return { slope, intercept, r2 };
+  }, [points, xAxis.log, yAxis.log]);
+
+  // Endpoints of the regression line in screen space, clipped to the
+  // plot rectangle. Sample a few interior X values too so a curved
+  // semi-log fit still renders smoothly.
+  const fitPath = useMemo(() => {
+    if (!fit) return null;
+    const tx = (v: number) => (xAxis.log ? Math.log(Math.max(v, 1e-9)) : v);
+    const invY = (y: number) => (yAxis.log ? Math.exp(y) : y);
+    const samples: { x: number; y: number }[] = [];
+    const N = 64;
+    for (let i = 0; i <= N; i++) {
+      const xv = xAxis.log
+        ? Math.exp(Math.log(xLo) + (i / N) * (Math.log(xHi) - Math.log(xLo)))
+        : xLo + (i / N) * (xHi - xLo);
+      const yv = invY(fit.slope * tx(xv) + fit.intercept);
+      samples.push({ x: xv, y: yv });
+    }
+    const within = samples.filter((s) => s.y >= yLo && s.y <= yHi);
+    if (within.length < 2) return null;
+    return within
+      .map((s, i) => `${i === 0 ? "M" : "L"}${xOf(s.x).toFixed(1)},${yOf(s.y).toFixed(1)}`)
+      .join(" ");
+  }, [fit, xAxis.log, yAxis.log, xLo, xHi, yLo, yHi, xOf, yOf]);
+
   return (
     <section className="mt-12 border-t border-rule pt-8">
       <div className="mb-3 flex flex-wrap items-baseline justify-between gap-2">
@@ -364,6 +416,31 @@ export function FarmlandScatter({ rows }: { rows: PricedFarmlandComp[] }) {
           >
             {yAxis.label}
           </text>
+
+          {/* Regression line */}
+          {fitPath && (
+            <path
+              d={fitPath}
+              fill="none"
+              stroke="var(--accent)"
+              strokeWidth="1.25"
+              strokeDasharray="4 3"
+              opacity={0.85}
+            />
+          )}
+          {fit && (
+            <text
+              x={W - PAD.right - 6}
+              y={PAD.top + 12}
+              textAnchor="end"
+              fontSize="10"
+              fill="var(--accent)"
+              fontWeight="600"
+            >
+              {`r² = ${fit.r2.toFixed(3)}`}
+              {xAxis.log || yAxis.log ? " · log fit" : ""}
+            </text>
+          )}
 
           {/* Points */}
           {points.map((p) => {

@@ -3,10 +3,6 @@ import {
   type PricedFarmlandComp,
 } from "@/lib/farmland-comps";
 import { FarmlandComps } from "@/components/FarmlandComps";
-import { FarmlandLeaderboards } from "@/components/FarmlandLeaderboards";
-import { FarmlandMultiplesHistory } from "@/components/FarmlandMultiplesHistory";
-import { FarmlandSectorIndex } from "@/components/FarmlandSectorIndex";
-import { getUniverseMultiples } from "@/lib/farmland-multiples-history";
 
 function fxNote(rows: PricedFarmlandComp[]): string {
   const seen = new Map<string, number>();
@@ -29,11 +25,7 @@ export const metadata = {
 export const revalidate = 3600;
 
 export default async function PublicFarmlandPage() {
-  const [comps, multiplesFY, multiplesQ] = await Promise.all([
-    getPricedFarmlandComps(),
-    getUniverseMultiples("FY"),
-    getUniverseMultiples("Q"),
-  ]);
+  const comps = await getPricedFarmlandComps();
   const fetchedAt = comps[0]?.fetchedAt ?? new Date().toISOString();
 
   return (
@@ -59,12 +51,6 @@ export default async function PublicFarmlandPage() {
       </header>
 
       <FarmlandComps rows={comps} />
-
-      <FarmlandLeaderboards rows={comps} />
-
-      <FarmlandMultiplesHistory fy={multiplesFY} q={multiplesQ} />
-
-      <FarmlandSectorIndex rows={comps} />
 
       <p className="mt-3 text-xs text-muted">
         Updated{" "}
