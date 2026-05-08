@@ -2,7 +2,7 @@
   "ticker": "CVGW",
   "currency": "USD",
   "sourceUrl": "https://investor.calavo.com/sec-filings",
-  "notes": "Calavo Growers, Inc. (NASDAQ: CVGW) — California-based avocado processor + grower (CIK 1133470). Two segments: Grown (fresh avocados sourced from Mexico/Peru/California growers, including ~10,000 acres of company/affiliated avocado groves) and Prepared (frozen guacamole + fresh-cut produce, Salsa Lisa). Fiscal year ends Oct 31. Reports in USD. Significant restructuring 2022-23: sold Salsa Lisa (May 2023), exited fresh-cut food service. Volatile avocado pricing.",
+  "notes": "Calavo Growers, Inc. (NASDAQ: CVGW) \u2014 California-based avocado processor + grower (CIK 1133470). Two segments: Grown (fresh avocados sourced from Mexico/Peru/California growers, including ~10,000 acres of company/affiliated avocado groves) and Prepared (frozen guacamole + fresh-cut produce, Salsa Lisa). Fiscal year ends Oct 31. Reports in USD. Significant restructuring 2022-23: sold Salsa Lisa (May 2023), exited fresh-cut food service. Volatile avocado pricing.",
   "periods": [
     {
       "endDate": "2020-10-31",
@@ -18,9 +18,12 @@
       "cashMM": 6,
       "netDebtMM": 27,
       "sharesOutMM": 17.6,
-      "bookValuePerShare": 11.50,
+      "bookValuePerShare": 11.5,
       "dividendPerShare": 1.15,
-      "notes": "FY20 (ended Oct 31 2020): revenue $1.02B (-13% pandemic foodservice). EBITDA $25M. Net loss $2M."
+      "notes": "FY20 (ended Oct 31 2020): revenue $1.02B (-13% pandemic foodservice). EBITDA $25M. Net loss $2M.",
+      "capexMM": 11.3,
+      "daMM": 16.1,
+      "cfoMM": 28.9
     },
     {
       "endDate": "2021-10-31",
@@ -36,9 +39,12 @@
       "cashMM": 4,
       "netDebtMM": 29,
       "sharesOutMM": 17.6,
-      "bookValuePerShare": 10.20,
+      "bookValuePerShare": 10.2,
       "dividendPerShare": 1.15,
-      "notes": "FY21 (ended Oct 31 2021): revenue $1.14B (+12%). EBITDA collapsed to $4M (cost inflation, labor). Net loss $16M."
+      "notes": "FY21 (ended Oct 31 2021): revenue $1.14B (+12%). EBITDA collapsed to $4M (cost inflation, labor). Net loss $16M.",
+      "capexMM": 11.4,
+      "daMM": 17.6,
+      "cfoMM": 13.6
     },
     {
       "endDate": "2022-10-31",
@@ -54,9 +60,12 @@
       "cashMM": 1.6,
       "netDebtMM": 45,
       "sharesOutMM": 17.7,
-      "bookValuePerShare": 9.30,
-      "dividendPerShare": 0.40,
-      "notes": "FY22 (ended Oct 31 2022): revenue $1.22B (+6%). Net loss $27M (foodservice impairments). Dividend cut to $0.40."
+      "bookValuePerShare": 9.3,
+      "dividendPerShare": 0.4,
+      "notes": "FY22 (ended Oct 31 2022): revenue $1.22B (+6%). Net loss $27M (foodservice impairments). Dividend cut to $0.40.",
+      "capexMM": 9.8,
+      "daMM": 16.6,
+      "cfoMM": 50.2
     },
     {
       "endDate": "2023-10-31",
@@ -72,9 +81,12 @@
       "cashMM": 14,
       "netDebtMM": -2,
       "sharesOutMM": 17.7,
-      "bookValuePerShare": 9.10,
-      "dividendPerShare": 0.40,
-      "notes": "FY23 (ended Oct 31 2023): revenue $951M (-22%) post Salsa Lisa divestiture + foodservice exit. EBITDA $31M. Net loss $7M (continuing ops). Net cash positive."
+      "bookValuePerShare": 9.1,
+      "dividendPerShare": 0.4,
+      "notes": "FY23 (ended Oct 31 2023): revenue $951M (-22%) post Salsa Lisa divestiture + foodservice exit. EBITDA $31M. Net loss $7M (continuing ops). Net cash positive.",
+      "capexMM": 10.7,
+      "daMM": 17.3,
+      "cfoMM": -14.5
     },
     {
       "endDate": "2024-10-31",
@@ -90,9 +102,12 @@
       "cashMM": 56,
       "netDebtMM": -48,
       "sharesOutMM": 17.7,
-      "bookValuePerShare": 9.40,
-      "dividendPerShare": 0.40,
-      "notes": "FY24 (ended Oct 31 2024): revenue $670M (-30%) on continued portfolio rationalization. EBITDA $33M (margin improving). Net income $8M (returned to profit). Strong cash position."
+      "bookValuePerShare": 9.4,
+      "dividendPerShare": 0.4,
+      "notes": "FY24 (ended Oct 31 2024): revenue $670M (-30%) on continued portfolio rationalization. EBITDA $33M (margin improving). Net income $8M (returned to profit). Strong cash position.",
+      "capexMM": 2.9,
+      "daMM": 10.6,
+      "cfoMM": 24.4
     }
   ]
 }

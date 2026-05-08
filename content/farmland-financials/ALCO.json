@@ -2,7 +2,7 @@
   "ticker": "ALCO",
   "currency": "USD",
   "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000003545&type=10-Q",
-  "notes": "Alico Inc. (NASDAQ: ALCO). Florida-based agribusiness historically focused on citrus production (Alico Citrus segment) and land management. In January 2025 management announced a strategic transformation: wind-down of citrus operations after the 2024-25 harvest and pivot to a land-development / asset-light model. Fiscal year ends September 30. Two reportable segments: Alico Citrus (revenue from oranges sold to Tropicana/Florida's Natural under multi-year supply contracts) and Land Management & Other Operations (cattle grazing, hunting leases, mining royalties, real estate). Data from SEC EDGAR (CIK 0000003545) 10-K and 10-Q filings. Net debt = total debt (mortgage + RLOC + term notes with MetLife / Rabo) less cash. EBITDA computed as operating income + D&A unless company-disclosed Adjusted EBITDA; FY24-25 results materially impacted by Hurricane Ian (Sept 2022) USDA RMA crop-insurance and FDOC-block-grant proceeds, plus citrus-greening-driven yield declines. Acreage: peak ~125k acres of land owned (consolidated), with ~48k-50k of citrus groves (now declining to zero) and balance pasture / open / ranchland. Pre-FY19 history: Alico filed 10-Ks back to FY1995 (CIK 0000003545); historical structure was very different — through FY2010 Alico held the historic ~135k-acre Alico Ranch in Hendry/Collier Counties (cattle, sugarcane, vegetables, citrus, mining royalties from Florida Rock / others, sand/rock). November 2010 acquired the ~12k-acre 734 Citrus Holdings (Tropicana grower) for $114M making citrus dominant; 2014 acquired Silver Nip Citrus (~$367M cash + stock) and Orange-Co (~$214M) tripling citrus footprint and shedding most non-citrus operations. FY12-18 backfill from 10-K Selected Financial Data tables; FY95-FY11 from 10-K filings (audited).",
+  "notes": "Alico Inc. (NASDAQ: ALCO). Florida-based agribusiness historically focused on citrus production (Alico Citrus segment) and land management. In January 2025 management announced a strategic transformation: wind-down of citrus operations after the 2024-25 harvest and pivot to a land-development / asset-light model. Fiscal year ends September 30. Two reportable segments: Alico Citrus (revenue from oranges sold to Tropicana/Florida's Natural under multi-year supply contracts) and Land Management & Other Operations (cattle grazing, hunting leases, mining royalties, real estate). Data from SEC EDGAR (CIK 0000003545) 10-K and 10-Q filings. Net debt = total debt (mortgage + RLOC + term notes with MetLife / Rabo) less cash. EBITDA computed as operating income + D&A unless company-disclosed Adjusted EBITDA; FY24-25 results materially impacted by Hurricane Ian (Sept 2022) USDA RMA crop-insurance and FDOC-block-grant proceeds, plus citrus-greening-driven yield declines. Acreage: peak ~125k acres of land owned (consolidated), with ~48k-50k of citrus groves (now declining to zero) and balance pasture / open / ranchland. Pre-FY19 history: Alico filed 10-Ks back to FY1995 (CIK 0000003545); historical structure was very different \u2014 through FY2010 Alico held the historic ~135k-acre Alico Ranch in Hendry/Collier Counties (cattle, sugarcane, vegetables, citrus, mining royalties from Florida Rock / others, sand/rock). November 2010 acquired the ~12k-acre 734 Citrus Holdings (Tropicana grower) for $114M making citrus dominant; 2014 acquired Silver Nip Citrus (~$367M cash + stock) and Orange-Co (~$214M) tripling citrus footprint and shedding most non-citrus operations. FY12-18 backfill from 10-K Selected Financial Data tables; FY95-FY11 from 10-K filings (audited).",
   "periods": [
     {
       "endDate": "1995-08-31",
@@ -13,7 +13,7 @@
       "totalAcresK": 138,
       "sharesOutMM": 6.83,
       "dividendPerShare": 0.4,
-      "notes": "FY95 (yr-end Aug 1995): legacy Alico Ranch operations — cattle, sugarcane, citrus, vegetables, sod, mining royalties on ~138k acres (Alico Ranch in Hendry/Collier Counties). Revenue $49.1M, net income $11.7M (10-K)."
+      "notes": "FY95 (yr-end Aug 1995): legacy Alico Ranch operations \u2014 cattle, sugarcane, citrus, vegetables, sod, mining royalties on ~138k acres (Alico Ranch in Hendry/Collier Counties). Revenue $49.1M, net income $11.7M (10-K)."
     },
     {
       "endDate": "1996-08-31",
@@ -237,8 +237,11 @@
       "totalAcresK": 130,
       "sharesOutMM": 7.39,
       "dividendPerShare": 0.32,
-      "notes": "FY14 (13-month transition: Sept 1, 2013 – Sept 30, 2014): includes Dec-2013 acquisition of Silver Nip Citrus (~$363M, ~7,800 grove acres) and Feb-2015 sugarcane lease termination. Revenue $138M (10-K).",
-      "bookValuePerShare": 31.12
+      "notes": "FY14 (13-month transition: Sept 1, 2013 \u2013 Sept 30, 2014): includes Dec-2013 acquisition of Silver Nip Citrus (~$363M, ~7,800 grove acres) and Feb-2015 sugarcane lease termination. Revenue $138M (10-K).",
+      "bookValuePerShare": 31.12,
+      "capexMM": 13.3,
+      "daMM": 9.6,
+      "cfoMM": 25.1
     },
     {
       "endDate": "2015-09-30",
@@ -266,7 +269,10 @@
       "sharesOutMM": 8.27,
       "dividendPerShare": 0.24,
       "notes": "FY15: full year post Silver Nip + Orange-Co acquisitions; revenue $153M dominated by citrus. Sugarcane operations wound down during the year (10-K).",
-      "bookValuePerShare": 28.42
+      "bookValuePerShare": 28.42,
+      "capexMM": 11.5,
+      "daMM": 14.7,
+      "cfoMM": 33.7
     },
     {
       "endDate": "2016-09-30",
@@ -293,7 +299,10 @@
       "sharesOutMM": 8.28,
       "dividendPerShare": 0.24,
       "notes": "FY16: revenue $145M; pure-play Florida citrus model. Net income $1.5M (10-K).",
-      "bookValuePerShare": 27.78
+      "bookValuePerShare": 27.78,
+      "capexMM": 14.3,
+      "daMM": 15.4,
+      "cfoMM": 30.4
     },
     {
       "endDate": "2017-09-30",
@@ -320,7 +329,10 @@
       "sharesOutMM": 8.28,
       "dividendPerShare": 0.24,
       "notes": "FY17: Hurricane Irma (Sept 10, 2017) caused massive damage to FL citrus groves just before fiscal year end. Revenue $130M reflects partial harvest loss; net loss $7.5M with initial impairments (10-K).",
-      "bookValuePerShare": 25.97
+      "bookValuePerShare": 25.97,
+      "capexMM": 13.4,
+      "daMM": 15.2,
+      "cfoMM": 27.5
     },
     {
       "endDate": "2018-09-30",
@@ -348,7 +360,10 @@
       "sharesOutMM": 7.49,
       "dividendPerShare": 0.24,
       "notes": "FY18: revenue $142M including Hurricane Irma USDA / FDOC block grant proceeds (~$15M+). Net income $24M boosted by federal disaster aid recognized in fiscal year. Bought back significant shares (10-K).",
-      "bookValuePerShare": 23.36
+      "bookValuePerShare": 23.36,
+      "capexMM": 16.4,
+      "daMM": 13.8,
+      "cfoMM": 18.6
     },
     {
       "endDate": "2019-09-30",
@@ -376,7 +391,10 @@
       "sharesOutMM": 7.49,
       "dividendPerShare": 0.24,
       "notes": "FY19 (yr-end Sept 2019): revenue $122.4M dominated by Alico Citrus ($116.2M). EBITDA computed = op income + D&A. Hurricane Irma (Sept 2017) recovery still in progress.",
-      "bookValuePerShare": 23.36
+      "bookValuePerShare": 23.36,
+      "capexMM": 18.1,
+      "daMM": 13.6,
+      "cfoMM": 48.8
     },
     {
       "endDate": "2020-09-30",
@@ -404,7 +422,10 @@
       "sharesOutMM": 7.5,
       "dividendPerShare": 0.24,
       "notes": "FY20: revenue $89.6M (-27% YoY on citrus pricing weakness and reduced harvest).",
-      "bookValuePerShare": 26
+      "bookValuePerShare": 26,
+      "capexMM": 18.8,
+      "daMM": 14.3,
+      "cfoMM": 1.0
     },
     {
       "endDate": "2020-12-31",
@@ -420,7 +441,7 @@
       "netIncomeMM": 2.5,
       "totalAcresK": 119,
       "bookValuePerShare": 27.86,
-      "notes": "Q1 FY21 (calendar Q4 2020): revenue $28.0M. BVPS interpolated FY20 ($26.00) → FY21 ($33.42)."
+      "notes": "Q1 FY21 (calendar Q4 2020): revenue $28.0M. BVPS interpolated FY20 ($26.00) \u2192 FY21 ($33.42)."
     },
     {
       "endDate": "2021-03-31",
@@ -436,7 +457,7 @@
       "netIncomeMM": 5,
       "totalAcresK": 119,
       "bookValuePerShare": 29.71,
-      "notes": "Q2 FY21: revenue $51.0M (peak harvest quarter). BVPS interpolated FY20→FY21."
+      "notes": "Q2 FY21: revenue $51.0M (peak harvest quarter). BVPS interpolated FY20\u2192FY21."
     },
     {
       "endDate": "2021-06-30",
@@ -452,7 +473,7 @@
       "netIncomeMM": 0,
       "totalAcresK": 90,
       "bookValuePerShare": 31.57,
-      "notes": "Q3 FY21: revenue $18.0M. Aug 2021: completed sale of ~17,229 ranch-acre Alico Ranch parcel to State of FL for $79.6M, plus other ranch sales — material acreage reduction. BVPS interpolated FY20→FY21."
+      "notes": "Q3 FY21: revenue $18.0M. Aug 2021: completed sale of ~17,229 ranch-acre Alico Ranch parcel to State of FL for $79.6M, plus other ranch sales \u2014 material acreage reduction. BVPS interpolated FY20\u2192FY21."
     },
     {
       "endDate": "2021-09-30",
@@ -496,7 +517,10 @@
       "sharesOutMM": 7.51,
       "dividendPerShare": 0.36,
       "notes": "FY21: revenue $102.5M. Net income $60M boosted by $79M gain on Alico Ranch sale. Net debt cut to $73M. Special dividend $1.00 paid in early FY22.",
-      "bookValuePerShare": 33.42
+      "bookValuePerShare": 33.42,
+      "capexMM": 22.3,
+      "daMM": 15.1,
+      "cfoMM": 16.5
     },
     {
       "endDate": "2021-12-31",
@@ -512,7 +536,7 @@
       "netIncomeMM": 0.5,
       "totalAcresK": 84,
       "bookValuePerShare": 33.04,
-      "notes": "Q1 FY22: revenue $33.5M. BVPS interpolated FY21 ($33.42) → FY22 ($31.91)."
+      "notes": "Q1 FY22: revenue $33.5M. BVPS interpolated FY21 ($33.42) \u2192 FY22 ($31.91)."
     },
     {
       "endDate": "2022-03-31",
@@ -528,7 +552,7 @@
       "netIncomeMM": 4.5,
       "totalAcresK": 84,
       "bookValuePerShare": 32.66,
-      "notes": "Q2 FY22: revenue $50.0M (peak harvest quarter). BVPS interpolated FY21→FY22."
+      "notes": "Q2 FY22: revenue $50.0M (peak harvest quarter). BVPS interpolated FY21\u2192FY22."
     },
     {
       "endDate": "2022-06-30",
@@ -544,7 +568,7 @@
       "netIncomeMM": 0,
       "totalAcresK": 84,
       "bookValuePerShare": 32.29,
-      "notes": "Q3 FY22: revenue $18.0M. BVPS interpolated FY21→FY22."
+      "notes": "Q3 FY22: revenue $18.0M. BVPS interpolated FY21\u2192FY22."
     },
     {
       "endDate": "2022-09-30",
@@ -588,7 +612,10 @@
       "sharesOutMM": 7.52,
       "dividendPerShare": 0.24,
       "notes": "FY22: revenue $114.5M. Hurricane Ian damage in Q4. Net loss $2M including initial impairments.",
-      "bookValuePerShare": 31.91
+      "bookValuePerShare": 31.91,
+      "capexMM": 20.7,
+      "daMM": 15.2,
+      "cfoMM": 6.5
     },
     {
       "endDate": "2022-12-31",
@@ -604,7 +631,7 @@
       "netIncomeMM": -2.5,
       "totalAcresK": 83,
       "bookValuePerShare": 31.88,
-      "notes": "Q1 FY23: revenue $21.0M (Hurricane Ian dropped harvest yields ~50%). BVPS interpolated FY22 ($31.91) → FY23 ($31.79)."
+      "notes": "Q1 FY23: revenue $21.0M (Hurricane Ian dropped harvest yields ~50%). BVPS interpolated FY22 ($31.91) \u2192 FY23 ($31.79)."
     },
     {
       "endDate": "2023-03-31",
@@ -620,7 +647,7 @@
       "netIncomeMM": 1.5,
       "totalAcresK": 83,
       "bookValuePerShare": 31.85,
-      "notes": "Q2 FY23: revenue $35.0M; insurance proceeds beginning to flow. BVPS interpolated FY22→FY23."
+      "notes": "Q2 FY23: revenue $35.0M; insurance proceeds beginning to flow. BVPS interpolated FY22\u2192FY23."
     },
     {
       "endDate": "2023-06-30",
@@ -636,7 +663,7 @@
       "netIncomeMM": 1.5,
       "totalAcresK": 83,
       "bookValuePerShare": 31.82,
-      "notes": "Q3 FY23: revenue $17.0M. BVPS interpolated FY22→FY23."
+      "notes": "Q3 FY23: revenue $17.0M. BVPS interpolated FY22\u2192FY23."
     },
     {
       "endDate": "2023-09-30",
@@ -680,7 +707,10 @@
       "sharesOutMM": 7.55,
       "dividendPerShare": 0.2,
       "notes": "FY23: revenue $85.0M (-26% YoY) due to Hurricane Ian yield reduction. Crop insurance / FDOC block grant proceeds partially offset.",
-      "bookValuePerShare": 31.79
+      "bookValuePerShare": 31.79,
+      "capexMM": 16.7,
+      "daMM": 15.5,
+      "cfoMM": -6.3
     },
     {
       "endDate": "2023-12-31",
@@ -696,7 +726,7 @@
       "netIncomeMM": -3,
       "totalAcresK": 83,
       "bookValuePerShare": 29.69,
-      "notes": "Q1 FY24: revenue $12.0M. BVPS interpolated FY23 ($31.79) → FY24 ($23.39)."
+      "notes": "Q1 FY24: revenue $12.0M. BVPS interpolated FY23 ($31.79) \u2192 FY24 ($23.39)."
     },
     {
       "endDate": "2024-03-31",
@@ -712,7 +742,7 @@
       "netIncomeMM": -1,
       "totalAcresK": 83,
       "bookValuePerShare": 27.59,
-      "notes": "Q2 FY24: revenue $27.0M. BVPS interpolated FY23→FY24."
+      "notes": "Q2 FY24: revenue $27.0M. BVPS interpolated FY23\u2192FY24."
     },
     {
       "endDate": "2024-06-30",
@@ -728,7 +758,7 @@
       "netIncomeMM": -3,
       "totalAcresK": 83,
       "bookValuePerShare": 25.49,
-      "notes": "Q3 FY24: revenue $13.5M. BVPS interpolated FY23→FY24."
+      "notes": "Q3 FY24: revenue $13.5M. BVPS interpolated FY23\u2192FY24."
     },
     {
       "endDate": "2024-09-30",
@@ -772,7 +802,10 @@
       "sharesOutMM": 7.61,
       "dividendPerShare": 0.2,
       "notes": "FY24: revenue $61.5M (-28% YoY). Net loss $62M including $80M+ in impairments on citrus groves ahead of wind-down decision. Acreage cut as ranch divestitures accelerate.",
-      "bookValuePerShare": 23.39
+      "bookValuePerShare": 23.39,
+      "capexMM": 17.9,
+      "daMM": 15.0,
+      "cfoMM": -30.5
     },
     {
       "endDate": "2024-12-31",
@@ -788,7 +821,7 @@
       "netIncomeMM": -7,
       "totalAcresK": 51,
       "bookValuePerShare": 23.36,
-      "notes": "Q1 FY25 (calendar Q4 2024): revenue $16.0M. January 2025 strategic transformation announced — citrus wind-down post 2024-25 harvest, pivot to land development. BVPS interpolated FY24 ($23.39) → FY25 ($23.27)."
+      "notes": "Q1 FY25 (calendar Q4 2024): revenue $16.0M. January 2025 strategic transformation announced \u2014 citrus wind-down post 2024-25 harvest, pivot to land development. BVPS interpolated FY24 ($23.39) \u2192 FY25 ($23.27)."
     },
     {
       "endDate": "2025-03-31",
@@ -804,7 +837,7 @@
       "netIncomeMM": -2,
       "totalAcresK": 51,
       "bookValuePerShare": 23.33,
-      "notes": "Q2 FY25: revenue $19.0M (final material citrus harvest quarter). BVPS interpolated FY24→FY25."
+      "notes": "Q2 FY25: revenue $19.0M (final material citrus harvest quarter). BVPS interpolated FY24\u2192FY25."
     },
     {
       "endDate": "2025-06-30",
@@ -813,8 +846,8 @@
       "ebitdaMM": 12,
       "netIncomeMM": 5,
       "totalAcresK": 50,
-      "bookValuePerShare": 23.30,
-      "notes": "Q3 FY25: revenue $6.5M. Citrus harvest concluding; gains on initial ranchland sales. BVPS interpolated FY24→FY25."
+      "bookValuePerShare": 23.3,
+      "notes": "Q3 FY25: revenue $6.5M. Citrus harvest concluding; gains on initial ranchland sales. BVPS interpolated FY24\u2192FY25."
     },
     {
       "endDate": "2025-09-30",
@@ -859,7 +892,10 @@
       "dividendPerShare": 0.2,
       "navPerShare": 13.47,
       "notes": "FY25: final year of citrus operations. Revenue $44M. EBITDA $22.5M including realized gains on initial ranch dispositions. Pivot to land development underway. Market value of ~49.5k acres of ranchland and former groves estimated $686M (per third-party / management commentary on H&H valuation).",
-      "bookValuePerShare": 23.27
+      "bookValuePerShare": 23.27,
+      "capexMM": 5.5,
+      "daMM": 176.6,
+      "cfoMM": 20.1
     }
   ]
 }

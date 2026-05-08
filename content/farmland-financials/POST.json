@@ -2,7 +2,7 @@
   "ticker": "POST",
   "currency": "USD",
   "sourceUrl": "https://www.postholdings.com/investors/sec-filings/",
-  "notes": "Post Holdings (NYSE: POST) — multi-segment packaged foods. Segments: Post Consumer Brands (cereal, pet food via 2023 Perfection acquisition), Weetabix (UK cereals), Foodservice (egg products + potatoes — Michael Foods), Refrigerated Retail (Bob Evans sausage, side dishes). Holds 13.6% of BellRing Brands. Fiscal year ends Sep 30. Active M&A platform led by CEO Rob Vitale. Major eggs platform via Michael Foods (~$2B+ rev). CIK 1530950.",
+  "notes": "Post Holdings (NYSE: POST) \u2014 multi-segment packaged foods. Segments: Post Consumer Brands (cereal, pet food via 2023 Perfection acquisition), Weetabix (UK cereals), Foodservice (egg products + potatoes \u2014 Michael Foods), Refrigerated Retail (Bob Evans sausage, side dishes). Holds 13.6% of BellRing Brands. Fiscal year ends Sep 30. Active M&A platform led by CEO Rob Vitale. Major eggs platform via Michael Foods (~$2B+ rev). CIK 1530950.",
   "periods": [
     {
       "endDate": "2020-09-30",
@@ -19,9 +19,12 @@
       "totalDebtMM": 6993,
       "cashMM": 1088,
       "sharesOutMM": 67.0,
-      "bookValuePerShare": 30.20,
+      "bookValuePerShare": 30.2,
       "dividendPerShare": 0,
-      "notes": "FY20: revenue $5.70B. Adj EBITDA $1.17B. COVID-driven retail strength offset foodservice weakness."
+      "notes": "FY20: revenue $5.70B. Adj EBITDA $1.17B. COVID-driven retail strength offset foodservice weakness.",
+      "capexMM": 232.5,
+      "daMM": 345.0,
+      "cfoMM": 625.6
     },
     {
       "endDate": "2021-09-30",
@@ -38,9 +41,12 @@
       "totalDebtMM": 6630,
       "cashMM": 950,
       "sharesOutMM": 62.5,
-      "bookValuePerShare": 31.70,
+      "bookValuePerShare": 31.7,
       "dividendPerShare": 0,
-      "notes": "FY21: revenue $6.22B (+9%). BellRing spin-off Mar 2022 separated Premier Protein. Adj EBITDA $1.12B."
+      "notes": "FY21: revenue $6.22B (+9%). BellRing spin-off Mar 2022 separated Premier Protein. Adj EBITDA $1.12B.",
+      "capexMM": 190.9,
+      "daMM": 366.5,
+      "cfoMM": 588.2
     },
     {
       "endDate": "2022-09-30",
@@ -57,9 +63,12 @@
       "totalDebtMM": 6588,
       "cashMM": 411,
       "sharesOutMM": 60.5,
-      "bookValuePerShare": 32.40,
+      "bookValuePerShare": 32.4,
       "dividendPerShare": 0,
-      "notes": "FY22: revenue $5.85B (BellRing deconsolidated). Adj EBITDA $953M. Inflation pressure on margins."
+      "notes": "FY22: revenue $5.85B (BellRing deconsolidated). Adj EBITDA $953M. Inflation pressure on margins.",
+      "capexMM": 255.3,
+      "daMM": 380.2,
+      "cfoMM": 382.6
     },
     {
       "endDate": "2023-09-30",
@@ -76,9 +85,12 @@
       "totalDebtMM": 6577,
       "cashMM": 140,
       "sharesOutMM": 60.7,
-      "bookValuePerShare": 35.10,
+      "bookValuePerShare": 35.1,
       "dividendPerShare": 0,
-      "notes": "FY23: revenue $6.99B (+19%). Pet food (Perfection Pet Foods $1.2B, closed Apr 2023). HPAI-driven egg pricing strength at Michael Foods. Adj EBITDA $1.24B."
+      "notes": "FY23: revenue $6.99B (+19%). Pet food (Perfection Pet Foods $1.2B, closed Apr 2023). HPAI-driven egg pricing strength at Michael Foods. Adj EBITDA $1.24B.",
+      "capexMM": 303.0,
+      "daMM": 407.1,
+      "cfoMM": 750.3
     },
     {
       "endDate": "2024-09-30",
@@ -95,9 +107,12 @@
       "totalDebtMM": 6764,
       "cashMM": 84.4,
       "sharesOutMM": 60.05,
-      "bookValuePerShare": 38.40,
+      "bookValuePerShare": 38.4,
       "dividendPerShare": 0,
-      "notes": "FY24: revenue $7.92B (+13%). Pet food + Foodservice eggs HPAI tailwind. Adj EBITDA $1.40B. Net income $367M ($5.57/sh diluted)."
+      "notes": "FY24: revenue $7.92B (+13%). Pet food + Foodservice eggs HPAI tailwind. Adj EBITDA $1.40B. Net income $367M ($5.57/sh diluted).",
+      "capexMM": 429.5,
+      "daMM": 476.9,
+      "cfoMM": 931.7
     }
   ]
 }
