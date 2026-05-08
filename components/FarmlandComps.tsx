@@ -901,6 +901,7 @@ function CategorySection({
               >
                 {r.ticker}
               </Link>
+              <FilingFreshness filingDate={r.filingDate} />
             </div>
           </td>
           <td className="sticky left-20 z-[1] bg-surface px-3 py-3 text-left align-middle">
@@ -981,6 +982,29 @@ function CategorySection({
         ))}
       </tr>
     </>
+  );
+}
+
+// Tiny dot indicator for filing freshness — 12+ months old is amber,
+// 18+ months is red. Keeps surface noise low (no badge for fresh rows)
+// but makes stale snapshots scannable in the comps table.
+function FilingFreshness({ filingDate }: { filingDate: string }) {
+  const filed = new Date(filingDate).getTime();
+  if (!Number.isFinite(filed)) return null;
+  const ageDays = (Date.now() - filed) / 86400000;
+  if (ageDays < 365) return null;
+  const tone =
+    ageDays >= 540
+      ? { color: "var(--negative)", label: "stale" }
+      : { color: "var(--accent-warm)", label: "aging" };
+  const months = Math.round(ageDays / 30);
+  return (
+    <span
+      title={`Filing snapshot is ${months} months old (${filingDate})`}
+      aria-label={`${tone.label} filing snapshot, ${months} months old`}
+      className="inline-block h-1.5 w-1.5 rounded-full"
+      style={{ background: tone.color }}
+    />
   );
 }
 
