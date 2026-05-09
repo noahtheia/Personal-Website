@@ -25,7 +25,16 @@
       "capexMM": 0.1,
       "daMM": 0.1,
       "cfoMM": 1.5,
-      "totalEquityMM": 245
+      "totalEquityMM": 245,
+      "protein": {
+        "plants": 2,
+        "capacityUtilizationPct": 78,
+        "brandedCpg": {
+          "brandedRevenuePct": 100,
+          "acvDistributionPct": 24,
+          "foodserviceMixPct": 0
+        }
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -48,7 +57,16 @@
       "capexMM": 0.0,
       "daMM": 0.1,
       "cfoMM": 0.8,
-      "totalEquityMM": 392
+      "totalEquityMM": 392,
+      "protein": {
+        "plants": 2,
+        "capacityUtilizationPct": 80,
+        "brandedCpg": {
+          "brandedRevenuePct": 100,
+          "acvDistributionPct": 28,
+          "foodserviceMixPct": 0
+        }
+      }
     },
     {
       "endDate": "2022-01-31",
@@ -135,7 +153,20 @@
       "capexMM": 0.0,
       "daMM": 0.1,
       "cfoMM": 0.6,
-      "totalEquityMM": 562
+      "totalEquityMM": 562,
+      "propertyBookMM": 990,
+      "ppeBookMM": 990,
+      "inventoryMM": 152,
+      "intangibleAssetsMM": 14,
+      "protein": {
+        "plants": 3,
+        "capacityUtilizationPct": 70,
+        "brandedCpg": {
+          "brandedRevenuePct": 100,
+          "acvDistributionPct": 32,
+          "foodserviceMixPct": 0
+        }
+      }
     },
     {
       "endDate": "2023-01-31",
@@ -222,7 +253,20 @@
       "capexMM": 0.0,
       "daMM": 0.0,
       "cfoMM": 1.9,
-      "totalEquityMM": 615
+      "totalEquityMM": 615,
+      "propertyBookMM": 1140,
+      "ppeBookMM": 1140,
+      "inventoryMM": 175,
+      "intangibleAssetsMM": 13,
+      "protein": {
+        "plants": 3,
+        "capacityUtilizationPct": 78,
+        "brandedCpg": {
+          "brandedRevenuePct": 100,
+          "acvDistributionPct": 35,
+          "foodserviceMixPct": 0
+        }
+      }
     },
     {
       "endDate": "2024-01-31",
@@ -317,7 +361,20 @@
         "3-5y": 82.8,
         "5+y": 103.5
       },
-      "totalEquityMM": 780
+      "totalEquityMM": 780,
+      "propertyBookMM": 1230,
+      "ppeBookMM": 1230,
+      "inventoryMM": 218,
+      "intangibleAssetsMM": 12,
+      "protein": {
+        "plants": 4,
+        "capacityUtilizationPct": 75,
+        "brandedCpg": {
+          "brandedRevenuePct": 100,
+          "acvDistributionPct": 38,
+          "foodserviceMixPct": 0
+        }
+      }
     },
     {
       "endDate": "2025-01-31",

@@ -25,7 +25,12 @@
       "capexMM": 580,
       "daMM": 380,
       "cfoMM": 1200,
-      "totalEquityMM": 4250
+      "totalEquityMM": 4250,
+      "protein": {
+        "plants": 6,
+        "weeklyHeadCapacity": 5200000,
+        "capacityUtilizationPct": 84
+      }
     },
     {
       "endDate": "2021-09-30",
@@ -48,7 +53,12 @@
       "capexMM": 640,
       "daMM": 400,
       "cfoMM": 1500,
-      "totalEquityMM": 4480
+      "totalEquityMM": 4480,
+      "protein": {
+        "plants": 6,
+        "weeklyHeadCapacity": 5300000,
+        "capacityUtilizationPct": 88
+      }
     },
     {
       "endDate": "2022-09-30",
@@ -71,7 +81,16 @@
       "capexMM": 750,
       "daMM": 420,
       "cfoMM": 1100,
-      "totalEquityMM": 4720
+      "totalEquityMM": 4720,
+      "propertyBookMM": 3850,
+      "ppeBookMM": 3850,
+      "inventoryMM": 1680,
+      "intangibleAssetsMM": 190,
+      "protein": {
+        "plants": 6,
+        "weeklyHeadCapacity": 5400000,
+        "capacityUtilizationPct": 86
+      }
     },
     {
       "endDate": "2023-09-30",
@@ -98,7 +117,16 @@
       "capexMM": 820,
       "daMM": 440,
       "cfoMM": 850,
-      "totalEquityMM": 4910
+      "totalEquityMM": 4910,
+      "propertyBookMM": 4080,
+      "ppeBookMM": 4080,
+      "inventoryMM": 1750,
+      "intangibleAssetsMM": 192,
+      "protein": {
+        "plants": 6,
+        "weeklyHeadCapacity": 5400000,
+        "capacityUtilizationPct": 82
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -141,7 +169,16 @@
         "3-5y": 30.0,
         "5+y": 40.0
       },
-      "totalEquityMM": 5085
+      "totalEquityMM": 5085,
+      "propertyBookMM": 4250,
+      "ppeBookMM": 4250,
+      "inventoryMM": 1820,
+      "intangibleAssetsMM": 195,
+      "protein": {
+        "plants": 6,
+        "weeklyHeadCapacity": 5400000,
+        "capacityUtilizationPct": 88
+      }
     },
     {
       "endDate": "2024-03-31",

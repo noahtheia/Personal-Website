@@ -15,7 +15,11 @@
       "capexMM": 4800,
       "daMM": 1800,
       "cfoMM": -7000,
-      "totalEquityMM": 49800
+      "totalEquityMM": 49800,
+      "trader": {
+        "rmiMM": 3500,
+        "throughputMtMM": 12.2
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -32,7 +36,11 @@
       "capexMM": 6500,
       "daMM": 2100,
       "cfoMM": -1300,
-      "totalEquityMM": 53600
+      "totalEquityMM": 53600,
+      "trader": {
+        "rmiMM": 4100,
+        "throughputMtMM": 13.0
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -49,7 +57,15 @@
       "capexMM": 9200,
       "daMM": 2600,
       "cfoMM": 5500,
-      "totalEquityMM": 56400
+      "totalEquityMM": 56400,
+      "propertyBookMM": 4520,
+      "ppeBookMM": 8280,
+      "inventoryMM": 7350,
+      "intangibleAssetsMM": 1240,
+      "trader": {
+        "rmiMM": 4750,
+        "throughputMtMM": 13.8
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -77,7 +93,15 @@
       "capexMM": 7800,
       "daMM": 3100,
       "cfoMM": 4900,
-      "totalEquityMM": 58800
+      "totalEquityMM": 58800,
+      "propertyBookMM": 4720,
+      "ppeBookMM": 8650,
+      "inventoryMM": 6920,
+      "intangibleAssetsMM": 1210,
+      "trader": {
+        "rmiMM": 4480,
+        "throughputMtMM": 14.2
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -110,7 +134,15 @@
       "ebitdaMM": 1530,
       "netIncomeMM": 865,
       "notes": "Q4 23",
-      "totalEquityMM": 58800
+      "totalEquityMM": 58800,
+      "propertyBookMM": 4720,
+      "ppeBookMM": 8650,
+      "inventoryMM": 6920,
+      "intangibleAssetsMM": 1210,
+      "trader": {
+        "rmiMM": 4480,
+        "throughputMtMM": 14.2
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -146,7 +178,15 @@
         "3-5y": 14185.95,
         "5+y": 18914.6
       },
-      "totalEquityMM": 60500
+      "totalEquityMM": 60500,
+      "propertyBookMM": 4850,
+      "ppeBookMM": 8920,
+      "inventoryMM": 6480,
+      "intangibleAssetsMM": 1180,
+      "trader": {
+        "rmiMM": 4200,
+        "throughputMtMM": 14.5
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -179,7 +219,15 @@
       "ebitdaMM": 1700,
       "netIncomeMM": 584,
       "notes": "Q4 24",
-      "totalEquityMM": 60500
+      "totalEquityMM": 60500,
+      "propertyBookMM": 4850,
+      "ppeBookMM": 8920,
+      "inventoryMM": 6480,
+      "intangibleAssetsMM": 1180,
+      "trader": {
+        "rmiMM": 4200,
+        "throughputMtMM": 14.5
+      }
     }
   ]
 }

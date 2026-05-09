@@ -673,7 +673,14 @@
       "epsBasic": 0.2397,
       "totalAcresK": 125.6,
       "notes": "Q4 2020",
-      "totalEquityMM": 3500
+      "totalEquityMM": 3500,
+      "plantation": {
+        "ffbYieldTPerHa": 23.1,
+        "oerPct": 22.6,
+        "cpoAspPerMt": 2780,
+        "maturePlantedHa": 38500,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2020-12-31",
@@ -699,7 +706,14 @@
       "capexMM": 95,
       "daMM": 100,
       "cfoMM": 460,
-      "totalEquityMM": 3500
+      "totalEquityMM": 3500,
+      "plantation": {
+        "ffbYieldTPerHa": 23.1,
+        "oerPct": 22.6,
+        "cpoAspPerMt": 2780,
+        "maturePlantedHa": 38500,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2021-03-31",
@@ -755,7 +769,14 @@
       "totalEquityMM": 3850,
       "cfoMM": 590,
       "capexMM": 110,
-      "daMM": 105
+      "daMM": 105,
+      "plantation": {
+        "ffbYieldTPerHa": 22.4,
+        "oerPct": 22.5,
+        "cpoAspPerMt": 4100,
+        "maturePlantedHa": 38700,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -788,7 +809,14 @@
       "capexMM": 110,
       "daMM": 105,
       "cfoMM": 590,
-      "totalEquityMM": 3850
+      "totalEquityMM": 3850,
+      "plantation": {
+        "ffbYieldTPerHa": 22.4,
+        "oerPct": 22.5,
+        "cpoAspPerMt": 4100,
+        "maturePlantedHa": 38700,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -844,7 +872,18 @@
       "totalEquityMM": 4200,
       "cfoMM": 770,
       "capexMM": 130,
-      "daMM": 110
+      "daMM": 110,
+      "propertyBookMM": 1120,
+      "ppeBookMM": 790,
+      "inventoryMM": 340,
+      "intangibleAssetsMM": 0,
+      "plantation": {
+        "ffbYieldTPerHa": 21.5,
+        "oerPct": 22.4,
+        "cpoAspPerMt": 4520,
+        "maturePlantedHa": 38900,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -877,7 +916,18 @@
       "capexMM": 130,
       "daMM": 110,
       "cfoMM": 770,
-      "totalEquityMM": 4200
+      "totalEquityMM": 4200,
+      "propertyBookMM": 1120,
+      "ppeBookMM": 790,
+      "inventoryMM": 340,
+      "intangibleAssetsMM": 0,
+      "plantation": {
+        "ffbYieldTPerHa": 21.5,
+        "oerPct": 22.4,
+        "cpoAspPerMt": 4520,
+        "maturePlantedHa": 38900,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -933,7 +983,18 @@
       "totalEquityMM": 4350,
       "cfoMM": 530,
       "capexMM": 145,
-      "daMM": 115
+      "daMM": 115,
+      "propertyBookMM": 1150,
+      "ppeBookMM": 820,
+      "inventoryMM": 295,
+      "intangibleAssetsMM": 0,
+      "plantation": {
+        "ffbYieldTPerHa": 22.1,
+        "oerPct": 22.5,
+        "cpoAspPerMt": 3820,
+        "maturePlantedHa": 39200,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -966,7 +1027,18 @@
       "capexMM": 145,
       "daMM": 115,
       "cfoMM": 530,
-      "totalEquityMM": 4350
+      "totalEquityMM": 4350,
+      "propertyBookMM": 1150,
+      "ppeBookMM": 820,
+      "inventoryMM": 295,
+      "intangibleAssetsMM": 0,
+      "plantation": {
+        "ffbYieldTPerHa": 22.1,
+        "oerPct": 22.5,
+        "cpoAspPerMt": 3820,
+        "maturePlantedHa": 39200,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -1023,7 +1095,18 @@
       "totalEquityMM": 4500,
       "cfoMM": 540,
       "capexMM": 150,
-      "daMM": 120
+      "daMM": 120,
+      "propertyBookMM": 1180,
+      "ppeBookMM": 850,
+      "inventoryMM": 320,
+      "intangibleAssetsMM": 0,
+      "plantation": {
+        "ffbYieldTPerHa": 22.8,
+        "oerPct": 22.6,
+        "cpoAspPerMt": 4180,
+        "maturePlantedHa": 39500,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -1056,7 +1139,18 @@
       "capexMM": 150,
       "daMM": 120,
       "cfoMM": 540,
-      "totalEquityMM": 4500
+      "totalEquityMM": 4500,
+      "propertyBookMM": 1180,
+      "ppeBookMM": 850,
+      "inventoryMM": 320,
+      "intangibleAssetsMM": 0,
+      "plantation": {
+        "ffbYieldTPerHa": 22.8,
+        "oerPct": 22.6,
+        "cpoAspPerMt": 4180,
+        "maturePlantedHa": 39500,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2025-03-31",

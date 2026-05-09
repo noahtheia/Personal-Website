@@ -814,7 +814,14 @@
       "ebitdaMM": 924000,
       "netIncomeMM": 478000,
       "totalAcresK": 527,
-      "totalEquityMM": 15800000
+      "totalEquityMM": 15800000,
+      "plantation": {
+        "ffbYieldTPerHa": 20.5,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 9200000,
+        "maturePlantedHa": 236000,
+        "rspoPct": 60
+      }
     },
     {
       "endDate": "2020-12-31",
@@ -853,7 +860,14 @@
       "notes": "FY20: Rp18.74T revenue, Rp1.23T net profit. Rebound from 2019 trough as CPO prices recovered through Q4. Net debt Rp4.49T",
       "capexMM": 690000,
       "daMM": 880000,
-      "cfoMM": 2170000
+      "cfoMM": 2170000,
+      "plantation": {
+        "ffbYieldTPerHa": 20.5,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 9200000,
+        "maturePlantedHa": 236000,
+        "rspoPct": 60
+      }
     },
     {
       "endDate": "2021-03-31",
@@ -934,7 +948,14 @@
       "ebitdaMM": 660000,
       "netIncomeMM": 247000,
       "totalAcresK": 527,
-      "totalEquityMM": 16700000
+      "totalEquityMM": 16700000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 22.2,
+        "cpoAspPerMt": 12800000,
+        "maturePlantedHa": 235000,
+        "rspoPct": 62
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -973,7 +994,14 @@
       "notes": "FY21: Rp20.83T revenue (+11% YoY), CPO price boom continues. Net income Rp1.63T (+32%). Net debt down to Rp2.58T",
       "capexMM": 880000,
       "daMM": 940000,
-      "cfoMM": 2890000
+      "cfoMM": 2890000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 22.2,
+        "cpoAspPerMt": 12800000,
+        "maturePlantedHa": 235000,
+        "rspoPct": 62
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -1056,7 +1084,18 @@
       "ebitdaMM": 530000,
       "netIncomeMM": 250000,
       "totalAcresK": 527,
-      "totalEquityMM": 17500000
+      "totalEquityMM": 17500000,
+      "propertyBookMM": 8350000,
+      "ppeBookMM": 6580000,
+      "inventoryMM": 2620000,
+      "intangibleAssetsMM": 80000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.2,
+        "oerPct": 22.1,
+        "cpoAspPerMt": 14200000,
+        "maturePlantedHa": 234000,
+        "rspoPct": 65
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -1095,7 +1134,18 @@
       "notes": "FY22: Rp21.72T revenue (+4% YoY). Indonesia export ban + DMO levy compressed margins despite high CPO. Net income Rp1.54T",
       "capexMM": 1180000,
       "daMM": 990000,
-      "cfoMM": 2360000
+      "cfoMM": 2360000,
+      "propertyBookMM": 8350000,
+      "ppeBookMM": 6580000,
+      "inventoryMM": 2620000,
+      "intangibleAssetsMM": 80000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.2,
+        "oerPct": 22.1,
+        "cpoAspPerMt": 14200000,
+        "maturePlantedHa": 234000,
+        "rspoPct": 65
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -1176,7 +1226,18 @@
       "ebitdaMM": 590000,
       "netIncomeMM": 232000,
       "totalAcresK": 527,
-      "totalEquityMM": 17800000
+      "totalEquityMM": 17800000,
+      "propertyBookMM": 8420000,
+      "ppeBookMM": 6720000,
+      "inventoryMM": 2350000,
+      "intangibleAssetsMM": 82000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 22.0,
+        "cpoAspPerMt": 12500000,
+        "maturePlantedHa": 232000,
+        "rspoPct": 68
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -1215,7 +1276,18 @@
       "notes": "FY23: Rp20.64T revenue (-5% YoY), net income Rp730B (-53% YoY) on CPO price normalization + cost inflation",
       "capexMM": 1240000,
       "daMM": 1010000,
-      "cfoMM": 1370000
+      "cfoMM": 1370000,
+      "propertyBookMM": 8420000,
+      "ppeBookMM": 6720000,
+      "inventoryMM": 2350000,
+      "intangibleAssetsMM": 82000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 22.0,
+        "cpoAspPerMt": 12500000,
+        "maturePlantedHa": 232000,
+        "rspoPct": 68
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -1296,7 +1368,18 @@
       "ebitdaMM": 870000,
       "netIncomeMM": 415000,
       "totalAcresK": 527,
-      "totalEquityMM": 18200000
+      "totalEquityMM": 18200000,
+      "propertyBookMM": 8500000,
+      "ppeBookMM": 6850000,
+      "inventoryMM": 2480000,
+      "intangibleAssetsMM": 85000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 22.1,
+        "cpoAspPerMt": 13800000,
+        "maturePlantedHa": 230000,
+        "rspoPct": 70
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -1345,6 +1428,16 @@
         "1-3y": 797500.0,
         "3-5y": 638000.0,
         "5+y": 1116500.0
+      },
+      "ppeBookMM": 6850000,
+      "inventoryMM": 2480000,
+      "intangibleAssetsMM": 85000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 22.1,
+        "cpoAspPerMt": 13800000,
+        "maturePlantedHa": 230000,
+        "rspoPct": 70
       }
     }
   ]

@@ -48,7 +48,12 @@
       "capexMM": 309.0,
       "daMM": 892.0,
       "cfoMM": 1231.0,
-      "totalEquityMM": 3265
+      "totalEquityMM": 3265,
+      "cropInputs": {
+        "capacityUtilizationPct": 96.5,
+        "gasCostUSDPerMMBtu": 2.05,
+        "rdSpendPctOfRevenue": 0.16
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -71,7 +76,12 @@
       "capexMM": 514.0,
       "daMM": 888.0,
       "cfoMM": 2873.0,
-      "totalEquityMM": 3850
+      "totalEquityMM": 3850,
+      "cropInputs": {
+        "capacityUtilizationPct": 98.0,
+        "gasCostUSDPerMMBtu": 3.85,
+        "rdSpendPctOfRevenue": 0.14
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -157,7 +167,16 @@
         "AN": 845,
         "Other": 787
       },
-      "totalEquityMM": 4800
+      "totalEquityMM": 4800,
+      "propertyBookMM": 570,
+      "ppeBookMM": 4720,
+      "inventoryMM": 540,
+      "intangibleAssetsMM": 2380,
+      "cropInputs": {
+        "capacityUtilizationPct": 99.5,
+        "gasCostUSDPerMMBtu": 6.55,
+        "rdSpendPctOfRevenue": 0.12
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -243,7 +262,16 @@
         "AN": 497,
         "Other": 564
       },
-      "totalEquityMM": 4350
+      "totalEquityMM": 4350,
+      "propertyBookMM": 575,
+      "ppeBookMM": 4780,
+      "inventoryMM": 420,
+      "intangibleAssetsMM": 2380,
+      "cropInputs": {
+        "capacityUtilizationPct": 97.0,
+        "gasCostUSDPerMMBtu": 2.65,
+        "rdSpendPctOfRevenue": 0.14
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -336,7 +364,16 @@
         "AN": 419,
         "Other": 503
       },
-      "totalEquityMM": 4150
+      "totalEquityMM": 4150,
+      "propertyBookMM": 580,
+      "ppeBookMM": 4820,
+      "inventoryMM": 380,
+      "intangibleAssetsMM": 2380,
+      "cropInputs": {
+        "capacityUtilizationPct": 98.5,
+        "gasCostUSDPerMMBtu": 2.35,
+        "rdSpendPctOfRevenue": 0.15
+      }
     },
     {
       "endDate": "2025-03-31",

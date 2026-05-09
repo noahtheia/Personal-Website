@@ -14,7 +14,17 @@
       "capexMM": 2400,
       "daMM": 1080,
       "cfoMM": 4900,
-      "totalEquityMM": 13800
+      "totalEquityMM": 13800,
+      "protein": {
+        "plants": 28,
+        "weeklyHeadCapacity": 340000,
+        "capacityUtilizationPct": 76,
+        "pig": {
+          "slaughterWeightKg": 115,
+          "costPerKgLive": 18.0,
+          "feedConversionRatio": 3.0
+        }
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -31,7 +41,17 @@
       "capexMM": 2800,
       "daMM": 1180,
       "cfoMM": 5400,
-      "totalEquityMM": 13950
+      "totalEquityMM": 13950,
+      "protein": {
+        "plants": 28,
+        "weeklyHeadCapacity": 340000,
+        "capacityUtilizationPct": 80,
+        "pig": {
+          "slaughterWeightKg": 115,
+          "costPerKgLive": 19.5,
+          "feedConversionRatio": 2.95
+        }
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -48,7 +68,21 @@
       "capexMM": 3400,
       "daMM": 1280,
       "cfoMM": 5300,
-      "totalEquityMM": 14100
+      "totalEquityMM": 14100,
+      "propertyBookMM": 12200,
+      "ppeBookMM": 12200,
+      "inventoryMM": 4720,
+      "intangibleAssetsMM": 895,
+      "protein": {
+        "plants": 30,
+        "weeklyHeadCapacity": 350000,
+        "capacityUtilizationPct": 82,
+        "pig": {
+          "slaughterWeightKg": 115,
+          "costPerKgLive": 18.5,
+          "feedConversionRatio": 2.92
+        }
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -76,7 +110,21 @@
       "capexMM": 2900,
       "daMM": 1340,
       "cfoMM": 6100,
-      "totalEquityMM": 14250
+      "totalEquityMM": 14250,
+      "propertyBookMM": 12500,
+      "ppeBookMM": 12500,
+      "inventoryMM": 4380,
+      "intangibleAssetsMM": 905,
+      "protein": {
+        "plants": 30,
+        "weeklyHeadCapacity": 350000,
+        "capacityUtilizationPct": 78,
+        "pig": {
+          "slaughterWeightKg": 118,
+          "costPerKgLive": 17.5,
+          "feedConversionRatio": 2.88
+        }
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -109,7 +157,21 @@
       "ebitdaMM": 2043,
       "netIncomeMM": 1073,
       "notes": "Q4 23",
-      "totalEquityMM": 14250
+      "totalEquityMM": 14250,
+      "propertyBookMM": 12500,
+      "ppeBookMM": 12500,
+      "inventoryMM": 4380,
+      "intangibleAssetsMM": 905,
+      "protein": {
+        "plants": 30,
+        "weeklyHeadCapacity": 350000,
+        "capacityUtilizationPct": 78,
+        "pig": {
+          "slaughterWeightKg": 118,
+          "costPerKgLive": 17.5,
+          "feedConversionRatio": 2.88
+        }
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -137,7 +199,21 @@
       "capexMM": 2500,
       "daMM": 1380,
       "cfoMM": 6500,
-      "totalEquityMM": 14150
+      "totalEquityMM": 14150,
+      "propertyBookMM": 12800,
+      "ppeBookMM": 12800,
+      "inventoryMM": 4520,
+      "intangibleAssetsMM": 920,
+      "protein": {
+        "plants": 30,
+        "weeklyHeadCapacity": 350000,
+        "capacityUtilizationPct": 80,
+        "pig": {
+          "slaughterWeightKg": 120,
+          "costPerKgLive": 16.5,
+          "feedConversionRatio": 2.85
+        }
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -170,7 +246,21 @@
       "ebitdaMM": 2062,
       "netIncomeMM": 1019,
       "notes": "Q4 24",
-      "totalEquityMM": 14150
+      "totalEquityMM": 14150,
+      "propertyBookMM": 12800,
+      "ppeBookMM": 12800,
+      "inventoryMM": 4520,
+      "intangibleAssetsMM": 920,
+      "protein": {
+        "plants": 30,
+        "weeklyHeadCapacity": 350000,
+        "capacityUtilizationPct": 80,
+        "pig": {
+          "slaughterWeightKg": 120,
+          "costPerKgLive": 16.5,
+          "feedConversionRatio": 2.85
+        }
+      }
     },
     {
       "endDate": "2025-12-31",

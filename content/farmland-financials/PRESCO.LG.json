@@ -2,7 +2,7 @@
   "ticker": "PRESCO.LG",
   "currency": "NGN",
   "sourceUrl": "https://prescoplc.com/investor-relations/",
-  "notes": "Presco Plc — Nigerian Stock Exchange listed integrated palm oil producer. Owns ~40,000 ha (~99k acres) of oil palm plantations + extraction mills + refinery in Edo / Delta States. Acquired Saro Oil Palm Company (~14k ha) and Ghana Oil Palm Development Co. (GOPDC) stake during FY2023-2024. Calendar fiscal year. NGN reporting; figures in NGN millions. FY2023-2024 results reflect significant boost from Naira devaluation (NGN-denominated CPO realised prices tracked global USD prices). Ramp in revenue/EBITDA from FY2022 onwards reflects both Naira devaluation (NGN/USD ~415 in 2022 → ~1,500 in 2024) and palm-oil price strength. Land book reflects revaluation gains. Acres ~99k (40k ha). Net debt swung positive from FY2023 due to Saro / GOPDC acquisitions financed by debt. Pre-FY2022 financials reflect a much smaller business (only Presco core ~20k ha) and pre-devaluation exchange rates.",
+  "notes": "Presco Plc \u2014 Nigerian Stock Exchange listed integrated palm oil producer. Owns ~40,000 ha (~99k acres) of oil palm plantations + extraction mills + refinery in Edo / Delta States. Acquired Saro Oil Palm Company (~14k ha) and Ghana Oil Palm Development Co. (GOPDC) stake during FY2023-2024. Calendar fiscal year. NGN reporting; figures in NGN millions. FY2023-2024 results reflect significant boost from Naira devaluation (NGN-denominated CPO realised prices tracked global USD prices). Ramp in revenue/EBITDA from FY2022 onwards reflects both Naira devaluation (NGN/USD ~415 in 2022 \u2192 ~1,500 in 2024) and palm-oil price strength. Land book reflects revaluation gains. Acres ~99k (40k ha). Net debt swung positive from FY2023 due to Saro / GOPDC acquisitions financed by debt. Pre-FY2022 financials reflect a much smaller business (only Presco core ~20k ha) and pre-devaluation exchange rates.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -29,7 +29,14 @@
       "notes": "FY20: COVID year, palm-oil prices recovered H2",
       "capexMM": 8500,
       "daMM": 3400,
-      "cfoMM": 13000
+      "cfoMM": 13000,
+      "plantation": {
+        "ffbYieldTPerHa": 14.0,
+        "oerPct": 21.6,
+        "cpoAspPerMt": 380000,
+        "maturePlantedHa": 18100,
+        "rspoPct": 0
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -56,7 +63,14 @@
       "notes": "FY21: CPO price rally, record net income",
       "capexMM": 11500,
       "daMM": 3700,
-      "cfoMM": 18500
+      "cfoMM": 18500,
+      "plantation": {
+        "ffbYieldTPerHa": 13.5,
+        "oerPct": 21.5,
+        "cpoAspPerMt": 580000,
+        "maturePlantedHa": 18200,
+        "rspoPct": 0
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -83,7 +97,17 @@
       "notes": "FY22: Saro Oil Palm acquisition closed; CPO prices peaked, leverage rose",
       "capexMM": 14500,
       "daMM": 4100,
-      "cfoMM": 23000
+      "cfoMM": 23000,
+      "ppeBookMM": 125000,
+      "inventoryMM": 28000,
+      "intangibleAssetsMM": 1200,
+      "plantation": {
+        "ffbYieldTPerHa": 13.2,
+        "oerPct": 21.4,
+        "cpoAspPerMt": 850000,
+        "maturePlantedHa": 18300,
+        "rspoPct": 0
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -122,7 +146,17 @@
       "notes": "FY23: GOPDC stake + Saro full year; Naira devalued sharply (June 2023), revenue +59% YoY",
       "capexMM": 18000,
       "daMM": 4500,
-      "cfoMM": 35000
+      "cfoMM": 35000,
+      "ppeBookMM": 165000,
+      "inventoryMM": 38000,
+      "intangibleAssetsMM": 1200,
+      "plantation": {
+        "ffbYieldTPerHa": 12.8,
+        "oerPct": 21.3,
+        "cpoAspPerMt": 1280000,
+        "maturePlantedHa": 18400,
+        "rspoPct": 0
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -154,7 +188,18 @@
       "revenueMM": 33870,
       "ebitdaMM": 18200,
       "netIncomeMM": 8650,
-      "notes": "Q4 23"
+      "notes": "Q4 23",
+      "propertyBookMM": 245000,
+      "ppeBookMM": 165000,
+      "inventoryMM": 38000,
+      "intangibleAssetsMM": 1200,
+      "plantation": {
+        "ffbYieldTPerHa": 12.8,
+        "oerPct": 21.3,
+        "cpoAspPerMt": 1280000,
+        "maturePlantedHa": 18400,
+        "rspoPct": 0
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -201,6 +246,16 @@
         "1-3y": 26250.0,
         "3-5y": 21000.0,
         "5+y": 36750.0
+      },
+      "ppeBookMM": 185000,
+      "inventoryMM": 42000,
+      "intangibleAssetsMM": 1200,
+      "plantation": {
+        "ffbYieldTPerHa": 13.5,
+        "oerPct": 21.5,
+        "cpoAspPerMt": 1850000,
+        "maturePlantedHa": 18500,
+        "rspoPct": 0
       }
     },
     {
@@ -233,7 +288,18 @@
       "revenueMM": 58000,
       "ebitdaMM": 29000,
       "netIncomeMM": 23500,
-      "notes": "Q4 24"
+      "notes": "Q4 24",
+      "propertyBookMM": 285000,
+      "ppeBookMM": 185000,
+      "inventoryMM": 42000,
+      "intangibleAssetsMM": 1200,
+      "plantation": {
+        "ffbYieldTPerHa": 13.5,
+        "oerPct": 21.5,
+        "cpoAspPerMt": 1850000,
+        "maturePlantedHa": 18500,
+        "rspoPct": 0
+      }
     }
   ]
 }

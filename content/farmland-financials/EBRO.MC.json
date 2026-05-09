@@ -29,7 +29,11 @@
       "capexMM": 95,
       "daMM": 110,
       "cfoMM": 350,
-      "totalEquityMM": 1325
+      "totalEquityMM": 1325,
+      "trader": {
+        "rmiMM": 360,
+        "throughputMtMM": 2.4
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -56,7 +60,11 @@
       "capexMM": 90,
       "daMM": 90,
       "cfoMM": 250,
-      "totalEquityMM": 1390
+      "totalEquityMM": 1390,
+      "trader": {
+        "rmiMM": 410,
+        "throughputMtMM": 2.5
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -83,7 +91,15 @@
       "capexMM": 100,
       "daMM": 95,
       "cfoMM": 230,
-      "totalEquityMM": 1450
+      "totalEquityMM": 1450,
+      "propertyBookMM": 365,
+      "ppeBookMM": 690,
+      "inventoryMM": 780,
+      "intangibleAssetsMM": 530,
+      "trader": {
+        "rmiMM": 470,
+        "throughputMtMM": 2.6
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -110,7 +126,15 @@
       "capexMM": 105,
       "daMM": 100,
       "cfoMM": 360,
-      "totalEquityMM": 1520
+      "totalEquityMM": 1520,
+      "propertyBookMM": 372,
+      "ppeBookMM": 705,
+      "inventoryMM": 720,
+      "intangibleAssetsMM": 525,
+      "trader": {
+        "rmiMM": 435,
+        "throughputMtMM": 2.7
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -145,7 +169,15 @@
         "3-5y": 160.0,
         "5+y": 200.0
       },
-      "totalEquityMM": 1585
+      "totalEquityMM": 1585,
+      "propertyBookMM": 380,
+      "ppeBookMM": 720,
+      "inventoryMM": 685,
+      "intangibleAssetsMM": 520,
+      "trader": {
+        "rmiMM": 410,
+        "throughputMtMM": 2.8
+      }
     },
     {
       "endDate": "2020-06-30",

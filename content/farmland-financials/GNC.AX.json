@@ -24,7 +24,11 @@
       "daMM": 110,
       "cfoMM": 220,
       "notes": "FY20 \u2014 drought + United Malt demerger; revenue $4.15B (continuing ops).",
-      "totalEquityMM": 1685
+      "totalEquityMM": 1685,
+      "trader": {
+        "rmiMM": 320,
+        "throughputMtMM": 18.5
+      }
     },
     {
       "endDate": "2021-09-30",
@@ -46,7 +50,11 @@
       "daMM": 115,
       "cfoMM": 600,
       "notes": "FY21 record east-coast harvest \u2014 EBITDA $332M, net cash position.",
-      "totalEquityMM": 1820
+      "totalEquityMM": 1820,
+      "trader": {
+        "rmiMM": 520,
+        "throughputMtMM": 25.0
+      }
     },
     {
       "endDate": "2022-09-30",
@@ -68,7 +76,15 @@
       "daMM": 120,
       "cfoMM": 700,
       "notes": "FY22 record \u2014 bumper harvest plus Russia/Ukraine grain price spike. EBITDA $703M.",
-      "totalEquityMM": 2210
+      "totalEquityMM": 2210,
+      "propertyBookMM": 308,
+      "ppeBookMM": 945,
+      "inventoryMM": 980,
+      "intangibleAssetsMM": 90,
+      "trader": {
+        "rmiMM": 680,
+        "throughputMtMM": 32.5
+      }
     },
     {
       "endDate": "2023-09-30",
@@ -96,7 +112,15 @@
         "Other opex": 0
       },
       "notes": "FY23 EBITDA $564M, second consecutive bumper crop.",
-      "totalEquityMM": 2340
+      "totalEquityMM": 2340,
+      "propertyBookMM": 315,
+      "ppeBookMM": 965,
+      "inventoryMM": 850,
+      "intangibleAssetsMM": 88,
+      "trader": {
+        "rmiMM": 580,
+        "throughputMtMM": 30.2
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -140,7 +164,15 @@
         "3-5y": 81.0,
         "5+y": 108.0
       },
-      "totalEquityMM": 2295
+      "totalEquityMM": 2295,
+      "propertyBookMM": 320,
+      "ppeBookMM": 980,
+      "inventoryMM": 720,
+      "intangibleAssetsMM": 85,
+      "trader": {
+        "rmiMM": 480,
+        "throughputMtMM": 28.5
+      }
     },
     {
       "endDate": "2024-03-31",

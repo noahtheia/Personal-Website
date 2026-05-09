@@ -62,7 +62,12 @@
         "Nutrition": 5800,
         "Other Business": 367
       },
-      "totalEquityMM": 20139
+      "totalEquityMM": 20139,
+      "trader": {
+        "rmiMM": 6500,
+        "throughputMtMM": 60.5,
+        "ethanolGalsMM": 1550
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -92,7 +97,12 @@
         "Nutrition": 6712,
         "Other Business": 380
       },
-      "totalEquityMM": 22082
+      "totalEquityMM": 22082,
+      "trader": {
+        "rmiMM": 8200,
+        "throughputMtMM": 63.8,
+        "ethanolGalsMM": 1680
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -179,7 +189,16 @@
         "Nutrition": 7636,
         "Other Business": 396
       },
-      "totalEquityMM": 23456
+      "totalEquityMM": 23456,
+      "propertyBookMM": 3690,
+      "ppeBookMM": 6180,
+      "inventoryMM": 14160,
+      "intangibleAssetsMM": 5520,
+      "trader": {
+        "rmiMM": 9510,
+        "throughputMtMM": 65.0,
+        "ethanolGalsMM": 1720
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -266,7 +285,16 @@
         "Nutrition": 7211,
         "Other Business": 424
       },
-      "totalEquityMM": 24320
+      "totalEquityMM": 24320,
+      "propertyBookMM": 3780,
+      "ppeBookMM": 6310,
+      "inventoryMM": 11840,
+      "intangibleAssetsMM": 5860,
+      "trader": {
+        "rmiMM": 7950,
+        "throughputMtMM": 64.2,
+        "ethanolGalsMM": 1750
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -365,7 +393,16 @@
         "Nutrition": 7349,
         "Other Business": 431
       },
-      "totalEquityMM": 23210
+      "totalEquityMM": 23210,
+      "propertyBookMM": 3850,
+      "ppeBookMM": 6420,
+      "inventoryMM": 10620,
+      "intangibleAssetsMM": 5980,
+      "trader": {
+        "rmiMM": 7100,
+        "throughputMtMM": 62.5,
+        "ethanolGalsMM": 1700
+      }
     },
     {
       "endDate": "2025-03-31",

@@ -27,6 +27,11 @@
         "COGS": 12180,
         "SG&A": 256,
         "D&A": 179
+      },
+      "trader": {
+        "rmiMM": 720,
+        "throughputMtMM": 17.5,
+        "ethanolGalsMM": 380
       }
     },
     {
@@ -100,6 +105,15 @@
         "COGS": 16770,
         "SG&A": 322,
         "D&A": 135
+      },
+      "propertyBookMM": 395,
+      "ppeBookMM": 820,
+      "inventoryMM": 1290,
+      "intangibleAssetsMM": 205,
+      "trader": {
+        "rmiMM": 830,
+        "throughputMtMM": 18.2,
+        "ethanolGalsMM": 395
       }
     },
     {
@@ -173,6 +187,15 @@
         "COGS": 14210,
         "SG&A": 320,
         "D&A": 125
+      },
+      "propertyBookMM": 410,
+      "ppeBookMM": 850,
+      "inventoryMM": 1080,
+      "intangibleAssetsMM": 200,
+      "trader": {
+        "rmiMM": 690,
+        "throughputMtMM": 19.0,
+        "ethanolGalsMM": 405
       }
     },
     {
@@ -254,6 +277,15 @@
         "COGS": 10755,
         "SG&A": 290,
         "D&A": 128
+      },
+      "propertyBookMM": 420,
+      "ppeBookMM": 880,
+      "inventoryMM": 920,
+      "intangibleAssetsMM": 195,
+      "trader": {
+        "rmiMM": 580,
+        "throughputMtMM": 18.5,
+        "ethanolGalsMM": 410
       }
     },
     {

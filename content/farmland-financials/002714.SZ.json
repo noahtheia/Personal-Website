@@ -18,7 +18,18 @@
       "capexMM": 46500,
       "daMM": 1800,
       "cfoMM": 23000,
-      "totalEquityMM": 32500
+      "totalEquityMM": 32500,
+      "protein": {
+        "plants": 22,
+        "weeklyHeadCapacity": 1200000,
+        "capacityUtilizationPct": 75,
+        "pig": {
+          "breedingSows": 2620000,
+          "slaughterWeightKg": 115,
+          "costPerKgLive": 14.5,
+          "feedConversionRatio": 2.85
+        }
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -34,7 +45,18 @@
       "capexMM": 32500,
       "daMM": 3600,
       "cfoMM": 16500,
-      "totalEquityMM": 38000
+      "totalEquityMM": 38000,
+      "protein": {
+        "plants": 25,
+        "weeklyHeadCapacity": 1300000,
+        "capacityUtilizationPct": 78,
+        "pig": {
+          "breedingSows": 2700000,
+          "slaughterWeightKg": 115,
+          "costPerKgLive": 16.5,
+          "feedConversionRatio": 2.8
+        }
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -61,7 +83,22 @@
       "capexMM": 18000,
       "daMM": 5400,
       "cfoMM": 23000,
-      "totalEquityMM": 53500
+      "totalEquityMM": 53500,
+      "propertyBookMM": 108000,
+      "ppeBookMM": 108000,
+      "inventoryMM": 33800,
+      "intangibleAssetsMM": 1720,
+      "protein": {
+        "plants": 28,
+        "weeklyHeadCapacity": 1380000,
+        "capacityUtilizationPct": 85,
+        "pig": {
+          "breedingSows": 2900000,
+          "slaughterWeightKg": 118,
+          "costPerKgLive": 15.7,
+          "feedConversionRatio": 2.75
+        }
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -94,7 +131,22 @@
       "ebitdaMM": 5100,
       "netIncomeMM": -2093,
       "notes": "Q4 23: trough.",
-      "totalEquityMM": 64200
+      "totalEquityMM": 64200,
+      "propertyBookMM": 115200,
+      "ppeBookMM": 115200,
+      "inventoryMM": 36500,
+      "intangibleAssetsMM": 1780,
+      "protein": {
+        "plants": 30,
+        "weeklyHeadCapacity": 1450000,
+        "capacityUtilizationPct": 88,
+        "pig": {
+          "breedingSows": 3120000,
+          "slaughterWeightKg": 120,
+          "costPerKgLive": 15.0,
+          "feedConversionRatio": 2.7
+        }
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -121,7 +173,22 @@
       "capexMM": 9800,
       "daMM": 6800,
       "cfoMM": 9800,
-      "totalEquityMM": 64200
+      "totalEquityMM": 64200,
+      "propertyBookMM": 115200,
+      "ppeBookMM": 115200,
+      "inventoryMM": 36500,
+      "intangibleAssetsMM": 1780,
+      "protein": {
+        "plants": 30,
+        "weeklyHeadCapacity": 1450000,
+        "capacityUtilizationPct": 88,
+        "pig": {
+          "breedingSows": 3120000,
+          "slaughterWeightKg": 120,
+          "costPerKgLive": 15.0,
+          "feedConversionRatio": 2.7
+        }
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -154,7 +221,22 @@
       "ebitdaMM": 7400,
       "netIncomeMM": 7292,
       "notes": "Q4 24",
-      "totalEquityMM": 80500
+      "totalEquityMM": 80500,
+      "propertyBookMM": 118500,
+      "ppeBookMM": 118500,
+      "inventoryMM": 38200,
+      "intangibleAssetsMM": 1820,
+      "protein": {
+        "plants": 32,
+        "weeklyHeadCapacity": 1500000,
+        "capacityUtilizationPct": 92,
+        "pig": {
+          "breedingSows": 3500000,
+          "slaughterWeightKg": 122,
+          "costPerKgLive": 13.5,
+          "feedConversionRatio": 2.65
+        }
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -189,7 +271,22 @@
         "3-5y": 10710.0,
         "5+y": 14280.0
       },
-      "totalEquityMM": 80500
+      "totalEquityMM": 80500,
+      "propertyBookMM": 118500,
+      "ppeBookMM": 118500,
+      "inventoryMM": 38200,
+      "intangibleAssetsMM": 1820,
+      "protein": {
+        "plants": 32,
+        "weeklyHeadCapacity": 1500000,
+        "capacityUtilizationPct": 92,
+        "pig": {
+          "breedingSows": 3500000,
+          "slaughterWeightKg": 122,
+          "costPerKgLive": 13.5,
+          "feedConversionRatio": 2.65
+        }
+      }
     }
   ]
 }

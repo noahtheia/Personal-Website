@@ -2,7 +2,7 @@
   "ticker": "VITL",
   "currency": "USD",
   "sourceUrl": "https://investors.vitalfarms.com/financials/sec-filings/default.aspx",
-  "notes": "Vital Farms (NASDAQ: VITL) — pasture-raised eggs and butter, network of ~440 small family farms. IPO'd Aug 2020. B Corp / public benefit corporation. Fastest growth among US egg companies — share gains in shell + retail butter. Fiscal year ends late December (52/53 weeks). Egg Central Station processing facility in Springfield, MO; opened Seymour, IN facility 2025. CIK 1579733.",
+  "notes": "Vital Farms (NASDAQ: VITL) \u2014 pasture-raised eggs and butter, network of ~440 small family farms. IPO'd Aug 2020. B Corp / public benefit corporation. Fastest growth among US egg companies \u2014 share gains in shell + retail butter. Fiscal year ends late December (52/53 weeks). Egg Central Station processing facility in Springfield, MO; opened Seymour, IN facility 2025. CIK 1579733.",
   "periods": [
     {
       "endDate": "2020-12-27",
@@ -186,7 +186,17 @@
       "notes": "FY23: revenue $472M (+30%). Net income $25.6M ($0.61/sh). Adj EBITDA $48.5M.",
       "capexMM": 11.5,
       "daMM": 7.9,
-      "cfoMM": 50.9
+      "cfoMM": 50.9,
+      "ppeBookMM": 62.8,
+      "inventoryMM": 28.4,
+      "intangibleAssetsMM": 4.4,
+      "egg": {
+        "layingHenFlockMM": 5.6,
+        "dozensSoldMM": 116.4,
+        "avgSellingPricePerDozen": 5.14,
+        "feedCostPerDozen": 1.142,
+        "specialtyEggMixPct": 100
+      }
     },
     {
       "endDate": "2024-03-31",

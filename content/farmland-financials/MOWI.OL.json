@@ -2,7 +2,7 @@
   "ticker": "MOWI.OL",
   "currency": "EUR",
   "sourceUrl": "https://mowi.com/investors/reports/",
-  "notes": "Mowi ASA (formerly Marine Harvest) is the world's largest Atlantic salmon producer with farms in Norway, Chile, Scotland, Canada, Ireland and Faroe Islands. Reports in EUR (functional currency since 2018), lists on Oslo Børs in NOK. FY = calendar year. Figures from Mowi annual reports / Q4 reports / quarterly presentations. EBITDA shown is Operational EBIT plus D&A (i.e. operational EBITDA, ex fair-value biomass). Net debt per IR. Segment expense breakdown approximated from cost-of-materials-and-feed and salaries disclosure. Revenue segments: Farming (Norway/Scotland/Canada/Chile/Ireland/Faroes harvest sales), Consumer Products (VAP processing), Feed (Mowi Feed plants in Norway/Scotland), and Sales & Marketing eliminations. Quarterly data from Mowi Q1-Q4 reports.",
+  "notes": "Mowi ASA (formerly Marine Harvest) is the world's largest Atlantic salmon producer with farms in Norway, Chile, Scotland, Canada, Ireland and Faroe Islands. Reports in EUR (functional currency since 2018), lists on Oslo B\u00f8rs in NOK. FY = calendar year. Figures from Mowi annual reports / Q4 reports / quarterly presentations. EBITDA shown is Operational EBIT plus D&A (i.e. operational EBITDA, ex fair-value biomass). Net debt per IR. Segment expense breakdown approximated from cost-of-materials-and-feed and salaries disclosure. Revenue segments: Farming (Norway/Scotland/Canada/Chile/Ireland/Faroes harvest sales), Consumer Products (VAP processing), Feed (Mowi Feed plants in Norway/Scotland), and Sales & Marketing eliminations. Quarterly data from Mowi Q1-Q4 reports.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -28,7 +28,15 @@
       "capexMM": 250,
       "daMM": 290,
       "cfoMM": 460,
-      "notes": "FY20: Revenue EUR 3,762M, Operational EBIT EUR 317M, op EBITDA ~EUR 607M. Salmon prices weak on COVID. Dividend NOK 5.20 ≈ EUR 0.50 (also NOK 1.50 extraordinary)."
+      "notes": "FY20: Revenue EUR 3,762M, Operational EBIT EUR 317M, op EBITDA ~EUR 607M. Salmon prices weak on COVID. Dividend NOK 5.20 \u2248 EUR 0.50 (also NOK 1.50 extraordinary).",
+      "aquaculture": {
+        "harvestVolumeKtGwt": 442,
+        "ebitPerKgNok": 9.4,
+        "mabLicencedTonnes": 261000,
+        "biomassAtSeaKt": 218,
+        "smoltReleasedMM": 102,
+        "costPerKgNok": 39.2
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -54,7 +62,15 @@
       "capexMM": 300,
       "daMM": 304,
       "cfoMM": 600,
-      "notes": "FY21: Revenue EUR 4,232M, Operational EBIT EUR 460M, op EBITDA ~EUR 764M. Salmon price recovery."
+      "notes": "FY21: Revenue EUR 4,232M, Operational EBIT EUR 460M, op EBITDA ~EUR 764M. Salmon price recovery.",
+      "aquaculture": {
+        "harvestVolumeKtGwt": 458,
+        "ebitPerKgNok": 14.2,
+        "mabLicencedTonnes": 263400,
+        "biomassAtSeaKt": 222,
+        "smoltReleasedMM": 106,
+        "costPerKgNok": 41.8
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -98,7 +114,7 @@
       "netIncomeMM": 220,
       "netDebtMM": 1450,
       "sharesOutMM": 517.1,
-      "notes": "Q2 2022: Revenue EUR 1,280M, Operational EBIT EUR 300M — record quarter on peak salmon prices."
+      "notes": "Q2 2022: Revenue EUR 1,280M, Operational EBIT EUR 300M \u2014 record quarter on peak salmon prices."
     },
     {
       "endDate": "2022-09-30",
@@ -142,7 +158,18 @@
       "netIncomeMM": 180,
       "netDebtMM": 1466,
       "sharesOutMM": 517.1,
-      "notes": "Q4 2022: Revenue EUR 1,296M, Operational EBIT EUR 241M."
+      "notes": "Q4 2022: Revenue EUR 1,296M, Operational EBIT EUR 241M.",
+      "ppeBookMM": 1986.4,
+      "inventoryMM": 1648.7,
+      "intangibleAssetsMM": 998.4,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 463,
+        "ebitPerKgNok": 23.7,
+        "mabLicencedTonnes": 266200,
+        "biomassAtSeaKt": 226,
+        "smoltReleasedMM": 108,
+        "costPerKgNok": 47.9
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -168,7 +195,18 @@
       "capexMM": 360,
       "daMM": 320,
       "cfoMM": 1100,
-      "notes": "FY22: Revenue EUR 4,933M, record Operational EBIT EUR 924M, op EBITDA ~EUR 1,244M. Strong salmon price year."
+      "notes": "FY22: Revenue EUR 4,933M, record Operational EBIT EUR 924M, op EBITDA ~EUR 1,244M. Strong salmon price year.",
+      "ppeBookMM": 1986.4,
+      "inventoryMM": 1648.7,
+      "intangibleAssetsMM": 998.4,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 463,
+        "ebitPerKgNok": 23.7,
+        "mabLicencedTonnes": 266200,
+        "biomassAtSeaKt": 226,
+        "smoltReleasedMM": 108,
+        "costPerKgNok": 47.9
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -212,7 +250,7 @@
       "netIncomeMM": 240,
       "netDebtMM": 1660,
       "sharesOutMM": 517.1,
-      "notes": "Q2 2023: Revenue EUR 1,438M, Operational EBIT EUR 326M — strong salmon prices."
+      "notes": "Q2 2023: Revenue EUR 1,438M, Operational EBIT EUR 326M \u2014 strong salmon prices."
     },
     {
       "endDate": "2023-09-30",
@@ -256,7 +294,18 @@
       "netIncomeMM": 130,
       "netDebtMM": 1812,
       "sharesOutMM": 517.1,
-      "notes": "Q4 2023: Revenue EUR 1,429M, Operational EBIT EUR 202M."
+      "notes": "Q4 2023: Revenue EUR 1,429M, Operational EBIT EUR 202M.",
+      "ppeBookMM": 2098.6,
+      "inventoryMM": 1746.2,
+      "intangibleAssetsMM": 1006.1,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 464,
+        "ebitPerKgNok": 21.5,
+        "mabLicencedTonnes": 268400,
+        "biomassAtSeaKt": 232,
+        "smoltReleasedMM": 112,
+        "costPerKgNok": 51.2
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -282,7 +331,18 @@
       "capexMM": 415,
       "daMM": 335,
       "cfoMM": 1140,
-      "notes": "FY23: Revenue EUR 5,547M, Operational EBIT EUR 1,000M, op EBITDA ~EUR 1,335M. Norwegian resource-rent tax took effect Jan 1, 2023."
+      "notes": "FY23: Revenue EUR 5,547M, Operational EBIT EUR 1,000M, op EBITDA ~EUR 1,335M. Norwegian resource-rent tax took effect Jan 1, 2023.",
+      "ppeBookMM": 2098.6,
+      "inventoryMM": 1746.2,
+      "intangibleAssetsMM": 1006.1,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 464,
+        "ebitPerKgNok": 21.5,
+        "mabLicencedTonnes": 268400,
+        "biomassAtSeaKt": 232,
+        "smoltReleasedMM": 112,
+        "costPerKgNok": 51.2
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -370,7 +430,18 @@
       "netIncomeMM": 120,
       "netDebtMM": 1850,
       "sharesOutMM": 517.1,
-      "notes": "Q4 2024: Revenue EUR 1,373M, Operational EBIT EUR 196M."
+      "notes": "Q4 2024: Revenue EUR 1,373M, Operational EBIT EUR 196M.",
+      "ppeBookMM": 2186.4,
+      "inventoryMM": 1842.7,
+      "intangibleAssetsMM": 1014.3,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 502,
+        "ebitPerKgNok": 14.8,
+        "mabLicencedTonnes": 271500,
+        "biomassAtSeaKt": 248,
+        "smoltReleasedMM": 116,
+        "costPerKgNok": 53.4
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -397,7 +468,18 @@
       "daMM": 350,
       "cfoMM": 920,
       "notes": "FY24: Revenue EUR 5,553M, Operational EBIT EUR 774M, op EBITDA ~EUR 1,124M. Lower contribution from Norway on biological challenges; Scotland and Canada strong.",
-      "interestExpenseMM": 150
+      "interestExpenseMM": 150,
+      "ppeBookMM": 2186.4,
+      "inventoryMM": 1842.7,
+      "intangibleAssetsMM": 1014.3,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 502,
+        "ebitPerKgNok": 14.8,
+        "mabLicencedTonnes": 271500,
+        "biomassAtSeaKt": 248,
+        "smoltReleasedMM": 116,
+        "costPerKgNok": 53.4
+      }
     },
     {
       "endDate": "2025-03-31",

@@ -157,7 +157,15 @@
         "Food Ingredients": 1459.6,
         "Fuel Ingredients": 533.6
       },
-      "totalEquityMM": 3150
+      "totalEquityMM": 3150,
+      "propertyBookMM": 2541,
+      "ppeBookMM": 2541,
+      "inventoryMM": 720,
+      "intangibleAssetsMM": 3098,
+      "protein": {
+        "plants": 250,
+        "capacityUtilizationPct": 84
+      }
     },
     {
       "endDate": "2023-04-01",
@@ -235,6 +243,14 @@
         "Feed Ingredients": 4472.6,
         "Food Ingredients": 1752.1,
         "Fuel Ingredients": 563.4
+      },
+      "propertyBookMM": 2868,
+      "ppeBookMM": 2868,
+      "inventoryMM": 698,
+      "intangibleAssetsMM": 3210,
+      "protein": {
+        "plants": 260,
+        "capacityUtilizationPct": 80
       }
     },
     {
@@ -331,6 +347,14 @@
         "Feed Ingredients": 3675.6,
         "Food Ingredients": 1489.1,
         "Fuel Ingredients": 550.5
+      },
+      "propertyBookMM": 2920,
+      "ppeBookMM": 2920,
+      "inventoryMM": 715,
+      "intangibleAssetsMM": 3245,
+      "protein": {
+        "plants": 260,
+        "capacityUtilizationPct": 78
       }
     },
     {

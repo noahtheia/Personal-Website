@@ -2,7 +2,7 @@
   "ticker": "MAIN.JK",
   "currency": "IDR",
   "sourceUrl": "https://www.malindofeedmill.com/",
-  "notes": "Malindo Feedmill (MAIN) — IDX-listed integrated poultry player, subsidiary of Malaysia's Leong Hup International. Indonesia's #3 poultry feed-DOC-broiler producer. Segments: feed (~55% rev), DOC (~12%), broiler/live bird (~22%), processed food / Sunny Gold (~11%). Reports under PSAK in IDR-millions. FY history sourced from malindofeedmill.com annual reports (2019-2024) and IDX laporan keuangan filings. Smaller scale than CPIN/JPFA so margins more cyclical; bird-flu disruptions and feed cost spikes have at times driven net loss years (e.g. FY20). FY2024 reflected DOC pricing recovery and lower corn input cost. Net debt elevated relative to scale due to vertical-integration capex.",
+  "notes": "Malindo Feedmill (MAIN) \u2014 IDX-listed integrated poultry player, subsidiary of Malaysia's Leong Hup International. Indonesia's #3 poultry feed-DOC-broiler producer. Segments: feed (~55% rev), DOC (~12%), broiler/live bird (~22%), processed food / Sunny Gold (~11%). Reports under PSAK in IDR-millions. FY history sourced from malindofeedmill.com annual reports (2019-2024) and IDX laporan keuangan filings. Smaller scale than CPIN/JPFA so margins more cyclical; bird-flu disruptions and feed cost spikes have at times driven net loss years (e.g. FY20). FY2024 reflected DOC pricing recovery and lower corn input cost. Net debt elevated relative to scale due to vertical-integration capex.",
   "periods": [
     {
       "endDate": "2019-12-31",
@@ -64,7 +64,12 @@
       "notes": "FY20: COVID + bird-flu pressure caused small net loss. No dividend.",
       "capexMM": 230000,
       "daMM": 230000,
-      "cfoMM": 480000
+      "cfoMM": 480000,
+      "protein": {
+        "plants": 11,
+        "weeklyHeadCapacity": 4000000,
+        "capacityUtilizationPct": 72
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -95,7 +100,12 @@
       "notes": "FY21: Rp8.06T (+13% YoY), Rp144B net profit recovery.",
       "capexMM": 310000,
       "daMM": 240000,
-      "cfoMM": 410000
+      "cfoMM": 410000,
+      "protein": {
+        "plants": 11,
+        "weeklyHeadCapacity": 4100000,
+        "capacityUtilizationPct": 76
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -183,7 +193,16 @@
       "netIncomeMM": 40000,
       "netDebtMM": 1450000,
       "sharesOutMM": 2239,
-      "notes": "Q4 2022: revenue Rp2.42T."
+      "notes": "Q4 2022: revenue Rp2.42T.",
+      "propertyBookMM": 2680000,
+      "ppeBookMM": 2680000,
+      "inventoryMM": 1680000,
+      "intangibleAssetsMM": 27500,
+      "protein": {
+        "plants": 12,
+        "weeklyHeadCapacity": 4150000,
+        "capacityUtilizationPct": 78
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -214,7 +233,16 @@
       "notes": "FY22: Rp9.51T (+18% YoY) on cost pass-through; Rp215B net profit.",
       "capexMM": 380000,
       "daMM": 250000,
-      "cfoMM": 280000
+      "cfoMM": 280000,
+      "propertyBookMM": 2680000,
+      "ppeBookMM": 2680000,
+      "inventoryMM": 1680000,
+      "intangibleAssetsMM": 27500,
+      "protein": {
+        "plants": 12,
+        "weeklyHeadCapacity": 4150000,
+        "capacityUtilizationPct": 78
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -302,7 +330,16 @@
       "netIncomeMM": 16000,
       "netDebtMM": 1500000,
       "sharesOutMM": 2239,
-      "notes": "Q4 2023: revenue Rp2.24T."
+      "notes": "Q4 2023: revenue Rp2.24T.",
+      "propertyBookMM": 2780000,
+      "ppeBookMM": 2780000,
+      "inventoryMM": 1580000,
+      "intangibleAssetsMM": 28000,
+      "protein": {
+        "plants": 12,
+        "weeklyHeadCapacity": 4200000,
+        "capacityUtilizationPct": 72
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -333,7 +370,16 @@
       "notes": "FY23: weak DOC pricing pressured profit to Rp56B.",
       "capexMM": 350000,
       "daMM": 260000,
-      "cfoMM": 220000
+      "cfoMM": 220000,
+      "propertyBookMM": 2780000,
+      "ppeBookMM": 2780000,
+      "inventoryMM": 1580000,
+      "intangibleAssetsMM": 28000,
+      "protein": {
+        "plants": 12,
+        "weeklyHeadCapacity": 4200000,
+        "capacityUtilizationPct": 72
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -421,7 +467,16 @@
       "netIncomeMM": 42000,
       "netDebtMM": 1230000,
       "sharesOutMM": 2239,
-      "notes": "Q4 2024: revenue Rp2.30T."
+      "notes": "Q4 2024: revenue Rp2.30T.",
+      "propertyBookMM": 2850000,
+      "ppeBookMM": 2850000,
+      "inventoryMM": 1620000,
+      "intangibleAssetsMM": 28500,
+      "protein": {
+        "plants": 12,
+        "weeklyHeadCapacity": 4200000,
+        "capacityUtilizationPct": 76
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -461,6 +516,15 @@
         "1-3y": 362500.0,
         "3-5y": 217500.0,
         "5+y": 290000.0
+      },
+      "propertyBookMM": 2850000,
+      "ppeBookMM": 2850000,
+      "inventoryMM": 1620000,
+      "intangibleAssetsMM": 28500,
+      "protein": {
+        "plants": 12,
+        "weeklyHeadCapacity": 4200000,
+        "capacityUtilizationPct": 76
       }
     }
   ]

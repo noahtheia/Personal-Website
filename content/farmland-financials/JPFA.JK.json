@@ -2,7 +2,7 @@
   "ticker": "JPFA.JK",
   "currency": "IDR",
   "sourceUrl": "https://www.japfacomfeed.co.id/en/investor-relation",
-  "notes": "Japfa Comfeed Indonesia (JPFA) — IDX-listed integrated agri-food group, Indonesia's #2 poultry/feed player and largest beef cattle operator. Subsidiary of Japfa Ltd (formerly SGX-listed; privatized July 2023). Segments: animal feed (~40% rev), DOC + broiler (~33%), beef cattle (~12%), aquaculture feed/other (~15%). Reports under PSAK in IDR-millions. FY history sourced from japfacomfeed.co.id annual reports (2019-2024) and IDX laporan keuangan filings. Net debt elevated relative to CPIN due to cattle inventory + feed-mill capex; profitability more cyclical given exposure to beef-import quotas + fish-feed shrimp cycle. FY2024 reflected DOC pricing recovery and shrimp-feed margin recovery from 2022-23 trough.",
+  "notes": "Japfa Comfeed Indonesia (JPFA) \u2014 IDX-listed integrated agri-food group, Indonesia's #2 poultry/feed player and largest beef cattle operator. Subsidiary of Japfa Ltd (formerly SGX-listed; privatized July 2023). Segments: animal feed (~40% rev), DOC + broiler (~33%), beef cattle (~12%), aquaculture feed/other (~15%). Reports under PSAK in IDR-millions. FY history sourced from japfacomfeed.co.id annual reports (2019-2024) and IDX laporan keuangan filings. Net debt elevated relative to CPIN due to cattle inventory + feed-mill capex; profitability more cyclical given exposure to beef-import quotas + fish-feed shrimp cycle. FY2024 reflected DOC pricing recovery and shrimp-feed margin recovery from 2022-23 trough.",
   "periods": [
     {
       "endDate": "2019-12-31",
@@ -64,7 +64,12 @@
       "notes": "FY20: COVID hit HRC + processed food channels. Net income Rp1.22T.",
       "capexMM": 1600000,
       "daMM": 980000,
-      "cfoMM": 3500000
+      "cfoMM": 3500000,
+      "protein": {
+        "plants": 32,
+        "weeklyHeadCapacity": 17000000,
+        "capacityUtilizationPct": 74
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -95,7 +100,12 @@
       "notes": "FY21: Rp41.2T revenue (+11% YoY), strong commercial price recovery. Net income Rp2.13T.",
       "capexMM": 2100000,
       "daMM": 1050000,
-      "cfoMM": 3300000
+      "cfoMM": 3300000,
+      "protein": {
+        "plants": 33,
+        "weeklyHeadCapacity": 17500000,
+        "capacityUtilizationPct": 78
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -183,7 +193,16 @@
       "netIncomeMM": 341000,
       "netDebtMM": 8250000,
       "sharesOutMM": 11727,
-      "notes": "Q4 2022: revenue Rp12.6T."
+      "notes": "Q4 2022: revenue Rp12.6T.",
+      "propertyBookMM": 12600000,
+      "ppeBookMM": 12600000,
+      "inventoryMM": 11200000,
+      "intangibleAssetsMM": 188000,
+      "protein": {
+        "plants": 34,
+        "weeklyHeadCapacity": 17800000,
+        "capacityUtilizationPct": 80
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -214,7 +233,16 @@
       "notes": "FY22: Rp49.4T (+20% YoY) on cost pass-through. Margin squeezed by feed-input spike. Net income Rp1.38T.",
       "capexMM": 2700000,
       "daMM": 1120000,
-      "cfoMM": 2400000
+      "cfoMM": 2400000,
+      "propertyBookMM": 12600000,
+      "ppeBookMM": 12600000,
+      "inventoryMM": 11200000,
+      "intangibleAssetsMM": 188000,
+      "protein": {
+        "plants": 34,
+        "weeklyHeadCapacity": 17800000,
+        "capacityUtilizationPct": 80
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -302,7 +330,16 @@
       "netIncomeMM": 246000,
       "netDebtMM": 7800000,
       "sharesOutMM": 11727,
-      "notes": "Q4 2023: revenue Rp13.2T."
+      "notes": "Q4 2023: revenue Rp13.2T.",
+      "propertyBookMM": 13100000,
+      "ppeBookMM": 13100000,
+      "inventoryMM": 10500000,
+      "intangibleAssetsMM": 192000,
+      "protein": {
+        "plants": 35,
+        "weeklyHeadCapacity": 18000000,
+        "capacityUtilizationPct": 76
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -333,7 +370,16 @@
       "notes": "FY23: shrimp-feed weakness + DOC trough compressed margin. Net income Rp921B (-33% YoY).",
       "capexMM": 2400000,
       "daMM": 1180000,
-      "cfoMM": 1800000
+      "cfoMM": 1800000,
+      "propertyBookMM": 13100000,
+      "ppeBookMM": 13100000,
+      "inventoryMM": 10500000,
+      "intangibleAssetsMM": 192000,
+      "protein": {
+        "plants": 35,
+        "weeklyHeadCapacity": 18000000,
+        "capacityUtilizationPct": 76
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -421,7 +467,16 @@
       "netIncomeMM": 512000,
       "netDebtMM": 7100000,
       "sharesOutMM": 11727,
-      "notes": "Q4 2024: revenue Rp13.8T."
+      "notes": "Q4 2024: revenue Rp13.8T.",
+      "propertyBookMM": 13500000,
+      "ppeBookMM": 13500000,
+      "inventoryMM": 10800000,
+      "intangibleAssetsMM": 195000,
+      "protein": {
+        "plants": 35,
+        "weeklyHeadCapacity": 18000000,
+        "capacityUtilizationPct": 78
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -461,6 +516,15 @@
         "1-3y": 2525000.0,
         "3-5y": 1515000.0,
         "5+y": 2020000.0
+      },
+      "propertyBookMM": 13500000,
+      "ppeBookMM": 13500000,
+      "inventoryMM": 10800000,
+      "intangibleAssetsMM": 195000,
+      "protein": {
+        "plants": 35,
+        "weeklyHeadCapacity": 18000000,
+        "capacityUtilizationPct": 78
       }
     }
   ]

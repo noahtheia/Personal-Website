@@ -25,7 +25,11 @@
       "capexMM": 1170.6,
       "daMM": 847.6,
       "cfoMM": 1582.6,
-      "totalEquityMM": 6755
+      "totalEquityMM": 6755,
+      "cropInputs": {
+        "capacityUtilizationPct": 76.0,
+        "rdSpendPctOfRevenue": 0.2
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -49,7 +53,11 @@
       "capexMM": 1288.6,
       "daMM": 812.9,
       "cfoMM": 2187.0,
-      "totalEquityMM": 7790
+      "totalEquityMM": 7790,
+      "cropInputs": {
+        "capacityUtilizationPct": 85.5,
+        "rdSpendPctOfRevenue": 0.18
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -129,7 +137,15 @@
       "capexMM": 1247.3,
       "daMM": 933.9,
       "cfoMM": 3935.8,
-      "totalEquityMM": 9440
+      "totalEquityMM": 9440,
+      "propertyBookMM": 1750,
+      "ppeBookMM": 8680,
+      "inventoryMM": 3420,
+      "intangibleAssetsMM": 1960,
+      "cropInputs": {
+        "capacityUtilizationPct": 88.0,
+        "rdSpendPctOfRevenue": 0.16
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -209,7 +225,15 @@
       "capexMM": 1402.4,
       "daMM": 960.6,
       "cfoMM": 2407.2,
-      "totalEquityMM": 9560
+      "totalEquityMM": 9560,
+      "propertyBookMM": 1790,
+      "ppeBookMM": 8820,
+      "inventoryMM": 2920,
+      "intangibleAssetsMM": 1920,
+      "cropInputs": {
+        "capacityUtilizationPct": 80.5,
+        "rdSpendPctOfRevenue": 0.18
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -304,7 +328,15 @@
         "Potash": 2400,
         "Mosaic Fertilizantes": 4400
       },
-      "totalEquityMM": 8870
+      "totalEquityMM": 8870,
+      "propertyBookMM": 1820,
+      "ppeBookMM": 8950,
+      "inventoryMM": 2680,
+      "intangibleAssetsMM": 1880,
+      "cropInputs": {
+        "capacityUtilizationPct": 78.0,
+        "rdSpendPctOfRevenue": 0.2
+      }
     },
     {
       "endDate": "2025-03-31",

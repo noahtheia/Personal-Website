@@ -2,7 +2,7 @@
   "ticker": "RFF.AX",
   "currency": "AUD",
   "sourceUrl": "https://www.ruralfunds.com.au/investments/rural-funds-group/publications",
-  "notes": "Rural Funds Group (RFF) — diversified Australian agricultural REIT (ASX:RFF). Fiscal year ends 30 June; H1 ends 31 December. IFRS investment-property fair-value accounting (book = FMV; directors' annual valuations cycle plus rotating independent appraisals). Portfolio spans almonds, macadamias, cattle stations, vineyards, cropping, sugarcane and poultry — all leased to operators on long-tenor CPI-linked agreements. Reports adjusted property assets and adjusted NAV/unit (excludes debt mark-to-market). Distributions paid quarterly; FY guidance ~11.73 cps FY25. Source: published Annual Reports + Half-Year results announcements on RFF investor page. RFF listed on ASX 14 Feb 2014 via re-stapling of the Rural Funds Group (RFM-managed); FY14 covers part-year as listed entity.",
+  "notes": "Rural Funds Group (RFF) \u2014 diversified Australian agricultural REIT (ASX:RFF). Fiscal year ends 30 June; H1 ends 31 December. IFRS investment-property fair-value accounting (book = FMV; directors' annual valuations cycle plus rotating independent appraisals). Portfolio spans almonds, macadamias, cattle stations, vineyards, cropping, sugarcane and poultry \u2014 all leased to operators on long-tenor CPI-linked agreements. Reports adjusted property assets and adjusted NAV/unit (excludes debt mark-to-market). Distributions paid quarterly; FY guidance ~11.73 cps FY25. Source: published Annual Reports + Half-Year results announcements on RFF investor page. RFF listed on ASX 14 Feb 2014 via re-stapling of the Rural Funds Group (RFM-managed); FY14 covers part-year as listed entity.",
   "periods": [
     {
       "endDate": "2014-06-30",
@@ -320,7 +320,13 @@
       "daMM": 0.4,
       "cfoMM": 31.5,
       "notes": "FY20 Annual Report. Adjusted property assets $957.7M, adjusted NAV/unit $2.04, FY distribution 10.85 cps.",
-      "bookValuePerShare": 2.44
+      "bookValuePerShare": 2.44,
+      "reit": {
+        "walt": 11.5,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.102,
+        "affoPerShare": 0.102
+      }
     },
     {
       "endDate": "2020-12-31",
@@ -376,7 +382,13 @@
       "daMM": 0.5,
       "cfoMM": 35.7,
       "notes": "FY21: adjusted property assets $1,170.7M (incl. $108M property revaluation gains), NAV/unit $2.34, distribution 11.28 cps.",
-      "bookValuePerShare": 2.51
+      "bookValuePerShare": 2.51,
+      "reit": {
+        "walt": 11.9,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.108,
+        "affoPerShare": 0.108
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -432,7 +444,14 @@
       "daMM": 0.5,
       "cfoMM": 47.6,
       "notes": "FY22: adjusted property assets $1,535M (large macadamia + cattle uplift), NAV/unit $2.88, distribution 11.73 cps.",
-      "bookValuePerShare": 2.88
+      "bookValuePerShare": 2.88,
+      "ppeBookMM": 5.4,
+      "reit": {
+        "walt": 12.8,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.118,
+        "affoPerShare": 0.118
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -488,7 +507,14 @@
       "daMM": 0.7,
       "cfoMM": 56.4,
       "notes": "FY23: adjusted property assets $1,893.5M, NAV/unit $3.11, distribution 11.73 cps.",
-      "bookValuePerShare": 3.25
+      "bookValuePerShare": 3.25,
+      "ppeBookMM": 5.1,
+      "reit": {
+        "walt": 14.1,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.123,
+        "affoPerShare": 0.123
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -544,7 +570,14 @@
       "daMM": 0.7,
       "cfoMM": 51.2,
       "notes": "FY24 Annual Report. Adjusted property assets $1,951.7M, adjusted NAV/unit $3.14.",
-      "bookValuePerShare": 3.14
+      "bookValuePerShare": 3.14,
+      "ppeBookMM": 4.8,
+      "reit": {
+        "walt": 13.5,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.116,
+        "affoPerShare": 0.116
+      }
     },
     {
       "endDate": "2024-12-31",

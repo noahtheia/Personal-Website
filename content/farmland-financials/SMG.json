@@ -27,6 +27,10 @@
         "COGS": 3380,
         "SG&A": 728,
         "D&A": 94
+      },
+      "cropInputs": {
+        "capacityUtilizationPct": 92.0,
+        "rdSpendPctOfRevenue": 0.9
       }
     },
     {
@@ -109,6 +113,14 @@
         "COGS": 3262,
         "SG&A": 686,
         "D&A": 105
+      },
+      "propertyBookMM": 310,
+      "ppeBookMM": 760,
+      "inventoryMM": 1080,
+      "intangibleAssetsMM": 780,
+      "cropInputs": {
+        "capacityUtilizationPct": 80.0,
+        "rdSpendPctOfRevenue": 1.1
       }
     },
     {
@@ -191,6 +203,14 @@
         "COGS": 2855,
         "SG&A": 685,
         "D&A": 93
+      },
+      "propertyBookMM": 295,
+      "ppeBookMM": 720,
+      "inventoryMM": 720,
+      "intangibleAssetsMM": 750,
+      "cropInputs": {
+        "capacityUtilizationPct": 72.0,
+        "rdSpendPctOfRevenue": 1.0
       }
     },
     {
@@ -278,6 +298,14 @@
         "COGS": 2538,
         "SG&A": 644,
         "D&A": 81
+      },
+      "propertyBookMM": 285,
+      "ppeBookMM": 685,
+      "inventoryMM": 580,
+      "intangibleAssetsMM": 720,
+      "cropInputs": {
+        "capacityUtilizationPct": 76.0,
+        "rdSpendPctOfRevenue": 1.2
       }
     },
     {

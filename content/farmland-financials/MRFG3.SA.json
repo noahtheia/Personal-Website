@@ -2,7 +2,7 @@
   "ticker": "MRFG3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.marfrig.com.br/",
-  "notes": "Marfrig Global Foods (B3: MRFG3) — beef + processed protein, with controlling stake (~50.5%) in BRF S.A. (BRFS3). Two operating segments: National Beef (NA beef, 81.7% owned), and South America beef. Sold 16 plants to Minerva (BEEF3) in Aug 2024 for R$7.5bn (Brazil + Southern Cone). FY ends Dec 31. Consolidates BRF since 2H22 — drives revenue uplift and adds chicken/processed exposure. Quarterly + segment data from Marfrig ITR/DFP filings (ri.marfrig.com.br). Segments per Marfrig disclosure: Beef North America (National Beef), Beef South America, BRF (consolidated from 3T22).",
+  "notes": "Marfrig Global Foods (B3: MRFG3) \u2014 beef + processed protein, with controlling stake (~50.5%) in BRF S.A. (BRFS3). Two operating segments: National Beef (NA beef, 81.7% owned), and South America beef. Sold 16 plants to Minerva (BEEF3) in Aug 2024 for R$7.5bn (Brazil + Southern Cone). FY ends Dec 31. Consolidates BRF since 2H22 \u2014 drives revenue uplift and adds chicken/processed exposure. Quarterly + segment data from Marfrig ITR/DFP filings (ri.marfrig.com.br). Segments per Marfrig disclosure: Beef North America (National Beef), Beef South America, BRF (consolidated from 3T22).",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -25,10 +25,15 @@
       "cashMM": 12300,
       "netDebtMM": 15800,
       "sharesOutMM": 712,
-      "notes": "FY20: Revenue R$67.9bn (pre-BRF consolidation), EBITDA R$9.3bn (margin 13.7%) — peak NA beef margins.",
+      "notes": "FY20: Revenue R$67.9bn (pre-BRF consolidation), EBITDA R$9.3bn (margin 13.7%) \u2014 peak NA beef margins.",
       "capexMM": 2400,
       "daMM": 2300,
-      "cfoMM": 7800
+      "cfoMM": 7800,
+      "protein": {
+        "plants": 45,
+        "weeklyHeadCapacity": 685000,
+        "capacityUtilizationPct": 80
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -51,10 +56,15 @@
       "cashMM": 14900,
       "netDebtMM": 18600,
       "sharesOutMM": 712,
-      "notes": "FY21: Revenue R$84.7bn, EBITDA R$16.1bn (margin 19.0%) — record year, peak NA beef cycle.",
+      "notes": "FY21: Revenue R$84.7bn, EBITDA R$16.1bn (margin 19.0%) \u2014 record year, peak NA beef cycle.",
       "capexMM": 3100,
       "daMM": 2900,
-      "cfoMM": 9500
+      "cfoMM": 9500,
+      "protein": {
+        "plants": 45,
+        "weeklyHeadCapacity": 690000,
+        "capacityUtilizationPct": 84
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -94,7 +104,16 @@
       "netIncomeMM": 794,
       "sharesOutMM": 851,
       "netDebtMM": 37500,
-      "notes": "4T22: Revenue R$35.9bn, EBITDA R$3.12bn. NA beef cycle inflecting."
+      "notes": "4T22: Revenue R$35.9bn, EBITDA R$3.12bn. NA beef cycle inflecting.",
+      "propertyBookMM": 12800,
+      "ppeBookMM": 12800,
+      "inventoryMM": 9100,
+      "intangibleAssetsMM": 4180,
+      "protein": {
+        "plants": 46,
+        "weeklyHeadCapacity": 700000,
+        "capacityUtilizationPct": 82
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -118,10 +137,19 @@
       "cashMM": 18900,
       "netDebtMM": 37500,
       "sharesOutMM": 851,
-      "notes": "FY22: Revenue R$134.8bn (+59% — BRF consolidation from Aug 2022), EBITDA R$14.9bn (margin 11.1%) — NA beef cycle began rolling over.",
+      "notes": "FY22: Revenue R$134.8bn (+59% \u2014 BRF consolidation from Aug 2022), EBITDA R$14.9bn (margin 11.1%) \u2014 NA beef cycle began rolling over.",
       "capexMM": 4500,
       "daMM": 4200,
-      "cfoMM": 6800
+      "cfoMM": 6800,
+      "propertyBookMM": 12800,
+      "ppeBookMM": 12800,
+      "inventoryMM": 9100,
+      "intangibleAssetsMM": 4180,
+      "protein": {
+        "plants": 46,
+        "weeklyHeadCapacity": 700000,
+        "capacityUtilizationPct": 82
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -161,7 +189,16 @@
       "netIncomeMM": 454,
       "sharesOutMM": 851,
       "netDebtMM": 41800,
-      "notes": "4T23: Revenue R$35.0bn, EBITDA R$3.16bn (margin 9.0%) — BRF turning."
+      "notes": "4T23: Revenue R$35.0bn, EBITDA R$3.16bn (margin 9.0%) \u2014 BRF turning.",
+      "propertyBookMM": 13500,
+      "ppeBookMM": 13500,
+      "inventoryMM": 8420,
+      "intangibleAssetsMM": 4250,
+      "protein": {
+        "plants": 47,
+        "weeklyHeadCapacity": 720000,
+        "capacityUtilizationPct": 76
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -185,10 +222,19 @@
       "cashMM": 14000,
       "netDebtMM": 41800,
       "sharesOutMM": 851,
-      "notes": "FY23: Revenue R$134.6bn (flat). EBITDA R$9.3bn (margin 6.9%) — NA beef trough. Net loss R$3.2bn.",
+      "notes": "FY23: Revenue R$134.6bn (flat). EBITDA R$9.3bn (margin 6.9%) \u2014 NA beef trough. Net loss R$3.2bn.",
       "capexMM": 4200,
       "daMM": 5100,
-      "cfoMM": 4500
+      "cfoMM": 4500,
+      "propertyBookMM": 13500,
+      "ppeBookMM": 13500,
+      "inventoryMM": 8420,
+      "intangibleAssetsMM": 4250,
+      "protein": {
+        "plants": 47,
+        "weeklyHeadCapacity": 720000,
+        "capacityUtilizationPct": 76
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -218,7 +264,7 @@
       "netIncomeMM": 658,
       "sharesOutMM": 851,
       "netDebtMM": 32100,
-      "notes": "3T24: Revenue R$40.9bn, EBITDA R$4.15bn (margin 10.1%). Aug-2024: closed sale of 16 plants to Minerva for R$7.5bn — major deleveraging."
+      "notes": "3T24: Revenue R$40.9bn, EBITDA R$4.15bn (margin 10.1%). Aug-2024: closed sale of 16 plants to Minerva for R$7.5bn \u2014 major deleveraging."
     },
     {
       "endDate": "2024-12-31",
@@ -228,7 +274,16 @@
       "netIncomeMM": -6,
       "sharesOutMM": 851,
       "netDebtMM": 33600,
-      "notes": "4T24: Revenue R$40.7bn, EBITDA R$3.31bn (margin 8.1%)."
+      "notes": "4T24: Revenue R$40.7bn, EBITDA R$3.31bn (margin 8.1%).",
+      "propertyBookMM": 14200,
+      "ppeBookMM": 14200,
+      "inventoryMM": 8950,
+      "intangibleAssetsMM": 4380,
+      "protein": {
+        "plants": 47,
+        "weeklyHeadCapacity": 720000,
+        "capacityUtilizationPct": 80
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -252,7 +307,7 @@
       "cashMM": 14200,
       "netDebtMM": 33600,
       "sharesOutMM": 851,
-      "notes": "FY24: Revenue R$152.3bn (+13%), EBITDA R$13.7bn (margin 9.0%). Aug 2024 sale of 16 plants to Minerva for R$7.5bn deleveraged BS — net debt R$33.6bn (-20%). Net income recovered to R$720M.",
+      "notes": "FY24: Revenue R$152.3bn (+13%), EBITDA R$13.7bn (margin 9.0%). Aug 2024 sale of 16 plants to Minerva for R$7.5bn deleveraged BS \u2014 net debt R$33.6bn (-20%). Net income recovered to R$720M.",
       "capexMM": 3800,
       "daMM": 5400,
       "cfoMM": 9200,
@@ -263,6 +318,15 @@
         "1-3y": 11950.0,
         "3-5y": 7170.0,
         "5+y": 9560.0
+      },
+      "propertyBookMM": 14200,
+      "ppeBookMM": 14200,
+      "inventoryMM": 8950,
+      "intangibleAssetsMM": 4380,
+      "protein": {
+        "plants": 47,
+        "weeklyHeadCapacity": 720000,
+        "capacityUtilizationPct": 80
       }
     },
     {

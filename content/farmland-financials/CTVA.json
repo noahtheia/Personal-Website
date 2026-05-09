@@ -52,7 +52,11 @@
         "Seed": 7756,
         "Crop Protection": 6461
       },
-      "totalEquityMM": 23456
+      "totalEquityMM": 23456,
+      "cropInputs": {
+        "capacityUtilizationPct": 80.0,
+        "rdSpendPctOfRevenue": 8.2
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -78,7 +82,11 @@
         "Seed": 8402,
         "Crop Protection": 7253
       },
-      "totalEquityMM": 22571
+      "totalEquityMM": 22571,
+      "cropInputs": {
+        "capacityUtilizationPct": 83.5,
+        "rdSpendPctOfRevenue": 7.8
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -151,7 +159,15 @@
         "Seed": 8979,
         "Crop Protection": 8476
       },
-      "totalEquityMM": 22300
+      "totalEquityMM": 22300,
+      "propertyBookMM": 1240,
+      "ppeBookMM": 4720,
+      "inventoryMM": 7820,
+      "intangibleAssetsMM": 19180,
+      "cropInputs": {
+        "capacityUtilizationPct": 86.0,
+        "rdSpendPctOfRevenue": 7.5
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -230,7 +246,15 @@
         "Seed": 9472,
         "Crop Protection": 7754
       },
-      "totalEquityMM": 21950
+      "totalEquityMM": 21950,
+      "propertyBookMM": 1260,
+      "ppeBookMM": 4780,
+      "inventoryMM": 8480,
+      "intangibleAssetsMM": 18920,
+      "cropInputs": {
+        "capacityUtilizationPct": 84.5,
+        "rdSpendPctOfRevenue": 7.9
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -321,7 +345,15 @@
         "Seed": 9545,
         "Crop Protection": 7363
       },
-      "totalEquityMM": 21450
+      "totalEquityMM": 21450,
+      "propertyBookMM": 1280,
+      "ppeBookMM": 4850,
+      "inventoryMM": 7920,
+      "intangibleAssetsMM": 18650,
+      "cropInputs": {
+        "capacityUtilizationPct": 82.0,
+        "rdSpendPctOfRevenue": 8.1
+      }
     },
     {
       "endDate": "2025-03-31",

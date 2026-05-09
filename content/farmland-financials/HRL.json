@@ -31,7 +31,17 @@
         "Jennie-O Turkey Store": 1333.5,
         "International & Other": 618.7
       },
-      "totalEquityMM": 4374
+      "totalEquityMM": 4374,
+      "protein": {
+        "plants": 48,
+        "weeklyHeadCapacity": 4100000,
+        "capacityUtilizationPct": 82,
+        "brandedCpg": {
+          "brandedRevenuePct": 73,
+          "acvDistributionPct": 95,
+          "foodserviceMixPct": 30
+        }
+      }
     },
     {
       "endDate": "2021-10-31",
@@ -60,7 +70,17 @@
         "Jennie-O Turkey Store": 1495.2,
         "International & Other": 748.2
       },
-      "totalEquityMM": 4647
+      "totalEquityMM": 4647,
+      "protein": {
+        "plants": 50,
+        "weeklyHeadCapacity": 4150000,
+        "capacityUtilizationPct": 86,
+        "brandedCpg": {
+          "brandedRevenuePct": 75,
+          "acvDistributionPct": 96,
+          "foodserviceMixPct": 35
+        }
+      }
     },
     {
       "endDate": "2022-01-30",
@@ -142,7 +162,21 @@
         "Foodservice": 3691,
         "International": 780
       },
-      "totalEquityMM": 4946
+      "totalEquityMM": 4946,
+      "propertyBookMM": 2275,
+      "ppeBookMM": 2275,
+      "inventoryMM": 1907,
+      "intangibleAssetsMM": 6691,
+      "protein": {
+        "plants": 51,
+        "weeklyHeadCapacity": 4200000,
+        "capacityUtilizationPct": 87,
+        "brandedCpg": {
+          "brandedRevenuePct": 77,
+          "acvDistributionPct": 96,
+          "foodserviceMixPct": 36
+        }
+      }
     },
     {
       "endDate": "2023-01-29",
@@ -224,7 +258,21 @@
         "Foodservice": 3639,
         "International": 721
       },
-      "totalEquityMM": 5252
+      "totalEquityMM": 5252,
+      "propertyBookMM": 2371,
+      "ppeBookMM": 2371,
+      "inventoryMM": 1649,
+      "intangibleAssetsMM": 6706,
+      "protein": {
+        "plants": 51,
+        "weeklyHeadCapacity": 4200000,
+        "capacityUtilizationPct": 84,
+        "brandedCpg": {
+          "brandedRevenuePct": 77,
+          "acvDistributionPct": 97,
+          "foodserviceMixPct": 35
+        }
+      }
     },
     {
       "endDate": "2024-01-28",
@@ -329,7 +377,21 @@
         "3-5y": 657.2,
         "5+y": 821.5
       },
-      "totalEquityMM": 5475
+      "totalEquityMM": 5475,
+      "propertyBookMM": 2378,
+      "ppeBookMM": 2378,
+      "inventoryMM": 1645,
+      "intangibleAssetsMM": 6736,
+      "protein": {
+        "plants": 51,
+        "weeklyHeadCapacity": 4200000,
+        "capacityUtilizationPct": 86,
+        "brandedCpg": {
+          "brandedRevenuePct": 78,
+          "acvDistributionPct": 97,
+          "foodserviceMixPct": 35
+        }
+      }
     },
     {
       "endDate": "2025-01-26",

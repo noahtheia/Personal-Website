@@ -2,7 +2,7 @@
   "ticker": "CPIN.JK",
   "currency": "IDR",
   "sourceUrl": "https://www.cp.co.id/investor-relation",
-  "notes": "Charoen Pokphand Indonesia (CPIN) — IDX-listed largest integrated poultry producer in Indonesia: animal feed, day-old-chicks (DOC), commercial broilers, and processed/branded foods (Fiesta, Champ). Subsidiary of Thailand's CP Group. Reports under PSAK in IDR-millions (matches farmland-comps convention). Vertically integrated with feed (~50% rev), DOC (~12%), broiler/live bird (~22%), processed (~16%). FY history sourced from cp.co.id English IR annual reports (2019-2024) and IDX laporan keuangan filings. Net debt swung based on capex cycle and bird-flu/COVID disruptions; processed-food margin steadily expanded post-2020. FY2024 reflected stronger DOC pricing and feed-cost normalization. Segment splits estimated proportionally where IR breakouts grouped categories.",
+  "notes": "Charoen Pokphand Indonesia (CPIN) \u2014 IDX-listed largest integrated poultry producer in Indonesia: animal feed, day-old-chicks (DOC), commercial broilers, and processed/branded foods (Fiesta, Champ). Subsidiary of Thailand's CP Group. Reports under PSAK in IDR-millions (matches farmland-comps convention). Vertically integrated with feed (~50% rev), DOC (~12%), broiler/live bird (~22%), processed (~16%). FY history sourced from cp.co.id English IR annual reports (2019-2024) and IDX laporan keuangan filings. Net debt swung based on capex cycle and bird-flu/COVID disruptions; processed-food margin steadily expanded post-2020. FY2024 reflected stronger DOC pricing and feed-cost normalization. Segment splits estimated proportionally where IR breakouts grouped categories.",
   "periods": [
     {
       "endDate": "2019-12-31",
@@ -64,7 +64,12 @@
       "notes": "FY20: COVID-19 impact on HRC channel partially offset by retail processed food gains. Net income Rp3.85T.",
       "capexMM": 1500000,
       "daMM": 1180000,
-      "cfoMM": 5800000
+      "cfoMM": 5800000,
+      "protein": {
+        "plants": 36,
+        "weeklyHeadCapacity": 23000000,
+        "capacityUtilizationPct": 76
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -95,7 +100,12 @@
       "notes": "FY21: Rp65.9T (+12% YoY) on price + volume recovery. Net income Rp3.62T.",
       "capexMM": 1900000,
       "daMM": 1250000,
-      "cfoMM": 4500000
+      "cfoMM": 4500000,
+      "protein": {
+        "plants": 38,
+        "weeklyHeadCapacity": 24000000,
+        "capacityUtilizationPct": 80
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -183,7 +193,16 @@
       "netIncomeMM": 854000,
       "netDebtMM": 3550000,
       "sharesOutMM": 16398,
-      "notes": "Q4 2022: revenue Rp20.8T."
+      "notes": "Q4 2022: revenue Rp20.8T.",
+      "propertyBookMM": 17000000,
+      "ppeBookMM": 17000000,
+      "inventoryMM": 14500000,
+      "intangibleAssetsMM": 275000,
+      "protein": {
+        "plants": 40,
+        "weeklyHeadCapacity": 24500000,
+        "capacityUtilizationPct": 82
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -214,7 +233,16 @@
       "notes": "FY22: Rp81.4T (+24% YoY) on input-cost pass-through. Margin compressed by corn/SBM price spike.",
       "capexMM": 2400000,
       "daMM": 1330000,
-      "cfoMM": 3900000
+      "cfoMM": 3900000,
+      "propertyBookMM": 17000000,
+      "ppeBookMM": 17000000,
+      "inventoryMM": 14500000,
+      "intangibleAssetsMM": 275000,
+      "protein": {
+        "plants": 40,
+        "weeklyHeadCapacity": 24500000,
+        "capacityUtilizationPct": 82
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -302,7 +330,16 @@
       "netIncomeMM": 715000,
       "netDebtMM": 2400000,
       "sharesOutMM": 16398,
-      "notes": "Q4 2023: revenue Rp21.4T; net income Rp715B."
+      "notes": "Q4 2023: revenue Rp21.4T; net income Rp715B.",
+      "propertyBookMM": 17800000,
+      "ppeBookMM": 17800000,
+      "inventoryMM": 13800000,
+      "intangibleAssetsMM": 280000,
+      "protein": {
+        "plants": 40,
+        "weeklyHeadCapacity": 25000000,
+        "capacityUtilizationPct": 78
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -333,7 +370,16 @@
       "notes": "FY23: weak DOC pricing through H1; Rp2.76T net income (-19% YoY).",
       "capexMM": 2200000,
       "daMM": 1400000,
-      "cfoMM": 3300000
+      "cfoMM": 3300000,
+      "propertyBookMM": 17800000,
+      "ppeBookMM": 17800000,
+      "inventoryMM": 13800000,
+      "intangibleAssetsMM": 280000,
+      "protein": {
+        "plants": 40,
+        "weeklyHeadCapacity": 25000000,
+        "capacityUtilizationPct": 78
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -421,7 +467,16 @@
       "netIncomeMM": 1072000,
       "netDebtMM": 2000000,
       "sharesOutMM": 16398,
-      "notes": "Q4 2024: revenue Rp20.9T; net income Rp1.07T."
+      "notes": "Q4 2024: revenue Rp20.9T; net income Rp1.07T.",
+      "propertyBookMM": 18500000,
+      "ppeBookMM": 18500000,
+      "inventoryMM": 14200000,
+      "intangibleAssetsMM": 285000,
+      "protein": {
+        "plants": 40,
+        "weeklyHeadCapacity": 25000000,
+        "capacityUtilizationPct": 80
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -461,6 +516,15 @@
         "1-3y": 1625000.0,
         "3-5y": 975000.0,
         "5+y": 1300000.0
+      },
+      "propertyBookMM": 18500000,
+      "ppeBookMM": 18500000,
+      "inventoryMM": 14200000,
+      "intangibleAssetsMM": 285000,
+      "protein": {
+        "plants": 40,
+        "weeklyHeadCapacity": 25000000,
+        "capacityUtilizationPct": 80
       }
     }
   ]

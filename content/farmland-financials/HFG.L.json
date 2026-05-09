@@ -2,7 +2,7 @@
   "ticker": "HFG.L",
   "currency": "GBP",
   "sourceUrl": "https://www.hiltonfoodgroupplc.com/investors/",
-  "notes": "Hilton Food Group plc (LSE: HFG) — UK protein processor. Specialist meat / seafood / vegetarian packing for retailers (Tesco UK, Ahold Netherlands, ICA Sweden, Coles Australia, Woolworths Australia). 53-week fiscal years ending late Dec/early Jan. Reports in GBP. Acquired Foods Connected (2018), Fairfax Meadow (2021), and ramped seafood (Dalco, Seachill). Volume-driven, low-margin (~3-4% EBITDA). Reports volumes in tonnes ('000).",
+  "notes": "Hilton Food Group plc (LSE: HFG) \u2014 UK protein processor. Specialist meat / seafood / vegetarian packing for retailers (Tesco UK, Ahold Netherlands, ICA Sweden, Coles Australia, Woolworths Australia). 53-week fiscal years ending late Dec/early Jan. Reports in GBP. Acquired Foods Connected (2018), Fairfax Meadow (2021), and ramped seafood (Dalco, Seachill). Volume-driven, low-margin (~3-4% EBITDA). Reports volumes in tonnes ('000).",
   "periods": [
     {
       "endDate": "2021-01-03",
@@ -66,7 +66,15 @@
       "notes": "FY21 (52w to Jan 2 2022): revenue GBP 3.20B (+14%). EBITDA GBP 109M. Acquired Fairfax Meadow + Foppen (Dutch seafood). Net income GBP 38M.",
       "capexMM": 75,
       "daMM": 65,
-      "cfoMM": 90
+      "cfoMM": 90,
+      "protein": {
+        "plants": 22,
+        "capacityUtilizationPct": 84,
+        "brandedCpg": {
+          "brandedRevenuePct": 12,
+          "foodserviceMixPct": 6
+        }
+      }
     },
     {
       "endDate": "2023-01-01",
@@ -101,7 +109,19 @@
       "notes": "FY22 (52w to Jan 1 2023): revenue GBP 3.85B (+20%). EBITDA GBP 88M (-19%). Severe seafood inflation, UK margin squeeze. Profit warning. Net income GBP 6M.",
       "capexMM": 70,
       "daMM": 78,
-      "cfoMM": 90
+      "cfoMM": 90,
+      "propertyBookMM": 358,
+      "ppeBookMM": 358,
+      "inventoryMM": 205,
+      "intangibleAssetsMM": 162,
+      "protein": {
+        "plants": 23,
+        "capacityUtilizationPct": 80,
+        "brandedCpg": {
+          "brandedRevenuePct": 13,
+          "foodserviceMixPct": 7
+        }
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -136,7 +156,19 @@
       "notes": "FY23 (52w to Dec 31 2023): revenue GBP 3.99B (+4%). EBITDA recovered to GBP 138M. Repriced contracts. Net income GBP 25M. Operations stabilized.",
       "capexMM": 60,
       "daMM": 80,
-      "cfoMM": 175
+      "cfoMM": 175,
+      "propertyBookMM": 372,
+      "ppeBookMM": 372,
+      "inventoryMM": 188,
+      "intangibleAssetsMM": 165,
+      "protein": {
+        "plants": 24,
+        "capacityUtilizationPct": 78,
+        "brandedCpg": {
+          "brandedRevenuePct": 14,
+          "foodserviceMixPct": 7
+        }
+      }
     },
     {
       "endDate": "2024-12-29",
@@ -179,6 +211,18 @@
         "1-3y": 130,
         "3-5y": 100,
         "5+y": 60
+      },
+      "propertyBookMM": 385,
+      "ppeBookMM": 385,
+      "inventoryMM": 195,
+      "intangibleAssetsMM": 168,
+      "protein": {
+        "plants": 24,
+        "capacityUtilizationPct": 82,
+        "brandedCpg": {
+          "brandedRevenuePct": 15,
+          "foodserviceMixPct": 8
+        }
       }
     },
     {
@@ -189,7 +233,7 @@
       "netIncomeMM": 22,
       "sharesOutMM": 89.4,
       "netDebtMM": 250,
-      "notes": "H1 FY21 (Jan-Jul 2021): revenue £1.54B."
+      "notes": "H1 FY21 (Jan-Jul 2021): revenue \u00a31.54B."
     },
     {
       "endDate": "2022-07-03",
@@ -199,7 +243,7 @@
       "netIncomeMM": 5,
       "sharesOutMM": 89.4,
       "netDebtMM": 360,
-      "notes": "H1 FY22: revenue £1.84B. Inflation hit margins, profit warning."
+      "notes": "H1 FY22: revenue \u00a31.84B. Inflation hit margins, profit warning."
     },
     {
       "endDate": "2023-07-02",
@@ -209,7 +253,7 @@
       "netIncomeMM": 12,
       "sharesOutMM": 89.5,
       "netDebtMM": 380,
-      "notes": "H1 FY23 (calendar realigned): revenue £1.95B, EBITDA £64M."
+      "notes": "H1 FY23 (calendar realigned): revenue \u00a31.95B, EBITDA \u00a364M."
     },
     {
       "endDate": "2024-06-30",
@@ -219,7 +263,7 @@
       "netIncomeMM": 22,
       "sharesOutMM": 89.7,
       "netDebtMM": 320,
-      "notes": "H1 FY24: revenue £2.0B, EBITDA £76M."
+      "notes": "H1 FY24: revenue \u00a32.0B, EBITDA \u00a376M."
     },
     {
       "endDate": "2025-06-29",
@@ -229,7 +273,7 @@
       "netIncomeMM": 25,
       "sharesOutMM": 89.7,
       "netDebtMM": 290,
-      "notes": "H1 FY25: revenue £2.06B, EBITDA £82M."
+      "notes": "H1 FY25: revenue \u00a32.06B, EBITDA \u00a382M."
     }
   ]
 }

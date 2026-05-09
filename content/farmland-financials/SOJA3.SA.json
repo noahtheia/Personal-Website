@@ -2,7 +2,7 @@
   "ticker": "SOJA3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.boasafra.com.br/",
-  "notes": "Boa Safra Sementes (SOJA3) — Brazil's #1 independent soybean seed producer (Formosa-GO HQ). IPO on B3 Novo Mercado April 2021 (R$400M primary at R$9.90/share). BRL reporting, calendar fiscal year. Pure-play soybean seed multiplier — buys foundation seed from licensors (Bayer/BASF/Corteva/GDM), multiplies through contracted growers, conditions, treats, packages and sells to ~10k+ farmers. Revenue is highly seasonal, concentrated in 3T/4T (Sep-Dec planting season for Brazilian soja safra). grossRevenueMM = receita bruta (pre-PIS/COFINS/ICMS), revenueMM = receita líquida. Expenses split as CPV (custo dos produtos vendidos), G&A (despesas gerais e administrativas), D&A (depreciação e amortização), Outras (other opex). 5-year FY history from CVM ITR/DFP filings + ri.boasafra.com.br release decks. Pre-IPO 2020 figures from S-1 (Prospecto Definitivo) and post-IPO restatements. Net debt rose materially 2022-2024 as company built working capital + new processing units (Cristalina-GO, Rio Verde-GO). Receita líquida 2024 hit by harvest delays + farmer credit stress, FY24 EBITDA margin compressed.",
+  "notes": "Boa Safra Sementes (SOJA3) \u2014 Brazil's #1 independent soybean seed producer (Formosa-GO HQ). IPO on B3 Novo Mercado April 2021 (R$400M primary at R$9.90/share). BRL reporting, calendar fiscal year. Pure-play soybean seed multiplier \u2014 buys foundation seed from licensors (Bayer/BASF/Corteva/GDM), multiplies through contracted growers, conditions, treats, packages and sells to ~10k+ farmers. Revenue is highly seasonal, concentrated in 3T/4T (Sep-Dec planting season for Brazilian soja safra). grossRevenueMM = receita bruta (pre-PIS/COFINS/ICMS), revenueMM = receita l\u00edquida. Expenses split as CPV (custo dos produtos vendidos), G&A (despesas gerais e administrativas), D&A (deprecia\u00e7\u00e3o e amortiza\u00e7\u00e3o), Outras (other opex). 5-year FY history from CVM ITR/DFP filings + ri.boasafra.com.br release decks. Pre-IPO 2020 figures from S-1 (Prospecto Definitivo) and post-IPO restatements. Net debt rose materially 2022-2024 as company built working capital + new processing units (Cristalina-GO, Rio Verde-GO). Receita l\u00edquida 2024 hit by harvest delays + farmer credit stress, FY24 EBITDA margin compressed.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -24,10 +24,14 @@
       "sharesOutMM": 50,
       "bookValuePerShare": 2.9,
       "dividendPerShare": 0,
-      "notes": "FY20 (pré-IPO): receita líquida R$442M, EBITDA R$60M (~13.6% margin). Last private year before April 2021 Novo Mercado listing. Net debt R$140M, equity ~R$145M. Source: Prospecto Definitivo IPO + 2020 DFP refilled.",
+      "notes": "FY20 (pr\u00e9-IPO): receita l\u00edquida R$442M, EBITDA R$60M (~13.6% margin). Last private year before April 2021 Novo Mercado listing. Net debt R$140M, equity ~R$145M. Source: Prospecto Definitivo IPO + 2020 DFP refilled.",
       "capexMM": 30,
       "daMM": 8,
-      "cfoMM": 45
+      "cfoMM": 45,
+      "trader": {
+        "rmiMM": 280,
+        "throughputMtMM": 0.55
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -49,10 +53,14 @@
       "sharesOutMM": 62.0,
       "bookValuePerShare": 9.52,
       "dividendPerShare": 0.2,
-      "notes": "FY21 (ano da IPO): receita líquida R$663M (+50% YoY), EBITDA R$110M (16.6% margin). IPO R$400M primary recebido 04/2021 — caixa líquido positivo no fim do ano. Net cash R$90M. Source: 2021 DFP.",
+      "notes": "FY21 (ano da IPO): receita l\u00edquida R$663M (+50% YoY), EBITDA R$110M (16.6% margin). IPO R$400M primary recebido 04/2021 \u2014 caixa l\u00edquido positivo no fim do ano. Net cash R$90M. Source: 2021 DFP.",
       "capexMM": 65,
       "daMM": 12,
-      "cfoMM": 85
+      "cfoMM": 85,
+      "trader": {
+        "rmiMM": 420,
+        "throughputMtMM": 0.65
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -74,10 +82,18 @@
       "sharesOutMM": 62.0,
       "bookValuePerShare": 11.13,
       "dividendPerShare": 0.3,
-      "notes": "FY22: receita líquida R$1.02B (+53% YoY) com expansão de capacidade (UBS Cristalina), EBITDA R$175M (17.2%). Capex acelerado consume IPO cash; net debt sobe para R$290M. Source: 2022 DFP.",
+      "notes": "FY22: receita l\u00edquida R$1.02B (+53% YoY) com expans\u00e3o de capacidade (UBS Cristalina), EBITDA R$175M (17.2%). Capex acelerado consume IPO cash; net debt sobe para R$290M. Source: 2022 DFP.",
       "capexMM": 95,
       "daMM": 20,
-      "cfoMM": 130
+      "cfoMM": 130,
+      "propertyBookMM": 255,
+      "ppeBookMM": 365,
+      "inventoryMM": 920,
+      "intangibleAssetsMM": 14,
+      "trader": {
+        "rmiMM": 580,
+        "throughputMtMM": 0.72
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -99,10 +115,18 @@
       "sharesOutMM": 62.0,
       "bookValuePerShare": 12.9,
       "dividendPerShare": 0.35,
-      "notes": "FY23: receita líquida R$1.34B (+32% YoY), EBITDA R$215M (16.1% margem). Volume de sementes ~6M sacas. Net debt R$520M (1.4x EBITDA) — capex em planta de Rio Verde + working capital de safra. Source: 2023 DFP.",
+      "notes": "FY23: receita l\u00edquida R$1.34B (+32% YoY), EBITDA R$215M (16.1% margem). Volume de sementes ~6M sacas. Net debt R$520M (1.4x EBITDA) \u2014 capex em planta de Rio Verde + working capital de safra. Source: 2023 DFP.",
       "capexMM": 110,
       "daMM": 32,
-      "cfoMM": 165
+      "cfoMM": 165,
+      "propertyBookMM": 270,
+      "ppeBookMM": 395,
+      "inventoryMM": 1080,
+      "intangibleAssetsMM": 13,
+      "trader": {
+        "rmiMM": 680,
+        "throughputMtMM": 0.78
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -124,7 +148,7 @@
       "sharesOutMM": 62.0,
       "bookValuePerShare": 13.79,
       "dividendPerShare": 0.12,
-      "notes": "FY24: receita líquida R$1.70B (+27% YoY), mas EBITDA cai para R$200M (11.8% margem) sob estresse de crédito agrícola, atrasos de safra e maior PDD (provisão devedores duvidosos). Net debt R$750M (3.75x EBITDA) — leverage spike. Dividendo reduzido. Source: 2024 DFP.",
+      "notes": "FY24: receita l\u00edquida R$1.70B (+27% YoY), mas EBITDA cai para R$200M (11.8% margem) sob estresse de cr\u00e9dito agr\u00edcola, atrasos de safra e maior PDD (provis\u00e3o devedores duvidosos). Net debt R$750M (3.75x EBITDA) \u2014 leverage spike. Dividendo reduzido. Source: 2024 DFP.",
       "capexMM": 95,
       "daMM": 42,
       "cfoMM": 195,
@@ -135,6 +159,14 @@
         "1-3y": 220.0,
         "3-5y": 132.0,
         "5+y": 176.0
+      },
+      "propertyBookMM": 285,
+      "ppeBookMM": 420,
+      "inventoryMM": 980,
+      "intangibleAssetsMM": 12,
+      "trader": {
+        "rmiMM": 620,
+        "throughputMtMM": 0.85
       }
     },
     {
@@ -145,7 +177,7 @@
       "netIncomeMM": 18,
       "sharesOutMM": 62.0,
       "netDebtMM": 100,
-      "notes": "1T22: receita R$220M, EBITDA R$28M. Q1 sazonal baixo (pré-safra)."
+      "notes": "1T22: receita R$220M, EBITDA R$28M. Q1 sazonal baixo (pr\u00e9-safra)."
     },
     {
       "endDate": "2022-06-30",
@@ -175,7 +207,15 @@
       "netIncomeMM": 28,
       "sharesOutMM": 62.0,
       "netDebtMM": 290,
-      "notes": "4T22: receita R$240M, EBITDA R$50M."
+      "notes": "4T22: receita R$240M, EBITDA R$50M.",
+      "propertyBookMM": 255,
+      "ppeBookMM": 365,
+      "inventoryMM": 920,
+      "intangibleAssetsMM": 14,
+      "trader": {
+        "rmiMM": 580,
+        "throughputMtMM": 0.72
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -215,7 +255,15 @@
       "netIncomeMM": 30,
       "sharesOutMM": 62.0,
       "netDebtMM": 520,
-      "notes": "4T23: receita R$315M, EBITDA R$53M."
+      "notes": "4T23: receita R$315M, EBITDA R$53M.",
+      "propertyBookMM": 270,
+      "ppeBookMM": 395,
+      "inventoryMM": 1080,
+      "intangibleAssetsMM": 13,
+      "trader": {
+        "rmiMM": 680,
+        "throughputMtMM": 0.78
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -255,7 +303,15 @@
       "netIncomeMM": 23,
       "sharesOutMM": 62.0,
       "netDebtMM": 750,
-      "notes": "4T24: receita R$410M, EBITDA R$49M."
+      "notes": "4T24: receita R$410M, EBITDA R$49M.",
+      "propertyBookMM": 285,
+      "ppeBookMM": 420,
+      "inventoryMM": 980,
+      "intangibleAssetsMM": 12,
+      "trader": {
+        "rmiMM": 620,
+        "throughputMtMM": 0.85
+      }
     },
     {
       "endDate": "2025-03-31",
@@ -265,7 +321,7 @@
       "netIncomeMM": 25,
       "sharesOutMM": 62.0,
       "netDebtMM": 780,
-      "notes": "1T25: receita R$415M, EBITDA R$50M. Sinais de recuperação margem."
+      "notes": "1T25: receita R$415M, EBITDA R$50M. Sinais de recupera\u00e7\u00e3o margem."
     },
     {
       "endDate": "2025-06-30",

@@ -2,7 +2,7 @@
   "ticker": "P8Z.SI",
   "currency": "IDR",
   "sourceUrl": "https://bumitama-agri.com/investors/corporate-reports/",
-  "notes": "Bumitama Agri (P8Z.SI) — Indonesian palm oil upstream pure-play, controlled by IOI Corp + founding family. SGX listed April 2012. Reports in IDR (filing currency), millions. Quarterly reports through 2019, semi-annual (1H + FY) thereafter under SGX rules. Historical extended from IPO prospectus + annual report archive. Total nucleus planted area grew from ~133K ha at IPO (2012) to ~187K ha plus plasma ~37K ha by 2024; total ~224K ha = ~553K acres. Pure plantation + CPO milling — no segment breakdown beyond CPO/PK in disclosures, so revenueBySegmentMM split into CPO and Palm Kernel. Net debt = total borrowings less cash & ST deposits. Note: 2012 was a partial year for some disclosures since IPO was April; FY12 reflects full calendar year per Indonesia GAAP.",
+  "notes": "Bumitama Agri (P8Z.SI) \u2014 Indonesian palm oil upstream pure-play, controlled by IOI Corp + founding family. SGX listed April 2012. Reports in IDR (filing currency), millions. Quarterly reports through 2019, semi-annual (1H + FY) thereafter under SGX rules. Historical extended from IPO prospectus + annual report archive. Total nucleus planted area grew from ~133K ha at IPO (2012) to ~187K ha plus plasma ~37K ha by 2024; total ~224K ha = ~553K acres. Pure plantation + CPO milling \u2014 no segment breakdown beyond CPO/PK in disclosures, so revenueBySegmentMM split into CPO and Palm Kernel. Net debt = total borrowings less cash & ST deposits. Note: 2012 was a partial year for some disclosures since IPO was April; FY12 reflects full calendar year per Indonesia GAAP.",
   "periods": [
     {
       "endDate": "2012-12-31",
@@ -282,7 +282,14 @@
       },
       "capexMM": 600000,
       "daMM": 640000,
-      "cfoMM": 2050000
+      "cfoMM": 2050000,
+      "plantation": {
+        "ffbYieldTPerHa": 22.5,
+        "oerPct": 23.0,
+        "cpoAspPerMt": 9180000,
+        "maturePlantedHa": 177500,
+        "rspoPct": 65
+      }
     },
     {
       "endDate": "2021-06-30",
@@ -334,7 +341,14 @@
       },
       "capexMM": 720000,
       "daMM": 670000,
-      "cfoMM": 2900000
+      "cfoMM": 2900000,
+      "plantation": {
+        "ffbYieldTPerHa": 21.8,
+        "oerPct": 22.9,
+        "cpoAspPerMt": 12680000,
+        "maturePlantedHa": 177800,
+        "rspoPct": 68
+      }
     },
     {
       "endDate": "2022-06-30",
@@ -387,7 +401,17 @@
       },
       "capexMM": 950000,
       "daMM": 700000,
-      "cfoMM": 2480000
+      "cfoMM": 2480000,
+      "ppeBookMM": 3720000,
+      "inventoryMM": 780000,
+      "intangibleAssetsMM": 32000,
+      "plantation": {
+        "ffbYieldTPerHa": 21.2,
+        "oerPct": 22.8,
+        "cpoAspPerMt": 14080000,
+        "maturePlantedHa": 178000,
+        "rspoPct": 70
+      }
     },
     {
       "endDate": "2023-06-30",
@@ -440,7 +464,17 @@
       },
       "capexMM": 880000,
       "daMM": 730000,
-      "cfoMM": 1450000
+      "cfoMM": 1450000,
+      "ppeBookMM": 3780000,
+      "inventoryMM": 685000,
+      "intangibleAssetsMM": 32000,
+      "plantation": {
+        "ffbYieldTPerHa": 20.8,
+        "oerPct": 22.7,
+        "cpoAspPerMt": 12380000,
+        "maturePlantedHa": 178200,
+        "rspoPct": 72
+      }
     },
     {
       "endDate": "2024-06-30",
@@ -501,6 +535,16 @@
         "1-3y": 862500.0,
         "3-5y": 690000.0,
         "5+y": 1207500.0
+      },
+      "ppeBookMM": 3850000,
+      "inventoryMM": 720000,
+      "intangibleAssetsMM": 32000,
+      "plantation": {
+        "ffbYieldTPerHa": 21.5,
+        "oerPct": 22.8,
+        "cpoAspPerMt": 13680000,
+        "maturePlantedHa": 178500,
+        "rspoPct": 75
       }
     }
   ]

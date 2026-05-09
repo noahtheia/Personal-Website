@@ -26,7 +26,12 @@
       },
       "cfoMM": 75,
       "capexMM": 25,
-      "daMM": 32
+      "daMM": 32,
+      "cropInputs": {
+        "capacityUtilizationPct": 80.0,
+        "gasCostUSDPerMMBtu": 4.05,
+        "rdSpendPctOfRevenue": 0.08
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -50,7 +55,16 @@
       },
       "cfoMM": 145,
       "capexMM": 48,
-      "daMM": 35
+      "daMM": 35,
+      "propertyBookMM": 92,
+      "ppeBookMM": 310,
+      "inventoryMM": 72,
+      "intangibleAssetsMM": 5,
+      "cropInputs": {
+        "capacityUtilizationPct": 82.0,
+        "gasCostUSDPerMMBtu": 6.85,
+        "rdSpendPctOfRevenue": 0.06
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -74,7 +88,16 @@
       },
       "cfoMM": 60,
       "capexMM": 62,
-      "daMM": 38
+      "daMM": 38,
+      "propertyBookMM": 88,
+      "ppeBookMM": 295,
+      "inventoryMM": 58,
+      "intangibleAssetsMM": 5,
+      "cropInputs": {
+        "capacityUtilizationPct": 75.0,
+        "gasCostUSDPerMMBtu": 2.95,
+        "rdSpendPctOfRevenue": 0.08
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -103,7 +126,16 @@
       },
       "cfoMM": 45,
       "capexMM": 55,
-      "daMM": 40
+      "daMM": 40,
+      "propertyBookMM": 85,
+      "ppeBookMM": 285,
+      "inventoryMM": 52,
+      "intangibleAssetsMM": 5,
+      "cropInputs": {
+        "capacityUtilizationPct": 72.0,
+        "gasCostUSDPerMMBtu": 2.55,
+        "rdSpendPctOfRevenue": 0.1
+      }
     },
     {
       "endDate": "2025-03-31",

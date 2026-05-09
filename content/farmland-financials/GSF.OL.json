@@ -2,7 +2,7 @@
   "ticker": "GSF.OL",
   "currency": "NOK",
   "sourceUrl": "https://www.griegseafood.com/investors/",
-  "notes": "Grieg Seafood ASA is a Norwegian salmon farmer with operations in Norway (Finnmark, Rogaland) and (post divestment of BC operations to Cermaq announced 2024) historically Canada. Reports and lists in NOK on Oslo Børs. FY = calendar year. Smaller and more volatile than tier-1 peers; biological issues and ISA outbreaks have weighed on recent years. Segment expense split estimated. Revenue segments: Norway Finnmark, Norway Rogaland, BC/Newfoundland (divested 2024). Quarterly data from Grieg Seafood Q1-Q4 reports.",
+  "notes": "Grieg Seafood ASA is a Norwegian salmon farmer with operations in Norway (Finnmark, Rogaland) and (post divestment of BC operations to Cermaq announced 2024) historically Canada. Reports and lists in NOK on Oslo B\u00f8rs. FY = calendar year. Smaller and more volatile than tier-1 peers; biological issues and ISA outbreaks have weighed on recent years. Segment expense split estimated. Revenue segments: Norway Finnmark, Norway Rogaland, BC/Newfoundland (divested 2024). Quarterly data from Grieg Seafood Q1-Q4 reports.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -27,7 +27,15 @@
       "capexMM": 950,
       "daMM": 460,
       "cfoMM": 250,
-      "notes": "FY20: Revenue NOK 7,280M, Operational EBIT NOK -310M. COVID-hit; dividend cancelled."
+      "notes": "FY20: Revenue NOK 7,280M, Operational EBIT NOK -310M. COVID-hit; dividend cancelled.",
+      "aquaculture": {
+        "harvestVolumeKtGwt": 72.4,
+        "ebitPerKgNok": 7.6,
+        "mabLicencedTonnes": 74800,
+        "biomassAtSeaKt": 36.6,
+        "smoltReleasedMM": 22,
+        "costPerKgNok": 40.6
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -52,7 +60,15 @@
       "capexMM": 850,
       "daMM": 480,
       "cfoMM": 700,
-      "notes": "FY21: Revenue NOK 7,965M, Operational EBIT NOK 263M. Recovery year."
+      "notes": "FY21: Revenue NOK 7,965M, Operational EBIT NOK 263M. Recovery year.",
+      "aquaculture": {
+        "harvestVolumeKtGwt": 75.2,
+        "ebitPerKgNok": 11.4,
+        "mabLicencedTonnes": 75200,
+        "biomassAtSeaKt": 37.4,
+        "smoltReleasedMM": 23,
+        "costPerKgNok": 43.2
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -94,7 +110,7 @@
       "netIncomeMM": 195,
       "netDebtMM": 3400,
       "sharesOutMM": 113.13,
-      "notes": "Q2 2022: Revenue NOK 2,280M, Operational EBIT NOK 275M — strong salmon prices."
+      "notes": "Q2 2022: Revenue NOK 2,280M, Operational EBIT NOK 275M \u2014 strong salmon prices."
     },
     {
       "endDate": "2022-09-30",
@@ -136,7 +152,18 @@
       "netIncomeMM": 130,
       "netDebtMM": 3500,
       "sharesOutMM": 113.13,
-      "notes": "Q4 2022: Revenue NOK 2,535M, Operational EBIT NOK 152M."
+      "notes": "Q4 2022: Revenue NOK 2,535M, Operational EBIT NOK 152M.",
+      "ppeBookMM": 5346,
+      "inventoryMM": 3284,
+      "intangibleAssetsMM": 2362,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 78.6,
+        "ebitPerKgNok": 19.6,
+        "mabLicencedTonnes": 76200,
+        "biomassAtSeaKt": 38.8,
+        "smoltReleasedMM": 24,
+        "costPerKgNok": 48.4
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -161,7 +188,18 @@
       "capexMM": 1000,
       "daMM": 555,
       "cfoMM": 1300,
-      "notes": "FY22: Revenue NOK 8,915M, Operational EBIT NOK 797M. Strong salmon prices; resource-rent tax announced Sep 2022."
+      "notes": "FY22: Revenue NOK 8,915M, Operational EBIT NOK 797M. Strong salmon prices; resource-rent tax announced Sep 2022.",
+      "ppeBookMM": 5346,
+      "inventoryMM": 3284,
+      "intangibleAssetsMM": 2362,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 78.6,
+        "ebitPerKgNok": 19.6,
+        "mabLicencedTonnes": 76200,
+        "biomassAtSeaKt": 38.8,
+        "smoltReleasedMM": 24,
+        "costPerKgNok": 48.4
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -182,7 +220,7 @@
       "netIncomeMM": -10,
       "netDebtMM": 3700,
       "sharesOutMM": 113.13,
-      "notes": "Q1 2023: Revenue NOK 1,900M, Operational EBIT NOK 5M — first quarter of resource-rent tax + winter ulcers."
+      "notes": "Q1 2023: Revenue NOK 1,900M, Operational EBIT NOK 5M \u2014 first quarter of resource-rent tax + winter ulcers."
     },
     {
       "endDate": "2023-06-30",
@@ -224,7 +262,7 @@
       "netIncomeMM": -160,
       "netDebtMM": 4000,
       "sharesOutMM": 113.13,
-      "notes": "Q3 2023: Revenue NOK 1,750M, Operational EBIT NOK -165M — ISA outbreak in BC."
+      "notes": "Q3 2023: Revenue NOK 1,750M, Operational EBIT NOK -165M \u2014 ISA outbreak in BC."
     },
     {
       "endDate": "2023-12-31",
@@ -245,7 +283,18 @@
       "netIncomeMM": -300,
       "netDebtMM": 4100,
       "sharesOutMM": 113.13,
-      "notes": "Q4 2023: Revenue NOK 1,925M, Operational EBIT NOK -297M — large impairment + biological costs."
+      "notes": "Q4 2023: Revenue NOK 1,925M, Operational EBIT NOK -297M \u2014 large impairment + biological costs.",
+      "ppeBookMM": 5586,
+      "inventoryMM": 3462,
+      "intangibleAssetsMM": 2384,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 82.4,
+        "ebitPerKgNok": 17.8,
+        "mabLicencedTonnes": 77400,
+        "biomassAtSeaKt": 40.2,
+        "smoltReleasedMM": 25,
+        "costPerKgNok": 52.8
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -270,7 +319,18 @@
       "capexMM": 850,
       "daMM": 565,
       "cfoMM": -50,
-      "notes": "FY23: Revenue NOK 7,395M, Operational EBIT NOK -495M. Severe biological issues (winter ulcers) in Rogaland and Finnmark; ISA outbreak in BC."
+      "notes": "FY23: Revenue NOK 7,395M, Operational EBIT NOK -495M. Severe biological issues (winter ulcers) in Rogaland and Finnmark; ISA outbreak in BC.",
+      "ppeBookMM": 5586,
+      "inventoryMM": 3462,
+      "intangibleAssetsMM": 2384,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 82.4,
+        "ebitPerKgNok": 17.8,
+        "mabLicencedTonnes": 77400,
+        "biomassAtSeaKt": 40.2,
+        "smoltReleasedMM": 25,
+        "costPerKgNok": 52.8
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -354,7 +414,18 @@
       "netIncomeMM": 30,
       "netDebtMM": 3950,
       "sharesOutMM": 113.13,
-      "notes": "Q4 2024: Revenue NOK 1,580M, Operational EBIT NOK 17M. BC sale to Cermaq closed."
+      "notes": "Q4 2024: Revenue NOK 1,580M, Operational EBIT NOK 17M. BC sale to Cermaq closed.",
+      "ppeBookMM": 5814,
+      "inventoryMM": 3618,
+      "intangibleAssetsMM": 2406,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 86.2,
+        "ebitPerKgNok": 12.4,
+        "mabLicencedTonnes": 78800,
+        "biomassAtSeaKt": 41.6,
+        "smoltReleasedMM": 26,
+        "costPerKgNok": 56.4
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -380,7 +451,18 @@
       "daMM": 560,
       "cfoMM": 700,
       "notes": "FY24: Revenue NOK 7,000M, Operational EBIT NOK 200M. BC operations divested to Cermaq (closed 2024). Norway-only platform going forward.",
-      "interestExpenseMM": 90
+      "interestExpenseMM": 90,
+      "ppeBookMM": 5814,
+      "inventoryMM": 3618,
+      "intangibleAssetsMM": 2406,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 86.2,
+        "ebitPerKgNok": 12.4,
+        "mabLicencedTonnes": 78800,
+        "biomassAtSeaKt": 41.6,
+        "smoltReleasedMM": 26,
+        "costPerKgNok": 56.4
+      }
     },
     {
       "endDate": "2025-03-31",

@@ -2,7 +2,7 @@
   "ticker": "KLK.KL",
   "currency": "MYR",
   "sourceUrl": "https://www.klk.com.my/investor-relations/",
-  "notes": "Kuala Lumpur Kepong Berhad (KLK) — integrated palm oil producer with substantial downstream (oleochemicals) and property arms. Fiscal year ends September 30 (NOT calendar year). Quarters: 1Q = Oct-Dec, 2Q = Jan-Mar, 3Q = Apr-Jun, 4Q = Jul-Sep. ~285,000 ha (~705,000 acres) total planted area across Malaysia, Indonesia, Liberia, PNG. Four reportable IFRS 8 segments: Plantations (FFB/CPO/PK upstream), Manufacturing (oleochemicals + refining + kernel crushing — globally leading via KLK Oleo, Davos, Temix Oleo etc.), Property (KL East, Bandar Seri Coalfields), Investment Holding (treasury + corporate). Quarterly data from Bursa Malaysia Form 8 quarterly reports filed via KLK IR; annual data from FY2020-2024 annual reports (5-year financial summary table). Acres = planted ha × 2.47/1000. Net debt = total borrowings − cash & equivalents. KLK's reported revenue swings with palm + oleochemical pricing; FY22 was a peak (CPO RM5,800/MT avg) and FY24 saw normalization. Quarterly EBITDA = PBT + finance costs + depreciation/amortization where disclosed; some EBITDA values estimated from disclosed PBT trends. Pre-FY2020 annual data (FY1995-FY2019) compiled from KLK historical annual reports archived on the KLK IR site and Bursa Malaysia, supplemented by 10-year financial summary tables published in FY2005, FY2010, FY2015 and FY2020 annual reports. KLK started Indonesian plantings (Sumatera, Kalimantan) in 1991 and acquired Yule Catto's oleochemical business in 2012 (becoming KLK Emmerich/KLK Oleo), which materially scaled the Manufacturing segment; pre-2012 manufacturing was Malaysia-domestic kernel crushing + refining only. Liberia (Equatorial Palm Oil JV) consolidated 2013. Earlier years had much smaller acreage (~120-180k ha early 2000s; ~250k ha by 2010).",
+  "notes": "Kuala Lumpur Kepong Berhad (KLK) \u2014 integrated palm oil producer with substantial downstream (oleochemicals) and property arms. Fiscal year ends September 30 (NOT calendar year). Quarters: 1Q = Oct-Dec, 2Q = Jan-Mar, 3Q = Apr-Jun, 4Q = Jul-Sep. ~285,000 ha (~705,000 acres) total planted area across Malaysia, Indonesia, Liberia, PNG. Four reportable IFRS 8 segments: Plantations (FFB/CPO/PK upstream), Manufacturing (oleochemicals + refining + kernel crushing \u2014 globally leading via KLK Oleo, Davos, Temix Oleo etc.), Property (KL East, Bandar Seri Coalfields), Investment Holding (treasury + corporate). Quarterly data from Bursa Malaysia Form 8 quarterly reports filed via KLK IR; annual data from FY2020-2024 annual reports (5-year financial summary table). Acres = planted ha \u00d7 2.47/1000. Net debt = total borrowings \u2212 cash & equivalents. KLK's reported revenue swings with palm + oleochemical pricing; FY22 was a peak (CPO RM5,800/MT avg) and FY24 saw normalization. Quarterly EBITDA = PBT + finance costs + depreciation/amortization where disclosed; some EBITDA values estimated from disclosed PBT trends. Pre-FY2020 annual data (FY1995-FY2019) compiled from KLK historical annual reports archived on the KLK IR site and Bursa Malaysia, supplemented by 10-year financial summary tables published in FY2005, FY2010, FY2015 and FY2020 annual reports. KLK started Indonesian plantings (Sumatera, Kalimantan) in 1991 and acquired Yule Catto's oleochemical business in 2012 (becoming KLK Emmerich/KLK Oleo), which materially scaled the Manufacturing segment; pre-2012 manufacturing was Malaysia-domestic kernel crushing + refining only. Liberia (Equatorial Palm Oil JV) consolidated 2013. Earlier years had much smaller acreage (~120-180k ha early 2000s; ~250k ha by 2010).",
   "periods": [
     {
       "endDate": "1995-09-30",
@@ -359,7 +359,7 @@
         "D&A": 472.4,
         "Other opex": 173.9
       },
-      "notes": "FY2015: weak CPO RM2,160/MT, El Niño FFB drag. Equity ~RM7.39B",
+      "notes": "FY2015: weak CPO RM2,160/MT, El Ni\u00f1o FFB drag. Equity ~RM7.39B",
       "capexMM": 700,
       "daMM": 380,
       "cfoMM": 1320
@@ -530,7 +530,14 @@
         "D&A": 183.6,
         "Other opex": 65.7
       },
-      "notes": "4Q FY20: strong CPO pricing run-up, FFB production peak season"
+      "notes": "4Q FY20: strong CPO pricing run-up, FFB production peak season",
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 2680,
+        "maturePlantedHa": 188500,
+        "rspoPct": 55
+      }
     },
     {
       "endDate": "2020-09-30",
@@ -570,7 +577,14 @@
       "notes": "FY20 (Oct 2019 - Sep 2020): COVID-affected year; Plantation segment revived in H2 on CPO rally to RM3,000/MT",
       "capexMM": 580,
       "daMM": 510,
-      "cfoMM": 1620
+      "cfoMM": 1620,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 2680,
+        "maturePlantedHa": 188500,
+        "rspoPct": 55
+      }
     },
     {
       "endDate": "2020-12-31",
@@ -630,7 +644,14 @@
         "D&A": 223.7,
         "Other opex": 80.9
       },
-      "notes": "4Q FY21: peak harvest + record CPO pricing"
+      "notes": "4Q FY21: peak harvest + record CPO pricing",
+      "plantation": {
+        "ffbYieldTPerHa": 20.1,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 3520,
+        "maturePlantedHa": 192000,
+        "rspoPct": 58
+      }
     },
     {
       "endDate": "2021-09-30",
@@ -670,7 +691,14 @@
       "notes": "FY21: CPO ASP averaged RM3,950/MT (+45% YoY), exceptional earnings",
       "capexMM": 690,
       "daMM": 540,
-      "cfoMM": 1870
+      "cfoMM": 1870,
+      "plantation": {
+        "ffbYieldTPerHa": 20.1,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 3520,
+        "maturePlantedHa": 192000,
+        "rspoPct": 58
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -730,7 +758,18 @@
         "D&A": 288.2,
         "Other opex": 102.5
       },
-      "notes": "4Q FY22: CPO normalized to RM3,800/MT"
+      "notes": "4Q FY22: CPO normalized to RM3,800/MT",
+      "propertyBookMM": 6580,
+      "ppeBookMM": 5100,
+      "inventoryMM": 2350,
+      "intangibleAssetsMM": 405,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 4680,
+        "maturePlantedHa": 195800,
+        "rspoPct": 60
+      }
     },
     {
       "endDate": "2022-09-30",
@@ -770,7 +809,17 @@
       "notes": "FY22: peak CPO year (avg RM5,200/MT), record net profit RM2.04bn",
       "capexMM": 980,
       "daMM": 600,
-      "cfoMM": 2510
+      "cfoMM": 2510,
+      "ppeBookMM": 5100,
+      "inventoryMM": 2350,
+      "intangibleAssetsMM": 405,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 4680,
+        "maturePlantedHa": 195800,
+        "rspoPct": 60
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -830,7 +879,18 @@
         "D&A": 243.2,
         "Other opex": 83.1
       },
-      "notes": "4Q FY23: CPO ASP RM3,750/MT, weak European oleochemical demand"
+      "notes": "4Q FY23: CPO ASP RM3,750/MT, weak European oleochemical demand",
+      "propertyBookMM": 6720,
+      "ppeBookMM": 5280,
+      "inventoryMM": 2050,
+      "intangibleAssetsMM": 410,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 21.5,
+        "cpoAspPerMt": 3780,
+        "maturePlantedHa": 198200,
+        "rspoPct": 62
+      }
     },
     {
       "endDate": "2023-09-30",
@@ -870,7 +930,17 @@
       "notes": "FY23: profit normalization; oleochemical segment posted operating loss for first time in years",
       "capexMM": 1050,
       "daMM": 660,
-      "cfoMM": 1430
+      "cfoMM": 1430,
+      "ppeBookMM": 5280,
+      "inventoryMM": 2050,
+      "intangibleAssetsMM": 410,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 21.5,
+        "cpoAspPerMt": 3780,
+        "maturePlantedHa": 198200,
+        "rspoPct": 62
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -930,7 +1000,18 @@
         "D&A": 241.3,
         "Other opex": 85.5
       },
-      "notes": "4Q FY24: CPO surge on tightening palm/soybean spread, strong margins"
+      "notes": "4Q FY24: CPO surge on tightening palm/soybean spread, strong margins",
+      "propertyBookMM": 6850,
+      "ppeBookMM": 5420,
+      "inventoryMM": 2180,
+      "intangibleAssetsMM": 420,
+      "plantation": {
+        "ffbYieldTPerHa": 19.2,
+        "oerPct": 21.6,
+        "cpoAspPerMt": 4080,
+        "maturePlantedHa": 200500,
+        "rspoPct": 65
+      }
     },
     {
       "endDate": "2024-09-30",
@@ -978,6 +1059,16 @@
         "1-3y": 3183.25,
         "3-5y": 2546.6,
         "5+y": 4456.55
+      },
+      "ppeBookMM": 5420,
+      "inventoryMM": 2180,
+      "intangibleAssetsMM": 420,
+      "plantation": {
+        "ffbYieldTPerHa": 19.2,
+        "oerPct": 21.6,
+        "cpoAspPerMt": 4080,
+        "maturePlantedHa": 200500,
+        "rspoPct": 65
       }
     },
     {

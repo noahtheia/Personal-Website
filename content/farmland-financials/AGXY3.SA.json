@@ -2,7 +2,7 @@
   "ticker": "AGXY3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.agrogalaxy.com.br/",
-  "notes": "AgroGalaxy Participações (AGXY3) — Brazilian ag-input retail consolidator backed by Aqua Capital. IPO on B3 Novo Mercado September 2021 (R$350M primary at R$15/share). Roll-up of 7+ regional revendas (Agrosema, Sementes Boa Fé, Conexão Agro, Produagro, Agro100, Sementes Goiás, etc.) selling seeds, fertilizers, defensivos (chemicals) and specialty products to ~50k+ farmers across MT/MS/GO/MG/SP/PR/RS/MA/TO/BA. Revenue and margins highly correlated to commodity price cycles + farmer credit health. BRL reporting, calendar fiscal year. grossRevenueMM = receita bruta, revenueMM = receita líquida. CRITICAL CONTEXT: Company filed for recuperação judicial (judicial reorganization, equivalent of US Chapter 11) on 13-Sep-2024 amid farmer-credit collapse, soybean-price decline, and over-leveraged balance sheet. Stock fell ~95% from IPO. FY24 figures preliminary / heavily impaired. Expense split: CPV (cost of product sold), G&A (despesas administrativas), D&A (depreciação), Outras (provisões/PDD/impairment). Source: CVM ITR/DFP filings + ri.agrogalaxy.com.br release decks. Pre-IPO 2020 figures from S-1 (Prospecto).",
+  "notes": "AgroGalaxy Participa\u00e7\u00f5es (AGXY3) \u2014 Brazilian ag-input retail consolidator backed by Aqua Capital. IPO on B3 Novo Mercado September 2021 (R$350M primary at R$15/share). Roll-up of 7+ regional revendas (Agrosema, Sementes Boa F\u00e9, Conex\u00e3o Agro, Produagro, Agro100, Sementes Goi\u00e1s, etc.) selling seeds, fertilizers, defensivos (chemicals) and specialty products to ~50k+ farmers across MT/MS/GO/MG/SP/PR/RS/MA/TO/BA. Revenue and margins highly correlated to commodity price cycles + farmer credit health. BRL reporting, calendar fiscal year. grossRevenueMM = receita bruta, revenueMM = receita l\u00edquida. CRITICAL CONTEXT: Company filed for recupera\u00e7\u00e3o judicial (judicial reorganization, equivalent of US Chapter 11) on 13-Sep-2024 amid farmer-credit collapse, soybean-price decline, and over-leveraged balance sheet. Stock fell ~95% from IPO. FY24 figures preliminary / heavily impaired. Expense split: CPV (cost of product sold), G&A (despesas administrativas), D&A (deprecia\u00e7\u00e3o), Outras (provis\u00f5es/PDD/impairment). Source: CVM ITR/DFP filings + ri.agrogalaxy.com.br release decks. Pre-IPO 2020 figures from S-1 (Prospecto).",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -24,10 +24,14 @@
       "sharesOutMM": 100,
       "bookValuePerShare": 4.5,
       "dividendPerShare": 0,
-      "notes": "FY20 (pré-IPO): receita líquida R$3.05B reflecting roll-up of acquired revendas. EBITDA R$175M (5.7% margin — typical for ag-input distribution). Pre-listing private capital structure. Source: Prospecto IPO 09/2021.",
+      "notes": "FY20 (pr\u00e9-IPO): receita l\u00edquida R$3.05B reflecting roll-up of acquired revendas. EBITDA R$175M (5.7% margin \u2014 typical for ag-input distribution). Pre-listing private capital structure. Source: Prospecto IPO 09/2021.",
       "capexMM": 35,
       "daMM": 25,
-      "cfoMM": 80
+      "cfoMM": 80,
+      "trader": {
+        "rmiMM": 480,
+        "throughputMtMM": 0.95
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -49,10 +53,14 @@
       "sharesOutMM": 125.0,
       "bookValuePerShare": 8.8,
       "dividendPerShare": 0,
-      "notes": "FY21 (ano da IPO): receita líquida R$4.72B (+55% YoY), EBITDA R$305M (6.5% margem) com novas aquisições. IPO 09/2021 R$350M primário consolidou capital. Net debt R$870M. Source: 2021 DFP.",
+      "notes": "FY21 (ano da IPO): receita l\u00edquida R$4.72B (+55% YoY), EBITDA R$305M (6.5% margem) com novas aquisi\u00e7\u00f5es. IPO 09/2021 R$350M prim\u00e1rio consolidou capital. Net debt R$870M. Source: 2021 DFP.",
       "capexMM": 75,
       "daMM": 55,
-      "cfoMM": 120
+      "cfoMM": 120,
+      "trader": {
+        "rmiMM": 850,
+        "throughputMtMM": 1.4
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -74,10 +82,18 @@
       "sharesOutMM": 125.0,
       "bookValuePerShare": 10.24,
       "dividendPerShare": 0.1,
-      "notes": "FY22: receita líquida R$7.15B (+51% YoY) — pico de preços de fertilizantes/defensivos pós-Ucrânia. EBITDA R$470M (6.6%). Net debt sobe para R$1.64B com WC alongado. Source: 2022 DFP.",
+      "notes": "FY22: receita l\u00edquida R$7.15B (+51% YoY) \u2014 pico de pre\u00e7os de fertilizantes/defensivos p\u00f3s-Ucr\u00e2nia. EBITDA R$470M (6.6%). Net debt sobe para R$1.64B com WC alongado. Source: 2022 DFP.",
       "capexMM": 145,
       "daMM": 110,
-      "cfoMM": -250
+      "cfoMM": -250,
+      "propertyBookMM": 200,
+      "ppeBookMM": 350,
+      "inventoryMM": 2150,
+      "intangibleAssetsMM": 340,
+      "trader": {
+        "rmiMM": 1280,
+        "throughputMtMM": 1.8
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -99,10 +115,18 @@
       "sharesOutMM": 125.0,
       "bookValuePerShare": 8.64,
       "dividendPerShare": 0,
-      "notes": "FY23: receita líquida R$8.73B mas EBITDA despenca para R$320M (3.7% margem) e prejuízo de R$-180M. Início do ciclo de stress: queda nos preços de soja, default de produtores, PDD (R$420M outras desp). Net debt R$2.37B (7.4x EBITDA). Source: 2023 DFP.",
+      "notes": "FY23: receita l\u00edquida R$8.73B mas EBITDA despenca para R$320M (3.7% margem) e preju\u00edzo de R$-180M. In\u00edcio do ciclo de stress: queda nos pre\u00e7os de soja, default de produtores, PDD (R$420M outras desp). Net debt R$2.37B (7.4x EBITDA). Source: 2023 DFP.",
       "capexMM": 95,
       "daMM": 165,
-      "cfoMM": -380
+      "cfoMM": -380,
+      "propertyBookMM": 195,
+      "ppeBookMM": 340,
+      "inventoryMM": 1820,
+      "intangibleAssetsMM": 310,
+      "trader": {
+        "rmiMM": 1080,
+        "throughputMtMM": 1.5
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -124,7 +148,7 @@
       "sharesOutMM": 125.0,
       "bookValuePerShare": 0.64,
       "dividendPerShare": 0,
-      "notes": "FY24: receita líquida cai para R$4.5B (-48% YoY) após 13-Set-2024 pedido de recuperação judicial — perda de fornecedores, fechamento de filiais, restrições de crédito. EBITDA R$-350M, prejuízo R$-1.0B (impairments + reestruturação). Equity quase zerado. Stock -95% vs IPO. Source: 2024 ITR (DFP atrasada).",
+      "notes": "FY24: receita l\u00edquida cai para R$4.5B (-48% YoY) ap\u00f3s 13-Set-2024 pedido de recupera\u00e7\u00e3o judicial \u2014 perda de fornecedores, fechamento de filiais, restri\u00e7\u00f5es de cr\u00e9dito. EBITDA R$-350M, preju\u00edzo R$-1.0B (impairments + reestrutura\u00e7\u00e3o). Equity quase zerado. Stock -95% vs IPO. Source: 2024 ITR (DFP atrasada).",
       "capexMM": 35,
       "daMM": 175,
       "cfoMM": -420,
@@ -135,6 +159,14 @@
         "1-3y": 575.0,
         "3-5y": 345.0,
         "5+y": 460.0
+      },
+      "propertyBookMM": 180,
+      "ppeBookMM": 320,
+      "inventoryMM": 1450,
+      "intangibleAssetsMM": 280,
+      "trader": {
+        "rmiMM": 850,
+        "throughputMtMM": 1.2
       }
     },
     {
@@ -145,7 +177,7 @@
       "netIncomeMM": 22,
       "sharesOutMM": 125.0,
       "netDebtMM": 1300,
-      "notes": "1T22: receita R$1.45B, EBITDA R$70M. Início do ano forte com preços de fertilizantes elevados."
+      "notes": "1T22: receita R$1.45B, EBITDA R$70M. In\u00edcio do ano forte com pre\u00e7os de fertilizantes elevados."
     },
     {
       "endDate": "2022-06-30",
@@ -165,7 +197,7 @@
       "netIncomeMM": 65,
       "sharesOutMM": 125.0,
       "netDebtMM": 1620,
-      "notes": "3T22: receita R$2.15B, EBITDA R$150M. Pico sazonal pré-safra."
+      "notes": "3T22: receita R$2.15B, EBITDA R$150M. Pico sazonal pr\u00e9-safra."
     },
     {
       "endDate": "2022-12-31",
@@ -175,7 +207,15 @@
       "netIncomeMM": 50,
       "sharesOutMM": 125.0,
       "netDebtMM": 1640,
-      "notes": "4T22: receita R$1.80B, EBITDA R$145M."
+      "notes": "4T22: receita R$1.80B, EBITDA R$145M.",
+      "propertyBookMM": 200,
+      "ppeBookMM": 350,
+      "inventoryMM": 2150,
+      "intangibleAssetsMM": 340,
+      "trader": {
+        "rmiMM": 1280,
+        "throughputMtMM": 1.8
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -195,7 +235,7 @@
       "netIncomeMM": -25,
       "sharesOutMM": 125.0,
       "netDebtMM": 2150,
-      "notes": "2T23: receita R$2.20B, EBITDA R$100M. Início de PDD."
+      "notes": "2T23: receita R$2.20B, EBITDA R$100M. In\u00edcio de PDD."
     },
     {
       "endDate": "2023-09-30",
@@ -215,7 +255,15 @@
       "netIncomeMM": -92,
       "sharesOutMM": 125.0,
       "netDebtMM": 2370,
-      "notes": "4T23: receita R$1.98B, EBITDA R$45M. Estresse de crédito agudo."
+      "notes": "4T23: receita R$1.98B, EBITDA R$45M. Estresse de cr\u00e9dito agudo.",
+      "propertyBookMM": 195,
+      "ppeBookMM": 340,
+      "inventoryMM": 1820,
+      "intangibleAssetsMM": 310,
+      "trader": {
+        "rmiMM": 1080,
+        "throughputMtMM": 1.5
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -225,7 +273,7 @@
       "netIncomeMM": -180,
       "sharesOutMM": 125.0,
       "netDebtMM": 2400,
-      "notes": "1T24: receita R$1.45B (-22% YoY), EBITDA R$-50M. Forneceedores começam a cortar limites."
+      "notes": "1T24: receita R$1.45B (-22% YoY), EBITDA R$-50M. Forneceedores come\u00e7am a cortar limites."
     },
     {
       "endDate": "2024-06-30",
@@ -245,7 +293,7 @@
       "netIncomeMM": -350,
       "sharesOutMM": 125.0,
       "netDebtMM": 2300,
-      "notes": "3T24: receita R$1.10B. 13-Set-2024: pedido de recuperação judicial. Operations frozen."
+      "notes": "3T24: receita R$1.10B. 13-Set-2024: pedido de recupera\u00e7\u00e3o judicial. Operations frozen."
     },
     {
       "endDate": "2024-12-31",
@@ -255,7 +303,15 @@
       "netIncomeMM": -220,
       "sharesOutMM": 125.0,
       "netDebtMM": 2050,
-      "notes": "4T24: receita R$650M (colapso pós-RJ). Reestruturação em andamento."
+      "notes": "4T24: receita R$650M (colapso p\u00f3s-RJ). Reestrutura\u00e7\u00e3o em andamento.",
+      "propertyBookMM": 180,
+      "ppeBookMM": 320,
+      "inventoryMM": 1450,
+      "intangibleAssetsMM": 280,
+      "trader": {
+        "rmiMM": 850,
+        "throughputMtMM": 1.2
+      }
     },
     {
       "endDate": "2025-03-31",

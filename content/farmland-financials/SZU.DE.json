@@ -2,7 +2,7 @@
   "ticker": "SZU.DE",
   "currency": "EUR",
   "sourceUrl": "https://www.suedzucker.de/en/investor-relations",
-  "notes": "Südzucker AG (SZU.DE) — Europe's largest sugar producer, headquartered in Mannheim. Listed on Frankfurt (XETRA: SZU). Fiscal year ends Feb 28/29 (FY24 = year ended 29 Feb 2024). Five segments: Sugar, Special Products (BENEO ingredients, freiberger frozen, PortionPack), CropEnergies (bioethanol), Starch (AGRANA), Fruit (juice concentrate, fruit prep). EU sugar quota system ended Sep 2017 — material price volatility since. Annual reports: suedzucker.de/en/investor-relations/publications/.",
+  "notes": "S\u00fcdzucker AG (SZU.DE) \u2014 Europe's largest sugar producer, headquartered in Mannheim. Listed on Frankfurt (XETRA: SZU). Fiscal year ends Feb 28/29 (FY24 = year ended 29 Feb 2024). Five segments: Sugar, Special Products (BENEO ingredients, freiberger frozen, PortionPack), CropEnergies (bioethanol), Starch (AGRANA), Fruit (juice concentrate, fruit prep). EU sugar quota system ended Sep 2017 \u2014 material price volatility since. Annual reports: suedzucker.de/en/investor-relations/publications/.",
   "periods": [
     {
       "endDate": "2020-02-29",
@@ -28,7 +28,7 @@
       "netDebtMM": 1520,
       "sharesOutMM": 204.18,
       "epsBasic": 0.13,
-      "notes": "FY19/20 revenue €6.67B, EBITDA €416M. Sugar segment recovery from 2018 lows.",
+      "notes": "FY19/20 revenue \u20ac6.67B, EBITDA \u20ac416M. Sugar segment recovery from 2018 lows.",
       "capexMM": 270,
       "daMM": 290,
       "cfoMM": 450
@@ -57,10 +57,14 @@
       "netDebtMM": 1440,
       "sharesOutMM": 204.18,
       "epsBasic": 0.61,
-      "notes": "FY20/21 EBITDA €472M, net income €124M.",
+      "notes": "FY20/21 EBITDA \u20ac472M, net income \u20ac124M.",
       "capexMM": 250,
       "daMM": 280,
-      "cfoMM": 480
+      "cfoMM": 480,
+      "trader": {
+        "rmiMM": 1100,
+        "throughputMtMM": 7.5
+      }
     },
     {
       "endDate": "2022-02-28",
@@ -86,10 +90,14 @@
       "netDebtMM": 1500,
       "sharesOutMM": 204.18,
       "epsBasic": 1.04,
-      "notes": "FY21/22 revenue €7.6B (+14%), strong CropEnergies bioethanol pricing.",
+      "notes": "FY21/22 revenue \u20ac7.6B (+14%), strong CropEnergies bioethanol pricing.",
       "capexMM": 280,
       "daMM": 290,
-      "cfoMM": 410
+      "cfoMM": 410,
+      "trader": {
+        "rmiMM": 1320,
+        "throughputMtMM": 7.8
+      }
     },
     {
       "endDate": "2023-02-28",
@@ -115,10 +123,18 @@
       "netDebtMM": 1660,
       "sharesOutMM": 204.18,
       "epsBasic": 1.6,
-      "notes": "FY22/23 record revenue €9.5B, EBITDA €942M on European sugar tightness post-Ukraine war.",
+      "notes": "FY22/23 record revenue \u20ac9.5B, EBITDA \u20ac942M on European sugar tightness post-Ukraine war.",
       "capexMM": 350,
       "daMM": 310,
-      "cfoMM": 720
+      "cfoMM": 720,
+      "propertyBookMM": 695,
+      "ppeBookMM": 2360,
+      "inventoryMM": 2520,
+      "intangibleAssetsMM": 1040,
+      "trader": {
+        "rmiMM": 1580,
+        "throughputMtMM": 8.0
+      }
     },
     {
       "endDate": "2024-02-29",
@@ -145,10 +161,18 @@
       "sharesOutMM": 204.18,
       "epsBasic": 2.03,
       "dividendPerShare": 0.9,
-      "notes": "FY23/24 revenue €10.3B (+8%), EBITDA €1.14B record.",
+      "notes": "FY23/24 revenue \u20ac10.3B (+8%), EBITDA \u20ac1.14B record.",
       "capexMM": 420,
       "daMM": 340,
-      "cfoMM": 980
+      "cfoMM": 980,
+      "propertyBookMM": 710,
+      "ppeBookMM": 2420,
+      "inventoryMM": 2380,
+      "intangibleAssetsMM": 1010,
+      "trader": {
+        "rmiMM": 1450,
+        "throughputMtMM": 8.3
+      }
     },
     {
       "endDate": "2025-02-28",
@@ -175,7 +199,7 @@
       "sharesOutMM": 204.18,
       "epsBasic": -0.13,
       "dividendPerShare": 0.4,
-      "notes": "FY24/25 sugar prices collapsed back; EBITDA halved to €626M. Small net loss.",
+      "notes": "FY24/25 sugar prices collapsed back; EBITDA halved to \u20ac626M. Small net loss.",
       "capexMM": 450,
       "daMM": 370,
       "cfoMM": 540,
@@ -186,6 +210,14 @@
         "1-3y": 654.0,
         "3-5y": 436.0,
         "5+y": 545.0
+      },
+      "propertyBookMM": 720,
+      "ppeBookMM": 2480,
+      "inventoryMM": 2150,
+      "intangibleAssetsMM": 980,
+      "trader": {
+        "rmiMM": 1280,
+        "throughputMtMM": 8.5
       }
     },
     {
@@ -196,7 +228,7 @@
       "netIncomeMM": 30,
       "sharesOutMM": 204.18,
       "netDebtMM": 1480,
-      "notes": "H1 FY20/21 (Mar-Aug 2020): revenue €3.32B, EBITDA €215M."
+      "notes": "H1 FY20/21 (Mar-Aug 2020): revenue \u20ac3.32B, EBITDA \u20ac215M."
     },
     {
       "endDate": "2021-08-31",
@@ -206,7 +238,7 @@
       "netIncomeMM": 75,
       "sharesOutMM": 204.18,
       "netDebtMM": 1450,
-      "notes": "H1 FY21/22 (Mar-Aug 2021): revenue €3.54B, EBITDA €250M."
+      "notes": "H1 FY21/22 (Mar-Aug 2021): revenue \u20ac3.54B, EBITDA \u20ac250M."
     },
     {
       "endDate": "2022-08-31",
@@ -216,7 +248,7 @@
       "netIncomeMM": 145,
       "sharesOutMM": 204.18,
       "netDebtMM": 1620,
-      "notes": "H1 FY22/23 (Mar-Aug 2022): revenue €4.52B, EBITDA €410M. Sugar price spike post-Ukraine."
+      "notes": "H1 FY22/23 (Mar-Aug 2022): revenue \u20ac4.52B, EBITDA \u20ac410M. Sugar price spike post-Ukraine."
     },
     {
       "endDate": "2023-08-31",
@@ -226,7 +258,7 @@
       "netIncomeMM": 270,
       "sharesOutMM": 204.18,
       "netDebtMM": 1700,
-      "notes": "H1 FY23/24 (Mar-Aug 2023): revenue €5.29B, EBITDA €705M. Peak sugar pricing."
+      "notes": "H1 FY23/24 (Mar-Aug 2023): revenue \u20ac5.29B, EBITDA \u20ac705M. Peak sugar pricing."
     },
     {
       "endDate": "2024-08-31",
@@ -236,7 +268,7 @@
       "netIncomeMM": 30,
       "sharesOutMM": 204.18,
       "netDebtMM": 1820,
-      "notes": "H1 FY24/25 (Mar-Aug 2024): revenue €4.87B, EBITDA €360M. Sugar prices reset."
+      "notes": "H1 FY24/25 (Mar-Aug 2024): revenue \u20ac4.87B, EBITDA \u20ac360M. Sugar prices reset."
     },
     {
       "endDate": "2025-08-31",
@@ -246,7 +278,7 @@
       "netIncomeMM": 10,
       "sharesOutMM": 204.18,
       "netDebtMM": 1900,
-      "notes": "H1 FY25/26 (Mar-Aug 2025): revenue €4.71B, EBITDA €330M. Sugar mid-cycle."
+      "notes": "H1 FY25/26 (Mar-Aug 2025): revenue \u20ac4.71B, EBITDA \u20ac330M. Sugar mid-cycle."
     }
   ]
 }

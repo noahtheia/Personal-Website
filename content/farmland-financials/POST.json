@@ -25,7 +25,16 @@
       "capexMM": 232.5,
       "daMM": 345.0,
       "cfoMM": 625.6,
-      "totalEquityMM": 1830
+      "totalEquityMM": 1830,
+      "protein": {
+        "plants": 47,
+        "capacityUtilizationPct": 80,
+        "brandedCpg": {
+          "brandedRevenuePct": 82,
+          "acvDistributionPct": 93,
+          "foodserviceMixPct": 18
+        }
+      }
     },
     {
       "endDate": "2021-09-30",
@@ -54,7 +63,16 @@
         "Foodservice": 1615.6,
         "Refrigerated Retail": 974.5
       },
-      "totalEquityMM": 1990
+      "totalEquityMM": 1990,
+      "protein": {
+        "plants": 50,
+        "capacityUtilizationPct": 82,
+        "brandedCpg": {
+          "brandedRevenuePct": 85,
+          "acvDistributionPct": 94,
+          "foodserviceMixPct": 22
+        }
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -117,7 +135,20 @@
         "Foodservice": 2095.0,
         "Refrigerated Retail": 1036.6
       },
-      "totalEquityMM": 1545
+      "totalEquityMM": 1545,
+      "propertyBookMM": 1850,
+      "ppeBookMM": 1850,
+      "inventoryMM": 668,
+      "intangibleAssetsMM": 5142,
+      "protein": {
+        "plants": 55,
+        "capacityUtilizationPct": 84,
+        "brandedCpg": {
+          "brandedRevenuePct": 86,
+          "acvDistributionPct": 95,
+          "foodserviceMixPct": 23
+        }
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -197,7 +228,20 @@
         "Foodservice": 2425.9,
         "Refrigerated Retail": 1019.7
       },
-      "totalEquityMM": 2280
+      "totalEquityMM": 2280,
+      "propertyBookMM": 2010,
+      "ppeBookMM": 2010,
+      "inventoryMM": 730,
+      "intangibleAssetsMM": 5298,
+      "protein": {
+        "plants": 58,
+        "capacityUtilizationPct": 80,
+        "brandedCpg": {
+          "brandedRevenuePct": 87,
+          "acvDistributionPct": 95,
+          "foodserviceMixPct": 22
+        }
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -291,7 +335,20 @@
         "Foodservice": 2307.1,
         "Refrigerated Retail": 962.2
       },
-      "totalEquityMM": 2410
+      "totalEquityMM": 2410,
+      "propertyBookMM": 2196,
+      "ppeBookMM": 2196,
+      "inventoryMM": 768,
+      "intangibleAssetsMM": 5380,
+      "protein": {
+        "plants": 60,
+        "capacityUtilizationPct": 82,
+        "brandedCpg": {
+          "brandedRevenuePct": 88,
+          "acvDistributionPct": 95,
+          "foodserviceMixPct": 22
+        }
+      }
     },
     {
       "endDate": "2024-12-31",

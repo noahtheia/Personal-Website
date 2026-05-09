@@ -2,7 +2,7 @@
   "ticker": "SALM.OL",
   "currency": "NOK",
   "sourceUrl": "https://www.salmar.no/en/investor/",
-  "notes": "SalMar ASA is one of the world's largest producers of farmed Atlantic salmon, with operations in Northern Norway, Central Norway, Iceland (Icelandic Salmon) and offshore (SalMar Aker Ocean / Ocean Farm 1). Reports and lists in NOK on Oslo Børs. FY = calendar year. NTS ASA (Norway Royal Salmon + SalmoNor) acquired Q4 2022 — FY22 includes partial-year contribution and FY23 is the first full consolidated year. Segment cost split estimated from feed/salary disclosure. Revenue segments: Farming Norway (Central + Northern + NRS post NTS), Icelandic Salmon (Arnarlax), Norskott Havbruk (Scottish Sea Farms 50/50 JV — equity-method, not consolidated revenue), and Sales & Industry (processing). Quarterly data from SalMar Q1-Q4 reports.",
+  "notes": "SalMar ASA is one of the world's largest producers of farmed Atlantic salmon, with operations in Northern Norway, Central Norway, Iceland (Icelandic Salmon) and offshore (SalMar Aker Ocean / Ocean Farm 1). Reports and lists in NOK on Oslo B\u00f8rs. FY = calendar year. NTS ASA (Norway Royal Salmon + SalmoNor) acquired Q4 2022 \u2014 FY22 includes partial-year contribution and FY23 is the first full consolidated year. Segment cost split estimated from feed/salary disclosure. Revenue segments: Farming Norway (Central + Northern + NRS post NTS), Icelandic Salmon (Arnarlax), Norskott Havbruk (Scottish Sea Farms 50/50 JV \u2014 equity-method, not consolidated revenue), and Sales & Industry (processing). Quarterly data from SalMar Q1-Q4 reports.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -28,7 +28,15 @@
       "capexMM": 1850,
       "daMM": 1085,
       "cfoMM": 2700,
-      "notes": "FY20: Revenue NOK 12,846M, Operational EBIT NOK 2,040M. Pre-NTS perimeter."
+      "notes": "FY20: Revenue NOK 12,846M, Operational EBIT NOK 2,040M. Pre-NTS perimeter.",
+      "aquaculture": {
+        "harvestVolumeKtGwt": 65.4,
+        "ebitPerKgNok": 11.2,
+        "mabLicencedTonnes": 65200,
+        "biomassAtSeaKt": 36.4,
+        "smoltReleasedMM": 18,
+        "costPerKgNok": 45.2
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -54,7 +62,15 @@
       "capexMM": 2400,
       "daMM": 1145,
       "cfoMM": 3100,
-      "notes": "FY21: Revenue NOK 13,796M, Operational EBIT NOK 2,481M. Recovering salmon price."
+      "notes": "FY21: Revenue NOK 13,796M, Operational EBIT NOK 2,481M. Recovering salmon price.",
+      "aquaculture": {
+        "harvestVolumeKtGwt": 67.8,
+        "ebitPerKgNok": 16.8,
+        "mabLicencedTonnes": 66800,
+        "biomassAtSeaKt": 37.2,
+        "smoltReleasedMM": 19,
+        "costPerKgNok": 48.6
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -98,7 +114,7 @@
       "netIncomeMM": 940,
       "netDebtMM": 6500,
       "sharesOutMM": 113.3,
-      "notes": "Q2 2022: Revenue NOK 4,720M, Operational EBIT NOK 1,360M — peak salmon prices."
+      "notes": "Q2 2022: Revenue NOK 4,720M, Operational EBIT NOK 1,360M \u2014 peak salmon prices."
     },
     {
       "endDate": "2022-09-30",
@@ -142,7 +158,18 @@
       "netIncomeMM": 980,
       "netDebtMM": 17800,
       "sharesOutMM": 130.7,
-      "notes": "Q4 2022: Revenue NOK 6,178M includes partial-quarter NTS consolidation (closed Oct 2022). Operational EBIT NOK 1,650M."
+      "notes": "Q4 2022: Revenue NOK 6,178M includes partial-quarter NTS consolidation (closed Oct 2022). Operational EBIT NOK 1,650M.",
+      "ppeBookMM": 7846,
+      "inventoryMM": 4762,
+      "intangibleAssetsMM": 4762,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 71.2,
+        "ebitPerKgNok": 28.4,
+        "mabLicencedTonnes": 68100,
+        "biomassAtSeaKt": 38.6,
+        "smoltReleasedMM": 20,
+        "costPerKgNok": 54.8
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -168,7 +195,18 @@
       "capexMM": 2700,
       "daMM": 1390,
       "cfoMM": 5200,
-      "notes": "FY22: Revenue NOK 19,818M, Operational EBIT NOK 4,890M. NTS acquisition closed Q4 (debt step-up). Dividend cancelled following Norwegian resource-rent tax announcement Sept 2022."
+      "notes": "FY22: Revenue NOK 19,818M, Operational EBIT NOK 4,890M. NTS acquisition closed Q4 (debt step-up). Dividend cancelled following Norwegian resource-rent tax announcement Sept 2022.",
+      "ppeBookMM": 7846,
+      "inventoryMM": 4762,
+      "intangibleAssetsMM": 4762,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 71.2,
+        "ebitPerKgNok": 28.4,
+        "mabLicencedTonnes": 68100,
+        "biomassAtSeaKt": 38.6,
+        "smoltReleasedMM": 20,
+        "costPerKgNok": 54.8
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -256,7 +294,18 @@
       "netIncomeMM": 810,
       "netDebtMM": 16500,
       "sharesOutMM": 130.93,
-      "notes": "Q4 2023: Revenue NOK 6,529M, Operational EBIT NOK 1,395M."
+      "notes": "Q4 2023: Revenue NOK 6,529M, Operational EBIT NOK 1,395M.",
+      "ppeBookMM": 8214,
+      "inventoryMM": 5106,
+      "intangibleAssetsMM": 4798,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 74.6,
+        "ebitPerKgNok": 24.2,
+        "mabLicencedTonnes": 69400,
+        "biomassAtSeaKt": 39.8,
+        "smoltReleasedMM": 21,
+        "costPerKgNok": 60.4
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -282,7 +331,18 @@
       "capexMM": 3000,
       "daMM": 1610,
       "cfoMM": 5800,
-      "notes": "FY23: Revenue NOK 23,919M, Operational EBIT NOK 5,389M. First full year incl. NTS. Resource-rent tax in effect."
+      "notes": "FY23: Revenue NOK 23,919M, Operational EBIT NOK 5,389M. First full year incl. NTS. Resource-rent tax in effect.",
+      "ppeBookMM": 8214,
+      "inventoryMM": 5106,
+      "intangibleAssetsMM": 4798,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 74.6,
+        "ebitPerKgNok": 24.2,
+        "mabLicencedTonnes": 69400,
+        "biomassAtSeaKt": 39.8,
+        "smoltReleasedMM": 21,
+        "costPerKgNok": 60.4
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -370,7 +430,18 @@
       "netIncomeMM": 820,
       "netDebtMM": 16300,
       "sharesOutMM": 130.93,
-      "notes": "Q4 2024: Revenue NOK 6,870M, Operational EBIT NOK 1,401M."
+      "notes": "Q4 2024: Revenue NOK 6,870M, Operational EBIT NOK 1,401M.",
+      "ppeBookMM": 8642,
+      "inventoryMM": 5418,
+      "intangibleAssetsMM": 4814,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 78.4,
+        "ebitPerKgNok": 18.6,
+        "mabLicencedTonnes": 70200,
+        "biomassAtSeaKt": 41.2,
+        "smoltReleasedMM": 22,
+        "costPerKgNok": 64.8
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -397,7 +468,18 @@
       "daMM": 1700,
       "cfoMM": 5500,
       "notes": "FY24: Revenue NOK 25,770M, Operational EBIT NOK 5,186M. Record harvest volume ~244kt GWE.",
-      "interestExpenseMM": 320
+      "interestExpenseMM": 320,
+      "ppeBookMM": 8642,
+      "inventoryMM": 5418,
+      "intangibleAssetsMM": 4814,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 78.4,
+        "ebitPerKgNok": 18.6,
+        "mabLicencedTonnes": 70200,
+        "biomassAtSeaKt": 41.2,
+        "smoltReleasedMM": 22,
+        "costPerKgNok": 64.8
+      }
     },
     {
       "endDate": "2025-03-31",

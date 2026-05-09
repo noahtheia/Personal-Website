@@ -31,7 +31,12 @@
       "capexMM": 1900,
       "daMM": 2100,
       "cfoMM": 4500,
-      "totalEquityMM": 7500
+      "totalEquityMM": 7500,
+      "protein": {
+        "plants": 38,
+        "weeklyHeadCapacity": 29000000,
+        "capacityUtilizationPct": 80
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -60,7 +65,12 @@
       "capexMM": 2400,
       "daMM": 2500,
       "cfoMM": 3800,
-      "totalEquityMM": 7100
+      "totalEquityMM": 7100,
+      "protein": {
+        "plants": 40,
+        "weeklyHeadCapacity": 29500000,
+        "capacityUtilizationPct": 82
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -101,7 +111,16 @@
       "sharesOutMM": 1063,
       "netDebtMM": 16200,
       "notes": "4T22: Revenue R$13.7bn, EBITDA R$1.1bn. R$5bn capital raise completed.",
-      "totalEquityMM": 6650
+      "totalEquityMM": 6650,
+      "propertyBookMM": 13600,
+      "ppeBookMM": 13600,
+      "inventoryMM": 7100,
+      "intangibleAssetsMM": 5800,
+      "protein": {
+        "plants": 40,
+        "weeklyHeadCapacity": 30000000,
+        "capacityUtilizationPct": 78
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -130,7 +149,16 @@
       "capexMM": 3100,
       "daMM": 3200,
       "cfoMM": 1500,
-      "totalEquityMM": 6650
+      "totalEquityMM": 6650,
+      "propertyBookMM": 13600,
+      "ppeBookMM": 13600,
+      "inventoryMM": 7100,
+      "intangibleAssetsMM": 5800,
+      "protein": {
+        "plants": 40,
+        "weeklyHeadCapacity": 30000000,
+        "capacityUtilizationPct": 78
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -171,7 +199,16 @@
       "sharesOutMM": 1685,
       "netDebtMM": 11200,
       "notes": "4T23: Revenue R$13.8bn, EBITDA R$1.97bn (margin 14.3%) \u2014 back to profit. Inflection.",
-      "totalEquityMM": 8550
+      "totalEquityMM": 8550,
+      "propertyBookMM": 14200,
+      "ppeBookMM": 14200,
+      "inventoryMM": 6420,
+      "intangibleAssetsMM": 5840,
+      "protein": {
+        "plants": 40,
+        "weeklyHeadCapacity": 30000000,
+        "capacityUtilizationPct": 80
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -200,7 +237,16 @@
       "capexMM": 2200,
       "daMM": 3500,
       "cfoMM": 4200,
-      "totalEquityMM": 8550
+      "totalEquityMM": 8550,
+      "propertyBookMM": 14200,
+      "ppeBookMM": 14200,
+      "inventoryMM": 6420,
+      "intangibleAssetsMM": 5840,
+      "protein": {
+        "plants": 40,
+        "weeklyHeadCapacity": 30000000,
+        "capacityUtilizationPct": 80
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -241,7 +287,16 @@
       "sharesOutMM": 1685,
       "netDebtMM": 9800,
       "notes": "4T24: Revenue R$16.5bn, EBITDA R$1.94bn. Strong year close.",
-      "totalEquityMM": 9450
+      "totalEquityMM": 9450,
+      "propertyBookMM": 14800,
+      "ppeBookMM": 14800,
+      "inventoryMM": 6850,
+      "intangibleAssetsMM": 5920,
+      "protein": {
+        "plants": 40,
+        "weeklyHeadCapacity": 30000000,
+        "capacityUtilizationPct": 84
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -278,7 +333,16 @@
         "3-5y": 2835.0,
         "5+y": 3780.0
       },
-      "totalEquityMM": 9450
+      "totalEquityMM": 9450,
+      "propertyBookMM": 14800,
+      "ppeBookMM": 14800,
+      "inventoryMM": 6850,
+      "intangibleAssetsMM": 5920,
+      "protein": {
+        "plants": 40,
+        "weeklyHeadCapacity": 30000000,
+        "capacityUtilizationPct": 84
+      }
     },
     {
       "endDate": "2025-03-31",

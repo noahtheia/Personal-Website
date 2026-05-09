@@ -24,6 +24,10 @@
         "COGS": 33500,
         "SG&A": 1480,
         "D&A": 580
+      },
+      "trader": {
+        "rmiMM": 3200,
+        "throughputMtMM": 38.0
       }
     },
     {
@@ -46,6 +50,10 @@
         "COGS": 41200,
         "SG&A": 1680,
         "D&A": 640
+      },
+      "trader": {
+        "rmiMM": 4100,
+        "throughputMtMM": 39.5
       }
     },
     {
@@ -74,6 +82,14 @@
         "COGS": 51800,
         "SG&A": 1880,
         "D&A": 720
+      },
+      "propertyBookMM": 1780,
+      "ppeBookMM": 4580,
+      "inventoryMM": 7100,
+      "intangibleAssetsMM": 1410,
+      "trader": {
+        "rmiMM": 4720,
+        "throughputMtMM": 40.8
       }
     },
     {
@@ -108,7 +124,15 @@
       "capexMM": 950,
       "daMM": 780,
       "cfoMM": 1700,
-      "totalEquityMM": 9400
+      "totalEquityMM": 9400,
+      "propertyBookMM": 1820,
+      "ppeBookMM": 4680,
+      "inventoryMM": 6420,
+      "intangibleAssetsMM": 1380,
+      "trader": {
+        "rmiMM": 4250,
+        "throughputMtMM": 41.5
+      }
     },
     {
       "endDate": "2023-06-30",
@@ -158,7 +182,15 @@
       "capexMM": 880,
       "daMM": 820,
       "cfoMM": 1900,
-      "totalEquityMM": 9650
+      "totalEquityMM": 9650,
+      "propertyBookMM": 1850,
+      "ppeBookMM": 4720,
+      "inventoryMM": 5980,
+      "intangibleAssetsMM": 1320,
+      "trader": {
+        "rmiMM": 3950,
+        "throughputMtMM": 42.0
+      }
     },
     {
       "endDate": "2024-06-30",

@@ -64,7 +64,11 @@
         "Fertilizer": 484,
         "Sugar & Bioenergy": 142
       },
-      "totalEquityMM": 5326
+      "totalEquityMM": 5326,
+      "trader": {
+        "rmiMM": 4900,
+        "throughputMtMM": 70.5
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -94,7 +98,11 @@
         "Milling": 1909,
         "Sugar & Bioenergy": 270
       },
-      "totalEquityMM": 6500
+      "totalEquityMM": 6500,
+      "trader": {
+        "rmiMM": 6800,
+        "throughputMtMM": 73.0
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -172,7 +180,15 @@
         "Milling": 2388,
         "Sugar & Bioenergy": 259
       },
-      "totalEquityMM": 7295
+      "totalEquityMM": 7295,
+      "propertyBookMM": 2740,
+      "ppeBookMM": 4280,
+      "inventoryMM": 10180,
+      "intangibleAssetsMM": 690,
+      "trader": {
+        "rmiMM": 7100,
+        "throughputMtMM": 74.2
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -259,7 +275,15 @@
         "Milling": 1896,
         "Sugar & Bioenergy": 235
       },
-      "totalEquityMM": 8200
+      "totalEquityMM": 8200,
+      "propertyBookMM": 2880,
+      "ppeBookMM": 4520,
+      "inventoryMM": 8540,
+      "intangibleAssetsMM": 730,
+      "trader": {
+        "rmiMM": 5970,
+        "throughputMtMM": 76.5
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -346,7 +370,15 @@
         "Milling": 1555,
         "Sugar & Bioenergy": 130
       },
-      "totalEquityMM": 8650
+      "totalEquityMM": 8650,
+      "propertyBookMM": 2980,
+      "ppeBookMM": 4720,
+      "inventoryMM": 7680,
+      "intangibleAssetsMM": 1120,
+      "trader": {
+        "rmiMM": 5300,
+        "throughputMtMM": 75.0
+      }
     },
     {
       "endDate": "2025-03-31",

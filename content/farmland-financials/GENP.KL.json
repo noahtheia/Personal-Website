@@ -604,7 +604,14 @@
       "totalEquityMM": 7080,
       "cfoMM": 920,
       "capexMM": 700,
-      "daMM": 535
+      "daMM": 535,
+      "plantation": {
+        "ffbYieldTPerHa": 21.5,
+        "oerPct": 22.0,
+        "cpoAspPerMt": 2750,
+        "maturePlantedHa": 60500,
+        "rspoPct": 65
+      }
     },
     {
       "endDate": "2020-12-31",
@@ -643,7 +650,14 @@
       "notes": "FY20: Revenue RM2.56B, EBITDA RM665M, NPAT RM275M",
       "capexMM": 290,
       "daMM": 195,
-      "cfoMM": 540
+      "cfoMM": 540,
+      "plantation": {
+        "ffbYieldTPerHa": 21.5,
+        "oerPct": 22.0,
+        "cpoAspPerMt": 2750,
+        "maturePlantedHa": 60500,
+        "rspoPct": 65
+      }
     },
     {
       "endDate": "2021-03-31",
@@ -704,7 +718,14 @@
       "totalEquityMM": 7480,
       "cfoMM": 1080,
       "capexMM": 720,
-      "daMM": 555
+      "daMM": 555,
+      "plantation": {
+        "ffbYieldTPerHa": 20.8,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 4080,
+        "maturePlantedHa": 61000,
+        "rspoPct": 68
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -743,7 +764,14 @@
       "notes": "FY21: Revenue RM3.49B (+36% YoY), EBITDA RM950M, NPAT RM500M, CPO uplift",
       "capexMM": 320,
       "daMM": 205,
-      "cfoMM": 670
+      "cfoMM": 670,
+      "plantation": {
+        "ffbYieldTPerHa": 20.8,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 4080,
+        "maturePlantedHa": 61000,
+        "rspoPct": 68
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -804,7 +832,18 @@
       "totalEquityMM": 7920,
       "cfoMM": 1180,
       "capexMM": 760,
-      "daMM": 575
+      "daMM": 575,
+      "propertyBookMM": 3720,
+      "ppeBookMM": 2580,
+      "inventoryMM": 520,
+      "intangibleAssetsMM": 90,
+      "plantation": {
+        "ffbYieldTPerHa": 20.2,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 4680,
+        "maturePlantedHa": 61500,
+        "rspoPct": 70
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -843,7 +882,17 @@
       "notes": "FY22: Record revenue RM4.07B, EBITDA RM1.16B, NPAT RM690M on peak CPO",
       "capexMM": 410,
       "daMM": 215,
-      "cfoMM": 760
+      "cfoMM": 760,
+      "ppeBookMM": 2580,
+      "inventoryMM": 520,
+      "intangibleAssetsMM": 90,
+      "plantation": {
+        "ffbYieldTPerHa": 20.2,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 4680,
+        "maturePlantedHa": 61500,
+        "rspoPct": 70
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -903,7 +952,18 @@
       "totalEquityMM": 8280,
       "cfoMM": 1050,
       "capexMM": 780,
-      "daMM": 595
+      "daMM": 595,
+      "propertyBookMM": 3780,
+      "ppeBookMM": 2620,
+      "inventoryMM": 460,
+      "intangibleAssetsMM": 92,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 3820,
+        "maturePlantedHa": 62000,
+        "rspoPct": 72
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -942,7 +1002,17 @@
       "notes": "FY23: Revenue RM3.05B (-25% YoY), EBITDA RM710M, NPAT RM325M on CPO normalization",
       "capexMM": 440,
       "daMM": 225,
-      "cfoMM": 540
+      "cfoMM": 540,
+      "ppeBookMM": 2620,
+      "inventoryMM": 460,
+      "intangibleAssetsMM": 92,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 3820,
+        "maturePlantedHa": 62000,
+        "rspoPct": 72
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -1002,7 +1072,18 @@
       "totalEquityMM": 8650,
       "cfoMM": 1120,
       "capexMM": 800,
-      "daMM": 615
+      "daMM": 615,
+      "propertyBookMM": 3850,
+      "ppeBookMM": 2680,
+      "inventoryMM": 480,
+      "intangibleAssetsMM": 95,
+      "plantation": {
+        "ffbYieldTPerHa": 20.5,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 4120,
+        "maturePlantedHa": 62500,
+        "rspoPct": 75
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -1049,6 +1130,16 @@
         "1-3y": 789.5,
         "3-5y": 631.6,
         "5+y": 1105.3
+      },
+      "ppeBookMM": 2680,
+      "inventoryMM": 480,
+      "intangibleAssetsMM": 95,
+      "plantation": {
+        "ffbYieldTPerHa": 20.5,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 4120,
+        "maturePlantedHa": 62500,
+        "rspoPct": 75
       }
     },
     {

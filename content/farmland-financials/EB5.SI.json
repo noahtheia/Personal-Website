@@ -397,7 +397,14 @@
       "capexMM": 60,
       "daMM": 58,
       "cfoMM": 200,
-      "totalEquityMM": 1600
+      "totalEquityMM": 1600,
+      "plantation": {
+        "ffbYieldTPerHa": 20.5,
+        "oerPct": 22.5,
+        "cpoAspPerMt": 660,
+        "maturePlantedHa": 185000,
+        "rspoPct": 50
+      }
     },
     {
       "endDate": "2021-06-30",
@@ -450,7 +457,14 @@
       "capexMM": 75,
       "daMM": 60,
       "cfoMM": 280,
-      "totalEquityMM": 1720
+      "totalEquityMM": 1720,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 22.4,
+        "cpoAspPerMt": 935,
+        "maturePlantedHa": 185500,
+        "rspoPct": 52
+      }
     },
     {
       "endDate": "2022-06-30",
@@ -504,7 +518,17 @@
       "capexMM": 95,
       "daMM": 62,
       "cfoMM": 320,
-      "totalEquityMM": 1880
+      "totalEquityMM": 1880,
+      "ppeBookMM": 405,
+      "inventoryMM": 105,
+      "intangibleAssetsMM": 18,
+      "plantation": {
+        "ffbYieldTPerHa": 19.2,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 1075,
+        "maturePlantedHa": 186000,
+        "rspoPct": 55
+      }
     },
     {
       "endDate": "2023-06-30",
@@ -558,7 +582,17 @@
       "capexMM": 90,
       "daMM": 64,
       "cfoMM": 195,
-      "totalEquityMM": 1980
+      "totalEquityMM": 1980,
+      "ppeBookMM": 412,
+      "inventoryMM": 90,
+      "intangibleAssetsMM": 18,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 22.2,
+        "cpoAspPerMt": 855,
+        "maturePlantedHa": 186500,
+        "rspoPct": 58
+      }
     },
     {
       "endDate": "2024-06-30",
@@ -620,7 +654,17 @@
         "3-5y": 10.0,
         "5+y": 17.5
       },
-      "totalEquityMM": 2080
+      "totalEquityMM": 2080,
+      "ppeBookMM": 420,
+      "inventoryMM": 95,
+      "intangibleAssetsMM": 18,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 925,
+        "maturePlantedHa": 187000,
+        "rspoPct": 60
+      }
     }
   ]
 }

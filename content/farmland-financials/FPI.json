@@ -240,7 +240,13 @@
       "bookValuePerShare": 15.52,
       "capexMM": 3.6,
       "daMM": 8.0,
-      "cfoMM": 19.7
+      "cfoMM": 19.7,
+      "reit": {
+        "walt": 7.6,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.32,
+        "affoPerShare": 0.33
+      }
     },
     {
       "endDate": "2021-03-31",
@@ -263,7 +269,7 @@
       "netIncomeMM": -3,
       "totalAcresK": 156.5,
       "bookValuePerShare": 15.44,
-      "notes": "Q1 2021: revenue $11.7M, NOI $8.0M. BVPS interpolated FY20 ($15.52) → FY21 ($15.21)."
+      "notes": "Q1 2021: revenue $11.7M, NOI $8.0M. BVPS interpolated FY20 ($15.52) \u2192 FY21 ($15.21)."
     },
     {
       "endDate": "2021-06-30",
@@ -286,7 +292,7 @@
       "netIncomeMM": -1,
       "totalAcresK": 158,
       "bookValuePerShare": 15.37,
-      "notes": "Q2 2021: revenue $14.6M, NOI $10.0M. BVPS interpolated FY20→FY21."
+      "notes": "Q2 2021: revenue $14.6M, NOI $10.0M. BVPS interpolated FY20\u2192FY21."
     },
     {
       "endDate": "2021-09-30",
@@ -309,7 +315,7 @@
       "netIncomeMM": 1.5,
       "totalAcresK": 159,
       "bookValuePerShare": 15.29,
-      "notes": "Q3 2021: revenue $14.0M, NOI $9.6M. BVPS interpolated FY20→FY21."
+      "notes": "Q3 2021: revenue $14.0M, NOI $9.6M. BVPS interpolated FY20\u2192FY21."
     },
     {
       "endDate": "2021-12-31",
@@ -332,7 +338,13 @@
       "netIncomeMM": 6,
       "totalAcresK": 158,
       "bookValuePerShare": 15.21,
-      "notes": "Q4 2021: revenue $18.6M, NOI $12.7M; gain on sale $5M+. BVPS = FY21 ($15.21)."
+      "notes": "Q4 2021: revenue $18.6M, NOI $12.7M; gain on sale $5M+. BVPS = FY21 ($15.21).",
+      "reit": {
+        "walt": 8.2,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.36,
+        "affoPerShare": 0.38
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -366,7 +378,13 @@
       "bookValuePerShare": 15.21,
       "capexMM": 83.9,
       "daMM": 7.6,
-      "cfoMM": 7.9
+      "cfoMM": 7.9,
+      "reit": {
+        "walt": 8.2,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.36,
+        "affoPerShare": 0.38
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -389,7 +407,7 @@
       "netIncomeMM": -1.5,
       "totalAcresK": 156,
       "bookValuePerShare": 14.25,
-      "notes": "Q1 2022: revenue $13.0M, NOI $8.9M. BVPS interpolated FY21 ($15.21) → FY22 ($11.38)."
+      "notes": "Q1 2022: revenue $13.0M, NOI $8.9M. BVPS interpolated FY21 ($15.21) \u2192 FY22 ($11.38)."
     },
     {
       "endDate": "2022-06-30",
@@ -412,7 +430,7 @@
       "netIncomeMM": 8,
       "totalAcresK": 152,
       "bookValuePerShare": 13.3,
-      "notes": "Q2 2022: revenue $14.5M, NOI $9.9M; gain-on-sale boost. BVPS interpolated FY21→FY22."
+      "notes": "Q2 2022: revenue $14.5M, NOI $9.9M; gain-on-sale boost. BVPS interpolated FY21\u2192FY22."
     },
     {
       "endDate": "2022-09-30",
@@ -435,7 +453,7 @@
       "netIncomeMM": 11,
       "totalAcresK": 145,
       "bookValuePerShare": 12.34,
-      "notes": "Q3 2022: revenue $13.0M, NOI $8.9M; significant gain-on-sale of $14M+. BVPS interpolated FY21→FY22."
+      "notes": "Q3 2022: revenue $13.0M, NOI $8.9M; significant gain-on-sale of $14M+. BVPS interpolated FY21\u2192FY22."
     },
     {
       "endDate": "2022-12-31",
@@ -458,7 +476,17 @@
       "netIncomeMM": 50,
       "totalAcresK": 144,
       "bookValuePerShare": 11.38,
-      "notes": "Q4 2022: revenue $16.7M, NOI $11.4M; large Q4 gains on dispositions ($55M+ in gains). BVPS = FY22 ($11.38)."
+      "notes": "Q4 2022: revenue $16.7M, NOI $11.4M; large Q4 gains on dispositions ($55M+ in gains). BVPS = FY22 ($11.38).",
+      "propertyBookMM": 1108.5,
+      "ppeBookMM": 6.8,
+      "inventoryMM": 2.1,
+      "intangibleAssetsMM": 1.8,
+      "reit": {
+        "walt": 9.0,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.41,
+        "affoPerShare": 0.43
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -492,7 +520,16 @@
       "bookValuePerShare": 11.38,
       "capexMM": 58.7,
       "daMM": 7.0,
-      "cfoMM": 17.1
+      "cfoMM": 17.1,
+      "ppeBookMM": 6.8,
+      "inventoryMM": 2.1,
+      "intangibleAssetsMM": 1.8,
+      "reit": {
+        "walt": 9.0,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.41,
+        "affoPerShare": 0.43
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -515,7 +552,7 @@
       "netIncomeMM": 1,
       "totalAcresK": 142,
       "bookValuePerShare": 11.41,
-      "notes": "Q1 2023: revenue $13.5M, NOI $9.3M. BVPS interpolated FY22 ($11.38) → FY23 ($11.49)."
+      "notes": "Q1 2023: revenue $13.5M, NOI $9.3M. BVPS interpolated FY22 ($11.38) \u2192 FY23 ($11.49)."
     },
     {
       "endDate": "2023-06-30",
@@ -538,7 +575,7 @@
       "netIncomeMM": 30,
       "totalAcresK": 134,
       "bookValuePerShare": 11.43,
-      "notes": "Q2 2023: revenue $14.0M, NOI $9.6M; large gain-on-sale ($30M+). BVPS interpolated FY22→FY23."
+      "notes": "Q2 2023: revenue $14.0M, NOI $9.6M; large gain-on-sale ($30M+). BVPS interpolated FY22\u2192FY23."
     },
     {
       "endDate": "2023-09-30",
@@ -561,7 +598,7 @@
       "netIncomeMM": 6,
       "totalAcresK": 130,
       "bookValuePerShare": 11.46,
-      "notes": "Q3 2023: revenue $13.7M, NOI $9.4M. BVPS interpolated FY22→FY23."
+      "notes": "Q3 2023: revenue $13.7M, NOI $9.4M. BVPS interpolated FY22\u2192FY23."
     },
     {
       "endDate": "2023-12-31",
@@ -584,7 +621,17 @@
       "netIncomeMM": 4,
       "totalAcresK": 128,
       "bookValuePerShare": 11.49,
-      "notes": "Q4 2023: revenue $16.0M, NOI $11.0M. BVPS = FY23 ($11.49)."
+      "notes": "Q4 2023: revenue $16.0M, NOI $11.0M. BVPS = FY23 ($11.49).",
+      "propertyBookMM": 1099.7,
+      "ppeBookMM": 6.5,
+      "inventoryMM": 1.9,
+      "intangibleAssetsMM": 1.6,
+      "reit": {
+        "walt": 8.7,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.46,
+        "affoPerShare": 0.48
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -618,7 +665,16 @@
       "bookValuePerShare": 11.49,
       "capexMM": 28.0,
       "daMM": 7.5,
-      "cfoMM": 12.9
+      "cfoMM": 12.9,
+      "ppeBookMM": 6.5,
+      "inventoryMM": 1.9,
+      "intangibleAssetsMM": 1.6,
+      "reit": {
+        "walt": 8.7,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.46,
+        "affoPerShare": 0.48
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -641,7 +697,7 @@
       "netIncomeMM": -1,
       "totalAcresK": 122,
       "bookValuePerShare": 10.89,
-      "notes": "Q1 2024: revenue $11.0M, NOI $7.5M. BVPS interpolated FY23 ($11.49) → FY24 ($9.09)."
+      "notes": "Q1 2024: revenue $11.0M, NOI $7.5M. BVPS interpolated FY23 ($11.49) \u2192 FY24 ($9.09)."
     },
     {
       "endDate": "2024-06-30",
@@ -664,7 +720,7 @@
       "netIncomeMM": 4,
       "totalAcresK": 117,
       "bookValuePerShare": 10.29,
-      "notes": "Q2 2024: revenue $12.0M, NOI $8.2M. BVPS interpolated FY23→FY24."
+      "notes": "Q2 2024: revenue $12.0M, NOI $8.2M. BVPS interpolated FY23\u2192FY24."
     },
     {
       "endDate": "2024-09-30",
@@ -687,7 +743,7 @@
       "netIncomeMM": 0.5,
       "totalAcresK": 113,
       "bookValuePerShare": 9.69,
-      "notes": "Q3 2024: revenue $11.5M, NOI $7.9M. BVPS interpolated FY23→FY24."
+      "notes": "Q3 2024: revenue $11.5M, NOI $7.9M. BVPS interpolated FY23\u2192FY24."
     },
     {
       "endDate": "2024-12-31",
@@ -710,7 +766,17 @@
       "netIncomeMM": 80,
       "totalAcresK": 76,
       "bookValuePerShare": 9.09,
-      "notes": "Q4 2024: revenue $13.0M, NOI $8.9M. December 2024 closed on Murray Wise-brokered ~$289M portfolio sale (~37k acres), generating $90M+ gain. Special dividend $1.15/sh declared post-quarter. BVPS = FY24 ($9.09)."
+      "notes": "Q4 2024: revenue $13.0M, NOI $8.9M. December 2024 closed on Murray Wise-brokered ~$289M portfolio sale (~37k acres), generating $90M+ gain. Special dividend $1.15/sh declared post-quarter. BVPS = FY24 ($9.09).",
+      "propertyBookMM": 1086.4,
+      "ppeBookMM": 6.2,
+      "inventoryMM": 1.8,
+      "intangibleAssetsMM": 1.4,
+      "reit": {
+        "walt": 8.4,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.49,
+        "affoPerShare": 0.51
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -752,6 +818,15 @@
         "1-3y": 62.5,
         "3-5y": 50.0,
         "5+y": 87.5
+      },
+      "ppeBookMM": 6.2,
+      "inventoryMM": 1.8,
+      "intangibleAssetsMM": 1.4,
+      "reit": {
+        "walt": 8.4,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.49,
+        "affoPerShare": 0.51
       }
     },
     {

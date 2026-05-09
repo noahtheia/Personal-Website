@@ -2,7 +2,7 @@
   "ticker": "JBSS3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.jbs.com.br/",
-  "notes": "JBS S.A. (B3: JBSS3) — world's largest meat producer. Five business units: Beef North America, Beef South America, Seara (Brazilian processed/poultry), Pilgrim's Pride (66.4% owned NYSE: PPC), and Friboi/Australia. NYSE secondary listing JBS (JBS) effective June 2025. FY ends Dec 31. All figures BRL-mm consolidated IFRS. Receita bruta (gross revenue) = net revenue + indirect taxes (~1.5-2% in BR) where disclosed; international sales no gross-up. Net debt / leverage shown on company-defined basis (incl. lease liabilities). Quarterly + segment data from JBS ITR/DFP filings (ri.jbs.com.br). Segment names per JBS reporting: Beef North America, Beef South America, Pork USA, Pilgrim's Pride (Chicken JBS USA), Seara, Australia, Other.",
+  "notes": "JBS S.A. (B3: JBSS3) \u2014 world's largest meat producer. Five business units: Beef North America, Beef South America, Seara (Brazilian processed/poultry), Pilgrim's Pride (66.4% owned NYSE: PPC), and Friboi/Australia. NYSE secondary listing JBS (JBS) effective June 2025. FY ends Dec 31. All figures BRL-mm consolidated IFRS. Receita bruta (gross revenue) = net revenue + indirect taxes (~1.5-2% in BR) where disclosed; international sales no gross-up. Net debt / leverage shown on company-defined basis (incl. lease liabilities). Quarterly + segment data from JBS ITR/DFP filings (ri.jbs.com.br). Segment names per JBS reporting: Beef North America, Beef South America, Pork USA, Pilgrim's Pride (Chicken JBS USA), Seara, Australia, Other.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -33,7 +33,12 @@
       "notes": "FY20: Pandemic disruption + record beef cycle in NA. Net revenue R$270.2bn, EBITDA R$27.0bn (margin 10.0%), NI R$4.36bn.",
       "capexMM": 5800,
       "daMM": 6500,
-      "cfoMM": 22000
+      "cfoMM": 22000,
+      "protein": {
+        "plants": 215,
+        "weeklyHeadCapacity": 245000000,
+        "capacityUtilizationPct": 82
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -61,10 +66,15 @@
       "cashMM": 19400,
       "netDebtMM": 71900,
       "sharesOutMM": 2370,
-      "notes": "FY21: Peak NA beef cycle. Revenue R$350.7bn (+30%), EBITDA R$44.5bn (margin 12.7%) — record year. Aggressive buyback.",
+      "notes": "FY21: Peak NA beef cycle. Revenue R$350.7bn (+30%), EBITDA R$44.5bn (margin 12.7%) \u2014 record year. Aggressive buyback.",
       "capexMM": 8100,
       "daMM": 7800,
-      "cfoMM": 28500
+      "cfoMM": 28500,
+      "protein": {
+        "plants": 230,
+        "weeklyHeadCapacity": 260000000,
+        "capacityUtilizationPct": 86
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -104,7 +114,16 @@
       "netIncomeMM": 2571,
       "sharesOutMM": 2218,
       "netDebtMM": 74600,
-      "notes": "4T22: Revenue R$88.0bn, EBITDA R$6.71bn (margin 7.6%) — NA beef cycle rolling over."
+      "notes": "4T22: Revenue R$88.0bn, EBITDA R$6.71bn (margin 7.6%) \u2014 NA beef cycle rolling over.",
+      "propertyBookMM": 42000,
+      "ppeBookMM": 42000,
+      "inventoryMM": 36900,
+      "intangibleAssetsMM": 27800,
+      "protein": {
+        "plants": 240,
+        "weeklyHeadCapacity": 270000000,
+        "capacityUtilizationPct": 84
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -139,10 +158,19 @@
       "cashMM": 25200,
       "netDebtMM": 74600,
       "sharesOutMM": 2218,
-      "notes": "FY22: Revenue R$374.9bn (+7%), EBITDA R$32.5bn (margin 8.7%) — beef cycle began rolling over in NA.",
+      "notes": "FY22: Revenue R$374.9bn (+7%), EBITDA R$32.5bn (margin 8.7%) \u2014 beef cycle began rolling over in NA.",
       "capexMM": 9300,
       "daMM": 9500,
-      "cfoMM": 17800
+      "cfoMM": 17800,
+      "propertyBookMM": 42000,
+      "ppeBookMM": 42000,
+      "inventoryMM": 36900,
+      "intangibleAssetsMM": 27800,
+      "protein": {
+        "plants": 240,
+        "weeklyHeadCapacity": 270000000,
+        "capacityUtilizationPct": 84
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -172,7 +200,7 @@
       "netIncomeMM": 313,
       "sharesOutMM": 2217,
       "netDebtMM": 86800,
-      "notes": "3T23: Revenue R$92.5bn, EBITDA R$4.81bn (margin 5.2%) — sequential improvement."
+      "notes": "3T23: Revenue R$92.5bn, EBITDA R$4.81bn (margin 5.2%) \u2014 sequential improvement."
     },
     {
       "endDate": "2023-12-31",
@@ -182,7 +210,16 @@
       "netIncomeMM": 344,
       "sharesOutMM": 2217,
       "netDebtMM": 87300,
-      "notes": "4T23: Revenue R$98.2bn, EBITDA R$5.93bn (margin 6.0%). Recovery underway."
+      "notes": "4T23: Revenue R$98.2bn, EBITDA R$5.93bn (margin 6.0%). Recovery underway.",
+      "propertyBookMM": 45800,
+      "ppeBookMM": 45800,
+      "inventoryMM": 35400,
+      "intangibleAssetsMM": 28700,
+      "protein": {
+        "plants": 245,
+        "weeklyHeadCapacity": 275000000,
+        "capacityUtilizationPct": 78
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -217,10 +254,19 @@
       "cashMM": 22000,
       "netDebtMM": 87300,
       "sharesOutMM": 2217,
-      "notes": "FY23: Trough year. Revenue R$363.8bn (-3%), EBITDA R$16.0bn (margin 4.4%) — NA beef margin compression + chicken weak. Net loss R$1.1bn.",
+      "notes": "FY23: Trough year. Revenue R$363.8bn (-3%), EBITDA R$16.0bn (margin 4.4%) \u2014 NA beef margin compression + chicken weak. Net loss R$1.1bn.",
       "capexMM": 7800,
       "daMM": 11200,
-      "cfoMM": 12500
+      "cfoMM": 12500,
+      "propertyBookMM": 45800,
+      "ppeBookMM": 45800,
+      "inventoryMM": 35400,
+      "intangibleAssetsMM": 28700,
+      "protein": {
+        "plants": 245,
+        "weeklyHeadCapacity": 275000000,
+        "capacityUtilizationPct": 78
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -230,7 +276,7 @@
       "netIncomeMM": 1597,
       "sharesOutMM": 2217,
       "netDebtMM": 79800,
-      "notes": "1T24: Revenue R$95.2bn, EBITDA R$6.23bn (margin 6.5%) — strong recovery underway."
+      "notes": "1T24: Revenue R$95.2bn, EBITDA R$6.23bn (margin 6.5%) \u2014 strong recovery underway."
     },
     {
       "endDate": "2024-06-30",
@@ -260,7 +306,16 @@
       "netIncomeMM": 93,
       "sharesOutMM": 2217,
       "netDebtMM": 70600,
-      "notes": "4T24: Revenue R$108.2bn, EBITDA R$6.57bn (margin 6.1%)."
+      "notes": "4T24: Revenue R$108.2bn, EBITDA R$6.57bn (margin 6.1%).",
+      "propertyBookMM": 48500,
+      "ppeBookMM": 48500,
+      "inventoryMM": 38200,
+      "intangibleAssetsMM": 30100,
+      "protein": {
+        "plants": 250,
+        "weeklyHeadCapacity": 280000000,
+        "capacityUtilizationPct": 82
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -306,6 +361,15 @@
         "1-3y": 18500,
         "3-5y": 19000,
         "5+y": 46400
+      },
+      "propertyBookMM": 48500,
+      "ppeBookMM": 48500,
+      "inventoryMM": 38200,
+      "intangibleAssetsMM": 30100,
+      "protein": {
+        "plants": 250,
+        "weeklyHeadCapacity": 280000000,
+        "capacityUtilizationPct": 82
       }
     },
     {

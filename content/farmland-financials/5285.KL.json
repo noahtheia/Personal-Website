@@ -2,7 +2,7 @@
   "ticker": "5285.KL",
   "currency": "MYR",
   "sourceUrl": "https://www.sdguthrie.com/investor-relations/",
-  "notes": "SD Guthrie Berhad (Bursa Malaysia: 5285) — world's largest oil-palm planter by certified-sustainable hectarage, ~568,000 ha (~1,400K acres) across Malaysia, Indonesia, Papua New Guinea/Solomon Islands, and Liberia. Formerly Sime Darby Plantation Berhad — carved out of Sime Darby Berhad's three-way demerger and listed on Bursa Malaysia Main Market on 30 November 2017; rebranded SD Guthrie Berhad in late 2024 to reclaim the historical 'Guthrie' identity that traces back to the 1821 founding of Guthrie & Co. Reportable IFRS 8 segments: Upstream Malaysia (FFB, CPO, PK), Upstream Indonesia, Upstream PNG/Solomons (legacy New Britain Palm Oil consolidated 2018), Downstream (refineries, oleochemicals, biofuels — Europe + Asia footprint), and Other (R&D, agribusiness services). Calendar fiscal year (Dec 31). Quarterly figures from Bursa Malaysia Form 8 reports filed via the IR portal; annual aggregates from Sime Darby Plantation / SD Guthrie annual reports' 5-year financial highlight tables. RM-billion figures translated to MYR-million (× 1000). Acres derived from disclosed planted hectares × 2.47 ÷ 1000. Net debt = total borrowings − cash & cash equivalents. NAV/share = total equity attributable to owners / weighted shares outstanding (~6,915M). Major events captured: 2017 demerger + Bursa listing; 2018 New Britain Palm Oil full consolidation; 2021-22 CPO super-cycle (price spike to RM7,000+/MT on Russia/Ukraine sunflower oil disruption); 2020-2024 US Customs and Border Protection Withhold Release Order over forced-labor allegations (issued Sep 2020, modified Jan 2024 allowing US imports to resume); late-2024 SD Guthrie rebrand. Some quarterly EBITDA values are estimates triangulated from disclosed quarterly PBT + finance costs + D&A where the quarterly Form 8 did not break out segment EBITDA explicitly. Pre-FY2017 not included — Sime Darby Plantation only became a stand-alone listed entity from 30 Nov 2017, so older figures are embedded inside legacy Sime Darby Berhad consolidated accounts and not directly comparable.",
+  "notes": "SD Guthrie Berhad (Bursa Malaysia: 5285) \u2014 world's largest oil-palm planter by certified-sustainable hectarage, ~568,000 ha (~1,400K acres) across Malaysia, Indonesia, Papua New Guinea/Solomon Islands, and Liberia. Formerly Sime Darby Plantation Berhad \u2014 carved out of Sime Darby Berhad's three-way demerger and listed on Bursa Malaysia Main Market on 30 November 2017; rebranded SD Guthrie Berhad in late 2024 to reclaim the historical 'Guthrie' identity that traces back to the 1821 founding of Guthrie & Co. Reportable IFRS 8 segments: Upstream Malaysia (FFB, CPO, PK), Upstream Indonesia, Upstream PNG/Solomons (legacy New Britain Palm Oil consolidated 2018), Downstream (refineries, oleochemicals, biofuels \u2014 Europe + Asia footprint), and Other (R&D, agribusiness services). Calendar fiscal year (Dec 31). Quarterly figures from Bursa Malaysia Form 8 reports filed via the IR portal; annual aggregates from Sime Darby Plantation / SD Guthrie annual reports' 5-year financial highlight tables. RM-billion figures translated to MYR-million (\u00d7 1000). Acres derived from disclosed planted hectares \u00d7 2.47 \u00f7 1000. Net debt = total borrowings \u2212 cash & cash equivalents. NAV/share = total equity attributable to owners / weighted shares outstanding (~6,915M). Major events captured: 2017 demerger + Bursa listing; 2018 New Britain Palm Oil full consolidation; 2021-22 CPO super-cycle (price spike to RM7,000+/MT on Russia/Ukraine sunflower oil disruption); 2020-2024 US Customs and Border Protection Withhold Release Order over forced-labor allegations (issued Sep 2020, modified Jan 2024 allowing US imports to resume); late-2024 SD Guthrie rebrand. Some quarterly EBITDA values are estimates triangulated from disclosed quarterly PBT + finance costs + D&A where the quarterly Form 8 did not break out segment EBITDA explicitly. Pre-FY2017 not included \u2014 Sime Darby Plantation only became a stand-alone listed entity from 30 Nov 2017, so older figures are embedded inside legacy Sime Darby Berhad consolidated accounts and not directly comparable.",
   "periods": [
     {
       "endDate": "2017-12-31",
@@ -101,7 +101,7 @@
       "bookValuePerShare": 2.34,
       "dividendPerShare": 0.025,
       "totalAcresK": 1395.0,
-      "notes": "FY19: Revenue RM12.79B, EBITDA RM1.62B, PATAMI RM25M (near break-even — impairments + lower CPO ASP RM2,080/MT through 1H, late-year rally). B20 biodiesel mandate launched",
+      "notes": "FY19: Revenue RM12.79B, EBITDA RM1.62B, PATAMI RM25M (near break-even \u2014 impairments + lower CPO ASP RM2,080/MT through 1H, late-year rally). B20 biodiesel mandate launched",
       "capexMM": 880,
       "daMM": 1010,
       "cfoMM": 1290
@@ -168,7 +168,14 @@
         "G&A": 157.8,
         "D&A": 207.4
       },
-      "notes": "4Q20: CPO ASP RM3,200/MT, year-end tailwind"
+      "notes": "4Q20: CPO ASP RM3,200/MT, year-end tailwind",
+      "plantation": {
+        "ffbYieldTPerHa": 20.2,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 2820,
+        "maturePlantedHa": 289000,
+        "rspoPct": 95
+      }
     },
     {
       "endDate": "2020-12-31",
@@ -209,7 +216,14 @@
       "notes": "FY20: Revenue RM13.83B (+8% YoY), EBITDA RM2.41B, PATAMI RM980M. CPO ASP avg RM2,685/MT. Impacted by COVID-19 + US CBP WRO from Sep 2020",
       "capexMM": 720,
       "daMM": 1040,
-      "cfoMM": 2780
+      "cfoMM": 2780,
+      "plantation": {
+        "ffbYieldTPerHa": 20.2,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 2820,
+        "maturePlantedHa": 289000,
+        "rspoPct": 95
+      }
     },
     {
       "endDate": "2021-03-31",
@@ -273,7 +287,14 @@
         "G&A": 193.2,
         "D&A": 253.1
       },
-      "notes": "4Q21: peak CPO pricing RM5,000/MT"
+      "notes": "4Q21: peak CPO pricing RM5,000/MT",
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 21.6,
+        "cpoAspPerMt": 4180,
+        "maturePlantedHa": 287000,
+        "rspoPct": 96
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -311,10 +332,17 @@
       "cpoExtractionRatePct": 21.6,
       "pkExtractionRatePct": 5.05,
       "matureHectaresK": 504,
-      "notes": "FY21: Revenue RM18.64B (+35% YoY), EBITDA RM4.15B, PATAMI RM1.99B. CPO super-cycle year — avg ASP RM4,395/MT. Recommended single-tier dividend 14.3 sen",
+      "notes": "FY21: Revenue RM18.64B (+35% YoY), EBITDA RM4.15B, PATAMI RM1.99B. CPO super-cycle year \u2014 avg ASP RM4,395/MT. Recommended single-tier dividend 14.3 sen",
       "capexMM": 850,
       "daMM": 1080,
-      "cfoMM": 3160
+      "cfoMM": 3160,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 21.6,
+        "cpoAspPerMt": 4180,
+        "maturePlantedHa": 287000,
+        "rspoPct": 96
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -378,7 +406,18 @@
         "G&A": 193.9,
         "D&A": 258.1
       },
-      "notes": "4Q22: CPO normalization RM4,000/MT"
+      "notes": "4Q22: CPO normalization RM4,000/MT",
+      "propertyBookMM": 18200,
+      "ppeBookMM": 7480,
+      "inventoryMM": 2680,
+      "intangibleAssetsMM": 830,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 21.5,
+        "cpoAspPerMt": 4720,
+        "maturePlantedHa": 285000,
+        "rspoPct": 98
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -419,7 +458,17 @@
       "notes": "FY22: Revenue RM21.30B (+14% YoY), EBITDA RM4.87B, PATAMI RM2.40B record. CPO ASP avg RM5,400/MT. Total payout 21.5 sen incl special",
       "capexMM": 1020,
       "daMM": 1140,
-      "cfoMM": 2810
+      "cfoMM": 2810,
+      "ppeBookMM": 7480,
+      "inventoryMM": 2680,
+      "intangibleAssetsMM": 830,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 21.5,
+        "cpoAspPerMt": 4720,
+        "maturePlantedHa": 285000,
+        "rspoPct": 98
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -483,7 +532,19 @@
         "G&A": 190.5,
         "D&A": 250.1
       },
-      "notes": "4Q23: includes impairment charges; CPO ASP RM3,800/MT"
+      "notes": "4Q23: includes impairment charges; CPO ASP RM3,800/MT",
+      "propertyBookMM": 18350,
+      "propertyFmvMM": 27800,
+      "ppeBookMM": 7650,
+      "inventoryMM": 2320,
+      "intangibleAssetsMM": 840,
+      "plantation": {
+        "ffbYieldTPerHa": 19.2,
+        "oerPct": 21.4,
+        "cpoAspPerMt": 3850,
+        "maturePlantedHa": 282000,
+        "rspoPct": 98
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -524,7 +585,18 @@
       "notes": "FY23: Revenue RM18.10B (-15% YoY), EBITDA RM3.01B, PATAMI RM1.05B on CPO normalization (avg ASP RM3,810/MT). US CBP modified WRO Jan 2024 allowing US imports to resume",
       "capexMM": 990,
       "daMM": 1180,
-      "cfoMM": 1490
+      "cfoMM": 1490,
+      "propertyFmvMM": 27800,
+      "ppeBookMM": 7650,
+      "inventoryMM": 2320,
+      "intangibleAssetsMM": 840,
+      "plantation": {
+        "ffbYieldTPerHa": 19.2,
+        "oerPct": 21.4,
+        "cpoAspPerMt": 3850,
+        "maturePlantedHa": 282000,
+        "rspoPct": 98
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -588,7 +660,19 @@
         "G&A": 205.1,
         "D&A": 270.1
       },
-      "notes": "4Q24: CPO ASP peak RM4,800/MT on weak supply outlook + biodiesel mandate"
+      "notes": "4Q24: CPO ASP peak RM4,800/MT on weak supply outlook + biodiesel mandate",
+      "propertyBookMM": 18500,
+      "propertyFmvMM": 28500,
+      "ppeBookMM": 7800,
+      "inventoryMM": 2450,
+      "intangibleAssetsMM": 850,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 21.5,
+        "cpoAspPerMt": 4150,
+        "maturePlantedHa": 280000,
+        "rspoPct": 98
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -638,6 +722,17 @@
         "1-3y": 2595.0,
         "3-5y": 2076.0,
         "5+y": 3633.0
+      },
+      "propertyFmvMM": 28500,
+      "ppeBookMM": 7800,
+      "inventoryMM": 2450,
+      "intangibleAssetsMM": 850,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 21.5,
+        "cpoAspPerMt": 4150,
+        "maturePlantedHa": 280000,
+        "rspoPct": 98
       }
     },
     {

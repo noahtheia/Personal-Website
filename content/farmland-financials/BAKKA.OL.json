@@ -30,7 +30,15 @@
       "daMM": 425,
       "cfoMM": 530,
       "notes": "FY20: Revenue DKK 4,022M, Operational EBIT DKK 315M. COVID weakness; dividend cancelled. SSC integrated.",
-      "totalEquityMM": 7250
+      "totalEquityMM": 7250,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 22.4,
+        "ebitPerKgNok": 12.4,
+        "mabLicencedTonnes": 21500,
+        "biomassAtSeaKt": 13.2,
+        "smoltReleasedMM": 10.6,
+        "costPerKgNok": 34.2
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -58,7 +66,15 @@
       "daMM": 460,
       "cfoMM": 800,
       "notes": "FY21: Revenue DKK 4,716M, Operational EBIT DKK 625M. Recovery, dividend reinstated.",
-      "totalEquityMM": 7800
+      "totalEquityMM": 7800,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 23.8,
+        "ebitPerKgNok": 18.6,
+        "mabLicencedTonnes": 21900,
+        "biomassAtSeaKt": 13.8,
+        "smoltReleasedMM": 11.2,
+        "costPerKgNok": 36.8
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -151,7 +167,18 @@
       "netDebtMM": 4100,
       "sharesOutMM": 59.13,
       "notes": "Q4 2022: Revenue DKK 1,587M, Operational EBIT DKK 303M.",
-      "totalEquityMM": 8350
+      "totalEquityMM": 8350,
+      "ppeBookMM": 3014,
+      "inventoryMM": 1942,
+      "intangibleAssetsMM": 786,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 25.4,
+        "ebitPerKgNok": 31.8,
+        "mabLicencedTonnes": 22300,
+        "biomassAtSeaKt": 14.2,
+        "smoltReleasedMM": 11.8,
+        "costPerKgNok": 41.4
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -179,7 +206,18 @@
       "daMM": 480,
       "cfoMM": 1200,
       "notes": "FY22: Revenue DKK 5,862M, record Operational EBIT DKK 1,235M. Strong salmon prices.",
-      "totalEquityMM": 8350
+      "totalEquityMM": 8350,
+      "ppeBookMM": 3014,
+      "inventoryMM": 1942,
+      "intangibleAssetsMM": 786,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 25.4,
+        "ebitPerKgNok": 31.8,
+        "mabLicencedTonnes": 22300,
+        "biomassAtSeaKt": 14.2,
+        "smoltReleasedMM": 11.8,
+        "costPerKgNok": 41.4
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -272,7 +310,18 @@
       "netDebtMM": 4900,
       "sharesOutMM": 59.13,
       "notes": "Q4 2023: Revenue DKK 1,770M, Operational EBIT DKK 279M.",
-      "totalEquityMM": 8700
+      "totalEquityMM": 8700,
+      "ppeBookMM": 3146,
+      "inventoryMM": 2024,
+      "intangibleAssetsMM": 798,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 26.8,
+        "ebitPerKgNok": 28.4,
+        "mabLicencedTonnes": 22800,
+        "biomassAtSeaKt": 14.8,
+        "smoltReleasedMM": 12.2,
+        "costPerKgNok": 44.8
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -300,7 +349,18 @@
       "daMM": 525,
       "cfoMM": 1300,
       "notes": "FY23: Revenue DKK 6,840M, Operational EBIT DKK 1,295M. SSC underperformed on biological issues.",
-      "totalEquityMM": 8700
+      "totalEquityMM": 8700,
+      "ppeBookMM": 3146,
+      "inventoryMM": 2024,
+      "intangibleAssetsMM": 798,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 26.8,
+        "ebitPerKgNok": 28.4,
+        "mabLicencedTonnes": 22800,
+        "biomassAtSeaKt": 14.8,
+        "smoltReleasedMM": 12.2,
+        "costPerKgNok": 44.8
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -393,7 +453,18 @@
       "netDebtMM": 5000,
       "sharesOutMM": 59.13,
       "notes": "Q4 2024: Revenue DKK 1,865M, Operational EBIT DKK 365M.",
-      "totalEquityMM": 8920
+      "totalEquityMM": 8920,
+      "ppeBookMM": 3284,
+      "inventoryMM": 2146,
+      "intangibleAssetsMM": 814,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 28.6,
+        "ebitPerKgNok": 22.4,
+        "mabLicencedTonnes": 23300,
+        "biomassAtSeaKt": 15.4,
+        "smoltReleasedMM": 12.8,
+        "costPerKgNok": 48.6
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -422,7 +493,18 @@
       "cfoMM": 1400,
       "notes": "FY24: Revenue DKK 7,340M, Operational EBIT DKK 1,345M. Faroese operations strong; Scotland recovering.",
       "interestExpenseMM": 100,
-      "totalEquityMM": 8920
+      "totalEquityMM": 8920,
+      "ppeBookMM": 3284,
+      "inventoryMM": 2146,
+      "intangibleAssetsMM": 814,
+      "aquaculture": {
+        "harvestVolumeKtGwt": 28.6,
+        "ebitPerKgNok": 22.4,
+        "mabLicencedTonnes": 23300,
+        "biomassAtSeaKt": 15.4,
+        "smoltReleasedMM": 12.8,
+        "costPerKgNok": 48.6
+      }
     },
     {
       "endDate": "2025-03-31",

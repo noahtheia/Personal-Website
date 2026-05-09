@@ -19,7 +19,11 @@
       "capexMM": 22000,
       "daMM": 18500,
       "cfoMM": 32000,
-      "totalEquityMM": 215000
+      "totalEquityMM": 215000,
+      "protein": {
+        "plants": 118,
+        "capacityUtilizationPct": 80
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -36,7 +40,11 @@
       "capexMM": 26000,
       "daMM": 20500,
       "cfoMM": 21000,
-      "totalEquityMM": 232000
+      "totalEquityMM": 232000,
+      "protein": {
+        "plants": 120,
+        "capacityUtilizationPct": 84
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -53,7 +61,15 @@
       "capexMM": 31000,
       "daMM": 23000,
       "cfoMM": 18000,
-      "totalEquityMM": 245000
+      "totalEquityMM": 245000,
+      "propertyBookMM": 225000,
+      "ppeBookMM": 225000,
+      "inventoryMM": 148000,
+      "intangibleAssetsMM": 65800,
+      "protein": {
+        "plants": 125,
+        "capacityUtilizationPct": 82
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -82,7 +98,15 @@
       "capexMM": 28000,
       "daMM": 24500,
       "cfoMM": 28000,
-      "totalEquityMM": 248000
+      "totalEquityMM": 248000,
+      "propertyBookMM": 238000,
+      "ppeBookMM": 238000,
+      "inventoryMM": 136000,
+      "intangibleAssetsMM": 67200,
+      "protein": {
+        "plants": 128,
+        "capacityUtilizationPct": 76
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -115,7 +139,15 @@
       "ebitdaMM": 9000,
       "netIncomeMM": -898,
       "notes": "Q4 23",
-      "totalEquityMM": 248000
+      "totalEquityMM": 248000,
+      "propertyBookMM": 238000,
+      "ppeBookMM": 238000,
+      "inventoryMM": 136000,
+      "intangibleAssetsMM": 67200,
+      "protein": {
+        "plants": 128,
+        "capacityUtilizationPct": 76
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -152,7 +184,15 @@
         "3-5y": 63750.0,
         "5+y": 85000.0
       },
-      "totalEquityMM": 252000
+      "totalEquityMM": 252000,
+      "propertyBookMM": 245000,
+      "ppeBookMM": 245000,
+      "inventoryMM": 142000,
+      "intangibleAssetsMM": 68500,
+      "protein": {
+        "plants": 130,
+        "capacityUtilizationPct": 80
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -185,7 +225,15 @@
       "ebitdaMM": 12300,
       "netIncomeMM": 5130,
       "notes": "Q4 24",
-      "totalEquityMM": 252000
+      "totalEquityMM": 252000,
+      "propertyBookMM": 245000,
+      "ppeBookMM": 245000,
+      "inventoryMM": 142000,
+      "intangibleAssetsMM": 68500,
+      "protein": {
+        "plants": 130,
+        "capacityUtilizationPct": 80
+      }
     }
   ]
 }
