@@ -1,193 +1,253 @@
 "use client";
 
-// Per-period sector-block KPIs as a grid of mini sparklines on the
-// detail page. Reads from period.{block}.{field} (new nested shape) and
-// falls back to flat per-period fields (existing palm/tea data already
-// in the financials JSONs for ~32 plantation tickers). Only renders
-// metrics with 2+ periods of populated data. Also derives market-share
-// trend from peer financials when peer data is supplied.
+// Per-period sector-block KPIs displayed as a tabbed single-chart view
+// styled to match the Financial Snapshot. Reads from period.{block}.{field}
+// (new nested shape) and falls back to flat per-period fields for legacy
+// palm/tea data. Only metrics with 2+ populated points are surfaced as tabs.
 
+import { useMemo, useRef, useState } from "react";
 import type { Financials, FinancialsPeriod } from "@/lib/farmland-financials";
 import { tipFor } from "@/lib/farmland-glossary";
 
 type Extractor = (p: FinancialsPeriod) => number | null | undefined;
 
 type Metric = {
+  id: string;
   label: string;
   unit: string;
   format: (v: number) => string;
+  formatTick: (v: number) => string;
   extract: Extractor;
 };
 
-// Metrics shown in the trend grid. Includes both nested (new) and flat
-// (legacy palm/tea) shapes; the renderer accepts whichever is populated.
 const METRICS: Metric[] = [
   // Plantation — palm + tea
   {
+    id: "ffbYield",
     label: "FFB yield",
     unit: "t/ha",
-    format: (v) => v.toFixed(1),
+    format: (v) => `${v.toFixed(1)} t/ha`,
+    formatTick: (v) => v.toFixed(1),
     extract: (p) => p.plantation?.ffbYieldTPerHa ?? p.ffbYieldTPerHa,
   },
   {
+    id: "oer",
     label: "OER",
     unit: "%",
-    format: (v) => `${v.toFixed(1)}%`,
+    format: (v) => `${v.toFixed(2)}%`,
+    formatTick: (v) => `${v.toFixed(1)}%`,
     extract: (p) => p.plantation?.oerPct ?? p.cpoExtractionRatePct,
   },
   {
+    id: "ker",
     label: "KER",
     unit: "%",
-    format: (v) => `${v.toFixed(1)}%`,
+    format: (v) => `${v.toFixed(2)}%`,
+    formatTick: (v) => `${v.toFixed(1)}%`,
     extract: (p) => p.plantation?.kerPct ?? p.pkExtractionRatePct,
   },
   {
+    id: "cpoAsp",
     label: "CPO ASP",
     unit: "/t",
     format: (v) => fmtCompact(v),
+    formatTick: (v) => fmtCompact(v),
     extract: (p) => p.plantation?.cpoAspPerMt,
   },
   {
+    id: "cpoCost",
     label: "CPO cost",
     unit: "/t",
     format: (v) => fmtCompact(v),
+    formatTick: (v) => fmtCompact(v),
     extract: (p) => p.plantation?.cpoCostPerMt,
   },
   {
+    id: "ffbProd",
     label: "FFB production",
     unit: "kt",
-    format: (v) => fmtCompact(v),
+    format: (v) => `${fmtCompact(v)} kt`,
+    formatTick: (v) => fmtCompact(v),
     extract: (p) => p.ffbProductionTonnesK,
   },
   {
+    id: "cpoProd",
     label: "CPO production",
     unit: "kt",
-    format: (v) => fmtCompact(v),
+    format: (v) => `${fmtCompact(v)} kt`,
+    formatTick: (v) => fmtCompact(v),
     extract: (p) => p.cpoProductionTonnesK,
   },
   {
+    id: "matureHa",
     label: "Mature hectares",
     unit: "K",
-    format: (v) => fmtCompact(v),
+    format: (v) => `${fmtCompact(v)} K ha`,
+    formatTick: (v) => fmtCompact(v),
     extract: (p) => p.matureHectaresK,
   },
   {
+    id: "rspo",
     label: "RSPO certified",
     unit: "%",
     format: (v) => `${v.toFixed(0)}%`,
+    formatTick: (v) => `${v.toFixed(0)}%`,
     extract: (p) => p.plantation?.rspoPct,
   },
   // Tea
   {
+    id: "madeTea",
     label: "Made tea",
     unit: "kt",
-    format: (v) => fmtCompact(v),
+    format: (v) => `${fmtCompact(v)} kt`,
+    formatTick: (v) => fmtCompact(v),
     extract: (p) => p.madeTeaProductionTonnesK ?? p.teaProductionTonnesK,
   },
   {
+    id: "teaYield",
     label: "Tea yield",
     unit: "kg/ha",
-    format: (v) => fmtCompact(v),
+    format: (v) => `${fmtCompact(v)} kg/ha`,
+    formatTick: (v) => fmtCompact(v),
     extract: (p) => p.teaYieldKgPerHa,
   },
   // Aquaculture
   {
+    id: "harvest",
     label: "Harvest",
     unit: "kt GWT",
-    format: (v) => fmtCompact(v),
+    format: (v) => `${fmtCompact(v)} kt`,
+    formatTick: (v) => fmtCompact(v),
     extract: (p) => p.aquaculture?.harvestVolumeKtGwt,
   },
   {
+    id: "ebitPerKg",
     label: "EBIT / kg",
     unit: "NOK",
-    format: (v) => v.toFixed(1),
+    format: (v) => `${v.toFixed(1)} NOK`,
+    formatTick: (v) => v.toFixed(1),
     extract: (p) => p.aquaculture?.ebitPerKgNok,
   },
   {
+    id: "costPerKg",
     label: "Cost / kg",
     unit: "NOK",
-    format: (v) => v.toFixed(1),
+    format: (v) => `${v.toFixed(1)} NOK`,
+    formatTick: (v) => v.toFixed(1),
     extract: (p) => p.aquaculture?.costPerKgNok,
   },
   // Protein
   {
+    id: "capUtil",
     label: "Capacity utilization",
     unit: "%",
     format: (v) => `${v.toFixed(0)}%`,
+    formatTick: (v) => `${v.toFixed(0)}%`,
     extract: (p) => p.protein?.capacityUtilizationPct,
   },
   {
+    id: "plants",
     label: "Plants",
     unit: "count",
     format: (v) => `${Math.round(v)}`,
+    formatTick: (v) => `${Math.round(v)}`,
     extract: (p) => p.protein?.plants,
   },
   // Crop Inputs
   {
+    id: "gasCost",
     label: "Gas cost",
     unit: "$/MMBtu",
     format: (v) => `$${v.toFixed(2)}`,
+    formatTick: (v) => `$${v.toFixed(1)}`,
     extract: (p) => p.cropInputs?.gasCostUSDPerMMBtu,
   },
   {
+    id: "rdSales",
     label: "R&D / sales",
     unit: "%",
-    format: (v) => `${v.toFixed(1)}%`,
+    format: (v) => `${v.toFixed(2)}%`,
+    formatTick: (v) => `${v.toFixed(1)}%`,
     extract: (p) => p.cropInputs?.rdSpendPctOfRevenue,
   },
   // Dairy
   {
+    id: "milkIntake",
     label: "Milk intake",
     unit: "ML",
-    format: (v) => fmtCompact(v),
+    format: (v) => `${fmtCompact(v)} ML`,
+    formatTick: (v) => fmtCompact(v),
     extract: (p) => p.dairy?.milkIntakeMlitres,
   },
   {
+    id: "cowHerd",
     label: "Cow herd",
     unit: "K",
-    format: (v) => fmtCompact(v),
+    format: (v) => `${fmtCompact(v)} K`,
+    formatTick: (v) => fmtCompact(v),
     extract: (p) => p.dairy?.cowHerdK,
   },
   // Egg
   {
+    id: "layingFlock",
     label: "Laying flock",
     unit: "M",
-    format: (v) => v.toFixed(1),
+    format: (v) => `${v.toFixed(1)}M`,
+    formatTick: (v) => v.toFixed(1),
     extract: (p) => p.egg?.layingHenFlockMM,
   },
   {
+    id: "eggAsp",
     label: "ASP / dozen",
     unit: "$",
     format: (v) => `$${v.toFixed(2)}`,
+    formatTick: (v) => `$${v.toFixed(2)}`,
     extract: (p) => p.egg?.avgSellingPricePerDozen,
   },
   // Trader
   {
+    id: "throughput",
     label: "Throughput",
     unit: "MMT",
-    format: (v) => v.toFixed(1),
+    format: (v) => `${v.toFixed(1)} MMT`,
+    formatTick: (v) => v.toFixed(1),
     extract: (p) => p.trader?.throughputMtMM,
   },
   {
+    id: "ethanol",
     label: "Ethanol",
     unit: "M gal",
-    format: (v) => fmtCompact(v),
+    format: (v) => `${fmtCompact(v)} M gal`,
+    formatTick: (v) => fmtCompact(v),
     extract: (p) => p.trader?.ethanolGalsMM,
   },
   // REIT
   {
+    id: "occupancy",
     label: "Occupancy",
     unit: "%",
     format: (v) => `${v.toFixed(1)}%`,
+    formatTick: (v) => `${v.toFixed(0)}%`,
     extract: (p) => p.reit?.occupancyPct,
   },
   {
+    id: "affoPerShare",
     label: "AFFO / share",
     unit: "$",
     format: (v) => `$${v.toFixed(2)}`,
+    formatTick: (v) => `$${v.toFixed(2)}`,
     extract: (p) => p.reit?.affoPerShare,
   },
 ];
+
+const W = 760;
+const H = 320;
+const PAD = { top: 28, right: 32, bottom: 36, left: 64 };
+
+type Series = {
+  metric: Metric;
+  points: { dateMs: number; value: number; endDate: string }[];
+};
 
 export function FarmlandSectorTrends({
   financials,
@@ -200,42 +260,62 @@ export function FarmlandSectorTrends({
 }) {
   if (!financials || financials.periods.length < 2) return null;
 
-  // FY-and-LTM only: quarterly noise hides the trend signal we care
-  // about for sector-block KPIs. (Most operational metrics are reported
-  // annually anyway.)
-  const periods = [...financials.periods]
-    .filter((p) => p.periodType === "FY" || p.periodType === "LTM")
-    .sort((a, b) => a.endDate.localeCompare(b.endDate));
+  const periods = useMemo(
+    () =>
+      [...financials.periods]
+        .filter((p) => p.periodType === "FY" || p.periodType === "LTM")
+        .sort((a, b) => a.endDate.localeCompare(b.endDate)),
+    [financials],
+  );
 
-  if (periods.length < 2) return null;
+  const populated: Series[] = useMemo(() => {
+    const out: Series[] = [];
 
-  const populated = METRICS.flatMap((m) => {
-    const series = periods
-      .map((p) => ({ endDate: p.endDate, value: m.extract(p) }))
-      .filter(
-        (d): d is { endDate: string; value: number } =>
-          typeof d.value === "number" && Number.isFinite(d.value),
-      );
-    if (series.length < 2) return [];
-    return [{ metric: m, series }];
-  });
+    if (marketShareSeries && marketShareSeries.length >= 2) {
+      out.push({
+        metric: {
+          id: "marketShare",
+          label: sector
+            ? `Share of ${sector.replace(/ \/ .*$/, "")} sector`
+            : "Sector market share",
+          unit: "%",
+          format: (v) => `${v.toFixed(2)}%`,
+          formatTick: (v) => `${v.toFixed(1)}%`,
+          extract: () => null,
+        },
+        points: marketShareSeries.map((s) => ({
+          dateMs: new Date(s.endDate).getTime(),
+          value: s.value,
+          endDate: s.endDate,
+        })),
+      });
+    }
 
-  // Market-share-of-sector series — pre-computed server-side, prepended
-  // when supplied so it sits at the top of the trend grid as the most
-  // visible cross-sector contextualizer.
-  if (marketShareSeries && marketShareSeries.length >= 2) {
-    populated.unshift({
-      metric: {
-        label: sector
-          ? `Share of ${sector.replace(/ \/ .*$/, "")} sector`
-          : "Sector market share",
-        unit: "%",
-        format: (v) => `${v.toFixed(1)}%`,
-        extract: () => null,
-      },
-      series: marketShareSeries,
-    });
-  }
+    for (const m of METRICS) {
+      const pts = periods
+        .map((p) => ({
+          dateMs: new Date(p.endDate).getTime(),
+          value: m.extract(p),
+          endDate: p.endDate,
+        }))
+        .filter(
+          (d): d is { dateMs: number; value: number; endDate: string } =>
+            typeof d.value === "number" && Number.isFinite(d.value),
+        );
+      if (pts.length >= 2) out.push({ metric: m, points: pts });
+    }
+    return out;
+  }, [periods, marketShareSeries, sector]);
+
+  const [activeId, setActiveId] = useState<string>(
+    () => populated[0]?.metric.id ?? "",
+  );
+  const [hoverIdx, setHoverIdx] = useState<number | null>(null);
+  const svgRef = useRef<SVGSVGElement>(null);
+
+  const active = populated.find((s) => s.metric.id === activeId) ?? populated[0];
+
+  const view = useMemo(() => (active ? buildView(active) : null), [active]);
 
   if (populated.length === 0) {
     return (
@@ -246,112 +326,295 @@ export function FarmlandSectorTrends({
         <p className="mt-2 text-sm text-muted">
           Per-period sector-specific KPIs (FFB yield, capacity utilization,
           harvest volume, etc.) haven&apos;t been populated for this issuer
-          yet. Cross-section snapshot is in the &quot;Sector KPIs&quot; card
-          above.
+          yet.
         </p>
       </section>
     );
   }
 
+  function onMove(e: React.PointerEvent<SVGSVGElement>) {
+    if (!view) return;
+    const svg = svgRef.current;
+    if (!svg) return;
+    const rect = svg.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * W;
+    let idx = 0;
+    let best = Infinity;
+    for (let i = 0; i < view.xs.length; i++) {
+      const d = Math.abs(view.xs[i] - x);
+      if (d < best) {
+        best = d;
+        idx = i;
+      }
+    }
+    setHoverIdx(idx);
+  }
+
+  function onLeave() {
+    setHoverIdx(null);
+  }
+
+  if (!active || !view) return null;
+
+  const last = active.points[active.points.length - 1];
+  const first = active.points[0];
+  const hovered = hoverIdx !== null ? active.points[hoverIdx] : null;
+  const direction =
+    last.value > first.value
+      ? "var(--positive)"
+      : last.value < first.value
+      ? "var(--negative)"
+      : "var(--accent)";
+  const tip = tipFor(active.metric.label);
+
   return (
     <section className="mt-8">
-      <header className="mb-4">
-        <h2 className="font-display text-lg font-semibold">
-          Sector Trends
-        </h2>
-        <p className="mt-1 text-sm text-muted">
-          Per-period operational KPIs across the disclosed history.
-          Sparklines show full series; the chip on the right is the most
-          recent value.
-        </p>
-      </header>
-      <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
-        {populated.map(({ metric, series }) => (
-          <MetricSpark key={metric.label} metric={metric} series={series} />
-        ))}
+      <SectionHeader
+        title="Sector trends"
+        subtitle={`${populated.length} populated KPIs · ${
+          periods[0].endDate.slice(0, 4)
+        }–${periods[periods.length - 1].endDate.slice(0, 4)}`}
+      />
+
+      <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-b border-rule pb-3">
+        <div role="tablist" aria-label="KPI" className="flex flex-wrap gap-1">
+          {populated.map((s) => {
+            const on = s.metric.id === active.metric.id;
+            return (
+              <button
+                key={s.metric.id}
+                role="tab"
+                aria-selected={on}
+                onClick={() => {
+                  setActiveId(s.metric.id);
+                  setHoverIdx(null);
+                }}
+                className={`rounded-sm border px-2.5 py-1 text-xs transition-colors ${
+                  on
+                    ? "border-[var(--accent-warm)] bg-[var(--accent-warm)] !text-fg"
+                    : "border-rule !text-fg hover:border-[var(--accent-warm)] hover:!text-[var(--accent-warm-hover)]"
+                }`}
+              >
+                {s.metric.label}
+              </button>
+            );
+          })}
+        </div>
       </div>
+
+      <div className="mt-4 flex flex-wrap items-baseline justify-between gap-3">
+        <div>
+          <div
+            className="font-display text-2xl font-semibold tabular-nums"
+            style={{ color: direction }}
+          >
+            {hovered
+              ? active.metric.format(hovered.value)
+              : active.metric.format(last.value)}
+          </div>
+          <div
+            className={`text-xs text-muted ${
+              tip ? "cursor-help decoration-dotted underline-offset-2" : ""
+            }`}
+            style={tip ? { textDecorationLine: "underline" } : undefined}
+            title={tip}
+          >
+            {hovered
+              ? formatDate(hovered.dateMs)
+              : `${formatDate(first.dateMs)} → ${formatDate(last.dateMs)}`}{" "}
+            · {active.points.length} pts
+          </div>
+        </div>
+        <div className="text-right text-xs">
+          <div className="text-muted">First → Latest</div>
+          <div className="text-sm font-medium tabular-nums">
+            {active.metric.format(first.value)} →{" "}
+            <span style={{ color: direction }}>
+              {active.metric.format(last.value)}
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <svg
+        ref={svgRef}
+        viewBox={`0 0 ${W} ${H}`}
+        role="img"
+        aria-label={`${active.metric.label} trend`}
+        className="mt-3 w-full touch-none select-none"
+        onPointerMove={onMove}
+        onPointerLeave={onLeave}
+      >
+        {view.yTicks.map((t, i) => (
+          <g key={`y-${i}`}>
+            <line
+              x1={PAD.left}
+              x2={W - PAD.right}
+              y1={t.y}
+              y2={t.y}
+              stroke="var(--border)"
+              strokeDasharray="2 3"
+            />
+            <text
+              x={PAD.left - 8}
+              y={t.y}
+              textAnchor="end"
+              dominantBaseline="middle"
+              fontSize="10"
+              fill="var(--muted)"
+            >
+              {active.metric.formatTick(t.value)}
+            </text>
+          </g>
+        ))}
+
+        {view.xTicks.map((t, i) => (
+          <text
+            key={`x-${i}`}
+            x={t.x}
+            y={H - PAD.bottom + 16}
+            textAnchor={t.anchor}
+            fontSize="10"
+            fill="var(--muted)"
+          >
+            {t.label}
+          </text>
+        ))}
+
+        <path
+          d={view.path}
+          fill="none"
+          stroke={direction}
+          strokeWidth="2"
+          strokeLinejoin="round"
+          strokeLinecap="round"
+        />
+
+        {view.xs.map((x, i) => (
+          <circle
+            key={`pt-${i}`}
+            cx={x}
+            cy={view.ys[i]}
+            r={hoverIdx === i ? 4 : 2.5}
+            fill={direction}
+          />
+        ))}
+
+        {hoverIdx !== null && (
+          <>
+            <line
+              x1={view.xs[hoverIdx]}
+              x2={view.xs[hoverIdx]}
+              y1={PAD.top}
+              y2={H - PAD.bottom}
+              stroke="var(--muted)"
+              strokeDasharray="2 3"
+            />
+          </>
+        )}
+      </svg>
     </section>
   );
 }
 
-function MetricSpark({
-  metric,
-  series,
-}: {
-  metric: Metric;
-  series: { endDate: string; value: number }[];
-}) {
-  const W = 220;
-  const H = 38;
-  const PAD = 4;
-  const min = Math.min(...series.map((s) => s.value));
-  const max = Math.max(...series.map((s) => s.value));
-  const range = max - min || 1;
-  const stepX = (W - PAD * 2) / (series.length - 1);
-  const path = series
-    .map((s, i) => {
-      const x = (PAD + i * stepX).toFixed(1);
-      const y = (
-        H - PAD - ((s.value - min) / range) * (H - PAD * 2)
-      ).toFixed(1);
-      return `${i === 0 ? "M" : "L"}${x},${y}`;
-    })
-    .join(" ");
-  const lastX = (PAD + (series.length - 1) * stepX).toFixed(1);
-  const lastY = (
-    H - PAD - ((series[series.length - 1].value - min) / range) * (H - PAD * 2)
-  ).toFixed(1);
-  const direction =
-    series[series.length - 1].value > series[0].value
-      ? "var(--positive)"
-      : series[series.length - 1].value < series[0].value
-      ? "var(--negative)"
-      : "var(--accent)";
-  const tip = tipFor(metric.label);
-  const latest = series[series.length - 1];
+function buildView(s: Series) {
+  const values = s.points.map((p) => p.value);
+  const dates = s.points.map((p) => p.dateMs);
+  let lo = Math.min(...values);
+  let hi = Math.max(...values);
+  if (lo === hi) {
+    const pad = Math.abs(lo) * 0.05 || 1;
+    lo -= pad;
+    hi += pad;
+  }
+  lo = niceFloor(lo);
+  hi = niceCeil(hi);
+  const dateMin = Math.min(...dates);
+  const dateMax = Math.max(...dates);
+  const dateRange = dateMax - dateMin || 1;
 
-  return (
-    <div className="rounded-sm border border-rule bg-surface p-3">
-      <div className="flex items-baseline justify-between gap-2">
-        <p
-          className={`text-[10px] uppercase tracking-wider text-muted ${
-            tip ? "cursor-help decoration-dotted underline-offset-2" : ""
-          }`}
-          style={tip ? { textDecorationLine: "underline" } : undefined}
-          title={tip}
-        >
-          {metric.label}
-        </p>
-        <span className="text-[10px] text-muted">
-          {series.length} pts · {series[0].endDate.slice(0, 4)}–
-          {latest.endDate.slice(0, 4)}
-        </span>
-      </div>
-      <div className="mt-1 flex items-center justify-between gap-2">
-        <svg
-          viewBox={`0 0 ${W} ${H}`}
-          width={W}
-          height={H}
-          role="img"
-          aria-label={`${metric.label} trend`}
-        >
-          <path
-            d={path}
-            fill="none"
-            stroke={direction}
-            strokeWidth="1.5"
-          />
-          <circle cx={lastX} cy={lastY} r="2" fill={direction} />
-        </svg>
-        <span
-          className="font-display text-sm font-semibold tabular-nums"
-          style={{ color: direction }}
-        >
-          {metric.format(latest.value)}
-        </span>
-      </div>
-    </div>
+  const xs = s.points.map(
+    (p) => PAD.left + ((p.dateMs - dateMin) / dateRange) * (W - PAD.left - PAD.right),
   );
+  const ys = s.points.map(
+    (p) =>
+      H - PAD.bottom - ((p.value - lo) / (hi - lo)) * (H - PAD.top - PAD.bottom),
+  );
+  const path = xs
+    .map((x, i) => `${i === 0 ? "M" : "L"}${x.toFixed(1)},${ys[i].toFixed(1)}`)
+    .join(" ");
+
+  const yTicks = makeYTicks(lo, hi);
+  const xTicks = makeXTicks(s.points);
+
+  return { path, xs, ys, yTicks, xTicks };
+}
+
+function makeYTicks(lo: number, hi: number) {
+  const n = 4;
+  const step = (hi - lo) / n;
+  const ticks: { value: number; y: number }[] = [];
+  for (let i = 0; i <= n; i++) {
+    const value = lo + step * i;
+    const y =
+      H - PAD.bottom - ((value - lo) / (hi - lo)) * (H - PAD.top - PAD.bottom);
+    ticks.push({ value, y });
+  }
+  return ticks;
+}
+
+function makeXTicks(
+  points: { dateMs: number; value: number; endDate: string }[],
+) {
+  if (points.length === 0) return [];
+  const first = points[0];
+  const last = points[points.length - 1];
+  const dateMin = first.dateMs;
+  const dateMax = last.dateMs;
+  const range = dateMax - dateMin || 1;
+  const ticks: { x: number; label: string; anchor: "start" | "middle" | "end" }[] =
+    [];
+  ticks.push({
+    x: PAD.left,
+    label: first.endDate.slice(0, 4),
+    anchor: "start",
+  });
+  if (points.length >= 4) {
+    const midMs = dateMin + range / 2;
+    const midX = PAD.left + 0.5 * (W - PAD.left - PAD.right);
+    const mid = points.reduce((best, p) =>
+      Math.abs(p.dateMs - midMs) < Math.abs(best.dateMs - midMs) ? p : best,
+    );
+    ticks.push({ x: midX, label: mid.endDate.slice(0, 4), anchor: "middle" });
+  }
+  ticks.push({
+    x: W - PAD.right,
+    label: last.endDate.slice(0, 4),
+    anchor: "end",
+  });
+  return ticks;
+}
+
+function niceFloor(v: number) {
+  if (v === 0) return 0;
+  if (v < 0) return -niceCeil(-v);
+  const mag = Math.pow(10, Math.floor(Math.log10(v)));
+  return Math.floor(v / mag) * mag;
+}
+
+function niceCeil(v: number) {
+  if (v <= 0) return 1;
+  const mag = Math.pow(10, Math.floor(Math.log10(v)));
+  return Math.ceil(v / mag) * mag;
+}
+
+function formatDate(ms: number): string {
+  const d = new Date(ms);
+  return d.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  });
 }
 
 function fmtCompact(n: number): string {
@@ -360,4 +623,23 @@ function fmtCompact(n: number): string {
   if (abs >= 1e6) return `${(n / 1e6).toFixed(2)}M`;
   if (abs >= 1e4) return `${(n / 1e3).toFixed(1)}K`;
   return Math.round(n).toLocaleString("en-US");
+}
+
+function SectionHeader({
+  title,
+  subtitle,
+}: {
+  title: string;
+  subtitle?: string;
+}) {
+  return (
+    <div className="border-b border-rule pb-2">
+      <h2 className="font-display text-lg font-semibold">{title}</h2>
+      {subtitle && (
+        <p className="mt-1 text-xs uppercase tracking-wider text-muted">
+          {subtitle}
+        </p>
+      )}
+    </div>
+  );
 }
