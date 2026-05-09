@@ -248,6 +248,23 @@ const PeriodSchema = z.object({
       boardCrushCapturePct: z.number().min(0).max(200).optional(),
     })
     .optional(),
+  // Segment-EBITDA tuples for diversified holdcos (ABF, CSAN, INDF,
+  // ICBP, F34, etc.) that don't fit a single sector block. Each entry
+  // carries the segment label plus its revenue and EBITDA contribution
+  // for the period — enables sum-of-parts visualization.
+  segmentEbitdaMM: z
+    .array(
+      z.object({
+        segment: z.string(),
+        revenueMM: z.number().optional(),
+        ebitdaMM: z.number().optional(),
+      }),
+    )
+    .optional(),
+  // Non-ag revenue share (Diversified holdcos). Comps-row schema also
+  // carries this as a snapshot; per-period lets it shift over time
+  // (e.g. Primark's share of ABF rose from ~50% to ~75% over 2020-25).
+  nonAgricultureRevenuePct: z.number().min(0).max(100).optional(),
 });
 
 const FinancialsSchema = z.object({
