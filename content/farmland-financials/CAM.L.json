@@ -656,7 +656,14 @@
       "capexMM": 14,
       "daMM": 14,
       "cfoMM": 14,
-      "totalEquityMM": 470
+      "totalEquityMM": 470,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 520,
+        "maturePlantedHa": 22100,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2021-06-30",
@@ -695,7 +702,14 @@
       "capexMM": 13,
       "daMM": 14,
       "cfoMM": 10,
-      "totalEquityMM": 460
+      "totalEquityMM": 460,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 21.6,
+        "cpoAspPerMt": 740,
+        "maturePlantedHa": 22200,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2022-06-30",
@@ -733,7 +747,18 @@
       "capexMM": 12,
       "daMM": 14,
       "cfoMM": 6,
-      "totalEquityMM": 410
+      "totalEquityMM": 410,
+      "propertyBookMM": 158,
+      "ppeBookMM": 74,
+      "inventoryMM": 19,
+      "intangibleAssetsMM": 4,
+      "plantation": {
+        "ffbYieldTPerHa": 18.2,
+        "oerPct": 21.5,
+        "cpoAspPerMt": 850,
+        "maturePlantedHa": 22300,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2023-06-30",
@@ -771,7 +796,18 @@
       "capexMM": 11,
       "daMM": 14,
       "cfoMM": 8,
-      "totalEquityMM": 380
+      "totalEquityMM": 380,
+      "propertyBookMM": 162,
+      "ppeBookMM": 76,
+      "inventoryMM": 17,
+      "intangibleAssetsMM": 4,
+      "plantation": {
+        "ffbYieldTPerHa": 17.8,
+        "oerPct": 21.4,
+        "cpoAspPerMt": 670,
+        "maturePlantedHa": 22400,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2024-06-30",
@@ -813,7 +849,17 @@
       "daMM": 13,
       "cfoMM": 12,
       "interestExpenseMM": 5,
-      "totalEquityMM": 360
+      "totalEquityMM": 360,
+      "ppeBookMM": 78,
+      "inventoryMM": 18,
+      "intangibleAssetsMM": 4,
+      "plantation": {
+        "ffbYieldTPerHa": 18.5,
+        "oerPct": 21.5,
+        "cpoAspPerMt": 720,
+        "maturePlantedHa": 22500,
+        "rspoPct": 100
+      }
     }
   ]
 }

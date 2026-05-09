@@ -647,7 +647,13 @@
       "capexMM": 220,
       "daMM": 260,
       "cfoMM": 380,
-      "totalEquityMM": 4380
+      "totalEquityMM": 4380,
+      "tea": {
+        "madeTeaProducedKgMM": 23.5,
+        "madeTeaAspPerKg": 235,
+        "teaPlantedHa": 7800,
+        "boughtLeafSharePct": 22
+      }
     },
     {
       "endDate": "2021-09-30",
@@ -699,7 +705,13 @@
       "capexMM": 240,
       "daMM": 270,
       "cfoMM": 420,
-      "totalEquityMM": 4520
+      "totalEquityMM": 4520,
+      "tea": {
+        "madeTeaProducedKgMM": 22.8,
+        "madeTeaAspPerKg": 220,
+        "teaPlantedHa": 7800,
+        "boughtLeafSharePct": 22
+      }
     },
     {
       "endDate": "2022-09-30",
@@ -751,7 +763,17 @@
       "capexMM": 260,
       "daMM": 280,
       "cfoMM": 510,
-      "totalEquityMM": 4680
+      "totalEquityMM": 4680,
+      "propertyBookMM": 2720,
+      "ppeBookMM": 1790,
+      "inventoryMM": 410,
+      "intangibleAssetsMM": 25,
+      "tea": {
+        "madeTeaProducedKgMM": 22.2,
+        "madeTeaAspPerKg": 245,
+        "teaPlantedHa": 7800,
+        "boughtLeafSharePct": 23
+      }
     },
     {
       "endDate": "2023-09-30",
@@ -803,7 +825,17 @@
       "capexMM": 280,
       "daMM": 290,
       "cfoMM": 470,
-      "totalEquityMM": 4820
+      "totalEquityMM": 4820,
+      "propertyBookMM": 2780,
+      "ppeBookMM": 1820,
+      "inventoryMM": 365,
+      "intangibleAssetsMM": 25,
+      "tea": {
+        "madeTeaProducedKgMM": 21.8,
+        "madeTeaAspPerKg": 265,
+        "teaPlantedHa": 7800,
+        "boughtLeafSharePct": 24
+      }
     },
     {
       "endDate": "2024-09-30",
@@ -864,7 +896,16 @@
         "3-5y": 100.0,
         "5+y": 175.0
       },
-      "totalEquityMM": 4960
+      "totalEquityMM": 4960,
+      "ppeBookMM": 1850,
+      "inventoryMM": 380,
+      "intangibleAssetsMM": 25,
+      "tea": {
+        "madeTeaProducedKgMM": 22.5,
+        "madeTeaAspPerKg": 285,
+        "teaPlantedHa": 7800,
+        "boughtLeafSharePct": 25
+      }
     }
   ]
 }

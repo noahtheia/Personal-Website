@@ -2,7 +2,7 @@
   "ticker": "BALRAMCHIN.NS",
   "currency": "INR",
   "sourceUrl": "https://www.chini.com/investors/",
-  "notes": "Balrampur Chini Mills Ltd (NSE: BALRAMCHIN) — one of India's largest integrated sugar manufacturers, operating 10 sugar mills in Uttar Pradesh with combined cane crushing capacity ~80,000 TCD. Vertically integrated: sugar + distillery (~1,050 KLPD ethanol capacity, expanding to 1,320 KLPD) + co-generation power. Indian fiscal year ends March 31 (Sugar Season runs Oct–Sep, doesn't match FY). All values in INR millions (1 INR crore = INR 10 million). Source: annual reports filed with BSE/NSE, IR presentations on chini.com. Sector: Integrated Farm Operator (cane procurement from ~5 lakh contracted farmers + own sugar/ethanol/power conversion). Heavily exposed to UP State Advised Price (SAP) for cane, central ethanol blending policy (currently 20% target), and sugar diversion caps. FY22-23 strong on ethanol mix; FY24 hit by govt cap on B-heavy/cane-juice diversion; FY25 starting to recover on PSF-grade ethanol prices. Net debt elevated post PLA (PSF) and ethanol capex.",
+  "notes": "Balrampur Chini Mills Ltd (NSE: BALRAMCHIN) \u2014 one of India's largest integrated sugar manufacturers, operating 10 sugar mills in Uttar Pradesh with combined cane crushing capacity ~80,000 TCD. Vertically integrated: sugar + distillery (~1,050 KLPD ethanol capacity, expanding to 1,320 KLPD) + co-generation power. Indian fiscal year ends March 31 (Sugar Season runs Oct\u2013Sep, doesn't match FY). All values in INR millions (1 INR crore = INR 10 million). Source: annual reports filed with BSE/NSE, IR presentations on chini.com. Sector: Integrated Farm Operator (cane procurement from ~5 lakh contracted farmers + own sugar/ethanol/power conversion). Heavily exposed to UP State Advised Price (SAP) for cane, central ethanol blending policy (currently 20% target), and sugar diversion caps. FY22-23 strong on ethanol mix; FY24 hit by govt cap on B-heavy/cane-juice diversion; FY25 starting to recover on PSF-grade ethanol prices. Net debt elevated post PLA (PSF) and ethanol capex.",
   "periods": [
     {
       "endDate": "2021-03-31",
@@ -32,7 +32,17 @@
       "notes": "FY21: revenue Rs 5,025 cr. EBITDA Rs 725 cr. PAT Rs 358 cr. Gradual ramp of ethanol diversion lifting margin mix vs. pure sugar.",
       "capexMM": 1500,
       "daMM": 1050,
-      "cfoMM": 7800
+      "cfoMM": 7800,
+      "integratedFarm": {
+        "productionVolume": 9.6,
+        "productionUnit": "M MT cane crushed",
+        "sugarEthanol": {
+          "crushedCaneMT": 9600000,
+          "sugarMixPct": 64,
+          "ethanolMixPct": 36,
+          "ethanolVolumeM3": 268000
+        }
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -62,7 +72,20 @@
       "notes": "FY22: revenue Rs 5,176 cr (+3%). EBITDA Rs 750 cr. PAT Rs 494 cr. Ethanol mix continuing to expand.",
       "capexMM": 2400,
       "daMM": 1150,
-      "cfoMM": 4500
+      "cfoMM": 4500,
+      "ppeBookMM": 34268,
+      "inventoryMM": 16842,
+      "intangibleAssetsMM": 192,
+      "integratedFarm": {
+        "productionVolume": 10.2,
+        "productionUnit": "M MT cane crushed",
+        "sugarEthanol": {
+          "crushedCaneMT": 10200000,
+          "sugarMixPct": 62,
+          "ethanolMixPct": 38,
+          "ethanolVolumeM3": 312000
+        }
+      }
     },
     {
       "endDate": "2022-06-30",
@@ -94,7 +117,20 @@
       "revenueMM": 16100,
       "ebitdaMM": 2050,
       "netIncomeMM": 1680,
-      "notes": "Q4 FY23: revenue Rs 1,610 cr."
+      "notes": "Q4 FY23: revenue Rs 1,610 cr.",
+      "ppeBookMM": 36842,
+      "inventoryMM": 17468,
+      "intangibleAssetsMM": 188,
+      "integratedFarm": {
+        "productionVolume": 10.4,
+        "productionUnit": "M MT cane crushed",
+        "sugarEthanol": {
+          "crushedCaneMT": 10400000,
+          "sugarMixPct": 60,
+          "ethanolMixPct": 40,
+          "ethanolVolumeM3": 348000
+        }
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -124,7 +160,20 @@
       "notes": "FY23: revenue Rs 5,624 cr (+9%). EBITDA Rs 720 cr. PAT Rs 540 cr. PLA (Maizapur) commissioning + Balrampur PLA bracket. Ethanol diversion peak.",
       "capexMM": 6500,
       "daMM": 1250,
-      "cfoMM": 4800
+      "cfoMM": 4800,
+      "ppeBookMM": 36842,
+      "inventoryMM": 17468,
+      "intangibleAssetsMM": 188,
+      "integratedFarm": {
+        "productionVolume": 10.4,
+        "productionUnit": "M MT cane crushed",
+        "sugarEthanol": {
+          "crushedCaneMT": 10400000,
+          "sugarMixPct": 60,
+          "ethanolMixPct": 40,
+          "ethanolVolumeM3": 348000
+        }
+      }
     },
     {
       "endDate": "2023-06-30",
@@ -156,7 +205,20 @@
       "revenueMM": 15800,
       "ebitdaMM": 1300,
       "netIncomeMM": 580,
-      "notes": "Q4 FY24: revenue Rs 1,580 cr."
+      "notes": "Q4 FY24: revenue Rs 1,580 cr.",
+      "ppeBookMM": 38420,
+      "inventoryMM": 18642,
+      "intangibleAssetsMM": 184,
+      "integratedFarm": {
+        "productionVolume": 9.8,
+        "productionUnit": "M MT cane crushed",
+        "sugarEthanol": {
+          "crushedCaneMT": 9800000,
+          "sugarMixPct": 58,
+          "ethanolMixPct": 42,
+          "ethanolVolumeM3": 384000
+        }
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -186,7 +248,20 @@
       "notes": "FY24: revenue Rs 5,650 cr (+1%). EBITDA dropped to Rs 500 cr (-31% YoY) on government's Dec-2023 ban on cane-juice/B-heavy ethanol diversion. PAT Rs 216 cr. Tough year for industry. Buyback completed (~8M shares).",
       "capexMM": 5800,
       "daMM": 1500,
-      "cfoMM": 6500
+      "cfoMM": 6500,
+      "ppeBookMM": 38420,
+      "inventoryMM": 18642,
+      "intangibleAssetsMM": 184,
+      "integratedFarm": {
+        "productionVolume": 9.8,
+        "productionUnit": "M MT cane crushed",
+        "sugarEthanol": {
+          "crushedCaneMT": 9800000,
+          "sugarMixPct": 58,
+          "ethanolMixPct": 42,
+          "ethanolVolumeM3": 384000
+        }
+      }
     },
     {
       "endDate": "2024-06-30",

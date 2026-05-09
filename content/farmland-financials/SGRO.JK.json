@@ -2,7 +2,7 @@
   "ticker": "SGRO.JK",
   "currency": "IDR",
   "sourceUrl": "https://sampoernaagro.com/en/investor-relations/",
-  "notes": "Sampoerna Agro (SGRO) — IDX-listed Indonesian palm oil + sago + rubber producer, ~95k planted ha (~234k acres). IPO June 2007 on IDX. Largest sago producer in Indonesia (Selat Panjang, Riau). Reports under PSAK 69 (biological assets at FV) from 2012 onward; pre-2012 historical cost. Quarterly + FY filings via IDX (laporan keuangan). Values in IDR millions (matches seed-comps.json convention). Segment split: CPO ~80-85% revenue, PK ~6-8%, Sago ~5-8%, Rubber/Other ~2-4%. FV adjustment on biological assets appears in expensesBySegmentMM where disclosed. Quarterly EBITDA estimated from gross profit + D&A where not directly disclosed; FY data from audited annual reports. Pre-2020 history sourced from SGRO annual report 5-year summary tables (IR archive) — annual only, quarterly archives sparse.",
+  "notes": "Sampoerna Agro (SGRO) \u2014 IDX-listed Indonesian palm oil + sago + rubber producer, ~95k planted ha (~234k acres). IPO June 2007 on IDX. Largest sago producer in Indonesia (Selat Panjang, Riau). Reports under PSAK 69 (biological assets at FV) from 2012 onward; pre-2012 historical cost. Quarterly + FY filings via IDX (laporan keuangan). Values in IDR millions (matches seed-comps.json convention). Segment split: CPO ~80-85% revenue, PK ~6-8%, Sago ~5-8%, Rubber/Other ~2-4%. FV adjustment on biological assets appears in expensesBySegmentMM where disclosed. Quarterly EBITDA estimated from gross profit + D&A where not directly disclosed; FY data from audited annual reports. Pre-2020 history sourced from SGRO annual report 5-year summary tables (IR archive) \u2014 annual only, quarterly archives sparse.",
   "periods": [
     {
       "endDate": "2008-12-31",
@@ -451,7 +451,14 @@
       "ebitdaMM": 270000,
       "netIncomeMM": 110000,
       "totalAcresK": 234,
-      "notes": "Q4 2020: CPO ASP rally late in year; year-end FV adjustment positive"
+      "notes": "Q4 2020: CPO ASP rally late in year; year-end FV adjustment positive",
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 22.1,
+        "cpoAspPerMt": 9180000,
+        "maturePlantedHa": 77500,
+        "rspoPct": 65
+      }
     },
     {
       "endDate": "2020-12-31",
@@ -490,7 +497,14 @@
       "notes": "FY20: revenue Rp3.88T (+27% YoY), net income Rp172B (turnaround from FY19 loss). CPO ASP avg ~Rp8.1M/ton",
       "capexMM": 380000,
       "daMM": 280000,
-      "cfoMM": 700000
+      "cfoMM": 700000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 22.1,
+        "cpoAspPerMt": 9180000,
+        "maturePlantedHa": 77500,
+        "rspoPct": 65
+      }
     },
     {
       "endDate": "2021-03-31",
@@ -572,7 +586,14 @@
       "ebitdaMM": 480000,
       "netIncomeMM": 220000,
       "totalAcresK": 234,
-      "notes": "Q4 2021: CPO ASP > Rp12M/ton, biological asset FV gain"
+      "notes": "Q4 2021: CPO ASP > Rp12M/ton, biological asset FV gain",
+      "plantation": {
+        "ffbYieldTPerHa": 19.0,
+        "oerPct": 22.0,
+        "cpoAspPerMt": 12700000,
+        "maturePlantedHa": 77800,
+        "rspoPct": 68
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -611,7 +632,14 @@
       "notes": "FY21: revenue Rp5.38T (+39% YoY), net income Rp630M. CPO ASP avg ~Rp10.5M/ton (best year since 2017)",
       "capexMM": 460000,
       "daMM": 290000,
-      "cfoMM": 1140000
+      "cfoMM": 1140000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.0,
+        "oerPct": 22.0,
+        "cpoAspPerMt": 12700000,
+        "maturePlantedHa": 77800,
+        "rspoPct": 68
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -694,7 +722,18 @@
       },
       "ebitdaMM": 290000,
       "netIncomeMM": 80000,
-      "totalAcresK": 234
+      "totalAcresK": 234,
+      "propertyBookMM": 4080000,
+      "ppeBookMM": 2820000,
+      "inventoryMM": 1050000,
+      "intangibleAssetsMM": 33000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.5,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 14100000,
+        "maturePlantedHa": 78000,
+        "rspoPct": 70
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -733,7 +772,18 @@
       "notes": "FY22: revenue Rp6.25T (+16% YoY), peak earnings year. CPO ASP avg ~Rp13M/ton despite Q4 reversal",
       "capexMM": 580000,
       "daMM": 300000,
-      "cfoMM": 1080000
+      "cfoMM": 1080000,
+      "propertyBookMM": 4080000,
+      "ppeBookMM": 2820000,
+      "inventoryMM": 1050000,
+      "intangibleAssetsMM": 33000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.5,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 14100000,
+        "maturePlantedHa": 78000,
+        "rspoPct": 70
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -815,7 +865,18 @@
       "ebitdaMM": 320000,
       "netIncomeMM": 90000,
       "totalAcresK": 234,
-      "notes": "Q4 2023: stable CPO ASP ~Rp12M/ton; year-end biological asset FV neutral"
+      "notes": "Q4 2023: stable CPO ASP ~Rp12M/ton; year-end biological asset FV neutral",
+      "propertyBookMM": 4150000,
+      "ppeBookMM": 2880000,
+      "inventoryMM": 920000,
+      "intangibleAssetsMM": 34000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.2,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 12400000,
+        "maturePlantedHa": 78200,
+        "rspoPct": 72
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -854,7 +915,18 @@
       "notes": "FY23: revenue Rp5.38T (-14% YoY), net income Rp265B (-61% YoY) on CPO normalization",
       "capexMM": 520000,
       "daMM": 310000,
-      "cfoMM": 580000
+      "cfoMM": 580000,
+      "propertyBookMM": 4150000,
+      "ppeBookMM": 2880000,
+      "inventoryMM": 920000,
+      "intangibleAssetsMM": 34000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.2,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 12400000,
+        "maturePlantedHa": 78200,
+        "rspoPct": 72
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -936,7 +1008,18 @@
       "ebitdaMM": 350000,
       "netIncomeMM": 110000,
       "totalAcresK": 234,
-      "notes": "Q4 2024: CPO ASP ~Rp14M/ton, strongest quarter in two years"
+      "notes": "Q4 2024: CPO ASP ~Rp14M/ton, strongest quarter in two years",
+      "propertyBookMM": 4200000,
+      "ppeBookMM": 2950000,
+      "inventoryMM": 980000,
+      "intangibleAssetsMM": 35000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 13700000,
+        "maturePlantedHa": 78500,
+        "rspoPct": 75
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -985,6 +1068,16 @@
         "1-3y": 792000.0,
         "3-5y": 633600.0,
         "5+y": 1108800.0
+      },
+      "ppeBookMM": 2950000,
+      "inventoryMM": 980000,
+      "intangibleAssetsMM": 35000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 13700000,
+        "maturePlantedHa": 78500,
+        "rspoPct": 75
       }
     }
   ]

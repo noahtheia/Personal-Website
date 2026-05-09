@@ -620,7 +620,17 @@
       "bookValuePerShare": 26,
       "capexMM": 18.8,
       "daMM": 14.3,
-      "cfoMM": 1.0
+      "cfoMM": 1.0,
+      "integratedFarm": {
+        "plantedAreaHa": 7284,
+        "productionVolume": 64.2,
+        "productionUnit": "M lbs citrus",
+        "treeCrop": {
+          "bearingHa": 5946,
+          "nonBearingHa": 1338,
+          "avgTreeAgeYears": 10
+        }
+      }
     },
     {
       "endDate": "2020-12-31",
@@ -685,7 +695,17 @@
       "totalAcresK": 84,
       "bookValuePerShare": 33.42,
       "notes": "Q4 FY21: revenue $6.0M (off-season). Net income $50M+ boosted by $76M+ gain on Alico Ranch sale. BVPS = FY21 ($33.42).",
-      "totalEquityMM": 230
+      "totalEquityMM": 230,
+      "integratedFarm": {
+        "plantedAreaHa": 7284,
+        "productionVolume": 56.8,
+        "productionUnit": "M lbs citrus",
+        "treeCrop": {
+          "bearingHa": 6024,
+          "nonBearingHa": 1260,
+          "avgTreeAgeYears": 11
+        }
+      }
     },
     {
       "endDate": "2021-09-30",
@@ -716,7 +736,17 @@
       "bookValuePerShare": 33.42,
       "capexMM": 22.3,
       "daMM": 15.1,
-      "cfoMM": 16.5
+      "cfoMM": 16.5,
+      "integratedFarm": {
+        "plantedAreaHa": 7284,
+        "productionVolume": 56.8,
+        "productionUnit": "M lbs citrus",
+        "treeCrop": {
+          "bearingHa": 6024,
+          "nonBearingHa": 1260,
+          "avgTreeAgeYears": 11
+        }
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -781,7 +811,19 @@
       "totalAcresK": 84,
       "bookValuePerShare": 31.91,
       "notes": "Q4 FY22: revenue $13.0M. Hurricane Ian (Sept 28, 2022) caused significant grove damage; impairment charges began. BVPS = FY22 ($31.91).",
-      "totalEquityMM": 240
+      "totalEquityMM": 240,
+      "ppeBookMM": 134.8,
+      "inventoryMM": 16.2,
+      "integratedFarm": {
+        "plantedAreaHa": 7284,
+        "productionVolume": 48.4,
+        "productionUnit": "M lbs citrus",
+        "treeCrop": {
+          "bearingHa": 6098,
+          "nonBearingHa": 1186,
+          "avgTreeAgeYears": 12
+        }
+      }
     },
     {
       "endDate": "2022-09-30",
@@ -812,7 +854,19 @@
       "bookValuePerShare": 31.91,
       "capexMM": 20.7,
       "daMM": 15.2,
-      "cfoMM": 6.5
+      "cfoMM": 6.5,
+      "ppeBookMM": 134.8,
+      "inventoryMM": 16.2,
+      "integratedFarm": {
+        "plantedAreaHa": 7284,
+        "productionVolume": 48.4,
+        "productionUnit": "M lbs citrus",
+        "treeCrop": {
+          "bearingHa": 6098,
+          "nonBearingHa": 1186,
+          "avgTreeAgeYears": 12
+        }
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -877,7 +931,19 @@
       "totalAcresK": 83,
       "bookValuePerShare": 31.79,
       "notes": "Q4 FY23: revenue $12.0M. BVPS = FY23 ($31.79).",
-      "totalEquityMM": 245
+      "totalEquityMM": 245,
+      "ppeBookMM": 138.6,
+      "inventoryMM": 17.4,
+      "integratedFarm": {
+        "plantedAreaHa": 7284,
+        "productionVolume": 42.6,
+        "productionUnit": "M lbs citrus",
+        "treeCrop": {
+          "bearingHa": 6184,
+          "nonBearingHa": 1100,
+          "avgTreeAgeYears": 13
+        }
+      }
     },
     {
       "endDate": "2023-09-30",
@@ -908,7 +974,19 @@
       "bookValuePerShare": 31.79,
       "capexMM": 16.7,
       "daMM": 15.5,
-      "cfoMM": -6.3
+      "cfoMM": -6.3,
+      "ppeBookMM": 138.6,
+      "inventoryMM": 17.4,
+      "integratedFarm": {
+        "plantedAreaHa": 7284,
+        "productionVolume": 42.6,
+        "productionUnit": "M lbs citrus",
+        "treeCrop": {
+          "bearingHa": 6184,
+          "nonBearingHa": 1100,
+          "avgTreeAgeYears": 13
+        }
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -973,7 +1051,19 @@
       "totalAcresK": 53,
       "bookValuePerShare": 23.39,
       "notes": "Q4 FY24: revenue $9.0M. Large impairment charges as management prepares strategic transformation announcement; began divesting non-core ranchland. BVPS = FY24 ($23.39).",
-      "totalEquityMM": 250
+      "totalEquityMM": 250,
+      "ppeBookMM": 142.4,
+      "inventoryMM": 18.6,
+      "integratedFarm": {
+        "plantedAreaHa": 7284,
+        "productionVolume": 38.4,
+        "productionUnit": "M lbs citrus",
+        "treeCrop": {
+          "bearingHa": 6248,
+          "nonBearingHa": 1036,
+          "avgTreeAgeYears": 14
+        }
+      }
     },
     {
       "endDate": "2024-09-30",
@@ -1004,7 +1094,19 @@
       "bookValuePerShare": 23.39,
       "capexMM": 17.9,
       "daMM": 15.0,
-      "cfoMM": -30.5
+      "cfoMM": -30.5,
+      "ppeBookMM": 142.4,
+      "inventoryMM": 18.6,
+      "integratedFarm": {
+        "plantedAreaHa": 7284,
+        "productionVolume": 38.4,
+        "productionUnit": "M lbs citrus",
+        "treeCrop": {
+          "bearingHa": 6248,
+          "nonBearingHa": 1036,
+          "avgTreeAgeYears": 14
+        }
+      }
     },
     {
       "endDate": "2024-12-31",

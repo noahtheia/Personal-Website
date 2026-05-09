@@ -458,7 +458,13 @@
       "totalAcresK": 466,
       "bookValuePerShare": 12.02,
       "navPerShare": 12.02,
-      "notes": "4T20: Receita l\u00edquida R$615M, EBITDA Aj R$195M. PL/share = FY20 (R$12.02)."
+      "notes": "4T20: Receita l\u00edquida R$615M, EBITDA Aj R$195M. PL/share = FY20 (R$12.02).",
+      "integratedFarm": {
+        "plantedAreaHa": 484200,
+        "productionVolume": 1842,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1248
+      }
     },
     {
       "endDate": "2020-12-31",
@@ -492,7 +498,13 @@
       "bookValuePerShare": 12.02,
       "capexMM": 480,
       "daMM": 280,
-      "cfoMM": 950
+      "cfoMM": 950,
+      "integratedFarm": {
+        "plantedAreaHa": 484200,
+        "productionVolume": 1842,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1248
+      }
     },
     {
       "endDate": "2021-03-31",
@@ -588,7 +600,13 @@
       "totalAcresK": 470,
       "bookValuePerShare": 15.09,
       "navPerShare": 15.09,
-      "notes": "4T21: Receita l\u00edquida R$1.26B, EBITDA Aj R$410M (cotton price >$1.20/lb). PL/share = FY21 (R$15.09)."
+      "notes": "4T21: Receita l\u00edquida R$1.26B, EBITDA Aj R$410M (cotton price >$1.20/lb). PL/share = FY21 (R$15.09).",
+      "integratedFarm": {
+        "plantedAreaHa": 614800,
+        "productionVolume": 2186,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1486
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -623,7 +641,13 @@
       "bookValuePerShare": 15.09,
       "capexMM": 620,
       "daMM": 360,
-      "cfoMM": 1180
+      "cfoMM": 1180,
+      "integratedFarm": {
+        "plantedAreaHa": 614800,
+        "productionVolume": 2186,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1486
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -719,7 +743,17 @@
       "totalAcresK": 472,
       "bookValuePerShare": 8.01,
       "navPerShare": 8.01,
-      "notes": "4T22: Receita l\u00edquida R$1.40B, EBITDA Aj R$470M. Cotton segment ramped further. PL/share = FY22 (R$8.01) post-split."
+      "notes": "4T22: Receita l\u00edquida R$1.40B, EBITDA Aj R$470M. Cotton segment ramped further. PL/share = FY22 (R$8.01) post-split.",
+      "propertyBookMM": 4286,
+      "ppeBookMM": 1098,
+      "inventoryMM": 2548,
+      "intangibleAssetsMM": 132,
+      "integratedFarm": {
+        "plantedAreaHa": 684200,
+        "productionVolume": 2342,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1614
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -754,7 +788,16 @@
       "bookValuePerShare": 8.01,
       "capexMM": 850,
       "daMM": 460,
-      "cfoMM": 1750
+      "cfoMM": 1750,
+      "ppeBookMM": 1098,
+      "inventoryMM": 2548,
+      "intangibleAssetsMM": 132,
+      "integratedFarm": {
+        "plantedAreaHa": 684200,
+        "productionVolume": 2342,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1614
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -850,7 +893,17 @@
       "totalAcresK": 472,
       "bookValuePerShare": 8.47,
       "navPerShare": 8.47,
-      "notes": "4T23: Receita l\u00edquida R$1.645B, EBITDA Aj R$380M. Cotton billing peak. PL/share = FY23 (R$8.47)."
+      "notes": "4T23: Receita l\u00edquida R$1.645B, EBITDA Aj R$380M. Cotton billing peak. PL/share = FY23 (R$8.47).",
+      "propertyBookMM": 4624,
+      "ppeBookMM": 1186,
+      "inventoryMM": 2718,
+      "intangibleAssetsMM": 128,
+      "integratedFarm": {
+        "plantedAreaHa": 712600,
+        "productionVolume": 2486,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1748
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -886,7 +939,16 @@
       "bookValuePerShare": 8.47,
       "capexMM": 750,
       "daMM": 540,
-      "cfoMM": 1380
+      "cfoMM": 1380,
+      "ppeBookMM": 1186,
+      "inventoryMM": 2718,
+      "intangibleAssetsMM": 128,
+      "integratedFarm": {
+        "plantedAreaHa": 712600,
+        "productionVolume": 2486,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1748
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -983,7 +1045,17 @@
       "totalAcresK": 472,
       "bookValuePerShare": 10.15,
       "navPerShare": 10.15,
-      "notes": "4T24: Receita l\u00edquida R$3.0B (record), EBITDA Aj R$1.06B (cotton billing concentrated, volume +34% YoY). PL/share = FY24 (R$10.15)."
+      "notes": "4T24: Receita l\u00edquida R$3.0B (record), EBITDA Aj R$1.06B (cotton billing concentrated, volume +34% YoY). PL/share = FY24 (R$10.15).",
+      "propertyBookMM": 4862,
+      "ppeBookMM": 1248,
+      "inventoryMM": 2864,
+      "intangibleAssetsMM": 124,
+      "integratedFarm": {
+        "plantedAreaHa": 728400,
+        "productionVolume": 2614,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1846
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -1029,6 +1101,15 @@
         "1-3y": 2787.5,
         "3-5y": 2230.0,
         "5+y": 3902.5
+      },
+      "ppeBookMM": 1248,
+      "inventoryMM": 2864,
+      "intangibleAssetsMM": 124,
+      "integratedFarm": {
+        "plantedAreaHa": 728400,
+        "productionVolume": 2614,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1846
       }
     },
     {

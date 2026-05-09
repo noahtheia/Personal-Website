@@ -2,7 +2,7 @@
   "ticker": "1996.KL",
   "currency": "MYR",
   "sourceUrl": "https://www.kimloong.com.my/",
-  "notes": "Kim Loong Resources Berhad (KMLOONG/1996) — Bursa Malaysia-listed integrated palm oil operator: ~16,000 ha planted oil palm (Sabah, Johor, Sarawak ~ 39.5k acres × 2.47/1000) + three high-throughput palm oil mills (~2.0M MT/year FFB processing capacity, ~85% sourced from third parties). Fiscal year ends 31 January. Mill earnings dominate group profitability vs upstream estate. Net cash positive throughout cycle. Reports in MYR millions per Bursa convention. FY data from annual report 5-year highlights. Acres = planted ha × 2.47 / 1000. Segments: milling (~75% rev), plantations (~25%).",
+  "notes": "Kim Loong Resources Berhad (KMLOONG/1996) \u2014 Bursa Malaysia-listed integrated palm oil operator: ~16,000 ha planted oil palm (Sabah, Johor, Sarawak ~ 39.5k acres \u00d7 2.47/1000) + three high-throughput palm oil mills (~2.0M MT/year FFB processing capacity, ~85% sourced from third parties). Fiscal year ends 31 January. Mill earnings dominate group profitability vs upstream estate. Net cash positive throughout cycle. Reports in MYR millions per Bursa convention. FY data from annual report 5-year highlights. Acres = planted ha \u00d7 2.47 / 1000. Segments: milling (~75% rev), plantations (~25%).",
   "periods": [
     {
       "endDate": "2020-01-31",
@@ -61,7 +61,14 @@
       "notes": "FY21 (Jan-end): revenue RM1.11B (+28% YoY) on CPO recovery; net profit RM100M (+67%)",
       "capexMM": 30,
       "daMM": 23,
-      "cfoMM": 95
+      "cfoMM": 95,
+      "plantation": {
+        "ffbYieldTPerHa": 23.5,
+        "oerPct": 22.5,
+        "cpoAspPerMt": 2620,
+        "maturePlantedHa": 14600,
+        "rspoPct": 35
+      }
     },
     {
       "endDate": "2022-01-31",
@@ -94,7 +101,14 @@
       "notes": "FY22 (Jan-end): revenue RM1.53B (+38% YoY); CPO super-cycle. Net profit RM165M",
       "capexMM": 38,
       "daMM": 25,
-      "cfoMM": 130
+      "cfoMM": 130,
+      "plantation": {
+        "ffbYieldTPerHa": 22.8,
+        "oerPct": 22.4,
+        "cpoAspPerMt": 3850,
+        "maturePlantedHa": 14650,
+        "rspoPct": 38
+      }
     },
     {
       "endDate": "2023-01-31",
@@ -131,7 +145,17 @@
       "notes": "FY23 (Jan-end): revenue RM1.80B (+18% YoY); net profit RM175M as peak CPO held",
       "capexMM": 45,
       "daMM": 27,
-      "cfoMM": 160
+      "cfoMM": 160,
+      "propertyBookMM": 365,
+      "ppeBookMM": 270,
+      "inventoryMM": 70,
+      "plantation": {
+        "ffbYieldTPerHa": 22.2,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 4680,
+        "maturePlantedHa": 14700,
+        "rspoPct": 40
+      }
     },
     {
       "endDate": "2023-04-30",
@@ -163,7 +187,17 @@
       "revenueMM": 395,
       "ebitdaMM": 64,
       "netIncomeMM": 39,
-      "notes": "Q4 FY24"
+      "notes": "Q4 FY24",
+      "propertyBookMM": 370,
+      "ppeBookMM": 275,
+      "inventoryMM": 62,
+      "plantation": {
+        "ffbYieldTPerHa": 21.8,
+        "oerPct": 22.2,
+        "cpoAspPerMt": 3920,
+        "maturePlantedHa": 14750,
+        "rspoPct": 42
+      }
     },
     {
       "endDate": "2024-01-31",
@@ -200,7 +234,17 @@
       "notes": "FY24 (Jan-end): revenue RM1.61B (-11% YoY) on CPO normalization; net profit RM150M",
       "capexMM": 40,
       "daMM": 28,
-      "cfoMM": 115
+      "cfoMM": 115,
+      "propertyBookMM": 370,
+      "ppeBookMM": 275,
+      "inventoryMM": 62,
+      "plantation": {
+        "ffbYieldTPerHa": 21.8,
+        "oerPct": 22.2,
+        "cpoAspPerMt": 3920,
+        "maturePlantedHa": 14750,
+        "rspoPct": 42
+      }
     },
     {
       "endDate": "2025-01-31",
@@ -248,6 +292,15 @@
         "1-3y": 3.5,
         "3-5y": 2.1,
         "5+y": 2.8
+      },
+      "ppeBookMM": 280,
+      "inventoryMM": 65,
+      "plantation": {
+        "ffbYieldTPerHa": 22.5,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 4180,
+        "maturePlantedHa": 14800,
+        "rspoPct": 45
       }
     },
     {
@@ -280,7 +333,17 @@
       "revenueMM": 455,
       "ebitdaMM": 81,
       "netIncomeMM": 49,
-      "notes": "Q4 FY25"
+      "notes": "Q4 FY25",
+      "propertyBookMM": 380,
+      "ppeBookMM": 280,
+      "inventoryMM": 65,
+      "plantation": {
+        "ffbYieldTPerHa": 22.5,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 4180,
+        "maturePlantedHa": 14800,
+        "rspoPct": 45
+      }
     }
   ]
 }

@@ -29,6 +29,10 @@
         "COGS": 945,
         "SG&A": 49,
         "D&A": 16
+      },
+      "integratedFarm": {
+        "productionVolume": 432,
+        "productionUnit": "M lbs avocado-equiv"
       }
     },
     {
@@ -56,6 +60,10 @@
         "COGS": 1090,
         "SG&A": 51,
         "D&A": 18
+      },
+      "integratedFarm": {
+        "productionVolume": 446,
+        "productionUnit": "M lbs avocado-equiv"
       }
     },
     {
@@ -140,6 +148,13 @@
         "COGS": 1148,
         "SG&A": 52,
         "D&A": 17
+      },
+      "ppeBookMM": 118.6,
+      "inventoryMM": 44.2,
+      "intangibleAssetsMM": 19.2,
+      "integratedFarm": {
+        "productionVolume": 458,
+        "productionUnit": "M lbs avocado-equiv"
       }
     },
     {
@@ -224,6 +239,13 @@
         "COGS": 869,
         "SG&A": 51,
         "D&A": 17
+      },
+      "ppeBookMM": 122.4,
+      "inventoryMM": 46.8,
+      "intangibleAssetsMM": 18.8,
+      "integratedFarm": {
+        "productionVolume": 472,
+        "productionUnit": "M lbs avocado-equiv"
       }
     },
     {
@@ -307,6 +329,13 @@
         "COGS": 591,
         "SG&A": 46,
         "D&A": 11
+      },
+      "ppeBookMM": 124.8,
+      "inventoryMM": 48.6,
+      "intangibleAssetsMM": 18.4,
+      "integratedFarm": {
+        "productionVolume": 484,
+        "productionUnit": "M lbs avocado-equiv"
       }
     },
     {

@@ -845,7 +845,14 @@
       "capexMM": 16,
       "daMM": 19,
       "cfoMM": 30,
-      "totalEquityMM": 260
+      "totalEquityMM": 260,
+      "plantation": {
+        "ffbYieldTPerHa": 13.2,
+        "oerPct": 20.6,
+        "cpoAspPerMt": 680,
+        "maturePlantedHa": 18100,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2021-06-30",
@@ -895,7 +902,14 @@
       "capexMM": 18,
       "daMM": 20,
       "cfoMM": 60,
-      "totalEquityMM": 280
+      "totalEquityMM": 280,
+      "plantation": {
+        "ffbYieldTPerHa": 12.8,
+        "oerPct": 20.5,
+        "cpoAspPerMt": 950,
+        "maturePlantedHa": 18200,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2022-06-30",
@@ -945,7 +959,18 @@
       "capexMM": 22,
       "daMM": 21,
       "cfoMM": 70,
-      "totalEquityMM": 310
+      "totalEquityMM": 310,
+      "propertyBookMM": 188,
+      "ppeBookMM": 80,
+      "inventoryMM": 19,
+      "intangibleAssetsMM": 3,
+      "plantation": {
+        "ffbYieldTPerHa": 12.2,
+        "oerPct": 20.4,
+        "cpoAspPerMt": 1100,
+        "maturePlantedHa": 18300,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2023-06-30",
@@ -995,7 +1020,18 @@
       "capexMM": 22,
       "daMM": 22,
       "cfoMM": 50,
-      "totalEquityMM": 300
+      "totalEquityMM": 300,
+      "propertyBookMM": 192,
+      "ppeBookMM": 82,
+      "inventoryMM": 17,
+      "intangibleAssetsMM": 3,
+      "plantation": {
+        "ffbYieldTPerHa": 11.8,
+        "oerPct": 20.3,
+        "cpoAspPerMt": 880,
+        "maturePlantedHa": 18400,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2024-06-30",
@@ -1058,7 +1094,17 @@
         "3-5y": 40.33,
         "5+y": 70.57
       },
-      "totalEquityMM": 290
+      "totalEquityMM": 290,
+      "ppeBookMM": 85,
+      "inventoryMM": 18,
+      "intangibleAssetsMM": 3,
+      "plantation": {
+        "ffbYieldTPerHa": 12.5,
+        "oerPct": 20.5,
+        "cpoAspPerMt": 950,
+        "maturePlantedHa": 18500,
+        "rspoPct": 100
+      }
     }
   ]
 }

@@ -24,7 +24,12 @@
       "daMM": 40,
       "cfoMM": 100,
       "notes": "FY20 revenue $1.49B (pre-Lion acquisition). EBITDA $113M.",
-      "totalEquityMM": 1215
+      "totalEquityMM": 1215,
+      "dairy": {
+        "milkIntakeMlitres": 686,
+        "infantFormulaRevenuePct": 8.8,
+        "brandedRevenuePct": 71.4
+      }
     },
     {
       "endDate": "2021-06-30",
@@ -46,7 +51,12 @@
       "daMM": 65,
       "cfoMM": 80,
       "notes": "FY21 \u2014 Lion Dairy & Drinks acquired Jan 2021 ($534M). Revenue $1.92B (+29%); equity raise diluted shares.",
-      "totalEquityMM": 1255
+      "totalEquityMM": 1255,
+      "dairy": {
+        "milkIntakeMlitres": 718,
+        "infantFormulaRevenuePct": 9.6,
+        "brandedRevenuePct": 72.8
+      }
     },
     {
       "endDate": "2022-06-30",
@@ -68,7 +78,15 @@
       "daMM": 95,
       "cfoMM": 110,
       "notes": "FY22 first full year with Lion. Revenue $3.04B; cost inflation pressured margins.",
-      "totalEquityMM": 1180
+      "totalEquityMM": 1180,
+      "ppeBookMM": 458.4,
+      "inventoryMM": 286.2,
+      "intangibleAssetsMM": 174.8,
+      "dairy": {
+        "milkIntakeMlitres": 762,
+        "infantFormulaRevenuePct": 10.4,
+        "brandedRevenuePct": 74.2
+      }
     },
     {
       "endDate": "2023-06-30",
@@ -96,7 +114,15 @@
         "Other opex": 0
       },
       "notes": "FY23 \u2014 $228M Bulk segment impairment drove statutory net loss. EBITDA $161M underlying.",
-      "totalEquityMM": 1145
+      "totalEquityMM": 1145,
+      "ppeBookMM": 472.8,
+      "inventoryMM": 298.6,
+      "intangibleAssetsMM": 172.4,
+      "dairy": {
+        "milkIntakeMlitres": 794,
+        "infantFormulaRevenuePct": 11.8,
+        "brandedRevenuePct": 76.4
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -140,7 +166,16 @@
         "3-5y": 43.5,
         "5+y": 58.0
       },
-      "totalEquityMM": 1170
+      "totalEquityMM": 1170,
+      "propertyBookMM": 0,
+      "ppeBookMM": 486.2,
+      "inventoryMM": 312.4,
+      "intangibleAssetsMM": 168.6,
+      "dairy": {
+        "milkIntakeMlitres": 814,
+        "infantFormulaRevenuePct": 12.4,
+        "brandedRevenuePct": 78.6
+      }
     },
     {
       "endDate": "2024-12-31",

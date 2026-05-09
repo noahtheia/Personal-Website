@@ -888,7 +888,14 @@
       "capexMM": 18,
       "daMM": 13,
       "cfoMM": 35,
-      "totalEquityMM": 410
+      "totalEquityMM": 410,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 22.0,
+        "cpoAspPerMt": 650,
+        "maturePlantedHa": 37800,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2021-06-30",
@@ -936,7 +943,14 @@
       "capexMM": 22,
       "daMM": 14,
       "cfoMM": 70,
-      "totalEquityMM": 470
+      "totalEquityMM": 470,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 920,
+        "maturePlantedHa": 38000,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2022-06-30",
@@ -984,7 +998,18 @@
       "capexMM": 28,
       "daMM": 16,
       "cfoMM": 75,
-      "totalEquityMM": 530
+      "totalEquityMM": 530,
+      "propertyBookMM": 275,
+      "ppeBookMM": 158,
+      "inventoryMM": 45,
+      "intangibleAssetsMM": 8,
+      "plantation": {
+        "ffbYieldTPerHa": 18.2,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 1080,
+        "maturePlantedHa": 38100,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2023-06-30",
@@ -1032,7 +1057,18 @@
       "capexMM": 26,
       "daMM": 17,
       "cfoMM": 55,
-      "totalEquityMM": 550
+      "totalEquityMM": 550,
+      "propertyBookMM": 280,
+      "ppeBookMM": 160,
+      "inventoryMM": 40,
+      "intangibleAssetsMM": 8,
+      "plantation": {
+        "ffbYieldTPerHa": 17.8,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 850,
+        "maturePlantedHa": 38300,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2024-06-30",
@@ -1084,7 +1120,17 @@
       "daMM": 18,
       "cfoMM": 60,
       "interestExpenseMM": 0,
-      "totalEquityMM": 570
+      "totalEquityMM": 570,
+      "ppeBookMM": 165,
+      "inventoryMM": 42,
+      "intangibleAssetsMM": 8,
+      "plantation": {
+        "ffbYieldTPerHa": 18.5,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 920,
+        "maturePlantedHa": 38500,
+        "rspoPct": 100
+      }
     }
   ]
 }

@@ -23,6 +23,11 @@
         "COGS": 4250,
         "SG&A": 680,
         "D&A": 720
+      },
+      "dairy": {
+        "milkIntakeMlitres": 1342,
+        "cowHerdK": 368.4,
+        "brandedRevenuePct": 4.2
       }
     },
     {
@@ -49,7 +54,12 @@
       "capexMM": 2400,
       "daMM": 920,
       "cfoMM": 2300,
-      "totalEquityMM": 10100
+      "totalEquityMM": 10100,
+      "dairy": {
+        "milkIntakeMlitres": 1486,
+        "cowHerdK": 386.2,
+        "brandedRevenuePct": 5.8
+      }
     },
     {
       "endDate": "2022-06-30",
@@ -83,7 +93,15 @@
       "capexMM": 3200,
       "daMM": 1180,
       "cfoMM": 2200,
-      "totalEquityMM": 10800
+      "totalEquityMM": 10800,
+      "ppeBookMM": 17284,
+      "inventoryMM": 3914,
+      "intangibleAssetsMM": 1894,
+      "dairy": {
+        "milkIntakeMlitres": 1612,
+        "cowHerdK": 398.6,
+        "brandedRevenuePct": 6.4
+      }
     },
     {
       "endDate": "2023-06-30",
@@ -117,7 +135,15 @@
       "capexMM": 2700,
       "daMM": 1380,
       "cfoMM": 1800,
-      "totalEquityMM": 11400
+      "totalEquityMM": 11400,
+      "ppeBookMM": 17968,
+      "inventoryMM": 4068,
+      "intangibleAssetsMM": 1872,
+      "dairy": {
+        "milkIntakeMlitres": 1748,
+        "cowHerdK": 412.4,
+        "brandedRevenuePct": 7.8
+      }
     },
     {
       "endDate": "2024-06-30",
@@ -159,7 +185,15 @@
         "3-5y": 2880.0,
         "5+y": 3600.0
       },
-      "totalEquityMM": 11900
+      "totalEquityMM": 11900,
+      "ppeBookMM": 18642,
+      "inventoryMM": 4218,
+      "intangibleAssetsMM": 1846,
+      "dairy": {
+        "milkIntakeMlitres": 1842,
+        "cowHerdK": 423.8,
+        "brandedRevenuePct": 8.4
+      }
     }
   ]
 }

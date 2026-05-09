@@ -2,7 +2,7 @@
   "ticker": "5254.KL",
   "currency": "MYR",
   "sourceUrl": "https://www.boustead-plantations.com.my/",
-  "notes": "Boustead Plantations Berhad — Bursa Malaysia-listed pure-play upstream palm oil operator (BPLANT/5254). Total landbank ~98,500 ha (~243k acres × 2.47/1000) across Peninsular Malaysia, Sabah, Sarawak; planted oil palm ~73,000 ha. ~57% controlled by LTAT (Armed Forces Fund Board) which made privatization offer in 2023-24 (later lapsed). 12 mills. Reports in MYR millions per Bursa convention (matches 5138/5126/5285/2089/1961). FY data from annual report financial highlights. Acres = planted ha × 2.47 / 1000. Higher debt due to 2014 Pertama Land Sdn Bhd acquisition. Segments: pure CPO/PK with minor FFB sales.",
+  "notes": "Boustead Plantations Berhad \u2014 Bursa Malaysia-listed pure-play upstream palm oil operator (BPLANT/5254). Total landbank ~98,500 ha (~243k acres \u00d7 2.47/1000) across Peninsular Malaysia, Sabah, Sarawak; planted oil palm ~73,000 ha. ~57% controlled by LTAT (Armed Forces Fund Board) which made privatization offer in 2023-24 (later lapsed). 12 mills. Reports in MYR millions per Bursa convention (matches 5138/5126/5285/2089/1961). FY data from annual report financial highlights. Acres = planted ha \u00d7 2.47 / 1000. Higher debt due to 2014 Pertama Land Sdn Bhd acquisition. Segments: pure CPO/PK with minor FFB sales.",
   "periods": [
     {
       "endDate": "2019-12-31",
@@ -61,7 +61,14 @@
       "notes": "FY20: revenue RM695M (+15% YoY) on CPO recovery; near-breakeven net loss",
       "capexMM": 80,
       "daMM": 78,
-      "cfoMM": 290
+      "cfoMM": 290,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 21.3,
+        "cpoAspPerMt": 2720,
+        "maturePlantedHa": 69500,
+        "rspoPct": 78
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -94,7 +101,14 @@
       "notes": "FY21: revenue RM920M (+32% YoY); net profit RM215M as CPO super-cycle peaked",
       "capexMM": 95,
       "daMM": 80,
-      "cfoMM": 410
+      "cfoMM": 410,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 21.2,
+        "cpoAspPerMt": 4020,
+        "maturePlantedHa": 69800,
+        "rspoPct": 80
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -127,7 +141,18 @@
       "notes": "FY22: revenue RM1.14B; net profit RM700M boosted by RM550M land disposal gain (Kulai estates to UEM Sunrise)",
       "capexMM": 130,
       "daMM": 85,
-      "cfoMM": 510
+      "cfoMM": 510,
+      "propertyBookMM": 2890,
+      "ppeBookMM": 1380,
+      "inventoryMM": 185,
+      "intangibleAssetsMM": 25,
+      "plantation": {
+        "ffbYieldTPerHa": 18.2,
+        "oerPct": 21.1,
+        "cpoAspPerMt": 4680,
+        "maturePlantedHa": 70000,
+        "rspoPct": 82
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -163,7 +188,18 @@
       "notes": "FY23: revenue RM950M (-17% YoY); net loss RM28M as CPO normalized + replanting costs. LTAT takeover offer at RM1.55 lapsed",
       "capexMM": 110,
       "daMM": 88,
-      "cfoMM": 270
+      "cfoMM": 270,
+      "propertyBookMM": 2920,
+      "ppeBookMM": 1420,
+      "inventoryMM": 158,
+      "intangibleAssetsMM": 25,
+      "plantation": {
+        "ffbYieldTPerHa": 17.8,
+        "oerPct": 21.0,
+        "cpoAspPerMt": 3780,
+        "maturePlantedHa": 70200,
+        "rspoPct": 85
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -195,7 +231,18 @@
       "revenueMM": 235,
       "ebitdaMM": 75,
       "netIncomeMM": -5,
-      "notes": "Q4 23"
+      "notes": "Q4 23",
+      "propertyBookMM": 2920,
+      "ppeBookMM": 1420,
+      "inventoryMM": 158,
+      "intangibleAssetsMM": 25,
+      "plantation": {
+        "ffbYieldTPerHa": 17.8,
+        "oerPct": 21.0,
+        "cpoAspPerMt": 3780,
+        "maturePlantedHa": 70200,
+        "rspoPct": 85
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -242,6 +289,16 @@
         "1-3y": 345.0,
         "3-5y": 276.0,
         "5+y": 483.0
+      },
+      "ppeBookMM": 1450,
+      "inventoryMM": 165,
+      "intangibleAssetsMM": 25,
+      "plantation": {
+        "ffbYieldTPerHa": 18.5,
+        "oerPct": 21.2,
+        "cpoAspPerMt": 4080,
+        "maturePlantedHa": 70500,
+        "rspoPct": 88
       }
     },
     {
@@ -274,7 +331,18 @@
       "revenueMM": 290,
       "ebitdaMM": 118,
       "netIncomeMM": 43,
-      "notes": "Q4 24"
+      "notes": "Q4 24",
+      "propertyBookMM": 2950,
+      "ppeBookMM": 1450,
+      "inventoryMM": 165,
+      "intangibleAssetsMM": 25,
+      "plantation": {
+        "ffbYieldTPerHa": 18.5,
+        "oerPct": 21.2,
+        "cpoAspPerMt": 4080,
+        "maturePlantedHa": 70500,
+        "rspoPct": 88
+      }
     }
   ]
 }

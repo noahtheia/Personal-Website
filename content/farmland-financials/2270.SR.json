@@ -115,7 +115,16 @@
       "revenueMM": 560,
       "ebitdaMM": 84,
       "netIncomeMM": 64,
-      "notes": "Q3 FY24"
+      "notes": "Q3 FY24",
+      "ppeBookMM": 7568,
+      "inventoryMM": 2086,
+      "intangibleAssetsMM": 488,
+      "dairy": {
+        "milkIntakeMlitres": 1612,
+        "cowHerdK": 138.4,
+        "infantFormulaRevenuePct": 6.0,
+        "brandedRevenuePct": 85.6
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -188,7 +197,16 @@
       "revenueMM": 590,
       "ebitdaMM": 86,
       "netIncomeMM": 67,
-      "notes": "Q3 FY25"
+      "notes": "Q3 FY25",
+      "ppeBookMM": 7846,
+      "inventoryMM": 2148,
+      "intangibleAssetsMM": 484,
+      "dairy": {
+        "milkIntakeMlitres": 1684,
+        "cowHerdK": 142.6,
+        "infantFormulaRevenuePct": 6.4,
+        "brandedRevenuePct": 86.2
+      }
     },
     {
       "endDate": "2025-03-31",

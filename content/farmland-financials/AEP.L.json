@@ -616,7 +616,14 @@
       "capexMM": 11,
       "daMM": 14,
       "cfoMM": 47,
-      "totalEquityMM": 490
+      "totalEquityMM": 490,
+      "plantation": {
+        "ffbYieldTPerHa": 17.5,
+        "oerPct": 21.3,
+        "cpoAspPerMt": 670,
+        "maturePlantedHa": 22100,
+        "rspoPct": 88
+      }
     },
     {
       "endDate": "2021-06-30",
@@ -656,7 +663,14 @@
       "capexMM": 13,
       "daMM": 15,
       "cfoMM": 105,
-      "totalEquityMM": 560
+      "totalEquityMM": 560,
+      "plantation": {
+        "ffbYieldTPerHa": 16.8,
+        "oerPct": 21.2,
+        "cpoAspPerMt": 940,
+        "maturePlantedHa": 22200,
+        "rspoPct": 90
+      }
     },
     {
       "endDate": "2022-06-30",
@@ -696,7 +710,18 @@
       "capexMM": 14,
       "daMM": 16,
       "cfoMM": 118,
-      "totalEquityMM": 620
+      "totalEquityMM": 620,
+      "propertyBookMM": 140,
+      "ppeBookMM": 74,
+      "inventoryMM": 24,
+      "intangibleAssetsMM": 5,
+      "plantation": {
+        "ffbYieldTPerHa": 16.2,
+        "oerPct": 21.1,
+        "cpoAspPerMt": 1085,
+        "maturePlantedHa": 22300,
+        "rspoPct": 92
+      }
     },
     {
       "endDate": "2023-06-30",
@@ -736,7 +761,18 @@
       "capexMM": 14,
       "daMM": 17,
       "cfoMM": 78,
-      "totalEquityMM": 640
+      "totalEquityMM": 640,
+      "propertyBookMM": 142,
+      "ppeBookMM": 76,
+      "inventoryMM": 21,
+      "intangibleAssetsMM": 5,
+      "plantation": {
+        "ffbYieldTPerHa": 15.8,
+        "oerPct": 21.0,
+        "cpoAspPerMt": 865,
+        "maturePlantedHa": 22400,
+        "rspoPct": 95
+      }
     },
     {
       "endDate": "2024-06-30",
@@ -779,7 +815,17 @@
       "daMM": 18,
       "cfoMM": 86,
       "interestExpenseMM": 0,
-      "totalEquityMM": 660
+      "totalEquityMM": 660,
+      "ppeBookMM": 78,
+      "inventoryMM": 22,
+      "intangibleAssetsMM": 5,
+      "plantation": {
+        "ffbYieldTPerHa": 16.5,
+        "oerPct": 21.2,
+        "cpoAspPerMt": 935,
+        "maturePlantedHa": 22500,
+        "rspoPct": 95
+      }
     },
     {
       "endDate": "2025-06-30",

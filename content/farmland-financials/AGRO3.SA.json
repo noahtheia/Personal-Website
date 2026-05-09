@@ -438,7 +438,13 @@
       "totalAcresK": 308,
       "bookValuePerShare": 12.6,
       "navPerShare": 12.6,
-      "notes": "2T FY20/21: Receita l\u00edquida R$200M includes ~R$60M farm-sale (Imobili\u00e1rio) contribution. EBITDA Aj R$70M. PL/share interpolated FY19/20\u2192FY20/21."
+      "notes": "2T FY20/21: Receita l\u00edquida R$200M includes ~R$60M farm-sale (Imobili\u00e1rio) contribution. EBITDA Aj R$70M. PL/share interpolated FY19/20\u2192FY20/21.",
+      "integratedFarm": {
+        "plantedAreaHa": 218600,
+        "productionVolume": 884,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 924
+      }
     },
     {
       "endDate": "2021-03-31",
@@ -574,7 +580,13 @@
       "totalAcresK": 312,
       "bookValuePerShare": 14.23,
       "navPerShare": 14.23,
-      "notes": "2T FY21/22: Receita l\u00edquida R$255M (large Imobili\u00e1rio quarter \u2014 Chaparral/Alto Taquari sales), EBITDA Aj R$105M. PL/share interpolated FY20/21\u2192FY21/22."
+      "notes": "2T FY21/22: Receita l\u00edquida R$255M (large Imobili\u00e1rio quarter \u2014 Chaparral/Alto Taquari sales), EBITDA Aj R$105M. PL/share interpolated FY20/21\u2192FY21/22.",
+      "integratedFarm": {
+        "plantedAreaHa": 246800,
+        "productionVolume": 988,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1024
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -710,7 +722,17 @@
       "totalAcresK": 318,
       "bookValuePerShare": 15.6,
       "navPerShare": 15.6,
-      "notes": "2T FY22/23: Receita l\u00edquida R$282M, EBITDA Aj R$110M (Imobili\u00e1rio concentrated quarter). PL/share interpolated FY21/22\u2192FY22/23."
+      "notes": "2T FY22/23: Receita l\u00edquida R$282M, EBITDA Aj R$110M (Imobili\u00e1rio concentrated quarter). PL/share interpolated FY21/22\u2192FY22/23.",
+      "propertyBookMM": 3148,
+      "ppeBookMM": 1684,
+      "inventoryMM": 1542,
+      "intangibleAssetsMM": 92,
+      "integratedFarm": {
+        "plantedAreaHa": 268400,
+        "productionVolume": 1062,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1124
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -848,7 +870,17 @@
       "totalAcresK": 322,
       "bookValuePerShare": 16.62,
       "navPerShare": 16.62,
-      "notes": "2T FY23/24: Receita l\u00edquida R$245M, EBITDA Aj R$88M (Imobili\u00e1rio-heavy). PL/share interpolated FY22/23\u2192FY23/24."
+      "notes": "2T FY23/24: Receita l\u00edquida R$245M, EBITDA Aj R$88M (Imobili\u00e1rio-heavy). PL/share interpolated FY22/23\u2192FY23/24.",
+      "propertyBookMM": 3324,
+      "ppeBookMM": 1768,
+      "inventoryMM": 1612,
+      "intangibleAssetsMM": 88,
+      "integratedFarm": {
+        "plantedAreaHa": 278200,
+        "productionVolume": 1124,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1184
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -986,7 +1018,17 @@
       "totalAcresK": 326,
       "bookValuePerShare": 17.29,
       "navPerShare": 17.29,
-      "notes": "2T FY24/25 (Oct-Dec 2024): Receita l\u00edquida R$290M, EBITDA Aj R$105M (large farm-disposition quarter). PL/share interpolated FY23/24\u2192FY24/25."
+      "notes": "2T FY24/25 (Oct-Dec 2024): Receita l\u00edquida R$290M, EBITDA Aj R$105M (large farm-disposition quarter). PL/share interpolated FY23/24\u2192FY24/25.",
+      "propertyBookMM": 3486,
+      "ppeBookMM": 1842,
+      "inventoryMM": 1684,
+      "intangibleAssetsMM": 86,
+      "integratedFarm": {
+        "plantedAreaHa": 286400,
+        "productionVolume": 1186,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1248
+      }
     },
     {
       "endDate": "2025-03-31",

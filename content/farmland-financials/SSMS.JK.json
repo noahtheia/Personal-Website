@@ -2,7 +2,7 @@
   "ticker": "SSMS.JK",
   "currency": "IDR",
   "sourceUrl": "https://www.ssms.co.id/en/investor-relations/",
-  "notes": "Sawit Sumbermas Sarana (SSMS) — IDX-listed pure-play Indonesian palm oil producer (Citra Borneo Indah Group), ~93k planted ha in Central Kalimantan (~230k acres total concessions). IPO December 2013 on IDX. Reports under PSAK 69 (biological assets at FV). Quarterly + FY filings via IDX. Values in IDR millions (matches seed-comps.json convention). Pure CPO/PK reporter — segment split typically ~92% CPO, ~6% PK, ~2% other (kernel oil/palm shell). FV adjustment on biological assets disclosed. Net debt declined materially after 2022 cycle peak as cashflows paid down USD bonds; refinanced into IDR sukuk 2023-2024. Quarterly EBITDA estimated from gross profit + D&A where line-item not directly disclosed; FY data from audited annual reports. Pre-2020 history sourced from SSMS annual report 5-year summary tables (IR archive) — annual only.",
+  "notes": "Sawit Sumbermas Sarana (SSMS) \u2014 IDX-listed pure-play Indonesian palm oil producer (Citra Borneo Indah Group), ~93k planted ha in Central Kalimantan (~230k acres total concessions). IPO December 2013 on IDX. Reports under PSAK 69 (biological assets at FV). Quarterly + FY filings via IDX. Values in IDR millions (matches seed-comps.json convention). Pure CPO/PK reporter \u2014 segment split typically ~92% CPO, ~6% PK, ~2% other (kernel oil/palm shell). FV adjustment on biological assets disclosed. Net debt declined materially after 2022 cycle peak as cashflows paid down USD bonds; refinanced into IDR sukuk 2023-2024. Quarterly EBITDA estimated from gross profit + D&A where line-item not directly disclosed; FY data from audited annual reports. Pre-2020 history sourced from SSMS annual report 5-year summary tables (IR archive) \u2014 annual only.",
   "periods": [
     {
       "endDate": "2014-12-31",
@@ -183,7 +183,7 @@
       "sharesOutMM": 9525,
       "bookValuePerShare": 355,
       "totalAcresK": 225,
-      "notes": "FY19: CPO ASP trough — net loss Rp190B. Heavy USD-debt FX losses",
+      "notes": "FY19: CPO ASP trough \u2014 net loss Rp190B. Heavy USD-debt FX losses",
       "capexMM": 530000,
       "daMM": 310000,
       "cfoMM": 480000
@@ -264,7 +264,14 @@
       "ebitdaMM": 360000,
       "netIncomeMM": 130000,
       "totalAcresK": 230,
-      "notes": "Q4 2020: CPO ASP rally, year-end biological asset FV gain"
+      "notes": "Q4 2020: CPO ASP rally, year-end biological asset FV gain",
+      "plantation": {
+        "ffbYieldTPerHa": 21.5,
+        "oerPct": 22.7,
+        "cpoAspPerMt": 9220000,
+        "maturePlantedHa": 69500,
+        "rspoPct": 50
+      }
     },
     {
       "endDate": "2020-12-31",
@@ -301,7 +308,14 @@
       "notes": "FY20: revenue Rp3.34T (+31% YoY), net income Rp280B. CPO ASP avg ~Rp7.6M/ton FOB",
       "capexMM": 460000,
       "daMM": 320000,
-      "cfoMM": 1180000
+      "cfoMM": 1180000,
+      "plantation": {
+        "ffbYieldTPerHa": 21.5,
+        "oerPct": 22.7,
+        "cpoAspPerMt": 9220000,
+        "maturePlantedHa": 69500,
+        "rspoPct": 50
+      }
     },
     {
       "endDate": "2021-03-31",
@@ -379,7 +393,14 @@
       "ebitdaMM": 660000,
       "netIncomeMM": 320000,
       "totalAcresK": 230,
-      "notes": "Q4 2021: peak CPO ASP, biological asset FV gain"
+      "notes": "Q4 2021: peak CPO ASP, biological asset FV gain",
+      "plantation": {
+        "ffbYieldTPerHa": 20.8,
+        "oerPct": 22.6,
+        "cpoAspPerMt": 12750000,
+        "maturePlantedHa": 69800,
+        "rspoPct": 52
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -417,7 +438,14 @@
       "notes": "FY21: revenue Rp4.93T (+48% YoY), net income Rp955B. CPO ASP avg ~Rp10.5M/ton",
       "capexMM": 540000,
       "daMM": 330000,
-      "cfoMM": 1620000
+      "cfoMM": 1620000,
+      "plantation": {
+        "ffbYieldTPerHa": 20.8,
+        "oerPct": 22.6,
+        "cpoAspPerMt": 12750000,
+        "maturePlantedHa": 69800,
+        "rspoPct": 52
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -496,7 +524,18 @@
       "ebitdaMM": 410000,
       "netIncomeMM": 155000,
       "totalAcresK": 230,
-      "notes": "Q4 2022: CPO ASP retreated from peak"
+      "notes": "Q4 2022: CPO ASP retreated from peak",
+      "propertyBookMM": 3720000,
+      "ppeBookMM": 2580000,
+      "inventoryMM": 780000,
+      "intangibleAssetsMM": 28000,
+      "plantation": {
+        "ffbYieldTPerHa": 20.2,
+        "oerPct": 22.5,
+        "cpoAspPerMt": 14150000,
+        "maturePlantedHa": 70000,
+        "rspoPct": 55
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -534,7 +573,18 @@
       "notes": "FY22: revenue Rp5.69T (+15% YoY), net income Rp1.05T (+10%). Peak earnings year",
       "capexMM": 680000,
       "daMM": 340000,
-      "cfoMM": 1480000
+      "cfoMM": 1480000,
+      "propertyBookMM": 3720000,
+      "ppeBookMM": 2580000,
+      "inventoryMM": 780000,
+      "intangibleAssetsMM": 28000,
+      "plantation": {
+        "ffbYieldTPerHa": 20.2,
+        "oerPct": 22.5,
+        "cpoAspPerMt": 14150000,
+        "maturePlantedHa": 70000,
+        "rspoPct": 55
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -612,7 +662,18 @@
       "ebitdaMM": 460000,
       "netIncomeMM": 130000,
       "totalAcresK": 230,
-      "notes": "Q4 2023: CPO ASP recovery, biological asset FV positive"
+      "notes": "Q4 2023: CPO ASP recovery, biological asset FV positive",
+      "propertyBookMM": 3780000,
+      "ppeBookMM": 2620000,
+      "inventoryMM": 680000,
+      "intangibleAssetsMM": 28000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 22.4,
+        "cpoAspPerMt": 12450000,
+        "maturePlantedHa": 70200,
+        "rspoPct": 58
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -650,7 +711,18 @@
       "notes": "FY23: revenue Rp5.53T (-3% YoY), net income Rp385B (-63%) on CPO normalization. Net debt down sharply on USD bond paydown",
       "capexMM": 620000,
       "daMM": 350000,
-      "cfoMM": 880000
+      "cfoMM": 880000,
+      "propertyBookMM": 3780000,
+      "ppeBookMM": 2620000,
+      "inventoryMM": 680000,
+      "intangibleAssetsMM": 28000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 22.4,
+        "cpoAspPerMt": 12450000,
+        "maturePlantedHa": 70200,
+        "rspoPct": 58
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -728,7 +800,18 @@
       "ebitdaMM": 561000,
       "netIncomeMM": 175000,
       "totalAcresK": 230,
-      "notes": "Q4 2024: CPO ASP firm ~Rp14M/ton, biological asset FV positive"
+      "notes": "Q4 2024: CPO ASP firm ~Rp14M/ton, biological asset FV positive",
+      "propertyBookMM": 3850000,
+      "ppeBookMM": 2680000,
+      "inventoryMM": 720000,
+      "intangibleAssetsMM": 28000,
+      "plantation": {
+        "ffbYieldTPerHa": 20.5,
+        "oerPct": 22.5,
+        "cpoAspPerMt": 13750000,
+        "maturePlantedHa": 70500,
+        "rspoPct": 60
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -776,6 +859,16 @@
         "1-3y": 750000.0,
         "3-5y": 600000.0,
         "5+y": 1050000.0
+      },
+      "ppeBookMM": 2680000,
+      "inventoryMM": 720000,
+      "intangibleAssetsMM": 28000,
+      "plantation": {
+        "ffbYieldTPerHa": 20.5,
+        "oerPct": 22.5,
+        "cpoAspPerMt": 13750000,
+        "maturePlantedHa": 70500,
+        "rspoPct": 60
       }
     }
   ]

@@ -357,7 +357,13 @@
       "capexMM": 2,
       "daMM": 3,
       "cfoMM": 6,
-      "totalEquityMM": 23
+      "totalEquityMM": 23,
+      "integratedFarm": {
+        "plantedAreaHa": 16842,
+        "productionVolume": 70.6,
+        "productionUnit": "kt fruit",
+        "biologicalAssetsMM": 102.8
+      }
     },
     {
       "endDate": "2021-06-30",
@@ -390,7 +396,13 @@
       "capexMM": 2,
       "daMM": 3,
       "cfoMM": 5,
-      "totalEquityMM": 26
+      "totalEquityMM": 26,
+      "integratedFarm": {
+        "plantedAreaHa": 17246,
+        "productionVolume": 74.2,
+        "productionUnit": "kt fruit",
+        "biologicalAssetsMM": 106.4
+      }
     },
     {
       "endDate": "2022-06-30",
@@ -424,7 +436,17 @@
       "capexMM": 1,
       "daMM": 3,
       "cfoMM": 2,
-      "totalEquityMM": 12
+      "totalEquityMM": 12,
+      "propertyBookMM": 172.8,
+      "ppeBookMM": 268.4,
+      "inventoryMM": 132.6,
+      "intangibleAssetsMM": 19.2,
+      "integratedFarm": {
+        "plantedAreaHa": 17848,
+        "productionVolume": 78.4,
+        "productionUnit": "kt fruit",
+        "biologicalAssetsMM": 112.8
+      }
     },
     {
       "endDate": "2023-06-30",
@@ -457,7 +479,17 @@
       "capexMM": 1,
       "daMM": 3,
       "cfoMM": 3,
-      "totalEquityMM": 14
+      "totalEquityMM": 14,
+      "propertyBookMM": 178.4,
+      "ppeBookMM": 278.6,
+      "inventoryMM": 138.4,
+      "intangibleAssetsMM": 18.8,
+      "integratedFarm": {
+        "plantedAreaHa": 18248,
+        "productionVolume": 82.6,
+        "productionUnit": "kt fruit",
+        "biologicalAssetsMM": 118.4
+      }
     },
     {
       "endDate": "2024-06-30",
@@ -503,7 +535,16 @@
         "3-5y": 1.84,
         "5+y": 3.22
       },
-      "totalEquityMM": 16
+      "totalEquityMM": 16,
+      "ppeBookMM": 286.4,
+      "inventoryMM": 142.8,
+      "intangibleAssetsMM": 18.6,
+      "integratedFarm": {
+        "plantedAreaHa": 18642,
+        "productionVolume": 86.4,
+        "productionUnit": "kt fruit",
+        "biologicalAssetsMM": 124.6
+      }
     }
   ]
 }

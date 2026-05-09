@@ -2,7 +2,7 @@
   "ticker": "5210.KL",
   "currency": "MYR",
   "sourceUrl": "https://www.umcca.com.my/",
-  "notes": "United Malacca Berhad (UMCCA/5210) — Bursa Malaysia-listed pure-play upstream palm oil operator with ~63,000 ha planted (Sabah + Peninsular Malaysia ~38,000 ha; East Kalimantan, Indonesia ~25,000 ha via PT Wana Rindang Lestari). Total titled area ~74,000 ha (~183k acres × 2.47/1000). Fiscal year ends 30 April. Reports in MYR millions per Bursa convention. FY data from annual report 5-year summary tables. Acres = planted ha × 2.47 / 1000. Modest debt (Indonesian estates funded by USD facility). Segments: pure CPO/PK; Indonesian operations contribute ~25% of FFB.",
+  "notes": "United Malacca Berhad (UMCCA/5210) \u2014 Bursa Malaysia-listed pure-play upstream palm oil operator with ~63,000 ha planted (Sabah + Peninsular Malaysia ~38,000 ha; East Kalimantan, Indonesia ~25,000 ha via PT Wana Rindang Lestari). Total titled area ~74,000 ha (~183k acres \u00d7 2.47/1000). Fiscal year ends 30 April. Reports in MYR millions per Bursa convention. FY data from annual report 5-year summary tables. Acres = planted ha \u00d7 2.47 / 1000. Modest debt (Indonesian estates funded by USD facility). Segments: pure CPO/PK; Indonesian operations contribute ~25% of FFB.",
   "periods": [
     {
       "endDate": "2020-04-30",
@@ -28,7 +28,14 @@
       "notes": "FY20 (Apr-end): revenue RM360M; net loss RM32M on CPO weakness + Indonesian estates ramping",
       "capexMM": 65,
       "daMM": 50,
-      "cfoMM": 75
+      "cfoMM": 75,
+      "plantation": {
+        "ffbYieldTPerHa": 21.5,
+        "oerPct": 22.0,
+        "cpoAspPerMt": 2580,
+        "maturePlantedHa": 16200,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2021-04-30",
@@ -61,7 +68,14 @@
       "notes": "FY21 (Apr-end): revenue RM420M (+17% YoY) on CPO recovery; net profit RM18M reverses prior loss",
       "capexMM": 55,
       "daMM": 52,
-      "cfoMM": 95
+      "cfoMM": 95,
+      "plantation": {
+        "ffbYieldTPerHa": 20.8,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 3520,
+        "maturePlantedHa": 16300,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2022-04-30",
@@ -94,7 +108,17 @@
       "notes": "FY22 (Apr-end): revenue RM575M (+37% YoY); CPO super-cycle peak through Apr-2022; net profit RM100M",
       "capexMM": 70,
       "daMM": 55,
-      "cfoMM": 130
+      "cfoMM": 130,
+      "propertyBookMM": 830,
+      "ppeBookMM": 405,
+      "inventoryMM": 105,
+      "plantation": {
+        "ffbYieldTPerHa": 20.2,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 4820,
+        "maturePlantedHa": 16400,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2023-04-30",
@@ -131,7 +155,17 @@
       "notes": "FY23 (Apr-end): revenue RM595M; net profit RM92M as CPO ASP held above RM4,000/MT",
       "capexMM": 75,
       "daMM": 58,
-      "cfoMM": 160
+      "cfoMM": 160,
+      "propertyBookMM": 840,
+      "ppeBookMM": 410,
+      "inventoryMM": 90,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 4250,
+        "maturePlantedHa": 16400,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2023-07-31",
@@ -163,7 +197,17 @@
       "revenueMM": 145,
       "ebitdaMM": 44,
       "netIncomeMM": 15,
-      "notes": "Q4 FY24"
+      "notes": "Q4 FY24",
+      "propertyBookMM": 850,
+      "ppeBookMM": 420,
+      "inventoryMM": 95,
+      "plantation": {
+        "ffbYieldTPerHa": 20.5,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 4080,
+        "maturePlantedHa": 16500,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2024-04-30",
@@ -200,7 +244,17 @@
       "notes": "FY24 (Apr-end): revenue RM580M; net profit RM60M as CPO normalized + cost inflation",
       "capexMM": 70,
       "daMM": 60,
-      "cfoMM": 110
+      "cfoMM": 110,
+      "propertyBookMM": 850,
+      "ppeBookMM": 420,
+      "inventoryMM": 95,
+      "plantation": {
+        "ffbYieldTPerHa": 20.5,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 4080,
+        "maturePlantedHa": 16500,
+        "rspoPct": 100
+      }
     },
     {
       "endDate": "2025-04-30",

@@ -2,7 +2,7 @@
   "ticker": "LSIP.JK",
   "currency": "IDR",
   "sourceUrl": "https://www.londonsumatra.com/",
-  "notes": "PT Perusahaan Perkebunan London Sumatra Indonesia Tbk (LSIP) — IDX-listed Indonesian palm oil producer, 59.5%-owned subsidiary of Indofood Agri Resources / Salim Group since 2007 acquisition. ~115k ha planted oil palm + smaller rubber/cocoa/seeds operations across North Sumatra, South Sumatra, East Kalimantan, South Sulawesi. Reports under PSAK (IFRS-equivalent), biological assets at fair value (PSAK 69). Values in IDR millions (matches AALI/SIMP convention). Net cash since 2014 — negligible long-term debt. FY data sourced from annual reports / IDX filings (laporan keuangan). Acres = planted hectares × 2.47 / 1000. Segments: CPO/PK (~85% rev), rubber + seeds + other (residual).",
+  "notes": "PT Perusahaan Perkebunan London Sumatra Indonesia Tbk (LSIP) \u2014 IDX-listed Indonesian palm oil producer, 59.5%-owned subsidiary of Indofood Agri Resources / Salim Group since 2007 acquisition. ~115k ha planted oil palm + smaller rubber/cocoa/seeds operations across North Sumatra, South Sumatra, East Kalimantan, South Sulawesi. Reports under PSAK (IFRS-equivalent), biological assets at fair value (PSAK 69). Values in IDR millions (matches AALI/SIMP convention). Net cash since 2014 \u2014 negligible long-term debt. FY data sourced from annual reports / IDX filings (laporan keuangan). Acres = planted hectares \u00d7 2.47 / 1000. Segments: CPO/PK (~85% rev), rubber + seeds + other (residual).",
   "periods": [
     {
       "endDate": "2019-12-31",
@@ -71,7 +71,14 @@
       "notes": "FY20: CPO ASP recovery H2; net income Rp314B (+24% YoY)",
       "capexMM": 400000,
       "daMM": 290000,
-      "cfoMM": 1300000
+      "cfoMM": 1300000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 22.5,
+        "cpoAspPerMt": 9180000,
+        "maturePlantedHa": 60000,
+        "rspoPct": 70
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -109,7 +116,14 @@
       "notes": "FY21: revenue Rp4.79T (+35% YoY) on CPO super-cycle; net income Rp856B (+173% YoY)",
       "capexMM": 520000,
       "daMM": 300000,
-      "cfoMM": 1640000
+      "cfoMM": 1640000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 22.4,
+        "cpoAspPerMt": 12720000,
+        "maturePlantedHa": 60100,
+        "rspoPct": 72
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -189,7 +203,18 @@
       "netIncomeMM": 151000,
       "netDebtMM": -2650000,
       "sharesOutMM": 6823,
-      "notes": "Q4 2022: revenue Rp1.17T."
+      "notes": "Q4 2022: revenue Rp1.17T.",
+      "propertyBookMM": 2780000,
+      "ppeBookMM": 1920000,
+      "inventoryMM": 620000,
+      "intangibleAssetsMM": 12000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.2,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 14080000,
+        "maturePlantedHa": 60200,
+        "rspoPct": 75
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -227,7 +252,18 @@
       "notes": "FY22: revenue Rp4.86T (+1% YoY); CPO export ban + DMO compressed margins. Net income Rp686B (-20%)",
       "capexMM": 660000,
       "daMM": 310000,
-      "cfoMM": 1380000
+      "cfoMM": 1380000,
+      "propertyBookMM": 2780000,
+      "ppeBookMM": 1920000,
+      "inventoryMM": 620000,
+      "intangibleAssetsMM": 12000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.2,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 14080000,
+        "maturePlantedHa": 60200,
+        "rspoPct": 75
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -307,7 +343,18 @@
       "netIncomeMM": 89000,
       "netDebtMM": -2535000,
       "sharesOutMM": 6823,
-      "notes": "Q4 2023: revenue Rp1.11T."
+      "notes": "Q4 2023: revenue Rp1.11T.",
+      "propertyBookMM": 2820000,
+      "ppeBookMM": 1950000,
+      "inventoryMM": 550000,
+      "intangibleAssetsMM": 12000,
+      "plantation": {
+        "ffbYieldTPerHa": 17.8,
+        "oerPct": 22.2,
+        "cpoAspPerMt": 12420000,
+        "maturePlantedHa": 60300,
+        "rspoPct": 78
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -345,7 +392,18 @@
       "notes": "FY23: revenue Rp4.38T (-10% YoY) on CPO normalization + cost inflation; net income Rp343B (-50%)",
       "capexMM": 620000,
       "daMM": 320000,
-      "cfoMM": 880000
+      "cfoMM": 880000,
+      "propertyBookMM": 2820000,
+      "ppeBookMM": 1950000,
+      "inventoryMM": 550000,
+      "intangibleAssetsMM": 12000,
+      "plantation": {
+        "ffbYieldTPerHa": 17.8,
+        "oerPct": 22.2,
+        "cpoAspPerMt": 12420000,
+        "maturePlantedHa": 60300,
+        "rspoPct": 78
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -425,7 +483,18 @@
       "netIncomeMM": 164000,
       "netDebtMM": -2780000,
       "sharesOutMM": 6823,
-      "notes": "Q4 2024: revenue Rp1.25T; net income Rp164B."
+      "notes": "Q4 2024: revenue Rp1.25T; net income Rp164B.",
+      "propertyBookMM": 2850000,
+      "ppeBookMM": 1980000,
+      "inventoryMM": 580000,
+      "intangibleAssetsMM": 12000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.5,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 13720000,
+        "maturePlantedHa": 60500,
+        "rspoPct": 80
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -473,6 +542,16 @@
         "1-3y": 10000.0,
         "3-5y": 8000.0,
         "5+y": 14000.0
+      },
+      "ppeBookMM": 1980000,
+      "inventoryMM": 580000,
+      "intangibleAssetsMM": 12000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.5,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 13720000,
+        "maturePlantedHa": 60500,
+        "rspoPct": 80
       }
     }
   ]

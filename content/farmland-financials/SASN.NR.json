@@ -2,7 +2,7 @@
   "ticker": "SASN.NR",
   "currency": "KES",
   "sourceUrl": "https://www.sasini.co.ke/investor-relations/",
-  "notes": "Sasini Plc — Kenyan agribusiness listed on the Nairobi Securities Exchange (NSE Kenya). Owns ~32,000 ha (~79k acres) of tea, coffee, macadamia and avocado estates in Kericho, Kiambu and Nandi counties + dairy operations. Diversification away from pure tea over past decade has dampened earnings volatility. Fiscal year ends 30 September. KES reporting; figures in KES millions. Tea price downturn FY2023-2024 hit profitability (sector-wide pressure on Kenyan tea auction prices), partly offset by macadamia/avocado growth. Net debt rose modestly post-FY2022 driven by working-capital and replanting capex. Acres ~79k (32k ha including newer macadamia/avocado expansion). Pre-2022 figures show stronger margins on tea-led mix.",
+  "notes": "Sasini Plc \u2014 Kenyan agribusiness listed on the Nairobi Securities Exchange (NSE Kenya). Owns ~32,000 ha (~79k acres) of tea, coffee, macadamia and avocado estates in Kericho, Kiambu and Nandi counties + dairy operations. Diversification away from pure tea over past decade has dampened earnings volatility. Fiscal year ends 30 September. KES reporting; figures in KES millions. Tea price downturn FY2023-2024 hit profitability (sector-wide pressure on Kenyan tea auction prices), partly offset by macadamia/avocado growth. Net debt rose modestly post-FY2022 driven by working-capital and replanting capex. Acres ~79k (32k ha including newer macadamia/avocado expansion). Pre-2022 figures show stronger margins on tea-led mix.",
   "periods": [
     {
       "endDate": "2020-09-30",
@@ -119,7 +119,17 @@
       "revenueMM": 2950,
       "ebitdaMM": 420,
       "netIncomeMM": 90,
-      "notes": "H1 FY23: 6 months to Mar-23."
+      "notes": "H1 FY23: 6 months to Mar-23.",
+      "propertyBookMM": 940,
+      "ppeBookMM": 595,
+      "inventoryMM": 135,
+      "intangibleAssetsMM": 8,
+      "tea": {
+        "madeTeaProducedKgMM": 7.1,
+        "madeTeaAspPerKg": 240,
+        "teaPlantedHa": 2650,
+        "boughtLeafSharePct": 18
+      }
     },
     {
       "endDate": "2024-09-30",
@@ -172,7 +182,17 @@
       "revenueMM": 2700,
       "ebitdaMM": 320,
       "netIncomeMM": 5,
-      "notes": "H1 FY24: 6 months to Mar-24."
+      "notes": "H1 FY24: 6 months to Mar-24.",
+      "propertyBookMM": 960,
+      "ppeBookMM": 605,
+      "inventoryMM": 120,
+      "intangibleAssetsMM": 8,
+      "tea": {
+        "madeTeaProducedKgMM": 7.0,
+        "madeTeaAspPerKg": 260,
+        "teaPlantedHa": 2650,
+        "boughtLeafSharePct": 19
+      }
     }
   ]
 }

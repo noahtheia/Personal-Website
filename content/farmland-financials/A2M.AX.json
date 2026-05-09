@@ -26,7 +26,11 @@
       "daMM": 14,
       "cfoMM": 427,
       "notes": "FY20 record revenue NZ$1.73B, EBITDA NZ$549M (32% margin). Pre-China daigou disruption peak.",
-      "totalEquityMM": 875
+      "totalEquityMM": 875,
+      "dairy": {
+        "infantFormulaRevenuePct": 80.2,
+        "brandedRevenuePct": 100
+      }
     },
     {
       "endDate": "2021-06-30",
@@ -50,7 +54,11 @@
       "daMM": 17,
       "cfoMM": 96,
       "notes": "FY21 collapse \u2014 daigou channel disrupted by China COVID border restrictions; revenue -30%, EBITDA -75%.",
-      "totalEquityMM": 950
+      "totalEquityMM": 950,
+      "dairy": {
+        "infantFormulaRevenuePct": 72.4,
+        "brandedRevenuePct": 100
+      }
     },
     {
       "endDate": "2022-06-30",
@@ -74,7 +82,14 @@
       "daMM": 21,
       "cfoMM": 152,
       "notes": "FY22 partial recovery. EBITDA NZ$196M.",
-      "totalEquityMM": 1010
+      "totalEquityMM": 1010,
+      "ppeBookMM": 76.8,
+      "inventoryMM": 246.2,
+      "intangibleAssetsMM": 36.4,
+      "dairy": {
+        "infantFormulaRevenuePct": 74.6,
+        "brandedRevenuePct": 100
+      }
     },
     {
       "endDate": "2023-06-30",
@@ -104,7 +119,14 @@
         "Other opex": 0
       },
       "notes": "FY23 revenue NZ$1.59B (+10%), EBITDA NZ$219M.",
-      "totalEquityMM": 1075
+      "totalEquityMM": 1075,
+      "ppeBookMM": 82.6,
+      "inventoryMM": 218.4,
+      "intangibleAssetsMM": 34.2,
+      "dairy": {
+        "infantFormulaRevenuePct": 76.8,
+        "brandedRevenuePct": 100
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -143,7 +165,14 @@
       },
       "notes": "FY24 revenue NZ$1.68B (+5%), EBITDA NZ$235M (14% margin). NZ$1.08B net cash. First-ever buyback authorized.",
       "interestExpenseMM": 0,
-      "totalEquityMM": 1140
+      "totalEquityMM": 1140,
+      "ppeBookMM": 86.4,
+      "inventoryMM": 248.6,
+      "intangibleAssetsMM": 32.8,
+      "dairy": {
+        "infantFormulaRevenuePct": 78.4,
+        "brandedRevenuePct": 100
+      }
     },
     {
       "endDate": "2024-12-31",

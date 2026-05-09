@@ -26,7 +26,11 @@
       "totalEquityMM": 35,
       "cfoMM": 1,
       "capexMM": 2,
-      "daMM": 1
+      "daMM": 1,
+      "dairy": {
+        "milkIntakeMlitres": 18,
+        "brandedRevenuePct": 89.8
+      }
     },
     {
       "endDate": "2021-06-30",
@@ -50,7 +54,11 @@
       "totalEquityMM": 42,
       "cfoMM": 1,
       "capexMM": 2,
-      "daMM": 1
+      "daMM": 1,
+      "dairy": {
+        "milkIntakeMlitres": 20,
+        "brandedRevenuePct": 90.4
+      }
     },
     {
       "endDate": "2022-06-30",
@@ -73,7 +81,14 @@
       "notes": "FY22 (ended Jun 30 2022): revenue AUD 28.2M. EBITDA AUD -1.8M. Persistent losses. Strategic review of farm portfolio.",
       "totalEquityMM": 48,
       "capexMM": 1,
-      "daMM": 1
+      "daMM": 1,
+      "ppeBookMM": 24.2,
+      "inventoryMM": 12.4,
+      "intangibleAssetsMM": 6.6,
+      "dairy": {
+        "milkIntakeMlitres": 21,
+        "brandedRevenuePct": 91.2
+      }
     },
     {
       "endDate": "2023-06-30",
@@ -97,7 +112,14 @@
       "totalEquityMM": 45,
       "cfoMM": 1,
       "capexMM": 1,
-      "daMM": 1
+      "daMM": 1,
+      "ppeBookMM": 26.8,
+      "inventoryMM": 13.8,
+      "intangibleAssetsMM": 6.4,
+      "dairy": {
+        "milkIntakeMlitres": 22,
+        "brandedRevenuePct": 91.8
+      }
     },
     {
       "endDate": "2024-06-30",
@@ -121,7 +143,14 @@
       "totalEquityMM": 50,
       "cfoMM": 1,
       "capexMM": 1,
-      "daMM": 1
+      "daMM": 1,
+      "ppeBookMM": 28.4,
+      "inventoryMM": 14.6,
+      "intangibleAssetsMM": 6.2,
+      "dairy": {
+        "milkIntakeMlitres": 24,
+        "brandedRevenuePct": 92.4
+      }
     },
     {
       "endDate": "2025-06-30",

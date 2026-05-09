@@ -20,7 +20,13 @@
       "capexMM": 220,
       "daMM": 360,
       "cfoMM": 1450,
-      "totalEquityMM": 12800
+      "totalEquityMM": 12800,
+      "integratedFarm": {
+        "plantedAreaHa": 762400,
+        "productionVolume": 3886,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1664
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -38,7 +44,16 @@
       "capexMM": 250,
       "daMM": 380,
       "cfoMM": 1280,
-      "totalEquityMM": 13350
+      "totalEquityMM": 13350,
+      "ppeBookMM": 8186,
+      "inventoryMM": 3984,
+      "intangibleAssetsMM": 298,
+      "integratedFarm": {
+        "plantedAreaHa": 768400,
+        "productionVolume": 4024,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1724
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -67,7 +82,16 @@
       "capexMM": 280,
       "daMM": 400,
       "cfoMM": 1560,
-      "totalEquityMM": 13750
+      "totalEquityMM": 13750,
+      "ppeBookMM": 8412,
+      "inventoryMM": 4124,
+      "intangibleAssetsMM": 292,
+      "integratedFarm": {
+        "plantedAreaHa": 778400,
+        "productionVolume": 4148,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1782
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -100,7 +124,16 @@
       "ebitdaMM": 413,
       "netIncomeMM": 404,
       "notes": "Q4 23",
-      "totalEquityMM": 13750
+      "totalEquityMM": 13750,
+      "ppeBookMM": 8412,
+      "inventoryMM": 4124,
+      "intangibleAssetsMM": 292,
+      "integratedFarm": {
+        "plantedAreaHa": 778400,
+        "productionVolume": 4148,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1782
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -130,7 +163,16 @@
       "capexMM": 290,
       "daMM": 420,
       "cfoMM": 1680,
-      "totalEquityMM": 14050
+      "totalEquityMM": 14050,
+      "ppeBookMM": 8642,
+      "inventoryMM": 4248,
+      "intangibleAssetsMM": 286,
+      "integratedFarm": {
+        "plantedAreaHa": 786400,
+        "productionVolume": 4286,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1846
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -163,7 +205,16 @@
       "ebitdaMM": 415,
       "netIncomeMM": 397,
       "notes": "Q4 24",
-      "totalEquityMM": 14050
+      "totalEquityMM": 14050,
+      "ppeBookMM": 8642,
+      "inventoryMM": 4248,
+      "intangibleAssetsMM": 286,
+      "integratedFarm": {
+        "plantedAreaHa": 786400,
+        "productionVolume": 4286,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1846
+      }
     },
     {
       "endDate": "2025-12-31",

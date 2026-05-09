@@ -21,7 +21,13 @@
       "sharesOutMM": 95.0,
       "bookValuePerShare": 11.4,
       "dividendPerShare": 0,
-      "notes": "FY20 (pro forma \u2014 pre-merger Total Produce + Dole Food): revenue $4.67B. Combined adj EBITDA $290M. Pre-IPO baseline."
+      "notes": "FY20 (pro forma \u2014 pre-merger Total Produce + Dole Food): revenue $4.67B. Combined adj EBITDA $290M. Pre-IPO baseline.",
+      "integratedFarm": {
+        "plantedAreaHa": 39800,
+        "productionVolume": 5868,
+        "productionUnit": "kt fresh produce",
+        "biologicalAssetsMM": 146
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -44,7 +50,13 @@
       "capexMM": 75.0,
       "daMM": 68.0,
       "cfoMM": 7.0,
-      "totalEquityMM": 1395
+      "totalEquityMM": 1395,
+      "integratedFarm": {
+        "plantedAreaHa": 40600,
+        "productionVolume": 5984,
+        "productionUnit": "kt fresh produce",
+        "biologicalAssetsMM": 152
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -121,7 +133,16 @@
       "capexMM": 71.0,
       "daMM": 68.0,
       "cfoMM": 53.0,
-      "totalEquityMM": 1320
+      "totalEquityMM": 1320,
+      "ppeBookMM": 1438,
+      "inventoryMM": 748,
+      "intangibleAssetsMM": 232,
+      "integratedFarm": {
+        "plantedAreaHa": 41200,
+        "productionVolume": 6082,
+        "productionUnit": "kt fresh produce",
+        "biologicalAssetsMM": 158
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -198,7 +219,16 @@
       "capexMM": 150.0,
       "daMM": 66.0,
       "cfoMM": 422.0,
-      "totalEquityMM": 1450
+      "totalEquityMM": 1450,
+      "ppeBookMM": 1462,
+      "inventoryMM": 762,
+      "intangibleAssetsMM": 224,
+      "integratedFarm": {
+        "plantedAreaHa": 41800,
+        "productionVolume": 6184,
+        "productionUnit": "kt fresh produce",
+        "biologicalAssetsMM": 162
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -305,7 +335,16 @@
         "Diversified Fresh Produce - EMEA": 3608.7,
         "Diversified Fresh Produce - Americas & ROW": 1686.3
       },
-      "totalEquityMM": 1510
+      "totalEquityMM": 1510,
+      "ppeBookMM": 1486,
+      "inventoryMM": 786,
+      "intangibleAssetsMM": 218,
+      "integratedFarm": {
+        "plantedAreaHa": 42400,
+        "productionVolume": 6242,
+        "productionUnit": "kt fresh produce",
+        "biologicalAssetsMM": 168
+      }
     },
     {
       "endDate": "2025-03-31",

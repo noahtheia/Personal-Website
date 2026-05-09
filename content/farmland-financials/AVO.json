@@ -26,6 +26,16 @@
         "COGS": 770,
         "SG&A": 60,
         "D&A": 20
+      },
+      "integratedFarm": {
+        "plantedAreaHa": 4124,
+        "productionVolume": 128.4,
+        "productionUnit": "M lbs avocado",
+        "treeCrop": {
+          "bearingHa": 3624,
+          "nonBearingHa": 500,
+          "avgTreeAgeYears": 10
+        }
       }
     },
     {
@@ -107,6 +117,19 @@
         "COGS": 970,
         "SG&A": 88,
         "D&A": 25
+      },
+      "ppeBookMM": 82.6,
+      "inventoryMM": 17.2,
+      "intangibleAssetsMM": 12.8,
+      "integratedFarm": {
+        "plantedAreaHa": 4186,
+        "productionVolume": 132.8,
+        "productionUnit": "M lbs avocado",
+        "treeCrop": {
+          "bearingHa": 3686,
+          "nonBearingHa": 500,
+          "avgTreeAgeYears": 11
+        }
       }
     },
     {
@@ -188,6 +211,19 @@
         "COGS": 850,
         "SG&A": 65,
         "D&A": 33
+      },
+      "ppeBookMM": 84.2,
+      "inventoryMM": 17.8,
+      "intangibleAssetsMM": 12.6,
+      "integratedFarm": {
+        "plantedAreaHa": 4248,
+        "productionVolume": 138.4,
+        "productionUnit": "M lbs avocado",
+        "treeCrop": {
+          "bearingHa": 3748,
+          "nonBearingHa": 500,
+          "avgTreeAgeYears": 11
+        }
       }
     },
     {
@@ -274,6 +310,19 @@
         "COGS": 1075,
         "SG&A": 90,
         "D&A": 38
+      },
+      "ppeBookMM": 86.4,
+      "inventoryMM": 18.6,
+      "intangibleAssetsMM": 12.4,
+      "integratedFarm": {
+        "plantedAreaHa": 4286,
+        "productionVolume": 142.6,
+        "productionUnit": "M lbs avocado",
+        "treeCrop": {
+          "bearingHa": 3786,
+          "nonBearingHa": 500,
+          "avgTreeAgeYears": 12
+        }
       }
     },
     {

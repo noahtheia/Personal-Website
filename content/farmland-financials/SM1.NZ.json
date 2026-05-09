@@ -20,7 +20,12 @@
       "daMM": 60,
       "cfoMM": 105,
       "notes": "FY20 (ended Jul 31 2020): revenue NZD 1.30B (+9%). EBITDA NZD 119M. Net income NZD 75M. Pre-Dairyworks integration.",
-      "totalEquityMM": 540
+      "totalEquityMM": 540,
+      "dairy": {
+        "milkIntakeMlitres": 162,
+        "infantFormulaRevenuePct": 32.8,
+        "brandedRevenuePct": 79.6
+      }
     },
     {
       "endDate": "2021-07-31",
@@ -38,7 +43,12 @@
       "daMM": 70,
       "cfoMM": -50,
       "notes": "FY21 (ended Jul 31 2021): revenue NZD 1.37B. EBITDA collapsed to NZD 6M. Net loss NZD 28M. Inventory writedowns + a2 Milk demand softness. Pokeno ramp losses.",
-      "totalEquityMM": 580
+      "totalEquityMM": 580,
+      "dairy": {
+        "milkIntakeMlitres": 168,
+        "infantFormulaRevenuePct": 34.2,
+        "brandedRevenuePct": 81.4
+      }
     },
     {
       "endDate": "2022-07-31",
@@ -56,7 +66,15 @@
       "daMM": 70,
       "cfoMM": 95,
       "notes": "FY22 (ended Jul 31 2022): revenue NZD 1.66B (+21%). EBITDA NZD 78M. Net income NZD 39M (recovery). Strong commodity dairy prices.",
-      "totalEquityMM": 615
+      "totalEquityMM": 615,
+      "ppeBookMM": 358.6,
+      "inventoryMM": 198.4,
+      "intangibleAssetsMM": 88.4,
+      "dairy": {
+        "milkIntakeMlitres": 172,
+        "infantFormulaRevenuePct": 35.4,
+        "brandedRevenuePct": 82.8
+      }
     },
     {
       "endDate": "2023-07-31",
@@ -85,7 +103,15 @@
         "Other opex": -2
       },
       "notes": "FY23 (ended Jul 31 2023): revenue NZD 1.58B (-5%). EBITDA NZD 35M. Net loss NZD 4M. China infant formula demand weak. Leverage spiked.",
-      "totalEquityMM": 645
+      "totalEquityMM": 645,
+      "ppeBookMM": 372.8,
+      "inventoryMM": 206.4,
+      "intangibleAssetsMM": 86.8,
+      "dairy": {
+        "milkIntakeMlitres": 178,
+        "infantFormulaRevenuePct": 36.8,
+        "brandedRevenuePct": 84.6
+      }
     },
     {
       "endDate": "2024-01-31",
@@ -122,7 +148,15 @@
         "Other opex": 168
       },
       "notes": "FY24 (ended Jul 31 2024): revenue NZD 1.66B. EBITDA NZD -134M (impairments NZD ~150M on Pokeno + North Island consumer assets). Net loss NZD 182M. Going concern noted; recap completed Sept 2024.",
-      "totalEquityMM": 670
+      "totalEquityMM": 670,
+      "ppeBookMM": 386.4,
+      "inventoryMM": 218.6,
+      "intangibleAssetsMM": 84.2,
+      "dairy": {
+        "milkIntakeMlitres": 184,
+        "infantFormulaRevenuePct": 38.4,
+        "brandedRevenuePct": 86.4
+      }
     },
     {
       "endDate": "2025-01-31",

@@ -642,7 +642,14 @@
       "capexMM": 190,
       "daMM": 240,
       "cfoMM": 600,
-      "totalEquityMM": 7050
+      "totalEquityMM": 7050,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 22.0,
+        "cpoAspPerMt": 655,
+        "maturePlantedHa": 399000,
+        "rspoPct": 40
+      }
     },
     {
       "endDate": "2021-06-30",
@@ -701,7 +708,14 @@
       "capexMM": 230,
       "daMM": 250,
       "cfoMM": 750,
-      "totalEquityMM": 7380
+      "totalEquityMM": 7380,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 925,
+        "maturePlantedHa": 399500,
+        "rspoPct": 42
+      }
     },
     {
       "endDate": "2022-06-30",
@@ -760,7 +774,18 @@
       "capexMM": 280,
       "daMM": 260,
       "cfoMM": 680,
-      "totalEquityMM": 7780
+      "totalEquityMM": 7780,
+      "propertyBookMM": 2790,
+      "ppeBookMM": 2080,
+      "inventoryMM": 1280,
+      "intangibleAssetsMM": 45,
+      "plantation": {
+        "ffbYieldTPerHa": 18.2,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 1065,
+        "maturePlantedHa": 400000,
+        "rspoPct": 45
+      }
     },
     {
       "endDate": "2023-06-30",
@@ -819,7 +844,18 @@
       "capexMM": 270,
       "daMM": 270,
       "cfoMM": 460,
-      "totalEquityMM": 8050
+      "totalEquityMM": 8050,
+      "propertyBookMM": 2820,
+      "ppeBookMM": 2120,
+      "inventoryMM": 1140,
+      "intangibleAssetsMM": 45,
+      "plantation": {
+        "ffbYieldTPerHa": 17.8,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 845,
+        "maturePlantedHa": 400500,
+        "rspoPct": 48
+      }
     },
     {
       "endDate": "2024-06-30",
@@ -887,7 +923,17 @@
         "3-5y": 375.0,
         "5+y": 500.0
       },
-      "totalEquityMM": 8320
+      "totalEquityMM": 8320,
+      "ppeBookMM": 2150,
+      "inventoryMM": 1180,
+      "intangibleAssetsMM": 45,
+      "plantation": {
+        "ffbYieldTPerHa": 18.5,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 915,
+        "maturePlantedHa": 401000,
+        "rspoPct": 50
+      }
     }
   ]
 }
