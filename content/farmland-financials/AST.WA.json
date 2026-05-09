@@ -24,7 +24,14 @@
       "totalEquityMM": 95,
       "cfoMM": 18,
       "capexMM": 25,
-      "daMM": 8
+      "daMM": 8,
+      "totalAssetsMM": 220,
+      "totalDebtMM": 75,
+      "cashMM": 12,
+      "propertyBookMM": 35,
+      "ppeBookMM": 105,
+      "inventoryMM": 40,
+      "intangibleAssetsMM": 8
     },
     {
       "endDate": "2008-12-31",
@@ -46,7 +53,14 @@
       "totalEquityMM": 115,
       "cfoMM": 22,
       "capexMM": 32,
-      "daMM": 11
+      "daMM": 11,
+      "totalAssetsMM": 280,
+      "totalDebtMM": 105,
+      "cashMM": 14,
+      "propertyBookMM": 45,
+      "ppeBookMM": 135,
+      "inventoryMM": 55,
+      "intangibleAssetsMM": 10
     },
     {
       "endDate": "2009-12-31",
@@ -68,7 +82,14 @@
       "totalEquityMM": 140,
       "cfoMM": 28,
       "capexMM": 38,
-      "daMM": 14
+      "daMM": 14,
+      "totalAssetsMM": 320,
+      "totalDebtMM": 120,
+      "cashMM": 16,
+      "propertyBookMM": 52,
+      "ppeBookMM": 155,
+      "inventoryMM": 65,
+      "intangibleAssetsMM": 12
     },
     {
       "endDate": "2010-12-31",
@@ -90,7 +111,14 @@
       "capexMM": 30,
       "daMM": 8,
       "cfoMM": 35,
-      "totalEquityMM": 175
+      "totalEquityMM": 175,
+      "totalAssetsMM": 420,
+      "totalDebtMM": 155,
+      "cashMM": 22,
+      "propertyBookMM": 70,
+      "ppeBookMM": 200,
+      "inventoryMM": 90,
+      "intangibleAssetsMM": 15
     },
     {
       "endDate": "2011-12-31",
@@ -112,7 +140,14 @@
       "capexMM": 50,
       "daMM": 12,
       "cfoMM": 60,
-      "totalEquityMM": 220
+      "totalEquityMM": 220,
+      "totalAssetsMM": 540,
+      "totalDebtMM": 200,
+      "cashMM": 28,
+      "propertyBookMM": 90,
+      "ppeBookMM": 260,
+      "inventoryMM": 120,
+      "intangibleAssetsMM": 20
     },
     {
       "endDate": "2012-12-31",
@@ -134,7 +169,14 @@
       "capexMM": 70,
       "daMM": 16,
       "cfoMM": 70,
-      "totalEquityMM": 270
+      "totalEquityMM": 270,
+      "totalAssetsMM": 650,
+      "totalDebtMM": 240,
+      "cashMM": 30,
+      "propertyBookMM": 110,
+      "ppeBookMM": 320,
+      "inventoryMM": 145,
+      "intangibleAssetsMM": 25
     },
     {
       "endDate": "2013-12-31",
@@ -156,7 +198,14 @@
       "capexMM": 90,
       "daMM": 22,
       "cfoMM": 50,
-      "totalEquityMM": 320
+      "totalEquityMM": 320,
+      "totalAssetsMM": 720,
+      "totalDebtMM": 270,
+      "cashMM": 32,
+      "propertyBookMM": 125,
+      "ppeBookMM": 360,
+      "inventoryMM": 160,
+      "intangibleAssetsMM": 28
     },
     {
       "endDate": "2014-12-31",
@@ -178,7 +227,14 @@
       "capexMM": 60,
       "daMM": 28,
       "cfoMM": 80,
-      "totalEquityMM": 280
+      "totalEquityMM": 280,
+      "totalAssetsMM": 480,
+      "totalDebtMM": 200,
+      "cashMM": 22,
+      "propertyBookMM": 80,
+      "ppeBookMM": 240,
+      "inventoryMM": 110,
+      "intangibleAssetsMM": 18
     },
     {
       "endDate": "2015-12-31",
@@ -200,7 +256,14 @@
       "capexMM": 30,
       "daMM": 30,
       "cfoMM": 65,
-      "totalEquityMM": 250
+      "totalEquityMM": 250,
+      "totalAssetsMM": 380,
+      "totalDebtMM": 165,
+      "cashMM": 18,
+      "propertyBookMM": 65,
+      "ppeBookMM": 190,
+      "inventoryMM": 90,
+      "intangibleAssetsMM": 14
     },
     {
       "endDate": "2016-12-31",
@@ -222,7 +285,14 @@
       "capexMM": 22,
       "daMM": 28,
       "cfoMM": 95,
-      "totalEquityMM": 290
+      "totalEquityMM": 290,
+      "totalAssetsMM": 410,
+      "totalDebtMM": 160,
+      "cashMM": 22,
+      "propertyBookMM": 70,
+      "ppeBookMM": 205,
+      "inventoryMM": 95,
+      "intangibleAssetsMM": 15
     },
     {
       "endDate": "2017-12-31",
@@ -244,7 +314,14 @@
       "capexMM": 30,
       "daMM": 30,
       "cfoMM": 90,
-      "totalEquityMM": 330
+      "totalEquityMM": 330,
+      "totalAssetsMM": 460,
+      "totalDebtMM": 165,
+      "cashMM": 26,
+      "propertyBookMM": 78,
+      "ppeBookMM": 230,
+      "inventoryMM": 105,
+      "intangibleAssetsMM": 16
     },
     {
       "endDate": "2018-12-31",
@@ -266,7 +343,14 @@
       "capexMM": 35,
       "daMM": 30,
       "cfoMM": 50,
-      "totalEquityMM": 360
+      "totalEquityMM": 360,
+      "totalAssetsMM": 480,
+      "totalDebtMM": 170,
+      "cashMM": 28,
+      "propertyBookMM": 82,
+      "ppeBookMM": 240,
+      "inventoryMM": 110,
+      "intangibleAssetsMM": 17
     },
     {
       "endDate": "2019-12-31",
@@ -288,7 +372,14 @@
       "capexMM": 28,
       "daMM": 32,
       "cfoMM": 75,
-      "totalEquityMM": 380
+      "totalEquityMM": 380,
+      "totalAssetsMM": 500,
+      "totalDebtMM": 175,
+      "cashMM": 30,
+      "propertyBookMM": 85,
+      "ppeBookMM": 250,
+      "inventoryMM": 115,
+      "intangibleAssetsMM": 18
     },
     {
       "endDate": "2020-12-31",
