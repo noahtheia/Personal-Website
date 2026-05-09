@@ -430,7 +430,14 @@
           "revenueMM": 62,
           "ebitdaMM": 9
         }
-      ]
+      ],
+      "totalAssetsMM": 480,
+      "totalDebtMM": 170,
+      "cashMM": 30,
+      "propertyBookMM": 80,
+      "ppeBookMM": 200,
+      "inventoryMM": 110,
+      "intangibleAssetsMM": 12
     },
     {
       "endDate": "2021-12-31",
@@ -481,7 +488,14 @@
           "revenueMM": 72,
           "ebitdaMM": 11
         }
-      ]
+      ],
+      "totalAssetsMM": 560,
+      "totalDebtMM": 180,
+      "cashMM": 50,
+      "propertyBookMM": 95,
+      "ppeBookMM": 220,
+      "inventoryMM": 140,
+      "intangibleAssetsMM": 13
     },
     {
       "endDate": "2022-12-31",
@@ -536,7 +550,10 @@
           "revenueMM": 88,
           "ebitdaMM": 15
         }
-      ]
+      ],
+      "totalAssetsMM": 510,
+      "totalDebtMM": 200,
+      "cashMM": 35
     },
     {
       "endDate": "2023-12-31",
@@ -591,7 +608,10 @@
           "revenueMM": 95,
           "ebitdaMM": 18
         }
-      ]
+      ],
+      "totalAssetsMM": 540,
+      "totalDebtMM": 190,
+      "cashMM": 50
     },
     {
       "endDate": "2024-03-31",
@@ -650,7 +670,10 @@
           "revenueMM": 105,
           "ebitdaMM": 12
         }
-      ]
+      ],
+      "totalAssetsMM": 580,
+      "totalDebtMM": 180,
+      "cashMM": 65
     },
     {
       "endDate": "2024-12-31",
@@ -716,7 +739,8 @@
           "revenueMM": 105,
           "ebitdaMM": 12
         }
-      ]
+      ],
+      "totalAssetsMM": 580
     }
   ]
 }

@@ -433,7 +433,14 @@
         "productionVolume": 70.6,
         "productionUnit": "kt fruit",
         "biologicalAssetsMM": 102.8
-      }
+      },
+      "totalAssetsMM": 22,
+      "totalDebtMM": 8,
+      "cashMM": 3,
+      "propertyBookMM": 0,
+      "ppeBookMM": 12,
+      "inventoryMM": 1,
+      "intangibleAssetsMM": 1
     },
     {
       "endDate": "2021-06-30",
@@ -472,7 +479,14 @@
         "productionVolume": 74.2,
         "productionUnit": "kt fruit",
         "biologicalAssetsMM": 106.4
-      }
+      },
+      "totalAssetsMM": 28,
+      "totalDebtMM": 11,
+      "cashMM": 4,
+      "propertyBookMM": 0,
+      "ppeBookMM": 16,
+      "inventoryMM": 1,
+      "intangibleAssetsMM": 1
     },
     {
       "endDate": "2022-06-30",
@@ -516,7 +530,10 @@
         "productionVolume": 78.4,
         "productionUnit": "kt fruit",
         "biologicalAssetsMM": 112.8
-      }
+      },
+      "totalAssetsMM": 35,
+      "totalDebtMM": 14,
+      "cashMM": 5
     },
     {
       "endDate": "2023-06-30",
@@ -559,7 +576,10 @@
         "productionVolume": 82.6,
         "productionUnit": "kt fruit",
         "biologicalAssetsMM": 118.4
-      }
+      },
+      "totalAssetsMM": 42,
+      "totalDebtMM": 18,
+      "cashMM": 6
     },
     {
       "endDate": "2024-06-30",
@@ -614,7 +634,8 @@
         "productionVolume": 86.4,
         "productionUnit": "kt fruit",
         "biologicalAssetsMM": 124.6
-      }
+      },
+      "totalAssetsMM": 48
     }
   ]
 }

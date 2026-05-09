@@ -31,7 +31,12 @@
       "notes": "FY20 (52w to Jan 3 2021): revenue GBP 2.81B (+6%). EBITDA GBP 100M. Net income GBP 39M. Strong pandemic retail demand for packaged meat.",
       "capexMM": 47,
       "daMM": 53,
-      "cfoMM": 130
+      "cfoMM": 130,
+      "totalAssetsMM": 920,
+      "propertyBookMM": 0,
+      "ppeBookMM": 280,
+      "inventoryMM": 110,
+      "intangibleAssetsMM": 200
     },
     {
       "endDate": "2022-01-02",
@@ -74,7 +79,12 @@
           "brandedRevenuePct": 12,
           "foodserviceMixPct": 6
         }
-      }
+      },
+      "totalAssetsMM": 1050,
+      "propertyBookMM": 0,
+      "ppeBookMM": 320,
+      "inventoryMM": 130,
+      "intangibleAssetsMM": 220
     },
     {
       "endDate": "2023-01-01",
@@ -121,7 +131,8 @@
           "brandedRevenuePct": 13,
           "foodserviceMixPct": 7
         }
-      }
+      },
+      "totalAssetsMM": 1250
     },
     {
       "endDate": "2023-12-31",
@@ -168,7 +179,8 @@
           "brandedRevenuePct": 14,
           "foodserviceMixPct": 7
         }
-      }
+      },
+      "totalAssetsMM": 1350
     },
     {
       "endDate": "2024-12-29",
@@ -223,7 +235,8 @@
           "brandedRevenuePct": 15,
           "foodserviceMixPct": 8
         }
-      }
+      },
+      "totalAssetsMM": 1400
     },
     {
       "endDate": "2021-07-04",

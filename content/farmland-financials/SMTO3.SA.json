@@ -42,7 +42,12 @@
           "ethanolMixPct": 52,
           "ethanolVolumeM3": 998000
         }
-      }
+      },
+      "totalAssetsMM": 10500,
+      "propertyBookMM": 1550,
+      "ppeBookMM": 4700,
+      "inventoryMM": 620,
+      "intangibleAssetsMM": 330
     },
     {
       "endDate": "2022-03-31",
@@ -85,7 +90,9 @@
           "ethanolMixPct": 50,
           "ethanolVolumeM3": 1024000
         }
-      }
+      },
+      "totalAssetsMM": 11200,
+      "propertyBookMM": 1650
     },
     {
       "endDate": "2022-06-30",
@@ -140,7 +147,11 @@
           "ethanolMixPct": 49,
           "ethanolVolumeM3": 1062000
         }
-      }
+      },
+      "totalAssetsMM": 12200,
+      "totalDebtMM": 5200,
+      "cashMM": 2500,
+      "propertyBookMM": 1750
     },
     {
       "endDate": "2023-03-31",
@@ -183,7 +194,9 @@
           "ethanolMixPct": 49,
           "ethanolVolumeM3": 1062000
         }
-      }
+      },
+      "totalAssetsMM": 12200,
+      "propertyBookMM": 1750
     },
     {
       "endDate": "2023-06-30",
@@ -238,7 +251,11 @@
           "ethanolMixPct": 48,
           "ethanolVolumeM3": 1086000
         }
-      }
+      },
+      "totalAssetsMM": 12900,
+      "totalDebtMM": 5400,
+      "cashMM": 2650,
+      "propertyBookMM": 1850
     },
     {
       "endDate": "2024-03-31",
@@ -281,7 +298,9 @@
           "ethanolMixPct": 48,
           "ethanolVolumeM3": 1086000
         }
-      }
+      },
+      "totalAssetsMM": 12900,
+      "propertyBookMM": 1850
     },
     {
       "endDate": "2024-06-30",

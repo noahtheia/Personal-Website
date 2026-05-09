@@ -24,7 +24,14 @@
           "costPerKgLive": 18.0,
           "feedConversionRatio": 3.0
         }
-      }
+      },
+      "totalAssetsMM": 30200,
+      "totalDebtMM": 2100,
+      "cashMM": 4800,
+      "propertyBookMM": 1850,
+      "ppeBookMM": 11200,
+      "inventoryMM": 5400,
+      "intangibleAssetsMM": 980
     },
     {
       "endDate": "2021-12-31",
@@ -51,7 +58,12 @@
           "costPerKgLive": 19.5,
           "feedConversionRatio": 2.95
         }
-      }
+      },
+      "totalAssetsMM": 31500,
+      "propertyBookMM": 1920,
+      "ppeBookMM": 12100,
+      "inventoryMM": 5800,
+      "intangibleAssetsMM": 990
     },
     {
       "endDate": "2022-12-31",
@@ -82,7 +94,8 @@
           "costPerKgLive": 18.5,
           "feedConversionRatio": 2.92
         }
-      }
+      },
+      "totalAssetsMM": 32800
     },
     {
       "endDate": "2023-12-31",
@@ -124,7 +137,8 @@
           "costPerKgLive": 17.5,
           "feedConversionRatio": 2.88
         }
-      }
+      },
+      "totalAssetsMM": 33400
     },
     {
       "endDate": "2023-03-31",
@@ -171,7 +185,10 @@
           "costPerKgLive": 17.5,
           "feedConversionRatio": 2.88
         }
-      }
+      },
+      "totalAssetsMM": 33400,
+      "totalDebtMM": 2750,
+      "cashMM": 4900
     },
     {
       "endDate": "2024-12-31",
@@ -213,7 +230,8 @@
           "costPerKgLive": 16.5,
           "feedConversionRatio": 2.85
         }
-      }
+      },
+      "totalAssetsMM": 34200
     },
     {
       "endDate": "2024-03-31",
@@ -260,7 +278,10 @@
           "costPerKgLive": 16.5,
           "feedConversionRatio": 2.85
         }
-      }
+      },
+      "totalAssetsMM": 34200,
+      "totalDebtMM": 2850,
+      "cashMM": 5300
     },
     {
       "endDate": "2025-12-31",

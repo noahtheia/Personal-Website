@@ -56,7 +56,12 @@
       "cropInputs": {
         "capacityUtilizationPct": 80.0,
         "rdSpendPctOfRevenue": 8.2
-      }
+      },
+      "totalAssetsMM": 42460,
+      "propertyBookMM": 0,
+      "ppeBookMM": 4400,
+      "inventoryMM": 4690,
+      "intangibleAssetsMM": 21600
     },
     {
       "endDate": "2021-12-31",
@@ -86,7 +91,12 @@
       "cropInputs": {
         "capacityUtilizationPct": 83.5,
         "rdSpendPctOfRevenue": 7.8
-      }
+      },
+      "totalAssetsMM": 42425,
+      "propertyBookMM": 0,
+      "ppeBookMM": 4350,
+      "inventoryMM": 5170,
+      "intangibleAssetsMM": 20900
     },
     {
       "endDate": "2022-03-31",
@@ -167,7 +177,8 @@
       "cropInputs": {
         "capacityUtilizationPct": 86.0,
         "rdSpendPctOfRevenue": 7.5
-      }
+      },
+      "totalAssetsMM": 43035
     },
     {
       "endDate": "2023-03-31",
@@ -254,7 +265,8 @@
       "cropInputs": {
         "capacityUtilizationPct": 84.5,
         "rdSpendPctOfRevenue": 7.9
-      }
+      },
+      "totalAssetsMM": 42605
     },
     {
       "endDate": "2024-03-31",
@@ -353,7 +365,8 @@
       "cropInputs": {
         "capacityUtilizationPct": 82.0,
         "rdSpendPctOfRevenue": 8.1
-      }
+      },
+      "totalAssetsMM": 41800
     },
     {
       "endDate": "2025-03-31",

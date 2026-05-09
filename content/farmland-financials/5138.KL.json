@@ -331,7 +331,14 @@
       "dividendPerShare": 0.055,
       "totalAcresK": 96.0,
       "notes": "Q4 2020",
-      "totalEquityMM": 2150
+      "totalEquityMM": 2150,
+      "totalAssetsMM": 1750,
+      "totalDebtMM": 80,
+      "cashMM": 240,
+      "propertyBookMM": 480,
+      "ppeBookMM": 680,
+      "inventoryMM": 55,
+      "intangibleAssetsMM": 12
     },
     {
       "endDate": "2020-12-31",
@@ -358,7 +365,14 @@
       "capexMM": 50,
       "daMM": 68,
       "cfoMM": 180,
-      "totalEquityMM": 2150
+      "totalEquityMM": 2150,
+      "totalAssetsMM": 1750,
+      "totalDebtMM": 80,
+      "cashMM": 240,
+      "propertyBookMM": 480,
+      "ppeBookMM": 680,
+      "inventoryMM": 55,
+      "intangibleAssetsMM": 12
     },
     {
       "endDate": "2021-03-31",
@@ -417,7 +431,14 @@
       "dividendPerShare": 0.155,
       "totalAcresK": 96.0,
       "notes": "Q4 2021 \u2014 high CPO + bumper FFB",
-      "totalEquityMM": 2210
+      "totalEquityMM": 2210,
+      "totalAssetsMM": 1820,
+      "totalDebtMM": 70,
+      "cashMM": 280,
+      "propertyBookMM": 500,
+      "ppeBookMM": 690,
+      "inventoryMM": 65,
+      "intangibleAssetsMM": 12
     },
     {
       "endDate": "2021-12-31",
@@ -451,7 +472,14 @@
       "capexMM": 60,
       "daMM": 70,
       "cfoMM": 240,
-      "totalEquityMM": 2210
+      "totalEquityMM": 2210,
+      "totalAssetsMM": 1820,
+      "totalDebtMM": 70,
+      "cashMM": 280,
+      "propertyBookMM": 500,
+      "ppeBookMM": 690,
+      "inventoryMM": 65,
+      "intangibleAssetsMM": 12
     },
     {
       "endDate": "2022-03-31",
@@ -510,7 +538,14 @@
       "dividendPerShare": 0.07,
       "totalAcresK": 96.0,
       "notes": "Q4 2022",
-      "totalEquityMM": 2320
+      "totalEquityMM": 2320,
+      "totalAssetsMM": 1950,
+      "totalDebtMM": 60,
+      "cashMM": 360,
+      "propertyBookMM": 530,
+      "ppeBookMM": 700,
+      "inventoryMM": 75,
+      "intangibleAssetsMM": 12
     },
     {
       "endDate": "2022-12-31",
@@ -544,7 +579,14 @@
       "capexMM": 75,
       "daMM": 73,
       "cfoMM": 360,
-      "totalEquityMM": 2320
+      "totalEquityMM": 2320,
+      "totalAssetsMM": 1950,
+      "totalDebtMM": 60,
+      "cashMM": 360,
+      "propertyBookMM": 530,
+      "ppeBookMM": 700,
+      "inventoryMM": 75,
+      "intangibleAssetsMM": 12
     },
     {
       "endDate": "2023-03-31",
@@ -603,7 +645,14 @@
       "dividendPerShare": 0.053,
       "totalAcresK": 96.0,
       "notes": "Q4 2023",
-      "totalEquityMM": 2380
+      "totalEquityMM": 2380,
+      "totalAssetsMM": 1980,
+      "totalDebtMM": 55,
+      "cashMM": 380,
+      "propertyBookMM": 540,
+      "ppeBookMM": 710,
+      "inventoryMM": 70,
+      "intangibleAssetsMM": 13
     },
     {
       "endDate": "2023-12-31",
@@ -637,7 +686,14 @@
       "capexMM": 85,
       "daMM": 75,
       "cfoMM": 200,
-      "totalEquityMM": 2380
+      "totalEquityMM": 2380,
+      "totalAssetsMM": 1980,
+      "totalDebtMM": 55,
+      "cashMM": 380,
+      "propertyBookMM": 540,
+      "ppeBookMM": 710,
+      "inventoryMM": 70,
+      "intangibleAssetsMM": 13
     },
     {
       "endDate": "2024-03-31",
@@ -696,7 +752,14 @@
       "dividendPerShare": 0.11,
       "totalAcresK": 96.0,
       "notes": "Q4 2024",
-      "totalEquityMM": 2440
+      "totalEquityMM": 2440,
+      "totalAssetsMM": 2020,
+      "totalDebtMM": 50,
+      "cashMM": 400,
+      "propertyBookMM": 550,
+      "ppeBookMM": 720,
+      "inventoryMM": 72,
+      "intangibleAssetsMM": 13
     },
     {
       "endDate": "2024-12-31",
@@ -733,7 +796,12 @@
       "capexMM": 80,
       "daMM": 78,
       "cfoMM": 230,
-      "totalEquityMM": 2440
+      "totalEquityMM": 2440,
+      "totalAssetsMM": 2020,
+      "propertyBookMM": 550,
+      "ppeBookMM": 720,
+      "inventoryMM": 72,
+      "intangibleAssetsMM": 13
     },
     {
       "endDate": "2025-03-31",

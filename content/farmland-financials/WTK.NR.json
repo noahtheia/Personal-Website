@@ -763,7 +763,12 @@
         "madeTeaAspPerKg": 235,
         "teaPlantedHa": 7800,
         "boughtLeafSharePct": 22
-      }
+      },
+      "totalAssetsMM": 5800,
+      "propertyBookMM": 1050,
+      "ppeBookMM": 2850,
+      "inventoryMM": 720,
+      "intangibleAssetsMM": 25
     },
     {
       "endDate": "2021-09-30",
@@ -821,7 +826,12 @@
         "madeTeaAspPerKg": 220,
         "teaPlantedHa": 7800,
         "boughtLeafSharePct": 22
-      }
+      },
+      "totalAssetsMM": 6200,
+      "propertyBookMM": 1150,
+      "ppeBookMM": 3050,
+      "inventoryMM": 780,
+      "intangibleAssetsMM": 27
     },
     {
       "endDate": "2022-09-30",
@@ -883,7 +893,8 @@
         "madeTeaAspPerKg": 245,
         "teaPlantedHa": 7800,
         "boughtLeafSharePct": 23
-      }
+      },
+      "totalAssetsMM": 6500
     },
     {
       "endDate": "2023-09-30",
@@ -945,7 +956,8 @@
         "madeTeaAspPerKg": 265,
         "teaPlantedHa": 7800,
         "boughtLeafSharePct": 24
-      }
+      },
+      "totalAssetsMM": 6800
     },
     {
       "endDate": "2024-09-30",
@@ -1015,7 +1027,8 @@
         "madeTeaAspPerKg": 285,
         "teaPlantedHa": 7800,
         "boughtLeafSharePct": 25
-      }
+      },
+      "totalAssetsMM": 7000
     }
   ]
 }

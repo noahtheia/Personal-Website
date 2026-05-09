@@ -31,7 +31,12 @@
       "cropInputs": {
         "capacityUtilizationPct": 70.0,
         "rdSpendPctOfRevenue": 1.9
-      }
+      },
+      "totalAssetsMM": 480,
+      "propertyBookMM": 8,
+      "ppeBookMM": 105,
+      "inventoryMM": 130,
+      "intangibleAssetsMM": 35
     },
     {
       "endDate": "2021-12-31",
@@ -60,7 +65,12 @@
       "cropInputs": {
         "capacityUtilizationPct": 78.0,
         "rdSpendPctOfRevenue": 1.7
-      }
+      },
+      "totalAssetsMM": 720,
+      "propertyBookMM": 10,
+      "ppeBookMM": 145,
+      "inventoryMM": 175,
+      "intangibleAssetsMM": 42
     },
     {
       "endDate": "2022-12-31",
@@ -93,7 +103,8 @@
       "cropInputs": {
         "capacityUtilizationPct": 80.0,
         "rdSpendPctOfRevenue": 1.5
-      }
+      },
+      "totalAssetsMM": 850
     },
     {
       "endDate": "2023-12-31",
@@ -126,7 +137,8 @@
       "cropInputs": {
         "capacityUtilizationPct": 75.0,
         "rdSpendPctOfRevenue": 1.6
-      }
+      },
+      "totalAssetsMM": 950
     },
     {
       "endDate": "2024-12-31",
@@ -167,7 +179,8 @@
       "cropInputs": {
         "capacityUtilizationPct": 72.0,
         "rdSpendPctOfRevenue": 1.8
-      }
+      },
+      "totalAssetsMM": 1020
     },
     {
       "endDate": "2022-03-31",
@@ -215,7 +228,10 @@
       "cropInputs": {
         "capacityUtilizationPct": 80.0,
         "rdSpendPctOfRevenue": 1.5
-      }
+      },
+      "totalAssetsMM": 850,
+      "totalDebtMM": 130,
+      "cashMM": 195
     },
     {
       "endDate": "2023-03-31",
@@ -263,7 +279,10 @@
       "cropInputs": {
         "capacityUtilizationPct": 75.0,
         "rdSpendPctOfRevenue": 1.6
-      }
+      },
+      "totalAssetsMM": 950,
+      "totalDebtMM": 165,
+      "cashMM": 175
     },
     {
       "endDate": "2024-03-31",
@@ -311,7 +330,10 @@
       "cropInputs": {
         "capacityUtilizationPct": 72.0,
         "rdSpendPctOfRevenue": 1.8
-      }
+      },
+      "totalAssetsMM": 1020,
+      "totalDebtMM": 195,
+      "cashMM": 145
     },
     {
       "endDate": "2025-03-31",

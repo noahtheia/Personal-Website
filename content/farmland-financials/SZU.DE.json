@@ -31,7 +31,12 @@
       "notes": "FY19/20 revenue \u20ac6.67B, EBITDA \u20ac416M. Sugar segment recovery from 2018 lows.",
       "capexMM": 270,
       "daMM": 290,
-      "cfoMM": 450
+      "cfoMM": 450,
+      "totalAssetsMM": 6800,
+      "propertyBookMM": 0,
+      "ppeBookMM": 2400,
+      "inventoryMM": 1700,
+      "intangibleAssetsMM": 720
     },
     {
       "endDate": "2021-02-28",
@@ -64,7 +69,12 @@
       "trader": {
         "rmiMM": 1100,
         "throughputMtMM": 7.5
-      }
+      },
+      "totalAssetsMM": 6900,
+      "propertyBookMM": 0,
+      "ppeBookMM": 2350,
+      "inventoryMM": 1750,
+      "intangibleAssetsMM": 700
     },
     {
       "endDate": "2022-02-28",
@@ -97,7 +107,12 @@
       "trader": {
         "rmiMM": 1320,
         "throughputMtMM": 7.8
-      }
+      },
+      "totalAssetsMM": 7400,
+      "propertyBookMM": 0,
+      "ppeBookMM": 2400,
+      "inventoryMM": 2100,
+      "intangibleAssetsMM": 720
     },
     {
       "endDate": "2023-02-28",
@@ -134,7 +149,8 @@
       "trader": {
         "rmiMM": 1580,
         "throughputMtMM": 8.0
-      }
+      },
+      "totalAssetsMM": 8200
     },
     {
       "endDate": "2024-02-29",
@@ -172,7 +188,8 @@
       "trader": {
         "rmiMM": 1450,
         "throughputMtMM": 8.3
-      }
+      },
+      "totalAssetsMM": 8400
     },
     {
       "endDate": "2025-02-28",

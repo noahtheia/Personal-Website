@@ -27,7 +27,12 @@
         "productionVolume": 5868,
         "productionUnit": "kt fresh produce",
         "biologicalAssetsMM": 146
-      }
+      },
+      "totalAssetsMM": 4400,
+      "propertyBookMM": 380,
+      "ppeBookMM": 1180,
+      "inventoryMM": 620,
+      "intangibleAssetsMM": 770
     },
     {
       "endDate": "2021-12-31",
@@ -56,7 +61,12 @@
         "productionVolume": 5984,
         "productionUnit": "kt fresh produce",
         "biologicalAssetsMM": 152
-      }
+      },
+      "totalAssetsMM": 4850,
+      "propertyBookMM": 410,
+      "ppeBookMM": 1290,
+      "inventoryMM": 700,
+      "intangibleAssetsMM": 880
     },
     {
       "endDate": "2022-03-31",
@@ -142,7 +152,9 @@
         "productionVolume": 6082,
         "productionUnit": "kt fresh produce",
         "biologicalAssetsMM": 158
-      }
+      },
+      "totalAssetsMM": 4630,
+      "propertyBookMM": 405
     },
     {
       "endDate": "2023-03-31",
@@ -228,7 +240,9 @@
         "productionVolume": 6184,
         "productionUnit": "kt fresh produce",
         "biologicalAssetsMM": 162
-      }
+      },
+      "totalAssetsMM": 4740,
+      "propertyBookMM": 410
     },
     {
       "endDate": "2024-03-31",
@@ -344,7 +358,9 @@
         "productionVolume": 6242,
         "productionUnit": "kt fresh produce",
         "biologicalAssetsMM": 168
-      }
+      },
+      "totalAssetsMM": 4820,
+      "propertyBookMM": 415
     },
     {
       "endDate": "2025-03-31",

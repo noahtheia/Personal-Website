@@ -289,7 +289,12 @@
         "cpoAspPerMt": 9180000,
         "maturePlantedHa": 177500,
         "rspoPct": 65
-      }
+      },
+      "totalAssetsMM": 2050,
+      "propertyBookMM": 850,
+      "ppeBookMM": 580,
+      "inventoryMM": 130,
+      "intangibleAssetsMM": 25
     },
     {
       "endDate": "2021-06-30",
@@ -348,7 +353,12 @@
         "cpoAspPerMt": 12680000,
         "maturePlantedHa": 177800,
         "rspoPct": 68
-      }
+      },
+      "totalAssetsMM": 2180,
+      "propertyBookMM": 880,
+      "ppeBookMM": 600,
+      "inventoryMM": 150,
+      "intangibleAssetsMM": 25
     },
     {
       "endDate": "2022-06-30",
@@ -411,7 +421,8 @@
         "cpoAspPerMt": 14080000,
         "maturePlantedHa": 178000,
         "rspoPct": 70
-      }
+      },
+      "totalAssetsMM": 2350
     },
     {
       "endDate": "2023-06-30",
@@ -474,7 +485,8 @@
         "cpoAspPerMt": 12380000,
         "maturePlantedHa": 178200,
         "rspoPct": 72
-      }
+      },
+      "totalAssetsMM": 2400
     },
     {
       "endDate": "2024-06-30",
@@ -545,7 +557,8 @@
         "cpoAspPerMt": 13680000,
         "maturePlantedHa": 178500,
         "rspoPct": 75
-      }
+      },
+      "totalAssetsMM": 2480
     }
   ]
 }

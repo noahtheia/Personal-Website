@@ -67,7 +67,12 @@
         "rmiMM": 6500,
         "throughputMtMM": 60.5,
         "ethanolGalsMM": 1550
-      }
+      },
+      "totalAssetsMM": 49719,
+      "propertyBookMM": 0,
+      "ppeBookMM": 9900,
+      "inventoryMM": 11100,
+      "intangibleAssetsMM": 6200
     },
     {
       "endDate": "2021-12-31",
@@ -102,7 +107,12 @@
         "rmiMM": 8200,
         "throughputMtMM": 63.8,
         "ethanolGalsMM": 1680
-      }
+      },
+      "totalAssetsMM": 52568,
+      "propertyBookMM": 0,
+      "ppeBookMM": 9600,
+      "inventoryMM": 13150,
+      "intangibleAssetsMM": 6300
     },
     {
       "endDate": "2022-03-31",
@@ -198,7 +208,8 @@
         "rmiMM": 9510,
         "throughputMtMM": 65.0,
         "ethanolGalsMM": 1720
-      }
+      },
+      "totalAssetsMM": 56142
     },
     {
       "endDate": "2023-03-31",
@@ -294,7 +305,8 @@
         "rmiMM": 7950,
         "throughputMtMM": 64.2,
         "ethanolGalsMM": 1750
-      }
+      },
+      "totalAssetsMM": 56324
     },
     {
       "endDate": "2024-03-31",
@@ -402,7 +414,8 @@
         "rmiMM": 7100,
         "throughputMtMM": 62.5,
         "ethanolGalsMM": 1700
-      }
+      },
+      "totalAssetsMM": 55300
     },
     {
       "endDate": "2025-03-31",

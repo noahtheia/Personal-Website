@@ -30,7 +30,12 @@
       "dairy": {
         "milkIntakeMlitres": 18,
         "brandedRevenuePct": 89.8
-      }
+      },
+      "totalAssetsMM": 38,
+      "propertyBookMM": 9,
+      "ppeBookMM": 18,
+      "inventoryMM": 1,
+      "intangibleAssetsMM": 1
     },
     {
       "endDate": "2021-06-30",
@@ -58,7 +63,12 @@
       "dairy": {
         "milkIntakeMlitres": 20,
         "brandedRevenuePct": 90.4
-      }
+      },
+      "totalAssetsMM": 42,
+      "propertyBookMM": 10,
+      "ppeBookMM": 19,
+      "inventoryMM": 1,
+      "intangibleAssetsMM": 1
     },
     {
       "endDate": "2022-06-30",
@@ -88,7 +98,9 @@
       "dairy": {
         "milkIntakeMlitres": 21,
         "brandedRevenuePct": 91.2
-      }
+      },
+      "totalAssetsMM": 45,
+      "propertyBookMM": 11
     },
     {
       "endDate": "2023-06-30",
@@ -119,7 +131,9 @@
       "dairy": {
         "milkIntakeMlitres": 22,
         "brandedRevenuePct": 91.8
-      }
+      },
+      "totalAssetsMM": 48,
+      "propertyBookMM": 12
     },
     {
       "endDate": "2024-06-30",
@@ -150,7 +164,9 @@
       "dairy": {
         "milkIntakeMlitres": 24,
         "brandedRevenuePct": 92.4
-      }
+      },
+      "totalAssetsMM": 50,
+      "propertyBookMM": 12
     },
     {
       "endDate": "2025-06-30",

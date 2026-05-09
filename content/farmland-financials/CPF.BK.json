@@ -23,7 +23,12 @@
       "protein": {
         "plants": 118,
         "capacityUtilizationPct": 80
-      }
+      },
+      "totalAssetsMM": 780000,
+      "propertyBookMM": 22000,
+      "ppeBookMM": 240000,
+      "inventoryMM": 130000,
+      "intangibleAssetsMM": 95000
     },
     {
       "endDate": "2021-12-31",
@@ -44,7 +49,12 @@
       "protein": {
         "plants": 120,
         "capacityUtilizationPct": 84
-      }
+      },
+      "totalAssetsMM": 820000,
+      "propertyBookMM": 24000,
+      "ppeBookMM": 255000,
+      "inventoryMM": 145000,
+      "intangibleAssetsMM": 100000
     },
     {
       "endDate": "2022-12-31",
@@ -69,7 +79,8 @@
       "protein": {
         "plants": 125,
         "capacityUtilizationPct": 82
-      }
+      },
+      "totalAssetsMM": 880000
     },
     {
       "endDate": "2023-12-31",
@@ -106,7 +117,8 @@
       "protein": {
         "plants": 128,
         "capacityUtilizationPct": 76
-      }
+      },
+      "totalAssetsMM": 870000
     },
     {
       "endDate": "2023-03-31",
@@ -147,7 +159,10 @@
       "protein": {
         "plants": 128,
         "capacityUtilizationPct": 76
-      }
+      },
+      "totalAssetsMM": 870000,
+      "totalDebtMM": 460000,
+      "cashMM": 30000
     },
     {
       "endDate": "2024-12-31",
@@ -192,7 +207,8 @@
       "protein": {
         "plants": 130,
         "capacityUtilizationPct": 80
-      }
+      },
+      "totalAssetsMM": 890000
     },
     {
       "endDate": "2024-03-31",
@@ -233,7 +249,10 @@
       "protein": {
         "plants": 130,
         "capacityUtilizationPct": 80
-      }
+      },
+      "totalAssetsMM": 890000,
+      "totalDebtMM": 455000,
+      "cashMM": 32000
     }
   ]
 }

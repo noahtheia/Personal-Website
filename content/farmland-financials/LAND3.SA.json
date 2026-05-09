@@ -60,7 +60,12 @@
         "occupancyPct": 100,
         "ffoPerShare": 0.62,
         "affoPerShare": 0.65
-      }
+      },
+      "totalAssetsMM": 1150,
+      "propertyBookMM": 450,
+      "ppeBookMM": 105,
+      "inventoryMM": 175,
+      "intangibleAssetsMM": 9
     },
     {
       "endDate": "2021-12-31",
@@ -96,7 +101,12 @@
         "occupancyPct": 100,
         "ffoPerShare": 0.62,
         "affoPerShare": 0.65
-      }
+      },
+      "totalAssetsMM": 1150,
+      "propertyBookMM": 450,
+      "ppeBookMM": 105,
+      "inventoryMM": 175,
+      "intangibleAssetsMM": 9
     },
     {
       "endDate": "2022-03-31",
@@ -203,7 +213,10 @@
         "occupancyPct": 100,
         "ffoPerShare": 0.78,
         "affoPerShare": 0.81
-      }
+      },
+      "totalAssetsMM": 1280,
+      "totalDebtMM": 380,
+      "cashMM": 105
     },
     {
       "endDate": "2022-12-31",
@@ -246,7 +259,8 @@
         "occupancyPct": 100,
         "ffoPerShare": 0.78,
         "affoPerShare": 0.81
-      }
+      },
+      "totalAssetsMM": 1280
     },
     {
       "endDate": "2023-03-31",
@@ -353,7 +367,10 @@
         "occupancyPct": 100,
         "ffoPerShare": 0.86,
         "affoPerShare": 0.89
-      }
+      },
+      "totalAssetsMM": 1380,
+      "totalDebtMM": 420,
+      "cashMM": 115
     },
     {
       "endDate": "2023-12-31",
@@ -396,7 +413,8 @@
         "occupancyPct": 100,
         "ffoPerShare": 0.86,
         "affoPerShare": 0.89
-      }
+      },
+      "totalAssetsMM": 1380
     },
     {
       "endDate": "2024-03-31",
@@ -503,7 +521,10 @@
         "occupancyPct": 100,
         "ffoPerShare": 0.94,
         "affoPerShare": 0.97
-      }
+      },
+      "totalAssetsMM": 1450,
+      "totalDebtMM": 450,
+      "cashMM": 125
     },
     {
       "endDate": "2024-12-31",
@@ -546,7 +567,8 @@
         "occupancyPct": 100,
         "ffoPerShare": 0.94,
         "affoPerShare": 0.97
-      }
+      },
+      "totalAssetsMM": 1450
     },
     {
       "endDate": "2025-03-31",

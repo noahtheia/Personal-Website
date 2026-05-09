@@ -26,7 +26,12 @@
         "productionVolume": 3886,
         "productionUnit": "kt grain",
         "biologicalAssetsMM": 1664
-      }
+      },
+      "totalAssetsMM": 13800,
+      "propertyBookMM": 160,
+      "ppeBookMM": 2500,
+      "inventoryMM": 1950,
+      "intangibleAssetsMM": 870
     },
     {
       "endDate": "2022-12-31",
@@ -53,7 +58,9 @@
         "productionVolume": 4024,
         "productionUnit": "kt grain",
         "biologicalAssetsMM": 1724
-      }
+      },
+      "totalAssetsMM": 14500,
+      "propertyBookMM": 170
     },
     {
       "endDate": "2023-12-31",
@@ -91,7 +98,9 @@
         "productionVolume": 4148,
         "productionUnit": "kt grain",
         "biologicalAssetsMM": 1782
-      }
+      },
+      "totalAssetsMM": 15200,
+      "propertyBookMM": 175
     },
     {
       "endDate": "2023-03-31",
@@ -133,7 +142,11 @@
         "productionVolume": 4148,
         "productionUnit": "kt grain",
         "biologicalAssetsMM": 1782
-      }
+      },
+      "totalAssetsMM": 15200,
+      "totalDebtMM": 1600,
+      "cashMM": 3250,
+      "propertyBookMM": 175
     },
     {
       "endDate": "2024-12-31",
@@ -172,7 +185,8 @@
         "productionVolume": 4286,
         "productionUnit": "kt grain",
         "biologicalAssetsMM": 1846
-      }
+      },
+      "propertyBookMM": 180
     },
     {
       "endDate": "2024-03-31",
@@ -214,7 +228,11 @@
         "productionVolume": 4286,
         "productionUnit": "kt grain",
         "biologicalAssetsMM": 1846
-      }
+      },
+      "totalAssetsMM": 15800,
+      "totalDebtMM": 1700,
+      "cashMM": 3400,
+      "propertyBookMM": 180
     },
     {
       "endDate": "2025-12-31",

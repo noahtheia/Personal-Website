@@ -33,7 +33,12 @@
         "plants": 45,
         "weeklyHeadCapacity": 685000,
         "capacityUtilizationPct": 80
-      }
+      },
+      "totalAssetsMM": 60500,
+      "propertyBookMM": 1850,
+      "ppeBookMM": 13500,
+      "inventoryMM": 7800,
+      "intangibleAssetsMM": 4200
     },
     {
       "endDate": "2021-12-31",
@@ -64,7 +69,12 @@
         "plants": 45,
         "weeklyHeadCapacity": 690000,
         "capacityUtilizationPct": 84
-      }
+      },
+      "totalAssetsMM": 71500,
+      "propertyBookMM": 2200,
+      "ppeBookMM": 16500,
+      "inventoryMM": 9500,
+      "intangibleAssetsMM": 4500
     },
     {
       "endDate": "2022-03-31",
@@ -113,7 +123,10 @@
         "plants": 46,
         "weeklyHeadCapacity": 700000,
         "capacityUtilizationPct": 82
-      }
+      },
+      "totalAssetsMM": 84200,
+      "totalDebtMM": 47500,
+      "cashMM": 13500
     },
     {
       "endDate": "2022-12-31",
@@ -149,7 +162,8 @@
         "plants": 46,
         "weeklyHeadCapacity": 700000,
         "capacityUtilizationPct": 82
-      }
+      },
+      "totalAssetsMM": 84200
     },
     {
       "endDate": "2023-03-31",
@@ -198,7 +212,10 @@
         "plants": 47,
         "weeklyHeadCapacity": 720000,
         "capacityUtilizationPct": 76
-      }
+      },
+      "totalAssetsMM": 92500,
+      "totalDebtMM": 52500,
+      "cashMM": 15500
     },
     {
       "endDate": "2023-12-31",
@@ -234,7 +251,8 @@
         "plants": 47,
         "weeklyHeadCapacity": 720000,
         "capacityUtilizationPct": 76
-      }
+      },
+      "totalAssetsMM": 92500
     },
     {
       "endDate": "2024-03-31",
@@ -283,7 +301,10 @@
         "plants": 47,
         "weeklyHeadCapacity": 720000,
         "capacityUtilizationPct": 80
-      }
+      },
+      "totalAssetsMM": 95800,
+      "totalDebtMM": 51500,
+      "cashMM": 16800
     },
     {
       "endDate": "2024-12-31",
@@ -327,7 +348,8 @@
         "plants": 47,
         "weeklyHeadCapacity": 720000,
         "capacityUtilizationPct": 80
-      }
+      },
+      "totalAssetsMM": 95800
     },
     {
       "endDate": "2025-03-31",

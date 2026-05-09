@@ -24,7 +24,12 @@
         "plants": 7,
         "weeklyHeadCapacity": 4100000,
         "capacityUtilizationPct": 78
-      }
+      },
+      "totalAssetsMM": 18500,
+      "propertyBookMM": 350,
+      "ppeBookMM": 9200,
+      "inventoryMM": 2400,
+      "intangibleAssetsMM": 120
     },
     {
       "endDate": "2021-12-31",
@@ -46,7 +51,12 @@
         "plants": 7,
         "weeklyHeadCapacity": 4200000,
         "capacityUtilizationPct": 80
-      }
+      },
+      "totalAssetsMM": 19200,
+      "propertyBookMM": 380,
+      "ppeBookMM": 9400,
+      "inventoryMM": 2600,
+      "intangibleAssetsMM": 130
     },
     {
       "endDate": "2022-12-31",
@@ -72,7 +82,8 @@
         "plants": 8,
         "weeklyHeadCapacity": 4300000,
         "capacityUtilizationPct": 82
-      }
+      },
+      "totalAssetsMM": 20400
     },
     {
       "endDate": "2023-12-31",
@@ -108,7 +119,8 @@
         "plants": 8,
         "weeklyHeadCapacity": 4400000,
         "capacityUtilizationPct": 84
-      }
+      },
+      "totalAssetsMM": 21000
     },
     {
       "endDate": "2023-03-31",
@@ -150,7 +162,10 @@
         "plants": 8,
         "weeklyHeadCapacity": 4400000,
         "capacityUtilizationPct": 84
-      }
+      },
+      "totalAssetsMM": 21000,
+      "totalDebtMM": 4500,
+      "cashMM": 600
     },
     {
       "endDate": "2024-12-31",
@@ -194,7 +209,8 @@
         "plants": 8,
         "weeklyHeadCapacity": 4500000,
         "capacityUtilizationPct": 86
-      }
+      },
+      "totalAssetsMM": 21800
     },
     {
       "endDate": "2024-03-31",
@@ -236,7 +252,10 @@
         "plants": 8,
         "weeklyHeadCapacity": 4500000,
         "capacityUtilizationPct": 86
-      }
+      },
+      "totalAssetsMM": 21800,
+      "totalDebtMM": 4600,
+      "cashMM": 650
     }
   ]
 }

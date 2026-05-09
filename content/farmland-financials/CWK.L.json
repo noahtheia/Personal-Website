@@ -42,7 +42,12 @@
           "costPerKgLive": 1.65,
           "feedConversionRatio": 2.72
         }
-      }
+      },
+      "totalAssetsMM": 800,
+      "propertyBookMM": 20,
+      "ppeBookMM": 400,
+      "inventoryMM": 110,
+      "intangibleAssetsMM": 100
     },
     {
       "endDate": "2022-03-26",
@@ -86,7 +91,8 @@
           "costPerKgLive": 1.75,
           "feedConversionRatio": 2.7
         }
-      }
+      },
+      "totalAssetsMM": 880
     },
     {
       "endDate": "2023-03-25",
@@ -115,7 +121,12 @@
       "notes": "FY23: revenue \u00a32.32B (+15%). Inflation pass-through. Adj op profit \u00a3132M. Continental Europe + poultry growth. EPS ~187p.",
       "capexMM": 95,
       "daMM": 70,
-      "cfoMM": 185
+      "cfoMM": 185,
+      "totalAssetsMM": 980,
+      "propertyBookMM": 24,
+      "ppeBookMM": 500,
+      "inventoryMM": 150,
+      "intangibleAssetsMM": 110
     },
     {
       "endDate": "2024-03-30",
@@ -159,7 +170,8 @@
           "costPerKgLive": 1.85,
           "feedConversionRatio": 2.65
         }
-      }
+      },
+      "totalAssetsMM": 1080
     },
     {
       "endDate": "2025-03-29",

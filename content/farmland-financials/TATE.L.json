@@ -30,7 +30,12 @@
       "notes": "FY19/20 revenue \u00a32.88B, EBITDA \u00a3460M (pre-Primient divestiture).",
       "capexMM": 154,
       "daMM": 113,
-      "cfoMM": 320
+      "cfoMM": 320,
+      "totalAssetsMM": 3300,
+      "propertyBookMM": 0,
+      "ppeBookMM": 950,
+      "inventoryMM": 380,
+      "intangibleAssetsMM": 360
     },
     {
       "endDate": "2021-03-31",
@@ -63,7 +68,12 @@
       "trader": {
         "rmiMM": 145,
         "throughputMtMM": 3.8
-      }
+      },
+      "totalAssetsMM": 3450,
+      "propertyBookMM": 0,
+      "ppeBookMM": 980,
+      "inventoryMM": 400,
+      "intangibleAssetsMM": 380
     },
     {
       "endDate": "2022-03-31",
@@ -96,7 +106,12 @@
       "trader": {
         "rmiMM": 180,
         "throughputMtMM": 3.9
-      }
+      },
+      "totalAssetsMM": 3600,
+      "propertyBookMM": 0,
+      "ppeBookMM": 1000,
+      "inventoryMM": 450,
+      "intangibleAssetsMM": 400
     },
     {
       "endDate": "2023-03-31",
@@ -132,7 +147,8 @@
       "trader": {
         "rmiMM": 220,
         "throughputMtMM": 4.0
-      }
+      },
+      "totalAssetsMM": 2900
     },
     {
       "endDate": "2024-03-31",
@@ -168,7 +184,8 @@
       "trader": {
         "rmiMM": 195,
         "throughputMtMM": 4.1
-      }
+      },
+      "totalAssetsMM": 3000
     },
     {
       "endDate": "2020-09-30",

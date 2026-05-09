@@ -28,7 +28,12 @@
         "milkIntakeMlitres": 1342,
         "cowHerdK": 368.4,
         "brandedRevenuePct": 4.2
-      }
+      },
+      "totalAssetsMM": 18500,
+      "propertyBookMM": 5800,
+      "ppeBookMM": 7200,
+      "inventoryMM": 1400,
+      "intangibleAssetsMM": 280
     },
     {
       "endDate": "2021-12-31",
@@ -59,7 +64,12 @@
         "milkIntakeMlitres": 1486,
         "cowHerdK": 386.2,
         "brandedRevenuePct": 5.8
-      }
+      },
+      "totalAssetsMM": 21000,
+      "propertyBookMM": 6500,
+      "ppeBookMM": 8000,
+      "inventoryMM": 1600,
+      "intangibleAssetsMM": 290
     },
     {
       "endDate": "2022-06-30",
@@ -101,7 +111,9 @@
         "milkIntakeMlitres": 1612,
         "cowHerdK": 398.6,
         "brandedRevenuePct": 6.4
-      }
+      },
+      "totalAssetsMM": 23500,
+      "propertyBookMM": 7200
     },
     {
       "endDate": "2023-06-30",
@@ -143,7 +155,9 @@
         "milkIntakeMlitres": 1748,
         "cowHerdK": 412.4,
         "brandedRevenuePct": 7.8
-      }
+      },
+      "totalAssetsMM": 24500,
+      "propertyBookMM": 7500
     },
     {
       "endDate": "2024-06-30",
@@ -193,7 +207,9 @@
         "milkIntakeMlitres": 1842,
         "cowHerdK": 423.8,
         "brandedRevenuePct": 8.4
-      }
+      },
+      "totalAssetsMM": 24800,
+      "propertyBookMM": 7600
     }
   ]
 }

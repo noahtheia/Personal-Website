@@ -19,7 +19,14 @@
       "trader": {
         "rmiMM": 3500,
         "throughputMtMM": 12.2
-      }
+      },
+      "totalAssetsMM": 102500,
+      "totalDebtMM": 25500,
+      "cashMM": 18500,
+      "propertyBookMM": 250,
+      "ppeBookMM": 26500,
+      "inventoryMM": 31000,
+      "intangibleAssetsMM": 4200
     },
     {
       "endDate": "2021-12-31",
@@ -40,7 +47,12 @@
       "trader": {
         "rmiMM": 4100,
         "throughputMtMM": 13.0
-      }
+      },
+      "totalAssetsMM": 113800,
+      "propertyBookMM": 260,
+      "ppeBookMM": 30500,
+      "inventoryMM": 36000,
+      "intangibleAssetsMM": 4350
     },
     {
       "endDate": "2022-12-31",
@@ -65,7 +77,8 @@
       "trader": {
         "rmiMM": 4750,
         "throughputMtMM": 13.8
-      }
+      },
+      "totalAssetsMM": 124500
     },
     {
       "endDate": "2023-12-31",
@@ -101,7 +114,8 @@
       "trader": {
         "rmiMM": 4480,
         "throughputMtMM": 14.2
-      }
+      },
+      "totalAssetsMM": 128300
     },
     {
       "endDate": "2023-03-31",
@@ -142,7 +156,10 @@
       "trader": {
         "rmiMM": 4480,
         "throughputMtMM": 14.2
-      }
+      },
+      "totalAssetsMM": 128300,
+      "totalDebtMM": 40500,
+      "cashMM": 16500
     },
     {
       "endDate": "2024-12-31",
@@ -186,7 +203,8 @@
       "trader": {
         "rmiMM": 4200,
         "throughputMtMM": 14.5
-      }
+      },
+      "totalAssetsMM": 130700
     },
     {
       "endDate": "2024-03-31",
@@ -227,7 +245,10 @@
       "trader": {
         "rmiMM": 4200,
         "throughputMtMM": 14.5
-      }
+      },
+      "totalAssetsMM": 130700,
+      "totalDebtMM": 41000,
+      "cashMM": 17800
     }
   ]
 }
