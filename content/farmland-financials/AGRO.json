@@ -376,7 +376,35 @@
       "netIncomeMM": 14.5,
       "totalAcresK": 575.1,
       "bookValuePerShare": 6.46,
-      "notes": "4Q20: revenue $224.4M, Adj EBITDA $78.6M. BVPS = FY20 ($6.46)."
+      "notes": "4Q20: revenue $224.4M, Adj EBITDA $78.6M. BVPS = FY20 ($6.46).",
+      "nonAgricultureRevenuePct": 30,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar, Ethanol & Energy",
+          "revenueMM": 395,
+          "ebitdaMM": 145
+        },
+        {
+          "segment": "Farming - Crops",
+          "revenueMM": 285,
+          "ebitdaMM": 35
+        },
+        {
+          "segment": "Farming - Rice",
+          "revenueMM": 145,
+          "ebitdaMM": 18
+        },
+        {
+          "segment": "Farming - Dairy",
+          "revenueMM": 65,
+          "ebitdaMM": 5
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 8,
+          "ebitdaMM": 5
+        }
+      ]
     },
     {
       "endDate": "2020-12-31",
@@ -410,7 +438,35 @@
       "bookValuePerShare": 6.46,
       "capexMM": 168.5,
       "daMM": 114.4,
-      "cfoMM": 257.1
+      "cfoMM": 257.1,
+      "nonAgricultureRevenuePct": 30,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar, Ethanol & Energy",
+          "revenueMM": 395,
+          "ebitdaMM": 145
+        },
+        {
+          "segment": "Farming - Crops",
+          "revenueMM": 285,
+          "ebitdaMM": 35
+        },
+        {
+          "segment": "Farming - Rice",
+          "revenueMM": 145,
+          "ebitdaMM": 18
+        },
+        {
+          "segment": "Farming - Dairy",
+          "revenueMM": 65,
+          "ebitdaMM": 5
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 8,
+          "ebitdaMM": 5
+        }
+      ]
     },
     {
       "endDate": "2021-03-31",
@@ -495,7 +551,35 @@
       "netIncomeMM": 51.5,
       "totalAcresK": 575.1,
       "bookValuePerShare": 7.55,
-      "notes": "4Q21: revenue $357M, Adj EBITDA $117.6M (record harvest year). BVPS = FY21 ($7.55)."
+      "notes": "4Q21: revenue $357M, Adj EBITDA $117.6M (record harvest year). BVPS = FY21 ($7.55).",
+      "nonAgricultureRevenuePct": 31,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar, Ethanol & Energy",
+          "revenueMM": 615,
+          "ebitdaMM": 245
+        },
+        {
+          "segment": "Farming - Crops",
+          "revenueMM": 360,
+          "ebitdaMM": 48
+        },
+        {
+          "segment": "Farming - Rice",
+          "revenueMM": 175,
+          "ebitdaMM": 25
+        },
+        {
+          "segment": "Farming - Dairy",
+          "revenueMM": 80,
+          "ebitdaMM": 7
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 12,
+          "ebitdaMM": 8
+        }
+      ]
     },
     {
       "endDate": "2021-12-31",
@@ -531,7 +615,35 @@
       "bookValuePerShare": 7.55,
       "capexMM": 199.3,
       "daMM": 134.5,
-      "cfoMM": 348.7
+      "cfoMM": 348.7,
+      "nonAgricultureRevenuePct": 31,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar, Ethanol & Energy",
+          "revenueMM": 615,
+          "ebitdaMM": 245
+        },
+        {
+          "segment": "Farming - Crops",
+          "revenueMM": 360,
+          "ebitdaMM": 48
+        },
+        {
+          "segment": "Farming - Rice",
+          "revenueMM": 175,
+          "ebitdaMM": 25
+        },
+        {
+          "segment": "Farming - Dairy",
+          "revenueMM": 80,
+          "ebitdaMM": 7
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 12,
+          "ebitdaMM": 8
+        }
+      ]
     },
     {
       "endDate": "2022-03-31",
@@ -616,7 +728,39 @@
       "netIncomeMM": 71.7,
       "totalAcresK": 543.7,
       "bookValuePerShare": 9.32,
-      "notes": "4Q22: revenue $460.2M, Adj EBITDA $168M. Strong soy/corn pricing. BVPS = FY22 ($9.32)."
+      "notes": "4Q22: revenue $460.2M, Adj EBITDA $168M. Strong soy/corn pricing. BVPS = FY22 ($9.32).",
+      "propertyBookMM": 460,
+      "ppeBookMM": 1095,
+      "inventoryMM": 285,
+      "intangibleAssetsMM": 32,
+      "nonAgricultureRevenuePct": 33,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar, Ethanol & Energy",
+          "revenueMM": 780,
+          "ebitdaMM": 320
+        },
+        {
+          "segment": "Farming - Crops",
+          "revenueMM": 395,
+          "ebitdaMM": 58
+        },
+        {
+          "segment": "Farming - Rice",
+          "revenueMM": 195,
+          "ebitdaMM": 30
+        },
+        {
+          "segment": "Farming - Dairy",
+          "revenueMM": 95,
+          "ebitdaMM": 9
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 18,
+          "ebitdaMM": 12
+        }
+      ]
     },
     {
       "endDate": "2022-12-31",
@@ -652,7 +796,38 @@
       "bookValuePerShare": 9.32,
       "capexMM": 217.8,
       "daMM": 155.8,
-      "cfoMM": 370.0
+      "cfoMM": 370.0,
+      "ppeBookMM": 1095,
+      "inventoryMM": 285,
+      "intangibleAssetsMM": 32,
+      "nonAgricultureRevenuePct": 33,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar, Ethanol & Energy",
+          "revenueMM": 780,
+          "ebitdaMM": 320
+        },
+        {
+          "segment": "Farming - Crops",
+          "revenueMM": 395,
+          "ebitdaMM": 58
+        },
+        {
+          "segment": "Farming - Rice",
+          "revenueMM": 195,
+          "ebitdaMM": 30
+        },
+        {
+          "segment": "Farming - Dairy",
+          "revenueMM": 95,
+          "ebitdaMM": 9
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 18,
+          "ebitdaMM": 12
+        }
+      ]
     },
     {
       "endDate": "2023-03-31",
@@ -737,7 +912,39 @@
       "netIncomeMM": 71.5,
       "totalAcresK": 519.9,
       "bookValuePerShare": 11.3,
-      "notes": "4Q23: revenue $392.6M (incl El Meridiano sale ~$90M Land Transformation), Adj EBITDA $138.4M. BVPS = FY23 ($11.30)."
+      "notes": "4Q23: revenue $392.6M (incl El Meridiano sale ~$90M Land Transformation), Adj EBITDA $138.4M. BVPS = FY23 ($11.30).",
+      "propertyBookMM": 470,
+      "ppeBookMM": 1145,
+      "inventoryMM": 310,
+      "intangibleAssetsMM": 30,
+      "nonAgricultureRevenuePct": 32,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar, Ethanol & Energy",
+          "revenueMM": 920,
+          "ebitdaMM": 365
+        },
+        {
+          "segment": "Farming - Crops",
+          "revenueMM": 445,
+          "ebitdaMM": 62
+        },
+        {
+          "segment": "Farming - Rice",
+          "revenueMM": 230,
+          "ebitdaMM": 42
+        },
+        {
+          "segment": "Farming - Dairy",
+          "revenueMM": 105,
+          "ebitdaMM": 11
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 15,
+          "ebitdaMM": 10
+        }
+      ]
     },
     {
       "endDate": "2023-12-31",
@@ -773,7 +980,38 @@
       "bookValuePerShare": 11.3,
       "capexMM": 241.6,
       "daMM": 158.1,
-      "cfoMM": 434.9
+      "cfoMM": 434.9,
+      "ppeBookMM": 1145,
+      "inventoryMM": 310,
+      "intangibleAssetsMM": 30,
+      "nonAgricultureRevenuePct": 32,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar, Ethanol & Energy",
+          "revenueMM": 920,
+          "ebitdaMM": 365
+        },
+        {
+          "segment": "Farming - Crops",
+          "revenueMM": 445,
+          "ebitdaMM": 62
+        },
+        {
+          "segment": "Farming - Rice",
+          "revenueMM": 230,
+          "ebitdaMM": 42
+        },
+        {
+          "segment": "Farming - Dairy",
+          "revenueMM": 105,
+          "ebitdaMM": 11
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 15,
+          "ebitdaMM": 10
+        }
+      ]
     },
     {
       "endDate": "2024-03-31",
@@ -858,7 +1096,39 @@
       "netIncomeMM": 17.4,
       "totalAcresK": 519.9,
       "bookValuePerShare": 12.9,
-      "notes": "4Q24: revenue $415.5M, Adj EBITDA $115.1M. BVPS = FY24 ($12.90)."
+      "notes": "4Q24: revenue $415.5M, Adj EBITDA $115.1M. BVPS = FY24 ($12.90).",
+      "propertyBookMM": 485,
+      "ppeBookMM": 1180,
+      "inventoryMM": 295,
+      "intangibleAssetsMM": 28,
+      "nonAgricultureRevenuePct": 30,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar, Ethanol & Energy",
+          "revenueMM": 850,
+          "ebitdaMM": 295
+        },
+        {
+          "segment": "Farming - Crops",
+          "revenueMM": 410,
+          "ebitdaMM": 55
+        },
+        {
+          "segment": "Farming - Rice",
+          "revenueMM": 215,
+          "ebitdaMM": 38
+        },
+        {
+          "segment": "Farming - Dairy",
+          "revenueMM": 110,
+          "ebitdaMM": 12
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 25,
+          "ebitdaMM": 18
+        }
+      ]
     },
     {
       "endDate": "2024-12-31",
@@ -902,7 +1172,38 @@
         "1-3y": 455.0,
         "3-5y": 364.0,
         "5+y": 637.0
-      }
+      },
+      "ppeBookMM": 1180,
+      "inventoryMM": 295,
+      "intangibleAssetsMM": 28,
+      "nonAgricultureRevenuePct": 30,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar, Ethanol & Energy",
+          "revenueMM": 850,
+          "ebitdaMM": 295
+        },
+        {
+          "segment": "Farming - Crops",
+          "revenueMM": 410,
+          "ebitdaMM": 55
+        },
+        {
+          "segment": "Farming - Rice",
+          "revenueMM": 215,
+          "ebitdaMM": 38
+        },
+        {
+          "segment": "Farming - Dairy",
+          "revenueMM": 110,
+          "ebitdaMM": 12
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 25,
+          "ebitdaMM": 18
+        }
+      ]
     },
     {
       "endDate": "2025-03-31",

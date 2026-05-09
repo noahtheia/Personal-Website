@@ -316,7 +316,30 @@
       "capexMM": 25,
       "daMM": 28,
       "cfoMM": 80,
-      "totalEquityMM": 410
+      "totalEquityMM": 410,
+      "nonAgricultureRevenuePct": 28,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar",
+          "revenueMM": 145,
+          "ebitdaMM": 28
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 110,
+          "ebitdaMM": 15
+        },
+        {
+          "segment": "Crop Production (Farming)",
+          "revenueMM": 55,
+          "ebitdaMM": 18
+        },
+        {
+          "segment": "Soybean Processing",
+          "revenueMM": 62,
+          "ebitdaMM": 9
+        }
+      ]
     },
     {
       "endDate": "2021-12-31",
@@ -344,7 +367,30 @@
       "capexMM": 35,
       "daMM": 28,
       "cfoMM": 90,
-      "totalEquityMM": 460
+      "totalEquityMM": 460,
+      "nonAgricultureRevenuePct": 30,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar",
+          "revenueMM": 175,
+          "ebitdaMM": 38
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 125,
+          "ebitdaMM": 18
+        },
+        {
+          "segment": "Crop Production (Farming)",
+          "revenueMM": 65,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "Soybean Processing",
+          "revenueMM": 72,
+          "ebitdaMM": 11
+        }
+      ]
     },
     {
       "endDate": "2022-12-31",
@@ -372,7 +418,34 @@
       "capexMM": 25,
       "daMM": 32,
       "cfoMM": 60,
-      "totalEquityMM": 380
+      "totalEquityMM": 380,
+      "propertyBookMM": 78,
+      "ppeBookMM": 255,
+      "inventoryMM": 175,
+      "intangibleAssetsMM": 9,
+      "nonAgricultureRevenuePct": 32,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar",
+          "revenueMM": 240,
+          "ebitdaMM": 75
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 145,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "Crop Production (Farming)",
+          "revenueMM": 78,
+          "ebitdaMM": 30
+        },
+        {
+          "segment": "Soybean Processing",
+          "revenueMM": 88,
+          "ebitdaMM": 15
+        }
+      ]
     },
     {
       "endDate": "2023-12-31",
@@ -400,7 +473,34 @@
       "capexMM": 30,
       "daMM": 30,
       "cfoMM": 100,
-      "totalEquityMM": 420
+      "totalEquityMM": 420,
+      "propertyBookMM": 82,
+      "ppeBookMM": 270,
+      "inventoryMM": 185,
+      "intangibleAssetsMM": 8,
+      "nonAgricultureRevenuePct": 33,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar",
+          "revenueMM": 285,
+          "ebitdaMM": 95
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 155,
+          "ebitdaMM": 25
+        },
+        {
+          "segment": "Crop Production (Farming)",
+          "revenueMM": 85,
+          "ebitdaMM": 32
+        },
+        {
+          "segment": "Soybean Processing",
+          "revenueMM": 95,
+          "ebitdaMM": 18
+        }
+      ]
     },
     {
       "endDate": "2024-03-31",
@@ -432,7 +532,34 @@
       "totalEquityMM": 460,
       "cfoMM": 88,
       "capexMM": 60,
-      "daMM": 58
+      "daMM": 58,
+      "propertyBookMM": 85,
+      "ppeBookMM": 280,
+      "inventoryMM": 195,
+      "intangibleAssetsMM": 8,
+      "nonAgricultureRevenuePct": 35,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar",
+          "revenueMM": 245,
+          "ebitdaMM": 38
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 165,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "Crop Production (Farming)",
+          "revenueMM": 95,
+          "ebitdaMM": 28
+        },
+        {
+          "segment": "Soybean Processing",
+          "revenueMM": 105,
+          "ebitdaMM": 12
+        }
+      ]
     },
     {
       "endDate": "2024-12-31",
@@ -472,7 +599,33 @@
         "3-5y": 44.25,
         "5+y": 59.0
       },
-      "totalEquityMM": 460
+      "totalEquityMM": 460,
+      "ppeBookMM": 280,
+      "inventoryMM": 195,
+      "intangibleAssetsMM": 8,
+      "nonAgricultureRevenuePct": 35,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar",
+          "revenueMM": 245,
+          "ebitdaMM": 38
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 165,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "Crop Production (Farming)",
+          "revenueMM": 95,
+          "ebitdaMM": 28
+        },
+        {
+          "segment": "Soybean Processing",
+          "revenueMM": 105,
+          "ebitdaMM": 12
+        }
+      ]
     }
   ]
 }

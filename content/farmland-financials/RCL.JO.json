@@ -25,7 +25,30 @@
       "capexMM": 950,
       "daMM": 850,
       "cfoMM": 2400,
-      "totalEquityMM": 6850
+      "totalEquityMM": 6850,
+      "nonAgricultureRevenuePct": 48,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Chicken",
+          "revenueMM": 8500,
+          "ebitdaMM": 480
+        },
+        {
+          "segment": "Groceries",
+          "revenueMM": 7100,
+          "ebitdaMM": 720
+        },
+        {
+          "segment": "Vector Logistics",
+          "revenueMM": 2850,
+          "ebitdaMM": 195
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 6200,
+          "ebitdaMM": 680
+        }
+      ]
     },
     {
       "endDate": "2021-06-30",
@@ -48,7 +71,30 @@
       "capexMM": 1080,
       "daMM": 880,
       "cfoMM": 2700,
-      "totalEquityMM": 7120
+      "totalEquityMM": 7120,
+      "nonAgricultureRevenuePct": 50,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Chicken",
+          "revenueMM": 9200,
+          "ebitdaMM": 650
+        },
+        {
+          "segment": "Groceries",
+          "revenueMM": 7600,
+          "ebitdaMM": 850
+        },
+        {
+          "segment": "Vector Logistics",
+          "revenueMM": 3100,
+          "ebitdaMM": 245
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 6800,
+          "ebitdaMM": 850
+        }
+      ]
     },
     {
       "endDate": "2022-06-30",
@@ -71,7 +117,34 @@
       "capexMM": 1250,
       "daMM": 920,
       "cfoMM": 2100,
-      "totalEquityMM": 7340
+      "totalEquityMM": 7340,
+      "propertyBookMM": 1050,
+      "ppeBookMM": 5200,
+      "inventoryMM": 3450,
+      "intangibleAssetsMM": 1920,
+      "nonAgricultureRevenuePct": 52,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Chicken",
+          "revenueMM": 10500,
+          "ebitdaMM": 720
+        },
+        {
+          "segment": "Groceries",
+          "revenueMM": 8400,
+          "ebitdaMM": 980
+        },
+        {
+          "segment": "Vector Logistics",
+          "revenueMM": 3450,
+          "ebitdaMM": 285
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 7800,
+          "ebitdaMM": 1050
+        }
+      ]
     },
     {
       "endDate": "2023-06-30",
@@ -100,7 +173,34 @@
       "capexMM": 1380,
       "daMM": 970,
       "cfoMM": 2350,
-      "totalEquityMM": 7510
+      "totalEquityMM": 7510,
+      "propertyBookMM": 920,
+      "ppeBookMM": 4500,
+      "inventoryMM": 3100,
+      "intangibleAssetsMM": 1880,
+      "nonAgricultureRevenuePct": 55,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Chicken",
+          "revenueMM": 11800,
+          "ebitdaMM": 480
+        },
+        {
+          "segment": "Groceries",
+          "revenueMM": 9200,
+          "ebitdaMM": 1150
+        },
+        {
+          "segment": "Vector Logistics",
+          "revenueMM": 3850,
+          "ebitdaMM": 320
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 8500,
+          "ebitdaMM": 1280
+        }
+      ]
     },
     {
       "endDate": "2022-12-31",
@@ -145,7 +245,29 @@
         "3-5y": 720.0,
         "5+y": 960.0
       },
-      "totalEquityMM": 7680
+      "totalEquityMM": 7680,
+      "propertyBookMM": 850,
+      "ppeBookMM": 4200,
+      "inventoryMM": 2850,
+      "intangibleAssetsMM": 1850,
+      "nonAgricultureRevenuePct": 70,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Chicken",
+          "revenueMM": 12500,
+          "ebitdaMM": 850
+        },
+        {
+          "segment": "Groceries",
+          "revenueMM": 9800,
+          "ebitdaMM": 1280
+        },
+        {
+          "segment": "Vector Logistics",
+          "revenueMM": 4200,
+          "ebitdaMM": 380
+        }
+      ]
     },
     {
       "endDate": "2023-12-31",

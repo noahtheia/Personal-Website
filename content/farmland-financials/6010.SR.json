@@ -530,7 +530,35 @@
       "totalEquityMM": 1850,
       "cfoMM": 620,
       "capexMM": 540,
-      "daMM": 350
+      "daMM": 350,
+      "nonAgricultureRevenuePct": 33,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1350,
+          "ebitdaMM": 195
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 620,
+          "ebitdaMM": 88
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 340,
+          "ebitdaMM": 52
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 250,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 95,
+          "ebitdaMM": 10
+        }
+      ]
     },
     {
       "endDate": "2020-12-31",
@@ -561,7 +589,35 @@
       "notes": "FY20: COVID-impacted year. NADEC re-listed and consolidated Wafrah merger filings. Note: Saudi government-mandated wind-down of green-fodder (alfalfa) cultivation by 2018-2019 reduced agriculture water use; replaced with potato + horticulture",
       "capexMM": 25,
       "daMM": 22,
-      "cfoMM": 15
+      "cfoMM": 15,
+      "nonAgricultureRevenuePct": 33,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1350,
+          "ebitdaMM": 195
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 620,
+          "ebitdaMM": 88
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 340,
+          "ebitdaMM": 52
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 250,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 95,
+          "ebitdaMM": 10
+        }
+      ]
     },
     {
       "endDate": "2021-03-31",
@@ -629,7 +685,35 @@
       "totalEquityMM": 1920,
       "cfoMM": 640,
       "capexMM": 560,
-      "daMM": 365
+      "daMM": 365,
+      "nonAgricultureRevenuePct": 35,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1480,
+          "ebitdaMM": 215
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 685,
+          "ebitdaMM": 100
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 380,
+          "ebitdaMM": 60
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 285,
+          "ebitdaMM": 28
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 110,
+          "ebitdaMM": 12
+        }
+      ]
     },
     {
       "endDate": "2021-12-31",
@@ -660,7 +744,35 @@
       "notes": "FY21: revenue +30.6% YoY post-Wafrah; net income +84%",
       "capexMM": 30,
       "daMM": 22,
-      "cfoMM": 18
+      "cfoMM": 18,
+      "nonAgricultureRevenuePct": 35,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1480,
+          "ebitdaMM": 215
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 685,
+          "ebitdaMM": 100
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 380,
+          "ebitdaMM": 60
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 285,
+          "ebitdaMM": 28
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 110,
+          "ebitdaMM": 12
+        }
+      ]
     },
     {
       "endDate": "2022-03-31",
@@ -728,7 +840,39 @@
       "totalEquityMM": 2010,
       "cfoMM": 680,
       "capexMM": 600,
-      "daMM": 380
+      "daMM": 380,
+      "propertyBookMM": 790,
+      "ppeBookMM": 3580,
+      "inventoryMM": 1100,
+      "intangibleAssetsMM": 295,
+      "nonAgricultureRevenuePct": 36,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1620,
+          "ebitdaMM": 240
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 750,
+          "ebitdaMM": 115
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 420,
+          "ebitdaMM": 70
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 320,
+          "ebitdaMM": 32
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 125,
+          "ebitdaMM": 14
+        }
+      ]
     },
     {
       "endDate": "2022-12-31",
@@ -759,7 +903,38 @@
       "notes": "FY22: revenue +21% YoY on pricing; agriculture segment posted record on potato pricing",
       "capexMM": 35,
       "daMM": 23,
-      "cfoMM": 22
+      "cfoMM": 22,
+      "ppeBookMM": 3580,
+      "inventoryMM": 1100,
+      "intangibleAssetsMM": 295,
+      "nonAgricultureRevenuePct": 36,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1620,
+          "ebitdaMM": 240
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 750,
+          "ebitdaMM": 115
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 420,
+          "ebitdaMM": 70
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 320,
+          "ebitdaMM": 32
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 125,
+          "ebitdaMM": 14
+        }
+      ]
     },
     {
       "endDate": "2023-03-31",
@@ -827,7 +1002,39 @@
       "totalEquityMM": 2095,
       "cfoMM": 720,
       "capexMM": 640,
-      "daMM": 395
+      "daMM": 395,
+      "propertyBookMM": 820,
+      "ppeBookMM": 3720,
+      "inventoryMM": 1180,
+      "intangibleAssetsMM": 290,
+      "nonAgricultureRevenuePct": 38,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1750,
+          "ebitdaMM": 265
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 800,
+          "ebitdaMM": 130
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 450,
+          "ebitdaMM": 78
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 350,
+          "ebitdaMM": 38
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 135,
+          "ebitdaMM": 16
+        }
+      ]
     },
     {
       "endDate": "2023-12-31",
@@ -858,7 +1065,38 @@
       "notes": "FY23: revenue +7.3% YoY, net income +32%; deleveraging continues",
       "capexMM": 40,
       "daMM": 24,
-      "cfoMM": 25
+      "cfoMM": 25,
+      "ppeBookMM": 3720,
+      "inventoryMM": 1180,
+      "intangibleAssetsMM": 290,
+      "nonAgricultureRevenuePct": 38,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1750,
+          "ebitdaMM": 265
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 800,
+          "ebitdaMM": 130
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 450,
+          "ebitdaMM": 78
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 350,
+          "ebitdaMM": 38
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 135,
+          "ebitdaMM": 16
+        }
+      ]
     },
     {
       "endDate": "2024-03-31",
@@ -926,7 +1164,39 @@
       "totalEquityMM": 2180,
       "cfoMM": 760,
       "capexMM": 680,
-      "daMM": 410
+      "daMM": 410,
+      "propertyBookMM": 850,
+      "ppeBookMM": 3850,
+      "inventoryMM": 1250,
+      "intangibleAssetsMM": 285,
+      "nonAgricultureRevenuePct": 40,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1850,
+          "ebitdaMM": 285
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 850,
+          "ebitdaMM": 145
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 480,
+          "ebitdaMM": 85
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 380,
+          "ebitdaMM": 42
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 145,
+          "ebitdaMM": 18
+        }
+      ]
     },
     {
       "endDate": "2024-12-31",
@@ -965,7 +1235,38 @@
         "1-3y": 171.4,
         "3-5y": 114.27,
         "5+y": 142.83
-      }
+      },
+      "ppeBookMM": 3850,
+      "inventoryMM": 1250,
+      "intangibleAssetsMM": 285,
+      "nonAgricultureRevenuePct": 40,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1850,
+          "ebitdaMM": 285
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 850,
+          "ebitdaMM": 145
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 480,
+          "ebitdaMM": 85
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 380,
+          "ebitdaMM": 42
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 145,
+          "ebitdaMM": 18
+        }
+      ]
     },
     {
       "endDate": "2025-03-31",

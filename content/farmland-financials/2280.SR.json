@@ -445,7 +445,30 @@
       "totalEquityMM": 7820,
       "cfoMM": 3380,
       "capexMM": 2480,
-      "daMM": 1620
+      "daMM": 1620,
+      "nonAgricultureRevenuePct": 86,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 11200,
+          "ebitdaMM": 2480
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 1680,
+          "ebitdaMM": 345
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1380,
+          "ebitdaMM": 175
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1100,
+          "ebitdaMM": 150
+        }
+      ]
     },
     {
       "endDate": "2020-12-31",
@@ -478,7 +501,30 @@
       "notes": "FY20: COVID year, resilient dairy demand; full-year revenue +3% YoY",
       "capexMM": 1500,
       "daMM": 1560,
-      "cfoMM": 3450
+      "cfoMM": 3450,
+      "nonAgricultureRevenuePct": 86,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 11200,
+          "ebitdaMM": 2480
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 1680,
+          "ebitdaMM": 345
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1380,
+          "ebitdaMM": 175
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1100,
+          "ebitdaMM": 150
+        }
+      ]
     },
     {
       "endDate": "2021-03-31",
@@ -546,7 +592,30 @@
       "totalEquityMM": 8050,
       "cfoMM": 3250,
       "capexMM": 2580,
-      "daMM": 1680
+      "daMM": 1680,
+      "nonAgricultureRevenuePct": 87,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 11800,
+          "ebitdaMM": 2580
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 1750,
+          "ebitdaMM": 365
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1480,
+          "ebitdaMM": 195
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1180,
+          "ebitdaMM": 165
+        }
+      ]
     },
     {
       "endDate": "2021-12-31",
@@ -579,7 +648,30 @@
       "notes": "FY21: revenue +5% YoY, margin compression from commodity inflation",
       "capexMM": 1700,
       "daMM": 1590,
-      "cfoMM": 3000
+      "cfoMM": 3000,
+      "nonAgricultureRevenuePct": 87,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 11800,
+          "ebitdaMM": 2580
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 1750,
+          "ebitdaMM": 365
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1480,
+          "ebitdaMM": 195
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1180,
+          "ebitdaMM": 165
+        }
+      ]
     },
     {
       "endDate": "2022-03-31",
@@ -647,7 +739,34 @@
       "totalEquityMM": 8290,
       "cfoMM": 3150,
       "capexMM": 2780,
-      "daMM": 1720
+      "daMM": 1720,
+      "propertyBookMM": 2700,
+      "ppeBookMM": 13800,
+      "inventoryMM": 3550,
+      "intangibleAssetsMM": 1220,
+      "nonAgricultureRevenuePct": 88,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 12800,
+          "ebitdaMM": 2680
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 1900,
+          "ebitdaMM": 380
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1620,
+          "ebitdaMM": 220
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1280,
+          "ebitdaMM": 175
+        }
+      ]
     },
     {
       "endDate": "2022-12-31",
@@ -680,7 +799,33 @@
       "notes": "FY22: revenue +18% YoY on pricing + volume; net income recovered",
       "capexMM": 2000,
       "daMM": 1610,
-      "cfoMM": 2700
+      "cfoMM": 2700,
+      "ppeBookMM": 13800,
+      "inventoryMM": 3550,
+      "intangibleAssetsMM": 1220,
+      "nonAgricultureRevenuePct": 88,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 12800,
+          "ebitdaMM": 2680
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 1900,
+          "ebitdaMM": 380
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1620,
+          "ebitdaMM": 220
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1280,
+          "ebitdaMM": 175
+        }
+      ]
     },
     {
       "endDate": "2023-03-31",
@@ -748,7 +893,34 @@
       "totalEquityMM": 8520,
       "cfoMM": 3450,
       "capexMM": 2950,
-      "daMM": 1780
+      "daMM": 1780,
+      "propertyBookMM": 2780,
+      "ppeBookMM": 14200,
+      "inventoryMM": 3700,
+      "intangibleAssetsMM": 1200,
+      "nonAgricultureRevenuePct": 89,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 13800,
+          "ebitdaMM": 2950
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 2050,
+          "ebitdaMM": 425
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1750,
+          "ebitdaMM": 250
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1380,
+          "ebitdaMM": 195
+        }
+      ]
     },
     {
       "endDate": "2023-12-31",
@@ -781,7 +953,33 @@
       "notes": "FY23: record year \u2014 revenue +14.5%, net income +69% on margin recovery",
       "capexMM": 2400,
       "daMM": 1660,
-      "cfoMM": 3500
+      "cfoMM": 3500,
+      "ppeBookMM": 14200,
+      "inventoryMM": 3700,
+      "intangibleAssetsMM": 1200,
+      "nonAgricultureRevenuePct": 89,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 13800,
+          "ebitdaMM": 2950
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 2050,
+          "ebitdaMM": 425
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1750,
+          "ebitdaMM": 250
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1380,
+          "ebitdaMM": 195
+        }
+      ]
     },
     {
       "endDate": "2024-03-31",
@@ -849,7 +1047,34 @@
       "totalEquityMM": 8780,
       "cfoMM": 3650,
       "capexMM": 3150,
-      "daMM": 1850
+      "daMM": 1850,
+      "propertyBookMM": 2850,
+      "ppeBookMM": 14500,
+      "inventoryMM": 3850,
+      "intangibleAssetsMM": 1180,
+      "nonAgricultureRevenuePct": 90,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 14500,
+          "ebitdaMM": 3200
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 2200,
+          "ebitdaMM": 480
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1850,
+          "ebitdaMM": 285
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1450,
+          "ebitdaMM": 215
+        }
+      ]
     },
     {
       "endDate": "2024-12-31",
@@ -890,7 +1115,33 @@
         "1-3y": 3200.4,
         "3-5y": 2133.6,
         "5+y": 2667.0
-      }
+      },
+      "ppeBookMM": 14500,
+      "inventoryMM": 3850,
+      "intangibleAssetsMM": 1180,
+      "nonAgricultureRevenuePct": 90,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 14500,
+          "ebitdaMM": 3200
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 2200,
+          "ebitdaMM": 480
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1850,
+          "ebitdaMM": 285
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1450,
+          "ebitdaMM": 215
+        }
+      ]
     },
     {
       "endDate": "2025-03-31",

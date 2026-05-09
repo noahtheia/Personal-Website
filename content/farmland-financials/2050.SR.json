@@ -21,7 +21,34 @@
       "notes": "FY20: COVID surge in retail/foods staples; Panda contributed ~half of group revenue",
       "capexMM": 480,
       "daMM": 690,
-      "cfoMM": 1900
+      "cfoMM": 1900,
+      "nonAgricultureRevenuePct": 75,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Edible Oils & Specialty Fats",
+          "revenueMM": 8900,
+          "ebitdaMM": 600
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 3300,
+          "ebitdaMM": 350
+        },
+        {
+          "segment": "Snacks",
+          "revenueMM": 3000,
+          "ebitdaMM": 425
+        },
+        {
+          "segment": "Almarai (associate stake)",
+          "ebitdaMM": 600
+        },
+        {
+          "segment": "Frozen Foods / Other",
+          "revenueMM": 1450,
+          "ebitdaMM": 105
+        }
+      ]
     },
     {
       "endDate": "2021-12-31",
@@ -40,7 +67,34 @@
       "notes": "FY21: edible-oil cost inflation pressured Foods margins",
       "capexMM": 550,
       "daMM": 720,
-      "cfoMM": 1450
+      "cfoMM": 1450,
+      "nonAgricultureRevenuePct": 76,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Edible Oils & Specialty Fats",
+          "revenueMM": 9800,
+          "ebitdaMM": 650
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 3550,
+          "ebitdaMM": 380
+        },
+        {
+          "segment": "Snacks",
+          "revenueMM": 3250,
+          "ebitdaMM": 460
+        },
+        {
+          "segment": "Almarai (associate stake)",
+          "ebitdaMM": 650
+        },
+        {
+          "segment": "Frozen Foods / Other",
+          "revenueMM": 1580,
+          "ebitdaMM": 115
+        }
+      ]
     },
     {
       "endDate": "2022-12-31",
@@ -59,7 +113,38 @@
       "notes": "FY22: Panda restructuring / impairment SAR ~3bn; commodity squeeze on Foods",
       "capexMM": 620,
       "daMM": 760,
-      "cfoMM": 1100
+      "cfoMM": 1100,
+      "propertyBookMM": 1780,
+      "ppeBookMM": 5550,
+      "inventoryMM": 4250,
+      "intangibleAssetsMM": 2920,
+      "nonAgricultureRevenuePct": 77,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Edible Oils & Specialty Fats",
+          "revenueMM": 10800,
+          "ebitdaMM": 720
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 3850,
+          "ebitdaMM": 410
+        },
+        {
+          "segment": "Snacks",
+          "revenueMM": 3500,
+          "ebitdaMM": 495
+        },
+        {
+          "segment": "Almarai (associate stake)",
+          "ebitdaMM": 700
+        },
+        {
+          "segment": "Frozen Foods / Other",
+          "revenueMM": 1700,
+          "ebitdaMM": 125
+        }
+      ]
     },
     {
       "endDate": "2023-12-31",
@@ -91,7 +176,38 @@
       "notes": "FY23: Panda divestment progressing; Foods margin recovery; Almarai associate income up. Almarai 34% stake equity-accounted (excluded from revenue line).",
       "capexMM": 580,
       "daMM": 780,
-      "cfoMM": 1620
+      "cfoMM": 1620,
+      "propertyBookMM": 1820,
+      "ppeBookMM": 5700,
+      "inventoryMM": 4400,
+      "intangibleAssetsMM": 2880,
+      "nonAgricultureRevenuePct": 78,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Edible Oils & Specialty Fats",
+          "revenueMM": 11200,
+          "ebitdaMM": 800
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 4050,
+          "ebitdaMM": 450
+        },
+        {
+          "segment": "Snacks",
+          "revenueMM": 3700,
+          "ebitdaMM": 540
+        },
+        {
+          "segment": "Almarai (associate stake)",
+          "ebitdaMM": 780
+        },
+        {
+          "segment": "Frozen Foods / Other",
+          "revenueMM": 1780,
+          "ebitdaMM": 135
+        }
+      ]
     },
     {
       "endDate": "2023-03-31",
@@ -124,7 +240,38 @@
       "ebitdaMM": 490,
       "netIncomeMM": 120,
       "notes": "Q4 23",
-      "totalEquityMM": 4650
+      "totalEquityMM": 4650,
+      "propertyBookMM": 1820,
+      "ppeBookMM": 5700,
+      "inventoryMM": 4400,
+      "intangibleAssetsMM": 2880,
+      "nonAgricultureRevenuePct": 78,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Edible Oils & Specialty Fats",
+          "revenueMM": 11200,
+          "ebitdaMM": 800
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 4050,
+          "ebitdaMM": 450
+        },
+        {
+          "segment": "Snacks",
+          "revenueMM": 3700,
+          "ebitdaMM": 540
+        },
+        {
+          "segment": "Almarai (associate stake)",
+          "ebitdaMM": 780
+        },
+        {
+          "segment": "Frozen Foods / Other",
+          "revenueMM": 1780,
+          "ebitdaMM": 135
+        }
+      ]
     },
     {
       "endDate": "2024-12-31",
@@ -163,7 +310,38 @@
         "1-3y": 2340.0,
         "3-5y": 1560.0,
         "5+y": 1950.0
-      }
+      },
+      "propertyBookMM": 1850,
+      "ppeBookMM": 5800,
+      "inventoryMM": 4500,
+      "intangibleAssetsMM": 2850,
+      "nonAgricultureRevenuePct": 80,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Edible Oils & Specialty Fats",
+          "revenueMM": 11500,
+          "ebitdaMM": 850
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 4200,
+          "ebitdaMM": 480
+        },
+        {
+          "segment": "Snacks",
+          "revenueMM": 3850,
+          "ebitdaMM": 580
+        },
+        {
+          "segment": "Almarai (associate stake)",
+          "ebitdaMM": 850
+        },
+        {
+          "segment": "Frozen Foods / Other",
+          "revenueMM": 1850,
+          "ebitdaMM": 145
+        }
+      ]
     },
     {
       "endDate": "2024-03-31",
@@ -196,7 +374,38 @@
       "ebitdaMM": 450,
       "netIncomeMM": 320,
       "notes": "Q4 24",
-      "totalEquityMM": 4780
+      "totalEquityMM": 4780,
+      "propertyBookMM": 1850,
+      "ppeBookMM": 5800,
+      "inventoryMM": 4500,
+      "intangibleAssetsMM": 2850,
+      "nonAgricultureRevenuePct": 80,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Edible Oils & Specialty Fats",
+          "revenueMM": 11500,
+          "ebitdaMM": 850
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 4200,
+          "ebitdaMM": 480
+        },
+        {
+          "segment": "Snacks",
+          "revenueMM": 3850,
+          "ebitdaMM": 580
+        },
+        {
+          "segment": "Almarai (associate stake)",
+          "ebitdaMM": 850
+        },
+        {
+          "segment": "Frozen Foods / Other",
+          "revenueMM": 1850,
+          "ebitdaMM": 145
+        }
+      ]
     }
   ]
 }

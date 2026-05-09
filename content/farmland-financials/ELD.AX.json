@@ -25,7 +25,35 @@
       "daMM": 33,
       "cfoMM": 110,
       "notes": "FY20 EBITDA $132M, drought recovery year.",
-      "totalEquityMM": 460
+      "totalEquityMM": 460,
+      "nonAgricultureRevenuePct": 100,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Branch Network (Rural Services)",
+          "revenueMM": 1820,
+          "ebitdaMM": 135
+        },
+        {
+          "segment": "Wholesale Products",
+          "revenueMM": 720,
+          "ebitdaMM": 58
+        },
+        {
+          "segment": "Real Estate",
+          "revenueMM": 125,
+          "ebitdaMM": 32
+        },
+        {
+          "segment": "Financial Services",
+          "revenueMM": 68,
+          "ebitdaMM": 18
+        },
+        {
+          "segment": "Feed & Processing Services",
+          "revenueMM": 215,
+          "ebitdaMM": 15
+        }
+      ]
     },
     {
       "endDate": "2021-09-30",
@@ -48,7 +76,35 @@
       "daMM": 36,
       "cfoMM": 135,
       "notes": "FY21 record \u2014 strong commodity prices, livestock margins, AIRR contribution.",
-      "totalEquityMM": 545
+      "totalEquityMM": 545,
+      "nonAgricultureRevenuePct": 100,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Branch Network (Rural Services)",
+          "revenueMM": 2150,
+          "ebitdaMM": 168
+        },
+        {
+          "segment": "Wholesale Products",
+          "revenueMM": 850,
+          "ebitdaMM": 72
+        },
+        {
+          "segment": "Real Estate",
+          "revenueMM": 148,
+          "ebitdaMM": 42
+        },
+        {
+          "segment": "Financial Services",
+          "revenueMM": 78,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "Feed & Processing Services",
+          "revenueMM": 265,
+          "ebitdaMM": 20
+        }
+      ]
     },
     {
       "endDate": "2022-09-30",
@@ -71,7 +127,39 @@
       "daMM": 40,
       "cfoMM": 60,
       "notes": "FY22 revenue $3.75B \u2014 historic peak in commodity prices; EBITDA $232M.",
-      "totalEquityMM": 720
+      "totalEquityMM": 720,
+      "propertyBookMM": 172,
+      "ppeBookMM": 348,
+      "inventoryMM": 580,
+      "intangibleAssetsMM": 435,
+      "nonAgricultureRevenuePct": 100,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Branch Network (Rural Services)",
+          "revenueMM": 2480,
+          "ebitdaMM": 198
+        },
+        {
+          "segment": "Wholesale Products",
+          "revenueMM": 985,
+          "ebitdaMM": 85
+        },
+        {
+          "segment": "Real Estate",
+          "revenueMM": 175,
+          "ebitdaMM": 52
+        },
+        {
+          "segment": "Financial Services",
+          "revenueMM": 92,
+          "ebitdaMM": 28
+        },
+        {
+          "segment": "Feed & Processing Services",
+          "revenueMM": 305,
+          "ebitdaMM": 25
+        }
+      ]
     },
     {
       "endDate": "2023-09-30",
@@ -100,7 +188,39 @@
         "Other opex": -45
       },
       "notes": "FY23 down cycle \u2014 weak livestock prices, El Ni\u00f1o dry conditions.",
-      "totalEquityMM": 740
+      "totalEquityMM": 740,
+      "propertyBookMM": 178,
+      "ppeBookMM": 365,
+      "inventoryMM": 545,
+      "intangibleAssetsMM": 430,
+      "nonAgricultureRevenuePct": 100,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Branch Network (Rural Services)",
+          "revenueMM": 2280,
+          "ebitdaMM": 165
+        },
+        {
+          "segment": "Wholesale Products",
+          "revenueMM": 920,
+          "ebitdaMM": 72
+        },
+        {
+          "segment": "Real Estate",
+          "revenueMM": 158,
+          "ebitdaMM": 42
+        },
+        {
+          "segment": "Financial Services",
+          "revenueMM": 88,
+          "ebitdaMM": 25
+        },
+        {
+          "segment": "Feed & Processing Services",
+          "revenueMM": 295,
+          "ebitdaMM": 22
+        }
+      ]
     },
     {
       "endDate": "2023-03-31",
@@ -145,7 +265,39 @@
         "3-5y": 73.35,
         "5+y": 97.8
       },
-      "totalEquityMM": 765
+      "totalEquityMM": 765,
+      "propertyBookMM": 185,
+      "ppeBookMM": 380,
+      "inventoryMM": 520,
+      "intangibleAssetsMM": 425,
+      "nonAgricultureRevenuePct": 100,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Branch Network (Rural Services)",
+          "revenueMM": 2150,
+          "ebitdaMM": 145
+        },
+        {
+          "segment": "Wholesale Products",
+          "revenueMM": 850,
+          "ebitdaMM": 58
+        },
+        {
+          "segment": "Real Estate",
+          "revenueMM": 145,
+          "ebitdaMM": 38
+        },
+        {
+          "segment": "Financial Services",
+          "revenueMM": 95,
+          "ebitdaMM": 28
+        },
+        {
+          "segment": "Feed & Processing Services",
+          "revenueMM": 285,
+          "ebitdaMM": 18
+        }
+      ]
     },
     {
       "endDate": "2024-03-31",

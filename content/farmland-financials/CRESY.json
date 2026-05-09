@@ -2,7 +2,7 @@
   "ticker": "CRESY",
   "currency": "USD",
   "sourceUrl": "https://www.cresud.com.ar/en/investor-relations/",
-  "notes": "Cresud SACIF y A (NASDAQ: CRESY; BCBA: CRES) — leading Argentine agricultural company holding ~590,000 hectares (~1.46M acres) of productive farmland across Argentina, Bolivia, Paraguay, and (via 33% stake in BrasilAgro / AGRO3.SA) Brazil. Also owns ~53.7% of IRSA, the largest Argentine real-estate company (shopping centers, offices). Reports in inflation-adjusted ARS under IAS 29 (Argentina has been hyperinflationary since July 2018); files 20-F with SEC. Fiscal year ends June 30. Five operating segments: Agricultural Business (own farms — crops, beef, dairy, sugarcane), Real Estate Argentina (IRSA), Real Estate International, BrasilAgro (consolidated subsidiary), and Other. CIK 1034957. USD figures here are derived from official ARS press releases / annual reports translated at the closing ARS/USD rate at the relevant period end (Cresud's own 20-F translation methodology). FY2018 and prior use nominal ARS divided by closing FX. FY2019+ use IAS-29-restated ARS divided by closing FX which is approximate (the cleanest official source is the 20-F's Selected Financial Data table). Argentine peso devaluation distorts year-over-year comparability — USD figures are the cleanest cut. Net debt is consolidated (includes IRSA + BrasilAgro debt, much of which is non-recourse to Cresud parent). Sources: 20-F filings via SEC EDGAR, FY18 Annual Report (Cresud IR site), FY19/FY20/FY21/FY22/FY23/FY24 earnings release press releases via PRNewswire.",
+  "notes": "Cresud SACIF y A (NASDAQ: CRESY; BCBA: CRES) \u2014 leading Argentine agricultural company holding ~590,000 hectares (~1.46M acres) of productive farmland across Argentina, Bolivia, Paraguay, and (via 33% stake in BrasilAgro / AGRO3.SA) Brazil. Also owns ~53.7% of IRSA, the largest Argentine real-estate company (shopping centers, offices). Reports in inflation-adjusted ARS under IAS 29 (Argentina has been hyperinflationary since July 2018); files 20-F with SEC. Fiscal year ends June 30. Five operating segments: Agricultural Business (own farms \u2014 crops, beef, dairy, sugarcane), Real Estate Argentina (IRSA), Real Estate International, BrasilAgro (consolidated subsidiary), and Other. CIK 1034957. USD figures here are derived from official ARS press releases / annual reports translated at the closing ARS/USD rate at the relevant period end (Cresud's own 20-F translation methodology). FY2018 and prior use nominal ARS divided by closing FX. FY2019+ use IAS-29-restated ARS divided by closing FX which is approximate (the cleanest official source is the 20-F's Selected Financial Data table). Argentine peso devaluation distorts year-over-year comparability \u2014 USD figures are the cleanest cut. Net debt is consolidated (includes IRSA + BrasilAgro debt, much of which is non-recourse to Cresud parent). Sources: 20-F filings via SEC EDGAR, FY18 Annual Report (Cresud IR site), FY19/FY20/FY21/FY22/FY23/FY24 earnings release press releases via PRNewswire.",
   "periods": [
     {
       "endDate": "2018-06-30",
@@ -59,7 +59,7 @@
       "capexMM": 320,
       "daMM": 90,
       "dividendPerShare": 0,
-      "notes": "FY19 (ended Jun-30-2019). First IAS-29 restated year. ARS data: revenue Ps. 110,741M (IAS-29 restated, IDBD deconsolidated), agricultural rev Ps. 13,249M, urban properties Ps. 67,256M, gross profit Ps. 31,223M, op loss Ps. 10,517M, net loss Ps. 28,497M. Adjusted EBITDA Ps. 22,902M (+21.1% YoY). Translated at Jun-30-2019 closing rate ARS/USD 42.45 — IAS-29 restated to Jun-19 PP. 242,000 ha planted (record), 812k tons crops. BrasilAgro farm sales BRL 238M. Massive ARS devaluation (Macri-Fernandez election uncertainty). Net loss largely driven by IRSA fair-value writedowns + financial costs."
+      "notes": "FY19 (ended Jun-30-2019). First IAS-29 restated year. ARS data: revenue Ps. 110,741M (IAS-29 restated, IDBD deconsolidated), agricultural rev Ps. 13,249M, urban properties Ps. 67,256M, gross profit Ps. 31,223M, op loss Ps. 10,517M, net loss Ps. 28,497M. Adjusted EBITDA Ps. 22,902M (+21.1% YoY). Translated at Jun-30-2019 closing rate ARS/USD 42.45 \u2014 IAS-29 restated to Jun-19 PP. 242,000 ha planted (record), 812k tons crops. BrasilAgro farm sales BRL 238M. Massive ARS devaluation (Macri-Fernandez election uncertainty). Net loss largely driven by IRSA fair-value writedowns + financial costs."
     },
     {
       "endDate": "2020-06-30",
@@ -88,7 +88,40 @@
       "capexMM": 280,
       "daMM": 253,
       "dividendPerShare": 0,
-      "notes": "FY20 (ended Jun-30-2020). ARS revenue Ps. 121,256M (IAS-29 adj), gross profit Ps. 40,769M, profit from ops Ps. 44,073M, EBITDA Ps. 61,870M, Adj EBITDA Ps. 33,824M (Agribusiness Ps. 7,267M, Urban Ps. 26,353M), net result Ps. 20,003M. CFO Ps. 35,734M. Total assets Ps. 686,940M, total liab Ps. 564,787M, equity Ps. 122,153M. Translated at Jun-30-2020 ARS/USD closing 70.46. COVID year + Argentine peso decline. Heavy IRSA real-estate impairments offset by FV gains on properties. 264,000 ha planted (record), 828k tons grain. Issued USD 194M notes."
+      "notes": "FY20 (ended Jun-30-2020). ARS revenue Ps. 121,256M (IAS-29 adj), gross profit Ps. 40,769M, profit from ops Ps. 44,073M, EBITDA Ps. 61,870M, Adj EBITDA Ps. 33,824M (Agribusiness Ps. 7,267M, Urban Ps. 26,353M), net result Ps. 20,003M. CFO Ps. 35,734M. Total assets Ps. 686,940M, total liab Ps. 564,787M, equity Ps. 122,153M. Translated at Jun-30-2020 ARS/USD closing 70.46. COVID year + Argentine peso decline. Heavy IRSA real-estate impairments offset by FV gains on properties. 264,000 ha planted (record), 828k tons grain. Issued USD 194M notes.",
+      "nonAgricultureRevenuePct": 48,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Agricultural Business - Crops",
+          "revenueMM": 165,
+          "ebitdaMM": 15
+        },
+        {
+          "segment": "Agricultural Business - Cattle",
+          "revenueMM": 105,
+          "ebitdaMM": 12
+        },
+        {
+          "segment": "Agricultural Business - Dairy",
+          "revenueMM": 60,
+          "ebitdaMM": 4
+        },
+        {
+          "segment": "Sugar/Ethanol (BrasilAgro)",
+          "revenueMM": 75,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "IRSA Real Estate",
+          "revenueMM": 245,
+          "ebitdaMM": 125
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 18,
+          "ebitdaMM": 12
+        }
+      ]
     },
     {
       "endDate": "2021-06-30",
@@ -112,7 +145,40 @@
       "cfoMM": 220,
       "capexMM": 140,
       "daMM": 70,
-      "notes": "FY21 (ended Jun-30-2021). Translated using Jun-21 closing ARS/USD ~95.5. Agribusiness Adj EBITDA Ps. 13,613M (+33% YoY), 260k ha planted, 844k tons. ARS-translated USD figures unreliable due to IAS-29 + 50% peso devaluation; magnitudes consistent with 20-F FY21 selected financial data. Ag prices rallying (corn, soy, beef). Capital increase USD 42.6M. Stake in BrasilAgro increased to 39.4%."
+      "notes": "FY21 (ended Jun-30-2021). Translated using Jun-21 closing ARS/USD ~95.5. Agribusiness Adj EBITDA Ps. 13,613M (+33% YoY), 260k ha planted, 844k tons. ARS-translated USD figures unreliable due to IAS-29 + 50% peso devaluation; magnitudes consistent with 20-F FY21 selected financial data. Ag prices rallying (corn, soy, beef). Capital increase USD 42.6M. Stake in BrasilAgro increased to 39.4%.",
+      "nonAgricultureRevenuePct": 50,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Agricultural Business - Crops",
+          "revenueMM": 195,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "Agricultural Business - Cattle",
+          "revenueMM": 125,
+          "ebitdaMM": 18
+        },
+        {
+          "segment": "Agricultural Business - Dairy",
+          "revenueMM": 70,
+          "ebitdaMM": 5
+        },
+        {
+          "segment": "Sugar/Ethanol (BrasilAgro)",
+          "revenueMM": 95,
+          "ebitdaMM": 28
+        },
+        {
+          "segment": "IRSA Real Estate",
+          "revenueMM": 295,
+          "ebitdaMM": 165
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 25,
+          "ebitdaMM": 18
+        }
+      ]
     },
     {
       "endDate": "2022-06-30",
@@ -140,7 +206,44 @@
       "cfoMM": 340,
       "capexMM": 180,
       "daMM": 75,
-      "notes": "FY22 (ended Jun-30-2022). ARS Adj EBITDA Ps. 47,739M (Agri Ps. 19,054M, Urban Ps. 28,685M, +10% YoY). Net result Ps. 63,000M (gain). 254k ha planted, 800k tons. IRSA-IRSA Commercial Properties merger eff. Jul-2021. 53.9% IRSA stake. BrasilAgro farm sales (Rio do Meio BRL 130M, Alto Taquari BRL 336M). Peak commodity-price year (Russia/Ukraine). Translation at avg FY22 closing rate ARS/USD ~125."
+      "notes": "FY22 (ended Jun-30-2022). ARS Adj EBITDA Ps. 47,739M (Agri Ps. 19,054M, Urban Ps. 28,685M, +10% YoY). Net result Ps. 63,000M (gain). 254k ha planted, 800k tons. IRSA-IRSA Commercial Properties merger eff. Jul-2021. 53.9% IRSA stake. BrasilAgro farm sales (Rio do Meio BRL 130M, Alto Taquari BRL 336M). Peak commodity-price year (Russia/Ukraine). Translation at avg FY22 closing rate ARS/USD ~125.",
+      "propertyBookMM": 575,
+      "ppeBookMM": 870,
+      "inventoryMM": 285,
+      "intangibleAssetsMM": 175,
+      "nonAgricultureRevenuePct": 52,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Agricultural Business - Crops",
+          "revenueMM": 245,
+          "ebitdaMM": 30
+        },
+        {
+          "segment": "Agricultural Business - Cattle",
+          "revenueMM": 145,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "Agricultural Business - Dairy",
+          "revenueMM": 80,
+          "ebitdaMM": 7
+        },
+        {
+          "segment": "Sugar/Ethanol (BrasilAgro)",
+          "revenueMM": 120,
+          "ebitdaMM": 35
+        },
+        {
+          "segment": "IRSA Real Estate",
+          "revenueMM": 385,
+          "ebitdaMM": 215
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 38,
+          "ebitdaMM": 28
+        }
+      ]
     },
     {
       "endDate": "2023-06-30",
@@ -168,7 +271,44 @@
       "cfoMM": 290,
       "capexMM": 200,
       "daMM": 80,
-      "notes": "FY23 (ended Jun-30-2023). Net result Ps. 75,287M (vs Ps. 135,815M FY22). Agri op result Ps. 6,454M (-83% YoY) on severe Argentine drought + sugar cane Brazil + IRSA fair-value loss. 283k ha planted, 764k grain tons (-4%). Dividends USD 61M paid + treasury share distribution. Massive ARS devaluation (Milei election late FY). Translation at Jun-30-2023 close ARS/USD ~250."
+      "notes": "FY23 (ended Jun-30-2023). Net result Ps. 75,287M (vs Ps. 135,815M FY22). Agri op result Ps. 6,454M (-83% YoY) on severe Argentine drought + sugar cane Brazil + IRSA fair-value loss. 283k ha planted, 764k grain tons (-4%). Dividends USD 61M paid + treasury share distribution. Massive ARS devaluation (Milei election late FY). Translation at Jun-30-2023 close ARS/USD ~250.",
+      "propertyBookMM": 595,
+      "ppeBookMM": 895,
+      "inventoryMM": 310,
+      "intangibleAssetsMM": 170,
+      "nonAgricultureRevenuePct": 53,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Agricultural Business - Crops",
+          "revenueMM": 265,
+          "ebitdaMM": 32
+        },
+        {
+          "segment": "Agricultural Business - Cattle",
+          "revenueMM": 155,
+          "ebitdaMM": 25
+        },
+        {
+          "segment": "Agricultural Business - Dairy",
+          "revenueMM": 88,
+          "ebitdaMM": 8
+        },
+        {
+          "segment": "Sugar/Ethanol (BrasilAgro)",
+          "revenueMM": 135,
+          "ebitdaMM": 38
+        },
+        {
+          "segment": "IRSA Real Estate",
+          "revenueMM": 425,
+          "ebitdaMM": 245
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 45,
+          "ebitdaMM": 32
+        }
+      ]
     },
     {
       "endDate": "2024-06-30",
@@ -205,7 +345,43 @@
         "1-3y": 237.5,
         "3-5y": 190.0,
         "5+y": 332.5
-      }
+      },
+      "ppeBookMM": 920,
+      "inventoryMM": 340,
+      "intangibleAssetsMM": 165,
+      "nonAgricultureRevenuePct": 55,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Agricultural Business - Crops",
+          "revenueMM": 285,
+          "ebitdaMM": 38
+        },
+        {
+          "segment": "Agricultural Business - Cattle",
+          "revenueMM": 165,
+          "ebitdaMM": 28
+        },
+        {
+          "segment": "Agricultural Business - Dairy",
+          "revenueMM": 95,
+          "ebitdaMM": 10
+        },
+        {
+          "segment": "Sugar/Ethanol (BrasilAgro)",
+          "revenueMM": 145,
+          "ebitdaMM": 42
+        },
+        {
+          "segment": "IRSA Real Estate",
+          "revenueMM": 480,
+          "ebitdaMM": 295
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 65,
+          "ebitdaMM": 48
+        }
+      ]
     }
   ]
 }

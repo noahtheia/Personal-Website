@@ -32,7 +32,34 @@
       "capexMM": 4500,
       "daMM": 4200,
       "cfoMM": 7800,
-      "totalEquityMM": 18500
+      "totalEquityMM": 18500,
+      "nonAgricultureRevenuePct": 80,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Raizen (equity method)",
+          "ebitdaMM": 2400
+        },
+        {
+          "segment": "Rumo (logistics)",
+          "revenueMM": 6800,
+          "ebitdaMM": 3800
+        },
+        {
+          "segment": "Compass (gas & power)",
+          "revenueMM": 9500,
+          "ebitdaMM": 1750
+        },
+        {
+          "segment": "Moove (lubricants)",
+          "revenueMM": 5800,
+          "ebitdaMM": 680
+        },
+        {
+          "segment": "Cosan Investimentos",
+          "revenueMM": 380,
+          "ebitdaMM": 125
+        }
+      ]
     },
     {
       "endDate": "2021-12-31",
@@ -62,7 +89,34 @@
       "capexMM": 6800,
       "daMM": 5100,
       "cfoMM": 9500,
-      "totalEquityMM": 24700
+      "totalEquityMM": 24700,
+      "nonAgricultureRevenuePct": 82,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Raizen (equity method)",
+          "ebitdaMM": 2800
+        },
+        {
+          "segment": "Rumo (logistics)",
+          "revenueMM": 7800,
+          "ebitdaMM": 4200
+        },
+        {
+          "segment": "Compass (gas & power)",
+          "revenueMM": 12500,
+          "ebitdaMM": 2100
+        },
+        {
+          "segment": "Moove (lubricants)",
+          "revenueMM": 7200,
+          "ebitdaMM": 850
+        },
+        {
+          "segment": "Cosan Investimentos",
+          "revenueMM": 480,
+          "ebitdaMM": 165
+        }
+      ]
     },
     {
       "endDate": "2022-03-31",
@@ -103,7 +157,38 @@
       "sharesOutMM": 1872,
       "netDebtMM": 39900,
       "notes": "4T22: Revenue R$8.27bn, EBITDA R$3.00bn.",
-      "totalEquityMM": 30200
+      "totalEquityMM": 30200,
+      "propertyBookMM": 7900,
+      "ppeBookMM": 35200,
+      "inventoryMM": 6500,
+      "intangibleAssetsMM": 20200,
+      "nonAgricultureRevenuePct": 83,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Raizen (equity method)",
+          "ebitdaMM": 3200
+        },
+        {
+          "segment": "Rumo (logistics)",
+          "revenueMM": 10200,
+          "ebitdaMM": 5800
+        },
+        {
+          "segment": "Compass (gas & power)",
+          "revenueMM": 15500,
+          "ebitdaMM": 2650
+        },
+        {
+          "segment": "Moove (lubricants)",
+          "revenueMM": 9800,
+          "ebitdaMM": 1100
+        },
+        {
+          "segment": "Cosan Investimentos",
+          "revenueMM": 650,
+          "ebitdaMM": 210
+        }
+      ]
     },
     {
       "endDate": "2022-12-31",
@@ -139,7 +224,38 @@
       "capexMM": 9500,
       "daMM": 6800,
       "cfoMM": 12500,
-      "totalEquityMM": 30200
+      "totalEquityMM": 30200,
+      "propertyBookMM": 7900,
+      "ppeBookMM": 35200,
+      "inventoryMM": 6500,
+      "intangibleAssetsMM": 20200,
+      "nonAgricultureRevenuePct": 83,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Raizen (equity method)",
+          "ebitdaMM": 3200
+        },
+        {
+          "segment": "Rumo (logistics)",
+          "revenueMM": 10200,
+          "ebitdaMM": 5800
+        },
+        {
+          "segment": "Compass (gas & power)",
+          "revenueMM": 15500,
+          "ebitdaMM": 2650
+        },
+        {
+          "segment": "Moove (lubricants)",
+          "revenueMM": 9800,
+          "ebitdaMM": 1100
+        },
+        {
+          "segment": "Cosan Investimentos",
+          "revenueMM": 650,
+          "ebitdaMM": 210
+        }
+      ]
     },
     {
       "endDate": "2023-03-31",
@@ -180,7 +296,38 @@
       "sharesOutMM": 1872,
       "netDebtMM": 34900,
       "notes": "4T23: Revenue R$9.76bn, EBITDA R$3.21bn.",
-      "totalEquityMM": 31800
+      "totalEquityMM": 31800,
+      "propertyBookMM": 8200,
+      "ppeBookMM": 36800,
+      "inventoryMM": 6800,
+      "intangibleAssetsMM": 20800,
+      "nonAgricultureRevenuePct": 84,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Raizen (equity method)",
+          "ebitdaMM": 3850
+        },
+        {
+          "segment": "Rumo (logistics)",
+          "revenueMM": 11500,
+          "ebitdaMM": 6900
+        },
+        {
+          "segment": "Compass (gas & power)",
+          "revenueMM": 16800,
+          "ebitdaMM": 2950
+        },
+        {
+          "segment": "Moove (lubricants)",
+          "revenueMM": 10500,
+          "ebitdaMM": 1280
+        },
+        {
+          "segment": "Cosan Investimentos",
+          "revenueMM": 780,
+          "ebitdaMM": 245
+        }
+      ]
     },
     {
       "endDate": "2023-12-31",
@@ -216,7 +363,38 @@
       "capexMM": 11200,
       "daMM": 8500,
       "cfoMM": 14500,
-      "totalEquityMM": 31800
+      "totalEquityMM": 31800,
+      "propertyBookMM": 8200,
+      "ppeBookMM": 36800,
+      "inventoryMM": 6800,
+      "intangibleAssetsMM": 20800,
+      "nonAgricultureRevenuePct": 84,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Raizen (equity method)",
+          "ebitdaMM": 3850
+        },
+        {
+          "segment": "Rumo (logistics)",
+          "revenueMM": 11500,
+          "ebitdaMM": 6900
+        },
+        {
+          "segment": "Compass (gas & power)",
+          "revenueMM": 16800,
+          "ebitdaMM": 2950
+        },
+        {
+          "segment": "Moove (lubricants)",
+          "revenueMM": 10500,
+          "ebitdaMM": 1280
+        },
+        {
+          "segment": "Cosan Investimentos",
+          "revenueMM": 780,
+          "ebitdaMM": 245
+        }
+      ]
     },
     {
       "endDate": "2024-03-31",
@@ -257,7 +435,38 @@
       "sharesOutMM": 1872,
       "netDebtMM": 38700,
       "notes": "4T24: Revenue R$10.5bn, EBITDA R$3.19bn.",
-      "totalEquityMM": 28500
+      "totalEquityMM": 28500,
+      "propertyBookMM": 8500,
+      "ppeBookMM": 38500,
+      "inventoryMM": 7200,
+      "intangibleAssetsMM": 21500,
+      "nonAgricultureRevenuePct": 85,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Raizen (equity method)",
+          "ebitdaMM": 4200
+        },
+        {
+          "segment": "Rumo (logistics)",
+          "revenueMM": 12800,
+          "ebitdaMM": 7800
+        },
+        {
+          "segment": "Compass (gas & power)",
+          "revenueMM": 18500,
+          "ebitdaMM": 3200
+        },
+        {
+          "segment": "Moove (lubricants)",
+          "revenueMM": 11200,
+          "ebitdaMM": 1450
+        },
+        {
+          "segment": "Cosan Investimentos",
+          "revenueMM": 850,
+          "ebitdaMM": 280
+        }
+      ]
     },
     {
       "endDate": "2024-12-31",
@@ -301,7 +510,38 @@
         "3-5y": 12500,
         "5+y": 16900
       },
-      "totalEquityMM": 28500
+      "totalEquityMM": 28500,
+      "propertyBookMM": 8500,
+      "ppeBookMM": 38500,
+      "inventoryMM": 7200,
+      "intangibleAssetsMM": 21500,
+      "nonAgricultureRevenuePct": 85,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Raizen (equity method)",
+          "ebitdaMM": 4200
+        },
+        {
+          "segment": "Rumo (logistics)",
+          "revenueMM": 12800,
+          "ebitdaMM": 7800
+        },
+        {
+          "segment": "Compass (gas & power)",
+          "revenueMM": 18500,
+          "ebitdaMM": 3200
+        },
+        {
+          "segment": "Moove (lubricants)",
+          "revenueMM": 11200,
+          "ebitdaMM": 1450
+        },
+        {
+          "segment": "Cosan Investimentos",
+          "revenueMM": 850,
+          "ebitdaMM": 280
+        }
+      ]
     },
     {
       "endDate": "2025-03-31",

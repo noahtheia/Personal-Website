@@ -33,7 +33,35 @@
       "capexMM": 691,
       "daMM": 763,
       "cfoMM": 1670,
-      "totalEquityMM": 9370
+      "totalEquityMM": 9370,
+      "nonAgricultureRevenuePct": 65,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Retail (Primark)",
+          "revenueMM": 4150,
+          "ebitdaMM": 480
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 1830,
+          "ebitdaMM": 130
+        },
+        {
+          "segment": "Grocery",
+          "revenueMM": 3480,
+          "ebitdaMM": 495
+        },
+        {
+          "segment": "Ingredients",
+          "revenueMM": 1530,
+          "ebitdaMM": 195
+        },
+        {
+          "segment": "Agriculture",
+          "revenueMM": 1390,
+          "ebitdaMM": 58
+        }
+      ]
     },
     {
       "endDate": "2021-09-18",
@@ -64,7 +92,35 @@
       "capexMM": 632,
       "daMM": 750,
       "cfoMM": 2050,
-      "totalEquityMM": 9755
+      "totalEquityMM": 9755,
+      "nonAgricultureRevenuePct": 70,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Retail (Primark)",
+          "revenueMM": 5590,
+          "ebitdaMM": 850
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 1900,
+          "ebitdaMM": 145
+        },
+        {
+          "segment": "Grocery",
+          "revenueMM": 3520,
+          "ebitdaMM": 510
+        },
+        {
+          "segment": "Ingredients",
+          "revenueMM": 1620,
+          "ebitdaMM": 215
+        },
+        {
+          "segment": "Agriculture",
+          "revenueMM": 1480,
+          "ebitdaMM": 65
+        }
+      ]
     },
     {
       "endDate": "2022-09-17",
@@ -101,7 +157,39 @@
       "capexMM": 837,
       "daMM": 760,
       "cfoMM": 1380,
-      "totalEquityMM": 10295
+      "totalEquityMM": 10295,
+      "propertyBookMM": 2020,
+      "ppeBookMM": 6480,
+      "inventoryMM": 3320,
+      "intangibleAssetsMM": 2120,
+      "nonAgricultureRevenuePct": 72,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Retail (Primark)",
+          "revenueMM": 7700,
+          "ebitdaMM": 1100
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 2200,
+          "ebitdaMM": 180
+        },
+        {
+          "segment": "Grocery",
+          "revenueMM": 3500,
+          "ebitdaMM": 480
+        },
+        {
+          "segment": "Ingredients",
+          "revenueMM": 1950,
+          "ebitdaMM": 240
+        },
+        {
+          "segment": "Agriculture",
+          "revenueMM": 1650,
+          "ebitdaMM": 78
+        }
+      ]
     },
     {
       "endDate": "2023-09-16",
@@ -138,7 +226,39 @@
       "capexMM": 1206,
       "daMM": 770,
       "cfoMM": 2200,
-      "totalEquityMM": 10730
+      "totalEquityMM": 10730,
+      "propertyBookMM": 2080,
+      "ppeBookMM": 6650,
+      "inventoryMM": 3380,
+      "intangibleAssetsMM": 2150,
+      "nonAgricultureRevenuePct": 73,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Retail (Primark)",
+          "revenueMM": 9000,
+          "ebitdaMM": 1280
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 2680,
+          "ebitdaMM": 220
+        },
+        {
+          "segment": "Grocery",
+          "revenueMM": 3700,
+          "ebitdaMM": 520
+        },
+        {
+          "segment": "Ingredients",
+          "revenueMM": 2150,
+          "ebitdaMM": 285
+        },
+        {
+          "segment": "Agriculture",
+          "revenueMM": 1750,
+          "ebitdaMM": 88
+        }
+      ]
     },
     {
       "endDate": "2024-09-14",
@@ -175,7 +295,39 @@
       "capexMM": 941,
       "daMM": 800,
       "cfoMM": 2400,
-      "totalEquityMM": 11150
+      "totalEquityMM": 11150,
+      "propertyBookMM": 2150,
+      "ppeBookMM": 6850,
+      "inventoryMM": 3450,
+      "intangibleAssetsMM": 2200,
+      "nonAgricultureRevenuePct": 75,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Retail (Primark)",
+          "revenueMM": 9450,
+          "ebitdaMM": 1480
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 2950,
+          "ebitdaMM": 250
+        },
+        {
+          "segment": "Grocery",
+          "revenueMM": 3850,
+          "ebitdaMM": 580
+        },
+        {
+          "segment": "Ingredients",
+          "revenueMM": 2050,
+          "ebitdaMM": 320
+        },
+        {
+          "segment": "Agriculture",
+          "revenueMM": 1650,
+          "ebitdaMM": 95
+        }
+      ]
     },
     {
       "endDate": "2021-03-06",

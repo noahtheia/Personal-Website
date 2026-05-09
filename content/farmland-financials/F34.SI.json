@@ -24,7 +24,30 @@
         "COGS": 46200,
         "SG&A": 2150,
         "D&A": 920
-      }
+      },
+      "nonAgricultureRevenuePct": 58,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Food Products",
+          "revenueMM": 25800,
+          "ebitdaMM": 1580
+        },
+        {
+          "segment": "Feed & Industrial Products",
+          "revenueMM": 18500,
+          "ebitdaMM": 1420
+        },
+        {
+          "segment": "Plantation & Sugar Milling",
+          "revenueMM": 6500,
+          "ebitdaMM": 1080
+        },
+        {
+          "segment": "Others",
+          "revenueMM": 1050,
+          "ebitdaMM": 72
+        }
+      ]
     },
     {
       "endDate": "2021-12-31",
@@ -46,7 +69,30 @@
         "COGS": 60800,
         "SG&A": 2480,
         "D&A": 1020
-      }
+      },
+      "nonAgricultureRevenuePct": 60,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Food Products",
+          "revenueMM": 30500,
+          "ebitdaMM": 1850
+        },
+        {
+          "segment": "Feed & Industrial Products",
+          "revenueMM": 21500,
+          "ebitdaMM": 1620
+        },
+        {
+          "segment": "Plantation & Sugar Milling",
+          "revenueMM": 7800,
+          "ebitdaMM": 1280
+        },
+        {
+          "segment": "Others",
+          "revenueMM": 1200,
+          "ebitdaMM": 85
+        }
+      ]
     },
     {
       "endDate": "2022-12-31",
@@ -76,7 +122,34 @@
         "COGS": 70500,
         "SG&A": 2680,
         "D&A": 1120
-      }
+      },
+      "propertyBookMM": 2720,
+      "ppeBookMM": 11900,
+      "inventoryMM": 15800,
+      "intangibleAssetsMM": 4300,
+      "nonAgricultureRevenuePct": 62,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Food Products",
+          "revenueMM": 36500,
+          "ebitdaMM": 2150
+        },
+        {
+          "segment": "Feed & Industrial Products",
+          "revenueMM": 25800,
+          "ebitdaMM": 1850
+        },
+        {
+          "segment": "Plantation & Sugar Milling",
+          "revenueMM": 9200,
+          "ebitdaMM": 1450
+        },
+        {
+          "segment": "Others",
+          "revenueMM": 1500,
+          "ebitdaMM": 105
+        }
+      ]
     },
     {
       "endDate": "2023-12-31",
@@ -113,7 +186,34 @@
       "capexMM": 1500,
       "daMM": 1290,
       "cfoMM": 4400,
-      "totalEquityMM": 22900
+      "totalEquityMM": 22900,
+      "propertyBookMM": 2780,
+      "ppeBookMM": 12200,
+      "inventoryMM": 14200,
+      "intangibleAssetsMM": 4250,
+      "nonAgricultureRevenuePct": 64,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Food Products",
+          "revenueMM": 33500,
+          "ebitdaMM": 1750
+        },
+        {
+          "segment": "Feed & Industrial Products",
+          "revenueMM": 20500,
+          "ebitdaMM": 1380
+        },
+        {
+          "segment": "Plantation & Sugar Milling",
+          "revenueMM": 8200,
+          "ebitdaMM": 1150
+        },
+        {
+          "segment": "Others",
+          "revenueMM": 1350,
+          "ebitdaMM": 88
+        }
+      ]
     },
     {
       "endDate": "2023-06-30",
@@ -166,7 +266,34 @@
       "capexMM": 1450,
       "daMM": 1340,
       "cfoMM": 4100,
-      "totalEquityMM": 22700
+      "totalEquityMM": 22700,
+      "propertyBookMM": 2850,
+      "ppeBookMM": 12500,
+      "inventoryMM": 14500,
+      "intangibleAssetsMM": 4200,
+      "nonAgricultureRevenuePct": 65,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Food Products",
+          "revenueMM": 35200,
+          "ebitdaMM": 1850
+        },
+        {
+          "segment": "Feed & Industrial Products",
+          "revenueMM": 21500,
+          "ebitdaMM": 1450
+        },
+        {
+          "segment": "Plantation & Sugar Milling",
+          "revenueMM": 8500,
+          "ebitdaMM": 1200
+        },
+        {
+          "segment": "Others",
+          "revenueMM": 1450,
+          "ebitdaMM": 95
+        }
+      ]
     },
     {
       "endDate": "2024-06-30",

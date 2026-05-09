@@ -31,7 +31,25 @@
       "capexMM": 90,
       "daMM": 110,
       "cfoMM": 180,
-      "totalEquityMM": 950
+      "totalEquityMM": 950,
+      "nonAgricultureRevenuePct": 100,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar",
+          "revenueMM": 720,
+          "ebitdaMM": 25
+        },
+        {
+          "segment": "Starch",
+          "revenueMM": 980,
+          "ebitdaMM": 75
+        },
+        {
+          "segment": "Fruit",
+          "revenueMM": 1080,
+          "ebitdaMM": 78
+        }
+      ]
     },
     {
       "endDate": "2022-02-28",
@@ -60,7 +78,25 @@
       "capexMM": 95,
       "daMM": 115,
       "cfoMM": 175,
-      "totalEquityMM": 990
+      "totalEquityMM": 990,
+      "nonAgricultureRevenuePct": 100,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar",
+          "revenueMM": 800,
+          "ebitdaMM": 38
+        },
+        {
+          "segment": "Starch",
+          "revenueMM": 1180,
+          "ebitdaMM": 88
+        },
+        {
+          "segment": "Fruit",
+          "revenueMM": 1150,
+          "ebitdaMM": 85
+        }
+      ]
     },
     {
       "endDate": "2023-02-28",
@@ -89,7 +125,29 @@
       "capexMM": 110,
       "daMM": 120,
       "cfoMM": 90,
-      "totalEquityMM": 1080
+      "totalEquityMM": 1080,
+      "propertyBookMM": 275,
+      "ppeBookMM": 690,
+      "inventoryMM": 920,
+      "intangibleAssetsMM": 170,
+      "nonAgricultureRevenuePct": 100,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar",
+          "revenueMM": 1050,
+          "ebitdaMM": 120
+        },
+        {
+          "segment": "Starch",
+          "revenueMM": 1480,
+          "ebitdaMM": 95
+        },
+        {
+          "segment": "Fruit",
+          "revenueMM": 1300,
+          "ebitdaMM": 100
+        }
+      ]
     },
     {
       "endDate": "2024-02-29",
@@ -118,7 +176,29 @@
       "capexMM": 130,
       "daMM": 135,
       "cfoMM": 270,
-      "totalEquityMM": 1115
+      "totalEquityMM": 1115,
+      "propertyBookMM": 280,
+      "ppeBookMM": 705,
+      "inventoryMM": 985,
+      "intangibleAssetsMM": 168,
+      "nonAgricultureRevenuePct": 100,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar",
+          "revenueMM": 1180,
+          "ebitdaMM": 145
+        },
+        {
+          "segment": "Starch",
+          "revenueMM": 1520,
+          "ebitdaMM": 130
+        },
+        {
+          "segment": "Fruit",
+          "revenueMM": 1380,
+          "ebitdaMM": 115
+        }
+      ]
     },
     {
       "endDate": "2025-02-28",
@@ -155,7 +235,29 @@
         "3-5y": 152.0,
         "5+y": 190.0
       },
-      "totalEquityMM": 1135
+      "totalEquityMM": 1135,
+      "propertyBookMM": 285,
+      "ppeBookMM": 720,
+      "inventoryMM": 950,
+      "intangibleAssetsMM": 165,
+      "nonAgricultureRevenuePct": 100,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar",
+          "revenueMM": 1100,
+          "ebitdaMM": 95
+        },
+        {
+          "segment": "Starch",
+          "revenueMM": 1450,
+          "ebitdaMM": 145
+        },
+        {
+          "segment": "Fruit",
+          "revenueMM": 1320,
+          "ebitdaMM": 110
+        }
+      ]
     },
     {
       "endDate": "2020-08-31",

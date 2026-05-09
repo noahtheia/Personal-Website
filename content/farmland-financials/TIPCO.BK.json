@@ -18,7 +18,25 @@
         "COGS": 4850,
         "SG&A": 580,
         "D&A": 280
-      }
+      },
+      "nonAgricultureRevenuePct": 53,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Fruit & Beverage",
+          "revenueMM": 3450,
+          "ebitdaMM": 320
+        },
+        {
+          "segment": "Pineapple Processing",
+          "revenueMM": 2400,
+          "ebitdaMM": 185
+        },
+        {
+          "segment": "Asphalt & Petroleum",
+          "revenueMM": 1250,
+          "ebitdaMM": 130
+        }
+      ]
     },
     {
       "endDate": "2021-12-31",
@@ -40,7 +58,25 @@
         "COGS": 5120,
         "SG&A": 610,
         "D&A": 290
-      }
+      },
+      "nonAgricultureRevenuePct": 55,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Fruit & Beverage",
+          "revenueMM": 3850,
+          "ebitdaMM": 365
+        },
+        {
+          "segment": "Pineapple Processing",
+          "revenueMM": 2650,
+          "ebitdaMM": 215
+        },
+        {
+          "segment": "Asphalt & Petroleum",
+          "revenueMM": 1450,
+          "ebitdaMM": 155
+        }
+      ]
     },
     {
       "endDate": "2022-12-31",
@@ -62,7 +98,29 @@
         "COGS": 5380,
         "SG&A": 640,
         "D&A": 300
-      }
+      },
+      "propertyBookMM": 460,
+      "ppeBookMM": 2680,
+      "inventoryMM": 1650,
+      "intangibleAssetsMM": 150,
+      "nonAgricultureRevenuePct": 56,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Fruit & Beverage",
+          "revenueMM": 4200,
+          "ebitdaMM": 410
+        },
+        {
+          "segment": "Pineapple Processing",
+          "revenueMM": 2900,
+          "ebitdaMM": 245
+        },
+        {
+          "segment": "Asphalt & Petroleum",
+          "revenueMM": 1650,
+          "ebitdaMM": 180
+        }
+      ]
     },
     {
       "endDate": "2023-12-31",
@@ -90,7 +148,29 @@
       "capexMM": 450,
       "daMM": 440,
       "cfoMM": 690,
-      "totalEquityMM": 4550
+      "totalEquityMM": 4550,
+      "propertyBookMM": 470,
+      "ppeBookMM": 2750,
+      "inventoryMM": 1750,
+      "intangibleAssetsMM": 148,
+      "nonAgricultureRevenuePct": 58,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Fruit & Beverage",
+          "revenueMM": 4500,
+          "ebitdaMM": 445
+        },
+        {
+          "segment": "Pineapple Processing",
+          "revenueMM": 3050,
+          "ebitdaMM": 265
+        },
+        {
+          "segment": "Asphalt & Petroleum",
+          "revenueMM": 1750,
+          "ebitdaMM": 200
+        }
+      ]
     },
     {
       "endDate": "2023-03-31",
@@ -128,7 +208,29 @@
         "COGS": 5520,
         "SG&A": 660,
         "D&A": 310
-      }
+      },
+      "propertyBookMM": 470,
+      "ppeBookMM": 2750,
+      "inventoryMM": 1750,
+      "intangibleAssetsMM": 148,
+      "nonAgricultureRevenuePct": 58,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Fruit & Beverage",
+          "revenueMM": 4500,
+          "ebitdaMM": 445
+        },
+        {
+          "segment": "Pineapple Processing",
+          "revenueMM": 3050,
+          "ebitdaMM": 265
+        },
+        {
+          "segment": "Asphalt & Petroleum",
+          "revenueMM": 1750,
+          "ebitdaMM": 200
+        }
+      ]
     },
     {
       "endDate": "2024-12-31",
@@ -156,7 +258,29 @@
       "capexMM": 460,
       "daMM": 460,
       "cfoMM": 720,
-      "totalEquityMM": 4700
+      "totalEquityMM": 4700,
+      "propertyBookMM": 480,
+      "ppeBookMM": 2850,
+      "inventoryMM": 1850,
+      "intangibleAssetsMM": 145,
+      "nonAgricultureRevenuePct": 60,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Fruit & Beverage",
+          "revenueMM": 4800,
+          "ebitdaMM": 480
+        },
+        {
+          "segment": "Pineapple Processing",
+          "revenueMM": 3200,
+          "ebitdaMM": 285
+        },
+        {
+          "segment": "Asphalt & Petroleum",
+          "revenueMM": 1850,
+          "ebitdaMM": 220
+        }
+      ]
     },
     {
       "endDate": "2024-03-31",
@@ -194,7 +318,29 @@
         "COGS": 5680,
         "SG&A": 680,
         "D&A": 320
-      }
+      },
+      "propertyBookMM": 480,
+      "ppeBookMM": 2850,
+      "inventoryMM": 1850,
+      "intangibleAssetsMM": 145,
+      "nonAgricultureRevenuePct": 60,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Fruit & Beverage",
+          "revenueMM": 4800,
+          "ebitdaMM": 480
+        },
+        {
+          "segment": "Pineapple Processing",
+          "revenueMM": 3200,
+          "ebitdaMM": 285
+        },
+        {
+          "segment": "Asphalt & Petroleum",
+          "revenueMM": 1850,
+          "ebitdaMM": 220
+        }
+      ]
     },
     {
       "endDate": "2025-12-31",
