@@ -179,7 +179,7 @@
       "endDate": "2017-12-31",
       "periodType": "FY",
       "revenueMM": 196,
-      "ebitdaMM": 5,
+      "ebitdaMM": 9.5,
       "netIncomeMM": 7,
       "capexMM": 17,
       "daMM": 35,
@@ -236,7 +236,7 @@
       "endDate": "2021-12-31",
       "periodType": "FY",
       "revenueMM": 270.3,
-      "ebitdaMM": 68.2,
+      "ebitdaMM": 337.2,
       "netIncomeMM": 249.8,
       "totalAssetsMM": 533.0,
       "totalDebtMM": 0.0,
@@ -277,7 +277,7 @@
       "epsBasic": 5.49,
       "epsDiluted": 5.37,
       "notes": "FY22: peak revenue $337.6M (+25%) on Russia/Ukraine potash-price spike (KCl spot >$1,000/t). Op income $95.4M + D&A $35.0M = EBITDA $130.5M. Net income $72.2M, EPS $5.49. Debt-free; ~$73M share buybacks reduced share count.",
-      "totalEquityMM": 605,
+      "totalEquityMM": 470,
       "expensesBySegmentMM": {
         "COGS": 245,
         "SG&A": 28,
@@ -295,7 +295,7 @@
         "gasCostUSDPerMMBtu": 6.85,
         "rdSpendPctOfRevenue": 0.06
       },
-      "bookValuePerShare": 47.6753,
+      "bookValuePerShare": 37.037,
       "interestExpenseMM": 1.0
     },
     {
@@ -312,7 +312,7 @@
       "epsBasic": -2.8,
       "epsDiluted": -2.8,
       "notes": "FY23: revenue \u221217% to $279.1M as potash prices collapsed. Op loss \u2212$44.0M, D&A $39.4M, EBITDA \u2212$4.6M. Net loss \u2212$35.7M, EPS \u2212$2.80. Cash drawdown to $4.1M (heavy capex on HB Solar Solution Mine restoration).",
-      "totalEquityMM": 595,
+      "totalEquityMM": 427,
       "expensesBySegmentMM": {
         "COGS": 255,
         "SG&A": 26,
@@ -330,7 +330,7 @@
         "gasCostUSDPerMMBtu": 2.95,
         "rdSpendPctOfRevenue": 0.08
       },
-      "bookValuePerShare": 46.4481,
+      "bookValuePerShare": 33.3333,
       "interestExpenseMM": 2.0
     },
     {
@@ -341,7 +341,7 @@
       "netIncomeMM": -212.8,
       "totalAssetsMM": 422.6,
       "totalDebtMM": 0.0,
-      "cashMM": 41.3,
+      "cashMM": 35.4,
       "netDebtMM": -41.3,
       "sharesOutMM": 12.91,
       "epsBasic": -16.53,
@@ -352,7 +352,7 @@
         "Trio": 105.4,
         "Oilfield Solutions": 24.7
       },
-      "totalEquityMM": 560,
+      "totalEquityMM": 338,
       "expensesBySegmentMM": {
         "COGS": 240,
         "SG&A": 25,
@@ -361,16 +361,16 @@
       "cfoMM": 45,
       "capexMM": 55,
       "daMM": 40,
-      "propertyBookMM": 85,
-      "ppeBookMM": 285,
-      "inventoryMM": 52,
-      "intangibleAssetsMM": 5,
+      "propertyBookMM": 72.9,
+      "ppeBookMM": 244.3,
+      "inventoryMM": 44.6,
+      "intangibleAssetsMM": 4.3,
       "cropInputs": {
         "capacityUtilizationPct": 72.0,
         "gasCostUSDPerMMBtu": 2.55,
         "rdSpendPctOfRevenue": 0.1
       },
-      "bookValuePerShare": 43.3772,
+      "bookValuePerShare": 26.1813,
       "interestExpenseMM": 3.0
     },
     {
@@ -413,7 +413,7 @@
         "Trio": 144.5,
         "Oilfield Solutions": 14.4
       },
-      "totalEquityMM": 565,
+      "totalEquityMM": 332,
       "expensesBySegmentMM": {
         "COGS": 245,
         "SG&A": 26,
@@ -422,7 +422,7 @@
       "cfoMM": 55,
       "capexMM": 50,
       "daMM": 42,
-      "bookValuePerShare": 43.0312
+      "bookValuePerShare": 25.2856
     },
     {
       "endDate": "2026-03-31",
