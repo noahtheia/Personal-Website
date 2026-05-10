@@ -5,6 +5,44 @@
   "notes": "Corteva \u2014 pure-play seeds & crop protection (DowDuPont spin, June 2019). Net cash position FY2024-2025 (cash > debt). EBITDA computed bottom-up; reported \"operating EBITDA\" (non-GAAP) is higher because management adds back significant restructuring + non-recurring items. CommonStockSharesOutstanding used for shares.",
   "periods": [
     {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 14287,
+      "ebitdaMM": 1850,
+      "netIncomeMM": -411,
+      "capexMM": 595,
+      "daMM": 1190,
+      "cfoMM": 1450,
+      "totalAssetsMM": 100000,
+      "totalDebtMM": 115,
+      "cashMM": 1450,
+      "totalEquityMM": 30000,
+      "sharesOutMM": 749,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 35,
+      "epsBasic": -0.5487,
+      "bookValuePerShare": 40.0534
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 14287,
+      "ebitdaMM": 1900,
+      "netIncomeMM": -5066,
+      "capexMM": 522,
+      "daMM": 1306,
+      "cfoMM": 1100,
+      "totalAssetsMM": 99000,
+      "totalDebtMM": 110,
+      "cashMM": 1900,
+      "totalEquityMM": 27500,
+      "sharesOutMM": 750,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 40,
+      "epsBasic": -6.7547,
+      "bookValuePerShare": 36.6667
+    },
+    {
       "endDate": "2019-12-31",
       "periodType": "FY",
       "revenueMM": 13846.0,
@@ -27,7 +65,9 @@
       "daMM": 1599.0,
       "cfoMM": 1070.0,
       "totalEquityMM": 24341,
-      "epsBasic": -1.2811
+      "epsBasic": -1.2811,
+      "totalAssetsMM": 41459,
+      "interestExpenseMM": 42
     },
     {
       "endDate": "2020-12-31",
