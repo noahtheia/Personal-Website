@@ -46,7 +46,7 @@ export function CropYields({ showCagr = true }: { showCagr?: boolean }) {
 
   return (
     <ChartFrame
-      title="Global crop yields over time"
+      title={data.title}
       subtitle={data.unit}
       source={data.source}
       sourceUrl={data.sourceUrl}
@@ -56,9 +56,9 @@ export function CropYields({ showCagr = true }: { showCagr?: boolean }) {
         <>
           <LineChart
             series={built.series}
-            formatValue={(v) => `${v.toFixed(2)} ${data.unit}`}
+            formatValue={(v) => `${v.toFixed(2)} t/ha`}
             formatTick={(v) => v.toFixed(1)}
-            ariaLabel="Global crop yields over time"
+            ariaLabel="Global crop yields over time, by crop"
           />
           {showCagr ? (
             <div className="mt-4 overflow-x-auto">

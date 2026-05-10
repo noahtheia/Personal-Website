@@ -24,11 +24,14 @@ Status legend: ⬜ not started · 🟡 partial · ✅ sourced & verified
 - **Sanity check (as built, million acres):** world total ≈ 812 in 1700, ≈ 2,976 in 1950, ≈ 4,020 in 2023. ⚠️ The article draft says "≈ 3.5 billion acres by the 1950s" — HYDE/OWID *cropland* (arable + permanent crops, excluding pasture) is closer to ≈ 3.0 bn acres in 1950 and ≈ 4.0 bn today; it crosses 3.5 bn around the late-1960s. If "3.5 bn" was meant to include pasture/grazing the figure is much larger (grazing land alone is ≈ 8 bn acres). **Reconcile the prose figure with the chart.**
 - **Derived in-app:** per-decade CAGR of the world total (`lib/chart-helpers#perDecadeCagr`), shown as a strip beneath the chart. Decadal segments use the HYDE benchmark years; the 2020s segment is partial (2020→2023).
 
-## ⬜ `crop-yields.json` — Global crop yields over time
-- **Primary source:** FAOSTAT (Production → Yield); USDA NASS / WASDE for U.S. corn if shown separately.
-- **What to capture:** annual yield (t/ha) for corn, wheat, soybeans, rice (final crop set TBD).
-- **Sanity check:** post-war yields rise steeply; most-recent-decade CAGR decelerates to roughly <1%.
-- **Derived in-app:** full-period CAGR and trailing-decade CAGR per crop.
+## ✅ `crop-yields.json` — Global crop yields, 1961–2024
+- **Source:** Our World in Data, "Key crop yields" — from the **UN FAO** (FAOSTAT, Production → Yield). World-level average yields, tonnes per hectare.
+  - Download: `https://ourworldindata.org/grapher/key-crop-yields.csv?csvType=full` (CSV columns: `Entity, Code, Year, Wheat, Rice, Bananas, Maize, Soybeans, Potatoes, Beans, Peas, Cassava, Cocoa beans, Barley` — yields in t/ha).
+  - Page: <https://ourworldindata.org/grapher/key-crop-yields>
+- **Build:** `node scripts/build-crop-yields-dataset.mjs` — fetches the CSV, keeps the World rows, extracts Maize ("Corn (maize)"), Wheat, Rice, Soybeans, writes the JSON. Re-runnable.
+- **Coverage:** 1961–2024 (FAOSTAT starts in 1961 — there is no comparable pre-1961 *global* yield series, so this chart is shorter than the cropland one; if a long single-country series is wanted, USDA NASS has U.S. maize yields back to 1866, but mixing time scales on one chart is awkward).
+- **Crops shown:** the four staples the essay leans on. The component (`<CropYields/>`) accepts a `crops` prop to subset; add more columns to the build script (Barley, etc.) if wanted.
+- **What it shows (as built):** full-period CAGR ≈ 1.4–1.9%/yr per crop; trailing-decade CAGR ≈ **0.4% (corn), 0.9% (wheat), 0.5% (rice), 0.6% (soy)** — all under ~1%, which is the article's point ("yields across most crops … on a continuous decline to <1% CAGR"). Full-period and trailing-decade CAGRs are computed in-app (`components/charts/CropYields.tsx`).
 
 ## ⬜ `corn-farm-economics.json` — Representative Midwest corn farm
 - **Primary source:** USDA ERS Commodity Costs & Returns; University of Illinois farmdoc (e.g., crop budgets / "Revenue and Costs for Corn").
