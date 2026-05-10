@@ -11,6 +11,7 @@ import {
 } from "@/lib/posts";
 import { Attachments } from "@/components/Attachments";
 import { SubscribeForm } from "@/components/SubscribeForm";
+import { mdxComponents } from "@/mdx/components";
 import { site } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -101,7 +102,7 @@ export default async function PostPage(
       </header>
 
       <div className="prose prose-neutral mt-10 max-w-none">
-        <MDXRemote source={post.content} />
+        <MDXRemote source={post.content} components={mdxComponents} />
       </div>
 
       {post.frontmatter.attachments?.length ? (

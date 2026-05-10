@@ -1,0 +1,9 @@
+{
+  "title": "Global cropland by region, 1700–2026",
+  "unit": "million acres",
+  "source": "TBD — HYDE 3.2 via Our World in Data (\"Land used for agriculture / cropland\")",
+  "retrievedAt": null,
+  "notes": "Series not yet populated. Expect ~6 region buckets summing to a global total; total should read roughly 3.5 billion acres by the 1950s. Decade CAGRs are derived in-app from the global total via lib/chart-helpers#perDecadeCagr.",
+  "regions": [],
+  "series": []
+}
