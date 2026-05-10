@@ -164,7 +164,11 @@
       "dividendPerShare": 0.09,
       "notes": "FY05: revenue $108M, NPAT $6.5M. Robinvale processing capacity expanded.",
       "bookValuePerShare": 1.68,
-      "epsBasic": 0.2281
+      "epsBasic": 0.2281,
+      "capexMM": 10,
+      "daMM": 5,
+      "cfoMM": 12,
+      "interestExpenseMM": 4
     },
     {
       "endDate": "2006-09-30",
@@ -191,7 +195,11 @@
       "dividendPerShare": 0.1,
       "notes": "FY06: revenue $120M, NPAT $8M. Almond Pool pricing peaked at ~A$10/kg on California freeze.",
       "bookValuePerShare": 1.93,
-      "epsBasic": 0.2759
+      "epsBasic": 0.2759,
+      "capexMM": 12,
+      "daMM": 5,
+      "cfoMM": 14,
+      "interestExpenseMM": 5
     },
     {
       "endDate": "2007-09-30",
@@ -218,7 +226,11 @@
       "dividendPerShare": 0.11,
       "notes": "FY07: revenue $138M, NPAT $9.5M. Strong almond cycle; consumer brands resilient.",
       "bookValuePerShare": 2.17,
-      "epsBasic": 0.3167
+      "epsBasic": 0.3167,
+      "capexMM": 15,
+      "daMM": 7,
+      "cfoMM": 18,
+      "interestExpenseMM": 6
     },
     {
       "endDate": "2008-09-30",
@@ -245,7 +257,11 @@
       "dividendPerShare": 0.1,
       "notes": "FY08: revenue $150M. GFC pressured discretionary snack-food volumes; almond pricing softened H2.",
       "bookValuePerShare": 2.33,
-      "epsBasic": 0.25
+      "epsBasic": 0.25,
+      "capexMM": 18,
+      "daMM": 8,
+      "cfoMM": 20,
+      "interestExpenseMM": 7
     },
     {
       "endDate": "2009-09-30",
@@ -272,7 +288,11 @@
       "dividendPerShare": 0.1,
       "notes": "FY09: revenue $162M. Timbercorp collapse in 2009 set the stage for SHV's transformative orchard acquisition.",
       "bookValuePerShare": 2.42,
-      "epsBasic": 0.2581
+      "epsBasic": 0.2581,
+      "capexMM": 20,
+      "daMM": 10,
+      "cfoMM": 18,
+      "interestExpenseMM": 7
     },
     {
       "endDate": "2010-09-30",
@@ -303,7 +323,11 @@
       "dividendPerShare": 0.13,
       "notes": "FY10: transformative year. Acquired Timbercorp Almonds (~$100M, ~6,500 ha managed orchards) \u2014 tripled SHV's footprint to >6,500 ha owned + managed. Capital raise lifted shares to ~50M. Revenue $180M reflects half-year contribution from acquired orchards.",
       "bookValuePerShare": 3.3,
-      "epsBasic": 0.22
+      "epsBasic": 0.22,
+      "capexMM": 22,
+      "daMM": 11,
+      "cfoMM": 20,
+      "interestExpenseMM": 8
     },
     {
       "endDate": "2011-03-31",
@@ -350,7 +374,11 @@
       "dividendPerShare": 0.14,
       "notes": "FY11: first full year post-Timbercorp. Revenue $220M, NPAT $12M. ~17.5K acres orchard portfolio.",
       "bookValuePerShare": 3.82,
-      "epsBasic": 0.2353
+      "epsBasic": 0.2353,
+      "capexMM": 25,
+      "daMM": 13,
+      "cfoMM": 18,
+      "interestExpenseMM": 8
     },
     {
       "endDate": "2012-03-31",
@@ -397,7 +425,11 @@
       "dividendPerShare": 0.1,
       "notes": "FY12: revenue $215M, NPAT $8M. Trough cycle on softer almond pricing and AUD strength.",
       "bookValuePerShare": 3.79,
-      "epsBasic": 0.1553
+      "epsBasic": 0.1553,
+      "capexMM": 22,
+      "daMM": 13,
+      "cfoMM": 16,
+      "interestExpenseMM": 8
     },
     {
       "endDate": "2013-03-31",
@@ -444,7 +476,11 @@
       "dividendPerShare": 0.14,
       "notes": "FY13: revenue $235M, NPAT $13M. Almond cycle inflecting upward.",
       "bookValuePerShare": 3.96,
-      "epsBasic": 0.2453
+      "epsBasic": 0.2453,
+      "capexMM": 25,
+      "daMM": 13,
+      "cfoMM": 22,
+      "interestExpenseMM": 8
     },
     {
       "endDate": "2014-03-31",
@@ -491,7 +527,11 @@
       "dividendPerShare": 0.22,
       "notes": "FY14: revenue $270M, NPAT $22M. California drought began driving almond pool toward A$10/kg.",
       "bookValuePerShare": 4.45,
-      "epsBasic": 0.4
+      "epsBasic": 0.4,
+      "capexMM": 30,
+      "daMM": 14,
+      "cfoMM": 45,
+      "interestExpenseMM": 7
     },
     {
       "endDate": "2015-03-31",
@@ -538,7 +578,11 @@
       "dividendPerShare": 0.4,
       "notes": "FY15: record year. Revenue $320M, EBITDA $95M, NPAT $47M. Wemen orchard acquisition added ~600 ha. Almond pool ~A$11.50/kg.",
       "bookValuePerShare": 4.92,
-      "epsBasic": 0.7231
+      "epsBasic": 0.7231,
+      "capexMM": 40,
+      "daMM": 15,
+      "cfoMM": 70,
+      "interestExpenseMM": 6
     },
     {
       "endDate": "2016-03-31",
@@ -585,7 +629,11 @@
       "dividendPerShare": 0.4,
       "notes": "FY16: peak year. Revenue $313M, EBITDA $113M, NPAT $60M. Highest reported earnings in SHV history at the time.",
       "bookValuePerShare": 5.43,
-      "epsBasic": 0.8571
+      "epsBasic": 0.8571,
+      "capexMM": 35,
+      "daMM": 18,
+      "cfoMM": 25,
+      "interestExpenseMM": 7
     },
     {
       "endDate": "2017-03-31",
@@ -632,7 +680,11 @@
       "dividendPerShare": 0.18,
       "notes": "FY17: revenue $233M, EBITDA $38M, NPAT $11M. Pool pricing normalised to ~A$8/kg.",
       "bookValuePerShare": 5.35,
-      "epsBasic": 0.1549
+      "epsBasic": 0.1549,
+      "capexMM": 30,
+      "daMM": 20,
+      "cfoMM": 30,
+      "interestExpenseMM": 7
     },
     {
       "endDate": "2018-03-31",
@@ -679,7 +731,11 @@
       "dividendPerShare": 0.2,
       "notes": "FY18: revenue $187M, EBITDA $46M, NPAT $19M. Crop ~13,000 t (lower yield year); pool ~A$9.00/kg.",
       "bookValuePerShare": 4.82,
-      "epsBasic": 0.2262
+      "epsBasic": 0.2262,
+      "capexMM": 35,
+      "daMM": 22,
+      "cfoMM": 30,
+      "interestExpenseMM": 8
     },
     {
       "endDate": "2019-03-31",
@@ -726,7 +782,11 @@
       "dividendPerShare": 0.18,
       "notes": "FY19: revenue $188M, EBITDA $36M, NPAT $13.5M. Industrial / consumer brands largely divested (Lucky brand sale), refocusing as pure-play almond operator. Crop ~14,500 t; pool ~A$8.50/kg.",
       "bookValuePerShare": 4.47,
-      "epsBasic": 0.1421
+      "epsBasic": 0.1421,
+      "capexMM": 30,
+      "daMM": 24,
+      "cfoMM": 22,
+      "interestExpenseMM": 9
     },
     {
       "endDate": "2020-03-31",
