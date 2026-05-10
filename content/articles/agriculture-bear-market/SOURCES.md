@@ -45,11 +45,16 @@ Status legend: ⬜ not started · 🟡 partial · ✅ sourced & verified
 - **Counterpoint figure:** ~608 million farms globally — source: FAO / "Which farms feed the world?" literature; cite the year.
 - **Notes:** "commercial seed sales" ≠ all seed (excludes farm-saved seed) — state the definition.
 
-## ⬜ `farm-input-costs.json` — Farm production expenses / input costs
-- **Primary source:** USDA ERS Farm Income & Wealth Statistics (production expenses); BLS Producer Price Index for farm inputs (fertilizer, fuel, etc.).
-- **What to capture:** annual index of total production expenses (or a basket of key inputs), enough to show ~6.4% annual growth since COVID vs. a ~3–4% long-run average.
-- **Derived in-app:** CAGR over the chosen sub-periods (pre-COVID baseline vs. 2020→latest).
-- **Notes:** pick and document the base year and whether it's a US or global series; note the article also references energy inflation, supply-chain disruption, and AI-datacenter resource demand as drivers (qualitative — not in this dataset unless quantified).
+## ✅ `farm-input-costs.json` — Farm input prices, 2000–2025 (2019 = 100)
+- **Source:** U.S. Bureau of Labor Statistics, **Producer Price Index** (commodity data), via **FRED** — three series:
+  - `WPU0652` — Fertilizer materials
+  - `WPU057303` — No. 2 diesel fuel
+  - `WPU0651` — Pesticides & other agricultural chemicals
+  - Download pattern: `https://fred.stlouisfed.org/graph/fredgraph.csv?id=<ID>` (monthly; `.` = missing). Release: <https://fred.stlouisfed.org/release/tables?rid=46>
+- **Build:** `node scripts/build-farm-input-costs-dataset.mjs` — fetches the three FRED CSVs (with retry), averages each to annual, re-bases each to **2019 = 100**, keeps 2000–latest-full-year, computes pre-COVID (2000–2019) and since-COVID (2019→latest) CAGR per series, writes the JSON. Re-runnable.
+- **What it shows (as built):** the 2021–22 surge — fertilizer ≈ 2.1× its 2019 level at the 2022 peak (with an earlier 2008 spike too), diesel ≈ 2.4×, pesticides/ag-chem ≈ 1.5× and held. Since-COVID CAGRs: fertilizer ≈ 8.0%/yr, diesel ≈ 5.3%/yr, ag chemicals ≈ 6.8%/yr; pre-COVID ≈ 3.9% / 4.7% / 2.6%.
+- **⚠️ Scope note — this is input *prices*, not total expenses.** The article's headline "total farm production expenses up ≈ 6.4%/yr since COVID vs ≈ 3–4% historically" is the broader **USDA ERS** farm-sector *production expenses* aggregate — smoother than input prices because it also moves with quantities and stickier items (cash rent, hired labor, depreciation, interest). Cite that figure from USDA ERS *Farm Income and Wealth Statistics* in the prose. The chart corroborates the *direction and magnitude* via the proximate driver (input prices), which is the better visual. **TODO:** if a "total production expenses" line is wanted alongside, fetch it from USDA ERS directly (not on FRED under an obvious ID) and add it as a fourth series.
+- **Other drivers the article cites** (energy inflation, supply-chain disruption, datacenter competition for power/water) are qualitative context — not separately quantified in this dataset.
 
 ## ⬜ `real-commodity-prices.json` — Real agricultural commodity prices
 - **Primary source:** World Bank "Pink Sheet" (Commodity Markets monthly prices); IMF Primary Commodity Price System; FRED mirrors.

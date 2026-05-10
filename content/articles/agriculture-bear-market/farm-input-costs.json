@@ -1,9 +1,385 @@
 {
-  "title": "Farm production expenses / input costs over time",
-  "unit": "index (base year TBD = 100)",
-  "source": "TBD — USDA ERS Farm Income & Wealth Statistics (production expenses); BLS PPI for farm inputs",
-  "retrievedAt": null,
-  "notes": "Not yet populated. Expect an annual index of total farm production expenses (or a basket of key inputs: fertilizer, fuel, seed, chemicals, machinery, interest, labor), plus the headline contrast: ~6.4% annual growth since COVID vs. a ~3–4% long-run average. CAGR sub-periods computed in-app.",
-  "series": [],
-  "cagrPeriods": []
+  "title": "Farm input prices, 2000–2025 (2019 = 100)",
+  "unit": "index, 2019 = 100",
+  "baseYear": 2019,
+  "source": "U.S. Bureau of Labor Statistics, Producer Price Index (commodity data: WPU0652 fertilizer materials, WPU057303 no. 2 diesel fuel, WPU0651 pesticides & other agricultural chemicals), via FRED. Monthly index re-based to 2019 = 100 and averaged to annual.",
+  "sourceUrl": "https://fred.stlouisfed.org/release/tables?rid=46",
+  "retrievedAt": "2026-05-10",
+  "notes": "Producer prices for the main variable farm inputs, 2019 = 100, annual averages. The 2021–22 surge: fertilizer roughly doubled, diesel more than doubled, ag chemicals stepped up ~50% and held. This chart is input *prices* — the proximate driver. The article's \"total farm production expenses up ~6.4%/yr since COVID vs ~3–4% historically\" is the broader USDA ERS expense aggregate (smoother; also moves with quantities and stickier items like cash rent, labor, depreciation) — cite that from USDA ERS in prose. TODO: add the ERS total-production-expenses series as a fourth line if wanted (would need to fetch from ERS directly).",
+  "series": [
+    {
+      "name": "Fertilizer materials",
+      "fredId": "WPU0652",
+      "points": [
+        {
+          "year": 2000,
+          "value": 48.6
+        },
+        {
+          "year": 2001,
+          "value": 52.9
+        },
+        {
+          "year": 2002,
+          "value": 47.2
+        },
+        {
+          "year": 2003,
+          "value": 57.2
+        },
+        {
+          "year": 2004,
+          "value": 64.3
+        },
+        {
+          "year": 2005,
+          "value": 71.2
+        },
+        {
+          "year": 2006,
+          "value": 74.4
+        },
+        {
+          "year": 2007,
+          "value": 93.1
+        },
+        {
+          "year": 2008,
+          "value": 169.9
+        },
+        {
+          "year": 2009,
+          "value": 97.5
+        },
+        {
+          "year": 2010,
+          "value": 106.1
+        },
+        {
+          "year": 2011,
+          "value": 143.7
+        },
+        {
+          "year": 2012,
+          "value": 141.2
+        },
+        {
+          "year": 2013,
+          "value": 131.7
+        },
+        {
+          "year": 2014,
+          "value": 124.8
+        },
+        {
+          "year": 2015,
+          "value": 120.7
+        },
+        {
+          "year": 2016,
+          "value": 97.8
+        },
+        {
+          "year": 2017,
+          "value": 93.2
+        },
+        {
+          "year": 2018,
+          "value": 104.3
+        },
+        {
+          "year": 2019,
+          "value": 100
+        },
+        {
+          "year": 2020,
+          "value": 90.9
+        },
+        {
+          "year": 2021,
+          "value": 145.9
+        },
+        {
+          "year": 2022,
+          "value": 211.3
+        },
+        {
+          "year": 2023,
+          "value": 146.4
+        },
+        {
+          "year": 2024,
+          "value": 140
+        },
+        {
+          "year": 2025,
+          "value": 158.3
+        }
+      ]
+    },
+    {
+      "name": "Diesel fuel (no. 2)",
+      "fredId": "WPU057303",
+      "points": [
+        {
+          "year": 2000,
+          "value": 42.1
+        },
+        {
+          "year": 2001,
+          "value": 37.7
+        },
+        {
+          "year": 2002,
+          "value": 35.2
+        },
+        {
+          "year": 2003,
+          "value": 45.4
+        },
+        {
+          "year": 2004,
+          "value": 57.9
+        },
+        {
+          "year": 2005,
+          "value": 85.4
+        },
+        {
+          "year": 2006,
+          "value": 98
+        },
+        {
+          "year": 2007,
+          "value": 106.4
+        },
+        {
+          "year": 2008,
+          "value": 146.8
+        },
+        {
+          "year": 2009,
+          "value": 81.6
+        },
+        {
+          "year": 2010,
+          "value": 105.2
+        },
+        {
+          "year": 2011,
+          "value": 142.9
+        },
+        {
+          "year": 2012,
+          "value": 147.3
+        },
+        {
+          "year": 2013,
+          "value": 143.5
+        },
+        {
+          "year": 2014,
+          "value": 135.4
+        },
+        {
+          "year": 2015,
+          "value": 81.9
+        },
+        {
+          "year": 2016,
+          "value": 64.8
+        },
+        {
+          "year": 2017,
+          "value": 83.9
+        },
+        {
+          "year": 2018,
+          "value": 111.7
+        },
+        {
+          "year": 2019,
+          "value": 100
+        },
+        {
+          "year": 2020,
+          "value": 79.4
+        },
+        {
+          "year": 2021,
+          "value": 142.7
+        },
+        {
+          "year": 2022,
+          "value": 236.8
+        },
+        {
+          "year": 2023,
+          "value": 177.9
+        },
+        {
+          "year": 2024,
+          "value": 150.9
+        },
+        {
+          "year": 2025,
+          "value": 136
+        }
+      ]
+    },
+    {
+      "name": "Pesticides & ag chemicals",
+      "fredId": "WPU0651",
+      "points": [
+        {
+          "year": 2000,
+          "value": 61.4
+        },
+        {
+          "year": 2001,
+          "value": 63.6
+        },
+        {
+          "year": 2002,
+          "value": 62.2
+        },
+        {
+          "year": 2003,
+          "value": 65
+        },
+        {
+          "year": 2004,
+          "value": 69.7
+        },
+        {
+          "year": 2005,
+          "value": 75.8
+        },
+        {
+          "year": 2006,
+          "value": 79.1
+        },
+        {
+          "year": 2007,
+          "value": 88
+        },
+        {
+          "year": 2008,
+          "value": 136
+        },
+        {
+          "year": 2009,
+          "value": 105.2
+        },
+        {
+          "year": 2010,
+          "value": 96.7
+        },
+        {
+          "year": 2011,
+          "value": 107.7
+        },
+        {
+          "year": 2012,
+          "value": 110.3
+        },
+        {
+          "year": 2013,
+          "value": 106.4
+        },
+        {
+          "year": 2014,
+          "value": 105.3
+        },
+        {
+          "year": 2015,
+          "value": 104.1
+        },
+        {
+          "year": 2016,
+          "value": 96.1
+        },
+        {
+          "year": 2017,
+          "value": 94.3
+        },
+        {
+          "year": 2018,
+          "value": 99.5
+        },
+        {
+          "year": 2019,
+          "value": 100
+        },
+        {
+          "year": 2020,
+          "value": 95.8
+        },
+        {
+          "year": 2021,
+          "value": 116.4
+        },
+        {
+          "year": 2022,
+          "value": 149
+        },
+        {
+          "year": 2023,
+          "value": 147.4
+        },
+        {
+          "year": 2024,
+          "value": 144.7
+        },
+        {
+          "year": 2025,
+          "value": 148.5
+        }
+      ]
+    }
+  ],
+  "cagrPeriods": [
+    {
+      "series": "Fertilizer materials",
+      "label": "2000–2019 (pre-COVID)",
+      "fromYear": 2000,
+      "toYear": 2019,
+      "cagr": 0.0387
+    },
+    {
+      "series": "Fertilizer materials",
+      "label": "2019–2025 (since COVID)",
+      "fromYear": 2019,
+      "toYear": 2025,
+      "cagr": 0.0796
+    },
+    {
+      "series": "Diesel fuel (no. 2)",
+      "label": "2000–2019 (pre-COVID)",
+      "fromYear": 2000,
+      "toYear": 2019,
+      "cagr": 0.0466
+    },
+    {
+      "series": "Diesel fuel (no. 2)",
+      "label": "2019–2025 (since COVID)",
+      "fromYear": 2019,
+      "toYear": 2025,
+      "cagr": 0.0526
+    },
+    {
+      "series": "Pesticides & ag chemicals",
+      "label": "2000–2019 (pre-COVID)",
+      "fromYear": 2000,
+      "toYear": 2019,
+      "cagr": 0.026
+    },
+    {
+      "series": "Pesticides & ag chemicals",
+      "label": "2019–2025 (since COVID)",
+      "fromYear": 2019,
+      "toYear": 2025,
+      "cagr": 0.0681
+    }
+  ]
 }

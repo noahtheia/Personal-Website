@@ -72,10 +72,18 @@ export type SeedChemConcentrationData = Provenance & {
 
 // --- farm input costs -----------------------------------------------------
 
-export type CagrPeriod = { label: string; fromYear: number; toYear: number; cagr: number };
+export type InputCostSeries = { name: string; fredId?: string; points: YearValue[] };
+export type CagrPeriod = {
+  series: string;
+  label: string;
+  fromYear: number;
+  toYear: number;
+  cagr: number;
+};
 export type FarmInputCostsData = Provenance & {
   unit: string;
-  series: YearValue[];
+  baseYear: number | null;
+  series: InputCostSeries[];
   cagrPeriods: CagrPeriod[];
 };
 
