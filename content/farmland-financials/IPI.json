@@ -243,7 +243,7 @@
       "cashMM": 36.5,
       "netDebtMM": -36.5,
       "sharesOutMM": 13.15,
-      "epsBasic": 19.07,
+      "epsBasic": 18.9962,
       "epsDiluted": 18.66,
       "notes": "FY21: revenue $270.3M (+37% YoY) on potash price recovery. Op income $32.3M + D&A $36.0M = EBITDA $68.2M. Net income $249.8M / EPS $19.07 inflated by $208.9M deferred-tax valuation-allowance release. Debt-free year-end (paid off $10M); cash $36.5M (net cash position).",
       "totalEquityMM": 510,
@@ -274,7 +274,7 @@
       "cashMM": 18.5,
       "netDebtMM": -18.5,
       "sharesOutMM": 12.69,
-      "epsBasic": 5.49,
+      "epsBasic": 5.6895,
       "epsDiluted": 5.37,
       "notes": "FY22: peak revenue $337.6M (+25%) on Russia/Ukraine potash-price spike (KCl spot >$1,000/t). Op income $95.4M + D&A $35.0M = EBITDA $130.5M. Net income $72.2M, EPS $5.49. Debt-free; ~$73M share buybacks reduced share count.",
       "totalEquityMM": 470,
@@ -309,7 +309,7 @@
       "cashMM": 4.1,
       "netDebtMM": -4.1,
       "sharesOutMM": 12.81,
-      "epsBasic": -2.8,
+      "epsBasic": -2.7869,
       "epsDiluted": -2.8,
       "notes": "FY23: revenue \u221217% to $279.1M as potash prices collapsed. Op loss \u2212$44.0M, D&A $39.4M, EBITDA \u2212$4.6M. Net loss \u2212$35.7M, EPS \u2212$2.80. Cash drawdown to $4.1M (heavy capex on HB Solar Solution Mine restoration).",
       "totalEquityMM": 427,
@@ -344,7 +344,7 @@
       "cashMM": 35.4,
       "netDebtMM": -41.3,
       "sharesOutMM": 12.91,
-      "epsBasic": -16.53,
+      "epsBasic": -16.4833,
       "epsDiluted": -16.53,
       "notes": "FY24: revenue $254.7M (\u22129%). Op loss \u2212$19.9M, D&A $37.7M = EBITDA $17.8M (positive vs FY23). Net loss \u2212$212.8M / EPS \u2212$16.53 driven by ~$172M non-cash potash long-lived-asset impairment + ~$40M deferred-tax valuation allowance reinstatement. Cash recovery to $41.3M (Trio + oilfield free cash).",
       "revenueBySegmentMM": {
@@ -390,7 +390,8 @@
       "revenueBySegmentMM": {
         "Potash": 43.6,
         "Trio": 49.8
-      }
+      },
+      "epsBasic": 0.3549
     },
     {
       "endDate": "2025-12-31",
@@ -403,7 +404,7 @@
       "cashMM": 83.5,
       "netDebtMM": -83.5,
       "sharesOutMM": 13.13,
-      "epsBasic": 0.86,
+      "epsBasic": 0.853,
       "epsDiluted": 0.85,
       "dividendPerShare": 0.0,
       "notes": "FY25: revenue $298.3M (+17% YoY). Op income $10.7M + D&A $40.6M = EBITDA $51.2M. Net income $11.2M, EPS $0.86 \u2014 return to profitability after FY23-24 trough. Debt-free with $83.5M cash (net cash $83.5M). Trio premium pricing + oilfield-water sales to Permian operators a tailwind.",
@@ -441,7 +442,8 @@
       "revenueBySegmentMM": {
         "Potash": 46.1,
         "Trio": 52.5
-      }
+      },
+      "epsBasic": 0.561
     }
   ]
 }

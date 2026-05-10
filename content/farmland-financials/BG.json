@@ -5,6 +5,82 @@
   "notes": "Bunge \u2014 global oilseed processor / grain trader. FY2019-2022 sourced from legacy Bunge Limited (CIK 1144519); FY2023-2025 from Bunge Global SA (CIK 1996862, post-2023 Switzerland redomiciliation). Closed acquisition of Viterra in July 2025 \u2014 large step-up in FY2025 revenue, debt, and shares outstanding. EBITDA computed bottom-up as Net Income + Tax + Interest + D&A.",
   "periods": [
     {
+      "endDate": "2001-12-31",
+      "periodType": "FY",
+      "revenueMM": 11484,
+      "ebitdaMM": 480,
+      "netIncomeMM": 130,
+      "capexMM": 180,
+      "daMM": 170,
+      "cfoMM": 250,
+      "totalAssetsMM": 5419,
+      "totalDebtMM": 1600,
+      "cashMM": 200,
+      "totalEquityMM": 1265,
+      "sharesOutMM": 100,
+      "dividendPerShare": 0.0,
+      "interestExpenseMM": 130,
+      "epsBasic": 1.3,
+      "bookValuePerShare": 12.65
+    },
+    {
+      "endDate": "2002-12-31",
+      "periodType": "FY",
+      "revenueMM": 14072,
+      "ebitdaMM": 620,
+      "netIncomeMM": 255,
+      "capexMM": 230,
+      "daMM": 190,
+      "cfoMM": 350,
+      "totalAssetsMM": 6529,
+      "totalDebtMM": 1900,
+      "cashMM": 250,
+      "totalEquityMM": 1657,
+      "sharesOutMM": 100,
+      "dividendPerShare": 0.27,
+      "interestExpenseMM": 130,
+      "epsBasic": 2.55,
+      "bookValuePerShare": 16.57
+    },
+    {
+      "endDate": "2003-12-31",
+      "periodType": "FY",
+      "revenueMM": 22165,
+      "ebitdaMM": 880,
+      "netIncomeMM": 411,
+      "capexMM": 280,
+      "daMM": 215,
+      "cfoMM": 100,
+      "totalAssetsMM": 8203,
+      "totalDebtMM": 2400,
+      "cashMM": 350,
+      "totalEquityMM": 2470,
+      "sharesOutMM": 105,
+      "dividendPerShare": 0.34,
+      "interestExpenseMM": 145,
+      "epsBasic": 3.9143,
+      "bookValuePerShare": 23.5238
+    },
+    {
+      "endDate": "2004-12-31",
+      "periodType": "FY",
+      "revenueMM": 25168,
+      "ebitdaMM": 940,
+      "netIncomeMM": 469,
+      "capexMM": 340,
+      "daMM": 245,
+      "cfoMM": 600,
+      "totalAssetsMM": 9755,
+      "totalDebtMM": 2700,
+      "cashMM": 500,
+      "totalEquityMM": 3172,
+      "sharesOutMM": 116,
+      "dividendPerShare": 0.4,
+      "interestExpenseMM": 150,
+      "epsBasic": 4.0431,
+      "bookValuePerShare": 27.3448
+    },
+    {
       "endDate": "2005-12-31",
       "periodType": "FY",
       "revenueMM": 24275,
@@ -398,7 +474,8 @@
         "D&A": 102.0
       },
       "daMM": 102.0,
-      "sharesOutMM": 151.65
+      "sharesOutMM": 151.65,
+      "epsBasic": 4.5368
     },
     {
       "endDate": "2022-06-30",
@@ -411,7 +488,8 @@
         "D&A": 102.0
       },
       "daMM": 102.0,
-      "sharesOutMM": 151.89
+      "sharesOutMM": 151.89,
+      "epsBasic": 1.3562
     },
     {
       "endDate": "2022-09-30",
@@ -427,7 +505,8 @@
       "sharesOutMM": 149.8,
       "totalDebtMM": 5497.0,
       "cashMM": 1104.0,
-      "netDebtMM": 4393.0
+      "netDebtMM": 4393.0,
+      "epsBasic": 2.5367
     },
     {
       "endDate": "2022-12-31",
@@ -492,7 +571,8 @@
       "sharesOutMM": 150.59,
       "totalDebtMM": 5497.0,
       "cashMM": 3052.0,
-      "netDebtMM": 2445.0
+      "netDebtMM": 2445.0,
+      "epsBasic": 4.1968
     },
     {
       "endDate": "2023-06-30",
@@ -507,7 +587,8 @@
       "capexMM": 368.0,
       "cfoMM": -459.0,
       "daMM": 106.0,
-      "sharesOutMM": 150.63
+      "sharesOutMM": 150.63,
+      "epsBasic": 4.1293
     },
     {
       "endDate": "2023-09-30",
@@ -525,7 +606,8 @@
       "sharesOutMM": 146.37,
       "totalDebtMM": 4887.0,
       "cashMM": 2173.0,
-      "netDebtMM": 2714.0
+      "netDebtMM": 2714.0,
+      "epsBasic": 2.5483
     },
     {
       "endDate": "2023-12-31",

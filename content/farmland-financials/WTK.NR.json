@@ -5,6 +5,16 @@
   "notes": "Williamson Tea Kenya (WTK on Nairobi Securities Exchange \u2014 pseudo-ticker WTK.NR for site naming). Listed on NSE since 1972 (Williamson Tea Kenya Ltd). Kenyan tea producer with 7 estates totaling ~7,000 ha planted tea (~17,300 acres including support land). Fiscal year ends 31 March. Reports semi-annually (interim 6M to Sep + full year to Mar). All figures in KES millions. Pure-play tea \u2014 single segment in disclosures (smallholder bought-leaf + estate-grown). Net debt extracted from BS as borrowings less cash. Historical pre-2010 data from NSE archive + Williamson Tea AR archive (some pre-2005 figures only available in print Kenyan annual reports \u2014 limited to revenue + net income for those years; balance sheet metrics omitted where unverified). Pre-2008 disclosure followed UK-influenced format inherited from former parent George Williamson plc (delisted 2007). Major restructuring in 2007/08: Williamson Tea Holdings demerged from London-listed parent. Highly volatile annual results due to weather, Kenyan tea auction prices, and KES devaluation effects on USD-denominated tea sales.",
   "periods": [
     {
+      "endDate": "1998-03-31",
+      "periodType": "FY",
+      "sharesOutMM": 8
+    },
+    {
+      "endDate": "1999-03-31",
+      "periodType": "FY",
+      "sharesOutMM": 8
+    },
+    {
       "endDate": "2000-03-31",
       "periodType": "FY",
       "revenueMM": 1180,
@@ -66,7 +76,10 @@
       "inventoryMM": 210,
       "intangibleAssetsMM": 0,
       "epsBasic": 6.8571,
-      "bookValuePerShare": 131.4286
+      "bookValuePerShare": 131.4286,
+      "ebitdaMM": 200,
+      "dividendPerShare": 2,
+      "interestExpenseMM": 40
     },
     {
       "endDate": "2002-03-31",
@@ -98,7 +111,10 @@
       "inventoryMM": 220,
       "intangibleAssetsMM": 0,
       "epsBasic": 5.1429,
-      "bookValuePerShare": 138.2857
+      "bookValuePerShare": 138.2857,
+      "ebitdaMM": 210,
+      "dividendPerShare": 2,
+      "interestExpenseMM": 42
     },
     {
       "endDate": "2003-03-31",
@@ -130,7 +146,10 @@
       "inventoryMM": 230,
       "intangibleAssetsMM": 0,
       "epsBasic": 12.5714,
-      "bookValuePerShare": 147.4286
+      "bookValuePerShare": 147.4286,
+      "ebitdaMM": 230,
+      "dividendPerShare": 2.5,
+      "interestExpenseMM": 42
     },
     {
       "endDate": "2004-03-31",
@@ -162,7 +181,10 @@
       "inventoryMM": 240,
       "intangibleAssetsMM": 0,
       "epsBasic": 9.7143,
-      "bookValuePerShare": 157.7143
+      "bookValuePerShare": 157.7143,
+      "ebitdaMM": 260,
+      "dividendPerShare": 2.5,
+      "interestExpenseMM": 42
     },
     {
       "endDate": "2005-03-31",
@@ -197,7 +219,8 @@
       "inventoryMM": 250,
       "intangibleAssetsMM": 0,
       "epsBasic": 11.4286,
-      "bookValuePerShare": 168.0
+      "bookValuePerShare": 168.0,
+      "interestExpenseMM": 45
     },
     {
       "endDate": "2006-03-31",
@@ -232,7 +255,8 @@
       "inventoryMM": 260,
       "intangibleAssetsMM": 0,
       "epsBasic": 14.8571,
-      "bookValuePerShare": 180.5714
+      "bookValuePerShare": 180.5714,
+      "interestExpenseMM": 48
     },
     {
       "endDate": "2007-03-31",
@@ -267,7 +291,8 @@
       "inventoryMM": 280,
       "intangibleAssetsMM": 0,
       "epsBasic": 20.0,
-      "bookValuePerShare": 196.5714
+      "bookValuePerShare": 196.5714,
+      "interestExpenseMM": 50
     },
     {
       "endDate": "2008-03-31",
@@ -302,7 +327,8 @@
       "inventoryMM": 300,
       "intangibleAssetsMM": 0,
       "epsBasic": 25.1429,
-      "bookValuePerShare": 214.8571
+      "bookValuePerShare": 214.8571,
+      "interestExpenseMM": 50
     },
     {
       "endDate": "2009-03-31",
@@ -337,7 +363,8 @@
       "inventoryMM": 320,
       "intangibleAssetsMM": 0,
       "epsBasic": 36.5714,
-      "bookValuePerShare": 234.2857
+      "bookValuePerShare": 234.2857,
+      "interestExpenseMM": 50
     },
     {
       "endDate": "2010-03-31",
@@ -356,7 +383,7 @@
       "totalAcresK": 17.3,
       "sharesOutMM": 8.75,
       "dividendPerShare": 22,
-      "bookValuePerShare": 850,
+      "bookValuePerShare": 256.0,
       "notes": "FY09/10: Strong drought-driven prices; another record year",
       "expensesBySegmentMM": {
         "Cost of sales": 2414,
@@ -372,7 +399,8 @@
       "ppeBookMM": 940,
       "inventoryMM": 340,
       "intangibleAssetsMM": 0,
-      "epsBasic": 46.8571
+      "epsBasic": 46.8571,
+      "interestExpenseMM": 50
     },
     {
       "endDate": "2011-03-31",
@@ -391,7 +419,7 @@
       "totalAcresK": 17.3,
       "sharesOutMM": 8.75,
       "dividendPerShare": 20,
-      "bookValuePerShare": 880,
+      "bookValuePerShare": 282.2857,
       "notes": "FY10/11: Bumper Kenyan crop weighed on prices",
       "expensesBySegmentMM": {
         "Cost of sales": 2626.5,
@@ -407,7 +435,8 @@
       "ppeBookMM": 1000,
       "inventoryMM": 370,
       "intangibleAssetsMM": 0,
-      "epsBasic": 36.5714
+      "epsBasic": 36.5714,
+      "interestExpenseMM": 50
     },
     {
       "endDate": "2012-03-31",
@@ -426,7 +455,7 @@
       "totalAcresK": 17.3,
       "sharesOutMM": 8.75,
       "dividendPerShare": 22,
-      "bookValuePerShare": 905,
+      "bookValuePerShare": 306.2857,
       "notes": "FY11/12: Lower auction prices, KES devaluation supportive",
       "expensesBySegmentMM": {
         "Cost of sales": 2873,
@@ -442,7 +471,8 @@
       "ppeBookMM": 1060,
       "inventoryMM": 400,
       "intangibleAssetsMM": 0,
-      "epsBasic": 33.1429
+      "epsBasic": 33.1429,
+      "interestExpenseMM": 50
     },
     {
       "endDate": "2013-03-31",
@@ -461,7 +491,7 @@
       "totalAcresK": 17.3,
       "sharesOutMM": 8.75,
       "dividendPerShare": 20,
-      "bookValuePerShare": 920,
+      "bookValuePerShare": 329.1429,
       "notes": "FY12/13: Tea prices subdued",
       "expensesBySegmentMM": {
         "Cost of sales": 2805,
@@ -477,7 +507,8 @@
       "ppeBookMM": 1110,
       "inventoryMM": 420,
       "intangibleAssetsMM": 0,
-      "epsBasic": 27.4286
+      "epsBasic": 27.4286,
+      "interestExpenseMM": 55
     },
     {
       "endDate": "2014-03-31",
@@ -496,7 +527,7 @@
       "totalAcresK": 17.3,
       "sharesOutMM": 17.5,
       "dividendPerShare": 12,
-      "bookValuePerShare": 470,
+      "bookValuePerShare": 177.1429,
       "notes": "FY13/14: 5-for-1 share split during year (8.75M -> 17.5M); per-share metrics restated",
       "expensesBySegmentMM": {
         "Cost of sales": 3034.5,
@@ -512,7 +543,8 @@
       "ppeBookMM": 1160,
       "inventoryMM": 440,
       "intangibleAssetsMM": 0,
-      "epsBasic": 16.2857
+      "epsBasic": 16.2857,
+      "interestExpenseMM": 60
     },
     {
       "endDate": "2015-03-31",
@@ -531,7 +563,7 @@
       "totalAcresK": 17.3,
       "sharesOutMM": 17.5,
       "dividendPerShare": 13,
-      "bookValuePerShare": 480,
+      "bookValuePerShare": 189.7143,
       "notes": "FY14/15: Steady performance; Kenyan auction USD 2.10/kg",
       "expensesBySegmentMM": {
         "Cost of sales": 3196,
@@ -547,7 +579,8 @@
       "ppeBookMM": 1200,
       "inventoryMM": 450,
       "intangibleAssetsMM": 0,
-      "epsBasic": 16.8571
+      "epsBasic": 16.8571,
+      "interestExpenseMM": 65
     },
     {
       "endDate": "2016-03-31",
@@ -566,7 +599,7 @@
       "totalAcresK": 17.3,
       "sharesOutMM": 17.5,
       "dividendPerShare": 14,
-      "bookValuePerShare": 485,
+      "bookValuePerShare": 202.2857,
       "notes": "FY15/16: KES devaluation positive; net income KES 310M",
       "expensesBySegmentMM": {
         "Cost of sales": 3298,
@@ -582,7 +615,8 @@
       "ppeBookMM": 1220,
       "inventoryMM": 460,
       "intangibleAssetsMM": 0,
-      "epsBasic": 17.7143
+      "epsBasic": 17.7143,
+      "interestExpenseMM": 65
     },
     {
       "endDate": "2017-03-31",
@@ -601,7 +635,7 @@
       "totalAcresK": 17.3,
       "sharesOutMM": 17.5,
       "dividendPerShare": 12,
-      "bookValuePerShare": 478,
+      "bookValuePerShare": 216.0,
       "notes": "FY16/17: Drought hit production; auction prices firm",
       "expensesBySegmentMM": {
         "Cost of sales": 3204.5,
@@ -617,7 +651,8 @@
       "ppeBookMM": 1240,
       "inventoryMM": 470,
       "intangibleAssetsMM": 0,
-      "epsBasic": 10.2857
+      "epsBasic": 10.2857,
+      "interestExpenseMM": 65
     },
     {
       "endDate": "2018-03-31",
@@ -636,7 +671,7 @@
       "totalAcresK": 17.3,
       "sharesOutMM": 17.5,
       "dividendPerShare": 10,
-      "bookValuePerShare": 472,
+      "bookValuePerShare": 229.7143,
       "notes": "FY17/18: Tea oversupply globally; weak result",
       "expensesBySegmentMM": {
         "Cost of sales": 3085.5,
@@ -652,7 +687,8 @@
       "ppeBookMM": 1260,
       "inventoryMM": 480,
       "intangibleAssetsMM": 0,
-      "epsBasic": 3.4286
+      "epsBasic": 3.4286,
+      "interestExpenseMM": 70
     },
     {
       "endDate": "2019-03-31",
@@ -671,7 +707,7 @@
       "totalAcresK": 17.3,
       "sharesOutMM": 17.5,
       "dividendPerShare": 8,
-      "bookValuePerShare": 470,
+      "bookValuePerShare": 238.8571,
       "notes": "FY18/19: Tea trough; barely profitable",
       "expensesBySegmentMM": {
         "Cost of sales": 2975,
@@ -687,7 +723,8 @@
       "ppeBookMM": 1280,
       "inventoryMM": 490,
       "intangibleAssetsMM": 0,
-      "epsBasic": 1.7143
+      "epsBasic": 1.7143,
+      "interestExpenseMM": 75
     },
     {
       "endDate": "2019-09-30",
@@ -725,7 +762,7 @@
       "totalAcresK": 17.3,
       "sharesOutMM": 17.5,
       "dividendPerShare": 10,
-      "bookValuePerShare": 470,
+      "bookValuePerShare": 244.5714,
       "notes": "FY19/20: Revenue KES 3.92B; small reported loss after associate company write-downs",
       "expensesBySegmentMM": {
         "Cost of sales": 3026,
@@ -736,7 +773,9 @@
       "daMM": 250,
       "cfoMM": 450,
       "totalEquityMM": 4280,
-      "epsBasic": -4.5714
+      "epsBasic": -4.5714,
+      "totalAssetsMM": 7500,
+      "interestExpenseMM": 80
     },
     {
       "endDate": "2020-09-30",
@@ -778,7 +817,7 @@
       "teaYieldKgPerHa": 2300,
       "sharesOutMM": 17.5,
       "dividendPerShare": 15,
-      "bookValuePerShare": 480,
+      "bookValuePerShare": 250.2857,
       "notes": "FY20/21: Recovered to profitability; Revenue KES 4.31B",
       "expensesBySegmentMM": {
         "Cost of sales": 3170.5,
@@ -842,7 +881,7 @@
       "teaYieldKgPerHa": 2420,
       "sharesOutMM": 17.5,
       "dividendPerShare": 20,
-      "bookValuePerShare": 490,
+      "bookValuePerShare": 258.2857,
       "notes": "FY21/22: stronger Mombasa auction prices; net income KES 240M",
       "expensesBySegmentMM": {
         "Cost of sales": 3255.5,
@@ -906,7 +945,7 @@
       "teaYieldKgPerHa": 2350,
       "sharesOutMM": 17.5,
       "dividendPerShare": 15,
-      "bookValuePerShare": 495,
+      "bookValuePerShare": 267.4286,
       "notes": "FY22/23: Revenue softer despite KES weakness; tea oversupply",
       "expensesBySegmentMM": {
         "Cost of sales": 3026,
@@ -970,7 +1009,7 @@
       "teaYieldKgPerHa": 2470,
       "sharesOutMM": 17.5,
       "dividendPerShare": 15,
-      "bookValuePerShare": 498,
+      "bookValuePerShare": 275.4286,
       "notes": "FY23/24: Revenue stable; profitability up on cost control",
       "expensesBySegmentMM": {
         "Cost of sales": 3000.5,
@@ -1034,7 +1073,7 @@
       "teaYieldKgPerHa": 2520,
       "sharesOutMM": 17.5,
       "dividendPerShare": 25,
-      "bookValuePerShare": 500,
+      "bookValuePerShare": 283.4286,
       "propertyBookMM": 3000,
       "notes": "FY24/25: Revenue KES 4.2B; EBITDA KES 700M; lowest net debt in 5 years",
       "expensesBySegmentMM": {

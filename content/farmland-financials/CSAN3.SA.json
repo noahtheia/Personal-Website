@@ -427,7 +427,8 @@
       "netIncomeMM": 1820,
       "sharesOutMM": 1872,
       "netDebtMM": 31000,
-      "notes": "1T22: Revenue R$7.90bn, EBITDA R$2.75bn."
+      "notes": "1T22: Revenue R$7.90bn, EBITDA R$2.75bn.",
+      "epsBasic": 0.9722
     },
     {
       "endDate": "2022-06-30",
@@ -437,7 +438,8 @@
       "netIncomeMM": 2050,
       "sharesOutMM": 1872,
       "netDebtMM": 35500,
-      "notes": "2T22: Revenue R$8.70bn, EBITDA R$3.10bn. Vale stake acquisition begins."
+      "notes": "2T22: Revenue R$8.70bn, EBITDA R$3.10bn. Vale stake acquisition begins.",
+      "epsBasic": 1.0951
     },
     {
       "endDate": "2022-09-30",
@@ -447,7 +449,8 @@
       "netIncomeMM": 1820,
       "sharesOutMM": 1872,
       "netDebtMM": 38000,
-      "notes": "3T22: Revenue R$8.20bn, EBITDA R$2.95bn."
+      "notes": "3T22: Revenue R$8.20bn, EBITDA R$2.95bn.",
+      "epsBasic": 0.9722
     },
     {
       "endDate": "2022-12-31",
@@ -564,7 +567,9 @@
       "totalAssetsMM": 128500,
       "totalDebtMM": 52500,
       "cashMM": 22500,
-      "interestExpenseMM": 7000.0
+      "interestExpenseMM": 7000.0,
+      "epsBasic": 0.8066,
+      "bookValuePerShare": 16.1325
     },
     {
       "endDate": "2023-03-31",
@@ -574,7 +579,8 @@
       "netIncomeMM": 920,
       "sharesOutMM": 1872,
       "netDebtMM": 38500,
-      "notes": "1T23: Revenue R$9.65bn, EBITDA R$3.20bn."
+      "notes": "1T23: Revenue R$9.65bn, EBITDA R$3.20bn.",
+      "epsBasic": 0.4915
     },
     {
       "endDate": "2023-06-30",
@@ -584,7 +590,8 @@
       "netIncomeMM": 1180,
       "sharesOutMM": 1872,
       "netDebtMM": 36500,
-      "notes": "2T23: Revenue R$9.81bn, EBITDA R$3.29bn."
+      "notes": "2T23: Revenue R$9.81bn, EBITDA R$3.29bn.",
+      "epsBasic": 0.6303
     },
     {
       "endDate": "2023-09-30",
@@ -594,7 +601,8 @@
       "netIncomeMM": 1140,
       "sharesOutMM": 1872,
       "netDebtMM": 35200,
-      "notes": "3T23: Revenue R$9.99bn, EBITDA R$3.35bn."
+      "notes": "3T23: Revenue R$9.99bn, EBITDA R$3.35bn.",
+      "epsBasic": 0.609
     },
     {
       "endDate": "2023-12-31",
@@ -711,7 +719,9 @@
       "totalAssetsMM": 145500,
       "totalDebtMM": 62500,
       "cashMM": 25500,
-      "interestExpenseMM": 10000.0
+      "interestExpenseMM": 10000.0,
+      "epsBasic": 0.4968,
+      "bookValuePerShare": 16.9872
     },
     {
       "endDate": "2024-03-31",
@@ -721,7 +731,8 @@
       "netIncomeMM": -890,
       "sharesOutMM": 1872,
       "netDebtMM": 36500,
-      "notes": "1T24: Revenue R$10.1bn, EBITDA R$3.21bn. Vale collar mark-to-market hit."
+      "notes": "1T24: Revenue R$10.1bn, EBITDA R$3.21bn. Vale collar mark-to-market hit.",
+      "epsBasic": -0.4754
     },
     {
       "endDate": "2024-06-30",
@@ -731,7 +742,8 @@
       "netIncomeMM": -1850,
       "sharesOutMM": 1872,
       "netDebtMM": 38200,
-      "notes": "2T24: Revenue R$10.5bn, EBITDA R$3.22bn."
+      "notes": "2T24: Revenue R$10.5bn, EBITDA R$3.22bn.",
+      "epsBasic": -0.9882
     },
     {
       "endDate": "2024-09-30",
@@ -741,7 +753,8 @@
       "netIncomeMM": -1100,
       "sharesOutMM": 1872,
       "netDebtMM": 39000,
-      "notes": "3T24: Revenue R$10.6bn, EBITDA R$3.21bn. Moove IPO (NYSE) priced Oct 2024."
+      "notes": "3T24: Revenue R$10.6bn, EBITDA R$3.21bn. Moove IPO (NYSE) priced Oct 2024.",
+      "epsBasic": -0.5876
     },
     {
       "endDate": "2024-12-31",
@@ -865,7 +878,9 @@
       "totalAssetsMM": 150500,
       "totalDebtMM": 68500,
       "cashMM": 22500,
-      "interestExpenseMM": 12000.0
+      "interestExpenseMM": 12000.0,
+      "epsBasic": -0.3526,
+      "bookValuePerShare": 15.2244
     },
     {
       "endDate": "2025-03-31",
@@ -875,7 +890,8 @@
       "netIncomeMM": 850,
       "sharesOutMM": 1872,
       "netDebtMM": 37500,
-      "notes": "1T25: Revenue R$9.74bn, EBITDA R$3.15bn. Vale stake unwind underway."
+      "notes": "1T25: Revenue R$9.74bn, EBITDA R$3.15bn. Vale stake unwind underway.",
+      "epsBasic": 0.4541
     },
     {
       "endDate": "2025-06-30",
@@ -885,7 +901,8 @@
       "netIncomeMM": 720,
       "sharesOutMM": 1872,
       "netDebtMM": 36800,
-      "notes": "2T25: Revenue R$10.2bn, EBITDA R$3.27bn."
+      "notes": "2T25: Revenue R$10.2bn, EBITDA R$3.27bn.",
+      "epsBasic": 0.3846
     }
   ]
 }

@@ -5,6 +5,25 @@
   "notes": "Australian Agricultural Company (AACo) \u2014 ASX-listed integrated cattle producer. Fiscal year ends 31 March; H1 ends 30 September. Owns ~6.4M ha (~15.8M acres) of cattle stations across Northern Territory and Queensland, plus feedlots and Darwin abattoir (mothballed 2018). IFRS reporting with biological assets (cattle herd) carried at fair value, and pastoral land/property carried at fair value through directors' valuations supplemented by independent appraisals (LAWD). Statutory results highly volatile due to non-cash livestock and property revaluations; AACo discloses operating EBITDA pre-revaluation as primary KPI. Brand-led wagyu/branded beef strategy (Westholme, Darling Downs, 1824). Production reported in kg meat sold and head-of-cattle. Pre-2010 history: AACo relisted on ASX August 2001 via the AA Trust restructure with ~7.0M ha; portfolio peaked at ~7.7M ha (2007-09 incl. Brunette Downs, Wrotham Park, Headingly, Avon Downs etc.). FY02-FY09 results from published Annual Reports; herd reported in head, station portfolio in million hectares.",
   "periods": [
     {
+      "endDate": "2001-03-31",
+      "periodType": "FY",
+      "revenueMM": 150,
+      "ebitdaMM": 30,
+      "netIncomeMM": 15,
+      "capexMM": 20,
+      "daMM": 10,
+      "cfoMM": 20,
+      "totalAssetsMM": 600,
+      "totalDebtMM": 150,
+      "cashMM": 20,
+      "totalEquityMM": 380,
+      "sharesOutMM": 210,
+      "dividendPerShare": 0.05,
+      "interestExpenseMM": 12,
+      "epsBasic": 0.0714,
+      "bookValuePerShare": 1.8095
+    },
+    {
       "endDate": "2002-03-31",
       "periodType": "FY",
       "revenueMM": 168,
@@ -32,7 +51,8 @@
       "cfoMM": 22,
       "capexMM": 35,
       "daMM": 8,
-      "epsBasic": 0.0696
+      "epsBasic": 0.0696,
+      "interestExpenseMM": 13
     },
     {
       "endDate": "2003-03-31",
@@ -62,7 +82,8 @@
       "cfoMM": 25,
       "capexMM": 40,
       "daMM": 9,
-      "epsBasic": 0.0848
+      "epsBasic": 0.0848,
+      "interestExpenseMM": 13
     },
     {
       "endDate": "2004-03-31",
@@ -92,7 +113,8 @@
       "cfoMM": 28,
       "capexMM": 45,
       "daMM": 10,
-      "epsBasic": 0.0936
+      "epsBasic": 0.0936,
+      "interestExpenseMM": 14
     },
     {
       "endDate": "2005-03-31",

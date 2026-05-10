@@ -341,7 +341,8 @@
       "netIncomeMM": 110,
       "sharesOutMM": 590,
       "netDebtMM": 4400,
-      "notes": "1T22: Revenue R$7.18bn, EBITDA R$700M (margin 9.7%)."
+      "notes": "1T22: Revenue R$7.18bn, EBITDA R$700M (margin 9.7%).",
+      "epsBasic": 0.1864
     },
     {
       "endDate": "2022-06-30",
@@ -351,7 +352,8 @@
       "netIncomeMM": 145,
       "sharesOutMM": 590,
       "netDebtMM": 4500,
-      "notes": "2T22: Revenue R$7.46bn, EBITDA R$743M (margin 10.0%)."
+      "notes": "2T22: Revenue R$7.46bn, EBITDA R$743M (margin 10.0%).",
+      "epsBasic": 0.2458
     },
     {
       "endDate": "2022-09-30",
@@ -361,7 +363,8 @@
       "netIncomeMM": 270,
       "sharesOutMM": 590,
       "netDebtMM": 4400,
-      "notes": "3T22: Revenue R$7.72bn, EBITDA R$750M (margin 9.7%)."
+      "notes": "3T22: Revenue R$7.72bn, EBITDA R$750M (margin 9.7%).",
+      "epsBasic": 0.4576
     },
     {
       "endDate": "2022-12-31",
@@ -426,7 +429,9 @@
       "totalAssetsMM": 19500,
       "totalDebtMM": 10500,
       "cashMM": 4200,
-      "interestExpenseMM": 1800.0
+      "interestExpenseMM": 1800.0,
+      "epsBasic": 0.2966,
+      "bookValuePerShare": 3.661
     },
     {
       "endDate": "2023-03-31",
@@ -436,7 +441,8 @@
       "netIncomeMM": -195,
       "sharesOutMM": 590,
       "netDebtMM": 5100,
-      "notes": "1T23: Revenue R$7.06bn, EBITDA R$528M (margin 7.5%) \u2014 Brazil cattle squeeze."
+      "notes": "1T23: Revenue R$7.06bn, EBITDA R$528M (margin 7.5%) \u2014 Brazil cattle squeeze.",
+      "epsBasic": -0.3305
     },
     {
       "endDate": "2023-06-30",
@@ -446,7 +452,8 @@
       "netIncomeMM": -23,
       "sharesOutMM": 590,
       "netDebtMM": 5500,
-      "notes": "2T23: Revenue R$7.28bn, EBITDA R$614M (margin 8.4%)."
+      "notes": "2T23: Revenue R$7.28bn, EBITDA R$614M (margin 8.4%).",
+      "epsBasic": -0.039
     },
     {
       "endDate": "2023-09-30",
@@ -456,7 +463,8 @@
       "netIncomeMM": 161,
       "sharesOutMM": 590,
       "netDebtMM": 5800,
-      "notes": "3T23: Revenue R$7.53bn, EBITDA R$678M (margin 9.0%)."
+      "notes": "3T23: Revenue R$7.53bn, EBITDA R$678M (margin 9.0%).",
+      "epsBasic": 0.2729
     },
     {
       "endDate": "2023-12-31",
@@ -521,7 +529,9 @@
       "totalAssetsMM": 28500,
       "totalDebtMM": 16500,
       "cashMM": 6500,
-      "interestExpenseMM": 2200.0
+      "interestExpenseMM": 2200.0,
+      "epsBasic": 0.2475,
+      "bookValuePerShare": 3.9831
     },
     {
       "endDate": "2024-03-31",
@@ -531,7 +541,8 @@
       "netIncomeMM": 12,
       "sharesOutMM": 590,
       "netDebtMM": 6500,
-      "notes": "1T24: Revenue R$7.28bn, EBITDA R$619M (margin 8.5%)."
+      "notes": "1T24: Revenue R$7.28bn, EBITDA R$619M (margin 8.5%).",
+      "epsBasic": 0.0203
     },
     {
       "endDate": "2024-06-30",
@@ -541,7 +552,8 @@
       "netIncomeMM": -32,
       "sharesOutMM": 590,
       "netDebtMM": 7900,
-      "notes": "2T24: Revenue R$7.90bn, EBITDA R$727M (margin 9.2%)."
+      "notes": "2T24: Revenue R$7.90bn, EBITDA R$727M (margin 9.2%).",
+      "epsBasic": -0.0542
     },
     {
       "endDate": "2024-09-30",
@@ -551,7 +563,8 @@
       "netIncomeMM": -301,
       "sharesOutMM": 587,
       "netDebtMM": 9300,
-      "notes": "3T24: Revenue R$9.49bn (Marfrig assets begin consolidating Aug 28). EBITDA R$552M \u2014 integration costs."
+      "notes": "3T24: Revenue R$9.49bn (Marfrig assets begin consolidating Aug 28). EBITDA R$552M \u2014 integration costs.",
+      "epsBasic": -0.5128
     },
     {
       "endDate": "2024-12-31",
@@ -623,7 +636,9 @@
       "totalAssetsMM": 30200,
       "totalDebtMM": 17500,
       "cashMM": 5800,
-      "interestExpenseMM": 3000.0
+      "interestExpenseMM": 3000.0,
+      "epsBasic": -0.0664,
+      "bookValuePerShare": 4.5656
     },
     {
       "endDate": "2025-03-31",
@@ -633,7 +648,8 @@
       "netIncomeMM": 124,
       "sharesOutMM": 587,
       "netDebtMM": 10100,
-      "notes": "1T25: Revenue R$14.6bn (first full year of Marfrig assets). EBITDA R$1.10bn (margin 7.6%) \u2014 synergies emerging."
+      "notes": "1T25: Revenue R$14.6bn (first full year of Marfrig assets). EBITDA R$1.10bn (margin 7.6%) \u2014 synergies emerging.",
+      "epsBasic": 0.2112
     },
     {
       "endDate": "2025-06-30",
@@ -643,7 +659,8 @@
       "netIncomeMM": 156,
       "sharesOutMM": 587,
       "netDebtMM": 10300,
-      "notes": "2T25: Revenue R$15.0bn, EBITDA R$1.28bn (margin 8.5%)."
+      "notes": "2T25: Revenue R$15.0bn, EBITDA R$1.28bn (margin 8.5%).",
+      "epsBasic": 0.2658
     }
   ]
 }

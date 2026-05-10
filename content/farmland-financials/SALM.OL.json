@@ -270,7 +270,7 @@
       "ebitdaMM": 3125,
       "netDebtMM": 6230,
       "sharesOutMM": 113.3,
-      "bookValuePerShare": 79.5,
+      "bookValuePerShare": 75.0221,
       "dividendPerShare": 20.0,
       "capexMM": 1850,
       "daMM": 1085,
@@ -315,7 +315,7 @@
       "ebitdaMM": 3625,
       "netDebtMM": 5550,
       "sharesOutMM": 113.3,
-      "bookValuePerShare": 84.2,
+      "bookValuePerShare": 83.8482,
       "dividendPerShare": 20.0,
       "capexMM": 2400,
       "daMM": 1145,
@@ -361,7 +361,8 @@
       "netIncomeMM": 590,
       "netDebtMM": 6800,
       "sharesOutMM": 113.3,
-      "notes": "Q1 2022: Revenue NOK 4,050M, Operational EBIT NOK 810M. Pre-NTS perimeter."
+      "notes": "Q1 2022: Revenue NOK 4,050M, Operational EBIT NOK 810M. Pre-NTS perimeter.",
+      "epsBasic": 5.2074
     },
     {
       "endDate": "2022-06-30",
@@ -383,7 +384,8 @@
       "netIncomeMM": 940,
       "netDebtMM": 6500,
       "sharesOutMM": 113.3,
-      "notes": "Q2 2022: Revenue NOK 4,720M, Operational EBIT NOK 1,360M \u2014 peak salmon prices."
+      "notes": "Q2 2022: Revenue NOK 4,720M, Operational EBIT NOK 1,360M \u2014 peak salmon prices.",
+      "epsBasic": 8.2966
     },
     {
       "endDate": "2022-09-30",
@@ -405,7 +407,8 @@
       "netIncomeMM": 770,
       "netDebtMM": 6700,
       "sharesOutMM": 113.3,
-      "notes": "Q3 2022: Revenue NOK 4,870M, Operational EBIT NOK 1,070M. Resource-rent tax announced Sept 28."
+      "notes": "Q3 2022: Revenue NOK 4,870M, Operational EBIT NOK 1,070M. Resource-rent tax announced Sept 28.",
+      "epsBasic": 6.7961
     },
     {
       "endDate": "2022-12-31",
@@ -426,7 +429,7 @@
       "ebitdaMM": 6280,
       "netDebtMM": 17800,
       "sharesOutMM": 130.7,
-      "bookValuePerShare": 119.0,
+      "bookValuePerShare": 87.9878,
       "dividendPerShare": 0.0,
       "capexMM": 2700,
       "daMM": 1390,
@@ -490,7 +493,9 @@
       "propertyBookMM": 10500,
       "totalEquityMM": 11500,
       "interestExpenseMM": 400,
-      "dividendPerShare": 20.0
+      "dividendPerShare": 20.0,
+      "epsBasic": 7.4981,
+      "bookValuePerShare": 87.9878
     },
     {
       "endDate": "2023-03-31",
@@ -512,7 +517,8 @@
       "netIncomeMM": 825,
       "netDebtMM": 17500,
       "sharesOutMM": 130.93,
-      "notes": "Q1 2023: Revenue NOK 5,560M, Operational EBIT NOK 1,440M. First quarter with full NTS consolidation + resource-rent tax."
+      "notes": "Q1 2023: Revenue NOK 5,560M, Operational EBIT NOK 1,440M. First quarter with full NTS consolidation + resource-rent tax.",
+      "epsBasic": 6.3011
     },
     {
       "endDate": "2023-06-30",
@@ -534,7 +540,8 @@
       "netIncomeMM": 825,
       "netDebtMM": 17000,
       "sharesOutMM": 130.93,
-      "notes": "Q2 2023: Revenue NOK 6,020M, Operational EBIT NOK 1,420M."
+      "notes": "Q2 2023: Revenue NOK 6,020M, Operational EBIT NOK 1,420M.",
+      "epsBasic": 6.3011
     },
     {
       "endDate": "2023-09-30",
@@ -556,7 +563,8 @@
       "netIncomeMM": 670,
       "netDebtMM": 16800,
       "sharesOutMM": 130.93,
-      "notes": "Q3 2023: Revenue NOK 5,810M, Operational EBIT NOK 1,135M."
+      "notes": "Q3 2023: Revenue NOK 5,810M, Operational EBIT NOK 1,135M.",
+      "epsBasic": 5.1172
     },
     {
       "endDate": "2023-12-31",
@@ -577,7 +585,7 @@
       "ebitdaMM": 7000,
       "netDebtMM": 16500,
       "sharesOutMM": 130.93,
-      "bookValuePerShare": 142.0,
+      "bookValuePerShare": 103.1085,
       "dividendPerShare": 18.0,
       "capexMM": 3000,
       "daMM": 1610,
@@ -641,7 +649,9 @@
       "propertyBookMM": 11500,
       "totalEquityMM": 13500,
       "interestExpenseMM": 650,
-      "dividendPerShare": 18.0
+      "dividendPerShare": 18.0,
+      "epsBasic": 6.1865,
+      "bookValuePerShare": 103.1085
     },
     {
       "endDate": "2024-03-31",
@@ -663,7 +673,8 @@
       "netIncomeMM": 740,
       "netDebtMM": 16700,
       "sharesOutMM": 130.93,
-      "notes": "Q1 2024: Revenue NOK 6,225M, Operational EBIT NOK 1,295M."
+      "notes": "Q1 2024: Revenue NOK 6,225M, Operational EBIT NOK 1,295M.",
+      "epsBasic": 5.6519
     },
     {
       "endDate": "2024-06-30",
@@ -685,7 +696,8 @@
       "netIncomeMM": 850,
       "netDebtMM": 16400,
       "sharesOutMM": 130.93,
-      "notes": "Q2 2024: Revenue NOK 6,485M, Operational EBIT NOK 1,425M."
+      "notes": "Q2 2024: Revenue NOK 6,485M, Operational EBIT NOK 1,425M.",
+      "epsBasic": 6.492
     },
     {
       "endDate": "2024-09-30",
@@ -707,7 +719,8 @@
       "netIncomeMM": 600,
       "netDebtMM": 16500,
       "sharesOutMM": 130.93,
-      "notes": "Q3 2024: Revenue NOK 6,190M, Operational EBIT NOK 1,065M."
+      "notes": "Q3 2024: Revenue NOK 6,190M, Operational EBIT NOK 1,065M.",
+      "epsBasic": 4.5826
     },
     {
       "endDate": "2024-12-31",
@@ -728,7 +741,7 @@
       "ebitdaMM": 6886,
       "netDebtMM": 16300,
       "sharesOutMM": 130.93,
-      "bookValuePerShare": 152.0,
+      "bookValuePerShare": 110.7462,
       "dividendPerShare": 22.0,
       "capexMM": 2900,
       "daMM": 1700,
@@ -792,7 +805,9 @@
       "propertyBookMM": 11000,
       "totalEquityMM": 14500,
       "interestExpenseMM": 700,
-      "dividendPerShare": 22.0
+      "dividendPerShare": 22.0,
+      "epsBasic": 6.2629,
+      "bookValuePerShare": 110.7462
     },
     {
       "endDate": "2025-03-31",
@@ -814,7 +829,8 @@
       "netIncomeMM": 700,
       "netDebtMM": 16200,
       "sharesOutMM": 130.93,
-      "notes": "Q1 2025: Revenue NOK ~6,580M, Operational EBIT NOK ~1,180M (estimate)."
+      "notes": "Q1 2025: Revenue NOK ~6,580M, Operational EBIT NOK ~1,180M (estimate).",
+      "epsBasic": 5.3464
     }
   ]
 }

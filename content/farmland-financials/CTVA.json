@@ -156,7 +156,8 @@
       "sharesOutMM": 725.32,
       "totalDebtMM": 1154.0,
       "cashMM": 2031.0,
-      "netDebtMM": -877.0
+      "netDebtMM": -877.0,
+      "epsBasic": 0.7776
     },
     {
       "endDate": "2022-06-30",
@@ -171,7 +172,8 @@
       "sharesOutMM": 725.32,
       "totalDebtMM": 1283.0,
       "cashMM": 2401.0,
-      "netDebtMM": -1118.0
+      "netDebtMM": -1118.0,
+      "epsBasic": 1.336
     },
     {
       "endDate": "2022-09-30",
@@ -186,7 +188,8 @@
       "sharesOutMM": 716.23,
       "totalDebtMM": 1277.0,
       "cashMM": 2199.0,
-      "netDebtMM": -922.0
+      "netDebtMM": -922.0,
+      "epsBasic": -0.4621
     },
     {
       "endDate": "2022-12-31",
@@ -242,7 +245,8 @@
       "sharesOutMM": 710.68,
       "totalDebtMM": 1290.0,
       "cashMM": 1646.0,
-      "netDebtMM": -356.0
+      "netDebtMM": -356.0,
+      "epsBasic": 0.8372
     },
     {
       "endDate": "2023-06-30",
@@ -259,7 +263,8 @@
       "sharesOutMM": 709.52,
       "totalDebtMM": 2485.0,
       "cashMM": 2563.0,
-      "netDebtMM": -78.0
+      "netDebtMM": -78.0,
+      "epsBasic": 1.0063
     },
     {
       "endDate": "2023-09-30",
@@ -276,7 +281,8 @@
       "sharesOutMM": 704.88,
       "totalDebtMM": 2478.0,
       "cashMM": 2254.0,
-      "netDebtMM": 224.0
+      "netDebtMM": 224.0,
+      "epsBasic": -0.4554
     },
     {
       "endDate": "2023-12-31",
@@ -336,7 +342,8 @@
       "revenueBySegmentMM": {
         "Seed": 2751,
         "Crop Protection": 1741
-      }
+      },
+      "epsBasic": 0.6005
     },
     {
       "endDate": "2024-06-30",
@@ -357,7 +364,8 @@
       "revenueBySegmentMM": {
         "Seed": 4331,
         "Crop Protection": 1781
-      }
+      },
+      "epsBasic": 1.5181
     },
     {
       "endDate": "2024-09-30",
@@ -378,7 +386,8 @@
       "revenueBySegmentMM": {
         "Seed": 691,
         "Crop Protection": 1635
-      }
+      },
+      "epsBasic": -0.7603
     },
     {
       "endDate": "2024-12-31",
@@ -438,7 +447,8 @@
       "revenueBySegmentMM": {
         "Seed": 2707,
         "Crop Protection": 1710
-      }
+      },
+      "epsBasic": 0.9546
     },
     {
       "endDate": "2025-06-30",
@@ -459,7 +469,8 @@
       "revenueBySegmentMM": {
         "Seed": 4537,
         "Crop Protection": 1919
-      }
+      },
+      "epsBasic": 1.9327
     },
     {
       "endDate": "2025-09-30",
@@ -480,7 +491,8 @@
       "revenueBySegmentMM": {
         "Seed": 917,
         "Crop Protection": 1701
-      }
+      },
+      "epsBasic": -0.4707
     },
     {
       "endDate": "2025-12-31",
@@ -538,7 +550,8 @@
       "revenueBySegmentMM": {
         "Seed": 3023,
         "Crop Protection": 1882
-      }
+      },
+      "epsBasic": 1.0712
     }
   ]
 }

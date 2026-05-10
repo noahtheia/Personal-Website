@@ -19,7 +19,7 @@
       "totalDebtMM": 1850,
       "cashMM": 120,
       "sharesOutMM": 95.0,
-      "bookValuePerShare": 11.4,
+      "bookValuePerShare": 10.5263,
       "dividendPerShare": 0,
       "notes": "FY20 (pro forma \u2014 pre-merger Total Produce + Dole Food): revenue $4.67B. Combined adj EBITDA $290M. Pre-IPO baseline.",
       "integratedFarm": {
@@ -53,7 +53,7 @@
       "totalDebtMM": 1404,
       "cashMM": 149,
       "sharesOutMM": 95.0,
-      "bookValuePerShare": 13.5,
+      "bookValuePerShare": 14.6842,
       "dividendPerShare": 0.16,
       "notes": "FY21: revenue $9.22B (combined Dole + Total Produce). IPO July 2021 with $400M raise. Adj EBITDA $380M.",
       "capexMM": 75.0,
@@ -91,7 +91,8 @@
       "sharesOutMM": 94.88,
       "totalDebtMM": 1410.8,
       "cashMM": 215.9,
-      "netDebtMM": 1194.8
+      "netDebtMM": 1194.8,
+      "epsBasic": -0.0148
     },
     {
       "endDate": "2022-06-30",
@@ -109,7 +110,8 @@
       "sharesOutMM": 94.9,
       "totalDebtMM": 1386.4,
       "cashMM": 238.8,
-      "netDebtMM": 1147.6
+      "netDebtMM": 1147.6,
+      "epsBasic": 0.4352
     },
     {
       "endDate": "2022-09-30",
@@ -127,7 +129,8 @@
       "sharesOutMM": 94.9,
       "totalDebtMM": 1386.4,
       "cashMM": 221.5,
-      "netDebtMM": 1164.9
+      "netDebtMM": 1164.9,
+      "epsBasic": 0.4194
     },
     {
       "endDate": "2022-12-31",
@@ -144,7 +147,7 @@
       "totalDebtMM": 1389,
       "cashMM": 151,
       "sharesOutMM": 94.7,
-      "bookValuePerShare": 12.1,
+      "bookValuePerShare": 13.9388,
       "dividendPerShare": 0.32,
       "notes": "FY22: revenue $9.42B (+2%). Adj EBITDA $327M. Listeria recall + Yuma freeze impacted Fresh Vegetables. FX headwinds.",
       "capexMM": 71.0,
@@ -182,7 +185,8 @@
       "sharesOutMM": 94.9,
       "totalDebtMM": 1269.0,
       "cashMM": 266.2,
-      "netDebtMM": 1002.8
+      "netDebtMM": 1002.8,
+      "epsBasic": 0.1496
     },
     {
       "endDate": "2023-06-30",
@@ -200,7 +204,8 @@
       "sharesOutMM": 94.93,
       "totalDebtMM": 1198.6,
       "cashMM": 231.1,
-      "netDebtMM": 967.5
+      "netDebtMM": 967.5,
+      "epsBasic": 0.4456
     },
     {
       "endDate": "2023-09-30",
@@ -218,7 +223,8 @@
       "sharesOutMM": 94.93,
       "totalDebtMM": 1115.6,
       "cashMM": 217.5,
-      "netDebtMM": 898.1
+      "netDebtMM": 898.1,
+      "epsBasic": 0.4772
     },
     {
       "endDate": "2023-12-31",
@@ -235,7 +241,7 @@
       "totalDebtMM": 1100,
       "cashMM": 255,
       "sharesOutMM": 95.0,
-      "bookValuePerShare": 13.95,
+      "bookValuePerShare": 15.2632,
       "dividendPerShare": 0.32,
       "notes": "FY23: revenue $8.29B. Adj EBITDA $363M (+11%). Reorganized into 3 segments. Dispose of Progressive Produce (Apr 2024).",
       "capexMM": 150.0,
@@ -279,7 +285,8 @@
         "Diversified Fresh Produce - EMEA": 853.5,
         "Diversified Fresh Produce - Americas & ROW": 476.8,
         "Fresh Vegetables": 290.3
-      }
+      },
+      "epsBasic": 0.7384
     },
     {
       "endDate": "2024-06-30",
@@ -303,7 +310,8 @@
         "Diversified Fresh Produce - EMEA": 944.9,
         "Diversified Fresh Produce - Americas & ROW": 356.1,
         "Fresh Vegetables": 297.5
-      }
+      },
+      "epsBasic": 0.8436
     },
     {
       "endDate": "2024-09-30",
@@ -326,7 +334,8 @@
         "Fresh Fruit": 798.8,
         "Diversified Fresh Produce - EMEA": 899.6,
         "Diversified Fresh Produce - Americas & ROW": 390.1
-      }
+      },
+      "epsBasic": 0.1516
     },
     {
       "endDate": "2024-12-31",
@@ -343,7 +352,7 @@
       "totalDebtMM": 1182,
       "cashMM": 230.4,
       "sharesOutMM": 95.04,
-      "bookValuePerShare": 15.5,
+      "bookValuePerShare": 15.888,
       "dividendPerShare": 0.32,
       "notes": "FY24: revenue $8.47B (continuing ops). Adj EBITDA $382M (+5%). Sold Fresh Vegetables to Chiquita Aug 2024 for $293M (now discontinued ops). Net income $148M ($1.56/sh). 109K owned/leased acres tropical.",
       "capexMM": 129.0,
@@ -399,7 +408,8 @@
         "Diversified Fresh Produce - EMEA": 892.1,
         "Diversified Fresh Produce - Americas & ROW": 363.5,
         "Fresh Vegetables": 245.0
-      }
+      },
+      "epsBasic": 0.4089
     },
     {
       "endDate": "2025-06-30",
@@ -423,7 +433,8 @@
         "Diversified Fresh Produce - EMEA": 1100.8,
         "Diversified Fresh Produce - Americas & ROW": 386.3,
         "Fresh Vegetables": 247.2
-      }
+      },
+      "epsBasic": 0.1051
     },
     {
       "endDate": "2025-09-30",
@@ -446,7 +457,8 @@
         "Fresh Fruit": 890.4,
         "Diversified Fresh Produce - EMEA": 997.8,
         "Diversified Fresh Produce - Americas & ROW": 420.0
-      }
+      },
+      "epsBasic": 0.0536
     },
     {
       "endDate": "2025-12-31",
@@ -470,7 +482,9 @@
         "Diversified Fresh Produce - EMEA": 1025.9,
         "Diversified Fresh Produce - Americas & ROW": 486.5
       },
-      "totalEquityMM": 1560
+      "totalEquityMM": 1560,
+      "epsBasic": -0.0284,
+      "bookValuePerShare": 16.3934
     }
   ]
 }

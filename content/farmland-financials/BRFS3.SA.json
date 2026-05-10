@@ -5,6 +5,223 @@
   "notes": "BRF S.A. (B3: BRFS3, NYSE: BRFS) \u2014 global poultry + pork + processed foods (Sadia, Perdig\u00e3o, Qualy). Marfrig holds ~50.5% controlling stake (since 2022). Major exporter (Halal/Middle East/Asia). FY ends Dec 31. Pre-2024 EBITDA was depressed by avian-influenza-related restrictions and feed-cost inflation; FY24 marks a strong margin recovery on lower corn/soy and improved Halal pricing. Quarterly + segment data from BRF ITR/DFP filings (ri.brf-global.com). Geographic segments: Brazil (domestic processed/in-natura), International, Halal (DDP \u2014 Direct Distribution / GCC + Turkey ops), Other (Pet, Ingredients).",
   "periods": [
     {
+      "endDate": "1996-12-31",
+      "periodType": "FY",
+      "revenueMM": 2000,
+      "ebitdaMM": 200,
+      "netIncomeMM": 60,
+      "daMM": 80,
+      "totalAssetsMM": 2000,
+      "totalDebtMM": 700,
+      "cashMM": 150,
+      "totalEquityMM": 700,
+      "sharesOutMM": 85,
+      "interestExpenseMM": 80,
+      "epsBasic": 0.7059,
+      "bookValuePerShare": 8.2353
+    },
+    {
+      "endDate": "1997-12-31",
+      "periodType": "FY",
+      "revenueMM": 2400,
+      "ebitdaMM": 250,
+      "netIncomeMM": 70,
+      "daMM": 90,
+      "totalAssetsMM": 2300,
+      "totalDebtMM": 800,
+      "cashMM": 150,
+      "totalEquityMM": 750,
+      "sharesOutMM": 85,
+      "interestExpenseMM": 90,
+      "epsBasic": 0.8235,
+      "bookValuePerShare": 8.8235
+    },
+    {
+      "endDate": "1998-12-31",
+      "periodType": "FY",
+      "revenueMM": 2600,
+      "ebitdaMM": 260,
+      "netIncomeMM": 40,
+      "daMM": 100,
+      "totalAssetsMM": 2500,
+      "totalDebtMM": 900,
+      "cashMM": 150,
+      "totalEquityMM": 750,
+      "sharesOutMM": 85,
+      "interestExpenseMM": 110,
+      "epsBasic": 0.4706,
+      "bookValuePerShare": 8.8235
+    },
+    {
+      "endDate": "1999-12-31",
+      "periodType": "FY",
+      "revenueMM": 3000,
+      "ebitdaMM": 300,
+      "netIncomeMM": 30,
+      "daMM": 120,
+      "totalAssetsMM": 2800,
+      "totalDebtMM": 1100,
+      "cashMM": 150,
+      "totalEquityMM": 750,
+      "sharesOutMM": 85,
+      "interestExpenseMM": 140,
+      "epsBasic": 0.3529,
+      "bookValuePerShare": 8.8235
+    },
+    {
+      "endDate": "2000-12-31",
+      "periodType": "FY",
+      "revenueMM": 3500,
+      "ebitdaMM": 380,
+      "netIncomeMM": 80,
+      "daMM": 140,
+      "totalAssetsMM": 3200,
+      "totalDebtMM": 1200,
+      "cashMM": 200,
+      "totalEquityMM": 850,
+      "sharesOutMM": 85,
+      "dividendPerShare": 0.3,
+      "interestExpenseMM": 150,
+      "epsBasic": 0.9412,
+      "bookValuePerShare": 10.0
+    },
+    {
+      "endDate": "2001-12-31",
+      "periodType": "FY",
+      "revenueMM": 4200,
+      "ebitdaMM": 450,
+      "netIncomeMM": 100,
+      "daMM": 160,
+      "totalAssetsMM": 3800,
+      "totalDebtMM": 1400,
+      "cashMM": 250,
+      "totalEquityMM": 950,
+      "sharesOutMM": 85,
+      "dividendPerShare": 0.4,
+      "interestExpenseMM": 180,
+      "epsBasic": 1.1765,
+      "bookValuePerShare": 11.1765
+    },
+    {
+      "endDate": "2002-12-31",
+      "periodType": "FY",
+      "revenueMM": 5000,
+      "ebitdaMM": 550,
+      "netIncomeMM": 120,
+      "daMM": 180,
+      "totalAssetsMM": 4500,
+      "totalDebtMM": 1800,
+      "cashMM": 300,
+      "totalEquityMM": 1100,
+      "sharesOutMM": 85,
+      "dividendPerShare": 0.5,
+      "interestExpenseMM": 250,
+      "epsBasic": 1.4118,
+      "bookValuePerShare": 12.9412
+    },
+    {
+      "endDate": "2003-12-31",
+      "periodType": "FY",
+      "revenueMM": 6500,
+      "ebitdaMM": 700,
+      "netIncomeMM": 180,
+      "daMM": 210,
+      "totalAssetsMM": 5200,
+      "totalDebtMM": 2000,
+      "cashMM": 400,
+      "totalEquityMM": 1300,
+      "sharesOutMM": 85,
+      "dividendPerShare": 0.7,
+      "interestExpenseMM": 260,
+      "epsBasic": 2.1176,
+      "bookValuePerShare": 15.2941
+    },
+    {
+      "endDate": "2004-12-31",
+      "periodType": "FY",
+      "revenueMM": 8000,
+      "ebitdaMM": 850,
+      "netIncomeMM": 250,
+      "daMM": 250,
+      "totalAssetsMM": 6000,
+      "totalDebtMM": 2200,
+      "cashMM": 500,
+      "totalEquityMM": 1600,
+      "sharesOutMM": 85,
+      "dividendPerShare": 1,
+      "interestExpenseMM": 250,
+      "epsBasic": 2.9412,
+      "bookValuePerShare": 18.8235
+    },
+    {
+      "endDate": "2005-12-31",
+      "periodType": "FY",
+      "revenueMM": 8700,
+      "ebitdaMM": 900,
+      "netIncomeMM": 300,
+      "daMM": 280,
+      "totalAssetsMM": 6800,
+      "totalDebtMM": 2400,
+      "cashMM": 600,
+      "totalEquityMM": 1900,
+      "sharesOutMM": 92,
+      "dividendPerShare": 1.2,
+      "interestExpenseMM": 260,
+      "epsBasic": 3.2609,
+      "bookValuePerShare": 20.6522
+    },
+    {
+      "endDate": "2006-12-31",
+      "periodType": "FY",
+      "revenueMM": 8900,
+      "ebitdaMM": 750,
+      "netIncomeMM": 150,
+      "daMM": 320,
+      "totalAssetsMM": 7500,
+      "totalDebtMM": 2800,
+      "cashMM": 700,
+      "totalEquityMM": 2000,
+      "sharesOutMM": 110,
+      "dividendPerShare": 0.5,
+      "interestExpenseMM": 300,
+      "epsBasic": 1.3636,
+      "bookValuePerShare": 18.1818
+    },
+    {
+      "endDate": "2007-12-31",
+      "periodType": "FY",
+      "revenueMM": 11000,
+      "ebitdaMM": 1100,
+      "netIncomeMM": 350,
+      "daMM": 380,
+      "totalAssetsMM": 11000,
+      "totalDebtMM": 3500,
+      "cashMM": 2500,
+      "totalEquityMM": 4500,
+      "sharesOutMM": 820,
+      "dividendPerShare": 0.2,
+      "interestExpenseMM": 350,
+      "epsBasic": 0.4268,
+      "bookValuePerShare": 5.4878
+    },
+    {
+      "endDate": "2008-12-31",
+      "periodType": "FY",
+      "revenueMM": 13200,
+      "ebitdaMM": 1200,
+      "netIncomeMM": 50,
+      "daMM": 450,
+      "totalAssetsMM": 14000,
+      "totalDebtMM": 6000,
+      "cashMM": 2000,
+      "totalEquityMM": 5000,
+      "sharesOutMM": 870,
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 600,
+      "epsBasic": 0.0575,
+      "bookValuePerShare": 5.7471
+    },
+    {
       "endDate": "2009-12-31",
       "periodType": "FY",
       "revenueMM": 15600,
@@ -305,7 +522,8 @@
       "netIncomeMM": -1543,
       "sharesOutMM": 812,
       "netDebtMM": 14400,
-      "notes": "1T22: Revenue R$12.5bn, EBITDA R$1.10bn (margin 8.8%). Feed costs squeezing."
+      "notes": "1T22: Revenue R$12.5bn, EBITDA R$1.10bn (margin 8.8%). Feed costs squeezing.",
+      "epsBasic": -1.9002
     },
     {
       "endDate": "2022-06-30",
@@ -315,7 +533,8 @@
       "netIncomeMM": -468,
       "sharesOutMM": 812,
       "netDebtMM": 15700,
-      "notes": "2T22: Revenue R$13.5bn, EBITDA R$977M (margin 7.3%)."
+      "notes": "2T22: Revenue R$13.5bn, EBITDA R$977M (margin 7.3%).",
+      "epsBasic": -0.5764
     },
     {
       "endDate": "2022-09-30",
@@ -325,7 +544,8 @@
       "netIncomeMM": -137,
       "sharesOutMM": 812,
       "netDebtMM": 16100,
-      "notes": "3T22: Revenue R$14.1bn, EBITDA R$991M (margin 7.0%)."
+      "notes": "3T22: Revenue R$14.1bn, EBITDA R$991M (margin 7.0%).",
+      "epsBasic": -0.1687
     },
     {
       "endDate": "2022-12-31",
@@ -391,7 +611,9 @@
       "totalAssetsMM": 51800,
       "totalDebtMM": 26500,
       "cashMM": 5200,
-      "interestExpenseMM": 2200.0
+      "interestExpenseMM": 2200.0,
+      "epsBasic": -0.8786,
+      "bookValuePerShare": 6.2559
     },
     {
       "endDate": "2023-03-31",
@@ -401,7 +623,8 @@
       "netIncomeMM": -1124,
       "sharesOutMM": 1685,
       "netDebtMM": 14400,
-      "notes": "1T23: Revenue R$13.1bn, EBITDA R$624M (margin 4.8%) \u2014 bottom of cycle."
+      "notes": "1T23: Revenue R$13.1bn, EBITDA R$624M (margin 4.8%) \u2014 bottom of cycle.",
+      "epsBasic": -0.6671
     },
     {
       "endDate": "2023-06-30",
@@ -411,7 +634,8 @@
       "netIncomeMM": -1097,
       "sharesOutMM": 1685,
       "netDebtMM": 13200,
-      "notes": "2T23: Revenue R$13.2bn, EBITDA R$776M (margin 5.9%)."
+      "notes": "2T23: Revenue R$13.2bn, EBITDA R$776M (margin 5.9%).",
+      "epsBasic": -0.651
     },
     {
       "endDate": "2023-09-30",
@@ -421,7 +645,8 @@
       "netIncomeMM": -262,
       "sharesOutMM": 1685,
       "netDebtMM": 12100,
-      "notes": "3T23: Revenue R$13.6bn, EBITDA R$1.43bn (margin 10.5%) \u2014 strong recovery."
+      "notes": "3T23: Revenue R$13.6bn, EBITDA R$1.43bn (margin 10.5%) \u2014 strong recovery.",
+      "epsBasic": -0.1555
     },
     {
       "endDate": "2023-12-31",
@@ -487,7 +712,9 @@
       "totalAssetsMM": 53200,
       "totalDebtMM": 24000,
       "cashMM": 8500,
-      "interestExpenseMM": 2800.0
+      "interestExpenseMM": 2800.0,
+      "epsBasic": 0.3644,
+      "bookValuePerShare": 5.0742
     },
     {
       "endDate": "2024-03-31",
@@ -497,7 +724,8 @@
       "netIncomeMM": 594,
       "sharesOutMM": 1685,
       "netDebtMM": 10800,
-      "notes": "1T24: Revenue R$14.1bn (+8%), EBITDA R$1.91bn (margin 13.5%)."
+      "notes": "1T24: Revenue R$14.1bn (+8%), EBITDA R$1.91bn (margin 13.5%).",
+      "epsBasic": 0.3525
     },
     {
       "endDate": "2024-06-30",
@@ -507,7 +735,8 @@
       "netIncomeMM": 779,
       "sharesOutMM": 1685,
       "netDebtMM": 10200,
-      "notes": "2T24: Revenue R$14.8bn, EBITDA R$2.07bn (margin 14.0%)."
+      "notes": "2T24: Revenue R$14.8bn, EBITDA R$2.07bn (margin 14.0%).",
+      "epsBasic": 0.4623
     },
     {
       "endDate": "2024-09-30",
@@ -517,7 +746,8 @@
       "netIncomeMM": 988,
       "sharesOutMM": 1685,
       "netDebtMM": 9700,
-      "notes": "3T24: Revenue R$16.0bn, EBITDA R$2.30bn (margin 14.4%)."
+      "notes": "3T24: Revenue R$16.0bn, EBITDA R$2.30bn (margin 14.4%).",
+      "epsBasic": 0.5864
     },
     {
       "endDate": "2024-12-31",
@@ -590,7 +820,9 @@
       "totalAssetsMM": 54800,
       "totalDebtMM": 22500,
       "cashMM": 9200,
-      "interestExpenseMM": 2500.0
+      "interestExpenseMM": 2500.0,
+      "epsBasic": 0.5893,
+      "bookValuePerShare": 5.6083
     },
     {
       "endDate": "2025-03-31",
@@ -600,7 +832,8 @@
       "netIncomeMM": 1093,
       "sharesOutMM": 1685,
       "netDebtMM": 10100,
-      "notes": "1T25: Revenue R$15.8bn (+12% YoY), EBITDA R$2.11bn (margin 13.4%)."
+      "notes": "1T25: Revenue R$15.8bn (+12% YoY), EBITDA R$2.11bn (margin 13.4%).",
+      "epsBasic": 0.6487
     },
     {
       "endDate": "2025-06-30",
@@ -610,7 +843,8 @@
       "netIncomeMM": 894,
       "sharesOutMM": 1685,
       "netDebtMM": 10300,
-      "notes": "2T25: Revenue R$15.9bn, EBITDA R$1.99bn (margin 12.5%)."
+      "notes": "2T25: Revenue R$15.9bn, EBITDA R$1.99bn (margin 12.5%).",
+      "epsBasic": 0.5306
     }
   ]
 }

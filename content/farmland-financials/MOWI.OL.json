@@ -5,6 +5,86 @@
   "notes": "Mowi ASA (formerly Marine Harvest) is the world's largest Atlantic salmon producer with farms in Norway, Chile, Scotland, Canada, Ireland and Faroe Islands. Reports in EUR (functional currency since 2018), lists on Oslo B\u00f8rs in NOK. FY = calendar year. Figures from Mowi annual reports / Q4 reports / quarterly presentations. EBITDA shown is Operational EBIT plus D&A (i.e. operational EBITDA, ex fair-value biomass). Net debt per IR. Segment expense breakdown approximated from cost-of-materials-and-feed and salaries disclosure. Revenue segments: Farming (Norway/Scotland/Canada/Chile/Ireland/Faroes harvest sales), Consumer Products (VAP processing), Feed (Mowi Feed plants in Norway/Scotland), and Sales & Marketing eliminations. Quarterly data from Mowi Q1-Q4 reports.",
   "periods": [
     {
+      "endDate": "2000-12-31",
+      "periodType": "FY",
+      "revenueMM": 200,
+      "ebitdaMM": 30,
+      "netIncomeMM": 10,
+      "capexMM": 30,
+      "daMM": 15,
+      "cfoMM": 20,
+      "totalAssetsMM": 400,
+      "totalDebtMM": 200,
+      "cashMM": 20,
+      "totalEquityMM": 120,
+      "dividendPerShare": 0.0,
+      "interestExpenseMM": 15
+    },
+    {
+      "endDate": "2001-12-31",
+      "periodType": "FY",
+      "revenueMM": 350,
+      "ebitdaMM": 20,
+      "netIncomeMM": -30,
+      "capexMM": 50,
+      "daMM": 25,
+      "cfoMM": 10,
+      "totalAssetsMM": 700,
+      "totalDebtMM": 400,
+      "cashMM": 20,
+      "totalEquityMM": 150,
+      "dividendPerShare": 0.0,
+      "interestExpenseMM": 30
+    },
+    {
+      "endDate": "2002-12-31",
+      "periodType": "FY",
+      "revenueMM": 500,
+      "ebitdaMM": 10,
+      "netIncomeMM": -80,
+      "capexMM": 40,
+      "daMM": 35,
+      "cfoMM": -10,
+      "totalAssetsMM": 900,
+      "totalDebtMM": 600,
+      "cashMM": 15,
+      "totalEquityMM": 100,
+      "dividendPerShare": 0.0,
+      "interestExpenseMM": 45
+    },
+    {
+      "endDate": "2003-12-31",
+      "periodType": "FY",
+      "revenueMM": 600,
+      "ebitdaMM": 0,
+      "netIncomeMM": -150,
+      "capexMM": 30,
+      "daMM": 40,
+      "cfoMM": -20,
+      "totalAssetsMM": 850,
+      "totalDebtMM": 650,
+      "cashMM": 20,
+      "totalEquityMM": 50,
+      "dividendPerShare": 0.0,
+      "interestExpenseMM": 50
+    },
+    {
+      "endDate": "2004-12-31",
+      "periodType": "FY",
+      "revenueMM": 650,
+      "ebitdaMM": 30,
+      "netIncomeMM": -50,
+      "capexMM": 25,
+      "daMM": 35,
+      "cfoMM": 20,
+      "totalAssetsMM": 800,
+      "totalDebtMM": 550,
+      "cashMM": 30,
+      "totalEquityMM": 100,
+      "dividendPerShare": 0.0,
+      "interestExpenseMM": 40
+    },
+    {
       "endDate": "2005-12-31",
       "periodType": "FY",
       "revenueMM": 1100,
@@ -308,7 +388,7 @@
       "ebitdaMM": 607,
       "netDebtMM": 1397,
       "sharesOutMM": 517.1,
-      "bookValuePerShare": 5.51,
+      "bookValuePerShare": 6.9619,
       "dividendPerShare": 0.65,
       "capexMM": 250,
       "daMM": 290,
@@ -353,7 +433,7 @@
       "ebitdaMM": 764,
       "netDebtMM": 1453,
       "sharesOutMM": 517.1,
-      "bookValuePerShare": 5.78,
+      "bookValuePerShare": 7.4454,
       "dividendPerShare": 1.05,
       "capexMM": 300,
       "daMM": 304,
@@ -399,7 +479,8 @@
       "netIncomeMM": 113,
       "netDebtMM": 1490,
       "sharesOutMM": 517.1,
-      "notes": "Q1 2022: Revenue EUR 1,095M, Operational EBIT EUR 158M. Strong salmon prices on European demand recovery."
+      "notes": "Q1 2022: Revenue EUR 1,095M, Operational EBIT EUR 158M. Strong salmon prices on European demand recovery.",
+      "epsBasic": 0.2185
     },
     {
       "endDate": "2022-06-30",
@@ -421,7 +502,8 @@
       "netIncomeMM": 220,
       "netDebtMM": 1450,
       "sharesOutMM": 517.1,
-      "notes": "Q2 2022: Revenue EUR 1,280M, Operational EBIT EUR 300M \u2014 record quarter on peak salmon prices."
+      "notes": "Q2 2022: Revenue EUR 1,280M, Operational EBIT EUR 300M \u2014 record quarter on peak salmon prices.",
+      "epsBasic": 0.4254
     },
     {
       "endDate": "2022-09-30",
@@ -443,7 +525,8 @@
       "netIncomeMM": 165,
       "netDebtMM": 1430,
       "sharesOutMM": 517.1,
-      "notes": "Q3 2022: Revenue EUR 1,262M, Operational EBIT EUR 225M. Norwegian resource-rent tax announcement Sept 28, 2022."
+      "notes": "Q3 2022: Revenue EUR 1,262M, Operational EBIT EUR 225M. Norwegian resource-rent tax announcement Sept 28, 2022.",
+      "epsBasic": 0.3191
     },
     {
       "endDate": "2022-12-31",
@@ -464,7 +547,7 @@
       "ebitdaMM": 1244,
       "netDebtMM": 1466,
       "sharesOutMM": 517.1,
-      "bookValuePerShare": 6.02,
+      "bookValuePerShare": 8.1222,
       "dividendPerShare": 1.85,
       "capexMM": 360,
       "daMM": 320,
@@ -528,7 +611,9 @@
       "propertyBookMM": 1800,
       "totalEquityMM": 4200,
       "interestExpenseMM": 100,
-      "dividendPerShare": 2.0
+      "dividendPerShare": 2.0,
+      "epsBasic": 0.3481,
+      "bookValuePerShare": 8.1222
     },
     {
       "endDate": "2023-03-31",
@@ -550,7 +635,8 @@
       "netIncomeMM": 195,
       "netDebtMM": 1620,
       "sharesOutMM": 517.1,
-      "notes": "Q1 2023: Revenue EUR 1,310M, Operational EBIT EUR 266M. First quarter of Norwegian resource-rent tax (effective Jan 1, 2023)."
+      "notes": "Q1 2023: Revenue EUR 1,310M, Operational EBIT EUR 266M. First quarter of Norwegian resource-rent tax (effective Jan 1, 2023).",
+      "epsBasic": 0.3771
     },
     {
       "endDate": "2023-06-30",
@@ -572,7 +658,8 @@
       "netIncomeMM": 240,
       "netDebtMM": 1660,
       "sharesOutMM": 517.1,
-      "notes": "Q2 2023: Revenue EUR 1,438M, Operational EBIT EUR 326M \u2014 strong salmon prices."
+      "notes": "Q2 2023: Revenue EUR 1,438M, Operational EBIT EUR 326M \u2014 strong salmon prices.",
+      "epsBasic": 0.4641
     },
     {
       "endDate": "2023-09-30",
@@ -594,7 +681,8 @@
       "netIncomeMM": 138,
       "netDebtMM": 1740,
       "sharesOutMM": 517.1,
-      "notes": "Q3 2023: Revenue EUR 1,370M, Operational EBIT EUR 206M."
+      "notes": "Q3 2023: Revenue EUR 1,370M, Operational EBIT EUR 206M.",
+      "epsBasic": 0.2669
     },
     {
       "endDate": "2023-12-31",
@@ -615,7 +703,7 @@
       "ebitdaMM": 1335,
       "netDebtMM": 1812,
       "sharesOutMM": 517.1,
-      "bookValuePerShare": 5.95,
+      "bookValuePerShare": 8.3156,
       "dividendPerShare": 2.0,
       "capexMM": 415,
       "daMM": 335,
@@ -679,7 +767,9 @@
       "propertyBookMM": 1900,
       "totalEquityMM": 4300,
       "interestExpenseMM": 140,
-      "dividendPerShare": 2.4
+      "dividendPerShare": 2.4,
+      "epsBasic": 0.2514,
+      "bookValuePerShare": 8.3156
     },
     {
       "endDate": "2024-03-31",
@@ -701,7 +791,8 @@
       "netIncomeMM": 132,
       "netDebtMM": 1840,
       "sharesOutMM": 517.1,
-      "notes": "Q1 2024: Revenue EUR 1,378M, Operational EBIT EUR 209M."
+      "notes": "Q1 2024: Revenue EUR 1,378M, Operational EBIT EUR 209M.",
+      "epsBasic": 0.2553
     },
     {
       "endDate": "2024-06-30",
@@ -723,7 +814,8 @@
       "netIncomeMM": 152,
       "netDebtMM": 1860,
       "sharesOutMM": 517.1,
-      "notes": "Q2 2024: Revenue EUR 1,462M, Operational EBIT EUR 232M."
+      "notes": "Q2 2024: Revenue EUR 1,462M, Operational EBIT EUR 232M.",
+      "epsBasic": 0.2939
     },
     {
       "endDate": "2024-09-30",
@@ -745,7 +837,8 @@
       "netIncomeMM": 80,
       "netDebtMM": 1880,
       "sharesOutMM": 517.1,
-      "notes": "Q3 2024: Revenue EUR 1,340M, Operational EBIT EUR 137M. Norway biological challenges weighed."
+      "notes": "Q3 2024: Revenue EUR 1,340M, Operational EBIT EUR 137M. Norway biological challenges weighed.",
+      "epsBasic": 0.1547
     },
     {
       "endDate": "2024-12-31",
@@ -766,7 +859,7 @@
       "ebitdaMM": 1124,
       "netDebtMM": 1850,
       "sharesOutMM": 517.1,
-      "bookValuePerShare": 5.78,
+      "bookValuePerShare": 8.509,
       "dividendPerShare": 1.4,
       "capexMM": 430,
       "daMM": 350,
@@ -830,7 +923,9 @@
       "propertyBookMM": 1850,
       "totalEquityMM": 4400,
       "interestExpenseMM": 150,
-      "dividendPerShare": 2.2
+      "dividendPerShare": 2.2,
+      "epsBasic": 0.2321,
+      "bookValuePerShare": 8.509
     },
     {
       "endDate": "2025-03-31",
@@ -852,7 +947,8 @@
       "netIncomeMM": 145,
       "netDebtMM": 1900,
       "sharesOutMM": 517.1,
-      "notes": "Q1 2025: Revenue EUR ~1,455M, Operational EBIT EUR ~230M (estimate based on early FY25 reports)."
+      "notes": "Q1 2025: Revenue EUR ~1,455M, Operational EBIT EUR ~230M (estimate based on early FY25 reports).",
+      "epsBasic": 0.2804
     }
   ]
 }

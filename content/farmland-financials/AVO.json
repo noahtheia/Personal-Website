@@ -72,7 +72,7 @@
       "cashMM": 84.5,
       "netDebtMM": 79.4,
       "sharesOutMM": 70.63,
-      "epsBasic": 0.64,
+      "epsBasic": 0.6357,
       "epsDiluted": 0.64,
       "notes": "FY21 (year ended Oct 31, 2021): post-IPO first full year. Revenue $891.7M; op income $60.9M + D&A $20.4M = EBITDA $81.3M. Net debt $79.4M. Per-pound avocado pricing strong in late FY21.",
       "capexMM": 73.4,
@@ -114,7 +114,8 @@
       "sharesOutMM": 70.63,
       "totalDebtMM": 170.5,
       "cashMM": 25.3,
-      "netDebtMM": 145.2
+      "netDebtMM": 145.2,
+      "epsBasic": -0.1897
     },
     {
       "endDate": "2022-04-30",
@@ -133,7 +134,8 @@
       "sharesOutMM": 70.65,
       "totalDebtMM": 168.3,
       "cashMM": 21.4,
-      "netDebtMM": 146.9
+      "netDebtMM": 146.9,
+      "epsBasic": 0.034
     },
     {
       "endDate": "2022-07-31",
@@ -152,7 +154,8 @@
       "sharesOutMM": 70.66,
       "totalDebtMM": 168.6,
       "cashMM": 43.8,
-      "netDebtMM": 124.8
+      "netDebtMM": 124.8,
+      "epsBasic": 0.2604
     },
     {
       "endDate": "2022-10-31",
@@ -165,7 +168,7 @@
       "cashMM": 52.8,
       "netDebtMM": 87.6,
       "sharesOutMM": 70.67,
-      "epsBasic": -0.49,
+      "epsBasic": -0.4896,
       "epsDiluted": -0.49,
       "notes": "FY22: revenue +17% on Mexican price spike but op loss \u2212$37.2M (Peru smaller harvest, abrupt avocado price collapse Q4). EBITDA \u2212$12.4M. Net loss \u2212$34.6M, EPS \u2212$0.49. Wettest pivot year of cycle.",
       "capexMM": 61.2,
@@ -210,7 +213,8 @@
       "sharesOutMM": 70.73,
       "totalDebtMM": 155.7,
       "cashMM": 39.2,
-      "netDebtMM": 116.5
+      "netDebtMM": 116.5,
+      "epsBasic": -0.1244
     },
     {
       "endDate": "2023-04-30",
@@ -229,7 +233,8 @@
       "sharesOutMM": 70.79,
       "totalDebtMM": 180.2,
       "cashMM": 20.9,
-      "netDebtMM": 159.3
+      "netDebtMM": 159.3,
+      "epsBasic": -0.065
     },
     {
       "endDate": "2023-07-31",
@@ -248,7 +253,8 @@
       "sharesOutMM": 70.79,
       "totalDebtMM": 174.3,
       "cashMM": 23.0,
-      "netDebtMM": 151.3
+      "netDebtMM": 151.3,
+      "epsBasic": 0.0932
     },
     {
       "endDate": "2023-10-31",
@@ -261,7 +267,7 @@
       "cashMM": 42.9,
       "netDebtMM": 109.1,
       "sharesOutMM": 70.73,
-      "epsBasic": -0.04,
+      "epsBasic": -0.0396,
       "epsDiluted": -0.04,
       "notes": "FY23: revenue \u22129% YoY ($953.9M). Op income $6.9M + D&A $32.8M = EBITDA $39.7M (recovery vs FY22 disaster). Net loss \u2212$2.8M. Mango segment launched.",
       "capexMM": 49.8,
@@ -306,7 +312,8 @@
       "sharesOutMM": 70.84,
       "totalDebtMM": 159.4,
       "cashMM": 39.9,
-      "netDebtMM": 119.5
+      "netDebtMM": 119.5,
+      "epsBasic": 0.0
     },
     {
       "endDate": "2024-04-30",
@@ -325,7 +332,8 @@
       "sharesOutMM": 70.91,
       "totalDebtMM": 173.3,
       "cashMM": 46.2,
-      "netDebtMM": 127.1
+      "netDebtMM": 127.1,
+      "epsBasic": 0.0987
     },
     {
       "endDate": "2024-07-31",
@@ -344,7 +352,8 @@
       "sharesOutMM": 70.91,
       "totalDebtMM": 140.4,
       "cashMM": 49.5,
-      "netDebtMM": 90.9
+      "netDebtMM": 90.9,
+      "epsBasic": 0.1749
     },
     {
       "endDate": "2024-10-31",
@@ -357,7 +366,7 @@
       "cashMM": 58.0,
       "netDebtMM": 55.7,
       "sharesOutMM": 70.91,
-      "epsBasic": 0.52,
+      "epsBasic": 0.5176,
       "epsDiluted": 0.52,
       "notes": "FY24: revenue +29% to $1.23B on Mexico avocado per-lb price inflation + Peru recovery. EBITDA $103.4M (op income $65.7M + D&A $37.7M). Net income $36.7M, EPS $0.52. Net debt down to $55.7M. First Peru blueberry harvest contributed.",
       "capexMM": 32.2,
@@ -412,7 +421,8 @@
         "Marketing & Distribution": 295.8,
         "International Farming": 9.2,
         "Blueberries": 36.4
-      }
+      },
+      "epsBasic": 0.0549
     },
     {
       "endDate": "2025-04-30",
@@ -431,7 +441,8 @@
       "sharesOutMM": 70.62,
       "totalDebtMM": 150.2,
       "cashMM": 36.7,
-      "netDebtMM": 113.5
+      "netDebtMM": 113.5,
+      "epsBasic": 0.0439
     },
     {
       "endDate": "2025-07-31",
@@ -450,7 +461,8 @@
       "sharesOutMM": 70.62,
       "totalDebtMM": 137.4,
       "cashMM": 43.7,
-      "netDebtMM": 93.7
+      "netDebtMM": 93.7,
+      "epsBasic": 0.2082
     },
     {
       "endDate": "2025-10-31",
@@ -463,7 +475,7 @@
       "cashMM": 64.8,
       "netDebtMM": 31.0,
       "sharesOutMM": 70.57,
-      "epsBasic": 0.53,
+      "epsBasic": 0.5342,
       "epsDiluted": 0.53,
       "notes": "FY25: record revenue $1.39B (+13% YoY) on volume growth & favorable pricing. Op income $65.2M + D&A $34.6M = EBITDA $99.8M. Net income $37.7M, EPS $0.53. Net debt $31.0M, lowest since IPO. Blueberry segment scaling.",
       "capexMM": 51.4,
@@ -512,7 +524,8 @@
         "Marketing & Distribution": 234.8,
         "International Farming": 10.6,
         "Blueberries": 40.8
-      }
+      },
+      "epsBasic": -0.0099
     }
   ]
 }

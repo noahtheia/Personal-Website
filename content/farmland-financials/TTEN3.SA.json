@@ -269,7 +269,8 @@
       "netIncomeMM": 130,
       "sharesOutMM": 520.0,
       "netDebtMM": 200,
-      "notes": "1T22: receita R$1.62B, EBITDA R$175M (10.8%)."
+      "notes": "1T22: receita R$1.62B, EBITDA R$175M (10.8%).",
+      "epsBasic": 0.25
     },
     {
       "endDate": "2022-06-30",
@@ -279,7 +280,8 @@
       "netIncomeMM": 145,
       "sharesOutMM": 520.0,
       "netDebtMM": 450,
-      "notes": "2T22: receita R$1.81B, EBITDA R$195M."
+      "notes": "2T22: receita R$1.81B, EBITDA R$195M.",
+      "epsBasic": 0.2788
     },
     {
       "endDate": "2022-09-30",
@@ -289,7 +291,8 @@
       "netIncomeMM": 140,
       "sharesOutMM": 520.0,
       "netDebtMM": 620,
-      "notes": "3T22: receita R$1.86B, EBITDA R$195M."
+      "notes": "3T22: receita R$1.86B, EBITDA R$195M.",
+      "epsBasic": 0.2692
     },
     {
       "endDate": "2022-12-31",
@@ -327,7 +330,9 @@
       "cashMM": 519.7,
       "interestExpenseMM": 100,
       "dividendPerShare": 0.3,
-      "totalEquityMM": 1500
+      "totalEquityMM": 1500,
+      "epsBasic": 0.2115,
+      "bookValuePerShare": 2.8846
     },
     {
       "endDate": "2023-03-31",
@@ -337,7 +342,8 @@
       "netIncomeMM": 115,
       "sharesOutMM": 520.0,
       "netDebtMM": 1050,
-      "notes": "1T23: receita R$1.83B, EBITDA R$170M."
+      "notes": "1T23: receita R$1.83B, EBITDA R$170M.",
+      "epsBasic": 0.2212
     },
     {
       "endDate": "2023-06-30",
@@ -347,7 +353,8 @@
       "netIncomeMM": 120,
       "sharesOutMM": 520.0,
       "netDebtMM": 1250,
-      "notes": "2T23: receita R$1.92B, EBITDA R$185M. Vilhena-RO inaugura."
+      "notes": "2T23: receita R$1.92B, EBITDA R$185M. Vilhena-RO inaugura.",
+      "epsBasic": 0.2308
     },
     {
       "endDate": "2023-09-30",
@@ -357,7 +364,8 @@
       "netIncomeMM": 130,
       "sharesOutMM": 520.0,
       "netDebtMM": 1420,
-      "notes": "3T23: receita R$1.99B, EBITDA R$195M."
+      "notes": "3T23: receita R$1.99B, EBITDA R$195M.",
+      "epsBasic": 0.25
     },
     {
       "endDate": "2023-12-31",
@@ -395,7 +403,9 @@
       "cashMM": 480,
       "interestExpenseMM": 180,
       "dividendPerShare": 0.3,
-      "totalEquityMM": 1700
+      "totalEquityMM": 1700,
+      "epsBasic": 0.2212,
+      "bookValuePerShare": 3.2692
     },
     {
       "endDate": "2024-03-31",
@@ -405,7 +415,8 @@
       "netIncomeMM": 100,
       "sharesOutMM": 520.0,
       "netDebtMM": 1750,
-      "notes": "1T24: receita R$1.88B, EBITDA R$145M. Margens caindo."
+      "notes": "1T24: receita R$1.88B, EBITDA R$145M. Margens caindo.",
+      "epsBasic": 0.1923
     },
     {
       "endDate": "2024-06-30",
@@ -415,7 +426,8 @@
       "netIncomeMM": 110,
       "sharesOutMM": 520.0,
       "netDebtMM": 1950,
-      "notes": "2T24: receita R$2.05B, EBITDA R$165M."
+      "notes": "2T24: receita R$2.05B, EBITDA R$165M.",
+      "epsBasic": 0.2115
     },
     {
       "endDate": "2024-09-30",
@@ -425,7 +437,8 @@
       "netIncomeMM": 125,
       "sharesOutMM": 520.0,
       "netDebtMM": 2100,
-      "notes": "3T24: receita R$2.13B, EBITDA R$175M."
+      "notes": "3T24: receita R$2.13B, EBITDA R$175M.",
+      "epsBasic": 0.2404
     },
     {
       "endDate": "2024-12-31",
@@ -463,7 +476,9 @@
       "cashMM": 420,
       "interestExpenseMM": 220,
       "dividendPerShare": 0.2,
-      "totalEquityMM": 1850
+      "totalEquityMM": 1850,
+      "epsBasic": 0.2019,
+      "bookValuePerShare": 3.5577
     },
     {
       "endDate": "2025-03-31",
@@ -473,7 +488,8 @@
       "netIncomeMM": 120,
       "sharesOutMM": 520.0,
       "netDebtMM": 2200,
-      "notes": "1T25: receita R$2.05B, EBITDA R$180M. Vilhena ramp-up estabilizado."
+      "notes": "1T25: receita R$2.05B, EBITDA R$180M. Vilhena ramp-up estabilizado.",
+      "epsBasic": 0.2308
     },
     {
       "endDate": "2025-06-30",
@@ -483,7 +499,8 @@
       "netIncomeMM": 135,
       "sharesOutMM": 520.0,
       "netDebtMM": 2240,
-      "notes": "2T25: receita R$2.24B, EBITDA R$200M."
+      "notes": "2T25: receita R$2.24B, EBITDA R$200M.",
+      "epsBasic": 0.2596
     }
   ]
 }

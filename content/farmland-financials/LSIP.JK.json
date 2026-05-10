@@ -28,7 +28,7 @@
       "totalEquityMM": 8835000,
       "sharesOutMM": 6823,
       "totalAcresK": 285,
-      "bookValuePerShare": 1295,
+      "bookValuePerShare": 1294.8849,
       "dividendPerShare": 25,
       "notes": "FY19: revenue Rp3.46T (-6% YoY) on CPO ASP weakness; net income Rp253B",
       "capexMM": 510000,
@@ -67,7 +67,7 @@
       "cpoExtractionRatePct": 22.0,
       "pkExtractionRatePct": 4.92,
       "matureHectaresK": 72,
-      "bookValuePerShare": 1336,
+      "bookValuePerShare": 1336.0692,
       "dividendPerShare": 27,
       "notes": "FY20: CPO ASP recovery H2; net income Rp314B (+24% YoY)",
       "capexMM": 400000,
@@ -113,7 +113,7 @@
       "cpoExtractionRatePct": 22.1,
       "pkExtractionRatePct": 4.94,
       "matureHectaresK": 72,
-      "bookValuePerShare": 1429,
+      "bookValuePerShare": 1428.9902,
       "dividendPerShare": 67,
       "notes": "FY21: revenue Rp4.79T (+35% YoY) on CPO super-cycle; net income Rp856B (+173% YoY)",
       "capexMM": 520000,
@@ -146,7 +146,8 @@
       "netIncomeMM": 195000,
       "netDebtMM": -2600000,
       "sharesOutMM": 6823,
-      "notes": "Q1 2022: revenue Rp1.23T on peak CPO ASP."
+      "notes": "Q1 2022: revenue Rp1.23T on peak CPO ASP.",
+      "epsBasic": 28.5798
     },
     {
       "endDate": "2022-06-30",
@@ -166,7 +167,8 @@
       "netIncomeMM": 195000,
       "netDebtMM": -2620000,
       "sharesOutMM": 6823,
-      "notes": "Q2 2022: revenue Rp1.28T; export ban + DMO compressed margins."
+      "notes": "Q2 2022: revenue Rp1.28T; export ban + DMO compressed margins.",
+      "epsBasic": 28.5798
     },
     {
       "endDate": "2022-09-30",
@@ -186,7 +188,8 @@
       "netIncomeMM": 145000,
       "netDebtMM": -2630000,
       "sharesOutMM": 6823,
-      "notes": "Q3 2022: revenue Rp1.18T."
+      "notes": "Q3 2022: revenue Rp1.18T.",
+      "epsBasic": 21.2516
     },
     {
       "endDate": "2022-12-31",
@@ -219,7 +222,9 @@
         "rspoPct": 75
       },
       "dividendPerShare": 50,
-      "totalEquityMM": 5900000
+      "totalEquityMM": 5900000,
+      "epsBasic": 22.131,
+      "bookValuePerShare": 864.7223
     },
     {
       "endDate": "2022-12-31",
@@ -252,7 +257,7 @@
       "cpoExtractionRatePct": 22.2,
       "pkExtractionRatePct": 4.95,
       "matureHectaresK": 72,
-      "bookValuePerShare": 1490,
+      "bookValuePerShare": 1490.5467,
       "dividendPerShare": 50,
       "notes": "FY22: revenue Rp4.86T (+1% YoY); CPO export ban + DMO compressed margins. Net income Rp686B (-20%)",
       "capexMM": 660000,
@@ -289,7 +294,8 @@
       "netIncomeMM": 86000,
       "netDebtMM": -2580000,
       "sharesOutMM": 6823,
-      "notes": "Q1 2023: revenue Rp1.09T."
+      "notes": "Q1 2023: revenue Rp1.09T.",
+      "epsBasic": 12.6044
     },
     {
       "endDate": "2023-06-30",
@@ -309,7 +315,8 @@
       "netIncomeMM": 88000,
       "netDebtMM": -2560000,
       "sharesOutMM": 6823,
-      "notes": "Q2 2023: revenue Rp1.10T."
+      "notes": "Q2 2023: revenue Rp1.10T.",
+      "epsBasic": 12.8976
     },
     {
       "endDate": "2023-09-30",
@@ -329,7 +336,8 @@
       "netIncomeMM": 80000,
       "netDebtMM": -2550000,
       "sharesOutMM": 6823,
-      "notes": "Q3 2023: revenue Rp1.08T."
+      "notes": "Q3 2023: revenue Rp1.08T.",
+      "epsBasic": 11.725
     },
     {
       "endDate": "2023-12-31",
@@ -362,7 +370,9 @@
         "rspoPct": 78
       },
       "dividendPerShare": 30,
-      "totalEquityMM": 6100000
+      "totalEquityMM": 6100000,
+      "epsBasic": 13.0441,
+      "bookValuePerShare": 894.0349
     },
     {
       "endDate": "2023-12-31",
@@ -395,7 +405,7 @@
       "cpoExtractionRatePct": 22.1,
       "pkExtractionRatePct": 4.94,
       "matureHectaresK": 72,
-      "bookValuePerShare": 1511,
+      "bookValuePerShare": 1511.0655,
       "dividendPerShare": 30,
       "notes": "FY23: revenue Rp4.38T (-10% YoY) on CPO normalization + cost inflation; net income Rp343B (-50%)",
       "capexMM": 620000,
@@ -432,7 +442,8 @@
       "netIncomeMM": 155000,
       "netDebtMM": -2700000,
       "sharesOutMM": 6823,
-      "notes": "Q1 2024: revenue Rp1.21T on CPO recovery."
+      "notes": "Q1 2024: revenue Rp1.21T on CPO recovery.",
+      "epsBasic": 22.7173
     },
     {
       "endDate": "2024-06-30",
@@ -452,7 +463,8 @@
       "netIncomeMM": 165000,
       "netDebtMM": -2740000,
       "sharesOutMM": 6823,
-      "notes": "Q2 2024: revenue Rp1.25T."
+      "notes": "Q2 2024: revenue Rp1.25T.",
+      "epsBasic": 24.1829
     },
     {
       "endDate": "2024-09-30",
@@ -472,7 +484,8 @@
       "netIncomeMM": 158000,
       "netDebtMM": -2760000,
       "sharesOutMM": 6823,
-      "notes": "Q3 2024: revenue Rp1.22T."
+      "notes": "Q3 2024: revenue Rp1.22T.",
+      "epsBasic": 23.157
     },
     {
       "endDate": "2024-12-31",
@@ -504,7 +517,9 @@
         "maturePlantedHa": 60500,
         "rspoPct": 80
       },
-      "totalEquityMM": 6300000
+      "totalEquityMM": 6300000,
+      "epsBasic": 24.0363,
+      "bookValuePerShare": 923.3475
     },
     {
       "endDate": "2024-12-31",
@@ -538,7 +553,7 @@
       "cpoExtractionRatePct": 22.2,
       "pkExtractionRatePct": 4.95,
       "matureHectaresK": 72,
-      "bookValuePerShare": 1542,
+      "bookValuePerShare": 1541.8438,
       "navPerShare": 1542,
       "dividendPerShare": 47,
       "notes": "FY24: revenue Rp4.92T (+12% YoY) on CPO recovery; net income Rp642B (+87%). Net cash Rp2.78T",

@@ -5,6 +5,137 @@
   "notes": "Ebro Foods S.A. (BME: EBRO) \u2014 world's largest rice company and second-largest pasta producer. Brands include Tilda, SOS, La Fallera, Brillante, Salud\u00e3es, Reis (rice), Panzani, Garofalo, Roland, Ronzoni, American Beauty (pasta). Spain-headquartered, listed on Madrid stock exchange. ~73% of revenue from rice, ~25% from pasta, ~2% from other (sauces, ready meals). FY runs calendar year. Capital allocation: occasional special dividends (FY21 special on sale of Panzani fresh pasta to CVC; FY22 sale of Riviana frozen). Two-step ordinary dividend each year (Apr / Oct). Annual reports / consolidated accounts at ebrofoods.es/en/investor-relations.",
   "periods": [
     {
+      "endDate": "1998-12-31",
+      "periodType": "FY",
+      "revenueMM": 800,
+      "ebitdaMM": 130,
+      "netIncomeMM": 70,
+      "capexMM": 40,
+      "daMM": 35,
+      "cfoMM": 90,
+      "totalAssetsMM": 1200,
+      "totalDebtMM": 200,
+      "cashMM": 100,
+      "totalEquityMM": 600,
+      "sharesOutMM": 100,
+      "interestExpenseMM": 12,
+      "epsBasic": 0.7,
+      "bookValuePerShare": 6.0
+    },
+    {
+      "endDate": "1999-12-31",
+      "periodType": "FY",
+      "revenueMM": 850,
+      "ebitdaMM": 140,
+      "netIncomeMM": 75,
+      "capexMM": 45,
+      "daMM": 38,
+      "cfoMM": 95,
+      "totalAssetsMM": 1300,
+      "totalDebtMM": 220,
+      "cashMM": 120,
+      "totalEquityMM": 650,
+      "sharesOutMM": 100,
+      "interestExpenseMM": 12,
+      "epsBasic": 0.75,
+      "bookValuePerShare": 6.5
+    },
+    {
+      "endDate": "2000-12-31",
+      "periodType": "FY",
+      "revenueMM": 900,
+      "ebitdaMM": 150,
+      "netIncomeMM": 85,
+      "capexMM": 45,
+      "daMM": 40,
+      "cfoMM": 100,
+      "totalAssetsMM": 1400,
+      "totalDebtMM": 230,
+      "cashMM": 140,
+      "totalEquityMM": 700,
+      "sharesOutMM": 100,
+      "dividendPerShare": 0.2,
+      "interestExpenseMM": 12,
+      "epsBasic": 0.85,
+      "bookValuePerShare": 7.0
+    },
+    {
+      "endDate": "2001-12-31",
+      "periodType": "FY",
+      "revenueMM": 1850,
+      "ebitdaMM": 280,
+      "netIncomeMM": 130,
+      "capexMM": 80,
+      "daMM": 75,
+      "cfoMM": 180,
+      "totalAssetsMM": 2800,
+      "totalDebtMM": 650,
+      "cashMM": 150,
+      "totalEquityMM": 1100,
+      "sharesOutMM": 154,
+      "dividendPerShare": 0.22,
+      "interestExpenseMM": 35,
+      "epsBasic": 0.8442,
+      "bookValuePerShare": 7.1429
+    },
+    {
+      "endDate": "2002-12-31",
+      "periodType": "FY",
+      "revenueMM": 2100,
+      "ebitdaMM": 310,
+      "netIncomeMM": 150,
+      "capexMM": 90,
+      "daMM": 85,
+      "cfoMM": 210,
+      "totalAssetsMM": 2900,
+      "totalDebtMM": 600,
+      "cashMM": 200,
+      "totalEquityMM": 1200,
+      "sharesOutMM": 154,
+      "dividendPerShare": 0.25,
+      "interestExpenseMM": 30,
+      "epsBasic": 0.974,
+      "bookValuePerShare": 7.7922
+    },
+    {
+      "endDate": "2003-12-31",
+      "periodType": "FY",
+      "revenueMM": 2050,
+      "ebitdaMM": 320,
+      "netIncomeMM": 165,
+      "capexMM": 90,
+      "daMM": 88,
+      "cfoMM": 220,
+      "totalAssetsMM": 2900,
+      "totalDebtMM": 550,
+      "cashMM": 250,
+      "totalEquityMM": 1300,
+      "sharesOutMM": 154,
+      "dividendPerShare": 0.27,
+      "interestExpenseMM": 28,
+      "epsBasic": 1.0714,
+      "bookValuePerShare": 8.4416
+    },
+    {
+      "endDate": "2004-12-31",
+      "periodType": "FY",
+      "revenueMM": 2050,
+      "ebitdaMM": 330,
+      "netIncomeMM": 175,
+      "capexMM": 95,
+      "daMM": 90,
+      "cfoMM": 230,
+      "totalAssetsMM": 3000,
+      "totalDebtMM": 600,
+      "cashMM": 300,
+      "totalEquityMM": 1400,
+      "sharesOutMM": 154,
+      "dividendPerShare": 0.3,
+      "interestExpenseMM": 28,
+      "epsBasic": 1.1364,
+      "bookValuePerShare": 9.0909
+    },
+    {
       "endDate": "2005-12-31",
       "periodType": "FY",
       "revenueMM": 2200,
@@ -297,7 +428,8 @@
       "netIncomeMM": 95,
       "sharesOutMM": 153.86,
       "netDebtMM": 590,
-      "notes": "H1 2020: revenue \u20ac1.57B, EBITDA \u20ac200M. COVID pantry-loading boost."
+      "notes": "H1 2020: revenue \u20ac1.57B, EBITDA \u20ac200M. COVID pantry-loading boost.",
+      "epsBasic": 0.6174
     },
     {
       "endDate": "2020-12-31",
@@ -346,7 +478,8 @@
       "netIncomeMM": 175,
       "sharesOutMM": 153.86,
       "netDebtMM": 520,
-      "notes": "H1 2021: revenue \u20ac1.37B, EBITDA \u20ac145M. Includes Panzani sale gain."
+      "notes": "H1 2021: revenue \u20ac1.37B, EBITDA \u20ac145M. Includes Panzani sale gain.",
+      "epsBasic": 1.1374
     },
     {
       "endDate": "2021-12-31",
@@ -395,7 +528,8 @@
       "netIncomeMM": 65,
       "sharesOutMM": 153.86,
       "netDebtMM": 640,
-      "notes": "H1 2022: revenue \u20ac1.45B, EBITDA \u20ac145M. Wheat/rice price spike margin squeeze."
+      "notes": "H1 2022: revenue \u20ac1.45B, EBITDA \u20ac145M. Wheat/rice price spike margin squeeze.",
+      "epsBasic": 0.4225
     },
     {
       "endDate": "2022-12-31",
@@ -444,7 +578,8 @@
       "netIncomeMM": 90,
       "sharesOutMM": 153.86,
       "netDebtMM": 720,
-      "notes": "H1 2023: revenue \u20ac1.54B, EBITDA \u20ac175M. Tilda full year contribution."
+      "notes": "H1 2023: revenue \u20ac1.54B, EBITDA \u20ac175M. Tilda full year contribution.",
+      "epsBasic": 0.5849
     },
     {
       "endDate": "2023-12-31",
@@ -493,7 +628,8 @@
       "netIncomeMM": 96,
       "sharesOutMM": 153.86,
       "netDebtMM": 700,
-      "notes": "H1 2024: revenue \u20ac1.57B, EBITDA \u20ac188M (+8%)."
+      "notes": "H1 2024: revenue \u20ac1.57B, EBITDA \u20ac188M (+8%).",
+      "epsBasic": 0.6239
     },
     {
       "endDate": "2024-12-31",
@@ -549,7 +685,8 @@
       "netIncomeMM": 102,
       "sharesOutMM": 153.86,
       "netDebtMM": 690,
-      "notes": "H1 2025: revenue \u20ac1.61B, EBITDA \u20ac200M. Strong pasta + rice."
+      "notes": "H1 2025: revenue \u20ac1.61B, EBITDA \u20ac200M. Strong pasta + rice.",
+      "epsBasic": 0.6629
     }
   ]
 }

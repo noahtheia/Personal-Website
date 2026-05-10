@@ -130,7 +130,8 @@
       "netIncomeMM": 380000,
       "netDebtMM": 8200000,
       "sharesOutMM": 11727,
-      "notes": "Q1 2022: revenue Rp12.0T."
+      "notes": "Q1 2022: revenue Rp12.0T.",
+      "epsBasic": 32.4039
     },
     {
       "endDate": "2022-06-30",
@@ -152,7 +153,8 @@
       "netIncomeMM": 360000,
       "netDebtMM": 8300000,
       "sharesOutMM": 11727,
-      "notes": "Q2 2022: revenue Rp12.5T."
+      "notes": "Q2 2022: revenue Rp12.5T.",
+      "epsBasic": 30.6984
     },
     {
       "endDate": "2022-09-30",
@@ -174,7 +176,8 @@
       "netIncomeMM": 295000,
       "netDebtMM": 8260000,
       "sharesOutMM": 11727,
-      "notes": "Q3 2022: revenue Rp12.3T; feed-input cost spike."
+      "notes": "Q3 2022: revenue Rp12.3T; feed-input cost spike.",
+      "epsBasic": 25.1556
     },
     {
       "endDate": "2022-12-31",
@@ -205,7 +208,8 @@
         "plants": 34,
         "weeklyHeadCapacity": 17800000,
         "capacityUtilizationPct": 80
-      }
+      },
+      "epsBasic": 29.0782
     },
     {
       "endDate": "2022-12-31",
@@ -268,7 +272,8 @@
       "netIncomeMM": 220000,
       "netDebtMM": 7900000,
       "sharesOutMM": 11727,
-      "notes": "Q1 2023: revenue Rp12.7T; weak DOC pricing."
+      "notes": "Q1 2023: revenue Rp12.7T; weak DOC pricing.",
+      "epsBasic": 18.7601
     },
     {
       "endDate": "2023-06-30",
@@ -290,7 +295,8 @@
       "netIncomeMM": 230000,
       "netDebtMM": 7950000,
       "sharesOutMM": 11727,
-      "notes": "Q2 2023: revenue Rp12.9T."
+      "notes": "Q2 2023: revenue Rp12.9T.",
+      "epsBasic": 19.6129
     },
     {
       "endDate": "2023-09-30",
@@ -312,7 +318,8 @@
       "netIncomeMM": 225000,
       "netDebtMM": 7850000,
       "sharesOutMM": 11727,
-      "notes": "Q3 2023: revenue Rp12.8T."
+      "notes": "Q3 2023: revenue Rp12.8T.",
+      "epsBasic": 19.1865
     },
     {
       "endDate": "2023-12-31",
@@ -343,7 +350,8 @@
         "plants": 35,
         "weeklyHeadCapacity": 18000000,
         "capacityUtilizationPct": 76
-      }
+      },
+      "epsBasic": 20.9772
     },
     {
       "endDate": "2023-12-31",
@@ -406,7 +414,8 @@
       "netIncomeMM": 450000,
       "netDebtMM": 7400000,
       "sharesOutMM": 11727,
-      "notes": "Q1 2024: revenue Rp13.5T; DOC pricing recovery."
+      "notes": "Q1 2024: revenue Rp13.5T; DOC pricing recovery.",
+      "epsBasic": 38.373
     },
     {
       "endDate": "2024-06-30",
@@ -428,7 +437,8 @@
       "netIncomeMM": 510000,
       "netDebtMM": 7300000,
       "sharesOutMM": 11727,
-      "notes": "Q2 2024: revenue Rp13.75T."
+      "notes": "Q2 2024: revenue Rp13.75T.",
+      "epsBasic": 43.4894
     },
     {
       "endDate": "2024-09-30",
@@ -450,7 +460,8 @@
       "netIncomeMM": 480000,
       "netDebtMM": 7200000,
       "sharesOutMM": 11727,
-      "notes": "Q3 2024: revenue Rp13.55T."
+      "notes": "Q3 2024: revenue Rp13.55T.",
+      "epsBasic": 40.9312
     },
     {
       "endDate": "2024-12-31",
@@ -481,7 +492,8 @@
         "plants": 35,
         "weeklyHeadCapacity": 18000000,
         "capacityUtilizationPct": 78
-      }
+      },
+      "epsBasic": 43.6599
     },
     {
       "endDate": "2024-12-31",

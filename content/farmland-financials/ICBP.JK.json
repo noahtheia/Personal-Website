@@ -28,7 +28,7 @@
       "netDebtMM": -2700000,
       "totalEquityMM": 26671000,
       "sharesOutMM": 11662,
-      "bookValuePerShare": 2287,
+      "bookValuePerShare": 2287.0005,
       "dividendPerShare": 215,
       "notes": "FY19: Rp42.3T revenue, Rp5.04T net profit. Net cash positive. Pre-Pinehill.",
       "capexMM": 2900000,
@@ -60,7 +60,7 @@
       "netDebtMM": 33900000,
       "totalEquityMM": 33559000,
       "sharesOutMM": 11662,
-      "bookValuePerShare": 2877,
+      "bookValuePerShare": 2877.6368,
       "dividendPerShare": 187,
       "notes": "FY20: Pinehill Africa/MENA noodles (US$2.05B) consolidated H2; debt jumped to Rp41.7T. Net income Rp6.59T.",
       "capexMM": 3100000,
@@ -125,7 +125,7 @@
       "netDebtMM": 30000000,
       "totalEquityMM": 38419000,
       "sharesOutMM": 11662,
-      "bookValuePerShare": 3294,
+      "bookValuePerShare": 3294.3749,
       "dividendPerShare": 215,
       "notes": "FY21: Rp56.8T (+22% YoY) full-year Pinehill consol. Net income Rp6.39T.",
       "capexMM": 3700000,
@@ -186,7 +186,8 @@
       "netIncomeMM": 1100000,
       "netDebtMM": 31500000,
       "sharesOutMM": 11662,
-      "notes": "Q1 2022: revenue Rp15.8T."
+      "notes": "Q1 2022: revenue Rp15.8T.",
+      "epsBasic": 94.3234
     },
     {
       "endDate": "2022-06-30",
@@ -208,7 +209,8 @@
       "netIncomeMM": 1130000,
       "netDebtMM": 32000000,
       "sharesOutMM": 11662,
-      "notes": "Q2 2022: revenue Rp16.4T."
+      "notes": "Q2 2022: revenue Rp16.4T.",
+      "epsBasic": 96.8959
     },
     {
       "endDate": "2022-09-30",
@@ -230,7 +232,8 @@
       "netIncomeMM": 1140000,
       "netDebtMM": 32700000,
       "sharesOutMM": 11662,
-      "notes": "Q3 2022: revenue Rp16.1T."
+      "notes": "Q3 2022: revenue Rp16.1T.",
+      "epsBasic": 97.7534
     },
     {
       "endDate": "2022-12-31",
@@ -289,7 +292,8 @@
           "revenueMM": 800000,
           "ebitdaMM": 65000
         }
-      ]
+      ],
+      "epsBasic": 104.356
     },
     {
       "endDate": "2022-12-31",
@@ -315,7 +319,7 @@
       "netDebtMM": 33300000,
       "totalEquityMM": 40912000,
       "sharesOutMM": 11662,
-      "bookValuePerShare": 3508,
+      "bookValuePerShare": 3508.1461,
       "dividendPerShare": 197,
       "notes": "FY22: Rp64.8T (+14% YoY). Strong noodle volumes; FX losses on USD debt. Net income Rp4.59T.",
       "capexMM": 4400000,
@@ -380,7 +384,8 @@
       "netIncomeMM": 1790000,
       "netDebtMM": 30000000,
       "sharesOutMM": 11662,
-      "notes": "Q1 2023: revenue Rp16.9T."
+      "notes": "Q1 2023: revenue Rp16.9T.",
+      "epsBasic": 153.49
     },
     {
       "endDate": "2023-06-30",
@@ -402,7 +407,8 @@
       "netIncomeMM": 1790000,
       "netDebtMM": 29500000,
       "sharesOutMM": 11662,
-      "notes": "Q2 2023: revenue Rp17.0T."
+      "notes": "Q2 2023: revenue Rp17.0T.",
+      "epsBasic": 153.49
     },
     {
       "endDate": "2023-09-30",
@@ -424,7 +430,8 @@
       "netIncomeMM": 1800000,
       "netDebtMM": 29200000,
       "sharesOutMM": 11662,
-      "notes": "Q3 2023: revenue Rp16.9T."
+      "notes": "Q3 2023: revenue Rp16.9T.",
+      "epsBasic": 154.3475
     },
     {
       "endDate": "2023-12-31",
@@ -483,7 +490,8 @@
           "revenueMM": 1000000,
           "ebitdaMM": 80000
         }
-      ]
+      ],
+      "epsBasic": 154.6904
     },
     {
       "endDate": "2023-12-31",
@@ -509,7 +517,7 @@
       "netDebtMM": 28700000,
       "totalEquityMM": 47024000,
       "sharesOutMM": 11662,
-      "bookValuePerShare": 4032,
+      "bookValuePerShare": 4032.2415,
       "dividendPerShare": 230,
       "notes": "FY23: Rp67.9T revenue (+5% YoY), Rp7.18T net profit (+57%) \u2014 strong margin recovery + lower input cost.",
       "capexMM": 4200000,
@@ -574,7 +582,8 @@
       "netIncomeMM": 2670000,
       "netDebtMM": 28000000,
       "sharesOutMM": 11662,
-      "notes": "Q1 2024: revenue Rp17.6T; FX hedge gains lifted net income."
+      "notes": "Q1 2024: revenue Rp17.6T; FX hedge gains lifted net income.",
+      "epsBasic": 228.9487
     },
     {
       "endDate": "2024-06-30",
@@ -596,7 +605,8 @@
       "netIncomeMM": 2740000,
       "netDebtMM": 27500000,
       "sharesOutMM": 11662,
-      "notes": "Q2 2024: revenue Rp17.85T."
+      "notes": "Q2 2024: revenue Rp17.85T.",
+      "epsBasic": 234.9511
     },
     {
       "endDate": "2024-09-30",
@@ -618,7 +628,8 @@
       "netIncomeMM": 2710000,
       "netDebtMM": 27000000,
       "sharesOutMM": 11662,
-      "notes": "Q3 2024: revenue Rp17.7T."
+      "notes": "Q3 2024: revenue Rp17.7T.",
+      "epsBasic": 232.3787
     },
     {
       "endDate": "2024-12-31",
@@ -677,7 +688,8 @@
           "revenueMM": 1300000,
           "ebitdaMM": 95000
         }
-      ]
+      ],
+      "epsBasic": 235.8086
     },
     {
       "endDate": "2024-12-31",
@@ -703,7 +715,7 @@
       "netDebtMM": 26210000,
       "totalEquityMM": 52720000,
       "sharesOutMM": 11662,
-      "bookValuePerShare": 4520,
+      "bookValuePerShare": 4520.6654,
       "navPerShare": 4520,
       "dividendPerShare": 248,
       "notes": "FY24: Rp71.2T revenue (+5% YoY), Rp10.87T net profit (+51% YoY). Lower wheat/palm oil + FX hedge gains. Net debt down to ~Rp26.2T.",

@@ -214,7 +214,7 @@
       "ebitdaMM": 740,
       "netDebtMM": 2950,
       "sharesOutMM": 59.13,
-      "bookValuePerShare": 110.0,
+      "bookValuePerShare": 122.6112,
       "dividendPerShare": 0.0,
       "capexMM": 1100,
       "daMM": 425,
@@ -260,7 +260,7 @@
       "ebitdaMM": 1085,
       "netDebtMM": 3050,
       "sharesOutMM": 59.13,
-      "bookValuePerShare": 117.0,
+      "bookValuePerShare": 131.9127,
       "dividendPerShare": 5.5,
       "capexMM": 950,
       "daMM": 460,
@@ -307,7 +307,8 @@
       "netIncomeMM": 195,
       "netDebtMM": 3700,
       "sharesOutMM": 59.13,
-      "notes": "Q1 2022: Revenue DKK 1,280M, Operational EBIT DKK 250M."
+      "notes": "Q1 2022: Revenue DKK 1,280M, Operational EBIT DKK 250M.",
+      "epsBasic": 3.2978
     },
     {
       "endDate": "2022-06-30",
@@ -330,7 +331,8 @@
       "netIncomeMM": 295,
       "netDebtMM": 3850,
       "sharesOutMM": 59.13,
-      "notes": "Q2 2022: Revenue DKK 1,565M \u2014 strong salmon prices."
+      "notes": "Q2 2022: Revenue DKK 1,565M \u2014 strong salmon prices.",
+      "epsBasic": 4.989
     },
     {
       "endDate": "2022-09-30",
@@ -353,7 +355,8 @@
       "netIncomeMM": 200,
       "netDebtMM": 4000,
       "sharesOutMM": 59.13,
-      "notes": "Q3 2022: Revenue DKK 1,430M, Operational EBIT DKK 261M."
+      "notes": "Q3 2022: Revenue DKK 1,430M, Operational EBIT DKK 261M.",
+      "epsBasic": 3.3824
     },
     {
       "endDate": "2022-12-31",
@@ -375,7 +378,7 @@
       "ebitdaMM": 1715,
       "netDebtMM": 4100,
       "sharesOutMM": 59.13,
-      "bookValuePerShare": 132.0,
+      "bookValuePerShare": 141.2143,
       "dividendPerShare": 11.5,
       "capexMM": 1100,
       "daMM": 480,
@@ -439,7 +442,9 @@
       "totalDebtMM": 4500,
       "cashMM": 500,
       "propertyBookMM": 3500,
-      "interestExpenseMM": 150.0
+      "interestExpenseMM": 150.0,
+      "epsBasic": 3.8897,
+      "bookValuePerShare": 141.2143
     },
     {
       "endDate": "2023-03-31",
@@ -462,7 +467,8 @@
       "netIncomeMM": 270,
       "netDebtMM": 4400,
       "sharesOutMM": 59.13,
-      "notes": "Q1 2023: Revenue DKK 1,620M, Operational EBIT DKK 353M."
+      "notes": "Q1 2023: Revenue DKK 1,620M, Operational EBIT DKK 353M.",
+      "epsBasic": 4.5662
     },
     {
       "endDate": "2023-06-30",
@@ -485,7 +491,8 @@
       "netIncomeMM": 305,
       "netDebtMM": 4600,
       "sharesOutMM": 59.13,
-      "notes": "Q2 2023: Revenue DKK 1,810M, Operational EBIT DKK 415M."
+      "notes": "Q2 2023: Revenue DKK 1,810M, Operational EBIT DKK 415M.",
+      "epsBasic": 5.1581
     },
     {
       "endDate": "2023-09-30",
@@ -508,7 +515,8 @@
       "netIncomeMM": 195,
       "netDebtMM": 4750,
       "sharesOutMM": 59.13,
-      "notes": "Q3 2023: Revenue DKK 1,640M, Operational EBIT DKK 248M. SSC underperformance on biological issues."
+      "notes": "Q3 2023: Revenue DKK 1,640M, Operational EBIT DKK 248M. SSC underperformance on biological issues.",
+      "epsBasic": 3.2978
     },
     {
       "endDate": "2023-12-31",
@@ -530,7 +538,7 @@
       "ebitdaMM": 1820,
       "netDebtMM": 4900,
       "sharesOutMM": 59.13,
-      "bookValuePerShare": 142.0,
+      "bookValuePerShare": 147.1334,
       "dividendPerShare": 8.0,
       "capexMM": 1300,
       "daMM": 525,
@@ -594,7 +602,9 @@
       "totalDebtMM": 5200,
       "cashMM": 550,
       "propertyBookMM": 4000,
-      "interestExpenseMM": 250.0
+      "interestExpenseMM": 250.0,
+      "epsBasic": 3.6361,
+      "bookValuePerShare": 147.1334
     },
     {
       "endDate": "2024-03-31",
@@ -617,7 +627,8 @@
       "netIncomeMM": 220,
       "netDebtMM": 5100,
       "sharesOutMM": 59.13,
-      "notes": "Q1 2024: Revenue DKK 1,745M, Operational EBIT DKK 290M."
+      "notes": "Q1 2024: Revenue DKK 1,745M, Operational EBIT DKK 290M.",
+      "epsBasic": 3.7206
     },
     {
       "endDate": "2024-06-30",
@@ -640,7 +651,8 @@
       "netIncomeMM": 320,
       "netDebtMM": 5050,
       "sharesOutMM": 59.13,
-      "notes": "Q2 2024: Revenue DKK 1,980M, Operational EBIT DKK 437M."
+      "notes": "Q2 2024: Revenue DKK 1,980M, Operational EBIT DKK 437M.",
+      "epsBasic": 5.4118
     },
     {
       "endDate": "2024-09-30",
@@ -663,7 +675,8 @@
       "netIncomeMM": 200,
       "netDebtMM": 5050,
       "sharesOutMM": 59.13,
-      "notes": "Q3 2024: Revenue DKK 1,750M, Operational EBIT DKK 253M."
+      "notes": "Q3 2024: Revenue DKK 1,750M, Operational EBIT DKK 253M.",
+      "epsBasic": 3.3824
     },
     {
       "endDate": "2024-12-31",
@@ -685,7 +698,7 @@
       "ebitdaMM": 1885,
       "netDebtMM": 5000,
       "sharesOutMM": 59.13,
-      "bookValuePerShare": 148.0,
+      "bookValuePerShare": 150.8541,
       "dividendPerShare": 8.5,
       "capexMM": 1100,
       "daMM": 540,
@@ -749,7 +762,9 @@
       "totalDebtMM": 5000,
       "cashMM": 580,
       "propertyBookMM": 3800,
-      "interestExpenseMM": 280.0
+      "interestExpenseMM": 280.0,
+      "epsBasic": 4.5662,
+      "bookValuePerShare": 150.8541
     },
     {
       "endDate": "2025-03-31",
@@ -772,7 +787,8 @@
       "netIncomeMM": 245,
       "netDebtMM": 5050,
       "sharesOutMM": 59.13,
-      "notes": "Q1 2025: Revenue DKK ~1,840M, Operational EBIT DKK ~323M (estimate)."
+      "notes": "Q1 2025: Revenue DKK ~1,840M, Operational EBIT DKK ~323M (estimate).",
+      "epsBasic": 4.1434
     }
   ]
 }

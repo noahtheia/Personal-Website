@@ -199,7 +199,8 @@
       "netIncomeMM": 14,
       "sharesOutMM": 91.0,
       "netDebtMM": -200,
-      "notes": "1T22: receita R$95M, EBITDA R$22M."
+      "notes": "1T22: receita R$95M, EBITDA R$22M.",
+      "epsBasic": 0.1538
     },
     {
       "endDate": "2022-06-30",
@@ -209,7 +210,8 @@
       "netIncomeMM": 22,
       "sharesOutMM": 91.0,
       "netDebtMM": -160,
-      "notes": "2T22: receita R$130M, EBITDA R$35M."
+      "notes": "2T22: receita R$130M, EBITDA R$35M.",
+      "epsBasic": 0.2418
     },
     {
       "endDate": "2022-09-30",
@@ -219,7 +221,8 @@
       "netIncomeMM": 32,
       "sharesOutMM": 91.0,
       "netDebtMM": -120,
-      "notes": "3T22: receita R$175M, EBITDA R$50M. Pico sazonal pr\u00e9-safra."
+      "notes": "3T22: receita R$175M, EBITDA R$50M. Pico sazonal pr\u00e9-safra.",
+      "epsBasic": 0.3516
     },
     {
       "endDate": "2022-12-31",
@@ -243,7 +246,9 @@
       "cashMM": 70.4,
       "interestExpenseMM": 20,
       "dividendPerShare": 0.3,
-      "totalEquityMM": 600
+      "totalEquityMM": 600,
+      "epsBasic": 0.2967,
+      "bookValuePerShare": 6.5934
     },
     {
       "endDate": "2023-03-31",
@@ -253,7 +258,8 @@
       "netIncomeMM": 18,
       "sharesOutMM": 91.0,
       "netDebtMM": -30,
-      "notes": "1T23: receita R$115M, EBITDA R$28M."
+      "notes": "1T23: receita R$115M, EBITDA R$28M.",
+      "epsBasic": 0.1978
     },
     {
       "endDate": "2023-06-30",
@@ -263,7 +269,8 @@
       "netIncomeMM": 27,
       "sharesOutMM": 91.0,
       "netDebtMM": 10,
-      "notes": "2T23: receita R$155M, EBITDA R$42M."
+      "notes": "2T23: receita R$155M, EBITDA R$42M.",
+      "epsBasic": 0.2967
     },
     {
       "endDate": "2023-09-30",
@@ -273,7 +280,8 @@
       "netIncomeMM": 38,
       "sharesOutMM": 91.0,
       "netDebtMM": 30,
-      "notes": "3T23: receita R$215M, EBITDA R$58M."
+      "notes": "3T23: receita R$215M, EBITDA R$58M.",
+      "epsBasic": 0.4176
     },
     {
       "endDate": "2023-12-31",
@@ -297,7 +305,9 @@
       "cashMM": 75.3,
       "interestExpenseMM": 25,
       "dividendPerShare": 0.25,
-      "totalEquityMM": 660
+      "totalEquityMM": 660,
+      "epsBasic": 0.2418,
+      "bookValuePerShare": 7.2527
     },
     {
       "endDate": "2024-03-31",
@@ -307,7 +317,8 @@
       "netIncomeMM": 16,
       "sharesOutMM": 91.0,
       "netDebtMM": 70,
-      "notes": "1T24: receita R$130M, EBITDA R$28M."
+      "notes": "1T24: receita R$130M, EBITDA R$28M.",
+      "epsBasic": 0.1758
     },
     {
       "endDate": "2024-06-30",
@@ -317,7 +328,8 @@
       "netIncomeMM": 22,
       "sharesOutMM": 91.0,
       "netDebtMM": 95,
-      "notes": "2T24: receita R$165M, EBITDA R$38M."
+      "notes": "2T24: receita R$165M, EBITDA R$38M.",
+      "epsBasic": 0.2418
     },
     {
       "endDate": "2024-09-30",
@@ -327,7 +339,8 @@
       "netIncomeMM": 33,
       "sharesOutMM": 91.0,
       "netDebtMM": 110,
-      "notes": "3T24: receita R$230M, EBITDA R$55M."
+      "notes": "3T24: receita R$230M, EBITDA R$55M.",
+      "epsBasic": 0.3626
     },
     {
       "endDate": "2024-12-31",
@@ -351,7 +364,9 @@
       "cashMM": 73.0,
       "interestExpenseMM": 30,
       "dividendPerShare": 0.2,
-      "totalEquityMM": 700
+      "totalEquityMM": 700,
+      "epsBasic": 0.2637,
+      "bookValuePerShare": 7.6923
     },
     {
       "endDate": "2025-03-31",
@@ -361,7 +376,8 @@
       "netIncomeMM": 19,
       "sharesOutMM": 91.0,
       "netDebtMM": 130,
-      "notes": "1T25: receita R$145M, EBITDA R$32M."
+      "notes": "1T25: receita R$145M, EBITDA R$32M.",
+      "epsBasic": 0.2088
     },
     {
       "endDate": "2025-06-30",
@@ -371,7 +387,8 @@
       "netIncomeMM": 25,
       "sharesOutMM": 91.0,
       "netDebtMM": 135,
-      "notes": "2T25: receita R$180M, EBITDA R$42M."
+      "notes": "2T25: receita R$180M, EBITDA R$42M.",
+      "epsBasic": 0.2747
     }
   ]
 }

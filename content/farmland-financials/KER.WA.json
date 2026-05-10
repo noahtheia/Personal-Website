@@ -253,7 +253,7 @@
       "cashMM": 230,
       "netDebtMM": 530,
       "sharesOutMM": 81.97,
-      "epsBasic": 1.17,
+      "epsBasic": 1.1712,
       "notes": "FY20 revenue $4.1B, EBITDA $443M. Pre-war baseline.",
       "capexMM": 86,
       "daMM": 78,
@@ -280,7 +280,8 @@
       "netIncomeMM": 90,
       "sharesOutMM": 81.97,
       "netDebtMM": 670,
-      "notes": "H1 FY20/21 (Jul-Dec 2020): revenue $2.2B, EBITDA $245M."
+      "notes": "H1 FY20/21 (Jul-Dec 2020): revenue $2.2B, EBITDA $245M.",
+      "epsBasic": 1.098
     },
     {
       "endDate": "2021-06-30",
@@ -303,7 +304,7 @@
       "cashMM": 250,
       "netDebtMM": 852,
       "sharesOutMM": 81.97,
-      "epsBasic": 6.26,
+      "epsBasic": 6.2584,
       "notes": "FY21 record EBITDA $930M on strong sunflower oil prices and bumper harvest.",
       "capexMM": 195,
       "daMM": 92,
@@ -329,7 +330,8 @@
       "netIncomeMM": 215,
       "sharesOutMM": 81.97,
       "netDebtMM": 980,
-      "notes": "H1 FY21/22 (Jul-Dec 2021): revenue $2.97B, EBITDA $410M. Pre-war final half."
+      "notes": "H1 FY21/22 (Jul-Dec 2021): revenue $2.97B, EBITDA $410M. Pre-war final half.",
+      "epsBasic": 2.6229
     },
     {
       "endDate": "2022-06-30",
@@ -352,7 +354,7 @@
       "cashMM": 305,
       "netDebtMM": 1015,
       "sharesOutMM": 81.97,
-      "epsBasic": -0.5,
+      "epsBasic": -0.5002,
       "notes": "FY22 disrupted by Russian invasion (Feb 2022). Impairments on Russian-occupied assets. EBITDA halved YoY.",
       "capexMM": 173,
       "daMM": 130,
@@ -378,7 +380,8 @@
       "netIncomeMM": 80,
       "sharesOutMM": 81.97,
       "netDebtMM": 920,
-      "notes": "H1 FY22/23 (Jul-Dec 2022): revenue $1.62B (-45% YoY) on war disruption. EBITDA $195M."
+      "notes": "H1 FY22/23 (Jul-Dec 2022): revenue $1.62B (-45% YoY) on war disruption. EBITDA $195M.",
+      "epsBasic": 0.976
     },
     {
       "endDate": "2023-06-30",
@@ -408,7 +411,7 @@
       "cashMM": 310,
       "netDebtMM": 880,
       "sharesOutMM": 81.97,
-      "epsBasic": 3.65,
+      "epsBasic": 3.6477,
       "notes": "FY23 revenue down sharply on lower volumes (Black Sea corridor uncertainty). EBITDA recovered to $444M.",
       "capexMM": 110,
       "daMM": 110,
@@ -434,7 +437,8 @@
       "netIncomeMM": 130,
       "sharesOutMM": 84.03,
       "netDebtMM": 800,
-      "notes": "H1 FY23/24 (Jul-Dec 2023): revenue $1.66B, EBITDA $240M. Maritime corridor reopened."
+      "notes": "H1 FY23/24 (Jul-Dec 2023): revenue $1.66B, EBITDA $240M. Maritime corridor reopened.",
+      "epsBasic": 1.5471
     },
     {
       "endDate": "2024-06-30",
@@ -464,7 +468,7 @@
       "cashMM": 348,
       "netDebtMM": 683,
       "sharesOutMM": 84.03,
-      "epsBasic": 3.19,
+      "epsBasic": 3.1893,
       "notes": "FY24 revenue $3.5B, EBITDA $519M. Net debt down to $683M as ops normalized via Ukraine maritime corridor.",
       "capexMM": 95,
       "daMM": 105,
@@ -490,7 +494,8 @@
       "netIncomeMM": 165,
       "sharesOutMM": 84.03,
       "netDebtMM": 580,
-      "notes": "H1 FY24/25 (Jul-Dec 2024): revenue $2.0B, EBITDA $295M."
+      "notes": "H1 FY24/25 (Jul-Dec 2024): revenue $2.0B, EBITDA $295M.",
+      "epsBasic": 1.9636
     },
     {
       "endDate": "2025-06-30",
@@ -520,7 +525,7 @@
       "cashMM": 380,
       "netDebtMM": 570,
       "sharesOutMM": 84.03,
-      "epsBasic": 3.69,
+      "epsBasic": 3.6892,
       "notes": "FY25 (yr-end Jun 2025): revenue $4.18B, EBITDA $590M. Continued normalization.",
       "capexMM": 100,
       "daMM": 110,

@@ -334,7 +334,8 @@
       "sharesOutMM": 74.41,
       "totalDebtMM": 53.7,
       "cashMM": 36.2,
-      "netDebtMM": 17.5
+      "netDebtMM": 17.5,
+      "epsBasic": -0.0349
     },
     {
       "endDate": "2022-06-30",
@@ -353,7 +354,8 @@
       "sharesOutMM": 74.19,
       "totalDebtMM": 52.5,
       "cashMM": 57.4,
-      "netDebtMM": -4.9
+      "netDebtMM": -4.9,
+      "epsBasic": 0.2979
     },
     {
       "endDate": "2022-09-30",
@@ -372,7 +374,8 @@
       "sharesOutMM": 73.96,
       "totalDebtMM": 45.9,
       "cashMM": 28.5,
-      "netDebtMM": 17.4
+      "netDebtMM": 17.4,
+      "epsBasic": -0.3786
     },
     {
       "endDate": "2022-12-31",
@@ -424,7 +427,8 @@
       "sharesOutMM": 76.19,
       "totalDebtMM": 83.7,
       "cashMM": 21.2,
-      "netDebtMM": 62.6
+      "netDebtMM": 62.6,
+      "epsBasic": -0.1733
     },
     {
       "endDate": "2023-06-30",
@@ -443,7 +447,8 @@
       "sharesOutMM": 75.92,
       "totalDebtMM": 82.1,
       "cashMM": 22.7,
-      "netDebtMM": 59.3
+      "netDebtMM": 59.3,
+      "epsBasic": 0.1001
     },
     {
       "endDate": "2023-09-30",
@@ -462,7 +467,8 @@
       "sharesOutMM": 76.11,
       "totalDebtMM": 84.9,
       "cashMM": 26.2,
-      "netDebtMM": 58.8
+      "netDebtMM": 58.8,
+      "epsBasic": -0.046
     },
     {
       "endDate": "2023-12-31",
@@ -514,7 +520,8 @@
       "sharesOutMM": 77.02,
       "totalDebtMM": 92.2,
       "cashMM": 29.3,
-      "netDebtMM": 62.9
+      "netDebtMM": 62.9,
+      "epsBasic": -0.1519
     },
     {
       "endDate": "2024-06-30",
@@ -533,7 +540,8 @@
       "sharesOutMM": 76.64,
       "totalDebtMM": 98.6,
       "cashMM": 27.1,
-      "netDebtMM": 71.5
+      "netDebtMM": 71.5,
+      "epsBasic": -0.0404
     },
     {
       "endDate": "2024-09-30",
@@ -557,7 +565,8 @@
         "Pekin Campus": 148.0,
         "Marketing & Distribution": 57.5,
         "Western Production": 46.8
-      }
+      },
+      "epsBasic": -0.0313
     },
     {
       "endDate": "2024-12-31",
@@ -626,7 +635,8 @@
         "Pekin Campus": 152.1,
         "Marketing & Distribution": 51.6,
         "Western Production": 24.3
-      }
+      },
+      "epsBasic": -0.1529
     },
     {
       "endDate": "2025-06-30",
@@ -650,7 +660,8 @@
         "Pekin Campus": 133.9,
         "Marketing & Distribution": 60.4,
         "Western Production": 25.4
-      }
+      },
+      "epsBasic": -0.1425
     },
     {
       "endDate": "2025-09-30",
@@ -674,7 +685,8 @@
         "Pekin Campus": 154.9,
         "Marketing & Distribution": 61.2,
         "Western Production": 25.9
-      }
+      },
+      "epsBasic": 0.1836
     },
     {
       "endDate": "2025-12-31",
@@ -698,7 +710,8 @@
         "Pekin Campus": 150.6,
         "Marketing & Distribution": 57.9,
         "Western Production": 25.0
-      }
+      },
+      "epsBasic": 0.1099
     }
   ]
 }

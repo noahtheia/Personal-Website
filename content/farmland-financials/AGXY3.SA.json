@@ -199,7 +199,8 @@
       "netIncomeMM": 22,
       "sharesOutMM": 125.0,
       "netDebtMM": 1300,
-      "notes": "1T22: receita R$1.45B, EBITDA R$70M. In\u00edcio do ano forte com pre\u00e7os de fertilizantes elevados."
+      "notes": "1T22: receita R$1.45B, EBITDA R$70M. In\u00edcio do ano forte com pre\u00e7os de fertilizantes elevados.",
+      "epsBasic": 0.176
     },
     {
       "endDate": "2022-06-30",
@@ -209,7 +210,8 @@
       "netIncomeMM": 38,
       "sharesOutMM": 125.0,
       "netDebtMM": 1500,
-      "notes": "2T22: receita R$1.75B, EBITDA R$105M."
+      "notes": "2T22: receita R$1.75B, EBITDA R$105M.",
+      "epsBasic": 0.304
     },
     {
       "endDate": "2022-09-30",
@@ -219,7 +221,8 @@
       "netIncomeMM": 65,
       "sharesOutMM": 125.0,
       "netDebtMM": 1620,
-      "notes": "3T22: receita R$2.15B, EBITDA R$150M. Pico sazonal pr\u00e9-safra."
+      "notes": "3T22: receita R$2.15B, EBITDA R$150M. Pico sazonal pr\u00e9-safra.",
+      "epsBasic": 0.52
     },
     {
       "endDate": "2022-12-31",
@@ -242,7 +245,9 @@
       "totalDebtMM": 1650,
       "cashMM": 420,
       "interestExpenseMM": 200,
-      "totalEquityMM": 850
+      "totalEquityMM": 850,
+      "epsBasic": 0.4,
+      "bookValuePerShare": 6.8
     },
     {
       "endDate": "2023-03-31",
@@ -252,7 +257,8 @@
       "netIncomeMM": 12,
       "sharesOutMM": 125.0,
       "netDebtMM": 1900,
-      "notes": "1T23: receita R$1.85B, EBITDA R$95M. Margem comprimindo."
+      "notes": "1T23: receita R$1.85B, EBITDA R$95M. Margem comprimindo.",
+      "epsBasic": 0.096
     },
     {
       "endDate": "2023-06-30",
@@ -262,7 +268,8 @@
       "netIncomeMM": -25,
       "sharesOutMM": 125.0,
       "netDebtMM": 2150,
-      "notes": "2T23: receita R$2.20B, EBITDA R$100M. In\u00edcio de PDD."
+      "notes": "2T23: receita R$2.20B, EBITDA R$100M. In\u00edcio de PDD.",
+      "epsBasic": -0.2
     },
     {
       "endDate": "2023-09-30",
@@ -272,7 +279,8 @@
       "netIncomeMM": -75,
       "sharesOutMM": 125.0,
       "netDebtMM": 2280,
-      "notes": "3T23: receita R$2.70B, EBITDA R$80M. PDD acelera."
+      "notes": "3T23: receita R$2.70B, EBITDA R$80M. PDD acelera.",
+      "epsBasic": -0.6
     },
     {
       "endDate": "2023-12-31",
@@ -295,7 +303,9 @@
       "totalDebtMM": 2100,
       "cashMM": 250,
       "interestExpenseMM": 350,
-      "totalEquityMM": 450
+      "totalEquityMM": 450,
+      "epsBasic": -0.736,
+      "bookValuePerShare": 3.6
     },
     {
       "endDate": "2024-03-31",
@@ -305,7 +315,8 @@
       "netIncomeMM": -180,
       "sharesOutMM": 125.0,
       "netDebtMM": 2400,
-      "notes": "1T24: receita R$1.45B (-22% YoY), EBITDA R$-50M. Forneceedores come\u00e7am a cortar limites."
+      "notes": "1T24: receita R$1.45B (-22% YoY), EBITDA R$-50M. Forneceedores come\u00e7am a cortar limites.",
+      "epsBasic": -1.44
     },
     {
       "endDate": "2024-06-30",
@@ -315,7 +326,8 @@
       "netIncomeMM": -250,
       "sharesOutMM": 125.0,
       "netDebtMM": 2350,
-      "notes": "2T24: receita R$1.30B, EBITDA R$-100M."
+      "notes": "2T24: receita R$1.30B, EBITDA R$-100M.",
+      "epsBasic": -2.0
     },
     {
       "endDate": "2024-09-30",
@@ -325,7 +337,8 @@
       "netIncomeMM": -350,
       "sharesOutMM": 125.0,
       "netDebtMM": 2300,
-      "notes": "3T24: receita R$1.10B. 13-Set-2024: pedido de recupera\u00e7\u00e3o judicial. Operations frozen."
+      "notes": "3T24: receita R$1.10B. 13-Set-2024: pedido de recupera\u00e7\u00e3o judicial. Operations frozen.",
+      "epsBasic": -2.8
     },
     {
       "endDate": "2024-12-31",
@@ -348,7 +361,9 @@
       "totalDebtMM": 2200,
       "cashMM": 180,
       "interestExpenseMM": 400,
-      "totalEquityMM": 100
+      "totalEquityMM": 100,
+      "epsBasic": -1.76,
+      "bookValuePerShare": 0.8
     },
     {
       "endDate": "2025-03-31",
@@ -358,7 +373,8 @@
       "netIncomeMM": -120,
       "sharesOutMM": 125.0,
       "netDebtMM": 1980,
-      "notes": "1T25: receita R$580M sob RJ. Stock continua suspenso/colapsado."
+      "notes": "1T25: receita R$580M sob RJ. Stock continua suspenso/colapsado.",
+      "epsBasic": -0.96
     },
     {
       "endDate": "2025-06-30",
@@ -368,7 +384,8 @@
       "netIncomeMM": -85,
       "sharesOutMM": 125.0,
       "netDebtMM": 1920,
-      "notes": "2T25: receita R$620M. Plano de RJ aprovado por credores."
+      "notes": "2T25: receita R$620M. Plano de RJ aprovado por credores.",
+      "epsBasic": -0.68
     }
   ]
 }

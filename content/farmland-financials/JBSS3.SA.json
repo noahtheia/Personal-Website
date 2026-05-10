@@ -351,7 +351,8 @@
       "netIncomeMM": 5359,
       "sharesOutMM": 2370,
       "netDebtMM": 73500,
-      "notes": "1T22: Revenue R$92.6bn, EBITDA R$9.15bn (margin 9.9%). NA beef still strong."
+      "notes": "1T22: Revenue R$92.6bn, EBITDA R$9.15bn (margin 9.9%). NA beef still strong.",
+      "epsBasic": 2.2612
     },
     {
       "endDate": "2022-06-30",
@@ -361,7 +362,8 @@
       "netIncomeMM": 4359,
       "sharesOutMM": 2218,
       "netDebtMM": 76200,
-      "notes": "2T22: Revenue R$97.7bn, EBITDA R$8.69bn (margin 8.9%). Beef cycle peaking."
+      "notes": "2T22: Revenue R$97.7bn, EBITDA R$8.69bn (margin 8.9%). Beef cycle peaking.",
+      "epsBasic": 1.9653
     },
     {
       "endDate": "2022-09-30",
@@ -371,7 +373,8 @@
       "netIncomeMM": 3142,
       "sharesOutMM": 2218,
       "netDebtMM": 78900,
-      "notes": "3T22: Revenue R$96.6bn, EBITDA R$7.92bn (margin 8.2%). Margin compression begins."
+      "notes": "3T22: Revenue R$96.6bn, EBITDA R$7.92bn (margin 8.2%). Margin compression begins.",
+      "epsBasic": 1.4166
     },
     {
       "endDate": "2022-12-31",
@@ -449,7 +452,9 @@
       "cashMM": 21500,
       "totalEquityMM": 45000,
       "interestExpenseMM": 7000,
-      "dividendPerShare": 3.0
+      "dividendPerShare": 3.0,
+      "epsBasic": 1.1592,
+      "bookValuePerShare": 20.2885
     },
     {
       "endDate": "2023-03-31",
@@ -459,7 +464,8 @@
       "netIncomeMM": -1456,
       "sharesOutMM": 2217,
       "netDebtMM": 81400,
-      "notes": "1T23: Revenue R$84.7bn, EBITDA R$1.9bn (margin 2.2%). Trough NA beef + chicken weak."
+      "notes": "1T23: Revenue R$84.7bn, EBITDA R$1.9bn (margin 2.2%). Trough NA beef + chicken weak.",
+      "epsBasic": -0.6567
     },
     {
       "endDate": "2023-06-30",
@@ -469,7 +475,8 @@
       "netIncomeMM": -264,
       "sharesOutMM": 2217,
       "netDebtMM": 84100,
-      "notes": "2T23: Revenue R$88.4bn, EBITDA R$3.39bn (margin 3.8%)."
+      "notes": "2T23: Revenue R$88.4bn, EBITDA R$3.39bn (margin 3.8%).",
+      "epsBasic": -0.1191
     },
     {
       "endDate": "2023-09-30",
@@ -479,7 +486,8 @@
       "netIncomeMM": 313,
       "sharesOutMM": 2217,
       "netDebtMM": 86800,
-      "notes": "3T23: Revenue R$92.5bn, EBITDA R$4.81bn (margin 5.2%) \u2014 sequential improvement."
+      "notes": "3T23: Revenue R$92.5bn, EBITDA R$4.81bn (margin 5.2%) \u2014 sequential improvement.",
+      "epsBasic": 0.1412
     },
     {
       "endDate": "2023-12-31",
@@ -557,7 +565,9 @@
       "cashMM": 23500,
       "totalEquityMM": 42000,
       "interestExpenseMM": 9000,
-      "dividendPerShare": 0.8
+      "dividendPerShare": 0.8,
+      "epsBasic": 0.1552,
+      "bookValuePerShare": 18.9445
     },
     {
       "endDate": "2024-03-31",
@@ -567,7 +577,8 @@
       "netIncomeMM": 1597,
       "sharesOutMM": 2217,
       "netDebtMM": 79800,
-      "notes": "1T24: Revenue R$95.2bn, EBITDA R$6.23bn (margin 6.5%) \u2014 strong recovery underway."
+      "notes": "1T24: Revenue R$95.2bn, EBITDA R$6.23bn (margin 6.5%) \u2014 strong recovery underway.",
+      "epsBasic": 0.7203
     },
     {
       "endDate": "2024-06-30",
@@ -577,7 +588,8 @@
       "netIncomeMM": 1857,
       "sharesOutMM": 2217,
       "netDebtMM": 75600,
-      "notes": "2T24: Revenue R$102.2bn, EBITDA R$8.22bn (margin 8.0%)."
+      "notes": "2T24: Revenue R$102.2bn, EBITDA R$8.22bn (margin 8.0%).",
+      "epsBasic": 0.8376
     },
     {
       "endDate": "2024-09-30",
@@ -587,7 +599,8 @@
       "netIncomeMM": 3223,
       "sharesOutMM": 2217,
       "netDebtMM": 72400,
-      "notes": "3T24: Revenue R$110.4bn, EBITDA R$9.22bn (margin 8.3%)."
+      "notes": "3T24: Revenue R$110.4bn, EBITDA R$9.22bn (margin 8.3%).",
+      "epsBasic": 1.4538
     },
     {
       "endDate": "2024-12-31",
@@ -672,7 +685,9 @@
       "cashMM": 25500,
       "totalEquityMM": 48000,
       "interestExpenseMM": 8500,
-      "dividendPerShare": 1.5
+      "dividendPerShare": 1.5,
+      "epsBasic": 0.0419,
+      "bookValuePerShare": 21.6509
     },
     {
       "endDate": "2025-03-31",
@@ -682,7 +697,8 @@
       "netIncomeMM": 2922,
       "sharesOutMM": 2217,
       "netDebtMM": 73400,
-      "notes": "1T25: Revenue R$117.2bn (+23% YoY), EBITDA R$8.93bn (margin 7.6%). Strong start to year."
+      "notes": "1T25: Revenue R$117.2bn (+23% YoY), EBITDA R$8.93bn (margin 7.6%). Strong start to year.",
+      "epsBasic": 1.318
     },
     {
       "endDate": "2025-06-30",
@@ -692,7 +708,8 @@
       "netIncomeMM": 3548,
       "sharesOutMM": 2217,
       "netDebtMM": 74900,
-      "notes": "2T25: Revenue R$121.3bn, EBITDA R$9.81bn (margin 8.1%). NYSE listing completed June 2025."
+      "notes": "2T25: Revenue R$121.3bn, EBITDA R$9.81bn (margin 8.1%). NYSE listing completed June 2025.",
+      "epsBasic": 1.6004
     }
   ]
 }

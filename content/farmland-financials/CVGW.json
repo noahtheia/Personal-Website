@@ -5,6 +5,348 @@
   "notes": "Calavo Growers, Inc. (NASDAQ: CVGW) \u2014 California-based avocado processor + grower (CIK 1133470). Two segments: Grown (fresh avocados sourced from Mexico/Peru/California growers, including ~10,000 acres of company/affiliated avocado groves) and Prepared (frozen guacamole + fresh-cut produce, Salsa Lisa). Fiscal year ends Oct 31. Reports in USD. Significant restructuring 2022-23: sold Salsa Lisa (May 2023), exited fresh-cut food service. Volatile avocado pricing.",
   "periods": [
     {
+      "endDate": "2002-10-31",
+      "periodType": "FY",
+      "revenueMM": 245,
+      "ebitdaMM": 13,
+      "netIncomeMM": 6,
+      "capexMM": 3,
+      "daMM": 3,
+      "cfoMM": 8,
+      "totalAssetsMM": 90,
+      "totalDebtMM": 15,
+      "cashMM": 3,
+      "totalEquityMM": 50,
+      "sharesOutMM": 14,
+      "dividendPerShare": 0.0,
+      "interestExpenseMM": 1,
+      "epsBasic": 0.4286,
+      "bookValuePerShare": 3.5714
+    },
+    {
+      "endDate": "2003-10-31",
+      "periodType": "FY",
+      "revenueMM": 281,
+      "ebitdaMM": 16,
+      "netIncomeMM": 8,
+      "capexMM": 4,
+      "daMM": 3,
+      "cfoMM": 10,
+      "totalAssetsMM": 100,
+      "totalDebtMM": 12,
+      "cashMM": 4,
+      "totalEquityMM": 58,
+      "sharesOutMM": 14,
+      "dividendPerShare": 0.18,
+      "interestExpenseMM": 1,
+      "epsBasic": 0.5714,
+      "bookValuePerShare": 4.1429
+    },
+    {
+      "endDate": "2004-10-31",
+      "periodType": "FY",
+      "revenueMM": 300,
+      "ebitdaMM": 17,
+      "netIncomeMM": 9,
+      "capexMM": 4,
+      "daMM": 3,
+      "cfoMM": 11,
+      "totalAssetsMM": 110,
+      "totalDebtMM": 10,
+      "cashMM": 5,
+      "totalEquityMM": 65,
+      "sharesOutMM": 14,
+      "dividendPerShare": 0.22,
+      "interestExpenseMM": 1,
+      "epsBasic": 0.6429,
+      "bookValuePerShare": 4.6429
+    },
+    {
+      "endDate": "2005-10-31",
+      "periodType": "FY",
+      "revenueMM": 310,
+      "ebitdaMM": 18,
+      "netIncomeMM": 9,
+      "capexMM": 5,
+      "daMM": 4,
+      "cfoMM": 12,
+      "totalAssetsMM": 120,
+      "totalDebtMM": 10,
+      "cashMM": 6,
+      "totalEquityMM": 72,
+      "sharesOutMM": 14,
+      "dividendPerShare": 0.25,
+      "interestExpenseMM": 1,
+      "epsBasic": 0.6429,
+      "bookValuePerShare": 5.1429
+    },
+    {
+      "endDate": "2006-10-31",
+      "periodType": "FY",
+      "revenueMM": 340,
+      "ebitdaMM": 14,
+      "netIncomeMM": 6,
+      "capexMM": 6,
+      "daMM": 4,
+      "cfoMM": 10,
+      "totalAssetsMM": 130,
+      "totalDebtMM": 15,
+      "cashMM": 5,
+      "totalEquityMM": 76,
+      "sharesOutMM": 14,
+      "dividendPerShare": 0.27,
+      "interestExpenseMM": 1,
+      "epsBasic": 0.4286,
+      "bookValuePerShare": 5.4286
+    },
+    {
+      "endDate": "2007-10-31",
+      "periodType": "FY",
+      "revenueMM": 388,
+      "ebitdaMM": 16,
+      "netIncomeMM": 7,
+      "capexMM": 6,
+      "daMM": 5,
+      "cfoMM": 11,
+      "totalAssetsMM": 145,
+      "totalDebtMM": 18,
+      "cashMM": 5,
+      "totalEquityMM": 82,
+      "sharesOutMM": 15,
+      "dividendPerShare": 0.3,
+      "interestExpenseMM": 1,
+      "epsBasic": 0.4667,
+      "bookValuePerShare": 5.4667
+    },
+    {
+      "endDate": "2008-10-31",
+      "periodType": "FY",
+      "revenueMM": 362,
+      "ebitdaMM": 8,
+      "netIncomeMM": 1,
+      "capexMM": 6,
+      "daMM": 5,
+      "cfoMM": 5,
+      "totalAssetsMM": 140,
+      "totalDebtMM": 22,
+      "cashMM": 3,
+      "totalEquityMM": 78,
+      "sharesOutMM": 15,
+      "dividendPerShare": 0.3,
+      "interestExpenseMM": 2,
+      "epsBasic": 0.0667,
+      "bookValuePerShare": 5.2
+    },
+    {
+      "endDate": "2009-10-31",
+      "periodType": "FY",
+      "revenueMM": 304,
+      "ebitdaMM": 8,
+      "netIncomeMM": 2,
+      "capexMM": 5,
+      "daMM": 5,
+      "cfoMM": 6,
+      "totalAssetsMM": 130,
+      "totalDebtMM": 18,
+      "cashMM": 4,
+      "totalEquityMM": 80,
+      "sharesOutMM": 15,
+      "dividendPerShare": 0.3,
+      "interestExpenseMM": 1,
+      "epsBasic": 0.1333,
+      "bookValuePerShare": 5.3333
+    },
+    {
+      "endDate": "2010-10-31",
+      "periodType": "FY",
+      "revenueMM": 388,
+      "ebitdaMM": 20,
+      "netIncomeMM": 9,
+      "capexMM": 5,
+      "daMM": 5,
+      "cfoMM": 13,
+      "totalAssetsMM": 145,
+      "totalDebtMM": 15,
+      "cashMM": 6,
+      "totalEquityMM": 90,
+      "sharesOutMM": 15,
+      "dividendPerShare": 0.3,
+      "interestExpenseMM": 1,
+      "epsBasic": 0.6,
+      "bookValuePerShare": 6.0
+    },
+    {
+      "endDate": "2011-10-31",
+      "periodType": "FY",
+      "revenueMM": 545,
+      "ebitdaMM": 28,
+      "netIncomeMM": 14,
+      "capexMM": 8,
+      "daMM": 6,
+      "cfoMM": 18,
+      "totalAssetsMM": 230,
+      "totalDebtMM": 50,
+      "cashMM": 5,
+      "totalEquityMM": 110,
+      "sharesOutMM": 15,
+      "dividendPerShare": 0.3,
+      "interestExpenseMM": 2,
+      "epsBasic": 0.9333,
+      "bookValuePerShare": 7.3333
+    },
+    {
+      "endDate": "2012-10-31",
+      "periodType": "FY",
+      "revenueMM": 545,
+      "ebitdaMM": 25,
+      "netIncomeMM": 13,
+      "capexMM": 8,
+      "daMM": 7,
+      "cfoMM": 17,
+      "totalAssetsMM": 220,
+      "totalDebtMM": 40,
+      "cashMM": 4,
+      "totalEquityMM": 120,
+      "sharesOutMM": 15,
+      "dividendPerShare": 0.5,
+      "interestExpenseMM": 2,
+      "epsBasic": 0.8667,
+      "bookValuePerShare": 8.0
+    },
+    {
+      "endDate": "2013-10-31",
+      "periodType": "FY",
+      "revenueMM": 605,
+      "ebitdaMM": 24,
+      "netIncomeMM": 13,
+      "capexMM": 9,
+      "daMM": 8,
+      "cfoMM": 17,
+      "totalAssetsMM": 230,
+      "totalDebtMM": 30,
+      "cashMM": 5,
+      "totalEquityMM": 130,
+      "sharesOutMM": 16,
+      "dividendPerShare": 0.5,
+      "interestExpenseMM": 1,
+      "epsBasic": 0.8125,
+      "bookValuePerShare": 8.125
+    },
+    {
+      "endDate": "2014-10-31",
+      "periodType": "FY",
+      "revenueMM": 866,
+      "ebitdaMM": 30,
+      "netIncomeMM": 16,
+      "capexMM": 12,
+      "daMM": 9,
+      "cfoMM": 20,
+      "totalAssetsMM": 270,
+      "totalDebtMM": 35,
+      "cashMM": 5,
+      "totalEquityMM": 150,
+      "sharesOutMM": 16,
+      "dividendPerShare": 0.7,
+      "interestExpenseMM": 1,
+      "epsBasic": 1.0,
+      "bookValuePerShare": 9.375
+    },
+    {
+      "endDate": "2015-10-31",
+      "periodType": "FY",
+      "revenueMM": 919,
+      "ebitdaMM": 35,
+      "netIncomeMM": 19,
+      "capexMM": 14,
+      "daMM": 10,
+      "cfoMM": 24,
+      "totalAssetsMM": 290,
+      "totalDebtMM": 30,
+      "cashMM": 6,
+      "totalEquityMM": 170,
+      "sharesOutMM": 17,
+      "dividendPerShare": 0.8,
+      "interestExpenseMM": 1,
+      "epsBasic": 1.1176,
+      "bookValuePerShare": 10.0
+    },
+    {
+      "endDate": "2016-10-31",
+      "periodType": "FY",
+      "revenueMM": 1000,
+      "ebitdaMM": 60,
+      "netIncomeMM": 35,
+      "capexMM": 16,
+      "daMM": 11,
+      "cfoMM": 40,
+      "totalAssetsMM": 320,
+      "totalDebtMM": 20,
+      "cashMM": 8,
+      "totalEquityMM": 210,
+      "sharesOutMM": 17,
+      "dividendPerShare": 0.9,
+      "interestExpenseMM": 1,
+      "epsBasic": 2.0588,
+      "bookValuePerShare": 12.3529
+    },
+    {
+      "endDate": "2017-10-31",
+      "periodType": "FY",
+      "revenueMM": 1075,
+      "ebitdaMM": 81.0,
+      "netIncomeMM": 60,
+      "capexMM": 18,
+      "daMM": 12,
+      "cfoMM": 40,
+      "totalAssetsMM": 350,
+      "totalDebtMM": 15,
+      "cashMM": 10,
+      "totalEquityMM": 250,
+      "sharesOutMM": 17,
+      "dividendPerShare": 1.0,
+      "interestExpenseMM": 1,
+      "epsBasic": 3.5294,
+      "bookValuePerShare": 14.7059
+    },
+    {
+      "endDate": "2018-10-31",
+      "periodType": "FY",
+      "revenueMM": 1080,
+      "ebitdaMM": 55,
+      "netIncomeMM": 36,
+      "capexMM": 20,
+      "daMM": 13,
+      "cfoMM": 40,
+      "totalAssetsMM": 380,
+      "totalDebtMM": 20,
+      "cashMM": 10,
+      "totalEquityMM": 280,
+      "sharesOutMM": 17,
+      "dividendPerShare": 1.1,
+      "interestExpenseMM": 1,
+      "epsBasic": 2.1176,
+      "bookValuePerShare": 16.4706
+    },
+    {
+      "endDate": "2019-10-31",
+      "periodType": "FY",
+      "revenueMM": 1000,
+      "ebitdaMM": 45,
+      "netIncomeMM": 25,
+      "capexMM": 20,
+      "daMM": 14,
+      "cfoMM": 35,
+      "totalAssetsMM": 400,
+      "totalDebtMM": 25,
+      "cashMM": 10,
+      "totalEquityMM": 300,
+      "sharesOutMM": 17,
+      "dividendPerShare": 1.15,
+      "interestExpenseMM": 1,
+      "epsBasic": 1.4706,
+      "bookValuePerShare": 17.6471
+    },
+    {
       "endDate": "2020-10-31",
       "periodType": "FY",
       "revenueMM": 1019,
@@ -97,7 +439,8 @@
       "sharesOutMM": 17.72,
       "totalDebtMM": 6.8,
       "cashMM": 7.8,
-      "netDebtMM": -1.1
+      "netDebtMM": -1.1,
+      "epsBasic": -0.2257
     },
     {
       "endDate": "2022-04-30",
@@ -116,7 +459,8 @@
       "sharesOutMM": 17.74,
       "totalDebtMM": 6.2,
       "cashMM": 2.3,
-      "netDebtMM": 3.9
+      "netDebtMM": 3.9,
+      "epsBasic": -0.0113
     },
     {
       "endDate": "2022-07-31",
@@ -135,7 +479,8 @@
       "sharesOutMM": 17.73,
       "totalDebtMM": 5.8,
       "cashMM": 2.5,
-      "netDebtMM": 3.3
+      "netDebtMM": 3.3,
+      "epsBasic": 0.0733
     },
     {
       "endDate": "2022-10-31",
@@ -192,7 +537,8 @@
       "sharesOutMM": 17.74,
       "totalDebtMM": 6.7,
       "cashMM": 1.8,
-      "netDebtMM": 4.9
+      "netDebtMM": 4.9,
+      "epsBasic": -0.1747
     },
     {
       "endDate": "2023-04-30",
@@ -211,7 +557,8 @@
       "sharesOutMM": 17.78,
       "totalDebtMM": 6.5,
       "cashMM": 4.2,
-      "netDebtMM": 2.3
+      "netDebtMM": 2.3,
+      "epsBasic": -0.225
     },
     {
       "endDate": "2023-07-31",
@@ -230,7 +577,8 @@
       "sharesOutMM": 17.76,
       "totalDebtMM": 6.5,
       "cashMM": 1.4,
-      "netDebtMM": 5.1
+      "netDebtMM": 5.1,
+      "epsBasic": 0.3716
     },
     {
       "endDate": "2023-10-31",
@@ -284,7 +632,8 @@
       "capexMM": 1.0,
       "cfoMM": 0.1,
       "daMM": 4.6,
-      "sharesOutMM": 17.8
+      "sharesOutMM": 17.8,
+      "epsBasic": -0.3539
     },
     {
       "endDate": "2024-04-30",
@@ -300,7 +649,8 @@
       "capexMM": 1.3,
       "cfoMM": 2.1,
       "daMM": 2.1,
-      "sharesOutMM": 17.8
+      "sharesOutMM": 17.8,
+      "epsBasic": 0.3427
     },
     {
       "endDate": "2024-07-31",
@@ -316,7 +666,8 @@
       "capexMM": 0.1,
       "cfoMM": 11.4,
       "daMM": 2.0,
-      "sharesOutMM": 17.8
+      "sharesOutMM": 17.8,
+      "epsBasic": -0.0393
     },
     {
       "endDate": "2024-10-31",
@@ -377,7 +728,8 @@
       "capexMM": 0.3,
       "cfoMM": -4.4,
       "daMM": 1.9,
-      "sharesOutMM": 17.84
+      "sharesOutMM": 17.84,
+      "epsBasic": 0.2466
     },
     {
       "endDate": "2025-04-30",
@@ -393,7 +745,8 @@
       "capexMM": 0.1,
       "cfoMM": 15.7,
       "daMM": 1.9,
-      "sharesOutMM": 17.84
+      "sharesOutMM": 17.84,
+      "epsBasic": 0.3812
     },
     {
       "endDate": "2025-07-31",
@@ -409,7 +762,8 @@
       "capexMM": 0.7,
       "cfoMM": 8.0,
       "daMM": 1.9,
-      "sharesOutMM": 17.85
+      "sharesOutMM": 17.85,
+      "epsBasic": 0.2633
     },
     {
       "endDate": "2025-10-31",
@@ -425,7 +779,8 @@
       "capexMM": 1.1,
       "cfoMM": 2.3,
       "daMM": 1.8,
-      "sharesOutMM": 17.86
+      "sharesOutMM": 17.86,
+      "epsBasic": 0.2128
     },
     {
       "endDate": "2026-01-31",
@@ -441,7 +796,8 @@
       "capexMM": 0.8,
       "cfoMM": -8.7,
       "daMM": 1.8,
-      "sharesOutMM": 17.87
+      "sharesOutMM": 17.87,
+      "epsBasic": 0.0392
     }
   ]
 }

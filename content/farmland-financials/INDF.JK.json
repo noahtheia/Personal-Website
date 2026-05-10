@@ -28,7 +28,7 @@
       "netDebtMM": 8275000,
       "totalEquityMM": 54202000,
       "sharesOutMM": 8780,
-      "bookValuePerShare": 6173,
+      "bookValuePerShare": 6173.3485,
       "dividendPerShare": 171,
       "notes": "FY19: Rp76.6T revenue, Rp4.91T net profit attributable. CBP flat-ish, palm oil weak.",
       "capexMM": 6500000,
@@ -60,7 +60,7 @@
       "netDebtMM": 40050000,
       "totalEquityMM": 79139000,
       "sharesOutMM": 8780,
-      "bookValuePerShare": 9013,
+      "bookValuePerShare": 9013.5535,
       "dividendPerShare": 278,
       "notes": "FY20: ICBP completed Pinehill (Africa/MENA noodles) acquisition for US$2.05B \u2014 debt jumped to Rp53.85T. Net income Rp6.45T.",
       "capexMM": 6800000,
@@ -115,7 +115,7 @@
       "netDebtMM": 32600000,
       "totalEquityMM": 88930000,
       "sharesOutMM": 8780,
-      "bookValuePerShare": 10128,
+      "bookValuePerShare": 10128.7016,
       "dividendPerShare": 326,
       "notes": "FY21: Rp99.3T (+22% YoY) \u2014 first full-year Pinehill consolidation + CPO boom for SIMP. Net income Rp7.66T.",
       "capexMM": 8500000,
@@ -166,7 +166,8 @@
       "netIncomeMM": 2200000,
       "netDebtMM": 33500000,
       "sharesOutMM": 8780,
-      "notes": "Q1 2022: revenue Rp27.0T."
+      "notes": "Q1 2022: revenue Rp27.0T.",
+      "epsBasic": 250.5695
     },
     {
       "endDate": "2022-06-30",
@@ -188,7 +189,8 @@
       "netIncomeMM": 2300000,
       "netDebtMM": 34000000,
       "sharesOutMM": 8780,
-      "notes": "Q2 2022: revenue Rp28.0T."
+      "notes": "Q2 2022: revenue Rp28.0T.",
+      "epsBasic": 261.959
     },
     {
       "endDate": "2022-09-30",
@@ -210,7 +212,8 @@
       "netIncomeMM": 2250000,
       "netDebtMM": 34800000,
       "sharesOutMM": 8780,
-      "notes": "Q3 2022: revenue Rp27.5T."
+      "notes": "Q3 2022: revenue Rp27.5T.",
+      "epsBasic": 256.2642
     },
     {
       "endDate": "2022-12-31",
@@ -259,7 +262,8 @@
           "revenueMM": 7800000,
           "ebitdaMM": 520000
         }
-      ]
+      ],
+      "epsBasic": 278.1321
     },
     {
       "endDate": "2022-12-31",
@@ -291,7 +295,7 @@
       "netDebtMM": 35500000,
       "totalEquityMM": 95470000,
       "sharesOutMM": 8780,
-      "bookValuePerShare": 10872,
+      "bookValuePerShare": 10873.5763,
       "dividendPerShare": 386,
       "notes": "FY22: Rp110.8T (+12% YoY). Strong noodle pricing + CBP margin recovery. Net income Rp9.19T.",
       "capexMM": 11200000,
@@ -346,7 +350,8 @@
       "netIncomeMM": 2235000,
       "netDebtMM": 25000000,
       "sharesOutMM": 8780,
-      "notes": "Q1 2023: revenue Rp27.8T."
+      "notes": "Q1 2023: revenue Rp27.8T.",
+      "epsBasic": 254.5558
     },
     {
       "endDate": "2023-06-30",
@@ -368,7 +373,8 @@
       "netIncomeMM": 2250000,
       "netDebtMM": 24000000,
       "sharesOutMM": 8780,
-      "notes": "Q2 2023: revenue Rp28.0T."
+      "notes": "Q2 2023: revenue Rp28.0T.",
+      "epsBasic": 256.2642
     },
     {
       "endDate": "2023-09-30",
@@ -390,7 +396,8 @@
       "netIncomeMM": 2240000,
       "netDebtMM": 23500000,
       "sharesOutMM": 8780,
-      "notes": "Q3 2023: revenue Rp27.8T."
+      "notes": "Q3 2023: revenue Rp27.8T.",
+      "epsBasic": 255.1253
     },
     {
       "endDate": "2023-12-31",
@@ -439,7 +446,8 @@
           "revenueMM": 8200000,
           "ebitdaMM": 540000
         }
-      ]
+      ],
+      "epsBasic": 257.8588
     },
     {
       "endDate": "2023-12-31",
@@ -471,7 +479,7 @@
       "netDebtMM": 22700000,
       "totalEquityMM": 102790000,
       "sharesOutMM": 8780,
-      "bookValuePerShare": 11707,
+      "bookValuePerShare": 11707.2893,
       "dividendPerShare": 386,
       "notes": "FY23: Rp111.7T flat-ish; SIMP CPO weakness offset by stronger CBP. Net income Rp8.99T.",
       "capexMM": 9400000,
@@ -526,7 +534,8 @@
       "netIncomeMM": 2580000,
       "netDebtMM": 19500000,
       "sharesOutMM": 8780,
-      "notes": "Q1 2024: revenue Rp28.8T."
+      "notes": "Q1 2024: revenue Rp28.8T.",
+      "epsBasic": 293.8497
     },
     {
       "endDate": "2024-06-30",
@@ -548,7 +557,8 @@
       "netIncomeMM": 2640000,
       "netDebtMM": 18000000,
       "sharesOutMM": 8780,
-      "notes": "Q2 2024: revenue Rp29.2T."
+      "notes": "Q2 2024: revenue Rp29.2T.",
+      "epsBasic": 300.6834
     },
     {
       "endDate": "2024-09-30",
@@ -570,7 +580,8 @@
       "netIncomeMM": 2620000,
       "netDebtMM": 16800000,
       "sharesOutMM": 8780,
-      "notes": "Q3 2024: revenue Rp29.0T."
+      "notes": "Q3 2024: revenue Rp29.0T.",
+      "epsBasic": 298.4055
     },
     {
       "endDate": "2024-12-31",
@@ -619,7 +630,8 @@
           "revenueMM": 8500000,
           "ebitdaMM": 580000
         }
-      ]
+      ],
+      "epsBasic": 302.9613
     },
     {
       "endDate": "2024-12-31",
@@ -651,7 +663,7 @@
       "netDebtMM": 15800000,
       "totalEquityMM": 110510000,
       "sharesOutMM": 8780,
-      "bookValuePerShare": 12586,
+      "bookValuePerShare": 12586.5604,
       "navPerShare": 8500,
       "dividendPerShare": 411,
       "notes": "FY24: Rp116.5T revenue (+4% YoY), Rp10.5T net profit attributable (+17% YoY). Cash buildup post-FY21 IDR depreciation; net debt down to ~Rp15.8T (lowest since pre-Pinehill).",

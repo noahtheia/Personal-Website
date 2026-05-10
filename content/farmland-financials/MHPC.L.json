@@ -251,7 +251,7 @@
       "cashMM": 200,
       "netDebtMM": 1125,
       "sharesOutMM": 108.36,
-      "epsBasic": -1.24,
+      "epsBasic": -1.2366,
       "notes": "FY20 revenue $1.91B, EBITDA $286M. Net loss on FX and impairments.",
       "capexMM": 130,
       "daMM": 165,
@@ -278,7 +278,8 @@
       "netIncomeMM": 30,
       "sharesOutMM": 108.36,
       "netDebtMM": 1190,
-      "notes": "H1 2021: revenue $1.14B, EBITDA $195M."
+      "notes": "H1 2021: revenue $1.14B, EBITDA $195M.",
+      "epsBasic": 0.2769
     },
     {
       "endDate": "2021-12-31",
@@ -301,7 +302,7 @@
       "cashMM": 220,
       "netDebtMM": 1260,
       "sharesOutMM": 108.36,
-      "epsBasic": 0.84,
+      "epsBasic": 0.8398,
       "notes": "FY21 revenue +24% on chicken prices recovery. EBITDA $459M.",
       "capexMM": 145,
       "daMM": 175,
@@ -342,7 +343,9 @@
       "ppeBookMM": 1350,
       "inventoryMM": 480,
       "intangibleAssetsMM": 85,
-      "interestExpenseMM": 80.0
+      "interestExpenseMM": 80.0,
+      "epsBasic": 0.5629,
+      "bookValuePerShare": 9.9206
     },
     {
       "endDate": "2022-06-30",
@@ -352,7 +355,8 @@
       "netIncomeMM": -185,
       "sharesOutMM": 108.36,
       "netDebtMM": 1300,
-      "notes": "H1 2022: war disruption, revenue $1.32B, EBITDA $215M, large impairment-driven loss."
+      "notes": "H1 2022: war disruption, revenue $1.32B, EBITDA $215M, large impairment-driven loss.",
+      "epsBasic": -1.7073
     },
     {
       "endDate": "2022-12-31",
@@ -381,7 +385,7 @@
       "cashMM": 188.6,
       "netDebtMM": 1347,
       "sharesOutMM": 108.36,
-      "epsBasic": -2.09,
+      "epsBasic": -2.0856,
       "notes": "FY22 war impact: Vinnytsia damage, refugee logistics; impairments drove $226M loss despite higher revenue.",
       "capexMM": 95,
       "daMM": 230,
@@ -422,7 +426,9 @@
       "totalAssetsMM": 2600,
       "totalDebtMM": 1400,
       "cashMM": 132.9,
-      "interestExpenseMM": 100.0
+      "interestExpenseMM": 100.0,
+      "epsBasic": -0.3784,
+      "bookValuePerShare": 6.3677
     },
     {
       "endDate": "2023-06-30",
@@ -432,7 +438,8 @@
       "netIncomeMM": 32,
       "sharesOutMM": 108.36,
       "netDebtMM": 1290,
-      "notes": "H1 2023: revenue $1.34B, EBITDA $230M."
+      "notes": "H1 2023: revenue $1.34B, EBITDA $230M.",
+      "epsBasic": 0.2953
     },
     {
       "endDate": "2023-12-31",
@@ -461,7 +468,7 @@
       "cashMM": 270,
       "netDebtMM": 1230,
       "sharesOutMM": 108.36,
-      "epsBasic": 0.84,
+      "epsBasic": 0.8398,
       "notes": "FY23 EBITDA recovery to $506M, return to profitability.",
       "capexMM": 110,
       "daMM": 215,
@@ -502,7 +509,9 @@
       "totalAssetsMM": 2750,
       "totalDebtMM": 1350,
       "cashMM": 190,
-      "interestExpenseMM": 120.0
+      "interestExpenseMM": 120.0,
+      "epsBasic": 0.5445,
+      "bookValuePerShare": 6.8752
     },
     {
       "endDate": "2024-06-30",
@@ -512,7 +521,8 @@
       "netIncomeMM": 78,
       "sharesOutMM": 108.36,
       "netDebtMM": 1190,
-      "notes": "H1 2024: revenue $1.49B, EBITDA $226M."
+      "notes": "H1 2024: revenue $1.49B, EBITDA $226M.",
+      "epsBasic": 0.7198
     },
     {
       "endDate": "2024-12-31",
@@ -541,7 +551,7 @@
       "cashMM": 286,
       "netDebtMM": 1164,
       "sharesOutMM": 108.36,
-      "epsBasic": 1.55,
+      "epsBasic": 1.5504,
       "notes": "FY24 revenue $3.16B, EBITDA $484M. Net income $168M. Continued recovery.",
       "capexMM": 130,
       "daMM": 200,
@@ -589,7 +599,9 @@
       "totalAssetsMM": 2800,
       "totalDebtMM": 1300,
       "cashMM": 220,
-      "interestExpenseMM": 130.0
+      "interestExpenseMM": 130.0,
+      "epsBasic": 0.8306,
+      "bookValuePerShare": 7.5674
     }
   ]
 }

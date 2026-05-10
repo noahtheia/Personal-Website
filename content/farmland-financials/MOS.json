@@ -304,7 +304,7 @@
       "cashMM": 574.0,
       "netDebtMM": 4004.0,
       "sharesOutMM": 379.09,
-      "bookValuePerShare": 25.27,
+      "bookValuePerShare": 17.819,
       "navPerShare": 25.27,
       "epsDiluted": 1.75,
       "capexMM": 1170.6,
@@ -339,7 +339,7 @@
       "cashMM": 769.5,
       "netDebtMM": 3512.1,
       "sharesOutMM": 379.09,
-      "bookValuePerShare": 27.97,
+      "bookValuePerShare": 20.5492,
       "navPerShare": 27.97,
       "dividendPerShare": 0.45,
       "epsDiluted": 4.27,
@@ -376,7 +376,8 @@
       "sharesOutMM": 362.01,
       "totalDebtMM": 4280.1,
       "cashMM": 881.9,
-      "netDebtMM": 3398.2
+      "netDebtMM": 3398.2,
+      "epsBasic": 3.2651
     },
     {
       "endDate": "2022-06-30",
@@ -395,7 +396,8 @@
       "sharesOutMM": 352.05,
       "totalDebtMM": 3959.6,
       "cashMM": 839.1,
-      "netDebtMM": 3120.5
+      "netDebtMM": 3120.5,
+      "epsBasic": 2.9425
     },
     {
       "endDate": "2022-09-30",
@@ -414,7 +416,8 @@
       "sharesOutMM": 340.44,
       "totalDebtMM": 4184.3,
       "cashMM": 702.8,
-      "netDebtMM": 3481.5
+      "netDebtMM": 3481.5,
+      "epsBasic": 2.4724
     },
     {
       "endDate": "2022-12-31",
@@ -431,7 +434,7 @@
       "cashMM": 735.4,
       "netDebtMM": 2886.7,
       "sharesOutMM": 339.07,
-      "bookValuePerShare": 35.55,
+      "bookValuePerShare": 27.8409,
       "navPerShare": 35.55,
       "epsDiluted": 10.06,
       "capexMM": 1247.3,
@@ -468,7 +471,8 @@
       "sharesOutMM": 332.1,
       "totalDebtMM": 3614.2,
       "cashMM": 464.8,
-      "netDebtMM": 3149.4
+      "netDebtMM": 3149.4,
+      "epsBasic": 1.3092
     },
     {
       "endDate": "2023-06-30",
@@ -487,7 +491,8 @@
       "sharesOutMM": 332.23,
       "totalDebtMM": 3392.9,
       "cashMM": 626.1,
-      "netDebtMM": 2766.8
+      "netDebtMM": 2766.8,
+      "epsBasic": 1.1107
     },
     {
       "endDate": "2023-09-30",
@@ -506,7 +511,8 @@
       "sharesOutMM": 328.33,
       "totalDebtMM": 3756.5,
       "cashMM": 591.0,
-      "netDebtMM": 3165.5
+      "netDebtMM": 3165.5,
+      "epsBasic": -0.0128
     },
     {
       "endDate": "2023-12-31",
@@ -523,7 +529,7 @@
       "cashMM": 348.8,
       "netDebtMM": 3412.6,
       "sharesOutMM": 324.1,
-      "bookValuePerShare": 37.92,
+      "bookValuePerShare": 29.4971,
       "navPerShare": 37.92,
       "epsDiluted": 3.5,
       "capexMM": 1402.4,
@@ -560,7 +566,8 @@
       "sharesOutMM": 321.39,
       "totalDebtMM": 3750.1,
       "cashMM": 336.7,
-      "netDebtMM": 3413.4
+      "netDebtMM": 3413.4,
+      "epsBasic": 0.1406
     },
     {
       "endDate": "2024-06-30",
@@ -584,7 +591,8 @@
         "Phosphate": 1200,
         "Potash": 663,
         "Mosaic Fertilizantes": 1000
-      }
+      },
+      "epsBasic": -0.5053
     },
     {
       "endDate": "2024-09-30",
@@ -608,7 +616,8 @@
         "Phosphate": 1000,
         "Potash": 526,
         "Mosaic Fertilizantes": 1400
-      }
+      },
+      "epsBasic": 0.3844
     },
     {
       "endDate": "2024-12-31",
@@ -625,7 +634,7 @@
       "cashMM": 272.8,
       "netDebtMM": 3951.9,
       "sharesOutMM": 316.93,
-      "bookValuePerShare": 36.23,
+      "bookValuePerShare": 27.9873,
       "navPerShare": 36.23,
       "epsDiluted": 0.55,
       "capexMM": 1251.8,
@@ -667,7 +676,8 @@
       "sharesOutMM": 317.23,
       "totalDebtMM": 4210.3,
       "cashMM": 259.2,
-      "netDebtMM": 3951.1
+      "netDebtMM": 3951.1,
+      "epsBasic": 0.7506
     },
     {
       "endDate": "2025-06-30",
@@ -691,7 +701,8 @@
         "Phosphate": 1200,
         "Potash": 711,
         "Mosaic Fertilizantes": 1200
-      }
+      },
+      "epsBasic": 1.2944
     },
     {
       "endDate": "2025-09-30",
@@ -715,7 +726,8 @@
         "Phosphate": 1300,
         "Potash": 695,
         "Mosaic Fertilizantes": 1600
-      }
+      },
+      "epsBasic": 1.2961
     },
     {
       "endDate": "2025-12-31",
@@ -732,7 +744,7 @@
       "cashMM": 276.6,
       "netDebtMM": 4777.3,
       "sharesOutMM": 317.41,
-      "bookValuePerShare": 38.07,
+      "bookValuePerShare": 28.197,
       "navPerShare": 38.07,
       "epsDiluted": 1.7,
       "capexMM": 1359.4,

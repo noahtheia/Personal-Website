@@ -131,7 +131,8 @@
       "netIncomeMM": 60000,
       "netDebtMM": 1500000,
       "sharesOutMM": 2239,
-      "notes": "Q1 2022: revenue Rp2.31T."
+      "notes": "Q1 2022: revenue Rp2.31T.",
+      "epsBasic": 26.7977
     },
     {
       "endDate": "2022-06-30",
@@ -153,7 +154,8 @@
       "netIncomeMM": 65000,
       "netDebtMM": 1480000,
       "sharesOutMM": 2239,
-      "notes": "Q2 2022: revenue Rp2.40T."
+      "notes": "Q2 2022: revenue Rp2.40T.",
+      "epsBasic": 29.0308
     },
     {
       "endDate": "2022-09-30",
@@ -175,7 +177,8 @@
       "netIncomeMM": 50000,
       "netDebtMM": 1465000,
       "sharesOutMM": 2239,
-      "notes": "Q3 2022: revenue Rp2.38T; corn cost spike."
+      "notes": "Q3 2022: revenue Rp2.38T; corn cost spike.",
+      "epsBasic": 22.3314
     },
     {
       "endDate": "2022-12-31",
@@ -208,7 +211,9 @@
         "capacityUtilizationPct": 78
       },
       "interestExpenseMM": 100000.0,
-      "totalEquityMM": 1530000.0
+      "totalEquityMM": 1530000.0,
+      "epsBasic": 17.8651,
+      "bookValuePerShare": 683.3408
     },
     {
       "endDate": "2022-12-31",
@@ -272,7 +277,8 @@
       "netIncomeMM": 12000,
       "netDebtMM": 1480000,
       "sharesOutMM": 2239,
-      "notes": "Q1 2023: revenue Rp2.23T; weak DOC pricing."
+      "notes": "Q1 2023: revenue Rp2.23T; weak DOC pricing.",
+      "epsBasic": 5.3595
     },
     {
       "endDate": "2023-06-30",
@@ -294,7 +300,8 @@
       "netIncomeMM": 14000,
       "netDebtMM": 1500000,
       "sharesOutMM": 2239,
-      "notes": "Q2 2023: revenue Rp2.25T."
+      "notes": "Q2 2023: revenue Rp2.25T.",
+      "epsBasic": 6.2528
     },
     {
       "endDate": "2023-09-30",
@@ -316,7 +323,8 @@
       "netIncomeMM": 14000,
       "netDebtMM": 1510000,
       "sharesOutMM": 2239,
-      "notes": "Q3 2023: revenue Rp2.22T."
+      "notes": "Q3 2023: revenue Rp2.22T.",
+      "epsBasic": 6.2528
     },
     {
       "endDate": "2023-12-31",
@@ -349,7 +357,9 @@
         "capacityUtilizationPct": 72
       },
       "interestExpenseMM": 120000.0,
-      "totalEquityMM": 1430000.0
+      "totalEquityMM": 1430000.0,
+      "epsBasic": 7.146,
+      "bookValuePerShare": 638.678
     },
     {
       "endDate": "2023-12-31",
@@ -413,7 +423,8 @@
       "netIncomeMM": 38000,
       "netDebtMM": 1330000,
       "sharesOutMM": 2239,
-      "notes": "Q1 2024: revenue Rp2.27T; DOC pricing recovery."
+      "notes": "Q1 2024: revenue Rp2.27T; DOC pricing recovery.",
+      "epsBasic": 16.9719
     },
     {
       "endDate": "2024-06-30",
@@ -435,7 +446,8 @@
       "netIncomeMM": 42000,
       "netDebtMM": 1290000,
       "sharesOutMM": 2239,
-      "notes": "Q2 2024: revenue Rp2.30T."
+      "notes": "Q2 2024: revenue Rp2.30T.",
+      "epsBasic": 18.7584
     },
     {
       "endDate": "2024-09-30",
@@ -457,7 +469,8 @@
       "netIncomeMM": 36000,
       "netDebtMM": 1260000,
       "sharesOutMM": 2239,
-      "notes": "Q3 2024: revenue Rp2.26T."
+      "notes": "Q3 2024: revenue Rp2.26T.",
+      "epsBasic": 16.0786
     },
     {
       "endDate": "2024-12-31",
@@ -490,7 +503,9 @@
         "capacityUtilizationPct": 76
       },
       "interestExpenseMM": 130000.0,
-      "totalEquityMM": 1480000.0
+      "totalEquityMM": 1480000.0,
+      "epsBasic": 18.7584,
+      "bookValuePerShare": 661.0094
     },
     {
       "endDate": "2024-12-31",

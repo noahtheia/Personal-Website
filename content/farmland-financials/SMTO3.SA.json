@@ -340,7 +340,8 @@
       "netIncomeMM": 280,
       "sharesOutMM": 339.6,
       "netDebtMM": 4400,
-      "notes": "1T FY22/23 (Apr-Jun 2022): Revenue R$1.14bn, EBITDA R$600M. Start of new cane harvest."
+      "notes": "1T FY22/23 (Apr-Jun 2022): Revenue R$1.14bn, EBITDA R$600M. Start of new cane harvest.",
+      "epsBasic": 0.8245
     },
     {
       "endDate": "2022-09-30",
@@ -350,7 +351,8 @@
       "netIncomeMM": 410,
       "sharesOutMM": 339.6,
       "netDebtMM": 4350,
-      "notes": "2T FY22/23: Revenue R$1.75bn, EBITDA R$870M. Peak harvest quarter."
+      "notes": "2T FY22/23: Revenue R$1.75bn, EBITDA R$870M. Peak harvest quarter.",
+      "epsBasic": 1.2073
     },
     {
       "endDate": "2022-12-31",
@@ -360,7 +362,8 @@
       "netIncomeMM": 380,
       "sharesOutMM": 339.6,
       "netDebtMM": 4400,
-      "notes": "3T FY22/23: Revenue R$1.83bn, EBITDA R$920M."
+      "notes": "3T FY22/23: Revenue R$1.83bn, EBITDA R$920M.",
+      "epsBasic": 1.119
     },
     {
       "endDate": "2023-03-31",
@@ -442,7 +445,9 @@
       "propertyBookMM": 1750,
       "totalEquityMM": 4500,
       "interestExpenseMM": 320,
-      "dividendPerShare": 1.8
+      "dividendPerShare": 1.8,
+      "epsBasic": 0.8274,
+      "bookValuePerShare": 13.2509
     },
     {
       "endDate": "2023-06-30",
@@ -452,7 +457,8 @@
       "netIncomeMM": 270,
       "sharesOutMM": 339.6,
       "netDebtMM": 4500,
-      "notes": "1T FY23/24: Revenue R$1.32bn, EBITDA R$680M."
+      "notes": "1T FY23/24: Revenue R$1.32bn, EBITDA R$680M.",
+      "epsBasic": 0.7951
     },
     {
       "endDate": "2023-09-30",
@@ -462,7 +468,8 @@
       "netIncomeMM": 250,
       "sharesOutMM": 339.6,
       "netDebtMM": 4600,
-      "notes": "2T FY23/24: Revenue R$1.66bn, EBITDA R$760M."
+      "notes": "2T FY23/24: Revenue R$1.66bn, EBITDA R$760M.",
+      "epsBasic": 0.7362
     },
     {
       "endDate": "2023-12-31",
@@ -472,7 +479,8 @@
       "netIncomeMM": 260,
       "sharesOutMM": 339.6,
       "netDebtMM": 4750,
-      "notes": "3T FY23/24: Revenue R$1.66bn, EBITDA R$820M."
+      "notes": "3T FY23/24: Revenue R$1.66bn, EBITDA R$820M.",
+      "epsBasic": 0.7656
     },
     {
       "endDate": "2024-03-31",
@@ -554,7 +562,9 @@
       "propertyBookMM": 1850,
       "totalEquityMM": 4700,
       "interestExpenseMM": 350,
-      "dividendPerShare": 1.4
+      "dividendPerShare": 1.4,
+      "epsBasic": 0.4859,
+      "bookValuePerShare": 13.8398
     },
     {
       "endDate": "2024-06-30",
@@ -564,7 +574,8 @@
       "netIncomeMM": 220,
       "sharesOutMM": 339.6,
       "netDebtMM": 4900,
-      "notes": "1T FY24/25: Revenue R$1.48bn, EBITDA R$690M."
+      "notes": "1T FY24/25: Revenue R$1.48bn, EBITDA R$690M.",
+      "epsBasic": 0.6478
     },
     {
       "endDate": "2024-09-30",
@@ -574,7 +585,8 @@
       "netIncomeMM": 250,
       "sharesOutMM": 339.6,
       "netDebtMM": 4980,
-      "notes": "2T FY24/25: Revenue R$1.81bn, EBITDA R$760M. Cane fires/drought impacted."
+      "notes": "2T FY24/25: Revenue R$1.81bn, EBITDA R$760M. Cane fires/drought impacted.",
+      "epsBasic": 0.7362
     },
     {
       "endDate": "2024-12-31",
@@ -584,7 +596,8 @@
       "netIncomeMM": 270,
       "sharesOutMM": 339.6,
       "netDebtMM": 5050,
-      "notes": "3T FY24/25: Revenue R$1.81bn, EBITDA R$760M."
+      "notes": "3T FY24/25: Revenue R$1.81bn, EBITDA R$760M.",
+      "epsBasic": 0.7951
     },
     {
       "endDate": "2025-03-31",
@@ -631,7 +644,8 @@
       "netIncomeMM": 161,
       "sharesOutMM": 339.6,
       "netDebtMM": 5100,
-      "notes": "4T FY24/25: Revenue R$1.31bn, EBITDA R$536M."
+      "notes": "4T FY24/25: Revenue R$1.31bn, EBITDA R$536M.",
+      "epsBasic": 0.4741
     },
     {
       "endDate": "2025-06-30",
@@ -641,7 +655,8 @@
       "netIncomeMM": 200,
       "sharesOutMM": 339.6,
       "netDebtMM": 5200,
-      "notes": "1T FY25/26: Revenue R$1.45bn, EBITDA R$660M."
+      "notes": "1T FY25/26: Revenue R$1.45bn, EBITDA R$660M.",
+      "epsBasic": 0.5889
     },
     {
       "endDate": "2025-09-30",
@@ -651,7 +666,8 @@
       "netIncomeMM": 240,
       "sharesOutMM": 339.6,
       "netDebtMM": 5250,
-      "notes": "2T FY25/26: Revenue R$1.85bn, EBITDA R$770M."
+      "notes": "2T FY25/26: Revenue R$1.85bn, EBITDA R$770M.",
+      "epsBasic": 0.7067
     }
   ]
 }
