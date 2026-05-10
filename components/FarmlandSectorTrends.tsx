@@ -260,10 +260,18 @@ export function FarmlandSectorTrends({
 }) {
   if (!financials || financials.periods.length < 2) return null;
 
-  const periods = useMemo(
+  const fyPeriods = useMemo(
     () =>
       [...financials.periods]
         .filter((p) => p.periodType === "FY" || p.periodType === "LTM")
+        .sort((a, b) => a.endDate.localeCompare(b.endDate)),
+    [financials],
+  );
+
+  const qPeriods = useMemo(
+    () =>
+      [...financials.periods]
+        .filter((p) => p.periodType === "Q" || p.periodType === "H")
         .sort((a, b) => a.endDate.localeCompare(b.endDate)),
     [financials],
   );
@@ -291,8 +299,8 @@ export function FarmlandSectorTrends({
       });
     }
 
-    for (const m of METRICS) {
-      const pts = periods
+    const buildPts = (rows: typeof fyPeriods, m: Metric) =>
+      rows
         .map((p) => ({
           dateMs: new Date(p.endDate).getTime(),
           value: m.extract(p),
@@ -302,10 +310,19 @@ export function FarmlandSectorTrends({
           (d): d is { dateMs: number; value: number; endDate: string } =>
             typeof d.value === "number" && Number.isFinite(d.value),
         );
-      if (pts.length >= 2) out.push({ metric: m, points: pts });
+
+    for (const m of METRICS) {
+      // Prefer the highest-cadence series with sufficient density:
+      // quarterly when 4+ Q rows are populated, otherwise FY/LTM. Keeps
+      // the chart on a single cadence so no normalization gymnastics
+      // (Q-flow vs FY-flow units would otherwise mix).
+      const qPts = buildPts(qPeriods, m);
+      const fyPts = buildPts(fyPeriods, m);
+      const chosen = qPts.length >= 4 ? qPts : fyPts;
+      if (chosen.length >= 2) out.push({ metric: m, points: chosen });
     }
     return out;
-  }, [periods, marketShareSeries, sector]);
+  }, [fyPeriods, qPeriods, marketShareSeries, sector]);
 
   const [activeId, setActiveId] = useState<string>(
     () => populated[0]?.metric.id ?? "",
@@ -372,8 +389,8 @@ export function FarmlandSectorTrends({
       <SectionHeader
         title="Sector trends"
         subtitle={`${populated.length} populated KPIs · ${
-          periods[0].endDate.slice(0, 4)
-        }–${periods[periods.length - 1].endDate.slice(0, 4)}`}
+          active.points[0].endDate.slice(0, 4)
+        }–${active.points[active.points.length - 1].endDate.slice(0, 4)}`}
       />
 
       <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-b border-rule pb-3">
@@ -572,26 +589,25 @@ function makeXTicks(
   const dateMin = first.dateMs;
   const dateMax = last.dateMs;
   const range = dateMax - dateMin || 1;
+  const yearSpan =
+    new Date(last.endDate).getUTCFullYear() -
+    new Date(first.endDate).getUTCFullYear();
+  // Adapt tick density to span: 3 ticks for short series, 5 for >5yr,
+  // 7 for >15yr — useful when quarterly data extends across decades.
+  const nTicks = yearSpan > 15 ? 7 : yearSpan > 5 ? 5 : 3;
   const ticks: { x: number; label: string; anchor: "start" | "middle" | "end" }[] =
     [];
-  ticks.push({
-    x: PAD.left,
-    label: first.endDate.slice(0, 4),
-    anchor: "start",
-  });
-  if (points.length >= 4) {
-    const midMs = dateMin + range / 2;
-    const midX = PAD.left + 0.5 * (W - PAD.left - PAD.right);
-    const mid = points.reduce((best, p) =>
-      Math.abs(p.dateMs - midMs) < Math.abs(best.dateMs - midMs) ? p : best,
+  for (let i = 0; i < nTicks; i++) {
+    const t = i / (nTicks - 1);
+    const x = PAD.left + t * (W - PAD.left - PAD.right);
+    const targetMs = dateMin + t * range;
+    const nearest = points.reduce((best, p) =>
+      Math.abs(p.dateMs - targetMs) < Math.abs(best.dateMs - targetMs) ? p : best,
     );
-    ticks.push({ x: midX, label: mid.endDate.slice(0, 4), anchor: "middle" });
+    const anchor: "start" | "middle" | "end" =
+      i === 0 ? "start" : i === nTicks - 1 ? "end" : "middle";
+    ticks.push({ x, label: nearest.endDate.slice(0, 4), anchor });
   }
-  ticks.push({
-    x: W - PAD.right,
-    label: last.endDate.slice(0, 4),
-    anchor: "end",
-  });
   return ticks;
 }
 
