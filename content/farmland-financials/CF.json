@@ -58,7 +58,10 @@
       "propertyBookMM": 0,
       "ppeBookMM": 6700,
       "inventoryMM": 290,
-      "intangibleAssetsMM": 2360
+      "intangibleAssetsMM": 2360,
+      "netIncomeMM": 110,
+      "interestExpenseMM": 175,
+      "epsBasic": 0.5141
     },
     {
       "endDate": "2021-12-31",
@@ -91,7 +94,10 @@
       "propertyBookMM": 0,
       "ppeBookMM": 6500,
       "inventoryMM": 380,
-      "intangibleAssetsMM": 2360
+      "intangibleAssetsMM": 2360,
+      "netIncomeMM": 920,
+      "interestExpenseMM": 165,
+      "epsBasic": 4.432
     },
     {
       "endDate": "2022-03-31",
@@ -187,7 +193,10 @@
         "gasCostUSDPerMMBtu": 6.55,
         "rdSpendPctOfRevenue": 0.12
       },
-      "totalAssetsMM": 13539
+      "totalAssetsMM": 13539,
+      "netIncomeMM": 3350,
+      "interestExpenseMM": 155,
+      "epsBasic": 17.1268
     },
     {
       "endDate": "2023-03-31",
@@ -283,7 +292,10 @@
         "gasCostUSDPerMMBtu": 2.65,
         "rdSpendPctOfRevenue": 0.14
       },
-      "totalAssetsMM": 13230
+      "totalAssetsMM": 13230,
+      "netIncomeMM": 1530,
+      "interestExpenseMM": 145,
+      "epsBasic": 8.1301
     },
     {
       "endDate": "2024-03-31",
@@ -386,7 +398,10 @@
         "gasCostUSDPerMMBtu": 2.35,
         "rdSpendPctOfRevenue": 0.15
       },
-      "totalAssetsMM": 12800
+      "totalAssetsMM": 12800,
+      "netIncomeMM": 1230,
+      "interestExpenseMM": 140,
+      "epsBasic": 7.2404
     },
     {
       "endDate": "2025-03-31",

@@ -42,7 +42,11 @@
       "propertyBookMM": 2100,
       "ppeBookMM": 2800,
       "inventoryMM": 350,
-      "intangibleAssetsMM": 700
+      "intangibleAssetsMM": 700,
+      "netIncomeMM": -200,
+      "totalEquityMM": 4200,
+      "interestExpenseMM": 160,
+      "epsBasic": -1.7679
     },
     {
       "endDate": "2021-12-31",
@@ -82,7 +86,11 @@
       "propertyBookMM": 2400,
       "ppeBookMM": 3100,
       "inventoryMM": 400,
-      "intangibleAssetsMM": 720
+      "intangibleAssetsMM": 720,
+      "netIncomeMM": 350,
+      "totalEquityMM": 4500,
+      "interestExpenseMM": 170,
+      "epsBasic": 3.0938
     },
     {
       "endDate": "2022-03-31",
@@ -181,7 +189,10 @@
       "totalAssetsMM": 12000,
       "totalDebtMM": 3500,
       "cashMM": 350,
-      "propertyBookMM": 3200
+      "propertyBookMM": 3200,
+      "totalEquityMM": 5000,
+      "interestExpenseMM": 200,
+      "dividendPerShare": 3.0
     },
     {
       "endDate": "2022-12-31",
@@ -221,7 +232,11 @@
       "totalAssetsMM": 12000,
       "totalDebtMM": 3500,
       "cashMM": 350,
-      "propertyBookMM": 3200
+      "propertyBookMM": 3200,
+      "netIncomeMM": 600,
+      "totalEquityMM": 5000,
+      "interestExpenseMM": 200,
+      "epsBasic": 5.3036
     },
     {
       "endDate": "2023-03-31",
@@ -320,7 +335,10 @@
       "totalAssetsMM": 13500,
       "totalDebtMM": 4000,
       "cashMM": 400,
-      "propertyBookMM": 3600
+      "propertyBookMM": 3600,
+      "totalEquityMM": 5200,
+      "interestExpenseMM": 280,
+      "dividendPerShare": 1.5
     },
     {
       "endDate": "2023-12-31",
@@ -360,7 +378,11 @@
       "totalAssetsMM": 13500,
       "totalDebtMM": 4000,
       "cashMM": 400,
-      "propertyBookMM": 3600
+      "propertyBookMM": 3600,
+      "netIncomeMM": 100,
+      "totalEquityMM": 5200,
+      "interestExpenseMM": 280,
+      "epsBasic": 0.8839
     },
     {
       "endDate": "2024-03-31",
@@ -459,7 +481,10 @@
       "totalAssetsMM": 13000,
       "totalDebtMM": 3900,
       "cashMM": 380,
-      "propertyBookMM": 3400
+      "propertyBookMM": 3400,
+      "totalEquityMM": 4800,
+      "interestExpenseMM": 290,
+      "dividendPerShare": 0
     },
     {
       "endDate": "2024-12-31",
@@ -500,7 +525,10 @@
       "totalAssetsMM": 13000,
       "totalDebtMM": 3900,
       "cashMM": 380,
-      "propertyBookMM": 3400
+      "propertyBookMM": 3400,
+      "netIncomeMM": -150,
+      "totalEquityMM": 4800,
+      "epsBasic": -1.3259
     },
     {
       "endDate": "2025-03-31",

@@ -47,7 +47,11 @@
       "propertyBookMM": 20,
       "ppeBookMM": 400,
       "inventoryMM": 110,
-      "intangibleAssetsMM": 100
+      "intangibleAssetsMM": 100,
+      "netIncomeMM": 90,
+      "totalEquityMM": 400,
+      "interestExpenseMM": 6,
+      "epsBasic": 1.6822
     },
     {
       "endDate": "2022-03-26",
@@ -92,7 +96,11 @@
           "feedConversionRatio": 2.7
         }
       },
-      "totalAssetsMM": 880
+      "totalAssetsMM": 880,
+      "netIncomeMM": 100,
+      "totalEquityMM": 440,
+      "interestExpenseMM": 6,
+      "epsBasic": 1.8657
     },
     {
       "endDate": "2023-03-25",
@@ -126,7 +134,11 @@
       "propertyBookMM": 24,
       "ppeBookMM": 500,
       "inventoryMM": 150,
-      "intangibleAssetsMM": 110
+      "intangibleAssetsMM": 110,
+      "netIncomeMM": 95,
+      "totalEquityMM": 480,
+      "interestExpenseMM": 10,
+      "epsBasic": 1.7724
     },
     {
       "endDate": "2024-03-30",
@@ -171,7 +183,11 @@
           "feedConversionRatio": 2.65
         }
       },
-      "totalAssetsMM": 1080
+      "totalAssetsMM": 1080,
+      "netIncomeMM": 125,
+      "totalEquityMM": 540,
+      "interestExpenseMM": 14,
+      "epsBasic": 2.3277
     },
     {
       "endDate": "2025-03-29",

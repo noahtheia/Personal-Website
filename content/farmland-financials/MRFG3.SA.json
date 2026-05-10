@@ -39,7 +39,11 @@
       "ppeBookMM": 13500,
       "inventoryMM": 7800,
       "intangibleAssetsMM": 4200,
-      "epsBasic": 4.4157
+      "epsBasic": 4.4157,
+      "totalEquityMM": 7000,
+      "interestExpenseMM": 3500,
+      "dividendPerShare": 1.5,
+      "bookValuePerShare": 9.8315
     },
     {
       "endDate": "2021-12-31",
@@ -76,7 +80,11 @@
       "ppeBookMM": 16500,
       "inventoryMM": 9500,
       "intangibleAssetsMM": 4500,
-      "epsBasic": 6.3624
+      "epsBasic": 6.3624,
+      "totalEquityMM": 9500,
+      "interestExpenseMM": 3200,
+      "dividendPerShare": 1.4,
+      "bookValuePerShare": 13.3427
     },
     {
       "endDate": "2022-03-31",
@@ -128,7 +136,10 @@
       },
       "totalAssetsMM": 84200,
       "totalDebtMM": 47500,
-      "cashMM": 13500
+      "cashMM": 13500,
+      "totalEquityMM": 8500,
+      "interestExpenseMM": 4500,
+      "dividendPerShare": 0.5
     },
     {
       "endDate": "2022-12-31",
@@ -166,7 +177,11 @@
         "capacityUtilizationPct": 82
       },
       "totalAssetsMM": 84200,
-      "epsBasic": 1.9506
+      "epsBasic": 1.9506,
+      "totalEquityMM": 8500,
+      "interestExpenseMM": 4500,
+      "dividendPerShare": 0.5,
+      "bookValuePerShare": 9.9882
     },
     {
       "endDate": "2023-03-31",
@@ -218,7 +233,10 @@
       },
       "totalAssetsMM": 92500,
       "totalDebtMM": 52500,
-      "cashMM": 15500
+      "cashMM": 15500,
+      "totalEquityMM": 5500,
+      "interestExpenseMM": 5800,
+      "dividendPerShare": 0
     },
     {
       "endDate": "2023-12-31",
@@ -256,7 +274,11 @@
         "capacityUtilizationPct": 76
       },
       "totalAssetsMM": 92500,
-      "epsBasic": -3.7438
+      "epsBasic": -3.7438,
+      "totalEquityMM": 5500,
+      "interestExpenseMM": 5800,
+      "dividendPerShare": 0,
+      "bookValuePerShare": 6.463
     },
     {
       "endDate": "2024-03-31",
@@ -308,7 +330,10 @@
       },
       "totalAssetsMM": 95800,
       "totalDebtMM": 51500,
-      "cashMM": 16800
+      "cashMM": 16800,
+      "totalEquityMM": 6000,
+      "interestExpenseMM": 5500,
+      "dividendPerShare": 0
     },
     {
       "endDate": "2024-12-31",
@@ -354,7 +379,10 @@
         "capacityUtilizationPct": 80
       },
       "totalAssetsMM": 95800,
-      "epsBasic": 0.8461
+      "epsBasic": 0.8461,
+      "totalEquityMM": 6000,
+      "dividendPerShare": 0,
+      "bookValuePerShare": 7.0505
     },
     {
       "endDate": "2025-03-31",

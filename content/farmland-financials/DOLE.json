@@ -32,7 +32,11 @@
       "propertyBookMM": 380,
       "ppeBookMM": 1180,
       "inventoryMM": 620,
-      "intangibleAssetsMM": 770
+      "intangibleAssetsMM": 770,
+      "netIncomeMM": -15,
+      "totalEquityMM": 1000,
+      "interestExpenseMM": 90,
+      "epsBasic": -0.1579
     },
     {
       "endDate": "2021-12-31",
@@ -66,7 +70,10 @@
       "propertyBookMM": 410,
       "ppeBookMM": 1290,
       "inventoryMM": 700,
-      "intangibleAssetsMM": 880
+      "intangibleAssetsMM": 880,
+      "netIncomeMM": 60,
+      "interestExpenseMM": 110,
+      "epsBasic": 0.6316
     },
     {
       "endDate": "2022-03-31",
@@ -154,7 +161,10 @@
         "biologicalAssetsMM": 158
       },
       "totalAssetsMM": 4630,
-      "propertyBookMM": 405
+      "propertyBookMM": 405,
+      "netIncomeMM": 80,
+      "interestExpenseMM": 100,
+      "epsBasic": 0.8448
     },
     {
       "endDate": "2023-03-31",
@@ -242,7 +252,10 @@
         "biologicalAssetsMM": 162
       },
       "totalAssetsMM": 4740,
-      "propertyBookMM": 410
+      "propertyBookMM": 410,
+      "netIncomeMM": 110,
+      "interestExpenseMM": 115,
+      "epsBasic": 1.1579
     },
     {
       "endDate": "2024-03-31",
@@ -360,7 +373,9 @@
         "biologicalAssetsMM": 168
       },
       "totalAssetsMM": 4820,
-      "propertyBookMM": 415
+      "propertyBookMM": 415,
+      "netIncomeMM": 115,
+      "epsBasic": 1.21
     },
     {
       "endDate": "2025-03-31",
