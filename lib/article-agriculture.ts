@@ -21,6 +21,7 @@ import inflationRaw from "@/content/articles/agriculture-bear-market/ag-inflatio
 export type Provenance = {
   title: string;
   source: string;
+  sourceUrl?: string;
   retrievedAt: string | null;
   notes: string;
 };

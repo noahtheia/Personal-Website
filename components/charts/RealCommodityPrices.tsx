@@ -60,6 +60,7 @@ export function RealCommodityPrices({ showTarget = true }: { showTarget?: boolea
       title="Real agricultural commodity prices"
       subtitle={`deflated by ${data.deflator}${data.baseYear ? `, base ${data.baseYear}` : ""}`}
       source={data.source}
+      sourceUrl={data.sourceUrl}
       retrievedAt={data.retrievedAt}
     >
       {built ? (

@@ -17,6 +17,7 @@ export function FarmInputCosts() {
       title="Farm input costs over time"
       subtitle={data.unit}
       source={data.source}
+      sourceUrl={data.sourceUrl}
       retrievedAt={data.retrievedAt}
     >
       {ready ? (

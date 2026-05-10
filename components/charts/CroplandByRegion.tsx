@@ -44,9 +44,10 @@ export function CroplandByRegion({ showDecadeCagr = true }: { showDecadeCagr?: b
 
   return (
     <ChartFrame
-      title="Global cropland by region, 1700–2026"
+      title={data.title}
       subtitle={data.unit}
       source={data.source}
+      sourceUrl={data.sourceUrl}
       retrievedAt={data.retrievedAt}
     >
       {built ? (

@@ -190,29 +190,36 @@ export function cagrOverSeries(
 export type DecadeCagr = { decadeStartYear: number; fromYear: number; toYear: number; cagr: number };
 
 /**
- * Per-decade CAGR. Buckets points by calendar decade (1700s, 1710s, ...) and
- * computes the CAGR from the first to the last point that falls in (or borders)
- * each decade — so partial first/last decades still get a figure. Returns one
- * entry per decade that has at least two usable points.
+ * Per-decade CAGR. For each calendar decade (1700s, 1710s, …) that the series
+ * spans, computes the growth rate from the observation at-or-before the decade
+ * start to the observation at-or-before the decade end. Works for both annual
+ * data and sparse/decadal benchmark series (e.g. HYDE's 1700, 1710, …). The
+ * last decade may be partial (ends at the latest available year).
  */
 export function perDecadeCagr(points: { year: number; value: number }[]): DecadeCagr[] {
   if (points.length < 2) return [];
   const sorted = [...points].sort((a, b) => a.year - b.year);
+  const first = sorted[0].year;
+  const last = sorted[sorted.length - 1].year;
+  // Latest observation with year <= y (or undefined if none).
+  function at(y: number): { year: number; value: number } | undefined {
+    let best: { year: number; value: number } | undefined;
+    for (const p of sorted) {
+      if (p.year <= y) best = p;
+      else break;
+    }
+    return best;
+  }
   const out: DecadeCagr[] = [];
-  const firstDecade = Math.floor(sorted[0].year / 10) * 10;
-  const lastDecade = Math.floor(sorted[sorted.length - 1].year / 10) * 10;
+  const firstDecade = Math.floor(first / 10) * 10;
+  const lastDecade = Math.floor(last / 10) * 10;
   for (let d = firstDecade; d <= lastDecade; d += 10) {
-    const inDecade = sorted.filter((p) => p.year >= d && p.year < d + 10);
-    if (inDecade.length === 0) continue;
-    // Anchor to the last point at/just-before the decade start so the CAGR
-    // reflects growth *through* the decade, not just within sampled years.
-    const start =
-      [...sorted].reverse().find((p) => p.year <= d) ?? inDecade[0];
-    const end = inDecade[inDecade.length - 1];
-    if (start === end) continue;
-    const g = cagr(start.value, end.value, end.year - start.year);
+    const a = at(Math.max(d, first));
+    const b = at(Math.min(d + 10, last));
+    if (!a || !b || b.year <= a.year) continue;
+    const g = cagr(a.value, b.value, b.year - a.year);
     if (Number.isFinite(g)) {
-      out.push({ decadeStartYear: d, fromYear: start.year, toYear: end.year, cagr: g });
+      out.push({ decadeStartYear: d, fromYear: a.year, toYear: b.year, cagr: g });
     }
   }
   return out;
@@ -223,6 +230,7 @@ export function perDecadeCagr(points: { year: number; value: number }[]): Decade
 // ---------------------------------------------------------------------------
 
 export function formatCompact(n: number): string {
+  if (n === 0) return "0";
   const abs = Math.abs(n);
   if (abs >= 1e9) return `${(n / 1e9).toFixed(2)}B`;
   if (abs >= 1e6) return `${(n / 1e6).toFixed(2)}M`;

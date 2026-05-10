@@ -22,12 +22,14 @@ export function ChartFrame({
   title,
   subtitle,
   source,
+  sourceUrl,
   retrievedAt,
   children,
 }: {
   title: string;
   subtitle?: string;
   source?: string;
+  sourceUrl?: string;
   retrievedAt?: string | null;
   children: React.ReactNode;
 }) {
@@ -42,7 +44,19 @@ export function ChartFrame({
       <div className="mt-4">{children}</div>
       {source ? (
         <div className="mt-4 border-t border-rule pt-2 text-[11px] leading-snug text-muted">
-          Source: {source}
+          Source:{" "}
+          {sourceUrl ? (
+            <a
+              href={sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline decoration-dotted underline-offset-2 hover:text-fg-soft"
+            >
+              {source}
+            </a>
+          ) : (
+            source
+          )}
           {retrievedAt ? ` · retrieved ${retrievedAt}` : ""}
         </div>
       ) : null}

@@ -22,6 +22,7 @@ export function CornFarmEconomics() {
         data.cornPriceUsdPerBu != null ? `at $${data.cornPriceUsdPerBu.toFixed(2)}/bu corn` : undefined
       }
       source={data.source}
+      sourceUrl={data.sourceUrl}
       retrievedAt={data.retrievedAt}
     >
       {ready ? (

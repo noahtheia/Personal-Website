@@ -44,6 +44,7 @@ export function AgInflationOutlook() {
       title="Agricultural commodity inflation — history and outlook"
       subtitle="year-over-year %"
       source={data.source}
+      sourceUrl={data.sourceUrl}
       retrievedAt={data.retrievedAt}
     >
       {built ? (

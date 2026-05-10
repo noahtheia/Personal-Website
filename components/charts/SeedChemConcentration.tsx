@@ -20,6 +20,7 @@ export function SeedChemConcentration() {
       title="A consolidated supply chain feeding a fragmented field"
       subtitle="Share of global commercial seed sales"
       source={data.source}
+      sourceUrl={data.sourceUrl}
       retrievedAt={data.retrievedAt}
     >
       {ready ? (

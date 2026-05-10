@@ -49,6 +49,7 @@ export function CropYields({ showCagr = true }: { showCagr?: boolean }) {
       title="Global crop yields over time"
       subtitle={data.unit}
       source={data.source}
+      sourceUrl={data.sourceUrl}
       retrievedAt={data.retrievedAt}
     >
       {built ? (

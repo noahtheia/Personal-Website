@@ -1,9 +1,1107 @@
 {
-  "title": "Global cropland by region, 1700–2026",
+  "title": "Global cropland by region, 1700–2023",
   "unit": "million acres",
-  "source": "TBD — HYDE 3.2 via Our World in Data (\"Land used for agriculture / cropland\")",
-  "retrievedAt": null,
-  "notes": "Series not yet populated. Expect ~6 region buckets summing to a global total; total should read roughly 3.5 billion acres by the 1950s. Decade CAGRs are derived in-app from the global total via lib/chart-helpers#perDecadeCagr.",
-  "regions": [],
-  "series": []
+  "source": "Our World in Data, \"Land use over the long-term\" (cropland) — based on HYDE 3.3 (PBL Netherlands Environmental Assessment Agency) for the historical period and FAO for 1961 onward. Continental aggregates; converted from hectares (1 ha = 2.4710538147 acres).",
+  "sourceUrl": "https://ourworldindata.org/grapher/land-use-over-the-long-term",
+  "retrievedAt": "2026-05-10",
+  "notes": "Cropland (arable + permanent crops) by continent. Coverage: decadal benchmark years 1700–1950 (HYDE), then annual 1951–2023 (HYDE/FAO). The six continents sum to the world total. Per-decade CAGRs of the world total are derived in-app (lib/chart-helpers#perDecadeCagr). NB: in million acres the world total is ~812 in 1700 and ~4020 in 2023 (~3.0 bn acres by 1950, ~4.0 bn today) — cropland only, excluding pasture/grazing.",
+  "regions": [
+    "Africa",
+    "Asia",
+    "Europe",
+    "North America",
+    "South America",
+    "Oceania"
+  ],
+  "series": [
+    {
+      "year": 1700,
+      "byRegion": {
+        "Africa": 114.9,
+        "Asia": 423.5,
+        "Europe": 254.6,
+        "North America": 10.2,
+        "Oceania": 1.8,
+        "South America": 6.8
+      }
+    },
+    {
+      "year": 1710,
+      "byRegion": {
+        "Africa": 114.3,
+        "Asia": 440.1,
+        "Europe": 270.8,
+        "North America": 12.2,
+        "Oceania": 1.8,
+        "South America": 7.1
+      }
+    },
+    {
+      "year": 1720,
+      "byRegion": {
+        "Africa": 115.2,
+        "Asia": 458.8,
+        "Europe": 285.2,
+        "North America": 14.4,
+        "Oceania": 1.8,
+        "South America": 7.4
+      }
+    },
+    {
+      "year": 1730,
+      "byRegion": {
+        "Africa": 116.2,
+        "Asia": 474.2,
+        "Europe": 299.5,
+        "North America": 16.6,
+        "Oceania": 1.8,
+        "South America": 7.8
+      }
+    },
+    {
+      "year": 1740,
+      "byRegion": {
+        "Africa": 117.5,
+        "Asia": 488.4,
+        "Europe": 313.9,
+        "North America": 19.1,
+        "Oceania": 1.8,
+        "South America": 8.1
+      }
+    },
+    {
+      "year": 1750,
+      "byRegion": {
+        "Africa": 119.2,
+        "Asia": 504.5,
+        "Europe": 326.9,
+        "North America": 21.8,
+        "Oceania": 1.8,
+        "South America": 8.5
+      }
+    },
+    {
+      "year": 1760,
+      "byRegion": {
+        "Africa": 120.2,
+        "Asia": 521.1,
+        "Europe": 339.1,
+        "North America": 24.6,
+        "Oceania": 1.8,
+        "South America": 8.9
+      }
+    },
+    {
+      "year": 1770,
+      "byRegion": {
+        "Africa": 121.4,
+        "Asia": 538.9,
+        "Europe": 351.4,
+        "North America": 27.7,
+        "Oceania": 1.8,
+        "South America": 9.3
+      }
+    },
+    {
+      "year": 1780,
+      "byRegion": {
+        "Africa": 122.7,
+        "Asia": 559.6,
+        "Europe": 364.5,
+        "North America": 31.2,
+        "Oceania": 1.8,
+        "South America": 9.7
+      }
+    },
+    {
+      "year": 1790,
+      "byRegion": {
+        "Africa": 124,
+        "Asia": 582.7,
+        "Europe": 377.6,
+        "North America": 35.2,
+        "Oceania": 1.8,
+        "South America": 10.1
+      }
+    },
+    {
+      "year": 1800,
+      "byRegion": {
+        "Africa": 125.6,
+        "Asia": 606.8,
+        "Europe": 390.7,
+        "North America": 43.5,
+        "Oceania": 1.8,
+        "South America": 10.6
+      }
+    },
+    {
+      "year": 1810,
+      "byRegion": {
+        "Africa": 127.3,
+        "Asia": 634.2,
+        "Europe": 407.1,
+        "North America": 54,
+        "Oceania": 1.8,
+        "South America": 11
+      }
+    },
+    {
+      "year": 1820,
+      "byRegion": {
+        "Africa": 129.4,
+        "Asia": 661.2,
+        "Europe": 425.7,
+        "North America": 67.2,
+        "Oceania": 1.8,
+        "South America": 11.9
+      }
+    },
+    {
+      "year": 1830,
+      "byRegion": {
+        "Africa": 134,
+        "Asia": 686.9,
+        "Europe": 446,
+        "North America": 84.8,
+        "Oceania": 1.8,
+        "South America": 13.9
+      }
+    },
+    {
+      "year": 1840,
+      "byRegion": {
+        "Africa": 139,
+        "Asia": 712.7,
+        "Europe": 482.8,
+        "North America": 106.3,
+        "Oceania": 1.9,
+        "South America": 15.6
+      }
+    },
+    {
+      "year": 1850,
+      "byRegion": {
+        "Africa": 144.6,
+        "Asia": 739.7,
+        "Europe": 508,
+        "North America": 128.6,
+        "Oceania": 2.2,
+        "South America": 17.8
+      }
+    },
+    {
+      "year": 1860,
+      "byRegion": {
+        "Africa": 153.6,
+        "Asia": 757.6,
+        "Europe": 541.7,
+        "North America": 176.4,
+        "Oceania": 2.9,
+        "South America": 21
+      }
+    },
+    {
+      "year": 1870,
+      "byRegion": {
+        "Africa": 160.3,
+        "Asia": 775,
+        "Europe": 571.6,
+        "North America": 202.2,
+        "Oceania": 4,
+        "South America": 23.2
+      }
+    },
+    {
+      "year": 1880,
+      "byRegion": {
+        "Africa": 169.1,
+        "Asia": 793.7,
+        "Europe": 620,
+        "North America": 289.6,
+        "Oceania": 6.6,
+        "South America": 26.4
+      }
+    },
+    {
+      "year": 1890,
+      "byRegion": {
+        "Africa": 177.9,
+        "Asia": 822.1,
+        "Europe": 670.9,
+        "North America": 359.8,
+        "Oceania": 7.8,
+        "South America": 31
+      }
+    },
+    {
+      "year": 1900,
+      "byRegion": {
+        "Africa": 188.7,
+        "Asia": 854.6,
+        "Europe": 721.5,
+        "North America": 412.4,
+        "Oceania": 11.7,
+        "South America": 35.8
+      }
+    },
+    {
+      "year": 1910,
+      "byRegion": {
+        "Africa": 201.7,
+        "Asia": 891,
+        "Europe": 811.6,
+        "North America": 488.8,
+        "Oceania": 13.4,
+        "South America": 50.7
+      }
+    },
+    {
+      "year": 1920,
+      "byRegion": {
+        "Africa": 216.4,
+        "Asia": 940.6,
+        "Europe": 784.8,
+        "North America": 532.1,
+        "Oceania": 12.4,
+        "South America": 69.6
+      }
+    },
+    {
+      "year": 1930,
+      "byRegion": {
+        "Africa": 236.2,
+        "Asia": 1001.2,
+        "Europe": 833.9,
+        "North America": 560.5,
+        "Oceania": 18.2,
+        "South America": 97.2
+      }
+    },
+    {
+      "year": 1940,
+      "byRegion": {
+        "Africa": 265.9,
+        "Asia": 1039.8,
+        "Europe": 918.6,
+        "North America": 562.7,
+        "Oceania": 14.4,
+        "South America": 106.3
+      }
+    },
+    {
+      "year": 1950,
+      "byRegion": {
+        "Africa": 330.1,
+        "Asia": 1112.4,
+        "Europe": 802.8,
+        "North America": 612.7,
+        "Oceania": 11.4,
+        "South America": 106.5
+      }
+    },
+    {
+      "year": 1951,
+      "byRegion": {
+        "Africa": 335.1,
+        "Asia": 1124.7,
+        "Europe": 807.4,
+        "North America": 613.5,
+        "Oceania": 14.5,
+        "South America": 108.4
+      }
+    },
+    {
+      "year": 1952,
+      "byRegion": {
+        "Africa": 342.3,
+        "Asia": 1137.6,
+        "Europe": 812.8,
+        "North America": 614.4,
+        "Oceania": 17.6,
+        "South America": 110.3
+      }
+    },
+    {
+      "year": 1953,
+      "byRegion": {
+        "Africa": 349.7,
+        "Asia": 1151.1,
+        "Europe": 819,
+        "North America": 615.3,
+        "Oceania": 20.7,
+        "South America": 112.4
+      }
+    },
+    {
+      "year": 1954,
+      "byRegion": {
+        "Africa": 357.4,
+        "Asia": 1165.2,
+        "Europe": 824.8,
+        "North America": 616.2,
+        "Oceania": 23.8,
+        "South America": 114.4
+      }
+    },
+    {
+      "year": 1955,
+      "byRegion": {
+        "Africa": 365.4,
+        "Asia": 1179.9,
+        "Europe": 830.8,
+        "North America": 617.1,
+        "Oceania": 26.9,
+        "South America": 116.5
+      }
+    },
+    {
+      "year": 1956,
+      "byRegion": {
+        "Africa": 373.7,
+        "Asia": 1195.2,
+        "Europe": 836.6,
+        "North America": 618,
+        "Oceania": 30,
+        "South America": 118.6
+      }
+    },
+    {
+      "year": 1957,
+      "byRegion": {
+        "Africa": 382.3,
+        "Asia": 1211.2,
+        "Europe": 842.3,
+        "North America": 618.9,
+        "Oceania": 33.1,
+        "South America": 120.7
+      }
+    },
+    {
+      "year": 1958,
+      "byRegion": {
+        "Africa": 391.2,
+        "Asia": 1227.8,
+        "Europe": 847.8,
+        "North America": 619.9,
+        "Oceania": 36.3,
+        "South America": 122.9
+      }
+    },
+    {
+      "year": 1959,
+      "byRegion": {
+        "Africa": 400.5,
+        "Asia": 1245.1,
+        "Europe": 850.4,
+        "North America": 620.8,
+        "Oceania": 39.4,
+        "South America": 125
+      }
+    },
+    {
+      "year": 1960,
+      "byRegion": {
+        "Africa": 410.2,
+        "Asia": 1261.8,
+        "Europe": 845.7,
+        "North America": 617.5,
+        "Oceania": 42.5,
+        "South America": 126.9
+      }
+    },
+    {
+      "year": 1961,
+      "byRegion": {
+        "Africa": 418.5,
+        "Asia": 1266,
+        "Europe": 847.9,
+        "North America": 619.3,
+        "Oceania": 45.4,
+        "South America": 128.5
+      }
+    },
+    {
+      "year": 1962,
+      "byRegion": {
+        "Africa": 419.3,
+        "Asia": 1271.7,
+        "Europe": 848.2,
+        "North America": 611.3,
+        "Oceania": 48.2,
+        "South America": 131.2
+      }
+    },
+    {
+      "year": 1963,
+      "byRegion": {
+        "Africa": 429.2,
+        "Asia": 1275.1,
+        "Europe": 843.8,
+        "North America": 618.3,
+        "Oceania": 47.9,
+        "South America": 134
+      }
+    },
+    {
+      "year": 1964,
+      "byRegion": {
+        "Africa": 434.9,
+        "Asia": 1278.5,
+        "Europe": 838.2,
+        "North America": 615.4,
+        "Oceania": 50.2,
+        "South America": 136.7
+      }
+    },
+    {
+      "year": 1965,
+      "byRegion": {
+        "Africa": 443.9,
+        "Asia": 1282.4,
+        "Europe": 836,
+        "North America": 613.3,
+        "Oceania": 52.7,
+        "South America": 139.1
+      }
+    },
+    {
+      "year": 1966,
+      "byRegion": {
+        "Africa": 439.8,
+        "Asia": 1282.1,
+        "Europe": 828.3,
+        "North America": 610.6,
+        "Oceania": 56.3,
+        "South America": 142.8
+      }
+    },
+    {
+      "year": 1967,
+      "byRegion": {
+        "Africa": 446.3,
+        "Asia": 1285,
+        "Europe": 826.5,
+        "North America": 607.9,
+        "Oceania": 57.7,
+        "South America": 145.7
+      }
+    },
+    {
+      "year": 1968,
+      "byRegion": {
+        "Africa": 450.5,
+        "Asia": 1285.9,
+        "Europe": 823.6,
+        "North America": 624.6,
+        "Oceania": 63,
+        "South America": 150.4
+      }
+    },
+    {
+      "year": 1969,
+      "byRegion": {
+        "Africa": 467.4,
+        "Asia": 1284.4,
+        "Europe": 823.6,
+        "North America": 645.4,
+        "Oceania": 58.7,
+        "South America": 156.6
+      }
+    },
+    {
+      "year": 1970,
+      "byRegion": {
+        "Africa": 462.3,
+        "Asia": 1286.3,
+        "Europe": 820.6,
+        "North America": 642.3,
+        "Oceania": 55.9,
+        "South America": 158.1
+      }
+    },
+    {
+      "year": 1971,
+      "byRegion": {
+        "Africa": 464.1,
+        "Asia": 1283,
+        "Europe": 814.2,
+        "North America": 641.4,
+        "Oceania": 51.9,
+        "South America": 159
+      }
+    },
+    {
+      "year": 1972,
+      "byRegion": {
+        "Africa": 454.4,
+        "Asia": 1290.7,
+        "Europe": 812.6,
+        "North America": 641,
+        "Oceania": 52.4,
+        "South America": 160.6
+      }
+    },
+    {
+      "year": 1973,
+      "byRegion": {
+        "Africa": 468.3,
+        "Asia": 1298.1,
+        "Europe": 810.5,
+        "North America": 640.8,
+        "Oceania": 47,
+        "South America": 161.8
+      }
+    },
+    {
+      "year": 1974,
+      "byRegion": {
+        "Africa": 458.1,
+        "Asia": 1301,
+        "Europe": 811.6,
+        "North America": 639.4,
+        "Oceania": 46.6,
+        "South America": 163
+      }
+    },
+    {
+      "year": 1975,
+      "byRegion": {
+        "Africa": 460.4,
+        "Asia": 1297.8,
+        "Europe": 809.5,
+        "North America": 640.4,
+        "Oceania": 43.5,
+        "South America": 164.1
+      }
+    },
+    {
+      "year": 1976,
+      "byRegion": {
+        "Africa": 463.9,
+        "Asia": 1299.9,
+        "Europe": 809,
+        "North America": 641.4,
+        "Oceania": 45.7,
+        "South America": 165.6
+      }
+    },
+    {
+      "year": 1977,
+      "byRegion": {
+        "Africa": 451.6,
+        "Asia": 1302.9,
+        "Europe": 808.8,
+        "North America": 642.9,
+        "Oceania": 46.6,
+        "South America": 166.9
+      }
+    },
+    {
+      "year": 1978,
+      "byRegion": {
+        "Africa": 451.3,
+        "Asia": 1306.6,
+        "Europe": 808.1,
+        "North America": 649.7,
+        "Oceania": 51,
+        "South America": 168
+      }
+    },
+    {
+      "year": 1979,
+      "byRegion": {
+        "Africa": 448.7,
+        "Asia": 1313.6,
+        "Europe": 805.7,
+        "North America": 650.2,
+        "Oceania": 52.5,
+        "South America": 169
+      }
+    },
+    {
+      "year": 1980,
+      "byRegion": {
+        "Africa": 454,
+        "Asia": 1310.6,
+        "Europe": 804.9,
+        "North America": 651.5,
+        "Oceania": 53.7,
+        "South America": 170.2
+      }
+    },
+    {
+      "year": 1981,
+      "byRegion": {
+        "Africa": 448.7,
+        "Asia": 1314.1,
+        "Europe": 804.4,
+        "North America": 652.9,
+        "Oceania": 54.7,
+        "South America": 171.2
+      }
+    },
+    {
+      "year": 1982,
+      "byRegion": {
+        "Africa": 453,
+        "Asia": 1331.7,
+        "Europe": 804.4,
+        "North America": 651.8,
+        "Oceania": 57.6,
+        "South America": 174.6
+      }
+    },
+    {
+      "year": 1983,
+      "byRegion": {
+        "Africa": 453.9,
+        "Asia": 1340.9,
+        "Europe": 804,
+        "North America": 653.7,
+        "Oceania": 57.3,
+        "South America": 175.7
+      }
+    },
+    {
+      "year": 1984,
+      "byRegion": {
+        "Africa": 464.9,
+        "Asia": 1366.4,
+        "Europe": 804.1,
+        "North America": 654.3,
+        "Oceania": 63.4,
+        "South America": 177
+      }
+    },
+    {
+      "year": 1985,
+      "byRegion": {
+        "Africa": 476.7,
+        "Asia": 1394.1,
+        "Europe": 804.1,
+        "North America": 655.9,
+        "Oceania": 61.5,
+        "South America": 178.6
+      }
+    },
+    {
+      "year": 1986,
+      "byRegion": {
+        "Africa": 490.6,
+        "Asia": 1401.9,
+        "Europe": 804.1,
+        "North America": 656.5,
+        "Oceania": 61,
+        "South America": 179.9
+      }
+    },
+    {
+      "year": 1987,
+      "byRegion": {
+        "Africa": 491.6,
+        "Asia": 1418.7,
+        "Europe": 804.3,
+        "North America": 654.1,
+        "Oceania": 58.5,
+        "South America": 183.3
+      }
+    },
+    {
+      "year": 1988,
+      "byRegion": {
+        "Africa": 495.8,
+        "Asia": 1423.1,
+        "Europe": 802,
+        "North America": 655.3,
+        "Oceania": 54.8,
+        "South America": 185.3
+      }
+    },
+    {
+      "year": 1989,
+      "byRegion": {
+        "Africa": 499.8,
+        "Asia": 1428.7,
+        "Europe": 796.4,
+        "North America": 657.6,
+        "Oceania": 53.2,
+        "South America": 188.3
+      }
+    },
+    {
+      "year": 1990,
+      "byRegion": {
+        "Africa": 504.5,
+        "Asia": 1433.9,
+        "Europe": 793.8,
+        "North America": 659.9,
+        "Oceania": 52.1,
+        "South America": 191.9
+      }
+    },
+    {
+      "year": 1991,
+      "byRegion": {
+        "Africa": 513.6,
+        "Asia": 1434.2,
+        "Europe": 791.1,
+        "North America": 662.3,
+        "Oceania": 52,
+        "South America": 196.9
+      }
+    },
+    {
+      "year": 1992,
+      "byRegion": {
+        "Africa": 521,
+        "Asia": 1428.8,
+        "Europe": 787.7,
+        "North America": 659,
+        "Oceania": 48.9,
+        "South America": 198.6
+      }
+    },
+    {
+      "year": 1993,
+      "byRegion": {
+        "Africa": 531.2,
+        "Asia": 1432,
+        "Europe": 779.2,
+        "North America": 656.9,
+        "Oceania": 50.8,
+        "South America": 200.6
+      }
+    },
+    {
+      "year": 1994,
+      "byRegion": {
+        "Africa": 536.8,
+        "Asia": 1430.3,
+        "Europe": 774.8,
+        "North America": 655.2,
+        "Oceania": 52.1,
+        "South America": 204.1
+      }
+    },
+    {
+      "year": 1995,
+      "byRegion": {
+        "Africa": 549.1,
+        "Asia": 1430.4,
+        "Europe": 768.1,
+        "North America": 655.9,
+        "Oceania": 49.4,
+        "South America": 205.8
+      }
+    },
+    {
+      "year": 1996,
+      "byRegion": {
+        "Africa": 557.2,
+        "Asia": 1425.6,
+        "Europe": 765.3,
+        "North America": 648.7,
+        "Oceania": 55.2,
+        "South America": 207.4
+      }
+    },
+    {
+      "year": 1997,
+      "byRegion": {
+        "Africa": 560.2,
+        "Asia": 1429.7,
+        "Europe": 768.4,
+        "North America": 646.3,
+        "Oceania": 59.5,
+        "South America": 210.2
+      }
+    },
+    {
+      "year": 1998,
+      "byRegion": {
+        "Africa": 563.3,
+        "Asia": 1430.2,
+        "Europe": 761.8,
+        "North America": 644.6,
+        "Oceania": 60.6,
+        "South America": 213.4
+      }
+    },
+    {
+      "year": 1999,
+      "byRegion": {
+        "Africa": 570.6,
+        "Asia": 1432.8,
+        "Europe": 756.4,
+        "North America": 641.9,
+        "Oceania": 64.8,
+        "South America": 216.2
+      }
+    },
+    {
+      "year": 2000,
+      "byRegion": {
+        "Africa": 571.1,
+        "Asia": 1430.7,
+        "Europe": 752.4,
+        "North America": 641.1,
+        "Oceania": 65.9,
+        "South America": 220.6
+      }
+    },
+    {
+      "year": 2001,
+      "byRegion": {
+        "Africa": 570,
+        "Asia": 1427.4,
+        "Europe": 743.3,
+        "North America": 642.5,
+        "Oceania": 67.8,
+        "South America": 222.6
+      }
+    },
+    {
+      "year": 2002,
+      "byRegion": {
+        "Africa": 577.8,
+        "Asia": 1425,
+        "Europe": 738.9,
+        "North America": 636.1,
+        "Oceania": 64.1,
+        "South America": 222.4
+      }
+    },
+    {
+      "year": 2003,
+      "byRegion": {
+        "Africa": 596.8,
+        "Asia": 1418.5,
+        "Europe": 733.4,
+        "North America": 631.1,
+        "Oceania": 62.8,
+        "South America": 226.4
+      }
+    },
+    {
+      "year": 2004,
+      "byRegion": {
+        "Africa": 600.6,
+        "Asia": 1421.9,
+        "Europe": 732.1,
+        "North America": 623.9,
+        "Oceania": 69,
+        "South America": 237.1
+      }
+    },
+    {
+      "year": 2005,
+      "byRegion": {
+        "Africa": 610.9,
+        "Asia": 1428.8,
+        "Europe": 730,
+        "North America": 617.5,
+        "Oceania": 70.7,
+        "South America": 248.7
+      }
+    },
+    {
+      "year": 2006,
+      "byRegion": {
+        "Africa": 613.6,
+        "Asia": 1421.5,
+        "Europe": 728.3,
+        "North America": 610.9,
+        "Oceania": 65.3,
+        "South America": 258.1
+      }
+    },
+    {
+      "year": 2007,
+      "byRegion": {
+        "Africa": 622,
+        "Asia": 1419.3,
+        "Europe": 723.8,
+        "North America": 605.4,
+        "Oceania": 62.9,
+        "South America": 267.3
+      }
+    },
+    {
+      "year": 2008,
+      "byRegion": {
+        "Africa": 632.7,
+        "Asia": 1417.3,
+        "Europe": 725.5,
+        "North America": 598.5,
+        "Oceania": 65.4,
+        "South America": 269.8
+      }
+    },
+    {
+      "year": 2009,
+      "byRegion": {
+        "Africa": 635.8,
+        "Asia": 1419.2,
+        "Europe": 724.7,
+        "North America": 592,
+        "Oceania": 73.2,
+        "South America": 272.4
+      }
+    },
+    {
+      "year": 2010,
+      "byRegion": {
+        "Africa": 648.5,
+        "Asia": 1422,
+        "Europe": 721.8,
+        "North America": 586,
+        "Oceania": 69.5,
+        "South America": 283.7
+      }
+    },
+    {
+      "year": 2011,
+      "byRegion": {
+        "Africa": 661.4,
+        "Asia": 1425,
+        "Europe": 721.1,
+        "North America": 580.6,
+        "Oceania": 84.5,
+        "South America": 289.1
+      }
+    },
+    {
+      "year": 2012,
+      "byRegion": {
+        "Africa": 684.8,
+        "Asia": 1431,
+        "Europe": 722.8,
+        "North America": 574.5,
+        "Oceania": 84.4,
+        "South America": 295.5
+      }
+    },
+    {
+      "year": 2013,
+      "byRegion": {
+        "Africa": 689.2,
+        "Asia": 1435.3,
+        "Europe": 719.1,
+        "North America": 575.2,
+        "Oceania": 83.5,
+        "South America": 302.2
+      }
+    },
+    {
+      "year": 2014,
+      "byRegion": {
+        "Africa": 690.6,
+        "Asia": 1439.1,
+        "Europe": 719,
+        "North America": 575.8,
+        "Oceania": 85.3,
+        "South America": 304.8
+      }
+    },
+    {
+      "year": 2015,
+      "byRegion": {
+        "Africa": 691.3,
+        "Asia": 1478.6,
+        "Europe": 716.7,
+        "North America": 581.8,
+        "Oceania": 83.1,
+        "South America": 309.6
+      }
+    },
+    {
+      "year": 2016,
+      "byRegion": {
+        "Africa": 694.5,
+        "Asia": 1481.5,
+        "Europe": 719,
+        "North America": 587.5,
+        "Oceania": 80.5,
+        "South America": 313.5
+      }
+    },
+    {
+      "year": 2017,
+      "byRegion": {
+        "Africa": 698.1,
+        "Asia": 1483.5,
+        "Europe": 721.4,
+        "North America": 592.7,
+        "Oceania": 82.3,
+        "South America": 316.8
+      }
+    },
+    {
+      "year": 2018,
+      "byRegion": {
+        "Africa": 699,
+        "Asia": 1504.8,
+        "Europe": 721.8,
+        "North America": 596.6,
+        "Oceania": 80.8,
+        "South America": 317.1
+      }
+    },
+    {
+      "year": 2019,
+      "byRegion": {
+        "Africa": 700.5,
+        "Asia": 1514.8,
+        "Europe": 713.7,
+        "North America": 601.3,
+        "Oceania": 80,
+        "South America": 318
+      }
+    },
+    {
+      "year": 2020,
+      "byRegion": {
+        "Africa": 701.3,
+        "Asia": 1530.7,
+        "Europe": 713,
+        "North America": 606,
+        "Oceania": 79.3,
+        "South America": 319.5
+      }
+    },
+    {
+      "year": 2021,
+      "byRegion": {
+        "Africa": 704.2,
+        "Asia": 1546.8,
+        "Europe": 711.7,
+        "North America": 610.6,
+        "Oceania": 78.6,
+        "South America": 322.4
+      }
+    },
+    {
+      "year": 2022,
+      "byRegion": {
+        "Africa": 706.1,
+        "Asia": 1562.8,
+        "Europe": 711,
+        "North America": 615.3,
+        "Oceania": 77.8,
+        "South America": 323.7
+      }
+    },
+    {
+      "year": 2023,
+      "byRegion": {
+        "Africa": 708,
+        "Asia": 1578.8,
+        "Europe": 710.3,
+        "North America": 619.9,
+        "Oceania": 77.1,
+        "South America": 325.4
+      }
+    }
+  ]
 }

@@ -14,13 +14,15 @@ Status legend: ⬜ not started · 🟡 partial · ✅ sourced & verified
 
 ---
 
-## ⬜ `cropland-by-region.json` — Global cropland by region, 1700–2026
-- **Primary source:** HYDE 3.2 (History Database of the Global Environment), surfaced via Our World in Data — "Land used for agriculture" / cropland by region.
-- **What to capture:** annual (or available-step) cropland area, in million acres, broken into ~6 region buckets that sum to a global total.
-- **Region taxonomy:** TBD with author — continents, OWID regions, or US/China/India/Brazil/EU/Rest-of-World.
-- **Sanity check:** global total ≈ 3.5 billion acres by the 1950s; well under 1 billion pre-industrial-revolution.
-- **Derived in-app:** per-decade CAGR of the global total (`lib/chart-helpers#perDecadeCagr`).
-- **Notes/assumptions:** record any interpolation between HYDE benchmark years; note recent years (post-~2020 to 2026) may be USDA/FAO estimates or held-flat — flag clearly.
+## ✅ `cropland-by-region.json` — Global cropland by region, 1700–2023
+- **Source:** Our World in Data, "Land use over the long-term" — the *Cropland* column. OWID compiles it from **HYDE 3.3** (PBL Netherlands Environmental Assessment Agency) for the historical period and **FAO** land-use statistics for 1961 onward.
+  - Download: `https://ourworldindata.org/grapher/land-use-over-the-long-term.csv?csvType=full` (CSV columns: `Entity, Code, Year, Built-up Area, Grazing, Cropland`; cropland in hectares).
+  - Page: <https://ourworldindata.org/grapher/land-use-over-the-long-term>
+- **Build:** `node scripts/build-cropland-dataset.mjs` — fetches the CSV, keeps the six continental aggregates (Africa, Asia, Europe, North America, South America, Oceania), filters to years ≥ 1700, converts hectares → million acres (×2.4710538147, rounded to 0.1 M acres), writes the JSON. Re-run to refresh when OWID updates HYDE/FAO.
+- **Region taxonomy:** continents (OWID's continental aggregates). The six sum exactly to the world total at every year. Open to swapping for US/China/India/Brazil/EU/RoW if the author prefers — would mean aggregating the per-country rows instead.
+- **Coverage:** decadal benchmark years 1700–1950 (HYDE), then annual 1951–2023 (HYDE→FAO). Latest OWID/HYDE year is 2023 — the chart title reflects the actual span; nothing is extrapolated to 2024–26.
+- **Sanity check (as built, million acres):** world total ≈ 812 in 1700, ≈ 2,976 in 1950, ≈ 4,020 in 2023. ⚠️ The article draft says "≈ 3.5 billion acres by the 1950s" — HYDE/OWID *cropland* (arable + permanent crops, excluding pasture) is closer to ≈ 3.0 bn acres in 1950 and ≈ 4.0 bn today; it crosses 3.5 bn around the late-1960s. If "3.5 bn" was meant to include pasture/grazing the figure is much larger (grazing land alone is ≈ 8 bn acres). **Reconcile the prose figure with the chart.**
+- **Derived in-app:** per-decade CAGR of the world total (`lib/chart-helpers#perDecadeCagr`), shown as a strip beneath the chart. Decadal segments use the HYDE benchmark years; the 2020s segment is partial (2020→2023).
 
 ## ⬜ `crop-yields.json` — Global crop yields over time
 - **Primary source:** FAOSTAT (Production → Yield); USDA NASS / WASDE for U.S. corn if shown separately.
