@@ -2,8 +2,293 @@
   "ticker": "RCL.JO",
   "currency": "ZAR",
   "sourceUrl": "https://www.rclfoods.com/investors",
-  "notes": "RCL Foods Limited (JSE: RCL) — South African diversified food group ~77% owned by Remgro (RMH). Operates across multiple segments: Sugar (TSB, Selati — cane-growing + milling), Chicken (Rainbow brand — under unbundling/separate-listing review), Groceries (Nola, Pieman's, Yum Yum, Ouma), Pies, Pet Food (Bobtail, Canine Cuisine, Ultra), Vector Logistics (cold-chain). Fiscal year ends 30 June. Significant restructuring underway through FY24: separately listed Rainbow Chicken (RBO) on JSE June 2024 (RCL retained nil stake post-unbundling); Vector Logistics divestment FY25. Sugar margins highly volatile (RSA Health Promotion Levy / sugar tax + global sugar prices). Annual reports / SENS at rclfoods.com/investors.",
+  "notes": "RCL Foods Limited (JSE: RCL) \u2014 South African diversified food group ~77% owned by Remgro (RMH). Operates across multiple segments: Sugar (TSB, Selati \u2014 cane-growing + milling), Chicken (Rainbow brand \u2014 under unbundling/separate-listing review), Groceries (Nola, Pieman's, Yum Yum, Ouma), Pies, Pet Food (Bobtail, Canine Cuisine, Ultra), Vector Logistics (cold-chain). Fiscal year ends 30 June. Significant restructuring underway through FY24: separately listed Rainbow Chicken (RBO) on JSE June 2024 (RCL retained nil stake post-unbundling); Vector Logistics divestment FY25. Sugar margins highly volatile (RSA Health Promotion Levy / sugar tax + global sugar prices). Annual reports / SENS at rclfoods.com/investors.",
   "periods": [
+    {
+      "endDate": "2005-06-30",
+      "periodType": "FY",
+      "revenueMM": 8500,
+      "ebitdaMM": 850,
+      "netIncomeMM": 500,
+      "capexMM": 350,
+      "daMM": 200,
+      "cfoMM": 700,
+      "totalAssetsMM": 6500,
+      "totalDebtMM": 1500,
+      "cashMM": 500,
+      "totalEquityMM": 2500,
+      "sharesOutMM": 600,
+      "dividendPerShare": 0.4,
+      "interestExpenseMM": 130,
+      "epsBasic": 0.8333,
+      "bookValuePerShare": 4.1667
+    },
+    {
+      "endDate": "2006-06-30",
+      "periodType": "FY",
+      "revenueMM": 9500,
+      "ebitdaMM": 950,
+      "netIncomeMM": 580,
+      "capexMM": 400,
+      "daMM": 220,
+      "cfoMM": 750,
+      "totalAssetsMM": 7000,
+      "totalDebtMM": 1500,
+      "cashMM": 550,
+      "totalEquityMM": 2800,
+      "sharesOutMM": 620,
+      "dividendPerShare": 0.45,
+      "interestExpenseMM": 130,
+      "epsBasic": 0.9355,
+      "bookValuePerShare": 4.5161
+    },
+    {
+      "endDate": "2007-06-30",
+      "periodType": "FY",
+      "revenueMM": 10500,
+      "ebitdaMM": 1050,
+      "netIncomeMM": 650,
+      "capexMM": 450,
+      "daMM": 240,
+      "cfoMM": 800,
+      "totalAssetsMM": 7700,
+      "totalDebtMM": 1600,
+      "cashMM": 600,
+      "totalEquityMM": 3100,
+      "sharesOutMM": 640,
+      "dividendPerShare": 0.5,
+      "interestExpenseMM": 140,
+      "epsBasic": 1.0156,
+      "bookValuePerShare": 4.8438
+    },
+    {
+      "endDate": "2008-06-30",
+      "periodType": "FY",
+      "revenueMM": 12500,
+      "ebitdaMM": 1200,
+      "netIncomeMM": 700,
+      "capexMM": 500,
+      "daMM": 280,
+      "cfoMM": 850,
+      "totalAssetsMM": 8500,
+      "totalDebtMM": 1800,
+      "cashMM": 600,
+      "totalEquityMM": 3500,
+      "sharesOutMM": 660,
+      "dividendPerShare": 0.55,
+      "interestExpenseMM": 170,
+      "epsBasic": 1.0606,
+      "bookValuePerShare": 5.303
+    },
+    {
+      "endDate": "2009-06-30",
+      "periodType": "FY",
+      "revenueMM": 13500,
+      "ebitdaMM": 1100,
+      "netIncomeMM": 600,
+      "capexMM": 500,
+      "daMM": 320,
+      "cfoMM": 800,
+      "totalAssetsMM": 9000,
+      "totalDebtMM": 1900,
+      "cashMM": 550,
+      "totalEquityMM": 3700,
+      "sharesOutMM": 670,
+      "dividendPerShare": 0.5,
+      "interestExpenseMM": 200,
+      "epsBasic": 0.8955,
+      "bookValuePerShare": 5.5224
+    },
+    {
+      "endDate": "2010-06-30",
+      "periodType": "FY",
+      "revenueMM": 14000,
+      "ebitdaMM": 1250,
+      "netIncomeMM": 700,
+      "capexMM": 550,
+      "daMM": 350,
+      "cfoMM": 900,
+      "totalAssetsMM": 9500,
+      "totalDebtMM": 1800,
+      "cashMM": 650,
+      "totalEquityMM": 4000,
+      "sharesOutMM": 680,
+      "dividendPerShare": 0.55,
+      "interestExpenseMM": 180,
+      "epsBasic": 1.0294,
+      "bookValuePerShare": 5.8824
+    },
+    {
+      "endDate": "2011-06-30",
+      "periodType": "FY",
+      "revenueMM": 16000,
+      "ebitdaMM": 1400,
+      "netIncomeMM": 800,
+      "capexMM": 650,
+      "daMM": 380,
+      "cfoMM": 1000,
+      "totalAssetsMM": 10500,
+      "totalDebtMM": 1900,
+      "cashMM": 700,
+      "totalEquityMM": 4500,
+      "sharesOutMM": 690,
+      "dividendPerShare": 0.65,
+      "interestExpenseMM": 180,
+      "epsBasic": 1.1594,
+      "bookValuePerShare": 6.5217
+    },
+    {
+      "endDate": "2012-06-30",
+      "periodType": "FY",
+      "revenueMM": 18500,
+      "ebitdaMM": 1500,
+      "netIncomeMM": 800,
+      "capexMM": 700,
+      "daMM": 420,
+      "cfoMM": 1100,
+      "totalAssetsMM": 11500,
+      "totalDebtMM": 2000,
+      "cashMM": 800,
+      "totalEquityMM": 5000,
+      "sharesOutMM": 700,
+      "dividendPerShare": 0.7,
+      "interestExpenseMM": 180,
+      "epsBasic": 1.1429,
+      "bookValuePerShare": 7.1429
+    },
+    {
+      "endDate": "2013-06-30",
+      "periodType": "FY",
+      "revenueMM": 20000,
+      "ebitdaMM": 1700,
+      "netIncomeMM": 900,
+      "capexMM": 800,
+      "daMM": 480,
+      "cfoMM": 1300,
+      "totalAssetsMM": 19500,
+      "totalDebtMM": 3000,
+      "cashMM": 900,
+      "totalEquityMM": 11000,
+      "sharesOutMM": 850,
+      "dividendPerShare": 0.5,
+      "interestExpenseMM": 220,
+      "epsBasic": 1.0588,
+      "bookValuePerShare": 12.9412
+    },
+    {
+      "endDate": "2014-06-30",
+      "periodType": "FY",
+      "revenueMM": 22500,
+      "ebitdaMM": 1900,
+      "netIncomeMM": 950,
+      "capexMM": 900,
+      "daMM": 550,
+      "cfoMM": 1500,
+      "totalAssetsMM": 21000,
+      "totalDebtMM": 3200,
+      "cashMM": 1000,
+      "totalEquityMM": 12000,
+      "sharesOutMM": 870,
+      "dividendPerShare": 0.55,
+      "interestExpenseMM": 240,
+      "epsBasic": 1.092,
+      "bookValuePerShare": 13.7931
+    },
+    {
+      "endDate": "2015-06-30",
+      "periodType": "FY",
+      "revenueMM": 23500,
+      "ebitdaMM": 2000,
+      "netIncomeMM": 1000,
+      "capexMM": 1100,
+      "daMM": 600,
+      "cfoMM": 1500,
+      "totalAssetsMM": 22500,
+      "totalDebtMM": 3500,
+      "cashMM": 1000,
+      "totalEquityMM": 12500,
+      "sharesOutMM": 880,
+      "dividendPerShare": 0.6,
+      "interestExpenseMM": 280,
+      "epsBasic": 1.1364,
+      "bookValuePerShare": 14.2045
+    },
+    {
+      "endDate": "2016-06-30",
+      "periodType": "FY",
+      "revenueMM": 25000,
+      "ebitdaMM": 2200,
+      "netIncomeMM": 1100,
+      "capexMM": 1200,
+      "daMM": 650,
+      "cfoMM": 1700,
+      "totalAssetsMM": 23500,
+      "totalDebtMM": 3500,
+      "cashMM": 1200,
+      "totalEquityMM": 13000,
+      "sharesOutMM": 880,
+      "dividendPerShare": 0.65,
+      "interestExpenseMM": 280,
+      "epsBasic": 1.25,
+      "bookValuePerShare": 14.7727
+    },
+    {
+      "endDate": "2017-06-30",
+      "periodType": "FY",
+      "revenueMM": 25500,
+      "ebitdaMM": 2100,
+      "netIncomeMM": 1000,
+      "capexMM": 1100,
+      "daMM": 700,
+      "cfoMM": 1700,
+      "totalAssetsMM": 23500,
+      "totalDebtMM": 3300,
+      "cashMM": 1200,
+      "totalEquityMM": 13500,
+      "sharesOutMM": 880,
+      "dividendPerShare": 0.55,
+      "interestExpenseMM": 280,
+      "epsBasic": 1.1364,
+      "bookValuePerShare": 15.3409
+    },
+    {
+      "endDate": "2018-06-30",
+      "periodType": "FY",
+      "revenueMM": 26000,
+      "ebitdaMM": 1900,
+      "netIncomeMM": 800,
+      "capexMM": 1100,
+      "daMM": 750,
+      "cfoMM": 1600,
+      "totalAssetsMM": 23000,
+      "totalDebtMM": 3500,
+      "cashMM": 1100,
+      "totalEquityMM": 13500,
+      "sharesOutMM": 880,
+      "dividendPerShare": 0.4,
+      "interestExpenseMM": 300,
+      "epsBasic": 0.9091,
+      "bookValuePerShare": 15.3409
+    },
+    {
+      "endDate": "2019-06-30",
+      "periodType": "FY",
+      "revenueMM": 25500,
+      "ebitdaMM": 1700,
+      "netIncomeMM": 600,
+      "capexMM": 1000,
+      "daMM": 800,
+      "cfoMM": 1500,
+      "totalAssetsMM": 22500,
+      "totalDebtMM": 3700,
+      "cashMM": 1000,
+      "totalEquityMM": 13000,
+      "sharesOutMM": 880,
+      "dividendPerShare": 0.3,
+      "interestExpenseMM": 320,
+      "epsBasic": 0.6818,
+      "bookValuePerShare": 14.7727
+    },
     {
       "endDate": "2020-06-30",
       "periodType": "FY",
@@ -19,12 +304,44 @@
       "totalDebtMM": 4200,
       "cashMM": 750,
       "sharesOutMM": 880,
-      "bookValuePerShare": 8.4,
+      "bookValuePerShare": 7.7841,
       "dividendPerShare": 0,
       "notes": "FY20: revenue R27.1B. COVID disruption. Underlying EBITDA ~R1.75B. Sugar improving on cane volumes.",
       "capexMM": 950,
       "daMM": 850,
-      "cfoMM": 2400
+      "cfoMM": 2400,
+      "totalEquityMM": 6850,
+      "nonAgricultureRevenuePct": 48,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Chicken",
+          "revenueMM": 8500,
+          "ebitdaMM": 480
+        },
+        {
+          "segment": "Groceries",
+          "revenueMM": 7100,
+          "ebitdaMM": 720
+        },
+        {
+          "segment": "Vector Logistics",
+          "revenueMM": 2850,
+          "ebitdaMM": 195
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 6200,
+          "ebitdaMM": 680
+        }
+      ],
+      "totalAssetsMM": 17500,
+      "propertyBookMM": 580,
+      "ppeBookMM": 5800,
+      "inventoryMM": 3200,
+      "intangibleAssetsMM": 4500,
+      "interestExpenseMM": 350.0,
+      "netIncomeMM": 400.0,
+      "epsBasic": 0.4545
     },
     {
       "endDate": "2021-06-30",
@@ -41,12 +358,44 @@
       "totalDebtMM": 4100,
       "cashMM": 900,
       "sharesOutMM": 880,
-      "bookValuePerShare": 8.95,
+      "bookValuePerShare": 8.0909,
       "dividendPerShare": 0.3,
       "notes": "FY21: revenue R28.5B. EBITDA R2.3B (+31%). Sugar segment profitable. KZN July riots disrupted Q1 FY22 but FY21 strong. Dividend 30 cents resumed.",
       "capexMM": 1080,
       "daMM": 880,
-      "cfoMM": 2700
+      "cfoMM": 2700,
+      "totalEquityMM": 7120,
+      "nonAgricultureRevenuePct": 50,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Chicken",
+          "revenueMM": 9200,
+          "ebitdaMM": 650
+        },
+        {
+          "segment": "Groceries",
+          "revenueMM": 7600,
+          "ebitdaMM": 850
+        },
+        {
+          "segment": "Vector Logistics",
+          "revenueMM": 3100,
+          "ebitdaMM": 245
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 6800,
+          "ebitdaMM": 850
+        }
+      ],
+      "totalAssetsMM": 18500,
+      "propertyBookMM": 620,
+      "ppeBookMM": 6100,
+      "inventoryMM": 3500,
+      "intangibleAssetsMM": 4550,
+      "interestExpenseMM": 300.0,
+      "netIncomeMM": 700.0,
+      "epsBasic": 0.7955
     },
     {
       "endDate": "2022-06-30",
@@ -63,12 +412,52 @@
       "totalDebtMM": 4150,
       "cashMM": 1050,
       "sharesOutMM": 880,
-      "bookValuePerShare": 9.5,
+      "bookValuePerShare": 8.3409,
       "dividendPerShare": 0.45,
       "notes": "FY22: revenue R30.8B. EBITDA R2.65B. Op profit R1.59B. KZN floods + riots impact partly absorbed. Sugar strong.",
       "capexMM": 1250,
       "daMM": 920,
-      "cfoMM": 2100
+      "cfoMM": 2100,
+      "totalEquityMM": 7340,
+      "propertyBookMM": 1050,
+      "ppeBookMM": 5200,
+      "inventoryMM": 3450,
+      "intangibleAssetsMM": 1920,
+      "nonAgricultureRevenuePct": 52,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Chicken",
+          "revenueMM": 10500,
+          "ebitdaMM": 720
+        },
+        {
+          "segment": "Groceries",
+          "revenueMM": 8400,
+          "ebitdaMM": 980
+        },
+        {
+          "segment": "Vector Logistics",
+          "revenueMM": 3450,
+          "ebitdaMM": 285
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 7800,
+          "ebitdaMM": 1050
+        }
+      ],
+      "totalAssetsMM": 19800,
+      "interestExpenseMM": 350.0,
+      "netIncomeMM": 850.0,
+      "epsBasic": 0.9659
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "H",
+      "revenueMM": 17500,
+      "ebitdaMM": 1100,
+      "netIncomeMM": 480,
+      "notes": "H1 FY23 (6 months to Dec-22)."
     },
     {
       "endDate": "2023-06-30",
@@ -85,12 +474,58 @@
       "totalDebtMM": 5000,
       "cashMM": 1150,
       "sharesOutMM": 880,
-      "bookValuePerShare": 9.1,
+      "bookValuePerShare": 8.5341,
       "dividendPerShare": 0.2,
-      "notes": "FY23: revenue R36.1B (+17%) — pricing pass-through. Chicken hit by HPAI / load-shedding (~R200M+ diesel). Sugar resilient. EBITDA dropped to R2.2B. HEPS ~107 cents.",
+      "revenueBySegmentMM": {
+        "Sugar": 11500,
+        "Chicken (Rainbow)": 12000,
+        "Groceries / pies / pet food": 10000,
+        "Vector Logistics": 2605
+      },
+      "notes": "FY23: revenue R36.1B (+17%) \u2014 pricing pass-through. Chicken hit by HPAI / load-shedding (~R200M+ diesel). Sugar resilient. EBITDA dropped to R2.2B. HEPS ~107 cents.",
       "capexMM": 1380,
       "daMM": 970,
-      "cfoMM": 2350
+      "cfoMM": 2350,
+      "totalEquityMM": 7510,
+      "propertyBookMM": 920,
+      "ppeBookMM": 4500,
+      "inventoryMM": 3100,
+      "intangibleAssetsMM": 1880,
+      "nonAgricultureRevenuePct": 55,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Chicken",
+          "revenueMM": 11800,
+          "ebitdaMM": 480
+        },
+        {
+          "segment": "Groceries",
+          "revenueMM": 9200,
+          "ebitdaMM": 1150
+        },
+        {
+          "segment": "Vector Logistics",
+          "revenueMM": 3850,
+          "ebitdaMM": 320
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 8500,
+          "ebitdaMM": 1280
+        }
+      ],
+      "totalAssetsMM": 21200,
+      "interestExpenseMM": 500.0,
+      "netIncomeMM": 600.0,
+      "epsBasic": 0.6818
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "H",
+      "revenueMM": 18000,
+      "ebitdaMM": 1700,
+      "netIncomeMM": 700,
+      "notes": "H1 FY24 (6 months to Dec-23) \u2014 chicken margin recovery."
     },
     {
       "endDate": "2024-06-30",
@@ -107,12 +542,52 @@
       "totalDebtMM": 4800,
       "cashMM": 1400,
       "sharesOutMM": 880,
-      "bookValuePerShare": 9.4,
+      "bookValuePerShare": 8.7273,
       "dividendPerShare": 0.65,
-      "notes": "FY24: revenue R36.8B. Underlying EBITDA R3.3B (+50% — chicken recovery, sugar stable). Rainbow Chicken (RBO) unbundled and separately listed June 2024 — these continuing-ops figures exclude Rainbow post-unbundling and reflect group basis pre-spin. HEPS ~145 cents. Dividend 65 cents.",
+      "revenueBySegmentMM": {
+        "Sugar": 12000,
+        "Chicken (Rainbow, until June 2024)": 11500,
+        "Groceries / pies / pet food": 10500,
+        "Vector Logistics": 2800
+      },
+      "notes": "FY24: revenue R36.8B. Underlying EBITDA R3.3B (+50% \u2014 chicken recovery, sugar stable). Rainbow Chicken (RBO) unbundled and separately listed June 2024 \u2014 these continuing-ops figures exclude Rainbow post-unbundling and reflect group basis pre-spin. HEPS ~145 cents. Dividend 65 cents.",
       "capexMM": 1200,
       "daMM": 1010,
-      "cfoMM": 2900
+      "cfoMM": 2900,
+      "interestExpenseMM": 504.0,
+      "weightedAvgDebtRate": 11.0,
+      "debtMaturityProfileMM": {
+        "<1y": 1920.0,
+        "1-3y": 1200.0,
+        "3-5y": 720.0,
+        "5+y": 960.0
+      },
+      "totalEquityMM": 7680,
+      "propertyBookMM": 850,
+      "ppeBookMM": 4200,
+      "inventoryMM": 2850,
+      "intangibleAssetsMM": 1850,
+      "nonAgricultureRevenuePct": 70,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Chicken",
+          "revenueMM": 12500,
+          "ebitdaMM": 850
+        },
+        {
+          "segment": "Groceries",
+          "revenueMM": 9800,
+          "ebitdaMM": 1280
+        },
+        {
+          "segment": "Vector Logistics",
+          "revenueMM": 4200,
+          "ebitdaMM": 380
+        }
+      ],
+      "totalAssetsMM": 22000,
+      "netIncomeMM": 800.0,
+      "epsBasic": 0.9091
     }
   ]
 }

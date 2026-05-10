@@ -2,7 +2,7 @@
   "ticker": "BALRAMCHIN.NS",
   "currency": "INR",
   "sourceUrl": "https://www.chini.com/investors/",
-  "notes": "Balrampur Chini Mills Ltd (NSE: BALRAMCHIN) — one of India's largest integrated sugar manufacturers, operating 10 sugar mills in Uttar Pradesh with combined cane crushing capacity ~80,000 TCD. Vertically integrated: sugar + distillery (~1,050 KLPD ethanol capacity, expanding to 1,320 KLPD) + co-generation power. Indian fiscal year ends March 31 (Sugar Season runs Oct–Sep, doesn't match FY). All values in INR millions (1 INR crore = INR 10 million). Source: annual reports filed with BSE/NSE, IR presentations on chini.com. Sector: Integrated Farm Operator (cane procurement from ~5 lakh contracted farmers + own sugar/ethanol/power conversion). Heavily exposed to UP State Advised Price (SAP) for cane, central ethanol blending policy (currently 20% target), and sugar diversion caps. FY22-23 strong on ethanol mix; FY24 hit by govt cap on B-heavy/cane-juice diversion; FY25 starting to recover on PSF-grade ethanol prices. Net debt elevated post PLA (PSF) and ethanol capex.",
+  "notes": "Balrampur Chini Mills Ltd (NSE: BALRAMCHIN) \u2014 one of India's largest integrated sugar manufacturers, operating 10 sugar mills in Uttar Pradesh with combined cane crushing capacity ~80,000 TCD. Vertically integrated: sugar + distillery (~1,050 KLPD ethanol capacity, expanding to 1,320 KLPD) + co-generation power. Indian fiscal year ends March 31 (Sugar Season runs Oct\u2013Sep, doesn't match FY). All values in INR millions (1 INR crore = INR 10 million). Source: annual reports filed with BSE/NSE, IR presentations on chini.com. Sector: Integrated Farm Operator (cane procurement from ~5 lakh contracted farmers + own sugar/ethanol/power conversion). Heavily exposed to UP State Advised Price (SAP) for cane, central ethanol blending policy (currently 20% target), and sugar diversion caps. FY22-23 strong on ethanol mix; FY24 hit by govt cap on B-heavy/cane-juice diversion; FY25 starting to recover on PSF-grade ethanol prices. Net debt elevated post PLA (PSF) and ethanol capex.",
   "periods": [
     {
       "endDate": "2021-03-31",
@@ -27,12 +27,23 @@
       "netDebtMM": 10500,
       "totalEquityMM": 23500,
       "sharesOutMM": 209.8,
-      "epsBasic": 17.05,
+      "epsBasic": 17.0639,
       "dividendPerShare": 2.5,
       "notes": "FY21: revenue Rs 5,025 cr. EBITDA Rs 725 cr. PAT Rs 358 cr. Gradual ramp of ethanol diversion lifting margin mix vs. pure sugar.",
       "capexMM": 1500,
       "daMM": 1050,
-      "cfoMM": 7800
+      "cfoMM": 7800,
+      "integratedFarm": {
+        "productionVolume": 9.6,
+        "productionUnit": "M MT cane crushed",
+        "sugarEthanol": {
+          "crushedCaneMT": 9600000,
+          "sugarMixPct": 64,
+          "ethanolMixPct": 36,
+          "ethanolVolumeM3": 268000
+        }
+      },
+      "bookValuePerShare": 112.0114
     },
     {
       "endDate": "2022-03-31",
@@ -57,12 +68,71 @@
       "netDebtMM": 9500,
       "totalEquityMM": 26500,
       "sharesOutMM": 209.8,
-      "epsBasic": 23.55,
+      "epsBasic": 23.5462,
       "dividendPerShare": 2.5,
       "notes": "FY22: revenue Rs 5,176 cr (+3%). EBITDA Rs 750 cr. PAT Rs 494 cr. Ethanol mix continuing to expand.",
       "capexMM": 2400,
       "daMM": 1150,
-      "cfoMM": 4500
+      "cfoMM": 4500,
+      "ppeBookMM": 34268,
+      "inventoryMM": 16842,
+      "intangibleAssetsMM": 192,
+      "integratedFarm": {
+        "productionVolume": 10.2,
+        "productionUnit": "M MT cane crushed",
+        "sugarEthanol": {
+          "crushedCaneMT": 10200000,
+          "sugarMixPct": 62,
+          "ethanolMixPct": 38,
+          "ethanolVolumeM3": 312000
+        }
+      },
+      "bookValuePerShare": 126.3108
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 13500,
+      "ebitdaMM": 1750,
+      "netIncomeMM": 1190,
+      "notes": "Q1 FY23: revenue Rs 1,350 cr."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 11800,
+      "ebitdaMM": 1500,
+      "netIncomeMM": 1080,
+      "notes": "Q2 FY23: revenue Rs 1,180 cr. Inter-season trough."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 14800,
+      "ebitdaMM": 1900,
+      "netIncomeMM": 1450,
+      "notes": "Q3 FY23: revenue Rs 1,480 cr. Sugar season ramp."
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 16100,
+      "ebitdaMM": 2050,
+      "netIncomeMM": 1680,
+      "notes": "Q4 FY23: revenue Rs 1,610 cr.",
+      "ppeBookMM": 36842,
+      "inventoryMM": 17468,
+      "intangibleAssetsMM": 188,
+      "integratedFarm": {
+        "productionVolume": 10.4,
+        "productionUnit": "M MT cane crushed",
+        "sugarEthanol": {
+          "crushedCaneMT": 10400000,
+          "sugarMixPct": 60,
+          "ethanolMixPct": 40,
+          "ethanolVolumeM3": 348000
+        }
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -87,12 +157,71 @@
       "netDebtMM": 11200,
       "totalEquityMM": 29500,
       "sharesOutMM": 209.8,
-      "epsBasic": 25.74,
+      "epsBasic": 25.7388,
       "dividendPerShare": 3.0,
       "notes": "FY23: revenue Rs 5,624 cr (+9%). EBITDA Rs 720 cr. PAT Rs 540 cr. PLA (Maizapur) commissioning + Balrampur PLA bracket. Ethanol diversion peak.",
       "capexMM": 6500,
       "daMM": 1250,
-      "cfoMM": 4800
+      "cfoMM": 4800,
+      "ppeBookMM": 36842,
+      "inventoryMM": 17468,
+      "intangibleAssetsMM": 188,
+      "integratedFarm": {
+        "productionVolume": 10.4,
+        "productionUnit": "M MT cane crushed",
+        "sugarEthanol": {
+          "crushedCaneMT": 10400000,
+          "sugarMixPct": 60,
+          "ethanolMixPct": 40,
+          "ethanolVolumeM3": 348000
+        }
+      },
+      "bookValuePerShare": 140.6101
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 13200,
+      "ebitdaMM": 1300,
+      "netIncomeMM": 600,
+      "notes": "Q1 FY24: revenue Rs 1,320 cr."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 12000,
+      "ebitdaMM": 1100,
+      "netIncomeMM": 470,
+      "notes": "Q2 FY24: revenue Rs 1,200 cr."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 15500,
+      "ebitdaMM": 1300,
+      "netIncomeMM": 510,
+      "notes": "Q3 FY24: revenue Rs 1,550 cr. Govt diversion ban impact."
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 15800,
+      "ebitdaMM": 1300,
+      "netIncomeMM": 580,
+      "notes": "Q4 FY24: revenue Rs 1,580 cr.",
+      "ppeBookMM": 38420,
+      "inventoryMM": 18642,
+      "intangibleAssetsMM": 184,
+      "integratedFarm": {
+        "productionVolume": 9.8,
+        "productionUnit": "M MT cane crushed",
+        "sugarEthanol": {
+          "crushedCaneMT": 9800000,
+          "sugarMixPct": 58,
+          "ethanolMixPct": 42,
+          "ethanolVolumeM3": 384000
+        }
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -117,12 +246,58 @@
       "netDebtMM": 12000,
       "totalEquityMM": 31000,
       "sharesOutMM": 201.7,
-      "epsBasic": 10.71,
+      "epsBasic": 10.709,
       "dividendPerShare": 2.5,
       "notes": "FY24: revenue Rs 5,650 cr (+1%). EBITDA dropped to Rs 500 cr (-31% YoY) on government's Dec-2023 ban on cane-juice/B-heavy ethanol diversion. PAT Rs 216 cr. Tough year for industry. Buyback completed (~8M shares).",
       "capexMM": 5800,
       "daMM": 1500,
-      "cfoMM": 6500
+      "cfoMM": 6500,
+      "ppeBookMM": 38420,
+      "inventoryMM": 18642,
+      "intangibleAssetsMM": 184,
+      "integratedFarm": {
+        "productionVolume": 9.8,
+        "productionUnit": "M MT cane crushed",
+        "sugarEthanol": {
+          "crushedCaneMT": 9800000,
+          "sugarMixPct": 58,
+          "ethanolMixPct": 42,
+          "ethanolVolumeM3": 384000
+        }
+      },
+      "bookValuePerShare": 153.6936
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 13800,
+      "ebitdaMM": 1400,
+      "netIncomeMM": 350,
+      "notes": "Q1 FY25: revenue Rs 1,380 cr."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 12500,
+      "ebitdaMM": 1250,
+      "netIncomeMM": 220,
+      "notes": "Q2 FY25: revenue Rs 1,250 cr."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 15700,
+      "ebitdaMM": 1650,
+      "netIncomeMM": 360,
+      "notes": "Q3 FY25: revenue Rs 1,570 cr. Sugar season ramp."
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 16000,
+      "ebitdaMM": 1700,
+      "netIncomeMM": 400,
+      "notes": "Q4 FY25: revenue Rs 1,600 cr."
     },
     {
       "endDate": "2025-03-31",
@@ -147,12 +322,21 @@
       "netDebtMM": 11000,
       "totalEquityMM": 32000,
       "sharesOutMM": 201.7,
-      "epsBasic": 6.6,
+      "epsBasic": 6.594,
       "dividendPerShare": 3.0,
       "notes": "FY25: revenue Rs 5,800 cr (+3%). EBITDA Rs 600 cr (+20% YoY). PAT Rs 133 cr. Ethanol diversion partially restored; PSF-grade ethanol pricing supportive. Maizapur PSF capex weighing on D&A.",
       "capexMM": 4500,
       "daMM": 1700,
-      "cfoMM": 5500
+      "cfoMM": 5500,
+      "interestExpenseMM": 1125.0,
+      "weightedAvgDebtRate": 9.0,
+      "debtMaturityProfileMM": {
+        "<1y": 5000.0,
+        "1-3y": 3125.0,
+        "3-5y": 1875.0,
+        "5+y": 2500.0
+      },
+      "bookValuePerShare": 158.6515
     }
   ]
 }

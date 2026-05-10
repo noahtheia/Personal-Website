@@ -2,7 +2,7 @@
   "ticker": "ICBP.JK",
   "currency": "IDR",
   "sourceUrl": "https://icbp.indofood.com/investor-relation",
-  "notes": "Indofood CBP Sukses Makmur (ICBP) — IDX-listed CBP arm of the Indofood/Salim group, ~80% owned by INDF. World's largest instant-noodle producer (Indomie + Pinehill from 2020). Segments: Noodles (~75% rev incl. Pinehill Africa/MENA), Dairy (Indomilk ~10%), Snacks/Food Seasonings/Nutrition (~10%), Beverages (~5%). Reports under PSAK in IDR-millions. FY history sourced from icbp.indofood.com annual reports (2019-2024). Net debt ballooned in 2020 from Pinehill US$2.05B acquisition financing. Highest-margin business in INDF group: ~25-27% EBITDA margin. FY2024 reflected continued noodle price firmness and FX hedge gains.",
+  "notes": "Indofood CBP Sukses Makmur (ICBP) \u2014 IDX-listed CBP arm of the Indofood/Salim group, ~80% owned by INDF. World's largest instant-noodle producer (Indomie + Pinehill from 2020). Segments: Noodles (~75% rev incl. Pinehill Africa/MENA), Dairy (Indomilk ~10%), Snacks/Food Seasonings/Nutrition (~10%), Beverages (~5%). Reports under PSAK in IDR-millions. FY history sourced from icbp.indofood.com annual reports (2019-2024). Net debt ballooned in 2020 from Pinehill US$2.05B acquisition financing. Highest-margin business in INDF group: ~25-27% EBITDA margin. FY2024 reflected continued noodle price firmness and FX hedge gains.",
   "periods": [
     {
       "endDate": "2019-12-31",
@@ -28,12 +28,13 @@
       "netDebtMM": -2700000,
       "totalEquityMM": 26671000,
       "sharesOutMM": 11662,
-      "bookValuePerShare": 2287,
+      "bookValuePerShare": 2287.0005,
       "dividendPerShare": 215,
       "notes": "FY19: Rp42.3T revenue, Rp5.04T net profit. Net cash positive. Pre-Pinehill.",
       "capexMM": 2900000,
       "daMM": 1200000,
-      "cfoMM": 7400000
+      "cfoMM": 7400000,
+      "epsBasic": 432.0871
     },
     {
       "endDate": "2020-12-31",
@@ -59,12 +60,46 @@
       "netDebtMM": 33900000,
       "totalEquityMM": 33559000,
       "sharesOutMM": 11662,
-      "bookValuePerShare": 2877,
+      "bookValuePerShare": 2877.6368,
       "dividendPerShare": 187,
       "notes": "FY20: Pinehill Africa/MENA noodles (US$2.05B) consolidated H2; debt jumped to Rp41.7T. Net income Rp6.59T.",
       "capexMM": 3100000,
       "daMM": 1450000,
-      "cfoMM": 7560000
+      "cfoMM": 7560000,
+      "nonAgricultureRevenuePct": 100,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Noodles",
+          "revenueMM": 31200000,
+          "ebitdaMM": 8400000
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 6500000,
+          "ebitdaMM": 1180000
+        },
+        {
+          "segment": "Snack Foods",
+          "revenueMM": 3400000,
+          "ebitdaMM": 460000
+        },
+        {
+          "segment": "Food Seasonings",
+          "revenueMM": 2400000,
+          "ebitdaMM": 410000
+        },
+        {
+          "segment": "Nutrition & Special Foods",
+          "revenueMM": 1200000,
+          "ebitdaMM": 215000
+        },
+        {
+          "segment": "Beverages",
+          "revenueMM": 500000,
+          "ebitdaMM": 42000
+        }
+      ],
+      "epsBasic": 564.8259
     },
     {
       "endDate": "2021-12-31",
@@ -90,12 +125,175 @@
       "netDebtMM": 30000000,
       "totalEquityMM": 38419000,
       "sharesOutMM": 11662,
-      "bookValuePerShare": 3294,
+      "bookValuePerShare": 3294.3749,
       "dividendPerShare": 215,
       "notes": "FY21: Rp56.8T (+22% YoY) full-year Pinehill consol. Net income Rp6.39T.",
       "capexMM": 3700000,
       "daMM": 2100000,
-      "cfoMM": 8200000
+      "cfoMM": 8200000,
+      "nonAgricultureRevenuePct": 100,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Noodles",
+          "revenueMM": 38500000,
+          "ebitdaMM": 9800000
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 7200000,
+          "ebitdaMM": 1320000
+        },
+        {
+          "segment": "Snack Foods",
+          "revenueMM": 3800000,
+          "ebitdaMM": 510000
+        },
+        {
+          "segment": "Food Seasonings",
+          "revenueMM": 2700000,
+          "ebitdaMM": 450000
+        },
+        {
+          "segment": "Nutrition & Special Foods",
+          "revenueMM": 1400000,
+          "ebitdaMM": 240000
+        },
+        {
+          "segment": "Beverages",
+          "revenueMM": 600000,
+          "ebitdaMM": 50000
+        }
+      ],
+      "epsBasic": 547.5905
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 15800000,
+      "revenueBySegmentMM": {
+        "Noodles": 11600000,
+        "Dairy": 2390000,
+        "Snacks / Seasonings / Nutrition": 1270000,
+        "Beverages + other": 540000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10330000,
+        "G&A": 805000,
+        "Selling": 2050000,
+        "D&A": 585000
+      },
+      "ebitdaMM": 3750000,
+      "netIncomeMM": 1100000,
+      "netDebtMM": 31500000,
+      "sharesOutMM": 11662,
+      "notes": "Q1 2022: revenue Rp15.8T.",
+      "epsBasic": 94.3234
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 16400000,
+      "revenueBySegmentMM": {
+        "Noodles": 12040000,
+        "Dairy": 2480000,
+        "Snacks / Seasonings / Nutrition": 1320000,
+        "Beverages + other": 560000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10720000,
+        "G&A": 835000,
+        "Selling": 2125000,
+        "D&A": 605000
+      },
+      "ebitdaMM": 3850000,
+      "netIncomeMM": 1130000,
+      "netDebtMM": 32000000,
+      "sharesOutMM": 11662,
+      "notes": "Q2 2022: revenue Rp16.4T.",
+      "epsBasic": 96.8959
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 16100000,
+      "revenueBySegmentMM": {
+        "Noodles": 11825000,
+        "Dairy": 2430000,
+        "Snacks / Seasonings / Nutrition": 1295000,
+        "Beverages + other": 550000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10535000,
+        "G&A": 825000,
+        "Selling": 2095000,
+        "D&A": 600000
+      },
+      "ebitdaMM": 3850000,
+      "netIncomeMM": 1140000,
+      "netDebtMM": 32700000,
+      "sharesOutMM": 11662,
+      "notes": "Q3 2022: revenue Rp16.1T.",
+      "epsBasic": 97.7534
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 16498000,
+      "revenueBySegmentMM": {
+        "Noodles": 12135000,
+        "Dairy": 2490000,
+        "Snacks / Seasonings / Nutrition": 1315000,
+        "Beverages + other": 558000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10815000,
+        "G&A": 835000,
+        "Selling": 2130000,
+        "D&A": 610000
+      },
+      "ebitdaMM": 3920000,
+      "netIncomeMM": 1217000,
+      "netDebtMM": 33300000,
+      "sharesOutMM": 11662,
+      "notes": "Q4 2022: revenue Rp16.5T.",
+      "propertyBookMM": 2000000,
+      "ppeBookMM": 16500000,
+      "inventoryMM": 7400000,
+      "intangibleAssetsMM": 43500000,
+      "nonAgricultureRevenuePct": 100,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Noodles",
+          "revenueMM": 45800000,
+          "ebitdaMM": 11200000
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 8200000,
+          "ebitdaMM": 1480000
+        },
+        {
+          "segment": "Snack Foods",
+          "revenueMM": 4200000,
+          "ebitdaMM": 580000
+        },
+        {
+          "segment": "Food Seasonings",
+          "revenueMM": 3100000,
+          "ebitdaMM": 510000
+        },
+        {
+          "segment": "Nutrition & Special Foods",
+          "revenueMM": 1700000,
+          "ebitdaMM": 280000
+        },
+        {
+          "segment": "Beverages",
+          "revenueMM": 800000,
+          "ebitdaMM": 65000
+        }
+      ],
+      "epsBasic": 104.356
     },
     {
       "endDate": "2022-12-31",
@@ -121,12 +319,179 @@
       "netDebtMM": 33300000,
       "totalEquityMM": 40912000,
       "sharesOutMM": 11662,
-      "bookValuePerShare": 3508,
+      "bookValuePerShare": 3508.1461,
       "dividendPerShare": 197,
       "notes": "FY22: Rp64.8T (+14% YoY). Strong noodle volumes; FX losses on USD debt. Net income Rp4.59T.",
       "capexMM": 4400000,
       "daMM": 2400000,
-      "cfoMM": 8800000
+      "cfoMM": 8800000,
+      "propertyBookMM": 2000000,
+      "ppeBookMM": 16500000,
+      "inventoryMM": 7400000,
+      "intangibleAssetsMM": 43500000,
+      "nonAgricultureRevenuePct": 100,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Noodles",
+          "revenueMM": 45800000,
+          "ebitdaMM": 11200000
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 8200000,
+          "ebitdaMM": 1480000
+        },
+        {
+          "segment": "Snack Foods",
+          "revenueMM": 4200000,
+          "ebitdaMM": 580000
+        },
+        {
+          "segment": "Food Seasonings",
+          "revenueMM": 3100000,
+          "ebitdaMM": 510000
+        },
+        {
+          "segment": "Nutrition & Special Foods",
+          "revenueMM": 1700000,
+          "ebitdaMM": 280000
+        },
+        {
+          "segment": "Beverages",
+          "revenueMM": 800000,
+          "ebitdaMM": 65000
+        }
+      ],
+      "epsBasic": 393.3288
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 16900000,
+      "revenueBySegmentMM": {
+        "Noodles": 12570000,
+        "Dairy": 2490000,
+        "Snacks / Seasonings / Nutrition": 1320000,
+        "Beverages + other": 520000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10650000,
+        "G&A": 845000,
+        "Selling": 2150000,
+        "D&A": 620000
+      },
+      "ebitdaMM": 4500000,
+      "netIncomeMM": 1790000,
+      "netDebtMM": 30000000,
+      "sharesOutMM": 11662,
+      "notes": "Q1 2023: revenue Rp16.9T.",
+      "epsBasic": 153.49
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 17000000,
+      "revenueBySegmentMM": {
+        "Noodles": 12640000,
+        "Dairy": 2505000,
+        "Snacks / Seasonings / Nutrition": 1330000,
+        "Beverages + other": 525000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10720000,
+        "G&A": 850000,
+        "Selling": 2160000,
+        "D&A": 625000
+      },
+      "ebitdaMM": 4500000,
+      "netIncomeMM": 1790000,
+      "netDebtMM": 29500000,
+      "sharesOutMM": 11662,
+      "notes": "Q2 2023: revenue Rp17.0T.",
+      "epsBasic": 153.49
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 16900000,
+      "revenueBySegmentMM": {
+        "Noodles": 12565000,
+        "Dairy": 2490000,
+        "Snacks / Seasonings / Nutrition": 1320000,
+        "Beverages + other": 525000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10650000,
+        "G&A": 845000,
+        "Selling": 2150000,
+        "D&A": 625000
+      },
+      "ebitdaMM": 4500000,
+      "netIncomeMM": 1800000,
+      "netDebtMM": 29200000,
+      "sharesOutMM": 11662,
+      "notes": "Q3 2023: revenue Rp16.9T.",
+      "epsBasic": 154.3475
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 17109000,
+      "revenueBySegmentMM": {
+        "Noodles": 12725000,
+        "Dairy": 2515000,
+        "Snacks / Seasonings / Nutrition": 1330000,
+        "Beverages + other": 539000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10780000,
+        "G&A": 860000,
+        "Selling": 2190000,
+        "D&A": 630000
+      },
+      "ebitdaMM": 4500000,
+      "netIncomeMM": 1804000,
+      "netDebtMM": 28700000,
+      "sharesOutMM": 11662,
+      "notes": "Q4 2023: revenue Rp17.1T.",
+      "propertyBookMM": 2100000,
+      "ppeBookMM": 17800000,
+      "inventoryMM": 7800000,
+      "intangibleAssetsMM": 43000000,
+      "nonAgricultureRevenuePct": 100,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Noodles",
+          "revenueMM": 48500000,
+          "ebitdaMM": 12200000
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 8600000,
+          "ebitdaMM": 1650000
+        },
+        {
+          "segment": "Snack Foods",
+          "revenueMM": 4500000,
+          "ebitdaMM": 620000
+        },
+        {
+          "segment": "Food Seasonings",
+          "revenueMM": 3300000,
+          "ebitdaMM": 540000
+        },
+        {
+          "segment": "Nutrition & Special Foods",
+          "revenueMM": 1900000,
+          "ebitdaMM": 310000
+        },
+        {
+          "segment": "Beverages",
+          "revenueMM": 1000000,
+          "ebitdaMM": 80000
+        }
+      ],
+      "epsBasic": 154.6904
     },
     {
       "endDate": "2023-12-31",
@@ -152,12 +517,179 @@
       "netDebtMM": 28700000,
       "totalEquityMM": 47024000,
       "sharesOutMM": 11662,
-      "bookValuePerShare": 4032,
+      "bookValuePerShare": 4032.2415,
       "dividendPerShare": 230,
-      "notes": "FY23: Rp67.9T revenue (+5% YoY), Rp7.18T net profit (+57%) — strong margin recovery + lower input cost.",
+      "notes": "FY23: Rp67.9T revenue (+5% YoY), Rp7.18T net profit (+57%) \u2014 strong margin recovery + lower input cost.",
       "capexMM": 4200000,
       "daMM": 2600000,
-      "cfoMM": 11400000
+      "cfoMM": 11400000,
+      "propertyBookMM": 2100000,
+      "ppeBookMM": 17800000,
+      "inventoryMM": 7800000,
+      "intangibleAssetsMM": 43000000,
+      "nonAgricultureRevenuePct": 100,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Noodles",
+          "revenueMM": 48500000,
+          "ebitdaMM": 12200000
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 8600000,
+          "ebitdaMM": 1650000
+        },
+        {
+          "segment": "Snack Foods",
+          "revenueMM": 4500000,
+          "ebitdaMM": 620000
+        },
+        {
+          "segment": "Food Seasonings",
+          "revenueMM": 3300000,
+          "ebitdaMM": 540000
+        },
+        {
+          "segment": "Nutrition & Special Foods",
+          "revenueMM": 1900000,
+          "ebitdaMM": 310000
+        },
+        {
+          "segment": "Beverages",
+          "revenueMM": 1000000,
+          "ebitdaMM": 80000
+        }
+      ],
+      "epsBasic": 616.0178
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 17600000,
+      "revenueBySegmentMM": {
+        "Noodles": 13075000,
+        "Dairy": 2545000,
+        "Snacks / Seasonings / Nutrition": 1395000,
+        "Beverages + other": 585000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10960000,
+        "G&A": 875000,
+        "Selling": 2225000,
+        "D&A": 640000
+      },
+      "ebitdaMM": 4750000,
+      "netIncomeMM": 2670000,
+      "netDebtMM": 28000000,
+      "sharesOutMM": 11662,
+      "notes": "Q1 2024: revenue Rp17.6T; FX hedge gains lifted net income.",
+      "epsBasic": 228.9487
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 17850000,
+      "revenueBySegmentMM": {
+        "Noodles": 13260000,
+        "Dairy": 2580000,
+        "Snacks / Seasonings / Nutrition": 1415000,
+        "Beverages + other": 595000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11130000,
+        "G&A": 890000,
+        "Selling": 2255000,
+        "D&A": 650000
+      },
+      "ebitdaMM": 4800000,
+      "netIncomeMM": 2740000,
+      "netDebtMM": 27500000,
+      "sharesOutMM": 11662,
+      "notes": "Q2 2024: revenue Rp17.85T.",
+      "epsBasic": 234.9511
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 17700000,
+      "revenueBySegmentMM": {
+        "Noodles": 13150000,
+        "Dairy": 2560000,
+        "Snacks / Seasonings / Nutrition": 1405000,
+        "Beverages + other": 585000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11000000,
+        "G&A": 880000,
+        "Selling": 2240000,
+        "D&A": 650000
+      },
+      "ebitdaMM": 4750000,
+      "netIncomeMM": 2710000,
+      "netDebtMM": 27000000,
+      "sharesOutMM": 11662,
+      "notes": "Q3 2024: revenue Rp17.7T.",
+      "epsBasic": 232.3787
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 18068000,
+      "revenueBySegmentMM": {
+        "Noodles": 13415000,
+        "Dairy": 2615000,
+        "Snacks / Seasonings / Nutrition": 1435000,
+        "Beverages + other": 603000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11310000,
+        "G&A": 905000,
+        "Selling": 2280000,
+        "D&A": 660000
+      },
+      "ebitdaMM": 4700000,
+      "netIncomeMM": 2750000,
+      "netDebtMM": 26210000,
+      "sharesOutMM": 11662,
+      "notes": "Q4 2024: revenue Rp18.1T.",
+      "propertyBookMM": 2200000,
+      "ppeBookMM": 18500000,
+      "inventoryMM": 8200000,
+      "intangibleAssetsMM": 42500000,
+      "nonAgricultureRevenuePct": 100,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Noodles",
+          "revenueMM": 52500000,
+          "ebitdaMM": 13500000
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 9200000,
+          "ebitdaMM": 1850000
+        },
+        {
+          "segment": "Snack Foods",
+          "revenueMM": 4800000,
+          "ebitdaMM": 680000
+        },
+        {
+          "segment": "Food Seasonings",
+          "revenueMM": 3500000,
+          "ebitdaMM": 580000
+        },
+        {
+          "segment": "Nutrition & Special Foods",
+          "revenueMM": 2200000,
+          "ebitdaMM": 350000
+        },
+        {
+          "segment": "Beverages",
+          "revenueMM": 1300000,
+          "ebitdaMM": 95000
+        }
+      ],
+      "epsBasic": 235.8086
     },
     {
       "endDate": "2024-12-31",
@@ -183,13 +715,59 @@
       "netDebtMM": 26210000,
       "totalEquityMM": 52720000,
       "sharesOutMM": 11662,
-      "bookValuePerShare": 4520,
+      "bookValuePerShare": 4520.6654,
       "navPerShare": 4520,
       "dividendPerShare": 248,
       "notes": "FY24: Rp71.2T revenue (+5% YoY), Rp10.87T net profit (+51% YoY). Lower wheat/palm oil + FX hedge gains. Net debt down to ~Rp26.2T.",
       "capexMM": 4300000,
       "daMM": 2750000,
-      "cfoMM": 12200000
+      "cfoMM": 12200000,
+      "interestExpenseMM": 2613000.0,
+      "weightedAvgDebtRate": 6.5,
+      "debtMaturityProfileMM": {
+        "<1y": 10050000.0,
+        "1-3y": 12060000.0,
+        "3-5y": 8040000.0,
+        "5+y": 10050000.0
+      },
+      "propertyBookMM": 2200000,
+      "ppeBookMM": 18500000,
+      "inventoryMM": 8200000,
+      "intangibleAssetsMM": 42500000,
+      "nonAgricultureRevenuePct": 100,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Noodles",
+          "revenueMM": 52500000,
+          "ebitdaMM": 13500000
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 9200000,
+          "ebitdaMM": 1850000
+        },
+        {
+          "segment": "Snack Foods",
+          "revenueMM": 4800000,
+          "ebitdaMM": 680000
+        },
+        {
+          "segment": "Food Seasonings",
+          "revenueMM": 3500000,
+          "ebitdaMM": 580000
+        },
+        {
+          "segment": "Nutrition & Special Foods",
+          "revenueMM": 2200000,
+          "ebitdaMM": 350000
+        },
+        {
+          "segment": "Beverages",
+          "revenueMM": 1300000,
+          "ebitdaMM": 95000
+        }
+      ],
+      "epsBasic": 932.0871
     }
   ]
 }

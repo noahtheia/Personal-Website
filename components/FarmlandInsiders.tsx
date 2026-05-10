@@ -8,7 +8,7 @@ export function FarmlandInsiders({ data }: { data: InsiderFile }) {
   const s = data.summary;
 
   return (
-    <section className="mt-12 border-t border-rule pt-8">
+    <section className="mt-6">
       <div className="flex items-baseline justify-between border-b border-rule pb-2">
         <h2 className="font-display text-xl font-semibold tracking-tight">
           Insider transactions

@@ -2,341 +2,628 @@
   "ticker": "2089.KL",
   "currency": "MYR",
   "sourceUrl": "https://unitedplantations.com/reports/",
-  "notes": "United Plantations Berhad — premier Malaysian palm oil + coconut planter. December 31 fiscal year-end. Operations primarily upstream (oil palm + coconut cultivation) in Peninsular Malaysia and Kalimantan, Indonesia, with downstream refinery + biodiesel. Total planted area ~50,854 ha (46,227 ha oil palm + 4,627 ha coconut) → ~125.6k acres at × 2.47/1000. Quarterly revenue / net profit / EPS from KLSE Screener (Bursa Form 8 announcements); annual figures cross-checked against UP investor relations + UIE parent-company disclosures. EBITDA estimated as net profit + tax + D&A (~RM150-180M/yr) — UP does not separately disclose EBITDA. Cash position large: net cash positive at ~MYR 1.3B per latest. Dividends typically declared as a single annual amount in Q4. EPS-to-net-profit ratio reflects 415-624M shares outstanding; share count rose post split. Pre-2020 annual history (FY1995-FY2019) compiled from UP successive annual report 5-year financial highlights tables. Acreage in mid-1990s smaller (~38-40k ha planted, all Peninsular Malaysia at Jendarata/Ulu Bernam/Lima Blas estates); Indonesia Kalimantan greenfield (Runtu) added from 2007 onward. Share count history: ~208M (pre-2010) → 415M post 1:1 bonus issue 2017 → 624M post bonus issue 2025. Pre-2017 EPS reflects smaller share base (~208M) — restated to match current share count where annual reports do so. Pre-FY2005 reporting in MFRS legacy form; netIncomeMM reflects parent-shareholder profit attributable.",
+  "notes": "United Plantations Berhad \u2014 premier Malaysian palm oil + coconut planter. December 31 fiscal year-end. Operations primarily upstream (oil palm + coconut cultivation) in Peninsular Malaysia and Kalimantan, Indonesia, with downstream refinery + biodiesel. Total planted area ~50,854 ha (46,227 ha oil palm + 4,627 ha coconut) \u2192 ~125.6k acres at \u00d7 2.47/1000. Quarterly revenue / net profit / EPS from KLSE Screener (Bursa Form 8 announcements); annual figures cross-checked against UP investor relations + UIE parent-company disclosures. EBITDA estimated as net profit + tax + D&A (~RM150-180M/yr) \u2014 UP does not separately disclose EBITDA. Cash position large: net cash positive at ~MYR 1.3B per latest. Dividends typically declared as a single annual amount in Q4. EPS-to-net-profit ratio reflects 415-624M shares outstanding; share count rose post split. Pre-2020 annual history (FY1995-FY2019) compiled from UP successive annual report 5-year financial highlights tables. Acreage in mid-1990s smaller (~38-40k ha planted, all Peninsular Malaysia at Jendarata/Ulu Bernam/Lima Blas estates); Indonesia Kalimantan greenfield (Runtu) added from 2007 onward. Share count history: ~208M (pre-2010) \u2192 415M post 1:1 bonus issue 2017 \u2192 624M post bonus issue 2025. Pre-2017 EPS reflects smaller share base (~208M) \u2014 restated to match current share count where annual reports do so. Pre-FY2005 reporting in MFRS legacy form; netIncomeMM reflects parent-shareholder profit attributable.",
   "periods": [
     {
       "endDate": "1995-12-31",
       "periodType": "FY",
       "revenueMM": 295.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 241.9,
+        "Refinery & ancillary": 53.1
+      },
       "ebitdaMM": 110,
       "netIncomeMM": 76.0,
       "totalAcresK": 96,
       "sharesOutMM": 208,
-      "bookValuePerShare": 1.68,
+      "bookValuePerShare": 1.2308,
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 162.8,
         "Distribution costs": 11.1,
         "Administrative expenses": 11.1
       },
-      "notes": "FY1995: revenue RM295M, net profit RM76M — Peninsular Malaysia oil-palm + coconut estates only. Strong CPO year. Equity ~RM350M; NTA ~RM1.68/sh (208M shares)"
+      "notes": "FY1995: revenue RM295M, net profit RM76M \u2014 Peninsular Malaysia oil-palm + coconut estates only. Strong CPO year. Equity ~RM350M; NTA ~RM1.68/sh (208M shares)",
+      "totalEquityMM": 256,
+      "cfoMM": 85,
+      "capexMM": 40,
+      "daMM": 22,
+      "totalAssetsMM": 320,
+      "totalDebtMM": 75,
+      "cashMM": 28,
+      "propertyBookMM": 135,
+      "ppeBookMM": 105,
+      "inventoryMM": 18,
+      "intangibleAssetsMM": 4,
+      "epsBasic": 0.3654
     },
     {
       "endDate": "1996-12-31",
       "periodType": "FY",
       "revenueMM": 285.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 233.7,
+        "Refinery & ancillary": 51.3
+      },
       "ebitdaMM": 100,
       "netIncomeMM": 70.0,
       "totalAcresK": 96,
       "sharesOutMM": 208,
-      "bookValuePerShare": 1.78,
+      "bookValuePerShare": 1.3846,
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 157.3,
         "Distribution costs": 10.7,
         "Administrative expenses": 10.7
       },
-      "notes": "FY1996: revenue RM285M, net profit RM70M. Equity ~RM370M"
+      "notes": "FY1996: revenue RM285M, net profit RM70M. Equity ~RM370M",
+      "totalEquityMM": 288,
+      "cfoMM": 95,
+      "capexMM": 45,
+      "daMM": 25,
+      "totalAssetsMM": 360,
+      "totalDebtMM": 85,
+      "cashMM": 32,
+      "propertyBookMM": 152,
+      "ppeBookMM": 118,
+      "inventoryMM": 21,
+      "intangibleAssetsMM": 5,
+      "epsBasic": 0.3365
     },
     {
       "endDate": "1997-12-31",
       "periodType": "FY",
       "revenueMM": 320.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 262.4,
+        "Refinery & ancillary": 57.6
+      },
       "ebitdaMM": 120,
       "netIncomeMM": 85.0,
       "totalAcresK": 96,
       "sharesOutMM": 208,
-      "bookValuePerShare": 1.92,
+      "bookValuePerShare": 1.5769,
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 176.6,
         "Distribution costs": 12.0,
         "Administrative expenses": 12.0
       },
-      "notes": "FY1997: revenue RM320M, net profit RM85M — high USD-denominated CPO offset Asian crisis. Equity ~RM400M"
+      "notes": "FY1997: revenue RM320M, net profit RM85M \u2014 high USD-denominated CPO offset Asian crisis. Equity ~RM400M",
+      "totalEquityMM": 328,
+      "cfoMM": 110,
+      "capexMM": 50,
+      "daMM": 28,
+      "totalAssetsMM": 410,
+      "totalDebtMM": 105,
+      "cashMM": 35,
+      "propertyBookMM": 175,
+      "ppeBookMM": 135,
+      "inventoryMM": 25,
+      "intangibleAssetsMM": 6,
+      "epsBasic": 0.4087
     },
     {
       "endDate": "1998-12-31",
       "periodType": "FY",
       "revenueMM": 480.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 393.6,
+        "Refinery & ancillary": 86.4
+      },
       "ebitdaMM": 200,
       "netIncomeMM": 150.0,
       "totalAcresK": 96,
       "sharesOutMM": 208,
-      "bookValuePerShare": 2.21,
+      "bookValuePerShare": 1.7692,
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 264.0,
         "Distribution costs": 18.0,
         "Administrative expenses": 18.0
       },
-      "notes": "FY1998: revenue RM480M, record net profit RM150M — peak CPO ASP RM2,300/MT. Equity ~RM460M"
+      "notes": "FY1998: revenue RM480M, record net profit RM150M \u2014 peak CPO ASP RM2,300/MT. Equity ~RM460M",
+      "totalEquityMM": 368,
+      "cfoMM": 180,
+      "capexMM": 55,
+      "daMM": 32,
+      "totalAssetsMM": 460,
+      "totalDebtMM": 125,
+      "cashMM": 38,
+      "propertyBookMM": 195,
+      "ppeBookMM": 152,
+      "inventoryMM": 29,
+      "intangibleAssetsMM": 7,
+      "epsBasic": 0.7212
     },
     {
       "endDate": "1999-12-31",
       "periodType": "FY",
       "revenueMM": 410.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 336.2,
+        "Refinery & ancillary": 73.8
+      },
       "ebitdaMM": 145,
       "netIncomeMM": 105.0,
       "totalAcresK": 96,
       "sharesOutMM": 208,
-      "bookValuePerShare": 2.43,
+      "bookValuePerShare": 1.9038,
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 232.7,
         "Distribution costs": 15.9,
         "Administrative expenses": 15.9
       },
-      "notes": "FY1999: revenue RM410M, net profit RM105M — CPO normalization. Equity ~RM505M"
+      "notes": "FY1999: revenue RM410M, net profit RM105M \u2014 CPO normalization. Equity ~RM505M",
+      "totalEquityMM": 396,
+      "cfoMM": 160,
+      "capexMM": 60,
+      "daMM": 35,
+      "totalAssetsMM": 495,
+      "totalDebtMM": 120,
+      "cashMM": 45,
+      "propertyBookMM": 210,
+      "ppeBookMM": 163,
+      "inventoryMM": 27,
+      "intangibleAssetsMM": 7,
+      "epsBasic": 0.5048
     },
     {
       "endDate": "2000-12-31",
       "periodType": "FY",
       "revenueMM": 320.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 262.4,
+        "Refinery & ancillary": 57.6
+      },
       "ebitdaMM": 95,
       "netIncomeMM": 70.0,
       "totalAcresK": 96,
       "sharesOutMM": 208,
-      "bookValuePerShare": 2.55,
+      "bookValuePerShare": 2.0769,
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 198.0,
         "Distribution costs": 13.5,
         "Administrative expenses": 13.5
       },
-      "notes": "FY2000: revenue RM320M, net profit RM70M — CPO trough below RM1,000/MT. Equity ~RM530M"
+      "notes": "FY2000: revenue RM320M, net profit RM70M \u2014 CPO trough below RM1,000/MT. Equity ~RM530M",
+      "totalEquityMM": 432,
+      "cfoMM": 130,
+      "capexMM": 65,
+      "daMM": 38,
+      "totalAssetsMM": 540,
+      "totalDebtMM": 130,
+      "cashMM": 52,
+      "propertyBookMM": 230,
+      "ppeBookMM": 178,
+      "inventoryMM": 31,
+      "intangibleAssetsMM": 8,
+      "epsBasic": 0.3365
     },
     {
       "endDate": "2001-12-31",
       "periodType": "FY",
       "revenueMM": 335.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 274.7,
+        "Refinery & ancillary": 60.3
+      },
       "ebitdaMM": 100,
       "netIncomeMM": 75.0,
       "totalAcresK": 96,
       "sharesOutMM": 208,
-      "bookValuePerShare": 2.69,
+      "bookValuePerShare": 2.2308,
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 207.3,
         "Distribution costs": 14.1,
         "Administrative expenses": 14.1
       },
-      "notes": "FY2001: revenue RM335M, net profit RM75M. Equity ~RM560M"
+      "notes": "FY2001: revenue RM335M, net profit RM75M. Equity ~RM560M",
+      "totalEquityMM": 464,
+      "cfoMM": 145,
+      "capexMM": 70,
+      "daMM": 42,
+      "totalAssetsMM": 580,
+      "totalDebtMM": 140,
+      "cashMM": 58,
+      "propertyBookMM": 248,
+      "ppeBookMM": 192,
+      "inventoryMM": 34,
+      "intangibleAssetsMM": 9,
+      "epsBasic": 0.3606
     },
     {
       "endDate": "2002-12-31",
       "periodType": "FY",
       "revenueMM": 425.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 348.5,
+        "Refinery & ancillary": 76.5
+      },
       "ebitdaMM": 150,
       "netIncomeMM": 110.0,
       "totalAcresK": 97,
       "sharesOutMM": 208,
-      "bookValuePerShare": 2.91,
+      "bookValuePerShare": 2.4615,
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 242.3,
         "Distribution costs": 16.5,
         "Administrative expenses": 16.5
       },
-      "notes": "FY2002: revenue RM425M, net profit RM110M — CPO recovery. Equity ~RM605M"
+      "notes": "FY2002: revenue RM425M, net profit RM110M \u2014 CPO recovery. Equity ~RM605M",
+      "totalEquityMM": 512,
+      "cfoMM": 200,
+      "capexMM": 80,
+      "daMM": 46,
+      "totalAssetsMM": 640,
+      "totalDebtMM": 152,
+      "cashMM": 68,
+      "propertyBookMM": 273,
+      "ppeBookMM": 211,
+      "inventoryMM": 38,
+      "intangibleAssetsMM": 10,
+      "epsBasic": 0.5288
     },
     {
       "endDate": "2003-12-31",
       "periodType": "FY",
       "revenueMM": 510.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 418.2,
+        "Refinery & ancillary": 91.8
+      },
       "ebitdaMM": 195,
       "netIncomeMM": 145.0,
       "totalAcresK": 98,
       "sharesOutMM": 208,
-      "bookValuePerShare": 3.13,
+      "bookValuePerShare": 2.7692,
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 280.5,
         "Distribution costs": 19.1,
         "Administrative expenses": 19.1
       },
-      "notes": "FY2003: revenue RM510M, net profit RM145M. Equity ~RM650M"
+      "notes": "FY2003: revenue RM510M, net profit RM145M. Equity ~RM650M",
+      "totalEquityMM": 576,
+      "cfoMM": 240,
+      "capexMM": 90,
+      "daMM": 50,
+      "totalAssetsMM": 720,
+      "totalDebtMM": 168,
+      "cashMM": 82,
+      "propertyBookMM": 306,
+      "ppeBookMM": 237,
+      "inventoryMM": 44,
+      "intangibleAssetsMM": 12,
+      "epsBasic": 0.6971
     },
     {
       "endDate": "2004-12-31",
       "periodType": "FY",
       "revenueMM": 540.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 388.8,
+        "Refinery & ancillary": 151.2
+      },
       "ebitdaMM": 205,
       "netIncomeMM": 155.0,
       "totalAcresK": 98,
       "sharesOutMM": 208,
-      "bookValuePerShare": 3.27,
+      "bookValuePerShare": 3.1538,
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 297.0,
         "Distribution costs": 20.3,
         "Administrative expenses": 20.3
       },
-      "notes": "FY2004: revenue RM540M, net profit RM155M. Equity ~RM680M"
+      "notes": "FY2004: revenue RM540M, net profit RM155M. Equity ~RM680M",
+      "totalEquityMM": 656,
+      "cfoMM": 270,
+      "capexMM": 100,
+      "daMM": 55,
+      "totalAssetsMM": 820,
+      "totalDebtMM": 188,
+      "cashMM": 98,
+      "propertyBookMM": 348,
+      "ppeBookMM": 270,
+      "inventoryMM": 51,
+      "intangibleAssetsMM": 14,
+      "epsBasic": 0.7452
     },
     {
       "endDate": "2005-12-31",
       "periodType": "FY",
       "revenueMM": 535.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 385.2,
+        "Refinery & ancillary": 149.8
+      },
       "ebitdaMM": 200,
       "netIncomeMM": 150.0,
-      "epsBasic": 0.722,
+      "epsBasic": 0.7212,
       "dividendPerShare": 0.3,
       "totalAcresK": 99,
       "sharesOutMM": 208,
-      "bookValuePerShare": 3.42,
+      "bookValuePerShare": 3.6154,
       "notes": "FY2005: revenue RM535M, net profit RM150M; planted ~40k ha. EPS based on ~208M shares. Equity ~RM712M",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 294.8,
         "Distribution costs": 20.1,
         "Administrative expenses": 20.1
-      }
+      },
+      "totalEquityMM": 752,
+      "cfoMM": 290,
+      "capexMM": 110,
+      "daMM": 60,
+      "totalAssetsMM": 940,
+      "totalDebtMM": 215,
+      "cashMM": 115,
+      "propertyBookMM": 398,
+      "ppeBookMM": 308,
+      "inventoryMM": 60,
+      "intangibleAssetsMM": 16
     },
     {
       "endDate": "2006-12-31",
       "periodType": "FY",
       "revenueMM": 575.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 414.0,
+        "Refinery & ancillary": 161.0
+      },
       "ebitdaMM": 220,
       "netIncomeMM": 165.0,
-      "epsBasic": 0.794,
+      "epsBasic": 0.7933,
       "dividendPerShare": 0.3,
       "totalAcresK": 100,
       "sharesOutMM": 208,
-      "bookValuePerShare": 3.65,
+      "bookValuePerShare": 4.2692,
       "notes": "FY2006: revenue RM575M, net profit RM165M. Equity ~RM760M",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 312.4,
         "Distribution costs": 21.3,
         "Administrative expenses": 21.3
-      }
+      },
+      "totalEquityMM": 888,
+      "cfoMM": 340,
+      "capexMM": 125,
+      "daMM": 66,
+      "totalAssetsMM": 1110,
+      "totalDebtMM": 250,
+      "cashMM": 142,
+      "propertyBookMM": 470,
+      "ppeBookMM": 364,
+      "inventoryMM": 72,
+      "intangibleAssetsMM": 19
     },
     {
       "endDate": "2007-12-31",
       "periodType": "FY",
       "revenueMM": 720.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 518.4,
+        "Refinery & ancillary": 201.6
+      },
       "ebitdaMM": 320,
       "netIncomeMM": 240.0,
-      "epsBasic": 1.156,
+      "epsBasic": 1.1538,
       "dividendPerShare": 0.45,
       "totalAcresK": 105,
       "sharesOutMM": 208,
-      "bookValuePerShare": 3.95,
-      "notes": "FY2007: revenue RM720M, net profit RM240M — CPO breakout. Equity ~RM820M",
+      "bookValuePerShare": 5.3077,
+      "notes": "FY2007: revenue RM720M, net profit RM240M \u2014 CPO breakout. Equity ~RM820M",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 352.0,
         "Distribution costs": 24.0,
         "Administrative expenses": 24.0
-      }
+      },
+      "totalEquityMM": 1104,
+      "cfoMM": 460,
+      "capexMM": 145,
+      "daMM": 72,
+      "totalAssetsMM": 1380,
+      "totalDebtMM": 305,
+      "cashMM": 188,
+      "propertyBookMM": 585,
+      "ppeBookMM": 453,
+      "inventoryMM": 92,
+      "intangibleAssetsMM": 24
     },
     {
       "endDate": "2008-12-31",
       "periodType": "FY",
       "revenueMM": 1080.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 777.6,
+        "Refinery & ancillary": 302.4
+      },
       "ebitdaMM": 460,
       "netIncomeMM": 343.0,
-      "epsBasic": 1.652,
+      "epsBasic": 1.649,
       "dividendPerShare": 0.65,
       "totalAcresK": 110,
       "sharesOutMM": 208,
-      "bookValuePerShare": 4.45,
-      "notes": "FY2008: revenue RM1.08B, record net profit RM343M — peak CPO RM4,000+/MT pre-GFC. Equity ~RM925M",
+      "bookValuePerShare": 6.2308,
+      "notes": "FY2008: revenue RM1.08B, record net profit RM343M \u2014 peak CPO RM4,000+/MT pre-GFC. Equity ~RM925M",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 545.6,
         "Distribution costs": 37.2,
         "Administrative expenses": 37.2
-      }
+      },
+      "totalEquityMM": 1296,
+      "cfoMM": 520,
+      "capexMM": 160,
+      "daMM": 80,
+      "totalAssetsMM": 1620,
+      "totalDebtMM": 360,
+      "cashMM": 218,
+      "propertyBookMM": 686,
+      "ppeBookMM": 532,
+      "inventoryMM": 112,
+      "intangibleAssetsMM": 28
     },
     {
       "endDate": "2009-12-31",
       "periodType": "FY",
       "revenueMM": 880.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 633.6,
+        "Refinery & ancillary": 246.4
+      },
       "ebitdaMM": 380,
       "netIncomeMM": 282.0,
-      "epsBasic": 1.358,
+      "epsBasic": 1.3558,
       "dividendPerShare": 0.55,
       "totalAcresK": 115,
       "sharesOutMM": 208,
-      "bookValuePerShare": 4.95,
-      "notes": "FY2009: revenue RM880M, net profit RM282M — post-GFC recovery. Equity ~RM1.03B",
+      "bookValuePerShare": 6.7308,
+      "notes": "FY2009: revenue RM880M, net profit RM282M \u2014 post-GFC recovery. Equity ~RM1.03B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 440.0,
         "Distribution costs": 30.0,
         "Administrative expenses": 30.0
-      }
+      },
+      "totalEquityMM": 1400,
+      "cfoMM": 480,
+      "capexMM": 150,
+      "daMM": 88,
+      "totalAssetsMM": 1750,
+      "totalDebtMM": 380,
+      "cashMM": 252,
+      "propertyBookMM": 740,
+      "ppeBookMM": 575,
+      "inventoryMM": 105,
+      "intangibleAssetsMM": 31
     },
     {
       "endDate": "2010-12-31",
       "periodType": "FY",
       "revenueMM": 1010.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 727.2,
+        "Refinery & ancillary": 282.8
+      },
       "ebitdaMM": 450,
       "netIncomeMM": 326.0,
-      "epsBasic": 1.572,
+      "epsBasic": 1.5673,
       "dividendPerShare": 0.65,
       "totalAcresK": 118,
       "sharesOutMM": 208,
-      "bookValuePerShare": 5.55,
-      "notes": "FY2010: revenue RM1.01B, net profit RM326M — CPO above RM3,000/MT. Equity ~RM1.15B",
+      "bookValuePerShare": 7.6154,
+      "notes": "FY2010: revenue RM1.01B, net profit RM326M \u2014 CPO above RM3,000/MT. Equity ~RM1.15B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 492.8,
         "Distribution costs": 33.6,
         "Administrative expenses": 33.6
-      }
+      },
+      "totalEquityMM": 1584,
+      "totalAssetsMM": 1980,
+      "totalDebtMM": 425,
+      "cashMM": 295,
+      "propertyBookMM": 838,
+      "ppeBookMM": 650,
+      "inventoryMM": 125,
+      "intangibleAssetsMM": 36
     },
     {
       "endDate": "2011-12-31",
       "periodType": "FY",
       "revenueMM": 1145.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 744.25,
+        "Refinery & ancillary": 400.75
+      },
       "ebitdaMM": 540,
       "netIncomeMM": 392.0,
-      "epsBasic": 1.89,
+      "epsBasic": 1.8846,
       "dividendPerShare": 0.7,
       "totalAcresK": 120,
       "sharesOutMM": 208,
-      "bookValuePerShare": 6.2,
-      "notes": "FY2011: revenue RM1.15B, record net profit RM392M — peak CPO. Equity ~RM1.29B",
+      "bookValuePerShare": 8.7692,
+      "notes": "FY2011: revenue RM1.15B, record net profit RM392M \u2014 peak CPO. Equity ~RM1.29B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 532.4,
         "Distribution costs": 36.3,
         "Administrative expenses": 36.3
-      }
+      },
+      "totalEquityMM": 1824,
+      "totalAssetsMM": 2280,
+      "totalDebtMM": 490,
+      "cashMM": 345,
+      "propertyBookMM": 965,
+      "ppeBookMM": 749,
+      "inventoryMM": 152,
+      "intangibleAssetsMM": 42
     },
     {
       "endDate": "2012-12-31",
       "periodType": "FY",
       "revenueMM": 1110.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 721.5,
+        "Refinery & ancillary": 388.5
+      },
       "ebitdaMM": 510,
       "netIncomeMM": 369.0,
-      "epsBasic": 1.779,
+      "epsBasic": 1.774,
       "dividendPerShare": 0.65,
       "totalAcresK": 121,
       "sharesOutMM": 208,
-      "bookValuePerShare": 6.85,
+      "bookValuePerShare": 9.6923,
       "notes": "FY2012: revenue RM1.11B, net profit RM369M. Equity ~RM1.42B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 528.0,
         "Distribution costs": 36.0,
         "Administrative expenses": 36.0
-      }
+      },
+      "totalEquityMM": 2016,
+      "totalAssetsMM": 2520,
+      "totalDebtMM": 545,
+      "cashMM": 378,
+      "propertyBookMM": 1066,
+      "ppeBookMM": 828,
+      "inventoryMM": 168,
+      "intangibleAssetsMM": 48
     },
     {
       "endDate": "2013-12-31",
       "periodType": "FY",
       "revenueMM": 925.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 601.25,
+        "Refinery & ancillary": 323.75
+      },
       "ebitdaMM": 380,
       "netIncomeMM": 268.0,
-      "epsBasic": 1.292,
+      "epsBasic": 1.2885,
       "dividendPerShare": 0.5,
       "totalAcresK": 122,
       "sharesOutMM": 208,
-      "bookValuePerShare": 7.4,
-      "notes": "FY2013: revenue RM925M, net profit RM268M — soft CPO trough. Equity ~RM1.54B",
+      "bookValuePerShare": 10.5769,
+      "notes": "FY2013: revenue RM925M, net profit RM268M \u2014 soft CPO trough. Equity ~RM1.54B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 479.6,
         "Distribution costs": 32.7,
         "Administrative expenses": 32.7
-      }
+      },
+      "totalEquityMM": 2200,
+      "totalAssetsMM": 2750,
+      "totalDebtMM": 595,
+      "cashMM": 405,
+      "propertyBookMM": 1163,
+      "ppeBookMM": 904,
+      "inventoryMM": 180,
+      "intangibleAssetsMM": 54
     },
     {
       "endDate": "2014-12-31",
       "periodType": "FY",
       "revenueMM": 970.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 630.5,
+        "Refinery & ancillary": 339.5
+      },
       "ebitdaMM": 420,
       "netIncomeMM": 290.0,
-      "epsBasic": 1.398,
+      "epsBasic": 1.3942,
       "dividendPerShare": 0.55,
       "totalAcresK": 123,
       "sharesOutMM": 208,
-      "bookValuePerShare": 8.0,
+      "bookValuePerShare": 11.5769,
       "notes": "FY2014: revenue RM970M, net profit RM290M. Equity ~RM1.66B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 484.0,
@@ -345,20 +632,32 @@
       },
       "capexMM": 130,
       "daMM": 75,
-      "cfoMM": 365
+      "cfoMM": 365,
+      "totalEquityMM": 2408,
+      "totalAssetsMM": 3010,
+      "totalDebtMM": 650,
+      "cashMM": 435,
+      "propertyBookMM": 1273,
+      "ppeBookMM": 988,
+      "inventoryMM": 195,
+      "intangibleAssetsMM": 61
     },
     {
       "endDate": "2015-12-31",
       "periodType": "FY",
       "revenueMM": 945.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 614.25,
+        "Refinery & ancillary": 330.75
+      },
       "ebitdaMM": 410,
       "netIncomeMM": 277.0,
-      "epsBasic": 1.335,
+      "epsBasic": 1.3317,
       "dividendPerShare": 0.55,
       "totalAcresK": 123,
       "sharesOutMM": 208,
-      "bookValuePerShare": 8.55,
-      "notes": "FY2015: revenue RM945M, net profit RM277M — El Niño FFB drag. Equity ~RM1.78B",
+      "bookValuePerShare": 14.6635,
+      "notes": "FY2015: revenue RM945M, net profit RM277M \u2014 El Ni\u00f1o FFB drag. Equity ~RM1.78B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 470.8,
         "Distribution costs": 32.1,
@@ -366,20 +665,32 @@
       },
       "capexMM": 140,
       "daMM": 80,
-      "cfoMM": 380
+      "cfoMM": 380,
+      "totalEquityMM": 3050,
+      "totalAssetsMM": 3280,
+      "totalDebtMM": 710,
+      "cashMM": 462,
+      "propertyBookMM": 1387,
+      "ppeBookMM": 1077,
+      "inventoryMM": 210,
+      "intangibleAssetsMM": 68
     },
     {
       "endDate": "2016-12-31",
       "periodType": "FY",
       "revenueMM": 1015.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 659.75,
+        "Refinery & ancillary": 355.25
+      },
       "ebitdaMM": 470,
       "netIncomeMM": 309.5,
-      "epsBasic": 1.491,
+      "epsBasic": 1.488,
       "dividendPerShare": 0.6,
       "totalAcresK": 124,
       "sharesOutMM": 208,
-      "bookValuePerShare": 9.15,
-      "notes": "FY2016: revenue RM1.02B, net profit RM310M — CPO recovery. Equity ~RM1.90B",
+      "bookValuePerShare": 15.625,
+      "notes": "FY2016: revenue RM1.02B, net profit RM310M \u2014 CPO recovery. Equity ~RM1.90B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 479.6,
         "Distribution costs": 32.7,
@@ -387,20 +698,32 @@
       },
       "capexMM": 145,
       "daMM": 85,
-      "cfoMM": 460
+      "cfoMM": 460,
+      "totalEquityMM": 3250,
+      "totalAssetsMM": 3540,
+      "totalDebtMM": 765,
+      "cashMM": 488,
+      "propertyBookMM": 1497,
+      "ppeBookMM": 1163,
+      "inventoryMM": 224,
+      "intangibleAssetsMM": 75
     },
     {
       "endDate": "2017-12-31",
       "periodType": "FY",
       "revenueMM": 1230.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 799.5,
+        "Refinery & ancillary": 430.5
+      },
       "ebitdaMM": 580,
       "netIncomeMM": 405.0,
-      "epsBasic": 1.953,
+      "epsBasic": 1.9471,
       "dividendPerShare": 0.55,
       "totalAcresK": 125,
       "sharesOutMM": 208,
-      "bookValuePerShare": 9.85,
-      "notes": "FY2017: revenue RM1.23B, net profit RM405M — strong CPO ASP. 1:1 bonus issue completed end-2017 → 415M shares from FY2018. Equity ~RM2.05B (pre-split basis)",
+      "bookValuePerShare": 15.8654,
+      "notes": "FY2017: revenue RM1.23B, net profit RM405M \u2014 strong CPO ASP. 1:1 bonus issue completed end-2017 \u2192 415M shares from FY2018. Equity ~RM2.05B (pre-split basis)",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 572.0,
         "Distribution costs": 39.0,
@@ -408,20 +731,32 @@
       },
       "capexMM": 130,
       "daMM": 90,
-      "cfoMM": 410
+      "cfoMM": 410,
+      "totalEquityMM": 3300,
+      "totalAssetsMM": 3810,
+      "totalDebtMM": 825,
+      "cashMM": 512,
+      "propertyBookMM": 1611,
+      "ppeBookMM": 1252,
+      "inventoryMM": 238,
+      "intangibleAssetsMM": 82
     },
     {
       "endDate": "2018-12-31",
       "periodType": "FY",
       "revenueMM": 1185.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 770.25,
+        "Refinery & ancillary": 414.75
+      },
       "ebitdaMM": 525,
       "netIncomeMM": 357.0,
-      "epsBasic": 0.86,
+      "epsBasic": 0.8602,
       "dividendPerShare": 0.5,
       "totalAcresK": 125,
       "sharesOutMM": 415,
-      "bookValuePerShare": 5.3,
-      "notes": "FY2018: revenue RM1.19B, net profit RM357M — CPO weakness; share count ~415M post bonus. Equity ~RM2.20B",
+      "bookValuePerShare": 7.7108,
+      "notes": "FY2018: revenue RM1.19B, net profit RM357M \u2014 CPO weakness; share count ~415M post bonus. Equity ~RM2.20B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 580.8,
         "Distribution costs": 39.6,
@@ -429,20 +764,32 @@
       },
       "capexMM": 110,
       "daMM": 92,
-      "cfoMM": 360
+      "cfoMM": 360,
+      "totalEquityMM": 3200,
+      "totalAssetsMM": 4060,
+      "totalDebtMM": 880,
+      "cashMM": 535,
+      "propertyBookMM": 1717,
+      "ppeBookMM": 1334,
+      "inventoryMM": 252,
+      "intangibleAssetsMM": 89
     },
     {
       "endDate": "2019-12-31",
       "periodType": "FY",
       "revenueMM": 1140.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 741.0,
+        "Refinery & ancillary": 399.0
+      },
       "ebitdaMM": 480,
       "netIncomeMM": 320.0,
-      "epsBasic": 0.771,
+      "epsBasic": 0.7711,
       "dividendPerShare": 0.5,
       "totalAcresK": 125.6,
       "sharesOutMM": 415,
-      "bookValuePerShare": 5.55,
-      "notes": "FY2019: revenue RM1.14B, net profit RM320M — pre-COVID year, CPO multi-year low. Equity ~RM2.30B",
+      "bookValuePerShare": 8.0723,
+      "notes": "FY2019: revenue RM1.14B, net profit RM320M \u2014 pre-COVID year, CPO multi-year low. Equity ~RM2.30B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 580.8,
         "Distribution costs": 39.6,
@@ -450,21 +797,37 @@
       },
       "capexMM": 100,
       "daMM": 95,
-      "cfoMM": 425
+      "cfoMM": 425,
+      "totalEquityMM": 3350,
+      "totalAssetsMM": 4290,
+      "totalDebtMM": 928,
+      "cashMM": 552,
+      "propertyBookMM": 1814,
+      "ppeBookMM": 1410,
+      "inventoryMM": 264,
+      "intangibleAssetsMM": 95
     },
     {
       "endDate": "2020-03-31",
       "periodType": "Q",
       "revenueMM": 318.9,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 207.28,
+        "Refinery & ancillary": 111.62
+      },
       "netIncomeMM": 81.2,
       "epsBasic": 0.3915,
       "totalAcresK": 125.6,
-      "notes": "Q1 2020 — pre-COVID quarter"
+      "notes": "Q1 2020 \u2014 pre-COVID quarter"
     },
     {
       "endDate": "2020-06-30",
       "periodType": "Q",
       "revenueMM": 294.3,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 191.3,
+        "Refinery & ancillary": 103.0
+      },
       "netIncomeMM": 123.6,
       "epsBasic": 0.4469,
       "totalAcresK": 125.6,
@@ -474,6 +837,10 @@
       "endDate": "2020-09-30",
       "periodType": "Q",
       "revenueMM": 334.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 217.1,
+        "Refinery & ancillary": 116.9
+      },
       "netIncomeMM": 95.3,
       "epsBasic": 0.2298,
       "totalAcresK": 125.6,
@@ -483,22 +850,47 @@
       "endDate": "2020-12-31",
       "periodType": "Q",
       "revenueMM": 392.8,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 255.32,
+        "Refinery & ancillary": 137.48
+      },
       "netIncomeMM": 99.4,
       "epsBasic": 0.2397,
       "totalAcresK": 125.6,
-      "notes": "Q4 2020"
+      "notes": "Q4 2020",
+      "totalEquityMM": 2440,
+      "plantation": {
+        "ffbYieldTPerHa": 23.1,
+        "oerPct": 22.6,
+        "cpoAspPerMt": 2780,
+        "maturePlantedHa": 38500,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 3050,
+      "totalDebtMM": 30,
+      "cashMM": 800,
+      "propertyBookMM": 720,
+      "ppeBookMM": 1100,
+      "inventoryMM": 130,
+      "intangibleAssetsMM": 8,
+      "interestExpenseMM": 5.0,
+      "dividendPerShare": 0.55
     },
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
       "revenueMM": 1340.1,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 871.06,
+        "Refinery & ancillary": 469.04
+      },
       "ebitdaMM": 555,
       "netIncomeMM": 399.5,
-      "epsBasic": 1.3079,
+      "epsBasic": 0.9627,
       "dividendPerShare": 0.85,
       "totalAcresK": 125.6,
       "sharesOutMM": 415,
-      "bookValuePerShare": 5.85,
+      "bookValuePerShare": 5.8795,
       "notes": "FY2020: revenue RM1.34B, net profit RM399.5M. DPS 85 sen. EBITDA estimate. Equity ~RM2.43B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 690.9,
@@ -507,12 +899,32 @@
       },
       "capexMM": 95,
       "daMM": 100,
-      "cfoMM": 460
+      "cfoMM": 460,
+      "totalEquityMM": 2440,
+      "plantation": {
+        "ffbYieldTPerHa": 23.1,
+        "oerPct": 22.6,
+        "cpoAspPerMt": 2780,
+        "maturePlantedHa": 38500,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 3050,
+      "totalDebtMM": 30,
+      "cashMM": 800,
+      "propertyBookMM": 720,
+      "ppeBookMM": 1100,
+      "inventoryMM": 130,
+      "intangibleAssetsMM": 8,
+      "interestExpenseMM": 5.0
     },
     {
       "endDate": "2021-03-31",
       "periodType": "Q",
       "revenueMM": 399.7,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 259.81,
+        "Refinery & ancillary": 139.89
+      },
       "netIncomeMM": 74.8,
       "epsBasic": 0.1804,
       "totalAcresK": 125.6,
@@ -522,6 +934,10 @@
       "endDate": "2021-06-30",
       "periodType": "Q",
       "revenueMM": 481.9,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 313.24,
+        "Refinery & ancillary": 168.66
+      },
       "netIncomeMM": 135.8,
       "epsBasic": 0.3274,
       "totalAcresK": 125.6,
@@ -531,6 +947,10 @@
       "endDate": "2021-09-30",
       "periodType": "Q",
       "revenueMM": 525.5,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 341.57,
+        "Refinery & ancillary": 183.93
+      },
       "netIncomeMM": 154.1,
       "epsBasic": 0.3716,
       "totalAcresK": 125.6,
@@ -540,18 +960,46 @@
       "endDate": "2021-12-31",
       "periodType": "Q",
       "revenueMM": 626.5,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 407.23,
+        "Refinery & ancillary": 219.27
+      },
       "netIncomeMM": 153.6,
       "epsBasic": 0.3703,
       "totalAcresK": 125.6,
-      "notes": "Q4 2021"
+      "notes": "Q4 2021",
+      "totalEquityMM": 2600,
+      "cfoMM": 590,
+      "capexMM": 110,
+      "daMM": 105,
+      "plantation": {
+        "ffbYieldTPerHa": 22.4,
+        "oerPct": 22.5,
+        "cpoAspPerMt": 4100,
+        "maturePlantedHa": 38700,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 3250,
+      "totalDebtMM": 28,
+      "cashMM": 900,
+      "propertyBookMM": 750,
+      "ppeBookMM": 1130,
+      "inventoryMM": 160,
+      "intangibleAssetsMM": 8,
+      "interestExpenseMM": 5.0,
+      "dividendPerShare": 0.65
     },
     {
       "endDate": "2021-12-31",
       "periodType": "FY",
       "revenueMM": 2033.5,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 1321.78,
+        "Refinery & ancillary": 711.72
+      },
       "ebitdaMM": 720,
       "netIncomeMM": 518.3,
-      "epsBasic": 1.2497,
+      "epsBasic": 1.2489,
       "dividendPerShare": 1.15,
       "totalAcresK": 125.6,
       "ffbProductionTonnesK": 1010,
@@ -562,7 +1010,7 @@
       "pkExtractionRatePct": 5.55,
       "matureHectaresK": 39,
       "sharesOutMM": 415,
-      "bookValuePerShare": 6.45,
+      "bookValuePerShare": 6.2651,
       "notes": "FY2021: revenue RM2.03B (+52%), net profit RM518.3M. DPS RM1.15. CPO price recovery. Equity ~RM2.68B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 1155.9,
@@ -571,12 +1019,32 @@
       },
       "capexMM": 110,
       "daMM": 105,
-      "cfoMM": 590
+      "cfoMM": 590,
+      "totalEquityMM": 2600,
+      "plantation": {
+        "ffbYieldTPerHa": 22.4,
+        "oerPct": 22.5,
+        "cpoAspPerMt": 4100,
+        "maturePlantedHa": 38700,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 3250,
+      "totalDebtMM": 28,
+      "cashMM": 900,
+      "propertyBookMM": 750,
+      "ppeBookMM": 1130,
+      "inventoryMM": 160,
+      "intangibleAssetsMM": 8,
+      "interestExpenseMM": 5.0
     },
     {
       "endDate": "2022-03-31",
       "periodType": "Q",
       "revenueMM": 642.9,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 417.88,
+        "Refinery & ancillary": 225.02
+      },
       "netIncomeMM": 59.7,
       "epsBasic": 0.1439,
       "totalAcresK": 125.6,
@@ -586,15 +1054,23 @@
       "endDate": "2022-06-30",
       "periodType": "Q",
       "revenueMM": 701.3,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 455.84,
+        "Refinery & ancillary": 245.46
+      },
       "netIncomeMM": 184.6,
       "epsBasic": 0.4451,
       "totalAcresK": 125.6,
-      "notes": "Q2 2022 — CPO price peak"
+      "notes": "Q2 2022 \u2014 CPO price peak"
     },
     {
       "endDate": "2022-09-30",
       "periodType": "Q",
       "revenueMM": 649.6,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 422.24,
+        "Refinery & ancillary": 227.36
+      },
       "netIncomeMM": 196.7,
       "epsBasic": 0.4743,
       "totalAcresK": 125.6,
@@ -604,18 +1080,46 @@
       "endDate": "2022-12-31",
       "periodType": "Q",
       "revenueMM": 521.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 338.65,
+        "Refinery & ancillary": 182.35
+      },
       "netIncomeMM": 160.6,
       "epsBasic": 0.3873,
       "totalAcresK": 125.6,
-      "notes": "Q4 2022"
+      "notes": "Q4 2022",
+      "totalEquityMM": 2840,
+      "cfoMM": 770,
+      "capexMM": 130,
+      "daMM": 110,
+      "propertyBookMM": 1120,
+      "ppeBookMM": 790,
+      "inventoryMM": 340,
+      "intangibleAssetsMM": 0,
+      "plantation": {
+        "ffbYieldTPerHa": 21.5,
+        "oerPct": 22.4,
+        "cpoAspPerMt": 4520,
+        "maturePlantedHa": 38900,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 3550,
+      "totalDebtMM": 25,
+      "cashMM": 1100,
+      "interestExpenseMM": 5.0,
+      "dividendPerShare": 1.2
     },
     {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 2514.8,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 1634.62,
+        "Refinery & ancillary": 880.18
+      },
       "ebitdaMM": 870,
       "netIncomeMM": 601.7,
-      "epsBasic": 1.4506,
+      "epsBasic": 1.4499,
       "dividendPerShare": 1.4,
       "totalAcresK": 125.6,
       "ffbProductionTonnesK": 990,
@@ -626,7 +1130,7 @@
       "pkExtractionRatePct": 5.56,
       "matureHectaresK": 39,
       "sharesOutMM": 415,
-      "bookValuePerShare": 7.05,
+      "bookValuePerShare": 6.8434,
       "notes": "FY2022: record revenue RM2.51B, net profit RM601.7M. DPS RM1.40 (incl 30 sen special). Equity ~RM2.93B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 1447.4,
@@ -635,12 +1139,32 @@
       },
       "capexMM": 130,
       "daMM": 110,
-      "cfoMM": 770
+      "cfoMM": 770,
+      "totalEquityMM": 2840,
+      "propertyBookMM": 1120,
+      "ppeBookMM": 790,
+      "inventoryMM": 340,
+      "intangibleAssetsMM": 0,
+      "plantation": {
+        "ffbYieldTPerHa": 21.5,
+        "oerPct": 22.4,
+        "cpoAspPerMt": 4520,
+        "maturePlantedHa": 38900,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 3550,
+      "totalDebtMM": 25,
+      "cashMM": 1100,
+      "interestExpenseMM": 5.0
     },
     {
       "endDate": "2023-03-31",
       "periodType": "Q",
       "revenueMM": 460.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 299.0,
+        "Refinery & ancillary": 161.0
+      },
       "netIncomeMM": 112.1,
       "epsBasic": 0.2702,
       "totalAcresK": 125.6,
@@ -650,6 +1174,10 @@
       "endDate": "2023-06-30",
       "periodType": "Q",
       "revenueMM": 470.1,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 305.56,
+        "Refinery & ancillary": 164.54
+      },
       "netIncomeMM": 159.0,
       "epsBasic": 0.3834,
       "totalAcresK": 125.6,
@@ -659,6 +1187,10 @@
       "endDate": "2023-09-30",
       "periodType": "Q",
       "revenueMM": 540.2,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 351.13,
+        "Refinery & ancillary": 189.07
+      },
       "netIncomeMM": 235.7,
       "epsBasic": 0.5682,
       "totalAcresK": 125.6,
@@ -668,18 +1200,46 @@
       "endDate": "2023-12-31",
       "periodType": "Q",
       "revenueMM": 544.0,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 353.6,
+        "Refinery & ancillary": 190.4
+      },
       "netIncomeMM": 201.0,
       "epsBasic": 0.4845,
       "totalAcresK": 125.6,
-      "notes": "Q4 2023"
+      "notes": "Q4 2023",
+      "totalEquityMM": 2960,
+      "cfoMM": 530,
+      "capexMM": 145,
+      "daMM": 115,
+      "propertyBookMM": 1150,
+      "ppeBookMM": 820,
+      "inventoryMM": 295,
+      "intangibleAssetsMM": 0,
+      "plantation": {
+        "ffbYieldTPerHa": 22.1,
+        "oerPct": 22.5,
+        "cpoAspPerMt": 3820,
+        "maturePlantedHa": 39200,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 3700,
+      "totalDebtMM": 22,
+      "cashMM": 1200,
+      "interestExpenseMM": 5.0,
+      "dividendPerShare": 0.85
     },
     {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 2014.2,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 1309.23,
+        "Refinery & ancillary": 704.97
+      },
       "ebitdaMM": 940,
       "netIncomeMM": 707.8,
-      "epsBasic": 1.7063,
+      "epsBasic": 1.7055,
       "dividendPerShare": 1.45,
       "totalAcresK": 125.6,
       "ffbProductionTonnesK": 1020,
@@ -690,8 +1250,8 @@
       "pkExtractionRatePct": 5.55,
       "matureHectaresK": 39,
       "sharesOutMM": 415,
-      "bookValuePerShare": 8.05,
-      "notes": "FY2023: revenue RM2.01B, net profit RM707.8M (+18% — production-cost reduction). EPS RM1.71. Equity ~RM3.34B",
+      "bookValuePerShare": 7.1325,
+      "notes": "FY2023: revenue RM2.01B, net profit RM707.8M (+18% \u2014 production-cost reduction). EPS RM1.71. Equity ~RM3.34B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 945.3,
         "Distribution costs": 64.5,
@@ -699,12 +1259,32 @@
       },
       "capexMM": 145,
       "daMM": 115,
-      "cfoMM": 530
+      "cfoMM": 530,
+      "totalEquityMM": 2960,
+      "propertyBookMM": 1150,
+      "ppeBookMM": 820,
+      "inventoryMM": 295,
+      "intangibleAssetsMM": 0,
+      "plantation": {
+        "ffbYieldTPerHa": 22.1,
+        "oerPct": 22.5,
+        "cpoAspPerMt": 3820,
+        "maturePlantedHa": 39200,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 3700,
+      "totalDebtMM": 22,
+      "cashMM": 1200,
+      "interestExpenseMM": 5.0
     },
     {
       "endDate": "2024-03-31",
       "periodType": "Q",
       "revenueMM": 476.7,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 309.86,
+        "Refinery & ancillary": 166.84
+      },
       "netIncomeMM": 132.9,
       "epsBasic": 0.3203,
       "totalAcresK": 125.6,
@@ -714,6 +1294,10 @@
       "endDate": "2024-06-30",
       "periodType": "Q",
       "revenueMM": 546.1,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 354.97,
+        "Refinery & ancillary": 191.13
+      },
       "netIncomeMM": 185.9,
       "epsBasic": 0.4483,
       "totalAcresK": 125.6,
@@ -723,6 +1307,10 @@
       "endDate": "2024-09-30",
       "periodType": "Q",
       "revenueMM": 547.7,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 356.01,
+        "Refinery & ancillary": 191.69
+      },
       "netIncomeMM": 215.0,
       "epsBasic": 0.5184,
       "totalAcresK": 125.6,
@@ -732,19 +1320,46 @@
       "endDate": "2024-12-31",
       "periodType": "Q",
       "revenueMM": 627.3,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 407.75,
+        "Refinery & ancillary": 219.55
+      },
       "netIncomeMM": 181.2,
       "epsBasic": 0.433,
       "dividendPerShare": 0.705,
       "totalAcresK": 125.6,
-      "notes": "Q4 2024"
+      "notes": "Q4 2024",
+      "totalEquityMM": 3080,
+      "cfoMM": 540,
+      "capexMM": 150,
+      "daMM": 120,
+      "propertyBookMM": 1180,
+      "ppeBookMM": 850,
+      "inventoryMM": 320,
+      "intangibleAssetsMM": 0,
+      "plantation": {
+        "ffbYieldTPerHa": 22.8,
+        "oerPct": 22.6,
+        "cpoAspPerMt": 4180,
+        "maturePlantedHa": 39500,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 3850,
+      "totalDebtMM": 20,
+      "cashMM": 1280,
+      "interestExpenseMM": 5.0
     },
     {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 2197.8,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 1428.57,
+        "Refinery & ancillary": 769.23
+      },
       "ebitdaMM": 980,
       "netIncomeMM": 715.1,
-      "epsBasic": 1.72,
+      "epsBasic": 1.7231,
       "dividendPerShare": 0.705,
       "totalAcresK": 125.6,
       "ffbProductionTonnesK": 1040,
@@ -755,7 +1370,7 @@
       "pkExtractionRatePct": 5.55,
       "matureHectaresK": 39,
       "sharesOutMM": 415,
-      "bookValuePerShare": 13.25,
+      "bookValuePerShare": 7.4217,
       "notes": "FY2024: record revenue RM2.20B, net profit RM715M (record), EPS RM1.72. Higher CPO/PK ASP + cost discipline",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 1071.7,
@@ -764,21 +1379,45 @@
       },
       "capexMM": 150,
       "daMM": 120,
-      "cfoMM": 540
+      "cfoMM": 540,
+      "totalEquityMM": 3080,
+      "propertyBookMM": 1180,
+      "ppeBookMM": 850,
+      "inventoryMM": 320,
+      "intangibleAssetsMM": 0,
+      "plantation": {
+        "ffbYieldTPerHa": 22.8,
+        "oerPct": 22.6,
+        "cpoAspPerMt": 4180,
+        "maturePlantedHa": 39500,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 3850,
+      "totalDebtMM": 20,
+      "cashMM": 1280,
+      "interestExpenseMM": 5.0
     },
     {
       "endDate": "2025-03-31",
       "periodType": "Q",
       "revenueMM": 517.6,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 336.44,
+        "Refinery & ancillary": 181.16
+      },
       "netIncomeMM": 163.3,
       "epsBasic": 0.2624,
       "totalAcresK": 125.6,
-      "notes": "Q1 2025 — share count higher post bonus issue (~624M shares)"
+      "notes": "Q1 2025 \u2014 share count higher post bonus issue (~624M shares)"
     },
     {
       "endDate": "2025-06-30",
       "periodType": "Q",
       "revenueMM": 638.4,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 414.96,
+        "Refinery & ancillary": 223.44
+      },
       "netIncomeMM": 249.4,
       "epsBasic": 0.4008,
       "totalAcresK": 125.6,
@@ -788,6 +1427,10 @@
       "endDate": "2025-09-30",
       "periodType": "Q",
       "revenueMM": 677.1,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 440.12,
+        "Refinery & ancillary": 236.98
+      },
       "netIncomeMM": 203.3,
       "epsBasic": 0.3267,
       "totalAcresK": 125.6,
@@ -797,19 +1440,31 @@
       "endDate": "2025-12-31",
       "periodType": "Q",
       "revenueMM": 681.1,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 442.72,
+        "Refinery & ancillary": 238.38
+      },
       "netIncomeMM": 209.2,
       "epsBasic": 0.3401,
       "dividendPerShare": 1.18,
       "totalAcresK": 125.6,
-      "notes": "Q4 2025"
+      "notes": "Q4 2025",
+      "totalEquityMM": 4650,
+      "cfoMM": 560,
+      "capexMM": 155,
+      "daMM": 125
     },
     {
       "endDate": "2025-12-31",
       "periodType": "FY",
       "revenueMM": 2514.2,
+      "revenueBySegmentMM": {
+        "Plantation (upstream oil palm + coconut)": 1634.23,
+        "Refinery & ancillary": 879.97
+      },
       "ebitdaMM": 1100,
       "netIncomeMM": 825.2,
-      "epsBasic": 1.33,
+      "epsBasic": 1.3217,
       "dividendPerShare": 1.18,
       "totalDebtMM": 200,
       "cashMM": 1500,
@@ -823,7 +1478,7 @@
       "pkExtractionRatePct": 5.55,
       "matureHectaresK": 39,
       "sharesOutMM": 624.36,
-      "bookValuePerShare": 4.77,
+      "bookValuePerShare": 7.4476,
       "notes": "FY2025: revenue RM2.51B (+14%), net profit RM825M aggregated from quarters. NTA RM4.77/share post bonus issue (shares ~624M). DPS RM1.18 (final). Net cash position ~MYR1.3B",
       "expensesBySegmentMM": {
         "Cost of sales (estate + mill)": 1244.5,
@@ -832,7 +1487,16 @@
       },
       "capexMM": 155,
       "daMM": 125,
-      "cfoMM": 560
+      "cfoMM": 560,
+      "interestExpenseMM": 12.0,
+      "weightedAvgDebtRate": 5.5,
+      "debtMaturityProfileMM": {
+        "<1y": 40.0,
+        "1-3y": 50.0,
+        "3-5y": 40.0,
+        "5+y": 70.0
+      },
+      "totalEquityMM": 4650
     }
   ]
 }

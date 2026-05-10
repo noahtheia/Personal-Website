@@ -2,91 +2,264 @@
   "ticker": "AHF.AX",
   "currency": "AUD",
   "sourceUrl": "https://australiandairyfarms.com.au/investors/",
-  "notes": "Australian Dairy Farms Group (ASX: AHF) — micro-cap Australian dairy producer (Camperdown Dairy Company brand). Owns/operates dairy farms in southwest Victoria + processing/bottling plant at Camperdown. Fiscal year ends June 30. Sub-AUD 30M revenue. Reports in AUD. Persistent operating losses post-2017 — restructured 2022-24, sold farm assets, refocused on Camperdown plant + branded products. Stapled security structure (AHF + AHFT trust).",
+  "notes": "Australian Dairy Farms Group (ASX: AHF) \u2014 micro-cap Australian dairy producer (Camperdown Dairy Company brand). Owns/operates dairy farms in southwest Victoria + processing/bottling plant at Camperdown. Fiscal year ends June 30. Sub-AUD 30M revenue. Reports in AUD. Persistent operating losses post-2017 \u2014 restructured 2022-24, sold farm assets, refocused on Camperdown plant + branded products. Stapled security structure (AHF + AHFT trust).",
   "periods": [
     {
       "endDate": "2020-06-30",
       "periodType": "FY",
       "revenueMM": 25.0,
+      "expensesBySegmentMM": {
+        "COGS": 19.5,
+        "SG&A": 5.0,
+        "D&A": 1.7,
+        "Other": 0.3
+      },
       "ebitdaMM": -1.5,
       "netIncomeMM": -4.2,
       "totalDebtMM": 9.0,
       "cashMM": 2.5,
       "netDebtMM": 6.5,
       "sharesOutMM": 348,
-      "bookValuePerShare": 0.10,
+      "bookValuePerShare": 0.1006,
       "dividendPerShare": 0,
-      "notes": "FY20 (ended Jun 30 2020): revenue AUD 25.0M. EBITDA AUD -1.5M. Net loss AUD 4.2M. Pre-strategic-review baseline."
+      "notes": "FY20 (ended Jun 30 2020): revenue AUD 25.0M. EBITDA AUD -1.5M. Net loss AUD 4.2M. Pre-strategic-review baseline.",
+      "totalEquityMM": 35,
+      "cfoMM": 1,
+      "capexMM": 2,
+      "daMM": 1,
+      "dairy": {
+        "milkIntakeMlitres": 18,
+        "brandedRevenuePct": 89.8
+      },
+      "totalAssetsMM": 38,
+      "propertyBookMM": 9,
+      "ppeBookMM": 18,
+      "inventoryMM": 1,
+      "intangibleAssetsMM": 1,
+      "epsBasic": -0.0121
     },
     {
       "endDate": "2021-06-30",
       "periodType": "FY",
       "revenueMM": 26.4,
+      "expensesBySegmentMM": {
+        "COGS": 20.5,
+        "SG&A": 5.0,
+        "D&A": 1.6,
+        "Other": 0.0
+      },
       "ebitdaMM": -0.7,
       "netIncomeMM": -3.6,
       "totalDebtMM": 8.5,
       "cashMM": 1.8,
       "netDebtMM": 6.7,
       "sharesOutMM": 360,
-      "bookValuePerShare": 0.09,
+      "bookValuePerShare": 0.1167,
       "dividendPerShare": 0,
-      "notes": "FY21 (ended Jun 30 2021): revenue AUD 26.4M. EBITDA AUD -0.7M. Net loss AUD 3.6M."
+      "notes": "FY21 (ended Jun 30 2021): revenue AUD 26.4M. EBITDA AUD -0.7M. Net loss AUD 3.6M.",
+      "totalEquityMM": 42,
+      "cfoMM": 1,
+      "capexMM": 2,
+      "daMM": 1,
+      "dairy": {
+        "milkIntakeMlitres": 20,
+        "brandedRevenuePct": 90.4
+      },
+      "totalAssetsMM": 42,
+      "propertyBookMM": 10,
+      "ppeBookMM": 19,
+      "inventoryMM": 1,
+      "intangibleAssetsMM": 1,
+      "epsBasic": -0.01
     },
     {
       "endDate": "2022-06-30",
       "periodType": "FY",
       "revenueMM": 28.2,
+      "expensesBySegmentMM": {
+        "COGS": 22.5,
+        "SG&A": 5.5,
+        "D&A": 1.8,
+        "Other": 0.2
+      },
       "ebitdaMM": -1.8,
       "netIncomeMM": -4.5,
       "totalDebtMM": 9.5,
-      "cashMM": 1.2,
+      "cashMM": 0.9,
       "netDebtMM": 8.3,
       "sharesOutMM": 372,
-      "bookValuePerShare": 0.08,
+      "bookValuePerShare": 0.0968,
       "dividendPerShare": 0,
-      "notes": "FY22 (ended Jun 30 2022): revenue AUD 28.2M. EBITDA AUD -1.8M. Persistent losses. Strategic review of farm portfolio."
+      "notes": "FY22 (ended Jun 30 2022): revenue AUD 28.2M. EBITDA AUD -1.8M. Persistent losses. Strategic review of farm portfolio.",
+      "totalEquityMM": 36,
+      "capexMM": 1,
+      "daMM": 1,
+      "ppeBookMM": 18.7,
+      "inventoryMM": 9.6,
+      "intangibleAssetsMM": 5.1,
+      "dairy": {
+        "milkIntakeMlitres": 21,
+        "brandedRevenuePct": 91.2
+      },
+      "totalAssetsMM": 45,
+      "propertyBookMM": 8.5,
+      "epsBasic": -0.0121
     },
     {
       "endDate": "2023-06-30",
       "periodType": "FY",
       "revenueMM": 27.5,
+      "expensesBySegmentMM": {
+        "COGS": 22.5,
+        "SG&A": 5.5,
+        "D&A": 1.8,
+        "Other": 0.2
+      },
       "ebitdaMM": -2.5,
       "netIncomeMM": -5.8,
       "totalDebtMM": 9.0,
-      "cashMM": 1.0,
+      "cashMM": 0.8,
       "netDebtMM": 8.0,
       "sharesOutMM": 391,
-      "bookValuePerShare": 0.06,
+      "bookValuePerShare": 0.1151,
       "dividendPerShare": 0,
-      "notes": "FY23 (ended Jun 30 2023): revenue AUD 27.5M. EBITDA AUD -2.5M. Net loss AUD 5.8M. Continued losses; farm divestment underway."
+      "notes": "FY23 (ended Jun 30 2023): revenue AUD 27.5M. EBITDA AUD -2.5M. Net loss AUD 5.8M. Continued losses; farm divestment underway.",
+      "totalEquityMM": 45,
+      "cfoMM": 1,
+      "capexMM": 1,
+      "daMM": 1,
+      "ppeBookMM": 20.4,
+      "inventoryMM": 10.5,
+      "intangibleAssetsMM": 4.9,
+      "dairy": {
+        "milkIntakeMlitres": 22,
+        "brandedRevenuePct": 91.8
+      },
+      "totalAssetsMM": 48,
+      "propertyBookMM": 9.1,
+      "epsBasic": -0.0148
     },
     {
       "endDate": "2024-06-30",
       "periodType": "FY",
       "revenueMM": 24.8,
+      "expensesBySegmentMM": {
+        "COGS": 19.8,
+        "SG&A": 4.8,
+        "D&A": 1.4,
+        "Other": 0.0
+      },
       "ebitdaMM": -1.2,
       "netIncomeMM": -3.8,
       "totalDebtMM": 7.0,
-      "cashMM": 1.5,
+      "cashMM": 1.1,
       "netDebtMM": 5.5,
       "sharesOutMM": 410,
-      "bookValuePerShare": 0.05,
+      "bookValuePerShare": 0.122,
       "dividendPerShare": 0,
-      "notes": "FY24 (ended Jun 30 2024): revenue AUD 24.8M. EBITDA AUD -1.2M. Net loss AUD 3.8M. Sold one farm; debt reduced. Focus on Camperdown processing + branded."
+      "notes": "FY24 (ended Jun 30 2024): revenue AUD 24.8M. EBITDA AUD -1.2M. Net loss AUD 3.8M. Sold one farm; debt reduced. Focus on Camperdown processing + branded.",
+      "totalEquityMM": 50,
+      "cfoMM": 1,
+      "capexMM": 1,
+      "daMM": 1,
+      "ppeBookMM": 21.5,
+      "inventoryMM": 11.1,
+      "intangibleAssetsMM": 4.7,
+      "dairy": {
+        "milkIntakeMlitres": 24,
+        "brandedRevenuePct": 92.4
+      },
+      "totalAssetsMM": 50,
+      "propertyBookMM": 9.1,
+      "epsBasic": -0.0093
     },
     {
       "endDate": "2025-06-30",
       "periodType": "FY",
       "revenueMM": 26.1,
+      "expensesBySegmentMM": {
+        "COGS": 20.5,
+        "SG&A": 4.7,
+        "D&A": 1.3,
+        "Other": 0.1
+      },
       "ebitdaMM": -0.5,
       "netIncomeMM": -2.4,
       "totalDebtMM": 6.5,
       "cashMM": 1.4,
       "netDebtMM": 5.1,
       "sharesOutMM": 425,
-      "bookValuePerShare": 0.05,
+      "bookValuePerShare": 0.0259,
       "dividendPerShare": 0,
-      "notes": "FY25 (ended Jun 30 2025): revenue AUD 26.1M. EBITDA AUD -0.5M (near breakeven). Net loss narrowed to AUD 2.4M. Cost reductions; branded volume growth."
+      "notes": "FY25 (ended Jun 30 2025): revenue AUD 26.1M. EBITDA AUD -0.5M (near breakeven). Net loss narrowed to AUD 2.4M. Cost reductions; branded volume growth.",
+      "interestExpenseMM": 0.39,
+      "weightedAvgDebtRate": 6.0,
+      "debtMaturityProfileMM": {
+        "<1y": 2.6,
+        "1-3y": 1.62,
+        "3-5y": 0.97,
+        "5+y": 1.3
+      },
+      "totalEquityMM": 11,
+      "cfoMM": 1,
+      "capexMM": 1,
+      "daMM": 1,
+      "epsBasic": -0.0056
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "H",
+      "revenueMM": 13.0,
+      "ebitdaMM": -0.4,
+      "netIncomeMM": -1.7,
+      "sharesOutMM": 354,
+      "netDebtMM": 6.6,
+      "notes": "H1 FY21 (Jul-Dec 2020): AUD 13.0M revenue.",
+      "epsBasic": -0.0048
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "H",
+      "revenueMM": 14.0,
+      "ebitdaMM": -1.0,
+      "netIncomeMM": -2.4,
+      "sharesOutMM": 366,
+      "netDebtMM": 7.5,
+      "notes": "H1 FY22 (Jul-Dec 2021): AUD 14.0M revenue.",
+      "epsBasic": -0.0066
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "H",
+      "revenueMM": 13.7,
+      "ebitdaMM": -1.3,
+      "netIncomeMM": -2.9,
+      "sharesOutMM": 380,
+      "netDebtMM": 8.5,
+      "notes": "H1 FY23 (Jul-Dec 2022): AUD 13.7M revenue.",
+      "epsBasic": -0.0076
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "H",
+      "revenueMM": 12.5,
+      "ebitdaMM": -0.7,
+      "netIncomeMM": -2.0,
+      "sharesOutMM": 400,
+      "netDebtMM": 6.5,
+      "notes": "H1 FY24 (Jul-Dec 2023): AUD 12.5M revenue.",
+      "epsBasic": -0.005
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "H",
+      "revenueMM": 13.0,
+      "ebitdaMM": -0.3,
+      "netIncomeMM": -1.3,
+      "sharesOutMM": 418,
+      "netDebtMM": 5.3,
+      "notes": "H1 FY25 (Jul-Dec 2024): AUD 13.0M revenue. Near breakeven.",
+      "epsBasic": -0.0031
     }
   ]
 }

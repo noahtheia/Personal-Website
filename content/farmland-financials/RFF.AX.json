@@ -2,7 +2,7 @@
   "ticker": "RFF.AX",
   "currency": "AUD",
   "sourceUrl": "https://www.ruralfunds.com.au/investments/rural-funds-group/publications",
-  "notes": "Rural Funds Group (RFF) — diversified Australian agricultural REIT (ASX:RFF). Fiscal year ends 30 June; H1 ends 31 December. IFRS investment-property fair-value accounting (book = FMV; directors' annual valuations cycle plus rotating independent appraisals). Portfolio spans almonds, macadamias, cattle stations, vineyards, cropping, sugarcane and poultry — all leased to operators on long-tenor CPI-linked agreements. Reports adjusted property assets and adjusted NAV/unit (excludes debt mark-to-market). Distributions paid quarterly; FY guidance ~11.73 cps FY25. Source: published Annual Reports + Half-Year results announcements on RFF investor page. RFF listed on ASX 14 Feb 2014 via re-stapling of the Rural Funds Group (RFM-managed); FY14 covers part-year as listed entity.",
+  "notes": "Rural Funds Group (RFF) \u2014 diversified Australian agricultural REIT (ASX:RFF). Fiscal year ends 30 June; H1 ends 31 December. IFRS investment-property fair-value accounting (book = FMV; directors' annual valuations cycle plus rotating independent appraisals). Portfolio spans almonds, macadamias, cattle stations, vineyards, cropping, sugarcane and poultry \u2014 all leased to operators on long-tenor CPI-linked agreements. Reports adjusted property assets and adjusted NAV/unit (excludes debt mark-to-market). Distributions paid quarterly; FY guidance ~11.73 cps FY25. Source: published Annual Reports + Half-Year results announcements on RFF investor page. RFF listed on ASX 14 Feb 2014 via re-stapling of the Rural Funds Group (RFM-managed); FY14 covers part-year as listed entity.",
   "periods": [
     {
       "endDate": "2014-06-30",
@@ -30,7 +30,8 @@
       "totalAcresK": 200,
       "dividendPerShare": 0.0846,
       "notes": "FY14 Annual Report: first reporting period as ASX-listed RFF (listed Feb 2014). Portfolio almonds + poultry. Distribution 8.46 cps.",
-      "bookValuePerShare": 0.99
+      "bookValuePerShare": 0.9859,
+      "epsBasic": 0.088
     },
     {
       "endDate": "2014-12-31",
@@ -75,7 +76,8 @@
       "totalAcresK": 250,
       "dividendPerShare": 0.0903,
       "notes": "FY15: portfolio expansion into cropping. Distribution 9.03 cps.",
-      "bookValuePerShare": 0.94
+      "bookValuePerShare": 0.9429,
+      "epsBasic": 0.0914
     },
     {
       "endDate": "2015-12-31",
@@ -104,7 +106,7 @@
         "Administrative expenses": 0.9,
         "Finance costs (separate)": 1.9
       },
-      "ebitdaMM": 21,
+      "ebitdaMM": 40.5,
       "noiMM": 21,
       "netIncomeMM": 30,
       "totalAssetsMM": 380,
@@ -120,7 +122,8 @@
       "totalAcresK": 300,
       "dividendPerShare": 0.0926,
       "notes": "FY16: cattle station acquisitions (Stone Axe, JBS portfolio entry). Distribution 9.26 cps.",
-      "bookValuePerShare": 1.23
+      "bookValuePerShare": 1.225,
+      "epsBasic": 0.15
     },
     {
       "endDate": "2016-12-31",
@@ -156,7 +159,7 @@
         "Administrative expenses": 1.2,
         "Finance costs (separate)": 3
       },
-      "ebitdaMM": 28,
+      "ebitdaMM": 60.8,
       "noiMM": 28,
       "netIncomeMM": 45,
       "totalAssetsMM": 580,
@@ -172,7 +175,8 @@
       "totalAcresK": 1500,
       "dividendPerShare": 0.0976,
       "notes": "FY17: large cattle station acquisitions (Natal Downs, JBS Five Rivers feedlots). Property assets $545M. Distribution 9.76 cps.",
-      "bookValuePerShare": 1.65
+      "bookValuePerShare": 1.6458,
+      "epsBasic": 0.1875
     },
     {
       "endDate": "2017-12-31",
@@ -201,7 +205,7 @@
         "Administrative expenses": 1.7,
         "Finance costs (separate)": 5
       },
-      "ebitdaMM": 38.5,
+      "ebitdaMM": 99.2,
       "noiMM": 38.5,
       "netIncomeMM": 73.5,
       "totalAssetsMM": 870,
@@ -217,7 +221,8 @@
       "totalAcresK": 1650,
       "dividendPerShare": 0.1043,
       "notes": "FY18 Annual Report. Adjusted property assets $803M, NAV/unit $1.94, distribution 10.43 cps.",
-      "bookValuePerShare": 1.94
+      "bookValuePerShare": 1.9408,
+      "epsBasic": 0.2418
     },
     {
       "endDate": "2018-12-31",
@@ -246,7 +251,7 @@
         "Administrative expenses": 2.2,
         "Finance costs (separate)": 6
       },
-      "ebitdaMM": 52,
+      "ebitdaMM": 76.3,
       "noiMM": 52,
       "netIncomeMM": 56.5,
       "totalAssetsMM": 1020,
@@ -262,7 +267,8 @@
       "totalAcresK": 1700,
       "dividendPerShare": 0.1043,
       "notes": "FY19 Annual Report. Adjusted property assets $928M, NAV/unit $1.93, distribution 10.43 cps.",
-      "bookValuePerShare": 2.26
+      "bookValuePerShare": 2.259,
+      "epsBasic": 0.1702
     },
     {
       "endDate": "2019-12-31",
@@ -320,7 +326,15 @@
       "daMM": 0.4,
       "cfoMM": 31.5,
       "notes": "FY20 Annual Report. Adjusted property assets $957.7M, adjusted NAV/unit $2.04, FY distribution 10.85 cps.",
-      "bookValuePerShare": 2.44
+      "bookValuePerShare": 2.4444,
+      "reit": {
+        "walt": 11.5,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.102,
+        "affoPerShare": 0.102
+      },
+      "epsBasic": 0.142,
+      "interestExpenseMM": 20.0
     },
     {
       "endDate": "2020-12-31",
@@ -357,7 +371,7 @@
         "Administrative expenses": 2.5,
         "Finance costs (separate)": 3.5
       },
-      "ebitdaMM": 60,
+      "ebitdaMM": 96.8,
       "noiMM": 60,
       "netIncomeMM": 71.7,
       "totalAssetsMM": 1300,
@@ -376,7 +390,15 @@
       "daMM": 0.5,
       "cfoMM": 35.7,
       "notes": "FY21: adjusted property assets $1,170.7M (incl. $108M property revaluation gains), NAV/unit $2.34, distribution 11.28 cps.",
-      "bookValuePerShare": 2.51
+      "bookValuePerShare": 2.5107,
+      "reit": {
+        "walt": 11.9,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.108,
+        "affoPerShare": 0.108
+      },
+      "epsBasic": 0.1925,
+      "interestExpenseMM": 22.0
     },
     {
       "endDate": "2021-12-31",
@@ -413,7 +435,7 @@
         "Administrative expenses": 2.8,
         "Finance costs (separate)": 4
       },
-      "ebitdaMM": 67,
+      "ebitdaMM": 158.9,
       "noiMM": 67,
       "netIncomeMM": 117.7,
       "totalAssetsMM": 1670,
@@ -432,7 +454,16 @@
       "daMM": 0.5,
       "cfoMM": 47.6,
       "notes": "FY22: adjusted property assets $1,535M (large macadamia + cattle uplift), NAV/unit $2.88, distribution 11.73 cps.",
-      "bookValuePerShare": 2.88
+      "bookValuePerShare": 2.8826,
+      "ppeBookMM": 5.4,
+      "reit": {
+        "walt": 12.8,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.118,
+        "affoPerShare": 0.118
+      },
+      "epsBasic": 0.3127,
+      "interestExpenseMM": 25.0
     },
     {
       "endDate": "2022-12-31",
@@ -488,7 +519,16 @@
       "daMM": 0.7,
       "cfoMM": 56.4,
       "notes": "FY23: adjusted property assets $1,893.5M, NAV/unit $3.11, distribution 11.73 cps.",
-      "bookValuePerShare": 3.25
+      "bookValuePerShare": 3.2457,
+      "ppeBookMM": 5.1,
+      "reit": {
+        "walt": 14.1,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.123,
+        "affoPerShare": 0.123
+      },
+      "epsBasic": 0.1314,
+      "interestExpenseMM": 35.0
     },
     {
       "endDate": "2023-12-31",
@@ -544,7 +584,16 @@
       "daMM": 0.7,
       "cfoMM": 51.2,
       "notes": "FY24 Annual Report. Adjusted property assets $1,951.7M, adjusted NAV/unit $3.14.",
-      "bookValuePerShare": 3.14
+      "bookValuePerShare": 3.1401,
+      "ppeBookMM": 4.8,
+      "reit": {
+        "walt": 13.5,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.116,
+        "affoPerShare": 0.116
+      },
+      "epsBasic": 0.0319,
+      "interestExpenseMM": 50.0
     },
     {
       "endDate": "2024-12-31",
@@ -600,7 +649,16 @@
       "daMM": 0.6,
       "cfoMM": 56.6,
       "notes": "FY25 Annual Report. Net property income +9.2% YoY to $95.1M; adjusted NAV/unit $3.08; distribution 11.73 cps.",
-      "bookValuePerShare": 3.08
+      "bookValuePerShare": 3.0797,
+      "interestExpenseMM": 44.6,
+      "weightedAvgDebtRate": 5.5,
+      "debtMaturityProfileMM": {
+        "<1y": 162.2,
+        "1-3y": 202.75,
+        "3-5y": 162.2,
+        "5+y": 283.85
+      },
+      "epsBasic": 0.0244
     }
   ]
 }

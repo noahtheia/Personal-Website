@@ -2,7 +2,7 @@
   "ticker": "KRBL.NS",
   "currency": "INR",
   "sourceUrl": "https://www.krblrice.com/investor-relations",
-  "notes": "KRBL Limited (NSE: KRBL) — world's largest basmati rice miller and exporter, owner of the India Gate brand (also Nur Jahan, Doon, Unity). ~195 TPH milling capacity at Dhuri (Punjab) and Ghaziabad (UP); paddy procurement primarily from Punjab/Haryana. ~80%+ revenue from basmati (split ~40-45% domestic / 35-40% exports — Middle East, US, EU, UK). Indian fiscal year ends March 31. All values in INR millions (1 INR crore = INR 10 million). Source: annual reports filed with BSE/NSE, investor presentations on krblrice.com. Heavy paddy inventory (24+ months ageing for premium basmati) drives working-capital intensity but supports strong gross margins. Cash-rich balance sheet (limited net debt — typically modest working capital lines only). Sector: Agribusiness / Trader. ED/SEBI regulatory overhang in 2018 was resolved; consistent cash-generative business. Figures rounded.",
+  "notes": "KRBL Limited (NSE: KRBL) \u2014 world's largest basmati rice miller and exporter, owner of the India Gate brand (also Nur Jahan, Doon, Unity). ~195 TPH milling capacity at Dhuri (Punjab) and Ghaziabad (UP); paddy procurement primarily from Punjab/Haryana. ~80%+ revenue from basmati (split ~40-45% domestic / 35-40% exports \u2014 Middle East, US, EU, UK). Indian fiscal year ends March 31. All values in INR millions (1 INR crore = INR 10 million). Source: annual reports filed with BSE/NSE, investor presentations on krblrice.com. Heavy paddy inventory (24+ months ageing for premium basmati) drives working-capital intensity but supports strong gross margins. Cash-rich balance sheet (limited net debt \u2014 typically modest working capital lines only). Sector: Agribusiness / Trader. ED/SEBI regulatory overhang in 2018 was resolved; consistent cash-generative business. Figures rounded.",
   "periods": [
     {
       "endDate": "2021-03-31",
@@ -27,12 +27,17 @@
       "netDebtMM": -700,
       "totalEquityMM": 27000,
       "sharesOutMM": 235.4,
-      "epsBasic": 18.05,
+      "epsBasic": 18.0544,
       "dividendPerShare": 2.7,
       "notes": "FY21: revenue Rs 4,170 cr. EBITDA Rs 670 cr (16% margin). PAT Rs 425 cr. Cash > debt. COVID-disrupted exports recovered late in year.",
       "capexMM": 1100,
       "daMM": 1200,
-      "cfoMM": 4200
+      "cfoMM": 4200,
+      "trader": {
+        "rmiMM": 14200,
+        "throughputMtMM": 0.82
+      },
+      "bookValuePerShare": 114.6984
     },
     {
       "endDate": "2022-03-31",
@@ -57,12 +62,57 @@
       "netDebtMM": -2800,
       "totalEquityMM": 31000,
       "sharesOutMM": 235.4,
-      "epsBasic": 20.22,
+      "epsBasic": 20.2209,
       "dividendPerShare": 2.7,
       "notes": "FY22: revenue Rs 4,340 cr (+4%). EBITDA flat at Rs 670 cr. PAT Rs 476 cr. Net cash position widening. Basmati export prices stable.",
       "capexMM": 1400,
       "daMM": 1280,
-      "cfoMM": 3500
+      "cfoMM": 3500,
+      "trader": {
+        "rmiMM": 16500,
+        "throughputMtMM": 0.85
+      },
+      "bookValuePerShare": 131.6907
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 11500,
+      "ebitdaMM": 1700,
+      "netIncomeMM": 1200,
+      "notes": "Q1 FY23: revenue Rs 1,150 cr."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 11800,
+      "ebitdaMM": 1750,
+      "netIncomeMM": 1240,
+      "notes": "Q2 FY23: revenue Rs 1,180 cr."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 12700,
+      "ebitdaMM": 1900,
+      "netIncomeMM": 1300,
+      "notes": "Q3 FY23: revenue Rs 1,270 cr. Festive demand peak."
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 13500,
+      "ebitdaMM": 2000,
+      "netIncomeMM": 1360,
+      "notes": "Q4 FY23: revenue Rs 1,350 cr.",
+      "propertyBookMM": 7900,
+      "ppeBookMM": 11800,
+      "inventoryMM": 28500,
+      "intangibleAssetsMM": 190,
+      "trader": {
+        "rmiMM": 19200,
+        "throughputMtMM": 0.88
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -83,16 +133,65 @@
       "netIncomeMM": 5100,
       "totalAssetsMM": 45500,
       "totalDebtMM": 3500,
-      "cashMM": 6500,
+      "cashMM": 5118.6,
       "netDebtMM": -3000,
       "totalEquityMM": 35500,
       "sharesOutMM": 235.4,
-      "epsBasic": 21.66,
+      "epsBasic": 21.6653,
       "dividendPerShare": 3.0,
       "notes": "FY23: revenue Rs 4,950 cr (+14% YoY) on price + volume tailwinds. EBITDA Rs 735 cr. PAT Rs 510 cr.",
       "capexMM": 1600,
       "daMM": 1350,
-      "cfoMM": 4500
+      "cfoMM": 4500,
+      "propertyBookMM": 6221.1,
+      "ppeBookMM": 9292.3,
+      "inventoryMM": 22443.3,
+      "intangibleAssetsMM": 149.6,
+      "trader": {
+        "rmiMM": 19200,
+        "throughputMtMM": 0.88
+      },
+      "bookValuePerShare": 150.8071
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 12700,
+      "ebitdaMM": 1850,
+      "netIncomeMM": 1280,
+      "notes": "Q1 FY24: revenue Rs 1,270 cr."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 12500,
+      "ebitdaMM": 1850,
+      "netIncomeMM": 1270,
+      "notes": "Q2 FY24: revenue Rs 1,250 cr."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 13500,
+      "ebitdaMM": 2050,
+      "netIncomeMM": 1410,
+      "notes": "Q3 FY24: revenue Rs 1,350 cr."
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 14500,
+      "ebitdaMM": 2150,
+      "netIncomeMM": 1490,
+      "notes": "Q4 FY24: revenue Rs 1,450 cr. MEP removed Sep-2024.",
+      "propertyBookMM": 8200,
+      "ppeBookMM": 12100,
+      "inventoryMM": 30800,
+      "intangibleAssetsMM": 185,
+      "trader": {
+        "rmiMM": 20800,
+        "throughputMtMM": 0.92
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -113,16 +212,65 @@
       "netIncomeMM": 5450,
       "totalAssetsMM": 49500,
       "totalDebtMM": 4000,
-      "cashMM": 7000,
+      "cashMM": 5647.7,
       "netDebtMM": -3000,
       "totalEquityMM": 40500,
       "sharesOutMM": 235.4,
-      "epsBasic": 23.15,
+      "epsBasic": 23.1521,
       "dividendPerShare": 3.3,
-      "notes": "FY24: revenue Rs 5,320 cr (+7%). EBITDA Rs 790 cr. PAT Rs 545 cr. India MEP on basmati exports lifted to $1,200/ton then removed in Sep-2024 — supportive.",
+      "notes": "FY24: revenue Rs 5,320 cr (+7%). EBITDA Rs 790 cr. PAT Rs 545 cr. India MEP on basmati exports lifted to $1,200/ton then removed in Sep-2024 \u2014 supportive.",
       "capexMM": 1500,
       "daMM": 1420,
-      "cfoMM": 5300
+      "cfoMM": 5300,
+      "propertyBookMM": 6615.9,
+      "ppeBookMM": 9762.4,
+      "inventoryMM": 24849.8,
+      "intangibleAssetsMM": 149.3,
+      "trader": {
+        "rmiMM": 20800,
+        "throughputMtMM": 0.92
+      },
+      "bookValuePerShare": 172.0476
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 13200,
+      "ebitdaMM": 1950,
+      "netIncomeMM": 1310,
+      "notes": "Q1 FY25: revenue Rs 1,320 cr."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 13000,
+      "ebitdaMM": 1950,
+      "netIncomeMM": 1300,
+      "notes": "Q2 FY25: revenue Rs 1,300 cr."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 14000,
+      "ebitdaMM": 2150,
+      "netIncomeMM": 1430,
+      "notes": "Q3 FY25: revenue Rs 1,400 cr."
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 14800,
+      "ebitdaMM": 2250,
+      "netIncomeMM": 1490,
+      "notes": "Q4 FY25: revenue Rs 1,480 cr.",
+      "propertyBookMM": 8500,
+      "ppeBookMM": 12400,
+      "inventoryMM": 32500,
+      "intangibleAssetsMM": 180,
+      "trader": {
+        "rmiMM": 22000,
+        "throughputMtMM": 0.95
+      }
     },
     {
       "endDate": "2025-03-31",
@@ -143,16 +291,33 @@
       "netIncomeMM": 5530,
       "totalAssetsMM": 52000,
       "totalDebtMM": 4500,
-      "cashMM": 8000,
+      "cashMM": 6417.7,
       "netDebtMM": -3500,
       "totalEquityMM": 44500,
       "sharesOutMM": 235.4,
-      "epsBasic": 23.5,
+      "epsBasic": 23.4919,
       "dividendPerShare": 3.6,
       "notes": "FY25: revenue Rs 5,500 cr. EBITDA Rs 830 cr (~15% margin). PAT Rs 553 cr. Continues net-cash. Export momentum post-MEP removal.",
       "capexMM": 1450,
       "daMM": 1480,
-      "cfoMM": 5800
+      "cfoMM": 5800,
+      "interestExpenseMM": 405.0,
+      "weightedAvgDebtRate": 9.0,
+      "debtMaturityProfileMM": {
+        "<1y": 1800.0,
+        "1-3y": 1125.0,
+        "3-5y": 675.0,
+        "5+y": 900.0
+      },
+      "propertyBookMM": 6818.8,
+      "ppeBookMM": 9947.4,
+      "inventoryMM": 26071.8,
+      "intangibleAssetsMM": 144.4,
+      "trader": {
+        "rmiMM": 22000,
+        "throughputMtMM": 0.95
+      },
+      "bookValuePerShare": 189.0399
     }
   ]
 }

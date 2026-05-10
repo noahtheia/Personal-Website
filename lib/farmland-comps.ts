@@ -5,6 +5,7 @@ import {
   getPropertyDetail,
   totalFmvMM,
 } from "./farmland-properties";
+import { getFinancials } from "./farmland-financials";
 
 const CurrencySchema = z.enum([
   "USD",
@@ -33,6 +34,9 @@ const CurrencySchema = z.enum([
   "EGP",
   "CHF",
   "NGN",
+  "JPY",
+  "KRW",
+  "CAD",
 ]);
 type Currency = z.infer<typeof CurrencySchema>;
 
@@ -73,8 +77,11 @@ const GeographySchema = z.enum([
   "Philippines",
   "China",
   "Hong Kong",
+  "Japan",
+  "South Korea",
   "India",
   "Saudi Arabia",
+  "Israel",
   "Egypt",
   "Kenya",
   "South Africa",
@@ -133,6 +140,322 @@ const FilingSchema = z.object({
   // significant land on the balance sheet (processors, traders).
   bookLandMM: z.number().nonnegative().optional(),
   marketLandMM: z.number().positive().optional(),
+
+  // Provenance for the sector-block + extension fields. Distinguishes
+  // filing-traced values from sector-audit-cited estimates from agent
+  // recall, so the UI can flag confidence to the reader. Defaults to
+  // "estimate" when absent. The cross-universe filing core (sharesOut,
+  // debt, revenue, etc.) is assumed filing-grade regardless.
+  sectorBlockConfidence: z
+    .enum(["filing", "audit", "estimate"])
+    .optional(),
+
+  // Cross-universe extensions surfaced by the multi-sector gap audit.
+  // All optional. `debtMM` should hold financial debt only; preferred
+  // equity is broken out so EV math can add it cleanly.
+  preferredMM: z.number().nonnegative().optional(),
+  // Equity-method investments (e.g. ADM's stake in Wilmar; plantation
+  // associates). Held outside the consolidated balance sheet — affects
+  // EV / asset-base interpretation but not net-debt.
+  equityMethodInvestmentsMM: z.number().nonnegative().optional(),
+  // Material litigation / contingency accrual (e.g. TSN antitrust
+  // accruals; ADM SEC settlement). For analyst transparency.
+  litigationAccrualMM: z.number().nonnegative().optional(),
+  // Buyback authorization remaining (filing-currency MM equivalent).
+  // Distinct from buybackYield, which is realized last-12-months.
+  repurchaseAuthRemainingMM: z.number().nonnegative().optional(),
+  // Forward-year capex guidance range from MD&A liquidity section.
+  capexGuidanceLowMM: z.number().nonnegative().optional(),
+  capexGuidanceHighMM: z.number().nonnegative().optional(),
+  // Debt by reporting currency (filing-currency-equivalent MM). Used
+  // for FX-translated leverage analysis on multi-currency operators.
+  debtByCurrencyMM: z.record(z.string(), z.number().nonnegative()).optional(),
+
+  // Recurring cross-universe fields surfaced by 4+ sector audits. All
+  // optional; filing-currency-denominated unless noted.
+  // IFRS / IAS 41 fair-value of biological assets (livestock, standing
+  // crops, growing cane, biological forests).
+  biologicalAssetsFairValueMM: z.number().optional(),
+  // Non-ag share of consolidated revenue (Primark for ABF; Rumo+Moove
+  // for CSAN; chloro-vinyls for DCM; Vector for RCL).
+  nonAgricultureRevenuePct: z.number().min(0).max(100).optional(),
+  // Net income / equity attributable to minority interest. Material
+  // for INDF→ICBP, CRESY→IRSA, CSAN→Raizen-Rumo, 2050→Almarai.
+  minorityInterestMM: z.number().optional(),
+  // "Mark-to-market timing" — commodity-derivative MTM swing the
+  // issuer flags as a non-recurring adjustment in Adjusted EBITDA.
+  mtmTimingMM: z.number().optional(),
+  // Per-MD&A FX translation impact on YoY revenue growth.
+  fxTranslationImpactPct: z.number().optional(),
+  // Subsidy / mandate revenue (RenovaBio, ethanol blending mandates,
+  // EU CAP, Indian FRP, Chinese state grain procurement).
+  regulatedRevenueMM: z.number().nonnegative().optional(),
+  // Weather-driven impairment (frost, drought, hurricane, bushfire).
+  weatherImpairmentMM: z.number().nonnegative().optional(),
+  // Asset retirement obligation (phosphogypsum stacks, mine tailings,
+  // plantation reclamation).
+  aroMM: z.number().nonnegative().optional(),
+  // Disease-related write-downs (HPAI/ASF/ISA depopulation losses).
+  diseaseLossProvisionMM: z.number().nonnegative().optional(),
+  // Notional value of commodity hedges outstanding (CME corn/soy,
+  // ICE sugar, NASDAQ Salmon Index, etc.).
+  commodityHedgeNotionalMM: z.number().nonnegative().optional(),
+  // % of next-12-month volume sold on fixed-price forward contracts.
+  forwardSalesCoveragePct: z.number().min(0).max(100).optional(),
+  // Segment EBITDA disclosure — array of (segment, revenue, EBITDA)
+  // tuples for SOTP / segment-EBIT-to-capital analysis.
+  segmentEbitdaMM: z
+    .array(
+      z.object({
+        segment: z.string(),
+        revenueMM: z.number().optional(),
+        ebitdaMM: z.number().optional(),
+      }),
+    )
+    .optional(),
+
+  // Sector-template KPI blocks. Each is optional and only populated for
+  // issuers in the matching sector (or a closely-related one). Exposed
+  // on the detail page as a sector-specific KPI card.
+  reit: z
+    .object({
+      walt: z.number().nonnegative().optional(),
+      occupancyPct: z.number().min(0).max(100).optional(),
+      top10TenantPctOfRent: z.number().min(0).max(100).optional(),
+      ffoPerShare: z.number().optional(),
+      affoPerShare: z.number().optional(),
+      preferredCoverage: z.number().optional(),
+      // Indexation type for rent escalators — fixed, CPI, commodity-
+      // linked (LAND3 soybean), participation, or a mix.
+      rentIndexationType: z
+        .enum(["fixed", "cpi", "commodity", "participation", "mixed"])
+        .optional(),
+      // Water rights carried separately from land at fair value
+      // (RFF, MLP, LAND-water districts).
+      waterRightsValueMM: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  plantation: z
+    .object({
+      ffbYieldTPerHa: z.number().nonnegative().optional(),
+      oerPct: z.number().min(0).max(100).optional(),
+      kerPct: z.number().min(0).max(100).optional(),
+      cpoAspPerMt: z.number().nonnegative().optional(),
+      cpoCostPerMt: z.number().nonnegative().optional(),
+      maturePlantedHa: z.number().nonnegative().optional(),
+      immaturePlantedHa: z.number().nonnegative().optional(),
+      rspoPct: z.number().min(0).max(100).optional(),
+      methaneCapturePctMills: z.number().min(0).max(100).optional(),
+      replantingHaLtm: z.number().nonnegative().optional(),
+      // Rubber sub-fields (KLK, IOI, SD Guthrie, United Plantations,
+      // Okomu palm+rubber).
+      rubberRevenueSharePct: z.number().min(0).max(100).optional(),
+      rubberMaturedHa: z.number().nonnegative().optional(),
+      rubberAspPerKg: z.number().nonnegative().optional(),
+      // Sugar sub-fields (TBLA palm+sugar).
+      sugarRevenueSharePct: z.number().min(0).max(100).optional(),
+      sugarProducedMt: z.number().nonnegative().optional(),
+      sugarAspPerMt: z.number().nonnegative().optional(),
+      // Indonesian plasma / smallholder scheme exposure (regulated 20%).
+      nucleusVsPlasmaPct: z.number().min(0).max(100).optional(),
+      plasmaObligationMM: z.number().nonnegative().optional(),
+      // No Deforestation, No Peat, No Exploitation compliance share —
+      // increasingly priced by EU buyers post-EUDR.
+      ndpeCompliancePct: z.number().min(0).max(100).optional(),
+    })
+    .optional(),
+  // Tea operators (Williamson Tea, Sasini, Kakuzi, Limuru). Disclosure
+  // conventions don't share fields with palm — kept as a separate block.
+  tea: z
+    .object({
+      madeTeaProducedKgMM: z.number().nonnegative().optional(),
+      greenLeafYieldKgPerHa: z.number().nonnegative().optional(),
+      madeTeaAspPerKg: z.number().nonnegative().optional(),
+      auctionVsDirectPct: z.number().min(0).max(100).optional(),
+      boughtLeafSharePct: z.number().min(0).max(100).optional(),
+      teaPlantedHa: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  // Integrated farm operators (SLC, BrasilAgro, Alico, Limoneira,
+  // Duxton, AgroGeneration, Select Harvests, São Martinho, Dole, FDP,
+  // Mission Produce, Lamb Weston, Balrampur, Calavo, Beidahuang,
+  // Australian Agricultural). Heterogeneous cohort — core fields cover
+  // crop+livestock+orchard, sub-blocks specialize.
+  integratedFarm: z
+    .object({
+      plantedAreaHa: z.number().nonnegative().optional(),
+      ownedAreaHa: z.number().nonnegative().optional(),
+      leasedAreaHa: z.number().nonnegative().optional(),
+      productionVolume: z.number().nonnegative().optional(),
+      // Unit string for productionVolume — values aren't always in MT
+      // (DOLE/FDP report in boxes, AAC in kg liveweight, AAC produces
+      // beef in head). Field name is unit-agnostic; this string carries
+      // the true unit.
+      productionUnit: z.string().optional(),
+      yieldPerHa: z.number().nonnegative().optional(),
+      realizedPricePerUnit: z.number().nonnegative().optional(),
+      waterRightsVolumeML: z.number().nonnegative().optional(),
+      biologicalAssetsMM: z.number().nonnegative().optional(),
+      // Sugar / ethanol sub-block (São Martinho, Balrampur, AGRO,
+      // Astarta, AGRANA, Cosan-Raizen, DCM Shriram).
+      sugarEthanol: z
+        .object({
+          crushedCaneMT: z.number().nonnegative().optional(),
+          atrKgPerMT: z.number().nonnegative().optional(),
+          sugarMixPct: z.number().min(0).max(100).optional(),
+          ethanolMixPct: z.number().min(0).max(100).optional(),
+          ethanolVolumeM3: z.number().nonnegative().optional(),
+          cogenerationMWh: z.number().nonnegative().optional(),
+        })
+        .optional(),
+      // Cattle sub-block (AAC, partial for SLC).
+      cattle: z
+        .object({
+          headcountClosing: z.number().nonnegative().optional(),
+          avgDailyGainKg: z.number().nonnegative().optional(),
+          weaningRate: z.number().min(0).max(100).optional(),
+          feedlotCapacity: z.number().nonnegative().optional(),
+        })
+        .optional(),
+      // Tree-crop sub-block (Limoneira, Alico, Select Harvests,
+      // Mission Produce, Calavo).
+      treeCrop: z
+        .object({
+          bearingHa: z.number().nonnegative().optional(),
+          nonBearingHa: z.number().nonnegative().optional(),
+          avgTreeAgeYears: z.number().nonnegative().optional(),
+          replantingHaYTD: z.number().nonnegative().optional(),
+        })
+        .optional(),
+    })
+    .optional(),
+  protein: z
+    .object({
+      plants: z.number().nonnegative().optional(),
+      weeklyHeadCapacity: z.number().nonnegative().optional(),
+      weeklyLbsCapacityMM: z.number().nonnegative().optional(),
+      capacityUtilizationPct: z.number().min(0).max(100).optional(),
+      plantClosuresLtm: z.number().nonnegative().optional(),
+      // Branded / CPG sub-block (Hormel, Post, Freshpet, Hilton).
+      brandedCpg: z
+        .object({
+          brandedRevenuePct: z.number().min(0).max(100).optional(),
+          acvDistributionPct: z.number().min(0).max(100).optional(),
+          foodserviceMixPct: z.number().min(0).max(100).optional(),
+        })
+        .optional(),
+      // Pig-only sub-block (Muyuan, Shuanghui, New Hope, Cranswick).
+      pig: z
+        .object({
+          breedingSows: z.number().nonnegative().optional(),
+          pigletsPerSowPerYear: z.number().nonnegative().optional(),
+          feedConversionRatio: z.number().nonnegative().optional(),
+          slaughterWeightKg: z.number().nonnegative().optional(),
+          costPerKgLive: z.number().nonnegative().optional(),
+        })
+        .optional(),
+    })
+    .optional(),
+  trader: z
+    .object({
+      // "Readily marketable inventories" — quasi-cash hedged inventory
+      // (ADM/Bunge/COFCO convention). Subtracted from net debt for
+      // adjusted leverage.
+      rmiMM: z.number().nonnegative().optional(),
+      throughputMtMM: z.number().nonnegative().optional(),
+      ethanolGalsMM: z.number().nonnegative().optional(),
+      boardCrushCapturePct: z.number().min(0).max(200).optional(),
+      // Ingredient producers (Tate, Ingredion, Südzucker, Yihai Kerry,
+      // Ebro, KRBL) — specialty mix and R&D intensity separate them
+      // from pure commodity traders.
+      ingredients: z
+        .object({
+          specialtyRevenuePct: z.number().min(0).max(100).optional(),
+          rdIntensityPct: z.number().min(0).max(50).optional(),
+        })
+        .optional(),
+      // Ethanol producers (Green Plains, Alto, Andersons Renewables).
+      ethanol: z
+        .object({
+          ebitdaPerGal: z.number().optional(),
+          cornCrushSpreadUSDPerBu: z.number().optional(),
+          d6RinValueAvg: z.number().optional(),
+        })
+        .optional(),
+      // Inputs / retail distribution (AgroGalaxy, Andersons Plant
+      // Nutrient). Brazilian agri retailers carry large barter A/R.
+      retailDistribution: z
+        .object({
+          retailLocationsCount: z.number().nonnegative().optional(),
+          barterReceivablesMM: z.number().nonnegative().optional(),
+        })
+        .optional(),
+    })
+    .optional(),
+  // Aquaculture / salmon farmers — Norwegian + Faroese cohort. MAB
+  // (max-allowed-biomass) plays the role of "acres" for sea-cage
+  // operators; biomass-at-sea + smolt release are the leading-indicator
+  // pair for next-period harvests; ebit/kg and cost/kg are the
+  // industry-standard unit-economics pair.
+  aquaculture: z
+    .object({
+      harvestVolumeKtGwt: z.number().nonnegative().optional(),
+      ebitPerKgNok: z.number().optional(),
+      mabLicencedTonnes: z.number().nonnegative().optional(),
+      biomassAtSeaKt: z.number().nonnegative().optional(),
+      smoltReleasedMM: z.number().nonnegative().optional(),
+      costPerKgNok: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  // Crop-input / fertilizer producers — N/P/K, seeds, crop chemistry.
+  // Realized price and volume by nutrient are the headline cyclical
+  // indicators; capacity utilization + nat-gas cost are the cost-side
+  // levers; ore reserves matter for terminal value of mining names.
+  cropInputs: z
+    .object({
+      realizedPriceByNutrientUSDPerMT: z
+        .record(z.string(), z.number().nonnegative())
+        .optional(),
+      salesVolumeByNutrientKMT: z
+        .record(z.string(), z.number().nonnegative())
+        .optional(),
+      productionCapacityKMTPerYear: z
+        .record(z.string(), z.number().nonnegative())
+        .optional(),
+      capacityUtilizationPct: z.number().min(0).max(100).optional(),
+      gasCostUSDPerMMBtu: z.number().nonnegative().optional(),
+      mineLifeYears: z.number().nonnegative().optional(),
+      rdSpendPctOfRevenue: z.number().min(0).max(50).optional(),
+      retailRevenuePct: z.number().min(0).max(100).optional(),
+    })
+    .optional(),
+  // Egg producers — small cohort (CALM, VITL). Flock + dozens + ASP +
+  // feed cost is the canonical four-tuple; specialty mix matters for
+  // the cage-free / pasture-raised premium.
+  egg: z
+    .object({
+      layingHenFlockMM: z.number().nonnegative().optional(),
+      dozensSoldMM: z.number().nonnegative().optional(),
+      avgSellingPricePerDozen: z.number().nonnegative().optional(),
+      feedCostPerDozen: z.number().nonnegative().optional(),
+      specialtyEggMixPct: z.number().min(0).max(100).optional(),
+      contractedFarmCount: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  // Dairy producers — covers raw-milk processors, branded dairy, and
+  // infant-formula exposed names. Not bundled with egg because the
+  // disclosure conventions barely overlap.
+  dairy: z
+    .object({
+      milkIntakeMlitres: z.number().nonnegative().optional(),
+      milkSolidsKgMM: z.number().nonnegative().optional(),
+      avgFarmgateMilkPrice: z.number().nonnegative().optional(),
+      cowHerdK: z.number().nonnegative().optional(),
+      infantFormulaRevenuePct: z.number().min(0).max(100).optional(),
+      brandedRevenuePct: z.number().min(0).max(100).optional(),
+      coldChainDistributionPoints: z.number().nonnegative().optional(),
+    })
+    .optional(),
 });
 
 export type FarmlandFiling = z.infer<typeof FilingSchema>;
@@ -151,6 +474,10 @@ export type PricedFarmlandComp = Omit<
   price: number | null;
   marketCapMM: number | null;
   netDebtMM: number;
+  // Net debt minus readily-marketable inventories (when disclosed).
+  // For commodity traders / processors, RMI is hedged inventory carried
+  // as quasi-cash; this gives an economic-leverage view.
+  rmiAdjustedNetDebtMM: number;
   evMM: number | null;
 
   // Land value
@@ -179,9 +506,22 @@ export type PricedFarmlandComp = Omit<
   evCapRate: number | null;
   divYield: number | null;
   fcfYield: number | null;
+  // Buyback yield: net annual repurchases ÷ market cap, %. Computed
+  // from year-over-year sharesOutMM delta × latest price (negative if
+  // shares were issued rather than retired).
+  buybackYield: number | null;
+  // Dividend coverage: payout ratio (DPS ÷ EPS, %) and FCF coverage
+  // (DPS × shares ÷ FCF, %). Both expressed as percentages.
+  payoutRatio: number | null;
+  fcfPayoutRatio: number | null;
 
   fxToUsd: number;
   fetchedAt: string;
+
+  // Last 5 fiscal years of revenue (filing-currency) for an inline
+  // sparkline next to the company name in the comps table. Empty
+  // array if we don't have FY revenue history.
+  revenueSparkline: number[];
 };
 
 const COMPS_FILE = path.join(process.cwd(), "content", "farmland-comps.json");
@@ -228,11 +568,19 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
 
       // All intermediate calcs done in filing currency; USD conversion at the
       // end (only for absolute-$ values — multiples are dimensionless).
+      const preferredLocal = f.preferredMM ?? 0;
+      const rmiLocal = f.trader?.rmiMM ?? 0;
       const netDebtLocal = f.debtMM - f.cashMM;
+      // RMI is hedged inventory the issuer treats as quasi-cash (ADM/Bunge
+      // convention). Subtracting it produces an economic-leverage view.
+      const rmiAdjustedNetDebtLocal = netDebtLocal - rmiLocal;
       const marketCapLocal =
         priceInFiling !== null ? priceInFiling * f.sharesOutMM : null;
+      // EV adds preferred equity (senior to common) when broken out.
       const evLocal =
-        marketCapLocal !== null ? marketCapLocal + netDebtLocal : null;
+        marketCapLocal !== null
+          ? marketCapLocal + netDebtLocal + preferredLocal
+          : null;
       // Per-acre metrics only meaningful when issuer owns/operates land.
       const acresK = f.acresK ?? 0;
       const evPerAcreLocal =
@@ -290,8 +638,24 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         priceInFiling !== null && priceInFiling > 0
           ? (f.annualDividend / priceInFiling) * 100
           : null;
+      // Cap rate is only a meaningful metric for issuers whose
+      // productive asset is land they own — REITs, integrated farm
+      // operators, plantation operators, pastoral/livestock outfits.
+      // For processors / traders / aquaculture / crop-inputs, NOI ÷
+      // EV is just an EBITDA-yield proxy and would mislead readers
+      // who expect a real-estate-style cap rate.
+      const LAND_OWNING_SECTORS: ReadonlySet<Sector> = new Set([
+        "Farmland Owner / REIT",
+        "Integrated Farm Operator",
+        "Plantation Operator",
+        "Pastoral / Livestock",
+      ]);
+      const isLandOwner = LAND_OWNING_SECTORS.has(f.sector);
       const evCapRate =
-        evLocal !== null && evLocal > 0
+        isLandOwner &&
+        evLocal !== null &&
+        evLocal > 0 &&
+        f.annualNoiMM > 0
           ? (f.annualNoiMM / evLocal) * 100
           : null;
       const ebitdaMargin =
@@ -330,6 +694,48 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         marketCapLocal > 0
           ? (f.annualFcfMM / marketCapLocal) * 100
           : null;
+      // Pull financials once for both buyback-yield + revenue spark.
+      const fin = getFinancials(f.ticker);
+      // Revenue sparkline: last 5 FY rows of revenueMM from the
+      // financials file. Empty array if no FY rows or all null.
+      const revenueSparkline = fin
+        ? fin.periods
+            .filter(
+              (p) =>
+                p.periodType === "FY" && typeof p.revenueMM === "number",
+            )
+            .sort((a, b) => a.endDate.localeCompare(b.endDate))
+            .slice(-5)
+            .map((p) => p.revenueMM as number)
+        : [];
+
+      // Buyback yield: net annual repurchases ÷ market cap × 100.
+      // Approximated as Δshares × current price ÷ market cap. Reads
+      // the latest two FY rows from the financials file. Negative if
+      // the issuer net-issued rather than repurchased.
+      let buybackYield: number | null = null;
+      if (fin && priceInFiling !== null && marketCapLocal !== null && marketCapLocal > 0) {
+        const fyShares = fin.periods
+          .filter(
+            (p) =>
+              p.periodType === "FY" && typeof p.sharesOutMM === "number",
+          )
+          .sort((a, b) => a.endDate.localeCompare(b.endDate));
+        if (fyShares.length >= 2) {
+          const last = fyShares[fyShares.length - 1].sharesOutMM as number;
+          const prev = fyShares[fyShares.length - 2].sharesOutMM as number;
+          // Δshares > 0 = retired = positive buyback yield.
+          const deltaShares = prev - last;
+          buybackYield = ((deltaShares * priceInFiling) / marketCapLocal) * 100;
+        }
+      }
+      // Payout ratios — DPS ÷ EPS and (DPS × shares) ÷ FCF, both %.
+      const payoutRatio =
+        f.epsTTM > 0 ? (f.annualDividend / f.epsTTM) * 100 : null;
+      const fcfPayoutRatio =
+        f.annualFcfMM !== undefined && f.annualFcfMM > 0
+          ? ((f.annualDividend * f.sharesOutMM) / f.annualFcfMM) * 100
+          : null;
       // Shareholders' equity — prefer the explicit field; fall back
       // to navPerShare × sharesOutMM (book/NAV per share × shares).
       const equityLocal =
@@ -363,6 +769,7 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         price: localPrice !== null ? localPrice * priceFx : null,
         marketCapMM: marketCapLocal !== null ? marketCapLocal * fx : null,
         netDebtMM: netDebtLocal * fx,
+        rmiAdjustedNetDebtMM: rmiAdjustedNetDebtLocal * fx,
         evMM: evLocal !== null ? evLocal * fx : null,
         bookPerAcre: bookPerAcreLocal !== null ? bookPerAcreLocal * fx : null,
         marketPerAcre:
@@ -390,8 +797,12 @@ export async function getPricedFarmlandComps(): Promise<PricedFarmlandComp[]> {
         evCapRate,
         divYield,
         fcfYield,
+        buybackYield,
+        payoutRatio,
+        fcfPayoutRatio,
         fxToUsd: fx,
         fetchedAt,
+        revenueSparkline,
       };
     }),
   );

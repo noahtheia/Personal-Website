@@ -10,12 +10,13 @@ type ChartId =
   | "income"
   | "margins"
   | "capex"
+  | "capitalAllocation"
+  | "capitalStructure"
   | "propertyValue"
   | "navPerShare"
   | "acreage"
   | "capRate"
-  | "dividends"
-  | "shares";
+  | "dividends";
 
 const CHART_DEFS: { id: ChartId; label: string; description: string }[] = [
   {
@@ -40,6 +41,18 @@ const CHART_DEFS: { id: ChartId; label: string; description: string }[] = [
     label: "Capex",
     description:
       "Annual capital expenditures (bars), depreciation & amortization (overlay), and capex-to-revenue intensity (right axis).",
+  },
+  {
+    id: "capitalAllocation",
+    label: "Capital allocation",
+    description:
+      "Capex / dividends / buybacks stacked per fiscal year, with CFO line — see how the issuer splits its cash flow between reinvestment and shareholder return.",
+  },
+  {
+    id: "capitalStructure",
+    label: "Capital structure",
+    description:
+      "Debt ladder + interest coverage trend. Bars show debt maturity buckets (latest disclosure); EBITDA / interest expense ratio on the right axis tracks coverage over time.",
   },
   {
     id: "propertyValue",
@@ -69,13 +82,7 @@ const CHART_DEFS: { id: ChartId; label: string; description: string }[] = [
     id: "dividends",
     label: "Dividends",
     description:
-      "Dividend per share each fiscal year, with running yield on right axis (DPS ÷ year-end share price).",
-  },
-  {
-    id: "shares",
-    label: "Shares",
-    description:
-      "Shares outstanding each fiscal year — buyback / dilution trend in million-share units.",
+      "DPS, EPS, and FCF/share by fiscal year — coverage at a glance. Right axis: trailing dividend yield.",
   },
 ];
 
@@ -858,12 +865,13 @@ function buildAllSeries(
     income: null,
     margins: null,
     capex: null,
+    capitalAllocation: null,
+    capitalStructure: null,
     propertyValue: null,
     navPerShare: null,
     acreage: null,
     capRate: null,
     dividends: null,
-    shares: null,
   };
 
   // Pre-build aux series we'll need: daily market cap, daily EV (using
@@ -878,11 +886,34 @@ function buildAllSeries(
     }));
     result.price = {
       label: "Share price",
-      description: "Daily local-currency close.",
+      description:
+        "Daily local-currency close, with year-end shares outstanding on the right axis.",
       unit: { kind: "currency", ccy: history.currency },
       kind: "line",
       points: pricePoints,
     };
+
+    // Shares-outstanding overlay on the secondary axis. FY rows
+    // sorted ascending. The chart renders this as a step line so
+    // bonus issues / buybacks show as visible inflections.
+    if (financials) {
+      const shareRows = financials.periods
+        .filter(
+          (p) =>
+            p.periodType === "FY" && typeof p.sharesOutMM === "number",
+        )
+        .sort((a, b) => a.endDate.localeCompare(b.endDate));
+      if (shareRows.length > 0) {
+        result.price.secondary = {
+          label: "Shares outstanding (M)",
+          unit: { kind: "thousands" },
+          points: shareRows.map((p) => ({
+            date: p.endDate,
+            value: p.sharesOutMM as number,
+          })),
+        };
+      }
+    }
 
     // Build daily MC + EV using historical shares + netDebt where available
     const sharesSeries = financials
@@ -1155,7 +1186,7 @@ function buildAllSeries(
     if (dpsRows.length > 0) {
       const divSeries: Series = {
         label: "Dividend / share",
-        description: `DPS in ${ccy} per fiscal year`,
+        description: `DPS, EPS, and FCF / share — coverage view, ${ccy}`,
         unit: { kind: "currency", ccy },
         kind: "step",
         points: dpsRows.map((p) => ({
@@ -1164,13 +1195,54 @@ function buildAllSeries(
         })),
       };
 
-      // Compute trailing yield at each FY end using year-end close
-      // (when price history exists in the issuer's listing currency
-      // and the conversion to filing currency is straightforward).
+      // EPS overlay for payout-ratio context. Shows whether earnings
+      // cover the dividend.
+      const fyForCoverage = financials.periods
+        .filter((p) => p.periodType === "FY")
+        .sort((a, b) => a.endDate.localeCompare(b.endDate));
+      const epsPoints: DatedPoint[] = [];
+      for (const p of fyForCoverage) {
+        const eps =
+          typeof p.epsBasic === "number"
+            ? p.epsBasic
+            : typeof p.epsDiluted === "number"
+            ? p.epsDiluted
+            : typeof p.netIncomeMM === "number" &&
+              typeof p.sharesOutMM === "number" &&
+              p.sharesOutMM > 0
+            ? p.netIncomeMM / p.sharesOutMM
+            : null;
+        if (eps !== null) {
+          epsPoints.push({ date: p.endDate, value: eps });
+        }
+      }
+      if (epsPoints.length > 0) {
+        divSeries.overlay = { label: "EPS", points: epsPoints };
+      }
+
+      // FCF / share overlay (same axis, per-share basis).
+      const fcfPerSharePts: DatedPoint[] = [];
+      for (const p of fyForCoverage) {
+        if (
+          typeof p.cfoMM === "number" &&
+          typeof p.capexMM === "number" &&
+          typeof p.sharesOutMM === "number" &&
+          p.sharesOutMM > 0
+        ) {
+          const fcf = p.cfoMM - p.capexMM;
+          fcfPerSharePts.push({
+            date: p.endDate,
+            value: fcf / p.sharesOutMM,
+          });
+        }
+      }
+      if (fcfPerSharePts.length > 0) {
+        divSeries.overlay2 = { label: "FCF / share", points: fcfPerSharePts };
+      }
+
+      // Trailing dividend yield on the right axis (DPS ÷ year-end
+      // close). Same logic as before — just the secondary axis.
       if (history && history.points.length > 0) {
-        // Map history to filing currency where they differ. For
-        // simplicity assume listing == filing here; price-currency
-        // mismatches (GBp / DKK) are uncommon among dividend payers.
         const yieldPoints: DatedPoint[] = [];
         for (const p of dpsRows) {
           const priceAt = findValueAtOrBeforeDated(
@@ -1193,26 +1265,6 @@ function buildAllSeries(
         }
       }
       result.dividends = divSeries;
-    }
-
-    // ---- Shares-outstanding trend ----
-    const shareRows = financials.periods
-      .filter(
-        (p) =>
-          p.periodType === "FY" && typeof p.sharesOutMM === "number",
-      )
-      .sort((a, b) => a.endDate.localeCompare(b.endDate));
-    if (shareRows.length > 0) {
-      result.shares = {
-        label: "Shares outstanding",
-        description: "Year-end shares (millions)",
-        unit: { kind: "thousands" },
-        kind: "step",
-        points: shareRows.map((p) => ({
-          date: p.endDate,
-          value: p.sharesOutMM as number,
-        })),
-      };
     }
 
     // ---- Margins / Returns trend ----
@@ -1339,15 +1391,254 @@ function buildAllSeries(
       }
       result.capex = capexSeries;
     }
+
+    // ---- Capital allocation ----
+    // FY-cadence stacked bars: capex / dividends / buybacks per FY
+    // (positive uses of cash) + CFO line (cash flow available to
+    // allocate). Buybacks computed from year-over-year sharesOut
+    // delta × that year's avg price (history fetched daily). This
+    // makes reinvestment vs return-of-capital read at a glance.
+    const capAllocRows = financials.periods
+      .filter((p) => p.periodType === "FY")
+      .sort((a, b) => a.endDate.localeCompare(b.endDate));
+    if (capAllocRows.length > 0) {
+      const points: DatedPoint[] = [];
+      const segNames = ["Capex", "Dividends", "Buybacks"];
+      const perPoint: Record<string, number>[] = [];
+      const cfoPts: DatedPoint[] = [];
+      for (let i = 0; i < capAllocRows.length; i++) {
+        const p = capAllocRows[i];
+        const prev = i > 0 ? capAllocRows[i - 1] : null;
+        const capex =
+          typeof p.capexMM === "number" ? Math.max(0, p.capexMM) : 0;
+        const divs =
+          typeof p.dividendPerShare === "number" &&
+          typeof p.sharesOutMM === "number"
+            ? Math.max(0, p.dividendPerShare * p.sharesOutMM)
+            : 0;
+        // Buyback proxy: positive when shares declined YoY × avg price
+        // (use this year's price proxy from yearend close where
+        // available). Only included when we have prior shares + a
+        // price reference.
+        let buybacks = 0;
+        if (
+          prev &&
+          typeof prev.sharesOutMM === "number" &&
+          typeof p.sharesOutMM === "number" &&
+          history &&
+          history.points.length > 0
+        ) {
+          const priceAt = findValueAtOrBeforeDated(
+            history.points.map((h) => ({ date: h.date, value: h.close })),
+            p.endDate,
+          );
+          if (priceAt !== null && priceAt > 0) {
+            const dShares = (prev.sharesOutMM as number) - (p.sharesOutMM as number);
+            buybacks = Math.max(0, dShares * priceAt);
+          }
+        }
+        // Skip rows with no allocation data at all
+        if (capex === 0 && divs === 0 && buybacks === 0) continue;
+        points.push({
+          date: p.endDate,
+          value: capex + divs + buybacks,
+        });
+        perPoint.push({
+          Capex: capex,
+          Dividends: divs,
+          Buybacks: buybacks,
+        });
+        if (typeof p.cfoMM === "number") {
+          cfoPts.push({ date: p.endDate, value: p.cfoMM });
+        }
+      }
+      if (points.length > 0) {
+        const allocSeries: Series = {
+          label: "Capital allocation",
+          description: `Capex / Dividends / Buybacks stacked per FY, ${ccy} M`,
+          unit: { kind: "millions", ccy },
+          kind: "bar",
+          points,
+          segments: { names: segNames, perPoint },
+        };
+        if (cfoPts.length > 0) {
+          allocSeries.overlay = {
+            label: "Cash from operations",
+            points: cfoPts,
+          };
+        }
+        result.capitalAllocation = allocSeries;
+      }
+    }
+
+    // ---- Capital structure ----
+    // Bar: net debt by FY. Overlay: total debt. Overlay2: EBITDA
+    // (so leverage is visible vs earnings power). Secondary axis:
+    // Net Debt / EBITDA leverage ratio.
+    const csRows = financials.periods
+      .filter((p) => p.periodType === "FY")
+      .sort((a, b) => a.endDate.localeCompare(b.endDate));
+    const netDebtPts: DatedPoint[] = [];
+    const totalDebtPts: DatedPoint[] = [];
+    const ebitdaCsPts: DatedPoint[] = [];
+    const leveragePts: DatedPoint[] = [];
+    for (const p of csRows) {
+      const nd =
+        typeof p.netDebtMM === "number"
+          ? p.netDebtMM
+          : typeof p.totalDebtMM === "number" && typeof p.cashMM === "number"
+          ? p.totalDebtMM - p.cashMM
+          : null;
+      if (nd !== null) {
+        netDebtPts.push({ date: p.endDate, value: nd });
+      }
+      if (typeof p.totalDebtMM === "number") {
+        totalDebtPts.push({ date: p.endDate, value: p.totalDebtMM });
+      }
+      if (typeof p.ebitdaMM === "number") {
+        ebitdaCsPts.push({ date: p.endDate, value: p.ebitdaMM });
+        if (nd !== null && p.ebitdaMM > 0) {
+          leveragePts.push({ date: p.endDate, value: nd / p.ebitdaMM });
+        }
+      }
+    }
+    if (netDebtPts.length > 0 || totalDebtPts.length > 0) {
+      const csSeries: Series = {
+        label: "Net debt",
+        description: `Net debt + total debt + EBITDA over time (${ccy} M); leverage ratio on right axis`,
+        unit: { kind: "millions", ccy },
+        kind: "bar",
+        points: netDebtPts.length > 0 ? netDebtPts : totalDebtPts,
+      };
+      if (totalDebtPts.length > 0 && netDebtPts.length > 0) {
+        csSeries.overlay = { label: "Total debt", points: totalDebtPts };
+      }
+      if (ebitdaCsPts.length > 0) {
+        csSeries.overlay2 = { label: "EBITDA", points: ebitdaCsPts };
+      }
+      if (leveragePts.length > 0) {
+        csSeries.secondary = {
+          label: "Net Debt / EBITDA (×)",
+          unit: { kind: "multiplier" },
+          points: leveragePts,
+        };
+      }
+      result.capitalStructure = csSeries;
+    }
   }
 
   return result;
 }
 
+// Synthesize a "Q4" row for fiscal years where the data file carries
+// only Q1/Q2/Q3 rows + an FY row (LW, HRL, POST, TSN's older years —
+// the issuer reports a YTD-Q3 interim then folds the final quarter
+// into the full-year file). Without this, the income chart shows
+// 12-month gaps between fiscal years' Q3 and the next year's Q1, and
+// the LTM-EBITDA construction silently drops the missing Q4. Returns a
+// new periods array with synthetic Q rows inserted at each FY's
+// endDate (revenue/EBITDA/etc = FY total − sum of Q1+Q2+Q3).
+function expandWithSynthesizedQuarters(
+  periods: FinancialsPeriod[],
+): FinancialsPeriod[] {
+  const numericKeys: (keyof FinancialsPeriod)[] = [
+    "grossRevenueMM",
+    "revenueMM",
+    "ebitdaMM",
+    "noiMM",
+    "netIncomeMM",
+    "capexMM",
+    "daMM",
+    "cfoMM",
+    "interestExpenseMM",
+    "dividendPaidMM",
+  ];
+  const recordKeys: (keyof FinancialsPeriod)[] = [
+    "revenueBySegmentMM",
+    "expensesBySegmentMM",
+    "revenueByGeographyMM",
+  ];
+  const sorted = [...periods].sort((a, b) => a.endDate.localeCompare(b.endDate));
+  const out: FinancialsPeriod[] = [...sorted];
+
+  for (const fy of sorted) {
+    if (fy.periodType !== "FY") continue;
+    const fyEndMs = new Date(fy.endDate).getTime();
+    if (!Number.isFinite(fyEndMs)) continue;
+    // Quarter rows in the 12 months strictly before the FY end.
+    const windowStart = fyEndMs - 365 * 24 * 60 * 60 * 1000;
+    const qRows = sorted.filter((p) => {
+      if (p.periodType !== "Q") return false;
+      const t = new Date(p.endDate).getTime();
+      return t > windowStart && t < fyEndMs;
+    });
+    // If there's already a Q row at exactly the FY end (calendar-year
+    // issuers like JBSS3 / ADM with both Q-12 and FY-12), don't
+    // double-count.
+    const haveTerminalQ = sorted.some(
+      (p) => p.periodType === "Q" && p.endDate === fy.endDate,
+    );
+    if (qRows.length !== 3 || haveTerminalQ) continue;
+
+    const synthetic: FinancialsPeriod = {
+      endDate: fy.endDate,
+      periodType: "Q",
+    };
+    for (const k of numericKeys) {
+      const fyV = fy[k];
+      if (typeof fyV !== "number") continue;
+      let sum = 0;
+      let allPresent = true;
+      for (const q of qRows) {
+        const v = q[k];
+        if (typeof v !== "number") {
+          allPresent = false;
+          break;
+        }
+        sum += v;
+      }
+      if (!allPresent) continue;
+      const diff = fyV - sum;
+      if (Number.isFinite(diff)) {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        (synthetic as any)[k] = diff;
+      }
+    }
+    for (const k of recordKeys) {
+      const fyR = fy[k] as Record<string, number> | undefined;
+      if (!fyR) continue;
+      let allPresent = true;
+      const sum: Record<string, number> = {};
+      for (const q of qRows) {
+        const r = q[k] as Record<string, number> | undefined;
+        if (!r) {
+          allPresent = false;
+          break;
+        }
+        for (const [name, val] of Object.entries(r)) {
+          sum[name] = (sum[name] ?? 0) + val;
+        }
+      }
+      if (!allPresent) continue;
+      const diff: Record<string, number> = {};
+      for (const name of Object.keys(fyR)) {
+        diff[name] = (fyR[name] ?? 0) - (sum[name] ?? 0);
+      }
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      (synthetic as any)[k] = diff;
+    }
+    // Only insert if we synthesized at least the headline revenue line.
+    if (typeof synthetic.revenueMM === "number") {
+      synthetic.notes = "Synthetic Q4 = FY − (Q1 + Q2 + Q3)";
+      out.push(synthetic);
+    }
+  }
+  out.sort((a, b) => a.endDate.localeCompare(b.endDate));
+  return out;
+}
+
 // Collect dated values for a numeric key from financials (raw, no period
 // filtering — useful for shares, net debt, property FMV which are reported
-// at multiple period types and we want all of them for the at-or-before
-// lookup).
 function collectDated(
   financials: Financials,
   key: keyof FinancialsPeriod,
@@ -1363,11 +1654,15 @@ function collectDated(
 
 // Collect annualized EBITDA for cap-rate computations. Prefers FY/LTM
 // values directly; for quarterly periods, sums the trailing 4 quarters
-// to construct an LTM EBITDA at each quarterly reporting date.
+// to construct an LTM EBITDA at each quarterly reporting date. Uses the
+// expanded period array (with synthesized Q4 rows) so issuers that
+// report only Q1/Q2/Q3 + FY get a complete LTM series instead of a
+// 13-month-window approximation that drops Q4.
 function collectAnnualizedEbitda(financials: Financials): DatedPoint[] {
+  const expanded = expandWithSynthesizedQuarters(financials.periods);
   const fyOrLtm: DatedPoint[] = [];
   const quarterly: { date: string; value: number }[] = [];
-  for (const p of financials.periods) {
+  for (const p of expanded) {
     if (typeof p.ebitdaMM !== "number") continue;
     if (p.periodType === "FY" || p.periodType === "LTM") {
       fyOrLtm.push({ date: p.endDate, value: p.ebitdaMM });
@@ -1419,6 +1714,10 @@ function buildIncomeSeries(
     expensesBySegmentMM?: Record<string, number>;
   };
 
+  // Expand with synthesized Q4 rows so issuers that report only
+  // Q1/Q2/Q3 + FY (LW, HRL, POST, …) get a full quarterly series.
+  const expandedPeriods = expandWithSynthesizedQuarters(financials.periods);
+
   let aggregated: Aggregated[] = [];
 
   if (cadence === "Q") {
@@ -1427,7 +1726,7 @@ function buildIncomeSeries(
     // directly and synthesize H2 = FY − H1 for years where both the
     // interim H1 and the full FY were reported. Years with FY-only
     // (no interim) are skipped here — Annual mode covers them.
-    const qRows = financials.periods.filter(
+    const qRows = expandedPeriods.filter(
       (p) => p.periodType === "Q" && typeof p.revenueMM === "number",
     );
     if (qRows.length > 0) {
@@ -1444,7 +1743,7 @@ function buildIncomeSeries(
     } else {
       const hByYear = new Map<number, FinancialsPeriod>();
       const fyByYear = new Map<number, FinancialsPeriod>();
-      for (const p of financials.periods) {
+      for (const p of expandedPeriods) {
         if (typeof p.revenueMM !== "number") continue;
         const y = new Date(p.endDate).getFullYear();
         if (p.periodType === "H") hByYear.set(y, p);
@@ -1507,10 +1806,31 @@ function buildIncomeSeries(
     }
   } else {
     // Annual: prefer FY rows, synthesize from 4 Q (or 2 H) where missing.
+    // Group by FISCAL year, not calendar year — for issuers with
+    // fiscal-year-end ≠ Dec, calendar-year grouping mixes Q3 of FY-N
+    // with Q1/Q2 of FY-N+1 inside the same calendar bucket. Use the FY
+    // row's endDate as the canonical year key when an FY row exists in
+    // the issuer's history.
+    const fyEnds = expandedPeriods
+      .filter((p) => p.periodType === "FY")
+      .map((p) => new Date(p.endDate).getTime())
+      .filter((t) => Number.isFinite(t))
+      .sort((a, b) => a - b);
+    const fiscalYearOf = (endDateIso: string): number => {
+      const t = new Date(endDateIso).getTime();
+      // Find the smallest FY end-date >= this period's end. That's the
+      // fiscal year this period belongs to.
+      for (const fy of fyEnds) {
+        if (fy >= t) return new Date(fy).getFullYear();
+      }
+      // Beyond the latest FY end — bucket by calendar year of the
+      // period itself (probably an interim Q after the latest FY).
+      return new Date(endDateIso).getFullYear();
+    };
     const byYear = new Map<number, FinancialsPeriod[]>();
-    for (const p of financials.periods) {
+    for (const p of expandedPeriods) {
       if (typeof p.revenueMM !== "number") continue;
-      const y = new Date(p.endDate).getFullYear();
+      const y = fyEnds.length > 0 ? fiscalYearOf(p.endDate) : new Date(p.endDate).getFullYear();
       if (!byYear.has(y)) byYear.set(y, []);
       byYear.get(y)!.push(p);
     }

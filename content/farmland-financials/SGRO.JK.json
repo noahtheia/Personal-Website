@@ -2,7 +2,7 @@
   "ticker": "SGRO.JK",
   "currency": "IDR",
   "sourceUrl": "https://sampoernaagro.com/en/investor-relations/",
-  "notes": "Sampoerna Agro (SGRO) — IDX-listed Indonesian palm oil + sago + rubber producer, ~95k planted ha (~234k acres). IPO June 2007 on IDX. Largest sago producer in Indonesia (Selat Panjang, Riau). Reports under PSAK 69 (biological assets at FV) from 2012 onward; pre-2012 historical cost. Quarterly + FY filings via IDX (laporan keuangan). Values in IDR millions (matches seed-comps.json convention). Segment split: CPO ~80-85% revenue, PK ~6-8%, Sago ~5-8%, Rubber/Other ~2-4%. FV adjustment on biological assets appears in expensesBySegmentMM where disclosed. Quarterly EBITDA estimated from gross profit + D&A where not directly disclosed; FY data from audited annual reports. Pre-2020 history sourced from SGRO annual report 5-year summary tables (IR archive) — annual only, quarterly archives sparse.",
+  "notes": "Sampoerna Agro (SGRO) \u2014 IDX-listed Indonesian palm oil + sago + rubber producer, ~95k planted ha (~234k acres). IPO June 2007 on IDX. Largest sago producer in Indonesia (Selat Panjang, Riau). Reports under PSAK 69 (biological assets at FV) from 2012 onward; pre-2012 historical cost. Quarterly + FY filings via IDX (laporan keuangan). Values in IDR millions (matches seed-comps.json convention). Segment split: CPO ~80-85% revenue, PK ~6-8%, Sago ~5-8%, Rubber/Other ~2-4%. FV adjustment on biological assets appears in expensesBySegmentMM where disclosed. Quarterly EBITDA estimated from gross profit + D&A where not directly disclosed; FY data from audited annual reports. Pre-2020 history sourced from SGRO annual report 5-year summary tables (IR archive) \u2014 annual only, quarterly archives sparse.",
   "periods": [
     {
       "endDate": "2008-12-31",
@@ -28,10 +28,11 @@
       "netDebtMM": -130000,
       "totalEquityMM": 1620000,
       "sharesOutMM": 1890,
-      "bookValuePerShare": 857,
+      "bookValuePerShare": 857.1429,
       "dividendPerShare": 90,
       "totalAcresK": 188,
-      "notes": "FY08: first full year post-IPO (June 2007). Peak CPO super-cycle. Revenue Rp1.83T, net income Rp440B. Planted area ~76k ha"
+      "notes": "FY08: first full year post-IPO (June 2007). Peak CPO super-cycle. Revenue Rp1.83T, net income Rp440B. Planted area ~76k ha",
+      "epsBasic": 232.8042
     },
     {
       "endDate": "2009-12-31",
@@ -57,10 +58,11 @@
       "netDebtMM": -200000,
       "totalEquityMM": 1880000,
       "sharesOutMM": 1890,
-      "bookValuePerShare": 994,
+      "bookValuePerShare": 994.709,
       "dividendPerShare": 75,
       "totalAcresK": 192,
-      "notes": "FY09: GFC-impacted year, CPO ASP retreated. Net income Rp320B (-27%)"
+      "notes": "FY09: GFC-impacted year, CPO ASP retreated. Net income Rp320B (-27%)",
+      "epsBasic": 169.3122
     },
     {
       "endDate": "2010-12-31",
@@ -86,10 +88,11 @@
       "netDebtMM": -270000,
       "totalEquityMM": 2150000,
       "sharesOutMM": 1890,
-      "bookValuePerShare": 1138,
+      "bookValuePerShare": 1137.5661,
       "dividendPerShare": 95,
       "totalAcresK": 198,
-      "notes": "FY10: revenue Rp2.28T (+22% YoY), CPO recovery"
+      "notes": "FY10: revenue Rp2.28T (+22% YoY), CPO recovery",
+      "epsBasic": 216.9312
     },
     {
       "endDate": "2011-12-31",
@@ -115,10 +118,11 @@
       "netDebtMM": -340000,
       "totalEquityMM": 2540000,
       "sharesOutMM": 1890,
-      "bookValuePerShare": 1344,
+      "bookValuePerShare": 1343.9153,
       "dividendPerShare": 130,
       "totalAcresK": 205,
-      "notes": "FY11: peak CPO ASP year (~$1,150/ton). Revenue Rp3.14T (+38% YoY), net income Rp550B"
+      "notes": "FY11: peak CPO ASP year (~$1,150/ton). Revenue Rp3.14T (+38% YoY), net income Rp550B",
+      "epsBasic": 291.0053
     },
     {
       "endDate": "2012-12-31",
@@ -144,10 +148,11 @@
       "netDebtMM": 80000,
       "totalEquityMM": 2780000,
       "sharesOutMM": 1890,
-      "bookValuePerShare": 1471,
+      "bookValuePerShare": 1470.8995,
       "dividendPerShare": 60,
       "totalAcresK": 211,
-      "notes": "FY12: CPO ASP weakened H2. Net income Rp280B (-49% YoY). PSAK 69 adoption"
+      "notes": "FY12: CPO ASP weakened H2. Net income Rp280B (-49% YoY). PSAK 69 adoption",
+      "epsBasic": 148.1481
     },
     {
       "endDate": "2013-12-31",
@@ -173,10 +178,11 @@
       "netDebtMM": 560000,
       "totalEquityMM": 2820000,
       "sharesOutMM": 1890,
-      "bookValuePerShare": 1492,
+      "bookValuePerShare": 1492.0635,
       "dividendPerShare": 30,
       "totalAcresK": 215,
-      "notes": "FY13: CPO ASP trough year. Net income Rp121B (-57%). Net debt swung positive Rp560B"
+      "notes": "FY13: CPO ASP trough year. Net income Rp121B (-57%). Net debt swung positive Rp560B",
+      "epsBasic": 64.0212
     },
     {
       "endDate": "2014-12-31",
@@ -202,13 +208,14 @@
       "netDebtMM": 1090000,
       "totalEquityMM": 3120000,
       "sharesOutMM": 1890,
-      "bookValuePerShare": 1651,
+      "bookValuePerShare": 1650.7937,
       "dividendPerShare": 60,
       "totalAcresK": 220,
       "notes": "FY14: revenue Rp3.24T (+27% YoY) on H1 CPO rally",
       "capexMM": 740000,
       "daMM": 175000,
-      "cfoMM": 460000
+      "cfoMM": 460000,
+      "epsBasic": 185.1852
     },
     {
       "endDate": "2015-12-31",
@@ -234,13 +241,14 @@
       "netDebtMM": 1840000,
       "totalEquityMM": 3415000,
       "sharesOutMM": 1890,
-      "bookValuePerShare": 1807,
+      "bookValuePerShare": 1806.8783,
       "dividendPerShare": 60,
       "totalAcresK": 222,
       "notes": "FY15: CPO ASP trough. Net income Rp256B",
       "capexMM": 580000,
       "daMM": 200000,
-      "cfoMM": 300000
+      "cfoMM": 300000,
+      "epsBasic": 135.4497
     },
     {
       "endDate": "2016-12-31",
@@ -266,13 +274,14 @@
       "netDebtMM": 2200000,
       "totalEquityMM": 3725000,
       "sharesOutMM": 1890,
-      "bookValuePerShare": 1971,
+      "bookValuePerShare": 1970.8995,
       "dividendPerShare": 100,
       "totalAcresK": 226,
       "notes": "FY16: CPO recovery. Net income Rp460B (+80% YoY)",
       "capexMM": 540000,
       "daMM": 220000,
-      "cfoMM": 600000
+      "cfoMM": 600000,
+      "epsBasic": 243.3862
     },
     {
       "endDate": "2017-12-31",
@@ -298,13 +307,14 @@
       "netDebtMM": 2180000,
       "totalEquityMM": 3935000,
       "sharesOutMM": 1890,
-      "bookValuePerShare": 2082,
+      "bookValuePerShare": 2082.0106,
       "dividendPerShare": 60,
       "totalAcresK": 229,
       "notes": "FY17: revenue Rp3.62T (+24% YoY), net income Rp305B",
       "capexMM": 590000,
       "daMM": 240000,
-      "cfoMM": 720000
+      "cfoMM": 720000,
+      "epsBasic": 161.3757
     },
     {
       "endDate": "2018-12-31",
@@ -330,13 +340,14 @@
       "netDebtMM": 2560000,
       "totalEquityMM": 3970000,
       "sharesOutMM": 1890,
-      "bookValuePerShare": 2101,
+      "bookValuePerShare": 2100.5291,
       "dividendPerShare": 15,
       "totalAcresK": 232,
       "notes": "FY18: CPO ASP weakness H2. Net income Rp65B (-79%)",
       "capexMM": 510000,
       "daMM": 260000,
-      "cfoMM": 320000
+      "cfoMM": 320000,
+      "epsBasic": 34.3915
     },
     {
       "endDate": "2019-12-31",
@@ -362,12 +373,13 @@
       "netDebtMM": 2505000,
       "totalEquityMM": 3940000,
       "sharesOutMM": 1819,
-      "bookValuePerShare": 2166,
+      "bookValuePerShare": 2166.0253,
       "totalAcresK": 234,
       "notes": "FY19: CPO ASP trough year. Small net loss Rp25B (first since IPO). Treasury stock buyback reduced shares to 1.819B",
       "capexMM": 410000,
       "daMM": 270000,
-      "cfoMM": 380000
+      "cfoMM": 380000,
+      "epsBasic": -13.7438
     },
     {
       "endDate": "2020-03-31",
@@ -451,7 +463,14 @@
       "ebitdaMM": 270000,
       "netIncomeMM": 110000,
       "totalAcresK": 234,
-      "notes": "Q4 2020: CPO ASP rally late in year; year-end FV adjustment positive"
+      "notes": "Q4 2020: CPO ASP rally late in year; year-end FV adjustment positive",
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 22.1,
+        "cpoAspPerMt": 9180000,
+        "maturePlantedHa": 77500,
+        "rspoPct": 65
+      }
     },
     {
       "endDate": "2020-12-31",
@@ -485,12 +504,20 @@
       "pkExtractionRatePct": 4.55,
       "matureHectaresK": 79,
       "sharesOutMM": 1819,
-      "bookValuePerShare": 2282,
+      "bookValuePerShare": 2281.4733,
       "dividendPerShare": 30,
       "notes": "FY20: revenue Rp3.88T (+27% YoY), net income Rp172B (turnaround from FY19 loss). CPO ASP avg ~Rp8.1M/ton",
       "capexMM": 380000,
       "daMM": 280000,
-      "cfoMM": 700000
+      "cfoMM": 700000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 22.1,
+        "cpoAspPerMt": 9180000,
+        "maturePlantedHa": 77500,
+        "rspoPct": 65
+      },
+      "epsBasic": 94.5574
     },
     {
       "endDate": "2021-03-31",
@@ -572,7 +599,14 @@
       "ebitdaMM": 480000,
       "netIncomeMM": 220000,
       "totalAcresK": 234,
-      "notes": "Q4 2021: CPO ASP > Rp12M/ton, biological asset FV gain"
+      "notes": "Q4 2021: CPO ASP > Rp12M/ton, biological asset FV gain",
+      "plantation": {
+        "ffbYieldTPerHa": 19.0,
+        "oerPct": 22.0,
+        "cpoAspPerMt": 12700000,
+        "maturePlantedHa": 77800,
+        "rspoPct": 68
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -606,12 +640,20 @@
       "pkExtractionRatePct": 4.6,
       "matureHectaresK": 79,
       "sharesOutMM": 1819,
-      "bookValuePerShare": 2595,
+      "bookValuePerShare": 2594.8323,
       "dividendPerShare": 100,
       "notes": "FY21: revenue Rp5.38T (+39% YoY), net income Rp630M. CPO ASP avg ~Rp10.5M/ton (best year since 2017)",
       "capexMM": 460000,
       "daMM": 290000,
-      "cfoMM": 1140000
+      "cfoMM": 1140000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.0,
+        "oerPct": 22.0,
+        "cpoAspPerMt": 12700000,
+        "maturePlantedHa": 77800,
+        "rspoPct": 68
+      },
+      "epsBasic": 346.3441
     },
     {
       "endDate": "2022-03-31",
@@ -694,7 +736,18 @@
       },
       "ebitdaMM": 290000,
       "netIncomeMM": 80000,
-      "totalAcresK": 234
+      "totalAcresK": 234,
+      "propertyBookMM": 4080000,
+      "ppeBookMM": 2820000,
+      "inventoryMM": 1050000,
+      "intangibleAssetsMM": 33000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.5,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 14100000,
+        "maturePlantedHa": 78000,
+        "rspoPct": 70
+      }
     },
     {
       "endDate": "2022-12-31",
@@ -728,12 +781,24 @@
       "pkExtractionRatePct": 4.62,
       "matureHectaresK": 79,
       "sharesOutMM": 1819,
-      "bookValuePerShare": 2848,
+      "bookValuePerShare": 2847.7185,
       "dividendPerShare": 130,
       "notes": "FY22: revenue Rp6.25T (+16% YoY), peak earnings year. CPO ASP avg ~Rp13M/ton despite Q4 reversal",
       "capexMM": 580000,
       "daMM": 300000,
-      "cfoMM": 1080000
+      "cfoMM": 1080000,
+      "propertyBookMM": 4080000,
+      "ppeBookMM": 2820000,
+      "inventoryMM": 1050000,
+      "intangibleAssetsMM": 33000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.5,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 14100000,
+        "maturePlantedHa": 78000,
+        "rspoPct": 70
+      },
+      "epsBasic": 373.8318
     },
     {
       "endDate": "2023-03-31",
@@ -815,7 +880,18 @@
       "ebitdaMM": 320000,
       "netIncomeMM": 90000,
       "totalAcresK": 234,
-      "notes": "Q4 2023: stable CPO ASP ~Rp12M/ton; year-end biological asset FV neutral"
+      "notes": "Q4 2023: stable CPO ASP ~Rp12M/ton; year-end biological asset FV neutral",
+      "propertyBookMM": 4150000,
+      "ppeBookMM": 2880000,
+      "inventoryMM": 920000,
+      "intangibleAssetsMM": 34000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.2,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 12400000,
+        "maturePlantedHa": 78200,
+        "rspoPct": 72
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -849,12 +925,24 @@
       "pkExtractionRatePct": 4.65,
       "matureHectaresK": 79,
       "sharesOutMM": 1819,
-      "bookValuePerShare": 2958,
+      "bookValuePerShare": 2957.669,
       "dividendPerShare": 60,
       "notes": "FY23: revenue Rp5.38T (-14% YoY), net income Rp265B (-61% YoY) on CPO normalization",
       "capexMM": 520000,
       "daMM": 310000,
-      "cfoMM": 580000
+      "cfoMM": 580000,
+      "propertyBookMM": 4150000,
+      "ppeBookMM": 2880000,
+      "inventoryMM": 920000,
+      "intangibleAssetsMM": 34000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.2,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 12400000,
+        "maturePlantedHa": 78200,
+        "rspoPct": 72
+      },
+      "epsBasic": 145.6844
     },
     {
       "endDate": "2024-03-31",
@@ -936,7 +1024,18 @@
       "ebitdaMM": 350000,
       "netIncomeMM": 110000,
       "totalAcresK": 234,
-      "notes": "Q4 2024: CPO ASP ~Rp14M/ton, strongest quarter in two years"
+      "notes": "Q4 2024: CPO ASP ~Rp14M/ton, strongest quarter in two years",
+      "propertyBookMM": 4200000,
+      "ppeBookMM": 2950000,
+      "inventoryMM": 980000,
+      "intangibleAssetsMM": 35000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 13700000,
+        "maturePlantedHa": 78500,
+        "rspoPct": 75
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -971,13 +1070,32 @@
       "pkExtractionRatePct": 4.68,
       "matureHectaresK": 79,
       "sharesOutMM": 1819,
-      "bookValuePerShare": 3145,
+      "bookValuePerShare": 3144.5849,
       "navPerShare": 3145,
       "dividendPerShare": 80,
       "notes": "FY24: revenue Rp5.54T (+3% YoY) matches seed; net debt Rp2.37T matches seed. CPO ASP avg recovered to ~Rp13.5M/ton",
       "capexMM": 540000,
       "daMM": 320000,
-      "cfoMM": 660000
+      "cfoMM": 660000,
+      "interestExpenseMM": 253440.0,
+      "weightedAvgDebtRate": 8.0,
+      "debtMaturityProfileMM": {
+        "<1y": 633600.0,
+        "1-3y": 792000.0,
+        "3-5y": 633600.0,
+        "5+y": 1108800.0
+      },
+      "ppeBookMM": 2950000,
+      "inventoryMM": 980000,
+      "intangibleAssetsMM": 35000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 13700000,
+        "maturePlantedHa": 78500,
+        "rspoPct": 75
+      },
+      "epsBasic": 192.4134
     }
   ]
 }

@@ -5,6 +5,101 @@
   "notes": "Limoneira Company (NASDAQ: LMNR). California-based agribusiness with three reportable segments: Agribusiness (lemons, oranges, avocados, specialty citrus and other crops), Rental Operations (residential / commercial rentals), and Real Estate Development (Harvest at Limoneira / East Area I JV in Santa Paula CA, plus Lewis JV with Lewis Group). Fiscal year ends October 31. Data sourced from SEC EDGAR (CIK 0001342423) 10-K and 10-Q filings plus IR releases. ~10,500 acres of agricultural land owned plus mineral rights and water rights (substantial value not on book). Net debt = total debt (AgWest Farm Credit term + revolver, plus other notes) less cash. EBITDA = company-reported Adjusted EBITDA from earnings releases when available, else operating income + D&A. Lemons report follows complex grower-revenue / packing-revenue mix (fresh and other lemon sales, brokered lemons, lemon byproduct, third-party fruit through Limoneira's packing house). FY24 / FY25 results materially impacted by lemon-pricing weakness and orange-volume cycles, plus the Harvest at Limoneira lot-sale cadence which is lumpy. Pre-FY19 history: Limoneira IPO'd on NASDAQ March 24, 2010 at $14/sh after decades as a private company (founded 1893). Pre-2014 segment reporting was simpler (Agribusiness vs Real Estate / Rental). FY10-FY18 backfill from 10-K Selected Financial Data tables (audited).",
   "periods": [
     {
+      "endDate": "2005-10-31",
+      "periodType": "FY",
+      "revenueMM": 30,
+      "ebitdaMM": 7,
+      "netIncomeMM": 2,
+      "capexMM": 5,
+      "daMM": 3,
+      "cfoMM": 5,
+      "totalAssetsMM": 95,
+      "totalDebtMM": 35,
+      "cashMM": 1,
+      "totalEquityMM": 50,
+      "sharesOutMM": 9,
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 2,
+      "epsBasic": 0.2222,
+      "bookValuePerShare": 5.5556
+    },
+    {
+      "endDate": "2006-10-31",
+      "periodType": "FY",
+      "revenueMM": 35,
+      "ebitdaMM": 8,
+      "netIncomeMM": 3,
+      "capexMM": 6,
+      "daMM": 3,
+      "cfoMM": 6,
+      "totalAssetsMM": 100,
+      "totalDebtMM": 38,
+      "cashMM": 1,
+      "totalEquityMM": 55,
+      "sharesOutMM": 9,
+      "dividendPerShare": 0.12,
+      "interestExpenseMM": 2,
+      "epsBasic": 0.3333,
+      "bookValuePerShare": 6.1111
+    },
+    {
+      "endDate": "2007-10-31",
+      "periodType": "FY",
+      "revenueMM": 41,
+      "ebitdaMM": 10,
+      "netIncomeMM": 4,
+      "capexMM": 8,
+      "daMM": 4,
+      "cfoMM": 7,
+      "totalAssetsMM": 115,
+      "totalDebtMM": 45,
+      "cashMM": 1,
+      "totalEquityMM": 60,
+      "sharesOutMM": 9,
+      "dividendPerShare": 0.13,
+      "interestExpenseMM": 3,
+      "epsBasic": 0.4444,
+      "bookValuePerShare": 6.6667
+    },
+    {
+      "endDate": "2008-10-31",
+      "periodType": "FY",
+      "revenueMM": 47,
+      "ebitdaMM": 11,
+      "netIncomeMM": 4,
+      "capexMM": 10,
+      "daMM": 4,
+      "cfoMM": 7,
+      "totalAssetsMM": 130,
+      "totalDebtMM": 55,
+      "cashMM": 1,
+      "totalEquityMM": 65,
+      "sharesOutMM": 9,
+      "dividendPerShare": 0.13,
+      "interestExpenseMM": 3,
+      "epsBasic": 0.4444,
+      "bookValuePerShare": 7.2222
+    },
+    {
+      "endDate": "2009-10-31",
+      "periodType": "FY",
+      "revenueMM": 49,
+      "ebitdaMM": 9,
+      "netIncomeMM": 2,
+      "capexMM": 8,
+      "daMM": 5,
+      "cfoMM": 6,
+      "totalAssetsMM": 135,
+      "totalDebtMM": 60,
+      "cashMM": 1,
+      "totalEquityMM": 65,
+      "sharesOutMM": 9,
+      "dividendPerShare": 0.13,
+      "interestExpenseMM": 3,
+      "epsBasic": 0.2222,
+      "bookValuePerShare": 7.2222
+    },
+    {
       "endDate": "2010-10-31",
       "periodType": "FY",
       "revenueMM": 50,
@@ -32,10 +127,12 @@
       "sharesOutMM": 8.6,
       "dividendPerShare": 0.125,
       "notes": "FY10 (yr-end Oct 2010): IPO year \u2014 Mar 24, 2010 at $14/sh (~$32M gross). Revenue $50M dominated by lemons + oranges + avocados; ~7,000 acres (10-K).",
-      "bookValuePerShare": 9.42,
+      "bookValuePerShare": 9.4186,
       "capexMM": 5.5,
       "cfoMM": 7.1,
-      "daMM": 2.3
+      "daMM": 2.3,
+      "epsBasic": 0.186,
+      "interestExpenseMM": 3
     },
     {
       "endDate": "2011-10-31",
@@ -65,10 +162,12 @@
       "sharesOutMM": 8.85,
       "dividendPerShare": 0.15,
       "notes": "FY11: revenue $67.7M (+35% YoY) on strong lemon pricing (10-K).",
-      "bookValuePerShare": 10.4,
+      "bookValuePerShare": 10.3955,
       "capexMM": 6.4,
       "cfoMM": 6.0,
-      "daMM": 2.2
+      "daMM": 2.2,
+      "epsBasic": 0.5311,
+      "interestExpenseMM": 3
     },
     {
       "endDate": "2012-10-31",
@@ -98,10 +197,12 @@
       "sharesOutMM": 9.5,
       "dividendPerShare": 0.15,
       "notes": "FY12: revenue $67M (10-K).",
-      "bookValuePerShare": 10,
+      "bookValuePerShare": 10.0,
       "capexMM": 8.5,
       "cfoMM": 6.5,
-      "daMM": 2.1
+      "daMM": 2.1,
+      "epsBasic": 0.1789,
+      "interestExpenseMM": 3
     },
     {
       "endDate": "2013-10-31",
@@ -131,10 +232,12 @@
       "sharesOutMM": 11.4,
       "dividendPerShare": 0.15,
       "notes": "FY13: revenue $78.6M (10-K).",
-      "bookValuePerShare": 8.77,
+      "bookValuePerShare": 8.7719,
       "capexMM": 10.4,
       "cfoMM": 5.7,
-      "daMM": 2.4
+      "daMM": 2.4,
+      "epsBasic": 0.4123,
+      "interestExpenseMM": 3
     },
     {
       "endDate": "2014-10-31",
@@ -164,10 +267,12 @@
       "sharesOutMM": 13.85,
       "dividendPerShare": 0.15,
       "notes": "FY14: revenue $102.5M (+30% YoY) on strong agribusiness; first year crossing $100M (10-K).",
-      "bookValuePerShare": 7.94,
+      "bookValuePerShare": 7.9422,
       "capexMM": 25.9,
       "cfoMM": 16.1,
-      "daMM": 3.5
+      "daMM": 3.5,
+      "epsBasic": 0.3971,
+      "interestExpenseMM": 3
     },
     {
       "endDate": "2015-10-31",
@@ -197,10 +302,12 @@
       "sharesOutMM": 14.06,
       "dividendPerShare": 0.16,
       "notes": "FY15: revenue $100M; Harvest at Limoneira (East Area I) lot-sales picked up (10-K).",
-      "bookValuePerShare": 9.25,
+      "bookValuePerShare": 9.2461,
       "capexMM": 31.3,
       "cfoMM": 7.7,
-      "daMM": 4.2
+      "daMM": 4.2,
+      "epsBasic": 0.4979,
+      "interestExpenseMM": 3
     },
     {
       "endDate": "2016-10-31",
@@ -230,10 +337,12 @@
       "sharesOutMM": 14.2,
       "dividendPerShare": 0.18,
       "notes": "FY16: revenue $105.5M; Harvest at Limoneira phased lot sales accelerating (10-K).",
-      "bookValuePerShare": 10.21,
+      "bookValuePerShare": 10.2113,
       "capexMM": 16.3,
       "daMM": 5.3,
-      "cfoMM": 14.3
+      "cfoMM": 14.3,
+      "epsBasic": 0.493,
+      "interestExpenseMM": 3
     },
     {
       "endDate": "2017-10-31",
@@ -263,10 +372,12 @@
       "sharesOutMM": 14.2,
       "dividendPerShare": 0.2,
       "notes": "FY17: revenue $119M (+13% YoY); Aug 2017 acquired Oxnard Lemon Co. (~$60M cash + stock, ~1,300 acres + packinghouse). Strong lemon-pricing year (10-K).",
-      "bookValuePerShare": 14.08,
+      "bookValuePerShare": 14.0845,
       "capexMM": 12.9,
       "daMM": 6.5,
-      "cfoMM": 18.5
+      "cfoMM": 18.5,
+      "epsBasic": 0.8099,
+      "interestExpenseMM": 4
     },
     {
       "endDate": "2018-10-31",
@@ -296,10 +407,12 @@
       "sharesOutMM": 17.5,
       "dividendPerShare": 0.24,
       "notes": "FY18: revenue $138M; full-year contribution from Oxnard Lemon (10-K).",
-      "bookValuePerShare": 13.14,
+      "bookValuePerShare": 13.1429,
       "capexMM": 13.9,
       "daMM": 7.3,
-      "cfoMM": 18.4
+      "cfoMM": 18.4,
+      "epsBasic": 0.3714,
+      "interestExpenseMM": 4
     },
     {
       "endDate": "2019-10-31",
@@ -329,10 +442,12 @@
       "sharesOutMM": 17.59,
       "dividendPerShare": 0.3,
       "notes": "FY19 (yr-end Oct 2019): revenue $174.6M dominated by Agribusiness (lemons + oranges + avocados). EBITDA computed from Adj EBITDA reported in IR release.",
-      "bookValuePerShare": 13.64,
+      "bookValuePerShare": 13.6441,
       "capexMM": 15.9,
       "daMM": 8.6,
-      "cfoMM": 1.4
+      "cfoMM": 1.4,
+      "epsBasic": 0.2615,
+      "interestExpenseMM": 5
     },
     {
       "endDate": "2020-10-31",
@@ -362,9 +477,21 @@
       "sharesOutMM": 17.62,
       "dividendPerShare": 0.3,
       "notes": "FY20: revenue $167.5M, Adj EBITDA $8.0M. COVID disruption to foodservice channel.",
-      "bookValuePerShare": 13.34,
+      "bookValuePerShare": 13.3371,
       "daMM": 10.1,
-      "cfoMM": -11.3
+      "cfoMM": -11.3,
+      "integratedFarm": {
+        "plantedAreaHa": 5286,
+        "productionVolume": 5.8,
+        "productionUnit": "M cartons lemons",
+        "treeCrop": {
+          "bearingHa": 4386,
+          "nonBearingHa": 900,
+          "avgTreeAgeYears": 12
+        }
+      },
+      "epsBasic": -0.4257,
+      "interestExpenseMM": 4.0
     },
     {
       "endDate": "2021-01-31",
@@ -419,23 +546,6 @@
     },
     {
       "endDate": "2021-10-31",
-      "periodType": "Q",
-      "revenueMM": 38.5,
-      "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 30,
-        "Real Estate operating expenses": 0.5,
-        "Selling, G&A": 3.5,
-        "D&A": 2,
-        "Other": 0.5
-      },
-      "ebitdaMM": 2,
-      "netIncomeMM": -1.5,
-      "totalAcresK": 12.5,
-      "bookValuePerShare": 13.03,
-      "notes": "Q4 FY21: revenue $38.5M. BVPS = FY21 ($13.03)."
-    },
-    {
-      "endDate": "2021-10-31",
       "periodType": "FY",
       "revenueMM": 173.5,
       "revenueBySegmentMM": {
@@ -462,9 +572,51 @@
       "sharesOutMM": 17.65,
       "dividendPerShare": 0.3,
       "notes": "FY21: revenue $173.5M, Adj EBITDA $13M.",
-      "bookValuePerShare": 13.03,
+      "bookValuePerShare": 13.0312,
       "daMM": 9.8,
-      "cfoMM": 9.6
+      "cfoMM": 9.6,
+      "integratedFarm": {
+        "plantedAreaHa": 5286,
+        "productionVolume": 5.4,
+        "productionUnit": "M cartons lemons",
+        "treeCrop": {
+          "bearingHa": 4462,
+          "nonBearingHa": 824,
+          "avgTreeAgeYears": 13
+        }
+      },
+      "epsBasic": -0.3116,
+      "interestExpenseMM": 3.0
+    },
+    {
+      "endDate": "2021-10-31",
+      "periodType": "Q",
+      "revenueMM": 38.5,
+      "expensesBySegmentMM": {
+        "COGS (Agribusiness)": 30,
+        "Real Estate operating expenses": 0.5,
+        "Selling, G&A": 3.5,
+        "D&A": 2,
+        "Other": 0.5
+      },
+      "ebitdaMM": 2,
+      "netIncomeMM": -1.5,
+      "totalAcresK": 12.5,
+      "bookValuePerShare": 13.03,
+      "notes": "Q4 FY21: revenue $38.5M. BVPS = FY21 ($13.03).",
+      "integratedFarm": {
+        "plantedAreaHa": 5286,
+        "productionVolume": 5.4,
+        "productionUnit": "M cartons lemons",
+        "treeCrop": {
+          "bearingHa": 4462,
+          "nonBearingHa": 824,
+          "avgTreeAgeYears": 13
+        }
+      },
+      "interestExpenseMM": 3.0,
+      "dividendPerShare": 0.3,
+      "totalEquityMM": 240.0
     },
     {
       "endDate": "2022-01-31",
@@ -519,23 +671,6 @@
     },
     {
       "endDate": "2022-10-31",
-      "periodType": "Q",
-      "revenueMM": 33,
-      "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 27,
-        "Real Estate operating expenses": 0.5,
-        "Selling, G&A": 3,
-        "D&A": 2,
-        "Other": 0.5
-      },
-      "ebitdaMM": 0,
-      "netIncomeMM": -3,
-      "totalAcresK": 12.5,
-      "bookValuePerShare": 13.29,
-      "notes": "Q4 FY22: revenue $33.0M. BVPS = FY22 ($13.29)."
-    },
-    {
-      "endDate": "2022-10-31",
       "periodType": "FY",
       "revenueMM": 184,
       "revenueBySegmentMM": {
@@ -554,17 +689,65 @@
       "netIncomeMM": -6.5,
       "totalAssetsMM": 415,
       "totalDebtMM": 110,
-      "cashMM": 0.5,
+      "cashMM": 0.3,
       "netDebtMM": 109.5,
       "totalEquityMM": 235,
-      "propertyBookMM": 290,
+      "propertyBookMM": 199.9,
       "totalAcresK": 12.5,
       "sharesOutMM": 17.68,
       "dividendPerShare": 0.3,
       "notes": "FY22: revenue $184M, Adj EBITDA $14.5M. Avocado pricing strength offset by cost inflation.",
-      "bookValuePerShare": 13.29,
+      "bookValuePerShare": 13.2919,
       "daMM": 9.8,
-      "cfoMM": 14.8
+      "cfoMM": 14.8,
+      "ppeBookMM": 176.6,
+      "inventoryMM": 17.1,
+      "intangibleAssetsMM": 0.3,
+      "integratedFarm": {
+        "plantedAreaHa": 5286,
+        "productionVolume": 5.6,
+        "productionUnit": "M cartons lemons",
+        "treeCrop": {
+          "bearingHa": 4524,
+          "nonBearingHa": 762,
+          "avgTreeAgeYears": 14
+        }
+      },
+      "epsBasic": -0.3676,
+      "interestExpenseMM": 4.0
+    },
+    {
+      "endDate": "2022-10-31",
+      "periodType": "Q",
+      "revenueMM": 33,
+      "expensesBySegmentMM": {
+        "COGS (Agribusiness)": 27,
+        "Real Estate operating expenses": 0.5,
+        "Selling, G&A": 3,
+        "D&A": 2,
+        "Other": 0.5
+      },
+      "ebitdaMM": 0,
+      "netIncomeMM": -3,
+      "totalAcresK": 12.5,
+      "bookValuePerShare": 13.29,
+      "notes": "Q4 FY22: revenue $33.0M. BVPS = FY22 ($13.29).",
+      "ppeBookMM": 256.2,
+      "inventoryMM": 24.8,
+      "intangibleAssetsMM": 0.4,
+      "integratedFarm": {
+        "plantedAreaHa": 5286,
+        "productionVolume": 5.6,
+        "productionUnit": "M cartons lemons",
+        "treeCrop": {
+          "bearingHa": 4524,
+          "nonBearingHa": 762,
+          "avgTreeAgeYears": 14
+        }
+      },
+      "interestExpenseMM": 4.0,
+      "dividendPerShare": 0.3,
+      "totalEquityMM": 220.0
     },
     {
       "endDate": "2023-01-31",
@@ -619,23 +802,6 @@
     },
     {
       "endDate": "2023-10-31",
-      "periodType": "Q",
-      "revenueMM": 31.5,
-      "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 27,
-        "Real Estate operating expenses": 0.5,
-        "Selling, G&A": 3,
-        "D&A": 2,
-        "Other": 0
-      },
-      "ebitdaMM": -1,
-      "netIncomeMM": -3.5,
-      "totalAcresK": 11,
-      "bookValuePerShare": 14.11,
-      "notes": "Q4 FY23: revenue $31.5M. BVPS = FY23 ($14.11)."
-    },
-    {
-      "endDate": "2023-10-31",
       "periodType": "FY",
       "revenueMM": 184,
       "revenueBySegmentMM": {
@@ -654,17 +820,65 @@
       "netIncomeMM": 19.5,
       "totalAssetsMM": 395,
       "totalDebtMM": 50,
-      "cashMM": 1.5,
+      "cashMM": 1.0,
       "netDebtMM": 48.5,
       "totalEquityMM": 250,
-      "propertyBookMM": 250,
+      "propertyBookMM": 173.4,
       "totalAcresK": 11,
       "sharesOutMM": 17.72,
       "dividendPerShare": 0.3,
       "notes": "FY23: revenue $184M, Adj EBITDA $42M including ~$30M gain on Northern Properties sale. Net debt cut to ~$48M. Sold ~1,300+ acres.",
-      "bookValuePerShare": 14.11,
+      "bookValuePerShare": 14.1084,
       "daMM": 8.6,
-      "cfoMM": -15.9
+      "cfoMM": -15.9,
+      "ppeBookMM": 182.3,
+      "inventoryMM": 18.3,
+      "intangibleAssetsMM": 0.3,
+      "integratedFarm": {
+        "plantedAreaHa": 5286,
+        "productionVolume": 5.2,
+        "productionUnit": "M cartons lemons",
+        "treeCrop": {
+          "bearingHa": 4584,
+          "nonBearingHa": 702,
+          "avgTreeAgeYears": 15
+        }
+      },
+      "epsBasic": 1.1005,
+      "interestExpenseMM": 8.0
+    },
+    {
+      "endDate": "2023-10-31",
+      "periodType": "Q",
+      "revenueMM": 31.5,
+      "expensesBySegmentMM": {
+        "COGS (Agribusiness)": 27,
+        "Real Estate operating expenses": 0.5,
+        "Selling, G&A": 3,
+        "D&A": 2,
+        "Other": 0
+      },
+      "ebitdaMM": -1,
+      "netIncomeMM": -3.5,
+      "totalAcresK": 11,
+      "bookValuePerShare": 14.11,
+      "notes": "Q4 FY23: revenue $31.5M. BVPS = FY23 ($14.11).",
+      "ppeBookMM": 262.8,
+      "inventoryMM": 26.4,
+      "intangibleAssetsMM": 0.4,
+      "integratedFarm": {
+        "plantedAreaHa": 5286,
+        "productionVolume": 5.2,
+        "productionUnit": "M cartons lemons",
+        "treeCrop": {
+          "bearingHa": 4584,
+          "nonBearingHa": 702,
+          "avgTreeAgeYears": 15
+        }
+      },
+      "interestExpenseMM": 8.0,
+      "dividendPerShare": 0.3,
+      "totalEquityMM": 230.0
     },
     {
       "endDate": "2024-01-31",
@@ -719,23 +933,6 @@
     },
     {
       "endDate": "2024-10-31",
-      "periodType": "Q",
-      "revenueMM": 32.5,
-      "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 30,
-        "Real Estate operating expenses": 0.5,
-        "Selling, G&A": 3,
-        "D&A": 2,
-        "Other": 0
-      },
-      "ebitdaMM": -3,
-      "netIncomeMM": -8.5,
-      "totalAcresK": 10.5,
-      "bookValuePerShare": 13.24,
-      "notes": "Q4 FY24: revenue $32.5M. BVPS = FY24 ($13.24)."
-    },
-    {
-      "endDate": "2024-10-31",
       "periodType": "FY",
       "revenueMM": 175,
       "revenueBySegmentMM": {
@@ -754,17 +951,65 @@
       "netIncomeMM": -17,
       "totalAssetsMM": 380,
       "totalDebtMM": 65,
-      "cashMM": 1,
+      "cashMM": 0.7,
       "netDebtMM": 64,
       "totalEquityMM": 235,
-      "propertyBookMM": 245,
+      "propertyBookMM": 162.8,
       "totalAcresK": 10.5,
       "sharesOutMM": 17.75,
       "dividendPerShare": 0.3,
       "notes": "FY24: revenue $175M (-5% YoY) on lemon-pricing weakness. Adj EBITDA $5.5M (vs $42M prior year on no comparable land-sale gain). Net loss $17M.",
-      "bookValuePerShare": 13.24,
+      "bookValuePerShare": 13.2394,
       "daMM": 8.4,
-      "cfoMM": 17.9
+      "cfoMM": 17.9,
+      "ppeBookMM": 178.3,
+      "inventoryMM": 19.0,
+      "intangibleAssetsMM": 0.3,
+      "integratedFarm": {
+        "plantedAreaHa": 5286,
+        "productionVolume": 4.8,
+        "productionUnit": "M cartons lemons",
+        "treeCrop": {
+          "bearingHa": 4642,
+          "nonBearingHa": 644,
+          "avgTreeAgeYears": 16
+        }
+      },
+      "epsBasic": -0.9577,
+      "interestExpenseMM": 9.0
+    },
+    {
+      "endDate": "2024-10-31",
+      "periodType": "Q",
+      "revenueMM": 32.5,
+      "expensesBySegmentMM": {
+        "COGS (Agribusiness)": 30,
+        "Real Estate operating expenses": 0.5,
+        "Selling, G&A": 3,
+        "D&A": 2,
+        "Other": 0
+      },
+      "ebitdaMM": -3,
+      "netIncomeMM": -8.5,
+      "totalAcresK": 10.5,
+      "bookValuePerShare": 13.24,
+      "notes": "Q4 FY24: revenue $32.5M. BVPS = FY24 ($13.24).",
+      "ppeBookMM": 268.4,
+      "inventoryMM": 28.6,
+      "intangibleAssetsMM": 0.4,
+      "integratedFarm": {
+        "plantedAreaHa": 5286,
+        "productionVolume": 4.8,
+        "productionUnit": "M cartons lemons",
+        "treeCrop": {
+          "bearingHa": 4642,
+          "nonBearingHa": 644,
+          "avgTreeAgeYears": 16
+        }
+      },
+      "interestExpenseMM": 9.0,
+      "dividendPerShare": 0.3,
+      "totalEquityMM": 250.0
     },
     {
       "endDate": "2025-01-31",
@@ -819,29 +1064,6 @@
     },
     {
       "endDate": "2025-10-31",
-      "periodType": "Q",
-      "revenueMM": 33.5,
-      "expensesBySegmentMM": {
-        "COGS (Agribusiness)": 33,
-        "Real Estate operating expenses": 0.5,
-        "Selling, G&A": 4,
-        "D&A": 2,
-        "Other": 0
-      },
-      "ebitdaMM": -6,
-      "netIncomeMM": -10.5,
-      "totalDebtMM": 72.48,
-      "cashMM": 1.51,
-      "netDebtMM": 70.97,
-      "totalAcresK": 10.5,
-      "sharesOutMM": 17.8,
-      "navPerShare": 10.11,
-      "propertyBookMM": 172.65,
-      "bookValuePerShare": 12.25,
-      "notes": "Q4 FY25: revenue $33.5M. Lemon pricing remained weak through fiscal year end. Net debt $70.97M. Latest seed-data anchor period. BVPS = FY25 ($12.25)."
-    },
-    {
-      "endDate": "2025-10-31",
       "periodType": "FY",
       "revenueMM": 159.7,
       "revenueBySegmentMM": {
@@ -869,9 +1091,42 @@
       "dividendPerShare": 0.3,
       "navPerShare": 10.11,
       "notes": "FY25: revenue $159.7M (-9% YoY) on persistent lemon-pricing weakness and reduced fresh-volume mix. Adj EBITDA $(11.2)M \u2014 first negative full-year Adj EBITDA in recent history. Net debt $70.97M. Book value / share $12.25; reported NAV/share ~$10.11.",
-      "bookValuePerShare": 12.25,
+      "bookValuePerShare": 12.2472,
       "daMM": 9.2,
-      "cfoMM": -6.0
+      "cfoMM": -6.0,
+      "interestExpenseMM": 4.71,
+      "weightedAvgDebtRate": 6.5,
+      "debtMaturityProfileMM": {
+        "<1y": 14.5,
+        "1-3y": 18.12,
+        "3-5y": 14.5,
+        "5+y": 25.37
+      },
+      "epsBasic": -1.6573
+    },
+    {
+      "endDate": "2025-10-31",
+      "periodType": "Q",
+      "revenueMM": 33.5,
+      "expensesBySegmentMM": {
+        "COGS (Agribusiness)": 33,
+        "Real Estate operating expenses": 0.5,
+        "Selling, G&A": 4,
+        "D&A": 2,
+        "Other": 0
+      },
+      "ebitdaMM": -6,
+      "netIncomeMM": -10.5,
+      "totalDebtMM": 72.48,
+      "cashMM": 1.51,
+      "netDebtMM": 70.97,
+      "totalAcresK": 10.5,
+      "sharesOutMM": 17.8,
+      "navPerShare": 10.11,
+      "propertyBookMM": 172.65,
+      "bookValuePerShare": 12.25,
+      "notes": "Q4 FY25: revenue $33.5M. Lemon pricing remained weak through fiscal year end. Net debt $70.97M. Latest seed-data anchor period. BVPS = FY25 ($12.25).",
+      "epsBasic": -0.5899
     }
   ]
 }

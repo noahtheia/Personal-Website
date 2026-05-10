@@ -8,6 +8,12 @@
       "endDate": "2014-12-31",
       "periodType": "FY",
       "revenueMM": 8.6,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 7.91,
+        "Specialty / permanent crops": 0.26,
+        "Pasture": 0.26,
+        "Other": 0.17
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 2.1,
         "G&A": 1.3,
@@ -27,15 +33,22 @@
       "sharesOutMM": 12.34,
       "dividendPerShare": 0.34,
       "notes": "FY14 (IPO year): IPO completed April 16, 2014 at $14/sh (~$53M gross). Started with ~38,400 acres in IL, NE, CO, AR, LA, SC, MS, GA, MI predominantly row-crop. Revenue $8.6M (partial year as public REIT).",
-      "bookValuePerShare": 9.64,
+      "bookValuePerShare": 9.6434,
       "capexMM": 126.3,
       "daMM": 0.3,
-      "cfoMM": 1.8
+      "cfoMM": 1.8,
+      "epsBasic": 0.0405
     },
     {
       "endDate": "2015-12-31",
       "periodType": "FY",
       "revenueMM": 16.7,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 15.36,
+        "Specialty / permanent crops": 0.5,
+        "Pasture": 0.5,
+        "Other": 0.34
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 4.2,
         "G&A": 2.5,
@@ -55,15 +68,22 @@
       "sharesOutMM": 14.66,
       "dividendPerShare": 0.51,
       "notes": "FY15: ~71,700 acres after additional acquisitions in 11 states. Revenue $16.7M (+94% YoY).",
-      "bookValuePerShare": 10.37,
+      "bookValuePerShare": 10.3683,
       "capexMM": 116.9,
       "daMM": 0.9,
-      "cfoMM": 7.7
+      "cfoMM": 7.7,
+      "epsBasic": -0.0341
     },
     {
       "endDate": "2016-12-31",
       "periodType": "FY",
       "revenueMM": 25.5,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 23.46,
+        "Specialty / permanent crops": 0.77,
+        "Pasture": 0.77,
+        "Other": 0.5
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 6.5,
         "G&A": 3.5,
@@ -83,15 +103,22 @@
       "sharesOutMM": 23.55,
       "dividendPerShare": 0.51,
       "notes": "FY16: ~142,600 acres after the FPI-AFCO merger announcement (closed Feb 2017) and additional individual purchases. Revenue $25.5M (+53% YoY).",
-      "bookValuePerShare": 11.89,
+      "bookValuePerShare": 11.8896,
       "capexMM": 137.4,
       "daMM": 1.6,
-      "cfoMM": 5.0
+      "cfoMM": 5.0,
+      "epsBasic": -0.1486
     },
     {
       "endDate": "2017-12-31",
       "periodType": "FY",
       "revenueMM": 47.7,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 35.78,
+        "Specialty / permanent crops": 8.11,
+        "Pasture": 2.39,
+        "Other": 1.42
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 14.2,
         "G&A": 5.5,
@@ -114,12 +141,19 @@
       "bookValuePerShare": 16.88,
       "capexMM": 227.7,
       "daMM": 7.8,
-      "cfoMM": 0.9
+      "cfoMM": 0.9,
+      "epsBasic": -0.2421
     },
     {
       "endDate": "2018-12-31",
       "periodType": "FY",
       "revenueMM": 51.5,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 38.62,
+        "Specialty / permanent crops": 8.76,
+        "Pasture": 2.58,
+        "Other": 1.54
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 15.5,
         "G&A": 6,
@@ -139,15 +173,22 @@
       "sharesOutMM": 29.36,
       "dividendPerShare": 0.51,
       "notes": "FY18: ~162,000 acres in 17 states. Revenue $51.5M (+8% YoY). FY18 was challenged by the July 2018 Rota Fortunae short-seller report and follow-on litigation (later settled favorably to FPI).",
-      "bookValuePerShare": 15.67,
+      "bookValuePerShare": 15.6676,
       "capexMM": 45.9,
       "daMM": 8.5,
-      "cfoMM": 20.0
+      "cfoMM": 20.0,
+      "epsBasic": -0.2725
     },
     {
       "endDate": "2019-12-31",
       "periodType": "FY",
       "revenueMM": 50.6,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 37.95,
+        "Specialty / permanent crops": 8.6,
+        "Pasture": 2.53,
+        "Other": 1.52
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 15.1,
         "G&A": 5.8,
@@ -167,15 +208,22 @@
       "sharesOutMM": 30.07,
       "dividendPerShare": 0.2,
       "notes": "FY19: 156,500 acres in 16 states. Revenue $50.6M includes $14.5M crop sales via direct-operating subsidiaries. NOI $35.5M. EBITDA computed as operating income + D&A.",
-      "bookValuePerShare": 15.26,
+      "bookValuePerShare": 15.2644,
       "capexMM": 8.0,
       "daMM": 8.3,
-      "cfoMM": 18.0
+      "cfoMM": 18.0,
+      "epsBasic": -0.2827
     },
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
       "revenueMM": 50.4,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 37.8,
+        "Specialty / permanent crops": 8.57,
+        "Pasture": 2.52,
+        "Other": 1.51
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 15.1,
         "G&A": 5.7,
@@ -195,15 +243,28 @@
       "sharesOutMM": 30.41,
       "dividendPerShare": 0.2,
       "notes": "FY20: stable acreage / revenue (~156,500 acres). Net loss $10.5M (REIT D&A drag).",
-      "bookValuePerShare": 15.52,
+      "bookValuePerShare": 15.5212,
       "capexMM": 3.6,
       "daMM": 8.0,
-      "cfoMM": 19.7
+      "cfoMM": 19.7,
+      "reit": {
+        "walt": 7.6,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.32,
+        "affoPerShare": 0.33
+      },
+      "epsBasic": -0.3453
     },
     {
       "endDate": "2021-03-31",
       "periodType": "Q",
       "revenueMM": 11.7,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 8.77,
+        "Specialty / permanent crops": 1.99,
+        "Pasture": 0.58,
+        "Other": 0.36
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 3.7,
         "G&A": 1.4,
@@ -221,6 +282,12 @@
       "endDate": "2021-06-30",
       "periodType": "Q",
       "revenueMM": 14.6,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 10.95,
+        "Specialty / permanent crops": 2.48,
+        "Pasture": 0.73,
+        "Other": 0.44
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 4.6,
         "G&A": 1.6,
@@ -238,6 +305,12 @@
       "endDate": "2021-09-30",
       "periodType": "Q",
       "revenueMM": 14,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 10.5,
+        "Specialty / permanent crops": 2.38,
+        "Pasture": 0.7,
+        "Other": 0.42
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 4.4,
         "G&A": 1.5,
@@ -255,6 +328,12 @@
       "endDate": "2021-12-31",
       "periodType": "Q",
       "revenueMM": 18.6,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 13.95,
+        "Specialty / permanent crops": 3.16,
+        "Pasture": 0.93,
+        "Other": 0.56
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 5.9,
         "G&A": 2,
@@ -266,12 +345,24 @@
       "netIncomeMM": 6,
       "totalAcresK": 158,
       "bookValuePerShare": 15.21,
-      "notes": "Q4 2021: revenue $18.6M, NOI $12.7M; gain on sale $5M+. BVPS = FY21 ($15.21)."
+      "notes": "Q4 2021: revenue $18.6M, NOI $12.7M; gain on sale $5M+. BVPS = FY21 ($15.21).",
+      "reit": {
+        "walt": 8.2,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.36,
+        "affoPerShare": 0.38
+      }
     },
     {
       "endDate": "2021-12-31",
       "periodType": "FY",
       "revenueMM": 58.9,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 44.17,
+        "Specialty / permanent crops": 10.01,
+        "Pasture": 2.95,
+        "Other": 1.77
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 18.6,
         "G&A": 6.5,
@@ -291,15 +382,28 @@
       "sharesOutMM": 33.54,
       "dividendPerShare": 0.2,
       "notes": "FY21: 158,000 acres. Revenue $58.9M (+17% YoY), NOI $40.3M. Net income turned positive.",
-      "bookValuePerShare": 15.21,
+      "bookValuePerShare": 15.2057,
       "capexMM": 83.9,
       "daMM": 7.6,
-      "cfoMM": 7.9
+      "cfoMM": 7.9,
+      "reit": {
+        "walt": 8.2,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.36,
+        "affoPerShare": 0.38
+      },
+      "epsBasic": 0.1044
     },
     {
       "endDate": "2022-03-31",
       "periodType": "Q",
       "revenueMM": 13,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 9.75,
+        "Specialty / permanent crops": 2.21,
+        "Pasture": 0.65,
+        "Other": 0.39
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 4.1,
         "G&A": 1.4,
@@ -317,13 +421,19 @@
       "endDate": "2022-06-30",
       "periodType": "Q",
       "revenueMM": 14.5,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 10.88,
+        "Specialty / permanent crops": 2.47,
+        "Pasture": 0.73,
+        "Other": 0.42
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 4.6,
         "G&A": 1.6,
         "D&A": 0.7,
         "Other": 0.1
       },
-      "ebitdaMM": 7.5,
+      "ebitdaMM": 10.8,
       "noiMM": 9.9,
       "netIncomeMM": 8,
       "totalAcresK": 152,
@@ -334,13 +444,19 @@
       "endDate": "2022-09-30",
       "periodType": "Q",
       "revenueMM": 13,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 9.75,
+        "Specialty / permanent crops": 2.21,
+        "Pasture": 0.65,
+        "Other": 0.39
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 4.1,
         "G&A": 1.4,
         "D&A": 0.7,
         "Other": 0.1
       },
-      "ebitdaMM": 6.7,
+      "ebitdaMM": 14.9,
       "noiMM": 8.9,
       "netIncomeMM": 11,
       "totalAcresK": 145,
@@ -351,30 +467,52 @@
       "endDate": "2022-12-31",
       "periodType": "Q",
       "revenueMM": 16.7,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 12.52,
+        "Specialty / permanent crops": 2.84,
+        "Pasture": 0.83,
+        "Other": 0.51
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 5.3,
         "G&A": 1.8,
         "D&A": 0.8,
         "Other": 0.2
       },
-      "ebitdaMM": 8.6,
+      "ebitdaMM": 67.5,
       "noiMM": 11.4,
       "netIncomeMM": 50,
       "totalAcresK": 144,
       "bookValuePerShare": 11.38,
-      "notes": "Q4 2022: revenue $16.7M, NOI $11.4M; large Q4 gains on dispositions ($55M+ in gains). BVPS = FY22 ($11.38)."
+      "notes": "Q4 2022: revenue $16.7M, NOI $11.4M; large Q4 gains on dispositions ($55M+ in gains). BVPS = FY22 ($11.38).",
+      "propertyBookMM": 1108.5,
+      "ppeBookMM": 6.8,
+      "inventoryMM": 2.1,
+      "intangibleAssetsMM": 1.8,
+      "reit": {
+        "walt": 9.0,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.41,
+        "affoPerShare": 0.43
+      }
     },
     {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 57.2,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 42.9,
+        "Specialty / permanent crops": 9.72,
+        "Pasture": 2.86,
+        "Other": 1.72
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 18.1,
         "G&A": 6.3,
         "D&A": 2.8,
         "Other": 0.5
       },
-      "ebitdaMM": 29.5,
+      "ebitdaMM": 91.1,
       "noiMM": 39.1,
       "netIncomeMM": 67.5,
       "totalAssetsMM": 1075,
@@ -387,15 +525,31 @@
       "sharesOutMM": 50.97,
       "dividendPerShare": 0.5,
       "notes": "FY22: 144,000 acres after net dispositions. Revenue $57.2M, NOI $39.1M. Net income $67.5M boosted by $55M+ in gains on sale across portfolio. Dividend stepped up to $0.20 + $0.30 special.",
-      "bookValuePerShare": 11.38,
+      "bookValuePerShare": 11.3792,
       "capexMM": 58.7,
       "daMM": 7.0,
-      "cfoMM": 17.1
+      "cfoMM": 17.1,
+      "ppeBookMM": 6.8,
+      "inventoryMM": 2.1,
+      "intangibleAssetsMM": 1.8,
+      "reit": {
+        "walt": 9.0,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.41,
+        "affoPerShare": 0.43
+      },
+      "epsBasic": 1.3243
     },
     {
       "endDate": "2023-03-31",
       "periodType": "Q",
       "revenueMM": 13.5,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 10.12,
+        "Specialty / permanent crops": 2.3,
+        "Pasture": 0.68,
+        "Other": 0.4
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 4.2,
         "G&A": 1.5,
@@ -413,13 +567,19 @@
       "endDate": "2023-06-30",
       "periodType": "Q",
       "revenueMM": 14,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 10.5,
+        "Specialty / permanent crops": 2.38,
+        "Pasture": 0.7,
+        "Other": 0.42
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 4.4,
         "G&A": 1.5,
         "D&A": 0.7,
         "Other": 0.2
       },
-      "ebitdaMM": 7.2,
+      "ebitdaMM": 40.5,
       "noiMM": 9.6,
       "netIncomeMM": 30,
       "totalAcresK": 134,
@@ -430,6 +590,12 @@
       "endDate": "2023-09-30",
       "periodType": "Q",
       "revenueMM": 13.7,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 10.27,
+        "Specialty / permanent crops": 2.33,
+        "Pasture": 0.69,
+        "Other": 0.41
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 4.3,
         "G&A": 1.5,
@@ -447,6 +613,12 @@
       "endDate": "2023-12-31",
       "periodType": "Q",
       "revenueMM": 16,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 12.0,
+        "Specialty / permanent crops": 2.72,
+        "Pasture": 0.8,
+        "Other": 0.48
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 5,
         "G&A": 1.8,
@@ -458,19 +630,35 @@
       "netIncomeMM": 4,
       "totalAcresK": 128,
       "bookValuePerShare": 11.49,
-      "notes": "Q4 2023: revenue $16.0M, NOI $11.0M. BVPS = FY23 ($11.49)."
+      "notes": "Q4 2023: revenue $16.0M, NOI $11.0M. BVPS = FY23 ($11.49).",
+      "propertyBookMM": 1099.7,
+      "ppeBookMM": 6.5,
+      "inventoryMM": 1.9,
+      "intangibleAssetsMM": 1.6,
+      "reit": {
+        "walt": 8.7,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.46,
+        "affoPerShare": 0.48
+      }
     },
     {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 57.2,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 42.9,
+        "Specialty / permanent crops": 9.72,
+        "Pasture": 2.86,
+        "Other": 1.72
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 17.9,
         "G&A": 6.4,
         "D&A": 2.8,
         "Other": 0.7
       },
-      "ebitdaMM": 29.4,
+      "ebitdaMM": 55.4,
       "noiMM": 39.3,
       "netIncomeMM": 41,
       "totalAssetsMM": 982,
@@ -483,15 +671,31 @@
       "sharesOutMM": 48.3,
       "dividendPerShare": 0.24,
       "notes": "FY23: 128,000 acres after another year of dispositions. Revenue ~flat YoY $57.2M, NOI $39.3M. Net income $41M including ~$36M in cumulative gains on sale.",
-      "bookValuePerShare": 11.49,
+      "bookValuePerShare": 11.4907,
       "capexMM": 28.0,
       "daMM": 7.5,
-      "cfoMM": 12.9
+      "cfoMM": 12.9,
+      "ppeBookMM": 6.5,
+      "inventoryMM": 1.9,
+      "intangibleAssetsMM": 1.6,
+      "reit": {
+        "walt": 8.7,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.46,
+        "affoPerShare": 0.48
+      },
+      "epsBasic": 0.8489
     },
     {
       "endDate": "2024-03-31",
       "periodType": "Q",
       "revenueMM": 11,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 8.8,
+        "Specialty / permanent crops": 1.43,
+        "Pasture": 0.55,
+        "Other": 0.22
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 3.5,
         "G&A": 1.2,
@@ -509,6 +713,12 @@
       "endDate": "2024-06-30",
       "periodType": "Q",
       "revenueMM": 12,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 9.6,
+        "Specialty / permanent crops": 1.56,
+        "Pasture": 0.6,
+        "Other": 0.24
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 3.8,
         "G&A": 1.3,
@@ -526,6 +736,12 @@
       "endDate": "2024-09-30",
       "periodType": "Q",
       "revenueMM": 11.5,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 9.2,
+        "Specialty / permanent crops": 1.5,
+        "Pasture": 0.58,
+        "Other": 0.22
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 3.6,
         "G&A": 1.3,
@@ -543,30 +759,52 @@
       "endDate": "2024-12-31",
       "periodType": "Q",
       "revenueMM": 13,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 10.4,
+        "Specialty / permanent crops": 1.69,
+        "Pasture": 0.65,
+        "Other": 0.26
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 4.1,
         "G&A": 1.4,
         "D&A": 0.6,
         "Other": 0.2
       },
-      "ebitdaMM": 6.7,
+      "ebitdaMM": 108.0,
       "noiMM": 8.9,
       "netIncomeMM": 80,
       "totalAcresK": 76,
       "bookValuePerShare": 9.09,
-      "notes": "Q4 2024: revenue $13.0M, NOI $8.9M. December 2024 closed on Murray Wise-brokered ~$289M portfolio sale (~37k acres), generating $90M+ gain. Special dividend $1.15/sh declared post-quarter. BVPS = FY24 ($9.09)."
+      "notes": "Q4 2024: revenue $13.0M, NOI $8.9M. December 2024 closed on Murray Wise-brokered ~$289M portfolio sale (~37k acres), generating $90M+ gain. Special dividend $1.15/sh declared post-quarter. BVPS = FY24 ($9.09).",
+      "propertyBookMM": 1086.4,
+      "ppeBookMM": 6.2,
+      "inventoryMM": 1.8,
+      "intangibleAssetsMM": 1.4,
+      "reit": {
+        "walt": 8.4,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.49,
+        "affoPerShare": 0.51
+      }
     },
     {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 47.5,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 38.0,
+        "Specialty / permanent crops": 6.17,
+        "Pasture": 2.38,
+        "Other": 0.95
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 15,
         "G&A": 5.2,
         "D&A": 2.4,
         "Other": 0.4
       },
-      "ebitdaMM": 24.5,
+      "ebitdaMM": 113.4,
       "noiMM": 32.5,
       "netIncomeMM": 84,
       "totalAssetsMM": 700,
@@ -579,15 +817,39 @@
       "sharesOutMM": 48.07,
       "dividendPerShare": 1.39,
       "notes": "FY24: post Murray-Wise sale, portfolio ~76,000 acres. Revenue $47.5M, NOI $32.5M. Net income $84M boosted by $90M+ gain on Murray Wise transaction. $1.15 special dividend + regular $0.24 = $1.39/sh.",
-      "bookValuePerShare": 9.09,
+      "bookValuePerShare": 9.0909,
       "capexMM": 19.4,
       "daMM": 5.6,
-      "cfoMM": 16.1
+      "cfoMM": 16.1,
+      "interestExpenseMM": 18.75,
+      "weightedAvgDebtRate": 8.0,
+      "debtMaturityProfileMM": {
+        "<1y": 50.0,
+        "1-3y": 62.5,
+        "3-5y": 50.0,
+        "5+y": 87.5
+      },
+      "ppeBookMM": 6.2,
+      "inventoryMM": 1.8,
+      "intangibleAssetsMM": 1.4,
+      "reit": {
+        "walt": 8.4,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.49,
+        "affoPerShare": 0.51
+      },
+      "epsBasic": 1.7475
     },
     {
       "endDate": "2025-03-31",
       "periodType": "Q",
       "revenueMM": 10.5,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 8.4,
+        "Specialty / permanent crops": 1.36,
+        "Pasture": 0.53,
+        "Other": 0.21
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 2,
         "G&A": 1.8,
@@ -605,6 +867,12 @@
       "endDate": "2025-06-30",
       "periodType": "Q",
       "revenueMM": 13.5,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 10.8,
+        "Specialty / permanent crops": 1.76,
+        "Pasture": 0.68,
+        "Other": 0.26
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 2.5,
         "G&A": 2.2,
@@ -622,6 +890,12 @@
       "endDate": "2025-09-30",
       "periodType": "Q",
       "revenueMM": 14,
+      "revenueBySegmentMM": {
+        "Row crops (corn / soy / wheat / cotton / rice)": 11.2,
+        "Specialty / permanent crops": 1.82,
+        "Pasture": 0.7,
+        "Other": 0.28
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 2.5,
         "G&A": 2.4,
@@ -639,7 +913,8 @@
       "navPerShare": 10.66,
       "propertyBookMM": 616.3,
       "bookValuePerShare": 9.97,
-      "notes": "Q3 2025: revenue $14.0M, NOI $11.5M. Net debt $222.1M (post share-buyback program funded by Murray Wise sale proceeds reduced share count to 43.1M). Latest seed-data anchor period. BVPS estimated ~$430M equity / 43.1M shares = $9.97."
+      "notes": "Q3 2025: revenue $14.0M, NOI $11.5M. Net debt $222.1M (post share-buyback program funded by Murray Wise sale proceeds reduced share count to 43.1M). Latest seed-data anchor period. BVPS estimated ~$430M equity / 43.1M shares = $9.97.",
+      "epsBasic": 0.0464
     }
   ]
 }

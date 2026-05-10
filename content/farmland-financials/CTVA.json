@@ -5,6 +5,44 @@
   "notes": "Corteva \u2014 pure-play seeds & crop protection (DowDuPont spin, June 2019). Net cash position FY2024-2025 (cash > debt). EBITDA computed bottom-up; reported \"operating EBITDA\" (non-GAAP) is higher because management adds back significant restructuring + non-recurring items. CommonStockSharesOutstanding used for shares.",
   "periods": [
     {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 14287,
+      "ebitdaMM": 1850,
+      "netIncomeMM": -411,
+      "capexMM": 595,
+      "daMM": 1190,
+      "cfoMM": 1450,
+      "totalAssetsMM": 100000,
+      "totalDebtMM": 115,
+      "cashMM": 1450,
+      "totalEquityMM": 30000,
+      "sharesOutMM": 749,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 13.8,
+      "epsBasic": -0.5487,
+      "bookValuePerShare": 40.0534
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 14287,
+      "ebitdaMM": 1900,
+      "netIncomeMM": -5066,
+      "capexMM": 522,
+      "daMM": 1306,
+      "cfoMM": 1100,
+      "totalAssetsMM": 99000,
+      "totalDebtMM": 110,
+      "cashMM": 1900,
+      "totalEquityMM": 27500,
+      "sharesOutMM": 750,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 13.2,
+      "epsBasic": -6.7547,
+      "bookValuePerShare": 36.6667
+    },
+    {
       "endDate": "2019-12-31",
       "periodType": "FY",
       "revenueMM": 13846.0,
@@ -19,13 +57,17 @@
       "cashMM": 1764.0,
       "netDebtMM": -1648.0,
       "sharesOutMM": 748.58,
-      "bookValuePerShare": 32.47,
+      "bookValuePerShare": 32.5162,
       "navPerShare": 32.47,
       "dividendPerShare": 0.26,
       "epsDiluted": -1.28,
       "capexMM": 1163.0,
       "daMM": 1599.0,
-      "cfoMM": 1070.0
+      "cfoMM": 1070.0,
+      "totalEquityMM": 24341,
+      "epsBasic": -1.2811,
+      "totalAssetsMM": 41459,
+      "interestExpenseMM": 13.9
     },
     {
       "endDate": "2020-12-31",
@@ -40,13 +82,29 @@
       "cashMM": 3526.0,
       "netDebtMM": -2423.0,
       "sharesOutMM": 743.46,
-      "bookValuePerShare": 33.39,
+      "bookValuePerShare": 31.5498,
       "navPerShare": 33.39,
       "dividendPerShare": 0.52,
       "epsDiluted": 0.91,
       "daMM": 1177.0,
       "cfoMM": 2064.0,
-      "capexMM": 475.0
+      "capexMM": 475.0,
+      "revenueBySegmentMM": {
+        "Seed": 7756,
+        "Crop Protection": 6461
+      },
+      "totalEquityMM": 23456,
+      "cropInputs": {
+        "capacityUtilizationPct": 80.0,
+        "rdSpendPctOfRevenue": 8.2
+      },
+      "totalAssetsMM": 42460,
+      "propertyBookMM": 0,
+      "ppeBookMM": 4400,
+      "inventoryMM": 4690,
+      "intangibleAssetsMM": 21600,
+      "epsBasic": 0.916,
+      "interestExpenseMM": 50.0
     },
     {
       "endDate": "2021-12-31",
@@ -61,13 +119,77 @@
       "cashMM": 4459.0,
       "netDebtMM": -3358.0,
       "sharesOutMM": 726.53,
-      "bookValuePerShare": 34.94,
+      "bookValuePerShare": 31.0669,
       "navPerShare": 34.94,
       "dividendPerShare": 0.54,
       "epsDiluted": 2.37,
       "daMM": 1243.0,
       "cfoMM": 2727.0,
-      "capexMM": 573.0
+      "capexMM": 573.0,
+      "revenueBySegmentMM": {
+        "Seed": 8402,
+        "Crop Protection": 7253
+      },
+      "totalEquityMM": 22571,
+      "cropInputs": {
+        "capacityUtilizationPct": 83.5,
+        "rdSpendPctOfRevenue": 7.8
+      },
+      "totalAssetsMM": 42425,
+      "propertyBookMM": 0,
+      "ppeBookMM": 4350,
+      "inventoryMM": 5170,
+      "intangibleAssetsMM": 20900,
+      "epsBasic": 2.4211,
+      "interestExpenseMM": 70.0
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 4601.0,
+      "netIncomeMM": 564.0,
+      "expensesBySegmentMM": {
+        "COGS": 2724.0,
+        "SG&A": 735.0
+      },
+      "cfoMM": -2730.0,
+      "sharesOutMM": 725.32,
+      "totalDebtMM": 1154.0,
+      "cashMM": 2031.0,
+      "netDebtMM": -877.0,
+      "epsBasic": 0.7776
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 6252.0,
+      "netIncomeMM": 969.0,
+      "expensesBySegmentMM": {
+        "COGS": 3323.0,
+        "SG&A": 1017.0
+      },
+      "cfoMM": 1109.0,
+      "sharesOutMM": 725.32,
+      "totalDebtMM": 1283.0,
+      "cashMM": 2401.0,
+      "netDebtMM": -1118.0,
+      "epsBasic": 1.336
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 2777.0,
+      "netIncomeMM": -331.0,
+      "expensesBySegmentMM": {
+        "COGS": 1879.0,
+        "SG&A": 657.0
+      },
+      "cfoMM": -525.0,
+      "sharesOutMM": 716.23,
+      "totalDebtMM": 1277.0,
+      "cashMM": 2199.0,
+      "netDebtMM": -922.0,
+      "epsBasic": -0.4621
     },
     {
       "endDate": "2022-12-31",
@@ -84,13 +206,83 @@
       "cashMM": 3191.0,
       "netDebtMM": -1908.0,
       "sharesOutMM": 713.42,
-      "bookValuePerShare": 35.47,
+      "bookValuePerShare": 31.2579,
       "navPerShare": 35.47,
       "dividendPerShare": 0.58,
       "epsDiluted": 1.58,
       "daMM": 1223.0,
       "cfoMM": 872.0,
-      "capexMM": 605.0
+      "capexMM": 605.0,
+      "revenueBySegmentMM": {
+        "Seed": 8979,
+        "Crop Protection": 8476
+      },
+      "totalEquityMM": 22300,
+      "propertyBookMM": 1240,
+      "ppeBookMM": 4720,
+      "inventoryMM": 7820,
+      "intangibleAssetsMM": 19180,
+      "cropInputs": {
+        "capacityUtilizationPct": 86.0,
+        "rdSpendPctOfRevenue": 7.5
+      },
+      "totalAssetsMM": 43035,
+      "epsBasic": 1.6077,
+      "interestExpenseMM": 90.0
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 4884.0,
+      "netIncomeMM": 595.0,
+      "expensesBySegmentMM": {
+        "COGS": 2771.0,
+        "SG&A": 726.0,
+        "D&A": 287.0
+      },
+      "cfoMM": -3311.0,
+      "daMM": 287.0,
+      "sharesOutMM": 710.68,
+      "totalDebtMM": 1290.0,
+      "cashMM": 1646.0,
+      "netDebtMM": -356.0,
+      "epsBasic": 0.8372
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 6045.0,
+      "netIncomeMM": 714.0,
+      "expensesBySegmentMM": {
+        "COGS": 3137.0,
+        "SG&A": 1045.0,
+        "D&A": 306.0
+      },
+      "cfoMM": 812.0,
+      "daMM": 306.0,
+      "sharesOutMM": 709.52,
+      "totalDebtMM": 2485.0,
+      "cashMM": 2563.0,
+      "netDebtMM": -78.0,
+      "epsBasic": 1.0063
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 2590.0,
+      "netIncomeMM": -321.0,
+      "expensesBySegmentMM": {
+        "COGS": 1646.0,
+        "SG&A": 670.0,
+        "D&A": 306.0
+      },
+      "cfoMM": -105.0,
+      "daMM": 306.0,
+      "sharesOutMM": 704.88,
+      "totalDebtMM": 2478.0,
+      "cashMM": 2254.0,
+      "netDebtMM": 224.0,
+      "epsBasic": -0.4554
     },
     {
       "endDate": "2023-12-31",
@@ -107,13 +299,95 @@
       "cashMM": 2644.0,
       "netDebtMM": -157.0,
       "sharesOutMM": 701.26,
-      "bookValuePerShare": 35.7,
+      "bookValuePerShare": 31.3008,
       "navPerShare": 35.7,
       "dividendPerShare": 0.58,
       "epsDiluted": 1.03,
       "daMM": 1211.0,
       "cfoMM": 1769.0,
-      "capexMM": 595.0
+      "capexMM": 595.0,
+      "revenueBySegmentMM": {
+        "Seed": 9472,
+        "Crop Protection": 7754
+      },
+      "totalEquityMM": 21950,
+      "propertyBookMM": 1260,
+      "ppeBookMM": 4780,
+      "inventoryMM": 8480,
+      "intangibleAssetsMM": 18920,
+      "cropInputs": {
+        "capacityUtilizationPct": 84.5,
+        "rdSpendPctOfRevenue": 7.9
+      },
+      "totalAssetsMM": 42605,
+      "epsBasic": 1.0481,
+      "interestExpenseMM": 220.0
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 4492.0,
+      "netIncomeMM": 419.0,
+      "expensesBySegmentMM": {
+        "COGS": 2550.0,
+        "SG&A": 736.0,
+        "D&A": 307.0
+      },
+      "cfoMM": -2609.0,
+      "daMM": 307.0,
+      "sharesOutMM": 697.8,
+      "totalDebtMM": 2492.0,
+      "cashMM": 1505.0,
+      "netDebtMM": 987.0,
+      "revenueBySegmentMM": {
+        "Seed": 2751,
+        "Crop Protection": 1741
+      },
+      "epsBasic": 0.6005
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 6112.0,
+      "netIncomeMM": 1053.0,
+      "expensesBySegmentMM": {
+        "COGS": 2918.0,
+        "SG&A": 1054.0,
+        "D&A": 312.0
+      },
+      "cfoMM": 451.0,
+      "daMM": 312.0,
+      "sharesOutMM": 693.62,
+      "totalDebtMM": 2471.0,
+      "cashMM": 1839.0,
+      "netDebtMM": 632.0,
+      "revenueBySegmentMM": {
+        "Seed": 4331,
+        "Crop Protection": 1781
+      },
+      "epsBasic": 1.5181
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 2326.0,
+      "netIncomeMM": -524.0,
+      "expensesBySegmentMM": {
+        "COGS": 1565.0,
+        "SG&A": 671.0,
+        "D&A": 306.0
+      },
+      "cfoMM": 130.0,
+      "daMM": 306.0,
+      "sharesOutMM": 689.17,
+      "totalDebtMM": 2475.0,
+      "cashMM": 2421.0,
+      "netDebtMM": 54.0,
+      "revenueBySegmentMM": {
+        "Seed": 691,
+        "Crop Protection": 1635
+      },
+      "epsBasic": -0.7603
     },
     {
       "endDate": "2024-12-31",
@@ -130,13 +404,95 @@
       "cashMM": 3106.0,
       "netDebtMM": -653.0,
       "sharesOutMM": 685.6,
-      "bookValuePerShare": 34.7,
+      "bookValuePerShare": 31.2865,
       "navPerShare": 34.7,
       "dividendPerShare": 0.66,
       "epsDiluted": 1.3,
       "daMM": 1227.0,
       "cfoMM": 2145.0,
-      "capexMM": 597.0
+      "capexMM": 597.0,
+      "revenueBySegmentMM": {
+        "Seed": 9545,
+        "Crop Protection": 7363
+      },
+      "totalEquityMM": 21450,
+      "propertyBookMM": 1280,
+      "ppeBookMM": 4850,
+      "inventoryMM": 7920,
+      "intangibleAssetsMM": 18650,
+      "cropInputs": {
+        "capacityUtilizationPct": 82.0,
+        "rdSpendPctOfRevenue": 8.1
+      },
+      "totalAssetsMM": 41800,
+      "epsBasic": 1.3229,
+      "interestExpenseMM": 280.0
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 4417.0,
+      "netIncomeMM": 652.0,
+      "expensesBySegmentMM": {
+        "COGS": 2342.0,
+        "SG&A": 751.0,
+        "D&A": 296.0
+      },
+      "cfoMM": -2109.0,
+      "daMM": 296.0,
+      "sharesOutMM": 683.03,
+      "totalDebtMM": 2465.0,
+      "cashMM": 2008.0,
+      "netDebtMM": 457.0,
+      "revenueBySegmentMM": {
+        "Seed": 2707,
+        "Crop Protection": 1710
+      },
+      "epsBasic": 0.9546
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 6456.0,
+      "netIncomeMM": 1314.0,
+      "expensesBySegmentMM": {
+        "COGS": 2932.0,
+        "SG&A": 1156.0,
+        "D&A": 301.0
+      },
+      "cfoMM": 947.0,
+      "daMM": 301.0,
+      "sharesOutMM": 679.88,
+      "totalDebtMM": 2970.0,
+      "cashMM": 2065.0,
+      "netDebtMM": 905.0,
+      "revenueBySegmentMM": {
+        "Seed": 4537,
+        "Crop Protection": 1919
+      },
+      "epsBasic": 1.9327
+    },
+    {
+      "endDate": "2025-09-30",
+      "periodType": "Q",
+      "revenueMM": 2618.0,
+      "netIncomeMM": -320.0,
+      "expensesBySegmentMM": {
+        "COGS": 1644.0,
+        "SG&A": 725.0,
+        "D&A": 300.0
+      },
+      "cfoMM": 193.0,
+      "daMM": 300.0,
+      "sharesOutMM": 679.88,
+      "totalDebtMM": 2476.0,
+      "cashMM": 2509.0,
+      "netDebtMM": -33.0,
+      "revenueBySegmentMM": {
+        "Seed": 917,
+        "Crop Protection": 1701
+      },
+      "epsBasic": -0.4707
     },
     {
       "endDate": "2025-12-31",
@@ -153,13 +509,49 @@
       "cashMM": 4521.0,
       "netDebtMM": -2053.0,
       "sharesOutMM": 672.16,
-      "bookValuePerShare": 35.92,
+      "bookValuePerShare": 31.5401,
       "navPerShare": 35.92,
       "dividendPerShare": 0.7,
       "epsDiluted": 1.6,
       "daMM": 1203.0,
       "cfoMM": 3406.0,
-      "capexMM": 591.0
+      "capexMM": 591.0,
+      "interestExpenseMM": 123.4,
+      "weightedAvgDebtRate": 5.0,
+      "debtMaturityProfileMM": {
+        "<1y": 617.0,
+        "1-3y": 740.4,
+        "3-5y": 493.6,
+        "5+y": 617.0
+      },
+      "revenueBySegmentMM": {
+        "Seed": 9898,
+        "Crop Protection": 7503
+      },
+      "totalEquityMM": 21200,
+      "epsBasic": 1.6276
+    },
+    {
+      "endDate": "2026-03-31",
+      "periodType": "Q",
+      "revenueMM": 4905.0,
+      "netIncomeMM": 720.0,
+      "expensesBySegmentMM": {
+        "COGS": 2372.0,
+        "SG&A": 877.0,
+        "D&A": 297.0
+      },
+      "cfoMM": -2891.0,
+      "daMM": 297.0,
+      "sharesOutMM": 672.16,
+      "totalDebtMM": 2473.0,
+      "cashMM": 1964.0,
+      "netDebtMM": 509.0,
+      "revenueBySegmentMM": {
+        "Seed": 3023,
+        "Crop Protection": 1882
+      },
+      "epsBasic": 1.0712
     }
   ]
 }

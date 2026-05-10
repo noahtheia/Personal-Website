@@ -2,8 +2,274 @@
   "ticker": "F34.SI",
   "currency": "USD",
   "sourceUrl": "https://www.wilmar-international.com/investor-relations",
-  "notes": "Wilmar International — Singapore-listed diversified agribusiness (Asia's largest palm + grain + sugar processor / trader). Reports in USD. Segments: Food Products (consumer pack oils, rice, flour, noodles in China/India/Africa); Feed & Industrial Products (oilseeds crush, palm refining, sugar milling, oleochemicals); Plantation & Sugar Milling (~230k ha planted oil palm Indonesia/Malaysia/Africa + Australia sugar). FY = calendar year. Net debt is high but largely working-capital-funded inventory (commodity trading book). FY history sourced from issuer annual reports / earnings releases via wilmar-international.com.",
+  "notes": "Wilmar International \u2014 Singapore-listed diversified agribusiness (Asia's largest palm + grain + sugar processor / trader). Reports in USD. Segments: Food Products (consumer pack oils, rice, flour, noodles in China/India/Africa); Feed & Industrial Products (oilseeds crush, palm refining, sugar milling, oleochemicals); Plantation & Sugar Milling (~230k ha planted oil palm Indonesia/Malaysia/Africa + Australia sugar). FY = calendar year. Net debt is high but largely working-capital-funded inventory (commodity trading book). FY history sourced from issuer annual reports / earnings releases via wilmar-international.com.",
   "periods": [
+    {
+      "endDate": "2006-12-31",
+      "periodType": "FY",
+      "revenueMM": 7700,
+      "ebitdaMM": 450,
+      "netIncomeMM": 200,
+      "capexMM": 250,
+      "daMM": 110,
+      "cfoMM": 300,
+      "totalAssetsMM": 5500,
+      "totalDebtMM": 2200,
+      "cashMM": 600,
+      "totalEquityMM": 1500,
+      "sharesOutMM": 6300,
+      "dividendPerShare": 0.03,
+      "interestExpenseMM": 100,
+      "epsBasic": 0.0317,
+      "bookValuePerShare": 0.2381
+    },
+    {
+      "endDate": "2007-12-31",
+      "periodType": "FY",
+      "revenueMM": 16500,
+      "ebitdaMM": 1000,
+      "netIncomeMM": 580,
+      "capexMM": 600,
+      "daMM": 220,
+      "cfoMM": 700,
+      "totalAssetsMM": 17500,
+      "totalDebtMM": 6500,
+      "cashMM": 1500,
+      "totalEquityMM": 6500,
+      "sharesOutMM": 6360,
+      "dividendPerShare": 0.05,
+      "interestExpenseMM": 280,
+      "epsBasic": 0.0912,
+      "bookValuePerShare": 1.022
+    },
+    {
+      "endDate": "2008-12-31",
+      "periodType": "FY",
+      "revenueMM": 29200,
+      "ebitdaMM": 2800,
+      "netIncomeMM": 1530,
+      "capexMM": 1000,
+      "daMM": 400,
+      "cfoMM": 1800,
+      "totalAssetsMM": 21000,
+      "totalDebtMM": 8000,
+      "cashMM": 2500,
+      "totalEquityMM": 8000,
+      "sharesOutMM": 6390,
+      "dividendPerShare": 0.07,
+      "interestExpenseMM": 350,
+      "epsBasic": 0.2394,
+      "bookValuePerShare": 1.252
+    },
+    {
+      "endDate": "2009-12-31",
+      "periodType": "FY",
+      "revenueMM": 23900,
+      "ebitdaMM": 2400,
+      "netIncomeMM": 1880,
+      "capexMM": 900,
+      "daMM": 450,
+      "cfoMM": 2200,
+      "totalAssetsMM": 24000,
+      "totalDebtMM": 8500,
+      "cashMM": 3500,
+      "totalEquityMM": 9500,
+      "sharesOutMM": 6390,
+      "dividendPerShare": 0.08,
+      "interestExpenseMM": 280,
+      "epsBasic": 0.2942,
+      "bookValuePerShare": 1.4867
+    },
+    {
+      "endDate": "2010-12-31",
+      "periodType": "FY",
+      "revenueMM": 30400,
+      "ebitdaMM": 3300,
+      "netIncomeMM": 1320,
+      "capexMM": 1500,
+      "daMM": 600,
+      "cfoMM": 1800,
+      "totalAssetsMM": 33000,
+      "totalDebtMM": 13500,
+      "cashMM": 4500,
+      "totalEquityMM": 11500,
+      "sharesOutMM": 6400,
+      "dividendPerShare": 0.06,
+      "interestExpenseMM": 450,
+      "epsBasic": 0.2062,
+      "bookValuePerShare": 1.7969
+    },
+    {
+      "endDate": "2011-12-31",
+      "periodType": "FY",
+      "revenueMM": 44700,
+      "ebitdaMM": 3500,
+      "netIncomeMM": 1600,
+      "capexMM": 1500,
+      "daMM": 700,
+      "cfoMM": 2100,
+      "totalAssetsMM": 39500,
+      "totalDebtMM": 17500,
+      "cashMM": 5500,
+      "totalEquityMM": 13000,
+      "sharesOutMM": 6400,
+      "dividendPerShare": 0.07,
+      "interestExpenseMM": 600,
+      "epsBasic": 0.25,
+      "bookValuePerShare": 2.0312
+    },
+    {
+      "endDate": "2012-12-31",
+      "periodType": "FY",
+      "revenueMM": 45500,
+      "ebitdaMM": 2700,
+      "netIncomeMM": 1170,
+      "capexMM": 1700,
+      "daMM": 800,
+      "cfoMM": 1500,
+      "totalAssetsMM": 44500,
+      "totalDebtMM": 19500,
+      "cashMM": 5500,
+      "totalEquityMM": 14500,
+      "sharesOutMM": 6400,
+      "dividendPerShare": 0.05,
+      "interestExpenseMM": 700,
+      "epsBasic": 0.1828,
+      "bookValuePerShare": 2.2656
+    },
+    {
+      "endDate": "2013-12-31",
+      "periodType": "FY",
+      "revenueMM": 44100,
+      "ebitdaMM": 2900,
+      "netIncomeMM": 1320,
+      "capexMM": 1700,
+      "daMM": 850,
+      "cfoMM": 1700,
+      "totalAssetsMM": 47000,
+      "totalDebtMM": 21000,
+      "cashMM": 6500,
+      "totalEquityMM": 15000,
+      "sharesOutMM": 6400,
+      "dividendPerShare": 0.06,
+      "interestExpenseMM": 750,
+      "epsBasic": 0.2062,
+      "bookValuePerShare": 2.3438
+    },
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 43000,
+      "ebitdaMM": 2700,
+      "netIncomeMM": 1156,
+      "capexMM": 1500,
+      "daMM": 900,
+      "cfoMM": 1500,
+      "totalAssetsMM": 47500,
+      "totalDebtMM": 21500,
+      "cashMM": 6500,
+      "totalEquityMM": 15500,
+      "sharesOutMM": 6400,
+      "dividendPerShare": 0.06,
+      "interestExpenseMM": 800,
+      "epsBasic": 0.1806,
+      "bookValuePerShare": 2.4219
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 38800,
+      "ebitdaMM": 2400,
+      "netIncomeMM": 1043,
+      "capexMM": 1300,
+      "daMM": 950,
+      "cfoMM": 1300,
+      "totalAssetsMM": 41000,
+      "totalDebtMM": 18500,
+      "cashMM": 5500,
+      "totalEquityMM": 15000,
+      "sharesOutMM": 6390,
+      "dividendPerShare": 0.06,
+      "interestExpenseMM": 800,
+      "epsBasic": 0.1632,
+      "bookValuePerShare": 2.3474
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 41400,
+      "ebitdaMM": 2950,
+      "netIncomeMM": 972,
+      "capexMM": 1300,
+      "daMM": 950,
+      "cfoMM": 2200,
+      "totalAssetsMM": 41500,
+      "totalDebtMM": 18000,
+      "cashMM": 5500,
+      "totalEquityMM": 15500,
+      "sharesOutMM": 6360,
+      "dividendPerShare": 0.07,
+      "interestExpenseMM": 800,
+      "epsBasic": 0.1528,
+      "bookValuePerShare": 2.4371
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 43800,
+      "ebitdaMM": 2700,
+      "netIncomeMM": 1219,
+      "capexMM": 1500,
+      "daMM": 1000,
+      "cfoMM": 1500,
+      "totalAssetsMM": 44000,
+      "totalDebtMM": 18500,
+      "cashMM": 5500,
+      "totalEquityMM": 17000,
+      "sharesOutMM": 6360,
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 800,
+      "epsBasic": 0.1917,
+      "bookValuePerShare": 2.673
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 44500,
+      "ebitdaMM": 2700,
+      "netIncomeMM": 1128,
+      "capexMM": 1600,
+      "daMM": 1050,
+      "cfoMM": 700,
+      "totalAssetsMM": 47000,
+      "totalDebtMM": 20000,
+      "cashMM": 4500,
+      "totalEquityMM": 17500,
+      "sharesOutMM": 6320,
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 900,
+      "epsBasic": 0.1785,
+      "bookValuePerShare": 2.769
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 42600,
+      "ebitdaMM": 3100,
+      "netIncomeMM": 1293,
+      "capexMM": 1500,
+      "daMM": 1100,
+      "cfoMM": 1700,
+      "totalAssetsMM": 49000,
+      "totalDebtMM": 19500,
+      "cashMM": 4500,
+      "totalEquityMM": 18500,
+      "sharesOutMM": 6300,
+      "dividendPerShare": 0.13,
+      "interestExpenseMM": 950,
+      "epsBasic": 0.2052,
+      "bookValuePerShare": 2.9365
+    },
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
@@ -15,10 +281,46 @@
       "netDebtMM": 28500,
       "sharesOutMM": 6320,
       "dividendPerShare": 0.155,
-      "notes": "FY20: Revenue US$50.5B (+18% YoY), core net profit US$1.53B — record year on COVID consumer-pack demand and palm rally.",
+      "notes": "FY20: Revenue US$50.5B (+18% YoY), core net profit US$1.53B \u2014 record year on COVID consumer-pack demand and palm rally.",
       "capexMM": 1100,
       "daMM": 1050,
-      "cfoMM": 2750
+      "cfoMM": 2750,
+      "totalEquityMM": 21800,
+      "expensesBySegmentMM": {
+        "COGS": 46200,
+        "SG&A": 2150,
+        "D&A": 920
+      },
+      "nonAgricultureRevenuePct": 58,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Food Products",
+          "revenueMM": 25800,
+          "ebitdaMM": 1580
+        },
+        {
+          "segment": "Feed & Industrial Products",
+          "revenueMM": 18500,
+          "ebitdaMM": 1420
+        },
+        {
+          "segment": "Plantation & Sugar Milling",
+          "revenueMM": 6500,
+          "ebitdaMM": 1080
+        },
+        {
+          "segment": "Others",
+          "revenueMM": 1050,
+          "ebitdaMM": 72
+        }
+      ],
+      "totalAssetsMM": 49500,
+      "propertyBookMM": 1100,
+      "ppeBookMM": 8800,
+      "inventoryMM": 12500,
+      "intangibleAssetsMM": 3800,
+      "epsBasic": 0.2421,
+      "bookValuePerShare": 3.4494
     },
     {
       "endDate": "2021-12-31",
@@ -31,10 +333,47 @@
       "netDebtMM": 34800,
       "sharesOutMM": 6320,
       "dividendPerShare": 0.155,
-      "notes": "FY21: Revenue US$65.8B (+30% YoY) on commodity inflation, core net profit US$1.89B — record. YKA (China subsidiary) listed on Shenzhen ChiNext Oct-2020.",
+      "notes": "FY21: Revenue US$65.8B (+30% YoY) on commodity inflation, core net profit US$1.89B \u2014 record. YKA (China subsidiary) listed on Shenzhen ChiNext Oct-2020.",
       "capexMM": 1450,
       "daMM": 1130,
-      "cfoMM": 1100
+      "cfoMM": 1100,
+      "totalEquityMM": 22500,
+      "expensesBySegmentMM": {
+        "COGS": 60800,
+        "SG&A": 2480,
+        "D&A": 1020
+      },
+      "nonAgricultureRevenuePct": 60,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Food Products",
+          "revenueMM": 30500,
+          "ebitdaMM": 1850
+        },
+        {
+          "segment": "Feed & Industrial Products",
+          "revenueMM": 21500,
+          "ebitdaMM": 1620
+        },
+        {
+          "segment": "Plantation & Sugar Milling",
+          "revenueMM": 7800,
+          "ebitdaMM": 1280
+        },
+        {
+          "segment": "Others",
+          "revenueMM": 1200,
+          "ebitdaMM": 85
+        }
+      ],
+      "totalAssetsMM": 54000,
+      "propertyBookMM": 1150,
+      "ppeBookMM": 9300,
+      "inventoryMM": 14500,
+      "intangibleAssetsMM": 4000,
+      "epsBasic": 0.2991,
+      "bookValuePerShare": 3.5601,
+      "interestExpenseMM": 350.0
     },
     {
       "endDate": "2022-12-31",
@@ -47,10 +386,63 @@
       "netDebtMM": 37200,
       "sharesOutMM": 6320,
       "dividendPerShare": 0.17,
+      "revenueByGeographyMM": {
+        "China": 37500,
+        "South & Southeast Asia": 17800,
+        "Africa": 6200,
+        "Europe": 4500,
+        "Australia & NZ": 3500,
+        "Other": 3948
+      },
       "notes": "FY22: Revenue US$73.4B all-time high; core net profit US$2.40B record on Russia/Ukraine grain disruption + sugar rally. Highest interim dividend ever (S$0.06).",
       "capexMM": 1700,
       "daMM": 1230,
-      "cfoMM": 1500
+      "cfoMM": 1500,
+      "totalEquityMM": 23200,
+      "expensesBySegmentMM": {
+        "COGS": 70500,
+        "SG&A": 2680,
+        "D&A": 1120
+      },
+      "propertyBookMM": 2720,
+      "ppeBookMM": 11900,
+      "inventoryMM": 15800,
+      "intangibleAssetsMM": 4300,
+      "nonAgricultureRevenuePct": 62,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Food Products",
+          "revenueMM": 36500,
+          "ebitdaMM": 2150
+        },
+        {
+          "segment": "Feed & Industrial Products",
+          "revenueMM": 25800,
+          "ebitdaMM": 1850
+        },
+        {
+          "segment": "Plantation & Sugar Milling",
+          "revenueMM": 9200,
+          "ebitdaMM": 1450
+        },
+        {
+          "segment": "Others",
+          "revenueMM": 1500,
+          "ebitdaMM": 105
+        }
+      ],
+      "totalAssetsMM": 58500,
+      "epsBasic": 0.3797,
+      "bookValuePerShare": 3.6709,
+      "interestExpenseMM": 600.0
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 32700,
+      "ebitdaMM": 1500,
+      "netIncomeMM": 614,
+      "notes": "H1 23"
     },
     {
       "endDate": "2023-12-31",
@@ -63,10 +455,70 @@
       "netDebtMM": 35100,
       "sharesOutMM": 6280,
       "dividendPerShare": 0.16,
+      "revenueBySegmentMM": {
+        "Food Products": 27500,
+        "Feed & Industrial Products": 35000,
+        "Plantations & Sugar Milling": 3500,
+        "Others": 1163
+      },
+      "revenueByGeographyMM": {
+        "China": 33800,
+        "South & Southeast Asia": 16500,
+        "Africa": 5800,
+        "Europe": 4100,
+        "Australia & NZ": 3200,
+        "Other": 3763
+      },
+      "expensesBySegmentMM": {
+        "COGS": 60500,
+        "SG&A": 2073,
+        "D&A": 1290,
+        "Other opex": 0
+      },
       "notes": "FY23: Revenue US$67.2B (-9% YoY), core profit US$1.53B (-36% YoY) on oilseeds crush margin compression in China + sugar plant ramp.",
       "capexMM": 1500,
       "daMM": 1290,
-      "cfoMM": 4400
+      "cfoMM": 4400,
+      "totalEquityMM": 22900,
+      "propertyBookMM": 2780,
+      "ppeBookMM": 12200,
+      "inventoryMM": 14200,
+      "intangibleAssetsMM": 4250,
+      "nonAgricultureRevenuePct": 64,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Food Products",
+          "revenueMM": 33500,
+          "ebitdaMM": 1750
+        },
+        {
+          "segment": "Feed & Industrial Products",
+          "revenueMM": 20500,
+          "ebitdaMM": 1380
+        },
+        {
+          "segment": "Plantation & Sugar Milling",
+          "revenueMM": 8200,
+          "ebitdaMM": 1150
+        },
+        {
+          "segment": "Others",
+          "revenueMM": 1350,
+          "ebitdaMM": 88
+        }
+      ],
+      "totalAssetsMM": 56000,
+      "epsBasic": 0.2436,
+      "bookValuePerShare": 3.6465,
+      "interestExpenseMM": 1100.0
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 32400,
+      "ebitdaMM": 1430,
+      "netIncomeMM": 451,
+      "notes": "H1 24"
     },
     {
       "endDate": "2024-12-31",
@@ -79,10 +531,69 @@
       "netDebtMM": 36700,
       "sharesOutMM": 6240,
       "dividendPerShare": 0.115,
-      "notes": "FY24: Revenue flat US$67.4B; core profit US$1.17B — weakest in 4 years on China consumer pack volumes + plantation profit drag. Anti-bribery probe Indonesia ongoing.",
+      "revenueBySegmentMM": {
+        "Food Products": 28000,
+        "Feed & Industrial Products": 35200,
+        "Plantations & Sugar Milling": 3050,
+        "Others": 1128
+      },
+      "revenueByGeographyMM": {
+        "China": 33500,
+        "South & Southeast Asia": 17200,
+        "Africa": 5900,
+        "Europe": 4200,
+        "Australia & NZ": 3100,
+        "Other": 3478
+      },
+      "expensesBySegmentMM": {
+        "COGS": 60800,
+        "SG&A": 2138,
+        "D&A": 1340,
+        "Other opex": 0
+      },
+      "interestExpenseMM": 1850,
+      "weightedAvgDebtRate": 4.8,
+      "debtMaturityProfileMM": {
+        "<1y": 28500,
+        "1-3y": 7800,
+        "3-5y": 3200,
+        "5+y": 2000
+      },
+      "notes": "FY24: Revenue flat US$67.4B; core profit US$1.17B \u2014 weakest in 4 years on China consumer pack volumes + plantation profit drag. Anti-bribery probe Indonesia ongoing.",
       "capexMM": 1450,
       "daMM": 1340,
-      "cfoMM": 4100
+      "cfoMM": 4100,
+      "totalEquityMM": 22700,
+      "propertyBookMM": 2850,
+      "ppeBookMM": 12500,
+      "inventoryMM": 14500,
+      "intangibleAssetsMM": 4200,
+      "nonAgricultureRevenuePct": 65,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Food Products",
+          "revenueMM": 35200,
+          "ebitdaMM": 1850
+        },
+        {
+          "segment": "Feed & Industrial Products",
+          "revenueMM": 21500,
+          "ebitdaMM": 1450
+        },
+        {
+          "segment": "Plantation & Sugar Milling",
+          "revenueMM": 8500,
+          "ebitdaMM": 1200
+        },
+        {
+          "segment": "Others",
+          "revenueMM": 1450,
+          "ebitdaMM": 95
+        }
+      ],
+      "totalAssetsMM": 57500,
+      "epsBasic": 0.1875,
+      "bookValuePerShare": 3.6378
     }
   ]
 }

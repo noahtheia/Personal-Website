@@ -1,12 +1,18 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type {
   FarmlandGeography,
   FarmlandSector,
   PricedFarmlandComp,
 } from "@/lib/farmland-comps";
+import { Sparkline } from "./Sparkline";
+import { tipFor } from "@/lib/farmland-glossary";
+
+const WATCHLIST_KEY = "farmland-comps-watchlist";
+
+const WATCHLIST_SECTOR_KEY = "★ Watchlist";
 
 // Display order for category bands. Each row is grouped under a
 // "{Sector} — {Geography}" header. Sort first by sector, then by
@@ -89,7 +95,10 @@ type SortKey =
   | "priceEarnings"
   | "evCapRate"
   | "divYield"
-  | "fcfYield";
+  | "fcfYield"
+  | "buybackYield"
+  | "payoutRatio"
+  | "fcfPayoutRatio";
 
 type Band = "market" | "land" | "operating" | "valuation";
 type Format =
@@ -128,6 +137,9 @@ const COLUMNS: Column[] = [
   { key: "priceEarnings", label: "P / E", hint: "price ÷ EPS", band: "valuation", format: "mult" },
   { key: "divYield", label: "Div Yield", hint: "div ÷ price", band: "valuation", format: "pct" },
   { key: "fcfYield", label: "FCF Yield", hint: "FCF ÷ mkt cap", band: "valuation", format: "pct" },
+  { key: "buybackYield", label: "Buyback Yield", hint: "Δshares × price ÷ mkt cap", band: "valuation", format: "pct" },
+  { key: "payoutRatio", label: "Payout (EPS)", hint: "DPS ÷ EPS", band: "valuation", format: "pct" },
+  { key: "fcfPayoutRatio", label: "Payout (FCF)", hint: "DPS × sh ÷ FCF", band: "valuation", format: "pct" },
   // Land value (right-most band)
   { key: "acresK", label: "Acres", hint: "thousands", band: "land", format: "int" },
   { key: "bookPerAcre", label: "Book / Acre", hint: "$ filed", band: "land", format: "intDollar" },
@@ -171,6 +183,9 @@ const DIRECTION: Partial<Record<SortKey, "higher" | "lower">> = {
   roic: "higher",
   divYield: "higher",
   fcfYield: "higher",
+  buybackYield: "higher",
+  payoutRatio: "lower",
+  fcfPayoutRatio: "lower",
   evCapRate: "higher",
   evEbitda: "lower",
   priceSales: "lower",
@@ -213,6 +228,43 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
     land: true,
   });
   const [filterOpen, setFilterOpen] = useState(false);
+  const [watchlist, setWatchlist] = useState<Set<string>>(new Set());
+  const [watchlistOnly, setWatchlistOnly] = useState(false);
+
+  // Load watchlist from localStorage on mount.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    try {
+      const raw = window.localStorage.getItem(WATCHLIST_KEY);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed)) {
+          setWatchlist(
+            new Set(parsed.filter((x): x is string => typeof x === "string")),
+          );
+        }
+      }
+    } catch {
+      // ignore corrupted storage
+    }
+  }, []);
+
+  function toggleWatch(ticker: string) {
+    setWatchlist((prev) => {
+      const next = new Set(prev);
+      if (next.has(ticker)) next.delete(ticker);
+      else next.add(ticker);
+      try {
+        window.localStorage.setItem(
+          WATCHLIST_KEY,
+          JSON.stringify(Array.from(next)),
+        );
+      } catch {
+        // ignore quota errors
+      }
+      return next;
+    });
+  }
 
   const visibleBandList = BAND_ORDER.filter((b) => visibleBands[b]);
   const visibleColumns = COLUMNS.filter((c) => visibleBands[c.band]);
@@ -236,7 +288,7 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
   // before grouping so empty sectors collapse out automatically.
   const groups = useMemo(() => {
     const q = search.trim().toLowerCase();
-    const filtered = q
+    let filtered = q
       ? rows.filter(
           (r) =>
             r.ticker.toLowerCase().includes(q) ||
@@ -245,14 +297,23 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
             (r.operatingCountry ?? "").toLowerCase().includes(q),
         )
       : rows;
+    if (watchlistOnly) {
+      filtered = filtered.filter((r) => watchlist.has(r.ticker));
+    }
     const buckets = new Map<string, PricedFarmlandComp[]>();
+    // Pinned (★) tickers float to a synthetic Watchlist band at the
+    // top — appear here AND in their normal sector below.
+    const pinned = filtered.filter((r) => watchlist.has(r.ticker));
+    if (pinned.length > 0) buckets.set(WATCHLIST_SECTOR_KEY, pinned);
     for (const r of filtered) {
       const k = categoryKey(r);
       if (!buckets.has(k)) buckets.set(k, []);
       buckets.get(k)!.push(r);
     }
-    // Ordered group entries
-    const ordered = Array.from(buckets.entries()).sort(([, a], [, b]) => {
+    // Ordered group entries — Watchlist always first when present
+    const ordered = Array.from(buckets.entries()).sort(([keyA, a], [keyB, b]) => {
+      if (keyA === WATCHLIST_SECTOR_KEY) return -1;
+      if (keyB === WATCHLIST_SECTOR_KEY) return 1;
       return categoryRank(a[0]) - categoryRank(b[0]);
     });
     // Sort rows inside each group by current sort column.
@@ -276,7 +337,7 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
       rows: groupRows,
       stats: computeStats(groupRows),
     }));
-  }, [rows, effectiveSortKey, dir, search]);
+  }, [rows, effectiveSortKey, dir, search, watchlist, watchlistOnly]);
 
   const overallStats = useMemo(() => computeStats(rows), [rows]);
 
@@ -346,6 +407,22 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
           </span>
         </div>
         <div className="flex items-center gap-2">
+          {watchlist.size > 0 && (
+            <button
+              type="button"
+              onClick={() => setWatchlistOnly((v) => !v)}
+              aria-pressed={watchlistOnly}
+              className={`inline-flex items-center gap-2 rounded-sm border px-3 py-1.5 text-xs font-medium transition-colors ${
+                watchlistOnly
+                  ? "border-accent bg-accent !text-bg"
+                  : "border-rule bg-surface !text-fg hover:border-accent hover:!text-accent"
+              }`}
+            >
+              <span aria-hidden="true">★</span>
+              <span>Watchlist</span>
+              <span className="text-[10px] opacity-70">{watchlist.size}</span>
+            </button>
+          )}
           <button
             type="button"
             onClick={handleExportCsv}
@@ -551,6 +628,8 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
                   return next;
                 })
               }
+              onToggleWatch={toggleWatch}
+              isWatched={(t) => watchlist.has(t)}
             />
           ))}
           <tr className="border-t-2 border-rule-strong bg-bg/60 font-semibold">
@@ -592,6 +671,142 @@ export function FarmlandComps({ rows }: { rows: PricedFarmlandComp[] }) {
   );
 }
 
+// Aggregate sector-specific KPIs across the rows in a sector and
+// return them as compact { label, value, count } tuples for inline
+// rendering under the sector banner. Only fields that at least one
+// ticker in the sector actually populates appear; the count makes
+// data-density visible. Uses simple mean for percentages / yields and
+// sum for absolute counts (plant counts, throughput, etc.).
+function sectorKpiSummary(
+  sector: string,
+  rows: PricedFarmlandComp[],
+): { label: string; value: string; count: number }[] {
+  type Agg = {
+    label: string;
+    extract: (r: PricedFarmlandComp) => number | null | undefined;
+    format: (mean: number) => string;
+    aggregate?: "mean" | "sum";
+  };
+  const SPECS: Record<string, Agg[]> = {
+    "Farmland Owner / REIT": [
+      { label: "WALT", extract: (r) => r.reit?.walt, format: (v) => `${v.toFixed(1)} yr` },
+      {
+        label: "Occupancy",
+        extract: (r) => r.reit?.occupancyPct,
+        format: (v) => `${v.toFixed(0)}%`,
+      },
+    ],
+    "Plantation Operator": [
+      {
+        label: "FFB yield",
+        extract: (r) => r.plantation?.ffbYieldTPerHa,
+        format: (v) => `${v.toFixed(1)} t/ha`,
+      },
+      {
+        label: "OER",
+        extract: (r) => r.plantation?.oerPct,
+        format: (v) => `${v.toFixed(1)}%`,
+      },
+      {
+        label: "RSPO",
+        extract: (r) => r.plantation?.rspoPct,
+        format: (v) => `${v.toFixed(0)}%`,
+      },
+    ],
+    "Aquaculture / Seafood": [
+      {
+        label: "Harvest",
+        extract: (r) => r.aquaculture?.harvestVolumeKtGwt,
+        format: (v) => `${Math.round(v)} kt`,
+        aggregate: "sum",
+      },
+      {
+        label: "EBIT/kg",
+        extract: (r) => r.aquaculture?.ebitPerKgNok,
+        format: (v) => `NOK ${v.toFixed(1)}`,
+      },
+    ],
+    "Crop Inputs / Fertilizer": [
+      {
+        label: "Capacity utilization",
+        extract: (r) => r.cropInputs?.capacityUtilizationPct,
+        format: (v) => `${v.toFixed(0)}%`,
+      },
+      {
+        label: "R&D / sales",
+        extract: (r) => r.cropInputs?.rdSpendPctOfRevenue,
+        format: (v) => `${v.toFixed(1)}%`,
+      },
+    ],
+    "Dairy / Egg Producer": [
+      {
+        label: "Branded rev",
+        extract: (r) => r.dairy?.brandedRevenuePct,
+        format: (v) => `${v.toFixed(0)}%`,
+      },
+      {
+        label: "IF rev",
+        extract: (r) => r.dairy?.infantFormulaRevenuePct,
+        format: (v) => `${v.toFixed(0)}%`,
+      },
+    ],
+    "Protein Producer": [
+      {
+        label: "Plants",
+        extract: (r) => r.protein?.plants,
+        format: (v) => `${Math.round(v)}`,
+        aggregate: "sum",
+      },
+    ],
+    "Integrated Farm Operator": [
+      {
+        label: "Planted area",
+        extract: (r) => r.integratedFarm?.plantedAreaHa,
+        format: (v) => `${Math.round(v / 1000)}K ha`,
+        aggregate: "sum",
+      },
+    ],
+    "Agribusiness / Trader": [
+      {
+        label: "Throughput",
+        extract: (r) => r.trader?.throughputMtMM,
+        format: (v) => `${v.toFixed(1)} MMT`,
+        aggregate: "sum",
+      },
+      {
+        label: "RMI",
+        extract: (r) => r.trader?.rmiMM,
+        format: (v) => `$${Math.round(v / 1000)}B`,
+        aggregate: "sum",
+      },
+    ],
+    "Diversified Agribusiness": [
+      {
+        label: "Non-ag rev",
+        extract: (r) => r.nonAgricultureRevenuePct,
+        format: (v) => `${v.toFixed(0)}%`,
+      },
+    ],
+  };
+  const specs = SPECS[sector];
+  if (!specs) return [];
+  const out: { label: string; value: string; count: number }[] = [];
+  for (const spec of specs) {
+    const vals: number[] = [];
+    for (const r of rows) {
+      const v = spec.extract(r);
+      if (typeof v === "number" && Number.isFinite(v)) vals.push(v);
+    }
+    if (vals.length === 0) continue;
+    const agg =
+      spec.aggregate === "sum"
+        ? vals.reduce((a, b) => a + b, 0)
+        : vals.reduce((a, b) => a + b, 0) / vals.length;
+    out.push({ label: spec.label, value: spec.format(agg), count: vals.length });
+  }
+  return out;
+}
+
 function CategorySection({
   label,
   rows,
@@ -601,6 +816,8 @@ function CategorySection({
   visibleBandBreaks,
   isCollapsed,
   onToggle,
+  onToggleWatch,
+  isWatched,
 }: {
   label: string;
   rows: PricedFarmlandComp[];
@@ -610,7 +827,10 @@ function CategorySection({
   visibleBandBreaks: Set<number>;
   isCollapsed: boolean;
   onToggle: () => void;
+  onToggleWatch: (ticker: string) => void;
+  isWatched: (ticker: string) => boolean;
 }) {
+  const kpiSummary = sectorKpiSummary(label, rows);
   return (
     <>
       <tr className="border-y border-rule-strong">
@@ -632,26 +852,80 @@ function CategorySection({
           </button>
         </td>
       </tr>
+      {!isCollapsed && kpiSummary.length > 0 && (
+        <tr className="border-b border-rule">
+          <td
+            colSpan={colCount}
+            className="sticky left-0 z-[1] bg-bg/40 px-3 py-1.5 text-left text-[10px] uppercase tracking-wider text-muted"
+          >
+            <span className="mr-2 font-semibold text-fg-soft">Sector KPIs</span>
+            {kpiSummary.map((k, i) => {
+              const tip = tipFor(k.label);
+              return (
+                <span key={k.label} className="mr-3 inline-flex items-baseline gap-1">
+                  {i > 0 && <span aria-hidden="true" className="opacity-50">·</span>}
+                  <span
+                    className={`text-muted ${tip ? "cursor-help decoration-dotted underline-offset-2" : ""}`}
+                    style={tip ? { textDecorationLine: "underline" } : undefined}
+                    title={tip}
+                  >
+                    {k.label}
+                  </span>
+                  <span className="font-semibold tabular-nums !text-fg">
+                    {k.value}
+                  </span>
+                  <span className="text-[9px] opacity-60">({k.count}/{rows.length})</span>
+                </span>
+              );
+            })}
+          </td>
+        </tr>
+      )}
       {!isCollapsed && rows.map((r) => (
         <tr
           key={r.ticker}
           className="border-b border-rule transition-colors hover:bg-bg/60"
         >
           <td className="sticky left-0 z-[1] w-20 bg-surface px-3 py-3 text-left align-top">
-            <Link
-              href={`/analytics/public-farmland/${encodeURIComponent(r.ticker)}`}
-              className="font-semibold !text-fg no-underline transition-colors hover:!text-accent"
-            >
-              {r.ticker}
-            </Link>
+            <div className="flex items-center gap-1.5">
+              <button
+                type="button"
+                onClick={() => onToggleWatch(r.ticker)}
+                aria-pressed={isWatched(r.ticker)}
+                aria-label={
+                  isWatched(r.ticker)
+                    ? `Remove ${r.ticker} from watchlist`
+                    : `Add ${r.ticker} to watchlist`
+                }
+                className={`text-sm leading-none transition-colors ${
+                  isWatched(r.ticker)
+                    ? "!text-[var(--accent-warm)]"
+                    : "!text-muted hover:!text-[var(--accent-warm)]"
+                }`}
+              >
+                {isWatched(r.ticker) ? "★" : "☆"}
+              </button>
+              <Link
+                href={`/analytics/public-farmland/${encodeURIComponent(r.ticker)}`}
+                className="font-semibold !text-fg no-underline transition-colors hover:!text-accent"
+              >
+                {r.ticker}
+              </Link>
+              <FilingFreshness filingDate={r.filingDate} />
+            </div>
           </td>
           <td className="sticky left-20 z-[1] bg-surface px-3 py-3 text-left align-middle">
-            <Link
-              href={`/analytics/public-farmland/${encodeURIComponent(r.ticker)}`}
-              className="text-[12px] !text-fg no-underline transition-colors hover:!text-accent"
-            >
-              {r.name}
-            </Link>
+            <div className="flex items-center justify-between gap-2">
+              <Link
+                href={`/analytics/public-farmland/${encodeURIComponent(r.ticker)}`}
+                className="text-[12px] !text-fg no-underline transition-colors hover:!text-accent"
+              >
+                {r.name}
+              </Link>
+              {r.revenueSparkline.length >= 2 && (
+                <Sparkline values={r.revenueSparkline} />
+              )}
+            </div>
           </td>
           <td className="bg-surface px-3 py-3 text-left text-[11px] text-fg-soft">
             {r.geography}
@@ -718,6 +992,29 @@ function CategorySection({
         ))}
       </tr>
     </>
+  );
+}
+
+// Tiny dot indicator for filing freshness — 12+ months old is amber,
+// 18+ months is red. Keeps surface noise low (no badge for fresh rows)
+// but makes stale snapshots scannable in the comps table.
+function FilingFreshness({ filingDate }: { filingDate: string }) {
+  const filed = new Date(filingDate).getTime();
+  if (!Number.isFinite(filed)) return null;
+  const ageDays = (Date.now() - filed) / 86400000;
+  if (ageDays < 365) return null;
+  const tone =
+    ageDays >= 540
+      ? { color: "var(--negative)", label: "stale" }
+      : { color: "var(--accent-warm)", label: "aging" };
+  const months = Math.round(ageDays / 30);
+  return (
+    <span
+      title={`Filing snapshot is ${months} months old (${filingDate})`}
+      aria-label={`${tone.label} filing snapshot, ${months} months old`}
+      className="inline-block h-1.5 w-1.5 rounded-full"
+      style={{ background: tone.color }}
+    />
   );
 }
 

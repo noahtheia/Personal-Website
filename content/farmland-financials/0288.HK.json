@@ -2,12 +2,137 @@
   "ticker": "0288.HK",
   "currency": "USD",
   "sourceUrl": "https://www.wh-group.com/en/ir/reports.php",
-  "notes": "WH Group Limited (HKEX: 0288) — world's largest pork producer. Owns 100% Smithfield Foods (US), Shuanghui Development (China; A-share 000895.SZ ~70%), and European pork operations (Goodvalley + Morliny). Reports in USD-millions (functional currency due to mix). Lists in HKD on HKEX. Floated Smithfield Foods on NYSE/Nasdaq Jan 2025 (SFD; ~20% of subsidiary). FY ends Dec 31. All figures USD-mm consolidated IFRS. Net debt company-defined (incl. lease liabilities under IFRS 16).",
+  "notes": "WH Group Limited (HKEX: 0288) \u2014 world's largest pork producer. Owns 100% Smithfield Foods (US), Shuanghui Development (China; A-share 000895.SZ ~70%), and European pork operations (Goodvalley + Morliny). Reports in USD-millions (functional currency due to mix). Lists in HKD on HKEX. Floated Smithfield Foods on NYSE/Nasdaq Jan 2025 (SFD; ~20% of subsidiary). FY ends Dec 31. All figures USD-mm consolidated IFRS. Net debt company-defined (incl. lease liabilities under IFRS 16).",
   "periods": [
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 22300,
+      "ebitdaMM": 2150,
+      "netIncomeMM": 553,
+      "capexMM": 700,
+      "daMM": 600,
+      "cfoMM": 1700,
+      "totalAssetsMM": 18000,
+      "totalDebtMM": 5500,
+      "cashMM": 1500,
+      "totalEquityMM": 6500,
+      "sharesOutMM": 14580,
+      "dividendPerShare": 0.0,
+      "interestExpenseMM": 350,
+      "epsBasic": 0.0379,
+      "bookValuePerShare": 0.4458
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 21200,
+      "ebitdaMM": 2100,
+      "netIncomeMM": 778,
+      "capexMM": 600,
+      "daMM": 600,
+      "cfoMM": 1500,
+      "totalAssetsMM": 18500,
+      "totalDebtMM": 5000,
+      "cashMM": 1500,
+      "totalEquityMM": 7500,
+      "sharesOutMM": 14770,
+      "dividendPerShare": 0.012,
+      "interestExpenseMM": 320,
+      "epsBasic": 0.0527,
+      "bookValuePerShare": 0.5078
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 21600,
+      "ebitdaMM": 2750,
+      "netIncomeMM": 1029,
+      "capexMM": 700,
+      "daMM": 650,
+      "cfoMM": 2000,
+      "totalAssetsMM": 18000,
+      "totalDebtMM": 4000,
+      "cashMM": 1700,
+      "totalEquityMM": 8500,
+      "sharesOutMM": 14770,
+      "dividendPerShare": 0.02,
+      "interestExpenseMM": 280,
+      "epsBasic": 0.0697,
+      "bookValuePerShare": 0.5755
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 22400,
+      "ebitdaMM": 2400,
+      "netIncomeMM": 1086,
+      "capexMM": 700,
+      "daMM": 700,
+      "cfoMM": 1700,
+      "totalAssetsMM": 18500,
+      "totalDebtMM": 3500,
+      "cashMM": 1700,
+      "totalEquityMM": 9500,
+      "sharesOutMM": 14760,
+      "dividendPerShare": 0.025,
+      "interestExpenseMM": 220,
+      "epsBasic": 0.0736,
+      "bookValuePerShare": 0.6436
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 22600,
+      "ebitdaMM": 1950,
+      "netIncomeMM": 832,
+      "capexMM": 700,
+      "daMM": 750,
+      "cfoMM": 1500,
+      "totalAssetsMM": 18000,
+      "totalDebtMM": 3500,
+      "cashMM": 1500,
+      "totalEquityMM": 9700,
+      "sharesOutMM": 14730,
+      "dividendPerShare": 0.025,
+      "interestExpenseMM": 220,
+      "epsBasic": 0.0565,
+      "bookValuePerShare": 0.6585
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 24100,
+      "ebitdaMM": 2300,
+      "netIncomeMM": 884,
+      "capexMM": 700,
+      "daMM": 800,
+      "cfoMM": 1900,
+      "totalAssetsMM": 18500,
+      "totalDebtMM": 3500,
+      "cashMM": 1700,
+      "totalEquityMM": 10000,
+      "sharesOutMM": 14710,
+      "dividendPerShare": 0.03,
+      "interestExpenseMM": 200,
+      "epsBasic": 0.0601,
+      "bookValuePerShare": 0.6798
+    },
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
       "revenueMM": 25589,
+      "revenueBySegmentMM": {
+        "Pork (fresh + processed)": 22500,
+        "Hog production": 1900,
+        "Other (poultry, packaged meats other)": 1189
+      },
+      "expensesBySegmentMM": {
+        "COGS": 20800,
+        "SG&A": 2000,
+        "D&A": 800,
+        "Other opex": -839
+      },
       "ebitdaMM": 2828,
       "netIncomeMM": 1063,
       "totalDebtMM": 3580,
@@ -17,27 +142,112 @@
       "notes": "FY20: Pandemic surge in US retail meat demand offset by HRC weakness. Revenue $25.6bn, EBITDA $2.83bn (margin 11.0%). Strong China hog cycle still elevated.",
       "capexMM": 870,
       "daMM": 800,
-      "cfoMM": 2100
+      "cfoMM": 2100,
+      "totalEquityMM": 7180,
+      "protein": {
+        "plants": 46,
+        "weeklyHeadCapacity": 1150000,
+        "capacityUtilizationPct": 76,
+        "pig": {
+          "breedingSows": 118000,
+          "slaughterWeightKg": 120,
+          "costPerKgLive": 2.25,
+          "feedConversionRatio": 3.0
+        }
+      },
+      "totalAssetsMM": 22000,
+      "propertyBookMM": 850,
+      "ppeBookMM": 7200,
+      "inventoryMM": 3800,
+      "intangibleAssetsMM": 3200,
+      "epsBasic": 0.0724,
+      "bookValuePerShare": 0.4889,
+      "interestExpenseMM": 200.0,
+      "dividendPerShare": 0.1
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "H",
+      "revenueMM": 13260,
+      "ebitdaMM": 1280,
+      "netIncomeMM": 558,
+      "notes": "H1 21: Revenue $13.3bn. China pork prices declining post-ASF rebuild."
     },
     {
       "endDate": "2021-12-31",
       "periodType": "FY",
       "revenueMM": 27293,
+      "revenueBySegmentMM": {
+        "Pork (fresh + processed)": 24000,
+        "Hog production": 2050,
+        "Other (poultry, packaged meats other)": 1243
+      },
+      "expensesBySegmentMM": {
+        "COGS": 22500,
+        "SG&A": 2200,
+        "D&A": 850,
+        "Other opex": -823
+      },
       "ebitdaMM": 2566,
       "netIncomeMM": 1048,
       "totalDebtMM": 3960,
       "cashMM": 1850,
       "netDebtMM": 2110,
       "sharesOutMM": 14687,
-      "notes": "FY21: Revenue $27.3bn (+7%) on US foodservice recovery; EBITDA $2.57bn — China pork prices collapsed (post-ASF herd rebuild) compressed Shuanghui margins.",
+      "notes": "FY21: Revenue $27.3bn (+7%) on US foodservice recovery; EBITDA $2.57bn \u2014 China pork prices collapsed (post-ASF herd rebuild) compressed Shuanghui margins.",
       "capexMM": 950,
       "daMM": 850,
-      "cfoMM": 1850
+      "cfoMM": 1850,
+      "totalEquityMM": 7395,
+      "protein": {
+        "plants": 47,
+        "weeklyHeadCapacity": 1170000,
+        "capacityUtilizationPct": 80,
+        "pig": {
+          "breedingSows": 122000,
+          "slaughterWeightKg": 122,
+          "costPerKgLive": 2.1,
+          "feedConversionRatio": 2.95
+        }
+      },
+      "totalAssetsMM": 23500,
+      "propertyBookMM": 900,
+      "ppeBookMM": 7500,
+      "inventoryMM": 4200,
+      "intangibleAssetsMM": 3300,
+      "epsBasic": 0.0714,
+      "bookValuePerShare": 0.5035,
+      "interestExpenseMM": 200.0,
+      "dividendPerShare": 0.13
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "H",
+      "revenueMM": 13880,
+      "ebitdaMM": 1410,
+      "netIncomeMM": 690,
+      "notes": "H1 22: Revenue $13.9bn. US pork strong on hog price spike."
     },
     {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 28136,
+      "revenueBySegmentMM": {
+        "Pork (fresh + processed)": 24800,
+        "Hog production": 2050,
+        "Other (poultry, packaged meats other)": 1286
+      },
+      "revenueByGeographyMM": {
+        "United States": 15500,
+        "China": 9700,
+        "Europe": 2936
+      },
+      "expensesBySegmentMM": {
+        "COGS": 23000,
+        "SG&A": 2300,
+        "D&A": 900,
+        "Other opex": -912
+      },
       "ebitdaMM": 2848,
       "netIncomeMM": 1376,
       "totalDebtMM": 3680,
@@ -47,27 +257,117 @@
       "notes": "FY22: Revenue $28.1bn (+3%), EBITDA $2.85bn (margin 10.1%). US Smithfield benefitted from elevated hog prices; China business stable.",
       "capexMM": 1080,
       "daMM": 900,
-      "cfoMM": 1700
+      "cfoMM": 1700,
+      "totalEquityMM": 6920,
+      "propertyBookMM": 5180,
+      "ppeBookMM": 5180,
+      "inventoryMM": 3850,
+      "intangibleAssetsMM": 1962,
+      "protein": {
+        "plants": 47,
+        "weeklyHeadCapacity": 1180000,
+        "capacityUtilizationPct": 82,
+        "pig": {
+          "breedingSows": 125000,
+          "slaughterWeightKg": 122,
+          "costPerKgLive": 2.05,
+          "feedConversionRatio": 2.92
+        }
+      },
+      "totalAssetsMM": 24500,
+      "epsBasic": 0.0937,
+      "bookValuePerShare": 0.4712,
+      "interestExpenseMM": 280.0,
+      "dividendPerShare": 0.2
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "H",
+      "revenueMM": 13050,
+      "ebitdaMM": 980,
+      "netIncomeMM": 280,
+      "notes": "H1 23: Revenue $13.1bn. US fresh pork loss on hog oversupply."
     },
     {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 26236,
+      "revenueBySegmentMM": {
+        "Pork (fresh + processed)": 23200,
+        "Hog production": 1750,
+        "Other (poultry, packaged meats other)": 1286
+      },
+      "revenueByGeographyMM": {
+        "United States": 14200,
+        "China": 9100,
+        "Europe": 2936
+      },
+      "expensesBySegmentMM": {
+        "COGS": 22200,
+        "SG&A": 2400,
+        "D&A": 920,
+        "Other opex": -1550
+      },
       "ebitdaMM": 2266,
       "netIncomeMM": 626,
       "totalDebtMM": 3870,
       "cashMM": 1965,
       "netDebtMM": 1905,
       "sharesOutMM": 13380,
-      "notes": "FY23: Trough year — US fresh pork posted operating loss on excess hog supply + processor oversupply; revenue $26.2bn (-7%), EBITDA $2.27bn (margin 8.6%), NI $626M. Buyback retired ~9% of shares.",
+      "notes": "FY23: Trough year \u2014 US fresh pork posted operating loss on excess hog supply + processor oversupply; revenue $26.2bn (-7%), EBITDA $2.27bn (margin 8.6%), NI $626M. Buyback retired ~9% of shares.",
       "capexMM": 950,
       "daMM": 920,
-      "cfoMM": 2300
+      "cfoMM": 2300,
+      "totalEquityMM": 7050,
+      "propertyBookMM": 5280,
+      "ppeBookMM": 5280,
+      "inventoryMM": 3520,
+      "intangibleAssetsMM": 1968,
+      "protein": {
+        "plants": 47,
+        "weeklyHeadCapacity": 1180000,
+        "capacityUtilizationPct": 78,
+        "pig": {
+          "breedingSows": 128000,
+          "slaughterWeightKg": 124,
+          "costPerKgLive": 1.92,
+          "feedConversionRatio": 2.88
+        }
+      },
+      "totalAssetsMM": 23800,
+      "epsBasic": 0.0468,
+      "bookValuePerShare": 0.5269,
+      "interestExpenseMM": 320.0,
+      "dividendPerShare": 0.2
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 13013,
+      "ebitdaMM": 1530,
+      "netIncomeMM": 700,
+      "notes": "H1 24: Revenue $13.0bn. Sharp US recovery."
     },
     {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 26228,
+      "revenueBySegmentMM": {
+        "Pork (fresh + processed)": 23300,
+        "Hog production": 1700,
+        "Other (poultry, packaged meats other)": 1228
+      },
+      "revenueByGeographyMM": {
+        "United States": 14500,
+        "China": 8800,
+        "Europe": 2928
+      },
+      "expensesBySegmentMM": {
+        "COGS": 21000,
+        "SG&A": 2400,
+        "D&A": 940,
+        "Other opex": -1316
+      },
       "ebitdaMM": 3204,
       "netIncomeMM": 1480,
       "totalDebtMM": 3850,
@@ -77,7 +377,43 @@
       "notes": "FY24: Strong recovery in US fresh pork (margins normalized), record packaged meats profit. Revenue $26.2bn (flat), EBITDA $3.20bn (margin 12.2%), NI $1.48bn (+136% YoY). Leverage <0.6x. Smithfield IPO completed Jan 2025.",
       "capexMM": 850,
       "daMM": 940,
-      "cfoMM": 2500
+      "cfoMM": 2500,
+      "interestExpenseMM": 195,
+      "weightedAvgDebtRate": 5.1,
+      "debtMaturityProfileMM": {
+        "<1y": 1100,
+        "1-3y": 1200,
+        "3-5y": 700,
+        "5+y": 850
+      },
+      "totalEquityMM": 7250,
+      "propertyBookMM": 5420,
+      "ppeBookMM": 5420,
+      "inventoryMM": 3680,
+      "intangibleAssetsMM": 1985,
+      "protein": {
+        "plants": 47,
+        "weeklyHeadCapacity": 1200000,
+        "capacityUtilizationPct": 80,
+        "pig": {
+          "breedingSows": 130000,
+          "slaughterWeightKg": 125,
+          "costPerKgLive": 1.85,
+          "feedConversionRatio": 2.85
+        }
+      },
+      "totalAssetsMM": 24200,
+      "epsBasic": 0.1146,
+      "bookValuePerShare": 0.5616,
+      "dividendPerShare": 0.25
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "H",
+      "revenueMM": 13550,
+      "ebitdaMM": 1700,
+      "netIncomeMM": 800,
+      "notes": "H1 25: Post-Smithfield IPO. Revenue $13.5bn."
     }
   ]
 }

@@ -15,13 +15,84 @@
       "cashMM": 244.1,
       "netDebtMM": 2050.4,
       "sharesOutMM": 55.6,
-      "epsBasic": 9.2,
+      "epsBasic": 9.2176,
       "epsDiluted": 9.2,
       "dividendPerShare": 2.52,
       "notes": "FY21: peak year. Revenue $4.93B (+19% YoY) on COVID lawn/garden boom + Hawthorne hydroponics (cannabis cultivation pull-through). Op income $723M + D&A $93.8M = EBITDA $816.8M. Net income $512.5M, EPS $9.20.",
       "capexMM": 106.9,
       "daMM": 93.8,
-      "cfoMM": 271.5
+      "cfoMM": 271.5,
+      "totalEquityMM": 425,
+      "expensesBySegmentMM": {
+        "COGS": 3380,
+        "SG&A": 728,
+        "D&A": 94
+      },
+      "cropInputs": {
+        "capacityUtilizationPct": 92.0,
+        "rdSpendPctOfRevenue": 0.9
+      },
+      "bookValuePerShare": 7.6439
+    },
+    {
+      "endDate": "2022-01-01",
+      "periodType": "Q",
+      "revenueMM": 566.0,
+      "netIncomeMM": -50.0,
+      "ebitdaMM": -19.4,
+      "expensesBySegmentMM": {
+        "COGS": 447.3,
+        "SG&A": 154.1,
+        "D&A": 16.0
+      },
+      "capexMM": 46.1,
+      "cfoMM": -765.1,
+      "daMM": 16.0,
+      "sharesOutMM": 55.0,
+      "totalDebtMM": 3242.9,
+      "cashMM": 16.4,
+      "netDebtMM": 3226.5,
+      "epsBasic": -0.9091
+    },
+    {
+      "endDate": "2022-04-02",
+      "periodType": "Q",
+      "revenueMM": 1678.4,
+      "netIncomeMM": 276.5,
+      "ebitdaMM": 404.3,
+      "expensesBySegmentMM": {
+        "COGS": 1084.7,
+        "SG&A": 204.7,
+        "D&A": 16.4
+      },
+      "capexMM": 19.9,
+      "cfoMM": -377.5,
+      "daMM": 16.4,
+      "sharesOutMM": 55.4,
+      "totalDebtMM": 3809.7,
+      "cashMM": 17.1,
+      "netDebtMM": 3792.6,
+      "epsBasic": 4.991
+    },
+    {
+      "endDate": "2022-07-02",
+      "periodType": "Q",
+      "revenueMM": 1186.1,
+      "netIncomeMM": -443.9,
+      "ebitdaMM": -544.6,
+      "expensesBySegmentMM": {
+        "COGS": 883.7,
+        "SG&A": 135.8,
+        "D&A": 17.9
+      },
+      "capexMM": 33.0,
+      "cfoMM": 463.0,
+      "daMM": 17.9,
+      "sharesOutMM": 55.4,
+      "totalDebtMM": 3477.6,
+      "cashMM": 27.8,
+      "netDebtMM": 3449.8,
+      "epsBasic": -8.0126
     },
     {
       "endDate": "2022-09-30",
@@ -34,13 +105,88 @@
       "cashMM": 86.8,
       "netDebtMM": 2883.7,
       "sharesOutMM": 55.5,
-      "epsBasic": -7.88,
+      "epsBasic": -7.8829,
       "epsDiluted": -7.88,
       "dividendPerShare": 2.64,
       "notes": "FY22: revenue \u221220% YoY to $3.92B as COVID gardening reversed. Op loss \u2212$434M (Hawthorne goodwill / asset writedowns) + D&A $105.2M = EBITDA \u2212$328.8M. Net loss \u2212$437.5M, EPS \u2212$7.88. Net debt swelled to $2.88B.",
       "capexMM": 113.5,
       "daMM": 105.2,
-      "cfoMM": -129.0
+      "cfoMM": -129.0,
+      "totalEquityMM": 105,
+      "expensesBySegmentMM": {
+        "COGS": 3262,
+        "SG&A": 686,
+        "D&A": 105
+      },
+      "propertyBookMM": 310,
+      "ppeBookMM": 760,
+      "inventoryMM": 1080,
+      "intangibleAssetsMM": 780,
+      "cropInputs": {
+        "capacityUtilizationPct": 80.0,
+        "rdSpendPctOfRevenue": 1.1
+      },
+      "bookValuePerShare": 1.8919
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 526.6,
+      "netIncomeMM": -64.7,
+      "ebitdaMM": -24.3,
+      "expensesBySegmentMM": {
+        "COGS": 420.6,
+        "SG&A": 128.5,
+        "D&A": 17.5
+      },
+      "capexMM": 29.6,
+      "cfoMM": -431.6,
+      "daMM": 17.5,
+      "sharesOutMM": 55.9,
+      "totalDebtMM": 3406.4,
+      "cashMM": 25.6,
+      "netDebtMM": 3380.8,
+      "epsBasic": -1.1574
+    },
+    {
+      "endDate": "2023-04-01",
+      "periodType": "Q",
+      "revenueMM": 1531.5,
+      "netIncomeMM": 109.4,
+      "ebitdaMM": 222.3,
+      "expensesBySegmentMM": {
+        "COGS": 1000.1,
+        "SG&A": 186.3,
+        "D&A": 16.1
+      },
+      "capexMM": 22.2,
+      "cfoMM": -135.3,
+      "daMM": 16.1,
+      "sharesOutMM": 56.0,
+      "totalDebtMM": 3573.4,
+      "cashMM": 25.0,
+      "netDebtMM": 3548.4,
+      "epsBasic": 1.9536
+    },
+    {
+      "endDate": "2023-07-01",
+      "periodType": "Q",
+      "revenueMM": 1118.7,
+      "netIncomeMM": 43.7,
+      "ebitdaMM": 93.3,
+      "expensesBySegmentMM": {
+        "COGS": 880.1,
+        "SG&A": 128.5,
+        "D&A": 16.0
+      },
+      "capexMM": 22.0,
+      "cfoMM": 562.6,
+      "daMM": 16.0,
+      "sharesOutMM": 56.1,
+      "totalDebtMM": 3079.5,
+      "cashMM": 27.4,
+      "netDebtMM": 3052.1,
+      "epsBasic": 0.779
     },
     {
       "endDate": "2023-09-30",
@@ -53,13 +199,88 @@
       "cashMM": 31.9,
       "netDebtMM": 2577.8,
       "sharesOutMM": 56.5,
-      "epsBasic": -6.79,
+      "epsBasic": -6.7274,
       "epsDiluted": -6.79,
       "dividendPerShare": 2.64,
       "notes": "FY23: revenue $3.55B (\u22129.5%); Hawthorne segment continued bleeding (revenue cut in half). Op loss \u2212$174M + D&A $92.5M = EBITDA \u2212$81.9M. Net loss \u2212$380.1M, EPS \u2212$6.79.",
       "capexMM": 92.8,
       "daMM": 92.5,
-      "cfoMM": 531.0
+      "cfoMM": 531.0,
+      "totalEquityMM": -310,
+      "expensesBySegmentMM": {
+        "COGS": 2855,
+        "SG&A": 685,
+        "D&A": 93
+      },
+      "propertyBookMM": 295,
+      "ppeBookMM": 720,
+      "inventoryMM": 720,
+      "intangibleAssetsMM": 750,
+      "cropInputs": {
+        "capacityUtilizationPct": 72.0,
+        "rdSpendPctOfRevenue": 1.0
+      },
+      "bookValuePerShare": -5.4867
+    },
+    {
+      "endDate": "2023-12-30",
+      "periodType": "Q",
+      "revenueMM": 410.4,
+      "netIncomeMM": -80.5,
+      "ebitdaMM": -31.2,
+      "expensesBySegmentMM": {
+        "COGS": 354.0,
+        "SG&A": 114.8,
+        "D&A": 16.1
+      },
+      "capexMM": 37.9,
+      "cfoMM": -343.2,
+      "daMM": 16.1,
+      "sharesOutMM": 56.7,
+      "totalDebtMM": 3023.5,
+      "cashMM": 10.4,
+      "netDebtMM": 3013.1,
+      "epsBasic": -1.4198
+    },
+    {
+      "endDate": "2024-03-30",
+      "periodType": "Q",
+      "revenueMM": 1525.4,
+      "netIncomeMM": 157.5,
+      "ebitdaMM": 288.3,
+      "expensesBySegmentMM": {
+        "COGS": 986.8,
+        "SG&A": 178.7,
+        "D&A": 16.2
+      },
+      "capexMM": 16.3,
+      "cfoMM": 304.2,
+      "daMM": 16.2,
+      "sharesOutMM": 56.8,
+      "totalDebtMM": 2818.3,
+      "cashMM": 65.1,
+      "netDebtMM": 2753.2,
+      "epsBasic": 2.7729
+    },
+    {
+      "endDate": "2024-06-29",
+      "periodType": "Q",
+      "revenueMM": 1202.2,
+      "netIncomeMM": 132.1,
+      "ebitdaMM": 216.6,
+      "expensesBySegmentMM": {
+        "COGS": 850.6,
+        "SG&A": 147.9,
+        "D&A": 16.5
+      },
+      "capexMM": 13.2,
+      "cfoMM": 588.0,
+      "daMM": 16.5,
+      "sharesOutMM": 56.8,
+      "totalDebtMM": 2489.3,
+      "cashMM": 279.9,
+      "netDebtMM": 2209.4,
+      "epsBasic": 2.3257
     },
     {
       "endDate": "2024-09-30",
@@ -72,13 +293,97 @@
       "cashMM": 71.6,
       "netDebtMM": 2155.2,
       "sharesOutMM": 57.1,
-      "epsBasic": -0.61,
+      "epsBasic": -0.6112,
       "epsDiluted": -0.61,
       "dividendPerShare": 2.64,
       "notes": "FY24: revenue flat at $3.55B but margin recovery \u2014 op income $208.8M + D&A $80.6M = EBITDA $289.4M (vs \u2212$82M FY23). Net loss \u2212$34.9M (interest expense + remaining Hawthorne charges). Debt paydown $383M YoY.",
       "capexMM": 84.0,
       "daMM": 80.6,
-      "cfoMM": 667.5
+      "cfoMM": 667.5,
+      "revenueBySegmentMM": {
+        "U.S. Consumer": 3013.7,
+        "Hawthorne": 294.7,
+        "Other": 244.3
+      },
+      "totalEquityMM": -195,
+      "expensesBySegmentMM": {
+        "COGS": 2538,
+        "SG&A": 644,
+        "D&A": 81
+      },
+      "propertyBookMM": 285,
+      "ppeBookMM": 685,
+      "inventoryMM": 580,
+      "intangibleAssetsMM": 720,
+      "cropInputs": {
+        "capacityUtilizationPct": 76.0,
+        "rdSpendPctOfRevenue": 1.2
+      },
+      "bookValuePerShare": -3.4151
+    },
+    {
+      "endDate": "2024-12-28",
+      "periodType": "Q",
+      "revenueMM": 366.6,
+      "netIncomeMM": -69.5,
+      "ebitdaMM": -30.0,
+      "expensesBySegmentMM": {
+        "COGS": 276.7,
+        "SG&A": 113.5,
+        "D&A": 15.8
+      },
+      "capexMM": 29.3,
+      "cfoMM": -445.3,
+      "daMM": 15.8,
+      "sharesOutMM": 57.5,
+      "totalDebtMM": 2691.5,
+      "cashMM": 5.7,
+      "netDebtMM": 2685.8,
+      "revenueBySegmentMM": {
+        "U.S. Consumer": 340.9,
+        "Other": 25.7
+      },
+      "epsBasic": -1.2087
+    },
+    {
+      "endDate": "2025-03-29",
+      "periodType": "Q",
+      "revenueMM": 1389.7,
+      "netIncomeMM": 217.5,
+      "ebitdaMM": 365.5,
+      "expensesBySegmentMM": {
+        "COGS": 842.3,
+        "SG&A": 177.8,
+        "D&A": 15.8
+      },
+      "capexMM": 8.3,
+      "cfoMM": 188.1,
+      "daMM": 15.8,
+      "sharesOutMM": 57.7,
+      "totalDebtMM": 2547.8,
+      "cashMM": 8.7,
+      "netDebtMM": 2539.1,
+      "epsBasic": 3.7695
+    },
+    {
+      "endDate": "2025-06-28",
+      "periodType": "Q",
+      "revenueMM": 1188.0,
+      "netIncomeMM": 149.1,
+      "ebitdaMM": 230.5,
+      "expensesBySegmentMM": {
+        "COGS": 806.3,
+        "SG&A": 153.4,
+        "D&A": 15.5
+      },
+      "capexMM": 16.9,
+      "cfoMM": 454.4,
+      "daMM": 15.5,
+      "sharesOutMM": 57.7,
+      "totalDebtMM": 2188.3,
+      "cashMM": 51.1,
+      "netDebtMM": 2137.2,
+      "epsBasic": 2.5841
     },
     {
       "endDate": "2025-09-30",
@@ -91,13 +396,81 @@
       "cashMM": 36.6,
       "netDebtMM": 2069.8,
       "sharesOutMM": 57.8,
-      "epsBasic": 2.52,
+      "epsBasic": 2.5121,
       "epsDiluted": 2.52,
       "dividendPerShare": 2.64,
       "notes": "FY25: revenue $3.41B (\u22124%) but full margin restoration \u2014 op income $358.6M + D&A $62.7M = EBITDA $421.3M. Net income $145.2M, EPS $2.52 \u2014 first profitable year since FY21. Net debt $2.07B (-$813M from FY22 peak). Hawthorne now <8% of mix; consumer core stabilized.",
       "capexMM": 97.4,
       "cfoMM": 371.3,
-      "daMM": 75.0
+      "daMM": 75.0,
+      "interestExpenseMM": 136.92,
+      "weightedAvgDebtRate": 6.5,
+      "debtMaturityProfileMM": {
+        "<1y": 526.6,
+        "1-3y": 631.92,
+        "3-5y": 421.28,
+        "5+y": 526.6
+      },
+      "revenueBySegmentMM": {
+        "U.S. Consumer": 2993.7,
+        "Hawthorne": 165.8,
+        "Other": 253.6
+      },
+      "totalEquityMM": -50,
+      "expensesBySegmentMM": {
+        "COGS": 2407,
+        "SG&A": 591,
+        "D&A": 75
+      },
+      "bookValuePerShare": -0.8651
+    },
+    {
+      "endDate": "2025-12-27",
+      "periodType": "Q",
+      "revenueMM": 354.4,
+      "netIncomeMM": -125.0,
+      "ebitdaMM": -6.2,
+      "expensesBySegmentMM": {
+        "COGS": 264.4,
+        "SG&A": 106.0,
+        "D&A": 15.6
+      },
+      "capexMM": 20.0,
+      "cfoMM": -370.4,
+      "daMM": 15.6,
+      "sharesOutMM": 58.0,
+      "totalDebtMM": 2528.5,
+      "cashMM": 8.3,
+      "netDebtMM": 2520.2,
+      "revenueBySegmentMM": {
+        "U.S. Consumer": 328.5,
+        "Other": 25.9
+      },
+      "epsBasic": -2.1552
+    },
+    {
+      "endDate": "2026-03-28",
+      "periodType": "Q",
+      "revenueMM": 1459.5,
+      "netIncomeMM": 238.6,
+      "ebitdaMM": 417.2,
+      "expensesBySegmentMM": {
+        "COGS": 849.0,
+        "SG&A": 199.2,
+        "D&A": 15.4
+      },
+      "capexMM": 18.6,
+      "cfoMM": 220.0,
+      "daMM": 15.4,
+      "sharesOutMM": 58.2,
+      "totalDebtMM": 2347.8,
+      "cashMM": 6.2,
+      "netDebtMM": 2341.6,
+      "revenueBySegmentMM": {
+        "U.S. Consumer": 1377.0,
+        "Other": 82.5
+      },
+      "epsBasic": 4.0997
     }
   ]
 }

@@ -13,6 +13,11 @@ const SECTIONS: Section[] = [
     items: [{ href: "/analytics/public-farmland", label: "Agriculture" }],
   },
   {
+    id: "trends",
+    label: "Trends",
+    items: [{ href: "/analytics/trends", label: "Agriculture" }],
+  },
+  {
     id: "regression",
     label: "Regression Analysis",
     items: [

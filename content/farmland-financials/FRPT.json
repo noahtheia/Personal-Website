@@ -17,14 +17,32 @@
       "ebitdaMM": 36.4,
       "netDebtMM": -211.6,
       "totalDebtMM": 0,
-      "cashMM": 211.6,
+      "cashMM": 147.3,
       "sharesOutMM": 41.5,
-      "bookValuePerShare": 7.8,
+      "bookValuePerShare": 5.9036,
       "dividendPerShare": 0,
       "notes": "FY20: revenue $318.8M (+33%). Adj EBITDA $51.5M. Strong COVID-era pet adoption tailwind. Equity raise funded Ennis TX kitchens construction.",
       "capexMM": 0.1,
       "daMM": 0.1,
-      "cfoMM": 1.5
+      "cfoMM": 1.5,
+      "totalEquityMM": 245,
+      "protein": {
+        "plants": 2,
+        "capacityUtilizationPct": 78,
+        "brandedCpg": {
+          "brandedRevenuePct": 100,
+          "acvDistributionPct": 24,
+          "foodserviceMixPct": 0
+        }
+      },
+      "totalAssetsMM": 396,
+      "propertyBookMM": 0,
+      "ppeBookMM": 198.3,
+      "inventoryMM": 20.9,
+      "intangibleAssetsMM": 9.7,
+      "interestExpenseMM": 2.0,
+      "netIncomeMM": 5.0,
+      "epsBasic": 0.1205
     },
     {
       "endDate": "2021-12-31",
@@ -39,14 +57,100 @@
       "ebitdaMM": 19.6,
       "netDebtMM": -196.7,
       "totalDebtMM": 0,
-      "cashMM": 196.7,
+      "cashMM": 167.5,
       "sharesOutMM": 43.9,
-      "bookValuePerShare": 12.5,
+      "bookValuePerShare": 8.9294,
       "dividendPerShare": 0,
       "notes": "FY21: revenue $425.5M (+33%). Adj EBITDA $50.0M. Margin pressure from chicken / labour cost inflation + start-up costs at Ennis. Convertible notes issued ($402M).",
       "capexMM": 0.0,
       "daMM": 0.1,
-      "cfoMM": 0.8
+      "cfoMM": 0.8,
+      "totalEquityMM": 392,
+      "protein": {
+        "plants": 2,
+        "capacityUtilizationPct": 80,
+        "brandedCpg": {
+          "brandedRevenuePct": 100,
+          "acvDistributionPct": 28,
+          "foodserviceMixPct": 0
+        }
+      },
+      "totalAssetsMM": 700,
+      "propertyBookMM": 0,
+      "ppeBookMM": 434.4,
+      "inventoryMM": 51.1,
+      "intangibleAssetsMM": 11.9,
+      "interestExpenseMM": 1.0,
+      "netIncomeMM": 8.0,
+      "epsBasic": 0.1822
+    },
+    {
+      "endDate": "2022-01-31",
+      "periodType": "Q",
+      "revenueMM": 5.0,
+      "netIncomeMM": 0.3,
+      "ebitdaMM": 0.4,
+      "expensesBySegmentMM": {
+        "COGS": 3.8,
+        "SG&A": 0.9,
+        "D&A": 0.0
+      },
+      "capexMM": 0.0,
+      "cfoMM": -0.3,
+      "daMM": 0.0,
+      "sharesOutMM": 22.97,
+      "epsBasic": 0.0131
+    },
+    {
+      "endDate": "2022-04-30",
+      "periodType": "Q",
+      "revenueMM": 5.0,
+      "netIncomeMM": 0.2,
+      "ebitdaMM": 0.3,
+      "expensesBySegmentMM": {
+        "COGS": 3.8,
+        "SG&A": 0.9,
+        "D&A": 0.0
+      },
+      "capexMM": 0.0,
+      "cfoMM": -0.4,
+      "daMM": 0.0,
+      "sharesOutMM": 22.96,
+      "epsBasic": 0.0087
+    },
+    {
+      "endDate": "2022-07-31",
+      "periodType": "Q",
+      "revenueMM": 4.8,
+      "netIncomeMM": 0.3,
+      "ebitdaMM": 0.4,
+      "expensesBySegmentMM": {
+        "COGS": 3.5,
+        "SG&A": 0.9,
+        "D&A": 0.0
+      },
+      "capexMM": 0.0,
+      "cfoMM": 1.1,
+      "daMM": 0.0,
+      "sharesOutMM": 22.95,
+      "epsBasic": 0.0131
+    },
+    {
+      "endDate": "2022-10-31",
+      "periodType": "Q",
+      "revenueMM": 4.6,
+      "netIncomeMM": 0.2,
+      "ebitdaMM": 0.2,
+      "expensesBySegmentMM": {
+        "COGS": 3.5,
+        "SG&A": 0.9,
+        "D&A": 0.0
+      },
+      "capexMM": 0.0,
+      "cfoMM": 0.3,
+      "daMM": 0.0,
+      "sharesOutMM": 22.94,
+      "epsBasic": 0.0087
     },
     {
       "endDate": "2022-12-31",
@@ -61,14 +165,100 @@
       "ebitdaMM": -28.0,
       "netDebtMM": 121.0,
       "totalDebtMM": 350.0,
-      "cashMM": 229.0,
+      "cashMM": 87.0,
       "sharesOutMM": 44.5,
-      "bookValuePerShare": 11.0,
+      "bookValuePerShare": 12.6292,
       "dividendPerShare": 0,
       "notes": "FY22: revenue $595.2M (+40%). Adj EBITDA $11.6M (GAAP EBITDA negative \u2014 ramp losses + impairment). Trough margin year. Heavy investment in Ennis kitchens 2 + 3.",
       "capexMM": 0.0,
       "daMM": 0.1,
-      "cfoMM": 0.6
+      "cfoMM": 0.6,
+      "totalEquityMM": 562,
+      "propertyBookMM": 376.2,
+      "ppeBookMM": 376.2,
+      "inventoryMM": 57.8,
+      "intangibleAssetsMM": 5.3,
+      "protein": {
+        "plants": 3,
+        "capacityUtilizationPct": 70,
+        "brandedCpg": {
+          "brandedRevenuePct": 100,
+          "acvDistributionPct": 32,
+          "foodserviceMixPct": 0
+        }
+      },
+      "totalAssetsMM": 950,
+      "interestExpenseMM": 5.0,
+      "netIncomeMM": -29.0,
+      "epsBasic": -0.6517
+    },
+    {
+      "endDate": "2023-01-31",
+      "periodType": "Q",
+      "revenueMM": 4.2,
+      "netIncomeMM": 0.4,
+      "ebitdaMM": 0.5,
+      "expensesBySegmentMM": {
+        "COGS": 3.0,
+        "SG&A": 0.9,
+        "D&A": 0.0
+      },
+      "capexMM": 0.0,
+      "cfoMM": 0.9,
+      "daMM": 0.0,
+      "sharesOutMM": 22.95,
+      "epsBasic": 0.0174
+    },
+    {
+      "endDate": "2023-04-30",
+      "periodType": "Q",
+      "revenueMM": 4.6,
+      "netIncomeMM": 0.4,
+      "ebitdaMM": 0.4,
+      "expensesBySegmentMM": {
+        "COGS": 3.2,
+        "SG&A": 1.0,
+        "D&A": 0.0
+      },
+      "capexMM": 0.0,
+      "cfoMM": -0.3,
+      "daMM": 0.0,
+      "sharesOutMM": 22.97,
+      "epsBasic": 0.0174
+    },
+    {
+      "endDate": "2023-07-31",
+      "periodType": "Q",
+      "revenueMM": 4.6,
+      "netIncomeMM": 0.5,
+      "ebitdaMM": 0.5,
+      "expensesBySegmentMM": {
+        "COGS": 3.0,
+        "SG&A": 1.1,
+        "D&A": 0.0
+      },
+      "capexMM": 0.0,
+      "cfoMM": 1.0,
+      "daMM": 0.0,
+      "sharesOutMM": 22.96,
+      "epsBasic": 0.0218
+    },
+    {
+      "endDate": "2023-10-31",
+      "periodType": "Q",
+      "revenueMM": 3.6,
+      "netIncomeMM": -0.0,
+      "ebitdaMM": -0.0,
+      "expensesBySegmentMM": {
+        "COGS": 2.7,
+        "SG&A": 1.0,
+        "D&A": 0.0
+      },
+      "capexMM": -0.0,
+      "cfoMM": 0.3,
+      "daMM": 0.0,
+      "sharesOutMM": 22.96,
+      "epsBasic": -0.0
     },
     {
       "endDate": "2023-12-31",
@@ -83,14 +273,100 @@
       "ebitdaMM": 73.5,
       "netDebtMM": 152.5,
       "totalDebtMM": 408.0,
-      "cashMM": 255.5,
+      "cashMM": 106.1,
       "sharesOutMM": 47.5,
-      "bookValuePerShare": 13.2,
+      "bookValuePerShare": 12.9474,
       "dividendPerShare": 0,
       "notes": "FY23: revenue $766.9M (+29%). Adj EBITDA $99.1M. Margin recovery as Ennis ramped + chicken cost normalized. Reached operational scale.",
       "capexMM": 0.0,
       "daMM": 0.0,
-      "cfoMM": 1.9
+      "cfoMM": 1.9,
+      "totalEquityMM": 615,
+      "propertyBookMM": 473.2,
+      "ppeBookMM": 473.2,
+      "inventoryMM": 72.6,
+      "intangibleAssetsMM": 5.4,
+      "protein": {
+        "plants": 3,
+        "capacityUtilizationPct": 78,
+        "brandedCpg": {
+          "brandedRevenuePct": 100,
+          "acvDistributionPct": 35,
+          "foodserviceMixPct": 0
+        }
+      },
+      "totalAssetsMM": 1190,
+      "interestExpenseMM": 12.0,
+      "netIncomeMM": -30.0,
+      "epsBasic": -0.6316
+    },
+    {
+      "endDate": "2024-01-31",
+      "periodType": "Q",
+      "revenueMM": 2.4,
+      "netIncomeMM": -0.3,
+      "ebitdaMM": -0.4,
+      "expensesBySegmentMM": {
+        "COGS": 1.8,
+        "SG&A": 1.0,
+        "D&A": 0.0
+      },
+      "capexMM": 0.0,
+      "cfoMM": 0.7,
+      "daMM": 0.0,
+      "sharesOutMM": 22.96,
+      "epsBasic": -0.0131
+    },
+    {
+      "endDate": "2024-04-30",
+      "periodType": "Q",
+      "revenueMM": 2.4,
+      "netIncomeMM": -0.2,
+      "ebitdaMM": -0.3,
+      "expensesBySegmentMM": {
+        "COGS": 1.8,
+        "SG&A": 0.9,
+        "D&A": 0.0
+      },
+      "capexMM": 0.0,
+      "cfoMM": -0.7,
+      "daMM": 0.0,
+      "sharesOutMM": 22.96,
+      "epsBasic": -0.0087
+    },
+    {
+      "endDate": "2024-07-31",
+      "periodType": "Q",
+      "revenueMM": 2.4,
+      "netIncomeMM": -0.3,
+      "ebitdaMM": -0.4,
+      "expensesBySegmentMM": {
+        "COGS": 1.8,
+        "SG&A": 1.0,
+        "D&A": 0.0
+      },
+      "capexMM": 0.0,
+      "cfoMM": -0.7,
+      "daMM": 0.0,
+      "sharesOutMM": 22.96,
+      "epsBasic": -0.0131
+    },
+    {
+      "endDate": "2024-10-31",
+      "periodType": "Q",
+      "revenueMM": 2.3,
+      "netIncomeMM": 0.0,
+      "ebitdaMM": -0.1,
+      "expensesBySegmentMM": {
+        "COGS": 1.6,
+        "SG&A": 0.9,
+        "D&A": 0.0
+      },
+      "capexMM": 0.2,
+      "cfoMM": 0.1,
+      "daMM": 0.0,
+      "sharesOutMM": 22.96,
+      "epsBasic": 0.0
     },
     {
       "endDate": "2024-12-31",
@@ -105,14 +381,124 @@
       "ebitdaMM": 134.0,
       "netDebtMM": 162.0,
       "totalDebtMM": 414.0,
-      "cashMM": 252.0,
+      "cashMM": 108.2,
       "sharesOutMM": 48.6,
-      "bookValuePerShare": 14.4,
+      "bookValuePerShare": 16.0494,
       "dividendPerShare": 0,
       "notes": "FY24: revenue $975.2M (+27%). Adj EBITDA $164.4M (~17% margin \u2014 significant operating leverage). Net income positive ~$58M; EPS ~$1.20. First fully profitable year. Capex remains heavy as Ennis expansion + Bethlehem build-out continue.",
       "capexMM": 0.2,
       "daMM": 0.0,
-      "cfoMM": -0.6
+      "cfoMM": -0.6,
+      "interestExpenseMM": 22.77,
+      "weightedAvgDebtRate": 5.5,
+      "debtMaturityProfileMM": {
+        "<1y": 103.5,
+        "1-3y": 124.2,
+        "3-5y": 82.8,
+        "5+y": 103.5
+      },
+      "totalEquityMM": 780,
+      "propertyBookMM": 528.2,
+      "ppeBookMM": 528.2,
+      "inventoryMM": 93.6,
+      "intangibleAssetsMM": 5.2,
+      "protein": {
+        "plants": 4,
+        "capacityUtilizationPct": 75,
+        "brandedCpg": {
+          "brandedRevenuePct": 100,
+          "acvDistributionPct": 38,
+          "foodserviceMixPct": 0
+        }
+      },
+      "totalAssetsMM": 1330,
+      "netIncomeMM": 50.0,
+      "epsBasic": 1.0288
+    },
+    {
+      "endDate": "2025-01-31",
+      "periodType": "Q",
+      "revenueMM": 2.5,
+      "netIncomeMM": 0.0,
+      "ebitdaMM": -0.1,
+      "expensesBySegmentMM": {
+        "COGS": 1.7,
+        "SG&A": 0.9,
+        "D&A": 0.0
+      },
+      "capexMM": 0.0,
+      "cfoMM": -0.4,
+      "daMM": 0.0,
+      "sharesOutMM": 22.96,
+      "epsBasic": 0.0
+    },
+    {
+      "endDate": "2025-04-30",
+      "periodType": "Q",
+      "revenueMM": 2.4,
+      "netIncomeMM": 0.1,
+      "ebitdaMM": 0.1,
+      "expensesBySegmentMM": {
+        "COGS": 1.6,
+        "SG&A": 0.9,
+        "D&A": 0.0
+      },
+      "capexMM": 0.0,
+      "cfoMM": -0.3,
+      "daMM": 0.0,
+      "sharesOutMM": 22.93,
+      "epsBasic": 0.0044
+    },
+    {
+      "endDate": "2025-07-31",
+      "periodType": "Q",
+      "revenueMM": 2.0,
+      "netIncomeMM": -0.2,
+      "ebitdaMM": -0.3,
+      "expensesBySegmentMM": {
+        "COGS": 1.4,
+        "SG&A": 0.9,
+        "D&A": 0.0
+      },
+      "capexMM": 0.0,
+      "cfoMM": 0.2,
+      "daMM": 0.0,
+      "sharesOutMM": 22.92,
+      "epsBasic": -0.0087
+    },
+    {
+      "endDate": "2025-10-31",
+      "periodType": "Q",
+      "revenueMM": 2.1,
+      "netIncomeMM": -0.0,
+      "ebitdaMM": -0.1,
+      "expensesBySegmentMM": {
+        "COGS": 1.4,
+        "SG&A": 0.9,
+        "D&A": 0.0
+      },
+      "capexMM": 0.0,
+      "cfoMM": 0.3,
+      "daMM": 0.0,
+      "sharesOutMM": 22.91,
+      "epsBasic": -0.0
+    },
+    {
+      "endDate": "2026-01-31",
+      "periodType": "Q",
+      "revenueMM": 2.3,
+      "netIncomeMM": 0.0,
+      "ebitdaMM": -0.1,
+      "expensesBySegmentMM": {
+        "COGS": 1.6,
+        "SG&A": 0.8,
+        "D&A": 0.0
+      },
+      "capexMM": 0.0,
+      "cfoMM": -0.4,
+      "daMM": 0.0,
+      "sharesOutMM": 22.9,
+      "epsBasic": 0.0
     }
   ]
 }

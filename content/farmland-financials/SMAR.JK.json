@@ -2,7 +2,7 @@
   "ticker": "SMAR.JK",
   "currency": "IDR",
   "sourceUrl": "https://www.smart-tbk.com/",
-  "notes": "PT Sinar Mas Agro Resources and Technology Tbk (SMART) — IDX-listed midstream/downstream palm oil refiner & branded consumer producer (Filma cooking oil, Kunci Mas, Mitra), majority-owned by Golden Agri-Resources (Singapore). ~138k ha planted oil palm own estates + heavy refining/processing capacity (CPO refining, oleochemicals, biodiesel). Reports under PSAK. Values in IDR millions (matches AALI/SIMP/LSIP convention). Heavy debt load to fund refining capacity. FY data from annual reports. Acres = planted hectares × 2.47 / 1000. Segments: refined products / branded oils dominate revenue; plantation segment ~20%.",
+  "notes": "PT Sinar Mas Agro Resources and Technology Tbk (SMART) \u2014 IDX-listed midstream/downstream palm oil refiner & branded consumer producer (Filma cooking oil, Kunci Mas, Mitra), majority-owned by Golden Agri-Resources (Singapore). ~138k ha planted oil palm own estates + heavy refining/processing capacity (CPO refining, oleochemicals, biodiesel). Reports under PSAK. Values in IDR millions (matches AALI/SIMP/LSIP convention). Heavy debt load to fund refining capacity. FY data from annual reports. Acres = planted hectares \u00d7 2.47 / 1000. Segments: refined products / branded oils dominate revenue; plantation segment ~20%.",
   "periods": [
     {
       "endDate": "2019-12-31",
@@ -29,12 +29,13 @@
       "totalEquityMM": 9320000,
       "sharesOutMM": 2872,
       "totalAcresK": 341,
-      "bookValuePerShare": 3245,
+      "bookValuePerShare": 3245.1253,
       "dividendPerShare": 50,
       "notes": "FY19: revenue Rp36.2T (-7% YoY) on CPO ASP weakness; net income Rp899B",
       "capexMM": 1100000,
       "daMM": 720000,
-      "cfoMM": 2500000
+      "cfoMM": 2500000,
+      "epsBasic": 313.0223
     },
     {
       "endDate": "2020-12-31",
@@ -68,12 +69,20 @@
       "cpoExtractionRatePct": 21.7,
       "pkExtractionRatePct": 4.85,
       "matureHectaresK": 133,
-      "bookValuePerShare": 3555,
+      "bookValuePerShare": 3555.0139,
       "dividendPerShare": 70,
       "notes": "FY20: revenue Rp41.0T (+13% YoY); CPO recovery + biodiesel demand; net income Rp1.27T",
       "capexMM": 980000,
       "daMM": 740000,
-      "cfoMM": 4100000
+      "cfoMM": 4100000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 22.1,
+        "cpoAspPerMt": 9120000,
+        "maturePlantedHa": 137000,
+        "rspoPct": 55
+      },
+      "epsBasic": 441.5042
     },
     {
       "endDate": "2021-12-31",
@@ -107,12 +116,119 @@
       "cpoExtractionRatePct": 21.8,
       "pkExtractionRatePct": 4.88,
       "matureHectaresK": 133,
-      "bookValuePerShare": 4076,
+      "bookValuePerShare": 4073.8162,
       "dividendPerShare": 110,
       "notes": "FY21: revenue Rp56.1T (+37% YoY) CPO super-cycle peak; net income Rp1.84T (+45%)",
       "capexMM": 1200000,
       "daMM": 760000,
-      "cfoMM": 5300000
+      "cfoMM": 5300000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.0,
+        "oerPct": 22.0,
+        "cpoAspPerMt": 12680000,
+        "maturePlantedHa": 137200,
+        "rspoPct": 58
+      },
+      "epsBasic": 639.624
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 15800000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 12640000,
+        "Plantation (CPO/PK)": 2840000,
+        "Other": 320000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 14530000,
+        "G&A": 330000,
+        "Selling": 300000,
+        "D&A": 245000
+      },
+      "ebitdaMM": 1100000,
+      "netIncomeMM": 510000,
+      "netDebtMM": 11800000,
+      "sharesOutMM": 2872,
+      "notes": "Q1 2022: revenue Rp15.8T on peak CPO ASP. Net income Rp510B.",
+      "epsBasic": 177.5766
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 16500000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 13200000,
+        "Plantation (CPO/PK)": 2965000,
+        "Other": 335000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 15300000,
+        "G&A": 340000,
+        "Selling": 310000,
+        "D&A": 250000
+      },
+      "ebitdaMM": 950000,
+      "netIncomeMM": 420000,
+      "netDebtMM": 11900000,
+      "sharesOutMM": 2872,
+      "notes": "Q2 2022: revenue Rp16.5T; export ban + DMO compressed margins.",
+      "epsBasic": 146.2396
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 15700000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 12550000,
+        "Plantation (CPO/PK)": 2825000,
+        "Other": 325000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 14450000,
+        "G&A": 330000,
+        "Selling": 300000,
+        "D&A": 245000
+      },
+      "ebitdaMM": 850000,
+      "netIncomeMM": 350000,
+      "netDebtMM": 11850000,
+      "sharesOutMM": 2872,
+      "notes": "Q3 2022: revenue Rp15.7T; CPO ASP normalization.",
+      "epsBasic": 121.8663
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 16298000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 13050000,
+        "Plantation (CPO/PK)": 2930000,
+        "Other": 318000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 14860000,
+        "G&A": 340000,
+        "Selling": 310000,
+        "D&A": 245000
+      },
+      "ebitdaMM": 860000,
+      "netIncomeMM": 413000,
+      "netDebtMM": 11790000,
+      "sharesOutMM": 2872,
+      "notes": "Q4 2022: revenue Rp16.3T; net income Rp413B.",
+      "propertyBookMM": 9350000,
+      "ppeBookMM": 12180000,
+      "inventoryMM": 8950000,
+      "intangibleAssetsMM": 245000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.5,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 14080000,
+        "maturePlantedHa": 137500,
+        "rspoPct": 60
+      },
+      "epsBasic": 143.8022
     },
     {
       "endDate": "2022-12-31",
@@ -146,12 +262,123 @@
       "cpoExtractionRatePct": 21.8,
       "pkExtractionRatePct": 4.9,
       "matureHectaresK": 133,
-      "bookValuePerShare": 4441,
+      "bookValuePerShare": 4439.415,
       "dividendPerShare": 100,
       "notes": "FY22: revenue Rp64.3T (+15% YoY); export ban + DMO levy compressed Q2 margins. Net income Rp1.69T",
       "capexMM": 1450000,
       "daMM": 780000,
-      "cfoMM": 4800000
+      "cfoMM": 4800000,
+      "propertyBookMM": 9350000,
+      "ppeBookMM": 12180000,
+      "inventoryMM": 8950000,
+      "intangibleAssetsMM": 245000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.5,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 14080000,
+        "maturePlantedHa": 137500,
+        "rspoPct": 60
+      },
+      "epsBasic": 589.4847
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 15100000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 12080000,
+        "Plantation (CPO/PK)": 2715000,
+        "Other": 305000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 14130000,
+        "G&A": 325000,
+        "Selling": 295000,
+        "D&A": 250000
+      },
+      "ebitdaMM": 580000,
+      "netIncomeMM": 220000,
+      "netDebtMM": 11700000,
+      "sharesOutMM": 2872,
+      "notes": "Q1 2023: revenue Rp15.1T; CPO ASP softened.",
+      "epsBasic": 76.6017
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 15200000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 12160000,
+        "Plantation (CPO/PK)": 2735000,
+        "Other": 305000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 14210000,
+        "G&A": 330000,
+        "Selling": 295000,
+        "D&A": 250000
+      },
+      "ebitdaMM": 600000,
+      "netIncomeMM": 245000,
+      "netDebtMM": 11600000,
+      "sharesOutMM": 2872,
+      "notes": "Q2 2023: revenue Rp15.2T; net income Rp245B.",
+      "epsBasic": 85.3064
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 14900000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 11920000,
+        "Plantation (CPO/PK)": 2685000,
+        "Other": 295000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 13950000,
+        "G&A": 325000,
+        "Selling": 290000,
+        "D&A": 252000
+      },
+      "ebitdaMM": 590000,
+      "netIncomeMM": 240000,
+      "netDebtMM": 11550000,
+      "sharesOutMM": 2872,
+      "notes": "Q3 2023: revenue Rp14.9T.",
+      "epsBasic": 83.5655
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 15335000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 12260000,
+        "Plantation (CPO/PK)": 2760000,
+        "Other": 315000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 14350000,
+        "G&A": 340000,
+        "Selling": 310000,
+        "D&A": 258000
+      },
+      "ebitdaMM": 630000,
+      "netIncomeMM": 283000,
+      "netDebtMM": 11500000,
+      "sharesOutMM": 2872,
+      "notes": "Q4 2023: revenue Rp15.3T; net income Rp283B.",
+      "propertyBookMM": 9420000,
+      "ppeBookMM": 12350000,
+      "inventoryMM": 7950000,
+      "intangibleAssetsMM": 248000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.2,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 12380000,
+        "maturePlantedHa": 137800,
+        "rspoPct": 62
+      },
+      "epsBasic": 98.5376
     },
     {
       "endDate": "2023-12-31",
@@ -185,12 +412,123 @@
       "cpoExtractionRatePct": 21.8,
       "pkExtractionRatePct": 4.88,
       "matureHectaresK": 133,
-      "bookValuePerShare": 4649,
+      "bookValuePerShare": 4648.3287,
       "dividendPerShare": 60,
       "notes": "FY23: revenue Rp60.5T (-6% YoY) on CPO ASP normalization; net income Rp988B (-42%)",
       "capexMM": 1380000,
       "daMM": 800000,
-      "cfoMM": 3200000
+      "cfoMM": 3200000,
+      "propertyBookMM": 9420000,
+      "ppeBookMM": 12350000,
+      "inventoryMM": 7950000,
+      "intangibleAssetsMM": 248000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.2,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 12380000,
+        "maturePlantedHa": 137800,
+        "rspoPct": 62
+      },
+      "epsBasic": 344.0111
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 16800000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 13440000,
+        "Plantation (CPO/PK)": 3025000,
+        "Other": 335000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 15440000,
+        "G&A": 350000,
+        "Selling": 320000,
+        "D&A": 255000
+      },
+      "ebitdaMM": 920000,
+      "netIncomeMM": 410000,
+      "netDebtMM": 11200000,
+      "sharesOutMM": 2872,
+      "notes": "Q1 2024: revenue Rp16.8T; CPO recovery.",
+      "epsBasic": 142.7577
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 17200000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 13760000,
+        "Plantation (CPO/PK)": 3100000,
+        "Other": 340000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 15810000,
+        "G&A": 358000,
+        "Selling": 325000,
+        "D&A": 258000
+      },
+      "ebitdaMM": 980000,
+      "netIncomeMM": 460000,
+      "netDebtMM": 11000000,
+      "sharesOutMM": 2872,
+      "notes": "Q2 2024: revenue Rp17.2T.",
+      "epsBasic": 160.1671
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 16800000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 13440000,
+        "Plantation (CPO/PK)": 3025000,
+        "Other": 335000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 15425000,
+        "G&A": 355000,
+        "Selling": 320000,
+        "D&A": 260000
+      },
+      "ebitdaMM": 970000,
+      "netIncomeMM": 450000,
+      "netDebtMM": 10950000,
+      "sharesOutMM": 2872,
+      "notes": "Q3 2024: revenue Rp16.8T.",
+      "epsBasic": 156.6852
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 17620000,
+      "revenueBySegmentMM": {
+        "Refined / branded oils": 14100000,
+        "Plantation (CPO/PK)": 3170000,
+        "Other": 350000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 16155000,
+        "G&A": 357000,
+        "Selling": 340000,
+        "D&A": 267000
+      },
+      "ebitdaMM": 1045000,
+      "netIncomeMM": 500000,
+      "netDebtMM": 10880000,
+      "sharesOutMM": 2872,
+      "notes": "Q4 2024: revenue Rp17.6T; net income Rp500B.",
+      "propertyBookMM": 9500000,
+      "ppeBookMM": 12500000,
+      "inventoryMM": 8200000,
+      "intangibleAssetsMM": 250000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 13680000,
+        "maturePlantedHa": 138000,
+        "rspoPct": 65
+      },
+      "epsBasic": 174.0947
     },
     {
       "endDate": "2024-12-31",
@@ -225,13 +563,32 @@
       "cpoExtractionRatePct": 21.8,
       "pkExtractionRatePct": 4.9,
       "matureHectaresK": 133,
-      "bookValuePerShare": 5008,
+      "bookValuePerShare": 5006.9638,
       "navPerShare": 5008,
       "dividendPerShare": 130,
       "notes": "FY24: revenue Rp68.4T (+13% YoY); CPO recovery + branded oils volume growth. Net income Rp1.82T (+84%)",
       "capexMM": 1400000,
       "daMM": 820000,
-      "cfoMM": 3500000
+      "cfoMM": 3500000,
+      "interestExpenseMM": 1006500.0,
+      "weightedAvgDebtRate": 7.5,
+      "debtMaturityProfileMM": {
+        "<1y": 2684000.0,
+        "1-3y": 3355000.0,
+        "3-5y": 2684000.0,
+        "5+y": 4697000.0
+      },
+      "ppeBookMM": 12500000,
+      "inventoryMM": 8200000,
+      "intangibleAssetsMM": 250000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 13680000,
+        "maturePlantedHa": 138000,
+        "rspoPct": 65
+      },
+      "epsBasic": 633.7047
     }
   ]
 }

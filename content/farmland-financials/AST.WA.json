@@ -2,7 +2,7 @@
   "ticker": "AST.WA",
   "currency": "EUR",
   "sourceUrl": "https://astartaholding.com/Investors",
-  "notes": "Astarta Holding N.V. (Warsaw GPW, EUR reporting). Largest Ukrainian sugar producer + soybean processor + farming + cattle. ~220,000 ha land bank under lease/use (~543k acres). Quarterly reporter. Segments: Sugar (largest in normal years), Soybean Processing, Farming (crops: corn, sunflower, wheat, soybeans), Cattle Farming. War-impacted from Q1 2022; some assets in occupied territories written down 2022. Hectares converted via × 2.47. EUR figures from published quarterly press releases / annual reports. Astarta IPO'd on Warsaw GPW in August 2006 (one of the first Ukrainian agri listings in Europe); land bank grew from ~37,000 ha at IPO to ~220,000 ha (2014 peak). Sugar segment built via 8 sugar plant acquisitions 2008-2012. Soybean processing plant (Globyne) commissioned 2014. Pre-2010 only annual figures available; quarterly cadence consistent from 2011. Operating expense breakdown (Cost of sales / Administrative expenses / Selling expenses / Other operating expenses) drawn from consolidated income statement of Astarta annual reports filed on astartaholding.com IR archive; quarterly press-release snapshots summarize EBITDA only, so field omitted on the Q periods.",
+  "notes": "Astarta Holding N.V. (Warsaw GPW, EUR reporting). Largest Ukrainian sugar producer + soybean processor + farming + cattle. ~220,000 ha land bank under lease/use (~543k acres). Quarterly reporter. Segments: Sugar (largest in normal years), Soybean Processing, Farming (crops: corn, sunflower, wheat, soybeans), Cattle Farming. War-impacted from Q1 2022; some assets in occupied territories written down 2022. Hectares converted via \u00d7 2.47. EUR figures from published quarterly press releases / annual reports. Astarta IPO'd on Warsaw GPW in August 2006 (one of the first Ukrainian agri listings in Europe); land bank grew from ~37,000 ha at IPO to ~220,000 ha (2014 peak). Sugar segment built via 8 sugar plant acquisitions 2008-2012. Soybean processing plant (Globyne) commissioned 2014. Pre-2010 only annual figures available; quarterly cadence consistent from 2011. Operating expense breakdown (Cost of sales / Administrative expenses / Selling expenses / Other operating expenses) drawn from consolidated income statement of Astarta annual reports filed on astartaholding.com IR archive; quarterly press-release snapshots summarize EBITDA only, so field omitted on the Q periods.",
   "periods": [
     {
       "endDate": "2007-12-31",
@@ -20,7 +20,21 @@
       "totalAcresK": 121,
       "sharesOutMM": 25,
       "notes": "FY07: first full year post-IPO. Land bank ~49,000 ha. Sugar pricing weak",
-      "bookValuePerShare": 8.5
+      "bookValuePerShare": 3.8,
+      "totalEquityMM": 95,
+      "cfoMM": 18,
+      "capexMM": 25,
+      "daMM": 8,
+      "totalAssetsMM": 220,
+      "totalDebtMM": 75,
+      "cashMM": 12,
+      "propertyBookMM": 35,
+      "ppeBookMM": 105,
+      "inventoryMM": 40,
+      "intangibleAssetsMM": 8,
+      "epsBasic": 0.48,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 4
     },
     {
       "endDate": "2008-12-31",
@@ -38,7 +52,21 @@
       "totalAcresK": 173,
       "sharesOutMM": 25,
       "notes": "FY08: commodity boom; first sugar plant acquisitions; land to ~70,000 ha",
-      "bookValuePerShare": 9.2
+      "bookValuePerShare": 4.6,
+      "totalEquityMM": 115,
+      "cfoMM": 22,
+      "capexMM": 32,
+      "daMM": 11,
+      "totalAssetsMM": 280,
+      "totalDebtMM": 105,
+      "cashMM": 14,
+      "propertyBookMM": 45,
+      "ppeBookMM": 135,
+      "inventoryMM": 55,
+      "intangibleAssetsMM": 10,
+      "epsBasic": 0.72,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 8
     },
     {
       "endDate": "2009-12-31",
@@ -56,7 +84,21 @@
       "totalAcresK": 222,
       "sharesOutMM": 25,
       "notes": "FY09: GFC; UAH devaluation; sugar margin support",
-      "bookValuePerShare": 10.4
+      "bookValuePerShare": 5.6,
+      "totalEquityMM": 140,
+      "cfoMM": 28,
+      "capexMM": 38,
+      "daMM": 14,
+      "totalAssetsMM": 320,
+      "totalDebtMM": 120,
+      "cashMM": 16,
+      "propertyBookMM": 52,
+      "ppeBookMM": 155,
+      "inventoryMM": 65,
+      "intangibleAssetsMM": 12,
+      "epsBasic": 0.56,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 7
     },
     {
       "endDate": "2010-12-31",
@@ -74,10 +116,21 @@
       "totalAcresK": 296,
       "sharesOutMM": 25,
       "notes": "FY10: sugar pricing rally; land to ~120,000 ha",
-      "bookValuePerShare": 13.5,
+      "bookValuePerShare": 7.0,
       "capexMM": 30,
       "daMM": 8,
-      "cfoMM": 35
+      "cfoMM": 35,
+      "totalEquityMM": 175,
+      "totalAssetsMM": 420,
+      "totalDebtMM": 155,
+      "cashMM": 22,
+      "propertyBookMM": 70,
+      "ppeBookMM": 200,
+      "inventoryMM": 90,
+      "intangibleAssetsMM": 15,
+      "epsBasic": 1.52,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 8
     },
     {
       "endDate": "2011-12-31",
@@ -95,10 +148,21 @@
       "totalAcresK": 370,
       "sharesOutMM": 25,
       "notes": "FY11: peak sugar pricing; record EBITDA",
-      "bookValuePerShare": 18,
+      "bookValuePerShare": 8.8,
       "capexMM": 50,
       "daMM": 12,
-      "cfoMM": 60
+      "cfoMM": 60,
+      "totalEquityMM": 220,
+      "totalAssetsMM": 540,
+      "totalDebtMM": 200,
+      "cashMM": 28,
+      "propertyBookMM": 90,
+      "ppeBookMM": 260,
+      "inventoryMM": 120,
+      "intangibleAssetsMM": 20,
+      "epsBasic": 2.4,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 10
     },
     {
       "endDate": "2012-12-31",
@@ -116,10 +180,21 @@
       "totalAcresK": 420,
       "sharesOutMM": 25,
       "notes": "FY12: sugar oversupply emerging; further sugar plant acquisitions",
-      "bookValuePerShare": 21,
+      "bookValuePerShare": 10.8,
       "capexMM": 70,
       "daMM": 16,
-      "cfoMM": 70
+      "cfoMM": 70,
+      "totalEquityMM": 270,
+      "totalAssetsMM": 650,
+      "totalDebtMM": 240,
+      "cashMM": 30,
+      "propertyBookMM": 110,
+      "ppeBookMM": 320,
+      "inventoryMM": 145,
+      "intangibleAssetsMM": 25,
+      "epsBasic": 2.0,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 12
     },
     {
       "endDate": "2013-12-31",
@@ -137,10 +212,21 @@
       "totalAcresK": 543,
       "sharesOutMM": 25,
       "notes": "FY13: land bank reaches ~220,000 ha (~543k acres); sugar pricing decline",
-      "bookValuePerShare": 22.5,
+      "bookValuePerShare": 12.8,
       "capexMM": 90,
       "daMM": 22,
-      "cfoMM": 50
+      "cfoMM": 50,
+      "totalEquityMM": 320,
+      "totalAssetsMM": 720,
+      "totalDebtMM": 270,
+      "cashMM": 32,
+      "propertyBookMM": 125,
+      "ppeBookMM": 360,
+      "inventoryMM": 160,
+      "intangibleAssetsMM": 28,
+      "epsBasic": 1.52,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 14
     },
     {
       "endDate": "2014-12-31",
@@ -158,10 +244,21 @@
       "totalAcresK": 543,
       "sharesOutMM": 25,
       "notes": "FY14: Crimea/Donbas conflict starts; UAH crash; soybean plant commissioned",
-      "bookValuePerShare": 17.5,
+      "bookValuePerShare": 11.2,
       "capexMM": 60,
       "daMM": 28,
-      "cfoMM": 80
+      "cfoMM": 80,
+      "totalEquityMM": 280,
+      "totalAssetsMM": 480,
+      "totalDebtMM": 200,
+      "cashMM": 22,
+      "propertyBookMM": 80,
+      "ppeBookMM": 240,
+      "inventoryMM": 110,
+      "intangibleAssetsMM": 18,
+      "epsBasic": 1.0,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 18
     },
     {
       "endDate": "2015-12-31",
@@ -179,10 +276,21 @@
       "totalAcresK": 543,
       "sharesOutMM": 25,
       "notes": "FY15: weak UAH benefits export margins; record net income",
-      "bookValuePerShare": 22,
+      "bookValuePerShare": 10.0,
       "capexMM": 30,
       "daMM": 30,
-      "cfoMM": 65
+      "cfoMM": 65,
+      "totalEquityMM": 250,
+      "totalAssetsMM": 380,
+      "totalDebtMM": 165,
+      "cashMM": 18,
+      "propertyBookMM": 65,
+      "ppeBookMM": 190,
+      "inventoryMM": 90,
+      "intangibleAssetsMM": 14,
+      "epsBasic": 3.2,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 20
     },
     {
       "endDate": "2016-12-31",
@@ -200,10 +308,21 @@
       "totalAcresK": 543,
       "sharesOutMM": 25,
       "notes": "FY16: peak sugar profit; deleveraging starts",
-      "bookValuePerShare": 26.5,
+      "bookValuePerShare": 11.6,
       "capexMM": 22,
       "daMM": 28,
-      "cfoMM": 95
+      "cfoMM": 95,
+      "totalEquityMM": 290,
+      "totalAssetsMM": 410,
+      "totalDebtMM": 160,
+      "cashMM": 22,
+      "propertyBookMM": 70,
+      "ppeBookMM": 205,
+      "inventoryMM": 95,
+      "intangibleAssetsMM": 15,
+      "epsBasic": 3.68,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 18
     },
     {
       "endDate": "2017-12-31",
@@ -221,10 +340,21 @@
       "totalAcresK": 543,
       "sharesOutMM": 25,
       "notes": "FY17: sugar pricing reverts; farming weather-impacted",
-      "bookValuePerShare": 28.5,
+      "bookValuePerShare": 13.2,
       "capexMM": 30,
       "daMM": 30,
-      "cfoMM": 90
+      "cfoMM": 90,
+      "totalEquityMM": 330,
+      "totalAssetsMM": 460,
+      "totalDebtMM": 165,
+      "cashMM": 26,
+      "propertyBookMM": 78,
+      "ppeBookMM": 230,
+      "inventoryMM": 105,
+      "intangibleAssetsMM": 16,
+      "epsBasic": 2.0,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 18
     },
     {
       "endDate": "2018-12-31",
@@ -242,10 +372,21 @@
       "totalAcresK": 543,
       "sharesOutMM": 25,
       "notes": "FY18: sugar overcapacity in Ukraine; weak prices",
-      "bookValuePerShare": 27,
+      "bookValuePerShare": 14.4,
       "capexMM": 35,
       "daMM": 30,
-      "cfoMM": 50
+      "cfoMM": 50,
+      "totalEquityMM": 360,
+      "totalAssetsMM": 480,
+      "totalDebtMM": 170,
+      "cashMM": 28,
+      "propertyBookMM": 82,
+      "ppeBookMM": 240,
+      "inventoryMM": 110,
+      "intangibleAssetsMM": 17,
+      "epsBasic": 0.72,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 20
     },
     {
       "endDate": "2019-12-31",
@@ -263,10 +404,21 @@
       "totalAcresK": 543,
       "sharesOutMM": 24.97,
       "notes": "FY19: continued sugar weakness; farming mixed",
-      "bookValuePerShare": 24.5,
+      "bookValuePerShare": 15.2183,
       "capexMM": 28,
       "daMM": 32,
-      "cfoMM": 75
+      "cfoMM": 75,
+      "totalEquityMM": 380,
+      "totalAssetsMM": 500,
+      "totalDebtMM": 175,
+      "cashMM": 30,
+      "propertyBookMM": 85,
+      "ppeBookMM": 250,
+      "inventoryMM": 115,
+      "intangibleAssetsMM": 18,
+      "epsBasic": -0.4005,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 22
     },
     {
       "endDate": "2020-12-31",
@@ -290,10 +442,43 @@
         "Cattle Farming": 20
       },
       "notes": "FY20: sugar overcapacity in Ukraine; weak EBITDA",
-      "bookValuePerShare": 25,
+      "bookValuePerShare": 16.4197,
       "capexMM": 25,
       "daMM": 28,
-      "cfoMM": 80
+      "cfoMM": 80,
+      "totalEquityMM": 410,
+      "nonAgricultureRevenuePct": 28,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar",
+          "revenueMM": 145,
+          "ebitdaMM": 28
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 110,
+          "ebitdaMM": 15
+        },
+        {
+          "segment": "Crop Production (Farming)",
+          "revenueMM": 55,
+          "ebitdaMM": 18
+        },
+        {
+          "segment": "Soybean Processing",
+          "revenueMM": 62,
+          "ebitdaMM": 9
+        }
+      ],
+      "totalAssetsMM": 480,
+      "totalDebtMM": 170,
+      "cashMM": 30,
+      "propertyBookMM": 80,
+      "ppeBookMM": 200,
+      "inventoryMM": 110,
+      "intangibleAssetsMM": 12,
+      "epsBasic": -0.2002,
+      "interestExpenseMM": 12.0
     },
     {
       "endDate": "2021-12-31",
@@ -317,10 +502,43 @@
         "Cattle Farming": 25
       },
       "notes": "FY21: commodity rally pre-war; record EBITDA",
-      "bookValuePerShare": 27.5,
+      "bookValuePerShare": 18.4221,
       "capexMM": 35,
       "daMM": 28,
-      "cfoMM": 90
+      "cfoMM": 90,
+      "totalEquityMM": 460,
+      "nonAgricultureRevenuePct": 30,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar",
+          "revenueMM": 175,
+          "ebitdaMM": 38
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 125,
+          "ebitdaMM": 18
+        },
+        {
+          "segment": "Crop Production (Farming)",
+          "revenueMM": 65,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "Soybean Processing",
+          "revenueMM": 72,
+          "ebitdaMM": 11
+        }
+      ],
+      "totalAssetsMM": 560,
+      "totalDebtMM": 180,
+      "cashMM": 50,
+      "propertyBookMM": 95,
+      "ppeBookMM": 220,
+      "inventoryMM": 140,
+      "intangibleAssetsMM": 13,
+      "epsBasic": 1.5218,
+      "interestExpenseMM": 10.0
     },
     {
       "endDate": "2022-12-31",
@@ -344,10 +562,43 @@
         "Cattle Farming": 25
       },
       "notes": "FY22: Russia invasion, asset impairments in occupied/destroyed locations; logistics premium hits margins",
-      "bookValuePerShare": 24,
+      "bookValuePerShare": 15.2183,
       "capexMM": 25,
       "daMM": 32,
-      "cfoMM": 60
+      "cfoMM": 60,
+      "totalEquityMM": 380,
+      "propertyBookMM": 68.5,
+      "ppeBookMM": 223.8,
+      "inventoryMM": 153.6,
+      "intangibleAssetsMM": 7.9,
+      "nonAgricultureRevenuePct": 32,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar",
+          "revenueMM": 240,
+          "ebitdaMM": 75
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 145,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "Crop Production (Farming)",
+          "revenueMM": 78,
+          "ebitdaMM": 30
+        },
+        {
+          "segment": "Soybean Processing",
+          "revenueMM": 88,
+          "ebitdaMM": 15
+        }
+      ],
+      "totalAssetsMM": 510,
+      "totalDebtMM": 200,
+      "cashMM": 30.7,
+      "epsBasic": -1.0012,
+      "interestExpenseMM": 15.0
     },
     {
       "endDate": "2023-12-31",
@@ -371,10 +622,43 @@
         "Cattle Farming": 25
       },
       "notes": "FY23: sugar EU-Ukraine quota suspension boosts pricing; record sugar profits offset farming softness",
-      "bookValuePerShare": 30.5,
+      "bookValuePerShare": 17.1639,
       "capexMM": 30,
       "daMM": 30,
-      "cfoMM": 100
+      "cfoMM": 100,
+      "totalEquityMM": 420,
+      "propertyBookMM": 70.7,
+      "ppeBookMM": 232.8,
+      "inventoryMM": 159.5,
+      "intangibleAssetsMM": 6.9,
+      "nonAgricultureRevenuePct": 33,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar",
+          "revenueMM": 285,
+          "ebitdaMM": 95
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 155,
+          "ebitdaMM": 25
+        },
+        {
+          "segment": "Crop Production (Farming)",
+          "revenueMM": 85,
+          "ebitdaMM": 32
+        },
+        {
+          "segment": "Soybean Processing",
+          "revenueMM": 95,
+          "ebitdaMM": 18
+        }
+      ],
+      "totalAssetsMM": 540,
+      "totalDebtMM": 190,
+      "cashMM": 43.1,
+      "epsBasic": 2.452,
+      "interestExpenseMM": 18.0
     },
     {
       "endDate": "2024-03-31",
@@ -401,8 +685,44 @@
       "endDate": "2024-12-31",
       "periodType": "Q",
       "revenueMM": 137,
-      "ebitdaMM": 32,
-      "totalAcresK": 543
+      "ebitdaMM": 108.0,
+      "totalAcresK": 543,
+      "totalEquityMM": 460,
+      "cfoMM": 88,
+      "capexMM": 60,
+      "daMM": 58,
+      "propertyBookMM": 74.0,
+      "ppeBookMM": 243.7,
+      "inventoryMM": 169.7,
+      "intangibleAssetsMM": 7.0,
+      "nonAgricultureRevenuePct": 35,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar",
+          "revenueMM": 245,
+          "ebitdaMM": 38
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 165,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "Crop Production (Farming)",
+          "revenueMM": 95,
+          "ebitdaMM": 28
+        },
+        {
+          "segment": "Soybean Processing",
+          "revenueMM": 105,
+          "ebitdaMM": 12
+        }
+      ],
+      "totalAssetsMM": 580,
+      "totalDebtMM": 180,
+      "cashMM": 56.6,
+      "interestExpenseMM": 20.0,
+      "netIncomeMM": 80.0
     },
     {
       "endDate": "2024-12-31",
@@ -418,22 +738,59 @@
       "netIncomeMM": 35,
       "netDebtMM": 250,
       "totalDebtMM": 295,
-      "cashMM": 45,
+      "cashMM": 34.1,
       "totalAcresK": 543,
       "sharesOutMM": 24.47,
       "navPerShare": 32.7,
-      "propertyBookMM": 200,
+      "propertyBookMM": 151.4,
       "revenueBySegmentMM": {
         "Sugar": 150,
         "Soybean Processing": 105,
         "Farming": 195,
         "Cattle Farming": 22
       },
-      "notes": "FY24 per seed-comps: revenue €472M, EBITDA €100M, net debt €250M, NAV/share €32.7. Filing date 2026-04-22 (full audited).",
-      "bookValuePerShare": 32.7,
+      "notes": "FY24 per seed-comps: revenue \u20ac472M, EBITDA \u20ac100M, net debt \u20ac250M, NAV/share \u20ac32.7. Filing date 2026-04-22 (full audited).",
+      "bookValuePerShare": 18.7985,
       "capexMM": 35,
       "daMM": 32,
-      "cfoMM": 95
+      "cfoMM": 95,
+      "interestExpenseMM": 19.18,
+      "weightedAvgDebtRate": 6.5,
+      "debtMaturityProfileMM": {
+        "<1y": 118.0,
+        "1-3y": 73.75,
+        "3-5y": 44.25,
+        "5+y": 59.0
+      },
+      "totalEquityMM": 460,
+      "ppeBookMM": 211.9,
+      "inventoryMM": 147.6,
+      "intangibleAssetsMM": 6.1,
+      "nonAgricultureRevenuePct": 35,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Sugar",
+          "revenueMM": 245,
+          "ebitdaMM": 38
+        },
+        {
+          "segment": "Dairy",
+          "revenueMM": 165,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "Crop Production (Farming)",
+          "revenueMM": 95,
+          "ebitdaMM": 28
+        },
+        {
+          "segment": "Soybean Processing",
+          "revenueMM": 105,
+          "ebitdaMM": 12
+        }
+      ],
+      "totalAssetsMM": 580,
+      "epsBasic": 1.4303
     }
   ]
 }

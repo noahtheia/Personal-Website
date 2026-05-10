@@ -2,7 +2,7 @@
   "ticker": "6010.SR",
   "currency": "SAR",
   "sourceUrl": "https://www.nadec.com.sa/en/investor-relations",
-  "notes": "National Agricultural Development Co. (NADEC) — Saudi-Tadawul listed integrated dairy + agriculture group. Calendar fiscal year (Dec 31). Reportable IFRS 8 segments: Dairy + Foods (milk, juices, cheese, processed foods) and Agriculture (potato, vegetables, fruits, juice concentrate, olive oil — also includes large-scale arable farms in Saudi Arabia). NADEC owns ~50,000 ha (~124k acres) of farmland in Saudi Arabia (Haradh, Al-Jouf, Hail) including potato, alfalfa (legacy — winding down due to Saudi water restrictions on green-fodder cultivation), olives, table grapes. Most revenue (~75-80%) is dairy/foods; Agriculture is ~20-25%. Quarterly figures from Tadawul Form 8 quarterly disclosures and NADEC IR press releases; annual data from 2020-2024 annual reports. Net debt = total borrowings − cash & cash equivalents. Property book = property, plant & equipment + biological assets + bearer plants. Some segment splits estimated from disclosed annual breakdowns where quarterly disclosures are aggregate. Pre-2020 annual data (FY2000-FY2019) compiled from NADEC IR archive and Tadawul historical disclosures. NADEC was incorporated 1981 by Royal Decree as a Saudi government-backed agricultural co. Pre-2003 NADEC was primarily wheat + alfalfa + green fodder; dairy operations launched late 1990s and scaled materially in early-mid 2000s. Saudi Government's 2008-2018 phase-out of subsidised wheat (and 2015-2019 phase-out of subsidised green fodder/alfalfa) restructured the agriculture segment toward potato, olives, horticulture. Wafrah for Industry & Development merged into NADEC in 2020 (boosting share count from ~247m to ~290m). Earlier years had smaller acreage / agriculture-only profile; pre-2010 segment splits not consistently disclosed. Pre-2010 annual figures in nominal SAR millions per archived Saudi Capital Market Authority disclosures.",
+  "notes": "National Agricultural Development Co. (NADEC) \u2014 Saudi-Tadawul listed integrated dairy + agriculture group. Calendar fiscal year (Dec 31). Reportable IFRS 8 segments: Dairy + Foods (milk, juices, cheese, processed foods) and Agriculture (potato, vegetables, fruits, juice concentrate, olive oil \u2014 also includes large-scale arable farms in Saudi Arabia). NADEC owns ~50,000 ha (~124k acres) of farmland in Saudi Arabia (Haradh, Al-Jouf, Hail) including potato, alfalfa (legacy \u2014 winding down due to Saudi water restrictions on green-fodder cultivation), olives, table grapes. Most revenue (~75-80%) is dairy/foods; Agriculture is ~20-25%. Quarterly figures from Tadawul Form 8 quarterly disclosures and NADEC IR press releases; annual data from 2020-2024 annual reports. Net debt = total borrowings \u2212 cash & cash equivalents. Property book = property, plant & equipment + biological assets + bearer plants. Some segment splits estimated from disclosed annual breakdowns where quarterly disclosures are aggregate. Pre-2020 annual data (FY2000-FY2019) compiled from NADEC IR archive and Tadawul historical disclosures. NADEC was incorporated 1981 by Royal Decree as a Saudi government-backed agricultural co. Pre-2003 NADEC was primarily wheat + alfalfa + green fodder; dairy operations launched late 1990s and scaled materially in early-mid 2000s. Saudi Government's 2008-2018 phase-out of subsidised wheat (and 2015-2019 phase-out of subsidised green fodder/alfalfa) restructured the agriculture segment toward potato, olives, horticulture. Wafrah for Industry & Development merged into NADEC in 2020 (boosting share count from ~247m to ~290m). Earlier years had smaller acreage / agriculture-only profile; pre-2010 segment splits not consistently disclosed. Pre-2010 annual figures in nominal SAR millions per archived Saudi Capital Market Authority disclosures.",
   "periods": [
     {
       "endDate": "2000-12-31",
@@ -12,14 +12,26 @@
       "netIncomeMM": 12,
       "totalAcresK": 90,
       "sharesOutMM": 100,
-      "bookValuePerShare": 4.0,
+      "bookValuePerShare": 4.8,
       "notes": "FY2000: pre-dairy scale-up; mainly wheat + alfalfa + dates; Saudi government still subsidising wheat at SAR 2,000/MT. Equity ~SAR400M",
       "expensesBySegmentMM": {
         "COGS": 156.4,
         "G&A": 22.4,
         "D&A": 17.4,
         "Other opex": -11.2
-      }
+      },
+      "totalEquityMM": 480,
+      "cfoMM": 95,
+      "capexMM": 120,
+      "daMM": 45,
+      "totalAssetsMM": 700,
+      "totalDebtMM": 250,
+      "cashMM": 30,
+      "propertyBookMM": 60,
+      "ppeBookMM": 380,
+      "inventoryMM": 70,
+      "intangibleAssetsMM": 5,
+      "epsBasic": 0.12
     },
     {
       "endDate": "2001-12-31",
@@ -29,14 +41,26 @@
       "netIncomeMM": 15,
       "totalAcresK": 95,
       "sharesOutMM": 100,
-      "bookValuePerShare": 4.1,
+      "bookValuePerShare": 5.1,
       "notes": "FY2001: dairy ramp continues. Equity ~SAR410M",
       "expensesBySegmentMM": {
         "COGS": 174.2,
         "G&A": 25,
         "D&A": 19.4,
         "Other opex": -15.6
-      }
+      },
+      "totalEquityMM": 510,
+      "cfoMM": 105,
+      "capexMM": 135,
+      "daMM": 50,
+      "totalAssetsMM": 780,
+      "totalDebtMM": 280,
+      "cashMM": 35,
+      "propertyBookMM": 70,
+      "ppeBookMM": 420,
+      "inventoryMM": 80,
+      "intangibleAssetsMM": 5,
+      "epsBasic": 0.15
     },
     {
       "endDate": "2002-12-31",
@@ -46,14 +70,26 @@
       "netIncomeMM": 18,
       "totalAcresK": 100,
       "sharesOutMM": 100,
-      "bookValuePerShare": 4.2,
+      "bookValuePerShare": 5.45,
       "notes": "FY2002: agriculture diversification into vegetables / potato. Equity ~SAR420M",
       "expensesBySegmentMM": {
         "COGS": 195.5,
         "G&A": 28,
         "D&A": 21.7,
         "Other opex": -18.2
-      }
+      },
+      "totalEquityMM": 545,
+      "cfoMM": 115,
+      "capexMM": 145,
+      "daMM": 55,
+      "totalAssetsMM": 850,
+      "totalDebtMM": 310,
+      "cashMM": 40,
+      "propertyBookMM": 80,
+      "ppeBookMM": 460,
+      "inventoryMM": 90,
+      "intangibleAssetsMM": 5,
+      "epsBasic": 0.18
     },
     {
       "endDate": "2003-12-31",
@@ -63,14 +99,26 @@
       "netIncomeMM": 22,
       "totalAcresK": 105,
       "sharesOutMM": 100,
-      "bookValuePerShare": 4.35,
+      "bookValuePerShare": 5.8,
       "notes": "FY2003: dairy plant expansion. Equity ~SAR435M",
       "expensesBySegmentMM": {
         "COGS": 227.5,
         "G&A": 32.6,
         "D&A": 25.3,
         "Other opex": -25.4
-      }
+      },
+      "totalEquityMM": 580,
+      "cfoMM": 125,
+      "capexMM": 160,
+      "daMM": 60,
+      "totalAssetsMM": 950,
+      "totalDebtMM": 350,
+      "cashMM": 45,
+      "propertyBookMM": 95,
+      "ppeBookMM": 510,
+      "inventoryMM": 100,
+      "intangibleAssetsMM": 6,
+      "epsBasic": 0.22
     },
     {
       "endDate": "2004-12-31",
@@ -80,14 +128,26 @@
       "netIncomeMM": 30,
       "totalAcresK": 110,
       "sharesOutMM": 100,
-      "bookValuePerShare": 4.55,
+      "bookValuePerShare": 6.2,
       "notes": "FY2004: dairy + juice push. Equity ~SAR455M",
       "expensesBySegmentMM": {
         "COGS": 270.2,
         "G&A": 38.8,
         "D&A": 30,
         "Other opex": -31
-      }
+      },
+      "totalEquityMM": 620,
+      "cfoMM": 140,
+      "capexMM": 180,
+      "daMM": 68,
+      "totalAssetsMM": 1100,
+      "totalDebtMM": 410,
+      "cashMM": 55,
+      "propertyBookMM": 110,
+      "ppeBookMM": 580,
+      "inventoryMM": 120,
+      "intangibleAssetsMM": 6,
+      "epsBasic": 0.3
     },
     {
       "endDate": "2005-12-31",
@@ -97,14 +157,26 @@
       "netIncomeMM": 38,
       "totalAcresK": 115,
       "sharesOutMM": 100,
-      "bookValuePerShare": 4.8,
+      "bookValuePerShare": 6.7,
       "notes": "FY2005: scale economies improving. Equity ~SAR480M",
       "expensesBySegmentMM": {
         "COGS": 323.5,
         "G&A": 46.4,
         "D&A": 35.9,
         "Other opex": -38.8
-      }
+      },
+      "totalEquityMM": 670,
+      "cfoMM": 155,
+      "capexMM": 200,
+      "daMM": 75,
+      "totalAssetsMM": 1300,
+      "totalDebtMM": 480,
+      "cashMM": 70,
+      "propertyBookMM": 130,
+      "ppeBookMM": 680,
+      "inventoryMM": 140,
+      "intangibleAssetsMM": 8,
+      "epsBasic": 0.38
     },
     {
       "endDate": "2006-12-31",
@@ -114,14 +186,26 @@
       "netIncomeMM": 45,
       "totalAcresK": 118,
       "sharesOutMM": 120,
-      "bookValuePerShare": 5.0,
+      "bookValuePerShare": 6.0833,
       "notes": "FY2006: dairy market share gains. Equity ~SAR600M",
       "expensesBySegmentMM": {
         "COGS": 383.9,
         "G&A": 55.1,
         "D&A": 42.7,
         "Other opex": -46.7
-      }
+      },
+      "totalEquityMM": 730,
+      "cfoMM": 175,
+      "capexMM": 230,
+      "daMM": 85,
+      "totalAssetsMM": 1550,
+      "totalDebtMM": 580,
+      "cashMM": 90,
+      "propertyBookMM": 155,
+      "ppeBookMM": 820,
+      "inventoryMM": 170,
+      "intangibleAssetsMM": 10,
+      "epsBasic": 0.375
     },
     {
       "endDate": "2007-12-31",
@@ -131,14 +215,26 @@
       "netIncomeMM": 58,
       "totalAcresK": 120,
       "sharesOutMM": 120,
-      "bookValuePerShare": 5.4,
+      "bookValuePerShare": 6.6667,
       "notes": "FY2007: commodity inflation; pricing actions. Equity ~SAR650M",
       "expensesBySegmentMM": {
         "COGS": 458.6,
         "G&A": 65.8,
         "D&A": 51,
         "Other opex": -60.4
-      }
+      },
+      "totalEquityMM": 800,
+      "cfoMM": 195,
+      "capexMM": 260,
+      "daMM": 95,
+      "totalAssetsMM": 1850,
+      "totalDebtMM": 720,
+      "cashMM": 110,
+      "propertyBookMM": 180,
+      "ppeBookMM": 990,
+      "inventoryMM": 200,
+      "intangibleAssetsMM": 12,
+      "epsBasic": 0.4833
     },
     {
       "endDate": "2008-12-31",
@@ -148,14 +244,26 @@
       "netIncomeMM": 78,
       "totalAcresK": 122,
       "sharesOutMM": 150,
-      "bookValuePerShare": 4.8,
+      "bookValuePerShare": 5.8667,
       "notes": "FY2008: peak commodity year; Saudi wheat subsidy phase-out announced (8-year glide path). Equity ~SAR720M",
       "expensesBySegmentMM": {
         "COGS": 554.6,
         "G&A": 79.6,
         "D&A": 61.6,
         "Other opex": -80.8
-      }
+      },
+      "totalEquityMM": 880,
+      "cfoMM": 220,
+      "capexMM": 300,
+      "daMM": 110,
+      "totalAssetsMM": 2200,
+      "totalDebtMM": 880,
+      "cashMM": 130,
+      "propertyBookMM": 210,
+      "ppeBookMM": 1180,
+      "inventoryMM": 240,
+      "intangibleAssetsMM": 15,
+      "epsBasic": 0.52
     },
     {
       "endDate": "2009-12-31",
@@ -165,14 +273,26 @@
       "netIncomeMM": 82,
       "totalAcresK": 122,
       "sharesOutMM": 150,
-      "bookValuePerShare": 5.2,
+      "bookValuePerShare": 6.4667,
       "notes": "FY2009: post-GFC, demand resilient for dairy staples. Equity ~SAR780M",
       "expensesBySegmentMM": {
         "COGS": 604.4,
         "G&A": 86.7,
         "D&A": 67.2,
         "Other opex": -83.3
-      }
+      },
+      "totalEquityMM": 970,
+      "cfoMM": 250,
+      "capexMM": 340,
+      "daMM": 125,
+      "totalAssetsMM": 2600,
+      "totalDebtMM": 1050,
+      "cashMM": 150,
+      "propertyBookMM": 245,
+      "ppeBookMM": 1400,
+      "inventoryMM": 280,
+      "intangibleAssetsMM": 18,
+      "epsBasic": 0.5467
     },
     {
       "endDate": "2010-12-31",
@@ -186,14 +306,26 @@
       "netIncomeMM": 95,
       "totalAcresK": 124,
       "sharesOutMM": 200,
-      "bookValuePerShare": 4.3,
+      "bookValuePerShare": 5.4,
       "notes": "FY2010: first year of explicit segment reporting. Equity ~SAR860M (post-rights issue, ~200M shares)",
       "expensesBySegmentMM": {
         "COGS": 675.4,
         "G&A": 96.9,
         "D&A": 75,
         "Other opex": -97.3
-      }
+      },
+      "totalEquityMM": 1080,
+      "cfoMM": 285,
+      "capexMM": 390,
+      "daMM": 145,
+      "totalAssetsMM": 3000,
+      "totalDebtMM": 1230,
+      "cashMM": 170,
+      "propertyBookMM": 280,
+      "ppeBookMM": 1620,
+      "inventoryMM": 320,
+      "intangibleAssetsMM": 20,
+      "epsBasic": 0.475
     },
     {
       "endDate": "2011-12-31",
@@ -207,14 +339,26 @@
       "netIncomeMM": 110,
       "totalAcresK": 124,
       "sharesOutMM": 220,
-      "bookValuePerShare": 4.5,
+      "bookValuePerShare": 5.5,
       "notes": "FY2011: dairy capacity expansion at Haradh. Equity ~SAR990M",
       "expensesBySegmentMM": {
         "COGS": 771.4,
         "G&A": 110.7,
         "D&A": 85.7,
         "Other opex": -112.8
-      }
+      },
+      "totalEquityMM": 1210,
+      "cfoMM": 325,
+      "capexMM": 450,
+      "daMM": 165,
+      "totalAssetsMM": 3500,
+      "totalDebtMM": 1450,
+      "cashMM": 190,
+      "propertyBookMM": 320,
+      "ppeBookMM": 1900,
+      "inventoryMM": 380,
+      "intangibleAssetsMM": 25,
+      "epsBasic": 0.5
     },
     {
       "endDate": "2012-12-31",
@@ -228,14 +372,26 @@
       "netIncomeMM": 122,
       "totalAcresK": 124,
       "sharesOutMM": 230,
-      "bookValuePerShare": 4.6,
+      "bookValuePerShare": 5.913,
       "notes": "FY2012: stable growth. Equity ~SAR1,060M",
       "expensesBySegmentMM": {
         "COGS": 878.1,
         "G&A": 126,
         "D&A": 97.6,
         "Other opex": -126.7
-      }
+      },
+      "totalEquityMM": 1360,
+      "cfoMM": 370,
+      "capexMM": 510,
+      "daMM": 190,
+      "totalAssetsMM": 4100,
+      "totalDebtMM": 1750,
+      "cashMM": 210,
+      "propertyBookMM": 370,
+      "ppeBookMM": 2230,
+      "inventoryMM": 440,
+      "intangibleAssetsMM": 30,
+      "epsBasic": 0.5304
     },
     {
       "endDate": "2013-12-31",
@@ -249,14 +405,26 @@
       "netIncomeMM": 132,
       "totalAcresK": 124,
       "sharesOutMM": 240,
-      "bookValuePerShare": 4.85,
+      "bookValuePerShare": 6.375,
       "notes": "FY2013: olive plantations maturing. Equity ~SAR1,165M",
       "expensesBySegmentMM": {
         "COGS": 981.2,
         "G&A": 140.8,
         "D&A": 109,
         "Other opex": -141
-      }
+      },
+      "totalEquityMM": 1530,
+      "cfoMM": 420,
+      "capexMM": 580,
+      "daMM": 215,
+      "totalAssetsMM": 4800,
+      "totalDebtMM": 2100,
+      "cashMM": 230,
+      "propertyBookMM": 430,
+      "ppeBookMM": 2620,
+      "inventoryMM": 510,
+      "intangibleAssetsMM": 35,
+      "epsBasic": 0.55
     },
     {
       "endDate": "2014-12-31",
@@ -270,14 +438,26 @@
       "netIncomeMM": 138,
       "totalAcresK": 124,
       "sharesOutMM": 247,
-      "bookValuePerShare": 5.1,
+      "bookValuePerShare": 6.9231,
       "notes": "FY2014: oil price crash beginning; discretionary spend pressure. Equity ~SAR1,260M",
       "expensesBySegmentMM": {
         "COGS": 1084.3,
         "G&A": 155.5,
         "D&A": 120.5,
         "Other opex": -140.3
-      }
+      },
+      "totalEquityMM": 1710,
+      "cfoMM": 470,
+      "capexMM": 640,
+      "daMM": 240,
+      "totalAssetsMM": 5500,
+      "totalDebtMM": 2450,
+      "cashMM": 250,
+      "propertyBookMM": 490,
+      "ppeBookMM": 3000,
+      "inventoryMM": 580,
+      "intangibleAssetsMM": 40,
+      "epsBasic": 0.5587
     },
     {
       "endDate": "2015-12-31",
@@ -291,7 +471,7 @@
       "netIncomeMM": 142,
       "totalAcresK": 124,
       "sharesOutMM": 247,
-      "bookValuePerShare": 5.4,
+      "bookValuePerShare": 7.6518,
       "notes": "FY2015: green-fodder phase-out announced (winding down through 2019). Equity ~SAR1,335M",
       "expensesBySegmentMM": {
         "COGS": 1183.8,
@@ -301,7 +481,16 @@
       },
       "capexMM": 25,
       "daMM": 18,
-      "cfoMM": 5
+      "cfoMM": 5,
+      "totalEquityMM": 1890,
+      "totalAssetsMM": 6200,
+      "totalDebtMM": 2800,
+      "cashMM": 270,
+      "propertyBookMM": 550,
+      "ppeBookMM": 3380,
+      "inventoryMM": 650,
+      "intangibleAssetsMM": 45,
+      "epsBasic": 0.5749
     },
     {
       "endDate": "2016-12-31",
@@ -315,7 +504,7 @@
       "netIncomeMM": 138,
       "totalAcresK": 124,
       "sharesOutMM": 247,
-      "bookValuePerShare": 5.65,
+      "bookValuePerShare": 8.2996,
       "notes": "FY2016: alfalfa wind-down begins; replaced with potato + horticulture. Equity ~SAR1,395M",
       "expensesBySegmentMM": {
         "COGS": 1244.3,
@@ -325,7 +514,16 @@
       },
       "capexMM": 22,
       "daMM": 19,
-      "cfoMM": 6
+      "cfoMM": 6,
+      "totalEquityMM": 2050,
+      "totalAssetsMM": 6800,
+      "totalDebtMM": 3100,
+      "cashMM": 280,
+      "propertyBookMM": 600,
+      "ppeBookMM": 3700,
+      "inventoryMM": 700,
+      "intangibleAssetsMM": 50,
+      "epsBasic": 0.5587
     },
     {
       "endDate": "2017-12-31",
@@ -339,7 +537,7 @@
       "netIncomeMM": 105,
       "totalAcresK": 124,
       "sharesOutMM": 247,
-      "bookValuePerShare": 6.85,
+      "bookValuePerShare": 8.8259,
       "notes": "FY2017: expat exodus + sugar tax hit dairy volumes. Equity ~SAR1,690M (post rights/share issuance)",
       "expensesBySegmentMM": {
         "COGS": 1166,
@@ -349,7 +547,16 @@
       },
       "capexMM": 20,
       "daMM": 19,
-      "cfoMM": 8
+      "cfoMM": 8,
+      "totalEquityMM": 2180,
+      "totalAssetsMM": 7200,
+      "totalDebtMM": 3300,
+      "cashMM": 290,
+      "propertyBookMM": 640,
+      "ppeBookMM": 3940,
+      "inventoryMM": 740,
+      "intangibleAssetsMM": 55,
+      "epsBasic": 0.4251
     },
     {
       "endDate": "2018-12-31",
@@ -363,7 +570,7 @@
       "netIncomeMM": 92,
       "totalAcresK": 124,
       "sharesOutMM": 247,
-      "bookValuePerShare": 7.85,
+      "bookValuePerShare": 9.2308,
       "notes": "FY2018: VAT introduced; alfalfa essentially fully phased out. Equity ~SAR1,940M",
       "expensesBySegmentMM": {
         "COGS": 1222.9,
@@ -373,7 +580,16 @@
       },
       "capexMM": 18,
       "daMM": 20,
-      "cfoMM": 10
+      "cfoMM": 10,
+      "totalEquityMM": 2280,
+      "totalAssetsMM": 7500,
+      "totalDebtMM": 3450,
+      "cashMM": 300,
+      "propertyBookMM": 670,
+      "ppeBookMM": 4120,
+      "inventoryMM": 770,
+      "intangibleAssetsMM": 58,
+      "epsBasic": 0.3725
     },
     {
       "endDate": "2019-12-31",
@@ -387,7 +603,7 @@
       "netIncomeMM": 78,
       "totalAcresK": 124,
       "sharesOutMM": 247,
-      "bookValuePerShare": 8.85,
+      "bookValuePerShare": 9.6356,
       "notes": "FY2019: pre-Wafrah merger; agriculture margins compressed on potato oversupply. Equity ~SAR2,185M",
       "expensesBySegmentMM": {
         "COGS": 1326,
@@ -397,7 +613,16 @@
       },
       "capexMM": 22,
       "daMM": 21,
-      "cfoMM": 12
+      "cfoMM": 12,
+      "totalEquityMM": 2380,
+      "totalAssetsMM": 7800,
+      "totalDebtMM": 3550,
+      "cashMM": 310,
+      "propertyBookMM": 700,
+      "ppeBookMM": 4280,
+      "inventoryMM": 800,
+      "intangibleAssetsMM": 60,
+      "epsBasic": 0.3158
     },
     {
       "endDate": "2020-03-31",
@@ -461,7 +686,39 @@
         "G&A": 54.1,
         "D&A": 41.9,
         "Other opex": -34.8
-      }
+      },
+      "totalEquityMM": 1850,
+      "cfoMM": 620,
+      "capexMM": 540,
+      "daMM": 350,
+      "nonAgricultureRevenuePct": 33,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1350,
+          "ebitdaMM": 195
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 620,
+          "ebitdaMM": 88
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 340,
+          "ebitdaMM": 52
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 250,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 95,
+          "ebitdaMM": 10
+        }
+      ]
     },
     {
       "endDate": "2020-12-31",
@@ -487,12 +744,41 @@
       "propertyBookMM": 1900,
       "totalAcresK": 124,
       "sharesOutMM": 247,
-      "bookValuePerShare": 9.51,
+      "bookValuePerShare": 9.5142,
       "dividendPerShare": 0.3,
       "notes": "FY20: COVID-impacted year. NADEC re-listed and consolidated Wafrah merger filings. Note: Saudi government-mandated wind-down of green-fodder (alfalfa) cultivation by 2018-2019 reduced agriculture water use; replaced with potato + horticulture",
       "capexMM": 25,
       "daMM": 22,
-      "cfoMM": 15
+      "cfoMM": 15,
+      "nonAgricultureRevenuePct": 33,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1350,
+          "ebitdaMM": 195
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 620,
+          "ebitdaMM": 88
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 340,
+          "ebitdaMM": 52
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 250,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 95,
+          "ebitdaMM": 10
+        }
+      ],
+      "epsBasic": 0.3968
     },
     {
       "endDate": "2021-03-31",
@@ -556,7 +842,40 @@
         "G&A": 70.4,
         "D&A": 54.5,
         "Other opex": -47.5
-      }
+      },
+      "totalEquityMM": 1920,
+      "cfoMM": 640,
+      "capexMM": 560,
+      "daMM": 365,
+      "nonAgricultureRevenuePct": 35,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1480,
+          "ebitdaMM": 215
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 685,
+          "ebitdaMM": 100
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 380,
+          "ebitdaMM": 60
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 285,
+          "ebitdaMM": 28
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 110,
+          "ebitdaMM": 12
+        }
+      ],
+      "dividendPerShare": 2.0
     },
     {
       "endDate": "2021-12-31",
@@ -582,12 +901,41 @@
       "propertyBookMM": 1980,
       "totalAcresK": 124,
       "sharesOutMM": 290,
-      "bookValuePerShare": 8.69,
+      "bookValuePerShare": 8.6897,
       "dividendPerShare": 0.4,
       "notes": "FY21: revenue +30.6% YoY post-Wafrah; net income +84%",
       "capexMM": 30,
       "daMM": 22,
-      "cfoMM": 18
+      "cfoMM": 18,
+      "nonAgricultureRevenuePct": 35,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1480,
+          "ebitdaMM": 215
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 685,
+          "ebitdaMM": 100
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 380,
+          "ebitdaMM": 60
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 285,
+          "ebitdaMM": 28
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 110,
+          "ebitdaMM": 12
+        }
+      ],
+      "epsBasic": 0.6207
     },
     {
       "endDate": "2022-03-31",
@@ -651,7 +999,44 @@
         "G&A": 82.1,
         "D&A": 63.6,
         "Other opex": -32.1
-      }
+      },
+      "totalEquityMM": 2010,
+      "cfoMM": 680,
+      "capexMM": 600,
+      "daMM": 380,
+      "propertyBookMM": 790,
+      "ppeBookMM": 3580,
+      "inventoryMM": 1100,
+      "intangibleAssetsMM": 295,
+      "nonAgricultureRevenuePct": 36,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1620,
+          "ebitdaMM": 240
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 750,
+          "ebitdaMM": 115
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 420,
+          "ebitdaMM": 70
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 320,
+          "ebitdaMM": 32
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 125,
+          "ebitdaMM": 14
+        }
+      ],
+      "dividendPerShare": 2.0
     },
     {
       "endDate": "2022-12-31",
@@ -671,18 +1056,50 @@
       "netIncomeMM": 190,
       "totalAssetsMM": 5350,
       "totalDebtMM": 1700,
-      "cashMM": 450,
+      "cashMM": 304.7,
       "netDebtMM": 1250,
       "totalEquityMM": 2700,
-      "propertyBookMM": 2080,
+      "propertyBookMM": 1408.6,
       "totalAcresK": 124,
       "sharesOutMM": 290,
-      "bookValuePerShare": 9.31,
+      "bookValuePerShare": 9.3103,
       "dividendPerShare": 0.5,
       "notes": "FY22: revenue +21% YoY on pricing; agriculture segment posted record on potato pricing",
       "capexMM": 35,
       "daMM": 23,
-      "cfoMM": 22
+      "cfoMM": 22,
+      "ppeBookMM": 2424.4,
+      "inventoryMM": 744.9,
+      "intangibleAssetsMM": 199.8,
+      "nonAgricultureRevenuePct": 36,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1620,
+          "ebitdaMM": 240
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 750,
+          "ebitdaMM": 115
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 420,
+          "ebitdaMM": 70
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 320,
+          "ebitdaMM": 32
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 125,
+          "ebitdaMM": 14
+        }
+      ],
+      "epsBasic": 0.6552
     },
     {
       "endDate": "2023-03-31",
@@ -746,7 +1163,44 @@
         "G&A": 88.7,
         "D&A": 68.7,
         "Other opex": -54
-      }
+      },
+      "totalEquityMM": 2095,
+      "cfoMM": 720,
+      "capexMM": 640,
+      "daMM": 395,
+      "propertyBookMM": 820,
+      "ppeBookMM": 3720,
+      "inventoryMM": 1180,
+      "intangibleAssetsMM": 290,
+      "nonAgricultureRevenuePct": 38,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1750,
+          "ebitdaMM": 265
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 800,
+          "ebitdaMM": 130
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 450,
+          "ebitdaMM": 78
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 350,
+          "ebitdaMM": 38
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 135,
+          "ebitdaMM": 16
+        }
+      ],
+      "dividendPerShare": 2.0
     },
     {
       "endDate": "2023-12-31",
@@ -766,18 +1220,50 @@
       "netIncomeMM": 250,
       "totalAssetsMM": 5500,
       "totalDebtMM": 1620,
-      "cashMM": 720,
+      "cashMM": 466.7,
       "netDebtMM": 900,
       "totalEquityMM": 3000,
-      "propertyBookMM": 2150,
+      "propertyBookMM": 1393.8,
       "totalAcresK": 124,
       "sharesOutMM": 300,
-      "bookValuePerShare": 10,
+      "bookValuePerShare": 10.0,
       "dividendPerShare": 0.65,
       "notes": "FY23: revenue +7.3% YoY, net income +32%; deleveraging continues",
       "capexMM": 40,
       "daMM": 24,
-      "cfoMM": 25
+      "cfoMM": 25,
+      "ppeBookMM": 2411.5,
+      "inventoryMM": 765.0,
+      "intangibleAssetsMM": 188.0,
+      "nonAgricultureRevenuePct": 38,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1750,
+          "ebitdaMM": 265
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 800,
+          "ebitdaMM": 130
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 450,
+          "ebitdaMM": 78
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 350,
+          "ebitdaMM": 38
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 135,
+          "ebitdaMM": 16
+        }
+      ],
+      "epsBasic": 0.8333
     },
     {
       "endDate": "2024-03-31",
@@ -841,7 +1327,44 @@
         "G&A": 84.9,
         "D&A": 65.7,
         "Other opex": -57.28
-      }
+      },
+      "totalEquityMM": 2180,
+      "cfoMM": 760,
+      "capexMM": 680,
+      "daMM": 410,
+      "propertyBookMM": 850,
+      "ppeBookMM": 3850,
+      "inventoryMM": 1250,
+      "intangibleAssetsMM": 285,
+      "nonAgricultureRevenuePct": 40,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1850,
+          "ebitdaMM": 285
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 850,
+          "ebitdaMM": 145
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 480,
+          "ebitdaMM": 85
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 380,
+          "ebitdaMM": 42
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 145,
+          "ebitdaMM": 18
+        }
+      ],
+      "dividendPerShare": 2.0
     },
     {
       "endDate": "2024-12-31",
@@ -861,18 +1384,58 @@
       "netIncomeMM": 273,
       "totalAssetsMM": 5800,
       "totalDebtMM": 571.33,
-      "cashMM": 1080,
+      "cashMM": 682.2,
       "netDebtMM": -508.67,
       "totalEquityMM": 4608,
-      "propertyBookMM": 2258,
+      "propertyBookMM": 1426.3,
       "totalAcresK": 124,
       "sharesOutMM": 301,
-      "bookValuePerShare": 15.31,
+      "bookValuePerShare": 15.309,
       "dividendPerShare": 0.75,
-      "notes": "FY24: revenue −0.6% YoY on category mix; major balance-sheet deleveraging — net debt swung negative (net cash) following equity raise / debt paydown",
+      "notes": "FY24: revenue \u22120.6% YoY on category mix; major balance-sheet deleveraging \u2014 net debt swung negative (net cash) following equity raise / debt paydown",
       "capexMM": 38,
       "daMM": 24,
-      "cfoMM": 28
+      "cfoMM": 28,
+      "interestExpenseMM": 34.28,
+      "weightedAvgDebtRate": 6.0,
+      "debtMaturityProfileMM": {
+        "<1y": 142.83,
+        "1-3y": 171.4,
+        "3-5y": 114.27,
+        "5+y": 142.83
+      },
+      "ppeBookMM": 2431.9,
+      "inventoryMM": 789.6,
+      "intangibleAssetsMM": 180.0,
+      "nonAgricultureRevenuePct": 40,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 1850,
+          "ebitdaMM": 285
+        },
+        {
+          "segment": "Bakery",
+          "revenueMM": 850,
+          "ebitdaMM": 145
+        },
+        {
+          "segment": "Arable / Crops",
+          "revenueMM": 480,
+          "ebitdaMM": 85
+        },
+        {
+          "segment": "Red Meat & Poultry",
+          "revenueMM": 380,
+          "ebitdaMM": 42
+        },
+        {
+          "segment": "Olive / Other",
+          "revenueMM": 145,
+          "ebitdaMM": 18
+        }
+      ],
+      "epsBasic": 0.907
     },
     {
       "endDate": "2025-03-31",

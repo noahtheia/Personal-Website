@@ -2,7 +2,7 @@
   "ticker": "P8Z.SI",
   "currency": "IDR",
   "sourceUrl": "https://bumitama-agri.com/investors/corporate-reports/",
-  "notes": "Bumitama Agri (P8Z.SI) — Indonesian palm oil upstream pure-play, controlled by IOI Corp + founding family. SGX listed April 2012. Reports in IDR (filing currency), millions. Quarterly reports through 2019, semi-annual (1H + FY) thereafter under SGX rules. Historical extended from IPO prospectus + annual report archive. Total nucleus planted area grew from ~133K ha at IPO (2012) to ~187K ha plus plasma ~37K ha by 2024; total ~224K ha = ~553K acres. Pure plantation + CPO milling — no segment breakdown beyond CPO/PK in disclosures, so revenueBySegmentMM split into CPO and Palm Kernel. Net debt = total borrowings less cash & ST deposits. Note: 2012 was a partial year for some disclosures since IPO was April; FY12 reflects full calendar year per Indonesia GAAP.",
+  "notes": "Bumitama Agri (P8Z.SI) \u2014 Indonesian palm oil upstream pure-play, controlled by IOI Corp + founding family. SGX listed April 2012. Reports in IDR (filing currency), millions. Quarterly reports through 2019, semi-annual (1H + FY) thereafter under SGX rules. Historical extended from IPO prospectus + annual report archive. Total nucleus planted area grew from ~133K ha at IPO (2012) to ~187K ha plus plasma ~37K ha by 2024; total ~224K ha = ~553K acres. Pure plantation + CPO milling \u2014 no segment breakdown beyond CPO/PK in disclosures, so revenueBySegmentMM split into CPO and Palm Kernel. Net debt = total borrowings less cash & ST deposits. Note: 2012 was a partial year for some disclosures since IPO was April; FY12 reflects full calendar year per Indonesia GAAP.",
   "periods": [
     {
       "endDate": "2012-12-31",
@@ -26,7 +26,8 @@
         "Cost of sales": 2128500.0,
         "G&A": 141900.0,
         "Other operating expenses": 94600.0
-      }
+      },
+      "epsBasic": 325.8362
     },
     {
       "endDate": "2013-12-31",
@@ -50,7 +51,8 @@
         "Cost of sales": 2140200.0,
         "G&A": 142680.0,
         "Other operating expenses": 95120.0
-      }
+      },
+      "epsBasic": 305.6517
     },
     {
       "endDate": "2014-12-31",
@@ -77,7 +79,8 @@
       },
       "capexMM": 2200000,
       "daMM": 410000,
-      "cfoMM": 1300000
+      "cfoMM": 1300000,
+      "epsBasic": 475.7785
     },
     {
       "endDate": "2015-12-31",
@@ -104,7 +107,8 @@
       },
       "capexMM": 1700000,
       "daMM": 470000,
-      "cfoMM": 950000
+      "cfoMM": 950000,
+      "epsBasic": 219.1465
     },
     {
       "endDate": "2016-12-31",
@@ -131,7 +135,8 @@
       },
       "capexMM": 1300000,
       "daMM": 510000,
-      "cfoMM": 1450000
+      "cfoMM": 1450000,
+      "epsBasic": 406.5744
     },
     {
       "endDate": "2017-12-31",
@@ -158,7 +163,8 @@
       },
       "capexMM": 1200000,
       "daMM": 550000,
-      "cfoMM": 1700000
+      "cfoMM": 1700000,
+      "epsBasic": 625.7209
     },
     {
       "endDate": "2018-12-31",
@@ -185,7 +191,8 @@
       },
       "capexMM": 950000,
       "daMM": 580000,
-      "cfoMM": 1100000
+      "cfoMM": 1100000,
+      "epsBasic": 403.6909
     },
     {
       "endDate": "2019-06-30",
@@ -230,7 +237,8 @@
       },
       "capexMM": 700000,
       "daMM": 610000,
-      "cfoMM": 950000
+      "cfoMM": 950000,
+      "epsBasic": 400.8074
     },
     {
       "endDate": "2020-06-30",
@@ -260,8 +268,8 @@
       },
       "ebitdaMM": 2820000,
       "netIncomeMM": 940000,
-      "totalDebtMM": 4900000,
-      "cashMM": 1300000,
+      "totalDebtMM": 0,
+      "cashMM": 1945.1,
       "netDebtMM": 3600000,
       "totalAcresK": 553,
       "ffbProductionTonnesK": 2545,
@@ -273,7 +281,7 @@
       "matureHectaresK": 113,
       "sharesOutMM": 1734,
       "dividendPerShare": 308,
-      "bookValuePerShare": 5500,
+      "bookValuePerShare": 0.4902,
       "notes": "FY20: CPO USD 700/t avg; EBITDA IDR 2.82T (+29% YoY)",
       "expensesBySegmentMM": {
         "Cost of sales": 5814900.0,
@@ -282,7 +290,22 @@
       },
       "capexMM": 600000,
       "daMM": 640000,
-      "cfoMM": 2050000
+      "cfoMM": 2050000,
+      "plantation": {
+        "ffbYieldTPerHa": 22.5,
+        "oerPct": 23.0,
+        "cpoAspPerMt": 9180000,
+        "maturePlantedHa": 177500,
+        "rspoPct": 65
+      },
+      "totalAssetsMM": 2050,
+      "propertyBookMM": 1.3,
+      "ppeBookMM": 0.9,
+      "inventoryMM": 0.2,
+      "intangibleAssetsMM": 0.0,
+      "epsBasic": 542.0992,
+      "interestExpenseMM": 35.0,
+      "totalEquityMM": 850.0
     },
     {
       "endDate": "2021-06-30",
@@ -312,8 +335,8 @@
       },
       "ebitdaMM": 4200000,
       "netIncomeMM": 1605000,
-      "totalDebtMM": 4500000,
-      "cashMM": 1700000,
+      "totalDebtMM": 0,
+      "cashMM": 2069.0,
       "netDebtMM": 2800000,
       "totalAcresK": 553,
       "ffbProductionTonnesK": 2640,
@@ -325,7 +348,7 @@
       "matureHectaresK": 113,
       "sharesOutMM": 1734,
       "dividendPerShare": 580,
-      "bookValuePerShare": 6500,
+      "bookValuePerShare": 0.5479,
       "notes": "FY21: Revenue IDR 13.66T (+47% YoY); EBITDA IDR 4.2T",
       "expensesBySegmentMM": {
         "Cost of sales": 8511300.0,
@@ -334,7 +357,22 @@
       },
       "capexMM": 720000,
       "daMM": 670000,
-      "cfoMM": 2900000
+      "cfoMM": 2900000,
+      "plantation": {
+        "ffbYieldTPerHa": 21.8,
+        "oerPct": 22.9,
+        "cpoAspPerMt": 12680000,
+        "maturePlantedHa": 177800,
+        "rspoPct": 68
+      },
+      "totalAssetsMM": 2180,
+      "propertyBookMM": 1.1,
+      "ppeBookMM": 0.7,
+      "inventoryMM": 0.2,
+      "intangibleAssetsMM": 0.0,
+      "epsBasic": 925.6055,
+      "interestExpenseMM": 30.0,
+      "totalEquityMM": 950.0
     },
     {
       "endDate": "2022-06-30",
@@ -364,8 +402,8 @@
       },
       "ebitdaMM": 5350000,
       "netIncomeMM": 2245000,
-      "totalDebtMM": 4100000,
-      "cashMM": 2200000,
+      "totalDebtMM": 0,
+      "cashMM": 242.8,
       "netDebtMM": 1900000,
       "totalAcresK": 553,
       "ffbProductionTonnesK": 2705,
@@ -377,8 +415,8 @@
       "matureHectaresK": 113,
       "sharesOutMM": 1734,
       "dividendPerShare": 720,
-      "bookValuePerShare": 7800,
-      "propertyBookMM": 13500000,
+      "bookValuePerShare": 0.6344,
+      "propertyBookMM": 1489.7,
       "notes": "FY22: Record. Revenue IDR 17.14T; EBITDA IDR 5.35T",
       "expensesBySegmentMM": {
         "Cost of sales": 10611900.0,
@@ -387,7 +425,21 @@
       },
       "capexMM": 950000,
       "daMM": 700000,
-      "cfoMM": 2480000
+      "cfoMM": 2480000,
+      "ppeBookMM": 410.5,
+      "inventoryMM": 86.1,
+      "intangibleAssetsMM": 3.5,
+      "plantation": {
+        "ffbYieldTPerHa": 21.2,
+        "oerPct": 22.8,
+        "cpoAspPerMt": 14080000,
+        "maturePlantedHa": 178000,
+        "rspoPct": 70
+      },
+      "totalAssetsMM": 2350,
+      "epsBasic": 1294.6943,
+      "interestExpenseMM": 30.0,
+      "totalEquityMM": 1100.0
     },
     {
       "endDate": "2023-06-30",
@@ -417,8 +469,8 @@
       },
       "ebitdaMM": 4100000,
       "netIncomeMM": 1640000,
-      "totalDebtMM": 3700000,
-      "cashMM": 2400000,
+      "totalDebtMM": 0,
+      "cashMM": 261.9,
       "netDebtMM": 1300000,
       "totalAcresK": 553,
       "ffbProductionTonnesK": 2780,
@@ -430,8 +482,8 @@
       "matureHectaresK": 113,
       "sharesOutMM": 1734,
       "dividendPerShare": 540,
-      "bookValuePerShare": 8300,
-      "propertyBookMM": 14000000,
+      "bookValuePerShare": 0.692,
+      "propertyBookMM": 1527.5,
       "notes": "FY23: EBITDA IDR 4.1T; net debt down to IDR 1.3T",
       "expensesBySegmentMM": {
         "Cost of sales": 10179000.0,
@@ -440,7 +492,21 @@
       },
       "capexMM": 880000,
       "daMM": 730000,
-      "cfoMM": 1450000
+      "cfoMM": 1450000,
+      "ppeBookMM": 412.4,
+      "inventoryMM": 74.7,
+      "intangibleAssetsMM": 3.5,
+      "plantation": {
+        "ffbYieldTPerHa": 20.8,
+        "oerPct": 22.7,
+        "cpoAspPerMt": 12380000,
+        "maturePlantedHa": 178200,
+        "rspoPct": 72
+      },
+      "totalAssetsMM": 2400,
+      "epsBasic": 945.7901,
+      "interestExpenseMM": 35.0,
+      "totalEquityMM": 1200.0
     },
     {
       "endDate": "2024-06-30",
@@ -470,8 +536,8 @@
       },
       "ebitdaMM": 4563000,
       "netIncomeMM": 1820000,
-      "totalDebtMM": 3450000,
-      "cashMM": 2500000,
+      "totalDebtMM": 0,
+      "cashMM": 275.6,
       "netDebtMM": 950000,
       "totalAcresK": 553,
       "ffbProductionTonnesK": 2845,
@@ -483,8 +549,8 @@
       "matureHectaresK": 113,
       "sharesOutMM": 1734,
       "dividendPerShare": 600,
-      "bookValuePerShare": 8661,
-      "propertyBookMM": 14270000,
+      "bookValuePerShare": 0.7497,
+      "propertyBookMM": 1573.1,
       "notes": "FY24: EBITDA IDR 4.56T; net debt IDR 0.95T (lowest in 5+ years)",
       "expensesBySegmentMM": {
         "Cost of sales": 10952100.0,
@@ -493,7 +559,28 @@
       },
       "capexMM": 900000,
       "daMM": 750000,
-      "cfoMM": 1640000
+      "cfoMM": 1640000,
+      "interestExpenseMM": 258750.0,
+      "weightedAvgDebtRate": 7.5,
+      "debtMaturityProfileMM": {
+        "<1y": 690000.0,
+        "1-3y": 862500.0,
+        "3-5y": 690000.0,
+        "5+y": 1207500.0
+      },
+      "ppeBookMM": 424.4,
+      "inventoryMM": 79.4,
+      "intangibleAssetsMM": 3.5,
+      "plantation": {
+        "ffbYieldTPerHa": 21.5,
+        "oerPct": 22.8,
+        "cpoAspPerMt": 13680000,
+        "maturePlantedHa": 178500,
+        "rspoPct": 75
+      },
+      "totalAssetsMM": 2480,
+      "epsBasic": 1049.5963,
+      "totalEquityMM": 1300.0
     }
   ]
 }

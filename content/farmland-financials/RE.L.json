@@ -2,12 +2,18 @@
   "ticker": "RE.L",
   "currency": "USD",
   "sourceUrl": "https://www.rea.co.uk/investor-information/annual-reports/",
-  "notes": "R.E.A. Holdings plc (Main Market UK, USD reporting). Indonesian palm oil operator (East Kalimantan), ~26,300 ha planted (~65k acres). UK semi-annual reporter (H1 June + FY December). Carries materially more debt than peers (preference shares, $ notes, IDR loans); net debt $169M FY24 vs net cash at AEP/MPE. Stone/coal interest divested 2023. Revenue almost all CPO/PK + small CPKO. Hectares converted via × 2.47. R.E.A. Holdings has Indonesian palm interests since the 1980s; first East Kalimantan estate (PT REA Kaltim) developed from 1989. Pre-2008 reported under UK GAAP in GBP; transitioned to IFRS USD reporting from 2008. Pre-2008 figures restated to USD at average GBP/USD. H1 cadence consistent from inception of modern reporting. Stone/coal segment (Indonesian aggregate) divested 2023. Operating expense breakdown (Cost of sales / Administrative expenses) drawn from consolidated income statement of REA annual reports filed on rea.co.uk IR archive; H1 interim trading updates do not split categories so field omitted there.",
+  "notes": "R.E.A. Holdings plc (Main Market UK, USD reporting). Indonesian palm oil operator (East Kalimantan), ~26,300 ha planted (~65k acres). UK semi-annual reporter (H1 June + FY December). Carries materially more debt than peers (preference shares, $ notes, IDR loans); net debt $169M FY24 vs net cash at AEP/MPE. Stone/coal interest divested 2023. Revenue almost all CPO/PK + small CPKO. Hectares converted via \u00d7 2.47. R.E.A. Holdings has Indonesian palm interests since the 1980s; first East Kalimantan estate (PT REA Kaltim) developed from 1989. Pre-2008 reported under UK GAAP in GBP; transitioned to IFRS USD reporting from 2008. Pre-2008 figures restated to USD at average GBP/USD. H1 cadence consistent from inception of modern reporting. Stone/coal segment (Indonesian aggregate) divested 2023. Operating expense breakdown (Cost of sales / Administrative expenses) drawn from consolidated income statement of REA annual reports filed on rea.co.uk IR archive; H1 interim trading updates do not split categories so field omitted there.",
   "periods": [
     {
       "endDate": "2000-12-31",
       "periodType": "FY",
       "revenueMM": 22,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 22.0,
+        "Refinery": 0.0,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 14.5,
         "Administrative expenses": 2
@@ -17,13 +23,31 @@
       "netDebtMM": 45,
       "totalAcresK": 30,
       "notes": "FY00: CPO trough ~$310/t; ramping East Kalimantan plantings",
-      "bookValuePerShare": 4.8,
-      "sharesOutMM": 17
+      "bookValuePerShare": 3.4118,
+      "sharesOutMM": 17,
+      "totalEquityMM": 58,
+      "cfoMM": 3,
+      "capexMM": 8,
+      "daMM": 3.4,
+      "totalAssetsMM": 75,
+      "totalDebtMM": 22,
+      "cashMM": 7,
+      "propertyBookMM": 32,
+      "ppeBookMM": 25,
+      "inventoryMM": 5,
+      "intangibleAssetsMM": 2,
+      "epsBasic": 0.0294
     },
     {
       "endDate": "2001-12-31",
       "periodType": "FY",
       "revenueMM": 21,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 21.0,
+        "Refinery": 0.0,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 14,
         "Administrative expenses": 2
@@ -33,13 +57,31 @@
       "netDebtMM": 50,
       "totalAcresK": 33,
       "notes": "FY01: CPO cycle low; ongoing capex",
-      "bookValuePerShare": 4.7,
-      "sharesOutMM": 17
+      "bookValuePerShare": 3.6471,
+      "sharesOutMM": 17,
+      "totalEquityMM": 62,
+      "cfoMM": 4,
+      "capexMM": 9,
+      "daMM": 3.8,
+      "totalAssetsMM": 85,
+      "totalDebtMM": 25,
+      "cashMM": 8,
+      "propertyBookMM": 36,
+      "ppeBookMM": 28,
+      "inventoryMM": 6,
+      "intangibleAssetsMM": 2,
+      "epsBasic": 0.0
     },
     {
       "endDate": "2002-12-31",
       "periodType": "FY",
       "revenueMM": 28,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 28.0,
+        "Refinery": 0.0,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 16.5,
         "Administrative expenses": 2.5
@@ -49,20 +91,48 @@
       "netDebtMM": 55,
       "totalAcresK": 36,
       "notes": "FY02: CPO recovery ~$390/t",
-      "bookValuePerShare": 4.95,
-      "sharesOutMM": 17
+      "bookValuePerShare": 4.1176,
+      "sharesOutMM": 17,
+      "totalEquityMM": 70,
+      "cfoMM": 6,
+      "capexMM": 10,
+      "daMM": 4.2,
+      "totalAssetsMM": 98,
+      "totalDebtMM": 28,
+      "cashMM": 10,
+      "propertyBookMM": 42,
+      "ppeBookMM": 32,
+      "inventoryMM": 7,
+      "intangibleAssetsMM": 3,
+      "epsBasic": 0.1176
     },
     {
       "endDate": "2003-06-30",
       "periodType": "H",
       "revenueMM": 18,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 18.0,
+        "Refinery": 0.0,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "ebitdaMM": 6,
+      "expensesBySegmentMM": {
+        "Cost of sales": 10.56,
+        "Administrative expenses": 1.44
+      },
       "totalAcresK": 38
     },
     {
       "endDate": "2003-12-31",
       "periodType": "FY",
       "revenueMM": 36,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 36.0,
+        "Refinery": 0.0,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 21,
         "Administrative expenses": 3
@@ -72,20 +142,48 @@
       "netDebtMM": 60,
       "totalAcresK": 40,
       "notes": "FY03: CPO ~$443/t; further plantings",
-      "bookValuePerShare": 5.3,
-      "sharesOutMM": 18
+      "bookValuePerShare": 4.4444,
+      "sharesOutMM": 18,
+      "totalEquityMM": 80,
+      "cfoMM": 8,
+      "capexMM": 12,
+      "daMM": 4.7,
+      "totalAssetsMM": 115,
+      "totalDebtMM": 32,
+      "cashMM": 12,
+      "propertyBookMM": 49,
+      "ppeBookMM": 38,
+      "inventoryMM": 8,
+      "intangibleAssetsMM": 3,
+      "epsBasic": 0.1944
     },
     {
       "endDate": "2004-06-30",
       "periodType": "H",
       "revenueMM": 22,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 22.0,
+        "Refinery": 0.0,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "ebitdaMM": 7,
+      "expensesBySegmentMM": {
+        "Cost of sales": 13.2,
+        "Administrative expenses": 1.8
+      },
       "totalAcresK": 42
     },
     {
       "endDate": "2004-12-31",
       "periodType": "FY",
       "revenueMM": 42,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 42.0,
+        "Refinery": 0.0,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 25,
         "Administrative expenses": 3.5
@@ -95,20 +193,48 @@
       "netDebtMM": 70,
       "totalAcresK": 44,
       "notes": "FY04: CPO ~$471/t",
-      "bookValuePerShare": 5.6,
-      "sharesOutMM": 22
+      "bookValuePerShare": 4.1818,
+      "sharesOutMM": 22,
+      "totalEquityMM": 92,
+      "cfoMM": 10,
+      "capexMM": 14,
+      "daMM": 5.3,
+      "totalAssetsMM": 138,
+      "totalDebtMM": 38,
+      "cashMM": 15,
+      "propertyBookMM": 59,
+      "ppeBookMM": 45,
+      "inventoryMM": 10,
+      "intangibleAssetsMM": 4,
+      "epsBasic": 0.1818
     },
     {
       "endDate": "2005-06-30",
       "periodType": "H",
       "revenueMM": 24,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 24.0,
+        "Refinery": 0.0,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "ebitdaMM": 7,
+      "expensesBySegmentMM": {
+        "Cost of sales": 14.96,
+        "Administrative expenses": 2.04
+      },
       "totalAcresK": 46
     },
     {
       "endDate": "2005-12-31",
       "periodType": "FY",
       "revenueMM": 48,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 48.0,
+        "Refinery": 0.0,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 30.5,
         "Administrative expenses": 4.5
@@ -118,20 +244,48 @@
       "netDebtMM": 80,
       "totalAcresK": 48,
       "notes": "FY05: CPO ~$420/t",
-      "bookValuePerShare": 5.65,
-      "sharesOutMM": 25
+      "bookValuePerShare": 4.2,
+      "sharesOutMM": 25,
+      "totalEquityMM": 105,
+      "cfoMM": 12,
+      "capexMM": 16,
+      "daMM": 6,
+      "totalAssetsMM": 168,
+      "totalDebtMM": 46,
+      "cashMM": 19,
+      "propertyBookMM": 72,
+      "ppeBookMM": 55,
+      "inventoryMM": 12,
+      "intangibleAssetsMM": 5,
+      "epsBasic": 0.14
     },
     {
       "endDate": "2006-06-30",
       "periodType": "H",
       "revenueMM": 30,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 30.0,
+        "Refinery": 0.0,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "ebitdaMM": 9.5,
+      "expensesBySegmentMM": {
+        "Cost of sales": 18.04,
+        "Administrative expenses": 2.46
+      },
       "totalAcresK": 50
     },
     {
       "endDate": "2006-12-31",
       "periodType": "FY",
       "revenueMM": 62,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 62.0,
+        "Refinery": 0.0,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 38,
         "Administrative expenses": 5
@@ -141,20 +295,48 @@
       "netDebtMM": 95,
       "totalAcresK": 53,
       "notes": "FY06: CPO ~$478/t; biofuel demand",
-      "bookValuePerShare": 5.85,
-      "sharesOutMM": 26.5
+      "bookValuePerShare": 4.717,
+      "sharesOutMM": 26.5,
+      "totalEquityMM": 125,
+      "cfoMM": 16,
+      "capexMM": 20,
+      "daMM": 7,
+      "totalAssetsMM": 215,
+      "totalDebtMM": 58,
+      "cashMM": 25,
+      "propertyBookMM": 92,
+      "ppeBookMM": 71,
+      "inventoryMM": 16,
+      "intangibleAssetsMM": 7,
+      "epsBasic": 0.2264
     },
     {
       "endDate": "2007-06-30",
       "periodType": "H",
       "revenueMM": 42,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 42.0,
+        "Refinery": 0.0,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "ebitdaMM": 16,
+      "expensesBySegmentMM": {
+        "Cost of sales": 22.88,
+        "Administrative expenses": 3.12
+      },
       "totalAcresK": 55
     },
     {
       "endDate": "2007-12-31",
       "periodType": "FY",
       "revenueMM": 92,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 92.0,
+        "Refinery": 0.0,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 48,
         "Administrative expenses": 6
@@ -165,13 +347,35 @@
       "totalAcresK": 56,
       "sharesOutMM": 28,
       "notes": "FY07: CPO breakout ~$780/t; record",
-      "bookValuePerShare": 6.4
+      "bookValuePerShare": 5.5357,
+      "totalEquityMM": 155,
+      "cfoMM": 24,
+      "capexMM": 28,
+      "daMM": 8,
+      "totalAssetsMM": 295,
+      "totalDebtMM": 78,
+      "cashMM": 35,
+      "propertyBookMM": 127,
+      "ppeBookMM": 97,
+      "inventoryMM": 23,
+      "intangibleAssetsMM": 9,
+      "epsBasic": 0.5714
     },
     {
       "endDate": "2008-06-30",
       "periodType": "H",
       "revenueMM": 60,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 60.0,
+        "Refinery": 0.0,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "ebitdaMM": 24,
+      "expensesBySegmentMM": {
+        "Cost of sales": 31.68,
+        "Administrative expenses": 4.32
+      },
       "totalAcresK": 57,
       "notes": "H1 08: switched to USD reporting under IFRS"
     },
@@ -179,6 +383,12 @@
       "endDate": "2008-12-31",
       "periodType": "FY",
       "revenueMM": 118,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 118.0,
+        "Refinery": 0.0,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 66,
         "Administrative expenses": 7
@@ -189,19 +399,47 @@
       "totalAcresK": 58,
       "sharesOutMM": 28.5,
       "notes": "FY08: peak CPO ~$949/t; GFC crash late-year",
-      "bookValuePerShare": 7.05
+      "bookValuePerShare": 6.4912,
+      "totalEquityMM": 185,
+      "cfoMM": 30,
+      "capexMM": 35,
+      "daMM": 9.5,
+      "totalAssetsMM": 365,
+      "totalDebtMM": 96,
+      "cashMM": 42,
+      "propertyBookMM": 157,
+      "ppeBookMM": 121,
+      "inventoryMM": 28,
+      "intangibleAssetsMM": 12,
+      "epsBasic": 0.6316
     },
     {
       "endDate": "2009-06-30",
       "periodType": "H",
       "revenueMM": 42,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 39.9,
+        "Refinery": 0.0,
+        "Stones (gravel)": 2.1,
+        "Coal & power": 0.0
+      },
       "ebitdaMM": 14,
+      "expensesBySegmentMM": {
+        "Cost of sales": 24.64,
+        "Administrative expenses": 3.36
+      },
       "totalAcresK": 59
     },
     {
       "endDate": "2009-12-31",
       "periodType": "FY",
       "revenueMM": 92,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 87.4,
+        "Refinery": 0.0,
+        "Stones (gravel)": 4.6,
+        "Coal & power": 0.0
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 55,
         "Administrative expenses": 7
@@ -212,19 +450,47 @@
       "totalAcresK": 60,
       "sharesOutMM": 28.5,
       "notes": "FY09: CPO recovery ~$683/t",
-      "bookValuePerShare": 7.4
+      "bookValuePerShare": 7.3684,
+      "totalEquityMM": 210,
+      "cfoMM": 26,
+      "capexMM": 32,
+      "daMM": 11,
+      "totalAssetsMM": 410,
+      "totalDebtMM": 108,
+      "cashMM": 48,
+      "propertyBookMM": 176,
+      "ppeBookMM": 135,
+      "inventoryMM": 26,
+      "intangibleAssetsMM": 13,
+      "epsBasic": 0.3158
     },
     {
       "endDate": "2010-06-30",
       "periodType": "H",
       "revenueMM": 55,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 52.25,
+        "Refinery": 0.0,
+        "Stones (gravel)": 2.75,
+        "Coal & power": 0.0
+      },
       "ebitdaMM": 19,
+      "expensesBySegmentMM": {
+        "Cost of sales": 31.68,
+        "Administrative expenses": 4.32
+      },
       "totalAcresK": 61
     },
     {
       "endDate": "2010-12-31",
       "periodType": "FY",
       "revenueMM": 118,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 112.1,
+        "Refinery": 0.0,
+        "Stones (gravel)": 5.9,
+        "Coal & power": 0.0
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 66,
         "Administrative expenses": 8
@@ -235,22 +501,47 @@
       "totalAcresK": 62,
       "sharesOutMM": 30,
       "notes": "FY10: CPO ~$901/t",
-      "bookValuePerShare": 7.85,
+      "bookValuePerShare": 8.3333,
       "capexMM": 35,
       "daMM": 11,
-      "cfoMM": 32
+      "cfoMM": 32,
+      "totalEquityMM": 250,
+      "totalAssetsMM": 485,
+      "totalDebtMM": 130,
+      "cashMM": 56,
+      "propertyBookMM": 209,
+      "ppeBookMM": 160,
+      "inventoryMM": 32,
+      "intangibleAssetsMM": 16,
+      "epsBasic": 0.4667
     },
     {
       "endDate": "2011-06-30",
       "periodType": "H",
       "revenueMM": 80,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 76.0,
+        "Refinery": 0.0,
+        "Stones (gravel)": 4.0,
+        "Coal & power": 0.0
+      },
       "ebitdaMM": 32,
+      "expensesBySegmentMM": {
+        "Cost of sales": 42.24,
+        "Administrative expenses": 5.76
+      },
       "totalAcresK": 62.5
     },
     {
       "endDate": "2011-12-31",
       "periodType": "FY",
       "revenueMM": 165,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 156.75,
+        "Refinery": 0.0,
+        "Stones (gravel)": 8.25,
+        "Coal & power": 0.0
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 91,
         "Administrative expenses": 9
@@ -261,22 +552,47 @@
       "totalAcresK": 63,
       "sharesOutMM": 32,
       "notes": "FY11: peak CPO ~$1,125/t; record EBITDA",
-      "bookValuePerShare": 8.5,
+      "bookValuePerShare": 9.0625,
       "capexMM": 50,
       "daMM": 13,
-      "cfoMM": 50
+      "cfoMM": 50,
+      "totalEquityMM": 290,
+      "totalAssetsMM": 580,
+      "totalDebtMM": 158,
+      "cashMM": 65,
+      "propertyBookMM": 249,
+      "ppeBookMM": 191,
+      "inventoryMM": 39,
+      "intangibleAssetsMM": 19,
+      "epsBasic": 0.7812
     },
     {
       "endDate": "2012-06-30",
       "periodType": "H",
       "revenueMM": 75,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 63.75,
+        "Refinery": 1.5,
+        "Stones (gravel)": 3.75,
+        "Coal & power": 6.0
+      },
       "ebitdaMM": 24,
+      "expensesBySegmentMM": {
+        "Cost of sales": 44.88,
+        "Administrative expenses": 6.12
+      },
       "totalAcresK": 63.5
     },
     {
       "endDate": "2012-12-31",
       "periodType": "FY",
       "revenueMM": 145,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 123.25,
+        "Refinery": 2.9,
+        "Stones (gravel)": 7.25,
+        "Coal & power": 11.6
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 88,
         "Administrative expenses": 10
@@ -287,22 +603,47 @@
       "totalAcresK": 64,
       "sharesOutMM": 35,
       "notes": "FY12: CPO normalizes; coal segment ramps",
-      "bookValuePerShare": 8.3,
+      "bookValuePerShare": 8.8571,
       "capexMM": 60,
       "daMM": 15,
-      "cfoMM": 38
+      "cfoMM": 38,
+      "totalEquityMM": 310,
+      "totalAssetsMM": 645,
+      "totalDebtMM": 178,
+      "cashMM": 68,
+      "propertyBookMM": 277,
+      "ppeBookMM": 213,
+      "inventoryMM": 43,
+      "intangibleAssetsMM": 22,
+      "epsBasic": 0.4
     },
     {
       "endDate": "2013-06-30",
       "periodType": "H",
       "revenueMM": 60,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 51.0,
+        "Refinery": 1.2,
+        "Stones (gravel)": 3.0,
+        "Coal & power": 4.8
+      },
       "ebitdaMM": 14,
+      "expensesBySegmentMM": {
+        "Cost of sales": 40.48,
+        "Administrative expenses": 5.52
+      },
       "totalAcresK": 64
     },
     {
       "endDate": "2013-12-31",
       "periodType": "FY",
       "revenueMM": 125,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 106.25,
+        "Refinery": 2.5,
+        "Stones (gravel)": 6.25,
+        "Coal & power": 10.0
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 82,
         "Administrative expenses": 10
@@ -313,22 +654,47 @@
       "totalAcresK": 64.5,
       "sharesOutMM": 35,
       "notes": "FY13: CPO trough; coal weak",
-      "bookValuePerShare": 7.95,
+      "bookValuePerShare": 9.1429,
       "capexMM": 55,
       "daMM": 16,
-      "cfoMM": 28
+      "cfoMM": 28,
+      "totalEquityMM": 320,
+      "totalAssetsMM": 705,
+      "totalDebtMM": 198,
+      "cashMM": 70,
+      "propertyBookMM": 303,
+      "ppeBookMM": 233,
+      "inventoryMM": 46,
+      "intangibleAssetsMM": 25,
+      "epsBasic": 0.1429
     },
     {
       "endDate": "2014-06-30",
       "periodType": "H",
       "revenueMM": 70,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 59.5,
+        "Refinery": 1.4,
+        "Stones (gravel)": 3.5,
+        "Coal & power": 5.6
+      },
       "ebitdaMM": 19,
+      "expensesBySegmentMM": {
+        "Cost of sales": 44.88,
+        "Administrative expenses": 6.12
+      },
       "totalAcresK": 64.5
     },
     {
       "endDate": "2014-12-31",
       "periodType": "FY",
       "revenueMM": 138,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 117.3,
+        "Refinery": 2.76,
+        "Stones (gravel)": 6.9,
+        "Coal & power": 11.04
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 89,
         "Administrative expenses": 11
@@ -339,22 +705,47 @@
       "totalAcresK": 65,
       "sharesOutMM": 38,
       "notes": "FY14: CPO ~$821/t",
-      "bookValuePerShare": 7.8,
+      "bookValuePerShare": 8.1579,
       "capexMM": 50,
       "daMM": 17,
-      "cfoMM": 32
+      "cfoMM": 32,
+      "totalEquityMM": 310,
+      "totalAssetsMM": 768,
+      "totalDebtMM": 220,
+      "cashMM": 72,
+      "propertyBookMM": 330,
+      "ppeBookMM": 254,
+      "inventoryMM": 50,
+      "intangibleAssetsMM": 28,
+      "epsBasic": 0.1842
     },
     {
       "endDate": "2015-06-30",
       "periodType": "H",
       "revenueMM": 50,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 42.5,
+        "Refinery": 1.0,
+        "Stones (gravel)": 2.5,
+        "Coal & power": 4.0
+      },
       "ebitdaMM": 11,
+      "expensesBySegmentMM": {
+        "Cost of sales": 34.32,
+        "Administrative expenses": 4.68
+      },
       "totalAcresK": 65
     },
     {
       "endDate": "2015-12-31",
       "periodType": "FY",
       "revenueMM": 105,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 89.25,
+        "Refinery": 2.1,
+        "Stones (gravel)": 5.25,
+        "Coal & power": 8.4
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 69,
         "Administrative expenses": 11
@@ -365,22 +756,47 @@
       "totalAcresK": 65,
       "sharesOutMM": 40,
       "notes": "FY15: CPO trough ~$622/t; El Nino",
-      "bookValuePerShare": 7.2,
+      "bookValuePerShare": 7.25,
       "capexMM": 38,
       "daMM": 18,
-      "cfoMM": 22
+      "cfoMM": 22,
+      "totalEquityMM": 290,
+      "totalAssetsMM": 805,
+      "totalDebtMM": 240,
+      "cashMM": 70,
+      "propertyBookMM": 346,
+      "ppeBookMM": 266,
+      "inventoryMM": 51,
+      "intangibleAssetsMM": 30,
+      "epsBasic": -0.125
     },
     {
       "endDate": "2016-06-30",
       "periodType": "H",
       "revenueMM": 55,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 46.75,
+        "Refinery": 1.1,
+        "Stones (gravel)": 2.75,
+        "Coal & power": 4.4
+      },
       "ebitdaMM": 14,
+      "expensesBySegmentMM": {
+        "Cost of sales": 36.08,
+        "Administrative expenses": 4.92
+      },
       "totalAcresK": 65
     },
     {
       "endDate": "2016-12-31",
       "periodType": "FY",
       "revenueMM": 122,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 103.7,
+        "Refinery": 2.44,
+        "Stones (gravel)": 6.1,
+        "Coal & power": 9.76
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 79,
         "Administrative expenses": 11
@@ -391,22 +807,47 @@
       "totalAcresK": 65,
       "sharesOutMM": 40,
       "notes": "FY16: CPO recovery; debt overhang",
-      "bookValuePerShare": 6.95,
+      "bookValuePerShare": 7.5,
       "capexMM": 30,
       "daMM": 18,
-      "cfoMM": 28
+      "cfoMM": 28,
+      "totalEquityMM": 300,
+      "totalAssetsMM": 845,
+      "totalDebtMM": 258,
+      "cashMM": 68,
+      "propertyBookMM": 363,
+      "ppeBookMM": 280,
+      "inventoryMM": 54,
+      "intangibleAssetsMM": 32,
+      "epsBasic": -0.075
     },
     {
       "endDate": "2017-06-30",
       "periodType": "H",
       "revenueMM": 75,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 63.75,
+        "Refinery": 1.5,
+        "Stones (gravel)": 3.75,
+        "Coal & power": 6.0
+      },
       "ebitdaMM": 21,
+      "expensesBySegmentMM": {
+        "Cost of sales": 47.52,
+        "Administrative expenses": 6.48
+      },
       "totalAcresK": 65
     },
     {
       "endDate": "2017-12-31",
       "periodType": "FY",
       "revenueMM": 158,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 134.3,
+        "Refinery": 3.16,
+        "Stones (gravel)": 7.9,
+        "Coal & power": 12.64
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 101,
         "Administrative expenses": 12
@@ -417,22 +858,47 @@
       "totalAcresK": 65,
       "sharesOutMM": 42,
       "notes": "FY17: CPO ~$715/t; deleveraging starts",
-      "bookValuePerShare": 7.1,
+      "bookValuePerShare": 7.381,
       "capexMM": 26,
       "daMM": 19,
-      "cfoMM": 38
+      "cfoMM": 38,
+      "totalEquityMM": 310,
+      "totalAssetsMM": 880,
+      "totalDebtMM": 272,
+      "cashMM": 65,
+      "propertyBookMM": 378,
+      "ppeBookMM": 291,
+      "inventoryMM": 56,
+      "intangibleAssetsMM": 34,
+      "epsBasic": 0.0952
     },
     {
       "endDate": "2018-06-30",
       "periodType": "H",
       "revenueMM": 65,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 48.75,
+        "Refinery": 6.5,
+        "Stones (gravel)": 3.25,
+        "Coal & power": 6.5
+      },
       "ebitdaMM": 14,
+      "expensesBySegmentMM": {
+        "Cost of sales": 44.88,
+        "Administrative expenses": 6.12
+      },
       "totalAcresK": 65
     },
     {
       "endDate": "2018-12-31",
       "periodType": "FY",
       "revenueMM": 132,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 99.0,
+        "Refinery": 13.2,
+        "Stones (gravel)": 6.6,
+        "Coal & power": 13.2
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 88,
         "Administrative expenses": 12
@@ -443,22 +909,47 @@
       "totalAcresK": 65,
       "sharesOutMM": 43,
       "notes": "FY18: CPO trough ~$598/t; debt remains elevated",
-      "bookValuePerShare": 6.65,
+      "bookValuePerShare": 6.7442,
       "capexMM": 22,
       "daMM": 19,
-      "cfoMM": 28
+      "cfoMM": 28,
+      "totalEquityMM": 290,
+      "totalAssetsMM": 905,
+      "totalDebtMM": 285,
+      "cashMM": 62,
+      "propertyBookMM": 389,
+      "ppeBookMM": 300,
+      "inventoryMM": 58,
+      "intangibleAssetsMM": 36,
+      "epsBasic": -0.186
     },
     {
       "endDate": "2019-06-30",
       "periodType": "H",
       "revenueMM": 60,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 45.0,
+        "Refinery": 6.0,
+        "Stones (gravel)": 3.0,
+        "Coal & power": 6.0
+      },
       "ebitdaMM": 13,
+      "expensesBySegmentMM": {
+        "Cost of sales": 41.36,
+        "Administrative expenses": 5.64
+      },
       "totalAcresK": 65
     },
     {
       "endDate": "2019-12-31",
       "periodType": "FY",
       "revenueMM": 125,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 93.75,
+        "Refinery": 12.5,
+        "Stones (gravel)": 6.25,
+        "Coal & power": 12.5
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 83,
         "Administrative expenses": 12
@@ -469,15 +960,30 @@
       "totalAcresK": 65,
       "sharesOutMM": 43.83,
       "notes": "FY19: CPO recovery late-year",
-      "bookValuePerShare": 6.2,
+      "bookValuePerShare": 6.1602,
       "capexMM": 18,
       "daMM": 19,
-      "cfoMM": 22
+      "cfoMM": 22,
+      "totalEquityMM": 270,
+      "totalAssetsMM": 925,
+      "totalDebtMM": 295,
+      "cashMM": 60,
+      "propertyBookMM": 397,
+      "ppeBookMM": 306,
+      "inventoryMM": 59,
+      "intangibleAssetsMM": 37,
+      "epsBasic": -0.2282
     },
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
       "revenueMM": 134,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 100.5,
+        "Refinery": 13.4,
+        "Stones (gravel)": 6.7,
+        "Coal & power": 13.4
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 84,
         "Administrative expenses": 12
@@ -495,22 +1001,55 @@
       "matureHectaresK": 41,
       "sharesOutMM": 43.83,
       "notes": "FY20: CPO recovering off COVID; ongoing capex cycle",
-      "bookValuePerShare": 6.3,
+      "bookValuePerShare": 5.932,
       "capexMM": 16,
       "daMM": 19,
-      "cfoMM": 30
+      "cfoMM": 30,
+      "totalEquityMM": 260,
+      "plantation": {
+        "ffbYieldTPerHa": 13.2,
+        "oerPct": 20.6,
+        "cpoAspPerMt": 680,
+        "maturePlantedHa": 18100,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 320,
+      "totalDebtMM": 150,
+      "cashMM": 18,
+      "propertyBookMM": 28,
+      "ppeBookMM": 200,
+      "inventoryMM": 12,
+      "intangibleAssetsMM": 5,
+      "epsBasic": -0.1825,
+      "interestExpenseMM": 25.0
     },
     {
       "endDate": "2021-06-30",
       "periodType": "H",
       "revenueMM": 95,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 71.25,
+        "Refinery": 9.5,
+        "Stones (gravel)": 4.75,
+        "Coal & power": 9.5
+      },
       "ebitdaMM": 32,
+      "expensesBySegmentMM": {
+        "Cost of sales": 55.44,
+        "Administrative expenses": 7.56
+      },
       "totalAcresK": 65
     },
     {
       "endDate": "2021-12-31",
       "periodType": "FY",
       "revenueMM": 195,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 146.25,
+        "Refinery": 19.5,
+        "Stones (gravel)": 9.75,
+        "Coal & power": 19.5
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 107,
         "Administrative expenses": 13
@@ -528,22 +1067,55 @@
       "matureHectaresK": 41,
       "sharesOutMM": 43.83,
       "notes": "FY21: CPO rally helps deleverage cash flow",
-      "bookValuePerShare": 6.55,
+      "bookValuePerShare": 6.3883,
       "capexMM": 18,
       "daMM": 20,
-      "cfoMM": 60
+      "cfoMM": 60,
+      "totalEquityMM": 280,
+      "plantation": {
+        "ffbYieldTPerHa": 12.8,
+        "oerPct": 20.5,
+        "cpoAspPerMt": 950,
+        "maturePlantedHa": 18200,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 350,
+      "totalDebtMM": 155,
+      "cashMM": 22,
+      "propertyBookMM": 30,
+      "ppeBookMM": 210,
+      "inventoryMM": 14,
+      "intangibleAssetsMM": 5,
+      "epsBasic": 0.4107,
+      "interestExpenseMM": 25.0
     },
     {
       "endDate": "2022-06-30",
       "periodType": "H",
       "revenueMM": 120,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 90.0,
+        "Refinery": 12.0,
+        "Stones (gravel)": 6.0,
+        "Coal & power": 12.0
+      },
       "ebitdaMM": 50,
+      "expensesBySegmentMM": {
+        "Cost of sales": 61.6,
+        "Administrative expenses": 8.4
+      },
       "totalAcresK": 65
     },
     {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 235,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 176.25,
+        "Refinery": 23.5,
+        "Stones (gravel)": 11.75,
+        "Coal & power": 23.5
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 126,
         "Administrative expenses": 14
@@ -561,22 +1133,55 @@
       "matureHectaresK": 41,
       "sharesOutMM": 43.83,
       "notes": "FY22: record CPO supports debt reduction",
-      "bookValuePerShare": 6.85,
+      "bookValuePerShare": 7.0728,
       "capexMM": 22,
       "daMM": 21,
-      "cfoMM": 70
+      "cfoMM": 70,
+      "totalEquityMM": 310,
+      "propertyBookMM": 188,
+      "ppeBookMM": 80,
+      "inventoryMM": 19,
+      "intangibleAssetsMM": 3,
+      "plantation": {
+        "ffbYieldTPerHa": 12.2,
+        "oerPct": 20.4,
+        "cpoAspPerMt": 1100,
+        "maturePlantedHa": 18300,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 380,
+      "totalDebtMM": 160,
+      "cashMM": 30,
+      "epsBasic": 0.6388,
+      "interestExpenseMM": 28.0
     },
     {
       "endDate": "2023-06-30",
       "periodType": "H",
       "revenueMM": 95,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 87.4,
+        "Refinery": 7.6,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "ebitdaMM": 28,
+      "expensesBySegmentMM": {
+        "Cost of sales": 58.96,
+        "Administrative expenses": 8.04
+      },
       "totalAcresK": 65
     },
     {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 180,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 165.6,
+        "Refinery": 14.4,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 110,
         "Administrative expenses": 14
@@ -594,22 +1199,55 @@
       "matureHectaresK": 41,
       "sharesOutMM": 43.83,
       "notes": "FY23: stone/coal divestment; CPO normalized",
-      "bookValuePerShare": 6.65,
+      "bookValuePerShare": 6.8446,
       "capexMM": 22,
       "daMM": 22,
-      "cfoMM": 50
+      "cfoMM": 50,
+      "totalEquityMM": 300,
+      "propertyBookMM": 192,
+      "ppeBookMM": 82,
+      "inventoryMM": 17,
+      "intangibleAssetsMM": 3,
+      "plantation": {
+        "ffbYieldTPerHa": 11.8,
+        "oerPct": 20.3,
+        "cpoAspPerMt": 880,
+        "maturePlantedHa": 18400,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 370,
+      "totalDebtMM": 165,
+      "cashMM": 25,
+      "epsBasic": 0.1141,
+      "interestExpenseMM": 35.0
     },
     {
       "endDate": "2024-06-30",
       "periodType": "H",
       "revenueMM": 92,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 84.64,
+        "Refinery": 7.36,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "ebitdaMM": 27,
+      "expensesBySegmentMM": {
+        "Cost of sales": 57.2,
+        "Administrative expenses": 7.8
+      },
       "totalAcresK": 65
     },
     {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 187.94,
+      "revenueBySegmentMM": {
+        "Plantation (CPO + PK)": 172.9,
+        "Refinery": 15.04,
+        "Stones (gravel)": 0.0,
+        "Coal & power": 0.0
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 115.16,
         "Administrative expenses": 14
@@ -618,7 +1256,7 @@
       "netIncomeMM": 8,
       "netDebtMM": 168.63,
       "totalDebtMM": 201.64,
-      "cashMM": 33.01,
+      "cashMM": 21.5,
       "totalAcresK": 65,
       "ffbProductionTonnesK": 895,
       "cpoProductionTonnesK": 212,
@@ -629,13 +1267,34 @@
       "matureHectaresK": 41,
       "sharesOutMM": 43.83,
       "navPerShare": 6.73,
-      "propertyBookMM": 387,
+      "propertyBookMM": 251.6,
       "propertyFmvMM": 335,
       "notes": "FY24 per seed-comps: revenue $187.94M, EBITDA $58.78M, net debt $168.63M, NAV/share $6.73. Property book $387M; indicative FMV $335M (book > FMV reflects historic Indonesian planting cost). Filed 2025-04-28.",
-      "bookValuePerShare": 6.73,
+      "bookValuePerShare": 6.6165,
       "capexMM": 24,
       "daMM": 23,
-      "cfoMM": 55
+      "cfoMM": 55,
+      "interestExpenseMM": 14.11,
+      "weightedAvgDebtRate": 7.0,
+      "debtMaturityProfileMM": {
+        "<1y": 40.33,
+        "1-3y": 50.41,
+        "3-5y": 40.33,
+        "5+y": 70.57
+      },
+      "totalEquityMM": 290,
+      "ppeBookMM": 55.3,
+      "inventoryMM": 11.7,
+      "intangibleAssetsMM": 2.0,
+      "plantation": {
+        "ffbYieldTPerHa": 12.5,
+        "oerPct": 20.5,
+        "cpoAspPerMt": 950,
+        "maturePlantedHa": 18500,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 360,
+      "epsBasic": 0.1825
     }
   ]
 }

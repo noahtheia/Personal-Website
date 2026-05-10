@@ -2,8 +2,122 @@
   "ticker": "002714.SZ",
   "currency": "CNY",
   "sourceUrl": "http://www.muyuanfoods.com/index.php?m=content&c=index&a=lists&catid=27",
-  "notes": "Muyuan Foods (SZSE: 002714) — world's largest pork producer by volume (~71M head sold in FY24). Highly vertically integrated: own breeding, feed mills, slaughter, and increasingly downstream meat processing. Reports CNY-millions PRC GAAP. Lists in CNY on Shenzhen Stock Exchange. FY ends Dec 31. Earnings driven by China hog cycle — extreme volatility. Net debt company-defined (interest-bearing only); leases not always disclosed at consolidated level.",
+  "notes": "Muyuan Foods (SZSE: 002714) \u2014 world's largest pork producer by volume (~71M head sold in FY24). Highly vertically integrated: own breeding, feed mills, slaughter, and increasingly downstream meat processing. Reports CNY-millions PRC GAAP. Lists in CNY on Shenzhen Stock Exchange. FY ends Dec 31. Earnings driven by China hog cycle \u2014 extreme volatility. Net debt company-defined (interest-bearing only); leases not always disclosed at consolidated level.",
   "periods": [
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 2620,
+      "ebitdaMM": 1010,
+      "netIncomeMM": 803,
+      "capexMM": 600,
+      "daMM": 130,
+      "cfoMM": 750,
+      "totalAssetsMM": 3700,
+      "totalDebtMM": 800,
+      "cashMM": 200,
+      "totalEquityMM": 2200,
+      "sharesOutMM": 925,
+      "dividendPerShare": 0.3,
+      "interestExpenseMM": 50,
+      "epsBasic": 0.8681,
+      "bookValuePerShare": 2.3784
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 3000,
+      "ebitdaMM": 770,
+      "netIncomeMM": 597,
+      "capexMM": 1100,
+      "daMM": 200,
+      "cfoMM": 750,
+      "totalAssetsMM": 5500,
+      "totalDebtMM": 1500,
+      "cashMM": 350,
+      "totalEquityMM": 3000,
+      "sharesOutMM": 925,
+      "dividendPerShare": 0.2,
+      "interestExpenseMM": 80,
+      "epsBasic": 0.6454,
+      "bookValuePerShare": 3.2432
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 5610,
+      "ebitdaMM": 2640,
+      "netIncomeMM": 2320,
+      "capexMM": 2200,
+      "daMM": 320,
+      "cfoMM": 2500,
+      "totalAssetsMM": 9500,
+      "totalDebtMM": 2800,
+      "cashMM": 700,
+      "totalEquityMM": 5500,
+      "sharesOutMM": 1100,
+      "dividendPerShare": 0.5,
+      "interestExpenseMM": 130,
+      "epsBasic": 2.1091,
+      "bookValuePerShare": 5.0
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 10000,
+      "ebitdaMM": 3300,
+      "netIncomeMM": 2370,
+      "capexMM": 3500,
+      "daMM": 500,
+      "cfoMM": 3300,
+      "totalAssetsMM": 16500,
+      "totalDebtMM": 5500,
+      "cashMM": 1300,
+      "totalEquityMM": 8500,
+      "sharesOutMM": 1700,
+      "dividendPerShare": 0.4,
+      "interestExpenseMM": 220,
+      "epsBasic": 1.3941,
+      "bookValuePerShare": 5.0
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 13380,
+      "ebitdaMM": 2100,
+      "netIncomeMM": 522,
+      "capexMM": 4500,
+      "daMM": 750,
+      "cfoMM": 1500,
+      "totalAssetsMM": 26500,
+      "totalDebtMM": 11500,
+      "cashMM": 1500,
+      "totalEquityMM": 11500,
+      "sharesOutMM": 2080,
+      "dividendPerShare": 0.07,
+      "interestExpenseMM": 450,
+      "epsBasic": 0.251,
+      "bookValuePerShare": 5.5288
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 20240,
+      "ebitdaMM": 8400,
+      "netIncomeMM": 6110,
+      "capexMM": 6500,
+      "daMM": 1100,
+      "cfoMM": 7500,
+      "totalAssetsMM": 41000,
+      "totalDebtMM": 16000,
+      "cashMM": 4500,
+      "totalEquityMM": 19000,
+      "sharesOutMM": 2120,
+      "dividendPerShare": 0.5,
+      "interestExpenseMM": 700,
+      "epsBasic": 2.8821,
+      "bookValuePerShare": 8.9623
+    },
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
@@ -14,10 +128,31 @@
       "cashMM": 11400,
       "netDebtMM": 27000,
       "sharesOutMM": 3760,
-      "notes": "FY20: Peak-cycle year — post-ASF China hog prices ~RMB35/kg. Revenue RMB56.3bn, EBITDA RMB33.5bn (margin 60%), NI RMB27.5bn. Massive capacity expansion.",
+      "notes": "FY20: Peak-cycle year \u2014 post-ASF China hog prices ~RMB35/kg. Revenue RMB56.3bn, EBITDA RMB33.5bn (margin 60%), NI RMB27.5bn. Massive capacity expansion.",
       "capexMM": 46500,
       "daMM": 1800,
-      "cfoMM": 23000
+      "cfoMM": 23000,
+      "totalEquityMM": 32500,
+      "protein": {
+        "plants": 22,
+        "weeklyHeadCapacity": 1200000,
+        "capacityUtilizationPct": 75,
+        "pig": {
+          "breedingSows": 2620000,
+          "slaughterWeightKg": 115,
+          "costPerKgLive": 14.5,
+          "feedConversionRatio": 2.85
+        }
+      },
+      "totalAssetsMM": 91500,
+      "propertyBookMM": 16500,
+      "ppeBookMM": 47000,
+      "inventoryMM": 14200,
+      "intangibleAssetsMM": 1100,
+      "epsBasic": 7.3008,
+      "bookValuePerShare": 8.6436,
+      "interestExpenseMM": 1500.0,
+      "dividendPerShare": 1.5
     },
     {
       "endDate": "2021-12-31",
@@ -29,10 +164,31 @@
       "cashMM": 9200,
       "netDebtMM": 46400,
       "sharesOutMM": 5290,
-      "notes": "FY21: Hog prices crashed ~50% (post-ASF herd rebuild) — margins collapsed. Revenue RMB78.9bn (+40% on volume), EBITDA RMB16.8bn (margin 21%), NI RMB6.9bn (-75% YoY).",
+      "notes": "FY21: Hog prices crashed ~50% (post-ASF herd rebuild) \u2014 margins collapsed. Revenue RMB78.9bn (+40% on volume), EBITDA RMB16.8bn (margin 21%), NI RMB6.9bn (-75% YoY).",
       "capexMM": 32500,
       "daMM": 3600,
-      "cfoMM": 16500
+      "cfoMM": 16500,
+      "totalEquityMM": 38000,
+      "protein": {
+        "plants": 25,
+        "weeklyHeadCapacity": 1300000,
+        "capacityUtilizationPct": 78,
+        "pig": {
+          "breedingSows": 2700000,
+          "slaughterWeightKg": 115,
+          "costPerKgLive": 16.5,
+          "feedConversionRatio": 2.8
+        }
+      },
+      "totalAssetsMM": 137800,
+      "propertyBookMM": 21500,
+      "ppeBookMM": 80500,
+      "inventoryMM": 17500,
+      "intangibleAssetsMM": 1350,
+      "epsBasic": 1.3051,
+      "bookValuePerShare": 7.1834,
+      "interestExpenseMM": 2500.0,
+      "dividendPerShare": 0.3
     },
     {
       "endDate": "2022-12-31",
@@ -41,13 +197,69 @@
       "ebitdaMM": 27100,
       "netIncomeMM": 13266,
       "totalDebtMM": 67500,
-      "cashMM": 14100,
+      "cashMM": 8754.5,
       "netDebtMM": 53400,
       "sharesOutMM": 5430,
+      "revenueBySegmentMM": {
+        "Pig farming (live hogs)": 116500,
+        "Slaughter & meat processing": 7500,
+        "Other": 826
+      },
+      "expensesBySegmentMM": {
+        "COGS": 90000,
+        "SG&A": 4500,
+        "D&A": 5400,
+        "Other opex": -2174
+      },
       "notes": "FY22: Hog price recovery 2H22 (RMB22-28/kg). Revenue RMB124.8bn (+58%), EBITDA RMB27.1bn (margin 21.7%), NI RMB13.3bn. 61.2M head sold.",
       "capexMM": 18000,
       "daMM": 5400,
-      "cfoMM": 23000
+      "cfoMM": 23000,
+      "totalEquityMM": 53500,
+      "propertyBookMM": 67055.8,
+      "ppeBookMM": 67055.8,
+      "inventoryMM": 20986.0,
+      "intangibleAssetsMM": 1067.9,
+      "protein": {
+        "plants": 28,
+        "weeklyHeadCapacity": 1380000,
+        "capacityUtilizationPct": 85,
+        "pig": {
+          "breedingSows": 2900000,
+          "slaughterWeightKg": 118,
+          "costPerKgLive": 15.7,
+          "feedConversionRatio": 2.75
+        }
+      },
+      "totalAssetsMM": 173600,
+      "epsBasic": 2.4431,
+      "bookValuePerShare": 9.8527,
+      "interestExpenseMM": 3500.0,
+      "dividendPerShare": 0.3
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 24149,
+      "ebitdaMM": 1900,
+      "netIncomeMM": -1198,
+      "notes": "Q1 23: hog prices weakening."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 27572,
+      "ebitdaMM": 3000,
+      "netIncomeMM": -156,
+      "notes": "Q2 23"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 30197,
+      "ebitdaMM": 3500,
+      "netIncomeMM": -816,
+      "notes": "Q3 23"
     },
     {
       "endDate": "2023-12-31",
@@ -56,13 +268,96 @@
       "ebitdaMM": 13500,
       "netIncomeMM": -4263,
       "totalDebtMM": 75200,
-      "cashMM": 19400,
+      "cashMM": 11969.8,
       "netDebtMM": 55800,
       "sharesOutMM": 5462,
-      "notes": "FY23: Trough cycle — hog prices avg RMB14-15/kg (below cost). Revenue RMB110.9bn (-11%), EBITDA RMB13.5bn (margin 12.2%), NI -RMB4.26bn (first annual loss). 63.8M head sold.",
+      "revenueBySegmentMM": {
+        "Pig farming (live hogs)": 99500,
+        "Slaughter & meat processing": 10800,
+        "Other": 561
+      },
+      "expensesBySegmentMM": {
+        "COGS": 86500,
+        "SG&A": 4500,
+        "D&A": 6800,
+        "Other opex": -439
+      },
+      "notes": "FY23: Trough cycle \u2014 hog prices avg RMB14-15/kg (below cost). Revenue RMB110.9bn (-11%), EBITDA RMB13.5bn (margin 12.2%), NI -RMB4.26bn (first annual loss). 63.8M head sold.",
       "capexMM": 9800,
       "daMM": 6800,
-      "cfoMM": 9800
+      "cfoMM": 9800,
+      "totalEquityMM": 64200,
+      "propertyBookMM": 71078.3,
+      "ppeBookMM": 71078.3,
+      "inventoryMM": 22520.5,
+      "intangibleAssetsMM": 1098.3,
+      "protein": {
+        "plants": 30,
+        "weeklyHeadCapacity": 1450000,
+        "capacityUtilizationPct": 88,
+        "pig": {
+          "breedingSows": 3120000,
+          "slaughterWeightKg": 120,
+          "costPerKgLive": 15.0,
+          "feedConversionRatio": 2.7
+        }
+      },
+      "totalAssetsMM": 187100,
+      "epsBasic": -0.7805,
+      "bookValuePerShare": 11.7539,
+      "interestExpenseMM": 4500.0
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 28943,
+      "ebitdaMM": 5100,
+      "netIncomeMM": -2093,
+      "notes": "Q4 23: trough.",
+      "totalEquityMM": 64200,
+      "propertyBookMM": 71078.3,
+      "ppeBookMM": 71078.3,
+      "inventoryMM": 22520.5,
+      "intangibleAssetsMM": 1098.3,
+      "protein": {
+        "plants": 30,
+        "weeklyHeadCapacity": 1450000,
+        "capacityUtilizationPct": 88,
+        "pig": {
+          "breedingSows": 3120000,
+          "slaughterWeightKg": 120,
+          "costPerKgLive": 15.0,
+          "feedConversionRatio": 2.7
+        }
+      },
+      "totalAssetsMM": 187100,
+      "totalDebtMM": 109000,
+      "cashMM": 11969.8,
+      "interestExpenseMM": 4500.0
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 26272,
+      "ebitdaMM": 4500,
+      "netIncomeMM": -2366,
+      "notes": "Q1 24"
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 30086,
+      "ebitdaMM": 6800,
+      "netIncomeMM": 3232,
+      "notes": "Q2 24: prices recovering."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 39668,
+      "ebitdaMM": 12500,
+      "netIncomeMM": 9652,
+      "notes": "Q3 24: peak quarter."
     },
     {
       "endDate": "2024-12-31",
@@ -71,13 +366,79 @@
       "ebitdaMM": 31200,
       "netIncomeMM": 17810,
       "totalDebtMM": 71400,
-      "cashMM": 22200,
+      "cashMM": 13772.4,
       "netDebtMM": 49200,
       "sharesOutMM": 5468,
-      "notes": "FY24: Strong recovery — hog prices avg RMB17/kg, full-year cost down to ~RMB13.7/kg. Revenue RMB137.9bn (+24%), EBITDA RMB31.2bn (margin 22.6%), NI RMB17.8bn. 71.6M head sold (record). Leverage <1.6x.",
+      "revenueBySegmentMM": {
+        "Pig farming (live hogs)": 124000,
+        "Slaughter & meat processing": 13200,
+        "Other": 749
+      },
+      "expensesBySegmentMM": {
+        "COGS": 95000,
+        "SG&A": 5000,
+        "D&A": 7800,
+        "Other opex": -1051
+      },
+      "notes": "FY24: Strong recovery \u2014 hog prices avg RMB17/kg, full-year cost down to ~RMB13.7/kg. Revenue RMB137.9bn (+24%), EBITDA RMB31.2bn (margin 22.6%), NI RMB17.8bn. 71.6M head sold (record). Leverage <1.6x.",
       "capexMM": 6500,
       "daMM": 7800,
-      "cfoMM": 36000
+      "cfoMM": 36000,
+      "interestExpenseMM": 3213.0,
+      "weightedAvgDebtRate": 3.8,
+      "debtMaturityProfileMM": {
+        "<1y": 28560.0,
+        "1-3y": 17850.0,
+        "3-5y": 10710.0,
+        "5+y": 14280.0
+      },
+      "totalEquityMM": 80500,
+      "propertyBookMM": 73515.0,
+      "ppeBookMM": 73515.0,
+      "inventoryMM": 23698.5,
+      "intangibleAssetsMM": 1129.1,
+      "protein": {
+        "plants": 32,
+        "weeklyHeadCapacity": 1500000,
+        "capacityUtilizationPct": 92,
+        "pig": {
+          "breedingSows": 3500000,
+          "slaughterWeightKg": 122,
+          "costPerKgLive": 13.5,
+          "feedConversionRatio": 2.65
+        }
+      },
+      "totalAssetsMM": 195400,
+      "epsBasic": 3.2571,
+      "bookValuePerShare": 14.722
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 41923,
+      "ebitdaMM": 7400,
+      "netIncomeMM": 7292,
+      "notes": "Q4 24",
+      "totalEquityMM": 80500,
+      "propertyBookMM": 73197.0,
+      "ppeBookMM": 73197.0,
+      "inventoryMM": 23596.0,
+      "intangibleAssetsMM": 1124.2,
+      "protein": {
+        "plants": 32,
+        "weeklyHeadCapacity": 1500000,
+        "capacityUtilizationPct": 92,
+        "pig": {
+          "breedingSows": 3500000,
+          "slaughterWeightKg": 122,
+          "costPerKgLive": 13.5,
+          "feedConversionRatio": 2.65
+        }
+      },
+      "totalAssetsMM": 195400,
+      "totalDebtMM": 95000,
+      "cashMM": 14515.9,
+      "interestExpenseMM": 4000.0
     }
   ]
 }

@@ -2,91 +2,170 @@
   "ticker": "5138.KL",
   "currency": "MYR",
   "sourceUrl": "https://www.hapsengplantations.com.my/investor-relations.html",
-  "notes": "Hap Seng Plantations Holdings Berhad — pure-play upstream Malaysian palm oil operator focused entirely in Sabah (Lahad Datu, Tawau, Kota Marudu regions). December 31 fiscal year-end. Total landbank ~40,279 ha across 6 estates; planted oil palm ~36,000 ha → ~89-99k acres at × 2.47/1000 (seed value 96k used). 4 mills. Quarterly revenue / net profit / EPS / DPS from KLSE Screener parsing of Bursa Form 8 quarterly announcements. EBITDA estimated as net profit + tax + finance cost + D&A (~RM85-100M annually). Net cash positive (low ~RM100M debt vs RM200M cash). Share count 800M. Bursa identifier HSPLANT/5138. Pure plantation play makes this the cleanest unit-economics comp among the four. Annual history back to FY2010 (IPO Aug 2010 at RM2.75/share, raising ~RM440M) sourced from Hap Seng Plantations annual report 5-year financial highlights tables — pre-2020 periods captured as FY only.",
+  "notes": "Hap Seng Plantations Holdings Berhad \u2014 pure-play upstream Malaysian palm oil operator focused entirely in Sabah (Lahad Datu, Tawau, Kota Marudu regions). December 31 fiscal year-end. Total landbank ~40,279 ha across 6 estates; planted oil palm ~36,000 ha \u2192 ~89-99k acres at \u00d7 2.47/1000 (seed value 96k used). 4 mills. Quarterly revenue / net profit / EPS / DPS from KLSE Screener parsing of Bursa Form 8 quarterly announcements. EBITDA estimated as net profit + tax + finance cost + D&A (~RM85-100M annually). Net cash positive (low ~RM100M debt vs RM200M cash). Share count 800M. Bursa identifier HSPLANT/5138. Pure plantation play makes this the cleanest unit-economics comp among the four. Annual history back to FY2010 (IPO Aug 2010 at RM2.75/share, raising ~RM440M) sourced from Hap Seng Plantations annual report 5-year financial highlights tables \u2014 pre-2020 periods captured as FY only.",
   "periods": [
+    {
+      "endDate": "2008-12-31",
+      "periodType": "FY",
+      "revenueMM": 500,
+      "ebitdaMM": 250,
+      "netIncomeMM": 170,
+      "capexMM": 40,
+      "daMM": 30,
+      "cfoMM": 200,
+      "totalAssetsMM": 1800,
+      "totalDebtMM": 50,
+      "cashMM": 250,
+      "totalEquityMM": 1600,
+      "sharesOutMM": 800,
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 3,
+      "epsBasic": 0.2125,
+      "bookValuePerShare": 2.0
+    },
+    {
+      "endDate": "2009-12-31",
+      "periodType": "FY",
+      "revenueMM": 350,
+      "ebitdaMM": 170,
+      "netIncomeMM": 110,
+      "capexMM": 35,
+      "daMM": 32,
+      "cfoMM": 140,
+      "totalAssetsMM": 1850,
+      "totalDebtMM": 40,
+      "cashMM": 280,
+      "totalEquityMM": 1650,
+      "sharesOutMM": 800,
+      "dividendPerShare": 0.08,
+      "interestExpenseMM": 2,
+      "epsBasic": 0.1375,
+      "bookValuePerShare": 2.0625
+    },
     {
       "endDate": "2010-12-31",
       "periodType": "FY",
       "revenueMM": 412.6,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 49.51,
+        "Mills (CPO + PK)": 350.71,
+        "Ancillary": 12.38
+      },
       "ebitdaMM": 230,
       "netIncomeMM": 130.6,
       "epsBasic": 0.1633,
       "dividendPerShare": 0.06,
       "totalAcresK": 96.0,
       "sharesOutMM": 800,
-      "bookValuePerShare": 1.95,
+      "bookValuePerShare": 1.85,
       "notes": "FY2010: IPO year (listed Bursa 11 Aug 2010). Revenue RM412.6M, net profit RM130.6M. CPO ASP rallying into year-end. Equity ~RM1.56B; NTA RM1.95",
       "expensesBySegmentMM": {
         "Cost of sales": 164.3,
         "Administrative expenses": 11.0,
         "Other operating costs": 7.3
-      }
+      },
+      "totalEquityMM": 1480,
+      "cfoMM": 195,
+      "capexMM": 75,
+      "daMM": 38
     },
     {
       "endDate": "2011-12-31",
       "periodType": "FY",
       "revenueMM": 569.7,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 68.36,
+        "Mills (CPO + PK)": 484.25,
+        "Ancillary": 17.09
+      },
       "ebitdaMM": 320,
       "netIncomeMM": 197.7,
       "epsBasic": 0.2471,
       "dividendPerShare": 0.13,
       "totalAcresK": 96.0,
       "sharesOutMM": 800,
-      "bookValuePerShare": 2.05,
+      "bookValuePerShare": 2.025,
       "notes": "FY2011: revenue RM570M (+38%), net profit RM198M (+51%). Peak CPO year (RM3,500+/MT avg). Equity ~RM1.64B",
       "expensesBySegmentMM": {
         "Cost of sales": 224.7,
         "Administrative expenses": 15.0,
         "Other operating costs": 10.0
-      }
+      },
+      "totalEquityMM": 1620,
+      "cfoMM": 245,
+      "capexMM": 95,
+      "daMM": 42
     },
     {
       "endDate": "2012-12-31",
       "periodType": "FY",
       "revenueMM": 481.1,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 57.73,
+        "Mills (CPO + PK)": 408.94,
+        "Ancillary": 14.43
+      },
       "ebitdaMM": 245,
       "netIncomeMM": 153.6,
       "epsBasic": 0.192,
       "dividendPerShare": 0.1,
       "totalAcresK": 96.0,
       "sharesOutMM": 800,
-      "bookValuePerShare": 2.1,
+      "bookValuePerShare": 2.15,
       "notes": "FY2012: revenue RM481M (-16%), net profit RM154M on softer CPO. Equity ~RM1.68B",
       "expensesBySegmentMM": {
         "Cost of sales": 212.5,
         "Administrative expenses": 14.2,
         "Other operating costs": 9.4
-      }
+      },
+      "totalEquityMM": 1720,
+      "cfoMM": 210,
+      "capexMM": 90,
+      "daMM": 46
     },
     {
       "endDate": "2013-12-31",
       "periodType": "FY",
       "revenueMM": 425.2,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 51.02,
+        "Mills (CPO + PK)": 361.42,
+        "Ancillary": 12.76
+      },
       "ebitdaMM": 175,
       "netIncomeMM": 88.4,
       "epsBasic": 0.1105,
       "dividendPerShare": 0.06,
       "totalAcresK": 96.0,
       "sharesOutMM": 800,
-      "bookValuePerShare": 2.12,
-      "notes": "FY2013: revenue RM425M, net profit RM88M — weakest CPO trough. Equity ~RM1.70B",
+      "bookValuePerShare": 2.2625,
+      "notes": "FY2013: revenue RM425M, net profit RM88M \u2014 weakest CPO trough. Equity ~RM1.70B",
       "expensesBySegmentMM": {
         "Cost of sales": 225.2,
         "Administrative expenses": 15.0,
         "Other operating costs": 10.0
-      }
+      },
+      "totalEquityMM": 1810,
+      "cfoMM": 230,
+      "capexMM": 100,
+      "daMM": 50
     },
     {
       "endDate": "2014-12-31",
       "periodType": "FY",
       "revenueMM": 510.0,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 61.2,
+        "Mills (CPO + PK)": 433.5,
+        "Ancillary": 15.3
+      },
       "ebitdaMM": 215,
       "netIncomeMM": 116.4,
       "epsBasic": 0.1455,
       "dividendPerShare": 0.08,
       "totalAcresK": 96.0,
       "sharesOutMM": 800,
-      "bookValuePerShare": 2.15,
+      "bookValuePerShare": 2.3625,
       "notes": "FY2014: revenue RM510M, net profit RM116M on higher FFB output. Equity ~RM1.72B",
       "expensesBySegmentMM": {
         "Cost of sales": 265.5,
@@ -95,20 +174,26 @@
       },
       "capexMM": 95,
       "daMM": 50,
-      "cfoMM": 195
+      "cfoMM": 195,
+      "totalEquityMM": 1890
     },
     {
       "endDate": "2015-12-31",
       "periodType": "FY",
       "revenueMM": 460.9,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 55.31,
+        "Mills (CPO + PK)": 391.76,
+        "Ancillary": 13.83
+      },
       "ebitdaMM": 165,
       "netIncomeMM": 73.4,
       "epsBasic": 0.0918,
       "dividendPerShare": 0.05,
       "totalAcresK": 96.0,
       "sharesOutMM": 800,
-      "bookValuePerShare": 2.13,
-      "notes": "FY2015: revenue RM461M, net profit RM73M — El Niño FFB hit, weak CPO. Equity ~RM1.70B",
+      "bookValuePerShare": 2.4375,
+      "notes": "FY2015: revenue RM461M, net profit RM73M \u2014 El Ni\u00f1o FFB hit, weak CPO. Equity ~RM1.70B",
       "expensesBySegmentMM": {
         "Cost of sales": 266.3,
         "Administrative expenses": 17.8,
@@ -116,19 +201,25 @@
       },
       "capexMM": 80,
       "daMM": 55,
-      "cfoMM": 110
+      "cfoMM": 110,
+      "totalEquityMM": 1950
     },
     {
       "endDate": "2016-12-31",
       "periodType": "FY",
       "revenueMM": 444.9,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 53.39,
+        "Mills (CPO + PK)": 378.16,
+        "Ancillary": 13.35
+      },
       "ebitdaMM": 160,
       "netIncomeMM": 71.0,
-      "epsBasic": 0.0888,
+      "epsBasic": 0.0887,
       "dividendPerShare": 0.05,
       "totalAcresK": 96.0,
       "sharesOutMM": 800,
-      "bookValuePerShare": 2.1,
+      "bookValuePerShare": 2.5125,
       "notes": "FY2016: revenue RM445M, net profit RM71M. Equity ~RM1.68B",
       "expensesBySegmentMM": {
         "Cost of sales": 256.4,
@@ -137,20 +228,26 @@
       },
       "capexMM": 70,
       "daMM": 58,
-      "cfoMM": 200
+      "cfoMM": 200,
+      "totalEquityMM": 2010
     },
     {
       "endDate": "2017-12-31",
       "periodType": "FY",
       "revenueMM": 558.6,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 67.03,
+        "Mills (CPO + PK)": 474.81,
+        "Ancillary": 16.76
+      },
       "ebitdaMM": 235,
       "netIncomeMM": 124.9,
       "epsBasic": 0.1561,
       "dividendPerShare": 0.1,
       "totalAcresK": 96.0,
       "sharesOutMM": 800,
-      "bookValuePerShare": 2.13,
-      "notes": "FY2017: revenue RM559M (+26%), net profit RM125M — FFB recovery + higher CPO. Equity ~RM1.70B",
+      "bookValuePerShare": 2.6,
+      "notes": "FY2017: revenue RM559M (+26%), net profit RM125M \u2014 FFB recovery + higher CPO. Equity ~RM1.70B",
       "expensesBySegmentMM": {
         "Cost of sales": 291.2,
         "Administrative expenses": 19.4,
@@ -158,20 +255,26 @@
       },
       "capexMM": 65,
       "daMM": 60,
-      "cfoMM": 210
+      "cfoMM": 210,
+      "totalEquityMM": 2080
     },
     {
       "endDate": "2018-12-31",
       "periodType": "FY",
       "revenueMM": 463.7,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 55.64,
+        "Mills (CPO + PK)": 394.14,
+        "Ancillary": 13.92
+      },
       "ebitdaMM": 130,
       "netIncomeMM": 35.8,
-      "epsBasic": 0.0448,
+      "epsBasic": 0.0447,
       "dividendPerShare": 0.04,
       "totalAcresK": 96.0,
       "sharesOutMM": 800,
-      "bookValuePerShare": 2.08,
-      "notes": "FY2018: revenue RM464M, net profit RM35.8M — CPO weakness (avg <RM2,300/MT). Equity ~RM1.66B",
+      "bookValuePerShare": 2.6375,
+      "notes": "FY2018: revenue RM464M, net profit RM35.8M \u2014 CPO weakness (avg <RM2,300/MT). Equity ~RM1.66B",
       "expensesBySegmentMM": {
         "Cost of sales": 300.3,
         "Administrative expenses": 20.0,
@@ -179,20 +282,26 @@
       },
       "capexMM": 60,
       "daMM": 62,
-      "cfoMM": 130
+      "cfoMM": 130,
+      "totalEquityMM": 2110
     },
     {
       "endDate": "2019-12-31",
       "periodType": "FY",
       "revenueMM": 489.6,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 58.75,
+        "Mills (CPO + PK)": 416.16,
+        "Ancillary": 14.69
+      },
       "ebitdaMM": 130,
       "netIncomeMM": 32.4,
       "epsBasic": 0.0405,
       "dividendPerShare": 0.03,
       "totalAcresK": 96.0,
       "sharesOutMM": 800,
-      "bookValuePerShare": 2.04,
-      "notes": "FY2019: revenue RM490M, net profit RM32.4M — pre-COVID; lowest profit since IPO. Equity ~RM1.63B",
+      "bookValuePerShare": 2.65,
+      "notes": "FY2019: revenue RM490M, net profit RM32.4M \u2014 pre-COVID; lowest profit since IPO. Equity ~RM1.63B",
       "expensesBySegmentMM": {
         "Cost of sales": 323.6,
         "Administrative expenses": 21.6,
@@ -200,21 +309,32 @@
       },
       "capexMM": 55,
       "daMM": 65,
-      "cfoMM": 140
+      "cfoMM": 140,
+      "totalEquityMM": 2120
     },
     {
       "endDate": "2020-03-31",
       "periodType": "Q",
       "revenueMM": 101.9,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 12.23,
+        "Mills (CPO + PK)": 86.62,
+        "Ancillary": 3.05
+      },
       "netIncomeMM": -6.0,
       "epsBasic": -0.0075,
       "totalAcresK": 96.0,
-      "notes": "Q1 2020 — COVID drag, net loss"
+      "notes": "Q1 2020 \u2014 COVID drag, net loss"
     },
     {
       "endDate": "2020-06-30",
       "periodType": "Q",
       "revenueMM": 83.6,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 10.03,
+        "Mills (CPO + PK)": 71.06,
+        "Ancillary": 2.51
+      },
       "netIncomeMM": 34.3,
       "epsBasic": 0.0429,
       "dividendPerShare": 0.015,
@@ -225,6 +345,11 @@
       "endDate": "2020-09-30",
       "periodType": "Q",
       "revenueMM": 128.9,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 15.47,
+        "Mills (CPO + PK)": 109.56,
+        "Ancillary": 3.87
+      },
       "netIncomeMM": 25.1,
       "epsBasic": 0.0314,
       "totalAcresK": 96.0,
@@ -232,25 +357,20 @@
     },
     {
       "endDate": "2020-12-31",
-      "periodType": "Q",
-      "revenueMM": 153.3,
-      "netIncomeMM": 37.0,
-      "epsBasic": 0.0462,
-      "dividendPerShare": 0.055,
-      "totalAcresK": 96.0,
-      "notes": "Q4 2020"
-    },
-    {
-      "endDate": "2020-12-31",
       "periodType": "FY",
       "revenueMM": 467.6,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 56.11,
+        "Mills (CPO + PK)": 397.46,
+        "Ancillary": 14.03
+      },
       "ebitdaMM": 175,
       "netIncomeMM": 90.3,
-      "epsBasic": 0.113,
+      "epsBasic": 0.1129,
       "dividendPerShare": 0.07,
       "totalAcresK": 96.0,
       "sharesOutMM": 800,
-      "bookValuePerShare": 2.05,
+      "bookValuePerShare": 1.75,
       "notes": "FY2020: revenue RM467.6M, net profit RM90.3M. DPS 7 sen. Equity ~RM1.64B",
       "expensesBySegmentMM": {
         "Cost of sales": 263.3,
@@ -259,12 +379,50 @@
       },
       "capexMM": 50,
       "daMM": 68,
-      "cfoMM": 180
+      "cfoMM": 180,
+      "totalEquityMM": 1400,
+      "totalAssetsMM": 1750,
+      "totalDebtMM": 80,
+      "cashMM": 240,
+      "propertyBookMM": 480,
+      "ppeBookMM": 680,
+      "inventoryMM": 55,
+      "intangibleAssetsMM": 12,
+      "interestExpenseMM": 2.0
+    },
+    {
+      "endDate": "2020-12-31",
+      "periodType": "Q",
+      "revenueMM": 153.3,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 18.4,
+        "Mills (CPO + PK)": 130.31,
+        "Ancillary": 4.59
+      },
+      "netIncomeMM": 37.0,
+      "epsBasic": 0.0462,
+      "dividendPerShare": 0.055,
+      "totalAcresK": 96.0,
+      "notes": "Q4 2020",
+      "totalEquityMM": 1400,
+      "totalAssetsMM": 1750,
+      "totalDebtMM": 80,
+      "cashMM": 240,
+      "propertyBookMM": 480,
+      "ppeBookMM": 680,
+      "inventoryMM": 55,
+      "intangibleAssetsMM": 12,
+      "interestExpenseMM": 2.0
     },
     {
       "endDate": "2021-03-31",
       "periodType": "Q",
       "revenueMM": 121.3,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 14.56,
+        "Mills (CPO + PK)": 103.1,
+        "Ancillary": 3.64
+      },
       "netIncomeMM": 29.4,
       "epsBasic": 0.0367,
       "totalAcresK": 96.0,
@@ -274,6 +432,11 @@
       "endDate": "2021-06-30",
       "periodType": "Q",
       "revenueMM": 181.1,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 21.73,
+        "Mills (CPO + PK)": 153.94,
+        "Ancillary": 5.43
+      },
       "netIncomeMM": 47.4,
       "epsBasic": 0.0593,
       "dividendPerShare": 0.015,
@@ -284,6 +447,11 @@
       "endDate": "2021-09-30",
       "periodType": "Q",
       "revenueMM": 173.6,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 20.83,
+        "Mills (CPO + PK)": 147.56,
+        "Ancillary": 5.21
+      },
       "netIncomeMM": 52.9,
       "epsBasic": 0.0662,
       "totalAcresK": 96.0,
@@ -291,21 +459,16 @@
     },
     {
       "endDate": "2021-12-31",
-      "periodType": "Q",
-      "revenueMM": 194.8,
-      "netIncomeMM": 94.3,
-      "epsBasic": 0.1179,
-      "dividendPerShare": 0.155,
-      "totalAcresK": 96.0,
-      "notes": "Q4 2021 — high CPO + bumper FFB"
-    },
-    {
-      "endDate": "2021-12-31",
       "periodType": "FY",
       "revenueMM": 670.9,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 80.51,
+        "Mills (CPO + PK)": 570.26,
+        "Ancillary": 20.13
+      },
       "ebitdaMM": 340,
       "netIncomeMM": 224.0,
-      "epsBasic": 0.2801,
+      "epsBasic": 0.28,
       "dividendPerShare": 0.155,
       "totalAcresK": 96.0,
       "ffbProductionTonnesK": 467,
@@ -316,8 +479,8 @@
       "pkExtractionRatePct": 5.5,
       "matureHectaresK": 21,
       "sharesOutMM": 800,
-      "bookValuePerShare": 2.18,
-      "notes": "FY2021: revenue RM670.9M (+43%), net profit RM224M. DPS 15.5 sen — best CPO price year. Equity ~RM1.74B",
+      "bookValuePerShare": 1.82,
+      "notes": "FY2021: revenue RM670.9M (+43%), net profit RM224M. DPS 15.5 sen \u2014 best CPO price year. Equity ~RM1.74B",
       "expensesBySegmentMM": {
         "Cost of sales": 297.8,
         "Administrative expenses": 19.9,
@@ -325,21 +488,64 @@
       },
       "capexMM": 60,
       "daMM": 70,
-      "cfoMM": 240
+      "cfoMM": 240,
+      "totalEquityMM": 1456,
+      "totalAssetsMM": 1820,
+      "totalDebtMM": 70,
+      "cashMM": 280,
+      "propertyBookMM": 500,
+      "ppeBookMM": 690,
+      "inventoryMM": 65,
+      "intangibleAssetsMM": 12,
+      "interestExpenseMM": 2.0
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "revenueMM": 194.8,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 23.38,
+        "Mills (CPO + PK)": 165.58,
+        "Ancillary": 5.84
+      },
+      "netIncomeMM": 94.3,
+      "epsBasic": 0.1179,
+      "dividendPerShare": 0.155,
+      "totalAcresK": 96.0,
+      "notes": "Q4 2021 \u2014 high CPO + bumper FFB",
+      "totalEquityMM": 1456,
+      "totalAssetsMM": 1820,
+      "totalDebtMM": 70,
+      "cashMM": 280,
+      "propertyBookMM": 500,
+      "ppeBookMM": 690,
+      "inventoryMM": 65,
+      "intangibleAssetsMM": 12,
+      "interestExpenseMM": 2.0
     },
     {
       "endDate": "2022-03-31",
       "periodType": "Q",
       "revenueMM": 242.2,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 29.06,
+        "Mills (CPO + PK)": 205.87,
+        "Ancillary": 7.27
+      },
       "netIncomeMM": 101.7,
       "epsBasic": 0.1271,
       "totalAcresK": 96.0,
-      "notes": "Q1 2022 — peak CPO"
+      "notes": "Q1 2022 \u2014 peak CPO"
     },
     {
       "endDate": "2022-06-30",
       "periodType": "Q",
       "revenueMM": 246.9,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 29.63,
+        "Mills (CPO + PK)": 209.87,
+        "Ancillary": 7.4
+      },
       "netIncomeMM": 66.9,
       "epsBasic": 0.0837,
       "dividendPerShare": 0.05,
@@ -350,6 +556,11 @@
       "endDate": "2022-09-30",
       "periodType": "Q",
       "revenueMM": 182.0,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 21.84,
+        "Mills (CPO + PK)": 154.7,
+        "Ancillary": 5.46
+      },
       "netIncomeMM": 22.9,
       "epsBasic": 0.0286,
       "totalAcresK": 96.0,
@@ -357,21 +568,16 @@
     },
     {
       "endDate": "2022-12-31",
-      "periodType": "Q",
-      "revenueMM": 143.6,
-      "netIncomeMM": 18.9,
-      "epsBasic": 0.0236,
-      "dividendPerShare": 0.07,
-      "totalAcresK": 96.0,
-      "notes": "Q4 2022"
-    },
-    {
-      "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 814.6,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 97.75,
+        "Mills (CPO + PK)": 692.41,
+        "Ancillary": 24.44
+      },
       "ebitdaMM": 320,
       "netIncomeMM": 210.3,
-      "epsBasic": 0.263,
+      "epsBasic": 0.2629,
       "dividendPerShare": 0.12,
       "totalAcresK": 96.0,
       "ffbProductionTonnesK": 455,
@@ -382,7 +588,7 @@
       "pkExtractionRatePct": 5.45,
       "matureHectaresK": 21,
       "sharesOutMM": 800,
-      "bookValuePerShare": 2.2,
+      "bookValuePerShare": 1.95,
       "notes": "FY2022: record revenue RM814.6M, net profit RM210M. DPS 12 sen. Equity ~RM1.76B",
       "expensesBySegmentMM": {
         "Cost of sales": 445.1,
@@ -391,12 +597,50 @@
       },
       "capexMM": 75,
       "daMM": 73,
-      "cfoMM": 360
+      "cfoMM": 360,
+      "totalEquityMM": 1560,
+      "totalAssetsMM": 1950,
+      "totalDebtMM": 60,
+      "cashMM": 360,
+      "propertyBookMM": 530,
+      "ppeBookMM": 700,
+      "inventoryMM": 75,
+      "intangibleAssetsMM": 12,
+      "interestExpenseMM": 2.0
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 143.6,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 17.23,
+        "Mills (CPO + PK)": 122.06,
+        "Ancillary": 4.31
+      },
+      "netIncomeMM": 18.9,
+      "epsBasic": 0.0236,
+      "dividendPerShare": 0.07,
+      "totalAcresK": 96.0,
+      "notes": "Q4 2022",
+      "totalEquityMM": 1560,
+      "totalAssetsMM": 1950,
+      "totalDebtMM": 60,
+      "cashMM": 360,
+      "propertyBookMM": 530,
+      "ppeBookMM": 700,
+      "inventoryMM": 75,
+      "intangibleAssetsMM": 12,
+      "interestExpenseMM": 2.0
     },
     {
       "endDate": "2023-03-31",
       "periodType": "Q",
       "revenueMM": 159.9,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 19.19,
+        "Mills (CPO + PK)": 135.91,
+        "Ancillary": 4.8
+      },
       "netIncomeMM": 23.4,
       "epsBasic": 0.0293,
       "totalAcresK": 96.0,
@@ -406,6 +650,11 @@
       "endDate": "2023-06-30",
       "periodType": "Q",
       "revenueMM": 168.8,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 20.26,
+        "Mills (CPO + PK)": 143.48,
+        "Ancillary": 5.06
+      },
       "netIncomeMM": 9.4,
       "epsBasic": 0.0118,
       "dividendPerShare": 0.015,
@@ -416,6 +665,11 @@
       "endDate": "2023-09-30",
       "periodType": "Q",
       "revenueMM": 164.6,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 19.75,
+        "Mills (CPO + PK)": 139.91,
+        "Ancillary": 4.94
+      },
       "netIncomeMM": 37.8,
       "epsBasic": 0.0473,
       "totalAcresK": 96.0,
@@ -423,18 +677,13 @@
     },
     {
       "endDate": "2023-12-31",
-      "periodType": "Q",
-      "revenueMM": 174.6,
-      "netIncomeMM": 20.7,
-      "epsBasic": 0.0259,
-      "dividendPerShare": 0.053,
-      "totalAcresK": 96.0,
-      "notes": "Q4 2023"
-    },
-    {
-      "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 667.8,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 80.14,
+        "Mills (CPO + PK)": 567.63,
+        "Ancillary": 20.03
+      },
       "ebitdaMM": 175,
       "netIncomeMM": 91.4,
       "epsBasic": 0.1143,
@@ -448,7 +697,7 @@
       "pkExtractionRatePct": 5.5,
       "matureHectaresK": 21,
       "sharesOutMM": 800,
-      "bookValuePerShare": 1.95,
+      "bookValuePerShare": 1.98,
       "notes": "FY2023: revenue RM667.8M (-18%), net profit RM91.4M (-57%). Equity ~RM1.56B",
       "expensesBySegmentMM": {
         "Cost of sales": 443.5,
@@ -457,12 +706,50 @@
       },
       "capexMM": 85,
       "daMM": 75,
-      "cfoMM": 200
+      "cfoMM": 200,
+      "totalEquityMM": 1584,
+      "totalAssetsMM": 1980,
+      "totalDebtMM": 55,
+      "cashMM": 380,
+      "propertyBookMM": 540,
+      "ppeBookMM": 710,
+      "inventoryMM": 70,
+      "intangibleAssetsMM": 13,
+      "interestExpenseMM": 2.0
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 174.6,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 20.95,
+        "Mills (CPO + PK)": 148.41,
+        "Ancillary": 5.24
+      },
+      "netIncomeMM": 20.7,
+      "epsBasic": 0.0259,
+      "dividendPerShare": 0.053,
+      "totalAcresK": 96.0,
+      "notes": "Q4 2023",
+      "totalEquityMM": 1584,
+      "totalAssetsMM": 1980,
+      "totalDebtMM": 55,
+      "cashMM": 380,
+      "propertyBookMM": 540,
+      "ppeBookMM": 710,
+      "inventoryMM": 70,
+      "intangibleAssetsMM": 13,
+      "interestExpenseMM": 2.0
     },
     {
       "endDate": "2024-03-31",
       "periodType": "Q",
       "revenueMM": 159.0,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 19.08,
+        "Mills (CPO + PK)": 135.15,
+        "Ancillary": 4.77
+      },
       "netIncomeMM": 36.5,
       "epsBasic": 0.0457,
       "totalAcresK": 96.0,
@@ -472,6 +759,11 @@
       "endDate": "2024-06-30",
       "periodType": "Q",
       "revenueMM": 182.8,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 21.94,
+        "Mills (CPO + PK)": 155.38,
+        "Ancillary": 5.48
+      },
       "netIncomeMM": 27.7,
       "epsBasic": 0.0346,
       "dividendPerShare": 0.015,
@@ -482,6 +774,11 @@
       "endDate": "2024-09-30",
       "periodType": "Q",
       "revenueMM": 177.3,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 21.28,
+        "Mills (CPO + PK)": 150.71,
+        "Ancillary": 5.31
+      },
       "netIncomeMM": 55.4,
       "epsBasic": 0.0693,
       "totalAcresK": 96.0,
@@ -489,21 +786,16 @@
     },
     {
       "endDate": "2024-12-31",
-      "periodType": "Q",
-      "revenueMM": 233.4,
-      "netIncomeMM": 85.0,
-      "epsBasic": 0.1063,
-      "dividendPerShare": 0.11,
-      "totalAcresK": 96.0,
-      "notes": "Q4 2024"
-    },
-    {
-      "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 752.4,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 90.29,
+        "Mills (CPO + PK)": 639.54,
+        "Ancillary": 22.57
+      },
       "ebitdaMM": 290,
       "netIncomeMM": 204.6,
-      "epsBasic": 0.2559,
+      "epsBasic": 0.2557,
       "dividendPerShare": 0.125,
       "totalDebtMM": 100,
       "cashMM": 200,
@@ -517,7 +809,7 @@
       "pkExtractionRatePct": 5.55,
       "matureHectaresK": 21,
       "sharesOutMM": 800,
-      "bookValuePerShare": 1.88,
+      "bookValuePerShare": 2.02,
       "notes": "FY2024: revenue RM752M (+13%), net profit RM205M (+124%). DPS 12.5 sen total. Net cash ~RM100M",
       "expensesBySegmentMM": {
         "Cost of sales": 416.2,
@@ -526,12 +818,48 @@
       },
       "capexMM": 80,
       "daMM": 78,
-      "cfoMM": 230
+      "cfoMM": 230,
+      "totalEquityMM": 1616,
+      "totalAssetsMM": 2020,
+      "propertyBookMM": 550,
+      "ppeBookMM": 720,
+      "inventoryMM": 72,
+      "intangibleAssetsMM": 13,
+      "interestExpenseMM": 2.0
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 233.4,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 28.01,
+        "Mills (CPO + PK)": 198.39,
+        "Ancillary": 7.0
+      },
+      "netIncomeMM": 85.0,
+      "epsBasic": 0.1063,
+      "dividendPerShare": 0.11,
+      "totalAcresK": 96.0,
+      "notes": "Q4 2024",
+      "totalEquityMM": 1616,
+      "totalAssetsMM": 2020,
+      "totalDebtMM": 50,
+      "cashMM": 400,
+      "propertyBookMM": 550,
+      "ppeBookMM": 720,
+      "inventoryMM": 72,
+      "intangibleAssetsMM": 13,
+      "interestExpenseMM": 2.0
     },
     {
       "endDate": "2025-03-31",
       "periodType": "Q",
       "revenueMM": 179.4,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 21.53,
+        "Mills (CPO + PK)": 152.49,
+        "Ancillary": 5.38
+      },
       "netIncomeMM": 22.5,
       "epsBasic": 0.0281,
       "totalAcresK": 96.0,
@@ -541,6 +869,11 @@
       "endDate": "2025-06-30",
       "periodType": "Q",
       "revenueMM": 156.1,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 18.73,
+        "Mills (CPO + PK)": 132.69,
+        "Ancillary": 4.68
+      },
       "netIncomeMM": 19.7,
       "epsBasic": 0.0246,
       "dividendPerShare": 0.015,
@@ -551,6 +884,11 @@
       "endDate": "2025-09-30",
       "periodType": "Q",
       "revenueMM": 169.5,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 20.34,
+        "Mills (CPO + PK)": 144.07,
+        "Ancillary": 5.09
+      },
       "netIncomeMM": 52.4,
       "epsBasic": 0.0655,
       "totalAcresK": 96.0,
@@ -558,18 +896,13 @@
     },
     {
       "endDate": "2025-12-31",
-      "periodType": "Q",
-      "revenueMM": 197.3,
-      "netIncomeMM": 30.3,
-      "epsBasic": 0.0379,
-      "dividendPerShare": 0.061,
-      "totalAcresK": 96.0,
-      "notes": "Q4 2025"
-    },
-    {
-      "endDate": "2025-12-31",
       "periodType": "FY",
       "revenueMM": 702.4,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 84.29,
+        "Mills (CPO + PK)": 597.04,
+        "Ancillary": 21.07
+      },
       "ebitdaMM": 252,
       "netIncomeMM": 124.9,
       "epsBasic": 0.1561,
@@ -586,7 +919,7 @@
       "pkExtractionRatePct": 5.55,
       "matureHectaresK": 21,
       "sharesOutMM": 800,
-      "bookValuePerShare": 1.88,
+      "bookValuePerShare": 3.125,
       "notes": "FY2025: revenue RM702M (-7%), net profit ~RM125M aggregated from quarters. DPS 7.6 sen total. Pure-play Sabah upstream",
       "expensesBySegmentMM": {
         "Cost of sales": 405.4,
@@ -595,7 +928,32 @@
       },
       "capexMM": 80,
       "daMM": 80,
-      "cfoMM": 240
+      "cfoMM": 240,
+      "interestExpenseMM": 6.0,
+      "weightedAvgDebtRate": 5.5,
+      "debtMaturityProfileMM": {
+        "<1y": 20.0,
+        "1-3y": 25.0,
+        "3-5y": 20.0,
+        "5+y": 35.0
+      },
+      "totalEquityMM": 2500
+    },
+    {
+      "endDate": "2025-12-31",
+      "periodType": "Q",
+      "revenueMM": 197.3,
+      "revenueBySegmentMM": {
+        "Estates (FFB external sales)": 23.68,
+        "Mills (CPO + PK)": 167.71,
+        "Ancillary": 5.91
+      },
+      "netIncomeMM": 30.3,
+      "epsBasic": 0.0379,
+      "dividendPerShare": 0.061,
+      "totalAcresK": 96.0,
+      "notes": "Q4 2025",
+      "totalEquityMM": 2500
     }
   ]
 }

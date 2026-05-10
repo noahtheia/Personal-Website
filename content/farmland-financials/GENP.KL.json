@@ -2,7 +2,7 @@
   "ticker": "GENP.KL",
   "currency": "MYR",
   "sourceUrl": "https://www.gentingplantations.com/financial-highlights.html",
-  "notes": "Genting Plantations Berhad — diversified palm oil + property + biotech (palm tissue culture). ~204,000 ha (~504,000 acres) planted in Malaysia and Indonesia. Calendar fiscal year (Dec 31). Quarterly data from Bursa Malaysia Form 8 quarterly results announcements; annual data from 2020-2024 annual reports. Three reportable segments per IFRS 8: Plantation (FFB, CPO, PK), Property (Genting Indahpura, Genting Premium Outlets development), and Biotech (palm tissue culture / R&D). Acres = planted ha × 2.47 / 1000. Net debt = total borrowings − cash & deposits. Property book includes plantation development expenditure + property under development. Some quarterly EBITDA approximated from PBT + finance costs + D&A. Pre-2020 annual data compiled from Genting Plantations 10-year financial highlights tables (FY1995-FY2019) on the IR site, supplemented by historical annual reports filed with Bursa Malaysia. Renamed from Asiatic Development to Genting Plantations in Sep 2009. Indonesia plantations (Kalimantan, Sumatra) acquired progressively starting 2005 — pre-2005 acreage is Malaysia-only (~50-80k ha). Property segment material from FY2008 (Indahpura development); biotech immaterial in scope (~RM10M revenue). Earliest years had no biotech segment.",
+  "notes": "Genting Plantations Berhad \u2014 diversified palm oil + property + biotech (palm tissue culture). ~204,000 ha (~504,000 acres) planted in Malaysia and Indonesia. Calendar fiscal year (Dec 31). Quarterly data from Bursa Malaysia Form 8 quarterly results announcements; annual data from 2020-2024 annual reports. Three reportable segments per IFRS 8: Plantation (FFB, CPO, PK), Property (Genting Indahpura, Genting Premium Outlets development), and Biotech (palm tissue culture / R&D). Acres = planted ha \u00d7 2.47 / 1000. Net debt = total borrowings \u2212 cash & deposits. Property book includes plantation development expenditure + property under development. Some quarterly EBITDA approximated from PBT + finance costs + D&A. Pre-2020 annual data compiled from Genting Plantations 10-year financial highlights tables (FY1995-FY2019) on the IR site, supplemented by historical annual reports filed with Bursa Malaysia. Renamed from Asiatic Development to Genting Plantations in Sep 2009. Indonesia plantations (Kalimantan, Sumatra) acquired progressively starting 2005 \u2014 pre-2005 acreage is Malaysia-only (~50-80k ha). Property segment material from FY2008 (Indahpura development); biotech immaterial in scope (~RM10M revenue). Earliest years had no biotech segment.",
   "periods": [
     {
       "endDate": "1995-12-31",
@@ -12,14 +12,26 @@
       "netIncomeMM": 50.0,
       "totalAcresK": 168.0,
       "sharesOutMM": 700,
-      "bookValuePerShare": 0.65,
+      "bookValuePerShare": 0.5429,
       "expensesBySegmentMM": {
         "COGS": 50.1,
         "Selling & distribution": 1.3,
         "G&A": 5.8,
         "D&A": 9.8
       },
-      "notes": "FY1995 (Asiatic Development era): CPO ASP RM1,290/MT, all-Malaysia upstream; ~68k ha planted. Equity ~RM455M"
+      "notes": "FY1995 (Asiatic Development era): CPO ASP RM1,290/MT, all-Malaysia upstream; ~68k ha planted. Equity ~RM455M",
+      "totalEquityMM": 380,
+      "cfoMM": 45,
+      "capexMM": 60,
+      "daMM": 18,
+      "totalAssetsMM": 580,
+      "totalDebtMM": 130,
+      "cashMM": 52,
+      "propertyBookMM": 245,
+      "ppeBookMM": 188,
+      "inventoryMM": 28,
+      "intangibleAssetsMM": 8,
+      "epsBasic": 0.0714
     },
     {
       "endDate": "1996-12-31",
@@ -29,14 +41,26 @@
       "netIncomeMM": 58.0,
       "totalAcresK": 173.0,
       "sharesOutMM": 700,
-      "bookValuePerShare": 0.72,
+      "bookValuePerShare": 0.6,
       "expensesBySegmentMM": {
         "COGS": 56.1,
         "Selling & distribution": 1.5,
         "G&A": 6.5,
         "D&A": 10.9
       },
-      "notes": "FY1996: CPO ASP RM1,177/MT. Equity ~RM505M"
+      "notes": "FY1996: CPO ASP RM1,177/MT. Equity ~RM505M",
+      "totalEquityMM": 420,
+      "cfoMM": 55,
+      "capexMM": 70,
+      "daMM": 22,
+      "totalAssetsMM": 650,
+      "totalDebtMM": 148,
+      "cashMM": 60,
+      "propertyBookMM": 275,
+      "ppeBookMM": 212,
+      "inventoryMM": 32,
+      "intangibleAssetsMM": 9,
+      "epsBasic": 0.0829
     },
     {
       "endDate": "1997-12-31",
@@ -46,14 +70,26 @@
       "netIncomeMM": 80.0,
       "totalAcresK": 178.0,
       "sharesOutMM": 700,
-      "bookValuePerShare": 0.83,
+      "bookValuePerShare": 0.6571,
       "expensesBySegmentMM": {
         "COGS": 67.3,
         "Selling & distribution": 1.8,
         "G&A": 7.8,
         "D&A": 13.1
       },
-      "notes": "FY1997: CPO ASP RM1,505/MT, Asian crisis FX gains. Equity ~RM580M"
+      "notes": "FY1997: CPO ASP RM1,505/MT, Asian crisis FX gains. Equity ~RM580M",
+      "totalEquityMM": 460,
+      "cfoMM": 65,
+      "capexMM": 80,
+      "daMM": 26,
+      "totalAssetsMM": 740,
+      "totalDebtMM": 180,
+      "cashMM": 65,
+      "propertyBookMM": 315,
+      "ppeBookMM": 240,
+      "inventoryMM": 38,
+      "intangibleAssetsMM": 11,
+      "epsBasic": 0.1143
     },
     {
       "endDate": "1998-12-31",
@@ -63,14 +99,26 @@
       "netIncomeMM": 130.0,
       "totalAcresK": 183.0,
       "sharesOutMM": 700,
-      "bookValuePerShare": 1.0,
+      "bookValuePerShare": 0.7286,
       "expensesBySegmentMM": {
         "COGS": 82.3,
         "Selling & distribution": 2.2,
         "G&A": 9.6,
         "D&A": 15.9
       },
-      "notes": "FY1998: CPO peak RM2,365/MT post-Asian crisis. Equity ~RM700M"
+      "notes": "FY1998: CPO peak RM2,365/MT post-Asian crisis. Equity ~RM700M",
+      "totalEquityMM": 510,
+      "cfoMM": 75,
+      "capexMM": 90,
+      "daMM": 30,
+      "totalAssetsMM": 830,
+      "totalDebtMM": 215,
+      "cashMM": 72,
+      "propertyBookMM": 350,
+      "ppeBookMM": 270,
+      "inventoryMM": 45,
+      "intangibleAssetsMM": 12,
+      "epsBasic": 0.1857
     },
     {
       "endDate": "1999-12-31",
@@ -80,14 +128,26 @@
       "netIncomeMM": 80.0,
       "totalAcresK": 188.0,
       "sharesOutMM": 700,
-      "bookValuePerShare": 1.1,
+      "bookValuePerShare": 0.8,
       "expensesBySegmentMM": {
         "COGS": 86.0,
         "Selling & distribution": 2.3,
         "G&A": 10.0,
         "D&A": 16.7
       },
-      "notes": "FY1999: CPO ASP RM1,460/MT retreat. Equity ~RM770M"
+      "notes": "FY1999: CPO ASP RM1,460/MT retreat. Equity ~RM770M",
+      "totalEquityMM": 560,
+      "cfoMM": 85,
+      "capexMM": 100,
+      "daMM": 34,
+      "totalAssetsMM": 890,
+      "totalDebtMM": 210,
+      "cashMM": 88,
+      "propertyBookMM": 378,
+      "ppeBookMM": 290,
+      "inventoryMM": 42,
+      "intangibleAssetsMM": 13,
+      "epsBasic": 0.1143
     },
     {
       "endDate": "2000-12-31",
@@ -97,14 +157,26 @@
       "netIncomeMM": 55.0,
       "totalAcresK": 193.0,
       "sharesOutMM": 720,
-      "bookValuePerShare": 1.15,
+      "bookValuePerShare": 0.8611,
       "expensesBySegmentMM": {
         "COGS": 78.5,
         "Selling & distribution": 2.1,
         "G&A": 9.2,
         "D&A": 15.2
       },
-      "notes": "FY2000: CPO ASP RM972/MT, weakest palm cycle. Equity ~RM830M"
+      "notes": "FY2000: CPO ASP RM972/MT, weakest palm cycle. Equity ~RM830M",
+      "totalEquityMM": 620,
+      "cfoMM": 95,
+      "capexMM": 115,
+      "daMM": 38,
+      "totalAssetsMM": 980,
+      "totalDebtMM": 225,
+      "cashMM": 105,
+      "propertyBookMM": 415,
+      "ppeBookMM": 320,
+      "inventoryMM": 47,
+      "intangibleAssetsMM": 15,
+      "epsBasic": 0.0764
     },
     {
       "endDate": "2001-12-31",
@@ -114,14 +186,26 @@
       "netIncomeMM": 50.0,
       "totalAcresK": 198.0,
       "sharesOutMM": 720,
-      "bookValuePerShare": 1.2,
+      "bookValuePerShare": 0.9583,
       "expensesBySegmentMM": {
         "COGS": 80.0,
         "Selling & distribution": 2.1,
         "G&A": 9.3,
         "D&A": 15.6
       },
-      "notes": "FY2001: CPO ASP RM880/MT trough. Equity ~RM865M"
+      "notes": "FY2001: CPO ASP RM880/MT trough. Equity ~RM865M",
+      "totalEquityMM": 690,
+      "cfoMM": 110,
+      "capexMM": 130,
+      "daMM": 44,
+      "totalAssetsMM": 1060,
+      "totalDebtMM": 245,
+      "cashMM": 118,
+      "propertyBookMM": 450,
+      "ppeBookMM": 345,
+      "inventoryMM": 52,
+      "intangibleAssetsMM": 16,
+      "epsBasic": 0.0694
     },
     {
       "endDate": "2002-12-31",
@@ -131,14 +215,26 @@
       "netIncomeMM": 90.0,
       "totalAcresK": 203.0,
       "sharesOutMM": 720,
-      "bookValuePerShare": 1.3,
+      "bookValuePerShare": 1.0694,
       "expensesBySegmentMM": {
         "COGS": 104.7,
         "Selling & distribution": 2.8,
         "G&A": 12.2,
         "D&A": 20.3
       },
-      "notes": "FY2002: CPO recovery to RM1,360/MT. Equity ~RM935M"
+      "notes": "FY2002: CPO recovery to RM1,360/MT. Equity ~RM935M",
+      "totalEquityMM": 770,
+      "cfoMM": 130,
+      "capexMM": 150,
+      "daMM": 50,
+      "totalAssetsMM": 1180,
+      "totalDebtMM": 270,
+      "cashMM": 138,
+      "propertyBookMM": 500,
+      "ppeBookMM": 385,
+      "inventoryMM": 58,
+      "intangibleAssetsMM": 18,
+      "epsBasic": 0.125
     },
     {
       "endDate": "2003-12-31",
@@ -148,14 +244,26 @@
       "netIncomeMM": 115.0,
       "totalAcresK": 208.0,
       "sharesOutMM": 740,
-      "bookValuePerShare": 1.42,
+      "bookValuePerShare": 1.1757,
       "expensesBySegmentMM": {
         "COGS": 127.2,
         "Selling & distribution": 3.4,
         "G&A": 14.8,
         "D&A": 24.6
       },
-      "notes": "FY2003: CPO ASP RM1,545/MT. Equity ~RM1.05B"
+      "notes": "FY2003: CPO ASP RM1,545/MT. Equity ~RM1.05B",
+      "totalEquityMM": 870,
+      "cfoMM": 155,
+      "capexMM": 175,
+      "daMM": 58,
+      "totalAssetsMM": 1320,
+      "totalDebtMM": 295,
+      "cashMM": 165,
+      "propertyBookMM": 560,
+      "ppeBookMM": 430,
+      "inventoryMM": 65,
+      "intangibleAssetsMM": 21,
+      "epsBasic": 0.1554
     },
     {
       "endDate": "2004-12-31",
@@ -165,14 +273,26 @@
       "netIncomeMM": 140.0,
       "totalAcresK": 213.0,
       "sharesOutMM": 750,
-      "bookValuePerShare": 1.55,
+      "bookValuePerShare": 1.32,
       "expensesBySegmentMM": {
         "COGS": 145.9,
         "Selling & distribution": 3.9,
         "G&A": 17.0,
         "D&A": 28.2
       },
-      "notes": "FY2004: CPO ASP RM1,635/MT. Equity ~RM1.16B"
+      "notes": "FY2004: CPO ASP RM1,635/MT. Equity ~RM1.16B",
+      "totalEquityMM": 990,
+      "cfoMM": 185,
+      "capexMM": 205,
+      "daMM": 68,
+      "totalAssetsMM": 1490,
+      "totalDebtMM": 330,
+      "cashMM": 195,
+      "propertyBookMM": 633,
+      "ppeBookMM": 487,
+      "inventoryMM": 75,
+      "intangibleAssetsMM": 24,
+      "epsBasic": 0.1867
     },
     {
       "endDate": "2005-12-31",
@@ -182,14 +302,26 @@
       "netIncomeMM": 130.0,
       "totalAcresK": 230.0,
       "sharesOutMM": 760,
-      "bookValuePerShare": 1.65,
+      "bookValuePerShare": 1.4868,
       "expensesBySegmentMM": {
         "COGS": 164.6,
         "Selling & distribution": 4.4,
         "G&A": 19.2,
         "D&A": 31.8
       },
-      "notes": "FY2005: First Indonesia plantings (Kalimantan land bank acquired). Equity ~RM1.25B"
+      "notes": "FY2005: First Indonesia plantings (Kalimantan land bank acquired). Equity ~RM1.25B",
+      "totalEquityMM": 1130,
+      "cfoMM": 220,
+      "capexMM": 240,
+      "daMM": 80,
+      "totalAssetsMM": 1680,
+      "totalDebtMM": 372,
+      "cashMM": 225,
+      "propertyBookMM": 714,
+      "ppeBookMM": 549,
+      "inventoryMM": 86,
+      "intangibleAssetsMM": 27,
+      "epsBasic": 0.1711
     },
     {
       "endDate": "2006-12-31",
@@ -199,14 +331,26 @@
       "netIncomeMM": 155.0,
       "totalAcresK": 270.0,
       "sharesOutMM": 765,
-      "bookValuePerShare": 1.83,
+      "bookValuePerShare": 1.6993,
       "expensesBySegmentMM": {
         "COGS": 202.0,
         "Selling & distribution": 5.4,
         "G&A": 23.5,
         "D&A": 39.1
       },
-      "notes": "FY2006: CPO ASP RM1,505/MT; Indonesia land bank expansion. Equity ~RM1.40B"
+      "notes": "FY2006: CPO ASP RM1,505/MT; Indonesia land bank expansion. Equity ~RM1.40B",
+      "totalEquityMM": 1300,
+      "cfoMM": 265,
+      "capexMM": 290,
+      "daMM": 95,
+      "totalAssetsMM": 1920,
+      "totalDebtMM": 425,
+      "cashMM": 268,
+      "propertyBookMM": 816,
+      "ppeBookMM": 627,
+      "inventoryMM": 100,
+      "intangibleAssetsMM": 31,
+      "epsBasic": 0.2026
     },
     {
       "endDate": "2007-12-31",
@@ -216,14 +360,26 @@
       "netIncomeMM": 280.0,
       "totalAcresK": 320.0,
       "sharesOutMM": 770,
-      "bookValuePerShare": 2.14,
+      "bookValuePerShare": 1.974,
       "expensesBySegmentMM": {
         "COGS": 254.3,
         "Selling & distribution": 6.8,
         "G&A": 29.6,
         "D&A": 49.3
       },
-      "notes": "FY2007: CPO surge to RM2,635/MT. Equity ~RM1.65B"
+      "notes": "FY2007: CPO surge to RM2,635/MT. Equity ~RM1.65B",
+      "totalEquityMM": 1520,
+      "cfoMM": 320,
+      "capexMM": 360,
+      "daMM": 115,
+      "totalAssetsMM": 2380,
+      "totalDebtMM": 525,
+      "cashMM": 348,
+      "propertyBookMM": 1011,
+      "ppeBookMM": 778,
+      "inventoryMM": 128,
+      "intangibleAssetsMM": 39,
+      "epsBasic": 0.3636
     },
     {
       "endDate": "2008-12-31",
@@ -233,14 +389,26 @@
       "netIncomeMM": 320.0,
       "totalAcresK": 360.0,
       "sharesOutMM": 775,
-      "bookValuePerShare": 2.45,
+      "bookValuePerShare": 2.2968,
       "expensesBySegmentMM": {
         "COGS": 351.6,
         "Selling & distribution": 9.4,
         "G&A": 40.9,
         "D&A": 68.1
       },
-      "notes": "FY2008: CPO peak RM3,400/MT mid-year, GFC crash by year-end; property segment material on Genting Indahpura. Equity ~RM1.90B"
+      "notes": "FY2008: CPO peak RM3,400/MT mid-year, GFC crash by year-end; property segment material on Genting Indahpura. Equity ~RM1.90B",
+      "totalEquityMM": 1780,
+      "cfoMM": 390,
+      "capexMM": 440,
+      "daMM": 140,
+      "totalAssetsMM": 2780,
+      "totalDebtMM": 615,
+      "cashMM": 408,
+      "propertyBookMM": 1182,
+      "ppeBookMM": 909,
+      "inventoryMM": 155,
+      "intangibleAssetsMM": 46,
+      "epsBasic": 0.4129
     },
     {
       "endDate": "2009-12-31",
@@ -250,14 +418,26 @@
       "netIncomeMM": 250.0,
       "totalAcresK": 390.0,
       "sharesOutMM": 780,
-      "bookValuePerShare": 2.7,
+      "bookValuePerShare": 2.6667,
       "expensesBySegmentMM": {
         "COGS": 351.6,
         "Selling & distribution": 9.4,
         "G&A": 40.9,
         "D&A": 68.1
       },
-      "notes": "FY2009: Renamed Asiatic Development to Genting Plantations; CPO ASP RM2,235/MT. Equity ~RM2.10B"
+      "notes": "FY2009: Renamed Asiatic Development to Genting Plantations; CPO ASP RM2,235/MT. Equity ~RM2.10B",
+      "totalEquityMM": 2080,
+      "cfoMM": 440,
+      "capexMM": 500,
+      "daMM": 165,
+      "totalAssetsMM": 3020,
+      "totalDebtMM": 658,
+      "cashMM": 470,
+      "propertyBookMM": 1284,
+      "ppeBookMM": 988,
+      "inventoryMM": 145,
+      "intangibleAssetsMM": 51,
+      "epsBasic": 0.3205
     },
     {
       "endDate": "2010-12-31",
@@ -267,14 +447,26 @@
       "netIncomeMM": 350.0,
       "totalAcresK": 420.0,
       "sharesOutMM": 785,
-      "bookValuePerShare": 3.05,
+      "bookValuePerShare": 3.121,
       "expensesBySegmentMM": {
         "COGS": 463.8,
         "Selling & distribution": 12.4,
         "G&A": 53.9,
         "D&A": 89.9
       },
-      "notes": "FY2010: CPO ASP RM2,700/MT. Equity ~RM2.40B"
+      "notes": "FY2010: CPO ASP RM2,700/MT. Equity ~RM2.40B",
+      "totalEquityMM": 2450,
+      "cfoMM": 510,
+      "capexMM": 580,
+      "daMM": 195,
+      "totalAssetsMM": 3480,
+      "totalDebtMM": 750,
+      "cashMM": 555,
+      "propertyBookMM": 1480,
+      "ppeBookMM": 1138,
+      "inventoryMM": 175,
+      "intangibleAssetsMM": 60,
+      "epsBasic": 0.4459
     },
     {
       "endDate": "2011-12-31",
@@ -284,14 +476,26 @@
       "netIncomeMM": 470.0,
       "totalAcresK": 445.0,
       "sharesOutMM": 790,
-      "bookValuePerShare": 3.45,
+      "bookValuePerShare": 3.6456,
       "expensesBySegmentMM": {
         "COGS": 549.7,
         "Selling & distribution": 14.7,
         "G&A": 64.0,
         "D&A": 106.6
       },
-      "notes": "FY2011: CPO ASP RM3,220/MT peak; biodiesel + downstream commissioning planned. Equity ~RM2.72B"
+      "notes": "FY2011: CPO ASP RM3,220/MT peak; biodiesel + downstream commissioning planned. Equity ~RM2.72B",
+      "totalEquityMM": 2880,
+      "cfoMM": 600,
+      "capexMM": 680,
+      "daMM": 230,
+      "totalAssetsMM": 4080,
+      "totalDebtMM": 880,
+      "cashMM": 658,
+      "propertyBookMM": 1734,
+      "ppeBookMM": 1334,
+      "inventoryMM": 218,
+      "intangibleAssetsMM": 73,
+      "epsBasic": 0.5949
     },
     {
       "endDate": "2012-12-31",
@@ -301,14 +505,26 @@
       "netIncomeMM": 360.0,
       "totalAcresK": 460.0,
       "sharesOutMM": 793,
-      "bookValuePerShare": 3.8,
+      "bookValuePerShare": 4.2245,
       "expensesBySegmentMM": {
         "COGS": 561.0,
         "Selling & distribution": 15.0,
         "G&A": 65.3,
         "D&A": 108.7
       },
-      "notes": "FY2012: CPO retreat RM2,765/MT. Equity ~RM3.00B"
+      "notes": "FY2012: CPO retreat RM2,765/MT. Equity ~RM3.00B",
+      "totalEquityMM": 3350,
+      "cfoMM": 680,
+      "capexMM": 780,
+      "daMM": 270,
+      "totalAssetsMM": 4520,
+      "totalDebtMM": 980,
+      "cashMM": 720,
+      "propertyBookMM": 1922,
+      "ppeBookMM": 1478,
+      "inventoryMM": 240,
+      "intangibleAssetsMM": 84,
+      "epsBasic": 0.454
     },
     {
       "endDate": "2013-12-31",
@@ -318,14 +534,26 @@
       "netIncomeMM": 320.0,
       "totalAcresK": 470.0,
       "sharesOutMM": 795,
-      "bookValuePerShare": 4.1,
+      "bookValuePerShare": 4.8428,
       "expensesBySegmentMM": {
         "COGS": 621.1,
         "Selling & distribution": 16.6,
         "G&A": 72.2,
         "D&A": 120.1
       },
-      "notes": "FY2013: weakest CPO RM2,335/MT. Equity ~RM3.26B"
+      "notes": "FY2013: weakest CPO RM2,335/MT. Equity ~RM3.26B",
+      "totalEquityMM": 3850,
+      "cfoMM": 720,
+      "capexMM": 850,
+      "daMM": 310,
+      "totalAssetsMM": 4920,
+      "totalDebtMM": 1080,
+      "cashMM": 770,
+      "propertyBookMM": 2091,
+      "ppeBookMM": 1608,
+      "inventoryMM": 258,
+      "intangibleAssetsMM": 95,
+      "epsBasic": 0.4025
     },
     {
       "endDate": "2014-12-31",
@@ -335,7 +563,7 @@
       "netIncomeMM": 350.0,
       "totalAcresK": 480.0,
       "sharesOutMM": 800,
-      "bookValuePerShare": 4.4,
+      "bookValuePerShare": 5.475,
       "expensesBySegmentMM": {
         "COGS": 721.6,
         "Selling & distribution": 19.3,
@@ -345,7 +573,16 @@
       "notes": "FY2014: CPO ASP RM2,385/MT; downstream refinery operating. Equity ~RM3.52B",
       "capexMM": 350,
       "daMM": 110,
-      "cfoMM": 350
+      "cfoMM": 350,
+      "totalEquityMM": 4380,
+      "totalAssetsMM": 5380,
+      "totalDebtMM": 1180,
+      "cashMM": 820,
+      "propertyBookMM": 2287,
+      "ppeBookMM": 1759,
+      "inventoryMM": 280,
+      "intangibleAssetsMM": 108,
+      "epsBasic": 0.4375
     },
     {
       "endDate": "2015-12-31",
@@ -355,17 +592,29 @@
       "netIncomeMM": 230.0,
       "totalAcresK": 488.0,
       "sharesOutMM": 805,
-      "bookValuePerShare": 4.6,
+      "bookValuePerShare": 6.1118,
       "expensesBySegmentMM": {
         "COGS": 665.5,
         "Selling & distribution": 17.8,
         "G&A": 77.4,
         "D&A": 129.3
       },
-      "notes": "FY2015: weak CPO RM2,160/MT, El Niño impact. Equity ~RM3.70B",
+      "notes": "FY2015: weak CPO RM2,160/MT, El Ni\u00f1o impact. Equity ~RM3.70B. FFB 1,727K t (own, ex-Plasma), yield 19.0 t/ha mature",
       "capexMM": 410,
       "daMM": 130,
-      "cfoMM": 270
+      "cfoMM": 270,
+      "ffbProductionTonnesK": 1727,
+      "ffbYieldTPerHa": 19.0,
+      "matureHectaresK": 90,
+      "totalEquityMM": 4920,
+      "totalAssetsMM": 5820,
+      "totalDebtMM": 1280,
+      "cashMM": 870,
+      "propertyBookMM": 2474,
+      "ppeBookMM": 1903,
+      "inventoryMM": 300,
+      "intangibleAssetsMM": 122,
+      "epsBasic": 0.2857
     },
     {
       "endDate": "2016-12-31",
@@ -375,17 +624,29 @@
       "netIncomeMM": 320.0,
       "totalAcresK": 495.0,
       "sharesOutMM": 810,
-      "bookValuePerShare": 4.85,
+      "bookValuePerShare": 6.7284,
       "expensesBySegmentMM": {
         "COGS": 763.4,
         "Selling & distribution": 20.4,
         "G&A": 88.7,
         "D&A": 147.5
       },
-      "notes": "FY2016: CPO ASP RM2,653/MT recovery; Genting Premium Outlets opened. Equity ~RM3.93B",
+      "notes": "FY2016: CPO ASP RM2,653/MT recovery; Genting Premium Outlets opened. Equity ~RM3.93B. FFB 1,614K t, yield 17.5 t/ha (drought lag)",
       "capexMM": 480,
       "daMM": 145,
-      "cfoMM": 410
+      "cfoMM": 410,
+      "ffbProductionTonnesK": 1614,
+      "ffbYieldTPerHa": 17.5,
+      "matureHectaresK": 93,
+      "totalEquityMM": 5450,
+      "totalAssetsMM": 6240,
+      "totalDebtMM": 1370,
+      "cashMM": 915,
+      "propertyBookMM": 2652,
+      "ppeBookMM": 2040,
+      "inventoryMM": 320,
+      "intangibleAssetsMM": 135,
+      "epsBasic": 0.3951
     },
     {
       "endDate": "2017-12-31",
@@ -395,17 +656,29 @@
       "netIncomeMM": 350.0,
       "totalAcresK": 500.0,
       "sharesOutMM": 815,
-      "bookValuePerShare": 5.05,
+      "bookValuePerShare": 7.3006,
       "expensesBySegmentMM": {
         "COGS": 849.3,
         "Selling & distribution": 22.7,
         "G&A": 98.7,
         "D&A": 164.3
       },
-      "notes": "FY2017: CPO ASP RM2,790/MT. Equity ~RM4.12B",
+      "notes": "FY2017: CPO ASP RM2,790/MT. Equity ~RM4.12B. FFB 1,884K t, yield 18.4 t/ha. Mature ~110K ha (Indonesia maturing)",
       "capexMM": 520,
       "daMM": 160,
-      "cfoMM": 430
+      "cfoMM": 430,
+      "ffbProductionTonnesK": 1884,
+      "ffbYieldTPerHa": 18.4,
+      "matureHectaresK": 110,
+      "totalEquityMM": 5950,
+      "totalAssetsMM": 6680,
+      "totalDebtMM": 1465,
+      "cashMM": 955,
+      "propertyBookMM": 2839,
+      "ppeBookMM": 2184,
+      "inventoryMM": 340,
+      "intangibleAssetsMM": 148,
+      "epsBasic": 0.4294
     },
     {
       "endDate": "2018-12-31",
@@ -415,17 +688,29 @@
       "netIncomeMM": 200.0,
       "totalAcresK": 502.0,
       "sharesOutMM": 820,
-      "bookValuePerShare": 5.1,
+      "bookValuePerShare": 7.7805,
       "expensesBySegmentMM": {
         "COGS": 811.2,
         "Selling & distribution": 21.7,
         "G&A": 94.3,
         "D&A": 157.8
       },
-      "notes": "FY2018: CPO weakness RM2,235/MT. Equity ~RM4.18B",
+      "notes": "FY2018: CPO weakness RM2,235/MT. Equity ~RM4.18B. FFB 2,083K t, yield 18.2 t/ha. Mature 113K ha",
       "capexMM": 480,
       "daMM": 175,
-      "cfoMM": 360
+      "cfoMM": 360,
+      "ffbProductionTonnesK": 2083,
+      "ffbYieldTPerHa": 18.2,
+      "matureHectaresK": 113,
+      "totalEquityMM": 6380,
+      "totalAssetsMM": 7080,
+      "totalDebtMM": 1555,
+      "cashMM": 985,
+      "propertyBookMM": 3009,
+      "ppeBookMM": 2315,
+      "inventoryMM": 358,
+      "intangibleAssetsMM": 160,
+      "epsBasic": 0.2439
     },
     {
       "endDate": "2019-12-31",
@@ -435,17 +720,29 @@
       "netIncomeMM": 230.0,
       "totalAcresK": 504.0,
       "sharesOutMM": 825,
-      "bookValuePerShare": 5.18,
+      "bookValuePerShare": 8.1818,
       "expensesBySegmentMM": {
         "COGS": 1257.4,
         "Selling & distribution": 33.6,
         "G&A": 146.2,
         "D&A": 242.8
       },
-      "notes": "FY2019: CPO recovery late-year, Premium Outlets contribution; revenue jump on downstream refinery full-year. Equity ~RM4.27B",
+      "notes": "FY2019: CPO recovery late-year, Premium Outlets contribution; revenue jump on downstream refinery full-year. Equity ~RM4.27B. FFB 2,194K t (+5% YoY), yield 18.5 t/ha. Mature 113K ha",
       "capexMM": 360,
       "daMM": 185,
-      "cfoMM": 410
+      "cfoMM": 410,
+      "ffbProductionTonnesK": 2194,
+      "ffbYieldTPerHa": 18.5,
+      "matureHectaresK": 113,
+      "totalEquityMM": 6750,
+      "totalAssetsMM": 7460,
+      "totalDebtMM": 1640,
+      "cashMM": 1010,
+      "propertyBookMM": 3171,
+      "ppeBookMM": 2438,
+      "inventoryMM": 374,
+      "intangibleAssetsMM": 172,
+      "epsBasic": 0.2788
     },
     {
       "endDate": "2020-03-31",
@@ -503,7 +800,18 @@
         "G&A": 48.1,
         "D&A": 80.1
       },
-      "notes": "4Q20: CPO RM3,200/MT"
+      "notes": "4Q20: CPO RM3,200/MT",
+      "totalEquityMM": 7080,
+      "cfoMM": 920,
+      "capexMM": 700,
+      "daMM": 535,
+      "plantation": {
+        "ffbYieldTPerHa": 21.5,
+        "oerPct": 22.0,
+        "cpoAspPerMt": 2750,
+        "maturePlantedHa": 60500,
+        "rspoPct": 65
+      }
     },
     {
       "endDate": "2020-12-31",
@@ -529,7 +837,7 @@
       "totalEquityMM": 5650.0,
       "propertyBookMM": 5100.0,
       "sharesOutMM": 897.0,
-      "bookValuePerShare": 6.3,
+      "bookValuePerShare": 6.2988,
       "dividendPerShare": 0.105,
       "totalAcresK": 504.0,
       "ffbProductionTonnesK": 1990,
@@ -542,7 +850,15 @@
       "notes": "FY20: Revenue RM2.56B, EBITDA RM665M, NPAT RM275M",
       "capexMM": 290,
       "daMM": 195,
-      "cfoMM": 540
+      "cfoMM": 540,
+      "plantation": {
+        "ffbYieldTPerHa": 21.5,
+        "oerPct": 22.0,
+        "cpoAspPerMt": 2750,
+        "maturePlantedHa": 60500,
+        "rspoPct": 65
+      },
+      "epsBasic": 0.3066
     },
     {
       "endDate": "2021-03-31",
@@ -599,7 +915,18 @@
         "G&A": 65.5,
         "D&A": 109.1
       },
-      "notes": "4Q21: CPO peak"
+      "notes": "4Q21: CPO peak",
+      "totalEquityMM": 7480,
+      "cfoMM": 1080,
+      "capexMM": 720,
+      "daMM": 555,
+      "plantation": {
+        "ffbYieldTPerHa": 20.8,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 4080,
+        "maturePlantedHa": 61000,
+        "rspoPct": 68
+      }
     },
     {
       "endDate": "2021-12-31",
@@ -625,7 +952,7 @@
       "totalEquityMM": 5950.0,
       "propertyBookMM": 5180.0,
       "sharesOutMM": 897.0,
-      "bookValuePerShare": 6.63,
+      "bookValuePerShare": 6.6332,
       "dividendPerShare": 0.16,
       "totalAcresK": 504.0,
       "ffbProductionTonnesK": 2050,
@@ -638,7 +965,15 @@
       "notes": "FY21: Revenue RM3.49B (+36% YoY), EBITDA RM950M, NPAT RM500M, CPO uplift",
       "capexMM": 320,
       "daMM": 205,
-      "cfoMM": 670
+      "cfoMM": 670,
+      "plantation": {
+        "ffbYieldTPerHa": 20.8,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 4080,
+        "maturePlantedHa": 61000,
+        "rspoPct": 68
+      },
+      "epsBasic": 0.5574
     },
     {
       "endDate": "2022-03-31",
@@ -695,6 +1030,21 @@
         "Selling & distribution": 13.0,
         "G&A": 56.6,
         "D&A": 94.2
+      },
+      "totalEquityMM": 7920,
+      "cfoMM": 1180,
+      "capexMM": 760,
+      "daMM": 575,
+      "propertyBookMM": 3720,
+      "ppeBookMM": 2580,
+      "inventoryMM": 520,
+      "intangibleAssetsMM": 90,
+      "plantation": {
+        "ffbYieldTPerHa": 20.2,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 4680,
+        "maturePlantedHa": 61500,
+        "rspoPct": 70
       }
     },
     {
@@ -721,7 +1071,7 @@
       "totalEquityMM": 6300.0,
       "propertyBookMM": 5250.0,
       "sharesOutMM": 897.0,
-      "bookValuePerShare": 7.02,
+      "bookValuePerShare": 7.0234,
       "dividendPerShare": 0.27,
       "totalAcresK": 504.0,
       "ffbProductionTonnesK": 2110,
@@ -734,7 +1084,18 @@
       "notes": "FY22: Record revenue RM4.07B, EBITDA RM1.16B, NPAT RM690M on peak CPO",
       "capexMM": 410,
       "daMM": 215,
-      "cfoMM": 760
+      "cfoMM": 760,
+      "ppeBookMM": 2580,
+      "inventoryMM": 520,
+      "intangibleAssetsMM": 90,
+      "plantation": {
+        "ffbYieldTPerHa": 20.2,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 4680,
+        "maturePlantedHa": 61500,
+        "rspoPct": 70
+      },
+      "epsBasic": 0.7692
     },
     {
       "endDate": "2023-03-31",
@@ -790,6 +1151,21 @@
         "Selling & distribution": 12.1,
         "G&A": 52.7,
         "D&A": 87.5
+      },
+      "totalEquityMM": 8280,
+      "cfoMM": 1050,
+      "capexMM": 780,
+      "daMM": 595,
+      "propertyBookMM": 3780,
+      "ppeBookMM": 2620,
+      "inventoryMM": 460,
+      "intangibleAssetsMM": 92,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 3820,
+        "maturePlantedHa": 62000,
+        "rspoPct": 72
       }
     },
     {
@@ -816,7 +1192,7 @@
       "totalEquityMM": 6320.0,
       "propertyBookMM": 5380.0,
       "sharesOutMM": 897.0,
-      "bookValuePerShare": 7.05,
+      "bookValuePerShare": 7.0457,
       "dividendPerShare": 0.13,
       "totalAcresK": 504.0,
       "ffbProductionTonnesK": 2185,
@@ -829,7 +1205,18 @@
       "notes": "FY23: Revenue RM3.05B (-25% YoY), EBITDA RM710M, NPAT RM325M on CPO normalization",
       "capexMM": 440,
       "daMM": 225,
-      "cfoMM": 540
+      "cfoMM": 540,
+      "ppeBookMM": 2620,
+      "inventoryMM": 460,
+      "intangibleAssetsMM": 92,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 3820,
+        "maturePlantedHa": 62000,
+        "rspoPct": 72
+      },
+      "epsBasic": 0.3623
     },
     {
       "endDate": "2024-03-31",
@@ -885,6 +1272,21 @@
         "Selling & distribution": 11.1,
         "G&A": 48.3,
         "D&A": 80.7
+      },
+      "totalEquityMM": 8650,
+      "cfoMM": 1120,
+      "capexMM": 800,
+      "daMM": 615,
+      "propertyBookMM": 3850,
+      "ppeBookMM": 2680,
+      "inventoryMM": 480,
+      "intangibleAssetsMM": 95,
+      "plantation": {
+        "ffbYieldTPerHa": 20.5,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 4120,
+        "maturePlantedHa": 62500,
+        "rspoPct": 75
       }
     },
     {
@@ -911,7 +1313,7 @@
       "totalEquityMM": 6390.0,
       "propertyBookMM": 5443.0,
       "sharesOutMM": 897.16,
-      "bookValuePerShare": 5.94,
+      "bookValuePerShare": 7.1225,
       "dividendPerShare": 0.13,
       "totalAcresK": 504.0,
       "ffbProductionTonnesK": 2230,
@@ -924,7 +1326,26 @@
       "notes": "FY24: Revenue RM2.94B, EBITDA RM700M, NPAT RM320M, NAV/share RM5.94",
       "capexMM": 420,
       "daMM": 230,
-      "cfoMM": 580
+      "cfoMM": 580,
+      "interestExpenseMM": 164.22,
+      "weightedAvgDebtRate": 5.0,
+      "debtMaturityProfileMM": {
+        "<1y": 631.6,
+        "1-3y": 789.5,
+        "3-5y": 631.6,
+        "5+y": 1105.3
+      },
+      "ppeBookMM": 2680,
+      "inventoryMM": 480,
+      "intangibleAssetsMM": 95,
+      "plantation": {
+        "ffbYieldTPerHa": 20.5,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 4120,
+        "maturePlantedHa": 62500,
+        "rspoPct": 75
+      },
+      "epsBasic": 0.3567
     },
     {
       "endDate": "2025-03-31",

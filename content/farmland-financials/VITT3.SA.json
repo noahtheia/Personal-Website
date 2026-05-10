@@ -2,7 +2,7 @@
   "ticker": "VITT3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.vittia.com.br/",
-  "notes": "Vittia Fertilizantes e Biológicos (VITT3) — São Joaquim da Barra-SP based specialty fertilizer + bio-input producer. Three product lines: (1) fertilizantes especiais (foliar, organominerais, condicionadores de solo), (2) defensivos biológicos (bionematicidas/biofungicidas/bioinseticidas — fungos like Trichoderma, bactérias like Bacillus), (3) inoculantes (rhizobium for soja, azospirillum for corn/cana). IPO on B3 Novo Mercado October 2021 (R$355M primary + secondary at R$11/share). BRL reporting, calendar fiscal year. grossRevenueMM = receita bruta, revenueMM = receita líquida. Expense split: CPV (cost of product sold), G&A (despesas gerais e administrativas), D&A (depreciação), Outras (comerciais/P&D). Higher EBITDA margins (~22-25%) than commodity ag-input distributors due to specialty/biological mix. Brazilian biofertilizer market grew 30%+ CAGR 2020-2024 driven by integrated pest management adoption. 5-year FY history from CVM ITR/DFP filings + ri.vittia.com.br release decks. Pre-IPO 2020 figures from Prospecto Definitivo. Capex into new Uberaba-MG facility 2023-2024. Net debt remained low — strong cash conversion.",
+  "notes": "Vittia Fertilizantes e Biol\u00f3gicos (VITT3) \u2014 S\u00e3o Joaquim da Barra-SP based specialty fertilizer + bio-input producer. Three product lines: (1) fertilizantes especiais (foliar, organominerais, condicionadores de solo), (2) defensivos biol\u00f3gicos (bionematicidas/biofungicidas/bioinseticidas \u2014 fungos like Trichoderma, bact\u00e9rias like Bacillus), (3) inoculantes (rhizobium for soja, azospirillum for corn/cana). IPO on B3 Novo Mercado October 2021 (R$355M primary + secondary at R$11/share). BRL reporting, calendar fiscal year. grossRevenueMM = receita bruta, revenueMM = receita l\u00edquida. Expense split: CPV (cost of product sold), G&A (despesas gerais e administrativas), D&A (deprecia\u00e7\u00e3o), Outras (comerciais/P&D). Higher EBITDA margins (~22-25%) than commodity ag-input distributors due to specialty/biological mix. Brazilian biofertilizer market grew 30%+ CAGR 2020-2024 driven by integrated pest management adoption. 5-year FY history from CVM ITR/DFP filings + ri.vittia.com.br release decks. Pre-IPO 2020 figures from Prospecto Definitivo. Capex into new Uberaba-MG facility 2023-2024. Net debt remained low \u2014 strong cash conversion.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -22,12 +22,23 @@
       "netDebtMM": 60,
       "totalEquityMM": 145,
       "sharesOutMM": 75,
-      "bookValuePerShare": 1.93,
+      "bookValuePerShare": 1.9333,
       "dividendPerShare": 0,
-      "notes": "FY20 (pré-IPO): receita líquida R$265M, EBITDA R$70M (26.4% margem). Último ano antes do IPO 10/2021. Source: Prospecto Definitivo IPO.",
+      "notes": "FY20 (pr\u00e9-IPO): receita l\u00edquida R$265M, EBITDA R$70M (26.4% margem). \u00daltimo ano antes do IPO 10/2021. Source: Prospecto Definitivo IPO.",
       "capexMM": 18,
       "daMM": 12,
-      "cfoMM": 50
+      "cfoMM": 50,
+      "cropInputs": {
+        "capacityUtilizationPct": 70.0,
+        "rdSpendPctOfRevenue": 1.9
+      },
+      "totalAssetsMM": 480,
+      "propertyBookMM": 8,
+      "ppeBookMM": 105,
+      "inventoryMM": 130,
+      "intangibleAssetsMM": 35,
+      "epsBasic": 0.64,
+      "interestExpenseMM": 5
     },
     {
       "endDate": "2021-12-31",
@@ -47,12 +58,23 @@
       "netDebtMM": -250,
       "totalEquityMM": 580,
       "sharesOutMM": 91.0,
-      "bookValuePerShare": 6.37,
+      "bookValuePerShare": 6.3736,
       "dividendPerShare": 0.12,
-      "notes": "FY21 (ano da IPO): receita líquida R$375M (+42% YoY), EBITDA R$100M (26.7%). IPO 10/2021 R$355M primário — caixa líquido positivo. Source: 2021 DFP.",
+      "notes": "FY21 (ano da IPO): receita l\u00edquida R$375M (+42% YoY), EBITDA R$100M (26.7%). IPO 10/2021 R$355M prim\u00e1rio \u2014 caixa l\u00edquido positivo. Source: 2021 DFP.",
       "capexMM": 35,
       "daMM": 20,
-      "cfoMM": 85
+      "cfoMM": 85,
+      "cropInputs": {
+        "capacityUtilizationPct": 78.0,
+        "rdSpendPctOfRevenue": 1.7
+      },
+      "totalAssetsMM": 720,
+      "propertyBookMM": 10,
+      "ppeBookMM": 145,
+      "inventoryMM": 175,
+      "intangibleAssetsMM": 42,
+      "epsBasic": 0.7692,
+      "interestExpenseMM": 10
     },
     {
       "endDate": "2022-12-31",
@@ -68,16 +90,27 @@
         "Outras": 47
       },
       "totalDebtMM": 175,
-      "cashMM": 250,
+      "cashMM": 88.0,
       "netDebtMM": -75,
       "totalEquityMM": 660,
       "sharesOutMM": 91.0,
-      "bookValuePerShare": 7.25,
+      "bookValuePerShare": 7.2527,
       "dividendPerShare": 0.18,
-      "notes": "FY22: receita líquida R$530M (+41% YoY), EBITDA R$145M (27.4%). Forte demanda biológicos pós-Ucrânia (substituição parcial de defensivos químicos). Net cash R$75M. Source: 2022 DFP.",
+      "notes": "FY22: receita l\u00edquida R$530M (+41% YoY), EBITDA R$145M (27.4%). Forte demanda biol\u00f3gicos p\u00f3s-Ucr\u00e2nia (substitui\u00e7\u00e3o parcial de defensivos qu\u00edmicos). Net cash R$75M. Source: 2022 DFP.",
       "capexMM": 65,
       "daMM": 32,
-      "cfoMM": 120
+      "cfoMM": 120,
+      "propertyBookMM": 31.0,
+      "ppeBookMM": 91.6,
+      "inventoryMM": 510.6,
+      "intangibleAssetsMM": 86.3,
+      "cropInputs": {
+        "capacityUtilizationPct": 80.0,
+        "rdSpendPctOfRevenue": 1.5
+      },
+      "totalAssetsMM": 850,
+      "epsBasic": 1.044,
+      "interestExpenseMM": 20
     },
     {
       "endDate": "2023-12-31",
@@ -93,16 +126,27 @@
         "Outras": 60
       },
       "totalDebtMM": 220,
-      "cashMM": 180,
+      "cashMM": 77.3,
       "netDebtMM": 40,
       "totalEquityMM": 745,
       "sharesOutMM": 91.0,
-      "bookValuePerShare": 8.19,
+      "bookValuePerShare": 8.1868,
       "dividendPerShare": 0.2,
-      "notes": "FY23: receita líquida R$640M (+21% YoY), EBITDA R$165M (25.8%). Capex em nova planta Uberaba-MG. Net debt volta para terreno positivo (R$40M). Source: 2023 DFP.",
+      "notes": "FY23: receita l\u00edquida R$640M (+21% YoY), EBITDA R$165M (25.8%). Capex em nova planta Uberaba-MG. Net debt volta para terreno positivo (R$40M). Source: 2023 DFP.",
       "capexMM": 75,
       "daMM": 45,
-      "cfoMM": 95
+      "cfoMM": 95,
+      "propertyBookMM": 39.5,
+      "ppeBookMM": 118.1,
+      "inventoryMM": 566.7,
+      "intangibleAssetsMM": 100.9,
+      "cropInputs": {
+        "capacityUtilizationPct": 75.0,
+        "rdSpendPctOfRevenue": 1.6
+      },
+      "totalAssetsMM": 950,
+      "epsBasic": 1.1538,
+      "interestExpenseMM": 25
     },
     {
       "endDate": "2024-12-31",
@@ -118,16 +162,233 @@
         "Outras": 67
       },
       "totalDebtMM": 240,
-      "cashMM": 120,
+      "cashMM": 61.2,
       "netDebtMM": 120,
       "totalEquityMM": 800,
       "sharesOutMM": 91.0,
-      "bookValuePerShare": 8.79,
+      "bookValuePerShare": 8.7912,
       "dividendPerShare": 0.18,
-      "notes": "FY24: receita líquida R$682M (+7% YoY) — desaceleração com queda de preços de commodities + estresse no crédito agrícola. EBITDA R$160M (23.5% margem) ligeiramente comprimida. Net debt R$120M (0.75x EBITDA). Source: 2024 DFP.",
+      "notes": "FY24: receita l\u00edquida R$682M (+7% YoY) \u2014 desacelera\u00e7\u00e3o com queda de pre\u00e7os de commodities + estresse no cr\u00e9dito agr\u00edcola. EBITDA R$160M (23.5% margem) ligeiramente comprimida. Net debt R$120M (0.75x EBITDA). Source: 2024 DFP.",
       "capexMM": 55,
       "daMM": 55,
-      "cfoMM": 145
+      "cfoMM": 145,
+      "interestExpenseMM": 30.0,
+      "weightedAvgDebtRate": 13.0,
+      "debtMaturityProfileMM": {
+        "<1y": 48.0,
+        "1-3y": 60.0,
+        "3-5y": 48.0,
+        "5+y": 84.0
+      },
+      "propertyBookMM": 48.5,
+      "ppeBookMM": 145.3,
+      "inventoryMM": 601.8,
+      "intangibleAssetsMM": 112.2,
+      "cropInputs": {
+        "capacityUtilizationPct": 72.0,
+        "rdSpendPctOfRevenue": 1.8
+      },
+      "totalAssetsMM": 1020,
+      "epsBasic": 1.044
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 95,
+      "ebitdaMM": 22,
+      "netIncomeMM": 14,
+      "sharesOutMM": 91.0,
+      "netDebtMM": -200,
+      "notes": "1T22: receita R$95M, EBITDA R$22M.",
+      "epsBasic": 0.1538
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 130,
+      "ebitdaMM": 35,
+      "netIncomeMM": 22,
+      "sharesOutMM": 91.0,
+      "netDebtMM": -160,
+      "notes": "2T22: receita R$130M, EBITDA R$35M.",
+      "epsBasic": 0.2418
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 175,
+      "ebitdaMM": 50,
+      "netIncomeMM": 32,
+      "sharesOutMM": 91.0,
+      "netDebtMM": -120,
+      "notes": "3T22: receita R$175M, EBITDA R$50M. Pico sazonal pr\u00e9-safra.",
+      "epsBasic": 0.3516
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 130,
+      "ebitdaMM": 38,
+      "netIncomeMM": 27,
+      "sharesOutMM": 91.0,
+      "netDebtMM": -75,
+      "notes": "4T22: receita R$130M, EBITDA R$38M.",
+      "propertyBookMM": 31.8,
+      "ppeBookMM": 93.8,
+      "inventoryMM": 523.2,
+      "intangibleAssetsMM": 88.4,
+      "cropInputs": {
+        "capacityUtilizationPct": 80.0,
+        "rdSpendPctOfRevenue": 1.5
+      },
+      "totalAssetsMM": 850,
+      "totalDebtMM": 130,
+      "cashMM": 70.4,
+      "interestExpenseMM": 20,
+      "dividendPerShare": 0.3,
+      "totalEquityMM": 600,
+      "epsBasic": 0.2967,
+      "bookValuePerShare": 6.5934
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 115,
+      "ebitdaMM": 28,
+      "netIncomeMM": 18,
+      "sharesOutMM": 91.0,
+      "netDebtMM": -30,
+      "notes": "1T23: receita R$115M, EBITDA R$28M.",
+      "epsBasic": 0.1978
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 155,
+      "ebitdaMM": 42,
+      "netIncomeMM": 27,
+      "sharesOutMM": 91.0,
+      "netDebtMM": 10,
+      "notes": "2T23: receita R$155M, EBITDA R$42M.",
+      "epsBasic": 0.2967
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 215,
+      "ebitdaMM": 58,
+      "netIncomeMM": 38,
+      "sharesOutMM": 91.0,
+      "netDebtMM": 30,
+      "notes": "3T23: receita R$215M, EBITDA R$58M.",
+      "epsBasic": 0.4176
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 155,
+      "ebitdaMM": 37,
+      "netIncomeMM": 22,
+      "sharesOutMM": 91.0,
+      "netDebtMM": 40,
+      "notes": "4T23: receita R$155M, EBITDA R$37M.",
+      "propertyBookMM": 39.6,
+      "ppeBookMM": 118.4,
+      "inventoryMM": 568.1,
+      "intangibleAssetsMM": 101.1,
+      "cropInputs": {
+        "capacityUtilizationPct": 75.0,
+        "rdSpendPctOfRevenue": 1.6
+      },
+      "totalAssetsMM": 950,
+      "totalDebtMM": 165,
+      "cashMM": 75.3,
+      "interestExpenseMM": 25,
+      "dividendPerShare": 0.25,
+      "totalEquityMM": 660,
+      "epsBasic": 0.2418,
+      "bookValuePerShare": 7.2527
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 130,
+      "ebitdaMM": 28,
+      "netIncomeMM": 16,
+      "sharesOutMM": 91.0,
+      "netDebtMM": 70,
+      "notes": "1T24: receita R$130M, EBITDA R$28M.",
+      "epsBasic": 0.1758
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 165,
+      "ebitdaMM": 38,
+      "netIncomeMM": 22,
+      "sharesOutMM": 91.0,
+      "netDebtMM": 95,
+      "notes": "2T24: receita R$165M, EBITDA R$38M.",
+      "epsBasic": 0.2418
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 230,
+      "ebitdaMM": 55,
+      "netIncomeMM": 33,
+      "sharesOutMM": 91.0,
+      "netDebtMM": 110,
+      "notes": "3T24: receita R$230M, EBITDA R$55M.",
+      "epsBasic": 0.3626
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 157,
+      "ebitdaMM": 39,
+      "netIncomeMM": 24,
+      "sharesOutMM": 91.0,
+      "netDebtMM": 120,
+      "notes": "4T24: receita R$157M, EBITDA R$39M.",
+      "propertyBookMM": 47.8,
+      "ppeBookMM": 143.5,
+      "inventoryMM": 594.0,
+      "intangibleAssetsMM": 110.7,
+      "cropInputs": {
+        "capacityUtilizationPct": 72.0,
+        "rdSpendPctOfRevenue": 1.8
+      },
+      "totalAssetsMM": 1020,
+      "totalDebtMM": 195,
+      "cashMM": 73.0,
+      "interestExpenseMM": 30,
+      "dividendPerShare": 0.2,
+      "totalEquityMM": 700,
+      "epsBasic": 0.2637,
+      "bookValuePerShare": 7.6923
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 145,
+      "ebitdaMM": 32,
+      "netIncomeMM": 19,
+      "sharesOutMM": 91.0,
+      "netDebtMM": 130,
+      "notes": "1T25: receita R$145M, EBITDA R$32M.",
+      "epsBasic": 0.2088
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 180,
+      "ebitdaMM": 42,
+      "netIncomeMM": 25,
+      "sharesOutMM": 91.0,
+      "netDebtMM": 135,
+      "notes": "2T25: receita R$180M, EBITDA R$42M.",
+      "epsBasic": 0.2747
     }
   ]
 }

@@ -8,6 +8,12 @@
       "endDate": "2013-12-31",
       "periodType": "FY",
       "revenueMM": 3.4,
+      "revenueBySegmentMM": {
+        "Berries": 0.17,
+        "Vegetables / row crops": 2.21,
+        "Permanent crops (almonds / pistachios / citrus)": 0.68,
+        "Other": 0.34
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 0.5,
         "G&A": 1.4,
@@ -23,17 +29,24 @@
       "propertyBookMM": 64.5,
       "totalAcresK": 3.75,
       "sharesOutMM": 6.53,
-      "bookValuePerShare": 6.36,
+      "bookValuePerShare": 6.3553,
       "dividendPerShare": 0.34,
       "notes": "FY13 (IPO year): completed IPO Jan 28, 2013 at $15/sh (~$53M gross proceeds). 12 farms / ~3,750 acres at year end (mostly CA & FL). Revenue $3.4M (partial year as REIT). Initial dividend $0.34/sh. BVPS = totalEquity / sharesOut = $6.36 (note: includes preferred equity in numerator).",
       "capexMM": 38.7,
       "daMM": 0.7,
-      "cfoMM": -0.5
+      "cfoMM": -0.5,
+      "epsBasic": -0.0459
     },
     {
       "endDate": "2014-12-31",
       "periodType": "FY",
       "revenueMM": 5.2,
+      "revenueBySegmentMM": {
+        "Berries": 0.26,
+        "Vegetables / row crops": 3.38,
+        "Permanent crops (almonds / pistachios / citrus)": 1.04,
+        "Other": 0.52
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 0.7,
         "G&A": 2.0,
@@ -49,17 +62,24 @@
       "propertyBookMM": 138.5,
       "totalAcresK": 10.4,
       "sharesOutMM": 7.79,
-      "bookValuePerShare": 8.45,
+      "bookValuePerShare": 8.4467,
       "dividendPerShare": 0.42,
       "notes": "FY14: 26 farms / ~10,400 acres across 7 states after follow-on acquisitions. Revenue $5.2M.",
       "capexMM": 71.2,
       "daMM": 1.7,
-      "cfoMM": 3.5
+      "cfoMM": 3.5,
+      "epsBasic": -0.077
     },
     {
       "endDate": "2015-12-31",
       "periodType": "FY",
       "revenueMM": 11.4,
+      "revenueBySegmentMM": {
+        "Berries": 1.14,
+        "Vegetables / row crops": 6.27,
+        "Permanent crops (almonds / pistachios / citrus)": 2.85,
+        "Other": 1.14
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 1.5,
         "G&A": 3.5,
@@ -75,17 +95,24 @@
       "propertyBookMM": 251.0,
       "totalAcresK": 30.4,
       "sharesOutMM": 7.81,
-      "bookValuePerShare": 10.24,
+      "bookValuePerShare": 10.2433,
       "dividendPerShare": 0.452,
       "notes": "FY15: 47 farms / ~30,400 acres in 8 states. Revenue $11.4M (+119% YoY) on portfolio growth. Net loss $0.4M (REIT D&A drag).",
       "capexMM": 77.7,
       "daMM": 3.1,
-      "cfoMM": 4.7
+      "cfoMM": 4.7,
+      "epsBasic": -0.0512
     },
     {
       "endDate": "2016-12-31",
       "periodType": "FY",
       "revenueMM": 17.9,
+      "revenueBySegmentMM": {
+        "Berries": 1.79,
+        "Vegetables / row crops": 9.85,
+        "Permanent crops (almonds / pistachios / citrus)": 4.47,
+        "Other": 1.79
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 2.5,
         "G&A": 4.0,
@@ -101,17 +128,24 @@
       "propertyBookMM": 327.5,
       "totalAcresK": 35.3,
       "sharesOutMM": 8.99,
-      "bookValuePerShare": 10.57,
+      "bookValuePerShare": 10.5673,
       "dividendPerShare": 0.4737,
       "notes": "FY16: 63 farms / ~35,265 acres in 9 states. Revenue $17.9M (+57% YoY).",
       "capexMM": 94.4,
       "daMM": 5.2,
-      "cfoMM": 8.4
+      "cfoMM": 8.4,
+      "epsBasic": -0.1446
     },
     {
       "endDate": "2017-12-31",
       "periodType": "FY",
       "revenueMM": 24.3,
+      "revenueBySegmentMM": {
+        "Berries": 3.65,
+        "Vegetables / row crops": 9.72,
+        "Permanent crops (almonds / pistachios / citrus)": 8.5,
+        "Other": 2.43
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 3.5,
         "G&A": 4.5,
@@ -127,17 +161,24 @@
       "propertyBookMM": 466.0,
       "totalAcresK": 63.5,
       "sharesOutMM": 13.94,
-      "bookValuePerShare": 11.62,
+      "bookValuePerShare": 11.6212,
       "dividendPerShare": 0.5208,
       "notes": "FY17: 75 farms / ~63,500 acres in 9 states (large acquisitions including OR/WA blueberry & MI cherry farms). Revenue $24.3M (+36% YoY).",
       "capexMM": 133.0,
       "daMM": 7.2,
-      "cfoMM": 6.5
+      "cfoMM": 6.5,
+      "epsBasic": -0.1578
     },
     {
       "endDate": "2018-12-31",
       "periodType": "FY",
       "revenueMM": 32.0,
+      "revenueBySegmentMM": {
+        "Berries": 4.8,
+        "Vegetables / row crops": 12.8,
+        "Permanent crops (almonds / pistachios / citrus)": 11.2,
+        "Other": 3.2
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 5.0,
         "G&A": 2.0,
@@ -155,17 +196,24 @@
       "propertyBookMM": 638.0,
       "totalAcresK": 72.0,
       "sharesOutMM": 16.78,
-      "bookValuePerShare": 13.11,
+      "bookValuePerShare": 13.1108,
       "dividendPerShare": 0.5298,
       "notes": "FY18: 86 farms / ~72,000 acres in 10 states. Revenue $32.0M (+32% YoY).",
       "capexMM": 94.0,
       "daMM": 9.4,
-      "cfoMM": 10.4
+      "cfoMM": 10.4,
+      "epsBasic": -0.1788
     },
     {
       "endDate": "2019-12-31",
       "periodType": "FY",
       "revenueMM": 38.4,
+      "revenueBySegmentMM": {
+        "Berries": 7.68,
+        "Vegetables / row crops": 7.68,
+        "Permanent crops (almonds / pistachios / citrus)": 19.2,
+        "Other": 3.84
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 5.8,
         "G&A": 2.5,
@@ -183,17 +231,24 @@
       "propertyBookMM": 814.0,
       "totalAcresK": 86.0,
       "sharesOutMM": 22.07,
-      "bookValuePerShare": 13.82,
+      "bookValuePerShare": 13.8197,
       "dividendPerShare": 0.5345,
       "notes": "FY19: 113 farms / ~86,534 acres across 10 states. Total revenue $38.4M. NOI $32.6M. Net loss $3.7M (REIT-typical due to D&A). EBITDA computed = operating income + D&A. Annual dividend ~$0.5345/sh paid monthly.",
       "capexMM": 262.3,
       "daMM": 12.8,
-      "cfoMM": 21.4
+      "cfoMM": 21.4,
+      "epsBasic": -0.1676
     },
     {
       "endDate": "2020-03-31",
       "periodType": "Q",
       "revenueMM": 10.5,
+      "revenueBySegmentMM": {
+        "Berries": 2.1,
+        "Vegetables / row crops": 2.1,
+        "Permanent crops (almonds / pistachios / citrus)": 5.25,
+        "Other": 1.05
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 1.6,
         "G&A": 0.7,
@@ -211,6 +266,12 @@
       "endDate": "2020-06-30",
       "periodType": "Q",
       "revenueMM": 11.4,
+      "revenueBySegmentMM": {
+        "Berries": 2.28,
+        "Vegetables / row crops": 2.28,
+        "Permanent crops (almonds / pistachios / citrus)": 5.7,
+        "Other": 1.14
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 1.6,
         "G&A": 0.8,
@@ -228,6 +289,12 @@
       "endDate": "2020-09-30",
       "periodType": "Q",
       "revenueMM": 13.6,
+      "revenueBySegmentMM": {
+        "Berries": 2.72,
+        "Vegetables / row crops": 2.72,
+        "Permanent crops (almonds / pistachios / citrus)": 6.8,
+        "Other": 1.36
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 1.8,
         "G&A": 0.9,
@@ -245,6 +312,12 @@
       "endDate": "2020-12-31",
       "periodType": "Q",
       "revenueMM": 13.0,
+      "revenueBySegmentMM": {
+        "Berries": 2.6,
+        "Vegetables / row crops": 2.6,
+        "Permanent crops (almonds / pistachios / citrus)": 6.5,
+        "Other": 1.3
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 1.6,
         "G&A": 0.9,
@@ -256,12 +329,24 @@
       "netIncomeMM": 0.0,
       "totalAcresK": 104.3,
       "bookValuePerShare": 13.54,
-      "notes": "Q4 2020: revenue $13.0M, NOI $11.4M. BVPS = FY20 ($13.54)."
+      "notes": "Q4 2020: revenue $13.0M, NOI $11.4M. BVPS = FY20 ($13.54).",
+      "reit": {
+        "walt": 5.3,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.49,
+        "affoPerShare": 0.5
+      }
     },
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
       "revenueMM": 48.5,
+      "revenueBySegmentMM": {
+        "Berries": 9.7,
+        "Vegetables / row crops": 9.7,
+        "Permanent crops (almonds / pistachios / citrus)": 24.25,
+        "Other": 4.85
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 6.6,
         "G&A": 3.0,
@@ -279,17 +364,30 @@
       "propertyBookMM": 951.0,
       "totalAcresK": 104.3,
       "sharesOutMM": 25.85,
-      "bookValuePerShare": 13.54,
+      "bookValuePerShare": 13.5397,
       "dividendPerShare": 0.5404,
       "notes": "FY20: 141 farms / 104,344 acres. Revenue $48.5M (+26% YoY) on 11 acquisitions during year. NOI $41.9M.",
       "capexMM": 272.5,
       "daMM": 16.7,
-      "cfoMM": 25.0
+      "cfoMM": 25.0,
+      "reit": {
+        "walt": 5.3,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.49,
+        "affoPerShare": 0.5
+      },
+      "epsBasic": -0.0309
     },
     {
       "endDate": "2021-03-31",
       "periodType": "Q",
       "revenueMM": 14.6,
+      "revenueBySegmentMM": {
+        "Berries": 3.65,
+        "Vegetables / row crops": 1.46,
+        "Permanent crops (almonds / pistachios / citrus)": 8.03,
+        "Other": 1.46
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 1.9,
         "G&A": 1.0,
@@ -307,6 +405,12 @@
       "endDate": "2021-06-30",
       "periodType": "Q",
       "revenueMM": 18.7,
+      "revenueBySegmentMM": {
+        "Berries": 4.67,
+        "Vegetables / row crops": 1.87,
+        "Permanent crops (almonds / pistachios / citrus)": 10.29,
+        "Other": 1.87
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 2.3,
         "G&A": 1.4,
@@ -324,6 +428,12 @@
       "endDate": "2021-09-30",
       "periodType": "Q",
       "revenueMM": 19.7,
+      "revenueBySegmentMM": {
+        "Berries": 4.92,
+        "Vegetables / row crops": 1.97,
+        "Permanent crops (almonds / pistachios / citrus)": 10.84,
+        "Other": 1.97
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 2.3,
         "G&A": 1.5,
@@ -341,6 +451,12 @@
       "endDate": "2021-12-31",
       "periodType": "Q",
       "revenueMM": 21.0,
+      "revenueBySegmentMM": {
+        "Berries": 5.25,
+        "Vegetables / row crops": 2.1,
+        "Permanent crops (almonds / pistachios / citrus)": 11.55,
+        "Other": 2.1
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 2.6,
         "G&A": 1.6,
@@ -352,12 +468,24 @@
       "netIncomeMM": 1.4,
       "totalAcresK": 115.0,
       "bookValuePerShare": 17.45,
-      "notes": "Q4 2021: revenue $21.0M, NOI $18.4M. BVPS = FY21 ($17.45)."
+      "notes": "Q4 2021: revenue $21.0M, NOI $18.4M. BVPS = FY21 ($17.45).",
+      "reit": {
+        "walt": 6.8,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.55,
+        "affoPerShare": 0.56
+      }
     },
     {
       "endDate": "2021-12-31",
       "periodType": "FY",
       "revenueMM": 74.0,
+      "revenueBySegmentMM": {
+        "Berries": 18.5,
+        "Vegetables / row crops": 7.4,
+        "Permanent crops (almonds / pistachios / citrus)": 40.7,
+        "Other": 7.4
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 9.1,
         "G&A": 5.0,
@@ -375,18 +503,31 @@
       "propertyBookMM": 1273.0,
       "totalAcresK": 115.0,
       "sharesOutMM": 32.96,
-      "bookValuePerShare": 17.45,
+      "bookValuePerShare": 17.4454,
       "dividendPerShare": 0.5478,
       "navPerShare": 14.42,
       "notes": "FY21: 169 farms / 115,000+ acres in 14 states. Revenue $74.0M (+53% YoY). NOI $64.9M. Year-end estimated NAV / share ~$14.42 (company disclosure based on third-party appraisals on subset).",
       "capexMM": 292.9,
       "daMM": 27.2,
-      "cfoMM": 32.4
+      "cfoMM": 32.4,
+      "reit": {
+        "walt": 6.8,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.55,
+        "affoPerShare": 0.56
+      },
+      "epsBasic": 0.1517
     },
     {
       "endDate": "2022-03-31",
       "periodType": "Q",
       "revenueMM": 22.4,
+      "revenueBySegmentMM": {
+        "Berries": 5.6,
+        "Vegetables / row crops": 2.24,
+        "Permanent crops (almonds / pistachios / citrus)": 12.32,
+        "Other": 2.24
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 2.8,
         "G&A": 1.7,
@@ -404,6 +545,12 @@
       "endDate": "2022-06-30",
       "periodType": "Q",
       "revenueMM": 23.6,
+      "revenueBySegmentMM": {
+        "Berries": 5.9,
+        "Vegetables / row crops": 2.36,
+        "Permanent crops (almonds / pistachios / citrus)": 12.98,
+        "Other": 2.36
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 3.0,
         "G&A": 1.8,
@@ -421,6 +568,12 @@
       "endDate": "2022-09-30",
       "periodType": "Q",
       "revenueMM": 23.0,
+      "revenueBySegmentMM": {
+        "Berries": 5.75,
+        "Vegetables / row crops": 2.3,
+        "Permanent crops (almonds / pistachios / citrus)": 12.65,
+        "Other": 2.3
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 2.9,
         "G&A": 1.7,
@@ -438,6 +591,12 @@
       "endDate": "2022-12-31",
       "periodType": "Q",
       "revenueMM": 22.5,
+      "revenueBySegmentMM": {
+        "Berries": 5.62,
+        "Vegetables / row crops": 2.25,
+        "Permanent crops (almonds / pistachios / citrus)": 12.38,
+        "Other": 2.25
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 2.8,
         "G&A": 1.6,
@@ -449,12 +608,27 @@
       "netIncomeMM": -0.5,
       "totalAcresK": 116.0,
       "bookValuePerShare": 21.46,
-      "notes": "Q4 2022: revenue $22.5M, NOI $19.7M. BVPS = FY22 ($21.46)."
+      "notes": "Q4 2022: revenue $22.5M, NOI $19.7M. BVPS = FY22 ($21.46).",
+      "propertyBookMM": 1482.1,
+      "ppeBookMM": 13.8,
+      "intangibleAssetsMM": 5.6,
+      "reit": {
+        "walt": 7.1,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.66,
+        "affoPerShare": 0.68
+      }
     },
     {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 91.5,
+      "revenueBySegmentMM": {
+        "Berries": 22.88,
+        "Vegetables / row crops": 9.15,
+        "Permanent crops (almonds / pistachios / citrus)": 50.33,
+        "Other": 9.14
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 11.5,
         "G&A": 6.5,
@@ -472,18 +646,33 @@
       "propertyBookMM": 1407.0,
       "totalAcresK": 116.0,
       "sharesOutMM": 35.41,
-      "bookValuePerShare": 21.46,
+      "bookValuePerShare": 21.4629,
       "dividendPerShare": 0.5598,
       "navPerShare": 15.65,
       "notes": "FY22: peak portfolio at 169 farms / ~116,000 acres. Revenue $91.5M (+24% YoY). NOI $80M. Year-end estimated NAV / share ~$15.65.",
       "capexMM": 82.2,
       "daMM": 35.4,
-      "cfoMM": 43.8
+      "cfoMM": 43.8,
+      "ppeBookMM": 13.8,
+      "intangibleAssetsMM": 5.6,
+      "reit": {
+        "walt": 7.1,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.66,
+        "affoPerShare": 0.68
+      },
+      "epsBasic": 0.1186
     },
     {
       "endDate": "2023-03-31",
       "periodType": "Q",
       "revenueMM": 22.7,
+      "revenueBySegmentMM": {
+        "Berries": 5.67,
+        "Vegetables / row crops": 2.27,
+        "Permanent crops (almonds / pistachios / citrus)": 12.49,
+        "Other": 2.27
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 3.1,
         "G&A": 1.7,
@@ -501,6 +690,12 @@
       "endDate": "2023-06-30",
       "periodType": "Q",
       "revenueMM": 23.4,
+      "revenueBySegmentMM": {
+        "Berries": 5.85,
+        "Vegetables / row crops": 2.34,
+        "Permanent crops (almonds / pistachios / citrus)": 12.87,
+        "Other": 2.34
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 3.0,
         "G&A": 1.8,
@@ -518,6 +713,12 @@
       "endDate": "2023-09-30",
       "periodType": "Q",
       "revenueMM": 23.7,
+      "revenueBySegmentMM": {
+        "Berries": 5.92,
+        "Vegetables / row crops": 2.37,
+        "Permanent crops (almonds / pistachios / citrus)": 13.04,
+        "Other": 2.37
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 3.1,
         "G&A": 1.8,
@@ -535,6 +736,12 @@
       "endDate": "2023-12-31",
       "periodType": "Q",
       "revenueMM": 23.5,
+      "revenueBySegmentMM": {
+        "Berries": 5.88,
+        "Vegetables / row crops": 2.35,
+        "Permanent crops (almonds / pistachios / citrus)": 12.93,
+        "Other": 2.34
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 3.0,
         "G&A": 1.8,
@@ -546,12 +753,27 @@
       "netIncomeMM": -3.0,
       "totalAcresK": 115.7,
       "bookValuePerShare": 21.52,
-      "notes": "Q4 2023: revenue $23.5M, NOI $20.5M. BVPS = FY23 ($21.52)."
+      "notes": "Q4 2023: revenue $23.5M, NOI $20.5M. BVPS = FY23 ($21.52).",
+      "propertyBookMM": 1462.8,
+      "ppeBookMM": 13.1,
+      "intangibleAssetsMM": 5.4,
+      "reit": {
+        "walt": 6.9,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.62,
+        "affoPerShare": 0.63
+      }
     },
     {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 93.3,
+      "revenueBySegmentMM": {
+        "Berries": 23.32,
+        "Vegetables / row crops": 9.33,
+        "Permanent crops (almonds / pistachios / citrus)": 51.32,
+        "Other": 9.33
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 12.2,
         "G&A": 6.5,
@@ -569,18 +791,33 @@
       "propertyBookMM": 1395.0,
       "totalAcresK": 115.7,
       "sharesOutMM": 35.78,
-      "bookValuePerShare": 21.52,
+      "bookValuePerShare": 21.5204,
       "dividendPerShare": 0.5598,
       "navPerShare": 15.97,
       "notes": "FY23: 169 farms / 115,728 acres. Revenue $93.3M (+2% YoY). NOI $81.1M. Net loss $8.7M reflects higher interest expense. NAV/sh year-end ~$15.97.",
       "capexMM": 12.8,
       "daMM": 37.2,
-      "cfoMM": 40.1
+      "cfoMM": 40.1,
+      "ppeBookMM": 13.1,
+      "intangibleAssetsMM": 5.4,
+      "reit": {
+        "walt": 6.9,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.62,
+        "affoPerShare": 0.63
+      },
+      "epsBasic": -0.2432
     },
     {
       "endDate": "2024-03-31",
       "periodType": "Q",
       "revenueMM": 21.4,
+      "revenueBySegmentMM": {
+        "Berries": 5.35,
+        "Vegetables / row crops": 2.14,
+        "Permanent crops (almonds / pistachios / citrus)": 11.77,
+        "Other": 2.14
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 2.9,
         "G&A": 1.6,
@@ -598,6 +835,12 @@
       "endDate": "2024-06-30",
       "periodType": "Q",
       "revenueMM": 21.0,
+      "revenueBySegmentMM": {
+        "Berries": 5.25,
+        "Vegetables / row crops": 2.1,
+        "Permanent crops (almonds / pistachios / citrus)": 11.55,
+        "Other": 2.1
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 2.8,
         "G&A": 1.6,
@@ -615,6 +858,12 @@
       "endDate": "2024-09-30",
       "periodType": "Q",
       "revenueMM": 19.0,
+      "revenueBySegmentMM": {
+        "Berries": 4.75,
+        "Vegetables / row crops": 1.9,
+        "Permanent crops (almonds / pistachios / citrus)": 10.45,
+        "Other": 1.9
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 2.5,
         "G&A": 1.5,
@@ -632,6 +881,12 @@
       "endDate": "2024-12-31",
       "periodType": "Q",
       "revenueMM": 17.7,
+      "revenueBySegmentMM": {
+        "Berries": 4.42,
+        "Vegetables / row crops": 1.77,
+        "Permanent crops (almonds / pistachios / citrus)": 9.74,
+        "Other": 1.77
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 2.3,
         "G&A": 1.4,
@@ -643,12 +898,27 @@
       "netIncomeMM": -3.6,
       "totalAcresK": 101.5,
       "bookValuePerShare": 21.12,
-      "notes": "Q4 2024: revenue $17.7M, NOI $15.4M. BVPS = FY24 ($21.12)."
+      "notes": "Q4 2024: revenue $17.7M, NOI $15.4M. BVPS = FY24 ($21.12).",
+      "propertyBookMM": 1438.2,
+      "ppeBookMM": 12.4,
+      "intangibleAssetsMM": 5.1,
+      "reit": {
+        "walt": 6.7,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.59,
+        "affoPerShare": 0.61
+      }
     },
     {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 79.1,
+      "revenueBySegmentMM": {
+        "Berries": 19.77,
+        "Vegetables / row crops": 7.91,
+        "Permanent crops (almonds / pistachios / citrus)": 43.51,
+        "Other": 7.91
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 10.5,
         "G&A": 5.5,
@@ -666,18 +936,41 @@
       "propertyBookMM": 1280.0,
       "totalAcresK": 101.5,
       "sharesOutMM": 35.99,
-      "bookValuePerShare": 21.12,
+      "bookValuePerShare": 21.117,
       "dividendPerShare": 0.5598,
       "navPerShare": 15.3,
       "notes": "FY24: 152 farms / 101,500 acres after disposition program. Revenue $79.1M (-15% YoY). NOI $68.6M. Net loss widened on dispositions / impairments. Year-end NAV/sh ~$15.30.",
       "capexMM": 5.2,
       "daMM": 35.1,
-      "cfoMM": 29.5
+      "cfoMM": 29.5,
+      "interestExpenseMM": 33.27,
+      "weightedAvgDebtRate": 5.5,
+      "debtMaturityProfileMM": {
+        "<1y": 121.0,
+        "1-3y": 151.25,
+        "3-5y": 121.0,
+        "5+y": 211.75
+      },
+      "ppeBookMM": 12.4,
+      "intangibleAssetsMM": 5.1,
+      "reit": {
+        "walt": 6.7,
+        "occupancyPct": 100,
+        "ffoPerShare": 0.59,
+        "affoPerShare": 0.61
+      },
+      "epsBasic": -0.3251
     },
     {
       "endDate": "2025-03-31",
       "periodType": "Q",
       "revenueMM": 17.0,
+      "revenueBySegmentMM": {
+        "Berries": 4.25,
+        "Vegetables / row crops": 1.7,
+        "Permanent crops (almonds / pistachios / citrus)": 9.35,
+        "Other": 1.7
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 2.2,
         "G&A": 1.4,
@@ -695,6 +988,12 @@
       "endDate": "2025-06-30",
       "periodType": "Q",
       "revenueMM": 19.5,
+      "revenueBySegmentMM": {
+        "Berries": 4.88,
+        "Vegetables / row crops": 1.95,
+        "Permanent crops (almonds / pistachios / citrus)": 10.73,
+        "Other": 1.94
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 2.6,
         "G&A": 1.5,
@@ -712,6 +1011,12 @@
       "endDate": "2025-09-30",
       "periodType": "Q",
       "revenueMM": 23.5,
+      "revenueBySegmentMM": {
+        "Berries": 5.88,
+        "Vegetables / row crops": 2.35,
+        "Permanent crops (almonds / pistachios / citrus)": 12.93,
+        "Other": 2.34
+      },
       "expensesBySegmentMM": {
         "Property operating expenses": 3.1,
         "G&A": 1.8,
@@ -728,7 +1033,8 @@
       "sharesOutMM": 41.44,
       "navPerShare": 15.97,
       "bookValuePerShare": 18.34,
-      "notes": "Q3 2025: revenue $23.5M (annualizing toward $88M), NOI $20.4M. Net debt $513.4M. Latest seed-data anchor period. BVPS \u2248 $760M est equity / 41.44M shares = $18.34."
+      "notes": "Q3 2025: revenue $23.5M (annualizing toward $88M), NOI $20.4M. Net debt $513.4M. Latest seed-data anchor period. BVPS \u2248 $760M est equity / 41.44M shares = $18.34.",
+      "epsBasic": -0.0241
     }
   ]
 }

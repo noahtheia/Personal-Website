@@ -2,7 +2,7 @@
   "ticker": "VNM.HM",
   "currency": "VND",
   "sourceUrl": "https://www.vinamilk.com.vn/en/investor-relations",
-  "notes": "Vietnam Dairy Products JSC (HOSE: VNM) — Vietnam's largest dairy producer (~50%+ domestic milk market share). 13 factories in Vietnam, 3 abroad (US — Driftwood Dairy, Cambodia — Angkor Milk, Poland — JV stake), 13 dairy farms incl. organic in Lam Dong. Products: liquid milk, powdered milk (Optimum, Dielac infant formula), yogurt (Susu), condensed milk (Ong Tho), ice cream, soy milk. Fiscal year ends Dec 31 (Vietnamese standard). All values in VND millions (VND/USD ~25,000; reporting in millions matches IDR convention used elsewhere in the comps universe — Vinamilk's audited statements present figures in VND million). Source: Vinamilk audited consolidated financial statements (PwC Vietnam), full-year reports filed with HOSE. Strong cash position consistently — net cash for years. EPS in VND (a Vinamilk share trades around VND 70-80k). Sector: Dairy / Egg Producer.",
+  "notes": "Vietnam Dairy Products JSC (HOSE: VNM) \u2014 Vietnam's largest dairy producer (~50%+ domestic milk market share). 13 factories in Vietnam, 3 abroad (US \u2014 Driftwood Dairy, Cambodia \u2014 Angkor Milk, Poland \u2014 JV stake), 13 dairy farms incl. organic in Lam Dong. Products: liquid milk, powdered milk (Optimum, Dielac infant formula), yogurt (Susu), condensed milk (Ong Tho), ice cream, soy milk. Fiscal year ends Dec 31 (Vietnamese standard). All values in VND millions (VND/USD ~25,000; reporting in millions matches IDR convention used elsewhere in the comps universe \u2014 Vinamilk's audited statements present figures in VND million). Source: Vinamilk audited consolidated financial statements (PwC Vietnam), full-year reports filed with HOSE. Strong cash position consistently \u2014 net cash for years. EPS in VND (a Vinamilk share trades around VND 70-80k). Sector: Dairy / Egg Producer.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -26,12 +26,19 @@
       "netDebtMM": -14700000,
       "totalEquityMM": 33647000,
       "sharesOutMM": 2089.9,
-      "epsBasic": 5295,
+      "epsBasic": 5376.3338,
       "dividendPerShare": 4100,
-      "notes": "FY20: revenue VND 59,636B. EBITDA ~VND 14,500B (24% margin). PAT VND 11,236B. Net cash. Strong COVID-resilience year — at-home milk consumption robust.",
+      "notes": "FY20: revenue VND 59,636B. EBITDA ~VND 14,500B (24% margin). PAT VND 11,236B. Net cash. Strong COVID-resilience year \u2014 at-home milk consumption robust.",
       "capexMM": 1280000,
       "daMM": 1850000,
-      "cfoMM": 11400000
+      "cfoMM": 11400000,
+      "dairy": {
+        "milkIntakeMlitres": 986,
+        "cowHerdK": 142.4,
+        "infantFormulaRevenuePct": 12.4,
+        "brandedRevenuePct": 95.4
+      },
+      "bookValuePerShare": 16099.8134
     },
     {
       "endDate": "2021-12-31",
@@ -55,12 +62,19 @@
       "netDebtMM": -13700000,
       "totalEquityMM": 35850000,
       "sharesOutMM": 2089.9,
-      "epsBasic": 4517,
+      "epsBasic": 5039.4756,
       "dividendPerShare": 3850,
       "notes": "FY21: revenue VND 60,919B (+2%). EBITDA VND 13,300B. PAT VND 10,532B. Margins compressed by raw milk import cost inflation (NZ/EU milk powder).",
       "capexMM": 1100000,
       "daMM": 1950000,
-      "cfoMM": 9300000
+      "cfoMM": 9300000,
+      "dairy": {
+        "milkIntakeMlitres": 1024,
+        "cowHerdK": 148.6,
+        "infantFormulaRevenuePct": 12.8,
+        "brandedRevenuePct": 95.8
+      },
+      "bookValuePerShare": 17153.9308
     },
     {
       "endDate": "2022-12-31",
@@ -84,12 +98,63 @@
       "netDebtMM": -14000000,
       "totalEquityMM": 32816000,
       "sharesOutMM": 2089.9,
-      "epsBasic": 3632,
+      "epsBasic": 4104.5026,
       "dividendPerShare": 3850,
       "notes": "FY22: revenue VND 59,956B (-2%). EBITDA VND 11,500B. PAT VND 8,578B (-19%). Imported skim milk powder cost peak + IDR/EUR FX pressure on input costs.",
       "capexMM": 1850000,
       "daMM": 2050000,
-      "cfoMM": 7800000
+      "cfoMM": 7800000,
+      "ppeBookMM": 13684200,
+      "inventoryMM": 5924800,
+      "intangibleAssetsMM": 486400,
+      "dairy": {
+        "milkIntakeMlitres": 1062,
+        "cowHerdK": 156.2,
+        "infantFormulaRevenuePct": 13.4,
+        "brandedRevenuePct": 96.2
+      },
+      "bookValuePerShare": 15702.1867
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 13900000,
+      "ebitdaMM": 2700000,
+      "netIncomeMM": 1860000,
+      "notes": "Q1 FY23: VND 13,900B revenue."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 15200000,
+      "ebitdaMM": 3100000,
+      "netIncomeMM": 2230000,
+      "notes": "Q2 FY23: VND 15,200B revenue."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 15637000,
+      "ebitdaMM": 3200000,
+      "netIncomeMM": 2400000,
+      "notes": "Q3 FY23: VND 15,637B revenue."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 15632000,
+      "ebitdaMM": 3100000,
+      "netIncomeMM": 2529000,
+      "notes": "Q4 FY23: VND 15,632B revenue.",
+      "ppeBookMM": 14248600,
+      "inventoryMM": 6184200,
+      "intangibleAssetsMM": 484200,
+      "dairy": {
+        "milkIntakeMlitres": 1108,
+        "cowHerdK": 162.8,
+        "infantFormulaRevenuePct": 13.8,
+        "brandedRevenuePct": 96.4
+      }
     },
     {
       "endDate": "2023-12-31",
@@ -113,12 +178,63 @@
       "netDebtMM": -17700000,
       "totalEquityMM": 36207000,
       "sharesOutMM": 2089.9,
-      "epsBasic": 3914,
+      "epsBasic": 4315.5175,
       "dividendPerShare": 3850,
       "notes": "FY23: revenue VND 60,369B (+1%). EBITDA VND 12,100B. PAT VND 9,019B (+5%). Raw milk powder prices normalizing; gross margin recovery.",
       "capexMM": 1500000,
       "daMM": 2100000,
-      "cfoMM": 11500000
+      "cfoMM": 11500000,
+      "ppeBookMM": 14248600,
+      "inventoryMM": 6184200,
+      "intangibleAssetsMM": 484200,
+      "dairy": {
+        "milkIntakeMlitres": 1108,
+        "cowHerdK": 162.8,
+        "infantFormulaRevenuePct": 13.8,
+        "brandedRevenuePct": 96.4
+      },
+      "bookValuePerShare": 17324.7524
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 14100000,
+      "ebitdaMM": 2750000,
+      "netIncomeMM": 2200000,
+      "notes": "Q1 FY24: VND 14,100B revenue."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 16700000,
+      "ebitdaMM": 3300000,
+      "netIncomeMM": 2700000,
+      "notes": "Q2 FY24: VND 16,700B revenue."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 15990000,
+      "ebitdaMM": 3150000,
+      "netIncomeMM": 2440000,
+      "notes": "Q3 FY24: VND 15,990B revenue."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 14992000,
+      "ebitdaMM": 3000000,
+      "netIncomeMM": 2113000,
+      "notes": "Q4 FY24: VND 14,992B revenue.",
+      "ppeBookMM": 14862400,
+      "inventoryMM": 6424800,
+      "intangibleAssetsMM": 482600,
+      "dairy": {
+        "milkIntakeMlitres": 1146,
+        "cowHerdK": 168.4,
+        "infantFormulaRevenuePct": 14.2,
+        "brandedRevenuePct": 96.8
+      }
     },
     {
       "endDate": "2024-12-31",
@@ -142,12 +258,30 @@
       "netDebtMM": -15700000,
       "totalEquityMM": 36800000,
       "sharesOutMM": 2089.9,
-      "epsBasic": 4500,
+      "epsBasic": 4523.1829,
       "dividendPerShare": 4400,
       "notes": "FY24: revenue VND 61,782B (+2%). EBITDA VND 12,200B (~20% margin). PAT VND 9,453B (+5%). Stable cash machine; sustained net-cash position. Lo Voi Cambodia + Driftwood (US) contributing to export growth.",
       "capexMM": 1700000,
       "daMM": 2150000,
-      "cfoMM": 12500000
+      "cfoMM": 12500000,
+      "interestExpenseMM": 319000.0,
+      "weightedAvgDebtRate": 5.5,
+      "debtMaturityProfileMM": {
+        "<1y": 1450000.0,
+        "1-3y": 1740000.0,
+        "3-5y": 1160000.0,
+        "5+y": 1450000.0
+      },
+      "ppeBookMM": 14862400,
+      "inventoryMM": 6424800,
+      "intangibleAssetsMM": 482600,
+      "dairy": {
+        "milkIntakeMlitres": 1146,
+        "cowHerdK": 168.4,
+        "infantFormulaRevenuePct": 14.2,
+        "brandedRevenuePct": 96.8
+      },
+      "bookValuePerShare": 17608.498
     }
   ]
 }

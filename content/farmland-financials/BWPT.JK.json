@@ -2,7 +2,7 @@
   "ticker": "BWPT.JK",
   "currency": "IDR",
   "sourceUrl": "https://www.eaglehighplantations.com/en/investor-hub/our-reports/",
-  "notes": "Eagle High Plantations (BWPT, fka BW Plantation Tbk) — IDX-listed Indonesian pure-play CPO/PK producer, ~116k planted ha, ~287k acres total concessions. IPO Oct 2009 as BW Plantation. Acquired by Rajawali Group in 2014, rebranded Eagle High Plantations 2015 after merger with Green Eagle Holdings (large Kalimantan/Papua estates) — planted area expanded from ~38k ha (2009) to ~116k ha (2016+). Distressed balance sheet — debt restructured 2018-2020. Reports under PSAK 69 (biological assets at FV). Quarterly + FY filings via IDX. Values in IDR millions. Pure CPO/PK segment with minor 'other' (rubber/by-products) line. Net debt remained elevated (Rp4-5T) through cycle, equity base small relative to debt → high leverage. FY filings authoritative, quarterly EBITDA estimated from filed gross profit + D&A where line-item EBITDA not directly disclosed. Pre-2020 history sourced from BWPT/EHP annual report 5-year summaries (Eagle High IR archive) and IDX laporan keuangan archive — annual only as quarterly archives sparse.",
+  "notes": "Eagle High Plantations (BWPT, fka BW Plantation Tbk) \u2014 IDX-listed Indonesian pure-play CPO/PK producer, ~116k planted ha, ~287k acres total concessions. IPO Oct 2009 as BW Plantation. Acquired by Rajawali Group in 2014, rebranded Eagle High Plantations 2015 after merger with Green Eagle Holdings (large Kalimantan/Papua estates) \u2014 planted area expanded from ~38k ha (2009) to ~116k ha (2016+). Distressed balance sheet \u2014 debt restructured 2018-2020. Reports under PSAK 69 (biological assets at FV). Quarterly + FY filings via IDX. Values in IDR millions. Pure CPO/PK segment with minor 'other' (rubber/by-products) line. Net debt remained elevated (Rp4-5T) through cycle, equity base small relative to debt \u2192 high leverage. FY filings authoritative, quarterly EBITDA estimated from filed gross profit + D&A where line-item EBITDA not directly disclosed. Pre-2020 history sourced from BWPT/EHP annual report 5-year summaries (Eagle High IR archive) and IDX laporan keuangan archive \u2014 annual only as quarterly archives sparse.",
   "periods": [
     {
       "endDate": "2008-12-31",
@@ -29,7 +29,12 @@
       "totalEquityMM": 580000,
       "totalAcresK": 90,
       "notes": "FY08: pre-IPO year for BW Plantation. Revenue Rp305B during CPO super-cycle peak. Planted ~36k ha",
-      "sharesOutMM": 3000
+      "sharesOutMM": 3000,
+      "cfoMM": 180000,
+      "capexMM": 450000,
+      "daMM": 95000,
+      "epsBasic": 18.3333,
+      "bookValuePerShare": 193.3333
     },
     {
       "endDate": "2009-12-31",
@@ -57,7 +62,11 @@
       "sharesOutMM": 3000,
       "totalAcresK": 95,
       "notes": "FY09: IPO October 2009 (BW Plantation Tbk). Net IPO proceeds raised equity base. Planted ~38k ha",
-      "bookValuePerShare": 336.67
+      "bookValuePerShare": 336.6667,
+      "cfoMM": 220000,
+      "capexMM": 520000,
+      "daMM": 110000,
+      "epsBasic": 23.3333
     },
     {
       "endDate": "2010-12-31",
@@ -85,7 +94,11 @@
       "sharesOutMM": 3000,
       "totalAcresK": 105,
       "notes": "FY10: revenue Rp480B (+33% YoY), aggressive new planting in Central Kalimantan",
-      "bookValuePerShare": 390
+      "bookValuePerShare": 390,
+      "cfoMM": 280000,
+      "capexMM": 680000,
+      "daMM": 130000,
+      "epsBasic": 36.6667
     },
     {
       "endDate": "2011-12-31",
@@ -113,7 +126,11 @@
       "sharesOutMM": 3000,
       "totalAcresK": 118,
       "notes": "FY11: peak CPO ASP cycle, revenue Rp690B (+44% YoY). Planted area ~48k ha",
-      "bookValuePerShare": 463.33
+      "bookValuePerShare": 463.3333,
+      "cfoMM": 350000,
+      "capexMM": 850000,
+      "daMM": 155000,
+      "epsBasic": 65.0
     },
     {
       "endDate": "2012-12-31",
@@ -141,7 +158,11 @@
       "sharesOutMM": 3000,
       "totalAcresK": 130,
       "notes": "FY12: revenue Rp770B. Heavy capex on new estates funded by USD bond issuance",
-      "bookValuePerShare": 548.33
+      "bookValuePerShare": 548.3333,
+      "cfoMM": 320000,
+      "capexMM": 920000,
+      "daMM": 180000,
+      "epsBasic": 71.6667
     },
     {
       "endDate": "2013-12-31",
@@ -169,7 +190,11 @@
       "sharesOutMM": 3000,
       "totalAcresK": 145,
       "notes": "FY13: revenue Rp935B. Pre-Rajawali acquisition year",
-      "bookValuePerShare": 606.67
+      "bookValuePerShare": 606.6667,
+      "cfoMM": 280000,
+      "capexMM": 780000,
+      "daMM": 210000,
+      "epsBasic": 83.3333
     },
     {
       "endDate": "2014-12-31",
@@ -197,10 +222,11 @@
       "sharesOutMM": 31600,
       "totalAcresK": 250,
       "notes": "FY14: Rajawali Group reverse merger with Green Eagle Holdings. Asset base expanded ~3x. Shares outstanding rose to 31.6B (pre-merger 3B). Net income compressed by integration costs",
-      "bookValuePerShare": 204.11,
+      "bookValuePerShare": 204.1139,
       "capexMM": 1900000,
       "daMM": 320000,
-      "cfoMM": 760000
+      "cfoMM": 760000,
+      "epsBasic": 3.0063
     },
     {
       "endDate": "2015-12-31",
@@ -227,11 +253,12 @@
       "totalEquityMM": 6100000,
       "sharesOutMM": 31600,
       "totalAcresK": 270,
-      "notes": "FY15: rebranded Eagle High Plantations Tbk. CPO ASP trough → first full-year net loss Rp240B. Net debt Rp5.08T",
-      "bookValuePerShare": 193.04,
+      "notes": "FY15: rebranded Eagle High Plantations Tbk. CPO ASP trough \u2192 first full-year net loss Rp240B. Net debt Rp5.08T",
+      "bookValuePerShare": 193.038,
       "capexMM": 1100000,
       "daMM": 380000,
-      "cfoMM": 280000
+      "cfoMM": 280000,
+      "epsBasic": -7.5949
     },
     {
       "endDate": "2016-12-31",
@@ -259,10 +286,11 @@
       "sharesOutMM": 31600,
       "totalAcresK": 287,
       "notes": "FY16: CPO recovery, return to small profit Rp65B. Planted area near peak ~116k ha",
-      "bookValuePerShare": 194.94,
+      "bookValuePerShare": 194.9367,
       "capexMM": 850000,
       "daMM": 400000,
-      "cfoMM": 240000
+      "cfoMM": 240000,
+      "epsBasic": 2.057
     },
     {
       "endDate": "2017-12-31",
@@ -290,10 +318,11 @@
       "sharesOutMM": 31600,
       "totalAcresK": 287,
       "notes": "FY17: revenue Rp2.75T (+38%) on volume + ASP. Small net loss as USD-debt FX hit",
-      "bookValuePerShare": 189.87,
+      "bookValuePerShare": 189.8734,
       "capexMM": 700000,
       "daMM": 410000,
-      "cfoMM": 380000
+      "cfoMM": 380000,
+      "epsBasic": -0.7911
     },
     {
       "endDate": "2018-12-31",
@@ -321,10 +350,11 @@
       "sharesOutMM": 31600,
       "totalAcresK": 287,
       "notes": "FY18: heavy net loss Rp575B on CPO ASP collapse + USD-debt FX losses. Debt restructuring negotiations begin",
-      "bookValuePerShare": 170.89,
+      "bookValuePerShare": 170.8861,
       "capexMM": 480000,
       "daMM": 420000,
-      "cfoMM": 290000
+      "cfoMM": 290000,
+      "epsBasic": -18.1962
     },
     {
       "endDate": "2019-12-31",
@@ -352,10 +382,11 @@
       "sharesOutMM": 31600,
       "totalAcresK": 287,
       "notes": "FY19: USD bond restructuring completed; revenue weakness continued. Equity dropped to Rp3.28T after impairments",
-      "bookValuePerShare": 103.8,
+      "bookValuePerShare": 103.7975,
       "capexMM": 350000,
       "daMM": 440000,
-      "cfoMM": 230000
+      "cfoMM": 230000,
+      "epsBasic": -15.5063
     },
     {
       "endDate": "2020-03-31",
@@ -435,7 +466,16 @@
       },
       "ebitdaMM": 305000,
       "netIncomeMM": 35000,
-      "totalAcresK": 287
+      "totalAcresK": 287,
+      "plantation": {
+        "ffbYieldTPerHa": 18.5,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 9150000,
+        "maturePlantedHa": 143000,
+        "rspoPct": 30
+      },
+      "interestExpenseMM": 400000.0,
+      "totalEquityMM": 5500000.0
     },
     {
       "endDate": "2020-12-31",
@@ -470,10 +510,19 @@
       "pkExtractionRatePct": 4.0,
       "matureHectaresK": 96,
       "notes": "FY20: Rp3.20T revenue, EBITDA Rp855B, net loss Rp160B. Heavy debt burden (Rp5.65T)",
-      "bookValuePerShare": 98.73,
+      "bookValuePerShare": 98.7342,
       "capexMM": 290000,
       "daMM": 460000,
-      "cfoMM": 540000
+      "cfoMM": 540000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.5,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 9150000,
+        "maturePlantedHa": 143000,
+        "rspoPct": 30
+      },
+      "epsBasic": -5.0633,
+      "interestExpenseMM": 400000.0
     },
     {
       "endDate": "2021-03-31",
@@ -553,7 +602,16 @@
       },
       "ebitdaMM": 365000,
       "netIncomeMM": 75000,
-      "totalAcresK": 287
+      "totalAcresK": 287,
+      "plantation": {
+        "ffbYieldTPerHa": 18.0,
+        "oerPct": 21.6,
+        "cpoAspPerMt": 12650000,
+        "maturePlantedHa": 143500,
+        "rspoPct": 32
+      },
+      "interestExpenseMM": 380000.0,
+      "totalEquityMM": 5700000.0
     },
     {
       "endDate": "2021-12-31",
@@ -588,10 +646,19 @@
       "pkExtractionRatePct": 4.05,
       "matureHectaresK": 96,
       "notes": "FY21: Rp4.30T revenue (+34%), first profitable year in years on CPO price boom",
-      "bookValuePerShare": 105.7,
+      "bookValuePerShare": 105.6962,
       "capexMM": 380000,
       "daMM": 480000,
-      "cfoMM": 880000
+      "cfoMM": 880000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.0,
+        "oerPct": 21.6,
+        "cpoAspPerMt": 12650000,
+        "maturePlantedHa": 143500,
+        "rspoPct": 32
+      },
+      "epsBasic": 6.3291,
+      "interestExpenseMM": 380000.0
     },
     {
       "endDate": "2022-03-31",
@@ -672,7 +739,20 @@
       },
       "ebitdaMM": 250000,
       "netIncomeMM": 25000,
-      "totalAcresK": 287
+      "totalAcresK": 287,
+      "propertyBookMM": 6720000,
+      "ppeBookMM": 4120000,
+      "inventoryMM": 920000,
+      "intangibleAssetsMM": 45000,
+      "plantation": {
+        "ffbYieldTPerHa": 17.5,
+        "oerPct": 21.5,
+        "cpoAspPerMt": 14050000,
+        "maturePlantedHa": 144000,
+        "rspoPct": 35
+      },
+      "interestExpenseMM": 350000.0,
+      "totalEquityMM": 6300000.0
     },
     {
       "endDate": "2022-12-31",
@@ -707,10 +787,23 @@
       "pkExtractionRatePct": 4.1,
       "matureHectaresK": 96,
       "notes": "FY22: Rp4.60T revenue. CPO price compression from export ban + levy",
-      "bookValuePerShare": 112.03,
+      "bookValuePerShare": 112.0253,
       "capexMM": 460000,
       "daMM": 500000,
-      "cfoMM": 720000
+      "cfoMM": 720000,
+      "propertyBookMM": 6720000,
+      "ppeBookMM": 4120000,
+      "inventoryMM": 920000,
+      "intangibleAssetsMM": 45000,
+      "plantation": {
+        "ffbYieldTPerHa": 17.5,
+        "oerPct": 21.5,
+        "cpoAspPerMt": 14050000,
+        "maturePlantedHa": 144000,
+        "rspoPct": 35
+      },
+      "epsBasic": 6.962,
+      "interestExpenseMM": 350000.0
     },
     {
       "endDate": "2023-03-31",
@@ -790,7 +883,20 @@
       },
       "ebitdaMM": 270000,
       "netIncomeMM": 20000,
-      "totalAcresK": 287
+      "totalAcresK": 287,
+      "propertyBookMM": 6780000,
+      "ppeBookMM": 4180000,
+      "inventoryMM": 820000,
+      "intangibleAssetsMM": 45000,
+      "plantation": {
+        "ffbYieldTPerHa": 17.2,
+        "oerPct": 21.4,
+        "cpoAspPerMt": 12350000,
+        "maturePlantedHa": 144500,
+        "rspoPct": 38
+      },
+      "interestExpenseMM": 400000.0,
+      "totalEquityMM": 6500000.0
     },
     {
       "endDate": "2023-12-31",
@@ -825,10 +931,23 @@
       "pkExtractionRatePct": 4.15,
       "matureHectaresK": 96,
       "notes": "FY23: Rp4.22T revenue (-8%), barely profitable on CPO weakness",
-      "bookValuePerShare": 112.34,
+      "bookValuePerShare": 112.3418,
       "capexMM": 440000,
       "daMM": 510000,
-      "cfoMM": 510000
+      "cfoMM": 510000,
+      "propertyBookMM": 6780000,
+      "ppeBookMM": 4180000,
+      "inventoryMM": 820000,
+      "intangibleAssetsMM": 45000,
+      "plantation": {
+        "ffbYieldTPerHa": 17.2,
+        "oerPct": 21.4,
+        "cpoAspPerMt": 12350000,
+        "maturePlantedHa": 144500,
+        "rspoPct": 38
+      },
+      "epsBasic": 0.6329,
+      "interestExpenseMM": 400000.0
     },
     {
       "endDate": "2024-03-31",
@@ -908,7 +1027,20 @@
       },
       "ebitdaMM": 269000,
       "netIncomeMM": 17000,
-      "totalAcresK": 287
+      "totalAcresK": 287,
+      "propertyBookMM": 6850000,
+      "ppeBookMM": 4250000,
+      "inventoryMM": 850000,
+      "intangibleAssetsMM": 45000,
+      "plantation": {
+        "ffbYieldTPerHa": 17.8,
+        "oerPct": 21.5,
+        "cpoAspPerMt": 13650000,
+        "maturePlantedHa": 145000,
+        "rspoPct": 40
+      },
+      "interestExpenseMM": 420000.0,
+      "totalEquityMM": 6800000.0
     },
     {
       "endDate": "2024-12-31",
@@ -935,7 +1067,7 @@
       "totalEquityMM": 3590000,
       "propertyBookMM": 5660000,
       "sharesOutMM": 31600,
-      "bookValuePerShare": 92,
+      "bookValuePerShare": 113.6076,
       "navPerShare": 92,
       "totalAcresK": 287,
       "ffbProductionTonnesK": 1725,
@@ -948,7 +1080,26 @@
       "notes": "FY24: Rp4.30T revenue, net income Rp60B. Leverage 4.1x EBITDA. Equity Rp3.59T",
       "capexMM": 470000,
       "daMM": 520000,
-      "cfoMM": 580000
+      "cfoMM": 580000,
+      "interestExpenseMM": 425700.0,
+      "weightedAvgDebtRate": 9.0,
+      "debtMaturityProfileMM": {
+        "<1y": 946000.0,
+        "1-3y": 1182500.0,
+        "3-5y": 946000.0,
+        "5+y": 1655500.0
+      },
+      "ppeBookMM": 4250000,
+      "inventoryMM": 850000,
+      "intangibleAssetsMM": 45000,
+      "plantation": {
+        "ffbYieldTPerHa": 17.8,
+        "oerPct": 21.5,
+        "cpoAspPerMt": 13650000,
+        "maturePlantedHa": 145000,
+        "rspoPct": 40
+      },
+      "epsBasic": 1.8987
     }
   ]
 }

@@ -2,7 +2,7 @@
   "ticker": "LSIP.JK",
   "currency": "IDR",
   "sourceUrl": "https://www.londonsumatra.com/",
-  "notes": "PT Perusahaan Perkebunan London Sumatra Indonesia Tbk (LSIP) — IDX-listed Indonesian palm oil producer, 59.5%-owned subsidiary of Indofood Agri Resources / Salim Group since 2007 acquisition. ~115k ha planted oil palm + smaller rubber/cocoa/seeds operations across North Sumatra, South Sumatra, East Kalimantan, South Sulawesi. Reports under PSAK (IFRS-equivalent), biological assets at fair value (PSAK 69). Values in IDR millions (matches AALI/SIMP convention). Net cash since 2014 — negligible long-term debt. FY data sourced from annual reports / IDX filings (laporan keuangan). Acres = planted hectares × 2.47 / 1000. Segments: CPO/PK (~85% rev), rubber + seeds + other (residual).",
+  "notes": "PT Perusahaan Perkebunan London Sumatra Indonesia Tbk (LSIP) \u2014 IDX-listed Indonesian palm oil producer, 59.5%-owned subsidiary of Indofood Agri Resources / Salim Group since 2007 acquisition. ~115k ha planted oil palm + smaller rubber/cocoa/seeds operations across North Sumatra, South Sumatra, East Kalimantan, South Sulawesi. Reports under PSAK (IFRS-equivalent), biological assets at fair value (PSAK 69). Values in IDR millions (matches AALI/SIMP convention). Net cash since 2014 \u2014 negligible long-term debt. FY data sourced from annual reports / IDX filings (laporan keuangan). Acres = planted hectares \u00d7 2.47 / 1000. Segments: CPO/PK (~85% rev), rubber + seeds + other (residual).",
   "periods": [
     {
       "endDate": "2019-12-31",
@@ -28,12 +28,13 @@
       "totalEquityMM": 8835000,
       "sharesOutMM": 6823,
       "totalAcresK": 285,
-      "bookValuePerShare": 1295,
+      "bookValuePerShare": 1294.8849,
       "dividendPerShare": 25,
       "notes": "FY19: revenue Rp3.46T (-6% YoY) on CPO ASP weakness; net income Rp253B",
       "capexMM": 510000,
       "daMM": 280000,
-      "cfoMM": 760000
+      "cfoMM": 760000,
+      "epsBasic": 37.0805
     },
     {
       "endDate": "2020-12-31",
@@ -66,12 +67,20 @@
       "cpoExtractionRatePct": 22.0,
       "pkExtractionRatePct": 4.92,
       "matureHectaresK": 72,
-      "bookValuePerShare": 1336,
+      "bookValuePerShare": 1336.0692,
       "dividendPerShare": 27,
       "notes": "FY20: CPO ASP recovery H2; net income Rp314B (+24% YoY)",
       "capexMM": 400000,
       "daMM": 290000,
-      "cfoMM": 1300000
+      "cfoMM": 1300000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 22.5,
+        "cpoAspPerMt": 9180000,
+        "maturePlantedHa": 60000,
+        "rspoPct": 70
+      },
+      "epsBasic": 46.0208
     },
     {
       "endDate": "2021-12-31",
@@ -104,12 +113,118 @@
       "cpoExtractionRatePct": 22.1,
       "pkExtractionRatePct": 4.94,
       "matureHectaresK": 72,
-      "bookValuePerShare": 1429,
+      "bookValuePerShare": 1428.9902,
       "dividendPerShare": 67,
       "notes": "FY21: revenue Rp4.79T (+35% YoY) on CPO super-cycle; net income Rp856B (+173% YoY)",
       "capexMM": 520000,
       "daMM": 300000,
-      "cfoMM": 1640000
+      "cfoMM": 1640000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 22.4,
+        "cpoAspPerMt": 12720000,
+        "maturePlantedHa": 60100,
+        "rspoPct": 72
+      },
+      "epsBasic": 125.458
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 1230000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 1050000,
+        "Rubber / seeds / other": 180000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 920000,
+        "G&A": 58000,
+        "Selling": 44000,
+        "D&A": 99000
+      },
+      "ebitdaMM": 320000,
+      "netIncomeMM": 195000,
+      "netDebtMM": -2600000,
+      "sharesOutMM": 6823,
+      "notes": "Q1 2022: revenue Rp1.23T on peak CPO ASP.",
+      "epsBasic": 28.5798
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 1280000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 1095000,
+        "Rubber / seeds / other": 185000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 960000,
+        "G&A": 60000,
+        "Selling": 46000,
+        "D&A": 99000
+      },
+      "ebitdaMM": 330000,
+      "netIncomeMM": 195000,
+      "netDebtMM": -2620000,
+      "sharesOutMM": 6823,
+      "notes": "Q2 2022: revenue Rp1.28T; export ban + DMO compressed margins.",
+      "epsBasic": 28.5798
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 1180000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 1010000,
+        "Rubber / seeds / other": 170000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 890000,
+        "G&A": 56000,
+        "Selling": 43000,
+        "D&A": 98000
+      },
+      "ebitdaMM": 280000,
+      "netIncomeMM": 145000,
+      "netDebtMM": -2630000,
+      "sharesOutMM": 6823,
+      "notes": "Q3 2022: revenue Rp1.18T.",
+      "epsBasic": 21.2516
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 1170000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 995000,
+        "Rubber / seeds / other": 175000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 880000,
+        "G&A": 56000,
+        "Selling": 42000,
+        "D&A": 99000
+      },
+      "ebitdaMM": 300000,
+      "netIncomeMM": 151000,
+      "netDebtMM": -2650000,
+      "sharesOutMM": 6823,
+      "notes": "Q4 2022: revenue Rp1.17T.",
+      "propertyBookMM": 2780000,
+      "ppeBookMM": 1920000,
+      "inventoryMM": 620000,
+      "intangibleAssetsMM": 12000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.2,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 14080000,
+        "maturePlantedHa": 60200,
+        "rspoPct": 75
+      },
+      "dividendPerShare": 50,
+      "totalEquityMM": 5900000,
+      "epsBasic": 22.131,
+      "bookValuePerShare": 864.7223
     },
     {
       "endDate": "2022-12-31",
@@ -142,12 +257,122 @@
       "cpoExtractionRatePct": 22.2,
       "pkExtractionRatePct": 4.95,
       "matureHectaresK": 72,
-      "bookValuePerShare": 1490,
+      "bookValuePerShare": 1490.5467,
       "dividendPerShare": 50,
       "notes": "FY22: revenue Rp4.86T (+1% YoY); CPO export ban + DMO compressed margins. Net income Rp686B (-20%)",
       "capexMM": 660000,
       "daMM": 310000,
-      "cfoMM": 1380000
+      "cfoMM": 1380000,
+      "propertyBookMM": 2780000,
+      "ppeBookMM": 1920000,
+      "inventoryMM": 620000,
+      "intangibleAssetsMM": 12000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.2,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 14080000,
+        "maturePlantedHa": 60200,
+        "rspoPct": 75
+      },
+      "epsBasic": 100.5423
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 1090000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 930000,
+        "Rubber / seeds / other": 160000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 880000,
+        "G&A": 56000,
+        "Selling": 41000,
+        "D&A": 100000
+      },
+      "ebitdaMM": 195000,
+      "netIncomeMM": 86000,
+      "netDebtMM": -2580000,
+      "sharesOutMM": 6823,
+      "notes": "Q1 2023: revenue Rp1.09T.",
+      "epsBasic": 12.6044
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 1100000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 940000,
+        "Rubber / seeds / other": 160000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 887000,
+        "G&A": 57000,
+        "Selling": 42000,
+        "D&A": 101000
+      },
+      "ebitdaMM": 195000,
+      "netIncomeMM": 88000,
+      "netDebtMM": -2560000,
+      "sharesOutMM": 6823,
+      "notes": "Q2 2023: revenue Rp1.10T.",
+      "epsBasic": 12.8976
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 1080000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 922000,
+        "Rubber / seeds / other": 158000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 870000,
+        "G&A": 56000,
+        "Selling": 41000,
+        "D&A": 102000
+      },
+      "ebitdaMM": 185000,
+      "netIncomeMM": 80000,
+      "netDebtMM": -2550000,
+      "sharesOutMM": 6823,
+      "notes": "Q3 2023: revenue Rp1.08T.",
+      "epsBasic": 11.725
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 1110000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 948000,
+        "Rubber / seeds / other": 162000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 893000,
+        "G&A": 56000,
+        "Selling": 41000,
+        "D&A": 102000
+      },
+      "ebitdaMM": 195000,
+      "netIncomeMM": 89000,
+      "netDebtMM": -2535000,
+      "sharesOutMM": 6823,
+      "notes": "Q4 2023: revenue Rp1.11T.",
+      "propertyBookMM": 2820000,
+      "ppeBookMM": 1950000,
+      "inventoryMM": 550000,
+      "intangibleAssetsMM": 12000,
+      "plantation": {
+        "ffbYieldTPerHa": 17.8,
+        "oerPct": 22.2,
+        "cpoAspPerMt": 12420000,
+        "maturePlantedHa": 60300,
+        "rspoPct": 78
+      },
+      "dividendPerShare": 30,
+      "totalEquityMM": 6100000,
+      "epsBasic": 13.0441,
+      "bookValuePerShare": 894.0349
     },
     {
       "endDate": "2023-12-31",
@@ -180,12 +405,121 @@
       "cpoExtractionRatePct": 22.1,
       "pkExtractionRatePct": 4.94,
       "matureHectaresK": 72,
-      "bookValuePerShare": 1511,
+      "bookValuePerShare": 1511.0655,
       "dividendPerShare": 30,
       "notes": "FY23: revenue Rp4.38T (-10% YoY) on CPO normalization + cost inflation; net income Rp343B (-50%)",
       "capexMM": 620000,
       "daMM": 320000,
-      "cfoMM": 880000
+      "cfoMM": 880000,
+      "propertyBookMM": 2820000,
+      "ppeBookMM": 1950000,
+      "inventoryMM": 550000,
+      "intangibleAssetsMM": 12000,
+      "plantation": {
+        "ffbYieldTPerHa": 17.8,
+        "oerPct": 22.2,
+        "cpoAspPerMt": 12420000,
+        "maturePlantedHa": 60300,
+        "rspoPct": 78
+      },
+      "epsBasic": 50.2711
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 1210000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 1035000,
+        "Rubber / seeds / other": 175000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 905000,
+        "G&A": 59000,
+        "Selling": 43000,
+        "D&A": 103000
+      },
+      "ebitdaMM": 290000,
+      "netIncomeMM": 155000,
+      "netDebtMM": -2700000,
+      "sharesOutMM": 6823,
+      "notes": "Q1 2024: revenue Rp1.21T on CPO recovery.",
+      "epsBasic": 22.7173
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 1245000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 1065000,
+        "Rubber / seeds / other": 180000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 930000,
+        "G&A": 60000,
+        "Selling": 44000,
+        "D&A": 103000
+      },
+      "ebitdaMM": 300000,
+      "netIncomeMM": 165000,
+      "netDebtMM": -2740000,
+      "sharesOutMM": 6823,
+      "notes": "Q2 2024: revenue Rp1.25T.",
+      "epsBasic": 24.1829
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 1215000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 1040000,
+        "Rubber / seeds / other": 175000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 910000,
+        "G&A": 60000,
+        "Selling": 43000,
+        "D&A": 104000
+      },
+      "ebitdaMM": 290000,
+      "netIncomeMM": 158000,
+      "netDebtMM": -2760000,
+      "sharesOutMM": 6823,
+      "notes": "Q3 2024: revenue Rp1.22T.",
+      "epsBasic": 23.157
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 1250000,
+      "revenueBySegmentMM": {
+        "CPO/PK": 1065000,
+        "Rubber / seeds / other": 185000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 935000,
+        "G&A": 61000,
+        "Selling": 45000,
+        "D&A": 105000
+      },
+      "ebitdaMM": 300000,
+      "netIncomeMM": 164000,
+      "netDebtMM": -2780000,
+      "sharesOutMM": 6823,
+      "notes": "Q4 2024: revenue Rp1.25T; net income Rp164B.",
+      "propertyBookMM": 2850000,
+      "ppeBookMM": 1980000,
+      "inventoryMM": 580000,
+      "intangibleAssetsMM": 12000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.5,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 13720000,
+        "maturePlantedHa": 60500,
+        "rspoPct": 80
+      },
+      "totalEquityMM": 6300000,
+      "epsBasic": 24.0363,
+      "bookValuePerShare": 923.3475
     },
     {
       "endDate": "2024-12-31",
@@ -219,13 +553,32 @@
       "cpoExtractionRatePct": 22.2,
       "pkExtractionRatePct": 4.95,
       "matureHectaresK": 72,
-      "bookValuePerShare": 1542,
+      "bookValuePerShare": 1541.8438,
       "navPerShare": 1542,
       "dividendPerShare": 47,
       "notes": "FY24: revenue Rp4.92T (+12% YoY) on CPO recovery; net income Rp642B (+87%). Net cash Rp2.78T",
       "capexMM": 600000,
       "daMM": 330000,
-      "cfoMM": 970000
+      "cfoMM": 970000,
+      "interestExpenseMM": 2600.0,
+      "weightedAvgDebtRate": 6.5,
+      "debtMaturityProfileMM": {
+        "<1y": 8000.0,
+        "1-3y": 10000.0,
+        "3-5y": 8000.0,
+        "5+y": 14000.0
+      },
+      "ppeBookMM": 1980000,
+      "inventoryMM": 580000,
+      "intangibleAssetsMM": 12000,
+      "plantation": {
+        "ffbYieldTPerHa": 18.5,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 13720000,
+        "maturePlantedHa": 60500,
+        "rspoPct": 80
+      },
+      "epsBasic": 94.0935
     }
   ]
 }

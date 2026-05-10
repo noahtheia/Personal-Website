@@ -3,8 +3,6 @@ import {
   type PricedFarmlandComp,
 } from "@/lib/farmland-comps";
 import { FarmlandComps } from "@/components/FarmlandComps";
-import { FarmlandLeaderboards } from "@/components/FarmlandLeaderboards";
-import { FarmlandSectorIndex } from "@/components/FarmlandSectorIndex";
 
 function fxNote(rows: PricedFarmlandComp[]): string {
   const seen = new Map<string, number>();
@@ -53,10 +51,6 @@ export default async function PublicFarmlandPage() {
       </header>
 
       <FarmlandComps rows={comps} />
-
-      <FarmlandLeaderboards rows={comps} />
-
-      <FarmlandSectorIndex rows={comps} />
 
       <p className="mt-3 text-xs text-muted">
         Updated{" "}

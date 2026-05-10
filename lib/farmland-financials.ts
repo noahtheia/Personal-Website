@@ -34,6 +34,12 @@ const PeriodSchema = z.object({
   // renders them as negative segments below zero). Sum of these +
   // EBITDA should approximate net revenue.
   expensesBySegmentMM: z.record(z.string(), z.number()).optional(),
+  // Optional revenue breakdown by geography (e.g. "Asia", "Europe",
+  // "Americas", "Other" — or country-level "US", "Brazil", "China"...).
+  // Values are filing-currency $M and should sum to revenueMM.
+  // Sourced from segment-by-geography note in the latest 10-K / 20-F /
+  // annual report.
+  revenueByGeographyMM: z.record(z.string(), z.number()).optional(),
   ebitdaMM: z.number().optional(),
   // Net Operating Income (REIT-style). For agribusiness operators
   // without a true REIT NOI line, can be left out.
@@ -56,6 +62,33 @@ const PeriodSchema = z.object({
   cashMM: z.number().optional(),
   netDebtMM: z.number().optional(),
   totalEquityMM: z.number().optional(),
+  // Net property, plant, and equipment book value (post-depreciation).
+  // For agribusiness operators this is mills, processing plants,
+  // machinery, vehicles, and orchards-in-development. Distinct from
+  // propertyBookMM which often refers to land specifically.
+  ppeBookMM: z.number().nonnegative().optional(),
+  // Independent PP&E fair-value mark when the issuer publishes one
+  // (rare — IFRS revaluation-model issuers like some Australian and
+  // South African names).
+  ppeFmvMM: z.number().nonnegative().optional(),
+  // Total inventory book value. For commodity traders, the
+  // hedged-portion sub-component sits in trader.rmiMM separately.
+  inventoryMM: z.number().nonnegative().optional(),
+  // Identifiable + goodwill intangibles. Subtract from total assets
+  // to back into a tangible-asset base for FMV analysis.
+  intangibleAssetsMM: z.number().nonnegative().optional(),
+  // ---- Capital structure / debt note ----
+  // P&L interest expense (positive, filing-currency $M) — pulled from
+  // the income statement or finance-cost note.
+  interestExpenseMM: z.number().optional(),
+  // Weighted-average interest cost on outstanding debt in % (e.g. 5.2
+  // for 5.2%). Often disclosed in the debt note.
+  weightedAvgDebtRate: z.number().optional(),
+  // Debt maturity profile — map of maturity bucket label
+  // ("<1y", "1-3y", "3-5y", "5+y") to outstanding principal in
+  // filing-currency $M. Sourced from the maturity profile of
+  // borrowings table in the debt note.
+  debtMaturityProfileMM: z.record(z.string(), z.number()).optional(),
   // Property book / fair-value carrying amount (varies by reporting
   // basis — IFRS REITs carry at FV, US GAAP at depreciated cost).
   propertyBookMM: z.number().optional(),
@@ -104,6 +137,134 @@ const PeriodSchema = z.object({
   // Free-form contextual note for the period (e.g. "Q3 24/25 reflects
   // El Meridiano disposition" for AGRO).
   notes: z.string().optional(),
+
+  // ---- Per-period sector blocks (mirror the comps schema) ----
+  // These are optional sub-objects that let sector-specific KPIs be
+  // tracked over time (FFB yield trend, capacity utilization, harvest
+  // volume, etc.). Existing flat palm/tea fields above remain valid;
+  // the renderer prefers nested values when both are present.
+  reit: z
+    .object({
+      walt: z.number().nonnegative().optional(),
+      occupancyPct: z.number().min(0).max(100).optional(),
+      top10TenantPctOfRent: z.number().min(0).max(100).optional(),
+      ffoPerShare: z.number().optional(),
+      affoPerShare: z.number().optional(),
+      preferredCoverage: z.number().optional(),
+      waterRightsValueMM: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  plantation: z
+    .object({
+      ffbYieldTPerHa: z.number().nonnegative().optional(),
+      oerPct: z.number().min(0).max(100).optional(),
+      kerPct: z.number().min(0).max(100).optional(),
+      cpoAspPerMt: z.number().nonnegative().optional(),
+      cpoCostPerMt: z.number().nonnegative().optional(),
+      maturePlantedHa: z.number().nonnegative().optional(),
+      immaturePlantedHa: z.number().nonnegative().optional(),
+      rspoPct: z.number().min(0).max(100).optional(),
+      methaneCapturePctMills: z.number().min(0).max(100).optional(),
+      replantingHaLtm: z.number().nonnegative().optional(),
+      rubberRevenueSharePct: z.number().min(0).max(100).optional(),
+      rubberAspPerKg: z.number().nonnegative().optional(),
+      sugarRevenueSharePct: z.number().min(0).max(100).optional(),
+      sugarProducedMt: z.number().nonnegative().optional(),
+      nucleusVsPlasmaPct: z.number().min(0).max(100).optional(),
+      ndpeCompliancePct: z.number().min(0).max(100).optional(),
+    })
+    .optional(),
+  tea: z
+    .object({
+      madeTeaProducedKgMM: z.number().nonnegative().optional(),
+      greenLeafYieldKgPerHa: z.number().nonnegative().optional(),
+      madeTeaAspPerKg: z.number().nonnegative().optional(),
+      auctionVsDirectPct: z.number().min(0).max(100).optional(),
+      boughtLeafSharePct: z.number().min(0).max(100).optional(),
+      teaPlantedHa: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  aquaculture: z
+    .object({
+      harvestVolumeKtGwt: z.number().nonnegative().optional(),
+      ebitPerKgNok: z.number().optional(),
+      mabLicencedTonnes: z.number().nonnegative().optional(),
+      biomassAtSeaKt: z.number().nonnegative().optional(),
+      smoltReleasedMM: z.number().nonnegative().optional(),
+      costPerKgNok: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  cropInputs: z
+    .object({
+      capacityUtilizationPct: z.number().min(0).max(100).optional(),
+      gasCostUSDPerMMBtu: z.number().nonnegative().optional(),
+      rdSpendPctOfRevenue: z.number().min(0).max(50).optional(),
+      retailRevenuePct: z.number().min(0).max(100).optional(),
+    })
+    .optional(),
+  egg: z
+    .object({
+      layingHenFlockMM: z.number().nonnegative().optional(),
+      dozensSoldMM: z.number().nonnegative().optional(),
+      avgSellingPricePerDozen: z.number().nonnegative().optional(),
+      feedCostPerDozen: z.number().nonnegative().optional(),
+      specialtyEggMixPct: z.number().min(0).max(100).optional(),
+    })
+    .optional(),
+  dairy: z
+    .object({
+      milkIntakeMlitres: z.number().nonnegative().optional(),
+      milkSolidsKgMM: z.number().nonnegative().optional(),
+      avgFarmgateMilkPrice: z.number().nonnegative().optional(),
+      cowHerdK: z.number().nonnegative().optional(),
+      infantFormulaRevenuePct: z.number().min(0).max(100).optional(),
+      brandedRevenuePct: z.number().min(0).max(100).optional(),
+    })
+    .optional(),
+  protein: z
+    .object({
+      plants: z.number().nonnegative().optional(),
+      weeklyHeadCapacity: z.number().nonnegative().optional(),
+      weeklyLbsCapacityMM: z.number().nonnegative().optional(),
+      capacityUtilizationPct: z.number().min(0).max(100).optional(),
+      plantClosuresLtm: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  integratedFarm: z
+    .object({
+      plantedAreaHa: z.number().nonnegative().optional(),
+      productionVolume: z.number().nonnegative().optional(),
+      productionUnit: z.string().optional(),
+      yieldPerHa: z.number().nonnegative().optional(),
+      realizedPricePerUnit: z.number().nonnegative().optional(),
+      biologicalAssetsMM: z.number().nonnegative().optional(),
+    })
+    .optional(),
+  trader: z
+    .object({
+      rmiMM: z.number().nonnegative().optional(),
+      throughputMtMM: z.number().nonnegative().optional(),
+      ethanolGalsMM: z.number().nonnegative().optional(),
+      boardCrushCapturePct: z.number().min(0).max(200).optional(),
+    })
+    .optional(),
+  // Segment-EBITDA tuples for diversified holdcos (ABF, CSAN, INDF,
+  // ICBP, F34, etc.) that don't fit a single sector block. Each entry
+  // carries the segment label plus its revenue and EBITDA contribution
+  // for the period — enables sum-of-parts visualization.
+  segmentEbitdaMM: z
+    .array(
+      z.object({
+        segment: z.string(),
+        revenueMM: z.number().optional(),
+        ebitdaMM: z.number().optional(),
+      }),
+    )
+    .optional(),
+  // Non-ag revenue share (Diversified holdcos). Comps-row schema also
+  // carries this as a snapshot; per-period lets it shift over time
+  // (e.g. Primark's share of ABF rose from ~50% to ~75% over 2020-25).
+  nonAgricultureRevenuePct: z.number().min(0).max(100).optional(),
 });
 
 const FinancialsSchema = z.object({
@@ -145,4 +306,27 @@ export function getFinancialsTickers(): string[] {
     .readdirSync(FINANCIALS_DIR)
     .filter((f) => f.endsWith(".json"))
     .map((f) => f.replace(/\.json$/, ""));
+}
+
+// Bulk load every financials file. Used to compute market-share trends
+// where the current ticker's revenue per period needs the sector-wide
+// revenue denominator. Returns a map keyed by ticker. Skips files that
+// fail validation rather than throwing — universe coverage is uneven.
+export function getAllFinancials(): Map<string, Financials> {
+  const out = new Map<string, Financials>();
+  if (!fs.existsSync(FINANCIALS_DIR)) return out;
+  for (const file of fs.readdirSync(FINANCIALS_DIR)) {
+    if (!file.endsWith(".json")) continue;
+    try {
+      const raw = JSON.parse(
+        fs.readFileSync(path.join(FINANCIALS_DIR, file), "utf8"),
+      );
+      const parsed = FinancialsSchema.parse(raw);
+      parsed.periods.sort((a, b) => a.endDate.localeCompare(b.endDate));
+      out.set(parsed.ticker, parsed);
+    } catch {
+      // skip invalid
+    }
+  }
+  return out;
 }

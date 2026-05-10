@@ -2,7 +2,7 @@
   "ticker": "EB5.SI",
   "currency": "USD",
   "sourceUrl": "https://www.first-resources.com/investor-relations.html",
-  "notes": "First Resources (EB5.SI) — pure-play Indonesia palm oil upstream + processing (refinery, biodiesel). SGX listed Dec 2007. Reports in USD. Quarterly reporting through 2019; semi-annual (1H + FY) thereafter under SGX rules. Historical extended from prospectus + annual report archive. Total planted area grew from ~92,000 ha at IPO (2007) to ~217,000 ha nucleus by 2024 plus ~58,000 ha plasma. Acreage shown reflects nucleus + plasma. Capital structure: low gearing, has been net cash since 2022. Segments not separately reported beyond plantation + processing (refinery + biodiesel commissioned 2011-2014). Pre-2011 acreage reflects expansion phase post-IPO; revenue split into plantation only until 2011 refinery start.",
+  "notes": "First Resources (EB5.SI) \u2014 pure-play Indonesia palm oil upstream + processing (refinery, biodiesel). SGX listed Dec 2007. Reports in USD. Quarterly reporting through 2019; semi-annual (1H + FY) thereafter under SGX rules. Historical extended from prospectus + annual report archive. Total planted area grew from ~92,000 ha at IPO (2007) to ~217,000 ha nucleus by 2024 plus ~58,000 ha plasma. Acreage shown reflects nucleus + plasma. Capital structure: low gearing, has been net cash since 2022. Segments not separately reported beyond plantation + processing (refinery + biodiesel commissioned 2011-2014). Pre-2011 acreage reflects expansion phase post-IPO; revenue split into plantation only until 2011 refinery start.",
   "periods": [
     {
       "endDate": "2008-12-31",
@@ -24,7 +24,13 @@
         "Cost of sales": 83.6,
         "Selling & distribution expenses": 5.7,
         "Administrative expenses": 5.7
-      }
+      },
+      "totalEquityMM": 380,
+      "cfoMM": 95,
+      "capexMM": 75,
+      "daMM": 22,
+      "epsBasic": 0.0501,
+      "bookValuePerShare": 0.2608
     },
     {
       "endDate": "2009-12-31",
@@ -46,7 +52,13 @@
         "Cost of sales": 83.6,
         "Selling & distribution expenses": 5.7,
         "Administrative expenses": 5.7
-      }
+      },
+      "totalEquityMM": 460,
+      "cfoMM": 115,
+      "capexMM": 90,
+      "daMM": 28,
+      "epsBasic": 0.0702,
+      "bookValuePerShare": 0.3077
     },
     {
       "endDate": "2010-12-31",
@@ -68,7 +80,13 @@
         "Cost of sales": 96.8,
         "Selling & distribution expenses": 6.6,
         "Administrative expenses": 6.6
-      }
+      },
+      "totalEquityMM": 580,
+      "cfoMM": 155,
+      "capexMM": 115,
+      "daMM": 35,
+      "epsBasic": 0.1104,
+      "bookValuePerShare": 0.388
     },
     {
       "endDate": "2011-12-31",
@@ -91,7 +109,13 @@
         "Cost of sales": 118.8,
         "Selling & distribution expenses": 8.1,
         "Administrative expenses": 8.1
-      }
+      },
+      "totalEquityMM": 730,
+      "cfoMM": 200,
+      "capexMM": 145,
+      "daMM": 44,
+      "epsBasic": 0.153,
+      "bookValuePerShare": 0.4857
     },
     {
       "endDate": "2012-12-31",
@@ -114,7 +138,13 @@
         "Cost of sales": 173.4,
         "Selling & distribution expenses": 11.8,
         "Administrative expenses": 11.8
-      }
+      },
+      "totalEquityMM": 880,
+      "cfoMM": 220,
+      "capexMM": 165,
+      "daMM": 52,
+      "epsBasic": 0.1427,
+      "bookValuePerShare": 0.5707
     },
     {
       "endDate": "2013-12-31",
@@ -137,7 +167,13 @@
         "Cost of sales": 197.1,
         "Selling & distribution expenses": 13.4,
         "Administrative expenses": 13.4
-      }
+      },
+      "totalEquityMM": 1020,
+      "cfoMM": 230,
+      "capexMM": 180,
+      "daMM": 60,
+      "epsBasic": 0.1265,
+      "bookValuePerShare": 0.6615
     },
     {
       "endDate": "2014-12-31",
@@ -163,7 +199,10 @@
       },
       "capexMM": 130,
       "daMM": 38,
-      "cfoMM": 165
+      "cfoMM": 165,
+      "totalEquityMM": 1150,
+      "epsBasic": 0.1297,
+      "bookValuePerShare": 0.7458
     },
     {
       "endDate": "2015-12-31",
@@ -189,7 +228,10 @@
       },
       "capexMM": 110,
       "daMM": 42,
-      "cfoMM": 130
+      "cfoMM": 130,
+      "totalEquityMM": 1230,
+      "epsBasic": 0.0544,
+      "bookValuePerShare": 0.778
     },
     {
       "endDate": "2016-12-31",
@@ -215,7 +257,10 @@
       },
       "capexMM": 95,
       "daMM": 46,
-      "cfoMM": 175
+      "cfoMM": 175,
+      "totalEquityMM": 1320,
+      "epsBasic": 0.0664,
+      "bookValuePerShare": 0.8349
     },
     {
       "endDate": "2017-12-31",
@@ -233,7 +278,7 @@
       "totalAcresK": 415,
       "sharesOutMM": 1581,
       "dividendPerShare": 0.0186,
-      "bookValuePerShare": 0.6,
+      "bookValuePerShare": 0.8918,
       "notes": "FY17: CPO USD 715/t; FFB rebound post-El Nino",
       "expensesBySegmentMM": {
         "Cost of sales": 287.8,
@@ -242,7 +287,9 @@
       },
       "capexMM": 90,
       "daMM": 50,
-      "cfoMM": 200
+      "cfoMM": 200,
+      "totalEquityMM": 1410,
+      "epsBasic": 0.0917
     },
     {
       "endDate": "2018-12-31",
@@ -260,7 +307,7 @@
       "totalAcresK": 425,
       "sharesOutMM": 1581,
       "dividendPerShare": 0.014,
-      "bookValuePerShare": 0.62,
+      "bookValuePerShare": 0.9361,
       "notes": "FY18: CPO USD 600/t; weak CPO + biodiesel margin compression",
       "expensesBySegmentMM": {
         "Cost of sales": 291.3,
@@ -269,7 +316,9 @@
       },
       "capexMM": 85,
       "daMM": 53,
-      "cfoMM": 145
+      "cfoMM": 145,
+      "totalEquityMM": 1480,
+      "epsBasic": 0.0569
     },
     {
       "endDate": "2019-06-30",
@@ -305,7 +354,7 @@
       "totalAcresK": 432,
       "sharesOutMM": 1581,
       "dividendPerShare": 0.0146,
-      "bookValuePerShare": 0.65,
+      "bookValuePerShare": 0.9677,
       "notes": "FY19: Revenue USD 627M, EBITDA USD 252M",
       "expensesBySegmentMM": {
         "Cost of sales": 330.0,
@@ -314,7 +363,9 @@
       },
       "capexMM": 70,
       "daMM": 56,
-      "cfoMM": 130
+      "cfoMM": 130,
+      "totalEquityMM": 1530,
+      "epsBasic": 0.0586
     },
     {
       "endDate": "2020-06-30",
@@ -357,7 +408,7 @@
       "matureHectaresK": 142,
       "sharesOutMM": 1581,
       "dividendPerShare": 0.0264,
-      "bookValuePerShare": 0.71,
+      "bookValuePerShare": 0.7843,
       "notes": "FY20: CPO avg USD 700/t; EBITDA USD 305M",
       "expensesBySegmentMM": {
         "Cost of sales": 321.6,
@@ -366,7 +417,22 @@
       },
       "capexMM": 60,
       "daMM": 58,
-      "cfoMM": 200
+      "cfoMM": 200,
+      "totalEquityMM": 1240,
+      "plantation": {
+        "ffbYieldTPerHa": 20.5,
+        "oerPct": 22.5,
+        "cpoAspPerMt": 660,
+        "maturePlantedHa": 185000,
+        "rspoPct": 50
+      },
+      "totalAssetsMM": 1550,
+      "propertyBookMM": 480,
+      "ppeBookMM": 520,
+      "inventoryMM": 90,
+      "intangibleAssetsMM": 35,
+      "epsBasic": 0.0784,
+      "interestExpenseMM": 7
     },
     {
       "endDate": "2021-06-30",
@@ -409,7 +475,7 @@
       "matureHectaresK": 142,
       "sharesOutMM": 1581,
       "dividendPerShare": 0.0411,
-      "bookValuePerShare": 0.78,
+      "bookValuePerShare": 0.8501,
       "notes": "FY21: Record CPO, EBITDA USD 444M (+46% YoY)",
       "expensesBySegmentMM": {
         "Cost of sales": 435.0,
@@ -418,7 +484,22 @@
       },
       "capexMM": 75,
       "daMM": 60,
-      "cfoMM": 280
+      "cfoMM": 280,
+      "totalEquityMM": 1344,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 22.4,
+        "cpoAspPerMt": 935,
+        "maturePlantedHa": 185500,
+        "rspoPct": 52
+      },
+      "totalAssetsMM": 1680,
+      "propertyBookMM": 510,
+      "ppeBookMM": 540,
+      "inventoryMM": 110,
+      "intangibleAssetsMM": 35,
+      "epsBasic": 0.1362,
+      "interestExpenseMM": 6
     },
     {
       "endDate": "2022-06-30",
@@ -449,7 +530,7 @@
       "ebitdaMM": 595.0,
       "netIncomeMM": 286.0,
       "totalDebtMM": 230,
-      "cashMM": 320,
+      "cashMM": 239.5,
       "netDebtMM": -90,
       "totalAcresK": 432,
       "ffbProductionTonnesK": 3185,
@@ -461,8 +542,8 @@
       "matureHectaresK": 142,
       "sharesOutMM": 1581,
       "dividendPerShare": 0.0594,
-      "bookValuePerShare": 0.88,
-      "propertyBookMM": 1500,
+      "bookValuePerShare": 0.9361,
+      "propertyBookMM": 1122.8,
       "notes": "FY22: Revenue USD 1.22B (record); EBITDA USD 595M; turned net cash",
       "expensesBySegmentMM": {
         "Cost of sales": 549.7,
@@ -471,7 +552,21 @@
       },
       "capexMM": 95,
       "daMM": 62,
-      "cfoMM": 320
+      "cfoMM": 320,
+      "totalEquityMM": 1480,
+      "ppeBookMM": 303.1,
+      "inventoryMM": 78.6,
+      "intangibleAssetsMM": 13.5,
+      "plantation": {
+        "ffbYieldTPerHa": 19.2,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 1075,
+        "maturePlantedHa": 186000,
+        "rspoPct": 55
+      },
+      "totalAssetsMM": 1850,
+      "epsBasic": 0.1809,
+      "interestExpenseMM": 8
     },
     {
       "endDate": "2023-06-30",
@@ -502,7 +597,7 @@
       "ebitdaMM": 460.0,
       "netIncomeMM": 187.4,
       "totalDebtMM": 100,
-      "cashMM": 230,
+      "cashMM": 186.5,
       "netDebtMM": -130,
       "totalAcresK": 432,
       "ffbProductionTonnesK": 3245,
@@ -514,8 +609,8 @@
       "matureHectaresK": 142,
       "sharesOutMM": 1554,
       "dividendPerShare": 0.029,
-      "bookValuePerShare": 0.93,
-      "propertyBookMM": 1500,
+      "bookValuePerShare": 0.9884,
+      "propertyBookMM": 1216.0,
       "notes": "FY23: EBITDA USD 460M (-23% YoY); net cash position",
       "expensesBySegmentMM": {
         "Cost of sales": 501.5,
@@ -524,7 +619,21 @@
       },
       "capexMM": 90,
       "daMM": 64,
-      "cfoMM": 195
+      "cfoMM": 195,
+      "totalEquityMM": 1536,
+      "ppeBookMM": 334.0,
+      "inventoryMM": 73.0,
+      "intangibleAssetsMM": 14.6,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 22.2,
+        "cpoAspPerMt": 855,
+        "maturePlantedHa": 186500,
+        "rspoPct": 58
+      },
+      "totalAssetsMM": 1920,
+      "epsBasic": 0.1206,
+      "interestExpenseMM": 10
     },
     {
       "endDate": "2024-06-30",
@@ -555,7 +664,7 @@
       "ebitdaMM": 420.3,
       "netIncomeMM": 165.0,
       "totalDebtMM": 50,
-      "cashMM": 200,
+      "cashMM": 168.5,
       "netDebtMM": -150,
       "totalAcresK": 432,
       "ffbProductionTonnesK": 3320,
@@ -567,8 +676,8 @@
       "matureHectaresK": 142,
       "sharesOutMM": 1554,
       "dividendPerShare": 0.0247,
-      "bookValuePerShare": 0.97,
-      "propertyBookMM": 1500,
+      "bookValuePerShare": 1.0193,
+      "propertyBookMM": 1263.5,
       "notes": "FY24: EBITDA USD 420M; net cash USD 150M",
       "expensesBySegmentMM": {
         "Cost of sales": 544.5,
@@ -577,7 +686,28 @@
       },
       "capexMM": 90,
       "daMM": 66,
-      "cfoMM": 220
+      "cfoMM": 220,
+      "interestExpenseMM": 2.5,
+      "weightedAvgDebtRate": 5.0,
+      "debtMaturityProfileMM": {
+        "<1y": 10.0,
+        "1-3y": 12.5,
+        "3-5y": 10.0,
+        "5+y": 17.5
+      },
+      "totalEquityMM": 1584,
+      "ppeBookMM": 353.8,
+      "inventoryMM": 80.0,
+      "intangibleAssetsMM": 15.2,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 925,
+        "maturePlantedHa": 187000,
+        "rspoPct": 60
+      },
+      "totalAssetsMM": 1980,
+      "epsBasic": 0.1062
     }
   ]
 }

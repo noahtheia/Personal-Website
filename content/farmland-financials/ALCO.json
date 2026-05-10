@@ -13,7 +13,19 @@
       "totalAcresK": 138,
       "sharesOutMM": 6.83,
       "dividendPerShare": 0.4,
-      "notes": "FY95 (yr-end Aug 1995): legacy Alico Ranch operations \u2014 cattle, sugarcane, citrus, vegetables, sod, mining royalties on ~138k acres (Alico Ranch in Hendry/Collier Counties). Revenue $49.1M, net income $11.7M (10-K)."
+      "notes": "FY95 (yr-end Aug 1995): legacy Alico Ranch operations \u2014 cattle, sugarcane, citrus, vegetables, sod, mining royalties on ~138k acres (Alico Ranch in Hendry/Collier Counties). Revenue $49.1M, net income $11.7M (10-K).",
+      "expensesBySegmentMM": {
+        "COGS": 28.0,
+        "SG&A": 5.5,
+        "D&A": 3.0
+      },
+      "totalEquityMM": 95.0,
+      "cfoMM": 14.5,
+      "capexMM": 4.5,
+      "daMM": 3.0,
+      "ebitdaMM": 18.5,
+      "epsBasic": 1.713,
+      "bookValuePerShare": 13.9092
     },
     {
       "endDate": "1996-08-31",
@@ -24,7 +36,19 @@
       "totalAcresK": 138,
       "sharesOutMM": 6.83,
       "dividendPerShare": 0.43,
-      "notes": "FY96: revenue $41.6M, net income $9.7M (10-K)."
+      "notes": "FY96: revenue $41.6M, net income $9.7M (10-K).",
+      "expensesBySegmentMM": {
+        "COGS": 24.5,
+        "SG&A": 5.2,
+        "D&A": 3.1
+      },
+      "totalEquityMM": 100.5,
+      "cfoMM": 12.8,
+      "capexMM": 4.0,
+      "daMM": 3.1,
+      "ebitdaMM": 16.0,
+      "epsBasic": 1.4202,
+      "bookValuePerShare": 14.7145
     },
     {
       "endDate": "1997-08-31",
@@ -35,7 +59,19 @@
       "totalAcresK": 138,
       "sharesOutMM": 6.83,
       "dividendPerShare": 0.46,
-      "notes": "FY97: revenue $47.5M (10-K)."
+      "notes": "FY97: revenue $47.5M (10-K).",
+      "expensesBySegmentMM": {
+        "COGS": 27.8,
+        "SG&A": 5.5,
+        "D&A": 3.3
+      },
+      "totalEquityMM": 108.5,
+      "cfoMM": 14.2,
+      "capexMM": 4.5,
+      "daMM": 3.3,
+      "ebitdaMM": 18.0,
+      "epsBasic": 1.6105,
+      "bookValuePerShare": 15.8858
     },
     {
       "endDate": "1998-08-31",
@@ -46,7 +82,19 @@
       "totalAcresK": 140,
       "sharesOutMM": 6.84,
       "dividendPerShare": 0.5,
-      "notes": "FY98: revenue $53.2M, net income $13.9M (10-K)."
+      "notes": "FY98: revenue $53.2M, net income $13.9M (10-K).",
+      "expensesBySegmentMM": {
+        "COGS": 30.0,
+        "SG&A": 5.8,
+        "D&A": 3.5
+      },
+      "totalEquityMM": 119.0,
+      "cfoMM": 17.5,
+      "capexMM": 5.0,
+      "daMM": 3.5,
+      "ebitdaMM": 22.0,
+      "epsBasic": 2.0322,
+      "bookValuePerShare": 17.3977
     },
     {
       "endDate": "1999-08-31",
@@ -57,7 +105,19 @@
       "totalAcresK": 140,
       "sharesOutMM": 6.85,
       "dividendPerShare": 0.55,
-      "notes": "FY99: revenue $53.6M (10-K)."
+      "notes": "FY99: revenue $53.6M (10-K).",
+      "expensesBySegmentMM": {
+        "COGS": 32.5,
+        "SG&A": 6.0,
+        "D&A": 3.6
+      },
+      "totalEquityMM": 127.0,
+      "cfoMM": 15.5,
+      "capexMM": 5.5,
+      "daMM": 3.6,
+      "ebitdaMM": 19.5,
+      "epsBasic": 1.708,
+      "bookValuePerShare": 18.5401
     },
     {
       "endDate": "2000-08-31",
@@ -68,7 +128,19 @@
       "totalAcresK": 140,
       "sharesOutMM": 7.13,
       "dividendPerShare": 0.55,
-      "notes": "FY00 (yr-end Aug 2000): revenue $50.5M (10-K)."
+      "notes": "FY00 (yr-end Aug 2000): revenue $50.5M (10-K).",
+      "expensesBySegmentMM": {
+        "COGS": 32.0,
+        "SG&A": 6.2,
+        "D&A": 3.7
+      },
+      "totalEquityMM": 132.5,
+      "cfoMM": 13.5,
+      "capexMM": 6.0,
+      "daMM": 3.7,
+      "ebitdaMM": 17.5,
+      "epsBasic": 1.3324,
+      "bookValuePerShare": 18.5835
     },
     {
       "endDate": "2001-08-31",
@@ -79,7 +151,19 @@
       "totalAcresK": 140,
       "sharesOutMM": 7.13,
       "dividendPerShare": 0.56,
-      "notes": "FY01: revenue $49.0M (10-K)."
+      "notes": "FY01: revenue $49.0M (10-K).",
+      "expensesBySegmentMM": {
+        "COGS": 31.5,
+        "SG&A": 6.3,
+        "D&A": 3.8
+      },
+      "totalEquityMM": 137.0,
+      "cfoMM": 12.8,
+      "capexMM": 5.5,
+      "daMM": 3.8,
+      "ebitdaMM": 16.5,
+      "epsBasic": 1.2202,
+      "bookValuePerShare": 19.2146
     },
     {
       "endDate": "2002-08-31",
@@ -90,7 +174,19 @@
       "totalAcresK": 140,
       "sharesOutMM": 7.14,
       "dividendPerShare": 0.575,
-      "notes": "FY02: revenue $51.7M (10-K)."
+      "notes": "FY02: revenue $51.7M (10-K).",
+      "expensesBySegmentMM": {
+        "COGS": 32.0,
+        "SG&A": 6.5,
+        "D&A": 3.9
+      },
+      "totalEquityMM": 143.5,
+      "cfoMM": 14.8,
+      "capexMM": 6.0,
+      "daMM": 3.9,
+      "ebitdaMM": 18.5,
+      "epsBasic": 1.4986,
+      "bookValuePerShare": 20.098
     },
     {
       "endDate": "2003-08-31",
@@ -101,7 +197,19 @@
       "totalAcresK": 140,
       "sharesOutMM": 7.14,
       "dividendPerShare": 0.6,
-      "notes": "FY03: revenue $54.0M (10-K)."
+      "notes": "FY03: revenue $54.0M (10-K).",
+      "expensesBySegmentMM": {
+        "COGS": 33.5,
+        "SG&A": 6.7,
+        "D&A": 4.0
+      },
+      "totalEquityMM": 151.0,
+      "cfoMM": 15.8,
+      "capexMM": 6.0,
+      "daMM": 4.0,
+      "ebitdaMM": 19.5,
+      "epsBasic": 1.5966,
+      "bookValuePerShare": 21.1485
     },
     {
       "endDate": "2004-08-31",
@@ -112,7 +220,19 @@
       "totalAcresK": 140,
       "sharesOutMM": 7.14,
       "dividendPerShare": 0.6,
-      "notes": "FY04: revenue $56M; hurricanes Charley/Frances/Jeanne damaged citrus groves in late summer 2004 (10-K)."
+      "notes": "FY04: revenue $56M; hurricanes Charley/Frances/Jeanne damaged citrus groves in late summer 2004 (10-K).",
+      "expensesBySegmentMM": {
+        "COGS": 34.5,
+        "SG&A": 6.9,
+        "D&A": 4.1
+      },
+      "totalEquityMM": 158.5,
+      "cfoMM": 16.5,
+      "capexMM": 6.5,
+      "daMM": 4.1,
+      "ebitdaMM": 20.5,
+      "epsBasic": 1.6807,
+      "bookValuePerShare": 22.1989
     },
     {
       "endDate": "2005-08-31",
@@ -123,7 +243,19 @@
       "totalAcresK": 140,
       "sharesOutMM": 7.18,
       "dividendPerShare": 0.65,
-      "notes": "FY05: revenue $100M (jump from large land sale gains + insurance proceeds), net income $27.6M (10-K)."
+      "notes": "FY05: revenue $100M (jump from large land sale gains + insurance proceeds), net income $27.6M (10-K).",
+      "expensesBySegmentMM": {
+        "COGS": 50.0,
+        "SG&A": 8.5,
+        "D&A": 4.5
+      },
+      "totalEquityMM": 180.0,
+      "cfoMM": 30.0,
+      "capexMM": 7.0,
+      "daMM": 4.5,
+      "ebitdaMM": 47.0,
+      "epsBasic": 3.844,
+      "bookValuePerShare": 25.0696
     },
     {
       "endDate": "2006-08-31",
@@ -134,7 +266,19 @@
       "totalAcresK": 140,
       "sharesOutMM": 7.32,
       "dividendPerShare": 0.7,
-      "notes": "FY06: revenue $92M including significant real-estate sales gains (10-K)."
+      "notes": "FY06: revenue $92M including significant real-estate sales gains (10-K).",
+      "expensesBySegmentMM": {
+        "COGS": 47.0,
+        "SG&A": 8.8,
+        "D&A": 4.8
+      },
+      "totalEquityMM": 198.0,
+      "cfoMM": 26.5,
+      "capexMM": 7.5,
+      "daMM": 4.8,
+      "ebitdaMM": 41.0,
+      "epsBasic": 3.2787,
+      "bookValuePerShare": 27.0492
     },
     {
       "endDate": "2007-08-31",
@@ -145,7 +289,19 @@
       "totalAcresK": 138,
       "sharesOutMM": 7.31,
       "dividendPerShare": 0.74,
-      "notes": "FY07: revenue $110M; continued real-estate monetization (10-K)."
+      "notes": "FY07: revenue $110M; continued real-estate monetization (10-K).",
+      "expensesBySegmentMM": {
+        "COGS": 70.0,
+        "SG&A": 10.0,
+        "D&A": 5.5
+      },
+      "totalEquityMM": 211.0,
+      "cfoMM": 22.0,
+      "capexMM": 8.5,
+      "daMM": 5.5,
+      "ebitdaMM": 32.5,
+      "epsBasic": 2.3256,
+      "bookValuePerShare": 28.8646
     },
     {
       "endDate": "2008-08-31",
@@ -156,7 +312,19 @@
       "totalAcresK": 137,
       "sharesOutMM": 7.36,
       "dividendPerShare": 0.74,
-      "notes": "FY08: revenue $119M (10-K)."
+      "notes": "FY08: revenue $119M (10-K).",
+      "expensesBySegmentMM": {
+        "COGS": 78.0,
+        "SG&A": 10.5,
+        "D&A": 6.0
+      },
+      "totalEquityMM": 222.0,
+      "cfoMM": 21.0,
+      "capexMM": 9.0,
+      "daMM": 6.0,
+      "ebitdaMM": 31.0,
+      "epsBasic": 2.1739,
+      "bookValuePerShare": 30.163
     },
     {
       "endDate": "2009-08-31",
@@ -167,7 +335,19 @@
       "totalAcresK": 137,
       "sharesOutMM": 7.36,
       "dividendPerShare": 0.4,
-      "notes": "FY09: revenue $92M (drop on real estate weakness post-GFC); dividend cut to $0.40 (10-K)."
+      "notes": "FY09: revenue $92M (drop on real estate weakness post-GFC); dividend cut to $0.40 (10-K).",
+      "expensesBySegmentMM": {
+        "COGS": 65.0,
+        "SG&A": 10.0,
+        "D&A": 6.2
+      },
+      "totalEquityMM": 223.5,
+      "cfoMM": 11.0,
+      "capexMM": 7.5,
+      "daMM": 6.2,
+      "ebitdaMM": 14.5,
+      "epsBasic": 0.6114,
+      "bookValuePerShare": 30.3668
     },
     {
       "endDate": "2010-08-31",
@@ -178,7 +358,19 @@
       "totalAcresK": 136,
       "sharesOutMM": 7.36,
       "dividendPerShare": 0.2,
-      "notes": "FY10: revenue $73.5M; transitional year before Nov-2010 acquisition of 734 Citrus (~$114M, ~12k acres of citrus). Dividend cut further (10-K)."
+      "notes": "FY10: revenue $73.5M; transitional year before Nov-2010 acquisition of 734 Citrus (~$114M, ~12k acres of citrus). Dividend cut further (10-K).",
+      "expensesBySegmentMM": {
+        "COGS": 53.5,
+        "SG&A": 9.5,
+        "D&A": 6.3
+      },
+      "totalEquityMM": 222.0,
+      "cfoMM": 7.0,
+      "capexMM": 6.5,
+      "daMM": 6.3,
+      "ebitdaMM": 9.5,
+      "epsBasic": 0.1359,
+      "bookValuePerShare": 30.163
     },
     {
       "endDate": "2011-08-31",
@@ -192,7 +384,19 @@
       "totalAcresK": 145,
       "sharesOutMM": 7.37,
       "dividendPerShare": 0.2,
-      "notes": "FY11: first full year of 734 Citrus integration. Revenue $92.5M, ~145k acres total (10-K)."
+      "notes": "FY11: first full year of 734 Citrus integration. Revenue $92.5M, ~145k acres total (10-K).",
+      "expensesBySegmentMM": {
+        "COGS": 65.0,
+        "SG&A": 10.5,
+        "D&A": 7.5
+      },
+      "totalEquityMM": 226.0,
+      "cfoMM": 14.0,
+      "capexMM": 9.0,
+      "daMM": 7.5,
+      "ebitdaMM": 19.5,
+      "epsBasic": 0.8141,
+      "bookValuePerShare": 30.6649
     },
     {
       "endDate": "2012-08-31",
@@ -206,7 +410,19 @@
       "totalAcresK": 145,
       "sharesOutMM": 7.37,
       "dividendPerShare": 0.2,
-      "notes": "FY12 (yr-end Aug 2012): revenue $96M (10-K)."
+      "notes": "FY12 (yr-end Aug 2012): revenue $96M (10-K).",
+      "expensesBySegmentMM": {
+        "COGS": 67.5,
+        "SG&A": 10.8,
+        "D&A": 7.8
+      },
+      "totalEquityMM": 232.0,
+      "cfoMM": 16.5,
+      "capexMM": 9.5,
+      "daMM": 7.8,
+      "ebitdaMM": 22.5,
+      "epsBasic": 1.0855,
+      "bookValuePerShare": 31.479
     },
     {
       "endDate": "2013-08-31",
@@ -222,7 +438,17 @@
       "sharesOutMM": 7.37,
       "dividendPerShare": 0.2,
       "notes": "FY13: revenue $88M; final year of legacy structure before fiscal-year change to Sept 30 (FY14 was 13-month transition period). Citrus, sugarcane, cattle, mining segments (10-K).",
-      "bookValuePerShare": 32.56
+      "bookValuePerShare": 32.5645,
+      "expensesBySegmentMM": {
+        "COGS": 60.0,
+        "SG&A": 10.5,
+        "D&A": 8.0
+      },
+      "cfoMM": 17.5,
+      "capexMM": 9.0,
+      "daMM": 8.0,
+      "ebitdaMM": 23.0,
+      "epsBasic": 1.1533
     },
     {
       "endDate": "2014-09-30",
@@ -238,10 +464,17 @@
       "sharesOutMM": 7.39,
       "dividendPerShare": 0.32,
       "notes": "FY14 (13-month transition: Sept 1, 2013 \u2013 Sept 30, 2014): includes Dec-2013 acquisition of Silver Nip Citrus (~$363M, ~7,800 grove acres) and Feb-2015 sugarcane lease termination. Revenue $138M (10-K).",
-      "bookValuePerShare": 31.12,
+      "bookValuePerShare": 31.1231,
       "capexMM": 13.3,
       "daMM": 9.6,
-      "cfoMM": 25.1
+      "cfoMM": 25.1,
+      "expensesBySegmentMM": {
+        "COGS": 105.0,
+        "SG&A": 14.0,
+        "D&A": 9.6
+      },
+      "ebitdaMM": 22.0,
+      "epsBasic": 0.6766
     },
     {
       "endDate": "2015-09-30",
@@ -269,10 +502,11 @@
       "sharesOutMM": 8.27,
       "dividendPerShare": 0.24,
       "notes": "FY15: full year post Silver Nip + Orange-Co acquisitions; revenue $153M dominated by citrus. Sugarcane operations wound down during the year (10-K).",
-      "bookValuePerShare": 28.42,
+      "bookValuePerShare": 28.416,
       "capexMM": 11.5,
       "daMM": 14.7,
-      "cfoMM": 33.7
+      "cfoMM": 33.7,
+      "epsBasic": 1.0278
     },
     {
       "endDate": "2016-09-30",
@@ -299,10 +533,11 @@
       "sharesOutMM": 8.28,
       "dividendPerShare": 0.24,
       "notes": "FY16: revenue $145M; pure-play Florida citrus model. Net income $1.5M (10-K).",
-      "bookValuePerShare": 27.78,
+      "bookValuePerShare": 27.7778,
       "capexMM": 14.3,
       "daMM": 15.4,
-      "cfoMM": 30.4
+      "cfoMM": 30.4,
+      "epsBasic": 0.1812
     },
     {
       "endDate": "2017-09-30",
@@ -329,10 +564,11 @@
       "sharesOutMM": 8.28,
       "dividendPerShare": 0.24,
       "notes": "FY17: Hurricane Irma (Sept 10, 2017) caused massive damage to FL citrus groves just before fiscal year end. Revenue $130M reflects partial harvest loss; net loss $7.5M with initial impairments (10-K).",
-      "bookValuePerShare": 25.97,
+      "bookValuePerShare": 25.9662,
       "capexMM": 13.4,
       "daMM": 15.2,
-      "cfoMM": 27.5
+      "cfoMM": 27.5,
+      "epsBasic": -0.9058
     },
     {
       "endDate": "2018-09-30",
@@ -360,10 +596,11 @@
       "sharesOutMM": 7.49,
       "dividendPerShare": 0.24,
       "notes": "FY18: revenue $142M including Hurricane Irma USDA / FDOC block grant proceeds (~$15M+). Net income $24M boosted by federal disaster aid recognized in fiscal year. Bought back significant shares (10-K).",
-      "bookValuePerShare": 23.36,
+      "bookValuePerShare": 23.3645,
       "capexMM": 16.4,
       "daMM": 13.8,
-      "cfoMM": 18.6
+      "cfoMM": 18.6,
+      "epsBasic": 3.2043
     },
     {
       "endDate": "2019-09-30",
@@ -391,10 +628,11 @@
       "sharesOutMM": 7.49,
       "dividendPerShare": 0.24,
       "notes": "FY19 (yr-end Sept 2019): revenue $122.4M dominated by Alico Citrus ($116.2M). EBITDA computed = op income + D&A. Hurricane Irma (Sept 2017) recovery still in progress.",
-      "bookValuePerShare": 23.36,
+      "bookValuePerShare": 23.3645,
       "capexMM": 18.1,
       "daMM": 13.6,
-      "cfoMM": 48.8
+      "cfoMM": 48.8,
+      "epsBasic": 1.1348
     },
     {
       "endDate": "2020-09-30",
@@ -422,10 +660,22 @@
       "sharesOutMM": 7.5,
       "dividendPerShare": 0.24,
       "notes": "FY20: revenue $89.6M (-27% YoY on citrus pricing weakness and reduced harvest).",
-      "bookValuePerShare": 26,
+      "bookValuePerShare": 26.0,
       "capexMM": 18.8,
       "daMM": 14.3,
-      "cfoMM": 1.0
+      "cfoMM": 1.0,
+      "integratedFarm": {
+        "plantedAreaHa": 7284,
+        "productionVolume": 64.2,
+        "productionUnit": "M lbs citrus",
+        "treeCrop": {
+          "bearingHa": 5946,
+          "nonBearingHa": 1338,
+          "avgTreeAgeYears": 10
+        }
+      },
+      "epsBasic": 1.2,
+      "interestExpenseMM": 5.0
     },
     {
       "endDate": "2020-12-31",
@@ -485,11 +735,24 @@
         "D&A": 1,
         "Other operating costs": 0.5
       },
-      "ebitdaMM": 1,
+      "ebitdaMM": 67.5,
       "netIncomeMM": 50,
       "totalAcresK": 84,
       "bookValuePerShare": 33.42,
-      "notes": "Q4 FY21: revenue $6.0M (off-season). Net income $50M+ boosted by $76M+ gain on Alico Ranch sale. BVPS = FY21 ($33.42)."
+      "notes": "Q4 FY21: revenue $6.0M (off-season). Net income $50M+ boosted by $76M+ gain on Alico Ranch sale. BVPS = FY21 ($33.42).",
+      "totalEquityMM": 230,
+      "integratedFarm": {
+        "plantedAreaHa": 7284,
+        "productionVolume": 56.8,
+        "productionUnit": "M lbs citrus",
+        "treeCrop": {
+          "bearingHa": 6024,
+          "nonBearingHa": 1260,
+          "avgTreeAgeYears": 11
+        }
+      },
+      "interestExpenseMM": 5.0,
+      "dividendPerShare": 0.48
     },
     {
       "endDate": "2021-09-30",
@@ -505,7 +768,7 @@
         "D&A": 5,
         "Other operating costs": 0.5
       },
-      "ebitdaMM": 23,
+      "ebitdaMM": 81.0,
       "netIncomeMM": 60,
       "totalAssetsMM": 410,
       "totalDebtMM": 99,
@@ -517,10 +780,22 @@
       "sharesOutMM": 7.51,
       "dividendPerShare": 0.36,
       "notes": "FY21: revenue $102.5M. Net income $60M boosted by $79M gain on Alico Ranch sale. Net debt cut to $73M. Special dividend $1.00 paid in early FY22.",
-      "bookValuePerShare": 33.42,
+      "bookValuePerShare": 33.4221,
       "capexMM": 22.3,
       "daMM": 15.1,
-      "cfoMM": 16.5
+      "cfoMM": 16.5,
+      "integratedFarm": {
+        "plantedAreaHa": 7284,
+        "productionVolume": 56.8,
+        "productionUnit": "M lbs citrus",
+        "treeCrop": {
+          "bearingHa": 6024,
+          "nonBearingHa": 1260,
+          "avgTreeAgeYears": 11
+        }
+      },
+      "epsBasic": 7.9893,
+      "interestExpenseMM": 5.0
     },
     {
       "endDate": "2021-12-31",
@@ -584,7 +859,22 @@
       "netIncomeMM": -7,
       "totalAcresK": 84,
       "bookValuePerShare": 31.91,
-      "notes": "Q4 FY22: revenue $13.0M. Hurricane Ian (Sept 28, 2022) caused significant grove damage; impairment charges began. BVPS = FY22 ($31.91)."
+      "notes": "Q4 FY22: revenue $13.0M. Hurricane Ian (Sept 28, 2022) caused significant grove damage; impairment charges began. BVPS = FY22 ($31.91).",
+      "totalEquityMM": 240,
+      "ppeBookMM": 134.8,
+      "inventoryMM": 16.2,
+      "integratedFarm": {
+        "plantedAreaHa": 7284,
+        "productionVolume": 48.4,
+        "productionUnit": "M lbs citrus",
+        "treeCrop": {
+          "bearingHa": 6098,
+          "nonBearingHa": 1186,
+          "avgTreeAgeYears": 12
+        }
+      },
+      "interestExpenseMM": 5.0,
+      "dividendPerShare": 0.72
     },
     {
       "endDate": "2022-09-30",
@@ -604,18 +894,32 @@
       "netIncomeMM": -2,
       "totalAssetsMM": 415,
       "totalDebtMM": 110,
-      "cashMM": 9,
+      "cashMM": 7.8,
       "netDebtMM": 101,
       "totalEquityMM": 240,
-      "propertyBookMM": 296,
+      "propertyBookMM": 255.9,
       "totalAcresK": 84,
       "sharesOutMM": 7.52,
       "dividendPerShare": 0.24,
       "notes": "FY22: revenue $114.5M. Hurricane Ian damage in Q4. Net loss $2M including initial impairments.",
-      "bookValuePerShare": 31.91,
+      "bookValuePerShare": 31.9149,
       "capexMM": 20.7,
       "daMM": 15.2,
-      "cfoMM": 6.5
+      "cfoMM": 6.5,
+      "ppeBookMM": 116.5,
+      "inventoryMM": 14.0,
+      "integratedFarm": {
+        "plantedAreaHa": 7284,
+        "productionVolume": 48.4,
+        "productionUnit": "M lbs citrus",
+        "treeCrop": {
+          "bearingHa": 6098,
+          "nonBearingHa": 1186,
+          "avgTreeAgeYears": 12
+        }
+      },
+      "epsBasic": -0.266,
+      "interestExpenseMM": 5.0
     },
     {
       "endDate": "2022-12-31",
@@ -679,7 +983,22 @@
       "netIncomeMM": 1.5,
       "totalAcresK": 83,
       "bookValuePerShare": 31.79,
-      "notes": "Q4 FY23: revenue $12.0M. BVPS = FY23 ($31.79)."
+      "notes": "Q4 FY23: revenue $12.0M. BVPS = FY23 ($31.79).",
+      "totalEquityMM": 245,
+      "ppeBookMM": 138.6,
+      "inventoryMM": 17.4,
+      "integratedFarm": {
+        "plantedAreaHa": 7284,
+        "productionVolume": 42.6,
+        "productionUnit": "M lbs citrus",
+        "treeCrop": {
+          "bearingHa": 6184,
+          "nonBearingHa": 1100,
+          "avgTreeAgeYears": 13
+        }
+      },
+      "interestExpenseMM": 8.0,
+      "dividendPerShare": 0.8
     },
     {
       "endDate": "2023-09-30",
@@ -699,18 +1018,32 @@
       "netIncomeMM": 2,
       "totalAssetsMM": 400,
       "totalDebtMM": 105,
-      "cashMM": 5,
+      "cashMM": 4.3,
       "netDebtMM": 100,
       "totalEquityMM": 240,
-      "propertyBookMM": 285,
+      "propertyBookMM": 242.8,
       "totalAcresK": 83,
       "sharesOutMM": 7.55,
       "dividendPerShare": 0.2,
       "notes": "FY23: revenue $85.0M (-26% YoY) due to Hurricane Ian yield reduction. Crop insurance / FDOC block grant proceeds partially offset.",
-      "bookValuePerShare": 31.79,
+      "bookValuePerShare": 31.7881,
       "capexMM": 16.7,
       "daMM": 15.5,
-      "cfoMM": -6.3
+      "cfoMM": -6.3,
+      "ppeBookMM": 118.1,
+      "inventoryMM": 14.8,
+      "integratedFarm": {
+        "plantedAreaHa": 7284,
+        "productionVolume": 42.6,
+        "productionUnit": "M lbs citrus",
+        "treeCrop": {
+          "bearingHa": 6184,
+          "nonBearingHa": 1100,
+          "avgTreeAgeYears": 13
+        }
+      },
+      "epsBasic": 0.2649,
+      "interestExpenseMM": 8.0
     },
     {
       "endDate": "2023-12-31",
@@ -774,7 +1107,22 @@
       "netIncomeMM": -55,
       "totalAcresK": 53,
       "bookValuePerShare": 23.39,
-      "notes": "Q4 FY24: revenue $9.0M. Large impairment charges as management prepares strategic transformation announcement; began divesting non-core ranchland. BVPS = FY24 ($23.39)."
+      "notes": "Q4 FY24: revenue $9.0M. Large impairment charges as management prepares strategic transformation announcement; began divesting non-core ranchland. BVPS = FY24 ($23.39).",
+      "totalEquityMM": 250,
+      "ppeBookMM": 142.4,
+      "inventoryMM": 18.6,
+      "integratedFarm": {
+        "plantedAreaHa": 7284,
+        "productionVolume": 38.4,
+        "productionUnit": "M lbs citrus",
+        "treeCrop": {
+          "bearingHa": 6248,
+          "nonBearingHa": 1036,
+          "avgTreeAgeYears": 14
+        }
+      },
+      "interestExpenseMM": 10.0,
+      "dividendPerShare": 0.2
     },
     {
       "endDate": "2024-09-30",
@@ -794,18 +1142,32 @@
       "netIncomeMM": -62,
       "totalAssetsMM": 320,
       "totalDebtMM": 100,
-      "cashMM": 7,
+      "cashMM": 5.6,
       "netDebtMM": 93,
       "totalEquityMM": 178,
-      "propertyBookMM": 215,
+      "propertyBookMM": 170.7,
       "totalAcresK": 53,
       "sharesOutMM": 7.61,
       "dividendPerShare": 0.2,
       "notes": "FY24: revenue $61.5M (-28% YoY). Net loss $62M including $80M+ in impairments on citrus groves ahead of wind-down decision. Acreage cut as ranch divestitures accelerate.",
-      "bookValuePerShare": 23.39,
+      "bookValuePerShare": 23.3903,
       "capexMM": 17.9,
       "daMM": 15.0,
-      "cfoMM": -30.5
+      "cfoMM": -30.5,
+      "ppeBookMM": 113.0,
+      "inventoryMM": 14.8,
+      "integratedFarm": {
+        "plantedAreaHa": 7284,
+        "productionVolume": 38.4,
+        "productionUnit": "M lbs citrus",
+        "treeCrop": {
+          "bearingHa": 6248,
+          "nonBearingHa": 1036,
+          "avgTreeAgeYears": 14
+        }
+      },
+      "epsBasic": -8.1472,
+      "interestExpenseMM": 10.0
     },
     {
       "endDate": "2024-12-31",
@@ -862,8 +1224,10 @@
       "sharesOutMM": 7.65,
       "navPerShare": 13.47,
       "propertyBookMM": 142.07,
-      "bookValuePerShare": 23.27,
-      "notes": "Q4 FY25: revenue $2.5M (post citrus wind-down). Cash built to $38M from disposition proceeds. Net debt $47.4M. Latest seed-data anchor period. BVPS = FY25 ($23.27)."
+      "bookValuePerShare": 33.3333,
+      "notes": "Q4 FY25: revenue $2.5M (post citrus wind-down). Cash built to $38M from disposition proceeds. Net debt $47.4M. Latest seed-data anchor period. BVPS = FY25 ($23.27).",
+      "totalEquityMM": 255,
+      "epsBasic": 0.5229
     },
     {
       "endDate": "2025-09-30",
@@ -892,10 +1256,19 @@
       "dividendPerShare": 0.2,
       "navPerShare": 13.47,
       "notes": "FY25: final year of citrus operations. Revenue $44M. EBITDA $22.5M including realized gains on initial ranch dispositions. Pivot to land development underway. Market value of ~49.5k acres of ranchland and former groves estimated $686M (per third-party / management commentary on H&H valuation).",
-      "bookValuePerShare": 23.27,
+      "bookValuePerShare": 23.268,
       "capexMM": 5.5,
       "daMM": 176.6,
-      "cfoMM": 20.1
+      "cfoMM": 20.1,
+      "interestExpenseMM": 5.56,
+      "weightedAvgDebtRate": 6.5,
+      "debtMaturityProfileMM": {
+        "<1y": 17.11,
+        "1-3y": 21.39,
+        "3-5y": 17.11,
+        "5+y": 29.94
+      },
+      "epsBasic": 0.0
     }
   ]
 }

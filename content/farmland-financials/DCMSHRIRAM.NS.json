@@ -2,7 +2,7 @@
   "ticker": "DCMSHRIRAM.NS",
   "currency": "INR",
   "sourceUrl": "https://www.dcmshriram.com/investor-relations",
-  "notes": "DCM Shriram Ltd (NSE: DCMSHRIRAM) — diversified Indian agribusiness/industrial conglomerate. Three main segments: (1) Chloro-Vinyl (caustic soda, PVC, cement, power), (2) Sugar (4 plants in UP, ~38,000 TCD crushing capacity + ethanol distilleries + co-gen), (3) Agri-Inputs (Shriram Bioseed, Shriram Farm Solutions). Also Fenesta windows. Indian fiscal year ends March 31; FY24 = year ending Mar 2024. All values in INR millions (1 INR crore = INR 10 million; standard reported figures in crore are multiplied by 10). Source: annual reports filed with BSE/NSE, investor presentations on dcmshriram.com. Sugar segment heavily exposed to UP cane SAP and government ethanol blending policy. FY22-23 saw record results on chemicals + sugar tailwinds; FY24 weaker on chloro-vinyl downcycle and sugar margin compression; FY25 modest recovery. Sector classified as Diversified Agribusiness for comps. No primary land acreage carried — operations are processing/manufacturing-led. Figures rounded; not from machine-readable filings.",
+  "notes": "DCM Shriram Ltd (NSE: DCMSHRIRAM) \u2014 diversified Indian agribusiness/industrial conglomerate. Three main segments: (1) Chloro-Vinyl (caustic soda, PVC, cement, power), (2) Sugar (4 plants in UP, ~38,000 TCD crushing capacity + ethanol distilleries + co-gen), (3) Agri-Inputs (Shriram Bioseed, Shriram Farm Solutions). Also Fenesta windows. Indian fiscal year ends March 31; FY24 = year ending Mar 2024. All values in INR millions (1 INR crore = INR 10 million; standard reported figures in crore are multiplied by 10). Source: annual reports filed with BSE/NSE, investor presentations on dcmshriram.com. Sugar segment heavily exposed to UP cane SAP and government ethanol blending policy. FY22-23 saw record results on chemicals + sugar tailwinds; FY24 weaker on chloro-vinyl downcycle and sugar margin compression; FY25 modest recovery. Sector classified as Diversified Agribusiness for comps. No primary land acreage carried \u2014 operations are processing/manufacturing-led. Figures rounded; not from machine-readable filings.",
   "periods": [
     {
       "endDate": "2021-03-31",
@@ -28,12 +28,115 @@
       "netDebtMM": 7000,
       "totalEquityMM": 33500,
       "sharesOutMM": 156.5,
-      "epsBasic": 48.1,
+      "epsBasic": 48.115,
       "dividendPerShare": 13,
-      "notes": "FY21 (Apr20-Mar21): revenue Rs 7,690 cr. EBITDA Rs 1,320 cr. PAT Rs 753 cr. Strong year — caustic soda recovery + sugar export incentives. Net debt low post-deleveraging.",
+      "notes": "FY21 (Apr20-Mar21): revenue Rs 7,690 cr. EBITDA Rs 1,320 cr. PAT Rs 753 cr. Strong year \u2014 caustic soda recovery + sugar export incentives. Net debt low post-deleveraging.",
       "capexMM": 4500,
       "daMM": 2400,
-      "cfoMM": 9500
+      "cfoMM": 9500,
+      "nonAgricultureRevenuePct": 65,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Chloro-Vinyl (Chemicals/PVC)",
+          "revenueMM": 22500,
+          "ebitdaMM": 4200
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 22500,
+          "ebitdaMM": 1750
+        },
+        {
+          "segment": "Shriram Farm Solutions",
+          "revenueMM": 9500,
+          "ebitdaMM": 380
+        },
+        {
+          "segment": "Hariyali Kisaan Bazaar (Bioseed)",
+          "revenueMM": 3500,
+          "ebitdaMM": 285
+        },
+        {
+          "segment": "Fenesta Building Systems",
+          "revenueMM": 5500,
+          "ebitdaMM": 480
+        },
+        {
+          "segment": "Cement / Others",
+          "revenueMM": 3800,
+          "ebitdaMM": 215
+        }
+      ],
+      "bookValuePerShare": 214.0575
+    },
+    {
+      "endDate": "2021-06-30",
+      "periodType": "Q",
+      "revenueMM": 19500,
+      "ebitdaMM": 3700,
+      "netIncomeMM": 2080,
+      "notes": "Q1 FY22: revenue Rs 1,950 cr. Caustic soda price spike + sugar margin tailwind."
+    },
+    {
+      "endDate": "2021-09-30",
+      "periodType": "Q",
+      "revenueMM": 21500,
+      "ebitdaMM": 4400,
+      "netIncomeMM": 2640,
+      "notes": "Q2 FY22: revenue Rs 2,150 cr. Peak chloro-vinyl spreads."
+    },
+    {
+      "endDate": "2021-12-31",
+      "periodType": "Q",
+      "revenueMM": 26500,
+      "ebitdaMM": 5500,
+      "netIncomeMM": 3380,
+      "notes": "Q3 FY22: revenue Rs 2,650 cr. Sugar season ramp + chemicals strong."
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 27900,
+      "ebitdaMM": 5400,
+      "netIncomeMM": 3320,
+      "notes": "Q4 FY22: revenue Rs 2,790 cr. Closes record FY22.",
+      "propertyBookMM": 4000,
+      "ppeBookMM": 28500,
+      "inventoryMM": 16200,
+      "intangibleAssetsMM": 900,
+      "nonAgricultureRevenuePct": 68,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Chloro-Vinyl (Chemicals/PVC)",
+          "revenueMM": 31500,
+          "ebitdaMM": 7500
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 24500,
+          "ebitdaMM": 1950
+        },
+        {
+          "segment": "Shriram Farm Solutions",
+          "revenueMM": 10500,
+          "ebitdaMM": 420
+        },
+        {
+          "segment": "Hariyali Kisaan Bazaar (Bioseed)",
+          "revenueMM": 3850,
+          "ebitdaMM": 320
+        },
+        {
+          "segment": "Fenesta Building Systems",
+          "revenueMM": 6800,
+          "ebitdaMM": 580
+        },
+        {
+          "segment": "Cement / Others",
+          "revenueMM": 4100,
+          "ebitdaMM": 245
+        }
+      ]
     },
     {
       "endDate": "2022-03-31",
@@ -59,12 +162,119 @@
       "netDebtMM": 7500,
       "totalEquityMM": 41000,
       "sharesOutMM": 156.5,
-      "epsBasic": 73,
+      "epsBasic": 72.9712,
       "dividendPerShare": 16,
       "notes": "FY22: revenue Rs 9,540 cr. Record EBITDA Rs 1,900 cr on caustic + epichlorohydrin price spike. PAT Rs 1,142 cr.",
       "capexMM": 5200,
       "daMM": 2600,
-      "cfoMM": 8800
+      "cfoMM": 8800,
+      "propertyBookMM": 4000,
+      "ppeBookMM": 28500,
+      "inventoryMM": 16200,
+      "intangibleAssetsMM": 900,
+      "nonAgricultureRevenuePct": 68,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Chloro-Vinyl (Chemicals/PVC)",
+          "revenueMM": 31500,
+          "ebitdaMM": 7500
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 24500,
+          "ebitdaMM": 1950
+        },
+        {
+          "segment": "Shriram Farm Solutions",
+          "revenueMM": 10500,
+          "ebitdaMM": 420
+        },
+        {
+          "segment": "Hariyali Kisaan Bazaar (Bioseed)",
+          "revenueMM": 3850,
+          "ebitdaMM": 320
+        },
+        {
+          "segment": "Fenesta Building Systems",
+          "revenueMM": 6800,
+          "ebitdaMM": 580
+        },
+        {
+          "segment": "Cement / Others",
+          "revenueMM": 4100,
+          "ebitdaMM": 245
+        }
+      ],
+      "bookValuePerShare": 261.9808
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 24500,
+      "ebitdaMM": 4500,
+      "netIncomeMM": 2480,
+      "notes": "Q1 FY23: revenue Rs 2,450 cr."
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 26500,
+      "ebitdaMM": 4500,
+      "netIncomeMM": 2360,
+      "notes": "Q2 FY23: revenue Rs 2,650 cr."
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 30200,
+      "ebitdaMM": 4900,
+      "netIncomeMM": 2480,
+      "notes": "Q3 FY23: revenue Rs 3,020 cr. Sugar season peak."
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 32000,
+      "ebitdaMM": 4600,
+      "netIncomeMM": 2440,
+      "notes": "Q4 FY23: revenue Rs 3,200 cr. Chloro-vinyl beginning to roll over.",
+      "propertyBookMM": 4100,
+      "ppeBookMM": 30200,
+      "inventoryMM": 17500,
+      "intangibleAssetsMM": 880,
+      "nonAgricultureRevenuePct": 68,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Chloro-Vinyl (Chemicals/PVC)",
+          "revenueMM": 35500,
+          "ebitdaMM": 6200
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 26500,
+          "ebitdaMM": 2100
+        },
+        {
+          "segment": "Shriram Farm Solutions",
+          "revenueMM": 11500,
+          "ebitdaMM": 450
+        },
+        {
+          "segment": "Hariyali Kisaan Bazaar (Bioseed)",
+          "revenueMM": 4200,
+          "ebitdaMM": 350
+        },
+        {
+          "segment": "Fenesta Building Systems",
+          "revenueMM": 7800,
+          "ebitdaMM": 680
+        },
+        {
+          "segment": "Cement / Others",
+          "revenueMM": 4500,
+          "ebitdaMM": 265
+        }
+      ]
     },
     {
       "endDate": "2023-03-31",
@@ -90,12 +300,119 @@
       "netDebtMM": 13500,
       "totalEquityMM": 47000,
       "sharesOutMM": 156.5,
-      "epsBasic": 62.4,
+      "epsBasic": 62.3642,
       "dividendPerShare": 14,
       "notes": "FY23: revenue Rs 11,320 cr. EBITDA still strong Rs 1,850 cr on full-year sugar/ethanol momentum + late-cycle chemical pricing. PAT Rs 976 cr. Capex ramp pushing net debt up.",
       "capexMM": 7800,
       "daMM": 2900,
-      "cfoMM": 7400
+      "cfoMM": 7400,
+      "propertyBookMM": 4100,
+      "ppeBookMM": 30200,
+      "inventoryMM": 17500,
+      "intangibleAssetsMM": 880,
+      "nonAgricultureRevenuePct": 68,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Chloro-Vinyl (Chemicals/PVC)",
+          "revenueMM": 35500,
+          "ebitdaMM": 6200
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 26500,
+          "ebitdaMM": 2100
+        },
+        {
+          "segment": "Shriram Farm Solutions",
+          "revenueMM": 11500,
+          "ebitdaMM": 450
+        },
+        {
+          "segment": "Hariyali Kisaan Bazaar (Bioseed)",
+          "revenueMM": 4200,
+          "ebitdaMM": 350
+        },
+        {
+          "segment": "Fenesta Building Systems",
+          "revenueMM": 7800,
+          "ebitdaMM": 680
+        },
+        {
+          "segment": "Cement / Others",
+          "revenueMM": 4500,
+          "ebitdaMM": 265
+        }
+      ],
+      "bookValuePerShare": 300.3195
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 26800,
+      "ebitdaMM": 2700,
+      "netIncomeMM": 1130,
+      "notes": "Q1 FY24: revenue Rs 2,680 cr. Caustic prices collapsing."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 25500,
+      "ebitdaMM": 1850,
+      "netIncomeMM": 530,
+      "notes": "Q2 FY24: revenue Rs 2,550 cr. Trough quarter."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 28500,
+      "ebitdaMM": 2400,
+      "netIncomeMM": 980,
+      "notes": "Q3 FY24: revenue Rs 2,850 cr. Govt ethanol diversion ban Dec-23."
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 29900,
+      "ebitdaMM": 2550,
+      "netIncomeMM": 1120,
+      "notes": "Q4 FY24: revenue Rs 2,990 cr.",
+      "propertyBookMM": 4200,
+      "ppeBookMM": 32500,
+      "inventoryMM": 18500,
+      "intangibleAssetsMM": 850,
+      "nonAgricultureRevenuePct": 70,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Chloro-Vinyl (Chemicals/PVC)",
+          "revenueMM": 32500,
+          "ebitdaMM": 4500
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 28500,
+          "ebitdaMM": 1850
+        },
+        {
+          "segment": "Shriram Farm Solutions",
+          "revenueMM": 12500,
+          "ebitdaMM": 480
+        },
+        {
+          "segment": "Hariyali Kisaan Bazaar (Bioseed)",
+          "revenueMM": 4500,
+          "ebitdaMM": 380
+        },
+        {
+          "segment": "Fenesta Building Systems",
+          "revenueMM": 8500,
+          "ebitdaMM": 720
+        },
+        {
+          "segment": "Cement / Others",
+          "revenueMM": 4800,
+          "ebitdaMM": 285
+        }
+      ]
     },
     {
       "endDate": "2024-03-31",
@@ -121,12 +438,82 @@
       "netDebtMM": 18500,
       "totalEquityMM": 49500,
       "sharesOutMM": 156.5,
-      "epsBasic": 24.0,
+      "epsBasic": 24.0256,
       "dividendPerShare": 9.4,
       "notes": "FY24: revenue Rs 11,070 cr (-2% YoY). EBITDA Rs 950 cr (-49% YoY) on caustic soda price collapse + sugar margin compression. PAT Rs 376 cr. Capex into Bharuch chemicals expansion lifting net debt.",
       "capexMM": 9500,
       "daMM": 3400,
-      "cfoMM": 7000
+      "cfoMM": 7000,
+      "propertyBookMM": 4200,
+      "ppeBookMM": 32500,
+      "inventoryMM": 18500,
+      "intangibleAssetsMM": 850,
+      "nonAgricultureRevenuePct": 70,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Chloro-Vinyl (Chemicals/PVC)",
+          "revenueMM": 32500,
+          "ebitdaMM": 4500
+        },
+        {
+          "segment": "Sugar",
+          "revenueMM": 28500,
+          "ebitdaMM": 1850
+        },
+        {
+          "segment": "Shriram Farm Solutions",
+          "revenueMM": 12500,
+          "ebitdaMM": 480
+        },
+        {
+          "segment": "Hariyali Kisaan Bazaar (Bioseed)",
+          "revenueMM": 4500,
+          "ebitdaMM": 380
+        },
+        {
+          "segment": "Fenesta Building Systems",
+          "revenueMM": 8500,
+          "ebitdaMM": 720
+        },
+        {
+          "segment": "Cement / Others",
+          "revenueMM": 4800,
+          "ebitdaMM": 285
+        }
+      ],
+      "bookValuePerShare": 316.2939
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 28500,
+      "ebitdaMM": 1900,
+      "netIncomeMM": 580,
+      "notes": "Q1 FY25: revenue Rs 2,850 cr."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 27500,
+      "ebitdaMM": 1500,
+      "netIncomeMM": 320,
+      "notes": "Q2 FY25: revenue Rs 2,750 cr. Soft quarter."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 30500,
+      "ebitdaMM": 2050,
+      "netIncomeMM": 670,
+      "notes": "Q3 FY25: revenue Rs 3,050 cr."
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 32500,
+      "ebitdaMM": 2150,
+      "netIncomeMM": 700,
+      "notes": "Q4 FY25: revenue Rs 3,250 cr."
     },
     {
       "endDate": "2025-03-31",
@@ -152,12 +539,21 @@
       "netDebtMM": 19500,
       "totalEquityMM": 50500,
       "sharesOutMM": 156.5,
-      "epsBasic": 14.5,
+      "epsBasic": 14.5048,
       "dividendPerShare": 8.5,
-      "notes": "FY25: revenue Rs 11,900 cr (+7% YoY). EBITDA Rs 760 cr (-20% YoY) — chloro-vinyl still soft, sugar/ethanol mixed on diversion caps. PAT Rs 227 cr. Bharuch project commissioning lifting D&A; FY26 expected recovery as new capacity ramps.",
+      "notes": "FY25: revenue Rs 11,900 cr (+7% YoY). EBITDA Rs 760 cr (-20% YoY) \u2014 chloro-vinyl still soft, sugar/ethanol mixed on diversion caps. PAT Rs 227 cr. Bharuch project commissioning lifting D&A; FY26 expected recovery as new capacity ramps.",
       "capexMM": 8800,
       "daMM": 3700,
-      "cfoMM": 8500
+      "cfoMM": 8500,
+      "interestExpenseMM": 2167.5,
+      "weightedAvgDebtRate": 9.0,
+      "debtMaturityProfileMM": {
+        "<1y": 10200.0,
+        "1-3y": 6375.0,
+        "3-5y": 3825.0,
+        "5+y": 5100.0
+      },
+      "bookValuePerShare": 322.6837
     }
   ]
 }

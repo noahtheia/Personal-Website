@@ -2,7 +2,7 @@
   "ticker": "URC.PS",
   "currency": "PHP",
   "sourceUrl": "https://www.urc.com.ph/investor-relations",
-  "notes": "Universal Robina Corporation (PSE: URC) — JG Summit Holdings flagship food & beverage company, the largest Philippine-based branded food company. Two main businesses: (1) Branded Consumer Foods (BCFG) — snacks, beverages (C2 RTD tea, Refresh juices), candies, biscuits, instant noodles (Nissin partnership), pet food, ice cream — operates in Philippines, Thailand, Vietnam, Indonesia, Malaysia, Australia/NZ (Griffin's, Unifoods, Snack Brands Aus.); (2) Agro-Industrial & Commodities (AIC) — sugar milling (URSUMCO, SONEDCO, CARSUMCO, BISUMCO), flour milling, animal feeds & livestock (hogs, poultry). Fiscal year ends Dec 31. All values in PHP millions. Source: SEC Philippines 17-A annual reports + audited consolidated financial statements. Sector: Diversified Agribusiness (sugar/livestock + branded foods). PHP/USD ~58. Share count ~2,204M.",
+  "notes": "Universal Robina Corporation (PSE: URC) \u2014 JG Summit Holdings flagship food & beverage company, the largest Philippine-based branded food company. Two main businesses: (1) Branded Consumer Foods (BCFG) \u2014 snacks, beverages (C2 RTD tea, Refresh juices), candies, biscuits, instant noodles (Nissin partnership), pet food, ice cream \u2014 operates in Philippines, Thailand, Vietnam, Indonesia, Malaysia, Australia/NZ (Griffin's, Unifoods, Snack Brands Aus.); (2) Agro-Industrial & Commodities (AIC) \u2014 sugar milling (URSUMCO, SONEDCO, CARSUMCO, BISUMCO), flour milling, animal feeds & livestock (hogs, poultry). Fiscal year ends Dec 31. All values in PHP millions. Source: SEC Philippines 17-A annual reports + audited consolidated financial statements. Sector: Diversified Agribusiness (sugar/livestock + branded foods). PHP/USD ~58. Share count ~2,204M.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -26,12 +26,36 @@
       "netDebtMM": 17500,
       "totalEquityMM": 80500,
       "sharesOutMM": 2204.2,
-      "epsBasic": 3.73,
+      "epsBasic": 3.7338,
       "dividendPerShare": 3.05,
-      "notes": "FY20: revenue PHP 134.2B. EBITDA PHP 18.2B. NI PHP 8.23B. COVID hit — at-home consumption boost on snacks offset by HoReCa weakness. Sugar segment soft on global price weakness.",
+      "notes": "FY20: revenue PHP 134.2B. EBITDA PHP 18.2B. NI PHP 8.23B. COVID hit \u2014 at-home consumption boost on snacks offset by HoReCa weakness. Sugar segment soft on global price weakness.",
       "capexMM": 7500,
       "daMM": 6800,
-      "cfoMM": 21000
+      "cfoMM": 21000,
+      "nonAgricultureRevenuePct": 93,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Branded Consumer Foods Philippines",
+          "revenueMM": 67800,
+          "ebitdaMM": 11200
+        },
+        {
+          "segment": "Branded Consumer Foods International",
+          "revenueMM": 35500,
+          "ebitdaMM": 3850
+        },
+        {
+          "segment": "Agro-Industrial & Commodity Foods",
+          "revenueMM": 14200,
+          "ebitdaMM": 1180
+        },
+        {
+          "segment": "Packaging",
+          "revenueMM": 1600,
+          "ebitdaMM": 195
+        }
+      ],
+      "bookValuePerShare": 36.5212
     },
     {
       "endDate": "2021-12-31",
@@ -55,12 +79,36 @@
       "netDebtMM": 19500,
       "totalEquityMM": 81000,
       "sharesOutMM": 2204.2,
-      "epsBasic": 3.22,
+      "epsBasic": 3.2166,
       "dividendPerShare": 3.05,
       "notes": "FY21: revenue PHP 132.7B (-1%). EBITDA PHP 16.7B. NI PHP 7.09B. Continued mobility restrictions in PH; BCFG margins squeezed by input inflation.",
       "capexMM": 8200,
       "daMM": 7100,
-      "cfoMM": 18500
+      "cfoMM": 18500,
+      "nonAgricultureRevenuePct": 94,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Branded Consumer Foods Philippines",
+          "revenueMM": 71500,
+          "ebitdaMM": 11500
+        },
+        {
+          "segment": "Branded Consumer Foods International",
+          "revenueMM": 38200,
+          "ebitdaMM": 4100
+        },
+        {
+          "segment": "Agro-Industrial & Commodity Foods",
+          "revenueMM": 15500,
+          "ebitdaMM": 1320
+        },
+        {
+          "segment": "Packaging",
+          "revenueMM": 1750,
+          "ebitdaMM": 215
+        }
+      ],
+      "bookValuePerShare": 36.748
     },
     {
       "endDate": "2022-12-31",
@@ -84,12 +132,99 @@
       "netDebtMM": 21500,
       "totalEquityMM": 84000,
       "sharesOutMM": 2204.2,
-      "epsBasic": 3.59,
+      "epsBasic": 3.5931,
       "dividendPerShare": 3.3,
       "notes": "FY22: revenue PHP 148.8B (+12%). EBITDA PHP 16.9B. NI PHP 7.92B. Reopening + price increases lifted top-line; sugar prices recovered.",
       "capexMM": 11000,
       "daMM": 7500,
-      "cfoMM": 17500
+      "cfoMM": 17500,
+      "propertyBookMM": 7900,
+      "ppeBookMM": 48200,
+      "inventoryMM": 20500,
+      "intangibleAssetsMM": 19000,
+      "nonAgricultureRevenuePct": 94,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Branded Consumer Foods Philippines",
+          "revenueMM": 79500,
+          "ebitdaMM": 12100
+        },
+        {
+          "segment": "Branded Consumer Foods International",
+          "revenueMM": 41500,
+          "ebitdaMM": 4400
+        },
+        {
+          "segment": "Agro-Industrial & Commodity Foods",
+          "revenueMM": 16500,
+          "ebitdaMM": 1450
+        },
+        {
+          "segment": "Packaging",
+          "revenueMM": 1900,
+          "ebitdaMM": 230
+        }
+      ],
+      "bookValuePerShare": 38.1091
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 38500,
+      "ebitdaMM": 4400,
+      "netIncomeMM": 2700,
+      "notes": "Q1 FY23: PHP 38.5B revenue."
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 39800,
+      "ebitdaMM": 4650,
+      "netIncomeMM": 2900,
+      "notes": "Q2 FY23: PHP 39.8B."
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 40100,
+      "ebitdaMM": 4700,
+      "netIncomeMM": 2950,
+      "notes": "Q3 FY23: PHP 40.1B."
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 40680,
+      "ebitdaMM": 4750,
+      "netIncomeMM": 2950,
+      "notes": "Q4 FY23: PHP 40.7B.",
+      "propertyBookMM": 8200,
+      "ppeBookMM": 50500,
+      "inventoryMM": 21800,
+      "intangibleAssetsMM": 18800,
+      "nonAgricultureRevenuePct": 95,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Branded Consumer Foods Philippines",
+          "revenueMM": 88500,
+          "ebitdaMM": 13200
+        },
+        {
+          "segment": "Branded Consumer Foods International",
+          "revenueMM": 45200,
+          "ebitdaMM": 4800
+        },
+        {
+          "segment": "Agro-Industrial & Commodity Foods",
+          "revenueMM": 17800,
+          "ebitdaMM": 1650
+        },
+        {
+          "segment": "Packaging",
+          "revenueMM": 2050,
+          "ebitdaMM": 250
+        }
+      ]
     },
     {
       "endDate": "2023-12-31",
@@ -113,12 +248,99 @@
       "netDebtMM": 21000,
       "totalEquityMM": 88500,
       "sharesOutMM": 2204.2,
-      "epsBasic": 5.22,
+      "epsBasic": 5.2173,
       "dividendPerShare": 3.5,
       "notes": "FY23: revenue PHP 159.1B (+7%). EBITDA PHP 18.5B (+9%). NI PHP 11.5B (+45%). Strong year on PH sugar price spike + branded foods volume + price.",
       "capexMM": 9500,
       "daMM": 7800,
-      "cfoMM": 21500
+      "cfoMM": 21500,
+      "propertyBookMM": 8200,
+      "ppeBookMM": 50500,
+      "inventoryMM": 21800,
+      "intangibleAssetsMM": 18800,
+      "nonAgricultureRevenuePct": 95,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Branded Consumer Foods Philippines",
+          "revenueMM": 88500,
+          "ebitdaMM": 13200
+        },
+        {
+          "segment": "Branded Consumer Foods International",
+          "revenueMM": 45200,
+          "ebitdaMM": 4800
+        },
+        {
+          "segment": "Agro-Industrial & Commodity Foods",
+          "revenueMM": 17800,
+          "ebitdaMM": 1650
+        },
+        {
+          "segment": "Packaging",
+          "revenueMM": 2050,
+          "ebitdaMM": 250
+        }
+      ],
+      "bookValuePerShare": 40.1506
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 40500,
+      "ebitdaMM": 4750,
+      "netIncomeMM": 2400,
+      "notes": "Q1 FY24: PHP 40.5B."
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 41800,
+      "ebitdaMM": 4900,
+      "netIncomeMM": 2520,
+      "notes": "Q2 FY24: PHP 41.8B."
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 42200,
+      "ebitdaMM": 4900,
+      "netIncomeMM": 2480,
+      "notes": "Q3 FY24: PHP 42.2B."
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 42500,
+      "ebitdaMM": 4950,
+      "netIncomeMM": 2520,
+      "notes": "Q4 FY24: PHP 42.5B.",
+      "propertyBookMM": 8500,
+      "ppeBookMM": 52000,
+      "inventoryMM": 22500,
+      "intangibleAssetsMM": 18500,
+      "nonAgricultureRevenuePct": 95,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Branded Consumer Foods Philippines",
+          "revenueMM": 95800,
+          "ebitdaMM": 14500
+        },
+        {
+          "segment": "Branded Consumer Foods International",
+          "revenueMM": 48500,
+          "ebitdaMM": 5200
+        },
+        {
+          "segment": "Agro-Industrial & Commodity Foods",
+          "revenueMM": 18500,
+          "ebitdaMM": 1850
+        },
+        {
+          "segment": "Packaging",
+          "revenueMM": 2200,
+          "ebitdaMM": 280
+        }
+      ]
     },
     {
       "endDate": "2024-12-31",
@@ -142,12 +364,48 @@
       "netDebtMM": 22000,
       "totalEquityMM": 91000,
       "sharesOutMM": 2204.2,
-      "epsBasic": 4.5,
+      "epsBasic": 4.5005,
       "dividendPerShare": 4.0,
       "notes": "FY24: revenue PHP 167B (+5%). EBITDA PHP 19.5B (+5%). NI PHP 9.92B (-14% YoY off elevated FY23 base). Sugar margins normalized; branded foods steady.",
       "capexMM": 8800,
       "daMM": 8100,
-      "cfoMM": 23000
+      "cfoMM": 23000,
+      "interestExpenseMM": 2340.0,
+      "weightedAvgDebtRate": 6.5,
+      "debtMaturityProfileMM": {
+        "<1y": 9000.0,
+        "1-3y": 10800.0,
+        "3-5y": 7200.0,
+        "5+y": 9000.0
+      },
+      "propertyBookMM": 8500,
+      "ppeBookMM": 52000,
+      "inventoryMM": 22500,
+      "intangibleAssetsMM": 18500,
+      "nonAgricultureRevenuePct": 95,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Branded Consumer Foods Philippines",
+          "revenueMM": 95800,
+          "ebitdaMM": 14500
+        },
+        {
+          "segment": "Branded Consumer Foods International",
+          "revenueMM": 48500,
+          "ebitdaMM": 5200
+        },
+        {
+          "segment": "Agro-Industrial & Commodity Foods",
+          "revenueMM": 18500,
+          "ebitdaMM": 1850
+        },
+        {
+          "segment": "Packaging",
+          "revenueMM": 2200,
+          "ebitdaMM": 280
+        }
+      ],
+      "bookValuePerShare": 41.2848
     }
   ]
 }

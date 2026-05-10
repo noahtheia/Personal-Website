@@ -49,6 +49,57 @@
       "cfoMM": 17.7
     },
     {
+      "endDate": "2022-03-27",
+      "periodType": "Q",
+      "revenueMM": 77.1,
+      "netIncomeMM": -1.5,
+      "ebitdaMM": -3.1,
+      "expensesBySegmentMM": {
+        "COGS": 55.4,
+        "SG&A": 17.6,
+        "D&A": 0.9
+      },
+      "capexMM": 1.7,
+      "cfoMM": -4.9,
+      "daMM": 0.9,
+      "sharesOutMM": 40.6,
+      "epsBasic": -0.0369
+    },
+    {
+      "endDate": "2022-06-26",
+      "periodType": "Q",
+      "revenueMM": 82.9,
+      "netIncomeMM": 0.2,
+      "ebitdaMM": 2.1,
+      "expensesBySegmentMM": {
+        "COGS": 57.9,
+        "SG&A": 17.0,
+        "D&A": 1.3
+      },
+      "capexMM": 2.7,
+      "cfoMM": 1.9,
+      "daMM": 1.3,
+      "sharesOutMM": 40.68,
+      "epsBasic": 0.0049
+    },
+    {
+      "endDate": "2022-09-25",
+      "periodType": "Q",
+      "revenueMM": 92.0,
+      "netIncomeMM": 0.7,
+      "ebitdaMM": 3.5,
+      "expensesBySegmentMM": {
+        "COGS": 62.5,
+        "SG&A": 20.6,
+        "D&A": 1.5
+      },
+      "capexMM": 2.5,
+      "cfoMM": -0.4,
+      "daMM": 1.5,
+      "sharesOutMM": 40.73,
+      "epsBasic": 0.0172
+    },
+    {
       "endDate": "2022-12-25",
       "periodType": "FY",
       "revenueMM": 362.1,
@@ -71,6 +122,57 @@
       "cfoMM": -8.1
     },
     {
+      "endDate": "2023-03-26",
+      "periodType": "Q",
+      "revenueMM": 119.2,
+      "netIncomeMM": 7.2,
+      "ebitdaMM": 12.6,
+      "expensesBySegmentMM": {
+        "COGS": 76.5,
+        "SG&A": 23.9,
+        "D&A": 1.7
+      },
+      "capexMM": 1.8,
+      "cfoMM": 5.4,
+      "daMM": 1.7,
+      "sharesOutMM": 40.84,
+      "epsBasic": 0.1763
+    },
+    {
+      "endDate": "2023-06-25",
+      "periodType": "Q",
+      "revenueMM": 106.4,
+      "netIncomeMM": 6.7,
+      "ebitdaMM": 9.9,
+      "expensesBySegmentMM": {
+        "COGS": 68.6,
+        "SG&A": 23.9,
+        "D&A": 1.9
+      },
+      "capexMM": 2.5,
+      "cfoMM": 13.5,
+      "daMM": 1.9,
+      "sharesOutMM": 41.23,
+      "epsBasic": 0.1625
+    },
+    {
+      "endDate": "2023-09-24",
+      "periodType": "Q",
+      "revenueMM": 110.4,
+      "netIncomeMM": 4.5,
+      "ebitdaMM": 7.3,
+      "expensesBySegmentMM": {
+        "COGS": 73.8,
+        "SG&A": 25.1,
+        "D&A": 2.1
+      },
+      "capexMM": 4.8,
+      "cfoMM": 8.3,
+      "daMM": 2.1,
+      "sharesOutMM": 41.57,
+      "epsBasic": 0.1083
+    },
+    {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 471.9,
@@ -90,7 +192,68 @@
       "notes": "FY23: revenue $472M (+30%). Net income $25.6M ($0.61/sh). Adj EBITDA $48.5M.",
       "capexMM": 11.5,
       "daMM": 7.9,
-      "cfoMM": 50.9
+      "cfoMM": 50.9,
+      "ppeBookMM": 62.8,
+      "inventoryMM": 28.4,
+      "intangibleAssetsMM": 4.4,
+      "egg": {
+        "layingHenFlockMM": 5.6,
+        "dozensSoldMM": 116.4,
+        "avgSellingPricePerDozen": 5.14,
+        "feedCostPerDozen": 1.142,
+        "specialtyEggMixPct": 100
+      }
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 147.9,
+      "netIncomeMM": 19.0,
+      "ebitdaMM": 26.5,
+      "expensesBySegmentMM": {
+        "COGS": 89.0,
+        "SG&A": 27.1,
+        "D&A": 2.3
+      },
+      "capexMM": 1.3,
+      "cfoMM": 23.9,
+      "daMM": 2.3,
+      "sharesOutMM": 42.0,
+      "epsBasic": 0.4524
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 147.4,
+      "netIncomeMM": 16.3,
+      "ebitdaMM": 19.5,
+      "expensesBySegmentMM": {
+        "COGS": 89.7,
+        "SG&A": 33.3,
+        "D&A": 2.4
+      },
+      "capexMM": 5.6,
+      "cfoMM": 16.1,
+      "daMM": 2.4,
+      "sharesOutMM": 42.97,
+      "epsBasic": 0.3793
+    },
+    {
+      "endDate": "2024-09-29",
+      "periodType": "Q",
+      "revenueMM": 145.0,
+      "netIncomeMM": 7.4,
+      "ebitdaMM": 11.6,
+      "expensesBySegmentMM": {
+        "COGS": 91.5,
+        "SG&A": 36.1,
+        "D&A": 2.3
+      },
+      "capexMM": 3.6,
+      "cfoMM": 10.0,
+      "daMM": 2.3,
+      "sharesOutMM": 43.71,
+      "epsBasic": 0.1693
     },
     {
       "endDate": "2024-12-29",
@@ -112,7 +275,94 @@
       "notes": "FY24: revenue $606M (+28%). Net income $53.4M ($1.21/sh). Adj EBITDA $80M (13.1% margin). Cash $160M, no meaningful debt.",
       "capexMM": 28.6,
       "daMM": 9.3,
-      "cfoMM": 64.8
+      "cfoMM": 64.8,
+      "interestExpenseMM": 0,
+      "weightedAvgDebtRate": 5.5
+    },
+    {
+      "endDate": "2025-03-30",
+      "periodType": "Q",
+      "revenueMM": 162.2,
+      "netIncomeMM": 16.9,
+      "ebitdaMM": 24.0,
+      "expensesBySegmentMM": {
+        "COGS": 99.7,
+        "SG&A": 31.9,
+        "D&A": 2.2
+      },
+      "capexMM": 3.1,
+      "cfoMM": 5.3,
+      "daMM": 2.2,
+      "sharesOutMM": 44.5,
+      "epsBasic": 0.3798
+    },
+    {
+      "endDate": "2025-06-29",
+      "periodType": "Q",
+      "revenueMM": 184.8,
+      "netIncomeMM": 16.6,
+      "ebitdaMM": 26.2,
+      "expensesBySegmentMM": {
+        "COGS": 113.0,
+        "SG&A": 39.0,
+        "D&A": 2.4
+      },
+      "capexMM": 6.9,
+      "cfoMM": -0.8,
+      "daMM": 2.4,
+      "sharesOutMM": 44.66,
+      "epsBasic": 0.3717
+    },
+    {
+      "endDate": "2025-09-28",
+      "periodType": "Q",
+      "revenueMM": 198.9,
+      "netIncomeMM": 16.4,
+      "ebitdaMM": 23.4,
+      "expensesBySegmentMM": {
+        "COGS": 124.0,
+        "SG&A": 44.4,
+        "D&A": 2.0
+      },
+      "capexMM": 34.0,
+      "cfoMM": 23.4,
+      "daMM": 2.0,
+      "sharesOutMM": 44.77,
+      "epsBasic": 0.3663
+    },
+    {
+      "endDate": "2025-12-28",
+      "periodType": "Q",
+      "revenueMM": 213.6,
+      "netIncomeMM": 16.3,
+      "ebitdaMM": 24.0,
+      "expensesBySegmentMM": {
+        "COGS": 137.1,
+        "SG&A": 44.1,
+        "D&A": 2.6
+      },
+      "capexMM": 37.9,
+      "cfoMM": 5.8,
+      "daMM": 2.6,
+      "sharesOutMM": 44.8,
+      "epsBasic": 0.3638
+    },
+    {
+      "endDate": "2026-03-29",
+      "periodType": "Q",
+      "revenueMM": 187.2,
+      "netIncomeMM": -1.5,
+      "ebitdaMM": 0.3,
+      "expensesBySegmentMM": {
+        "COGS": 134.1,
+        "SG&A": 44.4,
+        "D&A": 2.6
+      },
+      "capexMM": 20.8,
+      "cfoMM": -18.6,
+      "daMM": 2.6,
+      "sharesOutMM": 43.98,
+      "epsBasic": -0.0341
     }
   ]
 }

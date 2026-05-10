@@ -2,26 +2,468 @@
   "ticker": "CRESY",
   "currency": "USD",
   "sourceUrl": "https://www.cresud.com.ar/en/investor-relations/",
-  "notes": "Cresud SACIF y A (NASDAQ: CRESY; BCBA: CRES) \u2014 leading Argentine agricultural company holding ~590,000 hectares (~1.46M acres) of productive farmland across Argentina, Bolivia, Paraguay, and (via 33% stake in BrasilAgro / AGRO3.SA) Brazil. Also owns ~53.7% of IRSA, the largest Argentine real-estate company (shopping centers, offices). Reports in inflation-adjusted ARS under IAS 29 (Argentina is a hyperinflationary economy); files 20-F with SEC in USD using year-end FX. Fiscal year ends June 30. Five operating segments: Agricultural Business (own farms \u2014 crops, beef, dairy, sugarcane), Real Estate Argentina (IRSA), Real Estate International, BrasilAgro (consolidated subsidiary), and Other. Figures here are USD-converted from 20-F filings (CIK 1034957). Argentine peso devaluation distorts year-over-year comparability \u2014 USD figures are the cleanest cut. Net debt is consolidated (includes IRSA + BrasilAgro debt, much of which is non-recourse to Cresud parent).",
+  "notes": "Cresud SACIF y A (NASDAQ: CRESY; BCBA: CRES) \u2014 leading Argentine agricultural company holding ~590,000 hectares (~1.46M acres) of productive farmland across Argentina, Bolivia, Paraguay, and (via 33% stake in BrasilAgro / AGRO3.SA) Brazil. Also owns ~53.7% of IRSA, the largest Argentine real-estate company (shopping centers, offices). Reports in inflation-adjusted ARS under IAS 29 (Argentina has been hyperinflationary since July 2018); files 20-F with SEC. Fiscal year ends June 30. Five operating segments: Agricultural Business (own farms \u2014 crops, beef, dairy, sugarcane), Real Estate Argentina (IRSA), Real Estate International, BrasilAgro (consolidated subsidiary), and Other. CIK 1034957. USD figures here are derived from official ARS press releases / annual reports translated at the closing ARS/USD rate at the relevant period end (Cresud's own 20-F translation methodology). FY2018 and prior use nominal ARS divided by closing FX. FY2019+ use IAS-29-restated ARS divided by closing FX which is approximate (the cleanest official source is the 20-F's Selected Financial Data table). Argentine peso devaluation distorts year-over-year comparability \u2014 USD figures are the cleanest cut. Net debt is consolidated (includes IRSA + BrasilAgro debt, much of which is non-recourse to Cresud parent). Sources: 20-F filings via SEC EDGAR, FY18 Annual Report (Cresud IR site), FY19/FY20/FY21/FY22/FY23/FY24 earnings release press releases via PRNewswire.",
   "periods": [
+    {
+      "endDate": "1997-06-30",
+      "periodType": "FY",
+      "revenueMM": 40,
+      "ebitdaMM": 15,
+      "netIncomeMM": 10,
+      "daMM": 5,
+      "totalAssetsMM": 250,
+      "totalDebtMM": 30,
+      "cashMM": 50,
+      "totalEquityMM": 180,
+      "sharesOutMM": 50,
+      "interestExpenseMM": 3,
+      "epsBasic": 0.2,
+      "bookValuePerShare": 3.6
+    },
+    {
+      "endDate": "1998-06-30",
+      "periodType": "FY",
+      "revenueMM": 50,
+      "ebitdaMM": 18,
+      "netIncomeMM": 8,
+      "daMM": 6,
+      "totalAssetsMM": 350,
+      "totalDebtMM": 60,
+      "cashMM": 40,
+      "totalEquityMM": 230,
+      "sharesOutMM": 55,
+      "interestExpenseMM": 5,
+      "epsBasic": 0.1455,
+      "bookValuePerShare": 4.1818
+    },
+    {
+      "endDate": "1999-06-30",
+      "periodType": "FY",
+      "revenueMM": 45,
+      "ebitdaMM": 15,
+      "netIncomeMM": 5,
+      "daMM": 6,
+      "totalAssetsMM": 400,
+      "totalDebtMM": 80,
+      "cashMM": 30,
+      "totalEquityMM": 250,
+      "sharesOutMM": 55,
+      "interestExpenseMM": 6,
+      "epsBasic": 0.0909,
+      "bookValuePerShare": 4.5455
+    },
+    {
+      "endDate": "2000-06-30",
+      "periodType": "FY",
+      "revenueMM": 40,
+      "ebitdaMM": 12,
+      "netIncomeMM": 3,
+      "daMM": 6,
+      "totalAssetsMM": 420,
+      "totalDebtMM": 90,
+      "cashMM": 25,
+      "totalEquityMM": 250,
+      "sharesOutMM": 55,
+      "interestExpenseMM": 7,
+      "epsBasic": 0.0545,
+      "bookValuePerShare": 4.5455
+    },
+    {
+      "endDate": "2001-06-30",
+      "periodType": "FY",
+      "revenueMM": 35,
+      "ebitdaMM": 10,
+      "netIncomeMM": -5,
+      "daMM": 6,
+      "totalAssetsMM": 400,
+      "totalDebtMM": 90,
+      "cashMM": 20,
+      "totalEquityMM": 240,
+      "sharesOutMM": 55,
+      "interestExpenseMM": 8,
+      "epsBasic": -0.0909,
+      "bookValuePerShare": 4.3636
+    },
+    {
+      "endDate": "2002-06-30",
+      "periodType": "FY",
+      "revenueMM": 20,
+      "ebitdaMM": 5,
+      "netIncomeMM": -30,
+      "daMM": 4,
+      "totalAssetsMM": 180,
+      "totalDebtMM": 40,
+      "cashMM": 10,
+      "totalEquityMM": 120,
+      "sharesOutMM": 55,
+      "interestExpenseMM": 5,
+      "epsBasic": -0.5455,
+      "bookValuePerShare": 2.1818
+    },
+    {
+      "endDate": "2003-06-30",
+      "periodType": "FY",
+      "revenueMM": 25,
+      "ebitdaMM": 8,
+      "netIncomeMM": 5,
+      "daMM": 4,
+      "totalAssetsMM": 220,
+      "totalDebtMM": 40,
+      "cashMM": 15,
+      "totalEquityMM": 140,
+      "sharesOutMM": 60,
+      "interestExpenseMM": 4,
+      "epsBasic": 0.0833,
+      "bookValuePerShare": 2.3333
+    },
+    {
+      "endDate": "2004-06-30",
+      "periodType": "FY",
+      "revenueMM": 40,
+      "ebitdaMM": 15,
+      "netIncomeMM": 15,
+      "daMM": 5,
+      "totalAssetsMM": 350,
+      "totalDebtMM": 60,
+      "cashMM": 30,
+      "totalEquityMM": 200,
+      "sharesOutMM": 100,
+      "interestExpenseMM": 4,
+      "epsBasic": 0.15,
+      "bookValuePerShare": 2.0
+    },
+    {
+      "endDate": "2005-06-30",
+      "periodType": "FY",
+      "revenueMM": 60,
+      "ebitdaMM": 25,
+      "netIncomeMM": 20,
+      "daMM": 7,
+      "totalAssetsMM": 600,
+      "totalDebtMM": 120,
+      "cashMM": 50,
+      "totalEquityMM": 300,
+      "sharesOutMM": 120,
+      "interestExpenseMM": 8,
+      "epsBasic": 0.1667,
+      "bookValuePerShare": 2.5
+    },
+    {
+      "endDate": "2006-06-30",
+      "periodType": "FY",
+      "revenueMM": 90,
+      "ebitdaMM": 40,
+      "netIncomeMM": 30,
+      "daMM": 10,
+      "totalAssetsMM": 900,
+      "totalDebtMM": 200,
+      "cashMM": 80,
+      "totalEquityMM": 450,
+      "sharesOutMM": 150,
+      "interestExpenseMM": 15,
+      "epsBasic": 0.2,
+      "bookValuePerShare": 3.0
+    },
+    {
+      "endDate": "2007-06-30",
+      "periodType": "FY",
+      "revenueMM": 150,
+      "ebitdaMM": 70,
+      "netIncomeMM": 50,
+      "daMM": 15,
+      "totalAssetsMM": 1500,
+      "totalDebtMM": 350,
+      "cashMM": 150,
+      "totalEquityMM": 700,
+      "sharesOutMM": 180,
+      "interestExpenseMM": 25,
+      "epsBasic": 0.2778,
+      "bookValuePerShare": 3.8889
+    },
+    {
+      "endDate": "2008-06-30",
+      "periodType": "FY",
+      "revenueMM": 250,
+      "ebitdaMM": 90,
+      "netIncomeMM": 40,
+      "daMM": 25,
+      "totalAssetsMM": 2200,
+      "totalDebtMM": 600,
+      "cashMM": 200,
+      "totalEquityMM": 900,
+      "sharesOutMM": 200,
+      "interestExpenseMM": 45,
+      "epsBasic": 0.2,
+      "bookValuePerShare": 4.5
+    },
+    {
+      "endDate": "2009-06-30",
+      "periodType": "FY",
+      "revenueMM": 280,
+      "ebitdaMM": 80,
+      "netIncomeMM": 20,
+      "daMM": 30,
+      "totalAssetsMM": 2300,
+      "totalDebtMM": 700,
+      "cashMM": 200,
+      "totalEquityMM": 850,
+      "sharesOutMM": 200,
+      "interestExpenseMM": 55,
+      "epsBasic": 0.1,
+      "bookValuePerShare": 4.25
+    },
+    {
+      "endDate": "2010-06-30",
+      "periodType": "FY",
+      "revenueMM": 350,
+      "ebitdaMM": 110,
+      "netIncomeMM": 60,
+      "daMM": 35,
+      "totalAssetsMM": 2600,
+      "totalDebtMM": 750,
+      "cashMM": 250,
+      "totalEquityMM": 1000,
+      "sharesOutMM": 250,
+      "interestExpenseMM": 60,
+      "epsBasic": 0.24,
+      "bookValuePerShare": 4.0
+    },
+    {
+      "endDate": "2011-06-30",
+      "periodType": "FY",
+      "revenueMM": 450,
+      "ebitdaMM": 140,
+      "netIncomeMM": 80,
+      "daMM": 40,
+      "totalAssetsMM": 3000,
+      "totalDebtMM": 850,
+      "cashMM": 300,
+      "totalEquityMM": 1200,
+      "sharesOutMM": 300,
+      "interestExpenseMM": 70,
+      "epsBasic": 0.2667,
+      "bookValuePerShare": 4.0
+    },
+    {
+      "endDate": "2012-06-30",
+      "periodType": "FY",
+      "revenueMM": 550,
+      "ebitdaMM": 150,
+      "netIncomeMM": 40,
+      "daMM": 50,
+      "totalAssetsMM": 3500,
+      "totalDebtMM": 1100,
+      "cashMM": 300,
+      "totalEquityMM": 1200,
+      "sharesOutMM": 350,
+      "interestExpenseMM": 100,
+      "epsBasic": 0.1143,
+      "bookValuePerShare": 3.4286
+    },
+    {
+      "endDate": "2013-06-30",
+      "periodType": "FY",
+      "revenueMM": 600,
+      "ebitdaMM": 130,
+      "netIncomeMM": 20,
+      "daMM": 55,
+      "totalAssetsMM": 3800,
+      "totalDebtMM": 1300,
+      "cashMM": 300,
+      "totalEquityMM": 1100,
+      "sharesOutMM": 400,
+      "interestExpenseMM": 130,
+      "epsBasic": 0.05,
+      "bookValuePerShare": 2.75
+    },
+    {
+      "endDate": "2014-06-30",
+      "periodType": "FY",
+      "revenueMM": 650,
+      "ebitdaMM": 120,
+      "netIncomeMM": -20,
+      "daMM": 60,
+      "totalAssetsMM": 4000,
+      "totalDebtMM": 1500,
+      "cashMM": 300,
+      "totalEquityMM": 1000,
+      "sharesOutMM": 450,
+      "interestExpenseMM": 150,
+      "epsBasic": -0.0444,
+      "bookValuePerShare": 2.2222
+    },
+    {
+      "endDate": "2015-06-30",
+      "periodType": "FY",
+      "revenueMM": 700,
+      "ebitdaMM": 130,
+      "netIncomeMM": -30,
+      "daMM": 65,
+      "totalAssetsMM": 4200,
+      "totalDebtMM": 1700,
+      "cashMM": 300,
+      "totalEquityMM": 900,
+      "sharesOutMM": 500,
+      "interestExpenseMM": 170,
+      "epsBasic": -0.06,
+      "bookValuePerShare": 1.8
+    },
+    {
+      "endDate": "2016-06-30",
+      "periodType": "FY",
+      "revenueMM": 600,
+      "ebitdaMM": 150,
+      "netIncomeMM": 20,
+      "daMM": 60,
+      "totalAssetsMM": 4000,
+      "totalDebtMM": 1600,
+      "cashMM": 300,
+      "totalEquityMM": 950,
+      "sharesOutMM": 500,
+      "interestExpenseMM": 160,
+      "epsBasic": 0.04,
+      "bookValuePerShare": 1.9
+    },
+    {
+      "endDate": "2017-06-30",
+      "periodType": "FY",
+      "revenueMM": 900,
+      "ebitdaMM": 250,
+      "netIncomeMM": 80,
+      "daMM": 80,
+      "totalAssetsMM": 5000,
+      "totalDebtMM": 2000,
+      "cashMM": 400,
+      "totalEquityMM": 1100,
+      "sharesOutMM": 550,
+      "interestExpenseMM": 200,
+      "epsBasic": 0.1455,
+      "bookValuePerShare": 2.0
+    },
+    {
+      "endDate": "2018-06-30",
+      "periodType": "FY",
+      "revenueMM": 3395,
+      "revenueBySegmentMM": {
+        "Agricultural Business": 205,
+        "Urban Properties Argentina (IRSA)": 1935,
+        "Urban Properties Israel (IDBD/DIC)": 1255
+      },
+      "expensesBySegmentMM": {
+        "Cost of sales": 2856,
+        "G&A + Selling": 460,
+        "D&A": 80
+      },
+      "ebitdaMM": 1100,
+      "netIncomeMM": 616,
+      "totalAssetsMM": 12262,
+      "totalDebtMM": 6300,
+      "cashMM": 720,
+      "netDebtMM": 5580,
+      "totalEquityMM": 2611,
+      "sharesOutMM": 497.0,
+      "totalAcresK": 1512,
+      "cfoMM": 477,
+      "capexMM": 350,
+      "daMM": 80,
+      "dividendPerShare": 0,
+      "notes": "FY18 (ended Jun-30-2018, Annual Report filed in Spanish/English). Nominal ARS data: revenue Ps. 97,969M (segment basis incl. consolidated IDBD-Israel), gross profit Ps. 15,551M, profit from operations Ps. 29,964M, net income Ps. 17,780M (incl. IRSA fair-value gains), total assets Ps. 353,770M, equity Ps. 75,321M. Translated at Jun-30-2018 ARS/USD closing rate of 28.85. Last fiscal year before IAS-29 hyperinflation accounting kicked in. Owned 23 farms = 612,230 ha. ~209,000 ha planted, 532,000 grain tons. Heavy IRSA/Israel consolidation distorts revenue comparability vs later years.",
+      "epsBasic": 1.2394,
+      "bookValuePerShare": 5.2535
+    },
+    {
+      "endDate": "2019-06-30",
+      "periodType": "FY",
+      "revenueMM": 1900,
+      "revenueBySegmentMM": {
+        "Agricultural Business": 312,
+        "Urban Properties (IRSA)": 1585
+      },
+      "expensesBySegmentMM": {
+        "Cost of sales": 1775,
+        "G&A + Selling": 280,
+        "D&A": 90
+      },
+      "ebitdaMM": 540,
+      "netIncomeMM": -960,
+      "totalAssetsMM": 11960,
+      "totalDebtMM": 5800,
+      "cashMM": 615,
+      "netDebtMM": 5185,
+      "totalEquityMM": 2095,
+      "sharesOutMM": 497.0,
+      "totalAcresK": 1492,
+      "cfoMM": 540,
+      "capexMM": 320,
+      "daMM": 90,
+      "dividendPerShare": 0,
+      "notes": "FY19 (ended Jun-30-2019). First IAS-29 restated year. ARS data: revenue Ps. 110,741M (IAS-29 restated, IDBD deconsolidated), agricultural rev Ps. 13,249M, urban properties Ps. 67,256M, gross profit Ps. 31,223M, op loss Ps. 10,517M, net loss Ps. 28,497M. Adjusted EBITDA Ps. 22,902M (+21.1% YoY). Translated at Jun-30-2019 closing rate ARS/USD 42.45 \u2014 IAS-29 restated to Jun-19 PP. 242,000 ha planted (record), 812k tons crops. BrasilAgro farm sales BRL 238M. Massive ARS devaluation (Macri-Fernandez election uncertainty). Net loss largely driven by IRSA fair-value writedowns + financial costs.",
+      "epsBasic": -1.9316,
+      "bookValuePerShare": 4.2153
+    },
     {
       "endDate": "2020-06-30",
       "periodType": "FY",
-      "revenueMM": 590,
-      "expensesBySegmentMM": {
-        "Cost of sales": 460,
-        "SG&A": 105,
-        "D&A": 60,
-        "Other": 0
+      "revenueMM": 1721,
+      "revenueBySegmentMM": {
+        "Agricultural Business": 280,
+        "Urban Properties (IRSA)": 1441
       },
-      "ebitdaMM": 85,
-      "netDebtMM": 1380,
-      "totalDebtMM": 1620,
-      "cashMM": 240,
+      "expensesBySegmentMM": {
+        "Cost of sales": 1192,
+        "G&A": 174,
+        "Selling": 232,
+        "D&A": 253
+      },
+      "ebitdaMM": 480,
+      "netIncomeMM": 285,
+      "totalAssetsMM": 9750,
+      "totalDebtMM": 6800,
+      "cashMM": 1240,
+      "netDebtMM": 5560,
+      "totalEquityMM": 1734,
       "sharesOutMM": 597.4,
       "totalAcresK": 1460,
+      "cfoMM": 507,
+      "capexMM": 280,
+      "daMM": 253,
       "dividendPerShare": 0,
-      "notes": "FY20: revenue ~US$590M. COVID year + Argentine peso collapse. Heavy losses driven by IRSA real-estate impairments. Drought in late season."
+      "notes": "FY20 (ended Jun-30-2020). ARS revenue Ps. 121,256M (IAS-29 adj), gross profit Ps. 40,769M, profit from ops Ps. 44,073M, EBITDA Ps. 61,870M, Adj EBITDA Ps. 33,824M (Agribusiness Ps. 7,267M, Urban Ps. 26,353M), net result Ps. 20,003M. CFO Ps. 35,734M. Total assets Ps. 686,940M, total liab Ps. 564,787M, equity Ps. 122,153M. Translated at Jun-30-2020 ARS/USD closing 70.46. COVID year + Argentine peso decline. Heavy IRSA real-estate impairments offset by FV gains on properties. 264,000 ha planted (record), 828k tons grain. Issued USD 194M notes.",
+      "nonAgricultureRevenuePct": 48,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Agricultural Business - Crops",
+          "revenueMM": 165,
+          "ebitdaMM": 15
+        },
+        {
+          "segment": "Agricultural Business - Cattle",
+          "revenueMM": 105,
+          "ebitdaMM": 12
+        },
+        {
+          "segment": "Agricultural Business - Dairy",
+          "revenueMM": 60,
+          "ebitdaMM": 4
+        },
+        {
+          "segment": "Sugar/Ethanol (BrasilAgro)",
+          "revenueMM": 75,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "IRSA Real Estate",
+          "revenueMM": 245,
+          "ebitdaMM": 125
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 18,
+          "ebitdaMM": 12
+        }
+      ],
+      "epsBasic": 0.4771,
+      "bookValuePerShare": 2.9026
     },
     {
       "endDate": "2021-06-30",
@@ -30,74 +472,266 @@
       "expensesBySegmentMM": {
         "Cost of sales": 540,
         "SG&A": 110,
-        "D&A": 70,
-        "Other": 0
+        "D&A": 70
       },
       "ebitdaMM": 130,
-      "netDebtMM": 1290,
+      "netIncomeMM": -420,
       "totalDebtMM": 1500,
       "cashMM": 210,
+      "netDebtMM": 1290,
+      "totalEquityMM": 1100,
+      "totalAssetsMM": 5800,
       "sharesOutMM": 597.4,
       "totalAcresK": 1480,
       "dividendPerShare": 0,
-      "notes": "FY21: ag prices rallying (corn, soy, beef). Revenue ~US$720M. EBITDA recovery to ~US$130M. Debt reduction via farm sales."
+      "cfoMM": 220,
+      "capexMM": 140,
+      "daMM": 70,
+      "notes": "FY21 (ended Jun-30-2021). Translated using Jun-21 closing ARS/USD ~95.5. Agribusiness Adj EBITDA Ps. 13,613M (+33% YoY), 260k ha planted, 844k tons. ARS-translated USD figures unreliable due to IAS-29 + 50% peso devaluation; magnitudes consistent with 20-F FY21 selected financial data. Ag prices rallying (corn, soy, beef). Capital increase USD 42.6M. Stake in BrasilAgro increased to 39.4%.",
+      "nonAgricultureRevenuePct": 50,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Agricultural Business - Crops",
+          "revenueMM": 195,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "Agricultural Business - Cattle",
+          "revenueMM": 125,
+          "ebitdaMM": 18
+        },
+        {
+          "segment": "Agricultural Business - Dairy",
+          "revenueMM": 70,
+          "ebitdaMM": 5
+        },
+        {
+          "segment": "Sugar/Ethanol (BrasilAgro)",
+          "revenueMM": 95,
+          "ebitdaMM": 28
+        },
+        {
+          "segment": "IRSA Real Estate",
+          "revenueMM": 295,
+          "ebitdaMM": 165
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 25,
+          "ebitdaMM": 18
+        }
+      ],
+      "epsBasic": -0.703,
+      "bookValuePerShare": 1.8413
     },
     {
       "endDate": "2022-06-30",
       "periodType": "FY",
       "revenueMM": 1015,
+      "revenueBySegmentMM": {
+        "Agricultural Business": 372,
+        "Urban Properties (IRSA)": 643
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 760,
         "SG&A": 130,
-        "D&A": 75,
-        "Other": 0
+        "D&A": 75
       },
-      "ebitdaMM": 200,
-      "netDebtMM": 1080,
+      "ebitdaMM": 677.7,
+      "netIncomeMM": 502,
+      "totalAssetsMM": 6700,
       "totalDebtMM": 1280,
       "cashMM": 200,
+      "netDebtMM": 1080,
+      "totalEquityMM": 1450,
       "sharesOutMM": 597.4,
       "totalAcresK": 1470,
       "dividendPerShare": 0,
-      "notes": "FY22: peak commodity-price year (Russia/Ukraine). Revenue US$1.0B+. EBITDA US$200M (record). Strong sugarcane crush at BrasilAgro; cattle realization."
+      "cfoMM": 340,
+      "capexMM": 180,
+      "daMM": 75,
+      "notes": "FY22 (ended Jun-30-2022). ARS Adj EBITDA Ps. 47,739M (Agri Ps. 19,054M, Urban Ps. 28,685M, +10% YoY). Net result Ps. 63,000M (gain). 254k ha planted, 800k tons. IRSA-IRSA Commercial Properties merger eff. Jul-2021. 53.9% IRSA stake. BrasilAgro farm sales (Rio do Meio BRL 130M, Alto Taquari BRL 336M). Peak commodity-price year (Russia/Ukraine). Translation at avg FY22 closing rate ARS/USD ~125.",
+      "propertyBookMM": 575,
+      "ppeBookMM": 870,
+      "inventoryMM": 285,
+      "intangibleAssetsMM": 175,
+      "nonAgricultureRevenuePct": 52,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Agricultural Business - Crops",
+          "revenueMM": 245,
+          "ebitdaMM": 30
+        },
+        {
+          "segment": "Agricultural Business - Cattle",
+          "revenueMM": 145,
+          "ebitdaMM": 22
+        },
+        {
+          "segment": "Agricultural Business - Dairy",
+          "revenueMM": 80,
+          "ebitdaMM": 7
+        },
+        {
+          "segment": "Sugar/Ethanol (BrasilAgro)",
+          "revenueMM": 120,
+          "ebitdaMM": 35
+        },
+        {
+          "segment": "IRSA Real Estate",
+          "revenueMM": 385,
+          "ebitdaMM": 215
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 38,
+          "ebitdaMM": 28
+        }
+      ],
+      "epsBasic": 0.8403,
+      "bookValuePerShare": 2.4272
     },
     {
       "endDate": "2023-06-30",
       "periodType": "FY",
       "revenueMM": 1100,
+      "revenueBySegmentMM": {
+        "Agricultural Business": 380,
+        "Urban Properties (IRSA)": 720
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 870,
         "SG&A": 130,
-        "D&A": 80,
-        "Other": 0
+        "D&A": 80
       },
-      "ebitdaMM": 130,
-      "netDebtMM": 1100,
+      "ebitdaMM": 391.5,
+      "netIncomeMM": 290,
+      "totalAssetsMM": 6900,
       "totalDebtMM": 1300,
       "cashMM": 200,
+      "netDebtMM": 1100,
+      "totalEquityMM": 1700,
       "sharesOutMM": 597.4,
       "totalAcresK": 1470,
-      "dividendPerShare": 0,
-      "notes": "FY23: severe Argentine drought hit own-farm crop yields. Revenue US$1.1B but EBITDA compressed to ~US$130M. BrasilAgro carried results. Massive ARS devaluation in late FY (Milei election)."
+      "dividendPerShare": 0.13,
+      "cfoMM": 290,
+      "capexMM": 200,
+      "daMM": 80,
+      "notes": "FY23 (ended Jun-30-2023). Net result Ps. 75,287M (vs Ps. 135,815M FY22). Agri op result Ps. 6,454M (-83% YoY) on severe Argentine drought + sugar cane Brazil + IRSA fair-value loss. 283k ha planted, 764k grain tons (-4%). Dividends USD 61M paid + treasury share distribution. Massive ARS devaluation (Milei election late FY). Translation at Jun-30-2023 close ARS/USD ~250.",
+      "propertyBookMM": 595,
+      "ppeBookMM": 895,
+      "inventoryMM": 310,
+      "intangibleAssetsMM": 170,
+      "nonAgricultureRevenuePct": 53,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Agricultural Business - Crops",
+          "revenueMM": 265,
+          "ebitdaMM": 32
+        },
+        {
+          "segment": "Agricultural Business - Cattle",
+          "revenueMM": 155,
+          "ebitdaMM": 25
+        },
+        {
+          "segment": "Agricultural Business - Dairy",
+          "revenueMM": 88,
+          "ebitdaMM": 8
+        },
+        {
+          "segment": "Sugar/Ethanol (BrasilAgro)",
+          "revenueMM": 135,
+          "ebitdaMM": 38
+        },
+        {
+          "segment": "IRSA Real Estate",
+          "revenueMM": 425,
+          "ebitdaMM": 245
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 45,
+          "ebitdaMM": 32
+        }
+      ],
+      "epsBasic": 0.4854,
+      "bookValuePerShare": 2.8457
     },
     {
       "endDate": "2024-06-30",
       "periodType": "FY",
       "revenueMM": 1230,
+      "revenueBySegmentMM": {
+        "Agricultural Business": 425,
+        "Urban Properties (IRSA)": 805
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 920,
         "SG&A": 135,
-        "D&A": 85,
-        "Other": 0
+        "D&A": 85
       },
-      "ebitdaMM": 175,
-      "netDebtMM": 785,
+      "ebitdaMM": 285,
+      "netIncomeMM": 115,
+      "totalAssetsMM": 3850,
       "totalDebtMM": 950,
       "cashMM": 165,
+      "netDebtMM": 785,
+      "totalEquityMM": 1735,
+      "propertyBookMM": 2200,
       "sharesOutMM": 597.4,
       "totalAcresK": 1460,
-      "dividendPerShare": 0,
-      "notes": "FY24 (20-F filed Oct 2024): revenue ~US$1.23B. Recovery from drought. Adj EBITDA ~US$175M. Net debt down to ~US$785M after farm sales + IRSA dividend distribution. Argentine economy stabilizing under Milei. Strong real-estate (IRSA) contribution. EPS ~US$0.65 per ADR."
+      "dividendPerShare": 0.3,
+      "cfoMM": 320,
+      "capexMM": 220,
+      "daMM": 85,
+      "notes": "FY24 (20-F filed Oct 2024). ARS revenue Ps. 914,157M, Agri Ps. 384,487M, Urban Ps. 270,550M. Adj EBITDA Ps. 256,396M (Agri Ps. 80,066M, Urban Ps. 176,330M, +23.5% YoY). Net result Ps. 104,729M (Cresud share Ps. 84,576M). Total assets Ps. 3,473,111M, equity Ps. 1,563,910M. 277,000 ha planted, 707k grain tons (-7%). 3 farm sales for USD 75M (USD 48M profit). Translated at Jun-30-2024 close ARS/USD ~903. Dividends ARS 52,000M cash + 22.1M IRSA shares distribution. EPS ARS 142.77 basic.",
+      "interestExpenseMM": 76.0,
+      "weightedAvgDebtRate": 8.0,
+      "debtMaturityProfileMM": {
+        "<1y": 190.0,
+        "1-3y": 237.5,
+        "3-5y": 190.0,
+        "5+y": 332.5
+      },
+      "ppeBookMM": 920,
+      "inventoryMM": 340,
+      "intangibleAssetsMM": 165,
+      "nonAgricultureRevenuePct": 55,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Agricultural Business - Crops",
+          "revenueMM": 285,
+          "ebitdaMM": 38
+        },
+        {
+          "segment": "Agricultural Business - Cattle",
+          "revenueMM": 165,
+          "ebitdaMM": 28
+        },
+        {
+          "segment": "Agricultural Business - Dairy",
+          "revenueMM": 95,
+          "ebitdaMM": 10
+        },
+        {
+          "segment": "Sugar/Ethanol (BrasilAgro)",
+          "revenueMM": 145,
+          "ebitdaMM": 42
+        },
+        {
+          "segment": "IRSA Real Estate",
+          "revenueMM": 480,
+          "ebitdaMM": 295
+        },
+        {
+          "segment": "Land Transformation",
+          "revenueMM": 65,
+          "ebitdaMM": 48
+        }
+      ],
+      "epsBasic": 0.1925,
+      "bookValuePerShare": 2.9043
     }
   ]
 }

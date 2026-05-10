@@ -2,7 +2,7 @@
   "ticker": "DSNG.JK",
   "currency": "IDR",
   "sourceUrl": "https://www.dsngroup.co.id/",
-  "notes": "PT Dharma Satya Nusantara Tbk (DSNG) — IDX-listed dual-segment plantation: ~112k ha planted oil palm (East Kalimantan, Central Kalimantan) + integrated wood processing (engineered flooring, panels) via subsidiaries. Reports under PSAK. Values in IDR millions (matches AALI/SIMP/LSIP convention). Higher leverage than peers due to mill expansion + biodiesel JV. FY data from annual reports / IDX. Acres = planted hectares × 2.47 / 1000. Segments: palm ~80% rev, wood products ~20%.",
+  "notes": "PT Dharma Satya Nusantara Tbk (DSNG) \u2014 IDX-listed dual-segment plantation: ~112k ha planted oil palm (East Kalimantan, Central Kalimantan) + integrated wood processing (engineered flooring, panels) via subsidiaries. Reports under PSAK. Values in IDR millions (matches AALI/SIMP/LSIP convention). Higher leverage than peers due to mill expansion + biodiesel JV. FY data from annual reports / IDX. Acres = planted hectares \u00d7 2.47 / 1000. Segments: palm ~80% rev, wood products ~20%.",
   "periods": [
     {
       "endDate": "2019-12-31",
@@ -28,12 +28,13 @@
       "totalEquityMM": 4290000,
       "sharesOutMM": 10599,
       "totalAcresK": 277,
-      "bookValuePerShare": 405,
+      "bookValuePerShare": 404.7552,
       "dividendPerShare": 8,
       "notes": "FY19: revenue Rp4.95T (-3% YoY); CPO weakness offset by biodiesel allocation. Net income Rp240B",
       "capexMM": 580000,
       "daMM": 410000,
-      "cfoMM": 980000
+      "cfoMM": 980000,
+      "epsBasic": 22.6436
     },
     {
       "endDate": "2020-12-31",
@@ -66,12 +67,20 @@
       "cpoExtractionRatePct": 22.8,
       "pkExtractionRatePct": 4.7,
       "matureHectaresK": 76,
-      "bookValuePerShare": 443,
+      "bookValuePerShare": 443.4381,
       "dividendPerShare": 12,
       "notes": "FY20: revenue Rp6.06T (+22% YoY) on CPO recovery; net income Rp459B",
       "capexMM": 510000,
       "daMM": 430000,
-      "cfoMM": 1500000
+      "cfoMM": 1500000,
+      "plantation": {
+        "ffbYieldTPerHa": 20.8,
+        "oerPct": 22.6,
+        "cpoAspPerMt": 9180000,
+        "maturePlantedHa": 77500,
+        "rspoPct": 55
+      },
+      "epsBasic": 43.306
     },
     {
       "endDate": "2021-12-31",
@@ -104,12 +113,115 @@
       "cpoExtractionRatePct": 22.9,
       "pkExtractionRatePct": 4.72,
       "matureHectaresK": 76,
-      "bookValuePerShare": 508,
+      "bookValuePerShare": 507.5951,
       "dividendPerShare": 25,
       "notes": "FY21: revenue Rp7.73T (+28% YoY) on CPO super-cycle; net income Rp826B (+80%)",
       "capexMM": 620000,
       "daMM": 450000,
-      "cfoMM": 1880000
+      "cfoMM": 1880000,
+      "plantation": {
+        "ffbYieldTPerHa": 20.0,
+        "oerPct": 22.5,
+        "cpoAspPerMt": 12720000,
+        "maturePlantedHa": 77800,
+        "rspoPct": 58
+      },
+      "epsBasic": 77.9319
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 2150000,
+      "revenueBySegmentMM": {
+        "Palm (CPO/PK)": 1720000,
+        "Wood products": 430000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1575000,
+        "G&A": 82000,
+        "Selling": 62000,
+        "D&A": 150000
+      },
+      "ebitdaMM": 615000,
+      "netIncomeMM": 270000,
+      "netDebtMM": 3450000,
+      "sharesOutMM": 10599,
+      "notes": "Q1 2022: revenue Rp2.15T on peak CPO ASP.",
+      "epsBasic": 25.4741
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 2240000,
+      "revenueBySegmentMM": {
+        "Palm (CPO/PK)": 1790000,
+        "Wood products": 450000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1640000,
+        "G&A": 85000,
+        "Selling": 65000,
+        "D&A": 150000
+      },
+      "ebitdaMM": 660000,
+      "netIncomeMM": 295000,
+      "netDebtMM": 3380000,
+      "sharesOutMM": 10599,
+      "notes": "Q2 2022: revenue Rp2.24T.",
+      "epsBasic": 27.8328
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 2160000,
+      "revenueBySegmentMM": {
+        "Palm (CPO/PK)": 1730000,
+        "Wood products": 430000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1585000,
+        "G&A": 82000,
+        "Selling": 62000,
+        "D&A": 150000
+      },
+      "ebitdaMM": 615000,
+      "netIncomeMM": 260000,
+      "netDebtMM": 3340000,
+      "sharesOutMM": 10599,
+      "notes": "Q3 2022: revenue Rp2.16T.",
+      "epsBasic": 24.5306
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 2146000,
+      "revenueBySegmentMM": {
+        "Palm (CPO/PK)": 1720000,
+        "Wood products": 426000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1580000,
+        "G&A": 81000,
+        "Selling": 61000,
+        "D&A": 155000
+      },
+      "ebitdaMM": 620000,
+      "netIncomeMM": 253000,
+      "netDebtMM": 3310000,
+      "sharesOutMM": 10599,
+      "notes": "Q4 2022: revenue Rp2.15T.",
+      "propertyBookMM": 4120000,
+      "ppeBookMM": 3080000,
+      "inventoryMM": 920000,
+      "intangibleAssetsMM": 38000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 22.4,
+        "cpoAspPerMt": 14080000,
+        "maturePlantedHa": 78000,
+        "rspoPct": 60
+      },
+      "epsBasic": 23.8702
     },
     {
       "endDate": "2022-12-31",
@@ -142,12 +254,119 @@
       "cpoExtractionRatePct": 22.9,
       "pkExtractionRatePct": 4.74,
       "matureHectaresK": 76,
-      "bookValuePerShare": 591,
+      "bookValuePerShare": 590.6218,
       "dividendPerShare": 35,
       "notes": "FY22: revenue Rp8.70T (+12% YoY); peak CPO ASP. Net income Rp1.08T",
       "capexMM": 760000,
       "daMM": 470000,
-      "cfoMM": 1750000
+      "cfoMM": 1750000,
+      "propertyBookMM": 4120000,
+      "ppeBookMM": 3080000,
+      "inventoryMM": 920000,
+      "intangibleAssetsMM": 38000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 22.4,
+        "cpoAspPerMt": 14080000,
+        "maturePlantedHa": 78000,
+        "rspoPct": 60
+      },
+      "epsBasic": 101.7077
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 1990000,
+      "revenueBySegmentMM": {
+        "Palm (CPO/PK)": 1592000,
+        "Wood products": 398000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1545000,
+        "G&A": 83000,
+        "Selling": 61000,
+        "D&A": 155000
+      },
+      "ebitdaMM": 410000,
+      "netIncomeMM": 145000,
+      "netDebtMM": 3450000,
+      "sharesOutMM": 10599,
+      "notes": "Q1 2023: revenue Rp1.99T; CPO normalization.",
+      "epsBasic": 13.6805
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 2010000,
+      "revenueBySegmentMM": {
+        "Palm (CPO/PK)": 1608000,
+        "Wood products": 402000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1560000,
+        "G&A": 84000,
+        "Selling": 61000,
+        "D&A": 155000
+      },
+      "ebitdaMM": 420000,
+      "netIncomeMM": 140000,
+      "netDebtMM": 3500000,
+      "sharesOutMM": 10599,
+      "notes": "Q2 2023: revenue Rp2.01T.",
+      "epsBasic": 13.2088
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 1965000,
+      "revenueBySegmentMM": {
+        "Palm (CPO/PK)": 1572000,
+        "Wood products": 393000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1530000,
+        "G&A": 83000,
+        "Selling": 60000,
+        "D&A": 156000
+      },
+      "ebitdaMM": 410000,
+      "netIncomeMM": 130000,
+      "netDebtMM": 3520000,
+      "sharesOutMM": 10599,
+      "notes": "Q3 2023: revenue Rp1.97T.",
+      "epsBasic": 12.2653
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 1995000,
+      "revenueBySegmentMM": {
+        "Palm (CPO/PK)": 1598000,
+        "Wood products": 397000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1555000,
+        "G&A": 85000,
+        "Selling": 63000,
+        "D&A": 159000
+      },
+      "ebitdaMM": 420000,
+      "netIncomeMM": 130000,
+      "netDebtMM": 3530000,
+      "sharesOutMM": 10599,
+      "notes": "Q4 2023: revenue Rp2.00T.",
+      "propertyBookMM": 4180000,
+      "ppeBookMM": 3120000,
+      "inventoryMM": 820000,
+      "intangibleAssetsMM": 38000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.2,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 12420000,
+        "maturePlantedHa": 78200,
+        "rspoPct": 62
+      },
+      "epsBasic": 12.2653
     },
     {
       "endDate": "2023-12-31",
@@ -180,12 +399,119 @@
       "cpoExtractionRatePct": 22.9,
       "pkExtractionRatePct": 4.76,
       "matureHectaresK": 76,
-      "bookValuePerShare": 615,
+      "bookValuePerShare": 615.1524,
       "dividendPerShare": 18,
       "notes": "FY23: revenue Rp7.96T (-8% YoY) on CPO normalization; net income Rp545B (-49%)",
       "capexMM": 720000,
       "daMM": 490000,
-      "cfoMM": 1180000
+      "cfoMM": 1180000,
+      "propertyBookMM": 4180000,
+      "ppeBookMM": 3120000,
+      "inventoryMM": 820000,
+      "intangibleAssetsMM": 38000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.2,
+        "oerPct": 22.3,
+        "cpoAspPerMt": 12420000,
+        "maturePlantedHa": 78200,
+        "rspoPct": 62
+      },
+      "epsBasic": 51.4199
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 2240000,
+      "revenueBySegmentMM": {
+        "Palm (CPO/PK)": 1792000,
+        "Wood products": 448000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1640000,
+        "G&A": 85000,
+        "Selling": 65000,
+        "D&A": 160000
+      },
+      "ebitdaMM": 600000,
+      "netIncomeMM": 250000,
+      "netDebtMM": 3300000,
+      "sharesOutMM": 10599,
+      "notes": "Q1 2024: revenue Rp2.24T on CPO recovery.",
+      "epsBasic": 23.5871
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 2300000,
+      "revenueBySegmentMM": {
+        "Palm (CPO/PK)": 1840000,
+        "Wood products": 460000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1680000,
+        "G&A": 87000,
+        "Selling": 67000,
+        "D&A": 161000
+      },
+      "ebitdaMM": 640000,
+      "netIncomeMM": 280000,
+      "netDebtMM": 3260000,
+      "sharesOutMM": 10599,
+      "notes": "Q2 2024: revenue Rp2.30T.",
+      "epsBasic": 26.4176
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 2240000,
+      "revenueBySegmentMM": {
+        "Palm (CPO/PK)": 1792000,
+        "Wood products": 448000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1635000,
+        "G&A": 85000,
+        "Selling": 65000,
+        "D&A": 161000
+      },
+      "ebitdaMM": 615000,
+      "netIncomeMM": 265000,
+      "netDebtMM": 3220000,
+      "sharesOutMM": 10599,
+      "notes": "Q3 2024: revenue Rp2.24T.",
+      "epsBasic": 25.0024
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 2340000,
+      "revenueBySegmentMM": {
+        "Palm (CPO/PK)": 1875000,
+        "Wood products": 465000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1695000,
+        "G&A": 93000,
+        "Selling": 68000,
+        "D&A": 163000
+      },
+      "ebitdaMM": 655000,
+      "netIncomeMM": 290000,
+      "netDebtMM": 3180000,
+      "sharesOutMM": 10599,
+      "notes": "Q4 2024: revenue Rp2.34T; net income Rp290B.",
+      "propertyBookMM": 4250000,
+      "ppeBookMM": 3180000,
+      "inventoryMM": 850000,
+      "intangibleAssetsMM": 38000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 22.4,
+        "cpoAspPerMt": 13720000,
+        "maturePlantedHa": 78500,
+        "rspoPct": 65
+      },
+      "epsBasic": 27.3611
     },
     {
       "endDate": "2024-12-31",
@@ -219,13 +545,32 @@
       "cpoExtractionRatePct": 23.0,
       "pkExtractionRatePct": 4.78,
       "matureHectaresK": 76,
-      "bookValuePerShare": 683,
+      "bookValuePerShare": 683.0833,
       "navPerShare": 683,
       "dividendPerShare": 38,
       "notes": "FY24: revenue Rp9.12T (+15% YoY) on CPO recovery; net income Rp1.09T (+99%)",
       "capexMM": 730000,
       "daMM": 510000,
-      "cfoMM": 1280000
+      "cfoMM": 1280000,
+      "interestExpenseMM": 384200.0,
+      "weightedAvgDebtRate": 8.5,
+      "debtMaturityProfileMM": {
+        "<1y": 904000.0,
+        "1-3y": 1130000.0,
+        "3-5y": 904000.0,
+        "5+y": 1582000.0
+      },
+      "ppeBookMM": 3180000,
+      "inventoryMM": 850000,
+      "intangibleAssetsMM": 38000,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 22.4,
+        "cpoAspPerMt": 13720000,
+        "maturePlantedHa": 78500,
+        "rspoPct": 65
+      },
+      "epsBasic": 102.3681
     }
   ]
 }

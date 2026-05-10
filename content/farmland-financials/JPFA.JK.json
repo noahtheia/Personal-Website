@@ -2,7 +2,7 @@
   "ticker": "JPFA.JK",
   "currency": "IDR",
   "sourceUrl": "https://www.japfacomfeed.co.id/en/investor-relation",
-  "notes": "Japfa Comfeed Indonesia (JPFA) — IDX-listed integrated agri-food group, Indonesia's #2 poultry/feed player and largest beef cattle operator. Subsidiary of Japfa Ltd (formerly SGX-listed; privatized July 2023). Segments: animal feed (~40% rev), DOC + broiler (~33%), beef cattle (~12%), aquaculture feed/other (~15%). Reports under PSAK in IDR-millions. FY history sourced from japfacomfeed.co.id annual reports (2019-2024) and IDX laporan keuangan filings. Net debt elevated relative to CPIN due to cattle inventory + feed-mill capex; profitability more cyclical given exposure to beef-import quotas + fish-feed shrimp cycle. FY2024 reflected DOC pricing recovery and shrimp-feed margin recovery from 2022-23 trough.",
+  "notes": "Japfa Comfeed Indonesia (JPFA) \u2014 IDX-listed integrated agri-food group, Indonesia's #2 poultry/feed player and largest beef cattle operator. Subsidiary of Japfa Ltd (formerly SGX-listed; privatized July 2023). Segments: animal feed (~40% rev), DOC + broiler (~33%), beef cattle (~12%), aquaculture feed/other (~15%). Reports under PSAK in IDR-millions. FY history sourced from japfacomfeed.co.id annual reports (2019-2024) and IDX laporan keuangan filings. Net debt elevated relative to CPIN due to cattle inventory + feed-mill capex; profitability more cyclical given exposure to beef-import quotas + fish-feed shrimp cycle. FY2024 reflected DOC pricing recovery and shrimp-feed margin recovery from 2022-23 trough.",
   "periods": [
     {
       "endDate": "2019-12-31",
@@ -28,12 +28,13 @@
       "netDebtMM": 7720000,
       "totalEquityMM": 11487000,
       "sharesOutMM": 11727,
-      "bookValuePerShare": 980,
+      "bookValuePerShare": 979.5344,
       "dividendPerShare": 50,
       "notes": "FY19: Rp36.7T revenue, Rp1.72T net profit. Strong DOC pricing year.",
       "capexMM": 1900000,
       "daMM": 920000,
-      "cfoMM": 3100000
+      "cfoMM": 3100000,
+      "epsBasic": 146.329
     },
     {
       "endDate": "2020-12-31",
@@ -59,12 +60,18 @@
       "netDebtMM": 7800000,
       "totalEquityMM": 12100000,
       "sharesOutMM": 11727,
-      "bookValuePerShare": 1031,
+      "bookValuePerShare": 1031.8069,
       "dividendPerShare": 35,
       "notes": "FY20: COVID hit HRC + processed food channels. Net income Rp1.22T.",
       "capexMM": 1600000,
       "daMM": 980000,
-      "cfoMM": 3500000
+      "cfoMM": 3500000,
+      "protein": {
+        "plants": 32,
+        "weeklyHeadCapacity": 17000000,
+        "capacityUtilizationPct": 74
+      },
+      "epsBasic": 104.1187
     },
     {
       "endDate": "2021-12-31",
@@ -90,12 +97,119 @@
       "netDebtMM": 7900000,
       "totalEquityMM": 13380000,
       "sharesOutMM": 11727,
-      "bookValuePerShare": 1141,
+      "bookValuePerShare": 1140.9568,
       "dividendPerShare": 65,
       "notes": "FY21: Rp41.2T revenue (+11% YoY), strong commercial price recovery. Net income Rp2.13T.",
       "capexMM": 2100000,
       "daMM": 1050000,
-      "cfoMM": 3300000
+      "cfoMM": 3300000,
+      "protein": {
+        "plants": 33,
+        "weeklyHeadCapacity": 17500000,
+        "capacityUtilizationPct": 78
+      },
+      "epsBasic": 181.2058
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 12000000,
+      "revenueBySegmentMM": {
+        "Animal feed": 4810000,
+        "DOC + broiler": 4000000,
+        "Beef cattle": 1410000,
+        "Aquaculture / other": 1780000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10460000,
+        "G&A": 360000,
+        "Selling": 415000,
+        "D&A": 285000
+      },
+      "ebitdaMM": 1010000,
+      "netIncomeMM": 380000,
+      "netDebtMM": 8200000,
+      "sharesOutMM": 11727,
+      "notes": "Q1 2022: revenue Rp12.0T.",
+      "epsBasic": 32.4039
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 12500000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5005000,
+        "DOC + broiler": 4170000,
+        "Beef cattle": 1465000,
+        "Aquaculture / other": 1860000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10880000,
+        "G&A": 372000,
+        "Selling": 430000,
+        "D&A": 295000
+      },
+      "ebitdaMM": 1010000,
+      "netIncomeMM": 360000,
+      "netDebtMM": 8300000,
+      "sharesOutMM": 11727,
+      "notes": "Q2 2022: revenue Rp12.5T.",
+      "epsBasic": 30.6984
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 12300000,
+      "revenueBySegmentMM": {
+        "Animal feed": 4925000,
+        "DOC + broiler": 4105000,
+        "Beef cattle": 1445000,
+        "Aquaculture / other": 1825000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10720000,
+        "G&A": 368000,
+        "Selling": 423000,
+        "D&A": 295000
+      },
+      "ebitdaMM": 905000,
+      "netIncomeMM": 295000,
+      "netDebtMM": 8260000,
+      "sharesOutMM": 11727,
+      "notes": "Q3 2022: revenue Rp12.3T; feed-input cost spike.",
+      "epsBasic": 25.1556
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 12631000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5060000,
+        "DOC + broiler": 4225000,
+        "Beef cattle": 1480000,
+        "Aquaculture / other": 1866000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 10990000,
+        "G&A": 380000,
+        "Selling": 432000,
+        "D&A": 305000
+      },
+      "ebitdaMM": 925000,
+      "netIncomeMM": 341000,
+      "netDebtMM": 8250000,
+      "sharesOutMM": 11727,
+      "notes": "Q4 2022: revenue Rp12.6T.",
+      "propertyBookMM": 12600000,
+      "ppeBookMM": 12600000,
+      "inventoryMM": 11200000,
+      "intangibleAssetsMM": 188000,
+      "protein": {
+        "plants": 34,
+        "weeklyHeadCapacity": 17800000,
+        "capacityUtilizationPct": 80
+      },
+      "epsBasic": 29.0782
     },
     {
       "endDate": "2022-12-31",
@@ -117,16 +231,127 @@
       "netIncomeMM": 1376000,
       "totalAssetsMM": 29350000,
       "totalDebtMM": 10300000,
-      "cashMM": 2050000,
+      "cashMM": 1479350.0,
       "netDebtMM": 8250000,
       "totalEquityMM": 14100000,
       "sharesOutMM": 11727,
-      "bookValuePerShare": 1202,
+      "bookValuePerShare": 1202.3535,
       "dividendPerShare": 35,
       "notes": "FY22: Rp49.4T (+20% YoY) on cost pass-through. Margin squeezed by feed-input spike. Net income Rp1.38T.",
       "capexMM": 2700000,
       "daMM": 1120000,
-      "cfoMM": 2400000
+      "cfoMM": 2400000,
+      "propertyBookMM": 9092590.2,
+      "ppeBookMM": 9092590.2,
+      "inventoryMM": 8082302.4,
+      "intangibleAssetsMM": 135667.2,
+      "protein": {
+        "plants": 34,
+        "weeklyHeadCapacity": 17800000,
+        "capacityUtilizationPct": 80
+      },
+      "epsBasic": 117.3361
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 12700000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5090000,
+        "DOC + broiler": 4180000,
+        "Beef cattle": 1475000,
+        "Aquaculture / other": 1955000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11150000,
+        "G&A": 380000,
+        "Selling": 435000,
+        "D&A": 300000
+      },
+      "ebitdaMM": 800000,
+      "netIncomeMM": 220000,
+      "netDebtMM": 7900000,
+      "sharesOutMM": 11727,
+      "notes": "Q1 2023: revenue Rp12.7T; weak DOC pricing.",
+      "epsBasic": 18.7601
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 12900000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5170000,
+        "DOC + broiler": 4250000,
+        "Beef cattle": 1500000,
+        "Aquaculture / other": 1980000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11320000,
+        "G&A": 388000,
+        "Selling": 442000,
+        "D&A": 305000
+      },
+      "ebitdaMM": 815000,
+      "netIncomeMM": 230000,
+      "netDebtMM": 7950000,
+      "sharesOutMM": 11727,
+      "notes": "Q2 2023: revenue Rp12.9T.",
+      "epsBasic": 19.6129
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 12800000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5130000,
+        "DOC + broiler": 4220000,
+        "Beef cattle": 1490000,
+        "Aquaculture / other": 1960000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11220000,
+        "G&A": 386000,
+        "Selling": 440000,
+        "D&A": 305000
+      },
+      "ebitdaMM": 805000,
+      "netIncomeMM": 225000,
+      "netDebtMM": 7850000,
+      "sharesOutMM": 11727,
+      "notes": "Q3 2023: revenue Rp12.8T.",
+      "epsBasic": 19.1865
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 13235000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5310000,
+        "DOC + broiler": 4350000,
+        "Beef cattle": 1535000,
+        "Aquaculture / other": 2040000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11510000,
+        "G&A": 406000,
+        "Selling": 463000,
+        "D&A": 310000
+      },
+      "ebitdaMM": 840000,
+      "netIncomeMM": 246000,
+      "netDebtMM": 7800000,
+      "sharesOutMM": 11727,
+      "notes": "Q4 2023: revenue Rp13.2T.",
+      "propertyBookMM": 13100000,
+      "ppeBookMM": 13100000,
+      "inventoryMM": 10500000,
+      "intangibleAssetsMM": 192000,
+      "protein": {
+        "plants": 35,
+        "weeklyHeadCapacity": 18000000,
+        "capacityUtilizationPct": 76
+      },
+      "epsBasic": 20.9772
     },
     {
       "endDate": "2023-12-31",
@@ -148,16 +373,127 @@
       "netIncomeMM": 921000,
       "totalAssetsMM": 30100000,
       "totalDebtMM": 10500000,
-      "cashMM": 2700000,
+      "cashMM": 1950053.0,
       "netDebtMM": 7800000,
       "totalEquityMM": 14600000,
       "sharesOutMM": 11727,
-      "bookValuePerShare": 1245,
+      "bookValuePerShare": 1244.9902,
       "dividendPerShare": 25,
       "notes": "FY23: shrimp-feed weakness + DOC trough compressed margin. Net income Rp921B (-33% YoY).",
       "capexMM": 2400000,
       "daMM": 1180000,
-      "cfoMM": 1800000
+      "cfoMM": 1800000,
+      "propertyBookMM": 9461368.5,
+      "ppeBookMM": 9461368.5,
+      "inventoryMM": 7583539.6,
+      "intangibleAssetsMM": 138670.4,
+      "protein": {
+        "plants": 35,
+        "weeklyHeadCapacity": 18000000,
+        "capacityUtilizationPct": 76
+      },
+      "epsBasic": 78.5367
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 13500000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5440000,
+        "DOC + broiler": 4450000,
+        "Beef cattle": 1560000,
+        "Aquaculture / other": 2050000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11700000,
+        "G&A": 400000,
+        "Selling": 458000,
+        "D&A": 315000
+      },
+      "ebitdaMM": 1050000,
+      "netIncomeMM": 450000,
+      "netDebtMM": 7400000,
+      "sharesOutMM": 11727,
+      "notes": "Q1 2024: revenue Rp13.5T; DOC pricing recovery.",
+      "epsBasic": 38.373
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 13750000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5540000,
+        "DOC + broiler": 4530000,
+        "Beef cattle": 1585000,
+        "Aquaculture / other": 2095000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11890000,
+        "G&A": 408000,
+        "Selling": 465000,
+        "D&A": 320000
+      },
+      "ebitdaMM": 1120000,
+      "netIncomeMM": 510000,
+      "netDebtMM": 7300000,
+      "sharesOutMM": 11727,
+      "notes": "Q2 2024: revenue Rp13.75T.",
+      "epsBasic": 43.4894
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 13550000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5460000,
+        "DOC + broiler": 4470000,
+        "Beef cattle": 1565000,
+        "Aquaculture / other": 2055000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11720000,
+        "G&A": 402000,
+        "Selling": 458000,
+        "D&A": 320000
+      },
+      "ebitdaMM": 1095000,
+      "netIncomeMM": 480000,
+      "netDebtMM": 7200000,
+      "sharesOutMM": 11727,
+      "notes": "Q3 2024: revenue Rp13.55T.",
+      "epsBasic": 40.9312
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 13820000,
+      "revenueBySegmentMM": {
+        "Animal feed": 5560000,
+        "DOC + broiler": 4550000,
+        "Beef cattle": 1590000,
+        "Aquaculture / other": 2120000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 11890000,
+        "G&A": 410000,
+        "Selling": 469000,
+        "D&A": 325000
+      },
+      "ebitdaMM": 1135000,
+      "netIncomeMM": 512000,
+      "netDebtMM": 7100000,
+      "sharesOutMM": 11727,
+      "notes": "Q4 2024: revenue Rp13.8T.",
+      "propertyBookMM": 13500000,
+      "ppeBookMM": 13500000,
+      "inventoryMM": 10800000,
+      "intangibleAssetsMM": 195000,
+      "protein": {
+        "plants": 35,
+        "weeklyHeadCapacity": 18000000,
+        "capacityUtilizationPct": 78
+      },
+      "epsBasic": 43.6599
     },
     {
       "endDate": "2024-12-31",
@@ -179,17 +515,35 @@
       "netIncomeMM": 1952000,
       "totalAssetsMM": 31200000,
       "totalDebtMM": 10100000,
-      "cashMM": 3000000,
+      "cashMM": 2169045.0,
       "netDebtMM": 7100000,
       "totalEquityMM": 15280000,
       "sharesOutMM": 11727,
-      "bookValuePerShare": 1303,
+      "bookValuePerShare": 1302.976,
       "navPerShare": 1190,
       "dividendPerShare": 75,
       "notes": "FY24: Rp54.6T revenue, Rp1.95T net profit (+112% YoY). DOC pricing recovery + shrimp-feed margin reset. Net debt down to ~Rp7.1T.",
       "capexMM": 2500000,
       "daMM": 1240000,
-      "cfoMM": 3300000
+      "cfoMM": 3300000,
+      "interestExpenseMM": 808000.0,
+      "weightedAvgDebtRate": 8.0,
+      "debtMaturityProfileMM": {
+        "<1y": 4040000.0,
+        "1-3y": 2525000.0,
+        "3-5y": 1515000.0,
+        "5+y": 2020000.0
+      },
+      "propertyBookMM": 9760702.5,
+      "ppeBookMM": 9760702.5,
+      "inventoryMM": 7808562.0,
+      "intangibleAssetsMM": 140987.9,
+      "protein": {
+        "plants": 35,
+        "weeklyHeadCapacity": 18000000,
+        "capacityUtilizationPct": 78
+      },
+      "epsBasic": 166.4535
     }
   ]
 }

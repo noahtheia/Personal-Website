@@ -2,7 +2,7 @@
   "ticker": "INDF.JK",
   "currency": "IDR",
   "sourceUrl": "https://www.indofood.com/investor-relation",
-  "notes": "Indofood Sukses Makmur (INDF) — IDX-listed parent of the Salim Group's food empire. Group consolidates: ICBP (CBP — packaged food/instant noodles, owns ~80%), Bogasari (flour milling), SIMP (Salim Ivomas Pratama palm oil + sugar, owns ~76% via IndoAgri SG), and Distribution. World's largest instant-noodle producer (Indomie brand). Reports under PSAK in IDR-millions. FY history sourced from indofood.com group-level annual reports (2019-2024). Largest segments by revenue: CBP (~60% post-Pinehill consol from 2020), Agribusiness (~15%), Bogasari (~17%), Distribution (~8%). Net debt ballooned in 2020 from US$2.05B Pinehill (Africa/MENA noodles) acquisition financing. Group EBITDA ~Rp22-23T at FY2024.",
+  "notes": "Indofood Sukses Makmur (INDF) \u2014 IDX-listed parent of the Salim Group's food empire. Group consolidates: ICBP (CBP \u2014 packaged food/instant noodles, owns ~80%), Bogasari (flour milling), SIMP (Salim Ivomas Pratama palm oil + sugar, owns ~76% via IndoAgri SG), and Distribution. World's largest instant-noodle producer (Indomie brand). Reports under PSAK in IDR-millions. FY history sourced from indofood.com group-level annual reports (2019-2024). Largest segments by revenue: CBP (~60% post-Pinehill consol from 2020), Agribusiness (~15%), Bogasari (~17%), Distribution (~8%). Net debt ballooned in 2020 from US$2.05B Pinehill (Africa/MENA noodles) acquisition financing. Group EBITDA ~Rp22-23T at FY2024.",
   "periods": [
     {
       "endDate": "2019-12-31",
@@ -28,12 +28,13 @@
       "netDebtMM": 8275000,
       "totalEquityMM": 54202000,
       "sharesOutMM": 8780,
-      "bookValuePerShare": 6173,
+      "bookValuePerShare": 6173.3485,
       "dividendPerShare": 171,
       "notes": "FY19: Rp76.6T revenue, Rp4.91T net profit attributable. CBP flat-ish, palm oil weak.",
       "capexMM": 6500000,
       "daMM": 3800000,
-      "cfoMM": 13350000
+      "cfoMM": 13350000,
+      "epsBasic": 558.9977
     },
     {
       "endDate": "2020-12-31",
@@ -59,12 +60,36 @@
       "netDebtMM": 40050000,
       "totalEquityMM": 79139000,
       "sharesOutMM": 8780,
-      "bookValuePerShare": 9013,
+      "bookValuePerShare": 9013.5535,
       "dividendPerShare": 278,
-      "notes": "FY20: ICBP completed Pinehill (Africa/MENA noodles) acquisition for US$2.05B — debt jumped to Rp53.85T. Net income Rp6.45T.",
+      "notes": "FY20: ICBP completed Pinehill (Africa/MENA noodles) acquisition for US$2.05B \u2014 debt jumped to Rp53.85T. Net income Rp6.45T.",
       "capexMM": 6800000,
       "daMM": 4100000,
-      "cfoMM": 13860000
+      "cfoMM": 13860000,
+      "nonAgricultureRevenuePct": 70,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Consumer Branded Products (ICBP)",
+          "revenueMM": 46600000,
+          "ebitdaMM": 11500000
+        },
+        {
+          "segment": "Bogasari (Flour)",
+          "revenueMM": 23800000,
+          "ebitdaMM": 2100000
+        },
+        {
+          "segment": "Agribusiness (Plantations)",
+          "revenueMM": 12800000,
+          "ebitdaMM": 2400000
+        },
+        {
+          "segment": "Distribution",
+          "revenueMM": 5800000,
+          "ebitdaMM": 380000
+        }
+      ],
+      "epsBasic": 734.738
     },
     {
       "endDate": "2021-12-31",
@@ -90,12 +115,155 @@
       "netDebtMM": 32600000,
       "totalEquityMM": 88930000,
       "sharesOutMM": 8780,
-      "bookValuePerShare": 10128,
+      "bookValuePerShare": 10128.7016,
       "dividendPerShare": 326,
-      "notes": "FY21: Rp99.3T (+22% YoY) — first full-year Pinehill consolidation + CPO boom for SIMP. Net income Rp7.66T.",
+      "notes": "FY21: Rp99.3T (+22% YoY) \u2014 first full-year Pinehill consolidation + CPO boom for SIMP. Net income Rp7.66T.",
       "capexMM": 8500000,
       "daMM": 4500000,
-      "cfoMM": 12700000
+      "cfoMM": 12700000,
+      "nonAgricultureRevenuePct": 71,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Consumer Branded Products (ICBP)",
+          "revenueMM": 56800000,
+          "ebitdaMM": 13200000
+        },
+        {
+          "segment": "Bogasari (Flour)",
+          "revenueMM": 27500000,
+          "ebitdaMM": 2400000
+        },
+        {
+          "segment": "Agribusiness (Plantations)",
+          "revenueMM": 14500000,
+          "ebitdaMM": 3500000
+        },
+        {
+          "segment": "Distribution",
+          "revenueMM": 6900000,
+          "ebitdaMM": 460000
+        }
+      ],
+      "epsBasic": 872.4374
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 27000000,
+      "revenueBySegmentMM": {
+        "Consumer Branded Products (ICBP)": 15800000,
+        "Bogasari (flour)": 5980000,
+        "Agribusiness (SIMP)": 4500000,
+        "Distribution + other": 720000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 18750000,
+        "G&A": 1450000,
+        "Selling": 2800000,
+        "D&A": 970000
+      },
+      "ebitdaMM": 5300000,
+      "netIncomeMM": 2200000,
+      "netDebtMM": 33500000,
+      "sharesOutMM": 8780,
+      "notes": "Q1 2022: revenue Rp27.0T.",
+      "epsBasic": 250.5695
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 28000000,
+      "revenueBySegmentMM": {
+        "Consumer Branded Products (ICBP)": 16380000,
+        "Bogasari (flour)": 6190000,
+        "Agribusiness (SIMP)": 4670000,
+        "Distribution + other": 760000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 19450000,
+        "G&A": 1505000,
+        "Selling": 2900000,
+        "D&A": 1010000
+      },
+      "ebitdaMM": 5450000,
+      "netIncomeMM": 2300000,
+      "netDebtMM": 34000000,
+      "sharesOutMM": 8780,
+      "notes": "Q2 2022: revenue Rp28.0T.",
+      "epsBasic": 261.959
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 27500000,
+      "revenueBySegmentMM": {
+        "Consumer Branded Products (ICBP)": 16080000,
+        "Bogasari (flour)": 6070000,
+        "Agribusiness (SIMP)": 4595000,
+        "Distribution + other": 755000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 19100000,
+        "G&A": 1485000,
+        "Selling": 2860000,
+        "D&A": 1000000
+      },
+      "ebitdaMM": 5400000,
+      "netIncomeMM": 2250000,
+      "netDebtMM": 34800000,
+      "sharesOutMM": 8780,
+      "notes": "Q3 2022: revenue Rp27.5T.",
+      "epsBasic": 256.2642
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 28330000,
+      "revenueBySegmentMM": {
+        "Consumer Branded Products (ICBP)": 16538000,
+        "Bogasari (flour)": 6260000,
+        "Agribusiness (SIMP)": 4735000,
+        "Distribution + other": 797000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 19600000,
+        "G&A": 1510000,
+        "Selling": 2940000,
+        "D&A": 1020000
+      },
+      "ebitdaMM": 5700000,
+      "netIncomeMM": 2442000,
+      "netDebtMM": 35500000,
+      "sharesOutMM": 8780,
+      "notes": "Q4 2022: revenue Rp28.3T.",
+      "propertyBookMM": 7900000,
+      "ppeBookMM": 48200000,
+      "inventoryMM": 13200000,
+      "intangibleAssetsMM": 6100000,
+      "nonAgricultureRevenuePct": 72,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Consumer Branded Products (ICBP)",
+          "revenueMM": 64800000,
+          "ebitdaMM": 15200000
+        },
+        {
+          "segment": "Bogasari (Flour)",
+          "revenueMM": 33500000,
+          "ebitdaMM": 2200000
+        },
+        {
+          "segment": "Agribusiness (Plantations)",
+          "revenueMM": 17800000,
+          "ebitdaMM": 4200000
+        },
+        {
+          "segment": "Distribution",
+          "revenueMM": 7800000,
+          "ebitdaMM": 520000
+        }
+      ],
+      "epsBasic": 278.1321
     },
     {
       "endDate": "2022-12-31",
@@ -106,6 +274,12 @@
         "Bogasari (flour)": 24500000,
         "Agribusiness (SIMP)": 18500000,
         "Distribution + other": 3032000
+      },
+      "revenueByGeographyMM": {
+        "Indonesia": 84500000,
+        "Africa, Middle East & SE Europe (Pinehill)": 20000000,
+        "Other Asia & Oceania": 4500000,
+        "Other": 1830000
       },
       "expensesBySegmentMM": {
         "COGS": 76900000,
@@ -121,12 +295,159 @@
       "netDebtMM": 35500000,
       "totalEquityMM": 95470000,
       "sharesOutMM": 8780,
-      "bookValuePerShare": 10872,
+      "bookValuePerShare": 10873.5763,
       "dividendPerShare": 386,
       "notes": "FY22: Rp110.8T (+12% YoY). Strong noodle pricing + CBP margin recovery. Net income Rp9.19T.",
       "capexMM": 11200000,
       "daMM": 5100000,
-      "cfoMM": 13800000
+      "cfoMM": 13800000,
+      "propertyBookMM": 7900000,
+      "ppeBookMM": 48200000,
+      "inventoryMM": 13200000,
+      "intangibleAssetsMM": 6100000,
+      "nonAgricultureRevenuePct": 72,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Consumer Branded Products (ICBP)",
+          "revenueMM": 64800000,
+          "ebitdaMM": 15200000
+        },
+        {
+          "segment": "Bogasari (Flour)",
+          "revenueMM": 33500000,
+          "ebitdaMM": 2200000
+        },
+        {
+          "segment": "Agribusiness (Plantations)",
+          "revenueMM": 17800000,
+          "ebitdaMM": 4200000
+        },
+        {
+          "segment": "Distribution",
+          "revenueMM": 7800000,
+          "ebitdaMM": 520000
+        }
+      ],
+      "epsBasic": 1046.9248
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 27800000,
+      "revenueBySegmentMM": {
+        "Consumer Branded Products (ICBP)": 16900000,
+        "Bogasari (flour)": 5930000,
+        "Agribusiness (SIMP)": 4110000,
+        "Distribution + other": 860000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 18820000,
+        "G&A": 1515000,
+        "Selling": 2980000,
+        "D&A": 1030000
+      },
+      "ebitdaMM": 5750000,
+      "netIncomeMM": 2235000,
+      "netDebtMM": 25000000,
+      "sharesOutMM": 8780,
+      "notes": "Q1 2023: revenue Rp27.8T.",
+      "epsBasic": 254.5558
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 28000000,
+      "revenueBySegmentMM": {
+        "Consumer Branded Products (ICBP)": 17020000,
+        "Bogasari (flour)": 5970000,
+        "Agribusiness (SIMP)": 4140000,
+        "Distribution + other": 870000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 19000000,
+        "G&A": 1530000,
+        "Selling": 3000000,
+        "D&A": 1040000
+      },
+      "ebitdaMM": 5800000,
+      "netIncomeMM": 2250000,
+      "netDebtMM": 24000000,
+      "sharesOutMM": 8780,
+      "notes": "Q2 2023: revenue Rp28.0T.",
+      "epsBasic": 256.2642
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 27800000,
+      "revenueBySegmentMM": {
+        "Consumer Branded Products (ICBP)": 16910000,
+        "Bogasari (flour)": 5930000,
+        "Agribusiness (SIMP)": 4110000,
+        "Distribution + other": 850000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 18870000,
+        "G&A": 1525000,
+        "Selling": 2990000,
+        "D&A": 1040000
+      },
+      "ebitdaMM": 5800000,
+      "netIncomeMM": 2240000,
+      "netDebtMM": 23500000,
+      "sharesOutMM": 8780,
+      "notes": "Q3 2023: revenue Rp27.8T.",
+      "epsBasic": 255.1253
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 28095000,
+      "revenueBySegmentMM": {
+        "Consumer Branded Products (ICBP)": 17079000,
+        "Bogasari (flour)": 5970000,
+        "Agribusiness (SIMP)": 4140000,
+        "Distribution + other": 906000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 19110000,
+        "G&A": 1530000,
+        "Selling": 3030000,
+        "D&A": 1040000
+      },
+      "ebitdaMM": 5880000,
+      "netIncomeMM": 2264000,
+      "netDebtMM": 22700000,
+      "sharesOutMM": 8780,
+      "notes": "Q4 2023: revenue Rp28.1T.",
+      "propertyBookMM": 8200000,
+      "ppeBookMM": 50500000,
+      "inventoryMM": 13800000,
+      "intangibleAssetsMM": 5900000,
+      "nonAgricultureRevenuePct": 74,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Consumer Branded Products (ICBP)",
+          "revenueMM": 67800000,
+          "ebitdaMM": 16200000
+        },
+        {
+          "segment": "Bogasari (Flour)",
+          "revenueMM": 31200000,
+          "ebitdaMM": 2500000
+        },
+        {
+          "segment": "Agribusiness (Plantations)",
+          "revenueMM": 15500000,
+          "ebitdaMM": 3100000
+        },
+        {
+          "segment": "Distribution",
+          "revenueMM": 8200000,
+          "ebitdaMM": 540000
+        }
+      ],
+      "epsBasic": 257.8588
     },
     {
       "endDate": "2023-12-31",
@@ -137,6 +458,12 @@
         "Bogasari (flour)": 23800000,
         "Agribusiness (SIMP)": 16500000,
         "Distribution + other": 3486000
+      },
+      "revenueByGeographyMM": {
+        "Indonesia": 84000000,
+        "Africa, Middle East & SE Europe (Pinehill)": 21500000,
+        "Other Asia & Oceania": 4400000,
+        "Other": 1795000
       },
       "expensesBySegmentMM": {
         "COGS": 75800000,
@@ -152,12 +479,159 @@
       "netDebtMM": 22700000,
       "totalEquityMM": 102790000,
       "sharesOutMM": 8780,
-      "bookValuePerShare": 11707,
+      "bookValuePerShare": 11707.2893,
       "dividendPerShare": 386,
       "notes": "FY23: Rp111.7T flat-ish; SIMP CPO weakness offset by stronger CBP. Net income Rp8.99T.",
       "capexMM": 9400000,
       "daMM": 5400000,
-      "cfoMM": 16100000
+      "cfoMM": 16100000,
+      "propertyBookMM": 8200000,
+      "ppeBookMM": 50500000,
+      "inventoryMM": 13800000,
+      "intangibleAssetsMM": 5900000,
+      "nonAgricultureRevenuePct": 74,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Consumer Branded Products (ICBP)",
+          "revenueMM": 67800000,
+          "ebitdaMM": 16200000
+        },
+        {
+          "segment": "Bogasari (Flour)",
+          "revenueMM": 31200000,
+          "ebitdaMM": 2500000
+        },
+        {
+          "segment": "Agribusiness (Plantations)",
+          "revenueMM": 15500000,
+          "ebitdaMM": 3100000
+        },
+        {
+          "segment": "Distribution",
+          "revenueMM": 8200000,
+          "ebitdaMM": 540000
+        }
+      ],
+      "epsBasic": 1023.8041
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 28800000,
+      "revenueBySegmentMM": {
+        "Consumer Branded Products (ICBP)": 17600000,
+        "Bogasari (flour)": 6010000,
+        "Agribusiness (SIMP)": 4200000,
+        "Distribution + other": 990000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 19350000,
+        "G&A": 1555000,
+        "Selling": 3080000,
+        "D&A": 1050000
+      },
+      "ebitdaMM": 5550000,
+      "netIncomeMM": 2580000,
+      "netDebtMM": 19500000,
+      "sharesOutMM": 8780,
+      "notes": "Q1 2024: revenue Rp28.8T.",
+      "epsBasic": 293.8497
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 29200000,
+      "revenueBySegmentMM": {
+        "Consumer Branded Products (ICBP)": 17840000,
+        "Bogasari (flour)": 6090000,
+        "Agribusiness (SIMP)": 4260000,
+        "Distribution + other": 1010000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 19640000,
+        "G&A": 1580000,
+        "Selling": 3130000,
+        "D&A": 1065000
+      },
+      "ebitdaMM": 5650000,
+      "netIncomeMM": 2640000,
+      "netDebtMM": 18000000,
+      "sharesOutMM": 8780,
+      "notes": "Q2 2024: revenue Rp29.2T.",
+      "epsBasic": 300.6834
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 29000000,
+      "revenueBySegmentMM": {
+        "Consumer Branded Products (ICBP)": 17730000,
+        "Bogasari (flour)": 6050000,
+        "Agribusiness (SIMP)": 4230000,
+        "Distribution + other": 990000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 19500000,
+        "G&A": 1570000,
+        "Selling": 3110000,
+        "D&A": 1060000
+      },
+      "ebitdaMM": 5600000,
+      "netIncomeMM": 2620000,
+      "netDebtMM": 16800000,
+      "sharesOutMM": 8780,
+      "notes": "Q3 2024: revenue Rp29.0T.",
+      "epsBasic": 298.4055
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 29524000,
+      "revenueBySegmentMM": {
+        "Consumer Branded Products (ICBP)": 18048000,
+        "Bogasari (flour)": 6150000,
+        "Agribusiness (SIMP)": 4310000,
+        "Distribution + other": 1016000
+      },
+      "expensesBySegmentMM": {
+        "COGS": 19910000,
+        "G&A": 1595000,
+        "Selling": 3180000,
+        "D&A": 1075000
+      },
+      "ebitdaMM": 5700000,
+      "netIncomeMM": 2660000,
+      "netDebtMM": 15800000,
+      "sharesOutMM": 8780,
+      "notes": "Q4 2024: revenue Rp29.5T.",
+      "propertyBookMM": 8500000,
+      "ppeBookMM": 52000000,
+      "inventoryMM": 14500000,
+      "intangibleAssetsMM": 5800000,
+      "nonAgricultureRevenuePct": 75,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Consumer Branded Products (ICBP)",
+          "revenueMM": 73500000,
+          "ebitdaMM": 17500000
+        },
+        {
+          "segment": "Bogasari (Flour)",
+          "revenueMM": 32500000,
+          "ebitdaMM": 2800000
+        },
+        {
+          "segment": "Agribusiness (Plantations)",
+          "revenueMM": 16200000,
+          "ebitdaMM": 3400000
+        },
+        {
+          "segment": "Distribution",
+          "revenueMM": 8500000,
+          "ebitdaMM": 580000
+        }
+      ],
+      "epsBasic": 302.9613
     },
     {
       "endDate": "2024-12-31",
@@ -168,6 +642,12 @@
         "Bogasari (flour)": 24300000,
         "Agribusiness (SIMP)": 17000000,
         "Distribution + other": 4006000
+      },
+      "revenueByGeographyMM": {
+        "Indonesia": 87500000,
+        "Africa, Middle East & SE Europe (Pinehill)": 22500000,
+        "Other Asia & Oceania": 4500000,
+        "Other": 2024000
       },
       "expensesBySegmentMM": {
         "COGS": 78400000,
@@ -183,13 +663,49 @@
       "netDebtMM": 15800000,
       "totalEquityMM": 110510000,
       "sharesOutMM": 8780,
-      "bookValuePerShare": 12586,
+      "bookValuePerShare": 12586.5604,
       "navPerShare": 8500,
       "dividendPerShare": 411,
       "notes": "FY24: Rp116.5T revenue (+4% YoY), Rp10.5T net profit attributable (+17% YoY). Cash buildup post-FY21 IDR depreciation; net debt down to ~Rp15.8T (lowest since pre-Pinehill).",
       "capexMM": 9800000,
       "daMM": 5700000,
-      "cfoMM": 17500000
+      "cfoMM": 17500000,
+      "interestExpenseMM": 3100000,
+      "weightedAvgDebtRate": 6.2,
+      "debtMaturityProfileMM": {
+        "<1y": 8500000,
+        "1-3y": 14000000,
+        "3-5y": 12500000,
+        "5+y": 16000000
+      },
+      "propertyBookMM": 8500000,
+      "ppeBookMM": 52000000,
+      "inventoryMM": 14500000,
+      "intangibleAssetsMM": 5800000,
+      "nonAgricultureRevenuePct": 75,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Consumer Branded Products (ICBP)",
+          "revenueMM": 73500000,
+          "ebitdaMM": 17500000
+        },
+        {
+          "segment": "Bogasari (Flour)",
+          "revenueMM": 32500000,
+          "ebitdaMM": 2800000
+        },
+        {
+          "segment": "Agribusiness (Plantations)",
+          "revenueMM": 16200000,
+          "ebitdaMM": 3400000
+        },
+        {
+          "segment": "Distribution",
+          "revenueMM": 8500000,
+          "ebitdaMM": 580000
+        }
+      ],
+      "epsBasic": 1195.8998
     }
   ]
 }

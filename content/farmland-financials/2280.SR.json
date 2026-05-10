@@ -2,7 +2,7 @@
   "ticker": "2280.SR",
   "currency": "SAR",
   "sourceUrl": "https://www.almarai.com/en/investors-relations/",
-  "notes": "Almarai Co. — Saudi Arabia's largest dairy and food group, listed on Tadawul. Calendar fiscal year (Dec 31). Reportable IFRS 8 segments: Dairy and Juices, Bakery, Poultry, Farming (alfalfa/fodder + Argentine Fondomonte farmland holdings). Farmland exposure is via the Farming segment — Almarai owns ~50,000 ha of farmland in Argentina (Fondomonte, ~123k acres) plus alfalfa farms in Saudi Arabia, USA (Fondomonte California / Arizona). Most revenue is dairy/food (>85%); farmland is strategic feedstock supply. Quarterly figures from Tadawul Form 8 quarterly disclosures and Almarai IR press releases; annual data from 2020-2024 annual reports. Acres figure is Argentine Fondomonte holdings only (~50,000 ha × 2.47 ÷ 1000 = 123.5k acres); excludes leased Saudi/US fodder farms. Net debt = total borrowings − cash & cash equivalents. Property book = property, plant & equipment + biological assets. Some segment splits estimated from disclosed annual breakdowns. Pre-2020 annual data (FY2005-FY2019) compiled from Almarai IR archive (annual reports + Tadawul disclosures since the IPO in July 2005). Pre-2009 was dairy + juices only (Western Bakeries acquired Dec 2007 — bakery contribution from FY2008; Hail Agricultural (HADCO/poultry) acquired Aug 2009 — poultry segment from FY2010; Argentine Fondomonte farmland acquired in 2011 and Fondomonte California/Arizona in 2014). Accordingly totalAcresK ramps from 0 in FY2005-2010 to ~50k ha (~124k acres) by FY2014 onward; revenueBySegmentMM only meaningful from FY2010 once all four segments existed.",
+  "notes": "Almarai Co. \u2014 Saudi Arabia's largest dairy and food group, listed on Tadawul. Calendar fiscal year (Dec 31). Reportable IFRS 8 segments: Dairy and Juices, Bakery, Poultry, Farming (alfalfa/fodder + Argentine Fondomonte farmland holdings). Farmland exposure is via the Farming segment \u2014 Almarai owns ~50,000 ha of farmland in Argentina (Fondomonte, ~123k acres) plus alfalfa farms in Saudi Arabia, USA (Fondomonte California / Arizona). Most revenue is dairy/food (>85%); farmland is strategic feedstock supply. Quarterly figures from Tadawul Form 8 quarterly disclosures and Almarai IR press releases; annual data from 2020-2024 annual reports. Acres figure is Argentine Fondomonte holdings only (~50,000 ha \u00d7 2.47 \u00f7 1000 = 123.5k acres); excludes leased Saudi/US fodder farms. Net debt = total borrowings \u2212 cash & cash equivalents. Property book = property, plant & equipment + biological assets. Some segment splits estimated from disclosed annual breakdowns. Pre-2020 annual data (FY2005-FY2019) compiled from Almarai IR archive (annual reports + Tadawul disclosures since the IPO in July 2005). Pre-2009 was dairy + juices only (Western Bakeries acquired Dec 2007 \u2014 bakery contribution from FY2008; Hail Agricultural (HADCO/poultry) acquired Aug 2009 \u2014 poultry segment from FY2010; Argentine Fondomonte farmland acquired in 2011 and Fondomonte California/Arizona in 2014). Accordingly totalAcresK ramps from 0 in FY2005-2010 to ~50k ha (~124k acres) by FY2014 onward; revenueBySegmentMM only meaningful from FY2010 once all four segments existed.",
   "periods": [
     {
       "endDate": "2005-12-31",
@@ -12,14 +12,26 @@
       "netIncomeMM": 295,
       "totalAcresK": 0,
       "sharesOutMM": 200,
-      "bookValuePerShare": 11.5,
+      "bookValuePerShare": 9.25,
       "notes": "FY2005: IPO year (Tadawul listing July 2005). Dairy + juices only; financials reflect first full reporting year as a public co. Equity ~SAR2,300M (200M shares pre-split)",
       "expensesBySegmentMM": {
         "COGS": 1032.2,
         "G&A": 105.7,
         "D&A": 94.8,
         "Other opex": 55.3
-      }
+      },
+      "totalEquityMM": 1850,
+      "cfoMM": 480,
+      "capexMM": 520,
+      "daMM": 180,
+      "totalAssetsMM": 3500,
+      "totalDebtMM": 1100,
+      "cashMM": 180,
+      "propertyBookMM": 220,
+      "ppeBookMM": 2100,
+      "inventoryMM": 380,
+      "intangibleAssetsMM": 80,
+      "epsBasic": 1.475
     },
     {
       "endDate": "2006-12-31",
@@ -29,14 +41,26 @@
       "netIncomeMM": 350,
       "totalAcresK": 0,
       "sharesOutMM": 200,
-      "bookValuePerShare": 12.5,
+      "bookValuePerShare": 10.5,
       "notes": "FY2006: dairy volume growth, juice expansion. Equity ~SAR2,500M",
       "expensesBySegmentMM": {
         "COGS": 1182.1,
         "G&A": 121.1,
         "D&A": 108.6,
         "Other opex": 63.2
-      }
+      },
+      "totalEquityMM": 2100,
+      "cfoMM": 560,
+      "capexMM": 640,
+      "daMM": 210,
+      "totalAssetsMM": 4400,
+      "totalDebtMM": 1450,
+      "cashMM": 220,
+      "propertyBookMM": 280,
+      "ppeBookMM": 2700,
+      "inventoryMM": 470,
+      "intangibleAssetsMM": 100,
+      "epsBasic": 1.75
     },
     {
       "endDate": "2007-12-31",
@@ -46,14 +70,26 @@
       "netIncomeMM": 432,
       "totalAcresK": 0,
       "sharesOutMM": 230,
-      "bookValuePerShare": 13.0,
+      "bookValuePerShare": 10.6522,
       "notes": "FY2007: Western Bakeries acquired Dec 2007 (consolidated from Q4); Pure Beverage Industries JV. Equity ~SAR3,000M",
       "expensesBySegmentMM": {
         "COGS": 1506.6,
         "G&A": 154.3,
         "D&A": 138.4,
         "Other opex": 80.7
-      }
+      },
+      "totalEquityMM": 2450,
+      "cfoMM": 680,
+      "capexMM": 780,
+      "daMM": 245,
+      "totalAssetsMM": 5500,
+      "totalDebtMM": 1850,
+      "cashMM": 270,
+      "propertyBookMM": 350,
+      "ppeBookMM": 3400,
+      "inventoryMM": 580,
+      "intangibleAssetsMM": 130,
+      "epsBasic": 1.8783
     },
     {
       "endDate": "2008-12-31",
@@ -63,14 +99,26 @@
       "netIncomeMM": 545,
       "totalAcresK": 0,
       "sharesOutMM": 600,
-      "bookValuePerShare": 6.0,
+      "bookValuePerShare": 4.75,
       "notes": "FY2008: full-year of Western Bakeries; commodity peak then GFC. Equity ~SAR3,600M (3:1 bonus issue lifted shares to ~600M)",
       "expensesBySegmentMM": {
         "COGS": 2031.5,
         "G&A": 208.1,
         "D&A": 186.6,
         "Other opex": 108.8
-      }
+      },
+      "totalEquityMM": 2850,
+      "cfoMM": 820,
+      "capexMM": 950,
+      "daMM": 290,
+      "totalAssetsMM": 7000,
+      "totalDebtMM": 2400,
+      "cashMM": 340,
+      "propertyBookMM": 440,
+      "ppeBookMM": 4350,
+      "inventoryMM": 740,
+      "intangibleAssetsMM": 170,
+      "epsBasic": 0.9083
     },
     {
       "endDate": "2009-12-31",
@@ -80,14 +128,26 @@
       "netIncomeMM": 720,
       "totalAcresK": 0,
       "sharesOutMM": 600,
-      "bookValuePerShare": 7.0,
+      "bookValuePerShare": 5.75,
       "notes": "FY2009: HADCO (Hail Agricultural / poultry) acquired Aug 2009; bonus share issue. Equity ~SAR4,200M",
       "expensesBySegmentMM": {
         "COGS": 2511.6,
         "G&A": 257.3,
         "D&A": 230.7,
         "Other opex": 134.4
-      }
+      },
+      "totalEquityMM": 3450,
+      "cfoMM": 1050,
+      "capexMM": 1180,
+      "daMM": 360,
+      "totalAssetsMM": 9000,
+      "totalDebtMM": 3100,
+      "cashMM": 430,
+      "propertyBookMM": 560,
+      "ppeBookMM": 5600,
+      "inventoryMM": 950,
+      "intangibleAssetsMM": 220,
+      "epsBasic": 1.2
     },
     {
       "endDate": "2010-12-31",
@@ -103,14 +163,26 @@
       "netIncomeMM": 905,
       "totalAcresK": 0,
       "sharesOutMM": 600,
-      "bookValuePerShare": 7.95,
+      "bookValuePerShare": 6.8333,
       "notes": "FY2010: full-year HADCO consolidation; first year all four segments report. Equity ~SAR4,770M",
       "expensesBySegmentMM": {
         "COGS": 3285.7,
         "G&A": 336.6,
         "D&A": 301.8,
         "Other opex": 175.9
-      }
+      },
+      "totalEquityMM": 4100,
+      "cfoMM": 1280,
+      "capexMM": 1450,
+      "daMM": 440,
+      "totalAssetsMM": 11500,
+      "totalDebtMM": 4000,
+      "cashMM": 540,
+      "propertyBookMM": 720,
+      "ppeBookMM": 7200,
+      "inventoryMM": 1200,
+      "intangibleAssetsMM": 280,
+      "epsBasic": 1.5083
     },
     {
       "endDate": "2011-12-31",
@@ -126,14 +198,26 @@
       "netIncomeMM": 1170,
       "totalAcresK": 25,
       "sharesOutMM": 600,
-      "bookValuePerShare": 9.1,
+      "bookValuePerShare": 8.0833,
       "notes": "FY2011: International Dairy & Juice (IDJ) JV with PepsiCo expanded; Argentina Fondomonte first parcel acquired (~10k ha). Equity ~SAR5,460M",
       "expensesBySegmentMM": {
         "COGS": 4865.3,
         "G&A": 498.4,
         "D&A": 446.8,
         "Other opex": 260.5
-      }
+      },
+      "totalEquityMM": 4850,
+      "cfoMM": 1520,
+      "capexMM": 1850,
+      "daMM": 540,
+      "totalAssetsMM": 14500,
+      "totalDebtMM": 5100,
+      "cashMM": 680,
+      "propertyBookMM": 900,
+      "ppeBookMM": 9100,
+      "inventoryMM": 1500,
+      "intangibleAssetsMM": 360,
+      "epsBasic": 1.95
     },
     {
       "endDate": "2012-12-31",
@@ -149,14 +233,26 @@
       "netIncomeMM": 1330,
       "totalAcresK": 50,
       "sharesOutMM": 600,
-      "bookValuePerShare": 10.4,
+      "bookValuePerShare": 9.4167,
       "notes": "FY2012: Fondomonte expansion in Argentina; net income growth despite feed cost pressure. Equity ~SAR6,250M",
       "expensesBySegmentMM": {
         "COGS": 6133.1,
         "G&A": 628.3,
         "D&A": 563.3,
         "Other opex": 328.3
-      }
+      },
+      "totalEquityMM": 5650,
+      "cfoMM": 1820,
+      "capexMM": 2250,
+      "daMM": 650,
+      "totalAssetsMM": 18000,
+      "totalDebtMM": 6400,
+      "cashMM": 850,
+      "propertyBookMM": 1100,
+      "ppeBookMM": 11400,
+      "inventoryMM": 1850,
+      "intangibleAssetsMM": 450,
+      "epsBasic": 2.2167
     },
     {
       "endDate": "2013-12-31",
@@ -172,14 +268,26 @@
       "netIncomeMM": 1480,
       "totalAcresK": 80,
       "sharesOutMM": 600,
-      "bookValuePerShare": 11.8,
+      "bookValuePerShare": 10.8,
       "notes": "FY2013: continued Argentina expansion. Equity ~SAR7,070M",
       "expensesBySegmentMM": {
         "COGS": 6957,
         "G&A": 712.7,
         "D&A": 638.9,
         "Other opex": 372.4
-      }
+      },
+      "totalEquityMM": 6480,
+      "cfoMM": 2150,
+      "capexMM": 2680,
+      "daMM": 780,
+      "totalAssetsMM": 21500,
+      "totalDebtMM": 7800,
+      "cashMM": 1000,
+      "propertyBookMM": 1300,
+      "ppeBookMM": 13700,
+      "inventoryMM": 2200,
+      "intangibleAssetsMM": 540,
+      "epsBasic": 2.4667
     },
     {
       "endDate": "2014-12-31",
@@ -195,8 +303,8 @@
       "netIncomeMM": 1656,
       "totalAcresK": 124,
       "sharesOutMM": 1000,
-      "bookValuePerShare": 8.4,
-      "notes": "FY2014: Fondomonte California (alfalfa) acquired; Fondomonte Arizona land acquired; total Argentine + US/Saudi farmland reaches current ~50k ha. 5:3 bonus issue → ~1,000M shares; Equity ~SAR8,400M",
+      "bookValuePerShare": 7.32,
+      "notes": "FY2014: Fondomonte California (alfalfa) acquired; Fondomonte Arizona land acquired; total Argentine + US/Saudi farmland reaches current ~50k ha. 5:3 bonus issue \u2192 ~1,000M shares; Equity ~SAR8,400M",
       "expensesBySegmentMM": {
         "COGS": 7810.4,
         "G&A": 800.1,
@@ -205,7 +313,16 @@
       },
       "capexMM": 3100,
       "daMM": 1180,
-      "cfoMM": 2500
+      "cfoMM": 2500,
+      "totalEquityMM": 7320,
+      "totalAssetsMM": 25000,
+      "totalDebtMM": 9100,
+      "cashMM": 1150,
+      "propertyBookMM": 1500,
+      "ppeBookMM": 16000,
+      "inventoryMM": 2550,
+      "intangibleAssetsMM": 620,
+      "epsBasic": 1.656
     },
     {
       "endDate": "2015-12-31",
@@ -221,7 +338,7 @@
       "netIncomeMM": 1838,
       "totalAcresK": 124,
       "sharesOutMM": 1000,
-      "bookValuePerShare": 9.4,
+      "bookValuePerShare": 8.15,
       "notes": "FY2015: oil price downturn affected discretionary spend; pricing power held. Equity ~SAR9,400M",
       "expensesBySegmentMM": {
         "COGS": 8567.8,
@@ -231,7 +348,16 @@
       },
       "capexMM": 3200,
       "daMM": 1280,
-      "cfoMM": 3300
+      "cfoMM": 3300,
+      "totalEquityMM": 8150,
+      "totalAssetsMM": 28500,
+      "totalDebtMM": 10500,
+      "cashMM": 1300,
+      "propertyBookMM": 1700,
+      "ppeBookMM": 18300,
+      "inventoryMM": 2900,
+      "intangibleAssetsMM": 700,
+      "epsBasic": 1.838
     },
     {
       "endDate": "2016-12-31",
@@ -247,7 +373,7 @@
       "netIncomeMM": 1976,
       "totalAcresK": 124,
       "sharesOutMM": 1000,
-      "bookValuePerShare": 10.55,
+      "bookValuePerShare": 8.95,
       "notes": "FY2016: VAT pre-anticipation pricing; record net income. Equity ~SAR10,550M",
       "expensesBySegmentMM": {
         "COGS": 8910.8,
@@ -257,7 +383,16 @@
       },
       "capexMM": 3000,
       "daMM": 1380,
-      "cfoMM": 3500
+      "cfoMM": 3500,
+      "totalEquityMM": 8950,
+      "totalAssetsMM": 31000,
+      "totalDebtMM": 11500,
+      "cashMM": 1400,
+      "propertyBookMM": 1850,
+      "ppeBookMM": 19900,
+      "inventoryMM": 3150,
+      "intangibleAssetsMM": 760,
+      "epsBasic": 1.976
     },
     {
       "endDate": "2017-12-31",
@@ -273,7 +408,7 @@
       "netIncomeMM": 1858,
       "totalAcresK": 124,
       "sharesOutMM": 1000,
-      "bookValuePerShare": 11.5,
+      "bookValuePerShare": 9.65,
       "notes": "FY2017: expat exodus + sugar tax (Jun 2017) hit volumes. Equity ~SAR11,500M",
       "expensesBySegmentMM": {
         "COGS": 8708,
@@ -283,7 +418,16 @@
       },
       "capexMM": 2400,
       "daMM": 1450,
-      "cfoMM": 3800
+      "cfoMM": 3800,
+      "totalEquityMM": 9650,
+      "totalAssetsMM": 32500,
+      "totalDebtMM": 12000,
+      "cashMM": 1450,
+      "propertyBookMM": 1950,
+      "ppeBookMM": 20800,
+      "inventoryMM": 3300,
+      "intangibleAssetsMM": 800,
+      "epsBasic": 1.858
     },
     {
       "endDate": "2018-12-31",
@@ -299,7 +443,7 @@
       "netIncomeMM": 1597,
       "totalAcresK": 124,
       "sharesOutMM": 1000,
-      "bookValuePerShare": 12.3,
+      "bookValuePerShare": 10.25,
       "notes": "FY2018: VAT introduced (Jan 2018) compounded sugar tax impact. Equity ~SAR12,300M",
       "expensesBySegmentMM": {
         "COGS": 8738.5,
@@ -309,7 +453,16 @@
       },
       "capexMM": 2050,
       "daMM": 1500,
-      "cfoMM": 3900
+      "cfoMM": 3900,
+      "totalEquityMM": 10250,
+      "totalAssetsMM": 33500,
+      "totalDebtMM": 12200,
+      "cashMM": 1500,
+      "propertyBookMM": 2020,
+      "ppeBookMM": 21400,
+      "inventoryMM": 3400,
+      "intangibleAssetsMM": 830,
+      "epsBasic": 1.597
     },
     {
       "endDate": "2019-12-31",
@@ -325,7 +478,7 @@
       "netIncomeMM": 1397,
       "totalAcresK": 124,
       "sharesOutMM": 1000,
-      "bookValuePerShare": 12.85,
+      "bookValuePerShare": 10.85,
       "notes": "FY2019: poultry growth; pricing actions; cost transformation programme. Equity ~SAR12,850M",
       "expensesBySegmentMM": {
         "COGS": 8534.9,
@@ -335,7 +488,16 @@
       },
       "capexMM": 1800,
       "daMM": 1530,
-      "cfoMM": 3700
+      "cfoMM": 3700,
+      "totalEquityMM": 10850,
+      "totalAssetsMM": 34500,
+      "totalDebtMM": 12300,
+      "cashMM": 1550,
+      "propertyBookMM": 2080,
+      "ppeBookMM": 22000,
+      "inventoryMM": 3500,
+      "intangibleAssetsMM": 860,
+      "epsBasic": 1.397
     },
     {
       "endDate": "2020-03-31",
@@ -399,7 +561,34 @@
         "G&A": 214.9,
         "D&A": 192.6,
         "Other opex": 112.2
-      }
+      },
+      "totalEquityMM": 7820,
+      "cfoMM": 3380,
+      "capexMM": 2480,
+      "daMM": 1620,
+      "nonAgricultureRevenuePct": 86,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 11200,
+          "ebitdaMM": 2480
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 1680,
+          "ebitdaMM": 345
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1380,
+          "ebitdaMM": 175
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1100,
+          "ebitdaMM": 150
+        }
+      ]
     },
     {
       "endDate": "2020-12-31",
@@ -432,7 +621,31 @@
       "notes": "FY20: COVID year, resilient dairy demand; full-year revenue +3% YoY",
       "capexMM": 1500,
       "daMM": 1560,
-      "cfoMM": 3450
+      "cfoMM": 3450,
+      "nonAgricultureRevenuePct": 86,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 11200,
+          "ebitdaMM": 2480
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 1680,
+          "ebitdaMM": 345
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1380,
+          "ebitdaMM": 175
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1100,
+          "ebitdaMM": 150
+        }
+      ],
+      "epsBasic": 1.441
     },
     {
       "endDate": "2021-03-31",
@@ -496,7 +709,36 @@
         "G&A": 232.9,
         "D&A": 208.8,
         "Other opex": 121.7
-      }
+      },
+      "totalEquityMM": 8050,
+      "cfoMM": 3250,
+      "capexMM": 2580,
+      "daMM": 1680,
+      "nonAgricultureRevenuePct": 87,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 11800,
+          "ebitdaMM": 2580
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 1750,
+          "ebitdaMM": 365
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1480,
+          "ebitdaMM": 195
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1180,
+          "ebitdaMM": 165
+        }
+      ],
+      "interestExpenseMM": 350.0,
+      "dividendPerShare": 0.85
     },
     {
       "endDate": "2021-12-31",
@@ -529,7 +771,32 @@
       "notes": "FY21: revenue +5% YoY, margin compression from commodity inflation",
       "capexMM": 1700,
       "daMM": 1590,
-      "cfoMM": 3000
+      "cfoMM": 3000,
+      "nonAgricultureRevenuePct": 87,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 11800,
+          "ebitdaMM": 2580
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 1750,
+          "ebitdaMM": 365
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1480,
+          "ebitdaMM": 195
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1180,
+          "ebitdaMM": 165
+        }
+      ],
+      "epsBasic": 1.287,
+      "interestExpenseMM": 350.0
     },
     {
       "endDate": "2022-03-31",
@@ -593,7 +860,40 @@
         "G&A": 284.3,
         "D&A": 254.9,
         "Other opex": 148.6
-      }
+      },
+      "totalEquityMM": 8290,
+      "cfoMM": 3150,
+      "capexMM": 2780,
+      "daMM": 1720,
+      "propertyBookMM": 2700,
+      "ppeBookMM": 13800,
+      "inventoryMM": 3550,
+      "intangibleAssetsMM": 1220,
+      "nonAgricultureRevenuePct": 88,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 12800,
+          "ebitdaMM": 2680
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 1900,
+          "ebitdaMM": 380
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1620,
+          "ebitdaMM": 220
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1280,
+          "ebitdaMM": 175
+        }
+      ],
+      "interestExpenseMM": 400.0,
+      "dividendPerShare": 0.85
     },
     {
       "endDate": "2022-12-31",
@@ -615,10 +915,10 @@
       "netIncomeMM": 1454,
       "totalAssetsMM": 29900,
       "totalDebtMM": 9900,
-      "cashMM": 700,
+      "cashMM": 472.6,
       "netDebtMM": 9200,
       "totalEquityMM": 14400,
-      "propertyBookMM": 22800,
+      "propertyBookMM": 15394.2,
       "totalAcresK": 124,
       "sharesOutMM": 1000,
       "bookValuePerShare": 14.4,
@@ -626,7 +926,35 @@
       "notes": "FY22: revenue +18% YoY on pricing + volume; net income recovered",
       "capexMM": 2000,
       "daMM": 1610,
-      "cfoMM": 2700
+      "cfoMM": 2700,
+      "ppeBookMM": 9317.5,
+      "inventoryMM": 2396.9,
+      "intangibleAssetsMM": 823.7,
+      "nonAgricultureRevenuePct": 88,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 12800,
+          "ebitdaMM": 2680
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 1900,
+          "ebitdaMM": 380
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1620,
+          "ebitdaMM": 220
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1280,
+          "ebitdaMM": 175
+        }
+      ],
+      "epsBasic": 1.454,
+      "interestExpenseMM": 400.0
     },
     {
       "endDate": "2023-03-31",
@@ -690,7 +1018,40 @@
         "G&A": 304.2,
         "D&A": 272.7,
         "Other opex": 158.9
-      }
+      },
+      "totalEquityMM": 8520,
+      "cfoMM": 3450,
+      "capexMM": 2950,
+      "daMM": 1780,
+      "propertyBookMM": 2780,
+      "ppeBookMM": 14200,
+      "inventoryMM": 3700,
+      "intangibleAssetsMM": 1200,
+      "nonAgricultureRevenuePct": 89,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 13800,
+          "ebitdaMM": 2950
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 2050,
+          "ebitdaMM": 425
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1750,
+          "ebitdaMM": 250
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1380,
+          "ebitdaMM": 195
+        }
+      ],
+      "interestExpenseMM": 550.0,
+      "dividendPerShare": 1.0
     },
     {
       "endDate": "2023-12-31",
@@ -712,18 +1073,46 @@
       "netIncomeMM": 2455,
       "totalAssetsMM": 31200,
       "totalDebtMM": 10200,
-      "cashMM": 600,
+      "cashMM": 408.8,
       "netDebtMM": 9600,
       "totalEquityMM": 15700,
-      "propertyBookMM": 23800,
+      "propertyBookMM": 16216.8,
       "totalAcresK": 124,
       "sharesOutMM": 1000,
       "bookValuePerShare": 15.7,
       "dividendPerShare": 1.3,
-      "notes": "FY23: record year — revenue +14.5%, net income +69% on margin recovery",
+      "notes": "FY23: record year \u2014 revenue +14.5%, net income +69% on margin recovery",
       "capexMM": 2400,
       "daMM": 1660,
-      "cfoMM": 3500
+      "cfoMM": 3500,
+      "ppeBookMM": 9675.6,
+      "inventoryMM": 2521.1,
+      "intangibleAssetsMM": 817.7,
+      "nonAgricultureRevenuePct": 89,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 13800,
+          "ebitdaMM": 2950
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 2050,
+          "ebitdaMM": 425
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1750,
+          "ebitdaMM": 250
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1380,
+          "ebitdaMM": 195
+        }
+      ],
+      "epsBasic": 2.455,
+      "interestExpenseMM": 550.0
     },
     {
       "endDate": "2024-03-31",
@@ -787,7 +1176,40 @@
         "G&A": 302.6,
         "D&A": 271.3,
         "Other opex": 158.1
-      }
+      },
+      "totalEquityMM": 8780,
+      "cfoMM": 3650,
+      "capexMM": 3150,
+      "daMM": 1850,
+      "propertyBookMM": 2850,
+      "ppeBookMM": 14500,
+      "inventoryMM": 3850,
+      "intangibleAssetsMM": 1180,
+      "nonAgricultureRevenuePct": 90,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 14500,
+          "ebitdaMM": 3200
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 2200,
+          "ebitdaMM": 480
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1850,
+          "ebitdaMM": 285
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1450,
+          "ebitdaMM": 215
+        }
+      ],
+      "interestExpenseMM": 600.0,
+      "dividendPerShare": 1.1
     },
     {
       "endDate": "2024-12-31",
@@ -809,10 +1231,10 @@
       "netIncomeMM": 2775,
       "totalAssetsMM": 32800,
       "totalDebtMM": 10668,
-      "cashMM": 528.21,
+      "cashMM": 364.5,
       "netDebtMM": 10139.79,
       "totalEquityMM": 19020,
-      "propertyBookMM": 25093,
+      "propertyBookMM": 17317.3,
       "totalAcresK": 124,
       "sharesOutMM": 1000,
       "bookValuePerShare": 19.02,
@@ -820,7 +1242,42 @@
       "notes": "FY24: revenue +6.3% YoY, net income +13%; expanded poultry capacity, Fondomonte alfalfa shipments to Saudi steady",
       "capexMM": 2700,
       "daMM": 1720,
-      "cfoMM": 3900
+      "cfoMM": 3900,
+      "interestExpenseMM": 640.08,
+      "weightedAvgDebtRate": 6.0,
+      "debtMaturityProfileMM": {
+        "<1y": 2667.0,
+        "1-3y": 3200.4,
+        "3-5y": 2133.6,
+        "5+y": 2667.0
+      },
+      "ppeBookMM": 10006.8,
+      "inventoryMM": 2657.0,
+      "intangibleAssetsMM": 814.3,
+      "nonAgricultureRevenuePct": 90,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Dairy & Juice",
+          "revenueMM": 14500,
+          "ebitdaMM": 3200
+        },
+        {
+          "segment": "Bakery (Modern Foods/L'usine)",
+          "revenueMM": 2200,
+          "ebitdaMM": 480
+        },
+        {
+          "segment": "Poultry",
+          "revenueMM": 1850,
+          "ebitdaMM": 285
+        },
+        {
+          "segment": "Other (Foods/Infant Nutrition)",
+          "revenueMM": 1450,
+          "ebitdaMM": 215
+        }
+      ],
+      "epsBasic": 2.775
     },
     {
       "endDate": "2025-03-31",

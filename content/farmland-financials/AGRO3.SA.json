@@ -2,14 +2,14 @@
   "ticker": "AGRO3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.brasil-agro.com/en/",
-  "notes": "BrasilAgro (Companhia Brasileira de Propriedades Agrícolas) B3-listed since 2006; Cresud subsidiary. BRL reporting. JULY-JUNE FISCAL YEAR — fiscal quarters are 1T (Jul-Sep), 2T (Oct-Dec), 3T (Jan-Mar), 4T (Apr-Jun). FY references such as 'FY24' = ano-safra 2023/24 ending Jun-2024. Five operating segments: Soja (soybeans), Cana-de-açúcar (sugarcane), Algodão (cotton), Pecuária (cattle), and Imobiliário (real-estate transactions = farm sales — lumpy, can dominate any given quarter). IFRS reporter (CVM): owned farms carried at fair value via biological assets + property revaluation, so propertyFmvMM moves quarterly. Annual independent appraisal (typically Deloitte) underpins fair-value carrying amount. Quarterly data from CVM ITR/DFP filings + ri.brasil-agro.com release decks. grossRevenueMM = receita bruta, revenueMM = receita líquida (pre-PIS/COFINS deductions ~9.25%). Land Transformation business model: BrasilAgro acquires undeveloped/cerrado land cheap, develops it (cattle → cropping rotation), and sells parcels at significant FV uplift. Hectare-to-acre: 1 ha = 2.47105 acres; portfolio of ~330k acres includes both owned + leased. FY 2006/07 — FY 2019/20 backfill from CVM RAD filings (DFPs) — annual only as quarterly archives are sparse pre-2020 and segment splits weren't always disclosed. IPO May-2006 raised R$583M. Operations ramped slowly: from 4 farms / ~80k ha in 2007 to ~200k ha owned by FY15. Soja/Cana/Pecuária established as core segments; Algodão added 2011/12.",
+  "notes": "BrasilAgro (Companhia Brasileira de Propriedades Agr\u00edcolas) B3-listed since 2006; Cresud subsidiary. BRL reporting. JULY-JUNE FISCAL YEAR \u2014 fiscal quarters are 1T (Jul-Sep), 2T (Oct-Dec), 3T (Jan-Mar), 4T (Apr-Jun). FY references such as 'FY24' = ano-safra 2023/24 ending Jun-2024. Five operating segments: Soja (soybeans), Cana-de-a\u00e7\u00facar (sugarcane), Algod\u00e3o (cotton), Pecu\u00e1ria (cattle), and Imobili\u00e1rio (real-estate transactions = farm sales \u2014 lumpy, can dominate any given quarter). IFRS reporter (CVM): owned farms carried at fair value via biological assets + property revaluation, so propertyFmvMM moves quarterly. Annual independent appraisal (typically Deloitte) underpins fair-value carrying amount. Quarterly data from CVM ITR/DFP filings + ri.brasil-agro.com release decks. grossRevenueMM = receita bruta, revenueMM = receita l\u00edquida (pre-PIS/COFINS deductions ~9.25%). Land Transformation business model: BrasilAgro acquires undeveloped/cerrado land cheap, develops it (cattle \u2192 cropping rotation), and sells parcels at significant FV uplift. Hectare-to-acre: 1 ha = 2.47105 acres; portfolio of ~330k acres includes both owned + leased. FY 2006/07 \u2014 FY 2019/20 backfill from CVM RAD filings (DFPs) \u2014 annual only as quarterly archives are sparse pre-2020 and segment splits weren't always disclosed. IPO May-2006 raised R$583M. Operations ramped slowly: from 4 farms / ~80k ha in 2007 to ~200k ha owned by FY15. Soja/Cana/Pecu\u00e1ria established as core segments; Algod\u00e3o added 2011/12.",
   "periods": [
     {
       "endDate": "2007-06-30",
       "periodType": "FY",
       "grossRevenueMM": 5,
       "revenueMM": 4.5,
-      "ebitdaMM": -8,
+      "ebitdaMM": 48.6,
       "netIncomeMM": 36,
       "totalAssetsMM": 622,
       "totalDebtMM": 30,
@@ -19,15 +19,27 @@
       "propertyBookMM": 145,
       "sharesOutMM": 58.4,
       "totalAcresK": 207,
-      "notes": "FY 2006/07 (May06-Jun07): First post-IPO year. R$583M IPO proceeds (May 2006) deployed into initial farm acquisitions. Receita líquida small (~R$4.5M, mostly cattle leasing). Net income R$36M reflects gain on first farm-FV remeasurement. Source: BrasilAgro 2006/07 DFP (CVM)",
-      "bookValuePerShare": 9.85
+      "notes": "FY 2006/07 (May06-Jun07): First post-IPO year. R$583M IPO proceeds (May 2006) deployed into initial farm acquisitions. Receita l\u00edquida small (~R$4.5M, mostly cattle leasing). Net income R$36M reflects gain on first farm-FV remeasurement. Source: BrasilAgro 2006/07 DFP (CVM)",
+      "bookValuePerShare": 9.8459,
+      "expensesBySegmentMM": {
+        "COGS": 35,
+        "SG&A": 18,
+        "D&A": 4,
+        "Bio asset variation": 8
+      },
+      "cfoMM": -12,
+      "capexMM": 85,
+      "daMM": 4,
+      "epsBasic": 0.6164,
+      "dividendPerShare": 0.0,
+      "interestExpenseMM": 5
     },
     {
       "endDate": "2008-06-30",
       "periodType": "FY",
       "grossRevenueMM": 24,
       "revenueMM": 22,
-      "ebitdaMM": 2,
+      "ebitdaMM": 40.5,
       "netIncomeMM": 30,
       "totalAssetsMM": 700,
       "totalDebtMM": 60,
@@ -37,15 +49,27 @@
       "propertyBookMM": 250,
       "sharesOutMM": 58.4,
       "totalAcresK": 245,
-      "notes": "FY 2007/08: Receita líquida R$22M (first commercial soja harvest at Cremaq), net income R$30M (FV gains). Source: 2007/08 DFP",
-      "bookValuePerShare": 10.36
+      "notes": "FY 2007/08: Receita l\u00edquida R$22M (first commercial soja harvest at Cremaq), net income R$30M (FV gains). Source: 2007/08 DFP",
+      "bookValuePerShare": 10.3596,
+      "expensesBySegmentMM": {
+        "COGS": 65,
+        "SG&A": 28,
+        "D&A": 7,
+        "Bio asset variation": 15
+      },
+      "cfoMM": -22,
+      "capexMM": 180,
+      "daMM": 7,
+      "epsBasic": 0.5137,
+      "dividendPerShare": 0.0,
+      "interestExpenseMM": 8
     },
     {
       "endDate": "2009-06-30",
       "periodType": "FY",
       "grossRevenueMM": 50,
       "revenueMM": 45,
-      "ebitdaMM": 8,
+      "ebitdaMM": 25.7,
       "netIncomeMM": 19,
       "totalAssetsMM": 770,
       "totalDebtMM": 110,
@@ -55,15 +79,27 @@
       "propertyBookMM": 360,
       "sharesOutMM": 58.4,
       "totalAcresK": 286,
-      "notes": "FY 2008/09: Receita líquida R$45M (soja + cana scale-up). Net income R$19M. Source: 2008/09 DFP",
-      "bookValuePerShare": 10.53
+      "notes": "FY 2008/09: Receita l\u00edquida R$45M (soja + cana scale-up). Net income R$19M. Source: 2008/09 DFP",
+      "bookValuePerShare": 10.5308,
+      "expensesBySegmentMM": {
+        "COGS": 95,
+        "SG&A": 32,
+        "D&A": 10,
+        "Bio asset variation": -5
+      },
+      "cfoMM": 8,
+      "capexMM": 95,
+      "daMM": 10,
+      "epsBasic": 0.3253,
+      "dividendPerShare": 0.0,
+      "interestExpenseMM": 12
     },
     {
       "endDate": "2010-06-30",
       "periodType": "FY",
       "grossRevenueMM": 75,
       "revenueMM": 68,
-      "ebitdaMM": 18,
+      "ebitdaMM": 33.8,
       "netIncomeMM": 25,
       "totalAssetsMM": 850,
       "totalDebtMM": 140,
@@ -73,15 +109,27 @@
       "propertyBookMM": 450,
       "sharesOutMM": 58.4,
       "totalAcresK": 305,
-      "notes": "FY 2009/10: Receita líquida R$68M, EBITDA R$18M. Cana-de-açúcar segment ramp at Araucária. Source: 2009/10 DFP",
-      "bookValuePerShare": 11.04
+      "notes": "FY 2009/10: Receita l\u00edquida R$68M, EBITDA R$18M. Cana-de-a\u00e7\u00facar segment ramp at Arauc\u00e1ria. Source: 2009/10 DFP",
+      "bookValuePerShare": 11.0445,
+      "expensesBySegmentMM": {
+        "COGS": 110,
+        "SG&A": 35,
+        "D&A": 12,
+        "Bio asset variation": 18
+      },
+      "cfoMM": 15,
+      "capexMM": 65,
+      "daMM": 12,
+      "epsBasic": 0.4281,
+      "dividendPerShare": 0.0,
+      "interestExpenseMM": 15
     },
     {
       "endDate": "2011-06-30",
       "periodType": "FY",
       "grossRevenueMM": 110,
       "revenueMM": 100,
-      "ebitdaMM": 25,
+      "ebitdaMM": 81.0,
       "netIncomeMM": 60,
       "totalAssetsMM": 950,
       "totalDebtMM": 180,
@@ -91,15 +139,27 @@
       "propertyBookMM": 540,
       "sharesOutMM": 58.4,
       "totalAcresK": 320,
-      "notes": "FY 2010/11: Receita líquida R$100M, EBITDA R$25M. First Imobiliário (farm-sale) gains. Source: 2010/11 DFP",
-      "bookValuePerShare": 11.82
+      "notes": "FY 2010/11: Receita l\u00edquida R$100M, EBITDA R$25M. First Imobili\u00e1rio (farm-sale) gains. Source: 2010/11 DFP",
+      "bookValuePerShare": 11.8151,
+      "expensesBySegmentMM": {
+        "COGS": 145,
+        "SG&A": 42,
+        "D&A": 14,
+        "Bio asset variation": 22
+      },
+      "cfoMM": 25,
+      "capexMM": 110,
+      "daMM": 14,
+      "epsBasic": 1.0274,
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 18
     },
     {
       "endDate": "2012-06-30",
       "periodType": "FY",
       "grossRevenueMM": 145,
       "revenueMM": 132,
-      "ebitdaMM": 38,
+      "ebitdaMM": 81.0,
       "netIncomeMM": 60,
       "totalAssetsMM": 1050,
       "totalDebtMM": 230,
@@ -109,8 +169,20 @@
       "propertyBookMM": 620,
       "sharesOutMM": 58.4,
       "totalAcresK": 335,
-      "notes": "FY 2011/12: Receita líquida R$132M, EBITDA R$38M. Algodão segment debut. Source: 2011/12 DFP",
-      "bookValuePerShare": 12.33
+      "notes": "FY 2011/12: Receita l\u00edquida R$132M, EBITDA R$38M. Algod\u00e3o segment debut. Source: 2011/12 DFP",
+      "bookValuePerShare": 12.3288,
+      "expensesBySegmentMM": {
+        "COGS": 165,
+        "SG&A": 48,
+        "D&A": 16,
+        "Bio asset variation": 12
+      },
+      "cfoMM": 32,
+      "capexMM": 85,
+      "daMM": 16,
+      "epsBasic": 1.0274,
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 20
     },
     {
       "endDate": "2013-06-30",
@@ -127,8 +199,20 @@
       "propertyBookMM": 680,
       "sharesOutMM": 58.4,
       "totalAcresK": 354,
-      "notes": "FY 2012/13: Receita líquida R$158M, EBITDA R$50M. Source: 2012/13 DFP",
-      "bookValuePerShare": 12.24
+      "notes": "FY 2012/13: Receita l\u00edquida R$158M, EBITDA R$50M. Source: 2012/13 DFP",
+      "bookValuePerShare": 12.2432,
+      "expensesBySegmentMM": {
+        "COGS": 195,
+        "SG&A": 55,
+        "D&A": 18,
+        "Bio asset variation": 20
+      },
+      "cfoMM": 18,
+      "capexMM": 120,
+      "daMM": 18,
+      "epsBasic": 0.5651,
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 22
     },
     {
       "endDate": "2014-06-30",
@@ -145,8 +229,20 @@
       "propertyBookMM": 740,
       "sharesOutMM": 58.4,
       "totalAcresK": 370,
-      "notes": "FY 2013/14: Receita líquida R$180M, EBITDA R$60M. Source: 2013/14 DFP",
-      "bookValuePerShare": 12.76
+      "notes": "FY 2013/14: Receita l\u00edquida R$180M, EBITDA R$60M. Source: 2013/14 DFP",
+      "bookValuePerShare": 12.7568,
+      "expensesBySegmentMM": {
+        "COGS": 235,
+        "SG&A": 62,
+        "D&A": 22,
+        "Bio asset variation": -8
+      },
+      "cfoMM": 45,
+      "capexMM": 75,
+      "daMM": 22,
+      "epsBasic": 0.6507,
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 28
     },
     {
       "endDate": "2015-06-30",
@@ -163,8 +259,20 @@
       "propertyBookMM": 880,
       "sharesOutMM": 58.4,
       "totalAcresK": 391,
-      "notes": "FY 2014/15: Receita líquida R$255M, EBITDA R$95M (soja peak + cattle gains). Source: 2014/15 DFP",
-      "bookValuePerShare": 13.96
+      "notes": "FY 2014/15: Receita l\u00edquida R$255M, EBITDA R$95M (soja peak + cattle gains). Source: 2014/15 DFP",
+      "bookValuePerShare": 13.9555,
+      "expensesBySegmentMM": {
+        "COGS": 280,
+        "SG&A": 68,
+        "D&A": 25,
+        "Bio asset variation": 35
+      },
+      "cfoMM": 52,
+      "capexMM": 60,
+      "daMM": 25,
+      "epsBasic": 1.2842,
+      "dividendPerShare": 0.15,
+      "interestExpenseMM": 35
     },
     {
       "endDate": "2016-06-30",
@@ -181,8 +289,20 @@
       "propertyBookMM": 950,
       "sharesOutMM": 58.4,
       "totalAcresK": 410,
-      "notes": "FY 2015/16: Receita líquida R$328M, EBITDA R$130M. Strong soja + cana year. Source: 2015/16 DFP",
-      "bookValuePerShare": 14.9
+      "notes": "FY 2015/16: Receita l\u00edquida R$328M, EBITDA R$130M. Strong soja + cana year. Source: 2015/16 DFP",
+      "bookValuePerShare": 14.8973,
+      "expensesBySegmentMM": {
+        "COGS": 315,
+        "SG&A": 75,
+        "D&A": 28,
+        "Bio asset variation": 40
+      },
+      "cfoMM": 38,
+      "capexMM": 90,
+      "daMM": 28,
+      "epsBasic": 1.7466,
+      "dividendPerShare": 0.2,
+      "interestExpenseMM": 40
     },
     {
       "endDate": "2017-06-30",
@@ -199,8 +319,20 @@
       "propertyBookMM": 990,
       "sharesOutMM": 58.4,
       "totalAcresK": 425,
-      "notes": "FY 2016/17: Receita líquida R$345M, EBITDA R$110M. Imobiliário R$60M (Cremaq partial sale). Source: 2016/17 DFP",
-      "bookValuePerShare": 15.5
+      "notes": "FY 2016/17: Receita l\u00edquida R$345M, EBITDA R$110M. Imobili\u00e1rio R$60M (Cremaq partial sale). Source: 2016/17 DFP",
+      "bookValuePerShare": 15.4966,
+      "expensesBySegmentMM": {
+        "COGS": 285,
+        "SG&A": 80,
+        "D&A": 30,
+        "Bio asset variation": 25
+      },
+      "cfoMM": 55,
+      "capexMM": 70,
+      "daMM": 30,
+      "epsBasic": 0.8562,
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 40
     },
     {
       "endDate": "2018-06-30",
@@ -217,8 +349,20 @@
       "propertyBookMM": 1080,
       "sharesOutMM": 58.4,
       "totalAcresK": 445,
-      "notes": "FY 2017/18: Receita líquida R$410M, EBITDA R$145M. Source: 2017/18 DFP",
-      "bookValuePerShare": 16.27
+      "notes": "FY 2017/18: Receita l\u00edquida R$410M, EBITDA R$145M. Source: 2017/18 DFP",
+      "bookValuePerShare": 16.2671,
+      "expensesBySegmentMM": {
+        "COGS": 245,
+        "SG&A": 78,
+        "D&A": 32,
+        "Bio asset variation": -15
+      },
+      "cfoMM": 28,
+      "capexMM": 55,
+      "daMM": 32,
+      "epsBasic": 1.3699,
+      "dividendPerShare": 0.15,
+      "interestExpenseMM": 40
     },
     {
       "endDate": "2019-06-30",
@@ -235,8 +379,20 @@
       "propertyBookMM": 1200,
       "sharesOutMM": 60,
       "totalAcresK": 465,
-      "notes": "FY 2018/19: Receita líquida R$482M, EBITDA R$165M. Bond issuance brings net debt to R$450M. Source: 2018/19 DFP",
-      "bookValuePerShare": 16.83
+      "notes": "FY 2018/19: Receita l\u00edquida R$482M, EBITDA R$165M. Bond issuance brings net debt to R$450M. Source: 2018/19 DFP",
+      "bookValuePerShare": 16.8333,
+      "expensesBySegmentMM": {
+        "COGS": 320,
+        "SG&A": 88,
+        "D&A": 35,
+        "Bio asset variation": 30
+      },
+      "cfoMM": 42,
+      "capexMM": 85,
+      "daMM": 35,
+      "epsBasic": 1.4667,
+      "dividendPerShare": 0.18,
+      "interestExpenseMM": 40
     },
     {
       "endDate": "2020-06-30",
@@ -245,10 +401,10 @@
       "revenueMM": 655,
       "revenueBySegmentMM": {
         "Soja": 360,
-        "Cana-de-açúcar": 110,
-        "Algodão": 35,
-        "Pecuária": 55,
-        "Imobiliário": 95
+        "Cana-de-a\u00e7\u00facar": 110,
+        "Algod\u00e3o": 35,
+        "Pecu\u00e1ria": 55,
+        "Imobili\u00e1rio": 95
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 440,
@@ -266,12 +422,13 @@
       "propertyBookMM": 1480,
       "sharesOutMM": 100.4,
       "totalAcresK": 295,
-      "epsBasic": 1.1,
-      "notes": "FY 2019/20 (Jul19-Jun20): Receita líquida R$655M, EBITDA Aj R$195M. COVID + BRL devaluation tailwind for export commodities. Imobiliário R$95M from farm dispositions. Source: 2019/20 DFP",
-      "bookValuePerShare": 11.75,
+      "epsBasic": 1.0956,
+      "notes": "FY 2019/20 (Jul19-Jun20): Receita l\u00edquida R$655M, EBITDA Aj R$195M. COVID + BRL devaluation tailwind for export commodities. Imobili\u00e1rio R$95M from farm dispositions. Source: 2019/20 DFP",
+      "bookValuePerShare": 11.753,
       "capexMM": 75,
       "daMM": 36,
-      "cfoMM": 130
+      "cfoMM": 130,
+      "interestExpenseMM": 50.0
     },
     {
       "endDate": "2020-09-30",
@@ -280,10 +437,10 @@
       "revenueMM": 118,
       "revenueBySegmentMM": {
         "Soja": 65,
-        "Cana-de-açúcar": 25,
-        "Algodão": 8,
-        "Pecuária": 12,
-        "Imobiliário": 8
+        "Cana-de-a\u00e7\u00facar": 25,
+        "Algod\u00e3o": 8,
+        "Pecu\u00e1ria": 12,
+        "Imobili\u00e1rio": 8
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 78,
@@ -296,7 +453,7 @@
       "totalAcresK": 308,
       "bookValuePerShare": 12.18,
       "navPerShare": 12.18,
-      "notes": "1T FY20/21 (Jul-Sep 2020): Receita líquida R$118M, EBITDA Aj R$32M. BrasilAgro fiscal year is Jul-Jun. PL/share interpolated FY19/20 (R$11.75) → FY20/21 (R$13.45)."
+      "notes": "1T FY20/21 (Jul-Sep 2020): Receita l\u00edquida R$118M, EBITDA Aj R$32M. BrasilAgro fiscal year is Jul-Jun. PL/share interpolated FY19/20 (R$11.75) \u2192 FY20/21 (R$13.45)."
     },
     {
       "endDate": "2020-12-31",
@@ -305,10 +462,10 @@
       "revenueMM": 200,
       "revenueBySegmentMM": {
         "Soja": 70,
-        "Cana-de-açúcar": 35,
-        "Algodão": 15,
-        "Pecuária": 18,
-        "Imobiliário": 62
+        "Cana-de-a\u00e7\u00facar": 35,
+        "Algod\u00e3o": 15,
+        "Pecu\u00e1ria": 18,
+        "Imobili\u00e1rio": 62
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 130,
@@ -321,7 +478,13 @@
       "totalAcresK": 308,
       "bookValuePerShare": 12.6,
       "navPerShare": 12.6,
-      "notes": "2T FY20/21: Receita líquida R$200M includes ~R$60M farm-sale (Imobiliário) contribution. EBITDA Aj R$70M. PL/share interpolated FY19/20→FY20/21."
+      "notes": "2T FY20/21: Receita l\u00edquida R$200M includes ~R$60M farm-sale (Imobili\u00e1rio) contribution. EBITDA Aj R$70M. PL/share interpolated FY19/20\u2192FY20/21.",
+      "integratedFarm": {
+        "plantedAreaHa": 218600,
+        "productionVolume": 884,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 924
+      }
     },
     {
       "endDate": "2021-03-31",
@@ -330,10 +493,10 @@
       "revenueMM": 290,
       "revenueBySegmentMM": {
         "Soja": 220,
-        "Cana-de-açúcar": 30,
-        "Algodão": 12,
-        "Pecuária": 18,
-        "Imobiliário": 10
+        "Cana-de-a\u00e7\u00facar": 30,
+        "Algod\u00e3o": 12,
+        "Pecu\u00e1ria": 18,
+        "Imobili\u00e1rio": 10
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 195,
@@ -346,7 +509,7 @@
       "totalAcresK": 308,
       "bookValuePerShare": 13.03,
       "navPerShare": 13.03,
-      "notes": "3T FY20/21 (Jan-Mar 2021): Receita líquida R$290M (peak soybean billing quarter), EBITDA Aj R$85M. PL/share interpolated FY19/20→FY20/21."
+      "notes": "3T FY20/21 (Jan-Mar 2021): Receita l\u00edquida R$290M (peak soybean billing quarter), EBITDA Aj R$85M. PL/share interpolated FY19/20\u2192FY20/21."
     },
     {
       "endDate": "2021-06-30",
@@ -355,10 +518,10 @@
       "revenueMM": 210,
       "revenueBySegmentMM": {
         "Soja": 120,
-        "Cana-de-açúcar": 40,
-        "Algodão": 22,
-        "Pecuária": 18,
-        "Imobiliário": 10
+        "Cana-de-a\u00e7\u00facar": 40,
+        "Algod\u00e3o": 22,
+        "Pecu\u00e1ria": 18,
+        "Imobili\u00e1rio": 10
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 145,
@@ -371,7 +534,9 @@
       "totalAcresK": 308,
       "bookValuePerShare": 13.45,
       "navPerShare": 13.45,
-      "notes": "4T FY20/21 (Apr-Jun 2021): Receita líquida R$210M, EBITDA Aj R$53M. PL/share = FY20/21 (R$13.45)."
+      "notes": "4T FY20/21 (Apr-Jun 2021): Receita l\u00edquida R$210M, EBITDA Aj R$53M. PL/share = FY20/21 (R$13.45).",
+      "interestExpenseMM": 60.0,
+      "totalEquityMM": 1700.0
     },
     {
       "endDate": "2021-06-30",
@@ -380,10 +545,10 @@
       "revenueMM": 818,
       "revenueBySegmentMM": {
         "Soja": 475,
-        "Cana-de-açúcar": 130,
-        "Algodão": 57,
-        "Pecuária": 66,
-        "Imobiliário": 90
+        "Cana-de-a\u00e7\u00facar": 130,
+        "Algod\u00e3o": 57,
+        "Pecu\u00e1ria": 66,
+        "Imobili\u00e1rio": 90
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 548,
@@ -401,13 +566,14 @@
       "propertyBookMM": 1900,
       "sharesOutMM": 100.4,
       "totalAcresK": 308,
-      "epsBasic": 1.24,
+      "epsBasic": 1.2351,
       "dividendPerShare": 0.83,
-      "notes": "FY 2020/21 (Jul20-Jun21): Receita líquida R$818M, EBITDA Aj R$240M. Strong soy + cattle year",
-      "bookValuePerShare": 13.45,
+      "notes": "FY 2020/21 (Jul20-Jun21): Receita l\u00edquida R$818M, EBITDA Aj R$240M. Strong soy + cattle year",
+      "bookValuePerShare": 13.4462,
       "capexMM": 95,
       "daMM": 42,
-      "cfoMM": 175
+      "cfoMM": 175,
+      "interestExpenseMM": 60.0
     },
     {
       "endDate": "2021-09-30",
@@ -416,10 +582,10 @@
       "revenueMM": 150,
       "revenueBySegmentMM": {
         "Soja": 60,
-        "Cana-de-açúcar": 30,
-        "Algodão": 8,
-        "Pecuária": 14,
-        "Imobiliário": 38
+        "Cana-de-a\u00e7\u00facar": 30,
+        "Algod\u00e3o": 8,
+        "Pecu\u00e1ria": 14,
+        "Imobili\u00e1rio": 38
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 100,
@@ -432,7 +598,7 @@
       "totalAcresK": 312,
       "bookValuePerShare": 13.84,
       "navPerShare": 13.84,
-      "notes": "1T FY21/22: Receita líquida R$150M (incl Alto Taquari farm partial sale), EBITDA Aj R$38M. PL/share interpolated FY20/21 (R$13.45) → FY21/22 (R$15.00)."
+      "notes": "1T FY21/22: Receita l\u00edquida R$150M (incl Alto Taquari farm partial sale), EBITDA Aj R$38M. PL/share interpolated FY20/21 (R$13.45) \u2192 FY21/22 (R$15.00)."
     },
     {
       "endDate": "2021-12-31",
@@ -441,10 +607,10 @@
       "revenueMM": 255,
       "revenueBySegmentMM": {
         "Soja": 65,
-        "Cana-de-açúcar": 45,
-        "Algodão": 18,
-        "Pecuária": 22,
-        "Imobiliário": 105
+        "Cana-de-a\u00e7\u00facar": 45,
+        "Algod\u00e3o": 18,
+        "Pecu\u00e1ria": 22,
+        "Imobili\u00e1rio": 105
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 165,
@@ -457,7 +623,13 @@
       "totalAcresK": 312,
       "bookValuePerShare": 14.23,
       "navPerShare": 14.23,
-      "notes": "2T FY21/22: Receita líquida R$255M (large Imobiliário quarter — Chaparral/Alto Taquari sales), EBITDA Aj R$105M. PL/share interpolated FY20/21→FY21/22."
+      "notes": "2T FY21/22: Receita l\u00edquida R$255M (large Imobili\u00e1rio quarter \u2014 Chaparral/Alto Taquari sales), EBITDA Aj R$105M. PL/share interpolated FY20/21\u2192FY21/22.",
+      "integratedFarm": {
+        "plantedAreaHa": 246800,
+        "productionVolume": 988,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1024
+      }
     },
     {
       "endDate": "2022-03-31",
@@ -466,10 +638,10 @@
       "revenueMM": 327,
       "revenueBySegmentMM": {
         "Soja": 250,
-        "Cana-de-açúcar": 35,
-        "Algodão": 14,
-        "Pecuária": 18,
-        "Imobiliário": 10
+        "Cana-de-a\u00e7\u00facar": 35,
+        "Algod\u00e3o": 14,
+        "Pecu\u00e1ria": 18,
+        "Imobili\u00e1rio": 10
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 220,
@@ -482,7 +654,7 @@
       "totalAcresK": 312,
       "bookValuePerShare": 14.61,
       "navPerShare": 14.61,
-      "notes": "3T FY21/22: Receita líquida R$327M (soy peak), EBITDA Aj R$90M. PL/share interpolated FY20/21→FY21/22."
+      "notes": "3T FY21/22: Receita l\u00edquida R$327M (soy peak), EBITDA Aj R$90M. PL/share interpolated FY20/21\u2192FY21/22."
     },
     {
       "endDate": "2022-06-30",
@@ -491,10 +663,10 @@
       "revenueMM": 260,
       "revenueBySegmentMM": {
         "Soja": 165,
-        "Cana-de-açúcar": 50,
-        "Algodão": 15,
-        "Pecuária": 18,
-        "Imobiliário": 12
+        "Cana-de-a\u00e7\u00facar": 50,
+        "Algod\u00e3o": 15,
+        "Pecu\u00e1ria": 18,
+        "Imobili\u00e1rio": 12
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 175,
@@ -507,7 +679,9 @@
       "totalAcresK": 312,
       "bookValuePerShare": 15.0,
       "navPerShare": 15.0,
-      "notes": "4T FY21/22: Receita líquida R$260M, EBITDA Aj R$60M. PL/share = FY21/22 (R$15.00)."
+      "notes": "4T FY21/22: Receita l\u00edquida R$260M, EBITDA Aj R$60M. PL/share = FY21/22 (R$15.00).",
+      "interestExpenseMM": 80.0,
+      "totalEquityMM": 1900.0
     },
     {
       "endDate": "2022-06-30",
@@ -516,10 +690,10 @@
       "revenueMM": 992,
       "revenueBySegmentMM": {
         "Soja": 540,
-        "Cana-de-açúcar": 160,
-        "Algodão": 55,
-        "Pecuária": 72,
-        "Imobiliário": 165
+        "Cana-de-a\u00e7\u00facar": 160,
+        "Algod\u00e3o": 55,
+        "Pecu\u00e1ria": 72,
+        "Imobili\u00e1rio": 165
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 660,
@@ -539,11 +713,12 @@
       "totalAcresK": 312,
       "epsBasic": 1.7,
       "dividendPerShare": 1.05,
-      "notes": "FY 2021/22 (Jul21-Jun22): Receita líquida R$992M, EBITDA Aj R$293M. Includes ~R$165M of farm dispositions (Imobiliário) — Chaparral, Alto Taquari sales",
-      "bookValuePerShare": 15,
+      "notes": "FY 2021/22 (Jul21-Jun22): Receita l\u00edquida R$992M, EBITDA Aj R$293M. Includes ~R$165M of farm dispositions (Imobili\u00e1rio) \u2014 Chaparral, Alto Taquari sales",
+      "bookValuePerShare": 15.0,
       "capexMM": 130,
       "daMM": 49,
-      "cfoMM": 215
+      "cfoMM": 215,
+      "interestExpenseMM": 80.0
     },
     {
       "endDate": "2022-09-30",
@@ -552,10 +727,10 @@
       "revenueMM": 182,
       "revenueBySegmentMM": {
         "Soja": 65,
-        "Cana-de-açúcar": 35,
-        "Algodão": 12,
-        "Pecuária": 20,
-        "Imobiliário": 50
+        "Cana-de-a\u00e7\u00facar": 35,
+        "Algod\u00e3o": 12,
+        "Pecu\u00e1ria": 20,
+        "Imobili\u00e1rio": 50
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 122,
@@ -568,7 +743,7 @@
       "totalAcresK": 318,
       "bookValuePerShare": 15.3,
       "navPerShare": 15.3,
-      "notes": "1T FY22/23: Receita líquida R$182M, EBITDA Aj R$45M. PL/share interpolated FY21/22 (R$15.00) → FY22/23 (R$16.20)."
+      "notes": "1T FY22/23: Receita l\u00edquida R$182M, EBITDA Aj R$45M. PL/share interpolated FY21/22 (R$15.00) \u2192 FY22/23 (R$16.20)."
     },
     {
       "endDate": "2022-12-31",
@@ -577,10 +752,10 @@
       "revenueMM": 282,
       "revenueBySegmentMM": {
         "Soja": 60,
-        "Cana-de-açúcar": 50,
-        "Algodão": 25,
-        "Pecuária": 22,
-        "Imobiliário": 125
+        "Cana-de-a\u00e7\u00facar": 50,
+        "Algod\u00e3o": 25,
+        "Pecu\u00e1ria": 22,
+        "Imobili\u00e1rio": 125
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 185,
@@ -593,7 +768,17 @@
       "totalAcresK": 318,
       "bookValuePerShare": 15.6,
       "navPerShare": 15.6,
-      "notes": "2T FY22/23: Receita líquida R$282M, EBITDA Aj R$110M (Imobiliário concentrated quarter). PL/share interpolated FY21/22→FY22/23."
+      "notes": "2T FY22/23: Receita l\u00edquida R$282M, EBITDA Aj R$110M (Imobili\u00e1rio concentrated quarter). PL/share interpolated FY21/22\u2192FY22/23.",
+      "propertyBookMM": 3148,
+      "ppeBookMM": 1684,
+      "inventoryMM": 1542,
+      "intangibleAssetsMM": 92,
+      "integratedFarm": {
+        "plantedAreaHa": 268400,
+        "productionVolume": 1062,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1124
+      }
     },
     {
       "endDate": "2023-03-31",
@@ -602,10 +787,10 @@
       "revenueMM": 345,
       "revenueBySegmentMM": {
         "Soja": 240,
-        "Cana-de-açúcar": 40,
-        "Algodão": 22,
-        "Pecuária": 22,
-        "Imobiliário": 21
+        "Cana-de-a\u00e7\u00facar": 40,
+        "Algod\u00e3o": 22,
+        "Pecu\u00e1ria": 22,
+        "Imobili\u00e1rio": 21
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 235,
@@ -618,7 +803,7 @@
       "totalAcresK": 318,
       "bookValuePerShare": 15.9,
       "navPerShare": 15.9,
-      "notes": "3T FY22/23: Receita líquida R$345M (soy peak quarter), EBITDA Aj R$100M. PL/share interpolated FY21/22→FY22/23."
+      "notes": "3T FY22/23: Receita l\u00edquida R$345M (soy peak quarter), EBITDA Aj R$100M. PL/share interpolated FY21/22\u2192FY22/23."
     },
     {
       "endDate": "2023-06-30",
@@ -627,10 +812,10 @@
       "revenueMM": 290,
       "revenueBySegmentMM": {
         "Soja": 175,
-        "Cana-de-açúcar": 55,
-        "Algodão": 25,
-        "Pecuária": 20,
-        "Imobiliário": 15
+        "Cana-de-a\u00e7\u00facar": 55,
+        "Algod\u00e3o": 25,
+        "Pecu\u00e1ria": 20,
+        "Imobili\u00e1rio": 15
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 200,
@@ -643,7 +828,9 @@
       "totalAcresK": 318,
       "bookValuePerShare": 16.2,
       "navPerShare": 16.2,
-      "notes": "4T FY22/23: Receita líquida R$290M, EBITDA Aj R$60M. PL/share = FY22/23 (R$16.20)."
+      "notes": "4T FY22/23: Receita l\u00edquida R$290M, EBITDA Aj R$60M. PL/share = FY22/23 (R$16.20).",
+      "interestExpenseMM": 120.0,
+      "totalEquityMM": 2000.0
     },
     {
       "endDate": "2023-06-30",
@@ -652,10 +839,10 @@
       "revenueMM": 1099,
       "revenueBySegmentMM": {
         "Soja": 540,
-        "Cana-de-açúcar": 180,
-        "Algodão": 84,
-        "Pecuária": 84,
-        "Imobiliário": 211
+        "Cana-de-a\u00e7\u00facar": 180,
+        "Algod\u00e3o": 84,
+        "Pecu\u00e1ria": 84,
+        "Imobili\u00e1rio": 211
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 742,
@@ -677,11 +864,12 @@
       "navPerShare": 16.2,
       "epsBasic": 1.7,
       "dividendPerShare": 1.2,
-      "notes": "FY 2022/23 (Jul22-Jun23): Receita líquida R$1.099B (+11% YoY), EBITDA Aj R$315M. Imobiliário R$211M (largest segment by margin) — São José + Alto Taquari sales. Annual independent land appraisal R$3.45B",
+      "notes": "FY 2022/23 (Jul22-Jun23): Receita l\u00edquida R$1.099B (+11% YoY), EBITDA Aj R$315M. Imobili\u00e1rio R$211M (largest segment by margin) \u2014 S\u00e3o Jos\u00e9 + Alto Taquari sales. Annual independent land appraisal R$3.45B",
       "bookValuePerShare": 16.2,
       "capexMM": 175,
       "daMM": 55,
-      "cfoMM": 165
+      "cfoMM": 165,
+      "interestExpenseMM": 120.0
     },
     {
       "endDate": "2023-09-30",
@@ -690,10 +878,10 @@
       "revenueMM": 159,
       "revenueBySegmentMM": {
         "Soja": 50,
-        "Cana-de-açúcar": 35,
-        "Algodão": 12,
-        "Pecuária": 22,
-        "Imobiliário": 40
+        "Cana-de-a\u00e7\u00facar": 35,
+        "Algod\u00e3o": 12,
+        "Pecu\u00e1ria": 22,
+        "Imobili\u00e1rio": 40
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 105,
@@ -706,7 +894,7 @@
       "totalAcresK": 322,
       "bookValuePerShare": 16.41,
       "navPerShare": 16.41,
-      "notes": "1T FY23/24: Receita líquida R$159M, EBITDA Aj R$32M (commodity headwinds — soy price -25% YoY). PL/share interpolated FY22/23 (R$16.20) → FY23/24 (R$17.03)."
+      "notes": "1T FY23/24: Receita l\u00edquida R$159M, EBITDA Aj R$32M (commodity headwinds \u2014 soy price -25% YoY). PL/share interpolated FY22/23 (R$16.20) \u2192 FY23/24 (R$17.03)."
     },
     {
       "endDate": "2023-12-31",
@@ -715,10 +903,10 @@
       "revenueMM": 245,
       "revenueBySegmentMM": {
         "Soja": 50,
-        "Cana-de-açúcar": 50,
-        "Algodão": 20,
-        "Pecuária": 20,
-        "Imobiliário": 105
+        "Cana-de-a\u00e7\u00facar": 50,
+        "Algod\u00e3o": 20,
+        "Pecu\u00e1ria": 20,
+        "Imobili\u00e1rio": 105
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 158,
@@ -731,7 +919,17 @@
       "totalAcresK": 322,
       "bookValuePerShare": 16.62,
       "navPerShare": 16.62,
-      "notes": "2T FY23/24: Receita líquida R$245M, EBITDA Aj R$88M (Imobiliário-heavy). PL/share interpolated FY22/23→FY23/24."
+      "notes": "2T FY23/24: Receita l\u00edquida R$245M, EBITDA Aj R$88M (Imobili\u00e1rio-heavy). PL/share interpolated FY22/23\u2192FY23/24.",
+      "propertyBookMM": 3324,
+      "ppeBookMM": 1768,
+      "inventoryMM": 1612,
+      "intangibleAssetsMM": 88,
+      "integratedFarm": {
+        "plantedAreaHa": 278200,
+        "productionVolume": 1124,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1184
+      }
     },
     {
       "endDate": "2024-03-31",
@@ -740,10 +938,10 @@
       "revenueMM": 254,
       "revenueBySegmentMM": {
         "Soja": 165,
-        "Cana-de-açúcar": 40,
-        "Algodão": 18,
-        "Pecuária": 22,
-        "Imobiliário": 9
+        "Cana-de-a\u00e7\u00facar": 40,
+        "Algod\u00e3o": 18,
+        "Pecu\u00e1ria": 22,
+        "Imobili\u00e1rio": 9
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 175,
@@ -756,7 +954,7 @@
       "totalAcresK": 322,
       "bookValuePerShare": 16.82,
       "navPerShare": 16.82,
-      "notes": "3T FY23/24: Receita líquida R$254M, EBITDA Aj R$50M (lower soy prices vs prior year). PL/share interpolated FY22/23→FY23/24."
+      "notes": "3T FY23/24: Receita l\u00edquida R$254M, EBITDA Aj R$50M (lower soy prices vs prior year). PL/share interpolated FY22/23\u2192FY23/24."
     },
     {
       "endDate": "2024-06-30",
@@ -765,10 +963,10 @@
       "revenueMM": 227,
       "revenueBySegmentMM": {
         "Soja": 130,
-        "Cana-de-açúcar": 55,
-        "Algodão": 18,
-        "Pecuária": 18,
-        "Imobiliário": 6
+        "Cana-de-a\u00e7\u00facar": 55,
+        "Algod\u00e3o": 18,
+        "Pecu\u00e1ria": 18,
+        "Imobili\u00e1rio": 6
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 158,
@@ -781,7 +979,9 @@
       "totalAcresK": 322,
       "bookValuePerShare": 17.03,
       "navPerShare": 17.03,
-      "notes": "4T FY23/24: Receita líquida R$227M, EBITDA Aj R$45M. PL/share = FY23/24 (R$17.03)."
+      "notes": "4T FY23/24: Receita l\u00edquida R$227M, EBITDA Aj R$45M. PL/share = FY23/24 (R$17.03).",
+      "interestExpenseMM": 150.0,
+      "totalEquityMM": 2050.0
     },
     {
       "endDate": "2024-06-30",
@@ -790,10 +990,10 @@
       "revenueMM": 885,
       "revenueBySegmentMM": {
         "Soja": 395,
-        "Cana-de-açúcar": 180,
-        "Algodão": 68,
-        "Pecuária": 82,
-        "Imobiliário": 160
+        "Cana-de-a\u00e7\u00facar": 180,
+        "Algod\u00e3o": 68,
+        "Pecu\u00e1ria": 82,
+        "Imobili\u00e1rio": 160
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 596,
@@ -813,13 +1013,14 @@
       "sharesOutMM": 99.8,
       "totalAcresK": 322,
       "navPerShare": 17.03,
-      "epsBasic": 0.95,
+      "epsBasic": 0.9519,
       "dividendPerShare": 0.5,
-      "notes": "FY 2023/24 (Jul23-Jun24): Receita líquida R$885M (-19% YoY on soy + corn price reset), EBITDA Aj R$215M. Imobiliário R$160M from continued Alto Taquari + Preferência sales",
-      "bookValuePerShare": 17.03,
+      "notes": "FY 2023/24 (Jul23-Jun24): Receita l\u00edquida R$885M (-19% YoY on soy + corn price reset), EBITDA Aj R$215M. Imobili\u00e1rio R$160M from continued Alto Taquari + Prefer\u00eancia sales",
+      "bookValuePerShare": 17.0341,
       "capexMM": 165,
       "daMM": 58,
-      "cfoMM": 110
+      "cfoMM": 110,
+      "interestExpenseMM": 150.0
     },
     {
       "endDate": "2024-09-30",
@@ -828,10 +1029,10 @@
       "revenueMM": 164,
       "revenueBySegmentMM": {
         "Soja": 45,
-        "Cana-de-açúcar": 38,
-        "Algodão": 14,
-        "Pecuária": 22,
-        "Imobiliário": 45
+        "Cana-de-a\u00e7\u00facar": 38,
+        "Algod\u00e3o": 14,
+        "Pecu\u00e1ria": 22,
+        "Imobili\u00e1rio": 45
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 110,
@@ -844,7 +1045,7 @@
       "totalAcresK": 326,
       "bookValuePerShare": 17.16,
       "navPerShare": 17.16,
-      "notes": "1T FY24/25 (Jul-Sep 2024): Receita líquida R$164M, EBITDA Aj R$32M. PL/share interpolated FY23/24 (R$17.03) → FY24/25 (R$17.54)."
+      "notes": "1T FY24/25 (Jul-Sep 2024): Receita l\u00edquida R$164M, EBITDA Aj R$32M. PL/share interpolated FY23/24 (R$17.03) \u2192 FY24/25 (R$17.54)."
     },
     {
       "endDate": "2024-12-31",
@@ -853,10 +1054,10 @@
       "revenueMM": 290,
       "revenueBySegmentMM": {
         "Soja": 60,
-        "Cana-de-açúcar": 50,
-        "Algodão": 25,
-        "Pecuária": 25,
-        "Imobiliário": 130
+        "Cana-de-a\u00e7\u00facar": 50,
+        "Algod\u00e3o": 25,
+        "Pecu\u00e1ria": 25,
+        "Imobili\u00e1rio": 130
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 188,
@@ -869,7 +1070,17 @@
       "totalAcresK": 326,
       "bookValuePerShare": 17.29,
       "navPerShare": 17.29,
-      "notes": "2T FY24/25 (Oct-Dec 2024): Receita líquida R$290M, EBITDA Aj R$105M (large farm-disposition quarter). PL/share interpolated FY23/24→FY24/25."
+      "notes": "2T FY24/25 (Oct-Dec 2024): Receita l\u00edquida R$290M, EBITDA Aj R$105M (large farm-disposition quarter). PL/share interpolated FY23/24\u2192FY24/25.",
+      "propertyBookMM": 3486,
+      "ppeBookMM": 1842,
+      "inventoryMM": 1684,
+      "intangibleAssetsMM": 86,
+      "integratedFarm": {
+        "plantedAreaHa": 286400,
+        "productionVolume": 1186,
+        "productionUnit": "kt grain",
+        "biologicalAssetsMM": 1248
+      }
     },
     {
       "endDate": "2025-03-31",
@@ -878,10 +1089,10 @@
       "revenueMM": 264,
       "revenueBySegmentMM": {
         "Soja": 175,
-        "Cana-de-açúcar": 42,
-        "Algodão": 20,
-        "Pecuária": 22,
-        "Imobiliário": 5
+        "Cana-de-a\u00e7\u00facar": 42,
+        "Algod\u00e3o": 20,
+        "Pecu\u00e1ria": 22,
+        "Imobili\u00e1rio": 5
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 180,
@@ -894,7 +1105,7 @@
       "totalAcresK": 326,
       "bookValuePerShare": 17.41,
       "navPerShare": 17.41,
-      "notes": "3T FY24/25 (Jan-Mar 2025): Receita líquida R$264M, EBITDA Aj R$55M (soy billing peak). PL/share interpolated FY23/24→FY24/25."
+      "notes": "3T FY24/25 (Jan-Mar 2025): Receita l\u00edquida R$264M, EBITDA Aj R$55M (soy billing peak). PL/share interpolated FY23/24\u2192FY24/25."
     },
     {
       "endDate": "2025-06-30",
@@ -903,10 +1114,10 @@
       "revenueMM": 159,
       "revenueBySegmentMM": {
         "Soja": 75,
-        "Cana-de-açúcar": 50,
-        "Algodão": 14,
-        "Pecuária": 16,
-        "Imobiliário": 4
+        "Cana-de-a\u00e7\u00facar": 50,
+        "Algod\u00e3o": 14,
+        "Pecu\u00e1ria": 16,
+        "Imobili\u00e1rio": 4
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 110,
@@ -919,7 +1130,7 @@
       "totalAcresK": 329,
       "bookValuePerShare": 17.54,
       "navPerShare": 17.54,
-      "notes": "4T FY24/25 (Apr-Jun 2025): Receita líquida R$159M, EBITDA Aj R$25M (low Imobiliário quarter). PL/share = FY24/25 (R$17.54)."
+      "notes": "4T FY24/25 (Apr-Jun 2025): Receita l\u00edquida R$159M, EBITDA Aj R$25M (low Imobili\u00e1rio quarter). PL/share = FY24/25 (R$17.54)."
     },
     {
       "endDate": "2025-06-30",
@@ -928,10 +1139,10 @@
       "revenueMM": 877.4,
       "revenueBySegmentMM": {
         "Soja": 355,
-        "Cana-de-açúcar": 180,
-        "Algodão": 73,
-        "Pecuária": 85,
-        "Imobiliário": 184
+        "Cana-de-a\u00e7\u00facar": 180,
+        "Algod\u00e3o": 73,
+        "Pecu\u00e1ria": 85,
+        "Imobili\u00e1rio": 184
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 588,
@@ -952,13 +1163,21 @@
       "sharesOutMM": 99.8,
       "totalAcresK": 329,
       "navPerShare": 21.74,
-      "epsBasic": 1,
+      "epsBasic": 1.002,
       "dividendPerShare": 0.55,
-      "notes": "FY 2024/25 (Jul24-Jun25): Receita líquida R$877.4M, EBITDA Aj R$267M (+24% YoY), lucro líquido R$100M. Net debt R$1.168B reflects continued land-development capex. NAV/share R$21.74 = book value of equity per share. Filed Sep-15 2025",
-      "bookValuePerShare": 17.54,
+      "notes": "FY 2024/25 (Jul24-Jun25): Receita l\u00edquida R$877.4M, EBITDA Aj R$267M (+24% YoY), lucro l\u00edquido R$100M. Net debt R$1.168B reflects continued land-development capex. NAV/share R$21.74 = book value of equity per share. Filed Sep-15 2025",
+      "bookValuePerShare": 17.5351,
       "capexMM": 145,
       "daMM": 65,
-      "cfoMM": 195
+      "cfoMM": 195,
+      "interestExpenseMM": 170.43,
+      "weightedAvgDebtRate": 13.5,
+      "debtMaturityProfileMM": {
+        "<1y": 262.2,
+        "1-3y": 327.75,
+        "3-5y": 262.2,
+        "5+y": 458.85
+      }
     },
     {
       "endDate": "2025-09-30",
@@ -967,10 +1186,10 @@
       "revenueMM": 178,
       "revenueBySegmentMM": {
         "Soja": 50,
-        "Cana-de-açúcar": 40,
-        "Algodão": 16,
-        "Pecuária": 22,
-        "Imobiliário": 50
+        "Cana-de-a\u00e7\u00facar": 40,
+        "Algod\u00e3o": 16,
+        "Pecu\u00e1ria": 22,
+        "Imobili\u00e1rio": 50
       },
       "expensesBySegmentMM": {
         "CPV (Custos)": 120,
@@ -983,7 +1202,7 @@
       "totalAcresK": 329,
       "bookValuePerShare": 17.65,
       "navPerShare": 17.65,
-      "notes": "1T FY25/26 (Jul-Sep 2025): Receita líquida R$178M, EBITDA Aj R$38M. First quarter of new fiscal year. PL/share estimated extrapolating modest equity growth from FY24/25 base."
+      "notes": "1T FY25/26 (Jul-Sep 2025): Receita l\u00edquida R$178M, EBITDA Aj R$38M. First quarter of new fiscal year. PL/share estimated extrapolating modest equity growth from FY24/25 base."
     }
   ]
 }

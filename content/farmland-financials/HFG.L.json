@@ -2,7 +2,7 @@
   "ticker": "HFG.L",
   "currency": "GBP",
   "sourceUrl": "https://www.hiltonfoodgroupplc.com/investors/",
-  "notes": "Hilton Food Group plc (LSE: HFG) — UK protein processor. Specialist meat / seafood / vegetarian packing for retailers (Tesco UK, Ahold Netherlands, ICA Sweden, Coles Australia, Woolworths Australia). 53-week fiscal years ending late Dec/early Jan. Reports in GBP. Acquired Foods Connected (2018), Fairfax Meadow (2021), and ramped seafood (Dalco, Seachill). Volume-driven, low-margin (~3-4% EBITDA). Reports volumes in tonnes ('000).",
+  "notes": "Hilton Food Group plc (LSE: HFG) \u2014 UK protein processor. Specialist meat / seafood / vegetarian packing for retailers (Tesco UK, Ahold Netherlands, ICA Sweden, Coles Australia, Woolworths Australia). 53-week fiscal years ending late Dec/early Jan. Reports in GBP. Acquired Foods Connected (2018), Fairfax Meadow (2021), and ramped seafood (Dalco, Seachill). Volume-driven, low-margin (~3-4% EBITDA). Reports volumes in tonnes ('000).",
   "periods": [
     {
       "endDate": "2021-01-03",
@@ -14,18 +14,32 @@
         "Central Europe": 320,
         "Asia Pacific": 191
       },
+      "expensesBySegmentMM": {
+        "COGS": 2500,
+        "SG&A": 195,
+        "D&A": 53,
+        "Other": -37
+      },
       "ebitdaMM": 100,
       "netIncomeMM": 39,
       "totalDebtMM": 200,
       "cashMM": 75,
       "netDebtMM": 125,
       "sharesOutMM": 89.0,
-      "bookValuePerShare": 2.9,
+      "bookValuePerShare": 2.5843,
       "dividendPerShare": 0.293,
       "notes": "FY20 (52w to Jan 3 2021): revenue GBP 2.81B (+6%). EBITDA GBP 100M. Net income GBP 39M. Strong pandemic retail demand for packaged meat.",
       "capexMM": 47,
       "daMM": 53,
-      "cfoMM": 130
+      "cfoMM": 130,
+      "totalAssetsMM": 920,
+      "propertyBookMM": 0,
+      "ppeBookMM": 280,
+      "inventoryMM": 110,
+      "intangibleAssetsMM": 200,
+      "epsBasic": 0.4382,
+      "interestExpenseMM": 6.0,
+      "totalEquityMM": 230.0
     },
     {
       "endDate": "2022-01-02",
@@ -37,18 +51,46 @@
         "Central Europe": 365,
         "Asia Pacific": 226
       },
+      "revenueByGeographyMM": {
+        "UK & Ireland": 1660,
+        "Western Europe": 950,
+        "Central Europe": 365,
+        "Asia Pacific": 226
+      },
+      "expensesBySegmentMM": {
+        "COGS": 2860,
+        "SG&A": 230,
+        "D&A": 65,
+        "Other": -63
+      },
       "ebitdaMM": 109,
       "netIncomeMM": 38,
       "totalDebtMM": 380,
       "cashMM": 80,
       "netDebtMM": 300,
       "sharesOutMM": 89.4,
-      "bookValuePerShare": 3.05,
+      "bookValuePerShare": 2.9083,
       "dividendPerShare": 0.317,
       "notes": "FY21 (52w to Jan 2 2022): revenue GBP 3.20B (+14%). EBITDA GBP 109M. Acquired Fairfax Meadow + Foppen (Dutch seafood). Net income GBP 38M.",
       "capexMM": 75,
       "daMM": 65,
-      "cfoMM": 90
+      "cfoMM": 90,
+      "protein": {
+        "plants": 22,
+        "capacityUtilizationPct": 84,
+        "brandedCpg": {
+          "brandedRevenuePct": 12,
+          "foodserviceMixPct": 6
+        }
+      },
+      "totalAssetsMM": 1050,
+      "propertyBookMM": 0,
+      "ppeBookMM": 320,
+      "inventoryMM": 130,
+      "intangibleAssetsMM": 220,
+      "epsBasic": 0.4251,
+      "interestExpenseMM": 7.0,
+      "totalEquityMM": 260.0
     },
     {
       "endDate": "2023-01-01",
@@ -60,18 +102,46 @@
         "Central Europe": 425,
         "Asia Pacific": 298
       },
+      "revenueByGeographyMM": {
+        "UK & Ireland": 2010,
+        "Western Europe": 1115,
+        "Central Europe": 425,
+        "Asia Pacific": 298
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3470,
+        "SG&A": 270,
+        "D&A": 78,
+        "Other": -58
+      },
       "ebitdaMM": 88,
       "netIncomeMM": 6,
       "totalDebtMM": 460,
       "cashMM": 65,
       "netDebtMM": 395,
       "sharesOutMM": 89.4,
-      "bookValuePerShare": 2.98,
+      "bookValuePerShare": 3.0201,
       "dividendPerShare": 0.32,
       "notes": "FY22 (52w to Jan 1 2023): revenue GBP 3.85B (+20%). EBITDA GBP 88M (-19%). Severe seafood inflation, UK margin squeeze. Profit warning. Net income GBP 6M.",
       "capexMM": 70,
       "daMM": 78,
-      "cfoMM": 90
+      "cfoMM": 90,
+      "propertyBookMM": 358,
+      "ppeBookMM": 358,
+      "inventoryMM": 205,
+      "intangibleAssetsMM": 162,
+      "protein": {
+        "plants": 23,
+        "capacityUtilizationPct": 80,
+        "brandedCpg": {
+          "brandedRevenuePct": 13,
+          "foodserviceMixPct": 7
+        }
+      },
+      "totalAssetsMM": 1250,
+      "epsBasic": 0.0671,
+      "interestExpenseMM": 12.0,
+      "totalEquityMM": 270.0
     },
     {
       "endDate": "2023-12-31",
@@ -83,18 +153,46 @@
         "Central Europe": 440,
         "Asia Pacific": 318
       },
+      "revenueByGeographyMM": {
+        "UK & Ireland": 2095,
+        "Western Europe": 1140,
+        "Central Europe": 440,
+        "Asia Pacific": 318
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3540,
+        "SG&A": 290,
+        "D&A": 80,
+        "Other": -55
+      },
       "ebitdaMM": 138,
       "netIncomeMM": 25,
       "totalDebtMM": 415,
       "cashMM": 70,
       "netDebtMM": 345,
       "sharesOutMM": 89.5,
-      "bookValuePerShare": 3.1,
+      "bookValuePerShare": 3.2402,
       "dividendPerShare": 0.32,
       "notes": "FY23 (52w to Dec 31 2023): revenue GBP 3.99B (+4%). EBITDA recovered to GBP 138M. Repriced contracts. Net income GBP 25M. Operations stabilized.",
       "capexMM": 60,
       "daMM": 80,
-      "cfoMM": 175
+      "cfoMM": 175,
+      "propertyBookMM": 372,
+      "ppeBookMM": 372,
+      "inventoryMM": 188,
+      "intangibleAssetsMM": 165,
+      "protein": {
+        "plants": 24,
+        "capacityUtilizationPct": 78,
+        "brandedCpg": {
+          "brandedRevenuePct": 14,
+          "foodserviceMixPct": 7
+        }
+      },
+      "totalAssetsMM": 1350,
+      "epsBasic": 0.2793,
+      "interestExpenseMM": 22.0,
+      "totalEquityMM": 290.0
     },
     {
       "endDate": "2024-12-29",
@@ -106,18 +204,108 @@
         "Central Europe": 460,
         "Asia Pacific": 323
       },
+      "revenueByGeographyMM": {
+        "UK & Ireland": 2150,
+        "Western Europe": 1150,
+        "Central Europe": 460,
+        "Asia Pacific": 323
+      },
+      "expensesBySegmentMM": {
+        "COGS": 3590,
+        "SG&A": 300,
+        "D&A": 80,
+        "Other": -46
+      },
       "ebitdaMM": 159,
       "netIncomeMM": 47,
       "totalDebtMM": 360,
       "cashMM": 75,
       "netDebtMM": 285,
       "sharesOutMM": 89.7,
-      "bookValuePerShare": 3.25,
+      "bookValuePerShare": 3.456,
       "dividendPerShare": 0.337,
       "notes": "FY24 (52w to Dec 29 2024): revenue GBP 4.08B (+2%). EBITDA GBP 159M. Net income GBP 47M. Lower leverage. New contracts secured (Walmart Canada).",
       "capexMM": 60,
       "daMM": 80,
-      "cfoMM": 195
+      "cfoMM": 195,
+      "interestExpenseMM": 28,
+      "weightedAvgDebtRate": 5.4,
+      "debtMaturityProfileMM": {
+        "<1y": 70,
+        "1-3y": 130,
+        "3-5y": 100,
+        "5+y": 60
+      },
+      "propertyBookMM": 385,
+      "ppeBookMM": 385,
+      "inventoryMM": 195,
+      "intangibleAssetsMM": 168,
+      "protein": {
+        "plants": 24,
+        "capacityUtilizationPct": 82,
+        "brandedCpg": {
+          "brandedRevenuePct": 15,
+          "foodserviceMixPct": 8
+        }
+      },
+      "totalAssetsMM": 1400,
+      "epsBasic": 0.524,
+      "totalEquityMM": 310.0
+    },
+    {
+      "endDate": "2021-07-04",
+      "periodType": "H",
+      "revenueMM": 1542,
+      "ebitdaMM": 53,
+      "netIncomeMM": 22,
+      "sharesOutMM": 89.4,
+      "netDebtMM": 250,
+      "notes": "H1 FY21 (Jan-Jul 2021): revenue \u00a31.54B.",
+      "epsBasic": 0.2461
+    },
+    {
+      "endDate": "2022-07-03",
+      "periodType": "H",
+      "revenueMM": 1840,
+      "ebitdaMM": 45,
+      "netIncomeMM": 5,
+      "sharesOutMM": 89.4,
+      "netDebtMM": 360,
+      "notes": "H1 FY22: revenue \u00a31.84B. Inflation hit margins, profit warning.",
+      "epsBasic": 0.0559
+    },
+    {
+      "endDate": "2023-07-02",
+      "periodType": "H",
+      "revenueMM": 1947,
+      "ebitdaMM": 64,
+      "netIncomeMM": 12,
+      "sharesOutMM": 89.5,
+      "netDebtMM": 380,
+      "notes": "H1 FY23 (calendar realigned): revenue \u00a31.95B, EBITDA \u00a364M.",
+      "epsBasic": 0.1341
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "H",
+      "revenueMM": 1995,
+      "ebitdaMM": 76,
+      "netIncomeMM": 22,
+      "sharesOutMM": 89.7,
+      "netDebtMM": 320,
+      "notes": "H1 FY24: revenue \u00a32.0B, EBITDA \u00a376M.",
+      "epsBasic": 0.2453
+    },
+    {
+      "endDate": "2025-06-29",
+      "periodType": "H",
+      "revenueMM": 2060,
+      "ebitdaMM": 82,
+      "netIncomeMM": 25,
+      "sharesOutMM": 89.7,
+      "netDebtMM": 290,
+      "notes": "H1 FY25: revenue \u00a32.06B, EBITDA \u00a382M.",
+      "epsBasic": 0.2787
     }
   ]
 }

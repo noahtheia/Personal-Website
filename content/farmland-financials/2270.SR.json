@@ -2,7 +2,7 @@
   "ticker": "2270.SR",
   "currency": "SAR",
   "sourceUrl": "https://www.sadafco.com/en/investor-relations/",
-  "notes": "Saudia Dairy and Foodstuff Company (SADAFCO) — Tadawul-listed Saudi food group focused on UHT (long-life) milk under the Saudia brand, plus tomato paste, ice cream, snacks and cheese. Operates in Saudi Arabia + GCC + Levant + sub-Saharan Africa export markets. Fiscal year ends 31 March (FY2024 = year to Mar-2024; FY2025 = year to Mar-2025). SAR reporting; figures in SAR millions. Net cash balance sheet (essentially no debt; large cash + short-term investments). Capital-light vs Almarai (no upstream dairy farms — sources milk powder + raw milk). Strong dividend track record. SADAFCO has no direct farmland ownership; classified as Dairy / Egg Producer in the comps universe (acresK omitted). Multi-year history below shows compounding revenue and earnings growth driven by category expansion and price discipline.",
+  "notes": "Saudia Dairy and Foodstuff Company (SADAFCO) \u2014 Tadawul-listed Saudi food group focused on UHT (long-life) milk under the Saudia brand, plus tomato paste, ice cream, snacks and cheese. Operates in Saudi Arabia + GCC + Levant + sub-Saharan Africa export markets. Fiscal year ends 31 March (FY2024 = year to Mar-2024; FY2025 = year to Mar-2025). SAR reporting; figures in SAR millions. Net cash balance sheet (essentially no debt; large cash + short-term investments). Capital-light vs Almarai (no upstream dairy farms \u2014 sources milk powder + raw milk). Strong dividend track record. SADAFCO has no direct farmland ownership; classified as Dairy / Egg Producer in the comps universe (acresK omitted). Multi-year history below shows compounding revenue and earnings growth driven by category expansion and price discipline.",
   "periods": [
     {
       "endDate": "2021-03-31",
@@ -16,12 +16,13 @@
       "totalEquityMM": 1620,
       "totalAssetsMM": 2050,
       "sharesOutMM": 32.5,
-      "bookValuePerShare": 49.85,
+      "bookValuePerShare": 49.8462,
       "dividendPerShare": 4.5,
       "notes": "FY21: COVID demand for shelf-stable milk; price discipline maintained",
       "capexMM": 35,
       "daMM": 38,
-      "cfoMM": 80
+      "cfoMM": 80,
+      "epsBasic": 6.6154
     },
     {
       "endDate": "2022-03-31",
@@ -35,12 +36,13 @@
       "totalEquityMM": 1740,
       "totalAssetsMM": 2150,
       "sharesOutMM": 32.5,
-      "bookValuePerShare": 53.54,
+      "bookValuePerShare": 53.5385,
       "dividendPerShare": 5.0,
       "notes": "FY22: input cost inflation (milk powder, packaging); pricing actions late in year",
       "capexMM": 40,
       "daMM": 40,
-      "cfoMM": 95
+      "cfoMM": 95,
+      "epsBasic": 6.0
     },
     {
       "endDate": "2023-03-31",
@@ -54,12 +56,13 @@
       "totalEquityMM": 1900,
       "totalAssetsMM": 2300,
       "sharesOutMM": 32.5,
-      "bookValuePerShare": 58.46,
+      "bookValuePerShare": 58.4615,
       "dividendPerShare": 5.5,
       "notes": "FY23: full impact of pricing flowed through; commodity easing",
       "capexMM": 50,
       "daMM": 42,
-      "cfoMM": 110
+      "cfoMM": 110,
+      "epsBasic": 7.2
     },
     {
       "endDate": "2024-03-31",
@@ -75,10 +78,66 @@
       "sharesOutMM": 32.5,
       "bookValuePerShare": 64.0,
       "dividendPerShare": 6.0,
+      "revenueBySegmentMM": {
+        "UHT milk": 1200,
+        "Tomato paste": 320,
+        "Ice cream": 280,
+        "Cheese": 200,
+        "Other (snacks, exports)": 295
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1530,
+        "SG&A": 370,
+        "D&A": 44,
+        "Other opex": 1
+      },
       "notes": "FY24: record revenue and net income; export expansion across MENA",
       "capexMM": 55,
       "daMM": 44,
-      "cfoMM": 120
+      "cfoMM": 120,
+      "epsBasic": 8.1231
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 580,
+      "ebitdaMM": 90,
+      "netIncomeMM": 70,
+      "notes": "Q1 FY24"
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 600,
+      "ebitdaMM": 95,
+      "netIncomeMM": 72,
+      "notes": "Q2 FY24"
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 560,
+      "ebitdaMM": 84,
+      "netIncomeMM": 64,
+      "notes": "Q3 FY24",
+      "ppeBookMM": 7568,
+      "inventoryMM": 2086,
+      "intangibleAssetsMM": 488,
+      "dairy": {
+        "milkIntakeMlitres": 1612,
+        "cowHerdK": 138.4,
+        "infantFormulaRevenuePct": 6.0,
+        "brandedRevenuePct": 85.6
+      }
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 555,
+      "ebitdaMM": 81,
+      "netIncomeMM": 58,
+      "notes": "Q4 FY24",
+      "totalEquityMM": 1095
     },
     {
       "endDate": "2025-03-31",
@@ -94,10 +153,74 @@
       "sharesOutMM": 32.5,
       "bookValuePerShare": 76.0,
       "dividendPerShare": 6.0,
+      "revenueBySegmentMM": {
+        "UHT milk": 1260,
+        "Tomato paste": 340,
+        "Ice cream": 290,
+        "Cheese": 210,
+        "Other (snacks, exports)": 300
+      },
+      "expensesBySegmentMM": {
+        "COGS": 1620,
+        "SG&A": 380,
+        "D&A": 46,
+        "Other opex": 4
+      },
       "notes": "FY25: continued category growth; strong cash generation; bonus issue effect on shares unchanged",
       "capexMM": 50,
       "daMM": 46,
-      "cfoMM": 130
+      "cfoMM": 130,
+      "interestExpenseMM": 2.75,
+      "weightedAvgDebtRate": 5.5,
+      "debtMaturityProfileMM": {
+        "<1y": 12.5,
+        "1-3y": 15.0,
+        "3-5y": 10.0,
+        "5+y": 12.5
+      },
+      "epsBasic": 8.4
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 605,
+      "ebitdaMM": 90,
+      "netIncomeMM": 70,
+      "notes": "Q1 FY25"
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 625,
+      "ebitdaMM": 92,
+      "netIncomeMM": 73,
+      "notes": "Q2 FY25"
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 590,
+      "ebitdaMM": 86,
+      "netIncomeMM": 67,
+      "notes": "Q3 FY25",
+      "ppeBookMM": 7846,
+      "inventoryMM": 2148,
+      "intangibleAssetsMM": 484,
+      "dairy": {
+        "milkIntakeMlitres": 1684,
+        "cowHerdK": 142.6,
+        "infantFormulaRevenuePct": 6.4,
+        "brandedRevenuePct": 86.2
+      }
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 580,
+      "ebitdaMM": 82,
+      "netIncomeMM": 63,
+      "notes": "Q4 FY25",
+      "totalEquityMM": 1145
     }
   ]
 }

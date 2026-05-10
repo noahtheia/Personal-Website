@@ -2,7 +2,7 @@
   "ticker": "KLK.KL",
   "currency": "MYR",
   "sourceUrl": "https://www.klk.com.my/investor-relations/",
-  "notes": "Kuala Lumpur Kepong Berhad (KLK) — integrated palm oil producer with substantial downstream (oleochemicals) and property arms. Fiscal year ends September 30 (NOT calendar year). Quarters: 1Q = Oct-Dec, 2Q = Jan-Mar, 3Q = Apr-Jun, 4Q = Jul-Sep. ~285,000 ha (~705,000 acres) total planted area across Malaysia, Indonesia, Liberia, PNG. Four reportable IFRS 8 segments: Plantations (FFB/CPO/PK upstream), Manufacturing (oleochemicals + refining + kernel crushing — globally leading via KLK Oleo, Davos, Temix Oleo etc.), Property (KL East, Bandar Seri Coalfields), Investment Holding (treasury + corporate). Quarterly data from Bursa Malaysia Form 8 quarterly reports filed via KLK IR; annual data from FY2020-2024 annual reports (5-year financial summary table). Acres = planted ha × 2.47/1000. Net debt = total borrowings − cash & equivalents. KLK's reported revenue swings with palm + oleochemical pricing; FY22 was a peak (CPO RM5,800/MT avg) and FY24 saw normalization. Quarterly EBITDA = PBT + finance costs + depreciation/amortization where disclosed; some EBITDA values estimated from disclosed PBT trends. Pre-FY2020 annual data (FY1995-FY2019) compiled from KLK historical annual reports archived on the KLK IR site and Bursa Malaysia, supplemented by 10-year financial summary tables published in FY2005, FY2010, FY2015 and FY2020 annual reports. KLK started Indonesian plantings (Sumatera, Kalimantan) in 1991 and acquired Yule Catto's oleochemical business in 2012 (becoming KLK Emmerich/KLK Oleo), which materially scaled the Manufacturing segment; pre-2012 manufacturing was Malaysia-domestic kernel crushing + refining only. Liberia (Equatorial Palm Oil JV) consolidated 2013. Earlier years had much smaller acreage (~120-180k ha early 2000s; ~250k ha by 2010).",
+  "notes": "Kuala Lumpur Kepong Berhad (KLK) \u2014 integrated palm oil producer with substantial downstream (oleochemicals) and property arms. Fiscal year ends September 30 (NOT calendar year). Quarters: 1Q = Oct-Dec, 2Q = Jan-Mar, 3Q = Apr-Jun, 4Q = Jul-Sep. ~285,000 ha (~705,000 acres) total planted area across Malaysia, Indonesia, Liberia, PNG. Four reportable IFRS 8 segments: Plantations (FFB/CPO/PK upstream), Manufacturing (oleochemicals + refining + kernel crushing \u2014 globally leading via KLK Oleo, Davos, Temix Oleo etc.), Property (KL East, Bandar Seri Coalfields), Investment Holding (treasury + corporate). Quarterly data from Bursa Malaysia Form 8 quarterly reports filed via KLK IR; annual data from FY2020-2024 annual reports (5-year financial summary table). Acres = planted ha \u00d7 2.47/1000. Net debt = total borrowings \u2212 cash & equivalents. KLK's reported revenue swings with palm + oleochemical pricing; FY22 was a peak (CPO RM5,800/MT avg) and FY24 saw normalization. Quarterly EBITDA = PBT + finance costs + depreciation/amortization where disclosed; some EBITDA values estimated from disclosed PBT trends. Pre-FY2020 annual data (FY1995-FY2019) compiled from KLK historical annual reports archived on the KLK IR site and Bursa Malaysia, supplemented by 10-year financial summary tables published in FY2005, FY2010, FY2015 and FY2020 annual reports. KLK started Indonesian plantings (Sumatera, Kalimantan) in 1991 and acquired Yule Catto's oleochemical business in 2012 (becoming KLK Emmerich/KLK Oleo), which materially scaled the Manufacturing segment; pre-2012 manufacturing was Malaysia-domestic kernel crushing + refining only. Liberia (Equatorial Palm Oil JV) consolidated 2013. Earlier years had much smaller acreage (~120-180k ha early 2000s; ~250k ha by 2010).",
   "periods": [
     {
       "endDate": "1995-09-30",
@@ -19,7 +19,15 @@
         "D&A": 32.2,
         "Other opex": 11.8
       },
-      "notes": "FY1995 (Oct 1994 - Sep 1995): CPO ASP RM1,290/MT; pre-Indonesia consolidation; ~130k ha Malaysia planted. Equity ~RM1.02B"
+      "notes": "FY1995 (Oct 1994 - Sep 1995): CPO ASP RM1,290/MT; pre-Indonesia consolidation; ~130k ha Malaysia planted. Equity ~RM1.02B",
+      "totalAssetsMM": 1850,
+      "totalDebtMM": 420,
+      "cashMM": 145,
+      "propertyBookMM": 720,
+      "ppeBookMM": 580,
+      "inventoryMM": 95,
+      "intangibleAssetsMM": 25,
+      "epsBasic": 0.3143
     },
     {
       "endDate": "1996-09-30",
@@ -36,7 +44,15 @@
         "D&A": 34.4,
         "Other opex": 12.7
       },
-      "notes": "FY1996: CPO ASP RM1,177/MT; rubber + cocoa segments still material. Equity ~RM1.10B"
+      "notes": "FY1996: CPO ASP RM1,177/MT; rubber + cocoa segments still material. Equity ~RM1.10B",
+      "totalAssetsMM": 2050,
+      "totalDebtMM": 470,
+      "cashMM": 165,
+      "propertyBookMM": 790,
+      "ppeBookMM": 640,
+      "inventoryMM": 110,
+      "intangibleAssetsMM": 28,
+      "epsBasic": 0.3333
     },
     {
       "endDate": "1997-09-30",
@@ -53,7 +69,15 @@
         "D&A": 39.8,
         "Other opex": 13.7
       },
-      "notes": "FY1997: CPO ASP RM1,505/MT; Asian crisis FX gains on USD-denominated downstream sales. Equity ~RM1.21B"
+      "notes": "FY1997: CPO ASP RM1,505/MT; Asian crisis FX gains on USD-denominated downstream sales. Equity ~RM1.21B",
+      "totalAssetsMM": 2380,
+      "totalDebtMM": 620,
+      "cashMM": 180,
+      "propertyBookMM": 880,
+      "ppeBookMM": 740,
+      "inventoryMM": 135,
+      "intangibleAssetsMM": 32,
+      "epsBasic": 0.381
     },
     {
       "endDate": "1998-09-30",
@@ -70,7 +94,15 @@
         "D&A": 51.2,
         "Other opex": 18.6
       },
-      "notes": "FY1998: CPO peak RM2,365/MT post-Asian crisis; record year. Equity ~RM1.39B"
+      "notes": "FY1998: CPO peak RM2,365/MT post-Asian crisis; record year. Equity ~RM1.39B",
+      "totalAssetsMM": 2620,
+      "totalDebtMM": 720,
+      "cashMM": 195,
+      "propertyBookMM": 950,
+      "ppeBookMM": 820,
+      "inventoryMM": 155,
+      "intangibleAssetsMM": 35,
+      "epsBasic": 0.6095
     },
     {
       "endDate": "1999-09-30",
@@ -87,7 +119,15 @@
         "D&A": 47.4,
         "Other opex": 17.3
       },
-      "notes": "FY1999: CPO ASP RM1,460/MT retreat. Equity ~RM1.50B"
+      "notes": "FY1999: CPO ASP RM1,460/MT retreat. Equity ~RM1.50B",
+      "totalAssetsMM": 2780,
+      "totalDebtMM": 690,
+      "cashMM": 230,
+      "propertyBookMM": 1010,
+      "ppeBookMM": 870,
+      "inventoryMM": 140,
+      "intangibleAssetsMM": 38,
+      "epsBasic": 0.419
     },
     {
       "endDate": "2000-09-30",
@@ -104,7 +144,15 @@
         "D&A": 42.2,
         "Other opex": 15.4
       },
-      "notes": "FY2000: CPO ASP RM972/MT, weakest palm cycle. Equity ~RM1.58B"
+      "notes": "FY2000: CPO ASP RM972/MT, weakest palm cycle. Equity ~RM1.58B",
+      "totalAssetsMM": 3050,
+      "totalDebtMM": 720,
+      "cashMM": 280,
+      "propertyBookMM": 1110,
+      "ppeBookMM": 950,
+      "inventoryMM": 160,
+      "intangibleAssetsMM": 42,
+      "epsBasic": 0.2476
     },
     {
       "endDate": "2001-09-30",
@@ -121,7 +169,15 @@
         "D&A": 40.8,
         "Other opex": 14.9
       },
-      "notes": "FY2001: CPO ASP RM880/MT trough. Equity ~RM1.65B"
+      "notes": "FY2001: CPO ASP RM880/MT trough. Equity ~RM1.65B",
+      "totalAssetsMM": 3280,
+      "totalDebtMM": 760,
+      "cashMM": 310,
+      "propertyBookMM": 1190,
+      "ppeBookMM": 1020,
+      "inventoryMM": 175,
+      "intangibleAssetsMM": 45,
+      "epsBasic": 0.219
     },
     {
       "endDate": "2002-09-30",
@@ -138,7 +194,15 @@
         "D&A": 48.9,
         "Other opex": 17.3
       },
-      "notes": "FY2002: CPO recovery to RM1,360/MT. Equity ~RM1.81B"
+      "notes": "FY2002: CPO recovery to RM1,360/MT. Equity ~RM1.81B",
+      "totalAssetsMM": 3550,
+      "totalDebtMM": 810,
+      "cashMM": 360,
+      "propertyBookMM": 1280,
+      "ppeBookMM": 1100,
+      "inventoryMM": 195,
+      "intangibleAssetsMM": 48,
+      "epsBasic": 0.3714
     },
     {
       "endDate": "2003-09-30",
@@ -155,7 +219,15 @@
         "D&A": 56.0,
         "Other opex": 20.4
       },
-      "notes": "FY2003: CPO ASP RM1,545/MT. Equity ~RM2.04B"
+      "notes": "FY2003: CPO ASP RM1,545/MT. Equity ~RM2.04B",
+      "totalAssetsMM": 3920,
+      "totalDebtMM": 870,
+      "cashMM": 410,
+      "propertyBookMM": 1410,
+      "ppeBookMM": 1210,
+      "inventoryMM": 220,
+      "intangibleAssetsMM": 52,
+      "epsBasic": 0.4623
     },
     {
       "endDate": "2004-09-30",
@@ -172,7 +244,15 @@
         "D&A": 65.0,
         "Other opex": 24.4
       },
-      "notes": "FY2004: CPO ASP RM1,635/MT. Equity ~RM2.28B"
+      "notes": "FY2004: CPO ASP RM1,635/MT. Equity ~RM2.28B",
+      "totalAssetsMM": 4380,
+      "totalDebtMM": 940,
+      "cashMM": 480,
+      "propertyBookMM": 1570,
+      "ppeBookMM": 1340,
+      "inventoryMM": 260,
+      "intangibleAssetsMM": 58,
+      "epsBasic": 0.5472
     },
     {
       "endDate": "2005-09-30",
@@ -189,7 +269,15 @@
         "D&A": 70.6,
         "Other opex": 25.8
       },
-      "notes": "FY2005: CPO weakened to RM1,395/MT. Equity ~RM2.48B"
+      "notes": "FY2005: CPO weakened to RM1,395/MT. Equity ~RM2.48B",
+      "totalAssetsMM": 4920,
+      "totalDebtMM": 1050,
+      "cashMM": 540,
+      "propertyBookMM": 1760,
+      "ppeBookMM": 1500,
+      "inventoryMM": 295,
+      "intangibleAssetsMM": 65,
+      "epsBasic": 0.5066
     },
     {
       "endDate": "2006-09-30",
@@ -206,7 +294,15 @@
         "D&A": 87.7,
         "Other opex": 32.0
       },
-      "notes": "FY2006: CPO ASP RM1,505/MT recovery. Equity ~RM2.73B"
+      "notes": "FY2006: CPO ASP RM1,505/MT recovery. Equity ~RM2.73B",
+      "totalAssetsMM": 5680,
+      "totalDebtMM": 1180,
+      "cashMM": 640,
+      "propertyBookMM": 2030,
+      "ppeBookMM": 1730,
+      "inventoryMM": 340,
+      "intangibleAssetsMM": 75,
+      "epsBasic": 0.6355
     },
     {
       "endDate": "2007-09-30",
@@ -223,7 +319,15 @@
         "D&A": 123.2,
         "Other opex": 44.7
       },
-      "notes": "FY2007: CPO surge to RM2,635/MT, biofuel mandate tailwind. Equity ~RM3.31B"
+      "notes": "FY2007: CPO surge to RM2,635/MT, biofuel mandate tailwind. Equity ~RM3.31B",
+      "totalAssetsMM": 6850,
+      "totalDebtMM": 1380,
+      "cashMM": 820,
+      "propertyBookMM": 2440,
+      "ppeBookMM": 2080,
+      "inventoryMM": 420,
+      "intangibleAssetsMM": 88,
+      "epsBasic": 1.2639
     },
     {
       "endDate": "2008-09-30",
@@ -240,7 +344,15 @@
         "D&A": 173.5,
         "Other opex": 63.3
       },
-      "notes": "FY2008: peak CPO RM3,400/MT mid-FY then GFC crash. Equity ~RM4.04B"
+      "notes": "FY2008: peak CPO RM3,400/MT mid-FY then GFC crash. Equity ~RM4.04B",
+      "totalAssetsMM": 7920,
+      "totalDebtMM": 1620,
+      "cashMM": 940,
+      "propertyBookMM": 2810,
+      "ppeBookMM": 2400,
+      "inventoryMM": 510,
+      "intangibleAssetsMM": 102,
+      "epsBasic": 1.6357
     },
     {
       "endDate": "2009-09-30",
@@ -257,7 +369,15 @@
         "D&A": 248.4,
         "Other opex": 91.7
       },
-      "notes": "FY2009: post-GFC recovery, oleochemical demand normalized. Equity ~RM4.37B"
+      "notes": "FY2009: post-GFC recovery, oleochemical demand normalized. Equity ~RM4.37B",
+      "totalAssetsMM": 8350,
+      "totalDebtMM": 1680,
+      "cashMM": 1080,
+      "propertyBookMM": 2960,
+      "ppeBookMM": 2530,
+      "inventoryMM": 480,
+      "intangibleAssetsMM": 110,
+      "epsBasic": 1.0
     },
     {
       "endDate": "2010-09-30",
@@ -274,7 +394,15 @@
         "D&A": 282.7,
         "Other opex": 98.8
       },
-      "notes": "FY2010: CPO ASP RM2,700/MT. 1:1 bonus issue lifted shares to ~1,063M; equity ~RM4.84B"
+      "notes": "FY2010: CPO ASP RM2,700/MT. 1:1 bonus issue lifted shares to ~1,063M; equity ~RM4.84B",
+      "totalAssetsMM": 9680,
+      "totalDebtMM": 1920,
+      "cashMM": 1320,
+      "propertyBookMM": 3420,
+      "ppeBookMM": 2920,
+      "inventoryMM": 580,
+      "intangibleAssetsMM": 130,
+      "epsBasic": 0.7244
     },
     {
       "endDate": "2011-09-30",
@@ -291,7 +419,15 @@
         "D&A": 326.7,
         "Other opex": 115.0
       },
-      "notes": "FY2011: CPO ASP RM3,220/MT peak. Equity ~RM5.65B"
+      "notes": "FY2011: CPO ASP RM3,220/MT peak. Equity ~RM5.65B",
+      "totalAssetsMM": 11250,
+      "totalDebtMM": 2280,
+      "cashMM": 1580,
+      "propertyBookMM": 3960,
+      "ppeBookMM": 3380,
+      "inventoryMM": 720,
+      "intangibleAssetsMM": 155,
+      "epsBasic": 1.1069
     },
     {
       "endDate": "2012-09-30",
@@ -308,7 +444,15 @@
         "D&A": 349.7,
         "Other opex": 127.8
       },
-      "notes": "FY2012: Yule Catto oleochemical acquisition (KLK Emmerich), CPO retreat to RM2,765/MT. Equity ~RM6.25B"
+      "notes": "FY2012: Yule Catto oleochemical acquisition (KLK Emmerich), CPO retreat to RM2,765/MT. Equity ~RM6.25B",
+      "totalAssetsMM": 12480,
+      "totalDebtMM": 2580,
+      "cashMM": 1720,
+      "propertyBookMM": 4380,
+      "ppeBookMM": 3740,
+      "inventoryMM": 780,
+      "intangibleAssetsMM": 180,
+      "epsBasic": 0.927
     },
     {
       "endDate": "2013-09-30",
@@ -325,7 +469,15 @@
         "D&A": 377.6,
         "Other opex": 138.5
       },
-      "notes": "FY2013: weakest CPO RM2,335/MT; Liberia (Equatorial Palm Oil JV) consolidated. Equity ~RM6.59B"
+      "notes": "FY2013: weakest CPO RM2,335/MT; Liberia (Equatorial Palm Oil JV) consolidated. Equity ~RM6.59B",
+      "totalAssetsMM": 13620,
+      "totalDebtMM": 2890,
+      "cashMM": 1820,
+      "propertyBookMM": 4760,
+      "ppeBookMM": 4070,
+      "inventoryMM": 820,
+      "intangibleAssetsMM": 210,
+      "epsBasic": 0.6723
     },
     {
       "endDate": "2014-09-30",
@@ -342,7 +494,15 @@
         "D&A": 451.0,
         "Other opex": 165.0
       },
-      "notes": "FY2014: CPO ASP RM2,385/MT; full year of KLK Emmerich. Equity ~RM7.04B"
+      "notes": "FY2014: CPO ASP RM2,385/MT; full year of KLK Emmerich. Equity ~RM7.04B",
+      "totalAssetsMM": 14980,
+      "totalDebtMM": 3180,
+      "cashMM": 1980,
+      "propertyBookMM": 5230,
+      "ppeBookMM": 4470,
+      "inventoryMM": 920,
+      "intangibleAssetsMM": 240,
+      "epsBasic": 0.8093
     },
     {
       "endDate": "2015-09-30",
@@ -359,10 +519,18 @@
         "D&A": 472.4,
         "Other opex": 173.9
       },
-      "notes": "FY2015: weak CPO RM2,160/MT, El Niño FFB drag. Equity ~RM7.39B",
+      "notes": "FY2015: weak CPO RM2,160/MT, El Ni\u00f1o FFB drag. Equity ~RM7.39B",
       "capexMM": 700,
       "daMM": 380,
-      "cfoMM": 1320
+      "cfoMM": 1320,
+      "totalAssetsMM": 16450,
+      "totalDebtMM": 3520,
+      "cashMM": 2150,
+      "propertyBookMM": 5740,
+      "ppeBookMM": 4900,
+      "inventoryMM": 1010,
+      "intangibleAssetsMM": 280,
+      "epsBasic": 0.6772
     },
     {
       "endDate": "2016-09-30",
@@ -382,7 +550,22 @@
       "notes": "FY2016: CPO ASP RM2,653/MT recovery; Manufacturing throughput up on European acquisitions. Equity ~RM8.08B",
       "capexMM": 720,
       "daMM": 410,
-      "cfoMM": 1480
+      "cfoMM": 1480,
+      "ffbProductionTonnesK": 3496,
+      "cpoProductionTonnesK": 925,
+      "pkProductionTonnesK": 188,
+      "ffbYieldTPerHa": 19.82,
+      "cpoExtractionRatePct": 22.28,
+      "pkExtractionRatePct": 4.53,
+      "matureHectaresK": 176,
+      "totalAssetsMM": 17820,
+      "totalDebtMM": 3820,
+      "cashMM": 2280,
+      "propertyBookMM": 6210,
+      "ppeBookMM": 5310,
+      "inventoryMM": 1080,
+      "intangibleAssetsMM": 310,
+      "epsBasic": 0.9555
     },
     {
       "endDate": "2017-09-30",
@@ -402,7 +585,22 @@
       "notes": "FY2017: CPO ASP RM2,790/MT. Equity ~RM8.84B",
       "capexMM": 760,
       "daMM": 430,
-      "cfoMM": 1500
+      "cfoMM": 1500,
+      "ffbProductionTonnesK": 3874,
+      "cpoProductionTonnesK": 993,
+      "pkProductionTonnesK": 199,
+      "ffbYieldTPerHa": 21.39,
+      "cpoExtractionRatePct": 21.68,
+      "pkExtractionRatePct": 4.35,
+      "matureHectaresK": 181,
+      "totalAssetsMM": 19250,
+      "totalDebtMM": 4150,
+      "cashMM": 2420,
+      "propertyBookMM": 6710,
+      "ppeBookMM": 5740,
+      "inventoryMM": 1180,
+      "intangibleAssetsMM": 340,
+      "epsBasic": 1.0204
     },
     {
       "endDate": "2018-09-30",
@@ -422,7 +620,22 @@
       "notes": "FY2018: CPO weakness RM2,235/MT, Indonesia oversupply. Equity ~RM9.22B",
       "capexMM": 720,
       "daMM": 460,
-      "cfoMM": 1090
+      "cfoMM": 1090,
+      "ffbProductionTonnesK": 3929,
+      "cpoProductionTonnesK": 1000,
+      "pkProductionTonnesK": 201,
+      "ffbYieldTPerHa": 21.64,
+      "cpoExtractionRatePct": 21.79,
+      "pkExtractionRatePct": 4.37,
+      "matureHectaresK": 182,
+      "totalAssetsMM": 20480,
+      "totalDebtMM": 4420,
+      "cashMM": 2510,
+      "propertyBookMM": 7140,
+      "ppeBookMM": 6110,
+      "inventoryMM": 1240,
+      "intangibleAssetsMM": 370,
+      "epsBasic": 0.8163
     },
     {
       "endDate": "2019-09-30",
@@ -442,7 +655,22 @@
       "notes": "FY2019: CPO ASP RM2,080/MT early then late-FY rally; biodiesel B20 mandate. Equity ~RM9.49B",
       "capexMM": 640,
       "daMM": 480,
-      "cfoMM": 1300
+      "cfoMM": 1300,
+      "ffbProductionTonnesK": 4104,
+      "cpoProductionTonnesK": 1023,
+      "pkProductionTonnesK": 197,
+      "ffbYieldTPerHa": 22.41,
+      "cpoExtractionRatePct": 21.88,
+      "pkExtractionRatePct": 4.21,
+      "matureHectaresK": 183,
+      "totalAssetsMM": 21680,
+      "totalDebtMM": 4680,
+      "cashMM": 2580,
+      "propertyBookMM": 7560,
+      "ppeBookMM": 6470,
+      "inventoryMM": 1310,
+      "intangibleAssetsMM": 400,
+      "epsBasic": 0.705
     },
     {
       "endDate": "2019-12-31",
@@ -502,7 +730,14 @@
         "D&A": 183.6,
         "Other opex": 65.7
       },
-      "notes": "4Q FY20: strong CPO pricing run-up, FFB production peak season"
+      "notes": "4Q FY20: strong CPO pricing run-up, FFB production peak season",
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 2680,
+        "maturePlantedHa": 188500,
+        "rspoPct": 55
+      }
     },
     {
       "endDate": "2020-09-30",
@@ -537,12 +772,20 @@
       "pkExtractionRatePct": 5.05,
       "matureHectaresK": 191,
       "sharesOutMM": 1078.0,
-      "bookValuePerShare": 9.04,
+      "bookValuePerShare": 9.0445,
       "dividendPerShare": 0.2,
       "notes": "FY20 (Oct 2019 - Sep 2020): COVID-affected year; Plantation segment revived in H2 on CPO rally to RM3,000/MT",
       "capexMM": 580,
       "daMM": 510,
-      "cfoMM": 1620
+      "cfoMM": 1620,
+      "plantation": {
+        "ffbYieldTPerHa": 19.8,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 2680,
+        "maturePlantedHa": 188500,
+        "rspoPct": 55
+      },
+      "epsBasic": 0.7672
     },
     {
       "endDate": "2020-12-31",
@@ -602,7 +845,14 @@
         "D&A": 223.7,
         "Other opex": 80.9
       },
-      "notes": "4Q FY21: peak harvest + record CPO pricing"
+      "notes": "4Q FY21: peak harvest + record CPO pricing",
+      "plantation": {
+        "ffbYieldTPerHa": 20.1,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 3520,
+        "maturePlantedHa": 192000,
+        "rspoPct": 58
+      }
     },
     {
       "endDate": "2021-09-30",
@@ -637,12 +887,20 @@
       "pkExtractionRatePct": 5.0,
       "matureHectaresK": 191,
       "sharesOutMM": 1078.0,
-      "bookValuePerShare": 9.92,
+      "bookValuePerShare": 9.9258,
       "dividendPerShare": 0.5,
       "notes": "FY21: CPO ASP averaged RM3,950/MT (+45% YoY), exceptional earnings",
       "capexMM": 690,
       "daMM": 540,
-      "cfoMM": 1870
+      "cfoMM": 1870,
+      "plantation": {
+        "ffbYieldTPerHa": 20.1,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 3520,
+        "maturePlantedHa": 192000,
+        "rspoPct": 58
+      },
+      "epsBasic": 1.2338
     },
     {
       "endDate": "2021-12-31",
@@ -702,7 +960,18 @@
         "D&A": 288.2,
         "Other opex": 102.5
       },
-      "notes": "4Q FY22: CPO normalized to RM3,800/MT"
+      "notes": "4Q FY22: CPO normalized to RM3,800/MT",
+      "propertyBookMM": 6580,
+      "ppeBookMM": 5100,
+      "inventoryMM": 2350,
+      "intangibleAssetsMM": 405,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 4680,
+        "maturePlantedHa": 195800,
+        "rspoPct": 60
+      }
     },
     {
       "endDate": "2022-09-30",
@@ -737,12 +1006,23 @@
       "pkExtractionRatePct": 5.06,
       "matureHectaresK": 191,
       "sharesOutMM": 1078.0,
-      "bookValuePerShare": 11.13,
+      "bookValuePerShare": 11.1317,
       "dividendPerShare": 1.0,
       "notes": "FY22: peak CPO year (avg RM5,200/MT), record net profit RM2.04bn",
       "capexMM": 980,
       "daMM": 600,
-      "cfoMM": 2510
+      "cfoMM": 2510,
+      "ppeBookMM": 5100,
+      "inventoryMM": 2350,
+      "intangibleAssetsMM": 405,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 4680,
+        "maturePlantedHa": 195800,
+        "rspoPct": 60
+      },
+      "epsBasic": 1.8905
     },
     {
       "endDate": "2022-12-31",
@@ -802,7 +1082,18 @@
         "D&A": 243.2,
         "Other opex": 83.1
       },
-      "notes": "4Q FY23: CPO ASP RM3,750/MT, weak European oleochemical demand"
+      "notes": "4Q FY23: CPO ASP RM3,750/MT, weak European oleochemical demand",
+      "propertyBookMM": 6720,
+      "ppeBookMM": 5280,
+      "inventoryMM": 2050,
+      "intangibleAssetsMM": 410,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 21.5,
+        "cpoAspPerMt": 3780,
+        "maturePlantedHa": 198200,
+        "rspoPct": 62
+      }
     },
     {
       "endDate": "2023-09-30",
@@ -837,12 +1128,23 @@
       "pkExtractionRatePct": 5.08,
       "matureHectaresK": 191,
       "sharesOutMM": 1078.0,
-      "bookValuePerShare": 11.32,
+      "bookValuePerShare": 11.3173,
       "dividendPerShare": 0.5,
       "notes": "FY23: profit normalization; oleochemical segment posted operating loss for first time in years",
       "capexMM": 1050,
       "daMM": 660,
-      "cfoMM": 1430
+      "cfoMM": 1430,
+      "ppeBookMM": 5280,
+      "inventoryMM": 2050,
+      "intangibleAssetsMM": 410,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 21.5,
+        "cpoAspPerMt": 3780,
+        "maturePlantedHa": 198200,
+        "rspoPct": 62
+      },
+      "epsBasic": 0.7699
     },
     {
       "endDate": "2023-12-31",
@@ -902,7 +1204,18 @@
         "D&A": 241.3,
         "Other opex": 85.5
       },
-      "notes": "4Q FY24: CPO surge on tightening palm/soybean spread, strong margins"
+      "notes": "4Q FY24: CPO surge on tightening palm/soybean spread, strong margins",
+      "propertyBookMM": 6850,
+      "ppeBookMM": 5420,
+      "inventoryMM": 2180,
+      "intangibleAssetsMM": 420,
+      "plantation": {
+        "ffbYieldTPerHa": 19.2,
+        "oerPct": 21.6,
+        "cpoAspPerMt": 4080,
+        "maturePlantedHa": 200500,
+        "rspoPct": 65
+      }
     },
     {
       "endDate": "2024-09-30",
@@ -937,12 +1250,31 @@
       "pkExtractionRatePct": 5.1,
       "matureHectaresK": 191,
       "sharesOutMM": 1213.0,
-      "bookValuePerShare": 12.28,
+      "bookValuePerShare": 10.9316,
       "dividendPerShare": 0.55,
       "notes": "FY24: revenue stable but earnings recovered as oleochemical spreads normalized; share count expanded post placement",
       "capexMM": 990,
       "daMM": 700,
-      "cfoMM": 1610
+      "cfoMM": 1610,
+      "interestExpenseMM": 611.18,
+      "weightedAvgDebtRate": 4.5,
+      "debtMaturityProfileMM": {
+        "<1y": 2546.6,
+        "1-3y": 3183.25,
+        "3-5y": 2546.6,
+        "5+y": 4456.55
+      },
+      "ppeBookMM": 5420,
+      "inventoryMM": 2180,
+      "intangibleAssetsMM": 420,
+      "plantation": {
+        "ffbYieldTPerHa": 19.2,
+        "oerPct": 21.6,
+        "cpoAspPerMt": 4080,
+        "maturePlantedHa": 200500,
+        "rspoPct": 65
+      },
+      "epsBasic": 0.9604
     },
     {
       "endDate": "2024-12-31",

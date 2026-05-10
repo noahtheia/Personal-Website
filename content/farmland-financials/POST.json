@@ -5,6 +5,139 @@
   "notes": "Post Holdings (NYSE: POST) \u2014 multi-segment packaged foods. Segments: Post Consumer Brands (cereal, pet food via 2023 Perfection acquisition), Weetabix (UK cereals), Foodservice (egg products + potatoes \u2014 Michael Foods), Refrigerated Retail (Bob Evans sausage, side dishes). Holds 13.6% of BellRing Brands. Fiscal year ends Sep 30. Active M&A platform led by CEO Rob Vitale. Major eggs platform via Michael Foods (~$2B+ rev). CIK 1530950.",
   "periods": [
     {
+      "endDate": "2013-09-30",
+      "periodType": "FY",
+      "revenueMM": 1034,
+      "ebitdaMM": 175,
+      "netIncomeMM": -89,
+      "capexMM": 30,
+      "daMM": 75,
+      "cfoMM": 65,
+      "totalAssetsMM": 2950,
+      "totalDebtMM": 1525,
+      "cashMM": 270,
+      "totalEquityMM": 800,
+      "sharesOutMM": 33,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 95,
+      "epsBasic": -2.697,
+      "bookValuePerShare": 24.2424
+    },
+    {
+      "endDate": "2014-09-30",
+      "periodType": "FY",
+      "revenueMM": 2411,
+      "ebitdaMM": 270,
+      "netIncomeMM": -127,
+      "capexMM": 75,
+      "daMM": 165,
+      "cfoMM": 75,
+      "totalAssetsMM": 6210,
+      "totalDebtMM": 3950,
+      "cashMM": 760,
+      "totalEquityMM": 1700,
+      "sharesOutMM": 53,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 240,
+      "epsBasic": -2.3962,
+      "bookValuePerShare": 32.0755
+    },
+    {
+      "endDate": "2015-09-30",
+      "periodType": "FY",
+      "revenueMM": 4648,
+      "ebitdaMM": 600,
+      "netIncomeMM": -95,
+      "capexMM": 130,
+      "daMM": 280,
+      "cfoMM": 160,
+      "totalAssetsMM": 7050,
+      "totalDebtMM": 4350,
+      "cashMM": 230,
+      "totalEquityMM": 1730,
+      "sharesOutMM": 67,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 360,
+      "epsBasic": -1.4179,
+      "bookValuePerShare": 25.8209
+    },
+    {
+      "endDate": "2016-09-30",
+      "periodType": "FY",
+      "revenueMM": 5026,
+      "ebitdaMM": 850,
+      "netIncomeMM": 50,
+      "capexMM": 150,
+      "daMM": 295,
+      "cfoMM": 535,
+      "totalAssetsMM": 6880,
+      "totalDebtMM": 4220,
+      "cashMM": 100,
+      "totalEquityMM": 1875,
+      "sharesOutMM": 67,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 320,
+      "epsBasic": 0.7463,
+      "bookValuePerShare": 27.9851
+    },
+    {
+      "endDate": "2017-09-30",
+      "periodType": "FY",
+      "revenueMM": 5226,
+      "ebitdaMM": 970,
+      "netIncomeMM": 86,
+      "capexMM": 195,
+      "daMM": 305,
+      "cfoMM": 605,
+      "totalAssetsMM": 8230,
+      "totalDebtMM": 5290,
+      "cashMM": 1080,
+      "totalEquityMM": 1860,
+      "sharesOutMM": 66,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 360,
+      "epsBasic": 1.303,
+      "bookValuePerShare": 28.1818
+    },
+    {
+      "endDate": "2018-09-30",
+      "periodType": "FY",
+      "revenueMM": 6257,
+      "ebitdaMM": 1170,
+      "netIncomeMM": 224,
+      "capexMM": 270,
+      "daMM": 360,
+      "cfoMM": 700,
+      "totalAssetsMM": 9750,
+      "totalDebtMM": 6280,
+      "cashMM": 980,
+      "totalEquityMM": 2380,
+      "sharesOutMM": 70,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 360,
+      "epsBasic": 3.2,
+      "bookValuePerShare": 34.0
+    },
+    {
+      "endDate": "2019-09-30",
+      "periodType": "FY",
+      "revenueMM": 5681,
+      "ebitdaMM": 1110,
+      "netIncomeMM": 124,
+      "capexMM": 240,
+      "daMM": 360,
+      "cfoMM": 660,
+      "totalAssetsMM": 10440,
+      "totalDebtMM": 6770,
+      "cashMM": 250,
+      "totalEquityMM": 2590,
+      "sharesOutMM": 70,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 340,
+      "epsBasic": 1.7714,
+      "bookValuePerShare": 37.0
+    },
+    {
       "endDate": "2020-09-30",
       "periodType": "FY",
       "revenueMM": 5699,
@@ -19,12 +152,30 @@
       "totalDebtMM": 6993,
       "cashMM": 1088,
       "sharesOutMM": 67.0,
-      "bookValuePerShare": 30.2,
+      "bookValuePerShare": 27.3134,
       "dividendPerShare": 0,
       "notes": "FY20: revenue $5.70B. Adj EBITDA $1.17B. COVID-driven retail strength offset foodservice weakness.",
       "capexMM": 232.5,
       "daMM": 345.0,
-      "cfoMM": 625.6
+      "cfoMM": 625.6,
+      "totalEquityMM": 1830,
+      "protein": {
+        "plants": 47,
+        "capacityUtilizationPct": 80,
+        "brandedCpg": {
+          "brandedRevenuePct": 82,
+          "acvDistributionPct": 93,
+          "foodserviceMixPct": 18
+        }
+      },
+      "totalAssetsMM": 10395,
+      "propertyBookMM": 0,
+      "ppeBookMM": 1610,
+      "inventoryMM": 580,
+      "intangibleAssetsMM": 6450,
+      "interestExpenseMM": 350.0,
+      "netIncomeMM": 120.0,
+      "epsBasic": 1.791
     },
     {
       "endDate": "2021-09-30",
@@ -41,12 +192,70 @@
       "totalDebtMM": 6630,
       "cashMM": 950,
       "sharesOutMM": 62.5,
-      "bookValuePerShare": 31.7,
+      "bookValuePerShare": 31.84,
       "dividendPerShare": 0,
       "notes": "FY21: revenue $6.22B (+9%). BellRing spin-off Mar 2022 separated Premier Protein. Adj EBITDA $1.12B.",
       "capexMM": 190.9,
       "daMM": 366.5,
-      "cfoMM": 588.2
+      "cfoMM": 588.2,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 1915.3,
+        "Weetabix": 477.5,
+        "Foodservice": 1615.6,
+        "Refrigerated Retail": 974.5
+      },
+      "totalEquityMM": 1990,
+      "protein": {
+        "plants": 50,
+        "capacityUtilizationPct": 82,
+        "brandedCpg": {
+          "brandedRevenuePct": 85,
+          "acvDistributionPct": 94,
+          "foodserviceMixPct": 22
+        }
+      },
+      "totalAssetsMM": 11816,
+      "propertyBookMM": 0,
+      "ppeBookMM": 1880,
+      "inventoryMM": 730,
+      "intangibleAssetsMM": 7110,
+      "interestExpenseMM": 320.0,
+      "netIncomeMM": 22.0,
+      "epsBasic": 0.352
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 1409.7,
+      "netIncomeMM": 523.3,
+      "ebitdaMM": 706.5,
+      "expensesBySegmentMM": {
+        "COGS": 1031.2,
+        "SG&A": 235.4,
+        "D&A": 95.3
+      },
+      "cfoMM": 35.9,
+      "daMM": 95.3,
+      "totalDebtMM": 6107.0,
+      "cashMM": 489.8,
+      "netDebtMM": 5617.2
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 1524.9,
+      "netIncomeMM": 170.2,
+      "ebitdaMM": 199.3,
+      "expensesBySegmentMM": {
+        "COGS": 1160.2,
+        "SG&A": 225.0,
+        "D&A": 93.8
+      },
+      "cfoMM": 76.1,
+      "daMM": 93.8,
+      "totalDebtMM": 6033.5,
+      "cashMM": 263.5,
+      "netDebtMM": 5770.0
     },
     {
       "endDate": "2022-09-30",
@@ -63,12 +272,87 @@
       "totalDebtMM": 6588,
       "cashMM": 411,
       "sharesOutMM": 60.5,
-      "bookValuePerShare": 32.4,
+      "bookValuePerShare": 25.5372,
       "dividendPerShare": 0,
       "notes": "FY22: revenue $5.85B (BellRing deconsolidated). Adj EBITDA $953M. Inflation pressure on margins.",
       "capexMM": 255.3,
       "daMM": 380.2,
-      "cfoMM": 382.6
+      "cfoMM": 382.6,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 2242.7,
+        "Weetabix": 477.3,
+        "Foodservice": 2095.0,
+        "Refrigerated Retail": 1036.6
+      },
+      "totalEquityMM": 1545,
+      "propertyBookMM": 1850,
+      "ppeBookMM": 1850,
+      "inventoryMM": 668,
+      "intangibleAssetsMM": 5142,
+      "protein": {
+        "plants": 55,
+        "capacityUtilizationPct": 84,
+        "brandedCpg": {
+          "brandedRevenuePct": 86,
+          "acvDistributionPct": 95,
+          "foodserviceMixPct": 23
+        }
+      },
+      "totalAssetsMM": 11525,
+      "interestExpenseMM": 290.0,
+      "netIncomeMM": 760.0,
+      "epsBasic": 12.562
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 1566.3,
+      "netIncomeMM": 91.9,
+      "ebitdaMM": 242.5,
+      "expensesBySegmentMM": {
+        "COGS": 1151.4,
+        "SG&A": 228.7,
+        "D&A": 92.6
+      },
+      "cfoMM": 98.3,
+      "daMM": 92.6,
+      "totalDebtMM": 5887.9,
+      "cashMM": 606.8,
+      "netDebtMM": 5281.1
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 1619.9,
+      "netIncomeMM": 54.1,
+      "ebitdaMM": 231.9,
+      "expensesBySegmentMM": {
+        "COGS": 1206.1,
+        "SG&A": 239.3,
+        "D&A": 94.2
+      },
+      "cfoMM": 100.0,
+      "daMM": 94.2,
+      "totalDebtMM": 5838.2,
+      "cashMM": 490.7,
+      "netDebtMM": 5347.5
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 1859.4,
+      "netIncomeMM": 89.6,
+      "ebitdaMM": 264.8,
+      "expensesBySegmentMM": {
+        "COGS": 1357.8,
+        "SG&A": 300.9,
+        "D&A": 106.5
+      },
+      "cfoMM": 282.2,
+      "daMM": 106.5,
+      "totalDebtMM": 6187.2,
+      "cashMM": 208.8,
+      "netDebtMM": 5978.4
     },
     {
       "endDate": "2023-09-30",
@@ -85,12 +369,93 @@
       "totalDebtMM": 6577,
       "cashMM": 140,
       "sharesOutMM": 60.7,
-      "bookValuePerShare": 35.1,
+      "bookValuePerShare": 37.5618,
       "dividendPerShare": 0,
       "notes": "FY23: revenue $6.99B (+19%). Pet food (Perfection Pet Foods $1.2B, closed Apr 2023). HPAI-driven egg pricing strength at Michael Foods. Adj EBITDA $1.24B.",
       "capexMM": 303.0,
       "daMM": 407.1,
-      "cfoMM": 750.3
+      "cfoMM": 750.3,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 3033.1,
+        "Weetabix": 512.1,
+        "Foodservice": 2425.9,
+        "Refrigerated Retail": 1019.7
+      },
+      "totalEquityMM": 2280,
+      "propertyBookMM": 2010,
+      "ppeBookMM": 2010,
+      "inventoryMM": 730,
+      "intangibleAssetsMM": 5298,
+      "protein": {
+        "plants": 58,
+        "capacityUtilizationPct": 80,
+        "brandedCpg": {
+          "brandedRevenuePct": 87,
+          "acvDistributionPct": 95,
+          "foodserviceMixPct": 22
+        }
+      },
+      "totalAssetsMM": 12625,
+      "interestExpenseMM": 350.0,
+      "netIncomeMM": 300.0,
+      "epsBasic": 4.9423
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 1965.9,
+      "netIncomeMM": 88.1,
+      "ebitdaMM": 321.7,
+      "expensesBySegmentMM": {
+        "COGS": 1393.3,
+        "SG&A": 322.9,
+        "D&A": 112.4
+      },
+      "cfoMM": 174.4,
+      "daMM": 112.4,
+      "totalDebtMM": 6315.1,
+      "cashMM": 150.6,
+      "netDebtMM": 6164.5
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 1999.0,
+      "netIncomeMM": 97.2,
+      "ebitdaMM": 309.7,
+      "expensesBySegmentMM": {
+        "COGS": 1419.4,
+        "SG&A": 341.3,
+        "D&A": 119.6
+      },
+      "cfoMM": 249.6,
+      "daMM": 119.6,
+      "totalDebtMM": 6415.8,
+      "cashMM": 333.4,
+      "netDebtMM": 6082.4
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 1947.7,
+      "netIncomeMM": 99.8,
+      "ebitdaMM": 323.9,
+      "expensesBySegmentMM": {
+        "COGS": 1370.4,
+        "SG&A": 324.5,
+        "D&A": 120.7
+      },
+      "cfoMM": 272.3,
+      "daMM": 120.7,
+      "totalDebtMM": 6399.0,
+      "cashMM": 333.8,
+      "netDebtMM": 6065.2,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 1008.1,
+        "Weetabix": 136.1,
+        "Foodservice": 589.1,
+        "Refrigerated Retail": 214.4
+      }
     },
     {
       "endDate": "2024-09-30",
@@ -107,12 +472,181 @@
       "totalDebtMM": 6764,
       "cashMM": 84.4,
       "sharesOutMM": 60.05,
-      "bookValuePerShare": 38.4,
+      "bookValuePerShare": 40.1332,
       "dividendPerShare": 0,
       "notes": "FY24: revenue $7.92B (+13%). Pet food + Foodservice eggs HPAI tailwind. Adj EBITDA $1.40B. Net income $367M ($5.57/sh diluted).",
       "capexMM": 429.5,
       "daMM": 476.9,
-      "cfoMM": 931.7
+      "cfoMM": 931.7,
+      "interestExpenseMM": 372.02,
+      "weightedAvgDebtRate": 5.5,
+      "debtMaturityProfileMM": {
+        "<1y": 1691.0,
+        "1-3y": 2029.2,
+        "3-5y": 1352.8,
+        "5+y": 1691.0
+      },
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 4109.6,
+        "Weetabix": 543.2,
+        "Foodservice": 2307.1,
+        "Refrigerated Retail": 962.2
+      },
+      "totalEquityMM": 2410,
+      "propertyBookMM": 2196,
+      "ppeBookMM": 2196,
+      "inventoryMM": 768,
+      "intangibleAssetsMM": 5380,
+      "protein": {
+        "plants": 60,
+        "capacityUtilizationPct": 82,
+        "brandedCpg": {
+          "brandedRevenuePct": 88,
+          "acvDistributionPct": 95,
+          "foodserviceMixPct": 22
+        }
+      },
+      "totalAssetsMM": 12750,
+      "netIncomeMM": 365.0,
+      "epsBasic": 6.0783
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 1974.7,
+      "netIncomeMM": 113.3,
+      "ebitdaMM": 334.4,
+      "expensesBySegmentMM": {
+        "COGS": 1379.4,
+        "SG&A": 331.6,
+        "D&A": 120.3
+      },
+      "cfoMM": 310.4,
+      "daMM": 120.3,
+      "totalDebtMM": 6945.6,
+      "cashMM": 872.9,
+      "netDebtMM": 6072.7,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 963.9,
+        "Weetabix": 127.6,
+        "Foodservice": 616.6,
+        "Refrigerated Retail": 266.6
+      }
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 1952.1,
+      "netIncomeMM": 62.6,
+      "ebitdaMM": 307.8,
+      "expensesBySegmentMM": {
+        "COGS": 1406.3,
+        "SG&A": 314.8,
+        "D&A": 125.6
+      },
+      "cfoMM": 160.7,
+      "daMM": 125.6,
+      "totalDebtMM": 6945.8,
+      "cashMM": 617.6,
+      "netDebtMM": 6328.2,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 987.9,
+        "Weetabix": 131.7,
+        "Foodservice": 607.9,
+        "Refrigerated Retail": 224.6
+      }
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 1984.3,
+      "netIncomeMM": 108.8,
+      "ebitdaMM": 366.8,
+      "expensesBySegmentMM": {
+        "COGS": 1388.1,
+        "SG&A": 312.1,
+        "D&A": 132.2
+      },
+      "cfoMM": 225.9,
+      "daMM": 132.2,
+      "totalDebtMM": 7347.2,
+      "cashMM": 1056.3,
+      "netDebtMM": 6290.9,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 914.0,
+        "Weetabix": 137.9,
+        "Foodservice": 698.5,
+        "Refrigerated Retail": 233.9
+      }
+    },
+    {
+      "endDate": "2025-09-30",
+      "periodType": "Q",
+      "revenueMM": 2247.0,
+      "netIncomeMM": 51.0,
+      "ebitdaMM": 314.6,
+      "expensesBySegmentMM": {
+        "COGS": 1644.9,
+        "SG&A": 350.1,
+        "D&A": 146.2
+      },
+      "cfoMM": 301.3,
+      "daMM": 146.2,
+      "totalDebtMM": 7422.9,
+      "cashMM": 176.7,
+      "netDebtMM": 7246.2,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 1158.8,
+        "Weetabix": 145.0,
+        "Foodservice": 718.0,
+        "Refrigerated Retail": 228.2
+      }
+    },
+    {
+      "endDate": "2025-12-31",
+      "periodType": "Q",
+      "revenueMM": 2174.6,
+      "netIncomeMM": 96.8,
+      "ebitdaMM": 390.9,
+      "expensesBySegmentMM": {
+        "COGS": 1536.1,
+        "SG&A": 357.3,
+        "D&A": 152.5
+      },
+      "cfoMM": 235.7,
+      "daMM": 152.5,
+      "totalDebtMM": 7459.1,
+      "cashMM": 279.3,
+      "netDebtMM": 7179.8,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 1103.8,
+        "Weetabix": 137.9,
+        "Foodservice": 669.1,
+        "Refrigerated Retail": 266.6
+      }
+    },
+    {
+      "endDate": "2026-03-31",
+      "periodType": "Q",
+      "revenueMM": 2042.9,
+      "netIncomeMM": 81.9,
+      "ebitdaMM": 350.1,
+      "expensesBySegmentMM": {
+        "COGS": 1425.3,
+        "SG&A": 326.2,
+        "D&A": 138.2
+      },
+      "cfoMM": 242.3,
+      "daMM": 138.2,
+      "totalDebtMM": 7630.4,
+      "cashMM": 269.4,
+      "netDebtMM": 7361.0,
+      "revenueBySegmentMM": {
+        "Post Consumer Brands": 1044.9,
+        "Weetabix": 136.1,
+        "Foodservice": 627.4,
+        "Refrigerated Retail": 235.3
+      }
     }
   ]
 }

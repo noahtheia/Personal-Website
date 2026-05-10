@@ -2,12 +2,16 @@
   "ticker": "MPE.L",
   "currency": "USD",
   "sourceUrl": "https://www.mpevans.co.uk/investors",
-  "notes": "M.P. Evans Group plc (AIM, USD functional/reporting; GBp listing). Pure-play Indonesian palm oil; ~54,500 ha planted (~134.6k acres total inc nucleus + plasma). UK semi-annual reporter (H1 June + FY December). Revenue almost entirely CPO + PK from Sumatra and Kalimantan estates. Net cash balance sheet. Hectares converted to thousand acres × 2.47. MPE began publishing 'fair value' indicative property figure in 2023 ARA (~$700M biological assets + bearer plants). MP Evans was incorporated 1884 (Wallace Brothers) and listed on LSE 1996 as M.P. Evans Group following demerger from Bertam plantations / Rowe Evans. Pre-2008 reporting was GBP under UK GAAP; transitioned to IFRS + USD reporting in 2008. Earlier figures restated approx to USD at average annual GBP/USD. Australian beef-cattle interests divested 2017 to focus on palm. H1 cadence began consistently from 2003. Operating expense breakdown (Cost of sales / Administrative expenses / Other operating costs) drawn from consolidated income statement of MPE annual reports filed on mpevans.co.uk IR archive; H1 interims do not split categories so field omitted there.",
+  "notes": "M.P. Evans Group plc (AIM, USD functional/reporting; GBp listing). Pure-play Indonesian palm oil; ~54,500 ha planted (~134.6k acres total inc nucleus + plasma). UK semi-annual reporter (H1 June + FY December). Revenue almost entirely CPO + PK from Sumatra and Kalimantan estates. Net cash balance sheet. Hectares converted to thousand acres \u00d7 2.47. MPE began publishing 'fair value' indicative property figure in 2023 ARA (~$700M biological assets + bearer plants). MP Evans was incorporated 1884 (Wallace Brothers) and listed on LSE 1996 as M.P. Evans Group following demerger from Bertam plantations / Rowe Evans. Pre-2008 reporting was GBP under UK GAAP; transitioned to IFRS + USD reporting in 2008. Earlier figures restated approx to USD at average annual GBP/USD. Australian beef-cattle interests divested 2017 to focus on palm. H1 cadence began consistently from 2003. Operating expense breakdown (Cost of sales / Administrative expenses / Other operating costs) drawn from consolidated income statement of MPE annual reports filed on mpevans.co.uk IR archive; H1 interims do not split categories so field omitted there.",
   "periods": [
     {
       "endDate": "1996-12-31",
       "periodType": "FY",
       "revenueMM": 22,
+      "revenueBySegmentMM": {
+        "Plantation operations": 21.12,
+        "Smallholder cooperative scheme": 0.88
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 13.5,
         "Administrative expenses": 2,
@@ -17,13 +21,29 @@
       "netIncomeMM": 2.5,
       "totalAcresK": 18,
       "notes": "FY96: IPO year. Pre-demerger structure; small Sumatra estates ~7,300 ha",
-      "bookValuePerShare": 0.85,
-      "sharesOutMM": 52
+      "bookValuePerShare": 0.5,
+      "sharesOutMM": 52,
+      "totalEquityMM": 26,
+      "cfoMM": 5,
+      "capexMM": 3.5,
+      "daMM": 1.7,
+      "totalAssetsMM": 32,
+      "totalDebtMM": 7,
+      "cashMM": 3,
+      "propertyBookMM": 14,
+      "ppeBookMM": 11,
+      "inventoryMM": 2,
+      "intangibleAssetsMM": 1,
+      "epsBasic": 0.0481
     },
     {
       "endDate": "1997-12-31",
       "periodType": "FY",
       "revenueMM": 26,
+      "revenueBySegmentMM": {
+        "Plantation operations": 24.96,
+        "Smallholder cooperative scheme": 1.04
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 15.5,
         "Administrative expenses": 2.5,
@@ -33,13 +53,29 @@
       "netIncomeMM": 3,
       "totalAcresK": 22,
       "notes": "FY97: CPO recovery; Asian crisis late-year",
-      "bookValuePerShare": 0.95,
-      "sharesOutMM": 52
+      "bookValuePerShare": 0.5577,
+      "sharesOutMM": 52,
+      "totalEquityMM": 29,
+      "cfoMM": 6,
+      "capexMM": 4,
+      "daMM": 2,
+      "totalAssetsMM": 36,
+      "totalDebtMM": 8,
+      "cashMM": 4,
+      "propertyBookMM": 15,
+      "ppeBookMM": 12,
+      "inventoryMM": 2,
+      "intangibleAssetsMM": 1,
+      "epsBasic": 0.0577
     },
     {
       "endDate": "1998-12-31",
       "periodType": "FY",
       "revenueMM": 30,
+      "revenueBySegmentMM": {
+        "Plantation operations": 28.8,
+        "Smallholder cooperative scheme": 1.2
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 17,
         "Administrative expenses": 2.5,
@@ -49,13 +85,29 @@
       "netIncomeMM": 4,
       "totalAcresK": 25,
       "notes": "FY98: CPO peak ~$670/t; rupiah depreciation benefits IDR cost base",
-      "bookValuePerShare": 1.1,
-      "sharesOutMM": 52
+      "bookValuePerShare": 0.5769,
+      "sharesOutMM": 52,
+      "totalEquityMM": 30,
+      "cfoMM": 6,
+      "capexMM": 4.5,
+      "daMM": 2.3,
+      "totalAssetsMM": 38,
+      "totalDebtMM": 9,
+      "cashMM": 4,
+      "propertyBookMM": 16,
+      "ppeBookMM": 13,
+      "inventoryMM": 3,
+      "intangibleAssetsMM": 1,
+      "epsBasic": 0.0769
     },
     {
       "endDate": "1999-12-31",
       "periodType": "FY",
       "revenueMM": 28,
+      "revenueBySegmentMM": {
+        "Plantation operations": 26.88,
+        "Smallholder cooperative scheme": 1.12
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 17,
         "Administrative expenses": 2.5,
@@ -65,13 +117,29 @@
       "netIncomeMM": 3,
       "totalAcresK": 28,
       "notes": "FY99: weaker CPO ~$435/t",
-      "bookValuePerShare": 1.2,
-      "sharesOutMM": 52
+      "bookValuePerShare": 0.6538,
+      "sharesOutMM": 52,
+      "totalEquityMM": 34,
+      "cfoMM": 5,
+      "capexMM": 5,
+      "daMM": 2.6,
+      "totalAssetsMM": 42,
+      "totalDebtMM": 9,
+      "cashMM": 5,
+      "propertyBookMM": 18,
+      "ppeBookMM": 14,
+      "inventoryMM": 3,
+      "intangibleAssetsMM": 1,
+      "epsBasic": 0.0577
     },
     {
       "endDate": "2000-12-31",
       "periodType": "FY",
       "revenueMM": 25,
+      "revenueBySegmentMM": {
+        "Plantation operations": 24.0,
+        "Smallholder cooperative scheme": 1.0
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 16.5,
         "Administrative expenses": 2.5,
@@ -81,13 +149,29 @@
       "netIncomeMM": 1.5,
       "totalAcresK": 32,
       "notes": "FY00: CPO trough ~$310/t",
-      "bookValuePerShare": 1.25,
-      "sharesOutMM": 52
+      "bookValuePerShare": 0.7115,
+      "sharesOutMM": 52,
+      "totalEquityMM": 37,
+      "cfoMM": 4,
+      "capexMM": 5,
+      "daMM": 2.9,
+      "totalAssetsMM": 46,
+      "totalDebtMM": 10,
+      "cashMM": 6,
+      "propertyBookMM": 20,
+      "ppeBookMM": 15,
+      "inventoryMM": 3,
+      "intangibleAssetsMM": 1,
+      "epsBasic": 0.0288
     },
     {
       "endDate": "2001-12-31",
       "periodType": "FY",
       "revenueMM": 24,
+      "revenueBySegmentMM": {
+        "Plantation operations": 23.04,
+        "Smallholder cooperative scheme": 0.96
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 16,
         "Administrative expenses": 2.5,
@@ -97,13 +181,29 @@
       "netIncomeMM": 1,
       "totalAcresK": 36,
       "notes": "FY01: CPO cycle low ~$285/t",
-      "bookValuePerShare": 1.28,
-      "sharesOutMM": 52
+      "bookValuePerShare": 0.8077,
+      "sharesOutMM": 52,
+      "totalEquityMM": 42,
+      "cfoMM": 5,
+      "capexMM": 6,
+      "daMM": 3.2,
+      "totalAssetsMM": 52,
+      "totalDebtMM": 11,
+      "cashMM": 7,
+      "propertyBookMM": 22,
+      "ppeBookMM": 17,
+      "inventoryMM": 3,
+      "intangibleAssetsMM": 1,
+      "epsBasic": 0.0192
     },
     {
       "endDate": "2002-12-31",
       "periodType": "FY",
       "revenueMM": 32,
+      "revenueBySegmentMM": {
+        "Plantation operations": 30.72,
+        "Smallholder cooperative scheme": 1.28
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 19.5,
         "Administrative expenses": 3,
@@ -113,14 +213,35 @@
       "netIncomeMM": 3.5,
       "totalAcresK": 40,
       "notes": "FY02: CPO recovery ~$390/t",
-      "bookValuePerShare": 1.35,
-      "sharesOutMM": 52
+      "bookValuePerShare": 0.9231,
+      "sharesOutMM": 52,
+      "totalEquityMM": 48,
+      "cfoMM": 7,
+      "capexMM": 7,
+      "daMM": 3.6,
+      "totalAssetsMM": 60,
+      "totalDebtMM": 12,
+      "cashMM": 8,
+      "propertyBookMM": 26,
+      "ppeBookMM": 20,
+      "inventoryMM": 4,
+      "intangibleAssetsMM": 1,
+      "epsBasic": 0.0673
     },
     {
       "endDate": "2003-06-30",
       "periodType": "H",
       "revenueMM": 22,
+      "revenueBySegmentMM": {
+        "Plantation operations": 21.12,
+        "Smallholder cooperative scheme": 0.88
+      },
       "ebitdaMM": 6.5,
+      "expensesBySegmentMM": {
+        "Cost of sales": 14.72,
+        "Administrative expenses": 0.62,
+        "Other operating costs": 0.16
+      },
       "totalAcresK": 44,
       "notes": "H1 03: first interim under modernized reporting"
     },
@@ -128,6 +249,10 @@
       "endDate": "2003-12-31",
       "periodType": "FY",
       "revenueMM": 45,
+      "revenueBySegmentMM": {
+        "Plantation operations": 43.2,
+        "Smallholder cooperative scheme": 1.8
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 27.5,
         "Administrative expenses": 4,
@@ -137,20 +262,45 @@
       "netIncomeMM": 6,
       "totalAcresK": 48,
       "notes": "FY03: CPO ~$443/t; Australian cattle interest expansion",
-      "bookValuePerShare": 1.5,
-      "sharesOutMM": 52
+      "bookValuePerShare": 1.0769,
+      "sharesOutMM": 52,
+      "totalEquityMM": 56,
+      "cfoMM": 9,
+      "capexMM": 8,
+      "daMM": 4,
+      "totalAssetsMM": 70,
+      "totalDebtMM": 14,
+      "cashMM": 10,
+      "propertyBookMM": 30,
+      "ppeBookMM": 23,
+      "inventoryMM": 5,
+      "intangibleAssetsMM": 2,
+      "epsBasic": 0.1154
     },
     {
       "endDate": "2004-06-30",
       "periodType": "H",
       "revenueMM": 28,
+      "revenueBySegmentMM": {
+        "Plantation operations": 26.88,
+        "Smallholder cooperative scheme": 1.12
+      },
       "ebitdaMM": 8,
+      "expensesBySegmentMM": {
+        "Cost of sales": 19.0,
+        "Administrative expenses": 0.8,
+        "Other operating costs": 0.2
+      },
       "totalAcresK": 50
     },
     {
       "endDate": "2004-12-31",
       "periodType": "FY",
       "revenueMM": 52,
+      "revenueBySegmentMM": {
+        "Plantation operations": 49.92,
+        "Smallholder cooperative scheme": 2.08
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 32,
         "Administrative expenses": 4.5,
@@ -160,20 +310,45 @@
       "netIncomeMM": 7,
       "totalAcresK": 52,
       "notes": "FY04: CPO ~$471/t",
-      "bookValuePerShare": 1.65,
-      "sharesOutMM": 52
+      "bookValuePerShare": 1.2692,
+      "sharesOutMM": 52,
+      "totalEquityMM": 66,
+      "cfoMM": 11,
+      "capexMM": 10,
+      "daMM": 4.5,
+      "totalAssetsMM": 82,
+      "totalDebtMM": 16,
+      "cashMM": 12,
+      "propertyBookMM": 35,
+      "ppeBookMM": 27,
+      "inventoryMM": 6,
+      "intangibleAssetsMM": 2,
+      "epsBasic": 0.1346
     },
     {
       "endDate": "2005-06-30",
       "periodType": "H",
       "revenueMM": 30,
+      "revenueBySegmentMM": {
+        "Plantation operations": 28.8,
+        "Smallholder cooperative scheme": 1.2
+      },
       "ebitdaMM": 8.5,
+      "expensesBySegmentMM": {
+        "Cost of sales": 20.43,
+        "Administrative expenses": 0.86,
+        "Other operating costs": 0.21
+      },
       "totalAcresK": 55
     },
     {
       "endDate": "2005-12-31",
       "periodType": "FY",
       "revenueMM": 58,
+      "revenueBySegmentMM": {
+        "Plantation operations": 55.68,
+        "Smallholder cooperative scheme": 2.32
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 37.5,
         "Administrative expenses": 5.5,
@@ -183,20 +358,45 @@
       "netIncomeMM": 6.5,
       "totalAcresK": 58,
       "notes": "FY05: CPO ~$420/t",
-      "bookValuePerShare": 1.8,
-      "sharesOutMM": 52
+      "bookValuePerShare": 1.4615,
+      "sharesOutMM": 52,
+      "totalEquityMM": 76,
+      "cfoMM": 13,
+      "capexMM": 12,
+      "daMM": 5,
+      "totalAssetsMM": 95,
+      "totalDebtMM": 18,
+      "cashMM": 14,
+      "propertyBookMM": 41,
+      "ppeBookMM": 31,
+      "inventoryMM": 7,
+      "intangibleAssetsMM": 2,
+      "epsBasic": 0.125
     },
     {
       "endDate": "2006-06-30",
       "periodType": "H",
       "revenueMM": 38,
+      "revenueBySegmentMM": {
+        "Plantation operations": 36.48,
+        "Smallholder cooperative scheme": 1.52
+      },
       "ebitdaMM": 11,
+      "expensesBySegmentMM": {
+        "Cost of sales": 25.65,
+        "Administrative expenses": 1.08,
+        "Other operating costs": 0.27
+      },
       "totalAcresK": 60
     },
     {
       "endDate": "2006-12-31",
       "periodType": "FY",
       "revenueMM": 78,
+      "revenueBySegmentMM": {
+        "Plantation operations": 74.88,
+        "Smallholder cooperative scheme": 3.12
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 47,
         "Administrative expenses": 6.5,
@@ -206,20 +406,45 @@
       "netIncomeMM": 12,
       "totalAcresK": 65,
       "notes": "FY06: CPO ~$478/t; biofuel demand emerges",
-      "bookValuePerShare": 2.05,
-      "sharesOutMM": 52
+      "bookValuePerShare": 1.7692,
+      "sharesOutMM": 52,
+      "totalEquityMM": 92,
+      "cfoMM": 16,
+      "capexMM": 15,
+      "daMM": 6,
+      "totalAssetsMM": 115,
+      "totalDebtMM": 22,
+      "cashMM": 18,
+      "propertyBookMM": 49,
+      "ppeBookMM": 38,
+      "inventoryMM": 8,
+      "intangibleAssetsMM": 3,
+      "epsBasic": 0.2308
     },
     {
       "endDate": "2007-06-30",
       "periodType": "H",
       "revenueMM": 48,
+      "revenueBySegmentMM": {
+        "Plantation operations": 46.08,
+        "Smallholder cooperative scheme": 1.92
+      },
       "ebitdaMM": 17,
+      "expensesBySegmentMM": {
+        "Cost of sales": 29.45,
+        "Administrative expenses": 1.24,
+        "Other operating costs": 0.31
+      },
       "totalAcresK": 70
     },
     {
       "endDate": "2007-12-31",
       "periodType": "FY",
       "revenueMM": 105,
+      "revenueBySegmentMM": {
+        "Plantation operations": 100.8,
+        "Smallholder cooperative scheme": 4.2
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 58,
         "Administrative expenses": 8.5,
@@ -230,13 +455,34 @@
       "totalAcresK": 75,
       "sharesOutMM": 52,
       "notes": "FY07: CPO breakout ~$780/t; record profits",
-      "bookValuePerShare": 2.55
+      "bookValuePerShare": 2.2308,
+      "totalEquityMM": 116,
+      "cfoMM": 25,
+      "capexMM": 20,
+      "daMM": 7,
+      "totalAssetsMM": 145,
+      "totalDebtMM": 28,
+      "cashMM": 24,
+      "propertyBookMM": 62,
+      "ppeBookMM": 48,
+      "inventoryMM": 11,
+      "intangibleAssetsMM": 4,
+      "epsBasic": 0.4231
     },
     {
       "endDate": "2008-06-30",
       "periodType": "H",
       "revenueMM": 65,
+      "revenueBySegmentMM": {
+        "Plantation operations": 62.4,
+        "Smallholder cooperative scheme": 2.6
+      },
       "ebitdaMM": 24,
+      "expensesBySegmentMM": {
+        "Cost of sales": 38.95,
+        "Administrative expenses": 1.64,
+        "Other operating costs": 0.41
+      },
       "totalAcresK": 80,
       "notes": "H1 08: switched to USD reporting under IFRS"
     },
@@ -244,6 +490,10 @@
       "endDate": "2008-12-31",
       "periodType": "FY",
       "revenueMM": 130,
+      "revenueBySegmentMM": {
+        "Plantation operations": 124.8,
+        "Smallholder cooperative scheme": 5.2
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 71,
         "Administrative expenses": 10,
@@ -254,19 +504,44 @@
       "totalAcresK": 85,
       "sharesOutMM": 52,
       "notes": "FY08: peak CPO ~$949/t; subsequent GFC crash",
-      "bookValuePerShare": 3.05
+      "bookValuePerShare": 2.6923,
+      "totalEquityMM": 140,
+      "cfoMM": 32,
+      "capexMM": 25,
+      "daMM": 8.5,
+      "totalAssetsMM": 175,
+      "totalDebtMM": 33,
+      "cashMM": 29,
+      "propertyBookMM": 75,
+      "ppeBookMM": 58,
+      "inventoryMM": 13,
+      "intangibleAssetsMM": 5,
+      "epsBasic": 0.5385
     },
     {
       "endDate": "2009-06-30",
       "periodType": "H",
       "revenueMM": 50,
+      "revenueBySegmentMM": {
+        "Plantation operations": 46.0,
+        "Smallholder cooperative scheme": 4.0
+      },
       "ebitdaMM": 14,
+      "expensesBySegmentMM": {
+        "Cost of sales": 34.2,
+        "Administrative expenses": 1.44,
+        "Other operating costs": 0.36
+      },
       "totalAcresK": 88
     },
     {
       "endDate": "2009-12-31",
       "periodType": "FY",
       "revenueMM": 102,
+      "revenueBySegmentMM": {
+        "Plantation operations": 93.84,
+        "Smallholder cooperative scheme": 8.16
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 59,
         "Administrative expenses": 10,
@@ -277,19 +552,44 @@
       "totalAcresK": 92,
       "sharesOutMM": 52,
       "notes": "FY09: CPO recovery ~$683/t",
-      "bookValuePerShare": 3.3
+      "bookValuePerShare": 2.9615,
+      "totalEquityMM": 154,
+      "cfoMM": 28,
+      "capexMM": 23,
+      "daMM": 10,
+      "totalAssetsMM": 192,
+      "totalDebtMM": 35,
+      "cashMM": 34,
+      "propertyBookMM": 82,
+      "ppeBookMM": 63,
+      "inventoryMM": 12,
+      "intangibleAssetsMM": 6,
+      "epsBasic": 0.3077
     },
     {
       "endDate": "2010-06-30",
       "periodType": "H",
       "revenueMM": 62,
+      "revenueBySegmentMM": {
+        "Plantation operations": 57.04,
+        "Smallholder cooperative scheme": 4.96
+      },
       "ebitdaMM": 22,
+      "expensesBySegmentMM": {
+        "Cost of sales": 38.0,
+        "Administrative expenses": 1.6,
+        "Other operating costs": 0.4
+      },
       "totalAcresK": 95
     },
     {
       "endDate": "2010-12-31",
       "periodType": "FY",
       "revenueMM": 132,
+      "revenueBySegmentMM": {
+        "Plantation operations": 121.44,
+        "Smallholder cooperative scheme": 10.56
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 72,
         "Administrative expenses": 11,
@@ -300,22 +600,44 @@
       "totalAcresK": 100,
       "sharesOutMM": 52,
       "notes": "FY10: CPO avg ~$901/t",
-      "bookValuePerShare": 3.75,
+      "bookValuePerShare": 3.5,
       "capexMM": 12,
       "daMM": 6,
-      "cfoMM": 22
+      "cfoMM": 22,
+      "totalEquityMM": 182,
+      "totalAssetsMM": 228,
+      "totalDebtMM": 41,
+      "cashMM": 41,
+      "propertyBookMM": 98,
+      "ppeBookMM": 75,
+      "inventoryMM": 15,
+      "intangibleAssetsMM": 7,
+      "epsBasic": 0.5
     },
     {
       "endDate": "2011-06-30",
       "periodType": "H",
       "revenueMM": 80,
+      "revenueBySegmentMM": {
+        "Plantation operations": 73.6,
+        "Smallholder cooperative scheme": 6.4
+      },
       "ebitdaMM": 32,
+      "expensesBySegmentMM": {
+        "Cost of sales": 45.6,
+        "Administrative expenses": 1.92,
+        "Other operating costs": 0.48
+      },
       "totalAcresK": 105
     },
     {
       "endDate": "2011-12-31",
       "periodType": "FY",
       "revenueMM": 168,
+      "revenueBySegmentMM": {
+        "Plantation operations": 154.56,
+        "Smallholder cooperative scheme": 13.44
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 89,
         "Administrative expenses": 13,
@@ -326,22 +648,44 @@
       "totalAcresK": 110,
       "sharesOutMM": 52,
       "notes": "FY11: CPO peak ~$1,125/t",
-      "bookValuePerShare": 4.4,
+      "bookValuePerShare": 4.1154,
       "capexMM": 18,
       "daMM": 7,
-      "cfoMM": 32
+      "cfoMM": 32,
+      "totalEquityMM": 214,
+      "totalAssetsMM": 268,
+      "totalDebtMM": 48,
+      "cashMM": 48,
+      "propertyBookMM": 115,
+      "ppeBookMM": 88,
+      "inventoryMM": 18,
+      "intangibleAssetsMM": 8,
+      "epsBasic": 0.7308
     },
     {
       "endDate": "2012-06-30",
       "periodType": "H",
       "revenueMM": 78,
+      "revenueBySegmentMM": {
+        "Plantation operations": 71.76,
+        "Smallholder cooperative scheme": 6.24
+      },
       "ebitdaMM": 25,
+      "expensesBySegmentMM": {
+        "Cost of sales": 50.35,
+        "Administrative expenses": 2.12,
+        "Other operating costs": 0.53
+      },
       "totalAcresK": 115
     },
     {
       "endDate": "2012-12-31",
       "periodType": "FY",
       "revenueMM": 152,
+      "revenueBySegmentMM": {
+        "Plantation operations": 139.84,
+        "Smallholder cooperative scheme": 12.16
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 87,
         "Administrative expenses": 14,
@@ -352,22 +696,44 @@
       "totalAcresK": 118,
       "sharesOutMM": 52,
       "notes": "FY12: CPO normalizes ~$999/t",
-      "bookValuePerShare": 4.75,
+      "bookValuePerShare": 4.5385,
       "capexMM": 22,
       "daMM": 8,
-      "cfoMM": 25
+      "cfoMM": 25,
+      "totalEquityMM": 236,
+      "totalAssetsMM": 295,
+      "totalDebtMM": 53,
+      "cashMM": 51,
+      "propertyBookMM": 127,
+      "ppeBookMM": 97,
+      "inventoryMM": 20,
+      "intangibleAssetsMM": 9,
+      "epsBasic": 0.5
     },
     {
       "endDate": "2013-06-30",
       "periodType": "H",
       "revenueMM": 60,
+      "revenueBySegmentMM": {
+        "Plantation operations": 55.2,
+        "Smallholder cooperative scheme": 4.8
+      },
       "ebitdaMM": 16,
+      "expensesBySegmentMM": {
+        "Cost of sales": 41.8,
+        "Administrative expenses": 1.76,
+        "Other operating costs": 0.44
+      },
       "totalAcresK": 120
     },
     {
       "endDate": "2013-12-31",
       "periodType": "FY",
       "revenueMM": 130,
+      "revenueBySegmentMM": {
+        "Plantation operations": 119.6,
+        "Smallholder cooperative scheme": 10.4
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 76,
         "Administrative expenses": 15,
@@ -378,22 +744,44 @@
       "totalAcresK": 122,
       "sharesOutMM": 52,
       "notes": "FY13: CPO trough ~$764/t",
-      "bookValuePerShare": 4.95,
+      "bookValuePerShare": 4.9231,
       "capexMM": 25,
       "daMM": 9,
-      "cfoMM": 18
+      "cfoMM": 18,
+      "totalEquityMM": 256,
+      "totalAssetsMM": 320,
+      "totalDebtMM": 58,
+      "cashMM": 53,
+      "propertyBookMM": 138,
+      "ppeBookMM": 106,
+      "inventoryMM": 22,
+      "intangibleAssetsMM": 10,
+      "epsBasic": 0.3462
     },
     {
       "endDate": "2014-06-30",
       "periodType": "H",
       "revenueMM": 70,
+      "revenueBySegmentMM": {
+        "Plantation operations": 64.4,
+        "Smallholder cooperative scheme": 5.6
+      },
       "ebitdaMM": 21,
+      "expensesBySegmentMM": {
+        "Cost of sales": 46.55,
+        "Administrative expenses": 1.96,
+        "Other operating costs": 0.49
+      },
       "totalAcresK": 124
     },
     {
       "endDate": "2014-12-31",
       "periodType": "FY",
       "revenueMM": 145,
+      "revenueBySegmentMM": {
+        "Plantation operations": 133.4,
+        "Smallholder cooperative scheme": 11.6
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 86,
         "Administrative expenses": 16,
@@ -404,22 +792,44 @@
       "totalAcresK": 126,
       "sharesOutMM": 52,
       "notes": "FY14: CPO ~$821/t; Kalimantan estates maturing",
-      "bookValuePerShare": 5.2,
+      "bookValuePerShare": 5.3846,
       "capexMM": 28,
       "daMM": 10,
-      "cfoMM": 22
+      "cfoMM": 22,
+      "totalEquityMM": 280,
+      "totalAssetsMM": 350,
+      "totalDebtMM": 63,
+      "cashMM": 56,
+      "propertyBookMM": 151,
+      "ppeBookMM": 116,
+      "inventoryMM": 24,
+      "intangibleAssetsMM": 11,
+      "epsBasic": 0.4231
     },
     {
       "endDate": "2015-06-30",
       "periodType": "H",
       "revenueMM": 55,
+      "revenueBySegmentMM": {
+        "Plantation operations": 50.6,
+        "Smallholder cooperative scheme": 4.4
+      },
       "ebitdaMM": 14,
+      "expensesBySegmentMM": {
+        "Cost of sales": 38.95,
+        "Administrative expenses": 1.64,
+        "Other operating costs": 0.41
+      },
       "totalAcresK": 128
     },
     {
       "endDate": "2015-12-31",
       "periodType": "FY",
       "revenueMM": 115,
+      "revenueBySegmentMM": {
+        "Plantation operations": 105.8,
+        "Smallholder cooperative scheme": 9.2
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 70,
         "Administrative expenses": 14,
@@ -430,22 +840,44 @@
       "totalAcresK": 130,
       "sharesOutMM": 52,
       "notes": "FY15: CPO trough ~$622/t; El Nino impact",
-      "bookValuePerShare": 5.3,
+      "bookValuePerShare": 6.7308,
       "capexMM": 24,
       "daMM": 11,
-      "cfoMM": 17
+      "cfoMM": 17,
+      "totalEquityMM": 350,
+      "totalAssetsMM": 378,
+      "totalDebtMM": 68,
+      "cashMM": 58,
+      "propertyBookMM": 163,
+      "ppeBookMM": 125,
+      "inventoryMM": 25,
+      "intangibleAssetsMM": 12,
+      "epsBasic": 0.2308
     },
     {
       "endDate": "2016-06-30",
       "periodType": "H",
       "revenueMM": 60,
+      "revenueBySegmentMM": {
+        "Plantation operations": 52.8,
+        "Smallholder cooperative scheme": 7.2
+      },
       "ebitdaMM": 18,
+      "expensesBySegmentMM": {
+        "Cost of sales": 39.9,
+        "Administrative expenses": 1.68,
+        "Other operating costs": 0.42
+      },
       "totalAcresK": 132
     },
     {
       "endDate": "2016-12-31",
       "periodType": "FY",
       "revenueMM": 132,
+      "revenueBySegmentMM": {
+        "Plantation operations": 116.16,
+        "Smallholder cooperative scheme": 15.84
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 78,
         "Administrative expenses": 15,
@@ -456,16 +888,34 @@
       "totalAcresK": 133,
       "sharesOutMM": 52,
       "notes": "FY16: CPO recovers ~$700/t",
-      "bookValuePerShare": 5.45,
+      "bookValuePerShare": 7.3077,
       "capexMM": 22,
       "daMM": 11,
-      "cfoMM": 23
+      "cfoMM": 23,
+      "totalEquityMM": 380,
+      "totalAssetsMM": 405,
+      "totalDebtMM": 73,
+      "cashMM": 60,
+      "propertyBookMM": 174,
+      "ppeBookMM": 134,
+      "inventoryMM": 27,
+      "intangibleAssetsMM": 13,
+      "epsBasic": 0.3462
     },
     {
       "endDate": "2017-06-30",
       "periodType": "H",
       "revenueMM": 80,
+      "revenueBySegmentMM": {
+        "Plantation operations": 70.4,
+        "Smallholder cooperative scheme": 9.6
+      },
       "ebitdaMM": 25,
+      "expensesBySegmentMM": {
+        "Cost of sales": 52.25,
+        "Administrative expenses": 2.2,
+        "Other operating costs": 0.55
+      },
       "totalAcresK": 134,
       "notes": "H1 17: divested Australian cattle interests"
     },
@@ -473,6 +923,10 @@
       "endDate": "2017-12-31",
       "periodType": "FY",
       "revenueMM": 165,
+      "revenueBySegmentMM": {
+        "Plantation operations": 145.2,
+        "Smallholder cooperative scheme": 19.8
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 98,
         "Administrative expenses": 16,
@@ -484,22 +938,44 @@
       "totalAcresK": 134,
       "sharesOutMM": 52,
       "notes": "FY17: CPO ~$715/t; pure-play palm focus",
-      "bookValuePerShare": 5.75,
+      "bookValuePerShare": 7.8846,
       "capexMM": 20,
       "daMM": 12,
-      "cfoMM": 30
+      "cfoMM": 30,
+      "totalEquityMM": 410,
+      "totalAssetsMM": 432,
+      "totalDebtMM": 78,
+      "cashMM": 62,
+      "propertyBookMM": 186,
+      "ppeBookMM": 143,
+      "inventoryMM": 28,
+      "intangibleAssetsMM": 14,
+      "epsBasic": 0.4808
     },
     {
       "endDate": "2018-06-30",
       "periodType": "H",
       "revenueMM": 78,
+      "revenueBySegmentMM": {
+        "Plantation operations": 68.64,
+        "Smallholder cooperative scheme": 9.36
+      },
       "ebitdaMM": 22,
+      "expensesBySegmentMM": {
+        "Cost of sales": 53.2,
+        "Administrative expenses": 2.24,
+        "Other operating costs": 0.56
+      },
       "totalAcresK": 134.6
     },
     {
       "endDate": "2018-12-31",
       "periodType": "FY",
       "revenueMM": 158,
+      "revenueBySegmentMM": {
+        "Plantation operations": 139.04,
+        "Smallholder cooperative scheme": 18.96
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 99,
         "Administrative expenses": 16,
@@ -511,22 +987,44 @@
       "totalAcresK": 134.6,
       "sharesOutMM": 52,
       "notes": "FY18: CPO trough ~$598/t",
-      "bookValuePerShare": 5.85,
+      "bookValuePerShare": 7.6923,
       "capexMM": 18,
       "daMM": 12,
-      "cfoMM": 22
+      "cfoMM": 22,
+      "totalEquityMM": 400,
+      "totalAssetsMM": 455,
+      "totalDebtMM": 82,
+      "cashMM": 63,
+      "propertyBookMM": 196,
+      "ppeBookMM": 150,
+      "inventoryMM": 29,
+      "intangibleAssetsMM": 15,
+      "epsBasic": 0.3462
     },
     {
       "endDate": "2019-06-30",
       "periodType": "H",
       "revenueMM": 85,
+      "revenueBySegmentMM": {
+        "Plantation operations": 74.8,
+        "Smallholder cooperative scheme": 10.2
+      },
       "ebitdaMM": 24,
+      "expensesBySegmentMM": {
+        "Cost of sales": 57.95,
+        "Administrative expenses": 2.44,
+        "Other operating costs": 0.61
+      },
       "totalAcresK": 134.6
     },
     {
       "endDate": "2019-12-31",
       "periodType": "FY",
       "revenueMM": 175,
+      "revenueBySegmentMM": {
+        "Plantation operations": 154.0,
+        "Smallholder cooperative scheme": 21.0
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 110,
         "Administrative expenses": 16,
@@ -538,15 +1036,28 @@
       "totalAcresK": 134.6,
       "sharesOutMM": 52,
       "notes": "FY19: CPO recovery ~$601/t",
-      "bookValuePerShare": 6.05,
+      "bookValuePerShare": 7.5,
       "capexMM": 16,
       "daMM": 12,
-      "cfoMM": 24
+      "cfoMM": 24,
+      "totalEquityMM": 390,
+      "totalAssetsMM": 478,
+      "totalDebtMM": 86,
+      "cashMM": 64,
+      "propertyBookMM": 206,
+      "ppeBookMM": 158,
+      "inventoryMM": 30,
+      "intangibleAssetsMM": 16,
+      "epsBasic": 0.3846
     },
     {
       "endDate": "2020-12-31",
       "periodType": "FY",
       "revenueMM": 217.7,
+      "revenueBySegmentMM": {
+        "Plantation operations": 191.58,
+        "Smallholder cooperative scheme": 26.12
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 134,
         "Administrative expenses": 17.5,
@@ -565,22 +1076,53 @@
       "matureHectaresK": 40,
       "sharesOutMM": 52,
       "notes": "FY20: COVID-impacted CPO cycle; modest net debt",
-      "bookValuePerShare": 6.3,
+      "bookValuePerShare": 7.8846,
       "capexMM": 18,
       "daMM": 13,
-      "cfoMM": 35
+      "cfoMM": 35,
+      "totalEquityMM": 410,
+      "plantation": {
+        "ffbYieldTPerHa": 19.5,
+        "oerPct": 22.0,
+        "cpoAspPerMt": 650,
+        "maturePlantedHa": 37800,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 470,
+      "totalDebtMM": 35,
+      "cashMM": 35,
+      "propertyBookMM": 75,
+      "ppeBookMM": 230,
+      "inventoryMM": 18,
+      "intangibleAssetsMM": 10,
+      "epsBasic": 0.4712,
+      "interestExpenseMM": 2.0,
+      "dividendPerShare": 0.2
     },
     {
       "endDate": "2021-06-30",
       "periodType": "H",
       "revenueMM": 145,
+      "revenueBySegmentMM": {
+        "Plantation operations": 127.6,
+        "Smallholder cooperative scheme": 17.4
+      },
       "ebitdaMM": 50,
+      "expensesBySegmentMM": {
+        "Cost of sales": 90.25,
+        "Administrative expenses": 3.8,
+        "Other operating costs": 0.95
+      },
       "totalAcresK": 134.6
     },
     {
       "endDate": "2021-12-31",
       "periodType": "FY",
       "revenueMM": 314,
+      "revenueBySegmentMM": {
+        "Plantation operations": 276.32,
+        "Smallholder cooperative scheme": 37.68
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 184,
         "Administrative expenses": 19,
@@ -599,22 +1141,53 @@
       "matureHectaresK": 40,
       "sharesOutMM": 52,
       "notes": "FY21: CPO rally drives EBITDA +69% YoY; transitions to net cash",
-      "bookValuePerShare": 7,
+      "bookValuePerShare": 9.0385,
       "capexMM": 22,
       "daMM": 14,
-      "cfoMM": 70
+      "cfoMM": 70,
+      "totalEquityMM": 470,
+      "plantation": {
+        "ffbYieldTPerHa": 18.8,
+        "oerPct": 21.9,
+        "cpoAspPerMt": 920,
+        "maturePlantedHa": 38000,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 520,
+      "totalDebtMM": 30,
+      "cashMM": 55,
+      "propertyBookMM": 85,
+      "ppeBookMM": 240,
+      "inventoryMM": 22,
+      "intangibleAssetsMM": 10,
+      "epsBasic": 1.1538,
+      "interestExpenseMM": 2.5,
+      "dividendPerShare": 0.3
     },
     {
       "endDate": "2022-06-30",
       "periodType": "H",
       "revenueMM": 192,
+      "revenueBySegmentMM": {
+        "Plantation operations": 168.96,
+        "Smallholder cooperative scheme": 23.04
+      },
       "ebitdaMM": 75,
+      "expensesBySegmentMM": {
+        "Cost of sales": 111.15,
+        "Administrative expenses": 4.68,
+        "Other operating costs": 1.17
+      },
       "totalAcresK": 134.6
     },
     {
       "endDate": "2022-12-31",
       "periodType": "FY",
       "revenueMM": 380,
+      "revenueBySegmentMM": {
+        "Plantation operations": 334.4,
+        "Smallholder cooperative scheme": 45.6
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 228,
         "Administrative expenses": 21,
@@ -633,22 +1206,53 @@
       "matureHectaresK": 40,
       "sharesOutMM": 52,
       "notes": "FY22: record CPO; net cash builds further",
-      "bookValuePerShare": 7.55,
+      "bookValuePerShare": 10.1923,
       "capexMM": 28,
       "daMM": 16,
-      "cfoMM": 75
+      "cfoMM": 75,
+      "totalEquityMM": 530,
+      "propertyBookMM": 275,
+      "ppeBookMM": 158,
+      "inventoryMM": 45,
+      "intangibleAssetsMM": 8,
+      "plantation": {
+        "ffbYieldTPerHa": 18.2,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 1080,
+        "maturePlantedHa": 38100,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 590,
+      "totalDebtMM": 25,
+      "cashMM": 90,
+      "epsBasic": 1.4038,
+      "interestExpenseMM": 3.0,
+      "dividendPerShare": 0.45
     },
     {
       "endDate": "2023-06-30",
       "periodType": "H",
       "revenueMM": 165,
+      "revenueBySegmentMM": {
+        "Plantation operations": 145.2,
+        "Smallholder cooperative scheme": 19.8
+      },
       "ebitdaMM": 47,
+      "expensesBySegmentMM": {
+        "Cost of sales": 112.1,
+        "Administrative expenses": 4.72,
+        "Other operating costs": 1.18
+      },
       "totalAcresK": 134.6
     },
     {
       "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 320,
+      "revenueBySegmentMM": {
+        "Plantation operations": 281.6,
+        "Smallholder cooperative scheme": 38.4
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 207,
         "Administrative expenses": 20,
@@ -667,22 +1271,53 @@
       "matureHectaresK": 40,
       "sharesOutMM": 52,
       "notes": "FY23: CPO normalized; cash payout ramped via dividend + buyback",
-      "bookValuePerShare": 7.5,
+      "bookValuePerShare": 10.5769,
       "capexMM": 26,
       "daMM": 17,
-      "cfoMM": 55
+      "cfoMM": 55,
+      "totalEquityMM": 550,
+      "propertyBookMM": 280,
+      "ppeBookMM": 160,
+      "inventoryMM": 40,
+      "intangibleAssetsMM": 8,
+      "plantation": {
+        "ffbYieldTPerHa": 17.8,
+        "oerPct": 21.7,
+        "cpoAspPerMt": 850,
+        "maturePlantedHa": 38300,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 580,
+      "totalDebtMM": 22,
+      "cashMM": 80,
+      "epsBasic": 0.9615,
+      "interestExpenseMM": 4.0,
+      "dividendPerShare": 0.4
     },
     {
       "endDate": "2024-06-30",
       "periodType": "H",
       "revenueMM": 175,
+      "revenueBySegmentMM": {
+        "Plantation operations": 154.0,
+        "Smallholder cooperative scheme": 21.0
+      },
       "ebitdaMM": 50,
+      "expensesBySegmentMM": {
+        "Cost of sales": 118.75,
+        "Administrative expenses": 5.0,
+        "Other operating costs": 1.25
+      },
       "totalAcresK": 134.6
     },
     {
       "endDate": "2024-12-31",
       "periodType": "FY",
       "revenueMM": 352.8,
+      "revenueBySegmentMM": {
+        "Plantation operations": 310.46,
+        "Smallholder cooperative scheme": 42.34
+      },
       "expensesBySegmentMM": {
         "Cost of sales": 231,
         "Administrative expenses": 20.8,
@@ -704,10 +1339,27 @@
       "propertyBookMM": 300,
       "propertyFmvMM": 700,
       "notes": "FY24 per seed-comps: revenue $352.8M, EBITDA $100M, net cash $20M, NAV/share $7.69, indicative FMV $700M vs book $300M",
-      "bookValuePerShare": 7.69,
+      "bookValuePerShare": 10.9615,
       "capexMM": 28,
       "daMM": 18,
-      "cfoMM": 60
+      "cfoMM": 60,
+      "interestExpenseMM": 0,
+      "totalEquityMM": 570,
+      "ppeBookMM": 165,
+      "inventoryMM": 42,
+      "intangibleAssetsMM": 8,
+      "plantation": {
+        "ffbYieldTPerHa": 18.5,
+        "oerPct": 21.8,
+        "cpoAspPerMt": 920,
+        "maturePlantedHa": 38500,
+        "rspoPct": 100
+      },
+      "totalAssetsMM": 600,
+      "totalDebtMM": 20,
+      "cashMM": 95,
+      "epsBasic": 1.0769,
+      "dividendPerShare": 0.45
     }
   ]
 }

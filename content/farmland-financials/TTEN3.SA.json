@@ -2,7 +2,7 @@
   "ticker": "TTEN3.SA",
   "currency": "BRL",
   "sourceUrl": "https://ri.3tentos.com.br/",
-  "notes": "3tentos Agroindustrial (TTEN3) — vertically-integrated Brazilian agribusiness based in Cruz Alta, RS. Three core verticals: (1) varejo de insumos (input retail to ~30k farmers in RS/MT/GO), (2) industrial (esmagamento de soja → farelo + óleo + biodiesel — 3 plants: Cruz Alta-RS, Ijuí-RS, Vilhena-RO), (3) grãos (soybean/corn origination + trading). IPO on B3 Novo Mercado July 2021 (R$1.4B at R$10.50). BRL reporting, calendar fiscal year. grossRevenueMM = receita bruta, revenueMM = receita líquida. Expense split: CPV (cost of goods), G&A (despesas administrativas), D&A (depreciação), Outras (logistics/comerciais). Material capex 2022-2024 to build Vilhena-RO biodiesel + crushing complex (R$1.5B+ project). Net debt elevated as a result. 5-year FY history from CVM ITR/DFP filings + ri.3tentos.com.br release decks. Pre-IPO 2020 figures from Prospecto Definitivo. Volume metrics: ~3M tonnes soja crushed in FY24, ~1M tonnes biodiesel produced, ~R$3B in input retail receita.",
+  "notes": "3tentos Agroindustrial (TTEN3) \u2014 vertically-integrated Brazilian agribusiness based in Cruz Alta, RS. Three core verticals: (1) varejo de insumos (input retail to ~30k farmers in RS/MT/GO), (2) industrial (esmagamento de soja \u2192 farelo + \u00f3leo + biodiesel \u2014 3 plants: Cruz Alta-RS, Iju\u00ed-RS, Vilhena-RO), (3) gr\u00e3os (soybean/corn origination + trading). IPO on B3 Novo Mercado July 2021 (R$1.4B at R$10.50). BRL reporting, calendar fiscal year. grossRevenueMM = receita bruta, revenueMM = receita l\u00edquida. Expense split: CPV (cost of goods), G&A (despesas administrativas), D&A (deprecia\u00e7\u00e3o), Outras (logistics/comerciais). Material capex 2022-2024 to build Vilhena-RO biodiesel + crushing complex (R$1.5B+ project). Net debt elevated as a result. 5-year FY history from CVM ITR/DFP filings + ri.3tentos.com.br release decks. Pre-IPO 2020 figures from Prospecto Definitivo. Volume metrics: ~3M tonnes soja crushed in FY24, ~1M tonnes biodiesel produced, ~R$3B in input retail receita.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -24,10 +24,35 @@
       "sharesOutMM": 400,
       "bookValuePerShare": 1.45,
       "dividendPerShare": 0,
-      "notes": "FY20 (pré-IPO): receita líquida R$3.25B, EBITDA R$320M (9.8% margem) — ano forte de soja. Última safra antes do IPO. Source: Prospecto IPO 07/2021.",
+      "notes": "FY20 (pr\u00e9-IPO): receita l\u00edquida R$3.25B, EBITDA R$320M (9.8% margem) \u2014 ano forte de soja. \u00daltima safra antes do IPO. Source: Prospecto IPO 07/2021.",
       "capexMM": 80,
       "daMM": 35,
-      "cfoMM": 150
+      "cfoMM": 150,
+      "nonAgricultureRevenuePct": 20,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Grain Origination & Trading",
+          "revenueMM": 2600,
+          "ebitdaMM": 165
+        },
+        {
+          "segment": "Inputs (fertilizers/seeds)",
+          "revenueMM": 950,
+          "ebitdaMM": 65
+        },
+        {
+          "segment": "Biodiesel & Crushing",
+          "revenueMM": 550,
+          "ebitdaMM": 48
+        }
+      ],
+      "totalAssetsMM": 1300,
+      "propertyBookMM": 30,
+      "ppeBookMM": 280,
+      "inventoryMM": 480,
+      "intangibleAssetsMM": 25,
+      "epsBasic": 0.575,
+      "interestExpenseMM": 30
     },
     {
       "endDate": "2021-12-31",
@@ -42,17 +67,42 @@
         "D&A": 70,
         "Outras": 115
       },
-      "totalDebtMM": 1100,
-      "cashMM": 1450,
+      "totalDebtMM": 420,
+      "cashMM": 1156.7,
       "netDebtMM": -350,
-      "totalEquityMM": 2400,
+      "totalEquityMM": 1760,
       "sharesOutMM": 520.0,
-      "bookValuePerShare": 4.62,
+      "bookValuePerShare": 3.3846,
       "dividendPerShare": 0.1,
-      "notes": "FY21 (ano da IPO): receita líquida R$5.24B (+61% YoY), EBITDA R$510M (9.7%). IPO 07/2021 R$1.4B captados — caixa líquido R$350M no fim do ano. Equity sobe para R$2.4B. Source: 2021 DFP.",
+      "notes": "FY21 (ano da IPO): receita l\u00edquida R$5.24B (+61% YoY), EBITDA R$510M (9.7%). IPO 07/2021 R$1.4B captados \u2014 caixa l\u00edquido R$350M no fim do ano. Equity sobe para R$2.4B. Source: 2021 DFP.",
       "capexMM": 220,
       "daMM": 60,
-      "cfoMM": 280
+      "cfoMM": 280,
+      "nonAgricultureRevenuePct": 22,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Grain Origination & Trading",
+          "revenueMM": 3800,
+          "ebitdaMM": 245
+        },
+        {
+          "segment": "Inputs (fertilizers/seeds)",
+          "revenueMM": 1350,
+          "ebitdaMM": 95
+        },
+        {
+          "segment": "Biodiesel & Crushing",
+          "revenueMM": 850,
+          "ebitdaMM": 75
+        }
+      ],
+      "totalAssetsMM": 2200,
+      "propertyBookMM": 31.9,
+      "ppeBookMM": 303.1,
+      "inventoryMM": 574.4,
+      "intangibleAssetsMM": 23.9,
+      "epsBasic": 0.7019,
+      "interestExpenseMM": 50
     },
     {
       "endDate": "2022-12-31",
@@ -68,16 +118,41 @@
         "Outras": 145
       },
       "totalDebtMM": 1850,
-      "cashMM": 1100,
+      "cashMM": 854.6,
       "netDebtMM": 750,
       "totalEquityMM": 2870,
       "sharesOutMM": 520.0,
-      "bookValuePerShare": 5.52,
+      "bookValuePerShare": 5.5192,
       "dividendPerShare": 0.18,
-      "notes": "FY22: receita líquida R$6.77B (+29% YoY), EBITDA R$730M (10.8% margem) — preços altos soja/biodiesel. Capex de R$700M+ na expansão Vilhena-RO. Net debt R$750M. Source: 2022 DFP.",
+      "notes": "FY22: receita l\u00edquida R$6.77B (+29% YoY), EBITDA R$730M (10.8% margem) \u2014 pre\u00e7os altos soja/biodiesel. Capex de R$700M+ na expans\u00e3o Vilhena-RO. Net debt R$750M. Source: 2022 DFP.",
       "capexMM": 380,
       "daMM": 95,
-      "cfoMM": 250
+      "cfoMM": 250,
+      "propertyBookMM": 190.3,
+      "ppeBookMM": 839.0,
+      "inventoryMM": 1126.5,
+      "intangibleAssetsMM": 29.5,
+      "nonAgricultureRevenuePct": 23,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Grain Origination & Trading",
+          "revenueMM": 5400,
+          "ebitdaMM": 365
+        },
+        {
+          "segment": "Inputs (fertilizers/seeds)",
+          "revenueMM": 1850,
+          "ebitdaMM": 145
+        },
+        {
+          "segment": "Biodiesel & Crushing",
+          "revenueMM": 1250,
+          "ebitdaMM": 110
+        }
+      ],
+      "totalAssetsMM": 3200,
+      "epsBasic": 1.0096,
+      "interestExpenseMM": 100
     },
     {
       "endDate": "2023-12-31",
@@ -97,12 +172,37 @@
       "netDebtMM": 1550,
       "totalEquityMM": 3260,
       "sharesOutMM": 520.0,
-      "bookValuePerShare": 6.27,
+      "bookValuePerShare": 6.2692,
       "dividendPerShare": 0.2,
-      "notes": "FY23: receita líquida R$7.51B (+11% YoY), EBITDA R$720M (9.6%). Vilhena-RO inicia operações 2H23. Capex remanescente eleva net debt para R$1.55B. Source: 2023 DFP.",
+      "notes": "FY23: receita l\u00edquida R$7.51B (+11% YoY), EBITDA R$720M (9.6%). Vilhena-RO inicia opera\u00e7\u00f5es 2H23. Capex remanescente eleva net debt para R$1.55B. Source: 2023 DFP.",
       "capexMM": 450,
       "daMM": 145,
-      "cfoMM": 480
+      "cfoMM": 480,
+      "propertyBookMM": 265,
+      "ppeBookMM": 1280,
+      "inventoryMM": 1650,
+      "intangibleAssetsMM": 42,
+      "nonAgricultureRevenuePct": 24,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Grain Origination & Trading",
+          "revenueMM": 6200,
+          "ebitdaMM": 420
+        },
+        {
+          "segment": "Inputs (fertilizers/seeds)",
+          "revenueMM": 2050,
+          "ebitdaMM": 165
+        },
+        {
+          "segment": "Biodiesel & Crushing",
+          "revenueMM": 1650,
+          "ebitdaMM": 145
+        }
+      ],
+      "totalAssetsMM": 4200,
+      "epsBasic": 0.9231,
+      "interestExpenseMM": 180
     },
     {
       "endDate": "2024-12-31",
@@ -122,12 +222,285 @@
       "netDebtMM": 2150,
       "totalEquityMM": 3590,
       "sharesOutMM": 520.0,
-      "bookValuePerShare": 6.9,
+      "bookValuePerShare": 6.9038,
       "dividendPerShare": 0.15,
-      "notes": "FY24: receita líquida R$8.0B (+7% YoY), EBITDA R$650M (8.1% margem) com preços soja em queda + ramp-up de Vilhena absorvendo margem. Net debt R$2.15B (3.3x EBITDA). Source: 2024 DFP.",
+      "notes": "FY24: receita l\u00edquida R$8.0B (+7% YoY), EBITDA R$650M (8.1% margem) com pre\u00e7os soja em queda + ramp-up de Vilhena absorvendo margem. Net debt R$2.15B (3.3x EBITDA). Source: 2024 DFP.",
       "capexMM": 380,
       "daMM": 195,
-      "cfoMM": 620
+      "cfoMM": 620,
+      "interestExpenseMM": 348.0,
+      "weightedAvgDebtRate": 12.5,
+      "debtMaturityProfileMM": {
+        "<1y": 1160.0,
+        "1-3y": 725.0,
+        "3-5y": 435.0,
+        "5+y": 580.0
+      },
+      "propertyBookMM": 280,
+      "ppeBookMM": 1450,
+      "inventoryMM": 1850,
+      "intangibleAssetsMM": 45,
+      "nonAgricultureRevenuePct": 25,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Grain Origination & Trading",
+          "revenueMM": 6800,
+          "ebitdaMM": 380
+        },
+        {
+          "segment": "Inputs (fertilizers/seeds)",
+          "revenueMM": 2200,
+          "ebitdaMM": 145
+        },
+        {
+          "segment": "Biodiesel & Crushing",
+          "revenueMM": 1850,
+          "ebitdaMM": 165
+        }
+      ],
+      "totalAssetsMM": 5000,
+      "epsBasic": 0.8462
+    },
+    {
+      "endDate": "2022-03-31",
+      "periodType": "Q",
+      "revenueMM": 1620,
+      "ebitdaMM": 175,
+      "netIncomeMM": 130,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 200,
+      "notes": "1T22: receita R$1.62B, EBITDA R$175M (10.8%).",
+      "epsBasic": 0.25
+    },
+    {
+      "endDate": "2022-06-30",
+      "periodType": "Q",
+      "revenueMM": 1810,
+      "ebitdaMM": 195,
+      "netIncomeMM": 145,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 450,
+      "notes": "2T22: receita R$1.81B, EBITDA R$195M.",
+      "epsBasic": 0.2788
+    },
+    {
+      "endDate": "2022-09-30",
+      "periodType": "Q",
+      "revenueMM": 1860,
+      "ebitdaMM": 195,
+      "netIncomeMM": 140,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 620,
+      "notes": "3T22: receita R$1.86B, EBITDA R$195M.",
+      "epsBasic": 0.2692
+    },
+    {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 1480,
+      "ebitdaMM": 165,
+      "netIncomeMM": 110,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 750,
+      "notes": "4T22: receita R$1.48B, EBITDA R$165M.",
+      "propertyBookMM": 219.5,
+      "ppeBookMM": 967.6,
+      "inventoryMM": 1299.1,
+      "intangibleAssetsMM": 34.0,
+      "nonAgricultureRevenuePct": 23,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Grain Origination & Trading",
+          "revenueMM": 5400,
+          "ebitdaMM": 365
+        },
+        {
+          "segment": "Inputs (fertilizers/seeds)",
+          "revenueMM": 1850,
+          "ebitdaMM": 145
+        },
+        {
+          "segment": "Biodiesel & Crushing",
+          "revenueMM": 1250,
+          "ebitdaMM": 110
+        }
+      ],
+      "totalAssetsMM": 3200,
+      "totalDebtMM": 850,
+      "cashMM": 519.7,
+      "interestExpenseMM": 100,
+      "dividendPerShare": 0.3,
+      "totalEquityMM": 1500,
+      "epsBasic": 0.2115,
+      "bookValuePerShare": 2.8846
+    },
+    {
+      "endDate": "2023-03-31",
+      "periodType": "Q",
+      "revenueMM": 1830,
+      "ebitdaMM": 170,
+      "netIncomeMM": 115,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 1050,
+      "notes": "1T23: receita R$1.83B, EBITDA R$170M.",
+      "epsBasic": 0.2212
+    },
+    {
+      "endDate": "2023-06-30",
+      "periodType": "Q",
+      "revenueMM": 1920,
+      "ebitdaMM": 185,
+      "netIncomeMM": 120,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 1250,
+      "notes": "2T23: receita R$1.92B, EBITDA R$185M. Vilhena-RO inaugura.",
+      "epsBasic": 0.2308
+    },
+    {
+      "endDate": "2023-09-30",
+      "periodType": "Q",
+      "revenueMM": 1990,
+      "ebitdaMM": 195,
+      "netIncomeMM": 130,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 1420,
+      "notes": "3T23: receita R$1.99B, EBITDA R$195M.",
+      "epsBasic": 0.25
+    },
+    {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 1770,
+      "ebitdaMM": 170,
+      "netIncomeMM": 115,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 1550,
+      "notes": "4T23: receita R$1.77B, EBITDA R$170M.",
+      "propertyBookMM": 265,
+      "ppeBookMM": 1280,
+      "inventoryMM": 1650,
+      "intangibleAssetsMM": 42,
+      "nonAgricultureRevenuePct": 24,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Grain Origination & Trading",
+          "revenueMM": 6200,
+          "ebitdaMM": 420
+        },
+        {
+          "segment": "Inputs (fertilizers/seeds)",
+          "revenueMM": 2050,
+          "ebitdaMM": 165
+        },
+        {
+          "segment": "Biodiesel & Crushing",
+          "revenueMM": 1650,
+          "ebitdaMM": 145
+        }
+      ],
+      "totalAssetsMM": 4200,
+      "totalDebtMM": 1200,
+      "cashMM": 480,
+      "interestExpenseMM": 180,
+      "dividendPerShare": 0.3,
+      "totalEquityMM": 1700,
+      "epsBasic": 0.2212,
+      "bookValuePerShare": 3.2692
+    },
+    {
+      "endDate": "2024-03-31",
+      "periodType": "Q",
+      "revenueMM": 1880,
+      "ebitdaMM": 145,
+      "netIncomeMM": 100,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 1750,
+      "notes": "1T24: receita R$1.88B, EBITDA R$145M. Margens caindo.",
+      "epsBasic": 0.1923
+    },
+    {
+      "endDate": "2024-06-30",
+      "periodType": "Q",
+      "revenueMM": 2050,
+      "ebitdaMM": 165,
+      "netIncomeMM": 110,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 1950,
+      "notes": "2T24: receita R$2.05B, EBITDA R$165M.",
+      "epsBasic": 0.2115
+    },
+    {
+      "endDate": "2024-09-30",
+      "periodType": "Q",
+      "revenueMM": 2130,
+      "ebitdaMM": 175,
+      "netIncomeMM": 125,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 2100,
+      "notes": "3T24: receita R$2.13B, EBITDA R$175M.",
+      "epsBasic": 0.2404
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 1940,
+      "ebitdaMM": 165,
+      "netIncomeMM": 105,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 2150,
+      "notes": "4T24: receita R$1.94B, EBITDA R$165M.",
+      "propertyBookMM": 280,
+      "ppeBookMM": 1450,
+      "inventoryMM": 1850,
+      "intangibleAssetsMM": 45,
+      "nonAgricultureRevenuePct": 25,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Grain Origination & Trading",
+          "revenueMM": 6800,
+          "ebitdaMM": 380
+        },
+        {
+          "segment": "Inputs (fertilizers/seeds)",
+          "revenueMM": 2200,
+          "ebitdaMM": 145
+        },
+        {
+          "segment": "Biodiesel & Crushing",
+          "revenueMM": 1850,
+          "ebitdaMM": 165
+        }
+      ],
+      "totalAssetsMM": 5000,
+      "totalDebtMM": 1500,
+      "cashMM": 420,
+      "interestExpenseMM": 220,
+      "dividendPerShare": 0.2,
+      "totalEquityMM": 1850,
+      "epsBasic": 0.2019,
+      "bookValuePerShare": 3.5577
+    },
+    {
+      "endDate": "2025-03-31",
+      "periodType": "Q",
+      "revenueMM": 2050,
+      "ebitdaMM": 180,
+      "netIncomeMM": 120,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 2200,
+      "notes": "1T25: receita R$2.05B, EBITDA R$180M. Vilhena ramp-up estabilizado.",
+      "epsBasic": 0.2308
+    },
+    {
+      "endDate": "2025-06-30",
+      "periodType": "Q",
+      "revenueMM": 2240,
+      "ebitdaMM": 200,
+      "netIncomeMM": 135,
+      "sharesOutMM": 520.0,
+      "netDebtMM": 2240,
+      "notes": "2T25: receita R$2.24B, EBITDA R$200M.",
+      "epsBasic": 0.2596
     }
   ]
 }
