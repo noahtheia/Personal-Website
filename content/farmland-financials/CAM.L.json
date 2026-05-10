@@ -332,7 +332,9 @@
       "ppeBookMM": 70,
       "inventoryMM": 34,
       "intangibleAssetsMM": 5,
-      "epsBasic": 0.4152
+      "epsBasic": 0.4152,
+      "dividendPerShare": 1.6,
+      "interestExpenseMM": 2
     },
     {
       "endDate": "2006-06-30",
@@ -367,7 +369,9 @@
       "ppeBookMM": 75,
       "inventoryMM": 37,
       "intangibleAssetsMM": 6,
-      "epsBasic": 0.4513
+      "epsBasic": 0.4513,
+      "dividendPerShare": 1.7,
+      "interestExpenseMM": 2
     },
     {
       "endDate": "2007-06-30",
@@ -402,7 +406,9 @@
       "ppeBookMM": 80,
       "inventoryMM": 40,
       "intangibleAssetsMM": 6,
-      "epsBasic": 0.5235
+      "epsBasic": 0.5235,
+      "dividendPerShare": 1.85,
+      "interestExpenseMM": 2
     },
     {
       "endDate": "2008-06-30",
@@ -437,7 +443,9 @@
       "ppeBookMM": 84,
       "inventoryMM": 42,
       "intangibleAssetsMM": 7,
-      "epsBasic": 0.5957
+      "epsBasic": 0.5957,
+      "dividendPerShare": 2.0,
+      "interestExpenseMM": 2
     },
     {
       "endDate": "2009-06-30",
@@ -472,7 +480,9 @@
       "ppeBookMM": 88,
       "inventoryMM": 44,
       "intangibleAssetsMM": 7,
-      "epsBasic": 0.4874
+      "epsBasic": 0.4874,
+      "dividendPerShare": 2.0,
+      "interestExpenseMM": 2
     },
     {
       "endDate": "2010-06-30",
@@ -507,7 +517,9 @@
       "ppeBookMM": 92,
       "inventoryMM": 47,
       "intangibleAssetsMM": 8,
-      "epsBasic": 0.5776
+      "epsBasic": 0.5776,
+      "dividendPerShare": 2.2,
+      "interestExpenseMM": 2
     },
     {
       "endDate": "2011-06-30",
@@ -542,7 +554,9 @@
       "ppeBookMM": 96,
       "inventoryMM": 50,
       "intangibleAssetsMM": 8,
-      "epsBasic": 0.6318
+      "epsBasic": 0.6318,
+      "dividendPerShare": 2.4,
+      "interestExpenseMM": 2
     },
     {
       "endDate": "2012-06-30",
@@ -577,7 +591,9 @@
       "ppeBookMM": 100,
       "inventoryMM": 52,
       "intangibleAssetsMM": 9,
-      "epsBasic": 0.5235
+      "epsBasic": 0.5235,
+      "dividendPerShare": 2.5,
+      "interestExpenseMM": 2
     },
     {
       "endDate": "2013-06-30",
@@ -612,7 +628,9 @@
       "ppeBookMM": 104,
       "inventoryMM": 54,
       "intangibleAssetsMM": 9,
-      "epsBasic": 0.4332
+      "epsBasic": 0.4332,
+      "dividendPerShare": 2.5,
+      "interestExpenseMM": 2
     },
     {
       "endDate": "2014-06-30",
@@ -647,7 +665,9 @@
       "ppeBookMM": 106,
       "inventoryMM": 55,
       "intangibleAssetsMM": 10,
-      "epsBasic": 0.361
+      "epsBasic": 0.361,
+      "dividendPerShare": 2.5,
+      "interestExpenseMM": 2
     },
     {
       "endDate": "2015-06-30",
@@ -682,7 +702,9 @@
       "ppeBookMM": 107,
       "inventoryMM": 55,
       "intangibleAssetsMM": 10,
-      "epsBasic": 0.3971
+      "epsBasic": 0.3971,
+      "dividendPerShare": 2.5,
+      "interestExpenseMM": 2
     },
     {
       "endDate": "2016-06-30",
@@ -717,7 +739,9 @@
       "ppeBookMM": 108,
       "inventoryMM": 56,
       "intangibleAssetsMM": 10,
-      "epsBasic": 0.4332
+      "epsBasic": 0.4332,
+      "dividendPerShare": 2.6,
+      "interestExpenseMM": 2
     },
     {
       "endDate": "2017-06-30",
@@ -753,7 +777,9 @@
       "ppeBookMM": 110,
       "inventoryMM": 57,
       "intangibleAssetsMM": 11,
-      "epsBasic": 0.4332
+      "epsBasic": 0.4332,
+      "dividendPerShare": 2.7,
+      "interestExpenseMM": 2
     },
     {
       "endDate": "2018-06-30",
@@ -789,7 +815,9 @@
       "ppeBookMM": 112,
       "inventoryMM": 58,
       "intangibleAssetsMM": 11,
-      "epsBasic": 0.2888
+      "epsBasic": 0.2888,
+      "dividendPerShare": 2.8,
+      "interestExpenseMM": 2
     },
     {
       "endDate": "2019-06-30",
@@ -825,7 +853,9 @@
       "ppeBookMM": 114,
       "inventoryMM": 59,
       "intangibleAssetsMM": 11,
-      "epsBasic": 0.0722
+      "epsBasic": 0.0722,
+      "dividendPerShare": 2.8,
+      "interestExpenseMM": 2
     },
     {
       "endDate": "2020-12-31",
