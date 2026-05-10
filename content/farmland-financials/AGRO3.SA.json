@@ -30,7 +30,9 @@
       "cfoMM": -12,
       "capexMM": 85,
       "daMM": 4,
-      "epsBasic": 0.6164
+      "epsBasic": 0.6164,
+      "dividendPerShare": 0.0,
+      "interestExpenseMM": 5
     },
     {
       "endDate": "2008-06-30",
@@ -58,7 +60,9 @@
       "cfoMM": -22,
       "capexMM": 180,
       "daMM": 7,
-      "epsBasic": 0.5137
+      "epsBasic": 0.5137,
+      "dividendPerShare": 0.0,
+      "interestExpenseMM": 8
     },
     {
       "endDate": "2009-06-30",
@@ -86,7 +90,9 @@
       "cfoMM": 8,
       "capexMM": 95,
       "daMM": 10,
-      "epsBasic": 0.3253
+      "epsBasic": 0.3253,
+      "dividendPerShare": 0.0,
+      "interestExpenseMM": 12
     },
     {
       "endDate": "2010-06-30",
@@ -114,7 +120,9 @@
       "cfoMM": 15,
       "capexMM": 65,
       "daMM": 12,
-      "epsBasic": 0.4281
+      "epsBasic": 0.4281,
+      "dividendPerShare": 0.0,
+      "interestExpenseMM": 15
     },
     {
       "endDate": "2011-06-30",
@@ -142,7 +150,9 @@
       "cfoMM": 25,
       "capexMM": 110,
       "daMM": 14,
-      "epsBasic": 1.0274
+      "epsBasic": 1.0274,
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 18
     },
     {
       "endDate": "2012-06-30",
@@ -170,7 +180,9 @@
       "cfoMM": 32,
       "capexMM": 85,
       "daMM": 16,
-      "epsBasic": 1.0274
+      "epsBasic": 1.0274,
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 20
     },
     {
       "endDate": "2013-06-30",
@@ -198,7 +210,9 @@
       "cfoMM": 18,
       "capexMM": 120,
       "daMM": 18,
-      "epsBasic": 0.5651
+      "epsBasic": 0.5651,
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 22
     },
     {
       "endDate": "2014-06-30",
@@ -226,7 +240,9 @@
       "cfoMM": 45,
       "capexMM": 75,
       "daMM": 22,
-      "epsBasic": 0.6507
+      "epsBasic": 0.6507,
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 28
     },
     {
       "endDate": "2015-06-30",
@@ -254,7 +270,9 @@
       "cfoMM": 52,
       "capexMM": 60,
       "daMM": 25,
-      "epsBasic": 1.2842
+      "epsBasic": 1.2842,
+      "dividendPerShare": 0.15,
+      "interestExpenseMM": 35
     },
     {
       "endDate": "2016-06-30",
@@ -282,7 +300,9 @@
       "cfoMM": 38,
       "capexMM": 90,
       "daMM": 28,
-      "epsBasic": 1.7466
+      "epsBasic": 1.7466,
+      "dividendPerShare": 0.2,
+      "interestExpenseMM": 40
     },
     {
       "endDate": "2017-06-30",
@@ -310,7 +330,9 @@
       "cfoMM": 55,
       "capexMM": 70,
       "daMM": 30,
-      "epsBasic": 0.8562
+      "epsBasic": 0.8562,
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 40
     },
     {
       "endDate": "2018-06-30",
@@ -338,7 +360,9 @@
       "cfoMM": 28,
       "capexMM": 55,
       "daMM": 32,
-      "epsBasic": 1.3699
+      "epsBasic": 1.3699,
+      "dividendPerShare": 0.15,
+      "interestExpenseMM": 40
     },
     {
       "endDate": "2019-06-30",
@@ -366,7 +390,9 @@
       "cfoMM": 42,
       "capexMM": 85,
       "daMM": 35,
-      "epsBasic": 1.4667
+      "epsBasic": 1.4667,
+      "dividendPerShare": 0.18,
+      "interestExpenseMM": 40
     },
     {
       "endDate": "2020-06-30",

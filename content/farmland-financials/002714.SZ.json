@@ -5,6 +5,120 @@
   "notes": "Muyuan Foods (SZSE: 002714) \u2014 world's largest pork producer by volume (~71M head sold in FY24). Highly vertically integrated: own breeding, feed mills, slaughter, and increasingly downstream meat processing. Reports CNY-millions PRC GAAP. Lists in CNY on Shenzhen Stock Exchange. FY ends Dec 31. Earnings driven by China hog cycle \u2014 extreme volatility. Net debt company-defined (interest-bearing only); leases not always disclosed at consolidated level.",
   "periods": [
     {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 2620,
+      "ebitdaMM": 1010,
+      "netIncomeMM": 803,
+      "capexMM": 600,
+      "daMM": 130,
+      "cfoMM": 750,
+      "totalAssetsMM": 3700,
+      "totalDebtMM": 800,
+      "cashMM": 200,
+      "totalEquityMM": 2200,
+      "sharesOutMM": 925,
+      "dividendPerShare": 0.3,
+      "interestExpenseMM": 50,
+      "epsBasic": 0.8681,
+      "bookValuePerShare": 2.3784
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 3000,
+      "ebitdaMM": 770,
+      "netIncomeMM": 597,
+      "capexMM": 1100,
+      "daMM": 200,
+      "cfoMM": 750,
+      "totalAssetsMM": 5500,
+      "totalDebtMM": 1500,
+      "cashMM": 350,
+      "totalEquityMM": 3000,
+      "sharesOutMM": 925,
+      "dividendPerShare": 0.2,
+      "interestExpenseMM": 80,
+      "epsBasic": 0.6454,
+      "bookValuePerShare": 3.2432
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 5610,
+      "ebitdaMM": 2640,
+      "netIncomeMM": 2320,
+      "capexMM": 2200,
+      "daMM": 320,
+      "cfoMM": 2500,
+      "totalAssetsMM": 9500,
+      "totalDebtMM": 2800,
+      "cashMM": 700,
+      "totalEquityMM": 5500,
+      "sharesOutMM": 1100,
+      "dividendPerShare": 0.5,
+      "interestExpenseMM": 130,
+      "epsBasic": 2.1091,
+      "bookValuePerShare": 5.0
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 10000,
+      "ebitdaMM": 3300,
+      "netIncomeMM": 2370,
+      "capexMM": 3500,
+      "daMM": 500,
+      "cfoMM": 3300,
+      "totalAssetsMM": 16500,
+      "totalDebtMM": 5500,
+      "cashMM": 1300,
+      "totalEquityMM": 8500,
+      "sharesOutMM": 1700,
+      "dividendPerShare": 0.4,
+      "interestExpenseMM": 220,
+      "epsBasic": 1.3941,
+      "bookValuePerShare": 5.0
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 13380,
+      "ebitdaMM": 2100,
+      "netIncomeMM": 522,
+      "capexMM": 4500,
+      "daMM": 750,
+      "cfoMM": 1500,
+      "totalAssetsMM": 26500,
+      "totalDebtMM": 11500,
+      "cashMM": 1500,
+      "totalEquityMM": 11500,
+      "sharesOutMM": 2080,
+      "dividendPerShare": 0.07,
+      "interestExpenseMM": 450,
+      "epsBasic": 0.251,
+      "bookValuePerShare": 5.5288
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 20240,
+      "ebitdaMM": 8400,
+      "netIncomeMM": 6110,
+      "capexMM": 6500,
+      "daMM": 1100,
+      "cfoMM": 7500,
+      "totalAssetsMM": 41000,
+      "totalDebtMM": 16000,
+      "cashMM": 4500,
+      "totalEquityMM": 19000,
+      "sharesOutMM": 2120,
+      "dividendPerShare": 0.5,
+      "interestExpenseMM": 700,
+      "epsBasic": 2.8821,
+      "bookValuePerShare": 8.9623
+    },
+    {
       "endDate": "2020-12-31",
       "periodType": "FY",
       "revenueMM": 56277,
@@ -149,34 +263,6 @@
     },
     {
       "endDate": "2023-12-31",
-      "periodType": "Q",
-      "revenueMM": 28943,
-      "ebitdaMM": 5100,
-      "netIncomeMM": -2093,
-      "notes": "Q4 23: trough.",
-      "totalEquityMM": 64200,
-      "propertyBookMM": 115200,
-      "ppeBookMM": 115200,
-      "inventoryMM": 36500,
-      "intangibleAssetsMM": 1780,
-      "protein": {
-        "plants": 30,
-        "weeklyHeadCapacity": 1450000,
-        "capacityUtilizationPct": 88,
-        "pig": {
-          "breedingSows": 3120000,
-          "slaughterWeightKg": 120,
-          "costPerKgLive": 15.0,
-          "feedConversionRatio": 2.7
-        }
-      },
-      "totalAssetsMM": 187100,
-      "totalDebtMM": 109000,
-      "cashMM": 19400,
-      "interestExpenseMM": 4500.0
-    },
-    {
-      "endDate": "2023-12-31",
       "periodType": "FY",
       "revenueMM": 110861,
       "ebitdaMM": 13500,
@@ -222,6 +308,34 @@
       "interestExpenseMM": 4500.0
     },
     {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 28943,
+      "ebitdaMM": 5100,
+      "netIncomeMM": -2093,
+      "notes": "Q4 23: trough.",
+      "totalEquityMM": 64200,
+      "propertyBookMM": 115200,
+      "ppeBookMM": 115200,
+      "inventoryMM": 36500,
+      "intangibleAssetsMM": 1780,
+      "protein": {
+        "plants": 30,
+        "weeklyHeadCapacity": 1450000,
+        "capacityUtilizationPct": 88,
+        "pig": {
+          "breedingSows": 3120000,
+          "slaughterWeightKg": 120,
+          "costPerKgLive": 15.0,
+          "feedConversionRatio": 2.7
+        }
+      },
+      "totalAssetsMM": 187100,
+      "totalDebtMM": 109000,
+      "cashMM": 19400,
+      "interestExpenseMM": 4500.0
+    },
+    {
       "endDate": "2024-03-31",
       "periodType": "Q",
       "revenueMM": 26272,
@@ -244,34 +358,6 @@
       "ebitdaMM": 12500,
       "netIncomeMM": 9652,
       "notes": "Q3 24: peak quarter."
-    },
-    {
-      "endDate": "2024-12-31",
-      "periodType": "Q",
-      "revenueMM": 41923,
-      "ebitdaMM": 7400,
-      "netIncomeMM": 7292,
-      "notes": "Q4 24",
-      "totalEquityMM": 80500,
-      "propertyBookMM": 118500,
-      "ppeBookMM": 118500,
-      "inventoryMM": 38200,
-      "intangibleAssetsMM": 1820,
-      "protein": {
-        "plants": 32,
-        "weeklyHeadCapacity": 1500000,
-        "capacityUtilizationPct": 92,
-        "pig": {
-          "breedingSows": 3500000,
-          "slaughterWeightKg": 122,
-          "costPerKgLive": 13.5,
-          "feedConversionRatio": 2.65
-        }
-      },
-      "totalAssetsMM": 195400,
-      "totalDebtMM": 95000,
-      "cashMM": 23500,
-      "interestExpenseMM": 4000.0
     },
     {
       "endDate": "2024-12-31",
@@ -325,6 +411,34 @@
       "totalAssetsMM": 195400,
       "epsBasic": 3.2571,
       "bookValuePerShare": 14.722
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 41923,
+      "ebitdaMM": 7400,
+      "netIncomeMM": 7292,
+      "notes": "Q4 24",
+      "totalEquityMM": 80500,
+      "propertyBookMM": 118500,
+      "ppeBookMM": 118500,
+      "inventoryMM": 38200,
+      "intangibleAssetsMM": 1820,
+      "protein": {
+        "plants": 32,
+        "weeklyHeadCapacity": 1500000,
+        "capacityUtilizationPct": 92,
+        "pig": {
+          "breedingSows": 3500000,
+          "slaughterWeightKg": 122,
+          "costPerKgLive": 13.5,
+          "feedConversionRatio": 2.65
+        }
+      },
+      "totalAssetsMM": 195400,
+      "totalDebtMM": 95000,
+      "cashMM": 23500,
+      "interestExpenseMM": 4000.0
     }
   ]
 }

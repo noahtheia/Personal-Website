@@ -29,7 +29,9 @@
         "D&A": 22,
         "Bio asset variation": 18
       },
-      "epsBasic": 0.2529
+      "epsBasic": 0.2529,
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 25
     },
     {
       "endDate": "2008-12-31",
@@ -56,7 +58,9 @@
         "SG&A": 38,
         "D&A": 32,
         "Bio asset variation": -15
-      }
+      },
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 40
     },
     {
       "endDate": "2009-12-31",
@@ -83,7 +87,9 @@
         "SG&A": 42,
         "D&A": 38,
         "Bio asset variation": 25
-      }
+      },
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 50
     },
     {
       "endDate": "2010-12-31",
@@ -111,7 +117,8 @@
         "SG&A": 55,
         "D&A": 48,
         "Bio asset variation": 35
-      }
+      },
+      "interestExpenseMM": 60
     },
     {
       "endDate": "2011-12-31",
@@ -139,7 +146,8 @@
         "SG&A": 72,
         "D&A": 62,
         "Bio asset variation": 45
-      }
+      },
+      "interestExpenseMM": 75
     },
     {
       "endDate": "2012-12-31",
@@ -167,7 +175,8 @@
         "SG&A": 88,
         "D&A": 78,
         "Bio asset variation": 55
-      }
+      },
+      "interestExpenseMM": 90
     },
     {
       "endDate": "2013-12-31",
@@ -195,7 +204,8 @@
         "SG&A": 105,
         "D&A": 92,
         "Bio asset variation": 60
-      }
+      },
+      "interestExpenseMM": 110
     },
     {
       "endDate": "2014-12-31",
@@ -223,7 +233,8 @@
         "SG&A": 120,
         "D&A": 110,
         "Bio asset variation": 50
-      }
+      },
+      "interestExpenseMM": 130
     },
     {
       "endDate": "2015-12-31",
@@ -251,7 +262,8 @@
         "SG&A": 135,
         "D&A": 145,
         "Bio asset variation": 90
-      }
+      },
+      "interestExpenseMM": 200
     },
     {
       "endDate": "2016-12-31",
@@ -279,7 +291,8 @@
         "SG&A": 155,
         "D&A": 175,
         "Bio asset variation": 80
-      }
+      },
+      "interestExpenseMM": 220
     },
     {
       "endDate": "2017-12-31",
@@ -307,7 +320,8 @@
         "SG&A": 170,
         "D&A": 195,
         "Bio asset variation": 70
-      }
+      },
+      "interestExpenseMM": 200
     },
     {
       "endDate": "2018-12-31",
@@ -335,7 +349,8 @@
         "SG&A": 185,
         "D&A": 215,
         "Bio asset variation": 95
-      }
+      },
+      "interestExpenseMM": 200
     },
     {
       "endDate": "2019-12-31",
@@ -363,7 +378,8 @@
         "SG&A": 210,
         "D&A": 240,
         "Bio asset variation": 110
-      }
+      },
+      "interestExpenseMM": 200
     },
     {
       "endDate": "2020-03-31",

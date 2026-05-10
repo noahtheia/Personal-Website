@@ -280,7 +280,8 @@
       "cfoMM": 25,
       "capexMM": 50,
       "daMM": 14,
-      "epsBasic": -0.0815
+      "epsBasic": -0.0815,
+      "interestExpenseMM": 32
     },
     {
       "endDate": "2011-03-31",
@@ -312,7 +313,8 @@
       "cfoMM": 28,
       "capexMM": 55,
       "daMM": 13,
-      "epsBasic": -0.0286
+      "epsBasic": -0.0286,
+      "interestExpenseMM": 32
     },
     {
       "endDate": "2012-03-31",
@@ -344,7 +346,8 @@
       "cfoMM": 22,
       "capexMM": 65,
       "daMM": 14,
-      "epsBasic": -0.1172
+      "epsBasic": -0.1172,
+      "interestExpenseMM": 35
     },
     {
       "endDate": "2013-03-31",
@@ -376,7 +379,8 @@
       "cfoMM": 18,
       "capexMM": 70,
       "daMM": 15,
-      "epsBasic": -0.1565
+      "epsBasic": -0.1565,
+      "interestExpenseMM": 38
     },
     {
       "endDate": "2014-03-31",
@@ -408,7 +412,8 @@
       "cfoMM": 35,
       "capexMM": 80,
       "daMM": 16,
-      "epsBasic": -0.1562
+      "epsBasic": -0.1562,
+      "interestExpenseMM": 38
     },
     {
       "endDate": "2015-03-31",
@@ -440,7 +445,8 @@
       "cfoMM": 55,
       "capexMM": 95,
       "daMM": 17,
-      "epsBasic": 0.1111
+      "epsBasic": 0.1111,
+      "interestExpenseMM": 35
     },
     {
       "endDate": "2016-03-31",
@@ -472,7 +478,8 @@
       "cfoMM": 60,
       "capexMM": 110,
       "daMM": 18,
-      "epsBasic": 0.2481
+      "epsBasic": 0.2481,
+      "interestExpenseMM": 35
     },
     {
       "endDate": "2017-03-31",
@@ -504,7 +511,8 @@
       "cfoMM": 45,
       "capexMM": 100,
       "daMM": 19,
-      "epsBasic": 0.2167
+      "epsBasic": 0.2167,
+      "interestExpenseMM": 32
     },
     {
       "endDate": "2018-03-31",
@@ -536,7 +544,8 @@
       "cfoMM": 30,
       "capexMM": 85,
       "daMM": 18,
-      "epsBasic": 0.171
+      "epsBasic": 0.171,
+      "interestExpenseMM": 30
     },
     {
       "endDate": "2018-09-30",
@@ -584,7 +593,8 @@
       "cfoMM": 20,
       "capexMM": 70,
       "daMM": 17,
-      "epsBasic": -0.245
+      "epsBasic": -0.245,
+      "interestExpenseMM": 32
     },
     {
       "endDate": "2019-09-30",
