@@ -76,6 +76,7 @@ const GeographySchema = z.enum([
   "Hong Kong",
   "India",
   "Saudi Arabia",
+  "Israel",
   "Egypt",
   "Kenya",
   "South Africa",
