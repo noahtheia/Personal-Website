@@ -36,6 +36,7 @@ const CurrencySchema = z.enum([
   "NGN",
   "JPY",
   "KRW",
+  "CAD",
 ]);
 type Currency = z.infer<typeof CurrencySchema>;
 
