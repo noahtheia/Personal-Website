@@ -36,7 +36,8 @@
       "trader": {
         "rmiMM": 14200,
         "throughputMtMM": 0.82
-      }
+      },
+      "bookValuePerShare": 114.6984
     },
     {
       "endDate": "2022-03-31",
@@ -70,7 +71,8 @@
       "trader": {
         "rmiMM": 16500,
         "throughputMtMM": 0.85
-      }
+      },
+      "bookValuePerShare": 131.6907
     },
     {
       "endDate": "2022-06-30",
@@ -148,7 +150,8 @@
       "trader": {
         "rmiMM": 19200,
         "throughputMtMM": 0.88
-      }
+      },
+      "bookValuePerShare": 150.8071
     },
     {
       "endDate": "2023-06-30",
@@ -226,7 +229,8 @@
       "trader": {
         "rmiMM": 20800,
         "throughputMtMM": 0.92
-      }
+      },
+      "bookValuePerShare": 172.0476
     },
     {
       "endDate": "2024-06-30",
@@ -312,7 +316,8 @@
       "trader": {
         "rmiMM": 22000,
         "throughputMtMM": 0.95
-      }
+      },
+      "bookValuePerShare": 189.0399
     }
   ]
 }

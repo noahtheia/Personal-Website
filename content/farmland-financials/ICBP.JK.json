@@ -33,7 +33,8 @@
       "notes": "FY19: Rp42.3T revenue, Rp5.04T net profit. Net cash positive. Pre-Pinehill.",
       "capexMM": 2900000,
       "daMM": 1200000,
-      "cfoMM": 7400000
+      "cfoMM": 7400000,
+      "epsBasic": 432.0871
     },
     {
       "endDate": "2020-12-31",
@@ -97,7 +98,8 @@
           "revenueMM": 500000,
           "ebitdaMM": 42000
         }
-      ]
+      ],
+      "epsBasic": 564.8259
     },
     {
       "endDate": "2021-12-31",
@@ -161,7 +163,8 @@
           "revenueMM": 600000,
           "ebitdaMM": 50000
         }
-      ]
+      ],
+      "epsBasic": 547.5905
     },
     {
       "endDate": "2022-03-31",
@@ -354,7 +357,8 @@
           "revenueMM": 800000,
           "ebitdaMM": 65000
         }
-      ]
+      ],
+      "epsBasic": 393.3288
     },
     {
       "endDate": "2023-03-31",
@@ -547,7 +551,8 @@
           "revenueMM": 1000000,
           "ebitdaMM": 80000
         }
-      ]
+      ],
+      "epsBasic": 616.0178
     },
     {
       "endDate": "2024-03-31",
@@ -749,7 +754,8 @@
           "revenueMM": 1300000,
           "ebitdaMM": 95000
         }
-      ]
+      ],
+      "epsBasic": 932.0871
     }
   ]
 }

@@ -31,7 +31,9 @@
       "propertyBookMM": 160,
       "ppeBookMM": 2500,
       "inventoryMM": 1950,
-      "intangibleAssetsMM": 870
+      "intangibleAssetsMM": 870,
+      "epsBasic": 0.4329,
+      "bookValuePerShare": 7.1951
     },
     {
       "endDate": "2022-12-31",
@@ -60,7 +62,9 @@
         "biologicalAssetsMM": 1724
       },
       "totalAssetsMM": 14500,
-      "propertyBookMM": 170
+      "propertyBookMM": 170,
+      "epsBasic": 0.5485,
+      "bookValuePerShare": 7.5084
     },
     {
       "endDate": "2023-12-31",
@@ -100,7 +104,9 @@
         "biologicalAssetsMM": 1782
       },
       "totalAssetsMM": 15200,
-      "propertyBookMM": 175
+      "propertyBookMM": 175,
+      "epsBasic": 0.5981,
+      "bookValuePerShare": 7.7291
     },
     {
       "endDate": "2023-03-31",
@@ -186,7 +192,9 @@
         "productionUnit": "kt grain",
         "biologicalAssetsMM": 1846
       },
-      "propertyBookMM": 180
+      "propertyBookMM": 180,
+      "epsBasic": 0.6114,
+      "bookValuePerShare": 7.9021
     },
     {
       "endDate": "2024-03-31",
@@ -246,7 +254,8 @@
       "daMM": 430,
       "cfoMM": 1750,
       "interestExpenseMM": 80,
-      "totalEquityMM": 14250
+      "totalEquityMM": 14250,
+      "bookValuePerShare": 8.0146
     }
   ]
 }

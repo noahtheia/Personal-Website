@@ -23,7 +23,8 @@
       "dividendPerShare": 1.8,
       "capexMM": 140.0,
       "daMM": 314.0,
-      "cfoMM": 224.0
+      "cfoMM": 224.0,
+      "epsBasic": 1.7314
     },
     {
       "endDate": "2020-12-31",
@@ -57,7 +58,8 @@
       "propertyBookMM": 0,
       "ppeBookMM": 14800,
       "inventoryMM": 4100,
-      "intangibleAssetsMM": 19800
+      "intangibleAssetsMM": 19800,
+      "epsBasic": 0.81
     },
     {
       "endDate": "2021-12-31",
@@ -91,7 +93,8 @@
       "propertyBookMM": 0,
       "ppeBookMM": 14900,
       "inventoryMM": 5200,
-      "intangibleAssetsMM": 19400
+      "intangibleAssetsMM": 19400,
+      "epsBasic": 5.52
     },
     {
       "endDate": "2022-12-31",
@@ -125,7 +128,8 @@
         "gasCostUSDPerMMBtu": 6.45,
         "rdSpendPctOfRevenue": 0.18
       },
-      "totalAssetsMM": 50284
+      "totalAssetsMM": 50284,
+      "epsBasic": 14.18
     },
     {
       "endDate": "2023-12-31",
@@ -159,7 +163,8 @@
         "gasCostUSDPerMMBtu": 2.85,
         "rdSpendPctOfRevenue": 0.2
       },
-      "totalAssetsMM": 49317
+      "totalAssetsMM": 49317,
+      "epsBasic": 2.53
     },
     {
       "endDate": "2024-12-31",
@@ -193,7 +198,8 @@
         "gasCostUSDPerMMBtu": 2.45,
         "rdSpendPctOfRevenue": 0.22
       },
-      "totalAssetsMM": 47420
+      "totalAssetsMM": 47420,
+      "epsBasic": 1.36
     },
     {
       "endDate": "2025-12-31",
@@ -225,7 +231,8 @@
         "3-5y": 2147.2,
         "5+y": 2684.0
       },
-      "totalEquityMM": 15500
+      "totalEquityMM": 15500,
+      "epsBasic": 4.66
     }
   ]
 }

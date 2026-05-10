@@ -35,7 +35,8 @@
       "propertyBookMM": 9,
       "ppeBookMM": 18,
       "inventoryMM": 1,
-      "intangibleAssetsMM": 1
+      "intangibleAssetsMM": 1,
+      "epsBasic": -0.0121
     },
     {
       "endDate": "2021-06-30",
@@ -68,7 +69,8 @@
       "propertyBookMM": 10,
       "ppeBookMM": 19,
       "inventoryMM": 1,
-      "intangibleAssetsMM": 1
+      "intangibleAssetsMM": 1,
+      "epsBasic": -0.01
     },
     {
       "endDate": "2022-06-30",
@@ -100,7 +102,8 @@
         "brandedRevenuePct": 91.2
       },
       "totalAssetsMM": 45,
-      "propertyBookMM": 11
+      "propertyBookMM": 11,
+      "epsBasic": -0.0121
     },
     {
       "endDate": "2023-06-30",
@@ -133,7 +136,8 @@
         "brandedRevenuePct": 91.8
       },
       "totalAssetsMM": 48,
-      "propertyBookMM": 12
+      "propertyBookMM": 12,
+      "epsBasic": -0.0148
     },
     {
       "endDate": "2024-06-30",
@@ -166,7 +170,8 @@
         "brandedRevenuePct": 92.4
       },
       "totalAssetsMM": 50,
-      "propertyBookMM": 12
+      "propertyBookMM": 12,
+      "epsBasic": -0.0093
     },
     {
       "endDate": "2025-06-30",
@@ -198,7 +203,8 @@
       "totalEquityMM": 11,
       "cfoMM": 1,
       "capexMM": 1,
-      "daMM": 1
+      "daMM": 1,
+      "epsBasic": -0.0056
     },
     {
       "endDate": "2020-12-31",

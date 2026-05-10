@@ -34,7 +34,8 @@
       "notes": "FY19: revenue Rp36.2T (-7% YoY) on CPO ASP weakness; net income Rp899B",
       "capexMM": 1100000,
       "daMM": 720000,
-      "cfoMM": 2500000
+      "cfoMM": 2500000,
+      "epsBasic": 313.0223
     },
     {
       "endDate": "2020-12-31",
@@ -80,7 +81,8 @@
         "cpoAspPerMt": 9120000,
         "maturePlantedHa": 137000,
         "rspoPct": 55
-      }
+      },
+      "epsBasic": 441.5042
     },
     {
       "endDate": "2021-12-31",
@@ -126,7 +128,8 @@
         "cpoAspPerMt": 12680000,
         "maturePlantedHa": 137200,
         "rspoPct": 58
-      }
+      },
+      "epsBasic": 639.624
     },
     {
       "endDate": "2022-03-31",
@@ -271,7 +274,8 @@
         "cpoAspPerMt": 14080000,
         "maturePlantedHa": 137500,
         "rspoPct": 60
-      }
+      },
+      "epsBasic": 589.4847
     },
     {
       "endDate": "2023-03-31",
@@ -416,7 +420,8 @@
         "cpoAspPerMt": 12380000,
         "maturePlantedHa": 137800,
         "rspoPct": 62
-      }
+      },
+      "epsBasic": 344.0111
     },
     {
       "endDate": "2024-03-31",
@@ -570,7 +575,8 @@
         "cpoAspPerMt": 13680000,
         "maturePlantedHa": 138000,
         "rspoPct": 65
-      }
+      },
+      "epsBasic": 633.7047
     }
   ]
 }

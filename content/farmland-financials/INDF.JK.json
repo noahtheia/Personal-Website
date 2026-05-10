@@ -33,7 +33,8 @@
       "notes": "FY19: Rp76.6T revenue, Rp4.91T net profit attributable. CBP flat-ish, palm oil weak.",
       "capexMM": 6500000,
       "daMM": 3800000,
-      "cfoMM": 13350000
+      "cfoMM": 13350000,
+      "epsBasic": 558.9977
     },
     {
       "endDate": "2020-12-31",
@@ -87,7 +88,8 @@
           "revenueMM": 5800000,
           "ebitdaMM": 380000
         }
-      ]
+      ],
+      "epsBasic": 734.738
     },
     {
       "endDate": "2021-12-31",
@@ -141,7 +143,8 @@
           "revenueMM": 6900000,
           "ebitdaMM": 460000
         }
-      ]
+      ],
+      "epsBasic": 872.4374
     },
     {
       "endDate": "2022-03-31",
@@ -320,7 +323,8 @@
           "revenueMM": 7800000,
           "ebitdaMM": 520000
         }
-      ]
+      ],
+      "epsBasic": 1046.9248
     },
     {
       "endDate": "2023-03-31",
@@ -499,7 +503,8 @@
           "revenueMM": 8200000,
           "ebitdaMM": 540000
         }
-      ]
+      ],
+      "epsBasic": 1023.8041
     },
     {
       "endDate": "2024-03-31",
@@ -687,7 +692,8 @@
           "revenueMM": 8500000,
           "ebitdaMM": 580000
         }
-      ]
+      ],
+      "epsBasic": 1195.8998
     }
   ]
 }

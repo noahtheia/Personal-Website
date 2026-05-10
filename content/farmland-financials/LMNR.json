@@ -35,7 +35,8 @@
       "bookValuePerShare": 9.42,
       "capexMM": 5.5,
       "cfoMM": 7.1,
-      "daMM": 2.3
+      "daMM": 2.3,
+      "epsBasic": 0.186
     },
     {
       "endDate": "2011-10-31",
@@ -68,7 +69,8 @@
       "bookValuePerShare": 10.4,
       "capexMM": 6.4,
       "cfoMM": 6.0,
-      "daMM": 2.2
+      "daMM": 2.2,
+      "epsBasic": 0.5311
     },
     {
       "endDate": "2012-10-31",
@@ -101,7 +103,8 @@
       "bookValuePerShare": 10,
       "capexMM": 8.5,
       "cfoMM": 6.5,
-      "daMM": 2.1
+      "daMM": 2.1,
+      "epsBasic": 0.1789
     },
     {
       "endDate": "2013-10-31",
@@ -134,7 +137,8 @@
       "bookValuePerShare": 8.77,
       "capexMM": 10.4,
       "cfoMM": 5.7,
-      "daMM": 2.4
+      "daMM": 2.4,
+      "epsBasic": 0.4123
     },
     {
       "endDate": "2014-10-31",
@@ -167,7 +171,8 @@
       "bookValuePerShare": 7.94,
       "capexMM": 25.9,
       "cfoMM": 16.1,
-      "daMM": 3.5
+      "daMM": 3.5,
+      "epsBasic": 0.3971
     },
     {
       "endDate": "2015-10-31",
@@ -200,7 +205,8 @@
       "bookValuePerShare": 9.25,
       "capexMM": 31.3,
       "cfoMM": 7.7,
-      "daMM": 4.2
+      "daMM": 4.2,
+      "epsBasic": 0.4979
     },
     {
       "endDate": "2016-10-31",
@@ -233,7 +239,8 @@
       "bookValuePerShare": 10.21,
       "capexMM": 16.3,
       "daMM": 5.3,
-      "cfoMM": 14.3
+      "cfoMM": 14.3,
+      "epsBasic": 0.493
     },
     {
       "endDate": "2017-10-31",
@@ -266,7 +273,8 @@
       "bookValuePerShare": 14.08,
       "capexMM": 12.9,
       "daMM": 6.5,
-      "cfoMM": 18.5
+      "cfoMM": 18.5,
+      "epsBasic": 0.8099
     },
     {
       "endDate": "2018-10-31",
@@ -299,7 +307,8 @@
       "bookValuePerShare": 13.14,
       "capexMM": 13.9,
       "daMM": 7.3,
-      "cfoMM": 18.4
+      "cfoMM": 18.4,
+      "epsBasic": 0.3714
     },
     {
       "endDate": "2019-10-31",
@@ -332,7 +341,8 @@
       "bookValuePerShare": 13.64,
       "capexMM": 15.9,
       "daMM": 8.6,
-      "cfoMM": 1.4
+      "cfoMM": 1.4,
+      "epsBasic": 0.2615
     },
     {
       "endDate": "2020-10-31",
@@ -374,7 +384,8 @@
           "nonBearingHa": 900,
           "avgTreeAgeYears": 12
         }
-      }
+      },
+      "epsBasic": -0.4257
     },
     {
       "endDate": "2021-01-31",
@@ -494,7 +505,8 @@
           "nonBearingHa": 824,
           "avgTreeAgeYears": 13
         }
-      }
+      },
+      "epsBasic": -0.3116
     },
     {
       "endDate": "2022-01-31",
@@ -620,7 +632,8 @@
           "nonBearingHa": 762,
           "avgTreeAgeYears": 14
         }
-      }
+      },
+      "epsBasic": -0.3676
     },
     {
       "endDate": "2023-01-31",
@@ -746,7 +759,8 @@
           "nonBearingHa": 702,
           "avgTreeAgeYears": 15
         }
-      }
+      },
+      "epsBasic": 1.1005
     },
     {
       "endDate": "2024-01-31",
@@ -872,7 +886,8 @@
           "nonBearingHa": 644,
           "avgTreeAgeYears": 16
         }
-      }
+      },
+      "epsBasic": -0.9577
     },
     {
       "endDate": "2025-01-31",
@@ -987,7 +1002,8 @@
         "1-3y": 18.12,
         "3-5y": 14.5,
         "5+y": 25.37
-      }
+      },
+      "epsBasic": -1.6573
     }
   ]
 }

@@ -28,7 +28,9 @@
       "propertyBookMM": 0,
       "ppeBookMM": 32000,
       "inventoryMM": 38000,
-      "intangibleAssetsMM": 14500
+      "intangibleAssetsMM": 14500,
+      "epsBasic": 1.3092,
+      "bookValuePerShare": 11.8843
     },
     {
       "endDate": "2021-12-31",
@@ -54,7 +56,9 @@
       "propertyBookMM": 0,
       "ppeBookMM": 33500,
       "inventoryMM": 42000,
-      "intangibleAssetsMM": 15000
+      "intangibleAssetsMM": 15000,
+      "epsBasic": 1.6795,
+      "bookValuePerShare": 12.6808
     },
     {
       "endDate": "2022-12-31",
@@ -80,7 +84,9 @@
         "plants": 14,
         "capacityUtilizationPct": 80
       },
-      "totalAssetsMM": 158000
+      "totalAssetsMM": 158000,
+      "epsBasic": 1.5028,
+      "bookValuePerShare": 13.3725
     },
     {
       "endDate": "2023-12-31",
@@ -117,7 +123,9 @@
         "plants": 14,
         "capacityUtilizationPct": 75
       },
-      "totalAssetsMM": 152000
+      "totalAssetsMM": 152000,
+      "epsBasic": -0.6288,
+      "bookValuePerShare": 13.4563
     },
     {
       "endDate": "2023-03-31",
@@ -206,7 +214,9 @@
         "plants": 14,
         "capacityUtilizationPct": 78
       },
-      "totalAssetsMM": 155000
+      "totalAssetsMM": 155000,
+      "epsBasic": 1.4089,
+      "bookValuePerShare": 13.7288
     },
     {
       "endDate": "2024-03-31",

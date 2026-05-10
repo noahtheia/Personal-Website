@@ -38,7 +38,8 @@
       "propertyBookMM": 0,
       "ppeBookMM": 175,
       "inventoryMM": 60,
-      "intangibleAssetsMM": 90
+      "intangibleAssetsMM": 90,
+      "epsBasic": -0.1136
     },
     {
       "endDate": "2021-10-31",
@@ -74,7 +75,8 @@
       "propertyBookMM": 0,
       "ppeBookMM": 180,
       "inventoryMM": 75,
-      "intangibleAssetsMM": 90
+      "intangibleAssetsMM": 90,
+      "epsBasic": -0.9091
     },
     {
       "endDate": "2022-01-31",
@@ -167,7 +169,8 @@
         "productionUnit": "M lbs avocado-equiv"
       },
       "totalAssetsMM": 540,
-      "propertyBookMM": 0
+      "propertyBookMM": 0,
+      "epsBasic": -1.5254
     },
     {
       "endDate": "2023-01-31",
@@ -260,7 +263,8 @@
         "productionUnit": "M lbs avocado-equiv"
       },
       "totalAssetsMM": 460,
-      "propertyBookMM": 0
+      "propertyBookMM": 0,
+      "epsBasic": -0.3955
     },
     {
       "endDate": "2024-01-31",
@@ -352,7 +356,8 @@
         "productionUnit": "M lbs avocado-equiv"
       },
       "totalAssetsMM": 430,
-      "propertyBookMM": 0
+      "propertyBookMM": 0,
+      "epsBasic": 0.452
     },
     {
       "endDate": "2025-01-31",

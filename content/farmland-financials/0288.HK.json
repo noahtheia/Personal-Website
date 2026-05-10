@@ -45,7 +45,9 @@
       "propertyBookMM": 850,
       "ppeBookMM": 7200,
       "inventoryMM": 3800,
-      "intangibleAssetsMM": 3200
+      "intangibleAssetsMM": 3200,
+      "epsBasic": 0.0724,
+      "bookValuePerShare": 0.4889
     },
     {
       "endDate": "2021-06-30",
@@ -96,7 +98,9 @@
       "propertyBookMM": 900,
       "ppeBookMM": 7500,
       "inventoryMM": 4200,
-      "intangibleAssetsMM": 3300
+      "intangibleAssetsMM": 3300,
+      "epsBasic": 0.0714,
+      "bookValuePerShare": 0.5035
     },
     {
       "endDate": "2022-06-30",
@@ -152,7 +156,9 @@
           "feedConversionRatio": 2.92
         }
       },
-      "totalAssetsMM": 24500
+      "totalAssetsMM": 24500,
+      "epsBasic": 0.0937,
+      "bookValuePerShare": 0.4712
     },
     {
       "endDate": "2023-06-30",
@@ -208,7 +214,9 @@
           "feedConversionRatio": 2.88
         }
       },
-      "totalAssetsMM": 23800
+      "totalAssetsMM": 23800,
+      "epsBasic": 0.0468,
+      "bookValuePerShare": 0.5269
     },
     {
       "endDate": "2024-06-30",
@@ -272,7 +280,9 @@
           "feedConversionRatio": 2.85
         }
       },
-      "totalAssetsMM": 24200
+      "totalAssetsMM": 24200,
+      "epsBasic": 0.1146,
+      "bookValuePerShare": 0.5616
     },
     {
       "endDate": "2025-06-30",

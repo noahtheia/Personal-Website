@@ -66,7 +66,8 @@
       "propertyBookMM": 180,
       "ppeBookMM": 5400,
       "inventoryMM": 2100,
-      "intangibleAssetsMM": 1750
+      "intangibleAssetsMM": 1750,
+      "bookValuePerShare": 11.8458
     },
     {
       "endDate": "2021-09-18",
@@ -130,7 +131,8 @@
       "propertyBookMM": 190,
       "ppeBookMM": 5500,
       "inventoryMM": 2200,
-      "intangibleAssetsMM": 1780
+      "intangibleAssetsMM": 1780,
+      "bookValuePerShare": 12.3325
     },
     {
       "endDate": "2022-09-17",
@@ -200,7 +202,8 @@
           "ebitdaMM": 78
         }
       ],
-      "totalAssetsMM": 19500
+      "totalAssetsMM": 19500,
+      "bookValuePerShare": 13.098
     },
     {
       "endDate": "2023-09-16",
@@ -270,7 +273,8 @@
           "ebitdaMM": 88
         }
       ],
-      "totalAssetsMM": 20800
+      "totalAssetsMM": 20800,
+      "bookValuePerShare": 14.2497
     },
     {
       "endDate": "2024-09-14",
@@ -340,7 +344,8 @@
           "ebitdaMM": 95
         }
       ],
-      "totalAssetsMM": 21500
+      "totalAssetsMM": 21500,
+      "bookValuePerShare": 15.1084
     },
     {
       "endDate": "2021-03-06",
@@ -435,7 +440,8 @@
       "capexMM": 950,
       "daMM": 810,
       "cfoMM": 2300,
-      "totalEquityMM": 11380
+      "totalEquityMM": 11380,
+      "bookValuePerShare": 15.8056
     }
   ]
 }

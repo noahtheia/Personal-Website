@@ -54,7 +54,8 @@
       "propertyBookMM": 0,
       "ppeBookMM": 810,
       "inventoryMM": 620,
-      "intangibleAssetsMM": 280
+      "intangibleAssetsMM": 280,
+      "epsBasic": 0.496
     },
     {
       "endDate": "2022-02-28",
@@ -106,7 +107,8 @@
       "propertyBookMM": 0,
       "ppeBookMM": 820,
       "inventoryMM": 700,
-      "intangibleAssetsMM": 285
+      "intangibleAssetsMM": 285,
+      "epsBasic": 1.248
     },
     {
       "endDate": "2023-02-28",
@@ -158,7 +160,8 @@
           "ebitdaMM": 100
         }
       ],
-      "totalAssetsMM": 2900
+      "totalAssetsMM": 2900,
+      "epsBasic": 0.256
     },
     {
       "endDate": "2024-02-29",
@@ -210,7 +213,8 @@
           "ebitdaMM": 115
         }
       ],
-      "totalAssetsMM": 2950
+      "totalAssetsMM": 2950,
+      "epsBasic": 1.744
     },
     {
       "endDate": "2025-02-28",
@@ -269,7 +273,8 @@
           "revenueMM": 1320,
           "ebitdaMM": 110
         }
-      ]
+      ],
+      "epsBasic": 0.88
     },
     {
       "endDate": "2020-08-31",

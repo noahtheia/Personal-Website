@@ -33,7 +33,8 @@
       "propertyBookMM": 0,
       "ppeBookMM": 195,
       "inventoryMM": 22,
-      "intangibleAssetsMM": 5
+      "intangibleAssetsMM": 5,
+      "epsBasic": 1.2676
     },
     {
       "endDate": "2021-12-31",
@@ -64,7 +65,8 @@
       "propertyBookMM": 0,
       "ppeBookMM": 290,
       "inventoryMM": 35,
-      "intangibleAssetsMM": 5
+      "intangibleAssetsMM": 5,
+      "epsBasic": 0.2781
     },
     {
       "endDate": "2022-03-31",
@@ -152,7 +154,8 @@
       "trader": {
         "ethanolGalsMM": 275
       },
-      "totalAssetsMM": 490
+      "totalAssetsMM": 490,
+      "epsBasic": -0.0397
     },
     {
       "endDate": "2023-03-31",
@@ -240,7 +243,8 @@
       "trader": {
         "ethanolGalsMM": 265
       },
-      "totalAssetsMM": 460
+      "totalAssetsMM": 460,
+      "epsBasic": -0.5026
     },
     {
       "endDate": "2024-03-31",
@@ -346,7 +350,8 @@
       "trader": {
         "ethanolGalsMM": 250
       },
-      "totalAssetsMM": 380
+      "totalAssetsMM": 380,
+      "epsBasic": -1.0921
     },
     {
       "endDate": "2025-03-31",

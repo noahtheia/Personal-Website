@@ -22,7 +22,8 @@
       "notes": "FY20 (53-week year ended Jan 1, 2021): COVID-impacted; banana segment held up while gold pineapple soft. Op income $76.5M + D&A $95.0M = EBITDA $171.5M. Net debt $525.5M (long-term debt $541.8M + current debt $0.2M \u2212 cash $16.5M).",
       "capexMM": 150.0,
       "daMM": 95.0,
-      "cfoMM": 180.6
+      "cfoMM": 180.6,
+      "bookValuePerShare": 36.4788
     },
     {
       "endDate": "2021-12-31",
@@ -53,7 +54,8 @@
         "productionVolume": 3946,
         "productionUnit": "kt fresh produce",
         "biologicalAssetsMM": 78.6
-      }
+      },
+      "bookValuePerShare": 37.9033
     },
     {
       "endDate": "2022-04-01",
@@ -132,7 +134,8 @@
         "COGS": 4150,
         "SG&A": 245,
         "D&A": 118
-      }
+      },
+      "bookValuePerShare": 39.814
     },
     {
       "endDate": "2023-03-31",
@@ -211,7 +214,8 @@
         "COGS": 4080,
         "SG&A": 240,
         "D&A": 120
-      }
+      },
+      "bookValuePerShare": 39.8131
     },
     {
       "endDate": "2024-03-29",
@@ -300,7 +304,8 @@
         "COGS": 3950,
         "SG&A": 235,
         "D&A": 122
-      }
+      },
+      "bookValuePerShare": 41.5207
     },
     {
       "endDate": "2025-03-28",
@@ -407,7 +412,8 @@
         "COGS": 3920,
         "SG&A": 238,
         "D&A": 124
-      }
+      },
+      "bookValuePerShare": 42.5628
     },
     {
       "endDate": "2026-03-27",

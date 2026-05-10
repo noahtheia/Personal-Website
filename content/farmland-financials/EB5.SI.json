@@ -28,7 +28,9 @@
       "totalEquityMM": 380,
       "cfoMM": 95,
       "capexMM": 75,
-      "daMM": 22
+      "daMM": 22,
+      "epsBasic": 0.0501,
+      "bookValuePerShare": 0.2608
     },
     {
       "endDate": "2009-12-31",
@@ -54,7 +56,9 @@
       "totalEquityMM": 460,
       "cfoMM": 115,
       "capexMM": 90,
-      "daMM": 28
+      "daMM": 28,
+      "epsBasic": 0.0702,
+      "bookValuePerShare": 0.3077
     },
     {
       "endDate": "2010-12-31",
@@ -80,7 +84,9 @@
       "totalEquityMM": 580,
       "cfoMM": 155,
       "capexMM": 115,
-      "daMM": 35
+      "daMM": 35,
+      "epsBasic": 0.1104,
+      "bookValuePerShare": 0.388
     },
     {
       "endDate": "2011-12-31",
@@ -107,7 +113,9 @@
       "totalEquityMM": 730,
       "cfoMM": 200,
       "capexMM": 145,
-      "daMM": 44
+      "daMM": 44,
+      "epsBasic": 0.153,
+      "bookValuePerShare": 0.4857
     },
     {
       "endDate": "2012-12-31",
@@ -134,7 +142,9 @@
       "totalEquityMM": 880,
       "cfoMM": 220,
       "capexMM": 165,
-      "daMM": 52
+      "daMM": 52,
+      "epsBasic": 0.1427,
+      "bookValuePerShare": 0.5707
     },
     {
       "endDate": "2013-12-31",
@@ -161,7 +171,9 @@
       "totalEquityMM": 1020,
       "cfoMM": 230,
       "capexMM": 180,
-      "daMM": 60
+      "daMM": 60,
+      "epsBasic": 0.1265,
+      "bookValuePerShare": 0.6615
     },
     {
       "endDate": "2014-12-31",
@@ -188,7 +200,9 @@
       "capexMM": 130,
       "daMM": 38,
       "cfoMM": 165,
-      "totalEquityMM": 1150
+      "totalEquityMM": 1150,
+      "epsBasic": 0.1297,
+      "bookValuePerShare": 0.7458
     },
     {
       "endDate": "2015-12-31",
@@ -215,7 +229,9 @@
       "capexMM": 110,
       "daMM": 42,
       "cfoMM": 130,
-      "totalEquityMM": 1230
+      "totalEquityMM": 1230,
+      "epsBasic": 0.0544,
+      "bookValuePerShare": 0.778
     },
     {
       "endDate": "2016-12-31",
@@ -242,7 +258,9 @@
       "capexMM": 95,
       "daMM": 46,
       "cfoMM": 175,
-      "totalEquityMM": 1320
+      "totalEquityMM": 1320,
+      "epsBasic": 0.0664,
+      "bookValuePerShare": 0.8349
     },
     {
       "endDate": "2017-12-31",
@@ -270,7 +288,8 @@
       "capexMM": 90,
       "daMM": 50,
       "cfoMM": 200,
-      "totalEquityMM": 1410
+      "totalEquityMM": 1410,
+      "epsBasic": 0.0917
     },
     {
       "endDate": "2018-12-31",
@@ -298,7 +317,8 @@
       "capexMM": 85,
       "daMM": 53,
       "cfoMM": 145,
-      "totalEquityMM": 1480
+      "totalEquityMM": 1480,
+      "epsBasic": 0.0569
     },
     {
       "endDate": "2019-06-30",
@@ -344,7 +364,8 @@
       "capexMM": 70,
       "daMM": 56,
       "cfoMM": 130,
-      "totalEquityMM": 1530
+      "totalEquityMM": 1530,
+      "epsBasic": 0.0586
     },
     {
       "endDate": "2020-06-30",
@@ -409,7 +430,8 @@
       "propertyBookMM": 480,
       "ppeBookMM": 520,
       "inventoryMM": 90,
-      "intangibleAssetsMM": 35
+      "intangibleAssetsMM": 35,
+      "epsBasic": 0.0784
     },
     {
       "endDate": "2021-06-30",
@@ -474,7 +496,8 @@
       "propertyBookMM": 510,
       "ppeBookMM": 540,
       "inventoryMM": 110,
-      "intangibleAssetsMM": 35
+      "intangibleAssetsMM": 35,
+      "epsBasic": 0.1362
     },
     {
       "endDate": "2022-06-30",
@@ -539,7 +562,8 @@
         "maturePlantedHa": 186000,
         "rspoPct": 55
       },
-      "totalAssetsMM": 1850
+      "totalAssetsMM": 1850,
+      "epsBasic": 0.1809
     },
     {
       "endDate": "2023-06-30",
@@ -604,7 +628,8 @@
         "maturePlantedHa": 186500,
         "rspoPct": 58
       },
-      "totalAssetsMM": 1920
+      "totalAssetsMM": 1920,
+      "epsBasic": 0.1206
     },
     {
       "endDate": "2024-06-30",
@@ -677,7 +702,8 @@
         "maturePlantedHa": 187000,
         "rspoPct": 60
       },
-      "totalAssetsMM": 1980
+      "totalAssetsMM": 1980,
+      "epsBasic": 0.1062
     }
   ]
 }

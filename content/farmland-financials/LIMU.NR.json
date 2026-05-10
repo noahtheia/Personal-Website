@@ -2,7 +2,7 @@
   "ticker": "LIMU.NR",
   "currency": "KES",
   "sourceUrl": "https://limurutea.com/investor-relations/",
-  "notes": "Limuru Tea Company Plc — micro-cap Kenyan tea estate listed on NSE. Owns ~600 ha (~1.5k acres) of tea bushes in Limuru, Kiambu County, plus a smaller block of forest land. Managed by Unilever Tea Kenya / Ekaterra under a long-standing management agreement. Calendar fiscal year. KES reporting; figures in KES millions. Highly thinly traded (only 2.4M shares outstanding). Profitability tracks Mombasa tea auction prices closely. Land book reflects historical cost; market value is estimated to be materially higher given Limuru's peri-urban location near Nairobi. Despite small size, full FY history maintained for cross-period comparability. FY2023-2024 hit by tea price weakness same as Sasini.",
+  "notes": "Limuru Tea Company Plc \u2014 micro-cap Kenyan tea estate listed on NSE. Owns ~600 ha (~1.5k acres) of tea bushes in Limuru, Kiambu County, plus a smaller block of forest land. Managed by Unilever Tea Kenya / Ekaterra under a long-standing management agreement. Calendar fiscal year. KES reporting; figures in KES millions. Highly thinly traded (only 2.4M shares outstanding). Profitability tracks Mombasa tea auction prices closely. Land book reflects historical cost; market value is estimated to be materially higher given Limuru's peri-urban location near Nairobi. Despite small size, full FY history maintained for cross-period comparability. FY2023-2024 hit by tea price weakness same as Sasini.",
   "periods": [
     {
       "endDate": "2020-12-31",
@@ -26,7 +26,8 @@
       "notes": "FY20: COVID-impacted demand",
       "capexMM": 8,
       "daMM": 12,
-      "cfoMM": 18
+      "cfoMM": 18,
+      "epsBasic": 5.0
     },
     {
       "endDate": "2021-12-31",
@@ -50,7 +51,8 @@
       "notes": "FY21: tea auction prices recovered, output up",
       "capexMM": 10,
       "daMM": 13,
-      "cfoMM": 22
+      "cfoMM": 22,
+      "epsBasic": 7.9167
     },
     {
       "endDate": "2022-12-31",
@@ -83,7 +85,8 @@
       "notes": "FY22: best year of cycle, KES weakness boosted USD-priced tea exports",
       "capexMM": 12,
       "daMM": 14,
-      "cfoMM": 25
+      "cfoMM": 25,
+      "epsBasic": 10.0
     },
     {
       "endDate": "2023-12-31",
@@ -116,7 +119,8 @@
       "notes": "FY23: tea auction prices softened, gross margin compression",
       "capexMM": 11,
       "daMM": 14,
-      "cfoMM": 21
+      "cfoMM": 21,
+      "epsBasic": 7.5
     },
     {
       "endDate": "2023-06-30",
@@ -158,7 +162,8 @@
       "capexMM": 13,
       "daMM": 15,
       "cfoMM": 24,
-      "interestExpenseMM": 0
+      "interestExpenseMM": 0,
+      "epsBasic": 5.2083
     },
     {
       "endDate": "2024-06-30",

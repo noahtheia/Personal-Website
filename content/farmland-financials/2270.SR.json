@@ -21,7 +21,8 @@
       "notes": "FY21: COVID demand for shelf-stable milk; price discipline maintained",
       "capexMM": 35,
       "daMM": 38,
-      "cfoMM": 80
+      "cfoMM": 80,
+      "epsBasic": 6.6154
     },
     {
       "endDate": "2022-03-31",
@@ -40,7 +41,8 @@
       "notes": "FY22: input cost inflation (milk powder, packaging); pricing actions late in year",
       "capexMM": 40,
       "daMM": 40,
-      "cfoMM": 95
+      "cfoMM": 95,
+      "epsBasic": 6.0
     },
     {
       "endDate": "2023-03-31",
@@ -59,7 +61,8 @@
       "notes": "FY23: full impact of pricing flowed through; commodity easing",
       "capexMM": 50,
       "daMM": 42,
-      "cfoMM": 110
+      "cfoMM": 110,
+      "epsBasic": 7.2
     },
     {
       "endDate": "2024-03-31",
@@ -91,7 +94,8 @@
       "notes": "FY24: record revenue and net income; export expansion across MENA",
       "capexMM": 55,
       "daMM": 44,
-      "cfoMM": 120
+      "cfoMM": 120,
+      "epsBasic": 8.1231
     },
     {
       "endDate": "2023-06-30",
@@ -173,7 +177,8 @@
         "1-3y": 15.0,
         "3-5y": 10.0,
         "5+y": 12.5
-      }
+      },
+      "epsBasic": 8.4
     },
     {
       "endDate": "2024-06-30",

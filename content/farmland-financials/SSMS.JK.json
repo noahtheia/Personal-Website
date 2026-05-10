@@ -33,7 +33,8 @@
       "notes": "FY14: first full year as IDX-listed company (IPO Dec 2013). Revenue Rp1.95T, net income Rp660B. Planted ~64k ha",
       "capexMM": 870000,
       "daMM": 180000,
-      "cfoMM": 580000
+      "cfoMM": 580000,
+      "epsBasic": 69.2913
     },
     {
       "endDate": "2015-12-31",
@@ -64,7 +65,8 @@
       "notes": "FY15: CPO ASP trough but volume growth offsets. Net income Rp590B",
       "capexMM": 760000,
       "daMM": 210000,
-      "cfoMM": 430000
+      "cfoMM": 430000,
+      "epsBasic": 61.9423
     },
     {
       "endDate": "2016-12-31",
@@ -95,7 +97,8 @@
       "notes": "FY16: CPO recovery. Revenue Rp2.72T (+15% YoY)",
       "capexMM": 700000,
       "daMM": 240000,
-      "cfoMM": 690000
+      "cfoMM": 690000,
+      "epsBasic": 62.9921
     },
     {
       "endDate": "2017-12-31",
@@ -126,7 +129,8 @@
       "notes": "FY17: revenue Rp3.24T (+19%), net income Rp790B peak",
       "capexMM": 800000,
       "daMM": 270000,
-      "cfoMM": 760000
+      "cfoMM": 760000,
+      "epsBasic": 82.9396
     },
     {
       "endDate": "2018-12-31",
@@ -156,7 +160,8 @@
       "notes": "FY18: CPO ASP weakness. Net income compressed to Rp80B. USD bond issuance grew debt",
       "capexMM": 680000,
       "daMM": 290000,
-      "cfoMM": 540000
+      "cfoMM": 540000,
+      "epsBasic": 8.399
     },
     {
       "endDate": "2019-12-31",
@@ -186,7 +191,8 @@
       "notes": "FY19: CPO ASP trough \u2014 net loss Rp190B. Heavy USD-debt FX losses",
       "capexMM": 530000,
       "daMM": 310000,
-      "cfoMM": 480000
+      "cfoMM": 480000,
+      "epsBasic": -19.9475
     },
     {
       "endDate": "2020-03-31",
@@ -315,7 +321,8 @@
         "cpoAspPerMt": 9220000,
         "maturePlantedHa": 69500,
         "rspoPct": 50
-      }
+      },
+      "epsBasic": 29.3963
     },
     {
       "endDate": "2021-03-31",
@@ -445,7 +452,8 @@
         "cpoAspPerMt": 12750000,
         "maturePlantedHa": 69800,
         "rspoPct": 52
-      }
+      },
+      "epsBasic": 100.2625
     },
     {
       "endDate": "2022-03-31",
@@ -584,7 +592,8 @@
         "cpoAspPerMt": 14150000,
         "maturePlantedHa": 70000,
         "rspoPct": 55
-      }
+      },
+      "epsBasic": 110.2362
     },
     {
       "endDate": "2023-03-31",
@@ -722,7 +731,8 @@
         "cpoAspPerMt": 12450000,
         "maturePlantedHa": 70200,
         "rspoPct": 58
-      }
+      },
+      "epsBasic": 40.4199
     },
     {
       "endDate": "2024-03-31",
@@ -869,7 +879,8 @@
         "cpoAspPerMt": 13750000,
         "maturePlantedHa": 70500,
         "rspoPct": 60
-      }
+      },
+      "epsBasic": 74.5407
     }
   ]
 }

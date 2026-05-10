@@ -106,7 +106,8 @@
       "propertyBookMM": 450,
       "ppeBookMM": 105,
       "inventoryMM": 175,
-      "intangibleAssetsMM": 9
+      "intangibleAssetsMM": 9,
+      "epsBasic": 0.3949
     },
     {
       "endDate": "2022-03-31",
@@ -260,7 +261,8 @@
         "ffoPerShare": 0.78,
         "affoPerShare": 0.81
       },
-      "totalAssetsMM": 1280
+      "totalAssetsMM": 1280,
+      "epsBasic": 1.4255
     },
     {
       "endDate": "2023-03-31",
@@ -414,7 +416,8 @@
         "ffoPerShare": 0.86,
         "affoPerShare": 0.89
       },
-      "totalAssetsMM": 1380
+      "totalAssetsMM": 1380,
+      "epsBasic": 0.3659
     },
     {
       "endDate": "2024-03-31",
@@ -568,7 +571,8 @@
         "ffoPerShare": 0.94,
         "affoPerShare": 0.97
       },
-      "totalAssetsMM": 1450
+      "totalAssetsMM": 1450,
+      "epsBasic": 0.0763
     },
     {
       "endDate": "2025-03-31",
@@ -707,7 +711,8 @@
         "1-3y": 25.0,
         "3-5y": 20.0,
         "5+y": 35.0
-      }
+      },
+      "epsBasic": 0.0494
     }
   ]
 }

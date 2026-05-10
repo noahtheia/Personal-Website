@@ -33,7 +33,8 @@
       "notes": "FY19: Rp7.22T revenue, modest Rp152B net profit on tight DOC pricing.",
       "capexMM": 280000,
       "daMM": 220000,
-      "cfoMM": 380000
+      "cfoMM": 380000,
+      "epsBasic": 67.8874
     },
     {
       "endDate": "2020-12-31",
@@ -69,7 +70,8 @@
         "plants": 11,
         "weeklyHeadCapacity": 4000000,
         "capacityUtilizationPct": 72
-      }
+      },
+      "epsBasic": -21.8848
     },
     {
       "endDate": "2021-12-31",
@@ -105,7 +107,8 @@
         "plants": 11,
         "weeklyHeadCapacity": 4100000,
         "capacityUtilizationPct": 76
-      }
+      },
+      "epsBasic": 64.3144
     },
     {
       "endDate": "2022-03-31",
@@ -242,7 +245,8 @@
         "plants": 12,
         "weeklyHeadCapacity": 4150000,
         "capacityUtilizationPct": 78
-      }
+      },
+      "epsBasic": 96.025
     },
     {
       "endDate": "2023-03-31",
@@ -379,7 +383,8 @@
         "plants": 12,
         "weeklyHeadCapacity": 4200000,
         "capacityUtilizationPct": 72
-      }
+      },
+      "epsBasic": 25.0112
     },
     {
       "endDate": "2024-03-31",
@@ -525,7 +530,8 @@
         "plants": 12,
         "weeklyHeadCapacity": 4200000,
         "capacityUtilizationPct": 76
-      }
+      },
+      "epsBasic": 70.5672
     }
   ]
 }

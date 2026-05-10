@@ -39,7 +39,8 @@
       "cfoMM": 1380,
       "ppeBookMM": 17650,
       "inventoryMM": 3580,
-      "intangibleAssetsMM": 3450
+      "intangibleAssetsMM": 3450,
+      "epsBasic": 0.3606
     },
     {
       "endDate": "2018-12-31",
@@ -76,7 +77,8 @@
       "cfoMM": 1490,
       "ppeBookMM": 18150,
       "inventoryMM": 3680,
-      "intangibleAssetsMM": 3580
+      "intangibleAssetsMM": 3580,
+      "epsBasic": 0.0889
     },
     {
       "endDate": "2019-12-31",
@@ -113,7 +115,8 @@
       "cfoMM": 1290,
       "ppeBookMM": 18720,
       "inventoryMM": 3780,
-      "intangibleAssetsMM": 3680
+      "intangibleAssetsMM": 3680,
+      "epsBasic": 0.0036
     },
     {
       "endDate": "2020-03-31",
@@ -232,7 +235,8 @@
         "cpoAspPerMt": 2820,
         "maturePlantedHa": 289000,
         "rspoPct": 95
-      }
+      },
+      "epsBasic": 0.1417
     },
     {
       "endDate": "2021-03-31",
@@ -351,7 +355,8 @@
         "cpoAspPerMt": 4180,
         "maturePlantedHa": 287000,
         "rspoPct": 96
-      }
+      },
+      "epsBasic": 0.2879
     },
     {
       "endDate": "2022-03-31",
@@ -477,7 +482,8 @@
         "cpoAspPerMt": 4720,
         "maturePlantedHa": 285000,
         "rspoPct": 98
-      }
+      },
+      "epsBasic": 0.3471
     },
     {
       "endDate": "2023-03-31",
@@ -605,7 +611,8 @@
         "cpoAspPerMt": 3850,
         "maturePlantedHa": 282000,
         "rspoPct": 98
-      }
+      },
+      "epsBasic": 0.1518
     },
     {
       "endDate": "2024-03-31",
@@ -742,7 +749,8 @@
         "cpoAspPerMt": 4150,
         "maturePlantedHa": 280000,
         "rspoPct": 98
-      }
+      },
+      "epsBasic": 0.214
     },
     {
       "endDate": "2025-03-31",

@@ -31,7 +31,8 @@
       "propertyBookMM": 35,
       "ppeBookMM": 105,
       "inventoryMM": 40,
-      "intangibleAssetsMM": 8
+      "intangibleAssetsMM": 8,
+      "epsBasic": 0.48
     },
     {
       "endDate": "2008-12-31",
@@ -60,7 +61,8 @@
       "propertyBookMM": 45,
       "ppeBookMM": 135,
       "inventoryMM": 55,
-      "intangibleAssetsMM": 10
+      "intangibleAssetsMM": 10,
+      "epsBasic": 0.72
     },
     {
       "endDate": "2009-12-31",
@@ -89,7 +91,8 @@
       "propertyBookMM": 52,
       "ppeBookMM": 155,
       "inventoryMM": 65,
-      "intangibleAssetsMM": 12
+      "intangibleAssetsMM": 12,
+      "epsBasic": 0.56
     },
     {
       "endDate": "2010-12-31",
@@ -118,7 +121,8 @@
       "propertyBookMM": 70,
       "ppeBookMM": 200,
       "inventoryMM": 90,
-      "intangibleAssetsMM": 15
+      "intangibleAssetsMM": 15,
+      "epsBasic": 1.52
     },
     {
       "endDate": "2011-12-31",
@@ -147,7 +151,8 @@
       "propertyBookMM": 90,
       "ppeBookMM": 260,
       "inventoryMM": 120,
-      "intangibleAssetsMM": 20
+      "intangibleAssetsMM": 20,
+      "epsBasic": 2.4
     },
     {
       "endDate": "2012-12-31",
@@ -176,7 +181,8 @@
       "propertyBookMM": 110,
       "ppeBookMM": 320,
       "inventoryMM": 145,
-      "intangibleAssetsMM": 25
+      "intangibleAssetsMM": 25,
+      "epsBasic": 2.0
     },
     {
       "endDate": "2013-12-31",
@@ -205,7 +211,8 @@
       "propertyBookMM": 125,
       "ppeBookMM": 360,
       "inventoryMM": 160,
-      "intangibleAssetsMM": 28
+      "intangibleAssetsMM": 28,
+      "epsBasic": 1.52
     },
     {
       "endDate": "2014-12-31",
@@ -234,7 +241,8 @@
       "propertyBookMM": 80,
       "ppeBookMM": 240,
       "inventoryMM": 110,
-      "intangibleAssetsMM": 18
+      "intangibleAssetsMM": 18,
+      "epsBasic": 1.0
     },
     {
       "endDate": "2015-12-31",
@@ -263,7 +271,8 @@
       "propertyBookMM": 65,
       "ppeBookMM": 190,
       "inventoryMM": 90,
-      "intangibleAssetsMM": 14
+      "intangibleAssetsMM": 14,
+      "epsBasic": 3.2
     },
     {
       "endDate": "2016-12-31",
@@ -292,7 +301,8 @@
       "propertyBookMM": 70,
       "ppeBookMM": 205,
       "inventoryMM": 95,
-      "intangibleAssetsMM": 15
+      "intangibleAssetsMM": 15,
+      "epsBasic": 3.68
     },
     {
       "endDate": "2017-12-31",
@@ -321,7 +331,8 @@
       "propertyBookMM": 78,
       "ppeBookMM": 230,
       "inventoryMM": 105,
-      "intangibleAssetsMM": 16
+      "intangibleAssetsMM": 16,
+      "epsBasic": 2.0
     },
     {
       "endDate": "2018-12-31",
@@ -350,7 +361,8 @@
       "propertyBookMM": 82,
       "ppeBookMM": 240,
       "inventoryMM": 110,
-      "intangibleAssetsMM": 17
+      "intangibleAssetsMM": 17,
+      "epsBasic": 0.72
     },
     {
       "endDate": "2019-12-31",
@@ -379,7 +391,8 @@
       "propertyBookMM": 85,
       "ppeBookMM": 250,
       "inventoryMM": 115,
-      "intangibleAssetsMM": 18
+      "intangibleAssetsMM": 18,
+      "epsBasic": -0.4005
     },
     {
       "endDate": "2020-12-31",
@@ -437,7 +450,8 @@
       "propertyBookMM": 80,
       "ppeBookMM": 200,
       "inventoryMM": 110,
-      "intangibleAssetsMM": 12
+      "intangibleAssetsMM": 12,
+      "epsBasic": -0.2002
     },
     {
       "endDate": "2021-12-31",
@@ -495,7 +509,8 @@
       "propertyBookMM": 95,
       "ppeBookMM": 220,
       "inventoryMM": 140,
-      "intangibleAssetsMM": 13
+      "intangibleAssetsMM": 13,
+      "epsBasic": 1.5218
     },
     {
       "endDate": "2022-12-31",
@@ -553,7 +568,8 @@
       ],
       "totalAssetsMM": 510,
       "totalDebtMM": 200,
-      "cashMM": 35
+      "cashMM": 35,
+      "epsBasic": -1.0012
     },
     {
       "endDate": "2023-12-31",
@@ -611,7 +627,8 @@
       ],
       "totalAssetsMM": 540,
       "totalDebtMM": 190,
-      "cashMM": 50
+      "cashMM": 50,
+      "epsBasic": 2.452
     },
     {
       "endDate": "2024-03-31",
@@ -740,7 +757,8 @@
           "ebitdaMM": 12
         }
       ],
-      "totalAssetsMM": 580
+      "totalAssetsMM": 580,
+      "epsBasic": 1.4303
     }
   ]
 }

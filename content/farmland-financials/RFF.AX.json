@@ -30,7 +30,8 @@
       "totalAcresK": 200,
       "dividendPerShare": 0.0846,
       "notes": "FY14 Annual Report: first reporting period as ASX-listed RFF (listed Feb 2014). Portfolio almonds + poultry. Distribution 8.46 cps.",
-      "bookValuePerShare": 0.99
+      "bookValuePerShare": 0.99,
+      "epsBasic": 0.088
     },
     {
       "endDate": "2014-12-31",
@@ -75,7 +76,8 @@
       "totalAcresK": 250,
       "dividendPerShare": 0.0903,
       "notes": "FY15: portfolio expansion into cropping. Distribution 9.03 cps.",
-      "bookValuePerShare": 0.94
+      "bookValuePerShare": 0.94,
+      "epsBasic": 0.0914
     },
     {
       "endDate": "2015-12-31",
@@ -120,7 +122,8 @@
       "totalAcresK": 300,
       "dividendPerShare": 0.0926,
       "notes": "FY16: cattle station acquisitions (Stone Axe, JBS portfolio entry). Distribution 9.26 cps.",
-      "bookValuePerShare": 1.23
+      "bookValuePerShare": 1.23,
+      "epsBasic": 0.15
     },
     {
       "endDate": "2016-12-31",
@@ -172,7 +175,8 @@
       "totalAcresK": 1500,
       "dividendPerShare": 0.0976,
       "notes": "FY17: large cattle station acquisitions (Natal Downs, JBS Five Rivers feedlots). Property assets $545M. Distribution 9.76 cps.",
-      "bookValuePerShare": 1.65
+      "bookValuePerShare": 1.65,
+      "epsBasic": 0.1875
     },
     {
       "endDate": "2017-12-31",
@@ -217,7 +221,8 @@
       "totalAcresK": 1650,
       "dividendPerShare": 0.1043,
       "notes": "FY18 Annual Report. Adjusted property assets $803M, NAV/unit $1.94, distribution 10.43 cps.",
-      "bookValuePerShare": 1.94
+      "bookValuePerShare": 1.94,
+      "epsBasic": 0.2418
     },
     {
       "endDate": "2018-12-31",
@@ -262,7 +267,8 @@
       "totalAcresK": 1700,
       "dividendPerShare": 0.1043,
       "notes": "FY19 Annual Report. Adjusted property assets $928M, NAV/unit $1.93, distribution 10.43 cps.",
-      "bookValuePerShare": 2.26
+      "bookValuePerShare": 2.26,
+      "epsBasic": 0.1702
     },
     {
       "endDate": "2019-12-31",
@@ -326,7 +332,8 @@
         "occupancyPct": 100,
         "ffoPerShare": 0.102,
         "affoPerShare": 0.102
-      }
+      },
+      "epsBasic": 0.142
     },
     {
       "endDate": "2020-12-31",
@@ -388,7 +395,8 @@
         "occupancyPct": 100,
         "ffoPerShare": 0.108,
         "affoPerShare": 0.108
-      }
+      },
+      "epsBasic": 0.1925
     },
     {
       "endDate": "2021-12-31",
@@ -451,7 +459,8 @@
         "occupancyPct": 100,
         "ffoPerShare": 0.118,
         "affoPerShare": 0.118
-      }
+      },
+      "epsBasic": 0.3127
     },
     {
       "endDate": "2022-12-31",
@@ -514,7 +523,8 @@
         "occupancyPct": 100,
         "ffoPerShare": 0.123,
         "affoPerShare": 0.123
-      }
+      },
+      "epsBasic": 0.1314
     },
     {
       "endDate": "2023-12-31",
@@ -577,7 +587,8 @@
         "occupancyPct": 100,
         "ffoPerShare": 0.116,
         "affoPerShare": 0.116
-      }
+      },
+      "epsBasic": 0.0319
     },
     {
       "endDate": "2024-12-31",
@@ -641,7 +652,8 @@
         "1-3y": 202.75,
         "3-5y": 162.2,
         "5+y": 283.85
-      }
+      },
+      "epsBasic": 0.0244
     }
   ]
 }

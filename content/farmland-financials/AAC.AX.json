@@ -31,7 +31,8 @@
       "bookValuePerShare": 2.04,
       "cfoMM": 22,
       "capexMM": 35,
-      "daMM": 8
+      "daMM": 8,
+      "epsBasic": 0.0696
     },
     {
       "endDate": "2003-03-31",
@@ -60,7 +61,8 @@
       "bookValuePerShare": 2.17,
       "cfoMM": 25,
       "capexMM": 40,
-      "daMM": 9
+      "daMM": 9,
+      "epsBasic": 0.0848
     },
     {
       "endDate": "2004-03-31",
@@ -89,7 +91,8 @@
       "bookValuePerShare": 2.3,
       "cfoMM": 28,
       "capexMM": 45,
-      "daMM": 10
+      "daMM": 10,
+      "epsBasic": 0.0936
     },
     {
       "endDate": "2005-03-31",
@@ -118,7 +121,8 @@
       "bookValuePerShare": 2.46,
       "cfoMM": 30,
       "capexMM": 55,
-      "daMM": 11
+      "daMM": 11,
+      "epsBasic": 0.1125
     },
     {
       "endDate": "2006-03-31",
@@ -147,7 +151,8 @@
       "bookValuePerShare": 2.63,
       "cfoMM": 32,
       "capexMM": 60,
-      "daMM": 12
+      "daMM": 12,
+      "epsBasic": 0.1224
     },
     {
       "endDate": "2007-03-31",
@@ -178,7 +183,8 @@
       "bookValuePerShare": 2.88,
       "cfoMM": 35,
       "capexMM": 70,
-      "daMM": 13
+      "daMM": 13,
+      "epsBasic": 0.14
     },
     {
       "endDate": "2008-03-31",
@@ -209,7 +215,8 @@
       "bookValuePerShare": 2.98,
       "cfoMM": 38,
       "capexMM": 85,
-      "daMM": 14
+      "daMM": 14,
+      "epsBasic": 0.1098
     },
     {
       "endDate": "2009-03-31",
@@ -240,7 +247,8 @@
       "bookValuePerShare": 2.96,
       "cfoMM": 30,
       "capexMM": 60,
-      "daMM": 15
+      "daMM": 15,
+      "epsBasic": 0.0692
     },
     {
       "endDate": "2010-03-31",
@@ -271,7 +279,8 @@
       "bookValuePerShare": 2.74,
       "cfoMM": 25,
       "capexMM": 50,
-      "daMM": 14
+      "daMM": 14,
+      "epsBasic": -0.0815
     },
     {
       "endDate": "2011-03-31",
@@ -302,7 +311,8 @@
       "bookValuePerShare": 2.57,
       "cfoMM": 28,
       "capexMM": 55,
-      "daMM": 13
+      "daMM": 13,
+      "epsBasic": -0.0286
     },
     {
       "endDate": "2012-03-31",
@@ -333,7 +343,8 @@
       "bookValuePerShare": 2.34,
       "cfoMM": 22,
       "capexMM": 65,
-      "daMM": 14
+      "daMM": 14,
+      "epsBasic": -0.1172
     },
     {
       "endDate": "2013-03-31",
@@ -364,7 +375,8 @@
       "bookValuePerShare": 2.04,
       "cfoMM": 18,
       "capexMM": 70,
-      "daMM": 15
+      "daMM": 15,
+      "epsBasic": -0.1565
     },
     {
       "endDate": "2014-03-31",
@@ -395,7 +407,8 @@
       "bookValuePerShare": 2.16,
       "cfoMM": 35,
       "capexMM": 80,
-      "daMM": 16
+      "daMM": 16,
+      "epsBasic": -0.1562
     },
     {
       "endDate": "2015-03-31",
@@ -426,7 +439,8 @@
       "bookValuePerShare": 1.87,
       "cfoMM": 55,
       "capexMM": 95,
-      "daMM": 17
+      "daMM": 17,
+      "epsBasic": 0.1111
     },
     {
       "endDate": "2016-03-31",
@@ -457,7 +471,8 @@
       "bookValuePerShare": 2.17,
       "cfoMM": 60,
       "capexMM": 110,
-      "daMM": 18
+      "daMM": 18,
+      "epsBasic": 0.2481
     },
     {
       "endDate": "2017-03-31",
@@ -488,7 +503,8 @@
       "bookValuePerShare": 2.05,
       "cfoMM": 45,
       "capexMM": 100,
-      "daMM": 19
+      "daMM": 19,
+      "epsBasic": 0.2167
     },
     {
       "endDate": "2018-03-31",
@@ -519,7 +535,8 @@
       "bookValuePerShare": 2.17,
       "cfoMM": 30,
       "capexMM": 85,
-      "daMM": 18
+      "daMM": 18,
+      "epsBasic": 0.171
     },
     {
       "endDate": "2018-09-30",
@@ -566,7 +583,8 @@
       "bookValuePerShare": 1.96,
       "cfoMM": 20,
       "capexMM": 70,
-      "daMM": 17
+      "daMM": 17,
+      "epsBasic": -0.245
     },
     {
       "endDate": "2019-09-30",
@@ -626,7 +644,8 @@
           "weaningRate": 72.4,
           "feedlotCapacity": 26400
         }
-      }
+      },
+      "epsBasic": -0.0737
     },
     {
       "endDate": "2020-09-30",
@@ -686,7 +705,8 @@
           "weaningRate": 73.6,
           "feedlotCapacity": 26400
         }
-      }
+      },
+      "epsBasic": 0.2235
     },
     {
       "endDate": "2021-09-30",
@@ -750,7 +770,8 @@
           "weaningRate": 75.2,
           "feedlotCapacity": 26400
         }
-      }
+      },
+      "epsBasic": 0.2273
     },
     {
       "endDate": "2022-09-30",
@@ -814,7 +835,8 @@
           "weaningRate": 76.8,
           "feedlotCapacity": 26400
         }
-      }
+      },
+      "epsBasic": -0.0456
     },
     {
       "endDate": "2023-09-30",
@@ -878,7 +900,8 @@
           "weaningRate": 78.4,
           "feedlotCapacity": 26400
         }
-      }
+      },
+      "epsBasic": -0.0574
     },
     {
       "endDate": "2024-09-30",
@@ -938,7 +961,8 @@
         "1-3y": 124.3,
         "3-5y": 99.44,
         "5+y": 174.02
-      }
+      },
+      "epsBasic": -0.0166
     }
   ]
 }

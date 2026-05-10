@@ -34,7 +34,8 @@
       "propertyBookMM": 0,
       "ppeBookMM": 11400,
       "inventoryMM": 1900,
-      "intangibleAssetsMM": 1850
+      "intangibleAssetsMM": 1850,
+      "epsBasic": 1.7571
     },
     {
       "endDate": "2021-12-31",
@@ -67,7 +68,8 @@
       "propertyBookMM": 0,
       "ppeBookMM": 11800,
       "inventoryMM": 2520,
-      "intangibleAssetsMM": 1830
+      "intangibleAssetsMM": 1830,
+      "epsBasic": 4.3014
     },
     {
       "endDate": "2022-03-31",
@@ -156,7 +158,8 @@
         "capacityUtilizationPct": 88.0,
         "rdSpendPctOfRevenue": 0.16
       },
-      "totalAssetsMM": 22893
+      "totalAssetsMM": 22893,
+      "epsBasic": 10.5665
     },
     {
       "endDate": "2023-03-31",
@@ -245,7 +248,8 @@
         "capacityUtilizationPct": 80.5,
         "rdSpendPctOfRevenue": 0.18
       },
-      "totalAssetsMM": 22146
+      "totalAssetsMM": 22146,
+      "epsBasic": 3.5943
     },
     {
       "endDate": "2024-03-31",
@@ -349,7 +353,8 @@
         "capacityUtilizationPct": 78.0,
         "rdSpendPctOfRevenue": 0.2
       },
-      "totalAssetsMM": 21500
+      "totalAssetsMM": 21500,
+      "epsBasic": 0.5519
     },
     {
       "endDate": "2025-03-31",
@@ -452,7 +457,8 @@
         "Potash": 2700,
         "Mosaic Fertilizantes": 4800
       },
-      "totalEquityMM": 8950
+      "totalEquityMM": 8950,
+      "epsBasic": 1.7035
     }
   ]
 }

@@ -34,7 +34,8 @@
       "notes": "FY19: revenue Rp8.53T (-12% YoY); net income Rp620B",
       "capexMM": 800000,
       "daMM": 450000,
-      "cfoMM": 1100000
+      "cfoMM": 1100000,
+      "epsBasic": 118.3206
     },
     {
       "endDate": "2020-12-31",
@@ -80,7 +81,8 @@
         "cpoAspPerMt": 9150000,
         "maturePlantedHa": 55500,
         "rspoPct": 35
-      }
+      },
+      "epsBasic": 128.8168
     },
     {
       "endDate": "2021-12-31",
@@ -126,7 +128,8 @@
         "cpoAspPerMt": 12650000,
         "maturePlantedHa": 55800,
         "rspoPct": 38
-      }
+      },
+      "epsBasic": 162.9771
     },
     {
       "endDate": "2022-03-31",
@@ -271,7 +274,8 @@
         "cpoAspPerMt": 14050000,
         "maturePlantedHa": 56000,
         "rspoPct": 40
-      }
+      },
+      "epsBasic": 162.2137
     },
     {
       "endDate": "2023-03-31",
@@ -416,7 +420,8 @@
         "cpoAspPerMt": 12350000,
         "maturePlantedHa": 56300,
         "rspoPct": 42
-      }
+      },
+      "epsBasic": 93.1298
     },
     {
       "endDate": "2024-03-31",
@@ -570,7 +575,8 @@
         "cpoAspPerMt": 13650000,
         "maturePlantedHa": 56500,
         "rspoPct": 45
-      }
+      },
+      "epsBasic": 181.6794
     }
   ]
 }

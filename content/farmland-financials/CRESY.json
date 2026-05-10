@@ -31,7 +31,9 @@
       "capexMM": 350,
       "daMM": 80,
       "dividendPerShare": 0,
-      "notes": "FY18 (ended Jun-30-2018, Annual Report filed in Spanish/English). Nominal ARS data: revenue Ps. 97,969M (segment basis incl. consolidated IDBD-Israel), gross profit Ps. 15,551M, profit from operations Ps. 29,964M, net income Ps. 17,780M (incl. IRSA fair-value gains), total assets Ps. 353,770M, equity Ps. 75,321M. Translated at Jun-30-2018 ARS/USD closing rate of 28.85. Last fiscal year before IAS-29 hyperinflation accounting kicked in. Owned 23 farms = 612,230 ha. ~209,000 ha planted, 532,000 grain tons. Heavy IRSA/Israel consolidation distorts revenue comparability vs later years."
+      "notes": "FY18 (ended Jun-30-2018, Annual Report filed in Spanish/English). Nominal ARS data: revenue Ps. 97,969M (segment basis incl. consolidated IDBD-Israel), gross profit Ps. 15,551M, profit from operations Ps. 29,964M, net income Ps. 17,780M (incl. IRSA fair-value gains), total assets Ps. 353,770M, equity Ps. 75,321M. Translated at Jun-30-2018 ARS/USD closing rate of 28.85. Last fiscal year before IAS-29 hyperinflation accounting kicked in. Owned 23 farms = 612,230 ha. ~209,000 ha planted, 532,000 grain tons. Heavy IRSA/Israel consolidation distorts revenue comparability vs later years.",
+      "epsBasic": 1.2394,
+      "bookValuePerShare": 5.2535
     },
     {
       "endDate": "2019-06-30",
@@ -59,7 +61,9 @@
       "capexMM": 320,
       "daMM": 90,
       "dividendPerShare": 0,
-      "notes": "FY19 (ended Jun-30-2019). First IAS-29 restated year. ARS data: revenue Ps. 110,741M (IAS-29 restated, IDBD deconsolidated), agricultural rev Ps. 13,249M, urban properties Ps. 67,256M, gross profit Ps. 31,223M, op loss Ps. 10,517M, net loss Ps. 28,497M. Adjusted EBITDA Ps. 22,902M (+21.1% YoY). Translated at Jun-30-2019 closing rate ARS/USD 42.45 \u2014 IAS-29 restated to Jun-19 PP. 242,000 ha planted (record), 812k tons crops. BrasilAgro farm sales BRL 238M. Massive ARS devaluation (Macri-Fernandez election uncertainty). Net loss largely driven by IRSA fair-value writedowns + financial costs."
+      "notes": "FY19 (ended Jun-30-2019). First IAS-29 restated year. ARS data: revenue Ps. 110,741M (IAS-29 restated, IDBD deconsolidated), agricultural rev Ps. 13,249M, urban properties Ps. 67,256M, gross profit Ps. 31,223M, op loss Ps. 10,517M, net loss Ps. 28,497M. Adjusted EBITDA Ps. 22,902M (+21.1% YoY). Translated at Jun-30-2019 closing rate ARS/USD 42.45 \u2014 IAS-29 restated to Jun-19 PP. 242,000 ha planted (record), 812k tons crops. BrasilAgro farm sales BRL 238M. Massive ARS devaluation (Macri-Fernandez election uncertainty). Net loss largely driven by IRSA fair-value writedowns + financial costs.",
+      "epsBasic": -1.9316,
+      "bookValuePerShare": 4.2153
     },
     {
       "endDate": "2020-06-30",
@@ -121,7 +125,9 @@
           "revenueMM": 18,
           "ebitdaMM": 12
         }
-      ]
+      ],
+      "epsBasic": 0.4771,
+      "bookValuePerShare": 2.9026
     },
     {
       "endDate": "2021-06-30",
@@ -178,7 +184,9 @@
           "revenueMM": 25,
           "ebitdaMM": 18
         }
-      ]
+      ],
+      "epsBasic": -0.703,
+      "bookValuePerShare": 1.8413
     },
     {
       "endDate": "2022-06-30",
@@ -243,7 +251,9 @@
           "revenueMM": 38,
           "ebitdaMM": 28
         }
-      ]
+      ],
+      "epsBasic": 0.8403,
+      "bookValuePerShare": 2.4272
     },
     {
       "endDate": "2023-06-30",
@@ -308,7 +318,9 @@
           "revenueMM": 45,
           "ebitdaMM": 32
         }
-      ]
+      ],
+      "epsBasic": 0.4854,
+      "bookValuePerShare": 2.8457
     },
     {
       "endDate": "2024-06-30",
@@ -381,7 +393,9 @@
           "revenueMM": 65,
           "ebitdaMM": 48
         }
-      ]
+      ],
+      "epsBasic": 0.1925,
+      "bookValuePerShare": 2.9043
     }
   ]
 }

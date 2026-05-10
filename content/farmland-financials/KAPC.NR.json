@@ -25,7 +25,9 @@
         "COGS": 2150,
         "SG&A": 380,
         "D&A": 220
-      }
+      },
+      "epsBasic": 23.4694,
+      "bookValuePerShare": 260.2041
     },
     {
       "endDate": "2021-12-31",
@@ -48,7 +50,9 @@
         "COGS": 2380,
         "SG&A": 410,
         "D&A": 240
-      }
+      },
+      "epsBasic": 20.9184,
+      "bookValuePerShare": 272.9592
     },
     {
       "endDate": "2022-12-31",
@@ -78,7 +82,9 @@
       "capexMM": 75,
       "daMM": 78,
       "cfoMM": 150,
-      "totalEquityMM": 5550
+      "totalEquityMM": 5550,
+      "epsBasic": 21.6837,
+      "bookValuePerShare": 283.1633
     },
     {
       "endDate": "2023-06-30",
@@ -116,7 +122,9 @@
       "capexMM": 70,
       "daMM": 80,
       "cfoMM": 130,
-      "totalEquityMM": 5750
+      "totalEquityMM": 5750,
+      "epsBasic": -17.3469,
+      "bookValuePerShare": 293.3673
     },
     {
       "endDate": "2024-06-30",
@@ -162,7 +170,9 @@
         "3-5y": 40.0,
         "5+y": 70.0
       },
-      "totalEquityMM": 5950
+      "totalEquityMM": 5950,
+      "epsBasic": 11.7347,
+      "bookValuePerShare": 303.5714
     }
   ]
 }

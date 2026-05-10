@@ -33,7 +33,8 @@
       "notes": "FY19: revenue Rp4.95T (-3% YoY); CPO weakness offset by biodiesel allocation. Net income Rp240B",
       "capexMM": 580000,
       "daMM": 410000,
-      "cfoMM": 980000
+      "cfoMM": 980000,
+      "epsBasic": 22.6436
     },
     {
       "endDate": "2020-12-31",
@@ -78,7 +79,8 @@
         "cpoAspPerMt": 9180000,
         "maturePlantedHa": 77500,
         "rspoPct": 55
-      }
+      },
+      "epsBasic": 43.306
     },
     {
       "endDate": "2021-12-31",
@@ -123,7 +125,8 @@
         "cpoAspPerMt": 12720000,
         "maturePlantedHa": 77800,
         "rspoPct": 58
-      }
+      },
+      "epsBasic": 77.9319
     },
     {
       "endDate": "2022-03-31",
@@ -263,7 +266,8 @@
         "cpoAspPerMt": 14080000,
         "maturePlantedHa": 78000,
         "rspoPct": 60
-      }
+      },
+      "epsBasic": 101.7077
     },
     {
       "endDate": "2023-03-31",
@@ -403,7 +407,8 @@
         "cpoAspPerMt": 12420000,
         "maturePlantedHa": 78200,
         "rspoPct": 62
-      }
+      },
+      "epsBasic": 51.4199
     },
     {
       "endDate": "2024-03-31",
@@ -552,7 +557,8 @@
         "cpoAspPerMt": 13720000,
         "maturePlantedHa": 78500,
         "rspoPct": 65
-      }
+      },
+      "epsBasic": 102.3681
     }
   ]
 }
