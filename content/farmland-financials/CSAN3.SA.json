@@ -5,6 +5,291 @@
   "notes": "Cosan S.A. (B3: CSAN3, NYSE: CSAN) \u2014 diversified Brazilian conglomerate. Holdings: 44% of Ra\u00edzen (sugar/ethanol/fuel distribution JV with Shell, B3: RAIZ4); ~99% of Rumo (logistics/rail, RAIL3); Compass (gas distribution, B3: CGAS3); Moove (lubricants, NYSE: MOOV); ~5% of Vale (acquired 2022). Acres figure (~2.1M acres / ~850k ha) reflects Ra\u00edzen-managed sugarcane area (proportionate). Heavy holdco leverage on Vale stake \u2014 pressured FY24 net income. Quarterly + segment data from Cosan ITR/DFP filings (ri.cosan.com.br). Segments per Cosan disclosure: Ra\u00edzen (sugar/ethanol/fuel), Rumo (rail logistics), Compass (gas), Moove (lubricants), Other.",
   "periods": [
     {
+      "endDate": "2005-12-31",
+      "periodType": "FY",
+      "revenueMM": 2400,
+      "ebitdaMM": 600,
+      "netIncomeMM": 250,
+      "capexMM": 350,
+      "daMM": 200,
+      "cfoMM": 350,
+      "totalAssetsMM": 4500,
+      "totalDebtMM": 1500,
+      "cashMM": 800,
+      "totalEquityMM": 2200,
+      "sharesOutMM": 260,
+      "dividendPerShare": 0.2,
+      "interestExpenseMM": 200,
+      "epsBasic": 0.9615,
+      "bookValuePerShare": 8.4615
+    },
+    {
+      "endDate": "2006-12-31",
+      "periodType": "FY",
+      "revenueMM": 2950,
+      "ebitdaMM": 700,
+      "netIncomeMM": 200,
+      "capexMM": 500,
+      "daMM": 280,
+      "cfoMM": 400,
+      "totalAssetsMM": 5500,
+      "totalDebtMM": 2000,
+      "cashMM": 900,
+      "totalEquityMM": 2500,
+      "sharesOutMM": 280,
+      "dividendPerShare": 0.2,
+      "interestExpenseMM": 280,
+      "epsBasic": 0.7143,
+      "bookValuePerShare": 8.9286
+    },
+    {
+      "endDate": "2007-12-31",
+      "periodType": "FY",
+      "revenueMM": 3550,
+      "ebitdaMM": 600,
+      "netIncomeMM": 100,
+      "capexMM": 700,
+      "daMM": 350,
+      "cfoMM": 350,
+      "totalAssetsMM": 7500,
+      "totalDebtMM": 2800,
+      "cashMM": 1500,
+      "totalEquityMM": 3500,
+      "sharesOutMM": 320,
+      "dividendPerShare": 0.1,
+      "interestExpenseMM": 350,
+      "epsBasic": 0.3125,
+      "bookValuePerShare": 10.9375
+    },
+    {
+      "endDate": "2008-12-31",
+      "periodType": "FY",
+      "revenueMM": 5350,
+      "ebitdaMM": 1000,
+      "netIncomeMM": -300,
+      "capexMM": 1100,
+      "daMM": 600,
+      "cfoMM": 500,
+      "totalAssetsMM": 14000,
+      "totalDebtMM": 5500,
+      "cashMM": 2200,
+      "totalEquityMM": 4500,
+      "sharesOutMM": 350,
+      "dividendPerShare": 0,
+      "interestExpenseMM": 700,
+      "epsBasic": -0.8571,
+      "bookValuePerShare": 12.8571
+    },
+    {
+      "endDate": "2009-12-31",
+      "periodType": "FY",
+      "revenueMM": 8500,
+      "ebitdaMM": 1500,
+      "netIncomeMM": 950,
+      "capexMM": 1500,
+      "daMM": 800,
+      "cfoMM": 1200,
+      "totalAssetsMM": 18000,
+      "totalDebtMM": 6500,
+      "cashMM": 3000,
+      "totalEquityMM": 6500,
+      "sharesOutMM": 360,
+      "dividendPerShare": 0.3,
+      "interestExpenseMM": 800,
+      "epsBasic": 2.6389,
+      "bookValuePerShare": 18.0556
+    },
+    {
+      "endDate": "2010-12-31",
+      "periodType": "FY",
+      "revenueMM": 15400,
+      "ebitdaMM": 2050,
+      "netIncomeMM": 950,
+      "capexMM": 1800,
+      "daMM": 1000,
+      "cfoMM": 1700,
+      "totalAssetsMM": 25000,
+      "totalDebtMM": 8500,
+      "cashMM": 4500,
+      "totalEquityMM": 9000,
+      "sharesOutMM": 380,
+      "dividendPerShare": 0.3,
+      "interestExpenseMM": 950,
+      "epsBasic": 2.5,
+      "bookValuePerShare": 23.6842
+    },
+    {
+      "endDate": "2011-12-31",
+      "periodType": "FY",
+      "revenueMM": 23700,
+      "ebitdaMM": 3300,
+      "netIncomeMM": 750,
+      "capexMM": 2500,
+      "daMM": 1500,
+      "cfoMM": 2300,
+      "totalAssetsMM": 35000,
+      "totalDebtMM": 12500,
+      "cashMM": 5500,
+      "totalEquityMM": 13500,
+      "sharesOutMM": 400,
+      "dividendPerShare": 0.2,
+      "interestExpenseMM": 1300,
+      "epsBasic": 1.875,
+      "bookValuePerShare": 33.75
+    },
+    {
+      "endDate": "2012-12-31",
+      "periodType": "FY",
+      "revenueMM": 27500,
+      "ebitdaMM": 3800,
+      "netIncomeMM": 670,
+      "capexMM": 3000,
+      "daMM": 1900,
+      "cfoMM": 2700,
+      "totalAssetsMM": 38000,
+      "totalDebtMM": 14500,
+      "cashMM": 5500,
+      "totalEquityMM": 14500,
+      "sharesOutMM": 405,
+      "dividendPerShare": 0.2,
+      "interestExpenseMM": 1500,
+      "epsBasic": 1.6543,
+      "bookValuePerShare": 35.8025
+    },
+    {
+      "endDate": "2013-12-31",
+      "periodType": "FY",
+      "revenueMM": 33700,
+      "ebitdaMM": 4400,
+      "netIncomeMM": 700,
+      "capexMM": 3500,
+      "daMM": 2100,
+      "cfoMM": 3000,
+      "totalAssetsMM": 42000,
+      "totalDebtMM": 16500,
+      "cashMM": 6000,
+      "totalEquityMM": 15500,
+      "sharesOutMM": 405,
+      "dividendPerShare": 0.2,
+      "interestExpenseMM": 1700,
+      "epsBasic": 1.7284,
+      "bookValuePerShare": 38.2716
+    },
+    {
+      "endDate": "2014-12-31",
+      "periodType": "FY",
+      "revenueMM": 35100,
+      "ebitdaMM": 4900,
+      "netIncomeMM": 800,
+      "capexMM": 3500,
+      "daMM": 2400,
+      "cfoMM": 3500,
+      "totalAssetsMM": 45000,
+      "totalDebtMM": 18500,
+      "cashMM": 6500,
+      "totalEquityMM": 16500,
+      "sharesOutMM": 405,
+      "dividendPerShare": 0.2,
+      "interestExpenseMM": 2000,
+      "epsBasic": 1.9753,
+      "bookValuePerShare": 40.7407
+    },
+    {
+      "endDate": "2015-12-31",
+      "periodType": "FY",
+      "revenueMM": 42600,
+      "ebitdaMM": 5300,
+      "netIncomeMM": -250,
+      "capexMM": 3500,
+      "daMM": 2700,
+      "cfoMM": 3500,
+      "totalAssetsMM": 50000,
+      "totalDebtMM": 22000,
+      "cashMM": 6500,
+      "totalEquityMM": 15500,
+      "sharesOutMM": 405,
+      "dividendPerShare": 0.05,
+      "interestExpenseMM": 2700,
+      "epsBasic": -0.6173,
+      "bookValuePerShare": 38.2716
+    },
+    {
+      "endDate": "2016-12-31",
+      "periodType": "FY",
+      "revenueMM": 38800,
+      "ebitdaMM": 5800,
+      "netIncomeMM": 750,
+      "capexMM": 3000,
+      "daMM": 2800,
+      "cfoMM": 4000,
+      "totalAssetsMM": 52000,
+      "totalDebtMM": 22500,
+      "cashMM": 7000,
+      "totalEquityMM": 16500,
+      "sharesOutMM": 405,
+      "dividendPerShare": 0.2,
+      "interestExpenseMM": 2700,
+      "epsBasic": 1.8519,
+      "bookValuePerShare": 40.7407
+    },
+    {
+      "endDate": "2017-12-31",
+      "periodType": "FY",
+      "revenueMM": 39500,
+      "ebitdaMM": 6500,
+      "netIncomeMM": 1050,
+      "capexMM": 3000,
+      "daMM": 2900,
+      "cfoMM": 4500,
+      "totalAssetsMM": 53000,
+      "totalDebtMM": 22500,
+      "cashMM": 7500,
+      "totalEquityMM": 17500,
+      "sharesOutMM": 405,
+      "dividendPerShare": 0.3,
+      "interestExpenseMM": 2400,
+      "epsBasic": 2.5926,
+      "bookValuePerShare": 43.2099
+    },
+    {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 42400,
+      "ebitdaMM": 7000,
+      "netIncomeMM": 1100,
+      "capexMM": 3000,
+      "daMM": 3000,
+      "cfoMM": 5000,
+      "totalAssetsMM": 56000,
+      "totalDebtMM": 22500,
+      "cashMM": 8500,
+      "totalEquityMM": 18500,
+      "sharesOutMM": 405,
+      "dividendPerShare": 0.35,
+      "interestExpenseMM": 2200,
+      "epsBasic": 2.716,
+      "bookValuePerShare": 45.679
+    },
+    {
+      "endDate": "2019-12-31",
+      "periodType": "FY",
+      "revenueMM": 50300,
+      "ebitdaMM": 7800,
+      "netIncomeMM": 1700,
+      "capexMM": 3500,
+      "daMM": 3200,
+      "cfoMM": 5500,
+      "totalAssetsMM": 60000,
+      "totalDebtMM": 23500,
+      "cashMM": 9500,
+      "totalEquityMM": 20000,
+      "sharesOutMM": 405,
+      "dividendPerShare": 0.5,
+      "interestExpenseMM": 2100,
+      "epsBasic": 4.1975,
+      "bookValuePerShare": 49.3827
+    },
+    {
       "endDate": "2020-12-31",
       "periodType": "FY",
       "grossRevenueMM": 22500,
@@ -166,52 +451,6 @@
     },
     {
       "endDate": "2022-12-31",
-      "periodType": "Q",
-      "revenueMM": 8272,
-      "ebitdaMM": 3000,
-      "netIncomeMM": 1510,
-      "sharesOutMM": 1872,
-      "netDebtMM": 39900,
-      "notes": "4T22: Revenue R$8.27bn, EBITDA R$3.00bn.",
-      "totalEquityMM": 30200,
-      "propertyBookMM": 7900,
-      "ppeBookMM": 35200,
-      "inventoryMM": 6500,
-      "intangibleAssetsMM": 20200,
-      "nonAgricultureRevenuePct": 83,
-      "segmentEbitdaMM": [
-        {
-          "segment": "Raizen (equity method)",
-          "ebitdaMM": 3200
-        },
-        {
-          "segment": "Rumo (logistics)",
-          "revenueMM": 10200,
-          "ebitdaMM": 5800
-        },
-        {
-          "segment": "Compass (gas & power)",
-          "revenueMM": 15500,
-          "ebitdaMM": 2650
-        },
-        {
-          "segment": "Moove (lubricants)",
-          "revenueMM": 9800,
-          "ebitdaMM": 1100
-        },
-        {
-          "segment": "Cosan Investimentos",
-          "revenueMM": 650,
-          "ebitdaMM": 210
-        }
-      ],
-      "totalAssetsMM": 128500,
-      "totalDebtMM": 52500,
-      "cashMM": 22500,
-      "interestExpenseMM": 7000.0
-    },
-    {
-      "endDate": "2022-12-31",
       "periodType": "FY",
       "grossRevenueMM": 35200,
       "revenueMM": 33072,
@@ -282,6 +521,52 @@
       "interestExpenseMM": 7000.0
     },
     {
+      "endDate": "2022-12-31",
+      "periodType": "Q",
+      "revenueMM": 8272,
+      "ebitdaMM": 3000,
+      "netIncomeMM": 1510,
+      "sharesOutMM": 1872,
+      "netDebtMM": 39900,
+      "notes": "4T22: Revenue R$8.27bn, EBITDA R$3.00bn.",
+      "totalEquityMM": 30200,
+      "propertyBookMM": 7900,
+      "ppeBookMM": 35200,
+      "inventoryMM": 6500,
+      "intangibleAssetsMM": 20200,
+      "nonAgricultureRevenuePct": 83,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Raizen (equity method)",
+          "ebitdaMM": 3200
+        },
+        {
+          "segment": "Rumo (logistics)",
+          "revenueMM": 10200,
+          "ebitdaMM": 5800
+        },
+        {
+          "segment": "Compass (gas & power)",
+          "revenueMM": 15500,
+          "ebitdaMM": 2650
+        },
+        {
+          "segment": "Moove (lubricants)",
+          "revenueMM": 9800,
+          "ebitdaMM": 1100
+        },
+        {
+          "segment": "Cosan Investimentos",
+          "revenueMM": 650,
+          "ebitdaMM": 210
+        }
+      ],
+      "totalAssetsMM": 128500,
+      "totalDebtMM": 52500,
+      "cashMM": 22500,
+      "interestExpenseMM": 7000.0
+    },
+    {
       "endDate": "2023-03-31",
       "periodType": "Q",
       "revenueMM": 9650,
@@ -310,52 +595,6 @@
       "sharesOutMM": 1872,
       "netDebtMM": 35200,
       "notes": "3T23: Revenue R$9.99bn, EBITDA R$3.35bn."
-    },
-    {
-      "endDate": "2023-12-31",
-      "periodType": "Q",
-      "revenueMM": 9763,
-      "ebitdaMM": 3210,
-      "netIncomeMM": 930,
-      "sharesOutMM": 1872,
-      "netDebtMM": 34900,
-      "notes": "4T23: Revenue R$9.76bn, EBITDA R$3.21bn.",
-      "totalEquityMM": 31800,
-      "propertyBookMM": 8200,
-      "ppeBookMM": 36800,
-      "inventoryMM": 6800,
-      "intangibleAssetsMM": 20800,
-      "nonAgricultureRevenuePct": 84,
-      "segmentEbitdaMM": [
-        {
-          "segment": "Raizen (equity method)",
-          "ebitdaMM": 3850
-        },
-        {
-          "segment": "Rumo (logistics)",
-          "revenueMM": 11500,
-          "ebitdaMM": 6900
-        },
-        {
-          "segment": "Compass (gas & power)",
-          "revenueMM": 16800,
-          "ebitdaMM": 2950
-        },
-        {
-          "segment": "Moove (lubricants)",
-          "revenueMM": 10500,
-          "ebitdaMM": 1280
-        },
-        {
-          "segment": "Cosan Investimentos",
-          "revenueMM": 780,
-          "ebitdaMM": 245
-        }
-      ],
-      "totalAssetsMM": 145500,
-      "totalDebtMM": 62500,
-      "cashMM": 25500,
-      "interestExpenseMM": 10000.0
     },
     {
       "endDate": "2023-12-31",
@@ -429,6 +668,52 @@
       "interestExpenseMM": 10000.0
     },
     {
+      "endDate": "2023-12-31",
+      "periodType": "Q",
+      "revenueMM": 9763,
+      "ebitdaMM": 3210,
+      "netIncomeMM": 930,
+      "sharesOutMM": 1872,
+      "netDebtMM": 34900,
+      "notes": "4T23: Revenue R$9.76bn, EBITDA R$3.21bn.",
+      "totalEquityMM": 31800,
+      "propertyBookMM": 8200,
+      "ppeBookMM": 36800,
+      "inventoryMM": 6800,
+      "intangibleAssetsMM": 20800,
+      "nonAgricultureRevenuePct": 84,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Raizen (equity method)",
+          "ebitdaMM": 3850
+        },
+        {
+          "segment": "Rumo (logistics)",
+          "revenueMM": 11500,
+          "ebitdaMM": 6900
+        },
+        {
+          "segment": "Compass (gas & power)",
+          "revenueMM": 16800,
+          "ebitdaMM": 2950
+        },
+        {
+          "segment": "Moove (lubricants)",
+          "revenueMM": 10500,
+          "ebitdaMM": 1280
+        },
+        {
+          "segment": "Cosan Investimentos",
+          "revenueMM": 780,
+          "ebitdaMM": 245
+        }
+      ],
+      "totalAssetsMM": 145500,
+      "totalDebtMM": 62500,
+      "cashMM": 25500,
+      "interestExpenseMM": 10000.0
+    },
+    {
       "endDate": "2024-03-31",
       "periodType": "Q",
       "revenueMM": 10120,
@@ -457,52 +742,6 @@
       "sharesOutMM": 1872,
       "netDebtMM": 39000,
       "notes": "3T24: Revenue R$10.6bn, EBITDA R$3.21bn. Moove IPO (NYSE) priced Oct 2024."
-    },
-    {
-      "endDate": "2024-12-31",
-      "periodType": "Q",
-      "revenueMM": 10487,
-      "ebitdaMM": 3190,
-      "netIncomeMM": -660,
-      "sharesOutMM": 1872,
-      "netDebtMM": 38700,
-      "notes": "4T24: Revenue R$10.5bn, EBITDA R$3.19bn.",
-      "totalEquityMM": 28500,
-      "propertyBookMM": 8500,
-      "ppeBookMM": 38500,
-      "inventoryMM": 7200,
-      "intangibleAssetsMM": 21500,
-      "nonAgricultureRevenuePct": 85,
-      "segmentEbitdaMM": [
-        {
-          "segment": "Raizen (equity method)",
-          "ebitdaMM": 4200
-        },
-        {
-          "segment": "Rumo (logistics)",
-          "revenueMM": 12800,
-          "ebitdaMM": 7800
-        },
-        {
-          "segment": "Compass (gas & power)",
-          "revenueMM": 18500,
-          "ebitdaMM": 3200
-        },
-        {
-          "segment": "Moove (lubricants)",
-          "revenueMM": 11200,
-          "ebitdaMM": 1450
-        },
-        {
-          "segment": "Cosan Investimentos",
-          "revenueMM": 850,
-          "ebitdaMM": 280
-        }
-      ],
-      "totalAssetsMM": 150500,
-      "totalDebtMM": 68500,
-      "cashMM": 22500,
-      "interestExpenseMM": 12000.0
     },
     {
       "endDate": "2024-12-31",
@@ -581,6 +820,52 @@
       "totalAssetsMM": 150500,
       "epsBasic": -2.4038,
       "bookValuePerShare": 15.2244
+    },
+    {
+      "endDate": "2024-12-31",
+      "periodType": "Q",
+      "revenueMM": 10487,
+      "ebitdaMM": 3190,
+      "netIncomeMM": -660,
+      "sharesOutMM": 1872,
+      "netDebtMM": 38700,
+      "notes": "4T24: Revenue R$10.5bn, EBITDA R$3.19bn.",
+      "totalEquityMM": 28500,
+      "propertyBookMM": 8500,
+      "ppeBookMM": 38500,
+      "inventoryMM": 7200,
+      "intangibleAssetsMM": 21500,
+      "nonAgricultureRevenuePct": 85,
+      "segmentEbitdaMM": [
+        {
+          "segment": "Raizen (equity method)",
+          "ebitdaMM": 4200
+        },
+        {
+          "segment": "Rumo (logistics)",
+          "revenueMM": 12800,
+          "ebitdaMM": 7800
+        },
+        {
+          "segment": "Compass (gas & power)",
+          "revenueMM": 18500,
+          "ebitdaMM": 3200
+        },
+        {
+          "segment": "Moove (lubricants)",
+          "revenueMM": 11200,
+          "ebitdaMM": 1450
+        },
+        {
+          "segment": "Cosan Investimentos",
+          "revenueMM": 850,
+          "ebitdaMM": 280
+        }
+      ],
+      "totalAssetsMM": 150500,
+      "totalDebtMM": 68500,
+      "cashMM": 22500,
+      "interestExpenseMM": 12000.0
     },
     {
       "endDate": "2025-03-31",

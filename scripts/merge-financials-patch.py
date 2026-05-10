@@ -53,6 +53,11 @@ def main() -> int:
         choices=["preserve", "overwrite"],
         default="preserve",
     )
+    parser.add_argument(
+        "--create-missing",
+        action="store_true",
+        help="Create new FY period rows for endDates not already present.",
+    )
     args = parser.parse_args()
 
     with open(args.patch, "r") as f:
@@ -71,11 +76,14 @@ def main() -> int:
         with open(path, "r") as f:
             data = json.load(f)
         touched = False
+        existing_dates = {p["endDate"] for p in data.get("periods", [])}
         for period in data.get("periods", []):
             if period["endDate"] not in by_date:
                 continue
             updates = by_date[period["endDate"]]
             for k, v in updates.items():
+                if v is None:
+                    continue
                 if args.mode == "preserve":
                     if period.get(k) is None:
                         period[k] = v
@@ -93,6 +101,19 @@ def main() -> int:
                     touched = True
             if touched:
                 rows_filled += 1
+        if args.create_missing:
+            new_dates = sorted(set(by_date.keys()) - existing_dates)
+            for ed in new_dates:
+                updates = {k: v for k, v in by_date[ed].items() if v is not None}
+                if not updates:
+                    continue
+                row = {"endDate": ed, "periodType": "FY", **updates}
+                data.setdefault("periods", []).append(row)
+                fields_filled += len(updates)
+                rows_filled += 1
+                touched = True
+            if new_dates and touched:
+                data["periods"].sort(key=lambda p: (p["endDate"], p.get("periodType", "")))
         if touched:
             files_touched += 1
             with open(path, "w") as f:

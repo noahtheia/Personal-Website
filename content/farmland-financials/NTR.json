@@ -5,6 +5,25 @@
   "notes": "Nutrien Ltd \u2014 Canadian-headquartered crop nutrients (potash, nitrogen, phosphate) + retail crop inputs; reports under IFRS via 40-F. Created 2018 from PotashCorp + Agrium merger. FY2025 40-F filed 2026-02-27 (CIK 1725964). EBITDA = ProfitLossFromOperatingActivities + DepreciationAndAmortisation. Total debt = long-term borrowings (incl current portion) + short-term borrowings. Dividends declared in USD; map applied manually since IFRS taxonomy omits US-GAAP dividend concepts. Shares outstanding only available for older periods in XBRL.",
   "periods": [
     {
+      "endDate": "2018-12-31",
+      "periodType": "FY",
+      "revenueMM": 19636,
+      "ebitdaMM": 3500,
+      "netIncomeMM": 3025,
+      "capexMM": 1000,
+      "daMM": 1450,
+      "cfoMM": 2700,
+      "totalAssetsMM": 46258,
+      "totalDebtMM": 9750,
+      "cashMM": 332,
+      "totalEquityMM": 22755,
+      "sharesOutMM": 612,
+      "dividendPerShare": 1.6,
+      "interestExpenseMM": 425,
+      "epsBasic": 4.9428,
+      "bookValuePerShare": 37.1814
+    },
+    {
       "endDate": "2019-12-31",
       "periodType": "FY",
       "revenueMM": 20084.0,
@@ -24,7 +43,11 @@
       "capexMM": 140.0,
       "daMM": 314.0,
       "cfoMM": 224.0,
-      "epsBasic": 1.7314
+      "epsBasic": 1.7314,
+      "totalAssetsMM": 45289,
+      "totalEquityMM": 21695,
+      "interestExpenseMM": 519,
+      "bookValuePerShare": 37.8661
     },
     {
       "endDate": "2020-12-31",
