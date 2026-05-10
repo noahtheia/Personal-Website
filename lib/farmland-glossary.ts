@@ -1,6 +1,6 @@
 // Universe-of-discourse glossary for sector-block KPI labels. Used by
-// SectorKpiBlock, FarmlandSectorRankings, and the comps-table sector
-// summary row to surface tooltips for the abbreviation-heavy ag sector.
+// SectorKpiBlock and the comps-table sector summary row to surface
+// tooltips for the abbreviation-heavy ag sector.
 
 export const KPI_GLOSSARY: Record<string, string> = {
   // REIT

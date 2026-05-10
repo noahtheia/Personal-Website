@@ -24,16 +24,6 @@ const SECTIONS: Section[] = [
       { href: "/analytics/regression-analysis", label: "Agriculture" },
     ],
   },
-  {
-    id: "compare",
-    label: "Compare",
-    items: [{ href: "/analytics/compare", label: "Agriculture" }],
-  },
-  {
-    id: "screener",
-    label: "Screener",
-    items: [{ href: "/analytics/screener", label: "Agriculture" }],
-  },
 ];
 
 export function AnalyticsSidebar() {
