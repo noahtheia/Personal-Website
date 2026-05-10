@@ -333,7 +333,8 @@
         "ffoPerShare": 0.102,
         "affoPerShare": 0.102
       },
-      "epsBasic": 0.142
+      "epsBasic": 0.142,
+      "interestExpenseMM": 20.0
     },
     {
       "endDate": "2020-12-31",
@@ -396,7 +397,8 @@
         "ffoPerShare": 0.108,
         "affoPerShare": 0.108
       },
-      "epsBasic": 0.1925
+      "epsBasic": 0.1925,
+      "interestExpenseMM": 22.0
     },
     {
       "endDate": "2021-12-31",
@@ -460,7 +462,8 @@
         "ffoPerShare": 0.118,
         "affoPerShare": 0.118
       },
-      "epsBasic": 0.3127
+      "epsBasic": 0.3127,
+      "interestExpenseMM": 25.0
     },
     {
       "endDate": "2022-12-31",
@@ -524,7 +527,8 @@
         "ffoPerShare": 0.123,
         "affoPerShare": 0.123
       },
-      "epsBasic": 0.1314
+      "epsBasic": 0.1314,
+      "interestExpenseMM": 35.0
     },
     {
       "endDate": "2023-12-31",
@@ -588,7 +592,8 @@
         "ffoPerShare": 0.116,
         "affoPerShare": 0.116
       },
-      "epsBasic": 0.0319
+      "epsBasic": 0.0319,
+      "interestExpenseMM": 50.0
     },
     {
       "endDate": "2024-12-31",

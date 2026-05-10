@@ -35,7 +35,8 @@
       "ppeBookMM": 70,
       "inventoryMM": 165,
       "intangibleAssetsMM": 145,
-      "epsBasic": 0.3667
+      "epsBasic": 0.3667,
+      "interestExpenseMM": 5
     },
     {
       "endDate": "2021-12-31",
@@ -68,7 +69,8 @@
       "ppeBookMM": 75,
       "inventoryMM": 175,
       "intangibleAssetsMM": 155,
-      "epsBasic": 0.4575
+      "epsBasic": 0.4575,
+      "interestExpenseMM": 4
     },
     {
       "endDate": "2022-03-31",
@@ -149,7 +151,8 @@
         "rdSpendPctOfRevenue": 4.5
       },
       "totalAssetsMM": 605,
-      "epsBasic": 0.5863
+      "epsBasic": 0.5863,
+      "interestExpenseMM": 6
     },
     {
       "endDate": "2023-03-31",
@@ -233,7 +236,8 @@
         "rdSpendPctOfRevenue": 4.9
       },
       "totalAssetsMM": 580,
-      "epsBasic": -1.5309
+      "epsBasic": -1.5309,
+      "interestExpenseMM": 14
     },
     {
       "endDate": "2024-03-31",

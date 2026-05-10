@@ -40,7 +40,9 @@
       "ppeBookMM": 1300,
       "inventoryMM": 700,
       "intangibleAssetsMM": 90,
-      "bookValuePerShare": 18.0554
+      "bookValuePerShare": 18.0554,
+      "interestExpenseMM": 60.0,
+      "dividendPerShare": 0.42
     },
     {
       "endDate": "2021-06-30",
@@ -78,7 +80,8 @@
       "ppeBookMM": 1500,
       "inventoryMM": 950,
       "intangibleAssetsMM": 100,
-      "bookValuePerShare": 22.5692
+      "bookValuePerShare": 22.5692,
+      "interestExpenseMM": 70.0
     },
     {
       "endDate": "2022-06-30",
@@ -116,7 +119,8 @@
         "throughputMtMM": 6.2
       },
       "totalAssetsMM": 4400,
-      "bookValuePerShare": 28.669
+      "bookValuePerShare": 28.669,
+      "interestExpenseMM": 90.0
     },
     {
       "endDate": "2023-06-30",
@@ -161,7 +165,8 @@
         "throughputMtMM": 5.5
       },
       "totalAssetsMM": 3800,
-      "bookValuePerShare": 26.5951
+      "bookValuePerShare": 26.5951,
+      "interestExpenseMM": 100.0
     },
     {
       "endDate": "2024-06-30",
@@ -206,7 +211,8 @@
         "throughputMtMM": 5.8
       },
       "totalAssetsMM": 3500,
-      "bookValuePerShare": 27.1332
+      "bookValuePerShare": 27.1332,
+      "interestExpenseMM": 95.0
     },
     {
       "endDate": "2020-12-31",

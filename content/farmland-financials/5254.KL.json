@@ -73,7 +73,8 @@
       "propertyBookMM": 380,
       "ppeBookMM": 720,
       "inventoryMM": 30,
-      "intangibleAssetsMM": 15
+      "intangibleAssetsMM": 15,
+      "interestExpenseMM": 50
     },
     {
       "endDate": "2021-12-31",
@@ -118,7 +119,8 @@
       "propertyBookMM": 390,
       "ppeBookMM": 710,
       "inventoryMM": 35,
-      "intangibleAssetsMM": 15
+      "intangibleAssetsMM": 15,
+      "interestExpenseMM": 45
     },
     {
       "endDate": "2022-12-31",
@@ -163,7 +165,8 @@
         "maturePlantedHa": 70000,
         "rspoPct": 82
       },
-      "totalAssetsMM": 1420
+      "totalAssetsMM": 1420,
+      "interestExpenseMM": 50
     },
     {
       "endDate": "2023-12-31",
@@ -211,7 +214,8 @@
         "maturePlantedHa": 70200,
         "rspoPct": 85
       },
-      "totalAssetsMM": 1380
+      "totalAssetsMM": 1380,
+      "interestExpenseMM": 55
     },
     {
       "endDate": "2023-03-31",
@@ -257,7 +261,9 @@
       },
       "totalAssetsMM": 1380,
       "totalDebtMM": 420,
-      "cashMM": 60
+      "cashMM": 60,
+      "interestExpenseMM": 55,
+      "totalEquityMM": 810
     },
     {
       "endDate": "2024-12-31",
@@ -360,7 +366,9 @@
       },
       "totalAssetsMM": 1350,
       "totalDebtMM": 400,
-      "cashMM": 65
+      "cashMM": 65,
+      "interestExpenseMM": 60,
+      "totalEquityMM": 820
     }
   ]
 }

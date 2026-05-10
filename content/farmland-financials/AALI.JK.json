@@ -931,7 +931,9 @@
         "cpoAspPerMt": 9200000,
         "maturePlantedHa": 236000,
         "rspoPct": 60
-      }
+      },
+      "interestExpenseMM": 300000,
+      "dividendPerShare": 56
     },
     {
       "endDate": "2020-12-31",
@@ -978,7 +980,8 @@
         "maturePlantedHa": 236000,
         "rspoPct": 60
       },
-      "epsBasic": 640.5195
+      "epsBasic": 640.5195,
+      "interestExpenseMM": 300000
     },
     {
       "endDate": "2021-03-31",
@@ -1066,7 +1069,9 @@
         "cpoAspPerMt": 12800000,
         "maturePlantedHa": 235000,
         "rspoPct": 62
-      }
+      },
+      "interestExpenseMM": 250000,
+      "dividendPerShare": 102
     },
     {
       "endDate": "2021-12-31",
@@ -1113,7 +1118,8 @@
         "maturePlantedHa": 235000,
         "rspoPct": 62
       },
-      "epsBasic": 845.7143
+      "epsBasic": 845.7143,
+      "interestExpenseMM": 250000
     },
     {
       "endDate": "2022-03-31",
@@ -1207,7 +1213,9 @@
         "cpoAspPerMt": 14200000,
         "maturePlantedHa": 234000,
         "rspoPct": 65
-      }
+      },
+      "interestExpenseMM": 220000,
+      "dividendPerShare": 165
     },
     {
       "endDate": "2022-12-31",
@@ -1258,7 +1266,8 @@
         "maturePlantedHa": 234000,
         "rspoPct": 65
       },
-      "epsBasic": 800.0
+      "epsBasic": 800.0,
+      "interestExpenseMM": 220000
     },
     {
       "endDate": "2023-03-31",
@@ -1350,7 +1359,9 @@
         "cpoAspPerMt": 12500000,
         "maturePlantedHa": 232000,
         "rspoPct": 68
-      }
+      },
+      "interestExpenseMM": 230000,
+      "dividendPerShare": 130
     },
     {
       "endDate": "2023-12-31",
@@ -1401,7 +1412,8 @@
         "maturePlantedHa": 232000,
         "rspoPct": 68
       },
-      "epsBasic": 379.2208
+      "epsBasic": 379.2208,
+      "interestExpenseMM": 230000
     },
     {
       "endDate": "2024-03-31",
@@ -1493,7 +1505,9 @@
         "cpoAspPerMt": 13800000,
         "maturePlantedHa": 230000,
         "rspoPct": 70
-      }
+      },
+      "interestExpenseMM": 240000,
+      "dividendPerShare": 140
     },
     {
       "endDate": "2024-12-31",

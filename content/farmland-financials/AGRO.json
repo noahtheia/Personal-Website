@@ -404,7 +404,9 @@
           "revenueMM": 8,
           "ebitdaMM": 5
         }
-      ]
+      ],
+      "interestExpenseMM": 90.0,
+      "totalEquityMM": 900.0
     },
     {
       "endDate": "2020-12-31",
@@ -466,7 +468,8 @@
           "revenueMM": 8,
           "ebitdaMM": 5
         }
-      ]
+      ],
+      "interestExpenseMM": 90.0
     },
     {
       "endDate": "2021-03-31",
@@ -579,7 +582,9 @@
           "revenueMM": 12,
           "ebitdaMM": 8
         }
-      ]
+      ],
+      "interestExpenseMM": 100.0,
+      "totalEquityMM": 950.0
     },
     {
       "endDate": "2021-12-31",
@@ -643,7 +648,8 @@
           "revenueMM": 12,
           "ebitdaMM": 8
         }
-      ]
+      ],
+      "interestExpenseMM": 100.0
     },
     {
       "endDate": "2022-03-31",
@@ -760,7 +766,9 @@
           "revenueMM": 18,
           "ebitdaMM": 12
         }
-      ]
+      ],
+      "interestExpenseMM": 130.0,
+      "totalEquityMM": 1000.0
     },
     {
       "endDate": "2022-12-31",
@@ -827,7 +835,8 @@
           "revenueMM": 18,
           "ebitdaMM": 12
         }
-      ]
+      ],
+      "interestExpenseMM": 130.0
     },
     {
       "endDate": "2023-03-31",
@@ -944,7 +953,9 @@
           "revenueMM": 15,
           "ebitdaMM": 10
         }
-      ]
+      ],
+      "interestExpenseMM": 180.0,
+      "totalEquityMM": 1100.0
     },
     {
       "endDate": "2023-12-31",
@@ -1011,7 +1022,8 @@
           "revenueMM": 15,
           "ebitdaMM": 10
         }
-      ]
+      ],
+      "interestExpenseMM": 180.0
     },
     {
       "endDate": "2024-03-31",
@@ -1128,7 +1140,9 @@
           "revenueMM": 25,
           "ebitdaMM": 18
         }
-      ]
+      ],
+      "interestExpenseMM": 200.0,
+      "totalEquityMM": 1050.0
     },
     {
       "endDate": "2024-12-31",

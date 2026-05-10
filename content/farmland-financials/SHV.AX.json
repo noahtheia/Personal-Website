@@ -776,7 +776,8 @@
       "cfoMM": 21.4,
       "notes": "FY20 (year ended 30 Sep 2020): revenue $196.5M, EBITDA $41.6M, NPAT $16.7M. Almond crop 18,420 t at avg pool $7.55/kg.",
       "bookValuePerShare": 4.47,
-      "epsBasic": 0.1729
+      "epsBasic": 0.1729,
+      "interestExpenseMM": 8.0
     },
     {
       "endDate": "2021-03-31",
@@ -826,7 +827,8 @@
       "cfoMM": 0,
       "notes": "FY21: revenue $162.4M, EBITDA $22.5M, statutory loss $(3.6)M. Crop ~15,250 t; avg pool $6.50/kg. Capital raising diluted to 119.5M shares.",
       "bookValuePerShare": 3.43,
-      "epsBasic": -0.0301
+      "epsBasic": -0.0301,
+      "interestExpenseMM": 10.0
     },
     {
       "endDate": "2022-03-31",
@@ -876,7 +878,8 @@
       "cfoMM": -8,
       "notes": "FY22: revenue $143.0M, EBITDA $0.7M, statutory loss $(22.5)M. Crop ~22,000 t but average pool only $5.50/kg amid global oversupply. No final dividend.",
       "bookValuePerShare": 3.39,
-      "epsBasic": -0.1883
+      "epsBasic": -0.1883,
+      "interestExpenseMM": 12.0
     },
     {
       "endDate": "2023-03-31",
@@ -926,7 +929,8 @@
       "cfoMM": 12,
       "notes": "FY23: revenue $194.5M, EBITDA $11.6M, statutory loss $(16.5)M. Crop ~22,500 t; avg pool $7.40/kg in recovery from FY22 trough.",
       "bookValuePerShare": 3.55,
-      "epsBasic": -0.138
+      "epsBasic": -0.138,
+      "interestExpenseMM": 25.0
     },
     {
       "endDate": "2024-03-31",
@@ -976,7 +980,8 @@
       "cfoMM": 26,
       "notes": "FY24: revenue $232.5M, EBITDA $31.0M, statutory loss $(10)M. Crop ~21,500 t; avg pool $9.50/kg as California crop tightened. Equity raise lifted shares to ~142M.",
       "bookValuePerShare": 3.24,
-      "epsBasic": -0.0704
+      "epsBasic": -0.0704,
+      "interestExpenseMM": 30.0
     },
     {
       "endDate": "2025-03-31",

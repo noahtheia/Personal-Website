@@ -45,7 +45,10 @@
       "propertyBookMM": 2400,
       "ppeBookMM": 4500,
       "inventoryMM": 450,
-      "intangibleAssetsMM": 1500
+      "intangibleAssetsMM": 1500,
+      "interestExpenseMM": 100.0,
+      "netIncomeMM": 400.0,
+      "epsBasic": 6.7648
     },
     {
       "endDate": "2021-12-31",
@@ -88,7 +91,10 @@
       "propertyBookMM": 2800,
       "ppeBookMM": 5200,
       "inventoryMM": 500,
-      "intangibleAssetsMM": 1550
+      "intangibleAssetsMM": 1550,
+      "interestExpenseMM": 110.0,
+      "netIncomeMM": 500.0,
+      "epsBasic": 8.4559
     },
     {
       "endDate": "2022-03-31",
@@ -196,7 +202,8 @@
       "totalAssetsMM": 17500,
       "totalDebtMM": 4500,
       "cashMM": 500,
-      "propertyBookMM": 3500
+      "propertyBookMM": 3500,
+      "interestExpenseMM": 150.0
     },
     {
       "endDate": "2022-12-31",
@@ -239,7 +246,10 @@
       "totalAssetsMM": 17500,
       "totalDebtMM": 4500,
       "cashMM": 500,
-      "propertyBookMM": 3500
+      "propertyBookMM": 3500,
+      "interestExpenseMM": 150.0,
+      "netIncomeMM": 1000.0,
+      "epsBasic": 16.9119
     },
     {
       "endDate": "2023-03-31",
@@ -347,7 +357,8 @@
       "totalAssetsMM": 19500,
       "totalDebtMM": 5200,
       "cashMM": 550,
-      "propertyBookMM": 4000
+      "propertyBookMM": 4000,
+      "interestExpenseMM": 250.0
     },
     {
       "endDate": "2023-12-31",
@@ -390,7 +401,10 @@
       "totalAssetsMM": 19500,
       "totalDebtMM": 5200,
       "cashMM": 550,
-      "propertyBookMM": 4000
+      "propertyBookMM": 4000,
+      "interestExpenseMM": 250.0,
+      "netIncomeMM": 900.0,
+      "epsBasic": 15.2207
     },
     {
       "endDate": "2024-03-31",
@@ -498,7 +512,8 @@
       "totalAssetsMM": 19000,
       "totalDebtMM": 5000,
       "cashMM": 580,
-      "propertyBookMM": 3800
+      "propertyBookMM": 3800,
+      "interestExpenseMM": 280.0
     },
     {
       "endDate": "2024-12-31",
@@ -542,7 +557,9 @@
       "totalAssetsMM": 19000,
       "totalDebtMM": 5000,
       "cashMM": 580,
-      "propertyBookMM": 3800
+      "propertyBookMM": 3800,
+      "netIncomeMM": 700.0,
+      "epsBasic": 11.8383
     },
     {
       "endDate": "2025-03-31",

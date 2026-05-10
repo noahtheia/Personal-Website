@@ -674,7 +674,8 @@
           "avgTreeAgeYears": 10
         }
       },
-      "epsBasic": 1.2
+      "epsBasic": 1.2,
+      "interestExpenseMM": 5.0
     },
     {
       "endDate": "2020-12-31",
@@ -749,7 +750,9 @@
           "nonBearingHa": 1260,
           "avgTreeAgeYears": 11
         }
-      }
+      },
+      "interestExpenseMM": 5.0,
+      "dividendPerShare": 0.48
     },
     {
       "endDate": "2021-09-30",
@@ -791,7 +794,8 @@
           "avgTreeAgeYears": 11
         }
       },
-      "epsBasic": 7.9893
+      "epsBasic": 7.9893,
+      "interestExpenseMM": 5.0
     },
     {
       "endDate": "2021-12-31",
@@ -868,7 +872,9 @@
           "nonBearingHa": 1186,
           "avgTreeAgeYears": 12
         }
-      }
+      },
+      "interestExpenseMM": 5.0,
+      "dividendPerShare": 0.72
     },
     {
       "endDate": "2022-09-30",
@@ -912,7 +918,8 @@
           "avgTreeAgeYears": 12
         }
       },
-      "epsBasic": -0.266
+      "epsBasic": -0.266,
+      "interestExpenseMM": 5.0
     },
     {
       "endDate": "2022-12-31",
@@ -989,7 +996,9 @@
           "nonBearingHa": 1100,
           "avgTreeAgeYears": 13
         }
-      }
+      },
+      "interestExpenseMM": 8.0,
+      "dividendPerShare": 0.8
     },
     {
       "endDate": "2023-09-30",
@@ -1033,7 +1042,8 @@
           "avgTreeAgeYears": 13
         }
       },
-      "epsBasic": 0.2649
+      "epsBasic": 0.2649,
+      "interestExpenseMM": 8.0
     },
     {
       "endDate": "2023-12-31",
@@ -1110,7 +1120,9 @@
           "nonBearingHa": 1036,
           "avgTreeAgeYears": 14
         }
-      }
+      },
+      "interestExpenseMM": 10.0,
+      "dividendPerShare": 0.2
     },
     {
       "endDate": "2024-09-30",
@@ -1154,7 +1166,8 @@
           "avgTreeAgeYears": 14
         }
       },
-      "epsBasic": -8.1472
+      "epsBasic": -8.1472,
+      "interestExpenseMM": 10.0
     },
     {
       "endDate": "2024-12-31",

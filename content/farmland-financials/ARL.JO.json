@@ -35,7 +35,10 @@
       "propertyBookMM": 320,
       "ppeBookMM": 2200,
       "inventoryMM": 750,
-      "intangibleAssetsMM": 95
+      "intangibleAssetsMM": 95,
+      "interestExpenseMM": 30.0,
+      "netIncomeMM": 320.0,
+      "epsBasic": 8.1946
     },
     {
       "endDate": "2021-09-30",
@@ -68,7 +71,10 @@
       "propertyBookMM": 350,
       "ppeBookMM": 2350,
       "inventoryMM": 820,
-      "intangibleAssetsMM": 100
+      "intangibleAssetsMM": 100,
+      "interestExpenseMM": 25.0,
+      "netIncomeMM": 540.0,
+      "epsBasic": 13.8284
     },
     {
       "endDate": "2022-09-30",
@@ -101,7 +107,10 @@
         "weeklyHeadCapacity": 5400000,
         "capacityUtilizationPct": 86
       },
-      "totalAssetsMM": 4800
+      "totalAssetsMM": 4800,
+      "interestExpenseMM": 30.0,
+      "netIncomeMM": 470.0,
+      "epsBasic": 12.0359
     },
     {
       "endDate": "2023-09-30",
@@ -138,7 +147,10 @@
         "weeklyHeadCapacity": 5400000,
         "capacityUtilizationPct": 82
       },
-      "totalAssetsMM": 5200
+      "totalAssetsMM": 5200,
+      "interestExpenseMM": 70.0,
+      "netIncomeMM": -510.0,
+      "epsBasic": -13.0602
     },
     {
       "endDate": "2023-03-31",
@@ -191,7 +203,9 @@
         "weeklyHeadCapacity": 5400000,
         "capacityUtilizationPct": 88
       },
-      "totalAssetsMM": 5450
+      "totalAssetsMM": 5450,
+      "netIncomeMM": 600.0,
+      "epsBasic": 15.3649
     },
     {
       "endDate": "2024-03-31",

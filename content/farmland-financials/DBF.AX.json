@@ -141,7 +141,8 @@
           "avgTreeAgeYears": 7
         }
       },
-      "epsBasic": -0.0229
+      "epsBasic": -0.0229,
+      "interestExpenseMM": 1.5
     },
     {
       "endDate": "2020-12-31",
@@ -202,7 +203,8 @@
           "avgTreeAgeYears": 7
         }
       },
-      "epsBasic": 0.0429
+      "epsBasic": 0.0429,
+      "interestExpenseMM": 1.8
     },
     {
       "endDate": "2021-12-31",
@@ -266,7 +268,8 @@
           "avgTreeAgeYears": 8
         }
       },
-      "epsBasic": 0.0888
+      "epsBasic": 0.0888,
+      "interestExpenseMM": 2.2
     },
     {
       "endDate": "2022-12-31",
@@ -330,7 +333,8 @@
           "avgTreeAgeYears": 8
         }
       },
-      "epsBasic": 0.1027
+      "epsBasic": 0.1027,
+      "interestExpenseMM": 3.5
     },
     {
       "endDate": "2023-12-31",
@@ -394,7 +398,8 @@
           "avgTreeAgeYears": 9
         }
       },
-      "epsBasic": -0.0934
+      "epsBasic": -0.0934,
+      "interestExpenseMM": 4.0
     },
     {
       "endDate": "2024-12-31",

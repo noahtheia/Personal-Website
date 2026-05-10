@@ -217,7 +217,9 @@
         "cpoAspPerMt": 14080000,
         "maturePlantedHa": 60200,
         "rspoPct": 75
-      }
+      },
+      "dividendPerShare": 50,
+      "totalEquityMM": 5900000
     },
     {
       "endDate": "2022-12-31",
@@ -358,7 +360,9 @@
         "cpoAspPerMt": 12420000,
         "maturePlantedHa": 60300,
         "rspoPct": 78
-      }
+      },
+      "dividendPerShare": 30,
+      "totalEquityMM": 6100000
     },
     {
       "endDate": "2023-12-31",
@@ -499,7 +503,8 @@
         "cpoAspPerMt": 13720000,
         "maturePlantedHa": 60500,
         "rspoPct": 80
-      }
+      },
+      "totalEquityMM": 6300000
     },
     {
       "endDate": "2024-12-31",

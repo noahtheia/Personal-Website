@@ -55,7 +55,8 @@
       "ppeBookMM": 810,
       "inventoryMM": 620,
       "intangibleAssetsMM": 280,
-      "epsBasic": 0.496
+      "epsBasic": 0.496,
+      "interestExpenseMM": 20
     },
     {
       "endDate": "2022-02-28",
@@ -108,7 +109,8 @@
       "ppeBookMM": 820,
       "inventoryMM": 700,
       "intangibleAssetsMM": 285,
-      "epsBasic": 1.248
+      "epsBasic": 1.248,
+      "interestExpenseMM": 18
     },
     {
       "endDate": "2023-02-28",
@@ -161,7 +163,8 @@
         }
       ],
       "totalAssetsMM": 2900,
-      "epsBasic": 0.256
+      "epsBasic": 0.256,
+      "interestExpenseMM": 30
     },
     {
       "endDate": "2024-02-29",
@@ -214,7 +217,8 @@
         }
       ],
       "totalAssetsMM": 2950,
-      "epsBasic": 1.744
+      "epsBasic": 1.744,
+      "interestExpenseMM": 45
     },
     {
       "endDate": "2025-02-28",

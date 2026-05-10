@@ -41,7 +41,8 @@
       "ppeBookMM": 22500,
       "inventoryMM": 3500,
       "intangibleAssetsMM": 280,
-      "epsBasic": 7.895
+      "epsBasic": 7.895,
+      "interestExpenseMM": 1500
     },
     {
       "endDate": "2021-12-31",
@@ -80,7 +81,8 @@
       "ppeBookMM": 27500,
       "inventoryMM": 4500,
       "intangibleAssetsMM": 320,
-      "epsBasic": 16.94
+      "epsBasic": 16.94,
+      "interestExpenseMM": 1700
     },
     {
       "endDate": "2022-12-31",
@@ -119,7 +121,8 @@
         "rspoPct": 0
       },
       "totalAssetsMM": 115500,
-      "epsBasic": 22.13
+      "epsBasic": 22.13,
+      "interestExpenseMM": 2200
     },
     {
       "endDate": "2023-12-31",
@@ -170,7 +173,8 @@
         "rspoPct": 0
       },
       "totalAssetsMM": 175500,
-      "epsBasic": 28.95
+      "epsBasic": 28.95,
+      "interestExpenseMM": 4000
     },
     {
       "endDate": "2023-03-31",
@@ -216,7 +220,10 @@
       },
       "totalAssetsMM": 175500,
       "totalDebtMM": 52500,
-      "cashMM": 12500
+      "cashMM": 12500,
+      "interestExpenseMM": 4000,
+      "dividendPerShare": 4.0,
+      "totalEquityMM": 70000
     },
     {
       "endDate": "2024-12-31",
@@ -321,7 +328,10 @@
       },
       "totalAssetsMM": 205500,
       "totalDebtMM": 65500,
-      "cashMM": 15500
+      "cashMM": 15500,
+      "interestExpenseMM": 6000,
+      "dividendPerShare": 5.0,
+      "totalEquityMM": 120000
     }
   ]
 }

@@ -872,7 +872,9 @@
       "propertyBookMM": 720,
       "ppeBookMM": 1100,
       "inventoryMM": 130,
-      "intangibleAssetsMM": 8
+      "intangibleAssetsMM": 8,
+      "interestExpenseMM": 5.0,
+      "dividendPerShare": 0.55
     },
     {
       "endDate": "2020-12-31",
@@ -912,7 +914,8 @@
       "propertyBookMM": 720,
       "ppeBookMM": 1100,
       "inventoryMM": 130,
-      "intangibleAssetsMM": 8
+      "intangibleAssetsMM": 8,
+      "interestExpenseMM": 5.0
     },
     {
       "endDate": "2021-03-31",
@@ -982,7 +985,9 @@
       "propertyBookMM": 750,
       "ppeBookMM": 1130,
       "inventoryMM": 160,
-      "intangibleAssetsMM": 8
+      "intangibleAssetsMM": 8,
+      "interestExpenseMM": 5.0,
+      "dividendPerShare": 0.65
     },
     {
       "endDate": "2021-12-31",
@@ -1029,7 +1034,8 @@
       "propertyBookMM": 750,
       "ppeBookMM": 1130,
       "inventoryMM": 160,
-      "intangibleAssetsMM": 8
+      "intangibleAssetsMM": 8,
+      "interestExpenseMM": 5.0
     },
     {
       "endDate": "2022-03-31",
@@ -1099,7 +1105,9 @@
       },
       "totalAssetsMM": 3550,
       "totalDebtMM": 25,
-      "cashMM": 1100
+      "cashMM": 1100,
+      "interestExpenseMM": 5.0,
+      "dividendPerShare": 1.2
     },
     {
       "endDate": "2022-12-31",
@@ -1146,7 +1154,8 @@
       },
       "totalAssetsMM": 3550,
       "totalDebtMM": 25,
-      "cashMM": 1100
+      "cashMM": 1100,
+      "interestExpenseMM": 5.0
     },
     {
       "endDate": "2023-03-31",
@@ -1216,7 +1225,9 @@
       },
       "totalAssetsMM": 3700,
       "totalDebtMM": 22,
-      "cashMM": 1200
+      "cashMM": 1200,
+      "interestExpenseMM": 5.0,
+      "dividendPerShare": 0.85
     },
     {
       "endDate": "2023-12-31",
@@ -1263,7 +1274,8 @@
       },
       "totalAssetsMM": 3700,
       "totalDebtMM": 22,
-      "cashMM": 1200
+      "cashMM": 1200,
+      "interestExpenseMM": 5.0
     },
     {
       "endDate": "2024-03-31",
@@ -1334,7 +1346,8 @@
       },
       "totalAssetsMM": 3850,
       "totalDebtMM": 20,
-      "cashMM": 1280
+      "cashMM": 1280,
+      "interestExpenseMM": 5.0
     },
     {
       "endDate": "2024-12-31",
@@ -1381,7 +1394,8 @@
       },
       "totalAssetsMM": 3850,
       "totalDebtMM": 20,
-      "cashMM": 1280
+      "cashMM": 1280,
+      "interestExpenseMM": 5.0
     },
     {
       "endDate": "2025-03-31",

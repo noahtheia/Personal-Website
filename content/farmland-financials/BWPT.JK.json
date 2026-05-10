@@ -473,7 +473,9 @@
         "cpoAspPerMt": 9150000,
         "maturePlantedHa": 143000,
         "rspoPct": 30
-      }
+      },
+      "interestExpenseMM": 400000.0,
+      "totalEquityMM": 5500000.0
     },
     {
       "endDate": "2020-12-31",
@@ -519,7 +521,8 @@
         "maturePlantedHa": 143000,
         "rspoPct": 30
       },
-      "epsBasic": -5.0633
+      "epsBasic": -5.0633,
+      "interestExpenseMM": 400000.0
     },
     {
       "endDate": "2021-03-31",
@@ -606,7 +609,9 @@
         "cpoAspPerMt": 12650000,
         "maturePlantedHa": 143500,
         "rspoPct": 32
-      }
+      },
+      "interestExpenseMM": 380000.0,
+      "totalEquityMM": 5700000.0
     },
     {
       "endDate": "2021-12-31",
@@ -652,7 +657,8 @@
         "maturePlantedHa": 143500,
         "rspoPct": 32
       },
-      "epsBasic": 6.3291
+      "epsBasic": 6.3291,
+      "interestExpenseMM": 380000.0
     },
     {
       "endDate": "2022-03-31",
@@ -744,7 +750,9 @@
         "cpoAspPerMt": 14050000,
         "maturePlantedHa": 144000,
         "rspoPct": 35
-      }
+      },
+      "interestExpenseMM": 350000.0,
+      "totalEquityMM": 6300000.0
     },
     {
       "endDate": "2022-12-31",
@@ -794,7 +802,8 @@
         "maturePlantedHa": 144000,
         "rspoPct": 35
       },
-      "epsBasic": 6.962
+      "epsBasic": 6.962,
+      "interestExpenseMM": 350000.0
     },
     {
       "endDate": "2023-03-31",
@@ -885,7 +894,9 @@
         "cpoAspPerMt": 12350000,
         "maturePlantedHa": 144500,
         "rspoPct": 38
-      }
+      },
+      "interestExpenseMM": 400000.0,
+      "totalEquityMM": 6500000.0
     },
     {
       "endDate": "2023-12-31",
@@ -935,7 +946,8 @@
         "maturePlantedHa": 144500,
         "rspoPct": 38
       },
-      "epsBasic": 0.6329
+      "epsBasic": 0.6329,
+      "interestExpenseMM": 400000.0
     },
     {
       "endDate": "2024-03-31",
@@ -1026,7 +1038,9 @@
         "cpoAspPerMt": 13650000,
         "maturePlantedHa": 145000,
         "rspoPct": 40
-      }
+      },
+      "interestExpenseMM": 420000.0,
+      "totalEquityMM": 6800000.0
     },
     {
       "endDate": "2024-12-31",

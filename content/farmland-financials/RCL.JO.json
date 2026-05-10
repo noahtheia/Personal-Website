@@ -53,7 +53,10 @@
       "propertyBookMM": 580,
       "ppeBookMM": 5800,
       "inventoryMM": 3200,
-      "intangibleAssetsMM": 4500
+      "intangibleAssetsMM": 4500,
+      "interestExpenseMM": 350.0,
+      "netIncomeMM": 400.0,
+      "epsBasic": 0.4545
     },
     {
       "endDate": "2021-06-30",
@@ -104,7 +107,10 @@
       "propertyBookMM": 620,
       "ppeBookMM": 6100,
       "inventoryMM": 3500,
-      "intangibleAssetsMM": 4550
+      "intangibleAssetsMM": 4550,
+      "interestExpenseMM": 300.0,
+      "netIncomeMM": 700.0,
+      "epsBasic": 0.7955
     },
     {
       "endDate": "2022-06-30",
@@ -155,7 +161,10 @@
           "ebitdaMM": 1050
         }
       ],
-      "totalAssetsMM": 19800
+      "totalAssetsMM": 19800,
+      "interestExpenseMM": 350.0,
+      "netIncomeMM": 850.0,
+      "epsBasic": 0.9659
     },
     {
       "endDate": "2023-06-30",
@@ -212,7 +221,10 @@
           "ebitdaMM": 1280
         }
       ],
-      "totalAssetsMM": 21200
+      "totalAssetsMM": 21200,
+      "interestExpenseMM": 500.0,
+      "netIncomeMM": 600.0,
+      "epsBasic": 0.6818
     },
     {
       "endDate": "2022-12-31",
@@ -280,7 +292,9 @@
           "ebitdaMM": 380
         }
       ],
-      "totalAssetsMM": 22000
+      "totalAssetsMM": 22000,
+      "netIncomeMM": 800.0,
+      "epsBasic": 0.9091
     },
     {
       "endDate": "2023-12-31",

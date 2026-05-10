@@ -645,7 +645,8 @@
           "feedlotCapacity": 26400
         }
       },
-      "epsBasic": -0.0737
+      "epsBasic": -0.0737,
+      "interestExpenseMM": 25.0
     },
     {
       "endDate": "2020-09-30",
@@ -706,7 +707,8 @@
           "feedlotCapacity": 26400
         }
       },
-      "epsBasic": 0.2235
+      "epsBasic": 0.2235,
+      "interestExpenseMM": 22.0
     },
     {
       "endDate": "2021-09-30",
@@ -771,7 +773,8 @@
           "feedlotCapacity": 26400
         }
       },
-      "epsBasic": 0.2273
+      "epsBasic": 0.2273,
+      "interestExpenseMM": 20.0
     },
     {
       "endDate": "2022-09-30",
@@ -836,7 +839,8 @@
           "feedlotCapacity": 26400
         }
       },
-      "epsBasic": -0.0456
+      "epsBasic": -0.0456,
+      "interestExpenseMM": 28.0
     },
     {
       "endDate": "2023-09-30",
@@ -901,7 +905,8 @@
           "feedlotCapacity": 26400
         }
       },
-      "epsBasic": -0.0574
+      "epsBasic": -0.0574,
+      "interestExpenseMM": 35.0
     },
     {
       "endDate": "2024-09-30",

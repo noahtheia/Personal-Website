@@ -407,7 +407,9 @@
         "cpoAspPerMt": 12750000,
         "maturePlantedHa": 69800,
         "rspoPct": 52
-      }
+      },
+      "interestExpenseMM": 250000.0,
+      "totalEquityMM": 4000000.0
     },
     {
       "endDate": "2021-12-31",
@@ -453,7 +455,8 @@
         "maturePlantedHa": 69800,
         "rspoPct": 52
       },
-      "epsBasic": 100.2625
+      "epsBasic": 100.2625,
+      "interestExpenseMM": 250000.0
     },
     {
       "endDate": "2022-03-31",
@@ -543,7 +546,9 @@
         "cpoAspPerMt": 14150000,
         "maturePlantedHa": 70000,
         "rspoPct": 55
-      }
+      },
+      "interestExpenseMM": 280000.0,
+      "totalEquityMM": 4800000.0
     },
     {
       "endDate": "2022-12-31",
@@ -593,7 +598,8 @@
         "maturePlantedHa": 70000,
         "rspoPct": 55
       },
-      "epsBasic": 110.2362
+      "epsBasic": 110.2362,
+      "interestExpenseMM": 280000.0
     },
     {
       "endDate": "2023-03-31",
@@ -682,7 +688,9 @@
         "cpoAspPerMt": 12450000,
         "maturePlantedHa": 70200,
         "rspoPct": 58
-      }
+      },
+      "interestExpenseMM": 300000.0,
+      "totalEquityMM": 5000000.0
     },
     {
       "endDate": "2023-12-31",
@@ -732,7 +740,8 @@
         "maturePlantedHa": 70200,
         "rspoPct": 58
       },
-      "epsBasic": 40.4199
+      "epsBasic": 40.4199,
+      "interestExpenseMM": 300000.0
     },
     {
       "endDate": "2024-03-31",
@@ -821,7 +830,9 @@
         "cpoAspPerMt": 13750000,
         "maturePlantedHa": 70500,
         "rspoPct": 60
-      }
+      },
+      "interestExpenseMM": 320000.0,
+      "totalEquityMM": 5300000.0
     },
     {
       "endDate": "2024-12-31",

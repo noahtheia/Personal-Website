@@ -465,7 +465,10 @@
         "productionVolume": 1842,
         "productionUnit": "kt grain",
         "biologicalAssetsMM": 1248
-      }
+      },
+      "interestExpenseMM": 130,
+      "dividendPerShare": 0.5,
+      "totalEquityMM": 2400
     },
     {
       "endDate": "2020-12-31",
@@ -505,7 +508,8 @@
         "productionVolume": 1842,
         "productionUnit": "kt grain",
         "biologicalAssetsMM": 1248
-      }
+      },
+      "interestExpenseMM": 130
     },
     {
       "endDate": "2021-03-31",
@@ -607,7 +611,10 @@
         "productionVolume": 2186,
         "productionUnit": "kt grain",
         "biologicalAssetsMM": 1486
-      }
+      },
+      "interestExpenseMM": 150,
+      "dividendPerShare": 1.5,
+      "totalEquityMM": 2900
     },
     {
       "endDate": "2021-12-31",
@@ -648,7 +655,8 @@
         "productionVolume": 2186,
         "productionUnit": "kt grain",
         "biologicalAssetsMM": 1486
-      }
+      },
+      "interestExpenseMM": 150
     },
     {
       "endDate": "2022-03-31",
@@ -754,7 +762,10 @@
         "productionVolume": 2342,
         "productionUnit": "kt grain",
         "biologicalAssetsMM": 1614
-      }
+      },
+      "interestExpenseMM": 300,
+      "dividendPerShare": 3.0,
+      "totalEquityMM": 3800
     },
     {
       "endDate": "2022-12-31",
@@ -798,7 +809,8 @@
         "productionVolume": 2342,
         "productionUnit": "kt grain",
         "biologicalAssetsMM": 1614
-      }
+      },
+      "interestExpenseMM": 300
     },
     {
       "endDate": "2023-03-31",
@@ -904,7 +916,10 @@
         "productionVolume": 2486,
         "productionUnit": "kt grain",
         "biologicalAssetsMM": 1748
-      }
+      },
+      "interestExpenseMM": 500,
+      "dividendPerShare": 1.5,
+      "totalEquityMM": 4100
     },
     {
       "endDate": "2023-12-31",
@@ -949,7 +964,8 @@
         "productionVolume": 2486,
         "productionUnit": "kt grain",
         "biologicalAssetsMM": 1748
-      }
+      },
+      "interestExpenseMM": 500
     },
     {
       "endDate": "2024-03-31",
@@ -1056,7 +1072,10 @@
         "productionVolume": 2614,
         "productionUnit": "kt grain",
         "biologicalAssetsMM": 1846
-      }
+      },
+      "interestExpenseMM": 550,
+      "dividendPerShare": 1.0,
+      "totalEquityMM": 4400
     },
     {
       "endDate": "2024-12-31",

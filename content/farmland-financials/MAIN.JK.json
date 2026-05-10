@@ -108,7 +108,8 @@
         "weeklyHeadCapacity": 4100000,
         "capacityUtilizationPct": 76
       },
-      "epsBasic": 64.3144
+      "epsBasic": 64.3144,
+      "interestExpenseMM": 80000.0
     },
     {
       "endDate": "2022-03-31",
@@ -205,7 +206,9 @@
         "plants": 12,
         "weeklyHeadCapacity": 4150000,
         "capacityUtilizationPct": 78
-      }
+      },
+      "interestExpenseMM": 100000.0,
+      "totalEquityMM": 1530000.0
     },
     {
       "endDate": "2022-12-31",
@@ -246,7 +249,8 @@
         "weeklyHeadCapacity": 4150000,
         "capacityUtilizationPct": 78
       },
-      "epsBasic": 96.025
+      "epsBasic": 96.025,
+      "interestExpenseMM": 100000.0
     },
     {
       "endDate": "2023-03-31",
@@ -343,7 +347,9 @@
         "plants": 12,
         "weeklyHeadCapacity": 4200000,
         "capacityUtilizationPct": 72
-      }
+      },
+      "interestExpenseMM": 120000.0,
+      "totalEquityMM": 1430000.0
     },
     {
       "endDate": "2023-12-31",
@@ -384,7 +390,8 @@
         "weeklyHeadCapacity": 4200000,
         "capacityUtilizationPct": 72
       },
-      "epsBasic": 25.0112
+      "epsBasic": 25.0112,
+      "interestExpenseMM": 120000.0
     },
     {
       "endDate": "2024-03-31",
@@ -481,7 +488,9 @@
         "plants": 12,
         "weeklyHeadCapacity": 4200000,
         "capacityUtilizationPct": 76
-      }
+      },
+      "interestExpenseMM": 130000.0,
+      "totalEquityMM": 1480000.0
     },
     {
       "endDate": "2024-12-31",

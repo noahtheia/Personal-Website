@@ -39,7 +39,10 @@
       "propertyBookMM": 0,
       "ppeBookMM": 1610,
       "inventoryMM": 580,
-      "intangibleAssetsMM": 6450
+      "intangibleAssetsMM": 6450,
+      "interestExpenseMM": 350.0,
+      "netIncomeMM": 120.0,
+      "epsBasic": 1.791
     },
     {
       "endDate": "2021-09-30",
@@ -82,7 +85,10 @@
       "propertyBookMM": 0,
       "ppeBookMM": 1880,
       "inventoryMM": 730,
-      "intangibleAssetsMM": 7110
+      "intangibleAssetsMM": 7110,
+      "interestExpenseMM": 320.0,
+      "netIncomeMM": 22.0,
+      "epsBasic": 0.352
     },
     {
       "endDate": "2022-03-31",
@@ -159,7 +165,10 @@
           "foodserviceMixPct": 23
         }
       },
-      "totalAssetsMM": 11525
+      "totalAssetsMM": 11525,
+      "interestExpenseMM": 290.0,
+      "netIncomeMM": 760.0,
+      "epsBasic": 12.562
     },
     {
       "endDate": "2022-12-31",
@@ -253,7 +262,10 @@
           "foodserviceMixPct": 22
         }
       },
-      "totalAssetsMM": 12625
+      "totalAssetsMM": 12625,
+      "interestExpenseMM": 350.0,
+      "netIncomeMM": 300.0,
+      "epsBasic": 4.9423
     },
     {
       "endDate": "2023-12-31",
@@ -361,7 +373,9 @@
           "foodserviceMixPct": 22
         }
       },
-      "totalAssetsMM": 12750
+      "totalAssetsMM": 12750,
+      "netIncomeMM": 365.0,
+      "epsBasic": 6.0783
     },
     {
       "endDate": "2024-12-31",

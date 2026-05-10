@@ -783,7 +783,8 @@
       "propertyBookMM": 3200,
       "ppeBookMM": 6800,
       "inventoryMM": 1800,
-      "intangibleAssetsMM": 380
+      "intangibleAssetsMM": 380,
+      "interestExpenseMM": 150.0
     },
     {
       "endDate": "2020-06-30",
@@ -820,7 +821,8 @@
       "propertyBookMM": 3200,
       "ppeBookMM": 6800,
       "inventoryMM": 1800,
-      "intangibleAssetsMM": 380
+      "intangibleAssetsMM": 380,
+      "interestExpenseMM": 150.0
     },
     {
       "endDate": "2020-09-30",
@@ -875,7 +877,9 @@
       "propertyBookMM": 3350,
       "ppeBookMM": 7000,
       "inventoryMM": 2100,
-      "intangibleAssetsMM": 390
+      "intangibleAssetsMM": 390,
+      "interestExpenseMM": 130.0,
+      "totalEquityMM": 10500.0
     },
     {
       "endDate": "2021-06-30",
@@ -919,7 +923,8 @@
       "propertyBookMM": 3350,
       "ppeBookMM": 7000,
       "inventoryMM": 2100,
-      "intangibleAssetsMM": 390
+      "intangibleAssetsMM": 390,
+      "interestExpenseMM": 130.0
     },
     {
       "endDate": "2021-09-30",
@@ -974,7 +979,9 @@
       },
       "totalAssetsMM": 22500,
       "totalDebtMM": 5400,
-      "cashMM": 2600
+      "cashMM": 2600,
+      "interestExpenseMM": 150.0,
+      "totalEquityMM": 11500.0
     },
     {
       "endDate": "2022-06-30",
@@ -1018,7 +1025,8 @@
         "rspoPct": 92
       },
       "totalDebtMM": 5400,
-      "cashMM": 2600
+      "cashMM": 2600,
+      "interestExpenseMM": 150.0
     },
     {
       "endDate": "2022-09-30",
@@ -1073,7 +1081,9 @@
       },
       "totalAssetsMM": 22000,
       "totalDebtMM": 5200,
-      "cashMM": 2400
+      "cashMM": 2400,
+      "interestExpenseMM": 220.0,
+      "totalEquityMM": 11800.0
     },
     {
       "endDate": "2023-06-30",
@@ -1121,7 +1131,8 @@
         "rspoPct": 95
       },
       "totalDebtMM": 5200,
-      "cashMM": 2400
+      "cashMM": 2400,
+      "interestExpenseMM": 220.0
     },
     {
       "endDate": "2023-09-30",
@@ -1176,7 +1187,9 @@
       },
       "totalAssetsMM": 22500,
       "totalDebtMM": 5100,
-      "cashMM": 2500
+      "cashMM": 2500,
+      "interestExpenseMM": 230.0,
+      "totalEquityMM": 12000.0
     },
     {
       "endDate": "2024-06-30",
@@ -1225,7 +1238,8 @@
         "cpoAspPerMt": 3920,
         "maturePlantedHa": 158000,
         "rspoPct": 95
-      }
+      },
+      "interestExpenseMM": 230.0
     },
     {
       "endDate": "2024-09-30",

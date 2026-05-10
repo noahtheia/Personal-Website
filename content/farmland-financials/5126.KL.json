@@ -653,7 +653,8 @@
       "propertyBookMM": 380,
       "ppeBookMM": 720,
       "inventoryMM": 35,
-      "intangibleAssetsMM": 18
+      "intangibleAssetsMM": 18,
+      "interestExpenseMM": 15
     },
     {
       "endDate": "2020-12-31",
@@ -700,7 +701,8 @@
       "propertyBookMM": 380,
       "ppeBookMM": 720,
       "inventoryMM": 35,
-      "intangibleAssetsMM": 18
+      "intangibleAssetsMM": 18,
+      "interestExpenseMM": 15
     },
     {
       "endDate": "2021-03-31",
@@ -776,7 +778,8 @@
       "propertyBookMM": 400,
       "ppeBookMM": 740,
       "inventoryMM": 40,
-      "intangibleAssetsMM": 18
+      "intangibleAssetsMM": 18,
+      "interestExpenseMM": 14
     },
     {
       "endDate": "2021-12-31",
@@ -824,7 +827,8 @@
       "propertyBookMM": 400,
       "ppeBookMM": 740,
       "inventoryMM": 40,
-      "intangibleAssetsMM": 18
+      "intangibleAssetsMM": 18,
+      "interestExpenseMM": 14
     },
     {
       "endDate": "2022-03-31",
@@ -900,7 +904,8 @@
       },
       "totalAssetsMM": 1780,
       "totalDebtMM": 320,
-      "cashMM": 110
+      "cashMM": 110,
+      "interestExpenseMM": 18
     },
     {
       "endDate": "2022-12-31",
@@ -948,7 +953,8 @@
         "maturePlantedHa": 77500,
         "rspoPct": 50
       },
-      "totalAssetsMM": 1780
+      "totalAssetsMM": 1780,
+      "interestExpenseMM": 18
     },
     {
       "endDate": "2023-03-31",
@@ -1024,7 +1030,8 @@
       },
       "totalAssetsMM": 1850,
       "totalDebtMM": 300,
-      "cashMM": 130
+      "cashMM": 130,
+      "interestExpenseMM": 20
     },
     {
       "endDate": "2023-12-31",
@@ -1072,7 +1079,8 @@
         "maturePlantedHa": 78000,
         "rspoPct": 52
       },
-      "totalAssetsMM": 1850
+      "totalAssetsMM": 1850,
+      "interestExpenseMM": 20
     },
     {
       "endDate": "2024-03-31",
@@ -1149,7 +1157,8 @@
       },
       "totalAssetsMM": 1920,
       "totalDebtMM": 290,
-      "cashMM": 145
+      "cashMM": 145,
+      "interestExpenseMM": 20
     },
     {
       "endDate": "2024-12-31",

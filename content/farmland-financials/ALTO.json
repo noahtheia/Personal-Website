@@ -34,7 +34,8 @@
       "ppeBookMM": 195,
       "inventoryMM": 22,
       "intangibleAssetsMM": 5,
-      "epsBasic": 1.2676
+      "epsBasic": 1.2676,
+      "interestExpenseMM": 8
     },
     {
       "endDate": "2021-12-31",
@@ -66,7 +67,8 @@
       "ppeBookMM": 290,
       "inventoryMM": 35,
       "intangibleAssetsMM": 5,
-      "epsBasic": 0.2781
+      "epsBasic": 0.2781,
+      "interestExpenseMM": 5
     },
     {
       "endDate": "2022-03-31",
@@ -155,7 +157,8 @@
         "ethanolGalsMM": 275
       },
       "totalAssetsMM": 490,
-      "epsBasic": -0.0397
+      "epsBasic": -0.0397,
+      "interestExpenseMM": 6
     },
     {
       "endDate": "2023-03-31",
@@ -244,7 +247,8 @@
         "ethanolGalsMM": 265
       },
       "totalAssetsMM": 460,
-      "epsBasic": -0.5026
+      "epsBasic": -0.5026,
+      "interestExpenseMM": 10
     },
     {
       "endDate": "2024-03-31",

@@ -66,7 +66,8 @@
       "inventoryMM": 4500,
       "intangibleAssetsMM": 17500,
       "epsBasic": 0.5262,
-      "bookValuePerShare": 9.8825
+      "bookValuePerShare": 9.8825,
+      "interestExpenseMM": 3000.0
     },
     {
       "endDate": "2021-12-31",
@@ -130,7 +131,8 @@
       "inventoryMM": 5800,
       "intangibleAssetsMM": 22500,
       "epsBasic": 1.2553,
-      "bookValuePerShare": 13.1944
+      "bookValuePerShare": 13.1944,
+      "interestExpenseMM": 4000.0
     },
     {
       "endDate": "2022-03-31",
@@ -205,7 +207,8 @@
       ],
       "totalAssetsMM": 128500,
       "totalDebtMM": 52500,
-      "cashMM": 22500
+      "cashMM": 22500,
+      "interestExpenseMM": 7000.0
     },
     {
       "endDate": "2022-12-31",
@@ -275,7 +278,8 @@
       ],
       "totalAssetsMM": 128500,
       "epsBasic": 3.8462,
-      "bookValuePerShare": 16.1325
+      "bookValuePerShare": 16.1325,
+      "interestExpenseMM": 7000.0
     },
     {
       "endDate": "2023-03-31",
@@ -350,7 +354,8 @@
       ],
       "totalAssetsMM": 145500,
       "totalDebtMM": 62500,
-      "cashMM": 25500
+      "cashMM": 25500,
+      "interestExpenseMM": 10000.0
     },
     {
       "endDate": "2023-12-31",
@@ -420,7 +425,8 @@
       ],
       "totalAssetsMM": 145500,
       "epsBasic": 2.2276,
-      "bookValuePerShare": 16.9872
+      "bookValuePerShare": 16.9872,
+      "interestExpenseMM": 10000.0
     },
     {
       "endDate": "2024-03-31",
@@ -495,7 +501,8 @@
       ],
       "totalAssetsMM": 150500,
       "totalDebtMM": 68500,
-      "cashMM": 22500
+      "cashMM": 22500,
+      "interestExpenseMM": 12000.0
     },
     {
       "endDate": "2024-12-31",

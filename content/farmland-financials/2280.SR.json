@@ -736,7 +736,9 @@
           "revenueMM": 1180,
           "ebitdaMM": 165
         }
-      ]
+      ],
+      "interestExpenseMM": 350.0,
+      "dividendPerShare": 0.85
     },
     {
       "endDate": "2021-12-31",
@@ -793,7 +795,8 @@
           "ebitdaMM": 165
         }
       ],
-      "epsBasic": 1.287
+      "epsBasic": 1.287,
+      "interestExpenseMM": 350.0
     },
     {
       "endDate": "2022-03-31",
@@ -888,7 +891,9 @@
           "revenueMM": 1280,
           "ebitdaMM": 175
         }
-      ]
+      ],
+      "interestExpenseMM": 400.0,
+      "dividendPerShare": 0.85
     },
     {
       "endDate": "2022-12-31",
@@ -948,7 +953,8 @@
           "ebitdaMM": 175
         }
       ],
-      "epsBasic": 1.454
+      "epsBasic": 1.454,
+      "interestExpenseMM": 400.0
     },
     {
       "endDate": "2023-03-31",
@@ -1043,7 +1049,9 @@
           "revenueMM": 1380,
           "ebitdaMM": 195
         }
-      ]
+      ],
+      "interestExpenseMM": 550.0,
+      "dividendPerShare": 1.0
     },
     {
       "endDate": "2023-12-31",
@@ -1103,7 +1111,8 @@
           "ebitdaMM": 195
         }
       ],
-      "epsBasic": 2.455
+      "epsBasic": 2.455,
+      "interestExpenseMM": 550.0
     },
     {
       "endDate": "2024-03-31",
@@ -1198,7 +1207,9 @@
           "revenueMM": 1450,
           "ebitdaMM": 215
         }
-      ]
+      ],
+      "interestExpenseMM": 600.0,
+      "dividendPerShare": 1.1
     },
     {
       "endDate": "2024-12-31",

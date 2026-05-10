@@ -401,7 +401,8 @@
       "bookValuePerShare": 11.75,
       "capexMM": 75,
       "daMM": 36,
-      "cfoMM": 130
+      "cfoMM": 130,
+      "interestExpenseMM": 50.0
     },
     {
       "endDate": "2020-09-30",
@@ -507,7 +508,9 @@
       "totalAcresK": 308,
       "bookValuePerShare": 13.45,
       "navPerShare": 13.45,
-      "notes": "4T FY20/21 (Apr-Jun 2021): Receita l\u00edquida R$210M, EBITDA Aj R$53M. PL/share = FY20/21 (R$13.45)."
+      "notes": "4T FY20/21 (Apr-Jun 2021): Receita l\u00edquida R$210M, EBITDA Aj R$53M. PL/share = FY20/21 (R$13.45).",
+      "interestExpenseMM": 60.0,
+      "totalEquityMM": 1700.0
     },
     {
       "endDate": "2021-06-30",
@@ -543,7 +546,8 @@
       "bookValuePerShare": 13.45,
       "capexMM": 95,
       "daMM": 42,
-      "cfoMM": 175
+      "cfoMM": 175,
+      "interestExpenseMM": 60.0
     },
     {
       "endDate": "2021-09-30",
@@ -649,7 +653,9 @@
       "totalAcresK": 312,
       "bookValuePerShare": 15.0,
       "navPerShare": 15.0,
-      "notes": "4T FY21/22: Receita l\u00edquida R$260M, EBITDA Aj R$60M. PL/share = FY21/22 (R$15.00)."
+      "notes": "4T FY21/22: Receita l\u00edquida R$260M, EBITDA Aj R$60M. PL/share = FY21/22 (R$15.00).",
+      "interestExpenseMM": 80.0,
+      "totalEquityMM": 1900.0
     },
     {
       "endDate": "2022-06-30",
@@ -685,7 +691,8 @@
       "bookValuePerShare": 15,
       "capexMM": 130,
       "daMM": 49,
-      "cfoMM": 215
+      "cfoMM": 215,
+      "interestExpenseMM": 80.0
     },
     {
       "endDate": "2022-09-30",
@@ -795,7 +802,9 @@
       "totalAcresK": 318,
       "bookValuePerShare": 16.2,
       "navPerShare": 16.2,
-      "notes": "4T FY22/23: Receita l\u00edquida R$290M, EBITDA Aj R$60M. PL/share = FY22/23 (R$16.20)."
+      "notes": "4T FY22/23: Receita l\u00edquida R$290M, EBITDA Aj R$60M. PL/share = FY22/23 (R$16.20).",
+      "interestExpenseMM": 120.0,
+      "totalEquityMM": 2000.0
     },
     {
       "endDate": "2023-06-30",
@@ -833,7 +842,8 @@
       "bookValuePerShare": 16.2,
       "capexMM": 175,
       "daMM": 55,
-      "cfoMM": 165
+      "cfoMM": 165,
+      "interestExpenseMM": 120.0
     },
     {
       "endDate": "2023-09-30",
@@ -943,7 +953,9 @@
       "totalAcresK": 322,
       "bookValuePerShare": 17.03,
       "navPerShare": 17.03,
-      "notes": "4T FY23/24: Receita l\u00edquida R$227M, EBITDA Aj R$45M. PL/share = FY23/24 (R$17.03)."
+      "notes": "4T FY23/24: Receita l\u00edquida R$227M, EBITDA Aj R$45M. PL/share = FY23/24 (R$17.03).",
+      "interestExpenseMM": 150.0,
+      "totalEquityMM": 2050.0
     },
     {
       "endDate": "2024-06-30",
@@ -981,7 +993,8 @@
       "bookValuePerShare": 17.03,
       "capexMM": 165,
       "daMM": 58,
-      "cfoMM": 110
+      "cfoMM": 110,
+      "interestExpenseMM": 150.0
     },
     {
       "endDate": "2024-09-30",
