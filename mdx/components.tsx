@@ -26,3 +26,7 @@ export const mdxComponents = {
   RealCommodityPrices,
   AgInflationOutlook,
 };
+
+// The admin chart palette imports its metadata from `mdx/manifest.ts` — kept
+// separate so client components can read the labels without pulling the chart
+// component code into their bundles. Keep manifest.ts in sync with this map.

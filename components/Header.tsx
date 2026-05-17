@@ -17,6 +17,9 @@ export function Header() {
         <NavLink href="/posts">Writing</NavLink>
         <NavLink href="/targets">Targets</NavLink>
         <NavLink href="/analytics">Analytics</NavLink>
+        {process.env.NODE_ENV === "development" ? (
+          <NavLink href="/admin">Admin</NavLink>
+        ) : null}
       </nav>
     </header>
   );
