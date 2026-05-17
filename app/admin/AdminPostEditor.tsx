@@ -1,7 +1,12 @@
 "use client";
 
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
-import { savePostAction, type AdminPostFile, type SaveResult } from "./actions";
+import {
+  savePostAction,
+  type AdminPostFile,
+  type MdxCompileError,
+  type SaveResult,
+} from "./actions";
 import type { PostFrontmatter } from "@/lib/posts";
 import { mdxComponentMeta } from "@/mdx/manifest";
 
@@ -19,6 +24,7 @@ export function AdminPostEditor({ initial }: Props) {
   const [frontmatter, setFrontmatter] = useState<PostFrontmatter>(initial.frontmatter);
   const [body, setBody] = useState(initial.body);
   const [status, setStatus] = useState<Status>({ kind: "idle" });
+  const [mdxError, setMdxError] = useState<MdxCompileError | null>(null);
   const [pendingCursor, setPendingCursor] = useState<number | null>(null);
 
   const textareaRef = useRef<HTMLTextAreaElement>(null);
@@ -53,6 +59,7 @@ export function AdminPostEditor({ initial }: Props) {
     }
     savedSnapshot.current = { frontmatter, body };
     setStatus({ kind: "saved", at: Date.now() });
+    setMdxError(res.mdxError);
     reloadPreview();
   }, [initial.slug, frontmatter, body]);
 
@@ -110,6 +117,23 @@ export function AdminPostEditor({ initial }: Props) {
     setPendingCursor(start + insertion.length);
   }
 
+  function jumpToLine(line: number | null, column: number | null) {
+    if (!line) return;
+    const ta = textareaRef.current;
+    if (!ta) return;
+    const lines = ta.value.split("\n");
+    const targetLine = Math.min(Math.max(1, line), lines.length);
+    let pos = 0;
+    for (let i = 0; i < targetLine - 1; i++) pos += lines[i].length + 1;
+    const col = Math.max(0, (column ?? 1) - 1);
+    const start = pos + Math.min(col, lines[targetLine - 1].length);
+    const end = pos + lines[targetLine - 1].length;
+    ta.focus();
+    ta.setSelectionRange(start, end);
+    const lineHeight = parseFloat(getComputedStyle(ta).lineHeight) || 20;
+    ta.scrollTop = Math.max(0, (targetLine - 4) * lineHeight);
+  }
+
   function onTextareaKeyDown(e: React.KeyboardEvent<HTMLTextAreaElement>) {
     if (e.key === "Tab") {
       e.preventDefault();
@@ -142,6 +166,13 @@ export function AdminPostEditor({ initial }: Props) {
         dirty={dirty}
         onSave={save}
       />
+      {mdxError ? (
+        <MdxErrorBanner
+          error={mdxError}
+          onJump={() => jumpToLine(mdxError.line, mdxError.column)}
+          onDismiss={() => setMdxError(null)}
+        />
+      ) : null}
       <div className="grid min-h-0 flex-1 gap-3 lg:grid-cols-[220px_minmax(0,1fr)_minmax(0,1fr)]">
         <Palette groups={groups} onInsert={insertAtCursor} />
         <div className="flex min-h-0 flex-col">
@@ -271,6 +302,55 @@ function RelativeTime({ ts }: { ts: number }) {
   const s = Math.max(1, Math.round((Date.now() - ts) / 1000));
   const label = s < 60 ? `${s}s ago` : `${Math.round(s / 60)}m ago`;
   return <span className="text-xs text-muted">Saved {label}</span>;
+}
+
+function MdxErrorBanner({
+  error,
+  onJump,
+  onDismiss,
+}: {
+  error: MdxCompileError;
+  onJump: () => void;
+  onDismiss: () => void;
+}) {
+  const where = error.line
+    ? ` · line ${error.line}${error.column ? `:${error.column}` : ""}`
+    : "";
+  return (
+    <div className="flex items-start gap-3 rounded-sm border border-[var(--negative)] bg-[#fdecea] px-3 py-2 font-sans text-xs">
+      <div className="min-w-0 flex-1">
+        <div className="font-semibold text-[var(--negative)]">
+          MDX compile error{where}
+        </div>
+        <div className="mt-0.5 break-words text-fg-soft">
+          {error.reason || error.message}
+        </div>
+        <div className="mt-1 text-[11px] text-muted">
+          The file is saved, but the preview can&rsquo;t render until this is fixed.
+          A common cause is <code>&lt;</code> immediately before a digit
+          (e.g. <code>&lt;3%</code>) — escape as <code>\&lt;3%</code> or write{" "}
+          <code>&lt; 3%</code>.
+        </div>
+      </div>
+      {error.line ? (
+        <button
+          type="button"
+          onClick={onJump}
+          className="shrink-0 rounded-sm border border-rule bg-[var(--bg-elevated)] px-2 py-1 font-mono text-[11px] !text-fg hover:border-[var(--accent-warm)]"
+        >
+          Jump to line
+        </button>
+      ) : null}
+      <button
+        type="button"
+        onClick={onDismiss}
+        aria-label="Dismiss"
+        className="shrink-0 rounded-sm px-1 text-base !text-muted hover:!text-fg"
+      >
+        ×
+      </button>
+    </div>
+  );
 }
 
 function Palette({

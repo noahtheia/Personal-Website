@@ -79,7 +79,39 @@ export async function loadPostAction(slug: string): Promise<AdminPostFile | null
   };
 }
 
-export type SaveResult = { ok: true; updatedAt: string } | { ok: false; error: string };
+export type SaveResult =
+  | { ok: true; updatedAt: string; mdxError: MdxCompileError | null }
+  | { ok: false; error: string };
+
+export type MdxCompileError = {
+  message: string;
+  reason: string;
+  line: number | null;
+  column: number | null;
+};
+
+async function tryCompileMdx(body: string): Promise<MdxCompileError | null> {
+  if (!body.trim()) return null;
+  try {
+    const { compile } = await import("@mdx-js/mdx");
+    await compile(body);
+    return null;
+  } catch (err: unknown) {
+    const e = err as {
+      message?: string;
+      reason?: string;
+      line?: number;
+      column?: number;
+      place?: { start?: { line?: number; column?: number } };
+    };
+    return {
+      message: e.message ?? String(err),
+      reason: e.reason ?? e.message ?? String(err),
+      line: e.line ?? e.place?.start?.line ?? null,
+      column: e.column ?? e.place?.start?.column ?? null,
+    };
+  }
+}
 
 export async function savePostAction(
   slug: string,
@@ -103,10 +135,11 @@ export async function savePostAction(
   };
   const out = matter.stringify(body.endsWith("\n") ? body : body + "\n", clean);
   fs.writeFileSync(file, out, "utf8");
+  const mdxError = await tryCompileMdx(body);
   revalidatePath(`/posts/${slug}`);
   revalidatePath("/posts");
   revalidatePath("/admin");
-  return { ok: true, updatedAt: new Date().toISOString() };
+  return { ok: true, updatedAt: new Date().toISOString(), mdxError };
 }
 
 export type CreateResult = { ok: true; slug: string } | { ok: false; error: string };
