@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { listPostsAction } from "./actions";
-import { NewPostForm } from "./NewPostForm";
+import { listPostsAction } from "@/app/admin/actions";
+import { NewPostForm } from "@/app/admin/NewPostForm";
 
 export const dynamic = "force-dynamic";
 
@@ -12,7 +12,8 @@ export default async function AdminPostsPage() {
       <section>
         <h1 className="font-display text-xl font-semibold">Posts</h1>
         <p className="mt-1 text-xs text-muted">
-          Writes go to <code>content/posts/*.mdx</code>. Commit via git as usual.
+          Saves write straight to <code>content/posts/*.mdx</code> — on the live site that&rsquo;s a
+          GitHub commit on <code>main</code>; in <code>npm run dev</code> it&rsquo;s a local file write.
         </p>
         <ul className="mt-5 divide-y divide-rule border-y border-rule">
           {posts.length === 0 ? (

@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
-import { loadPostAction } from "../../actions";
-import { AdminPostEditor } from "../../AdminPostEditor";
+import { loadPostAction } from "@/app/admin/actions";
+import { AdminPostEditor } from "@/app/admin/AdminPostEditor";
 
 export const dynamic = "force-dynamic";
 

@@ -9,6 +9,7 @@ import {
 } from "./actions";
 import type { PostFrontmatter } from "@/lib/posts";
 import { mdxComponentMeta } from "@/mdx/manifest";
+import { MdxPreview } from "@/components/admin/MdxPreview";
 
 type Props = { initial: AdminPostFile };
 
@@ -28,7 +29,6 @@ export function AdminPostEditor({ initial }: Props) {
   const [pendingCursor, setPendingCursor] = useState<number | null>(null);
 
   const textareaRef = useRef<HTMLTextAreaElement>(null);
-  const iframeRef = useRef<HTMLIFrameElement>(null);
   const savedSnapshot = useRef({ frontmatter: initial.frontmatter, body: initial.body });
   const inFlight = useRef(false);
 
@@ -60,11 +60,12 @@ export function AdminPostEditor({ initial }: Props) {
     savedSnapshot.current = { frontmatter, body };
     setStatus({ kind: "saved", at: Date.now() });
     setMdxError(res.mdxError);
-    reloadPreview();
   }, [initial.slug, frontmatter, body]);
 
-  // Debounced autosave
+  // Debounced autosave (dev only). In prod each save is a real git commit, so
+  // we require a manual Cmd/Ctrl-S or click of the Save button.
   useEffect(() => {
+    if (process.env.NODE_ENV === "production") return;
     if (!dirty) return;
     const t = setTimeout(() => void save(), AUTOSAVE_MS);
     return () => clearTimeout(t);
@@ -91,19 +92,6 @@ export function AdminPostEditor({ initial }: Props) {
     ta.setSelectionRange(pendingCursor, pendingCursor);
     setPendingCursor(null);
   }, [pendingCursor]);
-
-  function reloadPreview() {
-    const iframe = iframeRef.current;
-    if (!iframe?.contentWindow) return;
-    let scrollY = 0;
-    try { scrollY = iframe.contentWindow.scrollY; } catch { /* cross-origin in error states */ }
-    const onLoad = () => {
-      try { iframe.contentWindow?.scrollTo(0, scrollY); } catch { /* noop */ }
-      iframe.removeEventListener("load", onLoad);
-    };
-    iframe.addEventListener("load", onLoad);
-    iframe.contentWindow.location.reload();
-  }
 
   function insertAtCursor(text: string) {
     const ta = textareaRef.current;
@@ -200,11 +188,12 @@ export function AdminPostEditor({ initial }: Props) {
               Open ↗
             </a>
           </div>
-          <iframe
-            ref={iframeRef}
-            src={`/posts/${initial.slug}`}
-            title="Post preview"
-            className="min-h-0 flex-1 w-full rounded-sm border border-rule bg-[var(--bg-elevated)]"
+          <MdxPreview
+            source={body}
+            title={frontmatter.title ?? ""}
+            draft={frontmatter.draft === true}
+            date={frontmatter.date ?? ""}
+            excerpt={frontmatter.excerpt ?? ""}
           />
         </div>
       </div>
