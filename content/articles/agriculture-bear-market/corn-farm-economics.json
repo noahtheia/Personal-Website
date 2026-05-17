@@ -1,0 +1,9 @@
+{
+  "title": "Representative Midwest corn farm — economics",
+  "source": "TBD — USDA ERS Commodity Costs & Returns; University of Illinois farmdoc",
+  "retrievedAt": null,
+  "notes": "Not yet populated. Expect: assumed corn price (~$4.50/bu), per-acre revenue, the cost stack (seed, chemicals, fertilizer, fuel, machinery, labor, cash rent, etc.), and resulting margin for the land-owning operator (~13.3%) vs. the cash renter (negative). Plus a cap-rate comparison strip (institutional farmland ~2.13%, vs. e.g. 10y Treasury / NCREIF farmland income return).",
+  "cornPriceUsdPerBu": null,
+  "perAcre": { "revenueUsd": null, "costLines": [], "ownerMarginPct": null, "renterMarginPct": null },
+  "capRates": []
+}

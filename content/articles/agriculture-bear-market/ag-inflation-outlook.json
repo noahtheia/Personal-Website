@@ -1,0 +1,9 @@
+{
+  "title": "Agricultural commodity inflation — history and outlook",
+  "unit": "year-over-year %, decimal (0.03 = 3%)",
+  "source": "TBD — FAO Food Price Index; World Bank agricultural price index; BLS (food/ag PPI). Projection is the author's estimate.",
+  "retrievedAt": null,
+  "notes": "Not yet populated. `history` = realized YoY agricultural-commodity inflation; `projection` = the author's forward view (thesis: above ~3%/yr for roughly a decade), drawn as a shaded low/mid/high cone and clearly labeled as an estimate, not a forecast of record.",
+  "history": [],
+  "projection": { "fromYear": null, "toYear": null, "lowPct": null, "midPct": null, "highPct": null }
+}
