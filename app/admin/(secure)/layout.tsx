@@ -4,9 +4,9 @@ import { redirect } from "next/navigation";
 import { SESSION_COOKIE, verifySessionCookie } from "@/lib/admin-session";
 
 // Auth gate for the editor. In production we require a valid signed session
-// cookie issued by the GitHub OAuth callback; without one we bounce to
-// /admin/login. In local dev (`npm run dev`) we skip the check entirely so
-// the editor still works on localhost without OAuth/env-var setup.
+// cookie (issued when you sign in with ADMIN_PASSWORD); without one we bounce
+// to /admin/login. In local dev (`npm run dev`) we skip the check entirely so
+// the editor still works on localhost without any setup.
 
 export const dynamic = "force-dynamic";
 
@@ -16,15 +16,10 @@ export default async function SecureAdminLayout({
   children: React.ReactNode;
 }) {
   const isProd = process.env.NODE_ENV === "production";
-  let user: string | null = null;
   if (isProd) {
     const cookieStore = await cookies();
-    const raw = cookieStore.get(SESSION_COOKIE)?.value;
-    const session = verifySessionCookie(raw);
+    const session = verifySessionCookie(cookieStore.get(SESSION_COOKIE)?.value);
     if (!session) redirect("/admin/login");
-    user = session.githubUser;
-  } else {
-    user = "dev";
   }
 
   return (
@@ -42,7 +37,6 @@ export default async function SecureAdminLayout({
           </Link>
         </div>
         <div className="flex items-center gap-4 font-sans text-xs">
-          {user ? <span className="text-muted">@{user}</span> : null}
           <Link href="/" className="!text-fg no-underline hover:!text-accent">
             ← Back to site
           </Link>

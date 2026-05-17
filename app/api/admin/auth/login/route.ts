@@ -1,33 +1,57 @@
-// GET /api/admin/auth/login → redirect to GitHub's authorize URL with a fresh
-// random `state` cookie for CSRF protection. The callback verifies the state.
+// POST /api/admin/auth/login — accepts a password form submission. If it
+// matches ADMIN_PASSWORD, we issue a signed session cookie and redirect to
+// /admin. Otherwise we bounce back to /admin/login?error=invalid.
 
-import { randomBytes } from "node:crypto";
-import { NextResponse } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
+import {
+  SESSION_COOKIE,
+  SESSION_TTL_SECONDS,
+  serializeSession,
+  verifyAdminPassword,
+} from "@/lib/admin-session";
 
-const STATE_COOKIE = "admin_oauth_state";
-const STATE_TTL_SECONDS = 600;
+function siteUrl(req: NextRequest): string {
+  const env = process.env.NEXT_PUBLIC_SITE_URL;
+  if (env) return env.replace(/\/$/, "");
+  return new URL(req.url).origin;
+}
 
-export async function GET() {
-  const clientId = process.env.GITHUB_CLIENT_ID;
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
-  if (!clientId || !siteUrl) {
-    return new NextResponse("Admin OAuth is not configured.", { status: 500 });
+export async function POST(req: NextRequest) {
+  let password = "";
+  try {
+    const form = await req.formData();
+    const v = form.get("password");
+    if (typeof v === "string") password = v;
+  } catch {
+    // ignore — falls through to invalid
   }
-  const state = randomBytes(24).toString("base64url");
-  const callback = `${siteUrl.replace(/\/$/, "")}/api/admin/auth/callback`;
-  const authorize = new URL("https://github.com/login/oauth/authorize");
-  authorize.searchParams.set("client_id", clientId);
-  authorize.searchParams.set("redirect_uri", callback);
-  authorize.searchParams.set("scope", "repo");
-  authorize.searchParams.set("state", state);
-  authorize.searchParams.set("allow_signup", "false");
-  const res = NextResponse.redirect(authorize.toString());
-  res.cookies.set(STATE_COOKIE, state, {
+
+  const base = siteUrl(req);
+  if (!password || !verifyAdminPassword(password)) {
+    return NextResponse.redirect(`${base}/admin/login?error=invalid`, 303);
+  }
+
+  let cookieValue: string;
+  try {
+    cookieValue = serializeSession({
+      authed: true,
+      exp: Math.floor(Date.now() / 1000) + SESSION_TTL_SECONDS,
+    });
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : "session error";
+    return NextResponse.redirect(
+      `${base}/admin/login?error=${encodeURIComponent(msg)}`,
+      303,
+    );
+  }
+
+  const res = NextResponse.redirect(`${base}/admin`, 303);
+  res.cookies.set(SESSION_COOKIE, cookieValue, {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "lax",
     path: "/",
-    maxAge: STATE_TTL_SECONDS,
+    maxAge: SESSION_TTL_SECONDS,
   });
   return res;
 }

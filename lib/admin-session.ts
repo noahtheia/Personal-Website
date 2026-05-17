@@ -1,11 +1,12 @@
 // Session helpers for the admin portal. Sessions are stored client-side in an
-// HTTP-only signed cookie containing the GitHub OAuth access token + the
-// authenticated username. The cookie payload is HMAC-signed with
-// ADMIN_SESSION_SECRET; tampering invalidates it.
+// HTTP-only signed cookie. The payload is HMAC-signed with ADMIN_SESSION_SECRET;
+// tampering invalidates it.
+//
+// With password auth there's nothing per-user to store — the session just
+// records that someone proved knowledge of ADMIN_PASSWORD and when that proof
+// expires. Commits use GITHUB_TOKEN on the server, not anything in the cookie.
 //
 // Cookie format: `<base64url(JSON(payload))>.<base64url(hmac-sha256(payload))>`.
-// Payload shape: { accessToken, githubUser, exp } where `exp` is a Unix
-// timestamp (seconds).
 
 import { createHmac, timingSafeEqual } from "node:crypto";
 
@@ -13,8 +14,7 @@ export const SESSION_COOKIE = "admin_session";
 export const SESSION_TTL_SECONDS = 60 * 60 * 24 * 30; // 30 days
 
 export type AdminSession = {
-  accessToken: string;
-  githubUser: string;
+  authed: true;
   exp: number;
 };
 
@@ -68,19 +68,25 @@ export function verifySessionCookie(raw: string | undefined): AdminSession | nul
   } catch {
     return null;
   }
-  if (
-    typeof session.accessToken !== "string" ||
-    typeof session.githubUser !== "string" ||
-    typeof session.exp !== "number"
-  ) {
-    return null;
-  }
+  if (session.authed !== true || typeof session.exp !== "number") return null;
   if (session.exp < Math.floor(Date.now() / 1000)) return null;
   return session;
 }
 
-export function isAllowedGithubUser(user: string): boolean {
-  const allowed = process.env.ADMIN_GITHUB_USER;
-  if (!allowed) return false;
-  return user.toLowerCase() === allowed.toLowerCase();
+/** Constant-time check of a submitted password against ADMIN_PASSWORD. */
+export function verifyAdminPassword(supplied: string): boolean {
+  const expected = process.env.ADMIN_PASSWORD;
+  if (!expected) return false;
+  const a = Buffer.from(supplied, "utf8");
+  const b = Buffer.from(expected, "utf8");
+  // Length leak is acceptable — the password length itself isn't sensitive.
+  if (a.length !== b.length) return false;
+  return timingSafeEqual(a, b);
+}
+
+/** Read the server-side commit token (a fine-grained PAT) from env. */
+export function getGithubToken(): string {
+  const t = process.env.GITHUB_TOKEN;
+  if (!t) throw new Error("GITHUB_TOKEN is not set (need a PAT with `contents: write` on this repo).");
+  return t;
 }

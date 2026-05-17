@@ -3,10 +3,11 @@
 // Server actions for the admin editor. Two write paths:
 //   * Dev (`npm run dev`): writes straight to content/posts/*.mdx on disk; no
 //     auth required, no GitHub token needed.
-//   * Prod (Vercel): reads the GitHub OAuth access token from the signed
-//     session cookie and commits via the GitHub Contents API. Each save = one
-//     commit on the configured branch (usually main). The deployed file
-//     system is read-only, so this is the only writable path in prod.
+//   * Prod (Vercel): the signed session cookie proves the user knows
+//     ADMIN_PASSWORD; commits are made server-side with GITHUB_TOKEN (a
+//     fine-grained PAT) via the GitHub Contents API. Each save = one commit on
+//     the configured branch (usually main). The deployed file system is
+//     read-only, so this is the only writable path in prod.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -14,7 +15,7 @@ import { cookies } from "next/headers";
 import { revalidatePath } from "next/cache";
 import matter from "gray-matter";
 import type { PostFrontmatter } from "@/lib/posts";
-import { SESSION_COOKIE, verifySessionCookie } from "@/lib/admin-session";
+import { SESSION_COOKIE, getGithubToken, verifySessionCookie } from "@/lib/admin-session";
 import { ghGetFile, ghListMdx, ghPutFile } from "@/lib/admin-github";
 
 const POSTS_DIR_ABS = path.join(process.cwd(), "content", "posts");
@@ -25,11 +26,11 @@ function isDev(): boolean {
   return process.env.NODE_ENV === "development";
 }
 
-async function requireGithubToken(): Promise<string> {
+async function requireAdminToken(): Promise<string> {
   const cookieStore = await cookies();
   const session = verifySessionCookie(cookieStore.get(SESSION_COOKIE)?.value);
   if (!session) throw new Error("Not signed in.");
-  return session.accessToken;
+  return getGithubToken();
 }
 
 function repoPath(slug: string): string {
@@ -67,7 +68,7 @@ export async function listPostsAction(): Promise<AdminPostSummary[]> {
     }
     return sortByDateDesc(out);
   }
-  const token = await requireGithubToken();
+  const token = await requireAdminToken();
   const files = await ghListMdx(token, POSTS_DIR_REL);
   const out: AdminPostSummary[] = [];
   for (const f of files) {
@@ -122,7 +123,7 @@ export async function loadPostAction(slug: string): Promise<AdminPostFile | null
       updatedAt: stat.mtime.toISOString(),
     };
   }
-  const token = await requireGithubToken();
+  const token = await requireAdminToken();
   const file = await ghGetFile(token, repoPath(slug));
   if (!file) return null;
   const { data, content } = matter(file.content);
@@ -197,7 +198,7 @@ export async function savePostAction(
   } else {
     let token: string;
     try {
-      token = await requireGithubToken();
+      token = await requireAdminToken();
     } catch (err) {
       return { ok: false, error: err instanceof Error ? err.message : "Not signed in." };
     }
@@ -250,7 +251,7 @@ export async function createPostAction(
   } else {
     let token: string;
     try {
-      token = await requireGithubToken();
+      token = await requireAdminToken();
     } catch (err) {
       return { ok: false, error: err instanceof Error ? err.message : "Not signed in." };
     }
