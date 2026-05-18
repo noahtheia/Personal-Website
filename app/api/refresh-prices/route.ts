@@ -65,13 +65,9 @@ export async function GET(req: Request) {
     results.push(...fetched);
   }
 
-  // Trigger Next's static-page revalidation. The comps page revalidates
-  // hourly anyway; the per-ticker pages revalidate every hour as well.
-  // Forcing a revalidation here marks them stale immediately so the
-  // next user request kicks the build.
   try {
-    revalidatePath("/analytics/public-farmland");
-    revalidatePath("/analytics/public-farmland/[ticker]", "page");
+    revalidatePath("/analytics/trends");
+    revalidatePath("/analytics/regression-analysis");
     revalidateTag("farmland-prices");
   } catch {
     // revalidate failures are non-fatal — caching just remains stale

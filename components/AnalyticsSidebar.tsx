@@ -8,11 +8,6 @@ type Section = { id: string; label: string; items: Item[] };
 
 const SECTIONS: Section[] = [
   {
-    id: "sector",
-    label: "Sector",
-    items: [{ href: "/analytics/public-farmland", label: "Agriculture" }],
-  },
-  {
     id: "trends",
     label: "Trends",
     items: [{ href: "/analytics/trends", label: "Agriculture" }],
