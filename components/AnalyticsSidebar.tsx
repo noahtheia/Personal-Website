@@ -24,6 +24,16 @@ const SECTIONS: Section[] = [
       { href: "/analytics/regression-analysis", label: "Agriculture" },
     ],
   },
+  {
+    id: "individual-companies",
+    label: "Individual Companies",
+    items: [
+      {
+        href: "/analytics/public-farmland/LAND3.SA",
+        label: "Terra Santa (LAND3)",
+      },
+    ],
+  },
 ];
 
 export function AnalyticsSidebar() {
