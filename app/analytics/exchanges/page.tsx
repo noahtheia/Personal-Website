@@ -1,4 +1,4 @@
-import { getExchangeIpoSummary } from "@/lib/exchange-ipos";
+import { getExchangeIpoSummary, SOURCE_DISPLAY } from "@/lib/exchange-ipos";
 import { ExchangeIpoTracker } from "@/components/ExchangeIpoTracker";
 
 export const metadata = {
@@ -39,40 +39,44 @@ export default async function ExchangesPage() {
 
       <ExchangeIpoTracker rows={summary.rows} />
 
-      <p className="mt-3 text-xs text-muted">
-        Sources:{" "}
-        <span
-          className={
-            summary.sourcesOk.sec
-              ? "text-fg"
-              : "text-muted line-through decoration-rule"
-          }
-          title="SEC EDGAR 424B4 / 424B3 prospectus filings"
-        >
-          SEC EDGAR
-        </span>{" "}
-        ·{" "}
-        <span
-          className={
-            summary.sourcesOk.yahoo
-              ? "text-fg"
-              : "text-muted line-through decoration-rule"
-          }
-          title="Yahoo Finance IPO calendar"
-        >
-          Yahoo Finance IPO calendar
-        </span>
-        . Refreshed daily by{" "}
-        <code>/api/refresh-ipos</code> (Vercel cron). Only exchanges with
-        at least one IPO in the trailing 24 months are rendered.
+      <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted">
+        <span>Sources:</span>
+        {SOURCE_DISPLAY.map(({ key, label }) => {
+          const status = summary.sourcesOk[key];
+          const ok = status?.ok ?? false;
+          return (
+            <span
+              key={key}
+              className={
+                ok ? "text-fg" : "text-muted line-through decoration-rule"
+              }
+              title={`${label}: ${ok ? "ok" : "no events"}`}
+            >
+              {label}
+              {status && status.count > 0 ? (
+                <span className="ml-1 text-[10px] text-muted">
+                  · {status.count}
+                </span>
+              ) : null}
+            </span>
+          );
+        })}
+      </div>
+
+      <p className="mt-2 text-xs text-muted">
+        Refreshed daily by <code>/api/refresh-ipos</code> (Vercel cron).
+        Only exchanges with at least one IPO in the trailing 24 months
+        are rendered.
       </p>
 
       <p className="mt-10 text-[11px] leading-relaxed text-muted">
-        SEC EDGAR provides comprehensive coverage for US listings (NYSE,
-        Nasdaq, NYSE American). Yahoo&apos;s IPO calendar provides
-        partial coverage for several non-US venues. Smaller exchanges
-        will appear as soon as a source returns data for them. Nothing
-        here is investment advice.
+        Pulled directly from the source exchange or its national
+        regulator: SEC EDGAR (US), ESMA Register of Prospectuses (EU),
+        Euronext (FR/NL/BE/PT/IT/NO/IE), LSE RNS (UK), TMX (Canada),
+        ASX (Australia), HKEX (Hong Kong), JPX (Japan). Yahoo&apos;s
+        IPO calendar is kept as a fallback for venues not yet covered
+        directly. Adapters fail independently; a single bad source
+        won&apos;t take down the page. Nothing here is investment advice.
       </p>
     </div>
   );

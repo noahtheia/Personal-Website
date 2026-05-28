@@ -17,7 +17,19 @@
 // only do the source fan-out once per day per process.
 
 import { unstable_cache } from "next/cache";
-import { fetchSecIpos, fetchYahooIpos, type IpoEvent } from "@/lib/ipo-sources";
+import {
+  fetchAsxIpos,
+  fetchEsmaIpos,
+  fetchEuronextIpos,
+  fetchHkexIpos,
+  fetchJpxIpos,
+  fetchLseIpos,
+  fetchSecIpos,
+  fetchTsxIpos,
+  fetchYahooIpos,
+  type IpoEvent,
+  type IpoSource,
+} from "@/lib/ipo-sources";
 import {
   EXCHANGES,
   getExchange,
@@ -39,12 +51,32 @@ export type ExchangeIpoRow = {
   lastListingDate: string | null;
 };
 
+export type SourceStatus = {
+  ok: boolean;
+  count: number;
+};
+
 export type ExchangeIpoSummary = {
   rows: ExchangeIpoRow[];
   totalIpos: number;
   fetchedAt: string;
-  sourcesOk: { sec: boolean; yahoo: boolean };
+  // Keyed by IpoSource. Order in the page UI follows SOURCE_DISPLAY.
+  sourcesOk: Record<IpoSource, SourceStatus>;
 };
+
+// Display labels for the source-status chips on the index page.
+// Listed in the order we want them shown.
+export const SOURCE_DISPLAY: { key: IpoSource; label: string }[] = [
+  { key: "sec", label: "SEC EDGAR" },
+  { key: "esma", label: "ESMA (EU)" },
+  { key: "euronext", label: "Euronext" },
+  { key: "lse", label: "LSE RNS" },
+  { key: "tsx", label: "TMX (TSX/V)" },
+  { key: "asx", label: "ASX" },
+  { key: "hkex", label: "HKEX" },
+  { key: "jpx", label: "JPX (TSE)" },
+  { key: "yahoo", label: "Yahoo IPO calendar" },
+];
 
 function utcDateKey(d = new Date()): string {
   return d.toISOString().slice(0, 10);
@@ -66,47 +98,75 @@ function monthKey(iso: string): string {
   return iso.slice(0, 7); // YYYY-MM
 }
 
-// Fetch the raw events. SEC is queried once for the whole TTM range.
-// Yahoo is queried per-day over a shorter rolling window (the calendar
-// page returns one day at a time and only really has recent coverage).
+// Fetch raw events from every configured source in parallel. Each
+// source is allowed to fail independently; we record per-source status
+// (ok + event count) so the UI can show which adapters returned data.
+//
+// Source priority for dedupe is the order of SOURCE_FETCHERS below.
+// Earlier entries win the canonical row; later entries can only fill
+// in missing `proceedsUsd` / `sector` fields.
 async function fetchAllEvents(now: Date): Promise<{
   events: IpoEvent[];
-  sourcesOk: { sec: boolean; yahoo: boolean };
+  sourcesOk: Record<IpoSource, SourceStatus>;
 }> {
   const ttmStart = isoMonthsAgo(TTM_MONTHS, now);
   const today = utcDateKey(now);
 
-  const [secResult, yahooResult] = await Promise.allSettled([
-    fetchSecIpos(ttmStart, today),
-    fetchYahooRange(isoDaysAgo(90, now), today),
-  ]);
+  // (source key, async fetcher) tuples. Priority is array order.
+  const SOURCE_FETCHERS: { key: IpoSource; run: () => Promise<IpoEvent[]> }[] = [
+    { key: "sec", run: () => fetchSecIpos(ttmStart, today) },
+    { key: "esma", run: () => fetchEsmaIpos(ttmStart) },
+    { key: "euronext", run: () => fetchEuronextIpos() },
+    { key: "lse", run: () => fetchLseIpos(TTM_MONTHS * 31) },
+    { key: "tsx", run: () => fetchTsxIpos() },
+    { key: "asx", run: () => fetchAsxIpos() },
+    { key: "hkex", run: () => fetchHkexIpos(TTM_MONTHS * 31) },
+    { key: "jpx", run: () => fetchJpxIpos() },
+    { key: "yahoo", run: () => fetchYahooRange(isoDaysAgo(90, now), today) },
+  ];
 
-  const sec = secResult.status === "fulfilled" ? secResult.value : [];
-  const yahoo = yahooResult.status === "fulfilled" ? yahooResult.value : [];
+  const settled = await Promise.allSettled(
+    SOURCE_FETCHERS.map((s) => s.run()),
+  );
 
-  // Dedupe across sources: same ticker + listing date is the same IPO.
-  // Prefer SEC (more accurate exchange attribution); merge Yahoo
-  // proceeds in when SEC didn't have them.
-  const merged = new Map<string, IpoEvent>();
-  for (const ev of sec) {
-    merged.set(`${ev.exchangeMic}|${ev.ticker}|${ev.listingDate}`, ev);
+  const perSource: { key: IpoSource; events: IpoEvent[] }[] = [];
+  const sourcesOk = {} as Record<IpoSource, SourceStatus>;
+  for (let i = 0; i < SOURCE_FETCHERS.length; i++) {
+    const { key } = SOURCE_FETCHERS[i];
+    const result = settled[i];
+    const events = result.status === "fulfilled" ? result.value : [];
+    perSource.push({ key, events });
+    sourcesOk[key] = {
+      ok: result.status === "fulfilled" && events.length > 0,
+      count: events.length,
+    };
   }
-  for (const ev of yahoo) {
-    const k = `${ev.exchangeMic}|${ev.ticker}|${ev.listingDate}`;
-    const existing = merged.get(k);
-    if (!existing) {
-      merged.set(k, ev);
-    } else if (existing.proceedsUsd === null && ev.proceedsUsd !== null) {
-      merged.set(k, { ...existing, proceedsUsd: ev.proceedsUsd });
+
+  // Dedupe by (exchangeMic, ticker, listingDate). Earlier sources win
+  // identity; later sources can fill in missing proceeds / sector only.
+  const merged = new Map<string, IpoEvent>();
+  for (const { events } of perSource) {
+    for (const ev of events) {
+      const k = `${ev.exchangeMic}|${ev.ticker}|${ev.listingDate}`;
+      const existing = merged.get(k);
+      if (!existing) {
+        merged.set(k, ev);
+      } else {
+        let patched: IpoEvent | null = null;
+        if (existing.proceedsUsd === null && ev.proceedsUsd !== null) {
+          patched = { ...(patched ?? existing), proceedsUsd: ev.proceedsUsd };
+        }
+        if (existing.sector === null && ev.sector !== null) {
+          patched = { ...(patched ?? existing), sector: ev.sector };
+        }
+        if (patched) merged.set(k, patched);
+      }
     }
   }
 
   return {
     events: Array.from(merged.values()),
-    sourcesOk: {
-      sec: secResult.status === "fulfilled" && sec.length > 0,
-      yahoo: yahooResult.status === "fulfilled",
-    },
+    sourcesOk,
   };
 }
 

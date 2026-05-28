@@ -87,6 +87,15 @@ export const EXCHANGES: ExchangeRef[] = [
   { mic: "XBEY", name: "Beirut Stock Exchange",            country: "Lebanon",        region: "EMEA",     website: "https://www.bse.com.lb" },
   { mic: "XAMM", name: "Amman Stock Exchange",             country: "Jordan",         region: "EMEA",     website: "https://www.exchange.jo" },
   { mic: "XTUN", name: "Tunis Stock Exchange",             country: "Tunisia",        region: "EMEA",     website: "https://www.bvmt.com.tn" },
+  { mic: "XBUL", name: "Bulgarian Stock Exchange",         country: "Bulgaria",       region: "EMEA",     website: "https://www.bse-sofia.bg" },
+  { mic: "XZAG", name: "Zagreb Stock Exchange",            country: "Croatia",        region: "EMEA",     website: "https://www.zse.hr" },
+  { mic: "XTAL", name: "Nasdaq Tallinn",                   country: "Estonia",        region: "EMEA",     website: "https://www.nasdaqbaltic.com" },
+  { mic: "XRIS", name: "Nasdaq Riga",                      country: "Latvia",         region: "EMEA",     website: "https://www.nasdaqbaltic.com" },
+  { mic: "XLIT", name: "Nasdaq Vilnius",                   country: "Lithuania",      region: "EMEA",     website: "https://www.nasdaqbaltic.com" },
+  { mic: "XLUX", name: "Luxembourg Stock Exchange",        country: "Luxembourg",     region: "EMEA",     website: "https://www.luxse.com" },
+  { mic: "XMAL", name: "Malta Stock Exchange",             country: "Malta",          region: "EMEA",     website: "https://www.borzamalta.com.mt" },
+  { mic: "XBRA", name: "Bratislava Stock Exchange",        country: "Slovakia",       region: "EMEA",     website: "https://www.bsse.sk" },
+  { mic: "XLJU", name: "Ljubljana Stock Exchange",         country: "Slovenia",       region: "EMEA",     website: "https://ljse.si" },
 
   // ── APAC ────────────────────────────────────────────────────────────
   { mic: "XTKS", name: "Tokyo Stock Exchange",             country: "Japan",          region: "APAC",     website: "https://www.jpx.co.jp" },
@@ -253,7 +262,86 @@ const SOURCE_TO_MIC: Record<string, string> = {
   "cse sri lanka": "XCOL",
   "colombo": "XCOL",
   "dhaka": "XDHA",
+
+  // LSE (RNS) market labels
+  "main market": "XLON",
+  "high growth segment": "XLON",
+  // HKEX market labels
+  "main board": "XHKG",
+  "gem": "XHKG",
+  // JPX/TSE market segment labels (post-2022 restructure)
+  "prime market": "XTKS",
+  "standard market": "XTKS",
+  "growth market": "XTKS",
+  // TMX market labels
+  "tmx": "XTSE",
+  "toronto stock exchange": "XTSE",
+  "tsx venture exchange": "XTSX",
+  // ESMA / Euronext market labels we may encounter
+  "euronext": "XPAR",
+  "euronext growth paris": "XPAR",
+  "euronext growth milan": "MTAA",
+  "euronext access paris": "XPAR",
 };
+
+// ESMA / regulators use ISO 3166-1 alpha-2 country codes. Map them to
+// the primary equities MIC for that country. Used as a fallback when
+// a raw exchange label can't be resolved directly.
+const COUNTRY_TO_MIC: Record<string, string> = {
+  AT: "XWBO",
+  BE: "XBRU",
+  BG: "XBUL",
+  HR: "XZAG",
+  CY: "XCYS",
+  CZ: "XPRA",
+  DK: "XCSE",
+  EE: "XTAL",
+  FI: "XHEL",
+  FR: "XPAR",
+  DE: "XETR",
+  GR: "XATH",
+  HU: "XBUD",
+  IS: "XICE",
+  IE: "XMSM",
+  IT: "MTAA",
+  LV: "XRIS",
+  LT: "XLIT",
+  LU: "XLUX",
+  MT: "XMAL",
+  NL: "XAMS",
+  NO: "XOSL",
+  PL: "XWAR",
+  PT: "XLIS",
+  RO: "XBSE",
+  SK: "XBRA",
+  SI: "XLJU",
+  ES: "XMAD",
+  SE: "XSTO",
+  GB: "XLON",
+  CH: "XSWX",
+  // Useful non-EU codes
+  US: "XNAS",
+  CA: "XTSE",
+  AU: "XASX",
+  JP: "XTKS",
+  HK: "XHKG",
+  SG: "XSES",
+  IN: "XNSE",
+  KR: "XKRX",
+  ZA: "XJSE",
+  BR: "BVMF",
+  MX: "XMEX",
+  IL: "XTAE",
+  TR: "XIST",
+  SA: "XSAU",
+  AE: "XADS",
+};
+
+export function resolveMicFromCountry(code: string | null | undefined): string | null {
+  if (!code) return null;
+  const k = code.trim().toUpperCase();
+  return COUNTRY_TO_MIC[k] ?? null;
+}
 
 export function resolveMicFromLabel(label: string | null | undefined): string | null {
   if (!label) return null;
