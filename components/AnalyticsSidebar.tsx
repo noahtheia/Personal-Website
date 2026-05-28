@@ -10,7 +10,10 @@ const SECTIONS: Section[] = [
   {
     id: "sector",
     label: "Sector",
-    items: [{ href: "/analytics/public-farmland", label: "Agriculture" }],
+    items: [
+      { href: "/analytics/public-farmland", label: "Agriculture" },
+      { href: "/analytics/exchanges", label: "Exchange" },
+    ],
   },
   {
     id: "trends",
