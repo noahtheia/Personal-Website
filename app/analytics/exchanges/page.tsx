@@ -71,15 +71,19 @@ export default async function ExchangesPage() {
 
       <p className="mt-10 text-[11px] leading-relaxed text-muted">
         Pulled directly from the source exchange or its national
-        regulator: SEC EDGAR (US) and JPX (Japan). Yahoo&apos;s IPO
-        calendar is wired up as a best-effort fallback for additional
-        venues. Direct adapters for ESMA, Euronext, LSE, TMX, ASX, and
-        HKEX were explored but their public endpoints either 404 or
-        render through JavaScript-only SPAs; the source-adapter
-        architecture is in place so they can be plugged back in once a
-        working endpoint is found. Adapters fail independently; a
-        single bad source won&apos;t take down the page. Nothing here
-        is investment advice.
+        regulator: SEC EDGAR (US), HKEXnews (Hong Kong Main Board +
+        GEM), JPX (Japan), BME equities regulation feed (Spain), CVM
+        Brazil&apos;s public-company registry (B3). Yahoo&apos;s IPO
+        calendar is wired as a best-effort fallback for venues we
+        don&apos;t yet have a direct route to. Additional direct
+        adapters across Europe (LSE, Euronext, Xetra, SIX, Nordic),
+        Asia-Pacific (KRX, TWSE, SGX, BSE/NSE India, ASX), Latin
+        America, and Middle East / Africa are blocked by JS-only SPAs,
+        Akamai/Cloudflare/Imperva anti-bot, or gated paid feeds; the
+        source-adapter architecture is in place so they can be plugged
+        back in once a usable endpoint surfaces. Adapters fail
+        independently; a single bad source won&apos;t take down the
+        page. Nothing here is investment advice.
       </p>
     </div>
   );

@@ -18,6 +18,9 @@
 
 import { unstable_cache } from "next/cache";
 import {
+  fetchBmeIpos,
+  fetchCvmIpos,
+  fetchHkexIpos,
   fetchJpxIpos,
   fetchSecIpos,
   fetchYahooIpos,
@@ -61,8 +64,11 @@ export type ExchangeIpoSummary = {
 // Display labels for the source-status chips on the index page.
 // Listed in the order we want them shown.
 export const SOURCE_DISPLAY: { key: IpoSource; label: string }[] = [
-  { key: "sec", label: "SEC EDGAR" },
+  { key: "sec", label: "SEC EDGAR (US)" },
+  { key: "hkex", label: "HKEXnews (HK)" },
   { key: "jpx", label: "JPX (TSE)" },
+  { key: "bme", label: "BME (Spain)" },
+  { key: "cvm", label: "CVM (Brazil)" },
   { key: "yahoo", label: "Yahoo IPO calendar" },
 ];
 
@@ -106,7 +112,10 @@ async function fetchAllEvents(now: Date): Promise<{
   // adapter is a one-line addition here.
   const SOURCE_FETCHERS: { key: IpoSource; run: () => Promise<IpoEvent[]> }[] = [
     { key: "sec", run: () => fetchSecIpos(ttmStart, today) },
+    { key: "hkex", run: () => fetchHkexIpos() },
     { key: "jpx", run: () => fetchJpxIpos() },
+    { key: "bme", run: () => fetchBmeIpos() },
+    { key: "cvm", run: () => fetchCvmIpos(ttmStart) },
     { key: "yahoo", run: () => fetchYahooRange(isoDaysAgo(90, now), today) },
   ];
 

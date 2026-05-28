@@ -8,6 +8,13 @@
 //   2. Yahoo Finance IPO calendar — best-effort fallback for some
 //      non-US listings when Yahoo's page schema allows extraction.
 //   3. JPX/TSE — English new-listings page for Tokyo.
+//   4. HKEX (Main Board + GEM) — HKEXnews dedicated new-listings
+//      static HTML page.
+//   5. BME (Spain) — official equities-regulation RSS feed; filter
+//      for "Initial trading" (English) / "PRIMERA ADMISIÓN" entries.
+//   6. CVM (Brazil regulator) — `cad_cia_aberta.csv` open-data file;
+//      filter on registration date (DT_REG) and market type
+//      (TP_MERC = "Bolsa") to identify recent IPOs on B3.
 //
 // Every fetcher wraps its network calls with Next's Data Cache
 // (`next: { revalidate: 86400, tags: ["ipos"] }`) so the daily cron at
@@ -17,14 +24,23 @@
 // can't take down the orchestrator.
 //
 // Additional direct-from-exchange adapters were explored (ESMA,
-// Euronext, LSE, TMX, ASX, HKEX) but their endpoints either 404 or
-// render via JavaScript-only SPAs. The `SOURCES` array in
-// lib/exchange-ipos.ts is the single integration point — adding a
-// new source is a one-line change once a working endpoint is found.
+// Euronext, LSE, TMX, ASX, FCA NSM, JSE, NSE India, SGX, TWSE,
+// Bursa Malaysia, IDX, TASE, KAP Turkey) but their endpoints either
+// 404, are gated behind paid feeds, return 403 to non-residential IPs
+// (Akamai/Imperva/Cloudflare), or render via JavaScript-only SPAs.
+// The `SOURCES` array in lib/exchange-ipos.ts is the single integration
+// point — adding a new source is a one-line change once a working
+// endpoint is found.
 
 import { resolveMicFromLabel } from "@/lib/exchanges-reference";
 
-export type IpoSource = "sec" | "yahoo" | "jpx";
+export type IpoSource =
+  | "sec"
+  | "yahoo"
+  | "jpx"
+  | "hkex"
+  | "bme"
+  | "cvm";
 
 export type IpoEvent = {
   exchangeMic: string;
@@ -453,6 +469,255 @@ export async function fetchJpxIpos(): Promise<IpoEvent[]> {
       sector: null,
       sourceUrl: url,
       source: "jpx",
+    });
+  }
+  return out;
+}
+
+// ──────────────────────────────────────────────────────────────────────
+// 4. HKEX — Main Board + GEM dedicated new-listings pages
+// ──────────────────────────────────────────────────────────────────────
+//
+// HKEXnews publishes a static HTML page per market segment listing
+// every recent IPO with stock code, issuer, and PDF links to the
+// announcement / prospectus / allotment results. The PDF URLs embed
+// the announcement date (`/sehk/YYYY/MMDD/...pdf`), which we use as
+// the listing date proxy. Both pages share the same table layout.
+
+const HKEX_PAGES: { url: string; market: string }[] = [
+  {
+    url: "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/Main-Board?sc_lang=en",
+    market: "Main Board",
+  },
+  {
+    url: "https://www2.hkexnews.hk/New-Listings/New-Listing-Information/GEM?sc_lang=en",
+    market: "GEM",
+  },
+];
+
+const HKEX_PDF_DATE_RE = /\/sehk\/(\d{4})\/(\d{2})(\d{2})\//;
+
+export async function fetchHkexIpos(): Promise<IpoEvent[]> {
+  const out: IpoEvent[] = [];
+  const seen = new Set<string>();
+  for (const { url, market } of HKEX_PAGES) {
+    let html: string;
+    try {
+      const res = await fetch(url, {
+        headers: { "User-Agent": politeUserAgent(), Accept: "text/html" },
+        ...CACHE_OPTS,
+      });
+      if (!res.ok) continue;
+      html = await res.text();
+    } catch {
+      continue;
+    }
+    // Each <tr> in the data table is one IPO: [code, name, ann pdf,
+    // prospectus pdf, allotment pdf]. We use the row's first PDF href
+    // to derive a listing date.
+    const rowRe = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
+    let rowMatch: RegExpExecArray | null;
+    while ((rowMatch = rowRe.exec(html))) {
+      const block = rowMatch[1];
+      // Skip header rows (no <td>).
+      if (!/<td/i.test(block)) continue;
+      const cells: string[] = [];
+      const cellRe = /<td[^>]*>([\s\S]*?)<\/td>/gi;
+      let c: RegExpExecArray | null;
+      while ((c = cellRe.exec(block))) cells.push(c[1]);
+      if (cells.length < 2) continue;
+      const ticker = cells[0]
+        .replace(/<[^>]*>/g, " ")
+        .replace(/&nbsp;/g, " ")
+        .trim();
+      const issuer = cells[1]
+        .replace(/<[^>]*>/g, " ")
+        .replace(/&nbsp;/g, " ")
+        .replace(/&amp;/g, "&")
+        .replace(/&ndash;/g, "–")
+        .replace(/&#\d+;/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+      if (!/^\d{1,5}$/.test(ticker) || !issuer) continue;
+      // Find the earliest PDF date in the row's hrefs.
+      let date: string | null = null;
+      const hrefRe = /href=["']([^"']+\.pdf)["']/gi;
+      let h: RegExpExecArray | null;
+      while ((h = hrefRe.exec(block))) {
+        const m = h[1].match(HKEX_PDF_DATE_RE);
+        if (m) {
+          const candidate = `${m[1]}-${m[2]}-${m[3]}`;
+          if (!date || candidate < date) date = candidate;
+        }
+      }
+      if (!date) continue;
+      const padded = ticker.padStart(4, "0");
+      const key = `${padded}|${date}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push({
+        exchangeMic: "XHKG",
+        ticker: padded,
+        issuer,
+        listingDate: date,
+        currency: "HKD",
+        proceedsUsd: null,
+        sector: market,
+        sourceUrl: url,
+        source: "hkex",
+      });
+    }
+  }
+  return out;
+}
+
+// ──────────────────────────────────────────────────────────────────────
+// 5. BME (Spain) — equities regulation RSS feed
+// ──────────────────────────────────────────────────────────────────────
+//
+// BME's official RSS at `/en/bme-exchange/regulation/equities.rss.xml`
+// publishes regulation events. New IPOs appear as items titled
+// "Initial trading of {Name} ({Ticker}) in the Spanish Stock Exchange…".
+// We filter on that English phrase and extract the ticker from the
+// parenthesised suffix.
+
+const BME_ITEM_RE = /<item>([\s\S]*?)<\/item>/g;
+const BME_TITLE_RE = /<title>\s*<!\[CDATA\[([\s\S]*?)\]\]>\s*<\/title>/;
+const BME_PUBDATE_RE = /<pubDate>([^<]+)<\/pubDate>/;
+const BME_INITIAL_TRADING_RE =
+  /Initial trading of\s+([^()]+?)\s*\(([A-Z0-9.]{1,8})\)/i;
+
+export async function fetchBmeIpos(): Promise<IpoEvent[]> {
+  const url =
+    "https://www.bolsasymercados.es/en/bme-exchange/regulation/equities.rss.xml";
+  let xml: string;
+  try {
+    const res = await fetch(url, {
+      headers: {
+        "User-Agent": politeUserAgent(),
+        Accept: "application/rss+xml, application/xml, text/xml",
+      },
+      ...CACHE_OPTS,
+    });
+    if (!res.ok) return [];
+    xml = await res.text();
+  } catch {
+    return [];
+  }
+  const out: IpoEvent[] = [];
+  let m: RegExpExecArray | null;
+  while ((m = BME_ITEM_RE.exec(xml))) {
+    const item = m[1];
+    const title = item.match(BME_TITLE_RE)?.[1] ?? "";
+    const pubDate = item.match(BME_PUBDATE_RE)?.[1] ?? "";
+    const initial = title.match(BME_INITIAL_TRADING_RE);
+    if (!initial) continue;
+    const issuer = initial[1].trim();
+    const ticker = initial[2].trim();
+    const date = toIsoDate(pubDate);
+    if (!date || !ticker || !issuer) continue;
+    out.push({
+      exchangeMic: "XMAD",
+      ticker,
+      issuer,
+      listingDate: date,
+      currency: "EUR",
+      proceedsUsd: null,
+      sector: null,
+      sourceUrl: url,
+      source: "bme",
+    });
+  }
+  return out;
+}
+
+// ──────────────────────────────────────────────────────────────────────
+// 6. CVM (Brazil regulator) — cad_cia_aberta.csv open data
+// ──────────────────────────────────────────────────────────────────────
+//
+// CVM publishes a master CSV of every publicly-registered company in
+// Brazil at `https://dados.cvm.gov.br/dados/CIA_ABERTA/CAD/DADOS/`.
+// Columns of interest:
+//   DT_REG     — date the issuer registered as a public company
+//   DENOM_COMERC / DENOM_SOCIAL — trade and legal names
+//   CD_CVM     — CVM identifier (used as ticker proxy; B3 trade codes
+//                aren't in this file but can be cross-referenced later)
+//   TP_MERC    — "Bolsa" filters to exchange-traded companies
+//   SIT        — active situation; we keep "ATIVO" and "SUSPENSO" but
+//                drop "CANCELADO" since cancellations aren't IPOs
+//   CATEG_REG  — "Categoria A" means full equity registration
+//
+// File is Latin-1 (ISO-8859-1) encoded and uses ";" as the field
+// separator. ~2.6k rows, ~1.5MB.
+
+const CVM_CAD_URL =
+  "https://dados.cvm.gov.br/dados/CIA_ABERTA/CAD/DADOS/cad_cia_aberta.csv";
+
+function parseCsvLine(line: string): string[] {
+  // The file has no embedded quotes or escaped semicolons in the
+  // fields we care about (regulatory text uses commas, not ";"),
+  // so a straight split is safe.
+  return line.split(";");
+}
+
+function decodeLatin1(buf: ArrayBuffer): string {
+  // Node 18+ has TextDecoder available in the global scope.
+  return new TextDecoder("iso-8859-1").decode(buf);
+}
+
+export async function fetchCvmIpos(sinceISO: string): Promise<IpoEvent[]> {
+  let body: string;
+  try {
+    const res = await fetch(CVM_CAD_URL, {
+      headers: { "User-Agent": politeUserAgent(), Accept: "text/csv" },
+      ...CACHE_OPTS,
+    });
+    if (!res.ok) return [];
+    body = decodeLatin1(await res.arrayBuffer());
+  } catch {
+    return [];
+  }
+  const lines = body.split(/\r?\n/);
+  if (lines.length < 2) return [];
+  const header = parseCsvLine(lines[0]);
+  const idxDtReg = header.indexOf("DT_REG");
+  const idxNameComerc = header.indexOf("DENOM_COMERC");
+  const idxNameSocial = header.indexOf("DENOM_SOCIAL");
+  const idxCdCvm = header.indexOf("CD_CVM");
+  const idxTpMerc = header.indexOf("TP_MERC");
+  const idxSit = header.indexOf("SIT");
+  const idxCateg = header.indexOf("CATEG_REG");
+  if (idxDtReg < 0 || idxCdCvm < 0) return [];
+
+  const out: IpoEvent[] = [];
+  for (let i = 1; i < lines.length; i++) {
+    const row = parseCsvLine(lines[i]);
+    if (row.length < header.length - 2) continue;
+    const dtReg = row[idxDtReg]?.trim();
+    if (!dtReg || dtReg < sinceISO) continue;
+    const tpMerc = row[idxTpMerc]?.toUpperCase() ?? "";
+    if (tpMerc && !tpMerc.includes("BOLSA")) continue;
+    const sit = row[idxSit]?.toUpperCase() ?? "";
+    if (sit.includes("CANCELADO")) continue;
+    const categ = row[idxCateg] ?? "";
+    if (categ && !/categoria\s*a/i.test(categ)) continue;
+    const cdCvm = row[idxCdCvm]?.trim();
+    if (!cdCvm) continue;
+    const issuer =
+      (row[idxNameComerc]?.trim() || row[idxNameSocial]?.trim() || cdCvm).replace(
+        /\s+/g,
+        " ",
+      );
+    out.push({
+      exchangeMic: "BVMF",
+      ticker: cdCvm,
+      issuer,
+      listingDate: dtReg,
+      currency: "BRL",
+      proceedsUsd: null,
+      sector: null,
+      sourceUrl: CVM_CAD_URL,
+      source: "cvm",
     });
   }
   return out;
