@@ -18,14 +18,8 @@
 
 import { unstable_cache } from "next/cache";
 import {
-  fetchAsxIpos,
-  fetchEsmaIpos,
-  fetchEuronextIpos,
-  fetchHkexIpos,
   fetchJpxIpos,
-  fetchLseIpos,
   fetchSecIpos,
-  fetchTsxIpos,
   fetchYahooIpos,
   type IpoEvent,
   type IpoSource,
@@ -68,12 +62,6 @@ export type ExchangeIpoSummary = {
 // Listed in the order we want them shown.
 export const SOURCE_DISPLAY: { key: IpoSource; label: string }[] = [
   { key: "sec", label: "SEC EDGAR" },
-  { key: "esma", label: "ESMA (EU)" },
-  { key: "euronext", label: "Euronext" },
-  { key: "lse", label: "LSE RNS" },
-  { key: "tsx", label: "TMX (TSX/V)" },
-  { key: "asx", label: "ASX" },
-  { key: "hkex", label: "HKEX" },
   { key: "jpx", label: "JPX (TSE)" },
   { key: "yahoo", label: "Yahoo IPO calendar" },
 ];
@@ -112,15 +100,12 @@ async function fetchAllEvents(now: Date): Promise<{
   const ttmStart = isoMonthsAgo(TTM_MONTHS, now);
   const today = utcDateKey(now);
 
-  // (source key, async fetcher) tuples. Priority is array order.
+  // (source key, async fetcher) tuples. Priority is array order:
+  // earlier sources win identity on dedupe; later sources can only
+  // fill in missing proceedsUsd / sector. Adding a new direct-exchange
+  // adapter is a one-line addition here.
   const SOURCE_FETCHERS: { key: IpoSource; run: () => Promise<IpoEvent[]> }[] = [
     { key: "sec", run: () => fetchSecIpos(ttmStart, today) },
-    { key: "esma", run: () => fetchEsmaIpos(ttmStart) },
-    { key: "euronext", run: () => fetchEuronextIpos() },
-    { key: "lse", run: () => fetchLseIpos(TTM_MONTHS * 31) },
-    { key: "tsx", run: () => fetchTsxIpos() },
-    { key: "asx", run: () => fetchAsxIpos() },
-    { key: "hkex", run: () => fetchHkexIpos(TTM_MONTHS * 31) },
     { key: "jpx", run: () => fetchJpxIpos() },
     { key: "yahoo", run: () => fetchYahooRange(isoDaysAgo(90, now), today) },
   ];
